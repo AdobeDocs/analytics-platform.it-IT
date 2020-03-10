@@ -2,7 +2,7 @@
 title: Domande frequenti sull'analisi del percorso del cliente
 description: Analisi del percorso del cliente - Domande frequenti.
 translation-type: tm+mt
-source-git-commit: cca701c2a18d094ee4b172b032c125e710b51ff0
+source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: cca701c2a18d094ee4b172b032c125e710b51ff0
 | Dove sono ora tutte le impostazioni relative alla sessione e alla persistenza variabile? | Analisi del percorso del cliente applica tutte queste impostazioni al momento del rapporto e queste ora sono live in Visualizzazioni dati. Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati! |
 | Cosa succede ai segmenti/metriche calcolate esistenti? | Analisi del percorso del cliente non utilizza più eVar, prop o eventi e utilizza invece uno schema AEP. Ciò significa che nessuno dei segmenti o delle metriche di calcolo esistenti è compatibile con l&#39;analisi del percorso cliente. |
 | In che modo l&#39;analisi del percorso cliente gestisce `Uniques Exceeded` i limiti? | Analisi del percorso del cliente non ha limiti di valore univoci, quindi non è necessario preoccuparsi di loro! |
-| Se sono già un [!DNL Data Workbench] cliente, posso passare all&#39;analisi del percorso del cliente in questo momento? | Dipende. Se ti fidi molto del processo unificato dei clienti (UCP), dovrai aspettare fino a quando non sarà stato implementato il sistema di cuciture. Se hai già delle tariffe di autenticazione elevate per i clienti, o se vuoi che tutti i tuoi dati siano in un&#39;unica posizione, o se vuoi sbarazzarti delle eVar, Analisi del percorso cliente potrebbe essere una buona soluzione. |
+| Se sono già un [!DNL Data Workbench] cliente, posso passare all&#39;analisi del percorso del cliente in questo momento? | Dipende. Se ti fidi molto del processo unificato dei clienti (UCP), dovrai aspettare fino a quando non sarà stato implementato il sistema di cuciture. Se hai già tassi di autenticazione elevati per i clienti, o se vuoi che tutti i tuoi dati vengano salvati in un&#39;unica posizione, o se desideri eliminare le eVar, Analisi del percorso cliente potrebbe essere una buona soluzione. |
 
