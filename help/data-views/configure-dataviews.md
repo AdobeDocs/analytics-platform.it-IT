@@ -2,7 +2,7 @@
 title: Configurare le visualizzazioni e l'attribuzione dei dati
 description: Descrive come creare una visualizzazione dati in un dataset della piattaforma in Analisi del percorso cliente
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 ---
 
@@ -32,7 +32,7 @@ Tenete presente questo aspetto prima di applicare le impostazioni di attribuzion
 Dopo aver [impostato e salvato le impostazioni](/help/data-views/create-dataview.md) di visualizzazione dei dati e aggiunto i componenti, potete specificare le impostazioni di attribuzione, se lo desiderate. Puoi specificare le impostazioni di attribuzione/scadenza/lookback per dimensioni e metriche. Se, ad esempio, si desidera che l&#39;attribuzione rimanga valida, è probabile che si desideri impostare un&#39;ora di scadenza personalizzata. Ad esempio, se desiderate che la dimensione &quot;Codice di tracciamento&quot; (una variabile della campagna) impostata su &quot;Ultima interazione&quot; rimanga invariata per una settimana, aggiungete una scadenza personalizzata di 1 settimana.
 
 >[!IMPORTANT]
->È possibile scegliere di non impostare allocazione/scadenza. In tal caso, le dimensioni si comportano come... . Metriche senza impostazioni di attribuzione impostate erediteranno le impostazioni per la dimensione a cui questa metrica è applicata.
+>È possibile scegliere di non impostare allocazione/scadenza. In tal caso, le dimensioni si comportano come proprietà (modello di attribuzione &quot;Same Touch&quot;). Metriche senza impostazioni di attribuzione impostate erediteranno le impostazioni per la dimensione a cui questa metrica è applicata.
 
 ![](assets/edit-component.png)
 
