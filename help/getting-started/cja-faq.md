@@ -2,7 +2,7 @@
 title: Domande frequenti sull'analisi del percorso del cliente
 description: Analisi del percorso del cliente - Domande frequenti.
 translation-type: tm+mt
-source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 | **Prerequisiti** |  |
 | Hai bisogno di Device Graph o Device Coop per l&#39;analisi del percorso del cliente? | No, Device Graph privato o Device Coop non sono richiesti per l&#39;analisi del percorso del cliente. In realtà, non sono ancora supportati. |
 | Hai bisogno di Experience Cloud ID (ECID) per l&#39;analisi del percorso del cliente? | No, Analisi del percorso cliente supporta qualsiasi ID in un set di dati, sia esso ECID o qualsiasi altro ID scelto. |
-| Cosa succede se hai bisogno di ETL dei dati prima di Analisi del percorso cliente? | Oggi, è necessario lavorare con un partner ETL (Unifi o Informatica) per trasformare i dati prima di inserirli in AEP. Se avete bisogno di ETL dopo che i dati sono già stati acquisiti, AEP Query Services offre alcune opzioni limitate. |
+| Cosa succede se devi ETL (Estrai, Trasforma, Carica) i tuoi dati prima di Analisi del percorso cliente? | Oggi, è necessario lavorare con un partner ETL (Unifi o Informatica) per trasformare i dati prima di inserirli in AEP. Se avete bisogno di ETL dopo che i dati sono già stati acquisiti, AEP Query Services offre alcune opzioni limitate. |
 | **Cucitura** |  |
 | È possibile &quot;cucire&quot; l&#39;analisi del percorso del cliente tra dispositivi o tra set di dati? | No. Analisi del percorso del cliente è un sistema di analisi &quot;introiti il tuo ID&quot;. Piani per un buon approccio di cucitura sono in corso. |
 | È supportata l&#39;unione da un comportamento anonimo a un comportamento autenticato? | No, non ancora. |
