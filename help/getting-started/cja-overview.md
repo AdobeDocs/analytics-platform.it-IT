@@ -2,7 +2,7 @@
 title: Panoramica sull'analisi del percorso del cliente
 description: Introduzione all'analisi del percorso del cliente
 translation-type: tm+mt
-source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -11,28 +11,22 @@ source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
 
 Analisi del percorso del cliente è una funzionalità di Analytics che consente di utilizzare l&#39;efficacia di Analysis Workspace con i dati di Adobe Experience Platform. Può suddividere, filtrare, query e visualizzare il valore di dati degli anni ed è combinato con la capacità della Piattaforma di contenere tutti i tipi di schemi e tipi di dati. Utilizzando il modello dati **esperienza (XDM)**, i dati possono essere rappresentati e organizzati in modo uniforme, pronti per essere combinati e esplorati. **Experience Query Services** consente di utilizzare strumenti e framework compatibili con SQL per eseguire query e manipolare tutti i dati.
 
-## Confronto tra CJA e Analysis Workspace
+## Confronto tra CJA e Adobe Analytics tradizionale
 
 Analisi del percorso del cliente amplia l&#39;ambito di Analytics offrendo funzionalità multicanale facili da usare e rimuovendo le limitazioni nelle versioni precedenti di Adobe Analytics. Alcuni miglioramenti importanti sono:
 
 * **Variabili ed eventi** illimitati: I concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono avere una quantità illimitata di dimensioni e metriche univoche.
-* **Unicità illimitata**: Adobe Experience Platform non è limitato ad alcun limite univoco, come i valori univoci da 500 k nelle suite di rapporti tradizionali.
+* **Valori** univoci illimitati: Adobe Experience Platform non è limitato ad alcun limite univoco, come i valori univoci da 500 k nelle suite di rapporti tradizionali.
 * **Modifica dei dati** storici: Con Adobe Experience Platform è possibile rimuovere o correggere i dati.
 * **Dati** suite per report: Le implementazioni esistenti da più set di dati possono essere combinate in Piattaforma.
 
 La versione iniziale di Analisi del percorso del cliente include molte delle funzioni incluse in Analysis Workspace. Per un elenco completo, consulta Supporto [delle funzioni Analisi percorso](cja-aa.md)clienti.
 
-### Aggiornamenti terminologici
+## Confronto tra CJA e analisi multi-dispositivo
 
-Diverse funzioni della CJA sono state rinominate per allinearsi con gli standard di settore. Alcuni nomi aggiornati includono:
+[Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) cross-device si integra con Adobe Experience Platform Identity Service, utilizzando Co-op Graph o Private Graph, per identificare la mappatura dei dispositivi digitali alle persone. È disponibile per i clienti di Adobe Analytics Ultimate.
 
-* I segmenti sono ora noti come &#39;Filtri&#39;
-* Le suite di rapporti virtuali sono ora denominate &quot;visualizzazioni&quot;
-* Le classificazioni sono ora note come &quot;dataset di ricerca&quot;
-* Gli attributi del cliente sono ora noti come &quot;dataset di profilo&quot;
-* I contenitori degli hit sono ora noti come contenitori &#39;Event&#39;
-* I contenitori delle visite sono ora noti come contenitori &#39;Session&#39;
-* I contenitori dei visitatori sono ora noti come contenitori &#39;Persona&#39;
+CJA si integra con i set di dati della piattaforma Adobe Experience e consente l&#39;analisi tra canali in Analysis Workspace. Anche se la CJA non si integra ancora con i grafici di identità Co-op o Privati, puoi &quot;unire il tuo ID&quot; per unire i set di dati, e questi set di dati possono andare oltre i dati digitali per includere sia punti di contatto online che offline. I prerequisiti per la CJA sono descritti più dettagliatamente di seguito.
 
 ## Casi di utilizzo chiave
 
@@ -47,7 +41,7 @@ Analisi del percorso del cliente consente di:
 
 ## Prerequisiti
 
-Prima di iniziare a utilizzare Analisi percorso cliente, è necessario completare i seguenti passaggi:
+Prima di iniziare a utilizzare Analisi percorso cliente, è necessario soddisfare i seguenti prerequisiti:
 
 * La tua organizzazione ha un contratto attivo con Adobe Analytics per Select, Prime o Ultimate con il componente aggiuntivo Analisi del percorso cliente. Se non sei sicuro di quale tipo di contratto hai o se non sei sicuro di avere il componente aggiuntivo CJA, contatta l&#39;Account Manager della tua organizzazione.
 * È stato eseguito il provisioning della tua organizzazione per Adobe Experience Platform.
@@ -63,6 +57,18 @@ Per creare connessioni, aggiungere set di dati, ecc., è necessario disporre del
    * Gestisci spazi dei nomi identità
    * Visualizza sandbox
 * Per accedere ad Analisi percorso cliente o per stabilire una connessione, dovrai anche essere aggiunto a un profilo di prodotto Analisi percorso cliente in [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+### Aggiornamenti terminologici
+
+Diverse funzioni della CJA sono state rinominate per allinearsi con gli standard di settore. Alcuni nomi aggiornati includono:
+
+* I segmenti sono ora noti come &#39;Filtri&#39;.
+* Le suite di rapporti virtuali sono ora denominate &quot;visualizzazioni&quot;.
+* Le classificazioni sono ora note come &quot;dataset di ricerca&quot;.
+* Gli attributi del cliente sono ora noti come &quot;dataset di profilo&quot;.
+* I contenitori degli hit sono ora noti come contenitori &#39;Event&#39;.
+* I contenitori delle visite sono ora noti come contenitori &#39;Session&#39;.
+* I contenitori dei visitatori sono ora noti come contenitori &quot;Persona&quot;.
 
 ## Altre funzionalità integrate in Adobe Experience Platform
 
