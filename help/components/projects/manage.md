@@ -2,11 +2,37 @@
 title: Gestire i progetti
 description: Condivisione, eliminazione o ridenominazione di progetti in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 076ee40e5aef1773976545692378f1b8a55089d4
+source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 
 ---
 
 
 # Gestire i progetti
 
-Il contenuto sarà presto disponibile!
+Utilizzate Project Manager per condividere, rinominare o eliminare i progetti. Per contattare il manager data:
+
+1. Accedete ad [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
+1. Passa a [!UICONTROL Components] > [!UICONTROL Projects].
+
+## Interfaccia
+
+![Interfaccia](../assets/project-ui.png)
+
+Il project manager include le seguenti opzioni:
+
+* **Aggiungi**: Crea un nuovo progetto. Per ulteriori informazioni, consulta [Creazione di un progetto](create.md) .
+* **Ricerca per titolo**: Cercare un progetto per titolo. I risultati vengono filtrati in base al testo immesso qui.
+* **Filtro**: Filtrare i progetti utilizzando la colonna di sinistra. Potete filtrare per tag personalizzati, proprietari, creati da voi, preferiti, approvati o condivisi con voi. Potete anche cercare i filtri desiderati.
+* **Preferiti**: Fai clic sull’icona a ![stella](../assets/star.png) accanto a un progetto per aggiungerlo ai tuoi preferiti.
+* **Personalizzare le colonne**: Fate clic sull&#39;icona delle ![colonne](../assets/columns.png) per mostrare o nascondere le colonne nel project manager.
+
+Fate clic sulla casella di controllo accanto a uno o più progetti per visualizzare ulteriori opzioni.
+
+* **Tag**: Applica un tag a tutti i progetti selezionati. I tag consentono di organizzare i progetti e di filtrarli utilizzando la colonna a sinistra.
+* **Condividi**: Condividi un progetto con altri utenti di Experience Cloud. Se siete amministratori di prodotto, potete anche condividere con l&#39;intera organizzazione o i gruppi. I progetti condivisi con altri utenti nell’organizzazione includono un’icona ![condivisa](../assets/shared.png) accanto al titolo.
+* **Elimina**: Elimina definitivamente i progetti selezionati.
+* **Rinomina**: Se è selezionato un singolo progetto, potete modificarne il titolo.
+* **Approva**: Se siete un amministratore di prodotto, potete aggiungere un timbro di approvazione a un progetto. I progetti approvati informano gli utenti della vostra organizzazione che sono &quot;ufficiali&quot;, distinguendoli dai progetti creati da altri utenti della vostra organizzazione. I progetti approvati includono un&#39;icona ![approvata](../assets/approved.png) accanto al titolo.
+* **Annulla approvazione**: Se siete un amministratore di prodotto e selezionate un progetto già approvato, potete disapprovarlo.
+* **Copia**: Crea una copia dei progetti selezionati. La copia dei progetti viene aggiunta `(Copy)` alla fine del titolo dei nuovi progetti copiati.
+* **Esporta in CSV**: Esporta tutti i progetti selezionati in un file CSV. Le colonne nel file CSV risultante includono tutte le colonne visibili nel project manager.
