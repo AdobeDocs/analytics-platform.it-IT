@@ -36,7 +36,7 @@ Prima di poter creare le viste dati, è necessario [impostare una o più conness
    | Avvia nuova sessione con l&#39;evento | Una nuova sessione inizia quando un evento viene attivato, a prescindere dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, potete utilizzare più eventi per avviare una sessione e una nuova sessione viene attivata se nei dati sono osservati degli eventi. Questa impostazione influirà sul conteggio delle visite, sul contenitore dei segmenti della sessione (già Visita) e sulla logica di scadenza della visita sulle dimensioni. |
    | Aggiungi filtri | &quot;Filtri&quot; è il termine per &quot;segmenti&quot; in Analisi del percorso cliente. Per filtrare i dati, trascinate il filtro appropriato dalla barra a sinistra. Se non si seleziona un filtro, la visualizzazione dati conterrà tutti i dati. |
 
-1. Fai clic su **[!UICONTROL Continue]** (Fine).
+1. Fai clic su **[!UICONTROL Continue]**.
 
 ## Aggiungi componenti
 
