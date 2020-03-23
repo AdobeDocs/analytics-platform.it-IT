@@ -33,7 +33,7 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
    | Ricerca | Analogo a un file Classificazioni. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati dell&#39;evento o del profilo. Ad esempio, potete caricare dati di ricerca che mappano ID numerici nei dati dell&#39;evento ai nomi di prodotto. | N/D | Schema piattaforma su cui si basa questo tipo di set di dati. | N/D |
    | Profilo | Analogo agli attributi del cliente - per attributi non modificabili e non temporali. Dati applicati ai visitatori, utenti o clienti nei dati dell’evento. Ad esempio, consente di caricare dati CRM sui clienti. | N/D | Schema piattaforma su cui si basa questo tipo di set di dati. | Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in Adobe Experience Platform è definito un proprio set di uno o più ID persona, ad esempio Cookie ID, Stitched ID, User ID, Tracking Code e così via.<br>![Persona](assets/person-id.png)**IDNote **: Se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire realmente i set di dati, è necessario utilizzare lo stesso ID persona. |
 
-1. Fai clic su **[!UICONTROL Next]** (Fine).
+1. Fai clic su **[!UICONTROL Next]**.
 
 1. Nella finestra di dialogo Crea connessione, definite le seguenti impostazioni:
 
@@ -45,7 +45,7 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
    | Set di dati | Set di dati inclusi in questa connessione. |
    | Streaming dei dati | Per iniziare lo streaming dei dati per questa connessione, abilita lo streaming dei dati. Quando lo streaming di dati è abilitato per questa connessione, l&#39;account viene addebitato per la quantità di dati in streaming della connessione. (È inoltre possibile abilitare lo streaming di dati in Gestione connessioni.) |
 
-1. Fai clic su **[!UICONTROL Save]** (Fine). Quando si salva questa connessione, si verificano due cose:
+1. Fai clic su **[!UICONTROL Save]**. Quando si salva questa connessione, si verificano due cose:
 
    * È possibile estrarre tutti i dati storici da Piattaforma per tutti i set di dati in questa connessione.
    * Se hai attivato lo streaming, stabilisci una connessione continua, in modo che tutti i nuovi dati che vengono aggiunti ai set di dati in questa connessione vengano automaticamente inseriti in Workspace.
