@@ -19,7 +19,7 @@ Un report classifica mostra una visualizzazione totale aggregata di ciascun valo
 
 1. Assicurati di aver effettuato l’accesso ad [analytics.adobe.com](https://analytics.adobe.com).
 1. Nella barra di navigazione superiore, fai clic su **[!UICONTROL Workspace]**.
-1. Fai clic su **[!UICONTROL Create New Project]** (Fine).
+1. Fai clic su **[!UICONTROL Create New Project]**.
 1. In the modal popup, make sure &#39;Blank Project&#39; is selected, then click **[!UICONTROL Create]**.
 1. A sinistra appare un elenco di dimensioni, metriche, segmenti e intervalli di date. Individua la dimensione Pages (Pagine) (di colore arancione) e trascinala sull’area di lavoro dove è indicato “Drop a Dimension Here” (Rilascia qui una dimensione).
 1. È possibile visualizzare un rapporto che mostra le pagine principali per questo mese. Analysis Workspace ha popolato automaticamente il report con la metrica [Occorrenze](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html).
@@ -32,7 +32,7 @@ Un report con tendenze mostra una visualizzazione temporale delle metriche utili
 
 1. Assicurati di aver effettuato l’accesso ad [analytics.adobe.com](https://analytics.adobe.com).
 1. Nella barra di navigazione superiore, fai clic su **[!UICONTROL Workspace]**.
-1. Fai clic su **[!UICONTROL Create New Project]** (Fine).
+1. Fai clic su **[!UICONTROL Create New Project]**.
 1. In the modal popup, make sure &#39;Blank Project&#39; is selected, then click **[!UICONTROL Create]**.
 1. A sinistra appare un elenco di dimensioni, metriche, segmenti e intervalli di date. Locate the Page Views dimension, and drag it to the small space on the canvas labeled **[!UICONTROL Drop a Metric Here]**. Evita di rilasciarla nello spazio riservato alle dimensioni (almeno per questo esercizio).
 1. Nota: se la suite di rapporti contiene dati, dovrebbe apparire un report di base sulle visualizzazioni di pagina indicante le tendenze nel corso del mese corrente. Analysis Workspace ha introdotto automaticamente l’intervallo di date “Day” (Giorno) per visualizzare la tendenza delle visualizzazioni di pagina nel corso del mese corrente.
