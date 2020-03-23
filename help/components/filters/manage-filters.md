@@ -94,7 +94,7 @@ Come contrassegnare un filtro come approvato:
 
 1. Considera la condivisione dei segmenti approvati con la tua organizzazione.
 
-1. Fai clic su **[!UICONTROL OK]** (Fine).
+1. Fai clic su **[!UICONTROL OK]**.
 
    Osservate l’icona di approvazione accanto al filtro nell’elenco:
 
@@ -124,7 +124,7 @@ Per condividere un filtro:
 
 1. Nella barra degli strumenti di gestione del filtro, fate clic su **[!UICONTROL Share]**.
 
-1. Se siete un amministratore, potete selezionare Tutto o scegliere tra Gruppi e utenti nell’organizzazione. In qualità di non amministratore, potete visualizzare solo singoli utenti. Usate il campo Ricerca per cercare gruppi o utenti. Fai clic su **[!UICONTROL Share]** (Fine). Accanto al filtro viene visualizzata l&#39;icona Condiviso: ![](assets/share_icon.png)
+1. Se siete un amministratore, potete selezionare Tutto o scegliere tra Gruppi e utenti nell’organizzazione. In qualità di non amministratore, potete visualizzare solo singoli utenti. Usate il campo Ricerca per cercare gruppi o utenti. Fai clic su **[!UICONTROL Share]**. Accanto al filtro viene visualizzata l&#39;icona Condiviso: ![](assets/share_icon.png)
 
 1. Potete filtrare i filtri condivisi con voi selezionando Filtri > Altri filtri > Condiviso con me.
 
