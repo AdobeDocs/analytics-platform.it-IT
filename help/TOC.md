@@ -30,7 +30,7 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 + Progetti Workspace {#cja-reporting}
    + [Introduzione a Workspace](projects/workspace-basics.md)
    + [Esecuzione di analisi di base](projects/perform-basic-analysis.md)
-   + [Esegui analisi avanzate](projects/perform-adv-analysis.md)
+   + [Eseguire analisi avanzate](projects/perform-adv-analysis.md)
 + Connessioni {#cja-connections}
    + [Creazione di una connessione](connections/create-connection.md)
    + [Gestione delle connessioni](connections/manage-connection.md)
