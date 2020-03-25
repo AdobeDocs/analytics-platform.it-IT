@@ -203,7 +203,7 @@ QUARTILE(metric,quart)
 
 *Se *quart* = 0, QUARTILE restituisce il valore minimo. Se *quart* = 1, QUARTILE restituisce il primo quartile (25 percentile). Se *quart* = 2, QUARTILE restituisce il primo quartile (50 percentile). Se *quart* = 3, QUARTILE restituisce il primo quartile (75 percentile). Se *quart* = 4, QUARTILE restituisce il valore massimo.
 
-## Turno
+## Round
 
 Restituisce il numero intero più vicino per un valore specificato. Ad esempio, se si desidera evitare di riportare i decimali della valuta per le entrate e un prodotto ha $569,34, utilizzare la formula Round( *Revenue*) per arrotondare le entrate al dollaro più vicino, oppure $569. Un prodotto che riporta $569,51 sarà arrotondato al dollaro più vicino, o $570.
 
