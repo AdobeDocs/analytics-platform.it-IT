@@ -74,7 +74,7 @@ Questa funzione sarà leggermente meno accurata di Count() e RowCount() perché 
 
 ## Arco coseno (riga)
 
-Restituisce l&#39;arcocoseno, o l&#39;inverso del coseno, di una metrica. L&#39;arcoseno è l&#39;angolo il cui coseno è numero. L&#39;angolo restituito è espresso in radianti compresi tra 0 (zero) e pi. Per convertire il risultato dai radianti in gradi, moltiplicatelo per 180/PI( ).
+Restituisce l&#39;arccosina, o l&#39;inverso del coseno, di una metrica. L&#39;arcoseno è l&#39;angolo il cui coseno è numero. L&#39;angolo restituito è espresso in radianti compresi tra 0 (zero) e pi. Per convertire il risultato dai radianti in gradi, moltiplicatelo per 180/PI( ).
 
 ```
 ACOS(metric)
