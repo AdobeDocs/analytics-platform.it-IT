@@ -108,7 +108,7 @@ A seconda delle autorizzazioni, potete condividere i filtri con l’intera organ
 
 | Amministratore | Non amministratore |
 |---|---|
-| Può condividere i filtri con Tutti, Gruppi e Utenti. See the [Admin Console documentation](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) for more information. | Può condividere i filtri solo con singoli utenti. |
+| Può condividere i filtri con Tutti, Gruppi e Utenti. Per ulteriori informazioni, consulta la documentazione [di](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) Admin Console. | Può condividere i filtri solo con singoli utenti. |
 
 Quando è necessario condividere i filtri con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Seguono alcune best practice:
 
