@@ -1,5 +1,5 @@
 ---
-title: Creare una visualizzazione dati
+title: Creazione di una visualizzazione dati
 description: Descrive come creare una visualizzazione dati su un dataset della piattaforma in Customer Journey Analytics (CJA).
 translation-type: tm+mt
 source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
@@ -7,7 +7,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 ---
 
 
-# Creare una visualizzazione dati
+# Creazione di una visualizzazione dati
 
 Una visualizzazione dati è simile a una suite di rapporti virtuale in Analytics, in quanto è in un certo senso una visualizzazione &quot;filtrata&quot; dei dati. Puoi creare diverse viste dati per la stessa connessione, con diverse impostazioni per timeout visita, attribuzione e così via. Potete creare più viste dati per un singolo dataset. Ad esempio, è possibile avere una visualizzazione dati in cui tutte le dimensioni sono impostate su &quot;Last Touch&quot; e, contemporaneamente, un&#39;altra visualizzazione dati (basata sullo stesso dataset) con tutte le dimensioni impostate su &quot;First Touch&quot;.
 
