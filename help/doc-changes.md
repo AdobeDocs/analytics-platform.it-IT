@@ -1,5 +1,5 @@
 ---
-title: Aggiornamenti alla documentazione di CJA
+title: Aggiornamenti della documentazione di CJA
 description: 'Elenca gli aggiornamenti di contenuto per la documentazione di analisi del percorso cliente impostata a partire da dicembre 2019. '
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
