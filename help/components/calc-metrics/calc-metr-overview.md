@@ -1,5 +1,5 @@
 ---
-title: Panoramica delle metriche calcolate
+title: Panoramica sulle metriche calcolate
 description: 'Ulteriori informazioni '
 translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
@@ -7,7 +7,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 ---
 
 
-# Panoramica delle metriche calcolate
+# Panoramica sulle metriche calcolate
 
 Metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che potete creare dalle metriche esistenti. I nostri strumenti Metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. Consentono agli addetti al marketing, ai product manager e agli analisti di porre domande sui dati senza dover cambiare [!DNL Analytics] l&#39;implementazione.
 
