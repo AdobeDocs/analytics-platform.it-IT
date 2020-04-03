@@ -1,5 +1,5 @@
 ---
-title: Creare un intervallo di date
+title: Creazione di un intervallo di date
 description: Crea un intervallo di date da utilizzare nei rapporti.
 translation-type: tm+mt
 source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
@@ -7,7 +7,7 @@ source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
 ---
 
 
-# Creare un intervallo di date
+# Creazione di un intervallo di date
 
 Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi seguenti:
 
