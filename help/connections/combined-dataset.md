@@ -1,5 +1,5 @@
 ---
-title: Set di dati combinati
+title: Dataset combinati
 description: Scoprite come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
 source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
@@ -7,7 +7,7 @@ source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
 ---
 
 
-# Set di dati combinati
+# Dataset combinati
 
 Quando si crea una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &#39;insieme di dati combinato&#39; è ciò che la CJA utilizza per la generazione dei rapporti. Quando si includono più schemi o set di dati in una connessione:
 
