@@ -1,5 +1,5 @@
 ---
-title: Casi di utilizzo di analisi del percorso del cliente
+title: Casi d’uso di Customer Journey Analytics
 description: Casi di utilizzo per l'analisi del percorso cliente
 translation-type: tm+mt
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
@@ -7,7 +7,7 @@ source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 ---
 
 
-# Casi di utilizzo di analisi del percorso del cliente
+# Casi d’uso di Customer Journey Analytics
 
 Analisi del percorso del cliente abilita i seguenti casi d’uso chiave:
 
