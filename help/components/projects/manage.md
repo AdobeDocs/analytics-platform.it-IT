@@ -1,5 +1,5 @@
 ---
-title: Gestire i progetti
+title: Gestione dei progetti
 description: Condivisione, eliminazione o ridenominazione di progetti in Analysis Workspace.
 translation-type: tm+mt
 source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
@@ -7,7 +7,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 ---
 
 
-# Gestire i progetti
+# Gestione dei progetti
 
 Utilizzate Project Manager per condividere, rinominare o eliminare i progetti. Per contattare il manager data:
 
