@@ -1,5 +1,5 @@
 ---
-title: Configurare le visualizzazioni e l'attribuzione dei dati
+title: Configurazione di visualizzazioni dati e attribuzione
 description: Descrive come creare una visualizzazione dati in un dataset della piattaforma in Analisi del percorso cliente
 translation-type: tm+mt
 source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
@@ -9,7 +9,7 @@ source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 # Impostazioni dei componenti e di attribuzione
 
-eVar, prop ed eventi nel senso tradizionale di Adobe Analytics non esistono più in Analisi del percorso del cliente. Sono disponibili elementi dello schema illimitati (dimensioni, metriche, campi elenco). Tutte le impostazioni di attribuzione applicate a eVar e prop durante il processo di raccolta dati ora vengono applicate in fase di query, nota anche come elaborazione report-time.
+eVar, prop ed eventi nel senso tradizionale di Adobe Analytics non esistono più in Customer Journey Analytics. Sono disponibili elementi dello schema illimitati (dimensioni, metriche, campi elenco). Tutte le impostazioni di attribuzione applicate a eVar e prop durante il processo di raccolta dati ora vengono applicate in fase di query, nota anche come elaborazione report-time.
 
 Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) per una panoramica video.
 
