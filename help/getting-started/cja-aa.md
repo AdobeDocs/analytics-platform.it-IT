@@ -1,5 +1,5 @@
 ---
-title: Supporto delle funzioni Analisi del percorso del cliente
+title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di analisi del percorso cliente e quelle di Adobe Analytics.
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
@@ -7,7 +7,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 ---
 
 
-# Supporto delle funzioni Analisi del percorso del cliente
+# Supporto delle funzioni di Customer Journey Analytics
 
 Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate, supportate parzialmente o non supportate in Analisi percorso cliente (CJA). Questi elenchi cambieranno nel tempo man mano che le funzioni vengono aggiunte alla CJA.
 
