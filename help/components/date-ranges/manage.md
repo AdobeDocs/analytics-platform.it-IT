@@ -1,5 +1,5 @@
 ---
-title: Gestisci intervalli date
+title: Gestione degli intervalli di date
 description: Condivisione, ridenominazione o eliminazione di intervalli di date in Analysis Workspace.
 translation-type: tm+mt
 source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
@@ -7,7 +7,7 @@ source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
 ---
 
 
-# Gestisci intervalli date
+# Gestione degli intervalli di date
 
 Utilizzare il gestore intervalli di date per condividere, rinominare o eliminare gli intervalli di date. Per contattare il manager data:
 
