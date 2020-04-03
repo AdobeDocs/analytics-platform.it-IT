@@ -1,5 +1,5 @@
 ---
-title: Panoramica sull'analisi del percorso del cliente
+title: Panoramica su Customer Journey Analytics
 description: Introduzione all'analisi del percorso del cliente
 translation-type: tm+mt
 source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
@@ -7,7 +7,7 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 ---
 
 
-# Panoramica sull&#39;analisi del percorso del cliente
+# Panoramica su Customer Journey Analytics
 
 Analisi del percorso del cliente è una funzionalità di Analytics che consente di utilizzare l&#39;efficacia di Analysis Workspace con i dati di Adobe Experience Platform. Può suddividere, filtrare, query e visualizzare il valore di dati degli anni ed è combinato con la capacità della Piattaforma di contenere tutti i tipi di schemi e tipi di dati. Utilizzando il modello dati **esperienza (XDM)**, i dati possono essere rappresentati e organizzati in modo uniforme, pronti per essere combinati e esplorati. **Experience Query Services** consente di utilizzare strumenti e framework compatibili con SQL per eseguire query e manipolare tutti i dati.
 
