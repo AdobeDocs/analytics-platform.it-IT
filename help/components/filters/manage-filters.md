@@ -1,5 +1,5 @@
 ---
-title: Gestire i filtri
+title: Gestione dei filtri
 description: come gestire i filtri nell'analisi del percorso cliente
 translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
@@ -7,7 +7,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 ---
 
 
-# Gestire i filtri
+# Gestione dei filtri
 
 Gestione filtri offre diversi modi per curare i segmenti, ad esempio condividere, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferiti.
 
