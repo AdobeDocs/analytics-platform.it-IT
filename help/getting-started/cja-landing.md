@@ -1,7 +1,7 @@
 ---
 title: Documentazione del prodotto di Customer Journey Analytics
 description: Pagina di destinazione di Customer Journey Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 61cf17635c73a400b0c3a52666d75a771fca1a47
 
 ---
@@ -20,20 +20,20 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul> 
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-getting-started.html"> Guida introduttiva di Customer Journey Analytics </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-faq.html"> Domande frequenti</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-glossary.html"> Glossario di Customer Journey Analytics</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Guida introduttiva di Customer Journey Analytics </a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-faq.html"> Domande frequenti</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html"> Glossario di Customer Journey Analytics</a> </li> 
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API Adobe Analytics 2.0</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Note sulla versione</b> </p> 
     <ul> 
-     <li>Per conoscere le nuove funzioni e le correzioni, vedi le <a href="https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti. </li> 
+     <li>Per conoscere le nuove funzioni e le correzioni, vedi le <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti. </li> 
     </ul> <p class="head"> <b>Risorse di Adobe Experience Platform</b> </p> 
     <ul> 
-     <li><a href="https://www.adobe.com/it/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
+     <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external"> Tutorial su Adobe Experience Platform</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> Riferimento API</a> </li> 
-     <li><a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentazione e risorse per sviluppatori</a> </li> 
+     <li><a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentazione e risorse per sviluppatori</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
