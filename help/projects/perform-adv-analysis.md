@@ -7,7 +7,7 @@ source-git-commit: 1cddd8624826bddb89c9b362ec91a2c0c30c7a6f
 ---
 
 
-# Eseguire analisi avanzate
+# Esecuzione di analisi avanzate
 
 Introduzione qui.
 
