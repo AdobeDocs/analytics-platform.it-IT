@@ -2,7 +2,7 @@
 title: Riferimento - Funzioni di base
 description: 'Il Generatore di metriche calcolate consente di applicare funzioni statistiche e matematiche per creare metriche calcolate avanzate. '
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -13,7 +13,7 @@ Il Generatore di metriche calcolate consente di applicare funzioni statistiche e
 
 Elenco alfabetico delle funzioni e delle relative definizioni.
 
-> [!NOTE] Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente [!DNL MAXV(PageViews + Visits).]
 
 ## Funzioni tabella e funzioni riga
 
