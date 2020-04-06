@@ -2,7 +2,7 @@
 title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, selezionare Mostra avanzate dall'elenco a discesa Funzioni.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -27,7 +27,7 @@ D&#39;altra parte, se hai due metriche che ti interessano, potrebbe non essere g
 
 Restituisce il valore del relativo argomento. Utilizzare NOT per assicurarsi che un valore non sia uguale a un particolare valore.
 
-> [!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
+>[!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -203,7 +203,7 @@ Restituisce la media delle ultime righe N.
 
 Se N &lt;= 0 utilizza tutte le righe precedenti. Poiché è ordinato dalla dimensione, è utile solo per le dimensioni che hanno un ordine naturale come data o lunghezza del percorso.
 
-> [!NOTE] Questo non funziona come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi invece di sommare le entrate rispetto all&#39;ultima N e sommare i visitatori rispetto all&#39;ultima N e quindi dividendoli. Utilizzate
+>[!NOTE] Questo non funziona come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi invece di sommare le entrate rispetto all&#39;ultima N e sommare i visitatori rispetto all&#39;ultima N e quindi dividendoli. Utilizzate
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -446,7 +446,7 @@ Restituisce tutti gli elementi che non contengono la corrispondenza esatta del v
 
 Restituisce TRUE se un qualsiasi argomento è TRUE o FALSE se tutti gli argomenti sono FALSE.
 
-> [!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
+>[!NOTE] 0 (zero) significa False e qualsiasi altro valore è True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -687,7 +687,7 @@ L&#39;equazione per il punteggio Z è:
 
 dove [!DNL x] è il punteggio grezzo, [!DNL μ] è la media della popolazione, ed [!DNL σ] è la deviazione standard della popolazione.
 
-> [!NOTE] [!DNL μ] (mu) e (sigma) vengono calcolati automaticamente dalla metrica[!DNL σ] .
+>[!NOTE] [!DNL μ] (mu) e (sigma) vengono calcolati automaticamente dalla metrica[!DNL σ] .
 
 Z-score(metrica)
 
@@ -712,5 +712,5 @@ Effettua un test Z con Z-code con Z-score di A.
 
 Restituisce la probabilità che la riga corrente possa essere vista per caso nella colonna.
 
-> [!NOTE] Presuppone che i valori siano normalmente distribuiti.
+>[!NOTE] Presuppone che i valori siano normalmente distribuiti.
 
