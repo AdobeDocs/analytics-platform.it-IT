@@ -2,7 +2,7 @@
 title: Configurazione di visualizzazioni dati e attribuzione
 description: Descrive come creare una visualizzazione dati in un dataset della piattaforma in Analisi del percorso cliente
 translation-type: tm+mt
-source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Tenete presente questo aspetto prima di applicare le impostazioni di attribuzion
 
 * Nell’interfaccia utente della visualizzazione dati, specificate l’attribuzione predefinita. **Nota**: In una data successiva, sarà possibile ignorare queste impostazioni nei progetti Workspace. Tuttavia, al momento questa funzionalità non è disponibile.
 
-* Le impostazioni di attribuzione in Customer Journey Analytics non sono distruttive e retroattive. In altre parole, non puoi arrecare danni irreparabili ai set di dati in Analisi del percorso cliente. Anche se eliminate accidentalmente qualcosa, potete sempre tornare alla piattaforma Experience e riportare nuovamente il dataset. Tenete presente, tuttavia, che il ripristino del set di dati comporta costi aggiuntivi.
+* Le impostazioni di attribuzione in Customer Journey Analytics non sono distruttive e retroattive. In altre parole, non puoi arrecare danni irreparabili ai set di dati in Analisi del percorso cliente. Anche se si elimina accidentalmente qualcosa, è sempre possibile tornare indietro [!UICONTROL Experience Platform] e riportare il dataset. Tenete presente, tuttavia, che il ripristino del set di dati comporta costi aggiuntivi.
 
 * Se desiderate che una dimensione &quot;si comporti&quot; come una eVar tradizionale (variabile di conversione), è necessario configurarla con l&#39;attribuzione &quot;Ultima visita di contatto&quot; per impostazione predefinita.
 
