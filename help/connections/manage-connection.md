@@ -2,14 +2,14 @@
 title: Gestione delle connessioni
 description: Descrive come gestire le connessioni ai set di dati della piattaforma.
 translation-type: tm+mt
-source-git-commit: 43d7606886c1e1e51c549d4741924a902a7de26c
+source-git-commit: fa7898d73756c33a0bae22c8758bc9f0a649626a
 
 ---
 
 
 # Gestione delle connessioni
 
-Una volta create una o più connessioni, è possibile gestirle in Gestione connessioni. È possibile
+Una volta create una o più connessioni, potete gestirle in [!UICONTROL Connections] Manager. È possibile
 
 * Eliminare una connessione.
 * Rinominare una connessione.
@@ -26,9 +26,9 @@ Una volta create una o più connessioni, è possibile gestirle in Gestione conne
 
    | Azione | Descrizione |
    |---|---|
-   | Elimina | L&#39;eliminazione di una connessione non comporta l&#39;eliminazione del dataset, poiché i dati si trovano ancora in Adobe Experience Platform. |
-   | Rinomina | Ridenominazione di una connessione in corso... |
-   | Crea visualizzazione dati | Questo collegamento porta al generatore [di](/help/data-views/create-dataview.md)visualizzazione dati. |
-   | Avvia o interrompi lo streaming dei dati | &quot;Streaming&quot; significa che se vengono aggiunti nuovi batch a uno qualsiasi dei set di dati della connessione, i nuovi dati verranno inseriti in Analisi del percorso del cliente per la generazione dei rapporti. |
+   | [!UICONTROL Delete] | L&#39;eliminazione di una connessione non comporta l&#39;eliminazione del dataset, poiché i dati si trovano ancora in Adobe Experience Platform. |
+   | [!UICONTROL Rename] | È possibile rinominare la connessione con un nome più descrittivo. |
+   | [!UICONTROL Create Data View] | Questo collegamento porta al generatore [di](/help/data-views/create-dataview.md)visualizzazione dati. |
+   | [!UICONTROL Start or stop data streaming] | &quot;Streaming&quot; significa che se vengono aggiunti nuovi batch a uno qualsiasi dei set di dati della connessione, questi nuovi dati verranno inseriti [!UICONTROL Customer Journey Analytics] per la generazione di rapporti. |
 
 
