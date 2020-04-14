@@ -2,7 +2,7 @@
 title: Creazione di una visualizzazione dati
 description: Descrive come creare una visualizzazione dati su un dataset della piattaforma in Customer Journey Analytics (CJA).
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
 
 ## Prerequisito
 
-Prima di poter creare le viste dati, è necessario [impostare una o più connessioni ai set di dati](/help/connections/create-connection.md)di Adobe Experience Platform.
+Prima di poter creare le viste dati, è necessario [impostare una o più connessioni ai set di dati della piattaforma] esperienza](/help/connections/create-connection.md).
 
 ## Configura impostazioni
 
@@ -27,7 +27,7 @@ Prima di poter creare le viste dati, è necessario [impostare una o più conness
 
    | Impostazione sessione | Definizione |
    |---|---|
-   | Connessione | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene i set di dati della piattaforma. |
+   | Connessione | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene il/i [!UICONTROL Experience Platform] set di dati. |
    | Nome | È obbligatorio assegnare un nome alla visualizzazione dati. |
    | Descrizione | Una descrizione dettagliata non è obbligatoria, ma consigliata. |
    | Aggiungi tag | I tag consentono di organizzare le viste dati in categorie. |
