@@ -2,7 +2,7 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 translation-type: tm+mt
-source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
+source-git-commit: 69f9154387ec11e9b1ec6f867ebab6d556451a9a
 
 ---
 
@@ -12,17 +12,17 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 | Domanda | Risposta |
 |---|---|
 | **Prerequisiti** |  |
-| Sono necessari Device Graph o Device Coop per utilizzare Customer Journey Analytics? | No, per utilizzare Customer Journey Analytics non sono necessari Device Graph privato o Device Coop. Al momento non sono ancora supportati. |
-| È necessario Experience Cloud ID (ECID) per utilizzare Customer Journey Analytics? | No, Customer Journey Analytics supporta qualsiasi ID in un dataset, sia esso ECID o qualsiasi altro ID scelto. |
+| Do you need Device Graph or Device Coop for [!UICONTROL Customer Journey Analytics]? | No, Private Device Graph or Device Coop are not required for [!UICONTROL Customer Journey Analytics]. Al momento non sono ancora supportati. |
+| Do you need Experience Cloud ID (ECID) for [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Customer Journey Analytics] supports any ID in a dataset, whether that&#39;s ECID or any other ID you choose. |
 | In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in Customer Journey Analytics? | Al momento, è necessario lavorare con un partner ETL (Unifi o Informatica) per trasformare i dati prima di inserirli in AEP. Se hai bisogno di effettuare operazioni di ETL dopo che i dati sono già stati acquisiti, AEP Query Services offre alcune opzioni limitate. |
 | **Stitching** |  |
-| Customer Journey Analytics può effettuare lo stitching tra dispositivi o tra dataset? | No. Customer Journey Analytics è un sistema di analisi che richiede un ID personale. La realizzazione di un approccio efficace di stitching è in corso di progettazione. |
+| Can [!UICONTROL Customer Journey Analytics] &quot;stitch&quot; across devices or across datasets? | No. [!UICONTROL Customer Journey Analytics] è un sistema di analisi &quot;port-your-own-ID&quot;. La realizzazione di un approccio efficace di stitching è in corso di progettazione. |
 | È supportato lo stitching da un comportamento anonimo a un comportamento autenticato? | No, non ancora. |
-| **Come inserire dati in Customer Journey Analytics** |  |
-| Qual è la latenza prevista per Customer Journey Analytics sulla piattaforma? | <ul><li>In condizioni di carico normale: &lt; 60 minuti <br>**Nota:** in caso di volume insolitamente elevato del flusso di dati che attraversa la pipeline, potrebbero essere necessarie fino a 24 ore.</li><li>Dati di backfill (fino a 10 miliardi di eventi): &lt; 4 settimane</li></ul> |
-| Come si collegano i dati online ai dati offline in Customer Journey Analytics? | Customer Journey Analytics è un sistema di analisi che richiede un ID personale. Se l’ID della persona corrisponde nei dataset, Customer Journey Analytics può collegare segmenti, attribuzione, flusso, fallout, e così via tra dataset. |
-| Come posso inserire i miei dati offline in Customer Journey Analytics? | I clienti devono inserire tutti i dati in AEP prima di poterli utilizzare con Customer Journey Analytics. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati può fornire consigli o consulenza ai clienti. |
-| Come posso inserire i dati di Analytics in Customer Journey Analytics? | I dati di Analytics possono essere collegati ad AEP tramite Analytics Data Connector. La maggior parte dei campi di Analytics vengono trasferiti in formato XDM, ma altri campi non sono ancora disponibili (come le dimensioni dei canali di marketing). |
+| **Recupero dei dati[!UICONTROL Customer Journey Analytics]** |  |
+| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] on [!UICONTROL Experience Platform]? | <ul><li>In condizioni di carico normale: &lt; 60 minuti <br>**Nota:** in caso di volume insolitamente elevato del flusso di dati che attraversa la pipeline, potrebbero essere necessarie fino a 24 ore.</li><li>Dati di backfill (fino a 10 miliardi di eventi): &lt; 4 settimane</li></ul> |
+| How do you connect online data to offline data in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics] è un sistema di analisi &quot;porta il tuo ID&quot;. As long as the person ID matches between datasets, [!UICONTROL Customer Journey Analytics] can connect segments, attribution, flow, fallout, etc. tra dataset. |
+| Come posso inserire i miei dati offline in Customer Journey Analytics? | I clienti devono innanzitutto portare qualsiasi dato a Experience Platform prima di poterlo utilizzare con Customer Journey Analytics. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati può fornire consigli o consulenza ai clienti. |
+| Come posso inserire i dati di Analytics in Customer Journey Analytics? | I dati di Analytics possono essere collegati a Experience Platform tramite il Connettore dati di Analytics. La maggior parte dei campi di Analytics vengono trasferiti in formato XDM, ma altri campi non sono ancora disponibili (come le dimensioni dei canali di marketing). |
 | Quanto tempo è necessario per assemblare gli elementi di un dataset in una visualizzazione dati? | Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dati. |
 | È necessario inserire dati PII per stabilire connessioni tra i dati? | No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII. |
 | **Componenti tradizionali di Analytics** |  |
