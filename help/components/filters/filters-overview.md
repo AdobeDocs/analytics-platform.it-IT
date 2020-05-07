@@ -2,7 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 Potete creare e salvare i filtri nel generatore di filtri oppure generare filtri da una visualizzazione Abbandono (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
 >[!IMPORTANT]
-I filtri sono noti come &quot;segmenti&quot; in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform ha una definizione diversa di &quot;segmento&quot;. Un segmento in AEP si riferisce a...
+>I filtri sono noti come &quot;segmenti&quot; in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform ha una definizione diversa di &quot;segmento&quot;.
 
 Il filtro include [Filter Builder](/help/components/filters/create-filters.md) per creare filtri ed eseguire un test preliminare, e [Filter Manager](/help/components/filters/manage-filters.md) per raccogliere, assegnare tag, approvare, impostare la protezione e condividere i filtri all&#39;interno dell&#39;organizzazione.
 
