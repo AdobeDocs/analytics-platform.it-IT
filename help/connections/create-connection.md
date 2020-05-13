@@ -2,9 +2,9 @@
 title: Creazione di una connessione
 description: Descrive come creare una connessione a un set di dati della piattaforma in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: b81116bba59c4b52dfe5b8b628c581e332a05c48
+source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
 
 1. Fate clic **[!UICONTROL Create new connection]** in alto a destra.
 
-![Crea connessione](assets/create-connection.png)
+   ![Crea connessione](assets/create-connection.png)
 
 1. Innanzitutto, scegliete una sandbox in Experience Platform che contenga il/i set di dati a cui desiderate creare una connessione. Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che dividono una singola istanza della piattaforma in ambienti virtuali separati per sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati. Non potete accedere ai dati tra le sandbox.
 
