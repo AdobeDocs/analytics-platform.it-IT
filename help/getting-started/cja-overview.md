@@ -2,7 +2,10 @@
 title: Panoramica su Customer Journey Analytics
 description: Introduzione all'analisi del percorso del cliente
 translation-type: tm+mt
-source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
+source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ La versione iniziale di Analisi del percorso del cliente include molte delle fun
 
 ## Confronto tra CJA e analisi multi-dispositivo
 
-[Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) cross-device si integra con Adobe Experience Platform Identity Service, utilizzando Co-op Graph o Private Graph, per identificare la mappatura dei dispositivi digitali alle persone. È disponibile per i clienti di Adobe Analytics Ultimate.
+[Analytics](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html) cross-device si integra con Adobe Experience Platform Identity Service, utilizzando Co-op Graph o Private Graph, per identificare la mappatura dei dispositivi digitali alle persone. È disponibile per i clienti di Adobe Analytics Ultimate.
 
 CJA si integra con i set di dati della piattaforma Adobe Experience e consente l&#39;analisi tra canali in Analysis Workspace. Anche se la CJA non si integra ancora con i grafici di identità Co-op o Privati, puoi &quot;unire il tuo ID&quot; per unire i set di dati, e questi set di dati possono andare oltre i dati digitali per includere sia punti di contatto online che offline. I prerequisiti per la CJA sono descritti più dettagliatamente di seguito.
 
@@ -32,7 +35,7 @@ CJA si integra con i set di dati della piattaforma Adobe Experience e consente l
 
 Analisi del percorso del cliente consente di:
 
-* **Scopri il cliente in un contesto** di viaggio: È possibile visualizzare e analizzare i dati in sequenza su più canali. I dati provenienti dai call center, dai sistemi POS e dalle proprietà online possono essere combinati in un&#39;unica visualizzazione di reporting.
+* **Scopri il cliente in un contesto** di viaggio: È possibile visualizzare e analizzare i dati in sequenza su più canali. I dati provenienti dal call center, dai sistemi POS e dalle proprietà online possono essere combinati in un&#39;unica visualizzazione di reporting.
 * **Rendi le informazioni disponibili a tutti**: Democratizzare l&#39;accesso ai dati e consentire a più persone di prendere decisioni aziendali con informazioni derivate dai dati. Chiunque all&#39;interno dell&#39;organizzazione sia responsabile di qualsiasi aspetto dell&#39;esperienza cliente può prendere decisioni concrete più rapidamente, sulla base di dati più completi.
 * **Sfruttate la potenza della scienza dei dati per i vostri analisti**: Analisi del percorso dei clienti consente agli esseri umani normali di utilizzare la scienza dei dati per acquisire informazioni approfondite e analizzarle.
 * **Visualizzare e interagire con i set di dati utilizzando i rapporti** ad hoc: Workspace può utilizzare qualsiasi set di dati di Adobe Experience Platform conforme ad alcune regole di base.
