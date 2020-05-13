@@ -2,7 +2,10 @@
 title: Creazione di una connessione
 description: Descrive come creare una connessione a un set di dati della piattaforma in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: f17994c7d6812480102b9dc5fdbfc4609d2d1012
+source-git-commit: b81116bba59c4b52dfe5b8b628c581e332a05c48
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,9 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
 
 ![Crea connessione](assets/create-connection.png)
 
-1. Nella barra a sinistra sono visualizzati tutti i set di dati [!DNL Experience Platform] da cui è possibile eseguire il pulling. Selezionare uno o più set di dati in cui si desidera eseguire il pulling [!UICONTROL Customer Journey Analytics] e fare clic su **[!UICONTROL Add]**. Se si dispone di molti set di dati tra cui scegliere, è possibile cercare quelli giusti utilizzando la barra di ricerca sopra l&#39;elenco dei set di dati.
+1. Innanzitutto, scegliete una sandbox in Experience Platform che contenga il/i set di dati a cui desiderate creare una connessione. Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che dividono una singola istanza della piattaforma in ambienti virtuali separati per sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati. Non potete accedere ai dati tra le sandbox.
+
+1. Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui è possibile eseguire il pulling. Selezionare uno o più set di dati in cui si desidera eseguire il pulling [!UICONTROL Customer Journey Analytics] e fare clic su **[!UICONTROL Add]**. Se si dispone di molti set di dati tra cui scegliere, è possibile cercare quelli giusti utilizzando la barra di ricerca sopra l&#39;elenco dei set di dati.
 
 1. Successivamente, per ogni set di dati aggiunto alla connessione, imposta [!UICONTROL Customer Journey Analytics] automaticamente il tipo di set di dati in base ai dati in arrivo. Esistono 3 tipi di set di dati diversi: [!UICONTROL Event] dati, [!UICONTROL Profile] dati e [!UICONTROL Lookup] dati.
 
@@ -39,7 +44,7 @@ Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/
 
 1. Nella [!UICONTROL Create Connection] finestra di dialogo, definite le seguenti impostazioni:
 
-   | Field | Descrizione |
+   | Campo | Descrizione |
    |---|---|
    | [!UICONTROL Name Connection] | Assegnare alla connessione un nome descrittivo. Impossibile salvare la connessione senza un nome. |
    | [!UICONTROL Description] | Aggiungete ulteriori dettagli per distinguere questa connessione dagli altri. |
