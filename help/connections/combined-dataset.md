@@ -2,7 +2,10 @@
 title: Dataset combinati
 description: Scoprite come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 4%
 
 ---
 
@@ -58,8 +61,8 @@ Se la connessione includeva solo la prima tabella e non la seconda, l&#39;estraz
 
 | string_color | metriche_a |
 | --- | --- |
-| Blu | 5 |
 | Non specificato | 6 |
+| Blu | 3 |
 | Rosso | 2 |
 
 Tuttavia, se nella connessione sono incluse entrambe le tabelle, l&#39;attribuzione `user_847` viene modificata in quanto si trova in entrambi i set di dati. Una riga dagli attributi del secondo set di dati `metric_a` a &#39;Giallo&#39;, dove in precedenza non erano specificati:
@@ -67,5 +70,5 @@ Tuttavia, se nella connessione sono incluse entrambe le tabelle, l&#39;attribuzi
 | string_color | metriche_a |
 | --- | --- |
 | Giallo | 6 |
-| Rosso | 2 |
 | Blu | 3 |
+| Rosso | 2 |
