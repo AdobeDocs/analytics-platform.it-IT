@@ -1,53 +1,53 @@
 ---
 title: Configurazione di visualizzazioni dati e attribuzione
-description: Descrive come creare una visualizzazione dati in un dataset della piattaforma in Analisi del percorso cliente
-translation-type: tm+mt
+description: Descrive come creare una visualizzazione dati in un set di dati della Platform in Customer Journey Analytics
+translation-type: ht
 source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
 
-# Impostazioni dei componenti e di attribuzione
+# Impostazioni del componente e di attribuzione
 
-eVar, prop ed eventi nel senso tradizionale di Adobe Analytics non esistono più in Customer Journey Analytics. Sono disponibili elementi dello schema illimitati (dimensioni, metriche, campi elenco). Tutte le impostazioni di attribuzione applicate a eVar e prop durante il processo di raccolta dati ora vengono applicate in fase di query, nota anche come elaborazione report-time.
+eVar, prop ed eventi nel senso tradizionale di Adobe Analytics non esistono più in Customer Journey Analytics. Invece, sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Tutte le impostazioni di attribuzione applicate a eVar e prop durante il processo di raccolta dati ora vengono applicate in fase di query, nota anche come elaborazione dell’ora del report.
 
-Fate clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) per una panoramica video.
+Per una panoramica video, fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html).
 
-Tenete presente questo aspetto prima di applicare le impostazioni di attribuzione:
+Tieni presente questo aspetto prima di applicare le impostazioni di attribuzione:
 
-* Nell’interfaccia utente della visualizzazione dati, specificate l’attribuzione predefinita. **Nota**: In una data successiva, sarà possibile ignorare queste impostazioni nei progetti Workspace. Tuttavia, al momento questa funzionalità non è disponibile.
+* Nell’interfaccia utente della visualizzazione dati, specifica l’attribuzione predefinita. **Nota**: in una data successiva, sarà possibile ignorare queste impostazioni nei progetti Workspace. Tuttavia, al momento questa funzionalità non è disponibile.
 
-* Le impostazioni di attribuzione in Customer Journey Analytics non sono distruttive e retroattive. In altre parole, non puoi arrecare danni irreparabili ai set di dati in Analisi del percorso cliente. Anche se si elimina accidentalmente qualcosa, è sempre possibile tornare indietro [!UICONTROL Experience Platform] e riportare il dataset. Tenete presente, tuttavia, che il ripristino del set di dati comporta costi aggiuntivi.
+* Le impostazioni di attribuzione in Customer Journey Analytics non sono distruttive e retroattive. In altre parole, non puoi arrecare danni irreparabili ai set di dati in Customer Journey Analytics. Anche se elimini accidentalmente qualcosa, è sempre possibile ritornare a [!UICONTROL Experience Platform] e reinserire il set di dati. Tuttavia, il ripristino del set di dati comporta costi aggiuntivi.
 
-* Se desiderate che una dimensione &quot;si comporti&quot; come una eVar tradizionale (variabile di conversione), è necessario configurarla con l&#39;attribuzione &quot;Ultima visita di contatto&quot; per impostazione predefinita.
+* Se desideri che una dimensione si comporti come una eVar tradizionale (variabile di conversione), è necessario configurarla per impostazione predefinita con l’attribuzione “Last Touch Visit” (Visita ultimo contatto).
 
-* Se desiderate che una dimensione &quot;si comporti&quot; come una proprietà tradizionale (variabile di traffico), è necessario configurarla con l’attribuzione &quot;Simile tocco&quot; per impostazione predefinita.
+* Se desideri che una dimensione si comporti come una prop tradizionale (variabile di traffico), è necessario configurarla per impostazione predefinita con l’attribuzione “Same Touch” (Stesso contatto).
 
-* Se desideri che una metrica &quot;si comporti&quot; come una metrica predefinita, non devi cambiare nulla.
+* Se desideri che una metrica si comporti come una metrica, non devi effettuare alcuna modifica.
 
-* Le impostazioni di attribuzione per le metriche prevalgono sulle impostazioni di attribuzione per le dimensioni.
+* Le impostazioni di attribuzione per le metriche prevalgono su quelle relative alle dimensioni.
 
-## Specificare le impostazioni di componente e attribuzione
+## Specifica le impostazioni del componente e di attribuzione
 
-Dopo aver [impostato e salvato le impostazioni](/help/data-views/create-dataview.md) di visualizzazione dei dati e aggiunto i componenti, potete specificare le impostazioni di attribuzione, se lo desiderate. Puoi specificare le impostazioni di attribuzione/scadenza/lookback per dimensioni e metriche. Se, ad esempio, si desidera che l&#39;attribuzione rimanga valida, è probabile che si desideri impostare un&#39;ora di scadenza personalizzata. Ad esempio, se desiderate che la dimensione &quot;Codice di tracciamento&quot; (una variabile della campagna) impostata su &quot;Ultima interazione&quot; rimanga invariata per una settimana, aggiungete una scadenza personalizzata di 1 settimana.
+Dopo aver [configurato e salvato le impostazioni di visualizzazione dati](/help/data-views/create-dataview.md) e aggiunto i componenti, puoi specificare le impostazioni di attribuzione, se lo desideri. Puoi specificare le impostazioni di attribuzione/scadenza/lookback per dimensioni e metriche. Se, ad esempio, vuoi mantenere valida l’attribuzione, dovrai probabilmente impostare un’ora di scadenza personalizzata. Ad esempio, se vuoi che la dimensione “Codice di monitoraggio”, ovvero una variabile della campagna, sia impostata sull’attribuzione “Last Touch” (Ultimo contatto) per una settimana, aggiungi una scadenza personalizzata di 1 settimana.
 
 >[!IMPORTANT]
->È possibile scegliere di non impostare allocazione/scadenza. In tal caso, le dimensioni si comportano come proprietà (modello di attribuzione &quot;Same Touch&quot;). Metriche senza impostazioni di attribuzione impostate erediteranno le impostazioni per la dimensione a cui questa metrica è applicata.
+>È possibile scegliere di non impostare allocazione/scadenza. In tal caso, le dimensioni si comportano come prop (modello di attribuzione “Same Touch” (Stesso contatto)). Le metriche prive di impostazioni di attribuzione erediteranno le impostazioni di dimensione a cui è applicata questa metrica.
 
 ![](assets/edit-component.png)
 
-1. Specifica le impostazioni di componenti e attribuzione per dimensioni e metriche. Consultate di seguito per informazioni sulle singole impostazioni.
+1. Specifica le impostazioni del componente e di attribuzione relative a dimensioni e metriche. Per informazioni sulle singole impostazioni, consulta la sezione sottostante.
 
-1. Fare clic **[!UICONTROL Save]** per salvare la visualizzazione dati.
+1. Per salvare la visualizzazione dati, fai clic su **[!UICONTROL Save]**.
 
 
 ### Impostazione componente
 
-Puoi cambiare il nome della metrica o della dimensione in qualcosa di più semplice da usare. Il nome sottostante non cambia, ma solo il nome visualizzato.
+Puoi modificare il nome della metrica o della dimensione con un nome più semplice da usare. Il nome sottostante non subirà modifiche, solo il nome visualizzato.
 
 ### Modello di attribuzione
 
-Il modello descrive la distribuzione delle conversioni agli eventi di un gruppo. Ad esempio, primo contatto o ultimo contatto. Determina il modo in cui l&#39;analisi del percorso cliente assegna il credito per un evento di successo se una variabile riceve più valori prima dell&#39;evento.
+Il modello descrive la distribuzione delle conversioni negli eventi in un gruppo. Ad esempio, primo contatto o ultimo contatto. Determina il modo in cui Customer Journey Analytics assegna il credito per un evento di successo se una variabile riceve valori multipli prima dell’evento.
 
 | Icona interfaccia utente | Modello di attribuzione | Definizione | Quando utilizzare |
 | --- | --- | --- | --- |
@@ -64,19 +64,19 @@ Il modello descrive la distribuzione delle conversioni agli eventi di un gruppo.
 
 ### Scadenza
 
-Specifica un periodo di tempo, o un evento, dopo il quale il valore della dimensione scade (non riceve più credito per gli eventi di successo). Puoi impostare la scadenza dell’attribuzione a livello di sessione, persona o personalizzato.
+Specifica un periodo di tempo, o un evento, dopo la scadenza del valore Dimension (non riceve più crediti per eventi di successo). Puoi impostare la scadenza dell’attribuzione a livello di sessione, persona o in formato personalizzato.
 
 | Impostazione | Definizione |
 |---|---|
-| Sessione | Precedentemente noto come livello &#39;Visita&#39;. Gli eventi di conversione oltre la visualizzazione pagina o la sessione non si associano alla dimensione o alla metrica. |
-| Persona (finestra Rapporti) | Precedentemente noto come livello &#39;Visitatore&#39;. Gli eventi di conversione non associati a questa persona non si associano alla dimensione o alla metrica. |
-| Ora personalizzata | Specificate i minuti, le ore, i giorni, i mesi o i trimestri personalizzati. Gli eventi di conversione oltre il periodo di tempo specificato non vengono associati alla dimensione o alla metrica. |
+| Sessione | Precedentemente noto come livello “Visita”. Gli eventi di conversione che vanno oltre la visualizzazione pagina o la sessione non si associano alla dimensione o alla metrica. |
+| Persona (intervallo di Reporting) | Precedentemente noto come livello “Visitatore”. Gli eventi di conversione non collegati a questa persona non si associano alla dimensione o alla metrica. |
+| Ora personalizzata | Specifica i minuti, le ore, i giorni, i mesi o i trimestri personalizzati. Gli eventi di conversione che vanno oltre il periodo di tempo specificato non si associano alla dimensione o alla metrica. |
 
-Per ulteriori informazioni, consulta la [sezione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)Attribuzione IQ.
+Per ulteriori informazioni, consulta il [documento Attribution IQ](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
 
-### Finestra di ricerca
+### Intervallo di lookback
 
 Per intervallo di lookback si intende la quantità di tempo che una conversione deve recuperare nel passato per includere i punti di contatto. I modelli di attribuzione che attribuiscono maggiore credito alle prime interazioni visualizzano differenze più importanti quando si visualizzano diversi intervalli di lookback.
 
-* **Sessione:** Controlla di nuovo fino all&#39;inizio di una sessione in cui si è verificata una conversione. Le finestre di lookback delle visite sono strette, in quanto non guardano oltre la sessione. Le finestre di lookback delle sessioni rispettano la definizione di visita modificata nelle viste dati.
-* **Persona (finestra di rapporto):** Controlla tutte le sessioni fino al primo mese del mese dell&#39;intervallo di date corrente. Le finestre di lookback delle persone sono ampie, in quanto possono estendere molte sessioni. Ad esempio, se l&#39;intervallo di date del rapporto è compreso tra il 15 e il 30 settembre, l&#39;intervallo di date del lookback della persona include tra il 1 e il 30 settembre.
+* **Sessione:** considera fino l’inizio di una sessione che ha generato una conversione. Gli intervalli di lookback su visita sono stretti, dato non si estendono oltre la sessione. Gli intervalli di lookback delle sessioni rispettano la definizione di visita modificata nelle visualizzazioni dati.
+* **Persona (intervallo di reporting):** esamina tutte le sessioni fino al 1° del mese dell’intervallo date corrente. Le finestre di lookback a persona sono ampie, dato che possono coinvolgere numerose sessioni. Ad esempio, se l’intervallo di date del report è dal 15 settembre al 30 settembre, l’intervallo di date del lookback a persona sarà dal 1° al 30 settembre.
