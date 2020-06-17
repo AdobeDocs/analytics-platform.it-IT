@@ -2,12 +2,17 @@
 title: Creazione di un intervallo di date
 description: Crea un intervallo di date da utilizzare nei rapporti.
 translation-type: tm+mt
-source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 5%
 
 ---
 
 
 # Creazione di un intervallo di date
+
+>[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi seguenti:
 
@@ -16,7 +21,7 @@ Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi 
 
 Per creare un intervallo di date nel gestore intervalli di date:
 
-1. Accedete ad [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. Passa a [!UICONTROL Components] > [!UICONTROL Date Ranges].
 1. Fare clic sul [!UICONTROL Add] pulsante per aprire la finestra modale che crea un intervallo di date.
 
