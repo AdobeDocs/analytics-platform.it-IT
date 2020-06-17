@@ -1,17 +1,22 @@
 ---
 title: Gestione degli intervalli di date
-description: Condivisione, ridenominazione o eliminazione di intervalli di date in Analysis Workspace.
+description: Condivisione, ridenominazione o eliminazione di intervalli di date in  Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 5%
 
 ---
 
 
 # Gestione degli intervalli di date
 
+>[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+
 Utilizzare il gestore intervalli di date per condividere, rinominare o eliminare gli intervalli di date. Per contattare il manager data:
 
-1. Accedete ad [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. Passa a [!UICONTROL Components] > [!UICONTROL Date Ranges].
 
 ## Interfaccia
@@ -29,7 +34,7 @@ Il gestore intervalli di date include le seguenti opzioni:
 Fai clic sulla casella di controllo accanto a uno o più intervalli di date per visualizzare ulteriori opzioni.
 
 * **Tag**: Applica un tag a tutti gli intervalli di date selezionati. I tag consentono di organizzare gli intervalli di date e di filtrarli utilizzando la colonna a sinistra.
-* **Condividi**: Condividi un intervallo di date con altri utenti Experience Cloud. Se siete amministratori di prodotto, potete anche condividere con l&#39;intera organizzazione o i gruppi. Gli intervalli di date condivisi con altri utenti nell’organizzazione includono un’icona ![condivisa](../assets/shared.png) accanto al titolo.
+* **Condividi**: Condividi un intervallo di date con altri utenti  Experience Cloud. Se siete amministratori di prodotto, potete anche condividere con l&#39;intera organizzazione o i gruppi. Gli intervalli di date condivisi con altri utenti nell’organizzazione includono un’icona ![condivisa](../assets/shared.png) accanto al titolo.
 * **Elimina**: Elimina definitivamente gli intervalli di date selezionati.
 * **Rinomina**: Se è selezionato un singolo intervallo di date, è possibile modificarne il titolo.
 * **Approva**: Se sei un amministratore di prodotto, puoi aggiungere un timbro di approvazione a un intervallo di date. Gli intervalli di date approvati informano gli utenti della tua organizzazione che sono &quot;ufficiali&quot;, distinguendoli dagli intervalli di date creati da altri utenti della tua organizzazione. Gli intervalli di date approvati includono un&#39;icona ![approvata](../assets/approved.png) accanto al titolo.
