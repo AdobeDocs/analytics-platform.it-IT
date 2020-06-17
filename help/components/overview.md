@@ -1,8 +1,11 @@
 ---
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
-translation-type: ht
-source-git-commit: 076ee40e5aef1773976545692378f1b8a55089d4
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +22,31 @@ Puoi gestire i seguenti componenti:
 * [**Filtri:**](filters/filters-overview.md) escludi parti dei dati per concentrarti su valori dimensionali comuni
 * [**Metriche calcolate:**](calc-metrics/calc-metr-overview.md) utilizza metriche e formule come nuovi componenti da utilizzare nel reporting
 * [**Intervalli di date:**](date-ranges/overview.md) personalizza e perfeziona gli intervalli di date offerti da Analysis Workspace
-* [**Progetti:**](projects/overview.md) organizza e gestisci i progetti in Analysis Workspace
+* [**Progetti:**](/help/analysis-workspace/home.md) organizza e gestisci i progetti in Analysis Workspace
+
+##  componenti Analysis Workspace
+
+I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
+
+Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** (Componenti) nella barra a sinistra. You can switch among Panels (Blank panel, [Freeform panel](/help/analysis-workspace/visualizations/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md), or [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizations](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and Components using the left-rail icons or by using [hotkeys](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+
+![](assets/components.png)
+
+See [Create a project](/help/analysis-workspace/home.md) for information about using Components in a project.
+
+## Azioni dei componenti
+
+Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions]** (Azioni) in alto nell’elenco dei componenti.
+
+>[!NOTE] Queste azioni non si applicano ai componenti Tempo.
+
+| Azione del componente | Descrizione |
+|--- |--- |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti. |
+| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
+| Condividi | Applicabile solo ai segmenti. |
+| Elimina | Applicabile solo ai segmenti. |
+
+[Creazione di metriche, segmenti e date su YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+
