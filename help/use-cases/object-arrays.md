@@ -1,16 +1,16 @@
 ---
-title: Uso di CJA con array di oggetti
+title: Uso di array di oggetti
 description: Comprendere come il CJA crea rapporti sulle gerarchie di dati.
 translation-type: tm+mt
-source-git-commit: b7cd74f3fe2f0222e78452f58a7c387f6e0c86d2
+source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Uso di CJA con array di oggetti
+# Uso di array di oggetti
 
 Alcuni schemi di piattaforma possono avere matrici di oggetti. Uno degli esempi più comuni sarebbe un carrello, che contiene più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e qualsiasi altra dimensione da monitorare. Tutti questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
@@ -206,7 +206,7 @@ Esiste un ordine di prodotto senza un nome di garanzia associato, pertanto il va
       "SKU": "1234", 
       "category": "Washing Machines", 
       "name": "LG Washing Machine 2000", 
-      "orders": 1, 
++      "orders": 1, 
       "revenue": 1600, 
       "units": 1,
       "order_id":"abc123", 
@@ -239,3 +239,30 @@ Esiste un ordine di prodotto senza un nome di garanzia associato, pertanto il va
 +  "timestamp": 1534219229
 +}
 ```
+
+Prendete nota degli ordini per i quali non è associato un nome. Si tratta degli ordini attribuiti al valore della dimensione &quot;Non specificato&quot;.
+
+### Combinazione di metriche
+
+CJA non combina in modo nativo metriche con nomi simili se si trovano su diversi livelli di oggetto.
+
+| `product : category` | `product : revenue` | `product : warranty : revenue` |
+| --- | --- | --- |
+| `Washing Machines` | `1600` | `250` |
+| `Dryers` | `500` | `0` |
+| `Total` | `2100` | `250` |
+
+Tuttavia, puoi creare una metrica calcolata che combini le metriche desiderate:
+
+Metrica calcolata &quot;Entrate totali&quot;: `[product : revenue] + [product : warranty : revenue]`
+
+L’applicazione di questa metrica calcolata visualizza i risultati desiderati:
+
+| `product : warranty : name` | `Total revenue (calculated metric)` |
+| --- | --- |
+| `Washing Machines` | `1850` |
+| `Dryers` | `500` |
+| `Total` | `2350` |
+
+## Esempi di persistenza
+
