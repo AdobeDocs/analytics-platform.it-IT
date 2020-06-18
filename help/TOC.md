@@ -13,10 +13,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: d8450b8435400aa16ce4d87868f804b82d1df4d7
+source-git-commit: 17e6cc8f79c542465971162666d846e2b1e0da58
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 91%
+source-wordcount: '375'
+ht-degree: 90%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 91%
       + [Confronto delle date](components/date-ranges/time-comparison.md)
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
+   + [Uso di array di oggetti](use-cases/object-arrays.md)
 + Privacy {#cja-privacy}
    + [Panoramica sulla privacy](privacy/privacy-overview.md)
 + [Aggiornamenti della documentazione di CJA](doc-changes.md)
