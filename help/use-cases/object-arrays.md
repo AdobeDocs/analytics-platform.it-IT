@@ -1,24 +1,24 @@
 ---
 title: Uso di array di oggetti
-description: Comprendere come il CJA crea rapporti sulle gerarchie di dati.
-translation-type: tm+mt
+description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
+translation-type: ht
 source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Uso di array di oggetti
 
-Alcuni schemi di piattaforma possono avere matrici di oggetti. Uno degli esempi più comuni sarebbe un carrello, che contiene più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e qualsiasi altra dimensione da monitorare. Tutti questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
+Alcuni schemi di piattaforma possono avere array di oggetti. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
-Nelle versioni precedenti di Adobe  Analytics, questa operazione è stata eseguita utilizzando la `products` variabile. Era una stringa concatenata separata da punto e virgola (`;`) per separare facet di un prodotto, mentre virgole (`,`) prodotti delimitati. Era l&#39;unica variabile con supporto limitato di &quot;array di oggetti&quot;. Le variabili multivalore, come le variabili di elenco, potrebbero supportare l&#39;equivalente di array, ma non potevano supportare &quot;matrici di oggetti&quot;. CJA si espande su questo concetto sostenendo gerarchie arbitrariamente profonde all&#39;interno di una singola riga di dati, una funzione non disponibile in qualsiasi versione precedente di Adobe  Analytics.
+Nelle versioni precedenti di Adobe Analytics, questa funzione è stata eseguita utilizzando la variabile `products`. Si trattava di una stringa concatenata in cui i punti e virgola (`;`) separavano i facet di un prodotto, mentre le virgole (`,`) delineavano i prodotti. Era l’unica variabile con supporto limitato di “array di oggetti”. Le variabili multivalore, come le variabili di elenco, erano in grado di supportare l’equivalente degli array, ma non gli “array di oggetti”. CJA amplia questo concetto con il supporto di gerarchie arbitrariamente profonde all’interno di una singola riga di dati, una funzione non disponibile nelle versioni precedenti di Adobe Analytics.
 
-## Stesso esempio
+## Stesso esempio di hit
 
-L&#39;hit seguente è un oggetto JSON che rappresenta un acquisto effettuato da un cliente di una lavatrice e di un essiccatore.
+L’hit seguente è un oggetto JSON che rappresenta un acquisto effettuato da un cliente di una lavatrice e di un’asciugatrice.
 
 ```json
 {
@@ -62,23 +62,23 @@ L&#39;hit seguente è un oggetto JSON che rappresenta un acquisto effettuato da 
 }
 ```
 
-Quando si crea una visualizzazione dati, sono disponibili le dimensioni e la metrica seguenti (in base allo schema):
+Quando si crea una visualizzazione dati, sono disponibili le dimensioni e le metriche seguenti (in base allo schema):
 
 * **Dimensioni:**
    * ID
    * product : SKU
    * product : name
    * product : order_id
-   * product : garanzia : cover
-   * product : garanzia : length
-   * product : garanzia : name
-   * product : garanzia : type
+   * product : warranty : coverage
+   * product : warranty : length
+   * product : warranty : name
+   * product : warranty : type
 * **Metriche:**
-   * product : order
+   * product : orders
    * product : units
-   * product : ricavo
-   * product : garanzia
-   * product : garanzia : ricavo
+   * product : revenue
+   * product : warranty
+   * product : warranty : revenue
 
 ### Stessi esempi di hit (comportamento di reporting)
 
@@ -90,7 +90,7 @@ Utilizzando solo l’hit riportato sopra, le tabelle seguenti mostrano i rapport
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA esamina in modo selettivo la dimensione e le metriche dell&#39;oggetto in base alla tabella.
+CJA esamina in modo selettivo le dimensioni e le metriche dell’oggetto in base alla tabella.
 
 ```diff
 {
@@ -134,7 +134,7 @@ CJA esamina in modo selettivo la dimensione e le metriche dell&#39;oggetto in ba
 +}
 ```
 
-Se desideri segnalare solo i ricavi della garanzia, il tuo progetto avrà un aspetto simile al seguente:
+Se desideri creare un rapporto solo sui ricavi della garanzia, il tuo progetto avrà un aspetto simile al seguente:
 
 | `product : warranty : coverage` | `product : warranty : revenue` |
 | --- | --- |
@@ -142,7 +142,7 @@ Se desideri segnalare solo i ricavi della garanzia, il tuo progetto avrà un asp
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA esamina queste parti dell&#39;hit per generare il rapporto:
+CJA esamina queste parti dell’hit per generare il rapporto:
 
 ```diff
 {
@@ -186,9 +186,9 @@ CJA esamina queste parti dell&#39;hit per generare il rapporto:
 +}
 ```
 
-Poiché l&#39;asciugatrice non ha incluso una garanzia, non è inclusa nella tabella.
+Poiché l’asciugatrice non includeva una garanzia, non è stata inserita nella tabella.
 
-Dato che puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente mostra come i dati verrebbero associati a valori di dimensione non specificati:
+Dato che è possibile combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente illustra i dati che emergerebbero nel caso di valori di dimensione non specificati:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Dato che puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella s
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Esiste un ordine di prodotto senza un nome di garanzia associato, pertanto il valore della dimensione è impostato su &#39;Non specificato&#39;. La stessa situazione si applica anche all&#39;ordine di garanzia del prodotto:
+Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto il valore della dimensione è impostato su “Non specificato”. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
 
 ```diff
 {
@@ -240,11 +240,11 @@ Esiste un ordine di prodotto senza un nome di garanzia associato, pertanto il va
 +}
 ```
 
-Prendete nota degli ordini per i quali non è associato un nome. Si tratta degli ordini attribuiti al valore della dimensione &quot;Non specificato&quot;.
+Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti al valore della dimensione “Non specificato”.
 
 ### Combinazione di metriche
 
-CJA non combina in modo nativo metriche con nomi simili se si trovano su diversi livelli di oggetto.
+CJA non combina in modo nativo metriche con nomi simili se si trovano su diversi livelli dell’oggetto.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |
@@ -252,11 +252,11 @@ CJA non combina in modo nativo metriche con nomi simili se si trovano su diversi
 | `Dryers` | `500` | `0` |
 | `Total` | `2100` | `250` |
 
-Tuttavia, puoi creare una metrica calcolata che combini le metriche desiderate:
+Tuttavia, è possibile creare una metrica calcolata che combini le metriche desiderate:
 
-Metrica calcolata &quot;Entrate totali&quot;: `[product : revenue] + [product : warranty : revenue]`
+Metrica calcolata “Entrate totali”: `[product : revenue] + [product : warranty : revenue]`
 
-L’applicazione di questa metrica calcolata visualizza i risultati desiderati:
+L’applicazione di questa metrica calcolata mostra i risultati desiderati:
 
 | `product : warranty : name` | `Total revenue (calculated metric)` |
 | --- | --- |
