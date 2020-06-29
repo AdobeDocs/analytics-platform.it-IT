@@ -1,11 +1,11 @@
 ---
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Dimensioni predefinite di Analysis Workspace (ad es. Browser Type, Referrer Type, Marketing Channels, Visit Number (Tipo di browser, Tipo di referente, Canali marketing, Numero visita) e così via). | CJA non fornisce queste dimensioni in modo nativo. Per i clienti che utilizzano Analytics Data Connector (ADC), sono disponibili alcune di queste dimensioni, ma non tutte. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e le informazioni rapide sono completamente supportati. I pannelli Confronto segmenti e  Analytics per Target (A4T) non sono supportati. |
+| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
 | eVar di Merchandising | Le eVar di merchandising possono essere utilizzate con set di dati basati su ADC, a meno che non siano rigorosamente conformi al medesimo schema XDM, similmente alle limitazioni dell’elenco di prodotti di cui sopra. |
 | Filtro bot | Per i set di dati basati su Analytics Data Connector (ADC), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
 | Regole di elaborazione | Per i set di dati basati su ADC, si applicano ancora le regole di elaborazione. |
