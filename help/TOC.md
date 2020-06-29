@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 + Visualizzazioni dati {#cja-dataviews}
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
-+ Workspace projects {#cja-workspace}
++ Progetti Workspace {#cja-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Esecuzione di analisi di base](analysis-workspace/perform-basic-analysis.md)
    + [Esecuzione di analisi avanzate](analysis-workspace/perform-adv-analysis.md)
@@ -66,7 +66,7 @@ ht-degree: 89%
          + [Panoramica dell&#39;abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare una visualizzazione dell&#39;abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Applicazione di filtri nell&#39;analisi dell&#39;abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Applicare i filtri nell’analisi dell’abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
          + [Panoramica del flusso](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurare una visualizzazione di flusso](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
@@ -89,11 +89,11 @@ ht-degree: 89%
       + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + [Pannello Approfondimenti rapidi](analysis-workspace/c-panels/quickinsight.md)
-   + Cura o condividi progetti {#curate-share}
-      + [Cura progetti Workspace](analysis-workspace/curate-share/curate.md)
-      + [Condivisione di progetti Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Visualizza progetti Workspace](analysis-workspace/curate-share/view-only-projects.md)
+      + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
+   + Curare o condividere progetti {#curate-share}
+      + [Curare progetti Workspace](analysis-workspace/curate-share/curate.md)
+      + [Condividere progetti Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Progetti Workspace solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
@@ -114,7 +114,7 @@ ht-degree: 89%
       + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Limiti di Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilità in  Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accessibilità di Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Coda lunga in  Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
