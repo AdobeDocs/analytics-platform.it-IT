@@ -3,7 +3,7 @@ description: 'null'
 title: Panoramica dell’abbandono
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 95%
@@ -13,14 +13,16 @@ ht-degree: 95%
 
 # Panoramica dell’abbandono
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 
 Le visualizzazioni Abbandono consentono di:
 
 * Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto
-* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto)
+* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto).
 * Combinare diversi valori, da varie dimensioni e metriche
 * Creare un rapporto di abbandono con più dimensioni
 * Identificare dove vanno i clienti immediatamente dopo l’abbandono
