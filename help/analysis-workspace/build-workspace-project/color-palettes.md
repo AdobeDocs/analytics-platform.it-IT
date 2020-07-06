@@ -3,7 +3,7 @@ description: 'null'
 title: Palette di colori
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 89%
@@ -13,11 +13,15 @@ ht-degree: 89%
 
 # Palette di colori di visualizzazione
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione interessa gran parte delle visualizzazioni in Workspace, ma **non** influisce sulle modifiche di riepilogo, sulla formattazione condizionale nelle tabelle a forma libera e sulla vista Mappa.
 
->[!NOTE] Il supporto per la palette di colori non è attivato per Internet Explorer 11.
+>[!NOTE]
+>
+>Il supporto per la palette di colori non è attivato per Internet Explorer 11.
 
 ![](assets/color_palettes.png)
 
