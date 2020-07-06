@@ -2,7 +2,7 @@
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 88%
@@ -38,7 +38,9 @@ See [Create a project](/help/analysis-workspace/home.md) for information about u
 
 Sono disponibili diversi metodi di gestione dei componenti (singolarmente o selezionandone più di uno). Fai clic con il pulsante destro del mouse su un componente oppure fai clic su **[!UICONTROL Actions]** (Azioni) in alto nell’elenco dei componenti.
 
->[!NOTE] Queste azioni non si applicano ai componenti Tempo.
+>[!NOTE]
+>
+>Queste azioni non si applicano ai componenti Tempo.
 
 | Azione del componente | Descrizione |
 |--- |--- |
