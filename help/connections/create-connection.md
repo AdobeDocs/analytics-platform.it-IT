@@ -2,7 +2,7 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 87%
@@ -16,7 +16,9 @@ Una connessione consente di integrare i set di dati da [!DNL Adobe Experience Pl
 
 Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html) per una panoramica video.
 
->[!IMPORTANT] È possibile combinare più set di dati [!DNL Experience Platform] in una singola connessione.
+>[!IMPORTANT]
+>
+>È possibile combinare più set di dati [!DNL Experience Platform] in una singola connessione.
 
 1. Vai a [https://analytics.adobe.com](https://analytics.adobe.com).
 
@@ -26,9 +28,9 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
    ![Crea connessione](assets/create-connection.png)
 
-1. Scegliete una sandbox in Experience Platform che contenga i set di dati a cui desiderate creare una connessione.
+1. Scegliete una sandbox in  Experience Platform che contenga il/i set di dati a cui desiderate creare una connessione.
 
-   Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che dividono una singola istanza della piattaforma in ambienti virtuali separati per sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati. Non potete accedere ai dati tra le sandbox. Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui è possibile eseguire il pulling.
+    Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che dividono una singola istanza di Platform in ambienti virtuali separati per aiutare a sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati. Non potete accedere ai dati tra le sandbox. Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui è possibile eseguire il pulling.
 
 1. Seleziona uno o più set di dati da richiamare in [!UICONTROL Customer Journey Analytics] e fai clic su **[!UICONTROL Add]**.
 
