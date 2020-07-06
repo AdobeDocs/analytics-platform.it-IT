@@ -2,22 +2,24 @@
 description: 'null'
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
 
 # Panoramica dei pannelli
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. Questi quattro tipi di pannelli sono disponibili in  Analysis Workspace per Customer Journey Analytics:
 
 * [Pannello vuoto](blank-panel.md)
-* [Pannello Approfondimenti rapidi](quickinsight.md)
+* [Pannello Quick Insights (Approfondimenti rapidi)](quickinsight.md)
 * [Pannello Attribuzione](attribution.md)
 * [Pannello a forma libera](freeform-panel.md)
 
