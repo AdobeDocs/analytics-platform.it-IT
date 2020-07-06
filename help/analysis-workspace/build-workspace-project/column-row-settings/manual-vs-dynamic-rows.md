@@ -3,7 +3,7 @@ description: Come interagire con le righe statiche nelle tabelle.
 title: Righe statiche e dinamiche
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 91%
@@ -13,7 +13,9 @@ ht-degree: 91%
 
 # Righe statiche e dinamiche
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Le tabelle di Analysis Workspace generano righe “dinamiche” quando una dimensione viene trascinata nella tabella. Di conseguenza, tutti gli elementi che corrispondono alla dimensione, per una metrica specifica, vengono inseriti nella tabella.
 
