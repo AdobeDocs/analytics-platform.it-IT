@@ -4,21 +4,25 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: Applicare i segmenti nell’analisi dell’abbandono
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
 
-# Applicazione di filtri nell&#39;analisi dell&#39;abbandono
+# Applicare i filtri nell’analisi dell’abbandono
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare filtri da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in  Analysis Workspace.
 
->[!IMPORTANT] I filtri utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un abbandono del contesto del visitatore, i filtri utilizzati come punti di controllo devono essere filtri basati su visite o hit. Con un Abbandono del contesto della visita, i filtri utilizzati come punto di controllo devono essere segmenti basati sugli hit. Se si usa una combinazione non valida, l’abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà visualizzata quando aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori di filtri non valide genereranno diagrammi di abbandono non validi, ad esempio:
+>[!IMPORTANT]
+>
+>I filtri utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un abbandono del contesto del visitatore, i filtri utilizzati come punti di controllo devono essere filtri basati su visite o hit. Con un Abbandono del contesto della visita, i filtri utilizzati come punto di controllo devono essere segmenti basati sugli hit. Se si usa una combinazione non valida, l’abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà visualizzata quando aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori di filtri non valide genereranno diagrammi di abbandono non validi, ad esempio:
 
 * Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono contesto visitatore
 * Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono contesto visita
