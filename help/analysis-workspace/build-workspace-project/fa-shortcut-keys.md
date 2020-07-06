@@ -5,7 +5,7 @@ title: Tasti di scelta rapida disponibili in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 81%
@@ -15,7 +15,9 @@ ht-degree: 81%
 
 # Tasti di scelta rapida disponibili in Analysis Workspace
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-clic di Analysis Workspace.
 
