@@ -1,28 +1,30 @@
 ---
-title: Dataset combinati
-description: Scoprite come CJA crea una connessione combinando set di dati.
+title: Set di dati combinati
+description: Scopri come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
-source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Dataset combinati
+# Set di dati combinati
 
-Quando si crea una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &#39;insieme di dati combinato&#39; è ciò che la CJA utilizza per la generazione dei rapporti. Quando si includono più schemi o set di dati in una connessione:
+Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo “set di dati combinato” è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
 
-* Gli schemi sono combinati. I campi dello schema duplicati vengono uniti.
-* La colonna &#39;ID persona&#39; di ciascun dataset viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori unici in CJA.
+* Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
+* La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori unici in CJA.
 * Le righe vengono elaborate in base alla marca temporale.
 
 ## Esempio
 
-Prendi in considerazione l’esempio seguente. Sono disponibili due set di dati, ciascuno con campi diversi contenenti dati diversi.
+Prendi in considerazione l’esempio seguente. Ci sono due set di dati, ciascuno con campi diversi contenenti dati diversi.
 
->[!NOTE] In genere, la marca temporale viene memorizzata in millisecondi Unix. In questo esempio, per la leggibilità si utilizza data e ora.
+>[!NOTE]
+>
+>Adobe Experience Platform in genere memorizza la marca temporale in millisecondi Unix. In questo esempio, sono utilizzate data e ora per questioni di leggibilità.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
@@ -39,7 +41,7 @@ Prendi in considerazione l’esempio seguente. Sono disponibili due set di dati,
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
 
-Quando si crea una connessione utilizzando questi due set di dati, per il reporting viene utilizzata la seguente tabella.
+Quando crei una connessione utilizzando questi due set di dati, per il reporting viene utilizzata la seguente tabella.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -53,21 +55,21 @@ Quando si crea una connessione utilizzando questi due set di dati, per il report
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Questo insieme di dati combinato è ciò che viene utilizzato nel reporting. Non importa da quale insieme di dati proviene una riga; CJA tratta tutti i dati come se si trovassero nello stesso dataset. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
+Questo set di dati combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
 
-Questo concetto si applica anche all&#39;attribuzione. Non importa da quale insieme di dati proviene una riga; l&#39;attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo dataset. Esempio di utilizzo delle tabelle precedenti:
+Questo concetto si applica anche all’attribuzione. Non importa da quale insieme di dati provenga una riga; l’attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo set di dati. Utilizzo delle tabelle precedenti in un esempio:
 
-Se la connessione includeva solo la prima tabella e non la seconda, l&#39;estrazione di un rapporto con la `string_color` `metric_a` dimensione e la metrica utilizzando l&#39;attribuzione dell&#39;ultimo tocco mostrerebbe:
+Se la connessione includesse solo la prima tabella e non la seconda, l’estrazione di un rapporto con la dimensione `string_color` e la metrica `metric_a` utilizzando l’attribuzione ultimo contatto apparirebbe così:
 
-| string_color | metriche_a |
+| string_color | metric_a |
 | --- | --- |
 | Non specificato | 6 |
 | Blu | 3 |
 | Rosso | 2 |
 
-Tuttavia, se nella connessione sono incluse entrambe le tabelle, l&#39;attribuzione `user_847` viene modificata in quanto si trova in entrambi i set di dati. Una riga dagli attributi del secondo set di dati `metric_a` a &#39;Giallo&#39;, dove in precedenza non erano specificati:
+Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione sarebbe modificata poiché `user_847` si trova in entrambi i set di dati. Una riga del secondo set di dati attribuisce `metric_a` a “Giallo”, in precedenza non specificato:
 
-| string_color | metriche_a |
+| string_color | metric_a |
 | --- | --- |
 | Giallo | 6 |
 | Blu | 3 |
