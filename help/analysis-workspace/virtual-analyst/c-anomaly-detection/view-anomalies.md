@@ -3,7 +3,7 @@ description: È possibile visualizzare le anomalie sotto forma di tabella o graf
 title: Visualizzare le anomalie in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 91%
@@ -13,7 +13,9 @@ ht-degree: 91%
 
 # Visualizzare le anomalie in Analysis Workspace
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
 
