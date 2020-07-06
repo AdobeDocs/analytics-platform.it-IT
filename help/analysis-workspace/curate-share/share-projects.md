@@ -1,9 +1,9 @@
 ---
 description: Condivisione dei progetti e ruoli dei progetti in Workspace
 keywords: Analysis Workspace sharing
-title: Condivisione di progetti Workspace
+title: Condividere progetti Workspace
 translation-type: tm+mt
-source-git-commit: 3a2cb7ad15f1491ef4fe6fdcb3135b29675c40e8
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -11,9 +11,11 @@ ht-degree: 5%
 ---
 
 
-# Condivisione di progetti Workspace
+# Condividere progetti Workspace
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 La condivisione rende un progetto disponibile ad altri utenti Analysis Workspace &#39;organizzazione. Qualsiasi [cura](curate.md) applicata viene visualizzata all’apertura del progetto da parte dei destinatari.
 
