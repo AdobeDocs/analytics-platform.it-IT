@@ -2,7 +2,7 @@
 title: Cos’è un’analisi per coorte?
 description: Scopri l’analisi per coorte in  Analysis Workspace
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 46%
@@ -12,7 +12,9 @@ ht-degree: 46%
 
 # Che cosa è [!UICONTROL Cohort Analysis]?
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Un *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. [!UICONTROL Cohort Analysis] è utile, ad esempio, quando si desidera imparare come una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -32,7 +34,9 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non complete (come Entrate) o le occorrenze. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
+>[!UICONTROL Cohort Analysis]
+>
+>non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non complete (come Entrate) o le occorrenze. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
 >[!UICONTROL Cohort Analysis]e possono essere incrementati solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
