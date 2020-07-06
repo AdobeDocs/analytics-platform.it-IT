@@ -2,7 +2,7 @@
 title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2946'
 ht-degree: 99%
@@ -12,7 +12,9 @@ ht-degree: 99%
 
 # Riferimento - Funzioni avanzate
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Accedi a queste funzioni selezionando **[!UICONTROL Show Advanced]** nell’elenco a discesa **[!UICONTROL Functions]**.
 
@@ -32,7 +34,9 @@ D’altra parte, se disponi di due metriche di tuo interesse, potrebbe non esser
 
 Restituisce il valore del relativo argomento. Per assicurarti che un valore non sia uguale a un valore particolare, utilizza la funzione NOT.
 
->[!NOTE] 0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
+>[!NOTE]
+>
+>0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -208,7 +212,9 @@ Restituisce la media delle ultime N righe.
 
 Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è ordinata dalla dimensione, risulta utile solo per le dimensioni con ordine naturale, come data o lunghezza del percorso.
 
->[!NOTE] Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
+>[!NOTE]
+>
+>Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -451,7 +457,9 @@ Restituisce tutti gli elementi che non contengono la corrispondenza esatta del v
 
 Restituisce TRUE se un qualsiasi argomento è TRUE oppure FALSE se tutti gli argomenti sono FALSE.
 
->[!NOTE] 0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
+>[!NOTE]
+>
+>0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -692,7 +700,9 @@ L’equazione per il punteggio Z è:
 
 dove [!DNL x] è il punteggio non elaborato, [!DNL μ] corrisponde alla media della popolazione e [!DNL σ] indica la deviazione standard della popolazione.
 
->[!NOTE] [!DNL μ] (mu) e[!DNL σ] (sigma) vengono calcolati automaticamente dalla metrica.
+>[!NOTE]
+>
+>[!DNL μ] (mu) e[!DNL σ] (sigma) vengono calcolati automaticamente dalla metrica.
 
 Punteggio Z (metrica)
 
@@ -717,5 +727,7 @@ Effettua un test Z con coda n con punteggio Z di A.
 
 Restituisce la probabilità che la riga corrente possa essere vista casualmente nella colonna.
 
->[!NOTE] Presuppone che i valori siano distribuiti normalmente.
+>[!NOTE]
+>
+>Presuppone che i valori siano distribuiti normalmente.
 
