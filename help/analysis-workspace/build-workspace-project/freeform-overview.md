@@ -5,7 +5,7 @@ title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 96%
@@ -15,7 +15,9 @@ ht-degree: 96%
 
 # Crea progetto: panoramica
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -55,7 +57,7 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 | Impostazione | Descrizione |
 |---|---|
 | Progetto Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
-| Creato da | Nome del proprietario del progetto |
+| Creato da | Nome del proprietario del progetto. |
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. Puoi anche assegnare i tag ai progetti al momento del salvataggio. Puoi vedere i tag di un progetto nella colonna [!UICONTROL Tags] che si trova nella pagina di destinazione di Workspace. |
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
@@ -71,7 +73,9 @@ Il menu principale Progetti si presenta così:
 
 I sottomenu contengono le seguenti opzioni.
 
->[!NOTE] Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con progetti **salvati**.
+>[!NOTE]
+>
+>Le opzioni contrassegnate da un asterisco (*) vengono visualizzate solo con progetti **salvati**.
 
 | Progetto | Modificare | Inserisci | Componenti | Condividi | Aiuto |
 |---|---|---|---|---|---|
