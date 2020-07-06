@@ -2,17 +2,19 @@
 title: Modelli di attribuzione e finestre di lookback
 description: Differenze tra i diversi tipi di attribuzione tra i valori delle dimensioni.
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
 
 # Modelli di attribuzione e finestre di lookback
 
->[!NOTE] Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Il concetto di attribuzione in Adobe  Analytics richiede due componenti:
 
@@ -45,7 +47,9 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Finestra di lookback personalizzata:** Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
 
->[!NOTE] **[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consultate [Adobe  Analytics feature Release](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
+>[!NOTE]
+>
+>**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consultate [Adobe  Analytics feature Release](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
 
 ## Esempio
 
@@ -76,4 +80,6 @@ A seconda dell’intervallo di lookback e del modello di attribuzione definiti, 
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
->[!TIP] Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
+>[!NOTE]
+>
+>Anche altri eventi di conversione, come ordini o eventi personalizzati, saranno suddivisi se il credito è associato a più di un canale. Ad esempio, se due canali contribuiscono a un evento personalizzato utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 dell’evento personalizzato. Queste frazioni di eventi vengono sommate tra tutte le visite, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
