@@ -1,43 +1,53 @@
 ---
-description: Come interagire con le righe statiche nelle tabelle.
-title: Righe statiche e dinamiche
-uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
+title: Valori di dimensione dinamici e statici
+description: Come interagire con i valori di dimensione dinamici e statici nelle tabelle.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 0477302df92ccab30d9f3a45cc7b22f2112a0c70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 91%
+source-wordcount: '503'
+ht-degree: 9%
 
 ---
 
 
-# Righe statiche e dinamiche
+# Valori di dimensione dinamici e statici nelle tabelle a forma libera
 
->[!NOTE]
->
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>[!NOTE] Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Le tabelle di Analysis Workspace generano righe “dinamiche” quando una dimensione viene trascinata nella tabella. Di conseguenza, tutti gli elementi che corrispondono alla dimensione, per una metrica specifica, vengono inseriti nella tabella.
+Nelle tabelle a forma libera, le righe e le colonne possono contenere diversi valori dei componenti. Questi valori possono essere dinamici (cambiare con il tempo) o statici (non cambiare con il tempo), a seconda dell&#39;analisi che si desidera generare.
 
-Ad esempio, quando la dimensione Browser viene trascinata nella tabella, tutti i suoi elementi dimensioni (ad esempio, browser Android, Mobile Safari, Firefox, ecc.) vengono inseriti nella tabella stessa.
+## Valori di dimensione dinamici
 
-Invece, ogni volta che selezioni e trascini manualmente una metrica specifica, un segmento, un intervallo di dati o un singolo elemento dimensionale in una tabella, ottieni una riga o un elenco “statici” oppure impostati come hardcoded. Ora puoi interagire con una riga statica nei seguenti modi:
+I valori delle dimensioni dinamiche cambiano con il tempo e dipendono dalla metrica ordinata dalla tabella a forma libera. I valori di dimensione dinamica sono preferiti quando si desidera analizzare gli elementi principali per un determinato periodo di tempo.
 
-* Fai clic sull’icona Anteprima nelle righe statiche per visualizzare un’anteprima dei segmenti, delle metriche, e degli intervalli di date.
-* Fai clic sull’icona “x” per eliminare la riga dalla tabella.
-* Limita il numero di righe che vengono visualizzate e attivano il paging.
-* Aggiungi “vari elementi dimensionali”. Ad esempio, puoi aggiungere un elemento dalla dimensione di browser e un altro elemento dalla dimensione di un prodotto.
+Quando rilasci una dimensione in una tabella a forma libera, vengono restituite righe dinamiche. Rappresentano gli elementi principali che corrispondono alla dimensione per una metrica e un periodo di tempo specifici. È inoltre possibile rilasciare una dimensione nelle colonne di tabella a forma libera e la dimensione si espande automaticamente nei primi 5 valori di dimensione.
 
-   Di seguito, riportiamo un’immagine esemplificativa:
+Ad esempio, quando si trascina la dimensione Tipo browser nella tabella, i primi valori della dimensione Tipo browser (ad esempio, Microsoft, Apple, Google, ecc.) tornare alle righe della tabella in modo dinamico. Se rilasciata in una colonna, i primi cinque valori della dimensione Tipo browser restituiranno dinamicamente.
 
-   ![](assets/static_rows.png)
+I valori di dimensione dinamica dispongono dell&#39;opzione filtro riga e **non** sono presenti icone blocco e X.
 
-Inoltre, (solo) in modalità di riga statica, puoi modificare le modalità di calcolo dei totali della colonna. Basta fare clic sull’icona a ingranaggio e scegliere tra queste 2 opzioni:
+## Valori di dimensione statici
 
-![](assets/column-totals.png)
+I valori di dimensione statici non cambiano con il tempo; sono componenti fissi che vengono sempre restituiti in una tabella a forma libera. I valori delle dimensioni statiche sono preferiti quando si desidera analizzare sempre lo stesso elemento, siano esse campagne specifiche o giorni specifici della settimana.
 
-| Opzione | Descrizione |
-|---|---|
-| (Impostazione predefinita) Calcola i totali, sommando i valori presenti in ciascuna colonna. | Questa opzione consente di calcolare solo le righe presenti nella tabella (calcolo lato client). |
-| Calcola i totali, basandosi su tutte le righe per ciascuna metrica. | Questa opzione include tutti gli elementi di questa dimensione anche quelli non elencati nella tabella (calcolo lato server). |
+Ogni volta che si selezionano e si rilasciano manualmente valori di componenti specifici (dimensione, metrica, segmento, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne. I valori di dimensione statici possono essere creati anche se si sceglie di:
 
+* Da righe, fate clic con il pulsante destro del mouse > [!UICONTROL Display only selected rows]
+* Da colonne, fare clic con il pulsante destro del mouse > [!UICONTROL Make item static]
+
+Ad esempio, quando si trascina su specifici elementi del tipo di browser come Microsoft e Apple, questi due elementi specifici vengono sempre inseriti nella tabella.
+
+I valori delle dimensioni statiche **non** dispongono dell&#39;opzione filtro righe. Al contrario, su ogni elemento sono presenti le icone Blocca e X. Fare clic sull&#39;icona X per rimuovere il valore della dimensione dalla tabella.
+
+## Valori di dimensione misti
+
+È possibile aggiungere alla stessa tabella valori di dimensione di dimensioni diverse. In questi casi, l’intestazione della riga indica &quot;Dimensioni miste&quot;. Questi valori di dimensione sono statici. Ad esempio, l&#39;aggiunta di valori di dimensione specifici dalla dimensione Tipo browser e di altri valori di dimensione dalla dimensione Browser.
+
+## Righe totali a forma libera
+
+Le righe dinamiche e statiche si comportano in modo diverso nella riga totale a forma libera. Per impostazione predefinita:
+
+* Le righe dinamiche vengono sommate con metriche lato server e deduplicate, come visite o visitatori
+* Le righe statiche sono sommate sul lato client e **non** duplicano le metriche.
+
+[Ulteriori informazioni sulle opzioni totali](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) di Workspace per le righe dinamiche e statiche.
