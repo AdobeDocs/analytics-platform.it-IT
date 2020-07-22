@@ -1,11 +1,11 @@
 ---
 title: Uso di array di oggetti
 description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
-translation-type: ht
-source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -188,7 +188,7 @@ CJA esamina queste parti dell’hit per generare il rapporto:
 
 Poiché l’asciugatrice non includeva una garanzia, non è stata inserita nella tabella.
 
-Dato che è possibile combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente illustra i dati che emergerebbero nel caso di valori di dimensione non specificati:
+Dato che puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente mostra come i dati verrebbero associati a elementi dimensione non specificati:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Dato che è possibile combinare qualsiasi dimensione con qualsiasi metrica, la t
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto il valore della dimensione è impostato su “Non specificato”. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
+Esiste un ordine di prodotto senza un nome di garanzia associato a esso, pertanto l&#39;articolo di dimensione viene impostato su &quot;Non specificato&quot;. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
 
 ```diff
 {
@@ -240,7 +240,7 @@ Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto il va
 +}
 ```
 
-Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti al valore della dimensione “Non specificato”.
+Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti all&#39;elemento dimensione &quot;Non specificato&quot;.
 
 ### Combinazione di metriche
 
