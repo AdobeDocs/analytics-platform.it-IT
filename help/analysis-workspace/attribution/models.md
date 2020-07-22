@@ -1,11 +1,11 @@
 ---
 title: Modelli di attribuzione e finestre di lookback
-description: Differenze tra i diversi tipi di attribuzione tra i valori delle dimensioni.
+description: Differenze tra i diversi tipi di attribuzione tra gli elementi dimensionali.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Il concetto di attribuzione in Adobe  Analytics richiede due componenti:
 
