@@ -3,10 +3,10 @@ description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni d
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Fai clic sul nome della visualizzazione per ulteriori informazioni.
 
@@ -34,7 +34,7 @@ Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.yo
 | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. |
 | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
-| [Grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra i valori di dimensione fino a tre metriche. |
+| [Grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali e fino a tre metriche. |
 | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | A seconda della cella selezionata, questa visualizzazione mostra i totali e i riepiloghi. |
 | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | A seconda delle celle selezionate, questa visualizzazione confronta le celle tra loro. |
 | [Testo](/help/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. |
