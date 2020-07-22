@@ -1,11 +1,11 @@
 ---
 title: Panoramica su Attribution
-description: Concetto di attribuzione del credito di un evento di successo a più valori di dimensione.
+description: Concetto di attribuzione del credito di un evento di successo a più elementi di dimensione.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 50%
+ht-degree: 56%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Attribuzione consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
+Attribuzione consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento per una delle pagine del prodotto. Consente di aggiungere il prodotto al carrello, ma non di acquistarlo.
 2. Il giorno successivo, l&#39;utente può consultare un post su social media di uno dei suoi amici, fare clic sul collegamento e completare l&#39;acquisto.
