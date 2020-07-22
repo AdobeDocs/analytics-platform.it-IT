@@ -1,8 +1,11 @@
 ---
 title: Configurazione di visualizzazioni dati e attribuzione
 description: Descrive come creare una visualizzazione dati in un set di dati della Platform in Customer Journey Analytics
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
+source-wordcount: '1520'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +67,7 @@ Il modello descrive la distribuzione delle conversioni negli eventi in un gruppo
 
 ### Scadenza
 
-Specifica un periodo di tempo, o un evento, dopo la scadenza del valore Dimension (non riceve più crediti per eventi di successo). Puoi impostare la scadenza dell’attribuzione a livello di sessione, persona o in formato personalizzato.
+Specifica un periodo di tempo, o un evento, dopo il quale l&#39;elemento dimensione scade (non riceve più credito per gli eventi di successo). Puoi impostare la scadenza dell’attribuzione a livello di sessione, persona o in formato personalizzato.
 
 | Impostazione | Definizione |
 |---|---|
