@@ -2,10 +2,10 @@
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ I componenti sono funzionalità di Customer Journey Analytics che possono essere
 
 Puoi gestire i seguenti componenti:
 
-* [**Filtri:**](filters/filters-overview.md) escludi parti dei dati per concentrarti su valori dimensionali comuni
+* [**Filtri **](filters/filters-overview.md): Escludere parti dei dati per concentrarsi su elementi di dimensione comune
 * [**Metriche calcolate:**](calc-metrics/calc-metr-overview.md) utilizza metriche e formule come nuovi componenti da utilizzare nel reporting
 * [**Intervalli di date:**](date-ranges/overview.md) personalizza e perfeziona gli intervalli di date offerti da Analysis Workspace
 * [**Progetti:**](/help/analysis-workspace/home.md) organizza e gestisci i progetti in Analysis Workspace
