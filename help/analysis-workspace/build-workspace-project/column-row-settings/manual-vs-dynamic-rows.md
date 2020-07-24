@@ -1,10 +1,10 @@
 ---
-title: Elementi dimensione dinamici e statici
+title: Elementi dimensione dinamici e statici nelle tabelle a forma libera
 description: Come interagire con gli elementi dimensionali dinamici e statici nelle tabelle.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '511'
 ht-degree: 9%
 
 ---
@@ -26,6 +26,8 @@ Ad esempio, quando si trascina la dimensione Tipo browser nella tabella, gli ele
 
 Gli elementi dimensione dinamica dispongono dell&#39;opzione filtro riga e **non** sono presenti icone blocco e X.
 
+![](assets/dynamic-items.png)
+
 ## Elementi dimensione statici
 
 Gli elementi dimensionali statici non cambiano con il tempo; sono componenti fissi che vengono sempre restituiti in una tabella a forma libera. Gli elementi dimensione statica sono preferiti quando si desidera analizzare sempre lo stesso elemento, siano essi campagne specifiche o giorni specifici della settimana.
@@ -39,15 +41,18 @@ Ad esempio, quando si trascina su specifici elementi del tipo di browser come Mi
 
 Gli elementi dimensione statici **non** dispongono dell&#39;opzione filtro righe. Al contrario, su ogni elemento sono presenti le icone Blocca e X. Fare clic sull&#39;icona X per rimuovere l&#39;elemento dimensione dalla tabella.
 
+![](assets/static-items.png)
+
 ## Elementi dimensionali misti
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l’intestazione della riga indica &quot;Dimensioni miste&quot;. Questi elementi dimensione sono statici. Ad esempio, aggiungere elementi dimensionali specifici dalla dimensione Tipo browser e altri elementi dimensionali dalla dimensione Browser.
+
+![](assets/mixed-dimensions.png)
 
 ## Righe totali a forma libera
 
 Le righe dinamiche e statiche si comportano in modo diverso nella riga totale a forma libera. Per impostazione predefinita:
 
 * Le righe dinamiche vengono sommate con metriche lato server e deduplicate, come visite o visitatori
-* Le righe statiche sono sommate sul lato client e **non** duplicano le metriche.
+* Le righe statiche sono sommate sul lato client e **non** duplicano le metriche. Per calcolare la riga totale lato server, modificare l&#39;impostazione Riga in **Mostra totale** complessivo. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
-[Ulteriori informazioni sulle opzioni totali](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) di Workspace per le righe dinamiche e statiche.
