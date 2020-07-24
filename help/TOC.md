@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
+workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
       + Impostazioni colonna e riga {#column-row-settings}
          + [Impostazioni colonna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Impostazioni riga](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Righe manuali e dinamiche](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Elementi dinamici e statici](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Impostazioni Annulla e Ripristina](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Tasti di scelta rapida disponibili in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paginazione, filtri e ordinamento di tabelle](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
