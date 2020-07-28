@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 87%
+source-wordcount: '866'
+ht-degree: 79%
 
 ---
 
@@ -34,9 +34,13 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
 1. Seleziona uno o più set di dati da richiamare in [!UICONTROL Customer Journey Analytics] e fai clic su **[!UICONTROL Add]**.
 
-   Se sono presenti molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca sopra l’elenco dei set di dati.
+   (If you have a lot of datasets to choose from, you can search for the right one(s) using the **[!UICONTROL Search datasets]** search bar above the list of datasets.)
 
-1. Successivamente, per ogni set di dati aggiunto alla connessione, [!UICONTROL Customer Journey Analytics] imposta automaticamente il tipo di set di dati in base ai dati in arrivo.
+## Configura set di dati
+
+A destra, ora puoi configurare il set di dati aggiunto.
+
+1. **[!UICONTROL Dataset type]**: Per ogni dataset aggiunto alla connessione, imposta [!UICONTROL Customer Journey Analytics] automaticamente il tipo di dataset in base ai dati in arrivo.
 
    Esistono 3 tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTROL Profile] e dati [!UICONTROL Lookup].
 
@@ -46,9 +50,19 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
    | [!UICONTROL Lookup] | Analogo a un file classificazioni. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento o profilo. Ad esempio, puoi caricare dati di ricerca che mappano gli ID numerici nei dati evento ai nomi dei prodotti. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
    | [!UICONTROL Profile] | Analogo a [!UICONTROL Customer Attributes] per attributi non modificabili e non temporali. Dati applicati a visitatori, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Ogni set di dati definito in [!DNL Experience Platform] presenta un proprio set di uno o più ID persona definiti, ad esempio Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento) e così via.<br>![ID persona](assets/person-id.png)**Nota:** se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona. |
 
-1. Fate clic **[!UICONTROL Next]** per passare alla [!UICONTROL Create Connection] finestra di dialogo.
+1. **[!UICONTROL Dataset ID]**: Questo ID viene generato automaticamente.
 
-   ![Crea connessione](assets/create-connection2.png)
+1. **[!UICONTROL Timestamp]**: aggiungi il contenuto qui
+
+1. **[!UICONTROL Schema]**:
+
+1. **[!UICONTROL Person ID]**:
+
+1. Fate clic **[!UICONTROL Next]** per passare alla [!UICONTROL Enable Connection] finestra di dialogo.
+
+   ![Abilita connessione](assets/create-connection2.png)
+
+## Abilita connessione
 
 1. Nella finestra di dialogo [!UICONTROL Create Connection], definisci le seguenti impostazioni:
 
