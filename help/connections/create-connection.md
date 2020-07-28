@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
+source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 72%
+source-wordcount: '1290'
+ht-degree: 53%
 
 ---
 
@@ -56,9 +56,9 @@ A destra, ora puoi configurare il set di dati aggiunto.
 
 1. **[!UICONTROL Time stamp]**: aggiungi il contenuto qui
 
-1. **[!UICONTROL Schema]**: Si tratta dello schema basato sul quale il dataset è stato creato in  Adobe Experience Platform.
+1. **[!UICONTROL Schema]**: Questo è lo [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) basato sul quale il dataset è stato creato in  Adobe Experience Platform.
 
-1. **[!UICONTROL Person ID]**: Selezionare un ID persona dalle identità disponibili definite nello schema del set di dati nel Experience Platform .
+1. **[!UICONTROL Person ID]**: Selezionate un ID persona dall&#39;elenco a discesa delle identità disponibili. Tali identità sono state definite nello schema del set di dati nel Experience Platform . Consulta di seguito per informazioni su come utilizzare la mappa identità come ID persona.
 
    >[!IMPORTANT]
    >
@@ -66,9 +66,20 @@ A destra, ora puoi configurare il set di dati aggiunto.
 
 1. Fate clic **[!UICONTROL Next]** per passare alla [!UICONTROL Enable Connection] finestra di dialogo.
 
-### Mappa identità
+### Usa mappa identità come ID persona
 
+Il Customer Journey Analytics ora supporta la possibilità di utilizzare la mappa identità per il relativo ID persona. Mappa identità è una struttura di dati mappa che consente a un utente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi di identità e il valore è una struttura che contiene il valore di identità. La mappa identità esiste su ogni riga/evento caricato e viene compilata di conseguenza per ogni riga.
 
+La mappa identità è disponibile per qualsiasi set di dati che utilizza uno schema basato sulla classe ExperienceEvent XDM. Quando si seleziona un set di dati da includere in una connessione CJA, è possibile selezionare un campo come ID principale o Mappa identità:
+
+![](assets/idmap1.png)
+
+Se selezionate Mappa identità, vengono visualizzate due opzioni di configurazione aggiuntive:
+
+| Opzione | Descrizione |
+|---|---|
+| [!UICONTROL Use Primary ID Namespace] | Questo indica a CJA, per riga, di trovare l&#39;identità nella Mappa identità contrassegnata con un attributo primario=true e utilizzarla come ID persona per quella riga. Questo significa che si tratta della chiave primaria che verrà utilizzata nel Experience Platform  partizionamento. È anche il candidato principale per l’utilizzo come ID visitatore di CJA (a seconda di come il set di dati è configurato in una connessione CJA). |
+| [!UICONTROL Namespace] | Questa opzione è disponibile solo se non si utilizza lo spazio dei nomi ID principale. Gli spazi dei nomi delle identità sono un componente di [Servizio](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) identità Adobe Experience Platform che funge da indicatori del contesto a cui si riferisce un&#39;identità. Se si specifica uno spazio dei nomi, CJA cercherà la mappa identità di ogni riga per questa chiave dello spazio dei nomi e utilizzerà l&#39;identità nello spazio dei nomi come ID persona per quella riga. Notate che, poiché CJA non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali spazi di nomi sono effettivamente presenti, tutti i possibili spazi di nomi sono elencati nel menu a discesa. È necessario sapere quali spazi dei nomi sono specificati nei dati; non può essere rilevato automaticamente. |
 
 ## Abilita connessione
 
@@ -76,7 +87,7 @@ A destra, ora puoi configurare il set di dati aggiunto.
 
 1. Per abilitare una connessione, definire le seguenti impostazioni:
 
-   | Campo | Descrizione |
+   | Opzione | Descrizione |
    |---|---|
    | [!UICONTROL Name Connection] | Assegna alla connessione un nome descrittivo. Impossibile salvare la connessione senza un nome. |
    | [!UICONTROL Description] | Aggiungi ulteriori dettagli per distinguere questa connessione dalle altre. |
