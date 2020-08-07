@@ -5,10 +5,10 @@ title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -30,14 +30,16 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 
    Puoi suddividere le metriche per elementi dimensionali o segmenti di pubblico tra periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
-   >[!NOTE] È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
+   >[!NOTE]
+   >
+   >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
 
 [Dimensioni in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
 [Analisi approfondita delle dimensioni su YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13) (2:02)
 
-## Applicare modelli di attribuzione alle suddivisioni
+## Applicare modelli di attribuzione ai raggruppamenti
 
-Qualsiasi suddivisione all&#39;interno di una tabella può essere applicata anche a qualsiasi modello di attribuzione. Questo modello di attribuzione può essere lo stesso o diverso dalla colonna padre. Ad esempio, puoi analizzare la dimensione Ordini lineari nella dimensione Canali di marketing, ma applicare Ordini con forma U ai codici di monitoraggio specifici all&#39;interno di un Canale. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e fai clic su **[!UICONTROL Edit]**:
 
-![Impostazioni di suddivisione](assets/breakdown_settings.png)
+![Impostazioni di raggruppamento](assets/breakdown_settings.png)
