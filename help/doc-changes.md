@@ -1,18 +1,24 @@
 ---
 title: Aggiornamenti della documentazione di CJA
-description: 'Elenca gli aggiornamenti di contenuto per la documentazione di analisi del percorso cliente impostata a partire da dicembre 2019. '
+description: 'Elenca gli aggiornamenti di contenuto per la documentazione di Customer Journey Analytics impostati a partire da dicembre 2019. '
 translation-type: tm+mt
-source-git-commit: f147f4b2a68cc1ce52356ab763546bfe7dc622da
+source-git-commit: deb34a4a836d10e4925dcced68c5949ea85ffc3f
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 18%
 
 ---
 
 
-# Aggiornamenti alla documentazione di analisi del percorso del cliente
+# Customer Journey Analytics - aggiornamenti della documentazione
 
 I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal suo inizio.
 
 | Data | Aggiornamento description |
 | --- | --- |
-| 14 aprile 2020 | Aggiornamenti all&#39;interfaccia utente più recente nell&#39;argomento [Crea connessioni](/help/connections/create-connection.md) . |
-| 27 febbraio 2020 | Aggiornamenti alla pagina di supporto [della funzione Analisi percorso](/help/getting-started/cja-aa.md) cliente. |
+| 7 agosto 2020 | Nuovo argomento su [Caso d’uso B22 - dataset di ricerca](/help/use-cases/b2b.md) aggiunto. |
+| Luglio 2020 | Sono state aggiunte informazioni su [Opzione Mappa identità per ID persona](https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| Luglio 2020 | Nuovo argomento su [array di oggetti](/help/use-cases/object-arrays.md) o &#39;gerarchie di dati&#39; aggiunto. |
+| 14 aprile 2020 | Aggiornamenti all’interfaccia utente più recente [Creazione di connessioni](/help/connections/create-connection.md) argomento. |
+| 27 febbraio 2020 | Aggiornamenti al [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/cja-aa.md) page. |
 | Dicembre 2019 | Prima bozza della documentazione relativa alla CJA |
