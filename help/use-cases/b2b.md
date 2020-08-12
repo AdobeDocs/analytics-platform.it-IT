@@ -2,9 +2,9 @@
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scoprite come aggiungere dati basati su account come set di dati di ricerca a CJA
 translation-type: tm+mt
-source-git-commit: 721915ffdc9f196a13a360fb5ac145f750788bcf
+source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '834'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,15 @@ Una volta creato lo schema, è necessario creare un set di dati di ricerca da ta
 1. Denominate il dataset (nel nostro esempio, Informazioni B2B) e fornite una descrizione.
 1. Fai clic su **[!UICONTROL Finish]**.
 
+## 3. Assimilazione di dati in  Experience Platform
 
-## 3. Combinazione di set di dati in una connessione (Customer Journey Analytics)
+Istruzioni su come [Mappare un file CSV su uno schema XDM](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) dovrebbe essere utile se utilizzi un file CSV.
+
+[Altri metodi](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) sono disponibili anche.
+
+L&#39;inserimento dei dati e l&#39;impostazione della ricerca richiede circa 2-4 ore, a seconda delle dimensioni della tabella di ricerca.
+
+## 4. Combinazione di set di dati in una connessione (Customer Journey Analytics)
 
 Per questo esempio, stiamo combinando 3 set di dati in una connessione CJA:
 
@@ -61,20 +68,18 @@ Di seguito è illustrato come combinare i set di dati:
 
 1. Nel Customer Journey Analytics, selezionate il pulsante **[!UICONTROL Connections]** tab.
 1. Selezionate i set di dati (nel nostro esempio, i tre precedenti) da combinare.
-1. (Non sono sicuro che questo sia il punto di appartenenza del passaggio...) Per il set di dati di informazioni B2B, seleziona il `accountID` chiave che verrà utilizzata nella tabella di ricerca. Quindi selezionate la chiave corrispondente (dimensione corrispondente), anche `accountID` nel set di dati dell’evento.
+1. Per il set di dati di informazioni B2B, seleziona il `accountID` chiave che verrà utilizzata nella tabella di ricerca. Quindi selezionate la chiave corrispondente (dimensione corrispondente), anche `accountID` nel set di dati dell’evento.
 1. Fai clic su **[!UICONTROL Next]**.
 1. Denominate e descrivete la connessione e configuratela in base a [queste istruzioni](/help/connections/create-connection.md).
 1. Fai clic su **[!UICONTROL Save]**.
 
-Ora i dati verranno assimilati. L&#39;inserimento dei dati e l&#39;impostazione della ricerca richiede circa 2-4 ore, a seconda delle dimensioni della tabella di ricerca.
-
-## Creazione di una visualizzazione dati da questa connessione
+## 5. Creazione di una visualizzazione dati da questa connessione
 
 Segui le istruzioni riportate in [creazione di viste dati](/help/data-views/create-dataview.md).
 
 * Aggiungi tutti i componenti (dimensioni e metriche) necessari dai set di dati.
 
-## Analisi dei dati in Workspace
+## 6. Analisi dei dati in Workspace
 
 È ora possibile creare progetti Workspace basati sui dati provenienti da tutti e tre i set di dati.
 
