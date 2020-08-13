@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
+source-git-commit: 92702a78f4b3d3413f91d896749db10102412fba
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 43%
+source-wordcount: '1578'
+ht-degree: 44%
 
 ---
 
@@ -20,6 +20,8 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 >
 >È possibile combinare più set di dati [!DNL Experience Platform] in una singola connessione.
 
+## Seleziona sandbox e set di dati
+
 1. Vai a [https://analytics.adobe.com](https://analytics.adobe.com).
 
 1. Fai clic sulla scheda **[!UICONTROL Connections]**.
@@ -30,11 +32,15 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
 1. Scegliete una sandbox in  Experience Platform che contenga il/i set di dati a cui desiderate creare una connessione.
 
-    Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che dividono una singola istanza di Platform in ambienti virtuali separati per aiutare a sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati. Non potete accedere ai dati tra le sandbox. Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui è possibile eseguire il pulling.
+   Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) quale partizione di una singola istanza della piattaforma in ambienti virtuali separati per sviluppare e sviluppare applicazioni per esperienze digitali. Potete considerare le sandbox come &quot;silos di dati&quot; contenenti set di dati. Le sandbox vengono utilizzate per controllare l&#39;accesso ai set di dati.  Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui è possibile eseguire il pulling.
+
+   >[!IMPORTANT]
+   >
+   >Non potete accedere ai dati tra più sandbox, ad esempio potete combinare solo set di dati all’interno di una sandbox.
 
 1. Seleziona uno o più set di dati da richiamare in [!UICONTROL Customer Journey Analytics] e fai clic su **[!UICONTROL Add]**.
 
-   (If you have a lot of datasets to choose from, you can search for the right one(s) using the **[!UICONTROL Search datasets]** search bar above the list of datasets.)
+   (Se avete molti set di dati tra cui scegliere, potete cercare quelli giusti utilizzando la variabile **[!UICONTROL Search datasets]** barra di ricerca sopra l&#39;elenco dei set di dati.
 
 ## Configura set di dati
 
@@ -42,7 +48,7 @@ A destra, ora puoi configurare il set di dati aggiunto.
 
 ![Configura set di dati](assets/create-connection.png)
 
-1. **[!UICONTROL Dataset type]**: Per ogni dataset aggiunto alla connessione, imposta [!UICONTROL Customer Journey Analytics] automaticamente il tipo di dataset in base ai dati in arrivo.
+1. **[!UICONTROL Dataset type]**: Per ogni set di dati aggiunto alla connessione, [!UICONTROL Customer Journey Analytics] imposta automaticamente il tipo di dataset in base ai dati in arrivo.
 
    Esistono 3 tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTROL Profile] e dati [!UICONTROL Lookup].
 
@@ -50,27 +56,27 @@ A destra, ora puoi configurare il set di dati aggiunto.
    |---|---|---|---|---|
    | [!UICONTROL Event] | Dati che rappresentano eventi nel tempo (ad esempio visite web, interazioni, transazioni, dati POS, dati dei sondaggi, dati ad impression, ecc.). Questi possono essere ad esempio tipici dati di click-stream, con un ID cliente o un ID cookie e un timestamp. Con i dati evento hai la flessibilità di scegliere quale ID usare come ID persona. | È impostato automaticamente sul campo timestamp predefinito dagli schemi basati sull’evento in [UICONTROL Experience Platform]. | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con il comportamento “Serie temporali”. Alcuni esempi includono “XDM Experience Event” o “XDM Decision Event”. | Puoi scegliere l’ID persona da includere. Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuno di questi può essere utilizzato come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento), ecc. |
    | [!UICONTROL Lookup] | Analogo a un file classificazioni. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento o profilo. Ad esempio, puoi caricare dati di ricerca che mappano gli ID numerici nei dati evento ai nomi dei prodotti. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
-   | [!UICONTROL Profile] | Analogo a [!UICONTROL Customer Attributes] per attributi non modificabili e non temporali. Dati applicati a visitatori, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Ogni set di dati definito in [!DNL Experience Platform] presenta un proprio set di uno o più ID persona definiti, ad esempio Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento) e così via.<br>![ID persona](assets/person-id.png)**Nota:** se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona. |
+   | [!UICONTROL Profile] | Analogo a [!UICONTROL Customer Attributes] per attributi non modificabili e non temporali. Dati applicati a visitatori, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Ogni set di dati definito in [!DNL Experience Platform] presenta un proprio set di uno o più ID persona definiti, ad esempio Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento) e così via.<br>![ID persona ](assets/person-id.png)**Nota:** se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona. |
 
 1. **[!UICONTROL Dataset ID]**: Questo ID viene generato automaticamente.
 
 1. **[!UICONTROL Time stamp]**: aggiungi il contenuto qui
 
-1. **[!UICONTROL Schema]**: Questo è lo [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) basato sul quale il dataset è stato creato in  Adobe Experience Platform.
+1. **[!UICONTROL Schema]**: Questa è la [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in base al quale il set di dati è stato creato in Adobe Experience Platform.
 
 1. **[!UICONTROL Person ID]**: Selezionate un ID persona dall&#39;elenco a discesa delle identità disponibili. Tali identità sono state definite nello schema del set di dati nel Experience Platform . Consulta di seguito per informazioni su come utilizzare la mappa identità come ID persona.
 
    >[!IMPORTANT]
    >
-   >Se non sono disponibili ID di persona, uno o più ID di persona non sono stati definiti nello schema. Guardate [questo video](https://youtu.be/G_ttmGl_LRU) su come definire un&#39;identità in  Experience Platform.
+   >Se non sono disponibili ID di persona, uno o più ID di persona non sono stati definiti nello schema. Visualizza [questo video](https://youtu.be/G_ttmGl_LRU) su come definire un&#39;identità in  Experience Platform.
 
-1. Fate clic **[!UICONTROL Next]** per passare alla [!UICONTROL Enable Connection] finestra di dialogo.
+1. Click **[!UICONTROL Next]** per passare al [!UICONTROL Enable Connection] finestra di dialogo.
 
 ### Usa mappa identità come ID persona
 
-Il Customer Journey Analytics ora supporta la possibilità di utilizzare la mappa identità per il relativo ID persona. Mappa identità è una struttura di dati mappa che consente a un utente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi di identità e il valore è una struttura che contiene il valore di identità. La mappa identità esiste su ogni riga/evento caricato e viene compilata di conseguenza per ogni riga.
+Il Customer Journey Analytics ora supporta la possibilità di utilizzare la mappa identità per il relativo ID persona. Mappa identità è una struttura di dati mappa che consente a un utente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi dell’identità e il valore è una struttura che contiene il valore dell’identità. La mappa identità esiste su ogni riga/evento caricato e viene compilata di conseguenza per ogni riga.
 
-La mappa identità è disponibile per qualsiasi set di dati che utilizza uno schema basato sulla classe [ExperienceEvent XDM](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) . Quando si seleziona un set di dati da includere in una connessione CJA, è possibile selezionare un campo come ID principale o Mappa identità:
+La mappa identità è disponibile per qualsiasi set di dati che utilizza uno schema basato su [ExperienceEvent XDM](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) class. Quando si seleziona un set di dati da includere in una connessione CJA, è possibile selezionare un campo come ID principale o Mappa identità:
 
 ![](assets/idmap1.png)
 
@@ -79,7 +85,7 @@ Se selezionate Mappa identità, vengono visualizzate due opzioni di configurazio
 | Opzione | Descrizione |
 |---|---|
 | [!UICONTROL Use Primary ID Namespace] | Questo indica a CJA, per riga, di trovare l&#39;identità nella Mappa identità contrassegnata con un attributo primario=true e utilizzarla come ID persona per quella riga. Questo significa che si tratta della chiave primaria che verrà utilizzata nel Experience Platform  partizionamento. È anche il candidato principale per l’utilizzo come ID visitatore di CJA (a seconda di come il set di dati è configurato in una connessione CJA). |
-| [!UICONTROL Namespace] | Questa opzione è disponibile solo se non si utilizza lo spazio dei nomi ID principale. Gli spazi dei nomi delle identità sono un componente di [Servizio](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) identità Adobe Experience Platform che funge da indicatori del contesto a cui si riferisce un&#39;identità. Se si specifica uno spazio dei nomi, CJA cercherà la mappa identità di ogni riga per questa chiave dello spazio dei nomi e utilizzerà l&#39;identità nello spazio dei nomi come ID persona per quella riga. Notate che, poiché CJA non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali spazi di nomi sono effettivamente presenti, tutti i possibili spazi di nomi sono elencati nel menu a discesa. È necessario sapere quali spazi dei nomi sono specificati nei dati; non può essere rilevato automaticamente. |
+| [!UICONTROL Namespace] | Questa opzione è disponibile solo se non si utilizza lo spazio dei nomi ID principale. Gli spazi dei nomi delle identità sono un componente di [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) che fungono da indicatori del contesto a cui si riferisce un&#39;identità. Se si specifica uno spazio dei nomi, CJA cercherà la mappa identità di ogni riga per questa chiave dello spazio dei nomi e utilizzerà l&#39;identità nello spazio dei nomi come ID persona per quella riga. Notate che, poiché CJA non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali spazi di nomi sono effettivamente presenti, tutti i possibili spazi di nomi sono elencati nel menu a discesa. È necessario sapere quali spazi dei nomi sono specificati nei dati; non può essere rilevato automaticamente. |
 
 ### Casi periferici della mappa identità
 
