@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 92702a78f4b3d3413f91d896749db10102412fba
+source-git-commit: bbe86f2d6e052262f0e8a84bca0996f4e2589433
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 44%
+source-wordcount: '1590'
+ht-degree: 43%
 
 ---
 
@@ -44,7 +44,7 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
 ## Configura set di dati
 
-A destra, ora puoi configurare il set di dati aggiunto.
+Sul lato destro è ora possibile configurare i set di dati aggiunti.
 
 ![Configura set di dati](assets/create-connection.png)
 
@@ -55,7 +55,7 @@ A destra, ora puoi configurare il set di dati aggiunto.
    | Tipo di set di dati | Descrizione | Timestamp | Schema | ID persona |
    |---|---|---|---|---|
    | [!UICONTROL Event] | Dati che rappresentano eventi nel tempo (ad esempio visite web, interazioni, transazioni, dati POS, dati dei sondaggi, dati ad impression, ecc.). Questi possono essere ad esempio tipici dati di click-stream, con un ID cliente o un ID cookie e un timestamp. Con i dati evento hai la flessibilità di scegliere quale ID usare come ID persona. | È impostato automaticamente sul campo timestamp predefinito dagli schemi basati sull’evento in [UICONTROL Experience Platform]. | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con il comportamento “Serie temporali”. Alcuni esempi includono “XDM Experience Event” o “XDM Decision Event”. | Puoi scegliere l’ID persona da includere. Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuno di questi può essere utilizzato come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento), ecc. |
-   | [!UICONTROL Lookup] | Analogo a un file classificazioni. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento o profilo. Ad esempio, puoi caricare dati di ricerca che mappano gli ID numerici nei dati evento ai nomi dei prodotti. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
+   | [!UICONTROL Lookup] | (analogo a un file Classifications in Adobe Analytics  tradizionale). Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento o profilo. Ad esempio, puoi caricare dati ricerca che mappano ID numerici nei dati evento ai nomi dei prodotti. Vedere [questo caso d&#39;uso](/help/use-cases/b2b.md) ad esempio. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
    | [!UICONTROL Profile] | Analogo a [!UICONTROL Customer Attributes] per attributi non modificabili e non temporali. Dati applicati a visitatori, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Ogni set di dati definito in [!DNL Experience Platform] presenta un proprio set di uno o più ID persona definiti, ad esempio Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento) e così via.<br>![ID persona ](assets/person-id.png)**Nota:** se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona. |
 
 1. **[!UICONTROL Dataset ID]**: Questo ID viene generato automaticamente.
