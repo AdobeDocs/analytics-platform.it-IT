@@ -1,11 +1,11 @@
 ---
 title: Glossario di Customer Journey Analytics
 description: Glossario di Customer Journey Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 307bfae11f44d088aa8d004f1f7ddd17375f60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Alcuni termini di Customer Journey Analytics differiscono da come sono stati tra
 
 | Nuovo termine di Customer Journey Analytics | Termine di Adobe Analytics | Descrizione |
 |---|---|---|
-| Set di dati di ricerca | Classificazione | Utilizzate la ricerca per recuperare il valore dal set di dati specificato per una chiave/chiave corrispondente (in un set di dati dell&#39;evento) in cui esiste una relazione 1-1. Ad esempio, potete specificare &quot;tracking_code&quot; come chiave che corrisponda al &quot;tracking_code&quot; nel set di dati dell’evento. |
+| Set di dati di ricerca | Classificazione | Utilizza la ricerca per recuperare il valore dal set di dati specificato per una chiave/chiave corrispondente (in un set di dati di eventi) in cui esiste una relazione 1:1. Ad esempio, puoi specificare “tracking_code” come chiave che corrisponda al “tracking_code” nel set di dati di eventi. |
 | Set di dati di profilo | Attributo cliente | Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti, puoi caricare tali dati in un set di dati di profilo in Adobe Experience Platform. Dopo aver creato una connessione a tale set di dati in Customer Journey Analytics e aver creato una visualizzazione dati, sfrutta i dati in Workspace. |
 | Società di accesso | Organizzazione Experience Cloud | Consulta [Organizzazioni e collegamento di account](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1). |
 | N/D | Suite di rapporti | Le suite di rapporti nel senso tradizionale di Adobe Analytics non esistono più. Al loro posto, è possibile creare [visualizzazioni dati](/help/data-views/create-dataview.md) (virtuali) dai set di dati di Platform a cui hai stabilito connessioni. |
