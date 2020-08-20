@@ -1,8 +1,11 @@
 ---
 title: Creare una visualizzazione dati
 description: Descrive come creare una visualizzazione dati di un set di dati di Platform in Customer Journey Analytics (CJA).
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
 ## Prerequisito
 
-Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform]](/help/connections/create-connection.md).
+Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
 
 ## Configurare impostazioni
 
@@ -40,7 +43,7 @@ Prima di poter creare visualizzazioni dati, devi [impostare una o più connessio
 
 ## Aggiungere componenti
 
-1. Ora è il momento di aggiungere componenti (dimensioni, metriche) alla visualizzazione dati (in maniera simile all’esperienza di selezione nelle suite di rapporti virtuali). Tieni presente che ciascuno dei campi nei set di dati ora è convertito in dimensioni o metriche. Trascina dimensioni e metriche nel pannello o **[!UICONTROL Seleziona tutto]** per aggiungere tutti i componenti.
+1. Ora è il momento di aggiungere componenti (dimensioni, metriche) alla visualizzazione dati (in maniera simile all’esperienza di selezione nelle suite di rapporti virtuali). Tieni presente che ciascuno dei campi nei set di dati ora è convertito in dimensioni o metriche. Trascina dimensioni e metriche nel pannello o **[!UICONTROL Select All]** per aggiungere tutti i componenti.
 
    ![](assets/add-all-components.png)
 
