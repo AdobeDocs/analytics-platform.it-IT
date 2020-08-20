@@ -2,9 +2,9 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: bbe86f2d6e052262f0e8a84bca0996f4e2589433
+source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1594'
 ht-degree: 43%
 
 ---
@@ -36,7 +36,7 @@ Fai clic [qui](https://docs.adobe.com/content/help/en/platform-learn/tutorials/c
 
    >[!IMPORTANT]
    >
-   >Non potete accedere ai dati tra più sandbox, ad esempio potete combinare solo set di dati all’interno di una sandbox.
+   >Non potete accedere ai dati tra le sandbox, ad esempio potete combinare solo set di dati che si trovano all&#39;interno della stessa sandbox.
 
 1. Seleziona uno o più set di dati da richiamare in [!UICONTROL Customer Journey Analytics] e fai clic su **[!UICONTROL Add]**.
 
