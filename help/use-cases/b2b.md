@@ -2,10 +2,10 @@
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scoprite come aggiungere dati basati su account come set di dati di ricerca a CJA
 translation-type: tm+mt
-source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
+source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 1%
+source-wordcount: '922'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 
 A tal fine, inserisci le informazioni a livello di account come [search](/help/getting-started/cja-glossary.md) dataset (simile alle classificazioni in Adobe Analytics  tradizionale).
 
-Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca mediante l&#39;inserimento di dati a livello di account basati su .csv. Quindi si crea una connessione CJA che combina diversi set di dati, inclusa la ricerca creata dall&#39;utente. È quindi possibile creare una visualizzazione dati e, infine, utilizzare tutti questi dati in Workspace.
+Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca mediante l&#39;inserimento di dati a livello di account basati su .csv. Quindi si crea una connessione CJA che combina diversi set di dati, inclusa la ricerca creata dall&#39;utente. È quindi possibile creare una visualizzazione dati e utilizzare tutti questi dati in Workspace.
 
 >[!NOTE]
 >
@@ -37,6 +37,12 @@ Creazione di uno schema personalizzato per [search](/help/getting-started/cja-gl
 ## 2. Crea set di dati di ricerca ( Experience Platform)
 
 Una volta creato lo schema, è necessario creare un set di dati di ricerca da tale schema, in  Experience Platform. Questo set di dati di ricerca contiene informazioni di marketing a livello di account, ad esempio: nome della società, numero totale di dipendenti, nome del dominio, il settore di appartenenza, i ricavi annuali, che siano clienti correnti del Experience Platform  o meno, in quale fase di vendita sono, quale team all&#39;interno del conto utilizza CJA, ecc.
+
+>[!IMPORTANT]
+>
+>CJA non supporta i numeri interi nei set di dati di ricerca. Se si aggiungono i campi interi nello schema XDM per il set di dati di ricerca, non sarà possibile utilizzare tali numeri interi come metriche o metriche calcolate. Ad esempio, se i ricavi annuali o i dipendenti totali sono definiti come numeri interi, nei rapporti di CJA verranno visualizzati come &quot;0&quot;. Tuttavia, se vengono assegnate come stringhe, è possibile utilizzarle come informazioni di ricerca.
+
+Ad esempio, yearRevenue o totalEmployees sono definiti come Intero nell’esempio di seguito, motivo per il quale viene visualizzato &quot;0&quot; nella CJA.
 
 1. In Adobe Experience Platform, vai a **[!UICONTROL Data Management > Datasets]**.
 1. Fai clic su **[!UICONTROL + Create dataset]**.
@@ -75,7 +81,7 @@ Di seguito è illustrato come combinare i set di dati:
 
 ## 5. Creazione di una visualizzazione dati da questa connessione
 
-Segui le istruzioni riportate in [creazione di viste dati](/help/data-views/create-dataview.md).
+Segui le istruzioni riportate in [creazione di visualizzazioni dati](/help/data-views/create-dataview.md).
 
 * Aggiungi tutti i componenti (dimensioni e metriche) necessari dai set di dati.
 
