@@ -2,9 +2,9 @@
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scoprite come aggiungere dati basati su account come set di dati di ricerca a CJA
 translation-type: tm+mt
-source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '916'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Per questo esempio, stiamo combinando 3 set di dati in una connessione CJA:
 | Nome set di dati | Descrizione | Classe AEP Schema | Dettagli del set di dati |
 |---|---|---|---|
 | Impression B2B | Contiene i dati a livello di evento e clickstream a livello di account. Ad esempio, contiene l&#39;ID e-mail e l&#39;ID account corrispondente, nonché il nome marketing, per l&#39;esecuzione di annunci di marketing. Include inoltre le impression per tali annunci, per utente. | Basato sulla classe dello schema ExperienceEvent XDM | Il `emailID` viene utilizzata come identità principale e viene assegnata una `Customer ID` namespace. Di conseguenza, viene visualizzato come predefinito **[!UICONTROL Person ID]** in Customer Journey Analytics. ![Impressioni](assets/impressions-mixins.png) |
-| Profilo B2B | Questo set di dati del profilo descrive meglio gli utenti in un account, ad esempio il titolo del loro lavoro, l’account a cui appartengono, il profilo LinkedIn e così via. | In base alla classe dello schema del profilo singolo XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurarsi di abilitare **[!UICONTROL Profile]**; in caso contrario, la CJA non sarà in grado di collegare la `emailID` nel profilo B2B con `emailID` nei dati relativi all’impressione B2B. Questa funzione è denominata cucitura basata sul campo. ![Profilo](assets/profile-mixins.png) |
+| Profilo B2B | Questo set di dati del profilo descrive meglio gli utenti in un account, ad esempio il titolo del loro lavoro, l’account a cui appartengono, il profilo LinkedIn e così via. | In base alla classe dello schema del profilo singolo XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurarsi di abilitare **[!UICONTROL Profile]**; in caso contrario, la CJA non sarà in grado di collegare la `emailID` nel profilo B2B con `emailID` nei dati relativi all’impressione B2B. ![Profilo](assets/profile-mixins.png) |
 | Informazioni B2B | Vedere &quot;Crea set di dati di ricerca&quot; sopra. | B2BAccount (classe schema di ricerca personalizzata) | Il rapporto tra `accountID` e il dataset Impression B2B è stato creato automaticamente collegando il dataset B2B Info con il dataset Impression B2B in CJA, come descritto nei passaggi descritti di seguito. ![Ricerca](assets/lookup-mixins.png) |
 
 Di seguito è illustrato come combinare i set di dati:
