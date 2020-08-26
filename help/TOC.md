@@ -13,9 +13,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 98%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 98%
    + Curare o condividere progetti {#curate-share}
       + [Curare progetti Workspace](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
       + [Progetti Workspace solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
