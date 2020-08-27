@@ -3,19 +3,15 @@ description: 'null'
 title: Ottimizzare le prestazioni di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 97%
+source-wordcount: '1315'
+ht-degree: 84%
 
 ---
 
 
 # Ottimizzare le prestazioni di Analysis Workspace
-
->[!NOTE]
->
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Alcuni fattori possono influenzare le prestazioni di un progetto in Analysis Workspace. È importante sapere cosa sono questi contributi prima di iniziare a creare un progetto, in modo da essere in grado di pianificare e creare il progetto nel modo migliore. Di seguito è riportato un elenco di fattori che influiranno sulle prestazioni e sulle tecniche consigliate per l’ottimizzazione dei tuoi progetti. Le prestazioni di Analysis Workspace rappresentano una delle principali priorità di Adobe e un aspetto che continuiamo a migliorare giorno dopo giorno.
 
@@ -44,17 +40,15 @@ Inoltre, l’uso delle [classificazioni](https://docs.adobe.com/content/help/en/
 
 L’intervallo dei dati richiesti nell’ambito di un progetto influenzerà le prestazioni di Analysis Workspace.
 
-**Procedure consigliate per l’intervallo di dati**
+**Procedure ottimali per gli intervalli di date**
 
-Dove possibile, non inserire più dati del necessario.
+Dove possibile, non inserire più dati del necessario. Limita il calendario del pannello alle date pertinenti per l’analisi, oppure utilizza i componenti dell’intervallo di date (componenti viola) nelle tabelle a forma libera. Gli intervalli di date utilizzati in una tabella prevalgono sull’intervallo di date del pannello. Ad esempio, è possibile aggiungere il mese scorso, la settimana scorsa e il giorno precedente alle colonne della tabella per richiedere tali intervalli di dati specifici. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
 
-Ricorda che gli intervalli di date (componenti viola) ignorano l’intervallo date del pannello. Come risultato, se stai utilizzando diversi intervalli di date come colonne (ad es. colonne ultimo mese, ultima settimana e ieri), il pannello intervallo date non deve estendere tutti gli intervalli date delle colonne. Può essere impostato semplicemente su domani, in quanto gli intervalli di date utilizzati nella tabella a forma libera ignoreranno il pannello. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://www.youtube.com/watch?v=ybmv6EBmhn0).
-
-Usa [opzioni di confronto date](/help/components/date-ranges/time-comparison.md) per richiamare gli specifici periodi di tempo dei dati che desideri confrontare. Ad esempio, se vuoi visualizzare i dati del mese scorso rispetto ai dati dello stesso mese dello scorso anno, invece di impostare il pannello sugli ultimi 13 mesi di dati, puoi semplicemente utilizzare l’opzione di confronto di periodi di tempo per mostrare le prestazioni anno-su-anno.
+Riducete al minimo il numero di confronti su base annua utilizzati nel progetto. Quando viene calcolato un confronto tra un anno e l&#39;altro, il confronto tra i 13 mesi di dati viene eseguito tra i mesi di interesse. Questo ha lo stesso impatto di un&#39;eventuale modifica dell&#39;intervallo di date del pannello fino a 13 mesi.
 
 ## Numero di visualizzazioni
 
-Il numero di visualizzazioni di grafico contenute in un progetto influenzeranno la responsività complessiva di Analysis Workspace.
+Il numero di visualizzazioni contenute in un progetto influirà sulla reattività complessiva di  Analysis Workspace. Questo perché ogni visualizzazione, che sia una tabella o un grafico, ha un&#39;origine dati che deve essere richiesta.
 
 **Procedure consigliate per il numero di visualizzazioni**
 
@@ -67,7 +61,7 @@ Il tipo di visualizzazione (ad es. abbandono rispetto a una tabella a forma libe
 * Intervallo dei dati richiesti, così come riportato sopra
 * Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera
 * Utilizzo di segmenti complessi
-* Righe o colonne statiche di elementi in tabelle a forma libera
+* [Righe o colonne statiche di elementi in tabelle a forma libera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
 * Filtri applicati a righe in tabelle a forma libera
 * Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti
 
@@ -87,14 +81,14 @@ Non cercare di aggiungere tutti gli elementi a un progetto; piuttosto crea proge
 
 Se desideri progetti più organizzati, ricorda che il [collegamento diretto](https://www.youtube.com/watch?v=6IOEewflG2U) al tuo prodotto potrebbe rappresentare una possibilità. Crea un indice interno di progetti in modo che i soggetti interessati possano trovare più facilmente ciò di cui hanno bisogno.
 
-Se sono necessari più pannelli in Workspace, comprimili prima di salvare e condividere. Al caricamento di un progetto, Analysis Workspace caricherà solo i contenuti dei pannelli espansi. I pannelli compressi vengono caricati solo se l’utente li espande. Questo approccio è utile in due modi:
+Se in un progetto sono necessari molti pannelli, comprimete i pannelli prima di salvare e condividere. Al caricamento di un progetto, Analysis Workspace caricherà solo i contenuti dei pannelli espansi. I pannelli compressi vengono caricati solo se l’utente li espande. Questo approccio è utile in due modi:
 
 * I pannelli compressi consentono di ridurre il tempo di caricamento complessivo di un progetto
 * I pannelli compressi sono molto utili per organizzare i progetti in modo logico per l’utente del rapporto
 
 ## Dimensione della suite di rapporti
 
-La dimensione della suite di rapporti può sembrare un fattore fondamentale, ma in realtà riveste un’importanza limitata per via del modo in cui Adobe gestisce l’elaborazione dati.
+La dimensione della suite di rapporti può sembrare un fattore fondamentale, ma in realtà riveste un’importanza limitata per via del modo in cui Adobe gestisce l’elaborazione dati.. Possono esservi eccezioni a tale regola; consulta il team addetto all’implementazione o un esperto  Adobe per determinare se è possibile apportare miglioramenti all’implementazione per migliorare l’esperienza complessiva in  Adobe Analytics.
 
 ## Diversi utenti accedono simultaneamente ad Analysis Workspace
 
