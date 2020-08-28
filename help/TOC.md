@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 98%
       + [Confronto delle date](components/date-ranges/time-comparison.md)
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
-   + [Uso di array di oggetti](use-cases/object-arrays.md)
+   + [Utilizzo di array di oggetti](use-cases/object-arrays.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
 + Privacy {#cja-privacy}
    + [Panoramica sulla privacy](privacy/privacy-overview.md)
