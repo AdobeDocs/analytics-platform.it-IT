@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 56%
+ht-degree: 93%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 56%
 
 Attribuzione consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
 
-1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento per una delle pagine del prodotto. Consente di aggiungere il prodotto al carrello, ma non di acquistarlo.
-2. Il giorno successivo, l&#39;utente può consultare un post su social media di uno dei suoi amici, fare clic sul collegamento e completare l&#39;acquisto.
+1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
+2. Il giorno successivo, vede un post di social media di uno dei suoi amici, fa clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potreste desiderare l’ordine attribuito alla ricerca a pagamento. In altri rapporti, potreste desiderare l&#39;ordine attribuito a Social. Attribuzione consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe  Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l&#39;Account Manager della tua organizzazione.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l’Account Manager della tua organizzazione.
 
-## Valore di attribuzione IQ
+## Valore di Attribution IQ
 
 Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo: spesso si torna indietro, si ferma, inizia di nuovo o si impegna in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l’impatto effettivo delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
 
@@ -44,7 +44,7 @@ Adobe Analytics migliora l’attribuzione consentendo di:
 
 Attribution IQ include le seguenti funzionalità:
 
-* [Pannello](../c-panels/attribution.md)Attribuzione: Prendi qualsiasi dimensione e metrica e confrontala rapidamente con diversi modelli di attribuzione.
-* [Applica attribuzione a una metrica](../build-workspace-project/column-row-settings/column-settings.md): Utilizzate un&#39;attribuzione non predefinita su qualsiasi metrica in un progetto.
-* [Applica attribuzione a una suddivisione](/help/components/dimensions/t-breakdown-fa.md): Utilizzate un&#39;attribuzione non predefinita per una suddivisione.
-* [Confronta modelli](/help/components/apply-create-metrics.md)di attribuzione: Scopri rapidamente i diversi modelli di attribuzione rispetto a qualsiasi metrica.
+* [Pannello Attribution](../c-panels/attribution.md): prendi qualsiasi dimensione e metrica e confrontala rapidamente con diversi modelli di attribuzione.
+* [Applica attribuzione a una metrica](../build-workspace-project/column-row-settings/column-settings.md): utilizza un’attribuzione non predefinita su qualsiasi metrica in un progetto.
+* [Applica attribuzione a un raggruppamento](/help/components/dimensions/t-breakdown-fa.md): utilizza un’attribuzione non predefinita a un raggruppamento.
+* [Confronta modelli di attribuzione](/help/components/apply-create-metrics.md): scopri rapidamente le differenze tra i diversi modelli di attribuzione rispetto a qualsiasi metrica.
