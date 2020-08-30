@@ -1,9 +1,9 @@
 ---
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
 
