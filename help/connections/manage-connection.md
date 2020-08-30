@@ -1,8 +1,11 @@
 ---
 title: Gestione delle connessioni
 description: Descrive come gestire le connessioni ai set di dati della Platform.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 100%
 
 ---
 
