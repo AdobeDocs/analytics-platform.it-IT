@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 80%
+ht-degree: 91%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. Questi quattro tipi di pannelli sono disponibili in  Analysis Workspace per Customer Journey Analytics:
+I pannelli sono raccolte di tabelle e visualizzazioni. È possibile accedere ai pannelli dall’icona in alto a sinistra in Workspace. I pannelli sono utili quando desideri organizzare i tuoi progetti in base a periodi di tempo, unità organizzative, aree geografiche, ecc. Questi quattro tipi di pannelli sono disponibili in  Analysis Workspace, ad Customer Journey Analytics:
 
 * [Pannello vuoto](blank-panel.md)
-* [Pannello Quick Insights (Approfondimenti rapidi)](quickinsight.md)
-* [Pannello Attribuzione](attribution.md)
-* [Pannello a forma libera](freeform-panel.md)
+* [Pannello Quick Insights](quickinsight.md)
+* [Pannello Attribution](attribution.md)
+* [Pannello Freeform](freeform-panel.md)
 
-I pannelli Quick Insights, Blank e Freeform sono luoghi ideali per avviare l&#39;analisi, mentre il pannello Attribution IQ si presta ad analisi più avanzate. Nei progetti è disponibile un `"+"` pulsante che consente di aggiungere pannelli vuoti in qualsiasi momento.
+I pannelli di analisi rapida, Blank (Blank) e Freeform (Freeform) sono luoghi ideali per iniziare l&#39;analisi, mentre il pannello Attribution IQ  si presta ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analysis-workspace/c-panels/blank-panel.md) your default as well.
+Il pannello iniziale predefinito è il pannello Freeform, ma puoi anche decidere di rendere predefinito il [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
 
 ## Filtri a discesa nei pannelli
 
@@ -54,7 +54,7 @@ Nota bene:
 
    ![](assets/dropdown.png)
 
-1. Seleziona una delle opzioni dal menu a discesa per modificare i dati nel pannello sottostante (puoi anche scegliere di non filtrare nessuno dei dati del pannello selezionando **[!UICONTROL No filter]** (Nessun filtro)).
+1. Seleziona una delle opzioni dal menu a discesa per modificare i dati nel pannello sottostante (puoi anche scegliere di non filtrare nessuno dei dati del pannello selezionando **[!UICONTROL No filter]**).
 1. Ad esempio, se desideri anche suddividere i dati per canale di marketing, puoi aggiungere un altro menu a discesa denominato “Canale di marketing”:
 
    ![](assets/mc_dropdown.png)
