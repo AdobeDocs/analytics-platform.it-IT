@@ -22,15 +22,15 @@ Se un singolo server che elabora un sottoinsieme di dati rileva più di 500.000 
 
 ## Differenze tra &#39;coda lunga&#39; e &#39;traffico basso&#39;
 
-Nelle versioni precedenti di Adobe  Analytics, veniva utilizzata un&#39;architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi dimensione sono stati inseriti in &#39;Basso traffico&#39; dopo che una dimensione ha raggiunto valori univoci di 500K e applicato un filtraggio più aggressivo ai valori univoci di 1M. Il conteggio dei valori univoci è stato reimpostato all&#39;inizio di ogni mese di calendario. I dati trattati erano permanenti; non c&#39;era modo di estrarre i dati esistenti da &#39;Basso Traffico&#39;.
+Nelle versioni precedenti di  Adobe Analytics, veniva utilizzata un&#39;architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi Dimension sono stati inseriti in &#39;Basso traffico&#39; dopo che una dimensione ha raggiunto valori univoci di 500 K e applicato un filtraggio più aggressivo ai valori univoci di 1M. Il conteggio dei valori univoci è stato reimpostato all&#39;inizio di ogni mese di calendario. I dati trattati erano permanenti; non c&#39;era modo di estrarre i dati esistenti da &#39;Basso Traffico&#39;.
 
 In CJA, gli elementi dimensionali vengono inseriti solo in &#39;Long Tail&#39; se un singolo server di elaborazione contiene più di 500K valori univoci. I dati elaborati non sono permanenti, il che significa che è possibile ridurre l&#39;elemento dimensione &#39;Coda lunga&#39; modificando il rapporto.
 
 ## Ridurre l&#39;elemento dimensione &#39;Coda lunga&#39;
 
-Per ridurre l’elemento dimensione &#39;Coda lunga&#39;, Adobe consiglia di:
+Per ridurre l’elemento dimensione &#39;Coda lunga&#39;,  Adobe consiglia una delle seguenti opzioni:
 
 * Utilizza un segmento. I segmenti si applicano al momento in cui ogni server elabora un sottoinsieme di dati. Limitando il numero di valori univoci restituiti, si riduce l’elemento dimensione &#39;Coda lunga&#39;.
 * Utilizzare una dimensione dataset di ricerca. Le dimensioni del set di dati di ricerca combinano gli elementi della dimensione del set di dati dell&#39;evento, che limitano il numero di valori univoci restituiti.
 
-Nel complesso, è difficile utilizzare un rapporto che contiene più di 500.000 elementi di dimensione univoci. Se si applica un segmento o una dimensione di set di dati di ricerca, è possibile ridurre la presenza di &#39;Coda lunga&#39; e semplificare l&#39;utilizzo del rapporto. Adobe intende migliorare questa esperienza man mano che la CJA viene ulteriormente sviluppata.
+Nel complesso, è difficile utilizzare un rapporto che contiene più di 500.000 elementi di dimensione univoci. Se si applica un segmento o una dimensione di set di dati di ricerca, è possibile ridurre la presenza di &#39;Coda lunga&#39; e semplificare l&#39;utilizzo del rapporto.  Adobe intende migliorare tale esperienza man mano che la CGUE viene ulteriormente sviluppata.
