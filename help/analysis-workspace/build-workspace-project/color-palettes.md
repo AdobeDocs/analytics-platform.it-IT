@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione interessa gran parte delle visualizzazioni in Workspace, ma **non** influisce sulle modifiche di riepilogo, sulla formattazione condizionale nelle tabelle a forma libera e sulla vista Mappa.
 
@@ -33,10 +33,10 @@ Nota bene:
 ## Per modificare la palette di colori:
 
 1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Dall’elenco a discesa **[!UICONTROL Project Color Palette]** (Palette colori progetto) puoi scegliere una delle cinque combinazioni di colore predefinite.
+1. Dall’elenco a discesa **[!UICONTROL Project Color Palette]** puoi scegliere una delle cinque combinazioni di colore predefinite.
 
    ![](assets/custom_palette.png)
 
-1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** (Palette personalizzata) sotto le opzioni predefinite.
+1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** sotto le opzioni predefinite.
 1. Specifica fino a 16 valori esadecimali separati da virgole (ad esempio #00a4e4) per i colori che intendi utilizzare. Se, ad esempio, desideri utilizzare solo quattro valori, questi colori verranno automaticamente ripetuti in visualizzazioni contenenti più colori.
 
