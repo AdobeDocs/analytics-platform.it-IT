@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare filtri da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in  Analysis Workspace.
 
@@ -28,9 +28,9 @@ Puoi creare filtri da un punto di contatto, aggiungere segmenti come punto di co
 * Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono contesto visita
 * Utilizzo di un filtro basato sulle visite come punto di contatto all’interno di una visualizzazione Abbandono contesto visita
 
-## Create a filter from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Creare un filtro da un punto di contatto {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Crea un filtro da un punto di contatto specifico che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create filter from touchpoint]** (Crea segmento da punto di contatto).
+1. Crea un filtro da un punto di contatto specifico che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create filter from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -42,7 +42,7 @@ Puoi creare filtri da un punto di contatto, aggiungere segmenti come punto di co
 
    Ora potete utilizzare questo filtro in qualsiasi progetto desiderato.
 
-## Add a filter as a touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Aggiungere un filtro come punto di contatto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
 Per vedere, ad esempio, in che modo gli utenti USA tendono e influenzano l’abbandono, trascina il filtro degli utenti USA nell’abbandono:
 
@@ -50,11 +50,11 @@ Per vedere, ad esempio, in che modo gli utenti USA tendono e influenzano l’abb
 
 Oppure puoi creare un punto di contatto AND trascinando il filtro degli utenti USA su un altro punto di controllo.
 
-## Compare filters in fallout {#section_E0B761A69B1545908B52E05379277B56}
+## Confrontare i filtri nell’abbandono {#section_E0B761A69B1545908B52E05379277B56}
 
 Puoi confrontare un numero illimitato di filtri nella visualizzazione Abbandono.
 
-1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Filter] (Segmenti) a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
+1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Filter] a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
 1. Trascinali nella zona di rilascio Filtro in alto.
 
    ![](assets/segment-drop.png)
