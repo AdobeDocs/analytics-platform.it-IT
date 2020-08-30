@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi seguenti:
 
-* Direttamente in un progetto dell&#39;area di lavoro facendo clic sul pulsante &#39;`+`&#39; accanto all&#39;elenco dei componenti dell&#39;intervallo di date a sinistra
+* Direttamente in un progetto dell&#39;area di lavoro facendo clic sul pulsante`+`&#39; pulsante accanto all&#39;elenco dei componenti dell&#39;intervallo di date a sinistra
 * In Gestione intervalli di date
 
 Per creare un intervallo di date nel gestore intervalli di date:
 
-1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
+1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
 1. Passa a [!UICONTROL Components] > [!UICONTROL Date Ranges].
-1. Fare clic sul [!UICONTROL Add] pulsante per aprire la finestra modale che crea un intervallo di date.
+1. Fai clic sul pulsante [!UICONTROL Add] per aprire la finestra modale che crea un intervallo di date.
 
 ## Creazione di una finestra modale per l&#39;intervallo di date
 
 Nella finestra modale sono disponibili quattro campi:
 
-* **Intervallo** di date: L&#39;intervallo di date desiderato per questo componente.
+* **Intervallo date**: L&#39;intervallo di date desiderato per questo componente.
 * **Titolo**: Nome del componente desiderato. Il titolo viene utilizzato nei progetti dell’area di lavoro.
-* **Descrizione**: Descrizione del componente. La descrizione viene visualizzata quando si fa clic sull&#39;icona ![i](../assets/i.png) .
+* **Descrizione**: Descrizione del componente. La descrizione viene visualizzata quando si fa clic sul pulsante ![i](../assets/i.png) icon.
 * **Tag**: Utilizza i tag per organizzare gli intervalli di date. Un intervallo di date può appartenere a più tag.
 
 ## Selezione di un intervallo di date
@@ -41,8 +41,8 @@ Nella finestra modale sono disponibili quattro campi:
 Quando fai clic sull’intervallo di date nella finestra modale, hai diverse opzioni:
 
 * **Calendario**: Selezionare la data di inizio e di fine.
-* **Usa date** continue: Selezionare questa casella se si desidera che l&#39;intervallo di date cambi man mano che l&#39;ora continua. Non selezionare questa casella se si desidera che l&#39;intervallo di date rimanga statico.
-* **Selezionate il predefinito**: Utilizzate questo menu a discesa se desiderate un intervallo di date personalizzato basato su un intervallo offerto da Adobe per impostazione predefinita. Quando selezionate un predefinito, potete personalizzare ulteriormente l’intervallo di date in base alle vostre esigenze. Non influenza il predefinito offerto da Adobe.
+* **Usa date continue**: Selezionare questa casella se si desidera che l&#39;intervallo di date cambi man mano che l&#39;ora continua. Non selezionare questa casella se si desidera che l&#39;intervallo di date rimanga statico.
+* **Seleziona predefinito**: Utilizzate questo menu a discesa se desiderate un intervallo di date personalizzato basato su un intervallo che  Adobe offre per impostazione predefinita. Quando selezionate un predefinito, potete personalizzare ulteriormente l’intervallo di date in base alle vostre esigenze. Non influenza il predefinito offerto  Adobe.
 
 ## Intervalli di date
 
