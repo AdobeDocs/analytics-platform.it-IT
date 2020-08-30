@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2946'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Accedi a queste funzioni selezionando **[!UICONTROL Show Advanced]** nell’elenco a discesa **[!UICONTROL Functions]**.
 
@@ -103,7 +103,7 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Arcotangente (riga)
 
@@ -115,7 +115,7 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: valore Y previsto (riga)
 
@@ -165,7 +165,7 @@ CEILING(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica da arrotondare. |
+| *metrica* | La metrica da arrotondare. |
 
 ## Coseno (riga)
 
@@ -177,7 +177,7 @@ COS(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 ## Radice cubica
 
@@ -189,7 +189,7 @@ CBRT(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
+| *metrica* | La metrica per la quale vuoi ottenere la radice cubica. |
 
 ## Cumulativo
 
@@ -234,8 +234,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+| *metriche_X* | Metrica da correlare con *metric_Y*. |
+| *metriche_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione esponenziale: intersezione (tabella)
 
@@ -247,8 +247,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione esponenziale: pendenza (tabella)
 
@@ -260,8 +260,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Base (riga)
 
@@ -273,7 +273,7 @@ FLOOR(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica da arrotondare. |
+| *metrica* | La metrica da arrotondare. |
 
 ## Maggiore di
 
@@ -293,7 +293,7 @@ COSH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
 
 ## Seno iperbolico (riga)
 
@@ -305,7 +305,7 @@ SINH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
 
 ## Tangente iperbolica (riga)
 
@@ -317,7 +317,7 @@ TANH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
 
 ## IF (riga)
 
@@ -367,7 +367,7 @@ LOG10(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
 
 ## Regressione logaritmo: coefficiente di correlazione (tabella)
 
@@ -379,8 +379,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+| *metriche_X* | Metrica da correlare con *metric_Y*. |
+| *metriche_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione logaritmo: intersezione (tabella)
 
@@ -392,8 +392,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione logaritmo: valore Y previsto (riga)
 
@@ -407,8 +407,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione logaritmo: pendenza (tabella)
 
@@ -433,7 +433,7 @@ LN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
 
 ## NOT
 
@@ -490,8 +490,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+| *metriche_X* | Metrica da correlare con *metric_Y*. |
+| *metriche_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione di potenza: intersezione (tabella)
 
@@ -503,8 +503,8 @@ Restituisce l’intersezione, *b*, tra due colonne di metrica (*metric_X* e *met
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione di potenza: valore Y previsto (riga)
 
@@ -516,8 +516,8 @@ Calcola i [!DNL y] valori previsti ( [!DNL metric_Y]), in base ai [!DNL x] valor
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione di potenza: pendenza (tabella)
 
@@ -529,8 +529,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione quadratica: coefficiente di correlazione (tabella)
 
@@ -542,8 +542,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+| *metriche_X* | Metrica da correlare con *metric_Y*. |
+| *metriche_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione quadratica: intersezione (tabella)
 
@@ -555,8 +555,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione quadratica: valore Y previsto (riga)
 
@@ -568,8 +568,8 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_A* | Una metrica da designare come dati dipendenti. |
-| *metric_B* | Una metrica da designare come dati dipendenti. |
+| *metriche_A* | Una metrica da designare come dati dipendenti. |
+| *metriche_B* | Una metrica da designare come dati dipendenti. |
 
 ## Regressione quadratica: pendenza (tabella)
 
@@ -581,8 +581,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: coefficiente di correlazione (tabella)
 
@@ -594,8 +594,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+| *metriche_X* | Metrica da correlare con *metric_Y*. |
+| *metriche_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione reciproca: intersezione (tabella)
 
@@ -607,8 +607,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: valore Y previsto (riga)
 
@@ -620,8 +620,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: pendenza (tabella)
 
@@ -633,8 +633,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+| *metriche_X* | Una metrica da designare come dati dipendenti. |
+| *metriche_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Seno (riga)
 
@@ -646,7 +646,7 @@ SIN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno. |
 
 ## Punteggio T
 
@@ -688,7 +688,7 @@ TAN (metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente. |
 
 ## Punteggio Z (riga)
 
@@ -715,7 +715,7 @@ Punteggio Z (metrica)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i>metrica</i> </td> 
    <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td> 
   </tr> 
  </tbody> 
