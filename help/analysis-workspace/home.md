@@ -3,9 +3,9 @@ keywords: Analysis Workspace
 title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -47,9 +47,9 @@ Questa sessione spiega come aggiungere le metriche.
 
 ### Passaggio 3: Modificare l’intervallo date
 
-### Passaggio 4: Suddividere una dimensione
+### Passaggio 4: raggruppare una dimensione
 
-### Passaggio 5: Applicare un segmento ai dati
+### Passaggio 5: applicare un segmento ai dati
 
 ### Passaggio 6: Aggiungere visualizzazioni di base
 
