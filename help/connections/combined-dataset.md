@@ -69,7 +69,7 @@ Se la connessione includesse solo la prima tabella e non la seconda, l’estrazi
 
 Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione sarebbe modificata poiché `user_847` si trova in entrambi i set di dati. Una riga del secondo set di dati attribuisce `metric_a` a “Giallo”, in precedenza non specificato:
 
-| string_color | metric_a |
+| string_color | metriche_a |
 | --- | --- |
 | Giallo | 6 |
 | Blu | 3 |
