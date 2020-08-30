@@ -1,22 +1,22 @@
 ---
-title: Modelli di attribuzione e finestre di lookback
+title: Modelli di attribuzione e intervalli di lookback
 description: Differenze tra i diversi tipi di attribuzione tra gli elementi dimensionali.
 translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
 
-# Modelli di attribuzione e finestre di lookback
+# Modelli di attribuzione e intervalli di lookback
 
 >[!NOTE]
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Il concetto di attribuzione in Adobe  Analytics richiede due componenti:
+Il concetto di attribuzione in Adobe Analytics richiede due componenti:
 
 * **Modello di attribuzione:** il modello descrive la distribuzione delle conversioni negli hit in un gruppo. Ad esempio, primo contatto o ultimo contatto.
 * **Intervallo di lookback dell’attribuzione:** l’intervallo di lookback descrive quali gruppi di hit vengono considerati per ogni modello. Ad esempio, visita o visitatore.
@@ -43,13 +43,13 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Intervallo di lookback su visita:** considera fino l’inizio di una visita che ha generato una conversione. Gli intervalli di lookback sono ridotti perché considerano esclusivamente la visita. Gli intervalli di lookback su visita rispettano la definizione di visita modificata nelle suite di rapporti virtuali.
 
-* **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback del visitatore considera tutti i valori dall&#39;inizio del mese dell&#39;intervallo di date del report. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
+* **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
-* **Finestra di lookback personalizzata:** Consente di espandere la finestra di attribuzione oltre l&#39;intervallo di date del rapporto fino a un massimo di 90 giorni. Le finestre di lookback personalizzate vengono valutate per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, una finestra di lookback di 10 giorni valuterà tutti i punti di contatto di dimensione dal 10 al 20 febbraio nel modello di attribuzione.
+* **Intervallo di lookback personalizzato:** ti consente di espandere l’intervallo di attribuzione oltre l’intervallo di date del rapporto fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
 
 >[!NOTE]
 >
->**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, consultate [Adobe  Analytics feature Release](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
+>**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Vedere [Versioni di  delle funzioni Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) per ulteriori informazioni.
 
 ## Esempio
 
