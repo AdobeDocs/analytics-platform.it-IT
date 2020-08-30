@@ -1,8 +1,11 @@
 ---
 title: Gestire i filtri
 description: Gestire i filtri in Customer Journey Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 100%
 
 ---
 
@@ -67,7 +70,7 @@ Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti d
 
 * Tag del flusso di lavoro: Da approvare; Curato per (una specifica unità aziendale).
 
-Per assegnare tag a un filtro:assegn
+Per assegnare tag a un filtro:
 
 1. Nel Gestore filtri, contrassegna la casella di controllo accanto al filtro a cui desideri assegnare il tag. Viene visualizzata la barra degli strumenti di gestione del filtro.
 
