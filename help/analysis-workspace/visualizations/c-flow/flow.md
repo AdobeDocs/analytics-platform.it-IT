@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
 
@@ -39,4 +39,4 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 
 ## Esportare i diagrammi di flusso come file .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-I diagrammi di flusso sono parte del file .CSV di un progetto che viene creato da **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV]** (Scarica CSV). Questo consente di analizzare i risultati del flusso in Microsoft Excel (sotto forma di tabella) o in un’altra applicazione.
+I diagrammi di flusso sono parte del file .CSV di un progetto che viene creato da **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Questo consente di analizzare i risultati del flusso in Microsoft Excel (sotto forma di tabella) o in un’altra applicazione.
