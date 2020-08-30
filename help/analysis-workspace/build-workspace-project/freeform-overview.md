@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per  Analysis Workspace in Customer Journey Analytics. Il set di funzioni è leggermente diverso da [Analysis Workspace in Adobe  Analytics](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html)tradizionale. [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -29,7 +29,7 @@ La query va direttamente al generatore di rapporti: per creare un’analisi, pot
 
 ## Pagina dell’elenco dei progetti Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Quando scegli **[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Workspace]** (Workspace), vengono elencati tutti i progetti di cui sei l’autore o a cui puoi accedere. Per impostare questa pagina come pagina di destinazione di Adobe Analytics, fai clic su **[!UICONTROL Set as Landing Page]** (Imposta come pagina di destinazione). Se non trovi questa impostazione, come illustrato nella videata qui sotto, è possibile che la pagina sia già stata impostata come pagina di destinazione.
+Quando scegli **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, vengono elencati tutti i progetti di cui sei l’autore o a cui puoi accedere. Per impostare questa pagina come pagina di destinazione di Adobe Analytics, fai clic su **[!UICONTROL Set as Landing Page]**. Se non trovi questa impostazione, come illustrato nella videata qui sotto, è possibile che la pagina sia già stata impostata come pagina di destinazione.
 
 ![](assets/sample-project.png)
 
@@ -39,20 +39,20 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 |---|---|
 | Progetto [Modelli](/help/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
 | [Crea nuovo progetto](/help/analysis-workspace/home.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
-| Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** (Analytics) > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL Projects]** (Progetti)), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
+| Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
 | Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nome | Nome del progetto Workspace. |
 | Creato da | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** (Analytics) > **[!UICONTROL Project]** (Progetti) > **[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto). |
+| Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
 
 ## Informazioni e impostazioni progetto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** (Workspace) > **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto)
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto) fornisce informazioni a livello di progetto sul progetto attualmente attivo.
+**[!UICONTROL Project Info & Settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
 
 | Impostazione | Descrizione |
 |---|---|
@@ -95,4 +95,4 @@ La barra a sinistra include 3 icone, che consentono di accedere a Pannelli, [Vis
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-L’opzione **[!UICONTROL Blank Panel]** (Pannello vuoto) è stata aggiunta all’elenco di pannelli accessibile dalla barra a sinistra. Per creare un **nuovo pannello coorte**, trascina un pannello vuoto nella tabella coorte.
+L’opzione **[!UICONTROL Blank Panel]** è stata aggiunta all’elenco di pannelli accessibile dalla barra a sinistra. Per creare un **nuovo pannello coorte**, trascina un pannello vuoto nella tabella coorte.
