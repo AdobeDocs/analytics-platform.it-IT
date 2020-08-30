@@ -1,16 +1,16 @@
 ---
-title: Uso di array di oggetti
+title: Utilizzo di array di oggetti
 description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
 translation-type: tm+mt
 source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
 
-# Uso di array di oggetti
+# Utilizzo di array di oggetti
 
 Alcuni schemi di piattaforma possono avere array di oggetti. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
