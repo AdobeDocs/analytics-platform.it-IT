@@ -2,10 +2,10 @@
 title: Panoramica su Customer Journey Analytics
 description: Introduzione a Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
+source-git-commit: 7fb439c0796f94e79ae2b738b71cfa85b86f2e8f
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 87%
 
 ---
 
@@ -54,16 +54,20 @@ Prima di iniziare a utilizzare Customer Journey Analytics, è necessario soddisf
 Per creare connessioni, aggiungere set di dati e così via è necessario disporre delle seguenti autorizzazioni nella [Admin Console](https://adminconsole.adobe.com/enterprise/):
 
 * Per gestire i set di dati in Experience Platform, devi far parte di un profilo di prodotto della Platform che ti concede l’autorizzazione “Manage Datasets” (Gestisci set di dati). Per ulteriori informazioni, consulta [Controllo degli accessi in Adobe Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
-* Per creare una connessione a un set di dati della Platform, devi far parte di un relativo profilo di prodotto che ti fornisca le seguenti autorizzazioni:
+* Per creare una connessione a un set di dati di un Experience Platform , dovete far parte di un profilo di prodotto della piattaforma che vi dia le seguenti autorizzazioni:
    * View Schemas (Visualizza schemi)
    * View Datasets (Visualizza set di dati)
    * Manage Identity Namespaces (Gestisci spazi dei nomi di identità)
    * View Sandboxes (Visualizza sandbox)
-* Per accedere a Customer Journey Analytics, dovrai anche essere aggiunto a un profilo di prodotto Customer Journey Analytics dalla [Admin Console](https://adminconsole.adobe.com/enterprise/).
+* A partire dal 9 settembre 2020, per accedere al Customer Journey Analytics o per effettuare una connessione, sarà necessario aggiungere l&#39;utente come amministratore a un profilo di prodotto di Customer Journey Analytics nel pannello [Admin Console ](https://adminconsole.adobe.com/enterprise/). Gli amministratori dispongono delle seguenti autorizzazioni:
+   * Creare/aggiornare/eliminare connessioni o visualizzazioni dati
+   * Aggiornare/eliminare progetti, filtri, metriche di calcolo o segmenti creati da altri utenti
+   * Condivisione di un progetto Workspace con tutti gli utenti
+* I non amministratori (utenti) nel Customer Journey Analytics non possono visualizzare le visualizzazioni dati o le connessioni, ma possono creare filtri, progetti e metriche calcolate.
 
 ### Aggiornamenti terminologici
 
-Diverse funzioni della CJA sono state rinominate per allinearsi agli standard del settore. Alcuni dei nomi aggiornati includono:
+Diverse funzioni della CJA sono state rinominate, rispetto al Adobe Analytics tradizionale , per allinearsi con gli standard di settore. Alcuni termini aggiornati includono:
 
 * I segmenti sono ora noti come “Filtri”.
 * Le suite di rapporti virtuali sono ora denominate “Visualizzazioni”.
@@ -75,7 +79,7 @@ Diverse funzioni della CJA sono state rinominate per allinearsi agli standard de
 
 ## Altre funzionalità integrate in Adobe Experience Platform
 
-Customer Journey Analytics è una delle funzionalità incentrate su Adobe Experience Platform. Numerose altre funzionalità, basate anch’esse su Platform, ti consentono di sfruttare al massimo i tuoi dati.
+Customer Journey Analytics è una delle funzionalità incentrate su Adobe Experience Platform. Diverse altre funzionalità, integrate  Experience Platform, vi consentono di sfruttare al massimo i vostri dati.
 
 Adobe Experience Platform ti permette di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema, oltre che di applicare la data science e l’apprendimento automatico al fine di migliorare la progettazione e l’erogazione di esperienze personalizzate. Nella Platform i dati del cliente vengono memorizzati come set di dati, costituiti da uno schema e da un batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/home.translate.html).
 
