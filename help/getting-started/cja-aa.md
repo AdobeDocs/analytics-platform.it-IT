@@ -2,10 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Intervalli di date | Il supporto è pianificato per il calendario personalizzato. |
 | Metriche calcolate | Eventuali metriche di calcolo esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
 | Segmenti | Ora denominati “Filtri”: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non verranno caricati in CJA. |
-| Rilevamento delle anomalie | Supporto completo a partire da giugno 2020 |
+| Rilevamento delle anomalie | Supporto completo a partire da settembre 2020 |
 | Attribution IQ | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
@@ -80,7 +80,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | A4T | Il supporto non è ancora pianificato. |
-| Analisi del video | Il supporto non è ancora pianificato. |
+| Media Analytics | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
 | Report Builder (plugin di Excel) | Il supporto non è ancora pianificato. |
 | Activity Map | Il supporto non è ancora pianificato. |
@@ -90,14 +90,12 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 ## Funzioni che non saranno mai supportate
 
-| Funzione | Note |
-| --- | --- |
-| Metrica delle persone utilizzando Cross-Device Coop (Coop tra più dispositivi) |  |
-| Dashboard di Reports &amp; Analytics |  |
-| Segnalibri di Reports &amp; Analytics |  |
-| Target di Reports &amp; Analytics |  |
-| Eventi calendario di Reports &amp; Analytics |  |
-| Ad Hoc Analysis |  |
-| Reporting di Data Warehouse | [!UICONTROL Experience Platform Query Service] sarà la nuova interfaccia per questi casi d’uso in CJA. |
-| Mobile Services |  |
-| Feed dati |  |
+* Metrica delle persone utilizzando Cross-Device Coop (Coop tra più dispositivi)
+* Dashboard di Reports &amp; Analytics
+* Segnalibri di Reports &amp; Analytics
+* Target di Reports &amp; Analytics
+* Eventi calendario di Reports &amp; Analytics
+* Ad Hoc Analysis
+* Reporting di Data Warehouse - [!UICONTROL Experience Platform Query Service] sarà la nuova interfaccia per questi casi d’uso in CJA.
+* Mobile Services
+* Feed dati
