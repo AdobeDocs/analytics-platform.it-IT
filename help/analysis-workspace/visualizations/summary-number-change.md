@@ -3,15 +3,19 @@ description: Utilizzate le visualizzazioni Summary Number (Numero riepilogo) e C
 title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 50%
+source-wordcount: '438'
+ht-degree: 54%
 
 ---
 
 
 # Numero di riepilogo e Variazione di riepilogo
+
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 ## Visualizzazione Numero di riepilogo {#summary-number}
 
