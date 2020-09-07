@@ -1,11 +1,11 @@
 ---
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Intervalli di date | Il supporto è pianificato per il calendario personalizzato. |
 | Metriche calcolate | Eventuali metriche di calcolo esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
 | Segmenti | Ora denominati “Filtri”: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non verranno caricati in CJA. |
-| Rilevamento delle anomalie | Supporto completo a partire da settembre 2020 |
+| Rilevamento delle anomalie | Supporto completo a partire da settembre 2020. |
 | Attribution IQ | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
