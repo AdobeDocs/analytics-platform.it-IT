@@ -2,10 +2,10 @@
 title: Opzioni di assimilazione dei dati per il Customer Journey Analytics
 description: Comprendere i diversi modi in cui è possibile inserire i dati nel Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
+source-git-commit: a48ebc2fbd4cb43de4424e9c1805504752a44fce
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 4%
+source-wordcount: '481'
+ht-degree: 3%
 
 ---
 
@@ -31,27 +31,3 @@ Questo flusso di lavoro utilizza il Connettore dati Adobe Analytics  e varia a s
 1. Use [ Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/analytics/implementation/launch/overview.html) per implementare il codice sul sito per la raccolta dei dati, se non lo avete già fatto. Launch è una soluzione di gestione tag che consente di distribuire il codice Analytics insieme ad altri requisiti di tag. Launch offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza affidarsi ad alcun team di sviluppo dell&#39;organizzazione per aggiornare il codice sul sito.
 1. Creare un [ connettore sorgente Adobe Analytics](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Questo connettore di origine trasferirà i dati di Analytics  Experience Platform in un framework standard denominato [Sistema XDM (Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 1. Use [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più connessioni e viste dati che informino i rapporti tra canali.
-
-## Acquisire dati dall’SDK Web AEP
-
-Da definire
-
-### Tramite Experience Edge
-
-Da definire
-
-### Tramite Launch
-
-Da definire
-
-## Caricamento batch e caricamento streaming
-
-Da definire
-
-## Dati Google Analytics di acquisizione
-
-Da definire
-
-## Caricamento dei dati tramite l&#39;API Bulk Ingestion
-
-Da definire
