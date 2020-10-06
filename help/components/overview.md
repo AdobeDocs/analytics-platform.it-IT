@@ -2,10 +2,10 @@
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 translation-type: tm+mt
-source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 83%
+source-wordcount: '339'
+ht-degree: 79%
 
 ---
 
@@ -50,5 +50,6 @@ Sono disponibili diversi metodi di gestione dei componenti (singolarmente o sele
 | Condividi | Applicabile solo ai segmenti. |
 | Elimina | Applicabile solo ai segmenti. |
 
-[Creazione di metriche, segmenti e date su YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+Guardate il video sulla creazione di metriche, segmenti e date:
 
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
