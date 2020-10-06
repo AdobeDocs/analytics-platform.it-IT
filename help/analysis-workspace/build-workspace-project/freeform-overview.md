@@ -5,19 +5,15 @@ title: 'Crea progetto: panoramica'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '731'
+ht-degree: 84%
 
 ---
 
 
 # Crea progetto: panoramica
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -37,14 +33,18 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| Progetto [Modelli](/help/analysis-workspace/build-workspace-project/starter-projects.md) | Puoi usare questi modelli per progetti precompilati così come sono o adattarli alle tue esigenze (ad esempio, aggiungendo o sostituendo metriche o visualizzazioni) e salvarli con un nuovo nome. |
-| [Crea nuovo progetto](/help/analysis-workspace/home.md) | Fai clic su questo collegamento per iniziare un nuovo progetto da zero. |
+| Crea nuovo progetto | Fai clic su questo collegamento per [avviare un nuovo progetto da zero](/help/analysis-workspace/home.md). |
 | Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
-| Visualizza esercitazioni | Consente di accedere ai [video YouTube su Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
+| Imposta come pagina di destinazione | Trasforma questa pagina nella pagina di destinazione di Workspace. |
+| Visualizza esercitazioni | Consente di passare al [Esercitazioni video  Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Nome | Nome del progetto Workspace. |
-| Creato da | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| Tipo | Indica se si tratta di un progetto Workspace o di un [Scorecard mobile](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/home.html). |
+| Ruolo progetto | Indica se siete il proprietario, se potete modificare il progetto o se si tratta di un progetto duplicato. |
 | Tag | Tag applicati al progetto, nel modulo di gestione dei componenti o in **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
+| Progetti preferiti | Per contrassegnare un progetto come preferito, aprite il progetto e fate clic sulla stella accanto al nome. L’elenco verrà visualizzato al successivo avvio di Workspace. |
+| Progetti visualizzati di frequente | Elenca tutti i progetti aperti frequentemente, per semplificare l&#39;accesso. |
 
 ## Informazioni e impostazioni progetto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -83,7 +83,7 @@ I sottomenu contengono le seguenti opzioni.
 | Apri | Cancella | Nuovo pannello a forma libera | Nuova metrica | Ottieni collegamento progetto* | Tasti di scelta rapida |
 | Salva | Cancella tutto | Nuovo pannello Confronto segmenti | Nuovo intervallo date | Invia file ora* | Forum di Aiuto |
 | Salva con nome* |  | Nuova tabella a forma libera | Nuovo avviso | Invia file secondo programma* |  |
-| Imposta come pagina di destinazione* |  | Nuovo grafico a linee | Aggiorna componenti | Cura dati progetto |  |
+| Imposta come pagina di destinazione* |  | Nuova riga | Aggiorna componenti | Cura dati progetto |  |
 | Aggiorna progetto |  | Nuovo grafico a barre |  |  |  |
 | Scarica come CSV |  |  |  |  |  |
 | Scarica PDF* |  |  |  |  |  |
