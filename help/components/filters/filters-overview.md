@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 translation-type: tm+mt
-source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
+source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '885'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
 >[!IMPORTANT]
->I filtri sono noti come “segmenti” in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform ha una definizione diversa di “segmento”. 
+>I filtri sono noti come “segmenti” in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform [una definizione diversa di &quot;segmento&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/create-filters.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
 
@@ -32,7 +32,7 @@ Ecco un esempio:
 ![](assets/sequential_fil.png)
 
 | Visita uno | Visita due | Visita tre |
-|---|---|---|
+| --- | --- | --- |
 | Il visitatore ha visitato la pagina di destinazione principale (A), ha escluso la pagina della campagna (B), quindi ha visualizzato la pagina di prodotto (C). | Il visitatore ha nuovamente visitato la pagina di destinazione principale (A), ha escluso la pagina della campagna (B), ha visitato nuovamente la pagina di prodotto (C) e quindi una nuova pagina (D). | Il visitatore è entrato e ha seguito lo stesso percorso della prima e seconda visita, quindi ha escluso la pagina F per passare direttamente a una pagina di prodotto mirata (G). |
 
 ## Contenitori di filtri
@@ -52,9 +52,7 @@ Il contenitore Persona include ogni visita e visualizzazione di pagina dei visit
 I contenitori Persona possono includere valori basati sulla cronologia generale di un visitatore:
 
 * Giorni precedenti al primo acquisto
-
 * Pagina di ingresso originale
-
 * Domini di riferimento originali
 
 ### Contenitore Sessione
@@ -62,19 +60,14 @@ I contenitori Persona possono includere valori basati sulla cronologia generale 
 Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato poiché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e ti consente di definire quali sessioni includere o escludere nella creazione e applicazione di un segmento. Può aiutarti a rispondere alle seguenti domande:
 
 * Quanti visitatori hanno visualizzato le sezioni Notizie e Sport nella stessa sessione?
-
 * Quali pagine hanno contribuito alla conversione in una vendita?
 
 I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 
 * Numero di sessioni
-
 * Pagina di ingresso
-
 * Frequenza di ritorno
-
 * Metriche di partecipazione
-
 * Metriche allocate linearmente
 
 ### Contenitore Evento
@@ -84,9 +77,6 @@ Il contenitore Evento definisce gli eventi di pagina da includere o escludere da
 I contenitori degli eventi includono suddivisioni basate su valori e a pagina singola:
 
 * Prodotti
-
 * Proprietà elenco
-
 * Dimensioni elenco
-
 * Dimensioni del merchandising (nel contesto degli eventi)
