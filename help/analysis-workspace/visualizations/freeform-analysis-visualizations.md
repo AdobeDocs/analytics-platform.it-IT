@@ -3,30 +3,26 @@ description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni d
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1034'
+ht-degree: 95%
 
 ---
 
 
 # Panoramica delle visualizzazioni
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
-
 Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Fai clic sul nome della visualizzazione per ulteriori informazioni.
 
-Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Esercitazione video: [Tipi di visualizzazione in  Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | Nome della visualizzazione | Descrizione |
-|---|---|
-| [Superfici](/help/analysis-workspace/visualizations/area.md) | È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
+| --- | --- |
+| [Superfici](/help/analysis-workspace/visualizations/area.md) | Come un grafico a linee, ma con un&#39;area colorata sotto la linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
 | [Barre](/help/analysis-workspace/visualizations/bar.md) | Mostra barre verticali che rappresentano diversi valori su una o più metriche. |
 | [Grafico bullet](/help/analysis-workspace/visualizations/bullet-graph.md) | Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi). |
-| [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Un *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Lo strumento di analisi per coorte è utile, ad esempio, quando si vuole comprendere in che modo una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. |
+| [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una coorte è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Lo strumento di analisi per coorte è utile, ad esempio, quando si vuole comprendere in che modo una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. |
 | [Anello](/help/analysis-workspace/visualizations/donut.md) | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. |
 | [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. |
 | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Mostra i percorsi dei clienti attraverso i siti web e le app. |
@@ -34,7 +30,7 @@ Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.yo
 | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. |
 | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
-| [Grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali e fino a tre metriche. |
+| [Grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali fino a tre metriche. |
 | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | A seconda della cella selezionata, questa visualizzazione mostra i totali e i riepiloghi. |
 | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | A seconda delle celle selezionate, questa visualizzazione confronta le celle tra loro. |
 | [Testo](/help/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. |
@@ -43,7 +39,7 @@ Video su YouTube: [Tipi di visualizzazione in Analysis Workspace](https://www.yo
 
 ## Pannello Visualizzazioni {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations]** (Visualizzazioni) nel pannello laterale.
+Per visualizzare il pannello Visualizzazioni, fai clic su **[!UICONTROL Visualizations]** nella barra a sinistra.
 
 ![Risultato passaggio](assets/visualizations.png)
 
@@ -60,7 +56,7 @@ Per accedere a [!UICONTROL Visualization Settings] (Impostazioni visualizzazione
 ![](assets/visualization_settings.png)
 
 | Impostazione | Descrizione |
-|--- |--- |
+| --- | --- |
 | Percentuali | Visualizza i valori in percentuale. |
 | Sovrapposizione 100% | Questa impostazione – applicata a visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte – converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![](assets/stacked_100_percent.png) |
 | Visualizzazione legenda | Consente di nascondere il testo di dettagli del filtro per la visualizzazione Numero di riepilogo/Variazione di riepilogo. |
@@ -83,7 +79,7 @@ Per accedere alle impostazioni contestuali disponibili per un grafico, fai clic 
 ![](assets/right-click_menu.png)
 
 | Impostazione | Descrizione |
-|--- |--- |
+| --- | --- |
 | Inserisci visualizzazione copiata/pannello copiato | Consente di incollare (inserire) l’elemento copiato in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
 | Copia visualizzazione/pannello | Consente di fare clic con il pulsante destro del mouse e copiare una visualizzazione o un pannello. |
 | Duplica visualizzazione/pannello | Crea una copia della visualizzazione corrente, che potrai quindi modificare. |
@@ -112,4 +108,4 @@ Ad esempio, per modificare un’etichetta di legenda in un grafico a linee:
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
-Per approfondire, utilizza questo [collegamento a un video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sull’argomento.
+Per approfondire, utilizza questo [collegamento a un video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sull’argomento.
