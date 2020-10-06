@@ -3,10 +3,10 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 23856a744ce66ac03656d84f72b4bce4cdef253a
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 10%
+source-wordcount: '1015'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ Puoi scaricare un progetto completo accedendo a **[!UICONTROL Project > Download
 
 Per i download dei progetti, tieni presente quanto segue:
 
-* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [programmati](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [programmati](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * L&#39;esportazione dei PDF scaricati nel browser può richiedere alcuni minuti perché il progetto viene rieseguito  server di Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se il rendering di un PDF richiede più di 5 minuti, verrà richiesto di inviarlo tramite e-mail.
 * I download PDF vengono rappresentati come una singola pagina senza applicazione di impaginazione.
 * Quando viene eseguito il rendering di un progetto in PDF, viene eseguito il rendering di ciò che si trova sulla pagina. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
@@ -96,5 +96,6 @@ Se richiedete più di un download alla volta, riceverete una notifica per inform
 | --- | --- |
 | Perché il mio PDF scaricato è una pagina? | Al momento, Workspace non impagina i PDF scaricati. |
 | Posso esportare più di 50.000 elementi con l’opzione &quot;Scarica elementi come CSV&quot;? | Anche se ogni download può contenere fino a 50.000 elementi dimensionali, potete modificare l&#39;ordinamento della tabella per recuperare elementi finali più lunghi, oppure applicare un filtro per scaricare altri elementi specifici. |
-| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Guarda il video](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. Guarda il video: |
 
+>[!VIDEO](https://video.tv.adobe.com/v/23724)
