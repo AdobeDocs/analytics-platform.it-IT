@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 translation-type: tm+mt
-source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 
 Il contenitore Evento definisce gli eventi di pagina da includere o escludere da un filtro. Si tratta del più ristretto tra i contenitori disponibili per identificare clic specifici e visualizzazioni di pagina quando viene soddisfatta una condizione, consentendoti di visualizzare un singolo codice di tracciamento o di isolare il comportamento all’interno di una particolare sezione del sito. Puoi inoltre identificare un valore specifico quando si verifica un’azione, ad esempio il canale di marketing al momento di un ordine.
 
-I contenitori Evento includono valori basati su raggruppamenti di singole pagine:
+I contenitori degli eventi includono suddivisioni basate su valori e a pagina singola:
 
 * Prodotti
 
