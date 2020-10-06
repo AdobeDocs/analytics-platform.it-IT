@@ -2,7 +2,7 @@
 title: Elemento dimensione lunga
 description: Spiega l’elemento dimensione "Coda lunga" e il motivo per cui viene visualizzato nel reporting.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -30,7 +30,7 @@ In CJA, gli elementi dimensionali vengono inseriti solo in &#39;Long Tail&#39; s
 
 Per ridurre l’elemento dimensione &#39;Coda lunga&#39;,  Adobe consiglia una delle seguenti opzioni:
 
-* Utilizza un segmento. I segmenti si applicano al momento in cui ogni server elabora un sottoinsieme di dati. Limitando il numero di valori univoci restituiti, si riduce l’elemento dimensione &#39;Coda lunga&#39;.
+* Usate un filtro. I filtri si applicano nel momento in cui ogni server elabora un sottoinsieme di dati. Limitando il numero di valori univoci restituiti, si riduce l’elemento dimensione &#39;Coda lunga&#39;.
 * Utilizzare una dimensione dataset di ricerca. Le dimensioni del set di dati di ricerca combinano gli elementi della dimensione del set di dati dell&#39;evento, che limitano il numero di valori univoci restituiti.
 
 Nel complesso, è difficile utilizzare un rapporto che contiene più di 500.000 elementi di dimensione univoci. Se si applica un segmento o una dimensione di set di dati di ricerca, è possibile ridurre la presenza di &#39;Coda lunga&#39; e semplificare l&#39;utilizzo del rapporto.  Adobe intende migliorare tale esperienza man mano che la CGUE viene ulteriormente sviluppata.
