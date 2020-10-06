@@ -2,19 +2,15 @@
 title: L’analisi per coorte
 description: Scopri l’analisi per coorte in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '434'
 ht-degree: 96%
 
 ---
 
 
 # Che cosa è l’[!UICONTROL Cohort Analysis]?
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Una *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. L’[!UICONTROL Cohort Analysis] è utile, ad esempio, quando vuoi comprendere in che modo una coorte si relaziona con un marchio. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. Puoi trovare informazioni sull’[!UICONTROL Cohort Analysis] su Internet, ad esempio [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).
 
@@ -30,13 +26,13 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 L’[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
-[Analisi per coorte su YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Esercitazione video sull’analisi per coorte](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL Cohort Analysis]
 >
->non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non complete (come Entrate) o le occorrenze. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
+>non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
 >[!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
