@@ -3,23 +3,19 @@ description: In Analysis Workspace è possibile visualizzare e analizzare le ano
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 96%
+source-wordcount: '184'
+ht-degree: 92%
 
 ---
 
 
 # Panoramica di Rilevamento delle anomalie
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
-
 In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 
-[Rilevamento anomalie su YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Esercitazione video sul rilevamento delle anomalie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
 Il rilevamento anomalie fornisce un metodo statistico per determinare il cambiamento di una data metrica in relazione ai dati precedenti.
 
@@ -34,19 +30,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 * Picchi negli eventi di buffering video
 * Picchi nei valori più bassi di bitrate video
 
-[Rilevamento delle anomalie](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
-
->[!IMPORTANT]
->
->Analisi contributi non ancora disponibile nel Customer Journey Analytics.
-
 L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
 * Supporto per la granularità oraria, settimanale e mensile, oltre a quella giornaliera già supportata
 * Supporto per la stagionalità (ad esempio “Black Friday”) e le festività
-
-## Disattivare il rilevamento delle anomalie
-
-Per disattivare il rilevamento delle anomalie a livello di colonna, deseleziona **[!UICONTROL Anomalies]** (Anomalie) nelle impostazioni della colonna.
-
-![](assets/turnoff_anomalies.png)
