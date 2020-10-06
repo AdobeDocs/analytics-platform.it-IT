@@ -3,10 +3,10 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '241'
+ht-degree: 94%
 
 ---
 
@@ -23,17 +23,17 @@ Puoi trascinare una metrica standard, una metrica calcolata o un modello di metr
 >
 >Anche se questo è apparentemente semplice, l’uso delle metriche è piuttosto efficace. Puoi aggiungere metriche a un report trascinando la metrica appropriata nella sezione delle metriche di una tabella. Puoi anche suddividere le dimensioni per metriche per avere un controllo preciso sulla visualizzazione della tabella. Inoltre, puoi inserire una metrica come dimensione e una dimensione come metrica per creare un rapporto nel tempo. Usa i vari componenti e scopri cosa puoi fare. Le possibilità sono infinite.
 
-Oppure puoi fare clic su **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Verrà visualizzato il [Generatore di metrica calcolata](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/cm-overview.html), in cui puoi creare metriche personalizzate basate su metriche esistenti.
+Oppure puoi fare clic su **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Verrà visualizzato il [Generatore di metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md), in cui puoi creare metriche personalizzate basate su metriche esistenti.
 
 Per accelerare e semplificare la creazione delle metriche calcolate, al menu di scelta rapida delle colonne delle tabelle a forma libera è stato aggiunto il comando **[!UICONTROL Create metric from selection]**. Questa opzione viene visualizzata quando è selezionata almeno una cella di intestazione di colonna.
 
 ![](assets/calc_metrics.png)
 
-[Utilizzo delle metriche di partecipazione su YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+[Metriche calcolate: Metriche senza implementazione](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Confrontare metriche con diversi modelli di attribuzione
 
-Per confrontare in modo rapido e semplice un modello di attribuzione con un altro, fai clic con il pulsante destro del mouse su una metrica e seleziona **[!UICONTROL Add comparative attribution model]**:
+Per confrontare in modo rapido e semplice un modello di attribuzione con un altro, fai clic con il pulsante destro del mouse su una metrica e seleziona **[!UICONTROL Compare Attribution Models]**:
 
 ![Confrontare attribuzione](assets/compare-attribution.png)
 
