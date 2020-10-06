@@ -4,60 +4,64 @@ title: Panoramica di Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ba9629adb93358bf4a44181c880e97ae584556e4
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 7%
 
 ---
 
 
 # Panoramica di Analysis Workspace
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+ Analysis Workspace è uno strumento browser flessibile che consente di creare rapidamente analisi e condividere approfondimenti. Tramite l’interfaccia di trascinamento, puoi creare analisi, aggiungere visualizzazioni per dare vita ai dati, curare un dataset, condividere e pianificare progetti con chiunque all’interno dell’organizzazione.
 
->[!IMPORTANT]
->
->Pagina in costruzione.
+Se avete solo pochi minuti, guardate questa breve panoramica per vedere cosa è possibile.
 
-Analysis Workspace rimuove tutte le limitazioni tipiche di un rapporto singolo di Analytics. Offre un’area di lavoro solida e flessibile su cui realizzare analisi di progetti personalizzati. Trascina su un progetto un numero qualsiasi di tabelle di dati, visualizzazioni e componenti (dimensioni, metriche, segmenti e granularità temporali). Crea all’istante suddivisioni e segmenti, coorti per analisi e avvisi, confronta segmenti, esegue analisi di flusso e di abbandono, cura e programma i rapporti da condividere con i tuoi colleghi.
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-Questa pagina contiene istruzioni iniziali di base. Una volta acquisite le nozioni di base, puoi passare alle funzioni avanzate di Workspace, quali [Attribution IQ](/help/analysis-workspace/attribution/overview.md) e [Rilevamento anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md).
+## Accedi a Adobe Analytics {#login}
 
-[Qui](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7) trovi la playlist YouTube sulle funzioni di Analysis Workspace.
+Per iniziare a utilizzare  Analysis Workspace, accedete a  Adobe Analytics accedendo a [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se un progetto specifico non è stato selezionato in precedenza, verrà visualizzato nella home page dell&#39;elenco dei progetti Workspace.
 
-## Creare un progetto semplice
+![](assets/login-analytics.png)
 
-Un progetto può contenere tabelle di dati e un numero qualsiasi di visualizzazioni di approfondimento.
+## Utilizzo dell’esercitazione Formazione {#training-tutorial}
 
+Una volta effettuato l’accesso, il primo arresto deve essere l’ Analysis Workspace Training Tutorial, che illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. Per iniziare l&#39;esercitazione, fate clic su **[!UICONTROL Create New Project]** quindi selezionare **Esercitazione sulla formazione** all&#39;interno del nuovo progetto modale.
 
-## Due metodi per creare una tabella
+![](assets/training-tutorial.png)
 
-## Approccio comune all’analisi
+## Creare un nuovo progetto {#new-project}
 
-### Passaggio 1: Analizzare una dimensione
+Completata l&#39;esercitazione, è possibile iniziare a creare il primo progetto. Il **nuovo progetto modale** offre diverse opzioni per avviare l’analisi. Potete scegliere di iniziare da un progetto vuoto o [scorecard mobile vuota](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/curator.html), a seconda se intendete condividere l&#39;analisi dal browser o dall&#39;app mobile  Adobe Analytics dashboards.
 
-Usa le definizioni e gli esempi disponibili nell’esercitazione; applicabile a tutti i passaggi successivi
+![](assets/create-new-project.png)
 
-### Passaggio 2: Aggiungere una metrica
+Potete anche iniziare l&#39;analisi da **templates**,  modelli standard forniti dal Adobe o modelli personalizzati creati dalla vostra organizzazione. Sono disponibili diversi modelli, a seconda dell’analisi o del caso d’uso previsto. [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/starter-projects.md) informazioni sulle diverse opzioni di modello disponibili.
 
-Questa sessione spiega come aggiungere le metriche.
+## Creazione di analisi {#analysis}
 
-### Passaggio 3: Modificare l’intervallo date
+Nel progetto Workspace, **pannelli, tabelle, visualizzazioni e componenti** sono accessibili dalla barra a sinistra. Questi sono i vostri elementi costitutivi del progetto.
 
-### Passaggio 4: raggruppare una dimensione
+### Componenti
 
-### Passaggio 5: applicare un segmento ai dati
+**Componenti** sono dimensioni, metriche, segmenti o intervalli di date, che possono essere combinati in un **[!UICONTROL Freeform table]** per iniziare a rispondere alla tua domanda di lavoro. Assicurati di familiarizzare con ciascuno [tipo di componente](/help/components/overview.md) prima di immergerti nella tua analisi. Dopo aver acquisito una conoscenza approfondita della terminologia del componente, puoi iniziare a trascinare per [creazione di analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in **[!UICONTROL Freeform table]**.
 
-### Passaggio 6: Aggiungere visualizzazioni di base
+![](assets/build-components.png)
 
-Condividi un suggerimento sulle visualizzazioni rapide in questa sezione.
+### Visualizzazioni
 
-### Passaggio 7: Visualizzazioni avanzate
+**Visualizzazioni**, ad esempio un grafico a barre o a linee, vengono quindi aggiunti sopra i dati per renderli visivamente vitali. Nella barra a sinistra, selezionate il centro **[!UICONTROL Visualizations]** per visualizzare l&#39;elenco completo di [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) disponibile.
 
-Evidenzia le visualizzazioni di flusso, abbandono, coorte e mappa.
+![](assets/build-visualizations.png)
 
-### Passaggio 8: Curare e condividere
+### Pannelli
 
+**Pannelli** vengono utilizzati per organizzare l&#39;analisi all&#39;interno di un progetto e possono contenere numerose tabelle e visualizzazioni. Molti dei pannelli forniti in  Analysis Workspace generano una serie completa di analisi basate su alcuni input dell&#39;utente. Nella barra a sinistra, selezionate la parte superiore **[!UICONTROL Panels]** per visualizzare un elenco completo [panel](/help/analysis-workspace/c-panels/panels.md) disponibile.
+
+![](assets/build-panels.png)
+
+## Risorse aggiuntive {#resources}
+
+*  Adobe offre centinaia [Esercitazioni di formazione video per Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html).
