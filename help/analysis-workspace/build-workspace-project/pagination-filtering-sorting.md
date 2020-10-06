@@ -3,25 +3,21 @@ description: 'null'
 title: Paginazione, filtri e ordinamento di tabelle
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # Paginazione, filtri e ordinamento di tabelle
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+Per una panoramica, guardate questa esercitazione video:
 
-Per una panoramica, guarda questo video di YouTube:
+[Paginazione, filtri e ordinamento di tabelle in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
-[Paginazione, filtri e ordinamento di tabelle in Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
-
-## Opzioni di filtro avanzate
+## Opzioni di filtro avanzate {#section_36E92E31442B4EBCB052073590C1F025}
 
 Facendo clic sull’icona di filtro e poi su Mostra avanzate, accanto a una dimensione in una tabella a forma libera, puoi applicare dei filtri utilizzando i criteri seguenti:
 
