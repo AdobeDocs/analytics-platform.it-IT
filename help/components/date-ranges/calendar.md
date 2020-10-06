@@ -3,19 +3,15 @@ description: Nel calendario, puoi specificare date e intervalli di date o selezi
 title: Panoramica del calendario e degli intervalli di date
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7dc245671d98e63cc4f0d97c1b1fdb11509b7d45
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 97%
 
 ---
 
 
 # Panoramica del calendario e degli intervalli di date
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 
@@ -27,12 +23,12 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 
 È inoltre possibile trascinare le date (e dimensioni orarie) in un progetto Workspace. Puoi selezionare specifici giorni, settimane, mesi, anni, oppure una data continua.
 
-[Utilizzo degli intervalli di date e del calendario in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
+[Utilizzo degli intervalli di date e del calendario in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Impostazione | Descrizione |
-|--- |--- |
-| Giorni selezionati | Giorni/settimane/mesi/anni selezionati. |
-| Uso delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto in gennaio, puoi vedere gli ordini di dicembre.  Anteprima data: indica il periodo di tempo coperto dal calendario continuo.  Inizio: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Fine: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.  Un esempio è disponibile [qui](/help/components/date-ranges/custom-date-ranges.md). |
-| Intervallo di date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. |
+| --- | --- |
+| Giorni selezionati | Giorni/settimane/mesi/anni selezionati |
+| Uso delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Un esempio è disponibile [qui](/help/components/date-ranges/custom-date-ranges.md). |
+| Intervallo date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. **[!UICONTROL This week/month/quarter/year (excluding today)]** consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
 | Applica | Applica l’intervallo di date solo al pannello corrente. |
