@@ -5,10 +5,10 @@ title: Suddividere dimensioni
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 94%
+source-wordcount: '230'
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,21 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Risultato passaggio](assets/fa_data_table_actions.png)
+   ![Risultato del passaggio](assets/fa_data_table_actions.png)
 
-   Puoi suddividere le metriche per elementi dimensionali o segmenti di pubblico tra periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+   Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
    >[!NOTE]
    >
    >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
 
-[Dimensioni in Analysis Workspace su YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+**Video: Dimension in  Analysis Workspace**
 
-[Analisi approfondita delle dimensioni su YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13) (2:02)
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+**Video: Suddivisioni Dimension**
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 ## Applicare modelli di attribuzione ai raggruppamenti
 
