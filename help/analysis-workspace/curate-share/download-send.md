@@ -3,9 +3,9 @@ description: È possibile scaricare i dati da  Analysis Workspace copiandoli opp
 title: Scaricare file PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1f7771ced6e57b1fa288bd197d467dcd6de39b4f
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 12%
 
 ---
@@ -96,4 +96,6 @@ Se richiedete più di un download alla volta, riceverete una notifica per inform
 | --- | --- |
 | Perché il mio PDF scaricato è una pagina? | Al momento, Workspace non impagina i PDF scaricati. |
 | Posso esportare più di 50.000 elementi con l’opzione &quot;Scarica elementi come CSV&quot;? | Anche se ogni download può contenere fino a 50.000 elementi dimensionali, potete modificare l&#39;ordinamento della tabella per recuperare elementi finali più lunghi, oppure applicare un filtro per scaricare altri elementi specifici. |
-| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. Guarda il video: >[!VIDEO](https://video.tv.adobe.com/v/23724) |
+| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. Guarda il video sottostante. |
+
+>[!VIDEO](https://video.tv.adobe.com/v/23724)
