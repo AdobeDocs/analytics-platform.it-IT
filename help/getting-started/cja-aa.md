@@ -1,11 +1,11 @@
 ---
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
-translation-type: ht
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Intervalli di date | Il supporto è pianificato per il calendario personalizzato. |
 | Metriche calcolate | Eventuali metriche di calcolo esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
 | Segmenti | Ora denominati “Filtri”: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non verranno caricati in CJA. |
-| Rilevamento delle anomalie | Supporto completo a partire da settembre 2020. |
+| Rilevamento delle anomalie | Supporto completo. |
 | Attribution IQ | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
@@ -33,6 +33,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Conservazione dei componenti VRS | Ora fa parte di Visualizzazioni dati. |
 | Elaborazione dell’ora rapporto | CJA si basa esclusivamente sull’elaborazione dell’ora rapporto. |
 | Eliminazione RGPD | Si noti che il RGPD è ora gestito in coordinamento con [!UICONTROL Experience Platform]: CJA eredita qualsiasi modifica apportata da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
+| Autorizzazioni utente/Controlli dell’accesso ai dati | La CJA distingue tra gli amministratori dei prodotti Adobe Admin Console e gli utenti. Solo gli amministratori dei prodotti sono in grado di 1) creare/aggiornare/eliminare connessioni o visualizzazioni dati, 2) aggiornare/eliminare progetti, filtri o metriche di calcolo creati da altri utenti e 3) condividere un progetto Workspace con tutti gli utenti |
 
 ## Supportato con avvertenze
 
@@ -52,7 +53,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Dimensioni predefinite di Analysis Workspace (ad es. Browser Type, Referrer Type, Marketing Channels, Visit Number (Tipo di browser, Tipo di referente, Canali marketing, Numero visita) e così via). | CJA non fornisce queste dimensioni in modo nativo. Per i clienti che utilizzano Analytics Data Connector (ADC), sono disponibili alcune di queste dimensioni, ma non tutte. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
+| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analisi per Target (A4T) e Visualizzatori simultanei di file multimediali non sono supportati. |
 | eVar di Merchandising | Le eVar di merchandising possono essere utilizzate con set di dati basati su ADC, a meno che non siano rigorosamente conformi al medesimo schema XDM, similmente alle limitazioni dell’elenco di prodotti di cui sopra. |
 | Filtro bot | Per i set di dati basati su Analytics Data Connector (ADC), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
 | Regole di elaborazione | Per i set di dati basati su ADC, si applicano ancora le regole di elaborazione. |
@@ -65,7 +66,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Analisi contributi | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. |
-| Autorizzazioni utente/Controlli dell’accesso ai dati | Tutti gli utenti di CJA dispongono dei medesimi controlli di accesso, il che significa che tutti gli utenti possono accedere a tutte le connessioni, visualizzazioni dati e così via. In pratica, tutti gli utenti sono utenti a livello di amministratore in CJA. Il supporto è previsto per il 2020. |
 | Download di CSV | Il supporto è pianificato. |
 | Report/progetti pianificati | Il supporto è pianificato. |
 | Avvisi | Il supporto è pianificato. |
