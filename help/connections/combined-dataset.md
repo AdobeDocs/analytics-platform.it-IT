@@ -1,18 +1,18 @@
 ---
-title: Set di dati combinati
+title: Set di dati evento combinato
 description: Scopri come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Set di dati combinati
+# Set di dati evento combinato
 
-Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo “set di dati combinato” è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
+Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &#39;insieme di dati evento combinato&#39; è ciò che CJA utilizza per i report. Quando includi più schemi o set di dati in una connessione:
 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
 * La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori unici in CJA.
@@ -20,7 +20,7 @@ Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un 
 
 ## Esempio
 
-Prendi in considerazione l’esempio seguente. Ci sono due set di dati, ciascuno con campi diversi contenenti dati diversi.
+Prendi in considerazione l’esempio seguente. Sono disponibili due set di dati evento, ciascuno con campi diversi contenenti dati diversi.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Prendi in considerazione l’esempio seguente. Ci sono due set di dati, ciascuno
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
 
-Quando crei una connessione utilizzando questi due set di dati, per il reporting viene utilizzata la seguente tabella.
+Quando si crea una connessione utilizzando questi due set di dati evento, per il reporting viene utilizzata la tabella seguente.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ Quando crei una connessione utilizzando questi due set di dati, per il reporting
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Questo set di dati combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
+Questo insieme di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
 
 Questo concetto si applica anche all’attribuzione. Non importa da quale insieme di dati provenga una riga; l’attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo set di dati. Utilizzo delle tabelle precedenti in un esempio:
 
