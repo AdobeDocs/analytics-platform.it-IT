@@ -1,11 +1,11 @@
 ---
 title: Panoramica su Customer Journey Analytics
-description: Questo Customer Journey Analytics consente di utilizzare  Analysis Workspace con i dati di  Experience Platform.
-translation-type: tm+mt
+description: Scopri come Customer Journey Analytics consente di utilizzare Analysis Workspace con i dati da Experience Platform.
+translation-type: ht
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
