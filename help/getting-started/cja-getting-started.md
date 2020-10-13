@@ -1,11 +1,11 @@
 ---
 title: Guida introduttiva a Customer Journey Analytics
-description: Comprendere i prerequisiti e il flusso di lavoro necessari per implementare il Customer Journey Analytics.
-translation-type: tm+mt
+description: Scopri i prerequisiti e il flusso di lavoro necessari per implementare Customer Journey Analytics.
+translation-type: ht
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
