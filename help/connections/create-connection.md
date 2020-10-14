@@ -2,9 +2,9 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
+source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1606'
 ht-degree: 42%
 
 ---
@@ -60,7 +60,7 @@ Sul lato destro è ora possibile configurare i set di dati aggiunti.
 
 1. **[!UICONTROL Dataset ID]**: Questo ID viene generato automaticamente.
 
-1. **[!UICONTROL Time stamp]**: aggiungi il contenuto qui
+1. **[!UICONTROL Time stamp]**: Solo per i set di dati dell&#39;evento, questa impostazione viene impostata automaticamente sul campo di marca temporale predefinito degli schemi basati sull&#39;evento in [!UICONTROL Experience Platform].
 
 1. **[!UICONTROL Schema]**: Questa è la [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in base al quale il set di dati è stato creato in Adobe Experience Platform.
 
