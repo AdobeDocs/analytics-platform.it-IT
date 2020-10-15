@@ -3,7 +3,7 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
+source-git-commit: 12172ab612db8ebb78bcf4b2c1b68f125c7d5a34
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 [!UICONTROL Column Settings] consente di configurare la formattazione delle colonne, alcune delle quali possono essere condizionali.
 
-## Modificare [!UICONTROL Column Settings] {#column-settings}
+## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
 
 Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
 
