@@ -2,9 +2,9 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
+source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '859'
 ht-degree: 93%
 
 ---
@@ -41,7 +41,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Variabile di prodotto | La variabile di prodotto attualmente disponibile per il reporting dei dati conformi allo schema Experience Event (Evento esperienza), soprattutto sfruttando l’oggetto productListItems. |
 | Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
-| AAM Audiences | Se i clienti utilizzano i set di dati [!UICONTROL Analytics Data Connector], questi faranno parte dei dati ADC. |
 | Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA, non esiste tra CJA e la versione tradizionale di Analysis Workspace. |
 | Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzata che sono diverse dagli hit di background per dispositivi mobili. |
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di CJA. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. Ciò significa che tutta la persistenza sarà basata sull’intervallo di date del reporting, anziché sui dati per intero. |
