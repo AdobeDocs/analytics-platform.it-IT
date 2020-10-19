@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
+source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 42%
+source-wordcount: '1614'
+ht-degree: 41%
 
 ---
 
@@ -114,7 +114,7 @@ Questa tabella mostra le due opzioni di configurazione per i casi periferici pre
 
    * Se la dimensione cumulativa dei dati storici per tutti i set di dati della connessione supera 1,5 miliardi di righe un messaggio di errore indicherà che non è possibile importare questa quantità di dati storici. Tuttavia, se aggiungessi un set di dati con 1 miliardo di righe di dati storici e importassi tali dati e una settimana dopo aggiungessi un altro set di dati della stessa dimensione e importassi i dati storici, ciò funzionerebbe.
    * Diamo priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.
-   * Eventuali dati di backfill (storici) vengono importati a una velocità più bassa.
+   * Eventuali dati di backfill (storici) vengono importati a un ritmo più lento (fino a 13 mesi di dati, indipendentemente dalle dimensioni).
 
 1. Fai clic su **[!UICONTROL Save]**.
 
