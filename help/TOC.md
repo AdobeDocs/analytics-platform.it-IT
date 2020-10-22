@@ -5,7 +5,7 @@ product: adobe analytics
 sub-product: customer journey
 index: true
 user-guide-title: Guida a Customer Journey Analytics
-user-guide-description: Questa guida fornisce assistenza personale per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
+user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida a Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 solution-title: Experience Cloud
@@ -19,7 +19,7 @@ translation-type: tm+mt
 source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 + Connessioni {#cja-connections}
    + [Creazione di una connessione](connections/create-connection.md)
    + [Gestione delle connessioni](connections/manage-connection.md)
-   + [Set di dati evento combinato](connections/combined-dataset.md)
+   + [Set di dati evento combinati](connections/combined-dataset.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
