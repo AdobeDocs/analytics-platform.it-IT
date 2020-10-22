@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Conservazione dei componenti VRS | Ora fa parte di Visualizzazioni dati. |
 | Elaborazione dell’ora rapporto | CJA si basa esclusivamente sull’elaborazione dell’ora rapporto. |
 | Eliminazione RGPD | Si noti che il RGPD è ora gestito in coordinamento con [!UICONTROL Experience Platform]: CJA eredita qualsiasi modifica apportata da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
-| Autorizzazioni utente/Controlli dell’accesso ai dati | La CJA distingue tra gli amministratori dei prodotti Adobe Admin Console e gli utenti. Solo gli amministratori dei prodotti sono in grado di 1) creare/aggiornare/eliminare connessioni o visualizzazioni dati, 2) aggiornare/eliminare progetti, filtri o metriche di calcolo creati da altri utenti e 3) condividere un progetto Workspace con tutti gli utenti |
+| Autorizzazioni utente/Controlli per l’accesso ai dati | CJA distingue tra utenti e amministratori dei prodotti di Adobe Admin Console. Solo gli amministratori dei prodotti sono in grado di 1) creare, aggiornare ed eliminare connessioni o visualizzazioni dati; 2) aggiornare e eliminare progetti, filtri o metriche di calcolo creati da altri utenti; e 3) condividere un progetto Workspace con tutti gli utenti. |
 
 ## Supportato con avvertenze
 
@@ -52,7 +52,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Dimensioni predefinite di Analysis Workspace (ad es. Browser Type, Referrer Type, Marketing Channels, Visit Number (Tipo di browser, Tipo di referente, Canali marketing, Numero visita) e così via). | CJA non fornisce queste dimensioni in modo nativo. Per i clienti che utilizzano Analytics Data Connector (ADC), sono disponibili alcune di queste dimensioni, ma non tutte. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
-| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analisi per Target (A4T) e Visualizzatori simultanei di file multimediali non sono supportati. |
+| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analytics for Target (A4T) e Visualizzatori simultanei di contenuti multimediali non sono supportati. |
 | eVar di Merchandising | Le eVar di merchandising possono essere utilizzate con set di dati basati su ADC, a meno che non siano rigorosamente conformi al medesimo schema XDM, similmente alle limitazioni dell’elenco di prodotti di cui sopra. |
 | Filtro bot | Per i set di dati basati su Analytics Data Connector (ADC), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
 | Regole di elaborazione | Per i set di dati basati su ADC, si applicano ancora le regole di elaborazione. |
