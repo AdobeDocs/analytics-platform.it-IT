@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
+source-git-commit: 64c77d3080bc2a36af4e80a854f10adce2632064
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 41%
+source-wordcount: '1736'
+ht-degree: 32%
 
 ---
 
@@ -100,22 +100,26 @@ Questa tabella mostra le due opzioni di configurazione per i casi periferici pre
 
 ![Abilita connessione](assets/create-connection2.png)
 
-1. Per abilitare una connessione, definire le seguenti impostazioni:
+1. Per abilitare una connessione, definire le seguenti impostazioni per l&#39;intera connessione, ovvero per tutti i set di dati della connessione:
 
    | Opzione | Descrizione |
-   |---|---|
+   | --- | --- |
    | [!UICONTROL Name Connection] | Assegna alla connessione un nome descrittivo. Impossibile salvare la connessione senza un nome. |
    | [!UICONTROL Description] | Aggiungi ulteriori dettagli per distinguere questa connessione dalle altre. |
    | [!UICONTROL Datasets] | Set di dati inclusi in questa connessione. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Seleziona questa opzione se desideri stabilire una connessione continua in modo che tutti i nuovi batch di dati aggiunti ai set di dati in questa connessione passino automaticamente in [!UICONTROL Workspace]. |
-   | [!UICONTROL Import all existing data] | Quando selezioni questa opzione e salvi la connessione verranno importati tutti i dati esistenti (storici) da [!DNL Experience Platform] per tutti i set di dati presenti in questa connessione. In futuro verranno importati automaticamente anche tutti i dati storici esistenti per eventuali nuovi set di dati aggiunti a questa connessione salvata. <br>**Ricorda che una volta salvata la connessione questa impostazione non può essere modificata.** |
+   | [!UICONTROL Import all existing data] | Quando si seleziona questa opzione e si salva la connessione, tutti i dati esistenti (storici) da [!DNL Experience Platform] per tutti i set di dati in questa connessione, verranno importati o utilizzati i backfill. In futuro verranno importati automaticamente anche tutti i dati storici esistenti per eventuali nuovi set di dati aggiunti a questa connessione salvata. <br>**Ricorda che una volta salvata la connessione questa impostazione non può essere modificata.** |
+   | [!UICONTROL Average number of daily events] | È necessario specificare il numero medio di eventi giornalieri da importare (nuovi dati) **e** backfill (dati) per tutti i set di dati della connessione. In questo modo  Adobe può allocare spazio sufficiente per questi dati.<br>Se non si conosce il numero medio di eventi giornalieri che la società sta per importare, è possibile eseguire una semplice query SQL in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) per scoprirlo.<!--Rohit to provide and make sure we include multiple datasets.--> |
 
-   **Nota bene:**
+1. Fai clic su **[!UICONTROL Save and create data view]**. Per la documentazione, vedete [creazione di una visualizzazione dati](/help/data-views/create-dataview.md).
 
-   * Se la dimensione cumulativa dei dati storici per tutti i set di dati della connessione supera 1,5 miliardi di righe un messaggio di errore indicherà che non è possibile importare questa quantità di dati storici. Tuttavia, se aggiungessi un set di dati con 1 miliardo di righe di dati storici e importassi tali dati e una settimana dopo aggiungessi un altro set di dati della stessa dimensione e importassi i dati storici, ciò funzionerebbe.
-   * Diamo priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.
-   * Eventuali dati di backfill (storici) vengono importati a un ritmo più lento (fino a 13 mesi di dati, indipendentemente dalle dimensioni).
+### Backfill dati storici
 
-1. Fai clic su **[!UICONTROL Save]**.
+**[!UICONTROL Import all existing data]** consente di eseguire il backfill dei dati della cronologia. Nota bene:
 
-Il passaggio successivo nel flusso di lavoro consiste nel [creare una visualizzazione dati](/help/data-views/create-dataview.md).
+* Assegniamo priorità ai nuovi dati aggiunti a un dataset nella connessione, in modo che questi nuovi dati abbiano la latenza più bassa.
+* Eventuali dati di backfill (storici) vengono importati a una velocità più bassa. La latenza è influenzata dalla quantità di dati storici che si hanno, insieme al **[!UICONTROL Average number of daily events]** impostazione selezionata. Ad esempio, se si dispone di più di un miliardo di righe di dati al giorno, più 3 anni di dati storici, l&#39;importazione potrebbe richiedere più settimane. D&#39;altra parte, se si hanno meno di un milione di righe al giorno e una settimana di dati storici, ci vorrebbe meno di un&#39;ora.
+* Il backfill si applica all&#39;intera connessione, non a ciascun dataset singolarmente.
+* Il [ Adobe Analytics Data Connector](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa fino a 13 mesi di dati, indipendentemente dalle dimensioni.
+
+<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
