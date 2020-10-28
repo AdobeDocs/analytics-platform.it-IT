@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 translation-type: tm+mt
-source-git-commit: 3f57da53a377f357109a828721e7f3b2c964a1eb
+source-git-commit: f1dcbd209a9b523db1c18ad0d81fcca0b7877a19
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 31%
+source-wordcount: '1796'
+ht-degree: 30%
 
 ---
 
@@ -109,7 +109,7 @@ Questa tabella mostra le due opzioni di configurazione per i casi periferici pre
    | [!UICONTROL Datasets] | Set di dati inclusi in questa connessione. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Seleziona questa opzione se desideri stabilire una connessione continua in modo che tutti i nuovi batch di dati aggiunti ai set di dati in questa connessione passino automaticamente in [!UICONTROL Workspace]. |
    | [!UICONTROL Import all existing data] | Quando si seleziona questa opzione e si salva la connessione, tutti i dati esistenti (storici) da [!DNL Experience Platform] per tutti i set di dati in questa connessione, verranno importati o utilizzati i backfill. In futuro verranno importati automaticamente anche tutti i dati storici esistenti per eventuali nuovi set di dati aggiunti a questa connessione salvata. Vedi anche [Backfill dati storici](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) sotto.<br>**Ricorda che una volta salvata la connessione questa impostazione non può essere modificata.** |
-   | [!UICONTROL Average number of daily events] | È necessario specificare il numero medio di eventi giornalieri da importare (nuovi dati) **e** backfill (dati) per tutti i set di dati della connessione. In questo modo  Adobe può allocare spazio sufficiente per questi dati.<br>Se non si conosce il numero medio di eventi giornalieri che la società sta per importare, è possibile eseguire una semplice query SQL in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) per scoprirlo. Di seguito sono elencate le selezioni per questa opzione:<br>![eventi giornalieri](assets/daily_size.png) |
+   | [!UICONTROL Average number of daily events] | È necessario specificare il numero medio di eventi giornalieri da importare (nuovi dati) **e** backfill (dati) per tutti i set di dati della connessione. Selezionate un’opzione dal menu a discesa. In questo modo  Adobe può allocare spazio sufficiente per questi dati.<br>Se non si conosce il numero medio di eventi giornalieri che la società sta per importare, è possibile eseguire una semplice query SQL in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) per scoprirlo. |
 
 1. Fai clic su **[!UICONTROL Save and create data view]**. Per la documentazione, vedete [creazione di una visualizzazione dati](/help/data-views/create-dataview.md).
 
@@ -117,6 +117,7 @@ Questa tabella mostra le due opzioni di configurazione per i casi periferici pre
 
 **[!UICONTROL Import all existing data]** consente di eseguire il backfill dei dati della cronologia. Nota bene:
 
+* Abbiamo rimosso la limitazione del backfill (importazione dati storici). Precedentemente, era possibile eseguire il backfill di un massimo di 2,5 miliardi di righe autonomamente e richiedere il coinvolgimento tecnico. Ora, potete eseguire il backfill dei dati da soli, senza alcun limite.
 * Assegniamo priorità ai nuovi dati aggiunti a un dataset nella connessione, in modo che questi nuovi dati abbiano la latenza più bassa.
 * Eventuali dati di backfill (storici) vengono importati a una velocità più bassa. La latenza è influenzata dalla quantità di dati storici che si hanno, insieme al **[!UICONTROL Average number of daily events]** impostazione selezionata. Ad esempio, se si dispone di più di un miliardo di righe di dati al giorno, più 3 anni di dati storici, l&#39;importazione potrebbe richiedere più settimane. D&#39;altra parte, se si hanno meno di un milione di righe al giorno e una settimana di dati storici, ci vorrebbe meno di un&#39;ora.
 * Il backfill si applica all&#39;intera connessione, non a ciascun dataset singolarmente.
