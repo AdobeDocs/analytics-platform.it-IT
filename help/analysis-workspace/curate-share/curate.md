@@ -3,19 +3,15 @@ description: La cura ti permette di limitare i componenti prima di condividere u
 keywords: Analysis Workspace curation
 title: Curare progetti
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
 
 
 # Curare progetti
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
@@ -43,6 +39,7 @@ Quando un destinatario apre un progetto curato, vedrà solo il set curato di com
 ## Rimuovere la cura del progetto
 
 Per rimuovere la cura del progetto e ripristinare l’intero set di componenti nella barra a sinistra:
+
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Fai clic su **[!UICONTROL Remove Curation]**.
 1. Fai clic su **[!UICONTROL Done]**.
