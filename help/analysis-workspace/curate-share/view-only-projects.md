@@ -3,19 +3,15 @@ description: Progetti di sola visualizzazione in Workspace
 keywords: View-only projects
 title: Progetti solo visualizzazione
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 9af9d7331d70fa37e1f138cb5a4b4064c34fec5e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '246'
 ht-degree: 100%
 
 ---
 
 
 # Progetti solo visualizzazione
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Potresti desiderare di fare ciò se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati dell’organizzazione, Analysis Workspace o Adobe Analytics in genere, ma desideri comunque che utilizzino dati e approfondimenti in un ambiente sicuro.
 
@@ -40,7 +36,7 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 Alcune delle interazioni abilitate più rilevanti in un progetto di sola visualizzazione includono:
 
 | Area | Interazioni abilitate |
-|---|---|
+| --- | --- |
 | Tabella a forma libera | <ul><li>Impaginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Clic con il pulsante destro del mouse > Copy to Clipboard</li></ul> |
 | Visualizzazioni | <ul><li>Clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Clic con il pulsante destro del mouse > Get Visualization Link</li><li>Comprimi/espandi</li><li>Flow (espandi nodi Flow)</li><li>Map (zoom)</li></ul> |
 | Pannelli | <ul><li>Filtri a discesa interattivi</li><li>Clic con il pulsante destro del mouse > Get Panel Link</li><li>Comprimi/espandi</li></ul> |
