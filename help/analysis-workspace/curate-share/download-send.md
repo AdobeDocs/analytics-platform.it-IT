@@ -1,26 +1,19 @@
 ---
 description: È possibile scaricare i dati da  Analysis Workspace copiandoli oppure in formato PDF e CSV.
 title: Scaricare file PDF o CSV
+uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 12%
+source-wordcount: '959'
+ht-degree: 8%
 
 ---
 
 
 # Scaricare file PDF o CSV
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
-
 Esistono diversi modi per esportare i dati da  Analysis Workspace, a seconda del set di dati da analizzare all’esterno dello strumento e di chi deve ricevere le informazioni. I dati esportati possono essere sotto forma di dati copiati, file CSV o PDF. Un PDF è in genere la preferenza se si desidera includere le visualizzazioni nel file, mentre un file CSV (o i dati copiati) è preferito se si desidera semplicemente che i dati siano in testo normale.
-
->[!IMPORTANT]
->
-> Alcune opzioni cui si fa riferimento in questa pagina, come **Download di elementi come CSV**, sono attualmente in fase di test limitati. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
 
 ## Scarica il progetto come CSV o PDF {#download-project}
 
@@ -95,6 +88,5 @@ Se richiedete più di un download alla volta, riceverete una notifica per inform
 | --- | --- |
 | Perché il mio PDF scaricato è una pagina? | Al momento, Workspace non impagina i PDF scaricati. |
 | Posso esportare più di 50.000 elementi con l’opzione &quot;Scarica elementi come CSV&quot;? | Anche se ogni download può contenere fino a 50.000 elementi dimensionali, potete modificare l&#39;ordinamento della tabella per recuperare elementi finali più lunghi, oppure applicare un filtro per scaricare altri elementi specifici. |
-| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. Guarda il video sottostante. |
+| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Video intra-link](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
->[!VIDEO](https://video.tv.adobe.com/v/23724)
