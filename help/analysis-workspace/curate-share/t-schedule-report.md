@@ -1,60 +1,64 @@
 ---
-description: Inviare un progetto Analysis Workspace  via e-mail o pianificarlo per la consegna.
+description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
-title: Progetti programmati
-topic: Reports and analytics
-uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
+title: Programmare progetti
 translation-type: tm+mt
-source-git-commit: c4c6bc367ba1a45146267b968edb88a634cbc7ae
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 7%
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
 
-# Progetti programmati
+# Programmare progetti
 
-Dall’area di lavoro **Condividi, menu**, è possibile inviare  progetti Analysis Workspace tramite e-mail ai destinatari selezionati. I file possono essere inviati in formato CSV o PDF.
+Dal **menu Share** di Workspace, puoi inviare progetti Analysis Workspace tramite e-mail a destinatari selezionati. I file possono essere inviati in formato CSV o PDF.
 
-## Invia file ora
+## Invia subito file
 
 Per inviare immediatamente un file ai destinatari tramite e-mail:
 
-1. Click **Condividi > Invia subito file**.
-1. Specificate il tipo di file (CSV o PDF).
-1. (Facoltativo) Aggiungete una descrizione che verrà inclusa nel messaggio e-mail per spiegare il file ricevuto.
-1. Aggiungete destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
-1. Click **Invia ora**.
-1. (Facoltativo) Fate clic su **Mostra opzioni di pianificazione** per specificare un programma di consegna.
+1. Fai clic su **Condividi > Invia subito file**.
+1. Specifica il tipo di file (CSV o PDF).
+1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
+1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
+1. Fai clic su **Invia subito**.
+1. (Facoltativo) Fai clic su **Mostra opzioni di pianificazione** per specificare la pianificazione della consegna.
+
+![Invia subito file](assets/send-file-now.png)
 
 ## Invia file secondo programma
 
-Per inviare un file a una pianificazione periodica ai destinatari tramite e-mail:
+Per inviare un file tramite e-mail secondo una pianificazione periodica:
 
-1. Click **Condividi > Invia file secondo programma**.
-1. Specificate il tipo di file (CSV o PDF).
-1. (Facoltativo) Aggiungete una descrizione che verrà inclusa nel messaggio e-mail per spiegare il file ricevuto.
-1. Aggiungete destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
-1. Specificate l&#39;intervallo per il quale la pianificazione deve essere consegnata modificando l&#39;opzione Inizia e Termina in input. La data di fine deve essere compresa entro un anno dal giorno in cui la pianificazione viene creata o modificata.
-1. Specificate la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
-1. Click **Invia secondo programma**.
+1. Fai clic su **Condividi > Invia file secondo programma**.
+1. Specifica il tipo di file (CSV o PDF).
+1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
+1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
+1. Specifica l’intervallo per il quale la pianificazione deve essere consegnata modificando l’opzione Inizia e Termina negli input. La data di fine deve essere compresa entro un anno dal giorno in cui la pianificazione viene creata o modificata.
+1. Specifica la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
+1. Fai clic su **Invia secondo programma**.
+
+![](assets/send-on-schedule.png)
 
 ## Gestione progetti programmati
 
-I progetti Analysis Workspace pianificati  possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
+I progetti programmati di Analysis Workspace possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
 
-In Gestione progetti programmati potete modificare ed eliminare le pianificazioni di progetti ricorrenti. Cercate una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Potete filtrare per tag, programmi approvati, proprietari e altro ancora.
+In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
+
+![](assets/scheduled-project-manager.png)
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
 | Azione | Descrizione |
 |---|---|
-| **Modifica pianificazione** | Fate clic sul titolo della pianificazione per aggiornarne le impostazioni di consegna. |
-| **Elimina pianificazione** | Selezionate il progetto pianificato nell&#39;elenco, quindi fate clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto; il progetto stesso non verrà eliminato. |
-| **Aggiungere tag** | Selezionate il progetto pianificato nell&#39;elenco, quindi scegliete &quot;Tag&quot; o &quot;Approva&quot; per organizzare le pianificazioni e semplificarne la ricerca. |
-| **Visualizza pianificazioni non riuscite** | Passare alla barra a sinistra > Altri filtri > Impossibile visualizzare le pianificazioni che hanno avuto esito negativo. |
-| **Visualizza pianificazioni scadute** | Andate alla barra a sinistra > Altri filtri > Scaduto per visualizzare le pianificazioni scadute. Fate clic sul titolo della pianificazione per impostare una nuova pianificazione di consegna. |
-| **Visualizza ID pianificazione** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L&#39;ID pianificato è spesso utile per il debug. |
+| **Modifica pianificazione** | Fai clic sul titolo della pianificazione per aggiornare le impostazioni di consegna. |
+| **Elimina pianificazione** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
+| **Aggiungi tag** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
+| **Visualizza pianificazioni non riuscite** | Passa alla barra a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
+| **Visualizza pianificazioni scadute** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione di consegna. |
+| **Visualizza ID pianificazione** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
-Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte. La proprietà pianificata del progetto può essere **trasferito** a un nuovo utente in **Amministratore > Risorse e utenti di Analytics > Trasferisci risorse**.
+Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte. La proprietà del progetto programmato può essere **trasferita** a un nuovo utente in **Amministratore > Utenti e risorse di Analytics > Trasferisci risorse**.
