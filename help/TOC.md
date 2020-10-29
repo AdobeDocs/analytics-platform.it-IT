@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '410'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 100%
    + [Esecuzione di analisi avanzate](analysis-workspace/perform-adv-analysis.md)
    + Generare un progetto Workspace {#build-workspace-project}
       + [Crea progetto: panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + Impostazioni colonna e riga {#column-row-settings}
          + [Impostazioni colonna](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
@@ -94,13 +95,13 @@ ht-degree: 100%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
    + Curare o condividere progetti {#curate-share}
-      + [Curare progetti Workspace](analysis-workspace/curate-share/curate.md)
-      + [Condividere progetti Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Curare progetti](analysis-workspace/curate-share/curate.md)
+      + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
-      + [Progetti Workspace solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
+      + [Progetti solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
-      + [Condividere e programmare file di progetto](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Invio di file: programmazione di un progetto per la consegna](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestione progetti programmati](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
