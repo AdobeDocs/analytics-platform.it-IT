@@ -1,11 +1,11 @@
 ---
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
-translation-type: ht
-source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
-workflow-type: ht
-source-wordcount: '859'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+workflow-type: tm+mt
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di CJA. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. Ciò significa che tutta la persistenza sarà basata sull’intervallo di date del reporting, anziché sui dati per intero. |
 | Classificazioni | Adesso denominati “Set di dati di ricerca”, non vengono importati automaticamente dal tradizionale Analytics. Devono essere caricati su AEP prima di poter essere disponibili in CJA. |
 | Attributi cliente | Ora detti “Set di dati del profilo”, non vengono importati automaticamente da Experience Cloud, ma dovranno essere caricati in AEP prima di poter essere disponibili in CJA. |
+| Dimensioni dispositivo, browser, tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e è conforme alla classe XDM Experience Event. |
+| Entrate, uscite e dimensioni e metriche dell&#39;intervallo di tempo | Supportato (le voci e le uscite sono ora denominate avvii di sessione e fine di sessione) e sono calcolate in modo leggermente diverso. |
 
 ## Supporto parziale
 
@@ -66,6 +68,10 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Segmento IQ | Il supporto è pianificato. |
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. |
 | Download di CSV | Il supporto è pianificato. |
+| Deduplicazione delle metriche | Il supporto è pianificato. |
+| Calendari personalizzati | Il supporto è pianificato. |
+| Deduplicazione delle metriche | Il supporto è pianificato. |
+| Persistenza variabile Merchandising | Il supporto è pianificato. |
 | Report/progetti pianificati | Il supporto è pianificato. |
 | Avvisi | Il supporto è pianificato. |
 | Calendari personalizzati | Il supporto è pianificato. |
