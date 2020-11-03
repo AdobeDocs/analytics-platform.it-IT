@@ -3,15 +3,19 @@ description: Scopri come creare collegamenti condivisibili a progetti o visualiz
 keywords: Analysis Workspace sharing
 title: Creare collegamenti condivisibili
 translation-type: tm+mt
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 92%
+source-wordcount: '317'
+ht-degree: 93%
 
 ---
 
 
 # Creare collegamenti condivisibili
+
+>[!NOTE]
+>
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Gli utenti che ricevono un collegamento devono accedere ad Adobe Analytics prima di poter accedere al progetto.
 
