@@ -1,21 +1,19 @@
 ---
-description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-clic di Analysis Workspace.
+description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
-title: Tasti di scelta rapida disponibili in  Analysis Workspace
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Tasti di scelta rapida
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 71%
+source-wordcount: '306'
+ht-degree: 98%
 
 ---
 
 
-# Tasti di scelta rapida disponibili in  Analysis Workspace
+# Tasti di scelta rapida
 
-I tasti di scelta rapida (scelte rapide da tastiera) sono disponibili in  Analysis Workspace per la navigazione, l&#39;analisi e la democratizzazione.
+I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la fluidità della navigazione, dell’analisi e della democratizzazione.
 
 Nota: `CTRL` = Windows e `command` = Mac
 
@@ -28,10 +26,10 @@ Nota: `CTRL` = Windows e `command` = Mac
 | Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
 | Vai al riquadro Visualizations (Visualizzazioni) | Alt + Maiusc + 2 |
 | Vai al riquadro Components (Componenti) | Alt + Maiusc + 3 |
-| Comprimi/Espandi tutti i pannelli | Alt + M |
-| Comprimi/Espandi pannello attivo | Alt + Ctrl + M |
-| Passa al pannello successivo | Alt + Tasto destro |
-| Passa al pannello precedente | Alt + Tasto sinistro |
+| Comprimi/espandi tutti i pannelli | Alt + M |
+| Comprimi/espandi pannello attivo | Alt + Ctrl + M |
+| Passa al pannello successivo | Alt + Freccia destra |
+| Passa al pannello precedente | Alt + Freccia sinistra |
 
 ## Azioni di analisi
 
@@ -50,15 +48,15 @@ Nota: `CTRL` = Windows e `command` = Mac
 | Aggiorna progetto | Alt + R |
 | Imposta come pagina di destinazione | Ctrl/Comando + Maiusc + L |
 
-## Aggiunta di pannelli e azioni di visualizzazione
+## Aggiungi pannelli e azioni di visualizzazione
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Nuovo pannello Analisi per Target | Alt + G |
+| Nuovo pannello Analytics for Target | Alt + G |
 | Nuovo pannello Attribuzione | Alt + E |
 | Nuovo pannello vuoto | Alt + B |
 | Nuovo pannello a forma libera | Alt + A |
-| Nuovo pannello visualizzatori simultanei | Alt + H |
+| Nuovo pannello Visualizzatori simultanei di contenuti multimediali | Alt + H |
 | Nuovo pannello Quick Insights | Alt + F |
 | Nuovo pannello Confronto segmenti | Alt + C |
 | Nuova tabella a forma libera | Alt + 1 |
