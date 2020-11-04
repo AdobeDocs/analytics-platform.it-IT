@@ -2,7 +2,7 @@
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 79%
@@ -28,7 +28,7 @@ Puoi gestire i seguenti componenti:
 
 I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 
-Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. È possibile passare da un pannello all’altro (pannello vuoto, [Pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table.md), [Approfondimenti rapidi](/help/analysis-workspace/c-panels/quickinsight.md)oppure [Attribution IQ ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), e i componenti mediante le icone della barra a sinistra o utilizzando [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. È possibile passare da un pannello all’altro (pannello vuoto, [Pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Approfondimenti rapidi](/help/analysis-workspace/c-panels/quickinsight.md)oppure [Attribution IQ ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), e i componenti mediante le icone della barra a sinistra o utilizzando [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
