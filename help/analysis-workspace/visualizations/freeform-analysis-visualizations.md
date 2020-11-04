@@ -3,7 +3,7 @@ description: Ulteriori informazioni sulle visualizzazioni e sulle impostazioni d
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 95%
@@ -26,7 +26,7 @@ Esercitazione video: [Tipi di visualizzazione in  Analysis Workspace](https://do
 | [Anello](/help/analysis-workspace/visualizations/donut.md) | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. |
 | [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. |
 | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Mostra i percorsi dei clienti attraverso i siti web e le app. |
-| [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. |
+| [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. |
 | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. |
 | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. Un grafico a linee può essere usato solo con una dimensione temporale. |
