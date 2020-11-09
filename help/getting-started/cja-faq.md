@@ -2,10 +2,10 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 translation-type: tm+mt
-source-git-commit: 3b3d0b0858d559e94f1bed6a31a63b018ed32a23
+source-git-commit: 830e7d71ad38539d1a73fe2df9f8886956f57acc
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 47%
+source-wordcount: '1118'
+ht-degree: 49%
 
 ---
 
@@ -57,11 +57,11 @@ Per quanto riguarda la cancellazione, ci occupiamo di 6 componenti: progetti san
 
 | E se io... | Ciò si verifica... |
 | --- | --- |
-| Eliminare una sandbox in [!UICONTROL Adobe Experience Platform]? | L&#39;eliminazione di una sandbox interrompe qualsiasi [!UICONTROL Customer Journey Analytics] connessioni ai dataset in quella sandbox. Tuttavia, i set di dati nella CJA non verranno attualmente eliminati. |
+| Eliminare una sandbox in [!UICONTROL Adobe Experience Platform]? | L&#39;eliminazione di una sandbox interrompe il flusso di dati su qualsiasi [!UICONTROL Customer Journey Analytics] connessioni ai dataset in quella sandbox. Attualmente, le connessioni nel CJA legate a quella sandbox non verranno eliminate automaticamente. |
 | Elimina uno schema in [!UICONTROL Adobe Experience Platform], ma non il/i set di dati associati a questo schema? | [!UICONTROL Adobe Experience Platform] non consente l&#39;eliminazione di schemi a cui sono associati uno o più set di dati. Tuttavia, un amministratore con l&#39;insieme di diritti appropriato può eliminare prima i set di dati e quindi lo schema. |
-| Elimina un set di dati in [!UICONTROL Adobe Experience Platform]? | Nessuna notifica in [!UICONTROL Customer Journey Analytics]; tuttavia, se i dati di streaming sono attivati, dopo l&#39;eliminazione dei set di dati non saranno più disponibili nuovi dati.<br>In altre parole, se l&#39;impostazione **[!UICONTROL Automatically import all new datasets in this connection, beginning today]** quando la connessione è abilitata, non saranno più disponibili nuovi dati dopo l&#39;eliminazione dei set di dati. |
+| Elimina un set di dati in [!UICONTROL Adobe Experience Platform]? | L&#39;eliminazione di un set di dati in AEP interrompe il flusso di dati da tale set di dati a tutte le connessioni che lo includono. Eventuali dati provenienti da tale dataset non vengono eliminati automaticamente dalle connessioni CJA associate. |
 | Elimina un set di dati in [!UICONTROL Customer Journey Analytics]? | Al momento non è possibile eliminare un dataset all&#39;interno di una connessione salvata. Dovreste eliminare l&#39;intera connessione e ricominciare da capo. Tuttavia, è possibile eliminare un set di dati in [!UICONTROL Adobe Experience Platform]. |
-| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform])? | Se il batch è già stato assimilato in [!UICONTROL Customer Journey Analytics], [!UICONTROL Customer Journey Analytics] al momento non è a conoscenza del fatto che il batch è stato eliminato. Se il batch non è stato ingerito, ovviamente non può essere ingerito una volta eliminato in [!UICONTROL Adobe Experience Platform]. |
+| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform])? | Se un batch viene eliminato da un set di dati AEP, lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico. |
 | Eliminare un batch **durante l&#39;assimilazione** in [!UICONTROL Customer Journey Analytics]? | Se nel set di dati è presente un solo batch, non verranno visualizzati dati o dati parziali da tale batch [!UICONTROL Customer Journey Analytics]. L&#39;assimilazione verrà ripristinata. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell&#39;eliminazione del set di dati, i dati provenienti da questi 3 batch verranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
 | Elimina una connessione in [!UICONTROL Customer Journey Analytics]? | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Allo stesso modo, tutti i progetti Workspace che dipendono dalla visualizzazione dei dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione dati in [!UICONTROL Customer Journey Analytics]? | Un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare. |
