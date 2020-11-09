@@ -2,10 +2,10 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 translation-type: tm+mt
-source-git-commit: 830e7d71ad38539d1a73fe2df9f8886956f57acc
+source-git-commit: 1f8526e0b48e334a62776eb2ca4fbf09febf4dd4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 49%
+source-wordcount: '1124'
+ht-degree: 48%
 
 ---
 
@@ -61,7 +61,7 @@ Per quanto riguarda la cancellazione, ci occupiamo di 6 componenti: progetti san
 | Elimina uno schema in [!UICONTROL Adobe Experience Platform], ma non il/i set di dati associati a questo schema? | [!UICONTROL Adobe Experience Platform] non consente l&#39;eliminazione di schemi a cui sono associati uno o più set di dati. Tuttavia, un amministratore con l&#39;insieme di diritti appropriato può eliminare prima i set di dati e quindi lo schema. |
 | Elimina un set di dati in [!UICONTROL Adobe Experience Platform]? | L&#39;eliminazione di un set di dati in AEP interrompe il flusso di dati da tale set di dati a tutte le connessioni che lo includono. Eventuali dati provenienti da tale dataset non vengono eliminati automaticamente dalle connessioni CJA associate. |
 | Elimina un set di dati in [!UICONTROL Customer Journey Analytics]? | Al momento non è possibile eliminare un dataset all&#39;interno di una connessione salvata. Dovreste eliminare l&#39;intera connessione e ricominciare da capo. Tuttavia, è possibile eliminare un set di dati in [!UICONTROL Adobe Experience Platform]. |
-| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform])? | Se un batch viene eliminato da un set di dati AEP, lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico. |
+| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform])? | Se un batch viene eliminato da un [!UICONTROL Adobe Experience Platform] set di dati, lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico.  La CJA riceve una notifica di eliminazione batch in [!UICONTROL Adobe Experience Platform]. |
 | Eliminare un batch **durante l&#39;assimilazione** in [!UICONTROL Customer Journey Analytics]? | Se nel set di dati è presente un solo batch, non verranno visualizzati dati o dati parziali da tale batch [!UICONTROL Customer Journey Analytics]. L&#39;assimilazione verrà ripristinata. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell&#39;eliminazione del set di dati, i dati provenienti da questi 3 batch verranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
 | Elimina una connessione in [!UICONTROL Customer Journey Analytics]? | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Allo stesso modo, tutti i progetti Workspace che dipendono dalla visualizzazione dei dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione dati in [!UICONTROL Customer Journey Analytics]? | Un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare. |
