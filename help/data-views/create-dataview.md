@@ -2,10 +2,10 @@
 title: Creare una visualizzazione dati
 description: Descrive come creare una visualizzazione dati di un set di dati di Platform in Customer Journey Analytics (CJA).
 translation-type: tm+mt
-source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '559'
+ht-degree: 92%
 
 ---
 
@@ -54,3 +54,7 @@ Prima di poter creare visualizzazioni dati, devi [impostare una o più connessio
 1. Facoltativo: puoi rinominare un componente in un nome descrittivo o modificarne le impostazioni di attribuzione selezionandolo e modificandone l’impostazione. Il nome originale viene mantenuto. Per ulteriori informazioni, consulta [Configurare le visualizzazioni dati e l’attribuzione](/help/data-views/configure-dataviews.md).
 
 1. Il passaggio successivo consiste nello [specificare le impostazioni di attribuzioni e componenti](/help/data-views/configure-dataviews.md).
+
+## Eliminazione delle visualizzazioni dati
+
+Se si elimina una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare.
