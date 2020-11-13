@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 8eb7d3e24a941eaf882426e230561e2bf0d0145e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 98%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 98%
    + [Gestione delle connessioni](connections/manage-connection.md)
    + [Stima dimensione connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
+   + Analisi tra canali {#cca}
+      + [Panoramica di Analytics tra canali](connections/cca/overview.md)
+      + [Funzionamento delle riproduzioni](connections/cca/replay.md)
+      + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
@@ -152,6 +156,7 @@ ht-degree: 98%
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Utilizzo di array di oggetti](use-cases/object-arrays.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
+   + [Importa call center e dati web](use-cases/call-center.md)
    + [Casi di utilizzo per l’acquisizione di dati](use-cases/data-ingestion.md)
 + Privacy {#cja-privacy}
    + [Panoramica sulla privacy](privacy/privacy-overview.md)
