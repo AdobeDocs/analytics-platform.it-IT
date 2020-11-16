@@ -2,10 +2,10 @@
 title: Aggiornamenti della documentazione di CJA
 description: 'Elenca gli aggiornamenti di contenuto per la documentazione di Customer Journey Analytics impostati a partire da dicembre 2019. '
 translation-type: tm+mt
-source-git-commit: fa70d59a4c30b78c09ea9d11dfc804bf12e9b603
+source-git-commit: 06079f13a61ec9732a69c8acee0bed7356910a84
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 19%
+source-wordcount: '205'
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
-| 11 novembre 2020 | È stato aggiunto un argomento su [Stima della dimensione della connessione](/help/connections/estimate-connection-size.md) a scopo di fatturazione. |
+| 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/connections/cca/overview.md), che consentono di ri-chiave dell&#39;ID persona di un dataset, consentendo una combinazione perfetta di più set di dati. |
+| 13 novembre 2020 | È stato aggiunto un nuovo caso di utilizzo in [importazione di call center e dati Web](/help/use-cases/call-center.md). |
+| 11 novembre 2020 | È stato aggiunto un argomento in [Stima della dimensione della connessione](/help/connections/estimate-connection-size.md). |
 | 10 novembre 2020 | È stata aggiunta una sezione sulle implicazioni dell&#39;eliminazione dei componenti dati nelle [FAQ](/help/getting-started/cja-faq.md). |
 | 2 novembre 2020 | Aggiornamenti alla pagina [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/cja-aa.md). |
 | 7 ottobre 2020 | È stato aggiunto un argomento in [set di dati evento combinati](/help/connections/combined-dataset.md). |
