@@ -1,11 +1,11 @@
 ---
 title: Guida a Customer Journey Analytics
 description: Pagina di destinazione di Customer Journey Analytics.
-translation-type: ht
-source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4c4463fe1c7454ede80330d8889bc4157eb99fca
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 83%
 
 ---
 
@@ -23,14 +23,12 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions"> Requisiti aggiornati per le autorizzazioni utente (dal 9 settembre 2020) </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-usecases/object-arrays.html"> Utilizzo di array di oggetti </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> Nuova documentazione sull’analisi tra canali (unione di ID in Customer Journey Analytics)  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> Requisiti di autorizzazioni utente aggiornati  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> Utilizzo di array di oggetti </a> </li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-usecases/b2b.html"> Aggiungere dati a livello di account come set di dati di ricerca </a> </li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-getting-started.html"> Guida introduttiva di Customer Journey Analytics </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-faq.html"> Domande frequenti</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-overview/cja-glossary.html"> Glossario di Customer Journey Analytics</a> </li> 
-      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API Adobe Analytics 2.0</a> </li> 
-     </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Note sulla versione</b> </p> 
     <ul> 
      <li>Per conoscere le nuove funzioni e le correzioni, vedi le <a href="https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti. </li> 
