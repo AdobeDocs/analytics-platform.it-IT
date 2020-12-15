@@ -64,7 +64,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | Ctrl+Maiusc+D | Nuovo intervallo date |
 | Ctrl+Maiusc+E | Nuovo segmento |
 | Ctrl+Z | Annulla |
-| Pressione prolungata di Maiusc (nella zona di rilascio del segmento del pannello) | Crea un [filtro a discesa](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Pressione prolungata di Maiusc (nella zona di rilascio del segmento del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it-IT) |
 
 #### Democratizzazione
 
