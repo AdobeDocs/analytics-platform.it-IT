@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Il pannello Attribution permette di strutturare facilmente un’analisi confront
 * **Metrica totale**: il numero totale di conversioni che si sono verificate nell’intervallo di tempo di reporting. Queste sono le conversioni attribuite nella dimensione selezionata.
 * **Grafico a barre di confronto attribuzione metriche**: confronta visivamente le conversioni attribuite in ciascun elemento dimensionale dalla dimensione selezionata. Ogni colore della barra rappresenta un modello di attribuzione distinto.
 * **Tabella a forma libera di attribuzione metriche**: mostra gli stessi dati del grafico a barre rappresentati in una tabella. Se si selezionano colonne o righe diverse in questa tabella, il grafico a barre e diverse altre visualizzazioni nel pannello vengono filtrate. Questa tabella funziona come qualsiasi altra tabella a forma libera in Workspace e consente di aggiungere componenti quali metriche, segmenti o suddivisioni.
-* **Grafico di sovrapposizione Dimension**: Un diagramma di Venn che mostra i tre elementi principali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, la dimensione della sovrapposizione della bolla indica la frequenza con cui si sono verificate conversioni quando un visitatore era esposto a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
+* **Grafico di sovrapposizione dimensioni**: un diagramma di Venn che mostra i primi tre elementi dimensionali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando un visitatore è stato esposto a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
 * **Marketing Touchpoints Per Journey**: un istogramma che indica il numero di punti di contatto di un visitatore nell’intervallo di lookback. Questa visualizzazione è utile per vedere l’impatto dell’attribuzione a più contatti per un set di dati. Se quasi tutti i visitatori dispongono di un solo punto di contatto, è probabile che i diversi modelli di attribuzione mostrino dati simili.
 * **Dettagli delle prestazioni dei canali di marketing**: ti consente di confrontare visivamente fino a tre modelli di attribuzione mediante un grafico a dispersione.
 * **Flusso dei canali di marketing**: ti consente di vedere con quali canali si verificano più comunemente interazioni e in quale ordine lungo il percorso di un visitatore.
