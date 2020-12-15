@@ -49,7 +49,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 >[!NOTE]
 >
->**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Vedere [Versioni di  delle funzioni Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) per ulteriori informazioni.
+>**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, vedere [ versioni delle funzioni Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html).
 
 ## Esempio
 
