@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4c4463fe1c7454ede80330d8889bc4157eb99fca
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> Nuova documentazione sull’analisi tra canali (unione di ID in Customer Journey Analytics)  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it-IT#cja-connections"> Nuova documentazione sull’analisi tra canali (unione di ID in Customer Journey Analytics)  </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> Requisiti di autorizzazioni utente aggiornati  </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> Utilizzo di array di oggetti </a> </li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-usecases/b2b.html"> Aggiungere dati a livello di account come set di dati di ricerca </a> </li>
