@@ -21,7 +21,7 @@ Analysis Workspace offre diversi modi per condividere un progetto con gli utenti
 
 ## Ottenere un collegamento a un progetto {#project-link}
 
-Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/share-projects.html), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
+Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it-IT), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
 
 ![](assets/get-project-link.png)
 
