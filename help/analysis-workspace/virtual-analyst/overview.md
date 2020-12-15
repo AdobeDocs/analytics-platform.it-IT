@@ -20,6 +20,6 @@ Analista virtuale, una serie di funzionalità incluse in Adobe Analytics, utiliz
 
 ## Funzioni {#features}
 
-L&#39;analista virtuale nell&#39;analisi del percorso del cliente è costituito da [Rilevamento delle anomalie:](c-anomaly-detection/anomaly-detection.md), che fornisce un metodo statistico per determinare in che modo una data metrica è cambiata rispetto ai dati precedenti.
+L&#39;analista virtuale nell&#39;analisi del percorso del cliente è costituito da [Rilevamento anomalie:](c-anomaly-detection/anomaly-detection.md), che fornisce un metodo statistico per determinare in che modo una determinata metrica è cambiata rispetto ai dati precedenti.
 
 Analisi contributi e avvisi intelligenti non sono ancora disponibili in Analisi percorso cliente.
