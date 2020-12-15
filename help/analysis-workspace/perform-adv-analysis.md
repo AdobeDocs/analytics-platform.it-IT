@@ -16,7 +16,7 @@ ht-degree: 51%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-L&#39;analisi avanzata sfrutta funzionalità come [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) diagrammi, [Attribution IQ ](/help/analysis-workspace/attribution/overview.md), [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) diagrammi e [analisi approfondite](/help/components/dimensions/t-breakdown-fa.md).
+L&#39;analisi avanzata sfrutta funzioni come i diagrammi [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md), i diagrammi [ Attribution IQ](/help/analysis-workspace/attribution/overview.md), i diagrammi [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e le suddivisioni dimensionali [.](/help/components/dimensions/t-breakdown-fa.md)
 
 ![Schermata dell&#39;area di lavoro 1](assets/cja-adv-analysis1.png)
 
