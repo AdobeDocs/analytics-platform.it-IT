@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -81,9 +81,9 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 
 * **Motori di ricerca a pagamento**: questo modello suddivide le tendenze pubblicitarie, le piattaforme di annunci, le parole chiave, gli account, le campagne e molto altro.
 
-### Commercio
+### Commerce
 
-* **Magento: Marketing e commercio**: Questo modello suddivide la conversione dell&#39;e-commerce in base all&#39;attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
+* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28164)
 
