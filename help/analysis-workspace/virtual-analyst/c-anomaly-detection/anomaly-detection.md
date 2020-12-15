@@ -15,7 +15,7 @@ ht-degree: 92%
 
 In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 
-[Esercitazione video sul rilevamento delle anomalie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Esercitazione](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  video sul rilevamento delle anomalie (4:53)
 
 Il rilevamento anomalie fornisce un metodo statistico per determinare il cambiamento di una data metrica in relazione ai dati precedenti.
 
