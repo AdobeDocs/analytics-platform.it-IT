@@ -1,16 +1,16 @@
 ---
-title: Set di dati evento combinato
+title: Set di dati evento combinati
 description: Scopri come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
 source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 84%
 
 ---
 
 
-# Set di dati evento combinato
+# Set di dati evento combinati
 
 Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &#39;insieme di dati evento combinato&#39; è ciò che CJA utilizza per i report. Quando includi più schemi o set di dati in una connessione:
 
