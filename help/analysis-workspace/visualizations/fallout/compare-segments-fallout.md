@@ -50,7 +50,7 @@ Per vedere, ad esempio, in che modo gli utenti USA tendono e influenzano l’abb
 
 Oppure puoi creare un punto di contatto AND trascinando il filtro degli utenti USA su un altro punto di controllo.
 
-## Confrontare i filtri nell’abbandono {#section_E0B761A69B1545908B52E05379277B56}
+## Confronta i filtri nell&#39;abbandono {#section_E0B761A69B1545908B52E05379277B56}
 
 Puoi confrontare un numero illimitato di filtri nella visualizzazione Abbandono.
 
