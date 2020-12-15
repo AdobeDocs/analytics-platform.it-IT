@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Gli elementi dimensionali statici non cambiano con il tempo, sono componenti fis
 
 Ogni volta che selezioni e rilasci manualmente valori di componenti specifici (dimensione, metrica, segmento, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne. Puoi inoltre creare elementi dimensionali statici se lo desideri:
 
-* Da righe, fate clic con il pulsante destro del mouse > [!UICONTROL Display only selected rows]
+* Da righe, fare clic con il pulsante destro del mouse > [!UICONTROL Display only selected rows]
 * Da colonne, fare clic con il pulsante destro del mouse > [!UICONTROL Make item static]
 
 Ad esempio, quando trascini su specifici elementi della dimensione Tipo di browser, come Microsoft e Apple, questi due elementi specifici vengono sempre inseriti nella tabella.
@@ -56,5 +56,5 @@ Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe
 Le righe dinamiche e statiche si comportano in modo diverso nella riga del totale a forma libera. Per impostazione predefinita:
 
 * Le righe dinamiche vengono sommate lato server e deduplicano metriche quali visite o visitatori
-* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=it-IT)
 
