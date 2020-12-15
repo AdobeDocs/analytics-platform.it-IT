@@ -19,7 +19,7 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
 >[!IMPORTANT]
->I filtri sono noti come “segmenti” in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform [una definizione diversa di &quot;segmento&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
+>I filtri sono noti come “segmenti” in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform ha [una definizione diversa di &quot;segmento&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/create-filters.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
 
