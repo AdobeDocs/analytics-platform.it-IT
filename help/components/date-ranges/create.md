@@ -18,22 +18,22 @@ ht-degree: 10%
 
 Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi seguenti:
 
-* Direttamente in un progetto dell&#39;area di lavoro facendo clic sul pulsante`+`&#39; pulsante accanto all&#39;elenco dei componenti dell&#39;intervallo di date a sinistra
+* Direttamente in un progetto dell&#39;area di lavoro facendo clic sul pulsante &quot;`+`&quot; accanto all&#39;elenco dei componenti dell&#39;intervallo di date a sinistra
 * In Gestione intervalli di date
 
 Per creare un intervallo di date nel gestore intervalli di date:
 
-1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
+1. Accedete a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali AdobeID.
 1. Passa a [!UICONTROL Components] > [!UICONTROL Date Ranges].
-1. Fai clic sul pulsante [!UICONTROL Add] per aprire la finestra modale che crea un intervallo di date.
+1. Fare clic sul pulsante [!UICONTROL Add] per aprire la finestra modale che crea un intervallo di date.
 
 ## Creazione di una finestra modale per l&#39;intervallo di date
 
 Nella finestra modale sono disponibili quattro campi:
 
-* **Intervallo date**: L&#39;intervallo di date desiderato per questo componente.
+* **Intervallo** di date: L&#39;intervallo di date desiderato per questo componente.
 * **Titolo**: Nome del componente desiderato. Il titolo viene utilizzato nei progetti dell’area di lavoro.
-* **Descrizione**: Descrizione del componente. La descrizione viene visualizzata quando si fa clic sul pulsante ![i](../assets/i.png) icon.
+* **Descrizione**: Descrizione del componente. La descrizione viene visualizzata quando si fa clic sull&#39;icona ![i](../assets/i.png).
 * **Tag**: Utilizza i tag per organizzare gli intervalli di date. Un intervallo di date può appartenere a più tag.
 
 ## Selezione di un intervallo di date
@@ -41,8 +41,8 @@ Nella finestra modale sono disponibili quattro campi:
 Quando fai clic sull’intervallo di date nella finestra modale, hai diverse opzioni:
 
 * **Calendario**: Selezionare la data di inizio e di fine.
-* **Usa date continue**: Selezionare questa casella se si desidera che l&#39;intervallo di date cambi man mano che l&#39;ora continua. Non selezionare questa casella se si desidera che l&#39;intervallo di date rimanga statico.
-* **Seleziona predefinito**: Utilizzate questo menu a discesa se desiderate un intervallo di date personalizzato basato su un intervallo che  Adobe offre per impostazione predefinita. Quando selezionate un predefinito, potete personalizzare ulteriormente l’intervallo di date in base alle vostre esigenze. Non influenza il predefinito offerto  Adobe.
+* **Usa date** continue: Selezionare questa casella se si desidera che l&#39;intervallo di date cambi man mano che l&#39;ora continua. Non selezionare questa casella se si desidera che l&#39;intervallo di date rimanga statico.
+* **Selezionate il predefinito**: Utilizzate questo menu a discesa se desiderate un intervallo di date personalizzato basato su un intervallo che  Adobe offre per impostazione predefinita. Quando selezionate un predefinito, potete personalizzare ulteriormente l’intervallo di date in base alle vostre esigenze. Non influenza il predefinito offerto  Adobe.
 
 ## Intervalli di date
 
