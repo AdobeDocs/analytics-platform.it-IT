@@ -21,20 +21,20 @@ Esistono diversi modi per esportare i dati da  Analysis Workspace, a seconda del
 
 ## Scarica il progetto come CSV o PDF {#download-project}
 
-Puoi scaricare un progetto completo accedendo a **[!UICONTROL Project > Download as PDF (or as CSV)]**. Il file scaricato contiene tutte le tabelle e le visualizzazioni visualizzate (visibili) nel progetto. Un PDF è in genere preferito se si desidera includere le visualizzazioni nel file, mentre un file CSV è preferito se si desidera semplicemente che i dati siano in testo normale.
+Per scaricare un progetto completo, vai a **[!UICONTROL Project > Download as PDF (or as CSV)]**. Il file scaricato contiene tutte le tabelle e le visualizzazioni visualizzate (visibili) nel progetto. Un PDF è in genere preferito se si desidera includere le visualizzazioni nel file, mentre un file CSV è preferito se si desidera semplicemente che i dati siano in testo normale.
 
 ![](assets/download-project.png)
 
 Per i download dei progetti, tieni presente quanto segue:
 
-* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [programmati](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* Il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * L&#39;esportazione dei PDF scaricati nel browser può richiedere alcuni minuti perché il progetto viene rieseguito  server di Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se il rendering di un PDF richiede più di 5 minuti, verrà richiesto di inviarlo tramite e-mail.
 * I download PDF vengono rappresentati come una singola pagina senza applicazione di impaginazione.
 * Quando viene eseguito il rendering di un progetto in PDF, viene eseguito il rendering di ciò che si trova sulla pagina. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
 
 ## Copia dati negli Appunti (tasto di scelta rapida: Ctrl+C) {#copy-data}
 
-Opzione clic con il pulsante destro del mouse **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati da Workspace e incollarli altrove.
+L&#39;opzione **[!UICONTROL Copy to clipboard]** con il pulsante destro del mouse consente di copiare rapidamente i dati da Workspace e incollarli altrove.
 
 * Se si desidera copiare la tabella visualizzata, fare clic con il pulsante destro del mouse sull&#39;intestazione della tabella e scegliere **Copia dati negli Appunti**.
 * Se si desidera copiare un sottoinsieme di dati, effettuare una selezione nella tabella, quindi fare clic con il pulsante destro del mouse > **Copia selezione negli Appunti**.
@@ -43,18 +43,18 @@ Inoltre, il tasto di scelta rapida `Ctrl+C` copia la selezione negli Appunti. Un
 
 ![](assets/copy-selection.png)
 
-## Scarica dati come CSV {#download-data}
+## Scarica i dati come CSV {#download-data}
 
-Opzione clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati o l’origine dati di qualsiasi visualizzazione.
+L&#39;opzione di clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]** consente di scaricare una tabella di dati o l&#39;origine dati di qualsiasi visualizzazione come CSV.
 
-* Nell’intestazione di una tabella o di una visualizzazione, fai clic con il pulsante destro del mouse **[!UICONTROL Download data as CSV]**. Questo scarica i dati visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione come CSV. Nota: la visualizzazione Mappa non supporta questa opzione.
+* Nell&#39;intestazione di una tabella o visualizzazione, fare clic con il pulsante destro del mouse su **[!UICONTROL Download data as CSV]**. Questo scarica i dati visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione come CSV. Nota: la visualizzazione Mappa non supporta questa opzione.
 * Se la tabella contiene una selezione, l&#39;opzione è **[!UICONTROL Download selection as CSV]**. Questa opzione consente di scaricare solo la selezione, a differenza della tabella visualizzata completa.
 
 ![](assets/download-data-viz.png)
 
-## Download di elementi come CSV {#download-items}
+## Download di elementi come CSV{#download-items}
 
-Se si desidera analizzare più righe di dati visibili di 400 righe in una tabella, fare clic con il pulsante destro del mouse sull&#39;intestazione della tabella o su una riga qualsiasi e selezionare **Download di elementi come CSV (nome Dimension)**. Questa opzione consente di esportare fino a 50.000 elementi dimensione (in base all&#39;ordinamento della tabella) per la dimensione selezionata, con l&#39;applicazione di filtri e segmenti. Se si sceglie questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Sebbene non siano applicati limiti nella tabella a forma libera, si consiglia di utilizzare l&#39;opzione Download elementi nelle tabelle con meno di 20 colonne per garantire prestazioni ottimali.
+Se si desidera analizzare più righe di dati visibili di 400 righe in una tabella, fare clic con il pulsante destro del mouse sull&#39;intestazione della tabella o su qualsiasi riga e selezionare **Scarica elementi come CSV (nome Dimension)**. Questa opzione consente di esportare fino a 50.000 elementi dimensione (in base all&#39;ordinamento della tabella) per la dimensione selezionata, con l&#39;applicazione di filtri e segmenti. Se si sceglie questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Sebbene non siano applicati limiti nella tabella a forma libera, si consiglia di utilizzare l&#39;opzione Download elementi nelle tabelle con meno di 20 colonne per garantire prestazioni ottimali.
 
 >[!TIP]
 >
@@ -69,8 +69,8 @@ Puoi eseguire più attività all’interno del progetto e persino passare a un n
 Le funzionalità della tabella verranno applicate al file scaricato come segue:
 
 * Tutti i segmenti di pannello vengono applicati come filtri.
-* Suddivisioni **above** la dimensione selezionata nella tabella viene applicata come filtri sopra ogni colonna.
-* Suddivisioni **below** la dimensione selezionata nella tabella viene rimossa.
+* Suddivisioni **sopra** la dimensione selezionata nella tabella viene applicata come filtri sopra ogni colonna.
+* Le suddivisioni **sotto** della dimensione selezionata nella tabella vengono rimosse.
 
 Nell’esempio precedente, gli elementi Pagina vengono scaricati con il segmento del pannello (Nuovi clienti visitatori) e i componenti sopra (Canale marketing = E-mail) applicati come filtri, e i componenti sotto (Tipo dispositivo mobile) rimossi dal file CSV scaricato.
 
@@ -78,7 +78,7 @@ Nell’esempio precedente, gli elementi Pagina vengono scaricati con il segmento
 
 ### Download delle notifiche
 
-Quando il file viene scaricato, viene visualizzata una notifica informativa con l’avanzamento. In qualsiasi momento potete annullare il download facendo clic su **[!UICONTROL Cancel download]**. Chiusura del toast **non** annullate il download.
+Quando il file viene scaricato, viene visualizzata una notifica informativa con l’avanzamento. In qualsiasi momento, puoi annullare il download facendo clic su **[!UICONTROL Cancel download]**. La chiusura del toast **non comporterà l&#39;annullamento del download**.
 
 Una volta completato il file, verrà visualizzata una notifica di completamento e il file verrà scaricato nel browser.
 
@@ -92,5 +92,5 @@ Se richiedete più di un download alla volta, riceverete una notifica per inform
 | --- | --- |
 | Perché il mio PDF scaricato è una pagina? | Al momento, Workspace non impagina i PDF scaricati. |
 | Posso esportare più di 50.000 elementi con l’opzione &quot;Scarica elementi come CSV&quot;? | Anche se ogni download può contenere fino a 50.000 elementi dimensionali, potete modificare l&#39;ordinamento della tabella per recuperare elementi finali più lunghi, oppure applicare un filtro per scaricare altri elementi specifici. |
-| Cosa comporta **[!UICONTROL Copy visualization]** no? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Video intra-link](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| Quali sono le operazioni eseguite da **[!UICONTROL Copy visualization]**? | **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Consente di copiare una visualizzazione o un pannello da un’area di lavoro all’altra. Ad esempio, da un pannello all’altro nello stesso progetto, o da un progetto a un altro. [Video intra-link](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
