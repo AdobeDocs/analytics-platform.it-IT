@@ -23,7 +23,7 @@ Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori
 
 ![](assets/horizontal_bar.png)
 
-## Barre orizzontali sovrapposte  {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barre orizzontali sovrapposte   {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Questa visualizzazione è simile al [!UICONTROL Horizontal Bar Chart] (grafico a barre orizzontali), ma con serie di barre sovrapposte le une alle altre.
 
