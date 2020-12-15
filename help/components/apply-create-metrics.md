@@ -29,7 +29,7 @@ Per accelerare e semplificare la creazione delle metriche calcolate, al menu di 
 
 ![](assets/calc_metrics.png)
 
-[Metriche calcolate: Metriche senza implementazione](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Metriche calcolate: Metriche](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  senza implementazione (3:42)
 
 ## Confrontare metriche con diversi modelli di attribuzione
 
