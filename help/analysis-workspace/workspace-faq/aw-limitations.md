@@ -29,7 +29,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Visualizzazioni
 
 * Le visualizzazioni che sfruttano la segmentazione, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare metriche calcolate come input.
-* [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page] , non possono essere utilizzate in Flusso.
+* [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 <!--## Panels
@@ -39,7 +39,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Filtri
 
 * Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* Alcuni componenti e operatori non sono disponibili se viene creato un filtro da Workspace (anziché da [!UICONTROL Components > Filters]). Ad esempio, Indirizzo IP.
+* Alcuni componenti e operatori non sono disponibili se viene creato un filtro da Workspace (anziché essere creato da [!UICONTROL Components > Filters]). Ad esempio, Indirizzo IP.
 
 ## Componenti > Metriche calcolate
 
