@@ -15,7 +15,7 @@ ht-degree: 79%
 I componenti sono funzionalità di Customer Journey Analytics che possono essere utilizzate nei rapporti o che integrano le funzioni di reporting. Puoi gestire questi componenti procedendo come segue:
 
 1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le tue credenziali Adobe ID.
-2. Passa a [!UICONTROL Components] > [!UICONTROL Components] nel menu dell&#39;intestazione.
+2. Andate a [!UICONTROL Components] > [!UICONTROL Components] nel menu dell&#39;intestazione.
 
 Puoi gestire i seguenti componenti:
 
@@ -28,11 +28,11 @@ Puoi gestire i seguenti componenti:
 
 I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e granularità temporali da trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 
-Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. È possibile passare da un pannello all’altro (pannello vuoto, [Pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Approfondimenti rapidi](/help/analysis-workspace/c-panels/quickinsight.md)oppure [Attribution IQ ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), e i componenti mediante le icone della barra a sinistra o utilizzando [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. È possibile passare dai pannelli (pannello vuoto, [pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Approfondimenti rapidi](/help/analysis-workspace/c-panels/quickinsight.md) o [Attribution IQ ](/help/analysis-workspace/c-panels/attribution.md)), [Visualizations](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e ai componenti mediante le icone della barra a sinistra oppure mediante i tasti di scelta rapida [](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
-Vedere [Creazione di un progetto](/help/analysis-workspace/home.md) per informazioni sull&#39;utilizzo dei componenti in un progetto.
+Per informazioni sull&#39;utilizzo dei componenti in un progetto, vedere [Creare un progetto](/help/analysis-workspace/home.md).
 
 ## Azioni dei componenti
 
