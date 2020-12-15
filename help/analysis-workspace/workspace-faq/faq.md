@@ -37,4 +37,4 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 * Controlla la suite di rapporti e assicurati che includa dati.
 * Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
-* Vai al tuo sito web e utilizza il [Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) per convalidare i dati raccolti.
+* Vai al tuo sito web e utilizza il [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it-IT) per convalidare i dati raccolti.
