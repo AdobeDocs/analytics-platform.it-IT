@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: e0946d2e0490e25314367a86ed241eadd09b09e5
+source-git-commit: e57d92f702445d8caac25a7cc11a6aafe6c62262
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 94%
+source-wordcount: '434'
+ht-degree: 92%
 
 ---
 
@@ -159,6 +159,7 @@ ht-degree: 94%
    + [Importa call center e dati web](use-cases/call-center.md)
    + [Casi di utilizzo per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Usa dimensioni canale di marketing](use-cases/marketing-channels.md)
+   + [Aggiunta di ricerche globali ai set di dati](use-cases/global-lookups.md)
 + Privacy {#cja-privacy}
    + [Panoramica sulla privacy](privacy/privacy-overview.md)
 + [Aggiornamenti della documentazione di CJA](doc-changes.md)
