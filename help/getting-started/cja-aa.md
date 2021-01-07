@@ -2,10 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '973'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Variabile di prodotto | La variabile di prodotto attualmente disponibile per il reporting dei dati conformi allo schema Experience Event (Evento esperienza), soprattutto sfruttando l’oggetto productListItems. |
+| Canali marketing | I dati di Marketing Channels (Canali di marketing) ora scorrono nel CJA tramite il connettore dati di Analytics. Le regole del canale di marketing devono essere ancora configurate nel  Adobe Analytics tradizionale. Alcune regole non sono supportate. Per ulteriori dettagli, consultare la [documentazione di CJA Marketing Channels](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases). |
 | Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
 | Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA, non esiste tra CJA e la versione tradizionale di Analysis Workspace. |
 | Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzata che sono diverse dagli hit di background per dispositivi mobili. |
@@ -75,10 +76,11 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Report/progetti pianificati | Il supporto è pianificato. |
 | Avvisi | Il supporto è pianificato. |
 | Calendari personalizzati | Il supporto è pianificato. |
-| Canali marketing | Il supporto è pianificato. |
 | Esportazione PDF | Il supporto è pianificato. |
 | Accesso API di reporting | Il supporto è pianificato. Sarà disponibile solo con API 2.0. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
+| Report Builder (plugin di Excel) | Il supporto è pianificato. |
+| Reporting in tempo reale | Il supporto è pianificato. |
 
 ## Supporto non ancora pianificato.
 
@@ -87,11 +89,9 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | A4T | Il supporto non è ancora pianificato. |
 | Media Analytics | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
-| Report Builder (plugin di Excel) | Il supporto non è ancora pianificato. |
 | Activity Map | Il supporto non è ancora pianificato. |
 | Generatore regole di classificazione | Il supporto non è ancora pianificato. |
 | Riepilogo origini dati | Il supporto non è ancora pianificato. |
-| Reporting in tempo reale | Il supporto non è ancora pianificato. |
 
 ## Funzioni che non saranno mai supportate
 
