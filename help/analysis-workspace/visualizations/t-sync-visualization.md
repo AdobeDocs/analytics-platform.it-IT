@@ -3,9 +3,9 @@ description: La sincronizzazione delle visualizzazioni consente di individuare l
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestione delle origini dati
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 100%
 
 # Gestione delle origini dati
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
-
 La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 
 **Suggerimento:** puoi individuare le visualizzazioni correlate dal colore del punto accanto al titolo. Colori uguali indicano che le visualizzazioni si basano sulla stessa origine dati.
 
 La gestione di un’origine dati consente di mostrare l’origine dati o di bloccare la selezione. Queste impostazioni determinano in che modo la visualizzazione cambia o meno con l’arrivo di nuovi dati.
 
-1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati e una [visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Crea un progetto](//help/analysis-workspace/home.md) con una tabella di dati e una [visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Nella tabella di dati, seleziona le celle (origine dati) che vuoi associare alla visualizzazione.
 1. Nella visualizzazione, fai clic sul punto accanto al titolo per visualizzare la finestra di dialogo **[!UICONTROL Data Source]** (Gestisci origini dati). Seleziona **[!UICONTROL Show Data Source]** (Mostra origine dati) o **[!UICONTROL Lock Selection]** (Blocca selezione).
 
