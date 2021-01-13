@@ -3,19 +3,15 @@ description: Utilizza le visualizzazioni Numero di riepilogo e Variazione di rie
 title: Numero di riepilogo e Variazione di riepilogo
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 
 # Numero di riepilogo e Variazione di riepilogo
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 ## Visualizzazione Numero di riepilogo {#summary-number}
 
@@ -26,7 +22,15 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 * Se sono selezionate più celle, viene visualizzata la prima cella selezionata.
 * Se è selezionata la colonna, viene preso il valore della prima cella della colonna.
 
-![Numero di riepilogo](assets/summary-number.png)
+Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni del Numero di riepilogo:
+
+| Impostazione | Definizione |
+|--- |--- |
+| Percentuali | Visualizza le percentuali invece dei numeri. |
+| Visualizzazione legenda | Mostra informazioni sulla metrica visualizzata. |
+| Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
+| Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
+
 
 Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni del Numero di riepilogo:
 
@@ -36,6 +40,7 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 | Visualizzazione legenda | Mostra informazioni sulla metrica visualizzata. |
 | Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
 | Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
+
 
 ## Visualizzazione Variazione di riepilogo {#summary-change}
 
@@ -50,7 +55,9 @@ Questa visualizzazione si comporta come segue:
 * Se è selezionato un intervallo di celle, vengono confrontate la prima e l’ultima cella selezionata nell’intervallo.
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 
-![Variazione di riepilogo](assets/summary-change.png)
+
+![](assets/summary-change.png)
+
 
 Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni della Variazione di riepilogo:
 
