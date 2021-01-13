@@ -2,19 +2,15 @@
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 93%
+source-wordcount: '332'
+ht-degree: 85%
 
 ---
 
 
 # Limitazioni note in Analysis Workspace
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
@@ -32,14 +28,14 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 * [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
-<!--## Panels
+## Pannelli
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.<-->
+* Confronto segmenti: il segmento [!UICONTROL Everyone Else] non viene creato se viene utilizzato un modello di segmento nella zona di rilascio iniziale.
 
 ## Componenti > Filtri
 
-* Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* Alcuni componenti e operatori non sono disponibili se viene creato un filtro da Workspace (anziché essere creato da [!UICONTROL Components > Filters]). Ad esempio, Indirizzo IP.
+* Alcune metriche e dimensioni non possono essere filtrate, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors] e così via.
+* I filtri ad hoc creati nel [pannello dropzone](/help/analysis-workspace/c-panels/panels.md) non vengono visualizzati nella barra a sinistra di Workspace o nel gestore dei componenti Filtro, a meno che non vengano resi pubblici. A tale scopo, è possibile modificare il filtro e selezionare **[!UICONTROL Make this filter public]**.
 
 ## Componenti > Metriche calcolate
 
@@ -50,6 +46,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Intervallo date
 
 * Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year], [!UICONTROL This day last month], ecc.
+
 
 ## Componenti > Impostazioni report
 
