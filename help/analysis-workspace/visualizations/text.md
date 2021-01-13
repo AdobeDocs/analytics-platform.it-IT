@@ -3,32 +3,32 @@ description: Consente di aggiungere testo definito dall’utente al progetto Wor
 title: Testo
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
 
 # Testo
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+Puoi aggiungere testo definito dall’utente al progetto Workspace utilizzando una visualizzazione di testo o una descrizione del pannello o della visualizzazione (fai clic con il pulsante destro del mouse sull’intestazione > **[!UICONTROL Edit description]**). Potete anche modificare la formattazione del testo, aggiungere collegamenti ipertestuali e aggiungere immagini.
 
-Consente di aggiungere testo definito dall’utente al progetto Workspace.
+## Regolare la formattazione {#format}
 
-Puoi cambiare le impostazioni del font (grassetto, corsivo, ecc.) e aggiungere collegamenti ipertestuali nelle visualizzazioni di tipo casella di testo e nelle descrizioni di pannelli o visualizzazioni.
+Quando modificate la casella di testo o la descrizione, potete regolare la dimensione del font (livelli di intestazione), il colore, lo stile (grassetto, corsivo, sottolineato) e l’allineamento del testo selezionato. È inoltre possibile aggiungere elenchi puntati e numerati.
 
-## Cambiare le impostazioni di font {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+![](assets/format.png)
 
-![](assets/rich-text1.png)
+## Aggiungere collegamenti ipertestuali {#hyperlinks}
 
-Dopo aver trascinato una visualizzazione di tipo Testo in un pannello e aver aggiunto del testo, puoi formattarlo aggiungendo livelli di intestazione, cambiando il testo in grassetto, corsivo o sottolineato, cambiando il colore del font, e così via.
+Per aggiungere un collegamento ipertestuale, evidenziate il testo e fate clic sull&#39;icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali possono collegarsi a siti Web esterni, pagine di documentazione, [progetti/pannelli/visualizzazioni Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) e altro ancora per assistere ulteriormente i destinatari del progetto.
 
-## Aggiungere collegamenti ipertestuali {#section_D55B857188A74A06B49006DF3511DC7C}
+![](assets/hyperlink.png)
 
-![](assets/rich-text2.png)
+## Aggiungere immagini {#images}
 
-Per aggiungere un collegamento ipertestuale, evidenzia il testo e fai clic sull’icona dei collegamenti ipertestuali nel menu di formattazione.
+Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci un URL immagine pubblico. L&#39;URL dell&#39;immagine deve essere accessibile al pubblico, iniziare con `https` e avere il formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
+
+![](assets/image.png)
