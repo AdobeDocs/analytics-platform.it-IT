@@ -3,19 +3,15 @@ description: È possibile vedere come un valore al quale sei interessato si conf
 title: Grafico bullet
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
 
 
 # Grafico bullet
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 
