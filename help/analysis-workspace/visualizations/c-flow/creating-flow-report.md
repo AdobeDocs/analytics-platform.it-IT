@@ -3,19 +3,15 @@ description: 'null'
 title: Configurare una visualizzazione di flusso
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '337'
 ht-degree: 100%
 
 ---
 
 
 # Configurare una visualizzazione di flusso
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Un rapporto di flusso consente di tenere traccia di un percorso attraverso le pagine o dimensioni, ad esempio eVar:
 
