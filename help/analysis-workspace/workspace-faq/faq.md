@@ -1,10 +1,10 @@
 ---
 description: Domande frequenti su Workspace
-title: Domande frequenti e risoluzione dei problemi di Workspace
+title: Domande frequenti
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '424'
 ht-degree: 87%
 
 ---
