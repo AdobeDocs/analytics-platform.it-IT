@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: e57d92f702445d8caac25a7cc11a6aafe6c62262
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '430'
 ht-degree: 92%
 
 ---
@@ -51,8 +51,8 @@ ht-degree: 92%
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Esecuzione di analisi di base](analysis-workspace/perform-basic-analysis.md)
    + [Esecuzione di analisi avanzate](analysis-workspace/perform-adv-analysis.md)
-   + Generare un progetto Workspace {#build-workspace-project}
-      + [Crea progetto: panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
+   + Progetti {#build-workspace-project}
+      + [Panoramica sui progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
