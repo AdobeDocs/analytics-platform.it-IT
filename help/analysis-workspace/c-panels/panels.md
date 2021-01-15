@@ -2,10 +2,10 @@
 description: Un pannello è un insieme di tabelle e visualizzazioni
 title: Panoramica dei pannelli
 translation-type: tm+mt
-source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 6%
+source-wordcount: '768'
+ht-degree: 5%
 
 ---
 
@@ -27,14 +27,6 @@ Un [!UICONTROL panel] è un insieme di tabelle e visualizzazioni. È possibile a
 
 Il pannello iniziale predefinito è il pannello [!UICONTROL Freeform], ma è possibile impostare il pannello [vuoto](/help/analysis-workspace/c-panels/blank-panel.md) come predefinito.
 
-## Suite di rapporti {#report-suite}
-
-Le tabelle e le visualizzazioni all&#39;interno di un pannello derivano dai [!UICONTROL report suite] selezionati in alto a destra nel pannello. La suite per report determina anche i componenti disponibili nella barra a sinistra. All&#39;interno di un progetto, potete utilizzare una o [molte suite di rapporti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it-IT) a seconda dei casi di utilizzo dell&#39;analisi. Per applicare una singola suite di rapporti a tutti i pannelli di un progetto, **fai clic con il pulsante destro del mouse sull&#39;intestazione del pannello > Applica suite di rapporti a tutti i pannelli**.
-
-L&#39;elenco delle suite di rapporti è ordinato in base alla rilevanza, che  Adobe definisce in base alla frequenza e alla data in cui la suite è stata utilizzata dall&#39;utente corrente e alla frequenza con cui la suite viene utilizzata all&#39;interno dell&#39;organizzazione.
-
-![](assets/panel-report-suite.png)
-
 ## Calendario {#calendar}
 
 Il calendario del pannello controlla l’intervallo di rapporti per tabelle e visualizzazioni all’interno di un pannello.
@@ -49,15 +41,15 @@ La zona di rilascio del pannello consente di applicare filtri a segmenti e a dis
 
 ### Filtri segmento
 
-Trascinate e rilasciate qualsiasi segmento dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
+Trascinate tutti i filtri dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
 
 ![](assets/segment-filter.png)
 
-### Filtri per segmenti ad hoc
+### Filtri ad hoc
 
-I componenti non del segmento possono anche essere trascinati direttamente nella zona di rilascio per creare segmenti ad hoc, risparmiando tempo e fatica nell’andare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Per modificare questa definizione, fai clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona di modifica a forma di matita e modificala nel Generatore di segmenti.
+I componenti non del segmento possono anche essere trascinati direttamente nella zona di rilascio per creare filtri ad hoc, risparmiando tempo e fatica nell’andare al generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Questa definizione può essere modificata facendo clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona di modifica a forma di matita e modificandola in Generatore di filtri.
 
-I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra se non li rendi pubblici.
+I filtri ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra a meno che non vengano resi pubblici.
 
 ![](assets/adhoc-segment-filter.png)
 
@@ -89,11 +81,10 @@ Sono disponibili le seguenti impostazioni:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| Inserisci pannello copiato/visualizzazione | Consente di incollare (&quot;inserire&quot;) un pannello o una visualizzazione copiati in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
-| Copia pannello | Consente di fare clic con il pulsante destro del mouse e copiare un pannello, in modo da poterlo inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
-| Applica suite di rapporti a tutti i pannelli | Consente di applicare la suite di rapporti del pannello attivo a tutti i pannelli del progetto. |
-| Duplica pannello | Crea un duplicato esatto del pannello corrente, che potrete quindi modificare. |
-| Comprimi/Espandi tutti i pannelli | Comprime ed espande tutti i pannelli del progetto. |
-| Comprimi/Espandi tutte le visualizzazioni nel pannello | Comprime ed espande tutte le visualizzazioni nel pannello corrente. |
-| Modifica descrizione | Aggiungete (o modificate) una descrizione di testo per il pannello. |
-| Ottieni collegamento pannello | Consente di indirizzare un utente a uno specifico pannello in un progetto. Quando si fa clic sul collegamento, il destinatario dovrà effettuare il login prima di essere indirizzato al pannello esatto a cui è collegato. |
+| [!UICONTROL Insert Copied Panel/Visualization] | Consente di incollare (&quot;inserire&quot;) un pannello o una visualizzazione copiati in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
+| [!UICONTROL Copy Panel] | Consente di fare clic con il pulsante destro del mouse e copiare un pannello, in modo da poterlo inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
+| [!UICONTROL Duplicate Panel] | Crea un duplicato esatto del pannello corrente, che potrete quindi modificare. |
+| [!UICONTROL Collapse/Expand all Panels] | Comprime ed espande tutti i pannelli del progetto. |
+| [!UICONTROL Collapse/Expand all Visualizations in Panel] | Comprime ed espande tutte le visualizzazioni nel pannello corrente. |
+| [!UICONTROL Edit Description] | Aggiungete (o modificate) una descrizione di testo per il pannello. |
+| [!UICONTROL Get Panel Link] | Consente di indirizzare un utente a uno specifico pannello in un progetto. Quando si fa clic sul collegamento, il destinatario dovrà effettuare il login prima di essere indirizzato al pannello esatto a cui è collegato. |
