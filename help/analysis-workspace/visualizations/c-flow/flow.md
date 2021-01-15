@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: La funzione Flusso mostra i percorsi seguiti dai clienti nei siti Web e nelle app.
 title: Panoramica del flusso
-uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 98%
+source-wordcount: '184'
+ht-degree: 85%
 
 ---
 
@@ -19,11 +18,7 @@ Consente di:
 
 * Visualizzare il percorso seguito dal cliente nel sito Web o nell’applicazione
 * Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, uscita o una specifica dimensione
-* Creare segmenti designando un punto specifico nel percorso scelto
-
->[!NOTE]
->
->Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics/Ad Hoc Analysis, vedi [Segmentazione come fondamento per Flusso e Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Creare filtri designando un punto specifico in un percorso scelto
 
 [Esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=it-IT) video sulla visualizzazione Flusso (4:56)
 
