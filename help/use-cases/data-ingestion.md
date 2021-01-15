@@ -2,9 +2,9 @@
 title: Opzioni di assimilazione dei dati per il Customer Journey Analytics
 description: Comprendere i diversi modi in cui è possibile inserire i dati nel Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 8a3a868ff4e2fbbcdf83ff7769382c6a92f78ec2
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '968'
 ht-degree: 6%
 
 ---
@@ -34,15 +34,9 @@ Questo flusso di lavoro utilizza il Connettore dati Adobe Analytics  e varia a s
 
 ## Inviare i dati tramite Adobe Experience Platform Web SDK e Edge Network
 
-[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDKè una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi nel Experience Cloud di  attraverso Adobe Experience Platform Edge Network. Puoi configurare questa assimilazione con o senza Launch.
+[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDKè una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi nel Experience Cloud di  attraverso Adobe Experience Platform Edge Network.
 
-### Senza lancio
-
-Questo collegamento non funziona: https://docs.adobe.com/content/help/en/experience-platform/edge/get-started/quick-start-without-launch.html. È ancora possibile senza Launch?
-
-### Con Launch
-
-1. [Configura l’](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) estensione AEP Web SDK per inviare dati all’Adobe Experience Cloud dalle proprietà Web tramite Adobe Experience Platform Edge Network.
+1. [Configura l’estensione AEP Web SDK in ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) Launchal per inviare dati all’Adobe Experience Cloud dalle proprietà Web, tramite Adobe Experience Platform Edge Network.
 1. Utilizzate [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più connessioni e viste dati che informino il reporting tra canali.
 
 ## Caricamento dei dati con caricamento batch e caricamento in streaming
