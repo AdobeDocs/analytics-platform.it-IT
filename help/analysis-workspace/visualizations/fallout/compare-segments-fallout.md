@@ -1,10 +1,9 @@
 ---
 description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
-title: Applicare i segmenti nell’analisi dell’abbandono
-uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
+title: Applicare i filtri nell’analisi dell’abbandono
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 29%
