@@ -2,7 +2,7 @@
 title: Stima dimensione connessione
 description: Report sull'utilizzo corrente del Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 1f496175e504cefed4239aab454744ecae72a6ea
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -54,4 +54,4 @@ In alcuni casi, si può notare che il numero totale di eventi ingeriti dalla con
 
 1. Inoltre, se archiviiamo [!UICONTROL Adobe Experience Platform], non esiste alcun dataset con ID &quot;5f21c12b732044194bffc1d0&quot;, quindi qualcuno ha eliminato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] al momento della creazione della connessione iniziale. Successivamente è stato aggiunto di nuovo a [!UICONTROL Customer Journey Analytics], ma un [!UICONTROL Platform Dataset ID] diverso è stato generato da [!UICONTROL Adobe Experience Platform].
 
-   Ulteriori informazioni sulle [implicazioni del dataset e l&#39;eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
+Ulteriori informazioni sulle [implicazioni del dataset e l&#39;eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
