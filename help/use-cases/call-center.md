@@ -2,9 +2,9 @@
 title: Importa call center e dati web
 description: Scopri come creare un dataset che collega i dati del call center e del sito Web.
 translation-type: tm+mt
-source-git-commit: 8d2f70ad47dcf9b97808da3a04d32d3412a1f0c8
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Importa call center e dati web
 
-Il Customer Journey Analytics offre la possibilità di combinare set di dati di origini diverse in un unico progetto Workspace. Utilizzate questa guida per comprendere in che modo l&#39;organizzazione può unire i dati dal sito Web ai dati provenienti dal call center.
+Il Customer Journey Analytics offre la possibilità di combinare set di dati di origini diverse in un unico progetto Workspace. Utilizzate questa guida per comprendere in che modo la vostra organizzazione può combinare i dati del sito Web con i dati del call center.
 
 ## Prerequisiti
 
@@ -31,7 +31,7 @@ Il Customer Journey Analytics offre la possibilità di combinare set di dati di 
 
 ## Importare i dati del web e del call center nella piattaforma
 
-Iniziate a importare i dati in Adobe Experience Platform. Consultate [Creare uno schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) e [Assimilare i dati](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
+Importa i dati in Adobe Experience Platform. Consultate [Creare uno schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) e [Assimilare i dati](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
 
 Durante l&#39;importazione di dati in Piattaforma, seguire questi suggerimenti può aiutare a migliorare le informazioni nei report risultanti:
 
@@ -43,7 +43,7 @@ Durante l&#39;importazione di dati in Piattaforma, seguire questi suggerimenti p
 Per generare un set di dati combinato [è necessario un identificatore comune per CJA.](../connections/combined-dataset.md)
 
 * Se i set di dati dispongono già di un identificatore comune per ogni evento presente in entrambi i set di dati, è possibile ignorare questo passaggio e procedere alla creazione di una connessione.
-* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, potete unire i dati utilizzando l&#39;analisi tra canali. Per istruzioni su come abilitare CCA per questi due set di dati, consultate [Panoramica di Analytics multicanale](/help/connections/cca/overview.md).
+* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, potete unire i dati utilizzando l&#39;analisi tra canali. Per istruzioni su come abilitare CCA per questi due set di dati, consultate [Panoramica sull&#39;analisi tra canali](/help/connections/cca/overview.md).
 
 ## Creare una connessione in CJA
 
@@ -100,9 +100,19 @@ step 3: call
 another good one
 
 step 1: all sessions
-step 2: -->
+step 2: 
 
-<!--  use target (AB testing) to test new versions of these pages so they reduce calls (using an eVar to determine A/B?)
-  filter by specific call reason using workspace dropdowns
-  visualize flow of pages > call reason 
--->
+Orrr we could also use dataset ID
+
+### Site sections that result in a call within 30 minutes
+
+Slide 4
+
+Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+
+wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
+
+use sequential segmentation, but you lose the ability to use attribution IQ
+
+## What to do when you've found insight -->
+
