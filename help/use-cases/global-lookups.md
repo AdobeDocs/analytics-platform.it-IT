@@ -4,7 +4,7 @@ description: Utilizzate ricerche globali per incrementare i rapporti con dimensi
 translation-type: tm+mt
 source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ In Adobe Analytics  tradizionale, queste dimensioni vengono visualizzate autonom
 
 ## Utilizzare ricerche globali con i set di dati del connettore dati del Adobe 
 
-I set di dati di ricerca globali vengono applicati automaticamente al momento del rapporto. Se si utilizza [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) e si introduce una dimensione per la quale  Adobe fornisce una ricerca globale, viene automaticamente applicata questa ricerca globale. Se un dataset di eventi contiene campi [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en), è possibile applicare ad esso ricerche globali.
+I set di dati di ricerca globali vengono applicati automaticamente al momento del rapporto. Se si utilizza il [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) e si inserisce una dimensione per la quale  Adobe fornisce una ricerca globale, viene automaticamente applicata questa ricerca globale. Se un set di dati dell&#39;evento contiene campi [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en), è possibile applicarvi ricerche globali.
 
-## Utilizzare ricerche globali con dataset personalizzati
+## Utilizzare ricerche globali con set di dati personalizzati
 
-Nel dataset di eventi deve essere presente una chiave compatibile con i dataset di ricerca globali. Finché compili i campi XDM giusti aggiungendo alcuni dei nostri [mixin di schemi Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) standard, puoi far funzionare i dataset personalizzati con le ricerche globali.
+Nel set di dati dell&#39;evento deve essere presente una chiave compatibile con i set di dati di ricerca globali. Finché compili i campi XDM giusti aggiungendo alcuni dei nostri [mixin di schemi Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) standard, puoi far funzionare i dataset personalizzati con le ricerche globali.
 
 ## Campi di ricerca globali disponibili
 
@@ -58,13 +58,13 @@ Nel dataset di eventi deve essere presente una chiave compatibile con i dataset 
 * `mobile_screen_width`
 * `mobile_video_support - multi`
 
-## Report sulle dimensioni di ricerca globali
+## Report sulle dimensioni di ricerca globale
 
-Per generare un rapporto sulle dimensioni di ricerca globali, è necessario aggiungerle quando si crea una visualizzazione dati nel Customer Journey Analytics:
+Per generare rapporti sulle dimensioni di ricerca globale, è necessario aggiungerle quando si crea una visualizzazione dati nel Customer Journey Analytics:
 
 ![](assets/global-lookup.png)
 
-Potete quindi visualizzare i dati di ricerca in Workspace:
+È quindi possibile visualizzare i dati di ricerca in Workspace:
 
 ![](assets/gl-reporting.png)
 
