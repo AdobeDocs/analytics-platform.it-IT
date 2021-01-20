@@ -2,7 +2,7 @@
 title: Funzionamento delle riproduzioni
 description: Comprendere il concetto di "ripetizione" in Analytics multicanale
 translation-type: tm+mt
-source-git-commit: 26486c79f6d94db1aa795bf024f581cad74c25f6
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Funzionamento delle riproduzioni
 
-Analytics tra canali effettua due passaggi sui dati di una determinata connessione:
+Analisi multicanale esegue due passaggi sui dati di una determinata connessione:
 
 * **Colorazione** dal vivo: CCA tenta di cucire ogni hit mentre arriva. I nuovi dispositivi di rete al dataset che non hanno mai eseguito l&#39;accesso non vengono in genere inseriti a questo livello. I dispositivi già riconosciuti vengono cuciti immediatamente.
 * **Riproduci**: CCA &quot;riproduce&quot; i dati in base a identificatori univoci appresi. In questa fase vengono uniti nuovi dispositivi alla connessione.  Adobe offre due intervalli di riproduzione:
