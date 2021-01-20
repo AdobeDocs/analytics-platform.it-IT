@@ -1,8 +1,8 @@
 ---
-title: Domande frequenti su Analytics tra canali
+title: Domande frequenti sull'analisi tra canali
 description: Domande frequenti per Analytics multicanale
 translation-type: tm+mt
-source-git-commit: dd4e7e5cd04db6483f0e4a1f3161f23f8a5a8294
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -43,6 +43,6 @@ Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un si
 
 La cucitura in diretta è disponibile circa una settimana dopo  Adobe che consente l&#39;analisi tra canali. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
-## In che modo Analytics multicanale gestisce le richieste GDPR e CCPA?
+## In che modo Analytics tra canali gestisce le richieste GDPR e CCPA?
 
  Adobe gestisce le richieste GDPR e CCPA in conformità alle leggi locali e internazionali.  Adobe offre la [ Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) per inviare richieste di accesso ed eliminazione dei dati. Le richieste si applicano sia ai set di dati originali che ai set di dati ripetuti.
