@@ -18,7 +18,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 92%
@@ -41,9 +41,9 @@ ht-degree: 92%
    + [Stima dimensione connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
    + Analisi tra canali {#cca}
-      + [Panoramica di Analytics tra canali](connections/cca/overview.md)
+      + [Panoramica delle analisi tra canali](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
-      + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
+      + [Domande frequenti sull&#39;analisi tra canali](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
