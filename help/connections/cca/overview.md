@@ -1,8 +1,8 @@
 ---
-title: Panoramica di Analytics tra canali
+title: Panoramica delle analisi tra canali
 description: Ri-chiave gli ID visitatore da più set di dati per unire i visitatori.
 translation-type: tm+mt
-source-git-commit: b57895d037f8db3ffc418312b95fc43dd0280dc9
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 14%
@@ -10,9 +10,9 @@ ht-degree: 14%
 ---
 
 
-# Panoramica di Analytics tra canali
+# Panoramica delle analisi tra canali
 
-**IQ viaggio: Analisi** tra canali una funzione che consente di ri-chiave dell&#39;ID persona di un dataset, consentendo una combinazione perfetta di più set di dati. CCA controlla i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unito. Utilizzando l&#39;analisi tra canali, potete rispondere a domande come:
+**IQ percorso: L&#39;** analisi tra canali consente di ri-chiave dell&#39;ID persona di un dataset, che consente una combinazione perfetta di più set di dati. CCA controlla i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unito. Utilizzando l&#39;analisi tra canali, potete rispondere a domande come:
 
 * Quante persone iniziano la loro esperienza in un canale, poi la finiscono in un altro?
 * Quante persone interagiscono con il mio marchio? Quanti e quali tipi di dispositivi usano? Come si sovrappongono?
@@ -21,7 +21,7 @@ ht-degree: 14%
 * Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo?
 * In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?
 
-Quando si combinano set di dati con ID di persona simili, l&#39;attribuzione viene trasferita su dispositivi e canali. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L&#39;utente ha un problema con l&#39;ordine, quindi il team di assistenza clienti riceve una chiamata per risolverlo. Con Analytics tra canali, puoi attribuire gli eventi call center all’annuncio che avevano originariamente fatto clic.
+Quando si combinano set di dati con ID di persona simili, l&#39;attribuzione viene trasferita su dispositivi e canali. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L&#39;utente ha un problema con l&#39;ordine, quindi il team di assistenza clienti riceve una chiamata per risolverlo. Con l&#39;analisi tra canali, puoi attribuire gli eventi call center all&#39;annuncio su cui hanno fatto clic originariamente.
 
 ## Prerequisiti
 
@@ -39,7 +39,7 @@ Prima di utilizzare l&#39;analisi tra canali, accertatevi che l&#39;organizzazio
 
 ## Limitazioni
 
-Analytics tra canali è una funzione innovativa e affidabile, ma presenta dei limiti sulle modalità di utilizzo.
+L&#39;analisi multicanale è una funzione innovativa e affidabile, ma presenta dei limiti sulle modalità di utilizzo.
 
 * Le attuali capacità di rekeying sono limitate a un solo passaggio (ID persistente a ID transitorio). Non è supportata la reimpostazione in più passaggi (ad esempio, ID persistente per un ID transitorio e quindi per un altro ID transitorio).
 * Sono supportati solo i set di dati evento. Altri set di dati, ad esempio set di dati di ricerca, non sono supportati.
@@ -52,7 +52,7 @@ Una volta che l&#39;organizzazione soddisfa tutti i prerequisiti e ne ha compres
 
 1. Importa i dati desiderati in Adobe Experience Platform. Consultate [Creare uno schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) e [Assimilare i dati](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
 1. Contatta il tuo Account Manager  Adobe che include quanto segue:
-   * Richiesta per abilitare l&#39;analisi tra canali
+   * Una richiesta per abilitare l&#39;analisi tra canali
    * L&#39;ID del set di dati per il set di dati da rechiave
    * Il nome della colonna dell&#39;ID persistente per il set di dati desiderato (Identificatore che viene visualizzato su ogni riga)
    * Il nome della colonna dell&#39;ID transitorio per il set di dati desiderato (il collegamento dell&#39;identificatore persona tra i set di dati)
