@@ -2,10 +2,10 @@
 title: Set di dati evento combinati
 description: Scopri come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
-source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
+source-git-commit: b6bfb14b594f42efc114bbde1b047b814e1cf653
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 84%
+source-wordcount: '344'
+ht-degree: 80%
 
 ---
 
@@ -17,6 +17,8 @@ Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
 * La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori unici in CJA.
 * Le righe vengono elaborate in base alla marca temporale.
+
+Il concetto di set di dati combinati è simile al concetto di combinazione di suite di rapporti in Adobe Analytics  tradizionale.
 
 ## Esempio
 
