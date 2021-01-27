@@ -1,11 +1,11 @@
 ---
 description: Mostra i primi 5 valori per le dimensioni non temporali (e 15 per le dimensioni temporali).
-title: Anteprima dimensioni
+title: Come visualizzare in anteprima le dimensioni in CJA Workspace
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 94%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
