@@ -2,7 +2,7 @@
 description: Paginazione, filtro e ordinamento di tabelle in Workspace
 title: Paginazione, filtri e ordinamento di tabelle
 translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 33%
@@ -46,7 +46,7 @@ Facendo clic sull&#39;icona del filtro, quindi **[!UICONTROL Show Advanced]** ac
 
 1. In qualsiasi tabella a forma libera in un progetto, fai clic sulla freccia accanto al nome della dimensione:
 
-Inserire qui lo screenshot.
+![](assets/sort-dimensions.png)
 
 * Le frecce verso il basso vengono ordinate in ordine decrescente e la freccia verso l’alto (impostazione predefinita) in ordine crescente.
-* Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, in un flusso di lavoro potrebbero essere presenti passaggi numerati e potrebbe essere necessario ordinare i passaggi in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare alfabeticamente la dimensione del nome di un prodotto.
+* Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, in un flusso di lavoro potrebbero essere presenti passaggi numerati e potrebbe essere necessario ordinare i passaggi in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare le origini dati in ordine alfabetico, come nello screenshot qui sopra.
