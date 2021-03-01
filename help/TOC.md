@@ -4,7 +4,7 @@ cloud: experience-cloud
 product: adobe analytics
 sub-product: customer journey
 solution: Customer Journey Analytics
-type: Documentation
+type: Documentazione
 index: true
 user-guide-title: Guida a Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
@@ -20,8 +20,8 @@ tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 92%
+source-wordcount: '431'
+ht-degree: 93%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 92%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
    + Curare o condividere progetti {#curate-share}
-      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Menu Condividi](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
@@ -116,7 +116,7 @@ ht-degree: 92%
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
-      + Detección de anomalías {#anomaly-detection}
+      + Rilevamento delle anomalie {#anomaly-detection}
          + [Panoramica di Rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualizzare le anomalie in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
