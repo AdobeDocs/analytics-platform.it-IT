@@ -1,11 +1,11 @@
 ---
-description: Le visualizzazioni Abbandono mostrano dove i visitatori hanno lasciato (abbandonato) e continuato (passato) attraverso una sequenza predefinita di pagine.
+description: Le visualizzazioni Abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinita e dove hanno proseguito.
 title: Panoramica dell’abbandono
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 95%
+source-wordcount: '515'
+ht-degree: 81%
 
 ---
 
@@ -32,11 +32,11 @@ La visualizzazione Abbandono è utile per analizzare:
 * Flussi di traffico generali di ambito più ampio: per le persone che hanno visto la pagina Home, questo flusso mostra quanti hanno poi fatto una ricerca e quanti sono quindi passati a uno specifico articolo.
 * Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
 
-[Esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it-IT)  video sulla visualizzazione Abbandono (4:15)
+[Esercitazione video sulla visualizzazione Abbandono](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it-IT)  (4:15)
 
 ## Segmentazione come base per Flusso e Abbandono {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-I segmenti applicati ai pannelli di Workspace operano in modo leggermente diverso rispetto ai segmenti applicati ai rapporti di abbandono e di flusso in Reports &amp; Analytics o Ad Hoc Analysis. Nella maggior parte dei casi restituiscono esattamente gli stessi risultati. La principale differenza consiste nel fatto che le funzionalità Reports &amp; Analytics e Ad Hoc Analysis applicano il segmento a ogni passaggio della sequenza, il che può portare a esiti leggermente diversi.
+I segmenti applicati ai pannelli Workspace funzionano in modo leggermente diverso rispetto ai segmenti applicati ai rapporti di abbandono e flusso in Reports &amp; Analytics in Adobe Analytics. Nella maggior parte dei casi restituiscono esattamente gli stessi risultati. La differenza principale è che Reports &amp; Analytics applica il segmento a ogni passaggio della sequenza. il che può portare a esiti leggermente diversi.
 
 Si prenda ad esempio un abbandono con due passaggi:
 
@@ -46,13 +46,13 @@ Se si applica un segmento a livello di pannello di Workspace, il segmento si com
 
 ![](assets/fallout_seg.png)
 
-Per contro, quando le funzioni Reports &amp; Analytics e Ad Hoc Analysis calcolano il segmento, questo si combina come segue:
+Al contrario, quando Reports &amp; Analytics calcola il segmento, questo viene combinato nel modo seguente:
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analytics e Ad Hoc Analysis combinano il segmento con ogni passaggio. Quando i contenitori si trovano al medesimo livello dell’abbandono (ad es. a livello di visita o dei singoli visitatori) si ottiene un risultato identico al numero di visite o di visitatori.
+Reports &amp; Analytics combina il segmento con ogni passaggio. Quando i contenitori si trovano al medesimo livello dell’abbandono (ad es. a livello di visita o dei singoli visitatori) si ottiene un risultato identico al numero di visite o di visitatori.
 
-Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come già menzionato, nella maggior parte dei casi i valori ottenuti in Analysis Workspace corrispondono a quelli di Reports &amp; Analytics e Ad Hoc Analysis. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
+Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come ribadito, nella maggior parte dei casi i numeri in Analysis Workspace corrispondono a quelli in Reports &amp; Analytics. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
 
 * Il segmento non si trova allo stesso livello dell’abbandono.
 * Il segmento contiene una variabile che consente di associare a ogni visitatore/visita più valori per visita/visitatore.
