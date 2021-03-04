@@ -2,9 +2,9 @@
 title: 'Riferimento: funzioni di base'
 description: 'Il Generatore di metriche calcolate consente di applicare funzioni statistiche e matematiche per generare metriche calcolate avanzate. '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1079'
 ht-degree: 100%
 
 ---
@@ -324,10 +324,4 @@ Ad esempio, supponiamo che sia presente una colonna con tre elementi:
 
 3
 
-La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis sarà visualizzata come:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
