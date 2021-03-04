@@ -2,9 +2,9 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 1a436ac162df0ae96525fd2e71daef55b078a59c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 64%
 
 ---
@@ -16,7 +16,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 ## Funzionalità/componenti completamente supportati
 
-| Funzionalità di Adobe Analytics | Note |
+| Funzionalità di Adobe Analytics | Note sul supporto |
 | --- | --- |
 | Metriche | CJA sfrutta Experience Data Model (XDM) e supporta metriche illimitate, oltre a non essere legato agli eventi di successo personalizzati della versione tradizionale di Analytics. Alcune metriche standard sono state rinominate nella versione tradizionale di Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
 | Dimensioni | CJA sfrutta XDM e supporta dimensioni illimitate, oltre a non essere legato agli eVar personalizzati o alle proprietà del tradizionale Analytics. |
@@ -100,5 +100,4 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 * Segnalibri di Reports &amp; Analytics
 * Target di Reports &amp; Analytics
 * Eventi calendario di Reports &amp; Analytics
-* Ad Hoc Analysis
 * Mobile Services
