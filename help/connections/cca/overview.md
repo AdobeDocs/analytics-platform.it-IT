@@ -2,10 +2,10 @@
 title: Panoramica di Analytics tra canali
 description: Ri-chiave ID visitatore da più set di dati per unire i visitatori.
 translation-type: tm+mt
-source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 13%
+source-wordcount: '898'
+ht-degree: 12%
 
 ---
 
@@ -59,7 +59,8 @@ Una volta che l’organizzazione soddisfa tutti i prerequisiti e ne comprende i 
    * Nome della colonna dell’ID persistente per il set di dati desiderato (Identificatore visualizzato su ogni riga)
    * Il nome della colonna dell’ID transitorio per il set di dati desiderato (il collegamento dell’identificatore della persona tra i set di dati)
    * La tua preferenza per [riproduci](replay.md) frequenza e lunghezza del lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni o una riproduzione giornaliera con un intervallo di lookback di 1 giorno.
-1. Adobe Account Manager abilita Cross-Channel Analytics dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati retrato contenente una nuova colonna ID persona. Il tuo Adobe Account Manager può fornire il nuovo ID set di dati e il nome della colonna ID persona.
+1. Adobe Account Manager collaborerà con l’ingegneria Adobe per abilitare Cross-Channel Analytics dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati retrato contenente una nuova colonna ID persona. Il tuo Adobe Account Manager può fornire il nuovo ID set di dati e il nome della colonna ID persona.
+1. Quando è attivata per la prima volta, in Adobe viene fornito un backfill dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di backfill, l’ID transitorio deve esistere nei dati non uniti fino a quel momento.
 1. [Crea una ](../create-connection.md) connessione in CJA utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
 1. [Crea una ](/help/data-views/create-dataview.md) visualizzazione dati in base alla connessione.
 
