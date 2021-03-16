@@ -1,26 +1,22 @@
 ---
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
-keywords: Analysis Workspace curation
+keywords: Cura di Analysis Workspace
 title: Curare progetti
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 48%
 
 ---
 
 
 # Curare progetti
 
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
-
 La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
 >[!NOTE]
-> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Vengono gestiti tramite l’Admin Console di Adobe Experience Cloud. La cura è un filtro secondario.
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite l&#39; [Admin Console Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html). La cura è un filtro secondario.
 
 ## Applicare la cura del progetto
 
@@ -48,23 +44,18 @@ Per rimuovere la cura del progetto e ripristinare l’intero set di componenti n
 1. Fai clic su **[!UICONTROL Remove Curation]**.
 1. Fai clic su **[!UICONTROL Done]**.
 
-## Cura di suite di rapporti virtuali (VRS, Virtual Report Suite)
+## Opzioni di cura dei componenti
 
-Per applicare la cura a livello di suite di rapporti in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale (VRS, Virtual Report Suite)](https://docs.adobe.com/content/help/it-IT/analytics/components/virtual-report-suites/vrs-components.html).
-
->[!NOTE]
-> La cura VRS viene sempre applicata prima della cura del progetto. Ciò significa che anche se il progetto curato include alcuni componenti, essi verranno filtrati se la VRS curata non li include.
-
-## Opzione Show All per mostrare tutti i componenti
-
-In un progetto curato o in una VRS, al destinatario verrà offerta l’opzione **[!UICONTROL Show All]** per mostrare tutti i componenti nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
+In un progetto curato, al destinatario verrà offerta l’opzione **[!UICONTROL Show All]** componenti nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
 
 * Livello di autorizzazione dell’utente (amministratore o non amministratore)
 * Ruolo di progetto (proprietario/editor o meno)
-* Tipo di cura applicata (VRS o del progetto)
+* Tipo di cura applicata (a livello di progetto)
 
-| Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo di duplicazione o visualizzazione non amministratore |
-|---|---|---|---|
-| VRS curate | Tutti i componenti VRS non curati | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
-| Progetto curato | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | I componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
-| Progetto curato in una VRS curata | Tutti i componenti non curati, visualizzati in **[!UICONTROL Non-Curated Project Components]** e **[!UICONTROL Non-Curated VRS Components]** | Tutti i componenti di progetto non curati E i componenti VRS non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti VRS e di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
+| Tipo di cura | L&#39;amministratore può visualizzare | Il proprietario del progetto non amministratore (o il ruolo di modifica) può visualizzare | Il ruolo duplicato non amministratore può visualizzare |
+| --- | --- | --- | --- |
+| **Componenti &quot;nascosti&quot; da una visualizzazione dati** | Tutti i componenti della visualizzazione dati disponibili per il reporting (i componenti nascosti richiedono di fare clic su &quot;Mostra tutto&quot;) | Non disponibile per la generazione di rapporti | Non disponibile per la generazione di rapporti |
+| **Componenti aggiunti o rimossi da una visualizzazione dati** | Solo i componenti aggiunti alla visualizzazione dati (nascosti o non nascosti). Gli amministratori non possono creare rapporti su campi o componenti non definiti dalla visualizzazione dati. | Solo i componenti aggiunti alla visualizzazione dati o i componenti di proprietà o condivisi con l’utente. I componenti nascosti non sono disponibili (come la cura delle VRS). | Solo i componenti aggiunti al DV non sono nascosti e sono stati inclusi nella cura del progetto. |
+| **Componenti curati in un progetto** | Tutti i componenti della visualizzazione dati disponibili per il reporting (i componenti nascosti richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti della visualizzazione dati non nascosti (è necessario fare clic su &quot;mostra tutto&quot;) | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
+| **Progetto curato utilizzando una visualizzazione dati con componenti nascosti** | Tutti i componenti dati disponibili per il reporting (i componenti nascosti e non curati richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti di progetto non curati, tutti i componenti di visualizzazione dati non nascosti e tutti i componenti di proprietà o condivisi con l’utente | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
+
