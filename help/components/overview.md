@@ -2,10 +2,10 @@
 title: Panoramica dei componenti
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 translation-type: tm+mt
-source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
+source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 46%
+source-wordcount: '338'
+ht-degree: 64%
 
 ---
 
@@ -43,10 +43,10 @@ Sono disponibili diversi metodi di gestione dei componenti (singolarmente o sele
 >Queste azioni non si applicano ai componenti Time.
 
 | Azione del componente | Descrizione |
-|--- |--- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti. |
-| Approva | Approvare il componente per renderlo canonico. Questa azione si riflette nel rispettivo Component Manager (Gestione componenti), ad esempio Analytics > Componenti > Segmenti o Analytics > Componenti > Progetti |
+| --- | --- |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
+| Approva | Approvare il componente per renderlo canonico. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Segments] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
 | Condividi | Applicabile solo ai segmenti. |
 | Elimina | Applicabile solo ai segmenti. |
 
@@ -56,12 +56,4 @@ Guarda il video su Creazione di metriche, segmenti e date:
 
 ## Autorizzazioni di accesso ai componenti
 
-Gli amministratori possono curare (tramite [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)) i componenti esposti agli utenti nel reporting. La tabella seguente mostra il funzionamento di queste autorizzazioni di accesso ai componenti:
-
-| Tipo di cura | L&#39;amministratore può visualizzare | Il proprietario del progetto non amministratore (o il ruolo di modifica) può visualizzare | Ruolo duplicato non amministratore |
-| --- | --- | --- | --- |
-| **Componenti &quot;nascosti&quot; da una visualizzazione dati** | Tutti i componenti della visualizzazione dati disponibili per il reporting (i componenti nascosti richiedono di fare clic su &quot;Mostra tutto&quot;) | Non disponibile per la generazione di rapporti | Non disponibile per la generazione di rapporti |
-| **Componenti aggiunti o rimossi da una visualizzazione dati** | Solo i componenti aggiunti alla visualizzazione dati (nascosti o non nascosti). Gli amministratori non possono creare rapporti su campi o componenti non definiti dalla visualizzazione dati. | Solo i componenti aggiunti alla visualizzazione dati o i componenti di proprietà o condivisi con l’utente. I componenti nascosti non sono disponibili (come la cura delle VRS). | Solo i componenti aggiunti al DV non sono nascosti e sono stati inclusi nella cura del progetto. |
-| **Componenti curati in un progetto** | Tutti i componenti della visualizzazione dati disponibili per il reporting (i componenti nascosti richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti della visualizzazione dati non nascosti (è necessario fare clic su &quot;mostra tutto&quot;) | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
-| **Progetto curato utilizzando una visualizzazione dati con componenti nascosti** | Tutti i componenti dati disponibili per il reporting (i componenti nascosti e non curati richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti di progetto non curati, tutti i componenti di visualizzazione dati non nascosti e tutti i componenti di proprietà o condivisi con l’utente | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
-
+In Analysis Workspace, gli amministratori possono [curare](/help/analysis-workspace/curate-share/curate.md) quali componenti sono esposti agli utenti nel reporting.
