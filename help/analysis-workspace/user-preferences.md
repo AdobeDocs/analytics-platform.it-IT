@@ -2,10 +2,10 @@
 title: Come impostare le preferenze utente in Analysis Workspace
 description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 translation-type: tm+mt
-source-git-commit: f05f284f944047b341e6b9d6ea0acac200d209b7
+source-git-commit: 90b69c13a7a63228f62c4b6291b3d66f8e3c821b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 8%
 
 ---
 
@@ -28,3 +28,19 @@ Le preferenze generali si applicano all’esperienza CJA nel browser.
 | --- | --- |
 | Landing page | <ul><li>Elenco progetti (predefinito)</li><li>Progetto vuoto</li><li>Progetto specifico</li></ul> |
 | Suggerimenti | <ul><li>Abilitato (predefinito)</li><li>Disabilitata</li></ul> |
+
+## Preferenze del progetto
+
+Le preferenze del progetto sono applicabili ai nuovi progetti e ai nuovi pannelli creati in Analysis Workspace. Le preferenze possono essere gestite anche in base al progetto in Workspace > Progetto > Informazioni e impostazioni progetto.
+
+| Sezione | Preferenza | Opzioni |
+| --- | --- | --- |
+| **Visualizzazione** |  |  |
+|  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>Compatto</li><li>Comodo</li><li>Expanded (Espansa) (predefinito)</li></ul> |
+|  | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Palette fornite da Adobe (impostazione predefinita)</li><li>Palette personalizzate</li></ul> |
+| **Dati** |  |  |
+|  | [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>Più recente (predefinito)</li><li>Specifico - scelto da un elenco</li></ul> |
+|  | [Calendario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | Elenco di intervalli di date predefiniti, inclusi **[!UICONTROL This month]** (predefinito) |
+|  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html) | <ul><li>Freeform (predefinito)</li><li>Vuoto</li><li>Approfondimenti rapidi</li></ul> |
+|  | Formato del numero | <ul><li>1.000.00 (predefinito)</li><li>1.000.00</li><li>1.000.00</li></ul> |
+|  | Separatore CSV | <ul><li>Virgola (predefinito)</li><li>Punto e virgola</li><li>Due punti</li><li>Tubo</li><li>Punto</li><li>Space</li><li>Scheda</li></ul> |
