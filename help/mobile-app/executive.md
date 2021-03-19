@@ -1,23 +1,23 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
-title: Guida esecutiva alle dashboard di Adobe Analytics
+title: Guida esecutiva alle dashboard di Analytics
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1268'
+ht-degree: 92%
 
 ---
 
 
-# Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
+# Dashboard di Analytics: guida introduttiva rapida per utenti esecutivi
 
-Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
+Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Analytics](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Introduzione
 
-Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
+Le dashboard di Analytics forniscono informazioni sul Customer Journey Analytics in qualsiasi momento e ovunque.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
 
 ## Ulteriori informazioni su questa guida
 
@@ -27,8 +27,8 @@ Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretar
 
 | Termine | Definizione |
 |--- |--- |
-| Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
-| Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
+| Consumatore | Personalizzazione esecutiva che visualizza metriche chiave e informazioni da CJA su un dispositivo mobile |
+| Curatore | Persona con accesso ai dati che trova e distribuisce informazioni da CJA e configura le scorecard da visualizzare per il consumatore |
 | Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
 | Scorecard | Una vista delle dashboard contenente una o più tessere |
 | Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
@@ -44,7 +44,7 @@ Per utilizzare le dashboard in modo efficace è necessario che il curatore della
 
 Per accedere alle scorecard sulle dashboard, assicurati:
 
-* Di avere un accesso valido ad Adobe Analytics
+* Accesso valido al Customer Journey Analytics
 * Che il tuo curatore abbia creato correttamente le scorecard per dispositivi mobili e le abbia condivise con te
 
 ### Scaricare e installare dashboard
@@ -53,13 +53,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti esecutivi su iOS:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fai clic sul seguente collegamento (disponibile anche in CJA in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti esecutivi su Android:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fai clic sul seguente collegamento (disponibile anche in CJA in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
