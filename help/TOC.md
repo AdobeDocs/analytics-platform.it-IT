@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
+source-git-commit: c4338e2d53f56b97bab06a1ba862bbfd35126c2d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 93%
 
 ---
@@ -38,12 +38,12 @@ ht-degree: 93%
 + Connessioni {#cja-connections}
    + [Creazione di una connessione](connections/create-connection.md)
    + [Gestione delle connessioni](connections/manage-connection.md)
-   + [Stima dimensione connessione](connections/estimate-connection-size.md)
+   + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
-   + Analisi tra canali {#cca}
-      + [Panoramica delle analisi tra canali](connections/cca/overview.md)
+   + Analisi cross-channel {#cca}
+      + [Panoramica di Analytics tra canali](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
-      + [Domande frequenti sull&#39;analisi tra canali](connections/cca/faq.md)
+      + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
@@ -120,6 +120,7 @@ ht-degree: 93%
          + [Panoramica di Rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualizzare le anomalie in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + [Preferenze utente](analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](analysis-workspace/workspace-faq/faq.md)
       + [Ottimizzare le prestazioni di Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -156,10 +157,10 @@ ht-degree: 93%
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Utilizzo di array di oggetti](use-cases/object-arrays.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
-   + [Importa call center e dati web](use-cases/call-center.md)
+   + [Importazione di dati web e call center](use-cases/call-center.md)
    + [Casi di utilizzo per l’acquisizione di dati](use-cases/data-ingestion.md)
-   + [Usa dimensioni canale di marketing](use-cases/marketing-channels.md)
-   + [Aggiunta di ricerche globali ai set di dati](use-cases/global-lookups.md)
+   + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
+   + [Aggiungere ricerche globali ai set di dati](use-cases/global-lookups.md)
 + Privacy {#cja-privacy}
    + [Panoramica sulla privacy](privacy/privacy-overview.md)
 + [Aggiornamenti della documentazione di CJA](doc-changes.md)
