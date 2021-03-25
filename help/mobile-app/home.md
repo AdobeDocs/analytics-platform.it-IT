@@ -2,17 +2,17 @@
 title: Panoramica delle dashboard di Analytics
 description: Documentazione del prodotto e supporto autonomo per le dashboard di Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 8b8fa177b1fdfc760845b1fad7c145da68c320c8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '203'
+ht-degree: 73%
 
 ---
 
 
 # Analytics [!UICONTROL dashboards] - Panoramica
 
-**Analytics[!UICONTROL dashboards]** fornisce informazioni sul Customer Journey Analytics in qualsiasi momento e ovunque. L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
+**Analytics[!UICONTROL dashboards]** fornisce ovunque e in qualsiasi momento informazioni provenienti da Adobe Analytics, Customer Journey Analytics incluso. L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e visualizzazioni dati con tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
 
 Per ulteriori informazioni sulle [!UICONTROL dashboards] di Analytics, consulta le risorse seguenti:
 
