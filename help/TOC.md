@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '448'
 ht-degree: 92%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 92%
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
       + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
+   + [Panoramica delle visualizzazioni dati](data-views/data-views.md)
    + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
    + [Configurazione di visualizzazioni dati e attribuzione](data-views/configure-dataviews.md)
 + Progetti Workspace {#cja-workspace}
