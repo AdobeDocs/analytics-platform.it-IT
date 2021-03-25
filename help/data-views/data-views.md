@@ -1,10 +1,10 @@
 ---
 title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
-description: null
+description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1119'
 ht-degree: 2%
 
 ---
@@ -52,13 +52,15 @@ L’ultimo aggiornamento delle visualizzazioni dati offre molta più flessibilit
 ## Prerequisito
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
-* Per creare o gestire una visualizzazione dati, è necessario disporre delle seguenti autorizzazioni in Adobe Admin Console:
+* Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
 
 ## Visualizzare informazioni su un componente
 
 Fai clic sull’icona (i) info in Workspace per visualizzare il campo dello schema su cui è basato un componente e le relative impostazioni, ad esempio una descrizione.
 
 ## Impostazioni di visualizzazione dati modificabili in Workspace
+
+Alcune impostazioni di visualizzazione dati possono essere ignorate in Analysis Workspace a livello di progetto, altre no.
 
 * Intervallo di lookback
 * Attribuzione metrica
@@ -70,10 +72,6 @@ Fai clic sull’icona (i) info in Workspace per visualizzare il campo dello sche
 * Formattazione delle metriche
 * Nome della visualizzazione dati
 * Assegnazione dei Dimension
-
-## Nessun valore
-
-Puoi decidere come chiamare questa dimensione Nessuno/Nessun valore/Non specificato e se renderla visibile agli utenti durante il reporting. Tuttavia, gli amministratori e gli utenti (per i progetti che possiedono) possono modificare l’impostazione di visibilità in Workspace.
 
 ## Eliminare le visualizzazioni dati
 
