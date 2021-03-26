@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 translation-type: tm+mt
-source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 96%
+source-wordcount: '967'
+ht-degree: 89%
 
 ---
 
@@ -74,9 +74,17 @@ I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 
 Il contenitore Evento definisce gli eventi di pagina da includere o escludere da un filtro. Si tratta del più ristretto tra i contenitori disponibili per identificare clic specifici e visualizzazioni di pagina quando viene soddisfatta una condizione, consentendoti di visualizzare un singolo codice di tracciamento o di isolare il comportamento all’interno di una particolare sezione del sito. Puoi inoltre identificare un valore specifico quando si verifica un’azione, ad esempio il canale di marketing al momento di un ordine.
 
-I contenitori degli eventi includono suddivisioni basate su valori e a pagina singola:
+I contenitori Evento includono raggruppamenti di singole pagine basati su valori:
 
 * Prodotti
 * Proprietà elenco
 * Dimensioni elenco
 * Dimensioni del merchandising (nel contesto degli eventi)
+
+## Modello di filtro preconfigurato
+
+La funzione tradizionale di Analytics include molti segmenti di modelli predefiniti (filtri) e metriche calcolate. Molti di essi non sono applicabili in CJA, o dovranno essere rinominati o ricreati. Altri dipenderanno da una soluzione per le variabili in base al contesto in CJA.
+
+| Nome filtro | Descrizione |
+| --- | --- |
+| Tutto Dati | Si tratta di un filtro obbligatorio analogo al segmento &quot;Tutte le visite&quot; in Analitiche Adobi tradizionali. Viene aggiunto in modo dinamico al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
