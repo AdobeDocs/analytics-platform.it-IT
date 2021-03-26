@@ -2,10 +2,10 @@
 title: Panoramica sulle metriche calcolate
 description: 'Scopri '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 81%
 
 ---
 
@@ -47,3 +47,12 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 | Gestore metriche calcolate | <ul><li>Condividere le metriche con altri utenti.</li><li>Approvare e curare le metriche.</li><li>Organizzare le metriche (assegnare tag) in modo che gli utenti possano trovarle.</li><li>Eliminare le metriche.</li><li>Rinominare le metriche.</li></ul> |
 | API per metriche calcolate | Parte del set di API di Adobe Analytics 2.0. |
 
+## Modelli di metriche calcolate in CJA
+
+| Nome della metrica calcolata | Descrizione della metrica calcolata |
+| --- | --- |
+| Sessioni per persona | Numero medio di sessioni per persona |
+| Frequenza di avvio della sessione | La percentuale di tempo in cui si è verificato un elemento dimensione nel primo evento di una sessione. |
+| Frequenza fine sessione | La percentuale di tempo in cui si è verificato un elemento dimensione nell’ultimo evento di una sessione. |
+| Tempo trascorso per persona | Il tempo medio trascorso da una persona per un dato elemento dimensione. |
+| Tempo trascorso per sessione | Il tempo medio trascorso da una persona a una sessione per un dato elemento dimensione. |
