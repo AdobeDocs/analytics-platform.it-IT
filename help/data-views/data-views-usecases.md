@@ -2,17 +2,17 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
+source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Casi di utilizzo delle visualizzazioni dati
 
-Le possibilità di
+Casi d’uso che mostrano flessibilità e potenza delle visualizzazioni dati in Customer Journey Analytics.
 
 ## Creare una metrica Ordini da un campo di schema pageTitle (stringa)
 
