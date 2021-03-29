@@ -2,10 +2,10 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
+source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: '258'
+ht-degree: 1%
 
 ---
 
@@ -29,10 +29,12 @@ Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICO
 1. Puoi inoltre specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] di [!UICONTROL Session].
 Puoi anche creare un’altra metrica [!UICONTROL Orders] dallo stesso campo e specificare un modello di attribuzione diverso, ad esempio [!UICONTROL First Touch], e un [!UICONTROL Lookback window] diverso, ad esempio [!UICONTROL 30 days].
 
-## Creazione di più dimensioni da un campo schema
-
 ## Utilizzare i numeri interi come dimensioni
 
-34:00
+In precedenza, gli interi venivano trattati automaticamente come metriche in CJA. Ora le cifre (compresi gli eventi personalizzati da Adobe Analytics) possono essere trattate come dimensioni. Ecco un esempio:
 
-Incluso il bucket
+1. Trascina il numero intero [!UICONTROL call_length_min] nella sezione [!UICONTROL Dimensions] sotto [!UICONTROL Included Components]:
+   ![](assets/integers.png)
+
+1. È ora possibile aggiungere [!UICONTROL Value Bucketing] per presentare questa dimensione in modo fisso nel reporting. In caso contrario, ogni istanza di questa dimensione verrebbe visualizzata come una riga in Workspace.
+   ![](assets/bucketing.png)
