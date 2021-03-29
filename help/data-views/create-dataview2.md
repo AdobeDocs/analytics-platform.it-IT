@@ -2,7 +2,7 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 translation-type: tm+mt
-source-git-commit: 6cfab7fc7ce3360b5ea2ed8bdd7f3e0a8e76a24d
+source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
 workflow-type: tm+mt
 source-wordcount: '2314'
 ht-degree: 5%
@@ -19,7 +19,7 @@ La creazione di una visualizzazione dati comporta la creazione di metriche e dim
 1. Al Customer Journey Analytics, vai alla scheda **Visualizzazioni dati** .
 2. Fai clic su **Aggiungi** per creare una nuova visualizzazione dati e configurarne le impostazioni.
 
-![](assets/)
+![](assets/new-data-view.png)
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
