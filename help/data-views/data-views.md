@@ -2,9 +2,9 @@
 title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questa funzionalità è attualmente in fase di test.
+>Questa funzionalità sarà generalmente disponibile il 22 aprile 2021.
 
 Una visualizzazione dati si trova sopra un Customer Journey Analytics (CJA) [connessione](/help/connections/create-connection.md). Una connessione combina uno o più set di dati da Adobe Experience Platform e la collega a CJA. La visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione, come metriche, dimensioni, sessioni, ecc. Le visualizzazioni dati sono definite in preparazione alla generazione di rapporti sui dati in Workspace.
 
@@ -43,9 +43,9 @@ L’ultimo aggiornamento delle visualizzazioni dati offre molta più flessibilit
 
 * **Puoi assegnare tag a un** componente per facilitarne la ricerca in Workspace.
 
-* **Puoi nascondere un componente nel reporting**. Alcune impostazioni di metriche e dimensioni in DV2 richiedevano una seconda metrica o dimensione per la configurazione (ad esempio, la deduplicazione metrica o la deduplicazione degli acquisti). Ciò ti consente di definire una metrica o una dimensione che può essere utilizzata nelle impostazioni di un’altra metrica o dimensione senza essere esposta direttamente nel reporting (ad esempio l’ID acquisto).
+* **Puoi nascondere un componente nel reporting**. Alcune impostazioni di metriche e dimensioni richiedono una seconda metrica o dimensione per la configurazione (ad esempio, la deduplicazione metrica o la deduplicazione degli acquisti). Ciò ti consente di definire una metrica o una dimensione che può essere utilizzata nelle impostazioni di un’altra metrica o dimensione senza essere esposta direttamente nel reporting (ad esempio l’ID acquisto).
 
-* **È possibile applicare la formattazione a una metrica** , ad esempio la visualizzazione di decimali, ore, percentuali o valute; specificare le cifre decimali; mostrare una tendenza all’aumento come verde o rosso; e specifica delle opzioni di valuta.
+* **È possibile applicare la formattazione a una metrica**, ad esempio la visualizzazione di decimali, ore, percentuali o valute; specificare le cifre decimali; mostrare una tendenza all’aumento come verde o rosso; e specifica delle opzioni di valuta.
 
 * È possibile **creare una metrica o una dimensione in base solo ad alcuni valori nel campo schema**. Ad esempio, se desideri una metrica di &quot;errori&quot;, puoi creare una metrica dal campo del nome della pagina ma includere solo pagine che contengono la parola &quot;errore&quot;. La metrica degli errori creata da questo elemento è supportata da filtri, è inserita nelle metriche calcolate e funziona con attribuzione, flusso, fallout, ecc.
 
