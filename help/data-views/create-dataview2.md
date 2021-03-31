@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2308'
 ht-degree: 2%
 
 ---
@@ -122,7 +122,6 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Count values] | Questo consente di creare un conteggio del numero di volte in cui un campo booleano è stato impostato su `true`; come metrica. Ad esempio, il numero di [!UICONTROL Page Views] in cui un campo booleano denominato `isPage` è impostato su `true`. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
@@ -160,7 +159,7 @@ Ad esempio, un bucket &quot;compreso tra 5 e 10&quot; verrà visualizzato come v
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Bucket value] | Consente di creare una versione a blocchi di una dimensione numerica. Questo ti consente di creare rapporti su blocchi di ricavi o altri valori numerici come una dimensione nel reporting. Puoi creare fino a 5 blocchi. |
+| [!UICONTROL Bucket value] | Consente di creare una versione a blocchi di una dimensione numerica. Questo ti consente di creare rapporti su blocchi di ricavi o altri valori numerici come una dimensione nel reporting. |
 | [!UICONTROL Up to] | Consente di specificare i bordi del primo bucket dimensione numerica. Questo vale solo per le dimensioni numeriche. |
 | [!UICONTROL Between and up to] | Consente di specificare i bordi dei bucket di dimensione numerica successivi. |
 | [!UICONTROL Add bucket] | Consente di aggiungere un altro bucket alla creazione a blocchi di dimensioni numeriche. |
@@ -190,7 +189,7 @@ Componenti standard richiesti
 
 ### Componenti standard opzionali
 
-In qualsiasi visualizzazione dati sono necessari alcuni componenti di sistema per facilitare le funzionalità di reporting in Analysis Workspace, mentre quelli riportati di seguito sono facoltativi.
+Alcuni componenti di sistema sono necessari in qualsiasi visualizzazione dati per facilitare le funzionalità di reporting in Analysis Workspace, mentre quelli riportati di seguito sono facoltativi.
 
 | Nome componente | Dimension o metrica | Note |
 | --- | --- | --- |
