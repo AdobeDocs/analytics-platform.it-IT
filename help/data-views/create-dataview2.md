@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2347'
 ht-degree: 2%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questa funzionalità è attualmente in fase di test.
+>Questa funzionalità sarà generalmente disponibile il 22 aprile 2021.
 
-La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. La creazione di metriche o dimensioni offre un&#39;enorme flessibilità. In precedenza, si presupponeva che in Adobe Experience Platform i set di dati fossero utilizzati come campi stringa e come metriche. Per modificare uno qualsiasi di questi campi, era necessario modificare lo schema in Platform. L&#39;interfaccia utente per la visualizzazione dei dati ora consente una [definizione più a forma libera di metriche e dimensioni](/help/data-views/data-views.md).
+La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. La creazione di metriche o dimensioni offre un&#39;enorme flessibilità. In precedenza, si presupponeva che in Adobe Experience Platform i set di dati fossero utilizzati come campi stringa e come metriche. Per modificare uno qualsiasi di questi campi, era necessario modificare lo schema in Platform. L&#39;interfaccia utente per la visualizzazione dei dati ora consente una [definizione più a forma libera di metriche e dimensioni](/help/data-views/data-views.md). Per ulteriori casi d’uso, consulta [Casi d’uso delle visualizzazioni dati](/help/data-views/data-views-usecases.md).
 
 ## 1. Configurare le impostazioni e i contenitori delle visualizzazioni dati
 
@@ -40,8 +40,6 @@ La creazione di una visualizzazione dati comporta la creazione di metriche e dim
 Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare i componenti Standard .
 
 ## 2. Creazione di metriche e dimensioni dagli elementi dello schema
-
-
 
 1. In [!UICONTROL Customer Journey Analytics] > [!UICONTROL Data Views], fai clic sulla scheda [!UICONTROL Components] .
 
@@ -112,7 +110,7 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Case sensitive] | Predefinito = attivato. Questa impostazione è leggermente diversa per Dimension e metriche.<ul><li>**Metrica**: Questa impostazione si applica solo alla  [!UICONTROL Include/Exclude Values] sezione . Consente di specificare se il filtro applicato deve fare distinzione tra maiuscole e minuscole.</li><li>**Dimension** : Questa impostazione determina se i dati in questa dimensione devono essere aggregati in modo sensibile a maiuscole e minuscole o senza distinzione tra maiuscole e minuscole. Questo cambia il modo in cui vengono eseguiti i report/filtri/impostazioni di attribuzione per un campo stringa.</li></ul> |
+| [!UICONTROL Case sensitive] | Predefinito = attivato. Questa impostazione si applica solo alla sezione [!UICONTROL Include/Exclude Values]. Ti consente di stabilire se la regola di inclusione/esclusione che stai applicando deve fare distinzione tra maiuscole e minuscole. |
 | [!UICONTROL Match] | Consente di specificare quali valori si desidera considerare per il reporting prima dell’attribuzione e della segmentazione (ad esempio, utilizza solo valori contenenti la frase &quot;error&quot;). Puoi specificare: **[!UICONTROL If all criteria are met]** o **[!UICONTROL If any criteria are met]**. |
 | [!UICONTROL Criteria] | Consente di specificare la logica di corrispondenza da applicare a una regola di filtro specifica.<ul><li>**Stringa**: Contiene la frase, Contiene qualsiasi termine, Contiene tutti i termini, Non contiene alcun termine, Non contiene la frase, È uguale a, Non uguale a, Inizia con, Termina con</li><li>**Doppio/Intero**: è uguale a, non è uguale a, è maggiore di, è minore di, è maggiore o uguale a, è minore o uguale a</li><li>**Data**: è uguale a, non è uguale a, è successivo a, è precedente, si trova in</li></ul> |
 | [!UICONTROL Match operand] | Consente di specificare l’operando di corrispondenza a cui deve essere applicato l’operatore di corrispondenza.<ul><li>**Stringa**: Campo di testo</li><li>**Doppio/Intero**: Campo di testo con frecce verso l’alto o il basso per i valori numerici</li><li>**Data**: Selettore di granularità del giorno (calendario)</li><li>**Data e ora**: Selettore di granularità data e ora</li></ul> |
@@ -131,10 +129,6 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 
 [!UICONTROL No Value Options] le impostazioni sono simili ai  [!UICONTROL Unspecified] valori  [!UICONTROL None] o nel reporting. Nell’interfaccia utente delle visualizzazioni dati, a seconda dei singoli componenti, puoi decidere come trattare questi valori nei rapporti. Puoi anche rinominare [!UICONTROL No value] in modo che sia più adatto al tuo ambiente, ad esempio [!UICONTROL Null], [!UICONTROL Not set] o ad altri.
 
->[!NOTE]
->
->Quando si modifica questo campo in un valore personalizzato, il valore personalizzato viene considerato come un valore di stringa legittimo. Pertanto, se si immette il valore &quot;Rosso&quot; in questo campo, anche tutte le istanze della stringa &quot;Rosso&quot; che compaiono nei dati stessi verranno riportate sotto la stessa riga specificata.
-
 Inoltre, qualsiasi cosa specifichi in questo campo può essere utilizzata per un trattamento speciale dell’interfaccia utente della riga [!UICONTROL No Value] nel reporting, come indicato nell’impostazione [!UICONTROL No Value Options].
 
 ![](assets/no-value-options.png)
@@ -144,7 +138,7 @@ Inoltre, qualsiasi cosa specifichi in questo campo può essere utilizzata per un
 | [!UICONTROL If shown, call No value]… | In questo punto è possibile rinominare **[!UICONTROL No value]** in un altro elemento. |
 | [!UICONTROL Don't show No value by default] | Questo valore non viene visualizzato nel rapporto. |
 | [!UICONTROL Show No value by default] | Mostra questo valore nel rapporto. |
-| [!UICONTROL Treat No value as a value] | Ad esempio, se la dimensione include tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in &quot;Desktop&quot;. |
+| [!UICONTROL Treat No value as a value] | Ad esempio, se la dimensione include tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in &quot;Desktop&quot;. Tieni presente che quando modifichi questo campo in un valore personalizzato, il valore personalizzato viene considerato come un valore di stringa legittimo. Pertanto, se si immette il valore &quot;Rosso&quot; in questo campo, anche tutte le istanze della stringa &quot;Rosso&quot; che compaiono nei dati stessi verranno riportate sotto la stessa riga specificata. |
 
 ### Configurare le impostazioni di persistenza
 
@@ -155,10 +149,12 @@ Queste impostazioni sono simili alle impostazioni eVar nella versione tradiziona
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
 | [!UICONTROL Set persistence] | Tasto di attivazione/disattivazione |
-| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: Più recente, Originale, Istanza, Tutto. Se desideri che un valore persista (simile alle eVar nella versione tradizionale di Analytics), questo è il punto in cui lo imposteresti. L’unica differenza chiave è che la persistenza massima impostabile è 90 giorni. Inoltre, [!UICONTROL Never expire] non è un’opzione. |
+| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Se desideri che un valore persista (simile alle eVar nella versione tradizionale di Analytics), questo è il punto in cui lo imposteresti. L’unica differenza chiave è che la persistenza massima impostabile è 90 giorni. Inoltre, [!UICONTROL Never expire] non è un’opzione. |
 | [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: [!UICONTROL Session] (predefinito), [!UICONTROL Person], [!UICONTROL Time], [!UICONTROL Metric]. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). [!UICONTROL Metric] consente di specificare una delle metriche definite come scadenza per questa dimensione (ad esempio, una  [!UICONTROL Purchase] metrica). |
 
 ### Configurare le impostazioni di bucket dei valori
+
+Ad esempio, un bucket &quot;compreso tra 5 e 10&quot; verrà visualizzato come voce di riga &quot;da 5 a 10&quot; nel reporting di Workspace.
 
 ![](assets/value-bucketing.png)
 
