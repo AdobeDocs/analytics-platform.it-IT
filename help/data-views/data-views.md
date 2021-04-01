@@ -2,10 +2,10 @@
 title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 2%
 >
 >Questa funzionalità sarà generalmente disponibile il 22 aprile 2021.
 
-Una visualizzazione dati si trova sopra un Customer Journey Analytics (CJA) [connessione](/help/connections/create-connection.md). Una connessione combina uno o più set di dati da Adobe Experience Platform e la collega a CJA. La visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione, come metriche, dimensioni, sessioni, ecc. Le visualizzazioni dati sono definite in preparazione alla generazione di rapporti sui dati in Workspace.
+Una visualizzazione dati si trova sopra un Customer Journey Analytics (CJA) [connessione](/help/connections/create-connection.md). Una connessione combina uno o più set di dati da Adobe Experience Platform e la collega a CJA. La visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione, come metriche, dimensioni, sessioni, ecc. Le visualizzazioni dati sono definite in preparazione alla generazione di rapporti sui dati in Workspace. Le visualizzazioni dati sono retroattive e non distruttive. In altre parole, i dati sottostanti non verranno modificati in modo permanente.
 
-Se in precedenza hai utilizzato Adobe Analytics tradizionale, una visualizzazione dati è simile a una suite di rapporti virtuali in quanto è una visualizzazione &quot;filtrata&quot; dei dati.
+Se in precedenza hai utilizzato Adobe Analytics tradizionale, una visualizzazione dati è simile a una suite di rapporti virtuali in quanto può essere una visualizzazione &quot;filtrata&quot; dei dati.
 
-Puoi creare diverse visualizzazioni dati per la stessa connessione, con diverse impostazioni per timeout visita, attribuzione e così via. Puoi anche creare più visualizzazioni dati per un singolo set di dati. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Last Touch] e, contemporaneamente, un’altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL First Touch].
+Puoi creare diverse visualizzazioni dati per la stessa connessione, con set di componenti molto diversi (dimensioni/metriche). Oppure crea visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione, ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Last Touch] e, contemporaneamente, un’altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL First Touch].
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
 
