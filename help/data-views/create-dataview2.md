@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 translation-type: tm+mt
-source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ La creazione di una visualizzazione dati comporta la creazione di metriche e dim
 | [!UICONTROL Description] | Una descrizione dettagliata non è obbligatoria, ma è consigliata. |
 | [!UICONTROL Time zone] | Scegli il fuso orario in cui dovranno essere presentati i dati. |
 | [!UICONTROL Tags] | I tag ti consentono di organizzare le visualizzazioni dati in categorie. |
-| [!UICONTROL Containers] | Puoi rinominare i contenitori qui ed ecco come appariranno in qualsiasi progetto Workspace basato su questa visualizzazione dati. I contenitori vengono utilizzati nei filtri e nell’abbandono/flusso per definire l’ampiezza o la restringenza dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL Containers] | Puoi rinominare i contenitori qui ed ecco come appariranno in qualsiasi progetto Workspace basato su questa visualizzazione dati. I contenitori vengono utilizzati nei filtri e nell’abbandono/flusso, ecc., per definire l’ampiezza o la limitazione dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL Person container name is…] | [!UICONTROL Person] (predefinito). Il contenitore [!UICONTROL Person] include ogni visita e visualizzazione di pagina per i visitatori entro un intervallo di tempo specificato. È possibile rinominarlo &quot;Utente&quot; o qualsiasi altro termine preferito. |
 | [!UICONTROL Session container name is…] | [!UICONTROL Session] (predefinito). Il contenitore [!UICONTROL Session] ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominarlo in &quot;Visita&quot; o in qualsiasi altro termine preferito. |
 | [!UICONTROL Event container name is…] | [!UICONTROL Event] (predefinito). Il contenitore [!UICONTROL Event] definisce gli eventi di pagina da includere o escludere da un filtro. |
@@ -45,11 +45,12 @@ Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. 
 
 ![](assets/components-tab.png)
 
-Puoi vedere il [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati, e il relativo [!UICONTROL Schema fields] qui sotto.
+Puoi vedere il [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati, e il relativo [!UICONTROL Schema fields] qui sotto. I componenti già presenti sono i componenti standard richiesti (generati dal sistema).
 
 1. Ora trascina un campo schema, ad esempio [!UICONTROL pageTitle], dalla barra a sinistra nella sezione Metriche o Dimension .
 
-   Puoi trascinare più volte lo stesso campo schema nelle sezioni di dimensioni o metriche e configurare la stessa dimensione o metrica in modi diversi. Ad esempio, dal campo **[!UICONTROL pageTitle]** puoi creare una dimensione denominata &quot;Pagine di prodotto&quot; e un’altra denominata &quot;Pagine di errore&quot;, ecc. dal **[!UICONTROL pageTitle]**; Puoi anche creare metriche da un valore stringa. Ad esempio, puoi creare una o più metriche **[!UICONTROL Orders]** con diverse impostazioni di attribuzione e diversi valori di inclusione/esclusione.
+   Puoi trascinare più volte lo stesso campo schema nelle sezioni di dimensioni o metriche e configurare la stessa dimensione o metrica in modi diversi.
+Ad esempio, dal campo **[!UICONTROL pageTitle]** puoi creare una dimensione denominata &quot;Pagine di prodotto&quot; e un’altra denominata &quot;Pagine di errore&quot;, ecc., rinominando **[!UICONTROL Component Name]** a destra. dal **[!UICONTROL pageTitle]**; Puoi anche creare metriche da un valore stringa. Ad esempio, puoi creare una o più metriche **[!UICONTROL Orders]** con diverse impostazioni di attribuzione e diversi valori di inclusione/esclusione.
 
    ![](assets/components-tab-3.png)
 
@@ -134,10 +135,10 @@ Inoltre, qualsiasi cosa specifichi in questo campo può essere utilizzata per un
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL If shown, call No value]… | In questo punto è possibile rinominare **[!UICONTROL No value]** in un altro elemento. |
+| [!UICONTROL If shown, call No value...] | In questo punto è possibile rinominare **[!UICONTROL No value]** in un altro elemento. |
 | [!UICONTROL Don't show No value by default] | Questo valore non viene visualizzato nel rapporto. |
 | [!UICONTROL Show No value by default] | Mostra questo valore nel rapporto. |
-| [!UICONTROL Treat No value as a value] | Ad esempio, se la dimensione include tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in &quot;Desktop&quot;. Tieni presente che quando modifichi questo campo in un valore personalizzato, il valore personalizzato viene considerato come un valore di stringa legittimo. Pertanto, se si immette il valore &quot;Rosso&quot; in questo campo, anche tutte le istanze della stringa &quot;Rosso&quot; che compaiono nei dati stessi verranno riportate sotto la stessa riga specificata. |
+| [!UICONTROL Treat No value as a value] | Questa impostazione sostituirà i valori vuoti nei dati con il testo specificato in [!UICONTROL If shown, call No value ...]. Ad esempio, se la dimensione include tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in &quot;Desktop&quot;. Tieni presente che quando modifichi questo campo in un valore personalizzato, il valore personalizzato viene considerato come un valore di stringa legittimo. Pertanto, se si immette il valore &quot;Rosso&quot; in questo campo, anche tutte le istanze della stringa &quot;Rosso&quot; che compaiono nei dati stessi verranno riportate sotto la stessa riga specificata. |
 
 ### Configurare le impostazioni di persistenza
 
