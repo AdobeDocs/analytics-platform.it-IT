@@ -2,23 +2,21 @@
 title: Set di dati evento combinati
 description: Scopri come CJA crea una connessione combinando set di dati.
 translation-type: tm+mt
-source-git-commit: b6bfb14b594f42efc114bbde1b047b814e1cf653
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 80%
+source-wordcount: '326'
+ht-degree: 84%
 
 ---
 
 
 # Set di dati evento combinati
 
-Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &#39;insieme di dati evento combinato&#39; è ciò che CJA utilizza per i report. Quando includi più schemi o set di dati in una connessione:
+Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo &quot;set di dati di eventi combinati&quot; è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
-* La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori unici in CJA.
+* La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori univoci in CJA.
 * Le righe vengono elaborate in base alla marca temporale.
-
-Il concetto di set di dati combinati è simile al concetto di combinazione di suite di rapporti in Adobe Analytics  tradizionale.
 
 ## Esempio
 
@@ -43,7 +41,7 @@ Prendi in considerazione l’esempio seguente. Sono disponibili due set di dati 
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
 
-Quando si crea una connessione utilizzando questi due set di dati evento, per il reporting viene utilizzata la tabella seguente.
+Quando crei una connessione utilizzando questi due set di dati evento, per la generazione dei rapporti viene utilizzata la tabella seguente.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -57,7 +55,7 @@ Quando si crea una connessione utilizzando questi due set di dati evento, per il
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-Questo insieme di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
+Questo set di dati di eventi combinati è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato lo stesso visitatore univoco. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
 
 Questo concetto si applica anche all’attribuzione. Non importa da quale insieme di dati provenga una riga; l’attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo set di dati. Utilizzo delle tabelle precedenti in un esempio:
 
@@ -71,7 +69,7 @@ Se la connessione includesse solo la prima tabella e non la seconda, l’estrazi
 
 Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione sarebbe modificata poiché `user_847` si trova in entrambi i set di dati. Una riga del secondo set di dati attribuisce `metric_a` a “Giallo”, in precedenza non specificato:
 
-| string_color | metriche_a |
+| string_color | metric_a |
 | --- | --- |
 | Giallo | 6 |
 | Blu | 3 |
