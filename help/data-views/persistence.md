@@ -2,10 +2,10 @@
 title: Cos’è la persistenza della dimensione nel Customer Journey Analytics?
 description: La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono.
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 14%
 
 ---
 
@@ -14,29 +14,85 @@ ht-degree: 0%
 
 La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono. L’Adobe consiglia vivamente di discutere all’interno dell’organizzazione in che modo vengono gestiti più valori per ciascuna dimensione (allocazione) e quando i valori delle dimensioni smettono di mantenere i dati (scadenza).
 
-* Per impostazione predefinita, un valore di dimensione utilizza l’ultima allocazione. I nuovi valori sovrascrivono quelli persistenti.
+* Per impostazione predefinita, un valore di dimensione utilizza ? assegnazione.
 * Per impostazione predefinita, un valore di dimensione utilizza una scadenza di [!UICONTROL Session].
 
 ## Allocazione
 
-Determina il modo in cui CJA assegna il credito per un evento di successo se una variabile riceve più valori prima dell’evento. I valori supportati includono:
+L&#39;allocazione applica una trasformazione al valore sottostante utilizzato. I modelli di allocazione supportati includono:
 
-* Più recente: L’ultimo valore di eVar riceve sempre crediti per eventi di successo fino alla scadenza di tale eVar.
-* Valore originale: Il primo eVar riceve sempre crediti per eventi di successo fino alla scadenza di tale eVar.
-* Istanza: ??
+* Più recente
+* Originale
+* Tutto
+* Primo noto
+* Ultimo noto
 
-Nota: Il passaggio dell’allocazione a o da Lineare impedisce la visualizzazione dei dati storici. La combinazione di tipi di allocazione nell’interfaccia di reporting può portare a dati errati nei rapporti. Ad esempio, l’allocazione lineare potrebbe dividere i ricavi in diversi valori di eVar. Dopo aver ripristinato l&#39;allocazione più recente, il 100% di tali entrate sarebbe associato al valore singolo più recente. Questa associazione può portare a conclusioni errate da parte degli utenti.
+### [!UICONTROL Most recent] assegnazione
 
-Per evitare la probabilità di confusione nei rapporti, Analytics rende i dati storici non disponibili nell’interfaccia. Può essere visualizzato se si decide di ripristinare l&#39;eVar specificato all&#39;impostazione di allocazione iniziale, anche se non è necessario modificare le impostazioni di allocazione eVar semplicemente per accedere ai dati storici. L’Adobe consiglia di utilizzare un nuovo eVar quando si desidera impostare nuove impostazioni di allocazione per i dati già registrati, anziché modificare le impostazioni di allocazione su un eVar che dispone già di una quantità significativa di dati storici.
+Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Most recent]:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+| valori originali |  | C | B |  | A |
+| Allocazione più recente |  | C | B | B | A |
+
+### [!UICONTROL Original] assegnazione
+
+Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Original]:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| timestamp (min) | 3 | 2 | 3 | 6 | 7 |
+| valori originali |  | C | B |  | A |
+| Allocazione originale |  | C | C | C | C |
+
+### [!UICONTROL All] assegnazione
+
+Questa nuova allocazione di dimensioni può essere applicata sia a dimensioni basate su array che a dimensioni a valore singolo. Funziona in modo simile al modello di attribuzione [!UICONTROL Participation] per le metriche. La differenza consiste nel fatto che i singoli valori all’interno del campo possono scadere in punti diversi. Ad esempio, supponiamo di avere 5 eventi in un campo stringa, con allocazione impostata su &quot;All&quot; e scadenza impostata su 5 minuti. Ci aspettiamo il seguente comportamento:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+| valori originali | A | B | C |  | A |
+| post-persistenza | A | A,B | A,B,C | B,C | A,C |
+
+Tieni presente che il valore di A persiste finché non raggiunge la soglia di 5 minuti, mentre B e C continuano a persistere nell’Hit 4 perché per tali valori non sono ancora passati 5 minuti. Tieni presente che questa allocazione creerà una dimensione con più valori da un campo con un solo valore. Questo modello deve essere supportato anche sulle dimensioni basate su array:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+| valori originali | A,B | C | B,C |  | A |
+| post-persistenza | A,B | A,B,C | A,B,C | B,C | A,B,C |
+
+### allocazioni &quot;Primo noto&quot; e &quot;Ultimo noto&quot;
+
+Questi due nuovi modelli di allocazione prendono il primo o l’ultimo valore osservato per una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi nell’ambito specificato. Esempio:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+| valori originali |  | C | B |  | A |
+| primo noto | C | C | C | C | C |
+| ultimo noto | A | A | A | A | A |
+
+Il primo o l’ultimo valore noto può essere applicato a una sola sessione o all’ambito della persona (intervallo di reporting) o a un ambito personalizzato o basato su un’ora (essenzialmente un ambito della persona con un intervallo di lookback aggiunto).
 
 ## Scadenza
 
-I valori Dimension scadono dopo il periodo di tempo specificato. Una volta scaduto il valore della dimensione, non riceve più crediti per una metrica. È inoltre possibile configurare Dimension in modo che scadano sulle metriche. Ad esempio, se hai una promozione interna che scade alla fine di una visita, la promozione interna riceve credito solo per gli acquisti o le registrazioni che si verificano durante la visita in cui sono stati attivati.
+[!UICONTROL Expiration] consente di specificare la finestra di persistenza per una dimensione.
 
-Ci sono due modi per scadere un eVar:
+Esistono quattro modi per far scadere un valore di dimensione:
 
-Puoi impostare l’eVar in modo che scada dopo un determinato periodo di tempo o evento.
-È possibile utilizzare la forza della scadenza di un eVar reimpostandolo, utile quando si ripropone una variabile.
-Ad esempio, se modifichi la scadenza di un eVar da 30 a 90 giorni, i valori eVar raccolti continueranno a persistere per la durata del nuovo set di scadenza (in questo caso, 90 giorni). Il sistema controlla semplicemente l&#39;impostazione di scadenza corrente e l&#39;ultima marca temporale impostata del valore eVar raccolto per determinare la scadenza. Solo l’opzione Ripristina scade i valori e lo fa immediatamente.
+* Sessione (impostazione predefinita): Scade dopo una determinata sessione.
+* Persona: ?
+* Ora: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo o evento.
+* Metrica: Puoi specificare una qualsiasi delle metriche definite come fine di scadenza per questa dimensione (ad esempio una metrica &quot;Acquisto&quot;).
+* Personalizzato:
 
-Un altro esempio: Se un eVar viene utilizzato a maggio per riflettere le promozioni interne e scade dopo 21 giorni, e a giugno viene utilizzato per acquisire le parole chiave di ricerca interne, il 1° giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo i valori delle promozioni interne rimarranno esclusi dalle relazioni di giugno.
+### Qual è la differenza tra Allocazione e Attribuzione?
+
+**Allocazione**: Considera l&#39;allocazione come &quot;trasformazione dei dati&quot; della dimensione. L’allocazione avviene prima del filtro. Se crei un filtro, questo verrà escluso dalla dimensione trasformata.
+
+**Attribuzione**: Come posso distribuire il credito di una metrica alla dimensione a cui è applicata? L’attribuzione viene eseguita dopo il filtraggio.
+
