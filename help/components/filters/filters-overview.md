@@ -2,9 +2,9 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 89%
 
 ---
@@ -87,4 +87,4 @@ La funzione tradizionale di Analytics include molti segmenti di modelli predefin
 
 | Nome filtro | Descrizione |
 | --- | --- |
-| Tutto Dati | Si tratta di un filtro obbligatorio analogo al segmento &quot;Tutte le visite&quot; in Analitiche Adobi tradizionali. Viene aggiunto in modo dinamico al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
+| Tutto Dati | Si tratta di un filtro obbligatorio che viene aggiunto dinamicamente al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
