@@ -1,20 +1,20 @@
 ---
 title: Cos’è la persistenza della dimensione nel Customer Journey Analytics?
 description: La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono.
+exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
+source-git-commit: 16e43f5d938ac25445f382e5eba8fc12e0e67161
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 14%
 
 ---
-
 
 # Persistenza
 
 La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono. L’Adobe consiglia vivamente di discutere all’interno dell’organizzazione in che modo vengono gestiti più valori per ciascuna dimensione (allocazione) e quando i valori delle dimensioni smettono di mantenere i dati (scadenza).
 
-* Per impostazione predefinita, un valore di dimensione utilizza ? assegnazione.
+* Per impostazione predefinita, un valore di dimensione utilizza [COSA?] assegnazione.
 * Per impostazione predefinita, un valore di dimensione utilizza una scadenza di [!UICONTROL Session].
 
 ## Allocazione
@@ -95,4 +95,3 @@ Esistono quattro modi per far scadere un valore di dimensione:
 **Allocazione**: Considera l&#39;allocazione come &quot;trasformazione dei dati&quot; della dimensione. L’allocazione avviene prima del filtro. Se crei un filtro, questo verrà escluso dalla dimensione trasformata.
 
 **Attribuzione**: Come posso distribuire il credito di una metrica alla dimensione a cui è applicata? L’attribuzione viene eseguita dopo il filtraggio.
-
