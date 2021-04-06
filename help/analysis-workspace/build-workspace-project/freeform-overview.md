@@ -5,7 +5,7 @@ title: Panoramica sui progetti
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 90%
@@ -80,7 +80,7 @@ Nel progetto Workspace, puoi accedere a [pannelli](/help/analysis-workspace/c-pa
 
 Puoi anche accedere a visualizzazioni e pannelli dal [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
 
-I componenti (Dimension, metriche, segmenti, intervalli di date) nella barra a sinistra si riferiscono alla visualizzazione dati del pannello attivo. Il pannello attivo è circondato da un bordo blu e la visualizzazione dati attiva è elencata nella parte superiore della barra dei componenti.
+I componenti (Dimension, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla visualizzazione dati del pannello attivo. Il pannello attivo è circondato da un bordo blu e la visualizzazione dati attiva è elencata nella parte superiore della barra dei componenti.
 
 ![](assets/left-rail.png)
 
