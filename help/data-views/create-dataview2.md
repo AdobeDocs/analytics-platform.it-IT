@@ -3,9 +3,9 @@ title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ Le impostazioni del formato sono solo per le metriche.
 
 ### Configurare le impostazioni Includi/Escludi valori
 
-Questa impostazione consente di modificare i dati sottostanti sui quali si sta eseguendo il reporting al momento della query. Non è lo stesso di un filtro (precedentemente denominato segmento). Ma i filtri rispetteranno questa nuova dimensione, così come il percorso e l’attribuzione.
+Questa impostazione consente di modificare i dati sottostanti sui quali si sta eseguendo il reporting al momento della query. Non è lo stesso di un filtro. Ma i filtri rispetteranno questa nuova dimensione, così come il percorso e l’attribuzione.
 
 Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla &quot;pagine di errore&quot; e includere qualsiasi pagina che sia [!UICONTROL contains the phrase] &quot;error&quot;.
 
@@ -115,7 +115,7 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
 | [!UICONTROL Case sensitive] | Predefinito = attivato. Questa impostazione si applica solo alla sezione [!UICONTROL Include/Exclude Values]. Ti consente di stabilire se la regola di inclusione/esclusione che stai applicando deve fare distinzione tra maiuscole e minuscole. |
-| [!UICONTROL Match] | Consente di specificare quali valori si desidera considerare per il reporting prima dell’attribuzione e della segmentazione (ad esempio, utilizza solo valori contenenti la frase &quot;error&quot;). Puoi specificare: **[!UICONTROL If all criteria are met]** o **[!UICONTROL If any criteria are met]**. |
+| [!UICONTROL Match] | Consente di specificare quali valori si desidera considerare per il reporting prima dell’attribuzione e dei filtri (ad esempio, utilizza solo valori contenenti la frase &quot;error&quot;). Puoi specificare: **[!UICONTROL If all criteria are met]** o **[!UICONTROL If any criteria are met]**. |
 | [!UICONTROL Criteria] | Consente di specificare la logica di corrispondenza da applicare a una regola di filtro specifica.<ul><li>**Stringa**: Contiene la frase, Contiene qualsiasi termine, Contiene tutti i termini, Non contiene alcun termine, Non contiene la frase, È uguale a, Non uguale a, Inizia con, Termina con</li><li>**Doppio/Intero**: è uguale a, non è uguale a, è maggiore di, è minore di, è maggiore o uguale a, è minore o uguale a</li><li>**Data**: è uguale a, non è uguale a, è successivo a, è precedente, si trova in</li></ul> |
 | [!UICONTROL Match operand] | Consente di specificare l’operando di corrispondenza a cui deve essere applicato l’operatore di corrispondenza.<ul><li>**Stringa**: Campo di testo</li><li>**Doppio/Intero**: Campo di testo con frecce verso l’alto o il basso per i valori numerici</li><li>**Data**: Selettore di granularità del giorno (calendario)</li><li>**Data e ora**: Selettore di granularità data e ora</li></ul> |
 | [!UICONTROL Add rule] | Consente di specificare un operatore di corrispondenza e un operando aggiuntivi. |
