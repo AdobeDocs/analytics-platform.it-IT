@@ -1,14 +1,14 @@
 ---
 description: Le visualizzazioni Abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinita e dove hanno proseguito.
 title: Panoramica dell’abbandono
+exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
-
 
 # Panoramica dell’abbandono
 
@@ -16,7 +16,7 @@ Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei r
 
 Le visualizzazioni Abbandono consentono di:
 
-* Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto
+* Eseguire confronti affiancati di due filtri diversi nello stesso rapporto.
 * Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto).
 * Combinare diversi valori, da varie dimensioni e metriche
 * Creare un rapporto di abbandono con più dimensioni
@@ -32,29 +32,5 @@ La visualizzazione Abbandono è utile per analizzare:
 * Flussi di traffico generali di ambito più ampio: per le persone che hanno visto la pagina Home, questo flusso mostra quanti hanno poi fatto una ricerca e quanti sono quindi passati a uno specifico articolo.
 * Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
 
-[Esercitazione video sulla visualizzazione Abbandono](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it-IT)  (4:15)
+[Tutorial video sulla visualizzazione Abbandono](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
-## Segmentazione come base per Flusso e Abbandono {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-I segmenti applicati ai pannelli Workspace funzionano in modo leggermente diverso rispetto ai segmenti applicati ai rapporti di abbandono e flusso in Reports &amp; Analytics in Adobe Analytics. Nella maggior parte dei casi restituiscono esattamente gli stessi risultati. La differenza principale è che Reports &amp; Analytics applica il segmento a ogni passaggio della sequenza. il che può portare a esiti leggermente diversi.
-
-Si prenda ad esempio un abbandono con due passaggi:
-
-![](assets/fallout_segments1.png)
-
-Se si applica un segmento a livello di pannello di Workspace, il segmento si combina con l’abbandono come segue:
-
-![](assets/fallout_seg.png)
-
-Al contrario, quando Reports &amp; Analytics calcola il segmento, questo viene combinato nel modo seguente:
-
-![](assets/fallout_segments3.png)
-
-Reports &amp; Analytics combina il segmento con ogni passaggio. Quando i contenitori si trovano al medesimo livello dell’abbandono (ad es. a livello di visita o dei singoli visitatori) si ottiene un risultato identico al numero di visite o di visitatori.
-
-Tuttavia, se il segmento applicato al pannello è inferiore al livello di abbandono (ad es. a livello hit), il segmento restituisce risultati diversi, a causa della modalità di combinazione del rapporto. Come ribadito, nella maggior parte dei casi i numeri in Analysis Workspace corrispondono a quelli in Reports &amp; Analytics. I valori **non** corrispondono solo se vengono soddisfatte tutte le condizioni elencate di seguito:
-
-* Il segmento non si trova allo stesso livello dell’abbandono.
-* Il segmento contiene una variabile che consente di associare a ogni visitatore/visita più valori per visita/visitatore.
-
-In quelle poche situazioni in cui è necessario che Analysis Workspace adotti lo stesso metodo di applicazione dei segmenti all’abbandono/flusso utilizzato da Reports &amp; Analytics, per ottenere valori identici è sufficiente rilasciare il segmento in ciascun passaggio di abbandono in Workspace.
