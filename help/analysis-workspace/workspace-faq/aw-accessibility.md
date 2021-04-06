@@ -1,14 +1,14 @@
 ---
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità di Analysis Workspace
+exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
-
 
 # Accessibilità di Analysis Workspace
 
@@ -22,19 +22,19 @@ Per accessibilità si intendono i prodotti utilizzabili da persone con disabilit
 
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
-* Il tasto `Tab` abilita scelte rapide per punti di riferimento, spostandosi tra le sezioni più grandi di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un&#39;opzione trascinabile all&#39;altra.
-* Lo spostamento `left/right arrows` tra i singoli elementi dopo che `Tab` l&#39;ha evidenziato.
-* Il `F6` si sposta sul primo pannello del progetto e tra le visualizzazioni all&#39;interno di tale pannello. Quindi si sposta nel pannello successivo del progetto e si ripete.
+* Il tasto `Tab` abilita scelte rapide per punti di riferimento, spostandosi tra sezioni più grandi all’interno di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un’opzione trascinabile all’altra.
+* Lo spostamento `left/right arrows` tra i singoli elementi dopo l&#39;evidenziazione di `Tab`.
+* Il `F6` passa al primo pannello del progetto e passa tra le visualizzazioni all’interno di tale pannello. Quindi, si sposta nel pannello successivo del progetto e si ripete.
 * Gli indicatori di focus vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia attualmente attivo. L’indicatore è un bordo blu intorno all’elemento selezionato.
 
    ![Indicatore di focus](assets/focus-indicator.png)
 
-### Navigazione da tastiera per la barra dei menu
+### Navigazione tramite tastiera per la barra dei menu
 
-1. Tab finché non viene raggiunta la barra dei menu.
-1. Utilizzate i tasti freccia sinistra/destra per passare al menu desiderato.
-1. Premere `Enter` per selezionare il menu e visualizzarne le opzioni.
-1. Utilizzate i tasti freccia su/giù per passare all&#39;opzione di menu desiderata.
+1. Tab fino a quando non si raggiunge la barra dei menu.
+1. Utilizza i tasti freccia sinistra/destra per accedere al menu desiderato.
+1. Premere `Enter` per selezionare il menu e visualizzare le relative opzioni.
+1. Utilizza i tasti freccia su/giù per passare all’opzione di menu desiderata.
 1. Premere `Enter` per selezionare l&#39;opzione.
 
 ### Navigazione tramite tastiera per interazioni con trascinamento
@@ -67,9 +67,9 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | Alt+1 | Nuova tabella a forma libera |
 | Ctrl+Maiusc+C | Nuova metrica calcolata |
 | Ctrl+Maiusc+D | Nuovo intervallo date |
-| Ctrl+Maiusc+E | Nuovo segmento |
+| Ctrl+Maiusc+E | Nuovo filtro |
 | Ctrl+Z | Annulla |
-| Pressione prolungata di Maiusc (nella zona di rilascio del segmento del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it-IT) |
+| Maiusc (nella zona di rilascio del filtro del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it-IT) |
 
 #### Democratizzazione
 
