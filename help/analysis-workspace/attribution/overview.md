@@ -1,14 +1,14 @@
 ---
 title: Panoramica su Attribution
-description: Concetto di attribuzione del credito di un evento di successo a più elementi di dimensione.
+description: Il concetto di attribuzione del credito di un evento di successo a più elementi dimensionali.
+exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
-
 
 # Panoramica su Attribution
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Attribuzione consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
+Attribution consente agli analisti di personalizzare il modo in cui gli elementi dimensionali ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno successivo, vede un post di social media di uno dei suoi amici, fa clic sul collegamento e completa l’acquisto.
@@ -35,7 +35,7 @@ Adobe Analytics migliora l’attribuzione consentendo di:
 * Utilizzare il confronto illimitato tra modelli di attribuzione: è possibile confrontare in modo dinamico tanti modelli quanti se ne desiderano.
 * Evitare le modifiche di implementazione: con l’elaborazione al momento della generazione del rapporto e le sessioni in base al contesto, è possibile integrare e applicare il contesto del percorso del cliente in fase di esecuzione.
 * Costruire la sessione che si adatta al meglio allo scenario di attribuzione.
-* Suddividere l’attribuzione in base ai segmenti: è possibile confrontare facilmente le prestazioni dei canali di marketing in qualsiasi segmento importante (ad es. clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà rispetto a Customer Lifetime Value).
+* Suddividere l’attribuzione per filtri: Confronta facilmente le prestazioni dei tuoi canali di marketing su qualsiasi filtro importante (ad esempio clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà o CLV).
 * Ispezionare l’analisi incrociata e a più contatti dei canali: è possibile utilizzare diagrammi di Venn, istogrammi e risultati di attribuzione di tendenze.
 * Analizzare visivamente sequenze di marketing principali: è possibile esplorare in modo visivo i percorsi che hanno condotto alla conversione, con visualizzazioni di abbandono e di flusso a più nodi.
 * Costruire metriche calcolate: è possibile utilizzare un qualsiasi numero di metodi di allocazione di attribuzione.
