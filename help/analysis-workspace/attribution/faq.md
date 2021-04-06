@@ -1,14 +1,14 @@
 ---
 title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
+exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: e4bef70f72019bdceb09938dffe2fd266ff4248d
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 88%
 
 ---
-
 
 # Domande frequenti su Attribution
 
@@ -26,7 +26,7 @@ Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapp
 
 **Quando dovrei usare un lookback di attribuzione basato su visita o visitatore?**
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore. Inoltre, la creazione di una suite di rapporti virtuale con una definizione di visita più lunga rappresenta una soluzione potenziale.
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore. La creazione di una visualizzazione dati con una definizione di visita più lunga è anche una soluzione potenziale.
 
 **Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?**
 
@@ -36,7 +36,7 @@ L’attribuzione viene ricalcolata in fase di esecuzione dei report, quindi non 
 
 Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non supportate includono:
 
-* Visitatori unici
+* Visitatori univoci
 * Visite
 * Occorrenze
 * Visualizzazioni pagina
