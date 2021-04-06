@@ -1,12 +1,12 @@
 ---
-description: Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
+description: Crea un progetto e aggiungi componenti (dimensioni, metriche, filtri, intervalli di date) al pannello a forma libera.
 keywords: Analysis Workspace
 title: Creare un progetto Workspace
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 94%
+source-wordcount: '644'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
 1. Specifica le autorizzazioni per l’utente per creare e curare progetti.
 
-   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un gruppo su cui sia abilitata l’autorizzazione **[!UICONTROL Create / Curate Projects in Analysis Workspace]** oppure al gruppo di utenti **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppi](https://docs.adobe.com/content/help/it-IT/analytics/admin/user-product-management/user-groups/groups.html)).
+   Prima di creare o curare un progetto di Analysis Workspace, gli amministratori devono aggiungere gli utenti a un gruppo su cui sia abilitata l’autorizzazione **[!UICONTROL Create / Curate Projects in Analysis Workspace]** oppure al gruppo di utenti **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppi](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=it-IT)).
 
 1. In [!DNL Experience Cloud], fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -59,7 +59,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Componenti</a> </td> 
-   <td colname="col2"> <p>Dimensioni, metriche, segmenti e intervalli di date che possono essere trascinati nei progetti. </p> </td> 
+   <td colname="col2"> <p>Dimension, metriche, filtri e intervalli di date che puoi trascinare nei progetti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizzazioni</a> </td> 
@@ -90,7 +90,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
 
    **Componenti**
 
-   La barra degli strumenti dei componenti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date che utilizzi più spesso e supporta la funzione di ricerca.
+   La barra degli strumenti Componenti visualizza le dimensioni, le metriche, i filtri e gli intervalli di date ricercabili utilizzati più frequentemente.
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -109,8 +109,8 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
    <td colname="col2"> <p>Sono componenti a livello di progetto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occorrenze</span> è la metrica predefinita selezionata per la tabella di dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Segmenti (blu) </td> 
-   <td colname="col2"> <p>Sono trascinabili solo a livello di pannello, tuttavia puoi creare segmenti in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenti </a> . </p> </td> 
+   <td colname="col1"> Filtri (blu) </td> 
+   <td colname="col2"> <p>È trascinabile solo a livello di pannello, ma è possibile creare filtri in linea nella tabella di dati. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Filtri </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalli di date e granularità temporali (viola) </td> 
@@ -187,10 +187,6 @@ Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crea filtro da selezione</a> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Esecuzione di un confronto fra segmenti</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
