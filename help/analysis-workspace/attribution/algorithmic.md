@@ -1,14 +1,14 @@
 ---
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
+exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 95%
+ht-degree: 83%
 
 ---
-
 
 # Attribuzione algoritmica
 
@@ -18,9 +18,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->**[!UICONTROL Algorithmic attribution]** è attualmente in fase di test limitati. Per ulteriori informazioni, vedere [ versioni delle funzioni Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html).
+>**[!UICONTROL Algorithmic attribution]** è attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
 
-Il [modello di attribuzione](models.md) algoritmica in Analysis Workspace è diverso da altri modelli in quanto utilizza tecniche statistiche per allocare credito tra gli elementi dimensionali nel rapporto o nella tabella a forma libera. Come tutti gli altri modelli di attribuzione in Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica, supporta segmentazione e raggruppamenti illimitati e distribuisce il 100% delle conversioni alle dimensioni nella tabella (nota anche come attribuzione “frazionaria”).
+Il [modello di attribuzione](models.md) algoritmica in Analysis Workspace è diverso da altri modelli in quanto utilizza tecniche statistiche per allocare credito tra gli elementi dimensionali nel rapporto o nella tabella a forma libera. Come tutti gli altri modelli di attribuzione in Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica, supporta filtri e raggruppamenti illimitati e distribuisce il 100% delle conversioni alle dimensioni nella tabella (nota anche come attribuzione &quot;frazionaria&quot;).
 
 L’algoritmo utilizzato per l’attribuzione è basato sul dividendo Harsanyi dalla teoria del gioco cooperativo. Il dividendo Harsanyi è una generalizzazione della soluzione del valore di Shapley (che prende il nome da Lloyd Shapley, un economista premio Nobel) per la distribuzione del credito tra i giocatori in un gioco con contributi disuguali al risultato.
 
