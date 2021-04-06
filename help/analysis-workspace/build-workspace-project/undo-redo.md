@@ -3,10 +3,10 @@ description: Scopri le opzioni Annulla e Ripristina di Analysis Workspace.
 title: Impostazioni Annulla e Ripristina
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 96%
+source-wordcount: '271'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 96%
 * Cancella tutto
 * Periodo di tempo
 * Analisi contributi
-* Confronto fra segmenti
 * Nome progetto
 * Aggiunta/rimozione di una visualizzazione
 * Compressione/espansione di un pannello o una visualizzazione
@@ -45,7 +44,7 @@ ht-degree: 96%
 * Opzioni Forma libera selezionabili con il pulsante destro del mouse
 * Selezione
 * Selezione legenda della visualizzazione
-* Aggiunta di un segmento a un pannello
+* Aggiunta di un filtro a un pannello
 * Impostazioni di visualizzazione sui grafici
 * Modifica delle etichette delle legende
 * Visualizzazione Magic
@@ -63,9 +62,9 @@ ht-degree: 96%
 
 * Modifiche a Informazioni e impostazioni progetto (aggiunta di tag, modifiche alla descrizione, impostazione di Conta istanze ripetute)
 * Imposta come pagina di destinazione
-* Aggiungi nuovo (segmento/metrica/intervallo di date/avviso)
+* Aggiungi nuovo (filtro/metrica/intervallo di date/avviso)
 * Condividi progetto, Ottieni collegamento progetto, Invia file (subito o secondo programma)
-* Crea segmento per questo percorso in Visualizzazione Flusso
+* Crea filtro per questo percorso nella Visualizzazione Flusso
 * Crea dato calcolato
 * Crea intervallo di date
 
