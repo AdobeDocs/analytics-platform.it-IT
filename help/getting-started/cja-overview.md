@@ -1,14 +1,14 @@
 ---
 title: Panoramica su Customer Journey Analytics
 description: Scopri come Customer Journey Analytics consente di utilizzare Analysis Workspace con i dati da Experience Platform.
+exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1217'
+ht-degree: 95%
 
 ---
-
 
 # Panoramica su Customer Journey Analytics
 
@@ -19,7 +19,7 @@ Customer Journey Analytics rappresenta una funzionalità di Analytics che consen
 Customer Journey Analytics estende l’ambito di Analytics attraverso l’offerta di funzionalità tra canali facili da usare, rimuovendo inoltre le limitazioni presenti nelle versioni precedenti di Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
 
 * **Variabili ed eventi illimitati**: i concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono disporre di una quantità illimitata di dimensioni e metriche univoche.
-* **Valori univoci illimitati**: Adobe Experience Platform non è vincolata a nessun limite univoco, come i valori univoci da 500.000 nelle suite di rapporti tradizionali.
+* **Valori** univoci illimitati: Adobe Experience Platform non è vincolata ad alcun limite univoco.
 * **Modifica dei dati storici**: con Adobe Experience Platform è possibile rimuovere o correggere i dati.
 * **Dati di più suite di rapporti**: su Platform è possibile combinare le implementazioni esistenti da più set di dati.
 
@@ -74,7 +74,7 @@ Gli utenti di Customer Journey Analytics che non sono amministratori di prodotto
 Rispetto alla soluzione Adobe Analytics tradizionale, diverse funzioni di CJA sono state rinominate, in base agli standard di settore. Alcuni termini aggiornati includono:
 
 * I segmenti sono ora noti come “Filtri”.
-* Le suite di rapporti virtuali sono ora denominate “Visualizzazioni”.
+* Le suite di rapporti virtuali sono ora note come &quot;visualizzazioni dati&quot;.
 * Le classificazioni sono ora note come “Set di dati di ricerca”.
 * Gli attributi cliente sono ora detti “Dataset di profilo”.
 * I contenitori degli hit sono ora noti come contenitori “Evento”.
