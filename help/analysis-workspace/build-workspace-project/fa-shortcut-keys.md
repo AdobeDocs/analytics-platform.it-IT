@@ -2,14 +2,14 @@
 description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
+exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 98%
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # Tasti di scelta rapida
 
@@ -39,7 +39,7 @@ Nota: `CTRL` = Windows e `command` = Mac
 | Creazione di un avviso | Ctrl/Comando + Maiusc + A |
 | Crea dato calcolato | Ctrl/Comando + Maiusc + C |
 | Crea un intervallo di date | Ctrl/Comando + Maiusc + D |
-| Crea un segmento | Ctrl/Comando + Maiusc + E |
+| Creazione di un filtro | Ctrl/Comando + Maiusc + E |
 | Cancella tutto | Alt + W |
 | Copia | Ctrl/Comando + C |
 | Ripristina | Ctrl/Comando + Maiusc + Z |
@@ -52,13 +52,10 @@ Nota: `CTRL` = Windows e `command` = Mac
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Nuovo pannello Analytics for Target | Alt + G |
 | Nuovo pannello Attribuzione | Alt + E |
 | Nuovo pannello vuoto | Alt + B |
 | Nuovo pannello a forma libera | Alt + A |
-| Nuovo pannello Visualizzatori simultanei di contenuti multimediali | Alt + H |
 | Nuovo pannello Quick Insights | Alt + F |
-| Nuovo pannello Confronto segmenti | Alt + C |
 | Nuova tabella a forma libera | Alt + 1 |
 | Nuovo grafico a linee | Alt + 2 |
 | Nuovo grafico a barre | Alt + 3 |
