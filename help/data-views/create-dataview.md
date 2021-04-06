@@ -3,10 +3,10 @@ title: Creare una visualizzazione dati
 description: Descrive come creare una visualizzazione dati di un set di dati di Platform in Customer Journey Analytics (CJA).
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 90%
+source-wordcount: '540'
+ht-degree: 86%
 
 ---
 
@@ -35,9 +35,9 @@ Prima di poter creare visualizzazioni dati, devi [impostare una o più connessio
    | Descrizione | Una descrizione dettagliata non è obbligatoria, ma consigliata. |
    | Aggiungi tag | I tag ti consentono di organizzare le visualizzazioni dati in categorie. |
    | Fuso orario | Scegli il fuso orario per la visualizzazione dati. |
-   | Timeout sessione | Seleziona la definizione di “sessione”. L’impostazione di timeout sessione definisce la quantità di inattività che un visitatore univoco deve avere prima dell’avvio automatico di una nuova sessione. Il valore predefinito è 30 minuti. Ad esempio, se imposti il timeout sessione su 45 minuti, viene creato un nuovo raggruppamento di sessioni per ciascuna sequenza di hit raccolta, separate da 45 minuti di inattività. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | Avvia nuova sessione con evento | Viene avviata una nuova sessione quando un evento viene attivato, a prescindere dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. Questa impostazione influirà sul conteggio delle visite, sul contenitore dei segmenti Sessione (in precedenza Visita) e sulla logica di scadenza della visita nelle dimensioni. |
-   | Aggiungi filtri | “Filtri” è il termine per “segmenti” in Customer Journey Analytics. Per filtrare i dati, trascina qui il filtro appropriato dalla barra a sinistra. Se non selezioni un filtro, la visualizzazione dati conterrà tutti i dati. |
+   | Timeout sessione | Seleziona la definizione di “sessione”. L’impostazione di timeout sessione definisce la quantità di inattività che un visitatore univoco deve avere prima dell’avvio automatico di una nuova sessione. Il valore predefinito è 30 minuti. Ad esempio, se imposti il timeout sessione su 45 minuti, viene creato un nuovo raggruppamento di sessioni per ciascuna sequenza di hit raccolta, separate da 45 minuti di inattività. <!--This setting impacts not only your visit counts, but also how visit filter containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | Avvia nuova sessione con evento | Viene avviata una nuova sessione quando un evento viene attivato, a prescindere dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. Questa impostazione ha un impatto sul conteggio delle visite, sul contenitore di filtri Sessione (in precedenza Visita) e sulla logica di scadenza delle visite sulle dimensioni. |
+   | Aggiungi filtri | Per filtrare i dati, trascina qui il filtro appropriato dalla barra a sinistra. Se non selezioni un filtro, la visualizzazione dati conterrà tutti i dati. |
 
 1. Fai clic su **[!UICONTROL Continue]**.
 
