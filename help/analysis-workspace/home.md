@@ -4,10 +4,10 @@ title: Panoramica di Analysis Workspace
 description: Panoramica delle funzionalità di Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ Nel progetto Workspace, puoi accedere a **pannelli, tabelle, visualizzazioni e c
 
 ### Componenti
 
-I **componenti** sono dimensioni, metriche, segmenti o intervalli di date, che possono essere combinati in una **[!UICONTROL Freeform table]** per iniziare a rispondere a specifiche domande di business. Prima di iniziare con le analisi, impara a conoscere i diversi [tipi di componente](/help/components/overview.md). Dopo aver acquisito dimestichezza con la terminologia dei componenti, puoi iniziare a trascinarli per [generare le analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in una **[!UICONTROL Freeform table]**.
+**** I componenti sono dimensioni, metriche, filtri o intervalli di date, che possono essere combinati in un  **[!UICONTROL Freeform table]** per iniziare a rispondere a domande aziendali. Prima di iniziare con le analisi, impara a conoscere i diversi [tipi di componente](/help/components/overview.md). Dopo aver acquisito dimestichezza con la terminologia dei componenti, puoi iniziare a trascinarli per [generare le analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in una **[!UICONTROL Freeform table]**.
 
 ![](assets/build-components.png)
 
