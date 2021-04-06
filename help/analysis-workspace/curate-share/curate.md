@@ -2,14 +2,14 @@
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Cura di Analysis Workspace
 title: Curare progetti
+exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 translation-type: tm+mt
-source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 48%
+source-wordcount: '473'
+ht-degree: 45%
 
 ---
-
 
 # Curare progetti
 
@@ -22,7 +22,6 @@ La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, in
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 I componenti utilizzati nel progetto verranno aggiunti automaticamente.
-   **Nota**: se un progetto ha più suite di rapporti, visualizzerai un campo curato per ciascuna suite di rapporti presente nel progetto.
 1. Per aggiungere altri componenti, trascina i componenti da condividere dalla barra a sinistra al campo [!UICONTROL Curate Components] (facoltativo).
 1. Fai clic su **[!UICONTROL Done]**.
 
@@ -58,4 +57,3 @@ In un progetto curato, al destinatario verrà offerta l’opzione **[!UICONTROL 
 | **Componenti aggiunti o rimossi da una visualizzazione dati** | Solo i componenti aggiunti alla visualizzazione dati (nascosti o non nascosti). Gli amministratori non possono creare rapporti su campi o componenti non definiti dalla visualizzazione dati. | Solo i componenti aggiunti alla visualizzazione dati o i componenti di proprietà o condivisi con l’utente. I componenti nascosti non sono disponibili (come la cura delle VRS). | Solo i componenti aggiunti al DV non sono nascosti e sono stati inclusi nella cura del progetto. |
 | **Componenti curati in un progetto** | Tutti i componenti della visualizzazione dati disponibili per il reporting (i componenti nascosti richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti della visualizzazione dati non nascosti (è necessario fare clic su &quot;mostra tutto&quot;) | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
 | **Progetto curato utilizzando una visualizzazione dati con componenti nascosti** | Tutti i componenti dati disponibili per il reporting (i componenti nascosti e non curati richiedono di fare clic su &quot;Mostra tutto&quot;) | Tutti i componenti di progetto non curati, tutti i componenti di visualizzazione dati non nascosti e tutti i componenti di proprietà o condivisi con l’utente | Solo i componenti curati e tutti i componenti di proprietà o condivisi con l’utente |
-
