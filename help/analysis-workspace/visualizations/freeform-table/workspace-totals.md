@@ -3,7 +3,7 @@ description: Modalità di calcolo dei totali in Workspace.
 title: Totali in Workspace
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 91%
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livello di suddivisione, la quale può mostrare due totali:
 
-* **[!UICONTROL Grand Total]** (Totale complessivo), numero &quot;su&quot; grigio: questo totale rappresenta tutti gli hit che sono stati raccolti. Quando un filtro viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento.
+* **[!UICONTROL Grand Total]** (Totale complessivo), numero &quot;su&quot; grigio: questo totale rappresenta tutti gli hit che sono stati raccolti. Quando un filtro viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del filtro.
 * **[!UICONTROL Table Total]** (Totale tabella), numero di colore nero: questo totale è in genere uguale o un sottoinsieme del [!UICONTROL Grand Total] (Totale complessivo). Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna).
 
 ![](assets/total-row.png)
