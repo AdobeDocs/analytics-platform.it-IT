@@ -3,9 +3,9 @@ title: Domande frequenti su Attribution
 description: Risposte alle domande più frequenti sull’attribuzione.
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 88%
 
 ---
@@ -53,4 +53,4 @@ Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non suppor
 
 **Come funziona l’attribuzione con i filtri?**
 
-L’attribuzione viene sempre eseguita prima dei filtri e la segmentazione viene eseguita prima dell’applicazione di qualsiasi altro filtro di rapporto.
+L’attribuzione viene sempre eseguita prima dei filtri e i filtri globali vengono eseguiti prima dell’applicazione di altri filtri per report.
