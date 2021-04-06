@@ -3,17 +3,17 @@ description: Crea un progetto e aggiungi componenti (dimensioni, metriche, segme
 keywords: Analysis Workspace
 title: Creare un progetto Workspace
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 99%
+source-wordcount: '648'
+ht-degree: 94%
 
 ---
 
 
 # Creare un progetto Workspace
 
-Crea un progetto e aggiungi componenti (dimensioni, metriche, segmenti e intervalli di date) al pannello a forma libera.
+Crea un progetto e aggiungi componenti (dimensioni, metriche, filtri, intervalli di date) al pannello a forma libera.
 
 Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e mostra come creare un progetto.
 
@@ -36,8 +36,7 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
    Puoi scegliere di creare un progetto in base a
 
 * Un progetto vuoto (impostazione predefinita). Per le istruzioni del caso, leggi di seguito.
-* Un modello standard. Sono modelli già pronti creati e forniti da Adobe. Per le istruzioni del caso, vedi [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md).
-* Un modello personalizzato. Questi modelli vengono creati da utenti provvisti di diritti di amministratore. Per le istruzioni del caso, vedi [Modelli](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md).
+* Un modello personalizzato. Questi modelli vengono creati da utenti provvisti di diritti di amministratore.
 
    ![](assets/start_modal.png)
 
@@ -49,10 +48,6 @@ Questo articolo presenta gli elementi dell’interfaccia di Analysis Workspace e
    Viene visualizzato un progetto vuoto con un pannello a forma libera e una visualizzazione della tabella di dati.
 
    ![](assets/fa_project_new.png)
-
-   >[!NOTE]
-   >
-   >Talvolta compare il messaggio “Suite di rapporti non compatibile” durante il caricamento di un progetto (o il passaggio a una suite di rapporti), se non tutti i componenti (metriche/dimensioni) inclusi nel progetto compaiono anche nella suite di rapporti. Viene visualizzato un elenco dei componenti non compatibili, per segnalare all’utente il motivo della generazione di questo messaggio.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -173,7 +168,7 @@ Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensioni </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Metriche </li> 
-     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Segmenti </li> 
+     <li id="li_0405D339CD01405DB508A7D8D1A976B4">Filtri </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Tempo </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
@@ -191,7 +186,7 @@ Il menu di scelta rapida consente di effettuare le seguenti azioni in base alla 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crea segmenti dalla selezione</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > Crea filtro da selezione</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
