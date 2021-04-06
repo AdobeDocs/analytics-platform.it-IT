@@ -1,14 +1,14 @@
 ---
 title: Glossario di Customer Journey Analytics
 description: Glossario di Customer Journey Analytics.
+exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 translation-type: tm+mt
-source-git-commit: 307bfae11f44d088aa8d004f1f7ddd17375f60fc
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
-
 
 # Glossario di Customer Journey Analytics
 
@@ -21,7 +21,7 @@ Alcuni termini di Customer Journey Analytics differiscono da come sono stati tra
 | Società di accesso | Organizzazione Experience Cloud | Consulta [Organizzazioni e collegamento di account](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html#topic_C31CB834F109465A82ED57FF0563B3F1). |
 | N/D | Suite di rapporti | Le suite di rapporti nel senso tradizionale di Adobe Analytics non esistono più. Al loro posto, è possibile creare [visualizzazioni dati](/help/data-views/create-dataview.md) (virtuali) dai set di dati di Platform a cui hai stabilito connessioni. |
 | Filtro | Segmento | I segmenti ora sono filtri. I filtri in Customer Journey Analytics si comportano allo stesso modo dei segmenti. Solo la terminologia è cambiata. |
-| Visualizzazione dati | Suite di rapporti virtuali | In Adobe Analytics, una suite di rapporti virtuali è una visualizzazione segmentata di una suite di rapporti principale. La differenza principale tra una suite di rapporti virtuali e una visualizzazione dati in CJA è che la suite di rapporti virtuali è un sottoinsieme di una suite di rapporti “base” o “principale” e, di conseguenza, eredita alcune delle sue impostazioni. Poiché le suite di rapporti principali/base non esistono più, è possibile definire le visualizzazioni dati con le proprie impostazioni. |
+| Visualizzazione dati | Suite di rapporti virtuali | In Adobe Analytics, una suite di rapporti virtuale è una visualizzazione filtrata di una suite di rapporti principale. La differenza principale tra una suite di rapporti virtuali e una visualizzazione dati in CJA è che la suite di rapporti virtuali è un sottoinsieme di una suite di rapporti “base” o “principale” e, di conseguenza, eredita alcune delle sue impostazioni. Poiché le suite di rapporti principali/base non esistono più, è possibile definire le visualizzazioni dati con le proprie impostazioni. |
 
 ## Glossario di Adobe Experience Platform
 
