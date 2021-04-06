@@ -1,14 +1,14 @@
 ---
 description: Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli.
 title: Istogramma
+exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
-
 
 # Istogramma
 
@@ -60,7 +60,7 @@ Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic s
 
 ![](assets/manage-data-source.png)
 
-I segmenti pregenerati che compaiono nella tabella sono segmenti interni e non saranno visualizzati nel selettore dei segmenti. Fai clic sul pulsante “i” accanto al nome del segmento, quindi fai clic su **[!UICONTROL Make public]** per rendere il segmento pubblico.
+I filtri predefiniti visualizzati nella tabella sono filtri interni e non vengono visualizzati nel selettore dei filtri. Fai clic sul pulsante &quot;i&quot; accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere il filtro pubblico.
 
 ![](assets/prebuilt_segments.png)
 
