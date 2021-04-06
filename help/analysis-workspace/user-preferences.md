@@ -1,14 +1,14 @@
 ---
 title: Come impostare le preferenze utente in Analysis Workspace
 description: Puoi impostare le preferenze generali e di progetto per gli utenti.
+exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '192'
 ht-degree: 8%
 
 ---
-
 
 # Preferenze utente
 
@@ -39,7 +39,6 @@ Le preferenze del progetto sono applicabili ai nuovi progetti e ai nuovi pannell
 |  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>Compatto</li><li>Comodo</li><li>Expanded (Espansa) (predefinito)</li></ul> |
 |  | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Palette fornite da Adobe (impostazione predefinita)</li><li>Palette personalizzate</li></ul> |
 | **Dati** |  |  |
-|  | [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>Più recente (predefinito)</li><li>Specifico - scelto da un elenco</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | Elenco di intervalli di date predefiniti, inclusi **[!UICONTROL This month]** (predefinito) |
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html) | <ul><li>Freeform (predefinito)</li><li>Vuoto</li><li>Approfondimenti rapidi</li></ul> |
 |  | Formato del numero | <ul><li>1.000.00 (predefinito)</li><li>1.000.00</li><li>1.000.00</li></ul> |
