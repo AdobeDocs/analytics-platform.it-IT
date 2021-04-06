@@ -1,15 +1,15 @@
 ---
 description: Progetti di sola visualizzazione in Workspace
-keywords: View-only projects
+keywords: Progetti solo visualizzazione
 title: Progetti solo visualizzazione
+exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
 ---
-
 
 # Progetti solo visualizzazione
 
@@ -26,7 +26,6 @@ Puoi condividere i progetti come “sola visualizzazione” con i destinatari tr
 Le interazioni disattivate in un progetto di sola visualizzazione includono:
 
 * Barra a sinistra nascosta
-* Suite di rapporti
 * Intervallo date del calendario del pannello. Nota: per assegnare il controllo del calendario ai destinatari, aggiungi un [filtro a discesa con intervalli di date](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * Filtro a forma libera
 * Numero di righe a forma libera visibili
