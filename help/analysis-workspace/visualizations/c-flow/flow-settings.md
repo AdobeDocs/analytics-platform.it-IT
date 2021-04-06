@@ -1,14 +1,14 @@
 ---
 description: Impostazioni per la visualizzazione Flusso in Workspace
 title: Impostazioni del flusso
+exl-id: 85de8ee7-b79f-4ac4-9601-a4e7f6fb3b2a
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
-
 
 # Impostazioni del flusso
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 | --- | --- |
 | Attivazione del nodo | Rende attivo il nodo selezionato. Il nodo attivo è visualizzato al centro del diagramma di flusso. |
 | Ricomincia | Si torna al generatore di diagrammi a forma libera dove è possibile generare un nuovo diagramma di flusso. |
-| Crea segmento da questo punto nel flusso | Crea un segmento. Viene aperto il Generatore di segmenti, dove è possibile configurare il nuovo segmento. |
+| Crea filtro da questo punto nel flusso | Creazione di un filtro. Viene aperto il Generatore di filtri, in cui è possibile configurare il nuovo filtro. |
 | Suddividi | Suddivide il nodo per dimensioni, metriche o ora. |
 | Tendenza | Crea un diagramma di tendenza per il nodo. |
 | Espandi tutta la colonna | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
