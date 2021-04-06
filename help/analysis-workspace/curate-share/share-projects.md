@@ -1,15 +1,15 @@
 ---
 description: Condivisione e ruoli dei progetti in Workspace
-keywords: Analysis Workspace sharing
+keywords: Condivisione Analysis Workspace
 title: Condividere progetti
+exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
-
 
 # Condividere progetti
 
@@ -52,7 +52,7 @@ Per aggiungere dei destinatari al progetto condiviso:
 In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
 1. Aggiungi destinatari o gruppi di destinatari.
 Fai riferimento all’icona della guida nella parte superiore per le descrizioni di ciascun ruolo.
-1. Condividi componenti di progetto incorporati (segmenti, metriche calcolate e intervalli di date) con tutti i destinatari (facoltativo).
+1. (Facoltativo) Condividi componenti di progetto incorporati (filtri, metriche calcolate e intervalli di date) con tutti i destinatari.
 Una volta condivisi, tali componenti sono disponibili nel menu a discesa Components nell’interfaccia Workspace del destinatario. Tieni presente che questa impostazione non è persistente, è una singola azione da eseguire al momento della condivisione.
 1. Imposta questa pagina come pagina di destinazione per i destinatari (facoltativo).
 Questa impostazione non è persistente; è una singola azione da eseguire al momento della condivisione.
