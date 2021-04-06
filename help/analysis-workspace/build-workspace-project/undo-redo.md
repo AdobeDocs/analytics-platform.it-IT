@@ -1,11 +1,11 @@
 ---
-description: Scoprite le opzioni Annulla e Ripristina di  Analysis Workspace.
+description: Scopri le opzioni Annulla e Ripristina di Analysis Workspace.
 title: Impostazioni Annulla e Ripristina
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '273'
 ht-degree: 96%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 96%
 
 * **[!UICONTROL New Project]** (Nuovo progetto) o **[!UICONTROL Open Existing Project]** (Apri progetto esistente) cancella la sequenza **[!UICONTROL Undo]** (Ripristina).
 
-* L’utente può annullare/ripristinare le modifiche alla suite di rapporti.
 * Il messaggio Annulla/Ripristina visualizzato vicino al nome del progetto segnala l’esecuzione dell’azione di annullamento o ripristino in corso.
 * Puoi utilizzare i seguenti [tasti di scelta rapida](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
@@ -36,7 +35,6 @@ ht-degree: 96%
 * Analisi contributi
 * Confronto fra segmenti
 * Nome progetto
-* Selezione di suite di rapporti
 * Aggiunta/rimozione di una visualizzazione
 * Compressione/espansione di un pannello o una visualizzazione
 * Inserimento tramite tasti di scelta rapida [Ctrl (Comando) + Z per Annulla], [Ctrl (Comando) + Maiusc + Z per Ripristina]
