@@ -3,10 +3,10 @@ description: Domande frequenti su Workspace e suggerimenti per la risoluzione de
 title: Domande frequenti
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 84%
+ht-degree: 78%
 
 ---
 
@@ -34,6 +34,6 @@ Il messaggio indicante che i dati non sono validi significa che Adobe non può r
 
 Se crei correttamente un report Workspace, ma non sono presenti dati, puoi controllare alcuni elementi:
 
-* Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
+* Se hai applicato un filtro nel rapporto, i criteri del filtro potrebbero non corrispondere ad alcun dato. Prova a rimuovere il filtro o a regolare la definizione del filtro.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
 * Vai al tuo sito web e utilizza il [Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) per convalidare i dati raccolti.
