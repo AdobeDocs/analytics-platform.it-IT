@@ -1,14 +1,14 @@
 ---
 title: Creare una visualizzazione dati
 description: Descrive come creare una visualizzazione dati di un set di dati di Platform in Customer Journey Analytics (CJA).
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '550'
+ht-degree: 90%
 
 ---
-
 
 # Creare una visualizzazione dati
 
@@ -43,7 +43,7 @@ Prima di poter creare visualizzazioni dati, devi [impostare una o più connessio
 
 ## Aggiungere componenti
 
-1. Ora è il momento di aggiungere componenti (dimensioni, metriche) alla visualizzazione dati (in maniera simile all’esperienza di selezione nelle suite di rapporti virtuali). Tieni presente che ciascuno dei campi nei set di dati ora è convertito in dimensioni o metriche. Trascina dimensioni e metriche nel pannello o **[!UICONTROL Select All]** per aggiungere tutti i componenti.
+1. Ora è il momento di aggiungere componenti (dimensioni, metriche) alla visualizzazione dati. Tieni presente che ciascuno dei campi nei set di dati ora è convertito in dimensioni o metriche. Trascina dimensioni e metriche nel pannello o **[!UICONTROL Select All]** per aggiungere tutti i componenti.
 
    ![](assets/add-all-components.png)
 
@@ -55,6 +55,6 @@ Prima di poter creare visualizzazioni dati, devi [impostare una o più connessio
 
 1. Il passaggio successivo consiste nello [specificare le impostazioni di attribuzioni e componenti](/help/data-views/configure-dataviews.md).
 
-## Eliminazione delle visualizzazioni dati
+## Eliminare le visualizzazioni dati
 
-Se si elimina una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare.
+Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare.
