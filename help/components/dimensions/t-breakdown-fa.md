@@ -2,16 +2,16 @@
 description: È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 keywords: Analysis Workspace
 title: Suddividere dimensioni
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 96%
+source-wordcount: '235'
+ht-degree: 79%
 
 ---
-
 
 # Suddividere dimensioni
 
@@ -21,24 +21,24 @@ ht-degree: 96%
 
 È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 
-Analizza i dati in tantissimi modi per ogni necessità; realizza query con metriche, dimensioni, segmenti, linee temporali e altri valori rilevanti.
+Suddividi i tuoi dati in modo illimitato per le tue esigenze specifiche; crea query utilizzando metriche, dimensioni, filtri, linee temporali e altri valori di suddivisione dell’analisi rilevanti.
 
 1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Risultato del passaggio](assets/fa_data_table_actions.png)
 
-   Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+   Puoi suddividere le metriche per elementi dimensionali o per filtri per pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
    >[!NOTE]
    >
    >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
 
-**Video: Dimension in  Analysis Workspace**
+**Video: Dimension in Analysis Workspace**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
-**Video: Suddivisioni Dimension**
+**Video: Analisi approfondita dei Dimension**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23969)
 
