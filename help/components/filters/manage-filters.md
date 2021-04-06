@@ -1,14 +1,14 @@
 ---
 title: Gestire i filtri
 description: Gestire i filtri in Customer Journey Analytics
+exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1079'
+ht-degree: 98%
 
 ---
-
 
 # Gestire i filtri
 
@@ -28,7 +28,6 @@ Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** >
 | 2 | Caselle di controllo | Seleziona un filtro per gestirlo. |
 | 4 | Preferiti | Facendo clic sulla stella accanto a un filtro, la stella diventa gialla e il filtro viene contrassegnato come preferito. |
 | 5 | Titolo e descrizione | Fornito nel Generatore di filtri. Per modificare il titolo e la descrizione, fai clic sul collegamento del titolo; il quale ti riporta al Generatore di filtri. |
-| 6 | Suite di rapporti | Questa colonna indica in quale suite di rapporti il filtro è stato salvato l’ultima volta. |
 | 7 | Proprietario | Indica il proprietario del filtro. Come non amministratore, puoi visualizzare solo i filtri che possiedi o quelli che sono stati condivisi con te. |
 | 8 | Tag (non selezionato nel selettore colonna, di conseguenza la colonna non viene visualizzata) | I tag applicati al filtro, da te stesso o da altri utenti che lo hanno condiviso con te. |
 | 9 | Condiviso con | Elenca singoli utenti o gruppi (solo amministratore) o tutti coloro (solo amministratore) con cui hai condiviso il filtro. |
@@ -36,7 +35,7 @@ Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** >
 | 11 | Selettore colonna | Si trova in alto a destra, consente di selezionare le colonne da visualizzare nel Gestore filtri. |
 | 12 | Icona Condiviso | Indica che questo filtro è condiviso da te o con te. |
 | 13 | Icona Approvato | Indica che il filtro è stato approvato da un amministratore. |
-| 14 | Altri filtri | Ti consente di visualizzare i filtri per tag, suite di rapporti, proprietari e altro (Mostra tutto, Personali, Condivisi con me, Approvati, Preferiti). |
+| 14 | Altri filtri | Consente di visualizzare i filtri per tag, visualizzazioni dati, proprietari e altro (Mostra tutto, Personali, Condivisi con me, Approvati, Preferiti). |
 
 ## Pianificare i filtri
 
@@ -138,4 +137,3 @@ Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in mo
 1. Nel Gestore filtri, seleziona la stella accanto a qualsiasi filtro che desideri contrassegnare come preferito. La stella diventa gialla quando la selezioni.
 
 1. Puoi anche filtrare i preferiti in Filtri > Altri filtri > Preferiti.
-
