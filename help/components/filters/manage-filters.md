@@ -3,16 +3,16 @@ title: Gestire i filtri
 description: Gestire i filtri in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
 # Gestire i filtri
 
-Il Gestore filtri offre diversi modi per curare i segmenti, ad esempio condividere, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferiti.
+Il Gestore filtri offre diversi modi per curare i filtri, ad esempio condividere, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferiti.
 
 Gestione filtri mostra tutti i filtri di tua proprietà e che sono stati condivisi con te. Gli utenti a livello di amministratore possono visualizzare tutti i filtri dell’organizzazione. Questa panoramica presenta l’interfaccia utente e le funzionalità del Gestore filtri.
 
@@ -39,7 +39,7 @@ Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** >
 
 ## Pianificare i filtri
 
-Dedicare un po’ di tempo alla pianificazione dei segmenti aumenta le possibilità che siano utili per la tua organizzazione e che il loro numero venga controllato.
+Dedicare un po&#39; di tempo alla pianificazione dei filtri aumenta le possibilità che siano utili per la tua organizzazione e che il loro numero venga controllato.
 
 * Considera il pubblico: chi lo utilizzerà? Con chi lo condividerò? Quali gruppi di persone useranno questo filtro e di conseguenza come dovrei assegnare i tag? Ciò implica anche fornire una buona descrizione del filtro. La descrizione dovrebbe rispondere almeno alle seguenti domande:
 
@@ -57,7 +57,7 @@ Dedicare un po’ di tempo alla pianificazione dei segmenti aumenta le possibili
 
 ### Assegnare tag ai filtri
 
-Nel Gestore filtri, assegnare tag ai filtri ti consente di organizzarli. Tutti gli utenti possono creare tag per i filtri e applicarne uno o più a un segmento. Tuttavia, puoi visualizzare solo i tag dei filtri di tua proprietà o che sono stati condivisi con te.
+Nel Gestore filtri, assegnare tag ai filtri ti consente di organizzarli. Tutti gli utenti possono creare tag per i filtri e applicarne uno o più a un filtro. Tuttavia, puoi visualizzare solo i tag dei filtri di tua proprietà o che sono stati condivisi con te.
 
 Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:
 
@@ -79,7 +79,7 @@ Per assegnare tag a un filtro:
 
    * inserisci un nuovo nome di tag e premi **[!UICONTROL Enter]**.
 
-1. Fa di nuovo clic su **[!UICONTROL Tag]** per assegnare il tag al segmento.
+1. Fai di nuovo clic su **[!UICONTROL Tag]** per assegnare i tag al filtro.
 
 Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
 Puoi anche filtrare i tag andando in **[!UICONTROL Filters > Tags]**.
@@ -94,7 +94,7 @@ Ecco come contrassegnare un filtro come approvato:
 
 1. Fai clic su **[!UICONTROL Approve]** nella barra delle attività di gestione del filtro.
 
-1. Scegli se condividere i segmenti approvati con la tua organizzazione.
+1. Prendi in considerazione la condivisione dei filtri approvati con la tua organizzazione.
 
 1. Fai clic su **[!UICONTROL OK]**.
 
@@ -102,7 +102,7 @@ Ecco come contrassegnare un filtro come approvato:
 
    ![](assets/seg_approved.png)
 
-1. Puoi anche annullare l’approvazione di un segmento approvato facendo clic su **[!UICONTROL Unapprove]**.
+1. Puoi anche annullare l’approvazione di un filtro approvato facendo clic su **[!UICONTROL Unapprove]**.
 
 ### Condividere i filtri
 
@@ -132,7 +132,7 @@ Per condividere un filtro:
 
 ### Contrassegnare i filtri come preferiti
 
-Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
+Contrassegnare i filtri come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
 
 1. Nel Gestore filtri, seleziona la stella accanto a qualsiasi filtro che desideri contrassegnare come preferito. La stella diventa gialla quando la selezioni.
 
