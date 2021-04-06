@@ -1,14 +1,14 @@
 ---
 title: Modelli di attribuzione e intervalli di lookback
-description: Differenze tra i diversi tipi di attribuzione tra gli elementi dimensionali.
+description: Modalità di suddivisione del credito tra diversi tipi di attribuzione tra elementi dimensionali.
+exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 98%
+source-wordcount: '1538'
+ht-degree: 97%
 
 ---
-
 
 # Modelli di attribuzione e intervalli di lookback
 
@@ -34,14 +34,14 @@ Il concetto di attribuzione in Adobe Analytics richiede due componenti:
 | ![A forma di J inversa](assets/inverse_j.png) | J inversa | Attribuisce un credito del 60% al primo punto di contatto, un credito del 20% all’ultimo punto di contatto e divide il restante 20% in qualsiasi punto di contatto intermedio. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le conversioni con due punti di contatto, viene assegnato il 75% di credito alla prima interazione e il 25% di credito all’ultima. | Si tratta di un modello ideale per dare priorità a ricerche e chiusure, pur concentrandosi sulla ricerca delle interazioni. L’attribuzione a J inversa è spesso utilizzata dai team che adottano un approccio più bilanciato e desiderano dare più valore ai canali di origine della conversione. |
 | ![Personalizzato](assets/custom.png) | Personalizzato | Consente di specificare i valori da assegnare ai punti di contatto, agli ultimi punti di contatto e a eventuali punti di contatto intermedi. I valori specificati vengono normalizzati al 100% anche se la somma dei numeri personalizzati immessi è inferiore a 100. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le interazioni con due punti di contatto, il parametro intermedio viene ignorato. Il primo e l’ultimo punto di contatto vengono quindi normalizzati al 100% e il credito viene assegnato di conseguenza. | Si tratta di un modello perfetto per avere pieno controllo sul proprio modello di attribuzione e rispondere a esigenze specifiche che altri modelli di attribuzione non soddisfano. |
 | ![Decadimento nel tempo](assets/time_decay.png) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. | Si tratta di un modello ideale per i team che eseguono regolarmente campagne pubblicitarie video o che mirano su eventi basati su data prestabilita. Più una conversione si verifica dopo un evento di marketing, meno credito viene assegnato. |
-| ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto unici. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello ottimo per comprendere quanto spesso i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
+| ![Partecipazione](assets/participation.png) | Partecipazione | Assegna il 100% di credito a tutti i punti di contatto univoci. Il numero totale di conversioni è aumentato rispetto ad altri modelli di attribuzione. La partecipazione deduplica i canali visualizzati più volte. | Si tratta di un modello ottimo per comprendere quanto spesso i clienti sono esposti a una determinata interazione. Le società di comunicazioni utilizzano spesso questo modello per calcolare la velocità del contenuto. Le società di commercio al dettaglio usano spesso questo modello per capire quali sono le parti del sito che sono fondamentali per la conversione. |
 | ![Algoritmica](assets/algorithmic.png) | [Algoritmica](/help/analysis-workspace/attribution/algorithmic.md) | Utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. | Utile per evitare supposizioni o euristiche al momento della scelta del modello di attribuzione corretto per la propria attività. |
 
 ## Intervalli di lookback
 
 Per intervallo di lookback si intende la quantità di tempo che una conversione deve recuperare nel passato per includere i punti di contatto. I modelli di attribuzione che attribuiscono maggiore credito alle prime interazioni visualizzano differenze più importanti quando si visualizzano diversi intervalli di lookback.
 
-* **Intervallo di lookback su visita:** considera fino l’inizio di una visita che ha generato una conversione. Gli intervalli di lookback sono ridotti perché considerano esclusivamente la visita. Gli intervalli di lookback su visita rispettano la definizione di visita modificata nelle suite di rapporti virtuali.
+* **Intervallo di lookback su visita:** considera fino l’inizio di una visita che ha generato una conversione. Gli intervalli di lookback sono ridotti perché considerano esclusivamente la visita. Gli intervalli di lookback su visita rispettano la definizione di visita modificata nelle visualizzazioni dati.
 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
@@ -49,7 +49,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 >[!NOTE]
 >
->**[!UICONTROL Custom lookback windows]** al momento sono in fase di test limitati. Per ulteriori informazioni, vedere [ versioni delle funzioni Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html).
+>**[!UICONTROL Custom lookback windows]** sono attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
 
 ## Esempio
 
