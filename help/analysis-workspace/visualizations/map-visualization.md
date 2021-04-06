@@ -1,10 +1,10 @@
 ---
-description: Scopri come creare una mappa visiva di qualsiasi metrica in  Analysis Workspace.
+description: Scopri come creare una mappa visiva di qualsiasi metrica in Analysis Workspace.
 title: Mappa
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '520'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 ## Panoramica {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-La visualizzazione mappa in Analysis Workspace: 
+La visualizzazione mappa in Analysis Workspace:
 
 * Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) ed
 * è utile per identificare e confrontare dati di metriche per diverse aree geografiche;
@@ -31,26 +31,13 @@ La visualizzazione mappa in Analysis Workspace:
 1. Trascina in essa una metrica dall’elenco delle metriche (comprese le metriche calcolate).
 1. Specifica l’origine dati desiderata. Questa finestra di dialogo compare solo se è stato abilitato il tracciamento della posizione per i dati dall’app per dispositivi mobili.
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span></span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. I dati vengono trasformati in Paese, stato/provincia e città. Tieni presente che non arriva invece al livello del codice postale. </p> <p>Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 1. Fai clic su **[!UICONTROL Build]** (Crea).
 
    La prima vista sarà quella del mondo con una mappa a bolle, simile a quella illustrata di seguito.
 
    ![](assets/bubble-world-view.png)
 
-1. A questo punto puoi eseguire le seguenti operazioni: 
+1. A questo punto puoi eseguire le seguenti operazioni:
 
    * Fai uno **zoom** nella mappa per ingrandire l’area che ti interessa, facendo doppio clic o utilizzando la rotellina del mouse. La mappa viene ingrandita sul punto in cui si trova il cursore. Quando esegui lo zoom, la dimensione richiesta viene automaticamente aggiornata (Paese > stato/provincia > città), a seconda del livello di zoom.
    * **Confronta** due o più visualizzazioni mappa nello stesso progetto, affiancandole.
