@@ -2,14 +2,14 @@
 description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
+exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 translation-type: tm+mt
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
-
 
 # Impostazioni riga
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni di riga, fai clic sull’icona Impostazioni accanto a una dimensione, a un segmento, a una metrica, a un periodo di tempo o a un raggruppamento in ognuna di queste:
+Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni di riga della tabella, fai clic sull’icona Impostazioni accanto a una dimensione, a un filtro, a una metrica, a un periodo di tempo o a un raggruppamento in ognuna di queste:
 
 ![](assets/row-settings.png)
 
