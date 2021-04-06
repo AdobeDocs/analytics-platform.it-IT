@@ -1,14 +1,14 @@
 ---
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
+exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 89%
+source-wordcount: '926'
+ht-degree: 86%
 
 ---
-
 
 # Panoramica sui filtri
 
@@ -18,14 +18,11 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
->[!IMPORTANT]
->I filtri sono noti come “segmenti” in Adobe Analytics. Abbiamo rinominato i segmenti in filtri perché Adobe Experience Platform ha [una definizione diversa di &quot;segmento&quot;](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
-
 Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/create-filters.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
 
 ## Filtri sequenziali
 
-I filtri sequenziali ti consentono di identificare i visitatori in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I segmenti sequenziali ti consentono di identificare cosa piace a un visitatore e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione dei visitatori.
+I filtri sequenziali ti consentono di identificare i visitatori in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I filtri sequenziali consentono di identificare cosa piace a un visitatore e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione dei visitatori.
 
 Ecco un esempio:
 
@@ -57,7 +54,7 @@ I contenitori Persona possono includere valori basati sulla cronologia generale 
 
 ### Contenitore Sessione
 
-Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato poiché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e ti consente di definire quali sessioni includere o escludere nella creazione e applicazione di un segmento. Può aiutarti a rispondere alle seguenti domande:
+Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato in quanto acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e consente di definire quali sessioni includere o escludere nella creazione e applicazione di un filtro. Può aiutarti a rispondere alle seguenti domande:
 
 * Quanti visitatori hanno visualizzato le sezioni Notizie e Sport nella stessa sessione?
 * Quali pagine hanno contribuito alla conversione in una vendita?
@@ -83,7 +80,7 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ## Modello di filtro preconfigurato
 
-La funzione tradizionale di Analytics include molti segmenti di modelli predefiniti (filtri) e metriche calcolate. Molti di essi non sono applicabili in CJA, o dovranno essere rinominati o ricreati. Altri dipenderanno da una soluzione per le variabili in base al contesto in CJA.
+La funzione tradizionale di Analytics include molti filtri (filtri) e metriche calcolate pronti all’uso. Molti di essi non sono applicabili in CJA, o dovranno essere rinominati o ricreati. Altri dipenderanno da una soluzione per le variabili in base al contesto in CJA.
 
 | Nome filtro | Descrizione |
 | --- | --- |
