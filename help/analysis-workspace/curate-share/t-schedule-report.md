@@ -2,14 +2,14 @@
 description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
 title: Programmare progetti
+exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
-
 
 # Programmare progetti
 
@@ -30,7 +30,7 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 1. Fai clic su **Invia subito**.
 1. (Facoltativo) Fai clic su **Mostra opzioni di pianificazione** per specificare la pianificazione della consegna.
 
-![Invia subito file](assets/send-file-now.png)
+![Invia subito file](assets/send-file-no-scheduling-options.JPG)
 
 ## Invia file secondo programma
 
@@ -44,15 +44,13 @@ Per inviare un file tramite e-mail secondo una pianificazione periodica:
 1. Specifica la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
 1. Fai clic su **Invia secondo programma**.
 
-![](assets/send-on-schedule.png)
+![](assets/send-file.JPG)
 
 ## Gestione progetti programmati
 
 I progetti programmati di Analysis Workspace possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
 
 In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
-
-![](assets/scheduled-project-manager.png)
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
@@ -65,4 +63,4 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 | **Visualizza pianificazioni scadute** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione di consegna. |
 | **Visualizza ID pianificazione** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
-Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte. La proprietà del progetto programmato può essere **trasferita** a un nuovo utente in **Amministratore > Utenti e risorse di Analytics > Trasferisci risorse**.
+Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
