@@ -1,21 +1,21 @@
 ---
 title: Cos’è la persistenza della dimensione nel Customer Journey Analytics?
-description: La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono.
+description: La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano in che modo o se i valori di dimensione persistono da un evento all’altro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: 16e43f5d938ac25445f382e5eba8fc12e0e67161
+source-git-commit: 7370caf3495ff707698022889bf17528582da803
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 14%
+source-wordcount: '542'
+ht-degree: 6%
 
 ---
 
 # Persistenza
 
-La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano quali valori di dimensione persistono. L’Adobe consiglia vivamente di discutere all’interno dell’organizzazione in che modo vengono gestiti più valori per ciascuna dimensione (allocazione) e quando i valori delle dimensioni smettono di mantenere i dati (scadenza).
+La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano in che modo o se i valori di dimensione persistono da un evento all’altro. La persistenza del Dimension è configurata su una dimensione all’interno di Visualizzazioni dati ed è retroattiva e non distruttiva per i dati a cui viene applicata. La persistenza del Dimension è una trasformazione immediata dei dati applicata a una dimensione che si verifica prima che vengano eseguiti filtri o altre operazioni di analisi nel reporting.
 
-* Per impostazione predefinita, un valore di dimensione utilizza [COSA?] assegnazione.
-* Per impostazione predefinita, un valore di dimensione utilizza una scadenza di [!UICONTROL Session].
+* Per impostazione predefinita, per un valore di dimensione non è abilitata la persistenza.
+* Per impostazione predefinita, quando un modello di allocazione è abilitato per una dimensione, viene utilizzata una scadenza di [!UICONTROL Session].
 
 ## Allocazione
 
@@ -24,59 +24,33 @@ L&#39;allocazione applica una trasformazione al valore sottostante utilizzato. I
 * Più recente
 * Originale
 * Tutto
-* Primo noto
-* Ultimo noto
 
 ### [!UICONTROL Most recent] assegnazione
 
-Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Most recent]:
+L’allocazione più recente persisterà il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno della stessa sessione sostituiranno il valore persistente precedente. Tieni presente che se è stato selezionato &quot;Traccia &#39;nessun valore&#39; come valore&quot; in questa dimensione, i valori vuoti verranno sostituiti con &quot;Nessun valore&quot; prima che venga applicata la persistenza. Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Most recent] supponendo che per la scadenza venga utilizzato un [!UICONTROL Session] e che tutti gli eventi si verifichino all&#39;interno di un [!UICONTROL Session]:
 
 | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
 | --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
-| valori originali |  | C | B |  | A |
+| valori del set di dati |  | C | B |  | A |
 | Allocazione più recente |  | C | B | B | A |
 
 ### [!UICONTROL Original] assegnazione
 
-Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Original]:
+L’allocazione originale persisterà il valore originale (per marca temporale) presente all’interno della dimensione per un periodo di scadenza. Di seguito è riportato un esempio precedente e successivo di allocazione [!UICONTROL Original]:
 
 | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
 | --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 3 | 2 | 3 | 6 | 7 |
-| valori originali |  | C | B |  | A |
+| valori del set di dati |  | C | B |  | A |
 | Allocazione originale |  | C | C | C | C |
 
 ### [!UICONTROL All] assegnazione
 
-Questa nuova allocazione di dimensioni può essere applicata sia a dimensioni basate su array che a dimensioni a valore singolo. Funziona in modo simile al modello di attribuzione [!UICONTROL Participation] per le metriche. La differenza consiste nel fatto che i singoli valori all’interno del campo possono scadere in punti diversi. Ad esempio, supponiamo di avere 5 eventi in un campo stringa, con allocazione impostata su &quot;All&quot; e scadenza impostata su 5 minuti. Ci aspettiamo il seguente comportamento:
+Questa allocazione delle dimensioni può essere applicata sia alle dimensioni basate su array che alle dimensioni a valore singolo. Funziona in modo simile al modello di attribuzione [!UICONTROL Participation] per le metriche. Una differenza fondamentale consiste nel fatto che le dimensioni con Allocazione completa possono essere utilizzate nelle definizioni dei filtri. Ad esempio, supponiamo di avere 5 eventi in un campo stringa, con allocazione impostata su &quot;All&quot; e scadenza impostata su 5 minuti:
 
 | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
 | --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
-| valori originali | A | B | C |  | A |
-| post-persistenza | A | A,B | A,B,C | B,C | A,C |
-
-Tieni presente che il valore di A persiste finché non raggiunge la soglia di 5 minuti, mentre B e C continuano a persistere nell’Hit 4 perché per tali valori non sono ancora passati 5 minuti. Tieni presente che questa allocazione creerà una dimensione con più valori da un campo con un solo valore. Questo modello deve essere supportato anche sulle dimensioni basate su array:
-
-| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-| --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
-| valori originali | A,B | C | B,C |  | A |
-| post-persistenza | A,B | A,B,C | A,B,C | B,C | A,B,C |
-
-### allocazioni &quot;Primo noto&quot; e &quot;Ultimo noto&quot;
-
-Questi due nuovi modelli di allocazione prendono il primo o l’ultimo valore osservato per una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi nell’ambito specificato. Esempio:
-
-| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-| --- | --- | --- | --- | --- | --- |
-| timestamp (min) | 1 | 2 | 3 | 6 | 7 |
-| valori originali |  | C | B |  | A |
-| primo noto | C | C | C | C | C |
-| ultimo noto | A | A | A | A | A |
-
-Il primo o l’ultimo valore noto può essere applicato a una sola sessione o all’ambito della persona (intervallo di reporting) o a un ambito personalizzato o basato su un’ora (essenzialmente un ambito della persona con un intervallo di lookback aggiunto).
+| valori del set di dati | A | B | C |  | A |
+| post-persistenza | A | A,B | A,B,C | A,B,C | A,B,C |
 
 ## Scadenza
 
@@ -85,13 +59,12 @@ Il primo o l’ultimo valore noto può essere applicato a una sola sessione o al
 Esistono quattro modi per far scadere un valore di dimensione:
 
 * Sessione (impostazione predefinita): Scade dopo una determinata sessione.
-* Persona: ?
-* Ora: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo o evento.
-* Metrica: Puoi specificare una qualsiasi delle metriche definite come fine di scadenza per questa dimensione (ad esempio una metrica &quot;Acquisto&quot;).
-* Personalizzato:
+* Persona: Scade alla fine dell&#39;intervallo di reporting.
+* Ora: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo o evento. Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente.
+* Metrica: Puoi specificare una qualsiasi delle metriche definite come fine di scadenza per questa dimensione (ad esempio una metrica &quot;Acquisto&quot;). Questa scadenza è disponibile solo per i modelli di allocazione Originale e Più recente.
 
 ### Qual è la differenza tra Allocazione e Attribuzione?
 
-**Allocazione**: Considera l&#39;allocazione come &quot;trasformazione dei dati&quot; della dimensione. L’allocazione avviene prima del filtro. Se crei un filtro, questo verrà escluso dalla dimensione trasformata.
+**Allocazione**: Considera l&#39;allocazione come una trasformazione dei dati verso la dimensione. L’allocazione avviene prima del filtro. Se crei un filtro, questo verrà escluso dalla dimensione trasformata.
 
-**Attribuzione**: Come posso distribuire il credito di una metrica alla dimensione a cui è applicata? L’attribuzione viene eseguita dopo il filtraggio.
+**Attribuzione**: Come posso distribuire il credito di una metrica alla dimensione a cui è applicata? L’attribuzione non è una trasformazione di dati, si applica durante l’aggregazione dei dati e non influisce sui dati inclusi utilizzando un filtro.
