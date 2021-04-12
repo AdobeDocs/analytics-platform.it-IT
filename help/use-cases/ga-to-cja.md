@@ -2,9 +2,9 @@
 title: Impostare il reporting delle Google Analytics nel Customer Journey Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
+source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Schema di esportazione BigQuery (https://support.google.com/analytics/answer/343
 * Accesso a Google Analytics universali (versione 360 di Google Analytics) o Google Analytics 4 (versione gratuita o Google Analytics 360 di versione)
 * Accesso al Customer Journey Analytics
 
-## Collegare i dati delle Google Analytics a Adobe Experience Platform
+## 1. Connettere i dati Google Analytics a Adobe Experience Platform
 
 La modalità di importazione dei dati di Google Analytics in Adobe Experience Platform dipende dalla versione di Google Analytics in uso:
 
@@ -41,7 +41,15 @@ Le seguenti istruzioni sono basate su Google Analytics universali.
 
 1. Collega i dati Google Analytics a BigQuery e
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3416092?hl=en).
-1. (Solo per i clienti Universal Analytics) Trasforma le sessioni di Google Analytics in eventi in BigQuery.
-Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3437618?hl=en).
-1. Esporta eventi Google Analytics in Google Cloud Storage.
+1. (Solo per i clienti Universal Analytics) Trasforma le sessioni di Google Analytics in eventi in BigQuery. Questo rende i dati compatibili con Adobe Experience Platform. Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3437618?hl=en).
+
+   Dettagli: In BigQuery, i dati GA verranno visualizzati come tabella:
+
+   ![](assets/ga-bigquery.png)
+È necessario creare una query SQL per trasformare i dati di Universal Analytics in un formato compatibile con Experience Platform.
+   * Visualizza questo video per le istruzioni.
+
+1. Esporta gli eventi Google Analytics in formato JSON in Google Cloud Storage e salvalo in un bucket.
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
+1. Experience Platform i dati di Google Cloud Storage. (ottieni il video della diapositiva 10 da Trevor.)
+
