@@ -4,7 +4,7 @@ cloud: Experience Cloud
 product: adobe analytics
 sub-product: customer journey
 solution: Customer Journey Analytics
-type: Documentazione
+type: Documentation
 index: true
 user-guide-title: Guida a Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 90%
+source-wordcount: '462'
+ht-degree: 89%
 
 ---
 
@@ -164,6 +164,7 @@ ht-degree: 90%
    + [Casi di utilizzo per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
    + [Aggiungere ricerche globali ai set di dati](use-cases/global-lookups.md)
+   + [Configurare il reporting delle Google Analytics in CJA](use-cases/ga-to-cja.md)
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica delle dashboard di Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
