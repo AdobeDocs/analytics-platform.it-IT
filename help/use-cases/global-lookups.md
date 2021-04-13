@@ -1,29 +1,29 @@
 ---
-title: Aggiunta di ricerche globali ai set di dati
-description: Utilizzate ricerche globali per incrementare i rapporti con dimensioni utili nel Customer Journey Analytics.
+title: Aggiungere ricerche globali ai set di dati
+description: Utilizza le ricerche globali per migliorare il reporting con dimensioni utili nel Customer Journey Analytics.
+exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 translation-type: tm+mt
-source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
+source-git-commit: e19e9b7d7a88232e1eeb7ddaa739389e26763c1a
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
+# Aggiungere ricerche globali ai set di dati
 
-# Aggiunta di ricerche globali ai set di dati
+Le ricerche globali migliorano la capacità del Customer Journey Analytics di generare rapporti su alcune dimensioni/attributi che non sono utili da solo ma sono utili quando vengono unite ad altri dati. Alcuni esempi includono attributi di dispositivi mobili e attributi delle dimensioni del sistema operativo e del browser, come i numeri di versione del browser. Una &quot;Ricerca globale&quot; è molto simile a un set di dati di ricerca (noto come classificazioni in Adobe Analytics tradizionale). Tuttavia, le ricerche globali sono applicabili a tutte le organizzazioni di Experience Cloud. Le ricerche globali vengono applicate automaticamente a tutti i set di dati evento che contengono determinati campi dello schema XDM (vedi di seguito per i campi specifici).
+Per ogni posizione dello schema classificata da Adobe, esiste un set di dati di ricerca globale. Puoi utilizzare i set di dati di ricerca globali con Analytics Source Connector o con altri set di dati personalizzati che possono accettarli.
 
-Le ricerche globali migliorano la capacità del Customer Journey Analytics di creare rapporti su alcune dimensioni/attributi che non sono utili da soli, ma che sono utili se uniti ad altri dati. Alcuni esempi includono gli attributi dei dispositivi mobili e gli attributi delle dimensioni del sistema operativo e del browser, ad esempio i numeri di versione del browser. Una ricerca globale è molto simile a un set di dati di ricerca (noto come classificazioni in Adobe Analytics  tradizionale). Tuttavia, le ricerche globali sono applicabili  organizzazioni di Experienci Cloud. Le ricerche globali vengono applicate automaticamente a tutti i set di dati evento che contengono alcuni campi dello schema XDM (vedere di seguito per i campi specifici).
-Per ogni posizione dello schema che  Adobe sta classificando, esiste un set di dati di ricerca globale. È possibile utilizzare i set di dati di ricerca globali con il connettore origine Analytics o con altri set di dati personalizzati che possono accettarli.
+In Adobe Analytics tradizionale, queste dimensioni vengono visualizzate autonomamente, mentre in CJA, devi includere attivamente queste dimensioni quando crei visualizzazioni dati. Quando un utente, nel flusso di lavoro Connessioni, seleziona un set di dati contrassegnato come un insieme con una chiave per le ricerche globali, l’interfaccia utente delle visualizzazioni dati sa includere tutte le dimensioni delle dimensioni di ricerca globale disponibili per il reporting. Il flusso di lavoro delle visualizzazioni dati sa di includere queste dimensioni di ricerca globale come disponibili per la visualizzazione dati. I file di ricerca vengono aggiornati e disponibili automaticamente, in tutte le aree geografiche e per tutti gli account. Sono memorizzate in organizzazioni specifiche per l&#39;area geografica associate al cliente.
 
-In Adobe Analytics  tradizionale, queste dimensioni vengono visualizzate autonomamente, mentre in CJA, è necessario includere attivamente queste dimensioni quando si creano le viste dati. Quando un utente, nel flusso di lavoro Connessioni, seleziona un set di dati contrassegnato come una chiave per le ricerche globali, l&#39;interfaccia utente delle viste dati sa includere tutte le dimensioni delle ricerche globali disponibili per il reporting. Il flusso di lavoro delle viste dati sa includere queste dimensioni di ricerca globali, come disponibili per la visualizzazione dati. I file di ricerca vengono automaticamente tenuti aggiornati e disponibili, in tutte le aree geografiche e per tutti gli account. Sono memorizzati in organizzazioni specifiche per l&#39;area geografica associate al cliente.
+## Utilizzare le ricerche globali con i set di dati del connettore dati di Adobe
 
-## Utilizzare ricerche globali con i set di dati del connettore dati del Adobe 
+I set di dati di ricerca globali vengono applicati automaticamente al momento del rapporto. Se utilizzi il [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) e inserisci una dimensione per la quale Adobe fornisce una ricerca globale, questa ricerca globale viene applicata automaticamente. Se un set di dati evento contiene campi [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en), possiamo applicarvi le ricerche globali.
 
-I set di dati di ricerca globali vengono applicati automaticamente al momento del rapporto. Se si utilizza il [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) e si inserisce una dimensione per la quale  Adobe fornisce una ricerca globale, viene automaticamente applicata questa ricerca globale. Se un set di dati dell&#39;evento contiene campi [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en), è possibile applicarvi ricerche globali.
+## Utilizzare le ricerche globali con set di dati personalizzati
 
-## Utilizzare ricerche globali con set di dati personalizzati
-
-Nel set di dati dell&#39;evento deve essere presente una chiave compatibile con i set di dati di ricerca globali. Finché compili i campi XDM giusti aggiungendo alcuni dei nostri [mixin di schemi Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) standard, puoi far funzionare i dataset personalizzati con le ricerche globali.
+Una chiave deve essere presente nel set di dati dell’evento compatibile con i set di dati di ricerca globali. Se si compilano i campi XDM giusti aggiungendo alcuni dei nostri [mixin schema Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) standard, è possibile far funzionare i set di dati personalizzati con le ricerche globali.
 
 ## Campi di ricerca globali disponibili
 
@@ -60,11 +60,10 @@ Nel set di dati dell&#39;evento deve essere presente una chiave compatibile con 
 
 ## Report sulle dimensioni di ricerca globale
 
-Per generare rapporti sulle dimensioni di ricerca globale, è necessario aggiungerle quando si crea una visualizzazione dati nel Customer Journey Analytics:
+Per creare rapporti sulle dimensioni di ricerca globale, devi aggiungerle quando crei una visualizzazione dati in un Customer Journey Analytics:
 
 ![](assets/global-lookup.png)
 
-È quindi possibile visualizzare i dati di ricerca in Workspace:
+Puoi quindi visualizzare i dati di ricerca in Workspace:
 
 ![](assets/gl-reporting.png)
-
