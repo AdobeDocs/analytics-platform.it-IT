@@ -1,11 +1,11 @@
 ---
-title: Come inserire dati Google Analytics in Adobe Experience Platform per l’analisi in Customer Journey Analytics (CJA)
+title: Inserire dati Google Analytics in Adobe Experience Platform
 description: 'Spiega come sfruttare il Customer Journey Analytics (CJA) per acquisire le Google Analytics e i dati firebase in Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
+source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ La modalità di importazione dei dati di Google Analytics in Adobe Experience Pl
 
 ### 1. Connetti i dati Google Analytics a BigQuery
 
-Le seguenti istruzioni sono basate su Google Analytics universali. Si applicano ai dati storici. Per istruzioni relative ai dati in streaming live, vai su Trasferisci dati in streaming in AEP.
+Le seguenti istruzioni sono basate su Google Analytics universali. Si applicano ai dati storici. Per istruzioni sui dati in streaming live, vai su [Trasferisci i dati in streaming live in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#ingest-live-streaming-google-analytics-data).
 
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3416092?hl=en).
 
@@ -84,7 +84,7 @@ O guarda questo video:
 
 ### 3. Esportare gli eventi Google Analytics in formato JSON in Google Cloud Storage e salvarli in un bucket
 
-Successivamente, verranno importati gli eventi Google Analytics in Google Cloud Storage in formato JSON. Poi lo portate nell&#39;Experience Platform.
+Successivamente, verranno importati gli eventi Google Analytics in Google Cloud Storage in formato JSON.
 
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
 
