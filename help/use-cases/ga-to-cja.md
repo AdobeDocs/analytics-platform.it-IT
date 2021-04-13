@@ -3,9 +3,9 @@ title: Inserire dati Google Analytics in Adobe Experience Platform
 description: 'Spiega come sfruttare il Customer Journey Analytics (CJA) per acquisire le Google Analytics e i dati firebase in Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
+source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Le mappature sono molto semplici da modificare e puoi anche creare campi derivat
 
 Puoi anche acquisire eventi in streaming dal vivo da Google Tag Manager direttamente in Adobe Experience Platform.
 
-### Aggiungi variabili personalizzate
+### 1. Aggiungi variabili personalizzate
 
 Dopo aver effettuato l’accesso all’account Google Tag Manager, è necessario aggiungere Variabili costanti personalizzate relative agli ID organizzazione di Adobe e agli ID dei set di dati. Probabilmente in Google Tag Manager sono già presenti variabili che vengono inviate a Google Analytics, ad esempio e-mail del cliente, nome del cliente, lingua e stato di accesso del cliente. È necessario definire 5 nuove variabili personalizzate:
 
@@ -120,7 +120,7 @@ Ottenendo questi valori, tutti i dati Google Analytics vengono inviati al set di
 
 Una volta definite queste variabili personalizzate, possiamo impostare un trigger per inviare anche tutti i dati che stai già inviando alle Google Analytics dell’Experience Platform.
 
-### Configurare un trigger in Google Tag Manager
+### 2. Configurare un trigger in Google Tag Manager
 
 In questo esempio, è stato definito il trigger &quot;Creazione account&quot;, dove `pageUrl equals account-creation`. Aggiungendo alcune informazioni a questo trigger, puoi assicurarti che quando l’utente esegue l’autenticazione e carica la pagina di creazione dell’account, i dati vengano inviati sia a Google Analytics che ad AEP.
 
@@ -128,11 +128,12 @@ Per istruzioni, guarda questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-### Passaggi successivi
+## Creare una connessione in CJA al set di dati di Google Analytics
 
 Una volta che Adobe Experience Platform ha iniziato a ricevere i dati delle Google Analytics in tempo reale e hai inserito in backfill i dati storici delle Google Analytics da BigQuery, sei pronto per passare a CJA e
+[crea la prima connessione](/help/connections/create-connection.md). Questa connessione unirà i dati GA a tutti gli altri dati dei clienti utilizzando un comune &quot;ID cliente&quot;.
 
-1. [Crea la tua prima ](/help/connections/create-connection.md) connessione, che unirà i dati GA a tutti gli altri dati del cliente utilizzando un comune &quot;ID cliente&quot;.
-1. Effettua un’analisi straordinaria in Workspace, ad esempio...
 
-*È qui che l&#39;argomento deve fermarsi o dobbiamo andare nel dettaglio sulla connessione?*
+## Effettuare alcune analisi straordinarie in Workspace
+
+Da seguire
