@@ -3,9 +3,9 @@ title: Inserire dati Google Analytics in Adobe Experience Platform
 description: 'Spiega come sfruttare il Customer Journey Analytics (CJA) per acquisire le Google Analytics e i dati firebase in Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,25 @@ Visualizza questo video per le istruzioni:
 
 Successivamente, è possibile mappare i dati dell&#39;evento GA in un set di dati esistente creato in precedenza o creare un nuovo set di dati, utilizzando lo schema XDM scelto. Dopo aver selezionato lo schema, l&#39;Experience Platform applica l&#39;apprendimento automatico per pre-mappare automaticamente ciascuno dei campi nei dati di Google Analytics al tuo [schema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui).
 
+![](assets/schema-map.png)
+
 Le mappature sono molto semplici da modificare e puoi anche creare campi derivati o calcolati dai dati delle Google Analytics. Una volta completata la mappatura dei campi nello schema XDM, puoi pianificare l’importazione su base periodica e applicare la convalida dell’errore durante il processo di acquisizione. In questo modo non si verificano problemi con i dati importati.
+
+**Campo calcolato per data e ora**
+
+Per il campo `timestamp` nei dati delle Google Analytics, devi creare un campo calcolato speciale nell’interfaccia utente dello schema di Experience Platform. Fare clic su **[!UICONTROL Add calculated field]** e racchiudere la stringa `timestamp` in una funzione `date`, come riportato di seguito:
+
+`date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+
+È quindi necessario salvare questo campo calcolato nella struttura dati timestamp nello schema:
+
+![](assets/timestamp.png)
+
+**Campo calcolato _id XDM**
+
+Il campo dello schema `_id` deve avere un valore in esso - CJA non tiene conto del valore. Puoi semplicemente aggiungere un &quot;1&quot; al campo:
+
+![](assets/_id.png)
 
 ## Inserire dati in streaming live Google Analytics
 
