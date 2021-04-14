@@ -1,8 +1,9 @@
 ---
 title: Set di dati evento combinati
 description: Scopri come CJA crea una connessione combinando set di dati.
+exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 84%
