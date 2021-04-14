@@ -3,7 +3,7 @@ title: Importazione di dati web e call center
 description: Scopri come creare un set di dati che collega i dati del call center e del sito web.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Questa tabella a forma libera consente di visualizzare le pagine principali che 
 1. Trascina la dimensione che contiene i nomi delle pagine web in una visualizzazione Tabella a forma libera.
 1. Sostituisci la metrica con la metrica del call center desiderata che desideri misurare la conversione.
 1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fai clic su **[!UICONTROL Use non-default attribution model]**.
-1. Imposta il [modello di attribuzione](/help/data-views/configure-dataviews.md#Attribution-model) desiderato.
+1. Imposta il [modello di attribuzione](/help/data-views/create-dataview.md) desiderato.
 
 Il rapporto risultante mostra la metrica principale dai dati del call center. <!-- Complement with donut visualization -->
 
