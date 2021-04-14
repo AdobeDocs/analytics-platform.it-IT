@@ -3,9 +3,9 @@ title: Inserire dati Google Analytics in Adobe Experience Platform
 description: 'Spiega come sfruttare il Customer Journey Analytics (CJA) per acquisire le Google Analytics e i dati firebase in Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ La modalità di importazione dei dati di Google Analytics in Adobe Experience Pl
 | **Analisi universale** | Google Analytics 360 | Esegui i passaggi da 1 a 5 delle istruzioni seguenti |
 | **Google Analytics 4** | Versione o Google Analytics GA gratuita 360 | Esegui i passaggi 1 e 3-5 delle istruzioni riportate di seguito. Non è necessario il passaggio 2. |
 
-## Inserire dati storici
+## Inserire dati storici (backfill)
 
 ### 1. Connetti i dati Google Analytics a BigQuery
 
@@ -78,19 +78,26 @@ Al termine della query, salva i risultati completi in una tabella BigQuery.
 
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql).
 
-O guarda questo video:
+Oppure, guarda questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
 ### 3. Esportare gli eventi Google Analytics in formato JSON in Google Cloud Storage e salvarli in un bucket
 
-Successivamente, verranno importati gli eventi Google Analytics in Google Cloud Storage in formato JSON.
+Successivamente, esporterai gli eventi Google Analytics in Google Cloud Storage in formato JSON. Fai clic su **Esporta > Esporta in GCS**. Una volta arrivati, i dati sono pronti per essere inseriti in Adobe Experience Platform.
 
 Fare riferimento a [queste istruzioni](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089).
 
-### 4. Inserire i dati da Google Cloud Storage in Experience Platform
+### 4. Importare i dati da Google Cloud Storage in Experience Platform
 
-In Experience Platform, selezionare **[!UICONTROL Sources]** e trovare l&#39;opzione **[!UICONTROL Google Cloud Storage]**. Da lì è sufficiente trovare il set di dati salvato da Big Query.
+In Experience Platform, selezionare **[!UICONTROL Sources]** e trovare l&#39;opzione **[!UICONTROL Google Cloud Storage]**. Da lì è sufficiente trovare il set di dati salvato da BigQuery.
+
+Nota bene:
+
+* Assicurati di selezionare il formato JSON.
+* Puoi selezionare un set di dati esistente o crearne uno nuovo (consigliato).
+* Assicurati di selezionare lo stesso schema per i dati storici delle Google Analytics e i dati Live Streaming Google Analytics, anche se si trovano in set di dati separati. Successivamente è possibile unire i set di dati in una connessione [CJA](/help/connections/combined-dataset.md).
+
 
 Visualizza questo video per le istruzioni:
 
@@ -98,7 +105,7 @@ Visualizza questo video per le istruzioni:
 
 ### 5. Importare eventi GCS in Adobe Experience Platform e mappare lo schema XDM
 
-Successivamente, è possibile mappare i dati dell&#39;evento GA in un set di dati esistente creato in precedenza o creare un nuovo set di dati utilizzando lo schema XDM scelto. Dopo aver selezionato lo schema, l&#39;Experience Platform applica l&#39;apprendimento automatico per mappare automaticamente ciascuno dei campi nei dati Google Analytics al proprio schema.
+Successivamente, è possibile mappare i dati dell&#39;evento GA in un set di dati esistente creato in precedenza o creare un nuovo set di dati, utilizzando lo schema XDM scelto. Dopo aver selezionato lo schema, l&#39;Experience Platform applica l&#39;apprendimento automatico per pre-mappare automaticamente ciascuno dei campi nei dati di Google Analytics al tuo [schema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui).
 
 Le mappature sono molto semplici da modificare e puoi anche creare campi derivati o calcolati dai dati delle Google Analytics. Una volta completata la mappatura dei campi nello schema XDM, puoi pianificare l’importazione su base periodica e applicare la convalida dell’errore durante il processo di acquisizione. In questo modo non si verificano problemi con i dati importati.
 
