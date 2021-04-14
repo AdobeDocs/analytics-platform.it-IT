@@ -3,7 +3,7 @@ title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scopri come aggiungere dati basati su account come set di dati di ricerca a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 translation-type: tm+mt
-source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 
 Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati [lookup](/help/getting-started/cja-glossary.md).
 
-Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi devi procedere alla creazione di una connessione nel Customer Journey Analytics (CJA0) che combina diversi set di dati, incluso quello di ricerca creato. Puoi quindi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
+Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi devi procedere alla creazione di una connessione nel Customer Journey Analytics (CJA0) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
 >[!NOTE]
 >
