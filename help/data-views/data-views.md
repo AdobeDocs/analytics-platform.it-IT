@@ -3,10 +3,10 @@ title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 3%
+source-wordcount: '1082'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ L’ultimo aggiornamento delle visualizzazioni dati offre molta più flessibilit
 
 * Puoi **rinominare i contenitori** in una visualizzazione dati e far sì che i contenitori rinominati siano visualizzati in qualsiasi progetto Workspace basato su tale visualizzazione dati.
 
-## Prerequisito
+## Prerequisiti per le visualizzazioni dati
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
 * Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
