@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 7cad7b1231b08b8311dd9a1d8e0b5a6da3af9c73
+source-git-commit: c086f21e1a13ef4dec4e1be63d9f462bfb32f2ea
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 90%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -136,6 +136,7 @@ ht-degree: 90%
       + [Anteprima dimensioni](components/dimensions/view-dimensions.md)
       + [Suddividere dimensioni](components/dimensions/t-breakdown-fa.md)
       + [Suddividere le dimensioni in base al tempo](components/dimensions/time-parting-dimensions.md)
+      + [Dimension con cardinalità molto elevata](components/dimensions/high-cardinality.md)
    + [Metriche](components/apply-create-metrics.md)
    + Filtri {#cja-filters}
       + [Panoramica sui filtri](components/filters/filters-overview.md)
