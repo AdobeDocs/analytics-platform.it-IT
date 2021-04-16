@@ -2,9 +2,9 @@
 title: Dimension con cardinalità molto elevata nel Customer Journey Analytics
 description: Descrive le best practice per gestire le dimensioni ad alta cardinalità nel Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 9af5c74164462851ac4a6cbc4764569789f677fc
+source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A seconda del numero di eventi in una specifica connessione CJA, in combinazione
 
 ### 1. I conteggi delle righe potrebbero non essere precisamente riportati
 
-I conteggi delle righe su dimensioni di cardinalità elevate potrebbero non essere riportati con precisione. In questo caso, le tabelle a forma libera forniscono un’indicazione come mostrato di seguito:
+I conteggi delle righe su dimensioni ad alta cardinalità potrebbero non essere riportati con precisione. In questo caso, le tabelle a forma libera forniscono un’indicazione, come illustrato di seguito:
 
 ![](assets/high-cardinality.png)
 
@@ -45,7 +45,7 @@ Anche se esistono limitazioni ad alcune metriche calcolate e ai conteggi delle r
 
 ## Best practice per l’utilizzo di dimensioni cardinali elevate
 
-Per eliminare gli avvisi o le stime che possono verificarsi quando si utilizzano dimensioni con elevata cardinalità, si consiglia di limitare il numero di righe considerate nel rapporto utilizzando uno dei seguenti metodi:
+Per eliminare gli avvisi o le stime che possono verificarsi quando si utilizzano dimensioni con elevata cardinalità, si consiglia di limitare il numero di righe considerate nel rapporto, utilizzando uno dei seguenti metodi:
 
 * Aggiungi un filtro alla colonna o al pannello interessato.
 * Applica una ricerca alla tabella a forma libera.
