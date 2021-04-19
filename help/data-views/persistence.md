@@ -3,9 +3,9 @@ title: Cos’è la persistenza della dimensione nel Customer Journey Analytics?
 description: La persistenza del Dimension è una combinazione di allocazione e scadenza. Insieme, determinano in che modo o se i valori di dimensione persistono da un evento all’altro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: 7370caf3495ff707698022889bf17528582da803
+source-git-commit: ffeada325825545ae0ab43f176e5d301cd1761ee
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '562'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ Esistono quattro modi per far scadere un valore di dimensione:
 
 * Sessione (impostazione predefinita): Scade dopo una determinata sessione.
 * Persona: Scade alla fine dell&#39;intervallo di reporting.
-* Ora: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo o evento. Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente.
+* Ora: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza la scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
 * Metrica: Puoi specificare una qualsiasi delle metriche definite come fine di scadenza per questa dimensione (ad esempio una metrica &quot;Acquisto&quot;). Questa scadenza è disponibile solo per i modelli di allocazione Originale e Più recente.
 
 ### Qual è la differenza tra Allocazione e Attribuzione?
