@@ -2,7 +2,7 @@
 description: Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
 keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 translation-type: tm+mt
