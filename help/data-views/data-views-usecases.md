@@ -3,18 +3,14 @@ title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytic
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
 
 # Casi di utilizzo delle visualizzazioni dati
-
->[!IMPORTANT]
->
->Questa funzionalità sarà generalmente disponibile il 22 aprile 2021.
 
 Questi casi d’uso mostrano la flessibilità e la potenza delle visualizzazioni dati in Customer Journey Analytics.
 
