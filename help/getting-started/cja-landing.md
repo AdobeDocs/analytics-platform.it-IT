@@ -3,10 +3,10 @@ title: Guida a Customer Journey Analytics
 description: Pagina di destinazione di Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 76%
+source-wordcount: '338'
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,10 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#cja-connections"> Nuova documentazione su Cross-Channel Analytics (unione degli ID in Customer Journey Analytics)  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en#cja-dataviews"> Nuova documentazione sulle funzionalità avanzate di Data Views  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#cja-usecases"> Nuova documentazione sull’acquisizione di dati Google Analytics in Adobe Experience Platform  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=en#cja-usecases"> Nuova documentazione sull’analisi dei dati delle Google Analytics in CJA  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#cja-connections"> Analisi cross-channel (unione degli ID in Customer Journey Analytics)  </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> Requisiti aggiornati per le autorizzazioni utente  </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> Utilizzo di array di oggetti </a> </li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/analytics-platform/using/cja-usecases/b2b.html"> Aggiungere dati a livello di account come set di dati di ricerca </a> </li>
