@@ -3,10 +3,10 @@ title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
+source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1081'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Una visualizzazione dati si trova sopra un Customer Journey Analytics (CJA) [con
 
 >[!NOTE]
 >
->Tutte le impostazioni selezionate o modificate in una visualizzazione dati sono retroattive e non distruttive. In altre parole, i dati sottostanti non verranno modificati in modo permanente.
+>Tutte le impostazioni selezionate o modificate in una visualizzazione dati sono retroattive e non distruttive. In altre parole, non cambiano definitivamente i dati sottostanti .
 
 Puoi creare diverse visualizzazioni dati per la stessa connessione, con set di componenti molto diversi (dimensioni/metriche). Oppure crea visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione, ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Last Touch] e contemporaneamente un’altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL First Touch].
 
@@ -60,20 +60,20 @@ L’ultimo aggiornamento delle visualizzazioni dati offre molta più flessibilit
 
 Alcune impostazioni di visualizzazione dati possono essere ignorate in Analysis Workspace a livello di progetto, altre no.
 
-* Intervallo di lookback
+* [!UICONTROL Lookback window]
 * Attribuzione metrica
-* Indica se gli utenti visualizzano o meno la riga &quot;Nessun valore&quot; in un rapporto
+* Indica se gli utenti visualizzano o meno la riga [!UICONTROL No Value] in un rapporto
 
 ## Impostazioni della visualizzazione dati non modificabili in Workspace
 
-* Tipo di componente
+* [!UICONTROL Component type]
 * Formattazione delle metriche
 * Nome della visualizzazione dati
 * Assegnazione dei Dimension
 
 ## Eliminare le visualizzazioni dati
 
-Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che eventuali progetti Workspace dipendenti da questa visualizzazione dati eliminata non funzioneranno più.
+Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che eventuali progetti [!UICONTROL Workspace] dipendenti da questa visualizzazione dati eliminata non funzioneranno più.
 
 ## Passaggi successivi
 
