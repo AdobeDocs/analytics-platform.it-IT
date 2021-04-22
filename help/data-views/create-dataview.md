@@ -1,20 +1,16 @@
 ---
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
-exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: 7cad7b1231b08b8311dd9a1d8e0b5a6da3af9c73
+source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2514'
 ht-degree: 2%
 
 ---
 
 # Creare una nuova visualizzazione dati
-
->[!IMPORTANT]
->
->Questa funzionalità sarà generalmente disponibile il 22 aprile 2021.
 
 La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. La creazione di metriche o dimensioni offre un&#39;enorme flessibilità. In precedenza, si presupponeva che in Adobe Experience Platform i set di dati fossero utilizzati come campi stringa e come metriche. Per modificare uno qualsiasi di questi campi, era necessario modificare lo schema in Platform. L&#39;interfaccia utente per la visualizzazione dei dati ora consente una [definizione più a forma libera di metriche e dimensioni](/help/data-views/data-views.md). Per ulteriori casi d’uso, consulta [Casi d’uso delle visualizzazioni dati](/help/data-views/data-views-usecases.md).
 
