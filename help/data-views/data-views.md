@@ -3,10 +3,10 @@ title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,3 +74,9 @@ Alcune impostazioni di visualizzazione dati possono essere ignorate in Analysis 
 ## Eliminare le visualizzazioni dati
 
 Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che eventuali progetti Workspace dipendenti da questa visualizzazione dati eliminata non funzioneranno più.
+
+## Passaggi successivi
+
+* [Creare visualizzazioni dati](/help/data-views/create-dataview.md)
+* [Casi di utilizzo delle visualizzazioni dati](/help/data-views/data-views-usecases.md)
+* Dettagli sul funzionamento di [persistenza](/help/data-views/persistence.md)
