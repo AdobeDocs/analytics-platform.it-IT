@@ -3,9 +3,9 @@ title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: c6ce71788582b20f6542ff8e26a7b86d8b1b3eb3
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2515'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Oltre a creare metriche e dimensioni da elementi dello schema, puoi utilizzare c
 
 ![](assets/standard-components.png)
 
-Per impostazione predefinita, i componenti standard richiesti vengono aggiunti alla visualizzazione dati.
+Per impostazione predefinita, questi componenti standard richiesti vengono aggiunti alla visualizzazione dati.
 
 | Nome componente | Dimension o metrica | Note |
 | --- | --- | --- |
