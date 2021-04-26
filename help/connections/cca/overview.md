@@ -1,14 +1,14 @@
 ---
 title: Panoramica di Analytics tra canali
 description: Ri-chiave ID visitatore da più set di dati per unire i visitatori.
+exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 translation-type: tm+mt
-source-git-commit: 1ac845af7255428d9df0fa7d4d733f60e014ed83
+source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 10%
+source-wordcount: '1128'
+ht-degree: 9%
 
 ---
-
 
 # Panoramica di Analytics tra canali
 
@@ -50,6 +50,7 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 * L’unione basata sui campi non combina o concatena i campi.
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l&#39;unione basata sui campi sceglierà in base all&#39;ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
+* Analisi cross-channel tiene traccia di ogni valore ID persistente per 1 anno (TTL = 1 anno). Se un dispositivo non ha attività per più di un anno e riavvia l’attività, i nuovi eventi saranno associati a una persona anonima fino a quando l’utente non viene nuovamente identificato (ad esempio tramite un nuovo accesso).
 
 
 ## Abilitare analisi cross-channel
