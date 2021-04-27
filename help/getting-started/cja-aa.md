@@ -3,10 +3,10 @@ title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 translation-type: tm+mt
-source-git-commit: b149b4e95d8395c41242de7a2a3997315ba142a6
+source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 55%
+ht-degree: 63%
 
 ---
 
@@ -44,17 +44,16 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 | Funzione | Note |
 | --- | --- |
-
 | Classificazioni | Ora denominati &quot;Set di dati di ricerca&quot;. Le classificazioni utilizzate in Analytics possono essere importate nell’Experience Platform e in CJA tramite il Connettore dati classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in AEP e resi disponibili in CJA. |
-| Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzate diverse dagli hit di background per dispositivi mobili. |
-| Attributi del cliente | Ora denominati &quot;Set di dati di profilo&quot;, non vengono importati automaticamente dall’Experience Cloud, ma dovranno essere caricati in AEP prima di essere disponibili in CJA. |
-| Dimensioni dispositivo, browser e tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e si conforma alla classe Experience Event XDM. |
-| Entrate, uscite e dimensioni e metriche del tempo trascorso | Supportati (le entrate e le uscite sono ora denominate Avvio sessione e Fine sessione) e vengono calcolati in un modo leggermente diverso. |
+| Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzata che sono diverse dagli hit di background per dispositivi mobili. |
+| Attributi cliente | Ora detti “Set di dati del profilo”, non vengono importati automaticamente da Experience Cloud, ma dovranno essere caricati in AEP prima di poter essere disponibili in CJA. |
+| Dimensioni del dispositivo, del browser e della tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe Experience Event XDM. |
+| Dimensioni e metriche di Entrate, Uscite e Tempo trascorso | Supportati (le entrate e le uscite sono ora denominate Avvio sessione e Fine sessione) e vengono calcolati in un modo leggermente diverso. |
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di CJA. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. I Dimension impostati nelle visualizzazioni dati sono limitati a una persistenza massima di 90 giorni e non supportano la persistenza illimitata. |
-| Canali di marketing | I dati dei canali di marketing fluiscono in CJA tramite Analytics Data Connector. Le regole del canale di marketing devono ancora essere configurate nel tradizionale Adobe Analytics. Alcune regole non sono supportate. Per ulteriori informazioni, consulta la [documentazione sui canali di marketing CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases). |
+| Canali marketing | I dati dei canali di marketing fluiscono in CJA tramite Analytics Data Connector. Le regole del canale di marketing devono ancora essere configurate nel tradizionale Adobe Analytics. Alcune regole non sono supportate. Per ulteriori informazioni, consulta la [documentazione sui canali di marketing CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases). |
 | Variabile di prodotto | Nell’Experience Platform, gli utenti possono utilizzare una matrice di campi di tipo Oggetto all’interno di uno schema di set di dati per soddisfare questo caso d’uso. All’interno di CJA, i clienti possono utilizzare un qualsiasi numero di variabili di prodotto e non sono limitati a una singola variabile come in Adobe Analytics. |
-| Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA - non esiste la condivisione dei progetti tra CJA e il tradizionale Analysis Workspace. |
-| Visualizzazioni | Sono supportate tutte le visualizzazioni eccetto la visualizzazione Mappa . |
+| Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA, non esiste tra CJA e la versione tradizionale di Analysis Workspace. |
+| Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
 
 ## Supporto parziale
 
