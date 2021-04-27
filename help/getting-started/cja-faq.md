@@ -3,9 +3,9 @@ title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: 5667e2f43873061c5350c75fdb830a95b1c9b73f
+source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1222'
 ht-degree: 32%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 32%
 | Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>In condizioni di carico normale: &lt; 60 minuti <br>**Nota:** in caso di volume insolitamente elevato del flusso di dati che attraversa la pipeline, potrebbero essere necessarie fino a 24 ore.</li><li>In caso di recupero dei dati (fino a 13 mesi di dati, indipendentemente dalle dimensioni): &lt; 4 settimane</li></ul> |
 | Come si collegano i dati online ai dati offline in [!UICONTROL Customer Journey Analytics]? | Se l’ID della persona corrisponde tra i set di dati, [!UICONTROL Customer Journey Analytics] può collegare filtri, attribuzione, flusso, fallout, ecc. tra i vari set di dati. |
 | Come posso inserire i dati offline in [!UICONTROL Customer Journey Analytics]? | Il diritto al Customer Journey Analytics ti consente di inserire i dati in Experience Platform. Puoi quindi creare connessioni a tali visualizzazioni dati e dati in [!UICONTROL Customer Journey Analytics], per la generazione di rapporti in Analysis Workspace. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati ti può fornire consigli o consulenza. |
-| Come posso ottenere i dati [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Adobe Analytics] i dati possono essere collegati ad Experience Platform tramite  [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/it-IT/experience-platform/sources/connectors/adobe-applications/analytics.html). La maggior parte dei campi [!UICONTROL Adobe Analytics] viene portata avanti in formato XDM, ma altri campi non sono ancora disponibili (come le dimensioni [!UICONTROL Marketing Channels]). |
+| Come posso ottenere i dati [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Adobe Analytics] i dati possono essere collegati ad Experience Platform tramite  [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/it-IT/experience-platform/sources/connectors/adobe-applications/analytics.html). La maggior parte dei campi [!UICONTROL Adobe Analytics] viene portata avanti in formato XDM, ma altri campi non sono ancora disponibili. |
 | Quanto tempo è necessario per assemblare gli elementi dei set di dati in una visualizzazione dati? | Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dati. |
 | È necessario inserire dati PII per stabilire connessioni tra i dati? | No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII. |
 
