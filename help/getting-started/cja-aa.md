@@ -2,11 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-translation-type: tm+mt
-source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
+source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 63%
+source-wordcount: '1060'
+ht-degree: 61%
 
 ---
 
@@ -63,7 +62,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Media Analytics | I dati multimediali sono disponibili come parte del Connettore dati di Analytics. |
 | eVar di Merchandising | Il comportamento degli eVar di merchandising può essere ottenuto utilizzando dimensioni all’interno di un array di oggetti, in quanto un eVar di merchandising non è impostato per utilizzare la persistenza. Al momento, la persistenza della dimensione merchandising non è disponibile. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analytics for Target (A4T) e Visualizzatori simultanei di contenuti multimediali non sono supportati. |
-| Regole di elaborazione | Per i set di dati basati su Connettore dati di Analytics, le regole di elaborazione vengono ancora applicate. |
+| Regole di elaborazione | Per i set di dati basati su Connettore dati di Analytics, le regole di elaborazione vengono ancora applicate. [Le funzionalità di preparazione dei dati in Adobe Experience ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) Platform possono essere utilizzate anche come sostituzione delle regole di elaborazione per i dati che vanno direttamente in Platform. |
 
 ## Funzioni al momento non supportate, ma pianificate
 
