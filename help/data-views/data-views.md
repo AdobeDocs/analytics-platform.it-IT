@@ -2,11 +2,10 @@
 title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-translation-type: tm+mt
-source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 2%
+source-wordcount: '1056'
+ht-degree: 3%
 
 ---
 
@@ -22,9 +21,9 @@ Puoi creare diverse visualizzazioni dati per la stessa connessione, con set di c
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
 
-## Novità nelle visualizzazioni dati
+## Funzionalità di visualizzazione dati
 
-L’ultimo aggiornamento delle visualizzazioni dati offre molta più flessibilità nelle operazioni che puoi eseguire con le visualizzazioni dati. Questi miglioramenti consentono di **modificare spontaneamente le impostazioni degli elementi dello schema nelle visualizzazioni dati, senza dover modificare lo schema in Adobe Experience Platform o reimplementare l&#39;ambiente CJA**.
+Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform o reimplementare l’ambiente CJA.
 
 * **Puoi cambiare un componente da Metrica a Dimension e viceversa**. Puoi creare metriche dai campi stringa o dimensioni dai campi numerici. Questo semplifica la vita, perché non è necessario creare un campo numerico nello schema XDM per ogni metrica desiderata. Puoi invece crearlo spontaneamente nella finestra di dialogo delle visualizzazioni dati. Di seguito sono riportati alcuni esempi:
    * **Crea una o più dimensioni e/o una dimensione da un singolo campo** schema. È una relazione uno-a-molti. Ad esempio, puoi creare una o più metriche Revenue e/o una o più dimensioni Revenue da un singolo campo di schema.
