@@ -2,11 +2,10 @@
 title: Panoramica su Customer Journey Analytics
 description: Scopri come Customer Journey Analytics consente di utilizzare Analysis Workspace con i dati da Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 94%
+source-wordcount: '1257'
+ht-degree: 91%
 
 ---
 
@@ -64,6 +63,10 @@ Per creare connessioni, aggiungere set di dati e così via è necessario disporr
    * Visualizzare i set di dati
 
 Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Controllo degli accessi in Adobe Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+
+>[!NOTE]
+>
+>Non puoi autorizzare singole metriche o dimensioni nel Customer Journey Analytics, come puoi fare nella tradizionale Adobe Analytics. Le metriche e le dimensioni possono essere modificate nelle visualizzazioni dati e sono quindi soggette a modifiche in CJA, che cambia anche la generazione di rapporti retroattivamente.
 
 ### Accesso utente
 
