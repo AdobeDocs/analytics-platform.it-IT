@@ -2,10 +2,9 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -40,6 +39,14 @@ In precedenza, gli interi venivano trattati automaticamente come metriche in CJA
 1. È ora possibile aggiungere [!UICONTROL Value Bucketing] per presentare questa dimensione in modo fisso nel reporting. (Senza bucket, ogni istanza di questa dimensione apparirà come una riga nel reporting di Workspace.)
 
    ![](assets/bucketing.png)
+
+## Utilizzare dimensioni numeriche come &quot;metriche&quot; nei diagrammi di flusso
+
+Puoi utilizzare una dimensione numerica per ottenere &quot;metriche&quot; nella visualizzazione [!UICONTROL  Flow]. L&#39;esempio seguente mostra [!UICONTROL Marketing Channels] che scorre in [!UICONTROL Orders]:
+
+![](assets/flow.png)
+
+## Includere o escludere valori di metrica
 
 Per ulteriori informazioni sulle altre impostazioni delle visualizzazioni dati, consulta [Creare visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, consulta [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
