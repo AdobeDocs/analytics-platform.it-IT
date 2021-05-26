@@ -2,10 +2,10 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 2%
+source-wordcount: '2551'
+ht-degree: 3%
 
 ---
 
@@ -71,9 +71,9 @@ Ad esempio, dal campo **[!UICONTROL pageTitle]** puoi creare una dimensione deno
 | [!UICONTROL Field Name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Obbligatorio. Un campo non modificabile che mostra il tipo di campo di origine del componente (ad esempio Stringa, Intero, ecc.). Questo campo può contenere più set di dati. |
-| [!UICONTROL Schema type] | Indica se il componente è una stringa, un numero intero, ecc. |
+| [!UICONTROL Schema Data Type] | Indica se il componente è una stringa, un numero intero, ecc. |
 | [!UICONTROL Component ID] | Obbligatorio. Il [CJA API](https://adobe.io/cja-apis/docs) utilizza questo campo per fare riferimento al componente. Puoi fare clic sull’icona di modifica e modificare l’ID del componente. Tuttavia, la modifica dell’ID del componente interrompe tutti i progetti Workspace esistenti che contengono questo componente.<br>Se crei un’altra visualizzazione dati che utilizza un campo diverso per una dimensione pageTitle, puoi rinominarla e rendere compatibile la visualizzazione dati incrociati della dimensione. |
-| [!UICONTROL Path] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
+| [!UICONTROL Schema Path] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
 | [!UICONTROL Hide component in reporting] | Predefinito = disattivato. Consente di eliminare il componente dalla visualizzazione dati quando utilizzato nel rapporto. Questo non influisce sulle autorizzazioni, ma solo sulla cura dei componenti. In altre parole, puoi nascondere il componente da non amministratori nel reporting. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Show All Components] in un progetto Analysis Workspace. |
 
 ### Configurare le impostazioni del formato
@@ -121,6 +121,7 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
+| [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
