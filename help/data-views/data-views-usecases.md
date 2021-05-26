@@ -2,9 +2,9 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
+source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -53,14 +53,36 @@ Puoi utilizzare una dimensione numerica per ottenere &quot;metriche&quot; nella 
 
 È possibile filtrare gli eventi per visualizzare solo ciò che si desidera visualizzare. Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 Dollari. Quindi se hai un ordine che include un acquisto di prodotti da 50 Dollari e un acquisto di prodotti da 25 Dollari, rimuoveremo solo l&#39;acquisto di prodotti da 25 Dollari, non l&#39;intero ordine.
 
-1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , trascina il campo schema [!UICONTROL Orders] nell’area [!UICONTROL Metrics] sotto [!UICONTROL Included components].
+1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] sotto [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
-   1. In [!UICONTROL Format], selezionare [!UICONTROL Currency].
-   1. Alla voce [!UICONTROL Currency], selezionare USD.
-   1. Sotto [!UICONTROL Include/Exclude Values], seleziona la casella di controllo accanto a [!UICONTROL Set include/exclude values].
-   1. In [!UICONTROL Match], selezionare [!UICONTROL If all criteria are met].
-   1. In [!UICONTROL Criteria], selezionare [!UICONTROL is greater than or equal].
-   1. Specifica &quot;50&quot; come valore.
+a) In [!UICONTROL Format], selezionare [!UICONTROL Currency].
+b) Alla voce [!UICONTROL Currency], selezionare USD.
+c. Sotto [!UICONTROL Include/Exclude Values], seleziona la casella di controllo accanto a [!UICONTROL Set include/exclude values].
+d. In [!UICONTROL Match], selezionare [!UICONTROL If all criteria are met].
+e. In [!UICONTROL Criteria], selezionare [!UICONTROL is greater than or equal].
+f. Specifica &quot;50&quot; come valore.
+
+Queste nuove impostazioni ti consentono di visualizzare solo i ricavi di alto valore e di filtrare tutto ciò che è inferiore a $50.
+
+## 5. Utilizzare l&#39;impostazione [!UICONTROL No Value Options]
+
+La tua azienda può aver passato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; nei rapporti. Il valore predefinito in Visualizzazioni dati è &quot;No Value&quot;. Ora è possibile [rinominare &quot;No Value&quot; in &quot;Unspecified&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) nell’interfaccia utente Visualizzazioni dati.
+
+## 6. Utilizza la funzione [!UICONTROL Duplicate]
+
+Duplicare una metrica e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema.
+
+Seleziona l’impostazione Duplica sotto il nome della metrica o delle dimensioni in alto a destra:
+
+![](assets/duplicate.png)
+
+## Creare più metriche con diverse impostazioni di attribuzione
+
+Utilizzando la funzione [!UICONTROL Duplicate] di cui sopra, crea un numero di metriche Revenue con diverse impostazioni di attribuzione come [!UICONTROL First Touch], [!UICONTROL Last Touch] e [!UICONTROL Algorithmic].
+
+Non dimenticare di rinominare ogni metrica per riflettere le differenze, ad esempio &quot;Entrate algoritmiche&quot;:
+
+![](assets/algo-revenue.png)
 
 Per ulteriori informazioni sulle altre impostazioni delle visualizzazioni dati, consulta [Creare visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, consulta [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
