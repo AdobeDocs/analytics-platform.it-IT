@@ -2,10 +2,10 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 3%
+source-wordcount: '2635'
+ht-degree: 2%
 
 ---
 
@@ -117,11 +117,13 @@ Ad esempio, puoi creare una dimensione fuori dal campo pageTitle , ma chiamarla 
 
 ### Configurare le impostazioni del comportamento
 
+Consente di specificare il comportamento di una metrica nel reporting.
+
 ![](assets/behavior-settings.png)
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. |
+| [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. Questo ti dà il valore effettivo di una metrica, ad esempio &quot;50&quot; se il valore dell’ordine era 50. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
@@ -202,6 +204,12 @@ I componenti Standard facoltativi sono disponibili nella scheda **[!UICONTROL St
 | [!UICONTROL Batch ID] | Dimensione | Rappresenta il batch di Experienci Platform di cui faceva parte un elemento [!UICONTROL Event]. |
 | [!UICONTROL Dataset ID] | Dimensione | Rappresenta l&#39;Experience Platform di set di dati di cui faceva parte [!UICONTROL Event]. |
 
+## Utilizzare la funzione [!UICONTROL Duplicate]
+
+Duplicare metriche o dimensioni e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema. Seleziona l’impostazione [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni in alto a destra. Quindi modifica la nuova metrica o dimensione e salvala con un nome più descrittivo.
+
+![](assets/duplicate.png)
+
 ### Filtrare campi e dimensioni/metriche dello schema
 
 Puoi filtrare i campi dello schema nella barra a sinistra in base ai seguenti tipi di dati:
@@ -212,8 +220,7 @@ Puoi anche filtrare per set di dati e specificando se un campo di schema contien
 
 ![](assets/filter-other.png)
 
-
-## 3. Aggiungi un filtro globale alla visualizzazione dati
+## Aggiungere un filtro globale alla visualizzazione dati
 
 Puoi aggiungere filtri applicabili all’intera visualizzazione dati. Questo filtro verrà applicato a qualsiasi rapporto eseguito in Workspace.
 
