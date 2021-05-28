@@ -2,7 +2,7 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 2%
@@ -27,9 +27,9 @@ La creazione di una visualizzazione dati comporta la creazione di metriche e dim
 | [!UICONTROL Description] | Una descrizione dettagliata non è obbligatoria, ma è consigliata. |
 | [!UICONTROL Time zone] | Scegli il fuso orario in cui dovranno essere presentati i dati. |
 | [!UICONTROL Tags] | I tag ti consentono di organizzare le visualizzazioni dati in categorie. |
-| [!UICONTROL Containers] | Puoi rinominare i contenitori qui ed ecco come appariranno in qualsiasi progetto Workspace basato su questa visualizzazione dati. I contenitori vengono utilizzati nei filtri e nell’abbandono/flusso, ecc., per definire l’ampiezza o la limitazione dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
-| [!UICONTROL Person container name is…] | [!UICONTROL Person] (impsotazione predefinita). Il contenitore [!UICONTROL Person] include ogni visita e visualizzazione di pagina per i visitatori entro un intervallo di tempo specificato. È possibile rinominarlo &quot;Utente&quot; o qualsiasi altro termine preferito. |
-| [!UICONTROL Session container name is…] | [!UICONTROL Session] (impsotazione predefinita). Il contenitore [!UICONTROL Session] ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominarlo in &quot;Visita&quot; o in qualsiasi altro termine preferito. |
+| [!UICONTROL Containers] | Puoi rinominare i contenitori qui per determinare come vengono visualizzati in qualsiasi progetto Workspace basato su questa visualizzazione dati. I contenitori vengono utilizzati nei filtri e nell’abbandono/flusso e così via per definire l’ampiezza o la restringenza dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL Person container name is…] | [!UICONTROL Person] (impsotazione predefinita). Il contenitore [!UICONTROL Person] include ogni visita e visualizzazione di pagina per i visitatori entro un intervallo di tempo specificato. Puoi rinominare il contenitore in &quot;Utente&quot; o in qualsiasi altro termine preferito. |
+| [!UICONTROL Session container name is…] | [!UICONTROL Session] (impsotazione predefinita). Il contenitore [!UICONTROL Session] ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominare questo contenitore in &quot;Visita&quot; o in qualsiasi altro termine preferito. |
 | [!UICONTROL Event container name is…] | [!UICONTROL Event] (impsotazione predefinita). Il contenitore [!UICONTROL Event] definisce gli eventi di pagina da includere o escludere da un filtro. |
 
 Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare i componenti Standard .
@@ -43,7 +43,7 @@ Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. 
 Puoi vedere il [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati, e il relativo [!UICONTROL Schema fields] qui sotto. Nota bene:
 
 * I componenti già inclusi sono i componenti standard richiesti (generati dal sistema).
-* Per impostazione predefinita, viene applicato anche il filtro **[!UICONTROL Contains data]** in modo che vengano visualizzati solo i campi dello schema contenenti dati. Se cerchi un campo che non contiene dati, devi solo rimuovere il filtro.
+* Ad Adobe, il filtro **[!UICONTROL Contains data]** viene applicato per impostazione predefinita, in modo che vengano visualizzati solo i campi dello schema contenenti dati. Se stai cercando un campo che non contiene dati, rimuovi il filtro .
 
 1. Ora trascina un campo schema, ad esempio [!UICONTROL pageTitle], dalla barra a sinistra nella sezione Metriche o Dimension .
 
