@@ -2,9 +2,9 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Questi casi d’uso mostrano la flessibilità e la potenza delle visualizzazioni dati in Customer Journey Analytics.
 
-## 1. Crea una metrica Ordini da un campo di schema pageTitle (stringa)
+## 1. Creare una metrica da un campo schema stringa
 
 Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICONTROL Orders] da un campo di schema [!UICONTROL pageTitle] che è una stringa. Di seguito sono riportati i passaggi da seguire:
 
@@ -27,6 +27,8 @@ Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICO
    La frase &quot;di conferma&quot; indica che si tratta di un ordine. Dopo aver esaminato tutti i titoli delle pagine in cui tali criteri sono soddisfatti, viene conteggiato un &quot;1&quot; per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, filtri e ovunque puoi utilizzare metriche standard.
 1. Puoi inoltre specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] di [!UICONTROL Session].
 Puoi anche creare un’altra metrica [!UICONTROL Orders] dallo stesso campo e specificare un modello di attribuzione diverso, ad esempio [!UICONTROL First Touch], e un [!UICONTROL Lookback window] diverso, ad esempio [!UICONTROL 30 days].
+
+Un altro esempio potrebbe essere quello di utilizzare l’ID visitatore, una dimensione, come metrica per determinare quanti ID visitatore ha la tua azienda.
 
 ## 2. Utilizza i numeri interi come dimensioni
 
@@ -68,17 +70,9 @@ Queste nuove impostazioni ti consentono di visualizzare solo i ricavi di alto va
 
 La tua azienda può aver passato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; nei rapporti. Il valore predefinito in Visualizzazioni dati è &quot;No Value&quot;. Ora è possibile [rinominare &quot;No Value&quot; in &quot;Unspecified&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) nell’interfaccia utente Visualizzazioni dati.
 
-## 6. Utilizza la funzione [!UICONTROL Duplicate]
+## 6. Creazione di più metriche con diverse impostazioni [!UICONTROL Attribution]
 
-Duplicare una metrica e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema.
-
-Seleziona l’impostazione Duplica sotto il nome della metrica o delle dimensioni in alto a destra:
-
-![](assets/duplicate.png)
-
-## Creare più metriche con diverse impostazioni di attribuzione
-
-Utilizzando la funzione [!UICONTROL Duplicate] di cui sopra, crea un numero di metriche Revenue con diverse impostazioni di attribuzione come [!UICONTROL First Touch], [!UICONTROL Last Touch] e [!UICONTROL Algorithmic].
+Utilizzando la funzione [!UICONTROL Duplicate] in alto a destra, crea un numero di metriche Revenue con diverse impostazioni di attribuzione come [!UICONTROL First Touch], [!UICONTROL Last Touch] e [!UICONTROL Algorithmic].
 
 Non dimenticare di rinominare ogni metrica per riflettere le differenze, ad esempio &quot;Entrate algoritmiche&quot;:
 
