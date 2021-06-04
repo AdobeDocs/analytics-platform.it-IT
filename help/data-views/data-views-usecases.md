@@ -2,9 +2,9 @@
 title: Casi di utilizzo per le visualizzazioni dati in Customer Journey Analytics
 description: Casi d’uso multipli che mostrano flessibilità e potenza delle visualizzazioni dati nel Customer Journey Analytics
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,9 @@ Puoi utilizzare una dimensione numerica per ottenere &quot;metriche&quot; nella 
 
 ## 4. Eseguire il filtro degli eventi secondari
 
-È possibile filtrare gli eventi per visualizzare solo ciò che si desidera visualizzare. Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 Dollari. Quindi se hai un ordine che include un acquisto di prodotti da 50 Dollari e un acquisto di prodotti da 25 Dollari, rimuoveremo solo l&#39;acquisto di prodotti da 25 Dollari, non l&#39;intero ordine.
+Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di sottoevento, mentre i filtri (segmenti) generati nel generatore di filtri consentono solo di filtrare a livello di evento. Puoi quindi eseguire il filtraggio degli eventi secondari utilizzando l’inclusione/esclusione nelle visualizzazioni dati, e quindi fare riferimento a tale nuova metrica/dimensione in un filtro a livello di evento.
+
+Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 Dollari. Quindi se hai un ordine che include un acquisto di prodotti da 50 Dollari e un acquisto di prodotti da 25 Dollari, rimuoveremo solo l&#39;acquisto di prodotti da 25 Dollari, non l&#39;intero ordine.
 
 1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) , trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] sotto [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
@@ -69,6 +71,8 @@ Queste nuove impostazioni ti consentono di visualizzare solo i ricavi di alto va
 ## 5. Utilizzare l&#39;impostazione [!UICONTROL No Value Options]
 
 La tua azienda può aver passato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; nei rapporti. Il valore predefinito in Visualizzazioni dati è &quot;No Value&quot;. Ora è possibile [rinominare &quot;No Value&quot; in &quot;Unspecified&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) nell’interfaccia utente Visualizzazioni dati.
+
+Un altro esempio potrebbe essere la dimensione per la registrazione di un programma di iscrizione. In questo caso, è possibile rinominare &quot;Nessun valore&quot; in &quot;Nessuna registrazione al programma di iscrizione&quot;.
 
 ## 6. Creazione di più metriche con diverse impostazioni [!UICONTROL Attribution]
 
