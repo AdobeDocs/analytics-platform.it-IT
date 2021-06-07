@@ -1,20 +1,19 @@
 ---
 description: Mostra i primi 5 valori per le dimensioni non temporali (e 15 per le dimensioni temporali).
 title: Come visualizzare in anteprima le dimensioni in CJA Workspace
-translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '222'
+ht-degree: 88%
 
 ---
-
 
 # Anteprima dimensioni
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Passa il cursore sull’icona Informazioni (i) accanto a una dimensione. Vengono visualizzate le 5 dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali). Precedentemente questi valori erano statici e i 5 valori scelti non cambiavano mai.
 
