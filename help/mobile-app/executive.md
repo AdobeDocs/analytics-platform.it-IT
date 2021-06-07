@@ -1,14 +1,13 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Analytics
-translation-type: tm+mt
-source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 90%
 
 ---
-
 
 # Dashboard di Analytics: guida introduttiva rapida per utenti esecutivi
 
@@ -71,7 +70,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 Per utilizzare le dashboard:
 
-1. Accedi all’app. La schermata di accesso apparirà all’avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che quelli Enterprise/Federated.
+1. Accedi all’app. La schermata di accesso apparirà all’avvio delle dashboard. Segui le istruzioni utilizzando le tue credenziali esistenti di Adobe Analytics. Supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
    ![Sequenza di accesso](assets/signseq.png)
 
@@ -120,7 +119,7 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i dati più recenti di confronto dei nuovi intervalli selezionati.
 
-7. Per applicare un filtro alla scorecard, tocca il menu a discesa del filtro e seleziona un filtro configurato dal tuo curatore. I [filtri](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) nell’app funzionano allo stesso modo di Analytics Workspace.
+7. Per applicare un filtro alla scorecard, tocca il menu a discesa del filtro e seleziona un filtro configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro](assets/segment_filter.png)
 
