@@ -2,10 +2,9 @@
 title: Panoramica di Analytics tra canali
 description: Ri-chiave ID visitatore da più set di dati per unire i visitatori.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-translation-type: tm+mt
-source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 9%
 
 ---
@@ -57,7 +56,7 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 
 Una volta che l’organizzazione soddisfa tutti i prerequisiti e ne comprende i limiti, puoi seguire questi passaggi per iniziare a utilizzarla in CJA.
 
-1. Importa i dati desiderati in Adobe Experience Platform. Consulta [Creare uno schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) e [Inserire dati](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
+1. Importa i dati desiderati in Adobe Experience Platform. Consulta [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) e [Inserire dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
 1. Contatta il tuo Adobe Account Manager che include quanto segue:
    * Una richiesta per abilitare Cross-Channel Analytics
    * ID set di dati per il set di dati da reimpostare
