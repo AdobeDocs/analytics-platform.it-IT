@@ -2,9 +2,9 @@
 title: Panoramica su Customer Journey Analytics
 description: Scopri come Customer Journey Analytics consente di utilizzare Analysis Workspace con i dati da Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1255'
 ht-degree: 91%
 
 ---
@@ -26,7 +26,7 @@ La versione iniziale di Customer Journey Analytics include numerose funzioni inc
 
 ## Confronto tra CJA e Analisi multidispositivo
 
-[Analisi multidispositivo](https://docs.adobe.com/content/help/it-IT/analytics/components/cda/cda-home.html) si integra con Adobe Experience Platform Identity Service tramite Co-op Graph (Grafico co-op) o Private Graph (Grafico privato), per identificare in che modo i dispositivi digitali si associano alle persone. È disponibile per i clienti di Adobe Analytics Ultimate.
+[Analisi multidispositivo](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) si integra con Adobe Experience Platform Identity Service tramite Co-op Graph (Grafico co-op) o Private Graph (Grafico privato), per identificare in che modo i dispositivi digitali si associano alle persone. È disponibile per i clienti di Adobe Analytics Ultimate.
 
 Customer Journey Analytics (CJA), invece, si integra con i set di dati di Adobe Experience Platform e consente di effettuare l’analisi cross-channel in Analysis Workspace. Anche se CJA non si integra ancora con i grafici co-op o di identità privata, puoi inserire il tuo ID per unire i set di dati, i quali possono andare ben oltre i semplici dati digitali, includendo sia punti di contatto online che offline. I prerequisiti per CJA sono descritti di seguito in modo più dettagliato.
 
