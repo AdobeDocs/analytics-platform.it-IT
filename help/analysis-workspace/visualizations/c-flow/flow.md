@@ -1,14 +1,13 @@
 ---
-description: La funzione Flusso mostra i percorsi seguiti dai clienti nei siti Web e nelle app.
+description: La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti web e nelle tue app.
 title: Panoramica del flusso
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 85%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
-
 
 # Panoramica del flusso
 
@@ -18,9 +17,9 @@ Consente di:
 
 * Visualizzare il percorso seguito dal cliente nel sito Web o nell’applicazione
 * Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, uscita o una specifica dimensione
-* Creare filtri designando un punto specifico in un percorso scelto
+* Creare filtri designando un punto specifico nel percorso scelto
 
-[Esercitazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=it-IT) video sulla visualizzazione Flusso (4:56)
+[Tutorial video sulla visualizzazione Flusso](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Flussi interdimensionali {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
