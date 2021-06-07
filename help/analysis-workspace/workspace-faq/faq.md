@@ -2,11 +2,10 @@
 description: Domande frequenti su Workspace e suggerimenti per la risoluzione dei problemi.
 title: Domande frequenti
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 78%
+source-wordcount: '410'
+ht-degree: 76%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 | Domanda | Risposta |
 |--- |--- |
@@ -36,4 +35,4 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 
 * Se hai applicato un filtro nel rapporto, i criteri del filtro potrebbero non corrispondere ad alcun dato. Prova a rimuovere il filtro o a regolare la definizione del filtro.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
-* Vai al tuo sito web e utilizza il [Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) per convalidare i dati raccolti.
+* Vai al tuo sito web e utilizza il [Debugger](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) per convalidare i dati raccolti.
