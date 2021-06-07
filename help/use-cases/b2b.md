@@ -2,10 +2,9 @@
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scopri come aggiungere dati basati su account come set di dati di ricerca a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
-translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '909'
 ht-degree: 2%
 
 ---
@@ -30,7 +29,7 @@ Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea
 
 ## 1. Creare lo schema di ricerca (Experience Platform)
 
-La creazione di uno schema personalizzato per la tabella [lookup](/help/getting-started/cja-glossary.md) assicura che il set di dati utilizzato sia disponibile in CJA con la configurazione corretta (tipo di record). Si consiglia di [creare una classe di schema personalizzata](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) denominata &quot;Lookup&quot;, vuota di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
+La creazione di uno schema personalizzato per la tabella [lookup](/help/getting-started/cja-glossary.md) assicura che il set di dati utilizzato sia disponibile in CJA con la configurazione corretta (tipo di record). Si consiglia di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) denominata &quot;Lookup&quot;, vuota di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
 
 ![](assets/create-new-class.png)
 
@@ -54,9 +53,9 @@ Ad esempio, i ricavi annuali o i dipendenti totali sono definiti come Intero nel
 
 ## 3. Inserire dati in Experience Platform
 
-Le istruzioni su come [mappare un file CSV su uno schema XDM](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) devono essere utili se utilizzi un file CSV.
+Le istruzioni su come [mappare un file CSV su uno schema XDM](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) devono essere utili se utilizzi un file CSV.
 
-[Sono disponibili anche altri ](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) metodi.
+[Sono disponibili anche altri ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) metodi.
 
 L’inserimento dei dati e la determinazione della ricerca richiede circa 2-4 ore, a seconda delle dimensioni della tabella di ricerca.
 
@@ -67,7 +66,7 @@ Per questo esempio, stiamo combinando 3 set di dati in una singola connessione C
 | Nome set di dati | Descrizione | Classe AEP Schema | Dettagli del set di dati |
 | --- | --- | --- | --- |
 | Impression B2B | Contiene i dati a livello di evento e di click-stream a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché il nome marketing, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | Il `emailID` viene utilizzato come identità principale e gli viene assegnato uno spazio dei nomi `Customer ID`. Di conseguenza, verrà visualizzato come il valore predefinito **[!UICONTROL Person ID]** nel Customer Journey Analytics. ![Impression](assets/impressions-mixins.png) |
-| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio il loro titolo del lavoro, a quale account appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema Profilo individuale XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, CJA non sarà in grado di collegare il `emailID` nel profilo B2B con il `emailID` nei dati di impression B2B. ![Profilo](assets/profile-mixins.png) |
+| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio il loro titolo del lavoro, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema Profilo individuale XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, CJA non sarà in grado di collegare il `emailID` nel profilo B2B con il `emailID` nei dati di impression B2B. ![Profilo](assets/profile-mixins.png) |
 | Informazioni B2B | Vedi &quot;Crea set di dati di ricerca&quot; sopra. | B2BAccount (classe di schema di ricerca personalizzata) | La relazione tra `accountID` e il set di dati Impression B2B è stata creata automaticamente collegando il set di dati di informazioni B2B con il set di dati di impression B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](assets/lookup-mixins.png) |
 
 Ecco come combinare i set di dati:
