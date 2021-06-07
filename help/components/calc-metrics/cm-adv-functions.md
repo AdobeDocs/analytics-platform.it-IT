@@ -1,20 +1,19 @@
 ---
 title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 100%
+source-wordcount: '2944'
+ht-degree: 99%
 
 ---
-
 
 # Riferimento - Funzioni avanzate
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Accedi a queste funzioni selezionando **[!UICONTROL Show Advanced]** nell’elenco a discesa **[!UICONTROL Functions]**.
 
@@ -234,8 +233,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Metrica da correlare con *metric_Y*. |
-| *metriche_Y* | Metrica da correlare con *metric_X*. |
+| *metric_X* | Metrica da correlare con *metric_Y*. |
+| *metric_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione esponenziale: intersezione (tabella)
 
@@ -247,8 +246,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione esponenziale: pendenza (tabella)
 
@@ -260,8 +259,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Base (riga)
 
@@ -379,8 +378,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Metrica da correlare con *metric_Y*. |
-| *metriche_Y* | Metrica da correlare con *metric_X*. |
+| *metric_X* | Metrica da correlare con *metric_Y*. |
+| *metric_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione logaritmo: intersezione (tabella)
 
@@ -392,8 +391,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione logaritmo: valore Y previsto (riga)
 
@@ -407,8 +406,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione logaritmo: pendenza (tabella)
 
@@ -490,8 +489,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Metrica da correlare con *metric_Y*. |
-| *metriche_Y* | Metrica da correlare con *metric_X*. |
+| *metric_X* | Metrica da correlare con *metric_Y*. |
+| *metric_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione di potenza: intersezione (tabella)
 
@@ -503,8 +502,8 @@ Restituisce l’intersezione, *b*, tra due colonne di metrica (*metric_X* e *met
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione di potenza: valore Y previsto (riga)
 
@@ -516,8 +515,8 @@ Calcola i [!DNL y] valori previsti ( [!DNL metric_Y]), in base ai [!DNL x] valor
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione di potenza: pendenza (tabella)
 
@@ -529,8 +528,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione quadratica: coefficiente di correlazione (tabella)
 
@@ -542,8 +541,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Metrica da correlare con *metric_Y*. |
-| *metriche_Y* | Metrica da correlare con *metric_X*. |
+| *metric_X* | Metrica da correlare con *metric_Y*. |
+| *metric_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione quadratica: intersezione (tabella)
 
@@ -555,8 +554,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione quadratica: valore Y previsto (riga)
 
@@ -568,8 +567,8 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_A* | Una metrica da designare come dati dipendenti. |
-| *metriche_B* | Una metrica da designare come dati dipendenti. |
+| *metric_A* | Una metrica da designare come dati dipendenti. |
+| *metric_B* | Una metrica da designare come dati dipendenti. |
 
 ## Regressione quadratica: pendenza (tabella)
 
@@ -581,8 +580,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: coefficiente di correlazione (tabella)
 
@@ -594,8 +593,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Metrica da correlare con *metric_Y*. |
-| *metriche_Y* | Metrica da correlare con *metric_X*. |
+| *metric_X* | Metrica da correlare con *metric_Y*. |
+| *metric_Y* | Metrica da correlare con *metric_X*. |
 
 ## Regressione reciproca: intersezione (tabella)
 
@@ -607,8 +606,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: valore Y previsto (riga)
 
@@ -620,8 +619,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Regressione reciproca: pendenza (tabella)
 
@@ -633,8 +632,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argomento | Descrizione |
 |---|---|
-| *metriche_X* | Una metrica da designare come dati dipendenti. |
-| *metriche_Y* | Una metrica da designare come dati indipendenti. |
+| *metric_X* | Una metrica da designare come dati dipendenti. |
+| *metric_Y* | Una metrica da designare come dati indipendenti. |
 
 ## Seno (riga)
 
@@ -730,4 +729,3 @@ Restituisce la probabilità che la riga corrente possa essere vista casualmente 
 >[!NOTE]
 >
 >Presuppone che i valori siano distribuiti normalmente.
-
