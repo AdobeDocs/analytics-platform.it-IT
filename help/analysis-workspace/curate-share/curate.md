@@ -3,11 +3,10 @@ description: La cura ti permette di limitare i componenti prima di condividere u
 keywords: Cura di Analysis Workspace
 title: Curare progetti
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 42%
+source-wordcount: '471'
+ht-degree: 41%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 42%
 La cura ti consente di limitare i componenti (dimensioni, metriche, filtri, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
 >[!NOTE]
-> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite l&#39; [Admin Console Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html). La cura è un filtro secondario.
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite l&#39; [Admin Console Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). La cura è un filtro secondario.
 
 ## Applicare la cura del progetto
 
