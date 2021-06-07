@@ -3,11 +3,10 @@ keywords: Analysis Workspace
 title: Panoramica di Analysis Workspace
 description: Panoramica delle funzionalità di Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 91%
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +36,7 @@ Una volta effettuato l’accesso, segui il tutorial di formazione su Analysis Wo
 
 ## Creare un nuovo progetto {#new-project}
 
-Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere se iniziare da un progetto vuoto oppure da una [scheda di valutazione mobile vuota](https://docs.adobe.com/content/help/it-IT/analytics/analyze/mobapp/curator.html), per condividere l’analisi rispettivamente dal browser oppure dai dashboard dell’app mobile Adobe Analytics.
+Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere se iniziare da un progetto vuoto oppure da una [scheda di valutazione mobile vuota](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), per condividere l’analisi rispettivamente dal browser oppure dai dashboard dell’app mobile Adobe Analytics.
 
 ![](assets/create-new-project.png)
 
@@ -65,4 +64,4 @@ I **pannelli** servono per organizzare l’analisi all’interno di un progetto 
 
 ## Risorse aggiuntive {#resources}
 
-* Adobe offre centinaia [tutorial di formazione video per Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html).
+* Adobe offre centinaia di [tutorial di formazione video per Analytics](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
