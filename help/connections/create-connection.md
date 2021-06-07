@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 90470be09d666c0c3937670d5d5669ab668ed2c4
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1892'
-ht-degree: 30%
+source-wordcount: '1887'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ Una connessione consente di integrare i set di dati da [!DNL Adobe Experience Pl
 
 Fai clic [qui](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en) per una panoramica video.
 
-Per creare una connessione CJA, è necessario disporre delle seguenti autorizzazioni:
+Per creare una connessione CJA, è necessario disporre delle seguenti autorizzazioni in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modellazione dati: Visualizza schemi, Gestisci schemi
@@ -41,7 +41,7 @@ Customer Journey Analytics
 
 1. Scegli una sandbox in Experience Platform che contiene i set di dati a cui desideri creare una connessione.
 
-   Adobe Experience Platform fornisce [sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) che suddivide una singola istanza di Platform in ambienti virtuali separati per aiutare a sviluppare e sviluppare applicazioni di esperienza digitale. Potete considerare le sandbox come &quot;silos di dati&quot; che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.  Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi eseguire il pull.
+   Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) che suddivide una singola istanza di Platform in ambienti virtuali separati per aiutare a sviluppare e sviluppare applicazioni di esperienza digitale. Potete considerare le sandbox come &quot;silos di dati&quot; che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.  Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi eseguire il pull.
 
    >[!IMPORTANT]
    >
@@ -71,7 +71,7 @@ Sul lato destro è ora possibile configurare i set di dati aggiunti.
 
 1. **[!UICONTROL Time stamp]**: Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo timestamp predefinito dagli schemi basati su eventi in  [!UICONTROL Experience Platform].
 
-1. **[!UICONTROL Schema]**: Si tratta dello  [](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) schema in cui è stato creato il set di dati in Adobe Experience Platform.
+1. **[!UICONTROL Schema]**: Si tratta dello  [](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) schema in cui è stato creato il set di dati in Adobe Experience Platform.
 
 1. **[!UICONTROL Person ID]**: Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati nell’Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.
 
@@ -85,7 +85,7 @@ Sul lato destro è ora possibile configurare i set di dati aggiunti.
 
 Il Customer Journey Analytics ora supporta la possibilità di utilizzare la mappa identità per il proprio ID persona. Identity Map è una struttura di dati a mappa che consente a un utente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi dell’identità e il valore è una struttura che contiene il valore dell’identità. La Identity Map esiste su ogni riga/evento caricato e viene compilata di conseguenza per ogni riga.
 
-La Identity Map è disponibile per qualsiasi set di dati che utilizza uno schema basato sulla classe [ExperienceEvent XDM](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) . Quando selezioni un set di dati da includere in una connessione CJA, puoi selezionare un campo come ID principale o Identity Map:
+La Identity Map è disponibile per qualsiasi set di dati che utilizza uno schema basato sulla classe [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) . Quando selezioni un set di dati da includere in una connessione CJA, puoi selezionare un campo come ID principale o Identity Map:
 
 ![](assets/idmap1.png)
 
@@ -94,7 +94,7 @@ Se selezioni Identity Map, ottieni due opzioni di configurazione aggiuntive:
 | Opzione | Descrizione |
 |---|---|
 | [!UICONTROL Use Primary ID Namespace] | Questo indica a CJA, per riga, di trovare l’identità nella mappa identità contrassegnata con un attributo primary=true e utilizzarla come ID persona per quella riga. Questo significa che si tratta della chiave primaria che verrà utilizzata in Experience Platform per il partizionamento. È anche il candidato principale per l’utilizzo come ID visitatore di CJA (a seconda di come il set di dati è configurato in una connessione CJA). |
-| [!UICONTROL Namespace] | (Questa opzione è disponibile solo se non si utilizza lo spazio dei nomi ID primario). Gli spazi dei nomi di identità sono un componente di [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) che funge da indicatori del contesto a cui si riferisce un’identità. Se specifichi uno spazio dei nomi, CJA cercherà la mappa identità di ogni riga per questa chiave del namespace e utilizzerà l’identità in tale spazio dei nomi come ID persona per tale riga. Poiché CJA non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali namespace sono effettivamente presenti, nel menu a discesa vengono elencati tutti i namespace possibili. È necessario sapere quali namespace sono specificati nei dati; non è possibile rilevare automaticamente questo valore. |
+| [!UICONTROL Namespace] | (Questa opzione è disponibile solo se non si utilizza lo spazio dei nomi ID primario). Gli spazi dei nomi di identità sono un componente di [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) che funge da indicatori del contesto a cui si riferisce un’identità. Se specifichi uno spazio dei nomi, CJA cercherà la mappa identità di ogni riga per questa chiave del namespace e utilizzerà l’identità in tale spazio dei nomi come ID persona per tale riga. Poiché CJA non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali namespace sono effettivamente presenti, nel menu a discesa vengono elencati tutti i namespace possibili. È necessario sapere quali namespace sono specificati nei dati; non è possibile rilevare automaticamente questo valore. |
 
 ### Casi edge di Identity Map
 
@@ -117,8 +117,8 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
    | [!UICONTROL Description] | Aggiungi ulteriori dettagli per distinguere questa connessione dalle altre. |
    | [!UICONTROL Datasets] | Set di dati inclusi in questa connessione. |
    | [!UICONTROL Automatically import all new datasets in this connection, beginning today.] | Seleziona questa opzione se desideri stabilire una connessione continua in modo che tutti i nuovi batch di dati aggiunti ai set di dati in questa connessione passino automaticamente in [!UICONTROL Workspace]. |
-   | [!UICONTROL Import all existing data] | Quando selezioni questa opzione e salvi la connessione, tutti i dati esistenti (storici) da [!DNL Experience Platform] per tutti i set di dati in questa connessione verranno importati o precompilati. In futuro verranno importati automaticamente anche tutti i dati storici esistenti per eventuali nuovi set di dati aggiunti a questa connessione salvata. Vedi anche [Dati storici di backfill](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) di seguito.<br>**Ricorda che una volta salvata la connessione questa impostazione non può essere modificata.** |
-   | [!UICONTROL Average number of daily events] | È necessario specificare il numero medio di eventi giornalieri da importare (nuovi dati **e** backfill dati) per tutti i set di dati della connessione. Seleziona un’opzione dal menu a discesa. In questo modo l&#39;Adobe può allocare spazio sufficiente per questi dati.<br>Se non si conosce il numero medio di eventi giornalieri che la società sta per importare, è possibile eseguire una semplice query SQL in  [Adobe Experience Platform Query ](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) Service per scoprire.<br>Vedi &quot;Calcola il numero medio di eventi giornalieri&quot; di seguito. |
+   | [!UICONTROL Import all existing data] | Quando selezioni questa opzione e salvi la connessione, tutti i dati esistenti (storici) da [!DNL Experience Platform] per tutti i set di dati in questa connessione verranno importati o precompilati. In futuro verranno importati automaticamente anche tutti i dati storici esistenti per eventuali nuovi set di dati aggiunti a questa connessione salvata. Vedi anche [Dati storici di backfill](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) di seguito.<br>**Ricorda che una volta salvata la connessione questa impostazione non può essere modificata.** |
+   | [!UICONTROL Average number of daily events] | È necessario specificare il numero medio di eventi giornalieri da importare (nuovi dati **e** backfill dati) per tutti i set di dati della connessione. Seleziona un’opzione dal menu a discesa. In questo modo l&#39;Adobe può allocare spazio sufficiente per questi dati.<br>Se non si conosce il numero medio di eventi giornalieri che la società sta per importare, è possibile eseguire una semplice query SQL in  [Adobe Experience Platform Query ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) Service per scoprire.<br>Vedi &quot;Calcola il numero medio di eventi giornalieri&quot; di seguito. |
 
 1. Fai clic su **[!UICONTROL Save and create data view]**. Per la documentazione, consulta [creare una visualizzazione dati](/help/data-views/create-dataview.md).
 
@@ -130,13 +130,13 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
 * Diamo priorità ai nuovi dati aggiunti a un set di dati nella connessione, in modo che questi nuovi dati abbiano la latenza più bassa.
 * Eventuali dati di backfill (storici) vengono importati a una velocità più bassa. La latenza dipende dalla quantità di dati storici disponibili, insieme all’impostazione **[!UICONTROL Average number of daily events]** selezionata. Ad esempio, se disponi di più di un miliardo di righe di dati al giorno, più 3 anni di dati storici, l’importazione potrebbe richiedere più settimane. D&#39;altra parte, se ci sono meno di un milione di righe al giorno e una settimana di dati storici, ci vorrebbe meno di un&#39;ora.
 * Il backfill si applica all’intera connessione, non a ogni singolo set di dati.
-* Il [Connettore sorgente Adobe Analytics](https://docs.adobe.com/content/help/it-IT/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) importa fino a 13 mesi di dati, indipendentemente dalle dimensioni.
+* Il [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html?lang=it) importa fino a 13 mesi di dati, indipendentemente dalle dimensioni.
 
 ### Calcolare il numero medio di eventi giornalieri
 
 Questo calcolo deve essere fatto per ogni set di dati della connessione.
 
-1. Vai a [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) e crea una nuova query.
+1. Vai a [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) e crea una nuova query.
 
 1. La query avrà un aspetto simile al seguente:<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
