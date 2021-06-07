@@ -3,11 +3,10 @@ description: Utilizza i modelli in Workspace e crea modelli personalizzati.
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 exl-id: 464032a1-6dae-4df5-b4db-b277788e88c2
-translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 95%
+source-wordcount: '696'
+ht-degree: 92%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi scegliere di creare un progetto da:
 
 * **Progetto vuoto (predefinito)**: per le istruzioni consulta [Creazione di un progetto di Analysis Workspace](/help/analysis-workspace/home.md).
 * **Modello standard**: questi modelli vengono creati da Adobe e vengono forniti con il prodotto.
-* **Modello personalizzato**: questi modelli possono essere creati, condivisi o eliminati da utenti con diritti di amministratore o da non amministratori, a condizione che dispongano dell’autorizzazione [!UICONTROL Analysis Workspace: Save as Template] in Admin Console. [Ulteriori informazioni...](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-console/permissions/product-profile.html)
+* **Modello personalizzato**: questi modelli possono essere creati, condivisi o eliminati da utenti con diritti di amministratore o da non amministratori, a condizione che dispongano dell’autorizzazione [!UICONTROL Analysis Workspace: Save as Template] in Admin Console. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
