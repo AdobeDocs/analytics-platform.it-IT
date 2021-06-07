@@ -2,14 +2,13 @@
 description: Esempi di utilizzo di analisi per coorte.
 keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
-feature: Reports & Analytics Basics
+feature: Nozioni di base su Reports & Analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 82%
+source-wordcount: '938'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Esempi di utilizzo di [!UICONTROL Cohort Analysis].
 
