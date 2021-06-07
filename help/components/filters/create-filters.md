@@ -2,11 +2,10 @@
 title: Creare filtri
 description: Scopri l’interfaccia utente per la creazione di filtri.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 33%
+source-wordcount: '364'
+ht-degree: 26%
 
 ---
 
@@ -44,8 +43,8 @@ Esistono diversi altri metodi per applicare filtri a un progetto:
 | Azione | Descrizione |
 |--- |--- |
 | Crea filtro da selezione | Crea un filtro in linea. Seleziona le righe, fai clic con il pulsante destro del mouse sulla selezione, quindi crea un filtro in linea. Questo filtro si applica solo al progetto aperto e non viene salvato come filtro CJA. 1. Seleziona le righe.  2. Fai clic con il pulsante destro del mouse sulla selezione.  3. Fai clic su *Crea filtro da selezione*. |
-| Componenti > Nuovo filtro | Visualizza il Generatore di filtri. Per ulteriori informazioni sui filtri, consulta [Generatore di filtri](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-build.html) . |
-| Share (Condividi) > Share Project (Condividi progetto) or Share (Condividi) > Curate Project Data (Cura dati progetto) | In [Cura e condivisione](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
+| Componenti > Nuovo filtro | Visualizza il Generatore di filtri. Per ulteriori informazioni sui filtri, consulta [Generatore di filtri](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) . |
+| Share (Condividi) > Share Project (Condividi progetto) or Share (Condividi) > Curate Project Data (Cura dati progetto) | In [Cura e condivisione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
 | Utilizza i filtri come dimensioni | Video: Utilizzo dei filtri come Dimension in Analysis Workspace |
 
 >[!VIDEO](https://video.tv.adobe.com/v/23974)
