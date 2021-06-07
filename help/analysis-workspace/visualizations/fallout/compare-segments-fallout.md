@@ -3,11 +3,10 @@ description: Puoi creare filtri da un punto di contatto, aggiungere filtri come 
 keywords: abbandono e filtri;filtri nell’analisi dell’abbandono;confrontare filtri nell’abbandono
 title: Applicare i filtri nell’analisi dell’abbandono
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 17%
+source-wordcount: '433'
+ht-degree: 15%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
 
