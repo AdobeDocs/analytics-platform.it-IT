@@ -2,11 +2,10 @@
 description: Modalità di calcolo dei totali in Workspace.
 title: Totali in Workspace
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 91%
+source-wordcount: '470'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livello di suddivisione, la quale può mostrare due totali:
 
@@ -25,7 +24,7 @@ Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livel
 
 ## Impostazione di visualizzazione del totale
 
-In **[!UICONTROL Column Settings]** (Impostazioni colonna) sono disponibili le opzioni **[!UICONTROL Show Totals]** (Mostra totali) e **[!UICONTROL Show Grand Total]** (Mostra totale complessivo). Se queste impostazioni non sono selezionate, i totali verranno rimossi dalla tabella. Ciò può essere utile nei casi in cui i totali siano privi di senso, ad esempio in alcuni [scenari di metriche calcolate](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html).
+In **[!UICONTROL Column Settings]** (Impostazioni colonna) sono disponibili le opzioni **[!UICONTROL Show Totals]** (Mostra totali) e **[!UICONTROL Show Grand Total]** (Mostra totale complessivo). Se queste impostazioni non sono selezionate, i totali verranno rimossi dalla tabella. Ciò può essere utile nei casi in cui i totali siano privi di senso, ad esempio in alcuni [scenari di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html).
 
 ![](assets/column-settings-total.png)
 
@@ -43,7 +42,7 @@ I totali della [riga statica](/help/analysis-workspace/visualizations/freeform-t
 | Domande | Risposta |
 |---|---|
 | Su quale “totale” si basano le percentuali delle colonne grigie? | Questo dipende dall’impostazione **[!UICONTROL Percentages]** (Percentuale) selezionata in **[!UICONTROL Row Settings]** (Impostazioni riga):<ul><li>Calcola le percentuali per colonna: è l’impostazione predefinita. Le percentuali saranno basate sul totale della tabella.</li><li>Calcola le percentuali per riga: le percentuali saranno basate sul totale complessivo.</li></ul> |
-| In che modo l’impostazione **[!UICONTROL Include Unspecified (None)]** (Includi non specificati (Nessuno)) influisce sui totali? | Se l’impostazione **[!UICONTROL Include Unspecified (None)]** (Includi non specificati (Nessuno)) non è selezionata, la riga None/Unspecified (Nessuno/Non specificato) verrà rimossa dalla tabella, ovvero dal totale della tabella, e passerà a tutte le metriche calcolate che utilizzano i [tipi di metrica “Totale”](https://docs.adobe.com/content/help/it-IT/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html). |
+| In che modo l’impostazione **[!UICONTROL Include Unspecified (None)]** (Includi non specificati (Nessuno)) influisce sui totali? | Se l’impostazione **[!UICONTROL Include Unspecified (None)]** (Includi non specificati (Nessuno)) non è selezionata, la riga None/Unspecified (Nessuno/Non specificato) verrà rimossa dalla tabella, ovvero dal totale della tabella, e passerà a tutte le metriche calcolate che utilizzano i [tipi di metrica “Totale”](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html). |
 | Quando si applicano filtri di tabella personalizzati a una tabella a forma libera, tutte le metriche calcolate e la formattazione condizionale vengono applicate al filtro? | Attualmente no. **[!UICONTROL Include Unspecified (None)]** (Includi non specificati (Nessuno)) verranno contabilizzati, ma i filtri di tabella personalizzati non avranno alcun impatto sui seguenti elementi:<ul><li>L’intervallo massimo/minimo delle colonne utilizzato per la formattazione condizionale sarà visualizzato in tutti i dati.</li><li>Metriche calcolate che sfruttano i tipi di metrica **[!UICONTROL Grand Total]** (Totale complessivo).</li><li>Metriche calcolate con funzioni che si calcolano considerando le righe di una tabella a forma libera, ad esempio Column Sum (Somma colonna), Column max (Massimo colonna), Column min (Minimo colonna), Count (Conteggio), Mean (Media), Median (Mediana), Percentile (Percentile), Quartile (Quartile), Row Count (Conteggio righe), Standard Deviation (Deviazione standard), Variance (Varianza), Cumulative (Cumulativa), Cumulative Average (Media cumulativa), Regression variants (Varianti di regressione), T-Score, T-Test, Z-Score, Z-Test.</li></ul> |
 | In Metriche calcolate, cosa riflette il tipo di metrica **[!UICONTROL Grand Total]** (Totale complessivo)? | **[!UICONTROL Grand Total]** (Totale complessivo) continua a fare riferimento al **[!UICONTROL Grand Total]** (Totale complessivo) e non riflette i filtri applicati a una tabella o al **[!UICONTROL Table Total]** (Totale tabella). |
 | Qual è il totale visualizzato quando i dati vengono copiati e incollati da una tabella a forma libera o scaricati tramite CSV? | La riga del totale riflette solo il **[!UICONTROL Table Total]** (Totale tabella) e rispetta l’impostazione della colonna **[!UICONTROL Show Totals]** (Mostra totali). |
