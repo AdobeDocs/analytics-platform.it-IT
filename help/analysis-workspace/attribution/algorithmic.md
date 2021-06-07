@@ -2,11 +2,10 @@
 title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 83%
+source-wordcount: '309'
+ht-degree: 78%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 >[!NOTE]
 >
->**[!UICONTROL Algorithmic attribution]** è attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
+>**[!UICONTROL Algorithmic attribution]** è attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) .
 
 Il [modello di attribuzione](models.md) algoritmica in Analysis Workspace è diverso da altri modelli in quanto utilizza tecniche statistiche per allocare credito tra gli elementi dimensionali nel rapporto o nella tabella a forma libera. Come tutti gli altri modelli di attribuzione in Analysis Workspace, può essere utilizzato su qualsiasi dimensione o metrica, supporta filtri e raggruppamenti illimitati e distribuisce il 100% delle conversioni alle dimensioni nella tabella (nota anche come attribuzione &quot;frazionaria&quot;).
 
