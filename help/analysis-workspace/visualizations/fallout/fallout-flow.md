@@ -2,11 +2,10 @@
 description: Le visualizzazioni Abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinita e dove hanno proseguito.
 title: Panoramica dell’abbandono
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 88%
+source-wordcount: '243'
+ht-degree: 84%
 
 ---
 
@@ -32,5 +31,5 @@ La visualizzazione Abbandono è utile per analizzare:
 * Flussi di traffico generali di ambito più ampio: per le persone che hanno visto la pagina Home, questo flusso mostra quanti hanno poi fatto una ricerca e quanti sono quindi passati a uno specifico articolo.
 * Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
 
-[Tutorial video sulla visualizzazione Abbandono](https://docs.adobe.com/content/help/it-IT/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[Tutorial video sulla visualizzazione Abbandono](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
