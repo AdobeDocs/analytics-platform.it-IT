@@ -2,14 +2,13 @@
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 title: Panoramica del calendario e degli intervalli di date
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: tm+mt
-source-git-commit: 7dc245671d98e63cc4f0d97c1b1fdb11509b7d45
+exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
-
 
 # Panoramica del calendario e degli intervalli di date
 
@@ -23,7 +22,7 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 
 È inoltre possibile trascinare le date (e dimensioni orarie) in un progetto Workspace. Puoi selezionare specifici giorni, settimane, mesi, anni, oppure una data continua.
 
-[Utilizzo degli intervalli di date e del calendario in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=it-IT) (4:07)
+[Utilizzo degli intervalli di date e del calendario in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Impostazione | Descrizione |
 | --- | --- |
