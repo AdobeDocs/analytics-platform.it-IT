@@ -2,11 +2,10 @@
 description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle e visualizzazioni di dati
 title: Pannello Quick Insights
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 75%
+source-wordcount: '1033'
+ht-degree: 73%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** al momento il test del pannello è limitato. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick Insights]** al momento il test del pannello è limitato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] affinché scoprano come rispondere alle domande aziendali in modo rapido e semplice. È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover creare personalmente una tabella.
 
@@ -46,7 +45,7 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 | [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. |
 | [!UICONTROL Dimension Breakdown] | Un raggruppamento di dimensioni è un modo per raggruppare letteralmente una dimensione secondo altre dimensioni. Nel nostro esempio, potresti raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti raggruppare i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
-| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare i filtri [!UICONTROL Visitor] in base agli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e entrate: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o in base a variabili personalizzate: campo modulo, categorie definite, ID cliente. |
+| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare i filtri [!UICONTROL Visitor] in base agli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e entrate: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o basati su variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Introduzione a Quick Insights
 
