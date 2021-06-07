@@ -2,10 +2,9 @@
 title: Importazione di dati web e call center
 description: Scopri come creare un set di dati che collega i dati del call center e del sito web.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Il Customer Journey Analytics offre la funzionalità solida e valida per combina
 
 ## Importare dati web e call center in Platform
 
-Importa i dati in Adobe Experience Platform. Consulta [Creare uno schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html) e [Inserire dati](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
+Importa i dati in Adobe Experience Platform. Consulta [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) e [Inserire dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
 
 Durante l’importazione di dati in Platform, seguire questi suggerimenti può aiutare a migliorare le informazioni nei rapporti risultanti:
 
