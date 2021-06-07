@@ -2,20 +2,19 @@
 description: È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
 title: Visualizzare le anomalie in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 97%
 
 ---
-
 
 # Visualizzare le anomalie in Analysis Workspace
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
 
@@ -48,4 +47,3 @@ L’intervallo di attendibilità per il rilevamento delle anomalie non ridimensi
 Un’opzione consente all’intervallo di attendibilità di ridimensionare il grafico. Fai clic sull’icona Impostazioni (ingranaggio) e seleziona **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]** (Consenti al rilevamento anomalie di ridimensionare l’asse Y).
 
 ![](assets/scale-y-axis.png)
-
