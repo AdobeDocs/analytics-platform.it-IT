@@ -2,20 +2,19 @@
 description: 'In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.'
 title: Confronto delle date
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 08113536-658f-486b-ac56-6c531240c3c2
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '593'
+ht-degree: 98%
 
 ---
-
 
 # Confronto delle date
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.
 
@@ -60,7 +59,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png) (Aggiungi una colonna periodo di tempo)
+1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** (Aggiungi una colonna periodo di tempo) ![](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
@@ -103,4 +102,3 @@ Ad esempio: Quando scegli di allineare le date, se effettui un confronto mese-su
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
