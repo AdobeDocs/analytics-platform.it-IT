@@ -1,20 +1,19 @@
 ---
 title: Modelli di attribuzione e intervalli di lookback
-description: Modalità di suddivisione del credito tra diversi tipi di attribuzione tra elementi dimensionali.
+description: Modalità di divisione del credito tra i vari elementi dimensionali tramite diversi tipi di attribuzione.
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1534'
 ht-degree: 97%
 
 ---
 
-# Modelli di attribuzione e intervalli di lookback
+# Attribution modelli e finestre di lookback
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Il concetto di attribuzione in Adobe Analytics richiede due componenti:
 
@@ -49,7 +48,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 >[!NOTE]
 >
->**[!UICONTROL Custom lookback windows]** sono attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/analytics/landing/an-releases.html) .
+>**[!UICONTROL Custom lookback windows]** sono attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) .
 
 ## Esempio
 
