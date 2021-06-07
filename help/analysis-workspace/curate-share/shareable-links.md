@@ -1,27 +1,26 @@
 ---
 description: Scopri come creare collegamenti condivisibili a progetti o visualizzazioni
-keywords: Analysis Workspace sharing
+keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
-translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 92%
 
 ---
-
 
 # Creare collegamenti condivisibili
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Gli utenti che ricevono un collegamento devono accedere ad Adobe Analytics prima di poter accedere al progetto.
 
 ## Ottenere un collegamento a un progetto {#project-link}
 
-Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it-IT), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
+Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
 
 ![](assets/get-project-link.png)
 
@@ -32,7 +31,7 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
 
-[Guarda il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
+[Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
 
 ![](assets/get-viz-link.png)
 
@@ -40,6 +39,6 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 
 Un suggerimento per sfruttare le varie opzioni di collegamento è includere sempre un sommario nella parte superiore del progetto Workspace. Nel sommario puoi inserire collegamenti ad altri progetti rilevanti, pannelli specifici e visualizzazioni specifiche. In questo modo il destinatario del progetto potrà navigare più facilmente.
 
-[Guarda il video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sulla creazione di un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
+[Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sulla creazione di un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
 
 ![](assets/toc.png)
