@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
+source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
@@ -26,8 +26,8 @@ La creazione di una visualizzazione dati comporta la creazione di metriche e dim
 | [!UICONTROL Name] | È obbligatorio assegnare un nome alla visualizzazione dati. |
 | [!UICONTROL Description] | Una descrizione dettagliata non è obbligatoria, ma è consigliata. |
 | [!UICONTROL Time zone] | Scegli il fuso orario in cui dovranno essere presentati i dati. |
-| [!UICONTROL Tags] | I tag ti consentono di organizzare le visualizzazioni dati in categorie. |
-| [!UICONTROL Containers] | Puoi rinominare i contenitori qui per determinare come vengono visualizzati in qualsiasi progetto Workspace basato su questa visualizzazione dati. I contenitori vengono utilizzati nei filtri e nell’abbandono/flusso e così via per definire l’ampiezza o la restringenza dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL Tags] | [!UICONTROL Tags] consente di organizzare le visualizzazioni dati in categorie. |
+| [!UICONTROL Containers] | Puoi rinominare i contenitori qui per determinare come vengono visualizzati in qualsiasi progetto Workspace basato su questa visualizzazione dati. [!UICONTROL Containers] sono utilizzati nei filtri e nell’abbandono/flusso e così via per definire l’ampiezza o la restringenza dell’ambito o del contesto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL Person container name is…] | [!UICONTROL Person] (impsotazione predefinita). Il contenitore [!UICONTROL Person] include ogni visita e visualizzazione di pagina per i visitatori entro un intervallo di tempo specificato. Puoi rinominare il contenitore in &quot;Utente&quot; o in qualsiasi altro termine preferito. |
 | [!UICONTROL Session container name is…] | [!UICONTROL Session] (impsotazione predefinita). Il contenitore [!UICONTROL Session] ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominare questo contenitore in &quot;Visita&quot; o in qualsiasi altro termine preferito. |
 | [!UICONTROL Event container name is…] | [!UICONTROL Event] (impsotazione predefinita). Il contenitore [!UICONTROL Event] definisce gli eventi di pagina da includere o escludere da un filtro. |
@@ -71,7 +71,7 @@ Ad esempio, dal campo **[!UICONTROL pageTitle]** puoi creare una dimensione deno
 | [!UICONTROL Field Name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Obbligatorio. Un campo non modificabile che mostra il tipo di campo di origine del componente (ad esempio Stringa, Intero, ecc.). Questo campo può contenere più set di dati. |
-| [!UICONTROL Schema Data Type] | Indica se il componente è una stringa, un numero intero, ecc. |
+| [!UICONTROL Schema Data Type] | Indica se il componente è una stringa, un numero intero e così via.  Anche se è possibile utilizzare qualsiasi tipo di campo di schema supportato in Platform, non tutti i tipi di campi sono supportati in CJA. È possibile aggiungere set di dati a CJA con tipi di campi dello schema diversi da stringhe o interi, ma CJA non può visualizzare tali dati. Inoltre, al momento sono consentite solo stringhe nei set di dati di ricerca. |
 | [!UICONTROL Component ID] | Obbligatorio. Il [CJA API](https://adobe.io/cja-apis/docs) utilizza questo campo per fare riferimento al componente. Puoi fare clic sull’icona di modifica e modificare l’ID del componente. Tuttavia, la modifica dell’ID del componente interrompe tutti i progetti Workspace esistenti che contengono questo componente.<br>Se crei un’altra visualizzazione dati che utilizza un campo diverso per una dimensione pageTitle, puoi rinominarla e rendere compatibile la visualizzazione dati incrociati della dimensione. |
 | [!UICONTROL Schema Path] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
 | [!UICONTROL Hide component in reporting] | Predefinito = disattivato. Consente di eliminare il componente dalla visualizzazione dati quando utilizzato nel rapporto. Questo non influisce sulle autorizzazioni, ma solo sulla cura dei componenti. In altre parole, puoi nascondere il componente da non amministratori nel reporting. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Show All Components] in un progetto Analysis Workspace. |
@@ -95,9 +95,9 @@ Le impostazioni del formato sono solo per le metriche.
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Set attribution] | Consente di specificare le impostazioni di attribuzione da applicare a questa metrica per impostazione predefinita quando viene utilizzata. Questa impostazione predefinita può essere ignorata nelle tabelle a forma libera o in una metrica calcolata. |
+| [!UICONTROL Set attribution] | Consente di specificare le impostazioni di attribuzione da applicare a questa metrica per impostazione predefinita quando viene utilizzata. Questa impostazione predefinita può essere ignorata in una [!UICONTROL Freeform Table] o in una metrica calcolata. |
 | [!UICONTROL Attribution model] | Consente di specificare un modello di attribuzione predefinito, attivo solo quando si attiva l’impostazione [!UICONTROL Use Non-default attribution model]. Predefinito su [!UICONTROL Last Touch]. Le opzioni sono: Ultimo contatto, Primo contatto, Lineare, Partecipazione, Stesso contatto, A forma di U, Curva J, J inversa, Decadimento nel tempo, Personalizzato, Algoritmico. Alcune di queste opzioni creano campi aggiuntivi da compilare, come Personalizzato o Decadimento nel tempo. È possibile creare più metriche utilizzando lo stesso campo, il che significa che è possibile avere una metrica di entrate [!UICONTROL Last touch] e una metrica di ricavi [!UICONTROL First Touch], ma basata sullo stesso campo di ricavi nello schema. |
-| [!UICONTROL Lookback window] | Consente di specificare un intervallo di lookback predefinito per una metrica, attivo solo quando si attiva l’impostazione [!UICONTROL Use Non-default attribution model]. Le opzioni sono: Persona (finestra di reporting), Sessione, Personalizzata. Quando è selezionata l’opzione Personalizzato , è anche possibile selezionare un numero qualsiasi di giorni/settimane/mesi/ecc. (fino a 90 giorni), proprio come le Attribution IQ. Puoi avere più metriche utilizzando lo stesso campo dello schema, ma ciascuna con un intervallo di lookback separato. |
+| [!UICONTROL Lookback window] | Consente di specificare un intervallo di lookback predefinito per una metrica, attivo solo quando si attiva l’impostazione [!UICONTROL Use Non-default attribution model]. Le opzioni sono: [!UICONTROL Person] (Finestra di reporting), [!UICONTROL Session], [!UICONTROL Custom]. Quando [!UICONTROL Custom] è selezionato, ti offriamo anche la possibilità di selezionare un numero qualsiasi di giorni/settimane/mesi/ecc. (fino a 90 giorni), esattamente come [!UICONTROL Attribution IQ]. Puoi avere più metriche utilizzando lo stesso campo dello schema, ma ciascuna con un intervallo di lookback separato. |
 
 ### Configurare le impostazioni Includi/Escludi valori
 
