@@ -3,9 +3,9 @@ description: Rappresenta visivamente i dati in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1042'
 ht-degree: 93%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti saranno familiari se utilizzi Adobe Analytics. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
 
-Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html?lang=it) o dal menu di scelta rapida nel flusso di lavoro.
+Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) o dal menu di scelta rapida nel flusso di lavoro.
 
 ![](assets/viz-rail.png)
 
