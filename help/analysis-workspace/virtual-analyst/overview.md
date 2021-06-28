@@ -1,11 +1,11 @@
 ---
 title: Analista virtuale
-description: Scopri le funzionalità di Adobe Analytics che contribuiscono all’uso di Analista virtuale.
+description: Scopri quali funzioni nel Customer Journey Analytics comprendono Analista virtuale.
 exl-id: 5fb6ac39-d09d-49f0-ae1f-13f223e20800
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 64%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Analista virtuale, una serie di funzionalità incluse in Adobe Analytics, utilizza algoritmi predittivi e machine learning per fornire informazioni approfondite sulle anomalie che influiscono sulla tua attività. Consente di automatizzare i flussi di lavoro più comuni e onerosi basati sulla scienza dei dati per identificare l’origine di eventuali comportamenti insoliti che emergono dai dati.
+Analista virtuale, una serie di funzioni che fanno parte del Customer Journey Analytics, utilizza algoritmi predittivi e apprendimento automatico per fornire informazioni approfondite sulle anomalie che influiscono sulla tua attività. Consente di automatizzare i flussi di lavoro più comuni e onerosi basati sulla scienza dei dati per identificare l’origine di eventuali comportamenti insoliti che emergono dai dati.
 
 ## Funzioni {#features}
 
