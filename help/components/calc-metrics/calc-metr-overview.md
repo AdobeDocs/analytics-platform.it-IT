@@ -2,10 +2,10 @@
 title: Panoramica sulle metriche calcolate
 description: Scopri
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 79%
+source-wordcount: '481'
+ht-degree: 77%
 
 ---
 
@@ -43,7 +43,7 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 |--- |--- |
 | Generatore di metrica calcolata | <ul><li>Creare metriche calcolate e calcolate avanzate utilizzando modelli di allocazione avanzati.</li><li>Aggiungere filtri inline alle formule delle metriche.</li><li>Confrontare i filtri nello stesso rapporto. Ad esempio, confrontare i visitatori locali con quelli internazionali.</li><li>Utilizzare le funzioni statistiche.</li><li> Fornire descrizioni dettagliate delle metriche (mostrare cosa fanno, dove usarle, dove NON usarle).</li><li>Copiare le definizioni in nuove metriche.</li><li>Fornire un’anteprima delle metriche inline.</li><li>Impostare la polarità della metrica, che indica se è positivo o negativo se un dato evento personalizzato (metrica) aumenta.</li><li>Applicare tag alle metriche.</li></ul> |
 | Gestore metriche calcolate | <ul><li>Condividere le metriche con altri utenti.</li><li>Approvare e curare le metriche.</li><li>Organizzare le metriche (assegnare tag) in modo che gli utenti possano trovarle.</li><li>Eliminare le metriche.</li><li>Rinominare le metriche.</li></ul> |
-| API per metriche calcolate | Parte del set di API di Adobe Analytics 2.0. |
+| API per metriche calcolate | Parte del set di API CJA. |
 
 ## Modelli di metriche calcolate in CJA
 
