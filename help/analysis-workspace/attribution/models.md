@@ -2,9 +2,9 @@
 title: Modelli di attribuzione e intervalli di lookback
 description: Modalità di divisione del credito tra i vari elementi dimensionali tramite diversi tipi di attribuzione.
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1516'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Il concetto di attribuzione in Adobe Analytics richiede due componenti:
+Il concetto di attribuzione nel Customer Journey Analytics richiede due componenti:
 
 * **Modello di attribuzione:** il modello descrive la distribuzione delle conversioni negli hit in un gruppo. Ad esempio, primo contatto o ultimo contatto.
 * **Intervallo di lookback dell’attribuzione:** l’intervallo di lookback descrive quali gruppi di hit vengono considerati per ogni modello. Ad esempio, visita o visitatore.
@@ -45,10 +45,6 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
 * **Intervallo di lookback personalizzato:** ti consente di espandere l’intervallo di attribuzione oltre l’intervallo di date del rapporto fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
-
->[!NOTE]
->
->**[!UICONTROL Custom lookback windows]** sono attualmente in fase di test limitati. Per ulteriori informazioni, consulta [Rilasci di funzioni di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html) .
 
 ## Esempio
 
