@@ -2,10 +2,10 @@
 description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle e visualizzazioni di dati
 title: Pannello Quick Insights
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 73%
+source-wordcount: '1034'
+ht-degree: 72%
 
 ---
 
@@ -49,7 +49,7 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 
 ## Introduzione a Quick Insights
 
-1. Effettua l’accesso ad Adobe Analytics utilizzando le credenziali che ti sono state fornite.
+1. Accedi al Customer Journey Analytics utilizzando le credenziali che ti sono state fornite.
 1. Vai su [!UICONTROL Workspace], fai clic su **[!UICONTROL Create New Project]** e quindi su **[!UICONTROL Quick Insights]**. Puoi accedere a questo pannello anche dal menu **[!UICONTROL Panel]** nella barra a sinistra.
 
    ![](assets/qibuilder.png)
