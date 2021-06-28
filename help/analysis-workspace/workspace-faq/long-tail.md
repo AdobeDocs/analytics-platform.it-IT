@@ -2,10 +2,9 @@
 title: Elemento dimensione a lunga distanza
 description: Spiega l’elemento dimensionale "Long Tail" e il motivo per cui viene visualizzato nel reporting.
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ Se un singolo server che elabora un sottoinsieme di dati rileva più di 500.000 
 
 ## Differenze tra &quot;Long Tail&quot; e &quot;Low-Traffic&quot;
 
-Nelle versioni precedenti di Adobe Analytics, veniva utilizzata un’architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi di Dimension venivano inseriti in &quot;Traffico ridotto&quot; dopo che una dimensione raggiungeva valori univoci di 500.000 e applicavano un filtro più aggressivo ai valori univoci di 1M. Il conteggio dei valori univoci è stato reimpostato all&#39;inizio di ogni mese di calendario. I dati trattati erano permanenti; non c&#39;era modo di estrarre i dati esistenti da &#39;traffico ridotto&#39;.
+Nelle versioni precedenti di Analytics veniva utilizzata un’architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi di Dimension venivano inseriti in &quot;Traffico ridotto&quot; dopo che una dimensione raggiungeva valori univoci di 500.000 e applicavano un filtro più aggressivo ai valori univoci di 1M. Il conteggio dei valori univoci è stato reimpostato all&#39;inizio di ogni mese di calendario. I dati trattati erano permanenti; non c&#39;era modo di estrarre i dati esistenti da &#39;traffico ridotto&#39;.
 
 In CJA, gli elementi dimensionali vengono inseriti solo in &#39;Long Tail&#39; se un singolo server di elaborazione contiene più di 500.000 valori univoci. I dati elaborati non sono permanenti, il che significa che puoi ridurre l’elemento dimensione &quot;Long Tail&quot; modificando il rapporto.
 
