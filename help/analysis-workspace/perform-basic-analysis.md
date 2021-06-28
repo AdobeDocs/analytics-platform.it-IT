@@ -2,9 +2,9 @@
 title: Eseguire analisi di base in Customer Journey Analytics
 description: Descrive come utilizzare le visualizzazioni di base per analizzare i dati in Customer Journey Analytics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ Ecco un esempio di visualizzazioni di base in Workspace. Potrai, ad esempio
 
 * Creare un rapporto con le tendenze delle entrate online e in negozio che confronta le due origini di dati nel tempo.
 
-* Rappresentare la dimensione del pubblico in base alle origini dati, ad esempio i dati ad impression, Adobe Analytics, i dati e-mail, i dati POS, i dati del call center e i dati del sondaggio.
+* Rappresentare la dimensione del pubblico in base alle origini dati, ad esempio dati ad impression, dati di Customer Journey Analytics, dati e-mail, dati POS, dati del call center e dati del sondaggio.
 
 ![](assets/cja-basic-analysis.png)
 
