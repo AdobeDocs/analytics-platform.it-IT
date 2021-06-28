@@ -3,16 +3,16 @@ description: Rappresenta visivamente i dati in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 93%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
 # Panoramica delle visualizzazioni
 
-Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti saranno familiari se utilizzi Adobe Analytics. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
+Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti sarà familiare se utilizzi il Customer Journey Analytics . Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
 
 Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) o dal menu di scelta rapida nel flusso di lavoro.
 
@@ -94,7 +94,7 @@ Sono disponibili ulteriori funzionalità per una visualizzazione facendo clic co
 | Ottieni collegamento visualizzazione | Consente di indirizzare un utente a una specifica visualizzazione in un progetto. Quando si fa clic sul collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato all’esatta visualizzazione collegata. |
 | Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
 
-## Icona “Crea elemento visivo” {#quick-viz}
+## Icona “Crea elemento visivo”  {#quick-viz}
 
 Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di filtro, verrà creato un diagramma di Venn.
 
