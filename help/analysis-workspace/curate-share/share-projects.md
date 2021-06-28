@@ -3,10 +3,10 @@ description: Condivisione e ruoli dei progetti in Workspace
 keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 95%
+source-wordcount: '1056'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di proget
 |---|---|
 | Can edit | I destinatari possono **[!UICONTROL Save]** le modifiche a un progetto e fungere da co-proprietari. Questo ruolo è utile se desideri gestire un progetto con altri colleghi; ciò include la modifica e l’eliminazione degli elenchi dei destinatari per un progetto condiviso. <br>Nota: Analysis Workspace al momento non supporta la collaborazione in tempo reale, pertanto si consiglia di modificare un progetto solo un utente alla volta. Se i progetti vengono salvati contemporaneamente, viene mantenuta l’ultima versione. |
 | Can duplicate | I destinatari possono **[!UICONTROL Save as]** e accedere alla barra a sinistra. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati dell’organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato. |
-| Can view | I destinatari non possono salvare con nome e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione e con Analysis Workspace o Adobe Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.<br>Scopri di più sull’[esperienza di progetto Can view](/help/analysis-workspace/curate-share/view-only-projects.md). |
+| Can view | I destinatari non possono salvare con nome e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dati della tua organizzazione, Analysis Workspace o in genere il Customer Journey Analytics. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.<br>Scopri di più sull’[esperienza di progetto Can view](/help/analysis-workspace/curate-share/view-only-projects.md). |
 
 >[!IMPORTANT]
 > I destinatari del progetto aggiunti prima del 18 giugno 2020 sono stati trasferiti in un ruolo di progetto. Gli utenti amministratore sono passati al ruolo **[!UICONTROL Can edit]** e gli utenti non amministratori sono passati al ruolo **[!UICONTROL Can duplicate]**. Questi ruoli forniscono la stessa esperienza di progetto che avevano in precedenza. Inoltre, tutti i gruppi (incluso “All”) sono stati trasferiti al ruolo **[!UICONTROL Can duplicate]**.
@@ -62,7 +62,7 @@ Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automati
 
 ## Condivisione con gruppi di destinatari {#Groups}
 
-Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. In Adobe Analytics, i gruppi sono definiti dai profili di prodotto nell’[Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. Al Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Gli amministratori possono condividere con qualsiasi gruppo, incluso “All”.
 * I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “All”.
