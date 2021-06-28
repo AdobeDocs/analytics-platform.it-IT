@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Panoramica di Analysis Workspace
 description: Panoramica delle funzionalità di Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 90%
+source-wordcount: '452'
+ht-degree: 79%
 
 ---
 
@@ -22,9 +22,9 @@ Se hai solo pochi minuti, guarda questa breve panoramica per scoprire le varie p
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Accedere ad Adobe Analytics {#login}
+## Customer Journey Analytics di accesso {#login}
 
-Per iniziare a utilizzare Analysis Workspace, accedi ad Adobe Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se non è già stato selezionato un progetto specifico, verrà visualizzata la pagina home di Workspace, con un elenco di progetti.
+Per iniziare a utilizzare Analysis Workspace, accedi a Customer Journey Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se non è già stato selezionato un progetto specifico, verrà visualizzata la pagina home di Workspace, con un elenco di progetti.
 
 ![](assets/login-analytics.png)
 
@@ -36,7 +36,7 @@ Una volta effettuato l’accesso, segui il tutorial di formazione su Analysis Wo
 
 ## Creare un nuovo progetto {#new-project}
 
-Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere se iniziare da un progetto vuoto oppure da una [scheda di valutazione mobile vuota](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), per condividere l’analisi rispettivamente dal browser oppure dai dashboard dell’app mobile Adobe Analytics.
+Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere di iniziare da un progetto vuoto o da una [scheda di valutazione mobile vuota](/help/mobile-app/curator.md), a seconda che tu abbia intenzione di condividere l’analisi dal browser o dall’app mobile Customer Journey Analytics dashboards.
 
 ![](assets/create-new-project.png)
 
