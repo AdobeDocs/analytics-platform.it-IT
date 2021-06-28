@@ -3,10 +3,10 @@ description: Requisiti di sistema per Analysis Workspace.
 keywords: Analysis Workspace
 title: Requisiti di amministrazione
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 92%
+source-wordcount: '182'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Requisiti di sistema per Analysis Workspace.
 
 | Requisito | Descrizione |
 |--- |--- |
-| SKU del prodotto | Devi disporre di Adobe Analytics Standard o di Adobe Analytics Premium. Se hai accesso solo a Reports &amp; Analytics come prodotto standalone, ti consigliamo di collaborare con il team del tuo account per acquistare una soluzione Adobe Analytics. |
+| SKU del prodotto | La tua organizzazione deve disporre di un contratto attivo con Adobe Analytics per Select, Prime o Ultimate con il componente aggiuntivo Customer Journey Analytics. Se non conosci il tipo di contratto che hai stipulato o se non hai la certezza di possedere il componente aggiuntivo CJA, contatta l’Account Manager della tua organizzazione. Inoltre, è necessario eseguire il provisioning dell’organizzazione per Adobe Experience Platform. |
 | Amministratori | Hanno accesso totale ad Analysis Workspace. |
 | Utenti | Per abilitare l’accesso alla scheda Workspace in Analytics, gli amministratori devono creare un profilo di prodotto con l’autorizzazione all’accesso ad Analysis Workspace e aggiungervi utenti nell’[Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html). |
-| Browser | <ul><li>Preferiti: ultime versioni di Firefox, Chrome, Safari o Edge. Ultima versione di Microsoft Internet Explorer 11. **Nota:** Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.</li><li>Devono essere abilitati i cookie e JavaScript.</li><li>Risoluzione dello schermo pari a 1024x768 con profondità colore a 16 bit (o superiore).</li></ul> |
+| Browser | <ul><li>Preferiti: ultime versioni di Firefox, Chrome, Safari o Edge.</li><li>Devono essere abilitati i cookie e JavaScript.</li><li>Risoluzione dello schermo pari a 1024x768 con profondità colore a 16 bit (o superiore).</li></ul> |
