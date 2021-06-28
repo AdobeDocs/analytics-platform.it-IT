@@ -2,10 +2,10 @@
 title: Panoramica su Attribution
 description: Il concetto di attribuire il credito di un evento di successo a più elementi dimensionali.
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 91%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Attribution consente agli analisti di personalizzare il modo in cui i valori del
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno successivo, vede un post di social media di uno dei suoi amici, fa clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l’Account Manager della tua organizzazione.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting.
 
 ## Valore di Attribution IQ
 
@@ -28,7 +28,7 @@ Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni 
 
 ![Problema di Attribution IQ](assets/attribution_iq_problem.png)
 
-Adobe Analytics migliora l’attribuzione consentendo di:
+Il Customer Journey Analytics migliora l’attribuzione consentendo di:
 
 * Definire l’attribuzione oltre i mezzi di comunicazione comprati: è possibile applicare ai modelli qualsiasi dimensione, metrica, canale o evento (ad es. ricerca interna), non solo le campagne di marketing.
 * Utilizzare il confronto illimitato tra modelli di attribuzione: è possibile confrontare in modo dinamico tanti modelli quanti se ne desiderano.
