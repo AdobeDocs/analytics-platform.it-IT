@@ -2,10 +2,10 @@
 title: Creare una connessione
 description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
+source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 29%
+source-wordcount: '1899'
+ht-degree: 31%
 
 ---
 
@@ -17,7 +17,7 @@ Fai clic [qui](https://experienceleague.adobe.com/docs/customer-journey-analytic
 
 ## Autorizzazioni necessarie
 
-Per creare una connessione di Customer Journey Analytics (CJA), è necessario disporre delle seguenti autorizzazioni in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Per creare una connessione CJA, è necessario disporre delle seguenti autorizzazioni in [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
 
 Adobe Experience Platform:
 * Modellazione dati: Visualizza schemi, Gestisci schemi
@@ -33,7 +33,9 @@ Customer Journey Analytics
 
 ## Seleziona sandbox e set di dati
 
-1. Vai a [https://analytics.adobe.com](https://analytics.adobe.com).
+1. Vai a [https://analytics.adobe.com](https://analytics.adobe.com) e accedi con il tuo Adobe ID.
+
+1. Fai clic sull&#39;icona [!DNL Customer Journey Analytics] .
 
 1. Fai clic sulla scheda **[!UICONTROL Connections]**.
 
@@ -53,10 +55,7 @@ Customer Journey Analytics
 
    Se hai molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca **[!UICONTROL Search datasets]** sopra l’elenco dei set di dati.
 
-   CJA si basa su set di dati di Experience Platform. Anche se è possibile utilizzare qualsiasi tipo di campo di schema supportato in Platform, non tutti i tipi di campi sono supportati in CJA. È possibile aggiungere set di dati a CJA con tipi di campi dello schema diversi da stringhe o numeri, ma CJA non può visualizzare tali dati. Inoltre, al momento sono consentite solo stringhe nei set di dati di ricerca.
-Se cerchi un campo da aggiungere a una visualizzazione dati dopo l’aggiunta del set di dati a una connessione, il tag predefinito [!UICONTROL Contains data] è disponibile per tutti i campi nei set di dati. Questo tag mantiene le visualizzazioni dati più gestibili in quanto include solo campi dello schema con dati nei set di dati.
-
-## Configurare il set di dati
+## 2. Configurare il set di dati
 
 Sul lato destro è ora possibile configurare i set di dati aggiunti.
 
