@@ -10,11 +10,10 @@ user-guide-title: Guida a Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida a Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 87%
+source-wordcount: '449'
+ht-degree: 86%
 
 ---
 
@@ -27,10 +26,11 @@ ht-degree: 87%
    + [Introduzione](getting-started/cja-getting-started.md)
    + [Domande frequenti](getting-started/cja-faq.md)
    + [Supporto delle funzioni di Customer Journey Analytics](getting-started/cja-aa.md)
+   + [Implicazioni di cancellazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)
 + Connessioni {#cja-connections}
-   + [Creazione di una connessione](connections/create-connection.md)
-   + [Gestione delle connessioni](connections/manage-connection.md)
+   + [Creare una connessione](connections/create-connection.md)
+   + [Gestione delle connessioni](connections/manage-connections.md)
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
    + Analisi cross-channel {#cca}
@@ -39,19 +39,19 @@ ht-degree: 87%
       + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](data-views/data-views.md)
-   + [Creazione di una visualizzazione dati](data-views/create-dataview.md)
+   + [Creare una visualizzazione dati](data-views/create-dataview.md)
    + [Casi di utilizzo delle visualizzazioni dati](data-views/data-views-usecases.md)
    + [Persistenza](data-views/persistence.md)
 + Progetti Workspace {#cja-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
-   + [Esecuzione di analisi di base](analysis-workspace/perform-basic-analysis.md)
+   + [Eseguire analisi di base](analysis-workspace/perform-basic-analysis.md)
    + [Esecuzione di analisi avanzate](analysis-workspace/perform-adv-analysis.md)
    + Progetti {#build-workspace-project}
       + [Panoramica sui progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
-      + [Visualizza densità](analysis-workspace/build-workspace-project/view-density.md)
+      + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -64,12 +64,12 @@ ht-degree: 87%
          + [Paginazione, filtri e ordinamento di tabelle](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [Totali in Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabella coorte {#cohort-table}
-         + [L&#39;analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Cos’è un’analisi per coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
-         + [Panoramica dell&#39;abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurare una visualizzazione dell&#39;abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Applicare i filtri nell’analisi dell’abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
@@ -86,17 +86,17 @@ ht-degree: 87%
       + [Barre orizzontali e Barre orizzontali sovrapposte](analysis-workspace/visualizations/horizontal-bar.md)
       + [Linee](analysis-workspace/visualizations/line.md)
       + [Grafico a dispersione](analysis-workspace/visualizations/scatterplot.md)
-      + [Numero riepilogo e Modifica riepilogo](analysis-workspace/visualizations/summary-number-change.md)
+      + [Numero di riepilogo e Variazione di riepilogo](analysis-workspace/visualizations/summary-number-change.md)
       + [Testo](analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
    + Pannelli {#panels}
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
-      + [Pannello Attribuzione](analysis-workspace/c-panels/attribution.md)
+      + [Pannello Attribution](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
-      + [Pannello Quick Insights (Approfondimenti rapidi)](analysis-workspace/c-panels/quickinsight.md)
+      + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
    + Curare o condividere progetti {#curate-share}
-      + [Menu Condividi](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
@@ -105,7 +105,7 @@ ht-degree: 87%
       + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
-      + [Modelli di attribuzione e finestre di lookback](analysis-workspace/attribution/models.md)
+      + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
@@ -134,11 +134,11 @@ ht-degree: 87%
    + Filtri {#cja-filters}
       + [Panoramica sui filtri](components/filters/filters-overview.md)
       + [Creazione di un filtro](components/filters/create-filters.md)
-      + [Gestione dei filtri](components/filters/manage-filters.md)
+      + [Gestire i filtri](components/filters/manage-filters.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica sulle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
       + [Creazione di una metrica calcolata](components/calc-metrics/create.md)
-      + [Gestione delle metriche calcolate](components/calc-metrics/manage.md)
+      + [Gestire le metriche calcolate](components/calc-metrics/manage.md)
       + [Funzioni di base](components/calc-metrics/cm-functions.md)
       + [Funzioni avanzate](components/calc-metrics/cm-adv-functions.md)
    + Intervalli di date {cja-date-ranges}
