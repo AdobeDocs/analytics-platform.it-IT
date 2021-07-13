@@ -1,13 +1,13 @@
 ---
-description: Scopri le diverse opzioni di salvataggio, tra cui salvataggio automatico, salvataggio con nome, salvataggio con nome e apertura delle versioni precedenti.
+description: Scopri le diverse opzioni di salvataggio, tra cui salvataggio automatico, con nome o come modello e apertura delle versioni precedenti.
 title: Salvare i progetti
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Per salvare le modifiche apportate a un progetto, vai al menu **[!UICONTROL Proj
 
 | Azione | Descrizione |
 |---|---| 
-| **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Al primo salvataggio del progetto, viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
-| **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] > [!UICONTROL Open previous version]. |
+| **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Quando salvi il progetto per la prima volta, ti viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
+| **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] (Progetto) > [!UICONTROL Open previous version] (Apri versione precedente). |
 | **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
 | **[!UICONTROL Save as template]** | Salva il progetto come [modello personalizzato](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
 
@@ -48,13 +48,13 @@ Il browser avverte che le modifiche non salvate andranno perse. È possibile sce
 
 ### Arresto anomalo del browser o timeout della sessione
 
-Per i progetti **esistenti**, una volta tornato in Workspace verrà visualizzata una finestra modale **Recupero progetto**. Selezionando &quot;Sì&quot; il progetto viene ripristinato dalla copia locale salvata automaticamente. Selezionando “No” la copia locale salvata automaticamente viene eliminata e viene aperta l’ultima versione del progetto salvata dall’utente.
+Per i progetti **esistenti**, una volta tornato in Workspace viene visualizzata una finestra di dialogo modale per il **recupero del progetto**. Se si seleziona “Sì”, il progetto viene ripristinato dalla copia locale salvata automaticamente. Selezionando “No” la copia locale salvata automaticamente viene eliminata e viene aperta l’ultima versione del progetto salvata dall’utente.
 
 ![](assets/project-recovery.png)
 
 Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recuperare le modifiche non salvate.
 
-## Apri la versione precedente {#previous-version}
+## Aprire la versione precedente {#previous-version}
 
 >[!NOTE]
 >
@@ -67,6 +67,6 @@ Per aprire una versione precedente di un progetto:
    ![](assets/previous-versions.png)
 
 1. Rivedi l’elenco delle versioni precedenti disponibili.
-   [!UICONTROL Timestamp] e  [!UICONTROL Editor] vengono visualizzati, oltre a  [!UICONTROL Notes] se sono stati aggiunti al momento del  [!UICONTROL Editor] salvataggio. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.
-1. Seleziona una versione precedente e fai clic su **[!UICONTROL Load]**.
-La versione precedente viene quindi caricata con una notifica. La versione precedente diventa la versione salvata corrente del progetto solo dopo aver fatto clic su **[!UICONTROL Save]**. Se ti allontani dalla versione caricata e torni, verrà visualizzata l’ultima versione salvata del progetto.
+   Vengono visualizzati [!UICONTROL Timestamp] e [!UICONTROL Editor], oltre a [!UICONTROL Notes] se sono state aggiunte al momento del salvataggio dell’[!UICONTROL Editor]. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.
+1. Seleziona una versione precedente e fai clic su **[!UICONTROL Load]** (Carica).
+La versione precedente viene quindi caricata con una notifica. La versione precedente diventa la versione salvata corrente del progetto solo dopo aver fatto clic su **[!UICONTROL Save]**. Se ti sposti dalla versione caricata, quando torni viene visualizzata l’ultima versione salvata del progetto.
