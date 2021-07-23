@@ -10,9 +10,9 @@ user-guide-title: Guida a Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida a Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
+source-git-commit: a2e8f8a48078bfe247645b4ca57e10bf4f4e3fab
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '448'
 ht-degree: 86%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 86%
       + [Gestire le metriche calcolate](components/calc-metrics/manage.md)
       + [Funzioni di base](components/calc-metrics/cm-functions.md)
       + [Funzioni avanzate](components/calc-metrics/cm-adv-functions.md)
-   + Intervalli di date {cja-date-ranges}
+   + Intervalli di date {#cja-date-ranges}
       + [Panoramica sugli intervalli di date](components/date-ranges/overview.md)
       + [Creazione di un intervallo di date](components/date-ranges/create.md)
       + [Gestione degli intervalli di date](components/date-ranges/manage.md)
