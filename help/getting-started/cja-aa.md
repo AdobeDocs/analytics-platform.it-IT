@@ -2,10 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
+source-git-commit: 423cf7d8a73c307bef42a62e91e7b64219f02670
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 60%
+source-wordcount: '1082'
+ht-degree: 57%
 
 ---
 
@@ -17,6 +17,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 | Funzione Adobe Analytics | Note sul supporto |
 | --- | --- |
+| A4T | Il supporto viene fornito tramite i campi nel [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 | Rilevamento delle anomalie | Supporto completo. |
 | Attribution IQ | Supporto completo. |
 | Metriche calcolate | Eventuali metriche di calcolo esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
@@ -32,13 +33,12 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
 | Elaborazione dell’ora rapporto | CJA si basa esclusivamente sull’elaborazione dell’ora rapporto. |
-| Accesso API di reporting | Ora disponibile utilizzando l’ [API CJA](https://www.adobe.io/cja-apis/docs/). |
+| Accesso API di reporting | Disponibile tramite l’ [API CJA](https://www.adobe.io/cja-apis/docs/). |
 | Report/progetti pianificati | Supporto completo. |
 | Segmenti | Ora denominati “Filtri”: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non verranno caricati in CJA. |
-| Autorizzazioni utente/Controlli per l’accesso ai dati | CJA distingue tra utenti e amministratori dei prodotti di Adobe Admin Console. Solo gli amministratori dei prodotti sono in grado di 1) creare, aggiornare ed eliminare connessioni o visualizzazioni dati; 2) aggiornare e eliminare progetti, filtri o metriche di calcolo creati da altri utenti; e 3) condividere un progetto Workspace con tutti gli utenti. |
+| Autorizzazioni utente/Controlli per l’accesso ai dati | CJA distingue tra amministratori e utenti dei prodotti [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=en). Solo gli amministratori di prodotto possono <ul><li>Creare/aggiornare/eliminare connessioni o visualizzazioni dati</li><li>Aggiornare/eliminare progetti, filtri o metriche di calcolo creati da altri utenti e</li><li>Condividere un progetto Workspace con tutti gli utenti.</li></ul> |
 | Suite di rapporti virtuali | Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Conservazione dei componenti VRS | Ora fa parte di Visualizzazioni dati. |
-| A4T | Il supporto viene fornito tramite i campi in [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 
 ## Supportato con avvertenze
 
