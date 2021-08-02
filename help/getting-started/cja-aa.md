@@ -2,10 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
+source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 61%
+source-wordcount: '1075'
+ht-degree: 60%
 
 ---
 
@@ -38,6 +38,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Autorizzazioni utente/Controlli per l’accesso ai dati | CJA distingue tra utenti e amministratori dei prodotti di Adobe Admin Console. Solo gli amministratori dei prodotti sono in grado di 1) creare, aggiornare ed eliminare connessioni o visualizzazioni dati; 2) aggiornare e eliminare progetti, filtri o metriche di calcolo creati da altri utenti; e 3) condividere un progetto Workspace con tutti gli utenti. |
 | Suite di rapporti virtuali | Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Conservazione dei componenti VRS | Ora fa parte di Visualizzazioni dati. |
+| A4T | Il supporto viene fornito tramite i campi in [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en). |
 
 ## Supportato con avvertenze
 
@@ -85,7 +86,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 | Funzione | Note |
 | --- | --- |
-| A4T | Il supporto non è ancora pianificato. |
 | Activity Map | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
 | Generatore regole di classificazione | Il supporto non è ancora pianificato. |
