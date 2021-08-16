@@ -2,9 +2,9 @@
 title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '2944'
+source-wordcount: '2941'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ Questo è il modo in cui la metrica “Approximate Customers” (Clienti appross
 
 ## Uniques Exceeded (Univoci superati)
 
-Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai [limiti di “uniques exceeded” (univoci superati)](https://marketing.adobe.com/resources/help/it_IT/reference/metrics_uniques_high_numbers.html). Se in un determinato mese si raggiunge il limite “uniques exceeded” per una dimensione, il valore viene conteggiato come 1 elemento dimensione.
+Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai [limiti di “uniques exceeded” (univoci superati)](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en). Se in un determinato mese si raggiunge il limite “uniques exceeded” per una dimensione, il valore viene conteggiato come 1 elemento dimensione.
 
 ## Confronto delle funzioni di conteggio
 
