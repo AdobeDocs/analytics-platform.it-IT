@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
+source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2713'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,7 @@ Consente di specificare il comportamento di una metrica nel reporting.
 | --- | --- |
 | [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. Questo ti dà il valore effettivo di una metrica, ad esempio &quot;50&quot; se il valore dell’ordine era 50. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
+| [!UICONTROL Lower case] | *Nuovo* : per dimensioni di tipo &quot;stringa&quot;. Questa impostazione consente di controllare se il Customer Journey Analytics considera i valori di dimensione con distinzione tra maiuscole e minuscole. Consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. Questa schermata mostra un esempio di dimensione sensibile a maiuscole e minuscole in Workspace:<br>![dimensione sensibile a maiuscole e minuscole](assets/case-sens-workspace.png) |
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
 
