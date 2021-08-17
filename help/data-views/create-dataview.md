@@ -2,9 +2,9 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
+source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2754'
 ht-degree: 2%
 
 ---
@@ -125,7 +125,7 @@ Consente di specificare il comportamento di una metrica nel reporting.
 | --- | --- |
 | [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. Questo ti dà il valore effettivo di una metrica, ad esempio &quot;50&quot; se il valore dell’ordine era 50. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
-| [!UICONTROL Lower case] | *Nuovo* : per dimensioni di tipo &quot;stringa&quot;. Questa impostazione consente di controllare se il Customer Journey Analytics considera i valori di dimensione con distinzione tra maiuscole e minuscole. Consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. Se selezioni **[!UICONTROL Lower case]**, tutte le istanze di una dimensione con lo stesso valore verranno riportate come minuscole. Questa schermata mostra cosa succede se si fa **not** check [!UICONTROL Lower case]. Osserva come &quot;liverpool&quot;, &quot;Liverpool&quot; e &quot;LIVERPOOL&quot; generano tre voci di riga separate nel reporting:<br>![dimensione con distinzione tra maiuscole e minuscole](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | *Nuovo* : per dimensioni di tipo &quot;stringa&quot;. Questa impostazione consente di controllare se il Customer Journey Analytics considera i valori di dimensione con distinzione tra maiuscole e minuscole. Consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. Se selezioni **[!UICONTROL Lower case]**, tutte le istanze di una dimensione con lo stesso valore verranno riportate come minuscole. Questa schermata mostra cosa succede se si seleziona la casella **non** spunta [!UICONTROL Lower case] rispetto a **do** . Nella tabella a sinistra, osserva come &quot;liverpool&quot;, &quot;Liverpool&quot; e &quot;LIVERPOOL&quot; si traducono in tre voci separate nel reporting. Nella tabella di destra, gli stessi valori sono stati deduplicati e rientrano sotto una riga:<br>![dimensione sensibile a maiuscole e minuscole](assets/case-sens-workspace.png) |
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
 
@@ -151,7 +151,7 @@ Per ulteriori informazioni, consulta l’argomento relativo alla [persistenza](/
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
 | [!UICONTROL Set persistence] | Tasto di attivazione/disattivazione |
-| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Se desideri che un valore persista (simile alle eVar nella versione tradizionale di Analytics), questo è il punto in cui lo imposteresti. L’unica differenza chiave è che la persistenza massima impostabile è 90 giorni. Inoltre, [!UICONTROL Never expire] non è un’opzione. |
+| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. Se desideri che un valore persista, è qui che lo imposterai. La persistenza massima impostabile è di 90 giorni. Inoltre, [!UICONTROL Never expire] non è un’opzione. |
 | [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: [!UICONTROL Session] (predefinito), [!UICONTROL Person], [!UICONTROL Time], [!UICONTROL Metric]. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). [!UICONTROL Metric] consente di specificare una delle metriche definite come scadenza per questa dimensione (ad esempio, una  [!UICONTROL Purchase] metrica).<br>**Nota**: Non puoi impostare una scadenza personalizzata per una dimensione quando selezioni un’allocazione di  [!UICONTROL All]. |
 
 ### Configurare le impostazioni di bucket dei valori
