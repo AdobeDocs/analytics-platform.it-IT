@@ -1,9 +1,9 @@
 ---
 title: Best practice di attribuzione
 description: Quali sono le best practice per decidere su un modello di attribuzione?
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La scelta del modello di attribuzione corretto per l’organizzazione dipende da
 >[!NOTE]
 >Questa analisi deve essere eseguita prima di scegliere un modello di attribuzione.
 
-Questa fase consiste inizialmente nel comprendere il comportamento del cliente e definire le metriche di conversione. In base alle metriche di conversione, strumenti come [Feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (per dati non elaborati) o Analysis Workspace facilitano la comprensione di
+Questa fase consiste inizialmente nel comprendere il comportamento del cliente e definire le metriche di conversione. In base alle metriche di conversione, strumenti come Analysis Workspace e l’estrazione di origini dati da più canali (come i dati delle impression) possono facilitare la comprensione di
 
 * Quanti clienti toccano diversi canali di marketing prima della conversione?
 * La proporzione/distribuzione di questi comportamenti.
@@ -53,6 +53,3 @@ Poiché è molto difficile convalidare un gran numero di ipotesi e combinazioni 
 ## Altre considerazioni
 
 * Potrebbe essere necessario utilizzare i servizi di uno scienziato dei dati invece di affidarsi solo ad Analysis Workspace.
-* Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* Prendi in considerazione l’utilizzo di [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en), ad esempio, se desideri tenere in considerazione i dati relativi alle impression.
-
