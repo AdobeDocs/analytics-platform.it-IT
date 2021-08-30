@@ -2,9 +2,9 @@
 title: Opzioni di inserimento dati per il Customer Journey Analytics
 description: Comprendere i diversi modi in cui è possibile inserire i dati nel Customer Journey Analytics
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
-source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -17,18 +17,11 @@ Quando si tratta di acquisire dati in un Customer Journey Analytics, sono dispon
 
 Questo flusso di lavoro utilizza Adobe Analytics Data Connector e varia a seconda che utilizzi DTM o Launch come Tag Manager.
 
-### Tramite Dynamic Tag Management (DTM)
-
-1. [Crea un livello](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html) dati, se non lo hai già fatto. Un livello dati è un framework di oggetti JavaScript sul sito che contiene tutti i valori variabili utilizzati nell&#39;implementazione. Consente un maggiore controllo e una manutenzione più semplice nell’implementazione.
-1. Utilizza [DTM](https://experienceleague.adobe.com/docs/analytics/implementation/other/dtm/dtm-implementation-overview.html) per implementare il codice sul tuo sito per la raccolta dei dati, se non lo hai già fatto. Dynamic Tag Management fornisce un singolo livello di dati che invia dati da più sorgenti.
-1. Crea un [connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Questo connettore di origine acquisirà i dati di Analytics in Experience Platform in un framework standardizzato denominato [Sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
-1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più connessioni e visualizzazioni di dati che informeranno il reporting tra canali.
-
 ### Tramite Launch
 
 1. [Crea un livello](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html) dati, se non lo hai già fatto. Un livello dati è un framework di oggetti JavaScript sul sito che contiene tutti i valori variabili utilizzati nell&#39;implementazione. Consente un maggiore controllo e una manutenzione più semplice nell’implementazione.
 1. Utilizza [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) per implementare il codice sul tuo sito per la raccolta dei dati, se non lo hai già fatto. Launch è una soluzione di gestione tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Launch offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza affidarsi ad alcun team di sviluppo dell’organizzazione per aggiornare il codice sul sito.
-1. Crea un [connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Questo connettore di origine acquisirà i dati di Analytics in Experience Platform in un framework standardizzato denominato [Sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+1. Crea un [connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) in Adobe Experience Platform. Questo connettore di origine acquisirà i dati di Analytics in Experience Platform in un framework standardizzato denominato [Sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più connessioni e visualizzazioni di dati che informeranno il reporting tra canali.
 
 ## Inserire dati tramite Adobe Experience Platform Web SDK e Edge Network

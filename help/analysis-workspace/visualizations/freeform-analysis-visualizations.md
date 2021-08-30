@@ -3,9 +3,9 @@ description: Rappresenta visivamente i dati in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1034'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Workspace offre diverse visualizzazioni che consentono di generare rappresentazi
 
 Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) o dal menu di scelta rapida nel flusso di lavoro.
 
-![](assets/viz-rail.png)
+![Barra di visualizzazione](assets/viz-rail.png)
 
 In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
@@ -44,7 +44,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere a [!UICONTROL Visualization Settings], fai clic sull’icona a forma di ingranaggio [!UICONTROL Visualization Settings].
 
-![](assets/settings.png)
+![Impostazioni](assets/settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -59,7 +59,7 @@ Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per ac
 | Visualizza asse doppia | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | Mostra anomalie | Completa i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
 
-## Legend (Legenda)  {#legend}
+## Legend (Legenda) {#legend}
 
 Una legenda consente di correlare la data in una tabella di origine alle serie tracciate nella visualizzazione. La legenda è interattiva: puoi fare clic su un elemento della legenda per mostrare o nascondere una serie nella visualizzazione. È utile se desideri semplificare i dati visualizzati.
 
@@ -70,18 +70,16 @@ Per modificare un’etichetta di legenda:
 1. Fai clic su una delle etichette della legenda.
 1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
 
-   ![](assets/edit-label.png)
+   ![Modifica etichetta](assets/edit-label.png)
 
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
-
-Per approfondire, utilizza questo [collegamento a un video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sull’argomento.
 
 ## Menu di scelta rapida {#right-click}
 
 Sono disponibili ulteriori funzionalità per una visualizzazione facendo clic con il pulsante destro del mouse sull’intestazione della visualizzazione. Le impostazioni variano a seconda della visualizzazione. Alcune delle impostazioni disponibili sono:
 
-![](assets/right-click.png)
+![Clic destro](assets/right-click.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -98,4 +96,4 @@ Sono disponibili ulteriori funzionalità per una visualizzazione facendo clic co
 
 Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di filtro, verrà creato un diagramma di Venn.
 
-![](assets/quick-viz.png)
+![Visualizzazione rapida](assets/quick-viz.png)
