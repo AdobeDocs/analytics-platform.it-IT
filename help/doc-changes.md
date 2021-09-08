@@ -2,11 +2,10 @@
 title: Aggiornamenti della documentazione di CJA
 description: Elenca gli aggiornamenti dei contenuti della documentazione del Customer Journey Analytics impostati a partire da dicembre 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-translation-type: tm+mt
-source-git-commit: b552fc55e2c4167c1ff903a0ac2a8d6559839606
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 9%
+source-wordcount: '399'
+ht-degree: 13%
 
 ---
 
@@ -16,6 +15,11 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Settembre 2021 | Nuova sezione sulle [implicazioni dell’unione di suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#6.-considerazioni-durante l’unione-report-suites-in-cja) in CJA. |
+| Agosto 2021 | Nuova sezione sull’esperienza [Connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) migliorata in CJA. |
+| Agosto 2021 | Nuova sezione sulla sensibilità delle maiuscole/minuscole nelle dimensioni Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-behavior-settings)[ |
+| Giugno 2021 | Nuova documentazione sulle [versioni precedenti del progetto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) in Workspace. |
+| Aprile 2021 | Nuova documentazione sul supporto dei progetti pianificati in Workspace. |
 | Aprile 2021 | Nuovi argomenti sull’ [esperienza di visualizzazione dati migliorata](/help/data-views/data-views.md). |
 | Aprile 2021 | Nuovi argomenti relativi all&#39; [acquisizione dei dati delle Google Analytics](/help/use-cases/ga-to-cja.md) e all&#39; [analisi di tali dati](/help/use-cases/ga-to-cja-reporting.md) |
 | Aprile 2021 | Argomento aggiunto su [rapporti pianificati](/help/analysis-workspace/curate-share/t-schedule-report.md) in Workspace |

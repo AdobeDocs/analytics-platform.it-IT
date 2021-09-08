@@ -2,7 +2,8 @@
 title: Gestione delle connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
-source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
+exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 3%
@@ -18,7 +19,7 @@ Una volta che gli utenti amministratori hanno [creato una o più connessioni](/h
 * Ti consente di **identificare eventuali discrepanze di dati** a causa di una configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati in CJA?
 
 >[!NOTE]
-> Questa funzionalità sarà generalmente disponibile il 10 agosto 2021.
+> Questa funzionalità sarà generalmente disponibile il 20 settembre 2021.
 
 ## Connections Manager {#connections-manager}
 
