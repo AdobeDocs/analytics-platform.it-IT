@@ -2,14 +2,14 @@
 title: Come creare una nuova visualizzazione dati nel Customer Journey Analytics.
 description: Descrive tutte le impostazioni necessarie per creare nuove visualizzazioni dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
+source-git-commit: fb8de8c65b44fd57ca5da6d993bb02b8574f7f47
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2759'
 ht-degree: 2%
 
 ---
 
-# Creare una nuova visualizzazione dati
+# Creare una visualizzazione dati
 
 La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. La creazione di metriche o dimensioni offre un&#39;enorme flessibilità. In precedenza, si presupponeva che in Adobe Experience Platform i set di dati fossero utilizzati come campi stringa e come metriche. Per modificare uno qualsiasi di questi campi, era necessario modificare lo schema in Platform. L&#39;interfaccia utente per la visualizzazione dei dati ora consente una [definizione più a forma libera di metriche e dimensioni](/help/data-views/data-views.md). Per ulteriori casi d’uso, consulta [Casi d’uso delle visualizzazioni dati](/help/data-views/data-views-usecases.md).
 
@@ -125,7 +125,11 @@ Consente di specificare il comportamento di una metrica nel reporting.
 | --- | --- |
 | [!UICONTROL Count values] | Solo per le metriche booleane, questa impostazione ti consente di specificare se desideri [!UICONTROL Count True], [!UICONTROL Count False] o [!UICONTROL Count True or False] come valore della metrica. Il valore predefinito è [!UICONTROL Count True]. Questo ti dà il valore effettivo di una metrica, ad esempio &quot;50&quot; se il valore dell’ordine era 50. |
 | [!UICONTROL Count instances] | Consente di specificare se un campo numerico o di tipo data utilizzato come metrica deve contare le ore impostate anziché il valore stesso.<br> Se si desidera sommare le istanze di un campo numerico e si desidera semplicemente aggiungere il numero di volte in cui è stato  ** impostato un campo, anziché il valore effettivo all’interno.<br>Questa funzione è utile, ad esempio, per creare una  [!UICONTROL Orders] metrica da un  [!UICONTROL Revenue] campo. Se sono stati impostati i ricavi, vogliamo contare 1 singolo ordine invece dell&#39;importo numerico dei ricavi. |
-| [!UICONTROL Lower case] | *Nuovo* : per dimensioni di tipo &quot;stringa&quot;. Questa impostazione consente di controllare se il Customer Journey Analytics considera i valori di dimensione con distinzione tra maiuscole e minuscole. Consente la deduplicazione di righe che hanno lo stesso valore, ma un caso diverso. Se selezioni **[!UICONTROL Lower case]**, tutte le istanze di una dimensione con lo stesso valore verranno riportate come minuscole. Questa schermata mostra cosa succede se si seleziona la casella **non** spunta [!UICONTROL Lower case] rispetto a **do** . Nella tabella a sinistra, osserva come &quot;liverpool&quot;, &quot;Liverpool&quot; e &quot;LIVERPOOL&quot; si traducono in tre voci separate nel reporting. Nella tabella di destra, gli stessi valori sono stati deduplicati e rientrano sotto una riga:<br>![dimensione sensibile a maiuscole e minuscole](assets/case-sens-workspace.png) |
+| [!UICONTROL Lower case] | Utilizzato con dimensioni stringa. Deduplica le righe che hanno lo stesso valore ma casi diversi. Se abilitata, tutte le istanze di una dimensione con lo stesso valore vengono riportate in minuscolo. Ad esempio, il set di dati contiene i valori `"liverpool"`, `"Liverpool"` e `"LIVERPOOL"` in una dimensione stringa. Se [!UICONTROL Lower case] è abilitato, tutti e tre i valori vengono combinati in `"liverpool"`. Se disabilitata, tutti e tre i valori vengono trattati come valori distinti:<br>![dimensione sensibile a maiuscole e minuscole](assets/case-sens-workspace.png)<br> |
+
+>[!NOTE]
+>
+>Se abiliti [!UICONTROL Lower case] in una dimensione di set di dati di ricerca, possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, CJA utilizza il primo valore di confronto ASCII (i valori in maiuscolo precedono i valori in minuscolo). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando è abilitato [!UICONTROL Lower case].
 
 ### Configurare le impostazioni [!UICONTROL No Value Options]
 
