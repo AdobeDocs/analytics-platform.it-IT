@@ -2,7 +2,7 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
+source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 28%
