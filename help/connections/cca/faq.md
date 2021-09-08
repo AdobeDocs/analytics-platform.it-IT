@@ -1,48 +1,65 @@
 ---
-title: Domande frequenti sull'analisi tra canali
-description: Domande frequenti per Analytics multicanale
-translation-type: tm+mt
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
+title: Domande frequenti su Analytics tra canali
+description: Domande frequenti per Cross-Channel Analytics
+exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
+source-git-commit: 2be442915587780ce41f33b13e27b8cf44e239a6
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '976'
 ht-degree: 1%
 
 ---
 
-
 # Domande frequenti
 
-## Come posso usare CCA per vedere come le persone si spostano da un canale all&#39;altro?
+## Come posso usare CCA per vedere come le persone si spostano da un canale all’altro?
 
-Puoi utilizzare una visualizzazione Flusso con la dimensione ID del set di dati.
+Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati .
 
-1. Accedete a [analytics.adobe.com](https://analytics.adobe.com) e create un progetto Workspace vuoto.
-2. Fai clic sulla scheda Visualizzazioni a sinistra, quindi trascina una visualizzazione Flusso sul quadro a destra.
-3. Fare clic sulla scheda Componenti a sinistra, quindi trascinare la dimensione &#39;ID set di dati&#39; nella posizione centrale abilitata &#39;Dimension o elemento&#39;.
-4. Questo rapporto di flusso è interattivo. Fate clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Per espandere o comprimere le colonne, usate il menu di scelta rapida. All’interno dello stesso rapporto di flusso possono essere utilizzate dimensioni diverse.
+1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
+2. Fai clic sulla scheda Visualizzazioni a sinistra e trascina una visualizzazione Flusso sull’area di lavoro a destra.
+3. Fai clic sulla scheda Componenti a sinistra e trascina la dimensione &quot;ID set di dati&quot; nella posizione centrale abilitata &quot;Dimension o elemento&quot;.
+4. Questo rapporto di flusso è interattivo. Fai clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Utilizzare il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
-Se si desidera rinominare gli elementi dimensione ID set di dati, è possibile utilizzare un set di dati di ricerca.
+Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
 
-## Quanto tempo fa CCA reagisce ai visitatori?
+## Quanto tempo fa CCA restringe i visitatori?
 
-La finestra di lookback per la rekeying dipende dalla frequenza desiderata di dati [replay](replay.md). Ad esempio, se configurate CCA per riprodurre i dati una volta alla settimana, la finestra di lookback per la rekeying è di 7 giorni. Se configurate CCA per riprodurre i dati ogni giorno, la finestra di lookback per la rekeying è di 1 giorno.
+L&#39;intervallo di lookback per il reinserimento dipende dalla frequenza desiderata di dati [replay](replay.md). Ad esempio, se imposti CCA per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la rekeying è di 7 giorni. Se imposti CCA per riprodurre i dati ogni giorno, l’intervallo di lookback per la rekeying è di 1 giorno.
 
 ## Come vengono gestiti i dispositivi condivisi?
 
-In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Alcuni esempi includono un dispositivo condiviso a casa, PC condivisi in una libreria o un chiosco in un punto vendita.
+In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
-L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condivisi sono considerati persone separate (anche se provengono dallo stesso dispositivo).
+L&#39;ID transitorio sostituisce l&#39;ID persistente, pertanto i dispositivi condivisi vengono considerati persone separate (anche se provengono dallo stesso dispositivo).
 
 ## In che modo CCA gestisce le situazioni in cui una singola persona dispone di un numero elevato di ID persistenti?
 
-In alcune situazioni, un singolo utente può associarsi a un numero elevato di ID persistenti. Alcuni esempi includono la cancellazione frequente dei cookie del browser o l&#39;utilizzo della modalità privata/incognito del browser.
+In alcune situazioni, un singolo utente può associarsi a un numero elevato di ID persistenti. Alcuni esempi includono la cancellazione frequente dei cookie del browser o l’utilizzo della modalità privata/incognita del browser.
 
-Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a un numero qualsiasi di dispositivi senza che ciò influisca sulla capacità di CCA di cucire tra i dispositivi.
+Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di CCA di eseguire unioni tra dispositivi.
 
-## Una volta contattato il mio Account Manager con le informazioni desiderate, quanto tempo ci vuole affinché il set di dati rekeyed diventi disponibile?
+## Una volta contattato il mio Account Manager con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
 
-La cucitura in diretta è disponibile circa una settimana dopo  Adobe che consente l&#39;analisi tra canali. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
+L’unione live è disponibile circa 1 settimana dopo l’attivazione dell’analisi cross-channel da parte dell’Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
-## In che modo Analytics tra canali gestisce le richieste GDPR e CCPA?
+## In che modo Analytics tra canali gestisce le richieste RGPD e CCPA?
 
- Adobe gestisce le richieste GDPR e CCPA in conformità alle leggi locali e internazionali.  Adobe offre la [ Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) per inviare richieste di accesso ed eliminazione dei dati. Le richieste si applicano sia ai set di dati originali che ai set di dati ripetuti.
+Adobe gestisce le richieste RGPD e CCPA in conformità alle leggi locali e internazionali. Adobe offre ad [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+
+## Cosa succede se il campo ID persistente in uno o più eventi è vuoto?
+
+Se il campo `Persistent ID` è vuoto in un evento in un set di dati da unire con unione basata sul campo, CCA compila l&#39;evento `Stitched ID` in uno dei due modi seguenti:
+* Se il campo `Transient ID` non è vuoto, CCA utilizza il valore in `Transient ID` come `Stitched ID`.
+* Se il campo `Transient ID` è vuoto, CCA lascia vuoto anche il campo `Stitched ID` . In questo caso, `Persistent ID`, `Transient ID` e `Stitched ID` saranno tutti vuoti nell’evento. Eventi come questo vengono eliminati da CJA in qualsiasi connessione CJA utilizzando il set di dati in cui `Stitched ID` è stato scelto come `Person ID`.
+
+## Come si confrontano le metriche nei set di dati con unione di CJA con metriche simili nei set di dati non uniti di CJA e con il tradizionale Adobe Analytics?
+
+Alcune metriche in CJA sono simili alle metriche nella versione tradizionale di Analytics, ma altre sono piuttosto diverse, a seconda del confronto. La tabella seguente confronta diverse metriche comuni:
+
+| **Dati uniti CJA** | **Dati non uniti CJA** | **Adobe Analytics tradizionale** | **Analytics Ultimate con CDA** |
+| ----- | ----- | ----- | ----- |
+| **Persone**  = conteggio di valori univoci  `Person ID`in cui  `Stitched ID` viene scelto come  `Person ID`. **** Le persone possono essere più alte o più basse di  **Visitatori unici** nell’Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone**  = conteggio di valori distinti  `Person ID`in base alla colonna selezionata come  `Person ID`. **** I set di dati ADC (People Adobe Analytics Connector) sono simili a  **Unique** Visitorin Adobe Analytics tradizionale se  `endUserIDs. _experience. aaid.id` viene scelto come  `Person ID` in CJA. | **Visitatori univoci**  = conteggio degli ID visitatore distinti. Tieni presente che **Visitatori unici** potrebbe non essere lo stesso numero di visitatori distinti **ECID** s. | Vedere [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
+| **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. | **Visite**: Consulta  [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Visite**: È definito in base alle impostazioni di sessionizzazione specificate nella suite di rapporti virtuali  [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en). |
+| **Events** = conteggio delle righe nei dati uniti in CJA. In genere questo deve essere vicino a **Occorrenze** nel Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti precedenti relative alle righe con un vuoto `Persistent ID`. | **Events** = conteggio delle righe nei dati non uniti in CJA. In genere questo deve essere vicino a **Occorrenze** nel Adobe Analytics tradizionale. Nota, tuttavia, che se uno qualsiasi degli eventi presenta un elemento vuoto `Person ID` nei dati non uniti nel data lake di AEP, questi eventi verranno ignorati (non inclusi) in CJA. | **Occorrenze**: Consultare  [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Occorrenze**: Consultare  [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
+
+Altre metriche possono essere simili in CJA e nella versione tradizionale di Adobe Analytics. Ad esempio, il conteggio totale per gli eventi personalizzati Adobe Analytics [a1/> (eventi 1-100) deve essere generalmente molto vicino in Adobe Analytics e CJA tradizionali (uniti o non uniti). ](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) Tuttavia, questo potrebbe non essere sempre vero a causa delle [differenze nelle funzionalità](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en), ad esempio la deduplicazione di eventi tra CJA e il tradizionale Adobe Analytics.

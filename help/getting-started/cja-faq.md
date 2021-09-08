@@ -2,10 +2,10 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 32%
+source-wordcount: '1411'
+ht-degree: 28%
 
 ---
 
@@ -75,3 +75,16 @@ Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di compone
 | Elimina un batch **durante l&#39;acquisizione** in [!UICONTROL Customer Journey Analytics] | Se nel set di dati è presente un solo batch, nessun dato o dato parziale da quel batch verrà visualizzato in [!UICONTROL Customer Journey Analytics]. L&#39;ingestione verrà rimandata. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell’eliminazione del set di dati, i dati di tali 3 batch saranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
 | Elimina una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione dati in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare. |
+
+## 6. Considerazioni durante l’unione delle suite di rapporti in CJA
+
+Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en), considera queste ramificazioni quando unisci 2 o più suite di rapporti Adobe Analytics.
+
+| Problema | Considerazione |
+| --- | --- |
+| Variabili | Le variabili come [!UICONTROL eVars] potrebbero non essere allineate tra le suite di rapporti. Ad esempio, eVar1 nella suite di rapporti 1 può puntare a **[!UICONTROL Page]**. Nella suite di rapporti 2, eVar1 può puntare a **[!UICONTROL Internal Campaign]** e generare report misti e imprecisi. |
+| [!UICONTROL Sessions] e  [!UICONTROL People] conteggi | Vengono deduplicati in tutte le suite di rapporti. Di conseguenza, i conteggi potrebbero non corrispondere. |
+| Deduplicazione delle metriche | Deduplica le istanze di una metrica (ad esempio, [!UICONTROL Orders]) se più righe hanno lo stesso ID transazione (ad esempio, [!UICONTROL Purchase ID]). Questo impedisce il conteggio eccessivo delle metriche chiave. Di conseguenza, le metriche come [!UICONTROL Orders] potrebbero non essere sommate tra le suite di rapporti. |
+| Valuta | La conversione della valuta non è ancora supportata in CJA. Se le suite di rapporti che stai tentando di unire utilizzano valute di base diverse, potrebbero sorgere problemi. |
+| [!UICONTROL Persistence] | [](/help/data-views/persistence.md) La persistenza si estende tra le suite di rapporti, che hanno un impatto  [!UICONTROL filters],  [!UICONTROL attribution] e così via. È possibile che i numeri non si sommino correttamente. |
+| [!UICONTROL Classifications] | [!UICONTROL Classifications] non viene deduplicata automaticamente durante l’unione delle suite di rapporti. Quando si combinano più file di classificazione in un singolo set di dati [!UICONTROL lookup], si potrebbero riscontrare problemi. |
