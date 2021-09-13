@@ -6,55 +6,55 @@ sub-product: customer journey
 solution: Customer Journey Analytics
 type: Documentation
 index: true
-user-guide-title: Guida a Customer Journey Analytics
-user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
-breadcrumb-title: Guida a Customer Journey Analytics
+user-guide-title: Guida di Customer Journey Analytics
+user-guide-description: Questa guida fornisce assistenza autonoma per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
+breadcrumb-title: Guida di Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
-workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
 
-# Guida a Customer Journey Analytics {#using}
+# Guida di Customer Journey Analytics {#using}
 
-+ [Guida a Customer Journey Analytics](getting-started/cja-landing.md)
-+ Panoramica su Customer Journey Analytics {#cja-overview}
-   + [Panoramica su Customer Journey Analytics](getting-started/cja-overview.md)
++ [Guida di Customer Journey Analytics](getting-started/cja-landing.md)
++ Panoramica di Customer Journey Analytics {#cja-overview}
+   + [Panoramica di Customer Journey Analytics](getting-started/cja-overview.md)
    + [Introduzione](getting-started/cja-getting-started.md)
    + [Domande frequenti](getting-started/cja-faq.md)
    + [Supporto delle funzioni di Customer Journey Analytics](getting-started/cja-aa.md)
-   + [Implicazioni di cancellazione](getting-started/cja-deletion.md)
+   + [Implicazioni dell’eliminazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)
 + Connessioni {#cja-connections}
    + [Creare una connessione](connections/create-connection.md)
-   + [Gestione delle connessioni](connections/manage-connections.md)
+   + [Gestire le connessioni](connections/manage-connections.md)
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
    + Analisi cross-channel {#cca}
-      + [Panoramica di Analytics tra canali](connections/cca/overview.md)
+      + [Panoramica di Analisi cross-channel](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
-      + [Domande frequenti su Analytics tra canali](connections/cca/faq.md)
+      + [Domande frequenti su Analisi cross-channel](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](data-views/data-views.md)
    + [Creare una visualizzazione dati](data-views/create-dataview.md)
-   + [Casi di utilizzo delle visualizzazioni dati](data-views/data-views-usecases.md)
+   + [Casi d’uso per le visualizzazioni dati](data-views/data-views-usecases.md)
    + [Persistenza](data-views/persistence.md)
 + Progetti Workspace {#cja-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Eseguire analisi di base](analysis-workspace/perform-basic-analysis.md)
-   + [Esecuzione di analisi avanzate](analysis-workspace/perform-adv-analysis.md)
+   + [Eseguire analisi avanzate](analysis-workspace/perform-adv-analysis.md)
    + Progetti {#build-workspace-project}
-      + [Panoramica sui progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Panoramica dei progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Gestire le origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabella a forma libera {#freeform-table}
          + [Tabella a forma libera](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Impostazioni colonna e riga {#column-row-settings}
@@ -66,7 +66,7 @@ ht-degree: 85%
       + Tabella coorte {#cohort-table}
          + [Cos’è un’analisi per coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casi d’uso per l’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
          + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -95,7 +95,7 @@ ht-degree: 85%
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
-   + Cura, condivisione e pianificazione di progetti {#curate-share}
+   + Curare, condividere e pianificare i progetti {#curate-share}
       + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
@@ -104,10 +104,10 @@ ht-degree: 85%
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
-      + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
+      + [Panoramica di Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
-      + [Best practice di attribuzione](analysis-workspace/attribution/best-practices.md)
+      + [Best practice di Attribution](analysis-workspace/attribution/best-practices.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
@@ -123,46 +123,46 @@ ht-degree: 85%
       + [Limiti di Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità di Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
-      + [Coda lunga in Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
+      + [“Long tail” in Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
    + Dimensioni {#dimensions}
       + [Anteprima dimensioni](components/dimensions/view-dimensions.md)
       + [Suddividere dimensioni](components/dimensions/t-breakdown-fa.md)
       + [Suddividere le dimensioni in base al tempo](components/dimensions/time-parting-dimensions.md)
-      + [Dimension con cardinalità molto elevata](components/dimensions/high-cardinality.md)
+      + [Dimensioni con cardinalità molto elevata](components/dimensions/high-cardinality.md)
    + [Metriche](components/apply-create-metrics.md)
    + Filtri {#cja-filters}
-      + [Panoramica sui filtri](components/filters/filters-overview.md)
-      + [Creazione di un filtro](components/filters/create-filters.md)
+      + [Panoramica dei filtri](components/filters/filters-overview.md)
+      + [Creare un filtro](components/filters/create-filters.md)
       + [Gestire i filtri](components/filters/manage-filters.md)
    + Metriche calcolate {#cja-calcmetrics}
-      + [Panoramica sulle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
-      + [Creazione di una metrica calcolata](components/calc-metrics/create.md)
+      + [Panoramica delle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
+      + [Creare una metrica calcolata](components/calc-metrics/create.md)
       + [Gestire le metriche calcolate](components/calc-metrics/manage.md)
       + [Funzioni di base](components/calc-metrics/cm-functions.md)
       + [Funzioni avanzate](components/calc-metrics/cm-adv-functions.md)
    + Intervalli di date {#cja-date-ranges}
-      + [Panoramica sugli intervalli di date](components/date-ranges/overview.md)
-      + [Creazione di un intervallo di date](components/date-ranges/create.md)
-      + [Gestione degli intervalli di date](components/date-ranges/manage.md)
+      + [Panoramica degli intervalli di date](components/date-ranges/overview.md)
+      + [Creare un intervallo di date](components/date-ranges/create.md)
+      + [Gestire gli intervalli di date](components/date-ranges/manage.md)
       + [Panoramica del calendario](components/date-ranges/calendar.md)
-      + [Creazione di intervalli di date personalizzati](components/date-ranges/custom-date-ranges.md)
+      + [Creare intervalli di date personalizzati](components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](components/date-ranges/time-comparison.md)
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
-   + [Utilizzo di array di oggetti](use-cases/object-arrays.md)
+   + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
-   + [Importazione di dati web e call center](use-cases/call-center.md)
-   + [Casi di utilizzo per l’acquisizione di dati](use-cases/data-ingestion.md)
+   + [Importare dati web e call center](use-cases/call-center.md)
+   + [Casi d’uso per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
    + [Aggiungere ricerche globali ai set di dati](use-cases/global-lookups.md)
    + [Inserire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [Report sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
+   + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Dashboard di Analytics {#cja-dashboards}
-   + [Panoramica delle dashboard di Analytics](mobile-app/home.md)
+   + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + Privacy {#cja-privacy}
-   + [Panoramica sulla privacy](privacy/privacy-overview.md)
+   + [Panoramica della privacy](privacy/privacy-overview.md)
 + [Aggiornamenti della documentazione di CJA](doc-changes.md)
