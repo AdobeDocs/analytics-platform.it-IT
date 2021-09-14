@@ -1,16 +1,16 @@
 ---
-title: Gestione delle connessioni
+title: Gestire le connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 3%
+source-wordcount: '1463'
+ht-degree: 2%
 
 ---
 
-# Gestione delle connessioni
+# Gestire le connessioni
 
 Una volta che gli utenti amministratori hanno [creato una o più connessioni](/help/connections/create-connection.md), possono gestirle nel [!UICONTROL Connections] Manager. L&#39;ultimo aggiornamento dell&#39;esperienza di connessione aggiunge due funzionalità importanti nella pagina Dettagli connessione, descritta più in basso in questa pagina:
 
@@ -80,6 +80,9 @@ Consente di:
 * Identifica i problemi di configurazione che portano a record saltati o eliminati.
 * Vedi quando i dati sono disponibili per il reporting.
 
+>[!IMPORTANT]
+>I dati acquisiti prima del 13 agosto 2021 non vengono visualizzati in questa finestra di dialogo [!UICONTROL Connections] .
+
 Ecco i widget e le impostazioni spiegate:
 
 ![Visualizza dettagli connessione](assets/conn-details.png)
@@ -88,11 +91,11 @@ Ecco i widget e le impostazioni spiegate:
 | --- | --- |
 | Selettore set di dati | Consente di scegliere uno o tutti i set di dati della connessione. Non è possibile selezionare più set di dati. Predefinito su [!UICONTROL All datasets]. |
 | Calendario/Intervalli di date | L’intervallo di date indica quando hai aggiunto dati alla connessione. Sono inclusi tutti i predefiniti calendario standard. Puoi personalizzare l’intervallo di date, ma nel menu a discesa non viene visualizzato alcun intervallo di date personalizzato. |
-| [!UICONTROL Records available] widget | Rappresenta il numero totale di righe disponibili per il reporting, **per l&#39;intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. (Tieni presente che, una volta aggiunto, i dati vengono visualizzati nel rapporto con una latenza di 1-2 ore.) |
-| [!UICONTROL Metrics] widget | Riepiloga i record aggiunti/saltati/eliminati e il numero di batch aggiunti **per il set di dati e l&#39;intervallo di date selezionati**. |
-| [!UICONTROL Records added] widget | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. Aggiornato ogni 10 minuti. |
-| [!UICONTROL Records skipped] widget | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. I motivi per cui i record vengono ignorati sono i seguenti: Marca temporale mancante, ID persona mancante, ecc. Aggiornato ogni 10 minuti. |
-| [!UICONTROL Records deleted] widget | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. Ad Experience Platform, qualcuno potrebbe aver eliminato un set di dati. Aggiornato ogni 10 minuti. |
+| [!UICONTROL Records of event data available] widget | Rappresenta il numero totale di righe del set di dati evento disponibili per il reporting, **per l&#39;intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. (Tieni presente che, una volta aggiunto, i dati vengono visualizzati nel rapporto con una latenza di 1-2 ore.) |
+| [!UICONTROL Metrics] widget | Riepiloga i record evento aggiunti/saltati/eliminati e il numero di batch aggiunti **per il set di dati e l’intervallo di date selezionati**. |
+| [!UICONTROL Records added] widget | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. Aggiornato ogni 10 minuti. **Nota**: I dati per  **[!UICONTROL Records added]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records skipped] widget | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. I motivi per cui i record vengono ignorati sono i seguenti: Marca temporale mancante, ID persona mancante, ecc. Aggiornato ogni 10 minuti. **Nota**: I dati per  **[!UICONTROL Records skipped]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records deleted] widget | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l&#39;intervallo di date selezionati**. Ad Experience Platform, qualcuno potrebbe aver eliminato un set di dati. Aggiornato ogni 10 minuti. **Nota**: I dati per  **[!UICONTROL Records deleted]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | Casella di ricerca set di dati | Puoi eseguire la ricerca per nome del set di dati o [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets] | Mostra i set di dati che fanno parte della connessione. È possibile fare clic sul collegamento ipertestuale per visualizzare tutti i set di dati presenti nella connessione. |
 | [!UICONTROL Dataset ID] | Questo ID viene generato automaticamente da Adobe Experience Platform. |
@@ -115,9 +118,10 @@ Ecco i widget e le impostazioni spiegate:
 | **Barra a destra a livello di set di dati** |  |
 | [!UICONTROL Dataset description] | Descrive i parametri di ogni set di dati in questa connessione. |
 | [!UICONTROL Records available] | Rappresenta il numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. (L&#39;eccezione è che quando crei una nuova connessione, ci sarà [latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#3.-introduzione di dati nell’analisi del percorso cliente). |
-| [!UICONTROL Records added] | Quante righe sono state aggiunte nel periodo di tempo selezionato. |
-| [!UICONTROL Records skipped] | Quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato. |
-| [!UICONTROL Record skipped errors] | Il motivo per cui i record sono stati saltati è indicato qui. Potrebbero includere timestamp mancanti, ID persona mancante, ecc. |
+| [!UICONTROL Records added] | Quante righe sono state aggiunte nel periodo di tempo selezionato. **Nota**: I dati per  **[!UICONTROL Records added]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records skipped] | Quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato. **Nota**: I dati per  **[!UICONTROL Records skipped]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records deleted] | Quanti record sono stati eliminati durante il periodo di tempo selezionato. **Nota**: I dati per  **[!UICONTROL Records deleted]** includono solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Record skipped errors] | Il motivo per cui i record sono stati saltati è indicato qui. I motivi potrebbero includere timestamp mancanti, ID persona mancante, ecc. |
 | [!UICONTROL Batches ingested] | Quanti batch di dati sono stati aggiunti in questo set di dati. |
 | [!UICONTROL Last added] | Quando è stato aggiunto l&#39;ultimo batch. |
 | [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup] o [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -131,3 +135,5 @@ Consente agli amministratori di modificare la connessione. Seleziona una conness
 
 * Avviare e interrompere l&#39;importazione di nuovi dati. Questo processo era precedentemente noto come &quot;streaming di dati&quot;.
 * Rinominare una connessione.
+* Aggiorna i set di dati.
+* Rimuovi i set di dati dalle connessioni.
