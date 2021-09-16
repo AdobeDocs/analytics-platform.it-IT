@@ -2,7 +2,7 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 28%
@@ -86,5 +86,5 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 | [!UICONTROL Sessions] e  [!UICONTROL People] conteggi | Vengono deduplicati in tutte le suite di rapporti. Di conseguenza, i conteggi potrebbero non corrispondere. |
 | Deduplicazione delle metriche | Deduplica le istanze di una metrica (ad esempio, [!UICONTROL Orders]) se più righe hanno lo stesso ID transazione (ad esempio, [!UICONTROL Purchase ID]). Questo impedisce il conteggio eccessivo delle metriche chiave. Di conseguenza, le metriche come [!UICONTROL Orders] potrebbero non essere sommate tra le suite di rapporti. |
 | Valuta | La conversione della valuta non è ancora supportata in CJA. Se le suite di rapporti che stai tentando di unire utilizzano valute di base diverse, potrebbero sorgere problemi. |
-| [!UICONTROL Persistence] | [](/help/data-views/persistence.md) La persistenza si estende tra le suite di rapporti, che hanno un impatto  [!UICONTROL filters],  [!UICONTROL attribution] e così via. È possibile che i numeri non si sommino correttamente. |
+| [!UICONTROL Persistence] | [](../data-views/component-settings/persistence.md) La persistenza si estende tra le suite di rapporti, che hanno un impatto  [!UICONTROL filters],  [!UICONTROL attribution] e così via. È possibile che i numeri non si sommino correttamente. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] non viene deduplicata automaticamente durante l’unione delle suite di rapporti. Quando si combinano più file di classificazione in un singolo set di dati [!UICONTROL lookup], si potrebbero riscontrare problemi. |

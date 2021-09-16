@@ -2,10 +2,10 @@
 title: Aggiornamenti della documentazione di CJA
 description: Elenca gli aggiornamenti dei contenuti della documentazione del Customer Journey Analytics impostati a partire da dicembre 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: 8f576a8321c0e50cc34c1c08c8f8f7c48b427233
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal
 | Agosto 2021 | Nuova sezione sull’esperienza [Connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) migliorata in CJA. |
 | Agosto 2021 | Nuova sezione sulla sensibilità alle maiuscole/minuscole nelle dimensioni Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-behavior-settings).[ |
 | Giugno 2021 | Nuova documentazione sulle [versioni precedenti del progetto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) in Workspace. |
-| Aprile 2021 | Nuovo argomento su [persistenza](/help/data-views/persistence.md). |
+| Aprile 2021 | Nuovo argomento su [persistenza](data-views/component-settings/persistence.md). |
 | Aprile 2021 | Nuova documentazione sul supporto dei progetti pianificati in Workspace. |
 | Aprile 2021 | Nuovi argomenti sull’ [esperienza di visualizzazione dati migliorata](/help/data-views/data-views.md). |
 | Aprile 2021 | Nuovi argomenti relativi all’ [acquisizione di dati Google Analytics](/help/use-cases/ga-to-cja.md) e [analisi di tali dati](/help/use-cases/ga-to-cja-reporting.md). |
@@ -38,7 +38,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal
 | Novembre 2020 | Contenuto aggiunto in [rimozione delle limitazioni di backfill](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#backfill-historical-data) per le connessioni. |
 | 7 ottobre 2020 | È stato aggiunto un argomento sui [set di dati evento combinati](/help/connections/combined-dataset.md). |
 | 15 settembre 2020 | È stato aggiunto un argomento su [inserimento dati](/help/use-cases/data-ingestion.md). |
-| 2 settembre 2020 | È stata aggiornata la sezione relativa alle [autorizzazioni utente](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). |
+| 2 settembre 2020 | È stata aggiornata la sezione relativa alle [autorizzazioni utente](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). |
 | 7 agosto 2020 | È stato aggiunto un nuovo argomento sul [caso d’uso B2B - set di dati di ricerca](/help/use-cases/b2b.md) . |
 | Luglio 2020 | Sono state aggiunte informazioni sull’ opzione [Mappa identità per ID persona](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en). |
 | Luglio 2020 | È stato aggiunto un nuovo argomento su [array di oggetti](/help/use-cases/object-arrays.md) o &quot;gerarchie di dati&quot;. |

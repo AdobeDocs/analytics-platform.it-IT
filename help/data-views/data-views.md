@@ -1,17 +1,17 @@
 ---
-title: Cos’è una visualizzazione dati in un Customer Journey Analytics?
+title: Panoramica delle visualizzazioni dati
 description: Una visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
+source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1033'
+ht-degree: 5%
 
 ---
 
-# Cos’è una visualizzazione dati?
+# Panoramica delle visualizzazioni dati
 
-Una visualizzazione dati si trova sopra un Customer Journey Analytics (CJA) [connessione](/help/connections/create-connection.md). Una connessione combina uno o più set di dati da Adobe Experience Platform e la collega a CJA. La visualizzazione dati specifica come si desidera interpretare gli elementi dei dati nella connessione, come metriche, dimensioni, sessioni, ecc. Le visualizzazioni dati sono definite in preparazione alla generazione di rapporti sui dati in Workspace.
+Una visualizzazione dati è un contenitore specifico del Customer Journey Analytics che consente di determinare come interpretare i dati da una [connessione](/help/connections/create-connection.md). Specifica tutte le dimensioni e le metriche disponibili in Analysis Workspace e da quali colonne tali dimensioni e metriche ottengono i loro dati. Le visualizzazioni dati sono definite in preparazione al reporting in Analysis Workspace.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 ## Prerequisiti per le visualizzazioni dati
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
-* Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions).
+* Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions).
 
 ## Impostazioni della visualizzazione dati sostituibili in Workspace
 
@@ -77,5 +77,4 @@ Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], 
 ## Passaggi successivi
 
 * [Creare visualizzazioni dati](/help/data-views/create-dataview.md)
-* [Casi di utilizzo delle visualizzazioni dati](/help/data-views/data-views-usecases.md)
-* Dettagli sul funzionamento di [persistenza](/help/data-views/persistence.md)
+* [Casi d’uso per le visualizzazioni dati](/help/data-views/data-views-usecases.md)
