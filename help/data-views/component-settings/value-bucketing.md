@@ -1,15 +1,15 @@
 ---
 title: Impostazioni dei componenti per la divisione dei valori
 description: Combinare valori numerici in una dimensione.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
 
-# Impostazioni del componente Bucket valori
+# [!UICONTROL Value Bucketing] impostazioni dei componenti
 
 Durante la creazione o la modifica di una visualizzazione dati, il bucket dei valori consente di combinare valori numerici in base a un intervallo. È disponibile solo per le dimensioni che utilizzano tipi di dati con schema Intero o Doppio.
 

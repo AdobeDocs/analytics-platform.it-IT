@@ -2,10 +2,10 @@
 title: Aggiornamenti della documentazione di CJA
 description: Elenca gli aggiornamenti dei contenuti della documentazione del Customer Journey Analytics impostati a partire da dicembre 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 6fca2dbffb0a631b0c5425c7d8964296ad22b7cc
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 16%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -15,6 +15,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA fin dal
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Settembre 2021 | Suddividi le impostazioni dei componenti nelle visualizzazioni dati in singoli file:<ul><li>[[!UICONTROL Component] panoramica delle impostazioni](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Attribution] impostazioni dei componenti](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Behavior] impostazioni dei componenti](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Format] impostazioni dei componenti](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Include/exclude] impostazioni dei componenti](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Metric deduplication] impostazioni dei componenti](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL No value] impostazioni dei componenti](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Persistence] impostazioni dei componenti](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Value bucketing] impostazioni dei componenti](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | Settembre 2021 | Nuova sezione sulle [implicazioni dell’unione di suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#6.-considerazioni-durante l’unione-report-suites-in-cja) in CJA. |
 | Agosto 2021 | Nuova sezione sull’esperienza [Connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) migliorata in CJA. |
 | Agosto 2021 | Nuova sezione sulla sensibilità alle maiuscole/minuscole nelle dimensioni Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-behavior-settings).[ |

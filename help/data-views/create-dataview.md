@@ -2,9 +2,9 @@
 title: Creare una visualizzazione dati
 description: Tutte le impostazioni che è possibile modificare per creare o modificare una visualizzazione dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+source-git-commit: 49b4998194274eec2ab8eca231029ccb5ccf648d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '732'
 ht-degree: 4%
 
 ---
@@ -56,7 +56,17 @@ Ad esempio, dal campo **[!UICONTROL pageTitle]** puoi creare una dimensione deno
    >
    >Puoi trascinare cartelle di campi schema intere dalla barra a sinistra e queste vengono ordinate automaticamente nelle sezioni tradizionali. I campi stringa terminano nella sezione [!UICONTROL Dimensions] e le cifre nella sezione [!UICONTROL Metrics]. In alternativa, puoi fare clic su **[!UICONTROL Add all]** per aggiungere tutti i campi dello schema.
 
-1. Una volta selezionato il componente, vengono visualizzate una serie di impostazioni a destra. Configura il componente utilizzando le impostazioni descritte di seguito.
+1. Una volta selezionato il componente, vengono visualizzate una serie di impostazioni a destra. Configura il componente utilizzando le impostazioni descritte in
+
+* [[!UICONTROL Component] panoramica delle impostazioni](/help/data-views/component-settings/overview.md)
+* [[!UICONTROL Attribution] impostazioni dei componenti](/help/data-views/component-settings/attribution.md)
+* [[!UICONTROL Behavior] impostazioni dei componenti](/help/data-views/component-settings/behavior.md)
+* [[!UICONTROL Format] impostazioni dei componenti](/help/data-views/component-settings/format.md)
+* [[!UICONTROL Include|exclude] impostazioni dei componenti](/help/data-views/component-settings/include-exclude-values.md)
+* [[!UICONTROL Metric deduplication] impostazioni dei componenti](/help/data-views/component-settings/metric-deduplication.md)
+* [[!UICONTROL No value] impostazioni dei componenti](/help/data-views/component-settings/no-value-options.md)
+* [[!UICONTROL Persistence] impostazioni dei componenti](/help/data-views/component-settings/persistence.md)
+   [[!UICONTROL Value bucketing] impostazioni dei componenti](/help/data-views/component-settings/value-bucketing.md)
 
 ## Utilizzare la funzione [!UICONTROL Duplicate]
 
