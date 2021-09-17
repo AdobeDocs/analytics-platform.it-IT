@@ -1,17 +1,17 @@
 ---
-title: Importazione di dati web e call center
+title: Importare dati web e call center
 description: Scopri come creare un set di dati che collega i dati del call center e del sito web.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 4%
 
 ---
 
-# Importazione di dati web e call center
+# Importare dati web e call center
 
-Il Customer Journey Analytics offre la funzionalità solida e valida per combinare set di dati di origini diverse in un unico progetto Workspace. Utilizza questa guida per capire come la tua organizzazione può combinare i dati del sito web con i dati del call center.
+Il Customer Journey Analytics offre la funzionalità solida e valida per combinare set di dati di origini diverse in un unico progetto Workspace. Utilizza questa guida per capire come la tua organizzazione può combinare i dati del sito web con i dati del call center. Ad esempio, puoi capire quali azioni intraprende un cliente, quali contenuti visualizza e quali termini cerca prima di contattare l’assistenza clienti. Puoi quindi determinare i contenuti e gli strumenti self-service da migliorare in modo che i clienti possano risolvere meglio i problemi da soli senza dover effettuare l’accesso.
 
 ## Prerequisiti
 
@@ -30,7 +30,7 @@ Il Customer Journey Analytics offre la funzionalità solida e valida per combina
 
 ## Importare dati web e call center in Platform
 
-Importa i dati in Adobe Experience Platform. Consulta [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) e [Inserire dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) nella documentazione di Adobe Experience Platform.
+Importa i dati in Adobe Experience Platform. Consulta [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) e [Inserire dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) nella documentazione di Adobe Experience Platform.
 
 Durante l’importazione di dati in Platform, seguire questi suggerimenti può aiutare a migliorare le informazioni nei rapporti risultanti:
 
@@ -53,8 +53,10 @@ CJA richiede un identificatore comune per generare un [set di dati combinato](..
 
 ## Creare una visualizzazione dati
 
-Dopo aver creato una connessione, è possibile [Creare una visualizzazione dati](/help/data-views/create-dataview.md) da utilizzare in Analysis Workspace. <!-- page dimension last touch, session persistence -->
-<!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
+Dopo aver creato una connessione, è possibile [Creare una visualizzazione dati](/help/data-views/create-dataview.md) da utilizzare in Analysis Workspace. I componenti utili includono:
+
+* Una dimensione di pagina con l’ultimo contatto e la persistenza della sessione. Puoi collegare le metriche del call center all’ultima pagina visualizzata da un cliente prima di effettuare l’accesso.
+* Una metrica di chiamate che utilizza un campo schema &quot;Motivo del call center&quot; per aumentare le occorrenze. Utilizza [Deduplicazione metrica](/help/data-views/component-settings/metric-deduplication.md) in modo che aumenti una sola volta per sessione.
 
 ## Creare visualizzazioni
 
@@ -81,14 +83,13 @@ Questa tabella a forma libera consente di visualizzare le pagine principali che 
 1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fai clic su **[!UICONTROL Use non-default attribution model]**.
 1. Imposta il [modello di attribuzione](/help/data-views/create-dataview.md) desiderato.
 
-Il rapporto risultante mostra la metrica principale dai dati del call center. <!-- Complement with donut visualization -->
+Il rapporto risultante mostra la metrica principale dai dati del call center.
 
 <!-- ### Flow between web data and call center
 
 call reason as an exit dimension, web page name for previous pages
 
 ### Histogram
-
 
 ### Fallout
 

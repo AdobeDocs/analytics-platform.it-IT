@@ -2,10 +2,10 @@
 title: Creare o modificare una visualizzazione dati
 description: Tutte le impostazioni che è possibile modificare per creare o modificare una visualizzazione dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 384679788d140a01a12e1c830b47099398a920b1
+source-git-commit: 36b7cc72c34e27f90af29146f7a32c525b279b9b
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -60,12 +60,9 @@ Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. 
 1. Fare clic su **[!UICONTROL Add]** per creare una visualizzazione dati oppure fare clic su una visualizzazione dati esistente per modificarla.
 1. Fai clic sulla scheda **[!UICONTROL Components]**.
 
-![Scheda Componenti](assets/components-tab.png)
+   ![Scheda Componenti](assets/components-tab.png)
 
-Puoi vedere il [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati, e il relativo [!UICONTROL Schema fields] qui sotto. Nota bene:
-
-    * I componenti già inclusi sono i componenti standard richiesti (generati dal sistema).
-    * L’Adobe applica il filtro **[!UICONTROL Contains data]** per impostazione predefinita, in modo che vengano visualizzati solo i campi dello schema contenenti dati. Se stai cercando un campo che non contiene dati, rimuovi il filtro.
+   Puoi vedere il [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati, e il relativo [!UICONTROL Schema fields] qui sotto. I componenti già inclusi sono componenti standard richiesti (generati dal sistema) per tutte le visualizzazioni dati. Adobe applica anche il filtro **[!UICONTROL Contains data]** per impostazione predefinita, in modo che vengano visualizzati solo i campi dello schema contenenti dati. Se desideri un campo che non contenga dati, rimuovi questo filtro.
 
 1. Trascina un campo schema, ad esempio `pageTitle`, dalla barra a sinistra alla sezione Metriche o Dimension .
 
