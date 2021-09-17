@@ -2,10 +2,10 @@
 title: Importare dati web e call center
 description: Scopri come creare un set di dati che collega i dati del call center e del sito web.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -79,30 +79,58 @@ La visualizzazione Venn risultante mostra il numero di persone nel set di dati c
 Questa tabella a forma libera consente di visualizzare le pagine principali che contribuiscono agli eventi del call center. In primo luogo, accertati che le dimensioni e le metriche desiderate abbiano il modello di attribuzione corretto:
 
 1. Trascina la dimensione che contiene i nomi delle pagine web in una visualizzazione Tabella a forma libera.
-1. Sostituisci la metrica con la metrica del call center desiderata che desideri misurare la conversione.
+1. Sostituisci la metrica con la metrica del call center desiderata che desideri misurare.
 1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fai clic su **[!UICONTROL Use non-default attribution model]**.
-1. Imposta il [modello di attribuzione](/help/data-views/create-dataview.md) desiderato.
+1. Imposta il [modello di attribuzione](/help/analysis-workspace/attribution/models.md) desiderato. Ad esempio, un modello Decadimento nel tempo con emivita di 15 minuti e un intervallo di lookback della sessione. Questo modello di attribuzione attribuisce il merito alle pagine che precedono la chiamata al call center.
 
-Il rapporto risultante mostra la metrica principale dai dati del call center.
+Il rapporto risultante mostra le pagine principali che inviano le chiamate al call center. <!-- use case behind what we use these pages for -->
 
-<!-- ### Flow between web data and call center
+<!-- Complement with donut visualization -->
 
-call reason as an exit dimension, web page name for previous pages
+Puoi aumentare ulteriormente le informazioni con questa tabella suddividendo le chiamate per motivo o categoria.
 
-### Histogram
+1. Fai clic sulla freccia destra sotto la dimensione &quot;Motivo della chiamata&quot; nell’elenco dei componenti. Questa azione mostra singoli valori di dimensione.
+2. Trascina i valori di dimensione desiderati sotto la metrica &quot;Chiamate&quot;, che filtra la metrica in base a ogni rispettivo motivo di chiamata.
+3. Ripeti l&#39;operazione per ogni motivo di chiamata che desideri approfondire. Utilizza il filtro &quot;Tutte le sessioni&quot; per visualizzare il totale aggregato.
+
+<!-- screenshot -->
+
+### Visualizzazione flusso
+
+Puoi ottenere informazioni approfondite sulle operazioni che un cliente stava tentando di eseguire prima di utilizzare il canale del call center. Questa visualizzazione di flusso consente di comprendere i percorsi più frequenti utilizzati da un cliente per raggiungere il call center. Queste informazioni consentono di determinare i miglioramenti più efficaci che puoi apportare al tuo sito in modo che i clienti abbiano meno probabilità di effettuare l’accesso.
+
+1. Fai clic sulla scheda **[!UICONTROL Visualizations]** a sinistra e trascina una visualizzazione di flusso sull’area di lavoro.
+2. Fai clic sulla scheda **[!UICONTROL Components]** a sinistra e individua la dimensione &quot;Motivo della chiamata&quot;.
+3. Fai clic sulla freccia destra accanto a questa dimensione. Questa azione mostra singoli valori di dimensione.
+4. Trascina l’elemento dimensione del motivo della chiamata desiderato nella posizione centrale della visualizzazione del flusso.
+5. La visualizzazione di flusso popola automaticamente i motivi di chiamata precedenti e successivi. Sostituisci il motivo della chiamata precedente con la dimensione della pagina del sito web.
+6. Fai clic sull’icona a forma di ingranaggio in alto a destra della visualizzazione di flusso e modifica il contenitore di flusso in **[!UICONTROL Session]**.
+
+### Istogramma
+
+Quanti clienti hanno chiamato una volta, chiamato due volte o chiamato 6+? Alcune di queste persone non visitano mai il sito web. Utilizza la visualizzazione Istogramma per determinare quante persone rientrano in ciascun bucket. Per le persone che non visitano mai il sito web, vedi come possiamo incoraggiarle a self service.
+
+1. Fai clic sulla scheda **[!UICONTROL Visualizations]** a sinistra e trascina una visualizzazione istogramma nell’area di lavoro.
+2. Fai clic sulla scheda **[!UICONTROL Components]** a sinistra e trascina la metrica delle chiamate nella visualizzazione Istogramma.
+3. Fai clic su **[!UICONTROL Show advanced settings]** al centro della visualizzazione e personalizza i blocchi desiderati.
+4. Fai clic su **[!UICONTROL Build]**.
+
+<!--
+### Web to call, call to web
 
 ### Fallout
 
-step 1: all sessions
-step 2: purchase step 1
-step 3: call
+Fallout sessions - session
 
-another good one
+All sessions > page views metric > calls metric
+
+All sessions > calls metric > page views
+
+Orrr we could also use dataset ID
 
 step 1: all sessions
 step 2: 
 
-Orrr we could also use dataset ID
 
 ### Site sections that result in a call within 30 minutes
 
