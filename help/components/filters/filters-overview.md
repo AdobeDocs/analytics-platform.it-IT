@@ -2,11 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -84,4 +83,4 @@ La funzione tradizionale di Analytics include molti filtri (filtri) e metriche c
 
 | Nome filtro | Descrizione |
 | --- | --- |
-| Tutto Dati | Si tratta di un filtro obbligatorio che viene aggiunto dinamicamente al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
+| Tutti i dati | Si tratta di un filtro obbligatorio che viene aggiunto dinamicamente al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |

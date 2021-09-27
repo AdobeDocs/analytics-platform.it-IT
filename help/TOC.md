@@ -10,10 +10,10 @@ user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza autonoma per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '481'
+ht-degree: 93%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 94%
       + [Panoramica di Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
-      + [Best practice di Attribution](analysis-workspace/attribution/best-practices.md)
+      + [Best practice di attribuzione](analysis-workspace/attribution/best-practices.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
@@ -146,6 +146,8 @@ ht-degree: 94%
       + [Panoramica dei filtri](components/filters/filters-overview.md)
       + [Creare un filtro](components/filters/create-filters.md)
       + [Gestire i filtri](components/filters/manage-filters.md)
+      + [Filtri rapidi](components/filters/quick-filters.md)
+      + [Filtri ad hoc](components/filters/ad-hoc-filters.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica delle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
       + [Creare una metrica calcolata](components/calc-metrics/create.md)
