@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 85%
+source-wordcount: '1099'
+ht-degree: 72%
 
 ---
 
@@ -18,6 +18,18 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
 Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/create-filters.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
+
+## Tipi di filtro
+
+Puoi creare diversi tipi di filtri in Workspace e nel Generatore di filtri, a seconda di quanto debbano essere complessi, se devono essere applicati solo a questo progetto, ecc. Di seguito è riportato un riepilogo dei tipi di filtro:
+
+| Tipo di filtro | Creato dove? | Applicabile dove? | Quando utilizzare |
+| --- | --- | --- | --- |
+| Filtro elenco componenti | Fai clic su +, per passare al [Generatore di filtri](/help/components/filters/create-filters.md) | Tutti i progetti Workspace | Filtri sequenziali per filtri più complessi |
+| Filtro rapido | [Generatore di filtri rapido](/help/components/filters/quick-filters.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Flessibilità per aggiungere/modificare una o più regole |
+| Filtro del progetto ad hoc | [Trascina nella zona di rilascio segmenti di un progetto](/help/components/filters/ad-hoc-filters.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei filtri. | Filtri a regola singola |
+| Filtri nell’analisi dell’abbandono | [Visualizzazione ](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) Abbandono in Analysis Workspace | Per singole visualizzazioni di abbandono | Creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri |
+| Filtro basato su metriche calcolate | [Generatore di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Per una singola metrica calcolata | Applicare filtri all’interno della definizione metrica |
 
 ## Filtri sequenziali
 
