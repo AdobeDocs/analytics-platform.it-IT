@@ -2,9 +2,9 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: d833e12c67d74696438be9547db159438e671b2c
+source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 43%
 
 ---
@@ -21,6 +21,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Attribution IQ | Supporto completo. |
 | Metriche calcolate | Pieno sostegno; Eventuali metriche calcolate esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
 | Stitching cross-device/cross-channel | Pieno sostegno; Consulta [Analisi cross-channel](/help/connections/cca/overview.md). |
+| Download di CSV | Supporto completo. |
 | Calendari personalizzati | Supporto completo. |
 | Confronto date | Supporto completo. |
 | Intervalli di date | È supportata tutta la funzionalità dell’intervallo di date. |
@@ -77,7 +78,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
 | Analisi contributi | Il supporto è pianificato. |
-| Download di CSV | Il supporto è pianificato. |
 | Reporting sulle Date Warehouse (esportazione riga al 100%) | Il supporto è pianificato dall’interfaccia di Analysis Workspace. [!UICONTROL Experience Platform Query Service] fornisce anche un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
 | Persistenza variabile merchandising | Il supporto è pianificato. |
