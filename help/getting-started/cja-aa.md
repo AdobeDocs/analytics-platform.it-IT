@@ -2,10 +2,10 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: c23b172fd4dc5d0303723c4e8ccfeaa251257bfd
+source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 42%
+source-wordcount: '1172'
+ht-degree: 43%
 
 ---
 
@@ -21,12 +21,16 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Attribution IQ | Supporto completo. |
 | Metriche calcolate | Pieno sostegno; Eventuali metriche calcolate esistenti nel tradizionale Analysis Workspace non verranno trasferite a CJA. |
 | Stitching cross-device/cross-channel | Pieno sostegno; Consulta [Analisi cross-channel](/help/connections/cca/overview.md). |
+| Calendari personalizzati | Supporto completo. |
 | Confronto date | Supporto completo. |
+| Intervalli di date | È supportata tutta la funzionalità dell’intervallo di date. |
+| Ora legale risparmio | Supporto completo. |
 | Dimensioni | Pieno sostegno; CJA sfrutta XDM e supporta dimensioni illimitate. CJA non è legato agli eVar personalizzati o alle proprietà del tradizionale Adobe Analytics. |
 | Dimensioni predefinite di Analysis Workspace (ad esempio tipo di browser, tipo di referente, sistema operativo, ecc.) | CJA fornisce queste dimensioni in modo nativo, purché i campi XDM di base (come l’agente utente o l’ID dispositivo) siano compilati. Per i clienti che utilizzano Connettore dati di Analytics (ADC), sono disponibili alcune di queste dimensioni, ma non tutte. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Eliminazione RGPD | Pieno sostegno; tieni presente che il RGPD è ora gestito in coordinamento con [!UICONTROL Adobe Experience Platform]. CJA eredita tutte le modifiche apportate ai set di dati sottostanti da [!UICONTROL Experience Platform]. |
 | Variabili elenco/Prop elenco | Pieno sostegno; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | Metriche | Pieno sostegno; CJA sfrutta Experience Data Model (XDM) e supporta metriche illimitate, oltre a non essere legato agli eventi di successo personalizzati della versione tradizionale di Analytics. Alcune metriche standard sono state rinominate nella versione tradizionale di Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
+| Deduplicazione delle metriche | Supporto completo. |
 | Esportazione PDF | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
@@ -46,7 +50,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Classificazioni | Ora denominati &quot;Set di dati di ricerca&quot;. Le classificazioni utilizzate in Analytics possono essere importate nell’Experience Platform e in CJA tramite il Connettore dati classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in AEP e resi disponibili in CJA. |
 | Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzata che sono diverse dagli hit di background per dispositivi mobili. |
 | Attributi cliente | Ora denominati &quot;Set di dati di profilo&quot;, non vengono importati automaticamente dall’Experience Cloud, ma dovranno essere caricati in AEP prima di essere disponibili in CJA. |
-| Intervalli di date | È supportata tutta la funzionalità dell’intervallo di date, ad eccezione del supporto del calendario personalizzato, pianificato. |
 | Dimensioni del dispositivo, del browser e della tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe Experience Event XDM. |
 | Dimensioni e metriche di Entrate, Uscite e Tempo trascorso | Supportati (le entrate e le uscite sono ora denominate Avvio sessione e Fine sessione) e vengono calcolati in un modo leggermente diverso. |
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di CJA. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. I Dimension impostati nelle visualizzazioni dati sono limitati a una persistenza massima di 90 giorni e non supportano la persistenza illimitata. |
@@ -73,10 +76,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Avvisi | Il supporto è pianificato. |
 | Analisi contributi | Il supporto è pianificato. |
 | Download di CSV | Il supporto è pianificato. |
-| Calendari personalizzati | Il supporto è pianificato. |
 | Reporting sulle Date Warehouse (esportazione riga al 100%) | Il supporto è pianificato dall’interfaccia di Analysis Workspace. [!UICONTROL Experience Platform Query Service] fornisce anche un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
-| Deduplicazione delle metriche | Il supporto è pianificato. |
 | Persistenza variabile merchandising | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Report Builder (plugin di Excel) | Il supporto è pianificato. |
