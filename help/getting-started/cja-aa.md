@@ -2,9 +2,9 @@
 title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
+source-git-commit: d833e12c67d74696438be9547db159438e671b2c
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1185'
 ht-degree: 43%
 
 ---
@@ -31,9 +31,11 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Variabili elenco/Prop elenco | Pieno sostegno; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | Metriche | Pieno sostegno; CJA sfrutta Experience Data Model (XDM) e supporta metriche illimitate, oltre a non essere legato agli eventi di successo personalizzati della versione tradizionale di Analytics. Alcune metriche standard sono state rinominate nella versione tradizionale di Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
 | Deduplicazione delle metriche | Supporto completo. |
+| Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. |
 | Esportazione PDF | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
+| Report Builder (plugin di Excel) | Supporto completo (ottobre 2021) |
 | Elaborazione dell’ora rapporto | Pieno sostegno; CJA si basa esclusivamente sull’elaborazione dell’ora rapporto. |
 | Accesso API di reporting | Pieno sostegno; Disponibile tramite l’ [API CJA](https://www.adobe.io/cja-apis/docs/). |
 | Report/progetti pianificati | Supporto completo. |
@@ -80,7 +82,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
 | Persistenza variabile merchandising | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
-| Report Builder (plugin di Excel) | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. |
 
