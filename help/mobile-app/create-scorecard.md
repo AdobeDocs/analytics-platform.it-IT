@@ -3,13 +3,13 @@ description: Come creare una scorecard delle dashboard di Adobe Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
+exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1275'
 ht-degree: 55%
 
 ---
-
 
 # Creare una scorecard
 
@@ -112,32 +112,31 @@ Oppure fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra 
 
 ![Visualizzazioni](assets/vizs.png)
 
-**[!UICONTROL Summary Number]**
+### [!UICONTROL Summary Number]
 
 Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
 
 ![Numero di riepilogo](assets/sparkline.png)
 
-**[!UICONTROL Donut]visualizzazione**
+### [!UICONTROL Donut]
 
 Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico ad anello per confrontare percentuali di un totale. Ad esempio, supponiamo che desideri vedere quale piattaforma di annunci ha contribuito al numero totale di visitatori unici:
 
 ![Visualizzazione Anello](assets/donut-viz.png)
 
-**[!UICONTROL Line]visualizzazione**
+### [!UICONTROL Line]
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. In questo esempio stai visualizzando la dimensione della categoria di prodotto.
 
 ![Visualizzazione delle linee](assets/line.png)
 
-
-**[!UICONTROL Horizontal Bar]visualizzazione**
+### [!UICONTROL Horizontal Bar]
 
 Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti principali, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione preferita.
 
 ![barra orizzontale](assets/horizontal.png)
 
-**Rimuovi[!UICONTROL Unspecified]**
+### Rimuovi elemento della dimensione [!UICONTROL Unspecified]
 
 Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi come segue:
 
@@ -153,6 +152,8 @@ Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi c
 Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
 
 ![Tessera delle proprietà](assets/properties_tile.png)
+
+## Visualizza drill-ins (breakdows)
 
 Quando fai clic sulle tessere, un pop-up dinamico mostra come la visualizzazione Drill ins (Breakdown) viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 

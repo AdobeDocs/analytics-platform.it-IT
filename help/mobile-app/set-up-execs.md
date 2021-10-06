@@ -3,13 +3,13 @@ description: Come configurare gli utenti per l’utilizzo dell’app mobile di A
 title: Configurare i dirigenti per l’utilizzo delle dashboard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
+exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 55%
 
 ---
-
 
 # Configurare gli utenti esecutivi per l’utilizzo delle dashboard
 
@@ -19,7 +19,7 @@ In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assist
 
 1. Imposta i nuovi utenti nell&#39; [Admin Console Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
 
-1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni per accedere ai componenti delle scorecard come Analysis Workspace, alle suite di rapporti su cui sono basate le scorecard, nonché ai segmenti, alle metriche e alle dimensioni.
+1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni per accedere ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui sono basate le scorecard, nonché ai filtri, alle metriche e alle dimensioni.
 
 ## Prerequisiti di sistema per gli utenti dell’app
 
@@ -111,4 +111,3 @@ Se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che no
 * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo.
 
 Verifica che l’utente esecutivo possa accedere alla giusta istanza di Adobe Analytics e che la scorecard sia stata condivisa.
-
