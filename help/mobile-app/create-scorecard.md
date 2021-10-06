@@ -4,10 +4,10 @@ title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 55%
+source-wordcount: '1311'
+ht-degree: 53%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 55%
 Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creatore di scorecard delle dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!NOTE]
+>Le schermate della scorecard per questa pagina sono state scattate dall’interfaccia utente di Adobe Analytics, non da CJA. Le interfacce utente sono quasi identiche.
 
 Una scheda di valutazione di Adobe Analytics visualizza le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come illustrato di seguito:
 
@@ -116,7 +119,7 @@ Oppure fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra 
 
 Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
 
-![Numero di riepilogo](assets/sparkline.png)
+![Numero di riepilogo](assets/summary-number.png)
 
 ### [!UICONTROL Donut]
 
@@ -153,11 +156,11 @@ Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra most
 
 ![Tessera delle proprietà](assets/properties_tile.png)
 
-## Visualizza drill-ins (breakdows)
+## Visualizza drill-ins (raggruppamenti)
 
-Quando fai clic sulle tessere, un pop-up dinamico mostra come la visualizzazione Drill ins (Breakdown) viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
+Quando fai clic sulle tessere, un pop-up dinamico mostra come la visualizzazione Drill ins (Breakdown) viene visualizzata dall’utente esecutivo nell’app. Puoi suddividere dimensioni ed elementi dimensionali per suddividere i dati in base alle tue esigenze specifiche. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
-Le suddivisioni consentono di perfezionare l’analisi suddividendo letteralmente metriche e dimensioni per altre metriche e dimensioni, come in questo esempio di vendita al dettaglio:
+Le suddivisioni perfezionano l’analisi suddividendo letteralmente le dimensioni per altre metriche e dimensioni, come in questo esempio di vendita al dettaglio:
 
 * Metrica Visitatori univoci suddivisa per piattaforma di annunci (AMO ID)
 * Visite suddivise per categoria di prodotto (al dettaglio)
