@@ -3,10 +3,10 @@ description: Come creare una scorecard delle dashboard di Adobe Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 56%
+source-wordcount: '1272'
+ht-degree: 55%
 
 ---
 
@@ -126,7 +126,7 @@ Questa visualizzazione è simile al grafico a torta e presenta i dati come parti
 
 **[!UICONTROL Line]visualizzazione**
 
-La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere utilizzato solo quando il tempo è utilizzato come dimensione.
+La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. In questo esempio stai visualizzando la dimensione della categoria di prodotto.
 
 ![Visualizzazione delle linee](assets/line.png)
 
@@ -146,7 +146,7 @@ Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi c
 
    ![non specificato](assets/unspecified.png)
 
-1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal rapporto.
+1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal rapporto. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
 ## Visualizzare e configurare le proprietà dei riquadri
 
