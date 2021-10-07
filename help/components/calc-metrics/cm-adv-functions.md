@@ -2,7 +2,7 @@
 title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
+source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
 workflow-type: tm+mt
 source-wordcount: '2941'
 ht-degree: 99%
@@ -97,7 +97,7 @@ ACOS(metric)
 Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( ).
 
 ```
-ASIN(metric) 
+ASIN(metric)
 ```
 
 | Argomento |  |
@@ -134,10 +134,10 @@ ESTIMATE.EXP(metric_X, metric_Y)
 Restituisce la percentuale di valori nella distribuzione t di uno studente con n gradi di libertà che presenta un punteggio z inferiore a x.
 
 ```
-cdf_t( -∞, n ) = 0 
-cdf_t(  ∞, n ) = 1 
-cdf_t( 3, 5 ) ? 0.99865 
-cdf_t( -2, 7 ) ? 0.0227501 
+cdf_t( -∞, n ) = 0
+cdf_t(  ∞, n ) = 1
+cdf_t( 3, 5 ) ? 0.99865
+cdf_t( -2, 7 ) ? 0.0227501
 cdf_t( x, ∞ ) ? cdf_z( x )
 ```
 
@@ -146,12 +146,11 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 Restituisce la percentuale di valori in una distribuzione normale che presenta un punteggio z inferiore a x.
 
 ```
-cdf_z( -∞ ) = 0 
-cdf_z( ∞ ) = 1 
-cdf_z( 0 ) = 0.5 
-cdf_z( 2 ) ? 0.97725 
-cdf_z( -3 ) ? 0.0013499 
- 
+cdf_z( -∞ ) = 0
+cdf_z( ∞ ) = 1
+cdf_z( 0 ) = 0.5
+cdf_z( 2 ) ? 0.97725
+cdf_z( -3 ) ? 0.0013499
 ```
 
 ## Eccesso (riga)
@@ -197,12 +196,11 @@ Restituisce la somma di x per le ultime N righe secondo quanto ordinato dalla di
 Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è ordinata dalla dimensione, risulta utile solo per le dimensioni con ordine naturale, come data o lunghezza del percorso.
 
 ```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
-|------+------+--------------+--------------| 
-| May  | $500 | $500         | $500         | 
-| June | $200 | $700         | $700         | 
-| July | $400 | $1100        | $600         | 
- 
+| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) |
+|------+------+--------------+--------------|
+| May  | $500 | $500         | $500         |
+| June | $200 | $700         | $700         |
+| July | $400 | $1100        | $600         |
 ```
 
 ## Media cumulativa
@@ -705,19 +703,19 @@ dove [!DNL x] è il punteggio non elaborato, [!DNL μ] corrisponde alla media de
 
 Punteggio Z (metrica)
 
-<table id="table_AEA3622A58F54EA495468A9402651E1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argomento </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
+<table id="table_AEA3622A58F54EA495468A9402651E1B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Argomento </th>
+   <th colname="col2" class="entry"> Descrizione </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metrica</i> </td> 
-   <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <i>metrica</i> </td>
+   <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Test Z
