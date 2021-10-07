@@ -3,9 +3,9 @@ title: Gestire le connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
+source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1587'
 ht-degree: 2%
 
 ---
@@ -137,3 +137,10 @@ Consente agli amministratori di modificare la connessione. Seleziona una conness
 * Rinominare una connessione.
 * Aggiorna i set di dati.
 * Rimuovi i set di dati dalle connessioni.
+
+## Imposta finestra mobile per la conservazione dei dati [!UICONTROL Connection]
+
+>[!IMPORTANT]
+>Contatta l’Assistenza clienti o il tuo responsabile commerciale Adobe per far sì che questa impostazione sia implementata. Non è ancora disponibile tramite l’interfaccia utente di CJA.
+
+Questa impostazione ti consente di definire la conservazione dei dati CJA come una finestra continua in mesi (3 mesi, 6 mesi, ecc.), a un livello [!UICONTROL connection] (non a un livello [!UICONTROL dataset]). La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Il vantaggio principale consiste nell’archiviare o creare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rimanere sotto i limiti del tuo contratto e riduce il rischio di sovraccosti.
