@@ -4,13 +4,13 @@ description: Descrive come creare un blocco di dati.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: d946e6dbda608499594cf48a9456131485e7349a
+exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
+source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
-
 
 # Creare un blocco di dati
 
@@ -36,7 +36,7 @@ Configura i parametri del blocco dati iniziale per la posizione del blocco dati,
 
 1. Imposta l&#39; **Intervallo di date**.
 
-   L’opzione Intervallo date consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per ulteriori informazioni sulle opzioni dell’intervallo di dati, consulta &lt;&lt; link to date range section >>.
+   L’opzione Intervallo date consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per informazioni sulle opzioni dell&#39;intervallo dati, vedere [Selezionare un intervallo di date](select-date-range.md).
 
 1. Fare clic su **Avanti**.
 
