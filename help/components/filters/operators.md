@@ -1,0 +1,46 @@
+---
+title: Operatori di filtro
+description: Determinare in che modo un componente interagisce con un valore all’interno di un filtro.
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 19%
+
+---
+
+# Operatori di filtro
+
+Il Generatore di filtri consente di confrontare e vincolare i valori utilizzando gli operatori selezionati. Esistono due categorie di operatori: [!UICONTROL Standard] e [!UICONTROL Distinct Count].
+
+## Operatori standard
+
+| Operatore | Descrizione |
+| è uguale a | Restituisce elementi che corrispondono esattamente a un valore numerico o stringa. Se utilizzi caratteri jolly, utilizza l’operatore &quot;corrisponde a&quot;. |
+| non è uguale a | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito.  Se utilizzi caratteri jolly, utilizza l’operatore &quot;non corrisponde a&quot;. |
+| contiene | Restituisce elementi che si confrontano con le sottostringhe dei valori inseriti. Ad esempio, se la regola per una dimensione stringa contiene `"Search"`, corrisponde a qualsiasi pagina contenente la sottostringa `"Search"`, inclusi `"Search Results"`, `"Search"` e `"Searching"`. Questo operatore distingue tra maiuscole e minuscole. |
+| non contiene | Tutti gli elementi che corrispondono al valore immesso vengono esclusi dai risultati. Ad esempio, se la regola per una dimensione stringa non contiene `"Search"`, esclude qualsiasi pagina contenente la sottostringa `"Search"`, inclusi `"Search Results"`, `"Search"` e `"Searching"`. |
+| contiene tutti | Restituisce elementi che includono tutte le sottostringhe (separate da uno spazio) in qualsiasi ordine. Ad esempio, l’immissione di `"Search Results"` con questo operatore corrisponde a `"Search Results"` e `"Results of Search"`, ma non a `"Search"` o `"Results"` in modo indipendente. Questo operatore supporta fino a 100 parole delimitate da spazi. |
+| non contiene tutti | Tutti gli elementi che corrispondono a ciascun valore immesso vengono esclusi dai risultati. Ad esempio, l’inserimento di `"Search Results"` con questo operatore escluderebbe `"Search Results"` e `"Results of Search"`, ma non `"Search"` o `"Results"`. Questo operatore supporta fino a 100 parole delimitate da spazi. |
+| contiene uno dei | Restituisce elementi che contengono una qualsiasi delle sottostringhe specificate. Ad esempio, l’immissione di `"Search Results"` con questo operatore corrisponde a `"Search Results"`, `"Results of Search"`, `"Search"` e `"Results"`. Questo operatore supporta fino a 100 parole delimitate da spazi. |
+| non contiene nessuno dei | Tutti gli elementi che corrispondono a una sottostringa sono esclusi dai risultati. Ad esempio, l’immissione di `"Search Results"` escluderebbe `"Search Results"`, `"Results of Search"`, `"Search"` e `"Results"`. Questo operatore supporta fino a 100 parole delimitate da spazi. |
+| inizia con | Restituisce elementi che iniziano con il carattere o le stringhe del valore inserito. |
+| non inizia con | Restituisce tutti gli elementi che non iniziano con i caratteri o le stringhe dei valori inseriti. |
+| termina con | Restituisce elementi che terminano con il carattere o le stringhe del valore inserito. |
+| non termina con | Restituisce tutti gli elementi che non terminano con i caratteri o le stringhe del valore inserito. |
+| partite | Restituisce elementi che corrispondono esattamente in base a un valore numerico o stringa specificato. Supporta i caratteri jolly utilizzando un asterisco (`*`). Questo operatore distingue tra maiuscole e minuscole. Ad esempio:<ul><li>`a*e` corrisponde a  `ae`,  `abcde`,  `adobe` e  `a whole sentence`.</li><li>`adob*` corrisponde  `adobe`,  `adobe analytics`, e  `adobo recipe`</li><li>`*dobe` corrisponde a  `dobe`,  `adobe`, e  `cute little dobe`.</li></ul>|
+| non corrisponde | Tutti gli elementi che corrispondono alla stringa sono esclusi. Supporta i caratteri jolly utilizzando un asterisco (`*`). |
+| esiste | Restituisce elementi se il valore non è nullo. |
+| non esiste | Restituisce elementi se il valore è null. |
+
+## Operatori di conteggio distinti
+
+Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Ad esempio, puoi creare filtri per i visitatori che hanno visualizzato più di 5 prodotti distinti o per le visite in cui sono state visualizzate più di 5 pagine distinte.
+
+| Operatore | Descrizione |
+| --- | --- |
+| è uguale a | Restituisce elementi dimensionali il cui conteggio univoco è uguale al valore inserito. |
+| non è uguale a | Restituisce elementi dimensionali il cui conteggio univoco non è uguale al valore inserito. |
+| è maggiore di | Restituisce elementi dimensionali il cui conteggio univoco è maggiore del valore inserito. |
+| è minore di | Restituisce elementi dimensionali il cui conteggio univoco è inferiore al valore inserito. |
+| è maggiore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è maggiore o uguale al valore inserito. |
+| è minore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è minore o uguale al valore inserito. |

@@ -4,7 +4,7 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 4%
@@ -32,15 +32,15 @@ Chiunque può creare un segmento rapido. Tuttavia, per salvare un segmento rapid
 
 In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione del pannello:
 
-![](assets/quick-seg1.png)
+![Filtro del segmento](assets/quick-seg1.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
 | Nome | Il nome predefinito di un filtro è una combinazione dei nomi delle regole nel filtro. È possibile rinominare il filtro in un nome più semplice. |
 | Includi/escludi | Puoi includere o escludere componenti nella definizione del filtro, ma non entrambi. |
 | Contenitore Hit/Visita/Visitatore | I filtri rapidi includono un solo [contenitore filtro](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) che consente di includere una dimensione/metrica/intervallo di date nel filtro (o escluderlo da esso). [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite e un contenitore [!UICONTROL Hit] consente di suddividere le informazioni del visitatore in base alle singole visualizzazioni di pagina. Il contenitore predefinito è [!UICONTROL Hit]. |
-| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo i componenti (dimensioni e/o metriche e/o intervalli di date) e i relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Filter] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
-| Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count] . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
+| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni, metriche, intervalli di date o valori di dimensione). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Filter] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
+| Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count] . Vedere [Operatori di filtro](operators.md). |
 | Segno più (+) | Aggiungi un&#39;altra regola |
 | Qualificatori AND/OR | Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di filtro. |
 | Applica | Applica questo filtro al pannello. Se il filtro non contiene dati, ti verrà chiesto se desideri continuare. |
@@ -51,11 +51,11 @@ In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione
 
 Ecco un esempio di filtro che combina dimensioni e metriche:
 
-![](assets/quick-seg2.png)
+![Esempio di definizione del filtro](assets/quick-seg2.png)
 
 Il filtro viene visualizzato nella parte superiore. Osserva la sua barra laterale a strisce blu, invece della barra laterale blu per i filtri a livello di componente nella libreria dei filtri a sinistra.
 
-![](assets/quick-seg3.png)
+![Filtrare le posizioni dei componenti](assets/quick-seg3.png)
 
 ## Modificare i filtri rapidi
 
@@ -86,7 +86,7 @@ La barra laterale del filtro cambia da blu striato a blu più chiaro. Ora viene 
 
    Torna a Workspace e osserva come il filtro ora ha una barra laterale blu chiara. Questo indica che non è più possibile modificarlo o aprirlo nel Generatore di filtri rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
 
-   ![](assets/quick-seg4.png)
+   ![Elenco dei componenti filtro](assets/quick-seg4.png)
 
 Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei componenti del filtro e renderlo disponibile per tutti i tuoi progetti.
 
@@ -94,7 +94,7 @@ Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei co
 
 1. Nella parte superiore del Generatore di filtri, notare questa finestra di dialogo:
 
-   ![](assets/project-only.png)
+   ![Finestra di dialogo Filtro](assets/project-only.png)
 
 1. Seleziona la casella di controllo accanto a **[!UICONTROL Make available to all your projects and add to your component list.]**
 1. Fai clic su **[!UICONTROL Save]**.
