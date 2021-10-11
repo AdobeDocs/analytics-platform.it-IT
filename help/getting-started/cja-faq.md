@@ -2,10 +2,10 @@
 title: Domande frequenti su Customer Journey Analytics
 description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 28%
+source-wordcount: '1453'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,6 @@ ht-degree: 28%
 | Domanda | Risposta |
 | --- | --- |
 | È possibile combinare i dati di diverse sandbox [!UICONTROL Adobe Experience Platform] in una connessione [!UICONTROL Customer Journey Analytics]? | No, non è possibile accedere ai dati di sandbox diverse. È possibile combinare solo i set di dati che si trovano all’interno della stessa sandbox. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>In condizioni di carico normale: &lt; 60 minuti <br>**Nota:** in caso di volume insolitamente elevato del flusso di dati che attraversa la pipeline, potrebbero essere necessarie fino a 24 ore.</li><li>In caso di recupero dei dati (fino a 13 mesi di dati, indipendentemente dalle dimensioni): &lt; 4 settimane</li></ul> |
 | Come si collegano i dati online ai dati offline in [!UICONTROL Customer Journey Analytics]? | Se l’ID della persona corrisponde tra i set di dati, [!UICONTROL Customer Journey Analytics] può collegare filtri, attribuzione, flusso, fallout, ecc. tra i vari set di dati. |
 | Come posso inserire i dati offline in [!UICONTROL Customer Journey Analytics]? | Il diritto al Customer Journey Analytics ti consente di inserire i dati in Experience Platform. Puoi quindi creare connessioni a tali visualizzazioni dati e dati in [!UICONTROL Customer Journey Analytics], per la generazione di rapporti in Analysis Workspace. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati ti può fornire consigli o consulenza. |
 | Come posso ottenere i dati [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Adobe Analytics] i dati possono essere collegati ad Experience Platform tramite  [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). La maggior parte dei campi [!UICONTROL Adobe Analytics] viene portata avanti in formato XDM, ma altri campi non sono ancora disponibili. |
@@ -48,7 +47,17 @@ ht-degree: 28%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. Componenti tradizionali [!UICONTROL Adobe Analytics]
+## 4. Considerazioni sulla latenza
+
+>[!NOTE]
+>Non esiste una dimensione fissa dei dati in CJA e pertanto Adobe non può eseguire il commit a un tempo di acquisizione standard. Stiamo lavorando attivamente per ridurre queste latenze attraverso nuovi aggiornamenti e l’ottimizzazione dell’acquisizione.
+
+| Domanda | Risposta |
+| --- | --- |
+| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: Elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP.</li><li>Dimensione batch > 50 milioni di righe: più di 90 minuti.</li><li>Piccoli backfill - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 24 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
+
+
+## 5. Componenti tradizionali [!UICONTROL Adobe Analytics]
 
 | Domanda | Risposta |
 | --- | --- |
@@ -61,7 +70,7 @@ ht-degree: 28%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 5. Implicazioni dell’eliminazione dei componenti dati
+## 6. Implicazioni dell’eliminazione dei componenti dati
 
 Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di componenti: sandbox, schema, set di dati, connessione, visualizzazione dati e progetto Workspace. Di seguito sono riportati alcuni possibili scenari relativi all’eliminazione di uno qualsiasi di questi componenti:
 
@@ -76,7 +85,7 @@ Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di compone
 | Elimina una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione dati in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che tutti i progetti Workspace dipendenti da questa visualizzazione dati eliminata cesseranno di funzionare. |
 
-## 6. Considerazioni durante l’unione delle suite di rapporti in CJA
+## 7. Considerazioni durante l’unione delle suite di rapporti in CJA
 
 Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en), considera queste ramificazioni quando unisci 2 o più suite di rapporti Adobe Analytics.
 
