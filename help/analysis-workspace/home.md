@@ -4,9 +4,9 @@ title: Panoramica di Analysis Workspace
 description: Panoramica delle funzionalità di Analysis Workspace
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en#analysis-workspace). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it#analysis-workspace). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace è uno strumento basato su browser flessibile che consente di creare rapidamente le analisi e condividere i dati rilevati. Tramite un’interfaccia in cui è possibile eseguire semplici operazioni di trascinamento, puoi definire le analisi, aggiungere visualizzazioni per riprodurre i dati in modo facilmente comprensibili, curare un set di dati, condividere e pianificare progetti con chiunque all’interno della tua organizzazione.
 
@@ -22,7 +22,7 @@ Se hai solo pochi minuti, guarda questa breve panoramica per scoprire le varie p
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Customer Journey Analytics di accesso {#login}
+## Accesso a Customer Journey Analytics {#login}
 
 Per iniziare a utilizzare Analysis Workspace, accedi a Customer Journey Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se non è già stato selezionato un progetto specifico, verrà visualizzata la pagina home di Workspace, con un elenco di progetti.
 
@@ -36,7 +36,7 @@ Una volta effettuato l’accesso, segui il tutorial di formazione su Analysis Wo
 
 ## Creare un nuovo progetto {#new-project}
 
-Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere di iniziare da un progetto vuoto o da una [scheda di valutazione mobile vuota](/help/mobile-app/curator.md), a seconda che tu abbia intenzione di condividere l’analisi dal browser o dall’app mobile Customer Journey Analytics dashboards.
+Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere se iniziare da un progetto vuoto oppure da una [scheda di valutazione mobile vuota](/help/mobile-app/curator.md), per condividere l’analisi rispettivamente dal browser oppure dai dashboard dell’app mobile Customer Journey Analytics.
 
 ![](assets/create-new-project.png)
 
@@ -46,7 +46,7 @@ Nel progetto Workspace, puoi accedere a **pannelli, tabelle, visualizzazioni e c
 
 ### Componenti
 
-**** I componenti sono dimensioni, metriche, filtri o intervalli di date, che possono essere combinati in un  **[!UICONTROL Freeform table]** per iniziare a rispondere a domande aziendali. Prima di iniziare con le analisi, impara a conoscere i diversi [tipi di componente](/help/components/overview.md). Dopo aver acquisito dimestichezza con la terminologia dei componenti, puoi iniziare a trascinarli per [generare le analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in una **[!UICONTROL Freeform table]**.
+I **componenti** sono dimensioni, metriche, filtri o intervalli di date, che possono essere combinati in una **[!UICONTROL Freeform table]** per iniziare a rispondere a specifiche domande di business. Prima di iniziare con le analisi, impara a conoscere i diversi [tipi di componente](/help/components/overview.md). Dopo aver acquisito dimestichezza con la terminologia dei componenti, puoi iniziare a trascinarli per [generare le analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in una **[!UICONTROL Freeform table]**.
 
 ![](assets/build-components.png)
 
@@ -64,4 +64,4 @@ I **pannelli** servono per organizzare l’analisi all’interno di un progetto 
 
 ## Risorse aggiuntive {#resources}
 
-* Adobe offre centinaia di [tutorial di formazione video per Analytics](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
+* Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it).
