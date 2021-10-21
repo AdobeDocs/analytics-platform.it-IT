@@ -1,9 +1,9 @@
 ---
 description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare Dimension, metriche, filtri e funzioni per creare metriche personalizzate basate sulla logica gerarchica dei contenitori, sulle regole e sugli operatori. Questo strumento di sviluppo integrato consente di generare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
 title: Creare metriche
-source-git-commit: 92d9c3bd7478af5fbd4aca20fd814e2c9f2d6ef4
+source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '917'
 ht-degree: 9%
 
 ---
@@ -38,6 +38,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
 | Definizione | È qui che trascina metriche/metriche calcolate, filtri e/o funzioni per creare la metrica calcolata. Se trascini una metrica calcolata, la definizione della metrica viene automaticamente espansa. È possibile nidificare le definizioni con i contenitori. Tuttavia, a differenza dei contenitori di segmenti, questi contenitori funzionano come un&#39;espressione matematica e determinano l&#39;ordine delle operazioni. |
 | Operatore | [!UICONTROL Divided by] è l’operatore predefinito, oltre agli operatori +, - e x. |
 | Anteprima | Fornisce una lettura rapida di eventuali errori. L’anteprima copre gli ultimi 90 giorni. Questo è un modo per verificare inizialmente se hai selezionato i componenti giusti per la metrica. Un risultato imprevisto implica la necessità di dare un&#39;occhiata alla definizione della metrica. |
+| Compatibilità del prodotto | La compatibilità del prodotto mostra se la metrica è compatibile con i dati completamente elaborati. |
 | Add | Per tutti i tipi di metriche calcolate, puoi aggiungere contenitori e numeri statici alla definizione. Per le metriche calcolate avanzate, puoi anche aggiungere filtri e funzioni.<ul><li>I contenitori funzionano come un&#39;espressione matematica e determinano l&#39;ordine delle operazioni. Pertanto, qualsiasi elemento in un contenitore viene elaborato prima dell’operazione successiva.</li><li>Quando si trascina un segmento su un contenitore, vengono segmentati tutti gli elementi presenti in tale contenitore. (Solo metriche calcolate avanzate)</li><li>Puoi raggruppare più filtri in un contenitore.</li></ul> |
 | Icona a forma di ruota dentata (tipo di metrica, attribuzione) | Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e i modelli di attribuzione. |
 | + Nuovo | Consente di creare un nuovo componente, ad esempio un nuovo filtro (che consente di passare al Generatore di filtri ). |
