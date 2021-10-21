@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza autonoma per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
+source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 87%
+source-wordcount: '560'
+ht-degree: 93%
 
 ---
 
@@ -38,18 +38,18 @@ ht-degree: 87%
       + [Domande frequenti su Analisi cross-channel](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](data-views/data-views.md)
-   + [Creare o modificare una visualizzazione dati](data-views/create-dataview.md)
+   + [Creare o modificare una visualizzazione di dati](data-views/create-dataview.md)
    + Impostazioni dei componenti {#component-settings}
       + [Panoramica delle impostazioni dei componenti](data-views/component-settings/overview.md)
       + [Attribution](data-views/component-settings/attribution.md)
       + [Comportamento](data-views/component-settings/behavior.md)
       + [Formato](data-views/component-settings/format.md)
-      + [Includi valori di esclusione](data-views/component-settings/include-exclude-values.md)
+      + [Includere valori di esclusione](data-views/component-settings/include-exclude-values.md)
       + [Deduplicazione delle metriche](data-views/component-settings/metric-deduplication.md)
-      + [Nessuna opzione di valore](data-views/component-settings/no-value-options.md)
+      + [Opzioni per “Nessun valore”](data-views/component-settings/no-value-options.md)
       + [Persistenza](data-views/component-settings/persistence.md)
       + [Bucketing dei valori](data-views/component-settings/value-bucketing.md)
-   + [Riferimento a componenti standard](data-views/component-reference.md)
+   + [Documentazione dei componenti standard](data-views/component-reference.md)
    + [Casi d’uso per le visualizzazioni dati](data-views/data-views-usecases.md)
 + Progetti Workspace {#cja-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
@@ -159,8 +159,21 @@ ht-degree: 87%
       + [Operatori](components/filters/operators.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica delle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
-      + [Creare una metrica calcolata](components/calc-metrics/create.md)
-      + [Gestire le metriche calcolate](components/calc-metrics/manage.md)
+      + Flusso di lavoro per le metriche calcolate {#cm-workflow}
+         + [Flusso di lavoro per le metriche calcolate](components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [Trovare metriche](components/calc-metrics/cm-workflow/cm-finding.md)
+         + [Creare metriche](components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Tipo di metrica e attribuzione](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+         + [Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;](components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Metriche filtrate](components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [Sovrapponi e sostituisci segmenti](components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Metriche filtrate e ponderate](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [Usare le funzioni](components/calc-metrics/cm-workflow/cm-using-functions.md)
+         + [Metrica di partecipazione](components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Assegnare tag alle metriche calcolate](components/calc-metrics/cm-workflow/cm-tagging.md)
+         + [Approvare le metriche calcolate](components/calc-metrics/cm-workflow/cm-approving.md)
+         + [Condividere le metriche calcolate](components/calc-metrics/cm-workflow/cm-sharing.md)
+         + [Gestore metriche calcolate](components/calc-metrics/cm-workflow/cm-manager.md)
       + [Funzioni di base](components/calc-metrics/cm-functions.md)
       + [Funzioni avanzate](components/calc-metrics/cm-adv-functions.md)
    + Intervalli di date {#cja-date-ranges}
@@ -174,7 +187,7 @@ ht-degree: 87%
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
-   + [Analizzare i dati tra canali](use-cases/cross-channel.md)
+   + [Analizzare i dati tra canali diversi](use-cases/cross-channel.md)
    + [Importare dati web e call center](use-cases/call-center.md)
    + [Casi d’uso per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
