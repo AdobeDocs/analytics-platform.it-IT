@@ -1,20 +1,23 @@
 ---
 description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
-translation-type: tm+mt
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
+exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
+source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
-
 
 # [!UICONTROL Column Settings]
 
 Le [!UICONTROL Column Settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 
-## Modificare le [!UICONTROL Column Settings] {#edit-column-settings}
+Visualizza un video sulle impostazioni di riga e colonna qui:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+
+## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
 
 Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
 
