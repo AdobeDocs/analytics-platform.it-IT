@@ -2,11 +2,10 @@
 title: Set di dati evento combinati
 description: Scopri come CJA crea una connessione combinando set di dati.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: dd68a85b1398fa99e6ee5fff1c356a005ebb9482
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 84%
+source-wordcount: '334'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +17,7 @@ Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
 * La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori univoci in CJA.
 * Le righe vengono elaborate in base alla marca temporale.
+* Gli eventi vengono risolti a livello di millisecondi.
 
 ## Esempio
 
