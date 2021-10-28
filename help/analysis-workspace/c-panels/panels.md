@@ -2,10 +2,10 @@
 description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 61%
+source-wordcount: '808'
+ht-degree: 59%
 
 ---
 
@@ -22,7 +22,7 @@ Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi acceder
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights],  [!UICONTROL Blank] e  [!UICONTROL Freeform] i pannelli sono luoghi ideali per avviare l’analisi e si prestano  [!UICONTROL Attribution IQ] ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+[!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] i pannelli sono luoghi ideali per iniziare l’analisi, mentre [!UICONTROL Attribution IQ] si presta ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
 Il pannello iniziale predefinito è [!UICONTROL Freeform], ma puoi impostare come predefinito il [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
 
@@ -33,6 +33,8 @@ Il calendario del pannello controlla l’intervallo di reporting per tabelle e v
 Nota: se un componente di intervallo date (viola) viene utilizzato all’interno di una tabella, di una visualizzazione o di una zona di rilascio di un pannello, questo sovrascriverà il calendario del pannello.
 
 ![](assets/panel-calendar.png)
+
+Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo.
 
 ## Zona di rilascio {#dropzone}
 
@@ -63,12 +65,12 @@ I filtri a discesa possono essere utilizzati per consolidare più progetti in un
 Per creare un filtro a discesa:
 
 1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori della dimensione [!UICONTROL Marketing Channel], fai clic sull’icona a forma di freccia verso destra accanto alla dimensione nella barra a sinistra. Verranno esposti tutti gli elementi disponibili. Seleziona uno o più elementi componenti nella barra a sinistra, **tieni premuto il tasto Maiusc** e trascinali nella zona di rilascio del pannello. Questo trasforma i componenti in un filtro a discesa, anziché in un singolo filtro.
-1. Per creare un filtro a discesa utilizzando un altro componente, ad esempio metriche, filtri o intervalli di date, selezionalo da un tipo di componente nella barra a sinistra e rilascialo nella zona di rilascio del pannello **tenendo premuto il tasto Maiusc**.
+1. Per creare un filtro a discesa utilizzando un altro componente, come metriche, filtri o intervalli di date, seleziona un tipo di componente nella barra a sinistra e rilascia nella zona di rilascio del pannello **tenendo premuto il tasto Maiusc**.
 1. Per cambiare i dati visualizzati nel pannello, seleziona una delle opzioni dal menu a discesa. Puoi anche scegliere di non filtrare nessuno dei dati del pannello, selezionando **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
 
-Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [guarda questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html).
+Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [guarda questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it).
 
 ## Menu di scelta rapida {#right-click}
 
