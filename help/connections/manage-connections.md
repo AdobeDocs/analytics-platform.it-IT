@@ -3,7 +3,7 @@ title: Gestire le connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 4ac2d58cd14df8a6aae5728b4fabd11ec47abbed
+source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 8%
@@ -141,7 +141,7 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Schema] | Mostra lo schema Adobe Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 
-### Modifica connessione
+## Modifica connessione
 
 Consente agli amministratori di modificare la connessione. Seleziona una connessione, quindi fai clic su [!UICONTROL Edit Connection] per accedere a questa finestra di dialogo. Qui puoi effettuare le seguenti operazioni:
 
