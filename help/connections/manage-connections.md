@@ -3,9 +3,9 @@ title: Gestire le connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 3103e02bb49b6e5913c8a71d7ecf436b5ee90d11
+source-git-commit: 4ac2d58cd14df8a6aae5728b4fabd11ec47abbed
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1816'
 ht-degree: 8%
 
 ---
@@ -33,6 +33,8 @@ Gestione connessioni consente di:
 * Creare una visualizzazione dati a partire da una connessione.
 
 ![](assets/conn-manager.png)
+
+### Impostazioni di Connection Manager
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -87,6 +89,8 @@ Ecco i widget e le impostazioni spiegate:
 
 ![](assets/conn-details.png)
 
+### Impostazioni dei dettagli di connessione
+
 | Widget/Impostazione | Descrizione |
 | --- | --- |
 | Selettore set di dati | Consente di scegliere uno o tutti i set di dati della connessione. Non è possibile selezionare più set di dati. Predefinito su [!UICONTROL All datasets]. |
@@ -94,7 +98,7 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Records of event data available] widget | Rappresenta il numero totale di righe del set di dati evento disponibili per il reporting, **per l&#39;intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. (Tieni presente che, una volta aggiunto, i dati vengono visualizzati nel rapporto con una latenza di 1-2 ore.) |
 | [!UICONTROL Metrics] widget | Riepiloga i record evento aggiunti/saltati/eliminati e il numero di batch aggiunti, **per il set di dati e l’intervallo di date selezionati**. |
 | [!UICONTROL Records added] widget | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Aggiornato ogni 10 minuti. **Nota**: Dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
-| [!UICONTROL Records skipped] widget | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati sono i seguenti: Marca temporale mancante, ID persona mancante o non valido, ecc. Aggiornato ogni 10 minuti.<p>Gli ID persona non validi (non definiti, tutti gli zeri) non possono essere attribuiti a un utente o a una persona specifici. Non possono essere acquisiti nel sistema e comportano processi di inserimento e reporting soggetti a errori. Per correggere gli ID persona non validi, sono disponibili 3 opzioni:<ul><li>Utilizzare l’unione per popolare gli ID utente non definiti o tutti gli ID utente con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o tutti gli ID zero).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records skipped] widget | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati sono i seguenti: Marca temporale mancante, ID persona mancante o non valido, ecc. Aggiornato ogni 10 minuti.<p>ID persona non validi (ad esempio &quot;non definito&quot; o &quot;0000000&quot;) o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) non può essere attribuito a un utente o persona specifica. Non possono essere acquisiti nel sistema e generano ingestione e reporting soggetti a errori. Per correggere gli ID persona non validi, sono disponibili 3 opzioni:<ul><li>Utilizzo [Analisi cross-channel](/help/connections/cca/overview.md) per popolare gli ID utente non definiti o tutti gli ID utente con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o tutti gli ID zero).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Records deleted] widget | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Ad Experience Platform, qualcuno potrebbe aver eliminato un set di dati. Aggiornato ogni 10 minuti. **Nota**: Dati per **[!UICONTROL Records deleted]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | Casella di ricerca set di dati | Puoi eseguire ricerche per nome set di dati o [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets] | Mostra i set di dati che fanno parte della connessione. È possibile fare clic sul collegamento ipertestuale per visualizzare tutti i set di dati presenti nella connessione. |
@@ -103,7 +107,11 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Last added] | Mostra la marca temporale dell&#39;ultimo batch aggiunto a questo set di dati. |
 | [!UICONTROL Dataset type] | Il tipo di set di dati per questo set di dati può essere [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | Schema | Lo schema Adobe Experience Platform su cui si basano i set di dati in questa connessione. |
-| **Barra a destra a livello di connessione** |  |
+
+### Impostazioni della barra a destra a livello di connessione
+
+| Impostazione | Descrizione |
+| --- | --- |
 | [!UICONTROL Refresh] | Aggiorna la connessione per consentire la visualizzazione dei record aggiunti di recente. |
 | [!UICONTROL Delete] | Elimina la connessione. |
 | [!UICONTROL Create data view] | Crea una nuova visualizzazione dati basata su questa connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
@@ -117,13 +125,17 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Created by] | Mostra il nome della persona che ha creato la connessione. |
 | [!UICONTROL Last modified] | Mostra la data e l’ora dell’ultima modifica apportata alla connessione. |
 | [!UICONTROL Last modified by] | Mostra l&#39;ultimo utente che ha modificato la connessione. |
-| **Barra a destra a livello di set di dati** |  |
+
+### Impostazioni della barra a destra a livello di set di dati
+
+| Impostazione | Descrizione |
+| --- | --- |
 | [!UICONTROL Person ID] | Mostra un&#39;identità definita nello schema del set di dati nell&#39;Experience Platform. Questo è l’ID persona scelto durante la creazione della connessione. Se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati, è necessario utilizzare lo stesso ID persona nei set di dati. |
 | [!UICONTROL Records available] | Rappresenta il numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. (L’eccezione è che quando crei una connessione nuova, ci sarà [latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#3.-introduzione di dati nell’analisi del percorso cliente). |
 | [!UICONTROL Records added] | Indica quante righe sono state aggiunte nel periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Records deleted] | Indica quanti record sono stati eliminati durante il periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records deleted]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Batches added] | Indica quanti batch di dati sono stati aggiunti al set di dati. |
-| [!UICONTROL Records skipped] | Indica quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>Gli ID persona non validi (non definiti, tutti gli zeri) non possono essere attribuiti a un utente o a una persona specifici. Non possono essere acquisiti nel sistema e comportano processi di inserimento e reporting soggetti a errori. Per correggere gli ID persona non validi, sono disponibili 3 opzioni:<ul><li>Utilizzare l’unione per popolare gli ID utente non definiti o tutti gli ID utente con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o tutti gli ID zero).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records skipped] | Indica quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>I motivi per cui i record vengono ignorati sono i seguenti: Marca temporale mancante, ID persona mancante o non valido, ecc. Aggiornato ogni 10 minuti.<p>ID persona non validi (ad esempio &quot;non definito&quot; o &quot;0000000&quot;) o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) non può essere attribuito a un utente o persona specifica. Non possono essere acquisiti nel sistema e generano ingestione e reporting soggetti a errori. Per correggere gli ID persona non validi, sono disponibili 3 opzioni:<ul><li>Utilizzo [Analisi cross-channel](/help/connections/cca/overview.md) per popolare gli ID utente non definiti o tutti gli ID utente con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o tutti gli ID zero).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Last added] | Indica quando è stato aggiunto l&#39;ultimo batch. |
 | [!UICONTROL Dataset type] | O [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL Schema] | Mostra lo schema Adobe Experience Platform su cui si basa il set di dati. |
