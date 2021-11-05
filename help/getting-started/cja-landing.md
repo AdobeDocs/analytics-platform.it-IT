@@ -2,10 +2,10 @@
 title: Guida di Customer Journey Analytics
 description: Pagina di destinazione di Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+source-git-commit: 0a44d4c80caa0198938a8f9c57f492c2aaaf9539
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it#cja-dataviews"> Nuova documentazione sulle funzionalità avanzate delle visualizzazioni dei dati </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=it#cja-usecases"> Nuova documentazione sull’acquisizione di dati Google Analytics in Adobe Experience Platform </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=it#cja-usecases"> Nuova documentazione sull’analisi dei dati Google Analytics in CJA </a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-detail"> Documentazione sulle funzionalità avanzate di gestione della connessione </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it#cja-dataviews"> Documentazione sulle funzionalità avanzate di Data Views </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=it#cja-usecases"> Documentazione sull’acquisizione di dati Google Analytics in Adobe Experience Platform </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=it#cja-usecases"> Documentazione sull’analisi dei dati delle Google Analytics in CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#cja-connections"> Analisi cross-channel (unione degli ID in Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions"> Aggiornamento dei requisiti per le autorizzazioni utente </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=it#cja-usecases"> Utilizzare gli array di oggetti </a> </li>
