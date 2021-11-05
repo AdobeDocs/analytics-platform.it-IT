@@ -3,9 +3,9 @@ title: Gestire le connessioni
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: fa87337c10a1621142137b427c1986fafc70d9f7
+source-git-commit: 6b9a725cf31385576f358c137a1e6ba71cd74f95
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1579'
 ht-degree: 9%
 
 ---
@@ -114,19 +114,19 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Data views using connection] | Elenca tutte le visualizzazioni dati che utilizzano questa connessione. |
 | [!UICONTROL Import new data] | (On/Off) Indica se è necessario aggiungere o meno nuovi batch di dati ai dati storici (backfill). |
 | [!UICONTROL Backfill data] | I dati di backfill (storici) vengono tracciati in 3 stati: [!UICONTROL In queue], [!UICONTROL In progress] (con percentuale di avanzamento indicata), e [!UICONTROL Complete]. |
-| [!UICONTROL Created by] | Nome della persona che crea la connessione. |
-| [!UICONTROL Last modified] | Data e ora dell’ultima modifica apportata alla connessione. |
-| [!UICONTROL Last modified by] | Persona che ha modificato la connessione per l’ultima volta. |
+| [!UICONTROL Created by] | Mostra il nome della persona che ha creato la connessione. |
+| [!UICONTROL Last modified] | Mostra la data e l’ora dell’ultima modifica apportata alla connessione. |
+| [!UICONTROL Last modified by] | Mostra l&#39;ultimo utente che ha modificato la connessione. |
 | **Barra a destra a livello di set di dati** |  |
 | [!UICONTROL Person ID] | Mostra un&#39;identità definita nello schema del set di dati nell&#39;Experience Platform. Questo è l’ID persona scelto durante la creazione della connessione. Se crei una connessione che include set di dati con ID diversi, il reporting lo rifletterà. Per unire in modo efficace i set di dati, è necessario utilizzare lo stesso ID persona nei set di dati. |
 | [!UICONTROL Records available] | Rappresenta il numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. (L’eccezione è che quando crei una connessione nuova, ci sarà [latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#3.-introduzione di dati nell’analisi del percorso cliente). |
-| [!UICONTROL Records added] | Quante righe sono state aggiunte nel periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
-| [!UICONTROL Records deleted] | Quanti record sono stati eliminati durante il periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records deleted]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
-| [!UICONTROL Batches added] | Quanti batch di dati sono stati aggiunti in questo set di dati. |
-| [!UICONTROL Records skipped] | Quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
-| [!UICONTROL Last added] | Quando è stato aggiunto l&#39;ultimo batch. |
+| [!UICONTROL Records added] | Indica quante righe sono state aggiunte nel periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Records deleted] | Indica quanti record sono stati eliminati durante il periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records deleted]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Batches added] | Indica quanti batch di dati sono stati aggiunti al set di dati. |
+| [!UICONTROL Records skipped] | Indica quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato. **Nota**: Dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
+| [!UICONTROL Last added] | Indica quando è stato aggiunto l&#39;ultimo batch. |
 | [!UICONTROL Dataset type] | O [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
-| [!UICONTROL Schema] | Schema Adobe Experience Platform su cui si basa il set di dati. |
+| [!UICONTROL Schema] | Mostra lo schema Adobe Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 
 ### Modifica connessione

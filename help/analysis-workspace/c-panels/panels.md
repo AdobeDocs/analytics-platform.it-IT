@@ -2,10 +2,10 @@
 description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 94b086c9eb0b148ebb176a37205030b862ac2678
+source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 59%
+source-wordcount: '811'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +15,7 @@ Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi acceder
 
 ## Tipi di pannello
 
-In Analysis Workspace sono disponibili i seguenti tipi di pannello:
+In Analysis Workspace sono disponibili i seguenti tipi di pannelli per [!UICONTROL Customer Journey Analytics]:
 
 | Nome pannello | Descrizione |
 | --- | --- |
