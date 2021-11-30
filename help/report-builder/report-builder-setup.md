@@ -4,13 +4,13 @@ description: Descrive come configurare il Report Builder in CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: e76f6cbb8ecf2032a8211d1c6bd18a79c2a6f5d2
+exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
+source-git-commit: fb4c8cf2d5dec5b49ecc81494a888fb6090379d6
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Configurazione Report Builder
 
@@ -32,7 +32,7 @@ Report Builder per Customer Journey Analytics è supportato nei seguenti sistemi
 
    Tutti gli utenti desktop di Windows Excel devono installare Microsoft Edge Webview2 per utilizzare il componente aggiuntivo. Per installare il controller:
 
-   1. Vai a <http://aka.ms/webview2installer>.
+   1. Vai a <https://aka.ms/webview2installer>.
    1. Selezionare e scaricare il programma di installazione di Evergreen Standalone.
    1. Seguire le istruzioni di installazione.
 
@@ -85,7 +85,7 @@ Dopo aver installato il componente aggiuntivo Report Builder for Excel per la pi
 
 1. Fai clic sull’icona del Report Builder per avviare il Report Builder.
 
-1. Dalla barra degli strumenti di Adobe Report Builder, fai clic su **Accesso**.
+1. Dalla barra degli strumenti di Adobe Report Builder, fai clic su **Login**.
 
    ![](./assets/rb_login.png)
 
@@ -115,4 +115,4 @@ Puoi disconnetterti dal Report Builder dal profilo utente.
 
    ![](./assets/image6.png)
 
-1. Fare clic su **Esci**.
+1. Fai clic su **Esci**.
