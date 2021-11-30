@@ -1,13 +1,14 @@
 ---
 title: Formattare le impostazioni dei componenti
 description: Configura la formattazione di una metrica.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 2%
 
 ---
-
 
 # Formattare le impostazioni dei componenti
 
@@ -21,4 +22,4 @@ Il formato consente di determinare la modalità di visualizzazione di una data m
 | [!UICONTROL Decimal Places] | Non visibile sui tipi di dati di schema Integer. Consente di specificare il numero di posizioni decimali visualizzate da una metrica. |
 | [!UICONTROL Currency] | Se il formato è Valuta, determina la valuta in cui visualizzare la metrica. Questa opzione non applica alcuna conversione di valuta; è solo per la formattazione dell&#39;interfaccia utente. |
 | [!UICONTROL Show upward trend as] | Consente di specificare se una tendenza verso l’alto per questa metrica è buona (verde) o cattiva (rossa). |
-| [!UICONTROL True value] e [!UICONTROL False value] | Visibile solo sui tipi di dati di schema booleano. Consente di personalizzare l’etichetta dell’elemento dimensionale per i valori `true` e `false`. |
+| [!UICONTROL True value] e [!UICONTROL False value] | Visibile solo sui tipi di dati di schema booleano. Consente di personalizzare l’etichetta dell’elemento della dimensione per `true` e `false` valori. |

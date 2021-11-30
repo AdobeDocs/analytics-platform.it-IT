@@ -4,10 +4,11 @@ title: Guida esecutiva alle dashboard di Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 97%
 
 Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sulle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
+Questa guida ha lo scopo di aiutare gli utenti manageriali a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
 ## Configurare le dashboard sul dispositivo
 
@@ -28,7 +29,7 @@ Per accedere alle scorecard sulle dashboard, assicurati:
 * Di avere un accesso valido ad Adobe Analytics
 * Che il tuo curatore abbia creato correttamente le scorecard per dispositivi mobili e le abbia condivise con te
 
-### Scaricare e installare dashboard
+### Scaricare e installare i dashboard
 
 Per scaricare e installare l’app, segui i passaggi relativi al sistema operativo del tuo dispositivo.
 
@@ -56,7 +57,7 @@ Per utilizzare le dashboard:
 
    ![Sequenza di accesso](assets/signseq.png)
 
-1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard viene visualizzata la schermata **[!UICONTROL Choose a company]** . Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
 1. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 

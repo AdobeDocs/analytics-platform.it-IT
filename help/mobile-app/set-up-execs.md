@@ -1,13 +1,14 @@
 ---
 description: Come configurare gli utenti per l’utilizzo dell’app mobile di Analytics
-title: Configurare i dirigenti per l’utilizzo delle dashboard
+title: Preparare gli utenti manageriali a utilizzare le scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 55%
+ht-degree: 88%
 
 ---
 
@@ -15,22 +16,22 @@ ht-degree: 55%
 
 In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione fornisce informazioni utili ai curatori per fornire tale assistenza.
 
-## Assicurati che gli utenti dell&#39;app abbiano accesso ad Adobe Analytics
+## Assicurarsi che gli utenti dell’app abbiano accesso ad Adobe Analytics
 
-1. Imposta i nuovi utenti nell&#39; [Admin Console Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
+1. Imposta i nuovi utenti in [Admin Console di Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
 
 1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni per accedere ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui sono basate le scorecard, nonché ai filtri, alle metriche e alle dimensioni.
 
 ## Prerequisiti di sistema per gli utenti dell’app
 
-Per garantire che gli utenti esecutivi abbiano accesso alle tue scorecard sull’app, assicurati che:
+Per garantire che gli utenti manageriali possano accedere alle scorecard nell’app, assicurati che:
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore
 * Abbiano un accesso valido ad Adobe Analytics.
-* Le scorecard per dispositivi mobili sono state create correttamente e condivise con loro.
-* Hanno accesso ai Componenti inclusi nella scorecard. Tieni presente che puoi selezionare un’opzione quando condividi le scorecard in **[!UICONTROL Share embedded components]**.
+* Le scorecard per dispositivi mobili a essi destinate siano state correttamente create e condivise.
+* Abbiano accesso ai Componenti che la scorecard include. Tieni presente che quando condividi le scorecard puoi selezionare l’opzione **[!UICONTROL Share embedded components]**.
 
-## Download e installazione dell’app da parte dei dirigenti di Aiuto
+## Aiutare i dirigenti a scaricare e installare l’app
 
 **Per gli utenti esecutivi su iOS:**
 
@@ -48,17 +49,17 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 ![Schermata di benvenuto dell’app](assets/welcome.png)
 
-## Aiuta i dirigenti ad accedere alla tua scorecard
+## Aiutare i dirigenti ad accedere alla scorecard
 
-1. Chiedi agli utenti esecutivi di accedere all’app.
+1. Chiedi agli utenti manageriali di accedere all’app.
 
    Viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente esecutivo.
 
-1. Chiedi loro di toccare il nome della società di accesso o dell’organizzazione Experience Cloud che si applica alla scorecard che hai condiviso.
+1. Chiedi loro di toccare il nome dell’azienda o dell’organizzazione Experience Cloud applicabile alla scorecard condivisa.
 
-   L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con l’amministratore in quella società di accesso.
+   Vengono quindi elencate tutte le scorecard che sono state condivise con l’utente manageriale per l’azienda con cui è stato eseguito l’accesso.
 
-1. Chiedi loro di ordinare questo elenco per **[!UICONTROL Most recently modified]**, se applicabile.
+1. Aiutali a ordinare l’elenco in base a **[!UICONTROL Most recently modified]**, se applicabile.
 
 1. Chiedi loro di toccare il nome della scorecard per visualizzarla.
 
@@ -67,7 +68,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 ### Spiegare l’interfaccia utente della scorecard
 
-Spiega all’utente esecutivo come vengono visualizzate le tessere nelle scorecard condivise.
+Spiega all’utente manageriale come appaiono le tessere nelle scorecard condivise.
 
 ![Spiegare le tessere](assets/newexplain.png)
 
@@ -107,7 +108,7 @@ Se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che no
 
 ![Niente di condiviso](assets/nothing.png)
 
-* L’utente esecutivo può aver selezionato l’istanza di Analytics sbagliata, oppure
-* La scorecard potrebbe non essere stata condivisa con l’utente esecutivo.
+* L’utente manageriale potrebbe aver selezionato l’istanza di Analytics sbagliata oppure
+* la scorecard potrebbe non essere stata condivisa con l’utente manageriale.
 
-Verifica che l’utente esecutivo possa accedere alla giusta istanza di Adobe Analytics e che la scorecard sia stata condivisa.
+Verifica che l’utente manageriale possa accedere all’istanza appropriata di Adobe Analytics e che la scorecard sia stata condivisa.

@@ -1,11 +1,12 @@
 ---
-title: Gestire le connessioni
+title: Come gestire le connessioni nel Customer Journey Analytics
 description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1822'
 ht-degree: 8%
 
 ---
@@ -52,7 +53,7 @@ Gestione connessioni consente di:
 
 ### Eliminare le connessioni {#connections-delete}
 
-Solo gli amministratori dispongono dell’autorizzazione per eliminare una connessione. Questa azione non viene visualizzata per i non amministratori.
+Solo gli amministratori dispongono delle autorizzazioni per eliminare una connessione. Questa azione non viene visualizzata per i non amministratori.
 
 1. Fare clic sui puntini di sospensione (..) accanto al nome della connessione.
 1. Fai clic su [!UICONTROL Delete].

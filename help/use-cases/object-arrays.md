@@ -1,16 +1,16 @@
 ---
-title: Utilizzo di array di oggetti
+title: Utilizzare gli array di oggetti
 description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
-translation-type: tm+mt
-source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
+exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 88%
 
 ---
 
-
-# Utilizzo di array di oggetti
+# Utilizzare gli array di oggetti
 
 Alcuni schemi di piattaforma possono avere array di oggetti. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
@@ -188,7 +188,7 @@ CJA esamina queste parti dell’hit per generare il rapporto:
 
 Poiché l’asciugatrice non includeva una garanzia, non è stata inserita nella tabella.
 
-Dato che puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente mostra come i dati verrebbero associati a elementi dimensione non specificati:
+Poiché puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente mostra come i dati verrebbero generati con elementi dimensionali non specificati:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Dato che puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella s
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Esiste un ordine di prodotto senza un nome di garanzia associato a esso, pertanto l&#39;articolo di dimensione viene impostato su &quot;Non specificato&quot;. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
+Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto l’elemento dimensione è impostato su &quot;Non specificato&quot;. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
 
 ```diff
 {
@@ -240,7 +240,7 @@ Esiste un ordine di prodotto senza un nome di garanzia associato a esso, pertant
 +}
 ```
 
-Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti all&#39;elemento dimensione &quot;Non specificato&quot;.
+Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti all’elemento dimensione &quot;Non specificato&quot;.
 
 ### Combinazione di metriche
 

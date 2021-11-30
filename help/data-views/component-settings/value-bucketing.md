@@ -1,15 +1,16 @@
 ---
 title: Impostazioni dei componenti per la divisione dei valori
 description: Combinare valori numerici in una dimensione.
-source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
+exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-
-# [!UICONTROL Value Bucketing] impostazioni dei componenti
+# Impostazioni del componente [!UICONTROL Value Bucketing]
 
 Durante la creazione o la modifica di una visualizzazione dati, il bucket dei valori consente di combinare valori numerici in base a un intervallo. È disponibile solo per le dimensioni che utilizzano tipi di dati con schema Intero o Doppio.
 

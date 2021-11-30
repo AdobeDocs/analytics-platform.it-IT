@@ -1,8 +1,9 @@
 ---
-title: Domande frequenti su Analytics tra canali
+title: Domande frequenti su Analisi cross-channel
 description: Domande frequenti per Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
-source-git-commit: 2be442915587780ce41f33b13e27b8cf44e239a6
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 1%
@@ -24,7 +25,7 @@ Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare u
 
 ## Quanto tempo fa CCA restringe i visitatori?
 
-L&#39;intervallo di lookback per il reinserimento dipende dalla frequenza desiderata di dati [replay](replay.md). Ad esempio, se imposti CCA per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la rekeying è di 7 giorni. Se imposti CCA per riprodurre i dati ogni giorno, l’intervallo di lookback per la rekeying è di 1 giorno.
+L’intervallo di lookback per la rekeing dipende dalla frequenza di dati desiderata [ripetizione](replay.md). Ad esempio, se imposti CCA per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la rekeying è di 7 giorni. Se imposti CCA per riprodurre i dati ogni giorno, l’intervallo di lookback per la rekeying è di 1 giorno.
 
 ## Come vengono gestiti i dispositivi condivisi?
 
@@ -44,13 +45,13 @@ L’unione live è disponibile circa 1 settimana dopo l’attivazione dell’ana
 
 ## In che modo Analytics tra canali gestisce le richieste RGPD e CCPA?
 
-Adobe gestisce le richieste RGPD e CCPA in conformità alle leggi locali e internazionali. Adobe offre ad [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+Adobe gestisce le richieste RGPD e CCPA in conformità alle leggi locali e internazionali. L’Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
 
 ## Cosa succede se il campo ID persistente in uno o più eventi è vuoto?
 
-Se il campo `Persistent ID` è vuoto in un evento in un set di dati da unire con unione basata sul campo, CCA compila l&#39;evento `Stitched ID` in uno dei due modi seguenti:
-* Se il campo `Transient ID` non è vuoto, CCA utilizza il valore in `Transient ID` come `Stitched ID`.
-* Se il campo `Transient ID` è vuoto, CCA lascia vuoto anche il campo `Stitched ID` . In questo caso, `Persistent ID`, `Transient ID` e `Stitched ID` saranno tutti vuoti nell’evento. Eventi come questo vengono eliminati da CJA in qualsiasi connessione CJA utilizzando il set di dati in cui `Stitched ID` è stato scelto come `Person ID`.
+Se la `Persistent ID` Il campo è vuoto in un evento in un set di dati unito con unione basata sul campo, CCA compila `Stitched ID` per tale evento in uno dei due modi seguenti:
+* Se la `Transient ID` campo non vuoto, CCA utilizza il valore in `Transient ID` come `Stitched ID`.
+* Se la `Transient ID` Il campo è vuoto, CCA lascia anche . `Stitched ID` vuoto. In questo caso, `Persistent ID`, `Transient ID`e `Stitched ID` saranno tutti vuoti durante l’evento. Eventi come questo vengono eliminati da CJA in qualsiasi connessione CJA utilizzando il set di dati in cui viene vincolato `Stitched ID` è stato scelto come `Person ID`.
 
 ## Come si confrontano le metriche nei set di dati con unione di CJA con metriche simili nei set di dati non uniti di CJA e con il tradizionale Adobe Analytics?
 
@@ -58,8 +59,8 @@ Alcune metriche in CJA sono simili alle metriche nella versione tradizionale di 
 
 | **Dati uniti CJA** | **Dati non uniti CJA** | **Adobe Analytics tradizionale** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone**  = conteggio di valori univoci  `Person ID`in cui  `Stitched ID` viene scelto come  `Person ID`. **** Le persone possono essere più alte o più basse di  **Visitatori unici** nell’Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone**  = conteggio di valori distinti  `Person ID`in base alla colonna selezionata come  `Person ID`. **** I set di dati ADC (People Adobe Analytics Connector) sono simili a  **Unique** Visitorin Adobe Analytics tradizionale se  `endUserIDs. _experience. aaid.id` viene scelto come  `Person ID` in CJA. | **Visitatori univoci**  = conteggio degli ID visitatore distinti. Tieni presente che **Visitatori unici** potrebbe non essere lo stesso numero di visitatori distinti **ECID** s. | Vedere [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
-| **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. | **Visite**: Consulta  [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Visite**: È definito in base alle impostazioni di sessionizzazione specificate nella suite di rapporti virtuali  [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en). |
-| **Events** = conteggio delle righe nei dati uniti in CJA. In genere questo deve essere vicino a **Occorrenze** nel Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti precedenti relative alle righe con un vuoto `Persistent ID`. | **Events** = conteggio delle righe nei dati non uniti in CJA. In genere questo deve essere vicino a **Occorrenze** nel Adobe Analytics tradizionale. Nota, tuttavia, che se uno qualsiasi degli eventi presenta un elemento vuoto `Person ID` nei dati non uniti nel data lake di AEP, questi eventi verranno ignorati (non inclusi) in CJA. | **Occorrenze**: Consultare  [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Occorrenze**: Consultare  [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
+| **Persone** = Numero di elementi distinti `Person ID`e dove `Stitched ID` viene scelto come `Person ID`. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = Numero di elementi distinti `Person ID`s in base alla colonna selezionata come `Person ID`. **Persone** nei set di dati di Adobe Analytics Connector (ADC) è simile a **Visitatori unici** in Adobe Analytics tradizionale se `endUserIDs. _experience. aaid.id` viene scelto come `Person ID` in CJA. | **Visitatori unici** = Numero di ID visitatore distinti. Tieni presente che **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID** s. | Vedi [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=en). |
+| **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: È definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. | **Visite**: Vedi [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=en). | **Visite**: È definito in base alle impostazioni di sessionizzazione specificate in [Suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=en). |
+| **Eventi** = conteggio delle righe nei dati uniti in CJA. In generale, questo dovrebbe essere vicino a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un vuoto `Persistent ID`. | **Eventi** = conteggio delle righe nei dati non uniti in CJA. In generale, questo dovrebbe essere vicino a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un valore vuoto `Person ID` nei dati non uniti nel data lake di AEP, questi eventi verranno ignorati (non inclusi) in CJA. | **Occorrenze**: Vedi [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). | **Occorrenze**: Vedi [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en). |
 
-Altre metriche possono essere simili in CJA e nella versione tradizionale di Adobe Analytics. Ad esempio, il conteggio totale per gli eventi personalizzati Adobe Analytics [a1/> (eventi 1-100) deve essere generalmente molto vicino in Adobe Analytics e CJA tradizionali (uniti o non uniti). ](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) Tuttavia, questo potrebbe non essere sempre vero a causa delle [differenze nelle funzionalità](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en), ad esempio la deduplicazione di eventi tra CJA e il tradizionale Adobe Analytics.
+Altre metriche possono essere simili in CJA e nella versione tradizionale di Adobe Analytics. Ad esempio, il conteggio totale per Adobe Analytics [eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=en) (eventi 1-100) in genere dovrebbe essere molto vicino in Adobe Analytics e CJA tradizionali (sia che siano uniti o meno). Tuttavia, questo potrebbe non essere sempre vero a causa di [differenze di funzionalità](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en)  come la deduplicazione di eventi tra CJA e il tradizionale Adobe Analytics.

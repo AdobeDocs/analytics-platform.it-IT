@@ -2,11 +2,11 @@
 title: Aggiungere ricerche globali ai set di dati
 description: Utilizza le ricerche globali per migliorare il reporting con dimensioni utili nel Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
-translation-type: tm+mt
-source-git-commit: 26ee2b61fb80b55a7982d90941ec121547423cfc
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -27,9 +27,9 @@ I set di dati di ricerca globali vengono applicati automaticamente al momento de
 * `browser_group`
    * `browser_group`, `id`
 * `os`
-   * `os`,  `group_id`,  `id`
+   * `os`, `group_id`, `id`
 * `os_group`
-   * `os_group`,  `id`
+   * `os_group`, `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`

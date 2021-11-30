@@ -2,8 +2,9 @@
 title: Implicazioni dell’eliminazione
 description: Che cosa accade quando si eliminano connessioni, set di dati o batch in Customer Journey Analytics o Adobe Experience Platform.
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
-source-git-commit: 063e9614b33f6d906b3adb9193489e30e1a84b18
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

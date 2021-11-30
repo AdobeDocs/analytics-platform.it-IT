@@ -1,15 +1,16 @@
 ---
-title: Riferimento a componenti standard
+title: Documentazione dei componenti standard
 description: Dettagli e informazioni su tutti i componenti standard che è possibile aggiungere a qualsiasi visualizzazione dati.
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-
-# Riferimento a componenti standard
+# Documentazione dei componenti standard
 
 La maggior parte delle dimensioni e delle metriche in CJA si basa sugli elementi dello schema del set di dati di Adobe Experience Platform. Tuttavia, sono disponibili diversi componenti da aggiungere a una visualizzazione dati indipendentemente dalla connessione utilizzata.
 
@@ -23,7 +24,7 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 
 | Nome componente | Dimension o metrica | Note |
 | --- | --- | --- |
-| [!UICONTROL People] | Metrica | In base all&#39;ID persona specificato in [!UICONTROL Connection]. |
+| [!UICONTROL People] | Metrica | In base all’ID persona specificato in un [!UICONTROL Connection]. |
 | [!UICONTROL Sessions] | Metrica | In base alle impostazioni di sessione della visualizzazione dati. |
 | [!UICONTROL Events] | Metrica | Il numero di righe da tutti i set di dati evento in un [!UICONTROL Connection]. |
 | [!UICONTROL Minute] | Dimensione | Il minuto in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto nell’intervallo di date. |
@@ -36,15 +37,15 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 
 ## Componenti standard opzionali
 
-I componenti Standard facoltativi sono disponibili nella scheda **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** > **[!UICONTROL Standard Components]** .
+Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** scheda > **[!UICONTROL Standard Components]** scheda .
 
 | Nome componente | Dimension o metrica | Note |
 | --- | --- | --- |
-| [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di filtro (ad esempio &#39;[!UICONTROL Session Starts] exists&#39;), filtra fino al primo evento di ogni sessione. |
-| [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all&#39;ultimo evento di ogni sessione. |
+| [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di filtro (ad esempio &#39;[!UICONTROL Session Starts] esiste&#39;), si filtra fino al primo evento di ogni sessione. |
+| [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all’ultimo evento di ogni sessione. |
 | [!UICONTROL Time Spent (seconds)] | Metrica | Somma il tempo tra due valori diversi per una dimensione. |
-| [!UICONTROL Time Spent per Event] | Dimensione | Inserisce la metrica [!UICONTROL Time Spent] in bucket [!UICONTROL Event]. |
-| [!UICONTROL Time Spent per Session] | Dimensione | Inserisce la metrica [!UICONTROL Time Spent] in bucket [!UICONTROL Session]. |
-| [!UICONTROL Time Spent per Person] | Dimensione | Inserisce la metrica [!UICONTROL Time Spent] in bucket [!UICONTROL Person]. |
-| [!UICONTROL Batch ID] | Dimensione | Rappresenta il batch di Experienci Platform di cui faceva parte un elemento [!UICONTROL Event]. |
-| [!UICONTROL Dataset ID] | Dimensione | Rappresenta l&#39;Experience Platform di set di dati di cui faceva parte [!UICONTROL Event]. |
+| [!UICONTROL Time Spent per Event] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Event] secchi. |
+| [!UICONTROL Time Spent per Session] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Session] secchi. |
+| [!UICONTROL Time Spent per Person] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Person] secchi. |
+| [!UICONTROL Batch ID] | Dimensione | Rappresenta il batch di Experienci Platform che un [!UICONTROL Event] faceva parte di. |
+| [!UICONTROL Dataset ID] | Dimensione | Rappresenta il set di dati di Experience Platform che un [!UICONTROL Event] faceva parte di. |

@@ -1,13 +1,14 @@
 ---
 title: Analisi Percorso cross-channel
 description: Analizza ed estrai informazioni dalle interazioni dei clienti lungo l’intero percorso del cliente.
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+exl-id: 285532b1-eb37-4984-9559-054a18515ddf
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
 
 ---
-
 
 # Analisi Percorso cross-channel
 
@@ -19,15 +20,15 @@ Avere un’unica vista consolidata del comportamento dei clienti tra vari canali
 
 ## Passaggi di implementazione
 
-1. [Creare ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) schemi per l’acquisizione dei dati.
-1. [Crea ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) set di dati per i dati da acquisire.
+1. [Creare schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) per i dati da acquisire.
+1. [Creare set di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) per i dati da acquisire.
 1. [Inserire dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html).
-1. Utilizza un ID comune dello spazio dei nomi nei set di dati o utilizza [Cross-Channel Analytics](/help/connections/cca/overview.md) per collegare le persone. Al momento, Customer Journey Analytics non utilizza i servizi Profilo o Identità di Experience Platform per l’unione.
+1. Utilizza un ID comune dello spazio dei nomi nei set di dati o utilizza [Analisi cross-channel](/help/connections/cca/overview.md) per collegare le persone. Al momento, Customer Journey Analytics non utilizza i servizi Profilo o Identità di Experience Platform per l’unione.
 1. Esegui qualsiasi preparazione di dati personalizzati per garantire una chiave comune tra i set di dati delle serie temporali da acquisire nel Customer Journey Analytics.
 1. Attribuisci ai dati di ricerca un ID primario che possa unirsi a un campo nei dati dell’evento. Conta come righe nella licenza.
 1. Imposta lo stesso ID principale per i dati di profilo come ID principale dei dati dell’evento.
 1. Configura una connessione dati per l’acquisizione di dati da Experience Platform a Customer Journey Analytics.
-1. [Crea una ](/help/data-views/create-dataview.md) visualizzazione dati sulla connessione per selezionare le dimensioni e le metriche specifiche da includere nella visualizzazione. Le impostazioni di attribuzione e allocazione sono configurate anche nella visualizzazione dati. Queste impostazioni vengono calcolate al momento del rapporto.
+1. [Creare una visualizzazione dati](/help/data-views/create-dataview.md) sulla connessione per selezionare le dimensioni e le metriche specifiche da includere nella visualizzazione. Le impostazioni di attribuzione e allocazione sono configurate anche nella visualizzazione dati. Queste impostazioni vengono calcolate al momento del rapporto.
 1. Crea un progetto per configurare dashboard e rapporti in Analysis Workspace.
 
 ## Considerazioni

@@ -1,18 +1,18 @@
 ---
-title: Panoramica dei componenti
+title: Cosa sono i componenti nel Customer Journey Analytics?
 description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 56%
+source-wordcount: '344'
+ht-degree: 49%
 
 ---
 
 # Panoramica dei componenti
 
-I componenti sono funzionalità di Customer Journey Analytics che possono essere utilizzate nei rapporti o che integrano le funzioni di reporting. Puoi gestire questi componenti procedendo come segue:
+I componenti sono funzionalità di Customer Journey Analytics che possono essere utilizzate nei rapporti o per integrare le funzioni di reporting. Puoi gestire questi componenti procedendo come segue:
 
 1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le tue credenziali Adobe ID.
 2. Passa a [!UICONTROL Components] > [!UICONTROL Components] nel menu intestazione.
@@ -28,11 +28,11 @@ Puoi gestire i seguenti componenti:
 
 I componenti in Analysis Workspace sono costituiti da metriche, dimensioni, filtri e granularità temporali che puoi trascinare su un progetto. I componenti creati, come ad esempio gli intervalli di date personalizzati, vengono aggiunti a questi pannelli.
 
-Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. Puoi passare da un pannello all’altro (pannello vuoto, pannello [Pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Informazioni rapide](/help/analysis-workspace/c-panels/quickinsight.md) o pannello [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md)), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e Componenti utilizzando le icone della barra a sinistra o i [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. È possibile passare da un pannello all’altro (pannello vuoto, [Pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Approfondimenti rapidi](/help/analysis-workspace/c-panels/quickinsight.md)oppure [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) pannello), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), e i componenti mediante le icone nella barra a sinistra o utilizzando [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
-Consulta [Creare un progetto](/help/analysis-workspace/home.md) per informazioni sull&#39;utilizzo dei componenti in un progetto.
+Vedi [Creare un progetto](/help/analysis-workspace/home.md) per informazioni sull’utilizzo di Componenti in un progetto.
 
 ## Azioni dei componenti
 
@@ -44,9 +44,9 @@ Sono disponibili diversi metodi di gestione dei componenti (singolarmente o sele
 
 | Azione del componente | Descrizione |
 | --- | --- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
-| Approva | Approvare il componente per renderlo canonico. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), ad esempio [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters] o [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), come [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters]oppure [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
+| Preferito | Aggiungere il componente all’elenco dei preferiti. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), come [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters]oppure [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
+| Approva | Approvare il componente per renderlo canonico. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), come [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters]oppure  [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
 | Condividi | Si applica solo ai filtri. |
 | Elimina | Si applica solo ai filtri. |
 

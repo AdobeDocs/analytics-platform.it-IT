@@ -2,8 +2,9 @@
 title: Eseguire analisi di base in Customer Journey Analytics
 description: Descrive come utilizzare le visualizzazioni di base per analizzare i dati in Customer Journey Analytics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 

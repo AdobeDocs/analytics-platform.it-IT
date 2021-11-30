@@ -1,15 +1,16 @@
 ---
 title: Journey IQ
 description: Comprendi lo strumento Journey IQ, un insieme di funzioni che fanno parte di Adobe Analytics.
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
 ---
 
 
-# Journey IQ
+# IQ percorso
 
 >[!NOTE]
 >

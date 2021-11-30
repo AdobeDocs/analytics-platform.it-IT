@@ -2,10 +2,11 @@
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
 description: Scopri come aggiungere dati basati su account come set di dati di ricerca a CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +20,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 * Come si comporta questo account nel suo complesso rispetto a una campagna di marketing specifica, rispetto a un altro account?
 * Alcuni ruoli (come IT Manager) in un account si comportano in modo diverso rispetto allo stesso ruolo in un account diverso?
 
-Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati [lookup](/help/getting-started/cja-glossary.md).
+Per eseguire tutto questo, inserisci le informazioni a livello di account come [ricerca](/help/getting-started/cja-glossary.md) set di dati.
 
 Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi devi procedere alla creazione di una connessione nel Customer Journey Analytics (CJA0) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
@@ -29,7 +30,7 @@ Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea
 
 ## 1. Creare lo schema di ricerca (Experience Platform)
 
-La creazione di uno schema personalizzato per la tabella [lookup](/help/getting-started/cja-glossary.md) assicura che il set di dati utilizzato sia disponibile in CJA con la configurazione corretta (tipo di record). Si consiglia di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) denominata &quot;Lookup&quot;, vuota di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
+Creazione di uno schema personalizzato per [ricerca](/help/getting-started/cja-glossary.md) la tabella assicura che il set di dati utilizzato sia disponibile in CJA con la configurazione corretta (tipo di record). Si consiglia di: [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) denominato &quot;Lookup&quot;, vuoto di qualsiasi elemento, che può essere riutilizzato per tutte le tabelle di ricerca.
 
 ![](assets/create-new-class.png)
 
@@ -53,9 +54,9 @@ Ad esempio, i ricavi annuali o i dipendenti totali sono definiti come Intero nel
 
 ## 3. Inserire dati in Experience Platform
 
-Le istruzioni su come [mappare un file CSV su uno schema XDM](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) devono essere utili se utilizzi un file CSV.
+Istruzioni su come [Mappare un file CSV su uno schema XDM](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) dovrebbe essere utile se utilizzi un file CSV.
 
-[Sono disponibili anche altri ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) metodi.
+[Altri metodi](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) sono anche disponibili.
 
 L’inserimento dei dati e la determinazione della ricerca richiede circa 2-4 ore, a seconda delle dimensioni della tabella di ricerca.
 
@@ -65,17 +66,17 @@ Per questo esempio, stiamo combinando 3 set di dati in una singola connessione C
 
 | Nome set di dati | Descrizione | Classe AEP Schema | Dettagli del set di dati |
 | --- | --- | --- | --- |
-| Impression B2B | Contiene i dati a livello di evento e di click-stream a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché il nome marketing, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | Il `emailID` viene utilizzato come identità principale e gli viene assegnato uno spazio dei nomi `Customer ID`. Di conseguenza, verrà visualizzato come il valore predefinito **[!UICONTROL Person ID]** nel Customer Journey Analytics. ![Impression](assets/impressions-mixins.png) |
-| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio il loro titolo del lavoro, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema Profilo individuale XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, CJA non sarà in grado di collegare il `emailID` nel profilo B2B con il `emailID` nei dati di impression B2B. ![Profilo](assets/profile-mixins.png) |
-| Informazioni B2B | Vedi &quot;Crea set di dati di ricerca&quot; sopra. | B2BAccount (classe di schema di ricerca personalizzata) | La relazione tra `accountID` e il set di dati Impression B2B è stata creata automaticamente collegando il set di dati di informazioni B2B con il set di dati di impression B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](assets/lookup-mixins.png) |
+| Impression B2B | Contiene i dati a livello di evento e di click-stream a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché il nome marketing, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | La `emailID` viene utilizzato come identità principale e assegnato a `Customer ID` spazio dei nomi. Di conseguenza, verrà visualizzato come predefinito **[!UICONTROL Person ID]** in Customer Journey Analytics. ![Impression](assets/impressions-mixins.png) |
+| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio il loro titolo del lavoro, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema Profilo individuale XDM | Non è necessario selezionare `emailID` come ID principale in questo schema. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, CJA non sarà in grado di collegare il `emailID` nel profilo B2B con `emailID` nei dati di impression B2B. ![Profilo](assets/profile-mixins.png) |
+| Informazioni B2B | Vedi &quot;Crea set di dati di ricerca&quot; sopra. | B2BAccount (classe di schema di ricerca personalizzata) | Il rapporto tra `accountID` e il set di dati sulle impressioni B2B è stato creato automaticamente connettendo il set di dati sulle informazioni B2B con il set di dati sulle impressioni B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](assets/lookup-mixins.png) |
 
 Ecco come combinare i set di dati:
 
-1. In Customer Journey Analytics, seleziona la scheda **[!UICONTROL Connections]** .
+1. In Customer Journey Analytics, seleziona la **[!UICONTROL Connections]** scheda .
 1. Seleziona i set di dati (nel nostro esempio, i tre precedenti) che desideri combinare.
-1. Per il set di dati B2B Info, seleziona la chiave `accountID` che verrà utilizzata nella tabella di ricerca. Quindi seleziona la relativa chiave corrispondente (dimensione corrispondente), anche `accountID` nel set di dati dell’evento.
+1. Per il set di dati B2B Info , seleziona la variabile `accountID` chiave che verrà utilizzata nella tabella di ricerca. Quindi seleziona la chiave corrispondente (dimensione corrispondente), anche `accountID` nel set di dati dell’evento.
 1. Fai clic su **[!UICONTROL Next]**.
-1. Denomina e descrivi la connessione e configurala in base a [queste istruzioni](/help/connections/create-connection.md).
+1. Denominare e descrivere la connessione e configurarla in base a [queste istruzioni](/help/connections/create-connection.md).
 1. Fai clic su **[!UICONTROL Save]**.
 
 ## 5. Crea una visualizzazione dati da questa connessione

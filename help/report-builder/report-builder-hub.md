@@ -4,13 +4,14 @@ description: Descrive i componenti di Report Builder Hub
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: bb53440ac1019b639b5c4dd1e0ecd41fc1150ec3
+exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
 
 ---
-
 
 # Hub Report Builder
 
@@ -47,9 +48,9 @@ Le modifiche apportate utilizzando le sezioni Modifica rapida si applicano a tut
 
 ### Visualizzazioni dati
 
-I blocchi di dati estraggono i dati da una visualizzazione dati selezionata. Se più blocchi di dati sono selezionati in un foglio di lavoro e non estraggono dati dalla stessa visualizzazione dati, il collegamento **Visualizzazioni dati** visualizza *Multipli*.
+I blocchi di dati estraggono i dati da una visualizzazione dati selezionata. Se più blocchi di dati sono selezionati in un foglio di lavoro e non estraggono dati dalla stessa visualizzazione dati, il **Visualizzazioni dati** visualizzazioni di collegamento *Multipli*.
 
-Quando si modifica la visualizzazione dati, tutti i blocchi di dati nella selezione adottano la nuova visualizzazione dati. I componenti nel blocco dati vengono associati alla nuova visualizzazione dati in base all’ID, ad esempio, corrispondente a ```evars```). Se un componente non viene trovato in un blocco di dati, viene visualizzato un messaggio di avviso e il componente viene rimosso dal blocco di dati.
+Quando si modifica la visualizzazione dati, tutti i blocchi di dati nella selezione adottano la nuova visualizzazione dati. I componenti nel blocco dati vengono associati alla nuova visualizzazione dati in base, ad esempio, all’ID corrispondente ```evars```). Se un componente non viene trovato in un blocco di dati, viene visualizzato un messaggio di avviso e il componente viene rimosso dal blocco di dati.
 
 Per modificare la visualizzazione dati, selezionare una nuova visualizzazione dati dal menu a discesa.
 
@@ -57,8 +58,8 @@ Per modificare la visualizzazione dati, selezionare una nuova visualizzazione da
 
 ### Intervallo date
 
-**L’intervallo di date** visualizza l’intervallo di date per i blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più intervalli di date, il collegamento **Intervallo date** visualizza *Multiplo*.
+**Intervallo date** mostra l’intervallo di date per i blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più intervalli di date, il **Intervallo date** visualizzazioni di collegamento *Multipli*.
 
 ### Filtri
 
-Il collegamento **Filtri** visualizza un elenco sintetico dei filtri utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più filtri applicati, il collegamento **Filtri** visualizza *Multipli*.
+La **Filtri** visualizza un elenco riepilogativo dei filtri utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più filtri applicati, il **Filtri** visualizzazioni di collegamento *Multipli*.

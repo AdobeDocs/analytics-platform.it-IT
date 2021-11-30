@@ -1,18 +1,18 @@
 ---
 title: Rapporto sui dati Google Analytics nel Customer Journey Analytics
 description: Mostra utili rapporti sui dati Google Analytics nel Customer Journey Analytics
-translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-
 # Rapporto sui dati Google Analytics nel Customer Journey Analytics
 
-Ora che hai [acquisito i dati delle Google Analytics in Experience Platform e Customer Journey Analytics (CJA)](/help/use-cases/ga-to-cja.md), ti mostreremo alcuni scenari utili per la generazione di rapporti su tali dati.
+Ora che hai [Acquisizione dei dati delle Google Analytics in Experience Platform e Customer Journey Analytics (CJA)](/help/use-cases/ga-to-cja.md), ti mostreremo alcuni scenari utili per la generazione di rapporti su tali dati.
 
 ## Visualizzare dati web e dati app come set di dati combinati
 
@@ -39,7 +39,7 @@ Ora esaminiamo quali pagine del sito web hanno guidato le chiamate in arrivo al 
 Lo facciamo per
 
 * Utilizzo di una metrica calcolata per filtrare i dati in base solo alle sessioni terminate con una chiamata al call center.
-* Utilizzo del modello &quot;partecipazione&quot; nella Attribution IQ [di CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace).
+* Utilizzo del modello di &quot;partecipazione&quot; in CJA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace).
 
 Puoi vedere facilmente quali pagine partecipano più di frequente a una sessione che termina con una chiamata . Puoi vedere che le pagine &quot;Carrello acquisti&quot; e &quot;Informazioni di pagamento&quot; guidavano la maggior parte delle chiamate. Poiché hai incluso anche i dati dell’app mobile firebase, puoi persino vedere gli errori di pagina e gli arresti dell’app che generano le chiamate . Si tratta di un punto dati molto importante se desideri fornire esperienze web e app mobili straordinarie.
 
@@ -63,10 +63,10 @@ Attribution IQ consente inoltre di filtrare facilmente i dati. Puoi visualizzare
 
 ![](assets/filter.png)
 
-Infine, puoi anche attribuire i ricavi Web e app al contenuto Google Ad. Noterai che hai ottenuto più ricavi dall&#39;app mobile guidata dai nostri Google Ads online che dal web. Ordinando gli annunci in base ai ricavi da web e app, si ottiene un&#39;immagine molto diversa di quello che i vostri annunci Google più performanti erano.
+Infine, puoi anche attribuire le entrate web e app al contenuto Google Ad. Noterai che hai ottenuto più ricavi dall’app mobile guidata dai nostri Google Ads online che dal web. Ordinando gli annunci in base ai ricavi derivanti dal web e dall&#39;app, ottieni un&#39;immagine molto diversa di come erano i tuoi annunci Google dalle prestazioni migliori.
 
 ![](assets/google-ad.png)
 
-Senza CJA, non avresti potuto sapere che i tuoi annunci online avessero un impatto sui prodotti acquistati nella tua app mobile. Ora puoi vedere che i ricavi delle app mobili da Google Ads rappresentano un ulteriore $14-$5.000, rispetto al solo web.
+Senza CJA, non avresti potuto sapere che i tuoi annunci online avessero un impatto sui prodotti acquistati nella tua app mobile. Ora puoi vedere che i ricavi delle app mobili da Google Ads rappresentano un ulteriore da $ 14.000 - $ 5.000, rispetto al solo web.
 
 ![](assets/google-ad2.png)

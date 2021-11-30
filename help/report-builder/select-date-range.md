@@ -4,13 +4,14 @@ description: Descrive come utilizzare il calendario, le date continue e le espre
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
+exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
 
 ---
-
 
 # Selezionare un intervallo di date
 
@@ -39,7 +40,7 @@ Puoi escludere oggi qualsiasi intervallo di date selezionato.
 
 ## Utilizzare il calendario
 
-Quando utilizzi il **Calendario**, il campo intervallo di date visualizza l&#39;intervallo di date corrente per la richiesta di blocco di dati. È possibile inserire le date direttamente nel campo intervallo di date o utilizzare un’opzione di selezione dell’intervallo di dati.
+Quando utilizzi la **Calendario**, nel campo intervallo di date viene visualizzato l’intervallo di date corrente per la richiesta del blocco di dati. È possibile inserire le date direttamente nel campo intervallo di date o utilizzare un’opzione di selezione dell’intervallo di dati.
 
 ### Campo intervallo date
 
@@ -77,11 +78,11 @@ L’opzione date continue consente di selezionare un intervallo di date utilizza
 
    ![](./assets/image19.png)
 
-   **Inizio di** : consente di selezionare l’inizio di un giorno, una settimana, un mese, un trimestre o un anno.
+   **Inizio di** — Consente di selezionare l’inizio di un giorno, una settimana, un mese, un trimestre o un anno.
 
-   **Fine di** : consente di selezionare la fine di un giorno, una settimana, un mese, un trimestre o un anno.
+   **Fine** — Consente di selezionare la fine di un giorno, una settimana, un mese, un trimestre o un anno.
 
-   **Giorno**  fisso: consente di correggere una data di inizio o di fine mentre l&#39;altra data è in continuo.
+   **Giorno fisso** — Consente di correggere una data di inizio o di fine mentre l’altra data è in continuo.
 
 1. Scegliere il giorno, la settimana, il mese, il trimestre o l&#39;anno come periodo continuo.
 
@@ -101,9 +102,9 @@ L’opzione di espressione personalizzata consente di modificare l’intervallo 
 
 1. Seleziona **Usa date continue**.
 
-1. Selezionare **Usa espressione personalizzata**.
+1. Seleziona **Usa espressione personalizzata**.
 
-   Quando si seleziona l’opzione **Usa espressione personalizzata**, i controlli standard dell’intervallo di date continue sono disabilitati.
+   Quando selezioni la **Usa espressione personalizzata** i controlli standard dell’intervallo di date continuo sono disattivati.
 
    ![](./assets/custom_expression.png)
 
@@ -117,9 +118,9 @@ L’opzione di espressione personalizzata consente di modificare l’intervallo 
 
 1. Inserisci un **Riferimento data**.
 
-1. Aggiungi **operatori di data** per spostare la data nel passato o nel futuro.
+1. Aggiungi **Operatori data** per spostare la data nel passato o nel futuro.
 
-È possibile immettere un&#39;espressione data personalizzata che includa più operatori, ad esempio ```tm-11m-1d```.
+È possibile immettere un&#39;espressione di data personalizzata che includa più operatori, ad esempio ```tm-11m-1d```.
 
 #### Riferimenti date
 
@@ -160,15 +161,15 @@ Nella tabella seguente sono riportati alcuni esempi di espressione data.
 
 ## Intervallo di date dalla cella
 
-L&#39;intervallo di date può essere specificato nelle celle del foglio di lavoro. Utilizza l&#39;opzione **Intervallo date dalla cella** per scegliere la data di inizio e di fine del blocco dati dalle celle selezionate. Quando selezioni l’opzione **Da cella**, nel pannello vengono visualizzati i campi **Da** e **A** in cui puoi inserire una posizione cella.
+L&#39;intervallo di date può essere specificato nelle celle del foglio di lavoro. Utilizza la **Intervallo di date dalla cella** opzione per scegliere la data di inizio e fine del blocco dati dalle celle selezionate. Quando selezioni la **Da cella** viene visualizzato il pannello **Da** e **A** campi in cui è possibile immettere una posizione cella.
 
 ![](./assets/image23.png)
 
 ## Escludi oggi
 
-Scegli l’opzione **Escludi oggi** per escludere oggi da un intervallo di date selezionato. La scelta di includere oggi può estrarre dati incompleti per oggi.
+Scegli la **Escludi oggi** per escludere oggi da un intervallo di date selezionato. La scelta di includere oggi può estrarre dati incompleti per oggi.
 
-Se selezionata, l’opzione **Escludi oggi** esclude il giorno corrente da tutte le modalità dell’intervallo di date, tra cui calendario, date continue o espressioni personalizzate.
+Quando è selezionata, la **Escludi oggi** l’opzione esclude il giorno corrente da tutte le modalità di intervallo di date, tra cui calendario, date continue o espressioni personalizzate.
 
 ## Intervalli di date validi
 
@@ -178,7 +179,7 @@ Nell&#39;elenco seguente sono descritti i formati validi dell&#39;intervallo di 
 
 - La data di inizio deve essere precedente o uguale alla data di fine. Entrambe le date possono essere impostate sul futuro.
 
-- Quando si utilizzano date continue, la data di inizio deve essere odierna o passata. Deve essere passato se è selezionato **Escludi oggi** .
+- Quando si utilizzano date continue, la data di inizio deve essere odierna o passata. Deve essere nel passato se **Escludi oggi** è controllata.
 
 - Puoi creare un set di date statico per il futuro. Ad esempio, potrebbe essere necessario impostare una data futura per l’avvio di una campagna di marketing la settimana prossima. Questa opzione consente di creare in anticipo un monitoraggio della cartella di lavoro per una campagna.
 
@@ -186,15 +187,15 @@ Nell&#39;elenco seguente sono descritti i formati validi dell&#39;intervallo di 
 
 È possibile modificare l&#39;intervallo di date di un blocco di dati esistente selezionando Modifica blocco di dati nel pannello COMANDI o selezionando il collegamento dell&#39;intervallo di date nel pannello EDIT RAPIDO.
 
-**Modifica blocco**  dati: consente di modificare più parametri del blocco dati, compreso l&#39;intervallo di date, per un singolo blocco dati.
+**Modifica blocco dati** — Consente di modificare più parametri del blocco di dati, incluso l’intervallo di date, per un singolo blocco di dati.
 
-**Modifica rapida: Intervallo di date** : consente di modificare l’intervallo di date di uno o più blocchi di dati.
+**Modifica rapida: Intervallo date** — Consente di modificare l’intervallo di date di uno o più blocchi di dati.
 
 Per modificare l’intervallo di date dal pannello MODIFICA RAPIDA
 
 1. Selezionare celle all&#39;interno di uno o più blocchi di dati in un foglio di lavoro.
 
-1. Fai clic sul collegamento **Intervallo date** nel pannello EDIT RAPIDO .
+1. Fai clic sul pulsante **Intervallo date** nel pannello EDIT RAPIDO.
 
 1. Seleziona l’intervallo di date utilizzando una delle opzioni di selezione della data.
 
