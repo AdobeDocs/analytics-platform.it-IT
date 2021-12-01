@@ -3,10 +3,10 @@ title: Aggiornamenti della documentazione di CJA
 description: Elenco degli aggiornamenti dei contenuti della documentazione di Customer Journey Analytics impostati a partire da dicembre 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Marzo 2021 | Nuovo argomento sulle [preferenze utente](/help/analysis-workspace/user-preferences.md) in Workspace. |
 | Febbraio 2021 | Nuovo argomento sull’utilizzo di [dimensioni del canale di marketing in Adobe Experience Platform](/help/use-cases/marketing-channels.md). |
 | Febbraio 2021 | È stata pubblicata la nuova documentazione delle [API di CJA](https://www.adobe.io/cja-apis/docs/). |
-| Gennaio 2021 | Nuovo argomento sull’[aggiunta di ricerche globali al set di dati](/help/use-cases/global-lookups.md). |
+| Gennaio 2021 | Nuovo argomento su [aggiunta di ricerche standard al set di dati](/help/connections/standard-lookups.md). |
 | 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/connections/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
 | 13 novembre 2020 | È stato aggiunto un nuovo caso d’uso sull’[importazione di dati da call center e web](/help/use-cases/call-center.md). |
 | 11 novembre 2020 | È stato aggiunto un argomento sulla [stima della dimensione della connessione](/help/connections/estimate-connection-size.md). |

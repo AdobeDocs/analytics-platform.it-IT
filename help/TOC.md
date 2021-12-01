@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza autonoma per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 93%
+source-wordcount: '556'
+ht-degree: 94%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 93%
    + [Gestire le connessioni](connections/manage-connections.md)
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
+   + [Ricerche standard](connections/standard-lookups.md)
    + Analisi cross-channel {#cca}
       + [Panoramica di Analisi cross-channel](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
@@ -191,14 +192,13 @@ ht-degree: 93%
    + [Importare dati web e call center](use-cases/call-center.md)
    + [Casi d’uso per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
-   + [Aggiungere ricerche globali ai set di dati](use-cases/global-lookups.md)
    + [Inserire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
    + [Attività del curatore](mobile-app/curator.md)
    + [Creare una scorecard](mobile-app/create-scorecard.md)
-   + [Configurare i dirigenti per l’utilizzo delle dashboard](mobile-app/set-up-execs.md)
+   + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + Privacy {#cja-privacy}
    + [Panoramica della privacy](privacy/privacy-overview.md)
