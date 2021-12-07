@@ -3,9 +3,9 @@ title: Aggiungere ricerche standard ai set di dati
 description: Utilizza le ricerche standard per migliorare i rapporti con dimensioni utili nel Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
+source-git-commit: 4e31b02815e32695d97eab0f563c71725bc79c11
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Aggiungere ricerche standard ai set di dati
 
 >[!IMPORTANT]
->Le ricerche standard sono disponibili solo per le origini dati Connettore dati di Analytics in CJA. Puoi utilizzarli solo se utilizzi il [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o le API di raccolta dati di Experience Platform.
+>Le ricerche standard sono disponibili solo per le origini dati Connettore dati di Analytics in CJA. Puoi utilizzarli solo con le implementazioni standard di Adobe Analytics, oppure [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)o le API di raccolta dati di Experience Platform.
 
 Le ricerche standard (anche note come ricerche fornite da Adobe) migliorano la capacità del Customer Journey Analytics di generare rapporti su alcune dimensioni/attributi che non sono utili da solo ma sono utili quando sono collegate con altri dati. Alcuni esempi includono attributi di dispositivi mobili e attributi delle dimensioni del sistema operativo e del browser, come i numeri di versione del browser. Una ricerca standard è simile a un set di dati di ricerca. Le ricerche standard sono applicabili a tutte le organizzazioni Experience Cloud. Vengono applicati automaticamente a tutti i set di dati evento che contengono alcuni campi dello schema XDM (vedi di seguito per i campi specifici). Esiste un set di dati di ricerca standard per ogni posizione dello schema classificata da Adobe.
 
