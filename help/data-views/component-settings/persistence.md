@@ -3,10 +3,10 @@ title: Impostazioni dei componenti di persistenza
 description: Determina in che modo o se i valori delle dimensioni persistono da un evento all’altro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
+source-git-commit: 25557196c9841489e2732dece2c3402ebaf6224e
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 6%
+source-wordcount: '794'
+ht-degree: 8%
 
 ---
 
@@ -52,6 +52,15 @@ Dettagli sulle impostazioni di allocazione disponibili.
    | --- | --- | --- | --- | --- | --- |
    | Valori del set di dati | A | B | C |  | A |
    | Tutte le allocazioni | A | A,B | A, B, C | A, B, C | A, B, C |
+
+* **[!UICONTROL First Known]** e **[!UICONTROL Last Known]**: (19 gennaio 2022 ) Questi due modelli di allocazione soddisfano i casi d’uso per le dimensioni &quot;entrata&quot; e &quot;uscita&quot;. Ottengono il primo o l’ultimo valore osservato per una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
+
+| Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+| --- | --- | --- | --- | --- | --- |
+| Timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+| Valori originali |  | C | B |  | A |
+| Primo noto | C | C | C | C | C |
+| Ultimo noto | A | A | A | A | A |
 
 ## [!UICONTROL Expiration] del profilo
 
