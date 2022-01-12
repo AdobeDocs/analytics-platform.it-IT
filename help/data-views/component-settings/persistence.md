@@ -3,10 +3,10 @@ title: Impostazioni dei componenti di persistenza
 description: Determina in che modo o se i valori delle dimensioni persistono da un evento all’altro.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 4d45314ae77ee1ca78bbd44b0aa08add0f7030cc
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 7%
+source-wordcount: '716'
+ht-degree: 6%
 
 ---
 
@@ -61,3 +61,15 @@ Dettagli sulle impostazioni di scadenza disponibili.
 * **Persona**: Scade alla fine dell&#39;intervallo di reporting.
 * **Time**: Puoi impostare la scadenza del valore della dimensione dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
 * **Metrica**: Quando questa metrica viene visualizzata in un hit, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come fine di scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
+
+## [!UICONTROL Binding Dimension]
+
+Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni a discesa valide includono altre dimensioni incluse nella visualizzazione dati.
+
+Questa impostazione viene in genere utilizzata negli array di oggetti ed è più comunemente utilizzata per misurare elementi quali metodi di ricerca dei prodotti, risultati di ricerca interni, impression di promozioni interne o consigli di contenuti o prodotti. Nelle versioni precedenti di Adobe Analytics, questo concetto è noto come merchandising con sintassi di conversione.
+
+## [!UICONTROL Binding Metric]
+
+Elenco a discesa che consente di scegliere una metrica che agisce come attivatore di binding. Le opzioni a discesa valide includono le metriche incluse nella visualizzazione dati.
+
+Questa impostazione viene visualizzata solo quando il Dimension di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding. Nelle versioni precedenti di Adobe Analytics, un concetto simile ma più limitato di questo è noto come merchandising con sintassi di prodotto.
