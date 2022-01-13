@@ -3,13 +3,13 @@ title: Confrontare i dati AA con i dati CJA
 description: Scopri come confrontare i dati di Adobe Analytics con quelli del Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
-source-git-commit: b0d29964c67d8a6a847a05dbe113b8213b346f9b
+exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
+source-git-commit: 6f77dd9caef1ac8c838f825a48ace6cf533d28a9
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
-
 
 # Confrontare i dati di Adobe Analytics con i dati CJA
 
@@ -26,7 +26,6 @@ Di seguito sono riportati alcuni passaggi per confrontare i dati Adobe Analytics
 * Assicurati che il set di dati di Analytics in AEP contenga dati per l’intervallo di date che stai esaminando.
 
 * Assicurati che la suite di rapporti selezionata in Analytics corrisponda alla suite di rapporti che è stata acquisita in Adobe Experience Platform.
-
 
 ## Passaggio 1: Eseguire la metrica Occorrenze in Adobe Analytics
 
@@ -48,7 +47,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 >
 >Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Analisi cross-channel](/help/connections/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se è stata attivata l’analisi cross-channel.
 
-1. In Adobe Experience Platform [Servizi di query](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), esegui la seguente query Record totali per marca temporale:
+1. In Adobe Experience Platform [Servizi di query](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), esegui quanto segue [!UICONTROL Total Records by timestamps] query:
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -62,7 +61,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), dai dati non elaborati è possibile identificare se alcune righe possono essere eliminate dal connettore di origine di Analytics.
+1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it)dai dati non elaborati, identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
 
    La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbero rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l&#39;intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
 
@@ -75,20 +74,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
-1. Se il connettore ha rilasciato delle righe, sottrarle dalla metrica Occorrenze. Il numero risultante deve corrispondere al numero di eventi nei set di dati AEP.
+1. Se il connettore ha rilasciato delle righe, sottrarle dal [!UICONTROL Occurrences] metrica. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 
 ## Perché i record potrebbero essere ignorati o ignorati durante l’acquisizione da AEP
 
-CJA [Connessioni](/help/connections/create-connection.md) ti consente di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplicazione: join esterno completo o unione su set di dati evento basati su marche temporali e quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
+CJA [Connessioni](/help/connections/create-connection.md) ti consente di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplicazione: join esterno completo o unione su set di dati evento basati su marche temporali, quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
 
 Ecco alcuni dei motivi per cui i record potrebbero essere ignorati durante l’acquisizione di dati da AEP.
 
-* **Marca temporale mancante** - Se i timestamp non sono presenti nei set di dati dell’evento, questi verranno completamente ignorati o saltati durante l’acquisizione. perché consentirebbero all&#39;insieme dei set di dati di unirsi.
+* **Marca temporale mancante** - Se i timestamp non sono presenti nei set di dati dell’evento, questi verranno completamente ignorati o saltati durante l’acquisizione.
 
-* **ID persona mancanti** - Gli ID persona mancanti (dal set di dati eventi e/o dal set di dati profilo/ricerca) fanno sì che tali record vengano ignorati o saltati. Il motivo è che non esistono ID comuni o chiavi corrispondenti per unire i record.
+* **ID persona mancanti** - Gli ID persona mancanti (dal set di dati degli eventi e/o dal set di dati profilo/ricerca) fanno sì che tali record vengano ignorati o saltati. Il motivo è che non esistono ID comuni o chiavi corrispondenti per unire i record.
 
-* **ID persona non validi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio &quot;non definito&quot; o &quot;0000000&quot;.
-
-* **ID persona grande** - Un ID persona con qualsiasi combinazione di numeri e lettere che appare in un evento più di 1 milione di volte al mese non può essere attribuito ad un utente o persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.
-
-
+* **ID persona non validi o grandi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio &quot;non definito&quot; o &quot;0000000&quot;. Un ID persona (con qualsiasi combinazione di numeri e lettere) visualizzato in un evento più di 1 milione di volte al mese non può essere attribuito a un utente o a una persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.
