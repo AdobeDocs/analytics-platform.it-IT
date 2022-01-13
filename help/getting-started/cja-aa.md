@@ -3,10 +3,10 @@ title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 99%
+source-wordcount: '1194'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,14 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Dimensioni predefinite di Analysis Workspace (ad esempio, tipo di browser, tipo di referente, sistema operativo, ecc.) | CJA fornisce queste dimensioni in modalitù nativa, purché i campi XDM di base (come agente utente o ID dispositivo) siano compilati. Per i clienti che utilizzano Connettore dati di Analytics (ADC), sono disponibili alcune di queste dimensioni, ma non tutte. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | Eliminazione RGPD | Supporto completo; tieni presente che le funzioni RGPD sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. CJA eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | Variabili elenco/Prop elenco | Supporto completo; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
+| Persistenza della variabile merchandising | Supporto completo (gennaio 2022) |
 | Metriche | Supporto completo; CJA sfrutta Experience Data Model (XDM), supporta metriche illimitate e non è legato agli eventi di successo personalizzati della versione tradizionale di Analytics. Alcune metriche standard sono state rinominate nella versione tradizionale di Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
 | Deduplicazione delle metriche | Supporto completo. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. |
 | Esportazione PDF | Supporto completo. |
 | Conservazione del progetto | Supporto completo. |
 | Collegamento del progetto | Supporto completo. |
-| Report Builder (plugin di Excel) | Supporto completo (ottobre 2021) |
+| Report Builder (plugin di Excel) | Supporto completo. |
 | Elaborazione dell’ora rapporto | Supporto completo; CJA si basa esclusivamente sull’elaborazione dell’ora rapporto. |
 | Accesso API di reporting | Supporto completo; disponibile tramite l’[API CJA](https://www.adobe.io/cja-apis/docs/). |
 | Report/progetti pianificati | Supporto completo. |
@@ -79,9 +80,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
 | Analisi contributi | Il supporto è pianificato. |
-| Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Anche [!UICONTROL Experience Platform Query Service] fornisce un’interfaccia per questi casi d’uso in CJA. |
+| Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) fornisce anche un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
-| Persistenza della variabile merchandising | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. |

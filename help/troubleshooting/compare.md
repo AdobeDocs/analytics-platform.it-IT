@@ -4,14 +4,16 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 6f77dd9caef1ac8c838f825a48ace6cf533d28a9
+source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
 
 # Confrontare i dati di Adobe Analytics con i dati CJA
+
+Quando l’organizzazione adotta CJA, potresti notare alcune differenze nei dati tra Adobe Analytics e CJA. Questo è normale e può verificarsi per diversi motivi. CJA è progettato per consentirti di migliorare alcune delle limitazioni ai dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate/non previste. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare CJA senza problemi per l’integrità dei dati.
 
 Supponiamo che tu abbia acquisito i dati di Adobe Analytics in AEP tramite il connettore di origine di Analytics e quindi creato una connessione CJA utilizzando questo set di dati.
 
