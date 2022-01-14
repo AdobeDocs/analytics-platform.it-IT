@@ -3,9 +3,9 @@ title: Panoramica di Analisi cross-channel
 description: Ri-chiave ID visitatore da più set di dati per unire i visitatori.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 0f348f1d2119c902716a5e096a859521a4b316b0
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1154'
 ht-degree: 11%
 
 ---
@@ -39,6 +39,10 @@ Prima di utilizzare Cross-Channel Analytics, assicurati che l’organizzazione s
 
 ## Limitazioni 
 
+>[!IMPORTANT]
+>
+>Tieni presente che qualsiasi modifica allo schema del set di dati dell’evento globale deve essere applicata anche nel nuovo schema del set di dati uniti, altrimenti interromperà il set di dati uniti.
+
 Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
 * Le attuali funzionalità di rekeying sono limitate a un solo passaggio (ID persistente a ID transitorio). La reimpostazione in più passaggi (ad esempio, ID persistente in un ID transitorio e quindi in un altro ID transitorio) non è supportata.
@@ -58,13 +62,14 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 Una volta che l’organizzazione soddisfa tutti i prerequisiti e ne comprende i limiti, puoi seguire questi passaggi per iniziare a utilizzarla in CJA.
 
 1. Importa i dati desiderati in Adobe Experience Platform. Vedi [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) e [Inserire dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) nella documentazione di Adobe Experience Platform.
-1. Contatta il tuo Adobe Technical Account Manager con le seguenti informazioni:
+1. Contatta l’Assistenza clienti di Adobe con le seguenti informazioni:
    * Una richiesta per abilitare Cross-Channel Analytics
    * ID set di dati per il set di dati da reimpostare
    * Nome della colonna dell’ID persistente per il set di dati desiderato (Identificatore visualizzato su ogni riga)
    * Il nome della colonna dell’ID transitorio per il set di dati desiderato (il collegamento dell’identificatore della persona tra i set di dati)
-   * La tua preferenza [ripetizione](replay.md) frequenza e lunghezza del lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni o una riproduzione giornaliera con un intervallo di lookback di 1 giorno.
-1. Adobe Technical Account Manager collaborerà con l’ingegneria Adobe per abilitare Cross-Channel Analytics dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati retrato contenente una nuova colonna ID persona. Il tuo Adobe Technical Account Manager può fornire il nuovo ID set di dati e il nome della colonna ID persona.
+   * La tua preferenza [ripetizione](replay.md) frequenza e lunghezza del lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni, o una ripetizione ogni giorno con un intervallo di lookback di 1 giorno
+   * Nome della sandbox.
+1. L’Assistenza clienti Adobe funzionerà con l’ingegneria Adobe per abilitare Cross-Channel Analytics dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati retrato contenente una nuova colonna ID persona. Ad Adobe, l’Assistenza clienti può fornire il nuovo ID set di dati e il nome della colonna ID persona.
 1. Quando è attivata per la prima volta, in Adobe viene fornito un backfill dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di backfill, l’ID transitorio deve esistere nei dati non uniti fino a quel momento.
 1. [Creare una connessione](../create-connection.md) in CJA utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
 1. [Creare una visualizzazione dati](/help/data-views/create-dataview.md) in base alla connessione.
