@@ -3,9 +3,9 @@ title: Creare o modificare una visualizzazione di dati
 description: Tutte le impostazioni che è possibile modificare per creare o modificare una visualizzazione dati.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 3%
 
 ---
@@ -84,21 +84,23 @@ Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. 
    * [[!UICONTROL Persistence]](component-settings/persistence.md)
    * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
 
-Se necessario, puoi utilizzare le seguenti funzioni:
+## Duplicare metriche o dimensioni
 
-* **[!UICONTROL Duplicate]**: Duplicare metriche o dimensioni e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema. Seleziona la [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome più descrittivo.
+Duplicare metriche o dimensioni e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema. Seleziona la [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome più descrittivo.
 
-   ![Duplica](assets/duplicate.png)
+![Duplica](assets/duplicate.png)
 
-* **[!UICONTROL Filter]**: Puoi filtrare i campi dello schema nella barra a sinistra in base ai seguenti tipi di dati:
+## Filtrare campi o set di dati dello schema
 
-   ![Campi filtro](assets/filter-fields.png)
+Puoi filtrare i campi dello schema nella barra a sinistra in base ai seguenti tipi di dati:
 
-   Puoi anche filtrare per set di dati e specificando se un campo di schema contiene dati o se si tratta di un’identità. Per impostazione predefinita, l’Adobe applica inizialmente il **[!UICONTROL Contains data]** applica il filtro a tutte le visualizzazioni dati.
+![Campi filtro](assets/filter-fields.png)
 
-   ![Filtra altri](assets/filter-other.png)
+Puoi anche filtrare per set di dati e specificando se un campo di schema contiene dati o se si tratta di un’identità. Per impostazione predefinita, l’Adobe applica inizialmente il **[!UICONTROL Contains data]** applica il filtro a tutte le visualizzazioni dati.
 
-## Impostazioni
+![Filtra altri](assets/filter-other.png)
+
+## Scheda Impostazioni
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e vai al **[!UICONTROL Data Views]** scheda .
 1. Fai clic su **[!UICONTROL Add]** per creare una visualizzazione dati, oppure fare clic su una visualizzazione dati esistente per modificarla.
