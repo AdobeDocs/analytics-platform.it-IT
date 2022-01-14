@@ -3,18 +3,18 @@ description: È possibile suddividere dimensioni ed elementi dimensionali in Ana
 keywords: Analysis Workspace
 title: Suddividere dimensioni
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 76%
+source-wordcount: '232'
+ht-degree: 79%
 
 ---
 
-# Suddividere dimensioni
+# Analisi di dimensioni in Workspace
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 
