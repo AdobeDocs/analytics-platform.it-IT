@@ -3,10 +3,10 @@ title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
+source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,6 +79,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
+| Eventi calendario | In Workspace, le annotazioni sono denominate &quot;Annotazioni&quot;. |
 | Generatore regole di classificazione | Funzionerà in modo leggermente diverso in CJA, utilizzando le manipolazioni delle stringhe al momento del rapporto anziché i set di dati di ricerca. |
 | Analisi contributi | Il supporto è pianificato. |
 | Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) fornisce anche un’interfaccia per questi casi d’uso in CJA. |
@@ -98,11 +99,11 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Activity Map | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
 | Generatore regole di classificazione | Il supporto non è ancora pianificato. |
+| Conversione valuta | Il supporto non è ancora pianificato. |
 | Feed dati | Il supporto non è ancora pianificato. |
+| Rapporti in tempo reale | Il supporto non è ancora pianificato. |
 | Riepilogo origini dati | Il supporto non è ancora pianificato. |
 | Origini dati ID transazione | Il supporto non è ancora pianificato. |
-| Conversione valuta | Il supporto non è ancora pianificato. |
-| Rapporti in tempo reale | Il supporto non è ancora pianificato. |
 
 ## Funzioni che non saranno mai supportate
 
@@ -110,5 +111,4 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 * Dashboard di Reports &amp; Analytics
 * Segnalibri di Reports &amp; Analytics
 * Target di Reports &amp; Analytics
-* Eventi calendario di Reports &amp; Analytics
 * Mobile Services
