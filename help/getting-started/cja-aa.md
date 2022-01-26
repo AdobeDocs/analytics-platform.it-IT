@@ -3,10 +3,10 @@ title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
+source-git-commit: d46779a30fd841194f8ba0e80ab17ea5714569db
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1300'
+ht-degree: 85%
 
 ---
 
@@ -69,8 +69,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 | Funzione | Note |
 | --- | --- |
-| Filtro bot | Per i set di dati basati sul connettore di origine Analytics, viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
-| Media Analytics | I dati multimediali sono disponibili come parte del connettore dati di Analytics. |
+| Filtro bot | Per [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)Set di dati basati su , viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
+| Media Analytics | I dati multimediali sono disponibili come parte del connettore di origine di Analytics. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analytics for Target (A4T) e Visualizzatori simultanei di contenuti multimediali non sono supportati. |
 | Regole di elaborazione | Per i set di dati basati sul connettore dati di Analytics, le regole di elaborazione vengono ancora applicate. [Le funzionalità di preparazione dei dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) possono essere utilizzate anche al posto delle regole di elaborazione per i dati che vanno direttamente in Platform. |
 
@@ -98,10 +98,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Activity Map | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
-| Generatore regole di classificazione | Il supporto non è ancora pianificato. |
 | Conversione valuta | Il supporto non è ancora pianificato. |
 | Feed dati | Il supporto non è ancora pianificato. |
-| Rapporti in tempo reale | Il supporto non è ancora pianificato. |
 | Riepilogo origini dati | Il supporto non è ancora pianificato. |
 | Origini dati ID transazione | Il supporto non è ancora pianificato. |
 
