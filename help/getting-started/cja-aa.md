@@ -3,9 +3,9 @@ title: Supporto delle funzioni di Customer Journey Analytics
 description: Confronto tra le funzioni di Customer Journey Analytics e quelle di Adobe Analytics.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1300'
 ht-degree: 86%
 
 ---
@@ -79,17 +79,17 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
+| Generatore regole di classificazione | Funzionerà in modo leggermente diverso in CJA, utilizzando le manipolazioni delle stringhe al momento del rapporto anziché i set di dati di ricerca. |
 | Analisi contributi | Il supporto è pianificato. |
 | Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) fornisce anche un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
+| Segnalazione di incremento e affidabilità | Il supporto è pianificato. |
+| Regole di elaborazione, regole VISTA, regole di elaborazione dei canali di marketing | Supporto pianificato, ma funziona in fase di query anziché durante la raccolta dei dati per manipolazioni dei dati più flessibili e retroattive e non distruttive. |
+| Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. Sarà chiamato &quot;Pubblicazione del pubblico&quot; in CJA. |
 | Rapporti sulla sessione nuovi e ripetuti | Il supporto è pianificato con alcune avvertenze. |
-| Segnalazione di incremento e affidabilità | Il supporto è pianificato. |
-| Generatore regole di classificazione | Funzionerà in modo leggermente diverso in CJA utilizzando le manipolazioni delle stringhe al volo al momento del rapporto, anziché i set di dati di ricerca. |
-| Regole di elaborazione, regole VISTA, regole di elaborazione dei canali di marketing | Supporto pianificato, ma funziona in fase di query anziché durante la raccolta dei dati per manipolazioni dei dati più flessibili e retroattive e non distruttive. |
-| Modelli di progetto | Il supporto è pianificato. |
 
 ## Supporto non ancora pianificato.
 
