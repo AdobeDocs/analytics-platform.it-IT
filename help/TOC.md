@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza autonoma per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 0822b27006c79e88d463055ecb0f7172cda8e141
+source-git-commit: 9f27b61afb74766ac606c00193fa3310beca5f31
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 92%
+source-wordcount: '576'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
    + [Gestire le connessioni](connections/manage-connections.md)
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
-   + [Standard lookups](connections/standard-lookups.md)
+   + [Ricerche standard](connections/standard-lookups.md)
    + Analisi cross-channel {#cca}
       + [Panoramica di Analisi cross-channel](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
@@ -135,14 +135,14 @@ ht-degree: 92%
       + [Accessibilità di Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [“Long tail” in Analysis Workspace](analysis-workspace/workspace-faq/long-tail.md)
 + Report Builder {#cja-reportbuilder}
-   + [Report Builder Overview](report-builder/report-buider-overview.md)
-   + [Report Builder Set Up](report-builder/report-builder-setup.md)
-   + [Create a Data Block](report-builder/create-a-data-block.md)
-   + [Report Builder Hub](report-builder/report-builder-hub.md)
-   + [Select a Date Range](report-builder/select-date-range.md)
-   + [Work with Filters](report-builder/work-with-filters.md)
-   + [Filter Dimensions](report-builder/filter-dimensions.md)
-   + [Report Builder Settings](report-builder/report-builder-settings.md)
+   + [Panoramica del Report Builder](report-builder/report-buider-overview.md)
+   + [Configurazione Report Builder](report-builder/report-builder-setup.md)
+   + [Creare un blocco di dati](report-builder/create-a-data-block.md)
+   + [Hub Report Builder](report-builder/report-builder-hub.md)
+   + [Selezionare un intervallo di date](report-builder/select-date-range.md)
+   + [Utilizzare i filtri](report-builder/work-with-filters.md)
+   + [Dimension filtro](report-builder/filter-dimensions.md)
+   + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
    + Dimensioni {#dimensions}
@@ -160,13 +160,13 @@ ht-degree: 92%
       + [Operatori](components/filters/operators.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica delle metriche calcolate](components/calc-metrics/calc-metr-overview.md)
-      + {#cm-workflow}
+      + Flusso di lavoro per le metriche calcolate {#cm-workflow}
          + [Flusso di lavoro per le metriche calcolate](components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Trovare metriche](components/calc-metrics/cm-workflow/cm-finding.md)
          + [Creare metriche](components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo di metrica e attribuzione](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;](components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [Filtered metrics](components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [Metriche filtrate](components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Sovrapponi e sostituisci segmenti](components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Metriche filtrate e ponderate](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Usare le funzioni](components/calc-metrics/cm-workflow/cm-using-functions.md)
@@ -187,6 +187,7 @@ ht-degree: 92%
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
+   + [Utilizzo di dimensioni e metriche di binding](use-cases/binding-dimensions-metrics.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
    + [Analizzare i dati tra canali diversi](use-cases/cross-channel.md)
    + [Importare dati web e call center](use-cases/call-center.md)
@@ -201,11 +202,11 @@ ht-degree: 92%
    + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + Risoluzione dei problemi {#troubleshooting}
-   + [Compare your Adobe Analytics data to CJA data](troubleshooting/compare.md)
+   + [Confrontare i dati di Adobe Analytics con i dati CJA](troubleshooting/compare.md)
 + Privacy {#cja-privacy}
    + [Panoramica della privacy](privacy/privacy-overview.md)
 + [Aggiornamenti della documentazione di CJA](doc-changes.md)
 + Note sulla versione {#releases}
    + [Versione più recente](release-notes/latest.md)
-   + [Previous releases](release-notes/previous.md)
+   + [Versioni precedenti](release-notes/previous.md)
 
