@@ -1,13 +1,13 @@
 ---
 title: Utilizzo di dimensioni e metriche di binding in CJA
 description: Attribuisci dimensioni agli array di oggetti per analisi di persistenza complessa.
-source-git-commit: b93809c9af02227295c9dd66565f04675236c393
+exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
+source-git-commit: 4381a01b072084701d065d7f41de539412c8d371
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '837'
 ht-degree: 1%
 
 ---
-
 
 # Utilizzo di dimensioni e metriche di binding in CJA
 
@@ -15,7 +15,81 @@ Il Customer Journey Analytics offre diversi modi per mantenere i valori di dimen
 
 Anche se è possibile utilizzare dimensioni di binding con dati evento di livello principale, è meglio utilizzarlo quando si lavora con [Array di oggetti](object-arrays.md). È possibile attribuire una dimensione a una parte di una matrice di oggetti senza applicarla a tutti gli attributi di un dato evento. Ad esempio, è possibile attribuire un termine di ricerca a un prodotto nell’array di oggetti del carrello senza associare tale termine all’intero evento.
 
-## Esempio 2: Utilizzo di metriche di binding per legare i termini di ricerca a un acquisto di prodotto
+## Esempio 1: Utilizzare le dimensioni di binding per attribuire attributi di prodotto aggiuntivi a un acquisto
+
+È possibile eseguire il binding degli elementi dimensionali all’interno di una matrice di oggetti a un’altra dimensione. Quando viene visualizzato l’elemento di dimensione associato, CJA richiama la dimensione associata e lo include nell’evento per te. Considera il seguente percorso di clienti:
+
+1. Un visitatore visualizza una pagina di prodotto su una lavatrice.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "color": "white",
+               "type": "front loader",
+           },
+       ],
+       "timestamp": 1534219229
+   }
+   ```
+
+1. Il visitatore visualizza quindi una pagina di prodotto su un’asciugatrice.
+
+   ```json
+   {
+       "PersonID": "1",
+       "product_views": 1,
+       "product": [
+           {
+               "name": "Dryer 2000",
+               "color": "neon orange",
+           },
+       ],
+       "timestamp": 1534219502
+   }
+   ```
+
+1. Alla fine fanno un acquisto. Il colore di ciascun prodotto non è stato incluso nell’evento di acquisto.
+
+   ```json
+   {
+       "PersonID": "1",
+       "orders": 1,
+       "product": [
+           {
+               "name": "Washing Machine 2000",
+               "price": 1600,
+           },
+           {
+               "name": "Dryer 2000",
+               "price": 499
+           }
+       ],
+       "timestamp": 1534219768
+   }
+   ```
+
+Se desideri esaminare i ricavi per colore senza una dimensione di binding, la dimensione `product.color` persiste e attribuisce in modo errato il credito al colore dell&#39;asciugatrice:
+
+| product.color | ricavi |
+| --- | --- |
+| neon arancione | 2099 |
+
+È possibile accedere a Data View Manager e associare il colore del prodotto al nome del prodotto:
+
+![Dimensione di binding](assets/binding-dimension.png)
+
+Quando imposti questo modello di persistenza, Adobe prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questo visitatore, viene portato anche il colore del prodotto. Gli stessi dati quando si associa il colore del prodotto al nome del prodotto saranno simili ai seguenti:
+
+| product.color | ricavi |
+| --- | --- |
+| bianco | 1600 |
+| neon arancione | 499 |
+
+## Esempio 2: Utilizzare metriche di binding per legare i termini di ricerca a un acquisto di prodotto
 
 Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello di associare un termine di ricerca a un prodotto in modo che ogni termine di ricerca riceva credito per il prodotto appropriato. Considera il seguente percorso di clienti:
 
@@ -204,11 +278,7 @@ Se hai utilizzato l’ultima allocazione con la dimensione del termine di ricerc
 
 Anche se questo esempio include un solo visitatore, molti visitatori che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-Con una dimensione di binding, Adobe prende nota dell’elemento dimensionale a cui è associato. Quando lo stesso valore di binding viene visualizzato in un evento successivo, questo porta sopra l’elemento dimensione in modo da poter attribuire la metrica desiderata. In questo esempio, possiamo impostare la dimensione di binding per search_term su nome prodotto:
-
-![Dimensione di binding](assets/binding-dimension.png)
-
-Quando si imposta questa dimensione in Gestione visualizzazione dati, è necessario impostare anche una metrica di binding perché la dimensione di binding si trova in una matrice di oggetti. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding. In questa implementazione di esempio, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca. È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente.
+Con una dimensione di binding, Adobe prende nota dell’elemento dimensionale a cui è associato. Quando lo stesso valore di binding viene visualizzato in un evento successivo, questo porta sopra l’elemento dimensione in modo da poter attribuire la metrica desiderata. In questo esempio, possiamo impostare la dimensione di binding per search_term su nome del prodotto. Quando si imposta questa dimensione in Gestione visualizzazione dati, è necessario impostare anche una metrica di binding perché la dimensione di binding si trova in una matrice di oggetti. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding. In questa implementazione di esempio, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca. È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente.
 
 ![Metrica di binding](assets/binding-metric.png)
 
