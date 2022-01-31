@@ -3,10 +3,10 @@ title: Aggiornamenti della documentazione di CJA
 description: Elenco degli aggiornamenti dei contenuti della documentazione di Customer Journey Analytics impostati a partire da dicembre 2019.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: 226c2549ecd0ee694b9aea8072aa1c5e76226c4a
+source-git-commit: a1ddbf6a03611fce1ebb0587a2586f991c814d83
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 79%
+source-wordcount: '670'
+ht-degree: 78%
 
 ---
 
@@ -16,8 +16,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Gennaio 2022 | Nuovo caso d’uso per [Utilizzo di dimensioni e metriche di binding in CJA](/help/use-cases/binding-dimensions-metrics.md) |
 | Gennaio 2022 | È stata aggiunta una nuova documentazione sulle funzioni il [dimensioni e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) e su [[!UICONTROL First Known] e [!UICONTROL Last Known] impostazioni di allocazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#allocation-settings) |
-| Gennaio 2022 | È stato aggiunto un articolo su [confronto dei dati di Adobe Analytics con quelli di Analytics in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
+| Gennaio 2022 | Nuovo articolo su [confronto dei dati di Adobe Analytics con quelli di Analytics in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
 | Novembre 2021 | È stata aggiornata la documentazione per [[!UICONTROL Records skipped]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-details-settings) nella pagina Dettagli connessioni. |
 | Ottobre 2021 | Documentazione per [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=it) in CJA. |
 | Ottobre 2021 | Customer Journey Analytics [Registro di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) Documentazione API |
