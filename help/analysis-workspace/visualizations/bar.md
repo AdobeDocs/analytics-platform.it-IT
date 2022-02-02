@@ -1,14 +1,14 @@
 ---
-description: La visualizzazione Barra mostra barre verticali che rappresentano vari valori per una o più metriche.
+description: La visualizzazione a barre mostra barre verticali che rappresentano diversi valori per una o più metriche.
 title: Barre e barre sovrapposte
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: a4458694-0c90-4e44-88d5-575737a61c36
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 85%
 
 ---
-
 
 # Barre e barre sovrapposte
 
@@ -29,4 +29,3 @@ Questa visualizzazione è simile al grafico a barre, ma le barre delle varie ser
 Una nuova impostazione per le visualizzazioni Barre sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 
 ![](assets/stacked_100_percent.png)
-

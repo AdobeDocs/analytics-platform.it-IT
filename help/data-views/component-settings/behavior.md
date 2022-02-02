@@ -3,7 +3,8 @@ title: Impostazioni del componente Comportamento
 description: Specifica il comportamento di una dimensione o metrica nel reporting.
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%

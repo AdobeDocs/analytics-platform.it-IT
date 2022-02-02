@@ -1,11 +1,12 @@
 ---
 description: Quick Insights è uno strumento per i nuovi utenti di Workspace che li guida nella creazione di tabelle e visualizzazioni di dati
 title: Pannello Quick Insights
+feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
@@ -21,9 +22,9 @@ ht-degree: 72%
 
 [!UICONTROL Quick Insights] fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] affinché scoprano come rispondere alle domande aziendali in modo rapido e semplice. È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover creare personalmente una tabella.
 
-Quando inizi a utilizzare [!UICONTROL Analysis Workspace], ti potresti chiedere quali visualizzazioni sarebbero più utili, quali dimensioni e metriche potrebbero semplificare le informazioni, dove trascinare e rilasciare elementi, dove creare un filtro, ecc.
+Quando inizi a utilizzare [!UICONTROL Analysis Workspace], potresti chiederti quali visualizzazioni sarebbero più utili, quali dimensioni e metriche potrebbero semplificare le informazioni, dove trascinare e rilasciare elementi, dove creare un filtro, ecc.
 
-Per aiutarti a trovare le risposte, e in base all’utilizzo dei componenti dati da parte della tua azienda in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] sfrutta un algoritmo che ti mostrerà le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Vedrai infatti dimensioni, metriche e filtri taggati come [!UICONTROL Popular] nell’elenco a discesa, come mostrato di seguito:
+Per aiutarti a trovare le risposte, e in base all’utilizzo dei componenti dati da parte della tua azienda in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] sfrutta un algoritmo che ti mostrerà le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Vedrai infatti dimensioni, metriche e filtri taggati come [!UICONTROL Popular] nell’elenco a discesa , come illustrato di seguito:
 
 ![](assets/popular-tag.png)
 
@@ -31,7 +32,7 @@ Per aiutarti a trovare le risposte, e in base all’utilizzo dei componenti dati
 
 * Creare correttamente una tabella di dati e una relativa visualizzazione in [!UICONTROL Analysis Workspace].
 * Imparare la terminologia e il vocabolario dei componenti ed elementi di base di [!UICONTROL Analysis Workspace].
-* Effettua semplici raggruppamenti di dimensioni, aggiungi più metriche o confronta facilmente i filtri all’interno di un [!UICONTROL Freeform table].
+* Effettuare semplici raggruppamenti di dimensioni, aggiungere più metriche o confrontare facilmente i filtri all’interno di una [!UICONTROL Freeform table].
 * Modificare o provare vari tipi di visualizzazione per trovare lo strumento di ricerca per la tua analisi in modo rapido e intuitivo.
 
 ## Terminologia chiave di base
@@ -45,7 +46,7 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 | [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. |
 | [!UICONTROL Dimension Breakdown] | Un raggruppamento di dimensioni è un modo per raggruppare letteralmente una dimensione secondo altre dimensioni. Nel nostro esempio, potresti raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti raggruppare i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
-| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare i filtri [!UICONTROL Visitor] in base agli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e entrate: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o basati su variabili personalizzate: campo modulo, categorie definite, ID cliente. |
+| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare [!UICONTROL Visitor] filtri basati sugli attributi: tipo di browser, dispositivo, numero di visite, paese, genere o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca o in base a uscite e entrate: visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento o basati su variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Introduzione a Quick Insights
 

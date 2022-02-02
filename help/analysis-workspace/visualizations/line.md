@@ -1,15 +1,14 @@
 ---
 description: Utilizzare la visualizzazione delle linee per rappresentare set di dati con tendenza (basati sul tempo)
 title: Linee
-uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+feature: Visualizations
+exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # Linee
 
@@ -31,21 +30,21 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 ## Mostra minimo o massimo
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: I valori min/max sono derivati dai punti di dati visibili nella visualizzazione, non dall’intero insieme di valori all’interno di una dimensione.
+In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: i valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.
 
 ![Mostra minimo/massimo](assets/min-max-labels.png)
 
 ## Mostra la sovrapposizione della linea di tendenza
 
-In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, è possibile aggiungere una regressione o spostare una linea di tendenza media alla serie di linee. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
+In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, puoi scegliere di aggiungere alla serie di linee una linea di tendenza di regressione o di media mobile. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
 
 >[!TIP]
 >
->Si consiglia di applicare le linee di tendenza ai dati che non includono oggi (dati parziali) o date future, in quanto tali linee di tendenza risulteranno distorte. Se è necessario includere date future, tuttavia, rimuovere gli zero dai dati per evitare che l&#39;inclinazione di tali giorni. A tal fine, andate alla tabella dell&#39;origine dati della visualizzazione, scegliete la colonna metrica e abilitate **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
+>Si consiglia di applicare le linee di tendenza ai dati che non includono la data odierna (dati parziali) o date future, in quanto queste potrebbero distorcere la linea di tendenza. Tuttavia, se devi includere date future, rimuovi gli zeri dai dati per evitare distorsioni per quei giorni. A questo scopo, vai alla tabella dell’origine dati della visualizzazione, scegli la colonna della metrica desiderata, quindi abilita **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
 
 ![Linee di tendenza lineare](assets/show-linear-trendline.png)
 
-Tutte le linee di tendenza del modello di regressione sono adattate utilizzando i minimi quadrati ordinari:
+Tutte le linee di tendenza del modello di regressione sono adattabili utilizzando i minimi quadrati ordinari:
 
 | Modello | Descrizione |
 | --- | --- |
@@ -54,4 +53,4 @@ Tutte le linee di tendenza del modello di regressione sono adattate utilizzando 
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o diminuiscono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
 | Potenza | Crea una linea curva ed è utile per i set di dati che confrontano misurazioni che aumentano a una velocità specifica. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
 | Quadratico | Trova l’adattamento per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
-| Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Noto anche come media rotante, una media mobile utilizza un numero specifico di punti dati (determinato dalla selezione dei &#39;Periodi&#39;), li calcola come media e utilizza la media come punto della linea. Gli esempi includono una media mobile di 7 giorni o una media mobile di 4 settimane. |
+| Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di periodi), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di 7 giorni o una media mobile di 4 settimane. |

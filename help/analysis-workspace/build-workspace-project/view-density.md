@@ -1,14 +1,14 @@
 ---
-description: Scoprite come regolare la densità di visualizzazione in  Analysis Workspace.
+description: Scopri come regolare la densità di visualizzazione in Analysis Workspace.
 title: Densità di visualizzazione
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+feature: CJA Workspace Basics
+exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 89%
 
 ---
-
 
 # Densità di visualizzazione
 

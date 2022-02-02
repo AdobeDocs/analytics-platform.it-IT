@@ -2,11 +2,12 @@
 description: Progetti di sola visualizzazione in Workspace
 keywords: Progetti solo visualizzazione
 title: Progetti solo visualizzazione
+feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Questo può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dati dell’organizzazione, Analysis Workspace o il Customer Journey Analytics in generale, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
 

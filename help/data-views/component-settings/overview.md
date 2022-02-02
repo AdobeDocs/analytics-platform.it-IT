@@ -1,18 +1,19 @@
 ---
 title: Impostazioni dei componenti
-description: Visualizzare le impostazioni di base di un componente.
+description: Visualizzare le impostazioni di base di un componente visualizzazione dati.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---
 
 # Impostazioni dei componenti
 
-Impostazioni di base utilizzate da un componente.
+Impostazioni di base utilizzate da un componente di visualizzazione dati.
 
 ![Impostazioni dei componenti](../assets/component-settings.png)
 

@@ -1,7 +1,9 @@
 ---
 description: Il Gestore della metrica calcolata offre diversi modi per curare le metriche, ad esempio condividere, filtrare, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferiti.
 title: Gestore metriche calcolate
-source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
+feature: Calculated Metrics
+exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 13%

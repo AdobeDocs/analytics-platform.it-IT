@@ -3,7 +3,8 @@ title: Nessuna impostazione del componente Opzioni valore
 description: Determina come gestire una dimensione se è vuota.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

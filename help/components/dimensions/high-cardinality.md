@@ -1,20 +1,21 @@
 ---
 title: Dimension con cardinalità molto elevata nel Customer Journey Analytics
 description: Descrive le best practice per gestire le dimensioni ad alta cardinalità nel Customer Journey Analytics
+feature: Dimensions
+solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-translation-type: tm+mt
-source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
+source-git-commit: 0e9d612e1c0f6d64cd6f1e045c1049a1f8202b72
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Dimension con cardinalità molto elevata
+# Dimensioni con cardinalità molto elevata
 
 Il Customer Journey Analytics (CJA) non pone limiti al numero di valori univoci o di elementi dimensionali che possono essere segnalati all’interno di una singola dimensione. Tuttavia, in alcune circostanze, le dimensioni con un numero estremamente elevato di elementi unici - noti anche come dimensioni ad alta cardinalità - possono influenzare ciò che può essere segnalato.
 
-## Limitazioni
+## Limitazioni 
 
 A seconda del numero di eventi in una specifica connessione CJA, in combinazione con dimensioni ad alta cardinalità possono verificarsi le due limitazioni seguenti:
 
@@ -30,7 +31,7 @@ Se utilizzate con dimensioni altamente cardinali, alcune funzioni della metrica 
 
 Inoltre, l’ordinamento di una colonna di tabella utilizzando una metrica calcolata può essere basato su una stima e non sempre riflette l’ordinamento esatto. Viene visualizzato un messaggio di avviso che segnala l’eventuale utilizzo di stime.
 
-Tieni presente che anche se le metriche calcolate possono a volte restituire stime, i totali delle colonne sono sempre precisi e non si basano mai su stime. Allo stesso modo, quando si utilizzano metriche standard, le stime non vengono mai utilizzate e riflettono sempre ordini di ordinamento esatti.
+Tieni presente che anche se le metriche calcolate possono a volte restituire stime, i totali delle colonne sono sempre precisi e non sono mai basati su stime. Allo stesso modo, quando si utilizzano metriche standard, le stime non vengono mai utilizzate e riflettono sempre ordini di ordinamento esatti.
 
 ### Dove vengono considerati tutti i valori di dimensione
 

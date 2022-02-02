@@ -2,21 +2,20 @@
 description: Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
 keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
-feature: Nozioni di base su Reports & Analytics
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
+feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 96%
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
 
-# Creazione di intervalli di date personalizzati
+# Creare intervalli di date personalizzati
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
 

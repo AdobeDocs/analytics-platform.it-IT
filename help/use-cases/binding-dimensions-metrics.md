@@ -2,7 +2,8 @@
 title: Utilizzo di dimensioni e metriche di binding in CJA
 description: Attribuisci dimensioni agli array di oggetti per analisi di persistenza complessa.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
-source-git-commit: 4381a01b072084701d065d7f41de539412c8d371
+feature: Use Cases
+source-git-commit: 38c10e395b816d812d30f0698dc821ee0ea5c9b1
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 1%

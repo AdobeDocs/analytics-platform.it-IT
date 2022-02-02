@@ -1,12 +1,12 @@
 ---
 description: Utilizza le visualizzazioni Numero di riepilogo e Variazione di riepilogo per visualizzare punti dati importanti in un progetto.
 title: Numero di riepilogo e Variazione di riepilogo
-uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
+feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 
 ## Visualizzazione Variazione di riepilogo {#summary-change}
 
-Utilizza la visualizzazione Variazione di riepilogo per visualizzare il delta (variazione) tra due numeri. Il colore verde e rosso della Variazione di riepilogo può essere controllato tramite [polarità degli eventi personalizzata](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) o con l’opzione [Mostra tendenza verso l’alto come...](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) di una metrica calcolata.
+Utilizza la visualizzazione Variazione di riepilogo per visualizzare il delta (variazione) tra due numeri. Il colore verde e rosso della Variazione di riepilogo può essere controllato tramite [polarità degli eventi personalizzata](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) o con l’opzione [Mostra tendenza verso l’alto come...](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) di una metrica calcolata.
 
 Questa visualizzazione si comporta come segue:
 

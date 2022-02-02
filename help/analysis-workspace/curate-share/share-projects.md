@@ -2,11 +2,12 @@
 description: Condivisione e ruoli dei progetti in Workspace
 keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
+feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 La condivisione rende un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’azienda. Qualsiasi [cura](curate.md) applichi viene visualizzata all’apertura del progetto da parte dei destinatari.
 
 ## Ruoli di progetto {#Roles}
 
-Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di progetto sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di progetto sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
 | Ruolo | Controllo progetto |
 |---|---|
@@ -33,7 +34,7 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di proget
 
 ### Nessun ruolo assegnato (destinatari del collegamento al progetto)
 
-Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
+Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=it) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
 
 ### Più ruoli assegnati
 
@@ -56,13 +57,13 @@ Una volta condivisi, tali componenti sono disponibili nel menu a discesa Compone
 1. Imposta questa pagina come pagina di destinazione per i destinatari (facoltativo).
 Questa impostazione non è persistente; è una singola azione da eseguire al momento della condivisione.
 1. Fai clic su Share.
-Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se un progetto è già stato condiviso, questi pulsanti indicano **[!UICONTROL Update]** e **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se un progetto è già stato condiviso, questi pulsanti indicano **[!UICONTROL Update]** e **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
 
 ![](assets/share-proj-modal.png)
 
 ## Condivisione con gruppi di destinatari {#Groups}
 
-Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. Al Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Tutti gli utenti possono condividere i progetti con gruppi, i quali sono una raccolta di destinatari. Al Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nella [Console di amministrazione Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Gli amministratori possono condividere con qualsiasi gruppo, incluso “All”.
 * I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “All”.

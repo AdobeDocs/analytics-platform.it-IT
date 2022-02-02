@@ -2,11 +2,12 @@
 description: Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
 keywords: abbandono e filtri;filtri nell’analisi dell’abbandono;confrontare filtri nell’abbandono
 title: Applicare i filtri nell’analisi dell’abbandono
+feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
 
@@ -52,7 +53,7 @@ Oppure puoi creare un punto di contatto AND trascinando il filtro degli utenti U
 
 Puoi confrontare un numero illimitato di filtri nella visualizzazione Abbandono.
 
-1. Seleziona i filtri da confrontare dalla barra [!UICONTROL Filter] a sinistra. Nel nostro esempio, abbiamo selezionato 2 filtri: Utenti USA e utenti non USA.
+1. Seleziona i filtri da confrontare tra i [!UICONTROL Filter] barra a sinistra. Nel nostro esempio, abbiamo selezionato 2 filtri: Utenti USA e utenti non USA.
 1. Trascinali nella zona di rilascio Filtro nella parte superiore.
 
    ![](assets/segment-drop.png)

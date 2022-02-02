@@ -1,11 +1,12 @@
 ---
 description: Scopri come specificare i punti di contatto per creare una sequenza di abbandono multidimensionale.
 title: Configurare una visualizzazione dell’abbandono
+feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +18,7 @@ Puoi anche aggiungere filtri all’interno di un punto di contatto. Ad esempio, 
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
 

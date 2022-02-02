@@ -1,7 +1,9 @@
 ---
 description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare Dimension, metriche, filtri e funzioni per creare metriche personalizzate basate sulla logica gerarchica dei contenitori, sulle regole e sugli operatori. Questo strumento di sviluppo integrato consente di generare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
 title: Creare metriche
-source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
+feature: Calculated Metrics
+exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 9%
@@ -48,4 +50,3 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
 | Elenco dei filtri | (Solo metriche calcolate avanzate) In qualità di Amministratore, questo elenco mostra tutti i filtri creati nella società di accesso. Se non sei un utente amministratore, questo elenco mostra i filtri che possiedi e quelli condivisi con te. |
 | Elenco delle funzioni | (Solo metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: Base (utilizzato più spesso) e Avanzate . |
 | Selettore della visualizzazione dati | Questo selettore (in alto a destra) consente di passare a una visualizzazione dati diversa. |
-

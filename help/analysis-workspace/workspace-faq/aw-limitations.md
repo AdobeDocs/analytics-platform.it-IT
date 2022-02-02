@@ -1,9 +1,9 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
+feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 75%
@@ -24,14 +24,14 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Visualizzazioni
 
-* Le visualizzazioni che sfruttano i filtri, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare metriche calcolate come input.
+* Visualizzazioni che sfruttano i filtri, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort]e [!UICONTROL Histogram], non può accettare metriche calcolate come input.
 * [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Componenti > Filtri
 
-* Alcune metriche e dimensioni non possono essere filtrate, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* I filtri ad hoc creati nella [zona di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) non verranno visualizzati nella barra a sinistra di Workspace o nel Gestore dei componenti del filtro, a meno che non siano resi pubblici. Per eseguire questa operazione, modifica il filtro e seleziona **[!UICONTROL Make this filter public]**.
+* Alcune metriche e dimensioni non possono essere filtrate, ad esempio [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
+* Filtri ad hoc creati nel [zona di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) non vengono visualizzati nella barra a sinistra di Workspace o nel Gestore componenti filtro, a meno che non siano resi pubblici. Per eseguire questa operazione, modifica il filtro e seleziona **[!UICONTROL Make this filter public]**.
 
 ## Componenti > Metriche calcolate
 

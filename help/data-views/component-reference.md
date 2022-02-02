@@ -3,7 +3,8 @@ title: Documentazione dei componenti standard
 description: Dettagli e informazioni su tutti i componenti standard che è possibile aggiungere a qualsiasi visualizzazione dati.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 12%

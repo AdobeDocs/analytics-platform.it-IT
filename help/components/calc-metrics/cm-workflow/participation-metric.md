@@ -1,7 +1,9 @@
 ---
 description: Con il generatore di metriche calcolate, chiunque può creare una metrica di partecipazione.
 title: Metrica di partecipazione
-source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
+feature: Calculated Metrics
+exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 5%

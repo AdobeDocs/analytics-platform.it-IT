@@ -3,7 +3,8 @@ title: Panoramica su Customer Journey Analytics
 description: Scopri come Customer Journey Analytics consente di utilizzare Analysis Workspace con i dati da Experience Platform.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
-source-git-commit: 3389515bd18903eda14af1670ff7d1ab080c9db2
+feature: CJA Basics
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 99%

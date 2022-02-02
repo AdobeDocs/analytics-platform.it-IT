@@ -2,11 +2,12 @@
 description: La cura ti permette di limitare i componenti prima di condividere un progetto.
 keywords: Cura di Analysis Workspace
 title: Curare progetti
+feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 41%
+ht-degree: 43%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 41%
 La cura ti consente di limitare i componenti (dimensioni, metriche, filtri, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, vedrà un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
 >[!NOTE]
-> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite l&#39; [Admin Console Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). La cura è un filtro secondario.
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Sono gestite tramite [Admin Console Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). La cura è un filtro secondario.
 
 ## Applicare la cura del progetto
 
@@ -44,7 +45,7 @@ Per rimuovere la cura del progetto e ripristinare l’intero set di componenti n
 
 ## Opzioni di cura dei componenti
 
-In un progetto curato, al destinatario verrà offerta l’opzione **[!UICONTROL Show All]** componenti nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
+In un progetto curato, al destinatario verrà offerta l’opzione **[!UICONTROL Show All]** nella barra a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
 
 * Livello di autorizzazione dell’utente (amministratore o non amministratore)
 * Ruolo di progetto (proprietario/editor o meno)

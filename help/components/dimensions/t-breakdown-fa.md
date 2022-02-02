@@ -2,8 +2,10 @@
 description: È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 keywords: Analysis Workspace
 title: Suddividere dimensioni
+feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
-source-git-commit: 0176f10ffed85786b0bfa77204ca7a19d9c39ba7
+solution: Customer Journey Analytics
+source-git-commit: 4bea8d7997d4084cfb87c1035689c0eea6b1f3b1
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 48%

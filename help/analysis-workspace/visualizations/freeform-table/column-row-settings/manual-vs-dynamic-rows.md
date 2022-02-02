@@ -1,11 +1,12 @@
 ---
 title: Elementi dimensionali dinamici e statici nelle tabelle a forma libera
-description: Interagire con elementi dimensionali dinamici e statici nelle tabelle.
+description: Interagire con elementi dimensionali dinamici e statici nelle tabelle
+feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
+>Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Le righe e le colonne nelle tabelle a forma libera possono contenere diversi valori dei componenti. Questi valori possono essere dinamici (ovvero cambiare con il tempo) o statici (non cambiare con il tempo), a seconda dell’analisi che desideri generare.
 
@@ -35,8 +36,8 @@ Gli elementi dimensionali statici non cambiano con il tempo, sono componenti fis
 
 Ogni volta che selezioni e rilascia manualmente valori di componenti specifici (dimensione, metrica, filtro, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne. Puoi inoltre creare elementi dimensionali statici se lo desideri:
 
-* Dalle righe, fai clic con il pulsante destro del mouse > [!UICONTROL Display only selected rows]
-* Dalle colonne, fai clic con il pulsante destro del mouse > [!UICONTROL Make item static]
+* Dalle righe, fai clic con il pulsante destro del mouse e scegli [!UICONTROL Display only selected rows]
+* Dalle colonne, fai clic con il pulsante destro del mouse e scegli [!UICONTROL Make item static]
 
 Ad esempio, quando trascini su specifici elementi della dimensione Tipo di browser, come Microsoft e Apple, questi due elementi specifici vengono sempre inseriti nella tabella.
 
@@ -55,4 +56,4 @@ Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe
 Le righe dinamiche e statiche si comportano in modo diverso nella riga del totale a forma libera. Per impostazione predefinita:
 
 * Le righe dinamiche vengono sommate lato server e deduplicano metriche quali visite o visitatori
-* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=it)

@@ -2,8 +2,9 @@
 description: Rappresenta visivamente i dati in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
+feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: fa0033202650f17acd275f1050565285c1464f53
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 92%
@@ -92,7 +93,7 @@ Sono disponibili ulteriori funzionalità per una visualizzazione facendo clic co
 | Ottieni collegamento visualizzazione | Consente di indirizzare un utente a una specifica visualizzazione in un progetto. Quando si fa clic sul collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato all’esatta visualizzazione collegata. |
 | Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
 
-## Icona “Crea elemento visivo”  {#quick-viz}
+## Icona “Crea elemento visivo” {#quick-viz}
 
 Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di filtro, verrà creato un diagramma di Venn.
 

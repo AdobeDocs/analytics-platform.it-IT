@@ -1,11 +1,12 @@
 ---
 title: L’analisi per coorte
 description: Scopri l’analisi per coorte in Analysis Workspace
+feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -23,9 +24,9 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 * Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
 * Visualizzare un’[!UICONTROL Cohort Analysis] all’interno di un rapporto di analisi guidata.
 
-[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti del Customer Journey Analytics con diritti di accesso a  [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti del Customer Journey Analytics con diritti di accesso a [!UICONTROL Analysis Workspace].
 
-[Video tutorial sull’analisi per coorte](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[Video tutorial sull’analisi per coorte](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=it) (4:36)
 
 >[!IMPORTANT]
 >
@@ -64,7 +65,7 @@ Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusion
 
 ### Coorte [!UICONTROL Custom Dimension]
 
-Puoi creare le coorti in base a una dimensione selezionata anziché in base al tempo, che è l’impostazione predefinita. Utilizza dimensioni quali [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region] o qualsiasi altra dimensione nel Customer Journey Analytics per mostrare in che modo la fidelizzazione cambia in base ai diversi valori di queste dimensioni.
+Puoi creare le coorti in base a una dimensione selezionata anziché in base al tempo, che è l’impostazione predefinita. Usa dimensioni quali [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region]o qualsiasi altra dimensione del Customer Journey Analytics per mostrare in che modo la fidelizzazione cambia in base ai diversi valori di queste dimensioni.
 
 ![](assets/cohort-customizable-cohort-row.png)
 

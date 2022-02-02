@@ -1,8 +1,9 @@
 ---
 description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità di Analysis Workspace
+feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 96%
@@ -11,7 +12,7 @@ ht-degree: 96%
 
 # Accessibilità di Analysis Workspace
 
-Scopri il supporto per l’accessibilità in [!UICONTROL Analysis Workspace], lo strumento di analisi principale per il Customer Journey Analytics.
+Informazioni sul supporto per l’accessibilità in [!UICONTROL Analysis Workspace], lo strumento di analisi principale per Customer Journey Analytics.
 
 Per accessibilità si intendono i prodotti utilizzabili da persone con disabilità visive, uditive, cognitive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono il supporto per assistenti vocali, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera, modifica dei colori dello schermo su alto contrasto e così via.
 
