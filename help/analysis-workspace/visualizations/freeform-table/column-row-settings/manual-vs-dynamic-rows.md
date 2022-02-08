@@ -6,7 +6,7 @@ exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,10 +34,10 @@ Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e **no
 
 Gli elementi dimensionali statici non cambiano con il tempo, sono componenti fissi che vengono sempre restituiti in una tabella a forma libera. Gli elementi dimensionali statici sono consigliati quando si desidera analizzare sempre gli stessi elementi, siano essi campagne o giorni della settimana specifici.
 
-Ogni volta che selezioni e rilascia manualmente valori di componenti specifici (dimensione, metrica, filtro, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne. Puoi inoltre creare elementi dimensionali statici se lo desideri:
+Ogni volta che selezioni e rilasci manualmente valori di componenti specifici (dimensione, metrica, filtro, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne. Puoi inoltre creare elementi dimensionali statici se lo desideri:
 
-* Dalle righe, fai clic con il pulsante destro del mouse e scegli [!UICONTROL Display only selected rows]
-* Dalle colonne, fai clic con il pulsante destro del mouse e scegli [!UICONTROL Make item static]
+* Dalle righe, fai clic con il pulsante destro del mouse > [!UICONTROL Display only selected rows]
+* Dalle colonne, fai clic con il pulsante destro del mouse > [!UICONTROL Make item static]
 
 Ad esempio, quando trascini su specifici elementi della dimensione Tipo di browser, come Microsoft e Apple, questi due elementi specifici vengono sempre inseriti nella tabella.
 

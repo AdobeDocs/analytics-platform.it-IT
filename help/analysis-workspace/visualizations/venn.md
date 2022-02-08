@@ -6,7 +6,7 @@ exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ La visualizzazione di Venn consente di trascinare fino a 3 filtri (da Componenti
 
 ![](assets/venn.png)
 
-Puoi quindi passare il cursore sui filtri per ottenere ulteriori informazioni sulle percentuali, ecc.
+Puoi passare il mouse sui filtri per avere più informazioni approfondite sulle percentuali, ecc.
 
 ![](assets/venn_hover.png)
 

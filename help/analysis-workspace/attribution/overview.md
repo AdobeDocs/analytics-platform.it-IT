@@ -1,12 +1,12 @@
 ---
-title: Panoramica su Attribution
+title: Panoramica di Attribution
 description: Il concetto di attribuire il credito di un evento di successo a più elementi dimensionali.
 Feature: Attribution
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni 
 
 ![Problema di Attribution IQ](assets/attribution_iq_problem.png)
 
-Il Customer Journey Analytics migliora l’attribuzione consentendo di:
+Customer Journey Analytics migliora l’attribuzione consentendo di:
 
 * Definire l’attribuzione oltre i mezzi di comunicazione comprati: è possibile applicare ai modelli qualsiasi dimensione, metrica, canale o evento (ad es. ricerca interna), non solo le campagne di marketing.
 * Utilizzare il confronto illimitato tra modelli di attribuzione: è possibile confrontare in modo dinamico tanti modelli quanti se ne desiderano.
 * Evitare le modifiche di implementazione: con l’elaborazione al momento della generazione del rapporto e le sessioni in base al contesto, è possibile integrare e applicare il contesto del percorso del cliente in fase di esecuzione.
 * Costruire la sessione che si adatta al meglio allo scenario di attribuzione.
-* Suddividere l’attribuzione per filtri: Confronta facilmente le prestazioni dei tuoi canali di marketing su qualsiasi filtro importante (ad esempio clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà o CLV).
+* Suddividere l’attribuzione in base ai filtri: è possibile confrontare facilmente le prestazioni dei canali di marketing in qualsiasi filtro importante (ad es. clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà rispetto a Customer Lifetime Value).
 * Ispezionare l’analisi incrociata e a più contatti dei canali: è possibile utilizzare diagrammi di Venn, istogrammi e risultati di attribuzione di tendenze.
 * Analizzare visivamente sequenze di marketing principali: è possibile esplorare in modo visivo i percorsi che hanno condotto alla conversione, con visualizzazioni di abbandono e di flusso a più nodi.
 * Costruire metriche calcolate: è possibile utilizzare un qualsiasi numero di metodi di allocazione di attribuzione.

@@ -7,7 +7,7 @@ exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '935'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Riconoscendo la necessità di non perdere potenziali clienti nel mese tre, impos
 
 Effettua nuovamente un’analisi per coorte qualche mese dopo. Per le coorti formate dopo il lancio della campagna, la conversione alle versioni a pagamento di Creative Cloud nel mese tre sono aumentate dal 4-5% al 13-14%, con conseguenti entrate per centinaia di migliaia di dollari per coorte, per ogni coorte mensile che raggiunge il mese tre da quel momento in avanti.
 
-## Caso d’uso dei filtri coorte complessi
+## Caso di utilizzo: filtri coorte complessi
 
-Una grande catena di alberghi indirizza delle promozioni a più gruppi di clienti e tiene traccia delle prestazioni. Per identificare le coorti di gruppi di utenti migliori a cui rivolgersi, verranno creati gruppi di coorti molto specifici. Utilizzo dell&#39;ottimizzato [!UICONTROL Inclusion] e [!UICONTROL Return] Criteri all&#39;interno di [!UICONTROL Cohort] Le tabelle consentono di definire con precisione i raggruppamenti per coorte con più metriche e filtri, al fine di identificare i gruppi di clienti con prestazioni meno soddisfacenti, e di inviare a tali gruppi promozioni e offerte per incrementarne le prenotazioni.
+Una grande catena di alberghi indirizza delle promozioni a più gruppi di clienti e tiene traccia delle prestazioni. Per identificare le coorti di gruppi di utenti migliori a cui rivolgersi, verranno creati gruppi di coorti molto specifici. Grazie ai criteri ottimizzati per [!UICONTROL Inclusion] and [!UICONTROL Return] nelle tabelle [!UICONTROL Cohort], è possibile definire con precisione i raggruppamenti per coorte con più metriche e filtri e individuare i gruppi di clienti con prestazioni meno soddisfacenti. Sarà quindi possibile inviare a tali gruppi promozioni e offerte per incrementarne le prenotazioni.
 
 ## Caso di utilizzo: adozione di una versione di un’app
 
@@ -63,8 +63,8 @@ Una multinazionale nel settore dei media usa campagne mirate per incentivare gli
 
 ## Caso di utilizzo: lancio di prodotto
 
-Un grande rivenditore di abbigliamento ha molti filtri specifici del cliente che guidano grandi porzioni di ricavi per la loro attività. Ogni filtro ha prodotti specifici progettati e creati tenendo presente il filtro. Con ogni lancio di nuovi prodotti, vuole sapere in che modo il nuovo prodotto incrementa le vendite per varie coorti nel tempo. Utilizzo del nuovo [!UICONTROL Latency Table] impostazione [!UICONTROL Cohort Analysis], sono in grado di analizzare il comportamento e il ricavo generato da un filtro cliente precedente e successivo al lancio. Utilizzando tali informazioni si possono individuare i prodotti che generano nuovi ricavi e quelli che invece non risultano convincenti.
+Un grande rivenditore di abbigliamento ha diversi filtri di clienti che contribuiscono a grandi porzioni del fatturato. Ogni filtro ha specifici prodotti progettati e creati appositamente per tale filtro. Con ogni lancio di nuovi prodotti, vuole sapere in che modo il nuovo prodotto incrementa le vendite per varie coorti nel tempo. Utilizzando la nuova impostazione [!UICONTROL Latency Table] in [!UICONTROL Cohort Analysis], può analizzare il comportamento e il ricavo generato da un particolare filtro di clienti nei periodi precedente e successivo al lancio. Utilizzando tali informazioni si possono individuare i prodotti che generano nuovi ricavi e quelli che invece non risultano convincenti.
 
 ## Utenti più fedeli – Caso d’utilizzo
 
-Una grande compagnia aerea deve il suo successo e il suo fatturato soprattutto ai clienti fedeli che ritornano nel tempo. In molti casi, i viaggiatori più fedeli rappresentano la maggior parte del fatturato e per il successo a lungo termine è quindi fondamentale assicurare di mantenere tali clienti nel tempo. Può essere difficile individuare i clienti più fedeli e coerenti. Tuttavia, utilizzando il nuovo [!UICONTROL Rolling Calculation] impostazione [!UICONTROL Cohort Analysis], sono stati in grado di analizzare i filtri dei clienti fedeli e scoprire quali viaggiatori erano acquirenti ripetuti mese su mese. La compagnia può quindi riservare a tali viaggiatori premi ed altri bonus come riconoscimento della loro fedeltà. Inoltre, cambiando il tipo di coorte da Retention (Fidelizzazione) a Churn (Abbandono), è stato anche possibile identificare i clienti che non hanno effettuato più acquisti, mese dopo mese, e indirizzare tali filtri con promozioni in modo da coinvolgerli nuovamente e garantire che rimangano clienti fedeli in futuro.
+Una grande compagnia aerea deve il suo successo e il suo fatturato soprattutto ai clienti fedeli che ritornano nel tempo. In molti casi, i viaggiatori più fedeli rappresentano la maggior parte del fatturato e per il successo a lungo termine è quindi fondamentale assicurare di mantenere tali clienti nel tempo. Può essere difficile individuare i clienti più fedeli e coerenti. Tuttavia, con la nuova impostazione [!UICONTROL Rolling Calculation] in [!UICONTROL Cohort Analysis], è possibile analizzare i filtri dei clienti fedeli e individuare i viaggiatori che hanno effettuato più acquisti, mese dopo mese. La compagnia può quindi riservare a tali viaggiatori premi ed altri bonus come riconoscimento della loro fedeltà. Inoltre, cambiando il tipo di coorte da Retention (Fidelizzazione) a Churn (Abbandono), può identificare i clienti che non hanno effettuato acquisti ripetuti e riservare a tali filtri specifiche promozioni volte a coinvolgerli nuovamente e incentivarne la fidelizzazione.

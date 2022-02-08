@@ -1,12 +1,12 @@
 ---
-description: La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti web e nelle tue app.
+description: La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
 title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.it-IT
+git-repo: https://github.com/AdobeDocs/analytics-platform.it-IT
 cloud: Experience Cloud
 product: adobe analytics
 sub-product: customer journey
@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 6585e3b3f5a48edcf4357f710630ebbd36175e7d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 92%
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
    + [Ricerche standard](connections/standard-lookups.md)
-   + Analisi cross-channel {#cca}
-      + [Panoramica di Analisi cross-channel](connections/cca/overview.md)
+   + Cross-Channel Analytics{#cca}
+      + [Panoramica di Cross-Channel Analytics](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
-      + [Domande frequenti su Analisi cross-channel](connections/cca/faq.md)
+      + [Domande frequenti su Cross-Channel Analytics](connections/cca/faq.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](data-views/data-views.md)
    + [Creare o modificare una visualizzazione di dati](data-views/create-dataview.md)
@@ -64,7 +64,7 @@ ht-degree: 92%
       + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Gestire le origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabella a forma libera {#freeform-table}
          + [Tabella a forma libera](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Impostazioni colonna e riga {#column-row-settings}
@@ -76,7 +76,7 @@ ht-degree: 92%
       + Tabella coorte {#cohort-table}
          + [Cos’è un’analisi per coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casi d’uso per l’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abbandono {#fallout}
          + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -141,7 +141,7 @@ ht-degree: 92%
    + [Hub Report Builder](report-builder/report-builder-hub.md)
    + [Selezionare un intervallo di date](report-builder/select-date-range.md)
    + [Utilizzare i filtri](report-builder/work-with-filters.md)
-   + [Dimension filtro](report-builder/filter-dimensions.md)
+   + [Dimensioni filtro](report-builder/filter-dimensions.md)
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)

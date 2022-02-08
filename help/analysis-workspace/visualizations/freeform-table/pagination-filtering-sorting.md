@@ -6,7 +6,7 @@ exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Per una panoramica dell’impaginazione, del filtraggio e dell’ordinamento del
 
 ## Opzioni di filtro avanzate {#section_36E92E31442B4EBCB052073590C1F025}
 
-Fai clic sull’icona del filtro, quindi **[!UICONTROL Show Advanced]** accanto a una dimensione in una tabella a forma libera è possibile filtrare utilizzando i seguenti criteri. Puoi applicare più regole di filtro.
+Facendo clic sull’icona di filtro e poi su **[!UICONTROL Show Advanced]**, accanto a una dimensione in una tabella a forma libera, puoi applicare dei filtri utilizzando i criteri seguenti. Puoi applicare più regole di filtro.
 
 * Contiene
 * Non contiene
@@ -38,11 +38,11 @@ Fai clic sull’icona del filtro, quindi **[!UICONTROL Show Advanced]** accanto 
 
 ![](assets/advanced-filter.png)
 
-## Ordinamento dei Dimension nelle tabelle a forma libera
+## Ordinamento dimensionale nelle tabelle a forma libera
 
 >[!NOTE]
 >
->L’ordinamento dei Dimension si applica solo alle tabelle a forma libera nel Customer Journey Analytics e non al tradizionale Adobe Analytics. L’ordinamento delle metriche può essere eseguito in entrambe le versioni di Analytics.
+>L’ordinamento dimensionale si applica solo alle tabelle a forma libera nel Customer Journey Analytics e non al tradizionale Adobe Analytics. L’ordinamento delle metriche può essere eseguito in entrambe le versioni di Analytics.
 
 1. In una tabella a forma libera di un progetto, fai clic sulla freccia accanto al nome della dimensione:
 

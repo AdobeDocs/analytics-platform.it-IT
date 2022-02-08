@@ -1,13 +1,13 @@
 ---
-description: Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
-keywords: abbandono e filtri;filtri nell’analisi dell’abbandono;confrontare filtri nell’abbandono
+description: In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri.
+keywords: fallout e filtri;filtri nell’analisi di fallout;confrontare filtri di fallout
 title: Applicare i filtri nell’analisi dell’abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -17,49 +17,49 @@ ht-degree: 17%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
+In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri.
 
 >[!IMPORTANT]
 >
->I filtri utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con un Abbandono in contesto visitatore, i filtri utilizzati come punti di controllo devono essere filtri basati su visite o hit. Con un Abbandono in contesto visita, i filtri utilizzati come punto di controllo devono essere filtri basati su hit. Se si usa una combinazione non valida, l’abbandono sarà 100%. È stato aggiunto un avviso alla visualizzazione Abbandono che verrà visualizzato quando aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori filtro non valide genereranno diagrammi di abbandono non validi, ad esempio:
+>I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto visitatore, i filtri utilizzati come punti di controllo devono essere basati su visite o hit. Con Fallout in contesto visita, i filtri utilizzati come punto di controllo devono essere basati su hit. Se usi una combinazione non valida, il fallout sarà 100%. Alla visualizzazione Fallout è stata aggiunta un’avvertenza che verrà attivata se aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori di filtri non valide generano diagrammi di fallout non validi, ad esempio:
 
-* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto visitatore
-* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visita
-* Utilizzo di un filtro basato su visite come punto di contatto all’interno di una visualizzazione Abbandono in un contesto Visita
+* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Fallout in contesto visitatore
+* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Fallout in un contesto visita
+* Utilizzo di un filtro basato su visita come punto di contatto all’interno di una visualizzazione Fallout in un contesto visita
 
 ## Creare un filtro da un punto di contatto {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Crea un filtro da un punto di contatto specifico di tuo interesse e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create filter from touchpoint]**.
+1. Creare un filtro da un punto di contatto che ti interessa particolarmente e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create filter from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
-   Viene aperto il Generatore di filtri, precompilato con il filtro sequenziale predefinito corrispondente al punto di contatto selezionato:
+   Viene aperto il Generatore di filtri, precompilato con il filtro sequenziale precostruito che corrisponde al punto di contatto selezionato:
 
    ![](assets/segment-builder.png)
 
 1. Assegna al filtro un titolo e una descrizione e salvalo.
 
-   Ora puoi utilizzare questo filtro in qualsiasi progetto desideri.
+   Ora puoi usare questo filtro in qualsiasi rapporto.
 
 ## Aggiungere un filtro come punto di contatto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Per vedere, ad esempio, come gli utenti USA tendono e influenzano l’abbandono, trascina il filtro per gli utenti USA nell’abbandono:
+Per vedere ad esempio come gli utenti USA influenzano le metriche di fallout, trascina il filtro degli utenti USA nella sezione Fallout:
 
 ![](assets/segment-touchpoint.png)
 
 Oppure puoi creare un punto di contatto AND trascinando il filtro degli utenti USA su un altro punto di controllo.
 
-## Confrontare i filtri nell’abbandono {#section_E0B761A69B1545908B52E05379277B56}
+## Confrontare i filtri in Fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-Puoi confrontare un numero illimitato di filtri nella visualizzazione Abbandono.
+Puoi confrontare un numero illimitato di filtri nella visualizzazione Fallout.
 
-1. Seleziona i filtri da confrontare tra i [!UICONTROL Filter] barra a sinistra. Nel nostro esempio, abbiamo selezionato 2 filtri: Utenti USA e utenti non USA.
-1. Trascinali nella zona di rilascio Filtro nella parte superiore.
+1. Seleziona i filtri che desideri confrontare dalla barra [!UICONTROL Filter] a sinistra. Nel nostro esempio, abbiamo selezionato 2 filtri: Utenti USA e Utenti non USA.
+1. Trascinali nella zona di rilascio Filtro, in alto.
 
    ![](assets/segment-drop.png)
 
-1. Facoltativo: puoi mantenere il contenitore predefinito “Tutte le visite”, o eliminarlo.
+1. Facoltativo: puoi mantenere il contenitore predefinito “Tutte le visite” o eliminarlo.
 
    ![](assets/seg-compare.png)
 
-1. Ora puoi confrontare l’abbandono tra i due filtri, ad esempio dove un filtro sta superando un altro, o altre informazioni.
+1. Ora puoi confrontare i dati di fallout tra i due filtri, ad esempio dove un filtro ha prestazioni migliori dell’altro o altri approfondimenti.

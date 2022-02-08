@@ -6,17 +6,17 @@ exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # Panoramica dei pannelli
 
-Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili quando desideri organizzare i progetti in base a periodi di tempo, visualizzazioni dati o casi di utilizzo dell’analisi.
+Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
 
 ## Tipi di pannello
 
-In Analysis Workspace sono disponibili i seguenti tipi di pannelli per [!UICONTROL Customer Journey Analytics]:
+In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTROL Customer Journey Analytics]:
 
 | Nome pannello | Descrizione |
 | --- | --- |
@@ -27,7 +27,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannelli per [!UICONTR
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] i pannelli sono luoghi ideali per iniziare l’analisi, mentre [!UICONTROL Attribution IQ] si presta ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
+I pannelli [!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] sono ideali per iniziare con le attività di analisi, mentre [!UICONTROL Attribution IQ] si presta ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
 Il pannello iniziale predefinito è [!UICONTROL Freeform], ma puoi impostare come predefinito il [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
 
@@ -43,34 +43,34 @@ Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avan
 
 ## Zona di rilascio {#dropzone}
 
-La zona di rilascio del pannello consente di applicare filtri e filtri a discesa a tutte le tabelle e visualizzazioni all’interno di un pannello. Puoi applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sull’icona della matita (Modifica); per rimuoverlo, fai clic con il pulsante destro del mouse.
+La zona di rilascio del pannello consente di applicare filtri e filtri a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sull’icona della matita (Modifica); per rimuoverlo, fai clic con il pulsante destro del mouse.
 
 ### Filtri
 
-Trascina i filtri dalla barra a sinistra nella zona di rilascio del pannello per iniziare a filtrare il pannello.
+Per iniziare a filtrare il pannello, trascina un filtro dalla barra a sinistra fino alla zona di rilascio del pannello.
 
 ![](assets/segment-filter.png)
 
 ### Filtri ad hoc
 
-I componenti non filtranti possono anche essere trascinati direttamente nella zona di rilascio per creare filtri ad hoc, risparmiando tempo e fatica nell’utilizzo del Generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Per modificare questa definizione, fai clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona di modifica a forma di matita e modificala nel Generatore di filtri.
+Puoi anche trascinare componenti diversi da filtri direttamente nella zona di rilascio, per creare filtri ad hoc in modo più rapido e senza dover passare al Generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona Modifica a forma di matita per accedere al Generatore di filtri.
 
-I filtri ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra se non li rendi pubblici.
+I filtri ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra, a meno che non li rendi pubblici.
 
 ![](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa {#dropdown-filter}
 
-Oltre ai filtri, i filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili in modo da filtrare il pannello in base a Tablet, Telefono cellulare o Desktop.
+Oltre ai filtri, i filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da filtrare il pannello per Tablet, Telefono cellulare o Desktop.
 
-I filtri a discesa possono essere utilizzati per consolidare più progetti in un progetto unico. Ad esempio, se disponi di più versioni dello stesso progetto con diversi filtri Paese applicati, puoi consolidare tutte le versioni in un unico progetto e aggiungere un filtro a discesa Paese .
+I filtri a discesa possono essere utilizzati per consolidare più progetti in un progetto unico. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un filtro Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un filtro a discesa Paese.
 
 ![](assets/dropdown-filter-intro.png)
 
 Per creare un filtro a discesa:
 
-1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori della dimensione [!UICONTROL Marketing Channel], fai clic sull’icona a forma di freccia verso destra accanto alla dimensione nella barra a sinistra. Verranno esposti tutti gli elementi disponibili. Seleziona uno o più elementi componenti nella barra a sinistra, **tieni premuto il tasto Maiusc** e trascinali nella zona di rilascio del pannello. Questo trasforma i componenti in un filtro a discesa, anziché in un singolo filtro.
-1. Per creare un filtro a discesa utilizzando un altro componente, come metriche, filtri o intervalli di date, seleziona un tipo di componente nella barra a sinistra e rilascia nella zona di rilascio del pannello **tenendo premuto il tasto Maiusc**.
+1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori della dimensione [!UICONTROL Marketing Channel], fai clic sull’icona a forma di freccia verso destra accanto alla dimensione nella barra a sinistra. Verranno esposti tutti gli elementi disponibili. Seleziona uno o più elementi componenti nella barra a sinistra, **tieni premuto il tasto Maiusc** e trascinali nella zona di rilascio del pannello. I componenti diventano un filtro a discesa, anziché un singolo filtro.
+1. Per creare un filtro a discesa utilizzando un altro componente, ad esempio metriche, filtri o intervalli di date, seleziona un tipo di componente nella barra a sinistra e rilascialo nella zona di rilascio del pannello mentre **tieni premuto il tasto Maiusc**.
 1. Per cambiare i dati visualizzati nel pannello, seleziona una delle opzioni dal menu a discesa. Puoi anche scegliere di non filtrare nessuno dei dati del pannello, selezionando **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
@@ -89,7 +89,7 @@ Sono disponibili le seguenti impostazioni:
 | --- | --- |
 | [!UICONTROL Insert Copied Panel/Visualization] | Consente di incollare (inserire) l’elemento copiato altrove nello stesso progetto o in un altro progetto. |
 | [!UICONTROL Copy Panel] | Consente di fare clic con il pulsante destro del mouse e copiare un pannello, in modo da poterlo inserire altrove nello stesso progetto o in un altro progetto. |
-| [!UICONTROL Duplicate Panel] | Crea una copia del pannello corrente, che potrai quindi modificare. |
+| [!UICONTROL Duplicate Panel] | Crea un duplicato esatto del pannello corrente, che potrai quindi modificare. |
 | [!UICONTROL Collapse/Expand all Panels] | Comprime ed espande tutti i pannelli del progetto. |
 | [!UICONTROL Collapse/Expand all Visualizations in Panel] | Comprime ed espande tutte le visualizzazioni nel pannello corrente. |
 | [!UICONTROL Edit Description] | Aggiungi (o modifica) un testo descrittivo per il pannello. |

@@ -1,17 +1,17 @@
 ---
 description: Panoramica dei progetti Workspace con barra dei menu e impostazioni
 keywords: Analysis Workspace
-title: Panoramica sui progetti
+title: Panoramica dei progetti
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1155'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Panoramica sui progetti
+# Panoramica dei progetti
 
 Utilizzando i progetti Workspace, puoi combinare componenti dati, tabelle e visualizzazioni per sviluppare delle analisi da condividere con altri nella tua organizzazione. Prima di iniziare il primo progetto, scopri come accedere, navigare e gestire i progetti.
 
@@ -46,11 +46,11 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 | Opzione di menu | Descrizione |
 |---|---|
-| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva, Salva con nome e Salva come modello. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi di seguito) offre diverse opzioni per la gestione del progetto. |
+| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva, Salva con nome e Salva come modello. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
 | Modificare | Annulla o ripristina l’ultima azione. Con Clear All (Cancella tutto) puoi ripristinare il progetto e tornare al progetto vuoto iniziale. |
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](/help/components/overview.md) | Crea dal progetto nuovi filtri, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, usa Refresh Components (Aggiorna componenti) per recuperare le definizioni più recenti. |
-| [Condividi](/help/analysis-workspace/curate-share/send-schedule-files.md) | Cura, condividi e pianifica progetti PDF/CSV per i destinatari della tua organizzazione. |
+| [Condividi](/help/analysis-workspace/curate-share/send-schedule-files.md) | Curare, condividere e pianificare progetti PDF/CSV per i destinatari all’interno della tua organizzazione. |
 | Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](/help/analysis-workspace/workspace-faq/optimizing-performance.md) del progetto. |
 | Pulsante Condividi o Proprietario | Se stai utilizzando il progetto in modalità Own (Proprietario) o Edit (Modifica), il pulsante Share (Condividi) in alto a destra consente di accedere con un solo clic ai destinatari del progetto e di gestirli. Se invece utilizzi il progetto con un ruolo Duplicate (Duplica) o View (Visualizza), viene visualizzato il nome del proprietario del progetto. |
 
@@ -79,7 +79,7 @@ Nel progetto Workspace, puoi accedere a [pannelli](/help/analysis-workspace/c-pa
 
 Puoi anche accedere a visualizzazioni e pannelli dal [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
 
-I componenti (Dimension, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla visualizzazione dati del pannello attivo. Il pannello attivo è circondato da un bordo blu e la visualizzazione dati attiva è elencata nella parte superiore della barra dei componenti.
+I componenti (dimensioni, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla vista di dati del pannello attivo. Il pannello attivo è evidenziato da un bordo blu e la vista dati attiva è elencata nella parte superiore della barra dei componenti.
 
 ![](assets/left-rail.png)
 
@@ -87,7 +87,7 @@ I componenti (Dimension, metriche, filtri, intervalli di date) nella barra a sin
 
 Nell’area di lavoro del progetto puoi raccogliere i pannelli, le tabelle, le visualizzazioni e i componenti con cui intendi generare le analisi. Un progetto può contenere diversi pannelli, e ciascun pannello può contenere più tabelle e visualizzazioni.
 
-I pannelli sono utili quando desideri organizzare i progetti in base a periodi di tempo, visualizzazioni dati o casi di utilizzo dell’analisi. Il pannello attivo è evindenziato da un bordo blu e determina quali componenti sono disponibili nella barra a sinistra.
+I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi. Il pannello attivo è evindenziato da un bordo blu e determina quali componenti sono disponibili nella barra a sinistra.
 
 A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Scopri di più](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) sulle diverse opzioni per la creazione di una tabella. Per maggiori informazioni su come creare il primo progetto, segui questo [tutorial](/help/analysis-workspace/home.md).
 

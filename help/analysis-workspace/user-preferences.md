@@ -7,7 +7,7 @@ solution: Customer Journey Analytics
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creat
 
 ## [!UICONTROL Dark theme]
 
-Se preferisci uno sfondo scuro per l’interfaccia utente del Customer Journey Analytics, puoi passare a [!UICONTROL Dark theme].
+Se preferisci uno sfondo scuro per l’interfaccia utente di Customer Journey Analytics, puoi passare a [!UICONTROL Dark theme].
 
 1. Fai clic sull’icona utente Experience Cloud in alto a destra.
 
    ![tema scuro](assets/dark-theme.png)
 
-1. Sposta la **[!UICONTROL Dark theme]** passa a destra.
+1. Sposta **[!UICONTROL Dark theme]** verso destra.
 

@@ -6,7 +6,7 @@ exl-id: 85de8ee7-b79f-4ac4-9601-a4e7f6fb3b2a
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 | --- | --- |
 | Attivazione del nodo | Rende attivo il nodo selezionato. Il nodo attivo è visualizzato al centro del diagramma di flusso. |
 | Ricomincia | Si torna al generatore di diagrammi a forma libera dove è possibile generare un nuovo diagramma di flusso. |
-| Crea filtro da questo punto nel flusso | Creare un filtro. Viene aperto il Generatore di filtri, in cui è possibile configurare il nuovo filtro. |
+| Creare filtro da questo punto nel flusso | Crea un filtro. Viene aperto il Generatore di filtri, dove è possibile configurare il nuovo filtro. |
 | Suddividi | Suddivide il nodo per dimensioni, metriche o ora. |
 | Tendenza | Crea un diagramma di tendenza per il nodo. |
 | Espandi tutta la colonna | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |

@@ -1,12 +1,12 @@
 ---
-description: La visualizzazione Area è simile a un grafico a linee, ma presenta un’area colorata al di sotto della linea.
+description: La visualizzazione Area è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata.
 title: Superfici e superfici sovrapposte
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 

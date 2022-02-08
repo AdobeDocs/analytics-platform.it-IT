@@ -6,13 +6,13 @@ exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Accessibilità di Analysis Workspace
 
-Informazioni sul supporto per l’accessibilità in [!UICONTROL Analysis Workspace], lo strumento di analisi principale per Customer Journey Analytics.
+Scopri il supporto per l’accessibilità in [!UICONTROL Analysis Workspace], lo strumento di analisi principale per Customer Journey Analytics.
 
 Per accessibilità si intendono i prodotti utilizzabili da persone con disabilità visive, uditive, cognitive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono il supporto per assistenti vocali, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera, modifica dei colori dello schermo su alto contrasto e così via.
 
@@ -55,9 +55,9 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | Tasti di scelta rapida | Azione |
 |---|---|
 | Alt + Maiusc + 1 / 2 / 3 | Passa a barre diverse: [!UICONTROL Panels], [!UICONTROL Visualizations] oppure [!UICONTROL Components] |
-| Alt+freccia sinistra/destra | Naviga tra i pannelli |
+| Alt + freccia sinistra/destra | Naviga tra i pannelli |
 | Alt + M | Comprimi/espandi tutti i pannelli |
-| Alt+Ctrl+M | Comprimi/espandi pannello attivo |
+| Alt + Ctrl + M | Comprimi/espandi pannello attivo |
 | Ctrl + / | Barra sinistra di ricerca |
 
 #### Creazione di analisi
@@ -69,7 +69,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | Ctrl + Maiusc + D | Nuovo intervallo date |
 | Ctrl + Maiusc + E | Nuovo filtro |
 | Ctrl + Z | Annulla |
-| Maiusc (nella zona di rilascio del filtro del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) |
+| Pressione prolungata di Maiusc (nella zona di rilascio del filtro del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) |
 
 #### Democratizzazione
 

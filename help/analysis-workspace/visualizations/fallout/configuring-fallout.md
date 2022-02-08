@@ -6,7 +6,7 @@ exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi (quali unità) nonché visitatori univoci e visite ripetute. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
-Puoi anche aggiungere filtri all’interno di un punto di contatto. Ad esempio, puoi confrontare filtri come utenti iOS e Android. Trascina i filtri desiderati nella parte superiore dell’abbandono e le informazioni su tali filtri vengono aggiunte al rapporto di abbandono. Se desideri mostrare solo questi filtri, puoi rimuovere la linea di base Tutte le visite .
+Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio, puoi confrontare filtri quali utenti iOS e utenti Android. Trascina i filtri desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali filtri. Per mostrare solo tali filtri, puoi rimuovere la linea di base Tutte le visite.
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
@@ -38,7 +38,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 
    >[!NOTE]
    >
-   >Più filtri sono collegati con AND, ma più elementi, come elementi dimensione e metriche, sono collegati con OR.
+   >Per unire più filtri si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione e metriche, si usa l’operatore OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -74,4 +74,4 @@ Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, ve
 | Tendenza tutti i punti di contatto (%) | Visualizzare nello stesso grafico la tendenza di tutte le percentuali dei punti di contatto nell’abbandono (tranne Tutte le visite, se incluso). |
 | Analizza il proseguimento in questo punto di contatto | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
 | Analizza l’abbandono in questo punto di contatto | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
-| Creare un filtro dal punto di contatto | Crea un nuovo filtro dal punto di contatto selezionato. |
+| Creare filtro da punto di contatto | Crea un nuovo filtro dal punto di contatto selezionato. |

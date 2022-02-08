@@ -23,42 +23,42 @@ Nota: `CTRL` = Windows e `command` = Mac
 |---|---|
 | Crea nuovo progetto | Ctrl/Comando + Maiusc + P |
 | Apri progetto esistente | Ctrl/Comando + O |
-| Vai al riquadro Panels (Pannelli) | Alt+Maiusc+1 |
-| Vai al riquadro Visualizations (Visualizzazioni) | Alt+Maiusc+2 |
-| Vai al riquadro Components (Componenti) | Alt+Maiusc+3 |
-| Comprimi/espandi tutti i pannelli | Alt+M |
-| Comprimi/espandi pannello attivo | Alt+Ctrl+M |
-| Passa al pannello successivo | Alt+Freccia destra |
-| Passa al pannello precedente | Alt+Freccia sinistra |
+| Vai al riquadro Panels (Pannelli) | Alt + Maiusc + 1 |
+| Vai al riquadro Visualizations (Visualizzazioni) | Alt + Maiusc + 2 |
+| Vai al riquadro Components (Componenti) | Alt + Maiusc + 3 |
+| Comprimi/espandi tutti i pannelli | Alt + M |
+| Comprimi/espandi pannello attivo | Alt + Ctrl + M |
+| Passa al pannello successivo | Alt + Freccia destra |
+| Passa al pannello precedente | Alt + Freccia sinistra |
 
 ## Azioni di analisi
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Barra sinistra di ricerca | Ctrl+/ |
+| Barra sinistra di ricerca | Ctrl + / |
 | Creazione di un avviso | Ctrl/Comando + Maiusc + A |
-| Crea dato calcolato | Ctrl/Comando + Maiusc + C |
-| Crea un intervallo di date | Ctrl/Comando + Maiusc + D |
+| Creare una metrica calcolata | Ctrl/Comando + Maiusc + C |
+| Creare un intervallo di date | Ctrl/Comando + Maiusc + D |
 | Creare un filtro | Ctrl/Comando + Maiusc + E |
-| Cancella tutto | Alt+W |
+| Cancella tutto | Alt + W |
 | Copia | Ctrl/Comando + C |
 | Ripristina | Ctrl/Comando + Maiusc + Z |
 | Annulla | Ctrl/Comando + Z |
-| Aggiorna componenti | Alt+Maiusc+R |
-| Aggiorna progetto | Alt+R |
+| Aggiorna componenti | Alt + Maiusc + R |
+| Aggiorna progetto | Alt + R |
 | Imposta come pagina di destinazione | Ctrl/Comando + Maiusc + L |
 
 ## Aggiungi pannelli e azioni di visualizzazione
 
 | Azione | Tasti di scelta rapida |
 |---|---|
-| Nuovo pannello Attribuzione | Alt+E |
-| Nuovo pannello vuoto | Alt+B |
-| Nuovo pannello a forma libera | Alt+A |
-| Nuovo pannello Quick Insights | Alt+F |
-| Nuova tabella a forma libera | Alt+1 |
-| Nuovo grafico a linee | Alt+2 |
-| Nuovo grafico a barre | Alt+3 |
+| Nuovo pannello Attribuzione | Alt + E |
+| Nuovo pannello vuoto | Alt + B |
+| Nuovo pannello a forma libera | Alt + A |
+| Nuovo pannello Quick Insights | Alt + F |
+| Nuova tabella a forma libera | Alt + 1 |
+| Nuovo grafico a linee | Alt + 2 |
+| Nuovo grafico a barre | Alt + 3 |
 
 ## Azioni di democratizzazione
 
@@ -66,11 +66,11 @@ Nota: `CTRL` = Windows e `command` = Mac
 |---|---|
 | Salva progetto | Ctrl/Comando + S |
 | Salva progetto come | Ctrl/Comando + Maiusc + S |
-| Salva come modello | Alt+T |
+| Salva come modello | Alt + T |
 | Scarica come CSV | Ctrl/Comando + Maiusc + V |
 | Scarica come PDF | Ctrl/Comando + Maiusc + B |
 | Cura dati progetto | Ctrl/Comando + Maiusc + G |
 | Condividi progetto | Ctrl/Comando + G |
-| Ottieni collegamento progetto | Alt+L |
-| Invia subito file | Alt+S |
-| Invia file secondo programma | Maiusc+Alt+S |
+| Ottieni collegamento progetto | Alt + L |
+| Invia subito file | Alt + S |
+| Invia file secondo programma | Maiusc + Alt + S |

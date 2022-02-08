@@ -7,7 +7,7 @@ feature: FAQ
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 | Come posso inserire i dati di [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]? | I dati di [!UICONTROL Adobe Analytics] possono essere collegati a Experience Platform tramite [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). La maggior parte dei campi [!UICONTROL Adobe Analytics] vengono trasferiti in formato XDM, ma alcuni campi non sono ancora disponibili. |
 | Quanto tempo è necessario per assemblare gli elementi dei set di dati in una visualizzazione dati? | Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dati. |
 | È necessario inserire dati PII per stabilire connessioni tra i dati? | No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII. |
-| Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento CJA? | <ul><li>Per quanto riguarda le date/marche temporali passate: Dati evento fino a 10 anni.</li><li>Per quanto riguarda le date/marche temporali future: Dati evento (predittivi) fino a un mese nel futuro.</li></ul> |
+| Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento CJA? | <ul><li>Per quanto riguarda le date/marche temporali passate: dati evento fino a 10 anni.</li><li>Per quanto riguarda le date/marche temporali future: dati evento (predittivi) fino a un mese nel futuro.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -57,7 +57,7 @@ ht-degree: 92%
 
 | Domanda | Risposta |
 | --- | --- |
-| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: Elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP.</li><li>Dimensione batch > 50 milioni di righe: più di 90 minuti.</li><li>Piccoli backfill - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 24 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
+| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP.</li><li>Dimensione batch > 50 milioni di righe: più di 90 minuti.</li><li>Piccoli backfill - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 24 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
 
 
 ## 5. Componenti tradizionali di [!UICONTROL Adobe Analytics]

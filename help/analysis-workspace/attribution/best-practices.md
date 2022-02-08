@@ -6,7 +6,7 @@ exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Supponiamo che l’ipotesi sia “il primo canale di contatto ha un impatto magg
 
 **Esempio 2**
 
-L’ipotesi potrebbe essere: “nel nostro settore (ad es., viaggi), la finestra di attribuzione è 60 o 90 giorni, non 30 giorni, perché i clienti fanno molta ricerca prima di acquistare un prodotto”. Potresti quindi cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows) impostandolo su 90 giorni.
+L’ipotesi potrebbe essere: “nel nostro settore (ad es., viaggi), la finestra di attribuzione è 60 o 90 giorni, non 30 giorni, perché i clienti fanno molta ricerca prima di acquistare un prodotto”. Potresti quindi cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=it#lookback-windows) impostandolo su 90 giorni.
 
 ## Passaggio 3: utilizzare l’attribuzione algoritmica
 

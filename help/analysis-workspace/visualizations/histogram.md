@@ -6,7 +6,7 @@ exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -60,8 +60,8 @@ Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic s
 
 ![](assets/manage-data-source.png)
 
-I filtri predefiniti visualizzati nella tabella sono filtri interni e non vengono visualizzati nel selettore dei filtri. Fai clic sul pulsante &quot;i&quot; accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere pubblico il filtro.
+I filtri pregenerati che compaiono nella tabella sono filtri interni e non saranno visualizzati nel selettore dei filtri. Fai clic sul pulsante “i” accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere il filtro pubblico.
 
 ![](assets/prebuilt_segments.png)
 
-Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per suddividere i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
+Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per raggruppare i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).

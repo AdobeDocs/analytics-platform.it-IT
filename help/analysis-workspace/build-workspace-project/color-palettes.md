@@ -1,16 +1,16 @@
 ---
 description: Come modificare la palette di colori di visualizzazione o specificare una propria palette di colori personalizzata.
-title: Tavolozza dei colori di visualizzazione
+title: Visualizzazione palette di colori
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
-# Tavolozza dei colori di visualizzazione
+# Visualizzazione palette di colori
 
 >[!NOTE]
 >

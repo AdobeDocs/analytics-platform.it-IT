@@ -6,7 +6,7 @@ exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 88%
 >
 >Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
-**Qual è l’elemento di riga “None” quando si utilizza l’attribuzione?**
+**Qual è l’elemento di riga “Nessuno” quando si utilizza l’attribuzione?**
 
 “None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Prova a includere un intervallo di tempo più lungo nel periodo definito per la generazione del rapporto.
 
 **Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?**
 
-Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
+Queste date aggiuntive sono dovute all’intervallo di lookback inerente al rapporto sui visitatori. Per ulteriori informazioni, vedi [Dati visualizzati all’esterno del periodo definito per la generazione del rapporto](https://helpx.adobe.com/it/analytics/kb/data-appearing-outside-reporting-window.html) nel portale di aiuto di Analytics KB. Adobe prevede di escludere queste righe aggiuntive in una delle prossime versioni.
 
 **Quando dovrei usare un lookback di attribuzione basato su visita o visitatore?**
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore. La creazione di una visualizzazione dati con una definizione di visita più lunga è anche una soluzione potenziale.
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore. La creazione di una vista di dati con una definizione di visita più lunga rappresenta una soluzione potenziale.
 
 **Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?**
 
