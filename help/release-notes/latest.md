@@ -3,20 +3,28 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b32822f8513e2c4fb2fbabc0315314a56aa903dd
+source-git-commit: 70d16bd241531b84cc7314a7d11439381e90b566
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 29%
+source-wordcount: '143'
+ht-degree: 7%
 
 ---
 
-# Note sulla versione del Customer Journey Analytics corrente
+# Note sulla versione del Customer Journey Analytics corrente (febbraio 2022)
+
+>[!IMPORTANT]
+>
+>Queste note sulla versione contengono informazioni precedenti al rilascio soggette a modifiche.
+
+**Ultimo aggiornamento**: 10 febbraio 2022
 
 ## Funzioni chiave
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Nessuna nuova funzionalità questo mese | N/D | N/D |
+| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. | 16 febbraio 2022 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Correzioni
 
