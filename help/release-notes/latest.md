@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 70d16bd241531b84cc7314a7d11439381e90b566
+source-git-commit: 3c2fb955531e09146a6620481243653014a7bd9c
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 7%
+source-wordcount: '155'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. | 16 febbraio 2022 |
+| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#preview) | 16 febbraio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
