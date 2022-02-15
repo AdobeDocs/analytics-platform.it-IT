@@ -4,9 +4,9 @@ description: Passaggi per migrare da Adobe Analytics al Customer Journey Analyti
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
+source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1222'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Nei set di dati come Adobe Analytics, è possibile che un’identità non esista
 
 ### 2. Allineare le variabili
 
-La migrazione più semplice dei dati di Adobe Analytics nel Customer Journey Analytics è quella di acquisire una suite di rapporti globale in Experience Platform utilizzando [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Questo connettore mappa le variabili Adobe Analytics direttamente su uno schema e un set di dati XDM in AEP, che a sua volta può essere facilmente connesso a CJA.
+La migrazione più semplice dei dati di Adobe Analytics al Customer Journey Analytics è quella di acquisire un [suite di rapporti globale](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) in Experience Platform utilizzando [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en). Questo connettore mappa le variabili Adobe Analytics direttamente su uno schema e un set di dati XDM in AEP, che a sua volta può essere facilmente connesso a CJA.
 
 Una suite di rapporti globale completa potrebbe non essere sempre possibile per un’implementazione. Se prevedi di mettere in Customer Journey Analytics più suite di rapporti, devi pianificare in anticipo per allineare le variabili in tali suite di rapporti.
 
@@ -77,7 +77,7 @@ Le seguenti funzioni o componenti di Adobe Analytics non sono supportati:
 
 ### Acquisisci dimestichezza con l&#39;elaborazione dei tempi di report
 
-Il reporting in Adobe Analytics si basa su una quantità significativa di dati pre-elaborazione per generare risultati come la persistenza visibile in [!UICONTROL eVars]. Il Customer Journey Analytics esegue questi calcoli in fase di esecuzione dei rapporti.
+Il reporting in Adobe Analytics si basa su una quantità significativa di dati pre-elaborazione per generare risultati come la persistenza visibile in [!UICONTROL eVars]. Al contrario, il Customer Journey Analytics esegue tali calcoli in fase di esecuzione dei rapporti.
 
 [!UICONTROL Report time processing] apre la possibilità di applicare impostazioni retroattive e creare più versioni di persistenza variabile senza dover modificare la modalità di raccolta dei dati sottostanti.
 
@@ -100,6 +100,14 @@ Ecco un paio di video per guidarti:
 * [Spostare i segmenti Adobe Analytics nel Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [Spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+### Altre considerazioni
+
+* Grazie alla potenza delle visualizzazioni dati CJA, puoi offrire molta più flessibilità nella definizione delle metriche e delle dimensioni all’interno del Customer Journey Analytics. Ad esempio, puoi utilizzare il valore di una dimensione per diventare la definizione di una metrica. [Ulteriori informazioni](/help/data-views/data-views-usecases.md)
+
+* Se hai definito un calendario personalizzato in Adobe Analytics, avrai funzionalità di calendario simili in CJA. È necessario assicurarsi che il calendario sia definito correttamente.
+
+* Al Customer Journey Analytics, puoi definire un timeout personalizzato di visita/sessione e una metrica che avvierà una nuova sessione. Puoi creare visualizzazioni dati con diverse definizioni di sessione per ottenere informazioni oltre a quanto era possibile in Adobe Analytics. Questa funzionalità può risultare particolarmente utile per i set di dati mobili.
 
 ## Passaggi successivi
 
