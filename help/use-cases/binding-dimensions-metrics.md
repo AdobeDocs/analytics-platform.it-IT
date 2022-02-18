@@ -3,9 +3,9 @@ title: Utilizzo di dimensioni e metriche di binding in CJA
 description: Attribuisci dimensioni agli array di oggetti per analisi di persistenza complessa.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 38c10e395b816d812d30f0698dc821ee0ea5c9b1
+source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Se desideri esaminare i ricavi per colore senza una dimensione di binding, la di
 
 ![Dimensione di binding](assets/binding-dimension.png)
 
-Quando imposti questo modello di persistenza, Adobe prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questo visitatore, viene portato anche il colore del prodotto. Gli stessi dati quando si associa il colore del prodotto al nome del prodotto saranno simili ai seguenti:
+Quando imposti questo modello di persistenza, CJA prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questo visitatore, viene portato anche il colore del prodotto. Gli stessi dati quando si associa il colore del prodotto al nome del prodotto saranno simili ai seguenti:
 
 | product.color | ricavi |
 | --- | --- |
@@ -94,7 +94,7 @@ Quando imposti questo modello di persistenza, Adobe prende nota del nome del pro
 
 Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello di associare un termine di ricerca a un prodotto in modo che ogni termine di ricerca riceva credito per il prodotto appropriato. Considera il seguente percorso di clienti:
 
-1. Un visitatore arriva al tuo sito e cerca &quot;guanti da boxe&quot;.
+1. Un visitatore arriva al tuo sito e cerca &quot;guanti da boxe&quot;. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -105,24 +105,18 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Beginner gloves",
-               "color": "Red",
-               "price": "25.69"
            },
            {
                "name": "Tier 3 gloves",
-               "color": "Black",
-               "price": "89.99"
            },
            {
                "name": "Professional gloves",
-               "color": "Blue",
-               "price": "224.99"
            }
        ]
    }
    ```
 
-1. Trovano un paio di guanti che gli piacciono, e lo aggiungono al carrello.
+2. Trovano un paio di guanti che gli piacciono, e lo aggiungono al carrello.
 
    ```json
    {
@@ -132,14 +126,12 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Tier 3 gloves",
-               "color": "Black",
-               "price": "89.99"
            }
        ]
    }
    ```
 
-1. Il visitatore cerca poi &quot;racchetta da tennis&quot;.
+3. Il visitatore cerca poi &quot;racchetta da tennis&quot;. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -150,21 +142,18 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Shock absorb racket",
-               "price": "34.99"
            },
            {
                "name": "Women's open racket",
-               "price": "49.99"
            },
            {
                "name": "Extreme racket",
-               "price": "134.99"
            }
        ]
    }
    ```
 
-1. Trovano una racchetta che gli piace, e la aggiungono al carrello.
+4. Trovano una racchetta che gli piace, e la aggiungono al carrello.
 
    ```json
    {
@@ -174,18 +163,15 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Tier 3 gloves",
-               "color": "Black",
-               "price": "89.99"
            },
            {
                "name": "Shock absorb racket",
-               "price": "34.99"
            }
        ]
    }
    ```
 
-1. Il visitatore cerca una terza volta &quot;scarpe&quot;.
+5. Il visitatore cerca una terza volta &quot;scarpe&quot;. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -196,24 +182,18 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Men's walking shoes",
-               "color": "Grey",
-               "price": "54.95"
            },
            {
                "name": "Tennis shoes",
-               "color": "White",
-               "price": "42.59"
            },
            {
                "name": "Skate shoes",
-               "color": "Black",
-               "price": "79.99"
            }
        ]
    }
    ```
 
-1. Trovano un paio di scarpe che gli piacciono e le aggiungono al carrello.
+6. Trovano un paio di scarpe che gli piacciono e le aggiungono al carrello.
 
    ```json
    {
@@ -223,23 +203,18 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Tier 3 gloves",
-               "color": "Black",
-               "price": "89.99"
            },
            {
                "name": "Shock absorb racket",
-               "price": "34.99"
            },
            {
                "name": "Skate shoes",
-               "color": "Black",
-               "price": "79.99"
            }
        ]
    }
    ```
 
-1. Il visitatore passa attraverso il processo di pagamento e acquista questi tre elementi.
+7. Il visitatore passa attraverso il processo di pagamento e acquista questi tre elementi.
 
    ```json
    {
@@ -249,7 +224,6 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
        "product": [
            {
                "name": "Tier 3 gloves",
-               "color": "Black",
                "price": "89.99"
            },
            {
@@ -258,20 +232,19 @@ Uno dei metodi più comuni di merchandising in Adobe Analytics è stato quello d
            },
            {
                "name": "Skate shoes",
-               "color": "Black",
                "price": "79.99"
            }
        ]
    }
    ```
 
-Se utilizzi un modello di allocazione tradizionale con termine di ricerca, tutti e tre i prodotti attribuiscono i ricavi a un solo termine di ricerca. Ad esempio, se hai utilizzato la prima allocazione con la dimensione del termine di ricerca:
+Se si utilizza un modello di allocazione che non include una dimensione di binding con un termine di ricerca, tutti e tre i prodotti attribuiscono i ricavi a un solo termine di ricerca. Ad esempio, se hai utilizzato Allocazione originale con la dimensione del termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
 | guanti da pugilato | $ 204,97 |
 
-Se hai utilizzato l’ultima allocazione con la dimensione del termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
+Se hai utilizzato l’allocazione più recente con la dimensione del termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
@@ -279,18 +252,20 @@ Se hai utilizzato l’ultima allocazione con la dimensione del termine di ricerc
 
 Anche se questo esempio include un solo visitatore, molti visitatori che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-Con una dimensione di binding, Adobe prende nota dell’elemento dimensionale a cui è associato. Quando lo stesso valore di binding viene visualizzato in un evento successivo, questo porta sopra l’elemento dimensione in modo da poter attribuire la metrica desiderata. In questo esempio, possiamo impostare la dimensione di binding per search_term su nome del prodotto. Quando si imposta questa dimensione in Gestione visualizzazione dati, è necessario impostare anche una metrica di binding perché la dimensione di binding si trova in una matrice di oggetti. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding. In questa implementazione di esempio, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca. È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente.
+CJA rileva automaticamente la relazione tra la dimensione selezionata e la dimensione di binding. Se la dimensione di binding si trova in una matrice di oggetti mentre la dimensione selezionata si trova a un livello superiore, è necessaria una metrica di binding. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding.
+
+In questa implementazione di esempio, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca. È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente.
 
 ![Metrica di binding](assets/binding-metric.png)
 
 L’impostazione della dimensione del termine di ricerca su questo modello di persistenza esegue la logica seguente:
 
-* Quando search_term si trova in un evento, controlla la presenza del nome del prodotto.
+* Quando la dimensione del termine di ricerca è impostata, controlla la presenza del nome del prodotto.
 * Se il nome del prodotto non è presente, non eseguire alcuna operazione.
 * Se il nome del prodotto è presente, controlla la presenza della metrica Ricerche.
 * Se la metrica Ricerche non è presente, non eseguire alcuna operazione.
-* Se la metrica Ricerche è presente, associa il termine di ricerca a tutti i nomi di prodotto. Funziona come se fosse allo stesso livello del nome del prodotto per quell’evento. In questo esempio viene trattato come product.search_term.
-* Se lo stesso nome di prodotto viene visualizzato in un evento successivo, esiste anche il termine di ricerca associato.
+* Se la metrica Ricerche è presente, associa il termine di ricerca a tutti i nomi di prodotto in tale evento. Si copia fino allo stesso livello del nome del prodotto per quell&#39;evento. In questo esempio viene trattato come product.search_term.
+* Se lo stesso nome di prodotto viene visualizzato in un evento successivo, anche il termine di ricerca associato viene riportato a tale evento.
 
 In Analysis Workspace, il rapporto risultante sarà simile al seguente:
 
@@ -299,3 +274,137 @@ In Analysis Workspace, il rapporto risultante sarà simile al seguente:
 | guanti da pugilato | $ 89,99 |
 | racchetta da tennis | $ 34,99 |
 | scarpe | $ 79,99 |
+
+## Esempio 3: Associare il termine di ricerca video al profilo utente
+
+Puoi eseguire un binding di un termine di ricerca con un profilo utente in modo che la persistenza tra i profili rimanga completamente separata. Ad esempio, la tua organizzazione esegue un servizio di streaming in cui un account può avere più profili. Il visitatore ha un account figlio e un account adulto.
+
+1. L&#39;account accede sotto l&#39;account bambino e cerca un programma televisivo per bambini. Tieni presente che `"AccountID"` è `2` per rappresentare il profilo figlio.
+
+   ```json
+   {
+       "PersonID": "7078",
+       "AccountID": "2",
+       "Searches": "1",
+       "search_term": "kids TV show"
+   }
+   ```
+
+1. Trovano lo show &quot;Orangey&quot; e lo suonano così che il loro bambino possa guardarlo.
+
+   ```json
+   {
+       "PersonID": "7078",
+       "AccountID": "2",
+       "ShowName": "Orangey",
+       "VideoStarts": "1"
+   }
+   ```
+
+1. Più tardi quella sera, il genitore passa al loro profilo e cerca qualche nuovo contenuto adulto da guardare. Tieni presente che `"AccountID"` è `1` per rappresentare il profilo adulto. Entrambi i profili appartengono allo stesso account, rappresentato dallo stesso `"PersonID"`.
+
+   ```json
+   {
+       "PersonID": "7078",
+       "AccountID": "1",
+       "Searches": "1",
+       "search_term": "inappropriate adult movie"
+   }
+   ```
+
+1. Troverete lo show &quot;Game of Dethrones&quot; e godetevi la loro serata guardando.
+
+   ```json
+   {
+       "PersonID": "7078",
+       "AccountID": "1",
+       "ShowName": "Game of Dethrones",
+       "VideoStarts": "1"
+   }
+   ```
+
+1. Il giorno dopo, continuano lo show televisivo &quot;Orangey&quot; per il loro bambino. Non è necessario effettuare ricerche perché ora sono già a conoscenza dello spettacolo.
+
+   ```json
+   {
+       "PersonID": "7078",
+       "AccountID": "2",
+       "ShowName": "Orangey",
+       "VideoStarts": "1"
+   }
+   ```
+
+Se si utilizza un modello di allocazione senza una dimensione di binding, la `"inappropriate adult movie"` il termine di ricerca è attribuito all&#39;ultima vista del programma televisivo del bambino. Tuttavia, se hai effettuato un binding `search_term` a `AccountID`, le ricerche di ciascun profilo vengono isolate nel proprio profilo, attribuite alle serie corrette che cercano.
+
+## Esempio 4: Valutare il comportamento di ricerca rispetto a quello di ricerca in un&#39;impostazione retail
+
+1. Un visitatore esegue una ricerca per `"camera"`. Nessun prodotto impostato in questa pagina.
+
+   ```json
+   {
+       "search_term": "camera",
+       "product_finding_method": "search"
+   }
+   ```
+
+1. Cliccano su una telecamera che gli piace e la aggiungono al carrello.
+
+   ```json
+   {
+       "Product": [
+           {
+               "name": "DSLR Camera"
+           }
+       ],
+       "CartAdd": "1"
+   }
+   ```
+
+1. Il visitatore passa quindi alla categoria cinture senza eseguire alcuna ricerca. Nessun prodotto impostato in questa pagina.
+
+   ```json
+   {
+       "category": "Men's belts",
+       "product_finding_method": "browse"
+   }
+   ```
+
+1. Cliccano su una farsa che gli piace e la aggiungono al carrello.
+
+   ```json
+   {
+       "Product": [
+           {
+               "name": "Ratchet belt"
+           }
+       ],
+       "CartAdd": "1"
+   }
+   ```
+
+1. Seguono il processo di pagamento e acquistano questi due articoli.
+
+   ```json
+   {
+       "Product": [
+           {
+               "name": "DSLR Camera",
+               "price": "399.99"
+           },
+           {
+               "name": "Ratchet belt",
+               "price": "19.99"
+           }
+       ],
+       "Purchase": "1"
+   }
+   ```
+
+Se la persistenza è impostata sull’allocazione più recente senza una dimensione vincolante, tutti i $419,98 dei ricavi sono attribuiti al `browse` metodo di ricerca. Se la persistenza viene impostata utilizzando l’allocazione originale senza una dimensione vincolante, tutti i $419,98 dei ricavi vengono attribuiti al `search` metodo di ricerca.
+
+Tuttavia, se si esegue un binding `product_finding_method` al carrello Aggiunge una metrica, il rapporto risultante attribuisce ogni prodotto al metodo di ricerca corretto.
+
+| Metodo di ricerca del prodotto | Ricavi |
+| --- | --- |
+| ricerca | 399,99 |
+| navigare | 19,99 |
