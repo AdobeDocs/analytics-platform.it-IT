@@ -4,9 +4,9 @@ title: Visualizzazione palette di colori
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 Nota bene:
 
-* Sono disponibili cinque palette di colori predefinite tra cui scegliere. La palette predefinita e quella sottostante sono state ottimizzate per il contrasto e sono entrambe più accessibili per coloro che sono daltonici.
+* Sono disponibili cinque palette di colori predefinite tra cui scegliere. La palette predefinita e quella sottostante sono state ottimizzate per garantire un contrasto ottimale e sono entrambe più accessibili in caso di daltonismo.
 * La terza e la quinta palette di colori sotto le due soprastanti sono state ottimizzate per l’armonia dei colori.
 
 ## Per modificare la palette di colori:
