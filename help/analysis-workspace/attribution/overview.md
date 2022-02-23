@@ -4,7 +4,7 @@ description: Il concetto di attribuire il credito di un evento di successo a pi√
 Feature: Attribution
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
 ht-degree: 100%
 
