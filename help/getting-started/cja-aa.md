@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Eliminazione RGPD | Supporto completo; tieni presente che le funzioni RGPD sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. CJA eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | Variabili elenco/Prop elenco | Supporto completo; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) (gennaio 2022) |
-| eVar di merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (gennaio 2022) |
+| eVar di merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) (gennaio 2022) |
 | Metriche | Supporto completo; CJA sfrutta Experience Data Model (XDM), supporta metriche illimitate e non è legato agli eventi di successo personalizzati della versione tradizionale di Analytics. Alcune metriche standard sono state rinominate nella versione tradizionale di Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
 | Deduplicazione delle metriche | Supporto completo. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. |
@@ -70,8 +70,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 
 | Funzione | Note |
 | --- | --- |
-| Filtro bot | Per [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)Set di dati basati su , viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
-| Media Analytics | I dati multimediali sono disponibili come parte del connettore di origine di Analytics. |
+| Filtro bot | Per i set di dati basati sul [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
+| Media Analytics | I dati multimediali sono disponibili come parte del connettore sorgente di Analytics. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analytics for Target (A4T) e Visualizzatori simultanei di contenuti multimediali non sono supportati. |
 | Regole di elaborazione | Per i set di dati basati sul connettore dati di Analytics, le regole di elaborazione vengono ancora applicate. [Le funzionalità di preparazione dei dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) possono essere utilizzate anche al posto delle regole di elaborazione per i dati che vanno direttamente in Platform. |
 
@@ -80,17 +80,17 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
-| Eventi calendario | In Workspace, le annotazioni sono denominate &quot;Annotazioni&quot;. |
+| Eventi calendario | In Workspace, saranno denominate “Annotazioni”. |
 | Generatore regole di classificazione | Funzionerà in modo leggermente diverso in CJA, utilizzando le manipolazioni delle stringhe al momento del rapporto anziché i set di dati di ricerca. |
 | Analisi contributi | Il supporto è pianificato. |
 | Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Anche Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) fornisce un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
-| Segnalazione di incremento e affidabilità | Il supporto è pianificato. |
+| Reporting di incremento e affidabilità | Il supporto è pianificato. |
 | Regole di elaborazione, regole VISTA, regole di elaborazione dei canali di marketing | Supporto pianificato, ma funziona in fase di query anziché durante la raccolta dei dati per manipolazioni dei dati più flessibili e retroattive e non distruttive. |
 | Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
-| Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. Sarà chiamato &quot;Pubblicazione del pubblico&quot; in CJA. |
+| Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. Sarà chiamato “Pubblicazione del pubblico” in CJA. |
 | Rapporti sulla sessione nuovi e ripetuti | Il supporto è pianificato con alcune avvertenze. |
 
 ## Supporto non ancora pianificato.
