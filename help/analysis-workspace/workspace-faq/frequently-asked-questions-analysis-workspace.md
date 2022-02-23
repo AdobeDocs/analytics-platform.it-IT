@@ -5,7 +5,7 @@ title: Requisiti di amministrazione
 feature: FAQ
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
