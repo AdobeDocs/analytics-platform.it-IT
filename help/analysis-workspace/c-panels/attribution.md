@@ -4,7 +4,7 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
