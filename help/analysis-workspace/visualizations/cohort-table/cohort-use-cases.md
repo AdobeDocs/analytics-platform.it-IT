@@ -5,7 +5,7 @@ title: Casi di utilizzo dell’analisi per coorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
 ht-degree: 100%
 
