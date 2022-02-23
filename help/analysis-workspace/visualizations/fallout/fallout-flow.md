@@ -4,7 +4,7 @@ title: Panoramica dell’abbandono
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -16,8 +16,8 @@ Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei r
 
 Le visualizzazioni Abbandono consentono di:
 
-* Eseguire confronti affiancati di due diversi filtri nello stesso rapporto.
-* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto).
+* Eseguire confronti affiancati di due diversi filtri nello stesso rapporto
+* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto)
 * Combinare diversi valori, da varie dimensioni e metriche
 * Creare un rapporto di abbandono con più dimensioni
 * Identificare dove vanno i clienti immediatamente dopo l’abbandono
