@@ -4,7 +4,7 @@ title: Domande frequenti
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
 ht-degree: 100%
 
