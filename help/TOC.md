@@ -41,7 +41,7 @@ ht-degree: 97%
    + [Stimare la dimensione della connessione](connections/estimate-connection-size.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
    + [Ricerche standard](connections/standard-lookups.md)
-   + Cross-Channel Analytics{#cca}
+   + Cross-Channel Analytics {#cca}
       + [Panoramica di Cross-Channel Analytics](connections/cca/overview.md)
       + [Funzionamento delle riproduzioni](connections/cca/replay.md)
       + [Domande frequenti su Cross-Channel Analytics](connections/cca/faq.md)
