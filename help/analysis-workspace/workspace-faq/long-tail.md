@@ -4,7 +4,7 @@ description: Spiega l’elemento dimensionale “Long Tail” e il motivo per cu
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
