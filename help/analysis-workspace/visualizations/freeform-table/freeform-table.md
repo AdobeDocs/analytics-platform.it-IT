@@ -4,7 +4,7 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
 ht-degree: 100%
 
@@ -51,6 +51,6 @@ Ulteriori informazioni su tutte le [opzioni di esportazione](https://experiencel
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]** per scaricare come CSV i dati della tabella visualizzata. Se è selezionata una parte della tabella, questa opzione diventa **[!UICONTROL Download selection as CSV]**.
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Project > Download items as CSV]** per esportare fino a 50.000 elementi dimensionali per la dimensione selezionata.
 
-Ulteriori informazioni su tutte le [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) dei dati per Analysis Workspace.
+Ulteriori informazioni su tutte le [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) dei dati per Analysis Workspace.
 
 ![](assets/export-options.png)
