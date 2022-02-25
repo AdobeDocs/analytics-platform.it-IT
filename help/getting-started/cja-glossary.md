@@ -4,10 +4,10 @@ description: Glossario di Customer Journey Analytics.
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 Alcuni termini di Customer Journey Analytics differiscono da come sono stati tradizionalmente utilizzati in Adobe Analytics:
 
 | Nuovo termine di Customer Journey Analytics | Termine di Adobe Analytics | Descrizione |
-|---|---|---|
+| --- | --- | --- |
 | Set di dati di ricerca | Classificazione | Utilizza la ricerca per recuperare il valore dal set di dati specificato per una chiave/chiave corrispondente (in un set di dati di eventi) in cui esiste una relazione 1:1. Ad esempio, puoi specificare “tracking_code” come chiave che corrisponda al “tracking_code” nel set di dati di eventi. |
 | Set di dati di profilo | Attributo cliente | Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti, puoi caricare tali dati in un set di dati di profilo in Adobe Experience Platform. Dopo aver creato una connessione a tale set di dati in Customer Journey Analytics e aver creato una visualizzazione dati, sfrutta i dati in Workspace. |
 | Società di accesso | Organizzazione Experience Cloud | Consulta [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it#topic_C31CB834F109465A82ED57FF0563B3F1). |
@@ -27,4 +27,4 @@ Alcuni termini di Customer Journey Analytics differiscono da come sono stati tra
 ## Glossario di Adobe Experience Platform
 
 Adobe Experience Platform standardizza dati e contenuti a livello aziendale, fornendo profili di consumatori in tempo reale, consentendo l’utilizzo della scienza dei dati e accelerando la velocità dei contenuti per stimolare la personalizzazione dell’esperienza nel customer journey.
-Per ulteriori informazioni, consulta [Glossario di Adobe Experience Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/glossary.html).
+Per ulteriori informazioni, consulta [Glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en).
