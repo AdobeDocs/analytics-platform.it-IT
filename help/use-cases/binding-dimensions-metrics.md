@@ -3,12 +3,13 @@ title: Utilizzo di dimensioni e metriche di binding in CJA
 description: Attribuisci dimensioni agli array di oggetti per analisi di persistenza complessa.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1330'
 ht-degree: 1%
 
 ---
+
 
 # Utilizzo di dimensioni e metriche di binding in CJA
 
@@ -25,7 +26,6 @@ Anche se è possibile utilizzare dimensioni di binding con dati evento di livell
    ```json
    {
        "PersonID": "1",
-       "product_views": 1,
        "product": [
            {
                "name": "Washing Machine 2000",
@@ -42,7 +42,6 @@ Anche se è possibile utilizzare dimensioni di binding con dati evento di livell
    ```json
    {
        "PersonID": "1",
-       "product_views": 1,
        "product": [
            {
                "name": "Dryer 2000",
@@ -252,11 +251,19 @@ Se hai utilizzato l’allocazione più recente con la dimensione del termine di 
 
 Anche se questo esempio include un solo visitatore, molti visitatori che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-CJA rileva automaticamente la relazione tra la dimensione selezionata e la dimensione di binding. Se la dimensione di binding si trova in una matrice di oggetti mentre la dimensione selezionata si trova a un livello superiore, è necessaria una metrica di binding. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding.
-
-In questa implementazione di esempio, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca. È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente.
+È possibile associare i termini di ricerca al nome del prodotto ogni volta che la metrica Ricerche è presente per attribuire correttamente il termine di ricerca ai ricavi.
 
 ![Metrica di binding](assets/binding-metric.png)
+
+In Analysis Workspace, il rapporto risultante sarà simile al seguente:
+
+| search_term | ricavi |
+| --- | --- |
+| guanti da pugilato | $ 89,99 |
+| racchetta da tennis | $ 34,99 |
+| scarpe | $ 79,99 |
+
+CJA rileva automaticamente la relazione tra la dimensione selezionata e la dimensione di binding. Se la dimensione di binding si trova in una matrice di oggetti mentre la dimensione selezionata si trova a un livello superiore, è necessaria una metrica di binding. Una metrica di binding funge da trigger per una dimensione di binding, quindi si vincola solo agli eventi in cui è presente la metrica di binding. Nell’esempio precedente, la pagina dei risultati della ricerca include sempre una dimensione del termine di ricerca e una metrica di ricerca.
 
 L’impostazione della dimensione del termine di ricerca su questo modello di persistenza esegue la logica seguente:
 
@@ -267,26 +274,18 @@ L’impostazione della dimensione del termine di ricerca su questo modello di pe
 * Se la metrica Ricerche è presente, associa il termine di ricerca a tutti i nomi di prodotto in tale evento. Si copia fino allo stesso livello del nome del prodotto per quell&#39;evento. In questo esempio viene trattato come product.search_term.
 * Se lo stesso nome di prodotto viene visualizzato in un evento successivo, anche il termine di ricerca associato viene riportato a tale evento.
 
-In Analysis Workspace, il rapporto risultante sarà simile al seguente:
-
-| search_term | ricavi |
-| --- | --- |
-| guanti da pugilato | $ 89,99 |
-| racchetta da tennis | $ 34,99 |
-| scarpe | $ 79,99 |
-
 ## Esempio 3: Associare il termine di ricerca video al profilo utente
 
-Puoi eseguire un binding di un termine di ricerca con un profilo utente in modo che la persistenza tra i profili rimanga completamente separata. Ad esempio, la tua organizzazione esegue un servizio di streaming in cui un account può avere più profili. Il visitatore ha un account figlio e un account adulto.
+Puoi eseguire un binding di un termine di ricerca con un profilo utente in modo che la persistenza tra i profili rimanga completamente separata. Ad esempio, la tua organizzazione esegue un servizio di streaming in cui un account di overarching può avere più profili. Il visitatore ha un profilo figlio e un profilo per adulti.
 
-1. L&#39;account accede sotto l&#39;account bambino e cerca un programma televisivo per bambini. Tieni presente che `"AccountID"` è `2` per rappresentare il profilo figlio.
+1. L&#39;account accede sotto il profilo bambino e cerca un programma televisivo per bambini. Tieni presente che `"ProfileID"` è `2` per rappresentare il profilo figlio.
 
    ```json
    {
        "PersonID": "7078",
-       "AccountID": "2",
+       "ProfileID": "2",
        "Searches": "1",
-       "search_term": "kids TV show"
+       "search_term": "kids show"
    }
    ```
 
@@ -295,48 +294,66 @@ Puoi eseguire un binding di un termine di ricerca con un profilo utente in modo 
    ```json
    {
        "PersonID": "7078",
-       "AccountID": "2",
+       "ProfileID": "2",
        "ShowName": "Orangey",
        "VideoStarts": "1"
    }
    ```
 
-1. Più tardi quella sera, il genitore passa al loro profilo e cerca qualche nuovo contenuto adulto da guardare. Tieni presente che `"AccountID"` è `1` per rappresentare il profilo adulto. Entrambi i profili appartengono allo stesso account, rappresentato dallo stesso `"PersonID"`.
+1. Più tardi quella sera, il genitore passa al loro profilo e cerca il contenuto per adulti da guardare. Tieni presente che `"ProfileID"` è `1` per rappresentare il profilo adulto. Entrambi i profili appartengono allo stesso account, rappresentato dallo stesso `"PersonID"`.
 
    ```json
    {
        "PersonID": "7078",
-       "AccountID": "1",
+       "ProfileID": "1",
        "Searches": "1",
-       "search_term": "inappropriate adult movie"
+       "search_term": "grownup movie"
    }
    ```
 
-1. Troverete lo show &quot;Game of Dethrones&quot; e godetevi la loro serata guardando.
+1. Troverete lo show &quot;Analytics After Hours&quot; e godetevi la loro serata guardando.
 
    ```json
    {
        "PersonID": "7078",
-       "AccountID": "1",
-       "ShowName": "Game of Dethrones",
+       "ProfileID": "1",
+       "ShowName": "Analytics After Hours",
        "VideoStarts": "1"
    }
    ```
 
-1. Il giorno dopo, continuano lo show televisivo &quot;Orangey&quot; per il loro bambino. Non è necessario effettuare ricerche perché ora sono già a conoscenza dello spettacolo.
+1. Il giorno dopo, continuano lo spettacolo &quot;Orangey&quot; per il loro bambino. Non è necessario effettuare ricerche perché ora sono già a conoscenza dello spettacolo.
 
    ```json
    {
        "PersonID": "7078",
-       "AccountID": "2",
+       "ProfileID": "2",
        "ShowName": "Orangey",
        "VideoStarts": "1"
    }
    ```
 
-Se si utilizza un modello di allocazione senza una dimensione di binding, la `"inappropriate adult movie"` il termine di ricerca è attribuito all&#39;ultima vista del programma televisivo del bambino. Tuttavia, se hai effettuato un binding `search_term` a `AccountID`, le ricerche di ciascun profilo vengono isolate nel proprio profilo, attribuite alle serie corrette che cercano.
+Se utilizzi l&#39;allocazione più recente con scadenza Persona, la `"grownup movie"` il termine di ricerca è attribuito all&#39;ultima vista dello spettacolo del bambino.
+
+| Termine di ricerca | Avvio del video |
+| --- | --- |
+| film di grownup | 2 |
+| show per bambini | 1 |
+
+Tuttavia, se hai effettuato un binding `search_term` a `ProfileID`, le ricerche di ciascun profilo vengono isolate nel proprio profilo, attribuite alle serie corrette che cercano.
+
+![Associazione dei visitatori](assets/binding-visitor.png)
+
+Analysis Workspace attribuirà correttamente il secondo episodio di Orangey al termine di ricerca `"kids show"` senza tenere conto delle ricerche di altri profili.
+
+| Termine di ricerca | Avvio del video |
+| --- | --- |
+| show per bambini | 2 |
+| film di grownup | 1 |
 
 ## Esempio 4: Valutare il comportamento di ricerca rispetto a quello di ricerca in un&#39;impostazione retail
+
+È possibile eseguire il binding dei valori alle dimensioni impostate sugli eventi precedenti. Quando imposti una variabile con una dimensione di binding, CJA tiene conto del valore persistente. Se questo comportamento non è desiderato, è possibile regolare le impostazioni di persistenza della dimensione di binding. Prendi in considerazione l’esempio seguente in cui `product_finding_method` è impostato su un evento, quindi associato alla metrica Aggiungi carrello sull’evento seguente.
 
 1. Un visitatore esegue una ricerca per `"camera"`. Nessun prodotto impostato in questa pagina.
 
@@ -369,7 +386,7 @@ Se si utilizza un modello di allocazione senza una dimensione di binding, la `"i
    }
    ```
 
-1. Cliccano su una farsa che gli piace e la aggiungono al carrello.
+1. Cliccano su una cintura che gli piace e la aggiungono al carrello.
 
    ```json
    {
@@ -400,7 +417,17 @@ Se si utilizza un modello di allocazione senza una dimensione di binding, la `"i
    }
    ```
 
-Se la persistenza è impostata sull’allocazione più recente senza una dimensione vincolante, tutti i $419,98 dei ricavi sono attribuiti al `browse` metodo di ricerca. Se la persistenza viene impostata utilizzando l’allocazione originale senza una dimensione vincolante, tutti i $419,98 dei ricavi vengono attribuiti al `search` metodo di ricerca.
+Se la persistenza è impostata sull’allocazione più recente senza una dimensione vincolante, tutti i $419,98 dei ricavi sono attribuiti al `browse` metodo di ricerca.
+
+| Metodo di ricerca del prodotto | Ricavi |
+| --- | --- |
+| navigare | 419,98 |
+
+Se la persistenza viene impostata utilizzando l’allocazione originale senza una dimensione vincolante, tutti i $419,98 dei ricavi vengono attribuiti al `search` metodo di ricerca.
+
+| Metodo di ricerca del prodotto | Ricavi |
+| --- | --- |
+| ricerca | 419,98 |
 
 Tuttavia, se si esegue un binding `product_finding_method` al carrello Aggiunge una metrica, il rapporto risultante attribuisce ogni prodotto al metodo di ricerca corretto.
 

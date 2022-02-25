@@ -4,15 +4,15 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '763'
 ht-degree: 8%
 
 ---
 
 
-# Impostazioni del componente [!UICONTROL Persistence]
+# [!UICONTROL Persistence] Impostazioni del componente
 
 [!UICONTROL Persistence] è la capacità di un dato valore di dimensione di riferirsi a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 
@@ -76,10 +76,12 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni a discesa valide includono altre dimensioni incluse nella visualizzazione dati.
 
-Questa impostazione viene in genere utilizzata negli array di oggetti ed è più comunemente utilizzata per misurare elementi quali metodi di ricerca dei prodotti, risultati di ricerca interni, impression di promozioni interne o consigli di contenuti o prodotti. Nelle versioni precedenti di Adobe Analytics, questo concetto è simile al merchandising con sintassi di conversione.
+Vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md) esempi su come utilizzare in modo efficace le dimensioni di binding.
 
 ## [!UICONTROL Binding Metric]
 
 Elenco a discesa che consente di scegliere una metrica che agisce come attivatore di binding. Le opzioni a discesa valide includono le metriche incluse nella visualizzazione dati.
 
-Questa impostazione viene visualizzata solo quando il Dimension di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding. Nelle versioni precedenti di Adobe Analytics, un concetto simile ma più limitato è noto come merchandising con sintassi di prodotto.
+Questa impostazione viene visualizzata solo quando il Dimension di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
+
+Vedi il secondo esempio sotto [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md) per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding.
