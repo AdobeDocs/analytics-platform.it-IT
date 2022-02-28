@@ -4,9 +4,9 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1891'
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+workflow-type: tm+mt
+source-wordcount: '1882'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 Una connessione consente di integrare i set di dati da [!DNL Adobe Experience Platform] a [!UICONTROL Workspace]. Per creare rapporti sui set di dati [!DNL Experience Platform] bisogna prima stabilire una connessione tra i set di dati in [!DNL Experience Platform] e [!UICONTROL Workspace].
 
-Fai clic [qui](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=it) per una panoramica video.
+Panoramica video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32549/?quality=12)
 
 ## Autorizzazioni necessarie
 
@@ -142,7 +144,7 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
 
 Questo calcolo deve essere fatto per ogni set di dati della connessione.
 
-1. Vai a [Servizi di query di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) e crea una nuova query.
+1. Vai a [Servizi di query di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) e crea una nuova query.
 
 1. La query si presenta così:
 
