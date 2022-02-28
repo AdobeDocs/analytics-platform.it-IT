@@ -4,7 +4,7 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 | Metodo di creazione | Dettagli |
 | --- | --- |
-| **Vai a [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** | Viene visualizzata la pagina Gestione annotazioni. Fai clic su [!UICONTROL Create New Annotation] e [!UICONTROL Annotation builder] si apre. |
+| **Vai a [!UICONTROL Components] > [!UICONTROL Annotation].** | Viene visualizzata la pagina Gestione annotazioni. Fai clic su [!UICONTROL Create New Annotation] e [!UICONTROL Annotation builder] si apre. |
 | **Fare clic con il pulsante destro del mouse su un punto di una tabella.** | [!UICONTROL The Annotation builder] si apre. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderli disponibili a tutti i progetti. Inoltre, noterai che le date e qualsiasi metrica, ecc., sono già state compilate.<p>![](assets/annotate-table.png) |
 | **Fai clic con il pulsante destro del mouse su un punto in un [!UICONTROL Line] grafico.** | La [!UICONTROL Annotation builder] si apre. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderli disponibili a tutti i progetti. Inoltre, noterai che le date e qualsiasi metrica, ecc., sono già state compilate.<p>![](assets/annotate-line.png) |
 | **In Workspace, vai a [!UICONTROL Components] > [!UICONTROL Create annotation].** | La [!UICONTROL Annotation builder] si apre. |
