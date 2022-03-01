@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 47c025bc8c84515cfb9ba3d357fe897bb018648a
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
    + [Panoramica di Customer Journey Analytics](getting-started/cja-overview.md)
    + [Introduzione](getting-started/cja-getting-started.md)
    + [Domande frequenti](getting-started/cja-faq.md)
-   + [Preparare la migrazione da Adobe Analytics al Customer Journey Analytics](getting-started/aa-to-cja.md)
+   + [Preparare la migrazione da Adobe Analytics a Customer Journey Analytics](getting-started/aa-to-cja.md)
    + [Supporto delle funzioni di Customer Journey Analytics](getting-started/cja-aa.md)
    + [Implicazioni dell’eliminazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)

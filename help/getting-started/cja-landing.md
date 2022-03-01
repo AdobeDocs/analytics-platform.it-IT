@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 72%
+ht-degree: 98%
 
 ---
 
@@ -24,20 +24,20 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=en"> Preparare la migrazione da Adobe Analytics al Customer Journey Analytics </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=en"> Utilizzo di dimensioni e metriche di binding in CJA </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en"> Utilizzare le dimensioni del canale di marketing in Adobe Experience Platform
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=it"> Preparare la migrazione da Adobe Analytics a Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=it"> Utilizzo di dimensioni e metriche di binding in CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it"> Utilizzare le dimensioni del canale di marketing in Adobe Experience Platform
  </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#connection-detail"> Utilizzare le funzionalità avanzate di gestione delle connessioni </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it#cja-dataviews"> Utilizzare le funzionalità avanzate di visualizzazione dati </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=it#cja-usecases"> Inserire dati Google Analytics in Adobe Experience Platform </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=it#cja-usecases"> Analizzare i dati delle Google Analytics in CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=it#cja-usecases"> Analizzare i dati Google Analytics in CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#cja-connections"> Cross-Channel Analytics (unione degli ID in Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it"> Guida introduttiva di Customer Journey Analytics </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it"> Domande frequenti</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>Note sulla versione</b> </p> 
     <ul> 
-     <li>Scopri le ultime <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en" format="https" scope="external"> Note Customer Journey Analytics</a> per nuove funzioni e correzioni. </li> 
+     <li>Per conoscere le nuove funzioni e le correzioni, consulta le ultime <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it" format="https" scope="external">note su Customer Journey Analytics</a>. </li> 
     </ul> <p class="head"> <b>Risorse di Adobe Experience Platform</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/it/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
