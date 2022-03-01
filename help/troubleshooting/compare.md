@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Quando l’organizzazione adotta CJA, potresti notare alcune differenze nei dati tra Adobe Analytics e CJA. Questo è normale e può verificarsi per diversi motivi. CJA è progettato per consentirti di migliorare alcune delle limitazioni ai dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate/non previste. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare CJA senza problemi per l’integrità dei dati.
 
-Supponiamo che tu abbia acquisito i dati di Adobe Analytics in AEP tramite il [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en), quindi ha creato una connessione CJA utilizzando questo set di dati.
+Supponiamo che tu abbia acquisito i dati di Adobe Analytics in AEP tramite il [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) e quindi creato una connessione CJA utilizzando questo set di dati.
 
 ![Flusso dei dati](assets/compare.png)
 
@@ -65,14 +65,14 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
 
-   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
+   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
 
    | Campo Analytics | Valori che ne causano l’eliminazione |
    | --- | --- |
    | Opt_out | `y, Y` |
    | In_data_only | Not 0 |
-   | Exclude_hit | No 0 |
-   | Bot_id | No 0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
