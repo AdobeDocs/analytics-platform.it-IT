@@ -1,9 +1,9 @@
 ---
-title: Utilizzo di dimensioni e metriche di binding in CJA
+title: Utilizzare dimensioni e metriche di binding in CJA
 description: Attribuisci dimensioni agli array di oggetti per analisi di persistenza complessa.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Utilizzo di dimensioni e metriche di binding in CJA
+# Utilizzare dimensioni e metriche di binding in CJA
 
 Il Customer Journey Analytics offre diversi modi per mantenere i valori di dimensione oltre l’hit su cui sono impostati. Uno dei metodi di persistenza offerti da Adobe è noto come Binding. Nelle versioni precedenti di Adobe Analytics, questo concetto era noto come merchandising.
 
