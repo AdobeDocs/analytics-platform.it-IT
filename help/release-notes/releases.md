@@ -1,14 +1,15 @@
 ---
-description: Spiega la strategia di rilascio continuo delle funzioni per il Customer Journey Analytics
-title: Rilasci di funzioni di Customer Journey Analytics
-source-git-commit: b740d3a18d1090b04cc50869d38600f016cf30d5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+description: Descrizione della strategia di rilascio continuo delle funzioni per Customer Journey Analytics
+title: Supporto delle funzioni di Customer Journey Analytics
+exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
+source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
-# Rilasci di funzioni di Customer Journey Analytics
+# Supporto delle funzioni di Customer Journey Analytics
 
 I rilasci di Customer Journey Analytics funzionano su un modello di distribuzione continua che consente un approccio scalabile e graduale alla distribuzione delle funzioni.
 
@@ -38,5 +39,5 @@ I rilasci graduali consentono ad Adobe di scalare meglio il processo di distribu
 
 | Domanda | Risposta |
 | --- | --- |
-| Posso richiedere l’accesso anticipato a una funzione? | No. Non sarà concesso un accesso anticipato.<br>Se desideri testare concetti di Analytics in fase iniziale, ti invitiamo a provare [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html) per fornire feedback sulle innovazioni leader del settore. |
+| Posso richiedere l’accesso anticipato a una funzione? | No. Non sarà concesso un accesso anticipato.<br>Se desideri testare concetti di Analytics in fase iniziale, ti invitiamo a provare [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html?lang=it) per fornire feedback sulle innovazioni leader del settore. |
 | Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics. |
