@@ -4,10 +4,10 @@ description: Scopri come Customer Journey Analytics consente di utilizzare Analy
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 94%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,13 @@ L’architettura CJA di alto livello è mostrata qui:
 
 ![architettura](assets/cja-architecture.png)
 
-Per un video su
+Here is a video overview of Customer Journey Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
 ## Confronto tra CJA e il tradizionale Adobe Analytics
 
-Il Customer Journey Analytics amplia l’ambito di Adobe Analytics offrendo funzionalità cross-channel di facile utilizzo e rimuovendo le limitazioni delle versioni precedenti di Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
+Customer Journey Analytics expands the scope of Adobe Analytics by offering easy-to-use cross-channel capabilities and removing limitations in previous versions of Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
 
 * **Variabili ed eventi illimitati**: i concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono disporre di una quantità illimitata di dimensioni e metriche univoche.
 * **Valori univoci illimitati**: Adobe Experience Platform non è vincolata ad alcun limite univoco.
@@ -107,7 +109,7 @@ Dall’inserimento dati all’accesso diretto a SQL, numerosi componenti di Expe
 
 ## Video
 
-* Utilizzo dei dati nel Customer Journey Analytics:
+* Working with data in Customer Journey Analytics:
 
    >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
 
