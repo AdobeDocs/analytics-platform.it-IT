@@ -4,10 +4,10 @@ description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 10%
+source-wordcount: '665'
+ht-degree: 7%
 
 ---
 
@@ -47,6 +47,22 @@ La modifica di un’annotazione consente di regolare intervalli di date, colori,
 * In [!UICONTROL Annotations Manager], fai clic sul titolo dell’annotazione.
 
 Entrambe queste opzioni consentono di tornare al Generatore di annotazioni. In questo caso è possibile apportare le modifiche necessarie e salvare la nuova versione.
+
+## Condividere le annotazioni
+
+Quando condividi annotazioni o lavori con annotazioni condivise con te, tieni presente quanto segue:
+
+* Supponiamo che crei un progetto con annotazioni di sola progettazione e quindi lo condividi con un altro utente. Queste annotazioni verranno visualizzate, ma non possono essere modificate o eliminate da altri utenti con cui condividi il progetto.
+
+* Se salvi un’annotazione e la condividi direttamente con un utente, questa può essere modificata o eliminata solo se dispone dei diritti di amministratore.
+
+* Per ricapitolare, se il progetto è condiviso con te, verrà visualizzato solo in quel progetto. Se l’annotazione viene condivisa direttamente con te, viene visualizzata in tutti i progetti in cui è possibile visualizzarla.
+
+## Annotazioni e fusi orari
+
+Tutte le annotazioni vengono create con una marca temporale, ma non con informazioni di tipo &quot;ora&quot; o &quot;fuso orario&quot;. Al momento del rapporto, viene sempre applicato il fuso orario della visualizzazione dati del pannello. Quindi, il 25 dicembre si verifica un&#39;annotazione creata per Natale - indipendentemente dal fuso orario della suite di rapporti in cui ti trovi.
+
+Un altro esempio è il giorno di Capodanno. Ogni ora, un fuso orario diverso inizia i fuochi d&#39;artificio all&#39;inizio del nuovo anno. Alle 10 ora USA di montagna, la costa orientale USA sta bruciando i fuochi d&#39;artificio perché è già alle 12 ora orientale.
 
 ## Altre attività di annotazione
 
