@@ -5,9 +5,9 @@ exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ Alcuni termini di Customer Journey Analytics differiscono da come sono stati tra
 ## Glossario di Adobe Experience Platform
 
 Adobe Experience Platform standardizza dati e contenuti a livello aziendale, fornendo profili di consumatori in tempo reale, consentendo l’utilizzo della scienza dei dati e accelerando la velocità dei contenuti per stimolare la personalizzazione dell’esperienza nel customer journey.
-Per ulteriori informazioni, consulta [Glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en).
+Per ulteriori informazioni, consulta [Glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it).
