@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -19,13 +19,13 @@ L’architettura CJA di alto livello è mostrata qui:
 
 ![architettura](assets/cja-architecture.png)
 
-Here is a video overview of Customer Journey Analytics:
+Ecco una panoramica video del Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
 ## Confronto tra CJA e il tradizionale Adobe Analytics
 
-Customer Journey Analytics expands the scope of Adobe Analytics by offering easy-to-use cross-channel capabilities and removing limitations in previous versions of Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
+Customer Journey Analytics estende l’ambito di Adobe Analytics con funzionalità cross-channel facili da usare. Inoltre rimuove le limitazioni presenti nelle versioni precedenti di Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
 
 * **Variabili ed eventi illimitati**: i concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono disporre di una quantità illimitata di dimensioni e metriche univoche.
 * **Valori univoci illimitati**: Adobe Experience Platform non è vincolata ad alcun limite univoco.
@@ -76,7 +76,7 @@ Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta
 
 >[!NOTE]
 >
->Non puoi autorizzare singole metriche o dimensioni in Customer Journey Analytics, come invece puoi fare in Adobe Analytics. Le metriche e le dimensioni possono essere modificate in [visualizzazioni dati](/help/data-views/data-views.md) e sono quindi soggetti a modifiche nella CJA, che cambia anche la segnalazione retroattiva.
+>Non puoi autorizzare singole metriche o dimensioni in Customer Journey Analytics, come invece puoi fare in Adobe Analytics. Le metriche e le dimensioni possono essere modificate nelle [visualizzazioni dati](/help/data-views/data-views.md) e sono quindi soggette a modifiche in CJA, con conseguenti modifiche retroattive nella generazione di rapporti.
 
 ### Accesso utente
 
@@ -98,18 +98,18 @@ Rispetto alla soluzione Adobe Analytics tradizionale, diverse funzioni di CJA so
 
 Customer Journey Analytics è una delle funzionalità incentrate su Adobe Experience Platform. Numerose altre funzionalità, basate anch’esse su Experience Platform, ti consentono di sfruttare al massimo i tuoi dati.
 
-Adobe Experience Platform ti permette di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema, oltre che di applicare la data science e l’apprendimento automatico al fine di migliorare la progettazione e l’erogazione di esperienze personalizzate. In Platform i dati del cliente vengono memorizzati come set di dati, costituiti da uno schema e da un batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en).
+Adobe Experience Platform ti permette di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema, oltre che di applicare la data science e l’apprendimento automatico al fine di migliorare la progettazione e l’erogazione di esperienze personalizzate. In Platform i dati del cliente vengono memorizzati come set di dati, costituiti da uno schema e da un batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
 Dall’inserimento dati all’accesso diretto a SQL, numerosi componenti di Experience Platform sono centrali per Customer Journey Analytics e agiscono sinergicamente:
 
 * [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): sfrutta SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento serverless che consente di unire qualsiasi set di dati e di acquisire i risultati della query sotto forma di nuovo set di dati da utilizzare nel reporting, in Data Science Workspace o per l’inserimento in Profile Service. È possibile utilizzare Query Service per generare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro molteplici canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
 * [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it):
 * [Servizio identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
-* [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) nell’opzione sviluppatore: puoi usare i modelli di intelligenza artificiale (AI) e apprendimento automatico precompilati in Adobe Experience Platform per influenzare vari punti della customer journey. Sfruttando insights nascosti, puoi effettuare previsioni più affidabili lungo la customer journey, suggerire i migliori passaggi successivi o automatizzare processi complicati.
+* [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=it) nell’opzione sviluppatore: puoi usare i modelli di intelligenza artificiale (AI) e apprendimento automatico precompilati in Adobe Experience Platform per influenzare vari punti della customer journey. Sfruttando insights nascosti, puoi effettuare previsioni più affidabili lungo la customer journey, suggerire i migliori passaggi successivi o automatizzare processi complicati.
 
 ## Video
 
-* Working with data in Customer Journey Analytics:
+* Utilizzo dei dati in Customer Journey Analytics:
 
    >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
 
