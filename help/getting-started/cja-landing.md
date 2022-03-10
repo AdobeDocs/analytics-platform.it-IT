@@ -5,9 +5,9 @@ exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
     </ul> <p class="head"> <b>Risorse di Adobe Experience Platform</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/it/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
-     <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html" format="https" scope="external"> Tutorial su Adobe Experience Platform</a> </li> 
+     <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=it" format="https" scope="external"> Tutorial su Adobe Experience Platform</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> Riferimento API</a> </li> 
      <li><a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentazione e risorse per sviluppatori</a> </li> 
     </ul> </td> 
