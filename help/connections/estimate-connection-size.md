@@ -4,46 +4,43 @@ description: Rapporto sull’utilizzo corrente del Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 44%
 
 ---
 
 # Stimare la dimensione della connessione
 
-Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Lo scopo di questo argomento è quello di mostrare come creare rapporti sull’utilizzo corrente di [!UICONTROL Customer Journey Analytics].
+Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un account accurato dell&#39;utilizzo dei record di dati evento (righe di dati) della tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall&#39;organizzazione**.
 
 1. In [!UICONTROL Customer Journey Analytics], fai clic sulla scheda **[!UICONTROL Connections]**.
-1. Sulla schermata [!UICONTROL Edit connection], seleziona una connessione per la quale si desidera determinare la dimensione di utilizzo/connessione.
 
-   ![Modifica connessione](assets/edit-connection.png)
+   È ora possibile visualizzare un elenco di tutte le connessioni correnti.
 
-1. Seleziona un set di dati che fa parte della connessione dalla barra a sinistra. In questo caso, è il set di dati “Impressione B2B”.
+1. Fare clic sul nome di ciascuna connessione per accedere a Gestione connessioni.
 
-   ![Set di dati](assets/dataset.png)
+1. Aggiungi il **[!UICONTROL Records of event data available]** per tutte le connessioni create. (A seconda delle dimensioni della connessione, la visualizzazione del numero potrebbe richiedere del tempo.)
 
-1. Fai clic sull’icona blu (i) (info) accanto al nome. Noterai che il set di dati ha righe/eventi 3.8k. Inoltre, per il numero esatto di righe, fai clic su **[!UICONTROL Edit in Experience Platform]** sotto la tabella di anteprima. Questo ti reindirizzerà ai set di dati in [!UICONTROL Adobe Experience Platform].
+   ![dati evento](assets/event-data.png)
 
-   ![Informazioni sui set di dati AEP](assets/data-size.png)
+1. Una volta che hai una somma di tutte le righe di dati dell’evento, cerca il diritto &quot;Righe di dati&quot; nel contratto di Customer Journey Analytics firmato dalla tua azienda con Adobe.
 
-1. Osserva che **[!UICONTROL Total records]** per questo set di dati equivale a 3.83k record, con la dimensione dei dati pari a 388.59 KB.
+   In questo modo si ottiene il numero massimo di righe di dati autorizzati nell&#39;ordine di vendita. Se il numero di righe di dati risultanti dal passaggio 3 è maggiore di questo numero, si verifica un&#39;overage.
 
-1. Ripeti i passaggi da 1 a 5 per altri set di dati nella connessione e aggiungi il numero di record/righe. Il numero aggregato finale sarà la metrica di utilizzo della connessione. Questo è il numero di righe dei set di dati della connessione da cui intendi acquisire [!UICONTROL Adobe Experience Platform].
+1. Per risolvere questa situazione, è possibile scegliere tra diverse opzioni:
 
-## Determinare il numero di righe acquisite
+   * Cambia il tuo [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#set-rolling-window-for-connection-data-retention).
+   * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
+   * [Eliminare un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * Contatta il tuo Adobe Account Manager per richiedere la licenza di una capacità aggiuntiva.
 
-Il numero di eventi effettivamente acquisiti in [!UICONTROL Customer Journey Analytics] dipende dalle impostazioni di configurazione della connessione. Inoltre, se hai selezionato l’ID persona sbagliato o se questo ID non è disponibile per alcune righe nei set di dati, allora [!UICONTROL Customer Journey Analytics] ignorerà quelle righe. Per determinare le righe effettive degli eventi acquisiti, procedi come segue:
+## Per quanto riguarda le eccedenze di utilizzo
 
-1. Una volta salvata la connessione, crea una visualizzazione dati della stessa connessione senza alcun filtro.
-1. Crea un progetto Workspace e seleziona la visualizzazione dati corretta. Crea una tabella a forma libera e trascina e rilascia la metrica **[!UICONTROL Events]** con una dimensione **[!UICONTROL Year]**. Scegli un intervallo di date sufficientemente ampio dal calendario di selezione della data per incapsulare tutti i dati presenti nella connessione. Questo consente di visualizzare il numero di eventi in cui vengono acquisiti [!UICONTROL Customer Journey Analytics].
+I limiti di utilizzo sono rigorosamente controllati e applicati dall&#39;Adobe, su base giornaliera. Per &quot;righe di dati&quot; si intendono le righe medie giornaliere di dati disponibili per l’analisi all’interno del Customer Journey Analytics.
 
-   ![Progetto Workspace](assets/event-number.png)
-
-   >[!NOTE]
-   >
-   >Questo consente di visualizzare il numero di eventi da acquisire dal set di dati degli eventi. Non include i set di dati di profilo e tipo di ricerca. Segui i passaggi da 1 a 3 in “Stimare la dimensione della connessione” per i set di dati di profilo e di ricerca e aggiungi i numeri per ottenere il numero totale di righe per questa connessione.
+Supponiamo che il diritto al contratto limiti il numero di righe a 1 milione. Supponiamo che al giorno 1 dell&#39;utilizzo del Customer Journey Analytics, si caricino 2 milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l&#39;utilizzo al massimo impegnato. Si potrebbero comunque incorrere in costi di utilizzo eccessivo per il giorno 1.
 
 ## Diagnosticare le discrepanze
 
@@ -53,6 +50,6 @@ In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla conne
 
    ![raggruppamento](assets/data-size2.png)
 
-1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Successivamente, è stato aggiunto a [!UICONTROL Customer Journey Analytics] di nuovo, ma è stato generato un diverso [!UICONTROL Platform Dataset ID] da [!UICONTROL Adobe Experience Platform].
+1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Più tardi è stato aggiunto di nuovo al Customer Journey Analytics, ma un [!UICONTROL Platform Dataset ID] è stato generato da [!UICONTROL Adobe Experience Platform].
 
-Ulteriori informazioni sulle [implicazioni del set di dati e dell’eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
+Ulteriori informazioni sulle [implicazioni del set di dati e dell’eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].

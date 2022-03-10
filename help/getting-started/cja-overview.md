@@ -4,10 +4,10 @@ description: Scopri come Customer Journey Analytics consente di utilizzare Analy
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Experience Platform ti permette di centralizzare e standardizzare i dati e
 
 Dall’inserimento dati all’accesso diretto a SQL, numerosi componenti di Experience Platform sono centrali per Customer Journey Analytics e agiscono sinergicamente:
 
-* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): sfrutta SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento serverless che consente di unire qualsiasi set di dati e di acquisire i risultati della query sotto forma di nuovo set di dati da utilizzare nel reporting, in Data Science Workspace o per l’inserimento in Profile Service. È possibile utilizzare Query Service per generare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro molteplici canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
+* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): sfrutta SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento senza server che ti consente di unire qualsiasi set di dati e acquisire i risultati della query come nuovo set di dati da utilizzare nel reporting, in Data Science Workspace o per l’inserimento in Profile Service. È possibile utilizzare Query Service per generare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro molteplici canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
 * [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it):
 * [Servizio identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
 * [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=it) nell’opzione sviluppatore: puoi usare i modelli di intelligenza artificiale (AI) e apprendimento automatico precompilati in Adobe Experience Platform per influenzare vari punti della customer journey. Sfruttando insights nascosti, puoi effettuare previsioni più affidabili lungo la customer journey, suggerire i migliori passaggi successivi o automatizzare processi complicati.
