@@ -4,10 +4,10 @@ description: Rapporto sull’utilizzo corrente del Customer Journey Analytics
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 74934c8684198104c808284310bcdfd633085574
+source-git-commit: 966274d433d8495d32823d74c5f72107bb5f383a
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 43%
+source-wordcount: '504'
+ht-degree: 42%
 
 ---
 
@@ -38,9 +38,9 @@ Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [
 
 ## Per quanto riguarda le eccedenze di utilizzo
 
-I limiti di utilizzo sono rigorosamente controllati e applicati dall&#39;Adobe, su base giornaliera. Per &quot;righe di dati&quot; si intendono le righe medie giornaliere di dati disponibili per l’analisi all’interno del Customer Journey Analytics.
+I limiti di utilizzo sono regolarmente monitorati e applicati dall&#39;Adobe. Per &quot;righe di dati&quot; si intendono le righe medie giornaliere di dati disponibili per l’analisi all’interno del Customer Journey Analytics.
 
-Supponiamo che il diritto al contratto limiti il numero di righe a 1 milione. Supponiamo che al giorno 1 dell&#39;utilizzo del Customer Journey Analytics, si caricino 2 milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l’utilizzo al massimo impegnato per il resto del periodo di licenza. A seconda dei termini contrattuali, è comunque possibile che si verifichino costi di utilizzo eccessivo proporzionati per il giorno 1.
+Ad esempio, supponiamo che il tuo contratto ti dia diritto a un milione di righe di dati. Supponiamo che al giorno 1 dell&#39;utilizzo del Customer Journey Analytics, si caricino due milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l’utilizzo al massimo impegnato (ovvero, un milione di righe di dati) per il resto del periodo di Licenza. A seconda dei termini contrattuali, è comunque possibile che vengano applicate tariffe di utilizzo eccessive proporzionate per il giorno 1, in quanto hai superato il diritto di licenza &quot;righe di dati&quot;.
 
 ## Diagnosticare le discrepanze
 
