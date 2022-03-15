@@ -5,9 +5,9 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1822'
+source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+workflow-type: tm+mt
+source-wordcount: '1698'
 ht-degree: 100%
 
 ---
@@ -116,10 +116,10 @@ Ecco i widget e le impostazioni spiegate:
 | --- | --- |
 | [!UICONTROL Refresh] | Aggiorna la connessione per consentire la visualizzazione dei record aggiunti di recente. |
 | [!UICONTROL Delete] | Elimina la connessione. |
-| [!UICONTROL Create data view] | Crea una nuova visualizzazione dati basata su questa connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it) |
+| [!UICONTROL Create data view] | Crea una nuova visualizzazione dati basata su questa connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
 | [!UICONTROL Connection name] | Mostra il nome descrittivo della connessione. |
 | [!UICONTROL Connection description] | Mostra una descrizione più dettagliata che descrive idealmente lo scopo di questa connessione. |
-| [!UICONTROL Sandbox] | La [sandbox Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
+| [!UICONTROL Sandbox] | La [sandbox Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
 | [!UICONTROL Connection ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 | [!UICONTROL Data views using connection] | Elenca tutte le visualizzazioni dati che utilizzano questa connessione. |
 | [!UICONTROL Import new data] | (On/Off) indica se è necessario aggiungere o meno nuovi batch di dati ai dati storici (backfill). |
@@ -139,7 +139,7 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Batches added] | Indica quanti batch di dati sono stati aggiunti al set di dati. |
 | [!UICONTROL Records skipped] | Indica quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>I motivi per cui i record vengono ignorati sono i seguenti: marche temporali mancanti, ID persona mancante o non valido, ecc. Aggiornato ogni 10 minuti.<p>ID persona non validi (ad esempio “non definito” o “00000000”, o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) non possono essere attribuiti a un utente o persona specifica. Non possono essere acquisiti nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Cross-Channel Analytics](/help/connections/cca/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo di zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Last added] | Indica quando è stato aggiunto l’ultimo batch. |
-| [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#configure-dataset) |
+| [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL Schema] | Mostra lo schema Adobe Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 
@@ -152,9 +152,3 @@ Consente agli amministratori di modificare la connessione. Seleziona una conness
 * Aggiornare i set di dati.
 * Rimuovere i set di dati dalle connessioni.
 
-## Finestra continua per la conservazione dei dati [!UICONTROL Connection]
-
->[!IMPORTANT]
->Contatta l’Assistenza clienti o il tuo account manager Adobe per far sì che questa impostazione sia implementata. Non è ancora disponibile tramite l’interfaccia utente di CJA.
-
-Consente di definire un’impostazione di conservazione dei dati CJA come finestra continua in mesi (3 mesi, 6 mesi, ecc.), a un livello [!UICONTROL connection] (non a un livello [!UICONTROL dataset]). La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.

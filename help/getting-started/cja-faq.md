@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 97%
+source-wordcount: '2074'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 [!UICONTROL Customer Journey Analytics] (CJA) è il nostro prodotto di analisi di nuova generazione. Di seguito sono riportate le risposte alle domande più frequenti su CJA. Per ulteriori informazioni, consulta [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/cja-aa.md).
 
-## 1. Prerequisiti
+## 1. Prerequisiti {#prerequisites}
 
 | Domanda | Risposta |
 | --- | --- |
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2. Unione dei dati (Cross-Channel Analytics)
+## 2. Unione dei dati (Cross-Channel Analytics) {#stitching}
 
 | Domanda | Risposta |
 | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 3. Inserire dati in [!UICONTROL Customer Journey Analytics]
+## 3. Inserire dati in [!UICONTROL Customer Journey Analytics] {#ingest}
 
 | Domanda | Risposta |
 | --- | --- |
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. Considerazioni sulla latenza
+## 4. Considerazioni sulla latenza {#latency}
 
 >[!NOTE]
 >Non esiste una dimensione fissa dei dati in CJA e pertanto Adobe non può eseguire il commit a un tempo di acquisizione standard. Stiamo lavorando attivamente per ridurre queste latenze attraverso nuovi aggiornamenti e l’ottimizzazione dell’acquisizione.
@@ -59,21 +59,16 @@ ht-degree: 97%
 | --- | --- |
 | Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP. (Dimensione batch > 50 milioni di righe: più di 90 minuti).</li><li>Piccoli backfill - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 24 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
 
+## 5. Imposta la finestra di scorrimento per [!UICONTROL Connection] conservazione dei dati {#data-retention}
 
-## 5. Componenti tradizionali di [!UICONTROL Adobe Analytics]
+>[!IMPORTANT]
+>Contatta l’Assistenza clienti o il tuo account manager Adobe per far sì che questa impostazione sia implementata. Non è ancora disponibile tramite l’interfaccia utente di CJA.
 
-| Domanda | Risposta |
-| --- | --- |
-| Posso condividere/pubblicare [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] a Experience Platform Unified Profile o altre applicazioni Experience Cloud? | Non ancora, ma stiamo mettendo a punto questa funzionalità. |
-| Cos’è successo alla mia vecchia impostazione [!UICONTROL eVar]? | [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query. |
-| Dove sono ora tutte le impostazioni di persistenza relative alla sessione e alle variabili? | [!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati). |
-| Cosa succede ai segmenti o alle metriche calcolate esistenti? | [!UICONTROL Customer Journey Analytics]Al posto di eVar, prop o eventi, utilizza qualsiasi schema AEP. Ciò significa che nessuno dei segmenti o delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics]. |
-| In che modo [!UICONTROL Customer Journey Analytics] gestisce i limiti di `Uniques Exceeded`? | [!UICONTROL Customer Journey Analytics] non ha limiti di valore univoci, quindi non è necessario preoccuparsene. |
-| Se sono già un cliente [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics] | Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuoi casi d’uso attuali potrebbero già essere gestiti con Customer Journey Analytics! |
+Consente di definire un’impostazione di conservazione dei dati CJA come finestra continua in mesi (3 mesi, 6 mesi, ecc.), a un livello [!UICONTROL connection] (non a un livello [!UICONTROL dataset]). La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
 
-{style=&quot;table-layout:auto&quot;}
+Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
-## 6. Implicazioni dell’eliminazione di componenti dati
+## 6. Implicazioni dell’eliminazione di componenti dati {#deletion}
 
 Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di componenti: sandbox, schema, set di dati, connessione, visualizzazione dati e progetto Workspace. Di seguito sono riportati alcuni possibili scenari relativi all’eliminazione di uno di questi componenti:
 
@@ -88,7 +83,7 @@ Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di compone
 | Eliminare una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione di dati in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che tutti i progetti Workspace dipendenti dalla visualizzazione di dati eliminata cesseranno di funzionare. |
 
-## 7. Considerazioni durante l’unione delle suite di rapporti in CJA
+## 7. Considerazioni durante l’unione delle suite di rapporti in CJA {#merge-reportsuite}
 
 Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it), considera queste ramificazioni quando unisci 2 o più suite di rapporti Adobe Analytics.
 
@@ -100,3 +95,60 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 | Valuta | La conversione della valuta non è ancora supportata in CJA. Se le suite di rapporti che stai tentando di unire utilizzano valute di base diverse, potrebbero verificarsi dei problemi. |
 | [!UICONTROL Persistence] | La [persistenza ](../data-views/component-settings/persistence.md) si estende alle varie suite di rapporti, il che ha un impatto su [!UICONTROL filters], [!UICONTROL attribution] e così via. È possibile che i numeri non corrispondano correttamente. |
 | [!UICONTROL Classifications] | I dati di [!UICONTROL Classifications] non vvengono deduplicati automaticamente durante l’unione di suite di rapporti. Quando si combinano più file di classificazione in un singolo set di dati [!UICONTROL lookup], si potrebbero riscontrare dei problemi. |
+
+
+## 8. Componenti tradizionali di [!UICONTROL Adobe Analytics]
+
+| Domanda | Risposta |
+| --- | --- |
+| Posso condividere/pubblicare [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] a Experience Platform Unified Profile o altre applicazioni Experience Cloud? | Non ancora, ma stiamo mettendo a punto questa funzionalità. |
+| Cos’è successo alla mia vecchia impostazione [!UICONTROL eVar]? | [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query. |
+| Dove sono ora tutte le impostazioni di persistenza relative alla sessione e alle variabili? | [!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati). |
+| Cosa succede ai segmenti o alle metriche calcolate esistenti? | [!UICONTROL Customer Journey Analytics]Al posto di eVar, prop o eventi, utilizza qualsiasi schema AEP. Ciò significa che nessuno dei segmenti o delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics]. |
+| In che modo [!UICONTROL Customer Journey Analytics] gestisce i limiti di `Uniques Exceeded`? | [!UICONTROL Customer Journey Analytics] non ha limiti di valore univoci, quindi non è necessario preoccuparsene. |
+| Se sono già un cliente [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics] | Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuoi casi d’uso attuali potrebbero già essere gestiti con Customer Journey Analytics! |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 9. Stimare la dimensione della connessione {#estimate-size}
+
+Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un account accurato dell&#39;utilizzo dei record di dati evento (righe di dati) della tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall&#39;organizzazione**.
+
+1. In [!UICONTROL Customer Journey Analytics], fai clic sulla scheda **[!UICONTROL Connections]**.
+
+   È ora possibile visualizzare un elenco di tutte le connessioni correnti.
+
+1. Fare clic sul nome di ciascuna connessione per accedere a Gestione connessioni.
+
+1. Aggiungi il **[!UICONTROL Records of event data available]** per tutte le connessioni create. (A seconda delle dimensioni della connessione, la visualizzazione del numero potrebbe richiedere del tempo.)
+
+   ![dati evento](assets/event-data.png)
+
+1. Una volta che hai una somma di tutte le righe di dati dell’evento, cerca il diritto &quot;Righe di dati&quot; nel contratto di Customer Journey Analytics firmato dalla tua azienda con Adobe.
+
+   In questo modo si ottiene il numero massimo di righe di dati autorizzati nell&#39;ordine di vendita. Se il numero di righe di dati risultanti dal passaggio 3 è maggiore di questo numero, si verifica un&#39;overage.
+
+1. Per risolvere questa situazione, è possibile scegliere tra diverse opzioni:
+
+   * Cambia il tuo [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#set-rolling-window-for-connection-data-retention).
+   * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
+   * [Eliminare un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * Contatta il tuo Adobe Account Manager per richiedere la licenza di una capacità aggiuntiva.
+
+## 10. Per quanto riguarda gli overage di utilizzo {#overage}
+
+I limiti di utilizzo sono regolarmente monitorati e applicati dall&#39;Adobe. Per &quot;righe di dati&quot; si intendono le righe medie giornaliere di dati disponibili per l’analisi all’interno del Customer Journey Analytics.
+
+Ad esempio, supponiamo che il tuo contratto ti dia diritto a un milione di righe di dati. Supponiamo che al giorno 1 dell&#39;utilizzo del Customer Journey Analytics, si caricino due milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l’utilizzo al massimo impegnato (ovvero, un milione di righe di dati) per il resto del periodo di Licenza. A seconda dei termini contrattuali, è comunque possibile che vengano applicate tariffe di utilizzo eccessive proporzionate per il giorno 1, in quanto hai superato il diritto di licenza &quot;righe di dati&quot;.
+
+## 11. Diagnosticare le discrepanze di dati {#discrepancies}
+
+In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla connessione è diverso dal numero di righe nel set di dati in [!UICONTROL Adobe Experience Platform]. In questo esempio, il set di dati “Impressione B2B” ha 7650 righe, ma il set di dati contiene 3830 righe in [!UICONTROL Adobe Experience Platform]. Ci sono diversi motivi per cui possono verificarsi discrepanze e possono essere adottate le seguenti misure per diagnosticare:
+
+1. Suddividi questa dimensione per **[!UICONTROL Platform Dataset ID]** e noterai due set di dati con le stesse dimensioni ma diversi **[!UICONTROL Platform Dataset IDs]**. Ogni set di dati ha 3825 record. Ciò significa che [!UICONTROL Customer Journey Analytics] ha ignorato 5 record a causa di ID persona mancanti o marche temporali mancanti:
+
+   ![raggruppamento](assets/data-size2.png)
+
+1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Più tardi è stato aggiunto di nuovo al Customer Journey Analytics, ma un [!UICONTROL Platform Dataset ID] è stato generato da [!UICONTROL Adobe Experience Platform].
+
+Ulteriori informazioni sulle [implicazioni del set di dati e dell’eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
