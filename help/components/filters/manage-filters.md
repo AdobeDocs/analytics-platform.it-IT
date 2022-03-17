@@ -2,8 +2,7 @@
 title: Gestire i filtri
 description: Gestire i filtri in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 88%
@@ -18,7 +17,7 @@ Gestione filtri mostra tutti i filtri di tua proprietà e che sono stati condivi
 
 Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]** nella navigazione superiore.
 
-## Interfaccia utente di Gestore filtri
+## Interfaccia utente di Gestore filtri {#ui}
 
 ![](assets/filter-manager-ui.png)
 
@@ -37,7 +36,7 @@ Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** >
 | 13 | Icona Approvato | Indica che il filtro è stato approvato da un amministratore. |
 | 14 | Altri filtri | Consente di visualizzare i filtri per tag, visualizzazioni dati, proprietari e altro (Mostra tutto, Personali, Condivisi con me, Approvati, Preferiti). |
 
-## Pianificare i filtri
+## Pianificare i filtri {#plan}
 
 Dedicare un po&#39; di tempo alla pianificazione dei filtri aumenta le possibilità che siano utili per la tua organizzazione e che il loro numero venga controllato.
 
@@ -55,7 +54,7 @@ Dedicare un po&#39; di tempo alla pianificazione dei filtri aumenta le possibili
 
 * Definisci i filtri con una visualizzazione in una libreria di filtri che consenta agli utenti aziendali di sovrapporre e riutilizzare parti o componenti di filtri in modo modulare. Quali “moduli” è necessario definire per realizzare questa libreria?
 
-### Assegnare tag ai filtri
+### Assegnare tag ai filtri {#tag}
 
 Nel Gestore filtri, assegnare tag ai filtri ti consente di organizzarli. Tutti gli utenti possono creare tag per i filtri e applicarne uno o più a un filtro. Tuttavia, puoi visualizzare solo i tag dei filtri di tua proprietà o che sono stati condivisi con te.
 
@@ -79,12 +78,12 @@ Per assegnare tag a un filtro:
 
    * inserisci un nuovo nome di tag e premi **[!UICONTROL Enter]**.
 
-1. Fai di nuovo clic su **[!UICONTROL Tag]** per assegnare i tag al filtro.
+1. Fai clic su **[!UICONTROL Tag]** per assegnare nuovamente il tag al filtro.
 
 Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
 Puoi anche filtrare i tag andando in **[!UICONTROL Filters > Tags]**.
 
-### Approvare i filtri
+### Approvare i filtri {#approve}
 
 Nel Gestore filtri puoi impostare un flusso di lavoro che includa l’approvazione del filtro per vari livelli di applicazione, per reparti o gruppi specifici e in linea con i criteri di reporting.
 
@@ -104,7 +103,7 @@ Ecco come contrassegnare un filtro come approvato:
 
 1. Puoi anche annullare l’approvazione di un filtro approvato facendo clic su **[!UICONTROL Unapprove]**.
 
-### Condividere i filtri
+### Condividere i filtri {#share}
 
 A seconda delle autorizzazioni, puoi condividere i filtri con l’intera organizzazione, i gruppi o i singoli utenti.
 
@@ -130,7 +129,7 @@ Per condividere un filtro:
 
 1. Puoi filtrare i filtri condivisi con te selezionando Filtri > Altri filtri > Condivisi con me.
 
-### Contrassegnare i filtri come preferiti
+### Contrassegnare i filtri come preferiti {#favorites}
 
 Contrassegnare i filtri come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
 

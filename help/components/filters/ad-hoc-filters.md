@@ -4,31 +4,32 @@ title: Filtri di progetto ad hoc
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 10%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # Filtri di progetto ad hoc
 
+I filtri per progetti ad hoc ti consentono di trascinare e rilasciare qualsiasi componente direttamente nella zona di rilascio del pannello per creare un filtro. Il filtro diventa un [filtro a livello di progetto](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?#what-are-project-only-segments) locale al progetto corrente.
+
 Ecco un video sulla creazione di filtri per progetti ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Puoi creare filtri di progetto ad hoc se desideri esplorare rapidamente in che modo un filtro potrebbe influenzare il progetto, senza passare al Generatore di segmenti. Considera questi filtri come filtri temporanei a livello di progetto. In genere non fanno parte della &quot;libreria&quot; del filtro, come i filtri dei componenti nella barra a sinistra. Tuttavia, puoi salvarli, come illustrato di seguito.
 
-Per un confronto tra le funzioni dei filtri di progetto ad hoc e i filtri a livello di componente a tutti gli effetti, vai [qui](/help/components/filters/filters-overview.md).
+1. 
+   1. Rilascia qualsiasi tipo di componente (dimensione, elemento dimensione, evento, metrica, segmento, modello di segmento, intervallo di date) nella zona di rilascio del filtro nella parte superiore di un pannello. I tipi di componente vengono automaticamente convertiti in filtri ad hoc o [Filtri rapidi](/help/components/filters/quick-filters.md) se compatibile.
 
-1. Rilascia qualsiasi tipo di componente (dimensione, elemento dimensione, evento, metrica, filtro, modello di filtro, intervallo di date) nella zona di rilascio del filtro nella parte superiore di un pannello. I tipi di componente vengono automaticamente convertiti in filtri.
-Ecco un esempio di come creare un filtro per il dominio di riferimento Twitter:
+   Ecco un esempio di come creare un filtro per il dominio di riferimento Twitter:
 
    ![](assets/ad-hoc1.png)
 
    Il pannello applica automaticamente questo filtro e potrai vedere immediatamente i risultati.
 
-1. Puoi aggiungere a un pannello un numero illimitato di componenti.
+1. Puoi aggiungere un numero illimitato di filtri a un pannello.
 1. Se decidi di salvare questo filtro, consulta la sezione seguente.
 
 Nota bene:
@@ -37,19 +38,14 @@ Nota bene:
 * Per eventi e dimensioni complete, Analysis Workspace crea filtri hit &quot;exists&quot; (esiste). Esempi: `Hit where eVar1 exists` o `Hit where event1 exists`.
 * Se nella zona di rilascio del filtro viene rilasciato &quot;non specificato&quot; o &quot;nessuno&quot;, questo viene automaticamente convertito in un filtro &quot;non esiste&quot; in modo che venga trattato correttamente nel filtro.
 
->[!NOTE]
->
->I segmenti creati in questo modo sono interni al progetto.
-
 ## Salvare filtri di progetto ad hoc {#ad-hoc-save}
 
 Puoi scegliere di salvare questi filtri seguendo questi passaggi:
 
 1. Passa il puntatore del mouse sul filtro nella zona di rilascio e fai clic sull’icona &quot;i&quot;.
-1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Save]**.
+1. Fai clic sulla matita di modifica per passare al Generatore di filtri.
+1. Controlla **[!UICONTROL Make available to all projects and add to your component list]**.
+1. Fai clic su **[!UICONTROL SAVE]**.
 
-   ![](assets/segment-info.png)
+Una volta salvato, il filtro è disponibile nell’elenco dei componenti della barra a sinistra e può essere condiviso con altri utenti dal Gestore filtri.
 
-## Cosa sono i filtri per soli progetti?
-
-I filtri solo progetto sono filtri rapidi o filtri di progetto ad hoc di Workspace. Quando li si modifica/apre nel generatore di filtri, viene visualizzata la casella solo progetto. Se si applica un filtro rapido nel generatore ma non si seleziona la casella rendi disponibile, si tratta comunque di un filtro solo progetto, ma non può più essere aperto nel generatore QS. Se selezionano la casella e salvano ora è un filtro elenco di componenti.
