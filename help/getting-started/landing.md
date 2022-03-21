@@ -3,9 +3,9 @@ description: Spiega le funzioni della nuova pagina di destinazione .
 title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 186c462c363660970080acbb9a906c4cf8254df8
+source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '979'
 ht-degree: 58%
 
 ---
@@ -32,15 +32,13 @@ Dopo aver effettuato l&#39;accesso a Adobe Experience Cloud e al Customer Journe
 
 [!UICONTROL Projects] funge da pagina home di [!UICONTROL Workspace]. Tutti i progetti Workspace vengono visualizzati qui, comprese le scorecard per dispositivi mobili. **[!UICONTROL Projects]** sono cose che hai creato o che un altro utente ha creato e condiviso con te. [!UICONTROL Projects] fa riferimento anche a progetti vuoti e scorecard per dispositivi mobili vuote.
 
-![Destinazione completa](assets/landing-all.png)
-
 >[!NOTE]
 >
 >Molte delle seguenti impostazioni persistono (vengono ricordate) sia durante la sessione che tra sessioni diverse. Esempi: scheda attiva, filtri selezionati, colonne selezionate e direzione dell’ordinamento delle colonne. Tuttavia, i risultati delle ricerche non vengono mantenuti.
 
 | Elemento nell’interfaccia utente | Definizione |
 | --- | --- |
-| ... Altro | Consente di [!UICONTROL View Tutorials] e [modificare le preferenze utente](/help/analyze/analysis-workspace/user-preferences.md). |
+| ... Altro | Consente di [!UICONTROL View Tutorials] e [modificare le preferenze utente](/help/analysis-workspace/user-preferences.md). |
 | **[!UICONTROL Create new]** il modale è tornato | Quando fai clic su **[!UICONTROL Create new]** in Workspace, puoi nuovamente scegliere tra un [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. |
 | [!UICONTROL Show less/more] | Consente di passare dalla visualizzazione o meno del banner: ![Banner superiore](assets/top-banner.png) |
 | [!UICONTROL Blank project] | Crea un [progetto Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) vuoto da compilare. |
@@ -52,7 +50,7 @@ Dopo aver effettuato l&#39;accesso a Adobe Experience Cloud e al Customer Journe
 | Casella di selezione | Failic su questa casella accanto a uno o più progetti per visualizzare le azioni di gestione del progetto eseguibili: Elimina, Assegna tag, Fissa, Approva, Condividi, Rinomina, Copia ed Esporta in CSV. Potresti non disporre delle autorizzazioni necessarie per eseguire tutte queste azioni. |
 | [!UICONTROL Favorites] | Se imposti un progetto come Preferito, viene contrassegnato da una stella e verrà incluso tra i risultati del filtro Preferiti. |
 | [!UICONTROL Name] | Nome del progetto. |
-| Icona Info (i) | Fai clic sull’icona Informazioni per visualizzare i seguenti dati sul progetto: Tipo, Ruolo progetto, Proprietario, Descrizione e con chi è condiviso. Indica anche chi può [modificare o duplicare](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/curate-share/share-projects.html) il progetto. |
+| Icona Info (i) | Fai clic sull’icona Informazioni per visualizzare i seguenti dati sul progetto: Tipo, Ruolo progetto, Proprietario, Descrizione e con chi è condiviso. Indica anche chi può [modificare o duplicare](/help/analysis-workspace/curate-share/share-projects.md) il progetto. |
 | Puntini di sospensione (…) | Fai clic sui puntini di sospensione accanto a un progetto per visualizzare le azioni di gestione del progetto disponibili: Elimina, Assegna tag, Fissa, Approva, Condividi, Rinomina, Copia ed Esporta in CSV. Potresti non disporre delle autorizzazioni necessarie per eseguire tutte queste azioni. |
 | [!UICONTROL Type] | Indica se si tratta di un progetto Workspace o di una scorecard per dispositivi mobili. |
 | [!UICONTROL Tags] | Puoi assegnare tag ai rapporti per organizzarli in gruppi. |
@@ -62,7 +60,7 @@ Dopo aver effettuato l&#39;accesso a Adobe Experience Cloud e al Customer Journe
 | [!UICONTROL Shared with] | Con chi è stato condiviso questo progetto. |
 | [!UICONTROL Last Modified] | Data dell&#39;ultima modifica al progetto. |
 | [!UICONTROL Last opened] | Indica l’ultima volta che hai aperto il progetto. |
-| [!UICONTROL Scheduled] | Imposta su [!UICONTROL On] quando un progetto è pianificato o **[!UICONTROL Off]** quando non lo è. Fai clic su **[!UICONTROL On]** link ti consente di visualizzare informazioni sul progetto pianificato. È inoltre possibile [modifica la pianificazione del progetto](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) se sei il proprietario del progetto. |
+| [!UICONTROL Scheduled] | Imposta su [!UICONTROL On] quando un progetto è pianificato o **[!UICONTROL Off]** quando non lo è. Fai clic su **[!UICONTROL On]** link ti consente di visualizzare informazioni sul progetto pianificato. È inoltre possibile [modifica la pianificazione del progetto](/help/analysis-workspace/curate-share/t-schedule-report.md) se sei il proprietario del progetto. |
 | [!UICONTROL Project ID] | L’ID del progetto può essere utilizzato per il debug dei progetti. |
 | [!UICONTROL Longest Date Range] | Intervalli di date più lunghi aumentano la complessità del progetto e possono aumentare i tempi di elaborazione e caricamento. |
 | [!UICONTROL Number of Queries] | Un numero più elevato di query di progetto aumenta la complessità del progetto e può aumentare i tempi di elaborazione e caricamento. |
