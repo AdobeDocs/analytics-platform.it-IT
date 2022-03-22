@@ -3,10 +3,11 @@ description: Spiega le funzioni della nuova pagina di destinazione .
 title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
+exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
+source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '1007'
+ht-degree: 57%
 
 ---
 
@@ -63,7 +64,7 @@ Dopo aver effettuato l&#39;accesso a Adobe Experience Cloud e al Customer Journe
 | [!UICONTROL Scheduled] | Imposta su [!UICONTROL On] quando un progetto è pianificato o **[!UICONTROL Off]** quando non lo è. Fai clic su **[!UICONTROL On]** link ti consente di visualizzare informazioni sul progetto pianificato. È inoltre possibile [modifica la pianificazione del progetto](/help/analysis-workspace/curate-share/t-schedule-report.md) se sei il proprietario del progetto. |
 | [!UICONTROL Project ID] | L’ID del progetto può essere utilizzato per il debug dei progetti. |
 | [!UICONTROL Longest Date Range] | Intervalli di date più lunghi aumentano la complessità del progetto e possono aumentare i tempi di elaborazione e caricamento. |
-| [!UICONTROL Number of Queries] | Un numero più elevato di query di progetto aumenta la complessità del progetto e può aumentare i tempi di elaborazione e caricamento. |
+| [!UICONTROL Number of Queries] | Il numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero più elevato di query di progetto aumenta la complessità del progetto e può aumentare i tempi di elaborazione e caricamento. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. |
 | Icona Personalizza tabella | (In alto a destra) Per aggiungere o rimuovere colonne dall’elenco dei progetti, selezionale o deselezionale. |
 | &lt; (pulsante Indietro) | Questo pulsante in un progetto Workspace ti riporta alla configurazione della pagina di destinazione più recente. Quando torni alla pagina di destinazione, ritrovi la stessa configurazione che era attiva al momento in cui hai lasciato la pagina. |
 
