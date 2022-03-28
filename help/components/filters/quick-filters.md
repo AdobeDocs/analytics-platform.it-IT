@@ -4,9 +4,9 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '966'
 ht-degree: 18%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 Puoi creare filtri rapidi all’interno di un progetto per evitare la complessità del [Generatore di filtri](/help/components/filters/create-filters.md). Filtri rapidi
 
-* Applica come [segmenti solo progetto](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?lang=en#what-are-project-only-filters).
+* Applica come [segmenti solo progetto](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html).
 * Consenti fino a 3 regole
 * Non inserire contenitori nidificati o regole sequenziali.
 
@@ -99,7 +99,7 @@ Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei co
 1. Il filtro viene ora visualizzato nell’elenco dei componenti filtro per tutti i progetti.
 1. È inoltre possibile [condividere il filtro](/help/components/filters/manage-filters.md) con altre persone della tua organizzazione.
 
-## Cosa sono i filtri per soli progetti?
+## Cosa sono i filtri per soli progetti? {#project-only}
 
 I filtri per soli progetti sono filtri applicabili solo al progetto corrente in cui sono stati creati. Non sono disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono progettati per un’esplorazione rapida dei dati senza dover creare e salvare un filtro nella barra a sinistra. I filtri per soli progetti possono essere creati nella zona di rilascio del pannello con i filtri rapidi o [filtri ad hoc](/help/components/filters/ad-hoc-filters.md).
 
