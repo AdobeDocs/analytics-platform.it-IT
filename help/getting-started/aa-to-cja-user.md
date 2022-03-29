@@ -4,10 +4,10 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
+source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 15%
+source-wordcount: '952'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 >
 >Questa pagina è in costruzione.
 
-Congratulazioni, la tua azienda sta iniziando a lavorare con il Customer Journey Analytics! In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune grandi differenze e alcune somiglianze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
+Congratulazioni, la tua azienda sta iniziando a lavorare Customer Journey Analytics! In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune grandi differenze e alcune somiglianze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
 
 ## Cosa non è cambiato
 
@@ -28,7 +28,7 @@ Molte delle cose che hai familiarità con il reporting non sono cambiate.
 * Hai anche la stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) a vostra disposizione. Workspace e dashboard funzionano allo stesso modo dei tradizionali Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) dispone di una nuova interfaccia ed è ora in esecuzione su PC, Mac e la versione Web di Excel.
 
-Quando si tratta di reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni multicanale che includono una serie di origini dati cross-channel:
+Quando si tratta di reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni che includono origini dati cross-channel:
 
 ![visualizzazioni multicanale](assets/cross-channel.png)
 
@@ -38,7 +38,7 @@ Il Customer Journey Analytics ottiene i suoi dati da Adobe Experience Platform. 
 
 In Platform i dati del cliente vengono memorizzati come set di dati, costituiti da uno schema e da un batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
-Il tuo amministratore CJA ha stabilito [connessioni](/help/connections/create-connection.md) ai set di dati in Platform. Hanno poi costruito [visualizzazioni dati](/help/data-views/data-views.md) all&#39;interno di tali connessioni. Considera le visualizzazioni dati come simili alle suite di rapporti virtuali. Le visualizzazioni dati sono la base per la generazione di rapporti in Customer Journey Analytics.
+Il tuo amministratore CJA ha stabilito [connessioni](/help/connections/create-connection.md) ai set di dati in Platform. Hanno poi costruito [visualizzazioni dati](/help/data-views/data-views.md) all&#39;interno di tali connessioni. Considera le visualizzazioni dati come simili alle suite di rapporti virtuali. Le visualizzazioni dati sono la base per la generazione di rapporti in Customer Journey Analytics. Il concetto di suite di rapporti non esiste più.
 
 ## Nuovi concetti e terminologia
 
@@ -72,17 +72,30 @@ Al momento, non puoi condividere/pubblicare [!UICONTROL filters] ([!UICONTROL se
 * Se desideri spostare le metriche calcolate di Adobe Analytics sul Customer Journey Analytics, visualizza [questo video](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=it).
 * In caso contrario, ricreate le metriche calcolate in Customer Journey Analytics.
 
-### Impostazioni di persistenza della sessione e della variabile
-
-[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento del report e queste impostazioni ora risiedono in [visualizzazioni dati](help/data-views/component-settings/persistence.md). Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati!
-
 ### Le suite di rapporti virtuali ora sono &quot;visualizzazioni dati&quot;
 
 Le visualizzazioni dati prendono il concetto di suite di rapporti virtuali così come sono oggi, e lo espandono per [abilitare controlli aggiuntivi sui dati](/help/data-views/create-dataview.md) reso disponibile tramite connessioni. Questo rende configurabili intervalli di timeout e timeout della sessione. Puoi anche applicare dinamicamente le proprietà di attribuzione e scadenza per le singole dimensioni. Tieni presente che questi vengono applicati retroattivamente su tutti i dati.
 
+**Cosa devi fare**:
+
+* Acquisisci familiarità con i molti casi d’uso relativi alle visualizzazioni dati.
+* In Workspace, il selettore suite di rapporti a cui sei abituato ti consente di scegliere tra le visualizzazioni dati che il tuo amministratore ha condiviso con te:
+
+   ![data-view-selector](assets/data-views.png)
+
 ### Dati di più suite di rapporti
 
-Le implementazioni esistenti da più set di dati possono essere combinate in Experience Platform.
+Le implementazioni esistenti da più set di dati possono essere combinate in Experience Platform. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati esistenti in precedenza in suite di rapporti separate.
+
+**Cosa devi fare**:
+
+
+### Impostazioni di persistenza della sessione e della variabile
+
+[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento del report e queste impostazioni ora risiedono in [visualizzazioni dati](help/data-views/component-settings/persistence.md). Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati!
+
+**Cosa devi fare**:
+
 
 ### Le classificazioni sono ora &quot;Set di dati di ricerca&quot;
 
@@ -91,11 +104,15 @@ Le implementazioni esistenti da più set di dati possono essere combinate in Exp
 
 ### I contenitori sono stati rinominati
 
-Specifica un contenitore per [ogni visualizzazione dati creata](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers). Puoi rinominare qualsiasi contenitore in base alle esigenze della tua organizzazione.
-
+Specifica un contenitore per [ogni visualizzazione dati creata](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
 * **I contenitori Hit ora sono contenitori &quot;Evento&quot;**. La [!UICONTROL Person] Il contenitore include ogni sessione e evento per i visitatori entro l’intervallo di tempo specificato.
 * **I contenitori delle visite ora sono contenitori &quot;Sessione&quot;**. La [!UICONTROL Session] Il contenitore ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica.
 * **I contenitori dei visitatori ora sono [!UICONTROL Person] contenitori**. La [!UICONTROL Person] Il contenitore include ogni sessione e evento per i visitatori entro l’intervallo di tempo specificato.
+
+**Cosa devi fare**:
+
+Puoi rinominare qualsiasi contenitore in base alle esigenze della tua organizzazione.
+
 
 ### `Uniques Exceeded` limitazioni
 
