@@ -4,7 +4,7 @@ description: Tutte le impostazioni che è possibile modificare per creare o modi
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
+source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 4%
@@ -19,14 +19,14 @@ Panoramica video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## Configurare una visualizzazione dati
+## Configurare una visualizzazione dati {#configure}
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e vai al **[!UICONTROL Data Views]** scheda .
 2. Fai clic su **[!UICONTROL Add]** per creare una visualizzazione dati, oppure fare clic su una visualizzazione dati esistente per modificarla.
 
 ![Nuova visualizzazione dati](assets/new-data-view.png)
 
-### Impostazioni della visualizzazione dati
+### Impostazioni della visualizzazione dati {#settings}
 
 Fornisce impostazioni generali per la visualizzazione dati.
 
@@ -36,9 +36,9 @@ Fornisce impostazioni generali per la visualizzazione dati.
 | [!UICONTROL Name] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nel menu a discesa in alto a destra in Analysis Workspace. |
 | [!UICONTROL Description] | Facoltativo. L’Adobe consiglia una descrizione dettagliata in modo che gli utenti comprendano perché esiste la visualizzazione dati e per chi è progettata. |
 
-### Contenitori
+### Contenitori {#containers}
 
-Designa il nome dei contenitori per la visualizzazione dati. I nomi dei contenitori vengono spesso utilizzati in [Filtri](/help/components/filters/filters-overview.md#Filter-containers).
+Designa il nome dei contenitori per la visualizzazione dati. I nomi dei contenitori vengono spesso utilizzati in [filtri](/help/components/filters/filters-overview.md#Filter-containers).
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -46,7 +46,7 @@ Designa il nome dei contenitori per la visualizzazione dati. I nomi dei contenit
 | [!UICONTROL Session container name] | [!UICONTROL Session] (impsotazione predefinita). La [!UICONTROL Session] Il contenitore ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominare questo contenitore in &quot;Visita&quot; o in qualsiasi altro termine preferito dalla tua organizzazione. |
 | [!UICONTROL Event container name] | [!UICONTROL Event] (impsotazione predefinita). La [!UICONTROL Event] Il contenitore definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, &quot;Hits&quot; o &quot;Page Views&quot;), è possibile rinominare il contenitore qui. |
 
-### Calendario
+### Calendario {#calendar}
 
 Indica il formato del calendario che si desidera che venga seguito dalla visualizzazione dati. Puoi avere più visualizzazioni dati basate sullo stesso [Connessione](/help/connections/create-connection.md) e assegnare loro diversi tipi di calendario o fusi orari. Queste visualizzazioni dati possono consentire ai team che utilizzano diversi tipi di calendario di soddisfare le rispettive esigenze con gli stessi dati sottostanti.
 
@@ -58,7 +58,7 @@ Indica il formato del calendario che si desidera che venga seguito dalla visuali
 | [!UICONTROL First day of current year] | Visibile per tipi di calendario personalizzati. Specificare il giorno dell&#39;anno che si desidera che inizi l&#39;anno corrente. Il calendario formatta automaticamente il primo giorno di ogni settimana in base a questo valore. |
 | [!UICONTROL Year in which the "extra" week occurs] | Con la maggior parte dei calendari di 364 giorni (52 settimane di 7 giorni ciascuno), ogni anno accumula i giorni rimasti fino a formare una settimana supplementare. Questa settimana supplementare viene quindi aggiunta all’ultimo mese dell’anno. Specifica a quale anno desideri aggiungere la settimana supplementare. |
 
-## Impostare i componenti di una visualizzazione dati
+## Impostare i componenti di una visualizzazione dati {#set-components}
 
 Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare i componenti Standard .
 
@@ -89,13 +89,13 @@ Successivamente, puoi creare metriche e dimensioni dagli elementi dello schema. 
    * [[!UICONTROL Persistence]](component-settings/persistence.md)
    * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
 
-## Duplicare metriche o dimensioni
+## Duplicare metriche o dimensioni {#duplicate}
 
 Duplicare metriche o dimensioni e quindi modificare impostazioni specifiche è un modo semplice per creare più metriche o dimensioni da un singolo campo dello schema. Seleziona la [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome più descrittivo.
 
 ![Duplica](assets/duplicate.png)
 
-## Filtrare campi o set di dati dello schema
+## Filtrare campi o set di dati dello schema {#filter}
 
 Puoi filtrare i campi dello schema nella barra a sinistra in base ai seguenti tipi di dati:
 
@@ -105,20 +105,18 @@ Puoi anche filtrare per set di dati e specificando se un campo di schema contien
 
 ![Filtra altri](assets/filter-other.png)
 
-## Scheda Impostazioni
+## Scheda Impostazioni {#settings-tab}
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e vai al **[!UICONTROL Data Views]** scheda .
 1. Fai clic su **[!UICONTROL Add]** per creare una visualizzazione dati, oppure fare clic su una visualizzazione dati esistente per modificarla.
 1. Fai clic sulla scheda **[!UICONTROL Settings]**.
 
-### Filtro globale
+### Filtro globale {#global-filter}
 
 Puoi aggiungere filtri applicabili a un’intera visualizzazione dati. Questo filtro viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un filtro dall’elenco nella barra a sinistra fino al [!UICONTROL Add filters] campo .
 
-### Impostazioni sessione
+### Impostazioni sessione {#sessions}
 
-Determina il periodo di tempo di inattività tra gli eventi prima della scadenza di una sessione e l’avvio di una nuova.
-
-È necessario un periodo di tempo. Facoltativamente, puoi anche forzare l’avvio di una nuova sessione quando un evento contiene una determinata metrica.
+Determina il periodo di tempo di inattività tra gli eventi prima della scadenza di una sessione e l’avvio di una nuova. È necessario un periodo di tempo. Facoltativamente, puoi anche forzare l’avvio di una nuova sessione quando un evento contiene una determinata metrica.
 
 Una volta specificate tutte le impostazioni desiderate, fai clic su **[!UICONTROL Save and finish]**.

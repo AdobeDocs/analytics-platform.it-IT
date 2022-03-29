@@ -4,10 +4,10 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
+source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 24%
+source-wordcount: '867'
+ht-degree: 15%
 
 ---
 
@@ -44,9 +44,13 @@ Il tuo amministratore CJA ha stabilito [connessioni](/help/connections/create-co
 
 Diverse funzioni di CJA sono state rinominate e riarchitettate, se confrontate con il tradizionale Adobe Analytics, per allinearsi agli standard di settore. Alcuni termini aggiornati includono segmenti, suite di rapporti virtuali, classificazioni, attributi cliente e nomi di contenitori. Concetti familiari come eVar e prop non esistono più, insieme ai limiti imposti.
 
-### eVar e proprietà
+### Non più eVar e proprietà
 
 [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query.
+
+**Cosa devi fare**:
+
+* Acquisisci familiarità con i molti modi possibili
 
 ### I segmenti sono ora &quot;Filtri&quot;
 
@@ -54,28 +58,44 @@ Diverse funzioni di CJA sono state rinominate e riarchitettate, se confrontate c
 
 Al momento, non puoi condividere/pubblicare [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] ad Experience Platform Unified Profile o altre applicazioni Experience Cloud. Questa funzionalità è in fase di sviluppo.
 
+**Cosa devi fare**:
+
+* Se desideri spostare i segmenti Adobe Analytics esistenti sul Customer Journey Analytics, visualizza [questo video](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=it).
+* In caso contrario, ricreate i filtri nel Customer Journey Analytics.
+
 ### Metriche calcolate
 
 [!UICONTROL Customer Journey Analytics]Al posto di eVar, prop o eventi, utilizza qualsiasi schema AEP. Ciò significa che nessuna delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics].
 
+**Cosa devi fare**:
+
+* Se desideri spostare le metriche calcolate di Adobe Analytics sul Customer Journey Analytics, visualizza [questo video](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=it).
+* In caso contrario, ricreate le metriche calcolate in Customer Journey Analytics.
+
 ### Impostazioni di persistenza della sessione e della variabile
 
-[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati).
+[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento del report e queste impostazioni ora risiedono in [visualizzazioni dati](help/data-views/component-settings/persistence.md). Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati!
 
 ### Le suite di rapporti virtuali ora sono &quot;visualizzazioni dati&quot;
 
+Le visualizzazioni dati prendono il concetto di suite di rapporti virtuali così come sono oggi, e lo espandono per [abilitare controlli aggiuntivi sui dati](/help/data-views/create-dataview.md) reso disponibile tramite connessioni. Questo rende configurabili intervalli di timeout e timeout della sessione. Puoi anche applicare dinamicamente le proprietà di attribuzione e scadenza per le singole dimensioni. Tieni presente che questi vengono applicati retroattivamente su tutti i dati.
 
+### Dati di più suite di rapporti
+
+Le implementazioni esistenti da più set di dati possono essere combinate in Experience Platform.
 
 ### Le classificazioni sono ora &quot;Set di dati di ricerca&quot;
 
 ### Gli attributi del cliente sono ora &quot;Set di dati di profilo&quot;
 
 
-### I contenitori Hit ora sono contenitori &quot;Evento&quot;
+### I contenitori sono stati rinominati
 
-### I contenitori delle visite ora sono contenitori &quot;Sessione&quot;
+Specifica un contenitore per [ogni visualizzazione dati creata](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers). Puoi rinominare qualsiasi contenitore in base alle esigenze della tua organizzazione.
 
-### I contenitori dei visitatori ora sono contenitori &quot;Persona&quot;
+* **I contenitori Hit ora sono contenitori &quot;Evento&quot;**. La [!UICONTROL Person] Il contenitore include ogni sessione e evento per i visitatori entro l’intervallo di tempo specificato.
+* **I contenitori delle visite ora sono contenitori &quot;Sessione&quot;**. La [!UICONTROL Session] Il contenitore ti consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica.
+* **I contenitori dei visitatori ora sono [!UICONTROL Person] contenitori**. La [!UICONTROL Person] Il contenitore include ogni sessione e evento per i visitatori entro l’intervallo di tempo specificato.
 
 ### `Uniques Exceeded` limitazioni
 
