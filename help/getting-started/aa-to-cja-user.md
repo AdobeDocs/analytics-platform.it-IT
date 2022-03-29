@@ -4,9 +4,9 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d31f07d8b26ea4d60481c040a0ca1ba491d4ecf0
+source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '630'
 ht-degree: 24%
 
 ---
@@ -22,9 +22,15 @@ Congratulazioni, la tua azienda sta iniziando a lavorare con il Customer Journey
 
 ## Cosa non è cambiato
 
-Molte delle cose che hai familiarità con il reporting non sono cambiate. Puoi comunque utilizzare la potenza di Analysis Workspace per analizzare i tuoi dati. Hai anche la stessa versione delle dashboard di Adobe Analytics a tua disposizione. Workspace e dashboard funzionano essenzialmente come nelle tradizionali Adobe Analytics. Il Report Builder dispone di una nuova interfaccia ed è ora in esecuzione su PC, computer Mac e la versione Web di Excel. Dal punto di vista del reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di visualizzazioni multicanale:
+Molte delle cose che hai familiarità con il reporting non sono cambiate.
 
-![multicanale](assets/cross-channel.png)
+* È comunque possibile utilizzare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati.
+* Hai anche la stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) a vostra disposizione. Workspace e dashboard funzionano allo stesso modo dei tradizionali Adobe Analytics.
+* [Report Builder](/help/report-builder/report-buider-overview.md) dispone di una nuova interfaccia ed è ora in esecuzione su PC, Mac e la versione Web di Excel.
+
+Quando si tratta di reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni multicanale che includono una serie di origini dati cross-channel:
+
+![visualizzazioni multicanale](assets/cross-channel.png)
 
 ## Nuova architettura
 
