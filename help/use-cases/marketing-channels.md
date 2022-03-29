@@ -4,10 +4,10 @@ description: Utilizza il Connettore dati di Analytics per inserire le regole di 
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 1%
+source-wordcount: '957'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ Se l&#39;organizzazione utilizza la variabile [Connettore dati di Analytics](htt
 ## Prerequisiti
 
 * I dati della suite di rapporti devono già essere importati in Adobe Experience Platform utilizzando [Connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Altre origini di dati non sono supportate, in quanto i canali di marketing si basano sulle regole di elaborazione in una suite di rapporti di Analytics.
-* Le regole di elaborazione del canale di marketing devono già essere configurate. Vedi [Regole di elaborazione per i canali di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html) nella guida ai componenti tradizionali di Analytics.
+* Le regole di elaborazione del canale di marketing devono già essere configurate. Vedi [Regole di elaborazione per i canali di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=it) nella guida ai componenti tradizionali di Analytics.
 
 ## Elementi dello schema del canale di marketing
 
@@ -39,9 +39,13 @@ Le dimensioni del tuo canale di marketing sono ora disponibili per l’uso in An
 >
 >Esistono diverse differenze fondamentali di dati tra i dati della suite di rapporti e i dati della piattaforma. L’Adobe consiglia vivamente di regolare le regole di elaborazione dei canali di marketing della suite di rapporti per facilitare la corretta raccolta dei dati in Platform.
 
+>[!NOTE]
+>
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=it).
+
 Le impostazioni del canale di marketing operano in modo diverso tra i dati della piattaforma e i dati della suite di rapporti. Quando si impostano i canali di marketing per CJA, considera le seguenti differenze:
 
-* **È la prima pagina della visita**: Questo criterio della regola è comune in diverse definizioni di canale di marketing predefinite. Qualsiasi regola di elaborazione che contiene questo criterio viene ignorata in Platform (altri criteri nella stessa regola vengono comunque applicati). Le sessioni vengono determinate al momento della query dei dati anziché al momento della raccolta dei dati, impedendo a Platform di utilizzare questo criterio di regola specifico. Adobe consiglia di rimuovere i criteri &quot;Is First Page of Visit&quot; da ogni regola di elaborazione del canale di marketing.
+* **È la prima pagina della visita**: Questo criterio della regola è comune in diverse definizioni di canale di marketing predefinite. Qualsiasi regola di elaborazione che contiene questo criterio viene ignorata in Platform (altri criteri nella stessa regola vengono comunque applicati). Le sessioni vengono determinate al momento della query dei dati anziché al momento della raccolta dei dati, impedendo a Platform di utilizzare questo criterio di regola specifico. Adobe consiglia di rivalutare eventuali regole di elaborazione del canale di marketing contenenti i criteri &quot;Is First Page of Visit&quot;, optando per approcci alternativi che raggiungono i tuoi obiettivi.
 
    ![Prima pagina di visita](assets/first-page-of-visit.png)
 
