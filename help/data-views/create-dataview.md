@@ -4,16 +4,20 @@ description: Tutte le impostazioni che è possibile modificare per creare o modi
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 3%
+source-wordcount: '1139'
+ht-degree: 4%
 
 ---
 
 # Creare o modificare una visualizzazione di dati
 
 La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. La maggior parte degli elementi dello schema può essere una dimensione o una metrica a seconda dei requisiti aziendali. Una volta trascinato un elemento dello schema in una visualizzazione dati, le opzioni vengono visualizzate a destra del punto in cui è possibile regolare il funzionamento della dimensione o della metrica in CJA.
+
+Panoramica video sull’argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
 ## Configurare una visualizzazione dati
 
