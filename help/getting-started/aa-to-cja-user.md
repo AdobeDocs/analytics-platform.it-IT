@@ -4,9 +4,9 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '964'
 ht-degree: 14%
 
 ---
@@ -24,8 +24,8 @@ Congratulazioni, la tua azienda sta iniziando a lavorare Customer Journey Analyt
 
 Molte delle cose che hai familiarità con il reporting non sono cambiate.
 
-* È comunque possibile utilizzare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati.
-* Hai anche la stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) a vostra disposizione. Workspace e dashboard funzionano allo stesso modo dei tradizionali Adobe Analytics.
+* È comunque possibile utilizzare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati. Workspace funziona come in Adobe Analytics tradizionale.
+* Hai anche la stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) a vostra disposizione. Le dashboard (anche come app Mobile) funzionano allo stesso modo di Adobe Analytics tradizionale.
 * [Report Builder](/help/report-builder/report-buider-overview.md) dispone di una nuova interfaccia ed è ora in esecuzione su PC, Mac e la versione Web di Excel.
 
 Quando si tratta di reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni che includono origini dati cross-channel:
@@ -78,10 +78,11 @@ Le visualizzazioni dati prendono il concetto di suite di rapporti virtuali così
 
 **Cosa devi fare**:
 
-* Acquisisci familiarità con i molti casi d’uso relativi alle visualizzazioni dati.
 * In Workspace, il selettore suite di rapporti a cui sei abituato ti consente di scegliere tra le visualizzazioni dati che il tuo amministratore ha condiviso con te:
 
    ![data-view-selector](assets/data-views.png)
+
+* Familiarizza con i molti [casi di utilizzo intorno alle visualizzazioni dati](/help/data-views/data-views-usecases.md).
 
 ### Dati di più suite di rapporti
 

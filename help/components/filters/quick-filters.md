@@ -4,9 +4,9 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '988'
 ht-degree: 18%
 
 ---
@@ -20,6 +20,10 @@ Puoi creare filtri rapidi all’interno di un progetto per evitare la complessit
 * Non inserire contenitori nidificati o regole sequenziali.
 
 Per un confronto tra ciò che i filtri rapidi possono fare e i filtri elenco componenti completi, vai [qui](/help/components/filters/filters-overview.md).
+
+Ecco un video sui filtri rapidi (nota che utilizza invece il termine &quot;segmenti rapidi&quot;). Tuttavia, la funzionalità è la stessa.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Prerequisiti {#prereqs}
 
