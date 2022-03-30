@@ -4,18 +4,18 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
+source-git-commit: a1bb56c5a7e6d3bb6b59e2cf3448409d85ec2efa
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '991'
 ht-degree: 18%
 
 ---
 
 # Filtri rapidi
 
-Puoi creare filtri rapidi all’interno di un progetto per evitare la complessità del [Generatore di filtri](/help/components/filters/create-filters.md). Filtri rapidi
+You can create quick filters within a project to bypass the complexity of the full [Filter Builder](/help/components/filters/create-filters.md). Filtri rapidi
 
-* Applica come [segmenti solo progetto](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html).
+* Applica come [filtri solo progetto](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en#project-only).
 * Consenti fino a 3 regole
 * Non inserire contenitori nidificati o regole sequenziali.
 
@@ -27,7 +27,7 @@ Ecco un video sui filtri rapidi (nota che utilizza invece il termine &quot;segme
 
 ## Prerequisiti {#prereqs}
 
-Chiunque può creare un segmento rapido. Tuttavia, devi disporre dell’autorizzazione per la creazione dei segmenti nella sezione [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=it#analytics-tools) per salvare un segmento rapido o aprirlo nel Generatore di segmenti.
+Chiunque può creare un filtro rapido. Tuttavia, è necessaria l&#39;autorizzazione Creazione filtro nella [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=it#analytics-tools) per salvare un filtro rapido o aprirlo nel Generatore di filtri.
 
 ## Creare filtri rapidi {#create}
 
@@ -40,7 +40,7 @@ In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione
 | [!UICONTROL Name] | Il nome predefinito di un filtro è una combinazione dei nomi delle regole nel filtro. È possibile rinominare il filtro in un nome più semplice. |
 | [!UICONTROL Include/exclude] | Puoi includere o escludere componenti nella definizione del filtro, ma non entrambi. |
 | [!UICONTROL Hit/Visit/Visitor] container | I filtri rapidi ne includono uno [contenitore filtro](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) solo che ti consente di includere una dimensione/metrica/intervallo di date nel filtro (o escluderlo da esso). [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite, mentre un contenitore [!UICONTROL Hit] consente di suddividere le informazioni del visitatore in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
-| [!UICONTROL Components] (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni, metriche, intervalli di date o valori di dimensione). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di [!UICONTROL Quick Filter] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
+| [!UICONTROL Components] (Dimension/metrica/intervallo di date) | Define up to 3 rules by adding components (dimensions, metrics, date ranges, or dimension values). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di [!UICONTROL Quick Filter] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
 | [!UICONTROL Operator] | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. Vedi [Operatori di filtro](operators.md). |
 | Segno più (+) | Aggiunge un’altra regola, |
 | Qualificatori AND/OR | Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di filtro. |
@@ -73,12 +73,12 @@ Puoi scegliere di salvare i filtri rapidi nella [!UICONTROL Quick Filter Builder
 
 ### Salva nel generatore di filtri rapidi {#save2}
 
-1. Dopo aver applicato il filtro rapido, passa il cursore sopra di esso e seleziona l’icona info (&quot;i&quot;).
+1. Once you have applied the quick filter, hover over it and select the info (&quot;i&quot;) icon.
 1. Fai clic su **[!UICONTROL Make available to all projects and add to your component list]**.
-1. (Facoltativo) Rinomina il filtro.
+1. (Optional) Rename the filter.
 1. Fai clic su **[!UICONTROL Save]**.
 
-La barra laterale del filtro cambia da blu striato a blu più chiaro. Ora viene visualizzato nell’elenco dei componenti nella barra a sinistra.
+Notice how the filter&#39;s side bar changes from striped blue to a lighter blue. Ora viene visualizzato nell’elenco dei componenti nella barra a sinistra.
 
 ### Salva nel generatore di filtri {#save3}
 
@@ -86,7 +86,7 @@ La barra laterale del filtro cambia da blu striato a blu più chiaro. Ora viene 
 1. Select **[!UICONTROL Save filter]**
 1. Lascia il nome così com’è o rinomina il filtro.
 
-   Torna a Workspace e osserva come il filtro ora ha una barra laterale blu chiara. Questo indica che non è più possibile modificarlo o aprirlo nel Generatore di filtri rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
+   Go back to Workspace and notice how the filter now has a light blue sidebar. This indicates it can no longer be edited/opened in the Quick Filter Builder. And by saving it, it becomes part of the component list.
 
    ![Elenco dei componenti filtro](assets/quick-seg4.png)
 
@@ -105,9 +105,9 @@ Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei co
 
 ## Cosa sono i filtri per soli progetti? {#project-only}
 
-I filtri per soli progetti sono filtri applicabili solo al progetto corrente in cui sono stati creati. Non sono disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono progettati per un’esplorazione rapida dei dati senza dover creare e salvare un filtro nella barra a sinistra. I filtri per soli progetti possono essere creati nella zona di rilascio del pannello con i filtri rapidi o [filtri ad hoc](/help/components/filters/ad-hoc-filters.md).
+I filtri per soli progetti sono filtri applicabili solo al progetto corrente in cui sono stati creati. Non sono disponibili in altri progetti e non possono essere condivisi con altri utenti. They are intended for quick exploration of your data without having to create and save a filter in the left rail. I filtri per soli progetti possono essere creati nella zona di rilascio del pannello con i filtri rapidi o [filtri ad hoc](/help/components/filters/ad-hoc-filters.md).
 
-Se apri un filtro solo progetto in [!UICONTROL Filter Builder], viene visualizzata una notifica solo per il progetto. Se non selezioni &quot;Rendi questo filtro disponibile.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un segmento solo progetto.
+Se apri un filtro solo progetto in [!UICONTROL Filter Builder], viene visualizzata una notifica solo per il progetto. Se non selezioni &quot;Rendi questo filtro disponibile.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un filtro per solo progetto.
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Se apri un filtro solo progetto in [!UICONTROL Filter Builder], viene visualizza
 
 ![Casella Solo progetto deselezionata](assets/project-only-unchecked.png)
 
-Se selezioni &quot;Rendi questo filtro disponibile.&quot; e fai clic su **[!UICONTROL SAVE]**, il filtro diventa disponibile nell’elenco dei componenti della barra a sinistra e può essere utilizzato in altri progetti. Può essere condiviso anche con altri utenti dal Gestore filtri.
+If you check &quot;Make this filter available..&quot; and click **[!UICONTROL SAVE]**, the filter becomes available in the left rail component list for use in other projects. It can also be shared with other users from the Filter Manager.
 
 ![Casella Solo progetto selezionata](assets/project-only-checked.png)
 
