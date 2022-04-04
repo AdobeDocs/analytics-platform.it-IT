@@ -4,7 +4,7 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: fcd178add387cc79dabecace3fa1f84bd64c904f
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 13%
@@ -93,7 +93,7 @@ Le implementazioni esistenti da più set di dati possono essere combinate in Exp
 
 ## Impostazioni di persistenza della sessione e della variabile
 
-[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento del report e queste impostazioni ora risiedono in [visualizzazioni dati](help/data-views/component-settings/persistence.md). Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati!
+[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento del report e queste impostazioni ora risiedono in [visualizzazioni dati](/help/data-views/component-settings/persistence.md). Le modifiche a queste impostazioni sono ora retroattive e puoi avere più versioni utilizzando più visualizzazioni dati!
 
 **Cosa devi fare**:
 
