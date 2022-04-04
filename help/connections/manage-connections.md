@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 100%
+source-wordcount: '1699'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,9 @@ Una volta che gli utenti Amministratore hanno [creato una o più connessioni](/h
 
 * Ti permette di **identificare eventuali discrepanze di dati** a causa di configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati in CJA?
 
->[!NOTE]
-> Questa funzionalità sarà generalmente disponibile il 20 settembre 2021.
+Ecco un video sul nuovo Connections Manager:
+
+>[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
 ## Gestione connessioni {#connections-manager}
 

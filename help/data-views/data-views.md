@@ -4,7 +4,7 @@ description: Una visualizzazione dati specifica come si desidera interpretare gl
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Puoi creare diverse visualizzazioni dati per la stessa connessione, con set di c
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
 
-## Funzionalità di visualizzazione dati
+## Funzionalità di visualizzazione dati {#capabilities}
 
 Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform o reimplementare l’ambiente CJA.
 
@@ -52,12 +52,12 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 * È possibile **rinomina i contenitori** in una visualizzazione dati e far sì che i contenitori rinominati siano visualizzati in qualsiasi progetto Workspace basato su tale visualizzazione dati.
 
-## Prerequisiti per le visualizzazioni dati
+## Prerequisiti per le visualizzazioni dati {#prerequisites}
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
 * Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions).
 
-## Impostazioni della visualizzazione dati sostituibili in Workspace
+## Impostazioni della visualizzazione dati sostituibili in Workspace {#settings-override}
 
 Alcune impostazioni di visualizzazione dati possono essere ignorate in Analysis Workspace a livello di progetto, altre no.
 
@@ -65,14 +65,14 @@ Alcune impostazioni di visualizzazione dati possono essere ignorate in Analysis 
 * Attribuzione metrica
 * Indica se gli utenti visualizzano o meno la [!UICONTROL No Value] riga in un report
 
-## Impostazioni della visualizzazione dati non modificabili in Workspace
+## Impostazioni della visualizzazione dati non modificabili in Workspace {#settings-no-override}
 
 * [!UICONTROL Component type]
 * Formattazione delle metriche
 * Nome della visualizzazione dati
 * Assegnazione dei Dimension
 
-## Eliminare le visualizzazioni dati
+## Eliminare le visualizzazioni dati {#delete}
 
 Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore indicherà che [!UICONTROL Workspace] i progetti che dipendono da questa visualizzazione dati eliminata non funzioneranno più.
 
