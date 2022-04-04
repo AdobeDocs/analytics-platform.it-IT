@@ -4,9 +4,9 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: fcd178add387cc79dabecace3fa1f84bd64c904f
+source-git-commit: 13743c627ae0af608e63c39ca1f0b8c54f61bbe0
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '979'
 ht-degree: 13%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 13%
 >
 >Questa pagina è in costruzione.
 
-La tua azienda sta iniziando ad assumere Customer Journey Analytics. In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune grandi differenze e alcune somiglianze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
+La tua azienda sta iniziando ad assumere un Customer Journey Analytics. In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune grandi differenze e alcune somiglianze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
 
 ## Cosa non è cambiato
 
