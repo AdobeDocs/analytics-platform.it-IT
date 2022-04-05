@@ -4,13 +4,13 @@ description: Cosa considerare dal punto di vista di un utente quando l’azienda
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 13743c627ae0af608e63c39ca1f0b8c54f61bbe0
+exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 13%
 
 ---
-
 
 # Guida utente di CJA per gli utenti di Adobe Analytics
 
@@ -28,7 +28,7 @@ Molte delle cose che hai familiarità con il reporting non sono cambiate.
 * Hai anche la stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) a vostra disposizione. Le dashboard (anche come app Mobile) funzionano allo stesso modo di Adobe Analytics tradizionale.
 * [Report Builder](/help/report-builder/report-buider-overview.md) dispone di una nuova interfaccia ed è ora in esecuzione su PC, Mac e la versione Web di Excel.
 
-Quando si tratta di reporting, la differenza è che si ha accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni che includono origini dati cross-channel:
+Quando si tratta di reporting, **cosa è diverso** è che hai accesso a molti più dati cross-channel da analizzare. Ecco un esempio di alcune visualizzazioni che includono origini dati cross-channel:
 
 ![visualizzazioni multicanale](assets/cross-channel.png)
 

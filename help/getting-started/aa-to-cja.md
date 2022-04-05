@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 88%
+source-wordcount: '1304'
+ht-degree: 81%
 
 ---
 
@@ -36,9 +36,11 @@ Nei set di dati come Adobe Analytics, è possibile che un’identità non esista
 
 Il metodo più semplice per trasformare i dati di Adobe Analytics in dati di Customer Journey Analytics è quello di acquisire un [suite di rapporti globale](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=it) in Experience Platform utilizzando [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore mappa le variabili Adobe Analytics direttamente in uno schema e un set di dati XDM in Experience Platform, che a sua volta può essere facilmente collegato al Customer Journey Analytics.
 
-A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale completa potrebbe non essere sempre fattibile. Se prevedi di acquisire in Customer Journey Analytics più suite di rapporti, è importante pianificarlo in anticipo in modo da allineare le variabili in tali suite di rapporti.
+A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale completa potrebbe non essere sempre fattibile. Se intendi portare più suite di rapporti in Customer Journey Analytics, hai 2 opzioni:
 
-Ad esempio, nella suite di rapporti 1 la variable eVar1 può fare riferimento a [!UICONTROL Page]. Nella suite di rapporti 2, la variabile eVar1 potrebbe invece fare riferimento a [!UICONTROL Internal Campaign]. Una volta introdotte in CJA, queste variabili si combineranno in un’unica dimensione eVar1, generando rapporti potenzialmente confusi e imprecisi.
+* Pianifica in anticipo per allineare le variabili tra le suite di rapporti. Ad esempio, nella suite di rapporti 1 la variable eVar1 può fare riferimento a [!UICONTROL Page]. Nella suite di rapporti 2, la variabile eVar1 potrebbe invece fare riferimento a [!UICONTROL Internal Campaign]. Una volta introdotte in CJA, queste variabili si combineranno in un’unica dimensione eVar1, generando rapporti potenzialmente confusi e imprecisi.
+
+* Utilizza la [Preparazione data](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) per mappare le variabili. Sebbene sia più facile se tutte le suite di rapporti utilizzano la stessa struttura di variabili comune, non è necessario se utilizzi il nuovo Experience Platform [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#mapping) funzionalità. Ti consente di fare riferimento a una variabile in base al suo valore mappato, che si trova a livello di datastream (o proprietà).
 
 Se hai evitato di passare a una suite di rapporti globale a causa di problemi con [!UICONTROL Uniques Exceeded] o [!UICONTROL Low Traffic], tieni presente che CJA non prevede alcun [limite di cardinalità su una dimensione](/help/components/dimensions/high-cardinality.md). Permette di visualizzare e conteggiare qualsiasi valore univoco.
 
