@@ -5,20 +5,18 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 171b174624dbb48873024368884992766dcd0922
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1021'
 ht-degree: 13%
 
 ---
 
 # Guida utente di CJA per gli utenti di Adobe Analytics
 
->[!NOTE]
->
->Questa pagina è in costruzione.
+La tua azienda sta iniziando ad assumere un Customer Journey Analytics. In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune somiglianze e alcune grandi differenze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
 
-La tua azienda sta iniziando ad assumere un Customer Journey Analytics. In qualità di utente che ha familiarità con Adobe Analytics, hai già un ottimo vantaggio. Lavorando con il Customer Journey Analytics, noterete alcune grandi differenze e alcune somiglianze. Questa pagina ha lo scopo di spiegare quelle cose che non sono cambiate, così come alcune delle principali differenze. Inoltre, ti spiegheremo come ottenere ulteriori informazioni sui nuovi concetti e ulteriori passaggi per rendere il tuo percorso cliente più semplice e di successo.
+Diverse funzioni di CJA sono state rinominate e riarchitettate, se confrontate con il tradizionale Adobe Analytics, per allinearsi agli standard di settore. Alcuni termini aggiornati includono segmenti, suite di rapporti virtuali, classificazioni, attributi cliente e nomi di contenitori. Concetti familiari come eVar e prop non esistono più, insieme ai limiti imposti.
 
 ## Cosa non è cambiato
 
@@ -40,9 +38,9 @@ In Platform i dati del cliente vengono memorizzati come set di dati, costituiti 
 
 Il tuo amministratore CJA ha stabilito [connessioni](/help/connections/create-connection.md) ai set di dati in Platform. Hanno poi costruito [visualizzazioni dati](/help/data-views/data-views.md) all&#39;interno di tali connessioni. Considera le visualizzazioni dati come simili alle suite di rapporti virtuali. Le visualizzazioni dati sono la base per la generazione di rapporti in Customer Journey Analytics. Il concetto di suite di rapporti non esiste più.
 
-## Nuovi concetti e terminologia
+## Suite di rapporti
 
-Diverse funzioni di CJA sono state rinominate e riarchitettate, se confrontate con il tradizionale Adobe Analytics, per allinearsi agli standard di settore. Alcuni termini aggiornati includono segmenti, suite di rapporti virtuali, classificazioni, attributi cliente e nomi di contenitori. Concetti familiari come eVar e prop non esistono più, insieme ai limiti imposti.
+I dati della suite di rapporti possono essere inseriti in Experience Platform tramite il connettore origine Adobe Analytics o l’SDK per web, soprattutto se l’organizzazione è ancora sulla piattaforma Adobe Analytics e se aggiungi CJA/AEP. In genere, i set di dati sorgente specifici per le suite di rapporti vengono creati utilizzando lo schema di Analytics.
 
 ## (Virtuale) le suite di rapporti ora sono &quot;visualizzazioni dati&quot;
 
@@ -50,7 +48,7 @@ Diverse funzioni di CJA sono state rinominate e riarchitettate, se confrontate c
 
 **Cosa devi fare**:
 
-* In Workspace, il selettore suite di rapporti a cui sei abituato ti consente di scegliere tra le visualizzazioni dati che il tuo amministratore ha condiviso con te:
+* In Workspace, il selettore suite di rapporti a cui sei abituato ti consente di scegliere tra le visualizzazioni dati condivise dall’amministratore:
 
    ![data-view-selector](assets/data-views.png)
 

@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Man mano che la tua organizzazione si evolve per utilizzare il Customer Journey 
 
 Per passare facilmente a Customer Journey Analytics, è fondamentale preparare i dati di Adobe Analytics per garantirne l’integrità e la coerenza nella generazione dei rapporti.
 
-### 1. Raccogliere le identità
+### 1. Raccogliere le identità {#identities}
 
 Per comprendere un percorso del cliente, l’aspetto forse più importante è sapere chi è il cliente in ogni fase. Per Customer Journey Analytics, l’esistenza di un identificatore su tutti i canali e i dati corrispondenti consente di unire più origini in CJA.
 Alcuni esempi di identità sono un ID cliente, un ID account o un ID e-mail. Indipendentemente dall’identità (possono essere presenti anche più identità), considera quanto segue per ogni ID:
@@ -32,7 +32,7 @@ Alcuni esempi di identità sono un ID cliente, un ID account o un ID e-mail. Ind
 
 Nei set di dati come Adobe Analytics, è possibile che un’identità non esista su ogni riga di dati, ma esiste invece un’identità secondaria. In questo caso, è possibile utilizzare l’analisi cross-channel (precedentemente nota come “unione basata sui campi”) per colmare il gap tra le righe quando un cliente è identificato solo dal proprio ECID e quando viene raccolta un’identità (ad esempio, quando un cliente si autentica). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it)
 
-### 2. Allineare le variabili
+### 2. Allineare le variabili {#variables}
 
 Il metodo più semplice per trasformare i dati di Adobe Analytics in dati di Customer Journey Analytics è quello di acquisire un [suite di rapporti globale](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=it) in Experience Platform utilizzando [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore mappa le variabili Adobe Analytics direttamente in uno schema e un set di dati XDM in Experience Platform, che a sua volta può essere facilmente collegato al Customer Journey Analytics.
 
@@ -44,7 +44,7 @@ A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale 
 
 Se hai evitato di passare a una suite di rapporti globale a causa di problemi con [!UICONTROL Uniques Exceeded] o [!UICONTROL Low Traffic], tieni presente che CJA non prevede alcun [limite di cardinalità su una dimensione](/help/components/dimensions/high-cardinality.md). Permette di visualizzare e conteggiare qualsiasi valore univoco.
 
-### 3. (Ri)Configurare i canali di marketing
+### 3. (Ri)Configurare i canali di marketing {#marketing-channels}
 
 Le impostazioni tradizionali del canale di marketing Adobe Analytics non funzionano nello stesso modo in CJA. Questo per due motivi:
 
@@ -54,7 +54,7 @@ Le impostazioni tradizionali del canale di marketing Adobe Analytics non funzion
 
 Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=it). Questi consigli aggiornati consentono di sfruttare al massimo le funzionalità già presenti in Adobe Analytics con Attribution IQ. Inoltre ti saranno utili per prepararti per una transizione di successo a Customer Journey Analytics.
 
-### 4. Decidere se usare il connettore di origine di Analytics o gli SDK di Experience Platform
+### 4. Decidere se usare il connettore di origine di Analytics o gli SDK di Experience Platform {#connector-vs-sdk}
 
 Mentre la raccolta dati di [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) si evolve, probabilmente eseguirai la migrazione ad [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=it) o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=it) con la rete Edge di Adobe Experience Platform. Sebbene un’implementazione tipica degli SDK invii dati ad Adobe Analytics, si presenta una nuova opportunità per l’invio diretto dei dati a Adobe Experience Platform. Possono quindi essere acquisiti in Customer Journey Analytics, mantenendo al tempo stesso i dati inviati ad Adobe Analytics.
 
@@ -78,7 +78,7 @@ Le funzioni o i componenti seguenti di Adobe Analytics non sono supportati:
 
 ## Prepararsi per le differenze fondamentali
 
-### Acquisire dimestichezza con l’elaborazione al momento del reporting
+### Acquisire dimestichezza con l’elaborazione al momento del reporting {#report-time}
 
 Il reporting in Adobe Analytics si basa su una quantità significativa di pre-elaborazione dei dati per generare risultati come la persistenza visibile nelle [!UICONTROL eVars]. Al contrario, Customer Journey Analytics esegue tali calcoli in fase di esecuzione dei rapporti.
 
@@ -86,7 +86,7 @@ Il reporting in Adobe Analytics si basa su una quantità significativa di pre-el
 
 Questo cambiamento comporterà alcune differenze nel modo in cui i dati vengono inseriti nei rapporti, specialmente per tutte le variabili che possono avere una lunga finestra di scadenza. Puoi iniziare valutando in che modo l’elaborazione al momento della generazione del rapporto può influire sui rapporti utilizzando una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=it).
 
-### Identificare i segmenti e le metriche calcolate più importanti
+### Identificare i segmenti e le metriche calcolate più importanti {#segments-calcmetrics}
 
 I segmenti (denominati [!UICONTROL filters] in CJA) e le metriche calcolate di Adobe Analytics non sono compatibili con Customer Journey Analytics. In molti casi, questi componenti possono essere ricreati in CJA utilizzando i nuovi schemi e i dati disponibili.
 
