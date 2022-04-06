@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 171b174624dbb48873024368884992766dcd0922
+source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1019'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ Quando si tratta di reporting, **cosa è diverso** è che hai accesso a molti pi
 
 ![visualizzazioni multicanale](assets/cross-channel.png)
 
-## Nuova architettura
+## Nuova architettura {#architecture}
 
 Il Customer Journey Analytics ottiene i suoi dati da Adobe Experience Platform. L’Experience Platform ti consente di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema o canale e applica la scienza dei dati e l’apprendimento automatico per migliorare la progettazione e la distribuzione di esperienze personalizzate.
 
@@ -38,11 +38,11 @@ In Platform i dati del cliente vengono memorizzati come set di dati, costituiti 
 
 Il tuo amministratore CJA ha stabilito [connessioni](/help/connections/create-connection.md) ai set di dati in Platform. Hanno poi costruito [visualizzazioni dati](/help/data-views/data-views.md) all&#39;interno di tali connessioni. Considera le visualizzazioni dati come simili alle suite di rapporti virtuali. Le visualizzazioni dati sono la base per la generazione di rapporti in Customer Journey Analytics. Il concetto di suite di rapporti non esiste più.
 
-## Suite di rapporti
+## Suite di rapporti {#report-suites}
 
 I dati della suite di rapporti possono essere inseriti in Experience Platform tramite il connettore origine Adobe Analytics o l’SDK per web, soprattutto se l’organizzazione è ancora sulla piattaforma Adobe Analytics e se aggiungi CJA/AEP. In genere, i set di dati sorgente specifici per le suite di rapporti vengono creati utilizzando lo schema di Analytics.
 
-## (Virtuale) le suite di rapporti ora sono &quot;visualizzazioni dati&quot;
+## (Virtuale) le suite di rapporti ora sono &quot;visualizzazioni dati&quot; {#data-views}
 
 [!UICONTROL Data views] prendi il concetto di suite di rapporti virtuali così come sono oggi ed espandilo per [abilitare controlli aggiuntivi sui dati](/help/data-views/create-dataview.md) reso disponibile tramite connessioni. Questo rende configurabili intervalli di timeout e timeout della sessione. Puoi anche applicare dinamicamente le proprietà di attribuzione e scadenza per le singole dimensioni. Tieni presente che questi vengono applicati retroattivamente su tutti i dati.
 
@@ -54,7 +54,7 @@ I dati della suite di rapporti possono essere inseriti in Experience Platform tr
 
 * Familiarizza con i molti [casi di utilizzo intorno alle visualizzazioni dati](/help/data-views/data-views-usecases.md).
 
-## Non più eVar e proprietà
+## eVar e proprietà
 
 [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query. Il tuo amministratore CJA ha creato visualizzazioni dati
 
