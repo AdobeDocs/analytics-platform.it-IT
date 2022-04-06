@@ -4,10 +4,10 @@ description: Reimposta ID visitatore da più set di dati per unire i visitatori.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+source-git-commit: 16ebf5672099b0cd0c5e4dafd577f175370fa9b5
+workflow-type: tm+mt
+source-wordcount: '1196'
+ht-degree: 96%
 
 ---
 
@@ -43,6 +43,8 @@ Prima di utilizzare Cross-Channel Analytics, assicurati che l’organizzazione s
 >[!IMPORTANT]
 >
 >Tieni presente che qualsiasi modifica allo schema del set di dati dell’evento globale deve essere applicata anche nel nuovo schema del set di dati uniti, altrimenti interromperà il set di dati uniti.
+>
+>Inoltre, se rimuovi il set di dati sorgente, il set di dati uniti smette di essere elaborato e viene rimosso dal sistema.
 
 Cross-Channel Analytics è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
@@ -56,6 +58,7 @@ Cross-Channel Analytics è una funzione innovativa e affidabile, ma presenta lim
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
 * L’analisi cross-channel tiene traccia di ogni valore ID persistente per 1 anno (TTL = 1 anno). Se un dispositivo non ha attività per più di un anno e riavvia l’attività, i nuovi eventi saranno associati a una persona anonima fino a quando l’utente non viene nuovamente identificato (ad esempio tramite un nuovo accesso).
+* Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera 50.000, CCA smette di unire i dati per quel dispositivo.
 
 
 ## Abilitare Cross-Channel Analytics
