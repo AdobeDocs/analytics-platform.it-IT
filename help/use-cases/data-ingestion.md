@@ -4,9 +4,9 @@ description: Comprendere i diversi modi in cui è possibile inserire i dati nel 
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '782'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ Quando si tratta di acquisire dati in un Customer Journey Analytics, sono dispon
 
 Questo flusso di lavoro utilizza Adobe Analytics Data Connector e varia a seconda che utilizzi DTM o Launch come Tag Manager.
 
-### Tramite tag in Adobe Experience Platform (precedentemente denominato Launch)
+### Tramite tag in Adobe Experience Platform (precedentemente denominato [!UICONTROL Launch])
 
 1. [Creare un livello dati](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html), se non lo hai già fatto. Un livello dati è un framework di oggetti JavaScript sul sito che contiene tutti i valori variabili utilizzati nell&#39;implementazione. Consente un maggiore controllo e una manutenzione più semplice nell’implementazione.
 1. Utilizzo [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html) per implementare il codice sul sito per la raccolta dati, se non lo hai già fatto. Questa soluzione di gestione dei tag consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. I tag offrono integrazioni con altre soluzioni e prodotti e consentono di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza affidarsi ad alcun team di sviluppo dell’organizzazione per aggiornare il codice sul sito.
