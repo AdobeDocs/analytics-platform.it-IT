@@ -4,9 +4,9 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
+source-git-commit: 97cbe0d376892a86d35f38956bc11f3d43bf754a
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 1%
 | **Fai clic con il pulsante destro del mouse su un punto in un [!UICONTROL Line] grafico.** | La [!UICONTROL Annotation builder] si apre. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderli disponibili a tutti i progetti. Inoltre, noterai che le date e qualsiasi metrica, ecc., sono già state compilate.<p>![](assets/annotate-line.png) |
 | **In Workspace, vai a [!UICONTROL Components] > [!UICONTROL Create annotation].** | La [!UICONTROL Annotation builder] si apre. |
 | **Usa questo tasto di scelta rapida** per aprire il generatore di annotazioni: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tieni presente che utilizzando il tasto di scelta rapida per creare un’annotazione, puoi creare un’annotazione per un giorno singolo per la data corrente, senza alcun ambito (metriche o dimensioni) preselezionato. |
+| **Utilizza la [API per le annotazioni CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Le API delle annotazioni CJA consentono di creare, aggiornare o recuperare le annotazioni a livello di programmazione tramite un Adobe I/O. Queste API utilizzano gli stessi dati e metodi utilizzati da Adobe all&#39;interno dell&#39;interfaccia utente del prodotto. |
 
 1. Compila il [!UICONTROL Annotation builder] elementi.
 
