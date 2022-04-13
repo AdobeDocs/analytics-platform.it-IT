@@ -4,9 +4,9 @@ description: Casi d’uso multipli che mostrano flessibilità e potenza delle vi
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ In precedenza, gli interi venivano trattati automaticamente come metriche in CJA
 
 Puoi utilizzare una dimensione numerica per ottenere &quot;metriche&quot; nel tuo [!UICONTROL  Flow] visualizzazione.
 
-1. Sulle visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) trascina [!UICONTROL Marketing Channels] campo schema nel [!UICONTROL Metrics] zona sotto [!UICONTROL Included components].
+1. Sulle visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) trascina [!UICONTROL Marketing Channels] campo schema nel [!UICONTROL Metrics] zona sotto [!UICONTROL Included components].
 2. Nel reporting di Workspace, questo flusso viene visualizzato [!UICONTROL Marketing Channels] fluire in [!UICONTROL Orders]:
 
 ![](assets/flow.png)
@@ -59,7 +59,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 Dollari. Quindi se hai un ordine che include un acquisto di prodotti da 50 Dollari e un acquisto di prodotti da 25 Dollari, rimuoveremo solo l&#39;acquisto di prodotti da 25 Dollari, non l&#39;intero ordine.
 
-1. Sulle visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) trascina [!UICONTROL Revenue] campo schema nel [!UICONTROL Metrics] zona sotto [!UICONTROL Included components].
+1. Sulle visualizzazioni dati [Componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) trascina [!UICONTROL Revenue] campo schema nel [!UICONTROL Metrics] zona sotto [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra: a) Sotto [!UICONTROL Format], seleziona [!UICONTROL Currency].
 b) Sotto [!UICONTROL Currency], seleziona USD.
 c. Sotto [!UICONTROL Include/Exclude Values], seleziona la casella di controllo accanto a [!UICONTROL Set include/exclude values].
@@ -71,7 +71,7 @@ Queste nuove impostazioni ti consentono di visualizzare solo i ricavi di alto va
 
 ## 5. Utilizzare il [!UICONTROL No Value Options] impostazione
 
-La tua azienda può aver passato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; nei rapporti. Il valore predefinito in Visualizzazioni dati è &quot;No Value&quot;. Ora puoi [rinomina &quot;Nessun valore&quot; in &quot;Non specificato&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings) nell’interfaccia utente Visualizzazioni dati.
+La tua azienda può aver passato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; nei rapporti. Il valore predefinito in Visualizzazioni dati è &quot;No Value&quot;. Ora puoi [rinomina &quot;Nessun valore&quot; in &quot;Non specificato&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-no-value-options-settings) nell’interfaccia utente Visualizzazioni dati.
 
 Un altro esempio potrebbe essere la dimensione per la registrazione di un programma di iscrizione. In questo caso, è possibile rinominare &quot;Nessun valore&quot; in &quot;Nessuna registrazione al programma di iscrizione&quot;.
 

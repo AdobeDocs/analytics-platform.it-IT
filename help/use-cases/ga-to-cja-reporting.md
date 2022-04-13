@@ -4,9 +4,9 @@ description: Mostra utili rapporti sui dati Google Analytics nel Customer Journe
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Ora esaminiamo quali pagine del sito web hanno guidato le chiamate in arrivo al 
 Lo facciamo per
 
 * Utilizzo di una metrica calcolata per filtrare i dati in base solo alle sessioni terminate con una chiamata al call center.
-* Utilizzo del modello di &quot;partecipazione&quot; in CJA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#cja-workspace).
+* Utilizzo del modello di &quot;partecipazione&quot; in CJA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace).
 
 Puoi vedere facilmente quali pagine partecipano più di frequente a una sessione che termina con una chiamata . Puoi vedere che le pagine &quot;Carrello acquisti&quot; e &quot;Informazioni di pagamento&quot; guidavano la maggior parte delle chiamate. Poiché hai incluso anche i dati dell’app mobile firebase, puoi persino vedere gli errori di pagina e gli arresti dell’app che generano le chiamate . Si tratta di un punto dati molto importante se desideri fornire esperienze web e app mobili straordinarie.
 

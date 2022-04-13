@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 99%
+source-wordcount: '1685'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Ecco i widget e le impostazioni spiegate:
 | [!UICONTROL Dataset ID] | Questo ID viene generato automaticamente da Adobe Experience Platform. |
 | [!UICONTROL Batches] | Indica quanti batch di dati sono stati aggiunti a questo set di dati. |
 | [!UICONTROL Last added] | Mostra la marca temporale dell’ultimo batch aggiunto a questo set di dati. |
-| [!UICONTROL Dataset type] | Il tipo di questo set di dati può essere [!UICONTROL Event], [!UICONTROL Lookup] oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#configure-dataset) |
+| [!UICONTROL Dataset type] | Il tipo di questo set di dati può essere [!UICONTROL Event], [!UICONTROL Lookup] oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | Schema | Lo schema Adobe Experience Platform su cui si basano i set di dati in questa connessione. |
 
 ### Impostazioni della barra a destra a livello di connessione
@@ -117,10 +117,10 @@ Ecco i widget e le impostazioni spiegate:
 | --- | --- |
 | [!UICONTROL Refresh] | Aggiorna la connessione per consentire la visualizzazione dei record aggiunti di recente. |
 | [!UICONTROL Delete] | Elimina la connessione. |
-| [!UICONTROL Create data view] | Crea una nuova visualizzazione dati basata su questa connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL Create data view] | Crea una nuova visualizzazione dati basata su questa connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | [!UICONTROL Connection name] | Mostra il nome descrittivo della connessione. |
 | [!UICONTROL Connection description] | Mostra una descrizione più dettagliata che descrive idealmente lo scopo di questa connessione. |
-| [!UICONTROL Sandbox] | La [sandbox Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
+| [!UICONTROL Sandbox] | La [sandbox Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
 | [!UICONTROL Connection ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 | [!UICONTROL Data views using connection] | Elenca tutte le visualizzazioni dati che utilizzano questa connessione. |
 | [!UICONTROL Import new data] | (On/Off) indica se è necessario aggiungere o meno nuovi batch di dati ai dati storici (backfill). |
@@ -134,13 +134,13 @@ Ecco i widget e le impostazioni spiegate:
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Person ID] | Mostra un’identità definita nello schema del set di dati in Experience Platform. Questo è l’ID persona scelto durante la creazione della connessione. Se crei una connessione che include set di dati con ID diversi, compare anche nel reporting. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona in tutti. |
-| [!UICONTROL Records available] | Rappresenta il numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. (L’eccezione è che quando crei una connessione nuova, ci sarà [latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#3.-getting-data-into-customer-journey-analytics). |
+| [!UICONTROL Records available] | Rappresenta il numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. (L’eccezione è che quando crei una connessione nuova, ci sarà [latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-journey-analytics). |
 | [!UICONTROL Records added] | Indica quante righe sono state aggiunte nel periodo di tempo selezionato. **Nota**: dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Records deleted] | Indica quanti record sono stati eliminati durante il periodo di tempo selezionato. **Nota**: dati per **[!UICONTROL Records deleted]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Batches added] | Indica quanti batch di dati sono stati aggiunti al set di dati. |
 | [!UICONTROL Records skipped] | Indica quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>I motivi per cui i record vengono ignorati sono i seguenti: marche temporali mancanti, ID persona mancante o non valido, ecc. Aggiornato ogni 10 minuti.<p>ID persona non validi (ad esempio “non definito” o “00000000”, o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) non possono essere attribuiti a un utente o persona specifica. Non possono essere acquisiti nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Cross-Channel Analytics](/help/connections/cca/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che verrà ignorato anche durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo di zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul><p>**Nota**: dati per **[!UICONTROL Records skipped]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |
 | [!UICONTROL Last added] | Indica quando è stato aggiunto l’ultimo batch. |
-| [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
+| [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL Schema] | Mostra lo schema Adobe Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID è generato dal sistema in Adobe Experience Platform. |
 

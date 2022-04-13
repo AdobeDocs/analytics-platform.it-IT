@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 88%
+source-wordcount: '648'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assist
 
 ## Assicurarsi che gli utenti dell’app abbiano accesso ad Adobe Analytics
 
-1. Imposta i nuovi utenti in [Admin Console di Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en).
+1. Imposta i nuovi utenti in [Admin Console di Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it).
 
 1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni per accedere ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui sono basate le scorecard, nonché ai filtri, alle metriche e alle dimensioni.
 

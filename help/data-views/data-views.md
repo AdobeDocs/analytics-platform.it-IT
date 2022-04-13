@@ -4,10 +4,10 @@ description: Una visualizzazione dati specifica come si desidera interpretare gl
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 5%
+source-wordcount: '1031'
+ht-degree: 4%
 
 ---
 

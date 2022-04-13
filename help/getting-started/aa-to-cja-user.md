@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 4%
+source-wordcount: '1425'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Puoi accedere a molti più dati multicanale da analizzare. Ad esempio, puoi crea
 
 CJA ottiene i suoi dati da Adobe Experience Platform. L’Experience Platform ti consente di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema o canale e applica la scienza dei dati e l’apprendimento automatico per migliorare la progettazione e la distribuzione di esperienze personalizzate.
 
-I dati del cliente nell’Experience Platform vengono memorizzati come set di dati, costituiti da un [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=it) e batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
+I dati del cliente nell’Experience Platform vengono memorizzati come set di dati, costituiti da un [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) e batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 L’amministratore CJA stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experience Platform. Poi costruiscono [visualizzazioni dati](/help/data-views/data-views.md) utilizzando tali connessioni. Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e sono alla base del reporting in CJA. Poiché Experience Platform genera tutti i dati per i rapporti, le suite di rapporti non esistono più come contenitore di dati.
 
