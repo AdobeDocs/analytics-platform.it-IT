@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: f7f496d63dbf26cfa6ec12ac98a03bf91a4072a1
+source-git-commit: 02f64728cf9a55c3ecd1c003b0c71464ac0a534f
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 96%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 96%
       + [Deduplicazione delle metriche](data-views/component-settings/metric-deduplication.md)
       + [Opzioni per “Nessun valore”](data-views/component-settings/no-value-options.md)
       + [Persistenza](data-views/component-settings/persistence.md)
+      + [Substring](data-views/component-settings/substring.md)
       + [Bucketing dei valori](data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](data-views/component-reference.md)
    + [Casi d’uso per le visualizzazioni dati](data-views/data-views-usecases.md)
