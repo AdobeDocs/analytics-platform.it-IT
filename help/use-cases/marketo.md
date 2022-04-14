@@ -1,27 +1,27 @@
 ---
-title: Inserire dati B2B in AEP e generare rapporti in CJA
-description: Scopri come inserire dati Marketo in CJA
+title: Inserire dati di Marketo Engage in AEP e generare rapporti in CJA
+description: Scopri come inserire dati di Marketo Engage in CJA
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e18de2563427941f8c227881b46f73c490be218d
+exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
+source-git-commit: ad8e3c18dbb73a064662a4543cb0e553cd52cec3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
 
+# Inserire dati di Marketo Engage in AEP e generare rapporti in CJA
 
-# Inserire dati Marketo B2B in AEP e generare rapporti in CJA
-
-Puoi sfruttare i set di dati Marketo B2B di recente disponibilità in Adobe Experience Platform (AEP) per fornire preziose soluzioni di analisi e reporting agli esperti di marketing B2B. Quindi genera rapporti su questi set di dati in Customer Journey Analytics (CJA).
+Puoi sfruttare i set di dati di Marketo Engage disponibili di recente in Adobe Experience Platform (AEP) per fornire preziose soluzioni di analisi e reporting agli esperti di marketing B2B. Quindi genera rapporti su questi set di dati in Customer Journey Analytics (CJA).
 
 ## Passaggio 1: Mappatura dei campi dati sorgente Marketo sui relativi target XDM
 
-Mappa la [Persone](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) e [Attività](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) ai rispettivi campi di destinazione dello schema XDM.
+Mappa la [Persone](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) e [Attività](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) oggetti ai rispettivi campi di destinazione dello schema XDM.
 
 ## Passaggio 2: Inserire dati Marketo in AEP
 
-Utilizza la [Connettore Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) portare i dati B2B da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza la [Connettore Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
 
 ## Passaggio 3: Configurare una connessione a questo set di dati in CJA
 
@@ -36,6 +36,7 @@ A [visualizzazione dati](/help/data-views/data-views.md) è un contenitore speci
 Un caso d’uso che potresti esplorare è: Quante visite di siti web da parte dei lead abbiamo avuto nell&#39;aprile-giugno 2020?
 
 1. Apri [Area di lavoro di Analytics](/help/analysis-workspace/home.md) e crea un nuovo progetto.
+I clienti con CDP B2B/B2P possono eseguire analisi in stile B2C in CJA. Gli oggetti B2B non sono ancora disponibili.
 
 1. Crea un [filter](/help/components/filters/create-filters.md) per le visualizzazioni di pagina web come segue - Tipo evento = web.webpagedetails.pageViews :
 
