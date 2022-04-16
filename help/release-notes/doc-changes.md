@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: b7a68f7cbcca74c1eaa5f14c4a3aa2652afb248d
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 80%
+source-wordcount: '693'
+ht-degree: 79%
 
 ---
 
@@ -17,13 +17,14 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Aprile 2022 | Documentazione su [sottostringhe delle dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
 | Aprile 2022 | Nuovo [Guida utente di CJA per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md). |
 | Marzo 2022 | Nuovo [Documentazione API per le annotazioni CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
 | Marzo 2022 | Nuova documentazione su [Annotazioni in Workspace](/help/components/annotations/overview.md). |
 | Marzo 2022 | Contenuti significativamente aggiornati su [stima della dimensione della connessione](/help/getting-started/cja-faq.md). |
 | Febbraio 2022 | [L&#39;evoluzione di Adobe Analytics nel Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html) |
 | Gennaio 2022 | Nuovo caso d’uso per [Utilizzo di dimensioni e metriche di binding in CJA](/help/use-cases/binding-dimensions-metrics.md) |
-| Gennaio 2022 | È stata aggiunta nuova documentazione su [dimensioni e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) e su [[!UICONTROL First Known] e [!UICONTROL Last Known] impostazioni di allocazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#allocation-settings) |
+| Gennaio 2022 | È stata aggiunta nuova documentazione su [dimensioni e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) e su [[!UICONTROL First Known] e [!UICONTROL Last Known] impostazioni di allocazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) |
 | Gennaio 2022 | È stato aggiunto un articolo su [confronto dei dati di Adobe Analytics con quelli di Analytics in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=it) |
 | Novembre 2021 | È stata aggiornata la documentazione su [[!UICONTROL Records skipped]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-details-settings) nella pagina Dettagli connessioni. |
 | Ottobre 2021 | Documentazione su [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=it#) in CJA. |
