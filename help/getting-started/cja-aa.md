@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Attribution IQ | Supporto completo. |
 | Metriche calcolate | Supporto completo; eventuali metriche di calcolo esistenti nella versione tradizionale di Analysis Workspace non verranno trasferite a CJA. |
 | Eventi calendario | Supporto completo. Gli eventi calendario sono stati implementati come [Annotazioni](/help/components/annotations/overview.md) in Workspace. |
+| Generatore regole di classificazione | Supporto completo. Chiamato [sottostringhe](/help/data-views/component-settings/substring.md) in CJA. Utilizza le manipolazioni delle stringhe al momento del rapporto anziché i set di dati di ricerca. |
 | Stitching cross-device/cross-channel | Supporto completo; consulta [Cross-Channel Analytics](/help/connections/cca/overview.md). |
 | Download di CSV | Supporto completo. |
 | Calendari personalizzati | Supporto completo. |
@@ -80,7 +81,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
-| Generatore regole di classificazione | Funzionerà in modo leggermente diverso in CJA, utilizzando le manipolazioni delle stringhe al momento del rapporto anziché i set di dati di ricerca. |
 | Analisi contributi | Il supporto è pianificato. |
 | Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Anche Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) fornisce un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
