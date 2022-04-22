@@ -3,15 +3,19 @@ title: Inserire il pubblico AEP nel Customer Journey Analytics
 description: Spiega come inserire i tipi di pubblico AEP nel Customer Journey Analytics per ulteriori analisi.
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: cd1d639ad698c188c506881b2b17103b0a3559f2
+source-git-commit: ed01fd0899cac21fff156e0c31dc2b52ff7c8cca
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
 
 
 # Inserire il pubblico AEP nel Customer Journey Analytics (CJA)
+
+>[!NOTE]
+>
+>Questo argomento è in costruzione.
 
 (Brandon, fyi, &#39;Unified Profile&#39; è un termine obsoleto per &#39;Real-time Customer Profile&#39; - secondo il doc manager AEP. Non troverai alcun documento su UP nel set di documenti AEP.)
 
@@ -61,7 +65,7 @@ Di seguito sono riportati gli elementi dati che devono essere presenti:
 * `audienceMembershipIdList` campo stringa: ID del pubblico
 * Aggiungi un nome descrittivo per il pubblico (`audienceMembershipIdName`), come
 
-   ![Nome descrittivo del pubblico](assets/audience-name)
+   ![Nome descrittivo del pubblico](assets/audience-name.png)
 
 ## Passaggio 5: Creare una connessione in CJA a questo set di dati del profilo
 
