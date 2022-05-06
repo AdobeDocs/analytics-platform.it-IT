@@ -2,7 +2,7 @@
 title: Creare filtri
 description: Scopri l’interfaccia utente per la creazione di filtri.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: 38b68d2f61b2db9dbc2cdf4853a8c32a1f8639e9
+source-git-commit: b907e62bfabd8cb42dc89d551d7b5285cb61298e
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 32%
@@ -42,7 +42,7 @@ Esistono diversi altri metodi per applicare filtri a un progetto:
 
 | Azione | Descrizione |
 |--- |--- |
-| Crea filtro da selezione | Crea un filtro in linea. Seleziona le righe, fai clic con il pulsante destro del mouse sulla selezione, quindi crea un filtro in linea. Questo filtro si applica solo al progetto aperto e non viene salvato come filtro CJA. 1. Seleziona le righe.  2. Fai clic con il pulsante destro del mouse sulla selezione.  3. Fai clic su *Crea filtro da selezione*. |
+| Crea filtro da selezione | Crea un filtro in linea. Questo filtro si applica solo al progetto aperto e non viene salvato come filtro CJA.<p> 1. Selezionare le righe della tabella che si desidera far parte del filtro.  2. Fai clic con il pulsante destro del mouse sulla selezione.  3. Fai clic su *Crea filtro da selezione*. |
 | Componenti > Nuovo filtro | Visualizza il Generatore di filtri. Vedi [Generatore di filtri](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it) per ulteriori informazioni sul filtro. |
 | Share (Condividi) > Share Project (Condividi progetto) or Share (Condividi) > Curate Project Data (Cura dati progetto) | In [Cura e condivisione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it#concept_4A9726927E7C44AFA260E2BB2721AFC6), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
 | Utilizza i filtri come dimensioni | Video: Utilizzo dei filtri come Dimension in Analysis Workspace |
