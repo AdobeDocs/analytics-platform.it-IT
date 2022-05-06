@@ -4,40 +4,42 @@ description: Spiega come inserire i tipi di pubblico AEP nel Customer Journey An
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 535095dc82680882d1a53076ea0655b1333b576b
+source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
 
 # Inserire il pubblico AEP nel Customer Journey Analytics (CJA)
 
->[!NOTE]
->
->Questo argomento è in costruzione.
-
 Questo caso d’uso esplora un modo provvisorio e manuale di importare i tipi di pubblico di Adobe Experience Platform (AEP) in CJA. Questi tipi di pubblico possono essere stati creati nel Generatore di segmenti AEP, in Adobe Audience Manager o in altri strumenti e sono memorizzati nel Profilo cliente in tempo reale (RTCP). I tipi di pubblico sono costituiti da un set di ID profilo, insieme agli eventuali attributi/eventi/ecc. applicabili. e vogliamo portarli in CJA Workspace per l’analisi.
 
 ## Prerequisiti 
 
-* Accesso a Adobe Experience Platform (AEP), in particolare Profilo cliente in tempo reale.  Accedi anche alla creazione/gestione di schemi e set di dati AEP.
-* Accesso a AEP Query Service (e la capacità di scrivere SQL) o a un altro strumento per eseguire alcune trasformazioni luminose
-* Accesso al Customer Journey Analytics (deve essere un amministratore di prodotto CJA, per creare/modificare le connessioni e le visualizzazioni dati di CJA)
+* Accesso a Adobe Experience Platform (AEP), in particolare Profilo cliente in tempo reale.
+* Accesso per creare/gestire schemi e set di dati AEP.
+* Accesso a AEP Query Service (e la capacità di scrivere SQL) o a un altro strumento per eseguire alcune trasformazioni leggere.
+* Accesso al Customer Journey Analytics. Devi essere un amministratore di prodotto CJA per creare/modificare connessioni e visualizzazioni dati CJA.
 * Possibilità di utilizzare le API di Adobe (segmentazione, facoltativamente altre)
 
 ## Passaggio 1: Scegliere il pubblico in Profilo cliente in tempo reale {#audience}
 
-Adobe Experience Platform [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) consente di visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti. Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da varie fonti. Scegli uno o più tipi di pubblico da inserire in CJA.
+Adobe Experience Platform [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) consente di visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti.
+
+Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da varie fonti. Scegli uno o più tipi di pubblico da inserire in CJA.
 
 ## Passaggio 2: Creare un set di dati dell’Unione profili per l’esportazione
 
 Per esportare il pubblico in un set di dati che può essere aggiunto a una connessione in CJA, devi creare un set di dati il cui schema è un profilo [Schema dell&#39;unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+
 Gli schemi unione sono composti da più schemi che condividono la stessa classe e sono stati abilitati per Profile. Lo schema di unione ti consente di visualizzare una combinazione di tutti i campi contenuti negli schemi che condividono la stessa classe. Profilo cliente in tempo reale utilizza lo schema unione per creare una visualizzazione olistica di ogni singolo cliente.
 
 ## Passaggio 3: Esportare un pubblico nel set di dati dell’Unione profili tramite chiamata API {#export}
 
-Prima di poter portare un pubblico in CJA, devi esportarlo in un set di dati AEP. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare il [Endpoint API per i processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en). Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e inserire i risultati nel set di dati AEP dell’Unione profili creato al passaggio 2.  Anche se puoi esportare vari attributi/eventi per il pubblico, devi solo esportare il campo ID profilo specifico che corrisponde al campo ID persona utilizzato nella connessione CJA che sfrutterai (vedi sotto al passaggio 5).
+Prima di poter portare un pubblico in CJA, devi esportarlo in un set di dati AEP. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare il [Endpoint API per i processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+
+Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e inserire i risultati nel set di dati AEP dell’Unione profili creato al passaggio 2. Anche se puoi esportare vari attributi/eventi per il pubblico, devi solo esportare il campo ID profilo specifico che corrisponde al campo ID persona utilizzato nella connessione CJA che sfrutterai (vedi sotto al passaggio 5).
 
 ## Passaggio 4: Modificare l’output di esportazione
 
@@ -67,7 +69,9 @@ Di seguito sono riportati gli elementi dati che devono essere presenti:
 
 * Aggiungi altri metadati del pubblico, se lo desideri.
 
-## Passaggio 5: Aggiungi questo set di dati di profilo a una connessione esistente in CJA (BG: puoi crearne uno nuovo, ma il 99% delle volte in cui i clienti desiderano aggiungerlo a una connessione esistente in cui dispongono già dei propri dati; gli id del pubblico semplicemente &quot;arricchiscono&quot; i dati esistenti in CJA)
+## Passaggio 5: Aggiungi questo set di dati di profilo a una connessione esistente in CJA
+
+È possibile creare una nuova connessione, ma la maggior parte dei clienti desidera aggiungerla a una connessione esistente. Gli ID del pubblico &quot;arricchiscono&quot; i dati esistenti in CJA.
 
 [Creare una connessione](/help/connections/create-connection.md)
 
