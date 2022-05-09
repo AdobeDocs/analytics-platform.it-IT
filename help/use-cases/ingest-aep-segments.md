@@ -4,10 +4,10 @@ description: Spiega come inserire i tipi di pubblico AEP nel Customer Journey An
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
+source-git-commit: 9c4869bb632f3d69d8704009744246b975cb5c4a
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 1%
+source-wordcount: '1049'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,9 @@ Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e
 
 ## Passaggio 4: Modificare l’output di esportazione
 
-I risultati del processo di esportazione devono essere trasformati in un set di dati di profilo separato per essere acquisiti in CJA.  Questa trasformazione può essere effettuata con AEP Query Service o con un altro strumento di trasformazione a tua scelta.  È necessario solo l’ID profilo (che corrisponde all’ID persona in CJA) e uno o più ID pubblico per effettuare la generazione dei rapporti in CJA. Il processo di esportazione standard, tuttavia, contiene più dati e quindi è necessario modificare questo output per rimuovere i dati estranei e spostare alcuni elementi.  Inoltre, è necessario creare prima uno schema/set di dati prima di aggiungergli i dati trasformati.
+I risultati del processo di esportazione devono essere trasformati in un set di dati di profilo separato per essere acquisiti in CJA.  Questa trasformazione può essere fatta con [Servizio query AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it)o un altro strumento di trasformazione a tua scelta. È necessario solo l’ID profilo (che corrisponde all’ID persona in CJA) e uno o più ID pubblico per effettuare la generazione dei rapporti in CJA.
+
+Il processo di esportazione standard, tuttavia, contiene più dati e quindi è necessario modificare questo output per rimuovere i dati estranei e spostare alcuni elementi.  Inoltre, è necessario creare prima uno schema/set di dati prima di aggiungergli i dati trasformati.
 
 Ecco un esempio dell’output di esportazione nel set di dati dell’unione profili, **prima** qualsiasi modifica:
 
@@ -71,9 +73,7 @@ Di seguito sono riportati gli elementi dati che devono essere presenti:
 
 ## Passaggio 5: Aggiungi questo set di dati di profilo a una connessione esistente in CJA
 
-È possibile creare una nuova connessione, ma la maggior parte dei clienti desidera aggiungerla a una connessione esistente. Gli ID del pubblico &quot;arricchiscono&quot; i dati esistenti in CJA.
-
-[Creare una connessione](/help/connections/create-connection.md)
+Si potrebbe [crea una nuova connessione](/help/connections/create-connection.md), ma la maggior parte dei clienti desidera aggiungere il set di dati del profilo a una connessione esistente. Gli ID del pubblico &quot;arricchiscono&quot; i dati esistenti in CJA.
 
 ## Passaggio 6: Modificare la visualizzazione dati CJA esistente (o crearne una nuova)
 
