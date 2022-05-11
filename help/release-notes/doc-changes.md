@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b7a68f7cbcca74c1eaa5f14c4a3aa2652afb248d
+source-git-commit: 5224c83b222997413a9fb70a0d1e219f82d1af17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '702'
 ht-degree: 79%
 
 ---
@@ -19,6 +19,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | --- | --- |
 | Aprile 2022 | Documentazione su [sottostringhe delle dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
 | Aprile 2022 | Nuovo [Guida utente di CJA per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md). |
+| Aprile 2022 | [Confrontare i dati di Adobe Analytics con i dati CJA](/help/troubleshooting/compare.md) |
 | Marzo 2022 | Nuovo [Documentazione API per le annotazioni CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
 | Marzo 2022 | Nuova documentazione su [Annotazioni in Workspace](/help/components/annotations/overview.md). |
 | Marzo 2022 | Contenuti significativamente aggiornati su [stima della dimensione della connessione](/help/getting-started/cja-faq.md). |
