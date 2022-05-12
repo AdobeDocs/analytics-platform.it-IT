@@ -4,9 +4,9 @@ description: Utilizzare un sottoinsieme di una stringa come elementi dimensional
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
+source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '843'
 ht-degree: 5%
 
 ---
@@ -114,6 +114,8 @@ Sono supportati anche i segnaposto di output. È possibile utilizzare queste seq
 | `$+` | Restituisce ciò che corrisponde all’ultima espressione secondaria contrassegnata nell’espressione regolare. |
 | `$$` | Invia il carattere stringa `"$"`. |
 
-Ecco un video sui Dimension di binding:
+## Video sulle dimensioni di binding
+
+Ecco un video sulle dimensioni di binding:
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
