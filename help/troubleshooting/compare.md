@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Di seguito sono riportati alcuni passaggi per confrontare i dati Adobe Analytics
 
 ## Passaggio 1: eseguire la metrica Occorrenze in Adobe Analytics
 
-La metrica [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita.
+La metrica [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it) mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita.
 
 1. In Analytics > [!UICONTROL Workspace], trascina l’intervallo di date su cui desideri creare un rapporto come dimensione in una [!UICONTROL Freeform] tabella.
 
@@ -49,7 +49,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 >
 >Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se Cross-Channel Analytics è stato attivato.
 
-1. Da [Servizi di query](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it) di Adobe Experience Platform, esegui la seguente [!UICONTROL Total Records by timestamps] query:
+1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -63,16 +63,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
+1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
 
-   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
+   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
 
    | Campo Analytics | Valori che ne causano l’eliminazione |
    | --- | --- |
    | Opt_out | `y, Y` |
    | In_data_only | Not 0 |
-   | Exclude_hit | No 0 |
-   | Bot_id | No 0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
