@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2058'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 | --- | --- |
 | Sono necessari [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] per [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] non sono necessari per [!UICONTROL Customer Journey Analytics]. Al momento non sono ancora supportati. |
 | È necessario [!UICONTROL Experience Cloud ID] (ECID) per [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia esso o qualsiasi altro ID scelto.[!UICONTROL ECID] |
-| In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]? | Customer Journey Analytics include funzionalità di [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=it) per trasformare i dati prima di inserirli nel data lake di Adobe Experience Platform. Se hai bisogno di ETL dopo che i dati sono già stati acquisiti, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html#queries) offre alcune opzioni limitate; tieni presente che potrebbe comportare costi aggiuntivi. |
+| In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]? | Customer Journey Analytics include funzionalità di [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=it) per trasformare i dati prima di inserirli nel data lake di Adobe Experience Platform. Se hai bisogno di ETL dopo che i dati sono già stati acquisiti, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it#queries) offre alcune opzioni limitate; tieni presente che potrebbe comportare costi aggiuntivi. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -30,9 +30,9 @@ ht-degree: 80%
 | Domanda | Risposta |
 | --- | --- |
 | [!UICONTROL Customer Journey Analytics] può effettuare lo stitching tra dispositivi o tra set di dati? | Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) (CCA). Consente di reimpostare l’ID persona in un set di dati, e offre la possibilità di combinare direttamente più set di dati. |
-| È supportato lo stitching da un comportamento anonimo a un comportamento autenticato? | Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. |
-| Come funziona la “riproduzione” in CCA? | CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
-| Come funziona l’unione dei dati storici (retrocompilazione) in CCA? | Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
+| È supportato lo stitching da un comportamento anonimo a un comportamento autenticato? | Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. |
+| Come funziona la “riproduzione” in CCA? | CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching) |
+| Come funziona l’unione dei dati storici (retrocompilazione) in CCA? | Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#enable-cross-channel-analytics) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -57,9 +57,9 @@ ht-degree: 80%
 
 | Domanda | Risposta |
 | --- | --- |
-| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP. (Dimensione batch > 50 milioni di righe: più di 90 minuti).</li><li>Piccoli backfill - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 7 giorni<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
+| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP. (Dimensione batch > 50 milioni di righe: più di 90 minuti).</li><li>Backfill di dimensioni ridotte - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 7 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
 
-## 5. Imposta la finestra di scorrimento per [!UICONTROL Connection] conservazione dei dati {#data-retention}
+## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 
 >[!IMPORTANT]
 >Contatta l’Assistenza clienti o il tuo account manager Adobe per far sì che questa impostazione sia implementata. Non è ancora disponibile tramite l’interfaccia utente di CJA.
@@ -72,20 +72,20 @@ Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui 
 
 Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di componenti: sandbox, schema, set di dati, connessione, visualizzazione dati e progetto Workspace. Di seguito sono riportati alcuni possibili scenari relativi all’eliminazione di uno di questi componenti:
 
-| Azione | Ciò si verifica... |
+| Azione | Risultato |
 | --- | --- |
 | Eliminare una sandbox in [!UICONTROL Adobe Experience Platform] | L’eliminazione di una sandbox interrompe il flusso di dati a qualsiasi connessione [!UICONTROL Customer Journey Analytics] per il set di dati in tale sandbox. Attualmente, le [!UICONTROL Connections] in CJA associate alla sandbox eliminata non verranno eliminate automaticamente. |
 | Eliminare uno schema in [!UICONTROL Adobe Experience Platform], ma non i set di dati associati a tale schema | [!UICONTROL Adobe Experience Platform] non consente di eliminare gli [!UICONTROL schemas] a cui sono associati uno o [!UICONTROL datasets]. Tuttavia, un amministratore che dispone delle autorizzazioni appropriate può prima eliminare i set di dati, e quindi eliminare lo schema. |
-| Eliminare un set di dati nel data lake di [!UICONTROL Adobe Experience Platform] | L’eliminazione di un set di dati nel data lake di AEP interrompe il flusso di dati da tale set di dati a qualsiasi connessione CJA che include tale set di dati. Tutti i dati di quel set di dati vengono eliminati automaticamente dalle connessioni CJA associate. |
-| Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Contatta il tuo Adobe Account Manager per avviare il processo di eliminazione di un set di dati all’interno di una connessione salvata. |
-| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform]) | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico.  CJA riceve una notifica dell’eliminazione del batch in [!UICONTROL Adobe Experience Platform]. |
+| Eliminare un set di dati nel data lake di [!UICONTROL Adobe Experience Platform] | L’eliminazione di un set di dati nel data lake di AEP interrompe il flusso di dati da tale set di dati a qualsiasi connessione CJA che include tale set di dati. Eventuali dati provenienti da tale set di dati vengono eliminati automaticamente dalle connessioni CJA associate. |
+| Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Rivolgiti al tuo Adobe Account Manager per avviare il processo di eliminazione di un set di dati all’interno di una connessione salvata. |
+| Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform]) | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico. CJA riceve una notifica dell’eliminazione del batch in [!UICONTROL Adobe Experience Platform]. |
 | Eliminare un batch **durante la sua acquisizione** in [!UICONTROL Customer Journey Analytics] | Se nel set di dati è presente un solo batch, in [!UICONTROL Customer Journey Analytics] non verranno visualizzati dati o dati parziale da tale batch. L’acquisizione verrà annullata e verrà ripristinato lo stato precedente. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell’eliminazione del set di dati, i dati di tali 3 batch saranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
 | Eliminare una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
 | Eliminare una visualizzazione di dati in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che tutti i progetti Workspace dipendenti dalla visualizzazione di dati eliminata cesseranno di funzionare. |
 
 ## 7. Considerazioni durante l’unione delle suite di rapporti in CJA {#merge-reportsuite}
 
-Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), considera queste ramificazioni quando unisci 2 o più suite di rapporti Adobe Analytics.
+Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it), considera queste ramificazioni quando unisci 2 o più suite di rapporti Adobe Analytics.
 
 | Problema | Considerazione |
 | --- | --- |
@@ -112,36 +112,36 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 
 ## 9. Stimare la dimensione della connessione {#estimate-size}
 
-Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un account accurato dell&#39;utilizzo dei record di dati evento (righe di dati) della tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall&#39;organizzazione**.
+Potrebbe essere necessario sapere quante righe di dati si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un resoconto accurato dell’utilizzo dei record di dati evento (righe di dati) per la tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall’organizzazione**.
 
 1. In [!UICONTROL Customer Journey Analytics], fai clic sulla scheda **[!UICONTROL Connections]**.
 
-   È ora possibile visualizzare un elenco di tutte le connessioni correnti.
+   Viene visualizzato un elenco di tutte le connessioni correnti.
 
-1. Fare clic sul nome di ciascuna connessione per accedere a Gestione connessioni.
+1. Fai clic sul nome di ciascuna connessione per accedere alla funzione di gestione delle connessioni.
 
-1. Aggiungi il **[!UICONTROL Records of event data available]** per tutte le connessioni create. (A seconda delle dimensioni della connessione, la visualizzazione del numero potrebbe richiedere del tempo.)
+1. Ottieni il totale di **[!UICONTROL Records of event data available]** per tutte le connessioni create. (A seconda delle dimensioni della connessione, la visualizzazione di questo valore potrebbe richiedere del tempo.)
 
-   ![dati evento](assets/event-data.png)
+   ![Dati evento](assets/event-data.png)
 
-1. Una volta che hai una somma di tutte le righe di dati dell’evento, cerca il diritto &quot;Righe di dati&quot; nel contratto di Customer Journey Analytics firmato dalla tua azienda con Adobe.
+1. Una volta ottenuta la somma di tutte le righe di dati evento, controlla il diritto “Rows of Data” (Righe di dati) nel contratto per Customer Journey Analytics sottoscritto dalla tua azienda con Adobe.
 
-   In questo modo si ottiene il numero massimo di righe di dati autorizzati nell&#39;ordine di vendita. Se il numero di righe di dati risultanti dal passaggio 3 è maggiore di questo numero, si verifica un&#39;overage.
+   Si tratta del numero massimo di righe di dati autorizzato nell’ordine di vendita. Se il numero di righe di dati risultanti dal passaggio 3 è maggiore di questo valore massimo, si verifica un superamento del limite.
 
-1. Per risolvere questa situazione, è possibile scegliere tra diverse opzioni:
+1. Per risolvere questa situazione, puoi scegliere tra diverse soluzioni:
 
-   * Cambia il tuo [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention).
-   * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * [Eliminare un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components).
-   * Contatta il tuo Adobe Account Manager per richiedere la licenza di una capacità aggiuntiva.
+   * Cambia le [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#set-rolling-window-for-connection-data-retention).
+   * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
+   * [Elimina un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
+   * Rivolgiti al tuo Adobe Account Manager per aggiungere alla licenza ulteriore capacità.
 
-## 10. Per quanto riguarda gli overage di utilizzo {#overage}
+## 10. Superamento del limite di utilizzo {#overage}
 
-I limiti di utilizzo sono regolarmente monitorati e applicati dall&#39;Adobe. Per &quot;righe di dati&quot; si intendono le righe medie giornaliere di dati disponibili per l’analisi all’interno del Customer Journey Analytics.
+I limiti di utilizzo vengono regolarmente monitorati da Adobe, per verificarne il rispetto. Il numero consentito di “Rows of Data” (Righe di dati) si riferisce alla media giornaliera di righe di dati disponibili per l’analisi in Customer Journey Analytics.
 
-Ad esempio, supponiamo che il tuo contratto ti dia diritto a un milione di righe di dati. Supponiamo che al giorno 1 dell&#39;utilizzo del Customer Journey Analytics, si caricino due milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l’utilizzo al massimo impegnato (ovvero, un milione di righe di dati) per il resto del periodo di Licenza. A seconda dei termini contrattuali, è comunque possibile che vengano applicate tariffe di utilizzo eccessive proporzionate per il giorno 1, in quanto hai superato il diritto di licenza &quot;righe di dati&quot;.
+Supponiamo ad esempio che il tuo contratto preveda un milione di righe di dati. Supponiamo poi che il giorno 1 di utilizzo di Customer Journey Analytics vengano caricati due milioni di righe di dati. Il giorno 2, elimini 1 milione di righe e mantieni l’utilizzo entro il massimo consentito (ovvero, un milione di righe di dati) per il resto del periodo di licenza. A seconda dei termini contrattuali, è comunque possibile che vengano applicate tariffe di utilizzo eccessivo proporzionati per il giorno 1, quando è stato superato il limite di righe di dati consentito dalla tua licenza.
 
-## 11. Diagnosticare le discrepanze di dati {#discrepancies}
+## 11. Diagnosticare le discrepanze nei dati {#discrepancies}
 
 In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla connessione è diverso dal numero di righe nel set di dati in [!UICONTROL Adobe Experience Platform]. In questo esempio, il set di dati “Impressione B2B” ha 7650 righe, ma il set di dati contiene 3830 righe in [!UICONTROL Adobe Experience Platform]. Ci sono diversi motivi per cui possono verificarsi discrepanze e possono essere adottate le seguenti misure per diagnosticare:
 
@@ -149,6 +149,6 @@ In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla conne
 
    ![raggruppamento](assets/data-size2.png)
 
-1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Più tardi è stato aggiunto di nuovo al Customer Journey Analytics, ma un [!UICONTROL Platform Dataset ID] è stato generato da [!UICONTROL Adobe Experience Platform].
+1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Successivamente, è stato aggiunto di nuovo a Customer Journey Analytics, ma [!UICONTROL Adobe Experience Platform] ha generato un [!UICONTROL Platform Dataset ID] diverso.
 
-Ulteriori informazioni sulle [implicazioni del set di dati e dell’eliminazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
+Per ulteriori informazioni, leggi la sezione sulle [implicazioni dell’eliminazione di set di dati e connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
