@@ -4,9 +4,9 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '986'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ Ecco un video sui filtri rapidi (nota che utilizza invece il termine &quot;segme
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
-## Prerequisiti {#prereqs}
+## Prerequisiti  {#prereqs}
 
 Chiunque può creare un filtro rapido. Tuttavia, è necessaria l&#39;autorizzazione Creazione filtro nella [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) per salvare un filtro rapido o aprirlo nel Generatore di filtri.
 
@@ -83,7 +83,7 @@ La barra laterale del filtro cambia da blu striato a blu più chiaro. Ora viene 
 ### Salva nel generatore di filtri {#save3}
 
 1. Passa il puntatore del mouse sul filtro rapido e seleziona l’icona Info (&quot;i&quot;).
-1. Select **[!UICONTROL Save filter]**
+1. Seleziona **[!UICONTROL Save filter]**
 1. Lascia il nome così com’è o rinomina il filtro.
 
    Torna a Workspace e osserva come il filtro ora ha una barra laterale blu chiara. Questo indica che non è più possibile modificarlo o aprirlo nel Generatore di filtri rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
