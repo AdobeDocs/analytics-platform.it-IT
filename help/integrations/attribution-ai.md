@@ -3,10 +3,10 @@ description: Scopri in che modo AEP Attribution AI si integra con Workspace in C
 title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: e75836841cdaf8acd2408723111f13048d31505d
+source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 5%
+source-wordcount: '411'
+ht-degree: 4%
 
 ---
 
@@ -14,21 +14,31 @@ ht-degree: 5%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), parte di Adobe Experience Platform Intelligent Services, è un servizio di attribuzione algoritmica multicanale che calcola l’influenza e l’impatto incrementale delle interazioni dei clienti rispetto a risultati specifici. Con Attribution AI, gli addetti al marketing possono misurare e ottimizzare le spese di marketing e pubblicitarie comprendendo l’impatto di ogni singola interazione con i clienti in ogni fase dei percorsi dei clienti.
 
-Attribution AI supporta due categorie di punteggi: algoritmico e basato su regole. I punteggi algoritmici includono punteggi incrementali e influenzati. I punteggi basati su regole includono Primo contatto, Ultimo contatto, Lineare, A forma di U e Decadimento nel tempo.
+Attribution AI supporta due categorie di punteggi: algoritmico e basato su regole. I punteggi algoritmici includono punteggi incrementali e influenzati. I punteggi basati su regole includono Primo contatto, Ultimo contatto, Lineare, A forma di U e Decadimento nel tempo. Attribution AI supporta 3 schemi di Experience Platform: Evento esperienza, Adobe Analytics ed evento esperienza di consumo.
 
 Attribution AI si integra con Customer Journey Analytics (CJA) nella misura in cui Attribution AI esegue i modelli rispetto ai dati e CJA importa l’output di tali modelli come set di dati, che può quindi essere integrato con il resto dei set di dati CJA. I set di dati abilitati per Attribution AI possono quindi essere utilizzati nelle visualizzazioni dati e nei rapporti in CJA.
-
-Attribution AI supporta 3 schemi di Experience Platform: Evento esperienza, Adobe Analytics ed evento esperienza di consumo.
 
 ## Flusso di lavoro
 
 Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare con l’output in CJA.
 
-### Scaricare i punteggi delle Attribution AI
+### Passaggio 1: Scaricare i punteggi delle Attribution AI
 
-1. Ad Experience Platform, scarica i punteggi delle Attribution AI come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
-1. Ad Experience Platform, crea un’istanza Attribution AI selezionando e mappando i dati, definendo gli eventi e addestrando i dati, come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
-1. In CJA,
+In Adobe Experience Platform, scarica i punteggi delle Attribution AI come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
+
+### Passaggio 2: Creare un’istanza di Attribution AI
+
+Ad Experience Platform, crea un’istanza Attribution AI selezionando e mappando i dati, definendo gli eventi e addestrando i dati, come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
+
+### Passaggio 3: Configurare una connessione CJA ai set di dati di Attribution AI
+
+In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Attribution AI. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi Attribution AI&quot;, come mostrato di seguito:
+
+![Punteggi di AAI](assets/aai-scores.png)
+
+### Passaggio 4: Crea visualizzazioni dati in base a queste connessioni
+
+In CJA,
 
 ## Differenze tra Attribution AI e Attribution IQ
 
