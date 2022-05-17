@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Guida di Customer Journey Analytics
-user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per l’analisi cross-channel, basata su Adobe Experience Platform.
+user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare l’Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 93%
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 93%
    + [Introduzione](getting-started/cja-getting-started.md)
    + [Pagina di destinazione di Customer Journey Analytics](getting-started/landing.md)
    + [Domande frequenti](getting-started/cja-faq.md)
-   + [L&#39;evoluzione di Adobe Analytics nel Customer Journey Analytics](getting-started/aa-to-cja.md)
-   + [Guida utente per i nuovi utenti dei Customer Journey Analytics](getting-started/aa-to-cja-user.md)
+   + [Evoluzione da Adobe Analytics a Customer Journey Analytics](getting-started/aa-to-cja.md)
+   + [Guida per i nuovi utenti di Customer Journey Analytics](getting-started/aa-to-cja-user.md)
    + [Supporto delle funzioni di Customer Journey Analytics](getting-started/cja-aa.md)
    + [Implicazioni dell’eliminazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)
@@ -59,7 +59,7 @@ ht-degree: 93%
       + [Deduplicazione delle metriche](data-views/component-settings/metric-deduplication.md)
       + [Opzioni per “Nessun valore”](data-views/component-settings/no-value-options.md)
       + [Persistenza](data-views/component-settings/persistence.md)
-      + [Substring](data-views/component-settings/substring.md)
+      + [Sottostringa](data-views/component-settings/substring.md)
       + [Bucketing dei valori](data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](data-views/component-reference.md)
    + [Casi d’uso per le visualizzazioni dati](data-views/data-views-usecases.md)
@@ -205,7 +205,7 @@ ht-degree: 93%
    + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
    + [Utilizzare dimensioni e metriche di binding](use-cases/binding-dimensions-metrics.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
-   + [Inserire dati di Marketo Engage in AEP e generare rapporti in CJA](use-cases/marketo.md)
+   + [Acquisire i dati Marketo Engage in AEP e generare rapporti in CJA](use-cases/marketo.md)
    + [Inserire il pubblico AEP in CJA](use-cases/ingest-aep-segments.md)
    + [Analizzare i dati tra canali diversi](use-cases/cross-channel.md)
    + [Importare dati web e call center](use-cases/call-center.md)
@@ -217,8 +217,8 @@ ht-degree: 93%
    + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
    + [Attività del curatore](mobile-app/curator.md)
    + [Creare una scorecard](mobile-app/create-scorecard.md)
-   + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
-   + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
+   + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
+   + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + Risoluzione dei problemi {#troubleshooting}
    + [Confrontare i dati di Adobe Analytics con i dati CJA](troubleshooting/compare.md)
 + Privacy {#cja-privacy}
