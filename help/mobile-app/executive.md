@@ -1,22 +1,22 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
-title: Guida esecutiva alle dashboard di Adobe Analytics
+title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
 ht-degree: 100%
 
 ---
 
-# Guida introduttiva per utenti esecutivi
+# Guida introduttiva per utenti direzionali
 
-Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
+Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-Questa guida ha lo scopo di aiutare gli utenti manageriali a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
+Questa guida ha lo scopo di aiutare gli utenti direzionali a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti direzionali di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
 ## Configurare le dashboard sul dispositivo
 
@@ -33,19 +33,19 @@ Per accedere alle scorecard sulle dashboard, assicurati:
 
 Per scaricare e installare l’app, segui i passaggi relativi al sistema operativo del tuo dispositivo.
 
-**Per gli utenti esecutivi su iOS:**
+**Per gli utenti direzionali su iOS:**
 
 Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
-**Per gli utenti esecutivi su Android:**
+**Per gli utenti direzionali su Android:**
 
 Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
-Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le credenziali di Adobe Analytics esistenti.
+Una volta scaricata e installata, gli utenti direzionali possono accedere all’app utilizzando le credenziali di Adobe Analytics esistenti.
 
 ![Schermata di benvenuto dell’app](assets/welcome.png)
 
@@ -70,17 +70,17 @@ Per utilizzare le dashboard:
 
    ![Niente di condiviso](assets/nothing.png)
 
-1. Esamina l’aspetto delle tessere nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
+1. Esamina l’aspetto delle sezioni nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
 
-   ![Informazioni sulle tessere](assets/newexplain.png)
+   ![Informazioni sulle sezioni](assets/newexplain.png)
 
-   Ulteriori informazioni sulle tessere:
+   Ulteriori informazioni sulle sezioni:
 
    * La granularità dei grafici sparkline dipende dalla lunghezza dell’intervallo date:
 
       * Un giorno mostra una tendenza oraria
-      * Più di un giorno e meno di un anno mostra una tendenza giornaliera
-      * Un anno o più mostra una tendenza settimanale
+      * Più di un giorno e meno di un anno mostra una tendenza giornaliera.
+      * Un anno o più mostra una tendenza settimanale.
    * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
 
    * È possibile trascinare lo schermo verso il basso per aggiornare la scorecard.
@@ -89,7 +89,7 @@ Per utilizzare le dashboard:
 
    ![Esempio di scorecard](assets/intro_scorecard.png)
 
-1. Tocca una tessera per vedere come funziona un suo raggruppamento dettagliato.
+1. Tocca una sezione per vedere come funziona un suo raggruppamento dettagliato.
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
@@ -100,7 +100,7 @@ Per utilizzare le dashboard:
 
    * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
-   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le sezioni della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
@@ -139,12 +139,12 @@ Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tu
 
 | Termine | Definizione |
 |--- |--- |
-| Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
+| Consumatore | Utente direzionale che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
 | Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
 | Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
-| Scorecard | Una vista delle dashboard contenente una o più tessere |
-| Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
-| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
+| Scorecard | Una vista dashboard contenente una o più sezioni |
+| Sezione | Una rappresentazione di una metrica all’interno di una vista Scorecard |
+| Raggruppamento | Una vista secondaria accessibile toccando una sezione nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla sezione e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
 | Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
