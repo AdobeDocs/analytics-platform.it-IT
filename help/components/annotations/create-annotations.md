@@ -4,18 +4,14 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 15faee32171a2beab7cf42b92b09358b5cb1acc3
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 2%
 
 ---
 
 # Creare annotazioni
-
->[!NOTE]
->
->Questa funzione è attualmente in fase di test.
 
 1. Per creare le annotazioni, è possibile iniziare in diversi modi:
 
