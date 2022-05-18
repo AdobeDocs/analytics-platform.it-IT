@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare l’Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 565a247da0e66953d84b70dfb2fa50555e36b27d
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -200,6 +200,15 @@ ht-degree: 98%
       + [Panoramica del calendario](components/date-ranges/calendar.md)
       + [Creare intervalli di date personalizzati](components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](components/date-ranges/time-comparison.md)
++ Dashboard di Analytics {#cja-dashboards}
+   + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
+   + [Attività del curatore](mobile-app/curator.md)
+   + [Creare una scorecard](mobile-app/create-scorecard.md)
+   + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
+   + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
++ Integrazioni {#integrations}
+   + [Integrare Attribution AI con CJA](integrations/attribution-ai.md)
+   + [Integrare Customer AI con CJA](integrations/customer-ai.md)
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
@@ -213,12 +222,6 @@ ht-degree: 98%
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
    + [Inserire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
-+ Dashboard di Analytics {#cja-dashboards}
-   + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
-   + [Attività del curatore](mobile-app/curator.md)
-   + [Creare una scorecard](mobile-app/create-scorecard.md)
-   + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
-   + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + Risoluzione dei problemi {#troubleshooting}
    + [Confrontare i dati di Adobe Analytics con i dati CJA](troubleshooting/compare.md)
 + Privacy {#cja-privacy}
