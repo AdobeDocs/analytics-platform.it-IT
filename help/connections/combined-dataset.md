@@ -4,17 +4,17 @@ description: Scopri come CJA crea una connessione combinando set di dati.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Set di dati evento combinati
 
-Quando crei una connessione, CJA combina tutti gli schemi e i set di dati in un unico set di dati. Questo “set di dati combinato” è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
+Quando crei una connessione, Customer Journey Analytics (CJA) combina tutti gli schemi e i set di dati in un unico set di dati. Questo “set di dati combinato” è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
 * La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare i visitatori univoci in CJA.
