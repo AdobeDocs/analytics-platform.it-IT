@@ -3,13 +3,13 @@ description: Scopri in che modo AEP Customer AI si integra con Workspace in CJA.
 title: Integrare Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 5302d9213b66c327b59c3f4476fbf204f1078392
+exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
+source-git-commit: e0b5e91897ce6cdcaebfb2d6663e565dff850d74
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
-
 
 # Integrare Customer AI con CJA
 
@@ -62,4 +62,11 @@ Di seguito è riportato un esempio di schema XDM che CJA inserirebbe come parte 
 
 ### Passaggio 5: Crea visualizzazioni dati in base a queste connessioni
 
-In CJA, ora puoi procedere per creare visualizzazioni dati con le dimensioni inserite come parte della connessione stabilita.
+In CJA, ora puoi procedere per [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) inserite come parte della connessione stabilita.
+
+### Passaggio 6: Report sui punteggi ICC in Workspace
+
+Ecco un esempio di progetto Workspace con dati ICC che mostra le date del punteggio in un grafico a barre sovrapposte:
+
+![Punti elenco](assets/workspace-scores.png)
+
