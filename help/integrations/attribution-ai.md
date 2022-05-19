@@ -4,9 +4,9 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -32,30 +32,21 @@ Attribution AI si integra con Customer Journey Analytics (CJA) nella misura in c
 
 Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare con l’output in CJA. L’output è costituito da un set di dati con un modello di Attribution AI applicato.
 
-### Passaggio 1: Scaricare i punteggi delle Attribution AI
-
-In Adobe Experience Platform, scarica i punteggi delle Attribution AI come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
-
-### Passaggio 2: Creare un’istanza di Attribution AI
+### Passaggio 1: Creare un’istanza di Attribution AI
 
 Ad Experience Platform, crea un’istanza Attribution AI selezionando e mappando i dati, definendo gli eventi e addestrando i dati, come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
-### Passaggio 3: Configurare una connessione CJA ai set di dati di Attribution AI
+### Passaggio 2: Configurare una connessione CJA ai set di dati di Attribution AI
 
 In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Attribution AI. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi Attribution AI&quot;, come mostrato di seguito:
 
 ![Punteggi di AAI](assets/aai-scores.png)
 
->[!IMPORTANT]
->
->Puoi aggiungere alla connessione i set di dati di profilo e di ricerca, nonché i dati del call center e del CRM. Tuttavia, Adobe sconsiglia di aggiungere set di dati Adobe Analytics ai set di dati con punteggi di Attribution AI nella stessa connessione.
-
-
-### Passaggio 4: Crea visualizzazioni dati in base a queste connessioni
+### Passaggio 3: Crea visualizzazioni dati in base a queste connessioni
 
 In CJA, [creare una o più visualizzazioni dati](/help/data-views/create-dataview.md) che contengono i campi XDM di Attribution AI. (Sarebbe fantastico avere uno screenshot qui.)
 
-### Passaggio 5: Report sui dati AAI in CJA Workspace
+### Passaggio 4: Report sui dati AAI in CJA Workspace
 
 In un progetto di CJA Workspace, puoi inserire metriche quali &quot;Ordini AAI&quot; e dimensioni quali, ad esempio, &quot;Nome campagna AAI&quot; o &quot;Canale marketing AAI&quot;.
 
@@ -75,7 +66,7 @@ Quindi quando utilizzare i dati di Attribution AI rispetto a [Attribution IQ](/h
 | Funzionalità | Attribution AI | Attribution IQ |
 | --- | --- | --- |
 | Attribuzione frazionale | Sì | No |
-| Consente agli utenti di regolare il modello | No | Sì |
+| Consente agli utenti di regolare il modello | Sì | Sì |
 | Attribuzione tra canali diversi (Nota: AAI non utilizza gli stessi dati uniti utilizzati da CJA.) | Sì | Sì |
 | Include punteggi incrementali e influenzati | Sì | No |
 | Modellazione ML | Sì | Sì |

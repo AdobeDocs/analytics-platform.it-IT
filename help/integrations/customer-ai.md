@@ -4,9 +4,9 @@ title: Integrare Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Con l’aiuto di fattori influenti, Customer AI può dirvi cosa è probabile che faccia un cliente e perché. Inoltre, gli esperti di marketing possono trarre vantaggio dalle previsioni e dalle informazioni di Customer AI per personalizzare le esperienze dei clienti servendo le offerte e i messaggi più appropriati.
 
-Customer AI funziona analizzando uno dei seguenti set di dati per prevedere i punteggi di propensione di abbandono o conversione:
+Customer AI funziona analizzando uno o più dei seguenti set di dati per prevedere i punteggi di propensione di abbandono o conversione:
 
 * Dati di Adobe Analytics utilizzando il connettore di origine di Analytics
 * Dati Adobe Audience Manager utilizzando il connettore di origine Audience Manager
@@ -34,19 +34,11 @@ Customer AI si integra con il Customer Journey Analytics (CJA) nella misura in c
 
 Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare con l’output in CJA.
 
-### Passaggio 1: Scaricare i punteggi di Customer AI
-
-Il download dei punteggi di Customer AI viene effettuato tramite una combinazione di chiamate API di Experience Platform, come descritto [qui](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/getting-started.html?lang=en#downloading-customer-ai-scores).
-
-### Passaggio 2: Definizione degli input e degli output di Customer AI
-
-Questo processo è descritto in [Input e output in Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/input-output.html?lang=en) documentazione.
-
-### Passaggio 3: Configurare un’istanza di Customer AI
+### Passaggio 1: Configurare un’istanza di Customer AI
 
 Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo [Configurare un’istanza di Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) guida.
 
-### Passaggio 4: Impostare una connessione CJA ai set di dati di Customer AI
+### Passaggio 2: Impostare una connessione CJA ai set di dati di Customer AI
 
 In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Customer AI. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi AI del cliente&quot;, come mostrato di seguito:
 
@@ -60,11 +52,11 @@ Di seguito è riportato un esempio di schema XDM che CJA inserirebbe come parte 
 
 (L’esempio è un set di dati di profilo; lo stesso set di oggetti schema farebbe parte di un set di dati Experience Event che CJA acquisirebbe. Il set di dati di Experience Event include marche temporali come data del punteggio.) Ogni cliente valutato in questo modello avrebbe un punteggio, una data punteggio, ecc. associati a loro.
 
-### Passaggio 5: Crea visualizzazioni dati in base a queste connessioni
+### Passaggio 3: Crea visualizzazioni dati in base a queste connessioni
 
-In CJA, ora puoi procedere per [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) inserite come parte della connessione stabilita.
+In CJA, ora puoi procedere per [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
 
-### Passaggio 6: Report sui punteggi ICC in Workspace
+### Passaggio 4: Report sui punteggi ICC in Workspace
 
 Ecco un esempio di progetto Workspace con dati ICC che mostra le date del punteggio in un grafico a barre sovrapposte:
 
