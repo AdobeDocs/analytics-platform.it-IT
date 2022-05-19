@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 01a9ff4e03e002da723c10500de6dec4444f951e
+exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
-
 
 # Gestire i blocchi di dati nel Report Builder
 
@@ -50,19 +50,17 @@ Puoi modificare la visualizzazione dati, l’intervallo di date o i filtri appli
 
 Ad esempio, puoi sostituire un filtro esistente con un nuovo filtro in uno o più blocchi di dati.
 
-1. Seleziona i blocchi di dati da aggiornare.
+1. Seleziona i blocchi di dati da aggiornare. È possibile selezionare la casella di controllo di livello principale per selezionare tutti i blocchi di dati oppure i singoli blocchi di dati.
 
-È possibile selezionare la casella di controllo di livello principale per selezionare tutti i blocchi di dati oppure i singoli blocchi di dati.
-
-![immagine](./assets/image56.png)
+   ![immagine](./assets/image56.png)
 
 1. Fare clic sull&#39;icona di modifica per visualizzare la finestra di modifica rapida.
 
-![immagine](./assets/image58.png)
+   ![immagine](./assets/image58.png)
 
 1. Seleziona un collegamento filtro per aggiornare visualizzazioni dati, intervalli di date o filtri.
 
-![immagine](./assets/image59.png)
+   ![immagine](./assets/image59.png)
 
 ## Aggiorna blocchi di dati
 
@@ -81,9 +79,9 @@ Fai clic sull’icona del cestino per eliminare un blocco di dati selezionato.
 
 ## Blocchi di dati di gruppo
 
-Fai clic sui titoli delle colonne per raggruppare i blocchi di dati o seleziona un nome di colonna dal **Raggruppa per** *Nome* elenco.
+Puoi raggruppare i blocchi di dati utilizzando **Raggruppa per** oppure puoi fare clic sul titolo di una colonna. Per ordinare i blocchi di dati per colonna, fai clic sul titolo della colonna. Per raggruppare i blocchi di dati per gruppi, seleziona un nome di gruppo dal **Raggruppa per** menu a discesa. Ad esempio, la schermata seguente mostra i blocchi di dati raggruppati per Foglio. Mostra i blocchi di dati raggruppati per Sheet1 e Sheet2.  Questo è utile, ad esempio, nel caso d’uso di sostituzione del filtro. Se a ogni blocco di dati sono applicati più filtri, è utile creare un gruppo contenente tutti i blocchi di dati che si desidera sostituire. È quindi possibile selezionarli e modificarli tutti in una sola volta.
 
-![immagine](./assets/image514.png)
+![immagine](./assets/group-data-blocks.png)
 
 ## Modificare la visualizzazione Gestione blocchi dati
 
