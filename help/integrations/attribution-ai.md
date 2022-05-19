@@ -4,10 +4,10 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: e0b5e91897ce6cdcaebfb2d6663e565dff850d74
+source-git-commit: aa4559daa7156091d1a3c5d602dd7390f85aebd6
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 4%
+source-wordcount: '592'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,18 @@ ht-degree: 4%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), parte di Adobe Experience Platform Intelligent Services, è un servizio di attribuzione algoritmica multicanale che calcola l’influenza e l’impatto incrementale delle interazioni dei clienti rispetto a risultati specifici. Con Attribution AI, gli addetti al marketing possono misurare e ottimizzare le spese di marketing e pubblicitarie comprendendo l’impatto di ogni singola interazione con i clienti in ogni fase dei percorsi dei clienti.
 
-Attribution AI supporta due categorie di punteggi: algoritmico e basato su regole. I punteggi algoritmici includono punteggi incrementali e influenzati. I punteggi basati su regole includono Primo contatto, Ultimo contatto, Lineare, A forma di U e Decadimento nel tempo. Attribution AI supporta 3 schemi di Experience Platform: Evento esperienza, Adobe Analytics ed evento esperienza di consumo.
+Attribution AI supporta due categorie di punteggi: algoritmico e basato su regole. I punteggi algoritmici includono punteggi incrementali e influenzati.
+
+* **Punteggi influenzati** divide il 100% del credito di conversione tra i canali di marketing.
+* **Punteggi incrementali** per prima cosa, prendi in considerazione una linea di base di conversione che avresti ottenuto anche senza il marketing. Questa linea di base dipende dalle osservazioni AI di pattern, stagionalità e così via, dovute al riconoscimento del marchio esistente, alla lealtà e al passaparola. Il credito rimanente è suddiviso tra i canali di marketing.
+
+I punteggi basati su regole includono [!UICONTROL First touch], [!UICONTROL Last touch], [!UICONTROL Linear], [!UICONTROL U-shaped]e [!UICONTROL Time-Decay]. Attribution AI supporta 3 schemi di Experience Platform: Evento esperienza, Adobe Analytics ed evento esperienza di consumo.
 
 Attribution AI si integra con Customer Journey Analytics (CJA) nella misura in cui Attribution AI esegue i modelli rispetto ai dati e CJA importa l’output di tali modelli come set di dati, che può quindi essere integrato con il resto dei set di dati CJA. I set di dati abilitati per Attribution AI possono quindi essere utilizzati nelle visualizzazioni dati e nei rapporti in CJA.
 
 ## Flusso di lavoro
 
-Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare con l’output in CJA.
+Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare con l’output in CJA. L’output è costituito da un set di dati con un modello di Attribution AI applicato.
 
 ### Passaggio 1: Scaricare i punteggi delle Attribution AI
 
@@ -41,13 +46,27 @@ In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connec
 
 ![Punteggi di AAI](assets/aai-scores.png)
 
+>[!IMPORTANT]
+>
+>Puoi aggiungere alla connessione i set di dati di profilo e di ricerca, nonché i dati del call center e del CRM. Tuttavia, Adobe sconsiglia di aggiungere set di dati Adobe Analytics ai set di dati con punteggi di Attribution AI nella stessa connessione.
+
+
 ### Passaggio 4: Crea visualizzazioni dati in base a queste connessioni
 
-In CJA, [creare una o più visualizzazioni dati](/help/data-views/create-dataview.md) che contengono i campi XDM di AA. (Sarebbe fantastico avere uno screenshot qui.)
+In CJA, [creare una o più visualizzazioni dati](/help/data-views/create-dataview.md) che contengono i campi XDM di Attribution AI. (Sarebbe fantastico avere uno screenshot qui.)
 
 ### Passaggio 5: Report sui dati AAI in CJA Workspace
 
-Ecco un esempio di progetto Workspace con dati AAI che mostrano..
+In un progetto di CJA Workspace, puoi inserire metriche quali &quot;Ordini AAI&quot; e dimensioni quali, ad esempio, &quot;Nome campagna AAI&quot; o &quot;Canale marketing AAI&quot;.
+
+![Dimensioni AAI](assets/aai-dims.png)
+
+Qui vediamo un progetto Workspace con dati AAI che mostra gli ordini con punteggi influenzati e incrementali.
+
+![Progetto AAI](assets/aai-project.png)
+
+![Progetto AAI](assets/aai-project2.png)
+
 
 ## Differenze tra Attribution AI e Attribution IQ
 
