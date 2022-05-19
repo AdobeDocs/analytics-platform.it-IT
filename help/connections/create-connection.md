@@ -4,16 +4,16 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: beb9e94e0870f8957de59e643957f7422f902182
+source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2008'
 ht-degree: 68%
 
 ---
 
 # Creare una connessione
 
-A maggio 2022 verrà avviato un nuovo flusso di lavoro Connessioni nel Customer Journey Analytics (CJA). Ecco una panoramica delle nuove funzionalità:
+Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer Journey Analytics (CJA). Ecco una panoramica delle nuove funzionalità:
 
 * È possibile abilitare una finestra di conservazione dei dati in sequenza al momento della creazione della connessione.
 * È possibile aggiungere e rimuovere i set di dati da una connessione. La rimozione di un set di dati lo rimuove dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
