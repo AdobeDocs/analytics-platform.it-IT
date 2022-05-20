@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ed0a015e7198db8dd77ec73d9c9299d9a872370c
+source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 98%
+source-wordcount: '762'
+ht-degree: 91%
 
 ---
 
@@ -17,6 +17,10 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Maggio 2022 | Articolo significativamente aggiornato su [creazione di connessioni](/help/connections/create-connection.md) in CJA. |
+| Maggio 2022 | Nuovo articolo su [integrazione di CJA con Attribution AI](/help/integrations/attribution-ai.md) in Adobe Experience Platform. |
+| Maggio 2022 | Nuovo articolo su [integrazione di CJA con Customer AI in Adobe Experience Platform](/help/integrations/customer-ai.md). |
+| Maggio 2022 | Nuovo articolo su come [gestire i blocchi di dati nel Report Builder CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
 | Maggio 2022 | Nuovo articolo su [acquisizione di tipi di pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md) |
 | Aprile 2022 | Documentazione sulle [sottostringhe di dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html?lang=it). |
 | Aprile 2022 | Nuova [Guida di CJA per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md). |
