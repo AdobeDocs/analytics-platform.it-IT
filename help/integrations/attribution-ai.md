@@ -4,9 +4,9 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '697'
 ht-degree: 3%
 
 ---
@@ -52,12 +52,34 @@ In un progetto di CJA Workspace, puoi inserire metriche quali &quot;Ordini AAI&q
 
 ![Dimensioni AAI](assets/aai-dims.png)
 
-Qui vediamo un progetto Workspace con dati AAI che mostra gli ordini con punteggi influenzati e incrementali.
+Qui vediamo un progetto Workspace con dati AAI che mostra gli ordini con punteggi influenzati e incrementali. Approfondisci qualsiasi dimensione per comprendere l’attribuzione tramite: campagna, gruppo di prodotti, segmento utente, area geografica e così via.
 
 ![Progetto AAI](assets/aai-project.png)
 
 ![Progetto AAI](assets/aai-project2.png)
 
+Comprendere l&#39;interazione del canale per vedere quale canale può essere utilizzato più efficacemente con altri canali:
+
+![Sovrapposizione del canale di marketing](assets/mc-overlap.png)
+
+Questa tabella mostra i percorsi principali di conversione (deduplicati) per facilitarti la progettazione e l’ottimizzazione dei punti di contatto:
+
+![Canali principali](assets/top-channels.png)
+
+In questo caso, si verifica il lead time di conversione quando un punto di contatto è nel mix. Consente di ottimizzare il lead time:
+
+![Lead time](assets/lead-time.png)
+
+## Nuove metriche CJA
+
+| Metrica | Descrizione |
+| --- | --- |
+| [!UICONTROL Acquisition Rate] | Per ogni canale, tra i percorsi di conversione che ha toccato, la percentuale del canale è Starter. |
+| [!UICONTROL Player rate] | Per ogni canale, tra i percorsi di conversione che ha toccato, la percentuale del canale è un lettore. |
+| [!UICONTROL Closer rate] | Per ogni canale, tra i percorsi di conversione che ha toccato, la percentuale del canale è il Più vicino. |
+| [!UICONTROL AAI AVG Days Away from Order] | Per ogni canale, il numero medio di giorni dall&#39;ordine. |
+| [!UICONTROL AAI AVG Total Days in Sales Process] | Per ogni canale, la media dei giorni totali dei percorsi di conversione che ha toccato. |
+| [!UICONTROL AVG Touches Away From Order] | Per ogni canale, la media si allontana dall&#39;ordine. |
 
 ## Differenze tra Attribution AI e Attribution IQ
 
