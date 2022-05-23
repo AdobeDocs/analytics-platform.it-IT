@@ -4,7 +4,7 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
+source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 68%
@@ -20,6 +20,8 @@ Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer 
 * Puoi abilitare e richiedere il backfill dei dati per set di dati.
 * È possibile modificare i set di dati, ad esempio per richiedere un altro backfill.
 * Puoi importare dati esistenti per set di dati.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
 ## Creare e configurare la connessione {#create-connection}
 
