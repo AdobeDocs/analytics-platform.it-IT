@@ -4,9 +4,9 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
+source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '716'
 ht-degree: 3%
 
 ---
@@ -52,19 +52,27 @@ In un progetto di CJA Workspace, puoi inserire metriche quali &quot;Ordini AAI&q
 
 ![Dimensioni AAI](assets/aai-dims.png)
 
+**Ordini con punteggi influenzati e incrementali**
+
 Qui vediamo un progetto Workspace con dati AAI che mostra gli ordini con punteggi influenzati e incrementali. Approfondisci qualsiasi dimensione per comprendere l’attribuzione tramite: campagna, gruppo di prodotti, segmento utente, area geografica e così via.
 
 ![Progetto AAI](assets/aai-project.png)
 
 ![Progetto AAI](assets/aai-project2.png)
 
+**Interazione canale**
+
 Comprendere l&#39;interazione del canale per vedere quale canale può essere utilizzato più efficacemente con altri canali:
 
 ![Sovrapposizione del canale di marketing](assets/mc-overlap.png)
 
+**Percorsi principali per la conversione**
+
 Questa tabella mostra i percorsi principali di conversione (deduplicati) per facilitarti la progettazione e l’ottimizzazione dei punti di contatto:
 
 ![Canali principali](assets/top-channels.png)
+
+**Lead time per la conversione**
 
 In questo caso, si verifica il lead time di conversione quando un punto di contatto è nel mix. Consente di ottimizzare il lead time:
 
@@ -80,6 +88,8 @@ In questo caso, si verifica il lead time di conversione quando un punto di conta
 | [!UICONTROL AAI AVG Days Away from Order] | Per ogni canale, il numero medio di giorni dall&#39;ordine. |
 | [!UICONTROL AAI AVG Total Days in Sales Process] | Per ogni canale, la media dei giorni totali dei percorsi di conversione che ha toccato. |
 | [!UICONTROL AVG Touches Away From Order] | Per ogni canale, la media si allontana dall&#39;ordine. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Differenze tra Attribution AI e Attribution IQ
 
