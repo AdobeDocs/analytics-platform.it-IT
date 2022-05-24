@@ -4,10 +4,10 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
+source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 68%
+source-wordcount: '2062'
+ht-degree: 67%
 
 ---
 
@@ -37,7 +37,7 @@ Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer 
    | **[!UICONTROL Connection name]** | Immettere un nome univoco per la connessione. |
    | **[!UICONTROL Connection description]** | Descrivere lo scopo di questa connessione. |
    | **[!UICONTROL Sandbox]** | Scegli una sandbox in Experience Platform che contiene i set di dati per cui desideri creare una connessione.<p>Adobe Experience Platform fornisce [sandboxe](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Potete considerare le sandbox come &quot;silos di dati&quot; che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.<p>Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi richiamare. |
-   | **[!UICONTROL Enable rolling data window]** | Questa impostazione ti consente di definire la conservazione dei dati CJA come una finestra continua nei mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.<p>La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione della finestra dati continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.<p> Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti. |
+   | **[!UICONTROL Enable rolling data window]** | Questa casella di controllo, se selezionata, ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.<p>La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione della finestra dati continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.<p> Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.<p>Se si lascia l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se ad Experience Platform disponi di 25 mesi di dati, CJA riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, CJA manterrà i restanti 15 mesi. |
    | **[!UICONTROL Add datasets]** (vedi sotto) | Aggiungi i set di dati se nell’elenco dei set di dati non sono presenti set di dati. |
    | **[!UICONTROL Dataset name]** | Seleziona uno o più set di dati da richiamare nel Customer Journey Analytics e fai clic su **[!UICONTROL Add]**.<p>Se hai molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca per i set di dati di Ricerca sopra l’elenco dei set di dati. |
    | **[!UICONTROL Last updated]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo timestamp predefinito dagli schemi basati su eventi in Experience Platform. &quot;N/D&quot; significa che questo set di dati non contiene dati. |
