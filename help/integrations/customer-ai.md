@@ -4,18 +4,14 @@ title: Integrare Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Integrare Customer AI con CJA
-
->[!NOTE]
->
->Questa funzionalità verrà rilasciata il 25 maggio 2022.
 
 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), come parte di Adobe Experience Platform Intelligent Services, offre agli addetti al marketing la possibilità di generare previsioni sui clienti a livello individuale.
 
@@ -41,7 +37,11 @@ Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, i
 
 ### Passaggio 2: Impostare una connessione CJA ai set di dati di Customer AI
 
-In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Customer AI. Ogni previsione, ad esempio &quot;Probabilità di aggiornare l’account&quot;, equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi AI del cliente&quot;, come mostrato di seguito:
+In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Customer AI. Ogni previsione, ad esempio &quot;Probabilità di aggiornare l’account&quot;, equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi Customer AI in Formato EE - nome_dell_applicazione&quot;.
+
+>[!IMPORTANT]
+>
+>Ogni istanza di Customer AI dispone di due set di dati di output se l’interruttore è attivato per abilitare i punteggi per CJA durante la configurazione del passaggio 1. Un set di dati di output viene visualizzato in formato XDM profilo e uno in formato XDM evento esperienza.
 
 ![Punteggi delle ICC](assets/cai-scores.png)
 

@@ -4,18 +4,14 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '849'
 ht-degree: 10%
 
 ---
 
 # Integrare Attribution AI con CJA
-
->[!NOTE]
->
->Questa funzionalità verrà rilasciata il 25 maggio 2022.
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en), parte di Adobe Experience Platform Intelligent Services, è un servizio di attribuzione algoritmica multicanale che calcola l’influenza e l’impatto incrementale delle interazioni dei clienti rispetto a risultati specifici. Con Attribution AI, gli addetti al marketing possono misurare e ottimizzare le spese di marketing e pubblicitarie comprendendo l’impatto di ogni singola interazione con i clienti in ogni fase dei percorsi dei clienti.
 
@@ -115,6 +111,6 @@ Quindi quando utilizzare i dati di Attribution AI rispetto a [Attribution IQ](/h
 | Include punteggi influenzati | Sì | Sì |
 | Modellazione ML | Sì | Sì |
 | Modelli di attribuzione basati su aree geografiche | Sì | Sì |
-| Può includere punti di contatto di marketing nel modello | Sì | No |
+| Può configurare punti di contatto di marketing nel modello | Sì | No |
 
 {style=&quot;table-layout:auto&quot;}
