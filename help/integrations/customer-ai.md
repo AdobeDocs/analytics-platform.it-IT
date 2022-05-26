@@ -4,9 +4,9 @@ title: Integrare Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 Con l’aiuto di fattori influenti, Customer AI può dirvi cosa è probabile che faccia un cliente e perché. Inoltre, gli esperti di marketing possono trarre vantaggio dalle previsioni e dalle informazioni di Customer AI per personalizzare le esperienze dei clienti servendo le offerte e i messaggi più appropriati.
 
-Customer AI si basa su dati comportamentali individuali e dati di profilo per il punteggio di propensione. Customer AI è flessibile in quanto può assumere più origini dati, tra cui Adobe Analytics, Adobe Audience Manager, dati Consumer Experience Event e dati Experience Event. Se utilizzi il connettore dati AEP per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati Evento esperienza personalizzato senza tipi di evento standard, tutti i campi rilevanti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di Customer AI . &#x200B;
+Customer AI si basa su dati comportamentali individuali e dati di profilo per il punteggio di propensione. Customer AI è flessibile in quanto può assumere più origini dati, tra cui Adobe Analytics, Adobe Audience Manager, dati Consumer Experience Event e dati Experience Event. Se utilizzi il connettore di origine Experience Platform per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati Evento esperienza personalizzato senza tipi di evento standard, tutti i campi rilevanti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di Customer AI in Experience Platform. &#x200B;
 
 Customer AI si integra con il Customer Journey Analytics (CJA) nella misura in cui i set di dati abilitati per Customer AI possono essere utilizzati nelle visualizzazioni dati e nel reporting in CJA. Con questa integrazione, puoi
 
 * **Tracciare i punteggi di propensione per un segmento di utenti nel tempo**. Esempio di utilizzo: Qual è la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel?
 * **Analizzare gli eventi di successo o gli attributi associati ai punteggi di propensione**. &#x200B;Esempio di utilizzo: Voglio comprendere gli attributi o gli eventi di successo associati ai punteggi di propensione.
 * **Segui il flusso di entrata per la propensione del cliente su diverse esecuzioni di punteggio**. Esempio di utilizzo: Vorrei capire le persone che inizialmente erano utenti a bassa propensione e, nel tempo, sono diventati utenti ad alta propensione. &#x200B;
-* **Guardate la distribuzione della propensione**. Caso di utilizzo: Vorrei comprendere la distribuzione dei punteggi di propensione a Posso essere più precisa con i miei segmenti. &#x200B;Esempio: un rivenditore desidera effettuare una promozione specifica per 50 $ su un prodotto.  Possono solo voler gestire una promozione molto limitata a causa del budget, ecc. Analizzano i dati e decidono di eseguire il targeting solo dei primi &#x200B; dell’80%+ dei loro clienti.
+* **Guardate la distribuzione della propensione**. Caso di utilizzo: Vorrei comprendere la distribuzione dei punteggi di propensione a Posso essere più precisa con i miei segmenti. &#x200B;Esempio: un rivenditore desidera effettuare una promozione specifica per 50 $ su un prodotto. Potrebbero voler gestire solo una promozione molto limitata a causa del budget, ecc. Analizzano i dati e decidono di eseguire il targeting solo dei primi &#x200B; dell’80%+ dei loro clienti.
 * **Osserva la propensione a eseguire un’azione per una particolare coorte nel tempo**. Caso di utilizzo: Vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è possibile tenere traccia di una coorte specifica nel tempo. &#x200B; Esempio di ospitalità: Un esperto di marketing può rintracciare il loro livello bronzo rispetto al loro livello argento, o livello argento rispetto al loro livello oro nel tempo. Poi possono vedere la propensione di ogni coorte a prenotare l&#39;hotel nel tempo. &#x200B;
 
 ## Flusso di lavoro
@@ -33,7 +33,7 @@ Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavor
 
 ### Passaggio 1: Configurare un’istanza di Customer AI
 
-Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo [Configurare un’istanza di Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) guida.
+Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo [Configurare un’istanza di Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) guida in Adobe Experience Platform.
 
 ### Passaggio 2: Impostare una connessione CJA ai set di dati di Customer AI
 
