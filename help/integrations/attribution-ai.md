@@ -4,9 +4,9 @@ title: Integrare Attribution AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '840'
 ht-degree: 10%
 
 ---
@@ -54,7 +54,7 @@ In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connec
 
 ### Passaggio 3: Crea visualizzazioni dati in base a queste connessioni
 
-In CJA, [creare una o più visualizzazioni dati](/help/data-views/create-dataview.md) che contengono i campi XDM di Attribution AI. (Sarebbe fantastico avere uno screenshot qui.)
+In CJA, [creare una o più visualizzazioni dati](/help/data-views/create-dataview.md) che contengono i campi XDM di Attribution AI.
 
 ### Passaggio 4: Report sui dati AAI in CJA Workspace
 
@@ -64,7 +64,7 @@ In un progetto di CJA Workspace, puoi inserire metriche quali &quot;Ordini AAI&q
 
 >[!IMPORTANT]
 >
->Queste dimensioni e metriche non vengono denominate in modo nativo in questo modo. Questi sono &quot;nomi amichevoli&quot;. La [convenzione di denominazione in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) segue il percorso dello schema. È consigliabile rinominare i nomi dei percorsi degli schemi lunghi in AAI in nomi brevi e più descrittivi (dimensioni/metriche) in CJA. Puoi farlo in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** scheda > **[!UICONTROL Schema fields]** -> Fare clic su un campo schema -> **[!UICONTROL Component name]**.
+>Queste dimensioni e metriche non vengono denominate in modo nativo in questo modo. Questi sono &quot;nomi amichevoli&quot;. La [convenzione di denominazione in Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) segue il percorso dello schema. È consigliabile rinominare i nomi dei percorsi lunghi dello schema AAI in nomi brevi e più descrittivi (dimensioni/metriche) in CJA. Puoi farlo in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** scheda > **[!UICONTROL Schema fields]** -> Fare clic su un campo schema -> **[!UICONTROL Component name]**.
 
 
 **Ordini con punteggi influenzati e incrementali**

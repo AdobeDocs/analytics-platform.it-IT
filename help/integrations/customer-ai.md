@@ -4,9 +4,9 @@ title: Integrare Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,31 @@ In CJA, ora puoi procedere per [creare visualizzazioni dati](/help/data-views/cr
 
 In CJA Workspace, ora puoi creare un nuovo progetto e inserire le visualizzazioni .
 
+**Punteggi di tendenza della propensione**
+
 Ecco un esempio di un progetto Workspace con dati ICC che genera un punteggio di propensione per un segmento di utenti nel tempo, in &#x200B; un grafico a barre sovrapposto:
 
 ![Punti elenco](assets/workspace-scores.png)
+
+**Tabella con codici motivo**
 
 Ecco una tabella che mostra i codici motivo per cui un segmento ha un &#x200B; di propensione alto o basso:
 
 ![Codici dei motivi](assets/reason-codes.png)
 
+**Flusso di ingresso per la propensione del cliente**
+
 Questo diagramma di flusso mostra il flusso di ingresso per la propensione del cliente su diverse esecuzioni di punteggio &#x200B;:
 
 ![Flusso di ingresso](assets/flow.png)
 
+**Distribuzione dei punteggi di propensione**
+
 Questo grafico a barre mostra la distribuzione dei punteggi di propensione &#x200B;:
 
 ![Distribuzione](assets/distribution.png)
+
+**Sovrapposizioni tendenza**
 
 Questo diagramma di Venn mostra la sovrapposizione della propensione su diverse esecuzioni di punteggio:
 
