@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 146c8b9b4918c753391484dc1267e1cb90380525
+source-git-commit: e9f83a6169addc7d7df1ef7902466008f66ef66b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1402'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Confronto date | Supporto completo. |
 | Intervalli di date | È supportata tutta la funzionalità per intervalli di date. |
 | Ora legale | Supporto completo. |
+| Dimensioni dispositivo, browser, referente, tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe XDM Experience Event. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html?lang=it#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). Per i clienti CJA che non utilizzano ADC per compilare i dati da Adobe Analytics in CJA, ma che utilizzano invece la raccolta dati di AEP Web SDK, Device e dimensioni basate sulla ricerca del dispositivo non sono al momento supportati, ma lo saranno prossimamente. |
 | Dimensioni | Supporto completo; CJA sfrutta XDM e supporta dimensioni illimitate. CJA non è legato alle proprietà o agli eVar personalizzati della versione tradizionale di Adobe Analytics. |
 | Eliminazione RGPD | Supporto completo; tieni presente che le funzioni RGPD sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. CJA eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | Variabili elenco/Prop elenco | Supporto completo; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
@@ -57,7 +58,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | A4T | Il supporto viene fornito tramite i campi nel [connettore origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). |
 | Classificazioni | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate in Experience Platform e in CJA tramite il Connettore dati classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in AEP e resi disponibili in CJA. |
-| Sessionizzazione personalizzata | Supporto per tutte le funzionalità di sessionizzazione personalizzata che sono diverse dagli hit di background per dispositivi mobili. |
+| Sessionizzazione personalizzata | Supporto per tutte le funzioni di sessionizzazione personalizzate, ad eccezione degli hit di background per dispositivi mobili. |
 | Attributi cliente | Ora detti “Set di dati profilo”, non vengono importati automaticamente da Experience Cloud, ma dovranno essere caricati in AEP prima di poter essere disponibili in CJA. |
 | Dimensioni [!UICONTROL Device], [!UICONTROL Browser], [!UICONTROL Referrer], [!UICONTROL Technology] | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe XDM Experience Event. Consulta la [documentazione relativa alle variabili Analytics supportate tramite il connettore di origine Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it). Per i clienti CJA che non utilizzano il connettore di origine per compilare i dati da Adobe Analytics in CJA, ma che utilizzano invece la raccolta dati di AEP Web SDK, [!UICONTROL Device] e dimensioni basate sulla ricerca Dispositivo non sono attualmente supportate, ma lo saranno prossimamente. |
 | Dimensioni e metriche per entrata, uscita e tempo trascorso | Supportate (le entrate e le uscite sono ora denominate Inizio sessione e Fine sessione) e calcolate in modo leggermente diverso. |
