@@ -4,16 +4,16 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
+source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 67%
+source-wordcount: '2233'
+ht-degree: 62%
 
 ---
 
 # Creare una connessione
 
-Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer Journey Analytics (CJA). Ecco una panoramica delle nuove funzionalità:
+Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer Journey Analytics (CJA). La nuova esperienza di creazione e modifica della connessione porta tutte le impostazioni di configurazione del set di dati e della connessione al centro dello schermo con flusso di lavoro di supporto.  Abbiamo fornito la selezione dettagliata dei set di dati, la configurazione e l’esperienza di revisione con informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato batch, stato di backfill, ID persona e molto altro per ridurre il rischio di configurazione errata della connessione. Ecco una panoramica delle nuove funzionalità:
 
 * È possibile abilitare una finestra di conservazione dei dati in sequenza al momento della creazione della connessione.
 * È possibile aggiungere e rimuovere i set di dati da una connessione. La rimozione di un set di dati lo rimuove dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
@@ -47,7 +47,7 @@ Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer 
    | **[!UICONTROL Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
    | **[!UICONTROL Matching Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
    | **[!UICONTROL Import new data]** | Impostare su On o Off. |
-   | **[!UICONTROL Backfill data]** |  |
+   | **[!UICONTROL Backfill data]** | Puoi richiedere di eseguire il backfill dei dati in un set di dati basato su marche temporali dell’evento. Ad esempio, puoi richiedere di eseguire il backfill degli ultimi 7 giorni di dati, configurare l’ID persona corretto e verificare la connessione per una configurazione corretta. Se tutto sembra buono, è possibile retrocompilare facilmente tutti i dati rimanenti.<p>Inoltre, puoi abilitare l’importazione di nuovi dati per set di dati. Ad esempio, puoi abilitare l’importazione di nuovi dati solo per i dati di ricerca. |
    | **[!UICONTROL Backfill status]** | Indica se vengono elaborati dati di backfill. |
 
    {style=&quot;table-layout:auto&quot;}
@@ -77,7 +77,7 @@ Il nuovo flusso di lavoro consente di aggiungere un set di dati di Experience Pl
    | **[!UICONTROL Schema]** | questo è lo schema in base a cui il set di dati è stato creato in Adobe Experience Platform. |
    | **[!UICONTROL Dataset]** | Nome del set di dati. |
    | **[!UICONTROL Preview]**: `<dataset name>` | Visualizza in anteprima il set di dati con le colonne data, ID e ID . |
-   | **[!UICONTROL Remove]** | Rimuovi questo set di dati dalla connessione. |
+   | **[!UICONTROL Remove]** | Puoi eliminare o rimuovere il set di dati e modificare l’ID persona senza eliminare l’intera connessione. Questo riduce i costi associati all’acquisizione dei dati e il complicato processo di ricreazione dell’intera connessione e delle visualizzazioni dati associate. |
 
    {style=&quot;table-layout:auto&quot;}
 
