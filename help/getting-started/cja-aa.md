@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ab60cb09e4578be0fda642a3669af7e4c796fd52
+source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 94%
+source-wordcount: '1418'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Confronto date | Supporto completo. |
 | Intervalli di date | È supportata tutta la funzionalità per intervalli di date. |
 | Ora legale | Supporto completo. |
-| Dimensioni dispositivo, browser, referente, tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe XDM Experience Event. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html?lang=it#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). Per i clienti CJA che non utilizzano ADC per compilare i dati da Adobe Analytics in CJA, ma che utilizzano invece la raccolta dati di AEP Web SDK, Device e dimensioni basate sulla ricerca del dispositivo non sono al momento supportati, ma lo saranno prossimamente. |
+| Dimensioni dispositivo, browser, referente, tecnologia | Queste dimensioni vengono incluse automaticamente quando un set di dati AEP include campi di schema XDM specifici e sono conformi alla classe XDM Experience Event. Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it).<p>Se non utilizzi Adobe Source Connector per compilare i dati da Adobe Analytics in CJA, ma utilizzi invece la raccolta dati di Experience Platform Web SDK, Device e dimensioni basate sulla ricerca Dispositivo non sono attualmente supportate. Saranno sostenuti nel prossimo futuro. |
 | Dimensioni | Supporto completo; CJA sfrutta XDM e supporta dimensioni illimitate. CJA non è legato alle proprietà o agli eVar personalizzati della versione tradizionale di Adobe Analytics. |
 | Eliminazione RGPD | Supporto completo; tieni presente che le funzioni RGPD sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. CJA eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | Variabili elenco/Prop elenco | Supporto completo; CJA sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
@@ -52,6 +52,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Suite di rapporti virtuali | Supporto completo; ora denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Conservazione dei componenti VRS | Supporto completo; ora fa parte di Visualizzazioni dati. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Supportato con avvertenze
 
 | Funzione | Note |
@@ -69,14 +71,18 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA, non esiste tra CJA e la versione tradizionale di Analysis Workspace. |
 | Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Supporto parziale
 
 | Funzione | Note |
 | --- | --- |
 | Filtro bot | Per i set di dati basati sul [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
-| Media Analytics | I dati multimediali sono disponibili come parte del connettore sorgente di Analytics. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli Confronto segmenti, Analytics for Target (A4T) e Visualizzatori simultanei di contenuti multimediali non sono supportati. |
 | Regole di elaborazione | Per i set di dati basati sul connettore dati di Analytics, le regole di elaborazione vengono ancora applicate. [Le funzionalità di preparazione dei dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) possono essere utilizzate anche al posto delle regole di elaborazione per i dati che vanno direttamente in Platform. |
+| Analisi dei file multimediali in streaming | I dati multimediali sono disponibili come parte del [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Funzioni al momento non supportate, ma pianificate
 
@@ -94,6 +100,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. Sarà chiamato “Pubblicazione del pubblico” in CJA. |
 | Rapporti sulla sessione nuovi e ripetuti | Il supporto è pianificato con alcune avvertenze. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Supporto non ancora pianificato.
 
 | Funzione | Note |
@@ -104,6 +112,8 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Feed dati | Il supporto non è ancora pianificato. |
 | Riepilogo origini dati | Il supporto non è ancora pianificato. |
 | Origini dati ID transazione | Il supporto non è ancora pianificato. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Funzioni che non saranno mai supportate
 
