@@ -5,16 +5,18 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1208'
-ht-degree: 100%
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 99%
 
 ---
 
 # Guida introduttiva per utenti direzionali
 
-Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
+Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Ecco un video che mostra queste informazioni:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
 Questa guida ha lo scopo di aiutare gli utenti direzionali a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti direzionali di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
