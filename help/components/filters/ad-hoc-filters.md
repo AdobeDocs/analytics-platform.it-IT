@@ -4,10 +4,10 @@ title: Filtri di progetto ad hoc
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 6627c8e8f6e88fd93ffaad12b38e5e1dbbc844a8
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -20,8 +20,7 @@ Ecco un video sulla creazione di filtri per progetti ad hoc:
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 
-1. 
-   1. Rilascia qualsiasi tipo di componente (dimensione, elemento dimensione, evento, metrica, segmento, modello di segmento, intervallo di date) nella zona di rilascio del filtro nella parte superiore di un pannello. I tipi di componente vengono automaticamente convertiti in filtri ad hoc o [Filtri rapidi](/help/components/filters/quick-filters.md) se compatibile.
+1. Rilascia qualsiasi tipo di componente (dimensione, elemento dimensione, evento, metrica, segmento, modello di segmento, intervallo di date) nella zona di rilascio del filtro nella parte superiore di un pannello. I tipi di componente vengono automaticamente convertiti in filtri ad hoc o [Filtri rapidi](/help/components/filters/quick-filters.md) se compatibile.
 
    Ecco un esempio di come creare un filtro per il dominio di riferimento Twitter:
 
@@ -44,7 +43,7 @@ Puoi scegliere di salvare questi filtri seguendo questi passaggi:
 
 1. Passa il puntatore del mouse sul filtro nella zona di rilascio e fai clic sull’icona &quot;i&quot;.
 1. Fai clic sulla matita di modifica per passare al Generatore di filtri.
-1. Controlla **[!UICONTROL Make available to all projects and add to your component list]**.
+1. Seleziona **[!UICONTROL Make available to all projects and add to your component list]**.
 1. Fai clic su **[!UICONTROL SAVE]**.
 
 Una volta salvato, il filtro è disponibile nell’elenco dei componenti della barra a sinistra e può essere condiviso con altri utenti dal Gestore filtri.
