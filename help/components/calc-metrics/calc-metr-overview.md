@@ -1,12 +1,12 @@
 ---
-title: Panoramica sulle metriche calcolate
-description: Scopri
+title: Panoramica delle metriche calcolate
+description: Scopri le metriche filtrate derivate in fase di esecuzione dei rapporti.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
+source-git-commit: e98b21824789600c7729cce99d7592011ad18577
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 77%
+source-wordcount: '457'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti. I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione .
 
-È possibile
+È possibile eseguire le seguenti azioni:
 
 * Creare metriche filtrate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Queste possono essere visualizzate storicamente poiché sono basate su filtri.
 * Applicare filtri alle metriche (solo per metriche calcolate avanzate). Ad esempio, puoi creare una metrica per “Nuovi visitatori”, conteggiando le persone per cui questa è la prima sessione.
