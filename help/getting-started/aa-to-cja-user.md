@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1425'
-ht-degree: 100%
+source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 97%
 
 ---
 
@@ -76,9 +76,9 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono diventati contenitori “Evento”**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento per i visitatori entro l’intervallo di tempo specificato.
-* **I contenitori Visite sono diventati contenitori “Sessione”**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. 
-* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento per i visitatori entro l’intervallo di tempo specificato.
+* **I contenitori Hit sono ora [!UICONTROL Event] contenitori**. La [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni/hit di pagina.
+* **I contenitori delle visite ora sono [!UICONTROL Session] contenitori**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. 
+* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. La [!UICONTROL Person] Il contenitore include ogni sessione ed evento per un visitatore entro il periodo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate
 
