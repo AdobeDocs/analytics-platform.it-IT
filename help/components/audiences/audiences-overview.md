@@ -1,9 +1,9 @@
 ---
 title: Panoramica sulla pubblicazione di CJA Audiences
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Il pubblico di pubblicazione offre un modo chiaro di agire sulle informazioni pr
 * Invio di e-mail a questo pubblico.
 * Invio di messaggi push a questo pubblico.
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
-* Esportazione del pubblico in terze parti tramite una destinazione AEP
+* Esportazione del pubblico in una destinazione di terze parti tramite una destinazione di Experience Platform.
 
 ## Terminologia chiave
 
@@ -34,5 +34,7 @@ Gli amministratori ricevono automaticamente il [!UICONTROL Audience Publishing] 
 
 ## Passaggi successivi
 
+* [Creazione e pubblicazione di tipi di pubblico](/help/components/audiences/publish.md)
+* [Gestire i tipi di pubblico](/help/components/audiences/manage.md)
 
 

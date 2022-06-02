@@ -1,10 +1,10 @@
 ---
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+source-git-commit: 7895342fb33118f0bbe97ce4a7adc22664adf000
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 13%
+source-wordcount: '403'
+ht-degree: 6%
 
 ---
 
@@ -15,12 +15,13 @@ In questo argomento viene illustrato come pubblicare i tipi di pubblico rilevati
 
 ## Creare un pubblico
 
-1. Per creare un pubblico, puoi iniziare in due modi:
+1. Per creare un pubblico, puoi iniziare in tre modi:
 
    | Metodo di creazione | Dettagli |
    | --- | --- |
    | Da **[!UICONTROL Components]>[!UICONTROL Audiences]** | Viene visualizzata la pagina Audiences Manager (Audience Manager). Fai clic su **[!UICONTROL Create audience]** per aprire [!UICONTROL Audience builder]. |
    | Da una tabella a forma libera | Fai clic con il pulsante destro del mouse su un elemento in una tabella a forma libera e seleziona **[!UICONTROL Create an audience from selection]**. Questo metodo precompila il filtro con la dimensione o l’elemento dimensione selezionato nella tabella. |
+   | Dall’interfaccia utente di modifica del filtro | Seleziona la casella che riporta **[!UICONTROL Create an audience from this filter]**. Questo metodo precompila il filtro. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -29,11 +30,13 @@ In questo argomento viene illustrato come pubblicare i tipi di pubblico rilevati
    | Impostazione | Descrizione |
    | --- | --- |
    | [!UICONTROL Name] | Nome del pubblico. |
-   | [!UICONTROL Tags] | Qualsiasi tag da assegnare al pubblico a scopo organizzativo. |
+   | [!UICONTROL Tags] | Qualsiasi tag da assegnare al pubblico a scopo organizzativo. Puoi utilizzare un tag preesistente o inserirne uno nuovo. |
    | [!UICONTROL Description] | Aggiungi una buona descrizione del pubblico, per distinguerlo dagli altri. |
-   | [!UICONTROL Refresh frequency] | Frequenza con cui desideri aggiornare il pubblico. |
-   | [!UICONTROL One-time date range] |  |
-   | [!UICONTROL Filter] |  |
+   | [!UICONTROL Refresh frequency] | Frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento, utile ad esempio per specifiche campagne una tantum.</li><li>È possibile selezionare altri intervalli di aggiornamento. Per la frequenza di 4 ore, esiste un limite di 150 tipi di pubblico, poiché questa frequenza di aggiornamento è molto intensa per l’elaborazione. Per altri intervalli, non esiste un numero massimo di tipi di pubblico.</li></ul> |
+   | Data di scadenza | Quando il pubblico smetterà di rinfrescarsi. Il valore predefinito è 1 anno dalla data di creazione. |
+   | Finestra di lookback di aggiornamento | Specifica la distanza dalla finestra dati da visualizzare nella creazione del pubblico. Il massimo è di 90 giorni. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza della pianificazione. |
+   | [!UICONTROL One-time date range] | Intervallo di date per pubblicare il pubblico una tantum. |
+   | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con `And` o `Or` operatori. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -41,8 +44,15 @@ In questo argomento viene illustrato come pubblicare i tipi di pubblico rilevati
 
    L’anteprima del pubblico viene visualizzata nella barra a destra.
 
-   |
+   | Impostazione anteprima | Descrizione |
+   | --- | --- |
+   | Finestra di anteprima dati | L’intervallo di date per il pubblico. |
+   | Totale persone nel pubblico | Un numero di riepilogo che può arrivare fino a 100 milioni. |
+   | Limite dimensione del pubblico | Mostra quanto è lontano dal limite di 100 milioni di spettatori. |
+   | Restituzione stimata del pubblico |  |
+   | Stima del ritorno | Numero di riepilogo... |
+   | Anteprima metriche |  |
 
-
+   {style=&quot;table-layout:auto&quot;}
 
 
