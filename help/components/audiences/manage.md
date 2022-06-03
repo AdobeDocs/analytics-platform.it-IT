@@ -1,10 +1,10 @@
 ---
 title: Gestisci i tipi di pubblico creati nel Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
-source-git-commit: 9d19e1ea55a6c2de701d38cb417d6d39e753c640
+source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 
 * **Pianificazione o disprogrammazione** aggiornamento/aggiornamento automatico del pubblico. La scadenza massima sulla pianificazione è di 1 anno.
 * **Rinnovare una pianificazione di aggiornamento del pubblico** quando sta per scadere. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza della pianificazione.
-* Visualizza la **l&#39;ultima volta che un pubblico è stato aggiornato**
+* Visualizza la **intervallo di aggiornamento** e **l&#39;ultima volta che un pubblico è stato aggiornato**
 * Approfondisci **tempo necessario per produrre un pubblico** dal Customer Journey Analytics (CJA) e il tempo necessario per far apparire il pubblico nel Profilo del cliente in tempo reale a scopo di attivazione.
 * Scopri se i tipi di pubblico in CJA sono **utilizzato attivamente dal profilo cliente in tempo reale** o (idealmente) qualsiasi applicazione di Experience Platform che utilizzi i tipi di pubblico creati da CJA.
 
@@ -30,26 +30,14 @@ schermata
 | Impostazione dell’interfaccia utente | Definizione |
 | --- | --- |
 | Nascondi/Mostra filtri | Consente di mostrare o nascondere i seguenti filtri nella barra a sinistra: <ul><li>Visualizzazione dati</li><li>Proprietario</li><li>Frequenza di aggiornamento</li><li>Tag</li></ul> |
-| Titolo e descrizione |  |
-| Visualizzazione dati |
-| Dimensione del pubblico |  |
-| Proprietario |  |
-| Frequenza di aggiornamento |  |
-| Tag |  |
-| Ultimo aggiornamento |  |
-| Ultima modifica |  |
+| [!UICONTROL Title & Description] | Titolo e descrizione forniti al pubblico al momento della creazione. |
+| [!UICONTROL Data View] | Visualizzazione dati in cui è stato creato il pubblico. |
+| [!UICONTROL Audience Size] | Il numero totale di persone nel pubblico. |
+| [!UICONTROL Owner] | Il proprietario del pubblico - la persona che lo ha creato. |
+| [!UICONTROL Refresh Frequency] | L&#39;intervallo di aggiornamento configurato al momento della creazione del pubblico. |
+| [!UICONTROL Tags] | Qualsiasi tag applicato a questo pubblico. |
+| [!UICONTROL  Last Refreshed] | Quando il pubblico è stato aggiornato per l&#39;ultima volta. |
+| [!UICONTROL Last Modified] | L’ultima volta che il pubblico è stato modificato o modificato. |
 
 {style=&quot;table-layout:auto&quot;}
-
-## Visualizzare e utilizzare i tipi di pubblico di CJA in Experience Platform
-
-Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a [!UICONTROL Segments] > [!UICONTROL Create segments] > [!UICONTROL Audiences] scheda > [!UICONTROL CJA Audiences].
-
-Puoi trascinare i tipi di pubblico CJA nella definizione del segmento per i segmenti AEP.
-
-![](assets/audiences-aep.png)
-
-Se scegli di esportare questo pubblico in AEP Data Lake, verrà visualizzato come un set di dati conforme alla classe di schema del profilo individuale XDM:
-
-![](assets/aep-datalake.png)
 

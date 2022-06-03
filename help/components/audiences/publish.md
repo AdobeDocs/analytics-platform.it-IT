@@ -1,10 +1,10 @@
 ---
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 4%
+source-wordcount: '767'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 >
 >Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
 
-In questo argomento viene illustrato come pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
+Questo argomento illustra come creare e pubblicare tipi di pubblico rilevati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 
 Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico CJA.
 
@@ -47,7 +47,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Finestra di lookback di aggiornamento | Specifica la distanza dalla finestra dati da visualizzare nella creazione del pubblico. Il massimo è di 90 giorni. |
    | [!UICONTROL One-time date range] | Intervallo di date per pubblicare il pubblico una tantum. |
    | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con `And` o `Or` operatori. |
-   | [!UICONTROL View sample IDs] | Un esempio di ID in questo pubblico. Utilizza la barra di ricerca per cercare ID di esempio.<p>!![](assets/sample-ids.png) |
+   | [!UICONTROL View sample IDs] | Un esempio di ID in questo pubblico. Utilizza la barra di ricerca per cercare ID di esempio. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -72,7 +72,23 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Se tutto funziona correttamente, fai clic su **[!UICONTROL Publish]**.
 
+   Se tutto è andato bene, riceverai un messaggio di conferma della pubblicazione del pubblico.
+
+1. Fai clic su **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio e verrai indirizzato all’interfaccia utente Segment in Adobe Experience Platform. Per ulteriori informazioni, consulta di seguito.
+
+## Utilizzare i tipi di pubblico di CJA in Experience Platform
+
+Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
+
+Puoi trascinare i tipi di pubblico CJA nella definizione del segmento per i segmenti AEP.
+
+![](assets/audiences-aep.png)
+
+Se scegli di esportare questo pubblico in AEP Data Lake, verrà visualizzato come un set di dati conforme alla classe di schema del profilo individuale XDM:
+
+![](assets/aep-datalake.png)
+
+
 ## Passaggi successivi
 
 * Per gestire questo pubblico, vai alla pagina [Interfaccia utente di gestione](/help/components/audiences/manage.md).
-* Per lavorare con questo pubblico in Adobe Experience Platform, vai qui.
