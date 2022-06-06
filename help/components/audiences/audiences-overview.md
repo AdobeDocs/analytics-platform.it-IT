@@ -1,13 +1,13 @@
 ---
 title: Panoramica sulla pubblicazione di CJA Audiences
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '399'
 ht-degree: 3%
 
 ---
-
 
 # Panoramica sulla pubblicazione di CJA Audience
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >
 >Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione. Con Profilo cliente in tempo reale puoi visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione. Con Profilo cliente in tempo reale puoi visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente.
 
 Il pubblico di pubblicazione offre un modo chiaro di agire sulle informazioni presenti all’interno di CJA. Tali azioni possono includere:
 
@@ -23,6 +23,7 @@ Il pubblico di pubblicazione offre un modo chiaro di agire sulle informazioni pr
 * Invio di messaggi push a questo pubblico.
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
 * Esportazione del pubblico in una destinazione di terze parti tramite una destinazione di Experience Platform.
+* Arricchimento del profilo cliente in tempo reale con attributi utili derivati dai dati basati su eventi in CJA, senza dover aggiungere tutti i dati evento a RTCP.
 
 ## Terminologia chiave
 
@@ -40,5 +41,3 @@ Gli amministratori ricevono automaticamente il [!UICONTROL Audience Publishing] 
 
 * [Creazione e pubblicazione di tipi di pubblico](/help/components/audiences/publish.md)
 * [Gestire i tipi di pubblico](/help/components/audiences/manage.md)
-
-

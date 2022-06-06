@@ -2,9 +2,9 @@
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '908'
 ht-degree: 4%
 
 ---
@@ -72,13 +72,13 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Verifica la configurazione del pubblico e fai clic su **[!UICONTROL Publish]**.
 
-   Se tutto è andato bene, riceverai un messaggio di conferma della pubblicazione del pubblico.
+   Se tutto è andato bene, riceverai un messaggio di conferma della pubblicazione del pubblico. Ci vogliono solo pochi minuti o due perché questo pubblico venga visualizzato in Experience Platform. (Anche per i tipi di pubblico con milioni di membri, dovrebbero essere necessari meno di 5 minuti.)
 
 1. Fai clic su **[!UICONTROL View audience in AEP]** all&#39;interno dello stesso messaggio e sarai portato al [Interfaccia utente del segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Per ulteriori informazioni, consulta di seguito.
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform
 
-CJA ora prende tutte le combinazioni di namespace e ID dal pubblico pubblicato e le trasmette in streaming al Profilo cliente in tempo reale. RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Se ne trova uno, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i suoi dispositivi e canali. Se non viene trovato alcun profilo, ne viene creato uno nuovo.
+CJA ora prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i suoi dispositivi e canali. Se non viene trovato alcun profilo, ne viene creato uno nuovo.
 
 Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
 
