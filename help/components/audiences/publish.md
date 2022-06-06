@@ -1,13 +1,13 @@
 ---
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
-source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
+exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
+source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '866'
+ht-degree: 4%
 
 ---
-
 
 # Creazione e pubblicazione di tipi di pubblico
 
@@ -65,18 +65,20 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Estimated audience return] | Questa impostazione è utile per i clienti di retargeting di questo pubblico che ritornano al tuo sito. (In altre parole, che sono visti di nuovo in questo set di dati). <p>Qui puoi selezionare l’intervallo di tempo (7 giorni successivi, 2 settimane successive, mese successivo) per il numero stimato di clienti che potrebbero tornare. |
    | [!UICONTROL Estimated to return] | Questo numero fornisce un numero stimato di clienti fidelizzati nell’intervallo di tempo selezionato dall’elenco a discesa. Guardiamo il tasso di abbandono storico per il pubblico per prevedere questo numero. |
    | [!UICONTROL Preview metrics] | Questa impostazione ti consente di esaminare metriche specifiche per verificare se il pubblico contribuisce in misura sproporzionata a questa metrica, ad esempio &quot;[!UICONTROL Revenue]&#39; o &#39;[!UICONTROL Average time on site]&quot;. Ti dà il conteggio aggregato della metrica, così come la percentuale del totale che rappresenta. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
-   | Namespace inclusi | I namespace specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
-   | Sandbox | La sandbox di Experience Platform in cui risiede il pubblico. Quando pubblichi questo pubblico in Platform, puoi utilizzarlo solo entro i confini di questa sandbox. |
+   | [!UICONTROL Namespaces included] | I namespace specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
+   | [!UICONTROL Sandbox] | La [sandbox di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) in cui risiede il pubblico. Quando pubblichi questo pubblico in Platform, puoi utilizzarlo solo entro i confini di questa sandbox. |
 
    {style=&quot;table-layout:auto&quot;}
 
-1. Se tutto funziona correttamente, fai clic su **[!UICONTROL Publish]**.
+1. Verifica la configurazione del pubblico e fai clic su **[!UICONTROL Publish]**.
 
    Se tutto è andato bene, riceverai un messaggio di conferma della pubblicazione del pubblico.
 
-1. Fai clic su **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio e verrai indirizzato all’interfaccia utente Segment in Adobe Experience Platform. Per ulteriori informazioni, consulta di seguito.
+1. Fai clic su **[!UICONTROL View audience in AEP]** all&#39;interno dello stesso messaggio e sarai portato al [Interfaccia utente del segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) in Adobe Experience Platform. Per ulteriori informazioni, consulta di seguito.
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform
+
+CJA ora prende tutte le combinazioni di namespace e ID dal pubblico pubblicato e le trasmette in streaming al Profilo cliente in tempo reale. RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Se ne trova uno, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i suoi dispositivi e canali. Se non viene trovato alcun profilo, ne viene creato uno nuovo.
 
 Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
 
