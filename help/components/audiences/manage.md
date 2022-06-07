@@ -1,13 +1,13 @@
 ---
 title: Gestisci i tipi di pubblico creati nel Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
+source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 4%
+source-wordcount: '260'
+ht-degree: 3%
 
 ---
-
 
 # Gestisci i tipi di pubblico creati nel Customer Journey Analytics
 
@@ -25,8 +25,6 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 
 ## Interfaccia utente di gestione
 
-schermata
-
 | Impostazione dell’interfaccia utente | Definizione |
 | --- | --- |
 | Nascondi/Mostra filtri | Consente di mostrare o nascondere i seguenti filtri nella barra a sinistra: <ul><li>Visualizzazione dati</li><li>Proprietario</li><li>Frequenza di aggiornamento</li><li>Tag</li></ul> |
@@ -40,4 +38,3 @@ schermata
 | [!UICONTROL Last Modified] | L’ultima volta che il pubblico è stato modificato o modificato. |
 
 {style=&quot;table-layout:auto&quot;}
-
