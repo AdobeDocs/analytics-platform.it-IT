@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
+source-git-commit: abeefebafb9ac246ab6a0c18b5554370a6776b38
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 >
 >Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
 
-Questo argomento illustra come creare e pubblicare tipi di pubblico rilevati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
+Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 
 Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico CJA.
 
@@ -42,9 +42,9 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Name] | Nome del pubblico. |
    | [!UICONTROL Tags] | Qualsiasi tag da assegnare al pubblico a scopo organizzativo. Puoi utilizzare un tag preesistente o inserirne uno nuovo. |
    | [!UICONTROL Description] | Aggiungi una buona descrizione del pubblico, per distinguerlo dagli altri. |
-   | [!UICONTROL Refresh frequency] | Frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento, utile ad esempio per specifiche campagne una tantum.</li><li>È possibile selezionare altri intervalli di aggiornamento. Per la frequenza di 4 ore, esiste un limite di 150 tipi di pubblico, poiché questa frequenza di aggiornamento è molto intensa per l’elaborazione. Per gli altri intervalli, non esiste un numero massimo di tipi di pubblico.</li></ul> |
+   | [!UICONTROL Refresh frequency] | Frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento. Ad esempio, potrebbe essere utile per campagne specifiche una tantum.</li><li>È possibile selezionare altri intervalli di aggiornamento. Per la frequenza di 4 ore, esiste un limite di 150 tipi di pubblico, poiché questa frequenza di aggiornamento è molto intensa per l’elaborazione. Per gli altri intervalli, non esiste un numero massimo di tipi di pubblico.</li></ul> |
    | Data di scadenza | Quando il pubblico smetterà di rinfrescarsi. Il valore predefinito è 1 anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza del pubblico. |
-   | Finestra di lookback di aggiornamento | Specifica la distanza dalla finestra dati da visualizzare nella creazione del pubblico. Il massimo è di 90 giorni. |
+   | Finestra di lookback di aggiornamento | Specifica la distanza dalla finestra dati da visualizzare nella creazione del pubblico. Il massimo è 90 giorni. |
    | [!UICONTROL One-time date range] | Intervallo di date per pubblicare il pubblico una tantum. |
    | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con `And` o `Or` operatori. |
    | [!UICONTROL View sample IDs] | Un esempio di ID in questo pubblico. Utilizza la barra di ricerca per cercare ID di esempio. |
@@ -53,7 +53,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Interpreta l’anteprima dati.
 
-   L’anteprima del pubblico viene visualizzata nella barra a destra. Consente un’analisi avanzata del pubblico creato.
+   L’anteprima del pubblico viene visualizzata nella barra a destra. Consente un’analisi sintetica del pubblico creato.
 
    ![](assets/data-preview.png)
 
@@ -78,7 +78,8 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform
 
-CJA ora prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i suoi dispositivi e canali. Se non viene trovato alcun profilo, ne viene creato uno nuovo.
+
+CJA ora prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i loro dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
 
