@@ -3,13 +3,13 @@ title: Panoramica delle connessioni CJA
 description: Informazioni sulle connessioni in Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
+exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
+source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 87%
+source-wordcount: '102'
+ht-degree: 88%
 
 ---
-
 
 # Panoramica delle connessioni
 
@@ -27,6 +27,7 @@ Adobe Experience Platform:
 * Modellazione dati: visualizzare schemi, gestire schemi
 * Gestione dati: visualizzare i set di dati, gestire i set di dati
 * Acquisizione dei dati: gestisci origini
+* Visualizzare gli spazi dei nomi delle identità
 
 Customer Journey Analytics
 * Accesso amministratore prodotto
@@ -34,4 +35,3 @@ Customer Journey Analytics
 >[!IMPORTANT]
 >
 >È possibile combinare più set di dati [!DNL Experience Platform] in una singola connessione.
-
