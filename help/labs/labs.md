@@ -2,13 +2,13 @@
 title: Guida utente di Labs
 description: Anteprima di progetti prototipo per Customer Journey Analytics
 role: Admin
-source-git-commit: 2e1a97b6ed2bfd1f8c03399b635a6135c26bce55
+exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
+source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 83%
+source-wordcount: '440'
+ht-degree: 77%
 
 ---
-
 
 # [!UICONTROL Labs] Guida utente
 
@@ -68,8 +68,12 @@ Per avviare e valutare un prototipo:
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 
+## Prototipi di CJA Labs
+
+* Generatore di informazioni in lingua naturale: Fornisce un riepilogo in linguaggio naturale dei dati che si stanno analizzando in una tabella a forma libera.
+* Raccomandazione di visualizzazione: Consiglia visualizzazioni che si associano bene ai tuoi dati.
+
 ## Informazioni aggiuntive
 
 * Alcuni prototipi in [!UICONTROL Labs] diventare caratteristiche di Customer Journey Analytics, altri potrebbero non esserlo. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
 * Labs è disponibile per tutte le adesioni SKU.
-
