@@ -5,9 +5,9 @@ feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creat
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=it) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
-|  | Tabella a forma libera | <ul><li>Mostra anomalie </li><li>Mostra scintille</li><li>Mostra annotazioni</li></ul> |
+|  | Tabella a forma libera | <ul><li>Mostra anomalie </li><li>Mostra sparkline</li><li>Mostra annotazioni</li></ul> |
 
 ## [!UICONTROL Dark theme]
 
