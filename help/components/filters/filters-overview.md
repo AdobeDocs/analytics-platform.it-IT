@@ -3,9 +3,9 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Gli strumenti per filtri includono il [Generatore di filtri](/help/components/fi
 
 ## Tipi di filtro {#types}
 
-Puoi creare diversi tipi di filtri in Workspace e nel Generatore di filtri, a seconda di quanto debbano essere complessi, se devono essere applicati solo a questo progetto, ecc. Di seguito è riportato un riepilogo dei tipi di filtro:
+In Workspace e nel Generatore di filtri puoi creare diversi tipi di filtri, a seconda della complessità, dell’applicabilità solo a un determinato progetto, ecc. Ecco un riepilogo dei tipi di filtri:
 
 | Tipo di filtro | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
-| Filtro elenco componenti | Fai clic su + per passare alla [Generatore di filtri](/help/components/filters/create-filters.md) | Tutti i progetti Workspace | Filtri sequenziali per filtri più complessi |
-| Filtro rapido | [Generatore di filtri rapido](/help/components/filters/quick-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Flessibilità per aggiungere o modificare una o più regole |
-| Filtro del progetto ad hoc | [Trascinare nella zona di rilascio segmenti di un progetto](/help/components/filters/ad-hoc-filters.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei filtri. | Filtri a regola singola |
-| Filtri nell’analisi dell’abbandono | [Visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Per singole visualizzazioni di abbandono | Creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri |
-| Filtro basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare filtri all’interno della definizione metrica |
+| Filtro elenco componenti | Fai clic su +, per passare al [Generatore di filtri](/help/components/filters/create-filters.md) | Tutti i progetti Workspace | Filtri sequenziali, per filtri più complessi |
+| Filtro rapido | [Generatore di filtri rapidi](/help/components/filters/quick-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Flessibilità per aggiungere o modificare una o più regole |
+| Filtro ad hoc per un progetto | [Trascinare nella zona di rilascio segmenti di un progetto](/help/components/filters/ad-hoc-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei filtri. | Filtri per regola singola |
+| Applicare i filtri nell’analisi dell’abbandono | [Visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Per singole visualizzazioni di abbandono | Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri. |
+| Filtro basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare filtri nella definizione della metrica |
 
 ## Filtri sequenziali {#sequential}
 
@@ -65,7 +65,7 @@ I contenitori Persona possono includere valori basati sulla cronologia generale 
 
 ### Contenitore Sessione {#session}
 
-Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato in quanto acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e consente di definire quali sessioni includere o escludere nella creazione e applicazione di un filtro. Può aiutarti a rispondere alle seguenti domande:
+Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato poiché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e consente di definire quali sessioni includere o escludere nella creazione e applicazione di filtri. Può aiutarti a rispondere alle seguenti domande:
 
 * Quanti visitatori hanno visualizzato le sezioni Notizie e Sport nella stessa sessione?
 * Quali pagine hanno contribuito alla conversione in una vendita?
@@ -91,8 +91,8 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ## Modello di filtro preconfigurato {#template}
 
-La funzione tradizionale di Analytics include molti filtri (filtri) e metriche calcolate pronti all’uso. Molti di essi non sono applicabili in CJA, o dovranno essere rinominati o ricreati. Altri dipenderanno da una soluzione per le variabili in base al contesto in CJA.
+La versione tradizionale di Analytics include molti filtri modelli di filtri e metriche calcolate pronti all’uso. Molti non sono applicabili in CJA, oppure devono essere rinominati o ricreati. Altri dipendono da una soluzione per variabili contestuali in CJA.
 
 | Nome filtro | Descrizione |
 | --- | --- |
-| Tutti i dati | Questo è un filtro obbligatorio che viene aggiunto dinamicamente al reporting quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
+| Tutti i dati | Questo è un filtro obbligatorio che viene aggiunto in modo dinamico ai rapporti quando una metrica viene aggiunta alla riga di una tabella a forma libera. |
