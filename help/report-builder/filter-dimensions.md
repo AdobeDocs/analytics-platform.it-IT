@@ -1,94 +1,94 @@
 ---
-title: Dimension filtro nel Customer Journey Analytics
-description: Descrive come utilizzare le dimensioni filtro in Report Builder per CJA
+title: Dimensioni filtro in Customer Journey Analytics
+description: Come utilizzare le dimensioni filtro in Report Builder per CJA
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
 source-git-commit: 39a399f5267b37548d4e757140268d6f104370b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Dimensioni filtro
 
-Per impostazione predefinita, ogni elemento dimensionale nella tabella restituisce i primi 10 elementi per tale dimensione.
+Per impostazione predefinita, ogni elemento dimensione nella tabella restituisce i primi 10 elementi per tale dimensione.
 
-Per modificare gli elementi dimensionali restituiti per ogni dimensione
+Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
-1. Selezionare un blocco di dati e fare clic su Modifica blocco di dati nel pannello COMANDI.
+1. Seleziona un blocco di dati e fai clic su Modifica blocco di dati nel pannello COMANDI.
 
-1. Fare clic su Avanti per visualizzare la scheda Dimension.
+1. Fai clic su Avanti per visualizzare la scheda Dimensione.
 
 1. Fai clic sul pulsante **...** accanto al nome di un componente nella tabella.
 
    ![](./assets/image27.png)
 
-1. Seleziona **Dimensione filtro** nel menu a comparsa per visualizzare il **Dimensione filtro** riquadro.
+1. Seleziona **Filter dimension** (Dimensione filtro) nel menu a comparsa per visualizzare il riquadro **Filter dimension** (Dimensione filtro).
 
-1. Seleziona **Più popolari** o **Specifico**.
+1. Seleziona **Most popular** (Più popolari) o **Specific** (Specifici).
 
    ![](./assets/image28.png)
 
-1. Selezionare le opzioni appropriate in base al tipo di filtro scelto.
+1. Seleziona le opzioni appropriate in base al tipo di filtro scelto.
 
-1. Fai clic su **Applica** per aggiungere il filtro.
+1. Fai clic su **Apply** (Applica) per aggiungere il filtro.
 
-   In Report Builder viene visualizzata una notifica per confermare il filtro aggiunto.
+   In Report Builder viene visualizzata la conferma del filtro aggiunto.
 
-Per visualizzare i filtri applicati, passa il cursore del mouse su una dimensione. I Dimension con filtri applicati visualizzano un’icona di filtro a destra del nome del Dimension.
+Per visualizzare i filtri applicati, passa il cursore su una dimensione. Un’icona filtro a destra del nome di una dimensione indica che ci sono stati applicati dei filtri.
 
-## Tipo filtro
+## Tipo di filtro
 
-Esistono due modi per filtrare gli elementi dimensionali: Più popolare e specifico.
+Esistono due modi per filtrare gli elementi dimensionali: Most popular (Più popolari) e Specific (Specifici).
 
-## Più popolari
+## Most popular (Più popolari)
 
-L’opzione Più comune consente di filtrare dinamicamente gli elementi dimensionali in base ai valori delle metriche. Il filtro più comune restituisce gli elementi dimensionali con classificazione più elevata in base ai valori delle metriche. Per impostazione predefinita, sono elencati i primi 10 elementi dimensionali, ordinati per la prima metrica aggiunta al blocco di dati.
+L’opzione Most popular (Più popolari) consente di filtrare dinamicamente gli elementi dimensione in base ai valori delle metriche. Il filtro Most popular (Più popolari) restituisce gli elementi dimensione con classificazione più elevata in base ai valori delle metriche. Per impostazione predefinita, sono elencati i primi 10 elementi dimensione, ordinati in base alla prima metrica aggiunta al blocco di dati.
 
-![file immagine](./assets/image29.png)
+![File immagine](./assets/image29.png)
 
 
-### Opzioni Pagina e righe
+### Opzioni Page (Pagina) e Rows (Righe)
 
-Utilizza la **Pagina** e **Righe** campi per suddividere i dati in gruppi sequenziali o pagine. Questo ti consente di inserire nel rapporto valori di riga classificati diversi dai valori principali. Questa funzione è particolarmente utile per richiamare dati oltre il limite di 50.000 righe.
+Puoi utilizzare i campi **Page** (Pagina) e **Rows** (Righe) per suddividere i dati in pagine o gruppi sequenziali o pagine. Questo consente di inserire nel rapporto valori di riga diversi dai primi valori. Questa funzione è particolarmente utile per richiamare dati oltre il limite di 50.000 righe.
 
 #### Valori predefiniti per pagina e righe
 
-- Pagina = 1
-- Righe = 10
+- Page = 1
+- Rows = 10
 
-Le impostazioni predefinite Pagina e Righe identificano che ogni pagina contiene 10 righe di dati. La pagina 1 restituisce i primi 10 elementi, la pagina 2 restituisce i successivi 10 elementi e così via.
+Le impostazioni predefinite di Page (Pagina) e Rows (Righe) prevedono che ogni pagina contiene 10 righe di dati. La pagina 1 restituisce i primi 10 elementi, la pagina 2 restituisce i successivi 10 elementi e così via.
 
-Nella tabella seguente sono riportati alcuni esempi di valori di pagina e riga e dell’output risultante.
+La tabella seguente riporta alcuni esempi di valori di pagina e riga e dell’output risultante.
 
-| Pagina | Riga | Uscita |
+| Pagina | Riga | Output |
 |------|--------|----------------------|
 | 1 | 10 | Primi 10 elementi |
-| 2 | 10 | Voci da 11 a 20 |
+| 2 | 10 | Elementi da 11 a 20 |
 | 1 | 100 | Primi 100 elementi |
-| 2 | 100 | Voci 101-200 |
-| 2 | 50.000 | Articoli 50.001-100.000 |
+| 2 | 100 | Elementi da 101 a 200 |
+| 2 | 50.000 | Elementi da 50.001 a 100.000 |
 
 #### Valori minimi e massimi
 
 - Pagina iniziale: Min = 1, Max: 50 milioni
 - Numero di righe: Min = 1, Max: 50.000
 
-### Includi &quot;Nessun valore&quot;
+### Includi “Nessun valore“
 
-Al Customer Journey Analytics, alcune dimensioni raccolgono una voce &quot;nessun valore&quot;. Questo filtro ti consente di escludere questi valori dai rapporti. Ad esempio, puoi creare una classificazione come la classificazione Nome prodotto in base al codice SKU del prodotto. Se uno SKU di prodotto specifico non è stato impostato con la sua classificazione specifica Nome prodotto, il suo valore Nome prodotto è impostato su &quot;nessun valore&quot;.
+In Customer Journey Analytics, alcune dimensioni raccolgono una voce “no value” (nessun valore). Con questo filtro puoi escludere tali valori dai rapporti. Ad esempio, puoi creare una classificazione “Nome prodotto” in base al codice SKU del prodotto. Se per uno SKU di prodotto non è stata impostata una classificazione Nome prodotto specifica, il valore Nome prodotto viene impostato su “No value” (Nessun valore).
 
-Includi &quot;**Nessun valore**&quot; è selezionato per impostazione predefinita. Deseleziona questa opzione per escludere le voci prive di valore.
+L’opzione Includi “**Nessun valore**” è selezionata per impostazione predefinita. Per escludere le voci prive di valore, deseleziona questa opzione.
 
-### Filtra per criterio
+### Filtrare per criterio
 
-Puoi filtrare gli elementi dimensionali in base al fatto che siano soddisfatti tutti i criteri o se siano soddisfatti eventuali criteri.
+Puoi filtrare gli elementi dimensione che soddisfano o meno tutti i criteri o qualsiasi criterio.
 
-Per impostare criteri di filtro
+Per impostare i criteri da filtrare:
 
 1. Seleziona un operatore dall’elenco a discesa.
 
@@ -96,85 +96,85 @@ Per impostare criteri di filtro
 
 1. Immetti un valore nel campo di ricerca.
 
-1. Fai clic su Aggiungi riga per confermare la selezione e aggiungere un altro elemento di criteri.
+1. Fai clic su Add row (Aggiungi riga) per confermare la selezione e aggiungere un altro elemento di criteri.
 
-1. Fai clic sull’icona Elimina per rimuovere un elemento del criterio.
+1. Fai clic sull’icona Elimina per rimuovere un elemento di criteri.
 
    Puoi includere fino a 10 elementi di criteri.
 
 ### Modificare il filtro e l’ordinamento
 
-Accanto alla metrica utilizzata per filtrare e ordinare il blocco di dati viene visualizzata una freccia. La direzione della freccia indica se la metrica è ordinata dal valore maggiore al valore minore o minore al valore maggiore.
+Accanto alla metrica utilizzata per filtrare e ordinare il blocco di dati viene visualizzata una freccia. La direzione della freccia indica se la metrica è ordinata dal valore maggiore a quello minore o viceversa.
 
-Per modificare l’ordinamento, fai clic sulla freccia accanto alla metrica. 
+Per cambiare l’ordinamento, fai clic sulla freccia accanto alla metrica. 
 
-Per modificare la metrica utilizzata per filtrare e ordinare il blocco di dati,
+Per cambiare la metrica utilizzata per filtrare e ordinare il blocco di dati:
 
-1. Passa il puntatore del mouse sul componente di metrica desiderato nel Generatore di tabelle per visualizzare altre opzioni.
+1. Passa il puntatore sul componente di metrica desiderato nel generatore di tabelle per visualizzare altre opzioni.
 
-2. Fai clic sulla freccia sulla metrica preferita. 
+2. Fai clic sulla freccia della metrica desiderata. 
 
    ![](./assets/image30.png)
 
 
-## Filtro specifico
+## Filtri specifici
 
-L’opzione Specifica consente di creare un elenco fisso di elementi dimensionali per ogni dimensione. Utilizza la **Specifico** tipo di filtro per specificare gli elementi dimensionali esatti da includere nel filtro. È possibile selezionare gli elementi da un elenco o da un intervallo di celle.
+L’opzione Specific (Specifici) consente di creare un elenco di elementi dimensione per ogni dimensione. Utilizza il tipo di filtro **Specific** (Specifici) per specificare gli elementi dimensione esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 
 ![](./assets/image32.png)
 
-### Dall’elenco
+### From list (Da elenco)
 
-1. Seleziona la **Dall’elenco** per cercare e selezionare elementi dimensionali.
+1. Seleziona l’opzione **From list** (Da un elenco) per cercare e selezionare gli elementi dimensione.
 
-   Quando selezioni la **Dall’elenco** L’elenco viene compilato con gli elementi dimensionali con il maggior numero di eventi.
+   Quando selezioni l’opzione **From List** (Da elenco), l’elenco viene compilato con gli elementi dimensione che hanno il maggior numero di eventi.
 
    ![](./assets/image33.png)
 
-   La **Articoli disponibili** L’elenco è ordinato dagli elementi dimensionali con il maggior numero di eventi a quelli con il minore.
+   L’elenco **Available items** (Elementi disponibili) è ordinato dagli elementi dimensione con il maggior numero di eventi a quelli con il minore numero.
 
-1. Immetti un termine di ricerca nel **Aggiungi elemento** campo da cercare nell’elenco.
+1. Immetti un termine di ricerca nel campo **Add item** (Aggiungi elemento) per eseguire una ricerca nell’elenco.
 
-1. Per cercare un elemento non incluso negli ultimi 90 giorni di dati, fai clic su **Mostra articoli degli ultimi 6 mesi** per estendere la ricerca.
+1. Per estendere la ricerca agli elementi non incluso negli ultimi 90 giorni di dati, fai clic su **Show items for the last 6 months** (Mostra elementi degli ultimi 6 mesi).
 
    ![](./assets/image34.png)
 
-   Dopo il caricamento dei dati degli ultimi sei mesi, Report Builder aggiorna il collegamento a **Mostra articoli degli ultimi 18 mesi**.
+   Una volta caricati i dati degli ultimi sei mesi, Report Builder aggiorna questo collegamento che diventa **Show items for last 18 months** (Mostra elementi degli ultimi 18 mesi).
 
-1. Seleziona un elemento della dimensione.
+1. Seleziona un elemento dimensione.
 
-   Gli elementi dimensionali selezionati vengono aggiunti automaticamente al **Elementi selezionati** elenco.
+   Gli elementi dimensione selezionati vengono aggiunti automaticamente all’elenco **Selected items** (Elementi selezionati).
 
    ![](./assets/image35.png)
 
-   Per eliminare un elemento dall’elenco, fare clic sull’icona Elimina per rimuoverlo dall’elenco.
+   Per rimuovere un elemento dall’elenco, fai clic sull’icona Elimina.
 
    Per spostare un elemento nell’elenco, trascinalo o fai clic su ... per visualizzare il menu di spostamento.
 
    ![](./assets/image36.png)
 
-1. Fai clic su **Applica**
+1. Fai clic su **Apply** (Applica)
 
-   Il Report Builder aggiorna l’elenco per mostrare il filtro specifico applicato.
+   Report Builder aggiorna l’elenco in base al filtro specifico applicato.
 
-### Da intervallo di celle
+### From range of cells (Da intervallo di celle)
 
-Seleziona la **Da intervallo di celle** per scegliere un intervallo di celle contenente l’elenco degli elementi di dimensioni da abbinare.
+Seleziona l’opzione **From range of cells** (Da intervallo di celle) per scegliere un intervallo di celle contenente l’elenco degli elementi dimensione che ti interessano.
 
 ![](./assets/image37.png)
 
 Quando selezioni un intervallo di celle, considera le seguenti restrizioni:
 
-- L&#39;intervallo deve avere almeno una cella.
-- L&#39;intervallo non può avere più di 50.000 cellule.
-- L&#39;intervallo deve trovarsi in una singola riga o colonna ininterrotta.
+- L’intervallo deve avere almeno una cella.
+- L’intervallo non può avere più di 50.000 celle.
+- L’intervallo deve trovarsi in una singola riga o colonna ininterrotta.
 
-La selezione può contenere celle vuote o celle con valori che non corrispondono a un elemento dimensione specifico.
+La selezione può contenere celle vuote o con valori che non corrispondono a un elemento dimensione specifico.
 
-### Dalla scheda Dimension nel Generatore di tabelle
+### Nella scheda Dimensions (Dimensioni) del generatore di tabelle
 
-Da **Dimension** per visualizzare l’elenco degli elementi dimensionali, fai clic sull’icona freccia accanto al nome di una dimensione.
+Nella scheda **Dimensions** (Dimensioni), fai clic sulla freccia accanto al nome di una dimensione per visualizzare l’elenco degli elementi dimensione.
 
 ![](./assets/dimensions_chevron.png)
 
-È possibile trascinare e rilasciare elementi sul **Tabella** oppure fai doppio clic sul nome di un elemento per aggiungerlo al **Tabella** costruttore.
+Puoi trascinare gli elementi sulla **tabella**, oppure puoi fare doppio clic sul nome di un elemento per aggiungerlo al generatore di **tabelle**.
