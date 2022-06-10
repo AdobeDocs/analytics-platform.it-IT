@@ -1,56 +1,56 @@
 ---
-title: Inserire dati Google Analytics in Adobe Experience Platform
-description: 'Spiega come sfruttare il Customer Journey Analytics (CJA) per acquisire i dati Google Analytics in Adobe Experience Platform. '
+title: Acquisire dati Google Analytics in Adobe Experience Platform
+description: 'Come sfruttare Customer Journey Analytics (CJA) per acquisire i dati Google Analytics in Adobe Experience Platform. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Inserire dati Google Analytics in Adobe Experience Platform
+# Acquisire dati Google Analytics in Adobe Experience Platform
 
-Questo caso d’uso si concentra su come inserire i dati di Google Analytics come set di dati in Adobe Experience Platform. Spieghiamo come acquisire sia dati storici che dati live. Al termine, puoi combinare entrambi i set di dati nel Customer Journey Analytics per ottenere una visualizzazione cross-device del percorso dell’utente.
+Questo caso d’uso si concentra su come acquisire i dati Google Analytics come set di dati in Adobe Experience Platform. Viene spiegato come acquisire sia dati storici che dati live. Al termine, puoi combinare entrambi i set di dati in Customer Journey Analytics per ottenere una visualizzazione cross-device del percorso dell’utente.
 
-I set di dati nell’Experience Platform sono composti di due elementi: uno schema e i record effettivi nel set di dati. Lo schema (lo chiamiamo modello dati di esperienza o XDM per farla breve) è simile alle colonne del set di dati ed è simile alla blueprint o alle regole che descrivono i dati stessi. All’interno di Platform, Adobe fornisce 2 tipi di schemi:
+I set di dati in Experience Platform sono composti di due elementi: uno schema e i record effettivi nel set di dati. Lo schema (Experience Data Model, o XDM) è simile alle colonne del set di dati e al blueprint o alle regole che descrivono i dati stessi. In Platform, Adobe fornisce 2 tipi di schemi:
 
-* Schemi predefiniti in cui è possibile mappare automaticamente i dati Google Analytics (denominato schema Evento esperienza)
-* Schemi personalizzati che è possibile creare e mappare facilmente i dati delle Google Analytics su
+* Schemi predefiniti su cui è possibile mappare automaticamente i dati Google Analytics (schema Experience Event)
+* Schemi personalizzati, facili da creare e sui cui è possibile mappare i dati Google Analytics
 
-Uno degli aspetti più potenti del modello dati di Adobe è che ti consente di standardizzare tutti i dati di interazione con il cliente in un unico schema comune, il che rende molto più semplice unire i dati in CJA.
+Una delle caratteristiche più potenti del modello dati di Adobe è che consente di standardizzare tutti i dati relativi alle interazioni con il cliente in un unico schema comune, facilitando notevolmente l’unione dei dati in CJA.
 
 ## Prerequisiti
 
-Per eseguire queste attività, devi disporre dei seguenti permessi e autorizzazioni:
+Per queste attività, devi disporre dei diritti di accesso e delle autorizzazioni seguenti:
 
 * Accesso a Adobe Experience Platform
-* Accesso a Google Analytics universali (versione 360 di Google Analytics) o Google Analytics 4 (versione gratuita o Google Analytics 360 di versione)
-* Accesso al Customer Journey Analytics e ai suoi [Autorizzazioni amministratore](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions).
+* Accesso a Universal Google Analytics (Google Analytics versione 360) o Google Analytics 4 (versione gratuita o Google Analytics versione 360)
+* Accesso a Customer Journey Analytics e alle sue [Autorizzazioni amministratore](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions).
 
-La modalità di importazione dei dati di Google Analytics in Adobe Experience Platform dipende dalla versione di Google Analytics in uso:
+Il modo in cui si importano i dati Google Analytics in Adobe Experience Platform dipende dalla versione di Google Analytics in uso:
 
-| ID utilizzato | Hai anche bisogno di questa licenza... | E fai questo... |
+| Versione utilizzata | Licenza necessaria | Operazioni necessarie |
 | --- | --- | --- |
-| **Analisi universale** | Google Analytics 360 | Esegui i passaggi 1-3 delle istruzioni seguenti |
-| **Google Analytics 4** | Versione o Google Analytics GA gratuita 360 | Esegui i passaggi 1 e 3 delle istruzioni riportate di seguito. Non è necessario il passaggio 2. |
+| **Universal Analytics** | Google Analytics 360 | Passaggi 1-3 delle istruzioni di seguito |
+| **Google Analytics 4** | Versione gratuita di GA oppure Google Analytics 360 | Passaggi 1 e 3 delle istruzioni di seguito. Non è necessario eseguire il passaggio 2. |
 
-## Inserire dati storici (backfill)
+## Acquisire dati storici (retrocompilazione)
 
-### 1. Connetti i dati Google Analytics a BigQuery
+### 1. Connetti i dati Google Analytics a BigQuery.
 
-Per ulteriori informazioni, consulta [queste istruzioni](https://support.google.com/analytics/answer/3416092?hl=en). Queste istruzioni sono basate su Google Analytics universali.
+Per ulteriori informazioni, consulta [queste istruzioni](https://support.google.com/analytics/answer/3416092?hl=it). Tieni presente che queste istruzioni si riferiscono a Universal Google Analytics.
 
-### 2. Trasforma le sessioni di Google Analytics in eventi in BigQuery ed esporta in Google Cloud Storage
+### 2. Trasforma le sessioni di Google Analytics in eventi in BigQuery ed esportali in Google Cloud Storage.
 
 >[!IMPORTANT]
 >
->Questo passaggio si applica solo ai clienti di Universal Analytics
+>Questo passaggio è valido solo per i clienti di Universal Analytics.
 
-I dati GA memorizzano ogni record nei propri dati come sessione dell’utente anziché come singolo evento. È necessario creare una query SQL per trasformare i dati di Universal Analytics in un formato compatibile con Experience Platform. Applicare la funzione &quot;unnest&quot; al campo &quot;hits&quot; nello schema GA. Esempio SQL da utilizzare:
+Nei dati GA, ogni record è memorizzato come sessione utente anziché come singolo evento. È necessario creare una query SQL per trasformare i dati di Universal Analytics in un formato compatibile con Experience Platform. Applica la funzione “unnest” al campo “hits” nello schema GA. Esempio di query SQL da utilizzare:
 
 ```
 SELECT
@@ -77,82 +77,82 @@ FROM
 
 Al termine della query, salva i risultati completi in una tabella BigQuery.
 
-Fai riferimento a [queste istruzioni](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql), che include istruzioni sulla query SQL.
+Consulta [queste istruzioni](https://support.google.com/analytics/answer/7029846?hl=it&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql), che includono istruzioni sulla query SQL.
 
-Il video seguente illustra anche il passaggio successivo, che consiste nell’esportare gli eventi Google Analytics in Google Cloud Storage in formato JSON. Fai clic su **Esporta > Esporta in GCS**. Una volta arrivati, i dati sono pronti per essere inseriti in Adobe Experience Platform.
+Il video seguente illustra anche il passaggio successivo, per esportare gli eventi Google Analytics per Google Cloud Storage in formato JSON. Fai clic su **Export > Export to GCS** (Esporta > Esporta in GCS). A questo punto, i dati sono pronti per essere inseriti in Adobe Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
-### 3. Importa i dati da Google Cloud Storage in Experience Platform e mappa sullo schema XDM
+### 3. Importa i dati da Google Cloud Storage in Experience Platform e mappali sullo schema XDM.
 
-In Experience Platform, seleziona **[!UICONTROL Sources]** e trova **[!UICONTROL Google Cloud Storage]** opzione . Da lì è sufficiente trovare il set di dati salvato da BigQuery.
+In Experience Platform, seleziona **[!UICONTROL Sources]** e individua l’opzione **[!UICONTROL Google Cloud Storage]**. Quindi trova il set di dati salvato da BigQuery.
 
-Nota bene:
+Aspetti da considerare:
 
 * Assicurati di selezionare il formato JSON.
 * Puoi selezionare un set di dati esistente o crearne uno nuovo (consigliato).
-* Assicurati di selezionare lo stesso schema per i dati storici delle Google Analytics e i dati Live Streaming Google Analytics, anche se si trovano in set di dati separati. È quindi possibile unire i set di dati in un [Connessione CJA](/help/connections/combined-dataset.md).
+* Seleziona lo stesso schema per i dati storici di Google Analytics e i dati live in streaming di Google Analytics, anche se si trovano in set di dati separati. Successivamente puoi unire i set di dati in una [connessione CJA](/help/connections/combined-dataset.md).
 
 Per istruzioni, guarda questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-Puoi mappare i dati dell’evento GA in un set di dati esistente creato in precedenza o creare un nuovo set di dati, utilizzando lo schema XDM scelto. Dopo aver selezionato lo schema, l&#39;Experience Platform applica l&#39;apprendimento automatico per pre-mappare automaticamente ciascuno dei campi nei dati di Google Analytics al [Schema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui).
+Puoi mappare i dati evento GA in un set di dati esistente creato in precedenza, oppure puoi creare un nuovo set di dati, utilizzando lo schema XDM scelto. Dopo aver selezionato lo schema, Experience Platform applica l’apprendimento automatico per pre-mappare sullo [schema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it#ui) ciascuno dei campi presenti nei dati Google Analytics.
 
 ![](assets/schema-map.png)
 
-Le mappature sono molto semplici da modificare e puoi anche creare campi derivati o calcolati dai dati delle Google Analytics. Una volta completata la mappatura dei campi nello schema XDM, puoi pianificare l’importazione su base periodica e applicare la convalida dell’errore durante il processo di acquisizione. In questo modo non si verificano problemi con i dati importati.
+È molto semplice modificare le mappature e puoi anche creare campi derivati o calcolati dai dati Google Analytics. Una volta completata la mappatura dei campi sullo schema XDM, puoi pianificare l’importazione su base periodica. Applicando la convalida degli errori durante il processo di acquisizione, puoi verificare che non vi siamo problemi con i dati importati.
 
-**Campo calcolato &quot;Timestamp&quot;**
+**Campo calcolato “Timestamp”**
 
-Per `timestamp` campo schema nei dati Google Analytics, è necessario creare un campo calcolato speciale nell’interfaccia utente dello schema di Experience Platform. Fai clic su **[!UICONTROL Add calculated field]** e avvolgere `timestamp` stringa in un `date` come questa:
+Per campo schema `timestamp` nei dati Google Analytics, è necessario creare un campo calcolato speciale nell’interfaccia utente dello schema di Experience Platform. Fai clic su **[!UICONTROL Add calculated field]** e racchiudi la stringa `timestamp` in una funzione `date`, così:
 
 `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 
-È quindi necessario salvare questo campo calcolato nella struttura dati timestamp nello schema:
+Quindi, salva il campo calcolato nella struttura dati timestamp nello schema:
 
 ![](assets/timestamp.png)
 
-**Campo calcolato &#39;_id&#39;**
+**Campo calcolato “_id”**
 
-La `_id` il campo schema deve avere un valore in esso - CJA non si preoccupa del valore. Puoi semplicemente aggiungere un &quot;1&quot; al campo:
+Il campo schema `_id` deve contenere un valore; per CJA non importa di quale valore si tratti. Puoi semplicemente aggiungere “1” al campo:
 
 ![](assets/_id.png)
 
-## Inserire dati in streaming live Google Analytics
+## Acquisire dati Google Analytics live in streaming
 
-Puoi anche acquisire eventi in streaming dal vivo da Google Tag Manager direttamente in Adobe Experience Platform.
+Puoi anche acquisire eventi live in streaming da Google Tag Manager direttamente in Adobe Experience Platform.
 
-### 1. Aggiungi variabili personalizzate
+### 1. Aggiungere variabili personalizzate
 
-Dopo aver effettuato l’accesso all’account Google Tag Manager, è necessario aggiungere alcune variabili costanti personalizzate relative all’Adobe. Probabilmente in Google Tag Manager sono già presenti variabili che vengono inviate a Google Analytics, ad esempio e-mail del cliente, nome del cliente, lingua e stato di accesso del cliente. È necessario definire 5 nuove variabili personalizzate:
+Dopo aver effettuato l’accesso all’account Google Tag Manager, è necessario aggiungere alcune variabili costanti personalizzate relative ad Adobe. Probabilmente in Google Tag Manager sono già presenti variabili che vengono inviate a Google Analytics, quali e-mail, nome, lingua e stato di accesso del cliente. È necessario definire 5 nuove variabili personalizzate:
 
 * ID organizzazione Adobe Experience Cloud
 * Endpoint di streaming DCS
-* ID set di dati di Experience Platform
-* Riferimento schema
-* Timestamp pagina
+* ID del set di dati di Experience Platform
+* Riferimento dello schema
+* Timestamp della pagina
 
-Ottenendo questi valori, tutti i dati Google Analytics vengono inviati al set di dati corretto e dispongono dello schema corretto. Se non conosci la tua organizzazione Experience Cloud o una delle altre variabili che hai appena menzionato, il tuo account manager Adobe può aiutarti a rintracciarla.
+Con questi valori, tutti i dati Google Analytics vengono inviati al set di dati corretto e associati allo schema corretto. Se non conosci la tua organizzazione Experience Cloud o altre di queste variabili, rivolgiti al tuo account manager Adobe che potrà aiutarti a rintracciarle.
 
-Una volta definite queste variabili personalizzate, possiamo impostare un trigger per inviare anche tutti i dati che stai già inviando alle Google Analytics dell’Experience Platform.
+Una volta definite queste variabili personalizzate, puoi impostare un trigger per inviare a Experience Platform anche tutti i dati che vengono già inviati a Google Analytics.
 
 ### 2. Configurare un trigger in Google Tag Manager
 
-In questo esempio, è stato definito il trigger di &quot;Creazione account&quot;, dove `pageUrl equals account-creation`. Aggiungendo alcune informazioni a questo trigger, puoi assicurarti che quando l’utente esegue l’autenticazione e carica la pagina di creazione dell’account, i dati vengano inviati sia a Google Analytics che a AEP.
+In questo esempio, è stato definito il trigger “Account Creation” (Creazione account), dove `pageUrl equals account-creation`. Aggiungendo alcune informazioni a questo trigger, puoi assicurarti che quando l’utente si autentica e carica la pagina di creazione dell’account, i dati vengano inviati sia a Google Analytics che a AEP.
 
-Puoi anche fare riferimento a [Acquisizione dei dati e gestione dei tag di Google](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html#module9).
+Consulta anche [Acquisizione dei dati e gestione dei tag di Google](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=it#module9).
 
 Per istruzioni, guarda questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-## Creare una connessione in CJA al set di dati di Google Analytics
+## Creare una connessione in CJA al set di dati Google Analytics
 
-Una volta che Adobe Experience Platform ha iniziato a ricevere i dati delle Google Analytics in tempo reale e hai inserito in backfill i dati storici delle Google Analytics da BigQuery, sei pronto per passare a CJA e [creare la prima connessione](/help/connections/create-connection.md). Questa connessione unirà i dati GA a tutti gli altri dati dei clienti utilizzando un comune &quot;ID cliente&quot;.
+Una volta che Adobe Experience Platform inizia a ricevere i dati live di Google Analytics e che i dati storici da Google Analytics sono stati inseriti mediante BigQuery, puoi passare a CJA e [creare la prima connessione](/help/connections/create-connection.md). Questa connessione unirà i dati GA a tutti gli altri dati dei clienti utilizzando un “ID cliente” comune.
 
 ## Passaggi successivi
 
-* Crea un [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#cja-dataviews) in base alla connessione contenente i dati di Google Analytics.
+* Crea un [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#cja-dataviews) in base alla connessione contenente i dati di Google Analytics.
 
-* Fai qualcosa di straordinario [analisi in Workspace](/help/use-cases/ga-to-cja-reporting.md).
+* Fai straordinarie [analisi in Workspace](/help/use-cases/ga-to-cja-reporting.md).
