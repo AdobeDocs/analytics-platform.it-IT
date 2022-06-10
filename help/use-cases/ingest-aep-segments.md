@@ -1,93 +1,93 @@
 ---
-title: Inserire il pubblico AEP nel Customer Journey Analytics
-description: Spiega come inserire i tipi di pubblico AEP nel Customer Journey Analytics per ulteriori analisi.
+title: Acquisire il pubblico AEP in Customer Journey Analytics
+description: Come acquisire il pubblico AEP in Customer Journey Analytics per ulteriori analisi.
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 source-git-commit: 9c4869bb632f3d69d8704009744246b975cb5c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Inserire il pubblico AEP nel Customer Journey Analytics (CJA)
+# Acquisire il pubblico AEP in Customer Journey Analytics (CJA)
 
-Questo caso d’uso esplora un modo provvisorio e manuale di importare i tipi di pubblico di Adobe Experience Platform (AEP) in CJA. Questi tipi di pubblico possono essere stati creati nel Generatore di segmenti AEP, in Adobe Audience Manager o in altri strumenti e sono memorizzati nel Profilo cliente in tempo reale (RTCP). I tipi di pubblico sono costituiti da un set di ID profilo, insieme agli eventuali attributi/eventi/ecc. applicabili. e vogliamo portarli in CJA Workspace per l’analisi.
+Questo caso d’uso descrive come importare in un modo provvisorio e manuale i tipi di pubblico di Adobe Experience Platform (AEP) in CJA. I tipi di pubblico possono essere stati creati nel Generatore di segmenti di AEP, o Adobe Audience Manager, oppure in altri strumenti e sono memorizzati nel profilo cliente in tempo reale (RTCP, Real-time Customer Profile). I tipi di pubblico sono costituiti da un set di ID profilo ed eventuali attributi, eventi ecc. applicabili e possono essere portati in CJA Workspace per eseguire analisi.
 
-## Prerequisiti 
+## Prerequisiti
 
-* Accesso a Adobe Experience Platform (AEP), in particolare Profilo cliente in tempo reale.
-* Accesso per creare/gestire schemi e set di dati AEP.
-* Accesso a AEP Query Service (e la capacità di scrivere SQL) o a un altro strumento per eseguire alcune trasformazioni leggere.
-* Accesso al Customer Journey Analytics. Devi essere un amministratore di prodotto CJA per creare/modificare connessioni e visualizzazioni dati CJA.
-* Possibilità di utilizzare le API di Adobe (segmentazione, facoltativamente altre)
+* Accesso ad Adobe Experience Platform (AEP), in particolare al servizio Real-time Customer Profile.
+* Accesso per creare e gestire schemi e set di dati AEP.
+* Accesso a AEP Query Service (e la capacità di scrivere query SQL) o a un altro strumento per eseguire alcune trasformazioni leggere.
+* Accesso a Customer Journey Analytics. Per poter creare e modificare connessioni e visualizzazioni dati CJA, devi essere un amministratore di prodotto CJA.
+* Capacità di utilizzare le API di Adobe (segmentazione, facoltativamente altre)
 
-## Passaggio 1: Scegliere il pubblico in Profilo cliente in tempo reale {#audience}
+## Passaggio 1: scegliere il pubblico in Real-time Customer Profile {#audience}
 
-Adobe Experience Platform [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) consente di visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti.
+Adobe Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) offre una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti.
 
-Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da varie fonti. Scegli uno o più tipi di pubblico da inserire in CJA.
+Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da varie origini. Scegli uno o più tipi di pubblico da inserire in CJA.
 
-## Passaggio 2: Creare un set di dati dell’Unione profili per l’esportazione
+## Passaggio 2: creare un set di dati Unione profili da esportare
 
-Per esportare il pubblico in un set di dati che può essere aggiunto a una connessione in CJA, devi creare un set di dati il cui schema è un profilo [Schema dell&#39;unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+Per esportare il pubblico come set di dati da aggiunto a una connessione in CJA, devi creare un set di dati con uno [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it#understanding-union-schemas) profili.
 
-Gli schemi unione sono composti da più schemi che condividono la stessa classe e sono stati abilitati per Profile. Lo schema di unione ti consente di visualizzare una combinazione di tutti i campi contenuti negli schemi che condividono la stessa classe. Profilo cliente in tempo reale utilizza lo schema unione per creare una visualizzazione olistica di ogni singolo cliente.
+Gli schemi di unione sono composti da più schemi che condividono la stessa classe e sono stati abilitati per Profilo. Lo schema di unione consente di visualizzare una combinazione di tutti i campi contenuti negli schemi che condividono la stessa classe. Real-time Customer Profile utilizza lo schema di unione per creare una visualizzazione olistica di ogni cliente.
 
-## Passaggio 3: Esportare un pubblico nel set di dati dell’Unione profili tramite chiamata API {#export}
+## Passaggio 3: esportare un pubblico nel set di dati di Unione profili tramite chiamata API {#export}
 
-Prima di poter portare un pubblico in CJA, devi esportarlo in un set di dati AEP. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare il [Endpoint API per i processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+Prima di importare un pubblico in CJA, devi esportarlo con set di dati AEP. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare l’[endpoint API per processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it).
 
-Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e inserire i risultati nel set di dati AEP dell’Unione profili creato al passaggio 2. Anche se puoi esportare vari attributi/eventi per il pubblico, devi solo esportare il campo ID profilo specifico che corrisponde al campo ID persona utilizzato nella connessione CJA che sfrutterai (vedi sotto al passaggio 5).
+Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e inserire i risultati nel set di dati Unione profili di AEP creato al passaggio 2. Anche se puoi esportare vari attributi o eventi per il pubblico, devi solo esportare il campo ID profilo specifico che corrisponde al campo ID persona utilizzato nella connessione CJA che userai (vedi il passaggio 5, più avanti).
 
-## Passaggio 4: Modificare l’output di esportazione
+## Passaggio 4: modificare l’output di esportazione
 
-I risultati del processo di esportazione devono essere trasformati in un set di dati di profilo separato per essere acquisiti in CJA.  Questa trasformazione può essere fatta con [Servizio query AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it)o un altro strumento di trasformazione a tua scelta. È necessario solo l’ID profilo (che corrisponde all’ID persona in CJA) e uno o più ID pubblico per effettuare la generazione dei rapporti in CJA.
+Per poter essere acquisiti in CJA, i risultati del processo di esportazione devono essere trasformati in un set di dati profilo distinto. Questa trasformazione può essere eseguita con [AEP Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) o con un altro strumento di trasformazione a tua scelta. Per effettuare la generazione dei rapporti in CJA, è necessario solo l’ID profilo (che corrisponde all’ID persona in CJA) e uno o più ID pubblico.
 
-Il processo di esportazione standard, tuttavia, contiene più dati e quindi è necessario modificare questo output per rimuovere i dati estranei e spostare alcuni elementi.  Inoltre, è necessario creare prima uno schema/set di dati prima di aggiungergli i dati trasformati.
+Il processo di esportazione standard, tuttavia, contiene anche altri dati ed è quindi necessario modificare l’output per rimuovere i dati estranei e spostare alcuni elementi. Inoltre, è necessario creare uno schema o set di dati prima di aggiungervi i dati trasformati.
 
-Ecco un esempio dell’output di esportazione nel set di dati dell’unione profili, **prima** qualsiasi modifica:
+Ecco un esempio dell’output di esportazione nel set di dati Unione profili, **prima** di qualsiasi modifica:
 
-![Uscita non necessaria](assets/export-unedited.png)
+![Output non modificato](assets/export-unedited.png)
 
 Tieni presente quanto segue:
 
-* L&#39;ID del pubblico è contenuto in `segmentmembership.ups.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.status`.
-* Lo stato deve essere &quot;realizzato&quot; o &quot;inserito&quot;, ma non &quot;uscito&quot;.
+* L’ID del pubblico si trova in `segmentmembership.ups.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.status`.
+* Lo stato deve essere “realized” (realizzato) o “entered” (entrato), ma non “exited” (uscito).
 
-Questo è il formato del set di dati di profilo che puoi inviare a CJA.
+Questo è il formato del set di dati profilo che puoi essere inviato a CJA.
 
-![Uscita modificata](assets/export-edited.png)
+![Output modificato](assets/export-edited.png)
 
-Di seguito sono riportati gli elementi dati che devono essere presenti:
+Di seguito sono riportati gli elementi dati necessari:
 
-* `_aresprodvalidation` campo stringa: Fa riferimento al tuo ID organizzazione. Il tuo sarà diverso.
-* `personID` campo stringa: Questo è il campo di schema XDM standard sui set di dati di profilo per identificare la persona. Utilizza l’ID profilo dall’esportazione.
-* `audienceMembershipId` campo stringa: L&#39;ID del pubblico dall&#39;esportazione.  NOTA: Questo campo può essere denominato come desiderato (dal proprio schema).
-* Aggiungi un nome descrittivo per il pubblico (`audienceMembershipIdName`), come
+* Campo stringa `_aresprodvalidation`: fa riferimento all’ID della tua organizzazione. Il tuo specifico valore sarà diverso da questo esempio.
+* Campo stringa `personID`: campo dello schema XDM standard nei set di dati profilo con cui viene identificata la persona. Utilizza l’ID profilo dall’esportazione.
+* Campo stringa `audienceMembershipId`: ID del pubblico dall’esportazione. NOTA: puoi denominare questo campo in base alle tue esigenze (dal tuo schema).
+* Aggiungi al pubblico un nome descrittivo (`audienceMembershipIdName`), ad esempio:
 
    ![Nome descrittivo del pubblico](assets/audience-name.png)
 
-* Aggiungi altri metadati del pubblico, se lo desideri.
+* Se necessario, aggiungi altri metadati di pubblico.
 
-## Passaggio 5: Aggiungi questo set di dati di profilo a una connessione esistente in CJA
+## Passaggio 5: aggiungere il set di dati profilo a una connessione esistente in CJA
 
-Si potrebbe [crea una nuova connessione](/help/connections/create-connection.md), ma la maggior parte dei clienti desidera aggiungere il set di dati del profilo a una connessione esistente. Gli ID del pubblico &quot;arricchiscono&quot; i dati esistenti in CJA.
+Puoi [crea una nuova connessione](/help/connections/create-connection.md), ma nella maggior parte dei casi si vorrà aggiungere il set di dati profilo a una connessione esistente. Gli ID del pubblico “arricchiscono” i dati esistenti in CJA.
 
-## Passaggio 6: Modificare la visualizzazione dati CJA esistente (o crearne una nuova)
+## Passaggio 6: modificare la visualizzazione dati CJA esistente (o crearne una nuova)
 
 Aggiungi `audienceMembershipId`, `audienceMembershipIdName` e `personID` alla visualizzazione dati.
 
-## Passaggio 7: Rapporto in Workspace
+## Passaggio 7: creare un rapporto in Workspace
 
-Ora puoi creare rapporti su `audienceMembershipId`, `audienceMembershipIdName` e `personID` in Workspace.
+Ora puoi creare un rapporto in Workspace basato su `audienceMembershipId`, `audienceMembershipIdName` e `personID`.
 
 ## Note aggiuntive
 
-* Devi eseguire questo processo con cadenza regolare, in modo che i dati sul pubblico vengano costantemente aggiornati all’interno di CJA.
-* Puoi importare più tipi di pubblico all’interno di una singola connessione CJA. Questo aggiunge ulteriore complessità al processo, ma è possibile. Affinché questo funzioni, devi apportare alcune modifiche al processo di cui sopra:
-   1. Esegui questo processo per ogni pubblico desiderato nella tua raccolta di tipi di pubblico all&#39;interno di RTCP.
-   1. Quando esegui le trasformazioni dell&#39;output del processo di esportazione, dovrai creare un elenco di `audienceMembershipId(s)`, perché un singolo ID persona CJA può appartenere a più tipi di pubblico. In futuro, CJA supporterà array/array di oggetti nei set di dati di profilo. Una volta supportati, utilizzando una matrice di oggetti per `audienceMembershipId` o `audienceMembershipIdName` sarà l&#39;opzione migliore. Nel frattempo, estrai tutti gli ID del pubblico correnti per ciascun ID profilo nell’output del processo di esportazione (con lo stato di &quot;realizzato&quot; o &quot;inserito&quot;) e inseriscili in una stringa di valori separati da virgole (ad esempio, `<id1>,<id2>,...`).  Se è presente un ID pubblico con lo stato &quot;uscito&quot;, assicurati che NON sia nell’elenco.  Se desideri mantenere l’associazione del nome descrittivo con l’id, puoi allegarlo alla fine di ogni ID nell’elenco (insieme a qualsiasi altro metadati).
-   1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring nella `audienceMembershipId` campo per convertire la stringa di valori separati da virgola in una matrice. NOTA: attualmente nella matrice è presente un limite di 10 valori.
-   1. È ora possibile creare rapporti su questa nuova dimensione `audienceMembershipIds` in CJA Workspace.
+* Segui questo processo su base regolare, per avere dati sul pubblico sempre aggiornati in CJA.
+* Puoi importare più tipi di pubblico in una singola connessione CJA. Il processo sarà un po’ più complesso, ma è possibile. Dovrai apportare alcune modifiche al processo di cui sopra:
+   1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
+   1. Quando esegui le trasformazioni dell’output del processo di esportazione, crea un elenco di `audienceMembershipId(s)`, perché un singolo ID persona di CJA può appartenere a più tipi di pubblico. In futuro, CJA supporterà anche array o array di oggetti nei set di dati profilo. Quando saranno supportati, l’approccio migliore consisterà nell’utilizzare un array di oggetti per `audienceMembershipId` o `audienceMembershipIdName`. Nel frattempo, estrai tutti gli ID pubblico correnti per ciascun ID profilo nell’output del processo di esportazione (con lo stato &quot;realized&quot; o &quot;entered&quot;) e inseriscili in una stringa di valori separati da virgole (ad esempio, `<id1>,<id2>,...`). Se è presente l’ID di un pubblico con lo stato &quot;exited&quot;, assicurati che NON venga incluso nell’elenco. Se vuoi che l’ID resti associato al nome descrittivo, puoi allegarlo alla fine di ogni ID nell’elenco (insieme a eventuali altri metadati).
+   1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
+   1. A questo punto è possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in CJA Workspace.
