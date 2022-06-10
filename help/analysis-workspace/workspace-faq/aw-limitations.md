@@ -4,9 +4,9 @@ title: Limitazioni note in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Filtri
 
 * Alcune metriche e dimensioni non possono essere filtrate, ad esempio [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* Filtri ad hoc creati in [zona di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) non vengono visualizzati nella barra a sinistra di Workspace o nel Gestore componenti filtro, a meno che non siano resi pubblici. Per rendere pubblico un filtro occorre modificarlo e selezionare **[!UICONTROL Make this filter public]**.
+* I filtri ad hoc creati nell’[area di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) non vengono visualizzati nella barra a sinistra di Workspace o nel gestore dei componenti del filtro, a meno che non vengano resi pubblici. Per rendere pubblico un filtro occorre modificarlo e selezionare **[!UICONTROL Make this filter public]**.
 
 ## Componenti > Metriche calcolate
 
