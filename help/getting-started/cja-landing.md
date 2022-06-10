@@ -6,8 +6,8 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 289ab8bd5492017709239174e80ac5a4e5dd9033
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
@@ -24,13 +24,13 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/attribution-ai.html?lang=en"> Integrare Attribution AI con CJA </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/customer-ai.html?lang=en">Integrare Customer AI con CJA</a> </li>
+       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/attribution-ai.html?lang=en"> Integrare IA per l’attribuzione con CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/customer-ai.html?lang=en">Integrare IA per l’analisi dei clienti con CJA</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=it"> Evoluzione da Adobe Analytics a Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=it"> Guida di CJA per gli utenti di Adobe Analytics </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#connection-detail"> Utilizzare le funzionalità avanzate di gestione delle connessioni </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it#cja-dataviews"> Utilizzare le funzionalità avanzate di visualizzazione dati </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=it#cja-usecases"> Inserire dati Google Analytics in Adobe Experience Platform </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=it#cja-usecases">Acquisire dati Google Analytics in Adobe Experience Platform</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=it#cja-usecases"> Analizzare i dati Google Analytics in CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#cja-connections"> Cross-Channel Analytics (unione degli ID in Customer Journey Analytics) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it"> Guida introduttiva di Customer Journey Analytics </a> </li> 

@@ -6,8 +6,8 @@ solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
 workflow-type: tm+mt
-source-wordcount: '2233'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,87 +15,87 @@ ht-degree: 62%
 
 Un nuovo flusso di lavoro Connessioni è stato recentemente avviato in Customer Journey Analytics (CJA). La nuova esperienza di creazione e modifica della connessione porta tutte le impostazioni di configurazione del set di dati e della connessione al centro dello schermo con flusso di lavoro di supporto.  Abbiamo fornito la selezione dettagliata dei set di dati, la configurazione e l’esperienza di revisione con informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato batch, stato di backfill, ID persona e molto altro per ridurre il rischio di configurazione errata della connessione. Ecco una panoramica delle nuove funzionalità:
 
-* È possibile abilitare una finestra di conservazione dei dati in sequenza al momento della creazione della connessione.
-* È possibile aggiungere e rimuovere i set di dati da una connessione. La rimozione di un set di dati lo rimuove dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
-* Puoi abilitare e richiedere il backfill dei dati per set di dati.
-* È possibile modificare i set di dati, ad esempio per richiedere un altro backfill.
+* Quando si crea la connessione è possibile abilitare una finestra continua di conservazione dei dati.
+* È possibile aggiungere e rimuovere i set di dati da una connessione. Quando si rimuove un set di dati, questo viene rimosso dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
+* Puoi abilitare e richiedere dati di retrocompilazione per set di dati.
+* Puoi modificare i set di dati, ad esempio per richiedere un’altra retrocompilazione.
 * Puoi importare dati esistenti per set di dati.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
 ## Creare e configurare la connessione {#create-connection}
 
-1. In CJA, fai clic sul pulsante **[!UICONTROL Connections]** scheda .
+1. In CJA, fai clic sulla scheda **[!UICONTROL Connections]**.
 1. Fai clic su **[!UICONTROL Create new connection]**.
 
-   ![Impostazioni di connessione](assets/create-conn1.png)
+   ![Impostazioni della connessione](assets/create-conn1.png)
 
-1. Configura le impostazioni di connessione.
+1. Configura le impostazioni della connessione.
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Connection name]** | Immettere un nome univoco per la connessione. |
-   | **[!UICONTROL Connection description]** | Descrivere lo scopo di questa connessione. |
-   | **[!UICONTROL Sandbox]** | Scegli una sandbox in Experience Platform che contiene i set di dati per cui desideri creare una connessione.<p>Adobe Experience Platform fornisce [sandboxe](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Potete considerare le sandbox come &quot;silos di dati&quot; che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.<p>Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi richiamare. |
-   | **[!UICONTROL Enable rolling data window]** | Questa casella di controllo, se selezionata, ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.<p>La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione della finestra dati continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.<p> Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.<p>Se si lascia l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se ad Experience Platform disponi di 25 mesi di dati, CJA riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, CJA manterrà i restanti 15 mesi. |
-   | **[!UICONTROL Add datasets]** (vedi sotto) | Aggiungi i set di dati se nell’elenco dei set di dati non sono presenti set di dati. |
-   | **[!UICONTROL Dataset name]** | Seleziona uno o più set di dati da richiamare nel Customer Journey Analytics e fai clic su **[!UICONTROL Add]**.<p>Se hai molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca per i set di dati di Ricerca sopra l’elenco dei set di dati. |
-   | **[!UICONTROL Last updated]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo timestamp predefinito dagli schemi basati su eventi in Experience Platform. &quot;N/D&quot; significa che questo set di dati non contiene dati. |
-   | **[!UICONTROL Schema]** | questo è lo [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en) in base a cui il set di dati è stato creato in Adobe Experience Platform. |
-   | **[!UICONTROL Dataset type]** | Per ogni set di dati aggiunto alla connessione, Customer Journey Analytics imposta automaticamente il tipo di set di dati in base ai dati in arrivo. Esistono 3 tipi di set di dati diversi: Dati evento, dati profilo e dati di ricerca. Vedi la tabella seguente per una spiegazione dei tipi di set di dati. |
-   | **[!UICONTROL Person ID]** | seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>IMPORTANTE: Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Visualizza [questo video](https://www.youtube.com/watch?v=G_ttmGl_LRU) su come definire un’identità in Experience Platform. |
+   | **[!UICONTROL Connection name]** | Assegna un nome univoco alla connessione. |
+   | **[!UICONTROL Connection description]** | Descrivi lo scopo della connessione. |
+   | **[!UICONTROL Sandbox]** | Scegli una sandbox in Experience Platform che contiene i set di dati per cui desideri creare una connessione.<p>Adobe Experience Platform fornisce [sandboxe](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.<p>Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi richiamarli. |
+   | **[!UICONTROL Enable rolling data window]** | Questa casella di controllo, se selezionata, ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.<p>La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.<p> Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.<p>Se si lascia l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se ad Experience Platform disponi di 25 mesi di dati, CJA riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, CJA manterrà i restanti 15 mesi. |
+   | **[!UICONTROL Add datasets]** (vedi di seguito) | Aggiungi i set di dati se nell’elenco dei set di dati non sono presenti set di dati. |
+   | **[!UICONTROL Dataset name]** | Seleziona uno o più set di dati da richiamare in Customer Journey Analytics e fai clic su **[!UICONTROL Add]**.<p>Se sono presenti molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca sopra l’elenco dei set di dati. |
+   | **[!UICONTROL Last updated]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. “N/A” significa che il set di dati non contiene dati. |
+   | **[!UICONTROL Schema]** | [Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it) in base al quale il set di dati è stato creato in Adobe Experience Platform. |
+   | **[!UICONTROL Dataset type]** | Per ogni set di dati aggiunto alla connessione, Customer Journey Analytics imposta automaticamente il tipo di set di dati in base ai dati in arrivo. Esistono 3 tipi diversi di set di dati: dati evento, dati profilo e dati di ricerca. Nella tabella seguente puoi trovare una spiegazione dei tipi di set di dati. |
+   | **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>IMPORTANTE: se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Guarda [questo video](https://www.youtube.com/watch?v=G_ttmGl_LRU) su come definire un’identità in Experience Platform. |
    | **[!UICONTROL Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
    | **[!UICONTROL Matching Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
-   | **[!UICONTROL Import new data]** | Impostare su On o Off. |
+   | **[!UICONTROL Import new data]** | Imposta su On o Off. |
    | **[!UICONTROL Backfill data]** | Puoi richiedere di eseguire il backfill dei dati in un set di dati basato su marche temporali dell’evento. Ad esempio, puoi richiedere di eseguire il backfill degli ultimi 7 giorni di dati, configurare l’ID persona corretto e verificare la connessione per una configurazione corretta. Se tutto sembra buono, è possibile retrocompilare facilmente tutti i dati rimanenti.<p>Inoltre, puoi abilitare l’importazione di nuovi dati per set di dati. Ad esempio, puoi abilitare l’importazione di nuovi dati solo per i dati di ricerca. |
-   | **[!UICONTROL Backfill status]** | Indica se vengono elaborati dati di backfill. |
+   | **[!UICONTROL Backfill status]** | Indica se vengono elaborati dati di retrocompilazione. |
 
    {style=&quot;table-layout:auto&quot;}
 
 ## Aggiungere e configurare i set di dati {#add-dataset}
 
-Il nuovo flusso di lavoro consente di aggiungere un set di dati di Experience Platform quando si crea una connessione.
+Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experience Platform quando si crea una connessione.
 
-1. Nella finestra di dialogo Impostazioni connessione fare clic su **[!UICONTROL Add datasets]**.
+1. Nella finestra di dialogo delle impostazioni della connessione, fai clic su **[!UICONTROL Add datasets]**.
 1. Seleziona uno o più set di dati e fai clic su **[!UICONTROL Next]**.
 
-   Tieni presente che almeno un set di dati evento deve far parte della connessione.
-1. Ora configura i set di dati uno per uno.
+   Almeno un set di dati evento deve far parte della connessione.
+1. Ora configura singolarmente ciascun set di dati.
 
    ![Configurare i set di dati](assets/add-dataset.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Person ID]** | seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Visualizza questo video su come definire un’identità in Experience Platform. |
-   | **[!UICONTROL Timestamp]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo timestamp predefinito dagli schemi basati su eventi in Experience Platform. |
-   | **[!UICONTROL Import new data]** | Seleziona questa opzione se desideri stabilire una connessione continua in modo che tutti i nuovi batch di dati aggiunti ai set di dati in questa connessione passino automaticamente in Workspace. Può essere impostato su On o Off. |
-   | **[!UICONTROL Dataset backfill]** | Fai clic su **[!UICONTROL Request backfill]** per eseguire il backfill dei dati storici.<ul><li>È possibile retrocompilare ogni set di dati singolarmente.</li><li>Diamo priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La latenza è influenzata da quanti dati storici si hanno.</li><li>Il Connettore sorgente Adobe Analytics importa fino a 13 mesi di dati, indipendentemente dalle dimensioni.</li></ul> |
-   | **[!UICONTROL Backfill status]** | Gli indicatori di stato possibili sono:<ul><li>Operazione riuscita</li><li>Elaborazione di X backfill</li><li>Disattivato</li></ul> |
-   | **[!UICONTROL Dataset ID]** | questo ID viene generato automaticamente. |
-   | **[!UICONTROL Description]** | Descrizione data alla creazione del set di dati. |
+   | **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Guarda questo video su come definire un’identità in Experience Platform. |
+   | **[!UICONTROL Timestamp]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. |
+   | **[!UICONTROL Import new data]** | Seleziona questa opzione se desideri stabilire una connessione continua, in modo che tutti i nuovi batch di dati aggiunti ai set di dati della connessione vengano automaticamente trasmessi a Workspace. Può essere impostato su On o Off. |
+   | **[!UICONTROL Dataset backfill]** | Fai clic su **[!UICONTROL Request backfill]** per eseguire la retrocompilazione dei dati storici.<ul><li>È possibile retrocompilare ogni set di dati singolarmente.</li><li>Diamo priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La latenza dipende dalla quantità di dati storici.</li><li>Il Connettore origine di Adobe Analytics importa fino a 13 mesi di dati, indipendentemente dalle dimensioni.</li></ul> |
+   | **[!UICONTROL Backfill status]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
+   | **[!UICONTROL Dataset ID]** | Questo ID viene generato automaticamente. |
+   | **[!UICONTROL Description]** | Descrizione specificata quando è stato creato il set di dati. |
    | **[!UICONTROL Dataset size]** | Dimensione del set di dati. |
-   | **[!UICONTROL Schema]** | questo è lo schema in base a cui il set di dati è stato creato in Adobe Experience Platform. |
+   | **[!UICONTROL Schema]** | Schema in base al quale il set di dati è stato creato in Adobe Experience Platform. |
    | **[!UICONTROL Dataset]** | Nome del set di dati. |
-   | **[!UICONTROL Preview]**: `<dataset name>` | Visualizza in anteprima il set di dati con le colonne data, ID e ID . |
+   | **[!UICONTROL Preview]**: `<dataset name>` | Visualizza in anteprima il set di dati con le colonne Data, Mio ID e Ientificatore. |
    | **[!UICONTROL Remove]** | Puoi eliminare o rimuovere il set di dati e modificare l’ID persona senza eliminare l’intera connessione. Questo riduce i costi associati all’acquisizione dei dati e il complicato processo di ricreazione dell’intera connessione e delle visualizzazioni dati associate. |
 
    {style=&quot;table-layout:auto&quot;}
 
-## Anteprima connessione {#preview}
+## Anteprima della connessione {#preview}
 
-Per visualizzare in anteprima la connessione creata, fare clic su **[!UICONTROL Connection preview]** nella finestra di dialogo Impostazioni connessione.
+Per visualizzare in anteprima la connessione creata, fai clic su **[!UICONTROL Connection preview]** nella finestra di dialogo delle impostazioni della connessione.
 
-![Anteprima connessione](assets/create-conn4.png)
+![Anteprima della connessione](assets/create-conn4.png)
 
-Questa anteprima contiene diverse colonne che elencano la configurazione della connessione. I tipi di colonna visualizzati dipendono dai singoli set di dati.
+Questa anteprima contiene diverse colonne contenenti la configurazione della connessione. I tipi di colonna visualizzati dipendono dai singoli set di dati.
 
-## Tipi di dati {#dataset-types}
+## Tipi di set di dati {#dataset-types}
 
-per ogni set di dati aggiunto alla connessione, [!UICONTROL Customer Journey Analytics] imposta automaticamente il tipo di set di dati in base ai dati in arrivo.
+Per ogni set di dati aggiunto alla connessione, [!UICONTROL Customer Journey Analytics] imposta automaticamente il tipo in base ai dati in arrivo.
 
 >[!IMPORTANT]
 >
->È necessario aggiungere almeno un set di dati evento come parte di una connessione.
+>In una connessione è necessario aggiungere almeno un set di dati evento.
 
 Esistono 3 tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTROL Profile] e dati [!UICONTROL Lookup].
 
@@ -130,7 +130,7 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
 
 | Opzione | Nessun ID presente in Identity Map | Nessun ID contrassegnato come primario | Gli ID multipli sono contrassegnati come primari | L’ID singolo è contrassegnato come primario | Spazio dei nomi non valido con un ID contrassegnato come primario |
 |---|---|---|---|---|---|
-| **[!UICONTROL Use Primary ID Namespace] controllato** | La riga viene rilasciata da CJA. | La riga viene rilasciata da CJA, in quanto non è specificato alcun ID primario. | Tutti gli ID contrassegnati come primari, sotto tutti gli spazi dei nomi, vengono estratti in un elenco. Sono quindi ordinati alfabeticamente. Con questo nuovo ordinamento, il primo spazio dei nomi con il primo ID viene utilizzato come ID persona. | Il singolo ID contrassegnato come primario viene utilizzato come ID persona. | Anche se lo spazio dei nomi può non essere valido (non presente in AEP), CJA utilizza l’ID primario nello spazio dei nomi come ID persona. |
+| **[!UICONTROL Use Primary ID Namespace]selezionato** | La riga viene rilasciata da CJA. | La riga viene rilasciata da CJA, in quanto non è specificato alcun ID primario. | Tutti gli ID contrassegnati come primari, sotto tutti gli spazi dei nomi, vengono estratti in un elenco. Sono quindi ordinati alfabeticamente. Con questo nuovo ordinamento, il primo spazio dei nomi con il primo ID viene utilizzato come ID persona. | Il singolo ID contrassegnato come primario viene utilizzato come ID persona. | Anche se lo spazio dei nomi può non essere valido (non presente in AEP), CJA utilizza l’ID primario nello spazio dei nomi come ID persona. |
 | **[!UICONTROL Specific Identity Map namespace] selezionato** | La riga viene rilasciata da CJA. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. (Al momento della creazione della connessione è possibile selezionare solo uno spazio dei nomi valido, pertanto non è possibile utilizzare uno spazio dei nomi/un ID non valido come ID persona). |
 
 {style=&quot;table-layout:auto&quot;}

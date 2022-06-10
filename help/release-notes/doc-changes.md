@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 17e89d7cfeddff831e34fc441ee17de8b1c3fe21
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Maggio 2022 | Nuovo articolo sull’integrazione di CJA con Attribution AI (collegamento da seguire) in Adobe Experience Platform. |
 | Maggio 2022 | Nuovo articolo sull’integrazione di CJA con Customer AI in Adobe Experience Platform (collegamento da seguire). |
 | Maggio 2022 | Nuovo articolo su come [gestire i blocchi di dati nel Report Builder CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
-| Maggio 2022 | Nuovo articolo su [acquisizione di tipi di pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md) |
+| Maggio 2022 | Nuovo articolo sull’[acquisizione del pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md) |
 | Aprile 2022 | Documentazione sulle [sottostringhe di dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html?lang=it). |
 | Aprile 2022 | Nuova [Guida di CJA per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md). |
 | Marzo 2022 | Nuova [Documentazione su Annotations API per CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |

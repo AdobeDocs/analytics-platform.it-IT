@@ -1,17 +1,17 @@
 ---
-title: Panoramica delle connessioni CJA
-description: Informazioni sulle connessioni in Customer Journey Analytics.
+title: Panoramica sulle connessioni CJA
+description: Scopri le connessioni in Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Panoramica delle connessioni
+# Panoramica sulle connessioni
 
 Una connessione consente di integrare i set di dati da [!DNL Adobe Experience Platform] a [!UICONTROL Workspace]. Per creare rapporti sui set di dati [!DNL Experience Platform] bisogna prima stabilire una connessione tra i set di dati in [!DNL Experience Platform] e [!UICONTROL Workspace].
 

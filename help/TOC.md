@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Guida di Customer Journey Analytics
-user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare l’Cross-Channel Analytics, basata su Adobe Experience Platform.
+user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [Implicazioni dell’eliminazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)
 + Connessioni {#cja-connections}
-   + [Panoramica delle connessioni](connections/overview.md)
+   + [Panoramica sulle connessioni](connections/overview.md)
    + [Creare una connessione](connections/create-connection.md)
    + [Gestire le connessioni](connections/manage-connections.md)
    + [Set di dati evento combinati](connections/combined-dataset.md)
@@ -158,7 +158,7 @@ ht-degree: 97%
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
    + Annotazioni {#annotations}
-      + [Panoramica delle annotazioni](components/annotations/overview.md)
+      + [Panoramica sulle annotazioni](components/annotations/overview.md)
       + [Creare annotazioni](components/annotations/create-annotations.md)
       + [Gestire le annotazioni](components/annotations/manage-annotations.md)
       + [Visualizzare le annotazioni](components/annotations/view-annotations.md)
@@ -217,12 +217,12 @@ ht-degree: 97%
    + [Utilizzare dimensioni e metriche di binding](use-cases/binding-dimensions-metrics.md)
    + [(B2B) Aggiungere dati a livello di account come set di dati di ricerca](use-cases/b2b.md)
    + [Acquisire i dati Marketo Engage in AEP e generare rapporti in CJA](use-cases/marketo.md)
-   + [Inserire il pubblico AEP in CJA](use-cases/ingest-aep-segments.md)
+   + [Acquisire i tipi di pubblico di AEP in CJA](use-cases/ingest-aep-segments.md)
    + [Analizzare i dati tra canali diversi](use-cases/cross-channel.md)
    + [Importare dati web e call center](use-cases/call-center.md)
    + [Casi d’uso per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
-   + [Inserire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
+   + [Acquisire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Guida utente di Labs](labs/labs.md)
