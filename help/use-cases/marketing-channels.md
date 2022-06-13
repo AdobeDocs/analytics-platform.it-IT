@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-#  Utilizzare le dimensioni del canale di marketing in Adobe Experience Platform
+# Utilizzare le dimensioni del canale di marketing in Adobe Experience Platform
 
 Se la tua organizzazione utilizza il [connettore dati di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) per inserire in CJA i dati della suite di rapporti, puoi configurare una connessione in CJA per ottenere rapporti sulle dimensioni del canale di marketing.
 
