@@ -4,10 +4,10 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
+source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2385'
+ht-degree: 81%
 
 ---
 
@@ -107,9 +107,21 @@ Esistono 3 tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTRO
 
 {style=&quot;table-layout:auto&quot;}
 
+## Usa campi numerici come chiavi di ricerca e valori di ricerca {#numeric}
+
+Questa funzionalità è utile per classificare i valori stringa con un campo numerico, ad esempio un valore COGS o margine, su un SKU di prodotto. Consente ai valori numerici di essere parte delle ricerche, sia come chiavi che come valori. Nello schema di ricerca, è possibile che i valori numerici siano associati, ad esempio, a nomi di prodotto, COGS, costi di marketing della campagna o margini. Ecco un esempio di schema di ricerca in Adobe Experience Platform:
+
+![Schema di ricerca](assets/schema.png)
+
+È ora supportato l’importazione di questi valori come metriche o dimensioni nel reporting di CJA. Quando imposti la connessione ed esegui il pull nei set di dati di ricerca, puoi modificare i set di dati per selezionare la [!UICONTROL Key] e [!UICONTROL Matching Key]:
+
+![Modifica set di dati](assets/lookup-dataset.png)
+
+Quando si imposta una visualizzazione dati basata su questa connessione, i valori numerici vengono aggiunti come componenti alla visualizzazione dati. Qualsiasi progetto basato su questa visualizzazione dati può quindi generare rapporti su questi valori numerici.
+
 ## Utilizzare Identity Map come ID persona {#id-map}
 
-Customer Journey Analytics ora supporta la possibilità di utilizzare Identity Map per il proprio ID persona. Identity Map è una struttura di dati a mappa che consente a un utente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi dell’identità e il valore è una struttura che contiene il valore dell’identità. Identity Map esiste su ogni riga/evento caricato e viene compilato di conseguenza per ogni riga.
+Il Customer Journey Analytics supporta la possibilità di utilizzare la mappa identità per il relativo ID persona. Identity Map è una struttura di dati a mappa che consente di caricare coppie chiave -> valore. Le chiavi sono spazi dei nomi dell’identità e il valore è una struttura che contiene il valore dell’identità. Identity Map esiste su ogni riga/evento caricato e viene compilato di conseguenza per ogni riga.
 
 Identity Map è disponibile per qualsiasi set di dati che utilizza uno schema basato sulla classe [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it). Quando selezioni un set di dati da includere in una connessione CJA, puoi selezionare un campo come ID principale o Identity Map:
 
