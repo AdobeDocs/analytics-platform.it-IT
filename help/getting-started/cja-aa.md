@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
+source-git-commit: ab44c58a4089a5a48ad845579fb536f668d9f9f6
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 93%
+source-wordcount: '1426'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Rilevamento delle anomalie | Supporto completo. |
 | Attribution IQ | Supporto completo. |
+| Pubblicazione del pubblico | Supporto completo. Chiamata Pubblicazione segmenti (invio di segmenti da Workspace all’Experience Cloud) in AA. [Pubblicazione del pubblico](/help/components/audiences/audiences-overview.md) invia i tipi di pubblico a Profilo cliente in tempo reale in experience Platform. |
 | Metriche calcolate | Supporto completo; eventuali metriche di calcolo esistenti nella versione tradizionale di Analysis Workspace non verranno trasferite a CJA. |
 | Eventi calendario | Supporto completo. Gli eventi Calendario sono stati implementati come [Annotazioni](/help/components/annotations/overview.md) in Workspace. |
 | Generatore regole di classificazione | Supporto completo. In CJA, [sottostringhe](/help/data-views/component-settings/substring.md). Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
@@ -97,7 +98,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
-| Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud) | Il supporto è pianificato. Sarà chiamato “Pubblicazione del pubblico” in CJA. |
 | Rapporti sulla sessione nuovi e ripetuti | Il supporto è pianificato con alcune avvertenze. |
 
 {style=&quot;table-layout:auto&quot;}
