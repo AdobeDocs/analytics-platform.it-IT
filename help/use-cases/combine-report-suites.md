@@ -1,9 +1,9 @@
 ---
 title: Combinare suite di rapporti con schemi diversi
 description: Scopri come utilizzare Preparazione dati per combinare suite di rapporti con schemi diversi
-source-git-commit: c602ee5567e7ba90d1d302f990cc1d8fc49e5adc
+source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 3%
 
 # Combinare suite di rapporti con schemi diversi
 
-La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) fornisce un mezzo per portare i dati della suite di rapporti da Adobe Analytics in Adobe Experience Platform per l’utilizzo da parte delle applicazioni AEP, come Real-time Customer Data Platform e Customer Journey Analytics (CJA). Ogni suite di rapporti portata in AEP è configurata come flusso di dati di connessione sorgente individuale e ogni flusso di dati arriva come un set di dati all’interno del lago di dati AEP. Il connettore origine Analytics crea un set di dati per suite di rapporti.
+La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) porta i dati della suite di rapporti da Adobe Analytics in Adobe Experience Platform (AEP) per l’utilizzo da parte di applicazioni AEP, come Real-time Customer Data Platform e Customer Journey Analytics (CJA). Ogni suite di rapporti portata in AEP è configurata come flusso di dati di connessione sorgente individuale e ogni flusso di dati arriva come un set di dati all’interno del lago di dati AEP. Il connettore origine Analytics crea un set di dati per suite di rapporti.
 
-I clienti CJA utilizzano [connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) per integrare i set di dati da AEP data lake nell’Analysis Workspace di CJA. Tuttavia, quando si combinano suite di rapporti all’interno di una connessione, è necessario risolvere le differenze di schema tra suite di rapporti utilizzando AEP [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) al fine di garantire che le variabili Adobe Analytics, come proprietà ed eVar, abbiano un significato coerente in CJA.
+I clienti CJA utilizzano [connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) per integrare i set di dati da AEP data lake nell’Analysis Workspace di CJA. Tuttavia, quando si combinano suite di rapporti all’interno di una connessione, è necessario risolvere le differenze di schema tra suite di rapporti utilizzando AEP [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) funzionalità. Lo scopo è garantire che le variabili di Adobe Analytics come prop ed eVar abbiano un significato coerente in CJA.
 
 ## Le differenze di schema tra le suite di rapporti sono problematiche
 
@@ -21,8 +21,8 @@ Supponiamo che la tua azienda voglia inserire in AEP i dati provenienti da due s
 
 | Suite di rapporti A | Suite di rapporti B |
 | --- | --- |
-| eVar1 => Ricerca termine | eVar1 => Business Unit |
-| eVar2 => Categoria cliente | eVar2 => Ricerca termine |
+| eVar1 = termine di ricerca | eVar1 = Business Unit |
+| eVar2 = categoria cliente | eVar2 = termine di ricerca |
 
 Per semplicità, supponiamo che queste siano le uniche eVar definite per entrambe le suite di rapporti.
 
@@ -30,8 +30,8 @@ Supponiamo inoltre di eseguire le seguenti azioni:
 
 - Creare una connessione sorgente di Analytics (senza l’uso di data prep) che acquisisce **Suite di rapporti A** in AEP data lake come **Set di dati A**.
 - Creare una connessione sorgente di Analytics (senza l’uso di data prep) che acquisisce **Suite di rapporti B** in AEP data lake come **Set di dati B**.
-- Creare una connessione CJA denominata **Tutte le suite di rapporti** che combina il set di dati A e il set di dati B.
-- Creare una visualizzazione dati CJA denominata **Visualizzazione globale** in base alla connessione Tutte le suite di rapporti.
+- Crea un [Connessione CJA](/help/connections/create-connection.md) chiamato **Tutte le suite di rapporti** che combina il set di dati A e il set di dati B.
+- Crea un [Visualizzazione dati CJA](/help/data-views/create-dataview.md) chiamato **Visualizzazione globale** in base alla connessione Tutte le suite di rapporti.
 
 Senza l’utilizzo di Data Prep per risolvere le differenze di schema tra il set di dati A e il set di dati B, le eVar nella visualizzazione dati Visualizzazione globale conterranno una combinazione di valori:
 
@@ -48,9 +48,9 @@ Questa situazione si traduce in relazioni insignificanti per eVar1 e eVar2:
 
 ## Utilizzare la preparazione dati AEP per risolvere le differenze di schema tra le suite di rapporti
 
-La funzionalità di preparazione dei dati di AEP è integrata con il connettore origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Questo si traduce in eVar con significati coerenti nella visualizzazione dati di CJA. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle tue esigenze.
+La funzionalità Preparazione dei dati di Experience Platform è integrata con il connettore origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Questo si traduce in eVar con significati coerenti nella visualizzazione dati di CJA. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle tue esigenze.
 
-1. Prima di creare i flussi di dati della connessione sorgente per la suite di rapporti A e la suite di rapporti B, crea un gruppo di campi personalizzato in AEP (lo chiameremo **Campi unificati** nel nostro esempio) che contiene i campi seguenti:
+1. Prima di creare i flussi di dati della connessione sorgente per Report Suite A e Report Suite B, [creare un gruppo di campi personalizzato](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) in AEP (lo chiameremo **Campi unificati** nel nostro esempio) che contiene i campi seguenti:
 
    | Gruppo di campi personalizzati &quot;Campi unificati&quot;  |
    | --- |
@@ -58,7 +58,7 @@ La funzionalità di preparazione dei dati di AEP è integrata con il connettore 
    | Business Unit |
    | Categoria cliente |
 
-1. Crea un nuovo schema in AEP (lo chiameremo **Schema unificato** nel nostro esempio). Aggiungi i seguenti gruppi di campi allo schema:
+1. [Creare un nuovo schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) in AEP (lo chiameremo **Schema unificato** nel nostro esempio). Aggiungi i seguenti gruppi di campi allo schema:
 
    | Gruppi di campi per &quot;Schema unificato&quot; |
    | --- |
@@ -88,7 +88,7 @@ La funzionalità di preparazione dei dati di AEP è integrata con il connettore 
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_ Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
 
-1. Crea ora un **Tutte le suite di rapporti** connessione per CJA, che combina il set di dati A e il set di dati B.
+1. Ora crea un **Tutte le suite di rapporti** connessione per CJA, che combina il set di dati A e il set di dati B.
 
 1. Crea un **Vista globale** visualizzazione dati in CJA.
 
@@ -106,9 +106,9 @@ La funzionalità di preparazione dei dati di AEP è integrata con il connettore 
 
    Ora hai mappato eVar1 e eVar2 dalle suite di rapporti di origine a tre nuovi campi. Un altro vantaggio dell’utilizzo delle mappature Preparazione dati è che i campi di destinazione ora si basano su nomi significativi dal punto di vista semantico (termine di ricerca, Business Unit, categoria Cliente) invece dei nomi eVar meno significativi (eVar1, eVar2).
 
->[!NOTE]
->
->Il gruppo di campi personalizzati Campi unificati e le mappature dei campi associati possono essere aggiunte ai flussi di dati e ai set di dati esistenti del connettore di origine di Analytics in qualsiasi momento. Tuttavia, questo influisce solo sui dati in futuro.
+   >[!NOTE]
+   >
+   >Il gruppo di campi personalizzati Campi unificati e le mappature dei campi associati possono essere aggiunte ai flussi di dati e ai set di dati esistenti del connettore di origine di Analytics in qualsiasi momento. Tuttavia, questo influisce solo sui dati in futuro.
 
 ## Più che semplici suite di rapporti
 
