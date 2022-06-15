@@ -4,18 +4,14 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 4ffe667793d5ba75d3fadcf713244afac0fe8183
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1258'
 ht-degree: 23%
 
 ---
 
 # Configurare una visualizzazione di flusso
-
->[!NOTE]
->
->Questa nuova versione del [!UICONTROL Flow] la visualizzazione è attualmente in fase di test.
 
 La visualizzazione Flusso aggiornata ti consente di comprendere il percorso che deriva da o precede un evento di conversione specifico sul tuo sito web o sulla tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 

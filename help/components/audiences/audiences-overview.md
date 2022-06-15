@@ -2,28 +2,22 @@
 title: Panoramica sulla pubblicazione di CJA Audiences
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1fd3bc1f0d62bedfbaebfe6ca84099ccbd9d3c5f
+source-git-commit: 1abc116892405772530e8c254299b40167613656
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '346'
 ht-degree: 3%
 
 ---
 
 # Panoramica sulla pubblicazione di CJA Audience
 
->[!NOTE]
->
->Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
-
-Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione. Con Profilo cliente in tempo reale puoi visualizzare una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 
 Il pubblico di pubblicazione offre un modo chiaro di attivare e di agire sulle informazioni presenti all’interno di CJA. Tali azioni possono includere:
 
-* Invio di e-mail a questo pubblico.
-* Invio di messaggi push a questo pubblico.
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
 * Esportazione del pubblico in una destinazione di terze parti tramite una destinazione di Experience Platform.
-* Arricchimento del profilo cliente in tempo reale con attributi utili derivati dai dati basati su eventi in CJA, senza dover aggiungere tutti i dati evento a RTCP.
+* Arricchimento del profilo cliente in tempo reale con attributi utili derivati dai dati basati su eventi in CJA.
 * Tutto questo con una latenza minima dopo la pubblicazione del pubblico (un paio di minuti)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti
 

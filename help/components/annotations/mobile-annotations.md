@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ Per informazioni sulla creazione di annotazioni, consulta [Creare annotazioni](c
 
 1. Crea un’annotazione e accertati che sia condivisa con tutti i tuoi progetti. Per creare un’annotazione in Workspace, vedi [Creare annotazioni](create-annotations.md).
 
-1. Seleziona **Mostra annotazioni** per visualizzare l’annotazione nelle scorecard per dispositivi mobili.
+1. Seleziona **[!UICONTROL Show annotations]** per visualizzare l’annotazione nelle scorecard per dispositivi mobili.
 
    ![](assets/show-annotations.png)
 
-1. Conferma che la visualizzazione delle annotazioni sia selezionata, passa a **Progetto** > **Informazioni e impostazioni del progetto**.
+1. Conferma che la visualizzazione delle annotazioni sia selezionata, passa a **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**.
 
    ![](assets/project-info-settings.png)
 
@@ -49,6 +49,6 @@ I colori dell’annotazione vengono selezionati quando l’annotazione viene cre
 
 | Data | Aspetto |
 | --- | --- |
-| **Giorno singolo** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Intervallo date** | ![](assets/date-range.png) |
-| **Annotazioni sovrapposte** | ![](assets/overlapping-annotations.png)<br></br>Per visualizzare i dettagli delle annotazioni nell’app delle dashboard di Analytics, tocca un’icona di annotazione. <br></br>Quando visualizzi un’annotazione in un grafico, puoi scorrere verso sinistra e destra per spostarti tra le annotazioni presenti nel grafico. Quando visualizzi un’annotazione nella tabella, scorri verso sinistra e verso destra per spostarti tra le annotazioni associate a tale elemento nella tabella. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>Nei grafici che non hanno una base temporale *asse x*, ad esempio i grafici ad anello o a barre orizzontali, per visualizzare le annotazioni applicabili al grafico, tocca l’icona situata nell’angolo in basso a destra.<br></br> ![](assets/charts-without-timebase.png) |
+| **[!UICONTROL Single da]y** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **[!UICONTROL Date range]** | ![](assets/date-range.png) |
+| **[!UICONTROL Overlapping annotations]** | ![](assets/overlapping-annotations.png)<br></br>Per visualizzare i dettagli delle annotazioni nell’app delle dashboard di Analytics, tocca un’icona di annotazione. <br></br>Quando visualizzi un’annotazione in un grafico, puoi scorrere verso sinistra e destra per spostarti tra le annotazioni presenti nel grafico. Quando visualizzi un’annotazione nella tabella, scorri verso sinistra e verso destra per spostarti tra le annotazioni associate a tale elemento nella tabella. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>Nei grafici che non hanno una base temporale *asse x*, ad esempio i grafici ad anello o a barre orizzontali, per visualizzare le annotazioni applicabili al grafico, tocca l’icona situata nell’angolo in basso a destra.<br></br> ![](assets/charts-without-timebase.png) |

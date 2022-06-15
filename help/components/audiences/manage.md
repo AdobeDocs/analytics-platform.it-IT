@@ -2,18 +2,14 @@
 title: Gestisci i tipi di pubblico creati nel Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 3%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
 # Gestisci i tipi di pubblico creati nel Customer Journey Analytics
-
->[!NOTE]
->
->Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
 
 La gestione dei tipi di pubblico creati in precedenza consente di:
 
@@ -25,16 +21,19 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 
 ## Interfaccia utente di gestione
 
+![](assets/manage.png)
+
 | Impostazione dell’interfaccia utente | Definizione |
 | --- | --- |
-| Nascondi/Mostra filtri | Consente di mostrare o nascondere i seguenti filtri nella barra a sinistra: <ul><li>Visualizzazione dati</li><li>Proprietario</li><li>Frequenza di aggiornamento</li><li>Tag</li></ul> |
+| Nascondi/Mostra filtri | Consente di mostrare o nascondere i seguenti filtri nella barra a sinistra: <ul><li>[!UICONTROL Data view]</li><li>[!UICONTROL Owner]</li><li>[!UICONTROL Refresh frequency]</li><li>[!UICONTROL Tags]</li></ul> |
 | [!UICONTROL Title & Description] | Titolo e descrizione forniti al pubblico al momento della creazione. |
-| [!UICONTROL Data View] | Visualizzazione dati in cui è stato creato il pubblico. |
-| [!UICONTROL Audience Size] | Il numero totale di persone nel pubblico. |
+| [!UICONTROL Data view] | Visualizzazione dati in cui è stato creato il pubblico. |
+| [!UICONTROL Audience size] | Il numero totale di persone nel pubblico. |
 | [!UICONTROL Owner] | Il proprietario del pubblico - la persona che lo ha creato. |
-| [!UICONTROL Refresh Frequency] | L&#39;intervallo di aggiornamento configurato al momento della creazione del pubblico. |
+| [!UICONTROL Refresh frequency] | L&#39;intervallo di aggiornamento configurato al momento della creazione del pubblico. |
 | [!UICONTROL Tags] | Qualsiasi tag applicato a questo pubblico. |
-| [!UICONTROL  Last Refreshed] | Quando il pubblico è stato aggiornato per l&#39;ultima volta. |
-| [!UICONTROL Last Modified] | L’ultima volta che il pubblico è stato modificato o modificato. |
+| [!UICONTROL Publishing status] | Può mostrare [!UICONTROL Ready], [!UICONTROL In progress]oppure [!UICONTROL Error]. |
+| [!UICONTROL  Last refreshed] | Quando il pubblico è stato aggiornato per l&#39;ultima volta. |
+| [!UICONTROL Last modified] | L’ultima volta che il pubblico è stato modificato o modificato. |
 
 {style=&quot;table-layout:auto&quot;}

@@ -2,18 +2,14 @@
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 0108b07fd4fac33d026b8832931ffa3018b298e0
+source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '876'
 ht-degree: 4%
 
 ---
 
 # Creazione e pubblicazione di tipi di pubblico
-
->[!NOTE]
->
->Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md).
 
 Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 
@@ -25,7 +21,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
    | Metodo di creazione | Dettagli |
    | --- | --- |
-   | Dal principale **[!UICONTROL Components]>[!UICONTROL Audiences]** menu | Viene visualizzata la pagina Audiences Manager (Audience Manager). Fai clic su **[!UICONTROL Create audience]** per aprire [!UICONTROL Audience builder]. |
+   | Dal principale **[!UICONTROL Components]>[!UICONTROL Audiences]** menu | Viene visualizzata la pagina Audiences Manager (Audience Manager). Fai clic su **[!UICONTROL Create audience]**; viene aperto [!UICONTROL Audience builder]. |
    | Da una tabella a forma libera | Fai clic con il pulsante destro del mouse su un elemento in una tabella a forma libera e seleziona **[!UICONTROL Create an audience from selection]**. Questo metodo precompila il filtro con la dimensione o l’elemento dimensione selezionato nella tabella. |
    | Dall’interfaccia utente di creazione/modifica del filtro | Seleziona la casella che riporta **[!UICONTROL Create an audience from this filter]**. Questo metodo precompila il filtro. |
 
@@ -60,8 +56,8 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Impostazione anteprima | Descrizione |
    | --- | --- |
    | [!UICONTROL Data preview] window | L’intervallo di date per il pubblico. |
-   | [!UICONTROL Total people] | Numero sintetico del numero totale di persone presenti nel pubblico. Può raggiungere i 100 milioni di persone. Se il pubblico supera i 100 milioni di persone, devi ridurre la dimensione del pubblico prima di poterlo pubblicare. |
-   | [!UICONTROL Audience size limit] | Mostra quanto è lontano dal limite di 100 milioni di spettatori. |
+   | [!UICONTROL Total people] | Numero sintetico del numero totale di persone presenti nel pubblico. Può raggiungere i 200 milioni di persone. Se il pubblico supera i 200 milioni di persone, devi ridurre la dimensione del pubblico prima di poterlo pubblicare. |
+   | [!UICONTROL Audience size limit] | Mostra quanto è lontano dal limite di 200 milioni di spettatori. |
    | [!UICONTROL Estimated audience return] | Questa impostazione è utile per i clienti di retargeting di questo pubblico che ritornano al tuo sito. (In altre parole, che sono visti di nuovo in questo set di dati). <p>Qui puoi selezionare l’intervallo di tempo (7 giorni successivi, 2 settimane successive, mese successivo) per il numero stimato di clienti che potrebbero tornare. |
    | [!UICONTROL Estimated to return] | Questo numero fornisce un numero stimato di clienti fidelizzati nell’intervallo di tempo selezionato dall’elenco a discesa. Guardiamo il tasso di abbandono storico per il pubblico per prevedere questo numero. |
    | [!UICONTROL Preview metrics] | Questa impostazione ti consente di esaminare metriche specifiche per verificare se il pubblico contribuisce in misura sproporzionata a questa metrica, ad esempio &quot;[!UICONTROL Revenue]&#39; o &#39;[!UICONTROL Average time on site]&quot;. Ti dà il conteggio aggregato della metrica, così come la percentuale del totale che rappresenta. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
