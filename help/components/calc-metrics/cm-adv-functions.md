@@ -3,18 +3,14 @@ title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '2939'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '2906'
 ht-degree: 100%
 
 ---
 
 # Riferimento - Funzioni avanzate
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Accedi a queste funzioni selezionando **[!UICONTROL Show Advanced]** nell’elenco a discesa **[!UICONTROL Functions]**.
 
@@ -103,7 +99,7 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Arcotangente (riga)
 
@@ -115,7 +111,7 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: valore Y previsto (riga)
 
@@ -164,7 +160,7 @@ CEILING(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica da arrotondare. |
+| *metrica* | La metrica da arrotondare. |
 
 ## Coseno (riga)
 
@@ -176,7 +172,7 @@ COS(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 ## Radice cubica
 
@@ -188,7 +184,7 @@ CBRT(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
+| *metrica* | La metrica per la quale vuoi ottenere la radice cubica. |
 
 ## Cumulativo
 
@@ -271,7 +267,7 @@ FLOOR(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | La metrica da arrotondare. |
+| *metrica* | La metrica da arrotondare. |
 
 ## Maggiore di
 
@@ -291,7 +287,7 @@ COSH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
 
 ## Seno iperbolico (riga)
 
@@ -303,7 +299,7 @@ SINH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
 
 ## Tangente iperbolica (riga)
 
@@ -315,7 +311,7 @@ TANH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
 
 ## IF (riga)
 
@@ -365,7 +361,7 @@ LOG10(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
 
 ## Regressione logaritmo: coefficiente di correlazione (tabella)
 
@@ -431,7 +427,7 @@ LN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
 
 ## NOT
 
@@ -644,7 +640,7 @@ SIN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno. |
 
 ## Punteggio T
 
@@ -686,7 +682,7 @@ TAN (metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente. |
 
 ## Punteggio Z (riga)
 
@@ -713,7 +709,7 @@ Punteggio Z (metrica)
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <i>metric</i> </td>
+   <td colname="col1"> <i>metrica</i> </td>
    <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td>
   </tr>
  </tbody>

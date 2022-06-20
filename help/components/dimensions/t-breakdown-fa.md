@@ -5,18 +5,14 @@ title: Suddividere dimensioni
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 4bea8d7997d4084cfb87c1035689c0eea6b1f3b1
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 48%
+source-wordcount: '345'
+ht-degree: 42%
 
 ---
 
 # Analisi di dimensioni in Workspace
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 
@@ -31,7 +27,7 @@ Suddividi i tuoi dati in modo illimitato per le tue esigenze specifiche; crea qu
 
    >[!NOTE]
    >
-   >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenterà per le esportazioni.
+   >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenta per le esportazioni.
 
 **Video: Dimension in Analysis Workspace**
 

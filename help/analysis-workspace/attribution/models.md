@@ -3,18 +3,14 @@ title: Modelli di attribuzione e intervalli di lookback
 description: Modalità di divisione del credito tra i vari elementi dimensionali tramite diversi tipi di attribuzione.
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
-workflow-type: ht
-source-wordcount: '1516'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1483'
 ht-degree: 100%
 
 ---
 
 # Attribution modelli di attribuzione e intervalli di lookback
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Il concetto di attribuzione in Customer Journey Analytics richiede due componenti:
 

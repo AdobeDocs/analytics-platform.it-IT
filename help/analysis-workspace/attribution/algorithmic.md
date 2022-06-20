@@ -3,18 +3,14 @@ title: Attribuzione algoritmica
 description: Dettagli sul modello di attribuzione algoritmica.
 feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '298'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
 # Attribuzione algoritmica
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Ecco una panoramica video di Algorithmic Attribution:
 

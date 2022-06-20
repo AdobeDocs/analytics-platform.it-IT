@@ -3,18 +3,14 @@ title: Gestire gli intervalli di date
 description: Condividere, rinominare o eliminare intervalli di date in Analysis Workspace.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
 # Gestire gli intervalli di date
-
->[!NOTE]
->
->Stai visualizzando la documentazione per Analysis Workspace in Customer Journey Analytics. Le funzioni disponibili sono leggermente diverse da quelle di [Analysis Workspace in Adobe Analytics tradizionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). [Ulteriori informazioni...](/help/getting-started/cja-aa.md)
 
 Utilizza il gestore dell’intervallo di date per condividere, rinominare o eliminare gli intervalli di date. Per raggiungere il gestore di date:
 
