@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1306'
-ht-degree: 100%
+source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+workflow-type: tm+mt
+source-wordcount: '1318'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,8 @@ A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale 
 * Utilizza la funzione [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) per mappare le variabili. Sebbene sia più facile se tutte le suite di rapporti utilizzano la stessa struttura di variabili, questo non sarà necessario se utilizzi la nuova funzione [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it#mapping) di Experience Platform. Consente infatti di fare riferimento a una variabile in base al suo valore mappato, a livello di flusso dei dati (o proprietà).
 
 Se hai evitato di passare a una suite di rapporti globale a causa di problemi con [!UICONTROL Uniques Exceeded] o [!UICONTROL Low Traffic], tieni presente che CJA non prevede alcun [limite di cardinalità su una dimensione](/help/components/dimensions/high-cardinality.md). Permette di visualizzare e conteggiare qualsiasi valore univoco.
+
+Questo è un caso di utilizzo su [combinazione di suite di rapporti con schemi diversi](/help/use-cases/combine-report-suites.md).
 
 ### 3. (Ri)Configurare i canali di marketing {#marketing-channels}
 
