@@ -4,10 +4,10 @@ description: Scopri i diversi modi in cui è possibile acquisire i dati in Custo
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Esistono diverse opzioni per acquisire dati in Customer Journey Analytics. Alcun
 
 ## Acquisire dati dalla versione tradizionale di Adobe Analytics
 
-Questo flusso di lavoro utilizza il connettore dati di Adobe Analytics e varia a seconda che si utilizzi DTM o Launch per la gestione dei tag.
+Questo flusso di lavoro utilizza il connettore sorgente Adobe Analytics e varia a seconda che utilizzi DTM o Launch come Tag Manager.
 
 ### Tramite tag in Adobe Experience Platform (precedentemente denominato [!UICONTROL Launch])
 
@@ -31,7 +31,7 @@ Questo flusso di lavoro utilizza il connettore dati di Adobe Analytics e varia a
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) è una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi Experience Cloud tramite la rete Edge di Adobe Experience Platform.
 
 1. [Configura l’estensione AEP Web SDK nei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it) per inviare i dati ad Adobe Experience Cloud dalle proprietà web tramite la rete Edge di Adobe Experience Platform.
-1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
+1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
 
 ## Acquisire dati in modalità batch e in streaming
 
@@ -40,12 +40,12 @@ Adobe Experience Platform riunisce dati provenienti da più origini per aiutare 
 ### Acquisizione batch
 
 1. Configura l’[acquisizione batch](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=it#batch) per acquisire i dati in Adobe Experience Platform come file di batch. È possibile acquisire dati di profilo di un semplice file in un sistema CRM (ad esempio un file parquet) oppure dati conformi a uno schema noto nel registro Experience Data Model (XDM).
-1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
+1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
 
 ### Acquisizione in streaming
 
 1. Imposta l’[acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it#streaming) per inviare in tempo reale i dati da dispositivi lato client e lato server a Experience Platform.
-1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
+1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
 
 ## Acquisire dati Google Analytics da analizzare in Customer Journey Analytics
 
@@ -54,5 +54,5 @@ Segui i passaggi dettagliati descritti in questo tutorial su come [analizzare i 
 ## Utilizza Bulk Data Insertion API per inserire i dati in Analytics, quindi effettua l’acquisizione tramite Adobe Source Connector in Experience Platform.
 
 1. [Utilizza Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) per inviare dati di raccolta lato server ad Adobe Analytics. È possibile inviare file in formato CSV contenenti dati di eventi.
-1. [Crea un connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per inserire i dati dei consumatori in Adobe Experience Platform.
-1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
+1. [Crea un connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) per inserire i dati dei consumatori in Adobe Experience Platform.
+1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
