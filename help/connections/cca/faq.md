@@ -4,10 +4,10 @@ description: Domande frequenti per Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: f181584603d62b09ebc8538759d47fb1e03b007a
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 93%
+source-wordcount: '966'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,7 @@ Alcune metriche in CJA sono simili alle metriche nella versione tradizionale di 
 
 | **Dati uniti CJA** | **Dati non uniti CJA** | **Adobe Analytics tradizionale** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone** = numero di elementi distinti `Person ID` dove `Stitched ID` viene scelto come `Person ID`. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di elementi distinti `Person ID` in base alla colonna selezionata come `Person ID`. **Persone** nei set di dati di Adobe Analytics Connector (ADC) è simile a **Visitatori unici** in Adobe Analytics tradizionale se `endUserIDs. _experience. aaid.id` viene scelto come `Person ID` in CJA. | **Visitatori unici** = numero di ID visitatore distinti. Tieni presente che **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
+| **Persone** = numero di elementi distinti `Person ID` dove `Stitched ID` viene scelto come `Person ID`. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di elementi distinti `Person ID` in base alla colonna selezionata come `Person ID`. **Persone** in Adobe Source Connector datasets è simile a **Visitatori unici** in Adobe Analytics tradizionale se `endUserIDs. _experience. aaid.id` viene scelto come `Person ID` in CJA. | **Visitatori unici** = numero di ID visitatore distinti. Tieni presente che **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
 | **Sessioni**: è definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: è definito in base alle impostazioni di sessionizzazione specificate nella visualizzazione dati CJA. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it). | **Visite**: è definito in base alle impostazioni di sessionizzazione specificate in [Suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=it). |
 | **Eventi** = conteggio delle righe nei dati uniti in CJA. In generale, questo dovrebbe essere vicino a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un vuoto `Persistent ID`. | **Eventi** = conteggio delle righe nei dati non uniti in CJA. In generale, questo dovrebbe essere vicino a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un valore vuoto `Person ID` nei dati non uniti nel data lake di AEP, questi eventi verranno ignorati (non inclusi) in CJA. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
