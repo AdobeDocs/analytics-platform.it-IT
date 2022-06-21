@@ -4,10 +4,10 @@ description: Comprendere il concetto di “ripetizione” in Cross-Channel Analy
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ Cross-Channel Analytics effettua due passaggi sui dati di una determinata connes
 * **Ripetizione**: CCA “ripete” i dati in base a identificatori univoci appresi. Questa è la fase in cui vengono uniti nuovi dispositivi alla connessione. Adobe offre due intervalli di ripetizione:
    * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
    * Settimanale: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
+
+I dati oltre l’intervallo di lookback non vengono riprodotti. Affinché una visita non autenticata e una visita autenticata possano essere identificate insieme, un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato. Una volta riconosciuto, il dispositivo viene incollato in tempo reale da quel momento in poi.
 
 ## Passaggio 1: live-stitching
 
