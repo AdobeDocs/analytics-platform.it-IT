@@ -2,9 +2,9 @@
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
+source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '930'
 ht-degree: 4%
 
 ---
@@ -74,14 +74,19 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform
 
+CJA ora prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). CJA invia il pubblico ad Experience Platform con l’identità principale impostata su qualsiasi elemento selezionato come ID persona al momento della configurazione della connessione.
 
-CJA ora prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i loro dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
+RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, &quot;user@adobe.com&quot; può essere eseguito il targeting su tutti i loro dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Puoi visualizzare i tipi di pubblico CJA in Platform accedendo a **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
 
 Puoi trascinare i tipi di pubblico CJA nella definizione del segmento per i segmenti AEP.
 
 ![](assets/audiences-aep.png)
+
+## Cosa succede se un utente non è più membro di un pubblico in CJA?
+
+In questo caso, un evento exit viene inviato ad Experience Platform da CJA.
 
 ## Passaggi successivi
 
