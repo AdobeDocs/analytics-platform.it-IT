@@ -4,10 +4,10 @@ description: Comprendere il concetto di “ripetizione” in Cross-Channel Analy
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
+source-git-commit: 64cd3983f58f1f0de1d8639e5cb1e705dd72ef44
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 92%
+source-wordcount: '578'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Cross-Channel Analytics effettua due passaggi sui dati di una determinata connes
    * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
    * Settimanale: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Affinché una visita non autenticata e una visita autenticata possano essere identificate insieme, un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato. Una volta riconosciuto, il dispositivo viene incollato in tempo reale da quel momento in poi.
+I dati oltre l’intervallo di lookback non vengono riprodotti. Un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato per identificare insieme una visita non autenticata e una visita autenticata. Una volta riconosciuto, il dispositivo viene incollato in tempo reale da quel momento in poi.
 
 ## Passaggio 1: live-stitching
 
@@ -32,10 +32,10 @@ CCA tenta di unire ogni evento al momento della raccolta su dispositivi e canali
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `246` | Bob visita il tuo sito sul suo desktop, senza essere autenticato | `1` (246) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob si autentica sul desktop | `2` (246 e Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob effettua una chiamata al servizio clienti | `2` (246 e Bob) |
+| `3` | - | - | `Bob` | `Bob` | Bob chiama il servizio clienti | `2` (246 e Bob) |
 | `4` | `3579` | - | - | `3579` | Bob accede al tuo sito sul suo dispositivo mobile, senza essersi autenticato | `3` (246, Bob e 3579) |
 | `5` | `3579` | `Bob` | - | `Bob` | Bob accede tramite cellulare | `3` (246, Bob e 3579) |
-| `6` | - | - | `Bob` | `Bob` | Bob effettua un’altra chiamata al servizio clienti | `3` (246, Bob e 3579) |
+| `6` | - | - | `Bob` | `Bob` | Bob chiama nuovamente il servizio clienti | `3` (246, Bob e 3579) |
 | `7` | `246` | - | - | `Bob` | Bob visita nuovamente il tuo sito sul desktop, senza autenticarsi | `3` (246, Bob e 3579) |
 
 Gli eventi non autenticati e autenticati sui nuovi dispositivi vengono conteggiati come persone separate (temporaneamente). Gli eventi non autenticati sui dispositivi riconosciuti sono live-stitched.
@@ -52,10 +52,10 @@ A intervalli regolari (una volta alla settimana o una volta al giorno a seconda 
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `Bob` | Bob visita il tuo sito sul suo desktop, senza essere autenticato | `1` (Bob) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob si autentica sul desktop | `1` (Bob) |
-| `3` | - | - | `Bob` | `Bob` | Bob effettua una chiamata al servizio clienti | `1` (Bob) |
+| `3` | - | - | `Bob` | `Bob` | Bob chiama il servizio clienti | `1` (Bob) |
 | `4` | `3579` | - | - | `Bob` | Bob accede al tuo sito sul suo dispositivo mobile, senza essersi autenticato | `1` (Bob) |
 | `5` | `3579` | `Bob` | - | `Bob` | Bob accede tramite cellulare | `1` (Bob) |
-| `6` | - | - | `Bob` | `Bob` | Bob effettua un’altra chiamata al servizio clienti | `1` (Bob) |
+| `6` | - | - | `Bob` | `Bob` | Bob chiama nuovamente il servizio clienti | `1` (Bob) |
 | `7` | `246` | - | - | `Bob` | Bob visita nuovamente il tuo sito sul desktop, senza autenticarsi | `1` (Bob) |
 
 >[!NOTE]
