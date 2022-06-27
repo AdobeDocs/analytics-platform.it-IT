@@ -1,13 +1,13 @@
 ---
 title: Suite di rapporti virtuali, visualizzazioni dati, Sandbox AEP e il connettore di origine di Analytics
 description: Informazioni sugli ambienti di reporting virtuali e gli ambienti sandbox.
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 8%
 
 ---
-
 
 # Suite di rapporti virtuali, visualizzazioni dati, Sandbox AEP e il connettore di origine di Analytics
 
@@ -25,7 +25,7 @@ VRS:
 
 * Può essere basato sui segmenti Adobe Analytics.
 * Può essere applicato sia ai dati storici che a quelli nuovi in modo non distruttivo.
-* Consente di creare una o più visualizzazioni virtuali sopra una suite di rapporti di Adobe Analytics da utilizzare per diversi team aziendali.
+* Consente di creare una o più visualizzazioni virtuali sopra una suite di rapporti di Adobe Analytics da utilizzare da diversi team aziendali.
 * Può essere utilizzato per controllare l’accesso a e curare diversi tipi di dati per diversi utenti in Adobe Analytics.
 * Fornisce un [elaborazione a tempo di report](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en) funzionalità di Adobe Analytics. In questo caso, una VRS può essere utilizzata per creare una definizione personalizzata per &quot;visita&quot;.
 * Viene applicato in fase di esecuzione del report, in modo simile alla valutazione del segmento. Questo è _dopo_ i dati sono stati raccolti e memorizzati in Adobe Analytics.
