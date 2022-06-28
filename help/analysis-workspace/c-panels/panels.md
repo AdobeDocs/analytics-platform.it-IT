@@ -3,10 +3,10 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [Pannello Quick Insights](quickinsight.md) | Crea una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
 | [Pannello Freeform](freeform-panel.md) | Esegui confronti illimitati e suddivisioni, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
+| [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
+| [Pannello a tendina della riproduzione multimediale](media-playback-timespent/media-playback-time-spent.md) | Analizzare il tempo di riproduzione impiegato per comprendere dove si è verificato il picco di concorrenza o dove si sono verificati i rilasci. |
 
 ![](assets/panel-overview.png)
 
