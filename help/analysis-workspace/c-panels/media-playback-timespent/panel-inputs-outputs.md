@@ -3,14 +3,20 @@ title: Ingressi e uscite del pannello Tempo di riproduzione dei supporti
 description: Quali sono le impostazioni di ingresso e uscita Tempo di riproduzione multimediale trascorso?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 92%
+source-wordcount: '552'
+ht-degree: 90%
 
 ---
 
 # Tempo di riproduzione dei contenuti multimediali Ingressi e Uscite del pannello {#Inputs-and-outputs}
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).
+
 
 Puoi personalizzare il pannello Tempo di riproduzione multimediale trascorso utilizzando le seguenti impostazioni di input e output.
 

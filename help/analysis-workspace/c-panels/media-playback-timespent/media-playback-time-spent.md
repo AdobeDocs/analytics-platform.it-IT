@@ -3,14 +3,20 @@ title: Pannello Tempo di riproduzione dei contenuti multimediali
 description: Come utilizzare e interpretare il pannello Media Playback Time Spent in Analysis Workspace.
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 84%
+source-wordcount: '253'
+ht-degree: 81%
 
 ---
 
 # Pannello Tempo di riproduzione dei contenuti multimediali
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).
+
 
 È possibile analizzare il tempo di riproduzione impiegato per comprendere dove si è verificato il picco di concorrenza o dove si è verificato un calo, per fornire informazioni utili sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori e per risolvere eventuali problemi o pianificare il volume o la scala.
 
