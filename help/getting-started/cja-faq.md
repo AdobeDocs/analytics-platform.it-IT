@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: 29d8f5e293ddee10578e953e2db224099f7b7033
 workflow-type: tm+mt
-source-wordcount: '2058'
-ht-degree: 100%
+source-wordcount: '2165'
+ht-degree: 95%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 | È supportato lo stitching da un comportamento anonimo a un comportamento autenticato? | Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. |
 | Come funziona la “riproduzione” in CCA? | CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching) |
 | Come funziona l’unione dei dati storici (retrocompilazione) in CCA? | Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#enable-cross-channel-analytics) |
+| Qual è il comportamento previsto per i record di set di dati di profilo non uniti? | **Esempio di scenario**: Unisci 2 set di dati in una connessione CJA utilizzando `CRMid` come ID persona. Uno è un set di dati evento web con `CRMid` in tutti i documenti. L&#39;altro set di dati è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati evento Web. L’altro 60% non è presente nel set di dati dell’evento Web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: Le righe di profilo prive di eventi associati ad esse vengono memorizzate in CJA. Tuttavia, non puoi visualizzarli in Analysis Workspace finché non viene visualizzato un evento associato a tale ID. |
 
 {style=&quot;table-layout:auto&quot;}
 
