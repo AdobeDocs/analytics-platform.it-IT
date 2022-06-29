@@ -2,14 +2,18 @@
 title: Creare e pubblicare tipi di pubblico in Profilo cliente in tempo reale
 description: Scopri come pubblicare i tipi di pubblico dal Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '937'
 ht-degree: 4%
 
 ---
 
 # Creazione e pubblicazione di tipi di pubblico
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).
 
 Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 

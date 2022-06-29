@@ -4,10 +4,10 @@ description: Quali sono le domande frequenti sulla durata della riproduzione dei
 feature: Panels
 role: User, Admin
 exl-id: be5d5557-ef5f-4a13-8d4c-0a64a8163412
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 2321e59570cec9e34fc003a4011ded7906d11475
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 90%
+source-wordcount: '252'
+ht-degree: 84%
 
 ---
 

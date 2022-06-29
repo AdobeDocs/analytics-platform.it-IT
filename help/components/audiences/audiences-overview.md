@@ -2,14 +2,18 @@
 title: Panoramica sulla pubblicazione di CJA Audiences
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1abc116892405772530e8c254299b40167613656
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '353'
 ht-degree: 3%
 
 ---
 
 # Panoramica sulla pubblicazione di CJA Audience
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).
 
 Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 
