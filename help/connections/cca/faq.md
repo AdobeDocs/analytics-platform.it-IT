@@ -7,7 +7,7 @@ feature: Cross-Channel Analytics
 source-git-commit: 5eede8eeb5d7e8632dc0d7d580f01ccc7ac8106c
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -73,6 +73,6 @@ Alcune metriche in CJA sono simili alle metriche nella versione tradizionale di 
 
 Altre metriche possono essere simili in CJA e nella versione tradizionale di Adobe Analytics. Ad esempio, il conteggio totale per Adobe Analytics [eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=it) 1-100 è generalmente paragonabile tra Adobe Analytics tradizionale e CJA (sia cucito che non cucito). [Differenze di funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md)), ad esempio la deduplicazione degli eventi tra CJA e il tradizionale Adobe Analytics, può causare discrepanze tra i due prodotti.
 
-## CCA può usare i campi mappa identità?
+## CCA può usare i campi Identity Map?
 
 No, al momento CCA non può utilizzare i campi di Identity Map.

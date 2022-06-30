@@ -6,13 +6,13 @@ exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL Labs] Guida utente
+# Guida utente di [!UICONTROL Labs]
 
-[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per ottenere l’accesso anticipato alle innovazioni di Customer Journey Analytics (CJA) e per valutare le prossime funzionalità nel contesto dei casi d’uso e dei dati aziendali.
+[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni di Customer Journey Analytics (CJA) e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
 
 ## Requisiti
 
@@ -34,11 +34,11 @@ Per avviare e valutare un prototipo:
 
 1. Nella schermata [!UICONTROL Labs], fai clic su **[!UICONTROL Launch]** per il prototipo che desideri visualizzare. Quando il prototipo viene avviato, il suo nome verrà visualizzato in alto a sinistra nell’ambiente del prototipo.
 
-   aggiungi screenshot qui
+   aggiungere schermata qui
 
 1. Per guardare un video che evidenzia il prototipo, fai clic su **[!UICONTROL Watch Video]** in alto a destra. Al termine del video, fai clic su **[!UICONTROL Close]**.
 
-   aggiungi screenshot qui
+   aggiungere schermata qui
 
 1. Lavora con il prototipo. Quando si lavora nell’ambiente del prototipo:
 
@@ -64,12 +64,12 @@ Per avviare e valutare un prototipo:
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 
-## Prototipi di CJA Labs
+## Prototipi di Labs di CJA
 
-* Generatore di informazioni in lingua naturale: Fornisce un riepilogo in linguaggio naturale dei dati che si stanno analizzando in una tabella a forma libera.
-* Raccomandazione di visualizzazione: Consiglia visualizzazioni che si associano bene ai tuoi dati.
+* Generatore di informazioni dettagliate in linguaggio naturale: fornisce un riepilogo in linguaggio naturale dei dati che stai analizzando in una tabella a forma libera.
+* Funzione di suggerimento di visualizzazione: consiglia visualizzazioni che si associano bene ai tuoi dati.
 
 ## Informazioni aggiuntive
 
-* Alcuni prototipi in [!UICONTROL Labs] diventare caratteristiche di Customer Journey Analytics, altri potrebbero non esserlo. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
+* Alcuni prototipi all’interno di [!UICONTROL Labs] diventano funzioni di Customer Journey Analytics, altri no. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
 * Labs è disponibile per tutte le adesioni SKU.

@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 92%
       + [Annotazioni per dispositivi mobili](components/annotations/mobile-annotations.md)
    + Tipi di pubblico {#audiences}
       + [Panoramica dei tipi di pubblico](components/audiences/audiences-overview.md)
-      + [Creazione e pubblicazione di tipi di pubblico](components/audiences/publish.md)
+      + [Creare e pubblicare tipi di pubblico](components/audiences/publish.md)
       + [Gestire i tipi di pubblico](components/audiences/manage.md)
    + Dimensioni {#dimensions}
       + [Anteprima dimensioni](components/dimensions/view-dimensions.md)

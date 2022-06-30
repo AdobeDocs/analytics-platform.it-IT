@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
 source-wordcount: '1424'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -76,9 +76,9 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono ora [!UICONTROL Event] contenitori**. La [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni/hit di pagina.
-* **I contenitori delle visite ora sono [!UICONTROL Session] contenitori**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. 
-* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. La [!UICONTROL Person] Il contenitore include ogni sessione ed evento per un visitatore entro il periodo di tempo specificato.
+* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il contenitore [!UICONTROL Event] ti consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni/hit pagina.
+* **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. 
+* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento di un visitatore entro l’intervallo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate
 
