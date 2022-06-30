@@ -3,9 +3,9 @@ title: Creare filtri
 description: Scopri l’interfaccia utente per la creazione di filtri.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '364'
+ht-degree: 100%
 
 ---
 
@@ -43,8 +43,8 @@ Esistono molti altri metodi per applicare i filtri a un pannello
 | Azione | Descrizione |
 | --- | --- |
 | Creare un filtro dalla selezione | Crea un filtro in linea. Questo tipo di filtro è applicabile solo al progetto aperto e non viene salvato come filtro di CJA.<p> 1. Seleziona le righe della tabella da includere nel filtro. 2. Fai clic con il pulsante destro del mouse sulla selezione. 3. Fai clic su *Create filter from selection* (Crea filtro da selezione). |
-| Workspace [!UICONTROL Components] > [!UICONTROL New Filter] | Viene visualizzato il generatore di filtri. Per ulteriori informazioni sui filtri, consulta l’articolo su come [generare i filtri](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it). |
+| [!UICONTROL Components] Workspace > [!UICONTROL New Filter] | Viene visualizzato il generatore di filtri. Per ulteriori informazioni sui filtri, consulta l’articolo su come [generare i filtri](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it). |
 | Condividi > Condividi progetto oppure Condividi > Cura dati progetto | In [Curare e condividere](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it#concept_4A9726927E7C44AFA260E2BB2721AFC6), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
-| Utilizzare i filtri come dimensioni | Vedi il video seguente: Utilizzo dei filtri come Dimension in Analysis Workspace |
+| Utilizzare i filtri come dimensioni | Guarda il video di seguito: Using Segments as Dimensions in Analysis Workspace (Uso dei filtri come dimensioni in Analysis Workspace) |
 
 >[!VIDEO](https://video.tv.adobe.com/v/23974)
