@@ -4,7 +4,7 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2906'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Arcotangente (riga)
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: valore Y previsto (riga)
 
@@ -160,7 +160,7 @@ CEILING(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Coseno (riga)
 
@@ -172,7 +172,7 @@ COS(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 ## Radice cubica
 
@@ -184,7 +184,7 @@ CBRT(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica per la quale vuoi ottenere la radice cubica. |
+| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
 
 ## Cumulativo
 
@@ -267,7 +267,7 @@ FLOOR(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Maggiore di
 
@@ -287,7 +287,7 @@ COSH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
 
 ## Seno iperbolico (riga)
 
@@ -299,7 +299,7 @@ SINH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
 
 ## Tangente iperbolica (riga)
 
@@ -311,7 +311,7 @@ TANH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
 
 ## IF (riga)
 
@@ -361,7 +361,7 @@ LOG10(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
 
 ## Regressione logaritmo: coefficiente di correlazione (tabella)
 
@@ -427,7 +427,7 @@ LN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
 
 ## NOT
 
@@ -640,7 +640,7 @@ SIN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
 
 ## Punteggio T
 
@@ -682,7 +682,7 @@ TAN (metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
 
 ## Punteggio Z (riga)
 
@@ -709,7 +709,7 @@ Punteggio Z (metrica)
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <i>metrica</i> </td>
+   <td colname="col1"> <i>metric</i> </td>
    <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td>
   </tr>
  </tbody>
