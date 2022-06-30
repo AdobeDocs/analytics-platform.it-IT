@@ -5,90 +5,90 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '891'
+ht-degree: 100%
 
 ---
 
 # Integrare IA per l’analisi dei clienti con CJA
 
-[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en), come parte di Adobe Experience Platform Intelligent Services, offre agli addetti al marketing la possibilità di generare previsioni sui clienti a livello individuale.
+[IA per l’analisi dei clienti](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it), parte di Adobe Experience Platform Intelligent Services, offre agli esperti marketing la possibilità di generare previsioni sui clienti a livello individuale.
 
-Con l’aiuto di fattori influenti, Customer AI può dirvi cosa è probabile che faccia un cliente e perché. Inoltre, gli esperti di marketing possono trarre vantaggio dalle previsioni e dalle informazioni di Customer AI per personalizzare le esperienze dei clienti servendo le offerte e i messaggi più appropriati.
+Con l’aiuto di fattori di influenza, IA per l’analisi dei clienti può dirti cosa potrebbe fare un cliente e perché. Inoltre, gli esperti marketing possono trarre vantaggio dalle previsioni e dalle informazioni di IA per l’analisi dei clienti per personalizzare le customer experience fornendo le offerte e i messaggi più appropriati.
 
-Customer AI si basa su dati comportamentali individuali e dati di profilo per il punteggio di propensione. Customer AI è flessibile in quanto può assumere più origini dati, tra cui Adobe Analytics, Adobe Audience Manager, dati Consumer Experience Event e dati Experience Event. Se utilizzi il connettore di origine Experience Platform per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati Evento esperienza personalizzato senza tipi di evento standard, tutti i campi rilevanti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di Customer AI in Experience Platform. &#x200B;
+IA per l’analisi dei clienti si basa su dati comportamentali individuali e dati di profilo per il punteggio di tendenza. IA per l’analisi dei clienti è flessibile in quanto può accogliere più origini di dati, tra cui Adobe Analytics, Adobe Audience Manager, dati di Consumer Experience Event e di Experience Event. Se utilizzi il connettore di origine di Experience Platform per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati di Experience Event senza tipi di evento standard, tutti i campi pertinenti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di IA per l’analisi dei clienti in Experience Platform. 
 
-Customer AI si integra con il Customer Journey Analytics (CJA) nella misura in cui i set di dati abilitati per Customer AI possono essere utilizzati nelle visualizzazioni dati e nel reporting in CJA. Con questa integrazione, puoi
+IA per l’analisi dei clienti si integra con Customer Journey Analytics (CJA) nella misura in cui i set di dati abilitati per IA per l’analisi dei clienti possono essere utilizzati nelle visualizzazioni dati e nella reportistica in CJA. Con questa integrazione, puoi:
 
-* **Tracciare i punteggi di propensione per un segmento di utenti nel tempo**. Esempio di utilizzo: Qual è la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel?
-* **Analizzare gli eventi di successo o gli attributi associati ai punteggi di propensione**. &#x200B;Esempio di utilizzo: Voglio comprendere gli attributi o gli eventi di successo associati ai punteggi di propensione.
-* **Segui il flusso di entrata per la propensione del cliente su diverse esecuzioni di punteggio**. Esempio di utilizzo: Vorrei capire le persone che inizialmente erano utenti a bassa propensione e, nel tempo, sono diventati utenti ad alta propensione. &#x200B;
-* **Guardate la distribuzione della propensione**. Caso di utilizzo: Vorrei comprendere la distribuzione dei punteggi di propensione a Posso essere più precisa con i miei segmenti. &#x200B;Esempio: un rivenditore desidera effettuare una promozione specifica per 50 $ su un prodotto. Potrebbero voler gestire solo una promozione molto limitata a causa del budget, ecc. Analizzano i dati e decidono di eseguire il targeting solo dei primi &#x200B; dell’80%+ dei loro clienti.
-* **Osserva la propensione a eseguire un’azione per una particolare coorte nel tempo**. Caso di utilizzo: Vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è possibile tenere traccia di una coorte specifica nel tempo. &#x200B; Esempio di ospitalità: Un esperto di marketing può rintracciare il loro livello bronzo rispetto al loro livello argento, o livello argento rispetto al loro livello oro nel tempo. Poi possono vedere la propensione di ogni coorte a prenotare l&#39;hotel nel tempo. &#x200B;
+* **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**. Caso d’uso di esempio: qual è la probabilità che un cliente dell’hotel acquisti un biglietto per lo spettacolo presso la sala concerti dell’hotel?
+* **Analizzare gli eventi di successo o gli attributi associati ai punteggi di tendenza**. Caso d’uso di esempio: voglio comprendere gli attributi o gli eventi di successo associati ai punteggi di tendenza.
+* **Seguire il flusso di entrata della tendenza del cliente su diverse esecuzioni di punteggio**. Esempio di utilizzo: vorrei capire di più sulle persone che inizialmente erano utenti a bassa tendenza e, nel tempo, sono diventate utenti ad alta tendenza. 
+* **Osservare la distribuzione della tendenza**. Caso d’uso: vorrei comprendere la distribuzione dei punteggi di tendenza per usare una maggiore precisione nei miei segmenti. Esempio: un rivenditore desidera effettuare una promozione specifica di $ 50 di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
+* **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**. Caso d’uso: vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è puoi traccia di una coorte specifica nel tempo. Esempio di ospitalità: un esperto marketing può tracciare il suo livello bronzo rispetto al suo livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo. 
 
 ## Flusso di lavoro
 
 Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare sull’output in CJA.
 
-### Passaggio 1: Configurare un’istanza di Customer AI
+### Passaggio 1: configurare un’istanza di IA per l’analisi dei clienti
 
-Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo [Configurare un’istanza di Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=en) guida in Adobe Experience Platform.
+Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo la guida [Configure a Customer AI Instance](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=it) (Configurare un’istanza di IA per l’analisi dei clienti) in Adobe Experience Platform.
 
-### Passaggio 2: Impostare una connessione CJA ai set di dati di Customer AI
+### Passaggio 2: configurare una connessione CJA ai set di dati di IA per l’analisi dei clienti
 
-In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) Experience Platform di set di dati che sono stati strumentalizzati per Customer AI. Ogni previsione, ad esempio &quot;Probabilità di aggiornare l’account&quot;, equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso &quot;Punteggi Customer AI in Formato EE - nome_dell_applicazione&quot;.
+In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) ai set di dati di Experience Platform che sono stati instrumentati per IA per l’analisi dei clienti. Ogni previsione, ad esempio “Likelihood to upgrade account” (Probabilità di aggiornamento dell’account), equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso “Customer AI Scores in EE Format – name_of_application” (Punteggi di IA per l’analisi dei clienti in formato EE, name_of_application).
 
 >[!IMPORTANT]
 >
->Ogni istanza di Customer AI dispone di due set di dati di output se l’interruttore è attivato per abilitare i punteggi per CJA durante la configurazione del passaggio 1. Un set di dati di output viene visualizzato in formato XDM profilo e uno in formato XDM evento esperienza.
+>Ogni istanza di IA per l’analisi dei clienti dispone di due set di dati di output se l’interruttore è attivato per l’abilitazione dei punteggi per CJA durante la configurazione del passaggio 1. Un set di dati di output viene visualizzato in formato XDM di Profilo e uno in formato XDM di Experience Event.
 
-![Punteggi delle ICC](assets/cai-scores.png)
+![Punteggi IA per l’analisi dei clienti](assets/cai-scores.png)
 
-![Crea connessione](assets/create-conn.png)
+![Creare una connessione](assets/create-conn.png)
 
 Di seguito è riportato un esempio di schema XDM che CJA inserirebbe come parte di un set di dati esistente o nuovo:
 
-![Schema CAI](assets/cai-schema.png)
+![Schema IA per l’analisi dei clienti](assets/cai-schema.png)
 
-(L’esempio è un set di dati di profilo; lo stesso set di oggetti schema farebbe parte di un set di dati Experience Event che CJA acquisirebbe. Il set di dati di Experience Event include marche temporali come data del punteggio.) Ogni cliente valutato in questo modello avrebbe un punteggio, una data punteggio, ecc. associati a loro.
+L’esempio è un set di dati di profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati di Experience Event che CJA acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come la data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e altri dati a lui associati.
 
-### Passaggio 3: Crea visualizzazioni dati in base a queste connessioni
+### Passaggio 3: creare visualizzazioni dati in base a queste connessioni
 
-In CJA, ora puoi procedere per [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
+In CJA, ora puoi [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
 
 ![Creare una visualizzazione dati](assets/create-dataview.png)
 
-### Passaggio 4: Report sui punteggi ICC in Workspace
+### Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
 
-In CJA Workspace, ora puoi creare un nuovo progetto e inserire le visualizzazioni .
+In CJA Workspace, ora puoi creare un nuovo progetto e inserire le visualizzazioni.
 
-**Punteggi di tendenza della propensione**
+**Generare punteggi di tendenza**
 
-Ecco un esempio di un progetto Workspace con dati ICC che genera un punteggio di propensione per un segmento di utenti nel tempo, in &#x200B; un grafico a barre sovrapposto:
+Ecco un esempio di un progetto Workspace con i dati di IA per l’analisi dei clienti che genera un punteggio di tendenza per un segmento di utenti nel tempo, in un grafico a barre in pila:
 
-![Punti elenco](assets/workspace-scores.png)
+![Contenitori di punteggio](assets/workspace-scores.png)
 
 **Tabella con codici motivo**
 
-Ecco una tabella che mostra i codici motivo per cui un segmento ha un &#x200B; di propensione alto o basso:
+Ecco una tabella che mostra i codici del motivo per cui un segmento ha una tendenza alta o bassa:
 
-![Codici dei motivi](assets/reason-codes.png)
+![Codici motivo](assets/reason-codes.png)
 
-**Flusso di ingresso per la propensione del cliente**
+**Flusso di ingresso della tendenza del cliente**
 
-Questo diagramma di flusso mostra il flusso di ingresso per la propensione del cliente su diverse esecuzioni di punteggio &#x200B;:
+Questo diagramma di flusso mostra il flusso di ingresso della tendenza del cliente su diverse esecuzioni di punteggio:
 
 ![Flusso di ingresso](assets/flow.png)
 
-**Distribuzione dei punteggi di propensione**
+**Distribuzione dei punteggi di tendenza**
 
-Questo grafico a barre mostra la distribuzione dei punteggi di propensione &#x200B;:
+Questo grafico a barre mostra la distribuzione dei punteggi di tendenza:
 
 ![Distribuzione](assets/distribution.png)
 
-**Sovrapposizioni tendenza**
+**Sovrapposizioni delle tendenze**
 
-Questo diagramma di Venn mostra la sovrapposizione della propensione su diverse esecuzioni di punteggio:
+Questo diagramma di Venn mostra la sovrapposizione delle tendenze su diverse esecuzioni di punteggio:
 
-![Sovrapposizioni tendenza](assets/venn.png)
+![Sovrapposizioni delle tendenze](assets/venn.png)
