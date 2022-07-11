@@ -2,9 +2,9 @@
 title: Suite di rapporti virtuali, visualizzazioni dati, Sandbox AEP e il connettore di origine di Analytics
 description: Informazioni sugli ambienti di reporting virtuali e gli ambienti sandbox.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
+source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti 
 
 Per ulteriori informazioni, consulta: [Panoramica delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it).
 
-VRS:
+Una suite di rapporti virtuale:
 
 * Può essere basato sui segmenti Adobe Analytics.
 * Può essere applicato sia ai dati storici che a quelli nuovi in modo non distruttivo.
