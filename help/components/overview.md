@@ -4,10 +4,10 @@ description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 83a725ac746629874162827d30d5bdf8be0fa6dc
+source-git-commit: d75f432d8933e9f6aa735ff9ca3bc12277ee0b0a
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 47%
+source-wordcount: '387'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,8 @@ I componenti sono funzionalità di Customer Journey Analytics che possono essere
 
 Puoi gestire i seguenti componenti:
 
-* [**Annotazioni**](/help/components/annotations/overview.md): Comunica informazioni e sfumature di dati contestuali alla tua organizzazione. **Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).**
+* [**Annotazioni**](/help/components/annotations/overview.md): Comunica informazioni e sfumature di dati contestuali alla tua organizzazione.
+* [**Tipi di pubblico**](/help/components/audiences/audiences-overview.md): Crea e pubblica i tipi di pubblico rilevati nel Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per il targeting dei clienti e la personalizzazione.
 * [**Filtri**](filters/filters-overview.md): Escludere parti dei dati per concentrarsi su elementi dimensionali comuni
 * [**Metriche calcolate:**](calc-metrics/calc-metr-overview.md) utilizza metriche e formule come nuovi componenti da utilizzare nel reporting
 * [**Intervalli di date:**](date-ranges/overview.md) personalizza e perfeziona gli intervalli di date offerti da Analysis Workspace
@@ -50,7 +51,7 @@ Sono disponibili diversi metodi di gestione dei componenti (singolarmente o sele
 | Preferito | Aggiungere il componente all’elenco dei preferiti. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), come [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters]oppure [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]. |
 | Approva | Approvare il componente per renderlo canonico. Viene quindi visualizzato nel rispettivo Component Manager (Gestione componenti), come [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Filters]oppure  [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects] |
 | Condividi | Si applica solo ai filtri. |
-| Elimina | Si applica solo ai filtri. |
+| Delete (Elimina) | Si applica solo ai filtri. |
 
 Guarda il video su Creazione di metriche, filtri e date:
 
