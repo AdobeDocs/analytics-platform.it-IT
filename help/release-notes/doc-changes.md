@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 159e24bb2a0dc40463679a6a672af773e8ce101f
+source-git-commit: 70df0ae886508b703d0b87d3608b75f21d7952a6
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 81%
+source-wordcount: '843'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,6 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Giugno 2022 | Nuovo articolo su [Analytics Labs in CJA](/help/labs/labs.md) |
 | Giugno 2022 | Nuova sezione su [supporto di campi numerici come chiavi di ricerca e valori di ricerca](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) |
 | Giugno 2022 | Aggiornamenti al [Flusso di lavoro di visualizzazione del flusso di lavoro](/help/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| Giugno 2022 | Nuova documentazione su [Pubblicazione del pubblico sul profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html) |
 | Maggio 2022 | Articolo con aggiornamenti importanti sulla [creazione di connessioni](/help/connections/create-connection.md) in CJA. |
 | Maggio 2022 | Nuovo articolo su come [gestire i blocchi di dati nel Report Builder di CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=it) |
 | Maggio 2022 | Nuovo articolo sull’[acquisizione del pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md) |
