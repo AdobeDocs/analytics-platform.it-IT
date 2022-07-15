@@ -3,27 +3,33 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f6ad28f8ed766bd25986da48bfd7bd7e86df0861
+source-git-commit: e0f97c42f4b1bea721825a30360f0c44b1f9f85a
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Note sulla versione del Customer Journey Analytics corrente (CJA) (giugno 2022)
+# Note sulla versione del Customer Journey Analytics corrente (CJA) (luglio 2022)
 
-**Ultimo aggiornamento**: 12 luglio 2022
+**Ultimo aggiornamento**: 13 luglio 2022
 
 ## Funzioni chiave
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Nuova interfaccia utente Flusso | Offre funzionalità aggiuntive alla visualizzazione Flusso per renderla più potente e funzionale. [Ulteriori informazioni](/help/analysis-workspace/visualizations/c-flow/create-flow.md) | Il rollout inizia il 15 giugno 2022; GA entro il 27 o 28 giugno 2022 |
-| Supporto per campi numerici come chiavi di ricerca e valori di ricerca | Utile se desideri classificare i valori stringa con un campo numerico come il COGS o il margine su un SKU di prodotto. Consentire metriche dalle ricerche ti aiuta a ottenere questi punti dati nel reporting. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 15 giugno 2022 |
-| Laboratori di Analytics in CJA | Supporta i laboratori in CJA per esplorare i prototipi con dati multicanale. [Ulteriori informazioni](/help/labs/labs.md) | 15 giugno 2022 |
-| Condivisione di annotazioni nelle scorecard per dispositivi mobili | Puoi visualizzare le annotazioni create in Workspace nelle scorecard per dispositivi mobili. Questo ti consente di condividere sfumature di dati contestuali e informazioni approfondite sull’organizzazione e le campagne direttamente all’interno dei progetti delle scorecard per dispositivi mobili, visualizzabili nell’app mobile delle dashboard di Analytics. [Ulteriori informazioni](/help/components/annotations/mobile-annotations.md) | 15 giugno 2022 |
+| Report di prima sessione e di ripetizione | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni - da seguire] | 20 luglio 2022 |
+| Supporto per campi numerici come chiavi di ricerca e valori di ricerca | Utile se desideri classificare i valori stringa con un campo numerico come il COGS o il margine su un SKU di prodotto. Consentire metriche dalle ricerche ti aiuta a ottenere questi punti dati nel reporting. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 20 luglio 2022 |
 
-{style=&quot;table-layout:auto&quot;}
+## Correzioni
+
+AN-288455; AN-288828; AN-289323
+
+## Avvisi importanti per gli amministratori di CJA
+
+| Avviso | di aggiunta o aggiornamento | Descrizione |
+| --- | --- | --- |
+| Mappatura IP-to-geolocation migliorata | 11 luglio 2022 | Il fornitore di Adobe per le ricerche IP, Digital Element, sta effettuando l’aggiornamento a un nuovo set di dati migliorato (NetAcuity Pulse) per la mappatura da IP a geolocalizzazione. Adobe Analytics adotterà questo nuovo set di dati nell’intervallo di ottobre 2022. Il nuovo database sarà più accurato delle versioni precedenti. Alcune mappature IP-to-geo cambieranno/miglioreranno quando il nuovo database verrà adottato.<p> Anche i dati CJA forniti tramite il connettore origine di Analytics sfrutteranno automaticamente le nuove mappature. |
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics - Aggiornamenti della documentazione](/help/release-notes/doc-changes.md)
