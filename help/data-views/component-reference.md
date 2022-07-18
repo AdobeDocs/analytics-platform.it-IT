@@ -4,10 +4,10 @@ description: Dettagli e informazioni su tutti i componenti standard che è possi
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 12%
+source-wordcount: '775'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ La maggior parte delle dimensioni e delle metriche in CJA si basa sugli elementi
 
 ![Componenti standard](assets/standard-components.png)
 
-## Componenti standard richiesti
+## Componenti standard richiesti {#required}
 
 Per impostazione predefinita, questi componenti standard richiesti vengono aggiunti a ogni visualizzazione dati. Sono essenziali per le funzionalità di reporting offerte dal Customer Journey Analytics.
 
@@ -36,7 +36,7 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 | [!UICONTROL Quarter] | Dimensione | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
 | [!UICONTROL Year] | Dimensione | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
 
-## Componenti standard opzionali
+## Componenti standard opzionali {#optional}
 
 Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** scheda > **[!UICONTROL Standard Components]** scheda .
 
@@ -48,15 +48,19 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Day of Month] | Suddivisione della dimensione in base al tempo | 1-31 |
 | [!UICONTROL Day of Week] | Suddivisione della dimensione in base al tempo | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |
 | [!UICONTROL Day of Year] | Suddivisione della dimensione in base al tempo | 1-366 |
+| [!UICONTROL First-time session] | Metrica | Prima sessione definita da una persona all&#39;interno dell&#39;intervallo di reporting |
 | [!UICONTROL Hour of Day] | Suddivisione della dimensione in base al tempo | 0-23 |
 | [!UICONTROL  Month of Year] | Suddivisione della dimensione in base al tempo | Gennaio - Dicembre |
 | [!UICONTROL Person ID] | Dimensione | Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuno di questi può essere utilizzato come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento), ecc. La [!UICONTROL Person ID] La dimensione è la base per combinare i set di dati e identificare i visitatori unici in CJA.<p>Eventuali casi d’uso includono:<ul><li>Creazione di un filtro per un valore ID persona specifico per filtrare tutto in base al comportamento dell’utente.</li><li>Debug: accertati che siano presenti i dati per un ID cookie specifico (o un ID cliente specifico).</li><li>Identificazione degli utenti che hanno effettuato l&#39;accesso a un call center.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimensione | Quale tipo di ID è [!UICONTROL Person ID] è costituito da. Esempi: `email address`, `cookie ID`, `Analytics ID`, ecc. |
 | [!UICONTROL Quarter of Year] | Suddivisione della dimensione in base al tempo | Q1, Q2, Q3, Q4 |
+| [!UICONTROL Return session] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. |
 | [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di filtro (ad esempio &#39;[!UICONTROL Session Starts] esiste&#39;), si filtra fino al primo evento di ogni sessione. |
 | [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all’ultimo evento di ogni sessione. |
+| [!UICONTROL Session Type] | Dimensione | Questa dimensione ha due valori: 1) [!UICONTROL First-Time] e 2) Ritorno. La [!UICONTROL First-time] l’elemento riga include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nel [!UICONTROL Returning] riga (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione. [Ulteriori informazioni](/help/data-views/data-views-usecases.md) |
 | [!UICONTROL Time Spent (seconds)] | Metrica | Somma il tempo tra due valori diversi per una dimensione. |
 | [!UICONTROL Time Spent per Event] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Event] secchi. |
 | [!UICONTROL Time Spent per Session] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Session] secchi. |
 | [!UICONTROL Time Spent per Person] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica [!UICONTROL Person] secchi. |
 | [!UICONTROL Weekend]/[!UICONTROL Weekday] | Suddivisione della dimensione in base al tempo | Fine settimana o Giorno feriale |
+

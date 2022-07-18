@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '682'
-ht-degree: 100%
+source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Questi casi d’uso mostrano la flessibilità e la potenza delle visualizzazioni dati in Customer Journey Analytics.
 
-## 1. Creare una metrica da un campo schema di tipo stringa
+## 1. Creare una metrica da un campo schema di tipo stringa {#string}
 
 Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICONTROL Orders] da una campo schema [!UICONTROL pageTitle] di tipo stringa. Ecco come si fa:
 
@@ -32,7 +32,7 @@ Inoltre, puoi crearne un’altra metrica [!UICONTROL Orders] dallo stesso campo 
 
 Oppure, potresti voler utilizzare l’ID visitatore, una dimensione, come metrica per determinare quanti ID visitatore ha la tua azienda.
 
-## 2. Utilizzare numeri interi come dimensioni
+## 2. Utilizzare numeri interi come dimensioni {#integers}
 
 In precedenza, i numeri interi venivano trattati automaticamente come metriche in CJA. Ora i valori numerici (compresi gli eventi personalizzati da Adobe Analytics) possono essere trattati come dimensioni. Ecco un esempio:
 
@@ -44,7 +44,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
    ![](assets/bucketing.png)
 
-## 3. Utilizzare le dimensioni numeriche come “metriche” nei diagrammi di flusso
+## 3. Utilizzare le dimensioni numeriche come “metriche” nei diagrammi di flusso {#numeric}
 
 Puoi utilizzare una dimensione numerica per inserire “metriche” nella visualizzazione [!UICONTROL  Flow].
 
@@ -53,13 +53,13 @@ Puoi utilizzare una dimensione numerica per inserire “metriche” nella visual
 
 ![](assets/flow.png)
 
-## 4. Applicare filtri agli eventi secondari
+## 4. Applicare filtri agli eventi secondari {#sub-event}
 
 Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di evento secondario; i filtri (segmenti) generati nel generatore di filtri consentono invece di filtrare solo a livello di evento. Pertanto, puoi filtrare gli eventi secondari mediante inclusione/esclusione nelle visualizzazioni dati, e quindi fare riferimento a tale nuova metrica o dimensione in un filtro a livello di evento.
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 dollari. Se un ordine include l’acquisto di un prodotto da 50 dollari e un prodotto da 25 dollari, non verrà rimosso l’intero ordine ma solo l’acquisto del prodotto da 25 dollari.
 
-1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
+1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. Per [!UICONTROL Format], seleziona [!UICONTROL Currency].
 b. Per [!UICONTROL Currency], seleziona USD.
@@ -70,13 +70,13 @@ f. Specifica il valore “50”.
 
 Con queste nuove impostazioni verranno visualizzati solo i ricavi di alto valore, escludendo tutto ciò che è inferiore a 50 dollari.
 
-## 5. Utilizzare l’impostazione [!UICONTROL No Value Options]
+## 5. Utilizzare l’impostazione [!UICONTROL No Value Options] {#no-value}
 
 La tua azienda può aver dedicato del tempo a insegnare agli utenti ad aspettarsi “Unspecified” (Non specificato) nei rapporti. Il valore predefinito nelle visualizzazioni dati è “No Value” (Nessun valore). Ora nell’interfaccia utente delle visualizzazioni dati puoi [cambiare “No Value” in “Unspecified”](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-no-value-options-settings). 
 
 Oppure, nel caso della dimensione per la registrazione a un programma di iscrizione, puoi cambiare “No Value” in “Non registrato al programma di iscrizione”.
 
-## 6. Creare più metriche con impostazioni [!UICONTROL Attribution] diverse
+## 6. Creare più metriche con impostazioni [!UICONTROL Attribution] diverse {#attribution}
 
 Con la funzione [!UICONTROL Duplicate] in alto a destra, crea alcune metriche Ricavi con impostazioni di attribuzione diverse, come [!UICONTROL First Touch], [!UICONTROL Last Touch] e [!UICONTROL Algorithmic].
 
@@ -86,3 +86,30 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
+
+## Reporting delle sessioni nuovo e ripetuto {#new-repeat}
+
+Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
+
+* Quale percentuale degli ordini proviene da sessioni nuove rispetto a sessioni ripetute?
+
+* Per un dato canale di marketing, o una campagna specifica, esegui il targeting di utenti nuovi o di ritorno? In che modo queste scelte influenzano i tassi di conversione?
+
+Tre componenti facilitano questo reporting:
+
+* 1 dimensione: Sessioni nuove e di ritorno
+
+* 2 metriche: Nuove sessioni, sessioni di ritorno
+
+Per accedere a questi componenti:
+
+1. Passa all’editor della visualizzazione dati.
+1. Fai clic sul pulsante **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** nella barra a sinistra.
+1. Trascinali nella visualizzazione dati.
+
+Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uniche eccezioni sono:
+
+* Quando si è verificata una sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
+
+* Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
+

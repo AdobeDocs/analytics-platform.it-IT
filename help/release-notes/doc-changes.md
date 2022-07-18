@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 70df0ae886508b703d0b87d3608b75f21d7952a6
+source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 83%
+source-wordcount: '850'
+ht-degree: 82%
 
 ---
 
@@ -17,6 +17,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Luglio 2022 | Documentazione relativa alla generazione di rapporti sulle sessioni nuove e ripetute. |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
 | Giugno 2022 | Nuovo articolo su [Regole di elaborazione di Adobe Analytics, VISTA e classificazioni e preparazione dei dati per il connettore origine di Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Giugno 2022 | Nuovo articolo su [ambienti di reporting e sandbox virtuali](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
