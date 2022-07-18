@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 76%
+source-wordcount: '1002'
+ht-degree: 68%
 
 ---
 
@@ -87,7 +87,7 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
 
-## Reporting delle sessioni nuovo e ripetuto {#new-repeat}
+## 7. Rapporti sulle sessioni nuovi rispetto a quelli ripetuti {#new-repeat}
 
 Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
 
@@ -97,9 +97,9 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 Tre componenti facilitano questo reporting:
 
-* 1 dimensione: Sessioni nuove e di ritorno
+* 1 dimensione: [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. La [!UICONTROL New] l’elemento riga include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nel [!UICONTROL Returning] riga (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
 
-* 2 metriche: Nuove sessioni, sessioni di ritorno
+* 2 metriche: [Nuove sessioni, sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting. Le sessioni di ritorno sono il numero di sessioni che non sono state le prime sessioni di una persona.
 
 Per accedere a questi componenti:
 
@@ -109,7 +109,7 @@ Per accedere a questi componenti:
 
 Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uniche eccezioni sono:
 
-* Quando si è verificata una sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
+* Quando si è verificata una prima sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
 
 * Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
 

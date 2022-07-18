@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0111cf5c9eaef92377a4d90b81e58c2a0432b074
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '217'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 21%
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Report di prima sessione e di ripetizione | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni - da seguire] | 20 luglio 2022 |
+| Report di prima sessione e di ripetizione | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 20 luglio 2022 |
 | Supporto per campi numerici come chiavi di ricerca e valori di ricerca | Utile se desideri classificare i valori stringa con un campo numerico come il COGS o il margine su un SKU di prodotto. Consentire metriche dalle ricerche ti aiuta a ottenere questi punti dati nel reporting. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 20 luglio 2022 |
 
 ## Correzioni

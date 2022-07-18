@@ -4,7 +4,7 @@ description: Dettagli e informazioni su tutti i componenti standard che è possi
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 11%
@@ -48,9 +48,9 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Day of Month] | Suddivisione della dimensione in base al tempo | 1-31 |
 | [!UICONTROL Day of Week] | Suddivisione della dimensione in base al tempo | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |
 | [!UICONTROL Day of Year] | Suddivisione della dimensione in base al tempo | 1-366 |
-| [!UICONTROL First-time session] | Metrica | Prima sessione definita da una persona all&#39;interno dell&#39;intervallo di reporting |
 | [!UICONTROL Hour of Day] | Suddivisione della dimensione in base al tempo | 0-23 |
 | [!UICONTROL  Month of Year] | Suddivisione della dimensione in base al tempo | Gennaio - Dicembre |
+| [!UICONTROL New session] | Metrica | Prima sessione definita da una persona all&#39;interno dell&#39;intervallo di reporting |
 | [!UICONTROL Person ID] | Dimensione | Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuno di questi può essere utilizzato come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento), ecc. La [!UICONTROL Person ID] La dimensione è la base per combinare i set di dati e identificare i visitatori unici in CJA.<p>Eventuali casi d’uso includono:<ul><li>Creazione di un filtro per un valore ID persona specifico per filtrare tutto in base al comportamento dell’utente.</li><li>Debug: accertati che siano presenti i dati per un ID cookie specifico (o un ID cliente specifico).</li><li>Identificazione degli utenti che hanno effettuato l&#39;accesso a un call center.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimensione | Quale tipo di ID è [!UICONTROL Person ID] è costituito da. Esempi: `email address`, `cookie ID`, `Analytics ID`, ecc. |
 | [!UICONTROL Quarter of Year] | Suddivisione della dimensione in base al tempo | Q1, Q2, Q3, Q4 |
