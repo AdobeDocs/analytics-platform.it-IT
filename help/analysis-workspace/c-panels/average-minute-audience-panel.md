@@ -1,13 +1,13 @@
 ---
 title: Pannello Pubblico medio per minuto
-description: Come utilizzare e interpretare il pannello Pubblico medio in Analysis Workspace.
+description: Come utilizzare e interpretare il pannello Pubblico medio per minuto in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -30,74 +30,74 @@ Il pannello Pubblico medio per minuto fornisce anche analisi per un periodo di t
 
 ## Input del pannello {#Input}
 
-Puoi configurare il pannello Pubblico medio per minuto utilizzando le seguenti impostazioni di input:
+Puoi configurare il pannello Pubblico medio per minuto usando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 |---------|------------|
 | Panel date range (Intervallo date del pannello) | L’intervallo di date predefinito del pannello è Today (Oggi). È possibile modificarlo per visualizzare uno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
-| Trascina qui un segmento (o altri componenti) | Come altri pannelli, questa impostazione filtra le selezioni in base ai segmenti creati. Questo è un ottimo modo per guardare piattaforme specifiche, flussi live o altri segmenti multimediali comuni. |
-| Calcola metrica per | Questa impostazione consente di scegliere se visualizzare il pubblico medio di minuti per un contenuto specifico, selezionando *contenuto specifico* o se desideri visualizzare il pubblico medio dei minuti per un periodo di tempo specifico, selezionando *periodo di tempo personalizzato*. <br></br>Il contenuto specifico funziona solo se la durata è stata aggiornata utilizzando le classificazioni. Se la durata non è disponibile o se desideri visualizzare il pubblico medio dei minuti per una serie temporale con più parti di contenuto o contenuto senza una specifica durata assegnata (come durante un flusso live o un evento), seleziona un periodo di tempo personalizzato. Questa impostazione modifica il flusso di lavoro e l’output del rapporto. |
+| Drag a segment here (or any other component) (Trascina qui un segmento (o qualsiasi altro componente)) | Come in altri pannelli, questa impostazione filtra le selezioni in base ai segmenti creati. È un ottimo modo per esaminare piattaforme specifiche, live stream o altri segmenti multimediali comuni. |
+| Calculate metric for (Calcola metrica per) | Questa impostazione consente di scegliere se visualizzare il pubblico medio per minuto di un contenuto specifico, selezionando *specific content* (contenuto specifico), o se visualizzare il pubblico medio per minuto di un periodo di tempo specifico, selezionando *custom time period* (periodo di tempo personalizzato). <br></br>Il contenuto specifico funziona solo se la durata è stata aggiornata utilizzando le classificazioni. Se la durata non è disponibile o se desideri visualizzare il pubblico medio per minuto di una serie temporale con più parti di contenuto o contenuto senza una specifica durata assegnata (come durante un live stream o un evento), seleziona un periodo di tempo personalizzato. Questa impostazione modifica il flusso di lavoro e l’output del rapporto. |
 
 ### Contenuto specifico
 
 | Impostazione | Descrizione |
 |---------|------------|
-| Dimensioni di reporting | Quando scegli un contenuto specifico, puoi selezionare l’output del rapporto in modo da utilizzare i campi nome video o ID contenuto per mostrare il contenuto e il pubblico medio di minuti associato per il periodo di tempo selezionato. |
-| Filtrare il contenuto per (facoltativo) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
-| Spettacolo, stagione, episodio | Selezionando &quot;Mostra, stagione, episodio&quot;, le mostre disponibili vengono visualizzate nel menu a discesa, che è possibile filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome della presentazione dalla colonna di sinistra). È possibile terminare la selezione per visualizzare tutte le stagioni del programma, oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a mostre, stagioni o episodi per il periodo di tempo selezionato. |
-| Dimensione personalizzata | Se il nome della visualizzazione si trova sotto una dimensione personalizzata, è possibile trovarlo ricercando nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca a sinistra della colonna. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
-| Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video con dati di pubblico di minuti medi per la selezione scelta. |
+| Reporting dimensions (Dimensioni di reporting) | Quando scegli un contenuto specifico, puoi selezionare l’output del rapporto in modo da utilizzare i campi ID contenuto o nome video per mostrare il contenuto e il pubblico medio per minuto associato per il periodo di tempo selezionato. |
+| Filter content by (optional) (Filtra il contenuto per (facoltativo)) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
+| Show, season, episode (Spettacolo, stagione, episodio) | Selezionando “Show, season, episode” (Spettacolo, stagione, episodio) gli spettacoli disponibili vengono visualizzati nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
+| Custom dimension (Dimensione personalizzata) | Se il nome dello spettacolo si trova in una dimensione personalizzata, è possibile trovarlo effettuando una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca della colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
+| Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. |
 
-### Impostazioni avanzate per contenuti specifici
+### Impostazioni avanzate del contenuto specifico
 
 | Impostazione | Descrizione |
 |---------|------------|
-| Impostazioni tabella | L’impostazione predefinita mostra i valori di calcolo nella tabella, che mostra il numeratore e il denominatore del pubblico medio dei minuti come le colonne precedenti nella tabella. Deselezionando questa opzione, le due colonne vengono rimosse, lasciando solo il pubblico medio al minuto accanto al nome del video o all’ID contenuto. |
-| Tempo trascorso della metrica | È possibile scegliere il tempo contenuto predefinito trascorso, che include solo il tempo contenuto, oppure scegliere di utilizzare il tempo trascorso per i contenuti multimediali, che include il contenuto e il tempo pubblicitario insieme come calcolo del numeratore per il pubblico medio di minuti. |
+| Table settings (Impostazioni di tabella) | L’impostazione predefinita mostra i valori di calcolo nella tabella, la quale mostra il numeratore e il denominatore del pubblico medio per minuto come colonne precedenti nella tabella. Deselezionando questa opzione le due colonne vengono rimosse, lasciando solo il pubblico medio per minuto accanto all’ID contenuto o nome video. |
+| Time spent metric (Metrica della durata) | È possibile scegliere la durata predefinita del contenuto, che include solo la durata del contenuto, oppure scegliere di utilizzare la durata dei contenuti multimediali, che include la durata del contenuto e degli annunci insieme come calcolo del numeratore del pubblico medio per minuto. |
 
 ### Periodo di tempo personalizzato
 
 | Impostazione | Descrizione |
 |---------|------------|
-| Granularity (Granularità) | La granularità predefinita è di 5 minuti, ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale nell’ambito della selezione del periodo temporale complessivo effettuata nella selezione del calendario. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, il pubblico medio dei minuti verrà restituito nell’intera mezz’ora, così come in sei righe con il pubblico medio dei minuti per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico a serie temporali. |
-| Filtrare il contenuto per (facoltativo) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
-| Spettacolo, stagione, episodio | Selezione *Spettacolo, stagione, episodio* visualizza le presentazioni disponibili nel menu a discesa, che puoi filtrare tramite ricerca (oppure trascinando e rilasciando il nome della visualizzazione dalla colonna a sinistra). È possibile terminare la selezione per visualizzare tutte le stagioni del programma, oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a mostre, stagioni o episodi per il periodo di tempo selezionato. |
-| Dimensione personalizzata | Se il nome della visualizzazione si trova sotto una dimensione personalizzata, è possibile trovarlo ricercando nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca a sinistra della colonna. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
+| Granularity (Granularità) | La granularità predefinita è di cinque minuti, ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno della selezione complessiva del periodo temporale effettuata nella selezione del calendario. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di cinque minuti, verrà restituito il pubblico medio per minuto nell’intera mezz’ora, così come sei righe contenenti il pubblico medio per minuto per ogni periodo di cinque minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
+| Filter content by (optional) (Filtra il contenuto per (facoltativo)) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
+| Show, season, episode (Spettacolo, stagione, episodio) | Selezionando *Show, season, episode* (Spettacolo, stagione, episodio) gli spettacoli disponibili vengono visualizzati nel menu a discesa, che puoi filtrare tramite ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
+| Custom dimension (Dimensione personalizzata) | Se il nome dello spettacolo si trova in una dimensione personalizzata, è possibile trovarlo effettuando una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca della colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
 | Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video nel periodo di tempo scelto. |
 
 ### Impostazioni avanzate del periodo di tempo personalizzato
 
 | Impostazione | Descrizione |
 |---------|------------|
-| Impostazioni tabella | L’impostazione predefinita visualizza i valori di calcolo nella tabella, che visualizza il numeratore e il denominatore del pubblico medio dei minuti come colonne precedenti nella tabella. Deselezionando questa opzione, le due colonne vengono rimosse lasciando solo il pubblico medio al minuto accanto al periodo di tempo. |
+| Table settings (Impostazioni di tabella) | L’impostazione predefinita visualizza i valori di calcolo nella tabella, la quale visualizza il numeratore e il denominatore del pubblico medio per minuto come colonne precedenti nella tabella. Deselezionando questa opzione le due colonne vengono rimosse, lasciando solo il pubblico medio per minuto accanto al periodo di tempo. |
 
 
-## Output del pannello dei contenuti specifico
+## Output del pannello del contenuto specifico
 
-Il pannello Pubblico medio in minuti restituisce quanto segue:
+Il pannello Pubblico medio per minuto restituisce quanto segue:
 
-* Pubblico medio totale per l’intera selezione
-* Filtri e pubblico medio dei minuti per i singoli video visualizzati in una tabella
-* Tempo di contenuto trascorso e lunghezza del video (durata) se è stata selezionata tale impostazione avanzata
+* Pubblico medio per minuto totale dell’intera selezione
+* Filtri e pubblico medio per minuto dei singoli video visualizzati in una tabella
+* Durata del contenuto e lunghezza del video (durata), se è stata selezionata tale impostazione avanzata
 
-Per modificare e ricreare il pannello in qualsiasi momento, fai clic sulla matita di modifica in alto a destra.
+Per modificare e ricreare il pannello in qualsiasi momento, fai clic sull’icona della matita (Modifica) in alto a destra.
 
 ![Vista predefinita](assets/specific-content-panel-output.png)
 
 
-### Origine dati contenuto specifica
+### Origine dati del contenuto specifico
 
 L’unica metrica che può essere utilizzata in questo pannello è Pubblico medio per minuto.
 
 | Metrica | Descrizione |
 |--------|-------------|
-| Pubblico medio per minuto | Il tempo impiegato per visualizzare lo streaming multimediale diviso per la lunghezza (durata) del video fornita tramite Classificazioni. |
+| Pubblico medio per minuto | Il tempo impiegato per visualizzare il flusso multimediale diviso per la lunghezza del video (durata) fornita tramite Classificazioni. |
 
 ## Output del pannello del periodo di tempo personalizzato {#custom-time-period-output}
 
-Il pannello Pubblico medio in minuti restituisce il pubblico medio totale per l’intera selezione, il pubblico medio massimo e minimo del minuto e il grafico della serie di linee che mostra il pubblico medio dei minuti per l’intera selezione. La tabella seguente mostra i filtri e il pubblico medio dei minuti per le granularità, nonché il tempo di contenuto trascorso e la granularità per ogni periodo di tempo, se tale impostazione avanzata è stata selezionata.
+Il pannello Pubblico medio per minuto restituisce il pubblico medio per minuto totale dell’intera selezione, quello massimo e minimo e il grafico a linee che mostra il pubblico medio per minuto dell’intera selezione. La tabella seguente mostra i filtri e il pubblico medio per minuto delle granularità, nonché la durata del contenuto e la granularità di ogni periodo di tempo, se tale impostazione avanzata è stata selezionata.
 
-Per modificare e ricreare il pannello in qualsiasi momento, fai clic sulla matita di modifica in alto a destra.
+Per modificare e ricreare il pannello in qualsiasi momento, fai clic sull’icona della matita (Modifica) in alto a destra.
 
 ![output visualizzatori simultanei](assets/custom-time-period-panel-output.png)
 
@@ -107,7 +107,7 @@ L’unica metrica che può essere utilizzata in questo pannello è Pubblico medi
 
 | Metrica | Descrizione |
 |---|---|
-| Pubblico medio per minuto | Tempo impiegato per visualizzare il flusso multimediale diviso per la selezione totale o per la granularità selezionata in minuti. |
+| Pubblico medio per minuto | Il tempo impiegato per visualizzare il flusso multimediale diviso per la selezione totale o per la granularità selezionata in minuti. |
 
 
 
