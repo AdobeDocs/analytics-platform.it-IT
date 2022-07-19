@@ -6,34 +6,34 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# Analisi di dimensioni in Workspace
+# Suddividere dimensioni in Workspace
 
 È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 
-Suddividi i tuoi dati in modo illimitato per le tue esigenze specifiche; crea query utilizzando metriche, dimensioni, filtri, linee temporali e altri valori di suddivisione dell’analisi rilevanti.
+Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metriche, dimensioni, filtri, linee temporali e altri valori rilevanti.
 
 1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Risultato del passaggio](assets/fa_data_table_actions.png)
 
-   Puoi suddividere le metriche per elementi dimensionali o per filtri per pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+   Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
    >[!NOTE]
    >
-   >È possibile mostrare nella tabella un massimo di 200 analisi. Questo limite aumenta per le esportazioni.
+   >È possibile mostrare nella tabella un massimo di 200 raggruppamenti. Questo limite aumenta per l’esportazione di raggruppamenti.
 
-**Video: Dimension in Analysis Workspace**
+**Video: dimensioni in Analysis Workspace**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
-**Video: Analisi approfondita dei Dimension**
+**Video: raggruppamenti delle dimensioni**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23969)
 
@@ -43,17 +43,17 @@ A qualsiasi raggruppamento all’interno di una tabella può essere applicato an
 
 ![Impostazioni di raggruppamento](assets/breakdown_settings.png)
 
-Questo è il comportamento previsto quando si applicano o si modificano modelli di attribuzione alle suddivisioni:
+Questo è il comportamento previsto quando si applicano modelli di attribuzione ai raggruppamenti o quando questi vengono modificati:
 
-* Se applichi un’attribuzione quando non esistono altre attribuzioni, l’attribuzione si applica all’intero albero delle colonne.
+* Se applichi un’attribuzione quando non esistono altre attribuzioni, questa si applica all’intera struttura ad albero della colonna.
 
-* Se aggiungi un raggruppamento dopo aver applicato un’attribuzione, utilizza l’impostazione predefinita per il raggruppamento specificato aggiunto (se tale dimensione ha un valore predefinito). In caso contrario, utilizzerà la suddivisione dalla colonna padre. Alcune dimensioni hanno un&#39;allocazione predefinita. Ad esempio, le dimensioni Tempo e il referente utilizzano lo stesso contatto. La dimensione Prodotto utilizza Ultimo contatto. Altre dimensioni non hanno un valore predefinito e utilizzeranno l’allocazione della colonna padre.
+* Se aggiungi un raggruppamento dopo aver applicato un’attribuzione, utilizzerà l’impostazione predefinita per il raggruppamento specificato che è stato aggiunto (se tale dimensione ha un valore predefinito). In caso contrario, utilizzerà il raggruppamento dalla colonna padre. Alcune dimensioni hanno un’allocazione predefinita. Ad esempio, le dimensioni di Tempo e Referrer utilizzano Same Touch (Stesso contatto). La dimensione Prodotto utilizza Last Touch (Ultimo contatto). Altre dimensioni non hanno un valore predefinito e utilizzeranno l’allocazione della colonna padre.
 
-* Se l’albero delle colonne contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
+* Se la struttura ad albero della colonna contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 
 ## Video
 
-Aggiunta di dimensioni e metriche al progetto in Analysis Workspace:
+Aggiungere dimensioni e metriche al progetto in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606)
 
@@ -61,6 +61,6 @@ Utilizzo delle dimensioni nelle tabelle a forma libera:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179)
 
-Suddivisioni di Dimension per posizione:
+Raggruppamenti delle dimensioni per posizione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033)
