@@ -3,9 +3,9 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Questa funzione è attualmente in [prova limitata](/help/release-notes/releases.md).
+>Questa funzione è attualmente in [fase di test](/help/release-notes/releases.md).
 
 Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati in Customer Journey Analytics (CJA) su [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
@@ -78,7 +78,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform
 
-CJA ora prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). CJA invia il pubblico ad Experience Platform con l’identità principale impostata su qualsiasi elemento selezionato come ID persona al momento della configurazione della connessione.
+CJA ora prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). CJA invia il pubblico a Experience Platform con l’identità primaria impostata su qualsiasi elemento selezionato come ID persona al momento della configurazione della connessione.
 
 RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, “user@adobe.com” può essere impostato come destinatario su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
@@ -90,7 +90,7 @@ Puoi trascinare i tipi di pubblico di CJA nella definizione del segmento dei seg
 
 ## Cosa succede se un utente non è più membro di un pubblico in CJA?
 
-In questo caso, un evento exit viene inviato ad Experience Platform da CJA.
+In questo caso, viene inviato un evento di uscita a Experience Platform da CJA.
 
 ## Passaggi successivi
 
