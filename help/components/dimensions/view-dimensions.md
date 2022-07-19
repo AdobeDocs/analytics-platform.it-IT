@@ -1,16 +1,16 @@
 ---
-description: Mostra i primi 5 valori per le dimensioni non temporali (e 15 per le dimensioni temporali).
-title: Come visualizzare in anteprima le dimensioni in CJA Workspace
+description: Vengono visualizzate le cinque dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali).
+title: Visualizzare le dimensioni in anteprima in CJA Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Anteprima dimensioni in Analysis Workspace
+# Anteprima delle dimensioni in Analysis Workspace
 
 Passa il cursore sull’icona Informazioni (i) accanto a una dimensione. Vengono visualizzate le 5 dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali). Precedentemente questi valori erano statici e i 5 valori scelti non cambiavano mai.
 
@@ -28,4 +28,4 @@ Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché
 
 Se passi il cursore su una dimensione e fai clic sulla freccia destra grigia posta a lato, compare l’elenco degli elementi dimensionali corrispondenti. In genere vengono elencati gli elementi principali degli ultimi 30 giorni.
 
-Se scorri verso il basso fino alla parte inferiore dell’elenco, visualizzerai l’opzione **[!UICONTROL Show Top Items From Last 6 Months]** (Mostra articoli principali degli ultimi 6 mesi). Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
+Se scorri verso il basso fino alla parte inferiore dell’elenco, visualizzerai l’opzione **[!UICONTROL Show Top Items From Last 6 Months]**. Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
