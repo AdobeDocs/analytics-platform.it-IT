@@ -3,7 +3,7 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 45%
@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # Note sulla versione del Customer Journey Analytics corrente (CJA) (luglio 2022)
 
-**Ultimo aggiornamento**: 13 luglio 2022
+**Ultimo aggiornamento**: 19 luglio 2022
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ ht-degree: 45%
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| Report di prima sessione e di ripetizione | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 20 luglio 2022 |
 | Supporto di campi numerici come chiavi e valori di ricerca | Utile se desideri classificare i valori stringa con un campo numerico come i costi delle vendite o il margine su una SKU di prodotto. Consentire le metriche dalle ricerche ti aiuta a ottenere questi punti dati nel reporting. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#numeric) | 20 luglio 2022 |
+| Report di prima sessione e di ripetizione | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 17 agosto 2022 |
 
 ## Correzioni
 
