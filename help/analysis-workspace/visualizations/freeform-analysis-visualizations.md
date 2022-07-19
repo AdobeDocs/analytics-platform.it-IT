@@ -5,9 +5,9 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Inoltre, puoi rinominare le etichette delle legende per facilitare la lettura de
 Per modificare un’etichetta di legenda:
 
 1. Fai clic su una delle etichette della legenda.
-1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
+1. Fai clic su **[!UICONTROL Edit Label]**.
 
    ![Modifica etichetta](assets/edit-label.png)
 
