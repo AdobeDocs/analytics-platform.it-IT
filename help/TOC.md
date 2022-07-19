@@ -10,9 +10,9 @@ user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: f6ad28f8ed766bd25986da48bfd7bd7e86df0861
-workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 93%
    + [Domande frequenti](getting-started/cja-faq.md)
    + [Evoluzione da Adobe Analytics a Customer Journey Analytics](getting-started/aa-to-cja.md)
    + [Guida per i nuovi utenti di Customer Journey Analytics](getting-started/aa-to-cja-user.md)
-   + Confronto tra Adobe Analytics e Customer Journey Analytics {#compare-aa-cja}
+   + Confrontare Adobe Analytics e Customer Journey Analytics {#compare-aa-cja}
       + [Supporto delle funzioni di Customer Journey Analytics](getting-started/aa-vs-cja/cja-aa.md)
       + [Confrontare l’elaborazione dei dati in Adobe Analytics e CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Ambienti di reporting virtuali e ambienti sandbox](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [Regole di elaborazione, VISTA e classificazioni a confronto con Data Prep](getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati](getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Implicazioni dell’eliminazione](getting-started/cja-deletion.md)
    + [Glossario di CJA](getting-started/cja-glossary.md)
@@ -121,7 +121,7 @@ ht-degree: 93%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tempo trascorso su contenuti multimediali {#media-playback-timespent}
+      + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
          + [Panoramica ](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
@@ -192,7 +192,7 @@ ht-degree: 93%
          + [Trovare metriche](components/calc-metrics/cm-workflow/cm-finding.md)
          + [Creare metriche](components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo di metrica e attribuzione](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;](components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Creare una semplice metrica “Visualizzazioni pagina in base alle visite”](components/calc-metrics/cm-workflow/cm-pvv.md)
          + [Metriche filtrate](components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Sovrapponi e sostituisci segmenti](components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Metriche filtrate e ponderate](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
