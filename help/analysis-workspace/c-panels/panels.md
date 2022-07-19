@@ -4,9 +4,9 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [Pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) | Per iniziare a eseguire analisi, scegli tra i pannelli e le visualizzazioni disponibili. |
 | [Pannello Quick Insights](quickinsight.md) | Crea una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
-| [Pannello Freeform](freeform-panel.md) | Esegui confronti illimitati e suddivisioni, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
+| [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
-| [Pannello a tendina della riproduzione multimediale](media-playback-timespent/media-playback-time-spent.md) | Analizzare il tempo di riproduzione impiegato per comprendere dove si è verificato il picco di concorrenza o dove si sono verificati i rilasci. |
+| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](media-playback-timespent/media-playback-time-spent.md) | L’analisi del tempo di riproduzione consente di comprendere dove si è verificato il picco di concorrenza o dove si è verificato il calo. |
 
 ![](assets/panel-overview.png)
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [g
 
 ## Menu di scelta rapida {#right-click}
 
-Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quandi fai clic con il pulsante destro del mouse sull’intestazione del pannello.
+Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quando fai clic con il pulsante destro del mouse sull’intestazione del pannello.
 
 ![](assets/right-click-menu.png)
 
