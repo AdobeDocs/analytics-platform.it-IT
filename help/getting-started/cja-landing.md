@@ -4,9 +4,9 @@ description: Pagina di destinazione di Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 464961194405341b0bb8240a9e327d668d4cde64
-workflow-type: ht
-source-wordcount: '404'
+source-git-commit: 9874626b52fd4e87bd6337b20ac03d837d8ad888
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=it"> Combinare suite di rapporti con schemi diversi </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it"> CJA in pubblico di tipi di Pubblicazione </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=it"> Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=it"> Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adobe Analytics e CJA </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=it"> Suite di rapporti virtuali, visualizzazioni dati, sandbox di AEP e il connettore di origine di Analytics </a> </li>
