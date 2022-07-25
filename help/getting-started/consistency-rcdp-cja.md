@@ -4,10 +4,10 @@ title: Coerenza delle metriche e dei conteggi di iscrizione al pubblico tra Real
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
+source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -16,45 +16,22 @@ ht-degree: 2%
 
 In scenari reali, non è possibile garantire la coerenza delle metriche e i conteggi di iscrizione al pubblico in Real-time Customer Data Platform (Real-time CDP) e Customer Journey Analytics (CJA). Questo documento spiega perché.
 
-## CJA non utilizza ancora Identity Graph
+## Differenze nelle configurazioni di identità
 
-Attualmente CDP e CJA non condividono la stessa definizione di persona. CJA non utilizza ancora [Grafico di identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) informare la sua definizione di persona. Per creare un profilo unito, la piattaforma CDP in tempo reale si basa interamente sulle informazioni contenute in Identity Graph.
+CDP e CJA in tempo reale non condividono la stessa definizione di persona oggi. Real-time CDP si basa interamente sulle informazioni contenute nel [Grafico di identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) per creare un profilo unito.
 
-CJA utilizza un metodo chiamato [Unione basata sui campi](/help/connections/cca/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli. Nel futuro intermedio, CJA dovrebbe iniziare a utilizzare [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) esportazioni verso il data lake, consentendo una nozione condivisa di identità tra Real-time CDP e CJA.
+CJA può essere configurato per l’utilizzo [Analisi cross-channel](/help/connections/cca/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli.
+In futuro, CJA sarà in grado di utilizzare Identity Graph.
 
->[!IMPORTANT]
->
->L’impostazione del servizio Adobe Experience Platform Identity come origine di verità per tutte le applicazioni Adobe Experience Platform non rende automaticamente le metriche coerenti tra le applicazioni. Continua a leggere per scoprire il perché.
+## Differenze nella configurazione del set di dati
 
-## Flessibilità dei dati dell&#39;applicazione
+Puoi scegliere di inserire alcuni dati in Real-time CDP e alcuni in CJA; spesso, i clienti scelgono di inserire in CJA più dati storici rispetto a quelli relativi a Real-time CDP. Altri set di dati potrebbero essere più rilevanti per Real-time CDP che per CJA.
 
-L’Experience Platform non applica un’applicazione rigorosa per mantenere i dati tra Profilo cliente in tempo reale e Data Lake uguali. Alcuni casi d&#39;uso utilizzano dati in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/profile/profile-overview.html?lang=en) (attivazione), mentre altri lavorano fuori dalla [lago dati](https://business.adobe.com/blog/basics/data-lake) (servizio di reporting e query).
+## Differenze nella configurazione di elaborazione
 
-I clienti Real-time CDP in genere non hanno il 100% dei dati nel data lake di Adobe Experience Platform che vanno in Profile (Profilo). Questo è di progettazione - i clienti dovrebbero abilitare i dati in particolare nel lago per Profilo. CJA consente agli analisti di dati di selezionare liberamente quali dati desiderano inserire per l’analisi dal data lake, indipendentemente da ciò che è abilitato per Real-time CDP.
+CJA consente di modificare i dati in modo esteso in fase di query, ad esempio combinando campi, suddividendo i campi in più parti e altre manipolazioni come include/esclude, sottostringhe, deduplicazione dei valori, sessionizzazione e filtro a livello di riga.
 
-## Modificatori specifici per l’applicazione
-
-CJA consente di apportare modifiche estese ai dati in fase di query, ad esempio combinando campi, suddividendo i campi in più parti e altre manipolazioni come conversioni di valuta, deduplicazione dei valori, sessionizzazione e filtro a livello di riga. Queste funzionalità non sono disponibili per CDP.
-
-Analogamente, si applica Real-time CDP [criteri di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en) per determinare quali dati avranno priorità e quali saranno combinati per creare una visualizzazione unificata di una persona. Queste configurazioni si collocano saldamente nella logica di ogni applicazione e non sono condivise.
-
-## Comportamento in tempo di lettura e di scrittura
-
-CDP in tempo reale richiede la combinazione di profili point-in-time utilizzando il grafico ID più recente.
-
-* Real-time CDP è progettato per assemblare le informazioni di profilo in tempo reale per l&#39;attivazione.
-
-* Può contenere in tempo reale tutte le modifiche agli identificatori impostati per un determinato utente.
-
-* L’intervallo di lookback è controllato dalla definizione del segmento.
-
-CJA richiede che i dati vengano uniti in fase di scrittura utilizzando le esportazioni di ID Graph.
-
-* CJA applica passaggi di pre-elaborazione complessi come l’indicizzazione, la condivisione e il raggruppamento prima che i dati siano pronti per l’analisi.
-
-* L&#39;identificativo della persona per un determinato utente è un input fondamentale per le fasi di pre-elaborazione; la successiva modifica dell&#39;identificatore della persona comporta un costo significativo di rielaborazione.
-
-* L’intervallo di lookback è controllato a livello di applicazione.
+Real-time CDP offre un diverso set di strumenti di manipolazione dei dati. Si applica [criteri di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en) per determinare quali dati avranno priorità e quali saranno combinati per creare una visualizzazione unificata di una persona.
 
 ## Differenze in TTL (Time to Live) e inserimento dati
 
@@ -70,10 +47,6 @@ Anche se i set di dati in Real-time CDP e CJA sono gli stessi, Real-time CDP pu�
 
 * L’archivio profili in Real-time CDP consente l’utilizzo di TTL configurabili dal cliente. I clienti possono cambiare questo TTL in qualsiasi cosa debbano rimanere entro i propri diritti di licenza.
 
-## Differenze nell’elaborazione del RGPD (Regolamento generale sulla protezione dei dati)
-
-La logica di elaborazione dei dati per il RGPD e l’igiene dei dati in Real-time CDP e data lake è molto diversa. Stiamo lavorando per un approccio unico.
-
 ## Differenze nella latenza di acquisizione dei dati
 
-Il reporting di CJA include una certa latenza prima che i dati siano disponibili per il reporting o la creazione di un pubblico. Real-time CDP elabora i dati attraverso diversi sistemi con latenza diversa.
+CJa non dispone ancora delle funzionalità in tempo reale di Real-time CDP e, di conseguenza, il reporting di CJA include una certa latenza prima che i dati siano disponibili per il reporting o la creazione di audience. Real-time CDP elabora i dati attraverso diversi sistemi con latenza diversa.
