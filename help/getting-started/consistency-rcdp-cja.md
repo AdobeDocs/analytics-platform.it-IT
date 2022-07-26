@@ -4,9 +4,9 @@ title: Coerenza delle metriche e dei conteggi di iscrizione al pubblico tra Real
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
+source-git-commit: 769eef205df32865874753859ce79e573db40641
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 0%
 
 In scenari reali, non è possibile garantire la coerenza delle metriche e i conteggi di iscrizione al pubblico in Real-time Customer Data Platform (Real-time CDP) e Customer Journey Analytics (CJA). Questo documento spiega perché.
 
+Quando si confrontano i conteggi di appartenenza al pubblico tra Real-time CDP e CJA, è importante tenere presente le diverse finalità di questi due strumenti. Real-time CDP utilizza i dati del profilo del cliente per indirizzare le esperienze digitali ai singoli consumatori, mentre CJA è progettato per aiutare gli utenti a comprendere i pattern nelle metriche e nei segmenti aziendali chiave. Mentre la pubblicazione del pubblico da CJA a Real-time CDP consente all’utente di questi strumenti di &quot;attivare&quot; facilmente e in modo nativo un’informazione, sfruttando gli insegnamenti ottenuti in CJA, questi strumenti servono tuttavia a scopi fondamentalmente diversi.
+
 ## Differenze nelle configurazioni di identità
 
 CDP e CJA in tempo reale non condividono la stessa definizione di persona oggi. Real-time CDP si basa interamente sulle informazioni contenute nel [Grafico di identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) per creare un profilo unito.
 
 CJA può essere configurato per l’utilizzo [Analisi cross-channel](/help/connections/cca/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli.
+
 In futuro, CJA sarà in grado di utilizzare Identity Graph.
 
 ## Differenze nella configurazione del set di dati
