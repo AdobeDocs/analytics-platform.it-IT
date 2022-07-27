@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
 
-## 7. Rapporti sulle sessioni nuovi rispetto a quelli ripetuti {#new-repeat}
+## 7. Reporting sulla sessione nuovi e ripetuti {#new-repeat}
 
 >[!NOTE]
 >
@@ -101,9 +101,9 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 Tre componenti facilitano questo reporting:
 
-* 1 dimensione: [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. La [!UICONTROL New] l’elemento riga include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nel [!UICONTROL Returning] riga (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
+* 1 dimensione: [tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
 
-* 2 metriche: [Nuove sessioni, sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting. Le sessioni di ritorno sono il numero di sessioni che non sono state le prime sessioni di una persona.
+* 2 metriche: [nuove sessioni, sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting. Le sessioni di ritorno sono il numero di sessioni che non sono state le prime sessioni di una persona.
 
 Per accedere a questi componenti:
 

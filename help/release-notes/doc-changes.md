@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: bd246314734e8bcebc351d42ebe28ad4912f7ba6
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | --- | --- |
 | Luglio 2022 | [Pannello Tempo di riproduzione dei contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) documentazione. |
 | Luglio 2022 | [Pannello Visualizzatori simultanei contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) documentazione. |
-| Luglio 2022 | [Sessione nuova vs. Ripetizione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) documentazione sul reporting. |
+| Luglio 2022 | Rapporti sulla [sessione nuovi e ripetuti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=it) |
 | Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
