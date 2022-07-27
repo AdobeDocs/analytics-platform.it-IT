@@ -4,10 +4,10 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 95%
 
 ---
 
@@ -65,16 +65,18 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
 
-   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
+   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
 
-   | Campo Analytics | Valori che ne causano l’eliminazione |
+   | Campo Analytics | Valori che causano l’eliminazione di una riga |
    | --- | --- |
-   | Opt_out | `y, Y` |
+   | Opt_out | y, Y |
    | In_data_only | Not 0 |
-   | Exclude_hit | Not 0 |
-   | Bot_id | Not 0 |
-   | Hit_source | 0,3,5,7,8,9,10 |
-   | Page_event | 53,63 |
+   | Exclude_hit | No 0 |
+   | Bot_id | No 0 |
+   | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
+   | Page_event | 53, 63 |
+
+   Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event vedere: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en).
 
 1. Se il connettore ha rilasciato delle righe, sottrarle dalla metrica [!UICONTROL Occurrences]. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 
