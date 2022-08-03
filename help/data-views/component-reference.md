@@ -4,9 +4,9 @@ description: Dettagli e informazioni su tutti i componenti standard che è possi
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
+source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,8 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 | [!UICONTROL Quarter] | Dimensione | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
 | [!UICONTROL Year] | Dimensione | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Componenti standard opzionali {#optional}
 
 Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > **[!UICONTROL Components]** scheda > **[!UICONTROL Standard Components]** scheda.
@@ -64,3 +66,4 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Time Spent per Person] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Person] bucket. |
 | [!UICONTROL Weekend]/[!UICONTROL Weekday] | Dimensione suddivisa in base al tempo | Fine settimana o giorno feriale |
 
+{style=&quot;table-layout:auto&quot;}
