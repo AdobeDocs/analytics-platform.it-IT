@@ -1,19 +1,19 @@
 ---
-title: Controllo dell’accesso a CJA
+title: Controllo degli accessi a CJA
 description: Scopri i requisiti di controllo degli accessi per la creazione di connessioni, l’aggiunta di set di dati, la creazione di visualizzazioni dati, ecc.
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 source-git-commit: c80c10e1e4887bfe7fdc3b59d0dfe415b1b0d5eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
-# Controllo dell’accesso a CJA
+# Controllo degli accessi a CJA
 
-Per accedere ed eseguire attività nel Customer Journey Analytics, devi essere aggiunto come Amministratore al **Profilo prodotto Customer Journey Analytics** in [Admin Console](https://adminconsole.adobe.com/enterprise/). Gli amministratori di prodotto dispongono delle seguenti autorizzazioni:
+Per accedere ed eseguire attività in Customer Journey Analytics, devi essere aggiunto come Amministratore al **Profilo prodotto Customer Journey Analytics** in [Admin Console](https://adminconsole.adobe.com/enterprise/). Gli amministratori di prodotto dispongono delle seguenti autorizzazioni:
 
 * Creare/aggiornare/eliminare connessioni o visualizzazioni dati
 * Aggiornare o eliminare progetti, filtri, metriche calcolate o filtri creati da altri utenti
@@ -21,7 +21,7 @@ Per accedere ed eseguire attività nel Customer Journey Analytics, devi essere a
 
 ## Autorizzazioni Adobe Experience Platform richieste
 
-Per creare, aggiornare o eliminare una connessione, non è sufficiente diventare amministratore di prodotto nel solo Customer Journey Analytics. Per creare una connessione a un set di dati di Experience Platform, è necessario disporre anche di autorizzazioni Experience Platform. In particolare, devi far parte di un **profilo di prodotto Experience Platform** che ti fornisca le seguenti autorizzazioni:
+Per poter creare, aggiornare o eliminare una connessione, non è sufficiente diventare amministratore di prodotto in Customer Journey Analytics. Per creare una connessione a un set di dati di Experience Platform, è necessario disporre anche di autorizzazioni Experience Platform. In particolare, devi far parte di un **profilo di prodotto Experience Platform** che ti fornisca le seguenti autorizzazioni:
 
 * Visualizzare gli schemi
 * Gestire gli schemi
@@ -36,5 +36,5 @@ Non puoi concedere o negare autorizzazioni sulle singole metriche o dimensioni i
 
 ## Accesso utente
 
-Gli amministratori non di prodotto (utenti) nel Customer Journey Analytics non possono visualizzare le visualizzazioni dati o le connessioni, ma possono creare filtri, progetti e metriche calcolate.
+Gli utenti di Customer Journey Analytics che non sono amministratori di prodotto non possono vedere le visualizzazioni di dati o le connessioni, ma possono creare filtri, progetti e metriche calcolate.
 
