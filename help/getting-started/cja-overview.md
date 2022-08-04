@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: f7b4dcb893586e71302cc6a20ebe931743ea8924
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Prima di iniziare a utilizzare Customer Journey Analytics, è necessario soddisf
 * La tua organizzazione dispone di un contratto attivo con Adobe Analytics per la versione Select, Prime o Ultimate con il componente aggiuntivo Customer Journey Analytics. Se non conosci il tipo di contratto che hai stipulato o se non hai la certezza di possedere il componente aggiuntivo CJA, contatta l’Account Manager della tua organizzazione.
 * È stato eseguito il provisioning della tua organizzazione per Adobe Experience Platform.
 
-## Controllo di accesso
+## Controllo degli accessi
 
-Fai riferimento a [Controllo degli accessi](/help/getting-started/cja-access-control.md) argomento.
+Fai riferimento all’argomento [Controllo degli accessi](/help/getting-started/cja-access-control.md).
 
 ## Aggiornamenti terminologici
 

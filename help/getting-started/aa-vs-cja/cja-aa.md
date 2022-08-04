@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
 workflow-type: tm+mt
 source-wordcount: '1479'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Accesso API di reporting | Supporto completo; disponibile tramite l’[API CJA](https://www.adobe.io/cja-apis/docs/). |
 | Report/progetti pianificati | Supporto completo. |
 | Segmenti | Supporto completo; ora denominati “Filtri”: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non verranno caricati in CJA. |
-| Analisi multimediali | I dati multimediali saranno disponibili il 30 luglio 2022 come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale trascorso in Workspace. |
+| Analisi di dati multimediali in streaming | I dati multimediali saranno disponibili il 30 luglio 2022 come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo trascorso su contenuti multimediali in Workspace. |
 | Autorizzazioni utente/Controlli per l’accesso ai dati | Supporto completo; CJA distingue tra utenti e amministratori del prodotto [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it). Solo gli amministratori di prodotto possono <ul><li>Creare/aggiornare/eliminare connessioni o visualizzazioni dati</li><li>Aggiornare o eliminare progetti, filtri o metriche di calcolo creati da altri utenti</li><li>Condividere un progetto Workspace con tutti gli utenti.</li></ul> |
 | Suite di rapporti virtuali | Supporto completo; ora denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Conservazione dei componenti VRS | Supporto completo; ora fa parte di Visualizzazioni dati. |
@@ -69,7 +69,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Dimensioni GeoSegmentation | Tutti i dati di GeoSegmentation o posizione geografica raccolti in Adobe Analytics fluiscono in CJA tramite il [connettore di origine Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). Le implementazioni che non utilizzano il connettore di origine di Analytics, come quelle che si basano su AEP Web SDK per la raccolta di dati digitali, non dispongono della serie completa di funzioni per la ricerca automatica basata su dati geografici: sono supportati i dati di paese e provincia, ma non quelli di città e codice postale. |
 | Offuscamento IP | Per i clienti CJA che utilizzano il connettore origine di Analytics per compilare i dati da Adobe Analytics in CJA: Le impostazioni di offuscamento dell’IP applicate in Adobe Analytics scorrono nei dati CJA. Puoi controllare queste impostazioni in Adobe Analytics in base alle esigenze.<p>Per i clienti CJA che utilizzano l’SDK per web di Adobe Experience Platform per compilare direttamente i dati in Platform e CJA: Puoi utilizzare Data Prep for Data Collection in Platform per configurare regole che offuschino l’indirizzo IP in base ai requisiti della tua azienda. |
 | Canali marketing | I dati dei canali di marketing fluiscono in CJA tramite il connettore di origine di Analytics. Le regole del canale di marketing devono ancora essere configurate nella versione tradizionale di Adobe Analytics. Alcune regole non sono supportate. Per ulteriori informazioni, consulta la [documentazione sui canali di marketing CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it#cja-usecases). |
-| Rapporti sulla sessione nuovi e ripetuti | Supportato il 17 agosto 2022, [con un intervallo di lookback di 13 mesi](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
+| Rapporti sulla sessione nuovi e ripetuti | Supportati il 17 agosto 2022, [con una finestra di lookback di 13 mesi](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
 | Variabile di prodotto | In Experience Platform, per soddisfare questo caso d’uso è possibile utilizzare una matrice di campi di tipo Oggetto all’interno di uno schema di set di dati. In CJA, è possibile utilizzare un qualsiasi numero di variabili di prodotto, senza essere vincolati a una singola variabile come accade invece in Adobe Analytics. |
 | Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti di CJA, non esiste tra CJA e la versione tradizionale di Analysis Workspace. |
 | Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
