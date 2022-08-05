@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 94%
+source-wordcount: '1507'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Rilevamento delle anomalie | Supporto completo. |
 | Attribution IQ | Supporto completo. |
+| Pubblicazione di tipi di pubblico | Supporto completo. In AA, Pubblicazione dei segmenti (invio di segmenti da Workspace a Experience Cloud). [Pubblicazione del pubblico](/help/components/audiences/audiences-overview.md) invia ad Experience Platform i tipi di pubblico a Profilo cliente in tempo reale. |
 | Metriche calcolate | Supporto completo; eventuali metriche di calcolo esistenti nella versione tradizionale di Analysis Workspace non verranno trasferite a CJA. |
 | Eventi calendario | Supporto completo. Gli eventi Calendario sono stati implementati come [Annotazioni](/help/components/annotations/overview.md) in Workspace. |
 | Generatore regole di classificazione | Supporto completo. In CJA, [sottostringhe](/help/data-views/component-settings/substring.md). Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
