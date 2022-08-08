@@ -4,10 +4,10 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -24,3 +24,5 @@ Il formato consente di determinare la modalità di visualizzazione di una data m
 | [!UICONTROL Currency] | Se il formato è Valuta, determina la valuta in cui visualizzare la metrica. Questa opzione non applica alcuna conversione di valuta; è solo per la formattazione dell&#39;interfaccia utente. |
 | [!UICONTROL Show upward trend as] | Consente di specificare se una tendenza verso l’alto per questa metrica è buona (verde) o cattiva (rossa). |
 | [!UICONTROL True value] e [!UICONTROL False value] | Visibile solo sui tipi di dati di schema booleano. Consente di personalizzare l’etichetta dell’elemento della dimensione per `true` e `false` valori. |
+
+{style=&quot;table-layout:auto&quot;}

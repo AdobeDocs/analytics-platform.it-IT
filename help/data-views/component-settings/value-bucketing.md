@@ -4,10 +4,10 @@ description: Combinare valori numerici in una dimensione.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 3%
+source-wordcount: '174'
+ht-degree: 5%
 
 ---
 
@@ -28,3 +28,5 @@ Se desideri la flessibilità di generare rapporti sia su una dimensione a blocch
 | [!UICONTROL Including] [!UICONTROL and less than] | Limiti dei bucket successivi. |
 | [!UICONTROL Greater than or equal to] | Il limite inferiore dell’ultimo bucket di dimensione. |
 | [!UICONTROL Add bucket] | Consente di aggiungere un altro bucket alla creazione a blocchi di dimensioni numeriche. È possibile aggiungere fino a 20 bucket in una singola dimensione. |
+
+{style=&quot;table-layout:auto&quot;}
