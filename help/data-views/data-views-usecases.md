@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -109,11 +109,10 @@ Per accedere a questi componenti:
 
 1. Passa all’editor della visualizzazione dati.
 1. Fai clic sul pulsante **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** nella barra a sinistra.
-1. Trascinali nella visualizzazione dati.
+1. Trascina questi componenti nella visualizzazione dati.
 
-Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uniche eccezioni sono:
+Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uniche eccezioni sono:
 
 * Quando si è verificata una prima sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
 
-* Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
-
+* Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting saranno conteggiate come sessioni di ritorno.

@@ -1,11 +1,18 @@
 ---
-source-git-commit: c25e320268aeda85eb6709ca3458c60c6f24fea3
+title: Confrontare la terminologia dei dati di Analytics passati tramite il connettore origine di Analytics
+description: Alcune differenze terminologiche
+solution: Customer Journey Analytics
+source-git-commit: 287c75fd2b519f3d1d86209e0b0ab4ed7f761814
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 22%
+source-wordcount: '788'
+ht-degree: 21%
 
 ---
-# Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics
+
+
+# Confrontare la terminologia dei dati di Analytics passati tramite il connettore origine di Analytics
+
+Esistono alcune differenze terminologiche tra Adobe Analytics, Data Feeds, Analytics Source Connector/Data Lake e CJA. L&#39;argomento mira a evidenziare e chiarire tali differenze.
 
 | Termini correlati | Adobe Analytics | Feed dati di Adobe Analytics | Connettore sorgente di Analytics/Data Lake | CJA | Note |
 |---|---|---|---|---|---|
