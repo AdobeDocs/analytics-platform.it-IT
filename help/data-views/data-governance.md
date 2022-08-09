@@ -2,9 +2,9 @@
 title: Supporto di CJA per la governance dei dati di Adobe Experience Platform
 description: Scopri in che modo le etichette dati e i criteri definiti in AEP influiscono sul reporting in CJA.
 mini-toc-levels: 3
-source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,12 @@ I criteri hanno due componenti: l’etichetta dei dati e un’azione di marketin
 
 * Analytics : utilizza i dati a scopo di analisi, ad esempio per misurare, analizzare e generare rapporti sull’utilizzo da parte del consumatore dei siti o delle app della tua organizzazione.
 
-* Esportazione di dati a terze parti, ovvero dall’ambiente Adobe.
+* Esportazione di dati dall’ambiente di Adobe.
 
 È possibile collegare etichette e azioni di marketing a un criterio e quindi attivare il criterio. La politica prende l&#39;etichetta e l&#39;azione di marketing e dice: applica questa restrizione. In CJA vengono visualizzati due criteri definiti in Adobe e influiscono sul reporting e sul download/condivisione:
 
-* Applica criteri di Analytics
-* Applica criterio di download
-
+* [!UICONTROL Enforce Analytics] policy
+* [!UICONTROL Enforce Download] policy
 
 ### Visualizzare le etichette dati nelle visualizzazioni dati di CJA
 
@@ -93,7 +92,7 @@ Per i singoli componenti, il messaggio è simile al seguente:
 
 ### Come funziona [!UICONTROL Enforce Download] i criteri influiscono sui progetti Workspace
 
-Se questa policy è attivata, qualsiasi download (ad esempio e-mail o condivisione di pdf) di progetti Workspace eseguirà l’hash dei campi sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come elementi con hash nel file .pdf .
+Se questa policy è attivata, qualsiasi esportazione o download (ad esempio invio di e-mail o condivisione di pdf) di progetti Workspace eseguirà l’hash dei campi sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come elementi con hash nel file .pdf .
 
 Aggiungi uno screenshot qui.
 

@@ -2,7 +2,7 @@
 title: Customer Journey Analytics e governance dei dati
 description: Descrive il funzionamento della governance dei dati nel Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 75%
@@ -15,7 +15,7 @@ In generale, tutte le impostazioni relative alla governance dei dati nel Custome
 
 ## Governance dei dati
 
-CJA supporta le etichette e i criteri per la governance dei dati configurati in Adobe Experience Platform. Per ulteriori informazioni, consulta Supporto CJA per la governance dei dati di Adobe Experience Platform.
+CJA supporta le etichette e i criteri per la governance dei dati configurati in Adobe Experience Platform. Per ulteriori informazioni, consulta [Supporto di CJA per la governance dei dati di Adobe Experience Platform](/help/data-views/data-governance.md).
 
 ## RGPD
 
