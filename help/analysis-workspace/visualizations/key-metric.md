@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 6238a3b2239a20aaedbec5e5603d0c72bb4ae463
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >
 >Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
-La [!UICONTROL Key metric summary] la visualizzazione ti consente di vedere come si presenta una metrica importante in un singolo arco di tempo. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
+La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
 * **[!UICONTROL Line]** visualizzazioni che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
 
@@ -29,15 +29,15 @@ La [!UICONTROL Key metric summary] la visualizzazione ti consente di vedere come
 
 Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
-* Un analista che cerca di capire l&#39;aspetto della creazione di opportunità questo mese rispetto allo stesso arco temporale dello scorso anno.
+* Un analista che cerca di capire l’aspetto della creazione di opportunità questo mese rispetto allo stesso arco temporale dello scorso anno.
 
 * Un addetto al marketing che esplora in che modo la generazione di lead per uno specifico tipo di lead è cambiata da questo mese all’ultimo mese.
 
-* Un dirigente che vuole capire come sono cambiate le prenotazioni da questo trimestre all&#39;ultimo trimestre.
+* Un dirigente che vuole capire come sono cambiate le prenotazioni da questo trimestre all’ultimo trimestre.
 
 ## Configurare il riepilogo delle metriche chiave
 
-1. Trascina **[!UICONTROL Key metric summary]** visualizzazione dal **[!UICONTROL Visualizations]** nella barra a sinistra in un pannello.
+1. Trascina visualizzazione **[!UICONTROL Key metric summary]** dal menu **[!UICONTROL Visualizations]** nella barra a sinistra in un pannello.
 
 1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un segmento (se desiderato):
 
@@ -54,13 +54,13 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Fai clic su **[!UICONTROL Build]**.
 
-## Visualizza l&#39;output
+## Visualizza l’output
 
 ![](assets/key-metric-output.png)
 
 Nota:
 
-* La **[!UICONTROL Previous period]** il grafico a linee (sempre visualizzato in grigio) corrisponde al **[!UICONTROL Comparison date range]** nel passaggio di configurazione.
+* Il grafico a linee **[!UICONTROL Previous period]** (sempre visualizzato in grigio) corrisponde al **[!UICONTROL Comparison date range]** nel passaggio di configurazione.
 
 * Se durante la configurazione non viene specificato un intervallo di date di confronto o se questo è nascosto nelle impostazioni di visualizzazione, viene visualizzato solo il grafico a linee per l’intervallo di date principale. La modifica di riepilogo sarà nascosta.
 
@@ -76,15 +76,15 @@ Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per con
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Emphasize percent change]** | Visualizza la modifica di riepilogo in grassetto prominente al centro della visualizzazione |
-| **[!UICONTROL Emphasize number value]** | Visualizza il numero di riepilogo in grassetto prominente al centro della visualizzazione |
-| **[!UICONTROL Legend visible]** | Mostra o nasconde la legenda nella parte inferiore della visualizzazione |
-| **[!UICONTROL Show annotations]** | Mostra o nasconde le annotazioni aggiunte da un amministratore |
-| **[!UICONTROL Show sparklines]** | Mostra o nasconde i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
-| **[!UICONTROL Show min and max on sparklines]** | Mostra o nascondi valori minimi e massimi nei grafici a linee principali e a linee di confronto |
-| **[!UICONTROL Show comparison]** | Mostra o nasconde i dati di confronto. Se nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche saranno nascosti dalla visualizzazione. |
-| **[!UICONTROL Show total number]** | Mostra o nasconde il numero di riepilogo |
-| **[!UICONTROL Show raw difference]** | Mostra o nasconde la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario |
+| **[!UICONTROL Emphasize percent change]** | Visualizzare la modifica di riepilogo in grassetto prominente al centro della visualizzazione |
+| **[!UICONTROL Emphasize number value]** | Visualizzare il numero di riepilogo in grassetto prominente al centro della visualizzazione |
+| **[!UICONTROL Legend visible]** | Mostrare o nascondere la legenda nella parte inferiore della visualizzazione |
+| **[!UICONTROL Show annotations]** | Mostrare o nascondere le annotazioni aggiunte da un amministratore |
+| **[!UICONTROL Show sparklines]** | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
+| **[!UICONTROL Show min and max on sparklines]** | Mostrare o nascondere valori minimi e massimi nei grafici a linee principali e a linee di confronto |
+| **[!UICONTROL Show comparison]** | Mostra o nascondi i dati di confronto. Se nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche saranno nascosti dalla visualizzazione. |
+| **[!UICONTROL Show total number]** | Mostrare o nascondere il numero di riepilogo |
+| **[!UICONTROL Show raw difference]** | Mostra o nascondi la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario. |
 | **[!UICONTROL Abbreviate value]** | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio 20.000 -> 20K) |
 
 ## Visualizzazione Modifica
