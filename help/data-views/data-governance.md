@@ -1,12 +1,11 @@
 ---
-title: Supporto di CJA per la governance dei dati di Adobe Experience Platform
-description: Scopri in che modo le etichette dati e i criteri definiti in AEP influiscono sul reporting in CJA.
-mini-toc-levels: 3
+title: Etichette e politiche
+description: Scopri in che modo le etichette dati e i criteri definiti in AEP influiscono sulle visualizzazioni dati e sui rapporti in CJA.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
@@ -26,8 +25,8 @@ L’etichettatura di per sé non significa che queste etichette di utilizzo dei 
 
 In CJA vengono visualizzati due criteri definiti in Adobe e influiscono sul reporting e sul download/condivisione:
 
-* [!UICONTROL Enforce Analytics] policy
-* [!UICONTROL Enforce Download] policy
+* **[!UICONTROL Enforce Analytics]** policy
+* **[!UICONTROL Enforce Download]** policy
 
 ## Visualizzare le etichette dati nelle visualizzazioni dati di CJA
 
@@ -35,9 +34,11 @@ Le etichette dati create in Experience Platform vengono visualizzate in tre posi
 
 | Posizione | Descrizione |
 | --- | --- |
-| Pulsante Informazioni su un campo schema | Fai clic su questo pulsante per indicare le etichette di utilizzo dei dati attualmente applicabili a un campo:<p>![](assets/data-label-left.png) |
-| Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Tutte le etichette di utilizzo dei dati sono elencate qui:<p>![](assets/data-label-right.png) |
-| Aggiungi etichette dati come colonna | Puoi aggiungere Etichette dati come colonna alle colonne Componenti inclusi nelle visualizzazioni dati. Fai clic sull’icona del selettore colonna e seleziona Etichette di utilizzo dati:<p>![](assets/data-label-column.png) |
+| Pulsante Informazioni su un campo schema | Fai clic su questo pulsante per indicare quale [!UICONTROL Data Usage Labels] attualmente applicabile a un campo:<p>![](assets/data-label-left.png) |
+| Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Qualsiasi [!UICONTROL Data Usage Labels] sono elencati qui:<p>![](assets/data-label-right.png) |
+| Aggiungi etichette dati come colonna | Puoi aggiungere [!UICONTROL Data Labels] come colonna del [!UICONTROL Included Components] nelle visualizzazioni dati. Fai clic sull’icona del selettore colonna e seleziona **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
@@ -55,7 +56,7 @@ Di nuovo, fai clic sull’icona Filtro nella barra a sinistra e in Governance de
 
 ![](assets/filter-policies.png)
 
-Fai clic su **[!UICONTROL Apply]** per vedere quali criteri sono abilitati _per questa visualizzazione dati?_
+Fai clic su **[!UICONTROL Apply]** per vedere quali criteri sono abilitati.
 
 ## Come funziona [!UICONTROL Enforce Analytics] i criteri influiscono sui progetti Workspace
 
