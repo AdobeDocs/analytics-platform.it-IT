@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 235f08b275fd2f5706024823005e732b61af1c07
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ Questo argomento illustra come creare e pubblicare i tipi di pubblico identifica
 
 Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico di CJA.
 
-## Creare un pubblico
+## Creare un pubblico {#create}
 
 1. Per creare tipi di pubblico, puoi iniziare in diversi modi:
 
@@ -56,8 +56,8 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Impostazione di anteprima | Descrizione |
    | --- | --- |
    | Finestra di [!UICONTROL Data preview] | L’intervallo di date per il pubblico. |
-   | [!UICONTROL Total people] | Un numero di riepilogo del numero totale di persone presenti nel pubblico. Può arrivare fino a 200 milioni di persone. Se il pubblico supera i 200 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
-   | [!UICONTROL Audience size limit] | Mostra quanto è lontano il pubblico dal limite di 200 milioni. |
+   | [!UICONTROL Total people] | Un numero di riepilogo del numero totale di persone presenti nel pubblico. Può arrivare fino a 20 milioni di persone. Se il pubblico supera i 20 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
+   | [!UICONTROL Audience size limit] | Mostra quanto è lontano il pubblico dal limite di 20 milioni. |
    | [!UICONTROL Estimated audience return] | Questa impostazione è utile per il retargeting dei clienti del pubblico che ritornano al tuo sito. In altre parole, che compaiono nuovamente in questo set di dati. <p>Qui puoi selezionare l’intervallo di tempo (i prossimi sette giorni, le prossime due settimane, il prossimo mese) per ottenere la stima del numero di clienti che potrebbero tornare. |
    | [!UICONTROL Estimated to return] | Questo numero fornisce una stima dei clienti fidelizzati nell’intervallo di tempo selezionato dall’elenco a discesa. Per prevedere questo numero usiamo il tasso storico di abbandono del pubblico. |
    | [!UICONTROL Preview metrics] | Questa impostazione ti consente di esaminare metriche specifiche per verificare se il pubblico contribuisce in misura sproporzionata a questa metrica, ad esempio “[!UICONTROL Revenue]” o “[!UICONTROL Average time on site]”. Ti fornisce il conteggio complessivo della metrica, così come la percentuale del totale che rappresenta. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
@@ -72,7 +72,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Fai clic su **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio; ti porterà all’[interfaccia utente dei segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it) in Adobe Experience Platform. Per ulteriori informazioni, vedi di seguito.
 
-## Utilizzare i tipi di pubblico di CJA in Experience Platform
+## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
 CJA ora prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). CJA invia il pubblico a Experience Platform con l’identità primaria impostata su qualsiasi elemento selezionato come ID persona al momento della configurazione della connessione.
 
@@ -84,9 +84,13 @@ Puoi trascinare i tipi di pubblico di CJA nella definizione del segmento dei seg
 
 ![](assets/audiences-aep.png)
 
-## Cosa succede se un utente non è più membro di un pubblico in CJA?
+## Cosa succede se un utente non è più membro di un pubblico in CJA? {#no-member}
 
 In questo caso, viene inviato un evento di uscita a Experience Platform da CJA.
+
+## Cosa succede se elimini un pubblico in CJA? {#delete}
+
+Quando un pubblico CJA viene eliminato, non viene più visualizzato nell’interfaccia utente di Experience Platform. Tuttavia, nessun profilo associato a quel pubblico viene effettivamente eliminato in Platform.
 
 ## Passaggi successivi
 
