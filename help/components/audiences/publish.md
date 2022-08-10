@@ -3,8 +3,8 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: tm+mt
-source-wordcount: '930'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
