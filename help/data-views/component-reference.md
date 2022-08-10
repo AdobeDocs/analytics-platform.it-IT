@@ -5,7 +5,7 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -56,10 +56,10 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Person ID] | Dimensione | Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuno di questi può essere utilizzato come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento), ecc. La dimensione [!UICONTROL Person ID] è la base per combinare i set di dati e identificare i visitatori unici in CJA.<p>Eventuali casi d’uso includono:<ul><li>Creazione di un filtro per un valore ID persona specifico per filtrare tutto in base al comportamento dell’utente.</li><li>Debug: accertati che siano presenti i dati per un ID cookie specifico (o un ID cliente specifico).</li><li>Identificazione degli utenti che hanno effettuato l&#39;accesso a un call center.</li></ul> |
 | [!UICONTROL Person ID namespace] | Dimensione | Quale tipo di ID è costituito da [!UICONTROL Person ID]. Esempi: `email address`, `cookie ID`, `Analytics ID`, ecc. |
 | [!UICONTROL Quarter of Year] | Dimensione suddivisa in base al tempo | Q1, Q2, Q3, Q4 |
-| [!UICONTROL Repeat session] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
+| [!UICONTROL Repeat session] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di filtro (ad esempio &#39;[!UICONTROL Session Starts] esiste&#39;), si filtra fino al primo evento di ogni sessione. |
 | [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all’ultimo evento di ogni sessione. |
-| [!UICONTROL Session Type] | Dimensione | Questa dimensione ha due valori: 1) [!UICONTROL First-Time] e 2) Ritorno. L&#39;elemento riga [!UICONTROL First-time] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nel&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) |
+| [!UICONTROL Session Type] | Dimensione | Questa dimensione ha due valori: 1) [!UICONTROL First-Time] e 2) Ritorno. L&#39;elemento riga [!UICONTROL First-time] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nel&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Time Spent (seconds)] | Metrica | Somma il tempo tra due valori diversi per una dimensione. |
 | [!UICONTROL Time Spent per Event] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Event] bucket. |
 | [!UICONTROL Time Spent per Session] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Session] bucket. |
