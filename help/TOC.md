@@ -11,8 +11,8 @@ user-guide-description: Questa guida fornisce assistenza per Customer Journey An
 breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
