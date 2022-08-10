@@ -3,8 +3,8 @@ title: Gestire i tipi di pubblico creati in Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
-workflow-type: tm+mt
-source-wordcount: '249'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
