@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 95%
+source-wordcount: '1102'
+ht-degree: 87%
 
 ---
 
@@ -89,10 +89,6 @@ Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica dell
 
 ## 7. Reporting sulla sessione nuovi e ripetuti {#new-repeat}
 
->[!NOTE]
->
->Questa funzionalità è attualmente in fase di test.
-
 Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
 
 * Quale percentuale degli ordini proviene da sessioni nuove rispetto a sessioni ripetute?
@@ -116,3 +112,19 @@ Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uni
 * Quando si è verificata una prima sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
 
 * Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting saranno conteggiate come sessioni di ritorno.
+
+## Utilizzare la funzionalità Data e ora {#date}
+
+>[!NOTE]
+>
+>Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
+
+Esempi di casi di utilizzo:
+
+* Data: Una società di viaggi sta raccogliendo la data di partenza per i viaggi come un campo nei loro dati. Vorrebbero avere una relazione che compari i [!UICONTROL Day of Week] per tutte le date di partenza raccolte per capire quale è più popolare. Vorrebbero fare lo stesso per [!UICONTROL Month of Year].
+
+* Data e ora: Una società retail sta raccogliendo il tempo necessario per ciascuno dei suoi acquisti in-store point-of-sale (POS). In un dato mese, vorrebbero capire i periodi di acquisto più impegnativi per [!UICONTROL Hour of Day].
+
+>[!MORELIKETHIS]
+>[Data e ora nell’impostazione del componente Formato](/help/data-views/component-settings/format.md)
+
