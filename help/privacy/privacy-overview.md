@@ -2,9 +2,9 @@
 title: Customer Journey Analytics e governance dei dati
 description: Descrive il funzionamento della governance dei dati nel Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 0d48c1ed8d0bf50939f8eda1f5656c95370ac0b7
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 51%
 
 ---
@@ -22,6 +22,8 @@ Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Exp
 Inoltre, quando i dati vengono esportati da CJA (tramite reporting, esportazione, API ecc.), vengono aggiunti avvisi o etichette per avvisare gli utenti che un rapporto contiene informazioni sensibili che devono essere trattate in un modo specifico.
 
 Questa integrazione consente di gestire più facilmente la conformità. Gli amministratori di dati della tua organizzazione possono impostare criteri per limitare l’utilizzo. Di conseguenza, gli utenti CJA possono utilizzare i dati in modo più affidabile, sapendo che sono conformi ai criteri definiti dagli amministratori dei dati.
+
+[Ulteriori informazioni](/help/data-views/data-governance.md)
 
 ## RGPD
 

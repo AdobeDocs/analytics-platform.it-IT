@@ -3,10 +3,10 @@ description: Puoi scaricare i dati da Analysis Workspace copiandoli oppure espor
 title: Scaricare file PDF o CSV
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 93%
+source-wordcount: '1027'
+ht-degree: 92%
 
 ---
 
@@ -83,7 +83,7 @@ Se richiedi più di un download alla volta, una notifica ti segnala che ogni dow
 
 ## Scaricare dati sensibili {#sensitive}
 
-Se i criteri di governance dei dati di Enforce Download sono attivati, qualsiasi download (ad esempio invio di e-mail o condivisione di pdf) di progetti Workspace eseguirà l’hash dei campi di dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come elementi con hash nel file .pdf .
+Se la **[!UICONTROL Enforce Download]** [politica di governance dei dati](/help/data-views/data-governance.md) è attivato nella visualizzazione dati su cui stai eseguendo il reporting, qualsiasi download (ad esempio invio di e-mail o condivisione di pdf) di progetti Workspace eseguirà l’hash dei campi di dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come vuoti nel file .pdf o .csv .
 
 ## Domande frequenti {#faq}
 
