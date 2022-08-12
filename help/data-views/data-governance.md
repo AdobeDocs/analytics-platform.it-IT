@@ -2,9 +2,9 @@
 title: Etichette e politiche
 description: Scopri in che modo le etichette dati e i criteri definiti in AEP influiscono sulle visualizzazioni dati e sui rapporti in CJA.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: b135175e0276ab26514d1c785793feb817c09898
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -72,3 +72,7 @@ Non è inoltre possibile salvare una visualizzazione dati contenente campi blocc
 
 >[!MORELIKETHIS]
 >[Scaricare dati sensibili](/help/analysis-workspace/curate-share/download-send.md)
+
+>[!MORELIKETHIS]
+>[Cosa sono le etichette limitate nel Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+
