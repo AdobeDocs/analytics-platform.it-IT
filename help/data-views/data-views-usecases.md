@@ -4,9 +4,9 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
+source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1181'
 ht-degree: 81%
 
 ---
@@ -119,7 +119,7 @@ Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uni
 >
 >Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
-Gli schemi in Adobe Experience Platform contengono campi data e ora. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificare le relative [format](/help/data-views/component-settings/format.md). Questa impostazione di formato determina la modalità di visualizzazione dei campi nel reporting. Ad esempio:
+Gli schemi in Adobe Experience Platform contengono [!UICONTROL Date] e [!UICONTROL Date-Time] campi. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificare le relative [format](/help/data-views/component-settings/format.md). Questa impostazione di formato determina la modalità di visualizzazione dei campi nel reporting. Ad esempio:
 
 * Per il formato Data, se si seleziona **[!UICONTROL Day]** con il formato **[!UICONTROL Month, Day, Year]**, un output di esempio nel reporting potrebbe essere simile al seguente: 23 agosto 2022.
 
