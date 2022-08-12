@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 235f08b275fd2f5706024823005e732b61af1c07
+source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Name] | Il nome del pubblico. |
    | [!UICONTROL Tags] | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi utilizzare un tag preesistente o inserirne uno nuovo. |
    | [!UICONTROL Description] | Aggiungi una buona descrizione del pubblico, per distinguerlo dagli altri. |
-   | [!UICONTROL Refresh frequency] | La frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.</li><li>Puoi selezionare altri intervalli di aggiornamento. Per la frequenza di 4 ore, esiste un limite di 75 o 150 tipi di pubblico, a seconda dell’adesione CJA. Per gli altri intervalli, non esiste un numero massimo di tipi di pubblico.</li></ul> |
+   | [!UICONTROL Refresh frequency] | La frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.</li><li>Puoi selezionare altri intervalli di aggiornamento. Per tutte le frequenze di aggiornamento, esiste un limite di 75 o 150 tipi di pubblico, a seconda dell’adesione all’CJA. Per gli altri intervalli, non esiste un numero massimo di tipi di pubblico.</li></ul> |
    | Data di scadenza | La data in cui il pubblico smetterà di aggiornarsi. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza del pubblico. |
    | Finestra di lookback di aggiornamento | Specifica quanto indietro desideri andare nella finestra dei dati durante la creazione del pubblico. Il massimo è 90 giorni. |
    | [!UICONTROL One-time date range] | L’intervallo di date per la pubblicazione del pubblico una tantum. |

@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
+source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '944'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,13 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Agosto 2022 | Nuovo articolo su [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md) |
+| Agosto 2022 | Nuova sezione su [Supporto del campo data in CJA](/help/data-views/data-views-usecases.md#date) |
+| Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md) |
 | Agosto 2022 | Nuova documentazione sulla [pubblicazione di tipi di pubblico sul Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it) |
 | Luglio 2022 | Documentazione del [pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=it). |
-| Luglio 2022 | Rapporti sulla [sessione nuovi e ripetuti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
+| Luglio 2022 | [Prima sessione e Ripeti sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) documentazione sul reporting. |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=it) |
 | Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
