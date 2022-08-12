@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
+source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 87%
+source-wordcount: '1183'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,13 @@ Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uni
 >
 >Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
-Esempi di casi di utilizzo:
+Gli schemi in Adobe Experience Platform contengono campi data e ora. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificare le relative [format](/help/data-views/component-settings/format.md). Questa impostazione di formato determina la modalità di visualizzazione dei campi nel reporting. Ad esempio:
+
+* Per il formato Data, se si seleziona **[!UICONTROL Day]** con il formato **[!UICONTROL Month, Day, Year]**, un output di esempio nel reporting potrebbe essere simile al seguente: 23 agosto 2022.
+
+* Per il formato data-ora, se si seleziona **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l&#39;output potrebbe essere simile al seguente: 20:20.
+
+### Esempi di casi di utilizzo:
 
 * Data: Una società di viaggi sta raccogliendo la data di partenza per i viaggi come un campo nei loro dati. Vorrebbero avere una relazione che compari i [!UICONTROL Day of Week] per tutte le date di partenza raccolte per capire quale è più popolare. Vorrebbero fare lo stesso per [!UICONTROL Month of Year].
 
