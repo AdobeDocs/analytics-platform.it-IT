@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: cb1984a765a614d97974ff88763b43da4f927a2b
+source-git-commit: 1d054974165e7ec6bcbd3e0eda6e76bd1a0c2108
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '736'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 98%
       + [Istogramma](analysis-workspace/visualizations/histogram.md)
       + [Barre orizzontali e Barre orizzontali sovrapposte](analysis-workspace/visualizations/horizontal-bar.md)
       + [Riepilogo delle metriche chiave](analysis-workspace/visualizations/key-metric.md)
-      + [Linee](analysis-workspace/visualizations/line.md)
+      + [A linee](analysis-workspace/visualizations/line.md)
       + [Grafico a dispersione](analysis-workspace/visualizations/scatterplot.md)
       + [Numero di riepilogo e Variazione di riepilogo](analysis-workspace/visualizations/summary-number-change.md)
       + [Testo](analysis-workspace/visualizations/text.md)
@@ -168,6 +168,7 @@ ht-degree: 98%
    + [Utilizzare i filtri](report-builder/work-with-filters.md)
    + [Dimensioni filtro](report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](report-builder/manage-reportbuilder.md)
+   + [Etichette limitate](report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
