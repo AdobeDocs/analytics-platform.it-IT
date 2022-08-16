@@ -4,10 +4,10 @@ description: Utilizza il connettore di origine di Analytics per inserire le rego
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 8d333627d3fe4f4dd68ec0f9316838c88678bc0f
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 90%
+source-wordcount: '1019'
+ht-degree: 84%
 
 ---
 
@@ -32,6 +32,10 @@ Una volta stabilito il Connettore origine Analytics in una suite di rapporti des
 4. Crea la visualizzazione dati.
 
 Le dimensioni del canale di marketing sono ora disponibili per l’uso in Analysis Workspace.
+
+>[!NOTE]
+>
+> Il connettore di origine di Analytics richiede che entrambi `channel.typeAtSource` (Canale di marketing) e `channel._id` (Dettagli canale di marketing) compilati; in caso contrario, nessuno dei due viene trasferito a ExperienceEvent XDM. Se il Dettagli canale di marketing è vuoto nella suite di rapporti sorgente, viene visualizzato un valore vuoto `channel._id` e il connettore di origine di Analytics verrà lasciato vuoto `channel.typeAtSource` anche. Questo può causare differenze di reporting tra Adobe Analytics e Customer Journey Analytics.
 
 ## Differenze a livello di elaborazione e architettura
 
