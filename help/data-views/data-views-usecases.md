@@ -4,9 +4,9 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 81%
 
 ---
@@ -114,10 +114,6 @@ Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uni
 * Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting saranno conteggiate come sessioni di ritorno.
 
 ## Utilizzare la funzionalità Data e ora {#date}
-
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
 Gli schemi in Adobe Experience Platform contengono [!UICONTROL Date] e [!UICONTROL Date-Time] campi. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificare le relative [format](/help/data-views/component-settings/format.md). Questa impostazione di formato determina la modalità di visualizzazione dei campi nel reporting. Ad esempio:
 

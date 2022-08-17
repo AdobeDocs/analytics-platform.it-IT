@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 0e626b4072c68a69ae94dbfdfb53169aa34ca8ac
+exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
-
 
 # Etichette limitate nel Report Builder
 
@@ -25,11 +25,7 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 Per ulteriori informazioni, consulta [Customer Journey Analytics e governance dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
 
-## Visualizzazione dei dati con restrizioni nel Report Builder
-
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
+## Visualizzazione dei dati con restrizioni in Report Builder
 
 In CJA vengono visualizzati due criteri definiti in Adobe che influiscono sul reporting, download e condivisione:
 
@@ -40,7 +36,7 @@ I componenti interessati da queste policy sono disattivati. Quando passi il punt
 
 ![](assets/rb-restricted-label.png)
 
-## Aggiornamento dei rapporti contenenti dati limitati
+## Aggiornare i rapporti contenenti dati limitati
 
 Nei casi in cui un utente abbia creato un rapporto di Report Builder con elementi dati successivamente soggetti a restrizioni, quando il rapporto viene aggiornato viene visualizzato un messaggio di errore.
 
