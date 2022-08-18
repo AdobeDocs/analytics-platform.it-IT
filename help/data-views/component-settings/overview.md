@@ -4,9 +4,9 @@ description: Visualizzare le impostazioni di base di un componente visualizzazio
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '393'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,8 @@ Impostazioni di base utilizzate da un componente di visualizzazione dati.
 | [!UICONTROL Component Name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la visualizzazione dati. |
 | [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
 | [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Field Name] | Nome del campo schema. |
+| [!UICONTROL Context labels] | Puoi assegnare dimensioni e/o metriche specifiche per casi d’uso specifici nel reporting. Ad esempio, i pannelli multimediali per CJA, il nuovo pannello esperimento e i modelli di reporting. |
+| [!UICONTROL Schema field name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
 | [!UICONTROL Schema Type] | Campo non modificabile che mostra il tipo di dati del componente.  Anche se è possibile utilizzare qualsiasi tipo di campo di schema supportato in Platform, non tutti i tipi di campi sono supportati in CJA. Sono supportati i seguenti tipi di dati: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`e `Boolean`. Solo il `String` il tipo di dati dello schema è consentito nei set di dati di ricerca in questo momento. |
