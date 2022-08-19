@@ -2,13 +2,13 @@
 description: Scopri come analizzare i risultati dei test A/B nel pannello Sperimentazione CJA .
 title: Pannello sperimentale
 feature: Panels
-source-git-commit: 2c217c7d31819ac8eb27d2d1010e0df787601e21
+exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
+source-git-commit: 76ebaf5ae5bd6027f83945d5750ddc13533a7b47
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 2%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
-
 
 # Pannello sperimentale
 
@@ -24,19 +24,7 @@ La **[!UICONTROL Experimentation]** ti consente di confrontare diverse varianti 
 
 ## Controllo degli accessi
 
-Il pannello Sperimentazione è disponibile per tutti gli utenti del Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione richiede etichette nelle visualizzazioni dati che solo gli amministratori possono assegnare.
-
-## Terminologia
-
-* **Esperimento**: Un esperimento è un insieme di varianti di un’esperienza che è stata esposta agli utenti finali per determinare quale sia meglio mantenere in perpetuità. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variazione di controllo.
-
-* **Variazione**: Una delle due o più modifiche nell&#39;esperienza di un utente finale che vengono confrontate allo scopo di identificare l&#39;alternativa migliore. Una variante deve essere selezionata come controllo e una sola variante può essere considerata come la variante di controllo.
-
-* **Controllo**: Una variazione specifica che rappresenta lo status quo o lo stato predefinito dell’esperienza di un utente. A cosa vengono confrontate tutte le altre variazioni.
-
-* **Normalizzazione della metrica**: Base (sessioni o persone) in cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti quando il tasso di conversione è calcolato come conversioni per sessione o conversioni per persona.
-
-* **Metrica di conversione**: La metrica con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (sia più alta che più bassa) è dichiarata &quot;vincitrice&quot; di un esperimento.
+Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
 
 ## Passaggio 1: Creare una connessione per sperimentare i set di dati
 
@@ -53,7 +41,7 @@ Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dime
 
 ![etichetta di contesto](assets/context-label.png)
 
-Senza queste etichette presenti, il pannello Esperimento non funziona.
+Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto non ci saranno esperimenti con cui lavorare.
 
 ## Passaggio 3: Configurare il pannello Esperimento
 
@@ -61,6 +49,36 @@ Senza queste etichette presenti, il pannello Esperimento non funziona.
 
 ![pannello sperimentale](assets/experiment.png)
 
+>[!IMPORTANT]
+>Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, riceverai un messaggio a tal fine prima di procedere.
+
+1. Configura le impostazioni di input del pannello.
+
+   | Impostazione | Definizione |
+   | --- | --- |
+   | **[!UICONTROL Experiment]** | Un insieme di varianti di un’esperienza che è stata esposta agli utenti finali per determinare quale è meglio mantenere in perpetuità. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni etichettate con  **[!UICONTROL Experiment]** etichetta nelle visualizzazioni dati e i dati degli ultimi 3 mesi sugli esperimenti. |
+   | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell&#39;esperienza di un utente finale che vengono confrontate allo scopo di identificare l&#39;alternativa migliore. Una variante deve essere selezionata come controllo e una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni etichettate con  **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati della variante associati all&#39;esperimento. |
+   | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (sia essa più alta o più bassa) è dichiarata la &quot;metrica primaria&quot; di un esperimento. Puoi aggiungere fino a 5 metriche. |
+   | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions]oppure [!UICONTROL Events]) in cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti quando **[!UICONTROL Conversion rate]** è calcolato come segue **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
+
+1. Fai clic su **[!UICONTROL Build]**.
+
+## Passaggio 4: Interpretare l’output del pannello
+
+Il pannello Sperimentazione restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello facendo clic sulla matita di modifica in alto a destra. Viene inoltre visualizzato un riepilogo del testo che indica se l’esperimento è conclusivo o meno e riepiloga il risultato. Puoi anche visualizzare i numeri di riepilogo della variante con l’incremento e l’affidabilità più elevati.
+
+![uscita sperimentale](assets/exp-output1.png)
+
+Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione:
+
+![uscita sperimentale](assets/exp-output2.png)
+
+![uscita sperimentale](assets/exp-output3.png)
+
+
+## Metodologia statistica alla base del pannello Sperimentazione
+
+Da seguire.
 
 
 
