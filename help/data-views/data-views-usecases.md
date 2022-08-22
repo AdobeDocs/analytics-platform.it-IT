@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 81%
+ht-degree: 85%
 
 ---
 
@@ -105,13 +105,13 @@ Per accedere a questi componenti:
 
 1. Passa all’editor della visualizzazione dati.
 1. Fai clic sul pulsante **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** nella barra a sinistra.
-1. Trascina questi componenti nella visualizzazione dati.
+1. Trascina questi componenti nella vista dati.
 
-Il 95%-99% del tempo, le nuove sessioni vengono riportate con precisione. Le uniche eccezioni sono:
+Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uniche eccezioni sono:
 
 * Quando si è verificata una prima sessione prima dell’intervallo di lookback di 13 mesi. Questa sessione verrà ignorata.
 
-* Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting saranno conteggiate come sessioni di ritorno.
+* Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
 
 ## Utilizzare la funzionalità Data e ora {#date}
 

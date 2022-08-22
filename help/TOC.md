@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [Guida per i nuovi utenti di Customer Journey Analytics](getting-started/aa-to-cja-user.md)
    + Confrontare Adobe Analytics e Customer Journey Analytics {#compare-aa-cja}
       + [Supporto delle funzioni di Customer Journey Analytics](getting-started/aa-vs-cja/cja-aa.md)
-      + [Confrontare la terminologia dei dati di Analytics passati tramite il connettore origine di Analytics](getting-started/aa-vs-cja/terminology.md)
+      + [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](getting-started/aa-vs-cja/terminology.md)
       + [Confrontare l’elaborazione dei dati in Adobe Analytics e CJA](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Ambienti di reporting virtuali e ambienti sandbox](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati](getting-started/aa-vs-cja/pr-vista-dataprep.md)
