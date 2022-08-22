@@ -5,9 +5,9 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 12%
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Set persistence] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
-| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. A partire dal 28 ottobre 2021, un intervallo di lookback fino a 90 giorni verrà aggiunto al [!UICONTROL Allocation] impostazione. |
+| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. A partire dal 28 ottobre 2021, un intervallo di lookback fino a 90 giorni verrà aggiunto all&#39;impostazione [!UICONTROL Allocation]. |
 | [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: [!UICONTROL Session] (predefinito), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric]. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 Dettagli sulle impostazioni di allocazione disponibili.
 
-* **[!UICONTROL Most Recent]**: persiste il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno del periodo di scadenza della dimensione sostituiscono il valore persistente precedente. Se su questa dimensione è abilitato &quot;Treat &#39;No Value&#39; as a value&quot; in [Nessuna opzione di valore](no-value-options.md), i valori vuoti sovrascrivono quelli persistenti in precedenza. Ad esempio, considera la seguente tabella con [!UICONTROL Most recent] assegnazione e [!UICONTROL Session] scadenza:
+* **[!UICONTROL Most Recent]**: persiste il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno del periodo di scadenza della dimensione sostituiscono il valore persistente precedente. Se su questa dimensione è abilitato “Treat &#39;No Value&#39; as a value” in [Nessuna opzione di valore](no-value-options.md), i valori vuoti sovrascrivono quelli persistenti in precedenza. Ad esempio, considera la seguente tabella con [!UICONTROL Most recent] assegnazione e [!UICONTROL Session] scadenza:
 
    | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
    | --- | --- | --- | --- | --- | --- |
@@ -56,34 +56,34 @@ Dettagli sulle impostazioni di allocazione disponibili.
    | Valori del set di dati | A | B | C |  | A |
    | Tutte le allocazioni | A | A,B | A, B, C | A, B, C | A, B, C |
 
-* **[!UICONTROL First Known]** e **[!UICONTROL Last Known]**: (19 gennaio 2022 ) Questi due modelli di allocazione soddisfano i casi d’uso per le dimensioni &quot;entrata&quot; e &quot;uscita&quot;. Ottengono il primo o l’ultimo valore osservato per una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
+* **[!UICONTROL First Known]** e **[!UICONTROL Last Known]**: (19 gennaio 2022 ) questi due modelli di allocazione soddisfano i casi d’uso per le dimensioni “entrata” e “uscita”. Considerano il primo o l’ultimo valore osservato relativo a una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
 
    | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
    | --- | --- | --- | --- | --- | --- |
-   | Timestamp (min) | 1 | 2 | 3 | 6 | 7 |
+   | Marca temporale (min) | 1 | 2 | 3 | 6 | 7 |
    | Valori originali |  | C | B |  | A |
-   | Primo noto | C | C | C | C | C |
-   | Ultimo noto | A | A | A | A | A |
+   | First known (Primo noto) | C | C | C | C | C |
+   | Last known (Ultimo noto) | A | A | A | A | A |
 
 ## [!UICONTROL Expiration] del profilo
 
 Dettagli sulle impostazioni di scadenza disponibili.
 
-* **Sessione**: Scade dopo una determinata sessione. Finestra di scadenza predefinita.
-* **Persona**: Scade alla fine dell&#39;intervallo di reporting.
-* **Ora personalizzata**: Scade dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
-* **Metrica**: Quando questa metrica viene visualizzata in un hit, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come fine di scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
+* **Sessione**: scade dopo una determinata sessione. Finestra di scadenza predefinita.
+* **Persona**: scade alla fine dell’intervallo di reporting.
+* **Orario personalizzato**: scade dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
+* **Metrica**: quando questa metrica viene visualizzata in un hit, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
 
 ## [!UICONTROL Binding Dimension]
 
-Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni a discesa valide includono altre dimensioni incluse nella visualizzazione dati.
+Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide dell’elenco a discesa includono altre dimensioni presenti nella visualizzazione dati.
 
-Vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md) esempi su come utilizzare in modo efficace le dimensioni di binding.
+Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md).
 
 ## [!UICONTROL Binding Metric]
 
-Elenco a discesa che consente di scegliere una metrica che agisce come attivatore di binding. Le opzioni a discesa valide includono le metriche incluse nella visualizzazione dati.
+Elenco a discesa che consente di scegliere una metrica che agisce come trigger di binding. Le opzioni valide dell’elenco a discesa includono le metriche presenti nella visualizzazione dati.
 
-Questa impostazione viene visualizzata solo quando il Dimension di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
+Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Vedi il secondo esempio sotto [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md) per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding.
+Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md).
