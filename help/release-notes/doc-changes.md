@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
+source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 95%
+source-wordcount: '973'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
+| Agosto 2022 | Articolo Adobe Experience Platform su [Supporto tra aree geografiche per il connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) |
+| Agosto 2022 | Articolo significativamente aggiornato su [Controllo degli accessi CJA](/help/getting-started/cja-access-control.md) |
 | Agosto 2022 | Nuovo articolo su [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md) |
 | Agosto 2022 | Nuova sezione su [Supporto del campo data in CJA](/help/data-views/data-views-usecases.md#date) |
 | Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md) |
