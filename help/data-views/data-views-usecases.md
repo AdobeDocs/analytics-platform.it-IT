@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 85%
+source-wordcount: '1151'
+ht-degree: 76%
 
 ---
 
@@ -46,7 +46,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## 3. Utilizzare le dimensioni numeriche come “metriche” nei diagrammi di flusso {#numeric}
 
-Puoi utilizzare una dimensione numerica per inserire “metriche” nella visualizzazione [!UICONTROL  Flow].
+Puoi utilizzare una dimensione numerica per ottenere &quot;metriche&quot; nel tuo [!UICONTROL  Flow] visualizzazione.
 
 1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 2. Nei rapporti di Workspace, questo flusso mostra come [!UICONTROL Marketing Channels] scorre in [!UICONTROL Orders]:
@@ -87,19 +87,19 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
 
-## 7. Reporting sulla sessione nuovi e ripetuti {#new-repeat}
+## 7. Nuova generazione di rapporti sulle sessioni {#new-repeat}
 
 Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
 
-* Quale percentuale degli ordini proviene da sessioni nuove rispetto a sessioni ripetute?
+* Quale percentuale degli ordini proviene dalle nuove sessioni?
 
-* Per un dato canale di marketing, o una campagna specifica, esegui il targeting di utenti nuovi o di ritorno? In che modo queste scelte influenzano i tassi di conversione?
+* Per un dato canale di marketing, o una campagna specifica, esegui il targeting per gli utenti alla prima volta? In che modo questa scelta influisce sui tassi di conversione?
 
-Tre componenti facilitano questo reporting:
+Due componenti facilitano questo reporting:
 
 * 1 dimensione: [tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
 
-* 2 metriche: [nuove sessioni, sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting. Le sessioni di ritorno sono il numero di sessioni che non sono state le prime sessioni di una persona.
+* 1 metriche: [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
 Per accedere a questi componenti:
 
