@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ccb13b9632433f2fcc9c765e9527f157dad632d4
+source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '873'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,7 @@ Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta
 
 Un profilo di prodotto è un insieme di autorizzazioni. Gli amministratori dei profili di prodotto possono
 
-* Crea e gestisci singoli profili di prodotto, ad esempio l’aggiunta di nuovi utenti.
+* Crea e gestisci singoli profili di prodotto, ad esempio l’aggiunta di nuovi utenti o la gestione di gruppi di utenti e dei relativi profili di prodotto associati.
 
 * In CJA, modifica le visualizzazioni dati che fanno parte di un profilo di prodotto che gestiscono. Non possono creare nuove visualizzazioni dati.
 
