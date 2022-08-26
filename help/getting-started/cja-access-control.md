@@ -5,16 +5,18 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
+source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 16%
+source-wordcount: '902'
+ht-degree: 15%
 
 ---
 
 # Controllo degli accessi a CJA
 
 Il Customer Journey Analytics (CJA) è governato da tre livelli di accesso o da tre ruoli: Ruolo di amministratore del prodotto, ruolo di amministratore del profilo di prodotto e accesso a livello di utente. Questo argomento spiega questi ruoli in modo più dettagliato.
+
+Inoltre, discutiamo di modi più granulari per limitare l’accesso, come la cura di Workspace e a livello di riga, nonché il controllo degli accessi a livello di valore.
 
 ## Ruolo di amministratore prodotto
 
@@ -76,7 +78,7 @@ Gli utenti che hanno accesso a una visualizzazione dati possono lavorare solo co
 
 Ecco un esempio relativo all&#39;assistenza sanitaria: Supponiamo che tu crei una metrica chiamata &quot;Ipertensione&quot; in una visualizzazione dati, da un set di dati che include questi dati. Il fatto che si tratti di una metrica vi permetterebbe di vedere il valore aggregato di questa metrica, ma non i singoli pazienti che vi rientrano.
 
-## Autorizzazioni CJA
+## Autorizzazioni CJA in Admin Console
 
 La **[!UICONTROL Permissions]** tab fa parte di ciascun profilo di prodotto in [Admin Console](https://adminconsole.adobe.com/enterprise/). Puoi aggiungere utenti a profili di prodotto specifici. Quindi assegni i diritti a visualizzazioni di dati specifiche e specifica quali autorizzazioni hanno gli utenti in un profilo di prodotto. Di seguito sono elencate le autorizzazioni specifiche per CJA:
 
@@ -86,7 +88,7 @@ La **[!UICONTROL Permissions]** tab fa parte di ciascun profilo di prodotto in [
 | --- | --- |
 | **[!UICONTROL Data Views]** | Se si attiva/disattiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Attualmente, [registri di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) sono disponibili solo tramite l’API . Questa autorizzazione è per una futura interfaccia utente in fase di sviluppo. |
+| **[!UICONTROL Audit Logs Access]** | Attualmente, [registri di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) sono disponibili solo tramite l’API . Questa autorizzazione implementa il controllo delle autorizzazioni sull’API e una prossima interfaccia utente dei registri di controllo. |
 | **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare i rapporti in esecuzione nella propria azienda. La funzionalità di utilizzo dei rapporti non è ancora stata rilasciata. |
 | **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. La funzionalità di utilizzo dei rapporti non è ancora stata rilasciata. |
 | **[!UICONTROL Calculated Metrics Creation]** | Consente agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). |
