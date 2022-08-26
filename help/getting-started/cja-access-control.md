@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
+source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 16%
 
 ---
 
@@ -97,3 +97,5 @@ La **[!UICONTROL Permissions]** tab fa parte di ciascun profilo di prodotto in [
 | **[!UICONTROL Annotation Creation]** | Consente agli utenti di creare [annotazioni](/help/components/annotations/overview.md). |
 | **[!UICONTROL Audience Creation]** | Consente agli utenti di creare [pubblico](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Consente agli utenti di visualizzare [pubblico](/help/components/audiences/audiences-overview.md). |
+
+{style=&quot;table-layout:auto&quot;}
