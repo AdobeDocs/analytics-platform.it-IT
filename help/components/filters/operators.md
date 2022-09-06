@@ -2,10 +2,10 @@
 title: Operatori di filtro
 description: Determinare in che modo un componente interagisce con un valore all’interno di un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: 87da431752c235c442d13fd185c7ab8f6cf20eba
+source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 46%
+source-wordcount: '591'
+ht-degree: 45%
 
 ---
 
@@ -19,6 +19,7 @@ Il Generatore di filtri consente di confrontare e vincolare i valori utilizzando
 | --- | --- |
 | è uguale a | Restituisce elementi che corrispondono esattamente a un valore numerico o stringa. Se utilizzi caratteri jolly, utilizza l’operatore &quot;corrisponde a&quot;. |
 | non è uguale a | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito.  Se utilizzi caratteri jolly, utilizza l’operatore &quot;non corrisponde a&quot;. |
+| è uguale a uno qualsiasi di | Restituisce tutti gli elementi che contengono la corrispondenza dei valori della sottostringa immessi, delimitati da una virgola. |
 | contiene | Restituisce elementi paragonabili alle sottostringhe dei valori inseriti. Ad esempio, se la regola per una dimensione stringa contiene `"Search"`, corrisponde a qualsiasi pagina con la sottostringa `"Search"` in esso, compresi `"Search Results"`, `"Search"`e `"Searching"`. Questo operatore distingue tra maiuscole e minuscole. |
 | non contiene | Tutti gli elementi che corrispondono al valore immesso vengono esclusi dai risultati. Ad esempio, se la regola per una dimensione stringa non contiene `"Search"`, esclude qualsiasi pagina con la sottostringa `"Search"` in esso, compresi `"Search Results"`, `"Search"`e `"Searching"`. |
 | contiene tutti | Restituisce elementi che includono tutte le sottostringhe (separate da uno spazio) in qualsiasi ordine. Ad esempio, immettendo `"Search Results"` con questo operatore corrisponde `"Search Results"` e `"Results of Search"`, ma non `"Search"` o `"Results"` indipendentemente. Questo operatore supporta fino a 100 parole delimitate da spazi. |
