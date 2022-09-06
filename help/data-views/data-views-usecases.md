@@ -4,9 +4,9 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
+source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1177'
 ht-degree: 76%
 
 ---
@@ -95,11 +95,15 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 * Per un dato canale di marketing, o una campagna specifica, esegui il targeting per gli utenti alla prima volta? In che modo questa scelta influisce sui tassi di conversione?
 
-Due componenti facilitano questo reporting:
+Tre componenti facilitano questo reporting:
 
 * 1 dimensione: [tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
 
-* 1 metriche: [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+* 2 metriche:
+
+   * [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Una nuova sessione è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+
+   * [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Le sessioni di ritorno sono il numero di sessioni che non sono state le prime sessioni di una persona.
 
 Per accedere a questi componenti:
 

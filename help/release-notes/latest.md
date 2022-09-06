@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
+source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 64%
+source-wordcount: '519'
+ht-degree: 63%
 
 ---
 
 # Note sulla versione del Customer Journey Analytics corrente (CJA) (agosto 2022)
 
-**Ultimo aggiornamento**: 25 agosto 2022
+**Ultimo aggiornamento**: 6 settembre 2022
 
 ## Funzioni chiave
 
@@ -25,6 +25,7 @@ ht-degree: 64%
 | **Supporto del campo data in CJA** | Consente a CJA di creare rapporti sui campi data e ora. [Ulteriori informazioni](/help/data-views/data-views-usecases.md#date) | 17 agosto 2022 |
 | **Supporto tra aree geografiche per il connettore origine di Analytics** | È ora possibile acquisire suite di rapporti da qualsiasi regione (Stati Uniti, Regno Unito o Singapore). Tuttavia, queste suite di rapporti devono essere mappate nella stessa organizzazione dell’istanza Sandbox di Experience Platform in cui viene creata la connessione sorgente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) | 24 agosto 2022 |
 | **Report della prima sessione** | Ora puoi scoprire se una particolare sessione è stata la prima di un utente in assoluto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) | 24 agosto 2022 |
+| **Ripeti generazione rapporti sessione** | Scopri se una particolare sessione è stata una sessione di ritorno dell’utente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 8 settembre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
