@@ -3,9 +3,9 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello sperimentale
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
+source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dime
 
 ![etichetta di contesto](assets/context-label.png)
 
-Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto non ci saranno esperimenti con cui lavorare.
+Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto non vi sono esperimenti con cui lavorare.
 
 ## Passaggio 3: Configurare il pannello Esperimento
 
@@ -70,13 +70,9 @@ Il pannello Sperimentazione restituisce un set completo di dati e visualizzazion
 
 Viene inoltre visualizzato un riepilogo del testo che indica se l’esperimento è conclusivo o meno e riepiloga il risultato. La conclusione si basa sulla rilevanza statistica. (Vedi &quot;Metodologia statistica&quot; di seguito.) Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori con l’incremento e l’affidabilità più elevati.
 
->[!NOTE]
->
->Incremento e affidabilità [funzioni metriche calcolate avanzate](/help/components/calc-metrics/cm-adv-functions.md) in CJA, così puoi creare metriche di incremento e affidabilità personalizzate.
+Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
 
 ![uscita sperimentale](assets/exp-output1.png)
-
-Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
 
 La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control Variant] prestazioni:
 
@@ -85,6 +81,10 @@ La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control 
 >[!NOTE]
 >
 >Al momento questo pannello non supporta l’analisi dei test A/A.
+
+>[!NOTE]
+>
+>Incremento e affidabilità [funzioni metriche calcolate avanzate](/help/components/calc-metrics/cm-adv-functions.md) in CJA, così puoi creare metriche di incremento e affidabilità personalizzate.
 
 ## Passaggio 5: Interpretare i risultati
 
