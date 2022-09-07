@@ -3,9 +3,9 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello sperimentale
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
+source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1281'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto
 ![pannello sperimentale](assets/experiment.png)
 
 >[!IMPORTANT]
->Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, riceverai un messaggio a tal fine prima di procedere.
+>Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, riceverai questo messaggio prima di procedere: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
 
 1. Configura le impostazioni di input del pannello.
 
@@ -64,7 +64,7 @@ Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto
 
 1. Fai clic su **[!UICONTROL Build]**.
 
-## Passaggio 4: Interpretare l’output del pannello
+## Passaggio 4: Visualizza l&#39;output del pannello
 
 Il pannello Sperimentazione restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello facendo clic sulla matita di modifica in alto a destra.
 
@@ -76,25 +76,17 @@ Viene inoltre visualizzato un riepilogo del testo che indica se l’esperimento 
 
 ![uscita sperimentale](assets/exp-output1.png)
 
-Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione:
-
-![uscita sperimentale](assets/exp-output2.png)
+Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
 
 La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control Variant] prestazioni:
 
-![uscita sperimentale](assets/exp-output3.png)
+![uscita sperimentale](assets/exp-output2.png)
 
 >[!NOTE]
 >
 >Al momento questo pannello non supporta l’analisi dei test A/A.
 
-## Metodologia statistica dell&#39;Adobe
-
-Per fornire un’inferenza statistica facilmente interpretabile e sicura, l’Adobe ha adottato una metodologia statistica basata sui [Sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
-
-Una sequenza di affidabilità è un analogico &quot;sequenziale&quot; di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere i tuoi esperimenti cento volte e di calcolare una stima della metrica media di business (ad esempio il tasso di apertura di un’e-mail) e della sequenza di affidabilità al 95% associata per *ogni nuovo utente* entra nell&#39;esperimento. Una sequenza di affidabilità del 95% includerà il valore &quot;true&quot; della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore falsi positivi, ovvero permettono di &quot;sbirciare&quot; nei risultati.
-
-### Interpretazione dei risultati
+## Passaggio 5: Interpretare i risultati
 
 1. **L&#39;esperimento è conclusivo**: Ogni volta che visualizzi il rapporto sulla sperimentazione, l&#39;Adobe analizza i dati accumulati nell&#39;esperimento fino a questo punto e dichiarerà un esperimento &quot;Conclusivo&quot; quando la fiducia valida supera una soglia del 95% per *almeno uno* delle varianti (con una correzione Bonferonni applicata quando ci sono più di due bracci, per correggere per test di ipotesi multiple).
 
@@ -106,4 +98,12 @@ Una sequenza di affidabilità è un analogico &quot;sequenziale&quot; di un inte
 
 5. **Affidabilità**: La confidenza valida per ogni tempo mostrata è una misura probabilistica della quantità di prove che dimostrano che una data variante è la stessa della variante di controllo. Una maggiore affidabilità indica meno prove dell&#39;ipotesi che la variante di controllo e non di controllo abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata è una probabilità (espressa in percentuale) che avremmo osservato una differenza minore nei tassi di conversione tra una data variante e il controllo, se in realtà non c’è differenza nei veri tassi di conversione sottostanti. In termini di *p*-valori, l&#39;affidabilità visualizzata è 1 - *p*-value.
 
-Si noti tuttavia che una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ad esempio la progettazione di esperimenti, le dimensioni dei campioni, i tassi di conversione, la fiducia, ecc.) e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora &quot;conclusivo&quot;, ci possono essere prove convincenti che una variante sia diversa da un&#39;altra (ad esempio, gli intervalli di affidabilità sono quasi non sovrapposti). Idealmente, il processo decisionale dovrebbe essere informato da tutte le prove statistiche, interpretate su uno spettro continuo.
+>[!NOTE]
+>
+>Una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ad esempio la progettazione di esperimenti, le dimensioni dei campioni, i tassi di conversione, la fiducia, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora &quot;conclusivo&quot;, ci possono essere prove convincenti che una variante sia diversa da un&#39;altra (ad esempio, gli intervalli di affidabilità sono quasi non sovrapposti). Idealmente, il processo decisionale dovrebbe essere informato da tutte le prove statistiche, interpretate su uno spettro continuo.
+
+## Metodologia statistica dell&#39;Adobe
+
+Per fornire un’inferenza statistica facilmente interpretabile e sicura, l’Adobe ha adottato una metodologia statistica basata sui [Sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
+
+Una sequenza di affidabilità è un analogico &quot;sequenziale&quot; di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere i tuoi esperimenti cento volte e di calcolare una stima della metrica media di business (ad esempio il tasso di apertura di un’e-mail) e della sequenza di affidabilità al 95% associata per *ogni nuovo utente* entra nell&#39;esperimento. Una sequenza di affidabilità del 95% includerà il valore &quot;true&quot; della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore falsi positivi, ovvero permettono di &quot;sbirciare&quot; nei risultati.
