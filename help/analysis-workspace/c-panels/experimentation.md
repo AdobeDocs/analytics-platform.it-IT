@@ -3,7 +3,7 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello sperimentale
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
+source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 4%
@@ -34,8 +34,8 @@ Dopo che i dati dell&#39;esperimento sono stati [acquisito](https://experiencele
 
 Nelle impostazioni delle visualizzazioni dati di CJA, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e ai servizi CJA come [!UICONTROL Experimentation] possono utilizzare queste etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
-* [!UICONTROL Experiment]
-* [!UICONTROL Variant]
+* [!UICONTROL Experimentation Experiment]
+* [!UICONTROL Experimentation Variant]
 
 Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi etichettate queste dimensioni con il **[!UICONTROL Experiment]** e **[!UICONTROL Variant]** etichette.
 
