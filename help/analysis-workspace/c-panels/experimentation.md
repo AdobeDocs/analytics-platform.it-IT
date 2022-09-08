@@ -3,9 +3,9 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello sperimentale
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
+source-git-commit: 31f29e9453d252f119a4fa7c26f96e9f01ed2abf
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1355'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,8 @@ La **[!UICONTROL Experimentation]** consente agli analisti di confrontare divers
 Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
 
 ## Passaggio 1: Creare una connessione per sperimentare i set di dati
+
+Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [Matrice oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) che contiene l’esperimento e i dati della variante in due dimensioni separate. Se i dati dell’esperimento sono in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare la variabile [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due per l’utilizzo nel pannello.
 
 Dopo che i dati dell&#39;esperimento sono stati [acquisito](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [creare una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati di prova.
 
@@ -76,7 +78,7 @@ Per ogni metrica di successo selezionata, verrà visualizzata una tabella a form
 
 La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control Variant] prestazioni:
 
-![uscita sperimentale](assets/exp-output2.png)
+![output grafico a linee](assets/exp-output2.png)
 
 >[!NOTE]
 >
