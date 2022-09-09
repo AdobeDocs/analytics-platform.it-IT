@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 99%
+source-wordcount: '757'
+ht-degree: 95%
 
 ---
 
@@ -230,6 +230,11 @@ ht-degree: 99%
    + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + Casi d’uso {#cja-usecases}
+   + Google Analytics dati {#ga}
+      + [Panoramica sulla migrazione dei dati da Google Analytics a CJA](use-cases/ga/overview.md)
+      + [Inserire dati storici Google Analytics in Platform](use-cases/ga/backfill.md)
+      + [Configurare i dati delle Google Analytics di streaming in Platform](use-cases/ga/streaming.md)
+      + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga/report.md)
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Combinare suite di rapporti con schemi diversi](use-cases/combine-report-suites.md)
    + [Utilizzare gli array di oggetti](use-cases/object-arrays.md)
@@ -241,8 +246,6 @@ ht-degree: 99%
    + [Importare dati web e call center](use-cases/call-center.md)
    + [Casi d’uso per l’acquisizione di dati](use-cases/data-ingestion.md)
    + [Utilizzare le dimensioni del canale di marketing](use-cases/marketing-channels.md)
-   + [Acquisire dati Google Analytics in Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Guida utente di Labs](labs/labs.md)
 + Risoluzione dei problemi {#troubleshooting}
