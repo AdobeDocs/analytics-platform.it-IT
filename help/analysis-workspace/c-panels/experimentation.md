@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello sperimentale
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,10 +83,6 @@ La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control 
 >[!NOTE]
 >
 >Al momento questo pannello non supporta l’analisi dei test A/A.
-
->[!NOTE]
->
->Incremento e affidabilità [funzioni metriche calcolate avanzate](/help/components/calc-metrics/cm-adv-functions.md) in CJA, così puoi creare metriche di incremento e affidabilità personalizzate.
 
 ## Passaggio 5: Interpretare i risultati
 
