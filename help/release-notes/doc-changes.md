@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
+source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 94%
+source-wordcount: '993'
+ht-degree: 93%
 
 ---
 
@@ -15,29 +15,32 @@ ht-degree: 94%
 
 I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin dalla sua introduzione.
 
+## 2022
+
 | Data | Descrizione aggiornamento |
 | --- | --- |
-| Agosto 2022 | Articolo Adobe Experience Platform su [Supporto tra aree geografiche per il connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) |
-| Agosto 2022 | Articolo significativamente aggiornato su [Controllo degli accessi CJA](/help/getting-started/cja-access-control.md) |
-| Agosto 2022 | Nuovo articolo su [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md) |
-| Agosto 2022 | Nuova sezione su [Supporto del campo data in CJA](/help/data-views/data-views-usecases.md#date) |
-| Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md) |
-| Agosto 2022 | Nuova documentazione sulla [pubblicazione di tipi di pubblico sul Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it) |
+| Settembre 2022 | Nuovo argomento su [Grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
+| Settembre 2022 | Nuovo argomento su [Pannello sperimentale](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
+| Agosto 2022 | Articolo Adobe Experience Platform su [Supporto tra aree geografiche per il connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
+| Agosto 2022 | Articolo significativamente aggiornato su [Controllo degli accessi CJA](/help/getting-started/cja-access-control.md). |
+| Agosto 2022 | Nuovo articolo su [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
+| Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
+| Agosto 2022 | Nuova documentazione sulla [pubblicazione di tipi di pubblico sul Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=it). |
-| Luglio 2022 | [Prima sessione e Ripeti sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) documentazione sul reporting. |
+| Luglio 2022 | [Prima sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) documentazione sul reporting. |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=it) |
-| Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
-| Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
-| Giugno 2022 | Nuovo articolo sul [confronto dell’elaborazione dei dati tra le funzioni di reporting di Adobe Analytics e CJA](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
-| Giugno 2022 | Nuovo articolo sulla [combinazione di suite di rapporti con schemi diversi](/help/use-cases/combine-report-suites.md) |
-| Giugno 2022 | Nuovo articolo sulla [condivisione di annotazioni nelle scorecard per dispositivi mobili](/help/components/annotations/mobile-annotations.md) |
-| Giugno 2022 | Nuovo articolo su [Labs di Analytics in CJA](/help/labs/labs.md) |
-| Giugno 2022 | Nuova sezione sul [supporto di campi numerici come chiavi e valori di ricerca](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#numeric) |
-| Giugno 2022 | È stata aggiornata la pagina relativa [flusso di lavoro della visualizzazione Flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
+| Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
+| Giugno 2022 | Nuovo articolo sul [confronto dell’elaborazione dei dati tra le funzioni di reporting di Adobe Analytics e CJA](/help/getting-started/aa-vs-cja/data-processing-comparisons.md). |
+| Giugno 2022 | Nuovo articolo sulla [combinazione di suite di rapporti con schemi diversi](/help/use-cases/combine-report-suites.md). |
+| Giugno 2022 | Nuovo articolo sulla [condivisione di annotazioni nelle scorecard per dispositivi mobili](/help/components/annotations/mobile-annotations.md). |
+| Giugno 2022 | Nuovo articolo su [Labs di Analytics in CJA](/help/labs/labs.md). |
+| Giugno 2022 | Nuova sezione sul [supporto di campi numerici come chiavi e valori di ricerca](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#numeric). |
+| Giugno 2022 | È stata aggiornata la pagina relativa [flusso di lavoro della visualizzazione Flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | Maggio 2022 | Articolo con aggiornamenti importanti sulla [creazione di connessioni](/help/connections/create-connection.md) in CJA. |
-| Maggio 2022 | Nuovo articolo su come [gestire i blocchi di dati nel Report Builder di CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=it) |
-| Maggio 2022 | Nuovo articolo sull’[acquisizione del pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md) |
+| Maggio 2022 | Nuovo articolo su come [gestire i blocchi di dati nel Report Builder di CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=it). |
+| Maggio 2022 | Nuovo articolo sull’[acquisizione del pubblico Adobe Experience Platform in CJA](/help/use-cases/ingest-aep-segments.md). |
 | Aprile 2022 | Documentazione sulle [sottostringhe di dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html?lang=it). |
 | Aprile 2022 | Nuova [Guida di CJA per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md). |
 | Marzo 2022 | Nuova [Documentazione su Annotations API per CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
@@ -47,6 +50,13 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Gennaio 2022 | Nuovo caso d’uso per [Utilizzo di dimensioni e metriche di binding in CJA](/help/use-cases/binding-dimensions-metrics.md) |
 | Gennaio 2022 | È stata aggiunta nuova documentazione su [dimensioni e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) e su [[!UICONTROL First Known] e [!UICONTROL Last Known] impostazioni di allocazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#allocation-settings) |
 | Gennaio 2022 | È stato aggiunto un articolo su [confronto dei dati di Adobe Analytics con quelli di Analytics in CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=it) |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2021
+
+| Data | Descrizione aggiornamento |
+| --- | --- |
 | Novembre 2021 | È stata aggiornata la documentazione su [[!UICONTROL Records skipped]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) nella pagina Dettagli connessioni. |
 | Ottobre 2021 | Documentazione su [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html?lang=it#) in CJA. |
 | Ottobre 2021 | Documentazione API [Registro di controllo](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) di Customer Journey Analytics |
@@ -72,6 +82,13 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Febbraio 2021 | Nuovo argomento sull’utilizzo di [dimensioni del canale di marketing in Adobe Experience Platform](/help/use-cases/marketing-channels.md). |
 | Febbraio 2021 | È stata pubblicata la nuova documentazione delle [API di CJA](https://www.adobe.io/cja-apis/docs/). |
 | Gennaio 2021 | Nuovo argomento sull’[aggiunta di ricerche globali al set di dati](/help/connections/standard-lookups.md). |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2020
+
+| Data | Descrizione aggiornamento |
+| --- | --- |
 | 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/connections/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
 | 13 novembre 2020 | È stato aggiunto un nuovo caso d’uso sull’[importazione di dati da call center e web](/help/use-cases/call-center.md). |
 | 10 novembre 2020 | È stata aggiunta una sezione sulle implicazioni dell’eliminazione dei componenti dati, nelle [Domande frequenti](/help/getting-started/cja-faq.md). |
