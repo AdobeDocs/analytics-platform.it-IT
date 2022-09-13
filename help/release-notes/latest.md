@@ -5,8 +5,8 @@ exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Supporto tra aree geografiche per il connettore origine di Analytics** | È ora possibile acquisire suite di rapporti da qualsiasi regione (Stati Uniti, Regno Unito o Singapore). Tuttavia, queste suite di rapporti devono essere mappate nella stessa organizzazione dell’istanza Sandbox di Experience Platform in cui viene creata la connessione sorgente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) | 24 agosto 2022 |
+| **Supporto per aree geografiche diverse per il connettore di origine di Analytics** | È ora possibile acquisire suite di rapporti da qualsiasi area geografica (Stati Uniti, Regno Unito o Singapore). Tuttavia, queste suite di rapporti devono essere mappate sulla stessa organizzazione dell’istanza Sandbox di Experience Platform in cui viene creata la connessione di origine. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) | 24 agosto 2022 |
 | **Report della prima sessione** | Scopri se una particolare sessione è stata la prima di un utente. [Ulteriori informazioni](/help/data-views/data-views-usecases.md) | 24 agosto 2022 |
 | **Pannello di sperimentazione per CJA** | Questo nuovo pannello Workspace consente agli utenti di CJA di valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi sorgente (online, offline, dalle soluzioni di Adobe, Adobe Journey Optimizer e persino dai dati BYO (fai-da-te). [Ulteriori informazioni](/help/analysis-workspace/c-panels/experimentation.md) | [Versione limitata](/help/release-notes/releases.md) a partire dal 14 settembre 2022 |
 | **Visualizzazione grafici combinati in Workspace** | I grafici combinati consentono di confrontare le metriche in modo più semplice e intuitivo all’interno di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts.html?lang=en) | 14 settembre 2022 |

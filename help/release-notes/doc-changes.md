@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -24,8 +24,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Settembre 2022 | Nuovo argomento su [Pannello sperimentale](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | Agosto 2022 | Articolo Adobe Experience Platform su [Supporto tra aree geografiche per il connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
 | Agosto 2022 | Articolo significativamente aggiornato su [Controllo degli accessi CJA](/help/getting-started/cja-access-control.md). |
-| Agosto 2022 | Nuovo articolo su [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
-| Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
+| Agosto 2022 | Nuovo articolo sul [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
+| Agosto 2022 | Nuovo articolo sul [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
 | Agosto 2022 | Nuova documentazione sulla [pubblicazione di tipi di pubblico sul Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=it). |

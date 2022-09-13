@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 95%
       + [Bucketing dei valori](data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](data-views/component-reference.md)
    + [Casi d’uso per le visualizzazioni dati](data-views/data-views-usecases.md)
-   + [Etichette e politiche](data-views/data-governance.md)
+   + [Etichette e criteri](data-views/data-governance.md)
 + Progetti Workspace {#cja-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Eseguire analisi di base](analysis-workspace/perform-basic-analysis.md)
@@ -124,7 +124,7 @@ ht-degree: 95%
       + [Panoramica dei pannelli](analysis-workspace/c-panels/panels.md)
       + [Pannello Attribution](analysis-workspace/c-panels/attribution.md)
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
-      + [Pannello sperimentale](analysis-workspace/c-panels/experimentation.md)
+      + [Pannello Sperimentazione](analysis-workspace/c-panels/experimentation.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
@@ -170,7 +170,7 @@ ht-degree: 95%
    + [Utilizzare i filtri](report-builder/work-with-filters.md)
    + [Dimensioni filtro](report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](report-builder/manage-reportbuilder.md)
-   + [Etichette limitate](report-builder/restricted-labels.md)
+   + [Etichette per limitazioni](report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Componenti {#cja-components}
    + [Panoramica dei componenti](components/overview.md)
