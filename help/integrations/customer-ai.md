@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ In CJA, ora puoi [creare visualizzazioni dati](/help/data-views/create-dataview.
 
 ### Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
 
-In CJA Workspace, crea un nuovo progetto ed effettua il pull-in delle visualizzazioni.
+In CJA Workspace, ora puoi creare un nuovo progetto e richiamare le visualizzazioni.
 
 **Generare punteggi di tendenza**
 
