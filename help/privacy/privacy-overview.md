@@ -3,7 +3,7 @@ title: Customer Journey Analytics e governance dei dati
 description: Descrive il funzionamento della governance dei dati nel Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
