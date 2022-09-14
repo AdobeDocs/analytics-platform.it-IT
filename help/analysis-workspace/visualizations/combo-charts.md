@@ -4,30 +4,24 @@ title: Visualizzazione di grafici combinati
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 34%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
 # Grafico combinato
 
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
-
 La [!UICONTROL Combo chart] la visualizzazione consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare facilmente le tendenze nei tuoi dati in una combinazione riga/barra.
 
-Utilizza un [!UICONTROL Combo chart] a
+Utilizza un [!UICONTROL Combo chart] a:
 
 * Confronta gli ordini di questa settimana con quelli dello scorso mese (e dello scorso anno), il tutto in pochi clic.
-
 * Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Unique Visitors] e [!UICONTROL Revenue]) sullo stesso grafico.
-
 * Analizzare una metrica rispetto a una funzione (ad esempio [!UICONTROL Cumulative Average]) su un orizzonte temporale.
 
-Tieni presente che puoi
+Tieni presente che puoi:
 
 * Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
@@ -38,7 +32,7 @@ Tieni presente che puoi
 
 1. Dall’elenco a discesa Visualizzazioni nella barra a sinistra, trascina [!UICONTROL Combo chart] visualizzazione in un pannello vuoto.
 
-   ![](assets/combo-chart-build.png)
+   ![Crea](assets/combo-chart-build.png)
 
 1. Dall’elenco a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
@@ -46,9 +40,9 @@ Tieni presente che puoi
 
    | Tipo di confronto delle linee | Definizione |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune - paragonando questo periodo di tempo a 4 settimane fa, per esempio. Se hai selezionato [!UICONTROL Time comparison], seleziona un periodo di tempo secondario da confrontare.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | Si potrebbe introdurre una funzione come [!UICONTROL Average] nel confronto. Di seguito è riportato un elenco delle funzioni supportate.<p>![](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune - paragonando questo periodo di tempo a 4 settimane fa, per esempio. Se hai selezionato [!UICONTROL Time comparison], seleziona un periodo di tempo secondario da confrontare.<p>![Periodo di tempo](assets/combo-time-period.png) |
+   | **[!UICONTROL Function]** | Si potrebbe introdurre una funzione come [!UICONTROL Average] nel confronto. Di seguito è riportato un elenco delle funzioni supportate.<p>![Funzioni](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![Due metriche](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -56,7 +50,7 @@ Tieni presente che puoi
 
    L&#39;output sarà simile al seguente:
 
-   ![](assets/combo-output.png)
+   ![Output](assets/combo-output.png)
 
    Il periodo corrente viene visualizzato nel grafico a barre e il periodo di confronto è rappresentato dal grafico a linee. I punti del grafico a linee sono noti come &quot;campane a barre&quot;.
 
@@ -78,17 +72,17 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], vien
 
 Ecco un esempio della media cumulativa della metrica Ricavo:
 
-![](assets/combo-cumul-avg.png)
+![Media cumulativa](assets/combo-cumul-avg.png)
 
 Di seguito è riportato un esempio di grafico combinato con funzioni Media cumulativa e Media:
 
-![](assets/combo-two-functions.png)
+![Due funzioni](assets/combo-two-functions.png)
 
 ## Impostazioni del grafico combinato
 
 Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico combinato per modificarne le impostazioni.
 
-![](assets/combo-settings.png)
+![Impostazioni](assets/combo-settings.png)
 
 | Impostazione | Definizione |
 | --- | --- |
