@@ -5,9 +5,9 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1189'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Prima di utilizzare Cross-Channel Analytics, assicurati che l’organizzazione s
 
 >[!IMPORTANT]
 >
->Qualsiasi modifica allo schema del set di dati dell’evento globale deve essere applicata anche nel nuovo schema del set di dati con unione, altrimenti interromperà il set di dati con unione.
+>Qualsiasi modifica allo schema del set di dati dell’evento globale deve essere applicata anche nel nuovo schema del set di dati uniti, altrimenti il set di dati uniti verrà interrotto.
 >
 >Inoltre, se rimuovi il set di dati di origine, il set di dati uniti non elabora più i dati e viene rimosso dal sistema.
 
@@ -51,9 +51,9 @@ Cross-Channel Analytics è una funzione innovativa e affidabile, ma presenta lim
 * Le attuali funzionalità di rekeying sono limitate a un solo passaggio (ID persistente a ID transitorio). La reimpostazione in più passaggi (ad esempio, ID persistente in un ID transitorio e quindi in un altro ID transitorio) non è supportata.
 * Sono supportati solo i set di dati evento. Altri set di dati, come i set di dati di ricerca, non sono supportati.
 * Le mappe ID personalizzate utilizzate nell&#39;organizzazione non sono supportate.
-* Il grafico Private multidispositivo non è supportato.
+* Il grafico Privato cross-device non è supportato.
 * Cross-Channel Analytics non trasforma in alcun modo il campo utilizzato per l’unione. L’unione basata sui campi utilizza il valore nel campo specificato così come esiste nel set di dati non uniti all’interno del data lake. Il processo di creazione dei punti distingue tra maiuscole e minuscole. Ad esempio, se a volte nel campo viene visualizzata la parola “Bob” e a volte viene visualizzata la parola “BOB”, queste verranno trattate come due persone separate.
-* Dato che l’unione basata sui campi distingue tra maiuscole e minuscole per i set di dati di Analytics generati tramite il connettore origine di Analytics, Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
+* Dato che l’unione basata sui campi distingue tra maiuscole e minuscole, per i set di dati di Analytics generati tramite il connettore dati sorgente di Analytics Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
 * L’unione basata sui campi non combina o concatena i campi.
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
