@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 96%
    + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + Casi d’uso {#cja-usecases}
-   + Google Analytics dati {#ga}
+   + Dati di Google Analytics {#ga}
       + [Panoramica sulla migrazione dei dati da Google Analytics a CJA](use-cases/ga/overview.md)
-      + [Inserire dati storici Google Analytics in Platform](use-cases/ga/backfill.md)
-      + [Configurare i dati delle Google Analytics di streaming in Platform](use-cases/ga/streaming.md)
+      + [Acquisire dati storici Google Analytics in Platform](use-cases/ga/backfill.md)
+      + [Configurare i dati streaming di Google Analytics in Platform](use-cases/ga/streaming.md)
       + [Generare rapporti sui dati Google Analytics in CJA](use-cases/ga/report.md)
    + [Casi d’uso di Customer Journey Analytics](use-cases/cja-usecases.md)
    + [Combinare suite di rapporti con schemi diversi](use-cases/combine-report-suites.md)

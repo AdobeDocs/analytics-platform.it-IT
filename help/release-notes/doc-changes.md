@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
-| Settembre 2022 | Nuovo caso d’uso su [Migrazione dei dati delle Google Analytics a CJA](/help/use-cases/ga/overview.md). |
-| Settembre 2022 | Nuovo argomento su [Grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
-| Settembre 2022 | Nuovo argomento su [Pannello sperimentale](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
-| Agosto 2022 | Articolo Adobe Experience Platform su [Supporto tra aree geografiche per il connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
-| Agosto 2022 | Articolo significativamente aggiornato su [Controllo degli accessi CJA](/help/getting-started/cja-access-control.md). |
+| Settembre 2022 | Nuovo caso d’uso sulla [migrazione dei dati da Google Analytics a CJA](/help/use-cases/ga/overview.md). |
+| Settembre 2022 | Nuovo argomento sui [grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
+| Settembre 2022 | Nuovo argomento sul [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
+| Agosto 2022 | Articolo Adobe Experience Platform sul [supporto per aree geografiche diverse per il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
+| Agosto 2022 | Articolo con uimportanti aggiornato sul [controllo degli accessi a CJA](/help/getting-started/cja-access-control.md). |
 | Agosto 2022 | Nuovo articolo sul [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
 | Agosto 2022 | Nuovo articolo sul [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
-| Agosto 2022 | Nuova documentazione sulla [pubblicazione di tipi di pubblico sul Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |
+| Agosto 2022 | Nuova documentazione sulla [Pubblicazione di tipi di pubblico su Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it). |
 | Luglio 2022 | Documentazione del [pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=it). |
-| Luglio 2022 | [Prima sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) documentazione sul reporting. |
+| Luglio 2022 | Documentazione del reporting per [Prima sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=it) |
 | Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
 | Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |

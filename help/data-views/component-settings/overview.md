@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: baee2ccf6eec040972726b9651ffe565d50307a9
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Impostazioni di base utilizzate da un componente di vista dati.
 | [!UICONTROL Component Name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
 | [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
 | [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette definite dal sistema disponibili che possono essere applicate a un componente. Queste etichette possono essere necessarie per definire un set di componenti utilizzati per la generazione di rapporti nei progetti o nei pannelli di Analysis Workspace. |
+| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. Queste etichette possono essere necessarie per definire un set di componenti utilizzati per la generazione di rapporti nei progetti o nei pannelli di Analysis Workspace. |
 | [!UICONTROL Schema field name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
