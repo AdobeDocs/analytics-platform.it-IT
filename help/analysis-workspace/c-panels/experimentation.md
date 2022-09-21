@@ -1,82 +1,82 @@
 ---
-description: Scopri come analizzare i risultati dei test A/B nel pannello Sperimentazione CJA .
-title: Pannello sperimentale
+description: Scopri come analizzare i risultati dei test A/B nel pannello Sperimentazione di CJA.
+title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1333'
+ht-degree: 100%
 
 ---
 
-# Pannello sperimentale
+# Pannello Sperimentazione
 
 >[!NOTE]
 >
 >Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
-La **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, Adobe Journey Optimizer e persino i dati BYO (risorse disponibili).
+Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, Adobe Journey Optimizer e persino da dati BYO (risorse disponibili).
 
 >[!IMPORTANT]
 >
->A questo punto, [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) dati inviati in Adobe Experience Platform tramite il connettore sorgente di Analytics **impossibile** essere analizzati nella [!UICONTROL Experimentation] pannello. Ci attendiamo una soluzione a questo problema nel 2023.
+>A questo punto, i dati di [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) (A4T) introdotti in Adobe Experience Platform tramite il connettore di origine di Analytics **non possono** essere analizzati nel pannello [!UICONTROL Experimentation]. Prevediamo una soluzione a questo limite nel 2023.
 
 ## Controllo degli accessi
 
-Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
+Il pannello Sperimentazione è disponibile per l’utilizzo da parte di tutti gli utenti di Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
 
-## Passaggio 1: Creare una connessione per sperimentare i set di dati
+## Passaggio 1: creare una connessione per i set di dati dell’esperimento
 
-Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [Matrice oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) che contiene l’esperimento e i dati della variante in due dimensioni separate. Se i dati dell’esperimento sono in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare la variabile [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due per l’utilizzo nel pannello.
+Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=it) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Se i dati dell’esperimento sono inclusi in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare l’impostazione [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due e utilizzarle nel pannello.
 
-Dopo che i dati dell&#39;esperimento sono stati [acquisito](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [creare una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati di prova.
+Dopo che i dati dell’esperimento sono stati [acquisiti](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [crea una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati per l’esperimento.
 
-## Passaggio 2: Aggiungere etichette di contesto nelle visualizzazioni dati
+## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati
 
-Nelle impostazioni delle visualizzazioni dati di CJA, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e ai servizi CJA come [!UICONTROL Experimentation] possono utilizzare queste etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
+Nelle impostazioni delle visualizzazioni dati di CJA, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi CJA come il pannello [!UICONTROL Experimentation] possono utilizzare tali etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
 
-Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi etichettate queste dimensioni con il **[!UICONTROL Experiment]** e **[!UICONTROL Variant]** etichette.
+Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi assegna a queste dimensioni le etichette **[!UICONTROL Experiment]** e **[!UICONTROL Variant]**.
 
 ![etichetta di contesto](assets/context-label.png)
 
-Senza queste etichette presenti, il pannello Esperimento non funziona, in quanto non vi sono esperimenti con cui lavorare.
+Se queste etichette non sono presenti, il pannello Sperimentazione non funziona, in quanto non ci saranno esperimenti su cui lavorare.
 
-## Passaggio 3: Configurare il pannello Esperimento
+## Passaggio 3: configurare il pannello Sperimentazione
 
-1. In CJA Workspace, trascina il pannello Sperimentazione in un progetto.
+1. Nell’area di lavoro di CJA, trascina il pannello Sperimentazione in un progetto.
 
-![pannello sperimentale](assets/experiment.png)
+![pannello sperimentazione](assets/experiment.png)
 
 >[!IMPORTANT]
->Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, riceverai questo messaggio prima di procedere: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
+>Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, prima di poter procedere riceverai un messaggio: “[!UICONTROL Please configure the experiment and variant dimensions in Data Views]”.
 
 1. Configura le impostazioni di input del pannello.
 
    | Impostazione | Definizione |
    | --- | --- |
-   | **[!UICONTROL Experiment]** | Un insieme di varianti di un’esperienza che è stata esposta agli utenti finali per determinare quale è meglio mantenere in perpetuità. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni etichettate con  **[!UICONTROL Experiment]** etichetta nelle visualizzazioni dati e i dati degli ultimi 3 mesi sugli esperimenti. |
-   | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell&#39;esperienza di un utente finale che vengono confrontate allo scopo di identificare l&#39;alternativa migliore. Una variante deve essere selezionata come controllo e una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni etichettate con  **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati della variante associati all&#39;esperimento. |
-   | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (sia essa più alta o più bassa) è dichiarata la &quot;variante con le prestazioni migliori&quot; di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions]oppure [!UICONTROL Events]) in cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti quando **[!UICONTROL Conversion rate]** è calcolato come segue **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
+   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi all’esperimento degli ultimi 3 mesi. |
+   | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
+   | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
+   | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions] oppure [!UICONTROL Events]) su cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
    | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo hit ricevuto in CJA per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
 
 1. Fai clic su **[!UICONTROL Build]**.
 
-## Passaggio 4: Visualizza l&#39;output del pannello
+## Passaggio 4: visualizzare l’output del pannello
 
-Il pannello Sperimentazione restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello facendo clic sulla matita di modifica in alto a destra.
+Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni selezionate per il pannello. In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona Modifica a forma di matita, in alto a destra.
 
-Viene inoltre visualizzato un riepilogo del testo che indica se l’esperimento è conclusivo o meno e riepiloga il risultato. La conclusione si basa sulla rilevanza statistica. (Vedi &quot;Metodologia statistica&quot; di seguito.) Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori con l’incremento e l’affidabilità più elevati.
+Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica. Vedi “Metodologia statistica” di seguito. Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con i valori di incremento e affidabilità più elevati.
 
 Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
 
-![uscita sperimentale](assets/exp-output1.png)
+![output dell’esperimento](assets/exp-output1.png)
 
-La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control Variant] prestazioni:
+Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] rispetto a [!UICONTROL Control Variant]:
 
 ![output grafico a linee](assets/exp-output2.png)
 
@@ -84,24 +84,24 @@ La [!UICONTROL Line] il grafico [!UICONTROL Control] contro [!UICONTROL Control 
 >
 >Al momento questo pannello non supporta l’analisi dei test A/A.
 
-## Passaggio 5: Interpretare i risultati
+## Passaggio 5: interpretare i risultati
 
-1. **L&#39;esperimento è conclusivo**: Ogni volta che visualizzi il rapporto sulla sperimentazione, l&#39;Adobe analizza i dati accumulati nell&#39;esperimento fino a questo punto e dichiarerà un esperimento &quot;Conclusivo&quot; quando la fiducia valida supera una soglia del 95% per *almeno uno* delle varianti (con una correzione Bonferonni applicata quando ci sono più di due bracci, per correggere per test di ipotesi multiple).
+1. **L’esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, Adobe analizza i dati accumulati nell’esperimento fino a questo punto e dichiarerà un esperimento “Conclusivo” se la soglia di affidabilità valida supera il 95% per *almeno una* delle varianti (applicando una correzione Bonferroni in presenza di più di due bracci, per test con più ipotesi).
 
-2. **Variante con prestazioni migliori**: Quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la &quot;variante con le prestazioni migliori&quot;. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera il 95% ogni volta che viene applicata una soglia di affidabilità valida (con le correzioni Bonferonni).
+2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la “variante con le prestazioni migliori”. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia del 95% di affidabilità valida in qualsiasi momento (con correzioni Bonferroni).
 
-3. **Tasso di conversione**: Il tasso di conversione mostrato è un rapporto tra il valore della metrica di successo e il valore della metrica di normalizzazione. Tieni presente che a volte questo può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
+3. **Tasso di conversione**: il tasso di conversione mostrato è un rapporto tra il valore della metrica di successo e il valore della metrica di normalizzazione. Tieni presente che a volte questo può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
 
-4. **Lift**: Il riepilogo del rapporto Esperimento mostra l’Incremento rispetto alla linea di base, che è una misura del miglioramento percentuale del tasso di conversione di una determinata variante rispetto alla linea di base. Definito con precisione, è la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
+4. **Incremento**: il riepilogo del rapporto Esperimento mostra l’Incremento rispetto alla linea di base, che è una misura del miglioramento percentuale del tasso di conversione di una determinata variante rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
-5. **Affidabilità**: La confidenza valida per ogni tempo mostrata è una misura probabilistica della quantità di prove che dimostrano che una data variante è la stessa della variante di controllo. Una maggiore affidabilità indica meno prove dell&#39;ipotesi che la variante di controllo e non di controllo abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata è una probabilità (espressa in percentuale) che avremmo osservato una differenza minore nei tassi di conversione tra una data variante e il controllo, se in realtà non c’è differenza nei veri tassi di conversione sottostanti. In termini di *p*-valori, l&#39;affidabilità visualizzata è 1 - *p*-value.
+5. **Affidabilità**: il valore presentato di affidabilità valida per qualsiasi momento è una misura probabilistica della quantità di prove che dimostrano che una data variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra una data variante e il controllo, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori *p*, l’affidabilità visualizzata è 1 - valore *p*.
 
 >[!NOTE]
 >
->Una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ad esempio la progettazione di esperimenti, le dimensioni dei campioni, i tassi di conversione, la fiducia, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora &quot;conclusivo&quot;, ci possono essere prove convincenti che una variante sia diversa da un&#39;altra (ad esempio, gli intervalli di affidabilità sono quasi non sovrapposti). Idealmente, il processo decisionale dovrebbe essere informato da tutte le prove statistiche, interpretate su uno spettro continuo.
+>Una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ad esempio la progettazione di esperimenti, le dimensioni dei campioni, i tassi di conversione, la fiducia, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora “conclusivo”, ci possono essere prove convincenti che una variante sia diversa da un’altra (ad esempio, intervalli di affidabilità quasi non sovrapposti). Idealmente, il processo decisionale dovrebbe essere informato da tutte le prove statistiche, interpretate su uno spettro continuo.
 
-## Metodologia statistica dell&#39;Adobe
+## Metodologia statistica di Adobe
 
-Per fornire un’inferenza statistica facilmente interpretabile e sicura, l’Adobe ha adottato una metodologia statistica basata sui [Sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
+Per fornire un’inferenza statistica facilmente interpretabile e sicura, Adobe ha adottato una metodologia statistica basata sulle [sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
 
-Una sequenza di affidabilità è un analogico &quot;sequenziale&quot; di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere i tuoi esperimenti cento volte e di calcolare una stima della metrica media di business (ad esempio il tasso di apertura di un’e-mail) e della sequenza di affidabilità al 95% associata per *ogni nuovo utente* entra nell&#39;esperimento. Una sequenza di affidabilità del 95% includerà il valore &quot;true&quot; della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore falsi positivi, ovvero permettono di &quot;sbirciare&quot; nei risultati.
+Una sequenza di affidabilità è un analogico “sequenziale” di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere un esperimento cento volte e di calcolare una stima della metrica di business media (ad esempio il tasso di apertura di un’e-mail) e della relativa sequenza con affidabilità al 95% per *ogni nuovo utente* che entra nell’esperimento. Una sequenza con affidabilità del 95% includerà il valore “true” della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore di tipo falso positivo, ovvero permettono di “sbirciare” nei risultati.
