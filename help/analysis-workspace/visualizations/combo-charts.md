@@ -7,7 +7,7 @@ exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Tieni presente che puoi:
 
 1. Dall’elenco a discesa delle Visualizzazioni nella barra a sinistra, trascina la [!UICONTROL Combo chart] visualizzazione in un pannello vuoto.
 
-   ![Crea](assets/combo-chart-build.png)
+   ![Generare](assets/combo-chart-build.png)
 
 1. Dall’elenco a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
