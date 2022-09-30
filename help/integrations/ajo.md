@@ -1,10 +1,10 @@
 ---
 title: Integrare Adobe Journey Optimizer con il Customer Journey Analytics
 description: Inserisci i dati generati da AJO e analizzali utilizzando Analysis Workspace all’interno di CJA.
-source-git-commit: 28bc99a7f5ec7b280fd26a7a45dc076e67f652dc
+source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 2%
+source-wordcount: '664'
+ht-degree: 3%
 
 ---
 
@@ -41,6 +41,8 @@ Puoi creare le metriche seguenti in una visualizzazione dati per ottenere una pa
 | Messaggi inviati | Numero di messaggi inviati correttamente | Utilizza l’elemento stringa dello schema `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` con le seguenti impostazioni:<br>Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `sent` |
 | Errori di sincronizzazione | Numero totale di messaggi non sincronizzati | Utilizza l’elemento stringa dello schema `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category` con le seguenti impostazioni:<br>Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `sync` |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Configurare le metriche calcolate utilizzando le metriche di Journey Optimizer
 
 Dopo aver configurato le dimensioni e le metriche desiderate per il set di dati di Journey Optimizer, puoi anche configurare [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md) per ulteriori informazioni su tali dati. Queste metriche calcolate si basano sulle metriche sopra riportate create in Data View Manager.
@@ -48,6 +50,8 @@ Dopo aver configurato le dimensioni e le metriche desiderate per il set di dati 
 | Metrica calcolata | Descrizione | Formula |
 | --- | --- | --- |
 | Totale messaggi inviati | Numero totale di messaggi inviati, completati o non riusciti | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Differenze nel reporting tra Journey Optimizer e Customer Journey Analytics
 
