@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
-workflow-type: ht
-source-wordcount: '1333'
-ht-degree: 100%
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+workflow-type: tm+mt
+source-wordcount: '1352'
+ht-degree: 98%
 
 ---
 
@@ -104,4 +104,10 @@ Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] ris
 
 Per fornire un’inferenza statistica facilmente interpretabile e sicura, Adobe ha adottato una metodologia statistica basata sulle [sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
 
-Una sequenza di affidabilità è un analogico “sequenziale” di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere un esperimento cento volte e di calcolare una stima della metrica di business media (ad esempio il tasso di apertura di un’e-mail) e della relativa sequenza con affidabilità al 95% per *ogni nuovo utente* che entra nell’esperimento. Una sequenza con affidabilità del 95% includerà il valore “true” della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore di tipo falso positivo, ovvero permettono di “sbirciare” nei risultati.
+Una sequenza di affidabilità è un analogico “sequenziale” di un intervallo di affidabilità. Per capire quale sia una sequenza di affidabilità, immagina di ripetere un esperimento cento volte e di calcolare una stima della metrica di business media (ad esempio il tasso di apertura di un’e-mail) e della relativa sequenza con affidabilità al 95% per *ogni nuovo utente* che entra nell’esperimento.
+
+Una sequenza con affidabilità del 95% includerà il valore “true” della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore di tipo falso positivo, ovvero permettono di “sbirciare” nei risultati.
+
+## Nuove funzioni nelle metriche calcolate
+
+Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL Confidence]. Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
