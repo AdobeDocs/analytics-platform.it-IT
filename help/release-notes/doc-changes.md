@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+source-git-commit: 3b89c88186b27148ba7d0cdee77cd60699b7161f
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 94%
@@ -21,7 +21,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | --- | --- |
 | Ottobre 2022 | Nuovo argomento su [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) visualizzazione. |
 | Ottobre 2022 | Nuova sezione su [funzionalità data e ora nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#date) |
-| Ottobre 2022 | App mobile: Nuovo argomento su [visualizzazioni dettagli personalizzate](https://experienceleague.corp.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
+| Ottobre 2022 | App mobile: Nuovo argomento su [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
 | Settembre 2022 | Nuovo caso d’uso sulla [migrazione dei dati da Google Analytics a CJA](/help/use-cases/ga/overview.md). |
 | Settembre 2022 | Nuovo argomento sui [grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
 | Settembre 2022 | Nuovo argomento sul [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
