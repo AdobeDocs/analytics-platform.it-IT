@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Questa guida fornisce assistenza per Customer Journey Analytics, la soluzione di Adobe di nuova generazione per In questo caso, è possibile utilizzare Cross-Channel Analytics, basata su Adobe Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 19551e8c8f3b114b1851ed80c2b13ae29696f79d
+source-git-commit: d573ca8ddc6d9d31294a40f97417833217c81e5d
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '772'
 ht-degree: 98%
 
 ---
@@ -226,8 +226,8 @@ ht-degree: 98%
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica dei dashboard di Analytics](mobile-app/home.md)
    + [Attività del curatore](mobile-app/curator.md)
-   + [Creare una scorecard](mobile-app/create-scorecard.md)
-   + [Preparare gli utenti direzionali a utilizzare le scorecard](mobile-app/set-up-execs.md)
+   + [Creare una scorecard per dispositivi mobili](mobile-app/create-scorecard.md)
+   + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + Integrazioni Adobe {#integrations}
    + [Panoramica sull’integrazione delle soluzioni Adobe con CJA](/help/integrations/overview.md)
