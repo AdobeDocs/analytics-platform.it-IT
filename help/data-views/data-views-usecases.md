@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
+source-git-commit: 8492a400d7402a95ba98dc0800970b25a1d7d473
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '1198'
+ht-degree: 89%
 
 ---
 
@@ -87,21 +87,21 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
 
-## 7. Nuovo reporting sulle sessioni {#new-repeat}
+## 7. Nuova sessione e generazione di rapporti di sessione {#new-repeat}
 
-Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
+È possibile determinare se una sessione è effettivamente la prima sessione in assoluto per un utente o una sessione di ritorno, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
 
-* Quale percentuale degli ordini proviene da sessioni nuove?
+* Quale percentuale degli ordini proviene da sessioni nuove o di ritorno?
 
-* Il targeting di un canale di marketing o di una campagna interessa nuovi utenti? In che modo questa scelta influisce sui tassi di conversione?
+* Per un dato canale di marketing, o una campagna specifica, esegui il targeting di utenti nuovi o di ritorno? In che modo questa scelta influisce sui tassi di conversione?
 
-Una metrica facilita questo reporting:
+Una dimensione e due metriche facilitano il reporting:
 
-<!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
+* [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
 
-* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional). Per “nuova sessione” si intende la prima sessione definita per una persona all’interno dell’intervallo di reporting.
+* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). La nuova metrica sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-   <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
+* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) La metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di una persona.—>
 
 Per accedere a questo componente:
 
@@ -115,20 +115,24 @@ Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uni
 
 * Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe il periodo dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
 
-<!--## Use the Date and Date-Time functionality {#date}
+## Utilizzare le funzionalità data e data-ora {#date}
 
-Schemas in Adobe Experience Platform contain [!UICONTROL Date] and [!UICONTROL Date-Time] fields. CJA data views now support these fields. When you drag these fields into a data view as a dimension, you can specify their [format](/help/data-views/component-settings/format.md). This format setting determines how the fields are displayed in reporting. For example:
+>[!NOTE]
+>
+>Questa funzionalità è attualmente in fase di test.
 
-* For the Date format, if you select **[!UICONTROL Day]** with the format **[!UICONTROL Month, Day, Year]**, an example output in reporting might look like: August 23, 2022.
+Gli schemi in Adobe Experience Platform contengono campi [!UICONTROL Date] e [!UICONTROL Date-Time]. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificarne il [formato](/help/data-views/component-settings/format.md). Questa impostazione di formato determina il modo in cui verranno visualizzati i campi nei rapporti. Esempio:
 
-* For the Date-Time format, if you select **[!UICONTROL Minute of Day]** with the format **[!UICONTROL Hour:Minute]**, your output might look like: 20:20.
+* Per il formato Data, se selezioni **[!UICONTROL Day]** con il formato **[!UICONTROL Month, Day, Year]**, l&#39;output in un rapporto potrebbe presentarsi simile al seguente: Agosto 23, 2022.
 
-### Example use cases:
+* Per il formato data-ora, se selezioni **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l’output potrebbe essere simile al seguente: 20:20.
 
-* Date: A travel company is collecting the departure date for trips as a field in their data. They would like to have a report which compares the [!UICONTROL Day of Week] for all departure dates collected to understand which is most popular. They would like to do the same for [!UICONTROL Month of Year].
+### Esempi di casi d’uso:
 
-* Date-Time: A retail company is collecting the time for each of their in-store point-of-sale (POS) purchases. Over a given month, they would like to understand the busiest shopping periods by [!UICONTROL Hour of Day].
+* Data: un’agenzia turistica raccoglie la data di partenza per i viaggi come campo di dati. Vorrebbe generare un rapporto in cui [!UICONTROL Day of Week] venga confrontato per tutte le date di partenza raccolte, per capire quale sia più popolare. Vorrebbe fare lo stesso per [!UICONTROL Month of Year].
+
+* Data e ora: una società di vendita al dettaglio raccoglie l’ora di ogni acquisto dei propri punti vendita (POS) in-store. Vorrebbe capire quali sono i momenti in cui avvengono più acquisti in un determinato mese, per [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[Date and Date-Time in the Format component setting](/help/data-views/component-settings/format.md)-->
+>[Data e data-ora nell’impostazione del componente Formato](/help/data-views/component-settings/format.md)
 

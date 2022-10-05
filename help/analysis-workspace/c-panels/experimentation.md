@@ -3,18 +3,14 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1345'
 ht-degree: 98%
 
 ---
 
 # Pannello Sperimentazione
-
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
 Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, Adobe Journey Optimizer e persino da dati BYO (risorse disponibili).
 
