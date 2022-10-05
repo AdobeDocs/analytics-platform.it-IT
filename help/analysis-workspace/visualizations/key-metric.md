@@ -4,18 +4,14 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 6238a3b2239a20aaedbec5e5603d0c72bb4ae463
-workflow-type: ht
-source-wordcount: '551'
+source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
 
 # Riepilogo delle metriche chiave
-
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
 La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
