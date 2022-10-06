@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: fc1a5b1b0f01ace6207820e2421d1770f68c3583
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 45%
+ht-degree: 52%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 **Ultimo aggiornamento**: 5 ottobre 2022
 
-I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Per piacere, controllatele regolarmente.
+I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Risorse correlate
 
