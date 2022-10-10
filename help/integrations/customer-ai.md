@@ -4,14 +4,18 @@ title: Integrare IA per l’analisi dei clienti con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+workflow-type: tm+mt
+source-wordcount: '900'
+ht-degree: 90%
 
 ---
 
-# Integrare IA per l’analisi dei clienti con CJA
+# Integrare i dati di Customer AI con CJA
+
+>[!NOTE]
+>
+>Questa funzionalità è attualmente disponibile [prova limitata](/help/release-notes/releases.md) e non generalmente disponibile.
 
 [IA per l’analisi dei clienti](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it), parte di Adobe Experience Platform Intelligent Services, offre agli esperti marketing la possibilità di generare previsioni sui clienti a livello individuale.
 
@@ -21,11 +25,11 @@ IA per l’analisi dei clienti si basa su dati comportamentali individuali e dat
 
 IA per l’analisi dei clienti si integra con Customer Journey Analytics (CJA) nella misura in cui i set di dati abilitati per IA per l’analisi dei clienti possono essere utilizzati nelle visualizzazioni dati e nella reportistica in CJA. Con questa integrazione, puoi:
 
-* **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**. Caso d’uso di esempio: qual è la probabilità che un cliente dell’hotel acquisti un biglietto per lo spettacolo presso la sala concerti dell’hotel?
+* **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**. Esempio di utilizzo: Qual è la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel?
 * **Analizzare gli eventi di successo o gli attributi associati ai punteggi di tendenza**. Caso d’uso di esempio: voglio comprendere gli attributi o gli eventi di successo associati ai punteggi di tendenza.
-* **Seguire il flusso di entrata della tendenza del cliente su diverse esecuzioni di punteggio**. Esempio di utilizzo: vorrei capire di più sulle persone che inizialmente erano utenti a bassa tendenza e, nel tempo, sono diventate utenti ad alta tendenza. 
-* **Osservare la distribuzione della tendenza**. Caso d’uso: vorrei comprendere la distribuzione dei punteggi di tendenza per usare una maggiore precisione nei miei segmenti. Esempio: un rivenditore desidera effettuare una promozione specifica di $ 50 di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
-* **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**. Caso d’uso: vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è puoi traccia di una coorte specifica nel tempo. Esempio di ospitalità: un esperto marketing può tracciare il suo livello bronzo rispetto al suo livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo. 
+* **Seguire il flusso di entrata della tendenza del cliente su diverse esecuzioni di punteggio**. Esempio di utilizzo: Vorrei capire le persone che inizialmente erano utenti a bassa propensione e, nel tempo, sono diventati utenti ad alta propensione. &#x200B;
+* **Osservare la distribuzione della tendenza**. Caso di utilizzo: Vorrei capire la distribuzione dei punteggi di propensione a Posso essere più precisa con i miei segmenti. &#x200B;Esempio: un rivenditore desidera effettuare una promozione specifica di $ 50 di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
+* **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**. Caso di utilizzo: Vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è puoi traccia di una coorte specifica nel tempo. Esempio di ospitalità: un esperto marketing può tracciare il suo livello bronzo rispetto al suo livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo. 
 
 ## Flusso di lavoro
 
