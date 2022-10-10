@@ -1,13 +1,13 @@
 ---
-description: Scopri come la funzione IA per l’analisi dei clienti di AEP si integra con Workspace in CJA.
-title: Integrare IA per l’analisi dei clienti con CJA
+description: Scopri in che modo i dati AEP Customer AI si integrano con Workspace in CJA.
+title: Integrare i dati di Customer AI con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 90%
+source-wordcount: '901'
+ht-degree: 88%
 
 ---
 
@@ -31,15 +31,13 @@ IA per l’analisi dei clienti si integra con Customer Journey Analytics (CJA) n
 * **Osservare la distribuzione della tendenza**. Caso di utilizzo: Vorrei capire la distribuzione dei punteggi di propensione a Posso essere più precisa con i miei segmenti. &#x200B;Esempio: un rivenditore desidera effettuare una promozione specifica di $ 50 di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
 * **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**. Caso di utilizzo: Vorrei tenere traccia di una coorte specifica nel tempo. È simile al primo, ma è puoi traccia di una coorte specifica nel tempo. Esempio di ospitalità: un esperto marketing può tracciare il suo livello bronzo rispetto al suo livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo. 
 
-## Flusso di lavoro
-
 Alcuni dei passaggi vengono eseguiti in Adobe Experience Platform prima di lavorare sull’output in CJA.
 
-### Passaggio 1: configurare un’istanza di IA per l’analisi dei clienti
+## Passaggio 1: configurare un’istanza di IA per l’analisi dei clienti
 
 Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, inizia seguendo la guida [Configure a Customer AI Instance](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=it) (Configurare un’istanza di IA per l’analisi dei clienti) in Adobe Experience Platform.
 
-### Passaggio 2: configurare una connessione CJA ai set di dati di IA per l’analisi dei clienti
+## Passaggio 2: configurare una connessione CJA ai set di dati di IA per l’analisi dei clienti
 
 In CJA, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) ai set di dati di Experience Platform che sono stati instrumentati per IA per l’analisi dei clienti. Ogni previsione, ad esempio “Likelihood to upgrade account” (Probabilità di aggiornamento dell’account), equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso “Customer AI Scores in EE Format – name_of_application” (Punteggi di IA per l’analisi dei clienti in formato EE, name_of_application).
 
@@ -57,41 +55,41 @@ Di seguito è riportato un esempio di schema XDM che CJA inserirebbe come parte 
 
 L’esempio è un set di dati di profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati di Experience Event che CJA acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come la data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e altri dati a lui associati.
 
-### Passaggio 3: creare visualizzazioni dati in base a queste connessioni
+## Passaggio 3: creare visualizzazioni dati in base a queste connessioni
 
 In CJA, ora puoi [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
 
 ![Creare una visualizzazione dati](assets/create-dataview.png)
 
-### Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
+## Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
 
 In CJA Workspace, ora puoi creare un nuovo progetto e richiamare le visualizzazioni.
 
-**Generare punteggi di tendenza**
+### Generare punteggi di tendenza
 
 Ecco un esempio di un progetto Workspace con i dati di IA per l’analisi dei clienti che genera un punteggio di tendenza per un segmento di utenti nel tempo, in un grafico a barre in pila:
 
 ![Contenitori di punteggio](assets/workspace-scores.png)
 
-**Tabella con codici motivo**
+### Tabella con codici motivo
 
 Ecco una tabella che mostra i codici del motivo per cui un segmento ha una tendenza alta o bassa:
 
 ![Codici motivo](assets/reason-codes.png)
 
-**Flusso di ingresso della tendenza del cliente**
+### Flusso di ingresso della tendenza del cliente
 
 Questo diagramma di flusso mostra il flusso di ingresso della tendenza del cliente su diverse esecuzioni di punteggio:
 
 ![Flusso di ingresso](assets/flow.png)
 
-**Distribuzione dei punteggi di tendenza**
+### Distribuzione dei punteggi di tendenza
 
 Questo grafico a barre mostra la distribuzione dei punteggi di tendenza:
 
 ![Distribuzione](assets/distribution.png)
 
-**Sovrapposizioni delle tendenze**
+### Sovrapposizioni delle tendenze
 
 Questo diagramma di Venn mostra la sovrapposizione delle tendenze su diverse esecuzioni di punteggio:
 
