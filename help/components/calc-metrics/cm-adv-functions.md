@@ -4,9 +4,9 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3107'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Arcotangente (riga)
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: valore Y previsto (riga)
 
@@ -160,11 +160,11 @@ CEILING(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Confidence
 
-[!UICONTROL Confidence] è una misura probabilistica di quanta prova ci sia che una data variante è la stessa della variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+[!UICONTROL Confidence] (affidabilità) è una misura probabilistica della quantità di prove che dimostrano che una specifica variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
 ```
 fx Confidence (normalizing-container, success-metric, control, significance-threshold)
@@ -172,10 +172,10 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 
 | Argomento | Descrizione |
 | --- | --- |
-| Normalizzazione del contenitore | La base (Persone, Sessioni o Eventi) in cui verrà eseguito un test. |
-| Metrica di successo | La metrica o le metriche con cui un utente confronta le varianti. |
-| Controllo | La variante con cui vengono confrontate tutte le altre varianti dell&#39;esperimento. Immettere il nome dell&#39;elemento della dimensione variante di controllo. |
-| Soglia significativa | La soglia in questa funzione è impostata su un valore predefinito del 95%. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
+| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
+| control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
+| significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -189,7 +189,7 @@ COS(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 ## Radice cubica
 
@@ -201,7 +201,7 @@ CBRT(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica per la quale vuoi ottenere la radice cubica. |
+| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
 
 ## Cumulativo
 
@@ -284,7 +284,7 @@ FLOOR(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Maggiore di
 
@@ -304,7 +304,7 @@ COSH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
 
 ## Seno iperbolico (riga)
 
@@ -316,7 +316,7 @@ SINH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
 
 ## Tangente iperbolica (riga)
 
@@ -328,7 +328,7 @@ TANH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
 
 ## IF (riga)
 
@@ -352,9 +352,9 @@ Restituisce elementi il cui conteggio numerico è inferiore al valore immesso.
 
 Restituisce elementi il cui conteggio numerico è minore o uguale al valore immesso.
 
-## Incremento
+## Lift
 
-Restituisce l’incremento di una particolare variante in conversioni rispetto a una variante di controllo. È la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
+Restituisce l’incremento di una particolare variante nelle conversioni rispetto a una variante di controllo. Più precisamente, rappresenta la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
 ```
 fx Lift (normalizing-container, success-metric, control)
@@ -362,9 +362,9 @@ fx Lift (normalizing-container, success-metric, control)
 
 | Argomento | Descrizione |
 | --- | --- |
-| Normalizzazione del contenitore | La base (Persone, Sessioni o Eventi) in cui verrà eseguito un test. |
-| Metrica di successo | La metrica o le metriche con cui un utente confronta le varianti. |
-| Controllo | La variante con cui vengono confrontate tutte le altre varianti dell&#39;esperimento. Immettere il nome dell&#39;elemento della dimensione variante di controllo. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
+| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
+| control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -394,7 +394,7 @@ LOG10(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
 
 ## Regressione logaritmo: coefficiente di correlazione (tabella)
 
@@ -460,7 +460,7 @@ LN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
 
 ## NOT
 
@@ -673,7 +673,7 @@ SIN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
 
 ## Punteggio T
 
@@ -715,7 +715,7 @@ TAN (metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
 
 ## Punteggio Z (riga)
 
@@ -742,7 +742,7 @@ Punteggio Z (metrica)
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <i>metrica</i> </td>
+   <td colname="col1"> <i>metric</i> </td>
    <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td>
   </tr>
  </tbody>
