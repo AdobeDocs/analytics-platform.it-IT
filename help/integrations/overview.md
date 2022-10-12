@@ -3,8 +3,8 @@ title: Integrare le soluzioni Adobe in Customer Journey Analytics
 description: Scopri come integrare dati da altre soluzioni e servizi di Adobe.
 source-git-commit: aae080253a25cb9a3853ee795fbceedd286e1498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 75%
 
 ---
 
