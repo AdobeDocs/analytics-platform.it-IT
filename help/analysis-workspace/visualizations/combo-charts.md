@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Utilizza un [!UICONTROL Combo chart] per:
 
 Aspetti da considerare:
 
-* È possibile aggiungere più confronti in un unico [!UICONTROL Combo chart].
+* Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
 * Puoi applicare fino a 3 filtri (segmenti) a una metrica.
