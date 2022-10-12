@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1191'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 dollari. Se un ordine include l’acquisto di un prodotto da 50 dollari e un prodotto da 25 dollari, non verrà rimosso l’intero ordine ma solo l’acquisto del prodotto da 25 dollari.
 
-1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
+1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. Per [!UICONTROL Format], seleziona [!UICONTROL Currency].
 b. Per [!UICONTROL Currency], seleziona USD.
@@ -87,23 +87,23 @@ Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio �
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
 
-## 7. Nuova sessione e generazione di rapporti di sessione {#new-repeat}
+## 7. Nuova sessione e reporting sulle sessioni di ritorno {#new-repeat}
 
-È possibile determinare se una sessione è effettivamente la prima sessione in assoluto per un utente o una sessione di ritorno, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
+Puoi determinare se una sessione è effettivamente la prima sessione in assoluto per un utente o una sessione di ritorno, in base all’intervallo di reporting definito per questa visualizzazione dati e a un intervallo di lookback di 13 mesi. Questo reporting consente di determinare, ad esempio:
 
-* Quale percentuale degli ordini proviene da sessioni nuove o di ritorno?
+* Quale percentuale degli ordini proviene da sessioni nuove o da sessioni di ritorno?
 
-* Per un dato canale di marketing, o una campagna specifica, esegui il targeting di utenti nuovi o di ritorno? In che modo questa scelta influisce sui tassi di conversione?
+* Il targeting di un canale di marketing o di una campagna interessa nuovi utenti o di ritorno? In che modo questa scelta influisce sui tassi di conversione?
 
-Una dimensione e due metriche facilitano il reporting:
+Una dimensione e due metriche facilitano questo reporting:
 
-* [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) - Questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione.
+* [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). La nuova metrica sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional). Per metrica di “nuova sessione” si intende la prima sessione definita per una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) La metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di una persona.—>
+* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): la metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente-->
 
-Per accedere a questo componente:
+Per accedere a questi componenti:
 
 1. Passa all’editor della visualizzazione dati.
 1. Fai clic sul pulsante **[!UICONTROL Components]** > **[!UICONTROL Optional Standard components]** nella barra a sinistra.
@@ -115,7 +115,7 @@ Il 95%-99% del tempo, le nuove sessioni saranno segnalate con precisione. Le uni
 
 * Quando una sessione si estende sia nell’intervallo di lookback che nell’intervallo di reporting. Supponiamo che tu esegua un rapporto dal 1° giugno al 15 giugno 2022. L’intervallo di lookback includerebbe il periodo dal 1° maggio 2021 al 31 maggio 2022. Se una sessione dovesse iniziare il 30 maggio 2022 e terminare il 1° giugno 2022, poiché la sessione è inclusa nell’intervallo di lookback, tutte le sessioni nell’intervallo di reporting vengono conteggiate come sessioni di ritorno.
 
-## 8. Utilizzare la funzionalità Data e ora {#date}
+## 8. Utilizzare le funzionalità data e data-ora {#date}
 
 Gli schemi in Adobe Experience Platform contengono campi [!UICONTROL Date] e [!UICONTROL Date-Time]. Le visualizzazioni dati CJA ora supportano questi campi. Quando trascini questi campi in una visualizzazione dati come dimensione, puoi specificarne il [formato](/help/data-views/component-settings/format.md). Questa impostazione di formato determina il modo in cui verranno visualizzati i campi nei rapporti. Esempio:
 
