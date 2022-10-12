@@ -6,9 +6,9 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 Per implementare il template della scorecard:
 
-1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati. Le suite di rapporti sono visualizzazioni di dati in CJA.
+1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati. Le suite dei rapporti sono visualizzazioni di dati in CJA.
 
    ![Selezione di suite di rapporti](assets/properties_save.png)
 
@@ -76,11 +76,11 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 ## Applicazione di filtri {#filters}
 
-Per applicare filtri ai singoli riquadri, trascina un filtro (i segmenti sono filtri in CJA) dal pannello a sinistra e rilascialo direttamente sulla tessera.
+Per applicare filtri ai singoli riquadri, trascina un filtro (i segmenti sono filtri in CJA) dal pannello di sinistra e rilascialo direttamente sul riquadro.
 
 Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Puoi [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo che utilizzeresti in Adobe Analytics Workspace.
 
-![Creare filtri](assets/segment_ui.png)
+![Crea filtri](assets/segment_ui.png)
 
 ## Aggiungere intervalli di date {#dates}
 
@@ -124,7 +124,7 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 
 ### [!UICONTROL Donut]
 
-Simile a un grafico a torta, questa visualizzazione mostra i dati come parti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, per capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, per capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
 
 ![Visualizzazione ad anello](assets/donut-viz.png)
 
@@ -153,15 +153,15 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale tessera e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per la tessera e in alternativa configura la tessera applicando dei filtri. I segmenti sono filtri in CJA.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri in CJA.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
-## Visualizza diapositive dettagliate {#view-detail-slides}
+## Visualizza diapositive di dettaglio {#view-detail-slides}
 
-Quando fai clic sulle tessere, una finestra a comparsa dinamica mostra come la diapositiva dei dettagli viene visualizzata dall’utente esecutivo nell’app. Puoi aggiungere dimensioni per suddividere i dati in base alle tue esigenze specifiche. Se non è stata applicata una dimensione, la dimensione di suddivisione sarà **ora** o **giorni**, a seconda dell’intervallo di date predefinito.
+Quando si fa clic su un riquadro, un pop-up dinamico mostra come la diapositiva di dettaglio apparirà all’utente esecutivo nell’app. Puoi aggiungere dimensioni per suddividere i dati in base alle tue esigenze specifiche. Se non è stata applicata alcuna dimensione, la dimensione del raggruppamento sarà di **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
-Le suddivisioni consentono di perfezionare l’analisi suddividendo le metriche per elementi dimensionali come i seguenti:
+I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche per elementi dimensionali come i seguenti:
 
 * Metrica Visitatori univoci suddivisa per piattaforma di annunci (AMO ID)
 * Visite suddivise per categoria di prodotto (al dettaglio)
@@ -171,33 +171,33 @@ Le suddivisioni consentono di perfezionare l’analisi suddividendo le metriche 
 
 Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente direzionale può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-## Personalizzare le diapositive dettagliate {#customize-detail-slide}
+## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 
-Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere testo per spiegare meglio ciò che l&#39;utente finale può vedere nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
+Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sul tipo di informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
-![Diapositiva dettaglio personalizzata](assets/custom-detail-slide.png)
+![Diapositiva di dettaglio personalizzata](assets/custom-detail-slide.png)
 
 ### Modificare il layout della diapositiva
 
-Modificate il layout della diapositiva per concentrarvi sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solo un grafico o una tabella. Per modificare il layout della diapositiva, selezionare uno dei formati predefiniti.
+Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solamente un grafico oppure una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
 
 ![Layout diapositiva](assets/layout.png)
 
-Puoi anche modificare il layout della diapositiva trascinando i componenti di visualizzazione dalla barra a sinistra nell’area di lavoro. Ciascuna diapositiva di dettaglio può contenere solo due visualizzazioni alla volta.
+Puoi anche modificare il layout della diapositiva trascinando i componenti per la visualizzazione dalla barra a sinistra nell’area di lavoro. Ciascuna diapositiva di dettaglio può contenere solo due visualizzazioni alla volta.
 
 ![Modifica del layout della diapositiva](assets/slide-layout-change.png)
 
 ### Aggiungere testo descrittivo a una diapositiva
 
-È possibile aggiungere testo per fornire informazioni significative su ciò che è contenuto nei grafici o sfumature sui dati.
+È possibile aggiungere un testo per fornire informazioni significative su ciò che è contenuto nei grafici oppure dettagli sui dati.
 
-Per aggiungere testo a una diapositiva di dettaglio, selezionare un layout che mostri il `T` oppure trascina e rilascia il componente Visualizzazione testo dalla barra a sinistra. L’editor di testo si apre automaticamente quando si aggiunge una nuova visualizzazione di testo o si sceglie un layout di diapositiva con testo. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, seleziona il pulsante Riduci a icona nell’angolo superiore destro dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, seleziona l’icona a forma di matita per aprire nuovamente l’editor di testo.
+Per aggiungere un testo a una diapositiva di dettaglio, seleziona un layout che mostra il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, fai clic sul pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, fai clic sull’icona a forma di matita per aprire nuovamente l’editor di testo.
 
 ![Modifica del layout della diapositiva](assets/add-descriptive-text.png)
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in un punto qualsiasi della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sul pulsante **x** che viene visualizzato quando passi il puntatore del mouse sul componente, come illustrato di seguito per **Prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori dei riquadri, quindi sulla **x** che compare quando passi il cursore del mouse sul componente, come mostrato di seguito per il segmento **Nuovo visitatore**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
