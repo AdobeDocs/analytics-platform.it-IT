@@ -4,10 +4,10 @@ description: Scopri i diversi modi in cui è possibile acquisire i dati in Custo
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+source-git-commit: 5a6d2b14ba7ed1221921cfb253026850fc7b6d73
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Experience Platform riunisce dati provenienti da più origini per aiutare 
 
 ## Acquisire dati Google Analytics da analizzare in Customer Journey Analytics
 
-Segui i passaggi dettagliati descritti in questo tutorial su come [analizzare i dati Google Analytics utilizzando Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html?lang=it#objectives).
+Segui i passaggi dettagliati descritti in questo tutorial su come [analizzare i dati Google Analytics utilizzando Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=en).
 
 ## Utilizza Bulk Data Insertion API per inserire i dati in Analytics, quindi effettua l’acquisizione tramite Adobe Source Connector in Experience Platform.
 
