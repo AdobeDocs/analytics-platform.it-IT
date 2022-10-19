@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ed5b1a233dc0e4cbfe223fe71e6e1960efba0592
+source-git-commit: 785ea95049135adef888c20a6d9fef9f31439a7d
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 90%
+source-wordcount: '541'
+ht-degree: 83%
 
 ---
 
 # Note sulla versione di Customer Journey Analytics (CJA) (ottobre 2022)
 
-**Ultimo aggiornamento**: 13 ottobre 2022
+**Ultimo aggiornamento**: 18 ottobre 2022
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -30,10 +30,11 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
+| **Cartelle in progetti Workspace** | Le cartelle in Progetti Workspace consentono agli utenti di organizzare e classificare i progetti utilizzando le cartelle per un migliore recupero e accesso. Una cartella condivisa dell’azienda consente agli amministratori di creare e condividere facilmente i contenuti con tutti gli utenti di Workspace [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 ottobre 2022 |
 | **Pannello Sperimentazione** | Questo nuovo pannello di Workspace consente agli utenti di CJA di valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi origine (online, offline, dalle soluzioni Adobe, da Adobe Journey Optimizer e persino da dati BYO). [Ulteriori informazioni](/help/analysis-workspace/c-panels/experimentation.md) | 5 ottobre 2022 |
 | **[!UICONTROL Key metric summary]visualizzazione** | La visualizzazione [!UICONTROL Key metric summary] consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Ulteriori informazioni | Introduzione graduale a partire dal 5 ottobre 2022 |
 | **Supporto per il campo data in CJA** | Consente a CJA di generare rapporti sui campi data e data-ora. [Ulteriori informazioni](/help/data-views/data-views-usecases.md#date) | 5 ottobre 2022 |
-| **App per dispositivo mobile: visualizzazioni dettagli personalizzate** | Le visualizzazioni personalizzate dei dettagli consentono di scegliere in modo più mirato le informazioni da condividere con il tuo pubblico, affinché chi le riceve possa concentrarsi sui dati più importante. È possibile modificare il layout della visualizzazione dei dettagli associata a ogni riquadro di scorecard e aggiungere del testo per spiegare all’utente finale cosa possono rappresentare i dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=it) | 5 ottobre 2022 |
+| **App per dispositivo mobile: visualizzazioni dettagli personalizzate** | Le visualizzazioni personalizzate dei dettagli consentono di scegliere in modo più mirato le informazioni da condividere con il tuo pubblico, affinché chi le riceve possa concentrarsi sui dati più importante. È possibile modificare il layout della visualizzazione dettagli associata a ogni riquadro di scorecard e aggiungere testo per spiegare meglio cosa l’utente finale può visualizzare nei dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=it) | 5 ottobre 2022 |
 | **Variabili con più valori senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` non verrà più abbassato automaticamente. Al contrario, i dati passati tramite il connettore di origine di Analytics a Adobe Experience Platform e CJA rifletteranno il caso originale passato dalla pagina. | 24 ottobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
