@@ -5,8 +5,8 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
-workflow-type: ht
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
+workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 100%
 
@@ -169,17 +169,21 @@ I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche
 
 ![Vista_Raggruppamento](assets/break_view.png)
 
-Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente direzionale può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
+Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
 ## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 
-Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sul tipo di informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
+Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
 ![Diapositiva di dettaglio personalizzata](assets/custom-detail-slide.png)
 
 ### Modificare il layout della diapositiva
 
-Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solamente un grafico oppure una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
+Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, puoi modificare il layout per visualizzare solo un grafico o una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
 
 ![Layout diapositiva](assets/layout.png)
 
@@ -191,7 +195,7 @@ Puoi anche modificare il layout della diapositiva trascinando i componenti per l
 
 È possibile aggiungere un testo per fornire informazioni significative su ciò che è contenuto nei grafici oppure dettagli sui dati.
 
-Per aggiungere un testo a una diapositiva di dettaglio, seleziona un layout che mostra il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, fai clic sul pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, fai clic sull’icona a forma di matita per aprire nuovamente l’editor di testo.
+Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mostri il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, seleziona il pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, seleziona l’icona a forma di matita per aprire nuovamente l’editor di testo.
 
 ![Modifica del layout della diapositiva](assets/add-descriptive-text.png)
 

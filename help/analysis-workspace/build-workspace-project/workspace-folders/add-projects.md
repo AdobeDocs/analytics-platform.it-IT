@@ -3,10 +3,10 @@ description: Scopri come aggiungere cartelle in Workspace
 keywords: Analysis Workspace
 title: Aggiungi cartelle in Workspace
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 ## Dalla vista tabella
 

@@ -3,10 +3,10 @@ description: Scopri come creare cartelle e sottocartelle in Workspace
 keywords: Analysis Workspace
 title: Crea cartelle
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Puoi aggiungere una nuova cartella o una sottocartella all’elenco dei progetti
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 ## Crea una nuova cartella
 
