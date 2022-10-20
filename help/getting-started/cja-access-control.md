@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 8262d7f0ec56a792bfcd8fe94b7f7685ee5b5438
+source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 98%
+source-wordcount: '896'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Gli utenti di Customer Journey Analytics non possono creare, modificare o visual
 
 ## Consentire l’accesso a singole metriche o dimensioni
 
-Non puoi concedere o negare autorizzazioni per singole metriche o dimensioni in Customer Journey Analytics, come invece puoi fare in Adobe Analytics. Le metriche e le dimensioni possono essere modificate nelle [visualizzazioni dati](/help/data-views/data-views.md) e sono quindi soggette a modifiche in CJA. La relativa modifica comporta anche modifiche retroattive del reporting.
+Non puoi concedere o negare autorizzazioni per singole metriche o dimensioni in Customer Journey Analytics come puoi fare con Adobe Analytics tradizionale. Le metriche e le dimensioni possono essere modificate nelle [visualizzazioni dati](/help/data-views/data-views.md) e sono quindi soggette a modifiche in CJA. La relativa modifica comporta anche modifiche retroattive del reporting.
 
 ## Casi d’uso
 
@@ -88,7 +88,7 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | --- | --- |
 | **[!UICONTROL Data Views]** | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni sul [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e [interfaccia utente dei registri di controllo](/help/privacy/audit-log.md). |
+| **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni sul [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e la prossima interfaccia utente dei registri di controllo. |
 | **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare tutti i rapporti in esecuzione nella propria azienda. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
 | **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
 | **[!UICONTROL Calculated Metrics Creation]** | Consente agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). |
