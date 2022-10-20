@@ -2,9 +2,9 @@
 title: Integrare le soluzioni Adobe in Customer Journey Analytics
 description: Scopri come integrare dati da altre soluzioni e servizi di Adobe.
 source-git-commit: aae080253a25cb9a3853ee795fbceedd286e1498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe offre molti prodotti e soluzioni che attingono ai dati in hosting su Adobe
 
 La maggior parte dei flussi di lavoro prevede i seguenti passaggi:
 
-1. Utilizza la soluzione o il servizio desiderato per inviare dati a Platform come set di dati.
+1. Utilizzare la soluzione o il servizio desiderati per inviare dati a Platform come set di dati.
 2. [Creare una connessione](/help/connections/create-connection.md) in Customer Journey Analytics con il set di dati desiderato.
 3. [Creare una visualizzazione dati](/help/data-views/create-dataview.md) contenente le dimensioni e le metriche desiderate da utilizzare nel reporting.
-4. Esegui rapporti in Analysis Workspace in base alle dimensioni e alle metriche configurate nella visualizzazione dati.
+4. Eseguire rapporti in Analysis Workspace in base alle dimensioni e alle metriche configurate nella visualizzazione dati.
