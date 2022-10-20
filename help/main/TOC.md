@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 96%
       + [Pannello Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
-         + [Panoramica ](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Panoramica](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Impostazioni di ingresso e uscita](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Domande frequenti](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
    + Curare, condividere e pianificare i progetti {#curate-share}
@@ -238,7 +238,7 @@ ht-degree: 96%
 + Integrazioni Adobe {#integrations}
    + [Panoramica sull’integrazione delle soluzioni Adobe con CJA](/help/integrations/overview.md)
    + [Integrare i dati Journey Optimizer con CJA](/help/integrations/ajo.md)
-   + [Integrare i dati di Customer AI con CJA](/help/integrations/customer-ai.md)
+   + [Integrare la funzione IA per l’analisi dei clienti con CJA](/help/integrations/customer-ai.md)
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Dati di Google Analytics {#ga}
