@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 785ea95049135adef888c20a6d9fef9f31439a7d
+source-git-commit: a3d47318d74df161cf9054b849c9eb8ef09e60c4
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 83%
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,6 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Data definita](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Cartelle in progetti Workspace** | Le cartelle in Progetti Workspace consentono agli utenti di organizzare e classificare i progetti utilizzando le cartelle per un migliore recupero e accesso. Una cartella condivisa dell’azienda consente agli amministratori di creare e condividere facilmente i contenuti con tutti gli utenti di Workspace [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 ottobre 2022 |
 | **Pannello Sperimentazione** | Questo nuovo pannello di Workspace consente agli utenti di CJA di valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi origine (online, offline, dalle soluzioni Adobe, da Adobe Journey Optimizer e persino da dati BYO). [Ulteriori informazioni](/help/analysis-workspace/c-panels/experimentation.md) | 5 ottobre 2022 |
 | **[!UICONTROL Key metric summary]visualizzazione** | La visualizzazione [!UICONTROL Key metric summary] consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Ulteriori informazioni | Introduzione graduale a partire dal 5 ottobre 2022 |
 | **Supporto per il campo data in CJA** | Consente a CJA di generare rapporti sui campi data e data-ora. [Ulteriori informazioni](/help/data-views/data-views-usecases.md#date) | 5 ottobre 2022 |
