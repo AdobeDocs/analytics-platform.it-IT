@@ -2,10 +2,10 @@
 title: Customer Journey Analytics e governance dei dati
 description: Descrive il funzionamento della governance dei dati nel Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 5f69840fa19fbf7ba6ecac1cd198cfa4a7dd905d
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 89%
 
 ---
 
@@ -27,10 +27,10 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 ## RGPD
 
-Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Ci affidiamo a Platform Data Lake perché faccia rispettare le richieste di eliminazione relative al RGPD e ci invii una notifica quando il processo viene completato sulla pipeline. Controlliamo la pipeline e sincronizziamo tutte le modifiche apportate ai batch interessati in Customer Journey Analytics per i dataset di eventi. I dataset di profilo e di ricerca interessati da richieste di eliminazione relative al RGPD verranno completamente riacquisiti dopo ogni richiesta di eliminazione. Possiamo garantire che le richieste di eliminazione siano eseguite entro 7 giorni da un evento di eliminazione in Data Lake.
+Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Noi dipendiamo da Platform Data Lake per applicare le richieste di eliminazione RGPD e inviarci una notifica quando sono state completate sulla pipeline. Controlliamo la pipeline e sincronizziamo tutte le modifiche apportate ai batch interessati in Customer Journey Analytics per i dataset di eventi. I dataset di profilo e di ricerca interessati da richieste di eliminazione relative al RGPD verranno completamente riacquisiti dopo ogni richiesta di eliminazione. Possiamo garantire che le richieste di eliminazione siano eseguite entro 7 giorni da un evento di eliminazione in Data Lake.
 
 ## CCPA
 
 Il California Consumer Privacy Act (CCPA) migliora i diritti alla privacy e la protezione dei consumatori per i residenti in California, Stati Uniti. La legge è entrata in vigore il 1° gennaio 2020.
 Il CCPA conferisce ai residenti della California nuovi diritti sulla privacy dei dati, come il diritto di accesso e cancellazione dei propri dati personali, di sapere se i propri dati personali vengono venduti o divulgati (e a chi) e di rifiutare la vendita degli stessi.
-In previsione del CCPA, Privacy Service supporterà le richieste di rinuncia alla vendita di dati personali.
+In conformità al CCPA, Privacy Service supporta le richieste di rinuncia alla vendita di dati personali.

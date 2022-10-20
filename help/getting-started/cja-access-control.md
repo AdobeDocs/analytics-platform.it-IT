@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
-workflow-type: ht
-source-wordcount: '905'
-ht-degree: 100%
+source-git-commit: 8262d7f0ec56a792bfcd8fe94b7f7685ee5b5438
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | --- | --- |
 | **[!UICONTROL Data Views]** | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Attualmente, [i log di audit](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) sono disponibili solo tramite l&#39;API. Questa autorizzazione applica il controllo delle autorizzazioni sull’API e una futura interfaccia utente dei log di audit. |
+| **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni sul [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e [interfaccia utente dei registri di controllo](/help/privacy/audit-log.md). |
 | **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare tutti i rapporti in esecuzione nella propria azienda. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
 | **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
 | **[!UICONTROL Calculated Metrics Creation]** | Consente agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). |
