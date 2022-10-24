@@ -2,10 +2,10 @@
 description: Descrizione della strategia di rilascio continuo delle funzioni per Customer Journey Analytics
 title: Supporto delle funzioni di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,7 @@ I rilasci di Customer Journey Analytics funzionano su un modello di distribuzion
 
 [!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “interruttori”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
-* **Rilascio in produzione (RTP, Release to Production)**: il codice viene rilasciato in produzione con la visibilità delle funzioni disattivata in Analysis Workspace. A volte la funzione è disponibile nell’API CJA.
-
-* **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti Adobe interni. Il rilascio viene quindi scalato dallo 0% al 100% di disponibilità nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
+* **Inizio del rollout**: Il rollout di un rilascio graduale inizia con test limitati da parte degli utenti di Adobi interni. Il rilascio viene quindi scalato dallo 0% al 100% di disponibilità per i clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
 
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
