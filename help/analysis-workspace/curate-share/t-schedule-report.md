@@ -5,9 +5,9 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 63%
 
 ---
@@ -95,6 +95,7 @@ Prima dell’orario di pianificazione di un progetto, il proprietario del proget
 
 ![e-mail](assets/email-password.png)
 
+1. Accedi di nuovo al Customer Journey Analytics.
 1. Fai clic su **[!UICONTROL View Scheduled Project]**.
 1. In **[!UICONTROL Edit scheduled project]** , immettere e reimmettere una password.
 1. Consenti ai destinatari del progetto pianificato di conoscere questa password.
