@@ -1,19 +1,17 @@
 ---
 title: Registri di controllo
 description: Scopri come visualizzare e gestire i registri di controllo di CJA.
-source-git-commit: a866dec61df93bf730529a2d7513b4d76bab6694
+hide: true
+hidefromtoc: true
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 12%
+source-wordcount: '811'
+ht-degree: 11%
 
 ---
 
 
 # Registri di controllo
-
->[!NOTE]
->
->Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
 Per aumentare la trasparenza e la visibilità delle attività eseguite nel sistema, il Customer Journey Analytics (CJA) consente di controllare l’attività degli utenti per vari servizi e funzionalità sotto forma di &quot;registri di controllo&quot;. Questi registri formano un percorso di audit che può aiutare a risolvere i problemi e aiutare la tua azienda a rispettare efficacemente le politiche di gestione dei dati aziendali e i requisiti normativi, come l&#39;Health Insurance Portability and Accountability Act (HIPAA).
 
