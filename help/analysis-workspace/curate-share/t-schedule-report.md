@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
+source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,8 +86,8 @@ I requisiti relativi alla password sono conformi allo standard Adobe, che richie
 
 ### Nuovo progetto pianificato
 
-1. Dopo aver salvato il progetto, passa a Condividi > Invia file o Condividi > Invia file secondo programma.
-1. Segui le istruzioni riportate sopra, in Condividi subito o Condividi file secondo programma.
+1. Dopo aver salvato il progetto, vai a **[!UICONTROL Share]** > **[!UICONTROL Send file now]** oppure [!UICONTROL Share] > **[!UICONTROL Send file on schedule]**.
+1. Seguire le istruzioni di cui sopra, in [Invia subito file](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) o [Invia file secondo programma](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### Progetto pianificato esistente
 
