@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a7636909c0570655ee6d3638e56828916044d2bd
+source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 66%
+source-wordcount: '573'
+ht-degree: 58%
 
 ---
 
 # Note sulla versione di Customer Journey Analytics (CJA) (ottobre/novembre 2022)
 
-**Ultimo aggiornamento**: 19 ottobre 2022
+**Ultimo aggiornamento**: 25 ottobre 2022
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -22,8 +22,9 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL Key metric summary]visualizzazione** | La visualizzazione [!UICONTROL Key metric summary] consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md) | 5 ottobre 2022 | 19 ottobre 2022 |
 | **Variabili multivalore senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` non verrà più abbassato automaticamente. Al contrario, i dati passati tramite il connettore di origine di Analytics a Adobe Experience Platform e CJA rifletteranno il caso originale passato dalla pagina. | N/D | 24 ottobre 2022 |
-| **Registro di controllo CJA** | Il Customer Journey Analytics (CJA) consente di controllare l’attività dell’utente per vari servizi e funzionalità sotto forma di &quot;registri di controllo&quot;. Questi registri formano un percorso di audit che può aiutare a risolvere i problemi e aiutare la tua azienda a rispettare efficacemente le politiche di gestione dei dati aziendali e i requisiti normativi, come l&#39;Health Insurance Portability and Accountability Act (HIPAA). In precedenza questi registri erano disponibili solo tramite l’API Audit Logs. [Documentazione da seguire] | N/D | 26 ottobre 2022 |
-| **Preparazione dell&#39;HIPAA** | Descrizione da seguire | N/D | 7 novembre 2022 |
+| **Registro di controllo CJA** | Il Customer Journey Analytics (CJA) consente di controllare l’attività dell’utente per vari servizi e funzionalità sotto forma di &quot;registri di controllo&quot;. Questi registri formano un percorso di audit che può aiutare a risolvere i problemi e aiutare la tua azienda a rispettare efficacemente le politiche di gestione dei dati aziendali e i requisiti normativi, come l&#39;Health Insurance Portability and Accountability Act (HIPAA). In precedenza questi registri erano disponibili solo tramite l’API Audit Logs. [Ulteriori informazioni](/help/privacy/audit-log.md) | N/D | 26 ottobre 2022 |
+| **Preparazione dell&#39;HIPAA** | L&#39;Adobe ora supporta la ricezione, l&#39;utilizzo, la manutenzione o la trasmissione di informazioni sulla salute protette in Customer Journey Analytics e in altre applicazioni basate su Experienci Platform solo per i clienti Healthcare Shield. Healthcare Shield è per i clienti sanitari che sono un&#39;entità coperta o un&#39;associazione commerciale solo negli Stati Uniti. [Ulteriori informazioni](https://www.adobe.com/trust/compliance/hipaa-ready.html) | N/D | 7 novembre 2022 |
+| **Protezione tramite password per progetti pianificati** | Questa funzione fa parte della preparazione all&#39;HIPAA e si applica solo ai clienti dello Healthcare Shield. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | N/D/ | 7 novembre 2022. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -33,7 +34,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 ### Altre correzioni apportate ad 
 
-AN-302367; AN-302562
+AN-302367; AN-302562; AN-304036
 
 ## Avvisi importanti per amministratori CJA
 

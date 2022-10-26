@@ -3,9 +3,9 @@ title: Registri di controllo
 description: Scopri come visualizzare e gestire i registri di controllo di CJA.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 6cf2d5ccbeeea7baeea8a675f2b7e96e6203fe24
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '812'
 ht-degree: 11%
 
 ---
@@ -25,7 +25,7 @@ Quando la funzione è abilitata per l’organizzazione, i registri di controllo 
 
 Per visualizzare ed esportare i registri di controllo, devi aver ricevuto il **[!UICONTROL Audit Logs Access]** autorizzazione per il controllo degli accessi in Adobe Console. Per informazioni su come gestire le autorizzazioni individuali per le funzionalità di CJA, consulta [documentazione sul controllo degli accessi](/help/getting-started/cja-access-control.md).
 
-## Visualizzare i registri di controllo nell’interfaccia utente
+## Visualizza il registro di controllo nell’interfaccia utente
 
 In CJA, passa a **[!UICONTROL Tools]** > **[!UICONTROL Audit Logs]**.
 
