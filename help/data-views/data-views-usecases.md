@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 1ce51f7eb5a40584fec781727e82b448cd23cc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite per più di 50 dollari. Se un ordine include l’acquisto di un prodotto da 50 dollari e un prodotto da 25 dollari, non verrà rimosso l’intero ordine ma solo l’acquisto del prodotto da 25 dollari.
 
-1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
+1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Revenue] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. Per [!UICONTROL Format], seleziona [!UICONTROL Currency].
 b. Per [!UICONTROL Currency], seleziona USD.
@@ -99,9 +99,9 @@ Una dimensione e due metriche facilitano questo reporting:
 
 * [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell&#39;elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). Per metrica di “nuova sessione” si intende la prima sessione definita per una persona all’interno dell’intervallo di reporting.
+* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional). Per metrica di “nuova sessione” si intende la prima sessione definita per una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional): la metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente-->
+* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): la metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente-->
 
 Per accedere a questi componenti:
 
@@ -123,7 +123,7 @@ Gli schemi in Adobe Experience Platform contengono campi [!UICONTROL Date] e [!U
 
 * Per il formato data-ora, se selezioni **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l’output potrebbe essere simile al seguente: 20:20.
 
-### Casi di utilizzo di data e ora
+### Casi d’uso per data e ora
 
 * Data: un’agenzia turistica raccoglie la data di partenza per i viaggi come campo di dati. Vorrebbe generare un rapporto in cui [!UICONTROL Day of Week] venga confrontato per tutte le date di partenza raccolte, per capire quale sia più popolare. Vorrebbe fare lo stesso per [!UICONTROL Month of Year].
 
