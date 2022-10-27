@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 58%
+ht-degree: 72%
 
 ---
 
@@ -21,8 +21,8 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL Key metric summary]visualizzazione** | La visualizzazione [!UICONTROL Key metric summary] consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md) | 5 ottobre 2022 | 19 ottobre 2022 |
-| **Variabili multivalore senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` non verrà più abbassato automaticamente. Al contrario, i dati passati tramite il connettore di origine di Analytics a Adobe Experience Platform e CJA rifletteranno il caso originale passato dalla pagina. | N/D | 24 ottobre 2022 |
-| **Registro di controllo CJA** | Il Customer Journey Analytics (CJA) consente di controllare l’attività dell’utente per vari servizi e funzionalità sotto forma di &quot;registri di controllo&quot;. Questi registri formano un percorso di audit che può aiutare a risolvere i problemi e aiutare la tua azienda a rispettare efficacemente le politiche di gestione dei dati aziendali e i requisiti normativi, come l&#39;Health Insurance Portability and Accountability Act (HIPAA). In precedenza questi registri erano disponibili solo tramite l’API Audit Logs. [Ulteriori informazioni](/help/privacy/audit-log.md) | N/D | 26 ottobre 2022 |
+| **Variabili con più valori senza distinzione tra maiuscole e minuscole** | Per le variabili con più valori senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` non verranno più convertiti automaticamente in minuscole. Al contrario, i dati trasmessi dal connettore di origine di Analytics ad Adobe Experience Platform e CJA manterranno le maiuscole e minuscole originali trasmesse dalla pagina. | N/D | 24 ottobre 2022 |
+| **Registro di controllo CJA** | Il Customer Journey Analytics (CJA) consente di controllare l’attività dell’utente per vari servizi e funzionalità sotto forma di &quot;registri di controllo&quot;. Questi rappresentano una traccia di audit (o audit trail) che risulta utile per risolvere eventuali problemi, nonché per rispettare i criteri aziendali relativi alla gestione dei dati e i requisiti normativi, come l’Health Insurance Portability and Accountability Act (HIPAA). In precedenza questi registri erano disponibili solo tramite l’API Audit Logs. [Ulteriori informazioni](/help/privacy/audit-log.md) | N/D | 26 ottobre 2022 |
 | **Preparazione dell&#39;HIPAA** | L&#39;Adobe ora supporta la ricezione, l&#39;utilizzo, la manutenzione o la trasmissione di informazioni sulla salute protette in Customer Journey Analytics e in altre applicazioni basate su Experienci Platform solo per i clienti Healthcare Shield. Healthcare Shield è per i clienti sanitari che sono un&#39;entità coperta o un&#39;associazione commerciale solo negli Stati Uniti. [Ulteriori informazioni](https://www.adobe.com/trust/compliance/hipaa-ready.html) | N/D | 7 novembre 2022 |
 | **Protezione tramite password per progetti pianificati** | Questa funzione fa parte della preparazione all&#39;HIPAA e si applica solo ai clienti dello Healthcare Shield. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | N/D/ | 7 novembre 2022. |
 

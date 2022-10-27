@@ -1,68 +1,68 @@
 ---
 description: Scopri come creare cartelle e sottocartelle in Workspace
 keywords: Analysis Workspace
-title: Crea cartelle
+title: Creare le cartelle
 feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
 source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
 
-# Creare cartelle
+# Creare le cartelle
 
-Puoi aggiungere una nuova cartella o una sottocartella all’elenco dei progetti e delle cartelle nella pagina di destinazione di Workspace.
+Puoi aggiungere una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle che si trova nella pagina di destinazione di Workspace.
 
 >[!NOTE]
 >
->Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcune schermate potrebbero subire modifiche.
 
-## Crea una nuova cartella
+## Creare una nuova cartella
 
-Per creare una nuova cartella,
+Per creare una nuova cartella:
 
-1. Fai clic su **Crea nuovo**.
+1. Fai clic su **Create New** (Crea nuovo).
 
-1. Immettere un nome per la nuova cartella.
+1. Immetti il nome da assegnare alla nuova cartella.
 
 1. Seleziona i tag dal menu a discesa.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. Fai clic su **Crea**.
+1. Fai clic su **Create** (Crea).
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create.png)
 
-   La nuova cartella viene aggiunta nell’elenco principale dei progetti e delle cartelle.
+   La nuova cartella viene aggiunta all’elenco principale dei progetti e delle cartelle.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## Creare una sottocartella
 
-Le sottocartelle consentono di fornire ulteriori livelli di gestione e organizzazione del progetto.
+Le sottocartelle forniscono ulteriori livelli utili per gestire e organizzare un progetto.
 
-Per creare una sottocartella quando è aperta una cartella esistente,
+Per creare una sottocartella quando è aperta una cartella esistente:
 
-1. Fai clic su **Crea una nuova cartella**.
+1. Fai clic su **Create a new folder** (Crea nuova cartella).
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
-1. Immettere il nome di una sottocartella e aggiungere i tag necessari.
+1. Immetti il nome da assegnare alla sottocartella e aggiungi eventuali tag.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
-1. Fai clic su **Crea**.
+1. Fai clic su **Create** (Crea).
 
-   La nuova sottocartella viene aggiunta all’elenco dei progetti e delle sottocartelle.
+   La nuova sottocartella viene aggiunta all’elenco dei progetti e delle cartelle.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
 
    >[!NOTE]
    >
-   >È possibile creare fino a 10 livelli di sottocartelle in una singola cartella.
+   >All’interno di una cartella è possibile creare fino a 10 livelli di sottocartelle.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

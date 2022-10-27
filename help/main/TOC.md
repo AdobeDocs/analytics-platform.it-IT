@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 36667163792454a1793e48bc0c810615b51c1b7e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -80,9 +80,9 @@ ht-degree: 97%
       + [Panoramica dei progetti](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](../analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
-         + [Informazioni sulle cartelle in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Informazioni sulla funzione Cartelle di Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Aggiungi progetti](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Aggiungere progetti](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Rimuovere un progetto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvare un nuovo progetto](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Tasti di scelta rapida](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
