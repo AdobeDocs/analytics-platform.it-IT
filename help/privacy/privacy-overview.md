@@ -3,9 +3,9 @@ title: Customer Journey Analytics e governance dei dati
 description: Descrive il funzionamento della governance dei dati nel Customer Journey Analytics.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 source-git-commit: 5f69840fa19fbf7ba6ecac1cd198cfa4a7dd905d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ In generale, Customer Journey Analytics eredita tutte le impostazioni relative a
 
 ## Governance dei dati
 
-Integrazione tra CJA e [Governance dei dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) consente l’etichettatura dei dati CJA sensibili e l’applicazione delle politiche sulla privacy.
+Integrazione tra CJA e [Governance dei dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it) consente l’etichettatura dei dati CJA sensibili e l’applicazione delle politiche sulla privacy.
 
 Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di CJA. Queste etichette interrompono o avvertono gli utenti che creano metriche e/o dimensioni da campi sensibili.
 
@@ -27,7 +27,7 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 ## RGPD
 
-Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Noi dipendiamo da Platform Data Lake per applicare le richieste di eliminazione RGPD e inviarci una notifica quando sono state completate sulla pipeline. Controlliamo la pipeline e sincronizziamo tutte le modifiche apportate ai batch interessati in Customer Journey Analytics per i dataset di eventi. I dataset di profilo e di ricerca interessati da richieste di eliminazione relative al RGPD verranno completamente riacquisiti dopo ogni richiesta di eliminazione. Possiamo garantire che le richieste di eliminazione siano eseguite entro 7 giorni da un evento di eliminazione in Data Lake.
+Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Utilizziamo Platform Data Lake per rispettare le richieste di eliminazione relative al RGPD e per ricevere una notifica quando il processo viene completato nella pipeline. Controlliamo la pipeline e sincronizziamo tutte le modifiche apportate ai batch interessati in Customer Journey Analytics per i dataset di eventi. I dataset di profilo e di ricerca interessati da richieste di eliminazione relative al RGPD verranno completamente riacquisiti dopo ogni richiesta di eliminazione. Possiamo garantire che le richieste di eliminazione siano eseguite entro 7 giorni da un evento di eliminazione in Data Lake.
 
 ## CCPA
 
