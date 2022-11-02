@@ -3,9 +3,9 @@ title: Chiavi gestite dal cliente
 description: Scopri come configurare le chiavi gestite dal cliente per CJA.
 hide: true
 hidefromtoc: true
-source-git-commit: 90521aa7326486b9016321d35191a73ef891a0bc
+source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,10 @@ Per impostare CMK per CJA, effettua le seguenti operazioni:
 1. Assicurati di essere un amministratore con un ruolo privilegiato in Azure, ad esempio Amministratore applicazioni, Amministratore applicazioni cloud o Amministratore globale. [Ulteriori informazioni da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 1. Crea un nuovo archivio chiavi di Azure da utilizzare solo con CJA. [Ulteriori informazioni da Microsoft](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 1. Concedi all’app di Azure Adobe l’accesso alla tua chiave nell’insieme di chiavi. Adobe ID applicazione: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Ulteriori informazioni da Microsoft](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
-1. Crea un ticket di Adobe dell’Assistenza clienti per richiedere la configurazione CMK. Includi l’URI di Azure nel ticket. L’URI si trova nel campo ID chiave della chiave di Azure.
+1. Crea un ticket di Adobe dell’Assistenza clienti per richiedere la configurazione CMK. Includi l’URI di Azure nel ticket. L’URI si trova nella variabile **Identificatore chiave** campo della chiave di Azure.
+
+   ![](assets/key-identifier.png)
+
 1. L’Assistenza clienti Adobe confermerà il completamento dell’applicazione CMK sui dati CJA.
+
+Tutti i dati utilizzati da Platform sono crittografati in transito e a riposo per proteggere i tuoi dati, con o senza CMK. Per informazioni sulla crittografia Adobe Experience Platform, [ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
