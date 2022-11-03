@@ -3,9 +3,9 @@ title: Panoramica sulla pubblicazione di tipi di pubblico di CJA
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Ana
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di CJA. Tali azioni possono includere:
 
-* Utilizzo del pubblico per un percorso in Adobe Journey Optimizer
-* Esportazione del pubblico a terzi tramite una destinazione di Experience Platform
+* Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
+* Esportazione del pubblico a terzi tramite una destinazione di Experience Platform.
 * Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi in CJA.
-* Latenza minima dopo la pubblicazione del pubblico (un paio di minuti)
-* Pubblicazione di tipi di pubblico una tantum o ricorrenti
+* Latenza minima dopo la pubblicazione del pubblico (un paio di minuti).
+* Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
 ## Terminologia chiave
 
@@ -37,9 +37,9 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 
 * Gli amministratori richiedono inoltre l’autorizzazione **[!UICONTROL Manage Profiles]** in Adobe Experience Platform.
 
-## Governance e consenso dei dati
+## Governance dei dati e consenso
 
-Quando pubblichi un pubblico in CJA, vengono registrate le etichette e i criteri di governance dei dati allegati ai campi utilizzati nel pubblico.  Quando il pubblico viene attivato in un’app Adobe Experience, tutte le etichette e i criteri di governance dei dati associati sono disponibili per quel pubblico e possono essere applicati gli opportuni provvedimenti di implementazione. [Ulteriori informazioni sul consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Quando pubblichi un pubblico in CJA, vengono registrate le etichette e i criteri di governance dei dati allegati ai campi utilizzati nel pubblico.  Quando il pubblico viene attivato in una qualsiasi app di Adobe Experience, tutte le etichette e i criteri di governance dei dati associati sono disponibili per quel pubblico e possono essere applicati gli opportuni provvedimenti di implementazione. [Ulteriori informazioni sul consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy).
 
 ## Passaggi successivi
 
