@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: b0a1fdcfb2d200d40c308c557c2ddff172c1e18f
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 98%
 
 ---
 
@@ -84,12 +84,12 @@ Dopo che la tua azienda ha acquistato lo SKU Healthcare Shield ed è stata abili
 
 I requisiti relativi alla password sono conformi allo standard Adobe che richiede un minimo di 8 caratteri con almeno un numero e un carattere speciale.
 
-### Nuovo progetto pianificato
+### Protezione tramite password di un nuovo progetto pianificato
 
 1. Dopo aver salvato il progetto, vai a **[!UICONTROL Share]** > **[!UICONTROL Send file now]**, oppure [!UICONTROL Share] > **[!UICONTROL Send file on schedule]**.
 1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#schedule).
 
-### Progetto pianificato esistente
+### Protezione tramite password di un progetto pianificato esistente
 
 Prima dell’orario pianificato per un progetto, il proprietario del progetto riceverà un’e-mail simile alla seguente:
 
