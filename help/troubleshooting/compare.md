@@ -4,10 +4,10 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 90%
 
 ---
 
@@ -63,24 +63,24 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), identifica se alcune righe potrebbero essere state eliminate dal connettore di origine di Analytics.
+1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), dai dati non elaborati specifica se alcune righe potrebbero essere state filtrate dal connettore di origine di Analytics.
 
-   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe rilasciare righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà eliminata.
+   La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbe filtrare determinate righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà filtrata.
 
    | Campo Analytics | Valori che ne causano l’eliminazione di una riga |
    | --- | --- |
    | Opt_out | y, Y |
    | In_data_only | Not 0 |
-   | Exclude_hit | Not 0 |
-   | Bot_id | Not 0 |
+   | Exclude_hit | No 0 |
+   | Bot_id | No 0 |
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
    Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=it).
 
-1. Se il connettore ha rilasciato delle righe, sottrarle dalla metrica [!UICONTROL Occurrences]. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
+1. Se il connettore ha filtrato le righe, sottrarle dal [!UICONTROL Occurrences] metrica. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 
-## Perché i record potrebbero essere ignorati o saltati durante l’acquisizione da AEP
+## Perché i record possono essere filtrati o saltati durante l’acquisizione da AEP
 
 CJA [Connessioni](/help/connections/create-connection.md) ti consente di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplicazione: join esterno completo o unione su set di dati evento basati su marche temporali, quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
 

@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 87d0dd37c9fc9e32e46b7c6a104301f23a2ff652
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+source-git-commit: 7820f462617d21c9e3b23de26c9e9022d74bec0e
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale 
 
 * Pensa per tempo ad allineare le variabili tra le diverse suite di rapporti. Ad esempio, nella suite di rapporti 1 la variabile eVar1 può fare riferimento a [!UICONTROL Page]. Nella suite di rapporti 2, la variabile eVar1 potrebbe invece fare riferimento a [!UICONTROL Internal Campaign]. Una volta introdotte in CJA, queste variabili si combineranno in un’unica dimensione eVar1, generando rapporti potenzialmente confusi e imprecisi.
 
-* Utilizza la funzione [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) per mappare le variabili. Sebbene sia più facile se tutte le suite di rapporti utilizzano la stessa struttura di variabili, questo non sarà necessario se utilizzi la nuova funzione [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it#mapping) di Experience Platform. Consente infatti di fare riferimento a una variabile in base al suo valore mappato, a livello di flusso dei dati (o proprietà).
+* Utilizza la [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) per mappare le variabili. Sebbene sia più facile se tutte le suite di rapporti utilizzano la stessa struttura di variabili, questo non sarà necessario se utilizzi la nuova funzione [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it#mapping) di Experience Platform. Consente infatti di fare riferimento a una variabile in base al suo valore mappato, a livello di flusso dei dati (o proprietà).
 
 Se hai evitato di passare a una suite di rapporti globale a causa di problemi con [!UICONTROL Uniques Exceeded] o [!UICONTROL Low Traffic], tieni presente che CJA non prevede alcun [limite di cardinalità su una dimensione](/help/components/dimensions/high-cardinality.md). Permette di visualizzare e conteggiare qualsiasi valore univoco.
 
@@ -58,6 +58,8 @@ Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale
 
 ### 4. Decidere se usare il connettore di origine di Analytics o gli SDK di Experience Platform {#connector-vs-sdk}
 
+I clienti Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine di Analytics. Per informazioni sull&#39;utilizzo del connettore di origine di Analytics, consulta [Creare una connessione sorgente Adobe Analytics nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).
+
 Mentre la raccolta dati di [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) si evolve, probabilmente eseguirai la migrazione ad [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=it) o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=it) con la rete Edge di Adobe Experience Platform. Sebbene un’implementazione tipica degli SDK invii dati ad Adobe Analytics, si presenta una nuova opportunità per l’invio diretto dei dati a Adobe Experience Platform. Possono quindi essere acquisiti in Customer Journey Analytics, mantenendo al tempo stesso i dati inviati ad Adobe Analytics.
 
 Questo metodo estende notevolmente le possibilità di raccolta dei dati: non esiste più un limite al numero di campi né la necessità di mappare gli elementi dati su prop, eVar ed eventi come in Analytics. È possibile utilizzare un numero illimitato di elementi schema di tipi diversi e rappresentarli in più modi utilizzando le [Visualizzazioni dati](/help/data-views/data-views.md) di CJA. Quando i dati vengono inviati direttamente ad Adobe Experience Platform, diventano disponibili più velocemente in quanto viene rimosso il tempo di elaborazione dei dati tramite Adobe Analytics.
@@ -67,7 +69,8 @@ Questo metodo estende notevolmente le possibilità di raccolta dei dati: non esi
 * Schema flessibile per definire i campi necessari
 * Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)
 * Nessun limite di carattere (100 caratteri per prop)
-* Disponibilità più rapida dei dati in Adobe Experience Platform
+* Disponibilità più rapida dei dati in Adobe Experience Platform a potenza [casi d’uso di personalizzazione in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=en)
+* [ID dispositivo di prime parti](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en) per una maggiore precisione nell&#39;identificazione dei visitatori
 
 **Limitazioni dell’utilizzo degli SDK di Experience Platform**
 
