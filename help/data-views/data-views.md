@@ -4,8 +4,8 @@ description: Una visualizzazione dati determina come interpretare gli elementi d
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -79,4 +79,4 @@ Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], 
 ## Passaggi successivi
 
 * [Creare le visualizzazioni dati](/help/data-views/create-dataview.md)
-* [Casi d’uso per le visualizzazioni dati](/help/data-views/data-views-usecases.md)
+* [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md)

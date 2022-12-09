@@ -1,14 +1,14 @@
 ---
-title: 'Guida di CJA per gli utenti di Adobe Analytics '
+title: Guida di CJA per gli utenti di Adobe Analytics
 description: Aspetti da considerare dal punto di vista di un utente quando l’azienda trasferisce i dati da Adobe Analytics a Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1424'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Molte delle funzioni di reporting che conosci restano invariate.
 
 * Puoi continuare a usare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati. Workspace funziona ancora come nell’ambiente Adobe Analytics tradizionale.
 * È disponibile la stessa versione delle [dashboard di Adobe Analytics](/help/mobile-app/home.md), che funziona in modo simile in CJA e Analytics tradizionale.
-* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione, non era possibile utilizzare Report Builder su Mac, se non tramite VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
+* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione del Report Builder, non era possibile utilizzare in su Mac a meno che non lo si eseguisse su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
 
 ## Modifiche alle funzioni di reporting
 
@@ -54,7 +54,7 @@ Il selettore delle suite di rapporti, in alto a destra, ora consente di sceglier
 
 ![data-view-selector](assets/data-views.png)
 
-Per ulteriori informazioni su questo concetto, consulta [Casi d’uso per le visualizzazioni dati](/help/data-views/data-views-usecases.md).
+Per ulteriori informazioni su questo concetto, consulta [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md).
 
 ## Modifiche al concetto di eVar e prop
 
@@ -68,7 +68,7 @@ Grazie a questa flessibilità, puoi trovarti in situazioni in cui un singolo cam
 
 Adobe ha rinominato il componente “segmenti” in “filtri” per allinearlo meglio agli standard di settore e per distinguerlo dai segmenti di Adobe Experience Platform.
 
-[!UICONTROL Customer Journey Analytics] non utilizza più eVar, prop o eventi, utilizza invece il nome del campo dello schema di Experience Platform su cui sono stati mappati. Ciò significa che i segmenti esistenti in Adobe Analytics non sono compatibili con [!UICONTROL Customer Journey Analytics]. Per trasferire a Customer Journey Analytics i segmenti esistenti di Adobe Analytics, guarda il video seguente:
+[!UICONTROL Customer Journey Analytics] non utilizza più eVar, prop o eventi, ma utilizza il nome del campo dello schema di Experience Platform a cui sono stati mappati. Ciò significa che i segmenti esistenti in Adobe Analytics non sono compatibili con [!UICONTROL Customer Journey Analytics]. Per trasferire a Customer Journey Analytics i segmenti esistenti di Adobe Analytics, guarda il video seguente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
@@ -96,7 +96,7 @@ Inoltre, più visualizzazioni dati possono essere basate sulla stessa connession
 
 ## Modifiche al concetto di classificazione
 
-Le classificazioni sono diventate “Set di dati di ricerca”. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati Evento o Profilo. Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti. Per un caso d’uso di esempio, vedi [Aggiungere dati a livello di account come set di dati di ricerca](/help/use-cases/b2b.md).
+Le classificazioni sono diventate “Set di dati di ricerca”. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati Evento o Profilo. Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti. Per un caso d’uso di esempio, vedi [Aggiungere dati a livello di account come set di dati di ricerca](/help/use-cases/b2b/b2b.md).
 
 ## Modifiche al concetto di attributi cliente
 

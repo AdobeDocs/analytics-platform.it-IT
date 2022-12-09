@@ -4,8 +4,8 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide dell’elenco a discesa includono altre dimensioni presenti nella visualizzazione dati.
 
-Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md).
+Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).
 
 ## [!UICONTROL Binding Metric]
 
@@ -86,4 +86,4 @@ Elenco a discesa che consente di scegliere una metrica che agisce come trigger d
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/binding-dimensions-metrics.md).
+Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).

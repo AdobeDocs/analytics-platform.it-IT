@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 7820f462617d21c9e3b23de26c9e9022d74bec0e
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 94%
@@ -44,7 +44,7 @@ A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale 
 
 Se hai evitato di passare a una suite di rapporti globale a causa di problemi con [!UICONTROL Uniques Exceeded] o [!UICONTROL Low Traffic], tieni presente che CJA non prevede alcun [limite di cardinalità su una dimensione](/help/components/dimensions/high-cardinality.md). Permette di visualizzare e conteggiare qualsiasi valore univoco.
 
-Qui puoi trovare un caso di utilizzo sulla [combinazione di suite di rapporti con schemi diversi](/help/use-cases/combine-report-suites.md).
+Qui puoi trovare un caso di utilizzo sulla [combinazione di suite di rapporti con schemi diversi](/help/use-cases/aa-data/combine-report-suites.md).
 
 ### 3. (Ri)Configurare i canali di marketing {#marketing-channels}
 
@@ -111,7 +111,7 @@ Ecco un paio di video per guidarti:
 
 ### Altre considerazioni
 
-* Grazie alla potenza delle visualizzazioni dati di CJA, hai a disposizione molta più flessibilità nel definire le metriche e le dimensioni in Customer Journey Analytics. Ad esempio, puoi utilizzare il valore di una dimensione come definizione di una metrica. [Ulteriori informazioni](/help/data-views/data-views-usecases.md)
+* Grazie alla potenza delle visualizzazioni dati di CJA, hai a disposizione molta più flessibilità nel definire le metriche e le dimensioni in Customer Journey Analytics. Ad esempio, puoi utilizzare il valore di una dimensione come definizione di una metrica. [Ulteriori informazioni](/help/use-cases/data-views/data-views-usecases.md)
 
 * Se hai definito un calendario personalizzato in Adobe Analytics, trovi [funzionalità di calendario personalizzato](/help/components/date-ranges/custom-date-ranges.md) simili anche in CJA. È necessario assicurarsi che il calendario sia definito correttamente.
 
