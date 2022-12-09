@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1210'
+ht-degree: 98%
 
 ---
 
@@ -122,6 +122,8 @@ Gli schemi in Adobe Experience Platform contengono campi [!UICONTROL Date] e [!U
 * Per il formato Data, se selezioni **[!UICONTROL Day]** con il formato **[!UICONTROL Month, Day, Year]**, l&#39;output in un rapporto potrebbe presentarsi simile al seguente: Agosto 23, 2022.
 
 * Per il formato data-ora, se selezioni **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l’output potrebbe essere simile al seguente: 20:20.
+
+Attualmente sono supportate le date successive al 1° gennaio 1900 (con l’eccezione unica del 1° gennaio 1970) e i valori data-ora successivi al 1° gennaio 2000 00:00:00
 
 ### Casi d’uso per data e ora
 
