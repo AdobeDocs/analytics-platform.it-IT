@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
+source-git-commit: 648fae78f8e4a5b9632554e7a92636ee02ab11d1
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
@@ -88,9 +88,9 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | --- | --- |
 | **[!UICONTROL Data Views]** | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | **[!UICONTROL Reporting Tools]**: |  |
-| **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni all’[API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e all’interfaccia utente dei prossimi registri di controllo. |
-| **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare tutti i rapporti in esecuzione nella propria azienda. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
-| **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. (La funzionalità di utilizzo del reporting non è ancora stata rilasciata.) |
+| **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni all’[API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e all’interfaccia utente dei registri di audit. |
+| **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare tutti i rapporti in esecuzione nella propria azienda. |
+| **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. |
 | **[!UICONTROL Calculated Metrics Creation]** | Consente agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Filter Creation]** | Consente agli utenti di creare [filtri](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Labs Access]** | Consente agli utenti di accedere alla scheda [Labs](/help/labs/labs.md) in CJA. |
