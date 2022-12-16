@@ -3,24 +3,25 @@ title: Stimare e gestire l’utilizzo di CJA
 description: Mostra due metodi per stimare l'utilizzo e un metodo per gestirlo.
 role: Admin
 feature: CJA Basics
-source-git-commit: 2bcf1f805a54581f13f7d08b9ef034535d7959b1
+exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
+source-git-commit: e8f5982ae073d4e3dca85b3054fd325cc40ff40a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '797'
 ht-degree: 43%
 
 ---
 
-
 # Stimare e gestire l’utilizzo di CJA
 
-Per comprendere l’utilizzo di CJA, puoi utilizzare 2 metodi:
+Per comprendere l’utilizzo di CJA, puoi utilizzare 3 metodi:
 
-* Aggiungi le righe dei dati dell’evento per ogni connessione. (Vedi **Stimare la dimensione della connessione** sotto)
-* Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso. (Vedi **Creare un progetto Workspace utilizzando tutti i dati dell’evento** qui sotto.)
+* Aggiungi le righe dei dati dell’evento per ogni connessione. (Vedi **Stimare la dimensione della connessione** qui sotto) Questo è un modo semplice per visualizzare i dati della riga evento, per connessione, per una data e ora specifica.
+* Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso. (Vedi **Creare un progetto Workspace utilizzando tutti i dati dell’evento** qui sotto.) Ciò ti consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia dell’utilizzo.
+* Utilizza l’API CJA per creare un rapporto automatico. (Vedi **Creare un rapporto nell’API CJA** qui sotto.)
 
 Per gestire l’utilizzo di CJA:
 
-* Utilizza l’API CJA. (Vedi **Creare un rapporto nell’API CJA** qui sotto.)
+* Definire una finestra dati continua. (Vedi sotto.)
 
 ## Stimare la dimensione della connessione {#estimate-size}
 
@@ -59,12 +60,33 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
 
 1. Prima di creare il progetto in Workspace, [creare una visualizzazione dati](/help/data-views/create-dataview.md) che richiama i dati da TUTTE le tue connessioni e non ha filtri applicati. In altre parole, include tutti i tuoi dati.
 
-1. In Workspace, crea un nuovo progetto ed esegui il richiamo di tutti gli eventi (dal **[!UICONTROL Metrics]** menu a discesa) per il mese precedente.
+1. In Workspace, crea un nuovo progetto ed esegui il richiamo di tutti gli eventi (dal **[!UICONTROL Metrics]** a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
 
    ![Eventi](assets/events-usage.png)
 
-1. eseguire questa operazione
+   Questo ti darà una buona idea di come il tuo utilizzo è tendenza mese a mese.
 
-## Creare un rapporto nell’API CJA {#api-report}
+1. A seconda delle tue esigenze, puoi eseguire il drill-down per set di dati, ecc.
 
-Utilizza la [API di reporting per CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati dell&#39;evento.
+
+## Creare un rapporto automatico nell’API CJA {#api-report}
+
+1. Utilizza la [API di reporting per CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati dell&#39;evento, **per ogni connessione**. Imposta questo valore in modo che il rapporto venga eseguito
+
+   * ogni terzo venerdì di ogni mese.
+   * torna al primo giorno del contratto CJA in corso.
+
+   Questo ti darà una buona idea di come il tuo utilizzo è tendenza mese a mese. Ti darà il numero totale di righe su tutte le tue connessioni CJA.
+
+1. Usa Excel per personalizzare ulteriormente il rapporto.
+
+## Definire una finestra dati continua {#rolling}
+
+Per gestire il tuo utilizzo, [interfaccia utente connessioni](/help/connections/create-connection.md) ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
+
+Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
+
+Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experience Platform, CJA riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, CJA mantiene i restanti 15 mesi.
+
+La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.
+
