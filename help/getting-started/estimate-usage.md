@@ -4,24 +4,26 @@ description: Mostra due metodi per stimare l'utilizzo e un metodo per gestirlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
+source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 43%
+source-wordcount: '822'
+ht-degree: 42%
 
 ---
 
-# Stimare e gestire l’utilizzo di CJA
+# Visualizzare e gestire l’utilizzo di CJA
 
-Per comprendere l’utilizzo di CJA, puoi utilizzare 3 metodi:
+Per visualizzare l’utilizzo di CJA, puoi utilizzare diversi metodi:
 
-* Aggiungi le righe dei dati dell’evento per ogni connessione. (Vedi **Stimare la dimensione della connessione** qui sotto) Questo è un modo semplice per visualizzare i dati della riga evento, per connessione, per una data e ora specifica.
-* Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso. (Vedi **Creare un progetto Workspace utilizzando tutti i dati dell’evento** qui sotto.) Ciò ti consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia dell’utilizzo.
-* Utilizza l’API CJA per creare un rapporto automatico. (Vedi **Creare un rapporto nell’API CJA** qui sotto.)
+* Aggiungi le righe dei dati dell’evento per ogni connessione. Vedi [Stimare la dimensione della connessione](#stima size) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
+* Puoi visualizzare l’utilizzo in tre modi, descritti più dettagliatamente di seguito:
+   * Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso.
+   * Utilizza il Report Builder per creare rapporti sugli eventi del mese scorso.
+   * Utilizza l’API CJA per creare un rapporto automatico.
 
 Per gestire l’utilizzo di CJA:
 
-* Definire una finestra dati continua. (Vedi **Definire una finestra dati continua** qui sotto.)
+* Definire una finestra dati continua.
 
 ## Stimare la dimensione della connessione {#estimate-size}
 
@@ -58,6 +60,8 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
 
 ## Creare un progetto Workspace utilizzando tutti i dati dell’evento {#workspace-event-data}
 
+Questo metodo consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia dell’utilizzo.
+
 1. Prima di creare il progetto in Workspace, [creare una visualizzazione dati](/help/data-views/create-dataview.md) per ciascuna connessione, senza applicare alcun filtro.
 
 1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati ed esegui il pull-in tutti gli eventi (dal **[!UICONTROL Metrics]** a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
@@ -68,19 +72,22 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
 
 1. A seconda delle tue esigenze, puoi eseguire il drill-down per set di dati, ecc.
 
+## Crea un blocco di dati in Report Builder {#arb}
+
+Al Report Builder, [creare un blocco dati](/help/report-builder/create-a-data-block.md) per ogni visualizzazione di dati, quindi sommati.
 
 ## Creare un rapporto automatico nell’API CJA {#api-report}
 
 1. Utilizza la [API di reporting per CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati dell&#39;evento, **per ogni connessione**. Imposta questo valore in modo che il rapporto venga eseguito
 
-   * ogni terzo venerdì di ogni mese.
+   * ogni primo venerdì di ogni mese.
    * torna al primo giorno del contratto CJA in corso.
 
    Questo ti darà una buona idea di come il tuo utilizzo è tendenza mese a mese. Ti darà il numero totale di righe su tutte le tue connessioni CJA.
 
 1. Usa Excel per personalizzare ulteriormente il rapporto.
 
-## Definire una finestra dati continua {#rolling}
+## Gestire l&#39;utilizzo definendo una finestra dati continua {#rolling}
 
 Per gestire il tuo utilizzo, [interfaccia utente connessioni](/help/connections/create-connection.md) ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
 
