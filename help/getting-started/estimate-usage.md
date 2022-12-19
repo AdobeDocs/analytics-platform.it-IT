@@ -4,10 +4,10 @@ description: Mostra due metodi per stimare l'utilizzo e un metodo per gestirlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
+source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 42%
+source-wordcount: '844'
+ht-degree: 41%
 
 ---
 
@@ -63,6 +63,10 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
 Questo metodo consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia dell’utilizzo.
 
 1. Prima di creare il progetto in Workspace, [creare una visualizzazione dati](/help/data-views/create-dataview.md) per ciascuna connessione, senza applicare alcun filtro.
+
+>[!WARNING]
+>
+>    Non creare una nuova connessione che includa tutti i dati solo per misurare l&#39;utilizzo, in quanto ciò raddoppierebbe l&#39;utilizzo.
 
 1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati ed esegui il pull-in tutti gli eventi (dal **[!UICONTROL Metrics]** a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
 
