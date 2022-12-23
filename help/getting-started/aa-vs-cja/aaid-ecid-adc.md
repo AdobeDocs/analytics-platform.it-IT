@@ -3,9 +3,9 @@ title: AAID, ECID, AACUSTOMID e il connettore di origine di Analytics
 description: Scopri in che modo il connettore di origine di Analytics si occupa dei campi di identità di Adobe Analytics.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 source-git-commit: a8f8d14eb854029d6245932a321cf08dfb3cd7e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Questi campi non sono contrassegnati come identità. Le stesse identità vengono
 * `{ “key”: “ECID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
 * `{ “key”: “AACUSTOMID”, “value”: [ { “id”: “<identity>”, “primary”: false } ] }`
 
-Gli elementi tra parentesi &lt;> rappresentano luoghi in cui apparirebbero i valori effettivi.
+Gli elementi tra parentesi &lt;> rappresentano i luoghi in cui apparirebbero i valori effettivi.
 
 All’interno di identityMap:
 
