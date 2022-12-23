@@ -23,7 +23,7 @@ Le preferenze generali sono applicabili all’esperienza CJA nel browser.
 
 | Preferenza | Opzioni |
 | --- | --- |
-| Landing page | <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Progetto specifico</li></ul> |
+| Pagina di destinazione | <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Progetto specifico</li></ul> |
 | Suggerimenti | <ul><li>Abilitato (impostazione predefinita)</li><li>Disabilitata</li></ul> |
 
 ## Preferenze per i progetti
