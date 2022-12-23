@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
    + [Visualizzare e gestire l’utilizzo di CJA](../getting-started/estimate-usage.md)
    + [Domande frequenti](../getting-started/cja-faq.md)
    + Confrontare Adobe Analytics e Customer Journey Analytics {#compare-aa-cja}
-      + [Utilizzo dei dati di Adobe Analytics nel Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [Utilizza i dati di Adobe Analytics nel Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Supporto delle funzioni di Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
       + [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](../getting-started/aa-vs-cja/terminology.md)
       + [Confrontare l’elaborazione dei dati in Adobe Analytics e CJA](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -238,7 +238,7 @@ ht-degree: 96%
    + [Guida introduttiva per utenti direzionali](../mobile-app/executive.md)
 + Integrazioni Adobe {#integrations}
    + [Panoramica sull’integrazione delle soluzioni Adobe con CJA](/help/integrations/overview.md)
-   + [Integrare Adobe Analytics con il Customer Journey Analytics](/help/integrations/aa.md)
+   + [Integrare Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
    + [Integrare i dati Journey Optimizer con CJA](/help/integrations/ajo.md)
    + [Integrare la funzione IA per l’analisi dei clienti con CJA](/help/integrations/customer-ai.md)
 + Casi d’uso {#cja-usecases}
@@ -248,7 +248,7 @@ ht-degree: 96%
       + [Acquisire dati storici Google Analytics in Platform](../use-cases/ga/backfill.md)
       + [Configurare i dati streaming di Google Analytics in Platform](../use-cases/ga/streaming.md)
       + [Generare rapporti sui dati Google Analytics in CJA](../use-cases/ga/report.md)
-   + Acquisizione dati {#data-ingestion}
+   + Acquisizione dei dati {#data-ingestion}
       + [Casi d’uso per l’acquisizione di dati](../use-cases/data-ingestion/data-ingestion.md)
       + [Acquisire i dati Marketo Engage in AEP e generare rapporti in CJA](../use-cases/data-ingestion/marketo.md)
       + [Acquisire i tipi di pubblico di AEP in CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -257,7 +257,7 @@ ht-degree: 96%
       + [Utilizzare dimensioni e metriche di binding](../use-cases/data-views/binding-dimensions-metrics.md)
    + B2B {#b2b}
    + [Aggiungere dati a livello di account come set di dati di ricerca](../use-cases/b2b/b2b.md)
-   + Dati multicanale {#cross-channel}
+   + Dati cross-channel {#cross-channel}
       + [Analizzare i dati tra canali diversi](../use-cases/cross-channel/cross-channel.md)
       + [Importare dati web e call center](../use-cases/cross-channel/call-center.md)
    + Dati Adobe Analytics {#aa-data}

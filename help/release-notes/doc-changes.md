@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -22,13 +22,13 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento su [misurazione e gestione dell’utilizzo dei dati CJA](/help/getting-started/estimate-usage.md). |
 | **Ottobre 2022** |  |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#password). Questa funzione supporta [Preparazione dell&#39;HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
-| Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione supporta [Preparazione dell&#39;HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
-| Ottobre 2022 | Nuovo argomento su [Registro di controllo CJA](/help/privacy/audit-log.md). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [Registro di controllo di CJA](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/keymetric.html?lang=it). |
 | Ottobre 2022 | Nuova sezione sulla [funzionalità data e ora nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | Ottobre 2022 | App mobile: nuovo argomento sulle [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#view-detail-slides). |
-| Ottobre 2022 | Aggiornamenti al [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) argomento. |
+| Ottobre 2022 | Aggiornamenti dell’argomento [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Settembre 2022** |  |
 | Settembre 2022 | Nuovo caso d’uso sulla [migrazione dei dati da Google Analytics a CJA](/help/use-cases/ga/overview.md). |
 | Settembre 2022 | Nuovo argomento sui [grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
