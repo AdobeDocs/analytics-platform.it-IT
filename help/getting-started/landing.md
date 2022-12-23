@@ -40,7 +40,7 @@ Dopo aver effettuato l’accesso ad Adobe Experience Cloud e Customer Journey An
 | Elemento nell’interfaccia utente | Definizione |
 | --- | --- |
 | ... Altro | Consente di scegliere [!UICONTROL View Tutorials] e di [modificare le preferenze utente](/help/analysis-workspace/user-preferences.md). |
-| È tornata la finestra modale **[!UICONTROL Create new]** | Quando fai clic su **[!UICONTROL Create new]** in Workspace, ora puoi di nuovo scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. |
+| È tornata la finestra modale **[!UICONTROL Create new]** | Quando fai clic su **[!UICONTROL Create new]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. |
 | [!UICONTROL Show less/more] | Consente di visualizzare o meno il banner: ![Banner superiore](assets/top-banner.png) |
 | [!UICONTROL Blank project] | Crea un [progetto Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) vuoto da compilare. |
 | [!UICONTROL Blank mobile scorecard] | Crea una [scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) vuota da compilare. |
@@ -81,4 +81,4 @@ La pagina Apprendimento contiene tutorial e presentazioni video pratiche, nonch�
 | Domanda | Risposta |
 | --- | --- |
 | Esiste un limite massimo al numero di progetti che è possibile fissare? | No, non esiste alcun limite al numero di progetti che è possibile fissare. |
-| Gli amministratori possono designare questa pagina di destinazione per i loro utenti? | No, gli amministratori non possono designare la pagina di destinazione per conto degli utenti. I singoli utenti devono attivarla autonomamente. |
+| Gli amministratori possono designare questa nuova pagina di destinazione per i loro utenti? | No, gli amministratori non possono designare la pagina di destinazione per conto degli utenti. I singoli utenti devono attivarla autonomamente. |
