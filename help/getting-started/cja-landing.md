@@ -5,9 +5,9 @@ exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Novità e funzioni</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=en">Utilizzo dei dati della suite di rapporti di Adobe Analytics nel Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=it">Utilizzare i dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=it"> Combinare suite di rapporti con schemi diversi </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adobe Analytics e CJA </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en"> Suite di rapporti virtuali, visualizzazioni dati, sandbox di AEP e il connettore di origine di Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=it"> Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=it"> Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adobe Analytics e CJA </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=it"> Suite di rapporti virtuali, visualizzazioni dati, sandbox di AEP e il connettore di origine di Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=it"> Evoluzione da Adobe Analytics a Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=it"> Guida di CJA per gli utenti di Adobe Analytics </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#connection-detail"> Utilizzare le funzionalità avanzate di gestione delle connessioni </a> </li>
@@ -50,7 +50,7 @@ I clienti di Analytics Select, Prime e Ultimate possono acquistare questo prodot
      <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=it" format="https" scope="external"> Tutorial su Adobe Experience Platform</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> Riferimento API</a> </li> 
      <li><a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> Documentazione e risorse per sviluppatori</a> </li>
-     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it" format="https" scope="external"> Connettore sorgente Adobe Analytics per i dati della suite di rapporti</a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it" format="https" scope="external">Connettore di origine di Adobe Analytics per i dati della suite di rapporti</a> </li>
     </ul> </td> 
   </tr> 
  </tbody> 
