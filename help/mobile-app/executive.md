@@ -3,9 +3,9 @@ description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
 source-wordcount: '1198'
 ht-degree: 100%
@@ -149,4 +149,3 @@ Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tu
 | Raggruppamento | Una vista secondaria accessibile toccando una sezione nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla sezione e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
 | Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
 | Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
-
