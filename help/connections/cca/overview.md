@@ -4,9 +4,9 @@ description: Reimposta ID visitatore da più set di dati per unire i visitatori.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+source-git-commit: a9c4465ae099763c92cdc355de56d383ac625432
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1158'
 ht-degree: 97%
 
 ---
@@ -57,7 +57,6 @@ Cross-Channel Analytics è una funzione innovativa e affidabile, ma presenta lim
 * L’unione basata sui campi non combina o concatena i campi.
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
-* Cross-Channel Analytics tiene traccia di ogni valore ID persistente per 1 anno (TTL = 1 anno). Se un dispositivo non ha attività per più di un anno e riavvia l’attività, i nuovi eventi saranno associati a una persona anonima fino a quando l’utente non viene nuovamente identificato (ad esempio tramite un nuovo accesso).
 * Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera i 50.000, CCA non unisce più i dati per quel dispositivo.
 
 
