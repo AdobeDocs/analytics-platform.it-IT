@@ -4,10 +4,10 @@ description: Scopri come aggiungere dati basati su account come set di dati di r
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2b21d6e4e092c33947220b2d22a8a757407fabb
+source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 3%
+source-wordcount: '836'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 
 Per eseguire tutto questo, inserisci le informazioni a livello di account come [ricerca](/help/getting-started/cja-glossary.md) set di dati.
 
-Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi devi procedere alla creazione di una connessione nel Customer Journey Analytics (CJA0) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
+Prima si crea uno schema di ricerca in Adobe Experience Platform, quindi si crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi devi procedere alla creazione di una connessione in Customer Journey Analytics (CJA) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
 >[!NOTE]
 >
@@ -38,12 +38,6 @@ Creazione di uno schema personalizzato per [ricerca](/help/getting-started/cja-g
 ## 2. Crea set di dati di ricerca (Experience Platform)
 
 Una volta creato lo schema, è necessario creare, ad Experience Platform, un set di dati di ricerca da tale schema. Questo set di dati di ricerca contiene informazioni di marketing a livello di account, ad esempio: nome dell’azienda, numero totale di dipendenti, nome di dominio, a quale industria appartengono, ricavi annuali, che siano clienti attuali dell’Experience Platform o meno, in quale fase di vendita si trovano, in quale team all’interno dell’account sta utilizzando CJA, ecc.
-
->[!IMPORTANT]
->
->CJA non supporta gli interi nei set di dati di ricerca. Se si aggiungono campi interi nello schema XDM per il set di dati di ricerca, non sarà possibile utilizzare tali numeri interi come metriche o metriche calcolate. Ad esempio, se i ricavi annuali o i dipendenti totali sono definiti come numeri interi, nei rapporti di CJA verranno visualizzati come &quot;0&quot;. Tuttavia, se le assegni come stringhe, puoi utilizzarle come informazioni di ricerca.
-
-Ad esempio, i ricavi annuali o i dipendenti totali sono definiti come Intero nell’esempio seguente, per questo motivo viene visualizzato &quot;0&quot; in CJA.
 
 1. In Adobe Experience Platform, vai a **[!UICONTROL Data Management > Datasets]**.
 1. Fai clic su **[!UICONTROL + Create dataset]**.
@@ -96,4 +90,4 @@ Ad esempio, puoi trovare le risposte alle risposte fornite nell’introduzione:
 * Quanti dipendenti vengono mappati su un ID account specifico?
 * A che settore appartiene un ID account?
 
-![](../assets/project-lookup.png)
+![project-lookup2](https://git.corp.adobe.com/storage/user/5902/files/348183a8-343c-497e-b270-4fc02b32cb9e)
