@@ -3,12 +3,10 @@ description: Scopri come aggiungere cartelle in Workspace
 keywords: Analysis Workspace
 title: Aggiungere cartelle in Workspace
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '225'
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 È possibile aggiungere progetti a una cartella nella vista tabella o dall’interno di una cartella.
 
->[!NOTE]
->
->Questa funzionalità è attualmente in versione beta. Alcune schermate potrebbero cambiare.
-
-## Dalla vista tabella
+## Dalla vista tabella {#table-view}
 
 Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
@@ -47,7 +41,7 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Dall’interno di una cartella
+## Dall’interno di una cartella {#inside-folder}
 
 Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il collegamento con i puntini di sospensione.
 
@@ -69,7 +63,11 @@ Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il col
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Fai clic su **Add** (Aggiungi).per aggiungere i progetti alla cartella.
+1. Fai clic su **Aggiungi** per aggiungere i progetti alla cartella.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-Solo gli amministratori possono aggiungere progetti alla cartella dell’azienda (Company Folder) o creare un nuovo progetto e salvarlo in essa.
+
+
+>[!NOTE]
+>
+>Solo gli amministratori possono aggiungere progetti alla cartella aziendale o creare un nuovo progetto e salvarlo nella cartella aziendale
