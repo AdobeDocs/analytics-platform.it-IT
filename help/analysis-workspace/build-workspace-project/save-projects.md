@@ -4,51 +4,77 @@ title: Salvare i progetti
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 39%
 
 ---
 
 # Salvare i progetti
 
-Per salvare le modifiche apportate a un progetto, vai al menu **[!UICONTROL Project]** di Workspace. In alcuni casi Workspace salva automaticamente anche i progetti.
+I progetti in Analysis Workspace vengono salvati automaticamente ogni 2 minuti.
+
+Puoi anche salvare manualmente i progetti. Quando salvi manualmente un progetto sono disponibili opzioni aggiuntive, ad esempio l’aggiunta di tag o note.
 
 ## Opzioni di salvataggio dei progetti {#Save}
 
-È possibile effettuare diverse azioni di salvataggio nel menu **[!UICONTROL Project]**, a seconda di come desideri accedere all’analisi in futuro.
+Sono disponibili varie opzioni quando salvi manualmente un progetto in Analysis Workspace.
 
-| Azione | Descrizione |
-|---|---|
-| **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Quando salvi il progetto per la prima volta, ti viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
-| **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] (Progetto) > [!UICONTROL Open previous version] (Apri versione precedente). |
-| **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
-| **[!UICONTROL Save as template]** | Salva il progetto come [modello personalizzato](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
+Per salvare manualmente un progetto:
 
-![](assets/save-project.png)
+1. Con il progetto aperto in Analysis Workspace, seleziona **[!UICONTROL Project]**, quindi scegli tra le seguenti opzioni:
+
+   | Azione | Descrizione |
+   |---|---| 
+   | **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Quando salvi il progetto per la prima volta, ti viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
+   | **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] (Progetto) > [!UICONTROL Open previous version] (Apri versione precedente). |
+   | **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
+   | **[!UICONTROL Save as template]** | Salva il progetto come [modello personalizzato](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
+
+   ![](assets/save-project.png)
 
 ## Salvataggio automatico {#Autosave}
 
-I progetti esistenti, ovvero quelli salvati almeno una volta, vengono salvati automaticamente ogni due minuti nel dispositivo locale. I nuovi progetti che non sono mai stati salvati non vengono attualmente salvati automaticamente.
+Tutti i progetti in Analysis Workspace vengono salvati automaticamente ogni 2 minuti nel computer locale. Sono inclusi i progetti appena creati che non vengono ancora salvati manualmente.
 
-Esistono alcune situazioni che possono allontanarti dalle modifiche non salvate apportate a un progetto, risultando in diverse azioni disponibili.
+* **Nuovi progetti:** Anche se i nuovi progetti vengono salvati automaticamente, è necessario salvarli manualmente per la prima volta. Analysis Workspace richiede di salvare manualmente nuovi progetti quando si passa a un altro progetto, si chiude la scheda del browser e così via.
 
-### Aprire un nuovo progetto Workspace
+   Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, una versione di ripristino del progetto viene salvata nella pagina di destinazione di Analysis Workspace in una cartella denominata `Recovered Projects (Last 7 Days)`.
 
-Adobe fornisce l’opzione di salvare prima di uscire dalla pagina. Dopo aver abbandonato un progetto esistente, la copia locale salvata automaticamente viene eliminata.
+   ![](assets/recovered-folder.png)
+
+* **Progetti esistenti:** Se per qualsiasi motivo lasci un progetto con modifiche non ancora salvate automaticamente, Analysis Workspace richiede di salvare le modifiche o fornisce un messaggio di avviso.
+
+   Di seguito sono riportati alcuni scenari comuni:
+
+### Apri un altro progetto
+
+Se apri un progetto aggiuntivo mentre lavori a un progetto contenente modifiche non ancora salvate automaticamente, Analysis Workspace richiede di salvare il progetto corrente prima di uscire.
+
+Sono disponibili le seguenti opzioni:
+
+* **Salva:** Sostituisce la copia locale del progetto salvata automaticamente più recente con le modifiche più recenti.
+* **Salva con nome:** Salva le modifiche più recenti come nuovo progetto. Il progetto originale viene salvato solo con le ultime modifiche salvate automaticamente.
+* **Elimina modifiche:** Ignora le modifiche più recenti. Il progetto conserva le modifiche salvate automaticamente più recenti.
 
 ![](assets/existing-save.png)
 
 ### Spostarsi o chiudere una scheda
 
-Il browser avverte che le modifiche non salvate andranno perse. È possibile scegliere di uscire o annullare.
+Se ti allontani dalla pagina o chiudi la scheda del browser durante la visualizzazione di un progetto con modifiche non ancora salvate automaticamente, il browser avverte che le modifiche non salvate andranno perse. È possibile scegliere di uscire o annullare.
 
 ![](assets/browser-image.png)
 
 ### Arresto anomalo del browser o timeout della sessione
 
-Per i progetti **esistenti**, una volta tornato in Workspace viene visualizzata una finestra di dialogo modale per il **recupero del progetto**. Se si seleziona “Sì”, il progetto viene ripristinato dalla copia locale salvata automaticamente. Selezionando “No” la copia locale salvata automaticamente viene eliminata e viene aperta l’ultima versione del progetto salvata dall’utente.
+Se il browser si blocca o se la sessione si interrompe, alla successiva accesso ad Analysis Workspace viene richiesto di recuperare eventuali modifiche al progetto che non sono ancora state salvate automaticamente.
+
+Di seguito è riportata la finestra di dialogo Recupero progetto che visualizza la prima volta che accedi ad Analysis Workspace dopo un arresto anomalo o un timeout.
+
+Seleziona **Sì** per ripristinare il progetto dalla copia salvata automaticamente più recente.
+
+Seleziona **No** per eliminare la copia salvata automaticamente e aprire l’ultima versione del progetto salvata dall’utente.
 
 ![](assets/project-recovery.png)
 
