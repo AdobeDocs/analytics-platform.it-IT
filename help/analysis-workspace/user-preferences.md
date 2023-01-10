@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 652ae043f504ff71e8ed469a33f2ef4ebf1c7d04
+source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 44%
+source-wordcount: '2425'
+ht-degree: 45%
 
 ---
 
@@ -155,11 +155,6 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **[Istogramma](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | Numero di bucket | Scegli il numero di intervalli di dati (bucket) nella visualizzazione. Il numero massimo consentito è 50. <p>Per ulteriori informazioni, consulta [Istogramma](/help/analysis-workspace/visualizations/histogram.md).</p> |
 |  | Metodo di conteggio | Scegli tra le seguenti opzioni: <ul><li>Hit</li><li>Visita</li><li>Visitatore</li></ul> <p>Ad esempio, se utilizzato insieme alle visualizzazioni di pagina, puoi scegliere le visualizzazioni di pagina per visitatore, le visualizzazioni di pagina per visita o le visualizzazioni di pagina per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera.</p> |
-| **Mappa** |  |  |
-|  | Dimensione di plottaggio | <ul><li>Latitudine/longitudine mobile</li><li>Dimensione geografica</li></ul> |
-|  | Tipo di mappa | <ul><li>Bolle</li><li>Mappa di calore</li></ul> |
-|  | Tema colore | Scegli tra Coral, Rossi, Verdi, Blues, Heatmap e Positive/Negative. |
-|  | Stile mappa | Scegli tra Basic, Streets, Bright, Light, Dark e Satellite. |
 | **[Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Valore | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Modifica percentuale</li><li>Differenza grezza</li></ul> |
 |  | Percentuali | Visualizza i valori in percentuale per le visualizzazioni Variazione di riepilogo. |
