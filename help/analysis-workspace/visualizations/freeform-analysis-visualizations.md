@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,24 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Testo](/help/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
 | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md) | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | Utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 filtri. |
+
+## Personalizzare le impostazioni di visualizzazione
+
+Puoi personalizzare le impostazioni di visualizzazione per una singola visualizzazione o per tutte le visualizzazioni create.
+
+### Personalizzare le impostazioni di visualizzazione per una singola visualizzazione
+
+Per accedere [!UICONTROL Visualization Settings] per una visualizzazione individuale:
+
+1. In Analysis Workspace, passa il puntatore del mouse sulla visualizzazione di cui desideri personalizzare le impostazioni.
+
+1. Fai clic sull’icona a forma di ingranaggio.
+
+   Ogni tipo di visualizzazione dispone di impostazioni univoche che è possibile personalizzare. Per informazioni sulle impostazioni disponibili, consulta [Impostazioni](#settings).
+
+### Personalizzare le impostazioni di visualizzazione per tutte le visualizzazioni create
+
+Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta [Preferenze utente](/help/analysis-workspace/user-preferences.md).
 
 ## Impostazioni {#settings}
 
