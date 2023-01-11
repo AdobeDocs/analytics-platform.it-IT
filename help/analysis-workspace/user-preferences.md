@@ -4,7 +4,7 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 45%
@@ -39,7 +39,7 @@ Le preferenze generali sono applicabili all’esperienza CJA nel browser.
 | --- | --- |
 | Pagina di destinazione | Scegli quale pagina visualizzare come pagina predefinita quando accedi ad Adobe Analytics: <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Progetto specifico selezionato da un elenco</li></ul> |
 | Mostra suggerimenti | Visualizza i suggerimenti in una casella blu nell’area in basso a destra di Analysis Workspace. <p>Questa opzione è attivata per impostazione predefinita.</p> |
-| <span class="preview">Componenti visualizzati nei gruppi della barra a sinistra</span> | Scegli il numero di componenti da visualizzare nel menu Componenti nella barra a sinistra. <p>Se scegli 0, il componente non sarà più accessibile dalla barra a sinistra delle aree di lavoro.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti elementi:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, vedi [Panoramica dei componenti](/help/components/overview.md).</p> |
+| Componenti visualizzati nei gruppi della barra a sinistra | Scegli il numero di componenti da visualizzare nel menu Componenti nella barra a sinistra. <p>Se scegli 0, il componente non sarà più accessibile dalla barra a sinistra delle aree di lavoro.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti elementi:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, vedi [Panoramica dei componenti](/help/components/overview.md).</p> |
 
 ## Preferenze per i progetti
 
@@ -53,7 +53,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 | --- | --- | --- |
 | **Visualizzazione** |  |  |
 |  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
-|  | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli la palette di colori di visualizzazione utilizzata in Analysis Workspace. <ul><li>Tavolozze fornite da Adobe (impostazione predefinita)</li><li><span class="preview">Formattazione condizionale, palette </span></li><li><span class="preview">Tavolozza Su/Giù (divergenza)</span><li>Tavolozze personalizzate</li></ul> |
+|  | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli la palette di colori di visualizzazione utilizzata in Analysis Workspace. <ul><li>Tavolozze fornite da Adobe (impostazione predefinita)</li><li>Formattazione condizionale, palette </li><li>Tavolozza Su/Giù (divergenza)<li>Tavolozze personalizzate</li></ul> |
 | **Dati** |  |  |
 |  | [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#report-suite) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Suite di rapporti specifica selezionata da un elenco</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
