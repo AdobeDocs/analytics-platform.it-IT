@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 98%
 
 ---
 
@@ -70,12 +70,12 @@ I contenitori Persona possono includere valori basati sulla cronologia generale 
 
 Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato poiché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola e consente di definire quali sessioni includere o escludere nella creazione e applicazione di filtri. Può aiutarti a rispondere alle seguenti domande:
 
-* Quanti visitatori hanno visualizzato le sezioni Notizie e Sport nella stessa sessione?
+* Quante sessioni sono interattive con origini dati Web e Call Center?
 * Quali pagine hanno contribuito alla conversione in una vendita?
 
 I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 
-* Numero di sessioni
+* Tipo di sessione
 * Pagina di ingresso
 * Frequenza di ritorno
 * Metriche di partecipazione
