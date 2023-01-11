@@ -4,10 +4,10 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: acf55556e3f53e7f4e8f8de69044e456b931a80b
+source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 54%
+source-wordcount: '1206'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,6 @@ La pagina di destinazione per gli elementi di rilievo del Customer Journey Analy
 | Riordinare gli elementi fissati | Per spostare verso l’alto o verso il basso un elemento fissato, fai clic sui suoi puntini di sospensione e seleziona **[!UICONTROL Move up]** o **[!UICONTROL Move down]**. | ![Spostare gli elementi fissati](assets/move-up-down.png) |
 | Nuove colonne di tabella | Fai clic sul’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](../analysis-workspace/curate-share/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporate tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
-| Disponibile anche in Customer Journey Analytics | Questa pagina di destinazione, in un modulo modificato, è disponibile anche in CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
 

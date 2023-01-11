@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fbfc7113aef8857e11ccfba5e5e557eed16c2465
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: 9276b7ed4465c85703e942e02adde2d024cf43ca
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 43%
 
 ---
 
-# Note sulla versione di Customer Journey Analytics (CJA) (ottobre/novembre 2022)
+# Note sulla versione del Customer Journey Analytics corrente (CJA) (gennaio 2023)
 
-**Ultimo aggiornamento**: 25 ottobre 2022
+**Ultimo aggiornamento**: 5 gennaio 2023
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,29 +20,23 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **[!UICONTROL Key metric summary] visualizzazione** | La visualizzazione [!UICONTROL Key metric summary] consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md) | 5 ottobre 2022 | 19 ottobre 2022 |
-| **Variabili con più valori senza distinzione tra maiuscole e minuscole** | Per le variabili con più valori senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` non verranno più convertiti automaticamente in minuscole. Al contrario, i dati trasmessi tramite il connettore di origine di Analytics ad Adobe Experience Platform e CJA rifletteranno il carattere originale trasmesso dalla pagina. Le colonne ASC/CJA `_experience.analytics.customDimensions.lists.list1.list[]` - `_experience.analytics.customDimensions.lists.list3.list[]` sono interessate da questo cambiamento. | N/D | 24 ottobre 2022 |
-| **Registro di controllo CJA** | Customer Journey Analytics (CJA) consente di controllare l’attività dell’utente per vari servizi e funzionalità in forma di “registri di controllo”. Questi rappresentano una traccia di audit (o audit trail) che risulta utile per risolvere eventuali problemi, nonché per rispettare i criteri aziendali relativi alla gestione dei dati e i requisiti normativi, come l’Health Insurance Portability and Accountability Act (HIPAA). In precedenza, questi registri erano disponibili solo tramite l’API Registri di controllo. [Ulteriori informazioni](/help/privacy/audit-log.md) | N/D | 26 ottobre 2022 |
-| **Ambito dell’HIPAA** | Adobe ora supporta la ricezione, l’utilizzo, la manutenzione o la trasmissione di informazioni protette sulla salute in Customer Journey Analytics e in altre applicazioni basate su Experience Platform solo per i clienti Healthcare Shield. L’Healthcare Shield è per i clienti nel settore dell’assistenza sanitaria che sono soggetti interessati o partner commerciali solo negli Stati Uniti. [Ulteriori informazioni](https://www.adobe.com/trust/compliance/hipaa-ready.html) | N/D | 7 novembre 2022 |
-| **Protezione tramite password per progetti pianificati** | Questa funzione fa parte dell’ambito HIPAA e si applica solo ai clienti di Healthcare Shield. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#password) | N/D | 7 novembre 2022. |
+| **Cartelle in Workspace** | Le cartelle consentono di organizzare e classificare i progetti per un migliore recupero e accesso. Inoltre, un **[!UICONTROL Company]** Questa cartella consente agli amministratori di creare e condividere facilmente il contenuto con tutti gli utenti di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N/D | 11 gennaio 2023 |
+| **Pagina di destinazione predefinita** | La [nuova pagina di destinazione](/help/getting-started/landing.md) introdotta in precedenza nel 2022 diventerà l’esperienza predefinita per tutti gli utenti su **11 gennaio 2023**. La pagina di destinazione precedente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. | N/D | 11 gennaio 2023 |
+| **Pianifica cartelle di lavoro in Report Builder** | Al Customer Journey Analytics, è possibile creare pianificazioni per l&#39;invio di cartelle di lavoro a intervalli regolari. Ora i destinatari possono ricevere regolarmente gli ultimi aggiornamenti alle cartelle di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N/D | 11 gennaio 2023 |
+| **Salvataggio automatico di nuovi progetti** | Analysis Workspace ora salva automaticamente i progetti appena creati. Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, è ora disponibile una versione di ripristino del progetto. In precedenza, i progetti venivano salvati automaticamente solo dopo essere stati inizialmente salvati manualmente. [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/save-projects.md) | N/D | 11 gennaio 2023 |
+| **Preferenze utente ottimizzate** | È ora possibile configurare preferenze aggiuntive a livello di utente (in [!UICONTROL Components] > [!UICONTROL Preferences]). Quando imposti le preferenze utente, le selezioni si estendono su progetti, tabelle e visualizzazioni. La pagina Preferenze ora contiene le seguenti nuove schede, ciascuna contenente molte nuove opzioni di configurazione:<ul><li>Tabella a forma libera</li><li>Visualizzazioni>/li></ul>. Inoltre, sono ora disponibili ulteriori preferenze nella **[!UICONTROL General]** e **[!UICONTROL Project]** schede.<p>In precedenza, molte di queste preferenze erano configurabili solo per singoli progetti, tabelle e visualizzazioni. [Ulteriori informazioni](/help/analysis-workspace/user-preferences.md) | N/D | 11 gennaio 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Correzioni
 
-* È stato risolto un problema a causa del quale le versioni recenti di MacOS venivano erroneamente denominate come “Macintosh”. Con questa correzione, la dimensione del sistema operativo inizierà a utilizzare la numerazione delle versioni “MacOS”, partendo da MacOS 11. (AN-301834)
-
-### Altre correzioni
-
-AN-302367; AN-302562; AN-304036
+AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
 
 ## Avvisi importanti per amministratori CJA
 
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
-| **Pagina di destinazione predefinita** | 29 settembre 2023 | La [nuova pagina di destinazione](/help/getting-started/landing.md) introdotta all’inizio di quest’anno diventerà l’esperienza predefinita per tutti gli utenti da **gennaio 2023**. La pagina corrente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. |
-| **Mappatura IP-geolocalizzazione migliorata** | 29 settembre 2022 | Il fornitore di Adobe per le ricerche IP, Digital Element, sta effettuando l’aggiornamento a un nuovo set di dati migliorato (NetAcuity Pulse) per la mappatura IP-geolocalizzazione. Per Adobe Analytics l’adozione di questo nuovo set di dati è stata posticipata a **gennaio 2023**. Il nuovo database sarà più accurato delle versioni precedenti. Quando il nuovo database verrà adottato, alcune mappature IP-geolocalizzazione verranno modificate/migliorate.<p> Anche i dati CJA forniti tramite [!UICONTROL Analytics Source Connector] sfrutteranno automaticamente le nuove mappature. |
-| Condizioni per l’esecuzione automatica di **[!UICONTROL Anomaly detection]** | 29 settembre 2022 | Oggi, [!UICONTROL Anomaly detection] viene eseguito automaticamente su tutte le colonne delle tabelle a forma libera con serie temporale. Affinché i dati possano essere rapidamente disponibili per l’analisi e per velocizzare il caricamento dei progetti, Adobe cambierà il modo in cui funziona l’esecuzione automatica di [!UICONTROL Anomaly detection]. A partire dal **26 ottobre 2022**, il rilevamento delle anomalie viene eseguito automaticamente solo sulla prima colonna di metriche di una tabella. Se necessario, puoi configurare le impostazioni delle colonne per eseguire [!UICONTROL Anomaly detection] anche su altre colonne. |
+| **Mappatura IP-geolocalizzazione migliorata** | 29 settembre 2022 | Il fornitore di Adobe per le ricerche IP, Digital Element, sta effettuando l’aggiornamento a un nuovo set di dati migliorato (NetAcuity Pulse) per la mappatura IP-geolocalizzazione. Adobe Analytics ha posticipato l&#39;adozione di questo nuovo set di dati a **11 gennaio 2023**. Il nuovo database sarà più accurato delle versioni precedenti. Quando il nuovo database verrà adottato, alcune mappature IP-geolocalizzazione verranno modificate/migliorate.<p> Anche i dati CJA forniti tramite [!UICONTROL Analytics Source Connector] sfrutteranno automaticamente le nuove mappature. |
 
 {style=&quot;table-layout:auto&quot;}
 
