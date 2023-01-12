@@ -3,10 +3,10 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 46873cc66461c40d7f44c8aac91ddc3ccf15ee21
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 92%
 
 ---
 
@@ -46,10 +46,11 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 
 | Elemento | Descrizione |
 | --- | --- |
-| Formattazione condizionale | Applica i seguenti colori alle celle sulla base dei valori dei dati: <ul><li>Verde: valori massimi</li><li>Giallo: valori intermedi</li><li>Rosso: valori minimi</li></ul> <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
+| Formattazione condizionale | Applica alle celle un set di colori preconfigurato scelto. A seconda delle 4 combinazioni di colori disponibili selezionate, i diversi colori vengono assegnati a valori alti, valori di punto intermedio e valori bassi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
 | Use Percent Limits (Usa limiti percentuali) | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. Funziona sia per metriche basate unicamente sulle percentuali (come Bounce Rate, o frequenza di rimbalzo), sia per quelle basate su conteggio e percentuale (come Visualizzazioni di pagina). |
 | Generazione automatica | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
 | Personalizzato | Assegna manualmente i limiti superiori/medi/inferiori. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
+| Formattazione condizionale, palette | Scegliere quale delle 4 combinazioni di colori disponibili utilizzare per la formattazione condizionale. |
 
 ## Usa modello di attribuzione non predefinito {#attribution}
 
