@@ -4,10 +4,10 @@ description: Come acquisire il pubblico AEP in Customer Journey Analytics per ul
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 96%
 
 ---
 
@@ -88,6 +88,6 @@ Ora puoi creare un rapporto in Workspace basato su `audienceMembershipId`, `audi
 * Segui questo processo su base regolare, per avere dati sul pubblico sempre aggiornati in CJA.
 * Puoi importare più tipi di pubblico in una singola connessione CJA. Il processo sarà un po’ più complesso, ma è possibile. Dovrai apportare alcune modifiche al processo di cui sopra:
    1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
-   1. Quando esegui le trasformazioni dell’output del processo di esportazione, crea un elenco di `audienceMembershipId(s)`, perché un singolo ID persona di CJA può appartenere a più tipi di pubblico. In futuro, CJA supporterà anche array o array di oggetti nei set di dati profilo. Quando saranno supportati, l’approccio migliore consisterà nell’utilizzare un array di oggetti per `audienceMembershipId` o `audienceMembershipIdName`. Nel frattempo, estrai tutti gli ID pubblico correnti per ciascun ID profilo nell’output del processo di esportazione (con lo stato &quot;realized&quot; o &quot;entered&quot;) e inseriscili in una stringa di valori separati da virgole (ad esempio, `<id1>,<id2>,...`). Se è presente l’ID di un pubblico con lo stato &quot;exited&quot;, assicurati che NON venga incluso nell’elenco. Se vuoi che l’ID resti associato al nome descrittivo, puoi allegarlo alla fine di ogni ID nell’elenco (insieme a eventuali altri metadati).
+   1. CJA supporta array/array di oggetti nei set di dati di profilo. Utilizzo di un [array di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) per audienceMembershipId o audienceMembershipIdName è l’opzione migliore.
    1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
    1. A questo punto è possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in CJA Workspace.
