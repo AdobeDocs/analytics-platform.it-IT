@@ -4,10 +4,10 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
+source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 55%
+source-wordcount: '1351'
+ht-degree: 49%
 
 ---
 
@@ -67,6 +67,18 @@ La pagina di destinazione per gli elementi di rilievo del Customer Journey Analy
 | Icona Personalizza tabella | Seleziona le colonne da visualizzare nella tabella. Per aggiungere o rimuovere colonne dall’elenco dei progetti, fai clic sull’icona della colonna (![Destinazione completa](assets/select-column.png) ) in alto a destra, quindi seleziona o deseleziona i titoli delle colonne. |
 | MOSTRA: Cartelle e progetti o tutti i progetti | Modifica l’impostazione di visualizzazione nella tabella per mostrare cartelle e progetti in base all’organizzazione delle cartelle **o** mostra tutti i progetti in un elenco non organizzato. |
 | &lt; (pulsante Indietro) | Consente di tornare alla configurazione della pagina di destinazione più recente in un progetto Workspace. La configurazione della pagina che avevi quando hai lasciato la pagina di destinazione persisterà quando torni. |
+
+### Pagina Gestione progetti obsoleta {#deprecate-pm-page}
+
+Con il rilascio della nuova pagina di destinazione, Project Manager è diventato obsoleto in quanto elencato in Component Manager (Gestione componenti). La nuova pagina di destinazione gestisce tutte le funzionalità della vecchia pagina di Project Manager e altro ancora.
+
+Un caso d’uso comune per la pagina Gestione progetti era quello di visualizzare tutti i tuoi progetti. Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **ALTRI FILTRI** quindi seleziona **Mostra tutto**.
+
+![Altri filtri](assets/other-filters.png)
+
+Se ti trovi nella visualizzazione &quot;Cartelle e progetti&quot;, verrà visualizzato un modale che chiede se desideri passare alla visualizzazione &quot;Tutti i progetti&quot;, facilitando la visualizzazione di tutti i progetti al di fuori delle cartelle in cui possono essere organizzati.   Seleziona **Passa alla visualizzazione &quot;Tutti i progetti&quot;** per visualizzare meglio tutti i progetti a cui hai accesso.
+
+![Passa a tutti i progetti](assets/switch-all-projects-view.png)
 
 ## Passare alla scheda Apprendimento {#navigate-learning}
 
