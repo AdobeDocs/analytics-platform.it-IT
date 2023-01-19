@@ -4,8 +4,8 @@ title: Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-Ti
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 769eef205df32865874753859ce79e573db40641
-workflow-type: ht
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 Real-Time CDP e CJA attualmente non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
 
-CJA può essere configurato per l’utilizzo di [Cross-Channel Analytics](/help/connections/cca/overview.md), che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra di loro.
+CJA può essere configurato per l’utilizzo di [Cross-Channel Analytics](/help/cca/overview.md), che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra di loro.
 
 In futuro, CJA sarà in grado di utilizzare il grafo delle identità.
 

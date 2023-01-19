@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 99%
@@ -118,7 +118,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
-| 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/connections/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
+| 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
 | 13 novembre 2020 | È stato aggiunto un nuovo caso d’uso sull’[importazione di dati da call center e web](/help/use-cases/cross-channel/call-center.md). |
 | 10 novembre 2020 | È stata aggiunta una sezione sulle implicazioni dell’eliminazione dei componenti dati, nelle [Domande frequenti](/help/getting-started/cja-faq.md). |
 | 2 novembre 2020 | È stata aggiornata la pagina [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |

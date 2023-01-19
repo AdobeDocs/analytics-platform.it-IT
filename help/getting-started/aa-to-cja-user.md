@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
+source-wordcount: '1423'
+ht-degree: 98%
 
 ---
 
@@ -104,10 +104,10 @@ Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di d
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-CJA estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando [Cross-Channel Analytics](/help/connections/cca/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in CJA deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in CJA:
+CJA estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando [Cross-Channel Analytics](/help/cca/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in CJA deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in CJA:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 
-In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. CJA presenta meno limitazioni relativamente ai campi ad elevata cardinalità. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Per ulteriori informazioni su come CJA ottimizza il reporting per le dimensioni con numerosi valori univoci, Vedi [Long tail](../analysis-workspace/workspace-faq/long-tail.md).
+In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. CJA presenta meno limitazioni ai campi ad alta cardinalità. Le modifiche all’architettura di reporting consentono ad Analysis Workspace di creare rapporti su molti elementi dimensionali più univoci. Per ulteriori informazioni su come CJA ottimizza il reporting per le dimensioni con numerosi valori univoci, Vedi [Long tail](../analysis-workspace/workspace-faq/long-tail.md).

@@ -4,7 +4,7 @@ description: Scopri come creare un set di dati che collega i dati del call cente
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 4%
@@ -44,7 +44,7 @@ Durante l’importazione di dati in Platform, seguire questi suggerimenti può a
 CJA richiede un identificatore comune per generare un [set di dati combinato](/help/connections/combined-dataset.md).
 
 * Se i set di dati hanno già un identificatore comune su ogni evento in entrambi i set di dati, puoi saltare questo passaggio e procedere alla creazione di una connessione.
-* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, puoi unire i dati utilizzando Cross-Channel Analytics. Vedi [Panoramica di Analytics tra canali](/help/connections/cca/overview.md) per i passaggi per abilitare CCA per questi due set di dati.
+* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, puoi unire i dati utilizzando Cross-Channel Analytics. Vedi [Panoramica di Analytics tra canali](/help/cca/overview.md) per i passaggi per abilitare CCA per questi due set di dati.
 
 ## Creare una connessione in CJA
 

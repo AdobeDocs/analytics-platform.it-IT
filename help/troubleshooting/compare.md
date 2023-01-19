@@ -4,10 +4,10 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 
 >[!NOTE]
 >
->Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Cross-Channel Analytics](/help/connections/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se Cross-Channel Analytics è stato attivato.
+>Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Cross-Channel Analytics](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se Cross-Channel Analytics è stato attivato.
 
 1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
 
@@ -65,14 +65,14 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), dai dati non elaborati specifica se alcune righe potrebbero essere state filtrate dal connettore di origine di Analytics.
 
-   La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) potrebbe filtrare determinate righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà filtrata.
+   La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe filtrare determinate righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà filtrata.
 
    | Campo Analytics | Valori che ne causano l’eliminazione di una riga |
    | --- | --- |
    | Opt_out | y, Y |
    | In_data_only | Not 0 |
-   | Exclude_hit | No 0 |
-   | Bot_id | No 0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
@@ -90,4 +90,4 @@ Ecco alcuni dei motivi per cui i record potrebbero essere ignorati durante l’a
 
 * **ID persona mancanti** - Gli ID persona mancanti (dal set di dati degli eventi e/o dal set di dati profilo/ricerca) fanno sì che tali record vengano ignorati o saltati. Il motivo è che non esistono ID comuni o chiavi corrispondenti per unire i record.
 
-* **ID persona non validi o grandi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio “non definito” o “00000000”. Un ID persona (con qualsiasi combinazione di numeri e lettere) visualizzato in un evento più di 1 milione di volte al mese non può essere attribuito a un utente o a una persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.
+* **ID persona non validi o grandi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio &quot;non definito&quot; o &quot;0000000&quot;. Un ID persona (con qualsiasi combinazione di numeri e lettere) visualizzato in un evento più di 1 milione di volte al mese non può essere attribuito a un utente o a una persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.

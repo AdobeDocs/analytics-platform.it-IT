@@ -4,7 +4,7 @@ description: Analizza ed estrai informazioni dalle interazioni dei clienti lungo
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 6%
@@ -24,7 +24,7 @@ Avere un’unica vista consolidata del comportamento dei clienti tra vari canali
 1. [Creare schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) per i dati da acquisire.
 1. [Creare set di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=it) per i dati da acquisire.
 1. [Inserire dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html).
-1. Utilizza un ID comune dello spazio dei nomi nei set di dati o utilizza [Analisi cross-channel](/help/connections/cca/overview.md) per collegare le persone. Al momento, Customer Journey Analytics non utilizza i servizi Profilo o Identità di Experience Platform per l’unione.
+1. Utilizza un ID comune dello spazio dei nomi nei set di dati o utilizza [Analisi cross-channel](/help/cca/overview.md) per collegare le persone. Al momento, Customer Journey Analytics non utilizza i servizi Profilo o Identità di Experience Platform per l’unione.
 1. Esegui qualsiasi preparazione di dati personalizzati per garantire una chiave comune tra i set di dati delle serie temporali da acquisire nel Customer Journey Analytics.
 1. Attribuisci ai dati di ricerca un ID primario che possa unirsi a un campo nei dati dell’evento. Conta come righe nella licenza.
 1. Imposta lo stesso ID principale per i dati di profilo come ID principale dei dati dell’evento.
