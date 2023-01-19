@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: aff7b978382446e705d6507dbaa07790bd1dd2ae
+source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '858'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,14 @@ ht-degree: 98%
       + [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Implicazioni dell’eliminazione](../getting-started/cja-deletion.md)
    + [Glossario di CJA](../getting-started/cja-glossary.md)
++ Acquisizione dei dati {#cja-data-ingestion}
+   + [Panoramica sull’acquisizione dei dati](../data-ingestion/data-ingestion.md)
+   + Inserire e utilizzare le guide rapide{#ingest-use-guides}
+      + [Adobe Analytics](../data-ingestion/analytics.md)
+      + [Adobe Experience Platform Web SDK e Edge Network](../data-ingestion/aepwebsdk.md)
+      + [Dati batch](../data-ingestion/batch.md)
+      + [Dati in streaming](../data-ingestion/streaming.md)
+      + [Connettori sorgente](../data-ingestion/sources.md)
 + Connessioni {#cja-connections}
    + [Panoramica sulle connessioni](../connections/overview.md)
    + [Creare una connessione](../connections/create-connection.md)
@@ -251,7 +259,6 @@ ht-degree: 98%
       + [Configurare i dati streaming di Google Analytics in Platform](../use-cases/ga/streaming.md)
       + [Generare rapporti sui dati Google Analytics in CJA](../use-cases/ga/report.md)
    + Acquisizione dei dati {#data-ingestion}
-      + [Casi d’uso per l’acquisizione di dati](../use-cases/data-ingestion/data-ingestion.md)
       + [Acquisire i dati Marketo Engage in AEP e generare rapporti in CJA](../use-cases/data-ingestion/marketo.md)
       + [Acquisire i tipi di pubblico di AEP in CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Visualizzazioni dati {#data-views}

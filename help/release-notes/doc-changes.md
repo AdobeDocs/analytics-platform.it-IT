@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 99%
@@ -124,7 +124,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | 2 novembre 2020 | È stata aggiornata la pagina [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | Novembre 2020 | Sono stati aggiunti contenuti sulla [rimozione delle limitazioni di retrocompilazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#backfill-historical-data) per le connessioni. |
 | 7 ottobre 2020 | È stato aggiunto un argomento sui [set di dati evento combinati](/help/connections/combined-dataset.md). |
-| 15 settembre 2020 | È stato aggiunto un argomento sull’[acquisizione di dati](/help/use-cases/data-ingestion/data-ingestion.md). |
+| 15 settembre 2020 | È stato aggiunto un argomento sull’[acquisizione di dati](/help/data-ingestion/data-ingestion.md). |
 | 2 settembre 2020 | È stata aggiornata la sezione relativa alle [autorizzazioni utente](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). |
 | 7 agosto 2020 | È stato aggiunto un nuovo argomento sul [caso d’uso B2B, set di dati di ricerca](/help/use-cases/b2b/b2b.md). |
 | Luglio 2020 | Sono state aggiunte informazioni sull’opzione [Mappa identità per ID persona](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it). |
