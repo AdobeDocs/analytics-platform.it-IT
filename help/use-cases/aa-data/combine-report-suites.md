@@ -3,7 +3,7 @@ title: Combinare suite di rapporti con schemi diversi
 description: Scopri come utilizzare la preparazione dati per combinare suite di rapporti con schemi diversi
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 source-git-commit: 69356510596d047d80af63338fccca71e8af53cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1335'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ La funzionalità di Preparazione dati di Experience Platform è integrata con il
    | \_experience.analytics.customDimensions.eVars.eVar2 | No |
    | _\&lt;path>_.Search_term | Sì |
    | _\&lt;path>_.Customer_category  | Sì |
-   | _\&lt;path>_ Business_unit | Sì |
+   | _\&lt;path>_.Business_unit | Sì |
 
 Ora hai mappato eVar1 e eVar2 delle suite di rapporti di origine su tre nuovi campi. Un altro vantaggio dell’utilizzo delle mappature della preparazione dati è che i campi di destinazione si basano ora su nomi significativi dal punto di vista semantico (termine di ricerca, business unit, categoria di clienti) invece dei meno significativi nomi eVar (eVar1, eVar2).
 
