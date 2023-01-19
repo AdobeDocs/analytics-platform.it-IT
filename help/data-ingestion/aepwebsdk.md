@@ -1,15 +1,15 @@
 ---
 title: Acquisire dati tramite Adobe Experience Platform Web SDK e la rete Edge
-description: Spiegare come inserire dati in Customer Percorsi Analytics tramite Adobe Experience Platform Web SDK e Edge Network
+description: Spiegare come inserire dati in un Customer Journey Analytics tramite Adobe Experience Platform Web SDK e Edge Network
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3273'
 ht-degree: 11%
 
 ---
-
 
 # Acquisire dati tramite Adobe Experience Platform Web SDK e la rete Edge
 
@@ -21,7 +21,7 @@ A questo scopo, devi:
 
 - **Configurare un datastream** per configurare Adobe Experience Platform Edge Network in modo che i dati raccolti vengano indirizzati al set di dati configurato in Adobe Experience Platform.
 
-- **Usa tag** per configurare facilmente regole ed elementi dati rispetto ai dati presenti nel livello dati sul sito web e assicurarsi che i dati vengano inviati al datastream configurato su Adobe Experience Platform Edge Network.
+- **Usa tag** per configurare facilmente regole ed elementi dati rispetto ai dati presenti nel livello dati sul sito web. Quindi assicurati che i dati siano inviati al datastream configurato su Adobe Experience Platform Edge Network.
 
 - **Distribuisci e convalida**. Disporre di un ambiente in cui puoi eseguire iterazioni sullo sviluppo dei tag e, una volta convalidato tutto, pubblicarlo in diretta nell’ambiente di produzione.
 
@@ -33,20 +33,20 @@ A questo scopo, devi:
 
 >[!NOTE]
 >
->Questa è una guida semplificata su come acquisire i dati raccolti dal sito in Adobe Experience Platform e utilizzarli nel Customer Journey Analytics.  Si raccomanda vivamente di studiare le informazioni aggiuntive quando si fa riferimento a tali informazioni.
+>Questa è una guida semplificata su come acquisire i dati raccolti dal sito in Adobe Experience Platform e utilizzarli nel Customer Journey Analytics. Si consiglia vivamente di studiare le informazioni aggiuntive quando si fa riferimento a.
 
 
 ## Configurare uno schema e un set di dati
 
-Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata per essere riconosciuti e sfruttati dalle funzionalità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
+Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata per essere riconosciuti e utilizzati dalle funzionalità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
 
-Una volta definito uno schema, utilizzerai uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
+Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
 
 Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere mantenuti come set di dati.
 
-### Configurazione di uno schema
+### Configurare uno schema
 
-Desideri tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito web, ad esempio nome della pagina, identificazione, ecc.
+Desideri tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito web, ad esempio il nome della pagina, l’identificazione.
 A questo scopo, devi innanzitutto definire uno schema che modelli questi dati.
 
 Per impostare lo schema:
@@ -94,7 +94,7 @@ Per impostare lo schema:
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
-   Questo aggiungerà funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID fedeltà, ecc.).
+   Questo aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID fedeltà).
 
    Seleziona **[!UICONTROL Apply]** per aggiungere questo oggetto allo schema.
 
@@ -104,7 +104,7 @@ Per impostare lo schema:
 
    Stai specificando l’identità Experience Cloud come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
 
-   Seleziona **[!UICONTROL Apply]**. Nell’attributo ecid viene visualizzata l’icona relativa all’impronta digitale.
+   Seleziona **[!UICONTROL Apply]**. Viene visualizzata un’icona di impronta digitale nell’attributo ecid.
 
 7. Seleziona la **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto e selezionare **[!UICONTROL Identity]** e **[!UICONTROL Email]** dal [!UICONTROL Identity namespace] nell&#39;elenco [!UICONTROL Field Properties] pannello.
 
@@ -112,13 +112,13 @@ Per impostare lo schema:
 
    Stai specificando l’indirizzo e-mail come un’altra identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili.
 
-   Seleziona **[!UICONTROL Apply]**. Nell’attributo e-mail verrà visualizzata l’icona relativa all’impronta digitale.
+   Seleziona **[!UICONTROL Apply]**. L’attributo e-mail contiene un’icona relativa all’impronta digitale.
 
    Seleziona **[!UICONTROL Save]**.
 
 8. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona la **[!UICONTROL Profile]** interruttore.
 
-   Verrà richiesto di abilitare lo schema per il profilo. Una volta abilitati, quando i dati vengono acquisiti in set di dati basati su questo schema, tali dati verranno uniti nel Profilo del cliente in tempo reale.
+   Viene richiesto di abilitare lo schema per il profilo. Una volta abilitati, quando i dati vengono acquisiti in set di dati basati su questo schema, tali dati vengono uniti nel Profilo del cliente in tempo reale.
 
    Vedi [Abilitare lo schema per l’utilizzo nel profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) per ulteriori informazioni.
 
@@ -150,7 +150,7 @@ Vedi [Creare e modificare schemi nell’interfaccia utente](https://experiencele
 
 ### Configurare un set di dati
 
-Con lo schema hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Questo avviene tramite i set di dati.
+Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Questo avviene tramite i set di dati.
 
 Per impostare il set di dati:
 
@@ -174,11 +174,11 @@ Per impostare il set di dati:
 
 7. Seleziona la **[!UICONTROL Profile]** interruttore.
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchirà i profili dei clienti in tempo reale con i relativi dati acquisiti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati acquisiti.
 
    >[!IMPORTANT]
    >
-   >    Puoi abilitare un set di dati per il profilo solo quando lo schema a cui aderisce il set di dati è abilitato anche per il profilo.
+   >    Puoi abilitare un set di dati per il profilo solo quando lo schema, a cui aderisce il set di dati, è abilitato anche per il profilo.
 
    ![Abilita schema per profilo](./assets/aepwebsdk-dataset-profile.png)
 
@@ -265,7 +265,7 @@ Per creare e configurare l&#39;estensione Adobe Experience Platform Web SDK:
 
 Vedi [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) per ulteriori informazioni.
 
-Vuoi anche impostare l&#39;estensione del servizio Experience Cloud ID per poter facilmente usare il servizio Experience Cloud ID. Il servizio Experience Cloud ID identifica i visitatori in tutte le soluzioni Adobe Experience Cloud.
+Vuoi anche impostare l&#39;estensione del servizio Experience Cloud ID per poter utilizzare facilmente l&#39;ID Experience Cloud. Il servizio Experience Cloud ID identifica i visitatori in tutte le soluzioni Adobe Experience Cloud.
 
 Per creare e configurare l&#39;estensione del servizio Experience Cloud ID:
 
@@ -285,7 +285,7 @@ Per creare e configurare l&#39;estensione del servizio Experience Cloud ID:
 
 Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dati). Utilizza elementi dati per raccogliere, organizzare e distribuire dati in tutta la tecnologia marketing e pubblicitaria. Puoi impostare elementi dati nel tag che leggono dal livello dati e possono essere utilizzati per inviare dati a Adobe Experience Platform.
 
-Esistono diversi tipi di elementi dati. In primo luogo, configurerai un elemento dati per acquisire il nome della pagina che i visitatori visualizzano sul tuo sito.
+Esistono diversi tipi di elementi dati. Innanzitutto, imposta un elemento dati per acquisire il nome della pagina che i visitatori visualizzano sul sito.
 
 Per definire un elemento dati nome pagina:
 
@@ -331,7 +331,7 @@ Per definire un elemento dati ECID:
 
    - Seleziona **[!UICONTROL Save]**.
 
-Infine, ora desideri mappare uno qualsiasi degli elementi dati specifici allo schema definito in precedenza. È necessario definire un altro elemento dati che fornisca una rappresentazione dello schema XDM.
+Infine, ora desideri mappare uno qualsiasi degli elementi dati specifici allo schema definito in precedenza. È possibile definire un altro elemento dati che fornisce una rappresentazione dello schema XDM.
 
 Per definire un elemento dati oggetto XDM:
 
@@ -351,7 +351,7 @@ Per definire un elemento dati oggetto XDM:
 
    - Seleziona lo schema dal [!UICONTROL Schema] elenco.
 
-   - Mappa la `identification > core > ecid` all’elemento dati ECID, definito nello schema. Seleziona l’icona del cursore per scegliere facilmente l’elemento dati ECID dall’elenco degli elementi dati.
+   - Mappa la `identification > core > ecid` all’elemento dati ECID, definito nello schema. Seleziona l’icona del cilindro per scegliere facilmente l’elemento dati ECID dall’elenco degli elementi dati.
 
       ![Scegli elemento dati ECID](./assets/pick-ecid-dataelement.png)
 
@@ -367,7 +367,7 @@ Per definire un elemento dati oggetto XDM:
 
 #### **Regole**
 
-I tag in Adobe Experience Platform seguono un sistema basato su regole. Cercano le interazione degli utenti e i relativi dati. Quando i criteri descritti nelle tue regole vengono soddisfatti, la regola attiva l&#39;estensione, lo script o il codice lato client identificato. Puoi utilizzare le regole per inviare dati (come un oggetto XDM) ad Adobe Experience Platform utilizzando l’estensione Adobe Experience Platform Web SDK.
+I tag in Adobe Experience Platform seguono un sistema basato su regole. Cercano le interazione degli utenti e i relativi dati. Quando i criteri descritti nelle tue regole vengono soddisfatti, la regola attiva l&#39;estensione, lo script o il codice lato client identificato. Puoi utilizzare le regole per inviare dati (come un oggetto XDM) in Adobe Experience Platform utilizzando l’estensione Adobe Experience Platform Web SDK.
 
 Per definire una regola:
 
@@ -400,7 +400,7 @@ Per definire una regola:
 
       - Seleziona **[!UICONTROL web.webpagedetails.pageViews]** dall&#39;elenco.[!UICONTROL Type]
 
-      - Seleziona l’icona del cursore accanto a  [!UICONTROL XDM data] e seleziona **[!UICONTROL XDM - Page View]** dall’elenco degli elementi dati.
+      - Seleziona l’icona del cilindro accanto a  [!UICONTROL XDM data] e seleziona **[!UICONTROL XDM - Page View]** dall’elenco degli elementi dati.
 
          ![Regola - Configurazione azione](./assets/action-pageview-xdm.png)
 
@@ -417,7 +417,7 @@ Per definire una regola:
 
 Questo è solo un esempio di definizione di una regola che invia dati XDM, contenenti valori da altri elementi di dati, a Adobe Experience Platform.
 
-Puoi utilizzare le regole in diversi modi nel tag per manipolare le variabili (utilizzando gli elementi dati).
+Puoi utilizzare le regole in vari modi nel tag per manipolare le variabili (utilizzando gli elementi dati).
 
 Vedi [Regole](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) per ulteriori informazioni.
 
@@ -431,7 +431,7 @@ Per generare e pubblicare il tag:
 
 2. Seleziona **[!UICONTROL Select a working library]**, seguita da **[!UICONTROL Add Library…]**.
 
-3. In [!UICONTROL Create Libray] finestra di dialogo:
+3. In [!UICONTROL Create Library] finestra di dialogo:
 
    - Assegna un nome alla libreria.
 
@@ -443,13 +443,13 @@ Per generare e pubblicare il tag:
 
    - Seleziona **[!UICONTROL Save & Build to Development]**.
 
-   Questo consente di salvare e creare il tag per l’ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
+   Consente di salvare e creare il tag per l’ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
 4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di staging o produzione.
 
    ![Pubblica - Crea libreria](./assets/build-library.png)
 
-I tag di Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici e complessi che dovrebbero adattarsi alla distribuzione di Adobe Experience Platform Web SDK.
+I tag Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che devono adattarsi alla distribuzione dell’SDK web Adobe Experience Platform.
 
 Vedi [Panoramica sulla pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) per ulteriori informazioni.
 
@@ -480,13 +480,13 @@ Vedi [Ambienti](https://experienceleague.adobe.com/docs/experience-platform/tags
 
 ## Distribuisci e convalida
 
-Ora puoi distribuire il codice nella versione di sviluppo del tuo sito web all’interno di `<head>` tag . Una volta distribuito, il sito web inizierà a raccogliere dati in Adobe Experience Platform.
+Ora puoi distribuire il codice nella versione di sviluppo del tuo sito web all’interno di `<head>` tag . Una volta implementato, il sito web inizia a raccogliere dati in Adobe Experience Platform.
 
 Convalida l’implementazione, correggilo laddove necessario e una volta corretto, distribuiscila nel tuo ambiente di staging e produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
-## Configurazione di una connessione
+## Impostare una connessione
 
-Per utilizzare i dati Adobe Experience Platform nel Customer Journey Analytics, è necessario creare una connessione che includa i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
+Per utilizzare i dati Adobe Experience Platform nel Customer Journey Analytics, crea una connessione che include i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
 
 Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti su questi set di dati, è innanzitutto necessario stabilire una connessione tra i set di dati in Adobe Experience Platform e Workspace.
 
@@ -500,11 +500,11 @@ Per creare la connessione:
 
    Assegnare un nome e descrivere la connessione in [!UICONTROL Connection Settings].
 
-   Seleziona la sandbox corretta dal [!UICONTROL Sandbox] elenco in [!UICONTROL Data settings] e seleziona il numero di eventi giornalieri dal [!UICONTROL Avergage number of daily events] elenco.
+   Seleziona la sandbox corretta dal [!UICONTROL Sandbox] elenco in [!UICONTROL Data settings] e seleziona il numero di eventi giornalieri dal [!UICONTROL Average number of daily events] elenco.
 
    ![Impostazioni connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datsets]**.
+   Seleziona **[!UICONTROL Add datasets]**.
 
    In [!UICONTROL Select datasets] passo [!UICONTROL Add datasets]:
 
@@ -519,7 +519,7 @@ Per creare la connessione:
 
       - Seleziona una [!UICONTROL Person ID] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dal [!UICONTROL Data source type] elenco. Se si specifica **[!UICONTROL Other]** quindi aggiungi una descrizione per l’origine dati.
+      - Seleziona l’origine dati corretta dal [!UICONTROL Data source type] elenco. Se si specifica **[!UICONTROL Other]**, quindi aggiungi una descrizione per l’origine dati.
 
       - Imposta **[!UICONTROL Import all new data]** e **[!UICONTROL Dataset backfill existing data]** secondo le tue preferenze.
 
@@ -552,7 +552,7 @@ Per creare la visualizzazione dati:
 
 4. In [!UICONTROL Components] passo:
 
-   Aggiungi qualsiasi campo dello schema e/o componente standard da includere nel [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS] caselle dei componenti.
+   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nel [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS] caselle dei componenti.
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
@@ -569,7 +569,7 @@ Vedi [Panoramica delle visualizzazioni dati](../data-views/data-views.md) per ul
 
 ## Configurare un progetto
 
-Analysis Workspace è uno strumento browser flessibile che ti consente di creare rapidamente analisi e condividere informazioni basate sui tuoi dati. Puoi utilizzare i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per creare le tue analisi e condividerle con chiunque all’interno della tua organizzazione.
+Analysis Workspace è uno strumento browser flessibile che ti consente di creare rapidamente analisi e condividere informazioni basate sui tuoi dati. Puoi utilizzare i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per creare le tue analisi e condividerle con altri utenti della tua organizzazione.
 
 Per creare il progetto:
 
@@ -589,7 +589,7 @@ Per creare il progetto:
 
    ![Visualizzazione dati Seleziona area di lavoro](./assets/cja-projects-3.png).
 
-5. Inizia a trascinare dimensioni e metriche sul [!UICONTROL Freeform table] in [!UICONTROL Panel] per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una rapida panoramica dei profili che hanno visitato il tuo sito web e che fanno anche parte del programma fedeltà che raccoglie punti fedeltà.
+5. Inizia a trascinare dimensioni e metriche sul [!UICONTROL Freeform table] in [!UICONTROL Panel] per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una rapida panoramica dei profili che hanno visitato il tuo sito web e che fanno parte del programma fedeltà che raccoglie punti fedeltà.
 
    ![Area di lavoro - Primo rapporto](./assets/cja-projects-5.png)
 

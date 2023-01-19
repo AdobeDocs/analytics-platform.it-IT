@@ -3,13 +3,13 @@ title: Acquisizione e utilizzo di dati batch
 description: Spiegare come acquisire e utilizzare i dati batch nel Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1793'
 ht-degree: 7%
 
 ---
-
 
 # Acquisizione e utilizzo di dati batch
 
@@ -29,19 +29,19 @@ A questo scopo, devi:
 
 >[!NOTE]
 >
->Questa è una guida semplificata su come inserire dati batch in Adobe Experience Platform e utilizzarli nel Customer Journey Analytics.  Si raccomanda vivamente di studiare le informazioni aggiuntive quando si fa riferimento a tali informazioni.
+>Questa è una guida semplificata su come inserire dati batch in Adobe Experience Platform e utilizzarli nel Customer Journey Analytics. Si consiglia vivamente di studiare le informazioni aggiuntive quando si fa riferimento a.
 
 ## Configurare uno schema e un set di dati
 
-Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata per essere riconosciuti e sfruttati dalle funzionalità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
+Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata per essere riconosciuti e utilizzati dalle funzionalità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
 
-Una volta definito uno schema, utilizzerai uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
+Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
 
 Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere mantenuti come set di dati.
 
-### Configurazione di uno schema
+### Configurare uno schema
 
-Per questo avvio rapido si presuppone che si desideri raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID fedeltà, punti fedeltà e stato di fidelizzazione.
+Per questo avvio rapido desideri raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID fedeltà, punti fedeltà e stato di fidelizzazione.
 A questo scopo, devi innanzitutto definire uno schema che modelli questi dati.
 
 Per impostare lo schema:
@@ -89,7 +89,7 @@ Per impostare lo schema:
 
    ![Oggetto di identificazione](./assets/identifcation-loyalty-field.png)
 
-   Questo aggiungerà funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail dei tuoi dati batch.
+   Questo aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail dei tuoi dati batch.
 
    Seleziona **[!UICONTROL Apply]** per aggiungere questo oggetto allo schema.
 
@@ -99,13 +99,13 @@ Per impostare lo schema:
 
    Stai specificando l’indirizzo e-mail come identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) profili.
 
-   Seleziona **[!UICONTROL Apply]**. Nell’attributo e-mail verrà visualizzata l’icona relativa all’impronta digitale.
+   Seleziona **[!UICONTROL Apply]**. L’attributo e-mail contiene un’icona relativa all’impronta digitale.
 
    Seleziona **[!UICONTROL Save]**.
 
 7. Seleziona il livello principale dello schema (con il nome dello schema), quindi seleziona il **[!UICONTROL Profile]** interruttore.
 
-   Verrà richiesto di abilitare lo schema per il profilo. Una volta abilitati, quando i dati vengono acquisiti in set di dati basati su questo schema, tali dati verranno uniti nel Profilo del cliente in tempo reale.
+   Viene richiesto di abilitare lo schema per il profilo. Una volta abilitati, quando i dati vengono acquisiti in set di dati basati su questo schema, tali dati vengono uniti nel Profilo del cliente in tempo reale.
 
    Vedi [Abilitare lo schema per l’utilizzo nel profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) per ulteriori informazioni.
 
@@ -123,7 +123,7 @@ Vedi [Creare e modificare schemi nell’interfaccia utente](https://experiencele
 
 ### Configurare un set di dati
 
-Con lo schema hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Questo avviene tramite i set di dati.
+Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Questo avviene tramite i set di dati.
 
 Per impostare il set di dati:
 
@@ -147,7 +147,7 @@ Per impostare il set di dati:
 
 7. Seleziona la **[!UICONTROL Profile]** interruttore.
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchirà i profili dei clienti in tempo reale con i relativi dati acquisiti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati acquisiti.
 
    >[!IMPORTANT]
    >
@@ -160,7 +160,7 @@ Vedi [Guida all’interfaccia utente dei set di dati](https://experienceleague.a
 
 ## Utilizza flussi di lavoro
 
-Utilizza la funzionalità del flusso di lavoro per caricare i dati batch in Adobe Experience Platform. Il file batch di esempio che usiamo è un file CSV con il seguente contenuto:
+Utilizza la funzionalità del flusso di lavoro per caricare i dati batch in Adobe Experience Platform. Il file batch di esempio in uso è un file CSV con il seguente contenuto:
 
 ```
 email,loyaltyID,points,status
@@ -182,7 +182,7 @@ Per utilizzare i flussi di lavoro:
 
 3. In [!UICONTROL Map CSV to XDM schema] nella schermata [!UICONTROL Dataflow detail] passo:
 
-   Seleziona **[!UICONTROL Existing dataset]**, seleziona la dall’elenco dei set di dati e dai un nome al tuo [!UICONTROL Dataflow name].
+   Seleziona **[!UICONTROL Existing dataset]**, seleziona il set di dati dall’elenco dei set di dati e dai un nome al [!UICONTROL Dataflow name].
 
    ![Flusso di dati](./assets/workflow-dataflowdetail.png)
 
@@ -190,7 +190,7 @@ Per utilizzare i flussi di lavoro:
 
 4. In [!UICONTROL Select data] passo:
 
-   Trascina e rilascia o seleziona **[!UICONTROL Choose files]** per selezionare il file CSV con i dati fedeltà. Verrà visualizzata un’anteprima dei dati fedeltà.
+   Trascina e rilascia o seleziona **[!UICONTROL Choose files]** per selezionare il file CSV con i dati fedeltà. Viene visualizzata un’anteprima dei dati fedeltà.
 
    ![Seleziona dati](./assets/workflow-selectdata.png)
 
@@ -198,7 +198,7 @@ Per utilizzare i flussi di lavoro:
 
 5. In [!UICONTROL Mapping] passo:
 
-   Mappa i dati dal file CSV ai dati nello schema. Utilizzando l’intelligenza artificiale, la funzionalità del flusso di lavoro tenterà di mappare automaticamente i campi dei dati batch ai campi dello schema.
+   Mappa i dati dal file CSV ai dati nello schema. Utilizzando l’intelligenza artificiale, la funzionalità del flusso di lavoro tenta di mappare automaticamente i campi dei dati batch ai campi dello schema.
 
    ![Mappare i dati](./assets/workflow-dataflow-mapping.png)
 
@@ -206,14 +206,14 @@ Per utilizzare i flussi di lavoro:
 
    ![Mappatura dell&#39;anteprima](./assets/workflow-dataflow-mapping-preview.png)
 
-6. Seleziona **[!UICONTROL Finish]** per iniziare a acquisire i dati batch in Adobe Experience Platform.
+6. Seleziona **[!UICONTROL Finish]** per iniziare ad acquisire i dati batch in Adobe Experience Platform.
 
-Vedi [Mappare un file CSV sopra uno schema XDM esistente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) per ulteriori informazioni su come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM, utilizza i modelli di mappatura, utilizza i campi calcolati per garantire che i dati batch siano conformi alle attese dello schema, ecc.
+Vedi [Mappare un file CSV sopra uno schema XDM esistente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) per ulteriori informazioni su come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM, utilizza i modelli di mappatura, utilizza i campi calcolati per garantire che i dati batch siano conformi alle attese dello schema e altro ancora.
 
 
-## Configurazione di una connessione
+## Impostare una connessione
 
-Per utilizzare i dati Adobe Experience Platform nel Customer Journey Analytics, è necessario creare una connessione che includa i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
+Per utilizzare i dati Adobe Experience Platform nel Customer Journey Analytics, crea una connessione che include i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
 
 Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti su questi set di dati, è innanzitutto necessario stabilire una connessione tra i set di dati in Adobe Experience Platform e Workspace.
 
@@ -227,11 +227,11 @@ Per creare la connessione:
 
    Assegnare un nome e descrivere la connessione in [!UICONTROL Connection Settings].
 
-   Seleziona la sandbox corretta dal [!UICONTROL Sandbox] elenco in [!UICONTROL Data settings] e seleziona il numero di eventi giornalieri dal [!UICONTROL Avergage number of daily events] elenco.
+   Seleziona la sandbox corretta dal [!UICONTROL Sandbox] elenco in [!UICONTROL Data settings] e seleziona il numero di eventi giornalieri dal [!UICONTROL Average number of daily events] elenco.
 
    ![Impostazioni connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datsets]**.
+   Seleziona **[!UICONTROL Add datasets]**.
 
    In [!UICONTROL Select datasets] passo [!UICONTROL Add datasets]:
 
@@ -246,7 +246,7 @@ Per creare la connessione:
 
       - Seleziona una [!UICONTROL Person ID] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dal [!UICONTROL Data source type] elenco. Se si specifica **[!UICONTROL Other]** quindi aggiungi una descrizione per l’origine dati.
+      - Seleziona l’origine dati corretta dal [!UICONTROL Data source type] elenco. Se si specifica **[!UICONTROL Other]**, quindi aggiungi una descrizione per l’origine dati.
 
       - Imposta **[!UICONTROL Import all new data]** e **[!UICONTROL Dataset backfill existing data]** secondo le tue preferenze.
 
@@ -279,7 +279,7 @@ Per creare la visualizzazione dati:
 
 4. In [!UICONTROL Components] passo:
 
-   Aggiungi qualsiasi campo dello schema e/o componente standard da includere nel [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS] caselle dei componenti.
+   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nel [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS] caselle dei componenti.
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
@@ -296,7 +296,7 @@ Vedi [Panoramica delle visualizzazioni dati](../data-views/data-views.md) per ul
 
 ## Configurare un progetto
 
-Analysis Workspace è uno strumento browser flessibile che ti consente di creare rapidamente analisi e condividere informazioni basate sui tuoi dati. Puoi utilizzare i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per creare le tue analisi e condividerle con chiunque all’interno della tua organizzazione.
+Analysis Workspace è uno strumento browser flessibile che ti consente di creare rapidamente analisi e condividere informazioni basate sui tuoi dati. Puoi utilizzare i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per creare le tue analisi e condividerle con altri utenti della tua organizzazione.
 
 Per creare il progetto:
 
@@ -316,7 +316,7 @@ Per creare il progetto:
 
    ![Visualizzazione dati Seleziona area di lavoro](./assets/cja-projects-3.png).
 
-5. Inizia a trascinare dimensioni e metriche sul [!UICONTROL Freeform table] in [!UICONTROL Panel] per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una rapida panoramica dei profili che hanno visitato il tuo sito web e che fanno anche parte del programma fedeltà che raccoglie punti fedeltà.
+5. Inizia a trascinare dimensioni e metriche sul [!UICONTROL Freeform table] in [!UICONTROL Panel] per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una rapida panoramica dei profili che hanno visitato il tuo sito web e che fanno parte del programma fedeltà che raccoglie punti fedeltà.
 
    ![Area di lavoro - Primo rapporto](./assets/cja-projects-5.png)
 
@@ -324,4 +324,4 @@ Vedi [Panoramica di Analysis Workspace](../analysis-workspace/home.md) per ulter
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. Innanzitutto, definendo quali dati fedeltà desideri raccogliere (schema) e dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di lavoro per caricare in batch i dati fedeltà in un set di dati. Hai definito una connessione in un Customer Journey Analytics per utilizzare i dati fedeltà acquisiti e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
+>Hai completato tutti i passaggi. Innanzitutto, definendo quali dati fedeltà desideri raccogliere (schema) e dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di lavoro per caricare in batch i dati fedeltà in un set di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati fedeltà acquisiti e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
