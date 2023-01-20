@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
+source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1230'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Gennaio 2023** |  |
+| Guide rapide | Nuova sezione sulla documentazione su come [Acquisizione e utilizzo dei dati](/help/data-ingestion/data-ingestion.md) in CJA. |
 | Cartelle | Pagine dedicate per [Gestione cartelle](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferenze utente | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analysis-workspace/user-preferences.md). |
 | Salvataggio automatico per progetti | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analysis-workspace/build-workspace-project/save-projects.md). |
