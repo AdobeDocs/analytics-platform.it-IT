@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
+source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 93%
+source-wordcount: '1260'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Gennaio 2023** |  |
+| Aggiornamento alla documentazione Audiences di CJA | Nuova documentazione su [cosa accade dopo la creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Guide rapide per l’acquisizione dei dati | Nuova sezione sulla documentazione su come [Acquisizione e utilizzo dei dati](/help/data-ingestion/data-ingestion.md) in CJA. |
 | Cartelle Workspace | Pagine dedicate per [Gestione cartelle](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferenze utente di Workspace | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analysis-workspace/user-preferences.md). |
