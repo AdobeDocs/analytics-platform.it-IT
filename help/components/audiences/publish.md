@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: f45485d7e26827a85abe47168b1a3dbdbe150e53
+source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 77%
+source-wordcount: '1224'
+ht-degree: 74%
 
 ---
 
@@ -84,7 +84,7 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Pla
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
-CJA ora prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). CJA invia il pubblico a Experience Platform con l’identità primaria impostata su qualsiasi elemento selezionato come ID persona al momento della configurazione della connessione.
+CJA prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). CJA invia il pubblico ad Experience Platform con il set di identità principale, in base a ciò che è stato selezionato come [!UICONTROL Person ID] quando la connessione è stata configurata.
 
 RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, “user@adobe.com” può essere impostato come destinatario su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
@@ -98,33 +98,47 @@ Puoi trascinare i tipi di pubblico di CJA nella definizione del segmento dei seg
 
 Domande frequenti sulla pubblicazione di tipi di pubblico.
 
-### Cosa succede se un utente non è più membro di un pubblico in CJA?
++++**Cosa succede se un utente non è più membro di un pubblico in CJA?**
 
 In questo caso, viene inviato un evento di uscita a Experience Platform da CJA.
 
-### Cosa succede se elimini un pubblico in CJA?
++++
+
++++**Cosa succede se elimini un pubblico in CJA?**
 
 Quando un pubblico CJA viene eliminato, non viene più visualizzato nell’interfaccia utente di Experience Platform. Tuttavia, in Platform nessun profilo associato a quel pubblico viene effettivamente eliminato.
 
-### Se in RTCDP non esiste un profilo corrispondente, verrà creato un nuovo profilo?
++++
+
++++**Se in RTCDP non esiste un profilo corrispondente, verrà creato un nuovo profilo?**
 
 Sì.
 
-### CJA invia i dati del pubblico come eventi della pipeline o un file flat che va anche al data lake?
++++
 
-Trasmette i dati in RTCP tramite pipeline, e questi dati vengono anche raccolti in un set di dati di sistema nel data lake.
++++**CJA invia i dati del pubblico come eventi della pipeline o un file flat che va anche al data lake?**
 
-### Quali identità invia CJA?
+CJA trasferisce i dati in RTCP tramite pipeline, che viene inoltre raccolta in un set di dati di sistema nel data lake.
 
-Qualsiasi coppia di identità/namespace utilizzata nell&#39;impostazione della connessione. Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come &quot;ID persona&quot;.
++++
 
-### Qual è l&#39;identità principale scelta?
++++**Quali identità invia CJA?**
+
+Qualsiasi coppia di identità/namespace utilizzata nella [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come &quot;ID persona&quot;.
+
++++
+
++++**Quale ID è scelto come identità principale?**
 
 Vedi sopra. Inviiamo una sola identità per &quot;persona&quot; CJA.
 
-### RTCP elabora anche i messaggi CJA? CJA può aggiungere identità a un grafico dell’identità di profilo tramite la condivisione del pubblico?
++++
+
++++**RTCP elabora anche i messaggi CJA? CJA può aggiungere identità a un grafico dell’identità di profilo tramite la condivisione del pubblico?**
 
 No. Inviiamo una sola identità per &quot;persona&quot;, quindi non ci sarebbero bordi grafici da utilizzare per RTCP.
+
++++
 
 ## Passaggi successivi
 
