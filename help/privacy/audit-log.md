@@ -2,10 +2,10 @@
 title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit di CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Vengono visualizzati i seguenti elementi:
 | Nome azione | Elenco delle azioni possibili: <ul><li>Richiesta API</li><li>Approvazione</li><li>Creazione</li><li>Modifica</li><li>Esportazione</li><li>Accesso non riuscito</li><li>Accesso riuscito</li><li>Logout</li><li>Modifica organizzazione</li><li>Aggiornamento</li><li>Condivisione</li><li>Trasferimento</li><li>Annullamento approvazione</li><li>Annullamento condivisione</li></ul> |
 | Descrizione | Riepilogo dell’azione, del tipo di componente (con ID) e altri valori. |
 | Nome utente | Utente che ha eseguito l’azione. |
-| Tipo di componente | I possibili tipi di componenti includono: <ul><li>Annotazione</li><li>Destinatari</li><li>Metrica calcolata</li><li>Connessione</li><li>Gruppo di dati</li><li>Vista dati</li><li>Accesso a funzione</li><li>Filtro</li><li>Organizzazione IMS</li><li>Mobile</li><li>Progetto</li><li>Rapporto</li><li>Progetto pianificato</li><li>Utente</li><li>Gruppo di utenti</li></ul> |
+| Tipo di componente | I possibili tipi di componenti includono: <ul><li>Annotazione</li><li>Destinatari</li><li>Metrica calcolata</li><li>Connessione</li><li>Gruppo di dati</li><li>Vista dati (questo tipo di componente include dimensioni e metriche)</li><li>Accesso a funzione</li><li>Filtro</li><li>Organizzazione IMS</li><li>Mobile</li><li>Progetto</li><li>Rapporto</li><li>Progetto pianificato</li><li>Utente</li><li>Gruppo di utenti</li></ul> |
 | ID organizzazione IMS | ID univoco assegnato alla tua istanza la prima volta che accedi ad Adobe Experience Cloud. Deve essere nel seguente formato: xxx@AdobeOrg. |
 | ID utente | ID univoco che identifica l’utente che ha eseguito l’azione. |
 | Data creazione | Quando è stata eseguita l’azione. |
