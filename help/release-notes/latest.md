@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
+source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 39%
+source-wordcount: '523'
+ht-degree: 42%
 
 ---
 
 # Note sulla versione del Customer Journey Analytics corrente (CJA) (gennaio 2023)
 
-**Ultimo aggiornamento**: 23 gennaio 2023
+**Ultimo aggiornamento**: 13 gennaio 2023
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,7 +20,6 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Aggiornamento di CJA Audiences** | Dopo aver creato un pubblico, [Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). | N/D | 23 gennaio 2023 |
 | **Cartelle in Workspace** | Le cartelle consentono di organizzare e classificare i progetti per un migliore recupero e accesso. Inoltre, un **[!UICONTROL Company]** Questa cartella consente agli amministratori di creare e condividere facilmente il contenuto con tutti gli utenti di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=it) | N/D | 11 gennaio 2023 |
 | **Pagina di destinazione predefinita** | La [nuova pagina di destinazione](/help/getting-started/landing.md) introdotta in precedenza nel 2022 diventerà l’esperienza predefinita per tutti gli utenti su **11 gennaio 2023**. La pagina di destinazione precedente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. | N/D | 11 gennaio 2023 |
 | **Pagina di Project Manager obsoleta** | Con il rilascio della nuova pagina di destinazione, la funzione **[!UICONTROL Project Manager]** come indicato in **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]**. La nuova pagina di destinazione dispone di tutte le funzionalità della vecchia pagina di Project Manager e di altro ancora. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N/D | 11 gennaio 2023 |
