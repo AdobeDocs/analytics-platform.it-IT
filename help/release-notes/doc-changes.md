@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 93%
+source-wordcount: '1262'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Salvataggio automatico per progetti Workspace | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Landing page | Nuovi aggiornamenti della pagina di destinazione [pagina di destinazione](/help/getting-started/landing.md). |
 | Pianificare cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
+| Supporto array di oggetti per i set di dati di profilo e di ricerca | Aggiornato [Uso di array di oggetti](/help/use-cases/object-arrays.md) e [Acquisire tipi di pubblico AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) per riflettere il supporto della matrice di oggetti per i set di dati di profilo e di ricerca. |
 
 ## 2022 {#22}
 

@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 42%
+source-wordcount: '547'
+ht-degree: 40%
 
 ---
 
@@ -26,6 +26,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | **Pianifica cartelle di lavoro in Report Builder** | Al Customer Journey Analytics, è possibile creare pianificazioni per l&#39;invio di cartelle di lavoro a intervalli regolari. Ora i destinatari possono ricevere regolarmente gli ultimi aggiornamenti alle cartelle di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N/D | 11 gennaio 2023 |
 | **Salvataggio automatico di nuovi progetti** | Analysis Workspace ora salva automaticamente i progetti appena creati. Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, è ora disponibile una versione di ripristino del progetto. In precedenza, i progetti venivano salvati automaticamente solo dopo essere stati inizialmente salvati manualmente. [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/save-projects.md) | N/D | 11 gennaio 2023 |
 | **Preferenze utente ottimizzate** | È ora possibile configurare preferenze aggiuntive a livello di utente (in [!UICONTROL Components] > [!UICONTROL Preferences]). Quando imposti le preferenze utente, le selezioni si estendono su progetti, tabelle e visualizzazioni. La pagina Preferenze ora contiene le seguenti nuove schede, ciascuna contenente molte nuove opzioni di configurazione:<ul><li>Tabella a forma libera</li><li>Visualizzazioni>/li></ul>. Inoltre, sono ora disponibili ulteriori preferenze nella **[!UICONTROL General]** e **[!UICONTROL Project]** schede.<p>In precedenza, molte di queste preferenze erano configurabili solo per singoli progetti, tabelle e visualizzazioni. [Ulteriori informazioni](/help/analysis-workspace/user-preferences.md) | N/D | 11 gennaio 2023 |
+| **Supporto array di oggetti per i set di dati di profilo e di ricerca** | I set di dati di profilo e i set di dati di ricerca ora supportano gli array di oggetti da utilizzare in CJA. | N/D | 11 gennaio 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
