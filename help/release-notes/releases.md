@@ -2,10 +2,10 @@
 description: Descrizione della strategia di rilascio continuo delle funzioni per Customer Journey Analytics
 title: Supporto delle funzioni di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+source-git-commit: 40f145d20125c41f3399ab0690a673f01c1817e3
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,9 @@ I rilasci di Customer Journey Analytics funzionano su un modello di distribuzion
 
 [!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “interruttori”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
-* **Inizio del rollout**: il rollout di una versione graduale inizia con una fase di test eseguita dagli utenti interni di Adobe. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
+* **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
+
+* **Inizio del rollout**: Il rollout di un rilascio graduale inizia con la fase di prova limitata. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
 
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
