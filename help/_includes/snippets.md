@@ -1,7 +1,7 @@
 ---
-source-git-commit: d56b3b22a98371226123822bc181e0f56cd70da4
+source-git-commit: 5303fa540fbde7716326f525158197f354771666
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questo articolo si trova nella fase di testing limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questo articolo si trova nella fase di testing limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Rilasci di funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
 
 ## Sezione Test limitati della fase di rilascio {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questa sezione si trova nella fase di testing limitata della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questa sezione si trova nella fase di testing limitata della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Rilasci di funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
