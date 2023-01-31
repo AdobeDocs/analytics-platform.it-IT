@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
+source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Gennaio 2023** |  |
+| Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nel [Filtrare e ordinare tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) articolo. Questo articolo è stato rinominato da &quot;Paginazione, filtro e ordinamento di tabelle&quot;. |
 | Guide rapide per l’acquisizione dei dati | Nuova sezione sulla documentazione su come [Acquisizione e utilizzo dei dati](/help/data-ingestion/data-ingestion.md) in CJA. |
 | Cartelle Workspace | Pagine dedicate per [Gestione cartelle](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferenze utente di Workspace | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analysis-workspace/user-preferences.md). |
