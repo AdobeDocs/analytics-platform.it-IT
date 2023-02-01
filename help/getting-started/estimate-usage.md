@@ -4,10 +4,10 @@ description: Mostra due metodi per stimare l'utilizzo e un metodo per gestirlo.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
+source-git-commit: d38e4c4cd589e6708b0a6b5856da341344f6440e
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 41%
+source-wordcount: '851'
+ht-degree: 37%
 
 ---
 
@@ -99,5 +99,5 @@ Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui 
 
 Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experience Platform, CJA riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, CJA mantiene i restanti 15 mesi.
 
-La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.
+La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Se la connessione include set di dati di profilo o di ricerca, poiché sono collegati a set di dati evento, i dati vengono conservati in CJA in base alle impostazioni di conservazione dei dati nelle marche temporali del set di dati dell’evento.
 
