@@ -4,10 +4,10 @@ description: Conteggia solo la prima occorrenza di una metrica nei rapporti.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: e2ebda486eae7740351370f48bdf104c90494ae3
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 73%
 
 ---
 
@@ -22,3 +22,7 @@ La deduplicazione delle metriche consente di configurare una metrica in modo da 
 | [!UICONTROL Deduplication ID] | Invece di applicare la deduplicazione sulla metrica stessa, puoi applicare la deduplicazione metrica in base a una dimensione. Impostazione molto utile per dimensioni quali l&#39;ID acquisto. |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!CAUTION]
+>
+>   Deduplication a un _persona_ l&#39;ambito viene valutato in base ai mesi completi nell&#39;ora UTC. Un intervallo di reporting a mese parziale potrebbe non visualizzare tutte le prime o ultime istanze, se alcune si sono verificate entro il mese completo ma al di fuori delle date di reporting.
