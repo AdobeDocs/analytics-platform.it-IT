@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ddba0cdee1956048ba1875b49e8f2b77085c46da
+source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 40%
+source-wordcount: '597'
+ht-degree: 37%
 
 ---
 
 # Note sulla versione del Customer Journey Analytics corrente (CJA) (gennaio 2023)
 
-**Ultimo aggiornamento**: 24 gennaio 2023
+**Ultimo aggiornamento**: 6 febbraio 2023
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,6 +20,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Aggiornamento di CJA Audiences** | Dopo aver creato un pubblico, [Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). Un segmento di streaming AEP verrà creato solo se l’organizzazione è impostata per la segmentazione in streaming. | N/D | 3 febbraio 2023 |
 | **Supporto array di oggetti per i set di dati di profilo e di ricerca** | I set di dati di profilo e i set di dati di ricerca ora supportano gli array di oggetti da utilizzare in CJA. | 11 gennaio 2023 | 19 gennaio 2023 |
 | **Cartelle in Workspace** | Le cartelle consentono di organizzare e classificare i progetti per un migliore recupero e accesso. Inoltre, un **[!UICONTROL Company]** Questa cartella consente agli amministratori di creare e condividere facilmente il contenuto con tutti gli utenti di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=it) | N/D | 11 gennaio 2023 |
 | **Pagina di destinazione predefinita** | La [nuova pagina di destinazione](/help/getting-started/landing.md) introdotta in precedenza nel 2022 diventerà l’esperienza predefinita per tutti gli utenti su **11 gennaio 2023**. La pagina di destinazione precedente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. | N/D | 11 gennaio 2023 |

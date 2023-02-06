@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: e14881682f79633313258382c0baae951ef7f43b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 80%
+source-wordcount: '1241'
+ht-degree: 73%
 
 ---
 
@@ -71,6 +71,14 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    Se tutto è andato correttamente, riceverai un messaggio di conferma della pubblicazione del pubblico. Ci vogliono solo pochi minuti perché questo pubblico venga visualizzato in Experience Platform. Anche per i tipi di pubblico con milioni di membri, dovrebbero essere necessari meno di 5 minuti.
 
 1. Fai clic su **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio; ti porterà all’[interfaccia utente dei segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it) in Adobe Experience Platform. Per ulteriori informazioni, vedi di seguito.
+
+## Cosa succede dopo la creazione di un pubblico {#after-audience-created}
+
+Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA. Un segmento di streaming AEP verrà creato solo se l’organizzazione è impostata per la segmentazione in streaming.
+
+* Il segmento AEP condivide lo stesso nome/descrizione del pubblico CJA, ma al nome verrà aggiunto l’ID del pubblico di CJA per assicurarne l’univocità.
+* Se il nome/descrizione del pubblico CJA cambia, anche il nome/descrizione del segmento AEP riflette tale modifica.
+* Se un pubblico CJA viene eliminato da un utente, il segmento AEP NON viene eliminato. Il motivo è che in seguito il pubblico di CJA potrebbe essere rimosso.
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
