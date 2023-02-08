@@ -3,14 +3,14 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
+source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 37%
+source-wordcount: '416'
+ht-degree: 40%
 
 ---
 
-# Note sulla versione del Customer Journey Analytics corrente (CJA) (gennaio 2023)
+# Note sulla versione del Customer Journey Analytics corrente (CJA) (febbraio 2023)
 
 **Ultimo aggiornamento**: 6 febbraio 2023
 
@@ -20,38 +20,29 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Aggiornamento di CJA Audiences** | Dopo aver creato un pubblico, [Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). Un segmento di streaming AEP verrà creato solo se l’organizzazione è impostata per la segmentazione in streaming. | N/D | 3 febbraio 2023 |
-| **Supporto array di oggetti per i set di dati di profilo e di ricerca** | I set di dati di profilo e i set di dati di ricerca ora supportano gli array di oggetti da utilizzare in CJA. | 11 gennaio 2023 | 19 gennaio 2023 |
-| **Cartelle in Workspace** | Le cartelle consentono di organizzare e classificare i progetti per un migliore recupero e accesso. Inoltre, un **[!UICONTROL Company]** Questa cartella consente agli amministratori di creare e condividere facilmente il contenuto con tutti gli utenti di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=it) | N/D | 11 gennaio 2023 |
-| **Pagina di destinazione predefinita** | La [nuova pagina di destinazione](/help/getting-started/landing.md) introdotta in precedenza nel 2022 diventerà l’esperienza predefinita per tutti gli utenti su **11 gennaio 2023**. La pagina di destinazione precedente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. | N/D | 11 gennaio 2023 |
-| **Pagina di Project Manager obsoleta** | Con il rilascio della nuova pagina di destinazione, la funzione **[!UICONTROL Project Manager]** come indicato in **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]**. La nuova pagina di destinazione dispone di tutte le funzionalità della vecchia pagina di Project Manager e di altro ancora. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | N/D | 11 gennaio 2023 |
-| **Pianifica cartelle di lavoro in Report Builder** | Al Customer Journey Analytics, è possibile creare pianificazioni per l&#39;invio di cartelle di lavoro a intervalli regolari. Ora i destinatari possono ricevere regolarmente gli ultimi aggiornamenti alle cartelle di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | N/D | 11 gennaio 2023 |
-| **Salvataggio automatico di nuovi progetti** | Analysis Workspace ora salva automaticamente i progetti appena creati. Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, è ora disponibile una versione di ripristino del progetto. In precedenza, i progetti venivano salvati automaticamente solo dopo essere stati inizialmente salvati manualmente. [Ulteriori informazioni](/help/analysis-workspace/build-workspace-project/save-projects.md) | N/D | 11 gennaio 2023 |
-| **Preferenze utente ottimizzate** | È ora possibile configurare preferenze aggiuntive a livello di utente (in [!UICONTROL Components] > [!UICONTROL Preferences]). Quando imposti le preferenze utente, le selezioni si estendono su progetti, tabelle e visualizzazioni. La pagina Preferenze ora contiene le seguenti nuove schede, ciascuna contenente molte nuove opzioni di configurazione:<ul><li>Tabella a forma libera</li><li>Visualizzazioni>/li></ul>. Inoltre, sono ora disponibili ulteriori preferenze nella **[!UICONTROL General]** e **[!UICONTROL Project]** schede.<p>In precedenza, molte di queste preferenze erano configurabili solo per singoli progetti, tabelle e visualizzazioni. [Ulteriori informazioni](/help/analysis-workspace/user-preferences.md) | N/D | 11 gennaio 2023 |
+| **Aggiornamento di CJA Audiences** | Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA. Un segmento in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | N/D | 3 febbraio 2023 |
+| **Nascondere intervalli di date di confronto nelle scorecard per dispositivi mobili** | Con le scorecard per dispositivi mobili, ora puoi nascondere gli intervalli di date del confronto. | N/D | 8 febbraio 2023 |
+| **Aggiornamenti del calendario in Workspace** | <ul><li>Date del pannello di ancoraggio: Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. [Ulteriori informazioni](/help/components/date-ranges/calendar.md)</li><li>Aggiornamenti dello stile del calendario: Gli stili del calendario in tutta l’interfaccia utente sono stati aggiornati per presentare un flusso di lavoro più coerente e facile da usare.</li><li>Aggiornamenti della formula del calendario: Se si utilizzano date relative, tutte le formule del calendario rifletteranno l&#39;inizio dell&#39;intervallo di date del pannello. [Ulteriori informazioni](/help/components/date-ranges/calendar.md)</li></ul> | N/D | 8 febbraio 2023 |
+| **Filtro riga/colonna per lo streaming del connettore sorgente Adobe Analytics** | Il connettore di origine di Analytics in Adobe Experience Platform ora consente di filtrare i dati di Analytics che vengono utilizzati per popolare i profili in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).<p>Il filtro a livello di riga consente di ridurre il numero di eventi associati ai profili. Il filtro a livello di colonna consente di ridurre la ricchezza degli eventi stessi, consentendoti in tal modo di ottimizzare l’uso delle adesioni al profilo. Questo filtro si applica solo ai dati inviati a Profilo cliente in tempo reale e [Servizio identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it).<p>**Il filtro non influisce sui dati inviati a Data Lake per l&#39;utilizzo in applicazioni come Customer Journey Analytics**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N/D | 22 febbraio 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Correzioni
+## Correzioni nel Customer Journey Analytics
 
-AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
+AN-309106
 
 ## Avvisi importanti per amministratori CJA
 
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
-| **Mappatura IP-geolocalizzazione migliorata** | 29 settembre 2022 | Il fornitore di Adobe per le ricerche IP, Digital Element, sta effettuando l’aggiornamento a un nuovo set di dati migliorato (NetAcuity Pulse) per la mappatura IP-geolocalizzazione. Adobe Analytics ha posticipato l&#39;adozione di questo nuovo set di dati a **11 gennaio 2023**. Il nuovo database sarà più accurato delle versioni precedenti. Quando il nuovo database verrà adottato, alcune mappature IP-geolocalizzazione verranno modificate/migliorate.<p> Anche i dati CJA forniti tramite [!UICONTROL Analytics Source Connector] sfrutteranno automaticamente le nuove mappature. |
+| Nessun avviso corrente | N/D | N/D |
 
 {style=&quot;table-layout:auto&quot;}
 
-
 ## Risorse correlate
 
-* [Note sulle versioni precedenti di CJA per il 2022](/help/release-notes/2022.md)
-
+* [Note sulle versioni precedenti di CJA per il 2023](/help/release-notes/2023.md)
 * [Note sulla versione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
-
 * [Note sulla versione di Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it)
-
 * [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
-
 * [Aggiornamenti della documentazione di Customer Journey Analytics](/help/release-notes/doc-changes.md)
