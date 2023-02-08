@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
+source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 73%
+source-wordcount: '1324'
+ht-degree: 69%
 
 ---
 
@@ -79,6 +79,19 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Pla
 * Il segmento AEP condivide lo stesso nome/descrizione del pubblico CJA, ma al nome verrà aggiunto l’ID del pubblico di CJA per assicurarne l’univocità.
 * Se il nome/descrizione del pubblico CJA cambia, anche il nome/descrizione del segmento AEP riflette tale modifica.
 * Se un pubblico CJA viene eliminato da un utente, il segmento AEP NON viene eliminato. Il motivo è che in seguito il pubblico di CJA potrebbe essere rimosso.
+
+## Considerazioni sulla latenza {#latency}
+
+In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle eventuali latenze.
+
+![](assets/latency-diagram.png)
+
+| Punto di latenza | Durata della latenza |
+| --- | --- |
+| Acquisizione di dati in Data Lake | Fino a 30 minuti |
+| Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
+| Pubblicazione di tipi di pubblico su Real-time Customer Profile | Meno di 5 minuti (a seconda della dimensione del pubblico) |
+| Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
