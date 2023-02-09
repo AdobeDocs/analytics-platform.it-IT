@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 72f59b140b2a907f8c0a125825cd4df6d7c38dbc
+source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1742'
 ht-degree: 97%
 
 ---
@@ -106,7 +106,7 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
-### Mostra/Nascondi intervalli di date di confronto {#showo-comparison-dates}
+### Mostra o nascondi intervalli di date di confronto {#show-comparison-dates}
 
 Per includere intervalli di date di confronto, attiva **Includi date di confronto** impostazione.
 
