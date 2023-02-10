@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
+source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 66%
+source-wordcount: '1346'
+ht-degree: 76%
 
 ---
 
@@ -38,7 +38,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Name] | Il nome del pubblico. |
    | [!UICONTROL Tags] | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi utilizzare un tag preesistente o inserirne uno nuovo. |
    | [!UICONTROL Description] | Aggiungi una buona descrizione del pubblico, per distinguerlo dagli altri. |
-   | [!UICONTROL Refresh frequency] | La frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.</li><li>Puoi selezionare altri intervalli di aggiornamento. Per la frequenza di aggiornamento di 4 ore, esiste un limite di 75-150 aggiornamenti del pubblico, a seconda dell’adesione all’CJA.</li></ul> |
+   | [!UICONTROL Refresh frequency] | La frequenza con cui desideri aggiornare il pubblico.<ul><li>Puoi scegliere di creare un pubblico una tantum (impostazione predefinita) che non necessita di aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.</li><li>Puoi selezionare altri intervalli di aggiornamento. Per la frequenza di aggiornamento di 4 ore, esiste un limite di 75 o 150 tipi di aggiornamenti del pubblico, a seconda dell’adesione CJA.</li></ul> |
    | Data di scadenza | La data in cui il pubblico smetterà di aggiornarsi. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza del pubblico. |
    | Finestra di lookback di aggiornamento | Specifica quanto indietro desideri andare nella finestra dei dati durante la creazione del pubblico. Il massimo è 90 giorni. |
    | [!UICONTROL One-time date range] | L’intervallo di date per la pubblicazione del pubblico una tantum. |
@@ -90,7 +90,7 @@ In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono ve
 | Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
 | Pubblico che pubblica su Profilo cliente in tempo reale, inclusa la creazione automatica del segmento in streaming, e permette al segmento di essere pronto per ricevere i dati. | Circa 60 minuti |
 | Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
-| Creazione della destinazione in AEP: Attivazione del nuovo segmento in Adobe Target | Attualmente, questo può richiedere fino a 24 ore, a seconda dell’intervallo di aggiornamento del pubblico e del tipo di valutazione del segmento |
+| Creazione della destinazione in AEP: Attivazione del nuovo segmento | 1-2 ore |
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
@@ -106,7 +106,7 @@ Puoi trascinare i tipi di pubblico di CJA nella definizione del segmento dei seg
 
 ## Domande frequenti {#faq}
 
-Domande frequenti sulla pubblicazione di tipi di pubblico.
+Domande frequenti sulla pubblicazione dei tipi di pubblico.
 
 +++**Cosa succede se un utente non è più membro di un pubblico in CJA?**
 
@@ -126,7 +126,7 @@ Sì.
 
 +++
 
-+++**CJA invia i dati del pubblico come eventi della pipeline o un file flat che va anche al data lake?**
++++**CJA invia i dati del pubblico come eventi della pipeline o un file flat che viene anche trasmesso anche al data lake?**
 
 CJA trasferisce i dati in RTCP tramite pipeline, che viene inoltre raccolta in un set di dati di sistema nel data lake.
 
@@ -140,13 +140,13 @@ Qualsiasi coppia di identità/namespace utilizzata nella [Configurazione della c
 
 +++**Quale ID è scelto come identità principale?**
 
-Vedi sopra. Inviiamo una sola identità per &quot;persona&quot; CJA.
+Vedi sopra. Inviamo una sola identità per “persona” CJA.
 
 +++
 
 +++**RTCP elabora anche i messaggi CJA? CJA può aggiungere identità a un grafico dell’identità di profilo tramite la condivisione del pubblico?**
 
-No. Inviiamo una sola identità per &quot;persona&quot;, quindi non ci sarebbero bordi grafici da utilizzare per RTCP.
+No. Inviamo una sola identità per “persona”, quindi RTCP non avrebbe bordi del grafico da utilizzare.
 
 +++
 
