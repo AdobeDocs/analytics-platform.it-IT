@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 99%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale
 
 ### 4. Decidere se usare il connettore di origine di Analytics o gli SDK di Experience Platform {#connector-vs-sdk}
 
-I clienti Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine di Analytics. Per informazioni sull’utilizzo del connettore di origine di Analytics, consulta [Creare una connessione sorgente Adobe Analytics nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).
+I clienti Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine di Analytics. Per informazioni sull&#39;utilizzo del connettore di origine di Analytics, consulta la guida rapida su come [Acquisire dati da Adobe Analytics e utilizzarli in CJA](../data-ingestion/analytics.md). Vedi anche [Creare una connessione sorgente Adobe Analytics nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per ulteriori informazioni.
 
 Mentre la raccolta dati di [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) si evolve, probabilmente eseguirai la migrazione ad [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=it) o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=it) con la rete Edge di Adobe Experience Platform. Sebbene un’implementazione tipica degli SDK invii dati ad Adobe Analytics, si presenta una nuova opportunità per l’invio diretto dei dati a Adobe Experience Platform. Possono quindi essere acquisiti in Customer Journey Analytics, mantenendo al tempo stesso i dati inviati ad Adobe Analytics.
 
@@ -76,10 +76,10 @@ Questo metodo estende notevolmente le possibilità di raccolta dei dati: non esi
 
 Le funzioni o i componenti seguenti di Adobe Analytics non sono supportati:
 
-* Canali marketing
 * Filtro bot
 * Ricerche per posizione, dominio o dispositivo
-* Analytics for Target (A4T)
+* Misurazione dei file multimediali in streaming
+* Trigger di Livestream o Livestream
 
 ## Prepararsi per le differenze fondamentali
 
