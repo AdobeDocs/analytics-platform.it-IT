@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Funzione | Note |
 | --- | --- |
 | Canali marketing | I dati dei canali di marketing fluiscono in CJA tramite il connettore di origine di Analytics. Le regole del canale di marketing devono ancora essere configurate nel Adobe Analytics tradizionale e alcune regole non sono supportate. Per ulteriori informazioni, consulta la [Documentazione dei canali di marketing CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it#cja-usecases). Inoltre, per le implementazioni Web SDK, sono disponibili plug-in per la definizione dei canali di marketing lato client. È pianificato il supporto futuro per le regole di elaborazione dei canali di marketing al momento del rapporto. |
-| Unione cross-device/cross-channel | Supportato per i set di dati contenenti informazioni di identità direttamente (noto anche come unione basata su campi). L’unione basata su grafico non è ancora supportata, ma è pianificata. Consulta [Cross-Channel Analytics](/help/cca/overview.md). |
+| Unione cross-device/cross-channel | Supportata per i set di dati direttamente contenenti informazioni di identità (nota anche come unione “basata su campi”). L’unione basata sui grafici non è ancora supportata, ma lo sarà presto. Consulta l’[Analisi cross-channel](/help/cca/overview.md). |
 | Filtro bot | Per i set di dati basati sul [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o da CJA. |
 | Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [Connettore di origine di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Fai riferimento alla nostra [documentazione relativa alle variabili Analytics che sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it).<p>Se non utilizzi il connettore di origine di Adobe per compilare i dati da Adobe Analytics in CJA, ma utilizzi invece la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca di dispositivo non sono attualmente supportate, È pianificato il supporto futuro. |
 | Dimensioni GeoSegmentation | Tutti i dati di GeoSegmentation o posizione geografica raccolti in Adobe Analytics fluiscono in CJA tramite il [connettore di origine Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Le implementazioni che non utilizzano il connettore di origine di Analytics, come quelle che si basano su AEP Web SDK per la raccolta di dati digitali, non dispongono della serie completa di funzioni per la ricerca automatica basata su dati geografici: sono supportati i dati di paese e provincia, ma non quelli di città e codice postale. |
