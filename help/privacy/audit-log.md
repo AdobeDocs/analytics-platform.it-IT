@@ -2,10 +2,10 @@
 title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit di CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '819'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Questo argomento tratta i registri di audit di CJA, e spiega come visualizzarli 
 
 Se questa funzione è abilitata per la tua organizzazione, i registri di audit vengono raccolti automaticamente quando si verifica un’attività. Non è necessario abilitare manualmente la raccolta dei registri.
 
-Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzionalità di CJA, consulta la [documentazione sul controllo degli accessi](/help/getting-started/cja-access-control.md).
+Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzionalità di CJA, consulta la [documentazione sul controllo degli accessi](../admin/cja-access-control.md).
 
 ## Visualizza il registro di controllo nell’interfaccia utente
 

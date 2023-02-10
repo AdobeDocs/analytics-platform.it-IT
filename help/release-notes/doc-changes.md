@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 84%
@@ -38,7 +38,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Data | Descrizione aggiornamento |
 | --- | --- |
 | **Dicembre 2022** |  |
-| 16 dicembre 2022 | Nuovo argomento su [misurazione e gestione dell’utilizzo dei dati CJA](/help/getting-started/estimate-usage.md). |
+| 16 dicembre 2022 | Nuovo argomento su [misurazione e gestione dell’utilizzo dei dati CJA](/help/admin/estimate-usage.md). |
 | **Ottobre 2022** |  |
 | Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
@@ -53,7 +53,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Settembre 2022 | Nuovo argomento sul [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | **Agosto 2022** |  |
 | Agosto 2022 | Articolo Adobe Experience Platform sul [supporto per aree geografiche diverse per il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
-| Agosto 2022 | Articolo con uimportanti aggiornato sul [controllo degli accessi a CJA](/help/getting-started/cja-access-control.md). |
+| Agosto 2022 | Articolo con uimportanti aggiornato sul [controllo degli accessi a CJA](/help/admin/cja-access-control.md). |
 | Agosto 2022 | Nuovo articolo sul [Supporto di CJA per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
 | Agosto 2022 | Nuovo articolo sul [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
 | Agosto 2022 | Nuova documentazione sulla [Pubblicazione di tipi di pubblico su Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |

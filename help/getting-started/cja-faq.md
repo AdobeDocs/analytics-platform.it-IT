@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1931'
 ht-degree: 99%
 
 ---
@@ -17,48 +17,124 @@ ht-degree: 99%
 
 ## 1. Prerequisiti {#prerequisites}
 
-| Domanda | Risposta |
-| --- | --- |
-| Sono necessari [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] per [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] non sono necessari per [!UICONTROL Customer Journey Analytics]. Al momento non sono ancora supportati. |
-| È necessario [!UICONTROL Experience Cloud ID] (ECID) per [!UICONTROL Customer Journey Analytics]? | No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia esso [!UICONTROL ECID] o qualsiasi altro ID scelto. |
-| In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]? | Customer Journey Analytics include funzionalità di [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=it) per trasformare i dati prima di inserirli nel data lake di Adobe Experience Platform. Se hai bisogno di ETL dopo che i dati sono già stati acquisiti, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it#queries) offre alcune opzioni limitate; tieni presente che potrebbe comportare costi aggiuntivi. |
++++**Sono necessari [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] per [!UICONTROL Customer Journey Analytics]?**
 
-{style=&quot;table-layout:auto&quot;}
+No, [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] non sono necessari per [!UICONTROL Customer Journey Analytics]. Al momento non sono ancora supportati.
+
++++
+
+
++++**È necessario [!UICONTROL Experience Cloud ID] (ECID) per [!UICONTROL Customer Journey Analytics]?**
+
+No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia esso [!UICONTROL ECID] o qualsiasi altro ID scelto.
+
++++
+
+
++++**In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]?**
+
+Customer Journey Analytics include funzionalità di [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=it) per trasformare i dati prima di inserirli nel data lake di Adobe Experience Platform. Se hai bisogno di ETL dopo che i dati sono già stati acquisiti, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it#queries) offre alcune opzioni limitate; tieni presente che potrebbe comportare costi aggiuntivi.
+
++++
+
 
 ## 2. Unione dei dati (Cross-Channel Analytics) {#stitching}
 
-| Domanda | Risposta |
-| --- | --- |
-| [!UICONTROL Customer Journey Analytics] può effettuare lo stitching tra dispositivi o tra set di dati? | Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) (CCA). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati. |
-| È supportato lo stitching da un comportamento anonimo a un comportamento autenticato? | Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. |
-| Come funziona la “riproduzione” in CCA? | CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching) |
-| Come funziona l’unione dei dati storici (retrocompilazione) in CCA? | Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#enable-cross-channel-analytics) |
-| Qual è il comportamento previsto per i record di set di dati di profilo non uniti? | **Scenario di esempio**: unisci due set di dati in una connessione CJA utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, mentre l’altro è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati dell’evento web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate in CJA. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID. |
++++**[!UICONTROL Customer Journey Analytics] può effettuare lo stitching tra dispositivi o tra set di dati?**
 
-{style=&quot;table-layout:auto&quot;}
+Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) (CCA). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati.
+
++++
+
+
++++**È supportato lo stitching da un comportamento anonimo a un comportamento autenticato?**
+
+Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
+
++++
+
+
++++**Come funziona la “riproduzione” in CCA?**
+
+CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching)
+
++++
+
+
++++**Come funziona l’unione dei dati storici (retrocompilazione) in CCA?**
+
+Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#enable-cross-channel-analytics)
+
++++
+
+
++++**Qual è il comportamento previsto per i record di set di dati di profilo non uniti?**
+
+**Scenario di esempio**: unisci due set di dati in una connessione CJA utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, mentre l’altro è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati dell’evento web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate in CJA. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID.
+
++++
 
 ## 3. Inserire dati in [!UICONTROL Customer Journey Analytics] {#ingest}
 
-| Domanda | Risposta |
-| --- | --- |
-| È possibile combinare i dati di diverse sandbox di [!UICONTROL Adobe Experience Platform] in una connessione [!UICONTROL Customer Journey Analytics]? | No, non è possibile accedere ai dati di sandbox diverse. È possibile combinare solo i set di dati che si trovano all’interno della stessa sandbox. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#select-sandbox-and-datasets) |
-| Come si collegano i dati online ai dati offline in [!UICONTROL Customer Journey Analytics]? | Se l’ID della persona corrisponde nei diversi set di dati, [!UICONTROL Customer Journey Analytics] può collegare filtri, attribuzione, flusso, abbandono e così via. tra i vari set di dati. |
-| Come posso inserire dati offline in [!UICONTROL Customer Journey Analytics]? | La licenza di Customer Journey Analytics consente di acquisire i dati in Experience Platform. Puoi quindi creare connessioni a tali dati e visualizzazioni di dati in [!UICONTROL Customer Journey Analytics], da utilizzare per la generazione di rapporti in Analysis Workspace. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati ti può fornire consigli o consulenza. |
-| Come posso inserire i dati di [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]? | I dati di [!UICONTROL Adobe Analytics] possono essere collegati a Experience Platform tramite [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). La maggior parte dei campi [!UICONTROL Adobe Analytics] vengono trasferiti in formato XDM, ma alcuni campi non sono ancora disponibili. |
-| Quanto tempo è necessario per assemblare gli elementi dei set di dati in una visualizzazione dati? | Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dati. |
-| È necessario inserire dati PII per stabilire connessioni tra i dati? | No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII. |
-| Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento CJA? | <ul><li>Per quanto riguarda le date/marche temporali passate: dati evento fino a 10 anni.</li><li>Per quanto riguarda le date/marche temporali future: dati evento (predittivi) fino a un mese nel futuro.</li></ul> |
++++**È possibile combinare i dati di diverse sandbox di [!UICONTROL Adobe Experience Platform] in una connessione [!UICONTROL Customer Journey Analytics]?**
 
-{style=&quot;table-layout:auto&quot;}
+No, non è possibile accedere ai dati di sandbox diverse. È possibile combinare solo i set di dati che si trovano all’interno della stessa sandbox. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#select-sandbox-and-datasets)
+
++++
+
+
++++**Come si collegano i dati online ai dati offline in [!UICONTROL Customer Journey Analytics]?**
+
+Se l’ID della persona corrisponde nei diversi set di dati, [!UICONTROL Customer Journey Analytics] può collegare filtri, attribuzione, flusso, abbandono e così via. tra i vari set di dati.
+
++++
+
+
++++**Come posso inserire dati offline in [!UICONTROL Customer Journey Analytics]?**
+
+La licenza di Customer Journey Analytics consente di acquisire i dati in Experience Platform. Puoi quindi creare connessioni a tali dati e visualizzazioni di dati in [!UICONTROL Customer Journey Analytics], da utilizzare per la generazione di rapporti in Analysis Workspace. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati ti può fornire consigli o consulenza.
+
++++
+
+
++++**Come posso inserire i dati di [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]?**
+
+I dati di [!UICONTROL Adobe Analytics] possono essere collegati a Experience Platform tramite [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). La maggior parte dei campi [!UICONTROL Adobe Analytics] vengono trasferiti in formato XDM, ma alcuni campi non sono ancora disponibili.
+
++++
+
+
++++**Quanto tempo è necessario per assemblare gli elementi dei set di dati in una visualizzazione dati?**
+
+Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dati.
+
++++
+
+
++++**È necessario inserire dati PII per stabilire connessioni tra i dati?**
+
+No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII.
+
++++
+
+
++++**Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento CJA?**
+
+<ul><li>Per quanto riguarda le date/marche temporali passate: dati evento fino a 10 anni.</li><li>Per quanto riguarda le date/marche temporali future: dati evento (predittivi) fino a un mese nel futuro.</li></ul>
+
++++
+
 
 ## 4. Considerazioni sulla latenza {#latency}
 
 >[!NOTE]
 >Non esiste una dimensione fissa dei dati in CJA e pertanto Adobe non può eseguire il commit a un tempo di acquisizione standard. Stiamo lavorando attivamente per ridurre queste latenze attraverso nuovi aggiornamenti e l’ottimizzazione dell’acquisizione.
 
-| Domanda | Risposta |
-| --- | --- |
-| Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]? | <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP. (Dimensione batch > 50 milioni di righe: più di 90 minuti).</li><li>Backfill di dimensioni ridotte - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 7 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul> |
++++**Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] in [!UICONTROL Adobe Experience Platform]?**
+
+<ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in AEP. (Dimensione batch &gt; 50 milioni di righe: più di 90 minuti).</li><li>Backfill di dimensioni ridotte - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 7 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul>
+
++++
 
 ## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 
@@ -97,20 +173,51 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 
 ## 8. Componenti tradizionali di [!UICONTROL Adobe Analytics]
 
-| Domanda | Risposta |
-| --- | --- |
-| Posso condividere/pubblicare [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] a Experience Platform Unified Profile o altre applicazioni Experience Cloud? | Non ancora, ma stiamo mettendo a punto questa funzionalità. |
-| Cos’è successo alla mia vecchia impostazione [!UICONTROL eVar]? | [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query. |
-| Dove sono ora tutte le impostazioni di persistenza relative alla sessione e alle variabili? | [!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati). |
-| Cosa succede ai segmenti o alle metriche calcolate esistenti? | Al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi schema AEP. Ciò significa che nessuno dei segmenti o delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics]. |
-| In che modo [!UICONTROL Customer Journey Analytics] gestisce i limiti di `Uniques Exceeded`? | [!UICONTROL Customer Journey Analytics] non ha limiti di valore univoci, quindi non è necessario preoccuparsene. |
-| Se sono già un cliente [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics] | Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuoi casi d’uso attuali potrebbero già essere gestiti con Customer Journey Analytics! |
 
-{style=&quot;table-layout:auto&quot;}
++++**Posso condividere/pubblicare [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] a Experience Platform Unified Profile o altre applicazioni Experience Cloud?**
+
+Non ancora, ma stiamo mettendo a punto questa funzionalità.
+
++++
+
+
++++**Cos’è successo alla mia vecchia impostazione [!UICONTROL eVar]?**
+
+[!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] nel senso tradizionale di Adobe Analytics non esistono più in [!UICONTROL Customer Journey Analytics]. Sono disponibili elementi schema illimitati (dimensioni, metriche, campi elenco). Di conseguenza, tutte le impostazioni di attribuzione che si applicavano durante il processo di raccolta dei dati vengono ora applicate al momento della query.
+
++++
+
+
++++**Dove sono ora tutte le impostazioni di persistenza relative alla sessione e alle variabili?**
+
+[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati).
+
++++
+
+
++++**Cosa succede ai segmenti o alle metriche calcolate esistenti?**
+
+Al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi schema AEP. Ciò significa che nessuno dei segmenti o delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics].
+
++++
+
+
++++**In che modo [!UICONTROL Customer Journey Analytics] gestisce i limiti di `Uniques Exceeded`?**
+
+[!UICONTROL Customer Journey Analytics] non ha limiti di valore univoci, quindi non è necessario preoccuparsene.
+
++++
+
+
++++**Se sono già un cliente [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics]**
+
+Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuoi casi d’uso attuali potrebbero già essere gestiti con Customer Journey Analytics!
+
++++
 
 ## 9. Stimare la dimensione della connessione {#estimate-size}
 
-Fai riferimento a [Stimare e gestire l’utilizzo](/help/getting-started/estimate-usage.md).
+Fai riferimento a [Stimare e gestire l’utilizzo](/help/admin/estimate-usage.md).
 
 ## 10. Superamento del limite di utilizzo {#overage}
 
@@ -126,6 +233,6 @@ In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla conne
 
    ![raggruppamento](assets/data-size2.png)
 
-1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Successivamente, è stato aggiunto di nuovo a Customer Journey Analytics, ma [!UICONTROL Adobe Experience Platform] ha generato un [!UICONTROL Platform Dataset ID] diverso.
+2. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID “5f21c12b732044194bffc1d0”, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. Successivamente, è stato aggiunto di nuovo a Customer Journey Analytics, ma [!UICONTROL Adobe Experience Platform] ha generato un [!UICONTROL Platform Dataset ID] diverso.
 
 Per ulteriori informazioni, leggi la sezione sulle [implicazioni dell’eliminazione di set di dati e connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].
