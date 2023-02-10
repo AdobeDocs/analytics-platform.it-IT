@@ -1,19 +1,19 @@
 ---
-title: Cross-Channel Analytics
-description: Scopri in che modo restringere gli ID visitatore da più set di dati per unire i visitatori.
+title: Analisi cross-channel
+description: Scopri come reimpostare l’ID visitatore da più set di dati per unire i visitatori.
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Cross-Channel Analytics
+# Analisi cross-channel
 
-Analisi cross-channel (CCA) consente di reimpostare l’ID persona di un set di dati, consentendo una combinazione perfetta di più set di dati. CCA esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. Utilizzando Cross-Channel Analytics, potrai rispondere a domande quali:
+L’Analisi cross-channel consente di reimpostare l’ID persona di un set di dati, consentendo una combinazione perfetta di più set di dati. CCA esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico. Utilizzando l’Analisi cross-channel, potrai rispondere a domande quali:
 
 * Quante persone iniziano la loro esperienza in un canale, poi la finiscono in un altro?
 * Quante persone interagiscono con il mio marchio? Quanti e quali tipi di dispositivi usano? Come si sovrappongono?
@@ -22,8 +22,8 @@ Analisi cross-channel (CCA) consente di reimpostare l’ID persona di un set di 
 * Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo?
 * In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?
 
-Per una discussione più approfondita su Cross-Channel Analytics, visita:
+Per una discussione più approfondita sull’Analisi cross-channel, vai su:
 
-* [Panoramica di Cross-Channel Analytics](/help/cca/overview.md)
-* [Come funziona la riproduzione](/help/cca/replay.md)
+* [Panoramica dell’Analisi cross-channel](/help/cca/overview.md)
+* [Come funziona la ripetizione](/help/cca/replay.md)
 * [Domande frequenti](/help/cca/faq.md)
