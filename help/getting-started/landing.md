@@ -5,15 +5,15 @@ role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Pagina di destinazione di Customer Journey Analytics
 
-La pagina di destinazione per gli elementi di rilievo del Customer Journey Analytics [!DNL Analysis Workspace] e dispone di una home page di project manager e di una sezione di apprendimento per gestire in modo più efficace i dati dei percorsi dei clienti.
+La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL Analysis Workspace] e presenta una pagina Home per i project manager e una sezione di apprendimento per aiutarti a gestire i dati del percorso del cliente in modo più efficace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -22,63 +22,63 @@ La pagina di destinazione per gli elementi di rilievo del Customer Journey Analy
 | Funzione | Descrizione | Schermata |
 | --- | --- | --- |
 | Espandere la tabella [!UICONTROL Projects] a schermo intero | Per espandere la tabella, fai clic sull’icona del menu con le tre linee. Le schede della barra a sinistra vengono compresse. | ![Espandere la tabella](assets/landing-collapse2.png) |
-| Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Larghezza colonna](assets/column-width.png) |
+| Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Larghezza delle colonne](assets/column-width.png) |
 | Riordinare gli elementi fissati | Per spostare verso l’alto o verso il basso un elemento fissato, fai clic sui suoi puntini di sospensione e seleziona **[!UICONTROL Move up]** o **[!UICONTROL Move down]**. | ![Spostare gli elementi fissati](assets/move-up-down.png) |
-| Nuove colonne di tabella | Fai clic sul’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](../analysis-workspace/curate-share/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporate tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
+| Nuove colonne di tabella | Fai clic sull’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](../analysis-workspace/curate-share/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporare tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Scheda [!UICONTROL Projects] {#navigate-projects}
 
-[!UICONTROL Projects] funge da pagina home di [!UICONTROL Workspace]. Nella scheda Progetti viene visualizzata la cartella Azienda, le cartelle personali create, i progetti e le scorecard per dispositivi mobili. Utilizzare questa pagina per visualizzare, creare e modificare cartelle, progetti e scorecard per dispositivi mobili. Per ulteriori informazioni, consulta [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+[!UICONTROL Projects] funge da pagina home di [!UICONTROL Workspace]. Nella scheda Projects (Progetti) viene visualizzata la cartella Company (Azienda), le cartelle personali create, i progetti e le scorecard per dispositivi mobili. In questa pagina puoi visualizzare, creare e modificare cartelle, progetti e scorecard per dispositivi mobili. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Destinazione completa](assets/landing-all2.png)
 
-**[!UICONTROL Projects]** sono progetti personalizzati che combinano componenti dati, tabelle e visualizzazioni creati dall’utente o che altri utenti hanno creato e condiviso con te. [!UICONTROL Projects] fa riferimento anche a progetti vuoti e scorecard per dispositivi mobili vuote.
+**[!UICONTROL Projects]** (Progetti) contiene progetti personalizzati che combinano componenti dati, tabelle e visualizzazioni creati dall’utente o che altri utenti hanno creato e condiviso con te. [!UICONTROL Projects] fa riferimento anche a progetti vuoti e scorecard per dispositivi mobili vuote.
 
 >[!NOTE]
 >
->Molte delle seguenti impostazioni persistono durante la sessione e tra sessioni. Ad esempio, la scheda selezionata, i filtri selezionati, le colonne selezionate e la direzione di ordinamento delle colonne. I risultati della ricerca non sono costanti.
+>Molte delle seguenti impostazioni vengono mantenute durante la sessione e tra sessioni diverse. Ad esempio, la scheda selezionata, i filtri selezionati, le colonne selezionate e la direzione di ordinamento delle colonne. I risultati della ricerca non vengono mantenuti.
 
 | Elemento nell’interfaccia utente | Definizione |
 | --- | --- |
-| Modificare le preferenze | Consente di scegliere [!UICONTROL View Tutorials] e di [modificare le preferenze utente](/help/analysis-workspace/user-preferences.md). |
+| Modifica preferenze | Consente di scegliere [!UICONTROL View Tutorials] (Mostra tutorial) e di [modificare le preferenze utente](/help/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Create new] | Apre la finestra modale del progetto in cui puoi creare un progetto Workspace o una scorecard per dispositivi mobili oppure aprire un modello aziendale. |
 | [!UICONTROL Show less<br> Mostra altro] | Consente di visualizzare o meno il banner: ![Banner superiore](assets/top-banner.png) |
-| [!UICONTROL Workspace project] | Crea una vuota [Progetto Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) per progettare e costruire. |
-| [!UICONTROL Mobile scorecard] | Crea una vuota [scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) per progettare e costruire. |
-| [!UICONTROL Open Training Tutorial] | Apre l’esercitazione di Workspace che guida l’utente nel processo di creazione di un nuovo progetto iniziale in un’esercitazione dettagliata. |
+| [!UICONTROL Workspace project] | Crea un [progetto Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) vuoto da progettare e costruire. |
+| [!UICONTROL Mobile scorecard] | Crea una [scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) vuota da progettare e costruire. |
+| [!UICONTROL Open Training Tutorial] | Apre la formazione di Workspace sul processo di creazione di un nuovo progetto iniziale in un tutorial dettagliato. |
 | [!UICONTROL Open release notes] | Apre la sezione Adobe Analytics delle ultime note sulla versione di Adobe Experience Cloud. |
-| Icona Filtro | Filtri per tag, suite di rapporti, proprietari, tipi e altri filtri (Personali, Condivisi con me, Preferiti e Approvati) |
+| Icona Filtro | Consente di filtrare in base a tag, suite di rapporti, proprietari, tipi e altri filtri (Personali, Condivisi con me, Preferiti e Approvati) |
 | Barra di ricerca | Cerca in tutte le colonne della tabella. |
-| Casella di selezione | Seleziona uno o più progetti per visualizzare le azioni di gestione del progetto eseguibili: **Elimina**, **Condividi**, **Rinomina**, **Copia**, **Sblocca**, **Sposta su**, **Sposta in basso**, **Tag**, **Approva**, **Esportare CSV** e **Sposta a**. È possibile che non si disponga delle autorizzazioni necessarie per eseguire tutte le azioni elencate. |
+| Casella di selezione | Seleziona uno o più progetti per visualizzare le azioni di Project Management eseguibili: **Elimina**, **Condividi**, **Rinomina**, **Copia**, **Rimuovi**, **Sposta su**, **Sposta giù**, **Contrassegna**, **Approva**, **Esporta CSV** e **Sposta in**. Potresti non disporre delle autorizzazioni necessarie per eseguire tutte le azioni elencate. |
 | [!UICONTROL Favorites] | Aggiunge una stella accanto a un progetto o a una cartella preferita che può essere utilizzata come filtro. |
 | [!UICONTROL Name] | Identifica il nome del progetto. |
-| Icona Fissa (a forma di puntina) | Permette di posizionare gli elementi in modo che siano sempre visualizzati in cima all’elenco, ma è possibile riregolare l’ordine spostandoli verso l’alto o verso il basso nell’ordine in cui sono stati inseriti. Utilizza il menu delle opzioni dei puntini di sospensione e seleziona **Sposta su** o **Sposta in basso** nell&#39;elenco. |
-| Icona Info (i) | Visualizza le seguenti informazioni su un progetto: Tipo, Ruolo progetto, Proprietario, Descrizione e con chi è condiviso. Indica anche chi può [modificare o duplicare](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) il progetto. |
-| Puntini di sospensione (…) | Visualizza le azioni di gestione del progetto eseguibili: **Elimina**, **Condividi**, **Rinomina**, **Copia**, **Sblocca**, **Sposta su**, **Sposta in basso**, **Tag**, **Approva**, **Esportare CSV** e **Sposta a**. È possibile che non si disponga delle autorizzazioni necessarie per eseguire tutte le azioni elencate. |
+| Icona Fissa (a forma di puntina) | Consente di fissare gli elementi in modo che siano sempre visualizzati in cima all’elenco, ma è possibile modificare l’ordine spostandoli verso l’alto o verso il basso. Utilizza il menu delle opzioni contrassegnato dai puntini di sospensione e seleziona **Sposta su** o **Sposta giù** nell’elenco. |
+| Icona Info (i) | Mostra le seguenti informazioni su un progetto: Tipo, Ruolo progetto, Proprietario, Descrizione e con chi è condiviso. Indica anche chi può [modificare o duplicare](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) il progetto. |
+| Puntini di sospensione (…) | Mostra le azioni di Project Management eseguibili: **Elimina**, **Condividi**, **Rinomina**, **Copia**, **Rimuovi**, **Sposta su**, **Sposta giù**, **Contrassegna**, **Approva**, **Esporta CSV** e **Sposta in**. Potresti non disporre delle autorizzazioni necessarie per eseguire tutte le azioni elencate. |
 | [!UICONTROL Type] | Indica se si tratta di un progetto Workspace, di una scorecard per dispositivi mobili o di una cartella. |
 | [!UICONTROL Tags] | Assegna tag ai progetti per organizzarli in gruppi. |
-| [!UICONTROL Project Role] | Identifica i ruoli del progetto: Se sei il proprietario del progetto e se disponi delle autorizzazioni per modificare o duplicare il progetto. |
+| [!UICONTROL Project Role] | Identifica i ruoli di progetto: se l’utente è il proprietario del progetto e se dispone delle autorizzazioni necessarie per modificarlo o duplicarlo. |
 | [!UICONTROL Report Suite] | Identifica le suite di rapporti associate al progetto.<br>Le tabelle e le visualizzazioni all’interno di un pannello derivano i dati dalla suite di rapporti selezionata in alto a destra nel pannello. La suite di rapporti determina anche i componenti disponibili nella barra a sinistra. All’interno di un progetto, puoi utilizzare una o più suite di rapporti a seconda dei casi di utilizzo dell’analisi. L’elenco delle suite di rapporti è ordinato in base alla rilevanza. Adobe definisce la rilevanza in base a quanto recentemente e con quale frequenza la suite è stata utilizzata dall’utente corrente, e alla frequenza con cui viene utilizzata all’interno dell’organizzazione. |
 | [!UICONTROL Owner] | Identifica la persona che ha creato il progetto. |
 | [!UICONTROL Last opened] | Identifica la data dell’ultima apertura del progetto. |
-| Icona Personalizza tabella | Seleziona le colonne da visualizzare nella tabella. Per aggiungere o rimuovere colonne dall’elenco dei progetti, fai clic sull’icona della colonna (![Destinazione completa](assets/select-column.png) ) in alto a destra, quindi seleziona o deseleziona i titoli delle colonne. |
-| MOSTRA: Cartelle e progetti o tutti i progetti | Modifica l’impostazione di visualizzazione nella tabella per mostrare cartelle e progetti in base all’organizzazione delle cartelle **o** mostra tutti i progetti in un elenco non organizzato. |
-| &lt; (pulsante Indietro) | Consente di tornare alla configurazione della pagina di destinazione più recente in un progetto Workspace. La configurazione della pagina che avevi quando hai lasciato la pagina di destinazione persisterà quando torni. |
+| Icona Personalizza tabella | Seleziona le colonne da visualizzare nella tabella. Per aggiungere o rimuovere colonne dall’elenco dei progetti, fai clic sull’icona della colonna (![Destinazione completa](assets/select-column.png)) in alto a destra, quindi seleziona o deseleziona i titoli delle colonne. |
+| MOSTRA: Cartelle e Progetti o Tutti i progetti | Modifica le impostazioni di visualizzazione nella tabella per mostrare cartelle e progetti in base all’organizzazione delle cartelle **oppure** mostra tutti i progetti in un elenco non organizzato. |
+| &lt; (pulsante Indietro) | Consente di tornare alla configurazione della pagina di destinazione più recente in un progetto Workspace. Quando torni alla pagina di destinazione, ritrovi la stessa configurazione che era attiva al momento in cui hai lasciato la pagina. |
 
-### Pagina Gestione progetti obsoleta {#deprecate-pm-page}
+### Obsolescenza della pagina Project Manager {#deprecate-pm-page}
 
-Con il rilascio della nuova pagina di destinazione, Project Manager è diventato obsoleto in quanto elencato in Component Manager (Gestione componenti). La nuova pagina di destinazione gestisce tutte le funzionalità della vecchia pagina di Project Manager e altro ancora.
+Con il rilascio della nuova pagina di destinazione, la pagina Project Manager (Gestione progetti) elencata in Component Manager (Gestione componenti) è diventata obsoleta. La nuova pagina di destinazione gestisce tutte le funzionalità della vecchia pagina Project Manager (Gestione progetti) e altro ancora.
 
-Un caso d’uso comune per la pagina Gestione progetti era quello di visualizzare tutti i tuoi progetti. Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **ALTRI FILTRI** quindi seleziona **Mostra tutto**.
+Un caso d’uso comune per la pagina Project Manager (Gestione progetti) era quello di visualizzare tutti i tuoi progetti. Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **OTHER FILTERS** (ALTRI FILTRI) quindi seleziona **Show all** (Mostra tutto).
 
 ![Altri filtri](assets/other-filters.png)
 
-Se ti trovi nella visualizzazione &quot;Cartelle e progetti&quot;, verrà visualizzato un modale che chiede se desideri passare alla visualizzazione &quot;Tutti i progetti&quot;, facilitando la visualizzazione di tutti i progetti al di fuori delle cartelle in cui possono essere organizzati.   Seleziona **Passa alla visualizzazione &quot;Tutti i progetti&quot;** per visualizzare meglio tutti i progetti a cui hai accesso.
+Se ti trovi nella visualizzazione “Folders &amp; Projects” (Cartelle e progetti), verrà visualizzata una finestra modale che chiede se desideri passare alla visualizzazione “All projects” (Tutti i progetti), facilitando la visualizzazione di tutti i progetti al di fuori delle cartelle in cui possono essere organizzati.   Seleziona **Switch to “All projects” view** (Passa alla visualizzazione “Tutti i progetti”) per visualizzare meglio tutti i progetti a cui hai accesso.
 
-![Passa a tutti i progetti](assets/switch-all-projects-view.png)
+![Passa a Tutti i progetti](assets/switch-all-projects-view.png)
 
 ## Passare alla scheda Apprendimento {#navigate-learning}
 
@@ -88,7 +88,7 @@ La pagina Apprendimento contiene tutorial e presentazioni video pratiche, nonch�
 * Quando si fa clic su un video o una presentazione, viene aggiunto un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. Se non hai ancora completato il contenuto, puoi fare clic sul tag per rimuoverlo.
 * Il pulsante **[!UICONTROL Learn more]** nella finestra modale del video apre una pagina della documentazione Adobe Experience League in cui puoi trovare ulteriori contenuti relativi al video appena guardato. **[!UICONTROL View more videos]** consente di accedere alla playlist YouTube completa su Analysis Workspace.
 
-## Imposta la pagina di destinazione {#set-landing}
+## Impostare la pagina di destinazione {#set-landing}
 
 Gli utenti possono impostare la pagina di destinazione preferita.
 
