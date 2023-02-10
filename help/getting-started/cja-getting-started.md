@@ -4,9 +4,9 @@ description: Scopri i prerequisiti e il flusso di lavoro necessari per implement
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5d0f012505d254406e106939234d4e1d103168db
+source-git-commit: ab4b65a8948d650615cdf9b99718cbc50499e9f5
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '415'
 ht-degree: 85%
 
 ---
@@ -19,7 +19,6 @@ Per implementare Customer Journey Analytics, devi seguire questo flusso di lavor
 
 Customer Journey Analytics è disponibile per i clienti che
 
-* sono clienti Adobe Analytics [Select, Prime o Ultimate](https://www.adobe.com/it/analytics/compare-adobe-analytics-packages.html) e
 * dispongono del provisioning per [Adobe Experience Platform](https://www.adobe.com/it/experience-platform.html) e
 * hanno acquistato la SKU (Stock Keeping Unit) di Customer Journey Analytics.
 
