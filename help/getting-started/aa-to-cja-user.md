@@ -1,5 +1,5 @@
 ---
-title: Guida di per gli utenti di Adobe Analytics
+title: Guida utente di per gli utenti di Adobe Analytics
 description: Aspetti da considerare dal punto di vista di un utente quando l’azienda trasferisce i dati da Adobe Analytics a Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
@@ -8,11 +8,11 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Guida di per gli utenti di Adobe Analytics
+# Guida utente di per gli utenti di Adobe Analytics
 
 Se la tua organizzazione inizia a utilizzare Customer Journey Analytics (CJA), noterai alcune somiglianze e differenze tra l’applicazione Analytics tradizionale e CJA. Questa pagina illustra tali differenze per facilitare il passaggio alla nuova implementazione e al nuovo flusso di lavoro di reporting. Inoltre, fornisce alcune risorse aggiuntive sui nuovi concetti e ulteriori passaggi affinché il percorso dell’analista risulti più semplice ed efficace.
 
@@ -104,10 +104,10 @@ Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di d
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-CJA estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando [Cross-Channel Analytics](/help/cca/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in CJA deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in CJA:
+CJA estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[Analisi cross-channel](/help/cca/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in CJA deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in CJA:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 
-In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. CJA presenta meno limitazioni ai campi ad alta cardinalità. Le modifiche all’architettura di reporting consentono ad Analysis Workspace di creare rapporti su molti elementi dimensionali più univoci. Per ulteriori informazioni su come CJA ottimizza il reporting per le dimensioni con numerosi valori univoci, Vedi [Long tail](../analysis-workspace/workspace-faq/long-tail.md).
+In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. CJA presenta meno limitazioni relativamente ai campi a elevata cardinalità. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Per ulteriori informazioni su come CJA ottimizza il reporting per le dimensioni con numerosi valori univoci, Vedi [Long tail](../analysis-workspace/workspace-faq/long-tail.md).

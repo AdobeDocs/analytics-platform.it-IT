@@ -7,7 +7,7 @@ feature: FAQ
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,18 +38,18 @@ Customer Journey Analytics include funzionalità di [Preparazione dati](https://
 +++
 
 
-## 2. Unione dei dati (Cross-Channel Analytics) {#stitching}
+## 2. Unione dei dati (Analisi cross-channel) {#stitching}
 
 +++**[!UICONTROL Customer Journey Analytics] può effettuare lo stitching tra dispositivi o tra set di dati?**
 
-Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) (CCA). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati.
+Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati.
 
 +++
 
 
 +++**È supportato lo stitching da un comportamento anonimo a un comportamento autenticato?**
 
-Sì. [Cross-Channel Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
+Sì. L’[Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
 
 +++
 
@@ -217,7 +217,7 @@ Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuo
 
 ## 9. Stimare la dimensione della connessione {#estimate-size}
 
-Fai riferimento a [Stimare e gestire l’utilizzo](/help/admin/estimate-usage.md).
+Consulta la sezione [Stimare e gestire l’utilizzo](/help/admin/estimate-usage.md).
 
 ## 10. Superamento del limite di utilizzo {#overage}
 

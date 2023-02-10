@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 45c6e6db751f5a73bb9d44d3a6641c7369d6252f
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 + Customer Journey Analytics e Adobe Analytics {#compare-aa-cja}
    + [Evoluzione da Adobe Analytics ](../getting-started/aa-to-cja.md)
-   + [Guida di per gli utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
+   + [Guida utente di per gli utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Utilizza i dati di Adobe Analytics nel Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Supporto delle funzioni di Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
@@ -48,14 +48,14 @@ ht-degree: 94%
       + [Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
-+ Acquisizione dei dati {#cja-data-ingestion}
-   + [Panoramica sull’acquisizione dei dati](../data-ingestion/data-ingestion.md)
-   + Inserire e utilizzare le guide rapide{#ingest-use-guides}
++ Inserimento dei dati {#cja-data-ingestion}
+   + [Panoramica sull’inserimento di dati](../data-ingestion/data-ingestion.md)
+   + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [Adobe Experience Platform Web SDK e Edge Network](../data-ingestion/aepwebsdk.md)
+      + [SDK Web per Adobe Experience Platform e rete Edge](../data-ingestion/aepwebsdk.md)
       + [Dati batch](../data-ingestion/batch.md)
       + [Dati in streaming](../data-ingestion/streaming.md)
-      + [Connettori sorgente](../data-ingestion/sources.md)
+      + [Connettori di origine](../data-ingestion/sources.md)
 
 + Connessioni {#cja-connections}
    + [Panoramica sulle connessioni](../connections/overview.md)
@@ -63,7 +63,7 @@ ht-degree: 94%
    + [Gestire le connessioni](../connections/manage-connections.md)
    + [Set di dati evento combinati](../connections/combined-dataset.md)
    + [Ricerche standard](../connections/standard-lookups.md)
-   + [Cross-Channel Analytics](../connections/cca.md)
+   + [Analisi cross-channel](../connections/cca.md)
 
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](../data-views/data-views.md)
@@ -94,7 +94,7 @@ ht-degree: 94%
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Elimina cartelle](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
+         + [Eliminare le cartelle](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Aggiungere progetti](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Rimuovere un progetto](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvare un nuovo progetto](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -264,14 +264,14 @@ ht-degree: 94%
    + [Utilizzare i filtri](../report-builder/work-with-filters.md)
    + [Dimensioni filtro](../report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](../report-builder/manage-reportbuilder.md)
-   + [Pianificare cartelle di lavoro](../report-builder/schedule-reportbuilder.md)
+   + [Pianificare le cartelle di lavoro](../report-builder/schedule-reportbuilder.md)
    + [Etichette per limitazioni](../report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](../report-builder/report-builder-settings.md)
 
-+ Cross-Channel Analytics {#cca}
-   + [Panoramica di Cross-Channel Analytics](../cca/overview.md)
++ Analisi cross-channel {#cca}
+   + [Panoramica dell’Analisi cross-channel](../cca/overview.md)
    + [Funzionamento delle riproduzioni](../cca/replay.md)
-   + [Domande frequenti su Cross-Channel Analytics](../cca/faq.md)
+   + [Domande frequenti sull’Analisi cross-channel](../cca/faq.md)
 
 + Integrazioni Adobe {#integrations}
    + [Panoramica sull’integrazione delle soluzioni Adobe con CJA](/help/integrations/overview.md)
@@ -301,7 +301,7 @@ ht-degree: 94%
       + [Aggiungere dati a livello di account come set di dati di ricerca](../use-cases/b2b/b2b.md)
    + Dati cross-channel {#cross-channel}
       + [Analizzare i dati tra canali diversi](../use-cases/cross-channel/cross-channel.md)
-      + [Importare dati web e call center](../use-cases/cross-channel/call-center.md)
+      + [Importare dati Web e call center](../use-cases/cross-channel/call-center.md)
    + Dati Adobe Analytics {#aa-data}
       + [Utilizzare le dimensioni del canale di marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinare suite di rapporti con schemi diversi](../use-cases/aa-data/combine-report-suites.md)
@@ -310,7 +310,7 @@ ht-degree: 94%
 
 + Amministrazione {#cja-admin}
    + [Controllo degli accessi](../admin/cja-access-control.md)
-   + [Visualizza e gestisci l’utilizzo](../admin/estimate-usage.md)
+   + [Visualizzare e gestire l’utilizzo di ](../admin/estimate-usage.md)
    + [Implicazioni dell’eliminazione](../admin/cja-deletion.md)
 
 + Labs {#labs}
