@@ -5,9 +5,9 @@ title: Rimuovere progetti dalle cartelle
 feature: CJA Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
 ## Spostare un progetto {#move-project-in-folder}
 
-È possibile spostare i progetti da una cartella all’altra creata.
+Puoi spostare i progetti da una cartella a un’altra creata.
 
 1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
