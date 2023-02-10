@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 
 >[!NOTE]
 >
->Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Cross-Channel Analytics](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se Cross-Channel Analytics è stato attivato.
+>Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite l’[Analisi cross-channel](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in CJA è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in AA, specialmente se l’Analisi cross-channel è stata attivata.
 
 1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), dai dati non elaborati specifica se alcune righe potrebbero essere state filtrate dal connettore di origine di Analytics.
+1. In [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it), identifica se alcune righe potrebbero essere state filtrate dal connettore di origine di Analytics.
 
-   La [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe filtrare determinate righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà filtrata.
+   Il [Connettore origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) potrebbe filtrare alcune righe durante la trasformazione in schema XDM. Ci possono essere diversi motivi per cui l’intera riga è inadatta alla trasformazione. Se uno dei seguenti campi di Analytics contiene questi valori, l’intera riga verrà filtrata.
 
    | Campo Analytics | Valori che ne causano l’eliminazione di una riga |
    | --- | --- |
@@ -78,9 +78,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=it).
 
-1. Se il connettore ha filtrato le righe, sottrarle dal [!UICONTROL Occurrences] metrica. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
+1. Se il connettore ha filtrato delle righe, sottrarle dalla metrica [!UICONTROL Occurrences]. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 
-## Perché i record possono essere filtrati o saltati durante l’acquisizione da AEP
+## Perché i registri possono essere filtrati o saltati durante l’inserimento da AEP
 
 CJA [Connessioni](/help/connections/create-connection.md) ti consente di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplicazione: join esterno completo o unione su set di dati evento basati su marche temporali, quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
 
@@ -90,4 +90,4 @@ Ecco alcuni dei motivi per cui i record potrebbero essere ignorati durante l’a
 
 * **ID persona mancanti** - Gli ID persona mancanti (dal set di dati degli eventi e/o dal set di dati profilo/ricerca) fanno sì che tali record vengano ignorati o saltati. Il motivo è che non esistono ID comuni o chiavi corrispondenti per unire i record.
 
-* **ID persona non validi o grandi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio &quot;non definito&quot; o &quot;0000000&quot;. Un ID persona (con qualsiasi combinazione di numeri e lettere) visualizzato in un evento più di 1 milione di volte al mese non può essere attribuito a un utente o a una persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.
+* **ID persona non validi o grandi** - Con ID non validi, il sistema non può trovare un ID comune valido tra i set di dati da unire. In alcuni casi, la colonna ID persona presenta ID persona non validi, ad esempio “non definito” o “00000000”. Un ID persona (con qualsiasi combinazione di numeri e lettere) visualizzato in un evento più di 1 milione di volte al mese non può essere attribuito a un utente o a una persona specifica. Verrà classificato come non valido. Tali record non possono essere acquisiti nel sistema e causare l’inserimento e la generazione di rapporti soggetti a errori.
