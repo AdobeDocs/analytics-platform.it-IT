@@ -1,13 +1,14 @@
 ---
-title: Integrare Adobe Analytics con il Customer Journey Analytics
+title: Integrare Adobe Analytics con Customer Journey Analytics
 description: Integrare Adobe Analytics con CJA
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
-workflow-type: tm+mt
+exl-id: 0a9998df-a538-4a84-95a9-98706bd99ac1
+source-git-commit: fecc7355ff0d091f97238433487af8e36d2012f7
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # Integrare Adobe Analytics con CJA
 
-I clienti Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e nel Customer Journey Analytics utilizzando [Connettore sorgente di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Per ulteriori informazioni, consulta [Utilizzo dei dati della suite di rapporti di Adobe Analytics nel Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
+I clienti di Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e in Customer Journey Analytics utilizzando il [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Per ulteriori informazioni, vedi [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
