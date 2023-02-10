@@ -5,15 +5,15 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Utilizzare gli array di oggetti
 
-Alcuni schemi di piattaforma possono avere array di oggetti. CJA supporta l’acquisizione e il reporting di array di oggetti all’interno dei dati di evento, ricerca e profilo. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
+Alcuni schemi di piattaforma possono avere array di oggetti. CJA supporta l’inserimento e la generazione di rapporti di array di oggetti all’interno dei dati evento, ricerca e profilo. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
 Nelle versioni precedenti di Adobe Analytics, questa funzione è stata eseguita utilizzando la variabile `products`. Si trattava di una stringa concatenata in cui i punti e virgola (`;`) separavano i facet di un prodotto, mentre le virgole (`,`) delineavano i prodotti. Era l’unica variabile con supporto limitato di “array di oggetti”. Le variabili multivalore, come le variabili di elenco, erano in grado di supportare l’equivalente degli array, ma non gli “array di oggetti”. CJA amplia questo concetto con il supporto di gerarchie arbitrariamente profonde all’interno di una singola riga di dati, una funzione non disponibile nelle versioni precedenti di Adobe Analytics.
 
@@ -189,7 +189,7 @@ CJA esamina queste parti dell’hit per generare il rapporto:
 
 Poiché l’asciugatrice non includeva una garanzia, non è stata inserita nella tabella.
 
-Poiché puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente mostra come i dati verrebbero generati con elementi dimensionali non specificati:
+Dato che è possibile combinare qualsiasi dimensione con qualsiasi metrica, la tabella seguente illustra i dati che emergerebbero nel caso di elementi di dimensione non specificati:
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -197,7 +197,7 @@ Poiché puoi combinare qualsiasi dimensione con qualsiasi metrica, la tabella se
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto l’elemento dimensione è impostato su &quot;Non specificato&quot;. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
+Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto l’elemento della dimensione è impostato su “Non specificato”. La stessa situazione si applica anche all’ordine di garanzia del prodotto:
 
 ```diff
 {
@@ -241,7 +241,7 @@ Un ordine di prodotto esiste senza un nome di garanzia associato, pertanto l’e
 +}
 ```
 
-Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti all’elemento dimensione &quot;Non specificato&quot;.
+Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordini attribuiti all’elemento della dimensione “Non specificato”.
 
 ### Combinazione di metriche
 
