@@ -1,27 +1,27 @@
 ---
-title: Acquisizione e utilizzo di dati batch
-description: Spiegare come acquisire e utilizzare i dati batch nel Customer Journey Analytics
+title: Inserire e utilizzare dati batch
+description: Spiega come inserire e utilizzare i dati batch in Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
 source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1793'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Acquisizione e utilizzo di dati batch
+# Inserire e utilizzare dati batch
 
-Questa guida rapida spiega come inserire dati batch in Adobe Experience Platform e quindi utilizzarli in Customer Journey Analytics.
+Questa guida introduttiva spiega come inserire dati batch in Adobe Experience Platform e utilizzarli in Customer Journey Analytics.
 
-A questo scopo, devi:
+A questo scopo, è necessario:
 
 - **Configurare uno schema e un set di dati** in Adobe Experience Platform per definire il modello (schema) dei dati da raccogliere e dove raccogliere effettivamente i dati (set di dati).
 
 - **Utilizzare i flussi di lavoro** per caricare facilmente i dati batch nel set di dati configurato in Adobe Experience Platform.
 
-- **Impostare una connessione** in Customer Journey Analytics. Questa connessione deve includere almeno il set di dati Adobe Experience Platform.
+- **Impostare una connessione** in Customer Journey Analytics. Questa connessione deve includere almeno il set di dati di Adobe Experience Platform.
 
 - **Configurare una visualizzazione dati** in Customer Journey Analytics per definire le metriche e le dimensioni da utilizzare in Analysis Workspace.
 
@@ -29,136 +29,136 @@ A questo scopo, devi:
 
 >[!NOTE]
 >
->Questa è una guida semplificata su come inserire dati batch in Adobe Experience Platform e utilizzarli nel Customer Journey Analytics. Si consiglia vivamente di studiare le informazioni aggiuntive quando si fa riferimento a.
+>Questa è una guida semplificata su come inserire dati batch in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 ## Configurare uno schema e un set di dati
 
-Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata per essere riconosciuti e utilizzati dalle funzionalità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
+Per inserire i dati in Adobe Experience Platform, innanzitutto devi definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
 
 Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
 
-Tutti i dati acquisiti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere mantenuti come set di dati.
+Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere memorizzati come set di dati.
 
 ### Configurare uno schema
 
-Per questo avvio rapido desideri raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID fedeltà, punti fedeltà e stato di fidelizzazione.
+Per questa introduzione, immagina di voler raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID di fidelizzazione, punti di fidelizzazione e stato di fidelizzazione.
 A questo scopo, devi innanzitutto definire uno schema che modelli questi dati.
 
-Per impostare lo schema:
+Per configurare lo schema:
 
-1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** entro [!UICONTROL DATA MANAGEMENT].
+1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-2. Seleziona **[!UICONTROL Create schema]**. Seleziona **[!UICONTROL XDM Individual Profile]** dall’elenco delle opzioni.
+2. Seleziona **[!UICONTROL Create schema]** (Crea schema). Seleziona **[!UICONTROL XDM Individual Profile]** (Profilo individuale XDM) dall’elenco delle opzioni.
 
    ![Creare uno schema](./assets/create-schema.png)
 
    >[!INFO]
    >
-   >    Per modellare il profilo viene utilizzato uno schema di profilo individuale _attributes_ (come e-mail, stato fedeltà, punti fedeltà). Viene utilizzato uno schema Evento esperienza per modellare _comportamento_ di un profilo (come visualizzazione pagina, aggiungi al carrello).
+   >    Per modellare gli _attributi_ del profilo (come e-mail, stato di fidelizzazione, punti di fidelizzazione) viene utilizzato uno schema Individual Profile. Per modellare il _comportamento_ di un profilo (come visualizzazione pagina, aggiungi al carrello) viene utilizzato uno schema Experience Event.
 
 
-3. In [!UICONTROL Untitled schema] schermo:
+3. Nella schermata [!UICONTROL Untitled schema] (Schema senza titolo):
 
-   1. Immetti un nome visualizzato per lo schema e (facoltativo) una descrizione.
+   1. Immetti un nome di visualizzazione per lo schema e (facoltativamente) una descrizione.
 
-      ![Denomina lo schema](./assets/name-loyalty-schema.png)
+      ![Assegnare un nome allo schema](./assets/name-loyalty-schema.png)
 
-   2. Seleziona **[!UICONTROL + Add]** in [!UICONTROL Field groups].
+   2. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
 
-      ![Aggiungi gruppo di campi](./assets/add-field-group-button.png)
+      ![Aggiungere un gruppo di campi](./assets/add-field-group-button.png)
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
-   3. In [!UICONTROL Add fields groups] seleziona la finestra di dialogo **[!UICONTROL Loyalty Details]** gruppo di campi dall&#39;elenco.
+   3. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL Loyalty Details]** dall’elenco.
 
-      ![AEP Web SDK ExperienceEvent gruppo di campi](./assets/loyalty-fieldgroup.png)
+      ![AEP Web SDK ExperienceEvent fieldgroup](./assets/loyalty-fieldgroup.png)
 
-      Per visualizzare un’anteprima dei campi che fanno parte del gruppo di campi, seleziona il pulsante Anteprima .
+      Puoi selezionare il pulsante di anteprima per visualizzare un’anteprima dei campi che fanno parte del gruppo di campi.
 
-      ![Anteprima gruppo di campi ExperienceEvent dell&#39;SDK per web AEP](./assets/loyalty-fieldgroup-preview.png)
+      ![Anteprima AEP Web SDK ExperienceEvent fieldgroup](./assets/loyalty-fieldgroup-preview.png)
 
-      Seleziona **[!UICONTROL Back]** per chiudere l&#39;anteprima.
+      Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
-   4. Seleziona **[!UICONTROL Add field groups]**.
+   4. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
 
-4. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel [!UICONTROL Structure] pannello.
+4. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
 
-   ![Esempio di pulsante Aggiungi campo schema](./assets/example-loalty-schema-plus.png)
+   ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-loalty-schema-plus.png)
 
-5. In [!UICONTROL Field Properties] pannello, immetti `Identification` come nome, **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL Profile Core v2]** come [!UICONTROL Field Group].
+5. Nel pannello [!UICONTROL Field Properties] (Proprietà campo), inserisci `Identification` come nome, **[!UICONTROL Identification]** (Identificazione) come [!UICONTROL Display name] (Nome di visualizzazione), seleziona **[!UICONTROL Object]** (Oggetto) come [!UICONTROL Type] (Tipo) e seleziona **[!UICONTROL Profile Core v2]** come [!UICONTROL Field Group] (Gruppo di campo).
 
    ![Oggetto di identificazione](./assets/identifcation-loyalty-field.png)
 
-   Questo aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail dei tuoi dati batch.
+   Aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail dei tuoi dati batch.
 
-   Seleziona **[!UICONTROL Apply]** per aggiungere questo oggetto allo schema.
+   Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
-6. Seleziona la **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto e selezionare **[!UICONTROL Identity]** e **[!UICONTROL Email]** dal [!UICONTROL Identity namespace] in [!UICONTROL Field Properties] pannello.
+6. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
 
-   ![E-mail specifica come identità](./assets/specify-email-loyalty-id.png)
+   ![Specificare l’e-mail come identità](./assets/specify-email-loyalty-id.png)
 
-   Stai specificando l’indirizzo e-mail come identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) profili.
+   Stai specificando l’indirizzo e-mail come identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) i profili.
 
-   Seleziona **[!UICONTROL Apply]**. L’attributo e-mail contiene un’icona relativa all’impronta digitale.
+   Seleziona **[!UICONTROL Apply]** (Applica). Nell’attributo e-mail viene visualizzata l’icona di un’impronta digitale.
 
-   Seleziona **[!UICONTROL Save]**.
+   Seleziona **[!UICONTROL Save]** (Salva).
 
-7. Seleziona il livello principale dello schema (con il nome dello schema), quindi seleziona il **[!UICONTROL Profile]** interruttore.
+7. Seleziona il livello principale dello schema (con il nome dello schema), quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare lo schema per il profilo. Una volta abilitati, quando i dati vengono acquisiti in set di dati basati su questo schema, tali dati vengono uniti nel Profilo del cliente in tempo reale.
+   Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Vedi [Abilitare lo schema per l’utilizzo nel profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) per ulteriori informazioni.
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
    >    Una volta salvato uno schema abilitato per il profilo, non è più possibile disattivarlo per il profilo.
 
-   ![Abilita schema per profilo](./assets/enable-for-profile.png)
+   ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
-8. Seleziona **[!UICONTROL Save]** per salvare lo schema.
+8. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
-Hai creato uno schema minimo che modella i dati fedeltà che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Attivando lo schema per il profilo, assicurati che i dati del file batch vengano aggiunti al Profilo del cliente in tempo reale.
+Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Attivando lo schema per il profilo, garantisci che i dati del tuo file batch vengano aggiunti a Real-Time Customer Profile.
 
-Vedi [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) per ulteriori informazioni sull&#39;aggiunta e la rimozione di gruppi di campi e singoli campi in uno schema.
+Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e singoli campi a uno schema, consulta la sezione [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it).
 
 ### Configurare un set di dati
 
-Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Questo avviene tramite i set di dati.
+Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Puoi farlo tramite i set di dati.
 
-Per impostare il set di dati:
+Per configurare il set di dati:
 
-1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** entro [!UICONTROL DATA MANAGEMENT].
+1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** (Set di dati) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-2. Seleziona **[!UICONTROL Create dataset]**.
+2. Seleziona **[!UICONTROL Create dataset]** (Crea set di dati).
 
    ![Creare un set di dati](./assets/create-dataset.png)
 
-3. Seleziona **[!UICONTROL Create dataset from schema]**.
+3. Seleziona **[!UICONTROL Create dataset from schema]** (Crea set di dati da schema).
 
-   ![Creare un set di dati dallo schema](./assets/create-dataset-from-schema.png)
+   ![Creare un set di dati da uno schema](./assets/create-dataset-from-schema.png)
 
-4. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Next]**.
+4. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Next]** (Avanti).
 
-5. Denomina il set di dati e (facoltativo) fornisci una descrizione.
+5. Assegna un nome al set di dati e (facoltativamente) fornisci una descrizione.
 
-   ![Set di dati nome](./assets/name-your-datatest.png)
+   ![Assegnare un nome al set di dati](./assets/name-your-datatest.png)
 
-6. Seleziona **[!UICONTROL Finish]**.
+6. Seleziona **[!UICONTROL Finish]** (Fine).
 
-7. Seleziona la **[!UICONTROL Profile]** interruttore.
+7. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati acquisiti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
    >[!IMPORTANT]
    >
    >    Puoi abilitare un set di dati per il profilo solo quando lo schema a cui aderisce il set di dati è abilitato anche per il profilo.
 
-   ![Abilita schema per profilo](./assets/loyalty-dataset-profile.png)
+   ![Abilitare lo schema per il profilo](./assets/loyalty-dataset-profile.png)
 
-Vedi [Guida all’interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it) per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare, eliminare un set di dati. E come abilitare un set di dati per il profilo cliente in tempo reale.
+Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare, eliminare un set di dati, consulta la sezione [Guida all’interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it). E come abilitare un set di dati per Real-Time Customer Profile.
 
 
-## Utilizza flussi di lavoro
+## Utilizzare i flussi di lavoro
 
 Utilizza la funzionalità del flusso di lavoro per caricare i dati batch in Adobe Experience Platform. Il file batch di esempio in uso è un file CSV con il seguente contenuto:
 
@@ -174,88 +174,88 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 Per utilizzare i flussi di lavoro:
 
-1. Nell’interfaccia utente di Platform, seleziona **[!UICONTROL Workflows]** nella barra a sinistra.
+1. Nell’interfaccia utente di Platform, seleziona **[!UICONTROL Workflows]** (Flussi di lavoro) nella barra a sinistra.
 
-2. Seleziona **[!UICONTROL Map CSV to XDM schema]**. Seleziona **[!UICONTROL Launch]**.
+2. Seleziona **[!UICONTROL Map CSV to XDM schema]** (Mappa CSV a schema XDM). Seleziona **[!UICONTROL Launch]** (Avvia).
 
-   ![Mappatura di CSV su XDN](./assets/workflow-mapcsvtoxdm.png)
+   ![Mappare CSV a XDN](./assets/workflow-mapcsvtoxdm.png)
 
-3. In [!UICONTROL Map CSV to XDM schema] nella schermata [!UICONTROL Dataflow detail] passo:
+3. In [!UICONTROL Map CSV to XDM schema] (Mappa CSV a schema XDM) nel passaggio [!UICONTROL Dataflow detail] (Dettagli flusso di dati):
 
-   Seleziona **[!UICONTROL Existing dataset]**, seleziona il set di dati dall’elenco dei set di dati e dai un nome al [!UICONTROL Dataflow name].
+   Seleziona **[!UICONTROL Existing dataset]** (Set di dati esistente), seleziona il set di dati dall’elenco dei set di dati e assegna un nome a [!UICONTROL Dataflow name] (Nome del flusso di dati).
 
    ![Flusso di dati](./assets/workflow-dataflowdetail.png)
 
-   Seleziona **[!UICONTROL Next]**.
+   Seleziona **[!UICONTROL Next]** (Avvia).
 
-4. In [!UICONTROL Select data] passo:
+4. Nel passaggio [!UICONTROL Select data] (Seleziona dati):
 
-   Trascina e rilascia o seleziona **[!UICONTROL Choose files]** per selezionare il file CSV con i dati fedeltà. Viene visualizzata un’anteprima dei dati fedeltà.
+   Trascina e rilascia o seleziona **[!UICONTROL Choose files]** (Scegli file) per selezionare il file CSV con i dati di fidelizzazione. Viene visualizzata un’anteprima dei dati di fidelizzazione.
 
-   ![Seleziona dati](./assets/workflow-selectdata.png)
+   ![Selezionare i dati](./assets/workflow-selectdata.png)
 
-   Seleziona **[!UICONTROL Next]**.
+   Seleziona **[!UICONTROL Next]** (Avanti).
 
-5. In [!UICONTROL Mapping] passo:
+5. Nel passaggio [!UICONTROL Mapping] (Mappatura):
 
    Mappa i dati dal file CSV ai dati nello schema. Utilizzando l’intelligenza artificiale, la funzionalità del flusso di lavoro tenta di mappare automaticamente i campi dei dati batch ai campi dello schema.
 
    ![Mappare i dati](./assets/workflow-dataflow-mapping.png)
 
-   È possibile utilizzare **[!UICONTROL Preview data]** per visualizzare un&#39;anteprima dei dati mappati.
+   Puoi utilizzare **[!UICONTROL Preview data]** (Anteprima dati) per visualizzare un’anteprima dei dati mappati.
 
-   ![Mappatura dell&#39;anteprima](./assets/workflow-dataflow-mapping-preview.png)
+   ![Anteprima della mappatura](./assets/workflow-dataflow-mapping-preview.png)
 
-6. Seleziona **[!UICONTROL Finish]** per iniziare ad acquisire i dati batch in Adobe Experience Platform.
+6. Seleziona **[!UICONTROL Finish]** (Fine) per iniziare a inserire i dati batch in Adobe Experience Platform.
 
-Vedi [Mappare un file CSV sopra uno schema XDM esistente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) per ulteriori informazioni su come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM, utilizza i modelli di mappatura, utilizza i campi calcolati per garantire che i dati batch siano conformi alle attese dello schema e altro ancora.
+Consulta [Mappare un file CSV sopra uno schema XDM esistente](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html?lang=it) per ulteriori informazioni su come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM, utilizzare i modelli di mappatura, utilizzare i campi calcolati per garantire che i dati batch siano conformi alle attese dello schema e altro ancora.
 
 
-## Impostare una connessione
+## Configurare una connessione
 
-Per utilizzare i dati Adobe Experience Platform nel Customer Journey Analytics, crea una connessione che include i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
+Per utilizzare i dati di Adobe Experience Platform in Customer Journey Analytics, crea una connessione che include i dati risultanti dalla configurazione dello schema, del set di dati e del flusso di lavoro.
 
-Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti su questi set di dati, è innanzitutto necessario stabilire una connessione tra i set di dati in Adobe Experience Platform e Workspace.
+Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti su questi set di dati, devi prima stabilire una connessione tra i set di dati in Adobe Experience Platform e Workspace.
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente del Customer Journey Analytics, seleziona **[!UICONTROL Connections]** nella navigazione superiore.
+1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Create new connection]**.
+2. Seleziona **[!UICONTROL Create new connection]** (Crea nuova connessione).
 
-3. In [!UICONTROL Untitled connection] schermo:
+3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
 
-   Assegnare un nome e descrivere la connessione in [!UICONTROL Connection Settings].
+   Assegna un nome e una descrizione alla connessione in [!UICONTROL Connection Settings] (Impostazioni della connessione).
 
-   Seleziona la sandbox corretta dal [!UICONTROL Sandbox] elenco in [!UICONTROL Data settings] e seleziona il numero di eventi giornalieri dal [!UICONTROL Average number of daily events] elenco.
+   Seleziona la sandbox corretta dall’elenco [!UICONTROL Sandbox] in [!UICONTROL Data settings] (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco [!UICONTROL Average number of daily events] (Numero medio di eventi giornalieri).
 
-   ![Impostazioni connessione](./assets/cja-connections-1.png)
+   ![Impostazioni della connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datasets]**.
+   Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
 
-   In [!UICONTROL Select datasets] passo [!UICONTROL Add datasets]:
+   Nel passaggio [!UICONTROL Select datasets] (Seleziona set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
 
-   - Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset`) e qualsiasi altro set di dati da includere nella connessione.
+   - Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset` (Set di dati di fidelizzazione di esempio)) e qualsiasi altro set di dati da includere nella connessione.
 
-      ![Aggiungi set di dati](./assets/cja-connections-2.png)
+      ![Aggiungere set di dati](./assets/cja-connections-2.png)
 
-   - Seleziona **[!UICONTROL Next]**.
-   In [!UICONTROL Datasets settings] passo [!UICONTROL Add datasets]:
+   - Seleziona **[!UICONTROL Next]** (Avanti).
+   Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
 
    - Per ogni set di dati:
 
-      - Seleziona una [!UICONTROL Person ID] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+      - Seleziona un [!UICONTROL Person ID] (ID persona) tra le identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dal [!UICONTROL Data source type] elenco. Se si specifica **[!UICONTROL Other]**, quindi aggiungi una descrizione per l’origine dati.
+      - Seleziona l’origine dati corretta dall’elenco [!UICONTROL Data source type] (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
 
-      - Imposta **[!UICONTROL Import all new data]** e **[!UICONTROL Dataset backfill existing data]** secondo le tue preferenze.
+      - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
 
       ![Configurare i set di dati](./assets/cja-connections-3.png)
 
-   - Seleziona **[!UICONTROL Add datasets]**.
-   Seleziona **[!UICONTROL Save]**.
+   - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   Seleziona **[!UICONTROL Save]** (Salva).
 
-Vedi [Panoramica delle connessioni](../connections/overview.md) per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati.
+Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).
 
 ## Configurare una visualizzazione dati
 
@@ -263,65 +263,65 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente del Customer Journey Analytics, seleziona **[!UICONTROL Data views]** nella navigazione superiore.
+1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Create new data view]**.
+2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
-3. In [!UICONTROL Configure] passo:
+3. Nel passaggio [!UICONTROL Configure] (Configura):
 
-   Seleziona la connessione dal [!UICONTROL Connection] elenco.
+   Seleziona la connessione dall’elenco [!UICONTROL Connection] (Connessioni).
 
-   Nome e (facoltativamente) descrizione della connessione.
+   Assegna un nome e (facoltativamente) una descrizione alla connessione.
 
-   ![Configurazione della visualizzazione dati](./assets/cja-dataview-1.png)
+   ![Configurare la visualizzazione dati](./assets/cja-dataview-1.png)
 
-   Seleziona **[!UICONTROL Save and continue]**.
+   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
 
-4. In [!UICONTROL Components] passo:
+4. Nel passaggio [!UICONTROL Components] (Componenti):
 
-   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nel [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS] caselle dei componenti.
+   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nelle caselle dei componenti [!UICONTROL METRICS] (METRICHE) o [!UICONTROL DIMENSIONS] (DIMENSIONI).
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
-   Seleziona **[!UICONTROL Save and continue]**.
+   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
 
-5. In [!UICONTROL Settings] passo:
+5. Nel passaggio [!UICONTROL Settings] (Impostazioni):
 
-   Impostazioni della ![visualizzazione dati](./assets/cja-dataview-3.png)
+   ![Impostazioni della visualizzazione dati](./assets/cja-dataview-3.png)
 
-   Lascia le impostazioni così come sono e seleziona **[!UICONTROL Save and finish]**.
+   Lascia le impostazioni così come sono e seleziona **[!UICONTROL Save and finish]** (Salva e fine).
 
-Vedi [Panoramica delle visualizzazioni dati](../data-views/data-views.md) per ulteriori informazioni su come creare e modificare una visualizzazione dati, quali componenti sono disponibili per la visualizzazione dati e come utilizzare le impostazioni di filtro e sessioni.
+Per ulteriori informazioni su come creare e modificare una visualizzazione dati, quali componenti sono disponibili per la visualizzazione dati e come utilizzare le impostazioni di filtro e sessioni, consulta la sezione [Panoramica delle visualizzazioni dati](../data-views/data-views.md).
 
 
 ## Configurare un progetto
 
-Analysis Workspace è uno strumento browser flessibile che ti consente di creare rapidamente analisi e condividere informazioni basate sui tuoi dati. Puoi utilizzare i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per creare le tue analisi e condividerle con altri utenti della tua organizzazione.
+Analysis Workspace è uno strumento basato su browser flessibile che consente di creare rapidamente le analisi e condividere i dati rilevati sulla base dei tuoi dati. Usa i progetti Workspace per combinare componenti dati, tabelle e visualizzazioni per sviluppare analisi da condividere con altri nella tua organizzazione.
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente del Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nella navigazione superiore.
+1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Projects]** nella navigazione a sinistra.
+2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 
-3. Seleziona **[!UICONTROL Create project]**.
+3. Seleziona **[!UICONTROL Create project]** (Crea progetto).
 
    ![Progetto Workspace](./assets/cja-projects-1.png)
 
-   Seleziona **[!UICONTROL Blank project]**.
+   Seleziona **[!UICONTROL Blank project]** (Progetto vuoto).
 
    ![Workspace - Progetto vuoto](./assets/cja-projects-2.png)
 
 4. Seleziona la visualizzazione dati dall’elenco.
 
-   ![Visualizzazione dati Seleziona area di lavoro](./assets/cja-projects-3.png).
+   ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Inizia a trascinare dimensioni e metriche sul [!UICONTROL Freeform table] in [!UICONTROL Panel] per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una rapida panoramica dei profili che hanno visitato il tuo sito web e che fanno parte del programma fedeltà che raccoglie punti fedeltà.
+5. Inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] (Tabella a forma libera) in [!UICONTROL Panel] (Pannello) per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
-   ![Area di lavoro - Primo rapporto](./assets/cja-projects-5.png)
+   ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 
-Vedi [Panoramica di Analysis Workspace](../analysis-workspace/home.md) per ulteriori informazioni su come creare progetti e generare analisi utilizzando componenti, visualizzazioni e pannelli.
+Per ulteriori informazioni su come creare progetti e generare analisi utilizzando componenti, visualizzazioni e pannelli, consulta la sezione [Panoramica di Analysis Workspace](../analysis-workspace/home.md).
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. Innanzitutto, definendo quali dati fedeltà desideri raccogliere (schema) e dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di lavoro per caricare in batch i dati fedeltà in un set di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati fedeltà acquisiti e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
+>Hai completato tutti i passaggi. Partendo dalla definizione dei dati di fidelizzazione da raccogliere (schema) e di dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di lavoro per caricare in batch i dati di fidelizzazione in un set di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di fidelizzazione inseriti e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
