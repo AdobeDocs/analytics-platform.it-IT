@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
+source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 69%
+source-wordcount: '1365'
+ht-degree: 66%
 
 ---
 
@@ -84,14 +84,13 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Pla
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle eventuali latenze.
 
-![](assets/latency-diagram.png)
-
 | Punto di latenza | Durata della latenza |
 | --- | --- |
 | Acquisizione di dati in Data Lake | Fino a 30 minuti |
 | Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
-| Pubblicazione di tipi di pubblico su Real-time Customer Profile | Meno di 5 minuti (a seconda della dimensione del pubblico) |
+| Pubblico che pubblica su Profilo cliente in tempo reale, inclusa la creazione automatica del segmento in streaming, e permette al segmento di essere pronto per ricevere i dati. | Circa 60 minuti |
 | Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
+| Creazione della destinazione in AEP: Attivazione del nuovo segmento in Adobe Target | Attualmente, questo può richiedere fino a 24 ore, a seconda dell’intervallo di aggiornamento del pubblico e del tipo di valutazione del segmento |
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
