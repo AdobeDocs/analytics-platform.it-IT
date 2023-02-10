@@ -5,9 +5,9 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,17 +47,17 @@ Puoi personalizzare le impostazioni di visualizzazione per una singola visualizz
 
 ### Personalizzare le impostazioni di visualizzazione per una singola visualizzazione
 
-Per accedere [!UICONTROL Visualization Settings] per una visualizzazione individuale:
+Per accedere a [!UICONTROL Visualization Settings] (Impostazioni di visualizzazione) per una singola visualizzazione:
 
-1. In Analysis Workspace, passa il puntatore del mouse sulla visualizzazione di cui desideri personalizzare le impostazioni.
+1. In Analysis Workspace, passa il cursore sulla visualizzazione di cui desideri personalizzare le impostazioni.
 
-1. Fai clic sull’icona a forma di ingranaggio.
+1. Fai clic sull’icona dell’ingranaggio.
 
-   Ogni tipo di visualizzazione dispone di impostazioni univoche che è possibile personalizzare. Per informazioni sulle impostazioni disponibili, consulta [Impostazioni](#settings).
+   Ogni tipo di visualizzazione dispone di impostazioni univoche che puoi personalizzare. Per informazioni sulle impostazioni disponibili, consulta la sezione [Impostazioni](#settings).
 
 ### Personalizzare le impostazioni di visualizzazione per tutte le visualizzazioni create
 
-Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta [Preferenze utente](/help/analysis-workspace/user-preferences.md).
+Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta la sezione [Preferenze utente](/help/analysis-workspace/user-preferences.md).
 
 ## Impostazioni {#settings}
 
@@ -68,7 +68,7 @@ Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per ac
 | Impostazione | Descrizione |
 | --- | --- |
 | Tipo di visualizzazione | Modifica il tipo di elemento visivo utilizzato per rappresentare i dati. |
-| Granularity (Granularità) | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
+| Granularità | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
 | Percentuali | Visualizza i valori in percentuale. |
 | Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![Sovrapposizione 100%](assets/stacked_100_percent.png) |
 | Visualizzazione legenda | Consente di nascondere il testo di dettagli per la visualizzazione Numero di riepilogo/Variazione di riepilogo. |
