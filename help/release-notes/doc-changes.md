@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 84%
+source-wordcount: '1392'
+ht-degree: 82%
 
 ---
 
@@ -63,7 +63,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Luglio 2022 | Documentazione del [pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=it). |
 | Luglio 2022 | Documentazione del reporting per [Prima sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
 | **Giugno 2022** |  |
-| Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=it) |
+| Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) |
 | Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
 | Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
 | Giugno 2022 | Nuovo articolo sul [confronto dell’elaborazione dei dati tra le funzioni di reporting di Adobe Analytics e CJA](/help/getting-started/aa-vs-cja/data-processing-comparisons.md). |
@@ -84,7 +84,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Marzo 2022 | Nuova documentazione sulle [Annotazioni in Workspace](/help/components/annotations/overview.md). |
 | Marzo 2022 | Contenuti con aggiornamenti importanti sulla [stima della dimensione della connessione](/help/getting-started/cja-faq.md). |
 | **Febbraio 2022** |  |
-| Febbraio 2022 | Una nuova guida rivolta agli amministratori che passano da Adobe Analytics a CJA: [Evoluzione da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=it) |
+| Febbraio 2022 | Una nuova guida rivolta agli amministratori che passano da Adobe Analytics a CJA: [Evoluzione da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
 | **Gennaio 2022** |  |
 | Gennaio 2022 | Nuovo caso d’uso per [Utilizzo di dimensioni e metriche di binding in CJA](/help/use-cases/data-views/binding-dimensions-metrics.md) |
 | Gennaio 2022 | È stata aggiunta nuova documentazione su [dimensioni e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) e su [[!UICONTROL First Known] e [!UICONTROL Last Known] impostazioni di allocazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#allocation-settings) |
