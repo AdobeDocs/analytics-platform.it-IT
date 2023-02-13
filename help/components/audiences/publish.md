@@ -2,9 +2,9 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1354'
 ht-degree: 76%
 
 ---
@@ -84,13 +84,17 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Pla
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle eventuali latenze.
 
-| Punto di latenza | Durata della latenza |
-| --- | --- |
-| Acquisizione di dati in Data Lake | Fino a 30 minuti |
-| Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
-| Pubblico che pubblica su Profilo cliente in tempo reale, inclusa la creazione automatica del segmento in streaming, e permette al segmento di essere pronto per ricevere i dati. | Circa 60 minuti |
-| Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
-| Creazione della destinazione in AEP: Attivazione del nuovo segmento | 1-2 ore |
+![](assets/latency-diagram.png)
+
+| # | Punto di latenza | Durata della latenza |
+| --- | --- | --- |
+| 1 | Acquisizione di dati in Data Lake | Fino a 30 minuti |
+| 2 | Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
+| 3 | Pubblico che pubblica su Profilo cliente in tempo reale, inclusa la creazione automatica del segmento in streaming, e permette al segmento di essere pronto per ricevere i dati. | Circa 60 minuti |
+| 4 | Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
+| 5 | Creazione della destinazione in AEP: Attivazione del nuovo segmento | 1-2 ore |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 

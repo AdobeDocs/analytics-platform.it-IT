@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1390'
 ht-degree: 84%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Febbraio 2023** |  |
+| Aggiornamento alla documentazione Audiences | Nuova sezione su [considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Aggiornamento alla documentazione Audiences | Dopo aver creato un pubblico, Adobe crea un Experience Platform [segmento in streaming per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | Calendario di Workspace e intervalli di date | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo della formula e modifiche dell’interfaccia utente del calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date del confronto. Vedi [Mostra intervalli di date di confronto](/help/mobile-app/create-scorecard.md#show-comparison-dates) in CJA. |
@@ -30,7 +31,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Preferenze utente di Workspace | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analysis-workspace/user-preferences.md). |
 | Salvataggio automatico per progetti Workspace | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | Landing page | Nuovi aggiornamenti della pagina di destinazione [pagina di destinazione](/help/getting-started/landing.md). |
-| Pianificare cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
+| Pianificare le cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 | Supporto array di oggetti per i set di dati di profilo e di ricerca | Aggiornato [Uso di array di oggetti](/help/use-cases/object-arrays.md) e [Acquisire tipi di pubblico AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) per riflettere il supporto della matrice di oggetti per i set di dati di profilo e di ricerca. |
 
 ## 2022 {#22}
@@ -44,7 +45,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di CJA](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/keymetric.html?lang=it). |
-| Ottobre 2022 | Nuova sezione sulla [funzionalità data e ora nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
+| Ottobre 2022 | Nuova sezione sulla [funzionalità data e ora nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#date) |
 | Ottobre 2022 | App mobile: nuovo argomento sulle [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#view-detail-slides). |
 | Ottobre 2022 | Aggiornamenti dell’argomento [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
 | **Settembre 2022** |  |
@@ -136,7 +137,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Data | Descrizione aggiornamento |
 | --- | --- |
-| 13 novembre 2020 | Nuovi argomenti su [Cross-Channel Analytics](/help/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
+| 13 novembre 2020 | Nuovi argomenti sull’[Analisi cross-channel](/help/cca/overview.md), che consente di reimpostare l’ID persona di un set di dati e offre la possibilità di combinare direttamente più set di dati. |
 | 13 novembre 2020 | È stato aggiunto un nuovo caso d’uso sull’[importazione di dati da call center e web](/help/use-cases/cross-channel/call-center.md). |
 | 10 novembre 2020 | È stata aggiunta una sezione sulle implicazioni dell’eliminazione dei componenti dati, nelle [Domande frequenti](/help/getting-started/cja-faq.md). |
 | 2 novembre 2020 | È stata aggiornata la pagina [Supporto delle funzioni di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). |
