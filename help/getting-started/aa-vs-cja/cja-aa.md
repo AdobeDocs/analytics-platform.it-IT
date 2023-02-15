@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '1528'
-ht-degree: 100%
+source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
+workflow-type: tm+mt
+source-wordcount: '1518'
+ht-degree: 99%
 
 ---
 
@@ -102,7 +102,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | Feed dati | Il supporto è pianificato tramite destinazioni AEP. |
 | Origini dati ID transazione | Il supporto è pianificato. |
 | Migrazione di progetti/filtri/metriche calcolate da AA a CJA | Il supporto è pianificato. |
-| Origini di dati a livello di riepilogo | Il supporto è pianificato. |
+| Origini dati a livello di riepilogo | Il supporto è pianificato. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -112,7 +112,6 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Activity Map | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
-| Riepilogo origini dati | Il supporto non è ancora pianificato. |
 
 {style=&quot;table-layout:auto&quot;}
 
