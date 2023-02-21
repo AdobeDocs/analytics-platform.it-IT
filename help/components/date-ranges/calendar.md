@@ -4,10 +4,10 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 969040538e12ef3c3d15881ae225af02bef1cba4
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 51%
+source-wordcount: '811'
+ht-degree: 44%
 
 ---
 
@@ -70,3 +70,10 @@ Quando si utilizza un calendario personalizzato basato su una settimana e si agg
 ### Informazioni sui segmenti che utilizzano date continue e intervalli di date relativi al pannello {#segments-relative-dates}
 
 Se crei un segmento o utilizzi un segmento con una data continua, ad esempio gli Ultimi 7 giorni o le Ultime 2 settimane, e fai clic sull’anteprima del segmento, la data continua verrà avviata da *Oggi* anziché la data di inizio del pannello. Di conseguenza, l’anteprima del segmento non corrisponderà quando si utilizza effettivamente il segmento nella tabella. L’anteprima è interessata, non il segmento stesso.
+
+## Linee guida per gli intervalli di date del pannello e le anteprime {#guidelines-panel-dates}
+
+* A partire dalla versione di febbraio, le anteprime dei dati e dei componenti saranno basate sull’intervallo di date del pannello e non sugli ultimi 90 giorni.
+* Tutti i componenti elencati nella barra a sinistra saranno disponibili in base all’intervallo di date del pannello.
+* Tutte le anteprime di date nel segmento e i generatori di metriche calcolate saranno basate sull’intervallo di date del pannello (a meno che non siano accessibili dai gestori dei componenti, che non hanno un pannello associato, saranno comunque basate sugli ultimi 90 giorni).
+* Tutte le anteprime dei dati visualizzeranno dati o componenti in base all’intervallo di date del pannello.
