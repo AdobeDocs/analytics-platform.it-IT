@@ -2,10 +2,10 @@
 title: Panoramica sulla pubblicazione di tipi di pubblico di CJA
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
 * Esportazione del pubblico a terzi tramite una destinazione di Experience Platform.
 * Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi in CJA.
-* Latenza minima dopo la pubblicazione del pubblico (un paio di minuti).
+* Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
 ## Terminologia chiave
