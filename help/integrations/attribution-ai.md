@@ -4,10 +4,10 @@ title: Integrare IA per l’attribuzione con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,15 @@ In un progetto di CJA Workspace, puoi inserire metriche quali “AAI Orders” (
 
 ![Dimensioni IA per l’attribuzione](assets/aai-dims.png)
 
+L’output del punteggio non elaborato in AAI ha uno schema nidificato, in cui il percorso dei campi può essere sufficientemente lungo da occupare la maggior parte degli spazi nelle tabelle o nelle visualizzazioni. Per la concisione, [!UICONTROL Display Name] viene generato automaticamente e sfruttato in CJA seguendo le regole riportate di seguito:
 
+* Tutti i campi hanno un prefisso &quot;AAI&quot;
+* Per i campi dei punti di contatto:
+   * Per i campi che fanno parte del punteggio XDM, vengono visualizzati in CJA come `AAI T {field name}`
+   * Per i campi inclusi come colonna passThrough, verranno visualizzati in CJA come `AAI T PT {field name}`
+* Per i campi di conversione:
+   * Per i campi che fanno parte del punteggio XDM, verranno visualizzati in CJA come `AAI C {field name}`
+   * Per i campi inclusi come colonna passThrough, verranno visualizzati in CJA come `AAI C PT {field name}`
 
 **Ordini con punteggi influenzati e incrementali**
 
