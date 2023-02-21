@@ -4,9 +4,9 @@ title: Integrare IA per l’attribuzione con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
-workflow-type: ht
-source-wordcount: '870'
+source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -74,11 +74,7 @@ In un progetto di CJA Workspace, puoi inserire metriche quali “AAI Orders” (
 
 ![Dimensioni IA per l’attribuzione](assets/aai-dims.png)
 
->[!IMPORTANT]
->
->Queste dimensioni e metriche non vengono denominate in modo nativo in questo modo. Questi sono “nomi descrittivi”. La [convenzione di denominazione in IA per l’attribuzione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=it#attribution-ai-output-data) segue il percorso dello schema. È consigliabile modificare i nomi lunghi dei percorsi di schema di IA per l’attribuzione in nomi brevi e più descrittivi (dimensioni/metriche) in CJA. Puoi farlo in **[!UICONTROL Data views]** > **[!UICONTROL Edit data view]** > scheda **[!UICONTROL Components]** > **[!UICONTROL Schema fields]** -> fai clic su un campo di schema -> **[!UICONTROL Component name]**.
 
-![Modifica dei nomi delle dimensioni](assets/change-name.png)
 
 **Ordini con punteggi influenzati e incrementali**
 
