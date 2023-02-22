@@ -6,9 +6,9 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1742'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -106,17 +106,17 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
-### Mostra o nascondi intervalli di date di confronto {#show-comparison-dates}
+### Mostrare o nascondere intervalli di date di confronto {#show-comparison-dates}
 
-Per includere intervalli di date di confronto, attiva **Includi date di confronto** impostazione.
+Per includere intervalli di date di confronto, attiva l’impostazione **Includi date di confronto**.
 
 ![Includi date di confronto](assets/include-comparison-dates.png)
 
-L&#39;impostazione è *su* per impostazione predefinita. Passa a *off* se non desideri visualizzare le date del confronto.
+L’impostazione è *attiva* per impostazione predefinita. Se non desideri visualizzare le date del confronto, puoi *disattivarla*.
 
-![Impostazione della data di confronto deselezionata](assets/no-comparison-dates.png)
+![Impostazione delle date di confronto deselezionata](assets/no-comparison-dates.png)
 
-## Applicare visualizzazioni {#viz}
+## Applicare le visualizzazioni {#viz}
 
 Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Applica una visualizzazione diversa modificando l’area [!UICONTROL chart type] delle [!UICONTROL Properties] di una sezione. Seleziona la sezione destra e modifica il tipo di grafico.
 
