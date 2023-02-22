@@ -3,9 +3,9 @@ title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit di CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
