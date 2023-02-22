@@ -3,9 +3,9 @@ description: Descrizione della strategia di rilascio continuo delle funzioni per
 title: Supporto delle funzioni di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 source-git-commit: 40f145d20125c41f3399ab0690a673f01c1817e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ I rilasci di Customer Journey Analytics funzionano su un modello di distribuzion
 
 [!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “interruttori”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
-* **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
+* **Test limitati**: un rilascio graduale inizia con il test da parte di utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le loro esigenze e aspettative.
 
-* **Inizio del rollout**: Il rollout di un rilascio graduale inizia con la fase di prova limitata. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
+* **Inizio del rollout**: il rollout di un rilascio graduale inizia con la fase di test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
 
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
