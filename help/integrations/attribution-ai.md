@@ -4,10 +4,11 @@ title: Integrare IA per l’attribuzione con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
+mini-toc-levels: 3
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 87%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 87%
 
 [IA per l’attribuzione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=it), parte di Adobe Experience Platform Intelligent Services, è un servizio di attribuzione algoritmica multicanale che calcola l’influenza e l’impatto incrementale delle interazioni dei clienti rispetto a risultati specifici. Con IA per l’attribuzione, gli esperti di marketing possono misurare e ottimizzare le spese di marketing e pubblicitarie comprendendo l’impatto di ogni singola interazione con i clienti in ogni fase del percorso del cliente.
 
-IA per l’attribuzione si integra con Customer Journey Analytics (CJA) nella misura in cui IA per l’attribuzione esegue modelli rispetto alle origini dati di conversione e ai punti di contatto di marketing dei clienti. CJA importa quindi l’output di tali modelli come set di dati, oppure può essere integrato con il resto dei set di dati di CJA. I set di dati abilitati da IA per l’attribuzione possono quindi essere utilizzati nelle visualizzazioni dati e nei rapporti in CJA.
+IA per l’attribuzione si integra con Customer Journey Analytics (CJA) nella misura in cui IA per l’attribuzione esegue modelli rispetto alle origini dati di conversione e ai punti di contatto di marketing dei clienti. CJA importa quindi l’output di tali modelli come set di dati, oppure può essere integrato con il resto dei set di dati di CJA. I set di dati abilitati per Attribution AI possono quindi essere utilizzati nelle visualizzazioni dati e nel reporting in CJA.
 
 IA per l’attribuzione supporta 3 schemi di Experience Platform: Experience Event, Adobe Analytics e Consumer Experience Event.
 

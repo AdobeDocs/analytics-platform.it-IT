@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,7 @@ Le tabelle seguenti elencano le funzionalità di Adobe Analytics supportate tota
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
 | Analisi contributi | Il supporto è pianificato. |
-| Generazione rapporti su Data Warehouse (esportazione riga al 100%) | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Anche Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) fornisce un’interfaccia per questi casi d’uso in CJA. |
+| Reporting di Data Warehouse | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Anche Adobe Experience Platform [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) fornisce un’interfaccia per questi casi d’uso in CJA. |
 | ID Stitching (Stitching ID) tramite Device Graph (Grafico dispositivo) | Il supporto è pianificato. |
 | Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
