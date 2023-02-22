@@ -1,6 +1,6 @@
 ---
-title: Guida utente di per gli utenti di Adobe Analytics
-description: Aspetti da considerare dal punto di vista di un utente quando l’azienda trasferisce i dati da Adobe Analytics a Customer Journey Analytics
+title: Guida per utenti di Adobe Analytics
+description: Aspetti da considerare dal punto di vista dell’utente quando l’azienda trasferisce i dati da Adobe Analytics a Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Guida utente di per gli utenti di Adobe Analytics
+# Guida per utenti di Adobe Analytics
 
 Se la tua organizzazione inizia a utilizzare Customer Journey Analytics (CJA), noterai alcune somiglianze e differenze tra l’applicazione Analytics tradizionale e CJA. Questa pagina illustra tali differenze per facilitare il passaggio alla nuova implementazione e al nuovo flusso di lavoro di reporting. Inoltre, fornisce alcune risorse aggiuntive sui nuovi concetti e ulteriori passaggi affinché il percorso dell’analista risulti più semplice ed efficace.
 
@@ -77,7 +77,7 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
 * **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il contenitore [!UICONTROL Event] ti consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni/hit pagina.
-* **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. 
+* **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione.
 * **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento di un visitatore entro l’intervallo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate

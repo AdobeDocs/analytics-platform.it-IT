@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
 source-wordcount: '1410'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | --- | --- |
 | **Febbraio 2023** |  |
 | Confronto tra le soluzioni CJA e BI | Nuovo documento su un [confronto](../getting-started/cja-vs-bi.md) di Customer Journey Analytics alle soluzioni BI tipiche. |
-| Aggiornamento alla documentazione Audiences | Nuova sezione su [considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
-| Aggiornamento alla documentazione Audiences | Dopo aver creato un pubblico, Adobe crea un Experience Platform [segmento in streaming per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
-| Calendario di Workspace e intervalli di date | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo della formula e modifiche dell’interfaccia utente del calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/calendar.md#relative-panel-dates). |
-| Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date del confronto. Vedi [Mostra intervalli di date di confronto](/help/mobile-app/create-scorecard.md#show-comparison-dates) in CJA. |
+| Aggiornamento della documentazione di Audiences | Nuova sezione su [considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
+| Aggiornamento della documentazione di Audiences | Dopo aver creato un pubblico, Adobe crea un [segmento in streaming Experience Platform per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#after-audience-created). |
+| Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Vedi [Mostrare intervalli di date di confronto](/help/mobile-app/create-scorecard.md#show-comparison-dates) in CJA. |
 | **Gennaio 2023** |  |
-| Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nel [Filtrare e ordinare tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) articolo. Questo articolo è stato rinominato da &quot;Paginazione, filtro e ordinamento di tabelle&quot;. |
-| Guide rapide per l’acquisizione dei dati | Nuova sezione sulla documentazione su come [Acquisizione e utilizzo dei dati](/help/data-ingestion/data-ingestion.md) in CJA. |
-| Cartelle Workspace | Pagine dedicate per [Gestione cartelle](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nell’articolo [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Questo articolo è stato rinominato da “Paginazione, filtri e ordinamento di tabelle in Workspace”. |
+| Guide rapide per l’acquisizione dei dati | Nuova sezione della documentazione su come [acquisire e utilizzare i dati](/help/data-ingestion/data-ingestion.md) in CJA. |
+| Cartelle Workspace | Pagine dedicate per [Gestione delle cartelle](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferenze utente di Workspace | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analysis-workspace/user-preferences.md). |
 | Salvataggio automatico per progetti Workspace | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analysis-workspace/build-workspace-project/save-projects.md). |
-| Landing page | Nuovi aggiornamenti della pagina di destinazione [pagina di destinazione](/help/getting-started/landing.md). |
-| Pianificare le cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
-| Supporto array di oggetti per i set di dati di profilo e di ricerca | Aggiornato [Uso di array di oggetti](/help/use-cases/object-arrays.md) e [Acquisire tipi di pubblico AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) per riflettere il supporto della matrice di oggetti per i set di dati di profilo e di ricerca. |
+| Pagina di destinazione | Nuovi aggiornamenti sulla [pagina di destinazione](/help/getting-started/landing.md). |
+| Pianificare le cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
+| Supporto di array di oggetti per i set di dati di profilo e ricerca | Aggiornamento di [Utilizzare gli array di oggetti](/help/use-cases/object-arrays.md) e [Acquisire tipi di pubblico AEP](/help/use-cases/data-ingestion/ingest-aep-segments.md) per il supporto di array di oggetti per set di dati di profilo e ricerca. |
 
 ## 2022 {#22}
 

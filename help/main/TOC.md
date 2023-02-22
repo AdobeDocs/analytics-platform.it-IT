@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 97%
 + Introduzione {#cja-overview}
    + [Panoramica di Customer Journey Analytics](../getting-started/cja-overview.md)
    + [Guida rapida](../getting-started/cja-getting-started.md)
-   + [Landing page](../getting-started/landing.md)
+   + [Pagina di destinazione](../getting-started/landing.md)
    + [Domande frequenti](../getting-started/cja-faq.md)
    + [Confronto tra le soluzioni CJA e BI](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics e Adobe Analytics {#compare-aa-cja}
    + [Evoluzione da Adobe Analytics ](../getting-started/aa-to-cja.md)
-   + [Guida utente di per gli utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
+   + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Utilizza i dati di Adobe Analytics nel Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Supporto delle funzioni di Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 + Inserimento dei dati {#cja-data-ingestion}
    + [Panoramica sull’inserimento di dati](../data-ingestion/data-ingestion.md)
-   + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
+   + Inserire e utilizzare le guide introduttive {#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + [SDK Web per Adobe Experience Platform e rete Edge](../data-ingestion/aepwebsdk.md)
       + [Dati batch](../data-ingestion/batch.md)
@@ -311,7 +311,7 @@ ht-degree: 97%
 
 + Amministrazione {#cja-admin}
    + [Controllo degli accessi](../admin/cja-access-control.md)
-   + [Visualizzare e gestire l’utilizzo di ](../admin/estimate-usage.md)
+   + [Visualizzare e gestire l’utilizzo](../admin/estimate-usage.md)
    + [Implicazioni dell’eliminazione](../admin/cja-deletion.md)
 
 + Labs {#labs}

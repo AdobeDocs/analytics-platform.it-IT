@@ -5,7 +5,7 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -74,31 +74,31 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 ## Cosa succede dopo la creazione di un pubblico? {#after-audience-created}
 
-Dopo aver creato un pubblico, Adobe crea un segmento di streaming Experience Platform per ogni nuovo pubblico CJA. Un segmento di streaming AEP verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
+Dopo aver creato un pubblico, Adobe crea un segmento Experience Platform in streaming per ogni nuovo pubblico CJA. Un segmento AEP in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
 
-* Il segmento AEP condivide lo stesso nome/descrizione del pubblico CJA, ma al nome verrà aggiunto l’ID del pubblico di CJA per assicurarne l’univocità.
-* Se il nome/descrizione del pubblico CJA cambia, anche il nome/descrizione del segmento AEP riflette tale modifica.
-* Se un pubblico CJA viene eliminato da un utente, il segmento AEP NON viene eliminato. Il motivo è che in seguito il pubblico di CJA potrebbe essere rimosso.
+* Il segmento AEP condivide lo stesso nome/descrizione del pubblico CJA, ma al nome verrà aggiunto l’ID del pubblico CJA per assicurarsi che sia univoco.
+* Se il nome/descrizione del pubblico CJA viene modificato, anche il nome/descrizione del segmento AEP rispecchia tale modifica.
+* Se un pubblico CJA viene eliminato da un utente, il segmento AEP non sarà eliminato. Questo perché l‘eliminazione del pubblico CJA può essere annullata in un momento successivo.
 
 ## Considerazioni sulla latenza {#latency}
 
-In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle eventuali latenze.
+In diversi intervalli precedenti, durante e dopo la pubblicazione del pubblico, possono verificarsi alcune latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
 ![](assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
-| 1 | Acquisizione di dati in Data Lake | Fino a 30 minuti |
+| 1 | Acquisizione di dati nel Data Lake | Fino a 30 minuti |
 | 2 | Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
-| 3 | Pubblico che pubblica su Profilo cliente in tempo reale, inclusa la creazione automatica del segmento in streaming, e permette al segmento di essere pronto per ricevere i dati. | Circa 60 minuti |
-| 4 | Frequenza di aggiornamento per i tipi di pubblico | <ul><li>Aggiornamento una tantum (latenza inferiore a 5 minuti)</li><li>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
-| 5 | Creazione della destinazione in AEP: Attivazione del nuovo segmento | 1-2 ore |
+| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | Circa 60 minuti |
+| 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
+| 5 | Creazione della destinazione in AEP: attivazione del nuovo segmento | 1-2 ore |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
-CJA prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le invia in streaming al Profilo del cliente in tempo reale (RTCP). CJA invia il pubblico ad Experience Platform con il set di identità principale, in base a ciò che è stato selezionato come [!UICONTROL Person ID] quando la connessione è stata configurata.
+CJA prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette al Profilo cliente in tempo reale (RTCP). CJA invia il pubblico a Experience Platform con l’identità primaria impostata in base a ciò che è stato selezionato come [!UICONTROL Person ID] al momento della configurazione della connessione.
 
 RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, “user@adobe.com” può essere impostato come destinatario su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
@@ -112,7 +112,7 @@ Puoi trascinare i tipi di pubblico di CJA nella definizione del segmento dei seg
 
 Domande frequenti sulla pubblicazione dei tipi di pubblico.
 
-+++**Cosa succede se un utente non è più membro di un pubblico in CJA?**
++++**Cosa succede se un utente non fa più parte di un pubblico in CJA?**
 
 In questo caso, viene inviato un evento di uscita a Experience Platform da CJA.
 
@@ -130,19 +130,19 @@ Sì.
 
 +++
 
-+++**CJA invia i dati del pubblico come eventi della pipeline o un file flat che viene anche trasmesso anche al data lake?**
++++**CJA invia i dati del pubblico come eventi della pipeline o come un file flat che viene anche trasmesso anche al data lake?**
 
-CJA trasferisce i dati in RTCP tramite pipeline, che viene inoltre raccolta in un set di dati di sistema nel data lake.
+CJA trasmette i dati al RTCP tramite pipeline e questi dati vengono anche raccolti in un set di dati di sistema nel data lake.
 
 +++
 
 +++**Quali identità invia CJA?**
 
-Qualsiasi coppia di identità/namespace utilizzata nella [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come &quot;ID persona&quot;.
+Qualsiasi coppia di identità/spazio dei nomi utilizzata nella [configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
 
 +++
 
-+++**Quale ID è scelto come identità principale?**
++++**Quale ID è scelto come identità primaria?**
 
 Vedi sopra. Inviamo una sola identità per “persona” CJA.
 

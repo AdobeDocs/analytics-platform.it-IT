@@ -26,12 +26,12 @@ No, [!UICONTROL Private Device Graph] o [!UICONTROL Device Coop] non sono necess
 
 +++**È necessario [!UICONTROL Experience Cloud ID] (ECID) per [!UICONTROL Customer Journey Analytics]?**
 
-No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia esso [!UICONTROL ECID] o qualsiasi altro ID scelto.
+No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia che si tratti di [!UICONTROL ECID] o di qualsiasi altro ID scelto.
 
 +++
 
 
-+++**In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, cioè Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]?**
++++**In che modo si possono effettuare operazioni di ETL (Extract, Transform, Load, ovvero Estrai, Trasforma, Carica) sui dati prima di inserirli in [!UICONTROL Customer Journey Analytics]?**
 
 Customer Journey Analytics include funzionalità di [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=it) per trasformare i dati prima di inserirli nel data lake di Adobe Experience Platform. Se hai bisogno di ETL dopo che i dati sono già stati acquisiti, [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it#queries) offre alcune opzioni limitate; tieni presente che potrebbe comportare costi aggiuntivi.
 
@@ -40,21 +40,21 @@ Customer Journey Analytics include funzionalità di [Preparazione dati](https://
 
 ## 2. Unione dei dati (Analisi cross-channel) {#stitching}
 
-+++**[!UICONTROL Customer Journey Analytics] può effettuare lo stitching tra dispositivi o tra set di dati?**
++++**[!UICONTROL Customer Journey Analytics] può unire per dispositivi o per set di dati?**
 
 Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati.
 
 +++
 
 
-+++**È supportato lo stitching da un comportamento anonimo a un comportamento autenticato?**
++++**L&#39;unione da un comportamento anonimo a un comportamento autenticato è supportata?**
 
 Sì. L’[Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
 
 +++
 
 
-+++**Come funziona la “riproduzione” in CCA?**
++++**Come funziona la “ripetizione” in CCA?**
 
 CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching)
 
@@ -74,7 +74,7 @@ Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione d
 
 +++
 
-## 3. Inserire dati in [!UICONTROL Customer Journey Analytics] {#ingest}
+## 3. Come inserire dati in [!UICONTROL Customer Journey Analytics] {#ingest}
 
 +++**È possibile combinare i dati di diverse sandbox di [!UICONTROL Adobe Experience Platform] in una connessione [!UICONTROL Customer Journey Analytics]?**
 
@@ -90,7 +90,7 @@ Se l’ID della persona corrisponde nei diversi set di dati, [!UICONTROL Custome
 +++
 
 
-+++**Come posso inserire dati offline in [!UICONTROL Customer Journey Analytics]?**
++++**Come posso acquisire dati offline in [!UICONTROL Customer Journey Analytics]?**
 
 La licenza di Customer Journey Analytics consente di acquisire i dati in Experience Platform. Puoi quindi creare connessioni a tali dati e visualizzazioni di dati in [!UICONTROL Customer Journey Analytics], da utilizzare per la generazione di rapporti in Analysis Workspace. Se necessario, il team di Experience Platform che si occupa dell’onboarding dei dati ti può fornire consigli o consulenza.
 
@@ -111,14 +111,14 @@ Poche ore per iniziare e qualche giorno per recuperare gli ultimi 13 mesi di dat
 +++
 
 
-+++**È necessario inserire dati PII per stabilire connessioni tra i dati?**
++++**È necessario acquisire i dati PII per stabilire connessioni tra i dati?**
 
-No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un dato PII.
+No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è un PII.
 
 +++
 
 
-+++**Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento CJA?**
++++**Quali sono i limiti per l’acquisizione di date/marche temporali passate o future nei set di dati evento di CJA?**
 
 <ul><li>Per quanto riguarda le date/marche temporali passate: dati evento fino a 10 anni.</li><li>Per quanto riguarda le date/marche temporali future: dati evento (predittivi) fino a un mese nel futuro.</li></ul>
 
@@ -190,7 +190,7 @@ Non ancora, ma stiamo mettendo a punto questa funzionalità.
 
 +++**Dove sono ora tutte le impostazioni di persistenza relative alla sessione e alle variabili?**
 
-[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più Data Views (Visualizzazioni dati).
+[!UICONTROL Customer Journey Analytics] applica tutte queste impostazioni al momento di creazione del rapporto ed esse si trovano ora in Data Views (Visualizzazioni dati). Le modifiche a queste impostazioni sono ora retroattive e si possono avere più versioni utilizzando più visualizzazioni dati.
 
 +++
 
@@ -209,7 +209,7 @@ Al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizz
 +++
 
 
-+++**Se sono già un cliente [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics]**
++++**Se sono già un cliente di [!DNL Data Workbench], posso passare subito a [!UICONTROL Customer Journey Analytics]?**
 
 Dipende dal tuo caso d’uso: collabora con il team del tuo account Adobe. I tuoi casi d’uso attuali potrebbero già essere gestiti con Customer Journey Analytics!
 
