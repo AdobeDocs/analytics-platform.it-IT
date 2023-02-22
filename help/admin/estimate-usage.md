@@ -1,37 +1,37 @@
 ---
-title: Visualizza e gestisci l’utilizzo del Customer Journey Analytics
-description: Mostra due metodi per stimare l'utilizzo e un metodo per gestirlo.
+title: Visualizza e gestisci l’utilizzo di Customer Journey Analytics
+description: Mostra due metodi per stimare l’utilizzo e un metodo per la gestione.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
 source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# Visualizza e gestisci l’utilizzo del Customer Journey Analytics
+# Visualizza e gestisci l’utilizzo di Customer Journey Analytics
 
 Per visualizzare l’utilizzo di CJA, puoi utilizzare diversi metodi:
 
-* Aggiungi le righe dei dati dell’evento per ogni connessione. Vedi [Stimare la dimensione della connessione](#stima size) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
+* Aggiungi le righe dei dati dell’evento per ogni connessione. Consulta la sezione [Stimare la dimensione della connessione](#stimare la dimensione) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
 * Puoi visualizzare l’utilizzo in tre modi, descritti più dettagliatamente di seguito:
    * Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso.
-   * Utilizza il Report Builder per creare rapporti sugli eventi del mese scorso.
+   * Utilizza Report Builder per creare rapporti sugli eventi del mese scorso.
    * Utilizza l’API CJA per creare un rapporto automatico.
 
 Per gestire l’utilizzo di CJA:
 
-* Definire una finestra dati continua.
+* Definire una finestra dei dati continua.
 
 ## Stimare la dimensione della connessione {#estimate-size}
 
-Potrebbe essere necessario sapere quante righe di dati evento si dispone attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un resoconto accurato dell’utilizzo dei record di dati evento (righe di dati) per la tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall’organizzazione**.
+Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un resoconto accurato dell’utilizzo dei record di dati evento (righe di dati) per la tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall’organizzazione**.
 
 >[!NOTE]
 >
->Effettua questa operazione il primo venerdì di ogni mese, in quanto Adobe esegue il rapporto sull’utilizzo più recente in quel giorno.
+>Effettua questa operazione il primo venerdì di ogni mese, in quanto Adobe genera il rapporto sull’utilizzo più recente in quel giorno.
 
 1. In [!UICONTROL Customer Journey Analytics], fai clic sulla scheda **[!UICONTROL Connections]**.
 
@@ -39,7 +39,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
 
 1. Fai clic sul nome di ciascuna connessione per accedere alla funzione di gestione delle connessioni.
 
-1. Aggiungi il **[!UICONTROL Records of event data available]** per ogni connessione creata dalla tua organizzazione. (A seconda delle dimensioni della connessione, la visualizzazione di questo valore potrebbe richiedere del tempo.)
+1. Aggiungi il **[!UICONTROL Records of event data available]** (Registro dei dati evento disponibili) per ogni connessione creata dalla tua organizzazione. (A seconda delle dimensioni della connessione, la visualizzazione di questo valore potrebbe richiedere del tempo.)
 
    ![Dati evento](./assets/event-data.png)
 
@@ -58,42 +58,42 @@ Potrebbe essere necessario sapere quante righe di dati evento si dispone attualm
    * [Elimina un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
    * Rivolgiti al tuo Adobe Account Manager per aggiungere alla licenza ulteriore capacità.
 
-## Creare un progetto Workspace utilizzando tutti i dati dell’evento {#workspace-event-data}
+## Creare un progetto Workspace utilizzando tutti i dati evento {#workspace-event-data}
 
-Questo metodo consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia dell’utilizzo.
+Questo metodo consente di eseguire un’analisi più approfondita dei dati di utilizzo e della cronologia di utilizzo.
 
-1. Prima di creare il progetto in Workspace, [creare una visualizzazione dati](/help/data-views/create-dataview.md) per ciascuna connessione, senza applicare alcun filtro.
+1. Prima di creare il progetto in Workspace, [crea una visualizzazione dati](/help/data-views/create-dataview.md) per ciascuna connessione, senza applicare alcun filtro.
 
 >[!WARNING]
 >
->    Non creare una nuova connessione che includa tutti i dati solo per misurare l&#39;utilizzo, in quanto ciò raddoppierebbe l&#39;utilizzo.
+>    Non creare una nuova connessione che includa tutti i dati solo per misurare l’utilizzo, in quanto ciò raddoppierebbe l’utilizzo.
 
-1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati ed esegui il pull-in tutti gli eventi (dal **[!UICONTROL Metrics]** a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
+1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati e richiama tutti gli eventi (dal menu a discesa **[!UICONTROL Metrics]** (Parametri)) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
 
    ![Eventi](./assets/events-usage.png)
 
-   Questo ti darà una buona idea di come il tuo utilizzo è tendenza mese a mese.
+   Da qui puoi avere un’idea dell’andamento del tuo consumo mese per mese.
 
-1. A seconda delle tue esigenze, puoi eseguire il drill-down per set di dati, ecc.
+1. A seconda delle tue esigenze, puoi approfondire i set di dati, ecc.
 
-## Crea un blocco di dati in Report Builder {#arb}
+## Creare un blocco dati in Report Builder {#arb}
 
-Al Report Builder, [creare un blocco dati](/help/report-builder/create-a-data-block.md) per ogni visualizzazione di dati, quindi sommati.
+In Report Builder, [crea un blocco dati](/help/report-builder/create-a-data-block.md) per ogni visualizzazione dati, quindi sommali.
 
 ## Creare un rapporto automatico nell’API CJA {#api-report}
 
-1. Utilizza la [API di reporting per CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati dell&#39;evento, **per ogni connessione**. Imposta questo valore in modo che il rapporto venga eseguito
+1. Utilizza l’[API di reporting per CJA](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per generare un rapporto su tutti i dati dell’evento, **per ogni connessione**. Usa questa configurazione per generare il rapporto
 
    * ogni primo venerdì di ogni mese.
-   * torna al primo giorno del contratto CJA in corso.
+   * tornando al primo giorno del contratto CJA in corso.
 
-   Questo ti darà una buona idea di come il tuo utilizzo è tendenza mese a mese. Ti darà il numero totale di righe su tutte le tue connessioni CJA.
+   Da qui puoi avere un’idea dell’andamento del tuo consumo mese per mese. Avrai il numero totale di righe su tutte le tue connessioni CJA.
 
 1. Usa Excel per personalizzare ulteriormente il rapporto.
 
-## Gestire l&#39;utilizzo definendo una finestra dati continua {#rolling}
+## Gestire l’utilizzo definendo una finestra dati continua {#rolling}
 
-Per gestire il tuo utilizzo, [interfaccia utente connessioni](/help/connections/create-connection.md) ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
+Per gestire il tuo utilizzo, l’[interfaccia utente delle connessioni](/help/connections/create-connection.md) ti consente di definire la conservazione dei dati CJA come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
