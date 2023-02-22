@@ -5,9 +5,9 @@ role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
 source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 Real-Time CDP e CJA attualmente non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
 
-CJA può essere configurato per l’utilizzo di [Cross-Channel Analytics](/help/cca/overview.md), che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra di loro.
+CJA può essere configurato per l’utilizzo di [Analisi cross-channel](/help/cca/overview.md), che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra di loro.
 
 In futuro, CJA sarà in grado di utilizzare il grafo delle identità.
 
@@ -52,4 +52,4 @@ Anche se i set di dati sono gli stessi, Real-Time CDP può conservare solo una f
 
 ## Differenze nella latenza di acquisizione dei dati
 
-CJA non dispone ancora delle funzionalità in tempo reale di Real-time CDP e, di conseguenza, il reporting di CJA include una certa latenza prima che i dati siano disponibili per il reporting o la creazione di un pubblico. Real-Time CDP elabora i dati attraverso diversi sistemi, ciascuno con propri valori di latenza.
+CJA non dispone ancora delle funzionalità in tempo reale di Real-Time CDP; pertanto, il reporting di CJA è soggetto a una certa latenza prima che i dati siano disponibili per la creazione di un rapporto o di un pubblico. Real-Time CDP elabora i dati attraverso diversi sistemi, ciascuno con propri valori di latenza.
