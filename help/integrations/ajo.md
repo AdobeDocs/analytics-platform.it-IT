@@ -2,7 +2,7 @@
 title: Integrare Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Inserire i dati generati da AJO e analizzarli utilizzando Analysis Workspace all’interno di CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 3a4dbe9a87f8e195a4daf78423d29d73f2be0f83
+source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 52%
@@ -64,7 +64,7 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 | Aperture e-mail | il numero di messaggi aperti. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `open` |
 | Errori | Numero di messaggi che hanno generato un errore. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `error` |
 | Messaggi esclusi | Il numero di messaggi esclusi. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `exclude` |
-| Invio | Il numero di messaggi accettati dai provider di posta elettronica. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `sent` |
+| Invio | Il numero di messaggi accettati dai provider di posta elettronica. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `sent` |
 | Lamentele da spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `spam_complaint` |
 | Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: Metrica<br>Includi valori di esclusione: Uguale `unsubscribe` |
 
