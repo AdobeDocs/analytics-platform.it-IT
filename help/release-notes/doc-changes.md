@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
+source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 96%
+source-wordcount: '1434'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,10 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Marzo 2023** |  |
+| Funzionalità supportate | Aggiornato [Supporto delle funzioni del Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) con una tabella delle funzioni disponibile in CJA ma non disponibile o supportata in AA. |
 | **Febbraio 2023** |  |
-| Confronto tra le soluzioni CJA e BI | Nuovo documento su un [confronto](../getting-started/cja-vs-bi.md) di Customer Journey Analytics alle soluzioni BI tipiche. |
+| Confrontare le soluzioni CJA con BI | Nuovo documento su un [confronto](../getting-started/cja-vs-bi.md) di Customer Journey Analytics alle tipiche soluzioni BI. |
 | Aggiornamento della documentazione di Audiences | Nuova sezione su [considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
 | Aggiornamento della documentazione di Audiences | Dopo aver creato un pubblico, Adobe crea un [segmento in streaming Experience Platform per ogni nuovo pubblico CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#after-audience-created). |
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/calendar.md#relative-panel-dates). |
