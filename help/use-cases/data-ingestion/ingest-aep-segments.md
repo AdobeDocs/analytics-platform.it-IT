@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,6 +88,6 @@ Ora puoi creare un rapporto in Workspace basato su `audienceMembershipId`, `audi
 * Segui questo processo su base regolare, per avere dati sul pubblico sempre aggiornati in CJA.
 * Puoi importare più tipi di pubblico in una singola connessione CJA. Il processo sarà un po’ più complesso, ma è possibile. Dovrai apportare alcune modifiche al processo di cui sopra:
    1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
-   1. CJA supporta array/array di oggetti nei set di dati profilo. Utilizzare un [array di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) per audienceMembershipId o audienceMembershipIdName è l’opzione migliore.
+   1. CJA supporta array/array di oggetti nei set di dati profilo. Utilizzare un [array di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) per audienceMembershipId o audienceMembershipIdName è l’opzione migliore.
    1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
    1. A questo punto è possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in CJA Workspace.
