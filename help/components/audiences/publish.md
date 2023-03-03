@@ -4,8 +4,8 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

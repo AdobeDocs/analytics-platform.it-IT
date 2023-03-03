@@ -7,8 +7,8 @@ mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 source-git-commit: 5adf47139a3a083f90007dfab3bc63fd187ddcff
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
 1. (Solo per i clienti Healthcare Shield) Fornisci una password. Consulta la sezione Proteggere un rapporto pianificato tramite password.
 1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
-1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione della consegna.
+1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione di consegna.
 
 ![Invia subito file](assets/send-file-no-scheduling-options.JPG)
 
@@ -47,22 +47,22 @@ Per inviare un file tramite e-mail secondo una pianificazione periodica:
 
 ## Gestione progetti programmati {#manager}
 
-I progetti Analysis Workspace programmati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
+I progetti Analysis Workspace pianificati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
 
 In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
 
 | Campo | Descrizione |
 | --- | --- |
-| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
+| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa la preferita. |
 | [!UICONTROL Schedule ID] | Questo ID viene utilizzato principalmente a scopo di debug. |
 | [!UICONTROL Title and Description] | Titolo e descrizione del progetto. |
-| [!UICONTROL Owner] | Utente che ha creato e proprietario del progetto. |
-| [!UICONTROL Tags] | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
+| [!UICONTROL Owner] | Persona che ha creato e gestisce il progetto. |
+| [!UICONTROL Tags] | (facoltativo) Assegnare tag è un modo efficace per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag dei progetti di tua proprietà o che sono stati condivisi con te. |
 | [!UICONTROL Delivered To] | Destinatari del progetto pianificato. |
-| [!UICONTROL Expiration Date] | La data di scadenza predefinita dipende dalla frequenza della pianificazione. Vedi &quot;Date di scadenza del progetto programmato&quot; di seguito. |
+| [!UICONTROL Expiration Date] | La data di scadenza predefinita dipende dalla frequenza della pianificazione. Consulta &quot;Date di scadenza del progetto programmate&quot;, di seguito. |
 | [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
-| [!UICONTROL Execution Time] | A che ora viene inviato il progetto pianificato. |
-| [!UICONTROL Number of Queries] | Numero di query relative al progetto. |
+| [!UICONTROL Execution Time] | A che ora del giorno viene inviato questo progetto pianificato. |
+| [!UICONTROL Number of Queries] | Numero di query per questo progetto. |
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
@@ -77,20 +77,20 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
 Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
 
-## Date di scadenza per i progetti pianificati {#expiration}
+## Date di scadenza dei progetti programmati {#expiration}
 
-Le date di scadenza dei progetti pianificati dipendono dalla frequenza di consegna pianificata:
+Le date di scadenza per i progetti programmati dipendono dalla frequenza di consegna programmata:
 
 * Le consegne orarie scadono in una settimana.
-* Le consegne giornaliere scadono in un mese.
+* Le consegne giornaliere scadono tra un mese.
 * Le consegne settimanali scadono tra 6 mesi.
-* Le consegne mensili/annuali scadono in un anno.
+* Le consegne mensili/annuali scadono tra un anno.
 
 ## Proteggere un progetto pianificato tramite password {#password}
 
 >[!NOTE]
 >
->L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti CJA che hanno acquistato il componente aggiuntivo [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html).
+>L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti CJA che hanno acquistato il componente aggiuntivo [Healthcare Shield](https://business.adobe.com/it/solutions/experience-cloud-for-healthcare.html).
 
 Adobe utilizza la password per crittografare i progetti pianificati, sia che siano inviati in formato .pdf o .csv.
 

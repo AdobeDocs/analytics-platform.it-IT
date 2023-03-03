@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
    + [Guida rapida](../getting-started/cja-getting-started.md)
    + [Pagina di destinazione](../getting-started/landing.md)
    + [Domande frequenti](../getting-started/cja-faq.md)
-   + [Confronto tra le soluzioni CJA e BI](../getting-started/cja-vs-bi.md)
+   + [Confrontare le soluzioni CJA e BI](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics e Adobe Analytics {#compare-aa-cja}
    + [Evoluzione da Adobe Analytics ](../getting-started/aa-to-cja.md)

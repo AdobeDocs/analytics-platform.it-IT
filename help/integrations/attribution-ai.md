@@ -7,8 +7,8 @@ exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
 source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,15 +75,15 @@ In un progetto di CJA Workspace, puoi inserire metriche quali “AAI Orders” (
 
 ![Dimensioni IA per l’attribuzione](assets/aai-dims.png)
 
-L’output del punteggio non elaborato in AAI ha uno schema nidificato, in cui il percorso dei campi può essere sufficientemente lungo da occupare la maggior parte degli spazi nelle tabelle o nelle visualizzazioni. Per la concisione, [!UICONTROL Display Name] viene generato automaticamente e sfruttato in CJA seguendo le regole riportate di seguito:
+L’output del punteggio non elaborato in AAI ha uno schema nidificato, in cui la lunghezza del percorso dei campi può occupare la maggior parte degli spazi nelle tabelle o nelle visualizzazioni. Per brevità, [!UICONTROL Display Name] viene generato automaticamente e utilizzato in CJA secondo le regole riportate di seguito:
 
-* Tutti i campi hanno un prefisso &quot;AAI&quot;
+* Tutti i campi hanno un prefisso “AAI”
 * Per i campi dei punti di contatto:
-   * Per i campi che fanno parte del punteggio XDM, vengono visualizzati in CJA come `AAI T {field name}`
-   * Per i campi inclusi come colonna passThrough, verranno visualizzati in CJA come `AAI T PT {field name}`
+   * I campi che fanno parte del punteggio XDM vengono visualizzati in CJA come `AAI T {field name}`
+   * I campi inclusi come colonna passThrough vengno visualizzati in CJA come `AAI T PT {field name}`
 * Per i campi di conversione:
-   * Per i campi che fanno parte del punteggio XDM, verranno visualizzati in CJA come `AAI C {field name}`
-   * Per i campi inclusi come colonna passThrough, verranno visualizzati in CJA come `AAI C PT {field name}`
+   * I campi che fanno parte del punteggio XDM vengono visualizzati in CJA come `AAI C {field name}`
+   * I campi inclusi come colonna passThrough vengono visualizzati in CJA come `AAI C PT {field name}`
 
 **Ordini con punteggi influenzati e incrementali**
 
