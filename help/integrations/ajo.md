@@ -2,10 +2,10 @@
 title: Integrare Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Inserire i dati generati da AJO e analizzarli utilizzando Analysis Workspace all’interno di CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
+source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '737'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,14 @@ Adobe Experience Platform funge da origine dati centrale e da collegamento tra J
 ## Creare una connessione in Customer Journey Analytics
 
 Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) in base al set di dati di Journey Optimizer. Selezionare il set di dati inviato a Platform.
+
+| Set di dati | Tipo di set di dati | Impostazioni della connessione | Descrizione |
+| --- | --- | --- | --- |
+| Set di dati evento feedback messaggio AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio &quot;[!UICONTROL Sends]&#39; e &#39;[!UICONTROL Bounces]&quot;. |
+| Set di dati evento esperienza tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come &quot;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, e &#39;[!UICONTROL Unsubscribes]&quot;. |
+| Set di dati evento di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push come &quot;[!UICONTROL App Launches]&quot;. |
+| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
+| Set di dati entità AJO | Registra | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di Percorsi e Campaign a tutti i dati evento AJO. |
 
 ## Configurare la vista dati in modo da adattarla alle dimensioni e alle metriche di Journey Optimizer
 
