@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c6714b375c8e74f12018fe54d80eb411e55e7097
+source-git-commit: d1fec541a41f01bf249cedb5f7e535166174a372
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '345'
+ht-degree: 39%
 
 ---
 
@@ -23,6 +23,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | **Dizionario dati in Analysis Workspace** | Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti (dimensioni, metriche) nel proprio ambiente CJA e di comprenderli meglio. Ulteriori informazioni | 8 marzo 2023 | 22 marzo 2023 |
 | **Storie di dati nei dashboard per dispositivi mobili** | Le storie di dati consentono di aggiungere più visualizzazioni di dettaglio personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza le storie di dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere l’intera storia dietro le metriche chiave. Ulteriori informazioni | N/D | 8 marzo 2023 |
 | **Date di scadenza dei progetti programmati** | È possibile impostare date di scadenza massime per i progetti programmati fino a un anno, indipendentemente dalla frequenza di programmazione. | N/D | 8 marzo 2023 |
+| **Condivisione di collegamenti per progetti (accesso non richiesto) - Solo accesso beta privato** | Ora puoi condividere collegamenti in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso a CJA. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per CJA. Ulteriori informazioni (a seguire)<p>Per partecipare alla versione beta privata, contatta il team del tuo account Adobe. | 15 marzo 2023 (versione beta privata) | Aprile 2023 |
 
 {style="table-layout:auto"}
 
