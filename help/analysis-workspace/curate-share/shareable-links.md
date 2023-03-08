@@ -3,16 +3,16 @@ description: Scopri come creare collegamenti condivisibili a progetti o visualiz
 keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '280'
-ht-degree: 100%
+source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 70%
 
 ---
 
 # Creare collegamenti condivisibili
 
-Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Gli utenti che ricevono un collegamento devono accedere a Customer Journey Analytics prima di poter accedere al progetto.
+Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono che il destinatario acceda ad Adobe Analytics prima di accedere al progetto, altri no.
 
 ## Ottieni collegamento progetto {#project-link}
 
@@ -20,9 +20,17 @@ Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Shar
 
 ![](assets/get-project-link.png)
 
+## Ottieni collegamento pubblico
+
+{{release-limited-testing-section}}
+
+Puoi condividere un collegamento di sola visualizzazione ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
+
+Per ulteriori informazioni, consulta &quot;Condividere un collegamento pubblico con chiunque (accesso non richiesto)&quot; nell’articolo [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+
 ## Ottenere un collegamento a un pannello o a una visualizzazione {#panel-link}
 
-Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
+Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Questo può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
 
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
@@ -35,6 +43,6 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 
 Un suggerimento per sfruttare le varie opzioni di collegamento è includere sempre un sommario nella parte superiore del progetto Workspace. Nel sommario puoi inserire collegamenti ad altri progetti rilevanti, pannelli specifici e visualizzazioni specifiche. In questo modo il destinatario del progetto potrà navigare più facilmente.
 
-[Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=it) sulla creazione di un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
+[Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=it) su come creare un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
 
 ![](assets/toc.png)
