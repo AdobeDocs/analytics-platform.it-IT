@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 5adf47139a3a083f90007dfab3bc63fd187ddcff
+source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '816'
+ht-degree: 82%
 
 ---
 
@@ -59,7 +59,7 @@ In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ri
 | [!UICONTROL Owner] | Persona che ha creato e gestisce il progetto. |
 | [!UICONTROL Tags] | (facoltativo) Assegnare tag è un modo efficace per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag dei progetti di tua proprietà o che sono stati condivisi con te. |
 | [!UICONTROL Delivered To] | Destinatari del progetto pianificato. |
-| [!UICONTROL Expiration Date] | La data di scadenza predefinita dipende dalla frequenza della pianificazione. Consulta &quot;Date di scadenza del progetto programmate&quot;, di seguito. |
+| [!UICONTROL Expiration Date] | Puoi impostare la data di scadenza fino a un anno, indipendentemente dalla frequenza di pianificazione. |
 | [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
 | [!UICONTROL Execution Time] | A che ora del giorno viene inviato questo progetto pianificato. |
 | [!UICONTROL Number of Queries] | Numero di query per questo progetto. |
@@ -76,15 +76,6 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 | **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
 Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
-
-## Date di scadenza dei progetti programmati {#expiration}
-
-Le date di scadenza per i progetti programmati dipendono dalla frequenza di consegna programmata:
-
-* Le consegne orarie scadono in una settimana.
-* Le consegne giornaliere scadono tra un mese.
-* Le consegne settimanali scadono tra 6 mesi.
-* Le consegne mensili/annuali scadono tra un anno.
 
 ## Proteggere un progetto pianificato tramite password {#password}
 
