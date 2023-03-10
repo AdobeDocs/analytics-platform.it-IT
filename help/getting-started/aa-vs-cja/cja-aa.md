@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 538c0d2858983fb508393c92686f3e7cc52578fa
+source-git-commit: 116000f3dd0212896ca96d7e45e4d4cfc5cdd357
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1995'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nelle tabelle seguenti sono elencate le funzioni di Adobe Analytics (AA) supportate, parzialmente o non supportate in Customer Journey Analytics (CJA) e le funzioni di CJA non supportate o disponibili in AA. Con l’incremento delle funzioni aggiunte a CJA, questi elenchi subiranno modifiche nel tempo.
 
-## Funzionalità/componenti completamente supportati
+## Funzionalità/componenti completamente supportati {#full-support}
 
 | Funzionalità di Adobe Analytics | Note sul supporto |
 | --- | --- |
@@ -46,9 +46,9 @@ Nelle tabelle seguenti sono elencate le funzioni di Adobe Analytics (AA) support
 | Conservazione dei componenti VRS | Supporto completo; ora fa parte di Visualizzazioni dati. |
 | Analisi di dati multimediali in streaming | I dati multimediali sono disponibili tramite il Connettore dati di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale utilizzato in Workspace. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Supportato in una nuova modalità
+## Supportato in una nuova modalità {#new-support}
 
 | Funzione | Note |
 | --- | --- |
@@ -71,9 +71,9 @@ Nelle tabelle seguenti sono elencate le funzioni di Adobe Analytics (AA) support
 | Autorizzazioni utente/Controlli per l’accesso ai dati | CJA distingue tra amministratori di prodotto, amministratori dei profili di prodotto e utenti di [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it). Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, filtri o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, filtri o annotazioni. |
 | Regole di elaborazione, regole VISTA, regole di elaborazione dei canali di marketing | Supportate utilizzando la funzionalità Preparazione dati di Adobe Experience Platform per set di dati basati su Web SDK e per i dati provenienti dal Connettore dati di Analytics. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Supporto parziale
+## Supporto parziale {#partial}
 
 | Funzione | Note |
 | --- | --- |
@@ -86,9 +86,9 @@ Nelle tabelle seguenti sono elencate le funzioni di Adobe Analytics (AA) support
 | Regole di elaborazione | Per i set di dati basati sul connettore di origine di Analytics, le regole di elaborazione vengono ancora applicate. [Le funzionalità di preparazione dei dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) possono essere utilizzate anche al posto delle regole di elaborazione per i dati che vanno direttamente in Platform. |
 | A4T | Il supporto parziale viene fornito tramite i campi nel [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). È pianificato il supporto per nomi compatibili con A4T nelle esperienze e nelle attività di Target. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Funzioni al momento non supportate, ma pianificate
+## Funzioni al momento non supportate, ma pianificate {#planned}
 
 | Funzione | Note |
 | --- | --- |
@@ -104,26 +104,25 @@ Nelle tabelle seguenti sono elencate le funzioni di Adobe Analytics (AA) support
 | Migrazione di progetti/filtri/metriche calcolate da AA a CJA | Il supporto è pianificato. |
 | Origini dati a livello di riepilogo | Il supporto è pianificato. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Supporto non ancora pianificato.
+## Supporto non ancora pianificato. {#not-planned}
 
 | Funzione | Note |
 | --- | --- |
 | Activity Map | Il supporto non è ancora pianificato. |
 | Advertising Cloud | Il supporto non è ancora pianificato. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Funzioni che non saranno mai supportate
+## Funzioni che non saranno mai supportate {#never}
 
 * Metrica Persone con Cross-Device Coop
 * Dashboard di Reports &amp; Analytics
 * Segnalibri di Reports &amp; Analytics
 * Target di Reports &amp; Analytics
-* Mobile Services
 
-## Funzioni di CJA non disponibili in Adobe Analytics
+## Funzioni di CJA non disponibili in Adobe Analytics {#cja-not-aa}
 
 Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey Analytics (CJA), ma non supportate in Adobe Analytics (AA).
 
@@ -138,4 +137,4 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | Accesso SQL | Utilizzando l’opzione Data Distiller, CJA può rimuovere le limitazioni dei dati raccolti durante l’elaborazione back-end di Adobe. È possibile modificare i dati con SQL, creare nuovi valori e set di dati specifici per la propria azienda e continuare a esplorare. Analytics non supporta alcun tipo di accesso SQL ai propri dati. |
 | Opzioni di sicurezza e privacy migliorate: preparazione HIPAA | CJA è pronto per HIPAA e offre opzioni di sicurezza aggiuntive per la conformità alle normative. Adobe Analytics non è pronto per HIPAA. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
