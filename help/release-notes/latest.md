@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: f3233f0be1fb455535af4532fe32b5db8560fb62
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 40%
+source-wordcount: '495'
+ht-degree: 31%
 
 ---
 
 # Note sulla versione del Customer Journey Analytics corrente (CJA) (marzo 2023)
 
-**Ultimo aggiornamento**: 8 marzo 2023
+**Ultimo aggiornamento**: 10 marzo 2023
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -24,6 +24,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | **Storie di dati nei dashboard per dispositivi mobili** | Le storie di dati consentono di aggiungere più visualizzazioni di dettaglio personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza le storie di dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere l’intera storia dietro le metriche chiave. [Ulteriori informazioni](/help/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 marzo 2023 |
 | **Date di scadenza dei progetti programmati** | È possibile impostare date di scadenza massime per i progetti programmati fino a un anno, indipendentemente dalla frequenza di programmazione. [Ulteriori informazioni](/help/analysis-workspace/curate-share/t-schedule-report.md) | N/D | 8 marzo 2023 |
 | **Condivisione di collegamenti per progetti (accesso non richiesto) - Solo accesso beta privato** | Ora puoi condividere collegamenti in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso a CJA. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per CJA. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md)<p>Per partecipare alla versione beta privata, contatta il team del tuo account Adobe. | 15 marzo 2023 (versione beta privata) | Aprile 2023 |
+| **Aggiornamenti dell’intervallo di date del pannello** | In Workspace sono stati aggiunti i seguenti miglioramenti:<ul><li>A partire dalla versione di febbraio, gli elementi dimensionali e le anteprime dei dati si basano sull’intervallo di date del pannello e non sugli ultimi 90 giorni. </li><li>Tutti gli elementi dimensionali elencati sono basati su dati all’interno dell’intervallo di date del pannello. Se un elemento dimensione contiene dati non compresi nell’intervallo di date, puoi visualizzare dati aggiuntivi oltre l’intervallo di date nella parte inferiore dell’elenco.</li><li>I Dimension privi di dati possono essere visualizzati nella barra a sinistra. Fai clic sul pulsante Mostra altre opzioni per visualizzare gli elementi dimensionali con dati che non rientrano nell’intervallo di date del pannello.</li><li>Le anteprime dei dati nei generatori di segmenti e metriche calcolate si basano sull’intervallo di date del pannello, a meno che non siano accessibili dai gestori dei componenti, ai quali non è associato un pannello e che si basano ancora sugli ultimi 90 giorni.</li><li>Le anteprime dei dati visualizzano dati o componenti in base all’intervallo di date del pannello.</li></ul> | N/D | 8 febbraio 2023 |
 
 {style="table-layout:auto"}
 
