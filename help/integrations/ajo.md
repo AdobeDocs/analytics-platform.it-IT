@@ -2,9 +2,9 @@
 title: Integrare Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Inserire i dati generati da AJO e analizzarli utilizzando Analysis Workspace all’interno di CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
+source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '728'
 ht-degree: 89%
 
 ---
@@ -35,8 +35,10 @@ Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puo
 
 Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data-views/create-dataview.md) per configurare le dimensioni e le metriche desiderate disponibili in Customer Journey Analytics.
 
->!![NOTE]
-Le discrepanze di dati tra AJO e CJA sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
+>[!NOTE]
+>
+>Le discrepanze di dati tra AJO e CJA sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
+
 
 ### Configurare dimensioni nella visualizzazione dati
 
@@ -58,7 +60,7 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 | Motivo errore di consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Tipo di componente: dimensione |
 | Motivo esclusione della consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Tipo di componente: dimensione |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configurare le metriche nella visualizzazione dati
 
@@ -74,9 +76,9 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 | Messaggi esclusi | Il numero di messaggi esclusi. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `exclude` |
 | Invii | Numero di messaggi accettati da provider e-mail. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `sent` |
 | Segnalazioni di spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `spam_complaint` |
-| Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `unsubscribe` |
+| Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configurare le metriche calcolate in Analysis Workspace
 
@@ -87,4 +89,4 @@ Dopo aver configurato le dimensioni e le metriche desiderate per il set di dati 
 | Messaggi inviati | Numero totale di messaggi inviati. Include i messaggi con successo o non riusciti. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
 | Messaggi consegnati | Numero di e-mail consegnate ai clienti. | `[Sends] - [Bounces After Delivery]` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
