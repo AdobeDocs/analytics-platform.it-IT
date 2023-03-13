@@ -4,10 +4,10 @@ description: Che cosa accade quando si eliminano connessioni, set di dati o batc
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f56d56d65491ab14c5d0e6d3005c0e5e13127c9b
+source-git-commit: 64c165e30926f2571bce5ea2f31560daf50acc46
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 91%
+source-wordcount: '337'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ Prima di eliminare connessioni, set di dati o batch in Customer Journey Analytic
 
 | Azione | Risultato |
 | --- | --- |
-| Eliminare una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
+| Eliminare una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul>Non puoi eliminare le connessioni CJA associate alle sandbox di AEP per le quali non disponi di autorizzazioni. Anche se disponi delle autorizzazioni per le visualizzazioni dati create su tali connessioni, non puoi eliminarle finché non ti vengono concesse le autorizzazioni per le sandbox AEP sottostanti. |
 | Eliminare un set di dati in [!UICONTROL Adobe Experience Platform] (AEP) | L’eliminazione di un set di dati in AEP interrompe il flusso di dati da tale set di dati a qualsiasi connessione che lo include. Eventuali dati provenienti da tale set di dati non vengono eliminati automaticamente dalle connessioni CJA associate. |
 | Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Quando elimini un set di dati da una connessione in CJA, tutte le visualizzazioni dati e i progetti basati su tale set di dati non funzioneranno più. |
 | Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform]) | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch verrà rimosso da tutte le connessioni [!UICONTROL Customer Journey Analytics] che lo contengono. [!UICONTROL Customer Journey Analytics] viene informato dei batch eliminati in [!UICONTROL Adobe Experience Platform]. |
