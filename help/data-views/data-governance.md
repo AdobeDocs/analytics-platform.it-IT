@@ -2,24 +2,28 @@
 title: Etichette e criteri
 description: Scopri in che modo le etichette per dati e i criteri definiti in AEP influiscono sulle visualizzazioni dati e sul reporting in CJA.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 7962114aaab42a283f1cb35a312b0a707038c31a
-workflow-type: ht
+source-git-commit: ba4b1e61891c21610e3bd84a41581b1f6cea6234
+workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 # Etichette e criteri
 
-Quando crei un set di dati in Experience Platform, puoi creare [etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it) per alcuni o tutti gli elementi del set di dati. Finora, queste etichette non erano esposte in CJA. Con questa versione, puoi visualizzare etichette e criteri in CJA.
+Quando crei un set di dati in Experience Platform, puoi creare [etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it) per alcuni o tutti gli elementi del set di dati. Puoi visualizzare queste etichette e criteri in CJA.
 
-Di particolare interesse per CJA sono le seguenti etichette:
+Le seguenti etichette sono di particolare interesse per CJA:
 
-* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per analisi sui siti web o sulle app dell’organizzazione.
+* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per l’analisi sui siti web o sulle app della tua organizzazione.
 
 * L&#39; `C12` etichetta **[!UICONTROL No General Data Export]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da CJA (tramite reporting, esportazione, API, ecc.)
 
-L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzati i criteri. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
+>[!NOTE]
+>
+>Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunte manualmente.
+
+L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
 
 In CJA vengono visualizzati due criteri definiti in Adobe e influiscono sul reporting e sul download/condivisione:
 
@@ -36,11 +40,11 @@ Le etichette dati create in Experience Platform vengono visualizzate in tre posi
 | Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Tutte le [!UICONTROL Data Usage Labels] sono elencate qui:<p>![](assets/data-label-right.png) |
 | Aggiungi etichette dati come colonna | Puoi aggiungere una colonna [!UICONTROL Data Usage Labels] alle colonne dei [!UICONTROL Included Components] nelle visualizzazioni dati. Fai clic sull’icona del selettore colonne e seleziona **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
-Nell’editor delle visualizzazioni dati, fai clic sull’icona Filtro nella barra a sinistra e filtra i componenti delle visualizzazioni dati in base alla **[!UICONTROL Data Governance]** e al tipo di **[!UICONTROL Label]**:
+Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Data Governance]** e tipo di **[!UICONTROL Label]**:
 
 ![](assets/filter-labels.png)
 
@@ -50,7 +54,7 @@ Fai clic su **[!UICONTROL Apply]** per vedere quali componenti dispongono di eti
 
 Puoi verificare se è attivato un criterio che blocca l’utilizzo di alcuni elementi di visualizzazione dati CJA per scopi di analisi o esportazione.
 
-Di nuovo, fai clic sull’icona Filtro nella barra a sinistra e in **[!UICONTROL Data Governance]** fai clic su **[!UICONTROL Policies]**:
+Di nuovo, fai clic su [!UICONTROL filter] nella barra a sinistra e sotto **[!UICONTROL Data Governance]**, fai clic su **[!UICONTROL Policies]**:
 
 ![](assets/filter-policies.png)
 
