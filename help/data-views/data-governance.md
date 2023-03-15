@@ -15,15 +15,15 @@ Quando crei un set di dati in Experience Platform, puoi creare [etichette di uti
 
 Le seguenti etichette sono di particolare interesse per CJA:
 
-* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per l’analisi sui siti web o sulle app della tua organizzazione.
+* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per le analisi sui siti web o sulle app dell’organizzazione.
 
 * L&#39; `C12` etichetta **[!UICONTROL No General Data Export]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da CJA (tramite reporting, esportazione, API, ecc.)
 
 >[!NOTE]
 >
->Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunte manualmente.
+>Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunti manualmente.
 
-L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
+L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Ecco per cosa vengono usate le politiche. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
 
 In CJA vengono visualizzati due criteri definiti in Adobe e influiscono sul reporting e sul download/condivisione:
 
@@ -44,7 +44,7 @@ Le etichette dati create in Experience Platform vengono visualizzate in tre posi
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
-Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Data Governance]** e tipo di **[!UICONTROL Label]**:
+Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella barra a sinistra e filtra i componenti delle visualizzazioni dati per **[!UICONTROL Data Governance]** e il tipo di **[!UICONTROL Label]**:
 
 ![](assets/filter-labels.png)
 
