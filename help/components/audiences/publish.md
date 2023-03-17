@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1370'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Da una tabella a forma libera | Fai clic con il pulsante destro del mouse su un elemento in una tabella a forma libera e seleziona **[!UICONTROL Create an audience from selection]**. Usando questo metodo il filtro viene precompilato con la dimensione o l’elemento della dimensione selezionato nella tabella. |
    | Dall’interfaccia utente di creazione/modifica del filtro | Seleziona la casella che riporta **[!UICONTROL Create an audience from this filter]**. Usando questo metodo il filtro viene precompilato. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Crea il pubblico.
 
@@ -45,7 +45,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con gli operatori `And` o `Or`. |
    | [!UICONTROL View sample IDs] | Un campione di ID in questo pubblico. Utilizza la barra di ricerca per cercare ID di esempio. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Interpreta l’anteprima dei dati.
 
@@ -64,7 +64,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | [!UICONTROL Namespaces included] | Gli spazi dei nomi specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
    | [!UICONTROL Sandbox] | La [sandbox di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) in cui risiede il pubblico. Quando pubblichi questo pubblico in Platform, puoi utilizzarlo solo entro i confini di questa sandbox. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Controlla nuovamente la configurazione del pubblico e fai clic su **[!UICONTROL Publish]**.
 
@@ -82,19 +82,20 @@ Dopo aver creato un pubblico, Adobe crea un segmento Experience Platform in stre
 
 ## Considerazioni sulla latenza {#latency}
 
-In diversi intervalli precedenti, durante e dopo la pubblicazione del pubblico, possono verificarsi alcune latenze. Ecco una panoramica delle latenze che possono verificarsi.
+In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi delle latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![](assets/latency-diagram.png)
+![latenza da AEP a CJA](assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
-| 1 | Acquisizione di dati nel Data Lake | Fino a 30 minuti |
-| 2 | Acquisizione di dati da Experience Platform in CJA | Fino a 60 minuti |
+| Non visualizzato | Connettore sorgente da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
+| 1 | Acquisizione di dati in Data Lake (da Analytics Source Connector o altre sorgenti) | Fino a 90 minuti |
+| 2 | Acquisizione di dati da Experience Platform Data Lake in CJA | Fino a 90 minuti |
 | 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | Circa 60 minuti |
 | 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 | 5 | Creazione della destinazione in AEP: attivazione del nuovo segmento | 1-2 ore |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Utilizzare i tipi di pubblico di CJA in Experience Platform {#audiences-aep}
 
@@ -130,7 +131,7 @@ Sì.
 
 +++
 
-+++**CJA invia i dati del pubblico come eventi della pipeline o come un file flat che viene anche trasmesso anche al data lake?**
++++**CJA invia i dati del pubblico come eventi della pipeline o come file flat che va anche al data lake?**
 
 CJA trasmette i dati al RTCP tramite pipeline e questi dati vengono anche raccolti in un set di dati di sistema nel data lake.
 
@@ -138,7 +139,7 @@ CJA trasmette i dati al RTCP tramite pipeline e questi dati vengono anche raccol
 
 +++**Quali identità invia CJA?**
 
-Qualsiasi coppia di identità/spazio dei nomi utilizzata nella [configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
+Qualsiasi coppia di identità/namespace specificata nella [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
 
 +++
 
