@@ -6,11 +6,11 @@ feature: Release Notes
 source-git-commit: f3233f0be1fb455535af4532fe32b5db8560fb62
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 31%
+ht-degree: 72%
 
 ---
 
-# Note sulla versione del Customer Journey Analytics corrente (CJA) (marzo 2023)
+# Note sulla versione corrente di Customer Journey Analytics (CJA) (marzo 2023)
 
 **Ultimo aggiornamento**: 10 marzo 2023
 
@@ -21,10 +21,10 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **Dizionario dati in Analysis Workspace** | Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti (dimensioni, metriche) nel proprio ambiente CJA e di comprenderli meglio. [Ulteriori informazioni](/help/components/data-dictionary/data-dictionary-overview.md) | 8 marzo 2023 | 22 marzo 2023 |
-| **Storie di dati nei dashboard per dispositivi mobili** | Le storie di dati consentono di aggiungere più visualizzazioni di dettaglio personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza le storie di dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere l’intera storia dietro le metriche chiave. [Ulteriori informazioni](/help/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 marzo 2023 |
+| **Significato dei dati nei dashboard per dispositivi mobili** | Il significato dei dati consente di aggiungere più visualizzazioni dei dettagli personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza il significato dei dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere il significato complessivo dietro le metriche chiave. [Ulteriori informazioni](/help/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 marzo 2023 |
 | **Date di scadenza dei progetti programmati** | È possibile impostare date di scadenza massime per i progetti programmati fino a un anno, indipendentemente dalla frequenza di programmazione. [Ulteriori informazioni](/help/analysis-workspace/curate-share/t-schedule-report.md) | N/D | 8 marzo 2023 |
-| **Condivisione di collegamenti per progetti (accesso non richiesto) - Solo accesso beta privato** | Ora puoi condividere collegamenti in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso a CJA. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per CJA. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md)<p>Per partecipare alla versione beta privata, contatta il team del tuo account Adobe. | 15 marzo 2023 (versione beta privata) | Aprile 2023 |
-| **Aggiornamenti dell’intervallo di date del pannello** | In Workspace sono stati aggiunti i seguenti miglioramenti:<ul><li>A partire dalla versione di febbraio, gli elementi dimensionali e le anteprime dei dati si basano sull’intervallo di date del pannello e non sugli ultimi 90 giorni. </li><li>Tutti gli elementi dimensionali elencati sono basati su dati all’interno dell’intervallo di date del pannello. Se un elemento dimensione contiene dati non compresi nell’intervallo di date, puoi visualizzare dati aggiuntivi oltre l’intervallo di date nella parte inferiore dell’elenco.</li><li>I Dimension privi di dati possono essere visualizzati nella barra a sinistra. Fai clic sul pulsante Mostra altre opzioni per visualizzare gli elementi dimensionali con dati che non rientrano nell’intervallo di date del pannello.</li><li>Le anteprime dei dati nei generatori di segmenti e metriche calcolate si basano sull’intervallo di date del pannello, a meno che non siano accessibili dai gestori dei componenti, ai quali non è associato un pannello e che si basano ancora sugli ultimi 90 giorni.</li><li>Le anteprime dei dati visualizzano dati o componenti in base all’intervallo di date del pannello.</li></ul> | N/D | 8 febbraio 2023 |
+| **Condivisione di collegamenti per progetti (accesso non richiesto) - Solo accesso alle Private Beta** | Ora puoi condividere collegamenti di sola lettura ai progetti Analysis Workspace con persone che non hanno accesso a CJA. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per CJA. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md)<p>Per iscriverti alle Private Beta, contatta il team del tuo account Adobe. | 15 marzo 2023 (Private Beta) | Aprile 2023 |
+| **Aggiornamenti dell’intervallo di date del pannello** | In Workspace sono stati aggiunti i seguenti miglioramenti:<ul><li>A partire dalla versione di febbraio, gli elementi dimensionali e le anteprime dei dati si basano sull’intervallo di date del pannello e non sugli ultimi 90 giorni. </li><li>Tutti gli elementi dimensionali elencati si basano sui dati all’interno dell’intervallo di date del pannello. Se un elemento dimensionale contiene dati al di fuori dell’intervallo di date, puoi visualizzare dati aggiuntivi oltre l’intervallo di date nella parte inferiore dell’elenco.</li><li>I Dimension privi di dati possono essere visualizzati nella barra a sinistra. Fai clic su mostra altre opzioni per visualizzare gli elementi dimensionali con dati al di fuori dell’intervallo date del pannello.</li><li>Le anteprime dei dati nei generatori di segmenti e metriche calcolate si basano sull’intervallo di date del pannello, a meno che non siano accessibili dai gestori dei componenti, che non hanno un pannello associato e sono ancora basate sugli ultimi 90 giorni.</li><li>Le anteprime dei dati visualizzano dati o componenti in base all’intervallo di date del pannello.</li></ul> | N/D | 8 febbraio 2023 |
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ AN-309729; AN-309975; AN-311779; AN-313095
 
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
-| Disponibilità del connettore di origine di Analytics | 15 febbraio 2023 | Il 28 febbraio 2023, il connettore di origine di Analytics è stato reso disponibile nel nuovo data center Adobe Experience Platform in Canada. |
+| Disponibilità del connettore di origine di Analytics | 15 febbraio 2023 | Il 28 febbraio 2023, il connettore di origine di Analytics è stato reso disponibile nel nuovo data center di Adobe Experience Platform in Canada. |
 
 {style="table-layout:auto"}
 
