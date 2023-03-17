@@ -3,16 +3,16 @@ description: Scopri come creare collegamenti condivisibili a progetti o visualiz
 keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 70%
+source-wordcount: '324'
+ht-degree: 69%
 
 ---
 
 # Creare collegamenti condivisibili
 
-Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono che il destinatario acceda ad Adobe Analytics prima di accedere al progetto, altri no.
+Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono al destinatario di accedere ad Adobe Analytics prima di accedere al progetto, mentre altri no.
 
 ## Ottieni collegamento progetto {#project-link}
 
@@ -20,17 +20,17 @@ Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Shar
 
 ![](assets/get-project-link.png)
 
-## Ottieni collegamento pubblico
+## Ottieni un collegamento in sola lettura da condividere con chiunque
 
 {{release-limited-testing-section}}
 
-Puoi condividere un collegamento di sola visualizzazione ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
+Puoi condividere un collegamento in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso al Customer Journey Analytics.
 
-Per ulteriori informazioni, consulta &quot;Condividere un collegamento pubblico con chiunque (accesso non richiesto)&quot; nell’articolo [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+Per ulteriori informazioni, consulta &quot;Condividere un progetto con altri utenti (senza accesso richiesto)&quot; nell’articolo [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Ottenere un collegamento a un pannello o a una visualizzazione {#panel-link}
 
-Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Questo può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
+Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
 
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
