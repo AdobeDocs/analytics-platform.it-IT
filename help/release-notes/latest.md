@@ -3,7 +3,7 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f3233f0be1fb455535af4532fe32b5db8560fb62
+source-git-commit: 53a1dd1537cbd862dafabcbaf8af9e4baa07c529
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 72%
@@ -20,7 +20,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 
 | Funzione | Descrizione | [Inizio del rollout](/help/release-notes/releases.md) | [Disponibilità generale](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **Dizionario dati in Analysis Workspace** | Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti (dimensioni, metriche) nel proprio ambiente CJA e di comprenderli meglio. [Ulteriori informazioni](/help/components/data-dictionary/data-dictionary-overview.md) | 8 marzo 2023 | 22 marzo 2023 |
+| **Dizionario dati in Analysis Workspace** | Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti (dimensioni, metriche) nel proprio ambiente CJA e di comprenderli meglio. [Ulteriori informazioni](/help/components/data-dictionary/data-dictionary-overview.md) | 8 marzo 2023 | 29 marzo 2023 |
 | **Significato dei dati nei dashboard per dispositivi mobili** | Il significato dei dati consente di aggiungere più visualizzazioni dei dettagli personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza il significato dei dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere il significato complessivo dietro le metriche chiave. [Ulteriori informazioni](/help/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 marzo 2023 |
 | **Date di scadenza dei progetti programmati** | È possibile impostare date di scadenza massime per i progetti programmati fino a un anno, indipendentemente dalla frequenza di programmazione. [Ulteriori informazioni](/help/analysis-workspace/curate-share/t-schedule-report.md) | N/D | 8 marzo 2023 |
 | **Condivisione di collegamenti per progetti (accesso non richiesto) - Solo accesso alle Private Beta** | Ora puoi condividere collegamenti di sola lettura ai progetti Analysis Workspace con persone che non hanno accesso a CJA. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per CJA. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md)<p>Per iscriverti alle Private Beta, contatta il team del tuo account Adobe. | 15 marzo 2023 (Private Beta) | Aprile 2023 |
