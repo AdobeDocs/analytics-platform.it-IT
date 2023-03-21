@@ -4,9 +4,9 @@ keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1477'
 ht-degree: 32%
 
 ---
@@ -123,7 +123,7 @@ Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/v
 >* I progetti con più di 14 visualizzazioni espanse non possono essere condivisi con persone che non hanno accesso a CJA.
 
 
-Per condividere un collegamento pubblico a un progetto Analysis Workspace:
+Per condividere un progetto Analysis Workspace con chiunque:
 
 1. Apri il progetto Analysis Workspace da condividere.
 
