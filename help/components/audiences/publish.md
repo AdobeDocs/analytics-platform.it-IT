@@ -2,10 +2,10 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 94%
+source-wordcount: '1437'
+ht-degree: 89%
 
 ---
 
@@ -154,6 +154,19 @@ Vedi sopra. Inviamo una sola identità per “persona” CJA.
 No. Inviamo una sola identità per “persona”, quindi RTCP non avrebbe bordi del grafico da utilizzare.
 
 +++
+
++++**A che ora si verificano aggiornamenti giornalieri, settimanali e mensili? Che giorno della settimana si verificano rinfreschi settimanali?**
+
+La tempistica dell’aggiornamento si basa sul momento in cui è stato pubblicato il pubblico originale ed è ancorato a quell’ora del giorno (e al giorno della settimana o del mese).
+
++++
+
++++**Gli utenti possono configurare l’ora giornaliera, settimanale e mensile dell’aggiornamento?**
+
+No, non possono essere configurati dagli utenti.
+
++++
+
 
 ## Passaggi successivi
 
