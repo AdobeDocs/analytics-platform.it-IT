@@ -4,10 +4,10 @@ keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 32%
+source-wordcount: '1558'
+ht-degree: 31%
 
 ---
 
@@ -121,6 +121,10 @@ Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/v
 >* L’amministratore CJA può disattivare la possibilità di condividere un progetto in questo modo, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). Se non puoi condividere un progetto come descritto in questa sezione, l’amministratore di CJA ha disattivato questa funzionalità.
 >
 >* I progetti con più di 14 visualizzazioni espanse non possono essere condivisi con persone che non hanno accesso a CJA.
+>
+>* Gli utenti con cui condividi possono visualizzare tutti i filtri applicati al progetto durante [cura](curate.md).
+> 
+>* Gli utenti con cui condividi possono modificare l’intervallo di date del progetto. L’intervallo di date impostato per il progetto viene visualizzato per impostazione predefinita.
 
 
 Per condividere un progetto Analysis Workspace con chiunque:
@@ -152,6 +156,8 @@ Per condividere un progetto Analysis Workspace con chiunque:
 1. Condividi il collegamento con le persone a cui desideri accedere al progetto. Ad esempio, puoi incollare il collegamento in un messaggio e-mail.
 
    Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace.
+
+1. (Facoltativo) Puoi fare clic sul pulsante **Genera nuovo collegamento** icona ![Icona Genera collegamento](assets/regenerate-link.png) per rimuovere l’accesso dagli utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti a cui desideri accedere al progetto.
 
 1. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo di condivisione. Le modifiche vengono salvate automaticamente.
 
