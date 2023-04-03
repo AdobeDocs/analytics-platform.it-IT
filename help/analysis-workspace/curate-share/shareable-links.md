@@ -3,10 +3,10 @@ description: Scopri come creare collegamenti condivisibili a progetti o visualiz
 keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 69%
+source-wordcount: '365'
+ht-degree: 53%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 69%
 
 Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono al destinatario di accedere ad Adobe Analytics prima di accedere al progetto, mentre altri no.
 
-## Ottieni collegamento progetto {#project-link}
+## Ottenere un collegamento al progetto da condividere con altri utenti di Workspace {#project-link}
 
-Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
+Per condividere un collegamento a un progetto, accedi al progetto che desideri condividere, quindi seleziona Vai a [!UICONTROL **Condividi**] > [!UICONTROL **Ottieni collegamento progetto**] o **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**). Gli utenti con cui condividi il collegamento devono effettuare l’accesso.
 
-![](assets/get-project-link.png)
+Se al destinatario del collegamento non è stato assegnato un [ruolo del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Can edit]** e non amministratori ricevono **[!UICONTROL Can duplicate]** esperienze.
 
 ## Ottieni un collegamento in sola lettura da condividere con chiunque
 

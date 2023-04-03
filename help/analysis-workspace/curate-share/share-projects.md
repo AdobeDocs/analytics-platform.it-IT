@@ -4,10 +4,10 @@ keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 31%
+source-wordcount: '1572'
+ht-degree: 28%
 
 ---
 
@@ -91,16 +91,15 @@ Quando condividi un collegamento come descritto in questa sezione, considera qua
 
 * I destinatari che utilizzano il collegamento devono accedere al Customer Journey Analytics prima di accedere al progetto.
 
-* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), viene loro assegnato un ruolo per impostazione predefinita. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**.
+* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), viene loro assegnato un ruolo per impostazione predefinita. Gli amministratori ricevono **[!UICONTROL Can edit]** e non amministratori ricevono **[!UICONTROL Can duplicate]**.
 
 Per condividere il collegamento al progetto con gli utenti dell’organizzazione:
 
-1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
-In caso di modifiche non salvate, viene richiesto di salvare prima il progetto.
+1. Salva il progetto. In caso di modifiche non salvate, viene richiesto di salvare il progetto prima di condividere un collegamento.
+
+1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** campo .
 
    ![](assets/share-proj-modal.png)
-
-1. Fai clic su **[!UICONTROL Copy link]** accanto al **[!UICONTROL Share URL field]**.
 
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
 
@@ -190,4 +189,4 @@ Video sull’argomento:
 | Cosa succede se due editor salvano un progetto contemporaneamente? | Le modifiche non vengono unite e viene mantenuta l’ultima versione del progetto salvata. Analysis Workspace non supporta attualmente la collaborazione in tempo reale. |
 | In qualità di amministratore, quale esperienza di progetto visualizzerò? | Gli amministratori inseriti in un ruolo **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** riceveranno tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può elevare il proprio ruolo a **[!UICONTROL Can edit]** in qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**. |
 | Cosa succede se un destinatario viene collocato in un ruolo come singolo utente e in un altro ruolo come membro di un gruppo? | Se un destinatario viene posizionato in più ruoli, riceverà sempre l’esperienza di livello più elevato. Ad esempio, se a un destinatario viene assegnato il ruolo **[!UICONTROL Can edit]** come singolo utente e il ruolo **[!UICONTROL Can view]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Can edit]**. |
-| Quale esperienza riceve un destinatario se apre un collegamento al progetto? | I destinatari ricevono il ruolo in cui li hai inseriti nella modalità di condivisione. Se a un destinatario non viene assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**. |
+| Quale esperienza riceve un destinatario se apre un collegamento al progetto? | I destinatari ricevono il ruolo in cui li hai inseriti nella modalità di condivisione. Se a un destinatario non viene assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** (campo ), verranno inseriti in un ruolo per impostazione predefinita. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**. |
