@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
-workflow-type: ht
-source-wordcount: '1345'
-ht-degree: 100%
+source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 75%
 
 ---
 
@@ -18,17 +18,21 @@ Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confronta
 >
 >A questo punto, i dati di [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) (A4T) introdotti in Adobe Experience Platform tramite il connettore di origine di Analytics **non possono** essere analizzati nel pannello [!UICONTROL Experimentation]. Prevediamo una soluzione a questo limite nel 2023.
 
-## Controllo degli accessi
+## Controllo degli accessi {#access}
 
 Il pannello Sperimentazione è disponibile per l’utilizzo da parte di tutti gli utenti di Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
 
-## Passaggio 1: creare una connessione per i set di dati dell’esperimento
+## Nuove funzioni nelle metriche calcolate {#functions}
+
+Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL Confidence]. Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
+
+## Passaggio 1: creare una connessione per i set di dati dell’esperimento {#connection}
 
 Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=it) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Se i dati dell’esperimento sono inclusi in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare l’impostazione [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due e utilizzarle nel pannello.
 
 Dopo che i dati dell’esperimento sono stati [acquisiti](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [crea una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati per l’esperimento.
 
-## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati
+## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati {#contect-labels}
 
 Nelle impostazioni delle visualizzazioni dati di CJA, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi CJA come il pannello [!UICONTROL Experimentation] possono utilizzare tali etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
@@ -41,7 +45,7 @@ Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dime
 
 Se queste etichette non sono presenti, il pannello Sperimentazione non funziona, in quanto non ci saranno esperimenti su cui lavorare.
 
-## Passaggio 3: configurare il pannello Sperimentazione
+## Passaggio 3: configurare il pannello Sperimentazione {#configure}
 
 1. Nell’area di lavoro di CJA, trascina il pannello Sperimentazione in un progetto.
 
@@ -62,7 +66,7 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
 
 1. Fai clic su **[!UICONTROL Build]**.
 
-## Passaggio 4: visualizzare l’output del pannello
+## Passaggio 4: visualizzare l’output del pannello {#view}
 
 Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni selezionate per il pannello. In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona Modifica a forma di matita, in alto a destra.
 
@@ -80,7 +84,7 @@ Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] ris
 >
 >Al momento questo pannello non supporta l’analisi dei test A/A.
 
-## Passaggio 5: interpretare i risultati
+## Passaggio 5: interpretare i risultati {#interpret}
 
 1. **L’esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, Adobe analizza i dati accumulati nell’esperimento fino a questo punto e dichiarerà un esperimento “Conclusivo” se la soglia di affidabilità valida supera il 95% per *almeno una* delle varianti (applicando una correzione Bonferroni in presenza di più di due bracci, per test con più ipotesi).
 
@@ -96,7 +100,7 @@ Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] ris
 >
 >Una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ad esempio la progettazione di esperimenti, le dimensioni dei campioni, i tassi di conversione, la fiducia, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora “conclusivo”, ci possono essere prove convincenti che una variante sia diversa da un’altra (ad esempio, intervalli di affidabilità quasi non sovrapposti). Idealmente, il processo decisionale dovrebbe essere informato da tutte le prove statistiche, interpretate su uno spettro continuo.
 
-## Metodologia statistica di Adobe
+## Metodologia statistica di Adobe {#statistics}
 
 Per fornire un’inferenza statistica facilmente interpretabile e sicura, Adobe ha adottato una metodologia statistica basata sulle [sequenze di affidabilità valide in qualsiasi momento](https://doi.org/10.48550/arXiv.2103.06476).
 
@@ -104,6 +108,20 @@ Una sequenza di affidabilità è un analogico “sequenziale” di un intervallo
 
 Una sequenza con affidabilità del 95% includerà il valore “true” della metrica di business in 95 dei 100 esperimenti eseguiti. (Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente). Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore di tipo falso positivo, ovvero permettono di “sbirciare” nei risultati.
 
-## Nuove funzioni nelle metriche calcolate
+## Interpretare dimensioni non randomizzate {#non-randomized}
 
-Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL Confidence]. Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
+CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come interpretate un&#39;analisi in cui la dimensione scelta come esperimento non è una dimensione per la quale i visitatori vengono randomizzati?
+
+Ad esempio, considera un annuncio visualizzato da un visitatore. Potresti essere interessato a misurare il cambiamento in alcune metriche (ad esempio, ricavi medi) se decidi di mostrare ai visitatori &quot;ad B&quot; invece di &quot;ad A&quot;. L&#39;effetto causale della visualizzazione dell&#39;annuncio B al posto dell&#39;annuncio A è di importanza fondamentale per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il ricavo medio su tutta la popolazione, se sostituiamo lo status quo di mostrare ad A con la strategia alternativa di mostrare ad B.
+
+Il test A/B è lo standard dell&#39;oro all&#39;interno del settore per misurare oggettivamente gli effetti di tali interventi. Il motivo critico per cui un test A/B dà origine a una stima causale è dovuto alla randomizzazione dei visitatori per ricevere una delle possibili varianti.
+
+Considera ora una dimensione che non viene raggiunta dalla randomizzazione, ad esempio, lo stato statunitense del visitatore. Diciamo che i nostri visitatori provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In una situazione del genere, il tempo può essere il vero fattore causale della vendita di abbigliamento invernale, e non il fatto che gli stati geografici dei visitatori sono diversi.
+
+Il pannello di sperimentazione in Customer Journey Analytics consente di analizzare i dati come differenza media tra i ricavi per stati dei visitatori. In tale situazione, il risultato non ha un&#39;interpretazione causale. Tuttavia, tale analisi può essere ancora di interesse. Fornisce una stima (insieme a misure di incertezza) della differenza tra le entrate medie per stato dei visitatori. Questo è anche noto come &quot;Test di ipotesi statistica&quot;. L’output di questa analisi può essere interessante, ma non necessariamente fruibile, in quanto non abbiamo e talvolta non possiamo randomizzare i visitatori in uno dei possibili valori della dimensione.
+
+L’illustrazione seguente contrasta queste situazioni:
+
+![esperimento randomizzato](assets/randomize.png)
+
+Quando si desidera misurare l&#39;impatto dell&#39;intervento X sul risultato Y, è possibile che la vera causa di entrambi sia il fattore di confondimento C. Se i dati non vengono ottenuti randomizzando i visitatori su X, l&#39;impatto è più difficile da misurare, e l&#39;analisi renderà esplicitamente conto di C. La casuale interrompe la dipendenza di X su C, consentendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
