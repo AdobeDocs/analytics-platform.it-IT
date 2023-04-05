@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '896'
 ht-degree: 96%
 
 ---
@@ -199,7 +199,7 @@ ht-degree: 96%
 
 + Componenti {#cja-components}
    + [Panoramica dei componenti](../components/overview.md)
-   + [Aggiungere descrizioni dei componenti](../components/add-component-descriptions.md)
+   + [Aggiungi descrizioni dei componenti](../components/add-component-descriptions.md)
    + Annotazioni {#annotations}
       + [Panoramica sulle annotazioni](../components/annotations/overview.md)
       + [Creare annotazioni](../components/annotations/create-annotations.md)
@@ -251,10 +251,10 @@ ht-degree: 96%
       + [Creare intervalli di date personalizzati](../components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](../components/date-ranges/time-comparison.md)
    + Dizionario dati {#data-dictionary}
-      + [Panoramica del dizionario dati](../components/data-dictionary/data-dictionary-overview.md)
+      + [Panoramica sul dizionario dati](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualizzare le informazioni sui componenti nel dizionario dati](../components/data-dictionary/view-data-dictionary.md)
-      + [Modificare le voci dei componenti nel dizionario dati](../components/data-dictionary/edit-entries-data-dictionary.md)
-      + [Monitorare l’integrità del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
+      + [Modificare le voci del componente nel dizionario dati](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [Monitorare lo stato del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica dei dashboard di Analytics](../mobile-app/home.md)
    + [Attività del curatore](../mobile-app/curator.md)
@@ -284,6 +284,7 @@ ht-degree: 96%
    + [Panoramica sull’integrazione delle soluzioni Adobe con CJA](/help/integrations/overview.md)
    + [Integrare Adobe Analytics con Customer Journey Analytics](/help/integrations/aa.md)
    + [Integrare i dati Journey Optimizer con CJA](/help/integrations/ajo.md)
+   + [Integrare i dati di gestione delle decisioni con CJA](/help/integrations/ajo-od.md)
    + [Integrare la funzione IA per l’analisi dei clienti con CJA](/help/integrations/customer-ai.md)
 
 + Governance dei dati {#cja-privacy}
