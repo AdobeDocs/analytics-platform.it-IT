@@ -3,23 +3,17 @@ description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
-exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: ht
-source-wordcount: '1258'
-ht-degree: 100%
+exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+workflow-type: tm+mt
+source-wordcount: '1189'
+ht-degree: 94%
 
 ---
 
 # Configurare una visualizzazione di flusso
 
-La visualizzazione Flusso aggiornata ti consente di comprendere il percorso che deriva da o precede un evento di conversione specifico sul tuo sito web o sulla tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
-
-La nuova esperienza di [!UICONTROL flow] migliora il flusso di lavoro in diversi modi:
-
-* Ora puoi scegliere di iniziare o terminare il percorso con la combinazione di una metrica e una dimensione di percorso.
-* Contiene [!UICONTROL Advanced Settings] per personalizzare ulteriormente il [!UICONTROL flow].
-* Il nuovo pulsante “Genera” consente di risparmiare tempo nell’analisi permettendoti di configurare il percorso in una sola volta, quindi di eseguire una query e di creare automaticamente più colonne e nodi contemporaneamente.
+Le visualizzazioni del flusso ti consentono di comprendere il percorso che deriva da o porta a un evento di conversione specifico sul tuo sito web o sulla tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
 ![nuova interfaccia utente di Flusso](assets/new-flow.png)
 
@@ -131,13 +125,14 @@ Home > Prodotti > Aggiungi al carrello > Prodotti > Aggiungi al carrello > Fattu
 * Dimensione del percorso [!UICONTROL Page]
 * Contenitore [!UICONTROL Visit]
 
-Se “Limit to first/last occurrence” (Limita alla prima/ultima occorrenza) è disabilitato, questa singola serie di hit conterà due occorrenze di “Aggiungi al carrello”.
+Se l’opzione &quot;Limita alla prima/ultima occorrenza&quot; è disabilitata, questa singola serie di hit conterebbe 2 occorrenze di &quot;Aggiungi al carrello&quot;.
 Output di flusso previsto:
 “Aggiungi al carrello” (2) —> “Prodotti” (1)
 -> “Fatturazione” (1)
 
-Tuttavia, se “Limit to first/last occurrence” (Limita alla prima/ultima occorrenza) è abilitato, nell’analisi verrà inclusa solo la prima occorrenza di “Aggiungi al carrello”.
-Output di flusso previsto: “Aggiungi al carrello” (1) —> “Prodotti” (1)
+Tuttavia, se è abilitato &quot;Limita alla prima/ultima occorrenza&quot;, nell’analisi verrà inclusa solo la prima occorrenza di &quot;Aggiungi al carrello&quot;.
+Output di flusso previsto: 
+“Aggiungi al carrello” (1) —> “Prodotti” (1)
 
 ### Considera la stessa serie di hit, ma utilizzando le seguenti impostazioni:
 
@@ -146,7 +141,9 @@ Output di flusso previsto: “Aggiungi al carrello” (1) —> “Prodotti” (1
 * Contenitore [!UICONTROL Visit]
 
 Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, questa singola serie di hit conterà due occorrenze di “Aggiungi al carrello”.
-Flusso previsto: “Prodotti” (2) &lt;— “Aggiungi al carrello” (2)
+Flusso di output previsto: 
+“Prodotti” (2) &lt;— “Aggiungi al carrello” (2)
 
 Tuttavia, se **[!UICONTROL Limit to first/last occurrence]** è *abilitato*, nell’analisi verrà inclusa solo l’ultima occorrenza di [!UICONTROL Add to cart].
-Flusso previsto: “Prodotti” (1) &lt;— “Aggiungi al carrello” (1)
+Flusso di output previsto: 
+“Prodotti” (1) &lt;— “Aggiungi al carrello” (1)

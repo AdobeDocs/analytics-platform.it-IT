@@ -3,10 +3,10 @@ title: Cos’è un’analisi per coorte?
 description: Scopri l’analisi per coorte in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 95%
 
 ---
 
@@ -30,10 +30,7 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis]
->
->non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in
->[!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementati solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
