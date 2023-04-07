@@ -4,8 +4,8 @@ description: Scopri come creare un set di dati che collega i dati dei call cente
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Questa tabella a forma libera consente di visualizzare le pagine principali che 
 1. Trascina la dimensione che contiene i nomi delle pagine Web in una visualizzazione tabella a forma libera.
 1. Sostituisci la metrica con la metrica del call center desiderata da misurare.
 1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fai clic su **[!UICONTROL Use non-default attribution model]** (Usa modello di attribuzione non predefinito).
-1. Imposta il valore desiderato per [Attribution model](/help/analysis-workspace/attribution/models.md) (modello di attribuzione) desiderato. Ad esempio, un modello Time decay (Obsolescenza) con emivita di 15 minuti e una finestra di ricerca posticipata della sessione. Questo modello di attribuzione attribuisce il merito alle pagine che precedono la chiamata al call center.
+1. Imposta il valore desiderato per [Attribution model](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) (modello di attribuzione) desiderato. Ad esempio, un modello Time decay (Obsolescenza) con emivita di 15 minuti e una finestra di ricerca posticipata della sessione. Questo modello di attribuzione attribuisce il merito alle pagine che precedono la chiamata al call center.
 
 Il rapporto risultante mostra le pagine principali che inviano le chiamate al call center. <!-- use case behind what we use these pages for -->
 

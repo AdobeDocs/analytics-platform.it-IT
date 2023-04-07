@@ -3,9 +3,9 @@ description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei rel
 title: Limitazioni note in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,3 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
 
-## Attribution IQ
-
-* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution IQ](../attribution/faq.md).

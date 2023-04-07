@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '902'
+ht-degree: 96%
 
 ---
 
@@ -117,11 +117,11 @@ In questo caso, vediamo il lead time di conversione quando è incluso un punto d
 
 ![Lead time](assets/lead-time.png)
 
-## Differenze tra IA per l’attribuzione e Attribution IQ
+## Differenze tra le funzionalità di attribuzione di Attribution AI e CJA
 
-Quando utilizzare i dati di IA per l’attribuzione rispetto a [Attribution IQ](/help/analysis-workspace/attribution/overview.md), funzionalità nativa di CJA? Questa tabella mostra alcune delle differenze a livello di funzionalità:
+Nella tabella seguente sono illustrate alcune delle differenze di funzionalità:
 
-| Funzionalità | IA per l’attribuzione | Attribution IQ |
+| Funzionalità | IA per l’attribuzione | Attribuzione CJA |
 | --- | --- | --- |
 | Attribuzione incrementale | Sì | No |
 | Possibilità di regolare il modello | Sì | Sì |
@@ -131,4 +131,4 @@ Quando utilizzare i dati di IA per l’attribuzione rispetto a [Attribution IQ](
 | Modelli di attribuzione basati su aree geografiche | Sì | Sì |
 | Configurazione dei punti di contatto di marketing nel modello | Sì | No |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

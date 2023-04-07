@@ -3,10 +3,10 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 46873cc66461c40d7f44c8aac91ddc3ccf15ee21
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 98%
 
 ---
 
@@ -54,13 +54,13 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 
 ## Usa modello di attribuzione non predefinito {#attribution}
 
-Analysis Workspace supporta l’[attribuzione](/help/analysis-workspace/attribution/overview.md) per quasi tutte le metriche.
+Consente di ignorare il modello di attribuzione predefinito impostato in [Visualizzazioni dati](/help/data-views/component-settings/attribution.md).
 
 1. Fai clic sull’icona delle impostazioni (a forma di ingranaggio) nella colonna di una tabella a forma libera.
 
    ![Casella di controllo di attribuzione](assets/attribution-checkbox.png)
 
-1. In **[!UICONTROL Data Settings]**, spunta **[!UICONTROL Use non-default attribution model]**. Per ulteriori informazioni sui diversi modelli di attribuzione, consulta [Modelli di attribuzione](/help/analysis-workspace/attribution/models.md).
+2. In **[!UICONTROL Data Settings]**, spunta **[!UICONTROL Use non-default attribution model]**. Per ulteriori informazioni sui diversi modelli di attribuzione, consulta [Modelli di attribuzione](/help/data-views/component-settings/attribution.md).
 
    ![Selezione del modello di attribuzione](assets/attribution-select.png)
 

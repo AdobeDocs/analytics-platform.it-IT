@@ -4,10 +4,10 @@ description: Mostra utili rapporti sui dati Google Analytics in Customer Journey
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Puoi visualizzare quali prodotti causano la maggior parte delle chiamate al call
 
 Nell’esempio, l’applicazione di un breakdown per la dimensione “Motivo chiamata” mostra un elemento dimensione “Prodotto danneggiato”. A questo punto non resta che contattare il reparto di controllo qualità e cercare di capire perché i clienti hanno ricevuto T-shirt danneggiate.
 
-Puoi vedere quali pagine web hanno portato le chiamate al call center. Questo rapporto consente di capire quali aree del sito web offrono esperienze non ottimali, affinché i Product Manager possano occuparsi di migliorarle. L’esempio seguente utilizza una metrica calcolata per filtrare i dati in base alle sole sessioni terminate con una chiamata al call center. Utilizza anche il modello di “partecipazione” nel modello [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=it#cja-workspace) di CJA.
+Puoi vedere quali pagine web hanno portato le chiamate al call center. Questo rapporto consente di capire quali aree del sito web offrono esperienze non ottimali, affinché i Product Manager possano occuparsi di migliorarle. Nell’esempio seguente viene utilizzata una metrica calcolata con un modello di attribuzione di partecipazione per filtrare i dati in base alle sole sessioni terminate con una chiamata al call center.
 
 L’esempio seguente mostra che le pagine “Carrello acquisti” e “Informazioni di pagamento” generano la maggior parte delle chiamate.
 
