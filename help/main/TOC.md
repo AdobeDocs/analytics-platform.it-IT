@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '878'
+ht-degree: 99%
 
 ---
 
@@ -192,7 +192,7 @@ ht-degree: 96%
 
 + Componenti {#cja-components}
    + [Panoramica dei componenti](../components/overview.md)
-   + [Aggiungi descrizioni dei componenti](../components/add-component-descriptions.md)
+   + [Aggiungere descrizioni dei componenti](../components/add-component-descriptions.md)
    + Annotazioni {#annotations}
       + [Panoramica sulle annotazioni](../components/annotations/overview.md)
       + [Creare annotazioni](../components/annotations/create-annotations.md)
@@ -214,7 +214,6 @@ ht-degree: 96%
       + [Creare un filtro](../components/filters/create-filters.md)
       + [Gestire i filtri](../components/filters/manage-filters.md)
       + [Filtri rapidi](../components/filters/quick-filters.md)
-      + [Filtri ad hoc](../components/filters/ad-hoc-filters.md)
       + [Operatori](../components/filters/operators.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica delle metriche calcolate](../components/calc-metrics/calc-metr-overview.md)
@@ -244,10 +243,10 @@ ht-degree: 96%
       + [Creare intervalli di date personalizzati](../components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](../components/date-ranges/time-comparison.md)
    + Dizionario dati {#data-dictionary}
-      + [Panoramica sul dizionario dati](../components/data-dictionary/data-dictionary-overview.md)
+      + [Panoramica del dizionario dati](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualizzare le informazioni sui componenti nel dizionario dati](../components/data-dictionary/view-data-dictionary.md)
-      + [Modificare le voci del componente nel dizionario dati](../components/data-dictionary/edit-entries-data-dictionary.md)
-      + [Monitorare lo stato del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
+      + [Modificare le voci dei componenti nel dizionario dati](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [Monitorare l’integrità del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica dei dashboard di Analytics](../mobile-app/home.md)
    + [Attività del curatore](../mobile-app/curator.md)

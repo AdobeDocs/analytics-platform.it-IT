@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
+source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
 workflow-type: tm+mt
-source-wordcount: '1589'
-ht-degree: 97%
+source-wordcount: '1622'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | --- | --- |
 | **Aprile 2023** |  |
 | Aggiornamento della documentazione del pannello Sperimentazione | È stata aggiunta una sezione su [interpretazione di dimensioni non randomizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| Filtri di progetto (filtri rapidi e ad hoc) | Documentazione semplificata sui filtri dei progetti e sulle informazioni duplicate rimosse. I passaggi per la creazione di filtri ad hoc sono ora combinati con i passaggi per [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |
 | **Marzo 2023** |  |
 | Integrare i dati di gestione delle decisioni | È stato aggiunto del contenuto che spiega come [integrare i dati di gestione delle decisioni Adobe Journey Optimizer in CJA](/help/integrations/ajo-od.md). |
 | Presentare i dati nelle scorecard per dispositivi mobili | Una [presentazione di dati](/help/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |

@@ -3,10 +3,10 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,9 @@ Per iniziare a filtrare il pannello, trascina un filtro dalla barra a sinistra f
 
 Puoi anche trascinare componenti diversi da filtri direttamente nella zona di rilascio, per creare filtri ad hoc in modo più rapido e senza dover passare al Generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona Modifica a forma di matita per accedere al Generatore di filtri.
 
-I filtri ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra, a meno che non li rendi pubblici.
+I filtri ad hoc sono un tipo di filtro rapido e sono locali per il progetto. Non appaiono nella barra a sinistra a meno che tu non li renda pubblici.
+
+Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
 
 ![](assets/adhoc-segment-filter.png)
 

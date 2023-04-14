@@ -2,10 +2,10 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
-workflow-type: ht
-source-wordcount: '1111'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
@@ -29,8 +29,7 @@ In Workspace e nel Generatore di filtri puoi creare diversi tipi di filtri, a se
 | Tipo di filtro | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
 | Filtro elenco componenti | Fai clic su +, per passare al [Generatore di filtri](/help/components/filters/create-filters.md) | Tutti i progetti Workspace | Filtri sequenziali, per filtri più complessi |
-| Filtro rapido | [Generatore di filtri rapidi](/help/components/filters/quick-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Flessibilità per aggiungere o modificare una o più regole |
-| Filtro ad hoc per un progetto | [Trascinare nella zona di rilascio segmenti di un progetto](/help/components/filters/ad-hoc-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei filtri. | Filtri per regola singola |
+| Filtro rapido | [Generatore di filtri rapidi](/help/components/filters/quick-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per i filtri a regola singola ad hoc (con trascinamento della selezione) o per aggiungere/modificare più regole (facendo clic sull’icona Filtro ) |
 | Applicare i filtri nell’analisi dell’abbandono | [Visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Per singole visualizzazioni di abbandono | Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri. |
 | Filtro basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare filtri nella definizione della metrica |
 
