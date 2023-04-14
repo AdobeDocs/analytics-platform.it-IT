@@ -4,9 +4,9 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -94,7 +94,7 @@ Per creare un filtro rapido:
 * Disponibilità in tutti i progetti Workspace
 * Supporta filtri più complessi e filtri sequenziali
 
-È possibile salvare i filtri sia dal Generatore di filtri rapidi sia dal [!UICONTROL Filter Builder].
+Puoi salvare i filtri sia dal generatore di filtri rapidi sia dal [!UICONTROL Filter Builder].
 
 ### Salva nel generatore di filtri rapidi {#save2}
 
@@ -119,12 +119,17 @@ Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei co
 
 1. Passa il puntatore del mouse sul filtro salvato e seleziona l’icona a forma di matita .
 
+1. Seleziona [!UICONTROL **Open builder**].
+
 1. Nella parte superiore del Generatore di filtri, notare questa finestra di dialogo:
 
-   ![Finestra di dialogo Filtro](assets/project-only.png)
+   ![Finestra di dialogo Filtro](assets/project-only-filter-dialog.png)
 
-1. Seleziona la casella di controllo accanto a **[!UICONTROL Make available to all your projects and add to your component list.]**
-1. Seleziona **[!UICONTROL Save]** (Crea schema). Il filtro viene ora visualizzato nell’elenco dei componenti filtro per tutti i progetti.
+1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this filtr available to all your projects and add it to your component list.]**
+
+1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
+
+   Il filtro viene ora visualizzato nell’elenco dei componenti filtro per tutti i progetti.
 È inoltre possibile [condividere il filtro](/help/components/filters/manage-filters.md) con altre persone della tua organizzazione.
 
 ## Esempio di filtro rapido
