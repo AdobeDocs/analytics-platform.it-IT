@@ -3,15 +3,19 @@ title: Creare annotazioni
 description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Components
-exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
+source-git-commit: 2569ee4e958f2d647b62cbce72ebb2b7b98096ab
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
 
 # Creare annotazioni
+
+Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Gli utenti possono visualizzarle come avviene con altri componenti di Analytics (segmenti, metriche calcolate ecc.).
+
+Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!UICONTROL Annotation Creation] (Analytics Tools) tramite [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
 
 1. Per creare le annotazioni, è possibile iniziare in diversi modi:
 
@@ -39,6 +43,6 @@ ht-degree: 100%
    | [!UICONTROL Apply to all report suites] | Per impostazione predefinita, l’annotazione è applicabile alla suite di rapporti di origine. Selezionando questa casella, l’annotazione viene applicata a tutte le suite di rapporti dell’azienda. |
    | [!UICONTROL Apply to all projects] | Per impostazione predefinita, l’annotazione è applicabile al progetto corrente. Selezionando questa casella, l’annotazione viene applicata a tutti i tuoi progetti. Questa casella di controllo è disponibile solo quando si avvia il generatore di annotazioni dal Generatore di annotazioni? |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Fai clic su **[!UICONTROL Save]**.
