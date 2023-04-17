@@ -2,9 +2,9 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '956'
 ht-degree: 98%
 
 ---
@@ -18,20 +18,13 @@ I filtri possono essere basati su attributi (tipo di browser, dispositivo, numer
 
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
-Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/create-filters.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
+Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/filter-builder.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
 
 Il numero massimo di filtri che è possibile creare per l’organizzazione IMS è 50.000.
 
 ## Tipi di filtro {#types}
 
-In Workspace e nel Generatore di filtri puoi creare diversi tipi di filtri, a seconda della complessità, dell’applicabilità solo a un determinato progetto, ecc. Ecco un riepilogo dei tipi di filtri:
-
-| Tipo di filtro | Creato dove? | Applicabile dove? | Quando utilizzare |
-| --- | --- | --- | --- |
-| Filtro elenco componenti | Fai clic su +, per passare al [Generatore di filtri](/help/components/filters/create-filters.md) | Tutti i progetti Workspace | Filtri sequenziali, per filtri più complessi |
-| Filtro rapido | [Generatore di filtri rapidi](/help/components/filters/quick-filters.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per i filtri a regola singola ad hoc (con trascinamento della selezione) o per aggiungere/modificare più regole (facendo clic sull’icona Filtro ) |
-| Applicare i filtri nell’analisi dell’abbandono | [Visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Per singole visualizzazioni di abbandono | Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri. |
-| Filtro basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare filtri nella definizione della metrica |
+Per informazioni sui tipi di filtri disponibili e su come crearli, consulta [Creare filtri](/help/components/filters/create-filters.md).
 
 ## Filtri sequenziali {#sequential}
 
