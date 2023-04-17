@@ -3,9 +3,9 @@ title: Cos’è un’analisi per coorte?
 description: Scopri l’analisi per coorte in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 76840d025d1ace28abce5557d66d104795818167
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 95%
 
 ---
@@ -22,7 +22,6 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 * Spostare il budget marketing nel momento giusto del ciclo di vita di un cliente.
 * Riconoscere quando interrompere una versione di prova o un’offerta in modo da massimizzare il valore.
 * Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
-* Visualizzare un’[!UICONTROL Cohort Analysis] all’interno di un rapporto di analisi guidata.
 
 [!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Customer Journey Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
