@@ -4,10 +4,10 @@ description: Spiegare come inserire dati provenienti dalla versione tradizionale
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
-workflow-type: ht
-source-wordcount: '1054'
-ht-degree: 100%
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ Per creare un connettore di origine di Adobe Analytics:
    ![Revisione](./assets/review.png)
 
 
-Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti, compreso l’inserimento di dati storici di fino a 13 mesi.
+Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati Adobe Analytics dalla suite di rapporti, inclusa l’acquisizione di fino a 13 mesi di dati storici per le sandbox di produzione. (A partire dal 26 aprile 2023, il backfill nelle sandbox non di produzione è limitato a 3 mesi.)
 
 Al termine dell’inserimento iniziale, i dati della suite di rapporti Adobe Analytics sono pronti per essere utilizzati da Customer Journey Analytics.
 
@@ -96,7 +96,7 @@ Per creare la connessione:
 
 1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Create new connection]** (Crea nuova connessione).
+2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
 3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
 
@@ -158,7 +158,7 @@ Per creare la visualizzazione dati:
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
-   Seleziona **[!UICONTROL Save and continue]** (Crea set di dati).
+   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
 
 5. Nel passaggio [!UICONTROL Settings] (Impostazioni):
 
