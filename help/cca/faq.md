@@ -4,10 +4,10 @@ description: Domande frequenti per Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ In alcune situazioni, un singolo utente può essere associato a più ID persiste
 
 Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di CCA di eseguire unioni tra dispositivi.
 
-## Una volta contattato il mio Adobe Account Team con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
+## Una volta contattato il team dell&#39;account Adobe con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
 
 L’unione live è disponibile circa una settimana dopo l’attivazione di Cross-Channel Analytics da parte di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 

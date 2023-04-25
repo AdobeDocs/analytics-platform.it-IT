@@ -1,12 +1,12 @@
 ---
-description: Utilizzare la visualizzazione delle linee per rappresentare set di dati con tendenza (basati sul tempo)
+description: Utilizza la visualizzazione delle linee per rappresentare set di dati con tendenze (basati sul tempo)
 title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 87%
 
 ---
 
@@ -52,5 +52,5 @@ Tutte le linee di tendenza del modello di regressione sono adattabili utilizzand
 | Logaritmico | Crea una linea curva di adattamento ed è utile quando il tasso di variazione nei dati aumenta o diminuisce rapidamente e poi si livella. Una linea di tendenza logaritmica può utilizzare valori negativi e positivi. Equazione: `y = a + b * log(x)` |
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o diminuiscono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
 | Potenza | Crea una linea curva ed è utile per i set di dati che confrontano misurazioni che aumentano a una velocità specifica. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
-| Quadratico | Trova l’adattamento per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
+| Quadratico | Trova la forma migliore per un set di dati a forma di parabola (concava su o giù). Equazione: `y = a + b * x + c * x^2` |
 | Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di periodi), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di 7 giorni o una media mobile di 4 settimane. |

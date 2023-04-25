@@ -4,10 +4,10 @@ description: Visualizzare le impostazioni di base di un componente vista dati.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: baee2ccf6eec040972726b9651ffe565d50307a9
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,11 @@ Impostazioni di base utilizzate da un componente di vista dati.
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Component type] | Obbligatorio. Consente di cambiare un componente da Metrica a Dimension o viceversa. Modificando questo menu a discesa, il componente viene spostato nella rispettiva area dei componenti inclusi. |
+| [!UICONTROL Component type] | Obbligatorio. Consente di cambiare un componente da Metrica a Dimension o viceversa. Modificando questa selezione a discesa, il componente viene spostato nella rispettiva area dei componenti inclusi. |
 | [!UICONTROL Component Name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
 | [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
 | [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. Queste etichette possono essere necessarie per definire un set di componenti utilizzati per la generazione di rapporti nei progetti o nei pannelli di Analysis Workspace. |
+| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette definite dal sistema disponibili che possono essere applicate a un componente. Queste etichette possono essere necessarie per definire un set di componenti utilizzati per la generazione di rapporti nei progetti o nei pannelli di Analysis Workspace. |
 | [!UICONTROL Schema field name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
@@ -33,7 +33,7 @@ Impostazioni di base utilizzate da un componente di vista dati.
 | [!UICONTROL Data Usage Labels] | Tutte le etichette di utilizzo dei dati assegnate a questo componente in Adobe Experience Platform. [Ulteriori informazioni](/help/data-views/data-governance.md) |
 | [!UICONTROL Hide component in reporting] | Consente di eliminare il componente dalla visualizzazione dati per i non amministratori. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Show All Components] in un progetto Analysis Workspace. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Ecco un video sulle impostazioni dei componenti nelle visualizzazioni dati:
 

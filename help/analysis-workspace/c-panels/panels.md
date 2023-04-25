@@ -3,16 +3,16 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: 15e83ab3c828b6fd91a3f729001ec4f22f24f9ec
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 95%
+source-wordcount: '1185'
+ht-degree: 51%
 
 ---
 
 # Panoramica dei pannelli
 
-Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
+Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o in un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
 
 ## Tipi di pannello
 
@@ -63,23 +63,47 @@ Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/qu
 
 ![](assets/adhoc-segment-filter.png)
 
-### Filtri a discesa {#dropdown-filter}
+### Filtri a discesa statici
 
-Oltre ai filtri, i filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da filtrare il pannello per Tablet, Telefono cellulare o Desktop.
+I filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da filtrare il pannello per Tablet, Telefono cellulare o Desktop.
 
 I filtri a discesa possono essere utilizzati per consolidare più progetti in un progetto unico. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un filtro Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un filtro a discesa Paese.
 
 ![](assets/dropdown-filter-intro.png)
 
-Per creare un filtro a discesa:
+Per creare un filtro a discesa statico:
 
-1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori della dimensione [!UICONTROL Marketing Channel], fai clic sull’icona a forma di freccia verso destra accanto alla dimensione nella barra a sinistra. Verranno esposti tutti gli elementi disponibili. Seleziona uno o più elementi componenti nella barra a sinistra, **tieni premuto il tasto Maiusc** e trascinali nella zona di rilascio del pannello. I componenti diventano un filtro a discesa, anziché un singolo filtro.
-1. Per creare un filtro a discesa utilizzando un altro componente, ad esempio metriche, filtri o intervalli di date, seleziona un tipo di componente nella barra a sinistra e rilascialo nella zona di rilascio del pannello mentre **tieni premuto il tasto Maiusc**.
-1. Per cambiare i dati visualizzati nel pannello, seleziona una delle opzioni dal menu a discesa. Puoi anche scegliere di non filtrare nessuno dei dati del pannello, selezionando **[!UICONTROL No filter]**.
+* Per i filtri a discesa che utilizzano elementi dimensionali, fai clic sull’icona della freccia destra accanto alla dimensione desiderata nella barra a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciali nella zona di rilascio del pannello **in attesa`[Shift]`**.
+* Per i filtri a discesa che utilizzano altri componenti come metriche, filtri o intervalli di date, seleziona più componenti utilizzando `[Shift + Click]` o `[Ctrl + Click]`. Rilascia la selezione nella zona di rilascio del pannello **in attesa`[Shift]`**. In questo contesto, tutti i tipi di componenti vengono trattati come filtri.
+* Un singolo filtro a discesa può contenere un solo tipo di componente. Se nella selezione sono inclusi più tipi di componenti, viene creato un filtro a discesa separato per tipo di componente. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due filtri a discesa separati. Un filtro a discesa include elementi dimensionali e l’altro metriche.
+
+Seleziona una delle opzioni dall’elenco a discesa per modificare i dati nel pannello. Puoi anche scegliere di non filtrare nessuno nei dati del pannello selezionando **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
 
+Il clic con il pulsante destro del mouse su un filtro a discesa fornisce le seguenti opzioni:
+
+* **[!UICONTROL Add label]**: Quando aggiungi un filtro a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Delete label]**: Rimuovi il testo sopra un filtro a discesa.
+* **[!UICONTROL Delete drop-down filter]**: Rimuove il filtro a discesa dal pannello.
+
 Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [guarda questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it).
+
+### Filtri a discesa dinamici
+
+I filtri a discesa dinamici ti consentono di determinare i valori disponibili in base ai dati nell’intervallo di reporting del pannello e ai valori di altri filtri a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e la dimensione Città. Quando selezioni un paese dall’elenco a discesa Paesi UICONTROL , l’elenco a discesa Città si regola in modo dinamico per mostrare solo le città all’interno del paese.
+
+Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali visualizzati nell’intervallo di date del pannello e i filtri selezionati. Gli elementi di Dimension selezionati nei filtri a discesa statici influiscono sui valori disponibili nei filtri a discesa dinamici. Tuttavia, l&#39;inverso non è vero; Gli elementi di Dimension selezionati nei filtri a discesa dinamici non influiscono sui valori disponibili nei filtri a discesa statici.
+
+La selezione manuale degli elementi dimensionali è disponibile se si anticipa un certo elemento dimensionale da raccogliere in futuro. È inoltre possibile cancellare un filtro a discesa dinamico in modo che non contenga un valore, consentendo ad altri filtri a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Clear All]** per cancellare la selezione da tutti i filtri a discesa per quel pannello.
+
+Per creare un filtro a discesa dinamico:
+
+* Trascina una singola dimensione nella zona di rilascio del pannello **in attesa`[Shift]`**.
+* I filtri a discesa dinamici non sono disponibili per metriche, filtri o intervalli di date.
+* Fai clic con il pulsante destro del mouse su un filtro a discesa e seleziona **[!UICONTROL Delete filter]** per eliminarlo.
+
+Facendo clic con il pulsante destro del mouse su un filtro a discesa dinamico, sono disponibili le stesse opzioni dei filtri a discesa statici.
 
 ## Menu di scelta rapida {#right-click}
 
@@ -91,8 +115,8 @@ Sono disponibili le seguenti impostazioni:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Insert Copied Panel/Visualization] | Consente di incollare (inserire) l’elemento copiato altrove nello stesso progetto o in un altro progetto. |
-| [!UICONTROL Copy Panel] | Consente di fare clic con il pulsante destro del mouse e copiare un pannello, in modo da poterlo inserire altrove nello stesso progetto o in un altro progetto. |
+| [!UICONTROL Insert Copied Panel/Visualization] | Consente di incollare (&quot;inserire&quot;) un pannello o una visualizzazione copiati in un’altra posizione all’interno del progetto o in un progetto diverso. |
+| [!UICONTROL Copy Panel] | Consente di fare clic con il pulsante destro del mouse e copiare un pannello in modo da poterlo inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
 | [!UICONTROL Duplicate Panel] | Crea un duplicato esatto del pannello corrente, che potrai quindi modificare. |
 | [!UICONTROL Collapse/Expand all Panels] | Comprime ed espande tutti i pannelli del progetto. |
 | [!UICONTROL Collapse/Expand all Visualizations in Panel] | Comprime ed espande tutte le visualizzazioni nel pannello corrente. |

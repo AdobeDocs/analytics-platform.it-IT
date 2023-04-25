@@ -3,9 +3,9 @@ description: Il Generatore di filtri fornisce un’area di lavoro per trascinare
 title: Crea filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e918b93a7d5aa98fe0ac1532fa76a2994f6a0c07
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1950'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. (Per 
 1. **[!UICONTROL Metrics]**: Fai clic sull’intestazione da espandere.
 1. **[!UICONTROL Filters]**: Fai clic sull’intestazione da espandere.
 1. **[!UICONTROL Report suite selector]**: Consente di selezionare la suite di rapporti in cui verrà salvato il filtro. Puoi comunque utilizzare il filtro in tutte le suite di rapporti.
-1. **[!UICONTROL Filter Preview]**: Consente di visualizzare in anteprima le metriche chiave per verificare se disponi di un filtro valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che si prevede di vedere se si applica questo filtro. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL Event], [!UICONTROL Person]e [!UICONTROL Session] per un filtro eseguito rispetto a un set di dati. Questo grafico viene aggiornato immediatamente dopo che hai creato o apportato modifiche alla definizione del filtro.
+1. **[!UICONTROL Filter Preview]**: Consente di visualizzare in anteprima le metriche chiave per verificare se disponi di un filtro valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che si prevede di vedere se si applica questo filtro. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL Event], [!UICONTROL Person]e [!UICONTROL Session] per un filtro eseguito su un set di dati. Questo grafico viene aggiornato immediatamente dopo che hai creato o apportato modifiche alla definizione del filtro.
 1. **[!UICONTROL Product Compatibility]**: Fornisce un elenco dei prodotti Adobe Analytics (Analysis Workspace, [!UICONTROL Reports & Analytics], Data Warehouse) con cui è compatibile il filtro creato. La maggior parte dei filtri è compatibile con tutti i prodotti. Tuttavia, non tutti gli operatori e le dimensioni sono compatibili con tutti i prodotti Analytics, in particolare [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html). Questo grafico viene aggiornato immediatamente dopo aver apportato modifiche alla definizione del filtro.
 1. **[!UICONTROL Save]** o **[!UICONTROL Cancel]**: Salva o annulla il filtro. Dopo aver fatto clic su **[!UICONTROL Save]**, vai al Gestore filtri dove puoi gestire il filtro.
 

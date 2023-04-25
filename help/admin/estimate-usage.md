@@ -4,10 +4,10 @@ description: Mostra due metodi per stimare l’utilizzo e un metodo per la gesti
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: '856'
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmen
    * Cambia le [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#set-rolling-window-for-connection-data-retention).
    * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
    * [Elimina un set di dati in AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
-   * Contatta il tuo Adobe Account Team per aggiungere alla licenza ulteriore capacità.
+   * Contatta il team dell’account di Adobe per richiedere la licenza di una capacità aggiuntiva.
 
 ## Creare un progetto Workspace utilizzando tutti i dati evento {#workspace-event-data}
 
@@ -68,7 +68,7 @@ Questo metodo consente di eseguire un’analisi più approfondita dei dati di ut
 >
 >    Non creare una nuova connessione che includa tutti i dati solo per misurare l’utilizzo, in quanto ciò raddoppierebbe l’utilizzo.
 
-1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati e richiama tutti gli eventi (dal menu a discesa **[!UICONTROL Metrics]** (Parametri)) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
+1. In Workspace, crea nuovi progetti in base a ciascuna delle visualizzazioni dati ed esegui il pull-in tutti gli eventi (dal **[!UICONTROL Metrics]** elenco a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto CJA corrente.
 
    ![Eventi](./assets/events-usage.png)
 

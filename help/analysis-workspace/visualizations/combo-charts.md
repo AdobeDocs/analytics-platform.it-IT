@@ -3,11 +3,11 @@ description: Consente di visualizzare facilmente i dati di confronto in Analysis
 title: Visualizzazione con grafici combinati
 feature: Visualizations
 role: User, Admin
-exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
-workflow-type: ht
-source-wordcount: '710'
-ht-degree: 100%
+exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 96%
 
 ---
 
@@ -45,9 +45,9 @@ Aspetti da considerare:
    | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Funzioni](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Due metriche](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
 
    L’output sarà simile al seguente:
 
@@ -69,7 +69,7 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verr
 | **[!UICONTROL Mean]** | Restituisce la media aritmetica di una metrica. |
 | **[!UICONTROL Column Minimum]** | Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Ecco un esempio della media cumulativa della metrica Ricavi:
 
@@ -88,11 +88,11 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | Impostazione | Definizione |
 | --- | --- |
 | **[!UICONTROL Visualization type]** | Consente di passare a un altro tipo di visualizzazione. |
-| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. |
+| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |
-| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se hai un set con numerosi dati, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
+| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se disponi di un set di dati di grandi dimensioni, puoi visualizzare solo i primi 10 elementi (o qualsiasi valore scelto). |
 | **[!UICONTROL Overlays]** | Mostra o nasconde i punti (o “bar bell”) sulle linee. |
 | **[!UICONTROL Axis]** |  |
 | **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse Y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore per tutti i confronti è il grigio. |
@@ -101,4 +101,4 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL Show y-axis]** | Visualizzare o nascondere l’asse y. |
 | **[!UICONTROL Anchor y-axis at zero]** | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '1685'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ Ecco i widget e le impostazioni spiegate:
 | Widget/Impostazione | Descrizione |
 | --- | --- |
 | Selettore set di dati | Consente di scegliere uno o tutti i set di dati della connessione. Non è possibile selezionare più set di dati. Predefinito su [!UICONTROL All datasets]. |
-| Calendario/Intervalli di date | L’intervallo di date indica quando hai aggiunto dati alla connessione. Sono inclusi tutti i predefiniti calendario standard. Puoi personalizzare l’intervallo di date, ma nel menu a discesa non viene visualizzato alcun intervallo di date personalizzato. |
+| Calendario/Intervalli di date | L’intervallo di date indica quando hai aggiunto dati alla connessione. Sono inclusi tutti i predefiniti calendario standard. Puoi personalizzare l’intervallo di date, ma nell’elenco a discesa non viene visualizzato alcun intervallo di date personalizzato. |
 | [!UICONTROL Records of event data available] widget | Rappresenta il numero totale di righe del set di dati evento disponibili per il reporting, **per l’intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. (Tieni presente che, una volta aggiunto, i dati vengono visualizzati nel reporting con una latenza di 1-2 ore.) |
 | [!UICONTROL Metrics] widget | Riepiloga i record evento aggiunti/saltati/eliminati e il numero di batch aggiunti, **per il set di dati e l’intervallo di date selezionati**. |
 | [!UICONTROL Records added] widget | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Aggiornato ogni 10 minuti. **Nota**: dati per **[!UICONTROL Records added]** include solo i dati evento al momento, non i dati di profilo o di ricerca. |

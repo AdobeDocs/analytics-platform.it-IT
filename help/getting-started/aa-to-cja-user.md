@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 100%
+source-wordcount: '1419'
+ht-degree: 97%
 
 ---
 
@@ -38,13 +38,13 @@ CJA ottiene i dati da Adobe Experience Platform. Experience Platform permette di
 
 In Experience Platform, i dati dei clienti vengono memorizzati come set di dati, costituiti da uno [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=it) e da batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
-L’amministratore di CJA stabilisce [connessioni](/help/connections/create-connection.md) con i set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di CJA. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
+L’amministratore CJA stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di CJA. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
 Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in CJA, come illustrato nel seguente video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origini di Adobe Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati che in precedenza si trovavano in suite di rapporti distinte.
+Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origini di Adobe Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati esistenti in precedenza in suite di rapporti separate.
 
 ## Modifiche al concetto di suite di rapporti virtuali {#data-views}
 

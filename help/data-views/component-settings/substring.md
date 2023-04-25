@@ -4,10 +4,10 @@ description: Utilizza un sottoinsieme di una stringa come elementi dimensionali.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,16 +21,16 @@ Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire pi�
 
 ## From the Left/Right (Da sinistra/destra)
 
-Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. I metodi **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** hanno due elenchi a discesa: **[!UICONTROL From]** (da dove inizia l’output) e **[!UICONTROL To]** (dove termina l’output).
+Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** i metodi forniscono due elenchi a discesa: **[!UICONTROL From]** (quando inizia l&#39;uscita) e **[!UICONTROL To]** (dove termina l&#39;output).
 
 * **[!UICONTROL String Start]**: inizio della stringa.
 * **[!UICONTROL String End]**: fine della stringa.
 * **[!UICONTROL Position]**: numero statico di caratteri da sinistra o da destra, a seconda del metodo.
-* **[!UICONTROL String]**: specifica un carattere o una sequenza di caratteri per indicare l’inizio o la fine di una stringa. Questo menu a discesa presenta alche altre opzioni:
+* **[!UICONTROL String]**: specifica un carattere o una sequenza di caratteri per indicare l’inizio o la fine di una stringa. Questo elenco a discesa presenta anche opzioni aggiuntive:
    * **[!UICONTROL Match]**: stringa da trovare (corrispondenza). Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
    * **[!UICONTROL Index]**: il criterio **[!UICONTROL Match]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
    * **[!UICONTROL Include String]**: casella di controllo che, se abilitata, include nell’output la stringa **[!UICONTROL Match]**.
-* **[!UICONTROL Length]**: numero intero che specifica quanti caratteri includere dopo la posizione di inizio dell’output. Disponibile solo nel menu a discesa **[!UICONTROL To]**.
+* **[!UICONTROL Length]**: numero intero che specifica quanti caratteri includere dopo la posizione di inizio dell’output. Disponibile solo in **[!UICONTROL To]** elenco a discesa.
 
 ## Delimiter (Delimitatore)
 
@@ -114,7 +114,7 @@ Sono supportati anche i segnaposto di output. È possibile utilizzare queste seq
 | `$+` | Restituisce ciò che corrisponde all’ultima espressione secondaria contrassegnata nell’espressione regolare. |
 | `$$` | Restituisce il carattere stringa `"$"`. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Video sulle dimensioni di binding
 

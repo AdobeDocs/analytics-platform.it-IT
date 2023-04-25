@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
-workflow-type: ht
-source-wordcount: '1198'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
@@ -104,7 +104,7 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le sezioni della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
+1. Per applicare un filtro segmenti alla scorecard, tocca l’elenco a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro del segmento](assets/segment_filter.png)
 

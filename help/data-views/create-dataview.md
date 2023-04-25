@@ -4,10 +4,10 @@ description: Tutte le impostazioni disponibili per creare o modificare una visua
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Impostazioni generali per la visualizzazione dati.
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Connection] | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
-| [!UICONTROL Name] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nel menu a discesa in alto a destra in Analysis Workspace. |
+| [!UICONTROL Name] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nell’elenco a discesa in alto a destra in Analysis Workspace. |
 | [!UICONTROL Description] | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
 
 {style="table-layout:auto"}

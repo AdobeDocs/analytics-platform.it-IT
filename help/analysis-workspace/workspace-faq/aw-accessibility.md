@@ -3,10 +3,10 @@ description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità di Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 99%
 
 ---
 
@@ -53,34 +53,34 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 #### Navigazione
 
 | Tasti di scelta rapida | Azione |
-|---|---|
-| Alt + Maiusc + 1 / 2 / 3 | Passa a barre diverse: [!UICONTROL Panels], [!UICONTROL Visualizations] oppure [!UICONTROL Components] |
-| Alt + freccia sinistra/destra | Naviga tra i pannelli |
-| Alt + M | Comprimi/espandi tutti i pannelli |
-| Alt + Ctrl + M | Comprimi/espandi pannello attivo |
-| Ctrl + / | Barra sinistra di ricerca |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | Passa a barre diverse: [!UICONTROL Panels], [!UICONTROL Visualizations] oppure [!UICONTROL Components] |
+| `[Alt + Left / Right]` | Naviga tra i pannelli |
+| `[Alt + M]` | Comprimi/espandi tutti i pannelli |
+| `[Alt + Ctrl + M]` | Comprimi/espandi pannello attivo |
+| `[Ctrl + /]` | Barra sinistra di ricerca |
 
 #### Creazione di analisi
 
 | Tasti di scelta rapida | Azione |
-|---|---|
-| Alt + 1 | Nuova tabella a forma libera |
-| Ctrl + Maiusc + C | Nuova metrica calcolata |
-| Ctrl + Maiusc + D | Nuovo intervallo date |
-| Ctrl + Maiusc + E | Nuovo filtro |
-| Ctrl + Z | Annulla |
-| Pressione prolungata di Maiusc (nella zona di rilascio del filtro del pannello) | Crea un [filtro a discesa](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) |
+| --- | --- |
+| `[Alt + 1]` | Nuova tabella a forma libera |
+| `[Ctrl + Shift + C]` | Nuova metrica calcolata |
+| `[Ctrl + Shift + D]` | Nuovo intervallo date |
+| `[Ctrl + Shift + E]` | Nuovo segmento |
+| `[Ctrl + Z]` | Annulla |
+| `[Component drag + Shift]` | Creare un filtro a discesa |
 
 #### Democratizzazione
 
 | Tasti di scelta rapida | Azione |
-|---|---|
-| Ctrl + S | Salva |
-| Ctrl + Maiusc + G | Cura |
-| Ctrl + G | Condividi |
-| Alt + Maiusc + S | Pianificazione |
-| Alt + L | Ottieni collegamento al progetto |
-| Ctrl + Maiusc + B | Scarica PDF |
+| --- | --- |
+| `[Ctrl + S]` | Salva |
+| `[Ctrl + Shift + G]` | Cura |
+| `[Ctrl + G]` | Condivisione |
+| `[Alt + Shift + S]` | Pianificazione |
+| `[Alt + L]` | Ottieni collegamento al progetto |
+| `[Ctrl + Shift + B]` | Scarica PDF |
 
 ## Supporto per assistenti vocali e lenti di ingrandimento dello schermo
 

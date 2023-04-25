@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 96%
+source-wordcount: '900'
+ht-degree: 93%
 
 ---
 

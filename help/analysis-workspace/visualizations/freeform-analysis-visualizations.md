@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1126'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per ac
 | Impostazione | Descrizione |
 | --- | --- |
 | Tipo di visualizzazione | Modifica il tipo di elemento visivo utilizzato per rappresentare i dati. |
-| Granularità | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
+| Granularità | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
 | Percentuali | Visualizza i valori in percentuale. |
 | Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![Sovrapposizione 100%](assets/stacked_100_percent.png) |
 | Visualizzazione legenda | Consente di nascondere il testo di dettagli per la visualizzazione Numero di riepilogo/Variazione di riepilogo. |

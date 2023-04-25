@@ -3,10 +3,10 @@ title: Creare un intervallo di date
 description: Crea un intervallo di date da utilizzare nel reporting.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 3%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi creare un intervallo di date personalizzato utilizzando uno dei due metodi 
 
 Per creare un intervallo di date nel gestore dell’intervallo di date:
 
-1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzo delle credenziali AdobeID.
+1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali Adobe ID.
 1. Passa a [!UICONTROL Components] > [!UICONTROL Date Ranges].
 1. Fai clic sul pulsante [!UICONTROL Add] per aprire la finestra modale che crea un intervallo di date.
 
@@ -38,7 +38,7 @@ Quando fai clic sull’intervallo di date nella finestra modale, puoi scegliere 
 
 * **Calendario**: Seleziona la data di inizio e di fine.
 * **Usa date continue**: Selezionare questa casella se si desidera modificare l&#39;intervallo di date man mano che l&#39;ora continua. Non selezionare questa casella se desideri che l’intervallo di date rimanga statico.
-* **Seleziona predefinito**: Utilizza questo elenco a discesa se desideri un intervallo di date personalizzato basato su un intervallo che Adobe offre per impostazione predefinita. Quando selezioni un predefinito, puoi personalizzare ulteriormente l’intervallo di date in base alle tue esigenze. Non influisce sul predefinito offerto da Adobe.
+* **Seleziona predefinito**: Utilizza questa selezione a discesa se desideri un intervallo di date personalizzato basato su un intervallo che Adobe offre per impostazione predefinita. Quando selezioni un predefinito, puoi personalizzare ulteriormente l’intervallo di date in base alle tue esigenze. Non influisce sul predefinito offerto da Adobe.
 
 ## Intervalli di date continui
 

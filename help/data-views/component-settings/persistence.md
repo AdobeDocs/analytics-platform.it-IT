@@ -4,10 +4,10 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '766'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 | [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. A partire dal 28 ottobre 2021, un intervallo di lookback fino a 90 giorni verrà aggiunto all&#39;impostazione [!UICONTROL Allocation]. |
 | [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: [!UICONTROL Session] (predefinito), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric]. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allocation] del profilo
 
@@ -76,13 +76,13 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 ## [!UICONTROL Binding Dimension]
 
-Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide dell’elenco a discesa includono altre dimensioni presenti nella visualizzazione dati.
+Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
 
 Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).
 
 ## [!UICONTROL Binding Metric]
 
-Elenco a discesa che consente di scegliere una metrica che agisce come trigger di binding. Le opzioni valide dell’elenco a discesa includono le metriche presenti nella visualizzazione dati.
+Elenco a discesa che consente di scegliere una metrica che funge da attivatore di binding. Le opzioni valide includono le metriche incluse nella visualizzazione dati.
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 

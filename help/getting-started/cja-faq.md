@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1931'
-ht-degree: 98%
+source-wordcount: '1926'
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione d
 
 +++**Qual è il comportamento previsto per i record di set di dati di profilo non uniti?**
 
-**Scenario di esempio**: unisci due set di dati in una connessione CJA utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, mentre l’altro è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati dell’evento web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate in CJA. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID.
+**Scenario di esempio**: unisci due set di dati in una connessione CJA utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, L&#39;altro set di dati è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati evento Web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate in CJA. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID.
 
 +++
 
@@ -151,7 +151,7 @@ Per quanto riguarda l’eliminazione dei dati, ci occupiamo di 6 tipi di compone
 | Eliminare una sandbox in [!UICONTROL Adobe Experience Platform] | L’eliminazione di una sandbox interrompe il flusso di dati a qualsiasi connessione [!UICONTROL Customer Journey Analytics] per il set di dati in tale sandbox. Attualmente, le [!UICONTROL Connections] in CJA associate alla sandbox eliminata non verranno eliminate automaticamente. |
 | Eliminare uno schema in [!UICONTROL Adobe Experience Platform], ma non i set di dati associati a tale schema | [!UICONTROL Adobe Experience Platform] non consente di eliminare gli [!UICONTROL schemas] a cui sono associati uno o [!UICONTROL datasets]. Tuttavia, un amministratore che dispone delle autorizzazioni appropriate può prima eliminare i set di dati, e quindi eliminare lo schema. |
 | Eliminare un set di dati nel data lake di [!UICONTROL Adobe Experience Platform] | L’eliminazione di un set di dati nel data lake di AEP interrompe il flusso di dati da tale set di dati a qualsiasi connessione CJA che include tale set di dati. Eventuali dati provenienti da tale set di dati vengono eliminati automaticamente dalle connessioni CJA associate. |
-| Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Contatta il team dell’account Adobe per avviare la procedura di eliminazione di un set di dati all’interno di una connessione salvata. |
+| Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Contatta il team dell’account di Adobe per avviare il processo di eliminazione di un set di dati all’interno di una connessione salvata. |
 | Eliminare un batch da un set di dati (in [!UICONTROL Adobe Experience Platform]) | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch verrà rimosso da tutte le connessioni CJA che contengono tale batch specifico. CJA riceve una notifica dell’eliminazione del batch in [!UICONTROL Adobe Experience Platform]. |
 | Eliminare un batch **durante la sua acquisizione** in [!UICONTROL Customer Journey Analytics] | Se nel set di dati è presente un solo batch, in [!UICONTROL Customer Journey Analytics] non verranno visualizzati dati o dati parziale da tale batch. L’acquisizione verrà annullata e verrà ripristinato lo stato precedente. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell’eliminazione del set di dati, i dati di tali 3 batch saranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
 | Eliminare una connessione in [!UICONTROL Customer Journey Analytics] | Un messaggio di errore indica che:<ul><li>Tutte le visualizzazioni dati create per la connessione eliminata non funzioneranno più.</li><li> Analogamente, tutti i progetti Workspace che dipendono dalle visualizzazioni dati nella connessione eliminata cesseranno di funzionare.</li></ul> |
@@ -168,7 +168,7 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 | Deduplicazione delle metriche | Deduplica le istanze di una metrica (ad esempio, [!UICONTROL Orders]) se più righe hanno lo stesso ID transazione (ad esempio, [!UICONTROL Purchase ID]). Questo impedisce che il conteggio delle metriche chiave risulti superiore ai dati effettivi. Di conseguenza, le metriche come [!UICONTROL Orders] potrebbero non corrispondere tra suite di rapporti diverse. |
 | Valuta | La conversione della valuta non è ancora supportata in CJA. Se le suite di rapporti che stai tentando di unire utilizzano valute di base diverse, potrebbero verificarsi dei problemi. |
 | [!UICONTROL Persistence] | La [persistenza ](../data-views/component-settings/persistence.md) si estende alle varie suite di rapporti, il che ha un impatto su [!UICONTROL filters], [!UICONTROL attribution] e così via. È possibile che i numeri non corrispondano correttamente. |
-| [!UICONTROL Classifications] | I dati di [!UICONTROL Classifications] non vengono deduplicati automaticamente durante l’unione di suite di rapporti. Quando si combinano più file di classificazione in un singolo set di dati [!UICONTROL lookup], si potrebbero riscontrare dei problemi. |
+| [!UICONTROL Classifications] | I dati di [!UICONTROL Classifications] non vengono deduplicati automaticamente durante l’unione di suite di rapporti. Combinazione di più file di classificazione in un unico [!UICONTROL lookup] set di dati, potresti incontrare problemi. |
 
 
 ## 8. Componenti tradizionali di [!UICONTROL Adobe Analytics]

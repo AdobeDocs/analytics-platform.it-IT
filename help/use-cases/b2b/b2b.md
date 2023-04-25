@@ -4,10 +4,10 @@ description: Scopri come aggiungere dati basati su account come set di dati di r
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 1a18ddbab09e272189a25041396570d127bb81c3
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 
 Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati di [ricerca](/help/getting-started/cja-glossary.md).
 
-Devi prima creare uno schema di ricerca in Adobe Experience Platform, quindi creare un set di dati della tabella di ricerca inserendo dati a livello di account basati sul formato .csv. Quindi procedi alla creazione di una connessione in Customer Journey Analytics (CJA) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
+Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi procedi alla creazione di una connessione in Customer Journey Analytics (CJA) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ La creazione di uno schema personalizzato per la tabella di [ricerca](/help/gett
 
 ![](../assets/create-new-class.png)
 
-## 2. Crea il set di dati di ricerca (Experience Platform)
+## 2. Creare un set di dati di ricerca (Experience Platform)
 
 Una volta creato lo schema, è necessario creare un set di dati di ricerca da tale schema in Experience Platform. Questo set di dati di ricerca contiene informazioni di marketing a livello di account, ad esempio: ragione sociale, numero totale di dipendenti, nome di dominio, settore di appartenenza, entrate annuali, se sono clienti attuali di Experience Platform o meno, in quale fase di vendita si trovano, quale team all’interno dell’account sta utilizzando CJA, ecc.
 
@@ -63,7 +63,7 @@ Per questo esempio, stiamo combinando 3 set di dati in una singola connessione C
 | --- | --- | --- | --- |
 | Impression B2B | Contiene i dati clickstream, a livello di evento e a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché la denominazione commerciale, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | `emailID` viene utilizzato come identità principale e assegnato allo spazio dei nomi `Customer ID`. Di conseguenza, verrà visualizzato come **[!UICONTROL Person ID]** (ID persona) predefinito in Customer Journey Analytics. ![Impression](../assets/impressions-mixins.png) |
 | Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio la loro posizione lavorativa, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema XDM Individual Profile | In questo schema non è necessario selezionare `emailID` come ID principale. Assicurati di abilitare **[!UICONTROL Profile]** (Profilo); in caso contrario, CJA non sarà in grado di collegare `emailID` nel profilo B2B con `emailID` nei dati di Impression B2B. ![Profilo](../assets/profile-mixins.png) |
-| Informazioni B2B | Consulta la sezione “Creare un set di dati di ricerca” sopra. | Account B2B (classe di schema di ricerca personalizzata) | Il rapporto tra `accountID` e il set di dati Impression B2B è stato creato automaticamente connettendo il set di dati Informazioni B2B con il set di dati Impression B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](../assets/lookup-mixins.png) |
+| Informazioni B2B | Consulta &quot;Creare un set di dati di ricerca&quot; sopra. | Account B2B (classe di schema di ricerca personalizzata) | Il rapporto tra `accountID` e il set di dati Impression B2B è stato creato automaticamente connettendo il set di dati Informazioni B2B con il set di dati Impression B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](../assets/lookup-mixins.png) |
 
 Ecco come combinare i set di dati:
 

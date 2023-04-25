@@ -4,10 +4,10 @@ description: Scopri come Customer Journey Analytics consente di utilizzare Analy
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 97%
+source-wordcount: '978'
+ht-degree: 94%
 
 ---
 
@@ -27,10 +27,10 @@ Ecco una panoramica video di Customer Journey Analytics:
 
 Customer Journey Analytics estende l’ambito di Adobe Analytics con funzionalità cross-channel facili da usare. Inoltre, rimuove le limitazioni presenti nelle versioni precedenti di Adobe Analytics. Alcuni importanti miglioramenti sono i seguenti:
 
-* **Variabili ed eventi illimitati**: i concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono disporre di un numero illimitato di dimensioni e metriche univoche.
+* **Variabili ed eventi illimitati**: i concetti di eVar, prop ed eventi non esistono più. I dati sono principalmente incentrati su dimensioni e metriche. I set di dati possono avere un numero illimitato di dimensioni e metriche univoche.
 * **Valori univoci illimitati**: Adobe Experience Platform non è vincolata ad alcun limite univoco.
 * **Modifica dei dati storici**: con Adobe Experience Platform è possibile rimuovere o correggere i dati.
-* **Dati di più suite di rapporti**: su Platform è possibile combinare le implementazioni esistenti da più set di dati.
+* **Dati di più suite di rapporti**: Le implementazioni esistenti da più set di dati possono essere combinate in Platform.
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ Customer Journey Analytics ti consente di:
 
 Prima di iniziare a utilizzare Customer Journey Analytics, è necessario soddisfare i seguenti prerequisiti:
 
-* La tua organizzazione dispone di un contratto attivo con Adobe Analytics per la versione Select, Prime o Ultimate con il componente aggiuntivo Customer Journey Analytics. Se non sei sicuro del tipo di contratto che hai stipulato o se non hai la certezza di possedere il componente aggiuntivo CJA, contatta il team del tuo account Adobe.
+* La tua organizzazione dispone di un contratto attivo con Adobe Analytics per la versione Select, Prime o Ultimate con il componente aggiuntivo Customer Journey Analytics. Se non sei sicuro del tipo di contratto che hai o se non sei sicuro di avere il componente aggiuntivo CJA, contatta il team dell’account Adobe.
 * È stato eseguito il provisioning della tua organizzazione per Adobe Experience Platform.
 * Puoi anche acquistare Customer Journey Analytics come prodotto standalone, senza bisogno di Adobe Analytics.
 

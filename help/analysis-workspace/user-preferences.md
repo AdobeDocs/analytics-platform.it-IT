@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 64a774d9151c40ea9eadb1fb80c07db168ac8667
+source-git-commit: 7f657820e01696aa5d9b466ea2eaa6bc417ee6cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3132'
+ht-degree: 77%
 
 ---
 
@@ -107,7 +107,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **Impostazioni predefinite generali** |  |  |
 |  | Percentuali | Visualizza i valori in percentuale per tutte le visualizzazioni. |
 |  | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliato per tutte le visualizzazioni. |
-|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X per tutte le visualizzazioni. Può essere utile se disponi di un set di dati di grandi dimensioni. |
+|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X per tutte le visualizzazioni. Questo può essere utile se disponi di un set di dati di grandi dimensioni. |
 |  | Visualizza asse doppio (se applicabile) | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 |  | Normalizzazione (se applicabile) | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 |  | Ancoraggio asse Y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
@@ -115,7 +115,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **[Linee](/help/analysis-workspace/visualizations/line.md)** |  |  |
 |  | Percentuali | Visualizza i valori in percentuale per le visualizzazioni delle linee. |
 |  | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliata per la visualizzazione delle linee. |
-|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione delle linee. Può essere utile se disponi di un set di dati di grandi dimensioni. |
+|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione delle linee. Questo può essere utile se disponi di un set di dati di grandi dimensioni. |
 |  | Visualizza asse doppio (se applicabile) | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 |  | Normalizzazione (se applicabile) | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 |  | Mostra asse x | Visualizza l’asse x sul grafico a linee. |
@@ -166,13 +166,13 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 |  | Abbrevia il valore | Nella sezione [!UICONTROL **Numero di riepilogo**] |
 | **[Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md)** |  |  |
 |  | Percentuali | Visualizza i valori in percentuale per le visualizzazioni Mappa ad albero. |
-|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione Mappa ad albero. Può essere utile se disponi di un set di dati di grandi dimensioni. |
+|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione Mappa ad albero. Questo può essere utile se disponi di un set di dati di grandi dimensioni. |
 | **[Venn](/help/analysis-workspace/visualizations/venn.md)** |  |  |
 |  | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliata per la visualizzazione Venn. |
 | **[A dispersione](/help/analysis-workspace/visualizations/scatterplot.md)** |  |  |
 |  | Percentuali | Visualizza i valori in percentuale per le visualizzazioni A dispersione. |
 |  | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliata per la visualizzazione A dispersione. |
-|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione A dispersione. Può essere utile se disponi di un set di dati di grandi dimensioni. |
+|  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione A dispersione. Questo può essere utile se disponi di un set di dati di grandi dimensioni. |
 |  | Ancoraggio asse y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
 
 ## Preferenze aziendali
