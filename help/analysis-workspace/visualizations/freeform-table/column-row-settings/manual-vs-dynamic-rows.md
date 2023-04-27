@@ -3,10 +3,10 @@ title: Elementi dimensionali dinamici e statici nelle tabelle a forma libera
 description: Interagire con elementi dimensionali dinamici e statici nelle tabelle
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 67435cdfcb23e3c6e9a04ecb4a0b0e854473387c
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,8 @@ Quando rilasci una dimensione in una tabella a forma libera, vengono restituite 
 
 Ad esempio, quando si trascina la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione (ad esempio Microsoft, Apple, Google, ecc.) sono restituiti nelle righe della tabella in modo dinamico. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
 
-Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e **non** dispongono di icone lucchetto e X.
+Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e **non** dispongono di icone lucchetto e X. Per ulteriori informazioni sull’applicazione dei filtri alle tabelle, consulta [Filtrare e ordinare tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+
 
 ![](assets/dynamic-items.png)
 
