@@ -3,10 +3,10 @@ description: Documentazione che descrive come filtrare e ordinare le tabelle in 
 title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 4dd5e5248026c39489f3ac4598ea91ff15d95aa4
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,10 @@ Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi inte
 ## Filtrare le tabelle {#section_36E92E31442B4EBCB052073590C1F025}
 
 I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più importanti.
+
+>[!NOTE]
+>
+> Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Per filtrare i dati nelle tabelle a forma libera:
 
