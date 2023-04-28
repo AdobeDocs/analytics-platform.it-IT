@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 9aa96c6999b15255ee5af23ac8257d032c151c6b
+source-git-commit: 804521e518d811bd4ad458b00367d00facb29b35
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 99%
+source-wordcount: '875'
+ht-degree: 98%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [Sottostringa](../data-views/component-settings/substring.md)
       + [Bucketing dei valori](../data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](../data-views/component-reference.md)
+   + [Campi derivati](../data-views/derived-fields/derived-fields.md)
    + [Etichette e criteri](../data-views/data-governance.md)
 
 
