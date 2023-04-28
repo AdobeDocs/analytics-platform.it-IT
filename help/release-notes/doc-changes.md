@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2023** |  |
+| Video sull’utilizzo dei filtri come dimensioni | <p>È stato aggiornato il video sull’utilizzo dei filtri come dimensioni. Questo video è collegato dal [Creare filtri](/help/components/filters/create-filters.md) pagina.</p> <p>Di seguito è riportato un collegamento diretto al video: [Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | Documentazione del filtro | È stato aggiunto un articolo sull’utilizzo del [Generatore di filtri](/help/components/filters/filter-builder.md). <p>Documentazione semplificata in [Creare filtri](/help/components/filters/create-filters.md) e [Panoramica sui filtri](/help/components/filters/filters-overview.md).</p> |
 | Aggiornamento della documentazione del pannello Sperimentazione | È stata aggiunta una sezione su [interpretazione di dimensioni non randomizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | Filtri di progetto (filtri rapidi e ad hoc) | Documentazione semplificata sui filtri dei progetti e sulle informazioni duplicate rimosse. I passaggi per la creazione di filtri ad hoc sono ora combinati con i passaggi per [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |

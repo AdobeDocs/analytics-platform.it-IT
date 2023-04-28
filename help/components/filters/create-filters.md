@@ -2,10 +2,10 @@
 title: Creare filtri
 description: Scopri l’interfaccia utente per la creazione di filtri.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +29,4 @@ Quando si applicano filtri a un progetto a forma libera, sono disponibili anche 
 | Creare un filtro dalla selezione | Crea un filtro in linea. Questo tipo di filtro è applicabile solo al progetto aperto e non viene salvato come filtro di CJA.<p> 1. Seleziona le righe della tabella da includere nel filtro. 2. Fai clic con il pulsante destro del mouse sulla selezione. 3. Fai clic su *Create filter from selection* (Crea filtro da selezione). |
 | [!UICONTROL Components] Workspace > [!UICONTROL New Filter] | Viene visualizzato il generatore di filtri. Per ulteriori informazioni sui filtri, consulta l’articolo su come [generare i filtri](/help/components/filters/filter-builder.md). |
 | Condividi > Condividi progetto oppure Condividi > Cura dati progetto | In [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) o [Cura progetti](/help/analysis-workspace/curate-share/curate.md), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
-| Utilizzare i filtri come dimensioni | Il video seguente illustra come utilizzare i filtri come dimensioni: (**Nota:** questo video utilizza il termine &quot;segmenti&quot; invece di &quot;filtri&quot;. Tuttavia, la funzionalità è la stessa.) <p>[Uso dei segmenti come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=it)</p> |
+| Utilizzare i filtri come dimensioni | Il video seguente illustra come utilizzare i filtri come dimensioni:  <p>[Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |
