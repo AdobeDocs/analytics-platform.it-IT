@@ -5,21 +5,21 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
+source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
 workflow-type: tm+mt
-source-wordcount: '2998'
-ht-degree: 6%
+source-wordcount: '3015'
+ht-degree: 7%
 
 ---
 
 
 # Campi derivati
 
-I campi derivati sono aspetti importanti della funzionalità di reporting in tempo reale in Customer Journey Analytics (CJA). Un campo derivato (personalizzato) ti consente di definire al volo (spesso complesse) manipolazioni dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare quel campo derivato come componente (metrica o dimensione) in Workspace o ancora più definire come componente nella visualizzazione Dati.
+I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Customer Journey Analytics (CJA). Un campo derivato (personalizzato) ti consente di definire al volo (spesso complesse) manipolazioni dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in [Area di lavoro](../../analysis-workspace/home.md) o ancora definire ulteriormente come componente in [Visualizzazione dati](../data-views.md).
 
-I campi derivati possono risparmiare molto tempo e fatica rispetto alla trasformazione o manipolazione dei dati in altre aree al di fuori di CJA. Ad esempio Data Prep, Data Distiller o all’interno dei processi Extract Transform Load (ETL) / Extract Load Transform (ELT).
+I campi derivati possono risparmiare molto tempo e fatica rispetto alla trasformazione o manipolazione dei dati in altre aree al di fuori di CJA. Ad esempio [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Distiller dati](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)oppure all’interno dei propri processi di estrazione del carico di trasformazione (ETL) / estrazione della trasformazione del carico (ELT).
 
-I campi derivati sono definiti come campi personalizzati all’interno di [Visualizzazioni dati](../data-views.md)e si basano su un set di funzioni e sono applicate ai campi standard e/o schema disponibili.
+I campi derivati sono definiti come campi personalizzati all’interno di [Visualizzazioni dati](../data-views.md), si basano su un set di funzioni e sono applicate ai campi standard e/o schema disponibili.
 
 Esempi di casi di utilizzo:
 
