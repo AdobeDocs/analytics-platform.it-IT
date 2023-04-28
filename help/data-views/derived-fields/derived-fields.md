@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
+source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
 workflow-type: tm+mt
-source-wordcount: '3015'
+source-wordcount: '3020'
 ht-degree: 7%
 
 ---
@@ -15,18 +15,19 @@ ht-degree: 7%
 
 # Campi derivati
 
+{{release-limited-testing}}
+
 I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Customer Journey Analytics (CJA). Un campo derivato (personalizzato) ti consente di definire al volo (spesso complesse) manipolazioni dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in [Area di lavoro](../../analysis-workspace/home.md) o ancora definire ulteriormente come componente in [Visualizzazione dati](../data-views.md).
 
 I campi derivati possono risparmiare molto tempo e fatica rispetto alla trasformazione o manipolazione dei dati in altre aree al di fuori di CJA. Ad esempio [Preparazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Distiller dati](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)oppure all’interno dei propri processi di estrazione del carico di trasformazione (ETL) / estrazione della trasformazione del carico (ELT).
 
-I campi derivati sono definiti come campi personalizzati all’interno di [Visualizzazioni dati](../data-views.md), si basano su un set di funzioni e sono applicate ai campi standard e/o schema disponibili.
+I campi derivati sono definiti come campi personalizzati all’interno di [Visualizzazioni dati](../data-views.md), si basano su un set di funzioni definite come regole e applicate ai campi standard e/o schema disponibili.
 
 Esempi di casi di utilizzo:
 
 - Definire un campo Nome pagina personalizzato che corregga i valori errati dei nomi di pagina raccolti per correggere i valori dei nomi di pagina.
 
 - Definisci un campo del canale di marketing personalizzato che determina il canale di marketing appropriato in base a una o più condizioni (ad esempio il parametro URL, l’URL della pagina, il nome della pagina).
-
 
 ## Interfaccia campo personalizzata
 
@@ -37,7 +38,7 @@ Quando si crea o si modifica un campo personalizzato, è possibile utilizzare l�
 
 |  | Nome | Descrizione |
 |---------|----------|--------|
-| 1 | **Selettore** | Utilizza l’area del selettore per selezionare, trascinare e rilasciare la ![Funzione](assets/Smock_Function_18_N.svg) funzione,![Icona del modello di funzione](assets/Smock_FileTemplate_18_N.svg) modello di funzione,![Icona del campo schema](assets/Smock_Folder_18_N.svg) campo schema, oppure![Icona del campo standard](assets/Smock_DragHandle_18_N.svg)campo standard nel generatore di regole. <br/>Utilizza il menu a discesa per selezionare tra [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields]e [!UICONTROL Standard fields].<br/>È possibile cercare funzioni, modelli di funzioni, schemi e campi standard utilizzando la casella di ricerca. <br/>È possibile filtrare l’elenco di oggetti selezionati selezionando ![Icona Filtro](assets/Smock_Filter_18_N.svg) Filtrare e specificare i filtri nel [!UICONTROL Filter fields by] finestra di dialogo. È possibile rimuovere facilmente i filtri utilizzando ![Icona Chiudi](assets/CrossSize75.svg) per ogni filtro. |
+| 1 | **Selettore** | Utilizza l’area del selettore per selezionare, trascinare e rilasciare la ![Funzione](assets/Smock_Function_18_N.svg) funzione,![Icona del modello di funzione](assets/Smock_FileTemplate_18_N.svg) modello di funzione,![Icona del campo schema](assets/Smock_Folder_18_N.svg) campo schema, oppure![Icona del campo standard](assets/Smock_DragHandle_18_N.svg)campo standard nel generatore di regole. <br/>Utilizza il menu a discesa per selezionare tra [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields]e [!UICONTROL Standard fields].<br/>È possibile cercare campi di funzioni, modelli di funzioni, schemi e standard utilizzando ![Icona Ricerca](assets/Smock_Search_18_N.svg) Casella di ricerca. <br/>È possibile filtrare l’elenco di oggetti selezionati selezionando ![Icona Filtro](assets/Smock_Filter_18_N.svg) Filtrare e specificare i filtri nel [!UICONTROL Filter fields by] finestra di dialogo. È possibile rimuovere facilmente i filtri utilizzando ![Icona Chiudi](assets/CrossSize75.svg) per ogni filtro. |
 | 2 | **Generatore di regole** | Puoi creare il campo personalizzato in sequenza utilizzando una o più regole. Una regola è un&#39;implementazione specifica di una funzione ed è quindi sempre associata a una sola funzione. Puoi creare una regola trascinando e rilasciando una funzione nel Generatore di regole. Il tipo di funzione determina l&#39;interfaccia della regola.<br/>Consulta la sezione [Interfaccia regola](#rule-interface) per ulteriori informazioni. <br/>È possibile inserire una funzione all&#39;inizio, alla fine o tra le regole già disponibili nel Generatore di regole. L’ultima regola nel Generatore di regole determina l’output finale del campo personalizzato. |
 | 3 | **[!UICONTROL ** Impostazioni campo **]** | È possibile assegnare un nome e descrivere il campo personalizzato ed esaminarne il tipo. |
 | 4 | **[!UICONTROL ** Output finale **]** | In questa area viene visualizzata un’anteprima aggiornata al volo dei valori di output, basata sui dati degli ultimi 30 giorni e sulle modifiche apportate al campo personalizzato nel Generatore di regole. |
