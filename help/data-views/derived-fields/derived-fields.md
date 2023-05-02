@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
+source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3171'
 ht-degree: 7%
 
 ---
@@ -461,11 +461,10 @@ Definisci un `Trip Duration (bucketed)` campo personalizzato. Crea quanto segue 
 
 Le dipendenze seguenti si applicano quando si selezionano e si impostano i valori.
 
-
 |  | Dipendenze del set di dati |
 |:---:|----|
 | <span style='color: red'>A</span> | Valori _select_ all&#39;interno dello stesso [!UICONTROL If], [!UICONTROL Else If] costrutto (utilizzando [!UICONTROL And] o [!UICONTROL Or]) in una regola deve provenire dallo stesso set di dati. |
-| <span style='color: red'>B</span> | Tutti i valori _set_ all’interno dei costrutti e all’interno della regola deve provenire dallo stesso set di dati. |
+| <span style='color: red'>B</span> | Tutti i valori _set_ una regola deve provenire dallo stesso set di dati. |
 | <span style='color: blue'>C</span> | I valori da te impostati _select_ in [!UICONTROL If], [!UICONTROL Else If] costrutti nella regola do _not_ devono provenire dallo stesso set di dati. |
 
 {style="table-layout:auto"}
@@ -475,8 +474,8 @@ Le dipendenze seguenti si applicano quando si selezionano e si impostano i valor
 
 |  | Dipendenze dei tipi |
 |:---:|----|
-| <span style='color: red'>D</span> | Tipi di valore _set_ in tutta la regola deve essere lo stesso. |
-| <span style='color: blue'>E</span> | Tipi di valore _select_ all&#39;interno di un costrutto o tra i costrutti di una regola può essere di qualsiasi tipo (stringa, numerico, date). |
+| <span style='color: red'>D</span> | I tipi di valore _set_ in una regola deve essere lo stesso. |
+| <span style='color: blue'>E</span> | I tipi di valore _select_ all&#39;interno di un costrutto o tra i costrutti di una regola può essere di qualsiasi tipo (stringa, numerico, date). |
 
 {style="table-layout:auto"}
 
