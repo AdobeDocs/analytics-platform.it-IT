@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
+source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
 workflow-type: tm+mt
-source-wordcount: '3210'
+source-wordcount: '3231'
 ht-degree: 7%
 
 ---
@@ -459,7 +459,7 @@ Definisci un `Trip Duration (bucketed)` campo personalizzato. Crea quanto segue 
 
 ## Vincoli
 
-CJA utilizza un modello di contenitore nidificato per la relativa funzionalità. Questo modello di contenitore nidificato determina i vincoli quando si utilizza il generatore di regole. Il modello di contenitore nidificato predefinito utilizzato da CJA è strutturato come illustrato di seguito:
+CJA utilizza una struttura flessibile del contenitore nidificato modellata dopo l’Adobe Experience Platform di [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model) per le sue funzionalità. Questo modello di contenitore, anche se flessibile per natura, impone alcuni vincoli quando si utilizza il generatore di regole. Il modello di contenitore nidificato predefinito utilizzato da CJA è strutturato come illustrato di seguito:
 
 <p align="center">
 <img src="./assets/containers.png" width="70%" valign="middle">
