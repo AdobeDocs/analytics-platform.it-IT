@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
+source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3210'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ Quando si crea o si modifica un campo personalizzato, è possibile utilizzare l�
 |  | Nome | Descrizione |
 |---------|----------|--------|
 | 1 | **Selettore** | Utilizza l’area del selettore per selezionare, trascinare e rilasciare la ![Funzione](assets/Smock_Function_18_N.svg) funzione,![Icona del modello di funzione](assets/Smock_FileTemplate_18_N.svg) modello di funzione,![Icona del campo schema](assets/Smock_Folder_18_N.svg) campo schema, oppure![Icona del campo standard](assets/Smock_DragHandle_18_N.svg)campo standard nel generatore di regole. <br/>Utilizza il menu a discesa per selezionare tra [!UICONTROL Functions], [!UICONTROL Function templates], [!UICONTROL Schema fields]e [!UICONTROL Standard fields].<br/>È possibile cercare campi di funzioni, modelli di funzioni, schemi e standard utilizzando ![Icona Ricerca](assets/Smock_Search_18_N.svg) Casella di ricerca. <br/>È possibile filtrare l’elenco di oggetti selezionati selezionando ![Icona Filtro](assets/Smock_Filter_18_N.svg) Filtrare e specificare i filtri nel [!UICONTROL Filter fields by] finestra di dialogo. È possibile rimuovere facilmente i filtri utilizzando ![Icona Chiudi](assets/CrossSize75.svg) per ogni filtro. |
-| 2 | **Generatore di regole** | Puoi creare il campo personalizzato in sequenza utilizzando una o più regole. Una regola è un&#39;implementazione specifica di una funzione ed è quindi sempre associata a una sola funzione. Puoi creare una regola trascinando e rilasciando una funzione nel Generatore di regole. Il tipo di funzione determina l&#39;interfaccia della regola.<br/>Consulta la sezione [Interfaccia regola](#rule-interface) per ulteriori informazioni. <br/>È possibile inserire una funzione all&#39;inizio, alla fine o tra le regole già disponibili nel Generatore di regole. L’ultima regola nel Generatore di regole determina l’output finale del campo personalizzato. |
+| 2 | **Generatore di regole** | Puoi creare il campo personalizzato in sequenza utilizzando una o più regole. Una regola è un&#39;implementazione specifica di una funzione ed è quindi sempre associata a una sola funzione. Puoi creare una regola trascinando e rilasciando una funzione nel generatore di regole. Il tipo di funzione determina l&#39;interfaccia della regola.<br/>Consulta la sezione [Interfaccia regola](#rule-interface) per ulteriori informazioni. <br/>È possibile inserire una funzione all&#39;inizio, alla fine o tra le regole già disponibili nel generatore di regole. L’ultima regola nel generatore di regole determina l’output finale del campo personalizzato. |
 | 3 | **[!UICONTROL ** Impostazioni campo **]** | È possibile assegnare un nome e descrivere il campo personalizzato ed esaminarne il tipo. |
 | 4 | **[!UICONTROL ** Output finale **]** | In questa area viene visualizzata un’anteprima aggiornata al volo dei valori di output, basata sui dati degli ultimi 30 giorni e sulle modifiche apportate al campo personalizzato nel Generatore di regole. |
 
@@ -167,7 +167,7 @@ Per ogni funzione supportata, trova i dettagli seguenti su:
    - come definire il campo personalizzato
    - dati dopo la definizione del campo personalizzato
 
-- dipendenze (facoltativo)
+- vincoli (facoltativo)
 
 
 <!-- Concatenate -->
@@ -361,7 +361,7 @@ Il sito raccoglie i seguenti valori per la dimensione Metodi di ricerca dei prod
 
 ### Campo personalizzato {#casewhen-uc2-customfield}
 
-Definisci un `Product Finding Methods (new)` campo personalizzato. Crea quanto segue **[!UICONTROL ** CASO IN CUI **]** regole nel Generatore di regole. Queste regole applicano la logica a tutte le possibili varianti della **[!UICONTROL ** Metodi di ricerca dei prodotti **]** valori dei campi per `search` e `browse` utilizzando **[!UICONTROL Contains the phrase]** criterio.
+Definisci un `Product Finding Methods (new)` campo personalizzato. Crea quanto segue **[!UICONTROL ** CASO IN CUI **]** regole nel generatore di regole. Queste regole applicano la logica a tutte le possibili varianti della **[!UICONTROL ** Metodi di ricerca dei prodotti **]** valori dei campi per `search` e `browse` utilizzando **[!UICONTROL Contains the phrase]** criterio.
 
 ![[!DNL Case When] regola 2](assets/case-when-2.png)
 
@@ -434,7 +434,7 @@ Il rapporto desiderato dovrebbe essere simile al seguente:
 
 ### Campo personalizzato {#casewhen-uc3-customfield}
 
-Definisci un `Trip Duration (bucketed)` campo personalizzato. Crea quanto segue **[!UICONTROL ** CASO IN CUI **]** in Rule Builder. Questa regola applica la logica al bucket precedente **[!UICONTROL ** Durata del viaggio **]** valori dei campi in tre valori: `short trip`, `medium  trip`e `long trip`.
+Definisci un `Trip Duration (bucketed)` campo personalizzato. Crea quanto segue **[!UICONTROL ** CASO IN CUI **]** nel generatore di regole. Questa regola applica la logica al bucket precedente **[!UICONTROL ** Durata del viaggio **]** valori dei campi in tre valori: `short trip`, `medium  trip`e `long trip`.
 
 ![[!DNL Case When] regola 3](assets/case-when-3.png)
 
@@ -457,29 +457,25 @@ Definisci un `Trip Duration (bucketed)` campo personalizzato. Crea quanto segue 
 | viaggio lungo |
 
 
-## Dipendenze
+## Vincoli
 
-Le dipendenze seguenti si applicano quando si selezionano e si impostano i valori.
+CJA utilizza un modello di contenitore nidificato per la relativa funzionalità. Questo modello di contenitore nidificato determina i vincoli quando si utilizza il generatore di regole. Il modello di contenitore nidificato predefinito utilizzato da CJA è strutturato come illustrato di seguito:
 
-|  | Dipendenze del set di dati |
+<p align="center">
+<img src="./assets/containers.png" width="70%" valign="middle">
+</p>
+
+Vedi [Contenitori](../create-dataview.md#containers) e [Contenitori di filtri](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di base.
+
+I seguenti vincoli contenitore si applicano e vengono applicati quando _selezione_ e _impostazione_ valori.
+
+|  | Vincoli |
 |:---:|----|
-| <span style='color: red'>A</span> | Valori _select_ all&#39;interno dello stesso [!UICONTROL If], [!UICONTROL Else If] costrutto (utilizzando [!UICONTROL And] o [!UICONTROL Or]) in una regola deve provenire dallo stesso set di dati. |
-| <span style='color: red'>B</span> | Tutti i valori _set_ una regola deve provenire dallo stesso set di dati. |
-| <span style='color: blue'>C</span> | I valori da te impostati _select_ in [!UICONTROL If], [!UICONTROL Else If] costrutti nella regola do _not_ devono provenire dallo stesso set di dati. |
+| **<span style='color: red'>A</span>** | Valori _select_ all&#39;interno dello stesso [!UICONTROL If], [!UICONTROL Else If] costrutto (utilizzando [!UICONTROL And] o [!UICONTROL Or]) in una regola deve provenire dallo stesso contenitore e può essere di qualsiasi tipo (stringa ![Stringa](assets/Smock_ABC_18_N.svg), numerico ![Numerico](assets/Smock_123_18_N.svg)e così via). <br/>![Dipendenza A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | Tutti i valori _set_ in una regola deve provenire dallo stesso contenitore e avere lo stesso tipo o un valore personalizzato dello stesso tipo. <br/> ![Dipendenza B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | I valori da te impostati _select_ in [!UICONTROL If], [!UICONTROL Else If] costrutti nella regola do _not_ devono provenire dallo stesso contenitore e devono _not_ devono essere dello stesso tipo. <br/> ![Dipendenza C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
-
-![Caso in cui le dipendenze del set di dati](assets/case-when-datasets.png)
-
-
-|  | Dipendenze dei tipi |
-|:---:|----|
-| <span style='color: red'>D</span> | I tipi di valore _set_ in una regola deve essere lo stesso. |
-| <span style='color: blue'>E</span> | I tipi di valore _select_ all&#39;interno di un costrutto o tra i costrutti di una regola può essere di qualsiasi tipo (stringa, numerico, date). |
-
-{style="table-layout:auto"}
-
-![Caso in cui le dipendenze dei tipi](assets/case-when-types.png)
 
 +++
 
@@ -567,7 +563,7 @@ Definisce un set di valori di ricerca sostituiti dai valori corrispondenti.
 
 | Tipo di dati di input | Ingresso | Operatori inclusi | Limite | Output |
 |---|---|---|:---:|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>Campo canto</li><li>File di ricerca<ul><li>Colonna chiave</li><li>Nuova colonna campo</li></ul></li></ul> | <p>N/D</p> | <p>5</p> | <p>Nuovo campo personalizzato</p> |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>Campo singolo</li><li>File di ricerca<ul><li>Colonna chiave</li><li>Nuova colonna campo</li></ul></li></ul> | <p>N/D</p> | <p>5</p> | <p>Nuovo campo personalizzato</p> |
 
 {style="table-layout:auto"}
 
@@ -686,7 +682,7 @@ Analizza parti diverse di un URL che includono parametri di protocollo, host, pe
 
 | Tipo di dati di input | Ingresso | Operatori inclusi | Limite | Output |
 |---|---|---|:---:|---|
-| <ul><li>Stringa</li></ul> | <ul><li>Campo canto</li><li>Opzione Analisi<ul><li>Ottieni protocollo</li><li>Ottieni host</li><li>Ottieni percorso</li><li>Ottieni valore query<ul><li>Parametro query</li></ul></li><li>Ottieni valore hash</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>5</p> | <p>Nuovo campo personalizzato</p> |
+| <ul><li>Stringa</li></ul> | <ul><li>Campo singolo</li><li>Opzione Analisi<ul><li>Ottieni protocollo</li><li>Ottieni host</li><li>Ottieni percorso</li><li>Ottieni valore query<ul><li>Parametro query</li></ul></li><li>Ottieni valore hash</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>5</p> | <p>Nuovo campo personalizzato</p> |
 
 {style="table-layout:auto"}
 
