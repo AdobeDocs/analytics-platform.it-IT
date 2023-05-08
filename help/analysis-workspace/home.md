@@ -5,65 +5,105 @@ description: Panoramica delle funzionalità di Analysis Workspace
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: e104a7a36df3743028fd18b47b46e936841a586a
+source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 71%
+source-wordcount: '683'
+ht-degree: 23%
 
 ---
 
 # Panoramica di Analysis Workspace
 
-Analysis Workspace è uno strumento basato su browser flessibile che consente di creare rapidamente le analisi e condividere i dati rilevati. Tramite un’interfaccia in cui è possibile eseguire semplici operazioni di trascinamento, puoi definire le analisi, aggiungere visualizzazioni per riprodurre i dati in modo facilmente comprensibili, curare un set di dati, condividere e pianificare progetti con chiunque all’interno della tua organizzazione.
+Analysis Workspace ti consente di creare rapidamente delle analisi per raccogliere informazioni e condividerle con altri utenti. Utilizzando l’interfaccia del browser con trascinamento, puoi creare le tue analisi, aggiungere visualizzazioni per dare vita ai dati, curare un set di dati e condividere e pianificare progetti con chiunque tu scelga.
 
-Se hai solo pochi minuti, guarda questa breve panoramica per scoprire le varie possibilità.
+Il video seguente offre una breve panoramica di possibili soluzioni.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Accedi al Customer Journey Analytics {#login}
+## Aree di Analysis Workspace
 
-Per iniziare a utilizzare Analysis Workspace, accedi a Customer Journey Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se un progetto specifico non è stato selezionato in precedenza, verrà visualizzata la pagina Progetti.
+L&#39;immagine seguente e la tabella che la accompagna spiegano alcune delle aree principali di Analysis Workspace:
 
-![](assets/create-new-project.png)
+![Panoramica di Analysis Workspace](assets/analysis-workspace-overvew.png)
 
-## Utilizzare il modello di tutorial di formazione {#training-tutorial}
+| Posizione nell’immagine | Nome e funzione |
+|---------|----------|
+| A | **Barra a sinistra:** Contiene schede per l’aggiunta di pannelli, visualizzazioni e componenti ad Analysis Workspace. Contiene anche l’icona del dizionario dati utilizzata per aprire il dizionario dati. |
+| B | **Barra a sinistra:** A seconda della scheda selezionata nella barra a sinistra, l’area contiene singoli pannelli, visualizzazioni o componenti. |
+| C | **Area di lavoro:** Questa è l’area principale in cui si trascinano i contenuti dalle barre di sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando aggiungi pannelli, visualizzazioni e componenti all’area di lavoro. |
+| D | **Menu a discesa suite di rapporti:** Per ogni pannello in Analysis Workspace, il menu a discesa suite di rapporti ti consente di scegliere la suite di rapporti che desideri utilizzare come origine di dati. |
 
-Una volta effettuato l’accesso, puoi iniziare con il modello Analysis Workspace Training Tutorial, che illustra la terminologia e i passaggi più comuni per la creazione della prima analisi in Workspace. Per iniziare l’esercitazione:
+## Funzionalità di Analysis Workspace {#analysis}
 
-1. Fai clic su **[!UICONTROL Learning]** a sinistra.
-1. Fai clic su **[!UICONTROL Open Tutorial]** (Usa modello di attribuzione non predefinito).
-
-![](assets/training-tutorial.png)
-
-## Creare un nuovo progetto {#new-project}
-
-Dopo aver completato l’esercitazione, puoi iniziare a creare il primo progetto. Il giorno [!UICONTROL Projects] , è possibile scegliere di iniziare da
-
-* [!UICONTROL Blank project] se prevedi di condividere l’analisi dal browser, oppure
-* [[!UICONTROL Blank mobile scorecard]](/help/mobile-app/curator.md), se prevedi di condividere l’analisi dall’app mobile delle dashboard di Customer Journey Analytics.
-
-## Generare l’analisi {#analysis}
-
-Nel progetto Workspace, puoi accedere a **pannelli, tabelle, visualizzazioni e componenti** dalla barra a sinistra. Si tratta degli elementi di base del progetto.
-
-### Componenti
-
-I **componenti** sono dimensioni, metriche, filtri o intervalli di date, che possono essere combinati in una **[!UICONTROL Freeform table]** per iniziare a rispondere a specifiche domande di business. Prima di iniziare con le analisi, impara a conoscere i diversi [tipi di componente](/help/components/overview.md). Dopo aver acquisito dimestichezza con la terminologia dei componenti, puoi iniziare a trascinarli per [generare le analisi](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in una **[!UICONTROL Freeform table]**.
-
-![](assets/build-components.png)
-
-### Visualizzazioni
-
-Le **visualizzazioni**, ad esempio i grafici a barre o a linee, vengono quindi aggiunte ai dati per riprodurli in modo visivo. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) disponibili.
-
-![](assets/build-visualizations.png)
+Di seguito sono elencate alcune delle funzioni chiave disponibili in Analysis Workspace:
 
 ### Pannelli
 
-I **pannelli** servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Panels]** superiore per visualizzare l’elenco di tutti i [panelli](/help/analysis-workspace/c-panels/panels.md) disponibili.
+I **pannelli** servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Panels]** superiore per visualizzare l’elenco di tutti i panelli disponibili.
+
+Per ulteriori informazioni sui pannelli, vedi [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
 ![](assets/build-panels.png)
+
+### Visualizzazioni
+
+**Visualizzazioni**, ad esempio un grafico a barre o a linee, può essere utilizzato per riprodurre visivamente i dati. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le visualizzazioni disponibili.
+
+Per ulteriori informazioni sulle visualizzazioni, consulta [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+
+![](assets/build-visualizations.png)
+
+### Componenti
+
+I componenti in Analysis Workspace sono costituiti dai seguenti elementi:
+
+* Dimensioni
+
+* Metriche
+
+* Segmenti
+
+* Intervalli di date
+
+Per ulteriori informazioni su ciascuno di questi tipi di componenti, consulta [Panoramica dei componenti](/help/components/overview.md).
+
+Ognuno di questi tipi di componenti può essere aggiunto a una visualizzazione (ad esempio una tabella a forma libera) per iniziare a rispondere a domande aziendali.
+
+Dopo aver compreso la terminologia dei componenti, puoi trascinarli nelle visualizzazioni (incluse le tabelle a forma libera) in [generare le analisi](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+![](assets/build-components.png)
+
+### Dizionario dati
+
+Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel proprio ambiente Analytics e a comprenderli meglio.
+
+Per ulteriori informazioni sul dizionario dati, consulta [Panoramica sul dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).
+
+## Utilizzo di Analysis Workspace
+
+### Accedere ad Adobe Analytics {#login}
+
+Per iniziare a utilizzare Analysis Workspace, accedi ad Adobe Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). La pagina Progetti di Analysis Workspace è visualizzata per impostazione predefinita. Se per impostazione predefinita è stato selezionato un progetto specifico, questo viene visualizzato come progetto.
+
+### Creazione di un progetto {#new-project}
+
+Un’analisi in Analysis Workspace è indicata come [progetto](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
+
+Puoi creare un progetto in Analysis Workspace come descritto in [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md).
+
+I progetti possono essere organizzati in cartelle e sottocartelle, come descritto in [Cartelle in Analysis Workspace](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
+### Salvare e condividere un progetto
+
+Quando crei un’analisi in Analysis Workspace, il tuo lavoro è [salvato automaticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
+
+Quando finisci di costruire il progetto e raccogli informazioni fruibili, il progetto è pronto per essere utilizzato dagli altri. Puoi condividere il progetto con utenti e gruppi all’interno della tua organizzazione o anche con persone esterne alla tua organizzazione. Per informazioni sulla condivisione di un progetto, vedi [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Risorse aggiuntive {#resources}
 
 * Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it).
+* Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it#analytics).
+* Un ottimo modo per conoscere Analysis Workspace è attraverso il modello Tutorial di Analysis Workspace Training. Questo modello illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. Per iniziare l&#39;esercitazione:
+   1. Sulla [!UICONTROL **Area di lavoro**] in Adobe Analytics, seleziona **[!UICONTROL Learning]** a sinistra.
+   1. Seleziona **[!UICONTROL Open Tutorial]** (Crea set di dati).
+      ![](assets/training-tutorial.png)
