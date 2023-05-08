@@ -3,11 +3,11 @@ description: Utilizza la visualizzazione di riepilogo delle metriche chiave per 
 title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
-exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
+source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un segmento (se desiderato):
 
-   ![](assets/key-metric-config.png)
+   ![configurazione della metrica chiave](assets/key-metric-config.png)
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
@@ -46,9 +46,9 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    | **[!UICONTROL Comparison date range]** | L’intervallo di date a cui si desidera confrontare l’intervallo di date principale. |
    | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento a cui sei interessato in modo specifico per questo riepilogo. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
 
 ## Visualizza l’output
 
@@ -62,7 +62,7 @@ Nota:
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
-![](assets/key-metric-output2.png)
+![statistiche](assets/key-metric-output2.png)
 
 ## Impostazioni di visualizzazione
 
@@ -89,7 +89,7 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
 1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
 
-   ![](assets/edit-icon.png)
+   ![modifica](assets/edit-icon.png)
 
    Ora ritorni alla visualizzazione di configurazione originale.
 

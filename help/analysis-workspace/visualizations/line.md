@@ -3,14 +3,18 @@ description: Utilizza la visualizzazione delle linee per rappresentare set di da
 title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Linee
+
+>[!NOTE]
+>
+>La visualizzazione delle linee sarà presto disponibile [sottotitoli intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere usato solo con una dimensione temporale.
 
