@@ -4,9 +4,9 @@ title: Modificare le voci nel dizionario dati
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,10 @@ Per modificare un componente nel dizionario dati:
    Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimension** ![Icona Dimension](assets/dimension-icon.png) sono arancioni, **Segmenti** ![Icona Segmento](assets/segment-icon.png) sono blu, **Intervalli di date** ![Icona Intervallo date](assets/date-range-icon.png) sono viola, e **Metriche** ![Icona della metrica](assets/default-metric-icon.png) sono verdi. Icona Adobe ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento e l’icona del calcolatore ![Icona Calcolatore](assets/calculated-metric-icon-created.png) indica una metrica calcolata creata da un amministratore di Analytics nella tua organizzazione.
 
 {{dd-filter-criteria}}
+
+1. (Facoltativo) Seleziona la **Ordinare** icona ![Icona Ordina componenti](assets/component-sort-icon.png), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
+
+   {{components-sort-options}}
 
 1. Dall’elenco dei componenti, seleziona il componente da modificare.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 72%
+source-wordcount: '950'
+ht-degree: 68%
 
 ---
 # Snippet
@@ -56,3 +56,14 @@ ht-degree: 72%
 | [!UICONTROL **Data ultima modifica**] | Mostra il giorno dell’ultima modifica apportata al componente. Questa sezione viene visualizzata quando visualizzi Filtri, Metriche, Metriche calcolate e Intervalli di date. |
 
 {style="table-layout:auto"}
+
+## Opzioni di ordinamento dei componenti {#components-sort-options}
+
+| Opzione | Funzione |
+|---------|----------|
+| [!UICONTROL **Consigliato**] | Ordina i componenti con quelli consigliati nella parte superiore dell’elenco. I componenti utilizzati più di frequente e più di recente dall’utente o da altri utenti dell’organizzazione vengono visualizzati più in alto nell’elenco. |
+| [!UICONTROL **Alfabetico**] | Ordina i componenti in ordine alfabetico. |
+| [!UICONTROL **Categoriche**] | Ordina i componenti in base al tipo di componente (dimensione, metrica, segmento, intervallo di date). |
+
+{style="table-layout:auto"}
+
