@@ -5,7 +5,7 @@ description: Panoramica delle funzionalità di Analysis Workspace
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
+source-git-commit: e3c9db595b26b96c2079a770ede1bdd609f6de14
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 23%
@@ -31,7 +31,7 @@ L&#39;immagine seguente e la tabella che la accompagna spiegano alcune delle are
 | A | **Barra a sinistra:** Contiene schede per l’aggiunta di pannelli, visualizzazioni e componenti ad Analysis Workspace. Contiene anche l’icona del dizionario dati utilizzata per aprire il dizionario dati. |
 | B | **Barra a sinistra:** A seconda della scheda selezionata nella barra a sinistra, l’area contiene singoli pannelli, visualizzazioni o componenti. |
 | C | **Area di lavoro:** Questa è l’area principale in cui si trascinano i contenuti dalle barre di sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando aggiungi pannelli, visualizzazioni e componenti all’area di lavoro. |
-| D | **Menu a discesa suite di rapporti:** Per ogni pannello in Analysis Workspace, il menu a discesa suite di rapporti ti consente di scegliere la suite di rapporti che desideri utilizzare come origine di dati. |
+| D | **Menu a discesa Visualizzazione dati:** Per ciascun pannello in Analysis Workspace, il menu a discesa visualizzazione dati ti consente di scegliere la visualizzazione dati da utilizzare come origine dati. |
 
 ## Funzionalità di Analysis Workspace {#analysis}
 
@@ -105,5 +105,5 @@ Quando finisci di costruire il progetto e raccogli informazioni fruibili, il pro
 * Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it#analytics).
 * Un ottimo modo per conoscere Analysis Workspace è attraverso il modello Tutorial di Analysis Workspace Training. Questo modello illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. Per iniziare l&#39;esercitazione:
    1. Sulla [!UICONTROL **Area di lavoro**] in Adobe Analytics, seleziona **[!UICONTROL Learning]** a sinistra.
-   1. Seleziona **[!UICONTROL Open Tutorial]** (Crea set di dati).
+   1. Seleziona **[!UICONTROL Open Tutorial]** (Aggiungi gruppi di campi).
       ![](assets/training-tutorial.png)
