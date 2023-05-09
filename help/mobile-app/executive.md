@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 97%
+source-wordcount: '1245'
+ht-degree: 91%
 
 ---
 
@@ -61,9 +61,15 @@ Per utilizzare le dashboard:
 
 1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
-1. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
+   L’elenco delle scorecard mostra tutte le scorecard condivise con te.
 
-   ![Scegliere un’azienda](assets/nextseq.png)
+1. Toccare la scheda di valutazione che si desidera visualizzare.
+
+   Se hai accesso a più organizzazioni con un solo accesso, tutte le scorecard delle organizzazioni sono disponibili nell’elenco delle scorecard.
+
+   È possibile ordinare l’elenco delle scorecard in base al titolo della scorecard, al nome dell’organizzazione o alla visualizzazione più recente. Puoi anche cercare una scheda di valutazione specifica.
+
+   ![Scegliere un’azienda](assets/mobile-home-screen.png)
 
    Se effettui l’accesso e vedi un messaggio che dice che non è stato condiviso nulla, verifica quanto segue con il tuo curatore:
 
