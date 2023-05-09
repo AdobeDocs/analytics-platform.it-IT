@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
-workflow-type: ht
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Nel Data Block Manager (Gestore dei blocchi di dati) sono elencati tutti i blocc
 
 ## Ordinare l’elenco di blocchi di dati
 
-Puoi ordinare l’elenco di blocchi di dati in base a una colonna visualizzata. Ad esempio, puoi ordinare l’elenco di blocchi di dati per Suite di rapporti, Filtri, Intervallo date e altre variabili.
+Puoi ordinare l’elenco di blocchi di dati in base a una colonna visualizzata. Ad esempio, puoi ordinare l’elenco Bloccati di dati per visualizzazioni dati, filtri, intervallo date e altre variabili.
 
 Per ordinare l’elenco di blocchi di dati, fai clic su un’intestazione di colonna.
 
@@ -40,7 +40,7 @@ Per ordinare l’elenco di blocchi di dati, fai clic su un’intestazione di col
 
 ## Ricerca nell’elenco di blocchi di dati
 
-Utilizza il campo di ricerca per individuare qualsiasi elemento nella tabella dei blocchi di dati. Ad esempio, puoi cercare le metriche contenute nei blocchi di dati o nella suite di rapporti. Puoi inoltre cercare le date visualizzate nelle colonne dell’intervallo di date, della data di modifica o dell’ultima esecuzione.
+Utilizza il campo di ricerca per individuare qualsiasi elemento nella tabella dei blocchi di dati. Ad esempio, puoi cercare le metriche contenute nei blocchi di dati o nella visualizzazione dati. Puoi inoltre cercare le date visualizzate nelle colonne dell’intervallo di date, della data di modifica o dell’ultima esecuzione.
 
 ![immagine](./assets/image55.png)
 

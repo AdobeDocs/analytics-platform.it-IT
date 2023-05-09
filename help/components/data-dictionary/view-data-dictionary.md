@@ -3,10 +3,11 @@ description: Il dizionario dati in Analysis Workspace consente agli utenti di ca
 title: Visualizza dizionario dati
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +27,7 @@ Per visualizzare informazioni su un componente nel dizionario dati:
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. Assicurati che la suite di rapporti contenente il componente che desideri visualizzare sia selezionata nel menu a discesa. Per impostazione predefinita, viene visualizzata la suite di rapporti già in uso.
+1. Assicurati che la visualizzazione dati contenente il componente che desideri visualizzare sia selezionata nel menu a discesa. Per impostazione predefinita, viene visualizzata la visualizzazione dati già in uso.
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare.
 

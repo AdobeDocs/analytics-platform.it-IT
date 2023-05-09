@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 7065215f89f964e7504f3e95996b352410b89779
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2294'
+ht-degree: 98%
 
 ---
 
@@ -55,9 +55,9 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 Per implementare il template della scorecard:
 
-1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati. Le suite dei rapporti sono visualizzazioni di dati in CJA.
+1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
 
-   ![Selezione di suite di rapporti](assets/properties_save.png)
+   ![selezione della visualizzazione dati](assets/properties_save.png)
 
 1. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
@@ -100,7 +100,7 @@ Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i
 
 ![Nuova scorecard4](assets/new_score_card4.png)
 
-Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario.
+Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario .
 
 ![Nuova scorecard5](assets/new_score_card5.png)
 
@@ -215,68 +215,68 @@ Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, 
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
-## Creare storie di dati {#create-data-story}
+## Creare presentazioni di dati {#create-data-story}
 
-Una storia di dati è una raccolta di punti di dati di supporto, contesto di business e metriche correlate basate su un tema o una metrica centrale.
+Una presentazione di dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
 
-Ad esempio, se ti concentri sul traffico web, la metrica più importante può essere costituita dalle visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler visualizzare i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le storie di dati nei progetti di scorecard per dispositivi mobili consentono di mettere in primo piano e al centro le metriche più importanti, raccontando l’intera storia dietro le metriche con più diapositive di dettaglio.
+Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
-Guarda il video per ulteriori informazioni sulla creazione di storie di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace.
+Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Per creare una storia di dati** {#data-story-create}
+**Creazione di una presentazione di dati** {#data-story-create}
 
-Crea la tua storia di dati aggiungendo più diapositive di dettaglio a una tessera.
+Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una sezione.
 
 1. Inizia con un progetto di scorecard per dispositivi mobili.
-1. Selezionate un riquadro da cui creare una storia.
-   ![Creare una storia di dati](assets/data-story1.png)
-   ![Creare icone delle storie di dati](assets/create-data-story.png){width=".50%"}
-1. Aggiungi delle diapositive per creare la tua storia dei dati. La prima diapositiva viene generata per impostazione predefinita.
-Per aggiungere nuove diapositive, passa il cursore del mouse o fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
+1. Seleziona una sezione da cui desideri creare una presentazione.
+   ![Creare una presentazione di dati](assets/data-story1.png)
+   ![Creare icone della presentazione di dati](assets/create-data-story.png){width=".50%"}
+1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
+Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
    * Tocca il segno + per creare una nuova diapositiva.
-   * Toccare l&#39;icona di duplicazione per duplicare la diapositiva esistente.
-1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per compilare automaticamente la diapositiva con i dati della sezione.
-   ![Creare una storia di dati](assets/data-story2.png)
+   * Tocca l’icona Duplica per duplicare la diapositiva esistente.
+1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
+   ![Creare una presentazione di dati](assets/data-story2.png)
 Per eliminare una diapositiva, tocca l’icona del cestino.
 
-### Personalizzare una storia di dati {#customize-data-story}
+### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le storie di dati consentono di personalizzare tutto in modo da condividere le informazioni che si desidera condividere ed escludere tutto ciò che non è necessario. È possibile personalizzare sezioni e singole diapositive per aggiungere filtri, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e cambiare le visualizzazioni.
 
-**Per personalizzare le tessere**
+**Personalizzazione delle sezioni**
 
-1. Tocca una tessera. La tessera selezionata è evidenziata in blu e il pannello di destra mostra le proprietà della tessera.
-1. Consente di modificare il titolo, il tipo di grafico e altre opzioni di sezione.
+1. Tocca una sezione. La sezione selezionata è evidenziata in blu e il pannello a destra mostra le Proprietà della sezione.
+1. Modifica il titolo, il tipo di grafico e altre opzioni della sezione.
 1. Trascina un componente sulla sezione.
-   ![Creare una storia di dati](assets/data-story3.png)
-Quando trascini un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia di dati.
-1. Per applicare una modifica solo al titolo, tenete premuto il tasto Maiusc per applicare la modifica.
-   ![Creare una storia di dati](assets/data-story4.png)
+   ![Creare una presentazione di dati](assets/data-story3.png)
+Quando trascini un componente, ad esempio una visualizzazione, su una sezione, il componente viene applicato a tutte le diapositive della presentazione di dati.
+1. Per applicare una modifica solo al titolo, tieni premuto il tasto Maiusc per applicarla.
+   ![Creare di una presentazione di dati](assets/data-story4.png)
 
 >[!NOTE]
->Le diapositive ereditano i componenti dalla sezione, ma le sezioni non ereditano i componenti dalle diapositive.
+>Le diapositive ereditano i componenti dalla tessera, ma le porzioni non ereditano i componenti dalle diapositive.
 
-**Per personalizzare singole diapositive**
+**Personalizzazione di singole diapositive**
 
-È possibile modificare la visualizzazione per singole diapositive in una storia di dati. Ad esempio, potete modificare una barra orizzontale in un grafico ad anello per una diapositiva specifica. È inoltre possibile modificare il layout. Consulta [Personalizzare le diapositive di dettaglio](#customize-detail-slide).
+È possibile modificare la visualizzazione per singole diapositive di una presentazione di dati. Ad esempio, puoi trasformare una barra orizzontale in un grafico ad anello per una diapositiva specifica. Puoi anche modificare il layout. Consulta [Personalizzare le diapositive in dettaglio](#customize-detail-slide).
 
-### Visualizzare l’anteprima di una storia di dati {#preview-data-story}
+### Anteprima di una presentazione di dati {#preview-data-story}
 
-Dopo aver creato una storia di dati, utilizza **Anteprima** per visualizzare e interagire con una storia di dati come se fossi un utente dell’app. Per informazioni sull’anteprima della tua storia dei dati, consulta [Visualizzare in anteprima una scorecard](#preview)
+Dopo aver creato una presentazione di dati, utilizza il pulsante **Anteprima** per visualizzare e interagire con essa come se fossi un utente dell’app. Per informazioni sull’anteprima della presentazione di dati, consulta [Anteprima di una scorecard](#preview)
 
 ### Spostarsi tra sezioni e diapositive {#navigate-tiles-slides}
 
-Nella barra di spostamento vengono visualizzate icone che rappresentano gli elementi presenti in ogni diapositiva. La barra di spostamento consente di passare facilmente a una diapositiva specifica se sono presenti numerose diapositive.
+Nella barra di navigazione sono visualizzate icone che rappresentano gli elementi presenti in ciascuna diapositiva. La barra di navigazione facilita il passaggio a una diapositiva specifica se sono presenti molte diapositive.
 
-Per spostarsi tra il riquadro e le diapositive, tocca la barra di navigazione.
-![Creare una storia di dati](assets/data-story5.png)
-![Creare una storia di dati](assets/data-story-nav.png){width="45%"}
+Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
+![Creare una presentazione di dati](assets/data-story5.png)
+![Creare una presentazione di dati](assets/data-story-nav.png){width="45%"}
 
-Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera o selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
+Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 
-## Anteprima scorecard {#preview}
+## Anteprima delle scorecard {#preview}
 
 Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Analytics.
 
@@ -296,7 +296,7 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard u
 
    * Fai clic e tieni premuto per simulare la pressione del dito sullo schermo del telefono. Questo è utile per interagire con le visualizzazioni nella vista dettagliata.
 
-## Denomina scorecard {#name}
+## Scorecard dei nomi {#name}
 
 Per dare un nome alla scorecard, fai clic sullo spazio del nome in alto a sinistra dello schermo e digita il nuovo nome.
 

@@ -3,11 +3,11 @@ title: Gestire le annotazioni
 description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Components
-exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 87%
 
 ---
 
@@ -28,17 +28,17 @@ Il gestore [!UICONTROL Annotations] mostra tutte le annotazioni di cui sei propr
 | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- | 
 | [!UICONTROL Title and Description] | Forniti nel generatore di annotazioni. Per modificare il titolo e la descrizione, fai clic sul collegamento del titolo, che ti riporta al generatore di annotazioni. |
-| [!UICONTROL Report Suite] | Le suite di rapporti a cui viene applicata l’annotazione. |
+| [!UICONTROL Data view] | Le visualizzazioni dati a cui si applica l’annotazione. |
 | [!UICONTROL Owner] | Proprietario dell’annotazione. In quanto utente non amministratore, puoi visualizzare solo le annotazioni che possiedi o quelle che sono state condivise con te. |
 | [!UICONTROL Applied Date Range] | Data o intervallo di date a cui viene applicata l’annotazione. |
 | [!UICONTROL Shared with] | Elenca con quanti singoli utenti o gruppi hai condiviso l’annotazione. Fai clic per ulteriori dettagli. |
-| [!UICONTROL Date Modified] | Mostra la data e l’ora dell’ultima modifica apportata all’annotazione. |
+| [!UICONTROL Date Modified] | Data e ora dell’ultima modifica apportata all’annotazione. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Modificare le annotazioni
 
-La modifica di un’annotazione consente di regolare gli intervalli di date, i colori, l’ambito o se deve essere applicata o meno a tutte le suite di rapporti o a tutti i progetti. È possibile modificare le annotazioni in due modi:
+La modifica di un’annotazione consente di regolare intervalli di date, colori, ambito o se si applica o meno a tutte le visualizzazioni dati o ai progetti. È possibile modificare le annotazioni in due modi:
 
 * In un grafico a linee, porta il cursore sull’annotazione e fai clic sull’icona a forma di matita nella finestra a comparsa.
 
@@ -58,7 +58,7 @@ Quando condividi delle annotazioni o usi quelle che sono state condivise con te,
 
 ## Annotazioni e fusi orari
 
-Tutte le annotazioni vengono create con una marca temporale, ma senza informazioni relative all’ora o al fuso orario. Al momento della creazione di un rapporto, viene sempre applicato il fuso orario della visualizzazione dati del pannello. Quindi, un’annotazione creata per Natale si verifica il 25 dicembre, indipendentemente dal fuso orario della suite di rapporti in cui ti trovi.
+Tutte le annotazioni vengono create con una marca temporale, ma senza informazioni relative all’ora o al fuso orario. Al momento del rapporto, viene sempre applicato il fuso orario della visualizzazione dati del pannello. Quindi, il 25 dicembre si verifica un&#39;annotazione creata per il giorno di Natale, indipendentemente dal fuso orario in cui vengono visualizzati i dati.
 
 Un altro esempio è Capodanno. Ogni ora, in un fuso orario diverso iniziano i fuochi d’artificio per festeggiare il nuovo anno. Alle 22:00 US Mountain Time, sulla costa orientale degli Stati Uniti è già mezzanotte e iniziano i fuochi d’artificio.
 
@@ -76,6 +76,6 @@ Quando selezioni una o più annotazioni, viene visualizzata la barra delle attiv
 | Rename (Rinomina) | Quando si rinomina un’annotazione, il nuovo nome compare in tutti i progetti a cui è stata applicata. |
 | Copy (Copia) | Crea una copia distinta con un proprio ID di annotazione, ma con lo stesso nome e la stessa definizione. |
 | Export to CSV (Esporta in CSV) | Esporta la definizione dell’annotazione in un file .csv. |
-| Filtro (barra a sinistra) | Consente di filtrare per tag, suite di rapporti, proprietari e altri filtri (le mie annotazioni, approvate, preferite, condivise con me e tutte). |
+| Filtro (barra a sinistra) | Filtrare per tag, visualizzazioni dati, proprietari e altri filtri (Personali, Approvati, Preferiti, Condivisi con me e Mostra tutto). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

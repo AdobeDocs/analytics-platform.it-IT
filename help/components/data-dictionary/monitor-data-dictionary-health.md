@@ -1,16 +1,17 @@
 ---
 description: Gli amministratori sono responsabili del monitoraggio dello stato di Data Dictionary. Ciò include il fatto che i componenti raccolgano dati, siano approvati, contengano descrizioni e siano privi di duplicati.
-title: Monitorare lo stato del dizionario dati
+title: Monitorare l’integrità del dizionario dati
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Monitorare lo stato del dizionario dati
+# Monitorare l’integrità del dizionario dati
 
 Gli amministratori di Customer Journey Analytics sono responsabili della manutenzione di un dizionario dati sano.
 
@@ -38,7 +39,7 @@ Per identificare i problemi di salute nel tuo dizionario dati:
 
    ![Visualizzazione amministratore del dizionario dati](assets/data-dictionary-admin.png)
 
-1. Assicurati che nel menu a discesa sia selezionata la suite di rapporti corretta.
+1. Assicurati che nel menu a discesa sia selezionata la visualizzazione dati corretta.
 
 1. Sulla [!UICONTROL **Salute dei dizionari**] scheda , seleziona [!UICONTROL **Visualizza**] accanto a una delle seguenti opzioni:
 

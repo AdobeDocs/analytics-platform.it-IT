@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Concurrent Viewers
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il 
 
 In Analysis Workspace, per visualizzatori simultanei si intende il numero di visitatori univoci che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.
 
-Il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.  Per accedere al pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti), passa a una suite di rapporti con i componenti Media Analytics abilitati. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
+Il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.  Per accedere al pannello Visualizzatori simultanei di contenuti multimediali, accedi a una visualizzazione dati con i componenti Media Analytics abilitati. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 
 Ecco una panoramica video del pannello:
 
@@ -59,7 +59,7 @@ L’unica metrica che può essere utilizzata in questo pannello è Visualizzator
 
 | Metrica | Descrizione |
 |---|---|
-| Visualizzatori simultanei | Numero di visitatori unici che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting sui visualizzatori simultanei nella sezione Rapporti, in cui vengono utilizzate sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i “picchi” indesiderati in corrispondenza dei confini tra dati da visualizzare (dove le sessioni terminano e iniziano allo stesso momento). |
+| Visualizzatori simultanei | Numero di visitatori unici che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.<br><br>È diverso dal reporting sui visualizzatori simultanei nella sezione Rapporti, in cui vengono utilizzate sessioni attive simultanee.  L’utilizzo di visitatori univoci consente di rimuovere i &quot;picchi&quot; indesiderati a mostra i limiti (dove le sessioni terminano e iniziano contemporaneamente). |
 
 In questa visualizzazione non è disponibile una tabella a forma libera.  Per visualizzare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica come file .csv.  Saranno inclusi i raggruppamenti per serie di dati.
 

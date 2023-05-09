@@ -3,16 +3,17 @@ description: Il dizionario dati in Analysis Workspace consente agli utenti di ca
 title: Modificare le voci nel dizionario dati
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Modificare le voci del componente nel dizionario dati
+# Modificare le voci dei componenti nel dizionario dati
 
-Gli amministratori di Customer Journey Analytics possono modificare le voci dei componenti nel dizionario dati per una determinata suite di rapporti. Tutte le modifiche apportate sono visibili a tutti gli utenti della suite di rapporti.
+Gli amministratori di Customer Journey Analytics possono modificare le voci dei componenti nel dizionario dati per una data visualizzazione dati. Tutte le modifiche apportate sono visibili a tutti gli utenti della visualizzazione dati.
 
 Per modificare un componente nel dizionario dati:
 
@@ -24,7 +25,7 @@ Per modificare un componente nel dizionario dati:
 
    ![Visualizzazione amministratore del dizionario dati](assets/data-dictionary-admin.png)
 
-1. Assicurati che nel menu a discesa sia selezionata la suite di rapporti corretta. Per impostazione predefinita, viene visualizzata la suite di rapporti già in uso.
+1. Assicurati che nel menu a discesa sia selezionata la visualizzazione dati corretta. Per impostazione predefinita, viene visualizzata la visualizzazione dati già in uso.
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente da modificare.
 

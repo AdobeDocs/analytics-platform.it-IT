@@ -1,16 +1,17 @@
 ---
 description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, compreso l’uso previsto, che sono approvati, che sono duplicati, e così via.
-title: Panoramica sul dizionario dati
+title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica sul dizionario dati
+# Panoramica del dizionario dati
 
 Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel proprio ambiente Analytics e a comprenderli meglio.
 
@@ -44,11 +45,11 @@ Di seguito sono riportati alcuni modi in cui gli amministratori di Analytics pos
 
 * Identifica i componenti non ancora approvati.
 
-* Aggiorna le descrizioni dei componenti direttamente in Analysis Workspace. Qualsiasi aggiornamento apportato alle descrizioni dei componenti nel dizionario dati si riflette nella suite di rapporti.
+* Aggiorna le descrizioni dei componenti direttamente in Analysis Workspace. Tutti gli aggiornamenti apportati alle descrizioni dei componenti nel dizionario dati vengono visualizzati nella visualizzazione dati.
 
-   Allo stesso modo, qualsiasi aggiornamento apportato alle descrizioni dei componenti nella suite di rapporti si riflette in Analysis Workspace.
+   Allo stesso modo, qualsiasi aggiornamento alle descrizioni dei componenti nella visualizzazione dati si riflette in Analysis Workspace.
 
-   Per ulteriori informazioni sull’aggiunta di descrizioni dei componenti in Analysis Workspace o in una suite di rapporti, consulta [Aggiungi descrizioni dei componenti](/help/components/add-component-descriptions.md).
+   Per ulteriori informazioni sull’aggiunta di descrizioni dei componenti in Analysis Workspace o in una visualizzazione dati, consulta [Aggiungi descrizioni dei componenti](/help/components/add-component-descriptions.md).
 
 ## Accedere al dizionario dati
 

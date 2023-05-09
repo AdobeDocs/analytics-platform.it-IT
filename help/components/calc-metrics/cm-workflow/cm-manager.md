@@ -3,7 +3,7 @@ description: Il Gestore della metrica calcolata offre diversi modi per curare le
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 13%
@@ -23,7 +23,7 @@ Il Gestore della metrica calcolata mostra tutti i segmenti che possiedi e che so
 | Funzionalità dell’interfaccia utente | Descrizione |
 | --- | --- |
 | Barra degli strumenti per la gestione delle metriche calcolate | Dopo aver selezionato una metrica, viene visualizzata questa barra degli strumenti. La maggior parte delle attività di gestione può essere completata da questa barra degli strumenti. |
-| Mostra/Nascondi filtri | Facendo clic su Mostra filtri viene visualizzato il menu del filtro. Puoi filtrare per tag, suite di rapporti, proprietari, Mostra tutto (solo amministratori), Condiviso con me, Personale, Preferiti e Approvato. |
+| Mostra/Nascondi filtri | Facendo clic su Mostra filtri viene visualizzato il menu del filtro. Puoi filtrare per tag, visualizzazioni dati, proprietari, Mostra tutto (solo amministratore), Condiviso con me, Personale, Preferiti e Approvato. |
 | Caselle di controllo | Seleziona una metrica personalizzata per gestirla. |
 | Preferiti | Facendo clic sulla stella accanto a una metrica, la stella diventa gialla e la metrica viene contrassegnata come preferita. |
 | Filtra titoli e descrizioni | Fornito nel Generatore della metrica calcolata. Per modificare il titolo e la descrizione, fai clic sul collegamento del titolo, che ti riporta al Generatore di metrica calcolata. |

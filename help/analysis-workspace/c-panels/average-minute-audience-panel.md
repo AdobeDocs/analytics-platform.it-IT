@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ I clienti Media Analytics possono utilizzare il pannello del pubblico medio per 
 In Analysis Workspace, il pubblico medio per minuto corrisponde al tempo impiegato per visualizzare il flusso multimediale diviso per la durata del contenuto oppure per la selezione totale del periodo e della granularità selezionata.
 
 Il pannello Pubblico medio per minuto fornisce analisi medie del pubblico in base al contenuto specifico selezionato se la durata è resa disponibile utilizzando le Classificazioni.
-Il pannello Pubblico medio per minuto fornisce anche analisi per un periodo di tempo selezionato che possono essere filtrate in base al contenuto specifico, a prescindere dalla durata disponibile utilizzando le Classificazioni. Per accedere al pannello Pubblico medio per minuto passa a una suite di rapporti i cui sono abilitati i componenti Media Analytics. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
+Il pannello Pubblico medio per minuto fornisce anche analisi per un periodo di tempo selezionato che possono essere filtrate in base al contenuto specifico, a prescindere dalla durata disponibile utilizzando le Classificazioni. Per accedere al pannello Pubblico medio per minuto, accedi a una visualizzazione dati con i componenti Media Analytics abilitati. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 
 <!-- For more information, see the Media Average Minute Audience introduction video:
 << replace with AMA video when available >> -->
