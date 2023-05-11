@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: 76130aeaee4447a83c2f8feea95371dc2e38bd67
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 27%
+source-wordcount: '849'
+ht-degree: 25%
 
 ---
 
@@ -29,7 +29,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | **Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera** | In una tabella a forma libera in Analysis Workspace, è ora possibile eliminare rapidamente righe specifiche contenenti dimensioni dinamiche utilizzando l’icona x. In questo modo, viene applicata automaticamente una regola di filtro &quot;È diverso da&quot;.<p>In precedenza, l’unico modo per eliminare le righe contenenti dimensioni dinamiche era creare manualmente una regola nella finestra di dialogo Filtro. [Ulteriori informazioni](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N/D | 10 maggio 2023 |
 | **Nuovo pulsante per aggiungere una visualizzazione all’interno di un pannello** | È ora disponibile un nuovo pulsante nella parte inferiore di ciascun pannello in Analysis Workspace, che consente di aggiungere rapidamente una visualizzazione. <p>In precedenza, gli unici metodi per aggiungere una visualizzazione a un pannello consistevano nel trascinare una visualizzazione dalla barra a sinistra, duplicare o copiare una visualizzazione esistente o creare un pannello vuoto. [Ulteriori informazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/D | 17 maggio 2023 |
 | **Collegamenti profondi (app mobile)** | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. Questo rende ancora più facile condividere i progetti e aumentare l&#39;impegno da parte di un pubblico meno tecnico. | N/D | 17 maggio 2023 |
-| **Sottotitoli intelligenti** | Arricchisci la narrazione per gli utenti con riepiloghi in linguaggio naturale di una visualizzazione delle linee. | 17 maggio 2023 | 1 giugno 2023 |
+| **Sottotitoli intelligenti** | Arricchisci la narrazione per gli utenti con riassunti in lingua naturale di un [!UICONTROL Line] visualizzazione. | 17 maggio 2023 | 1 giugno 2023 |
 
 {style="table-layout:auto"}
 
@@ -42,6 +42,12 @@ AN-316412; AN-317105; AN-318122; AN-317353
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
 | N/D | N/D | N/D |
+
+## Avvisi sulla fine del ciclo di vita (EOL) {#eol}
+
+| Fine del ciclo di vita del prodotto o della funzione | Data aggiunta o aggiornata | Descrizione |
+| --- | --- | --- |
+| **Migrazione alle credenziali server-to-server OAuth di AdobeIO** | 11 maggio 2023 | I clienti che utilizzano le credenziali JWT di AdobeIO devono migrare alle credenziali server-to-server OAuth di AdobeIO API, CJA API e Livestream **1 gennaio 2025**. AdobeIO non consentirà la creazione di nuove credenziali JWT a partire dal 1° maggio 2024. I clienti che utilizzano JWT devono creare una nuova credenziale server-to-server OAuth o migrare la propria credenziale JWT esistente a una credenziale server-to-server OAuth. I clienti devono inoltre aggiornare le applicazioni client per utilizzare le nuove credenziali server-to-server OAuth. <ul><li>[Migrazione dalle credenziali dell’account di servizio (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Utilizzo delle nuove credenziali server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Domande frequenti](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul>![](assets/jwt.png) |
 
 {style="table-layout:auto"}
 
