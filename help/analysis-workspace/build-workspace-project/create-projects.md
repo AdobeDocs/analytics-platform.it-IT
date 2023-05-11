@@ -3,9 +3,9 @@ description: Scopri come creare un progetto in Analysis Workspace
 title: Creare progetti
 feature: CJA Workspace Basics
 role: User, Admin
-source-git-commit: 1c5f0a618e2e95df68ba5598948488b16c9532e6
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -22,30 +22,14 @@ Nelle sezioni seguenti viene descritto come creare un progetto e iniziare ad agg
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Area di lavoro**].
 
-1. Scegli se creare un progetto vuoto o crearne uno da un modello:
+1. Sulla [!UICONTROL **Area di lavoro**] seleziona la scheda [!UICONTROL **Progetti**] sul lato sinistro della pagina, quindi seleziona [!UICONTROL **Crea progetto**].
 
-   +++Crea un progetto vuoto
+1. Scegli se creare un progetto vuoto o una scheda di valutazione mobile vuota
 
-   1. Sulla [!UICONTROL **Area di lavoro**] seleziona la scheda [!UICONTROL **Progetti**] sul lato sinistro della pagina, quindi seleziona [!UICONTROL **Crea progetto**].
+   * **Progetto vuoto** se intendi condividere l’analisi dal browser
+   * [**Scorecard per dispositivi mobili vuota**](/help/mobile-app/curator.md) se intendi condividere le tue analisi dall’app mobile Adobe Analytics dashboards.
 
-   1. Scegli se creare un progetto vuoto o una scheda di valutazione mobile vuota
-
-      * **Progetto vuoto** se intendi condividere l’analisi dal browser
-      * [**Scorecard per dispositivi mobili vuota**](/help/mobile-app/curator.md) se intendi condividere le tue analisi dall’app mobile Adobe Analytics dashboards.
-   1. Seleziona [!UICONTROL **Crea**].
-
-+++
-
-   +++Crea un progetto da un modello
-
-   1. Sulla [!UICONTROL **Area di lavoro**] seleziona la scheda [!UICONTROL **Rapporti**] sul lato sinistro della pagina.
-
-   1. Cerca o individua il modello da utilizzare, quindi selezionalo quando viene visualizzato.
-
-      Per impostazione predefinita è disponibile un set di modelli standard. Inoltre, l’organizzazione potrebbe aver creato modelli personalizzati tra cui scegliere.
-
-      <!-- (I don't know if you can create a project from a template in CJA... Might need to delete this section. Also update table in "Projects overview") For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md). -->
-+++
+1. Seleziona [!UICONTROL **Crea**].
 
 1. Successivamente, devi aggiungere pannelli, visualizzazioni e componenti al progetto. Per prima cosa, aggiungi pannelli al progetto in Analysis Workspace, come descritto in [Aggiungi pannelli al progetto](#add-panels-to-the-project). Puoi quindi aggiungere visualizzazioni a qualsiasi pannello. Infine, puoi aggiungere componenti a qualsiasi pannello o visualizzazione.
 

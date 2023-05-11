@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica dei progetti
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 79%
+source-wordcount: '1310'
+ht-degree: 78%
 
 ---
 
@@ -27,12 +27,11 @@ La pagina Progetti contiene le seguenti informazioni:
 >
 >Alcune colonne non sono visualizzate per impostazione predefinita. Per personalizzare le colonne visualizzate, fai clic sul pulsante **Personalizzare la tabella** icona ![Personalizzare la tabella](assets/projects-page-customize-columns-icon.png).
 
-
 | Elemento | Descrizione |
 |---|---|
 | [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
 | [Crea cartella](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
-| [Crea progetto](/help/analysis-workspace/home.md) | Avvia un nuovo progetto da zero o da un [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| [Crea progetto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Avvia un nuovo progetto da zero. |
 | Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scheda di valutazione mobile, [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it)oppure [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
 | Mostra cartelle e progetti | Scegliere se visualizzare la struttura delle cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizza tabella (icona) | Consente di personalizzare le informazioni visualizzate per ogni progetto nella pagina Progetti. |
@@ -60,7 +59,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 | Opzione di menu | Descrizione |
 |---|---|
-| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva, Salva con nome e Salva come modello. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
+| Progetto | Include azioni comuni per la gestione dei progetti, tra cui Nuovo, Apri, Salva e Salva con nome. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
 | Modifica | Annulla o ripristina l’ultima azione. Con Clear All (Cancella tutto) puoi ripristinare il progetto e tornare al progetto vuoto iniziale. |
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](/help/components/overview.md) | Crea dal progetto nuovi filtri, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, usa Refresh Components (Aggiorna componenti) per recuperare le definizioni più recenti. |
