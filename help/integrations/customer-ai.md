@@ -4,11 +4,9 @@ title: Integrare la funzione IA per l’analisi dei clienti con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-hide: true
-hide-from-toc: true
-source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
+source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 70%
 
 ---
@@ -26,19 +24,19 @@ IA per l’analisi dei clienti si basa su dati comportamentali individuali e dat
 Customer AI può integrarsi con il Customer Journey Analytics (CJA) nella misura in cui i set di dati abilitati per Customer AI possono essere utilizzati nelle visualizzazioni dati e nel reporting in CJA. È possibile:
 
 * **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**.
-   * Caso di utilizzo: comprendere la probabilità che i clienti si trovino in un segmento specifico da convertire.
+   * Caso di utilizzo: Comprendi la probabilità che i clienti in un segmento specifico effettuino la conversione.
    * Esempio: Un addetto al marketing di una catena alberghiera vuole capire quale sia la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel.
 * **Analizzare gli eventi di successo o gli attributi associati ai punteggi di propensione**.
-   * Caso di utilizzo: comprendere gli attributi o gli eventi di successo associati ai punteggi di propensione.
+   * Caso di utilizzo: Comprendere gli attributi o gli eventi di successo associati ai punteggi di propensione.
    * Esempio: Un addetto al marketing di una catena alberghiera vuole capire come gli acquisti di biglietti per lo show nel luogo del concerto di un hotel sono associati ai punteggi di propensione.
 * **Seguire il flusso di entrata della tendenza del cliente su diverse esecuzioni di punteggio**.
-   * Caso di utilizzo: comprendere le persone che inizialmente erano utenti a bassa propensione e, nel tempo, sono diventati utenti ad alta propensione.
+   * Caso di utilizzo: Comprendere le persone che inizialmente erano utenti a bassa propensione e, nel tempo, sono diventati utenti ad alta propensione.
    * Esempio: Un addetto al marketing di una catena alberghiera vuole capire quali clienti sono stati inizialmente identificati come clienti con bassa propensione all&#39;acquisto di un biglietto per lo show, ma nel tempo sono diventati clienti con elevata propensione all&#39;acquisto di un biglietto per lo show.
 * **Osservare la distribuzione della tendenza**.
-   * Caso di utilizzo: comprendere la distribuzione dei punteggi di propensione per essere più precisi nella definizione dei segmenti.
+   * Caso di utilizzo: Comprendi la distribuzione dei punteggi di propensione per essere più preciso nella definizione dei segmenti.
    * Esempio: Un rivenditore desidera effettuare una promozione specifica per 50 $ su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizzano i dati e decidono di eseguire il targeting solo dell’80% in più dei loro clienti principali.
 * **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**.
-   * Caso di utilizzo: tiene traccia di una coorte specifica nel tempo.
+   * Caso di utilizzo: Tieni traccia di una coorte specifica nel tempo.
    * Esempio: Un addetto al marketing di una catena alberghiera vuole rintracciare il loro livello bronzo rispetto al loro livello argento, o livello argento rispetto al loro livello oro, nel tempo. Così possono vedere la propensione di ogni coorte a prenotare l&#39;hotel nel tempo.
 
 Per integrare effettivamente i dati di Customer AI con CJA, effettua le seguenti operazioni:
