@@ -4,9 +4,9 @@ title: Integrare la funzione IA per l’analisi dei clienti con CJA
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '951'
 ht-degree: 70%
 
 ---
@@ -25,7 +25,7 @@ Customer AI può integrarsi con il Customer Journey Analytics (CJA) nella misura
 
 * **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**.
    * Caso di utilizzo: Comprendi la probabilità che i clienti in un segmento specifico effettuino la conversione.
-   * Esempio: Un addetto al marketing di una catena alberghiera vuole capire quale sia la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel.
+   * Esempio: Un addetto al marketing di una catena alberghiera vuole capire la probabilità che un cliente dell&#39;hotel acquisti un biglietto per lo show presso la sede del concerto dell&#39;hotel.
 * **Analizzare gli eventi di successo o gli attributi associati ai punteggi di propensione**.
    * Caso di utilizzo: Comprendere gli attributi o gli eventi di successo associati ai punteggi di propensione.
    * Esempio: Un addetto al marketing di una catena alberghiera vuole capire come gli acquisti di biglietti per lo show nel luogo del concerto di un hotel sono associati ai punteggi di propensione.
@@ -37,7 +37,7 @@ Customer AI può integrarsi con il Customer Journey Analytics (CJA) nella misura
    * Esempio: Un rivenditore desidera effettuare una promozione specifica per 50 $ su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizzano i dati e decidono di eseguire il targeting solo dell’80% in più dei loro clienti principali.
 * **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**.
    * Caso di utilizzo: Tieni traccia di una coorte specifica nel tempo.
-   * Esempio: Un addetto al marketing di una catena alberghiera vuole rintracciare il loro livello bronzo rispetto al loro livello argento, o livello argento rispetto al loro livello oro, nel tempo. Così possono vedere la propensione di ogni coorte a prenotare l&#39;hotel nel tempo.
+   * Esempio: Un addetto al marketing di una catena alberghiera vuole rintracciare il loro livello bronzo rispetto al loro livello argento, o livello argento rispetto al loro livello oro, nel tempo. Possono vedere la propensione di ogni coorte a prenotare l&#39;hotel nel tempo.
 
 Per integrare effettivamente i dati di Customer AI con CJA, effettua le seguenti operazioni:
 

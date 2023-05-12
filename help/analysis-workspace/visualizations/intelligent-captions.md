@@ -3,9 +3,9 @@ description: Utilizza i sottotitoli intelligenti per generare informazioni in li
 title: Sottotitoli intelligenti
 feature: Visualizations
 role: User, Admin
-source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-I sottotitoli intelligenti utilizzano la scienza dei dati per fornire informazioni in linguaggio naturale utili per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](line.md) visualizzazione. Seguiranno altre visualizzazioni.
+I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose in linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](line.md) visualizzazione. Seguiranno altre visualizzazioni.
 
 I sottotitoli intelligenti sono rivolti a:
 
@@ -30,7 +30,7 @@ Per avviare i sottotitoli generati automaticamente per una visualizzazione delle
 
 ![lanciare sottotitoli intelligenti](assets/intell-caps-1.png)
 
-Ora vengono generate informazioni in linguaggio naturale.
+Ora vengono generate informazioni in linguaggio naturale. I sottotitoli vengono generati ogni volta che i dati selezionati sottostanti vengono modificati nella tabella che genera la visualizzazione. Inoltre, se nella tabella sono presenti più metriche, le didascalie vengono generate solo per la prima metrica o per la metrica attualmente selezionata dall’utente.
 
 Se salvi il progetto a questo punto e lo ricarichi in seguito, le didascalie vengono aggiornate automaticamente con nuovi dati. Lo stesso vale per i progetti pianificati e i file PDF esportati da questo progetto.
 
@@ -65,7 +65,3 @@ Utilizza lo stesso processo per visualizzare le didascalie.
 Se preferisci non generare didascalie intelligenti, puoi disattivare questa funzione andando nelle preferenze di visualizzazione e deselezionando **[!UICONTROL Show intelligent captions]**.
 
 ![impostazioni didascalia](assets/toggle-captions.png)
-
-## Riordinare le didascalie {#reorder}
-
-Per riordinare la visualizzazione delle didascalie, trascinare una didascalia in una nuova posizione.
