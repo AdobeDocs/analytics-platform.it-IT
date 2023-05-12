@@ -6,10 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
+source-git-commit: 5b84c2c908f947b1abed621f68aa1a324faeecde
 workflow-type: tm+mt
-source-wordcount: '2856'
-ht-degree: 3%
+source-wordcount: '2867'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,9 @@ Gli utenti devono avere accesso a:
    - progetti di CJA Workspace e
    - Visualizzazioni di dati CJA che desiderano utilizzare.
 
-- Utilizzare le credenziali in scadenza per collegare gli strumenti BI al connettore SQL CJA. Vedi [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) per ulteriori informazioni sull&#39;impostazione delle credenziali in scadenza o sulle credenziali in scadenza.
+- Utilizzare le credenziali in scadenza per collegare gli strumenti BI al connettore SQL CJA. Thr [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) fornisce ulteriori informazioni sull&#39;impostazione delle credenziali in scadenza o sulle credenziali in scadenza.
+
+Vedi [Controllo degli accessi](../admin/cja-access-control.md) nella sezione Amministrazione di CJA per ulteriori informazioni.
 
 
 ## Utilizzo
