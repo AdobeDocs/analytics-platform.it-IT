@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 84%
+source-wordcount: '1848'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Ordinare i componenti nella barra a sinistra | Sono state aggiunte informazioni sull’ordinamento dell’elenco dei componenti nella barra a sinistra. Consulta la sezione &quot;Ricerca, filtra e ordina l’elenco dei componenti&quot; in [Panoramica dei componenti](/help/components/overview.md). |
 | Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera | Sono state aggiunte informazioni su come eliminare rapidamente righe specifiche contenenti dimensioni dinamiche utilizzando l’icona x. Consulta la sezione &quot;Escludere rapidamente righe specifiche da una tabella&quot; in [Filtrare e ordinare tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Pulsante per aggiungere una visualizzazione all’interno di un pannello | Sono state aggiunte informazioni su un nuovo pulsante nella parte inferiore di ciascun pannello in Analysis Workspace, che consente di aggiungere rapidamente una visualizzazione. Consulta la sezione &quot;Aggiungi visualizzazioni a un pannello&quot; in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| Documentazione sui sottotitoli intelligenti | Arricchisci la narrazione per gli utenti con [sintesi in linguaggio naturale](/help/analysis-workspace/visualizations/intelligent-captions.md) di una visualizzazione Linee . |
 | **Aprile 2023** |  |
 | Video sull’utilizzo dei filtri come dimensioni | È stato aggiornato il video sull’utilizzo dei filtri come dimensioni. <p>Questo video è collegato dal [Creare filtri](/help/components/filters/create-filters.md) pagina.</p> <p>Di seguito è riportato un collegamento diretto al video: [Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | Documentazione del filtro | È stato aggiunto un articolo sull’utilizzo del [Generatore di filtri](/help/components/filters/filter-builder.md). <p>Documentazione semplificata in [Creare filtri](/help/components/filters/create-filters.md) e [Panoramica sui filtri](/help/components/filters/filters-overview.md).</p> |

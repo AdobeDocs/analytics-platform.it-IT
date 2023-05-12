@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 306c1432163841034c8e7a34f8e112a5cc734da4
+source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 25%
 
 ---
@@ -29,7 +29,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | **Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera** | In una tabella a forma libera in Analysis Workspace, è ora possibile eliminare rapidamente righe specifiche contenenti dimensioni dinamiche utilizzando l’icona x. In questo modo, viene applicata automaticamente una regola di filtro &quot;È diverso da&quot;.<p>In precedenza, l’unico modo per eliminare le righe contenenti dimensioni dinamiche era creare manualmente una regola nella finestra di dialogo Filtro. [Ulteriori informazioni](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N/D | 17 maggio 2023 |
 | **Nuovo pulsante per aggiungere una visualizzazione all’interno di un pannello** | È ora disponibile un nuovo pulsante nella parte inferiore di ciascun pannello in Analysis Workspace, che consente di aggiungere rapidamente una visualizzazione. <p>In precedenza, gli unici metodi per aggiungere una visualizzazione a un pannello consistevano nel trascinare una visualizzazione dalla barra a sinistra, duplicare o copiare una visualizzazione esistente o creare un pannello vuoto. [Ulteriori informazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/D | 17 maggio 2023 |
 | **Collegamenti profondi (app mobile)** | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. Questo rende ancora più facile condividere i progetti e aumentare l&#39;impegno da parte di un pubblico meno tecnico. | N/D | 17 maggio 2023 |
-| **Sottotitoli intelligenti** | Arricchisci la narrazione per gli utenti con riassunti in lingua naturale di un [!UICONTROL Line] visualizzazione. | 17 maggio 2023 | 1 giugno 2023 |
+| **Sottotitoli intelligenti** | Arricchisci la narrazione per gli utenti con riassunti in lingua naturale di un [!UICONTROL Line] visualizzazione. [Ulteriori informazioni](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 maggio 2023 | 1 giugno 2023 |
 
 {style="table-layout:auto"}
 
