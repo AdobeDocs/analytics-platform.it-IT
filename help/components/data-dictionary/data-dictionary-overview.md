@@ -4,7 +4,7 @@ title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 9f1a96308fce7fb827cba43833df96098f05ef93
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel proprio ambiente Analytics e a comprenderli meglio.
 
 Gli amministratori di Analytics sono responsabili della gestione delle informazioni su ciascun componente nel dizionario dati per renderlo disponibile agli utenti.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## Vantaggi per gli utenti
 
