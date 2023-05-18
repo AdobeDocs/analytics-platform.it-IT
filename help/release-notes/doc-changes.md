@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,19 +20,19 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Maggio 2023** |  |
-| Panoramica di Analysis Workspace | Aggiornato [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md) per includere informazioni generali sulla panoramica e collegamenti ai contenuti pertinenti. |
-| Creare progetti | È stato creato un nuovo articolo che spiega in dettaglio come [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
+| Panoramica di Analysis Workspace | È stata aggiornata la [panoramica di Analysis Workspace](/help/analysis-workspace/home.md), che ora include informazioni generali di panoramica e collegamenti ai contenuti pertinenti. |
+| Creare progetti | È stato pubblicato un nuovo articolo che spiega in dettaglio come [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | Ordinare i componenti nella barra a sinistra | Sono state aggiunte informazioni sull’ordinamento dell’elenco dei componenti nella barra a sinistra. Consulta la sezione &quot;Ricerca, filtra e ordina l’elenco dei componenti&quot; in [Panoramica dei componenti](/help/components/overview.md). |
 | Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera | Sono state aggiunte informazioni su come eliminare rapidamente righe specifiche contenenti dimensioni dinamiche utilizzando l’icona x. Consulta la sezione &quot;Escludere rapidamente righe specifiche da una tabella&quot; in [Filtrare e ordinare tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Pulsante per aggiungere una visualizzazione all’interno di un pannello | Sono state aggiunte informazioni su un nuovo pulsante nella parte inferiore di ciascun pannello in Analysis Workspace, che consente di aggiungere rapidamente una visualizzazione. Consulta la sezione &quot;Aggiungi visualizzazioni a un pannello&quot; in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | Documentazione sui sottotitoli intelligenti | Arricchisci la narrazione per gli utenti con [sintesi in linguaggio naturale](/help/analysis-workspace/visualizations/intelligent-captions.md) di una visualizzazione Linee . |
 | **Aprile 2023** |  |
-| Video sull’utilizzo dei filtri come dimensioni | È stato aggiornato il video sull’utilizzo dei filtri come dimensioni. <p>Questo video è collegato dal [Creare filtri](/help/components/filters/create-filters.md) pagina.</p> <p>Di seguito è riportato un collegamento diretto al video: [Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
-| Documentazione del filtro | È stato aggiunto un articolo sull’utilizzo del [Generatore di filtri](/help/components/filters/filter-builder.md). <p>Documentazione semplificata in [Creare filtri](/help/components/filters/create-filters.md) e [Panoramica sui filtri](/help/components/filters/filters-overview.md).</p> |
-| Aggiornamento della documentazione del pannello Sperimentazione | È stata aggiunta una sezione su [interpretazione di dimensioni non randomizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
-| Filtri di progetto (filtri rapidi e ad hoc) | Documentazione semplificata sui filtri dei progetti e sulle informazioni duplicate rimosse. I passaggi per la creazione di filtri ad hoc sono ora combinati con i passaggi per [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |
+| Video sull’utilizzo dei filtri come dimensioni | È stato aggiornato il video sull’utilizzo dei filtri come dimensioni. <p>Il collegamento al video è disponibile dalla pagina [Creare filtri](/help/components/filters/create-filters.md).</p> <p>Di seguito è riportato un collegamento diretto al video: [Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=it).</p> |
+| Documentazione del filtro | È stato aggiunto un articolo sull’utilizzo del [Generatore di filtri](/help/components/filters/filter-builder.md). <p>Documentazione semplificata di [Creare filtri](/help/components/filters/create-filters.md) e [Panoramica sui filtri](/help/components/filters/filters-overview.md).</p> |
+| Aggiornamento della documentazione del pannello Sperimentazione | È stata aggiunta una sezione sull’[interpretazione di dimensioni non randomizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=it#non-randomized). |
+| Filtri di progetto (filtri rapidi e ad hoc) | Documentazione semplificata sui filtri di progetto e rimozione delle informazioni duplicate. I passaggi per la creazione di filtri ad hoc sono ora combinati con quelli per la [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |
 | **Marzo 2023** |  |
-| Integrare i dati di gestione delle decisioni | È stato aggiunto del contenuto che spiega come [integrare i dati di gestione delle decisioni Adobe Journey Optimizer in CJA](/help/integrations/ajo-od.md). |
+| Integrare i dati di gestione delle decisioni | È stato aggiunto del contenuto che spiega come [integrare i dati di gestione delle decisioni di Adobe Journey Optimizer in CJA](/help/integrations/ajo-od.md). |
 | Presentare i dati nelle scorecard per dispositivi mobili | Una [presentazione di dati](/help/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
 | Supporto delle funzioni aggiornato | Aggiornamento delle [Funzionalità supportate di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md) in una tabella delle funzionalità disponibile in CJA ma non disponibile o supportata in AA. |
 | Metriche calcolate predefinite | Sono stati aggiunti contenuti che spiegano le [metriche calcolate predefinite fornite da Adobe](/help/components/calc-metrics/default-calcmetrics.md). |
