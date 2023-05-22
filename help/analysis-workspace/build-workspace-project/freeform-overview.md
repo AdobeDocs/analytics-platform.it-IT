@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Panoramica dei progetti
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
+source-git-commit: 7086224bdbdfe3ae05fce95a13491f430e79b8c6
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 78%
@@ -21,35 +21,35 @@ Quando scegli **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** per la pri
 
 ![](assets/sample-project.png)
 
-La pagina Progetti contiene le seguenti informazioni:
+La pagina Progetti contiene le informazioni riportate di seguito.
 
 >[!NOTE]
 >
->Alcune colonne non sono visualizzate per impostazione predefinita. Per personalizzare le colonne visualizzate, fai clic sul pulsante **Personalizzare la tabella** icona ![Personalizzare la tabella](assets/projects-page-customize-columns-icon.png).
+>Alcune colonne non vengono visualizzate per impostazione predefinita. Per personalizzare le colonne visualizzate, fare clic su **Personalizza tabella** icona ![Personalizza tabella](assets/projects-page-customize-columns-icon.png).
 
 | Elemento | Descrizione |
 |---|---|
 | [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
 | [Crea cartella](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
 | [Crea progetto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Avvia un nuovo progetto da zero. |
-| Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scheda di valutazione mobile, [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it)oppure [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
-| Mostra cartelle e progetti | Scegliere se visualizzare la struttura delle cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Personalizza tabella (icona) | Consente di personalizzare le informazioni visualizzate per ogni progetto nella pagina Progetti. |
+| Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scorecard per dispositivi mobili. [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it), o [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
+| Mostra cartelle e progetti | Scegli se visualizzare la struttura di cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Personalizza tabella (icona) | Consente di personalizzare le informazioni visualizzate per ciascun progetto nella pagina Progetti. |
 | Nome | Nome del progetto Workspace. |
 | Tipo | Indica se si tratta di un progetto Workspace, una cartella o un [Scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it). |
 | Tag | Tag che sono stati applicati al progetto. |
-| Pianificato | Indica se i progetti devono essere inviati via e-mail ai destinatari in base a una pianificazione. Vedi [Pianificare progetti](/help/analysis-workspace/curate-share/t-schedule-report.md). |
-| Collegamento condiviso (chiunque) | I progetti possono essere condivisi con chiunque, anche con persone che non hanno accesso ad Analysis Workspace. Questa colonna mostra se i progetti sono stati condivisi in questo modo. Vedi [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
-| Visualizzazione dati | Visualizzazione dati a cui è associato il progetto. |
+| Pianificato | Indica se i progetti sono programmati per essere inviati tramite e-mail ai destinatari in base a una pianificazione. Consulta [Programmare progetti](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| Collegamento condiviso (chiunque) | I progetti possono essere condivisi con chiunque, anche con persone che non hanno accesso ad Analysis Workspace. Questa colonna mostra se i progetti sono stati condivisi in questo modo. Consulta [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
+| Visualizzazione dati | La visualizzazione dati a cui è associato il progetto. |
 | [Ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Indica il tuo ruolo per il progetto, ossia se sei il proprietario o se sei autorizzato a modificarlo, duplicarlo o visualizzarlo. |
 | Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| Condiviso con | Utenti con cui è stato condiviso il progetto. |
+| Condiviso con | Utenti con cui il progetto è stato condiviso. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
 | Ultima apertura | Data e ora dell’ultima apertura del progetto. |
-| ID progetto | ID del progetto. |
+| ID Progetto | ID del progetto. |
 | Intervallo date più lungo | L’intervallo di date più lungo del progetto. |
 | Numero di query | Numero totale di query contenute nel progetto. |
-| Posizione | La cartella in cui si trova il progetto. |
+| Posizione | Cartella in cui risiede il progetto. |
 
 ## Barra dei menu {#menu-bar}
 
@@ -59,12 +59,12 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 | Opzione di menu | Descrizione |
 |---|---|
-| Progetto | Include azioni comuni per la gestione dei progetti, tra cui Nuovo, Apri, Salva e Salva con nome. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
+| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva e Salva con nome. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
 | Modifica | Annulla o ripristina l’ultima azione. Con Clear All (Cancella tutto) puoi ripristinare il progetto e tornare al progetto vuoto iniziale. |
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](/help/components/overview.md) | Crea dal progetto nuovi filtri, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, usa Refresh Components (Aggiorna componenti) per recuperare le definizioni più recenti. |
 | [Condividi](/help/analysis-workspace/curate-share/send-schedule-files.md) | Curare, condividere e pianificare progetti PDF/CSV per i destinatari all’interno della tua organizzazione. |
-| Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](/help/analysis-workspace/workspace-faq/optimizing-performance.md) del progetto. |
+| Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](/help/admin/optimizing-performance.md) del progetto. |
 | Pulsante Condividi o Proprietario | Se stai utilizzando il progetto in modalità Own (Proprietario) o Edit (Modifica), il pulsante Share (Condividi) in alto a destra consente di accedere con un solo clic ai destinatari del progetto e di gestirli. Se invece utilizzi il progetto con un ruolo Duplicate (Duplica) o View (Visualizza), viene visualizzato il nome del proprietario del progetto. |
 
 ### Informazioni e impostazioni progetto {#info-settings}
@@ -119,7 +119,7 @@ Di seguito sono riportate le azioni più comuni per la gestione dei progetti, ch
 | Azione | Descrizione |
 |---|---|
 | Add | Crea un nuovo progetto da zero. |
-| Tag (Assegna tag) o Approve (Approva) | Scegli &quot;Tag&quot; o &quot;Approva&quot; per organizzare i tuoi progetti e semplificarne la ricerca. |
+| Tag (Assegna tag) o Approve (Approva) | Scegli &quot;Tag&quot; o &quot;Approve&quot; per organizzare i progetti e semplificarne la ricerca. |
 | [Condividi](/help/analysis-workspace/curate-share/share-projects.md) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. |
 | Elimina | Elimina il progetto. |
 | Rinomina | Modifica il nome del progetto. |
