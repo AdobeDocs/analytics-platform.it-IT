@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 97%
+source-wordcount: '1417'
+ht-degree: 96%
 
 ---
 
@@ -38,13 +38,13 @@ CJA ottiene i dati da Adobe Experience Platform. Experience Platform permette di
 
 In Experience Platform, i dati dei clienti vengono memorizzati come set di dati, costituiti da uno [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=it) e da batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
-L’amministratore CJA stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di CJA. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
+L’amministratore di CJA stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di CJA. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
 Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in CJA, come illustrato nel seguente video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origini di Adobe Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati esistenti in precedenza in suite di rapporti separate.
+Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origini di Adobe Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare dati che in precedenza esistevano in suite di rapporti separate.
 
 ## Modifiche al concetto di suite di rapporti virtuali {#data-views}
 
@@ -76,7 +76,7 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il contenitore [!UICONTROL Event] ti consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni/hit pagina.
+* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sui visitatori in base ai singoli eventi.
 * **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione.
 * **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento di un visitatore entro l’intervallo di tempo specificato.
 

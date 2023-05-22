@@ -4,10 +4,10 @@ description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ Alcuni schemi di piattaforma possono avere array di oggetti. CJA supporta l’in
 
 Nelle versioni precedenti di Adobe Analytics, questa funzione è stata eseguita utilizzando la variabile `products`. Si trattava di una stringa concatenata in cui i punti e virgola (`;`) separavano i facet di un prodotto, mentre le virgole (`,`) delineavano i prodotti. Era l’unica variabile con supporto limitato di “array di oggetti”. Le variabili multivalore, come le variabili di elenco, erano in grado di supportare l’equivalente degli array, ma non gli “array di oggetti”. CJA amplia questo concetto con il supporto di gerarchie arbitrariamente profonde all’interno di una singola riga di dati, una funzione non disponibile nelle versioni precedenti di Adobe Analytics.
 
-## Stesso esempio di hit
+## Stesso esempio di evento
 
-L’hit seguente è un oggetto JSON che rappresenta un acquisto effettuato da un cliente di una lavatrice e di un’asciugatrice.
+Il seguente evento è un oggetto JSON che rappresenta un acquisto effettuato da un cliente di una lavatrice e di un’asciugatrice.
 
 ```json
 {
@@ -81,9 +81,9 @@ Quando si crea una visualizzazione dati, sono disponibili le dimensioni e le met
    * product : warranty
    * product : warranty : revenue
 
-### Stessi esempi di hit (comportamento di reporting)
+### Stessi esempi di eventi (comportamento di reporting)
 
-Utilizzando solo l’hit riportato sopra, le tabelle seguenti mostrano i rapporti Workspace con alcune combinazioni di dimensioni e metriche.
+Utilizzando solo l’evento precedente, le tabelle seguenti mostrano i rapporti Workspace con alcune combinazioni di dimensioni e metriche.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ Se desideri creare un rapporto solo sui ricavi della garanzia, il tuo progetto a
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA esamina queste parti dell’hit per generare il rapporto:
+CJA esamina queste parti dell’evento per generare il rapporto:
 
 ```diff
 {

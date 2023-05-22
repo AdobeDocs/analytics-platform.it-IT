@@ -2,10 +2,10 @@
 title: Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics
 description: Scopri la trasformazione dei dati utilizzando le regole di elaborazione e VISTA rispetto all’utilizzo della preparazione dati
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: 6b7b8e8f1c1e88644961dd5e1b3d2ff7ec07951e
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,6 @@ I dati raccolti da Adobe Analytics e in esso memorizzati possono essere trasform
 
 In alcune situazioni, la preparazione dati ha un crossover con le [classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it).
 
-Ad esempio, in un campo delimitato puoi utilizzare la preparazione dati per suddividere tale campo in più campi singoli senza utilizzare le classificazioni. In genere, le classificazioni sono un modo per aggiungere metadati a un campo caricando un file di ricerca fornito al di fuori del flusso degli hit di Analytics in arrivo.
+Ad esempio, in un campo delimitato puoi utilizzare la preparazione dati per suddividere tale campo in più campi singoli senza utilizzare le classificazioni. In genere, le classificazioni sono un modo per aggiungere metadati a un campo caricando un file di ricerca fornito al di fuori del flusso degli eventi di Analytics in arrivo.
 
 Ad esempio, puoi caricare un file di classificazione che raggruppa le SKU in “dimensioni”, “brand”, “colore”, ecc. Un’altra differenza tra le classificazioni e la preparazione dati è che le classificazioni si applicano ai dati _sia storicamente che in futuro_. Le mappature della preparazione dati, invece, sono applicate ai dati _in futuro_ dal momento in cui viene creata la mappatura.

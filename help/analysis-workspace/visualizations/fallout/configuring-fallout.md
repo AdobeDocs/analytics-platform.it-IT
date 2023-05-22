@@ -3,10 +3,10 @@ description: Scopri come specificare i punti di contatto per creare una sequenza
 title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili con più valori per hit, quali prodotti, listVar, eVar di merchandising ed elenchi di più valori list prop). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili che possono avere più valori per evento, come prodotti, listVars, eVar di merchandising e prop elenco). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
 
@@ -42,19 +42,19 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. Puoi anche **vincolare singoli punti di contatto all’hit successivo** (anziché alla fine) all’interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
+1. È inoltre possibile **vincolare singoli punti di contatto all’evento successivo** (anziché &quot;alla fine&quot;) all’interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
 
    ![](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
-   <td colname="col2"> <p>Conteggia i visitatori che accederanno alla pagina successiva del percorso, ma non necessariamente all’hit successivo. </p> </td> 
+   <td colname="col1"> <p>Percorso finale </p> <p>(Impostazione predefinita) </p> </td> 
+   <td colname="col2"> <p>Vengono conteggiati i visitatori che "alla fine" atterreranno sulla pagina successiva del percorso, ma non necessariamente sull’evento successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hit successivo </p> </td> 
-   <td colname="col2"> <p>Conteggia i visitatori che accederanno alla pagina successiva del percorso, in corrispondenza dell’hit successivo. </p> </td> 
+   <td colname="col2"> <p>Sono conteggiati i visitatori che arriveranno alla pagina successiva del percorso nel prossimo evento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

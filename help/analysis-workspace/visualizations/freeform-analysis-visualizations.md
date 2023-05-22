@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1234'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. Può essere impostato su sequenze finali o esatte. |
 | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Mostra gli esatti percorsi dei clienti attraverso i siti web e le app. |
 | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. È la base per l’analisi dei dati in Workspace. |
-| [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Un istogramma classifica i visitatori, le visite o gli hit in blocchi in base a un volume di metrica. |
+| [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Un istogramma classifica visitatori, visite o eventi in blocchi in base a un volume di metrica. |
 | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
 | [Linee](/help/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
 | [Grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali fino a tre metriche. |
@@ -43,21 +43,21 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 1. Apri il progetto Analysis Workspace in cui desideri aggiungere una visualizzazione.
 
-1. Utilizza uno dei seguenti metodi per aggiungere la visualizzazione:
+1. Per aggiungere la visualizzazione, utilizza uno dei seguenti metodi:
 
-   * Nella barra a sinistra, seleziona la **Visualizzazioni** icona <!-- add icon -->, quindi trascina una visualizzazione nel pannello in cui desideri aggiungerla.
+   * Nella barra a sinistra, seleziona la **Visualizzare** icona <!-- add icon -->, quindi trascina una visualizzazione nel pannello in cui desideri aggiungerla.
 
       ![](assets/viz-rail.png)
 
-   * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona la **Plus** , quindi scegli l’icona che rappresenta la visualizzazione da aggiungere. Passa il puntatore sull’icona di ciascuna visualizzazione per visualizzarne il nome.
+   * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona la **Più** , quindi scegli l’icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
 
-      ![Pulsante per l’aggiunta di una visualizzazione](assets/visualization-add-to-panel.png)
+      ![Pulsante per aggiungere una visualizzazione](assets/visualization-add-to-panel.png)
 
    * Aggiungi un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it), quindi scegli la visualizzazione da aggiungere.
 
       ![Pannello vuoto](assets/blank_panel.png)
 
-   * Fai clic con il pulsante destro del mouse su un pannello esistente nel progetto Analysis Workspace, quindi seleziona [!UICONTROL **Visualizzazione duplicata**] o [!UICONTROL **Visualizzazione copia**].
+   * Fai clic con il pulsante destro del mouse su un pannello esistente nel progetto Analysis Workspace, quindi seleziona [!UICONTROL **Visualizzazione duplicata**] o [!UICONTROL **Copia visualizzazione**].
 
 ## Personalizzare le impostazioni di visualizzazione
 

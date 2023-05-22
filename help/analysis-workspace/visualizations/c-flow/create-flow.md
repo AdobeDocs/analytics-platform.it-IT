@@ -4,16 +4,16 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 94%
+ht-degree: 88%
 
 ---
 
 # Configurare una visualizzazione di flusso
 
-Le visualizzazioni del flusso ti consentono di comprendere il percorso che deriva da o porta a un evento di conversione specifico sul tuo sito web o sulla tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
+Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul sito web o sull’app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
 ![nuova interfaccia utente di Flusso](assets/new-flow.png)
 
@@ -112,10 +112,10 @@ Quando utilizzi questa opzione, tieni presente che:
 * **[!UICONTROL Limit to first/last occurrence]** conta solo la prima/ultima occorrenza della serie. Tutte le altre occorrenze del criterio **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]** vengono ignorate.
 * Se utilizzata con un flusso **[!UICONTROL Starts with]**, è inclusa solo la prima occorrenza corrispondente ai criteri di inizio.
 * Se utilizzata con un flusso **[!UICONTROL Ends with]**, verrà inclusa solo l’ultima occorrenza corrispondente ai criteri di fine.
-* La serie utilizzata varia in base al contenitore. Se utilizzi il contenitore **[!UICONTROL Visit]**, la serie di hit corrisponderà alla sessione. Se utilizzi il contenitore **[!UICONTROL Visitor]**, la serie di hit sarà costituita da tutti gli hit di un dato utente nell’intervallo di date specificato.
+* La serie utilizzata varia in base al contenitore. Se utilizzi il **[!UICONTROL Visit]** contenitore, la serie di eventi sarà la sessione. Se utilizzi il **[!UICONTROL Visitor]** contenitore, la serie di eventi sarà costituita da tutti gli eventi per un determinato utente nell’intervallo di date specificato.
 * Quando si utilizza una metrica o un elemento dimensionale nei campi “Inizia con” o “Termina con”, l’opzione **[!UICONTROL Limit to first/last occurrence]** può essere configurata nelle impostazioni avanzate.
 
-Serie di hit di esempio:
+Serie di eventi di esempio:
 
 Home > Prodotti > Aggiungi al carrello > Prodotti > Aggiungi al carrello > Fatturazione > Conferma d’ordine
 
@@ -125,22 +125,22 @@ Home > Prodotti > Aggiungi al carrello > Prodotti > Aggiungi al carrello > Fattu
 * Dimensione del percorso [!UICONTROL Page]
 * Contenitore [!UICONTROL Visit]
 
-Se l’opzione &quot;Limita alla prima/ultima occorrenza&quot; è disabilitata, questa singola serie di hit conterebbe 2 occorrenze di &quot;Aggiungi al carrello&quot;.
+Se &quot;Limit to first/last occurrence&quot; (Limita alla prima/ultima occorrenza) è disabilitato, questa singola serie di eventi conterà due occorrenze di &quot;Aggiungi al carrello&quot;.
 Output di flusso previsto:
 “Aggiungi al carrello” (2) —> “Prodotti” (1)
 -> “Fatturazione” (1)
 
-Tuttavia, se è abilitato &quot;Limita alla prima/ultima occorrenza&quot;, nell’analisi verrà inclusa solo la prima occorrenza di &quot;Aggiungi al carrello&quot;.
+Tuttavia, se &quot;Limit to first/last occurrence&quot; (Limita alla prima/ultima occorrenza) è abilitato, nell’analisi verrà inclusa solo la prima occorrenza di &quot;Aggiungi al carrello&quot;.
 Output di flusso previsto: 
 “Aggiungi al carrello” (1) —> “Prodotti” (1)
 
-### Considera la stessa serie di hit, ma utilizzando le seguenti impostazioni:
+### Considera la stessa serie di eventi ma utilizzando le seguenti impostazioni:
 
 * Termina con [!UICONTROL Add to cart] (elemento dimensionale)
 * Dimensione del percorso [!UICONTROL Page]
 * Contenitore [!UICONTROL Visit]
 
-Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, questa singola serie di hit conterà due occorrenze di “Aggiungi al carrello”.
+Se **[!UICONTROL Limit to first/last occurrence]** è *disabilitato*, quindi questa singola serie di eventi conterà due occorrenze di &quot;Aggiungi al carrello&quot;.
 Flusso di output previsto: 
 “Prodotti” (2) &lt;— “Aggiungi al carrello” (2)
 

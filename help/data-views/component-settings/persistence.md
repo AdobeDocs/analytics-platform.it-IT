@@ -4,10 +4,10 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
@@ -72,7 +72,7 @@ Dettagli sulle impostazioni di scadenza disponibili.
 * **Sessione**: scade dopo una determinata sessione. Finestra di scadenza predefinita.
 * **Persona**: scade alla fine dell’intervallo di reporting.
 * **Orario personalizzato**: scade dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
-* **Metrica**: quando questa metrica viene visualizzata in un hit, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
+* **Metrica**: quando questa metrica viene visualizzata in un evento, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
 
 ## [!UICONTROL Binding Dimension]
 
@@ -82,7 +82,7 @@ Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [U
 
 ## [!UICONTROL Binding Metric]
 
-Elenco a discesa che consente di scegliere una metrica che funge da attivatore di binding. Le opzioni valide includono le metriche incluse nella visualizzazione dati.
+Elenco a discesa che consente di scegliere una metrica che funge da trigger di binding. Le opzioni valide includono le metriche incluse nella visualizzazione dati.
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 

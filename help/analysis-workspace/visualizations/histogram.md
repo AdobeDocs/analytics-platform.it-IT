@@ -3,10 +3,10 @@ description: Un istogramma è simile a un grafico a barre, ma con i numeri raggr
 title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 | Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
 | Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
 | Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) o Tipo di hit. Ad esempio, visualizzazioni di pagina per visita, per visitatore o per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) o Tipo di hit. Ad esempio, visualizzazioni di pagina per visita, per visitatore o per evento. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

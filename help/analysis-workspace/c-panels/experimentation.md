@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1785'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -62,7 +62,7 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
    | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
    | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions] oppure [!UICONTROL Events]) su cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
-   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo hit ricevuto in CJA per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
+   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto in CJA per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
 
 1. Fai clic su **[!UICONTROL Build]**.
 
@@ -110,18 +110,18 @@ Una sequenza con affidabilità del 95% includerà il valore “true” della met
 
 ## Interpretare dimensioni non randomizzate {#non-randomized}
 
-CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come interpretate un&#39;analisi in cui la dimensione scelta come esperimento non è una dimensione per la quale i visitatori vengono randomizzati?
+CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un’analisi in cui la dimensione scelta come esperimento non è quella per cui i visitatori sono randomizzati?
 
-Ad esempio, considera un annuncio visualizzato da un visitatore. Potresti essere interessato a misurare il cambiamento in alcune metriche (ad esempio, ricavi medi) se decidi di mostrare ai visitatori &quot;ad B&quot; invece di &quot;ad A&quot;. L&#39;effetto causale della visualizzazione dell&#39;annuncio B al posto dell&#39;annuncio A è di importanza fondamentale per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il ricavo medio su tutta la popolazione, se sostituiamo lo status quo di mostrare ad A con la strategia alternativa di mostrare ad B.
+Ad esempio, considera un annuncio visualizzato da un visitatore. Se decidi di mostrare i visitatori &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la modifica di alcune metriche (ad es., ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il reddito medio sull&#39;intera popolazione, se sostituiamo lo status quo di mostrare l&#39;annuncio A con la strategia alternativa di mostrare l&#39;annuncio B.
 
-Il test A/B è lo standard dell&#39;oro all&#39;interno del settore per misurare oggettivamente gli effetti di tali interventi. Il motivo critico per cui un test A/B dà origine a una stima causale è dovuto alla randomizzazione dei visitatori per ricevere una delle possibili varianti.
+Il test A/B è il gold standard all&#39;interno del settore per misurare obiettivamente gli effetti di tali interventi. La ragione critica per cui un test A/B dà luogo a una stima causale è dovuta alla randomizzazione dei visitatori a ricevere una delle possibili varianti.
 
-Considera ora una dimensione che non viene raggiunta dalla randomizzazione, ad esempio, lo stato statunitense del visitatore. Diciamo che i nostri visitatori provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In una situazione del genere, il tempo può essere il vero fattore causale della vendita di abbigliamento invernale, e non il fatto che gli stati geografici dei visitatori sono diversi.
+Considera ora una dimensione che non viene ottenuta tramite randomizzazione, ad esempio lo stato USA del visitatore. Diciamo che i nostri visitatori provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In tale situazione, il tempo può essere il vero fattore causale dietro le vendite di abbigliamento invernale, e non il fatto che gli stati geografici dei visitatori sono diversi.
 
-Il pannello di sperimentazione in Customer Journey Analytics consente di analizzare i dati come differenza media tra i ricavi per stati dei visitatori. In tale situazione, il risultato non ha un&#39;interpretazione causale. Tuttavia, tale analisi può essere ancora di interesse. Fornisce una stima (insieme a misure di incertezza) della differenza tra le entrate medie per stato dei visitatori. Questo è anche noto come &quot;Test di ipotesi statistica&quot;. L’output di questa analisi può essere interessante, ma non necessariamente fruibile, in quanto non abbiamo e talvolta non possiamo randomizzare i visitatori in uno dei possibili valori della dimensione.
+Il pannello di sperimentazione nel Customer Journey Analytics consente di analizzare i dati come differenza media di ricavi per stato dei visitatori. In una situazione del genere, la produzione non ha un’interpretazione causale. Tuttavia, tale analisi può essere ancora interessante. Fornisce una stima (insieme a misure di incertezza) della differenza nei ricavi medi per stato dei visitatori. Questo è anche noto come &quot;Test di ipotesi statistica&quot;. L’output di questa analisi può essere interessante, ma non necessariamente actionable, in quanto non abbiamo e a volte non possiamo randomizzare i visitatori a uno dei possibili valori della dimensione.
 
-L’illustrazione seguente contrasta queste situazioni:
+La figura seguente contrasta queste situazioni:
 
 ![esperimento randomizzato](assets/randomize.png)
 
-Quando si desidera misurare l&#39;impatto dell&#39;intervento X sul risultato Y, è possibile che la vera causa di entrambi sia il fattore di confondimento C. Se i dati non vengono ottenuti randomizzando i visitatori su X, l&#39;impatto è più difficile da misurare, e l&#39;analisi renderà esplicitamente conto di C. La casuale interrompe la dipendenza di X su C, consentendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
+Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando i visitatori su X, l&#39;impatto è più difficile da misurare e l&#39;analisi terrà esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.

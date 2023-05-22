@@ -4,10 +4,10 @@ description: Comprendere il concetto di “ripetizione” in Cross-Channel Analy
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cross-Channel Analytics effettua due passaggi sui dati di una determinata connessione:
 
-* **Live-stitching**: CCA tenta di unire ogni hit nel momento in cui arriva. In genere, i nuovi dispositivi al set di dati che non hanno mai effettuato l’accesso a questo livello non vengono uniti. I dispositivi già riconosciuti vengono uniti immediatamente.
+* **Live-stitching**: CCA tenta di unire ogni evento nel momento in cui arriva. In genere, i nuovi dispositivi al set di dati che non hanno mai effettuato l’accesso a questo livello non vengono uniti. I dispositivi già riconosciuti vengono uniti immediatamente.
 * **Ripetizione**: CCA “ripete” i dati in base a identificatori univoci appresi. Questa è la fase in cui vengono uniti nuovi dispositivi alla connessione. Adobe offre due intervalli di ripetizione:
    * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
    * Settimanale: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
@@ -28,7 +28,7 @@ CCA tenta di unire ogni evento al momento della raccolta su dispositivi e canali
 
 *Dati visualizzati nel giorno in cui vengono raccolti:*
 
-| Marca temporale | ID persistente del set di dati web | ID transitorio del set di dati web | ID persona del call center | ID persona utilizzato | Spiegazione dell’hit | Metrica delle persone (cumulativa) |
+| Marca temporale | ID persistente del set di dati web | ID transitorio del set di dati web | ID persona del call center | ID persona utilizzato | Spiegazione dell’evento | Metrica delle persone (cumulativa) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `246` | Bob visita il tuo sito sul suo desktop, senza essere autenticato | `1` (246) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob si autentica sul desktop | `2` (246 e Bob) |
@@ -48,7 +48,7 @@ A intervalli regolari (una volta alla settimana o una volta al giorno a seconda 
 
 *Gli stessi dati dopo la ripetizione:*
 
-| Marca temporale | ID persistente del set di dati web | ID transitorio del set di dati web | ID persona del call center | ID persona utilizzato | Spiegazione dell’hit | Metrica delle persone (cumulativa) |
+| Marca temporale | ID persistente del set di dati web | ID transitorio del set di dati web | ID persona del call center | ID persona utilizzato | Spiegazione dell’evento | Metrica delle persone (cumulativa) |
 | --- | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | - | `Bob` | Bob visita il tuo sito sul suo desktop, senza essere autenticato | `1` (Bob) |
 | `2` | `246` | `Bob` | - | `Bob` | Bob si autentica sul desktop | `1` (Bob) |

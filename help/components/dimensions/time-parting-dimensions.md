@@ -1,18 +1,18 @@
 ---
-description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
+description: Con la suddivisione in base al tempo, il timestamp degli eventi raccolti viene suddiviso in dimensioni più significative, ad esempio per "Ora del giorno" o "Giorno della settimana".
 title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 93%
+ht-degree: 66%
 
 ---
 
-# Suddividere le dimensioni in base al tempo in Analysis Workspace
+# Dimensioni suddivise in base al tempo in Analysis Workspace
 
-Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
+Con la suddivisione in base al tempo, il timestamp degli eventi raccolti viene suddiviso in dimensioni più significative, ad esempio per &quot;Ora del giorno&quot; o &quot;Giorno della settimana&quot;.
 
 Le dimensioni suddivise in base al tempo si basano sul fuso orario della visualizzazione dati. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 
