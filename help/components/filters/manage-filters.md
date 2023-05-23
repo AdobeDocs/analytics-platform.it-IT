@@ -2,9 +2,9 @@
 title: Gestire i filtri
 description: Gestire i filtri in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
+source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 88%
 
 ---
@@ -38,7 +38,7 @@ Accedi al Gestore filtri scegliendo **[!UICONTROL Customer Journey Analysis]** >
 
 ## Pianificare i filtri {#plan}
 
-Dedicare un po&#39; di tempo alla pianificazione dei filtri aumenta le possibilità che siano utili per la tua organizzazione e che il loro numero venga controllato.
+Dedicare un po’ di tempo alla pianificazione dei filtri aumenta le possibilità che siano utili per la tua organizzazione e che il loro numero venga controllato.
 
 * Considera il pubblico: chi lo utilizzerà? Con chi lo condividerò? Quali gruppi di persone useranno questo filtro e di conseguenza come dovrei assegnare i tag? Ciò implica anche fornire una buona descrizione del filtro. La descrizione dovrebbe rispondere almeno alle seguenti domande:
 
@@ -78,7 +78,7 @@ Per assegnare tag a un filtro:
 
    * inserisci un nuovo nome di tag e premi **[!UICONTROL Enter]**.
 
-1. Fai clic su **[!UICONTROL Tag]** per assegnare nuovamente il tag al filtro.
+1. Clic **[!UICONTROL Tag]** per assegnare un tag al filtro.
 
 Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
 Puoi anche filtrare i tag andando in **[!UICONTROL Filters > Tags]**.
@@ -125,13 +125,13 @@ Per condividere un filtro:
 
 1. Nella barra degli strumenti di gestione del filtro, fai clic su **[!UICONTROL Share]**.
 
-1. Se sei un amministratore, puoi selezionare Tutti o scegliere tra Gruppi e Utenti dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo singoli utenti. Usa il campo Ricerca per cercare gruppi o utenti. Fai clic su **[!UICONTROL Share]**. Accanto al filtro viene visualizzata l’icona Condiviso: ![](assets/share_icon.png)
+1. Se sei un amministratore, puoi selezionare Tutti o scegliere tra Gruppi e Utenti dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo singoli utenti. Usa il campo Ricerca per cercare gruppi o utenti. Fai clic su **[!UICONTROL Share]**. Accanto al filtro viene visualizzata l’icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. Puoi filtrare i filtri condivisi con te selezionando Filtri > Altri filtri > Condivisi con me.
 
 ### Contrassegnare i filtri come preferiti {#favorites}
 
-Contrassegnare i filtri come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
+Contrassegnare i filtri come preferiti è un altro modo per organizzarli in modo semplice.
 
 1. Nel Gestore filtri, seleziona la stella accanto a qualsiasi filtro che desideri contrassegnare come preferito. La stella diventa gialla quando la selezioni.
 
