@@ -4,10 +4,10 @@ description: Comprendere il concetto di “ripetizione” in Cross-Channel Analy
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 89%
 
 ---
 
@@ -17,10 +17,10 @@ Cross-Channel Analytics effettua due passaggi sui dati di una determinata connes
 
 * **Live-stitching**: CCA tenta di unire ogni evento nel momento in cui arriva. In genere, i nuovi dispositivi al set di dati che non hanno mai effettuato l’accesso a questo livello non vengono uniti. I dispositivi già riconosciuti vengono uniti immediatamente.
 * **Ripetizione**: CCA “ripete” i dati in base a identificatori univoci appresi. Questa è la fase in cui vengono uniti nuovi dispositivi alla connessione. Adobe offre due intervalli di ripetizione:
-   * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
+   * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma le persone non autenticate devono autenticarsi lo stesso giorno in cui visitano il sito.
    * Settimanale: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato perché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live-stitched da quel momento in poi.
+I dati oltre l’intervallo di lookback non vengono riprodotti. Una persona deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato affinché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live-stitched da quel momento in poi.
 
 ## Passaggio 1: live-stitching
 

@@ -4,10 +4,10 @@ description: Scopri i diversi modi in cui è possibile inserire i dati in Custom
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni, consulta la sezione [Inserire e usare i dati dalla v
 
 ## Inserire e usare i dati tramite SDK per Web di Adobe Experience Platform e la rete Edge
 
-Immagina di voler analizzare il tuo sito Web con la tecnologia Adobe, potenzialmente eseguendo la migrazione da un’altra soluzione o iniziando a monitorare il comportamento del visitatore. Segui le best practice di Adobe per l’implementazione, che prevedono di utilizzare gli SDK di Adobe Experience Platform e la rete Edge, per inserire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
+Desideri analizzare il tuo sito web con tecnologia Adobe, migrare potenzialmente da un’altra soluzione o iniziare a monitorare il comportamento della persona. Segui le best practice di Adobe per l’implementazione, che prevedono di utilizzare gli SDK di Adobe Experience Platform e la rete Edge, per inserire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
 
 Per ulteriori informazioni, consulta la sezione [Inserire e usare i dati tramite SDK per Web di Adobe Experience Platform e la rete Edge](./aepwebsdk.md).
 

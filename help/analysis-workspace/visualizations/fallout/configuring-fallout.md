@@ -3,16 +3,16 @@ description: Scopri come specificare i punti di contatto per creare una sequenza
 title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 87%
+ht-degree: 71%
 
 ---
 
 # Configurare una visualizzazione dell’abbandono
 
-Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi (quali unità) nonché visitatori univoci e visite ripetute. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
+Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
 Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio, puoi confrontare filtri quali utenti iOS e utenti Android. Trascina i filtri desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali filtri. Per mostrare solo tali filtri, puoi rimuovere la linea di base Tutte le visite.
 
@@ -26,7 +26,7 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
 
    ![](assets/fallout1.png)
 
-   Passa il cursore del mouse su un punto di contatto per vedere il relativo valore di abbandono e altre informazioni su tale livello, quali il nome del punto di contatto, il conteggio di visitatori per tale punto, e il relativo tasso di successo (nonché il confronto tra questo e il tasso di successo di altri punti di contatto).
+   Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto, il conteggio delle persone a quel punto e il tasso di successo per quel punto di contatto (nonché per confrontare il tasso di successo con altri punti di contatto).
 
    I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). Punto di contatto % mostra il corretto proseguimento dal passaggio precedente verso il passaggio corrente nel rapporto di abbandono.
 
@@ -63,7 +63,7 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
 
 | Impostazione | Descrizione |
 |--- |--- |
-| Contenitore Abbandono <ul><li>Visita</li><li>Visitatore</li></ul> | Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Il valore predefinito è Visitatore.  Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
+| Contenitore Abbandono <ul><li>Visita</li><li>Visitatore</li></ul> | Consente di passare da Visita a Visitatore per analizzare il percorso della persona. Il valore predefinito è Visitatore.  Queste impostazioni aiutano a comprendere il coinvolgimento della persona a livello di persona (tra visite) o a vincolare l’analisi a una singola visita. |
 
 Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, vengono visualizzate le seguenti opzioni:
 
@@ -72,6 +72,6 @@ Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, ve
 | Tendenza punto di contatto | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
 | Tendenza punto di contatto (%) | Visualizza la tendenza della percentuale di abbandono totale. |
 | Tendenza tutti i punti di contatto (%) | Visualizzare nello stesso grafico la tendenza di tutte le percentuali dei punti di contatto nell’abbandono (tranne Tutte le visite, se incluso). |
-| Analizza il proseguimento in questo punto di contatto | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
+| Analizza il proseguimento in questo punto di contatto | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
 | Analizza l’abbandono in questo punto di contatto | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
 | Creare filtro da punto di contatto | Crea un nuovo filtro dal punto di contatto selezionato. |

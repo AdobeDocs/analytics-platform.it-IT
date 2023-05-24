@@ -4,10 +4,10 @@ description: Mostra utili rapporti sui dati Google Analytics in Customer Journey
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi impostare la tendenza del tempo impiegato dal call center negli ultimi due 
 
 ![Volume di chiamata](../assets/call-volume.png)
 
-L’utilizzo della dimensione “Motivo della chiamata” può suggerire modi per migliorare l’esperienza web, evitando in primo luogo che i visitatori debbano chiamare. L’esempio precedente mostra che “Prodotto danneggiato” ha un tempo medio di circa 3 minuti per chiamata, dando alla tua organizzazione un modo preciso per migliorare l’esperienza del cliente e ridurre i costi del call center.
+L’utilizzo della dimensione &quot;Motivo della chiamata&quot; può suggerire modi per migliorare l’esperienza web, evitando in primo luogo che le persone chiamino. L’esempio precedente mostra che “Prodotto danneggiato” ha un tempo medio di circa 3 minuti per chiamata, dando alla tua organizzazione un modo preciso per migliorare l’esperienza del cliente e ridurre i costi del call center.
 
 Puoi visualizzare quali prodotti causano la maggior parte delle chiamate al call center e quanti clienti hanno effettuato tali chiamate. Il grafico a bolla indica che hanno chiamato 20.000 persone, per più di 4 ore e 30 minuti, e che sono stati rese 33 unità del prodotto “T-shirt uomo maniche corte”.
 
@@ -35,7 +35,7 @@ Puoi visualizzare quali prodotti causano la maggior parte delle chiamate al call
 
 Nell’esempio, l’applicazione di un breakdown per la dimensione “Motivo chiamata” mostra un elemento dimensione “Prodotto danneggiato”. A questo punto non resta che contattare il reparto di controllo qualità e cercare di capire perché i clienti hanno ricevuto T-shirt danneggiate.
 
-Puoi vedere quali pagine web hanno portato le chiamate al call center. Questo rapporto consente di capire quali aree del sito web offrono esperienze non ottimali, affinché i Product Manager possano occuparsi di migliorarle. Nell’esempio seguente viene utilizzata una metrica calcolata con un modello di attribuzione di partecipazione per filtrare i dati in base alle sole sessioni terminate con una chiamata al call center.
+Puoi vedere quali pagine web hanno portato le chiamate al call center. Questo rapporto consente di capire quali aree del sito web offrono esperienze non ottimali, affinché i Product Manager possano occuparsi di migliorarle. L’esempio seguente utilizza una metrica calcolata con un modello di attribuzione di partecipazione per filtrare i dati in base alle sole sessioni terminate con una chiamata al call center.
 
 L’esempio seguente mostra che le pagine “Carrello acquisti” e “Informazioni di pagamento” generano la maggior parte delle chiamate.
 

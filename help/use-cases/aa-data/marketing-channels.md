@@ -4,10 +4,10 @@ description: Utilizza il connettore di origine di Analytics per inserire regole 
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ Le impostazioni del canale di marketing operano in modo diverso per i dati di Pl
 
    ![Ignora canale ultimo contatto](../assets/override-last-touch-channel.png)
 
-* **Marketing Channel Expiration** (Scadenza canale di marketing): questa impostazione del periodo di coinvolgimento determina quanto tempo di inattività deve trascorrere prima che un visitatore possa ottenere un nuovo canale di primo contatto nei dati della suite di rapporti. Platform utilizza impostazioni di attribuzione proprie; pertanto questa impostazione viene ignorata completamente in CJA.
+* **Scadenza canale di marketing**: questa impostazione del periodo di coinvolgimento determina quanto tempo di inattività deve trascorrere prima che una persona possa ottenere un nuovo canale di primo contatto nei dati della suite di rapporti. Platform utilizza impostazioni di attribuzione proprie; pertanto questa impostazione viene ignorata completamente in CJA.
 
    ![Scadenza canale di marketing](../assets/marketing-channel-expiration.png)
 
@@ -71,4 +71,4 @@ Poiché l’architettura di Adobe Experience Platform è diversa dalle suite di 
 * Controlla che la connessione utilizzi la stessa suite di rapporti di Analytics tradizionale. Se la connessione CJA contiene più suite di rapporti con proprie regole di elaborazione del canale di marketing, non è possibile eseguire un confronto con la versione tradizionale di Analytics. In questo caso, per confrontare i dati, puoi creare una connessione separata per ogni suite di rapporti.
 * Assicurati di confrontare gli stessi intervalli di date e verifica che l’impostazione del fuso orario nella visualizzazione dati sia identico a quello della suite di rapporti.
 * Utilizza un modello di attribuzione personalizzato quando visualizzi i dati della suite di rapporti. Ad esempio, utilizza la dimensione [Canale di marketing](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=it) con metriche che utilizzano un modello di attribuzione non predefinito. Adobe consiglia di non confrontare le dimensioni predefinite [First touch channel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=it) o [Last touch channel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=it) (Canale di primo contatto, Canale di ultimo contatto), poiché si basano sull’attribuzione raccolta nella suite di rapporti. CJA non si basa sui dati di attribuzione di una suite di rapporti; vengono invece calcolati nel momento in cui viene eseguito un rapporto CJA.
-* A causa delle differenze al livello di architettura tra i dati della suite di rapporti e quelli di Platform, per alcune metriche non esistono metriche paragonabili. Alcuni esempi includono visite/sessioni, visitatori/persone e occorrenze/eventi.
+* A causa delle differenze al livello di architettura tra i dati della suite di rapporti e quelli di Platform, per alcune metriche non esistono metriche paragonabili. Alcuni esempi includono visite/sessioni, persone/persone e occorrenze/eventi.

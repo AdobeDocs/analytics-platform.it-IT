@@ -4,10 +4,10 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +54,7 @@ Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o 
    | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Per una spiegazione più dettagliata, consulta la sezione sottostante intitolata “Scenario di esempio per “limit to first/last occurrence” (limita alla prima/ultima occorrenza)”. |
    | **[!UICONTROL Number of Columns]** | Determina il numero di colonne desiderato nel diagramma di Flusso. |
    | **[!UICONTROL Items expanded per Column]** | Il numero di elementi che desideri inserire in ogni colonna. |
-   | **[!UICONTROL Flow Container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
+   | **[!UICONTROL Flow Container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso della persona. Queste impostazioni aiutano a comprendere il coinvolgimento della persona a livello di persona (tra visite) o a vincolare l’analisi a una singola visita. |
 
 1. Fai clic su **[!UICONTROL Build]**.
 

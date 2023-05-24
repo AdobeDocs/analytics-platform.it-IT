@@ -3,10 +3,10 @@ title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '3107'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3101'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
 | significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Coseno (riga)
 
@@ -225,10 +225,10 @@ Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è
 
 >[!NOTE]
 >
->Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: calcola la media dei tassi, anziché sommare i ricavi rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
+>Questa funzione non opera come previsto con metriche di tasso come entrate/persona: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare le persone rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
 
 ```
-cumul(revenue)/cumul(visitor)
+cumul(revenue)/cumul(person)
 ```
 
 ## Uguale
@@ -366,7 +366,7 @@ fx Lift (normalizing-container, success-metric, control)
 | success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
 | control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Regressione lineare: coefficiente di correlazione
 

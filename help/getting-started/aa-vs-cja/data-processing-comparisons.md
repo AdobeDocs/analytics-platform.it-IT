@@ -2,10 +2,10 @@
 title: Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adobe Analytics e CJA
 description: Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -40,8 +40,8 @@ La tabella seguente definisce la terminologia dei diversi tipi di logica di elab
 | Elaborazione al momento del reporting | Logica eseguita al momento dell’esecuzione di un rapporto. | Questa logica può essere applicata ai dati futuri e storici in fase di esecuzione del report in modo non distruttivo. |
 | Logica a livello di hit | Logica applicata a livello di riga per riga. | Esempi: regole di elaborazione, VISTA, determinate regole dei canali di marketing. |
 | Logica a livello di visita | Logica applicata a livello di visita. | Esempi: definizione di visita e sessione. |
-| Logica a livello di visitatore | Logica applicata a livello di visitatore. | Esempio: unione di visitatori tra dispositivi e canali. |
-| Logica di segmento (filtro) | Valutazione delle regole del segmento (filtro) evento/visita/visitatore (evento/sessione/persona). | Esempio: persone che hanno acquistato delle scarpe rosse. |
+| Logica a livello di visitatore | Logica applicata a livello di persona. | Esempio: unione di persone tra dispositivi e canali. |
+| Logica di segmento (filtro) | Valutazione delle regole del segmento (filtro) evento/visita/persona (evento/sessione/persona). | Esempio: persone che hanno acquistato delle scarpe rosse. |
 | Metriche calcolate | Valutazione delle metriche personalizzate create dai clienti che possono essere basate su formule complesse, inclusi segmenti e filtri. | Esempio: numero di persone che hanno acquistato delle scarpe rosse. |
 | Logica di attribuzione | Logica per il calcolo dell’attribuzione. | Esempio: persistenza eVar. |
 | Impostazioni dei componenti | Applicazione di personalizzazioni a metriche o dimensioni quali attribuzione, comportamento, formato e altri | Esempio: divisione in blocchi di valori per combinare valori numerici basati su un intervallo |
@@ -49,7 +49,7 @@ La tabella seguente definisce la terminologia dei diversi tipi di logica di elab
 
 {style="table-layout:auto"}
 
-Nel tempo, Adobe Analytics e ora Customer Journey Analytics hanno migliorato la loro flessibilità consentendo l’esecuzione della logica dei dati a livello di visita e visitatore in fase di esecuzione dei rapporti.
+Nel tempo, Adobe Analytics e ora il Customer Journey Analytics hanno migliorato la loro flessibilità consentendo l’esecuzione della logica dei dati a livello di visita e persona in fase di esecuzione dei rapporti.
 
 ## Tipi di elaborazione dei dati {#types}
 

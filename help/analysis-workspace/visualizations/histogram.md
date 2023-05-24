@@ -3,10 +3,10 @@ description: Un istogramma è simile a un grafico a barre, ma con i numeri raggr
 title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Per creare un istogramma:
 >
 >Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
 
-In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori uninovi. Il primo intervallo (a sinistra) corrisponde a 1 visualizzazione di pagina per visitatore univoco; il secondo a 2 visualizzazioni di pagina, ecc.
+In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori uninovi. Il primo bucket (a sinistra) corrisponde a 1 visualizzazione di pagina per persona univoca, il secondo a due visualizzazioni di pagina, ecc.
 
 ![](assets/histogram2.png)
 
@@ -41,7 +41,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 | Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
 | Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
 | Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) o Tipo di hit. Ad esempio, visualizzazioni di pagina per visita, per visitatore o per evento. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) o Tipo di hit. Ad esempio, visualizzazioni di pagina per visita, per persona o per evento. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

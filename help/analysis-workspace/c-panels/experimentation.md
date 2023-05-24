@@ -3,7 +3,7 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 74%
@@ -110,18 +110,18 @@ Una sequenza con affidabilità del 95% includerà il valore “true” della met
 
 ## Interpretare dimensioni non randomizzate {#non-randomized}
 
-CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un’analisi in cui la dimensione scelta come esperimento non è quella per cui i visitatori sono randomizzati?
+CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un&#39;analisi in cui la dimensione scelta come esperimento non è quella per cui le persone sono randomizzate?
 
-Ad esempio, considera un annuncio visualizzato da un visitatore. Se decidi di mostrare i visitatori &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la modifica di alcune metriche (ad es., ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il reddito medio sull&#39;intera popolazione, se sostituiamo lo status quo di mostrare l&#39;annuncio A con la strategia alternativa di mostrare l&#39;annuncio B.
+Ad esempio, considera un annuncio visualizzato da una persona. Se decidi di mostrare le persone &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la variazione di alcune metriche (ad es., ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il reddito medio sull&#39;intera popolazione, se sostituiamo lo status quo di mostrare l&#39;annuncio A con la strategia alternativa di mostrare l&#39;annuncio B.
 
-Il test A/B è il gold standard all&#39;interno del settore per misurare obiettivamente gli effetti di tali interventi. La ragione critica per cui un test A/B dà luogo a una stima causale è dovuta alla randomizzazione dei visitatori a ricevere una delle possibili varianti.
+Il test A/B è il gold standard all&#39;interno del settore per misurare obiettivamente gli effetti di tali interventi. La ragione fondamentale per cui un test A/B dà luogo a una stima causale è dovuta alla randomizzazione delle persone a ricevere una delle possibili varianti.
 
-Considera ora una dimensione che non viene ottenuta tramite randomizzazione, ad esempio lo stato USA del visitatore. Diciamo che i nostri visitatori provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In tale situazione, il tempo può essere il vero fattore causale dietro le vendite di abbigliamento invernale, e non il fatto che gli stati geografici dei visitatori sono diversi.
+Consideriamo ora una dimensione che non si ottiene con la randomizzazione, per esempio, lo stato americano della persona. Diciamo che le nostre persone provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In una situazione del genere, le condizioni meteorologiche possono essere il vero fattore causale delle vendite di abbigliamento invernale, e non il fatto che gli stati geografici delle persone siano diversi.
 
-Il pannello di sperimentazione nel Customer Journey Analytics consente di analizzare i dati come differenza media di ricavi per stato dei visitatori. In una situazione del genere, la produzione non ha un’interpretazione causale. Tuttavia, tale analisi può essere ancora interessante. Fornisce una stima (insieme a misure di incertezza) della differenza nei ricavi medi per stato dei visitatori. Questo è anche noto come &quot;Test di ipotesi statistica&quot;. L’output di questa analisi può essere interessante, ma non necessariamente actionable, in quanto non abbiamo e a volte non possiamo randomizzare i visitatori a uno dei possibili valori della dimensione.
+Il pannello di sperimentazione nel Customer Journey Analytics consente di analizzare i dati come differenza media di ricavi per stato delle persone. In una situazione del genere, la produzione non ha un’interpretazione causale. Tuttavia, tale analisi può essere ancora interessante. Esso fornisce una stima (insieme a misure di incertezza) della differenza tra le entrate medie degli Stati delle persone. Questo è anche noto come &quot;Test di ipotesi statistica&quot;. L’output di questa analisi può essere interessante, ma non necessariamente actionable, poiché non abbiamo e a volte non possiamo randomizzare le persone a uno dei possibili valori della dimensione.
 
 La figura seguente contrasta queste situazioni:
 
 ![esperimento randomizzato](assets/randomize.png)
 
-Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando i visitatori su X, l&#39;impatto è più difficile da misurare e l&#39;analisi terrà esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
+Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando le persone su X, l&#39;impatto è più difficile da misurare e l&#39;analisi terrà esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.

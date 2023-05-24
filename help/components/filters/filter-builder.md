@@ -1,9 +1,9 @@
 ---
-description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare i visitatori in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite ed eventi.
+description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
 title: Crea filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Generatore di filtri
 
-Il [!UICONTROL Filter builder] consente di creare filtri semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite ed eventi. Fornisce un’area di lavoro per trascinare e rilasciare dimensioni metriche, eventi o altri filtri per filtrare i visitatori in base a logica gerarchica, regole e operatori.
+Il [!UICONTROL Filter builder] consente di creare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi. Fornisce un’area di lavoro per trascinare e rilasciare dimensioni metriche, eventi o altri filtri per filtrare le persone in base a logica gerarchica, regole e operatori.
 
 Per informazioni su come creare filtri rapidi applicabili solo al progetto in cui sono stati creati, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
 
@@ -65,7 +65,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. Per i
 1. **[!UICONTROL Value]**: il valore immesso o selezionato per la dimensione, il filtro o la metrica.
 1. **[!UICONTROL X]**: (Elimina) consente di eliminare questa parte della definizione del filtro.
 1. **[!UICONTROL Experience Cloud publishing]**: pubblicando un filtro di Adobe Analytics nell’Experience Cloud puoi utilizzare il filtro per l’attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=it)
-1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono la traduzione dei dati dei visitatori in filtri di pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei filtri, e in più permettono di condividere il filtro del pubblico nell’Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono la traduzione dei dati personali in filtri di pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei filtri, e in più permettono di condividere il filtro del pubblico nell’Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
 1. **[!UICONTROL Search]**: esegue la ricerca nell’elenco di dimensioni, filtri o metriche.
 1. **[!UICONTROL Dimensions]**: (Elenco) Fai clic sull’intestazione per espanderla.
 1. **[!UICONTROL Metrics]**: fai clic sull’intestazione per espandere.
@@ -86,7 +86,7 @@ I filtri con intervalli di date incorporati continuano a funzionare diversamente
 1. Imposta il [operatore](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=it) dal menu a discesa.
 1. Immettere o selezionare un valore per l&#39;elemento selezionato.
 1. Se necessario, aggiungi altri contenitori utilizzando **[!UICONTROL And]**, **[!UICONTROL Or]**, o **[!UICONTROL Then]** regole.
-1. Dopo aver inserito i contenitori e aver impostato le regole, vedi i risultati del filtro nel grafico di convalida in alto a destra. La convalida indica la percentuale e il numero assoluto di visualizzazioni di pagina, visite e visitatori univoci che corrispondono al filtro creato.
+1. Dopo aver inserito i contenitori e aver impostato le regole, vedi i risultati del filtro nel grafico di convalida in alto a destra. La convalida indica la percentuale e il numero assoluto di visualizzazioni di pagina, visite e persone univoche che corrispondono al filtro creato.
 1. Sotto **[!UICONTROL Tags]**, [tag](/help/components/filters/manage-filters.md) il contenitore selezionando un tag esistente o creandone uno nuovo.
 1. Clic **[!UICONTROL Save]** per salvare il filtro.
 
@@ -169,31 +169,31 @@ I modelli sono identificati dal logo &quot;A&quot; dell&#39;Adobe. Di seguito è
  <tbody> 
   <tr> 
    <td colname="col1"> Abbandona carrello </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del filtro, il contenitore è Visita. La regola per questo filtro sequenziale è <p> Aggiunte carrello non è nullo </p> <p>Then </p> <p>Ordini è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del filtro, il contenitore è Visita. La regola per questo filtro sequenziale è <p> Aggiunte carrello non è nullo </p> <p>Then </p> <p>Ordini è uguale a 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prime visite </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato un massimo di una [1] volte. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il numero di visite è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che hanno visitato un massimo di una [1] volte. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il numero di visite è uguale a 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non acquirenti </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che non hanno partecipato a un evento di ordine. Nella Definizione del filtro, il contenitore è Visitatore. Questo filtro utilizza la logica Exclude. La regola è <p>Ordini non nulli. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che non hanno partecipato a un evento di ordine. Nella Definizione del filtro, il contenitore è Visitatore. Questo filtro utilizza la logica Exclude. La regola è <p>Ordini non nulli. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visita non a pagina singola (non rimbalzate) </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato più di una volta. Nella Definizione del filtro, il contenitore è Visitatore. Questo filtro utilizza la logica Exclude. La regola è <p>L'accesso singolo non è nullo. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che hanno visitato più di una volta. Nella Definizione del filtro, il contenitore è Visitatore. Questo filtro utilizza la logica Exclude. La regola è <p>L'accesso singolo non è nullo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ricerca a pagamento </td> 
-   <td colname="col2">Visualizzare i dati dei visitatori provenienti da una ricerca a pagamento. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizzare dati da persone provenienti da una ricerca a pagamento. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Acquirenti </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno partecipato a un evento di ordine. Nella Definizione del filtro, il contenitore è Visitatore. La regola è <p>Ordini non nulli. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che hanno partecipato a un evento di ordine. Nella Definizione del filtro, il contenitore è Visitatore. La regola è <p>Ordini non nulli. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite di ritorno </td> 
-   <td colname="col2">Visualizza i dati dei visitatori che hanno visitato almeno una volta. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il numero di visite è maggiore di 1. </p> </td> 
+   <td colname="col2">Visualizza i dati di persone che hanno visitato almeno una volta. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il numero di visite è maggiore di 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite a pagina singola </td> 
@@ -201,43 +201,43 @@ I modelli sono identificati dal logo &quot;A&quot; dell&#39;Adobe. Di seguito è
   </tr> 
   <tr> 
    <td colname="col1"> Il prodotto visualizzato non è stato aggiunto al carrello </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visualizzato i prodotti ma senza aggiunte al carrello. Nella definizione del filtro, il contenitore è Visita. La regola per questo filtro sequenziale è <p>Visualizzazioni prodotto non nulle </p> <p>Then </p> <p> Aggiunte al carrello è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizza i dati per le persone che hanno visualizzato i prodotti ma non hanno aggiunto carrello. Nella definizione del filtro, il contenitore è Visita. La regola per questo filtro sequenziale è <p>Visualizzazioni prodotto non nulle </p> <p>Then </p> <p> Aggiunte al carrello è uguale a 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da Campaign </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento le campagne. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il codice di tracciamento non è nullo. </p> </td> 
+   <td colname="col2">Visualizzare i dati delle persone a cui fanno riferimento le campagne. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il codice di tracciamento non è nullo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da dispositivi mobili </td> 
-   <td colname="col2">Visualizza i dati dei visitatori tramite dispositivi mobili. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il dispositivo mobile non è nullo. </p> </td> 
+   <td colname="col2">Visualizzare dati da persone che utilizzano dispositivi mobili. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il dispositivo mobile non è nullo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da ricerca naturale </td> 
-   <td colname="col2">Visualizzare i dati dei visitatori che non provengono da una ricerca a pagamento. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizzare dati da persone non provenienti da una ricerca a pagamento. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da dispositivi non mobili </td> 
-   <td colname="col2">Visualizza i dati dei visitatori che non utilizzano dispositivi mobili. Nella definizione del filtro, il contenitore è Visita. Questo filtro utilizza la logica Exclude. La regola è <p>Tipo di dispositivo mobile è uguale a Telefono cellulare </p> <p>Oppure </p> <p>Tipo di dispositivo mobile è uguale a Tablet. </p> </td> 
+   <td colname="col2">Visualizzare dati da persone che non utilizzano dispositivi mobili. Nella definizione del filtro, il contenitore è Visita. Questo filtro utilizza la logica Exclude. La regola è <p>Tipo di dispositivo mobile è uguale a Telefono cellulare </p> <p>Oppure </p> <p>Tipo di dispositivo mobile è uguale a Tablet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai telefoni </td> 
-   <td colname="col2">Visualizza i dati dei visitatori tramite telefono. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Telefono cellulare. </p> </td> 
+   <td colname="col2">Visualizzare i dati delle persone utilizzando i telefoni. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Telefono cellulare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai motori di ricerca </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i motori di ricerca. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo referrer è uguale a Motori di ricerca. </p> </td> 
+   <td colname="col2">Visualizzare i dati relativi alle persone indicate dai motori di ricerca. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo referrer è uguale a Motori di ricerca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai siti social </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i siti di social networking. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di referrer è uguale a Social network. </p> </td> 
+   <td colname="col2">Visualizza i dati delle persone a cui fanno riferimento i siti di social networking. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di referrer è uguale a Social network. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da tablet </td> 
-   <td colname="col2">Visualizza i dati dei visitatori utilizzando le tavolette. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Tablet. </p> </td> 
+   <td colname="col2">Visualizzare i dati delle persone utilizzando i tablet. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Tablet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite con il cookie ID visitatore </td> 
-   <td colname="col2">Visualizza i dati dai visitatori al tuo sito, dove è richiesto un cookie persistente. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il cookie persistente è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizza i dati dalle persone al tuo sito, dove è richiesto un cookie persistente. Nella definizione del filtro, il contenitore è Visita. La regola è <p>Il cookie persistente è uguale a 1. </p> </td> 
   </tr> 
  </tbody> 
 </table>

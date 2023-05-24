@@ -1,20 +1,20 @@
 ---
-description: Creazione e condivisione di scorecard delle dashboard di Adobe Analytics
+description: Creare e condividere scorecard per le dashboard di Adobe Analytics
 title: Creare e condividere scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 868eaa6c35b2b15449dcc70bc7521d78f8e95e35
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '2451'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
 # Creare una scorecard per dispositivi mobili
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti direzionali. Per iniziare, puoi visualizzare il video del generatore di scorecard delle dashboard di Adobe Analytics:
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti direzionali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
@@ -25,11 +25,11 @@ Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli 
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
-In qualità di curatore di questa scorecard, puoi utilizzare il generatore di scorecard per configurare quali tessere visualizzare sulla scorecard per il consumatore esecutivo. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
+In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
 ![Creatore di scorecard](assets/scorecard_builder.png)
 
-Per creare la scorecard, è necessario effettuare le seguenti operazioni:
+Per creare la scorecard, devi effettuare le seguenti operazioni:
 
 1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
 2. Configura la scorecard con i dati e salvala.
@@ -53,13 +53,13 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ## Configurare la scorecard con i dati e salvarla {#configure}
 
-Per implementare il modello della scorecard:
+Per implementare il modello di scorecard:
 
 1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
 
-   ![selezione della visualizzazione dati](assets/properties_save.png)
+   ![selezione visualizzazione dati](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella scheda di valutazione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella sezione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
    ![Aggiungere sezioni](assets/build_list.png)
 
@@ -78,7 +78,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare filtri ai singoli riquadri, trascina un filtro (i segmenti sono filtri in CJA) dal pannello di sinistra e rilascialo direttamente sul riquadro.
 
-Se desideri applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. You [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) come in Adobe Analytics Workspace.
+Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Adobe Analytics Workspace.
 
 ![Crea filtri](assets/segment_ui.png)
 
@@ -100,7 +100,7 @@ Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i
 
 ![Nuova scorecard4](assets/new_score_card4.png)
 
-Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario .
+Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
 
 ![Nuova scorecard5](assets/new_score_card5.png)
 
@@ -134,7 +134,7 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 
 ### [!UICONTROL Donut]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, per capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, supponiamo che tu voglia vedere quale piattaforma di annunci ha contribuito al numero totale di persone univoche:
 
 ![Visualizzazione ad anello](assets/donut-viz.png)
 
@@ -163,7 +163,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su un riquadro nel generatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale riquadro e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri in CJA.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri in CJA.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
@@ -211,7 +211,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in un punto qualsiasi della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sul pulsante **x** che viene visualizzato quando passi il puntatore del mouse sul componente, come illustrato di seguito per **Prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che viene visualizzato quando passi il cursore sul componente, come mostrato di seguito per **Prime visite**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -219,7 +219,7 @@ Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, 
 
 Una presentazione di dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
 
-Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
+Ad esempio, se ti concentri sul traffico web, la metrica più importante può essere costituita dalle visite, ma potresti anche essere interessato a nuove persone e a persone univoche, e potresti voler visualizzare i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
 Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
@@ -256,7 +256,7 @@ Quando trascini un componente, ad esempio una visualizzazione, su una sezione, i
    ![Creare di una presentazione di dati](assets/data-story4.png)
 
 >[!NOTE]
->Le diapositive ereditano i componenti dalla tessera, ma le porzioni non ereditano i componenti dalle diapositive.
+>Le diapositive ereditano i componenti dalla sezione, ma le sezioni non ereditano i componenti dalle diapositive.
 
 **Personalizzazione di singole diapositive**
 
@@ -276,7 +276,7 @@ Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
 
 Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 
-## Anteprima delle scorecard {#preview}
+## Anteprima scorecard {#preview}
 
 Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Analytics.
 
@@ -296,15 +296,15 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard u
 
    * Fai clic e tieni premuto per simulare la pressione del dito sullo schermo del telefono. Questo è utile per interagire con le visualizzazioni nella vista dettagliata.
 
-## Scorecard dei nomi {#name}
+## Denomina scorecard {#name}
 
-Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra nella schermata e digita il nuovo nome.
+Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
 
 ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
 ## Condividere le scorecard {#share}
 
-Per condividere la scorecard con un utente esecutivo:
+Per condividere la scorecard con un utente direzionale:
 
 1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
 
@@ -319,13 +319,13 @@ Per condividere la scorecard con un utente esecutivo:
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti modifiche successive alla scorecard nel generatore di scorecard, queste verranno aggiornate automaticamente nella scorecard condivisa. Gli utenti esecutivi vedranno quindi le modifiche dopo aver aggiornato la scorecard sulla loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno quindi le modifiche dopo aver aggiornato la scorecard nella loro app.
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
 
-### Condividere le scorecard utilizzando un collegamento condivisibile
+### Condividere le scorecard mediante un collegamento condivisibile
 
-L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o messaggio di testo. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili rendono ancora più semplice la condivisione dei progetti e stimolano l&#39;impegno con le parti interessate.
+L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o SMS. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili consentono di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento delle parti interessate.
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
@@ -333,11 +333,11 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    ![Condividere_scorecard](assets/share-scorecard.png)
 
-1. Copia il collegamento e incollalo in un’app e-mail, documento o IM.
+1. Copia il collegamento e incollalo in un’e-mail, in un documento o in un’app di messaggistica istantanea.
 
    Quando un destinatario utilizza un’app desktop o un browser per aprire il collegamento, il progetto della scorecard per dispositivi mobili si aprirà in Workspace.
 
-   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si aprirà direttamente nell’app delle dashboard di Analytics.
+   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Analytics.
 
-   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’elenco delle app in App Store o Google Play Store dove potrà scaricarla.
+   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
 

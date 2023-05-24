@@ -4,10 +4,10 @@ description: Spiega come inserire dati in Customer Journey Analytics tramite Ado
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '3273'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
-   Aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
+   Aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -265,7 +265,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
 Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it).
 
-Immagina di voler impostare l’estensione Experience Cloud ID Service per poter utilizzare facilmente l’ID Experience Cloud. Experience Cloud ID Service identifica i visitatori in tutte le soluzioni Adobe Experience Cloud.
+Immagina di voler impostare l’estensione Experience Cloud ID Service per poter utilizzare facilmente l’ID Experience Cloud. Il servizio ID Experience Cloud identifica le persone in tutte le soluzioni Adobe Experience Cloud.
 
 Per creare e configurare l’estensione Experience Cloud ID Service:
 
@@ -285,7 +285,7 @@ Per creare e configurare l’estensione Experience Cloud ID Service:
 
 Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dati). Utilizza elementi dati per raccogliere, organizzare e distribuire dati in tutta la tecnologia marketing e pubblicitaria. Puoi impostare elementi dati nel tag che leggono dal livello dati e possono essere utilizzati per inviare dati ad Adobe Experience Platform.
 
-Esistono diversi tipi di elementi dati. Innanzitutto, imposta un elemento dati per acquisire il nome della pagina che i visitatori visualizzano sul sito.
+Esistono diversi tipi di elementi dati. Devi innanzitutto impostare un elemento dati per acquisire il nome della pagina che le persone visualizzano sul tuo sito.
 
 Per definire un elemento dati nome pagina:
 

@@ -4,10 +4,10 @@ description: Domande frequenti per Cross-Channel Analytics
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
 
-## Quanto tempo fa CCA restringe i visitatori?
+## Quanto tempo fa CCA restringe le persone?
 
 L’intervallo di lookback per la rekeying dipende dalla frequenza di dati [ripetizione](replay.md) desiderata. Ad esempio, se imposti CCA perché riproduca i dati una volta alla settimana, l’intervallo di lookback per la reimpostazione delle chiavi è di sette giorni. Se imposti CCA perché riproduca i dati ogni giorno, l’intervallo di lookback per la reimpostazione delle chiavi è di un giorno.
 
@@ -40,7 +40,7 @@ In alcune situazioni, un singolo utente può essere associato a più ID persiste
 
 Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di CCA di eseguire unioni tra dispositivi.
 
-## Una volta contattato il team dell&#39;account Adobe con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
+## Una volta contattato il mio Adobe Account Team con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
 
 L’unione live è disponibile circa una settimana dopo l’attivazione di Cross-Channel Analytics da parte di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
@@ -67,7 +67,7 @@ Alcune metriche in CJA sono simili alle metriche nella versione tradizionale di 
 
 | **Dati uniti CJA** | **Dati non uniti CJA** | **Adobe Analytics tradizionale** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone** = numero di elementi distinti `Person ID` dove `Stitched ID` viene scelto come `Person ID`. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di elementi distinti `Person ID` in base alla colonna selezionata come `Person ID`. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori unici** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene scelto come `Person ID` in CJA. | **Visitatori unici** = numero di ID visitatore distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
+| **Persone** = numero di elementi distinti `Person ID` dove `Stitched ID` viene scelto come `Person ID`. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di elementi distinti `Person ID` in base alla colonna selezionata come `Person ID`. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori unici** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene scelto come `Person ID` in CJA. | **Visitatori univoci** = numero di ID persona distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
 | **Sessioni**: definito in base alle impostazioni di sessione nella visualizzazione dati di CJA. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definito in base alle impostazioni di sessione specificate nella visualizzazione dati di CJA. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=it). |
 | **Eventi** = conteggio delle righe nei dati uniti in CJA. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un vuoto `Persistent ID`. | **Eventi** = conteggio delle righe nei dati non uniti in CJA. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un `Person ID` vuoto nei dati non uniti nel data lake di Experience Platform, questi eventi non inclusi in CJA. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
 

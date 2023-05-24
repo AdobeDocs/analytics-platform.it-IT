@@ -1,13 +1,13 @@
 ---
 title: Panoramica dell’Analisi cross-channel
-description: Reimposta ID visitatore da più set di dati per unire i visitatori.
+description: Reimposta ID persona da più set di dati per unire le persone.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,9 +32,9 @@ Quando combini set di dati con ID persona simili, l’attribuzione viene riporta
 
 Prima di utilizzare l’Analisi cross-channel, assicurati che l’organizzazione sia preparata con quanto segue:
 
-* Un set di dati in Adobe Experience Platform deve avere due colonne che aiutano a identificare i visitatori:
-   * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID visitatore generato da una libreria Adobe Analytics AppMeasurement.
-   * A **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore desiderato, purché sia presente almeno una volta sullo stesso evento di un determinato ID persistente.
+* Un set di dati in Adobe Experience Platform deve avere due colonne che aiutano a identificare le persone:
+   * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID persona generato da una libreria AppMeasurement di Adobe Analytics.
+   * A **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando una persona si autentica. Puoi utilizzare virtualmente qualsiasi identificatore desiderato, purché sia presente almeno una volta sullo stesso evento di un determinato ID persistente.
 * Un altro set di dati, ad esempio i dati del call center, che contiene un ID transitorio su ogni riga. Questo ID persona deve essere formattato in modo simile all’ID transitorio nell’altro set di dati.
 * Questa funzione ti consente di unire set di dati che possono includere l’unione di dati utente autenticati e non autenticati. Prima di unire i set di dati, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.
 

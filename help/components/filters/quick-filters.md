@@ -4,10 +4,10 @@ title: Filtri rapidi
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -56,7 +56,7 @@ Per creare un filtro rapido:
    | --- | --- |
    | [!UICONTROL Name] | Il nome predefinito di un filtro è una combinazione dei nomi delle regole nel filtro. Puoi rinominare il filtro in un nome più descrittivo. |
    | [!UICONTROL Include/exclude] | Puoi includere o escludere componenti nella definizione del filtro, ma non entrambi. |
-   | Contenitore [!UICONTROL Hit/Visit/Visitor] | I filtri rapidi includono uno [contenitore di filtri](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers) solo che ti consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel filtro. [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. A [!UICONTROL Visit] contenitore consente di impostare regole per suddividere i dati del visitatore in base alle visite e a [!UICONTROL Hit] Il contenitore consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
+   | Contenitore [!UICONTROL Hit/Visit/Visitor] | I filtri rapidi includono uno [contenitore di filtri](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers) solo che ti consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel filtro. [!UICONTROL Visitor] contiene i dati generali specifici della persona per visite e visualizzazioni di pagina. A [!UICONTROL Visit] contenitore consente di impostare regole per suddividere i dati della persona in base alle visite e a [!UICONTROL Hit] Il contenitore consente di suddividere le informazioni sulla persona in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
    | [!UICONTROL Components] (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni, metriche, intervalli di date o valori di dimensioni). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di filtri rapidi trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
    | [!UICONTROL Operator] | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. Consulta [Operatori filtro](operators.md). |
    | Segno più (+) | Aggiunge un’altra regola, |

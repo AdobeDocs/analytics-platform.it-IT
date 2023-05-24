@@ -3,10 +3,10 @@ description: Con la suddivisione in base al tempo, il timestamp degli eventi rac
 title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 66%
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ Con la suddivisione in base al tempo, il timestamp degli eventi raccolti viene s
 
 Le dimensioni suddivise in base al tempo si basano sul fuso orario della visualizzazione dati. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 
-* Su un grande intervallo di dati, qual è l’ora di maggior afflusso al sito o all’app?
+* In un ampio intervallo di date, qual è l’ora del giorno più comune per le persone per accedere al mio sito o all’app?
 * In quale ora del giorno o giorno della settimana si verifica il maggior numero di conversioni sul sito o sull’app?
 * Come sono le vendite nel fine settimana rispetto ai giorni feriali?
 * Una certa campagna di marketing ha generato più conversioni nelle ore della mattina o del pomeriggio?

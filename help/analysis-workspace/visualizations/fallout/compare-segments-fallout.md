@@ -4,10 +4,10 @@ keywords: fallout e filtri;filtri nell’analisi di fallout;confrontare filtri d
 title: Applicare i filtri nell’analisi dell’abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -17,10 +17,10 @@ In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere fil
 
 >[!IMPORTANT]
 >
->I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto visitatore, i filtri utilizzati come punti di controllo devono essere basati su visite o eventi. Con Fallout in contesto visita, i filtri utilizzati come punto di controllo devono essere basati su eventi. Se usi una combinazione non valida, il fallout sarà 100%. Alla visualizzazione Fallout è stata aggiunta un’avvertenza che verrà attivata se aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori di filtri non valide generano diagrammi di fallout non validi, ad esempio:
+>I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto persona, i filtri utilizzati come punti di controllo devono essere basati su visite o eventi. Con Fallout in contesto visita, i filtri utilizzati come punto di controllo devono essere basati su eventi. Se usi una combinazione non valida, il fallout sarà 100%. Alla visualizzazione Fallout è stata aggiunta un’avvertenza che verrà attivata se aggiungi un filtro incompatibile come punto di contatto. Alcune combinazioni di contenitori di filtri non valide generano diagrammi di fallout non validi, ad esempio:
 
-* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Fallout in contesto visitatore
-* Utilizzo di un filtro basato su visitatore come punto di contatto all’interno di una visualizzazione Fallout in un contesto visita
+* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona
+* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto visita
 * Utilizzo di un filtro basato su visita come punto di contatto all’interno di una visualizzazione Fallout in un contesto visita
 
 ## Creare un filtro da un punto di contatto {#section_915E8FBF35CD4F34828F860C1CCC2272}

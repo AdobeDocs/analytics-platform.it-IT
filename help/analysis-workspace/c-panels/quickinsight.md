@@ -3,10 +3,10 @@ description: Quick Insights è uno strumento per i nuovi utenti di Workspace che
 title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -35,10 +35,10 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 |---|---|
 | [!UICONTROL Dimension] | Le dimensioni sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate, raggruppate e confrontate in un progetto. Sono valori non numerici e date raggruppati in elementi dimensionali. Ad esempio, “browser” o “pagina” sono dimensioni. |
 | [!UICONTROL Dimension item] | Gli elementi dimensionali sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero “Chrome”, “Firefox”, “Edge”, ecc. |
-| [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
+| [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività della persona, come visualizzazioni, click-through, ricaricamenti, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. |
 | [!UICONTROL Dimension Breakdown] | Un raggruppamento di dimensioni è un modo per raggruppare letteralmente una dimensione secondo altre dimensioni. Nel nostro esempio, potresti raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti raggruppare i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
-| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare filtri [!UICONTROL Visitor] in base agli attributi (tipo di browser, dispositivo, numero di visite, paese, genere), in base alle interazioni (campagne, ricerca di parole chiave, motore di ricerca), in base a uscite e entrate (visitatori da Facebook, una pagina di destinazione definita, un dominio di riferimento) o in base a variabili personalizzate (campo modulo, categorie definite, ID cliente). |
+| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi generare [!UICONTROL Visitor] filtri basati sugli attributi: tipo di browser, dispositivo, numero di visite, paese, genere, o in base alle interazioni: campagne, ricerca di parole chiave, motore di ricerca, oppure in base a uscite e entrate: persone da Facebook, una pagina di destinazione definita, dominio di riferimento o in base a variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Introduzione a Quick Insights
 

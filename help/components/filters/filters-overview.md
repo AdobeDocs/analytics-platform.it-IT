@@ -2,19 +2,19 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 98%
+ht-degree: 58%
 
 ---
 
 
 # Panoramica sui filtri {#overview}
 
-Customer Journey Analytics ti consente di generare, gestire e condividere filtri potenti e precisi del pubblico e di applicarli ai rapporti. I filtri ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I filtri sono progettati come approfondimenti codificati del pubblico che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
+Customer Journey Analytics ti consente di generare, gestire e condividere filtri potenti e precisi del pubblico e di applicarli ai rapporti. I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. I filtri sono progettati come approfondimenti codificati del pubblico che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
 
-I filtri possono essere basati su attributi (tipo di browser, dispositivo, numero di visite, paese, sesso), interazioni (campagne, ricerca di parole chiave, motore di ricerca), uscite e ingressi (visitatori da Facebook, una pagina di destinazione definita, dominio di provenienza), variabili personalizzate (campo modulo, categorie definite, ID cliente) e altri criteri.
+I filtri possono essere basati su attributi (tipo di browser, dispositivo, numero di visite, paese, genere), interazioni (campagne, ricerca di parole chiave, motore di ricerca), uscite e entrate (persone da Facebook, una pagina di destinazione definita, dominio di riferimento), variabili personalizzate (campo modulo, categorie definite, ID cliente) e altri criteri.
 
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
@@ -28,7 +28,7 @@ Per informazioni sui tipi di filtri disponibili e su come crearli, consulta [Cre
 
 ## Filtri sequenziali {#sequential}
 
-I filtri sequenziali ti consentono di identificare i visitatori in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I filtri sequenziali consentono di identificare cosa piace a un visitatore e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione dei visitatori.
+I filtri sequenziali ti consentono di identificare le persone in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I filtri sequenziali consentono di identificare cosa piace a una persona e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione delle persone.
 
 Ecco un esempio:
 
@@ -36,7 +36,7 @@ Ecco un esempio:
 
 | Visita uno | Visita due | Visita tre |
 | --- | --- | --- |
-| Il visitatore ha visitato la pagina di destinazione principale (A), ha escluso la pagina della campagna (B), quindi ha visualizzato la pagina di prodotto (C). | Il visitatore ha nuovamente visitato la pagina di destinazione principale (A), ha escluso la pagina della campagna (B), ha visitato nuovamente la pagina di prodotto (C) e quindi una nuova pagina (D). | Il visitatore è entrato e ha seguito lo stesso percorso della prima e seconda visita, quindi ha escluso la pagina F per passare direttamente a una pagina di prodotto mirata (G). |
+| La persona è andata alla pagina di destinazione principale (A), ha escluso la pagina della campagna (B) e ha visualizzato la pagina di prodotto (C). | La persona è andata nuovamente alla pagina di destinazione principale (A), ha escluso la pagina della campagna (B), ha visitato nuovamente la pagina di prodotto (C) e ha visitato una nuova pagina (D). | La persona è entrata e ha seguito lo stesso percorso della prima e seconda visita, quindi ha escluso la pagina F per passare direttamente a una pagina di prodotto mirata (G). |
 
 ## Contenitori di filtri {#containers}
 
@@ -45,14 +45,14 @@ I filtri si basano su una gerarchia a livello di Persona, Sessione ed Evento che
 >[!NOTE]
 >Il contenitore Persona era precedentemente noto come contenitore Visitatore. Il contenitore Sessione era denominato contenitore Visita e il contenitore Evento era il contenitore Hit.
 
-Un filtro imposta le condizioni per filtrare un visitatore in base agli attributi o alle interazioni con il sito. Per impostare le condizioni in un filtro, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
+Un filtro imposta le condizioni per filtrare una persona in base ai suoi attributi o alle sue interazioni con il sito. Per impostare le condizioni in un filtro, imposta le regole per filtrare le persone in base alle caratteristiche della persona e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati di una persona, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifici per ogni persona. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
 
-L’architettura del contenitore utilizzata nel Generatore filtri definisce Persona come il contenitore più esterno, contenente i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati del visitatore in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni del visitatore in base alle singole viste di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore e le sue interazioni suddivise per sessioni o di suddividere singoli eventi.
+L’architettura dei contenitori utilizzata nel Generatore filtri definisce Persona come il contenitore più esterno, contenente i dati generali specifici della persona per visite e visualizzazioni di pagina. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni della persona in base alle singole visualizzazioni di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
 
 ### Contenitore Persona {#person}
 
-Il contenitore Persona include ogni visita e visualizzazione di pagina dei visitatori entro un intervallo di tempo specificato. Un filtro a livello di Persona restituisce la pagina che soddisfa la condizione più tutte le altre pagine visualizzate dal visitatore (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in maniera più ampia, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina per tutte le visite e consentono di generare un’analisi per più visite. Di conseguenza, il contenitore Persona è quello più suscettibile a modifiche in base a intervalli di date definiti.
-I contenitori Persona possono includere valori basati sulla cronologia generale di un visitatore:
+Il contenitore Persona include ogni visita e visualizzazione di pagina per le persone entro un intervallo di tempo specificato. Un filtro a livello di Persona restituisce la pagina che soddisfa la condizione più tutte le altre pagine visualizzate dalla persona (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in maniera più ampia, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina per tutte le visite e consentono di generare un’analisi per più visite. Di conseguenza, il contenitore Persona è quello più suscettibile a modifiche in base a intervalli di date definiti.
+I contenitori Persona possono includere valori basati sulla cronologia generale di una persona:
 
 * Giorni precedenti al primo acquisto
 * Pagina di ingresso originale

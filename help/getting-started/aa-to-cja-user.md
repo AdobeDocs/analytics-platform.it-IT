@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -76,9 +76,9 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sui visitatori in base ai singoli eventi.
+* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sulla persona in base ai singoli eventi.
 * **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione.
-* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include ogni sessione ed evento di un visitatore entro l’intervallo di tempo specificato.
+* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il [!UICONTROL Person] il contenitore include ogni sessione ed evento di una persona entro l’intervallo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate
 
@@ -100,7 +100,7 @@ Le classificazioni sono diventate “Set di dati di ricerca”. I set di dati di
 
 ## Modifiche al concetto di attributi cliente
 
-Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati applicati ai visitatori, agli utenti o ai clienti nei dati [!UICONTROL Event]. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
+Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati applicati alle persone, agli utenti o ai clienti in [!UICONTROL Event] dati. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
