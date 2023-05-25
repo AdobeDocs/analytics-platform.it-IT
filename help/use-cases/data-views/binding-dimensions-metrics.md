@@ -3,10 +3,10 @@ title: Utilizzare dimensioni e metriche di binding in CJA
 description: Scopri come attribuire dimensioni ad array di oggetti per complesse analisi di persistenza.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+source-git-commit: 71c633f259b25f30d474ab19f714935b074dfc0c
+workflow-type: tm+mt
+source-wordcount: '1328'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,7 @@ Puoi associare elementi dimensione all’interno di un array oggetto a un’altr
    }
    ```
 
-1. Infine conclude un acquisto. Il colore di ciascun prodotto non era incluso nell’evento di acquisto.
+1. Infine conclude un acquisto. Il colore di ciascun prodotto non è stato incluso nell’evento di acquisto.
 
    ```json
    {
@@ -78,11 +78,11 @@ Se desideri esaminare i ricavi per colore senza una dimensione di binding, la di
 | --- | --- |
 | arancione fluo | 2099 |
 
-Passa a Data View Manager e associa il colore del prodotto al nome del prodotto:
+Accedi a Data View Manager e associa il colore del prodotto al nome del prodotto:
 
 ![Dimensione di binding](../assets/binding-dimension.png)
 
-Quando imposti questo modello di persistenza, CJA prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando, per lo stesso visitatore, riconosce lo stesso nome di prodotto in un evento successivo, viene riportato anche il colore del prodotto. Ecco come si presentano gli stessi dati quando si associa il colore del prodotto al nome del prodotto:
+Quando imposti questo modello di persistenza, CJA prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questa persona, viene riportato anche il colore del prodotto. Ecco come si presentano gli stessi dati quando si associa il colore del prodotto al nome del prodotto:
 
 | product.color | ricavi |
 | --- | --- |
@@ -237,19 +237,19 @@ Uno dei metodi di merchandising più comuni in Adobe Analytics prevede l’assoc
    }
    ```
 
-Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se utilizzi il tipo di allocazione Originale con la dimensione del termine di ricerca:
+Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se hai usato [!UICONTROL Original] allocazione con la dimensione termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
 | guantoni da pugilato | $ 204,97 |
 
-Se utilizzi il tipo di allocazione Più recente con la dimensione del termine di ricerca, per i tre prodotti i ricavi vengono attribuiti di nuovo a un singolo termine di ricerca:
+Se ha usato [!UICONTROL Most Recent] allocazione con la dimensione termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
 | scarpe | $ 204,97 |
 
-Questo esempio si riferisce a un solo visitatore, ma se molti visitatori cercano articoli diversi e i termini di ricerca vengono erroneamente attribuiti a prodotti diversi, è difficile determinare quali siano effettivamente i migliori risultati di ricerca.
+Anche se questo esempio include una sola persona, molte persone che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
 Per attribuire correttamente i termini di ricerca ai ricavi, puoi associarli al nome del prodotto ogni volta che è presente la metrica Ricerche.
 
