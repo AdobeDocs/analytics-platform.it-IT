@@ -1,9 +1,9 @@
 ---
 title: Tendenze
 description: Trova modelli e modifiche nel coinvolgimento degli utenti nel tempo.
-source-git-commit: c47c4364cbf027c24a355bb306ee786c3e2446a9
+source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Il **Tendenze** [Tipo di analisi](overview.md) fornisce informazioni utili sulle
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **Eventi**: imposta gli eventi che desideri misurare nel rapporto. Ogni evento selezionato viene rappresentato da una linea colorata o da un insieme di barre, a seconda del tipo di grafico. Alla tabella viene aggiunta una riga che rappresenta l&#39;evento con tendenze. Sono supportati fino a cinque eventi.
-* **Persone**: imposta i segmenti che desideri misurare nel rapporto. Ogni segmento selezionato raddoppia il numero di righe nel grafico e di righe nella tabella. Ogni set di eventi è rappresentato per ogni segmento. Sono supportati fino a cinque segmenti.
+* **Eventi**: gli eventi che desideri misurare nel rapporto. Ogni evento selezionato viene rappresentato da una linea colorata o da un insieme di barre, a seconda del tipo di grafico. Alla tabella viene aggiunta una riga che rappresenta l&#39;evento con tendenze. Puoi includere fino a cinque eventi.
+* **Persone**: i segmenti che desideri misurare nel rapporto. Ogni segmento selezionato raddoppia il numero di righe nel grafico e di righe nella tabella. Ogni set di eventi è rappresentato per ogni segmento. Puoi includere fino a cinque segmenti.
 
 ## Tipi di visualizzazione
 
@@ -38,8 +38,8 @@ Le tendenze offrono i seguenti tipi di visualizzazione. È possibile modificare 
 
 Le tendenze offrono le seguenti impostazioni del grafico. È possibile regolare le impostazioni del grafico utilizzando il menu tra il tipo di visualizzazione e il selettore del calendario.
 
-* **Metrica**: imposta la metrica da misurare. Le opzioni includono Eventi, Sessioni, Utenti, Eventi per sessione ed Eventi per utente.
-* **Tipo di grafico**: imposta il tipo di visualizzazione che desideri utilizzare. Le opzioni disponibili sono Linea, Barre, Barre sovrapposte e Area sovrapposta.
+* **Metrica**: la metrica da misurare. Le opzioni includono Eventi, Sessioni, Utenti, Eventi per sessione ed Eventi per utente.
+* **Tipo di grafico**: tipo di visualizzazione che desideri utilizzare. Le opzioni disponibili sono Linea, Barre, Barre sovrapposte e Area sovrapposta.
 
 ## Applica confronto temporale
 
@@ -51,5 +51,5 @@ Le opzioni di confronto del tempo disponibili includono il periodo precedente, 1
 
 Imposta l’intervallo di date desiderato. Questa impostazione è composta da due componenti importanti:
 
-* **Interval**: granularità della data in cui desideri visualizzare i dati. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un rapporto con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un rapporto con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
-* **Data**: data di inizio e di fine del progetto. Sono disponibili predefiniti per l’intervallo di date, oppure puoi utilizzare il selettore del calendario per impostare la data esatta desiderata.
+* **Interval**: granularità della data in cui desideri visualizzare i dati. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un’analisi con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un’analisi con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
+* **Data**: data di inizio e fine. Sono disponibili predefiniti per l’intervallo di date, oppure puoi utilizzare il selettore del calendario per impostare la data esatta desiderata.
