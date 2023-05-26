@@ -1,33 +1,35 @@
 ---
-description: Mostra come creare una semplice metrica "Visualizzazioni pagina per visita".
-title: Creare una semplice metrica "Visualizzazioni pagina in base alle visite"
+description: Mostra come creare una semplice metrica "Visualizzazioni pagina in base alle visite".
+title: Creare una semplice metrica “Visualizzazioni pagina in base alle visite”
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 7%
+source-wordcount: '211'
+ht-degree: 4%
 
 ---
 
-# Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;
+# Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;
 
-Mostra come creare una semplice metrica &quot;Visualizzazioni pagina per visita&quot;.
+Mostra come creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;.
 
 Per una descrizione dettagliata dei componenti dell’interfaccia utente, vedi [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
-Ecco come creare una semplice metrica &quot;Visualizzazioni pagina per visita&quot;.
+Ecco come creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;.
 
-1. Passa al Generatore di metrica calcolata.
-1. Denomina la metrica &quot;Visualizzazioni pagina per visita&quot; o qualcosa di simile.
-1. Dagli un facile utilizzo **[!UICONTROL Description]** per mostrare a cosa serve.
-1. Seleziona a destra **[!UICONTROL Format]**, in questo caso Decimal.
-1. Decidere quante posizioni decimali visualizzare nel rapporto.
-1. Imposta la polarità della metrica. Per questa metrica, una tendenza al rialzo sarebbe una buona cosa (verde).
+1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Denomina la metrica &quot;Visualizzazioni pagina in base alle visite&quot; o qualcosa di simile.
+1. Offri un **[!UICONTROL Description]** per mostrare a cosa serve.
+1. Seleziona la destra **[!UICONTROL Format]**, in questo caso Decimal.
+1. Decidi quante cifre decimali visualizzare nel rapporto.
+1. Imposta la polarità della metrica. Per questa metrica, una tendenza verso l’alto sarebbe una buona cosa (verde).
 1. Aggiungi un **[!UICONTROL Tag]** per organizzare le metriche.
-1. Per questa metrica, trascina innanzitutto Visualizzazioni di pagina nell’area di lavoro, quindi trascina Visite sotto (aspetta che appaia la linea blu per rilasciarla).
-1. Selezionare l’operatore Dividi. (Dividi è l’operatore predefinito.)
-1. Ora è possibile visualizzare un **[!UICONTROL Preview]** di quella metrica mentre la stai costruendo, in alto a destra.
-1. Fai clic su **[!UICONTROL Save]**.
-1. Tieni presente che **[!UICONTROL Summary]** La formula viene aggiornata ogni volta che apporti una modifica alla definizione della metrica.
-1. Ora viene automaticamente portato al [Gestore della metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-manager.md), simile al Gestore filtri. Ti consente di condividere, approvare, (ri)assegnare tag, rinominare o eliminare metriche.
+1. Per questa metrica, trascina Visualizzazioni pagina nell’area di lavoro, quindi trascina Visite sotto (attendi che la linea blu venga rilasciata).
+1. Selezionare l&#39;operatore Dividi. (Dividi è l&#39;operatore predefinito).
+1. Ora puoi vedere un **[!UICONTROL Preview]** di quella metrica mentre la stai creando, in alto a destra.
+1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
+
+   Tieni presente che **[!UICONTROL Summary]** La formula viene aggiornata ogni volta che si apporta una modifica alla definizione della metrica.
+
+1. (Facoltativo) Per condividere, approvare, (ri)assegnare tag, rinominare o eliminare una metrica, vai al [Pagina Metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md).

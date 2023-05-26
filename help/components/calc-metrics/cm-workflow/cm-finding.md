@@ -3,40 +3,15 @@ description: Descrive i due modi principali per trovare l’ordinamento e il fil
 title: Trovare metriche
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
 # Trovare metriche
 
-Descrive i due modi principali per trovare le metriche: ordinamento e filtraggio.
+È possibile individuare le metriche in Analysis Workspace nello stesso modo in cui si individuano altri tipi di componenti.
 
-## Ordinamento {#sorting}
-
-Quando apri un rapporto e fai clic sull’icona Metriche  ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche , l’ **[!UICONTROL Sort By]** L’elenco a discesa nel selettore metriche mostra quattro opzioni di ordinamento:
-
-![](assets/cm_sort.png)
-
-| Opzione | Quando usarlo |
-|---|---|
-| Alfabetico | Utile se conosci il nome. |
-| Consigliato | Metriche comuni utilizzate nel rapporto, raccolte dal back end da metriche comunemente utilizzate dagli utenti con questo rapporto. |
-| Utilizzato frequentemente | Utile se sei un utente principiante e devi vedere cosa viene comunemente utilizzato nel rapporto. |
-| Utilizzato di recente | Utile se lavori su un progetto e utilizzi lo stesso set di metriche più e più volte. |
-
-## Filtro - Selezione avanzata {#filtering-advanced}
-
-Quando apri un rapporto e fai clic sull’icona Metriche , quindi fai clic su **[!UICONTROL Manage]**. Ora fai clic sull’icona Filtro . Puoi filtrare in diversi modi.
-
-![](assets/cm_advanced_sel.png)
-
-| Se vuoi | Quindi ordina per |
-| --- | --- |
-| Mostra tutte le metriche in questa visualizzazione dati. | Altri filtri > Mostra tutto |
-| Mostra solo le metriche disponibili | Altri filtri > Personali |
-| Mostra metriche condivise con me da un altro utente | Proprietari o altri filtri > Condivisi con me |
-| Mostra solo le metriche approvate dall’azienda. | Approvato |
-| Filtra le metriche di un progetto su cui stai lavorando. | Uno dei tag. |
+Per informazioni su come individuare rapidamente i componenti, consulta [Cercare, filtrare e ordinare l’elenco dei componenti](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-components/overview.html?lang=en#search%2C-filter%2C-and-sort-the-component-list) in [Panoramica dei componenti](/help/components/overview.md).

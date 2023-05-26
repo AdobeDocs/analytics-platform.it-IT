@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 97%
+source-wordcount: '900'
+ht-degree: 95%
 
 ---
 
@@ -243,12 +243,12 @@ ht-degree: 97%
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Creare metriche](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Creare una semplice metrica “Visualizzazioni pagina in base alle visite”](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Creare una metrica di &quot;partecipazione&quot;](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Metriche filtrate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Sovrapponi e sostituisci segmenti](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Metriche filtrate e ponderate](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Usare le funzioni](../components/calc-metrics/cm-workflow/cm-using-functions.md)
-         + [Metrica di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Assegnare tag alle metriche calcolate](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [Approvare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [Condividere le metriche calcolate](../components/calc-metrics/cm-workflow/cm-sharing.md)

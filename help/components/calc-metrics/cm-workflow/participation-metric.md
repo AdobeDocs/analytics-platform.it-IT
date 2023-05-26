@@ -3,31 +3,32 @@ description: Con il generatore di metriche calcolate, chiunque può creare una m
 title: Metrica di partecipazione
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
-# Metrica di partecipazione
+# Creare una metrica di &quot;partecipazione&quot;
 
-Ecco un caso d’uso semplice: Sei un proprietario di contenuto e vuoi vedere quali pagine hanno contribuito (ovvero, partecipato) alle visite che contenevano un ordine. effettuando le seguenti operazioni:
+Le informazioni seguenti spiegano come creare una metrica che mostra quali pagine hanno contribuito (o partecipato) alle visite che contenevano un ordine.
+
+Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di contenuto.
 
 >[!NOTE]
 >
->Questa operazione era necessaria tramite gli Strumenti di amministrazione. Puoi comunque abilitare le metriche di partecipazione negli Strumenti di amministrazione, ma solo per gli eventi personalizzati da 1 a 100.
+>Puoi abilitare le metriche di partecipazione negli Strumenti di amministrazione, ma solo per gli eventi personalizzati da 1 a 100.
 
-Di seguito sono riportati alcuni casi d’uso semplici: Sei un proprietario di contenuto e desideri vedere quali pagine hanno contribuito (partecipato) alle visite che contenevano un&#39;iscrizione e-mail. effettuando le seguenti operazioni:
-
-1. Crea una nuova metrica nel Generatore di metrica calcolata.
+1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Nel generatore di metriche calcolate, denomina la metrica &quot;Partecipazione&quot; o qualcosa di simile.
 1. Trascina l’evento di successo &quot;Ordini&quot; nell’area di lavoro Definizione.
-1. Modificare la [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) di tale evento **[!UICONTROL Participation]** in **[!UICONTROL Settings]** ingranaggio. Seleziona **[!UICONTROL Visit]** lookback. La definizione dovrebbe essere simile alla seguente:
+1. Modificare il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) di tale evento a **[!UICONTROL Participation]** sotto **[!UICONTROL Settings]** ingranaggio. Seleziona **[!UICONTROL Visit]** lookback. La definizione deve essere simile alla seguente:
 
    ![](assets/participation.png)
 
-1. Salva la metrica.
-1. Utilizza la metrica calcolata in un **[!UICONTROL Pages]** rapporto.
+1. Seleziona [!UICONTROL **Salva**] per salvare la metrica.
+1. Utilizzare la metrica calcolata in una **[!UICONTROL Pages]** rapporto.
 
    ![](assets/participation-pages.png)
 
