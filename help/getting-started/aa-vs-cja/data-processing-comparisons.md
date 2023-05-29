@@ -2,7 +2,7 @@
 title: Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adobe Analytics e CJA
 description: Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a38e2afac7645e9249e42e0b4830f5249a69b522
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 71%
@@ -45,7 +45,7 @@ La tabella seguente definisce la terminologia dei diversi tipi di logica di elab
 | Metriche calcolate | Valutazione delle metriche personalizzate create dai clienti che possono essere basate su formule complesse, inclusi segmenti e filtri. | Esempio: numero di persone che hanno acquistato delle scarpe rosse. |
 | Logica di attribuzione | Logica per il calcolo dell’attribuzione. | Esempio: persistenza eVar. |
 | Impostazioni dei componenti | Applicazione di personalizzazioni a metriche o dimensioni quali attribuzione, comportamento, formato e altri | Esempio: divisione in blocchi di valori per combinare valori numerici basati su un intervallo |
-| Campi personalizzati | La logica si applica ai campi dello schema o standard come parte della definizione dei componenti in una visualizzazione dati. | Esempio: creazione di una nuova dimensione canale di marketing |
+| Campi derivati | La logica si applica ai campi dello schema o standard come parte della definizione dei componenti in una visualizzazione dati. | Esempio: creazione di una nuova dimensione canale di marketing |
 
 {style="table-layout:auto"}
 
