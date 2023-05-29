@@ -2,7 +2,7 @@
 title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
+source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 89%
@@ -82,15 +82,15 @@ Dopo aver creato un pubblico, Adobe crea un segmento Experience Platform in stre
 
 ## Considerazioni sulla latenza {#latency}
 
-In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi delle latenze. Ecco una panoramica delle latenze che possono verificarsi.
+In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![latenza da AEP a CJA](assets/latency-diagram.png)
+![Latenza da AEP a CJA](assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
-| Non visualizzato | Connettore sorgente da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
-| 1 | Acquisizione di dati in Data Lake (da Analytics Source Connector o altre sorgenti) | Fino a 90 minuti |
-| 2 | Acquisizione di dati da Experience Platform Data Lake in CJA | Fino a 90 minuti |
+| Non visualizzato | Connettore di origine da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
+| 1 | Acquisizione dei dati nel Data Lake (dal connettore di origine di Analytics o da altre origini) | Fino a 90 minuti |
+| 2 | Acquisizione dei dati da Experience Platform Data Lake in CJA | Fino a 90 minuti |
 | 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | Circa 60 minuti |
 | 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 | 5 | Creazione della destinazione in AEP: attivazione del nuovo segmento | 1-2 ore |
@@ -131,7 +131,7 @@ Sì.
 
 +++
 
-+++**CJA invia i dati del pubblico come eventi della pipeline o come file flat che va anche al data lake?**
++++**CJA invia i dati sul pubblico come eventi della pipeline o come file flat che viene inviato anche al data lake?**
 
 CJA trasmette i dati al RTCP tramite pipeline e questi dati vengono anche raccolti in un set di dati di sistema nel data lake.
 
@@ -139,7 +139,7 @@ CJA trasmette i dati al RTCP tramite pipeline e questi dati vengono anche raccol
 
 +++**Quali identità invia CJA?**
 
-Qualsiasi coppia di identità/namespace specificata nella [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
+Qualsiasi coppia identità/spazio dei nomi specificata nel [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
 
 +++
 
@@ -155,15 +155,15 @@ No. Inviamo una sola identità per “persona”, quindi RTCP non avrebbe bordi 
 
 +++
 
-+++**A che ora si verificano aggiornamenti giornalieri, settimanali e mensili? Che giorno della settimana si verificano rinfreschi settimanali?**
++++**A che ora vengono eseguiti aggiornamenti giornalieri, settimanali e mensili? In quale giorno della settimana si verificano aggiornamenti settimanali?**
 
-La tempistica dell’aggiornamento si basa sul momento in cui è stato pubblicato il pubblico originale ed è ancorato a quell’ora del giorno (e al giorno della settimana o del mese).
+La tempistica dell’aggiornamento si basa su quando è stato pubblicato il pubblico originale ed è ancorata a tale ora del giorno (e al giorno della settimana o del mese).
 
 +++
 
-+++**Gli utenti possono configurare l’ora giornaliera, settimanale e mensile dell’aggiornamento?**
++++**Gli utenti possono configurare l’ora di aggiornamento giornaliera, settimanale e mensile?**
 
-No, non possono essere configurati dagli utenti.
+No, non possono essere configurate dagli utenti.
 
 +++
 
