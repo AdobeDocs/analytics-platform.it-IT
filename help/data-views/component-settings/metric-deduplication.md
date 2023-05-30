@@ -4,9 +4,9 @@ description: Conteggia solo la prima occorrenza di una metrica nei rapporti.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9a31b1dcba4015f00dd7ae8c43b317e1c5679a2c
-workflow-type: ht
-source-wordcount: '273'
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+workflow-type: tm+mt
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 La deduplicazione delle metriche consente di configurare una metrica in modo da conteggiare unicamente i valori in modo non ripetitivo.
 
+![Deduplica delle metriche](../assets/metric-deduplication.png)
+
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Metric deduplication] | Una casella di controllo che consente di abilitare la deduplicazione delle metriche. Disabilitata per impostazione predefinita. |
@@ -22,7 +24,7 @@ La deduplicazione delle metriche consente di configurare una metrica in modo da 
 | [!UICONTROL Deduplication ID] | Invece di applicare la deduplicazione sulla metrica stessa, puoi applicare la deduplicazione metrica in base a una dimensione. Impostazione molto utile per dimensioni quali l&#39;ID acquisto. |
 | [!UICONTROL Value to keep] | <ul><li>**Mantieni prima istanza**: utilizza questa opzione nelle situazioni in cui l’istanza iniziale della metrica è quella valida. Ad esempio, per una conferma di acquisto: se l’utente ricarica inavvertitamente la pagina e questo genera un’altra istanza di conferma dell’acquisto, l’evento valido resta comunque quello iniziale.</li><li>**Mantieni ultima istanza**: utilizza questa opzione in situazioni in cui conviene raccogliere l’ultima istanza. Esempio: l’utente aggiorna il suo profilo online. In questo caso sarà necessario contare solo uno di tali aggiornamenti per sessione. Tuttavia, l’utente può aggiornare il profilo più volte durante una sessione. Se si mantenesse la prima istanza, alcune attività potrebbero non essere associate all’evento. In casi simili, conviene mantenere l’ultima istanza.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!CAUTION]
 >

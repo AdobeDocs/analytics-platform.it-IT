@@ -4,7 +4,7 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 90%
@@ -16,12 +16,12 @@ ht-degree: 90%
 
 [!UICONTROL Persistence] è la capacità di un dato valore di dimensione di riferirsi a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 
+![Persistenza](../assets/persistence.png)
+
 * **Allocazione** consente di determinare quale valore viene mantenuto quando più elementi dimensionali possono persistere alla volta in una singola colonna.
 * **Scadenza** consente di determinare per quanto tempo un elemento dimensione persiste oltre l’evento su cui è impostato.
 
 [!UICONTROL Persistence] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di filtri o di altre operazioni di analisi.
-
-![Persistenza](../assets/persistence.png)
 
 | Impostazione | Descrizione |
 | --- | --- |

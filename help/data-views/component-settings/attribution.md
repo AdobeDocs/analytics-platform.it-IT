@@ -4,16 +4,20 @@ description: Consente di impostare l’attribuzione predefinita per una metrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1777'
 ht-degree: 38%
 
 ---
 
 # Impostazioni dei componenti di attribuzione
 
-Attribution consente di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
+Attribution consente di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo.
+
+![](../assets/attribution-settings.png)
+
+Ad esempio:
 
 1. Una persona sul tuo sito fa clic su un collegamento di ricerca a pagamento a una delle tue pagine di prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno dopo, vedono un post di un loro amico sui social media. Fa clic sul collegamento, quindi completa l’acquisto.
@@ -22,7 +26,7 @@ In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca 
 
 Questa impostazione del componente Visualizzazione dati consente di impostare un modello di attribuzione predefinito per una metrica. Puoi sovrascrivere il modello di attribuzione di una data metrica mentre lavori in Analysis Workspace.
 
-![Attribuzione](../assets/attribution-settings.png)
+
 
 Se l’organizzazione richiede che una metrica abbia più impostazioni di attribuzione, puoi effettuare una delle seguenti operazioni:
 

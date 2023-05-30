@@ -4,7 +4,7 @@ description: Utilizza un sottoinsieme di una stringa come elementi dimensionali.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 96%
@@ -15,18 +15,18 @@ ht-degree: 96%
 
 Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire più metodi di manipolazione delle stringhe per ottenere gli elementi dimensionali desiderati nei rapporti.
 
-[!UICONTROL Substring] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di filtri o di altre operazioni di analisi.
-
 ![Impostazioni Substring (Sottostringa)](../assets/substring-settings.png)
+
+[!UICONTROL Substring] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di filtri o di altre operazioni di analisi.
 
 ## From the Left/Right (Da sinistra/destra)
 
-Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** i metodi forniscono due elenchi a discesa: **[!UICONTROL From]** (quando inizia l&#39;uscita) e **[!UICONTROL To]** (dove termina l&#39;output).
+Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** I metodi forniscono due elenchi a discesa: **[!UICONTROL From]** (da dove inizia l’output) e **[!UICONTROL To]** (dove termina l’output).
 
 * **[!UICONTROL String Start]**: inizio della stringa.
 * **[!UICONTROL String End]**: fine della stringa.
 * **[!UICONTROL Position]**: numero statico di caratteri da sinistra o da destra, a seconda del metodo.
-* **[!UICONTROL String]**: specifica un carattere o una sequenza di caratteri per indicare l’inizio o la fine di una stringa. Questo elenco a discesa presenta anche opzioni aggiuntive:
+* **[!UICONTROL String]**: specifica un carattere o una sequenza di caratteri per indicare l’inizio o la fine di una stringa. Questo elenco a discesa presenta anche altre opzioni:
    * **[!UICONTROL Match]**: stringa da trovare (corrispondenza). Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
    * **[!UICONTROL Index]**: il criterio **[!UICONTROL Match]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
    * **[!UICONTROL Include String]**: casella di controllo che, se abilitata, include nell’output la stringa **[!UICONTROL Match]**.
