@@ -1,9 +1,10 @@
 ---
 title: Crescita degli utenti
 description: Monitora la crescita della base di utenti del tuo prodotto.
-source-git-commit: 37699a674a190aa2f28125d5b39bb3c27ac88551
+exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ I casi di utilizzo per questo tipo di analisi includono:
 
 * **Valutazione delle prestazioni**: la crescita degli utenti consente di valutare le prestazioni complessive del prodotto in termini di acquisizione di nuovi utenti. Tracciando le tendenze di crescita, puoi capire meglio se il tuo prodotto attrae e mantiene gli utenti al ritmo desiderato.
 * **Fidelizzazione e abbandono degli utenti:** La crescita degli utenti fornisce una chiara visualizzazione dei periodi di fidelizzazione elevata o bassa degli utenti. Riconoscere questi periodi di conservazione elevata o bassa può aiutare a prendere decisioni sui prodotti per incoraggiare la conservazione elevata o ridurre al minimo l’abbandono.
-* **Valutazione della campagna**: visualizzare la crescita degli utenti specifica per una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
+* **Valutazione della campagna**: la visualizzazione della crescita degli utenti in relazione a una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
 
 [Schermata della crescita degli utenti]
 
@@ -33,8 +34,8 @@ I casi di utilizzo per questo tipo di analisi includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **Eventi**: l’evento che desideri misurare. Poiché questo tipo di analisi è basato su utente, un utente può toccare l’evento una volta all’interno della granularità della data impostata per essere conteggiato come utente attivo. Puoi includere un solo evento.
-* **Persone**: il segmento che desideri misurare. Puoi includere un solo segmento.
+* **Eventi**: l’evento che desideri misurare. Poiché questo tipo di analisi è basato su utente, un utente può toccare l’evento una volta all’interno della granularità della data impostata per essere conteggiato come utente attivo. È possibile includere un solo evento in una query.
+* **Persone**: il segmento che desideri misurare. È possibile includere un solo segmento in una query.
 
 ## Tipi di visualizzazione
 

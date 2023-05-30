@@ -3,7 +3,7 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 50%
@@ -95,7 +95,7 @@ I filtri a discesa dinamici consentono di determinare i valori disponibili in ba
 
 Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e i filtri selezionati. Gli elementi Dimension selezionati nei filtri a discesa statici influiscono sui valori disponibili nei filtri a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi di Dimension selezionati nei filtri a discesa dinamici non influiscono sui valori disponibili nei filtri a discesa statici.
 
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un determinato elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un filtro a discesa dinamico in modo che non contenga un valore, consentendo ad altri filtri a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Clear All]** per cancellare la selezione da tutti i filtri a discesa per quel pannello.
+La selezione manuale degli elementi dimensionali è disponibile se prevedi che un determinato elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un filtro a discesa dinamico in modo che non contenga un valore, consentendo ad altri filtri a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reset all]** per cancellare la selezione da tutti i filtri a discesa per quel pannello.
 
 Per creare un filtro a discesa dinamico:
 
