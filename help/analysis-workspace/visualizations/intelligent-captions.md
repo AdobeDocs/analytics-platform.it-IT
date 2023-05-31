@@ -1,67 +1,69 @@
 ---
-description: Utilizza i sottotitoli intelligenti per generare informazioni in linguaggio naturale per evidenziare rapidamente le tendenze nelle visualizzazioni.
-title: Sottotitoli intelligenti
+description: Utilizza i sottotitoli intelligenti per generare informazioni sul linguaggio naturale e far emergere rapidamente le tendenze all’interno delle visualizzazioni.
+title: Didascalie intelligenti
 feature: Visualizations
 role: User, Admin
-source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
+exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
+source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
+# Didascalie intelligenti
 
-# Sottotitoli intelligenti
+I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose sul linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](line.md) visualizzazione. Seguiranno altre visualizzazioni.
 
-{{release-limited-testing}}
+I sottotitoli intelligenti sono orientati verso:
 
-I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose in linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](line.md) visualizzazione. Seguiranno altre visualizzazioni.
+* Analisti che hanno bisogno di narrazioni da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per fornire contesto ai loro utenti.
+* Utenti aziendali che desiderano scoprire rapidamente soluzioni di alto livello.
 
-I sottotitoli intelligenti sono rivolti a:
+I sottotitoli sono disponibili per tutti gli utenti CJA e non richiedono autorizzazioni speciali.
 
-* Analisti che hanno bisogno di storie da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per poter fornire contesto ai loro utenti.
-* Utenti aziendali che desiderano scoprire rapidamente attività di alto livello.
-
-I sottotitoli sono disponibili per tutti gli utenti di CJA e non richiedono autorizzazioni speciali.
-
-## Lancio di sottotitoli intelligenti {#launch}
+## Avvia sottotitoli intelligenti {#launch}
 
 Per avviare i sottotitoli generati automaticamente per una visualizzazione delle linee, fai clic sul pulsante **[!UICONTROL Intelligent captions]** in alto a destra nella visualizzazione.
 
 ![lanciare sottotitoli intelligenti](assets/intell-caps-1.png)
 
-Ora vengono generate informazioni in linguaggio naturale. I sottotitoli vengono generati ogni volta che i dati selezionati sottostanti vengono modificati nella tabella che genera la visualizzazione. Inoltre, se nella tabella sono presenti più metriche, le didascalie vengono generate solo per la prima metrica o per la metrica attualmente selezionata dall’utente.
+Vengono ora generate informazioni sul linguaggio naturale.
 
-Se salvi il progetto a questo punto e lo ricarichi in seguito, le didascalie vengono aggiornate automaticamente con nuovi dati. Lo stesso vale per i progetti pianificati e i file PDF esportati da questo progetto.
+* Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che alimenta la visualizzazione.
 
-## Visualizzare e interpretare le didascalie {#view}
+* Se la tabella contiene più metriche, le didascalie vengono generate solo per la prima metrica o per la metrica attualmente selezionata dall’utente.
 
-Di seguito è riportato un esempio dell’aspetto delle didascalie:
+* Se salvi il progetto a questo punto e lo ricarichi in un secondo momento, i sottotitoli vengono aggiornati automaticamente con i nuovi dati. Lo stesso vale per i progetti programmati e i file PDF esportati da questo progetto.
+
+## Visualizzare e interpretare i sottotitoli {#view}
+
+Ecco un esempio di sottotitoli:
 
 ![Sottotitoli](assets/captions.png)
 
 ## Copia negli Appunti {#copy}
 
-È possibile copiare le didascalie negli Appunti e incollarle in un Powerpoint o in un altro strumento. Trova il **[!UICONTROL Copy captions to clipboard]** in alto a destra nella finestra di dialogo didascalie.
+È possibile copiare i sottotitoli negli Appunti e incollarli in un Powerpoint o in un altro strumento. Trova il **[!UICONTROL Copy captions to clipboard]** in alto a destra nella finestra di dialogo sottotitoli.
 
-## Modificare le didascalie {#edit}
+## Modifica didascalie {#edit}
 
-È possibile modificare le didascalie, ad esempio nascondere o nascondere una particolare categoria di informazioni. Ad esempio, se non desideri informazioni sull’ordine minimo, puoi solo nasconderlo e fare clic su applica e non verrà più visualizzato.
+Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni. Ad esempio, se non desideri conoscere l’ordine minimo, puoi semplicemente nasconderlo e fare clic su Applica, ma non verrà più visualizzato.
 
-1. Fai clic su **[!UICONTROL Edit intelligent captions display]** accanto all’icona Appunti.
+1. Clic **[!UICONTROL Edit intelligent captions display]** accanto all&#39;icona degli Appunti.
 
-1. Nella finestra di dialogo di modifica, fai clic sull’icona occhio accanto alle informazioni da nascondere.
+1. Nella finestra di dialogo per modifica, fai clic sull’icona dell’occhio accanto all’informazione che desideri nascondere.
 
 1. Fai clic su **[!UICONTROL Apply]** (Usa modello di attribuzione non predefinito).
 
-Utilizza lo stesso processo per visualizzare le didascalie.
+Utilizza lo stesso processo per mostrare le didascalie.
 
-## Esportare i sottotitoli {#export}
+## Esporta sottotitoli {#export}
 
-È possibile **esportare sottotitoli tramite PDF**, purché il progetto venga salvato con le didascalie generate.
+È possibile **esportare sottotitoli tramite PDF**, purché il progetto venga salvato con i sottotitoli generati.
 
-## Disattiva didascalie {#toggle}
+## Disattiva sottotitoli {#toggle}
 
-Se preferisci non generare didascalie intelligenti, puoi disattivare questa funzione andando nelle preferenze di visualizzazione e deselezionando **[!UICONTROL Show intelligent captions]**.
+Se preferisci che non vengano generati sottotitoli intelligenti, puoi disattivare questa funzione dalle Preferenze di visualizzazione e deselezionare **[!UICONTROL Show intelligent captions]**.
 
 ![impostazioni didascalia](assets/toggle-captions.png)
