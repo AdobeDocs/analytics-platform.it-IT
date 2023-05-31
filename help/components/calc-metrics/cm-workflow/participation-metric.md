@@ -3,16 +3,16 @@ description: Con il generatore di metriche calcolate, chiunque può creare una m
 title: Metrica di partecipazione
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # Creare una metrica di &quot;partecipazione&quot;
 
-Le informazioni seguenti spiegano come creare una metrica che mostra quali pagine hanno contribuito (o partecipato) alle visite che contenevano un ordine.
+Le informazioni seguenti spiegano come creare una metrica che mostra quali pagine hanno contribuito (o partecipato) a sessioni contenenti un ordine.
 
 Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di contenuto.
 
@@ -23,7 +23,7 @@ Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di 
 1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 1. Nel generatore di metriche calcolate, denomina la metrica &quot;Partecipazione&quot; o qualcosa di simile.
 1. Trascina l’evento di successo &quot;Ordini&quot; nell’area di lavoro Definizione.
-1. Modificare il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) di tale evento a **[!UICONTROL Participation]** sotto **[!UICONTROL Settings]** ingranaggio. Seleziona **[!UICONTROL Visit]** lookback. La definizione deve essere simile alla seguente:
+1. Modificare il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) di tale evento a **[!UICONTROL Participation]** sotto **[!UICONTROL Settings]** ingranaggio. Seleziona **[!UICONTROL Session]** lookback. La definizione deve essere simile alla seguente:
 
    ![](assets/participation.png)
 
@@ -32,4 +32,4 @@ Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di 
 
    ![](assets/participation-pages.png)
 
-1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione.
+1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

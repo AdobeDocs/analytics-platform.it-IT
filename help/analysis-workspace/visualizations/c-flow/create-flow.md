@@ -4,10 +4,10 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Sopra ogni colonna viene visualizzato un filtro al passaggio del mouse. Facendo 
 |--- |--- |
 | [!UICONTROL Focus on this node] | Rende attivo il nodo selezionato. Il nodo attivo è visualizzato al centro del diagramma di flusso. |
 | [!UICONTROL Start Over] | Si torna al generatore di diagrammi a forma libera dove è possibile generare un nuovo diagramma di flusso. |
-| [!UICONTROL Create Segment from this point in flow] | Crea un segmento. Viene aperto il Generatore di segmenti, dove è possibile configurare il nuovo segmento. |
+| [!UICONTROL Create Filter from this point in flow] | Crea un filtro. Viene aperto il Generatore di filtri, in cui è possibile configurare il nuovo filtro. |
 | [!UICONTROL Breakdown] | Suddivide il nodo per dimensioni, metriche o ora. |
 | [!UICONTROL Trend] | Crea un diagramma di tendenza per il nodo. |
 | [!UICONTROL Expand entire column] | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |

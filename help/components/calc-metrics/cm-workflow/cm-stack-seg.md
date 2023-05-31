@@ -1,27 +1,31 @@
 ---
-description: Mostra come sovrapporre e sostituire i filtri nel Generatore di metriche calcolate.
-title: Sovrapponi filtri
+description: Mostra come impilare e sostituire i filtri nel Generatore di metriche calcolate.
+title: Sovrapponi e sostituisci filtri
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-# Sovrapponi filtri
+# Sovrapponi e sostituisci filtri
 
-Mostra come sovrapporre e sostituire i filtri nel Generatore di metriche calcolate.
+Puoi impilare e sostituire i filtri nel generatore di metriche calcolate.
 
-## Filtri di stack {#stack-filter}
+## Sovrapponi filtri {#stack-filter}
 
-Nell&#39;area di lavoro Definizione, rilascia semplicemente il nuovo filtro accanto a quello esistente:
+1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. Nell’area di lavoro Definizione, rilascia il nuovo filtro accanto a quello esistente:
 
 ![](assets/cm_stack_seg.png)
 
 ## Sostituire un filtro con un altro {#replace-filter}
 
-Nell&#39;area di lavoro Definizione, è sufficiente posizionare il nuovo filtro su quello esistente:
+1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. Nell’area di lavoro Definizione, rilascia il nuovo filtro sopra quello esistente:
 
 ![](assets/cm_replace_seg.png)

@@ -2,10 +2,10 @@
 title: Operatori filtro
 description: Determina il modo in cui un componente interagisce con un valore all’interno di un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -37,7 +37,7 @@ Il Generatore di filtri consente di confrontare e vincolare i valori utilizzando
 
 ## Operatori di conteggio distinti
 
-Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Ad esempio, puoi creare filtri per le persone che hanno visualizzato più di 5 prodotti o visite distinti in cui sono state visualizzate più di 5 pagine distinte.
+Puoi filtrare in base a un numero distinto di elementi all’interno di una dimensione. Ad esempio, puoi creare filtri per le persone che hanno visualizzato più di 5 prodotti o visite distinti in cui sono state visualizzate più di 5 pagine distinte.
 
 | Operatore | Descrizione |
 | --- | --- |

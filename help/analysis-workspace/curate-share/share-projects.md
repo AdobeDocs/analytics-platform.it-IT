@@ -4,7 +4,7 @@ keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 25%
@@ -75,7 +75,7 @@ Se sono presenti modifiche non salvate, viene richiesto di salvare prima il prog
 
 1. Scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
 
-   * **Condividere componenti di progetto incorporati:** Condivide segmenti, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Components nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente; si tratta di un’azione una tantum al momento della condivisione.
+   * **Condividere componenti di progetto incorporati:** Condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Components nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente; si tratta di un’azione una tantum al momento della condivisione.
 
    * **Imposta come pagina di destinazione per i destinatari:** Imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente; si tratta di un’azione una tantum al momento della condivisione.
 

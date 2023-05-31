@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 90%
 
 ---
 
@@ -35,16 +35,16 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Trascina visualizzazione **[!UICONTROL Key metric summary]** dal menu **[!UICONTROL Visualizations]** nella barra a sinistra in un pannello.
 
-1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un segmento (se desiderato):
+1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un filtro (se desiderato):
 
-   ![configurazione della metrica chiave](assets/key-metric-config.png)
+   ![configurazione delle metriche chiave](assets/key-metric-config.png)
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Metric]** | Seleziona la metrica da esaminare. Sono supportate tutte le metriche. |
    | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera. |
    | **[!UICONTROL Comparison date range]** | L’intervallo di date a cui si desidera confrontare l’intervallo di date principale. |
-   | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento a cui sei interessato in modo specifico per questo riepilogo. |
+   | **[!UICONTROL Filter (optional)]** | Qualsiasi filtro a cui sei interessato in modo specifico per questo riepilogo. |
 
    {style="table-layout:auto"}
 
@@ -93,4 +93,4 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
    Ora ritorni alla visualizzazione di configurazione originale.
 
-1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il segmento come preferisci.
+1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il filtro come preferisci.

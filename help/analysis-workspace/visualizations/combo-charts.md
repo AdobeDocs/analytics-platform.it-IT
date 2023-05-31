@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 96%
+source-wordcount: '700'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Aspetti da considerare:
 * Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
-* Puoi applicare fino a 3 filtri (segmenti) a una metrica.
+* Puoi applicare fino a 3 filtri a una metrica.
 * Le metriche calcolate non sono supportate nei grafici combinati.
 
 ## Creare un grafico combinato
@@ -92,7 +92,7 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |
-| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se disponi di un set di dati di grandi dimensioni, puoi visualizzare solo i primi 10 elementi (o qualsiasi valore scelto). |
+| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se disponi di un set di dati di grandi dimensioni, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
 | **[!UICONTROL Overlays]** | Mostra o nasconde i punti (o “bar bell”) sulle linee. |
 | **[!UICONTROL Axis]** |  |
 | **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse Y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore per tutti i confronti è il grigio. |

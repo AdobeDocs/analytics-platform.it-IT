@@ -3,9 +3,9 @@ description: Mostra come creare una semplice metrica "Visualizzazioni pagina in 
 title: Creare una semplice metrica “Visualizzazioni pagina in base alle visite”
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 4%
 
 ---
@@ -32,4 +32,4 @@ Ecco come creare una semplice metrica &quot;Visualizzazioni pagina in base alle 
 
    Tieni presente che **[!UICONTROL Summary]** La formula viene aggiornata ogni volta che si apporta una modifica alla definizione della metrica.
 
-1. (Facoltativo) Per condividere, approvare, (ri)assegnare tag, rinominare o eliminare una metrica, vai al [Pagina Metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

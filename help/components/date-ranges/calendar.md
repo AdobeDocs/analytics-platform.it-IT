@@ -4,10 +4,10 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 44%
+ht-degree: 51%
 
 ---
 
@@ -33,47 +33,47 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
 | Applica | Applica l’intervallo di date solo al pannello corrente. |
 
-## Informazioni sugli intervalli di date relativi al pannello {#relative-panel-dates}
+## Informazioni sugli intervalli di date del pannello relativo {#relative-panel-dates}
 
-Se lavori in Workspace, puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Tre casi d’uso comuni in cui vengono applicate le date dei pannelli relativi sono grafici combinati, riepilogo delle metriche chiave e intervalli di date delle tabelle a forma libera.
+Se lavori in Workspace, puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Tre casi d’uso comuni in cui vedrai che le date del pannello relativo diventano effettive sono i grafici combinati, il riepilogo delle metriche chiave e gli intervalli di date delle tabelle a forma libera.
 
-Per utilizzare intervalli di date relativi al pannello
+Per utilizzare gli intervalli di date del pannello relativo
 
-1. Seleziona la **Area di lavoro** scheda .
+1. Seleziona la **Workspace** scheda.
 1. Seleziona **Progetto vuoto**.
-1. Aggiungi dimensioni, metriche e segmenti dalla barra a sinistra.
-1. Fai clic sul campo dell’intervallo di date del pannello per attivare/disattivare l’impostazione dell’intervallo di date relativo al pannello.
-1. Seleziona **Rendere i componenti dell’intervallo di date relativi al calendario del pannello**.
+1. Aggiungi dimensioni, metriche e filtri dalla barra a sinistra.
+1. Fai clic sul campo intervallo date del pannello per attivare/disattivare l’impostazione dell’intervallo date del pannello relativo.
+1. Seleziona **Rendi i componenti dell’intervallo di date relativi al calendario del pannello**.
    * Seleziona l’opzione per rendere i componenti dell’intervallo di date relativi al calendario del pannello.
-Se sono selezionate date relative, le date continue saranno basate sulla data di inizio del calendario del pannello e non sulla data odierna.
-   * Se questa opzione non è selezionata, le date continue saranno basate sulla data odierna.
+Se sono selezionate date relative, le date continue verranno basate sulla data di inizio del calendario del pannello e non sulla data odierna.
+   * Se questa opzione non è selezionata, le date di rotazione saranno basate sulla data odierna.
 
-   ![date del pannello relativo](assets/relative-date-selected.png){width="60%"}
+   ![date relative del pannello](assets/relative-date-selected.png){width="60%"}
 
 1. Fai clic su **Applica**.
-Le date relative vengono visualizzate in alto a destra.
+Le date relative sono visualizzate in alto a destra.
 
    ![date relative a forma libera ](assets/relative-date-range1.png)
 
-## Linee guida per gli intervalli di date relativi al pannello {#guidelines}
+## Linee guida per intervalli di date relativi del pannello {#guidelines}
 
-Quando utilizzi intervalli di date relativi al pannello, ricorda quanto segue.
+Quando utilizzi intervalli di date relativi per il pannello, tieni presenti le seguenti linee guida.
 
 ### Formule e intervalli di date relativi {#formula-relative-dates}
 
-Se selezioni date relative, come punto iniziale verranno utilizzate tutte le formule per date.
+Se hai selezionato date relative, tutte le formule di date utilizzeranno la data di inizio del pannello come punto iniziale.
 
 ### Calendari personalizzati e intervalli di date relativi {#custom-calendar-formulas}
 
-Quando si utilizza un calendario personalizzato basato su una settimana e si aggiungono mesi o anni, la formula calcola l&#39;offset del giorno nel periodo specificato. La data effettiva può essere diversa a causa dell&#39;offset. La formula sceglie l’destinazione del giorno nello stesso punto del calendario personalizzato. Ad esempio, il terzo venerdì della terza settimana in un calendario personalizzato.
+Quando si utilizza un calendario personalizzato basato su settimane e si aggiungono mesi o anni, la formula calcola lo scostamento del giorno nel periodo specificato. La data effettiva può essere diversa a causa dell&#39;offset. La formula sceglie il giorno di destinazione nello stesso punto del calendario personalizzato. Ad esempio, il terzo venerdì della terza settimana in un calendario personalizzato.
 
-### Informazioni sui segmenti che utilizzano date continue e intervalli di date relativi al pannello {#segments-relative-dates}
+### Informazioni sui filtri che utilizzano date continue e intervalli di date del pannello relativo {#segments-relative-dates}
 
-Se crei un segmento o utilizzi un segmento con una data continua, ad esempio gli Ultimi 7 giorni o le Ultime 2 settimane, e fai clic sull’anteprima del segmento, la data continua verrà avviata da *Oggi* anziché la data di inizio del pannello. Di conseguenza, l’anteprima del segmento non corrisponderà quando si utilizza effettivamente il segmento nella tabella. L’anteprima è interessata, non il segmento stesso.
+Se crei un filtro o utilizzi un filtro con una data continua, ad esempio gli Ultimi 7 giorni o le Ultime 2 settimane, e fai clic sull’anteprima del filtro, la data continua verrà avviata a partire da *Oggi* invece della data di inizio del pannello. Di conseguenza, l’anteprima del filtro non corrisponderà a quando utilizzi effettivamente il filtro nella tabella. È interessata l’anteprima, non il filtro stesso.
 
-## Linee guida per gli intervalli di date del pannello e le anteprime {#guidelines-panel-dates}
+## Linee guida per intervalli di date e anteprime del pannello {#guidelines-panel-dates}
 
 * A partire dalla versione di febbraio, le anteprime dei dati e dei componenti saranno basate sull’intervallo di date del pannello e non sugli ultimi 90 giorni.
 * Tutti i componenti elencati nella barra a sinistra saranno disponibili in base all’intervallo di date del pannello.
-* Tutte le anteprime di date nel segmento e i generatori di metriche calcolate saranno basate sull’intervallo di date del pannello (a meno che non siano accessibili dai gestori dei componenti, che non hanno un pannello associato, saranno comunque basate sugli ultimi 90 giorni).
-* Tutte le anteprime dei dati visualizzeranno dati o componenti in base all’intervallo di date del pannello.
+* Tutte le anteprime di date nei generatori di filtri e metriche calcolate saranno basate sull’intervallo di date del pannello (a meno che i gestori dei componenti non vi abbiano accesso, saranno ancora basate sugli ultimi 90 giorni).
+* Tutte le anteprime dei dati mostreranno dati o componenti in base all’intervallo di date del pannello.

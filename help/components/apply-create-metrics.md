@@ -3,10 +3,10 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ Puoi trascinare una metrica standard, una metrica calcolata o un modello di metr
 >
 >Anche se questo è apparentemente semplice, l’uso delle metriche è piuttosto efficace. Puoi aggiungere metriche a un report trascinando la metrica appropriata nella sezione delle metriche di una tabella. Puoi anche suddividere le dimensioni per metriche per avere un controllo preciso sulla visualizzazione della tabella. Inoltre, puoi inserire una metrica come dimensione e una dimensione come metrica per creare un rapporto nel tempo. Usa i vari componenti e scopri cosa puoi fare. Le possibilità sono infinite.
 
-Oppure puoi fare clic su **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Verrà visualizzato il [Generatore di metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md), in cui puoi creare metriche personalizzate basate su metriche esistenti.
+Oppure puoi fare clic su **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Verrà visualizzato il [Generatore di metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md), in cui puoi creare metriche personalizzate partendo da metriche esistenti.
 
 Per accelerare e semplificare la creazione delle metriche calcolate, al menu di scelta rapida delle colonne delle tabelle a forma libera è stato aggiunto il comando **[!UICONTROL Create metric from selection]**. Questa opzione viene visualizzata quando è selezionata almeno una cella di intestazione di colonna.
 
