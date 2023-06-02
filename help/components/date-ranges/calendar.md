@@ -1,19 +1,19 @@
 ---
-description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
+description: Come specificare date e intervalli di date o selezionare un predefinito.
 title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '858'
 ht-degree: 51%
 
 ---
 
 # Panoramica del calendario e degli intervalli di date
 
-Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
+Utilizzando il calendario, puoi specificare date e intervalli di date o selezionare un predefinito. Gli intervalli di date sono un tipo di componente utilizzabile nei progetti Workspace. Consentono di visualizzare i dati con le tendenze nel tempo o di vedere quando gli eventi si verificano maggiormente. Gli intervalli di date sono contraddistinti dal colore viola. Gli intervalli di date personalizzati ti consentono di personalizzare le date visualizzate nei progetti Workspace.
 
 Le selezioni di calendario sono applicabili a livello del singolo pannello, ma è possibile applicarle a tutti i pannelli. Quando fai clic su un intervallo di date in Workspace, l’interfaccia mostra il mese del calendario corrente e il mese del calendario precedente. È possibile regolare questi due calendari facendo clic sulle frecce destra e sinistra nei rispettivi angoli superiori.
 
