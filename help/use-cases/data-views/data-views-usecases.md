@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: ht
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,9 +99,9 @@ Una dimensione e due metriche facilitano questo reporting:
 
 * [Tipo di sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): questa dimensione ha due valori: 1) [!UICONTROL New] e 2) [!UICONTROL Returning]. L’elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell’elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Nuove sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional). Per metrica di “nuova sessione” si intende la prima sessione definita per una persona all’interno dell’intervallo di reporting.
+* [Prime sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional): la metrica delle sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente-->
+* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=it#optional) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente—>
 
 Per accedere a questi componenti:
 

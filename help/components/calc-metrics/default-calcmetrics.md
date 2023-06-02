@@ -3,61 +3,23 @@ description: Adobe fornisce varie metriche calcolate che puoi utilizzare. In que
 title: Metriche calcolate predefinite
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 5e69b1aceb767343882b9cc85c0011bb1593f4af
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 25%
 
 ---
 
 # Metriche calcolate predefinite
 
-Customer Journey Analytics fornisce varie metriche calcolate per coprire i casi d’uso più comuni. Queste metriche calcolate sono disponibili per impostazione predefinita in Analysis Workspace.
+Customer Journey Analytics fornisce le seguenti metriche calcolate per coprire i casi d’uso più comuni:
 
-Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, con la relativa funzione prevista e la formula sottostante utilizzata per calcolarla:
-
->[!NOTE]
->
->Oltre alle metriche calcolate predefinite descritte in questa pagina, è possibile aggiungere ulteriori metriche calcolate a una visualizzazione dati.
->
->È possibile:
-> * Aggiungere metriche calcolate predefinite per Streaming Media, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Creare metriche calcolate personalizzate dalle metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate (derivate)](/help/components/calc-metrics/cm-adv-functions.md).
-
-
-
-| Nome metrica calcolata | Funzione | Formula |
+| Nome metrica calcolata | Descrizione | Formula |
 |---------|----------|---------|
-| Percentuale non recapitate | Il rapporto tra le visite che contenevano esattamente un evento e il numero di visite su quella pagina. Questo può aiutarti a capire quali elementi dimensionali hanno il tasso di mancato recapito più alto o a vedere un tasso di mancato recapito totale aggregato del tuo sito nel tempo. | `[Bounces] / [Entries]` |
-| Ricavi / Visitatore | L’importo medio dei ricavi generati da ogni singola persona sul sito. | `[Revenue] / [Unique Visitors]` |
-| Ordini / Visitatore | Numero medio di ordini o transazioni generati da ogni singola persona nella sede | `[Orders] / [Unique Visitors]` |
-| Ricavi/visite | L’importo medio dei ricavi generati da una singola visita al sito. | `[Revenue] / [Visits]` |
-| Ricavi/Ordine | L&#39;importo medio dei ricavi generati da ogni transazione o ordine completato sul sito. | `[Revenue] / [Orders]` |
-| Ordini/Visite | Percentuale di visite al sito che risultano in una transazione completata. | `[Orders] / [Visits]` |
-| Visualizzazioni pagina/Visite | Il numero medio di pagine visualizzate da un utente durante una singola visita al sito. | `[Page Views] / [Visits]` |
-| Visite/Visitatore | Il numero medio di visite effettuate da una persona univoca al sito. | `[Visits] / [Unique Visitors]` |
-| Ricarica/Visualizzazioni pagina | Percentuale di visualizzazioni di pagina che hanno portato a un ricaricamento o aggiornamento della pagina. | `[Reloads] / [Page Views]` |
-| Percentuale rimbalzo ponderato | Funzione | `IF([Visits] > PERCENTILE([Visits]), [Bounce Rate], 0)` |
-| Ordina assistenze | Il numero di volte in cui un canale o un’origine ha contribuito al percorso di un cliente per effettuare un acquisto, ma non ha prodotto l’acquisto finale. | `[Orders (Visit Participation)] - [Orders]` |
-| Frequenza di uscita | La percentuale di persone che escono dal sito dopo aver visualizzato una pagina particolare. | `[Exits] / [Visits]` |
-| Tasso di ingresso | Percentuale di persone che sono entrate nel sito in una determinata pagina rispetto al numero totale di sessioni sul sito. | `[Entries] / [Visits]` |
-| Tempo medio sul sito | Il tempo medio trascorso da una persona sul sito prima di partire o di allontanarsi. | `[Average Time Spent on Site (Seconds)]` |
-| Tempo trascorso/utente (stato) | Il periodo di tempo che la persona media trascorre in un particolare Stato mentre è sul sito | `[Mobile App Users] (filter)`<br>`[Time Spent per Visitor (Seconds)] (metric)` |
-| Utenti (dispositivi mobili) | Numero totale di utenti di un’app mobile | `[Mobile App Users] (filter)`<br>`[Unique Visitors] (metric)` |
-| Utenti dell’app | Numero totale di utenti di un’app mobile | `[Mobile App Users] (filter)`<br>`[Unique Visitors] (metric)` |
-| Visualizzazioni stato | Numero di visualizzazioni ai diversi stati o schermate dell’app | `[Mobile App Users] (filter)`<br>`[Page Views] (metric)` |
-| Azioni | Numero totale di azioni eseguite nell&#39;app | `[Has an Action] (filter)`<br>`[Custom Link Instances] (metric)` |
-| Clic sui collegamenti di acquisizione | Il numero di volte in cui le persone fanno clic su un collegamento progettato per indirizzare il traffico verso il sito. | `[Campaign Click-throughs]` |
-| Velocità pagina | Il numero di visualizzazioni di pagina aggiuntive generate da un contenuto. Questo può aiutarti a determinare quali contenuti favoriscono un coinvolgimento aggiuntivo. | `[Page Views] / [Visits]` |
-| Tasso di conversione | Percentuale di persone che hanno intrapreso un’azione desiderata, ad esempio un acquisto. | `[Orders] / [Visits]` |
-| Lunghezza media sessione (mobile) | La quantità media di tempo che le persone trascorrono sul sito durante una singola sessione. | Vuoto |
-| Copertura ID Experience Cloud | La percentuale di persone che hanno un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
-| Velocity contenuto | La velocità con cui i nuovi contenuti vengono creati e pubblicati sul sito e la velocità con cui generano coinvolgimento degli utenti. | `[Page Views] / [Visits]` |
-| ITP 2.1 Visitatori univoci / Visitatori univoci | Percentuale di persone univoche che utilizzano un browser interessate dalle limitazioni dei cookie ITP 2.1. In altre parole, i clienti che non utilizzano un’implementazione CNAME. Questo vale per i clienti che impostano i cookie tramite JavaScript lato client. | `[Unique Visitors metric with ITP Visitors filter] / [Unique Visitors]` |
-| Visitatori univoci/Visitatori univoci che ritornano dopo 7 giorni | La percentuale di persone univoche che tornano dopo un periodo di 7 o più giorni. | `[Unique Visitors metric with Users returning after 7 days filter] / [Unique Visitors]` |
-| Visualizzazioni pagina/Visitatore univoco | Numero medio di pagine visualizzate per ogni persona univoca nel sito. | `[Page Views] / [Unique Visitors]` |
-| Visite / Visitatori | Il numero medio di visite al sito effettuate da una persona univoca . | `[Visits] / [Unique Visitors]` |
-| Visitatori univoci stimati (ITP 2.1) | Per gli utenti ITP (utenti nei browser Safari), divide i Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu abbia impostato i cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Consulta [Prevenzione intelligente del tracciamento](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) per i dettagli. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) filter] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) filter]` |
-| Visualizzazioni di pagina/Visitatori univoci stimati (ITP 2.1) | Il numero medio di pagine visualizzate per Visitatori univoci stimati (ITP 2.1). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) filter] / [Unique Visitors (metric) with Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) filter]` |
+| Session Start Rate (Frequenza di inizio sessione) | Percentuale in cui si è verificato un elemento dimensione al primo evento di una sessione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il `[Session Starts]` [componente standard](/help/data-views/component-reference.md) nel tuo [visualizzazione dati](/help/data-views/create-dataview.md).</p> | `[Session Starts] / [Sessions]` |
+| Tempo trascorso per persona | Il tempo medio trascorso da una persona per un dato elemento della dimensione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il `[Time Spent (seconds)]` [componente standard](/help/data-views/component-reference.md) nel tuo [visualizzazione dati](/help/data-views/create-dataview.md).</p> | `[Time Spent (seconds)] / [Users]` |
+| Sessions Per Person (Sessioni per persona) | Il numero medio di sessioni per persona. | `[Sessions] / [Users]` |
+| Time Spent Per Session (Tempo trascorso per sessione) | Il tempo medio trascorso da una persona in una sessione per un dato elemento della dimensione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il `[Time Spent (seconds)]` [componente standard](/help/data-views/component-reference.md) nel tuo [visualizzazione dati](/help/data-views/create-dataview.md).</p> | `[Time Spent (seconds)] / [Sessions]` |
+| Session End Rate (Frequenza di fine sessione) | Percentuale in cui si è verificato un elemento dimensione nell’ultimo evento di una sessione. <p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il `[Session Ends]` [componente standard](/help/data-views/component-reference.md) nel tuo [visualizzazione dati](/help/data-views/create-dataview.md).</p> | `[Session Ends] / [Sessions]` |
 
 {style="table-layout:auto"}

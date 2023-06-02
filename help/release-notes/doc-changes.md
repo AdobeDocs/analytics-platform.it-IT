@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a7a03fa6e0f71d473b4713bd9817e1b97dab383e
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
 workflow-type: tm+mt
-source-wordcount: '2074'
-ht-degree: 90%
+source-wordcount: '2082'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Funzione | Descrizione |
 | --- | --- |
 | **Giugno 2023** |  |
-| Aggiornamenti delle metriche calcolate | Sono stati aggiornati vari articoli relativi alle metriche calcolate, tra cui l’aggiornamento delle schermate e dei passaggi delle procedure. Queste modifiche sono state apportate per allineare la documentazione alle attuali funzionalità di CJA. |
+| Aggiornamenti delle metriche calcolate | Sono stati apportati i seguenti aggiornamenti alla documentazione sulle metriche calcolate per allinearla alle attuali funzionalità di CJA: <ul><li>È stato aggiornato l’elenco di [metriche calcolate predefinite](/help/components/calc-metrics/default-calcmetrics.md) disponibile in CJA</li><li>Schermate e procedure aggiornate in vari articoli sulle metriche calcolate </li></ul> |
 | **Maggio 2023** |  |
 | Documentazione sui collegamenti profondi (app mobile) | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. Questo agevola ulteriormente la condivisione dei progetti e il coinvolgimento di un pubblico meno tecnico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Documento su &quot;Seleziona visualizzazione dati dalla cella&quot; nel Report Builder | Questa funzione consente agli utenti di selezionare la visualizzazione dati per un blocco di dati da una cella. Si tratta di un’opzione utile se si crea una cartella di lavoro e si dispone di più visualizzazioni dati con struttura dati simile e si desidera poter riutilizzare una cartella di lavoro più volte con diverse visualizzazioni dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=it) |
