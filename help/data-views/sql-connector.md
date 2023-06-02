@@ -6,10 +6,11 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
+source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
 workflow-type: tm+mt
-source-wordcount: '2867'
-ht-degree: 2%
+source-wordcount: '2880'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +34,7 @@ I principali vantaggi sono i seguenti:
 
 Per utilizzare questa funzionalità, è necessario
 
-- Abilita [!UICONTROL CJA SQL Connector] nell’organizzazione di Experience Platform.
+<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
 
 - Configura la funzionalità per i profili di prodotto, i gruppi di utenti e/o i singoli utenti pertinenti.<br/>
 Gli utenti devono avere accesso a:
@@ -88,7 +89,7 @@ Consulta [Guida dell’interfaccia utente di Query Editor](https://experiencelea
 
 ### Strumenti BI
 
-Attualmente, il connettore SQL di CJA è supportato per Power BI e Tableau.
+Attualmente, il connettore SQL di CJA è supportato e testato solo per Power BI e Tableau. Anche altri strumenti BI che utilizzano l’interfaccia PSQL potrebbero funzionare, ma non sono ancora ufficialmente supportati.
 
 +++ Power BI
 
@@ -219,9 +220,9 @@ Per impostazione predefinita, lo schema delle visualizzazioni dati utilizza stru
 
 Consulta [Riferimento SQL di Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) per il riferimento completo sul tipo di SQL supportato.
 
-Per una panoramica dei pattern e degli esempi, consulta la tabella dei pattern riportata di seguito.
+Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
 
-+++Motivi
++++ Esempi
 
 | Pattern | Esempio |
 |---|---|
@@ -390,4 +391,3 @@ Queste funzioni possono essere utilizzate sulle dimensioni nel `SELECT`, `WHERE`
 | [DATE_TRUNC(granularità, data o data-ora)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genera un’identità di dimensione dinamica nel campo trasmesso.<br/>Le granularità di stringa supportate sono: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, o `'MINUTE'`. |
 
 {style="table-layout:auto"}
-
