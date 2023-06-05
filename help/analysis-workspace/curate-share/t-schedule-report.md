@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 82%
+source-wordcount: '842'
+ht-degree: 77%
 
 ---
 
@@ -21,12 +21,14 @@ Dal **[!UICONTROL Share]** menu   di Workspace, puoi inviare progetti Analysis W
 Per inviare immediatamente un file ai destinatari tramite e-mail:
 
 1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Export file]**.
-1. Specifica il tipo di file (CSV o PDF).
-1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
+1. Specifica il tipo di file:
+   * [!UICONTROL **CSV**]: scegli questa opzione se desideri dati in formato testo normale.
+   * [!UICONTROL **PDF**]: scegli questa opzione se vuoi che il file scaricato contenga tutte le tabelle e le visualizzazioni visualizzate (visibili) nel progetto.
+1. (Facoltativo) Aggiungi una descrizione da includere nell’e-mail per spiegare il file ricevuto.
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
 1. (Solo per i clienti Healthcare Shield) Fornisci una password. Consulta la sezione Proteggere un rapporto pianificato tramite password.
 1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
-1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione della consegna.
+1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione di consegna.
 
 ![Invia subito file](assets/send-file-no-scheduling-options.JPG)
 
@@ -47,22 +49,22 @@ Per inviare un file tramite e-mail secondo una pianificazione periodica:
 
 ## Gestione progetti programmati {#manager}
 
-I progetti Analysis Workspace programmati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
+I progetti Analysis Workspace pianificati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
 
 In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
 
 | Campo | Descrizione |
 | --- | --- |
-| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
+| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa la preferita. |
 | [!UICONTROL Schedule ID] | Questo ID viene utilizzato principalmente a scopo di debug. |
 | [!UICONTROL Title and Description] | Titolo e descrizione del progetto. |
-| [!UICONTROL Owner] | Utente che ha creato e proprietario del progetto. |
-| [!UICONTROL Tags] | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
+| [!UICONTROL Owner] | Persona che ha creato e gestisce il progetto. |
+| [!UICONTROL Tags] | (facoltativo) Assegnare tag è un modo efficace per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag dei progetti di tua proprietà o che sono stati condivisi con te. |
 | [!UICONTROL Delivered To] | Destinatari del progetto pianificato. |
-| [!UICONTROL Expiration Date] | Puoi impostare la data di scadenza fino a un anno, indipendentemente dalla frequenza della pianificazione. |
+| [!UICONTROL Expiration Date] | Puoi impostare la data di scadenza fino a un anno, indipendentemente dalla frequenza di pianificazione. |
 | [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
-| [!UICONTROL Execution Time] | A che ora viene inviato il progetto pianificato. |
-| [!UICONTROL Number of Queries] | Numero di query relative al progetto. |
+| [!UICONTROL Execution Time] | A che ora del giorno viene inviato questo progetto pianificato. |
+| [!UICONTROL Number of Queries] | Numero di query per questo progetto. |
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
