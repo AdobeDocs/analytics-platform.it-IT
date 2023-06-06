@@ -3,10 +3,10 @@ description: Un istogramma è simile a un grafico a barre, ma con i numeri raggr
 title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 90%
+source-wordcount: '400'
+ht-degree: 85%
 
 ---
 
@@ -61,3 +61,7 @@ I filtri pregenerati che compaiono nella tabella sono filtri interni e non saran
 ![](assets/prebuilt_segments.png)
 
 Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per raggruppare i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
+
+## Post di blog
+
+Consulta questo post di blog per informazioni su [utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

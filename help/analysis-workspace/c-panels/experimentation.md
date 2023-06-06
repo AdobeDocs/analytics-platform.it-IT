@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 74%
+source-wordcount: '1813'
+ht-degree: 73%
 
 ---
 
@@ -125,3 +125,7 @@ La figura seguente contrasta queste situazioni:
 ![esperimento randomizzato](assets/randomize.png)
 
 Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando le persone su X, l&#39;impatto è più difficile da misurare e l&#39;analisi terrà esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
+
+## Utilizzare le metriche calcolate nel pannello Sperimentazione
+
+Consulta questo post di blog per informazioni su [utilizzo di metriche derivate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
