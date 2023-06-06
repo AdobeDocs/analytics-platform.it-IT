@@ -4,10 +4,10 @@ description: Determina come gestire una dimensione se è vuota.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: 0bd632d9e748b567c7b946f4c7d1437f0a776ca2
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,8 @@ Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace
 
 ![Opzioni per “Nessun valore”](../assets/no-value-options.png)
 
+## Impostazioni {#settings}
+
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL If shown, call "No value"] | Campo di testo che consente di rinominare l’elemento dimensione **[!UICONTROL No value]** con altro nome. |
@@ -24,4 +26,8 @@ Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace
 | [!UICONTROL Show No value by default] | Mostra questo valore nella generazione rapporti. |
 | [!UICONTROL Treat No value as a value] | Sostituisce i valori vuoti nei dati con il testo specificato in [!UICONTROL If shown, call "No value"]. Ad esempio, se la dimensione è rappresentata dai tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in “Desktop”. Quando modifichi questo campo in un valore personalizzato, tale valore viene considerato come un valore stringa legittimo. Pertanto, se in questo campo immetti il valore “Rosso”, tutte le istanze della stringa “Rosso” che compaiono nei dati stessi vengono raccolte sotto la stessa riga che hai specificato. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+## Post di blog
+
+Ecco un post correlato su [gestione di &quot;nessun valore&quot; in CJA](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
