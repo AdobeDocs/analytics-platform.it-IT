@@ -3,10 +3,10 @@ description: Puoi curare, condividere e pianificare progetti PDF/CSV per i desti
 title: Menu Share
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 57%
+source-wordcount: '202'
+ht-degree: 62%
 
 ---
 
@@ -20,9 +20,8 @@ Puoi curare, condividere e pianificare progetti PDF/CSV per i destinatari della 
 
 | Opzione menu | Descrizione |
 |---|---|
-| Condividi progetto<!--remove this when Share with anyone goes to GA--> | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. Condividi con utenti specifici o crea un collegamento condivisibile per accedere rapidamente a un progetto. Gli utenti devono effettuare l’accesso. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
 | Condividi con gli utenti di Workspace (disponibile in Test limitati) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. Condividi con utenti specifici o crea un collegamento condivisibile per accedere rapidamente a un progetto. Gli utenti devono effettuare l’accesso. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
-| Condividi con chiunque (disponibile in Test limitati) | Concedi l’accesso in sola lettura ai progetti Analysis Workspace alle persone che non hanno accesso ad Adobe Analytics. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
+| Condividi con chiunque | Concedi l’accesso in sola lettura ai progetti Analysis Workspace alle persone che non hanno accesso ad Adobe Analytics. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
 | Esporta file | Invia subito un progetto come CSV o PDF ai destinatari specificati. [Ulteriori informazioni](/help/analysis-workspace/curate-share/t-schedule-report.md) |
 | Pianifica esportazione file | Invia un progetto come CSV o PDF secondo un programma a destinatari specifici. [Ulteriori informazioni](/help/analysis-workspace/curate-share/t-schedule-report.md) |
 | Cura dati progetto | Limita i componenti (dimensioni, metriche, filtri, intervalli di date) disponibili in un progetto. [Ulteriori informazioni](/help/analysis-workspace/curate-share/curate.md) |

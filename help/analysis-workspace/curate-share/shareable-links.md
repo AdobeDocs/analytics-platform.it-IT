@@ -3,7 +3,7 @@ description: Scopri come creare collegamenti condivisibili a progetti o visualiz
 keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 53%
@@ -12,25 +12,23 @@ ht-degree: 53%
 
 # Creare collegamenti condivisibili
 
-Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono al destinatario di accedere ad Adobe Analytics prima di accedere al progetto, mentre altri no.
+Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono che il destinatario acceda ad Adobe Analytics prima di accedere al progetto, altri no.
 
-## Ottenere un collegamento al progetto da condividere con altri utenti di Workspace {#project-link}
+## Ottieni un collegamento al progetto da condividere con altri utenti di Workspace {#project-link}
 
-Per condividere un collegamento a un progetto, accedi al progetto che desideri condividere, quindi seleziona Vai a [!UICONTROL **Condividi**] > [!UICONTROL **Ottieni collegamento progetto**] o **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**). Gli utenti con cui condividi il collegamento devono effettuare l’accesso.
+Per condividere un collegamento a un progetto, passa al progetto che desideri condividere, quindi seleziona Vai a [!UICONTROL **Condividi**] > [!UICONTROL **Ottieni collegamento progetto**] (o **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**). Gli utenti con cui condividi il collegamento devono effettuare l’accesso.
 
-Se al destinatario del collegamento non è stato assegnato un [ruolo del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Can edit]** e non amministratori ricevono **[!UICONTROL Can duplicate]** esperienze.
+Se al destinatario del collegamento non è stato assegnato un [ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori ricevono **[!UICONTROL Can duplicate]** esperienze.
 
-## Ottieni un collegamento in sola lettura da condividere con chiunque
-
-{{release-limited-testing-section}}
+## Ottieni un collegamento di sola lettura da condividere con chiunque
 
 Puoi condividere un collegamento in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso al Customer Journey Analytics.
 
-Per ulteriori informazioni, consulta &quot;Condividere un progetto con altri utenti (senza accesso richiesto)&quot; nell’articolo [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+Per ulteriori informazioni, consulta &quot;Condividere un progetto con chiunque (accesso non richiesto)&quot; nell’articolo [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Ottenere un collegamento a un pannello o a una visualizzazione {#panel-link}
 
-Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
+Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Questo può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
 
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
