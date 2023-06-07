@@ -3,10 +3,10 @@ description: Documentazione che descrive come filtrare e ordinare le tabelle in 
 title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+source-git-commit: 5469585897e483d721326fd6859ad74087407825
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -74,11 +74,11 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ## Ordinare le tabelle
 
-Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna di Analysis Workspace che può essere una dimensione oppure una metrica.
+Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace che sia una dimensione o una metrica.
 
 Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) è visibile nell’intestazione della colonna in base alla quale i dati vengono ordinati.
 
-1. In una tabella a forma libera in Analysis Workspace, fai clic sulla freccia accanto al nome della dimensione o della metrica.
+1. In qualsiasi tabella a forma libera di Analysis Workspace, fai clic sulla freccia accanto al nome della dimensione o metrica.
 
    Eseguendo l’ordinamento, tieni presente quanto segue:
 
