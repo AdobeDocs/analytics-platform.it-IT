@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: f9aafab436fa1f26be9ed2e433ded046bbb1135a
+source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
 workflow-type: tm+mt
-source-wordcount: '3067'
+source-wordcount: '3101'
 ht-degree: 6%
 
 ---
@@ -123,6 +123,11 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia d
    A [!UICONTROL Delete component] chiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato all’esterno della visualizzazione dati.
 
    - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
+
+>[!NOTE]
+>
+>I campi derivati vengono gestiti a livello di connessione in CJA. Qualsiasi modifica apportata a un campo derivato in una delle visualizzazioni dati associate a tale connessione viene applicata a tutte le visualizzazioni dati associate.
+
 
 
 ## Modelli di funzione
