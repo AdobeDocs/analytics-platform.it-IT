@@ -2,10 +2,10 @@
 title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit di CJA.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '819'
-ht-degree: 100%
+source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 81%
 
 ---
 
@@ -41,19 +41,49 @@ Fai doppio clic sul pulsante Info (i) accanto a una descrizione.
 
 Vengono visualizzati i seguenti elementi:
 
-| Elemento | Descrizione |
-| --- | --- |
-| Nome azione | Elenco delle azioni possibili: <ul><li>Richiesta API</li><li>Approvazione</li><li>Creazione</li><li>Modifica</li><li>Esportazione</li><li>Accesso non riuscito</li><li>Accesso riuscito</li><li>Logout</li><li>Modifica organizzazione</li><li>Aggiornamento</li><li>Condivisione</li><li>Trasferimento</li><li>Annullamento approvazione</li><li>Annullamento condivisione</li></ul> |
-| Descrizione | Riepilogo dell’azione, del tipo di componente (con ID) e altri valori. |
-| Nome utente | Utente che ha eseguito l’azione. |
-| Tipo di componente | I possibili tipi di componenti includono: <ul><li>Annotazione</li><li>Destinatari</li><li>Metrica calcolata</li><li>Connessione</li><li>Gruppo di dati</li><li>Vista dati (questo tipo di componente include dimensioni e metriche)</li><li>Accesso a funzione</li><li>Filtro</li><li>Organizzazione IMS</li><li>Mobile</li><li>Progetto</li><li>Rapporto</li><li>Progetto pianificato</li><li>Utente</li><li>Gruppo di utenti</li></ul> |
-| ID organizzazione IMS | ID univoco assegnato alla tua istanza la prima volta che accedi ad Adobe Experience Cloud. Deve essere nel seguente formato: xxx@AdobeOrg. |
-| ID utente | ID univoco che identifica l’utente che ha eseguito l’azione. |
-| Data creazione | Quando è stata eseguita l’azione. |
-| E-mail | Indirizzo e-mail dell’utente che ha eseguito l’azione. |
-| ID componente | ID univoco che identifica il componente sul quale è stata eseguita l’azione. |
-| ID registro | ID univoco che identifica la voce del registro. |
-| Tipo di utente | I tipi possibili includono: IMS, OKTA |
+* **[!UICONTROL Action Name]**: azione eseguita. Possibili valori:
+   * API_REQUEST
+   * APPROVA
+   * CREA
+   * DELETE
+   * MODIFICA
+   * ESPORTA
+   * ORG_CHANGE
+   * AGGIORNA
+   * CONDIVIDI
+   * TRASFERIMENTO
+   * ANNULLA APPROVAZIONE
+   * ANNULLA CONDIVISIONE
+* **[!UICONTROL Date Created]**: data e ora in cui è stata eseguita l’azione.
+* **[!UICONTROL Description]**: riepilogo dell’azione.
+* **[!UICONTROL User Name]**: utente che ha eseguito l’azione.
+* **[!UICONTROL Email]**: indirizzo e-mail dell’utente che ha eseguito l’azione.
+* **[!UICONTROL Component Name]**: componente su cui l’utente ha agito.
+* **[!UICONTROL Component Type]**: tipo di componente. Possibili valori:
+   * ANNOTAZIONE
+   * PUBBLICO
+   * METRICA_CALCOLATA
+   * CONNESSIONE
+   * DATA_GROUP
+   * DATA_VIEW
+   * DATASET_STITCHING
+   * DATE_RANGE
+   * FEATURE_ACCESS
+   * FILTRO
+   * ORGANIZZAZIONE IMS
+   * DISPOSITIVI MOBILI
+   * PROGETTO
+   * RAPPORTO
+   * PROGETTO_PIANIFICATO
+   * UTENTE
+   * GRUPPO_UTENTI
+* **[!UICONTROL Component ID]**: ID del componente su cui l’utente ha intrapreso un’azione.
+* **[!UICONTROL IMS Org ID]**: ID IMS dell’organizzazione, nel formato di `ABC123@AdobeOrg`.
+* **[!UICONTROL Log ID]**: ID univoco che identifica la voce del registro.
+* **[!UICONTROL User ID]**: ID univoco che identifica l’utente che ha eseguito l’azione.
+* **[!UICONTROL User Type]**: tipo di autenticazione utilizzato. I valori validi includono:
+   * IMS
+   * OKTA
 
 ### Filtrare i registri di audit
 
@@ -66,13 +96,13 @@ Nell’interfaccia utente sono disponibili i seguenti filtri per gli eventi di a
 | Filtro | Descrizione |
 | --- | --- |
 | [!UICONTROL Date Range] | Per filtrare in base a un intervallo di date diverso, puoi selezionare un’altra data oppure puoi selezionare un intervallo di date trascinando il cursore su più date. Per impostazione predefinita, è selezionata la data odierna e quella del giorno precedente. |
-| [!UICONTROL Action] | Puoi filtrare per una o più delle azioni seguenti: <ul><li>Richiesta API</li><li>Approvazione</li><li>Creazione</li><li>Modifica</li><li>Esportazione</li><li>Accesso non riuscito</li><li>Accesso riuscito</li><li>Logout</li><li>Modifica organizzazione</li><li>Aggiornamento</li><li>Condivisione</li><li>Trasferimento</li><li>Annullamento approvazione</li><li>Annullamento condivisione</li></ul> |
+| [!UICONTROL Action] | Puoi filtrare in base al nome dell’azione elencato sopra. |
 | [!UICONTROL User ID] | Puoi filtrare per un utente specifico in base al suo ID utente. Per trovare l’ID utente, seleziona il pulsante Info (i) accanto al nome dell’utente. |
 | [!UICONTROL Email] | Puoi filtrare in base all’indirizzo e-mail di un utente. Per trovare l’e-mail, seleziona il pulsante Info (i) accanto al nome dell’utente. |
 | [!UICONTROL Component ID] | Puoi filtrare per uno specifico ID componente. Per trovare l’ID del componente, seleziona il pulsante Info (i) accanto al componente. |
-| [!UICONTROL Component Type] | Puoi filtrare per uno o più tipi di componente: <ul><li>Annotazione</li><li>Destinatari</li><li>Metrica calcolata</li><li>Connessione</li><li>Gruppo di dati</li><li>Vista dati</li><li>Accesso a funzione</li><li>Filtro</li><li>Organizzazione IMS</li><li>Mobile</li><li>Progetto</li><li>Rapporto</li><li>Progetto pianificato</li><li>Utente</li><li>Gruppo di utenti</li></ul> |
+| [!UICONTROL Component Type] | Puoi filtrare in base al tipo di componente elencato sopra. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Tipi di eventi acquisiti dai registri di audit
 
@@ -94,7 +124,7 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 | [!UICONTROL User] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
 | [!UICONTROL User Group] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Scaricare i registri di audit
 
