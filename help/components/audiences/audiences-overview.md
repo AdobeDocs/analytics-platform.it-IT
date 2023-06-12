@@ -2,16 +2,16 @@
 title: Panoramica sulla pubblicazione di tipi di pubblico di CJA
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: 7b86650cd3475a203d597baeec2ec2152e082b10
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 83%
 
 ---
 
 # Panoramica sulla pubblicazione di tipi di pubblico di CJA
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) su [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCP) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCDP) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di CJA. Tali azioni possono includere:
 
@@ -20,6 +20,8 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 * Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi in CJA.
 * Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
+
+I tipi di pubblico creati in CJA non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experience Platform senza abilitare set di dati e schemi associati per il profilo. Quindi, utilizza questi set di dati per scoprire i tipi di pubblico rilevanti in CJA e pubblicare tali tipi di pubblico in RTCDP, in Experience Platform, a scopo di attivazione.
 
 ## Terminologia chiave
 
