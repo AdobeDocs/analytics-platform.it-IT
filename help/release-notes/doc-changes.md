@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 62c2c74d1a5d0f92cbe8a641f392ccaba3b105ff
+source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 86%
@@ -40,7 +40,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di CJA, fin da
 | Video sull’utilizzo dei filtri come dimensioni | È stato aggiornato il video sull’utilizzo dei filtri come dimensioni. <p>Il collegamento al video è disponibile dalla pagina [Creare filtri](/help/components/filters/create-filters.md).</p> <p>Di seguito è riportato un collegamento diretto al video: [Utilizzare i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=it).</p> |
 | Documentazione del filtro | È stato aggiunto un articolo sull’utilizzo del [Generatore di filtri](/help/components/filters/filter-builder.md). <p>Documentazione semplificata di [Creare filtri](/help/components/filters/create-filters.md) e [Panoramica sui filtri](/help/components/filters/filters-overview.md).</p> |
 | Aggiornamento della documentazione del pannello Sperimentazione | È stata aggiunta una sezione sull’[interpretazione di dimensioni non randomizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=it#non-randomized). |
-| Filtri di progetto (filtri rapidi e ad hoc) | Documentazione semplificata sui filtri di progetto e rimozione delle informazioni duplicate. I passaggi per la creazione di filtri ad hoc sono ora combinati con quelli per la [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |
+| Filtri di progetto (filtri rapidi e ad hoc) | È stata semplificata la documentazione sui filtri dei progetti e sono state rimosse le informazioni duplicate. I passaggi per la creazione di filtri ad hoc sono ora combinati con quelli per la [creazione di filtri rapidi](/help/components/filters/quick-filters.md). |
 | **Marzo 2023** | |
 | Integrare i dati di gestione delle decisioni | È stato aggiunto del contenuto che spiega come [integrare i dati di gestione delle decisioni di Adobe Journey Optimizer in CJA](/help/integrations/ajo-od.md). |
 | Presentare i dati nelle scorecard per dispositivi mobili | Una [presentazione di dati](/help/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
