@@ -4,7 +4,7 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 90%
@@ -37,33 +37,33 @@ Dettagli sulle impostazioni di allocazione disponibili.
 
 * **[!UICONTROL Most Recent]**: persiste il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno del periodo di scadenza della dimensione sostituiscono il valore persistente precedente. Se su questa dimensione è abilitato “Treat &#39;No Value&#39; as a value” in [Nessuna opzione di valore](no-value-options.md), i valori vuoti sovrascrivono quelli persistenti in precedenza. Ad esempio, considera la seguente tabella con [!UICONTROL Most recent] assegnazione e [!UICONTROL Session] scadenza:
 
-   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valori del set di dati |  | C | B |  | A |
-   | Allocazione più recente |  | C | B | B | A |
+  | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valori del set di dati |  | C | B |  | A |
+  | Allocazione più recente |  | C | B | B | A |
 
 * **[!UICONTROL Original]**: Persiste il valore originale per marca temporale presente nella dimensione per la durata del periodo di scadenza. Se questa dimensione ha un valore, non viene sovrascritta quando viene visualizzato un valore diverso in un evento successivo. Ad esempio, considera la seguente tabella con [!UICONTROL Original] assegnazione e [!UICONTROL Session] scadenza:
 
-   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valori del set di dati |  | C | B |  | A |
-   | Allocazione originale |  | C | C | C | C |
+  | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valori del set di dati |  | C | B |  | A |
+  | Allocazione originale |  | C | C | C | C |
 
 * **[!UICONTROL All]**: Agisce in modo simile al [!UICONTROL Participation] modello di attribuzione per le metriche. Persiste tutti i valori equamente in modo che ciascuno ottenga il pieno credito per la metrica nel reporting. Ad esempio, considera la seguente tabella con [!UICONTROL All] assegnazione e [!UICONTROL Session] scadenza:
 
-   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Valori del set di dati | A | B | C |  | A |
-   | Tutte le allocazioni | A | A,B | A, B, C | A, B, C | A, B, C |
+  | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Valori del set di dati | A | B | C |  | A |
+  | Tutte le allocazioni | A | A,B | A, B, C | A, B, C | A, B, C |
 
 * **[!UICONTROL First Known]** e **[!UICONTROL Last Known]**: (19 gennaio 2022 ) questi due modelli di allocazione soddisfano i casi d’uso per le dimensioni “entrata” e “uscita”. Considerano il primo o l’ultimo valore osservato relativo a una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
 
-   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
-   | --- | --- | --- | --- | --- | --- |
-   | Marca temporale (min) | 1 | 2 | 3 | 6 | 7 |
-   | Valori originali |  | C | B |  | A |
-   | First known (Primo noto) | C | C | C | C | C |
-   | Last known (Ultimo noto) | A | A | A | A | A |
+  | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
+  | --- | --- | --- | --- | --- | --- |
+  | Marca temporale (min) | 1 | 2 | 3 | 6 | 7 |
+  | Valori originali |  | C | B |  | A |
+  | First known (Primo noto) | C | C | C | C | C |
+  | Last known (Ultimo noto) | A | A | A | A | A |
 
 ## [!UICONTROL Expiration] del profilo
 
@@ -79,6 +79,8 @@ Dettagli sulle impostazioni di scadenza disponibili.
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
 
 Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
 ## [!UICONTROL Binding Metric]
 
