@@ -3,7 +3,7 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di CJA
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 5bc7eee212c16edc0066d498f26df56bfe8165d7
+source-git-commit: 13ea4060bd5ca0a4b5b749b6e104edea26248a02
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 61%
@@ -12,7 +12,7 @@ ht-degree: 61%
 
 # Note sulla versione corrente di Customer Journey Analytics (CJA) (giugno 2023)
 
-**Ultimo aggiornamento**: 9 giugno 2023
+**Ultimo aggiornamento**: 15 giugno 2023
 
 I rilasci di Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -22,7 +22,7 @@ I rilasci di Customer Journey Analytics funzionano su un [modello di consegna co
 | ----------- | ---------- | ------- | ---- |
 | **Didascalie intelligenti** | Arricchisci la narrazione per gli utenti con riepiloghi in lingua naturale di una [!UICONTROL Line] visualizzazione. [Ulteriori informazioni](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 maggio 2023 | 1 giugno 2023 |
 | **Condivisione dei collegamenti per i progetti (accesso non richiesto)** | Ora puoi condividere collegamenti di sola lettura per i progetti Analysis Workspace con chi non ha accesso ad Adobe Analytics. Ad esempio, puoi condividerli con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per Adobe Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it#share-public-link) <p>Questa funzionalità è abilitata per impostazione predefinita e può essere disabilitata dall’amministratore di sistema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=it#company-preferences)</p> | 3 maggio 2023 | 6 giugno 2023 |
-| **Campi derivati** | Questo è il primo rilascio della funzionalità Campi derivati. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi definire ulteriormente il campo derivato come componente (metrica o dimensione) nelle visualizzazioni dati, quindi utilizzare il campo derivato come componente in Workspace.<p>Questa versione supporta un modello di canali di marketing e le seguenti funzioni:</p><ul><li>Concatena</li><li>Case When</li><li>Trova e sostituisci</li><li>Ricerca</li><li>Parsing URL</li></ul> <p>[Ulteriori informazioni](/help/data-views/derived-fields/derived-fields.md)</p> | 10 maggio 2023 | 21 giugno 2023 |
+| **Campi derivati** | Questo è il primo rilascio della funzionalità Campi derivati. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi definire ulteriormente il campo derivato come componente (metrica o dimensione) nelle visualizzazioni dati, quindi utilizzare il campo derivato come componente in Workspace.<p>Questa versione supporta un modello di canali di marketing e le seguenti funzioni:</p><ul><li>Concatena</li><li>Case When</li><li>Trova e sostituisci</li><li>Ricerca</li><li>Parsing URL</li></ul> <p>[Ulteriori informazioni](/help/data-views/derived-fields/derived-fields.md)</p> | 10 maggio 2023 | 14 giugno 2023 |
 | **Accesso di Power BI e Tableau alle visualizzazioni dati di CJA** | Il connettore SQL di Customer Journey Analytics (CJA) consente l’accesso SQL alle visualizzazioni dati definite in CJA. I data engineer e gli analisti che hanno più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione possono ora creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti CJA per i loro progetti Analysis Workspace. [Ulteriori informazioni](/help/data-views/sql-connector.md) |  | 30 giugno 2023 |
 | **Ricerche geografiche di Experience Edge** | Una volta abilitate le ricerche geografiche di Experience Edge per lo stream di dati, potrai creare rapporti utilizzando i dati di geolocalizzazione in CJA. |  | 30 giugno 2023 |
 | **Supporto esteso della ricerca ai dati di profilo e di ricerca** | Potrai aggiungere set di dati di ricerca non solo a set di dati evento, ma anche a set di dati di profilo e di ricerca. | 21 giugno 2023 | 12 luglio 2023 |
