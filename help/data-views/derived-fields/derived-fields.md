@@ -3,11 +3,9 @@ title: Campi derivati
 description: Un campo derivato specifica la manipolazione in fase di report dei campi dello schema e/o dei componenti standard tramite un set di funzioni e modelli di funzioni disponibili.
 solution: Customer Journey Analytics
 feature: Data Views
-hide: true
-hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
+source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
 workflow-type: tm+mt
 source-wordcount: '3101'
 ht-degree: 6%
@@ -16,8 +14,6 @@ ht-degree: 6%
 
 
 # Campi derivati
-
-{{release-limited-testing}}
 
 I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Customer Journey Analytics (CJA). Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare il campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o anche definire ulteriormente il campo derivato come componente in [Visualizzazione dati](../data-views.md).
 
@@ -289,7 +285,7 @@ Nel caso in cui il sito riceva i seguenti eventi di esempio, contenenti [!UICONT
 |:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
-| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 3 | | `https://site.com/?cid=em_12345678` | [!DNL Email] |
 | 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
 | 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
 | 6 | `https://google.com` |  | [!DNL Natural Search] |
@@ -342,7 +338,7 @@ Il sito raccoglie i seguenti valori per [!DNL Product Finding Methods] dimension
 | [!DNL search p13n_no] | [!DNL search] |
 | [!DNL search p13n_yes] | [!DNL search] |
 | [!DNL search refine p13n_no] | [!DNL search] |
-| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search refine p13n_yes] | [!DNL search] |
 | [!DNL search redirect p13n_yes] | [!DNL search] |
 | [!DNL search-redirect] | [!DNL search] |
 
@@ -764,5 +760,5 @@ Definisci un `Query String CID` campo derivato. Utilizzi il [!UICONTROL URL PARS
 
 Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in generale:
 
-- È possibile utilizzare un massimo di 100 campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
+- È possibile utilizzare un massimo di 10 campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
 - Puoi avere un massimo di 100 campi derivati per connessione CJA.
