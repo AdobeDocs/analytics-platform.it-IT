@@ -2,10 +2,10 @@
 title: Integrare Adobe Journey Optimizer (AJO) con Customer Journey Analytics (CJA)
 description: Inserire i dati generati da AJO e analizzarli utilizzando Analysis Workspace all’interno di CJA.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: 76f13b6c3b05d4a3fa4169ab0b4a1e9573efb9e0
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 85%
+source-wordcount: '857'
+ht-degree: 73%
 
 ---
 
@@ -21,17 +21,17 @@ Adobe Experience Platform funge da origine dati centrale e da collegamento tra J
 
 ## Creare una connessione in Customer Journey Analytics
 
-Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) in base ai set di dati Journey Optimizer. Oppure puoi aggiungere set di dati Journey Optimizer a una connessione esistente.
+Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) in base ai set di dati di Journey Optimizer. Oppure puoi aggiungere set di dati di Journey Optimizer a una connessione esistente.
 
-Seleziona e configura i set di dati seguenti:
+Seleziona e configura i seguenti set di dati:
 
 | Set di dati | Tipo di set di dati | Impostazioni della connessione | Descrizione |
 | --- | --- | --- | --- |
-| Set di dati evento feedback messaggio AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna messaggi, ad esempio &quot;[!UICONTROL Sends]&#39; e &#39;[!UICONTROL Bounces]&quot;. |
-| Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come &quot;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, e &#39;[!UICONTROL Unsubscribes]&quot;. |
-| Set di dati evento esperienza di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push come &#39;[!UICONTROL App Launches]&quot;. |
-| Eventi percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
-| Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano metadati di Percorso e campagna a tutti i dati evento AJO. |
+| Set di dati evento feedback messaggio AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio &quot;[!UICONTROL Sends]&#39; e &#39;[!UICONTROL Bounces]&quot;. |
+| Set di dati evento esperienza tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come &quot;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, e &#39;[!UICONTROL Unsubscribes]&quot;. |
+| Set di dati evento di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push come &quot;[!UICONTROL App Launches]&quot;. |
+| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
+| Set di dati entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di Percorsi e Campaign a tutti i dati evento AJO. |
 
 {style="table-layout:auto"}
 
@@ -64,6 +64,7 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 | Nome del trattamento | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Tipo di componente: dimensione<br>Etichette di contesto: variante Sperimentazione |
 | Motivo errore di consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Tipo di componente: dimensione |
 | Motivo esclusione della consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Tipo di componente: dimensione |
+| Etichetta elemento | `_experience.decisioning.propositionAction.label` | Tipo di componente: dimensione |
 
 {style="table-layout:auto"}
 
@@ -82,6 +83,11 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 | Invii | Numero di messaggi accettati da provider e-mail. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `sent` |
 | Segnalazioni di spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `spam_complaint` |
 | Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
+| Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` |
+| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene visualizzato all&#39;utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` |
+| Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` |
+| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. L’SDK di Mobile potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` |
+| Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}
 
