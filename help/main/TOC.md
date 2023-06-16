@@ -10,9 +10,9 @@ user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Customer Journey Analytics (CJA) e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 + Inserimento dei dati {#cja-data-ingestion}
    + [Panoramica sull’inserimento di dati](../data-ingestion/data-ingestion.md)
-   + Inserire e utilizzare le guide introduttive {#ingest-use-guides}
+   + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + [SDK Web per Adobe Experience Platform e rete Edge](../data-ingestion/aepwebsdk.md)
       + [Dati batch](../data-ingestion/batch.md)
@@ -94,7 +94,7 @@ ht-degree: 94%
    + Progetti {#build-workspace-project}
       + [Panoramica dei progetti](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
-      + [Salvare i progetti](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [Salvare progetti](../analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -139,7 +139,7 @@ ht-degree: 94%
       + [Ad anello](../analysis-workspace/visualizations/donut.md)
       + [Istogramma](../analysis-workspace/visualizations/histogram.md)
       + [Barre orizzontali e Barre orizzontali sovrapposte](../analysis-workspace/visualizations/horizontal-bar.md)
-      + [Sottotitoli intelligenti](../analysis-workspace/visualizations/intelligent-captions.md)
+      + [Didascalie intelligenti](../analysis-workspace/visualizations/intelligent-captions.md)
       + [Riepilogo delle metriche chiave](../analysis-workspace/visualizations/key-metric.md)
       + [A linee](../analysis-workspace/visualizations/line.md)
       + [Grafico a dispersione](../analysis-workspace/visualizations/scatterplot.md)
@@ -243,16 +243,16 @@ ht-degree: 94%
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Creare metriche](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;](../components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [Creare una metrica di &quot;partecipazione&quot;](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Creare una metrica “Visualizzazioni pagina in base alle visite”](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Creare una metrica “Partecipazione”](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Metriche filtrate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
-         + [Sovrapponi e sostituisci filtri](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Sovrapporre e sostituire filtri](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Metriche filtrate e ponderate](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [Usare le funzioni](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Assegnare tag alle metriche calcolate](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [Approvare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [Condividere le metriche calcolate](../components/calc-metrics/cm-workflow/cm-sharing.md)
-         + [Gestione metriche calcolate](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [Gestore metriche calcolate](../components/calc-metrics/cm-workflow/cm-manager.md)
       + [Metriche calcolate predefinite](../components/calc-metrics/default-calcmetrics.md)
       + [Funzioni di base](../components/calc-metrics/cm-functions.md)
       + [Funzioni avanzate](../components/calc-metrics/cm-adv-functions.md)
