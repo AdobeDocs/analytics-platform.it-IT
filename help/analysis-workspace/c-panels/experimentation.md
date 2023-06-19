@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
+source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
 workflow-type: tm+mt
 source-wordcount: '1808'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -16,7 +16,7 @@ Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confronta
 
 >[!IMPORTANT]
 >
->A questo punto [Adobe Analytics for Target|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] Dati (A4T) *non può* da analizzare nel pannello Sperimentazione.
+>A questo punto [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) Dati (A4T) *non può* da analizzare nel pannello Sperimentazione.
 
 ## Controllo degli accessi {#access}
 
