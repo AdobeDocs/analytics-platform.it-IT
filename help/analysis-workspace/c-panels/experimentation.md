@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 73%
+source-wordcount: '1808'
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confronta
 
 >[!IMPORTANT]
 >
->A questo punto, i dati di [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) (A4T) introdotti in Adobe Experience Platform tramite il connettore di origine di Analytics **non possono** essere analizzati nel pannello [!UICONTROL Experimentation]. Prevediamo una soluzione a questo limite nel 2023.
+>A questo punto [Adobe Analytics for Target|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] Dati (A4T) *non può* da analizzare nel pannello Sperimentazione.
 
 ## Controllo degli accessi {#access}
 
@@ -28,7 +28,7 @@ Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL
 
 ## Passaggio 1: creare una connessione per i set di dati dell’esperimento {#connection}
 
-Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=it) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Se i dati dell’esperimento sono inclusi in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare l’impostazione [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due e utilizzarle nel pannello.
+Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=it) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un **singolo** array di oggetti. Se i dati dell’esperimento sono inclusi in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare l’impostazione [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due e utilizzarle nel pannello.
 
 Dopo che i dati dell’esperimento sono stati [acquisiti](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [crea una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati per l’esperimento.
 
@@ -86,9 +86,9 @@ Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] ris
 
 ## Passaggio 5: interpretare i risultati {#interpret}
 
-1. **L’esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, Adobe analizza i dati accumulati nell’esperimento fino a questo punto e dichiarerà un esperimento “Conclusivo” se la soglia di affidabilità valida supera il 95% per *almeno una* delle varianti (applicando una correzione Bonferroni in presenza di più di due bracci, per test con più ipotesi).
+1. **L’esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, Adobe analizza i dati accumulati nell’esperimento fino a questo punto e dichiarerà un esperimento &quot;Conclusivo&quot; quando l’affidabilità valida supera una soglia del 95% per *almeno uno* delle varianti (con una correzione Benjamini-Hochberg applicata quando ci sono più di due bracci, per correggere per test di ipotesi multiple).
 
-2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la “variante con le prestazioni migliori”. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia del 95% di affidabilità valida in qualsiasi momento (con correzioni Bonferroni).
+2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la “variante con le prestazioni migliori”. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia di affidabilità valida del 95% in qualsiasi momento (con correzioni Benjamini-Hochberg applicate).
 
 3. **Tasso di conversione**: il tasso di conversione mostrato è un rapporto tra il valore della metrica di successo e il valore della metrica di normalizzazione. Tieni presente che a volte questo può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
 
