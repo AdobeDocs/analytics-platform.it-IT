@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '844'
+ht-degree: 74%
 
 ---
 
@@ -83,7 +83,7 @@ Lo strumento di gestione dei progetti programmati mostra gli elementi creati da 
 
 >[!NOTE]
 >
->L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti CJA che hanno acquistato il componente aggiuntivo [Healthcare Shield](https://business.adobe.com/it/solutions/experience-cloud-for-healthcare.html).
+>L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti del Customer Journey Analytics che hanno acquistato il [Healthcare Shield](https://business.adobe.com/it/solutions/experience-cloud-for-healthcare.html) componente aggiuntivo.
 
 Adobe utilizza la password per crittografare i progetti pianificati, sia che siano inviati in formato .pdf o .csv.
 

@@ -3,9 +3,9 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '966'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | Definizione | È qui che puoi trascinare metriche/metriche calcolate, filtri e/o funzioni per creare la metrica calcolata. <ul><li>Se trascini una metrica calcolata, la relativa definizione di metrica verrà espansa automaticamente. </li> <li>È possibile nidificare le definizioni con i contenitori. Tuttavia, a differenza dei contenitori di filtri, questi contenitori funzionano come un’espressione matematica e determinano l’ordine delle operazioni. </li> </ul> |
 | Operatore | Diviso per ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l&#39;operatore predefinito e sono presenti gli operatori +, - e x. |
 | Anteprima | Fornisce una lettura rapida su eventuali errori. L’anteprima copre gli ultimi 90 giorni. Questo è un modo per valutare inizialmente se hai selezionato i componenti giusti per la metrica. Un risultato imprevisto richiederebbe una seconda occhiata alla definizione della metrica. |
-| Compatibilità del prodotto | Per qualsiasi metrica calcolata creata in CJA, questo valore viene sempre elencato come [!UICONTROL **Dati completamente elaborati**]. Le metriche calcolate possono includere solo dati provenienti da set di dati evento. |
+| Compatibilità del prodotto | Per qualsiasi metrica calcolata creata in Customer Journey Analytics, questo valore viene sempre elencato come [!UICONTROL **Dati completamente elaborati**]. Le metriche calcolate possono includere solo dati provenienti da set di dati evento. |
 | Add | Per tutti i tipi di metriche calcolate, puoi aggiungere contenitori e numeri statici alla definizione. Per le metriche calcolate avanzate, puoi anche aggiungere filtri e funzioni.<ul><li>I contenitori funzionano come un’espressione matematica e determinano l’ordine delle operazioni. Pertanto, qualsiasi elemento in un contenitore verrà elaborato prima dell’operazione successiva.</li><li>Trascinare un filtro in un contenitore filtra tutto ciò che contiene. (Solo metriche calcolate avanzate)</li><li>Puoi impilare più filtri in un contenitore.</li></ul> |
 | Icona ingranaggio (tipo di metrica, attribuzione) | Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e i modelli di attribuzione. |
 | Icona più (+) | Consente di creare un nuovo componente, ad esempio un nuovo filtro (che porta al Generatore di filtri ). |

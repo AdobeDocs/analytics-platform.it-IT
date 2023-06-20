@@ -3,16 +3,16 @@ title: Guida utente di Labs
 description: Anteprima di progetti prototipo per Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 90%
 
 ---
 
 # Guida utente di [!UICONTROL Labs]
 
-[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni di Customer Journey Analytics (CJA) e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
+[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni di Adobe Customer Journey Analytics e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
 
 ## Requisiti
 
@@ -26,7 +26,7 @@ Per accedere a [!UICONTROL Labs]:
 
 1. Se non disponi ancora dell’accesso a [!UICONTROL Workspace] e [!UICONTROL Labs], chiedi all’amministratore le autorizzazioni necessarie.
 
-1. In CJA, fai clic sulla scheda **[!UICONTROL Labs]**.
+1. In Customer Journey Analytics, fai clic su **[!UICONTROL Labs]** scheda.
 
 ## Valutare un prototipo
 
@@ -64,7 +64,7 @@ Per avviare e valutare un prototipo:
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 
-## Prototipi di Labs di CJA
+## Prototipi Customer Journey Analytics Labs
 
 * Generatore di informazioni dettagliate in linguaggio naturale: fornisce un riepilogo in linguaggio naturale dei dati che stai analizzando in una tabella a forma libera.
 * Funzione di suggerimento di visualizzazione: consiglia visualizzazioni che si associano bene ai tuoi dati.

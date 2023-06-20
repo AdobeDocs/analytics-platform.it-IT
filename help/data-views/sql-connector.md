@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2880'
-ht-degree: 3%
+source-wordcount: '2918'
+ht-degree: 1%
 
 ---
 
@@ -18,38 +18,38 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-Il [!DNL Customer Journey Analytics (CJA) SQL Connector] abilita l&#39;accesso SQL al [visualizzazioni dati](./data-views.md) che hai definito in CJA. I data engineer e gli analisti potrebbero avere più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione (denominati anche strumenti BI). Ora possono creare reporting e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti CJA durante la creazione dei loro progetti Analysis Workspace.
+Il [!DNL Customer Journey Analytics SQL Connector] abilita l&#39;accesso SQL al [visualizzazioni dati](./data-views.md) che hai definito nel Customer Journey Analytics. I data engineer e gli analisti potrebbero avere più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione (denominati anche strumenti BI). Ora possono creare reporting e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti del Customer Journey Analytics durante la creazione dei loro progetti Analysis Workspace.
 
-Adobe Experience Platform [Servizio query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) è l’interfaccia SQL per i dati disponibili nel data lake di Experience Platform. Con il [!DNL CJA SQL Connector] abilitato, la funzionalità di [!DNL Query Service] è esteso per visualizzare le visualizzazioni dati CJA come tabelle o viste in una [!DNL Query Service] sessione. Di conseguenza, gli strumenti di business intelligence che utilizzano [!DNL Query Service] come la loro interfaccia PostgresSQL beneficiare perfettamente di questa funzionalità estesa.
+Adobe Experience Platform [Servizio query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) è l’interfaccia SQL per i dati disponibili nel data lake di Experience Platform. Con il [!DNL Customer Journey Analytics SQL Connector] abilitato, la funzionalità di [!DNL Query Service] è esteso per visualizzare le visualizzazioni dati di Customer Journey Analytics come tabelle o viste in un [!DNL Query Service] sessione. Di conseguenza, gli strumenti di business intelligence che utilizzano [!DNL Query Service] come la loro interfaccia PostgresSQL beneficiare perfettamente di questa funzionalità estesa.
 
 I principali vantaggi sono i seguenti:
 
-- Non è necessario ricreare una rappresentazione equivalente delle visualizzazioni dati di CJA all’interno dello strumento BI stesso. <br/>Consulta [Visualizzazione dati](data-views.md) per ulteriori informazioni sulla funzionalità delle Visualizzazioni dati per capire cosa deve essere ricreato.<br/>
+- Non è necessario ricreare una rappresentazione equivalente delle visualizzazioni dati di Customer Journey Analytics all&#39;interno dello strumento BI stesso. <br/>Consulta [Visualizzazione dati](data-views.md) per ulteriori informazioni sulla funzionalità delle Visualizzazioni dati per capire cosa deve essere ricreato.<br/>
 
-- Maggiore coerenza nelle attività di reporting e analisi tra gli strumenti di business intelligence e CJA.
+- Maggiore coerenza nelle attività di reporting e analisi tra strumenti di business intelligence e Customer Journey Analytics.
 
-- Combina i dati CJA con altre origini dati già disponibili negli strumenti di business intelligence.
+- Combinare i dati di Customer Journey Analytics con altre origini dati già disponibili negli strumenti BI.
 
 ## Prerequisiti
 
 Per utilizzare questa funzionalità, è necessario
 
-<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
+<!---   Enable the [!UICONTROL Customer Journey Analytics SQL Connector] in your Experience Platform organization. -->
 
 - Configura la funzionalità per i profili di prodotto, i gruppi di utenti e/o i singoli utenti pertinenti.<br/>
 Gli utenti devono avere accesso a:
    - Experience Platform Query Service
-   - progetti di CJA Workspace e
-   - Visualizzazioni dati CJA che desiderano utilizzare.
+   - progetti Customer Journey Analytics Workspace e
+   - Visualizzazioni dati di Customer Journey Analytics che desiderano utilizzare.
 
-- Utilizza le credenziali senza scadenza per connettere gli strumenti BI al connettore SQL di CJA. Gio [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
+- Utilizzare le credenziali senza scadenza per connettere gli strumenti BI al connettore SQL di Customer Journey Analytics. Gio [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
 
-Consulta [Controllo dell’accesso](../admin/cja-access-control.md) per ulteriori informazioni, consulta la sezione Amministrazione di CJA.
+Consulta [Controllo dell’accesso](../admin/cja-access-control.md) per ulteriori informazioni, consulta la sezione Amministrazione del Customer Journey Analytics.
 
 
 ## Utilizzo
 
-Per utilizzare [!DNL CJA SQL Connector] funzionalità, è possibile utilizzare direttamente SQL o utilizzare l&#39;esperienza di trascinamento disponibile nello strumento BI specifico.
+Per utilizzare [!DNL Customer Journey Analytics SQL Connector] funzionalità, è possibile utilizzare direttamente SQL o utilizzare l&#39;esperienza di trascinamento disponibile nello strumento BI specifico.
 
 ### SQL
 
@@ -89,7 +89,7 @@ Consulta [Guida dell’interfaccia utente di Query Editor](https://experiencelea
 
 ### Strumenti BI
 
-Attualmente, il connettore SQL di CJA è supportato e testato solo per Power BI e Tableau. Anche altri strumenti BI che utilizzano l’interfaccia PSQL potrebbero funzionare, ma non sono ancora ufficialmente supportati.
+Attualmente, il connettore SQL di Customer Journey Analytics è supportato e testato solo per Power BI e Tableau. Anche altri strumenti BI che utilizzano l’interfaccia PSQL potrebbero funzionare, ma non sono ancora ufficialmente supportati.
 
 +++ Power BI
 
@@ -120,7 +120,9 @@ Attualmente, il connettore SQL di CJA è supportato e testato solo per Power BI 
       3. Quando richiesto **[!UICONTROL ** Connettività dati **]** modalità, seleziona **[!UICONTROL ** DirectQuery **]** per garantire che le strutture di dati siano appiattite correttamente.
 
       4. Viene chiesto di **[!UICONTROL ** Nome utente **]** e **[!UICONTROL ** Password **]**. Utilizzare i parametri equivalenti dalle query Experience Platform [!UICONTROL Credentials].
-   5. Dopo aver effettuato correttamente l’accesso, le tabelle della Visualizzazione dati di CJA vengono visualizzate in Power BI’s **[!UICONTROL ** Navigatore **]**. Le tabelle delle visualizzazioni dati sono identificate tramite `dv_` nel loro nome.
+
+
+   5. Dopo aver effettuato correttamente l’accesso, le tabelle Visualizzazione dati di Customer Journey Analytics vengono visualizzate nel file del Power BI **[!UICONTROL ** Navigatore **]**. Le tabelle delle visualizzazioni dati sono identificate tramite `dv_` nel loro nome.
 
 
    6. Selezionare le tabelle delle visualizzazioni dati che si desidera utilizzare e selezionare **[!UICONTROL ** Carica **]**.
@@ -164,7 +166,8 @@ Attualmente, il connettore SQL di CJA è supportato e testato solo per Power BI 
       6. Incolla **[!UICONTROL ** Password **]** parametro da query Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Password **]** campo di testo.
 
       7. Seleziona **[!UICONTROL ** Accedi **]**.
-   4. Le visualizzazioni dati di CJA vengono visualizzate come tabelle nella **[!UICONTROL ** Tabella **]** elenco. Le tabelle delle visualizzazioni dati hanno il prefisso `dv_`.
+
+   4. Le visualizzazioni dati di Customer Journey Analytics vengono visualizzate come tabelle nella **[!UICONTROL ** Tabella **]** elenco. Le tabelle delle visualizzazioni dati hanno il prefisso `dv_`.
 
    5. Trascinare le tabelle che si desidera utilizzare nell&#39;area di lavoro.
 
@@ -184,9 +187,9 @@ Se desideri utilizzare gli ID delle visualizzazioni dati come nomi delle tabelle
 
 ### Governance dei dati
 
-Le impostazioni relative alla governance dei dati nel Customer Journey Analytics vengono ereditate da Adobe Experience Platform. L’integrazione tra CJA e Governance dei dati di Adobe Experience Platform consente di etichettare i dati CJA sensibili e di applicare i criteri di privacy.
+Le impostazioni relative alla governance dei dati nel Customer Journey Analytics vengono ereditate da Adobe Experience Platform. L’integrazione tra Governance dei dati di Customer Journey Analytics e Governance dei dati di Adobe Experience Platform consente l’etichettatura dei dati sensibili di Customer Journey Analytics e l’applicazione delle politiche sulla privacy.
 
-Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di CJA. Pertanto, i dati interrogati utilizzando il connettore SQL di CJA mostrano avvertenze o errori appropriati quando non sono conformi alle etichette e ai criteri per la privacy definiti.
+Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Pertanto, i dati interrogati tramite il connettore SQL di Customer Journey Analytics mostrano avvertenze o errori appropriati quando non sono conformi alle etichette e ai criteri di privacy definiti.
 
 ### Visualizzazioni dati elenco
 
@@ -233,7 +236,7 @@ Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
 | Totali delle metriche | <pre>SELEZIONA SOMMA(metrica1) COME m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;</pre> |
 | Multidimensionale<br/>raggruppamenti<br/>e top-distinct | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER 1, 2<br/>ORDINA PER 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>DA dv1</pre> |
 | Sottoselezione:<br/>Risultato aggiuntivo<br/>filtro | <pre>SELECT dim1, m1<br/>DA (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  DA dv1<br/>  DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;</br>  RAGGRUPPA PER dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
-| Sottoselezione:<br/>Unione con<br/>set di dati non in<br/>CJA | <pre>SELECT b.key, a.dim1, a.m1<br/>DA (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  DA dv1<br/>  DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>  RAGGRUPPA PER dim1<br/>) a<br/>RICERCHE LEFT JOIN b ON a.dim1 = b.key</pre> |
+| Sottoselezione:<br/>Unione con<br/>set di dati non in<br/>Customer Journey Analytics | <pre>SELECT b.key, a.dim1, a.m1<br/>DA (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  DA dv1<br/>  DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>  RAGGRUPPA PER dim1<br/>) a<br/>RICERCHE LEFT JOIN b ON a.dim1 = b.key</pre> |
 | Sottoselezione:<br/>Query tra<br/>visualizzazioni dati | <pre>Tasto SELECT, SOMMA(m1) AS totale<br/>DA (<br/>  SELECT dim1 AS key, SUM(metric1) AS m1<br/>  DA dv1<br/>  DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>  RAGGRUPPA PER dim1<br/><br/>  UNION<br/><br/>  SELECT dim2 AS key, SUM(m1) AS m1<br/>  DA dv2<br/>  DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>  RAGGRUPPA PER dim2<br/>Chiave GROUP BY<br/>ORDINA PER totale</pre> |
 | Sottoselezione: <br/>Origine con livelli, <br/>filtraggio, <br/>e aggregazione | Livellato con sottoselezioni:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>DA (<br/>  SELECT \_.dim1,\_.m1<br/>  DA (<br/>    SELECT \* FROM dv1<br/>    DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>  ) \_<br/>  DOVE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) righe<br/>RAGGRUPPA PER 1<br/>ORDINA PER totale</pre><br/>Livelli che utilizzano CTE CON:<br/><pre>CON RIGHE COME (<br/>  CON \_ COME (<br/>    SELECT * FROM data_ares<br/>    DOVE \`timestamp\` TRA &#39;2021-01-01&#39; E &#39;2021-02-01&#39;<br/>  )<br/>  SELEZIONA _.item, _.units DA _<br/>  DOVE _.item NON È NULL<br/>)<br/>SELECT rows.item, SUM(rows.units) AS unità<br/>DA righe WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>Raggruppa per rows.item</pre> |
 | Seleziona dove<br/>le metriche vengono prima<br/> o sono miscelati con<br/>le dimensioni | <pre>SELECT SUM(metric1) AS m1, dim1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER 2</pre> |
@@ -268,7 +271,7 @@ Puoi selezionare una metrica in base al suo ID racchiuso in una `SUM(metric)` co
 
 #### Distinte di conteggio
 
-A causa della natura sottostante del funzionamento di CJA, l’unica dimensione per la quale puoi ottenere un conteggio distinto esatto è `adobe_personid` dimensione. Le istruzioni SQL seguenti `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` restituisce il valore della metrica persone predefinita, che è il conteggio di persone distinte. Per le altre quote, viene restituito un conteggio distinto approssimativo.
+A causa della natura sottostante del funzionamento del Customer Journey Analytics, l’unica dimensione per la quale puoi ottenere un conteggio distinto esatto è `adobe_personid` dimensione. Le istruzioni SQL seguenti `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` restituisce il valore della metrica persone predefinita, che è il conteggio di persone distinte. Per le altre quote, viene restituito un conteggio distinto approssimativo.
 
 #### Metriche condizionali
 

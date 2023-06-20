@@ -4,10 +4,10 @@ description: Determina in che modo o se i valori delle dimensioni persistono da 
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 90%
+source-wordcount: '767'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,7 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
 
-Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedi [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).
+Consulta [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) esempi su come utilizzare in modo efficace le dimensioni di binding.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -88,4 +88,4 @@ Elenco a discesa che consente di scegliere una metrica che funge da trigger di b
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding in CJA](../../use-cases/data-views/binding-dimensions-metrics.md).
+Vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding.

@@ -1,13 +1,13 @@
 ---
 title: Cosa sono i componenti nel Customer Journey Analytics?
-description: Scopri i componenti offerti da CJA e come utilizzarli nel reporting.
+description: Scopri i componenti offerti dal Customer Journey Analytics e come utilizzarli nel reporting.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: e8778520581ea6d1cf59285bc8a6c178904d44e2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 57%
+source-wordcount: '1015'
+ht-degree: 55%
 
 ---
 

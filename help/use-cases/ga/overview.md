@@ -1,10 +1,11 @@
 ---
 title: Migrazione dei dati da Google Analytics a Customer Journey Analytics
 description: Scopri il flusso di lavoro generale per spostare i dati da Google Analytics a Adobe Experience Platform e visualizzare i rapporti in Customer Journey Analytics.
-source-git-commit: 7c195453490499cc42e7d5b2f2d111e2654f918c
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 87%
 
 ---
 
@@ -18,13 +19,13 @@ I flussi di lavoro vengono forniti sia per i dati storici che per la raccolta da
 
 L’acquisizione di dati storici (di recupero) comporta l’esportazione di dati da Google e l’importazione di tali dati su Adobe Experience Platform. Consulta [Inserire dati Google Analytics su Adobe Experience Platform](backfill.md).
 
-Una volta inseriti correttamente i dati storici su Platform, puoi [configurare lo streaming dei dati correnti](streaming.md) o iniziare immediatamente a generare rapporti sui dati precompilati in CJA [creando una connessione](/help/connections/create-connection.md).
+Una volta inseriti correttamente i dati storici in Platform, puoi: [Configurare i dati correnti in streaming](streaming.md), oppure iniziare immediatamente a generare rapporti sui dati precompilati nel Customer Journey Analytics entro [Creazione di una connessione](/help/connections/create-connection.md).
 
 ## Configurare un&#39;implementazione Google Analytics esistente per Adobe Experience Platform {#configure}
 
 L&#39;acquisizione dei dati correnti (in streaming) comporta l’invio di dati ad Adobe Experience Edge, che in seguito li inoltra a Adobe Experience Platform. Consulta [Configurazione dei dati Google Analytics in streaming su Adobe Experience Platform](streaming.md).
 
-## Configurare una connessione e una visualizzazione dati in CJA
+## Configurare una connessione e una visualizzazione dati nel Customer Journey Analytics
 
 Dopo aver acquisito correttamente i dati storici e/o configurato la raccolta dati su Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) per consentire a Customer Journey Analytics di fare riferimento a tali dati.
 

@@ -1,12 +1,12 @@
 ---
 description: Vengono visualizzate le cinque dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali).
-title: Visualizzare le dimensioni in anteprima in CJA Workspace
+title: Visualizzare in anteprima le dimensioni in Customer Journey Analytics Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '192'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 95%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-description: Scopri come analizzare i risultati dei test A/B nel pannello Sperimentazione di CJA.
+description: Scopri come analizzare i risultati dei test A/B nel pannello Sperimentazione di Customer Journey Analytics.
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 66%
+source-wordcount: '1823'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confronta
 
 ## Controllo degli accessi {#access}
 
-Il pannello Sperimentazione è disponibile per l’utilizzo da parte di tutti gli utenti di Customer Journey Analytics (CJA). Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
+Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics. Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, la configurazione (passaggi 1 e 2 di seguito) richiede azioni che solo gli amministratori possono eseguire.
 
 ## Nuove funzioni nelle metriche calcolate {#functions}
 
@@ -30,11 +30,11 @@ Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL
 
 Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=it) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un **singolo** array di oggetti. Se i dati dell’esperimento sono inclusi in una singola dimensione con dati di esperimento e variante in una stringa delimitata, puoi utilizzare l’impostazione [sottostringa](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per dividerle in due e utilizzarle nel pannello.
 
-Dopo che i dati dell’esperimento sono stati [acquisiti](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform, [crea una connessione in CJA](/help/connections/create-connection.md) a uno o più set di dati per l’esperimento.
+Dopo che i dati dell’esperimento sono stati [acquisito](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform [creare una connessione nel Customer Journey Analytics](/help/connections/create-connection.md) a uno o più set di dati di sperimentazione.
 
 ## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati {#contect-labels}
 
-Nelle impostazioni delle visualizzazioni dati di CJA, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi CJA come il pannello [!UICONTROL Experimentation] possono utilizzare tali etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
+Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e servizi di Customer Journey Analytics come [!UICONTROL Experimentation] Il pannello può utilizzare queste etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
@@ -47,12 +47,12 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
 
 ## Passaggio 3: configurare il pannello Sperimentazione {#configure}
 
-1. Nell’area di lavoro di CJA, trascina il pannello Sperimentazione in un progetto.
+1. In Area di lavoro Customer Journey Analytics, trascina il pannello Sperimentazione in un progetto.
 
 ![pannello sperimentazione](assets/experiment.png)
 
 >[!IMPORTANT]
->Se la configurazione necessaria nelle visualizzazioni dati di CJA non è stata completata, prima di poter procedere riceverai un messaggio: “[!UICONTROL Please configure the experiment and variant dimensions in Data Views]”.
+>Se la configurazione necessaria nelle visualizzazioni dati del Customer Journey Analytics non è stata completata, prima di poter procedere riceverai un messaggio: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
 
 1. Configura le impostazioni di input del pannello.
 
@@ -62,7 +62,7 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
    | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
    | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions] oppure [!UICONTROL Events]) su cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
-   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto in CJA per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
+   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
 
 1. Fai clic su **[!UICONTROL Build]**.
 
@@ -110,7 +110,7 @@ Una sequenza con affidabilità del 95% includerà il valore “true” della met
 
 ## Interpretare dimensioni non randomizzate {#non-randomized}
 
-CJA consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un&#39;analisi in cui la dimensione scelta come esperimento non è quella per cui le persone sono randomizzate?
+Il Customer Journey Analytics consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un&#39;analisi in cui la dimensione scelta come esperimento non è quella per cui le persone sono randomizzate?
 
 Ad esempio, considera un annuncio visualizzato da una persona. Se decidi di mostrare le persone &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la variazione di alcune metriche (ad es., ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il reddito medio sull&#39;intera popolazione, se sostituiamo lo status quo di mostrare l&#39;annuncio A con la strategia alternativa di mostrare l&#39;annuncio B.
 

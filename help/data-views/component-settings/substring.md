@@ -4,10 +4,10 @@ description: Utilizza un sottoinsieme di una stringa come elementi dimensionali.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 96%
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ Applica espressioni regolari a una dimensione per recuperare il valore desiderat
 * **[!UICONTROL Output format]**: campo facoltativo che consente di aggiungere del testo o riordinare l’output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
 * **[!UICONTROL Case sensitive]**: casella di controllo che, se abilitata, applica all’espressione regolare la distinzione tra maiuscole e minuscole.
 
-CJA utilizza un sottoinsieme della sintassi regex Perl. Se l’input non corrisponde all’espressione regolare e **[!UICONTROL Output format]** è vuoto, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md). Sono supportate le seguenti espressioni:
+Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl. Se l’input non corrisponde all’espressione regolare e **[!UICONTROL Output format]** è vuoto, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md). Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |

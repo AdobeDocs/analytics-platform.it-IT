@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3111'
 ht-degree: 6%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 # Campi derivati
 
-I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Customer Journey Analytics (CJA). Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare il campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o anche definire ulteriormente il campo derivato come componente in [Visualizzazione dati](../data-views.md).
+I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Adobe Customer Journey Analytics. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare il campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o anche definire ulteriormente il campo derivato come componente in [Visualizzazione dati](../data-views.md).
 
-I campi derivati possono risparmiare una quantità significativa di tempo e fatica, rispetto alla trasformazione o alla manipolazione dei dati in altre posizioni al di fuori di CJA. Ad esempio [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)o all&#39;interno dei processi ETL (Extract Transform Load)/ELT (Extract Load Transform).
+I campi derivati consentono di risparmiare molto tempo e fatica rispetto alla trasformazione o alla manipolazione dei dati in altre posizioni al di fuori del Customer Journey Analytics. Ad esempio [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)o all&#39;interno dei processi ETL (Extract Transform Load)/ELT (Extract Load Transform).
 
 I campi derivati sono definiti in [Visualizzazioni dati](../data-views.md), si basano su un set di funzioni definite come regole e applicate ai campi standard e/o schema disponibili.
 
@@ -122,7 +122,7 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia d
 
 >[!NOTE]
 >
->I campi derivati vengono gestiti a livello di connessione in CJA. Qualsiasi modifica apportata a un campo derivato in una delle visualizzazioni dati associate a tale connessione viene applicata a tutte le visualizzazioni dati associate.
+>I campi derivati vengono gestiti a livello di connessione nel Customer Journey Analytics. Qualsiasi modifica apportata a un campo derivato in una delle visualizzazioni dati associate a tale connessione viene applicata a tutte le visualizzazioni dati associate.
 
 
 
@@ -461,9 +461,9 @@ Definisci un `Trip Duration (bucketed)` campo derivato. Puoi creare quanto segue
 
 ## Vincoli
 
-CJA utilizza una struttura di contenitori nidificati, modellata sul modello di Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model). Consulta [Contenitori](../create-dataview.md#containers) e [Contenitori di filtri](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di base. Questo modello di contenitore, anche se per sua natura flessibile, impone alcuni vincoli quando si utilizza il generatore di regole.
+Il Customer Journey Analytics utilizza una struttura di contenitori nidificati, modellata sul modello di Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model). Consulta [Contenitori](../create-dataview.md#containers) e [Contenitori di filtri](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di base. Questo modello di contenitore, anche se per sua natura flessibile, impone alcuni vincoli quando si utilizza il generatore di regole.
 
-CJA utilizza il seguente modello di contenitore predefinito:
+Il Customer Journey Analytics utilizza il seguente modello di contenitore predefinito:
 
 <p align="center">
 <img src="./assets/containers.png" width="50%" valign="middle">
@@ -761,4 +761,4 @@ Definisci un `Query String CID` campo derivato. Utilizzi il [!UICONTROL URL PARS
 Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in generale:
 
 - È possibile utilizzare un massimo di 10 campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
-- Puoi avere un massimo di 100 campi derivati per connessione CJA.
+- Puoi avere un massimo di 100 campi derivati per connessione di Customer Journey Analytics.

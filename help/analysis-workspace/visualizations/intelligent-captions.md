@@ -4,9 +4,9 @@ title: Didascalie intelligenti
 feature: Visualizations
 role: User, Admin
 exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ I sottotitoli intelligenti sono orientati verso:
 * Analisti che hanno bisogno di narrazioni da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per fornire contesto ai loro utenti.
 * Utenti aziendali che desiderano scoprire rapidamente soluzioni di alto livello.
 
-I sottotitoli sono disponibili per tutti gli utenti CJA e non richiedono autorizzazioni speciali.
+I sottotitoli sono disponibili per tutti gli utenti del Customer Journey Analytics e non richiedono autorizzazioni speciali.
 
 ## Avvia sottotitoli intelligenti {#launch}
 

@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2451'
-ht-degree: 78%
+source-wordcount: '2457'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analy
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Le schermate delle scorecard per questa pagina sono state riprese dall’interfaccia di Adobe Analytics, non da CJA. Tuttavia le due interfacce utente sono quasi identiche.
+>Le schermate delle scorecard per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non dal Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
 
 Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout a sezioni affiancate, come mostrato di seguito:
 
@@ -76,7 +76,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 ## Applicazione di filtri {#filters}
 
-Per applicare filtri ai singoli riquadri, trascina un filtro (i segmenti sono filtri in CJA) dal pannello di sinistra e rilascialo direttamente sul riquadro.
+Per applicare filtri alle singole tessere, trascina un filtro (i segmenti sono filtri nel Customer Journey Analytics) dal pannello di sinistra e rilascialo direttamente sulla tessera.
 
 Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Adobe Analytics Workspace.
 
@@ -163,7 +163,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri in CJA.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri nel Customer Journey Analytics.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 

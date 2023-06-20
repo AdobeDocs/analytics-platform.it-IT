@@ -1,21 +1,21 @@
 ---
 title: Utilizzare gli array di oggetti
-description: Comprendere come CJA crea rapporti sulle gerarchie di dati.
+description: Comprendere come il Customer Journey Analytics genera rapporti sulle gerarchie di dati.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 86%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
 # Utilizzare gli array di oggetti
 
-Alcuni schemi di piattaforma possono avere array di oggetti. CJA supporta l’inserimento e la generazione di rapporti di array di oggetti all’interno dei dati evento, ricerca e profilo. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
+Alcuni schemi di piattaforma possono avere array di oggetti. Adobe Customer Journey Analytics supporta l’acquisizione e il reporting di array di oggetti all’interno di dati di eventi, ricerche e profili. Uno degli esempi più comuni è un carrello, che può contenere più prodotti. Ogni prodotto ha un nome, uno SKU, una categoria, un prezzo, una quantità e altre dimensioni che è possibile monitorate. Questi facet hanno requisiti separati, ma devono rientrare tutti nello stesso hit.
 
-Nelle versioni precedenti di Adobe Analytics, questa funzione è stata eseguita utilizzando la variabile `products`. Si trattava di una stringa concatenata in cui i punti e virgola (`;`) separavano i facet di un prodotto, mentre le virgole (`,`) delineavano i prodotti. Era l’unica variabile con supporto limitato di “array di oggetti”. Le variabili multivalore, come le variabili di elenco, erano in grado di supportare l’equivalente degli array, ma non gli “array di oggetti”. CJA amplia questo concetto con il supporto di gerarchie arbitrariamente profonde all’interno di una singola riga di dati, una funzione non disponibile nelle versioni precedenti di Adobe Analytics.
+Nelle versioni precedenti di Adobe Analytics, questa funzione è stata eseguita utilizzando la variabile `products`. Si trattava di una stringa concatenata in cui i punti e virgola (`;`) separavano i facet di un prodotto, mentre le virgole (`,`) delineavano i prodotti. Era l’unica variabile con supporto limitato di “array di oggetti”. Le variabili multivalore, come le variabili di elenco, erano in grado di supportare l’equivalente degli array, ma non gli “array di oggetti”. Customer Journey Analytics amplia questo concetto con il supporto di gerarchie arbitrariamente profonde all’interno di una singola riga di dati, una funzione non disponibile nelle versioni precedenti di Adobe Analytics.
 
 ## Stesso esempio di evento
 
@@ -91,7 +91,7 @@ Utilizzando solo l’evento precedente, le tabelle seguenti mostrano i rapporti 
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA esamina in modo selettivo le dimensioni e le metriche dell’oggetto in base alla tabella.
+Customer Journey Analytics esamina in modo selettivo le dimensioni e le metriche dell’oggetto in base alla tabella.
 
 ```diff
 {
@@ -143,7 +143,7 @@ Se desideri creare un rapporto solo sui ricavi della garanzia, il tuo progetto a
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA esamina queste parti dell’evento per generare il rapporto:
+Il Customer Journey Analytics esamina queste parti dell’evento per generare il rapporto:
 
 ```diff
 {
@@ -245,7 +245,7 @@ Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordi
 
 ### Combinazione di metriche
 
-CJA non combina in modo nativo metriche con nomi simili se si trovano su diversi livelli dell’oggetto.
+Il Customer Journey Analytics non combina in modo nativo metriche con nomi simili se si trovano su livelli di oggetto diversi.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

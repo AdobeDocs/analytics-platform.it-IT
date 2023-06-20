@@ -1,13 +1,13 @@
 ---
 title: Panoramica delle visualizzazioni dati
-description: Una visualizzazione dati determina come interpretare gli elementi dei dati nella connessione CJA, ad esempio metriche, dimensioni, sessioni, ecc.
+description: Una visualizzazione dati specifica come interpretare gli elementi dei dati nella connessione di Customer Journey Analytics, ad esempio metriche, dimensioni, sessioni e così via.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1031'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazio
 
 ## Funzionalità delle visualizzazioni dati {#capabilities}
 
-Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover intervenire sullo schema in Adobe Experience Platform né reimplementare l’ambiente CJA.
+Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform o reimplementare l’ambiente di Customer Journey Analytics.
 
 * **Puoi cambiare un componente da metrica a dimensione e viceversa**. Puoi creare metriche da campi stringa o dimensioni da campi numerici. Questo semplifica il lavoro, poiché non è necessario creare un campo numerico nello schema XDM per ogni metrica desiderata. Potrai infatti crearlo spontaneamente nella finestra di dialogo delle visualizzazioni dati. Di seguito sono riportati alcuni esempi:
    * **Crea una o più dimensioni e/o una dimensione da un singolo campo schema**. Si tratta di una relazione uno-a-molti. Ad esempio, puoi creare una o più metriche Ricavi e/o una o più dimensioni Ricavi da un singolo campo dello schema.

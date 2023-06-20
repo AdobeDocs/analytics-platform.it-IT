@@ -1,14 +1,14 @@
 ---
 title: Come gestire le connessioni in Customer Journey Analytics
-description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (CJA).
+description: Descrive come gestire le connessioni ai set di dati Experience Platform in Customer Journey Analytics (Customer Journey Analytics).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 98%
+source-wordcount: '1690'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Una volta che gli utenti Amministratore hanno [creato una o più connessioni](/h
 
 * Ti consente di controllare lo **stato dei set di dati della connessione e del processo di acquisizione**. Questo controllo di stato ti consente di sapere quando i dati sono disponibili in modo da poter accedere ad Analysis Workspace e avviare l’analisi.
 
-* Ti permette di **identificare eventuali discrepanze di dati** a causa di configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati in CJA?
+* Ti permette di **identificare eventuali discrepanze di dati** a causa di configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati nel Customer Journey Analytics?
 
 Ecco un video sulla nuova funzione Gestione connessioni:
 

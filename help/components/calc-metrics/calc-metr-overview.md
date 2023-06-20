@@ -3,10 +3,10 @@ title: Panoramica delle metriche calcolate
 description: Scopri le metriche filtrate derivate in fase di esecuzione dei rapporti.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '461'
+ht-degree: 90%
 
 ---
 
@@ -39,10 +39,10 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 | Strumento | Funzionalità |
 |--- |--- |
 | Generatore di metrica calcolata | <ul><li>Creare metriche calcolate e calcolate avanzate utilizzando modelli di allocazione avanzati.</li><li>Aggiungere filtri inline alle formule delle metriche.</li><li>Confrontare i filtri nello stesso rapporto. Ad esempio, confrontare persone locali con persone internazionali.</li><li>Utilizzare le funzioni statistiche.</li><li> Fornire descrizioni dettagliate delle metriche (mostrare cosa fanno, dove usarle, dove NON usarle).</li><li>Copiare le definizioni in nuove metriche.</li><li>Fornire un’anteprima delle metriche inline.</li><li>Impostare la polarità della metrica, che indica se è positivo o negativo se un dato evento personalizzato (metrica) aumenta.</li><li>Applicare tag alle metriche.</li></ul> |
-| Gestione metriche calcolate | <ul><li>Condividere le metriche con altri utenti.</li><li>Approvare e curare le metriche.</li><li>Organizzare le metriche (assegnare tag) in modo che gli utenti possano trovarle.</li><li>Eliminare le metriche.</li><li>Rinominare le metriche.</li></ul> |
-| API per metriche calcolate | Parte del set di API di CJA. |
+| Gestore metriche calcolate | <ul><li>Condividere le metriche con altri utenti.</li><li>Approvare e curare le metriche.</li><li>Organizzare le metriche (assegnare tag) in modo che gli utenti possano trovarle.</li><li>Eliminare le metriche.</li><li>Rinominare le metriche.</li></ul> |
+| API per metriche calcolate | Parte del set API di Customer Journey Analytics. |
 
-## Modelli di metriche calcolate in CJA
+## Modelli di metriche calcolate nel Customer Journey Analytics
 
 | Nome della metrica calcolata | Descrizione della metrica calcolata |
 | --- | --- |

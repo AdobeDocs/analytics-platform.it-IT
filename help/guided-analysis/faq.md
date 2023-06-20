@@ -1,9 +1,10 @@
 ---
 title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
@@ -16,13 +17,13 @@ Domande frequenti sull’analisi guidata.
 
 +++**L’analisi guidata è disponibile per tutti?**
 
-No; l’analisi guidata è un componente aggiuntivo a pagamento di CJA. Se desideri iniziare a utilizzare questo componente aggiuntivo, contatta il team del tuo account di Adobe.
+No. L&#39;analisi guidata è un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se desideri iniziare a utilizzare questo componente aggiuntivo, contatta il team del tuo account di Adobe.
 
 +++
 
 +++**Quali modifiche di implementazione sono necessarie per utilizzare l’analisi guidata?**
 
-Se utilizzi già Analysis Workspace in CJA, non sono necessarie ulteriori modifiche all’implementazione. L’analisi guidata utilizza le stesse visualizzazioni dati e connessioni di Analysis Workspace. Il processo per integrare e utilizzare qualsiasi tipo di progetto è identico per tutto CJA, inclusa l’analisi guidata.
+Se utilizzi già Analysis Workspace in Customer Journey Analytics, non sono necessarie ulteriori modifiche all’implementazione. L’analisi guidata utilizza le stesse visualizzazioni dati e connessioni di Analysis Workspace. La procedura per l’onboarding e l’utilizzo di qualsiasi tipo di progetto è identica per tutto il Customer Journey Analytics, inclusa l’analisi guidata.
 
 +++
 

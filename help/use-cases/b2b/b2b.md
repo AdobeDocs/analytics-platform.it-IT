@@ -1,13 +1,13 @@
 ---
 title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
-description: Scopri come aggiungere dati basati su account come set di dati di ricerca a CJA
+description: Scopri come aggiungere dati basati su account come set di dati di ricerca al Customer Journey Analytics
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 96%
+source-wordcount: '837'
+ht-degree: 72%
 
 ---
 
@@ -23,7 +23,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 
 Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati di [ricerca](/help/getting-started/cja-glossary.md).
 
-Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi procedi alla creazione di una connessione in Customer Journey Analytics (CJA) che combina diversi set di dati, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
+Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi procedi alla creazione di una connessione in Customer Journey Analytics (Customer Journey Analytics) che combina set di dati diversi, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi cr
 
 ## 1. Crea lo schema di ricerca (Experience Platform)
 
-La creazione di uno schema personalizzato per la tabella di [ricerca](/help/getting-started/cja-glossary.md) assicura che il set di dati utilizzato sia disponibile in CJA con la configurazione corretta (tipo di record). Ti consigliamo di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#create-new-class) denominata “Ricerca”, priva di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
+Creazione di uno schema personalizzato per [ricerca](/help/getting-started/cja-glossary.md) La tabella assicura che il set di dati utilizzato sia disponibile in Customer Journey Analytics con la configurazione corretta (tipo di record). Ti consigliamo di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#create-new-class) denominata “Ricerca”, priva di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
 
 ![](../assets/create-new-class.png)
 
 ## 2. Creare un set di dati di ricerca (Experience Platform)
 
-Una volta creato lo schema, è necessario creare un set di dati di ricerca da tale schema in Experience Platform. Questo set di dati di ricerca contiene informazioni di marketing a livello di account, ad esempio: ragione sociale, numero totale di dipendenti, nome di dominio, settore di appartenenza, entrate annuali, se sono clienti attuali di Experience Platform o meno, in quale fase di vendita si trovano, quale team all’interno dell’account sta utilizzando CJA, ecc.
+Una volta creato lo schema, è necessario creare un set di dati di ricerca da tale schema in Experience Platform. Questo set di dati di ricerca contiene informazioni di marketing a livello di account, ad esempio: nome della società, numero totale di dipendenti, nome di dominio, a quale settore appartengono, ricavi annuali, se sono clienti attuali dell’Experience Platform o meno, in quale fase di vendita si trovano, in quale team all’interno dell’account utilizza il Customer Journey Analytics e così via.
 
 1. In Adobe Experience Platform, vai su **[!UICONTROL Data Management > Datasets]** (Set di dati).
 1. Fai clic su **[!UICONTROL + Create dataset]** (Crea set di dati).
@@ -57,13 +57,13 @@ L’inserimento dei dati e la determinazione della ricerca richiede circa da 2 a
 
 ## 4. Combinare i set di dati in una connessione (Customer Journey Analytics)
 
-Per questo esempio, stiamo combinando 3 set di dati in una singola connessione CJA:
+Per questo esempio, stiamo combinando 3 set di dati in una connessione di Customer Journey Analytics:
 
-| Nome del set di dati | Descrizione | Classe AEP Schema (Schema AEP) | Dettagli del set di dati |
+| Nome del set di dati | Descrizione | Classe schema Adobe Experience Platform | Dettagli del set di dati |
 | --- | --- | --- | --- |
 | Impression B2B | Contiene i dati clickstream, a livello di evento e a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché la denominazione commerciale, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | `emailID` viene utilizzato come identità principale e assegnato allo spazio dei nomi `Customer ID`. Di conseguenza, verrà visualizzato come **[!UICONTROL Person ID]** (ID persona) predefinito in Customer Journey Analytics. ![Impression](../assets/impressions-mixins.png) |
-| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio la loro posizione lavorativa, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema XDM Individual Profile | In questo schema non è necessario selezionare `emailID` come ID principale. Assicurati di abilitare **[!UICONTROL Profile]** (Profilo); in caso contrario, CJA non sarà in grado di collegare `emailID` nel profilo B2B con `emailID` nei dati di Impression B2B. ![Profilo](../assets/profile-mixins.png) |
-| Informazioni B2B | Consulta &quot;Creare un set di dati di ricerca&quot; sopra. | Account B2B (classe di schema di ricerca personalizzata) | Il rapporto tra `accountID` e il set di dati Impression B2B è stato creato automaticamente connettendo il set di dati Informazioni B2B con il set di dati Impression B2B in CJA, come descritto nei passaggi seguenti. ![Ricerca](../assets/lookup-mixins.png) |
+| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio la loro posizione lavorativa, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema XDM Individual Profile | In questo schema non è necessario selezionare `emailID` come ID principale. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, il Customer Journey Analytics non sarà in grado di collegare `emailID` nel profilo B2B con `emailID` nei dati di impression B2B. ![Profilo](../assets/profile-mixins.png) |
+| Informazioni B2B | Consulta &quot;Creare set di dati di ricerca&quot; qui sopra. | Account B2B (classe di schema di ricerca personalizzata) | La relazione tra `accountID` e il set di dati Impression B2B è stato creato automaticamente collegando il set di dati Info B2B con il set di dati Impression B2B in Customer Journey Analytics, come descritto nei passaggi seguenti. ![Ricerca](../assets/lookup-mixins.png) |
 
 Ecco come combinare i set di dati:
 

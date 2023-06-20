@@ -2,22 +2,22 @@
 title: Combinare suite di rapporti con schemi diversi
 description: Scopri come utilizzare la preparazione dati per combinare suite di rapporti con schemi diversi
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
-source-git-commit: 69356510596d047d80af63338fccca71e8af53cd
-workflow-type: ht
-source-wordcount: '1335'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '1398'
+ht-degree: 64%
 
 ---
 
 # Combinare suite di rapporti con schemi diversi
 
-Il [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) inserisce i dati della suite di rapporti di Adobe Analytics in Adobe Experience Platform (AEP) per l’utilizzo da parte di applicazioni AEP, come Real-time Customer Data Platform e Customer Journey Analytics (CJA). Ogni suite di rapporti introdotta in AEP è configurata come flusso di dati di connessione di origine individuale e ogni flusso di dati arriva come un set di dati all’interno del data lake di AEP. Il connettore di origine di Analytics crea un set di dati per suite di rapporti.
+Il [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) inserisce i dati della suite di rapporti di Adobe Analytics in Adobe Experience Platform per l’utilizzo da parte di applicazioni Adobe Experience Platform, come Real-time Customer Data Platform e Customer Journey Analytics (Customer Journey Analytics). Ogni suite di rapporti introdotta in Adobe Experience Platform è configurata come flusso di dati di connessione di origine individuale e ogni flusso di dati arriva come un set di dati all’interno del data lake di Adobe Experience Platform. Il connettore di origine di Analytics crea un set di dati per suite di rapporti.
 
-I clienti CJA utilizzano le [connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) per integrare i set di dati dal data lake di AEP in Analysis Workspace di CJA. Tuttavia, quando si combinano suite di rapporti all’interno di una connessione, è necessario risolvere le differenze di schema tra suite di rapporti utilizzando la funzionalità di AEP [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it). Lo scopo è garantire che le variabili di Adobe Analytics come prop ed eVar abbiano un significato coerente in CJA.
+Customer Journey Analytics utilizzato dai clienti [connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) integrare i set di dati dal data lake di Adobe Experience Platform in Customer Journey Analytics Analysis Workspace. Tuttavia, quando si combinano suite di rapporti all’interno di una connessione, è necessario risolvere le differenze di schema tra suite di rapporti utilizzando Adobe Experience Platform [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) funzionalità. Lo scopo è garantire che le variabili di Adobe Analytics come prop ed eVar abbiano un significato coerente nel Customer Journey Analytics.
 
 ## Le differenze di schema tra le suite di rapporti sono problematiche
 
-Supponiamo che la tua azienda voglia inserire in AEP i dati provenienti da due suite di rapporti diverse per l’utilizzo da parte di CJA e che gli schemi delle due suite di rapporti presentino delle differenze:
+Supponiamo che la tua azienda desideri inserire in Adobe Experience Platform i dati provenienti da due suite di rapporti diverse per l’utilizzo per Customer Journey Analytics e che gli schemi delle due suite di rapporti presentino delle differenze:
 
 | Suite di rapporti A | Suite di rapporti B |
 | --- | --- |
@@ -28,14 +28,14 @@ Per semplicità, supponiamo che queste siano le uniche eVar definite per entramb
 
 Supponiamo inoltre di eseguire le seguenti azioni:
 
-- Creare una connessione di origine di Analytics (senza l’utilizzo della preparazione dati) che acquisisce la **Suite di rapporti A** nel data lake di AEP come **Set di dati A**
-- Creare una connessione di origine di Analytics (senza l’utilizzo della preparazione dati) che acquisisce la **Suite di rapporti B** nel data lake di AEP come **Set di dati B**
-- Creare una [connessione CJA](/help/connections/create-connection.md) denominata **Tutte le suite di rapporti** che combina il set di dati A e il set di dati B
-- Creare una [visualizzazione dati di CJA](/help/data-views/create-dataview.md) denominata **Visualizzazione globale** in base alla connessione Tutte le suite di rapporti
+- Creare una connessione di origine di Analytics (senza l’utilizzo della preparazione dati) che acquisisce **Suite di rapporti A** nel data lake di Adobe Experience Platform come **Set di dati A**.
+- Creare una connessione di origine di Analytics (senza l’utilizzo della preparazione dati) che acquisisce **Suite di rapporti B** nel data lake di Adobe Experience Platform come **Set di dati B**.
+- Creare un [Connessione Customer Journey Analytics](/help/connections/create-connection.md) ha chiamato **Tutte le suite di rapporti** che combina il Set di dati A e il Set di dati B.
+- Creare un [Visualizzazione dati Customer Journey Analytics](/help/data-views/create-dataview.md) ha chiamato **Vista globale** basato sulla connessione Tutte le suite di rapporti.
 
 Senza l’utilizzo della preparazione dati per risolvere le differenze di schema tra il Set di dati A e il Set di dati B, le eVar nella visualizzazione dati denominata Visualizzazione globale conterranno una combinazione di valori:
 
-| Visualizzazione globale in CJA |
+| Visualizzazione globale nel Customer Journey Analytics |
 | --- |
 | eVar1 => una combinazione di termini di ricerca e business unit |
 | eVar2 => una combinazione di categorie di clienti e termini di ricerca |
@@ -46,11 +46,11 @@ Questa situazione comporta rapporti privi di significato per eVar1 e eVar2:
 - I termini di ricerca sono distribuiti tra eVar1 e eVar2.
 - Non è possibile utilizzare modelli di attribuzione diversi per ciascun termine di ricerca, business unit e categoria di clienti.
 
-## Utilizzare la preparazione dati di AEP per risolvere le differenze di schema tra le suite di rapporti
+## Utilizzare la preparazione dati di Adobe Experience Platform per risolvere le differenze di schema tra le suite di rapporti
 
-La funzionalità di Preparazione dati di Experience Platform è integrata con il connettore di origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Ciò comporta delle eVar con significati coerenti nella visualizzazione dati di CJA. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle esigenze.
+La funzionalità di Preparazione dati di Experience Platform è integrata con il connettore di origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Questo determina eVar con significati coerenti nella visualizzazione dati del Customer Journey Analytics. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle esigenze.
 
-1. Prima di creare i flussi di dati della connessione di origine per la Suite di rapporti A e la Suite di rapporti B, [crea un nuovo schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it) in AEP (lo chiameremo **Schema unificato** nel nostro esempio). Aggiungi quanto segue allo schema:
+1. Prima di creare i flussi di dati della connessione di origine per le suite di rapporti A e B, [Crea un nuovo schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it) in Adobe Experience Platform (lo chiameremo **Schema unificato** nel nostro esempio.) Aggiungi quanto segue allo schema:
 
    | “Schema unificato” |
    | --- |
@@ -83,11 +83,11 @@ La funzionalità di Preparazione dati di Experience Platform è integrata con il
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
 
-1. Ora crea una connessione **Tutte le suite di rapporti** per CJA, che combina il Set di dati A e il Set di dati B.
+1. Ora crea un’ **Tutte le suite di rapporti** per il Customer Journey Analytics, combinando il Set di dati A e il Set di dati B.
 
-1. Crea una visualizzazione dati denominata **Visualizzazione globale** in CJA. Ignora i campi eVar originali e includi solo i campi del gruppo Campi unificati.
+1. Creare un **Vista globale** visualizzazione dati nel Customer Journey Analytics. Ignora i campi eVar originali e includi solo i campi del gruppo Campi unificati.
 
-   **Visualizzazione globale** in CJA:
+   **Vista globale** visualizzazione dati nel Customer Journey Analytics:
 
    | Campo di origine | Includere nella visualizzazione dati? |
    | --- | --- | 
@@ -117,7 +117,7 @@ Le funzionalità della preparazione dati per la combinazione di set di dati con 
 
 Utilizzando la preparazione dati, puoi combinare la categoria di clienti in eVar 1 nei dati di Analytics con la categoria di clienti in Some_field nei dati del call center. Di seguito è riportato un modo in cui potresti farlo. Anche in questo caso, la convenzione di denominazione può essere modificata in base alle tue esigenze.
 
-1. Crea uno schema in AEP. Aggiungi quanto segue allo schema:
+1. Crea uno schema in Adobe Experience Platform. Aggiungi quanto segue allo schema:
 
    | “Schema esteso” |
    | --- | 
@@ -142,11 +142,11 @@ Utilizzando la preparazione dati, puoi combinare la categoria di clienti in eVar
    | --- | --- |
    | _\&lt;path>_.Some_field | _\&lt;path>_.Customer_category |
 
-1. Crea una connessione CJA che combina il Set di dati A e il Set di dati B.
+1. Creare una connessione di Customer Journey Analytics che combina il Set di dati A e il Set di dati B.
 
-1. Crea una visualizzazione dati in CJA, utilizzando la connessione CJA appena creata. Ignora i campi eVar originali e includi solo i campi del gruppo Informazioni cliente.
+1. Creare una visualizzazione dati in Customer Journey Analytics utilizzando la connessione di Customer Journey Analytics appena creata. Ignora i campi eVar originali e includi solo i campi del gruppo Informazioni cliente.
 
-   Visualizzazione dati in CJA:
+   Visualizzazione dati nel Customer Journey Analytics:
 
    | Campo di origine | Includere nella visualizzazione dati? |
    |---|---|
@@ -156,6 +156,6 @@ Utilizzando la preparazione dati, puoi combinare la categoria di clienti in eVar
 
 ## Preparazione dati e ID componente
 
-Come descritto in precedenza, la preparazione dati ti consente di mappare diversi campi tra loro in più suite di rapporti di Adobe Analytics. Questa funzione è utile in CJA quando desideri combinare dati provenienti da più set di dati in un’unica connessione CJA. Tuttavia, se desideri mantenere le suite di rapporti in connessioni CJA separate, ma desideri utilizzare un singolo set di rapporti su tali connessioni e visualizzazioni dati, la modifica dell’ID componente sottostante in CJA consente di rendere i rapporti compatibili anche se gli schemi sono diversi. Consulta [Component Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=it) (Impostazioni dei componenti) per ulteriori informazioni.
+Come descritto in precedenza, la preparazione dati ti consente di mappare diversi campi tra loro in più suite di rapporti di Adobe Analytics. Questa funzione è utile in Customer Journey Analytics quando desideri combinare dati provenienti da più set di dati in una singola connessione di Customer Journey Analytics. Tuttavia, se desideri mantenere le suite di rapporti in connessioni di Customer Journey Analytics separate, ma desideri utilizzare un set di rapporti su tali connessioni e visualizzazioni dati, la modifica dell’ID componente sottostante nel Customer Journey Analytics consente di rendere i rapporti compatibili anche se gli schemi sono diversi. Consulta [Component Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=it) (Impostazioni dei componenti) per ulteriori informazioni.
 
-La modifica dell’ID componente è una funzione esclusiva di CJA e non influisce sui dati provenienti dal connettore di origine di Analytics che vengono inviati a Real-time Customer Profile e RTCDP.
+La modifica dell’ID componente è una funzione esclusiva del Customer Journey Analytics e non influisce sui dati provenienti dal connettore di origine di Analytics che vengono inviati a Real-time Customer Profile e RTCDP.

@@ -4,9 +4,9 @@ title: Aggiungere descrizioni dei componenti
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 767d112d13b7312aa8685cc132916f2e27896422
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Il video seguente descrive come aggiungere descrizioni di dimensioni e metriche 
 
 ## Aggiungere descrizioni ai componenti in Analysis Workspace (utilizzando il dizionario dati) {#add-descriptions}
 
-Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel loro ambiente CJA e a comprenderli meglio. Ciò include la possibilità per gli amministratori di CJA di aggiungere descrizioni dei componenti direttamente all’interno di Analysis Workspace.
+Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel loro ambiente di Customer Journey Analytics e a comprenderli meglio. Ciò include la possibilità per gli amministratori di Customer Journey Analytics di aggiungere descrizioni dei componenti direttamente in Analysis Workspace.
 
 Per informazioni sull’aggiunta di una descrizione del componente nel dizionario dati, consulta [Modificare le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 

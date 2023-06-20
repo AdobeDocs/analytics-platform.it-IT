@@ -2,10 +2,10 @@
 title: Gestire i tipi di pubblico creati in Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
-workflow-type: ht
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
@@ -16,8 +16,8 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 * **pianificare o annullare la pianificazione** dell’aggiornamento automatico del pubblico (la scadenza massima della pianificazione è di un anno);
 * **Rinnovare una pianificazione di aggiornamento del pubblico** quando sta per scadere. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza della pianificazione.
 * Visualizzare l’**intervallo di aggiornamento** e l’**ultimo aggiornamento di un pubblico**
-* ottenere informazioni sul **tempo necessario per produrre un pubblico** da Customer Journey Analytics (CJA) e il tempo necessario per far apparire il pubblico in Real-time Customer Profile a scopo di attivazione;
-* scoprire se i tipi di pubblico in CJA sono **utilizzati attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione di Experience Platform che utilizzi i tipi di pubblico creati da CJA.
+* Ottieni informazioni approfondite su **tempo necessario per produrre un pubblico** dal Customer Journey Analytics e il tempo necessario per far apparire il pubblico in Real-time Customer Profile a scopo di attivazione.
+* Verifica se i tipi di pubblico nel Customer Journey Analytics sono **viene utilizzato attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione Experience Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
 
 ## Interfaccia utente di gestione
 
@@ -36,4 +36,4 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 | [!UICONTROL  Last refreshed] | L’ultima volta che il pubblico è stato aggiornato. |
 | [!UICONTROL Last modified] | L’ultima volta che il pubblico è stato modificato. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

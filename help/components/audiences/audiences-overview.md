@@ -1,35 +1,35 @@
 ---
-title: Panoramica sulla pubblicazione di tipi di pubblico di CJA
+title: Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey Analytics
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 7b86650cd3475a203d597baeec2ec2152e082b10
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 83%
+source-wordcount: '511'
+ht-degree: 54%
 
 ---
 
-# Panoramica sulla pubblicazione di tipi di pubblico di CJA
+# Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey Analytics
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics (CJA) in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCDP) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCDP) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
-La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di CJA. Tali azioni possono includere:
+La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti nel Customer Journey Analytics. Tali azioni possono includere:
 
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
 * Esportazione del pubblico a terzi tramite una destinazione di Experience Platform.
-* Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi in CJA.
+* Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi nel Customer Journey Analytics.
 * Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
-I tipi di pubblico creati in CJA non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experience Platform senza abilitare set di dati e schemi associati per il profilo. Quindi, utilizza questi set di dati per scoprire i tipi di pubblico rilevanti in CJA e pubblicare tali tipi di pubblico in RTCDP, in Experience Platform, a scopo di attivazione.
+I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experience Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicare tali tipi di pubblico in RTCDP, in Experience Platform, a scopo di attivazione.
 
 ## Terminologia chiave
 
-**Pubblico**: un insieme o un elenco di identità con uno spazio dei nomi e un ID specifico correlati a tale spazio dei nomi. I tipi di pubblico sono trasportabili da Adobe Experience Platform e dalle applicazioni che lo compongono (come CJA). I tipi di pubblico possono contenere spazi dei nomi misti.
+**Pubblico**: un insieme o un elenco di identità con uno spazio dei nomi e un ID specifico correlati a tale spazio dei nomi. I tipi di pubblico sono trasportabili dal Adobe Experience Platform e dalle applicazioni che lo compongono (come il Customer Journey Analytics). I tipi di pubblico possono contenere spazi dei nomi misti.
 
-**Filtro**: un insieme di regole che, se valutate in un insieme di dati per un periodo di tempo, produce un sottoinsieme di dati. Un filtro può essere utilizzato nel processo di creazione di un pubblico quando è associato ad altri servizi di supporto. I filtri sono definiti e mantenuti in CJA.
+**Filtro**: un insieme di regole che, se valutate in un insieme di dati per un periodo di tempo, produce un sottoinsieme di dati. Un filtro può essere utilizzato nel processo di creazione di un pubblico quando è associato ad altri servizi di supporto. I filtri sono definiti e mantenuti nel Customer Journey Analytics.
 
-**Filtri** e **Segmenti**: CJA non utilizza il concetto “di segmenti”, ma utilizza i “filtri”. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di CJA è il processo tramite il quale utilizziamo un filtro di CJA per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
+**Filtri** rispetto a **Segmenti**: il Customer Journey Analytics non utilizza il concetto di &quot;segmenti&quot;, utilizza invece i &quot;filtri&quot;. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di Customer Journey Analytics è il processo mediante il quale utilizziamo un filtro di Customer Journey Analytics per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
 
 ## Autorizzazioni
 
@@ -41,7 +41,7 @@ I tipi di pubblico creati in CJA non devono necessariamente essere basati su set
 
 ## Governance dei dati e consenso
 
-Quando pubblichi un pubblico in CJA, vengono registrate le etichette e i criteri di governance dei dati allegati ai campi utilizzati nel pubblico.  Quando il pubblico viene attivato in una qualsiasi app di Adobe Experience, tutte le etichette e i criteri di governance dei dati associati sono disponibili per quel pubblico e possono essere applicati gli opportuni provvedimenti di implementazione. [Ulteriori informazioni sul consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy).
+Quando pubblichi un pubblico in un Customer Journey Analytics, vengono registrate le etichette e i criteri di governance dei dati allegati ai campi utilizzati nel pubblico.  Quando il pubblico viene attivato in una qualsiasi app di Adobe Experience, tutte le etichette e i criteri di governance dei dati associati sono disponibili per quel pubblico e possono essere applicati gli opportuni provvedimenti di implementazione. [Ulteriori informazioni sul consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy).
 
 ## Passaggi successivi
 

@@ -3,20 +3,20 @@ title: Elemento dimensionale long tail
 description: Spiega l’elemento dimensionale “Long Tail” e il motivo per cui viene visualizzato nel reporting.
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 31%
+source-wordcount: '553'
+ht-degree: 26%
 
 ---
 
 # Elemento dimensione coda lunga
 
-Quando utilizzi una dimensione che contiene un numero elevato di valori univoci, a volte viene visualizzato un avviso che indica **[!UICONTROL Results Truncated]**.  Ciò significa che l’architettura di reporting utilizzata da CJA conteneva troppi valori univoci affinché possa essere elaborata in modo efficiente. Di conseguenza. ha rimosso gli elementi ritenuti meno importanti.
+Quando utilizzi una dimensione che contiene un numero elevato di valori univoci, a volte viene visualizzato un avviso che indica **[!UICONTROL Results Truncated]**.  Ciò significa che il Customer Journey Analytics dell’architettura di reporting utilizza troppi valori univoci affinché possa essere elaborato in modo efficiente. Di conseguenza. ha rimosso gli elementi ritenuti meno importanti.
 
-## Architettura di elaborazione CJA e valori univoci
+## Architettura di elaborazione del Customer Journey Analytics e valori univoci
 
-CJA elabora i rapporti al momento dell’esecuzione, distribuendo il set di dati combinato a diversi server. I dati per server di elaborazione sono raggruppati per ID persona, il che significa che un singolo server di elaborazione contiene tutti i dati per una determinata persona. Al termine dell’elaborazione, il server consegna il sottoinsieme di dati elaborati a un server aggregatore. Tutti i sottoinsiemi di dati elaborati vengono combinati e restituiti sotto forma di un rapporto Workspace.
+Il Customer Journey Analytics elabora i rapporti al momento dell’esecuzione, distribuendo il set di dati combinato a diversi server. I dati per server di elaborazione sono raggruppati per ID persona, il che significa che un singolo server di elaborazione contiene tutti i dati per una determinata persona. Al termine dell’elaborazione, il server consegna il sottoinsieme di dati elaborati a un server aggregatore. Tutti i sottoinsiemi di dati elaborati vengono combinati e restituiti sotto forma di un rapporto Workspace.
 
 Se un singolo server aggrega un set di risultati che supera una soglia di dimensione, i risultati verranno troncati prima di essere inviati nuovamente. In questo modo il traffico di rete e l’aggregazione vengono mantenuti entro limiti che consentono di creare rapporti rapidi.  Poiché i risultati vengono troncati solo con la visualizzazione dei propri dati, è possibile (anche se improbabile) che gli elementi visualizzati in Analysis Workspace presentino valori di metrica errati.
 
@@ -26,7 +26,7 @@ Il server sceglie gli elementi da eliminare in base alla metrica utilizzata per 
 
 Nelle versioni precedenti di Adobe Analytics veniva utilizzata un’architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi di Dimension venivano inseriti in “Low-Traffic” dopo che una dimensione raggiungeva 500.000 valori univoci e applicavano un filtro più aggressivo ai valori univoci di 1M. Il conteggio &quot;Valore univoco&quot; è stato reimpostato all’inizio di ogni mese di calendario. I dati trattati erano permanenti, non c’era modo di estrarre i dati esistenti da “Low-Traffic”.
 
-In CJA, gli elementi dimensionali vengono troncati solo se i risultati di un rapporto sono troppo grandi. I dati elaborati non sono permanenti, il che significa che puoi ridurre o eliminare il troncamento modificando il rapporto.
+In Customer Journey Analytics, gli elementi dimensionali vengono troncati solo se i risultati di un rapporto sono troppo grandi. I dati elaborati non sono permanenti, il che significa che puoi ridurre o eliminare il troncamento modificando il rapporto.
 
 ## Ridurre l’elemento dimensionale “Long Tail”
 

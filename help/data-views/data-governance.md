@@ -1,36 +1,36 @@
 ---
 title: Etichette e criteri
-description: Scopri in che modo le etichette per dati e i criteri definiti in AEP influiscono sulle visualizzazioni dati e sul reporting in CJA.
+description: Scopri in che modo le etichette dati e i criteri definiti in Adobe Experience Platform influiscono sulle visualizzazioni dati e sul reporting in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: ba4b1e61891c21610e3bd84a41581b1f6cea6234
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 79%
+source-wordcount: '446'
+ht-degree: 58%
 
 ---
 
 # Etichette e criteri
 
-Quando crei un set di dati in Experience Platform, puoi creare [etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it) per alcuni o tutti gli elementi del set di dati. Puoi visualizzare queste etichette e criteri in CJA.
+Quando crei un set di dati in Experience Platform, puoi creare [etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it) per alcuni o tutti gli elementi del set di dati. Puoi visualizzare queste etichette e criteri in Customer Journey Analytics.
 
-Le seguenti etichette sono di particolare interesse per CJA:
+Le seguenti etichette sono di particolare interesse per il Customer Journey Analytics:
 
-* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per le analisi sui siti web o sulle app dell’organizzazione.
+* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per l’analisi sui siti web o sulle app della tua organizzazione.
 
-* L&#39; `C12` etichetta **[!UICONTROL No General Data Export]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da CJA (tramite reporting, esportazione, API, ecc.)
+* L&#39; `C12` etichetta **[!UICONTROL No General Data Export]**. I campi dello schema con questa etichetta non possono essere esportati o scaricati dal Customer Journey Analytics (tramite reporting, esportazione, API, ecc.)
 
 >[!NOTE]
 >
->Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunti manualmente.
+>Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunte manualmente.
 
-L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Ecco per cosa vengono usate le politiche. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
+L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Crea i tuoi criteri tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
 
-In CJA vengono visualizzati due criteri definiti in Adobe e influiscono sul reporting e sul download/condivisione:
+Nel Customer Journey Analytics vengono visualizzati due criteri definiti dall’Adobe che influiscono sul reporting e sul download/condivisione:
 
 * **[!UICONTROL Enforce Analytics]** policy
 * **[!UICONTROL Enforce Download]** policy
 
-## Visualizzare le etichette dati nelle visualizzazioni dati di CJA
+## Visualizzare le etichette dati nelle visualizzazioni dati del Customer Journey Analytics
 
 Le etichette dati create in Experience Platform vengono visualizzate in tre posizioni nell’interfaccia utente della visualizzazione dati:
 
@@ -44,7 +44,7 @@ Le etichette dati create in Experience Platform vengono visualizzate in tre posi
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
-Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella barra a sinistra e filtra i componenti delle visualizzazioni dati per **[!UICONTROL Data Governance]** e il tipo di **[!UICONTROL Label]**:
+Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Data Governance]** e tipo di **[!UICONTROL Label]**:
 
 ![](assets/filter-labels.png)
 
@@ -52,7 +52,7 @@ Fai clic su **[!UICONTROL Apply]** per vedere quali componenti dispongono di eti
 
 ## Filtrare i criteri di governance dei dati nelle visualizzazioni dati
 
-Puoi verificare se è attivato un criterio che blocca l’utilizzo di alcuni elementi di visualizzazione dati CJA per scopi di analisi o esportazione.
+Puoi verificare se è attivato un criterio che blocca l’utilizzo di alcuni elementi di visualizzazione dati di Customer Journey Analytics a scopo di analisi o esportazione.
 
 Di nuovo, fai clic su [!UICONTROL filter] nella barra a sinistra e sotto **[!UICONTROL Data Governance]**, fai clic su **[!UICONTROL Policies]**:
 

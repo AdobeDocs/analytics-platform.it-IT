@@ -1,23 +1,23 @@
 ---
 title: Set di dati evento combinati
-description: Scopri come CJA crea una connessione combinando set di dati.
+description: Scopri come il Customer Journey Analytics crea una connessione combinando set di dati.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '344'
+ht-degree: 72%
 
 ---
 
 
 # Set di dati evento combinati
 
-Quando crei una connessione, Customer Journey Analytics (CJA) combina tutti gli schemi e i set di dati in un unico set di dati. Questo “set di dati combinato” è ciò che CJA utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
+Quando crei una connessione, Customer Journey Analytics combina tutti gli schemi e i set di dati in un unico set di dati. Questo &quot;set di dati evento combinato&quot; è ciò che il Customer Journey Analytics utilizza per il reporting. Quando includi più schemi o set di dati in una connessione:
 
 * Gli schemi vengono combinati. I campi degli schemi duplicati vengono uniti.
-* La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare le persone univoche in CJA.
+* La colonna “ID persona” di ciascun set di dati viene unita in una singola colonna, indipendentemente dal suo nome. Questa colonna è la base per identificare le persone univoche nel Customer Journey Analytics.
 * Le righe vengono elaborate in base alla marca temporale.
 * Gli eventi vengono risolti a livello di millisecondi.
 
@@ -31,34 +31,34 @@ Prendi in considerazione l’esempio seguente. Ci sono due set di dati evento, c
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  | `3` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` |  |  | `2` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
+| `user_310` | `1 Jan 7:04 AM` | | | `2` |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
+| `user_847` | `2 Jan 12:44 PM` | | | `2` |
 
 | `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
 | --- | --- | --- | --- | --- |
 | `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
 Quando crei una connessione utilizzando questi due set di dati evento, per il reporting viene utilizzata la seguente tabella.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |  |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  |  | `2` |  |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  |  | `3` |  |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` |  | `Circle` |  | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` |  | `4` |  |
-| `user_847` | `2 Jan 12:44 PM` |  |  |  | `2` |  |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |  |  |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
+| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
+| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
+| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
+| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; CJA tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
+Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga; il Customer Journey Analytics tratta tutti i dati come se fossero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
 
 Questo concetto si applica anche all’attribuzione. Non importa da quale insieme di dati provenga una riga; l’attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo set di dati. Utilizzo delle tabelle precedenti in un esempio:
 

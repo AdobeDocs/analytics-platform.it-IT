@@ -4,10 +4,10 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 79%
+source-wordcount: '640'
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!
 | **Fai clic con il pulsante destro del mouse su un punto in un grafico [!UICONTROL Line].** | Viene aperto [!UICONTROL Annotation builder]. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderle disponibili in tutti i progetti. Inoltre, le date, le metriche e così via sono già state compilate.<p>![](assets/annotate-line.png) |
 | **In Workspace, vai a [!UICONTROL Components] > [!UICONTROL Create annotation].** | Viene aperto [!UICONTROL Annotation builder]. |
 | **Usa questa scelta rapida da tastiera** per aprire il generatore di annotazioni: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tieni presente che, se utilizzi la scelta rapida da tastiera, puoi creare un’annotazione per un singolo giorno alla data corrente, e non viene preselezionato alcun ambito (metriche o dimensioni). |
-| **Utilizzare le [API per annotazioni CJA](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Le API per annotazioni CJA consentono di creare, aggiornare o recuperare le annotazioni a livello di programmazione tramite Adobe Developer. Queste API utilizzano gli stessi dati e metodi utilizzati da Adobe nell’interfaccia utente del prodotto. |
+| **Utilizza il [API per annotazioni Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Le API Customer Journey Analytics Annotations consentono di creare, aggiornare o recuperare le annotazioni a livello di programmazione tramite Adobe Developer. Queste API utilizzano gli stessi dati e metodi utilizzati da Adobe nell’interfaccia utente del prodotto. |
 
 1. Compila gli elementi di [!UICONTROL Annotation builder].
 

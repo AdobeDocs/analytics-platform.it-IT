@@ -4,9 +4,9 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a3fea05ac95407c7f3bee723a267ae0bc03d334a
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 34%
 
 ---
@@ -51,7 +51,7 @@ Per visualizzare una valuta per una metrica:
 
 Per abilitare la conversione di una valuta per una metrica:
 
-- Imposta la connessione CJA in modo che contenga almeno un set di dati evento che contiene una dimensione del codice valuta per ogni evento contenente una metrica valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Ad esempio USD per $, EUR per €, GBP per £.
+- Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Ad esempio USD per $, EUR per €, GBP per £.
 
 - Hai (facoltativamente) applicato la [!UICONTROL Currency Code] etichetta di contesto per una o più dimensioni che definiscono i codici valuta disponibili nel set di dati.
 

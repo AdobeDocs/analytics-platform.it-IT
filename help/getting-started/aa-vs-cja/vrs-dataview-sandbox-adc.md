@@ -1,21 +1,21 @@
 ---
-title: Suite di rapporti virtuali, visualizzazioni dati, sandbox di AEP e il connettore di origine di Analytics
+title: Suite di rapporti virtuali, visualizzazioni dati, sandbox di Adobe Experience Platform e il connettore di origine di Analytics
 description: Scopri gli ambienti di reporting virtuali e gli ambienti sandbox.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
-source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 62%
 
 ---
 
-# Suite di rapporti virtuali, visualizzazioni dati, sandbox di AEP e il connettore di origine di Analytics
+# Suite di rapporti virtuali, visualizzazioni dati, sandbox di Adobe Experience Platform e il connettore di origine di Analytics
 
 Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti sandbox. È utile comprendere le somiglianze e le differenze tra le seguenti funzioni e il modo in cui queste si relazionano al [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it):
 
 * Suite di rapporti virtuali di Adobe Analytics
-* Visualizzazioni dati di CJA
-* Sandbox di AEP
+* Visualizzazioni dati Customer Journey Analytics
+* Sandbox Adobe Experience Platform
 
 ## Suite di rapporti virtuali di Adobe Analytics (VRS)
 
@@ -37,46 +37,46 @@ Una suite di rapporti virtuale non è:
 
 * un mezzo per combinare le suite di rapporti;
 * disponibile in Adobe Analytics Data Warehouse;
-* è disponibile come origine per i flussi di dati in AEP tramite il connettore di origine di Analytics; solo le suite di rapporti complete (non virtuali) sono disponibili per l’uso con il connettore di origine di Analytics.
+* Disponibile come origine per i flussi di dati in Adobe Experience Platform tramite il connettore di origine di Analytics. solo le suite di rapporti complete (non virtuali) sono disponibili per l’uso con il connettore di origine di Analytics.
 
 
-## Visualizzazioni dati di CJA
+## Visualizzazioni dati Customer Journey Analytics
 
 Per ulteriori informazioni, consulta [Panoramica delle visualizzazioni dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it).
 
 Una visualizzazione dati:
 
-* può essere basata sui filtri di CJA;
+* Può essere basato su filtri di Customer Journey Analytics.
 * può essere applicata sia ai dati storici che a quelli nuovi in modo non distruttivo;
-* consente di creare una o più visualizzazioni virtuali sopra una connessione CJA, per l’utilizzo da parte di diversi team aziendali;
-* può essere utilizzata per curare diversi tipi di dati per diversi utenti in CJA e per controllarne l’accesso;
-* fornisce potenti opzioni non distruttive per trasformare e migliorare i dati in entrata in CJA tramite una connessione CJA;
-* si basa sulle funzionalità di elaborazione al momento del reporting di CJA;
+* Consente di creare una o più visualizzazioni virtuali sopra una connessione di Customer Journey Analytics, per l&#39;utilizzo da parte di diversi team aziendali.
+* Può essere utilizzato per controllare l’accesso a e curare diversi tipi di dati per diversi utenti nel Customer Journey Analytics.
+* Fornisce potenti opzioni non distruttive per trasformare e migliorare i dati che entrano nel Customer Journey Analytics tramite una connessione di Customer Journey Analytics.
+* Si basa sulle funzionalità di elaborazione al momento del reporting del Customer Journey Analytics.
 * consente agli utenti di creare una definizione personalizzata di “sessione”;
-* viene applicata in fase di esecuzione del report, in modo simile a una valutazione del filtro, ovvero _dopo_ che il connettore di origine (Adobe Analytics o altro) ha scritto dei dati in un set di dati nel data lake di AEP e _dopo_ che i dati sono stati acquisiti in CJA tramite una connessione CJA;
+* viene applicata in fase di esecuzione del report, in modo simile a una valutazione del filtro, Questo è _dopo_ il connettore di origine (Adobe Analytics o altro) ha scritto dati in un set di dati nel data lake di Adobe Experience Platform, e _dopo_ i dati sono stati acquisiti nel Customer Journey Analytics tramite una connessione di Customer Journey Analytics.
 * consente un numero illimitato di variabili, anche se la cura può limitare quali variabili sono presentate agli utenti;
 * consente la denominazione personalizzata dei contenitori Evento, Sessione e Persona;
 * supporta le opzioni di calendario personalizzato.
 
 Una visualizzazione dati non:
 
-* fornisce direttamente un mezzo per combinare suite di rapporti o altri set di dati. Al contrario, i set di dati vengono combinati in una connessione CJA. I dati combinati della connessione CJA sono disponibili per l’utilizzo in tutte le visualizzazioni dati basate su tale connessione.
+* fornisce direttamente un mezzo per combinare suite di rapporti o altri set di dati. Al contrario, i set di dati vengono combinati con in una connessione di Customer Journey Analytics. I dati combinati della connessione di Customer Journey Analytics sono disponibili per l’utilizzo in tutte le visualizzazioni dati basate su tale connessione.
 
-## Sandbox di AEP
+## Sandbox Adobe Experience Platform
 
 Per ulteriori informazioni, consulta [Sandboxes overview](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) (Panoramica delle sandbox).
 
-Una sandbox di AEP:
+Una sandbox di Adobe Experience Platform:
 
-* fornisce un mezzo per suddividere una singola istanza AEP in ambienti virtuali separati (sviluppo, test, fase, produzione, ecc.), utili per lo sviluppo e l’aggiornamento delle applicazioni di esperienza digitale;
+* Fornisce un mezzo per suddividere una singola istanza Adobe Experience Platform in ambienti virtuali separati (sviluppo, test, fase, produzione, ecc.) utili per lo sviluppo e l’aggiornamento delle applicazioni di esperienza digitale;
 * può essere considerata un contenitore che racchiude tutti i dati e le applicazioni di un determinato ambiente.
 
-Una sandbox di AEP di non:
+Una sandbox di Adobe Experience Platform non:
 
-* fornisce funzioni simili alle suite di rapporti virtuali, alle connessioni CJA o alle visualizzazioni dati;
-* combina autonomamente suite di rapporti con o senza altri set di dati. Tuttavia, i set di dati all’interno di una sandbox possono essere combinati all’interno di una connessione CJA.
+* Fornisci funzioni simili alle suite di rapporti virtuali, alle connessioni di Customer Journey Analytics o alle visualizzazioni dati.
+* combina autonomamente suite di rapporti con o senza altri set di dati. Tuttavia, i set di dati all’interno di una sandbox possono essere combinati in una connessione di Customer Journey Analytics.
 
 Tieni presente quanto segue:
 
-* Non è possibile combinare i dati di sandbox diverse all’interno di CJA.
+* I dati di sandbox diverse non possono essere combinati all’interno di un Customer Journey Analytics.
 * Il connettore di origine di Analytics invia i dati della suite di rapporti _in_ una sandbox specifica. Ogni suite di rapporti può essere configurata come origine per una singola sandbox. Consulta la [documentazione relativa al connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per ulteriori dettagli.

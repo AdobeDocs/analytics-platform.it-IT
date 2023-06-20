@@ -1,51 +1,51 @@
 ---
-title: Come configurare le impostazioni per il Report Builder in CJA
-description: Descrive come impostare la modalità offline, la lingua, la data e le impostazioni di risoluzione dei problemi.
+title: Come configurare le impostazioni per il Report Builder nel Customer Journey Analytics
+description: Descrive come impostare la modalità offline, la lingua, la data di fine e le impostazioni per la risoluzione dei problemi.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
 # Impostazioni Report Builder
 
-Utilizza la **Impostazioni** per configurare le impostazioni a livello di applicazione, ad esempio la lingua visualizzata dall’interfaccia utente o se utilizzare o meno la modalità offline. Le impostazioni vengono applicate immediatamente e vengono impostate per tutte le sessioni future fino a quando non vengono modificate.
+Utilizza il **Impostazioni** per configurare le impostazioni a livello di applicazione, ad esempio la lingua visualizzata dall&#39;interfaccia utente o se utilizzare o meno la modalità non in linea. Le impostazioni vengono applicate immediatamente e vengono impostate per tutte le sessioni future fino a quando non vengono modificate.
 
 Per modificare le impostazioni del Report Builder
 
-1. Fai clic sul pulsante **Impostazioni** icona.
+1. Fai clic su **Impostazioni** icona.
 
-1. Apportare modifiche alla modalità off-line, selezionare una lingua o abilitare le impostazioni del registro per la risoluzione dei problemi.
+1. Apportare le modifiche necessarie per attivare la modalità offline, selezionare una lingua o attivare le impostazioni del registro di risoluzione dei problemi.
 
 1. Fai clic su **Applica**.
 
    ![](./assets/image38.png)
 
-## Modalità off-line
+## Modalità offline
 
-Durante la creazione e la modifica di un blocco di dati in modalità offline, i dati non vengono recuperati. Al contrario, i dati di simulazione vengono utilizzati per creare e modificare rapidamente un blocco di dati senza attendere l’esecuzione della richiesta. Quando sei di nuovo online, la *Aggiorna blocco dati* comando o *Aggiorna tutti i blocchi di dati* aggiorna i blocchi di dati creati con i dati effettivi.
+Durante la creazione e la modifica di un blocco di dati in modalità offline, i dati non vengono recuperati. Al contrario, i dati di simulazione vengono utilizzati in modo da poter creare e modificare rapidamente un blocco di dati senza attendere l’esecuzione della richiesta. Quando si torna online, il *Aggiorna blocco di dati* comando o *Aggiorna tutti i blocchi di dati* Il comando aggiorna i blocchi di dati creati con i dati effettivi.
 
 Per attivare la modalità offline
 
-1. Fai clic sul pulsante **Impostazioni** icona.
+1. Fai clic su **Impostazioni** icona.
 
-1. Seleziona **Attiva modalità offline**.
+1. Seleziona **Abilita modalità offline**.
 
-1. Immettere un numero intero positivo nel campo **Visualizza i dati delle metriche come** campo .
+1. Inserisci un numero intero positivo nel campo **Visualizza dati metrica come** campo.
 
 1. Fai clic su **Applica**.
 
 ## Lingua
 
-È possibile scegliere la lingua per l’interfaccia utente del Report Builder. Sono disponibili tutte le lingue Adobe Analytics supportate.
+Puoi scegliere la lingua per l’interfaccia utente del Report Builder. Sono disponibili tutte le lingue Adobe Analytics supportate.
 
-Selezione della lingua utilizzata nell’interfaccia utente del Report Builder
+Per selezionare la lingua utilizzata nell’interfaccia utente del Report Builder
 
 1. Fai clic su Impostazioni.
 
@@ -59,4 +59,4 @@ Selezione della lingua utilizzata nell’interfaccia utente del Report Builder
 
 Utilizzare l&#39;impostazione Risoluzione dei problemi per registrare tutti i dati client/server in un file locale. Utilizza questa opzione per risolvere i ticket di supporto.
 
-Per attivare l&#39;opzione Risoluzione dei problemi, selezionare **Richiesta del generatore di report al file locale**.
+Per abilitare l’opzione Risoluzione dei problemi, seleziona **Registra la richiesta di Report Builder su file locale**.

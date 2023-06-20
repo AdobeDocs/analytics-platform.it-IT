@@ -4,10 +4,10 @@ description: Mostra utili rapporti sui dati Google Analytics in Customer Journey
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '684'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ La tabella coorte consente di vedere dopo quanto tempo normalmente gli utenti ch
 
 ## Utilizzare l’attribuzione marketing avanzata
 
-CJA consente di utilizzare modelli di attribuzione sofisticati sui dati provenienti da diversi canali. L’esempio seguente propone un confronto tra l’applicazione dell’attribuzione Ultimo contatto, Primo contatto, A forma di U e Algoritmica dei ricavi alla dimensione Raggruppamenti canali di Google Analytics.
+Il Customer Journey Analytics consente di utilizzare modelli di attribuzione sofisticati sui dati cross-channel. L’esempio seguente propone un confronto tra l’applicazione dell’attribuzione Ultimo contatto, Primo contatto, A forma di U e Algoritmica dei ricavi alla dimensione Raggruppamenti canali di Google Analytics.
 
 ![Attribuzione di marketing](../assets/mktg-attribution.png)
 
@@ -63,6 +63,6 @@ Puoi anche attribuire i ricavi dal sito web e dall’app ai contenuti Google Ad.
 
 ![Google Ad](../assets/google-ad.png)
 
-La combinazione di set di dati in CJA consente di vedere in questo esempio che gli annunci online hanno avuto un impatto sui prodotti acquistati nella tua app mobile. La visualizzazione seguente mostra che i ricavi dall’app mobile generati da Google Ads rappresentano un ulteriore $ 14.000 - $ 15.000, rispetto al solo web.
+La combinazione di set di dati nel Customer Journey Analytics consente di vedere in questo esempio che gli annunci online hanno avuto un impatto sui prodotti acquistati nell’app mobile. La visualizzazione seguente mostra che i ricavi dall’app mobile generati da Google Ads rappresentano un ulteriore $ 14.000 - $ 15.000, rispetto al solo web.
 
 ![Google Ad 2](../assets/google-ad2.png)

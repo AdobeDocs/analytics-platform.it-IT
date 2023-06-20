@@ -2,9 +2,9 @@
 title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '967'
 ht-degree: 34%
 
 ---
@@ -112,7 +112,7 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ## Modello di filtro preconfigurato {#template}
 
-La versione tradizionale di Analytics include numerosi filtri modelli di filtri e metriche calcolate pronti all’uso. Molti non sono applicabili in CJA, oppure devono essere rinominati o ricreati. Altri dipendono da una soluzione per variabili in base al contesto in CJA.
+La versione tradizionale di Analytics include numerosi filtri modelli di filtri e metriche calcolate pronti all’uso. Molti non sono applicabili al Customer Journey Analytics, oppure devono essere rinominati o ricreati. Altri dipendono da una soluzione per variabili in base al contesto in Customer Journey Analytics.
 
 | Nome filtro | Descrizione |
 | --- | --- |
