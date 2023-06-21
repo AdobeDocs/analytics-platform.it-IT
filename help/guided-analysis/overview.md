@@ -1,9 +1,10 @@
 ---
 title: Panoramica dell’analisi guidata
 description: Un metodo di analisi dei dati in Customer Journey Analytics che consente ai team di prodotto di generare facilmente rapporti e informazioni.
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
+source-git-commit: e2020d9194f7885f80671214829f06245bbab328
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -17,10 +18,6 @@ L’analisi guidata è un formato di reporting che consente ai team di prodotto 
 Analogamente alle scorecard per dispositivi mobili e Analysis Workspace, un rapporto di analisi guidato utilizza dati provenienti da un [Visualizzazione dati](../data-views/data-views.md), che fa riferimento ai dati in Adobe Experience Platform tramite un [Connessione](../connections/overview.md). Tutti i rapporti creati nell’analisi guidata possono essere trasferiti facilmente ad Analysis Workspace per ulteriori ricerche.
 
 I rapporti di analisi guidata presentano attualmente tre tipi di analisi: [Funnel](analysis-types/funnel.md), [Tendenze](analysis-types/trends.md), e [Crescita degli utenti](analysis-types/user-growth.md). Ciascuno di questi tipi di analisi dispone di più tipi di visualizzazione, che forniscono informazioni aggiuntive a ciascuno di questi rapporti.
-
-## Provisioning
-
-L’analisi guidata è un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se la tua organizzazione desidera iniziare a utilizzare questa funzione, contatta il team del tuo account Adobe.
 
 ## Interfaccia
 
@@ -45,7 +42,9 @@ L&#39;analisi guidata contiene le seguenti parti dell&#39;interfaccia:
 
 {style="table-layout:auto"}
 
-## Autorizzazioni
+## Provisioning
+
+L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se la tua organizzazione desidera iniziare a utilizzare questa funzione, contatta il team del tuo account Adobe.
 
 Adobe pianifica di fornire in futuro autorizzazioni specifiche per l’analisi guidata.
 
