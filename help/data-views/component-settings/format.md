@@ -4,9 +4,9 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 5c6e7c51369b451ac0efdcead86f71e38bd3a853
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '447'
 ht-degree: 34%
 
 ---
@@ -44,10 +44,6 @@ Per visualizzare una valuta per una metrica:
 
 
 ### Conversione e visualizzazione della valuta
-
-[!BADGE Nuova funzionalità]{type=Positive}
-
-{{release-limited-testing-section}}
 
 Per abilitare la conversione di una valuta per una metrica:
 
