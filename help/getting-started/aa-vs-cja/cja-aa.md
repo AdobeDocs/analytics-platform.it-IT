@@ -4,16 +4,16 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 41%
+source-wordcount: '2047'
+ht-degree: 40%
 
 ---
 
-# Supporto delle funzioni di Customer Journey Analytics
+# Supporto delle funzioni di Adobe Customer Journey Analytics
 
-Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialmente supportate o non supportate in Customer Journey Analytics (Customer Journey Analytics) e le funzioni di Customer Journey Analytics non supportate o disponibili in Adobe Analytics. Questi elenchi cambieranno nel tempo man mano che le funzioni vengono aggiunte al Customer Journey Analytics.
+Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialmente supportate o non supportate in Customer Journey Analytics e le funzioni di Customer Journey Analytics non supportate o disponibili in Adobe Analytics. Questi elenchi cambieranno nel tempo man mano che le funzioni vengono aggiunte al Customer Journey Analytics.
 
 ## Funzionalità/componenti completamente supportati {#full-support}
 
@@ -56,6 +56,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Classificazioni | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate nell’Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine delle classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in Experience Platform e resi disponibili nel Customer Journey Analytics. |
 | Generatore regole di classificazione | Supportato tramite [sottostringhe](/help/data-views/component-settings/substring.md) nel Customer Journey Analytics. Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
 | Sessionizzazione personalizzata | Supporto per tutte le funzioni di sessionizzazione personalizzata a eccezione degli eventi di background per dispositivi mobili. |
+| Conversione valuta | Supportato come parte di [formattazione di un componente metrica](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) in una visualizzazione dati. |
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
 | Attributi cliente | Ora detti &quot;Set di dati profilo&quot;, non vengono importati automaticamente da Experience Cloud, ma devono essere caricati in Experience Platform prima di poter essere disponibili in Customer Journey Analytics. |
 | Feed dati | L’esportazione dei set di dati di prima generazione è disponibile tramite [API di accesso ai dati Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) e attraverso [Destinazioni Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Queste opzioni forniscono l’esportazione a livello di evento/riga di tutti i dati raccolti o acquisiti in Experience Platform Data Lake. Le colonne di dati post-elaborazione non sono disponibili perché le colonne post vengono calcolate in fase di query. L’esportazione delle colonne Post è disponibile tramite il reporting. |
@@ -99,7 +100,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
-| Conversione valuta | Il supporto è pianificato. |
 | Origini dati ID transazione | Il supporto è pianificato. |
 | Migrazione di progetti/filtri/metriche calcolate da Adobe Analytics al Customer Journey Analytics | Il supporto è pianificato. |
 | Origini dati a livello di riepilogo | Il supporto è pianificato. |
@@ -115,7 +115,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 {style="table-layout:auto"}
 
-## Non supportare mai {#never}
+## Mai supportato {#never}
 
 * Metrica Persone con Cross-Device Coop
 * Dashboard di Reports &amp; Analytics
