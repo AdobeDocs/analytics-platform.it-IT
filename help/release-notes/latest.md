@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente del Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
+source-git-commit: cf11fa76503e700c07de7872b5f6c8a73b1d94d1
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1374'
 ht-degree: 70%
 
 ---
@@ -56,7 +56,7 @@ AN-318343; AN-319453
 
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
-| Modifiche al modo in cui il Customer Journey Analytics elabora i dati | 22 giugno 2023 | Di recente abbiamo modificato il modo in cui i dati vengono elaborati nel Customer Journey Analytics.<p>**Precedente:**<ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in Adobe Experience Platform. (Dimensione batch > 50 milioni di righe: più di 90 minuti).</li><li>Backfill di dimensioni ridotte - Ad esempio, un set di dati di ricerca di 10 milioni di righe: entro 7 ore<li>Backfill di grandi dimensioni - Ad esempio, 500 miliardi di righe: 30 giorni</li></ul>**Nuovo metodo (a giugno 2023)**<ul><li>Viene inviato in streaming qualsiasi dato evento con una marca temporale precedente a 24 ore.</li><li>Qualsiasi dato evento con una marca temporale più vecchia di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come backfill e verrà acquisito con una priorità inferiore.</li></ul> |
+| Modifiche al modo in cui il Customer Journey Analytics elabora i dati | 22 giugno 2023 | Di recente abbiamo modificato il modo in cui i dati vengono elaborati nel Customer Journey Analytics.<ul><li>Viene inviato in streaming qualsiasi dato evento con una marca temporale precedente a 24 ore.</li><li>Qualsiasi dato evento con una marca temporale più vecchia di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come backfill e verrà acquisito con una priorità inferiore.</li></ul> |
 
 ## Avvisi sulla fine del ciclo di vita (EOL) {#eol}
 
