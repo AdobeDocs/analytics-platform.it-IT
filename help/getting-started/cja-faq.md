@@ -4,9 +4,9 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
+source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1991'
 ht-degree: 72%
 
 ---
@@ -130,15 +130,11 @@ No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è u
 >[!NOTE]
 >Non esiste una dimensione fissa dei dati nel Customer Journey Analytics e quindi Adobe non può eseguire il commit a un tempo di acquisizione standard. Stiamo lavorando attivamente per ridurre queste latenze attraverso nuovi aggiornamenti e l’ottimizzazione dell’acquisizione.
 
-+++**Qual è la latenza prevista per [!UICONTROL Customer Journey Analytics] dati su [!UICONTROL Adobe Experience Platform]?**
-
 <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in Adobe Experience Platform. (Dimensione batch &gt; 50 milioni di righe: più di 90 minuti).</li><li>Backfill di piccole dimensioni: entro 7 giorni<li>Backfill ampi: entro 30 giorni</li></ul>
 
 Abbiamo recentemente modificato il modo in cui i dati vengono elaborati nel Customer Journey Analytics:
 
 <ul><li>Viene inviato in streaming qualsiasi dato evento con una marca temporale precedente a 24 ore.</li><li>Qualsiasi dato evento con una marca temporale più vecchia di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come backfill e verrà acquisito con una priorità inferiore.</li></ul>
-
-+++
 
 ## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 
