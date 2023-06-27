@@ -4,10 +4,10 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 66e7adfbca3f20d21b4331033f70ac7d0933cd12
+source-git-commit: 585242be7ffff5b089d8452d34f7ee012a7d01f5
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 30%
+source-wordcount: '498'
+ht-degree: 29%
 
 ---
 
@@ -40,20 +40,20 @@ Per visualizzare una valuta per una metrica:
 
 1. Immetti il numero di **[!UICONTROL Decimal places]**.
 
-2. Seleziona una valuta da **[!UICONTROL Display currency in]** elenco.
+1. Seleziona una valuta da **[!UICONTROL Display currency in]** elenco.
 
 
 ### Conversione e visualizzazione della valuta
 
-Per abilitare la conversione di una valuta per una metrica:
+Per abilitare la conversione di una valuta per una o più metriche:
 
 - Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Questi valori devono essere in formato maiuscolo completo, ad esempio USD per $, EUR per €, GBP per £.
 
    1. Seleziona la dimensione da uno dei set di dati che contiene i codici valuta. Esempio: [!UICONTROL Currency code].
 
-   2. Seleziona **[!UICONTROL Currency Code]** dall’elenco delle dimensioni.
+   1. Seleziona **[!UICONTROL Currency Code]** dall’elenco delle dimensioni.
 
-  Ripeti questi passaggi nel caso in cui siano presenti più dimensioni contenenti codici valuta da utilizzare per la conversione della valuta.
+- Ripeti questi passaggi nel caso in cui siano presenti più dimensioni contenenti codici valuta da utilizzare per la conversione della valuta.
 
 >[!NOTE]
 >
@@ -64,11 +64,11 @@ Per definire come convertire e visualizzare una valuta per una metrica:
 
 1. Immetti il numero di **[!UICONTROL Decimal places]**.
 
-2. Seleziona **[!UICONTROL Convert Concurrency]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Convert Concurrency]** (Aggiungi gruppi di campi).
 
-3. Seleziona la dimensione appropriata dall’elenco di dimensioni contenente il campo codice valuta.
+1. Seleziona la dimensione appropriata dall’elenco di dimensioni contenente il campo codice valuta.
 
-4. Seleziona una valuta da **[!UICONTROL Convert and display currency in]** elenco.
+1. Seleziona una valuta da **[!UICONTROL Convert and display currency in]** elenco.
 
 ### Domande frequenti
 
@@ -76,9 +76,15 @@ Per definire come convertire e visualizzare una valuta per una metrica:
 
 Al momento della generazione del rapporto, il valore della metrica e il codice della valuta originale vengono convertiti in USD e quindi nella valuta configurata per la visualizzazione. Per questa conversione vengono utilizzati i tassi di cambio giornalieri applicabili al momento dell’evento.
 
++++
+
+
 +++ Quanto indietro nel tempo vengono mantenuti i tassi di conversione giornalieri?
 
 I tassi di conversione giornalieri vengono mantenuti per gli ultimi quattro anni?
+
++++
+
 
 +++ Cosa succede se non dispongo di un campo del codice valuta come parte dello schema di dati corrente?
 
