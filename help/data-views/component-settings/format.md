@@ -4,10 +4,10 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 5c6e7c51369b451ac0efdcead86f71e38bd3a853
+source-git-commit: 66e7adfbca3f20d21b4331033f70ac7d0933cd12
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 34%
+source-wordcount: '496'
+ht-degree: 30%
 
 ---
 
@@ -47,17 +47,11 @@ Per visualizzare una valuta per una metrica:
 
 Per abilitare la conversione di una valuta per una metrica:
 
-- Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Ad esempio USD per $, EUR per €, GBP per £.
-
-- Hai (facoltativamente) applicato la [!UICONTROL Currency Code] etichetta di contesto per una o più dimensioni che definiscono i codici valuta disponibili nel set di dati.
-
-  Per applicare [!UICONTROL Currency Code] etichetta di contesto, nella [!UICONTROL Components] della visualizzazione dati:
-
-  <!--![Currency Context Label](../assets/currency-context-label.png)-->
+- Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Questi valori devono essere in formato maiuscolo completo, ad esempio USD per $, EUR per €, GBP per £.
 
    1. Seleziona la dimensione da uno dei set di dati che contiene i codici valuta. Esempio: [!UICONTROL Currency code].
 
-   2. Seleziona **[!UICONTROL Currency Code]** dall’elenco [!UICONTROL Context labels] (Estensioni).
+   2. Seleziona **[!UICONTROL Currency Code]** dall’elenco delle dimensioni.
 
   Ripeti questi passaggi nel caso in cui siano presenti più dimensioni contenenti codici valuta da utilizzare per la conversione della valuta.
 
@@ -72,7 +66,7 @@ Per definire come convertire e visualizzare una valuta per una metrica:
 
 2. Seleziona **[!UICONTROL Convert Concurrency]** (Aggiungi gruppi di campi).
 
-3. In base all’etichetta di contesto applicata, la dimensione appropriata da **[!UICONTROL Currency code dimension]** viene selezionato automaticamente. È possibile selezionare qualsiasi altra dimensione, incluse le dimensioni a cui è stata applicata l&#39;etichetta di contesto Codice valuta.
+3. Seleziona la dimensione appropriata dall’elenco di dimensioni contenente il campo codice valuta.
 
 4. Seleziona una valuta da **[!UICONTROL Convert and display currency in]** elenco.
 
@@ -81,6 +75,14 @@ Per definire come convertire e visualizzare una valuta per una metrica:
 +++ Come viene eseguita la conversione della valuta?
 
 Al momento della generazione del rapporto, il valore della metrica e il codice della valuta originale vengono convertiti in USD e quindi nella valuta configurata per la visualizzazione. Per questa conversione vengono utilizzati i tassi di cambio giornalieri applicabili al momento dell’evento.
+
++++ Quanto indietro nel tempo vengono mantenuti i tassi di conversione giornalieri?
+
+I tassi di conversione giornalieri vengono mantenuti per gli ultimi quattro anni?
+
++++ Cosa succede se non dispongo di un campo del codice valuta come parte dello schema di dati corrente?
+
+Esistono diverse opzioni per la creazione di un nuovo campo del codice valuta, tra cui Preparazione dati, Distiller dati e Campi derivati. La preparazione dati sarebbe ideale per le nuove implementazioni in quanto sarebbe solo su base progressiva. A seconda della configurazione di un’organizzazione, Data Distiller e Campi derivati possono essere utilizzati per accedere ai valori del codice valuta in modo storico.
 
 +++
 
