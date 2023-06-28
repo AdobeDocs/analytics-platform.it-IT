@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2195'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione del Customer J
 | Funzione | Descrizione |
 | --- | --- |
 | **Giugno 2023** | |
-| Analisi e unione cross-channel | In previsione delle modifiche imminenti per abilitare l’unione e per chiarire ulteriormente come l’analisi cross-channel può essere elevata utilizzando l’unione, tutti i contenuti relativi alla funzionalità Cross-Channel Analytics vengono modificati per fare riferimento all’analisi cross-channel come funzionalità di Customer Journey Analytics e all’unione come funzionalità importante per eseguire questa operazione. |
+| Analisi e unione cross-channel | In previsione delle modifiche imminenti per abilitare le unioni e per chiarire ulteriormente come l’analisi cross-channel può essere elevata utilizzando le unioni, la documentazione relativa alla funzionalità Cross-Channel Analytics viene modificata per fare riferimento a [analisi cross-channel](../use-cases/cross-channel/cross-channel.md) come capacità di Customer Journey Analytics e caso d’uso, e [Stitching](../stitching/overview.md) come funzionalità importante per eseguire questa operazione. |
 | Accesso di Power BI e Tableau alle visualizzazioni dati del Customer Journey Analytics | Il connettore SQL di Customer Journey Analytics consente l&#39;accesso SQL alle visualizzazioni dati definite nel Customer Journey Analytics. [Ulteriori informazioni](/help/data-views/sql-connector.md) |
 | Visualizzazioni dati di Adobe Journey Optimizer | Gli amministratori di Customer Journey Analytics hanno accesso ad alcune visualizzazioni di dati aggiuntive nel Customer Journey Analytics, denominate &quot;Visualizzazione dati AJO (nome-sandbox)&quot;. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html?lang=it). |
 | Conversione valuta | È stata aggiornata la documentazione per [conversione valuta](../data-views/component-settings/format.md#currency) supporto. |

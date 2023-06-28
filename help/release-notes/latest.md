@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente del Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d48ff9810ac7f2c194e959ab5deb492238362650
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 70%
+source-wordcount: '1433'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,7 @@ Le versioni di Adobe Customer Journey Analytics funzionano su [modello di conseg
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Aggiornamenti alla documentazione di analisi e unione cross-channel** | In previsione delle modifiche imminenti per abilitare le unioni e per chiarire ulteriormente come l’analisi cross-channel può essere elevata utilizzando le unioni, la documentazione relativa alla funzionalità Cross-Channel Analytics viene modificata per fare riferimento a [analisi cross-channel](../use-cases/cross-channel/cross-channel.md) come capacità di Customer Journey Analytics e caso d’uso, e [Stitching](../stitching/overview.md) come funzionalità importante per eseguire questa operazione. | 28 giugno 2023 | 28 giugno 2023 |
 | **Didascalie intelligenti** | Arricchisci la presentazione dei dati fornendo agli utenti riepiloghi in linguaggio naturale nella visualizzazione [!UICONTROL Line]. [Ulteriori informazioni](/help/analysis-workspace/visualizations/intelligent-captions.md) | 17 maggio 2023 | 1 giugno 2023 |
 | **Condivisione dei collegamenti per i progetti (accesso non richiesto)** | Ora puoi condividere collegamenti di sola lettura per i progetti Analysis Workspace con chi non ha accesso ad Adobe Analytics. Ad esempio, puoi condividerli con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per Adobe Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it#share-public-link) <p>Questa funzionalità è abilitata per impostazione predefinita e può essere disabilitata dall’amministratore di sistema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=it#company-preferences)</p> | 3 maggio 2023 | 6 giugno 2023 |
 | **Campi derivati** | Questo è il primo rilascio della funzionalità Campi derivati. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi definire ulteriormente il campo derivato come componente (metrica o dimensione) nelle visualizzazioni dati, quindi utilizzare il campo derivato come componente in Workspace.<p>Questa versione supporta un modello di canali di marketing e le seguenti funzioni:</p><ul><li>Concatena</li><li>Case When</li><li>Trova e sostituisci</li><li>Ricerca</li><li>Parsing URL</li></ul> <p>[Ulteriori informazioni](/help/data-views/derived-fields/derived-fields.md)</p> | 10 maggio 2023 | 14 giugno 2023 |
