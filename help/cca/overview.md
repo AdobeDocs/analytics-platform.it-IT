@@ -4,7 +4,9 @@ description: Reimposta ID persona da più set di dati per unire le persone.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+hide: true
+hidefromtoc: true
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 89%
@@ -33,7 +35,7 @@ Quando combini set di dati con ID persona simili, l’attribuzione viene riporta
 Prima di utilizzare l’Analisi cross-channel, assicurati che l’organizzazione sia preparata con quanto segue:
 
 * Un set di dati in Adobe Experience Platform deve avere due colonne che aiutano a identificare le persone:
-   * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID persona generato da una libreria AppMeasurement di Adobe Analytics.
+   * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID persona generato da una libreria Adobe Analytics AppMeasurement.
    * A **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando una persona si autentica. Puoi utilizzare virtualmente qualsiasi identificatore desiderato, purché sia presente almeno una volta sullo stesso evento di un determinato ID persistente.
 * Un altro set di dati, ad esempio i dati del call center, che contiene un ID transitorio su ogni riga. Questo ID persona deve essere formattato in modo simile all’ID transitorio nell’altro set di dati.
 * Questa funzione ti consente di unire set di dati che possono includere l’unione di dati utente autenticati e non autenticati. Prima di unire i set di dati, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.

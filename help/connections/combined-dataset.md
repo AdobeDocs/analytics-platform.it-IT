@@ -4,10 +4,10 @@ description: Scopri come il Customer Journey Analytics crea una connessione comb
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 72%
+source-wordcount: '584'
+ht-degree: 61%
 
 ---
 
@@ -77,3 +77,28 @@ Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione 
 | Giallo | 6 |
 | Blu | 3 |
 | Rosso | 2 |
+
+## Analisi cross-channel
+
+Il livello successivo di combinazione dei set di dati è l’analisi cross-channel, in cui vengono combinati set di dati di canali diversi, in base a un identificatore comune (ID persona). L’analisi cross-channel può trarre vantaggio dalla funzionalità di unione, che consente di reimpostare l’ID persona di un set di dati in modo che il set di dati venga aggiornato correttamente per consentire una combinazione perfetta di più set di dati. L’unione esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
+
+L’analisi cross-channel consente di rispondere a domande quali:
+
+* Quante persone iniziano la loro esperienza in un canale, poi la finiscono in un altro?
+* Quante persone interagiscono con il mio marchio? Quanti e quali tipi di dispositivi usano? Come si sovrappongono?
+* Con quale frequenza le persone iniziano un’attività su un dispositivo mobile e successivamente passano a un PC desktop per completare l’attività? I click-through di campagne che arrivano su un dispositivo portano a una conversione su un altro?
+* Quali informazioni aggiuntive sull’efficacia della campagna posso ottenere considerando i percorsi cross-device? Come cambia la mia analisi funnel?
+* Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo?
+* In che modo gli utenti con più dispositivi differiscono da quelli con un solo dispositivo?
+
+
+Per ulteriori informazioni sull’analisi cross-channel, consulta il caso d’uso specifico:
+
+* [Analisi cross-channel](../use-cases/cross-channel/cross-channel.md)
+
+Per una funzionalità di unione delle discussioni più approfondita, vai a:
+
+* [Panoramica sull’unione](/help/stitching/overview.md)
+* [Come funziona l’unione](../stitching/explained.md)
+* [Domande frequenti](/help/stitching/faq.md)
+

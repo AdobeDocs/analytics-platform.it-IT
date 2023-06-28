@@ -4,9 +4,9 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2046'
 ht-degree: 40%
 
 ---
@@ -79,7 +79,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzione | Note |
 | --- | --- |
-| Unione cross-device/cross-channel | Supportata per i set di dati direttamente contenenti informazioni di identità (nota anche come unione “basata su campi”). L’unione basata sui grafici non è ancora supportata, ma lo sarà presto. Consulta l’[Analisi cross-channel](/help/cca/overview.md). |
+| Unione cross-device/cross-channel | Supportata per i set di dati direttamente contenenti informazioni di identità (nota anche come unione “basata su campi”). L’unione basata sui grafici non è ancora supportata, ma lo sarà presto. Consulta [Stitching](../../stitching/overview.md). |
 | Filtro bot | Per i set di dati basati sul [Connettore sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it), viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o Customer Journey Analytics. |
 | Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [Connettore di origine di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Fai riferimento a [documentazione sulle variabili Analytics supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it).<p>Se utilizzi la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca del dispositivo non sono attualmente supportati. È pianificato il supporto futuro. |
 | Dimensioni GeoSegmentation | Tutti i dati di GeoSegmentation o posizione geografica raccolti in Adobe Analytics fluiscono nel Customer Journey Analytics tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Le implementazioni che non utilizzano il connettore di origine di Analytics ma si basano su Experience Platform Web SDK per la raccolta di dati digitali possono utilizzare [Servizio di ricerca geografica di Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en). |

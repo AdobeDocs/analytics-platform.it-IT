@@ -4,9 +4,9 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 65%
 
 ---
@@ -47,7 +47,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 
 >[!NOTE]
 >
->Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite l’[Analisi cross-channel](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato nel Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, soprattutto se Cross-Channel Analytics è stato attivato.
+>Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite l’[Analisi cross-channel](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato nel Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, soprattutto se Stitching è stato attivato.
 
 1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
 

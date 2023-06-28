@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 72%
+source-wordcount: '2003'
+ht-degree: 68%
 
 ---
 
@@ -38,39 +38,40 @@ Customer Journey Analytics include funzionalità di [Preparazione dati](https://
 +++
 
 
-## 2. Unione dei dati (Analisi cross-channel) {#stitching}
+## 2. Unione dei dati {#stitching}
 
 +++**[!UICONTROL Customer Journey Analytics] può unire per dispositivi o per set di dati?**
 
-Sì. [!UICONTROL Customer Journey Analytics] dispone di una soluzione di unione denominata [Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it). Consente di reimpostare l’ID persona in un set di dati dando la possibilità di combinare direttamente più set di dati.
+Sì. [!UICONTROL Customer Journey Analytics] ha [Stitching](../stitching/overview.md) funzionalità che funziona tra eventi autenticati e non autenticati all’interno di un set di dati. Questo consente di risolvere record diversi in un singolo ID unito, per l’analisi tra dispositivi a livello di persona.
+Inoltre, quando un ID dello spazio dei nomi comune (ID persona) viene utilizzato tra set di dati all’interno di un [Connessione](/help/connections/overview.md), potrai eseguire l’analisi su una combinazione perfetta di più set di dati, &quot;uniti&quot; a livello di persona.
 
 +++
 
 
 +++**L&#39;unione da un comportamento anonimo a un comportamento autenticato è supportata?**
 
-Sì. L’[Analisi cross-channel](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
+Sì. [Stitching](../stitching/overview.md) esamina i dati utente provenienti da sessioni autenticate e non autenticate per generare un ID unico.
 
 +++
 
 
-+++**Come funziona la “ripetizione” in CCA?**
++++**Come funziona la &quot;ripetizione&quot; nell’unione?**
 
-CCA “riproduce” i dati in base a identificatori univoci appresi. In seguito a tale riproduzione, vengono uniti nuovi dispositivi usati per la connessione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=it#step-1%3A-live-stitching)
+L’unione di dati di &quot;ripetizione&quot; si basa su identificatori univoci appresi. La riproduzione ha lo scopo di unire gli eventi inizialmente non autenticati da dispositivi che sono stati identificati nel frattempo. [Ulteriori informazioni](../stitching/explained.md)
 
 +++
 
 
-+++**Come funziona l’unione dei dati storici (retrocompilazione) in CCA?**
++++**Come funziona l’unione dei dati storici (retrocompilazione)?**
 
-Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=it#enable-cross-channel-analytics)
+Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/explained.md)
 
 +++
 
 
 +++**Qual è il comportamento previsto per i record di set di dati di profilo non uniti?**
 
-**Scenario di esempio**: unisci 2 set di dati in una connessione di Customer Journey Analytics utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, L’altro set di dati è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati dell’evento web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate nel Customer Journey Analytics. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID.
+**Scenario di esempio**: unisci 2 set di dati in una connessione di Customer Journey Analytics utilizzando `CRMid` come ID persona. Uno è un set di dati dell’evento web con `CRMid` in tutti i record, mentre l’altro è un set di dati di profilo CRM. Il 40% del set di dati CRM ha `CRMid` presente nel set di dati dell’evento web. L’altro 60% non è presente nel set di dati dell’evento web: questi record vengono visualizzati nel reporting in Analysis Workspace?<p> **Risposta**: le righe di profilo senza eventi associati a esse vengono memorizzate nel Customer Journey Analytics. Tuttavia, non le puoi visualizzare in Analysis Workspace finché non viene visualizzato un evento associato a tale ID.
 
 +++
 
@@ -226,6 +227,6 @@ In alcuni casi, puoi notare che il numero totale di eventi acquisiti dalla conne
 
    ![raggruppamento](assets/data-size2.png)
 
-2. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID &quot;5f21c12b732044194bffc1d0&quot;, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. In seguito, è stato aggiunto di nuovo al Customer Journey Analytics, ma un [!UICONTROL Platform Dataset ID] è stato generato da [!UICONTROL Adobe Experience Platform].
+1. Inoltre, se controlliamo in [!UICONTROL Adobe Experience Platform], non esiste un set di dati con ID &quot;5f21c12b732044194bffc1d0&quot;, quindi qualcuno ha cancellato questo particolare set di dati da [!UICONTROL Adobe Experience Platform] quando è stata creata la connessione iniziale. In seguito, è stato aggiunto di nuovo al Customer Journey Analytics, ma un [!UICONTROL Platform Dataset ID] è stato generato da [!UICONTROL Adobe Experience Platform].
 
 Per ulteriori informazioni, leggi la sezione sulle [implicazioni dell’eliminazione di set di dati e connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] e [!UICONTROL Adobe Experience Platform].

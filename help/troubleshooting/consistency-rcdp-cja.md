@@ -4,9 +4,9 @@ title: Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-ti
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 25%
 
 ---
@@ -22,7 +22,7 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 Real-Time CDP e Customer Journey Analytics oggi non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
 
-Il Customer Journey Analytics può essere configurato per l&#39;utilizzo [Analisi cross-channel](/help/cca/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra loro.
+Il Customer Journey Analytics può essere configurato per l&#39;utilizzo [Stitching](../stitching/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra loro.
 
 In futuro, il Customer Journey Analytics sarà in grado di utilizzare il grafico delle identità.
 

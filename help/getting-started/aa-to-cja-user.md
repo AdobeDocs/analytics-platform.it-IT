@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 76%
+source-wordcount: '1446'
+ht-degree: 75%
 
 ---
 
@@ -104,7 +104,7 @@ Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di d
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-Il Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che desideri utilizzare, inclusi ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[Analisi cross-channel](/help/cca/overview.md), diventa più facile collegare le persone tra diversi set di dati. Qualsiasi utente che imposta un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità nel Customer Journey Analytics:
+Il Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che desideri utilizzare, inclusi ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando [Stitching](../stitching/overview.md) consente di collegare le persone tra set di dati diversi. Qualsiasi utente che imposta un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità nel Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
