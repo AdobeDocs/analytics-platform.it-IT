@@ -3,7 +3,7 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 7f3412dc852ccae1ad5e122c200da5567ba89e87
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 10%
@@ -26,8 +26,8 @@ Per specificare il tipo di metrica durante la creazione di una metrica calcolata
 
    | Tipi di metriche | Definizione |
    |---|---|
-   | Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Visite] prende ordini per quella voce specifica e lo divide per il numero di visite per quella voce specifica. |
-   | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, per ogni riga viene visualizzato lo stesso numero Totale complessivo. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce specifica. |
+   | Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Sessioni] prende gli ordini per quella voce specifica e li divide per il numero di sessioni per quella voce specifica. |
+   | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, per ogni riga viene visualizzato lo stesso numero Totale complessivo. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Sessioni totali] mostra la proporzione di ordini rispetto a TUTTE le sessioni sul sito, non solo le sessioni rispetto alla riga specifica. |
 
 ## Attribution
 
