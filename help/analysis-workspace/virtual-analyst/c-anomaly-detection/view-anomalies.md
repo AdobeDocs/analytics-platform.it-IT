@@ -3,10 +3,10 @@ description: È possibile visualizzare le anomalie sotto forma di tabella o graf
 title: Visualizzare le anomalie in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: e62261d1d440c0a85e4cab95611c6e6272de6724
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
 
-## Visualizzazione delle anomalie in una tabella {#section_869A87B92B574A38B017A980ED8A29C5}
+## Visualizzazione delle anomalie in una tabella {#table}
 
 È possibile visualizzare le anomalie in una tabella a forma libera della serie temporale.
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 1. Seleziona il triangolo grigio nell’angolo in alto a destra di una riga per visualizzare i dettagli dell’anomalia. Mostra la misura (in percentuale) in cui il valore effettivo si discosta al di sopra o al di sotto del valore previsto.
 
-## Visualizzare le anomalie in un grafico a linee {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## Visualizzare le anomalie in un grafico a linee {#line-chart}
 
-I grafici a linee sono l’unica visualizzazione che consente di visualizzare le anomalie.
+Un grafico a linee è l’unica visualizzazione che consente di visualizzare le anomalie.
 
 Per visualizzare le anomalie in un grafico a linee:
 

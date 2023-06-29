@@ -3,7 +3,7 @@ title: Come funziona l’unione
 description: Comprendere il concetto di unione
 solution: Customer Journey Analytics
 feature: Stitching
-source-git-commit: cfe369ca1d0b18e32f1d88b543e549d01ddc0d64
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 28%
@@ -129,5 +129,5 @@ Quando ricevi una richiesta di accesso a dati personali, la riga contenente le i
 
 * L’unione unisce immediatamente i dispositivi noti, ma non unisce immediatamente i dispositivi nuovi o non riconosciuti.
 * I dati vengono ripetuti a intervalli regolari e cambiano i dati storici nella connessione in base ai dispositivi che ha imparato a identificare.
-* L’unione live e l’unione di ripetizione vengono eseguite su un singolo set di dati. Il risultato è un nuovo set di dati con privilegi elevati che è più indicato per essere utilizzato quando si combinano con altri set di dati (ad esempio, dati dei call center) per eseguire l’analisi cross-channel.
+* L’unione live e l’unione di ripetizione vengono eseguite su un singolo set di dati. Il risultato è un nuovo set di dati con privilegi elevati che è più adatto per essere utilizzato quando combinato con altri set di dati (ad esempio, dati dei call center) per eseguire l’analisi cross-channel.
 * Le richieste di accesso a dati personali rimuovono le identità distribuite su righe non autenticate.

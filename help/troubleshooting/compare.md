@@ -4,16 +4,16 @@ description: Scopri come confrontare i dati di Adobe Analytics con quelli del Cu
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 65%
+source-wordcount: '893'
+ht-degree: 64%
 
 ---
 
 # Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics
 
-Quando l’organizzazione adotta il Customer Journey Analytics, potresti notare alcune differenze nei dati tra Adobe Analytics e Customer Journey Analytics. Questo è normale e può verificarsi per diversi motivi. Il Customer Journey Analytics è progettato per consentirti di migliorare alcune delle limitazioni sui dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate/non previste. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare il Customer Journey Analytics senza problemi per l’integrità dei dati.
+Quando l’organizzazione adotta il Customer Journey Analytics, potresti notare alcune differenze nei dati tra Adobe Analytics e Customer Journey Analytics. Questo è normale e può verificarsi per diversi motivi. Il Customer Journey Analytics è progettato per consentirti di migliorare alcune delle limitazioni sui dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate e non intenzionali. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare il Customer Journey Analytics senza problemi per l’integrità dei dati.
 
 Supponiamo che tu abbia acquisito i dati di Adobe Analytics in Adobe Experience Platform tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it)e quindi ha creato una connessione di Customer Journey Analytics utilizzando questo set di dati.
 
