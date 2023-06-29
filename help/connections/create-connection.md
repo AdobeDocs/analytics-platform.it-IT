@@ -4,10 +4,10 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 62%
+source-wordcount: '2490'
+ht-degree: 59%
 
 ---
 
@@ -98,12 +98,14 @@ Per ogni set di dati aggiunto alla connessione: [!UICONTROL Customer Journey Ana
 >
 >È necessario aggiungere almeno un set di dati evento come parte di una connessione.
 
+![Finestra di dialogo Aggiungi set di dati](assets/add-dataset.png)
+
 Esistono tre tipi diversi di set di dati: [!UICONTROL Event] dati, [!UICONTROL Profile] dati, e [!UICONTROL Lookup] dati.
 
 | Tipo di set di dati | Descrizione | Marca temporale | Schema | ID persona |
 |---|---|---|---|---|
 | **[!UICONTROL Event]** | Dati che rappresentano eventi nel tempo (ad esempio visite web, interazioni, transazioni, dati POS, dati dei sondaggi, dati ad impression e così via). Ad esempio, questi dati potrebbero essere tipici dati di click-stream, con un ID cliente o un ID cookie e una marca temporale. Con i dati evento hai la flessibilità di scegliere quale ID usare come ID persona. | È impostato automaticamente sul campo marca temporale predefinito dagli schemi basati sull’evento in [!UICONTROL Experience Platform]. | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con il comportamento “Serie temporali”. Alcuni esempi includono “XDM Experience Event” o “XDM Decision Event”. | Puoi scegliere l’ID persona da includere. Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi identità. Ognuna di queste identità può essere utilizzata come ID persona. Alcuni esempi includono Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di monitoraggio) e così via. |
-| **[!UICONTROL Lookup]** | Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento o profilo. Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti. Consulta [Caso di utilizzo B2B](/help/use-cases/b2b/b2b.md) ad esempio. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
+| **[!UICONTROL Lookup]** | Ora puoi aggiungere set di dati come ricerche di campi all’interno di tutti i tipi di set di dati: Profilo, Ricerca ed Evento (questi ultimi sono sempre stati supportati). Questa funzionalità aggiuntiva estende la capacità di CJA di supportare modelli di dati complessi, tra cui CDP B2B. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati evento, profilo o ricerca. È possibile aggiungere fino a due livelli di ricerca. (Tieni presente che [Campi derivati](/help/data-views/derived-fields/derived-fields.md) non può essere utilizzato come chiave corrispondente per le ricerche in Connessioni.) Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti. Consulta [Caso di utilizzo B2B](/help/use-cases/b2b/b2b.md) ad esempio. | N/D | Qualsiasi schema predefinito o personalizzato basato su una classe XDM con comportamento “Record”, ad eccezione della classe “Profilo individuale XDM”. | N/D |
 | **[!UICONTROL Profile]** | Dati applicati a persone, utenti o clienti in [!UICONTROL Event] dati. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Ogni set di dati definito in [!DNL Experience Platform] dispone del proprio set di uno o più ID persona definiti, ad esempio Cookie ID (ID cookie), Stitched ID (ID di unione), User ID (ID utente), Tracking Code (Codice di tracciamento) e così via.<br>![ID persona ](assets/person-id.png)**Nota**: se crei una connessione che include set di dati con ID diversi, il reporting lo riflette. Per unire in modo efficace i set di dati è necessario utilizzare lo stesso ID persona. |
 
 {style="table-layout:auto"}
