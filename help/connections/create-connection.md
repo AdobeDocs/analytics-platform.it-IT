@@ -4,9 +4,9 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
+source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2487'
 ht-degree: 59%
 
 ---
@@ -98,8 +98,6 @@ Per ogni set di dati aggiunto alla connessione: [!UICONTROL Customer Journey Ana
 >
 >È necessario aggiungere almeno un set di dati evento come parte di una connessione.
 
-![Finestra di dialogo Aggiungi set di dati](assets/add-dataset.png)
-
 Esistono tre tipi diversi di set di dati: [!UICONTROL Event] dati, [!UICONTROL Profile] dati, e [!UICONTROL Lookup] dati.
 
 | Tipo di set di dati | Descrizione | Marca temporale | Schema | ID persona |
@@ -150,7 +148,7 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
 
 {style="table-layout:auto"}
 
-## Calcolare il numero medio di eventi giornalieri
+## Calcolare il numero medio di eventi giornalieri {#average-number}
 
 Questo calcolo viene eseguito per ogni set di dati della connessione.
 
