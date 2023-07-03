@@ -2,10 +2,11 @@
 title: Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics
 description: Scopri la trasformazione dei dati utilizzando le regole di elaborazione e VISTA rispetto all’utilizzo della preparazione dati
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: CJA Basics
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -29,4 +30,4 @@ In alcune situazioni, la preparazione dati ha un crossover con le [classificazio
 
 Ad esempio, in un campo delimitato puoi utilizzare la preparazione dati per suddividere tale campo in più campi singoli senza utilizzare le classificazioni. In genere, le classificazioni sono un modo per aggiungere metadati a un campo caricando un file di ricerca fornito al di fuori del flusso degli eventi di Analytics in arrivo.
 
-Ad esempio, puoi caricare un file di classificazione che raggruppa le SKU in “dimensioni”, “brand”, “colore”, ecc. Un’altra differenza tra le classificazioni e la preparazione dati è che le classificazioni si applicano ai dati _sia storicamente che in futuro_. Le mappature della preparazione dati, invece, sono applicate ai dati _in futuro_ dal momento in cui viene creata la mappatura.
+Ad esempio, puoi caricare un file di classificazione che raggruppa le SKU in &quot;dimensioni&quot;, &quot;marchio&quot;, &quot;colore&quot;, ecc. Un’altra differenza tra le classificazioni e la preparazione dati è che le classificazioni si applicano ai dati _sia storicamente che in futuro_. Le mappature della preparazione dati, invece, sono applicate ai dati _in futuro_ dal momento in cui viene creata la mappatura.

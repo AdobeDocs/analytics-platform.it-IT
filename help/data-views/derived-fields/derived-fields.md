@@ -2,10 +2,10 @@
 title: Campi derivati
 description: Un campo derivato specifica la manipolazione in fase di report dei campi dello schema e/o dei componenti standard tramite un set di funzioni e modelli di funzioni disponibili.
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: cc33257a04214ba786d7e5510a1b6bc618a84883
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '3130'
 ht-degree: 6%
