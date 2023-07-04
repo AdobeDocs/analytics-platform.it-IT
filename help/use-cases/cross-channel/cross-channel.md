@@ -4,10 +4,10 @@ description: Analizza ed estrai informazioni dalle interazioni dei clienti lungo
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '523'
+ht-degree: 63%
 
 ---
 
@@ -43,6 +43,6 @@ Quando stabilisci questo flusso di lavoro, assicurati di prendere in considerazi
 * L’analisi dei dati tra canali diversi richiede lo stesso ID dello spazio dei nomi su ogni record.
 * Il processo di unione di diversi set di dati richiede una chiave primaria comune per la persona/entità nei set di dati.
 * Le unioni basate su chiavi secondarie non sono supportate al momento.
-* Il processo di unione consente di reimpostare le identità nelle righe in base ai successivi record ID transitori, ad esempio un ID di autenticazione. Ciò consente di scomporre diversi record in un singolo ID per l’analisi a livello di persona anziché a livello di dispositivo o cookie.
+* Il processo di unione consente di reimpostare le identità nelle righe in base a informazioni di ID transitorie (come un ID di autenticazione) da record che condividono lo stesso ID persistente. Questo consente di risolvere diversi record in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
 * Gli oggetti e gli attributi dello stesso campo XDM si uniscono in una dimensione in Customer Journey Analytics. Per unire più attributi da diversi set di dati nella stessa dimensione di Customer Journey Analytics, i set di dati devono fare riferimento allo stesso campo o schema XDM.
 

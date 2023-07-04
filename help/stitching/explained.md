@@ -3,10 +3,10 @@ title: Come funziona l’unione
 description: Comprendere il concetto di unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 28%
+source-wordcount: '1246'
+ht-degree: 24%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 28%
 
 L’unione esegue almeno due passaggi sui dati in un determinato set di dati:
 
-* **Unione live**: tenta di unire ogni hit nel momento in cui arriva. In genere, i nuovi dispositivi al set di dati che non hanno mai effettuato l’accesso a questo livello non vengono uniti. I dispositivi già riconosciuti vengono uniti immediatamente.
+* **Unione live**: tenta di unire ogni hit (evento) nel momento in cui arriva. Gli hit da dispositivi che sono &quot;nuovi&quot; al set di dati (non sono mai stati autenticati) in genere non vengono uniti a questo livello. Gli hit da dispositivi già riconosciuti vengono uniti immediatamente.
 
-* **Ripeti unione**: &quot;riproduce&quot; i dati in base a identificatori univoci appresi. Questa è la fase in cui vengono uniti nuovi dispositivi alla connessione. Adobe offre due intervalli di ripetizione:
+* **Ripeti unione**: &quot;riproduce&quot; i dati in base a identificatori univoci (ID transitori) appresi. In questa fase vengono uniti gli hit da dispositivi precedentemente sconosciuti (ID persistenti) (a ID transitori). Adobe offre due intervalli di ripetizione:
    * **Giornaliero**: i dati vengono riprodotti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
-   * **Ogni settimana**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
+   * **Ogni settimana**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva riproduzione settimanale.
 
 * **Privacy (facoltativo)**: quando vengono ricevute richieste relative alla privacy, oltre a rimuovere l’identità richiesta, qualsiasi unione di tale identità tra eventi non autenticati deve essere annullata.
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato perché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live stitched da quel momento in poi. Le richieste di accesso a dati personali vengono elaborate tra i dati uniti indipendentemente dal tempo.
+I dati oltre l’intervallo di lookback non vengono riprodotti. Un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato perché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live stitched da quel momento in poi.
 
 ## Passaggio 1: live stitching
 
@@ -127,7 +127,7 @@ Quando ricevi una richiesta di accesso a dati personali, la riga contenente le i
 
 ## Riepilogo
 
-* L’unione unisce immediatamente i dispositivi noti, ma non unisce immediatamente i dispositivi nuovi o non riconosciuti.
+* L’unione unisce immediatamente gli eventi da dispositivi noti, ma non unisce immediatamente gli eventi da dispositivi nuovi o non riconosciuti.
 * I dati vengono ripetuti a intervalli regolari e cambiano i dati storici nella connessione in base ai dispositivi che ha imparato a identificare.
 * L’unione live e l’unione di ripetizione vengono eseguite su un singolo set di dati. Il risultato è un nuovo set di dati con privilegi elevati che è più adatto per essere utilizzato quando combinato con altri set di dati (ad esempio, dati dei call center) per eseguire l’analisi cross-channel.
 * Le richieste di accesso a dati personali rimuovono le identità distribuite su righe non autenticate.
