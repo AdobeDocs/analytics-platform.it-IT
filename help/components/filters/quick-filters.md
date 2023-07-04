@@ -1,10 +1,10 @@
 ---
 description: Utilizzare filtri rapidi in Analysis Workspace per il Customer Journey Analytics
 title: Filtri rapidi
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 7%
@@ -35,20 +35,19 @@ Per creare un filtro rapido:
 
    * **Ad hoc (trascinamento della selezione):** Dalla barra a sinistra, trascina un componente nell’area di rilascio accanto a **Filtro** nell’intestazione del pannello, quindi seleziona la **Modifica** per regolare il filtro.
 
-      ![Modifica filtro ad hoc](assets/filter-adhoc-edit.png)
+     ![Modifica filtro ad hoc](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > Quando crei un filtro rapido ad hoc (trascinamento della selezione), tieni presente quanto segue:
-      > * I seguenti tipi di componenti non sono supportati: metriche calcolate, dimensioni e metriche da cui non è possibile creare i filtri.
-      > * Per eventi e dimensioni intere, Analysis Workspace crea dei filtri evento &quot;exists&quot; (esiste). Esempi: `Hit where eVar1 exists` o `Hit where event1 exists`.
-      > * Se nella zona di rilascio dei filtri viene rilasciato &quot;Non specificato&quot; o &quot;Nessuno&quot;, vengono automaticamente convertiti in un filtro di tipo &quot;non esiste&quot; in modo da essere trattati correttamente nei filtri.
-
+     >[!NOTE]
+     >
+     > Quando crei un filtro rapido ad hoc (trascinamento della selezione), tieni presente quanto segue:
+     > * I seguenti tipi di componenti non sono supportati: metriche calcolate, dimensioni e metriche da cui non è possibile creare i filtri.
+     > * Per eventi e dimensioni intere, Analysis Workspace crea dei filtri evento &quot;exists&quot; (esiste). Esempi: `Hit where eVar1 exists` o `Hit where event1 exists`.
+     > * Se nella zona di rilascio dei filtri viene rilasciato &quot;Non specificato&quot; o &quot;Nessuno&quot;, vengono automaticamente convertiti in un filtro di tipo &quot;non esiste&quot; in modo da essere trattati correttamente nei filtri.
 
 
    * **Utilizzo dell’icona del filtro:** In una tabella a forma libera, seleziona la **Filtro** nell’intestazione del pannello.
 
-      ![Filtro del segmento](assets/quick-seg1.png)
+     ![Filtro del segmento](assets/quick-seg1.png)
 
 1. Regolare una delle seguenti impostazioni:
 
@@ -87,7 +86,6 @@ Per creare un filtro rapido:
 > * Per salvare un filtro rapido, è necessario disporre dell’autorizzazione Creazione filtro in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
 > 
 > * Dopo il salvataggio o l’applicazione del filtro, non è più possibile modificarlo nel generatore di filtri rapidi. Invece, devi utilizzare il Generatore di filtri regolare.
-
 
 Puoi scegliere di salvare i filtri rapidi come filtri per l’elenco dei componenti. I vantaggi dei filtri per l’elenco dei componenti includono:
 

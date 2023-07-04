@@ -2,8 +2,8 @@
 title: Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics
 description: Scopri la trasformazione dei dati utilizzando le regole di elaborazione e VISTA rispetto all’utilizzo della preparazione dati
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 80%

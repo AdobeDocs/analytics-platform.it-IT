@@ -2,10 +2,10 @@
 title: Inserire e utilizzare dati batch
 description: Spiega come inserire e utilizzare i dati batch in Customer Journey Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 100%
 
@@ -221,7 +221,7 @@ Per creare la connessione:
 
 1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Create new connection]** (Crea nuova connessione).
+2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
 3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
 
@@ -237,9 +237,10 @@ Per creare la connessione:
 
    - Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset` (Set di dati di fidelizzazione di esempio)) e qualsiasi altro set di dati da includere nella connessione.
 
-      ![Aggiungere set di dati](./assets/cja-connections-2.png)
+     ![Aggiungere set di dati](./assets/cja-connections-2.png)
 
    - Seleziona **[!UICONTROL Next]** (Avanti).
+
    Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
 
    - Per ogni set di dati:
@@ -250,9 +251,10 @@ Per creare la connessione:
 
       - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
 
-      ![Configurare i set di dati](./assets/cja-connections-3.png)
+     ![Configurare i set di dati](./assets/cja-connections-3.png)
 
    - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+
    Seleziona **[!UICONTROL Save]** (Salva).
 
 Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).

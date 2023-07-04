@@ -2,9 +2,9 @@
 title: Inserire e usare i dati dalla versione tradizionale di Adobe Analytics
 description: Spiegare come inserire dati provenienti dalla versione tradizionale di Adobe Analytics
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 95%
@@ -24,7 +24,6 @@ Questa guida introduttiva spiega come utilizzare in Customer Journey Analytics i
 >- [Implementare Analytics tramite l’estensione Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=it)
 >
 >- [Implementare Analytics tramite JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it)
-
 
 A questo scopo, è necessario:
 
@@ -79,7 +78,7 @@ Per creare un connettore di origine di Adobe Analytics:
    ![Revisione](./assets/review.png)
 
 
-Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati Adobe Analytics dalla suite di rapporti, inclusa l’acquisizione di fino a 13 mesi di dati storici per le sandbox di produzione. (A partire dal 26 aprile 2023, il backfill nelle sandbox non di produzione è limitato a 3 mesi.)
+Una volta creata la connessione, il flusso di dati viene creato automaticamente per compilare un set di dati con i dati di Adobe Analytics dalla suite di rapporti, inclusa l’acquisizione di dati storici per le sandbox di produzione per un massimo di 13 mesi. A partire dal 26 aprile 2023, la retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.
 
 Al termine dell’inserimento iniziale, i dati della suite di rapporti Adobe Analytics sono pronti per essere utilizzati da Customer Journey Analytics.
 
@@ -112,9 +111,10 @@ Per creare la connessione:
 
    - Seleziona il set di dati creato automaticamente dal connettore di origine di Adobe Analytics e qualsiasi altro set di dati da includere nella connessione.
 
-      ![Aggiungere set di dati](./assets/cja-connections-2a.png)
+     ![Aggiungere set di dati](./assets/cja-connections-2a.png)
 
    - Seleziona **[!UICONTROL Next]** (Avanti).
+
    Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
 
    - Per ogni set di dati:
@@ -125,9 +125,10 @@ Per creare la connessione:
 
       - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
 
-      ![Configurare i set di dati](./assets/cja-connections-3a.png)
+     ![Configurare i set di dati](./assets/cja-connections-3a.png)
 
    - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+
    Seleziona **[!UICONTROL Save]** (Salva).
 
 Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).

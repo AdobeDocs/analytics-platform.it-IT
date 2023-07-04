@@ -2,13 +2,13 @@
 keywords: Analysis Workspace
 title: Panoramica di Analysis Workspace
 description: Panoramica delle funzionalità di Analysis Workspace
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ Dopo aver compreso la terminologia dei componenti, puoi trascinare i componenti 
 
 ### Dizionario dati
 
-Il dizionario dati in Analysis Workspace consente sia agli utenti che agli amministratori di tenere traccia dei componenti del proprio ambiente Analytics e di comprenderli meglio.
+Il dizionario dei dati in Analysis Workspace consente sia gli utenti che gli amministratori di tenere traccia dei componenti nel proprio ambiente Analytics e di comprenderli meglio.
 
 Per ulteriori informazioni sul dizionario dati, consulta [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).
 

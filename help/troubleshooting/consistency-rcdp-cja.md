@@ -2,9 +2,9 @@
 description: Spiega quali fattori influenzano la coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-time Customer Data Platform (Real-time CDP) e Customer Journey Analytics.
 title: Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-time CDP e Customer Journey Analytics
 role: Admin
-feature: CJA Basics
+feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 25%
