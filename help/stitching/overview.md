@@ -3,10 +3,10 @@ title: Panoramica sull’unione
 description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 3fd4038c44b50490618f838d281684742920d152
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 31%
+source-wordcount: '1246'
+ht-degree: 25%
 
 ---
 
@@ -56,22 +56,22 @@ Quando l&#39;organizzazione soddisfa tutti i prerequisiti e comprende [limitazio
    * Richiesta per abilitare l’unione.
    * ID set di dati per il set di dati da ridigitare.
    * Nome della colonna dell’ID persistente per il set di dati desiderato (identificatore visualizzato su ogni riga).
-   * Nome della colonna dell’ID transitorio per il set di dati desiderato (collegamento dell’identificatore della persona tra i set di dati).
+   * Il nome della colonna dell’ID transitorio per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
    * Preferenza di [ripetizione](explained.md) frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, o una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
    * Nome della sandbox.
 
 
-2. L’Assistenza clienti Adobe collabora con il team di progettazione Adobe per abilitare l’unione dopo la ricezione della richiesta. Una volta abilitato, in Adobe Experience Platform compare un nuovo set di dati ridigitato contenente una nuova colonna ID persona. L’Assistenza clienti Adobe può fornire il nuovo ID set di dati e il nome della colonna ID persona.
+2. L’Assistenza clienti Adobe collabora con il team di progettazione Adobe per abilitare l’unione dopo la ricezione della richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati riconfigurato contenente una nuova colonna ID uniti. L’Assistenza clienti Adobe può fornire l’ID del nuovo set di dati.
 
-3. Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa retrocompilazione, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente.
+3. Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale a 30 giorni fa.
 
-4. [Creare una connessione](/help/connections/create-connection.md) in Customer Journey Analytics utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
+4. Se desideri utilizzare il nuovo set di dati uniti in un’analisi cross-channel, devi aggiungerlo a un [connessione](../connections/overview.md) in Customer Journey Analytics insieme a qualsiasi altro set di dati necessario. Scegli l’ID persona corretto per ogni set di dati.
 
 5. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) in base alla connessione.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-Una volta configurata la visualizzazione dati, l’analisi cross-channel nel Customer Journey Analytics è esattamente come qualsiasi altra analisi nel Customer Journey Analytics, tranne per il fatto che ora i dati funzionano tra canali e dispositivi.
+Una volta configurata la visualizzazione dati, puoi eseguire l’analisi dei rapporti di Customer Journey Analytics su canali e dispositivi diversi.
 
 <!-- Uncomment once stitching UI is available (for limited testing)..
 
