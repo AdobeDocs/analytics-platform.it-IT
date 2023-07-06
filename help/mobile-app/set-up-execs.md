@@ -1,14 +1,14 @@
 ---
-description: Come configurare gli utenti per l’utilizzo dell’app Analytics per dispositivi mobili
+description: Come configurare gli utenti per l’utilizzo dell’app mobile per dashboard di Adobe Analytics
 title: Preparare gli utenti direzionali a utilizzare le scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 77%
 
 ---
 
@@ -27,25 +27,29 @@ In alcuni casi, gli utenti direzionali potrebbero aver bisogno di ulteriore assi
 Per garantire che gli utenti direzionali possano accedere alle scorecard nell’app, assicurati che:
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore.
-* Abbiano un accesso valido ad Adobe Analytics.
+* Hanno un accesso valido al Customer Journey Analytics.
 * Le scorecard per dispositivi mobili a essi destinate siano state correttamente create e condivise.
 * Abbiano accesso ai Componenti che la scorecard include. Tieni presente che quando condividi le scorecard puoi selezionare l’opzione **[!UICONTROL Share embedded components]**.
 
 ## Aiutare i dirigenti a scaricare e installare l’app
 
+>[!NOTE]
+>
+>Anche se l’app mobile è denominata dashboard di Adobe Analytics nell’app store, può essere utilizzata allo stesso modo delle scorecard per dispositivi mobili di Customer Journey Analytics.
+
 **Per gli utenti direzionali su iOS:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Per gli utenti direzionali su Android:**
 
-Fai clic sul seguente collegamento (disponibile anche in Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Una volta scaricata e installata, gli utenti direzionali possono accedere all’app utilizzando le loro credenziali esistenti di Adobe Analytics; supportiamo sia gli Adobe ID che Enterprise ID e Federated ID.
+Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali di Customer Journey Analytics esistenti; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
 ![Schermata di benvenuto dell’app](assets/welcome.png)
 
@@ -108,7 +112,7 @@ Se l’utente direzionale effettua l’accesso e vede un messaggio che dice che 
 
 ![Niente di condiviso](assets/nothing.png)
 
-* L’utente direzionale potrebbe aver selezionato l’istanza di Analytics sbagliata oppure
+* L’utente direzionale potrebbe aver selezionato la sandbox di Customer Journey Analytics errata oppure
 * la scorecard potrebbe non essere stata condivisa con l’utente direzionale.
 
-Verifica che l’utente direzionale possa accedere all’istanza appropriata di Adobe Analytics e che la scorecard sia stata condivisa.
+Verifica che l’utente direzionale possa accedere alla sandbox di Customer Journey Analytics corretta e che la scorecard sia stata condivisa.

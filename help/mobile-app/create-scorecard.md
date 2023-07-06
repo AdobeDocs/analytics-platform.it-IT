@@ -1,27 +1,28 @@
 ---
-description: Creare e condividere scorecard per le dashboard di Adobe Analytics
+description: Come creare e condividere scorecard per le dashboard di Analytics
 title: Creare e condividere scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 76%
+source-wordcount: '2460'
+ht-degree: 74%
 
 ---
 
 # Creare una scorecard per dispositivi mobili
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti direzionali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Adobe Analytics:
+Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->Le schermate delle scorecard per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non dal Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
+>
+>Le schermate delle scorecard di Analytics per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non dal Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
 
-Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout a sezioni affiancate, come mostrato di seguito:
+Una scorecard Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout a sezioni affiancate, come mostrato di seguito:
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
@@ -40,7 +41,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ### Creare un nuovo progetto {#create}
 
-1. Apri Adobe Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
+1. Apri il Customer Journey Analytics e fai clic su **[!UICONTROL Workspace]** scheda.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -78,7 +79,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare filtri alle singole tessere, trascina un filtro (i segmenti sono filtri nel Customer Journey Analytics) dal pannello di sinistra e rilascialo direttamente sulla tessera.
 
-Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Adobe Analytics Workspace.
+Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) come in Customer Journey Analytics Workspace.
 
 ![Crea filtri](assets/segment_ui.png)
 
@@ -278,7 +279,7 @@ Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppu
 
 ## Anteprima scorecard {#preview}
 
-Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Analytics.
+Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
 
 1. Fai clic su **[!UICONTROL Preview]** in alto a destra.
 
@@ -337,7 +338,7 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    Quando un destinatario utilizza un’app desktop o un browser per aprire il collegamento, il progetto della scorecard per dispositivi mobili si aprirà in Workspace.
 
-   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Analytics.
+   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Adobe Analytics.
 
    Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
 
