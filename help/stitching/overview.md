@@ -3,7 +3,7 @@ title: Panoramica sull’unione
 description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 3fd4038c44b50490618f838d281684742920d152
+source-git-commit: 41dc46ed5e30d08708ebb97fa29312aafd99ff9d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 25%
@@ -63,7 +63,7 @@ Quando l&#39;organizzazione soddisfa tutti i prerequisiti e comprende [limitazio
 
 2. L’Assistenza clienti Adobe collabora con il team di progettazione Adobe per abilitare l’unione dopo la ricezione della richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati riconfigurato contenente una nuova colonna ID uniti. L’Assistenza clienti Adobe può fornire l’ID del nuovo set di dati.
 
-3. Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale a 30 giorni fa.
+3. Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale a 60 giorni fa.
 
 4. Se desideri utilizzare il nuovo set di dati uniti in un’analisi cross-channel, devi aggiungerlo a un [connessione](../connections/overview.md) in Customer Journey Analytics insieme a qualsiasi altro set di dati necessario. Scegli l’ID persona corretto per ogni set di dati.
 
