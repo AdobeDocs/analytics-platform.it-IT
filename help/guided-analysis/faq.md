@@ -3,10 +3,10 @@ title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d5208a28c9efd6c31ecbfc6ff6b4e44a52f396e8
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 4%
+source-wordcount: '327'
+ht-degree: 2%
 
 ---
 
@@ -40,5 +40,31 @@ L’analisi guidata utilizza termini utilizzati più frequentemente nel settore 
 | Segmento | Filtro |
 
 {style="table-layout:auto"}
+
++++
+
++++**Quali sono alcune differenze nell’approccio di Analysis Workspace ai rapporti di analisi guidata?**
+
+Anche se Analysis Workspace e l’analisi guidata utilizzano gli stessi dati sottostanti, il modo in cui ogni strumento interroga tali dati è diverso.
+
+**Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe di elementi dimensionali, mentre le colonne sono in genere metriche. Puoi applicare filtri a per ottenere i dati desiderati.
+
+![Struttura dell’area di lavoro](assets/workspace-structure.png)
+
+**L’analisi guidata è un’esperienza incentrata sugli eventi.** Le visualizzazioni si concentrano sugli eventi, utilizzando dimensioni e filtri per integrare tali dati.
+
+![Struttura dell’analisi guidata](assets/guided-analysis-structure.png)
+
+Prendi in considerazione l’esempio seguente in cui ti concentri sui dati intorno alla pagina principale del tuo sito web. I team pongono domande simili, ma l’approccio di analisi può essere diverso.
+
+* Un tipico approccio Analysis Workspace incentrato sulle dimensioni sarebbe: &quot;Quante visualizzazioni di pagina sono state ricevute dalla home page?&quot;
+
+  ![Dimension centrato](assets/dimension-centered.png)
+
+* Un tipico approccio di analisi guidata incentrata sugli eventi sarebbe: &quot;Quanti utenti hanno visualizzato la home page?&quot;
+
+  ![Evento centrato](assets/event-centered.png)
+
+Queste istruzioni illustrano due metodi diversi per ottenere lo stesso rapporto, a seconda della strategia di gestione degli eventi.
 
 +++

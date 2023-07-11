@@ -1,8 +1,8 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 67%
+source-wordcount: '1061'
+ht-degree: 65%
 
 ---
 # Snippet
@@ -61,9 +61,14 @@ ht-degree: 67%
 
 | Opzione | Funzione |
 |---------|----------|
-| [!UICONTROL **Consigliato**] | Ordina i componenti con quelli consigliati in cima all’elenco. I componenti utilizzati più di frequente e più di recente da te o da altri nell’organizzazione vengono visualizzati più in alto nell’elenco. |
+| [!UICONTROL **Consigliato**] | Ordina i componenti a partire da quelli consigliati. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto nell’elenco. |
 | [!UICONTROL **Alfabetico**] | Ordina alfabeticamente i componenti. |
-| [!UICONTROL **Categoriche**] | Ordina i componenti in base al tipo (dimensione, metrica, filtro, intervallo di date). |
+| [!UICONTROL **Per categorie**] | Ordina i componenti in base al tipo (dimensione, metrica, filtro, intervallo di date). |
 
 {style="table-layout:auto"}
 
+## Applica confronto temporale {#apply-time-comparison}
+
+È possibile confrontare il periodo di tempo corrente con un periodo precedente. Se selezionate un&#39;opzione in questo menu, ogni punto dati riceve una controparte con linee punteggiate di colore simile. Questa controparte rappresenta la stessa metrica nell’intervallo di date precedente selezionato. Impostando questa opzione si raddoppia il numero di elementi nel grafico e di righe nella tabella.
+
+Le opzioni di confronto del tempo disponibili includono il periodo precedente, 13 settimane prima, 52 settimane prima e un intervallo di date personalizzato. Se selezioni Intervallo date personalizzato, vengono visualizzate opzioni aggiuntive per consentirti di selezionare il numero e la granularità. Se selezioni Nessuno, il confronto tra date viene rimosso.
