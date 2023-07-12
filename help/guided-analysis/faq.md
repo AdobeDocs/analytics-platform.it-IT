@@ -3,10 +3,10 @@ title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
+source-git-commit: 23d3e6a9662cda932a376c09849ab078d22830dc
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,7 @@ L’analisi guidata utilizza termini utilizzati più frequentemente nel settore 
 | Termine di analisi guidata | Termine Analysis Workspace |
 | --- | --- |
 | Evento | Metrica |
+| Utenti | Persone |
 | Proprietà | Dimensione |
 | Valore | Elemento Dimension |
 | Segmento | Filtro |
@@ -43,11 +44,11 @@ L’analisi guidata utilizza termini utilizzati più frequentemente nel settore 
 
 +++
 
-+++**Quali sono alcune differenze nell’approccio di Analysis Workspace ai rapporti di analisi guidata?**
++++**Quali sono alcune differenze nell’approccio di Analysis Workspace all’analisi guidata?**
 
-Anche se Analysis Workspace e l’analisi guidata utilizzano gli stessi dati sottostanti, il modo in cui ogni strumento interroga tali dati è diverso.
+Anche se Analysis Workspace e l’analisi guidata utilizzano gli stessi dati sottostanti, il modo in cui ogni strumento consente di creare query su tali dati è diverso.
 
-* **Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe di elementi dimensionali, mentre le colonne sono in genere metriche. Puoi applicare filtri a per ottenere i dati desiderati.
+* **Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe di elementi dimensionali, mentre le colonne sono in genere metriche. Puoi applicare filtri sia alle righe che alle colonne per ottenere i dati desiderati.
 
 * **L’analisi guidata è un’esperienza incentrata sugli eventi.** Le visualizzazioni si concentrano sugli eventi, utilizzando dimensioni e filtri per integrare tali dati.
 
