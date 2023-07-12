@@ -1,16 +1,16 @@
 ---
-title: Attivo
+title: Visualizzazione attiva
 description: Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: c96f30979cc8bf519a8e96a1fafa5aba2ebc4c01
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
-# Attivo
+# Visualizzazione attiva
 
 {{release-limited-testing}}
 
@@ -23,13 +23,15 @@ Il **Attivo** fornisce informazioni sulla crescita e l’acquisizione degli uten
 
 Tutti gli utenti attivi (nuovo + repeat + return) appaiono come una tonalità di rosso sopra l&#39;asse orizzontale, mentre tutti gli utenti inattivi appaiono in arancione sotto l&#39;asse orizzontale.
 
+![Attivo](../assets/active.png)
+
+## Casi d’uso
+
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Fidelizzazione e abbandono degli utenti:** Offre una chiara visualizzazione dei periodi di fidelizzazione degli utenti. Riconoscere questi periodi di conservazione elevata o bassa può aiutare a prendere decisioni sui prodotti per incoraggiare la conservazione elevata o ridurre al minimo l’abbandono.
 * **Valutazione della campagna**: la visualizzazione di una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
 * **Analisi del ciclo di vita degli utenti**: l’analisi della crescita degli utenti attivi durante l’intero ciclo di vita degli utenti può aiutare a identificare fasi specifiche in cui il coinvolgimento degli utenti subisce un calo. Ad esempio, se il numero di utenti inattivi per i singoli utenti in una fase di onboarding è elevato, ciò può indicare problemi di usabilità o la necessità di una migliore guida all’interno del prodotto.
-
-![Attivo](../assets/active.png)
 
 ## Barra delle query
 

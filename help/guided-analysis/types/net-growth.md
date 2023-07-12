@@ -1,15 +1,15 @@
 ---
-title: Crescita netta
+title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
-source-git-commit: ab734506a023eacdeeb7c26f31a4361a6b804795
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
-# Crescita netta
+# Visualizzazione della crescita netta
 
 {{release-limited-testing}}
 
@@ -28,13 +28,15 @@ Simile a [Attivo](active.md) tipo di visualizzazione, gli utenti sono definiti c
 * **Inattivo**: l’utente era attivo nel periodo immediatamente precedente, ma non è attivo nel periodo corrente. Gli utenti inattivi non vengono conteggiati per il numero totale di utenti attivi.
 * Nota: gli utenti ripetuti non sono presi in considerazione in questo calcolo, in quanto non rappresentano alcun guadagno o perdita di utenti.
 
+![Crescita netta](../assets/net-growth.png)
+
+## Casi d’uso
+
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Valutazione delle prestazioni**: consente di valutare le prestazioni complessive del prodotto in termini di acquisizione di nuovi utenti. Tracciando le tendenze di crescita, puoi capire meglio se il tuo prodotto attrae e mantiene gli utenti al ritmo desiderato.
 * **Analisi dell&#39;acquisizione utente**: consente di valutare l’efficacia delle strategie di acquisizione degli utenti. L’analisi delle origini della crescita degli utenti, ad esempio motori di ricerca, campagne o altri canali di marketing, ti consente di identificare le origini di crescita più significative, in modo da allocare le risorse di conseguenza.
 * **Analisi dell’abbandono**: la crescita netta include l’attrito nella sua formula (utenti inattivi). Puoi valutare lo stato complessivo della tua base di utenti nel tempo. Se la crescita netta è costantemente inferiore `1`, indica un livello elevato di attrito che potrebbe richiedere l&#39;implementazione di strategie di fidelizzazione.
-
-![Crescita netta](../assets/net-growth.png)
 
 ## Barra delle query
 

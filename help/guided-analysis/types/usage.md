@@ -1,27 +1,31 @@
 ---
-title: Utilizzo
+title: Visualizzazione utilizzo
 description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 81fe48ba9bdafa73e1bcd02e4016a2efa68ce1d1
+source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
 
-# Utilizzo
+# Visualizzazione utilizzo
 
 {{release-limited-testing}}
 
-Il **Utilizzo** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati. I casi di utilizzo per questo tipo di visualizzazione includono:
+Il **Utilizzo** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
+
+![Utilizzo](../assets/usage.png)
+
+## Casi d’uso
+
+I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Valutare le prestazioni del prodotto**: le tendenze ti consentono di valutare le prestazioni complessive del prodotto in un determinato periodo di tempo. Analizzando metriche quali coinvolgimento degli utenti, tassi di adozione o di conversione, puoi verificare se le prestazioni del prodotto stanno migliorando, stagnando o diminuendo.
 * **Adozione di funzioni**: le tendenze ti consentono di comprendere in che modo gli utenti adottano nuove funzioni o aggiornamenti che rilasci. È possibile determinare quali feature sono popolari e quali feature richiedono miglioramenti. Queste informazioni ti consentono di prendere decisioni basate sui dati sulle funzioni per dare priorità alle tue attività di sviluppo.
 * **Comportamento dell’utente**: le tendenze possono fornire informazioni sul comportamento degli utenti nel tempo. Esaminando le azioni specifiche intraprese dagli utenti, è possibile identificare i pattern in cui gli utenti potrebbero abbandonarsi. Puoi combinare le informazioni provenienti da questa visualizzazione con [Attrito](friction.md) per ulteriori informazioni sul comportamento.
 * **Test A/B e sperimentazione**: se esegui test A/B all’interno del prodotto, puoi utilizzare le Tendenze per determinare quali test hanno più successo nel tempo.
-
-![Utilizzo](../assets/usage.png)
 
 ## Barra delle query
 

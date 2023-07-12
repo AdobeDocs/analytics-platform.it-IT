@@ -1,14 +1,14 @@
 ---
-title: del prossimo maggio (?)
+title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
 workflow-type: tm+mt
-source-wordcount: '13'
-ht-degree: 38%
+source-wordcount: '15'
+ht-degree: 20%
 
 ---
 
-# del prossimo maggio (?)
+# Vista versione
 
 Il contenuto sarà presto disponibile.
