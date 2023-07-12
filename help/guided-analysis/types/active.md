@@ -3,7 +3,7 @@ title: Attivo
 description: Misura la crescita della base di utenti.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -29,7 +29,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 * **Valutazione della campagna**: la visualizzazione di una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
 * **Analisi del ciclo di vita degli utenti**: l’analisi della crescita degli utenti attivi durante l’intero ciclo di vita degli utenti può aiutare a identificare fasi specifiche in cui il coinvolgimento degli utenti subisce un calo. Ad esempio, se esiste un elevato tasso di utenti inattivi per coloro che si trovano in una fase di onboarding, può indicare problemi di usabilità o la necessità di una migliore guida all’interno del prodotto.
 
-[Schermata della crescita degli utenti]
+![Attivo](../assets/active.png)
 
 ## Barra delle query
 
@@ -48,6 +48,8 @@ Questo tipo di visualizzazione offre le seguenti impostazioni del grafico. È po
 ## Applica confronto temporale
 
 {{apply-time-comparison}}
+
+![Confronto tempo attivo](../assets/active-compare.png)
 
 ## Intervallo date
 

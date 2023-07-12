@@ -2,9 +2,9 @@
 title: Tendenze di conversione
 description: Tieni traccia delle modifiche del tasso di conversione nel tempo.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Il **Tendenze di conversione** il tipo di visualizzazione fornisce una visualizz
 * **Valutazione test A/B**: valuta l’efficacia dei test A/B o degli esperimenti condotti nel contesto di un funnel. Confrontando i tassi di conversione tra diverse varianti, puoi facilmente determinare quali test forniscono tassi di conversione più elevati, per cui puoi decidere in base ai dati su quali varianti implementare in modo permanente.
 * **Valutazione della campagna nel tempo**: misura l’efficacia delle campagne di marketing nel tempo. Puoi creare un segmento che si concentra sugli utenti che hanno toccato una determinata campagna e confrontare i loro tassi di conversione con altre campagne. Puoi anche confrontare i tassi di conversione correnti con campagne simili eseguite in passato.
 
-[Schermata del funnel]
+![Tendenze di conversione](../assets/conversion-trends.png)
 
 ## Barra delle query
 
@@ -39,6 +39,8 @@ Funnel offre le seguenti impostazioni per i grafici. È possibile regolare le im
 ## Applica confronto temporale
 
 {{apply-time-comparison}}
+
+![Confronto nel tempo delle tendenze di conversione](../assets/conversion-trends-compare.png)
 
 ## Intervallo date
 

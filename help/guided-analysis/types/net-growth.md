@@ -2,9 +2,9 @@
 title: Crescita netta
 description: Saldo degli utili e delle perdite degli utenti.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 * **Valutazione delle prestazioni**: consente di valutare le prestazioni complessive del prodotto in termini di acquisizione di nuovi utenti. Tracciando le tendenze di crescita, puoi capire meglio se il tuo prodotto attrae e mantiene gli utenti al ritmo desiderato.
 * **Analisi dell’abbandono**: la crescita netta include l’attrito nella sua formula (utenti inattivi). Puoi valutare lo stato complessivo della tua base di utenti nel tempo. Se la crescita netta è costantemente inferiore `1`, indica un elevato grado di attrito, che ti spinge a indagare le ragioni dietro di esso e a implementare strategie di fidelizzazione.
 
-[Schermata della crescita degli utenti]
+![Crescita netta](../assets/net-growth.png)
 
 ## Barra delle query
 

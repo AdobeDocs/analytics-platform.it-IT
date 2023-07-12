@@ -3,9 +3,9 @@ title: Utilizzo
 description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il **Utilizzo** tipo di visualizzazione fornisce informazioni utili sulle presta
 * **Comportamento dell’utente**: le tendenze possono fornire informazioni sul comportamento degli utenti nel tempo. Esaminando le azioni specifiche intraprese dagli utenti, è possibile identificare i pattern in cui gli utenti potrebbero abbandonarsi. È possibile combinare informazioni provenienti da questo tipo di visualizzazione con [Attrito](friction.md) per ulteriori informazioni sul comportamento.
 * **Test A/B e sperimentazione**: se esegui test A/B all’interno del prodotto, puoi utilizzare le Tendenze per determinare quali test hanno più successo nel tempo.
 
-[Schermata delle tendenze]
+![Utilizzo](../assets/usage.png)
 
 ## Barra delle query
 
@@ -40,6 +40,8 @@ Le tendenze offrono le seguenti impostazioni del grafico. È possibile regolare 
 ## Applica confronto temporale
 
 {{apply-time-comparison}}
+
+![Confronto tempo di utilizzo](../assets/usage-compare.png)
 
 ## Intervallo date
 

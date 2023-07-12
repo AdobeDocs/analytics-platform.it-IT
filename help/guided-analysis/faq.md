@@ -3,9 +3,9 @@ title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: d5208a28c9efd6c31ecbfc6ff6b4e44a52f396e8
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -47,13 +47,11 @@ L’analisi guidata utilizza termini utilizzati più frequentemente nel settore 
 
 Anche se Analysis Workspace e l’analisi guidata utilizzano gli stessi dati sottostanti, il modo in cui ogni strumento interroga tali dati è diverso.
 
-**Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe di elementi dimensionali, mentre le colonne sono in genere metriche. Puoi applicare filtri a per ottenere i dati desiderati.
+* **Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe di elementi dimensionali, mentre le colonne sono in genere metriche. Puoi applicare filtri a per ottenere i dati desiderati.
 
-![Struttura dell’area di lavoro](assets/workspace-structure.png)
+* **L’analisi guidata è un’esperienza incentrata sugli eventi.** Le visualizzazioni si concentrano sugli eventi, utilizzando dimensioni e filtri per integrare tali dati.
 
-**L’analisi guidata è un’esperienza incentrata sugli eventi.** Le visualizzazioni si concentrano sugli eventi, utilizzando dimensioni e filtri per integrare tali dati.
-
-![Struttura dell’analisi guidata](assets/guided-analysis-structure.png)
+![Struttura](assets/structure.png)
 
 Prendi in considerazione l’esempio seguente in cui ti concentri sui dati intorno alla pagina principale del tuo sito web. I team pongono domande simili, ma l’approccio di analisi può essere diverso.
 

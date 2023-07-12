@@ -3,9 +3,9 @@ title: Attrito
 description: Confronta i tassi di conversione tra passaggi.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il **Attrito** tipo di visualizzazione fornisce una rappresentazione visiva di u
 * **Adozione e coinvolgimento delle funzioni**: scopri come gli utenti interagiscono con funzioni specifiche del tuo prodotto. Analizzando la progressione degli utenti attraverso passaggi relativi alle funzioni, puoi valutare i tassi di adozione delle funzioni e identificare le aree in cui gli utenti potrebbero abbandonare o sottoutilizzare determinate funzioni. Puoi quindi utilizzare queste informazioni per concentrarti su miglioramenti delle funzioni o dell’interfaccia utente per aumentare i tassi di adozione.
 * **Valutazione della campagna**: misura l’efficacia delle campagne di marketing. Puoi creare un segmento che si concentra sugli utenti che hanno toccato una determinata campagna e confrontare il loro processo di conversione con altre campagne o all’interno del tuo prodotto in generale.
 
-[Schermata del funnel]
+![Attrito](../assets/friction.png)
 
 ## Barra delle query
 
@@ -41,6 +41,8 @@ Funnel offre le seguenti impostazioni per i grafici. È possibile regolare le im
 ## Applica confronto temporale
 
 {{apply-time-comparison}}
+
+![Confronto del tempo di attrito](../assets/friction-compare.png)
 
 ## Intervallo date
 
