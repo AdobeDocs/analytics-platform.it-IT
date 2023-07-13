@@ -4,9 +4,9 @@ title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '570'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ Per informazioni generali su come iniziare a utilizzare Analysis Workspace, cons
 
 Le sezioni seguenti descrivono come creare un progetto e iniziare ad aggiungere i blocchi predefiniti chiave per qualsiasi progetto Analysis Workspace: pannelli, visualizzazioni e componenti.
 
-## Creare un progetto da un progetto vuoto o da un modello
+## Inizia a creare un progetto
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Workspace**].
 
