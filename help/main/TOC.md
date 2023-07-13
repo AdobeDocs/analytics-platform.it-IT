@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
+source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 84%
@@ -175,7 +175,7 @@ ht-degree: 84%
       + [Limiti di Analysis Workspace](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità di Analysis Workspace](../analysis-workspace/workspace-faq/aw-accessibility.md)
-      + [“Long tail” in Analysis Workspace](../analysis-workspace/workspace-faq/long-tail.md)
+      + [Risultati Elemento dimensione troncato](../analysis-workspace/workspace-faq/results-truncated.md)
 
 + Dashboard di Analytics {#cja-dashboards}
    + [Panoramica dei dashboard di Analytics](../mobile-app/home.md)
