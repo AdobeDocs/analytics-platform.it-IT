@@ -3,7 +3,7 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente del Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2b0d091484c3c80d97de2952f4200d166ab5cd8a
+source-git-commit: 9e6231e4dc9770fbb7c859b397ea8c57e7dff478
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 37%
@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # Note sulla versione corrente di Adobe Customer Journey Analytics (luglio 2023)
 
-**Ultimo aggiornamento**: 10 luglio 2023
+**Ultimo aggiornamento**: 13 luglio 2023
 
 Le versioni di Adobe Customer Journey Analytics funzionano su [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -22,7 +22,7 @@ Le versioni di Adobe Customer Journey Analytics funzionano su [modello di conseg
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Product Analytics** | Adobe Product Analytics è un nuovo modo di interagire con i dati e le informazioni cross-channel nel Customer Journey Analytics. Queste nuove funzionalità consentono ai team di prodotto di gestire in autonomia dati e insight sulla loro esperienza di prodotto attraverso flussi di lavoro di analisi guidati. I team possono:<ul><li>Comprendere i pattern di coinvolgimento degli utenti nel tempo</li><li>Monitora la crescita e il mantenimento della base di utenti del prodotto&#x200B;</li><li>Identificare le aree di attrito nel prodotto</li><li>Misura l’impatto delle versioni di funzioni &#x200B; primo utilizzo</li><li>Scopri segmenti significativi di utenti che desiderano interagire con il prodotto e svilupparlo durante tutto il loro percorso lavorativo&#x200B;</li><li>Connessione ad Analysis Workspace per analisi più approfondite e collaborazione con gli analisti</li></ul>L’Adobe Product Analytics è un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se desideri ottenere il provisioning della tua organizzazione per utilizzare questa funzione, contatta il team del tuo account Adobe. [Ulteriori informazioni](/help/guided-analysis/overview.md) | N/D | 17 luglio 2023 |
 | **Campi derivati** | Questo è il primo rilascio della funzionalità Campi derivati. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi definire ulteriormente il campo derivato come componente (metrica o dimensione) nelle visualizzazioni dati, quindi utilizzare il campo derivato come componente in Workspace.<p>Questa versione supporta un modello di canali di marketing e le seguenti funzioni:</p><ul><li>Concatena</li><li>Case When</li><li>Trova e sostituisci</li><li>Ricerca</li><li>Parsing URL</li></ul> <p>[Ulteriori informazioni](/help/data-views/derived-fields/derived-fields.md)</p> | 10 maggio 2023 | 2 agosto 2023 |
-| **Supporto esteso della ricerca per i dati di profilo e di ricerca** | Consente di aggiungere set di dati come ricerche di campi all’interno di set di dati Profilo o Ricerca. In precedenza, erano supportati solo i set di dati evento. [Ulteriori informazioni] | 21 giugno 2023 | 12 luglio 2023 |
+| **Supporto esteso della ricerca per i dati di profilo e di ricerca** | Consente di aggiungere set di dati come ricerche di campi all’interno di set di dati Profilo o Ricerca. In precedenza, erano supportati solo i set di dati evento. [Ulteriori informazioni](/help/connections/create-connection.md) | 21 giugno 2023 | 12 luglio 2023 |
 | **Miglioramenti al Report Builder** | <ul><li>Filtra da cella per più blocchi di dati. Puoi modificare i filtri su più blocchi di dati da una cella. Utilizza una cella predefinita, assegnala a più blocchi di dati e aggiorna i dati in base ai filtri definiti nella cella. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=en)</li><li>Mostrare e nascondere le intestazioni di riga e di colonna. Puoi mostrare o nascondere le intestazioni delle tabelle dei blocchi di dati o le intestazioni di riga e colonna per riformattare la tabella e allineare i blocchi di dati in un rapporto. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=en#build-the-data-block)</li></ul> | N/D | 19 luglio 2023 |
 | **Ricerche geografiche di Experience Edge** | Adobe Experience Edge sta aggiungendo un servizio di ricerca geografica che fornisce dati geografici unificati a tutti gli utenti Experience Edge (Adobe Analytics, Customer Journey Analytics, Adobe Target, Adobe Medium Analytics, Adobe Experience Platform, ecc.). | N/D | 26 luglio 2023 |
 
