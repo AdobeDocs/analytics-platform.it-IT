@@ -2,9 +2,9 @@
 title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,8 @@ Il **Versione** mostra un confronto tra le prestazioni degli indicatori chiave p
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **Valutazione complessiva delle prestazioni:** Il confronto di indicatori chiave complessivi, come i ricavi, può aiutarti a determinare se una determinata versione è stata complessivamente corretta.
+* **Valutazione complessiva delle prestazioni:** Il confronto di indicatori chiave complessivi, come le misure di coinvolgimento, può aiutarti a determinare se una determinata versione ha avuto complessivamente esito positivo.
+* **Monitorare**: se alcune misure, come il tempo di caricamento o gli accessi, prevedi di rimanere invariate quando vengono apportate modifiche, confrontalle prima e dopo per garantire che il rilascio non abbia comportato conseguenze indesiderate.
 * **Adozione di funzioni**: se un aggiornamento del prodotto si concentra sul miglioramento di una determinata funzione, puoi utilizzare questa visualizzazione per confrontare direttamente l’utilizzo di tale funzione prima e dopo l’aggiornamento del prodotto.
 * **Rilevamento di bug**: il tracciamento del numero di errori prima e dopo una versione può fornire un indicatore anticipato dei problemi dei clienti. Se si nota un aumento di errori subito dopo una versione, è possibile collaborare con i team di progettazione o di sviluppo per identificare e correggere il problema, evitando un ulteriore impatto sui clienti.
 
@@ -42,7 +43,7 @@ La vista Rilascio offre le seguenti impostazioni del grafico, che possono essere
 
 ## Intervallo date
 
-La selezione della data nei rapporti di impatto funziona in modo diverso rispetto ad altri tipi di analisi, in quanto il rapporto ruota attorno alla data specificata nella barra delle query. Sono disponibili le seguenti opzioni:
+La selezione della data nell’analisi di impatto funziona in modo diverso rispetto ad altri tipi di analisi, in quanto il rapporto ruota attorno alla data specificata nella barra delle query. Sono disponibili le seguenti opzioni:
 
 * **Interval**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], e [!UICONTROL Quarterly]. La modifica dell’intervallo influisce sulle opzioni disponibili per il periodo Prima e Dopo.
 * **Periodo prima e dopo**: quantità di tempo da analizzare prima e dopo la data specificata nella barra delle query. Le opzioni disponibili dipendono dal [!UICONTROL Interval] selezione.
