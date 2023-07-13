@@ -3,10 +3,10 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 62%
+source-wordcount: '1511'
+ht-degree: 60%
 
 ---
 
@@ -32,7 +32,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    Configura queste impostazioni prima di pubblicare il pubblico.
 
-   ![](assets/create-audience.png)
+   ![Schermata per la creazione di un pubblico](assets/create-audience.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
@@ -52,15 +52,15 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    L’anteprima del pubblico viene visualizzata nella barra a destra. Consente di avere un’analisi sintetica del pubblico creato.
 
-   ![](assets/data-preview.png)
+   ![Schermata dell’anteprima dei dati](assets/data-preview.png)
 
    | Impostazione di anteprima | Descrizione |
    | --- | --- |
    | Finestra di [!UICONTROL Data preview] | L’intervallo di date per il pubblico. |
    | [!UICONTROL Total people] | Un numero di riepilogo del numero totale di persone presenti nel pubblico. Può arrivare fino a 20 milioni di persone. Se il pubblico supera i 20 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
    | [!UICONTROL Audience size limit] | Mostra quanto è lontano il pubblico dal limite di 20 milioni. |
-   | [!UICONTROL Estimated audience return] | Questa impostazione è utile per il retargeting dei clienti del pubblico che ritornano al tuo sito. In altre parole, che compaiono nuovamente in questo set di dati. <p>Qui puoi selezionare l’intervallo di tempo (i prossimi sette giorni, le prossime due settimane, il prossimo mese) per ottenere la stima del numero di clienti che potrebbero tornare. |
-   | [!UICONTROL Estimated to return] | Questo numero fornisce una stima dei clienti fidelizzati nell’intervallo di tempo selezionato dall’elenco a discesa. Per prevedere questo numero usiamo il tasso storico di abbandono del pubblico. |
+   | [!UICONTROL Estimated audience return] | Questa impostazione è utile per il retargeting dei clienti del pubblico che ritornano al tuo sito. In altre parole, che compaiono nuovamente in questo set di dati. <p>Qui puoi selezionare l’arco temporale (i prossimi sette giorni, le prossime due settimane, il prossimo mese) per ottenere la stima del numero di clienti che potrebbero tornare. |
+   | [!UICONTROL Estimated to return] | Questo numero fornisce una stima dei clienti fidelizzati nell’arco temporale selezionato dall’elenco a discesa. Per prevedere questo numero usiamo il tasso storico di abbandono del pubblico. |
    | [!UICONTROL Preview metrics] | Questa impostazione ti consente di esaminare metriche specifiche per verificare se il pubblico contribuisce in misura sproporzionata a questa metrica, ad esempio “[!UICONTROL Revenue]” o “[!UICONTROL Average time on site]”. Ti fornisce il conteggio complessivo della metrica, così come la percentuale del totale che rappresenta. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
    | [!UICONTROL Namespaces included] | Gli spazi dei nomi specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
    | [!UICONTROL Sandbox] | La [sandbox di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) in cui risiede il pubblico. Quando pubblichi questo pubblico in Platform, puoi utilizzarlo solo entro i confini di questa sandbox. |
@@ -85,7 +85,7 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming di Experience 
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenza da Adobe Experience Platform a Customer Journey Analytics](assets/latency-diagram.png)
+![Latenze nella pubblicazione di tipi di pubblico come descritto in [Considerazioni sulla latenza](#latency-considerations)](assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono ve
 
 Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] quando la connessione è stata configurata.
 
-RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, “user@adobe.com” può essere impostato come destinatario su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
+RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, per esempio, <user@adobe.com> possono essere indirizzati a tutti i loro dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Puoi visualizzare i tipi di pubblico del Customer Journey Analytics in Platform andando su **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
 

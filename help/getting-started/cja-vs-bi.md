@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 66%
+source-wordcount: '1649'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ Questa sezione della documentazione spiega le differenze fondamentali tra gli st
 
 Spesso gli approcci tradizionali all’analisi del percorso clienti hanno lo svantaggio di non essere incentrati sulle persone. Ogni team raccoglie i dati in silos, analizzando e ottimizzando le esperienze in base ai dati a cui ha accesso.
 
-![Flusso di lavoro BI tipico](./assets/biworkflow.png)
+![Flusso di lavoro tradizionale di BI come descritto in questa sezione](./assets/biworkflow.png)
 
 Per comprendere in che modo una campagna digitale specifica influisce su un’azione offline memorizzata in un altro silos di dati, si invia una richiesta alla coda del team BI. Il team BI scrive la query necessaria per acquisire e trasformare i dati. Una volta recuperati i dati non elaborati, il team BI crea la visualizzazione. I dati vengono condivisi con l’utente, che si occuperà di esaminare le informazioni ed estrarre i dati per l’attivazione in altri sistemi.
 
@@ -34,7 +34,7 @@ Ognuno di questi passaggi può richiedere diverse ore, giornate o addirittura se
 
 Il Customer Journey Analytics fornisce un ambiente per collegare dati cross-channel online e offline a livello del cliente principale al solo scopo di comprendere il percorso del cliente. Richiede una configurazione iniziale per la [connessione](/help/connections/overview.md) ai dati qualificati come rilevanti e per [definirne le visualizzazioni](/help/data-views/data-views.md). Tuttavia, una volta completata la configurazione, tali dati sono subito disponibili per analisi ed esplorazione continuative. Progressivamente puoi così acquisire sempre più insight utili per comprendere a fondo il percorso clienti. Democratizzando i dati online e offline combinati, è possibile rispondere in pochi secondi alle domande relative al percorso clienti.
 
-![Flusso di lavoro Customer Journey Analytics](./assets/cjaworkflow.png)
+![Flusso di lavoro di Customer Journey Analytics come descritto in questa sezione](./assets/cjaworkflow.png)
 
 Puoi usare il Customer Journey Analytics per porre domande utilizzando l’ambiente di Analysis Workspace visivo e ottenere informazioni quasi istantaneamente. I dati e i rapporti cross-channel sono immediatamente disponibili, senza la richiesta di codice SQL. Si possono eseguire ulteriori query e analisi con un semplice trascinamento nell’interfaccia utente, con i dati completamente correlati. Puoi continuare a fare domande, esplorando progressivamente più dettagli come richiesto. Puoi eseguire azioni immediate sulle informazioni scoperte, come la suddivisione dei tipi di pubblico per l’attivazione e l’orchestrazione.
 
