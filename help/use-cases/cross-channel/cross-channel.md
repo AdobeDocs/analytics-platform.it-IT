@@ -4,10 +4,10 @@ description: Analizza ed estrai informazioni dalle interazioni dei clienti lungo
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 75f27ef2f5fcd0d2a2038dbe7bcf812e865a14fc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 63%
+source-wordcount: '531'
+ht-degree: 61%
 
 ---
 
@@ -15,11 +15,9 @@ ht-degree: 63%
 
 L’analisi cross-channel consente un’unica visualizzazione consolidata del comportamento dei clienti su vari canali, unificando i dati da varie proprietà web, mobili e offline. Ad esempio, puoi utilizzare questa vista consolidata per analizzare le interazioni dei clienti su computer desktop e dispositivi mobili per comprendere il comportamento dei clienti ed estrarre informazioni per ottimizzare le esperienze dei clienti digitali. Puoi anche analizzare le interazioni dei clienti tra i diversi canali, compresi i canali digitali e offline, come le interazioni di supporto e gli acquisti in-store per comprendere e ottimizzare meglio il percorso del cliente.
 
-## Flusso di lavoro
-
-![Architettura cross-channel](../assets/cca-architecture.png)
-
 ## Passaggi di implementazione
+
+![Illustrazione del flusso dei passaggi di implementazione descritti in [Passaggi di implementazione](#implementation-steps)](../assets/cca-architecture.png)
 
 1. [Creare schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) per i dati da inserire.
 1. [Creare set di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=it) per i dati da inserire.
