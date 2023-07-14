@@ -1,9 +1,9 @@
 ---
 title: Casi di utilizzo del settore
 description: Casi di utilizzo del settore per l’analisi guidata
-source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
+source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -65,6 +65,8 @@ I casi di utilizzo per l’analisi guidata variano a seconda del settore. Questa
 
 ![Visualizzazione utilizzo per viaggi e ospitalità](assets/th-trends-usage.png)
 
+![Tendenze di conversione per viaggi e ospitalità](assets/th-funnel-conversio-trends.png)
+
 +++
 
 +++**Media e intrattenimento**
@@ -81,6 +83,8 @@ I casi di utilizzo per l’analisi guidata variano a seconda del settore. Questa
 ![Visualizzazione frizione per contenuti multimediali e di intrattenimento](assets/me-funnel-friction.png)
 
 ![Visualizzazione attiva per contenuti multimediali e di intrattenimento](assets/me-user-growth-active.png)
+
+![](assets/me-trends-usage.png)
 
 +++
 
