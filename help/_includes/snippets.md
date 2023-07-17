@@ -1,8 +1,8 @@
 ---
-source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
+source-git-commit: 497334bdd0324e5b3955be79029079af88ca56e2
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 65%
+source-wordcount: '1092'
+ht-degree: 64%
 
 ---
 # Snippet
@@ -18,6 +18,13 @@ ht-degree: 65%
 >[!AVAILABILITY]
 >
 >La funzionalità descritta in questa sezione si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).
+
+## Seleziona pacchetto {#select-package}
+
+>[!NOTE]
+>
+>È necessario disporre di **Seleziona** per utilizzare le funzionalità descritte in questo articolo. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore.
+
 
 ## Criteri del filtro del dizionario dati {#dd-filter-criteria}
 
