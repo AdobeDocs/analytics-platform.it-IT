@@ -3,7 +3,7 @@ title: Panoramica dell’analisi guidata
 description: Un metodo di analisi dei dati in Customer Journey Analytics che consente ai team di prodotto di ottenere rapidamente informazioni di alta qualità.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 75f946e65bfc0ccee4f173b699b14caced21bbaf
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -11,8 +11,6 @@ ht-degree: 2%
 ---
 
 # Panoramica dell’analisi guidata
-
-{{release-limited-testing}}
 
 L’analisi guidata è un formato di reporting che consente ai team di prodotto di gestire autonomamente e rapidamente le esigenze di dati, in modo da ottenere rapidamente informazioni di alta qualità e prendere decisioni sui prodotti più basate sui dati. I team cross-functional possono connettersi in tempo reale per utilizzare e comprendere questi rapporti.
 

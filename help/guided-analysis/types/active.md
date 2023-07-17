@@ -3,7 +3,7 @@ title: Visualizzazione attiva
 description: Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Visualizzazione attiva
-
-{{release-limited-testing}}
 
 Il **Attivo** fornisce informazioni sulla crescita e l’acquisizione degli utenti in un periodo specifico. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale è una misurazione degli utenti. Gli utenti sono suddivisi in quattro categorie:
 

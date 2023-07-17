@@ -2,7 +2,7 @@
 title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
-source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 2%
@@ -10,8 +10,6 @@ ht-degree: 2%
 ---
 
 # Vista versione
-
-{{release-limited-testing}}
 
 Il **Versione** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una determinata data. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 

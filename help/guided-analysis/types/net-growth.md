@@ -2,7 +2,7 @@
 title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -10,8 +10,6 @@ ht-degree: 0%
 ---
 
 # Visualizzazione della crescita netta
-
-{{release-limited-testing}}
 
 Il **Crescita netta** tipo di visualizzazione fornisce informazioni sul tasso di guadagno o perdita degli utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
 

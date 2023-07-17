@@ -2,7 +2,7 @@
 title: Visualizzazione tendenze di conversione
 description: Tieni traccia delle modifiche del tasso di conversione nel tempo.
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -10,8 +10,6 @@ ht-degree: 0%
 ---
 
 # Visualizzazione tendenze di conversione
-
-{{release-limited-testing}}
 
 Il **Tendenze di conversione** fornisce una visualizzazione con tendenze sui tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
