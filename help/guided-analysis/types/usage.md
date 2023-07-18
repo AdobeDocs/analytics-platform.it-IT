@@ -3,9 +3,9 @@ title: Visualizzazione utilizzo
 description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Usage] view
 
 Il **[!UICONTROL Usage]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
-
-Consulta la [!UICONTROL Usage] visualizza in azione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 

@@ -2,9 +2,9 @@
 title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Simile a [Attivo](active.md) tipo di visualizzazione, gli utenti sono definiti c
 >[!NOTE]
 >
 >Gli utenti ripetuti non sono presi in considerazione in questo calcolo, in quanto non rappresentano alcun guadagno o perdita di utenti.
-
-Consulta la [!UICONTROL Net growth] visualizza in azione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

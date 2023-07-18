@@ -3,9 +3,9 @@ title: Visualizzazione attiva
 description: Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ Il **Attivo** fornisce informazioni sulla crescita e l’acquisizione degli uten
 * **[!UICONTROL Dormant]**: l’utente era attivo nel periodo immediatamente precedente, ma non è attivo nel periodo corrente. Gli utenti inattivi non vengono conteggiati per il numero totale di utenti attivi.
 
 Tutti gli utenti attivi (nuovo + repeat + return) appaiono come una tonalità di rosso sopra l&#39;asse orizzontale, mentre tutti gli utenti inattivi appaiono in arancione sotto l&#39;asse orizzontale.
-
-Consulta la [!UICONTROL Active] visualizza in azione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 
