@@ -4,10 +4,10 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
+source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 60%
+source-wordcount: '1383'
+ht-degree: 59%
 
 ---
 
@@ -21,13 +21,11 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
 ## Creare una visualizzazione di flusso {#configure}
 
-1. Aggiungi un pannello vuoto al progetto e fai clic sull’icona delle visualizzazioni nella barra a sinistra.
-
-1. Trascina [!UICONTROL **Flusso**] nel pannello.
+1. Aggiungi un pannello vuoto al progetto, seleziona l’icona Visualizzazioni nella barra a sinistra, quindi trascina il [!UICONTROL **Flusso**] nel pannello.
 
    Oppure
 
-   Trascina [!UICONTROL **Flusso**] in un progetto esistente.
+   Aggiungi una visualizzazione con uno dei modi descritti nella sezione &quot;Aggiungere visualizzazioni a un pannello&quot; in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Ancorate la visualizzazione Flusso utilizzando una delle seguenti opzioni:
 
@@ -45,7 +43,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    >
    >Le metriche calcolate non possono essere utilizzate in  **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]** campi.
 
-1. Se scegli una metrica, devi anche fornire una [!UICONTROL Pathing Dimension] da utilizzare per utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
+1. Se scegli una metrica, devi anche fornire una [!UICONTROL **Dimension di percorsi**] da utilizzare come percorso che porta o parte dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
 
    ![dimensione del percorso](assets/pathing-dim.png)
 
