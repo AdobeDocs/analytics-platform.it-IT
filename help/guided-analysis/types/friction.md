@@ -3,9 +3,9 @@ title: Vista frizione
 description: Confronta i tassi di conversione tra passaggi.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 Il **Attrito** visualizza fornisce una rappresentazione visiva di un percorso di utenti critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti nell’ordine finale, ma possono essere eseguiti in qualsiasi momento all’interno dell’intervallo di reporting.
 
 ![Attrito](../assets/friction.png)
+
+## Vedere la vista Attrito in azione
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 
 ## Casi d’uso
 
@@ -29,16 +33,16 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **Passaggi**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-* **Persone**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
+* **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
+* **[!UICONTROL People]**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico
 
 La vista Attrito offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **Metrica**: ambito che desideri applicare al funnel. Le opzioni includono Sessioni e Utenti. Selezionando le sessioni, per poter essere conteggiati tutti i passaggi devono avvenire all’interno della stessa sessione. Selezionando gli utenti, tutti i passaggi devono avvenire nell’intervallo di reporting selezionato per essere conteggiati.
-* **Tipo di grafico**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono Passaggi.
-* **Conversione da**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione dal primo passaggio o dal passaggio precedente.
+* **[!UICONTROL Metric]**: ambito che desideri applicare al funnel. Le opzioni includono Sessioni e Utenti. Selezionando le sessioni, per poter essere conteggiati tutti i passaggi devono avvenire all’interno della stessa sessione. Selezionando gli utenti, tutti i passaggi devono avvenire nell’intervallo di reporting selezionato per essere conteggiati.
+* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono Passaggi.
+* **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione dal primo passaggio o dal passaggio precedente.
 
 ## Applica confronto temporale
 
@@ -50,5 +54,5 @@ La vista Attrito offre le seguenti impostazioni del grafico, che possono essere 
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
-* **Interval**: granularità della data in base alla quale visualizzare i dati con tendenze. Questa impostazione non influisce sulle viste senza tendenze, ad esempio Attrito.
-* **Data**: data di inizio e fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Questa impostazione non influisce sulle viste senza tendenze, ad esempio Attrito.
+* **[!UICONTROL Date]**: data di inizio e fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
