@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,24 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
    Quando si aggiungono componenti alla tabella, nella posizione del blocco di dati nel foglio di lavoro viene visualizzata un&#39;anteprima del blocco di dati. Il layout dell’anteprima dei blocchi di dati viene aggiornato automaticamente quando aggiungi, sposti o rimuovi elementi nella tabella.
 
    ![](./assets/image10.png)
+
+   **Visualizzare o nascondere le intestazioni di riga e di colonna**
+
+1. Fai clic sul comando Modifica blocco di dati nell’hub di Report Builder.
+
+1. Fai clic su **Tabella** impostazioni.
+
+   ![immagine segnaposto](./assets/table-settings.png){width="35%"}
+
+1. Seleziona o deseleziona l’opzione per Visualizzare le intestazioni di riga e colonna. Le intestazioni vengono visualizzate per impostazione predefinita.
+
+   **Nascondere o mostrare etichette dimensione e intestazioni metriche**
+
+1. Fai clic sull’icona dei puntini di sospensione sulle dimensioni o sulle intestazioni di colonna per visualizzare le impostazioni.
+
+   ![immagine segnaposto](./assets/row-heading.png){width="35%"}
+
+1. Fate clic su Nascondi (Hide) o Mostra (Show) per attivare/disattivare le etichette di quota o le intestazioni di colonna. Tutte le etichette sono visualizzate per impostazione predefinita.
 
 1. Clic **Fine**.
 

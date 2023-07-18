@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,47 @@ Puoi aggiungere o rimuovere filtri utilizzando le opzioni Aggiungi/Rimuovi.
 1. Fai clic su **Applica**.
 
    Il Report Builder aggiorna l’elenco dei filtri per riflettere la sostituzione.
+
+### Definire i filtri dei blocchi di dati dalla cella
+
+I blocchi di dati possono fare riferimento a filtri provenienti da una cella. Più blocchi di dati possono fare riferimento alla stessa cella per i filtri, consentendo di cambiare facilmente i filtri per più blocchi di dati alla volta.
+
+Per applicare filtri da una cella
+
+1. Passa al passaggio 2 nel processo di creazione o modifica dei blocchi di dati. Consulta [Creare un blocco di dati](./create-a-data-block.md).
+1. Fai clic su **Filtri** per definire i filtri.
+1. Clic **Crea filtro da cella**.
+
+   ![](./assets/create-filter-from-cell.png)
+
+1. Seleziona la cella dalla quale desideri che i blocchi di dati facciano riferimento a un filtro.
+
+1. Aggiungi alla cella la scelta di filtri che desideri aggiungere facendo doppio clic sul filtro o trascinandolo nella sezione Filtri inclusi.
+
+   Nota: è possibile selezionare una sola scelta per la cella specificata alla volta.
+
+   ![](./assets/select-filters.png)
+
+1. Clic **Applica** per creare la cella di riferimento.
+
+1. Dalla sezione **Filtri** , aggiungi il filtro della cella di riferimento appena creato al blocco di dati.
+
+   ![](./assets/reference-cell-filter.png)
+
+1. Fai clic su **Fine**.
+
+   Ora puoi fare riferimento a questa cella da altri blocchi di dati nei loro filtri. Per applicare la cella di riferimento come filtro ad altri blocchi di dati, è sufficiente aggiungere il riferimento di cella ai relativi filtri dalla scheda Filtri.
+
+#### Utilizza la cella di riferimento per modificare i filtri dei blocchi di dati
+
+1. Selezionare la cella di riferimento nel foglio di calcolo.
+
+1. Fai clic sul collegamento in **Filtri da cella** nel menu Modifica rapida.
+
+   ![](./assets/filters-from-cell-link.png)
+
+1. Seleziona il filtro dal menu a discesa.
+
+   ![](./assets/filter-drop-down.png)
+
+1. Fai clic su **Applica**.
