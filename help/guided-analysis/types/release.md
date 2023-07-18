@@ -2,9 +2,9 @@
 title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 2%
 
 Il **[!UICONTROL Release]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una determinata data. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 
-![del prossimo maggio (?)](../assets/release.png)
-
-## Vedi Visualizzazione del rilascio nell’azione
+Consulta la [!UICONTROL Release] visualizza in azione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
 

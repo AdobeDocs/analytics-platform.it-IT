@@ -2,16 +2,16 @@
 title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Visualizzazione della crescita netta
+# [!UICONTROL Net growth] view
 
-Il **Crescita netta** tipo di visualizzazione fornisce informazioni sul tasso di guadagno o perdita degli utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
+Il **[!UICONTROL Net growth]** tipo di visualizzazione fornisce informazioni sul tasso di guadagno o perdita degli utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
 
 Ogni punto dati rappresenta la crescita netta, calcolata con la seguente formula:
 
@@ -29,9 +29,7 @@ Simile a [Attivo](active.md) tipo di visualizzazione, gli utenti sono definiti c
 >
 >Gli utenti ripetuti non sono presi in considerazione in questo calcolo, in quanto non rappresentano alcun guadagno o perdita di utenti.
 
-![Crescita netta](../assets/net-growth.png)
-
-## Vedi la vista Crescita netta in azione
+Consulta la [!UICONTROL Net growth] visualizza in azione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 
