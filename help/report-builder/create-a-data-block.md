@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,6 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
    ![](./assets/image10.png)
 
    **Visualizzare o nascondere le intestazioni di riga e di colonna**
-
-1. Fai clic sul comando Modifica blocco di dati nell’hub di Report Builder.
 
 1. Fai clic su **Tabella** impostazioni.
 
