@@ -4,7 +4,7 @@ description: Utilizza un sottoinsieme di una stringa come elementi dimensionali.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 708dc7c69480534b118c8454d65a907946cfcce7
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl
 | Espressione | Descrizione |
 | --- | --- |
 | `a` | Un singolo carattere `a`. |
-| `a|b` | Un singolo carattere `a` o `b`. |
+| `a\|b` | Un singolo carattere `a` o `b`. |
 | `[abc]` | Un singolo carattere `a`, `b` o `c`. |
 | `[^abc]` | Qualsiasi carattere singolo eccetto `a`, `b` o `c`. |
 | `[a-z]` | Qualsiasi carattere singolo compreso nell’intervallo `a`-`z`. |
