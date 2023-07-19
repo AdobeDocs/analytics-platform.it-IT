@@ -3,9 +3,9 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '990'
 ht-degree: 33%
 
 ---
@@ -43,8 +43,6 @@ I filtri sequenziali ti consentono di identificare le persone in base alla navig
 >È necessario disporre di **Seleziona** per creare filtri sequenziali cross-channel. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore&#x200B;
 
 Ecco un esempio:
-
-<!--![](assets/sequential_fil.png)-->
 
 | Sessione uno | Sessione due | Sessione tre |
 | --- | --- | --- |
@@ -117,7 +115,7 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ## Modello di filtro preconfigurato {#template}
 
-La versione tradizionale di Analytics include numerosi filtri modelli di filtri e metriche calcolate pronti all’uso. Molti non sono applicabili al Customer Journey Analytics, oppure devono essere rinominati o ricreati. Altri dipendono da una soluzione per variabili in base al contesto in Customer Journey Analytics.
+La versione tradizionale di Analytics include numerosi modelli predefiniti e metriche calcolate. Molti non sono applicabili al Customer Journey Analytics, oppure devono essere rinominati o ricreati. Altri dipendono da una soluzione per variabili in base al contesto in Customer Journey Analytics.
 
 | Nome filtro | Descrizione |
 | --- | --- |
