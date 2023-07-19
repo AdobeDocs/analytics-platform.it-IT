@@ -4,9 +4,9 @@ description: Anteprima di progetti prototipo per Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '404'
 ht-degree: 90%
 
 ---
@@ -64,11 +64,6 @@ Per avviare e valutare un prototipo:
    ![nuova finestra feedback](assets/short-survey.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
-
-## Prototipi Customer Journey Analytics Labs
-
-* Generatore di informazioni dettagliate in linguaggio naturale: fornisce un riepilogo in linguaggio naturale dei dati che stai analizzando in una tabella a forma libera.
-* Funzione di suggerimento di visualizzazione: consiglia visualizzazioni che si associano bene ai tuoi dati.
 
 ## Informazioni aggiuntive
 
