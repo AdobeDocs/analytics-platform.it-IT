@@ -4,16 +4,16 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 59%
+source-wordcount: '2512'
+ht-degree: 57%
 
 ---
 
 # Creare una connessione
 
-Recentemente è stato lanciato un nuovo flusso di lavoro Connessioni in Customer Journey Analytics. La nuova esperienza di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro dello schermo con un flusso di lavoro facilitato. Hai fornito una selezione dei set di dati, una configurazione e un’esperienza di revisione dettagliate con informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato del batch, stato di backfill, ID persona e molto altro per ridurre il rischio di configurazione errata della connessione. Ecco una panoramica delle nuove funzionalità:
+L’esperienza di creazione e modifica della connessione porta tutte le impostazioni di configurazione del set di dati e della connessione al centro dello schermo con un flusso di lavoro facilitato. Fornisce una selezione dei set di dati, una configurazione e un’esperienza di revisione dettagliate con informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato del batch, stato di backfill, ID persona e molto altro per ridurre il rischio di configurazione errata della connessione. Ecco una panoramica delle funzionalità:
 
 * Quando si crea la connessione è possibile abilitare una finestra continua di conservazione dei dati.
 * È possibile aggiungere e rimuovere i set di dati da una connessione. Quando si rimuove un set di dati, questo viene rimosso dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
@@ -22,6 +22,10 @@ Recentemente è stato lanciato un nuovo flusso di lavoro Connessioni in Customer
 * Puoi importare dati esistenti per set di dati.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
+>[!IMPORTANT]
+>
+>È necessario disporre di **Seleziona** per aggiungere un numero illimitato di set di dati a una connessione. Il **Foundation** è limitato a un set di dati. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore&#x200B;
 
 ## Creare e configurare la connessione {#create-connection}
 

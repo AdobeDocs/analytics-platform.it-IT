@@ -3,9 +3,9 @@ title: Creare filtri
 description: Scopri l’interfaccia utente per la creazione di filtri.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 55%
 
 ---
@@ -23,7 +23,7 @@ Di seguito è riportato un riepilogo dei tipi di filtro disponibili, con collega
 | Applicare i filtri nell’analisi dell’abbandono | [Visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) in Analysis Workspace | Per singole visualizzazioni di abbandono | Puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri. |
 | Filtro basato su metriche calcolate | [Generatore di metrica calcolata](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | Per singola metrica calcolata | Applicare filtri nella definizione della metrica |
 
-Quando si applicano i filtri a un progetto a forma libera, sono disponibili diversi altri metodi:
+Quando si applicano filtri a un progetto a forma libera, sono disponibili anche diversi altri metodi:
 
 | Azione | Descrizione |
 | --- | --- |

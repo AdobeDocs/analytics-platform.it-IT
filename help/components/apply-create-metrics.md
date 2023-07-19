@@ -3,17 +3,16 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: a9751cad1ba49fe3e8c2c484e34d1725e063c2d4
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
 # Metriche
 
 Le metriche consentono di quantificare i punti dati in Analysis Workspace. Sono più comunemente utilizzate come colonne in una visualizzazione e legate alle dimensioni.
-
 
 ## Tipi di metriche
 

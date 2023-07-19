@@ -3,17 +3,17 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 34%
+source-wordcount: '992'
+ht-degree: 33%
 
 ---
 
 
 # Panoramica sui filtri {#overview}
 
-Customer Journey Analytics ti consente di generare, gestire e condividere filtri potenti e precisi del pubblico e di applicarli ai rapporti. I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. I filtri sono progettati come approfondimenti codificati del pubblico che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
+Customer Journey Analytics ti consente di generare, gestire e condividere filtri potenti e precisi del pubblico e di applicarli ai rapporti. I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni. I filtri sono progettati come approfondimenti codificati del pubblico che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
 
 I filtri possono essere basati su
 
@@ -37,6 +37,10 @@ Per informazioni sui tipi di filtri disponibili e su come crearli, consulta [Cre
 ## Filtri sequenziali {#sequential}
 
 I filtri sequenziali ti consentono di identificare le persone in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I filtri sequenziali consentono di identificare cosa piace a una persona e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione delle persone.
+
+>[!IMPORTANT]
+>
+>È necessario disporre di **Seleziona** per creare filtri sequenziali cross-channel. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore&#x200B;
 
 Ecco un esempio:
 
