@@ -3,7 +3,7 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
+source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 60%
@@ -85,7 +85,7 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming di Experience 
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenze nella pubblicazione di tipi di pubblico come descritto in [Considerazioni sulla latenza](#latency-considerations)](assets/latency-diagram.png)
+![Latenze nella pubblicazione di tipi di pubblico come descritto in questa sezione.](assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
