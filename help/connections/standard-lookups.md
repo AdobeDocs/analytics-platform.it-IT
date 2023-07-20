@@ -4,7 +4,7 @@ description: Utilizza le ricerche standard per migliorare i rapporti con dimensi
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 76%
@@ -20,7 +20,7 @@ Le ricerche standard (anche note come ricerche fornite da Adobe) migliorano la c
 
 In Adobe Analytics tradizionale, queste dimensioni vengono visualizzate autonomamente, mentre in Customer Journey Analytics, devi includere attivamente queste dimensioni quando crei le visualizzazioni dati. Nel flusso di lavoro Connessioni, seleziona un set di dati contrassegnato come un insieme di chiavi per la ricerca standard. L’interfaccia utente Visualizzazioni dati sa includere automaticamente tutte le dimensioni di ricerca standard disponibili per il reporting. I file di ricerca vengono aggiornati e sono disponibili automaticamente, in tutte le aree geografiche e per tutti gli account. Sono memorizzate in organizzazioni specifiche per l’area geografica associate al cliente.
 
-## Utilizzare le ricerche standard con i set di dati del connettore di origine di Adobe
+## Utilizzare le ricerche standard con i set di dati del connettore di origine di Analytics
 
 I set di dati di ricerca standard vengono applicati automaticamente al momento del rapporto. Se utilizzi il connettore di origine di Analytics e inserisci una dimensione per la quale Adobe fornisce una ricerca standard, questa ricerca standard verrà applicata automaticamente. Se un set di dati evento contiene campi XDM, possiamo applicarvi le ricerche standard.
 
