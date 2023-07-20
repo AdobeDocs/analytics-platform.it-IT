@@ -1,7 +1,8 @@
 ---
 title: Casi di utilizzo del settore
 description: Casi di utilizzo del settore per l’analisi guidata
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+feature: Guided Analysis
+source-git-commit: 99cd8847ec7e35e71e17ae9f69605bfcb00f2882
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 2%
