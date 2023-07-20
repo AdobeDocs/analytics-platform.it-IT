@@ -1,21 +1,21 @@
 ---
-title: Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics
+title: Confrontare la terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics
 description: Alcune differenze terminologiche
 solution: Customer Journey Analytics
 exl-id: f0f9aa1e-f9d2-4dcb-bbe9-7960412c094b
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 72%
+ht-degree: 67%
 
 ---
 
-# Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics
+# Confrontare la terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics
 
-Esistono alcune differenze terminologiche tra Adobe Analytics, Data Feeds, Connettore di origine di Analytics/Data Lake e Customer Journey Analytics. L&#39;argomento mira a evidenziare e chiarire tali differenze.
+Esistono alcune differenze terminologiche tra Adobe Analytics, Data Feeds, connettore di origine di Analytics/Data Lake e Customer Journey Analytics. L&#39;argomento mira a evidenziare e chiarire tali differenze.
 
-| Termini correlati | Adobe Analytics | Feed dati di Adobe Analytics | Connettore di sorgente di Analytics/Data Lake | Customer Journey Analytics | Note |
+| Termini correlati | Adobe Analytics | Feed dati di Adobe Analytics | Connettore di origine di Analytics/Data Lake | Customer Journey Analytics | Note |
 |---|---|---|---|---|---|
 | <ul><li>[!UICONTROL Hits]</li><li>[!UICONTROL Occurrences]</li><li>[!UICONTROL Records]</li><li>[!UICONTROL Events]</li></ul> | **[!UICONTROL Occurrences]** metrica<br><br>Vedi:<ul><li>[Termini utilizzati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=it)</li><li>[Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it)</li></ul> | Numero di righe (record) nel file di feed dati | Numero di righe (record) nel set di dati<br><br>Vedi:<ul><li>[Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=it)</li></ul> | **[!UICONTROL Events]** metrica | <ul><li>“Hit” e “occorrenza” sono sinonimi in Adobe Analytics.</li><li>Vedi _Eventi personalizzati_ di seguito.</li><li>Alcuni dati vengono filtrati mentre passano attraverso il connettore di origine di Analytics a Adobe Experience Platform. Consulta [Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=it) |
 | <ul><li>[!UICONTROL Unique Visitors]</li><li>[!UICONTROL Unique Devices]</li><li>[!UICONTROL Unique Cookies]</li></ul> | **[!UICONTROL Unique Visitors]** metrica<br><br>Vedi:<ul><li>[Termini utilizzati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=it)</li><li>[Visitatori univoci](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it)</li></ul> | Valori distinti di **post\_visid\_high &amp; post\_visid\_low** concatenati insieme.<br><br>Consulta:<ul><li>[Utilizzare i feed di dati per calcolare le metriche comuni](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-calculate.html?lang=it)</li></ul> | Conta distinto da **endUserIDs.\_experience.aaid.id** | Metrica **persone** se **endUserIDs.\_experience.aaid.id** viene scelto come ID persona. | <ul><li>In Adobe Analytics, una &quot;persona&quot; è solitamente associata a un &quot;identificatore del dispositivo&quot;, ad esempio un cookie. AAID è l’identificatore del dispositivo principale in Adobe Analytics, non ECID. Vedi anche [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=it).</li><li>&quot;Visitatore&quot; non è una metrica predefinita nel Customer Journey Analytics. Ma se si sceglie **endUserIDs.\_experience.aaid.id** come ID persona, la metrica Persone nel Customer Journey Analytics equivale all’incirca a Visitatori univoci in Adobe Analytics.</li></ul> |

@@ -4,10 +4,10 @@ description: Customer Journey Analytics - Domande frequenti.
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '2003'
-ht-degree: 68%
+source-wordcount: '2002'
+ht-degree: 70%
 
 ---
 
@@ -100,7 +100,7 @@ La licenza di Customer Journey Analytics consente di acquisire i dati in Experie
 
 +++**Come posso inserire i dati di [!UICONTROL Adobe Analytics] in [!UICONTROL Customer Journey Analytics]?**
 
-I dati di [!UICONTROL Adobe Analytics] possono essere collegati a Experience Platform tramite [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). La maggior parte dei campi [!UICONTROL Adobe Analytics] vengono trasferiti in formato XDM, ma alcuni campi non sono ancora disponibili.
+[!UICONTROL Adobe Analytics] I dati di possono essere collegati ad Experience Platform tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). La maggior parte dei campi [!UICONTROL Adobe Analytics] vengono trasferiti in formato XDM, ma alcuni campi non sono ancora disponibili.
 
 +++
 
@@ -133,9 +133,9 @@ No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è u
 
 <ul><li>Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in Adobe Experience Platform. (Dimensione batch &gt; 50 milioni di righe: più di 90 minuti).</li><li>Backfill di piccole dimensioni: entro 7 giorni<li>Backfill ampi: entro 30 giorni</li></ul>
 
-Abbiamo recentemente modificato il modo in cui i dati vengono elaborati nel Customer Journey Analytics:
+Di recente abbiamo modificato il modo in cui i dati vengono elaborati in Customer Journey Analytics:
 
-<ul><li>Viene inviato in streaming qualsiasi dato evento con una marca temporale precedente a 24 ore.</li><li>Qualsiasi dato evento con una marca temporale più vecchia di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come backfill e verrà acquisito con una priorità inferiore.</li></ul>
+<ul><li>Viene inviato in streaming qualsiasi dato evento con una marca temporale di non più di 24 ore.</li><li>Qualsiasi dato evento con una marca temporale antecedente alle 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come retrocompilazione e verrà acquisito con una priorità inferiore.</li></ul>
 
 ## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 

@@ -3,10 +3,10 @@ title: Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adob
 description: Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 58%
+ht-degree: 54%
 
 ---
 
@@ -29,7 +29,7 @@ Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di r
 
 Ad esempio, poiché &quot;visite&quot; come metrica in Adobe Analytics viene definita al momento dell’elaborazione dei dati e &quot;sessioni&quot; come metrica nel Customer Journey Analytics viene calcolata al momento della generazione del rapporto, le due metriche possono differire in base alle regole utilizzate per la definizione della sessione all’interno della visualizzazione dati del Customer Journey Analytics.
 
-Inoltre, né visite né sessioni sono disponibili come metriche nei set di dati creati dal connettore di origine di Analytics e pertanto è necessario definire la sessione nella logica di query per poter eseguire dei confronti.
+Inoltre, né visite né sessioni sono disponibili come metriche nei set di dati creati dal connettore di origine di Analytics e pertanto è necessario definire la sessione nella logica di query per poter effettuare confronti.
 
 ## Terminologia {#terms}
 

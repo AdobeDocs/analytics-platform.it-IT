@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 75%
+source-wordcount: '1447'
+ht-degree: 73%
 
 ---
 
@@ -44,7 +44,7 @@ Una connessione consente all’amministratore di Analytics di integrare nel Cust
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origini di Adobe Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare dati che in precedenza esistevano in suite di rapporti separate.
+Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli della suite di rapporti tramite il connettore di origine di Analytics o l’SDK web. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare dati che in precedenza esistevano in suite di rapporti separate.
 
 ## Modifiche al concetto di suite di rapporti virtuali {#data-views}
 

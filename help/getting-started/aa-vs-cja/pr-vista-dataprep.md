@@ -3,10 +3,10 @@ title: Regole di elaborazione, VISTA e classificazioni rispetto alla preparazion
 description: Scopri la trasformazione dei dati utilizzando le regole di elaborazione e VISTA rispetto all’utilizzo della preparazione dati
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 80%
+ht-degree: 65%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 Le [regole di elaborazione e le regole VISTA](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html?lang=it) di Adobe Analytics forniscono un mezzo per trasformare e manipolare i dati trasmessi nella [raccolta dati](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=it) di Adobe Analytics. Queste trasformazioni si verificano come parte dell’elaborazione dei dati di Adobe prima che i dati vengano memorizzati a scopo di reporting e analisi in Adobe Analytics.
 
-La [preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) è uno strumento che consente di applicare mappature e trasformazioni basate su righe ai dati acquisiti in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it). Successivamente, i dati sono messi a disposizione delle applicazioni per la produzione di Experienci Platform, tra cui il Customer Journey Analytics e altri. La preparazione dati è integrata con molti dei [connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it) di Platform, nonché con il [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore consente di inserire i dati della suite di rapporti da Adobe Analytics a Platform.
+La [preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it) è uno strumento che consente di applicare mappature e trasformazioni basate su righe ai dati acquisiti in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it). Successivamente, i dati sono messi a disposizione delle applicazioni per la produzione di Experienci Platform, tra cui il Customer Journey Analytics e altri. La preparazione dati è integrata con molte delle piattaforme [connettori sorgente](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it), nonché con [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore consente di inserire i dati della suite di rapporti da Adobe Analytics a Platform.
 
 ## Ulteriore trasformazione tramite la preparazione dati {#data-prep}
 

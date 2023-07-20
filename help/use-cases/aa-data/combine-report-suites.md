@@ -3,10 +3,10 @@ title: Combinare suite di rapporti con schemi diversi
 description: Scopri come utilizzare la preparazione dati per combinare suite di rapporti con schemi diversi
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -49,7 +49,7 @@ Questa situazione comporta rapporti privi di significato per eVar1 e eVar2:
 
 ## Utilizzare la preparazione dati di Adobe Experience Platform per risolvere le differenze di schema tra le suite di rapporti
 
-La funzionalità di Preparazione dati di Experience Platform è integrata con il connettore di origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Questo determina eVar con significati coerenti nella visualizzazione dati del Customer Journey Analytics. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle esigenze.
+La funzionalità di preparazione dati di Experience Platform è integrata con il connettore di origine di Analytics e può essere utilizzata per risolvere le differenze di schema descritte nello scenario precedente. Questo determina eVar con significati coerenti nella visualizzazione dati del Customer Journey Analytics. Le convenzioni di denominazione utilizzate di seguito possono essere personalizzate in base alle esigenze.
 
 1. Prima di creare i flussi di dati della connessione di origine per le suite di rapporti A e B, [Crea un nuovo schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it) in Adobe Experience Platform (lo chiameremo **Schema unificato** nel nostro esempio.) Aggiungi quanto segue allo schema:
 
@@ -102,7 +102,7 @@ Ora hai mappato eVar1 e eVar2 delle suite di rapporti di origine su tre nuovi ca
 
 >[!NOTE]
 >
->Il gruppo di campi personalizzato Campi unificati e le mappature dei campi associate possono essere aggiunti ai flussi di dati e ai set di dati esistenti del connettore di origine di Analytics in qualsiasi momento. Tuttavia, questo influisce solo sui dati futuri.
+>Il gruppo di campi personalizzato Campi unificati e le mappature dei campi associate possono essere aggiunti ai flussi di dati e ai set di dati del connettore di origine di Analytics esistenti in qualsiasi momento. Tuttavia, questo influisce solo sui dati futuri.
 
 ## Più di semplici suite di rapporti
 

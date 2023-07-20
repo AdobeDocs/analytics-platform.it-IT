@@ -1,13 +1,13 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 # Suite di rapporti virtuali, visualizzazioni dati, sandbox di Adobe Experience Platform e il connettore di origine di Analytics
 
-Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti sandbox. È utile comprendere le somiglianze e le differenze tra le seguenti funzioni e il modo in cui queste si relazionano al [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it):
+Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti sandbox. È utile comprendere le somiglianze e le differenze tra le seguenti funzioni e il modo in cui queste si relazionano al [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it):
 
 * Suite di rapporti virtuali di Adobe Analytics
 * Visualizzazioni dati Customer Journey Analytics
@@ -33,7 +33,7 @@ Una suite di rapporti virtuale non:
 
 * fornisce un mezzo per combinare le suite di rapporti;
 * è disponibile in Adobe Analytics Data Warehouse;
-* Disponibile come origine per i flussi di dati in Adobe Experience Platform tramite il connettore di origine di Analytics. solo le suite di rapporti complete (non virtuali) sono disponibili per l’uso con il connettore di origine di Analytics.
+* Disponibile come origine per i flussi di dati in Adobe Experience Platform tramite il connettore di origine di Analytics. Solo le suite di rapporti complete (non virtuali) sono disponibili per l’utilizzo con il connettore di origine di Analytics.
 
 
 ## Visualizzazioni dati Customer Journey Analytics
@@ -75,4 +75,4 @@ Una sandbox di Adobe Experience Platform non:
 Ulteriori informazioni:
 
 * I dati di sandbox diverse non possono essere combinati all’interno di un Customer Journey Analytics.
-* Il connettore di origine di Analytics invia i dati della suite di rapporti _in_ una sandbox specifica. Ogni suite di rapporti può essere configurata come origine per una singola sandbox. Consulta la [documentazione relativa al connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per ulteriori dettagli.
+* Il connettore di origine di Analytics invia i dati della suite di rapporti _in_ una sandbox specifica. Ogni suite di rapporti può essere configurata come origine per una singola sandbox. Consulta la [Documentazione del connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per ulteriori dettagli.

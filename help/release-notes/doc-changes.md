@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
-workflow-type: ht
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -84,10 +84,10 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Settembre 2022 | Nuovo argomento sui [grafici combinati](/help/analysis-workspace/visualizations/combo-charts.md) in Workspace. |
 | Settembre 2022 | Nuovo argomento sul [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) in Workspace. |
 | **Agosto 2022** | |
-| Agosto 2022 | Articolo Adobe Experience Platform sul [supporto per aree geografiche diverse per il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
+| Agosto 2022 | Articolo Adobe Experience Platform su [Supporto per aree geografiche diverse per il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). |
 | Agosto 2022 | Articolo con aggiornamenti importanti su [controllo degli accessi a Customer Journey Analytics](/help/admin/cja-access-control.md). |
 | Agosto 2022 | Nuovo articolo sul [Supporto di Customer Journey Analytics per etichette e criteri per la governance dei dati](/help/data-views/data-governance.md). |
-| Agosto 2022 | Nuovo articolo sul [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
+| Agosto 2022 | Nuovo articolo su [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/terminology.md). |
 | Agosto 2022 | Nuova documentazione sulla [Pubblicazione di tipi di pubblico su Real-time Customer Profile](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=it). |
 | **Luglio 2022** | |
 | Luglio 2022 | Documentazione del [pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it). |
@@ -95,7 +95,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Luglio 2022 | Documentazione del reporting per [Prima sessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat). |
 | **Giugno 2022** | |
 | Giugno 2022 | Nuovo articolo su [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=it) |
-| Giugno 2022 | Nuovo articolo su [tegole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati per il connettore di origine di Analytics di Adobe Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
+| Giugno 2022 | Nuovo articolo su [Regole di elaborazione, VISTA e classificazioni di Adobe Analytics rispetto alla preparazione dati per il connettore di origine di Analytics](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md). |
 | Giugno 2022 | Nuovo articolo sugli [ambienti virtuali di reporting e ambienti di sandbox](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
 | Giugno 2022 | Nuovo articolo sul [confronto dell’elaborazione dei dati tra le funzioni di reporting di Adobe Analytics e Customer Journey Analytics](/help/getting-started/aa-vs-cja/data-processing-comparisons.md). |
 | Giugno 2022 | Nuovo articolo sulla [combinazione di suite di rapporti con schemi diversi](/help/use-cases/aa-data/combine-report-suites.md). |

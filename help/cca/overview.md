@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 89%
+ht-degree: 85%
 
 ---
 
@@ -55,7 +55,7 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 * Le mappe ID personalizzate utilizzate nell’organizzazione non sono supportate.
 * Il grafico Privato cross-device non è supportato.
 * Analisi cross-channel non trasforma in alcun modo il campo utilizzato per l’unione. L’unione basata sui campi utilizza il valore nel campo specificato così come esiste nel set di dati non uniti all’interno del data lake. Il processo di creazione dei punti distingue tra maiuscole e minuscole. Ad esempio, se a volte nel campo viene visualizzata la parola “Bob” e a volte viene visualizzata la parola “BOB”, queste verranno trattate come due persone separate.
-* Dato che l’unione basata sui campi distingue tra maiuscole e minuscole, per i set di dati di Analytics generati tramite il connettore dati sorgente di Analytics Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
+* Dato che l’unione basata sui campi distingue tra maiuscole e minuscole, per i set di dati di Analytics generati tramite il connettore di origine di Analytics l’Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
 * L’unione basata sui campi non combina o concatena i campi.
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
