@@ -3,7 +3,7 @@ title: Domande frequenti sull’unione
 description: Domande frequenti sull’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -60,6 +60,8 @@ L’unione live è disponibile circa una settimana dopo l’attivazione dell’u
 [Analisi cross-device](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) è una funzione specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafico dei dispositivi.
 
 L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Unisce l’ID persona di un set di dati, consentendo di combinare facilmente tale set di dati con altri set di dati. Questa funzione opera in modo simile all’unione basata sui campi di analisi cross-device, ma l’implementazione è diversa a causa della diversa architettura dei dati tra Analytics tradizionale e Customer Journey Analytics. Consulta [Stitching](overview.md) e [analisi cross-channel](../use-cases/cross-channel/cross-channel.md) caso d’uso per ulteriori informazioni.
+
++++
 
 +++**In che modo Stitching gestisce le richieste RGPD e CCPA?**
 
