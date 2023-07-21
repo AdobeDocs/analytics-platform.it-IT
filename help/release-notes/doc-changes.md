@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: e55cd5d9da816b9413dba7542acb385f12709642
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 97%
+source-wordcount: '2347'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,12 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Luglio 2023** |
+| Adobe Product Analytics | Adobe Product Analytics è un nuovo modo di interagire con dati e approfondimenti cross-channel in Customer Journey Analytics. Queste nuove funzionalità consentono ai team di prodotto di gestire autonomamente dati e informazioni sulla propria esperienza di prodotto tramite [analisi guidata](/help/guided-analysis/overview.md) workflow&#x200B;. |
+| Campi derivati | A [campo derivato](/help/data-views/derived-fields/derived-fields.md) consente di definire al volo manipolazioni di dati (spesso complesse) tramite un generatore di regole personalizzabile. |
+| Supporto esteso della ricerca ai dati di profilo e di ricerca | Consente di aggiungere set di dati come ricerche di campi all’interno di set di dati di profilo o di ricerca. In precedenza erano supportati solo i set di dati evento. [Ulteriori informazioni](/help/connections/create-connection.md) |
+| Miglioramenti a Report Builder | <ul><li>[Filtra da cella per più blocchi di dati](/help/report-builder/select-data-view.md)</li><li>[Mostrare e nascondere le intestazioni di riga e di colonna](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=it#build-the-data-block)</li></ul> |
+| Ricerche geografiche di Experience Edge | [Adobe Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) : aggiunta di un servizio di ricerca geografica che fornisce dati geografici unificati a tutti gli utenti Experience Edge. |
 | **Giugno 2023** | |
 | Analisi e unione cross-channel | In previsione delle modifiche imminenti per abilitare l’unione e per chiarire ulteriormente come l’analisi cross-channel può essere migliorata utilizzando l’unione, la documentazione relativa alla funzionalità di analisi cross-channel viene modificata per fare riferimento all’[analisi cross-channel](../use-cases/cross-channel/cross-channel.md) come funzionalità e caso d’uso di Customer Journey Analytics e all’[Unione](../stitching/overview.md) come funzionalità importante per eseguire questa operazione. |
 | Accesso di Power BI e Tableau alle visualizzazioni dati di Customer Journey Analytics | Il connettore SQL di Customer Journey Analytics consente l’accesso SQL alle visualizzazioni dati definite in Customer Journey Analytics. [Ulteriori informazioni](/help/data-views/sql-connector.md) |
