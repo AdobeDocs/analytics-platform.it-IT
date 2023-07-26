@@ -3,7 +3,7 @@ title: Adobe Context-Aware Sessions
 description: Impostazioni in una visualizzazione dati da utilizzare per definire sessioni in base al contesto.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 6235fbb128098e2a624d5fd4fd72c2c583cfd277
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Le sessioni in base al contesto nelle visualizzazioni dati modificano il modo in cui il Customer Journey Analytics calcola le sessioni dai dati presenti nella connessione.
 
-All&#39;interno del [!UICONTROL Settings] di Visualizzazioni dati, puoi definire una sessione in qualsiasi modo per far corrispondere il modo in cui le persone interagiscono con le tue esperienze digitali. Le definizioni delle sessioni in base al contesto non sono distruttive e non alterano i dati sottostanti. Puoi impostare più visualizzazioni dati ciascuna con la rispettiva definizione di sessione in base al contesto, da usare come base per i progetti Workspace.
+All&#39;interno del [!UICONTROL Settings] di Visualizzazioni dati, puoi definire una sessione in qualsiasi modo per far corrispondere il modo in cui le persone interagiscono con le tue esperienze digitali. Le definizioni delle sessioni in base al contesto non sono distruttive e non alterano i dati sottostanti. Puoi impostare più visualizzazioni dati, ciascuna con la relativa definizione di sessione in base al contesto, come base per i progetti Workspace.
 
 Per definire il contesto di una sessione per una visualizzazione dati:
 
