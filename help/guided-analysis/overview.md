@@ -3,9 +3,9 @@ title: Panoramica dell’analisi guidata
 description: Un metodo di analisi dei dati in Customer Journey Analytics che consente ai team di prodotto di ottenere rapidamente informazioni di alta qualità. Denominato anche Product Analytics.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bbf69470727dae531065972511bcc29eb3f47679
+source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1097'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,9 @@ Se la tua organizzazione dispone del provisioning per l’analisi guidata, puoi 
 
 ## Interfaccia
 
-L’interfaccia per l’analisi guidata, indipendentemente dal tipo di analisi, comprende i seguenti elementi principali dell’interfaccia utente:
+L&#39;interfaccia per l&#39;analisi guidata segue il formato di domanda e risposta. La domanda viene formulata nella barra delle query, quindi viene fornita una risposta sotto forma di un&#39;analisi scritta, un grafico e una tabella. Puoi quindi porre la domanda successiva con le impostazioni di visualizzazione e i tipi di visualizzazione.
+
+Indipendentemente dal tipo di analisi, l’analisi guidata è composta dai seguenti elementi dell’interfaccia utente:
 
 | Anteprima interfaccia | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- | --- |
