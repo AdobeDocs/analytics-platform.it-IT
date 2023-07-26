@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e55cd5d9da816b9413dba7542acb385f12709642
+source-git-commit: 5e4bf2985a0ec75cc0120e2a9549d720077cd5cc
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 94%
+source-wordcount: '2359'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2023** |
+| Adobe Context-Aware Sessions | È stato aggiunto un argomento per questa impostazione di visualizzazione dati. [Ulteriori informazioni](/help/data-views/context-aware-sessions.md) |
 | Adobe Product Analytics | Adobe Product Analytics è un nuovo modo di interagire con dati e approfondimenti cross-channel in Customer Journey Analytics. Queste nuove funzionalità consentono ai team di prodotto di gestire autonomamente dati e informazioni sulla propria esperienza di prodotto tramite [analisi guidata](/help/guided-analysis/overview.md) workflow&#x200B;. |
 | Campi derivati | A [campo derivato](/help/data-views/derived-fields/derived-fields.md) consente di definire al volo manipolazioni di dati (spesso complesse) tramite un generatore di regole personalizzabile. |
 | Supporto esteso della ricerca ai dati di profilo e di ricerca | Consente di aggiungere set di dati come ricerche di campi all’interno di set di dati di profilo o di ricerca. In precedenza erano supportati solo i set di dati evento. [Ulteriori informazioni](/help/connections/create-connection.md) |
