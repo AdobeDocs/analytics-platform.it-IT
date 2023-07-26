@@ -4,10 +4,10 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
+source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 59%
+source-wordcount: '1428'
+ht-degree: 57%
 
 ---
 
@@ -56,17 +56,23 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    | **[!UICONTROL Wrap labels]** | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata. |
    | **[!UICONTROL Include repeat instances]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. <p>Questa opzione è disabilitata per impostazione predefinita.</p> |
    | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Vedi la sezione seguente, [Scenario di esempio per &quot;limit to first/last occurrence&quot; (limita alla prima/ultima occorrenza)](#example-scenario-for-limit-to-firstlast-occurrence), per una spiegazione più dettagliata. |
-   | **[!UICONTROL Number of columns]** | Il numero di colonne desiderato nel diagramma di flusso. |
-   | **[!UICONTROL Items expanded per column]** | Il numero di elementi desiderati in ogni colonna. |
+   | **[!UICONTROL Number of columns]** | Il numero di colonne desiderato nel diagramma di flusso. È possibile specificare un massimo di 5 colonne. |
+   | **[!UICONTROL Items expanded per column]** | Il numero di elementi desiderati in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
    | **[!UICONTROL Flow container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
 
-1. Seleziona **[!UICONTROL Build]** (Aggiungi gruppi di campi).
+   >[!IMPORTANT]
+   >
+   >La combinazione di **[!UICONTROL Number of columns]** e **[!UICONTROL Items expanded per column]** determina il numero di richieste sottostanti necessarie per creare la visualizzazione del flusso. Più alti sono questi numeri, più tempo sarà necessario per eseguire il rendering di una visualizzazione.
+
+
+1. Seleziona **[!UICONTROL Build]**.
 
 >[!INFO]
 >
 >**Esempio:** Supponiamo di voler tracciare il percorso seguito dagli utenti per le pagine più popolari del sito e da esse.
 >
 >Per eseguire questa operazione,
+>
 >1. Inizia a creare una visualizzazione di flusso come descritto in precedenza.
 >1. Trascina [!UICONTROL **Pagina**] dimensione in **[!UICONTROL Contains]** , quindi seleziona [!UICONTROL **Genera**].
 >1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e le pagine principali che precedono quella pagina (a destra del nodo attivo).
