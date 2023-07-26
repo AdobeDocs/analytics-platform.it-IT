@@ -4,9 +4,9 @@ description: Tutte le impostazioni disponibili per creare o modificare una visua
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
+source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1272'
 ht-degree: 57%
 
 ---
@@ -131,6 +131,6 @@ Puoi aggiungere dei filtri applicabili a un’intera visualizzazione dati. Quest
 
 ### Impostazioni di sessione
 
-Determina quanto tempo di inattività deve trascorrere tra gli eventi prima che la sessione scada e che venga iniziata una nuova sessione. È necessario specificare un periodo di tempo. Facoltativamente, puoi anche forzare l’inizio di una nuova sessione quando un evento contiene una determinata metrica.
+Determina quanto tempo di inattività deve trascorrere tra gli eventi prima che la sessione scada e che venga iniziata una nuova sessione. È necessario specificare un periodo di tempo. Facoltativamente, puoi anche forzare l’inizio di una nuova sessione quando un evento contiene una determinata metrica. Consulta [Sessioni in base al contesto](context-aware-sessions.md) per ulteriori dettagli.
 
 Una volta specificate tutte le impostazioni desiderate, fai clic su **[!UICONTROL Save and finish]**.
