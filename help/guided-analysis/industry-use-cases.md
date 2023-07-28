@@ -2,9 +2,9 @@
 title: Casi di utilizzo del settore
 description: Casi di utilizzo del settore per l’analisi guidata
 feature: Guided Analysis
-source-git-commit: 99cd8847ec7e35e71e17ae9f69605bfcb00f2882
+source-git-commit: 81ac3476be983ac5d2c7b19abeb618266f3148da
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ I casi di utilizzo per l’analisi guidata variano a seconda del settore. Questa
 | **Quantificare l’impatto delle nuove funzioni del flusso di prenotazione** | Abbiamo analizzato rapidamente l’impatto di una nuova funzione della fase di prenotazione sui tassi di conversione e identificato la parte dell’esperienza con i maggiori guadagni. | **Aumentare le tariffe di prenotazione.** Misura l’impatto aziendale invece dell’utilizzo delle sole funzioni. | [Vista impatto sulla versione](types/release.md) <p/><p/> [Vista frizione](types/friction.md) |
 | **Ottimizzare l’esperienza dell’app mobile** | Siamo stati in grado di comprendere in modo rapido e semplice i nostri utenti attivi mensili di app (MAU) nel tempo e identificare l’impatto positivo per versione. | **Aumentare le MAU.** Misura e aumenta l’utilizzo dell’app, che è correlato alla felicità del cliente. | [Visualizzazione crescita utenti attivi](types/active.md) <p/><p/> [Visualizzazione della crescita netta](types/net-growth.md) |
 | **Trova attrito nel flusso di check-in mobile** | La possibilità di individuare le persone che hanno successo o che hanno abbandonato il previsto processo di check-in su dispositivi mobili ci consente di identificare facilmente le aree per l’ottimizzazione dell’esperienza. | **Aumentare la CSAT e ridurre le IROP.** La rimozione degli attriti offre un’esperienza di &quot;giorno di viaggio&quot; più fluida. | [Vista frizione](types/friction.md) <p/><p/> [Visualizzazione tendenze di conversione](types/conversion-trends.md) |
-| **Deflettere le chiamate del call center** | Vedendo la mia esperienza di utente in una vista funnel mi ha mostrato dove i nostri utenti stavano raggiungendo attrito, che stava portando a costoso volume di call-center. Sapevamo dove dovevamo concentrarci. | **Riduzione dell&#39;utilizzo del call center.** Ottieni più esperienze utente con &quot;percorso felice&quot; e riduci i costi delle chiamate. | [Vista frizione](types/friction.md) <p/><p/> [Visualizzazione tendenze di conversione](types/conversion-trends.md) |
+| **Deflettere le chiamate del call center** | Vedendo la mia esperienza di utente in una vista funnel mi ha mostrato dove i nostri utenti stavano raggiungendo attriti, che stava portando a costosi volumi di call-center. Sapevamo dove dovevamo concentrarci. | **Riduzione dell&#39;utilizzo del call center.** Ottieni più esperienze utente con &quot;percorso felice&quot; e riduci i costi delle chiamate. | [Vista frizione](types/friction.md) <p/><p/> [Visualizzazione tendenze di conversione](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
@@ -72,6 +72,7 @@ I casi di utilizzo per l’analisi guidata variano a seconda del settore. Questa
 
 | Caso d’uso | Esempio | Impatto | Analisi |
 | --- | --- | --- | --- |
+| **Quantificare l&#39;impatto di nuovi programmi o serie** | Potremmo analizzare l’effetto sul pubblico dopo che gli utenti hanno guardato un nuovo spettacolo o una nuova serie e capire meglio quali contenuti stanno risuonando. | **Aumenta il pubblico.** Trova i contenuti che hanno il maggiore impatto sul pubblico. | [Vista primo utilizzo](types/first-use.md) |
 | **Identificare il rischio di abbandono** | Abbiamo visto un alto tasso di ricambio di clienti che si sono iscritti alla nostra piattaforma per guardare un evento stagionale e poi cancellato non appena l&#39;evento era finito. L’identificazione rapida di questi utenti ci consente di mostrare consigli che li inducono a rimanere coinvolti con la piattaforma. | **Mantieni gli abbonati felici.** Trova contenuti che coinvolgano un segmento di crescita per intervenire con i consigli. | [Visualizzazione crescita utenti attivi](types/active.md) <p/><p/> [Visualizzazione della crescita netta](types/net-growth.md) |
 | **Trova opportunità di upselling** | Grazie all&#39;aumento dei nostri profitti, siamo in grado di comprendere quali sono le offerte in-app più interessanti per i nostri tifosi, che si trovano allo stadio. | **Aumentare le entrate accessorie.** Comprendi l’impatto delle offerte in-app sulla guida dei comportamenti di acquisto. | [Vista primo utilizzo](types/first-use.md) <p/><p/> [Vista frizione](types/friction.md) |
 | **Ottimizzare l’esperienza cross-device** | Voglio essere in grado di analizzare il modo in cui i miei abbonati interagiscono con più dispositivi/app in modo da comprendere i modelli di consumo dei contenuti e determinare dove è meglio effettuare il retargeting. | **Personalizza l’esperienza.** Scopri quali contenuti risuonano meglio con gli abbonati su ogni dispositivo. | [Visualizzazione tendenze di utilizzo](types/usage.md) |
