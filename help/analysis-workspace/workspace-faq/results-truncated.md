@@ -3,16 +3,18 @@ title: Risultati Elemento dimensione troncato
 description: Spiega l’elemento dimensionale "Risultati troncati" e il motivo per cui viene visualizzato nel reporting.
 feature: FAQ
 exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
-source-git-commit: cf3c451cbefa7d6f9d5ea326c69fc2e5944881ff
+source-git-commit: f0fa126a23e6c99f89db82c91c98b6628d43a983
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 12%
 
 ---
 
 # Risultati Elemento dimensione troncato
 
-Quando si utilizza una dimensione contenente molti valori univoci, un rapporto può restituire un elemento dimensione etichettato **[!UICONTROL Results Truncated]**. Questo elemento dimensione indica che il rapporto richiesto conteneva troppi valori univoci affinché potesse essere elaborato in modo efficiente. Di conseguenza, rimuove gli elementi ritenuti meno importanti.
+Quando si utilizza una dimensione contenente molti valori univoci, i risultati del rapporto potrebbero essere troppo grandi per essere elaborati.  Per evitare rallentamenti in tutto il sistema, i risultati vengono troncati rimuovendo gli elementi ritenuti meno importanti.  Questo è indicato in un pannello a forma libera aggiungendo le parole &quot;più di&quot; nell’indicatore di paginazione, ad esempio &quot;Righe: 1-400 di più di 9.819.653&quot;.
+
+In alcuni casi, ad esempio per ordinare in base a una metrica calcolata, è impossibile stabilire quali elementi dimensionali siano i meno importanti.  In questo caso, sulla metrica calcolata viene inserita un’icona di avviso che spiega il problema e collega a [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/dimensions/high-cardinality.html?lang=en).
 
 ## Architettura di elaborazione del Customer Journey Analytics e valori univoci
 
@@ -22,7 +24,7 @@ Se un singolo server aggrega un set di risultati che supera una soglia di dimens
 
 Il server sceglie gli elementi dimensionali da eliminare in base alla metrica utilizzata per l’ordinamento. Se la metrica di ordinamento è una metrica calcolata, il server utilizza le metriche all’interno della metrica calcolata per determinare quali elementi dimensionali troncare. Poiché le metriche calcolate possono contenere diverse metriche di diversa importanza, i risultati possono essere meno precisi. Ad esempio, quando si calcola &quot;Ricavo per persona&quot;, l’importo totale delle entrate e il numero totale di persone vengono restituiti e aggregati prima di effettuare la divisione. Di conseguenza, ogni nodo sceglie gli elementi da rimuovere senza sapere in che modo i risultati influiscono sull’ordinamento complessivo.
 
-## Differenze tra &quot;Risultati troncati&quot; e &quot;Traffico ridotto&quot;
+## Differenze rispetto a &quot;Low-Traffic&quot;
 
 Nelle versioni precedenti di Adobe Analytics veniva utilizzata un’architettura di elaborazione diversa. I dati sono stati elaborati al momento della raccolta. Gli elementi di Dimension venivano inseriti in &quot;Low-Traffic&quot; dopo che una dimensione raggiungeva 500.000 valori univoci e applicavano un filtro più aggressivo a un milione di valori univoci. Il conteggio &quot;Valore univoco&quot; è stato reimpostato all’inizio di ogni mese di calendario. I dati trattati erano permanenti, non c’era modo di estrarre i dati esistenti da “Low-Traffic”.
 
