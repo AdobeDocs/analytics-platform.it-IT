@@ -3,7 +3,7 @@ title: Panoramica dell’analisi guidata
 description: Un metodo di analisi dei dati in Customer Journey Analytics che consente ai team di prodotto di ottenere rapidamente informazioni di alta qualità. Denominato anche Product Analytics.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
+source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -27,7 +27,7 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 | [!UICONTROL Funnel] | [Attrito](types/friction.md) | Confronta i tassi di conversione tra passaggi. |
 | [!UICONTROL Funnel] | [Tendenze di conversione](types/conversion-trends.md) | Tieni traccia delle modifiche nei tassi di conversione nel tempo. |
 | [!UICONTROL User growth] | [Attivo](types/active.md) | Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi. |
-| [!UICONTROL Net growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
+| [!UICONTROL User growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
 | [!UICONTROL Trends] | [Utilizzo](types/usage.md) | Misura il coinvolgimento degli utenti nel tempo. |
 
 {style="table-layout:auto"}
