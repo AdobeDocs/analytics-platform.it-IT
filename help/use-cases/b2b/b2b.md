@@ -4,10 +4,10 @@ description: Scopri come aggiungere dati basati su account come set di dati di r
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 72%
+source-wordcount: '805'
+ht-degree: 74%
 
 ---
 
@@ -62,7 +62,7 @@ Per questo esempio, stiamo combinando 3 set di dati in una connessione di Custom
 | Nome del set di dati | Descrizione | Classe schema Adobe Experience Platform | Dettagli del set di dati |
 | --- | --- | --- | --- |
 | Impression B2B | Contiene i dati clickstream, a livello di evento e a livello di account. Ad esempio, contiene l’ID e-mail e l’ID account corrispondente, nonché la denominazione commerciale, per l’esecuzione degli annunci di marketing. Include inoltre le impression per tali annunci, per utente. | In base alla classe dello schema ExperienceEvent XDM | `emailID` viene utilizzato come identità principale e assegnato allo spazio dei nomi `Customer ID`. Di conseguenza, verrà visualizzato come **[!UICONTROL Person ID]** (ID persona) predefinito in Customer Journey Analytics. ![Impression](../assets/impressions-mixins.png) |
-| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio la loro posizione lavorativa, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema XDM Individual Profile | In questo schema non è necessario selezionare `emailID` come ID principale. Assicurati di abilitare **[!UICONTROL Profile]**; in caso contrario, il Customer Journey Analytics non sarà in grado di collegare `emailID` nel profilo B2B con `emailID` nei dati di impression B2B. ![Profilo](../assets/profile-mixins.png) |
+| Profilo B2B | Questo set di dati di profilo offre ulteriori informazioni sugli utenti in un account, ad esempio la loro posizione lavorativa, l’account a cui appartengono, il loro profilo LinkedIn e così via. | In base alla classe di schema XDM Individual Profile | Seleziona `emailID` come ID primario in questo schema. |
 | Informazioni B2B | Consulta &quot;Creare set di dati di ricerca&quot; qui sopra. | Account B2B (classe di schema di ricerca personalizzata) | La relazione tra `accountID` e il set di dati Impression B2B è stato creato automaticamente collegando il set di dati Info B2B con il set di dati Impression B2B in Customer Journey Analytics, come descritto nei passaggi seguenti. ![Ricerca](../assets/lookup-mixins.png) |
 
 Ecco come combinare i set di dati:
