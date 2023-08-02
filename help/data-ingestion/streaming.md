@@ -4,10 +4,10 @@ description: Spiega come inserire e utilizzare i dati in streaming in Customer J
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 100%
+source-wordcount: '1839'
+ht-degree: 87%
 
 ---
 
@@ -30,20 +30,20 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa è una guida semplificata su come inserire dati in streaming in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire dati in streaming in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 ## Configurare uno schema e un set di dati
 
-Per inserire i dati in Adobe Experience Platform, innanzitutto devi definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
+Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
 
-Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
+Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati (in genere una tabella) che contiene uno schema (colonne) e dei campi (righe).
 
 Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere memorizzati come set di dati.
 
 ### Configurare uno schema
 
 Per questa introduzione, immagina di voler raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID di fidelizzazione, punti di fidelizzazione e stato di fidelizzazione.
-A questo scopo, devi innanzitutto definire uno schema che modelli questi dati.
+Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
@@ -90,7 +90,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identifcation-loyalty-field.png)
 
-   Aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail nei tuoi dati batch.
+   Questo oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail nei tuoi dati batch.
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -122,7 +122,7 @@ Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e s
 
 ### Configurare un set di dati
 
-Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Puoi farlo tramite i set di dati.
+Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati, che viene eseguito tramite set di dati.
 
 Per configurare il set di dati:
 
@@ -183,7 +183,7 @@ L’applicazione di origine invia in streaming i dati conformi allo schema creat
 }
 ```
 
-Per eseguire lo streaming di questi dati nel set di dati creato, devi definire un endpoint di streaming a cui inviare i dati. A tale scopo, definisci un connettore di origine API HTTP.
+Per inviare questi dati in streaming al set di dati creato, è necessario definire un endpoint di streaming per i dati da inviare a. Un endpoint di streaming viene creato utilizzando un connettore di origine API HTTP.
 
 Per creare un connettore di origine API HTTP:
 
@@ -227,7 +227,11 @@ Per creare un connettore di origine API HTTP:
 
 Puoi copiare l’URL dell’endpoint di streaming e usarlo per configurare la tua applicazione di fidelizzazione per lo streaming dei dati nel set di dati di fidelizzazione di Adobe Experience Platform.
 
-Consulta la sezione [Creare una connessione in streaming API HTTP utilizzando l’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it) per un tutorial molto più completo che spiega come utilizzare l’autenticazione, come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM e come creare un nuovo set di dati come parte della configurazione del connettore di streaming.
+Consulta [Creare una connessione streaming API HTTP tramite l’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it) per un tutorial molto più completo che illustra:
+
+- come utilizzare l’autenticazione,
+- come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM e
+- come creare un set di dati nell’ambito della configurazione del connettore di streaming.
 
 
 ## Configurare una connessione
@@ -337,7 +341,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] (Tabella a forma libera) in [!UICONTROL Panel] (Pannello) per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel] . Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

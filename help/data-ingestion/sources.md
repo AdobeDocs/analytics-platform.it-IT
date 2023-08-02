@@ -4,10 +4,10 @@ description: Spiega come inserire e utilizzare i dati utilizzando i connettori d
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 100%
+source-wordcount: '1806'
+ht-degree: 90%
 
 ---
 
@@ -31,21 +31,21 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa è una guida semplificata su come inserire i dati utilizzando un connettore di origine in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire i dati in Adobe Experience Platform utilizzando un connettore di origine e utilizzarli nel Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 
 ## Configurare uno schema e un set di dati
 
-Per inserire i dati in Adobe Experience Platform, innanzitutto devi definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
+Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce la struttura sotto forma di schemi.
 
-Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
+Una volta definito uno schema, utilizza uno o più set di dati per memorizzare e gestire la raccolta di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati (in genere una tabella) che contiene uno schema (colonne) e dei campi (righe).
 
 Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno schema predefinito prima di poter essere memorizzati come set di dati.
 
 ### Configurare uno schema
 
 Per questa introduzione, immagina di voler raccogliere alcuni dati relativi alla fidelizzazione, ad esempio ID di fidelizzazione, punti di fidelizzazione e stato di fidelizzazione.
-A questo scopo, devi innanzitutto definire uno schema che modelli questi dati.
+Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
@@ -92,7 +92,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identifcation-loyalty-field.png)
 
-   Aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail nei tuoi dati batch.
+   Questo oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail nei tuoi dati batch.
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -124,7 +124,7 @@ Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e s
 
 ### Configurare un set di dati
 
-Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati. Puoi farlo tramite i set di dati.
+Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per memorizzare e gestire tali dati, che viene eseguito tramite set di dati.
 
 Per configurare il set di dati:
 
@@ -173,7 +173,7 @@ Per configurare un connettore di origine:
 
    - **[!UICONTROL Select data]** (Seleziona dati): seleziona i dati di origine da inserire.
 
-   - **[!UICONTROL Dataflow detail]** (Dettagli del flusso di dati): fornisci ulteriori dettagli sul flusso di dati, ad esempio il nome e il set di dati da utilizzare.
+   - **[!UICONTROL Dataflow detail]**: fornisci ulteriori dettagli sul flusso di dati, ad esempio il nome e il set di dati da utilizzare.
 
    - **[!UICONTROL Mapping]** (Mappatura): puoi mappare i campi dei dati di origine in arrivo agli attributi dello schema associato al set di dati selezionato.
 
@@ -305,7 +305,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] (Tabella a forma libera) in [!UICONTROL Panel] (Pannello) per creare il primo rapporto. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel] . Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 
