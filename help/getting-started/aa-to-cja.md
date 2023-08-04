@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 75%
+source-wordcount: '1480'
+ht-degree: 73%
 
 ---
 
@@ -34,7 +34,7 @@ Nei set di dati come Adobe Analytics, è possibile che un’identità non esista
 
 ### 2. Allineare le variabili {#variables}
 
-Il metodo più semplice per trasformare i dati di Adobe Analytics in dati di Customer Journey Analytics è quello di acquisire un [suite di rapporti globale](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=it) in Experience Platform utilizzando [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore mappa le variabili di Adobe Analytics direttamente su un set di dati e uno schema XDM in Experience Platform, che a sua volta può essere facilmente connesso a Customer Journey Analytics.
+Il metodo più semplice per trasformare i dati di Adobe Analytics in dati di Customer Journey Analytics è quello di acquisire un [suite di rapporti globale](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=it) in Experienci Platform utilizzando [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it). Questo connettore mappa le variabili di Adobe Analytics direttamente su un set di dati e uno schema XDM in Experience Platform, che a sua volta può essere facilmente connesso a Customer Journey Analytics.
 
 A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale completa potrebbe non essere sempre fattibile. Se intendi portare in Customer Journey Analytics più suite di rapporti, puoi scegliere tra 2 approcci:
 
@@ -56,7 +56,9 @@ Le impostazioni tradizionali del canale di marketing di Adobe Analytics non funz
 
 Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=it). Questi consigli aggiornati consentono di sfruttare al massimo le funzionalità già presenti in Adobe Analytics con Attribution IQ. Inoltre ti saranno utili per prepararti per una transizione di successo a Customer Journey Analytics.
 
-### 4. Decidere se utilizzare il connettore di origine di Analytics o gli SDK Experience Platform {#connector-vs-sdk}
+Con l&#39;introduzione di [Campi derivati](../data-views/derived-fields/derived-fields.md) come parte delle visualizzazioni dati di Customer Journey Analytics, i canali di marketing sono supportati anche in modo non distruttivo e retroattivo utilizzando [Modello di funzione Canale di marketing](../data-views/derived-fields/derived-fields.md#function-templates).
+
+### 4. Decidere se utilizzare il connettore di origine di Analytics o gli SDK Experienci Platform {#connector-vs-sdk}
 
 I clienti di Adobe Analytics possono facilmente sfruttare le loro suite di rapporti in Adobe Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine di Analytics. Per informazioni sull’utilizzo del connettore di origine di Analytics, consulta la guida rapida su come [acquisire dati da Adobe Analytics e utilizzarli in Customer Journey Analytics](../data-ingestion/analytics.md). Per ulteriori informazioni, vedi anche [Creare una connessione origine Adobe Analytics nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it).
 
