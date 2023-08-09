@@ -4,9 +4,9 @@ description: Configura la formattazione di una metrica.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3626a9f97048b68a57fca25fec396684c4f95449
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '499'
 ht-degree: 29%
 
 ---
@@ -23,12 +23,11 @@ Il formato consente di determinare la modalità di visualizzazione di una data m
 | **[!UICONTROL Decimal Places]** | Non visibile sui tipi di dati dello schema a numero intero. Consente di specificare il numero di posizioni decimali visualizzate da una metrica. |
 | **[!UICONTROL Date]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
 | **[!UICONTROL Date-Time]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-| **[!UICONTROL Currency]** | Consente di determinare la valuta con cui visualizzare la metrica. Consulta [Valuta](#currency) ulteriori dettagli. |
+| **[!UICONTROL Currency]** | Consente di determinare la valuta con cui visualizzare la metrica. Consulta [Valuta](#currency) per ulteriori dettagli. |
 | **[!UICONTROL Show upward trend as]** | Consente di specificare se la tendenza verso l’alto per questa metrica è positiva (verde) o negativa (rossa). |
 | **[!UICONTROL True value]** e **[!UICONTROL False value]** | Visibile solo sui tipi di dati dello schema booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
 
 {style="table-layout:auto"}
-
 
 ## Valuta
 
@@ -66,7 +65,7 @@ Per definire come convertire e visualizzare una valuta per una metrica:
 
 1. Immetti il numero di **[!UICONTROL Decimal places]**.
 
-1. Seleziona **[!UICONTROL Convert Concurrency]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Convert Concurrency]**.
 
 1. Seleziona la dimensione appropriata dall’elenco di dimensioni contenente il campo codice valuta.
 
