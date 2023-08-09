@@ -1,56 +1,40 @@
 ---
-title: Dimension con cardinalità molto elevata nel Customer Journey Analytics
-description: Descrive le best practice per gestire le dimensioni ad alta cardinalità nel Customer Journey Analytics
+title: Dimensioni ad alta cardinalità
+description: Spiega come il Customer Journey Analytics gestisce le dimensioni con molti valori univoci
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '514'
+ht-degree: 7%
 
 ---
 
-# Dimensioni con cardinalità molto elevata
+# Dimensioni ad alta cardinalità
 
-Il Customer Journey Analytics (Customer Journey Analytics) non pone limiti al numero di valori univoci o elementi dimensionali che possono essere segnalati all’interno di una singola dimensione. Tuttavia, in alcune circostanze, le dimensioni con un numero estremamente elevato di elementi univoci, note anche come dimensioni ad alta cardinalità, possono influire su ciò che può essere riportato.
+Quando si utilizza una dimensione contenente molti valori univoci, il rapporto risultante può contenere troppi elementi dimensionali univoci da visualizzare o calcolare. I risultati vengono troncati rimuovendo gli elementi dimensionali ritenuti meno importanti. Queste ottimizzazioni vengono eseguite per mantenere le prestazioni di progetto e prodotto.
 
-## Limitazioni
+Quando richiedi un rapporto con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione che indica che non tutti gli elementi dimensionali sono inclusi. Ad esempio, &quot;Righe: da 1 a 50 su oltre 22.343.156&quot;. La parola chiave &quot;più di&quot; indica che è stata applicata una certa ottimizzazione al rapporto per restituire gli elementi dimensionali più importanti.
 
-A seconda del numero di eventi in una connessione di Customer Journey Analytics specifica, possono verificarsi le due limitazioni seguenti in combinazione con dimensioni ad alta cardinalità:
+![Anteprima area di lavoro](assets/high-cardinality.png)
 
-### 1. I conteggi delle righe potrebbero non essere segnalati con precisione
+## Determinazione degli elementi dimensionali da visualizzare
 
-I conteggi delle righe per le dimensioni ad alta cardinalità potrebbero non essere segnalati con precisione. In questo caso, le tabelle a forma libera forniranno un’indicazione, come illustrato di seguito:
+Il Customer Journey Analytics elabora i rapporti al momento dell’esecuzione, distribuendo il set di dati combinato a più server. I dati per server di elaborazione sono raggruppati per ID persona, il che significa che un singolo server di elaborazione contiene tutti i dati per una determinata persona. Al termine dell’elaborazione, il server consegna il sottoinsieme di dati elaborati a un server aggregatore. Tutti i sottoinsiemi di dati elaborati vengono combinati e restituiti sotto forma di un rapporto Workspace.
 
-![](assets/high-cardinality.png)
+Se un singolo server elabora dati che superano una soglia univoca, i risultati vengono troncati prima di restituire il sottoinsieme di dati elaborato. Gli elementi dimensionali troncati vengono determinati in base alla metrica utilizzata per l’ordinamento.
 
-### 2. Le metriche calcolate possono utilizzare stime per alcune funzioni e per l’ordinamento
+Se la metrica di ordinamento è una metrica calcolata, il server utilizza le metriche all’interno della metrica calcolata per determinare quali elementi dimensionali troncare. Poiché le metriche calcolate possono contenere diverse metriche di diversa importanza, i risultati possono essere meno precisi. Ad esempio, quando si calcola &quot;Ricavo per persona&quot;, l’importo totale delle entrate e il numero totale di persone vengono restituiti e aggregati prima di effettuare la divisione. Di conseguenza, ogni singolo server di elaborazione sceglie gli elementi da rimuovere senza sapere in che modo i risultati influiscono sull’ordinamento complessivo.
 
-Se utilizzate con dimensioni altamente cardinali, alcune funzioni della metrica calcolata possono restituire stime, tra cui: Massimo colonna, Minimo colonna, Conteggio righe, Media, Mediana, Percentile, Quartile, Deviazione standard, Varianza, Funzioni di regressione e Funzioni T e Z.
+Anche se alcuni singoli elementi dimensionali potrebbero mancare nei rapporti con cardinalità elevata, i totali delle colonne sono accurati e non basati su dati troncati. Anche la funzione &quot;Count Distinct&quot; nelle metriche calcolate non è interessata dagli elementi dimensionali troncati.
 
-Inoltre, l’ordinamento di una colonna di tabella utilizzando una metrica calcolata può essere basato su una stima e non sempre riflettere l’esatto ordinamento. Verrà visualizzato un messaggio di avviso per avvisarti che potrebbero essere state utilizzate delle stime.
+## Best practice per dimensioni ad alta cardinalità
 
-Tieni presente che anche se le metriche calcolate possono talvolta restituire stime, i totali delle colonne sono sempre accurati e non si basano mai su stime. Allo stesso modo, quando si utilizzano metriche standard, le stime non vengono mai utilizzate e riflettono sempre ordini esatti.
+Il modo migliore per adattarsi a dimensioni ad alta cardinalità consiste nel limitare il numero di elementi dimensionali elaborati da un rapporto. Poiché tutti i rapporti vengono elaborati al momento della richiesta, è possibile modificare i parametri per i risultati immediati. L’Adobe consiglia una delle seguenti ottimizzazioni per le dimensioni ad alta cardinalità:
 
-### Dove vengono considerati tutti i valori di dimensione
-
-Anche se esistono limitazioni ad alcune metriche calcolate e ai conteggi delle righe delle dimensioni, tieni presente che le seguenti funzionalità considerano sempre tutti i valori univoci in qualsiasi dimensione, indipendentemente dal fatto che una dimensione sia altamente cardinale o meno:
-
-* Attribuzione delle metriche e allocazione delle dimensioni
-* Ricerche di voci applicate a una tabella a forma libera
-* Filtri che utilizzano dimensioni o elementi dimensionali
-* Funzione di conteggio distinto approssimativo nelle metriche calcolate
-* Logica di inclusione/esclusione applicata a qualsiasi metrica o dimensione all’interno di una visualizzazione dati
-* Ricercare set di dati aggiunti a una connessione
-
-## Best practice per l’utilizzo di dimensioni ad alto numero di cardinali
-
-Per eliminare le avvertenze o le stime che possono verificarsi quando si utilizzano dimensioni con cardinalità elevata, si consiglia di limitare il numero di righe considerate nel rapporto, utilizzando uno dei seguenti metodi:
-
-* Aggiungi un filtro alla colonna o al pannello interessato.
-* Applicare una ricerca alla tabella a forma libera.
-* Applica un raggruppamento alle righe di interesse oppure utilizza la dimensione altamente cardinale come dimensione di raggruppamento.
-* Aggiungi criteri di inclusione/esclusione alla configurazione della visualizzazione dati della dimensione per limitare il numero di valori univoci presenti nella dimensione.
-
-L’utilizzo di queste tecniche spesso può eliminare qualsiasi stima o avviso indesiderato riscontrato durante l’utilizzo di dimensioni ad alta cardinalità.
+* Utilizza un [Filtro](/help/components/filters/create-filters.md). I filtri si applicano al momento in cui ogni server elabora un sottoinsieme di dati.
+* Utilizza una ricerca. Gli elementi di Dimension esclusi dal termine di ricerca vengono rimossi dai risultati del rapporto, rendendo più probabile la visualizzazione degli elementi dimensionali desiderati.
+* Utilizza una dimensione del set di dati di ricerca. Le dimensioni del set di dati di ricerca combinano elementi dimensionali del set di dati evento, che limitano il numero di valori univoci restituiti.
+* Utilizza il [Includi/escludi](/help/data-views/component-settings/include-exclude-values.md) impostazione del componente in gestione visualizzazione dati.
+* Abbreviare l’intervallo di date della richiesta. Se molti valori univoci si accumulano nel tempo, la riduzione dell’intervallo di date del rapporto Workspace può limitare il numero di valori univoci da elaborare per i server.

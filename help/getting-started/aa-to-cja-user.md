@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1446'
 ht-degree: 73%
 
 ---
@@ -38,7 +38,7 @@ Il Customer Journey Analytics ottiene i dati da Adobe Experience Platform. Exper
 
 In Experience Platform, i dati dei clienti vengono memorizzati come set di dati, costituiti da uno [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=it) e da batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
-L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e costituiscono la base del reporting nel Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
+L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experienci Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e costituiscono la base del reporting nel Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
 Una connessione consente all’amministratore di Analytics di integrare nel Customer Journey Analytics i set di dati da Adobe Experience Platform, inclusi nel video seguente:
 
@@ -110,4 +110,4 @@ Il Customer Journey Analytics estende i concetti di identità oltre gli ECID per
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 
-In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. Il Customer Journey Analytics presenta meno limitazioni per i campi ad alta cardinalità. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Consulta [Risultati Elemento dimensione troncato](../analysis-workspace/workspace-faq/results-truncated.md) per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con molti valori univoci.
+In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. Il Customer Journey Analytics presenta meno limitazioni per i campi ad alta cardinalità. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Consulta [Dimensioni ad alta cardinalità](../components/dimensions/high-cardinality.md) per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con molti valori univoci.
