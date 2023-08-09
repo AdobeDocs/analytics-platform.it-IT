@@ -4,10 +4,10 @@ description: Tutte le impostazioni disponibili per creare o modificare una visua
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 57%
+source-wordcount: '1299'
+ht-degree: 56%
 
 ---
 
@@ -116,6 +116,11 @@ Se trascini una cartella di campi schema dalla barra a sinistra, vengono dispost
 Puoi filtrare ![Icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) campi schema nella barra a sinistra per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] criteri ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
 
 ![Filtrare i campi](assets/dataview-components-filter.png)
+
+>[!TIP]
+>
+>Se i componenti non vengono caricati correttamente nella visualizzazione dati e viene invece visualizzato un messaggio di errore, consulta [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md) risoluzione.
+
 
 
 ## Impostazioni
