@@ -3,7 +3,7 @@ title: Panoramica sull’unione
 description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 25%
@@ -24,6 +24,8 @@ Puoi trarre vantaggio dall’analisi cross-channel se combini uno o più set di 
 
 
 ## Prerequisiti
+
+{{select-package}}
 
 >[!IMPORTANT]
 >

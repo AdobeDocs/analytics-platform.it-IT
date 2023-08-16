@@ -4,7 +4,7 @@ description: Un campo derivato specifica la manipolazione in fase di report dei 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: bd017810cb0f7813bdada5e3e951b0f6d5b768e4
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '4165'
 ht-degree: 13%
@@ -154,6 +154,8 @@ Per utilizzare il modello, è necessario specificare i parametri corretti per og
 -->
 
 ## Riferimento funzione
+
+{{select-package}}
 
 Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 

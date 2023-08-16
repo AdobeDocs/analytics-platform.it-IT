@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # Creare e gestire set di dati uniti
+
+{{select-package}}
 
 L’unione consente agli amministratori di unire le identità sui set di dati disponibili nel Customer Journey Analytics. L’unione dei set di dati aumenta la precisione della rappresentazione di un profilo, con conseguente miglioramento dell’analisi e del reporting.
 
