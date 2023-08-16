@@ -4,7 +4,7 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 36%
@@ -55,7 +55,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Pubblicazione dei tipi di pubblico (Pubblicazione dei segmenti) | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
 | Classificazioni | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate nell’Experience Platform e nel Customer Journey Analytics utilizzando il connettore di origine delle classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in Experienci Platform e resi disponibili nel Customer Journey Analytics. |
 | Generatore regole di classificazione | Supportato tramite [sottostringhe](/help/data-views/component-settings/substring.md) nel Customer Journey Analytics. Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
-| Sessionizzazione personalizzata | La sessionizzazione personalizzata può essere configurata tramite [Impostazioni sessione](../../data-views/create-dataview.md#session-settings) in una visualizzazione dati. Consulta  [Sessioni in base al contesto](../../data-views/context-aware-sessions.md) per ulteriori informazioni. <br/>La gestione degli eventi in background per dispositivi mobili è supportata tramite l’SDK di Adobe Experience Platform Mobile. Consulta [Ciclo di vita per Edge Network](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) per ulteriori informazioni. |
+| Sessionizzazione personalizzata | La sessionizzazione personalizzata può essere configurata tramite [Impostazioni sessione](../../data-views/create-dataview.md#session-settings) in una visualizzazione dati. Consulta  [Impostazioni sessione](../../data-views/session-settings.md) per ulteriori informazioni. <br/>La gestione degli eventi in background per dispositivi mobili è supportata tramite l’SDK di Adobe Experience Platform Mobile. Consulta [Ciclo di vita per Edge Network](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) per ulteriori informazioni. |
 | Conversione valuta | Supportato come parte di [formattazione di un componente metrica](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) in una visualizzazione dati. |
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
 | Attributi cliente | Ora detti &quot;Set di dati profilo&quot;, non vengono importati automaticamente da Experience Cloud, ma devono essere caricati in Experienci Platform prima di poter essere disponibili in Customer Journey Analytics. |

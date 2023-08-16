@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '2465'
 ht-degree: 90%
@@ -24,7 +24,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Evoluzione da Adobe Analytics | È stato aggiornato il *(Ri)Configurare I Canali Di Marketing* sezione con un riferimento al modello di funzione Campi derivati Canali di marketing. [Ulteriori informazioni](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guide rapide all’acquisizione dei dati per applicazioni mobili e altre piattaforme | Sono state aggiunte ulteriori guide introduttive sull’acquisizione dei dati che descrivono come acquisire e utilizzare dati da applicazioni mobili o altre piattaforme (come applicazioni desktop, giochi su console, applicazioni su set-top box e dispositivi IoT) in Customer Journey Analytics. [Ulteriori informazioni](../data-ingestion/data-ingestion.md) |
 | **Luglio 2023** | |
-| Adobe Context-Aware Sessions | È stato aggiunto un argomento per questa impostazione di visualizzazione dati. [Ulteriori informazioni](/help/data-views/context-aware-sessions.md) |
+| Impostazioni di sessione | È stato aggiunto un argomento per questa impostazione di visualizzazione dati. [Ulteriori informazioni](/help/data-views/session-settings.md) |
 | Adobe Product Analytics | Adobe Product Analytics è un nuovo modo di interagire con dati e approfondimenti cross-channel in Customer Journey Analytics. Queste nuove funzionalità consentono ai team di prodotto di gestire autonomamente dati e informazioni sulla propria esperienza di prodotto tramite [analisi guidata](/help/guided-analysis/overview.md) workflow&#x200B;. |
 | Campi derivati | A [campo derivato](/help/data-views/derived-fields/derived-fields.md) consente di definire al volo manipolazioni di dati (spesso complesse) tramite un generatore di regole personalizzabile. |
 | Supporto esteso della ricerca ai dati di profilo e di ricerca | Consente di aggiungere set di dati come ricerche di campi all’interno di set di dati di profilo o di ricerca. In precedenza erano supportati solo i set di dati evento. [Ulteriori informazioni](/help/connections/create-connection.md) |
