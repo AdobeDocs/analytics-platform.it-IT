@@ -3,10 +3,10 @@ title: Domande frequenti sull’unione
 description: Domande frequenti sull’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 35%
+source-wordcount: '1299'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condiv
 
 In alcune situazioni, un singolo utente può essere associato a più ID persistenti. Un esempio è la cancellazione frequente dei cookie del browser o l’utilizzo della modalità privata/in incognito del browser.
 
-Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di Customer Journey Analytics di eseguire unioni tra dispositivi.
+Il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità del Customer Journey Analytics di eseguire unioni tra dispositivi diversi.
 
 +++
 
@@ -78,6 +78,27 @@ Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID
 
 +++
 
+
++++**Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, ad esempio &quot;Non definito&quot;?**
+
+Presta attenzione alla &quot;compressione della persona&quot; che si verifica quando l’unione viene applicata a dati che utilizzano valori segnaposto per ID transitori. Nella tabella di esempio seguente, gli ID persona non definiti provenienti da un set di dati originato da un sistema di gestione delle relazioni con i clienti vengono compilati con il valore &quot;Non definito&quot;, dando luogo a una rappresentazione errata delle persone.
+
+| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo la riproduzione) |
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 123 | - | **Cory** |
+| 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
+| 3 | 2023-05-12 12:03 | 456 | Non definito | **Non definito** |
+| 4 | 2023-05-12 12:04 | 456 | - | **Non definito** |
+| 5 | 2023-05-12 12:05 | 789 | Non definito | **Non definito** |
+| 6 | 2023-05-12 12:06 | 012 | Non definito | **Non definito** |
+| 7 | 2023-05-12 12:07 | 012 | - | **Non definito** |
+| 8 | 2023-05-12 12:03 | 789 | Non definito | **Non definito** |
+| 9 | 2023-05-12 12:09 | 456 | - | **Non definito** |
+| 10 | 2023-05-12 12:02 | 123 | - | **Cory** |
+| | | **4 dispositivi** | **2 persone**:<br/>Eventi 1, 4, 7, 9, 10 eliminati | **2 persone**:<br/>Cory, non autenticato (compresso a una persona) |
+
++++
+
 +++**In che modo le metriche nei set di dati con unione di Customer Journey Analytics si confrontano con metriche simili nei set di dati senza unione di Customer Journey Analytics e con Adobe Analytics?**
 
 Alcune metriche in Customer Journey Analytics sono simili alle metriche nella versione tradizionale di Analytics, ma altre sono diverse, a seconda del confronto. La tabella seguente confronta diverse metriche comuni:
@@ -86,7 +107,7 @@ Alcune metriche in Customer Journey Analytics sono simili alle metriche nella ve
 | ----- | ----- | ----- | ----- |
 | **Persone** = numero di ID persona distinti in cui l’ID unione è scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona nel Customer Journey Analytics. | **Visitatori unici** = numero di ID visitatore distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
 | **Sessioni**: definito in base alle impostazioni di sessione nella visualizzazione dati del Customer Journey Analytics. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definito in base alle impostazioni di sessione specificate nella visualizzazione dati del Customer Journey Analytics. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=it). |
-| **Eventi** = conteggio delle righe nei dati uniti nel Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un ID persistente vuoto. | **Eventi** = conteggio delle righe nei dati non uniti nel Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati non uniti nel data lake di Experience Platform, questi eventi non vengono inclusi nel Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
+| **Eventi** = conteggio delle righe nei dati uniti nel Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un ID persistente vuoto. | **Eventi** = conteggio delle righe nei dati non uniti nel Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati non uniti nel data lake di Experienci Platform, questi eventi non vengono inclusi nel Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
 
 Altre metriche possono essere simili in Customer Journey Analytics e Adobe Analytics. Ad esempio, il conteggio totale per Adobe Analytics [eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=it) 1-100 è comparabile tra Adobe Analytics tradizionale e Customer Journey Analytics (sia che siano uniti o meno). [Differenze nelle funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md)) come la deduplicazione degli eventi tra Customer Journey Analytics e Adobe Analytics, può causare discrepanze tra i due prodotti.
 

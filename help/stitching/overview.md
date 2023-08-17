@@ -3,9 +3,9 @@ title: Panoramica sull’unione
 description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1265'
 ht-degree: 25%
 
 ---
@@ -117,10 +117,14 @@ L’unione è una funzione innovativa e affidabile, ma presenta limitazioni sul 
 * Il campo ID transitorio deve contenere un singolo tipo di ID ( ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione seleziona l’ID in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione seleziona Ann.
 * Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera le 50.000, il Customer Journey Analytics non unisce più i dati per tale dispositivo.
+* Presta attenzione agli scenari in cui gli ID transitori contengono valori segnaposto, ad esempio &quot;Non definito&quot;. Consulta [Domande frequenti](faq.md) per ulteriori informazioni.
 
 Non confondere l’unione con:
 
 * Unione di due o più set di dati. L’unione si applica solo a un set di dati. L’unione di set di dati si verifica in seguito alla configurazione di una connessione di Customer Journey Analytics e alla selezione dello stesso ID persona nei set di dati selezionati nella connessione.
 
 * Unione di due set di dati. In Customer Journey Analytics, un join viene spesso utilizzato per ricerche o classificazioni in Analysis Workspace. Sebbene l’unione utilizzi la funzionalità di unione, il processo stesso coinvolge molto di più dei join.
+
+
+
 
