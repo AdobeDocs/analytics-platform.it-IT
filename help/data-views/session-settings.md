@@ -3,7 +3,7 @@ title: Impostazioni di sessione
 description: Impostazioni in una visualizzazione dati da utilizzare per definire la durata di una sessione e il trigger per avviare una nuova sessione
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 25ff6feda28f0447927a52f44aed800cdd89e0cb
+source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Per definire il contesto di una sessione per una visualizzazione dati:
 
       Se sei interessato ad analizzare principalmente le interazioni online, utilizza un breve timeout di sessione (ad esempio, 30 minuti). Ad esempio, analizzando se i profili che visitano le pagine di prodotti del negozio online aggiungono prodotti al carrello o addirittura acquistano online.
 
-      Utilizza un timeout di sessione lungo (ad esempio, 3 mesi) se stai combinando dati online e offline e desideri analizzare se i clienti che hanno acquistato uno o più prodotti hanno chiamato il tuo contact center entro i primi tre mesi dopo l’acquisto.
+      Utilizza un timeout di sessione lungo (ad esempio 3 mesi) se stai combinando dati online e offline e desideri analizzare se i clienti che hanno acquistato uno o più prodotti hanno chiamato il tuo contact center entro i primi tre mesi dopo l’acquisto.
 
 
    2. Seleziona una metrica da **[!UICONTROL Drop a metric here]** elenco sotto **[!UICONTROL Start new session with a metric]**. In alternativa, puoi trascinare e rilasciare una metrica dal riquadro di sinistra sulla **[!UICONTROL Drop a metric field]**. La metrica selezionata definisce l’inizio di una nuova sessione. Puoi definire più di una metrica.
