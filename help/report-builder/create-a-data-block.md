@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
+source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,12 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
    - I componenti Dimension vengono aggiunti alla sezione Riga o alla sezione Colonna se una dimensione è già presente nelle colonne.
    - I componenti data vengono aggiunti alla sezione Colonna.
    - I componenti Filtro vengono aggiunti alla sezione Filtri.
+
+   **Data di inizio come Dimension**
+
+   Imposta la data di inizio come dimensione per identificare chiaramente la data di inizio del blocco di dati. Questa funzione è utile se disponi di un rapporto pianificato regolarmente con un intervallo di date continuo o se disponi di un intervallo di date non convenzionale e devi essere libero dalla data di inizio.
+
+   ![Schermata che mostra la data di inizio nell’elenco delle dimensioni.](./assets/start-date-dimension.png){width="15%"}
 
 1. Disporre gli elementi nel riquadro Tabella per personalizzare il layout del blocco di dati.
 

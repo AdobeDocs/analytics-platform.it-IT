@@ -1,15 +1,15 @@
 ---
 title: Come pianificare le cartelle di lavoro utilizzando Report Builder in Customer Journey Analytics
-description: Descrive come utilizzare la funzione di pianificazione in Report Builder
+description: Scopri come utilizzare la funzione di pianificazione in Report Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: cd3ed8873619c7fb5281d42b1f74c32b245400d0
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: d40638272263a389421adfe224649e2b905c652b
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -61,7 +61,7 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
 1. Configura le opzioni di pianificazione per impostare la data e l’ora in cui desideri inviare la cartella di lavoro ai destinatari tramite e-mail.
 
-   Scegli l’intervallo di date e ore di inizio e fine. Può essere la data odierna o una data futura.
+   Scegli le date e ore di inizio e fine e l’arco temporale. Può essere la data odierna o una data futura.
 
    Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
 
@@ -91,17 +91,21 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unic
 
 1. Nella sezione Schedule (Pianifica) dell’hub di Report Builder, fai clic sulla scheda Workbooks (Cartelle di lavoro). Usa questa visualizzazione per visualizzare un elenco di tutte le cartelle di lavoro pianificate.
 
-1. Seleziona una cartella di lavoro. Vengono visualizzati diversi strumenti che consentono di modificare la cartella di lavoro, cambiare la pianificazione, mettere in pausa e riavviare la pianificazione o eliminare la pianificazione.
+1. Seleziona una cartella di lavoro. Vengono visualizzati diversi strumenti che consentono di modificare la cartella di lavoro, modificare l&#39;attività di pianificazione, mettere in pausa e riavviare l&#39;attività di pianificazione, scaricare un rapporto attività pianificata o eliminare l&#39;attività di pianificazione.
 
-   ![descrizione alt](./assets/edit-icons.png){width="55%"}
+   ![Schermata che mostra le icone di pianificazione della cartella di lavoro.](./assets/schedule-icons.png){width="15%"}
 
-* (Facoltativo) Fai clic sull’icona a forma di matita per modificare la pianificazione della cartella di lavoro.
+* (Facoltativo) Fai clic sull’icona della matita per modificare l’attività di pianificazione della cartella di lavoro.
 
 * (Facoltativo) Fai clic sull’icona dell’orologio per visualizzare la cronologia di ciascuna attività pianificata.
 
-* (Facoltativo) Fai clic sull’icona di pausa per mettere in pausa e riavviare la pianificazione di distribuzione. Questa opzione è utile se è necessario modificare la cartella di lavoro prima di inviarla. Fai nuovamente clic sull’icona di pausa per riavviare la distribuzione.
+* (Facoltativo) Fai clic sull’icona Pausa per sospendere e riavviare l’attività di pianificazione della distribuzione. Questa opzione è utile se è necessario modificare la cartella di lavoro prima di inviarla. Fai nuovamente clic sull’icona di pausa per riavviare la distribuzione.
 
-* (Facoltativo) Fai clic sul cestino per eliminare la pianificazione.
+* (Facoltativo) Fare clic sull&#39;icona di download per scaricare una copia dell&#39;attività di pianificazione della cartella di lavoro.
+
+* (Facoltativo) Fai clic sul cestino per eliminare l’attività di pianificazione.
+
+  ![Schermata che mostra l’elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="20%"}
 
 ## Rivedere lo stato delle attività programmate
 
