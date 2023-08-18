@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2dab438b956513eaff3f05d2ff8de2fff43d9977
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023.
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Miglioramenti a Report Builder** | <ul><li>Scaricare le attività pianificate dalla scheda Cronologia, in cui è possibile visualizzare la cronologia delle attività pianificate. Scarica la cartella di lavoro da tale attività. </li><li>Data di inizio come dimensione: consente agli utenti di rendere visibile la data di inizio del blocco di dati come dimensione nell’output del blocco di dati. </li></ul> | N/D | 17 agosto 2023 |
+| **Miglioramenti a Report Builder** | <ul><li>È possibile scaricare un&#39;attività pianificata dalla scheda Cartelle di lavoro, assegnarle un titolo, salvarla e condividerla. [Ulteriori informazioni](/help/report-builder/schedule-reportbuilder.md)</li><li>Data di inizio come dimensione consente di rendere visibile la data di inizio del blocco di dati come dimensione nell’output del blocco di dati. [Ulteriori informazioni](/help/report-builder/create-a-data-block.md) </li></ul> | N/D | 17 agosto 2023 |
 | **Conversione valuta** | Il Percorso di clienti sta aggiungendo la possibilità di supportare più valute. È possibile convertire una valuta in un’altra valuta nelle impostazioni delle visualizzazioni dati. [Ulteriori informazioni](/help/data-views/component-settings/format.md) | N/D | 31 agosto 2023 |
 | **Supporto per le classificazioni A4T nel connettore di origine di Analytics** | Stiamo aggiungendo un ID di correlazione per unire facilmente i dati di classificazione per le attività e gli eventi di esperienza di Adobe Target. | N/D | 31 agosto 2023 |
 | **Reporting Activity Manager** | Fornisce agli amministratori una visibilità dettagliata del consumo di reporting per ogni connessione, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. | N/D | 6 settembre 2023 |

@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: d40638272263a389421adfe224649e2b905c652b
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 90%
@@ -93,7 +93,7 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unic
 
 1. Seleziona una cartella di lavoro. Vengono visualizzati diversi strumenti che consentono di modificare la cartella di lavoro, modificare l&#39;attività di pianificazione, mettere in pausa e riavviare l&#39;attività di pianificazione, scaricare un rapporto attività pianificata o eliminare l&#39;attività di pianificazione.
 
-   ![Schermata che mostra le icone di pianificazione della cartella di lavoro.](./assets/schedule-icons.png){width="15%"}
+   ![Schermata che mostra le icone di pianificazione della cartella di lavoro.](./assets/schedule-icons.png){width="20%"}
 
 * (Facoltativo) Fai clic sull’icona della matita per modificare l’attività di pianificazione della cartella di lavoro.
 
@@ -105,7 +105,7 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unic
 
 * (Facoltativo) Fai clic sul cestino per eliminare l’attività di pianificazione.
 
-  ![Schermata che mostra l’elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="20%"}
+  ![Schermata che mostra l’elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
 
 ## Rivedere lo stato delle attività programmate
 
