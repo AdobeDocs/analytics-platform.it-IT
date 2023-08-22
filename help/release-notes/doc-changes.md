@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0160aee587c1f88e4889f26757b1962c3d59b9fa
+source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 88%
+source-wordcount: '2546'
+ht-degree: 87%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Agosto 2023** | |
+| Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Miglioramenti a Report Builder | Contenuto aggiornato per [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) per fornire informazioni per il download delle attività pianificate. Contenuto aggiornato per  [Creare un blocco di dati](/help/report-builder/create-a-data-block.md) per fornire informazioni sull’utilizzo di Data di inizio come dimensione. |
 | Contenuti spostati sulla gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza in [Programmare progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Supporto delle funzioni di Adobe Customer Journey Analytics | Sono state aggiunte ulteriori informazioni nella sezione *Supportato in un nuovo modo* tabella sulle funzionalità di sessionizzazione in Customer Journey Analytics rispetto ad Adobe Analytics. [Ulteriori informazioni](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
