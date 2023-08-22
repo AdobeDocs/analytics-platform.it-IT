@@ -3,10 +3,10 @@ title: Panoramica sull’unione
 description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+source-git-commit: 52d47e777e8c9f7e1e73f4131f19d7df280cb2a3
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 25%
+source-wordcount: '1322'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ Quando combini set di dati con ID persona simili, l’attribuzione viene riporta
 
 Sfortunatamente, non tutti i set di dati basati su eventi che fanno parte della connessione nel Customer Journey Analytics sono sufficientemente compilati con dati per supportare questa attribuzione pronta all’uso. In particolare, i set di dati di esperienza basati su web o dispositivi mobili spesso non dispongono di un ID persona effettivo disponibile su tutti gli eventi.
 
-L’unione consente di reimpostare le identità all’interno delle righe di un set di dati, assicurandosi che l’ID persona (ID unione) sia disponibile su ogni evento. L’unione esamina i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore ID transitorio comune che può essere utilizzato come ID unione. Questo consente di risolvere record diversi in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
+L’unione consente di reimpostare le identità all’interno delle righe di un set di dati, assicurandosi che l’ID persona (ID unione) sia disponibile su ogni evento. L’unione esamina i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore ID transitorio comune che può essere utilizzato come ID unione. Questa reimpostazione consente di risolvere record diversi in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
 
 Puoi trarre vantaggio dall’analisi cross-channel se combini uno o più set di dati uniti con altri set di dati, come i dati del call center, nell’ambito della definizione della connessione di Customer Journey Analytics. Ciò presuppone che gli altri set di dati contengano già un ID persona su ogni riga, simile all’ID unito.
 
@@ -102,9 +102,11 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 
 >[!IMPORTANT]
 >
->Applica le modifiche apportate allo schema del set di dati dell’evento globale anche al nuovo schema del set di dati uniti, altrimenti interrompe il set di dati uniti.
+>* Applica le modifiche apportate allo schema del set di dati dell’evento globale anche al nuovo schema del set di dati uniti, altrimenti interrompe il set di dati uniti.
 >
->Inoltre, se rimuovi il set di dati di origine, il set di dati uniti non elabora più i dati e viene rimosso dal sistema.
+>* Se rimuovi il set di dati di origine, il set di dati uniti non elabora più i dati e viene rimosso dal sistema.
+>
+>* Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati uniti. Se hai applicato le etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente allo schema del set di dati uniti. Consulta [Gestione delle etichette di utilizzo dei dati in Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it) per ulteriori informazioni.
 
 L’unione è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
@@ -123,7 +125,7 @@ Non confondere l’unione con:
 
 * Unione di due o più set di dati. L’unione si applica solo a un set di dati. L’unione di set di dati si verifica in seguito alla configurazione di una connessione di Customer Journey Analytics e alla selezione dello stesso ID persona nei set di dati selezionati nella connessione.
 
-* Unione di due set di dati. In Customer Journey Analytics, un join viene spesso utilizzato per ricerche o classificazioni in Analysis Workspace. Sebbene l’unione utilizzi la funzionalità di unione, il processo stesso coinvolge molto di più dei join.
+* Unione di due set di dati. In Customer Journey Analytics, un join viene spesso utilizzato per ricerche o classificazioni in Analysis Workspace. Sebbene l’unione utilizzi la funzionalità di unione, il processo stesso non coinvolge solo i join.
 
 
 
