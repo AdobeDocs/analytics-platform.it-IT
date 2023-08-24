@@ -3,7 +3,7 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0160aee587c1f88e4889f26757b1962c3d59b9fa
+source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 78%
@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Note sulla versione corrente di Adobe Customer Journey Analytics (agosto 2023)
 
-**Ultimo aggiornamento**: 17 agosto 2023
+**Ultimo aggiornamento**: 24 agosto 2023
 
 Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -21,10 +21,10 @@ Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023.
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Miglioramenti a Report Builder** | <ul><li>È possibile scaricare un&#39;attività pianificata dalla scheda Cartelle di lavoro, assegnarle un titolo, salvarla e condividerla. [Ulteriori informazioni](/help/report-builder/schedule-reportbuilder.md)</li><li>Data di inizio come dimensione consente di rendere visibile la data di inizio del blocco di dati come dimensione nell’output del blocco di dati. [Ulteriori informazioni](/help/report-builder/create-a-data-block.md) </li></ul> | N/D | 17 agosto 2023 |
-| **Conversione valuta** | Il Percorso di clienti sta aggiungendo la possibilità di supportare più valute. È possibile convertire una valuta in un’altra valuta nelle impostazioni delle visualizzazioni dati. [Ulteriori informazioni](/help/data-views/component-settings/format.md) | N/D | 31 agosto 2023 |
-| **Supporto per le classificazioni A4T nel connettore di origine di Analytics** | Stiamo aggiungendo un ID di correlazione per unire facilmente i dati di classificazione per le attività e gli eventi di esperienza di Adobe Target. | N/D | 31 agosto 2023 |
-| **Reporting Activity Manager** | Fornisce agli amministratori una visibilità dettagliata del consumo di reporting per ogni connessione, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. | N/D | 6 settembre 2023 |
-| **Accesso di Power BI e Tableau alle visualizzazioni dati di Customer Journey Analytics** | Il connettore SQL di Adobe Customer Journey Analytics consente l’accesso SQL alle visualizzazioni dati definite in Customer Journey Analytics. I tecnici dei dati e gli analisti che hanno più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione possono ora creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti di Customer Journey Analytics per i loro progetti Analysis Workspace. [Ulteriori informazioni](/help/data-views/sql-connector.md) | N/D | 13 settembre 2023 |
+| **Conversione valuta** | Il Percorso di clienti sta aggiungendo la possibilità di supportare più valute. È possibile convertire una valuta in un’altra valuta nelle impostazioni delle visualizzazioni dati. [Ulteriori informazioni](/help/data-views/component-settings/format.md) | N/D | 30 agosto 2023 |
+| **Supporto per le classificazioni A4T nel connettore di origine di Analytics** | Stiamo aggiungendo un ID di correlazione per unire facilmente i dati di classificazione per le attività e gli eventi di esperienza di Adobe Target. | N/D | 11 settembre 2023 |
+| **Reporting Activity Manager** | Fornisce agli amministratori una visibilità dettagliata del consumo di reporting per ogni connessione, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. | N/D | 12 settembre 2023 |
+| **Accesso di Power BI e Tableau alle visualizzazioni dati di Customer Journey Analytics** | Il connettore SQL di Adobe Customer Journey Analytics consente l’accesso SQL alle visualizzazioni dati definite in Customer Journey Analytics. I tecnici dei dati e gli analisti che hanno più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione possono ora creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti di Customer Journey Analytics per i loro progetti Analysis Workspace. [Ulteriori informazioni](/help/data-views/sql-connector.md) | N/D | 12 settembre 2023 |
 
 {style="table-layout:auto"}
 
