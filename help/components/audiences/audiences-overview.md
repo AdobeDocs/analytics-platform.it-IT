@@ -3,16 +3,16 @@ title: Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey An
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 3a3122934e0fb3d89ac94cc8be8799d43dd1c987
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 54%
 
 ---
 
 # Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey Analytics
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) (RTCDP) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting e la personalizzazione dei clienti.
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti nel Customer Journey Analytics. Tali azioni possono includere:
 
@@ -22,7 +22,7 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 * Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
-I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experience Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicare tali tipi di pubblico in RTCDP, in Experience Platform, a scopo di attivazione.
+I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experienci Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicarli in Real-time Customer Profile in Experienci Platform a scopo di attivazione.
 
 ## Terminologia chiave
 
