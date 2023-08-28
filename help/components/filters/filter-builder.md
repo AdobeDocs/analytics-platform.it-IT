@@ -3,10 +3,10 @@ description: Il Generatore di filtri fornisce un’area di lavoro per trascinare
 title: Crea filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 35c57e883794c74553ab14d6e99e55824d41d4be
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 4%
+source-wordcount: '1160'
+ht-degree: 3%
 
 ---
 
@@ -30,51 +30,29 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. Per i
 
 ![](assets/segment_builder_ui_2.png)
 
-1. **[!UICONTROL Title]**: assegna un nome al filtro.
-1. **[!UICONTROL Description]**: fornisci una descrizione del filtro.
-1. **[!UICONTROL Tags]**: [Assegnare tag al filtro](/help/components/filters/manage-filters.md) per creare, fai clic su un elenco di tag esistenti o creane uno nuovo.
-1. **[!UICONTROL Definitions]**: qui è dove [generare e configurare i filtri](/help/components/filters/filters-overview.md), aggiungi regole e nidifica contenitori e sequenze.
-1. **[!UICONTROL Show]**: (selettore contenitore superiore). Consente di selezionare il livello superiore [contenitore](/help/components/filters/filters-overview.md) ( [!UICONTROL Person], [!UICONTROL Session], [!UICONTROL Event]). Il contenitore principale predefinito è il contenitore Evento.
-1. **[!UICONTROL Options]** icona : (ingranaggio)
-
-   * **[!UICONTROL + Add container]**: consente di aggiungere un nuovo contenitore (sotto il contenitore principale) alla definizione del filtro.
-   * **[!UICONTROL Exclude]**: consente di definire il filtro escludendo una o più dimensioni, filtri o metriche.
-
-1. **[!UICONTROL Dimensions]**: i componenti vengono trascinati e rilasciati dall’elenco Dimension (barra laterale arancione).
-1. **[!UICONTROL Operator]**: puoi confrontare e vincolare i valori utilizzando gli operatori selezionati.
-1. **[!UICONTROL Value]**: il valore immesso o selezionato per la dimensione, il filtro o la metrica.
-1. **[!UICONTROL Attribution Models]**: disponibile solo per le dimensioni, questi modelli determinano i valori in una dimensione per cui filtrare. I modelli di Dimension sono particolarmente utili nei filtri sequenziali.
-
-   * **[!UICONTROL Repeating]** (impostazione predefinita): include le istanze e i valori persistenti per la dimensione.
-   * **[!UICONTROL Instance]**: include le istanze della dimensione.
-   * **[!UICONTROL Non-repeating instance]**: include istanze univoche (non ripetute) della dimensione. Si tratta del modello applicato in Flusso quando le varianti di ripetizione sono escluse.
-
-   ![](assets/attribution-models.jpg)
-
-   **Esempio: filtro eventi in cui eVar 1 = A**
-
-   | Esempio | A | A | A (persistente) | B | A | C |
-   |---|---|---|---|---|---|---|
-   | Ripetizione | X | X | X | - | X | - |
-   | Istanza | X | X | - | - | X | - |
-   | Istanza non ripetuta | X | - | - | - | X | - |
-1. **[!UICONTROL And/Or/Then]**: assegna il [!UICONTROL AND/OR/THEN] tra contenitori o regole. L’operatore THEN consente di: [definire filtri sequenziali](/help/components/filters/filters-overview.md).
-1. **[!UICONTROL Metric]**: (barra laterale verde) metrica trascinata e rilasciata dall’elenco Metriche.
-1. **[!UICONTROL Comparison]** operatore: è possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
-1. **[!UICONTROL Value]**: il valore immesso o selezionato per la dimensione, il filtro o la metrica.
-1. **[!UICONTROL X]**: (Elimina) consente di eliminare questa parte della definizione del filtro.
-1. **[!UICONTROL Experience Cloud publishing]**: pubblicando un filtro di Adobe Analytics nell’Experience Cloud puoi utilizzare il filtro per l’attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=it)
-1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono la traduzione dei dati personali in filtri di pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei filtri, e in più permettono di condividere il filtro del pubblico nell’Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
-1. **[!UICONTROL Search]**: esegue la ricerca nell’elenco di dimensioni, filtri o metriche.
-1. **[!UICONTROL Dimensions]**: (Elenco) Fai clic sull’intestazione per espanderla.
-1. **[!UICONTROL Metrics]**: fai clic sull’intestazione per espandere.
-1. **[!UICONTROL Filters]**: fai clic sull’intestazione per espandere.
-1. **[!UICONTROL Data View selector]**: consente di selezionare la suite di rapporti in cui verrà salvato il filtro. Puoi comunque utilizzare il filtro in tutte le visualizzazioni dati.
-1. **[!UICONTROL Filter Preview]**: consente di visualizzare in anteprima le metriche chiave per verificare se disponi di un filtro valido e quanto è ampio il filtro. Rappresenta il raggruppamento del set di dati previsto per verificare se si applica questo filtro. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL Event], [!UICONTROL Person], e [!UICONTROL Session] per un filtro eseguito su un set di dati. Questo grafico viene aggiornato subito dopo la creazione o la modifica della definizione del filtro.
-1. **[!UICONTROL Product Compatibility]**: fornisce un elenco dei prodotti Adobe Analytics (Analysis Workspace, [!UICONTROL Reports & Analytics], Data Warehouse) con cui è compatibile il filtro creato. La maggior parte dei filtri è compatibile con tutti i prodotti. Tuttavia, non tutti gli operatori e le dimensioni sono compatibili con tutti i prodotti Analytics, in particolare [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html). Questo grafico viene aggiornato subito dopo aver apportato modifiche alla definizione del filtro.
-1. **[!UICONTROL Save]** o **[!UICONTROL Cancel]**: salva o annulla il filtro. Dopo aver fatto clic su **[!UICONTROL Save]**, ti indirizzano al Gestore filtri per gestire il filtro.
-
-I filtri con intervalli di date incorporati continuano a funzionare diversamente in Analysis Workspace rispetto a [!UICONTROL Reports & Analytics]: in Workspace, un filtro con un intervallo di date incorporato sovrascrive l’intervallo di date del pannello. Per contro, [!UICONTROL Reports & Analytics] ti fornisce l’intersezione dell’intervallo di date del rapporto con l’intervallo di date integrato del filtro.
+| Elemento nell’interfaccia utente | Descrizione |
+| --- | --- |
+| **[!UICONTROL Title]** | Denomina il filtro |
+| **[!UICONTROL Description]** | Fornisci una descrizione dettagliata del filtro. |
+| **[!UICONTROL Tags]** | [Assegnare tag al filtro](/help/components/filters/manage-filters.md) per creare, fai clic su un elenco di tag esistenti o creane uno nuovo. |
+| **[!UICONTROL Definitions]** | Qui è dove [generare e configurare i filtri](/help/components/filters/filters-overview.md), aggiungi regole e nidifica contenitori e sequenze. |
+| **[!UICONTROL Include]** | (Selettore contenitore superiore). Consente di selezionare il livello superiore [contenitore](/help/components/filters/filters-overview.md) ( [!UICONTROL Person], [!UICONTROL Session], [!UICONTROL Event]). Il contenitore principale predefinito è il contenitore Evento. |
+| **[!UICONTROL Options]** | icona (ingranaggio) | <ul><li>**[!UICONTROL + Add container]**: consente di aggiungere un nuovo contenitore (sotto il contenitore principale) alla definizione del filtro.</li><li>**[!UICONTROL Exclude]**: consente di definire il filtro escludendo una o più dimensioni, filtri o metriche.</li></ul> |
+| **[!UICONTROL Dimensions]** | I componenti vengono trascinati e rilasciati dall’elenco Dimension (barra laterale arancione). |
+| **[!UICONTROL Operator]** | È possibile confrontare e vincolare i valori utilizzando gli operatori selezionati. (è uguale a, non è uguale a, contiene, contiene tutte, ecc.) |
+| **[!UICONTROL Value]** | Il valore immesso o selezionato per la dimensione, il filtro o la metrica. |
+| **[!UICONTROL Attribution Models]** | Disponibile solo per le quote, questi modelli determinano i valori di una quota da filtrare. I modelli di Dimension sono particolarmente utili nei filtri sequenziali.<ul><li>**[!UICONTROL Repeating]** (impostazione predefinita): include le istanze e i valori persistenti per la dimensione.</li><li>**[!UICONTROL Instance]**: include le istanze della dimensione.</li><li>**[!UICONTROL Non-repeating instance]**: include istanze univoche (non ripetute) della dimensione. Si tratta del modello applicato in Flusso quando le varianti di ripetizione sono escluse.</li></ul>Ad esempio, consulta la sezione &quot;Modelli di attribuzione&quot; di seguito. |
+| **[!UICONTROL And/Or/Then]** | Assegna il [!UICONTROL AND/OR/THEN] tra contenitori o regole. L’operatore THEN consente di: [definire filtri sequenziali](/help/components/filters/filters-overview.md). |
+| **[!UICONTROL Metric]** | (Barra laterale verde) Metrica trascinata e rilasciata dall’elenco Metriche. |
+| **[!UICONTROL X]** | (Elimina) Consente di eliminare questa parte della definizione del filtro. |
+| **[!UICONTROL Create audience from filter]** | La creazione di un pubblico da un filtro consente di condividerlo con Adobe Experience Platform per l’attivazione. [Ulteriori informazioni...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL Search component]** | Cerca nell&#39;elenco di dimensioni, filtri o metriche. |
+| **[!UICONTROL Dimensions]** | (Elenco) L’elenco delle dimensioni che puoi includere nel filtro. Fai clic sull’intestazione per espanderla. |
+| **[!UICONTROL Metrics]** | L’elenco delle metriche che puoi includere nel filtro. Fai clic sull’intestazione per espanderla. |
+| **[!UICONTROL Filters]** | Elenco dei filtri esistenti che è possibile includere nel filtro. Fai clic sull’intestazione per espanderla. |
+| **[!UICONTROL Data View selector]** | Consente di selezionare la suite di rapporti in cui salvare il filtro. Puoi comunque utilizzare il filtro in tutte le visualizzazioni dati. |
+| **[!UICONTROL Filter Preview]** | Consente di visualizzare in anteprima le metriche chiave per verificare se disponi di un filtro valido e quanto è ampio il filtro. Rappresenta il raggruppamento del set di dati previsto per verificare se si applica questo filtro. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL People], [!UICONTROL Sessions], e [!UICONTROL Reports Run] per un filtro eseguito su un set di dati.<p>Questo grafico viene aggiornato subito dopo la creazione o la modifica della definizione del filtro. |
+| **[!UICONTROL Save]** o **[!UICONTROL Cancel]** | Salva o annulla il filtro. Dopo aver fatto clic su **[!UICONTROL Save]**, ti indirizzano al Gestore filtri per gestire il filtro. |
 
 ## Creare un filtro {#build-filters}
 
@@ -91,7 +69,7 @@ I filtri con intervalli di date incorporati continuano a funzionare diversamente
 
    Sei portato al [Gestore filtri](/help/components/filters/manage-filters.md), dove puoi assegnare tag, condividere e gestire il filtro in più modi.
 
-## Aggiungere contenitori {#section_1C38F15703B44474B0718CEF06639EFD}
+## Aggiungere contenitori {#containers}
 
 È possibile [creare un framework di contenitori](/help/components/filters/filters-overview.md) e quindi posiziona regole logiche e operatori tra.
 
@@ -109,7 +87,7 @@ I filtri con intervalli di date incorporati continuano a funzionare diversamente
 
    Seleziona una o più regole, quindi fai clic su **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. In questo modo la selezione diventa un contenitore separato.
 
-## Utilizzare intervalli di date {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Utilizzare intervalli di date {#date-ranges}
 
 Puoi creare filtri che contengono intervalli di date continui per rispondere a domande su campagne o eventi in corso.
 
@@ -121,7 +99,7 @@ Ecco un video sull’utilizzo degli intervalli di date continui nei filtri:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
-## Sovrapponi filtri {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
+## Sovrapponi filtri {#stack}
 
 L’impilamento dei filtri funziona combinando i criteri in ciascun filtro utilizzando un operatore &quot;and&quot; e applicando i criteri combinati. Questa operazione può essere eseguita direttamente in un progetto Workspace o nel Generatore di filtri.
 
@@ -152,3 +130,14 @@ Utilizzando lo stacking dei filtri, puoi ridurre il numero di filtri a 22 e sovr
 
 1. Seleziona [!UICONTROL **Salva**].
 
+## Modelli di attribuzione {#attribution}
+
+![](assets/attribution-models.jpg)
+
+**Esempio: filtro eventi in cui eVar 1 = A**
+
+| Esempio | A | A | A (persistente) | B | A | C |
+|---|---|---|---|---|---|---|
+| Ripetizione | X | X | X | - | X | - |
+| Istanza | X | X | - | - | X | - |
+| Istanza non ripetuta | X | - | - | - | X | - |
