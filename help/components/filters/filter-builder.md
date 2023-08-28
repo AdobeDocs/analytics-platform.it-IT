@@ -3,9 +3,9 @@ description: Il Generatore di filtri fornisce un’area di lavoro per trascinare
 title: Crea filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 35c57e883794c74553ab14d6e99e55824d41d4be
+source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1159'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. Per i
 | **[!UICONTROL And/Or/Then]** | Assegna il [!UICONTROL AND/OR/THEN] tra contenitori o regole. L’operatore THEN consente di: [definire filtri sequenziali](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL Metric]** | (Barra laterale verde) Metrica trascinata e rilasciata dall’elenco Metriche. |
 | **[!UICONTROL X]** | (Elimina) Consente di eliminare questa parte della definizione del filtro. |
-| **[!UICONTROL Create audience from filter]** | La creazione di un pubblico da un filtro consente di condividerlo con Adobe Experience Platform per l’attivazione. [Ulteriori informazioni...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL Create audience from filter]** | La creazione di un pubblico da un filtro consente di condividere il filtro con Adobe Experience Platform per l’attivazione. [Ulteriori informazioni...](/help/components/audiences/audiences-overview.md) |
 | **[!UICONTROL Search component]** | Cerca nell&#39;elenco di dimensioni, filtri o metriche. |
 | **[!UICONTROL Dimensions]** | (Elenco) L’elenco delle dimensioni che puoi includere nel filtro. Fai clic sull’intestazione per espanderla. |
 | **[!UICONTROL Metrics]** | L’elenco delle metriche che puoi includere nel filtro. Fai clic sull’intestazione per espanderla. |
