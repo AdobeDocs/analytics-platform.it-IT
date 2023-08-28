@@ -3,9 +3,10 @@ title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+keywords: analisi dei prodotti
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 2%
 
 ---

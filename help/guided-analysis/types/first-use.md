@@ -2,9 +2,10 @@
 title: Vista primo utilizzo
 description: Misura l’impatto del primo utilizzo delle funzioni sugli indicatori chiave.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: analisi dei prodotti
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---

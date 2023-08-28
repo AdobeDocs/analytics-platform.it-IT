@@ -2,9 +2,10 @@
 title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: analisi dei prodotti
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---

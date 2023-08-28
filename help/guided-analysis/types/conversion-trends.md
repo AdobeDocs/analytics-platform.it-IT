@@ -2,9 +2,10 @@
 title: Visualizzazione tendenze di conversione
 description: Tieni traccia delle modifiche del tasso di conversione nel tempo.
 feature: Guided Analysis
-source-git-commit: 9c46c945bf98cff807773e1f1f795e30a28f203b
+keywords: analisi dei prodotti
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---

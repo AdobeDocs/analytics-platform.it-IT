@@ -2,9 +2,10 @@
 title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: analisi dei prodotti
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
