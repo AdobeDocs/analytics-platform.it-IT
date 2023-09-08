@@ -4,9 +4,9 @@ description: Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 35e009ca6c21754fe7127fe63eea41f8ed00943d
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Tutti gli utenti attivi (nuovo + repeat + return) appaiono come una tonalità di
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **[!UICONTROL User retention and chur]n:** Offre una chiara visualizzazione dei periodi di fidelizzazione degli utenti. Riconoscere questi periodi di conservazione elevata o bassa può aiutare a prendere decisioni sui prodotti per incoraggiare la conservazione elevata o ridurre al minimo l’abbandono.
-* **[!UICONTROL Campaign assessment]**: la visualizzazione di una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
-* **[!UICONTROL User lifecycle analysis]**: l’analisi della crescita degli utenti attivi durante l’intero ciclo di vita degli utenti può aiutare a identificare fasi specifiche in cui il coinvolgimento degli utenti subisce un calo. Ad esempio, se il numero di utenti inattivi per i singoli utenti in una fase di onboarding è elevato, ciò può indicare problemi di usabilità o la necessità di una migliore guida all’interno del prodotto.
+* **Fidelizzazione e abbandono degli utenti:** Offre una chiara visualizzazione dei periodi di fidelizzazione degli utenti. Riconoscere questi periodi di conservazione elevata o bassa può aiutare a prendere decisioni sui prodotti per incoraggiare la conservazione elevata o ridurre al minimo l’abbandono.
+* **Valutazione della campagna**: la visualizzazione di una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
+* **Analisi del ciclo di vita degli utenti**: l’analisi della crescita degli utenti attivi durante l’intero ciclo di vita degli utenti può aiutare a identificare fasi specifiche in cui il coinvolgimento degli utenti subisce un calo. Ad esempio, se il numero di utenti inattivi per i singoli utenti in una fase di onboarding è elevato, ciò può indicare problemi di usabilità o la necessità di una migliore guida all’interno del prodotto.
 
 ## Barra delle query
 

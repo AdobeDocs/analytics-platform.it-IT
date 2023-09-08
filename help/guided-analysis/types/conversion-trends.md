@@ -3,9 +3,9 @@ title: Visualizzazione tendenze di conversione
 description: Tieni traccia delle modifiche del tasso di conversione nel tempo.
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: a40cfa2498bed03c169eed10cea091574bf90730
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-* **People**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
+* **[!UICONTROL People]**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico
 
@@ -41,7 +41,7 @@ La vista Tendenze di conversione offre le seguenti impostazioni del grafico, che
 
 >[!NOTE]
 >
->Il **Media** nella tabella della vista Tendenze di conversione è diversa dalla **Totale** colonna nella [Vista frizione](friction.md) tabella. La prima corrisponde alla media delle colonne dell’intervallo (ad esempio, media dei tassi di conversione giornalieri), mentre la seconda rappresenta un calcolo aggregato per l’intero intervallo di date.
+>Il **Media** nella tabella della vista Tendenze di conversione è diversa dalla **Totale** colonna nella [Vista frizione](friction.md) tabella. La prima rappresenta una media delle colonne dell’intervallo (ad esempio, media dei tassi di conversione giornalieri), mentre la seconda rappresenta un calcolo aggregato per l’intero intervallo di date.
 
 ## Applica confronto temporale
 

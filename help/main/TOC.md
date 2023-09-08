@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
+source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '974'
 ht-degree: 81%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 81%
    + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Adobe Experience Platform Edge Network {#edge-network}
-         + [SDK per web](../data-ingestion/aepwebsdk.md)
+         + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [API server](../data-ingestion/serverapi.md)
       + [Dati batch](../data-ingestion/batch.md)
@@ -200,6 +200,7 @@ ht-degree: 81%
       + [Visualizzazione della crescita netta](../guided-analysis/types/net-growth.md)
    + Tendenze {#trends}
       + [Visualizzazione utilizzo](../guided-analysis/types/usage.md)
+      + [Visualizzazione frequenza](../guided-analysis/types/frequency.md)
    + [Casi di utilizzo del settore](../guided-analysis/industry-use-cases.md)
    + [Domande frequenti](../guided-analysis/faq.md)
 
