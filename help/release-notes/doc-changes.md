@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
+source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
 workflow-type: tm+mt
-source-wordcount: '2546'
-ht-degree: 87%
+source-wordcount: '2563'
+ht-degree: 88%
 
 ---
 
@@ -17,12 +17,14 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 ## 2023
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 | --- | --- |
+| **Settembre 2023** | |
+| Raccolta di dati regionali | Aggiornato [Domande frequenti](../getting-started/cja-faq.md#12-regional-data-collection) con informazioni sulla raccolta di dati regionali quando si utilizza il Customer Journey Analytics. |
 | **Agosto 2023** | |
 | Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Miglioramenti a Report Builder | Contenuto aggiornato per [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) per fornire informazioni per il download delle attività pianificate. Contenuto aggiornato per  [Creare un blocco di dati](/help/report-builder/create-a-data-block.md) per fornire informazioni sull’utilizzo di Data di inizio come dimensione. |
-| Contenuti spostati sulla gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza in [Programmare progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
+| Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Supporto delle funzioni di Adobe Customer Journey Analytics | Sono state aggiunte ulteriori informazioni nella sezione *Supportato in un nuovo modo* tabella sulle funzionalità di sessionizzazione in Customer Journey Analytics rispetto ad Adobe Analytics. [Ulteriori informazioni](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evoluzione da Adobe Analytics | È stato aggiornato il *(Ri)Configurare I Canali Di Marketing* sezione con un riferimento al modello di funzione Campi derivati Canali di marketing. [Ulteriori informazioni](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guide rapide all’acquisizione dei dati per applicazioni mobili e altre piattaforme | Sono state aggiunte ulteriori guide introduttive sull’acquisizione dei dati che descrivono come acquisire e utilizzare dati da applicazioni mobili o altre piattaforme (come applicazioni desktop, giochi su console, applicazioni su set-top box e dispositivi IoT) in Customer Journey Analytics. [Ulteriori informazioni](../data-ingestion/data-ingestion.md) |
