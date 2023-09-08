@@ -3,10 +3,10 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 60%
+source-wordcount: '1543'
+ht-degree: 59%
 
 ---
 
@@ -91,14 +91,14 @@ In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono ve
 | --- | --- | --- |
 | Non visualizzato | Connettore di origine da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
 | 1 | Acquisizione dei dati nel Data Lake (dal connettore di origine di Analytics o da altre origini) | Fino a 90 minuti |
-| 2 | Acquisizione dei dati da Experience Platform Data Lake a Customer Journey Analytics | Fino a 90 minuti |
-| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | Circa 60 minuti |
+| 2 | Acquisizione dei dati da Experienci Platform Data Lake a Customer Journey Analytics | Fino a 90 minuti |
+| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati.<p>**Nota**: il pubblico viene creato/definito in Experienci Platform entro 1-2 minuti. Tuttavia, sono necessari circa 60 minuti prima che il pubblico inizi a ricevere gli ID in base ai criteri corrispondenti ed è pronto per l’attivazione. | Circa 60 minuti |
 | 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 | 5 | Creazione di una destinazione in Adobe Experience Platform: attivazione del nuovo segmento | 1-2 ore |
 
 {style="table-layout:auto"}
 
-## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experience Platform {#audiences-aep}
+## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experienci Platform {#audiences-aep}
 
 Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] quando la connessione è stata configurata.
 
@@ -122,7 +122,7 @@ In questo caso, viene inviato un evento di uscita all’Experience Platform dal 
 
 +++**Cosa succede se elimini un pubblico nel Customer Journey Analytics?**
 
-Quando un pubblico di Customer Journey Analytics viene eliminato, non viene più visualizzato nell’interfaccia utente di Experience Platform. Tuttavia, in Platform nessun profilo associato a quel pubblico viene effettivamente eliminato.
+Quando un pubblico di Customer Journey Analytics viene eliminato, non viene più visualizzato nell’interfaccia utente di Experienci Platform. Tuttavia, in Platform nessun profilo associato a quel pubblico viene effettivamente eliminato.
 
 +++
 
