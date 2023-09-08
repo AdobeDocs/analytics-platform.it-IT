@@ -18,7 +18,7 @@ Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023.
 
 ## Funzioni nuove o aggiornate
 
-| Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
+| Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Miglioramenti a Report Builder** | <ul><li>È possibile scaricare un&#39;attività pianificata dalla scheda Cartelle di lavoro, assegnarle un titolo, salvarla e condividerla. [Ulteriori informazioni](/help/report-builder/schedule-reportbuilder.md)</li><li>Data di inizio come dimensione consente di rendere visibile la data di inizio del blocco di dati come dimensione nell’output del blocco di dati. [Ulteriori informazioni](/help/report-builder/create-a-data-block.md) </li></ul> | N/D | 17 agosto 2023 |
 | **Conversione valuta** | Il Percorso di clienti sta aggiungendo la possibilità di supportare più valute. È possibile convertire una valuta in un’altra valuta nelle impostazioni delle visualizzazioni dati. [Ulteriori informazioni](/help/data-views/component-settings/format.md) | N/D | 30 agosto 2023 |
