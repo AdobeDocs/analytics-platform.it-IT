@@ -4,9 +4,9 @@ description: Un campo derivato specifica la manipolazione in fase di report dei 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
+source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
 workflow-type: tm+mt
-source-wordcount: '4248'
+source-wordcount: '4836'
 ht-degree: 13%
 
 ---
@@ -62,7 +62,7 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia d
 | A | **Nome regola** | Per impostazione predefinita, il nome della regola è **Regola X** (X che fa riferimento a un numero progressivo). Per modificare il nome di una regola, selezionarne il nome e digitarlo nel nuovo nome, ad esempio `Query Parameter`. |
 | B | **Nome funzione** | Il nome della funzione selezionata per la regola, ad esempio [!UICONTROL URL PARSE]. Quando la funzione è l&#39;ultima nella sequenza di funzioni e determina i valori di output finali, il nome della funzione è seguito da [!UICONTROL - FINAL OUTPUT], ad esempio [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>Per visualizzare una finestra a comparsa con ulteriori informazioni sulla funzione, selezionare ![Icona Aiuto](assets/Smock_HelpOutline_18_N.svg). |
 | C | **Descrizione regola** | Facoltativamente, puoi aggiungere una descrizione a una regola.<br/>Seleziona ![Icona Altro](assets/More.svg), quindi seleziona **[!UICONTROL ** Aggiungi descrizione **]** per aggiungere una descrizione o **[!UICONTROL ** Modifica descrizione **]** per modificare una descrizione esistente.<br/>Utilizza l’editor per immettere una descrizione. È possibile utilizzare la barra degli strumenti per formattare il testo (utilizzando selettore di stile, grassetto, corsivo, sottolineato, destro, sinistro, centrato, colore, elenco numerato, elenco puntato) e aggiungendo collegamenti a informazioni esterne. <br/>Per completare la modifica della descrizione, fai clic all’esterno dell’editor. |
-| D | **Area funzione** | Definisce la logica della funzione. L’interfaccia dipende dal tipo di funzione. Menu a discesa per [!UICONTROL Field] o [!UICONTROL Value] mostra tutte le categorie di campi (regole, campi standard, campi) disponibili, in base al tipo di input previsto dalla funzione. Consulta [Riferimento funzione](#function-reference) informazioni dettagliate su ciascuna delle funzioni supportate. |
+| D | **Area funzione** | Definisce la logica della funzione. L’interfaccia dipende dal tipo di funzione. Menu a discesa per [!UICONTROL Field] o [!UICONTROL Value] mostra tutte le categorie di campi (regole, campi standard, campi) disponibili, in base al tipo di input previsto dalla funzione. <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
 
 {style="table-layout:auto"}
 
@@ -413,9 +413,6 @@ I seguenti vincoli si applicano e vengono applicati quando *selezione* e *impost
 
 Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti in un nuovo campo derivato.
 
-
-
-
 +++ Dettagli
 
 >[!NOTE]
@@ -426,7 +423,7 @@ Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti 
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>[!UICONTROL When value equals] e [!UICONTROL Replace values with]:</p><ul><li>Stringa</li></ul><li>Mostra valori originali<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>5 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>[!UICONTROL When value equals] e [!UICONTROL Replace values with]:</p><ul><li>Stringa</li></ul><li>Mostra valori originali<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>5 funzioni per campo derivato<br/>100 righe per funzione</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -535,6 +532,17 @@ Definisci un `Page Name (updated)` campo derivato. Utilizzi il [!UICONTROL CLASS
 | [!DNL Deals & Offers] |
 | [!DNL Reviews] |
 | [!DNL Generate Quote] |
+
+
+## Ulteriori informazioni {#classify-moreinfo}
+
+Nell’interfaccia Classifica regola sono disponibili le seguenti funzionalità aggiuntive:
+
+- Per cancellare rapidamente tutti i valori della tabella, seleziona ![Cancella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL Clear all table values]**.
+- Per caricare un file CSV contenente i valori originali di Quando i valori sono uguali e i nuovi valori di Sostituisci i valori con, seleziona ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Upload CSV]**.
+- Per scaricare un modello per la creazione di un file CSV con valori originali e nuovi da caricare, seleziona ![Scarica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Download CSV template]**.
+- Per scaricare un file CSV con tutti i valori originali e nuovi popolati nell’interfaccia della regola, seleziona ![Scarica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Download CSV values]**.
+
 
 +++
 
@@ -680,6 +688,108 @@ Definisci un’ `Email Marketing (updated)` campo derivato. Utilizzi il [!UICONT
 | [!DNL email marketing] |
 | [!DNL email marketing] |
 | [!DNL email marketing] |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- LOOKUP
+
+### Lookup
+
+Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+
++++ Details
+
+## Specification {#lookup-io}
+
+| Input Data Type | Input | Included Operators | Limit | Output |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+
+{style="table-layout:auto"}
+
+## Use case {#lookup-uc}
+
+You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+
+### A4T lookup dataset {#lookup-uc-lookup}
+
+| Activity Id | Activity Name |
+|---|---|
+| 415851 | MVT Test Category Pages |
+| 415852 | Luma - Campaign Max 2022 |
+| 402922 | Home Page Banners |
+
+{style="table-layout:auto"}
+
+### Derived field {#lookup-uc-derivedfield}
+
+You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+
+![Screenshot of the Lowercase rule](assets/lookup.png)
+
+## More info
+
+You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+
+  1. Select **[!UICONTROL Schema fields]** from selector.
+  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+  1. Select your lookup dataset and find the field you want to use for lookup.
+  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
+     ![Lookup drag](assets/lookup-drag.png) 
+
++++
+
+-->
+
+<!-- LOWERCASE -->
+
+### Minuscolo
+
+Converte i valori da un campo in minuscolo e li memorizza in un nuovo campo derivato.
+
++++ Dettagli
+
+## Specifiche {#lowercase-io}
+
+| Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
+|---|---|---|---|---|
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul> | <p>N/D</p> | <p>2 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+
+{style="table-layout:auto"}
+
+## Caso d’uso {#lowercase-uc}
+
+Per una corretta generazione di rapporti, converti tutti i nomi dei prodotti raccolti in minuscolo.
+
+### Dati prima di {#lowercase-uc-databefore}
+
+| Nomi prodotti raccolti | Visualizzazioni prodotto |
+|---|---:|
+| Racchetta da tennis | 35 |
+| Racchetta da tennis | 33 |
+| racchetta da tennis | 21 |
+| Mazza da baseball | 15 |
+| Mazza da baseball | 12 |
+| mazza da baseball | 10 |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#lowercase-uc-derivedfield}
+
+Definisci un `Product Names` campo derivato. Utilizzi il [!UICONTROL LOWERCASE] per definire una regola per la conversione del valore dalla funzione [!UICONTROL Collected Product Names] in minuscolo e memorizzarlo nel nuovo campo derivato.
+
+![Schermata della regola Minuscolo](assets/lowercase.png)
+
+
+### Dati dopo {#lowercase-uc-dataafter}
+
+| Nomi prodotti | Visualizzazioni prodotto |
+|---|---|
+| racchetta da tennis | 89 |
+| mazza da baseball | 37 |
 
 {style="table-layout:auto"}
 
@@ -938,6 +1048,119 @@ Si crea un `Second Response` campo derivato per estrarre l’ultimo valore dal c
 
 {style="table-layout:auto"}
 
++++
+
+
+<!-- TRIM -->
+
+### Trim (Taglia)
+
+Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall&#39;inizio o dalla fine dei valori di campo in un nuovo campo derivato.
+
++++ Dettagli
+
+## Specifiche {#trim-io}
+
+| Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
+|---|---|---|---|---|
+| <ul><li>Stringa</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Ritaglia spazio vuoto</li><li>Ritaglia caratteri speciali<ul><li>Inserimento di caratteri speciali</li></ul></li><li>Rifila da sinistra<ul><li>Da <ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li><li>Rifila da destra<ul><li>Da <ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
+
+{style="table-layout:auto"}
+
+## Caso d’uso 1 {#trim-uc1}
+
+I dati del prodotto vengono raccolti, ma contengono spazi vuoti nascosti che generano rapporti sui frammenti. Si desidera eliminare facilmente gli spazi vuoti in eccesso
+
+### Dati prima di {#trim-uc1-databefore}
+
+| ID prodotto | Eventi |
+|---|--:|
+| `"prod12356 "` | 1 |
+| `"prod12356"` | 1 |
+| `" prod12356"` | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#trim-u1-derivedfield}
+
+Si crea un `Product Identifier` campo derivato. Utilizzi il [!UICONTROL TRIM] funzione per definire una regola per **[!UICONTROL Trim whitespace]** dal **[!UICONTROL Product ID]** campo.
+
+![Schermata della regola di suddivisione 1](assets/trim-1.png)
+
+### Dati dopo {#trim-uc1-dataafter}
+
+| Identificatore prodotto | Eventi |
+|---|--:|
+| `"prod12356 "` | 3 |
+
+{style="table-layout:auto"}
+
+## Caso d’uso 2 {#trim-uc2}
+
+I dati sui nomi delle pagine raccolti includono alcuni caratteri speciali errati alla fine del nome della pagina che devono essere rimossi.
+
+### Dati prima di {#trim-uc2-databefore}
+
+| Nome | Eventi |
+|---|--:|
+| home page# | 1 |
+| home page? | 1 |
+| home page% | 1 |
+| home page&amp; | 1 |
+| home page/ | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#trim-u2-derivedfield}
+
+Si crea un  `Page Name` campo derivato. Utilizzi il [!UICONTROL TRIM] funzione per definire una regola per [!UICONTROL Trim special characters] dal [!UICONTROL Name] campo utilizzando [!UICONTROL Special characters] `#?%&/`.
+
+![Schermata della regola di suddivisione - primo valore](assets/trim-2.png)
+
+### Dati dopo {#trim-uc2-dataafter}
+
+| Nome pagina | Eventi |
+|---|--:|
+| home page | 5 |
+
+{style="table-layout:auto"}
+
+
+## Caso d’uso 3 {#trim-uc3}
+
+Raccogli dati che includono un ID store. Il valore storeID contiene come primi due caratteri il codice di stato abbreviato degli Stati Uniti. Desideri utilizzare solo il codice dello stato nel reporting.
+
+### Dati prima di {#trim-uc3-databefore}
+
+| storeID | Eventi |
+|---|--:|
+| CA293842 | 1 |
+| CA423402 | 1 |
+| UT123418 | 1 |
+| UT189021 | 1 |
+| ID028930 | 1 |
+| OR234223 | 1 |
+| NV22342 | 1 |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#trim-u3-derivedfield}
+
+Si crea un  `Store Identifier` campo derivato. Utilizzi il [!UICONTROL TRIM] funzione per definire una regola per [!UICONTROL Truncate from right] il [!UICONTROL storeID] campo da fine a posizione stringa `3`.
+
+![Schermata della regola di suddivisione - primo valore](assets/trim-3.png)
+
+### Dati dopo {#trim-uc3-dataafter}
+
+| Identificatore store | Eventi |
+|---|--:|
+| CA | 2 |
+| UT | 2 |
+| ID | 1 |
+| O | 1 |
+| NV | 1 |
+
+{style="table-layout:auto"}
 +++
 
 
