@@ -4,9 +4,9 @@ description: Un metodo di analisi dei dati in Customer Journey Analytics che con
 keywords: analisi dei prodotti
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1106'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,7 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 | [!UICONTROL User growth] | [Attivo](types/active.md) | Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi. |
 | [!UICONTROL User growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
 | [!UICONTROL Trends] | [Utilizzo](types/usage.md) | Misura il coinvolgimento degli utenti nel tempo. |
+| [!UICONTROL Trends] | [Frequenza](types/frequency.md) | Misura l’interazione in base alla frequenza d’uso. |
 
 {style="table-layout:auto"}
 
