@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
+source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
-source-wordcount: '2563'
-ht-degree: 88%
+source-wordcount: '2584'
+ht-degree: 87%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Settembre 2023** | |
+| Funzionalità aggiuntive dei campi derivati | È stata aggiornata la documentazione del nuovo [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) e [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) e per le funzionalità CSV aggiuntive aggiunte alla [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) funzione. |
 | Raccolta di dati regionali | Aggiornato [Domande frequenti](../getting-started/cja-faq.md#12-regional-data-collection) con informazioni sulla raccolta di dati regionali quando si utilizza il Customer Journey Analytics. |
 | **Agosto 2023** | |
 | Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
