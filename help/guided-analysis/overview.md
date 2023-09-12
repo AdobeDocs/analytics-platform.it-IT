@@ -4,9 +4,9 @@ description: Un metodo di analisi dei dati in Customer Journey Analytics che con
 keywords: analisi dei prodotti
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
+source-git-commit: 55310a844f5928f0e97e7ea7f44ae146e103dafa
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1156'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Indipendentemente dal tipo di analisi, l’analisi guidata è composta dai segue
 
 | Anteprima interfaccia | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- | --- |
-| ![Barra delle query](assets/query-rail.png) | Barra delle query | Configura i componenti desiderati (eventi, proprietà e segmenti) che compongono un’analisi. Ogni tipo di analisi applica limiti diversi al numero di eventi e segmenti che è possibile configurare. Se si passa a un nuovo tipo di analisi, le selezioni delle query vengono mantenute entro i limiti consentiti per tale tipo di analisi. |
+| ![Barra delle query](assets/query-rail.png) | Barra delle query | Configura i componenti desiderati (eventi, proprietà e segmenti) che compongono un’analisi. Ogni tipo di analisi applica limiti diversi al numero di eventi e segmenti che è possibile configurare.<p>Utilizza l’icona del filtro per limitare in base a specifiche proprietà dell’evento o creare al volo nuovi segmenti. Dopo aver selezionato una proprietà, oltre ai criteri di filtro standard come è uguale a, contiene e termina con, sarà disponibile un elenco dei primi 1000 valori della proprietà da filtrare rapidamente.<p>Se si passa a un nuovo tipo di analisi, le selezioni delle query vengono mantenute entro i limiti consentiti per tale tipo di analisi. |
 | ![Grafico](assets/chart.png) | Grafico | Visualizzazione dei dati restituiti in base all’input proveniente dalla barra delle query e dalle impostazioni. La visualizzazione visualizzata dipende dalla vista e dalle impostazioni sopra il grafico. Le viste disponibili dipendono dal tipo di analisi presente sopra la barra delle query. Il grafico include anche: <ul><li>**Descrizione**: passa il puntatore del mouse su un punto dati del grafico per visualizzare una descrizione comando con ulteriori informazioni.</li><li>**Legenda**: passa il cursore del mouse sulla legenda del grafico per esporre le definizioni delle serie, se disponibili.</li><li>**Azioni di clic**: per esporre le azioni successive disponibili, fai clic con il pulsante sinistro del mouse su un punto dati. Le opzioni includono **Salva segmento**.</li></ul> |
 | ![Tabella](assets/table.png) | Tabella | Una rappresentazione in tabella dei dati restituiti in base all’input proveniente dalla barra delle query e dalle impostazioni. Le colonne della tabella dipendono dal tipo di visualizzazione sopra il grafico. Le viste disponibili dipendono dal tipo di analisi presente sopra la barra delle query. La tabella include inoltre: <ul><li>**Azioni di clic**: per esporre le azioni successive disponibili, fai clic su **[!UICONTROL More]** menu. Le opzioni includono **Salva segmento**.</li></ul> |
 | ![Impostazioni di visualizzazione](assets/visualization-settings.png) | Impostazioni di visualizzazione | Diverse opzioni sopra il grafico che consentono di personalizzare la modalità di restituzione dei dati da parte del grafico e della tabella.<ul><li>**Tipo di visualizzazione**: selettore a discesa che consente di presentare i dati per un determinato tipo di analisi in modo diverso.</li><li>**Impostazioni grafico**: regola con precisione la visualizzazione del grafico e della tabella. Le opzioni disponibili dipendono dalla vista selezionata.</li><li>**Intervallo di date**: selettore calendario che consente di determinare l’intervallo di date dell’analisi. È inoltre possibile selezionare un intervallo per le visualizzazioni con tendenze, ad esempio giornaliere, settimanali o mensili.</li><li>**Approfondimenti**: informazioni contestuali a seconda dell’analisi visualizzata. Puoi passare a ulteriori informazioni utilizzando le frecce oppure mostrare o nascondere tali informazioni utilizzando l’icona a forma di lampadina in alto a destra.</li></ul> |
