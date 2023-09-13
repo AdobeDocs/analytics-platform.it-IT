@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 98bba7c7bc56cfc2a2436f13d833dbf6504d7d6e
+source-git-commit: 6e94dcf003c26af5ce32544655477b1074b504b5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 55%
+source-wordcount: '515'
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ Queste note sulla versione coprono il periodo dal 13 settembre 2023 al 3 ottobre
 | ----------- | ---------- | ------- | ---- |
 | **Supporto per le classificazioni A4T nel connettore di origine di Analytics** | Supporto per nuovi `correlationID` campo per Adobe Analytics | Il `_experience.decisioning.propositions.scopeDetails.correlationID` è ora disponibile nello schema del connettore di origine di Adobe Analytics. Questo campo viene utilizzato a supporto delle classificazioni A4T e verrà popolato a partire da settembre 2023. | | N/D | 12 settembre 2023 |
 | **Aggiornamenti ai campi derivati** | Sono stati apportati i seguenti aggiornamenti alla funzionalità dei campi derivati:<ul><li>Il [!UICONTROL Lookup] la funzione è stata rinominata in [!UICONTROL Classify], con opzioni aggiuntive per caricare i dati CSV. **(Versione del 27 settembre 2023)**</li><li>Sono disponibili funzioni aggiuntive da utilizzare per la definizione di un campo derivato: [!UICONTROL Trim], [!UICONTROL Lowercase] e [!UICONTROL Lookup].</li><li>Le definizioni dei campi derivate ora supportano anche i campi da [!UICONTROL Lookup] e [!UICONTROL Profile] set di dati.</li></ul>[Ulteriori informazioni](/help/data-views/derived-fields/derived-fields.md) | N/D | 13 settembre 2023 |
-| **Nuove funzioni di Adobe Product Analytics** | <ul><li>**Rilevamento delle anomalie**: confronta gli eventi con i valori previsti derivati dalle tendenze storiche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li><li>**Tendenze Visualizzazione frequenza d&#39;uso**: misura l’adozione delle funzioni in base alla frequenza di utilizzo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Preferenze utente**: configura diverse preferenze utente, ad esempio palette di colori, visualizzazioni dati, calendari, conteggio delle istanze, formato dei numeri e delimitatore virgola. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li></ul> | N/D | 18 settembre 2023 |
+| **Nuove funzioni di Adobe Product Analytics** | <ul><li>**Rilevamento delle anomalie**: confronta gli eventi con i valori previsti derivati dalle tendenze storiche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**Tendenze Visualizzazione frequenza d&#39;uso**: misura l’adozione delle funzioni in base alla frequenza di utilizzo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**Preferenze utente**: configura diverse preferenze utente, ad esempio palette di colori e formato dei numeri. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=it)</li></ul> | N/D | 18 settembre 2023 |
 | **Ricerche per dispositivi Experience Edge** | Abilita la raccolta dati automatica dei tipi di dispositivo tramite la rete Edge Experienci Platform. Questo servizio Experience Edge offre vantaggi al Customer Journey Analytics insieme ad altre app di Experience Platform. (Segui il link alla documentazione) | N/D | 27 settembre 2023 |
 
 {style="table-layout:auto"}
