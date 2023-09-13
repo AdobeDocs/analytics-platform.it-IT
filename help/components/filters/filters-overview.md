@@ -3,10 +3,10 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 53a1a6995caad960d8daba4e0d1f4394aa184206
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 33%
+source-wordcount: '1131'
+ht-degree: 26%
 
 ---
 
@@ -19,8 +19,7 @@ I filtri possono essere basati su
 
 - attributi (tipo di browser, dispositivo, numero di visite, paese, genere),
 - interazioni (campagne, ricerca di parole chiave, motore di ricerca),
-- uscite ed entrate (persone provenienti da Facebook,
-- una pagina di destinazione definita, dominio di riferimento),
+- uscite ed entrate (persone provenienti da Facebook, da una pagina di destinazione definita, da un dominio di riferimento, da un evento di recinto geografico),
 - variabili personalizzate (campo modulo, categorie definite, ID cliente),
 - e altri criteri.
 
@@ -36,11 +35,11 @@ Per informazioni sui tipi di filtri disponibili e su come crearli, consulta [Cre
 
 ## Filtri sequenziali {#sequential}
 
-I filtri sequenziali ti consentono di identificare le persone in base alla navigazione e alla visualizzazione di pagine nel sito, fornendo un filtro di azioni e interazioni definite. I filtri sequenziali consentono di identificare cosa piace a una persona e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione delle persone.
+I filtri sequenziali ti consentono di identificare le persone in base alla navigazione (visualizzazioni di pagina nel sito, interazioni con scene nell’app mobile o utilizzo di un menu su un set-top box). I filtri sequenziali forniscono un filtro di azioni e interazioni definite e consentono di identificare cosa piace a una persona e cosa evita. Quando si creano filtri sequenziali, l’operatore THEN viene utilizzato per definire e ordinare la navigazione delle persone.
 
 >[!IMPORTANT]
 >
->È necessario disporre di **Seleziona** per creare filtri sequenziali cross-channel. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore&#x200B;
+>È necessario disporre di **Seleziona** per creare filtri sequenziali cross-channel. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore.
 
 Ecco un esempio:
 
@@ -74,22 +73,22 @@ I filtri si basano su una gerarchia a livello di persona, sessione ed evento che
 >[!NOTE]
 >Il contenitore Persona era precedentemente noto come contenitore Visitatore. Il contenitore Sessione era denominato contenitore Visita e il contenitore Evento era il contenitore Hit.
 
-Un filtro imposta le condizioni per filtrare una persona in base agli attributi o alle interazioni della persona con il sito. Per impostare le condizioni in un filtro, imposta le regole per filtrare le persone in base alle caratteristiche della persona e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati di una persona, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifici per ogni persona. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
+Un filtro imposta le condizioni per filtrare una persona in base agli attributi o alle interazioni della persona con il sito, l’app mobile o altro tipo di dispositivo da cui hai raccolto i dati. Per impostare le condizioni in un filtro, imposta le regole per filtrare le persone in base alle caratteristiche della persona e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati di una persona, puoi filtrare in base a visite e/o hit di visualizzazione della pagina, tap sullo schermo e scelte di menu specifiche per ogni persona. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
 
-L’architettura dei contenitori utilizzata nel Generatore filtri definisce Persona come il contenitore più esterno, contenente i dati generali specifici della persona per visite e visualizzazioni di pagina. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni della persona in base alle singole visualizzazioni di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
+L’architettura dei contenitori utilizzata nel Generatore di filtri definisce Persona come il contenitore più esterno. Il contenitore contiene dati generali specifici della persona per visite e visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni della persona in base alle singole visualizzazioni di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
 
 ### Contenitore Persona {#person}
 
-Il contenitore Persona include ogni visita e visualizzazione di pagina per le persone entro un intervallo di tempo specificato. Un filtro a livello di Persona restituisce la pagina che soddisfa la condizione più tutte le altre pagine visualizzate dalla persona (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina per tutte le visite e consentono di generare un’analisi per più visite. Pertanto, il contenitore Persona è il più suscettibile a modifiche in base a intervalli di date definiti.
+Il contenitore Persona include ogni visita e visualizzazione di pagina, schermata dell’app mobile, set-top box o interazione console-gioco per le persone entro un intervallo di tempo specificato. Un filtro a livello di Persona restituisce le visualizzazioni di pagina, le app mobili o gli schermi set-top box che soddisfano la condizione. Inoltre, tutte le altre pagine e schermate visualizzate dalla stessa persona su tutti i canali (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina, gli schermi delle app mobili e altro ancora per tutte le visite e consentono di generare un’analisi cross-channel con più visite. Pertanto, il contenitore Persona è il più suscettibile a modifiche in base a intervalli di date definiti.
 I contenitori Persona possono includere valori basati sulla cronologia generale di una persona:
 
 - Giorni precedenti al primo acquisto
-- Pagina di ingresso originale
+- Pagina di ingresso originale o schermata iniziale dell’app mobile
 - Domini di riferimento originali
 
 ### Contenitore Sessione {#session}
 
-Il contenitore Sessione consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato perché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola. Il contenitore Sessione consente inoltre di definire quali sessioni includere o escludere nella creazione e applicazione di un filtro. Può aiutarti a rispondere alle seguenti domande:
+Il contenitore Sessione consente di identificare le interazioni con pagine o con app mobili, campagne o conversioni per una sessione specifica. Il contenitore Sessione è il contenitore più comunemente utilizzato perché acquisisce i comportamenti per l’intera sessione di visita una volta soddisfatta la regola. Il contenitore Sessione consente inoltre di definire quali sessioni includere o escludere nella creazione e applicazione di un filtro. Può aiutarti a rispondere alle seguenti domande:
 
 - Quante sessioni sono interattive con le origini dati Web e Call Center?
 - Quali pagine hanno contribuito alla conversione in una vendita?
@@ -102,11 +101,13 @@ I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 - Metriche di partecipazione
 - Metriche allocate linearmente
 
+Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a quando un utente avvia la nuova app. Consulta [Impostazioni sessione](/help/data-views/session-settings.md) per ulteriori informazioni.
+
 ### Contenitore Evento {#event}
 
-Il contenitore Evento definisce gli eventi di pagina da includere o escludere da un filtro. È il contenitore più ristretto disponibile per identificare clic specifici e visualizzazioni di pagina in cui è vera una condizione. Il contenitore Evento consente di visualizzare un singolo codice di tracciamento o di isolare il comportamento all’interno di una particolare sezione del sito. Puoi inoltre identificare un valore specifico quando si verifica un’azione, ad esempio il canale di marketing al momento di un ordine.
+Il contenitore Evento definisce la pagina, l’app mobile o altri tipi di eventi che desideri includere o escludere da un filtro. È il contenitore più ristretto disponibile per identificare clic specifici, visualizzazioni di pagina e pulsanti su un pulsante in un’app mobile in cui una condizione è vera. Il contenitore Evento consente di visualizzare un singolo codice di tracciamento o di isolare il comportamento all’interno di una particolare area dell’app mobile. Puoi inoltre identificare un valore specifico quando si verifica un’azione, ad esempio il canale di marketing al momento di un ordine.
 
-I contenitori Evento includono raggruppamenti di singole pagine basati su valori:
+I contenitori Evento includono raggruppamenti di singole pagine basati su valori per:
 
 - Prodotti
 - Proprietà elenco
