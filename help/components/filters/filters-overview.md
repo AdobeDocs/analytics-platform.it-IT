@@ -3,10 +3,10 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 53a1a6995caad960d8daba4e0d1f4394aa184206
+source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 26%
+source-wordcount: '1171'
+ht-degree: 25%
 
 ---
 
@@ -73,13 +73,13 @@ I filtri si basano su una gerarchia a livello di persona, sessione ed evento che
 >[!NOTE]
 >Il contenitore Persona era precedentemente noto come contenitore Visitatore. Il contenitore Sessione era denominato contenitore Visita e il contenitore Evento era il contenitore Hit.
 
-Un filtro imposta le condizioni per filtrare una persona in base agli attributi o alle interazioni della persona con il sito, l’app mobile o altro tipo di dispositivo da cui hai raccolto i dati. Per impostare le condizioni in un filtro, imposta le regole per filtrare le persone in base alle caratteristiche della persona e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati di una persona, puoi filtrare in base a visite e/o hit di visualizzazione della pagina, tap sullo schermo e scelte di menu specifiche per ogni persona. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
+Un filtro imposta le condizioni per filtrare una persona in base agli attributi o alle interazioni della persona con il sito, l’app mobile o altro tipo di dispositivo da cui hai raccolto i dati. Per impostare le condizioni in un filtro, imposta le regole per filtrare le persone in base alle caratteristiche della persona e/o alle caratteristiche di navigazione. Per suddividere ulteriormente i dati di una persona, puoi filtrare in base a visite e/o hit di visualizzazione della pagina specifici, tap sullo schermo, scelte di menu in un set-top box per ogni persona. Ma filtra anche gli attributi che hai acquisito da un sistema CRM o fedeltà. Il Generatore di filtri fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Persona, Sessione o Evento nidificati e gerarchici.
 
-L’architettura dei contenitori utilizzata nel Generatore di filtri definisce Persona come il contenitore più esterno. Il contenitore contiene dati generali specifici della persona per visite e visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni della persona in base alle singole visualizzazioni di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
+L’architettura dei contenitori utilizzata nel Generatore di filtri definisce Persona come il contenitore più esterno. Il contenitore contiene dati generali specifici della persona per visite e visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni, mentre un contenitore Evento nidificato consente di suddividere le informazioni della persona in base alle singole interazioni. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi esperienza.
 
 ### Contenitore Persona {#person}
 
-Il contenitore Persona include ogni visita e visualizzazione di pagina, schermata dell’app mobile, set-top box o interazione console-gioco per le persone entro un intervallo di tempo specificato. Un filtro a livello di Persona restituisce le visualizzazioni di pagina, le app mobili o gli schermi set-top box che soddisfano la condizione. Inoltre, tutte le altre pagine e schermate visualizzate dalla stessa persona su tutti i canali (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina, gli schermi delle app mobili e altro ancora per tutte le visite e consentono di generare un’analisi cross-channel con più visite. Pertanto, il contenitore Persona è il più suscettibile a modifiche in base a intervalli di date definiti.
+Il contenitore Persona include ogni visita e visualizzazione di pagina, schermata dell’app mobile, set-top box o interazione console-gioco per le persone entro un intervallo di tempo specificato. In pratica, ogni evento esperienza che fa parte dei set di dati definiti all’interno della connessione di Customer Journey Analytics. Un filtro a livello di Persona restituisce le visualizzazioni di pagina, le app mobili o gli schermi set-top box che soddisfano la condizione. Inoltre, tutte le altre interazioni della stessa persona tra canali online e offline (e vincolate solo da intervalli di date definiti). Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono le visualizzazioni di pagina, gli schermi delle app mobili e altro ancora per tutte le visite e consentono di generare un’analisi cross-channel con più visite. Pertanto, il contenitore Persona è il più suscettibile a modifiche in base a intervalli di date definiti.
 I contenitori Persona possono includere valori basati sulla cronologia generale di una persona:
 
 - Giorni precedenti al primo acquisto
@@ -101,7 +101,7 @@ I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 - Metriche di partecipazione
 - Metriche allocate linearmente
 
-Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a quando un utente avvia la nuova app. Consulta [Impostazioni sessione](/help/data-views/session-settings.md) per ulteriori informazioni.
+Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a ogni avvio dell’app mobile da parte di un utente. Consulta [Impostazioni sessione](/help/data-views/session-settings.md) per ulteriori informazioni.
 
 ### Contenitore Evento {#event}
 
