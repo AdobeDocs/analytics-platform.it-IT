@@ -4,10 +4,10 @@ description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 1%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,12 @@ Il [!UICONTROL Usage] visualizza offre le seguenti impostazioni del grafico, che
 
 * **[!UICONTROL Metric]**: la metrica da misurare. Le opzioni includono Eventi, Sessioni, Utenti, Eventi per sessione ed Eventi per utente.
 * **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni disponibili sono Linea, Barre, Barre sovrapposte e Area sovrapposta.
+
+## Sovrapposizioni
+
+Aggiungi dati aggiuntivi al grafico.
+
+* **[!UICONTROL Show anomalies]**: esegue il rilevamento delle anomalie nell’analisi. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
 
 ## Applica confronto temporale
 
