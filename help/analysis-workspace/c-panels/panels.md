@@ -3,10 +3,10 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -25,7 +25,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
 | [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
-| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](media-playback-timespent/media-playback-time-spent.md) | L’analisi del tempo di riproduzione consente di comprendere dove si è verificato il picco di concorrenza o dove si è verificato il calo. |
+| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | L’analisi del tempo di riproduzione consente di comprendere dove si è verificato il picco di concorrenza o dove si è verificato il calo. |
 
 ![](assets/panel-overview.png)
 

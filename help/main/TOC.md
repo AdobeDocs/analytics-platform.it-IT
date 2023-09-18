@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
+source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '969'
 ht-degree: 81%
 
 ---
@@ -154,10 +154,7 @@ ht-degree: 81%
       + [Pannello a forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
-         + [Panoramica](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Impostazioni di ingresso e uscita](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Domande frequenti](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Pannello Tempo trascorso su contenuti multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + Curare, condividere e pianificare i progetti {#curate-share}
       + [Menu Share](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](../analysis-workspace/curate-share/curate.md)

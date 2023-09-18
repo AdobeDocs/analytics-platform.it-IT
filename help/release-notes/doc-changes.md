@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 87%
+source-wordcount: '2631'
+ht-degree: 86%
 
 ---
 
@@ -20,10 +20,11 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Settembre 2023** | |
+| Struttura aggiornata degli articoli per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali trascorso), che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
 | Funzionalità aggiuntive dei campi derivati | È stata aggiornata la documentazione del nuovo [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) e [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) e per le funzionalità CSV aggiuntive aggiunte alla [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) funzione. |
 | Raccolta di dati regionali | Aggiornato [Domande frequenti](../getting-started/cja-faq.md#12-regional-data-collection) con informazioni sulla raccolta di dati regionali quando si utilizza il Customer Journey Analytics. |
 | **Agosto 2023** | |
-| Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
+| Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Miglioramenti a Report Builder | Contenuto aggiornato per [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) per fornire informazioni per il download delle attività pianificate. Contenuto aggiornato per  [Creare un blocco di dati](/help/report-builder/create-a-data-block.md) per fornire informazioni sull’utilizzo di Data di inizio come dimensione. |
 | Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Supporto delle funzioni di Adobe Customer Journey Analytics | Sono state aggiunte ulteriori informazioni nella sezione *Supportato in un nuovo modo* tabella sulle funzionalità di sessionizzazione in Customer Journey Analytics rispetto ad Adobe Analytics. [Ulteriori informazioni](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
