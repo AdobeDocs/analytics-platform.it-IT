@@ -3,10 +3,10 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ I filtri possono essere basati su
 
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
-Gli strumenti per filtri includono il [Generatore di filtri](/help/components/filters/filter-builder.md), per creare filtri ed eseguire un test preliminare, e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
+I filtri includono [Generatore di filtri](/help/components/filters/filter-builder.md) per creare i filtri ed eseguire un test preliminare, e [Gestione filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
 
 Il numero massimo di filtri che è possibile creare per l’organizzazione IMS è 50.000.
 

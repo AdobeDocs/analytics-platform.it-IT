@@ -4,7 +4,7 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 7%
@@ -97,9 +97,9 @@ Puoi salvare i filtri dal generatore di filtri rapidi o dal [!UICONTROL Filter B
 ### Salva nel generatore di filtri rapidi {#save2}
 
 1. Dopo aver applicato il filtro rapido, posiziona il cursore su di esso e seleziona l’icona Info (&quot;i&quot;).
-1. Seleziona **[!UICONTROL Make available to all projects and add to your component list]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Make available to all projects and add to your component list]**.
 1. (Facoltativo) Rinomina il filtro.
-1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Save]**.
 
    Il filtro viene ora visualizzato nell’elenco dei componenti nella barra a sinistra. Inoltre, la barra laterale del filtro cambia da blu chiaro a blu più scuro, indicando che non può più essere modificata o aperta nel generatore di filtri rapidi.
 
@@ -125,10 +125,10 @@ Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei co
 
 1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this filtr available to all your projects and add it to your component list.]**
 
-1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Save]**.
 
    Il filtro viene ora visualizzato nell’elenco dei componenti del filtro per tutti i progetti.
-È inoltre possibile [condividere il filtro](/help/components/filters/manage-filters.md) con altre persone della tua organizzazione.
+È inoltre possibile [condividere il filtro](/help/components/filters/filters-share.md) con altre persone della tua organizzazione.
 
 ## Esempio di filtro rapido
 

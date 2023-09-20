@@ -3,10 +3,10 @@ description: Gestione metriche calcolate offre diversi modi per curare le metric
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c6b9252f9b938f4659ead7ed5c90cec133e1bd74
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '670'
+ht-degree: 8%
 
 ---
 
@@ -14,30 +14,56 @@ ht-degree: 3%
 
 La pagina Metrica calcolata offre diversi modi per curare le metriche, ad esempio condividere, filtrare, assegnare tag, approvare, copiare, eliminare e contrassegnare come preferite.
 
-Il gestore delle metriche calcolate mostra tutti i filtri di tua proprietà e quelli che sono stati condivisi con te. Gli utenti a livello di amministratore possono visualizzare tutte le metriche personalizzate all’interno dell’organizzazione. Questa panoramica presenta l’interfaccia utente e le funzionalità del gestore della metrica calcolata. Accedi a
+Il gestore delle metriche calcolate mostra tutti i filtri di tua proprietà e quelli che sono stati condivisi con te. Gli utenti a livello di amministratore possono visualizzare tutte le metriche personalizzate all’interno dell’organizzazione. Questa panoramica presenta l’interfaccia utente e le funzionalità del gestore della metrica calcolata.
+
+![](assets/calc-metric-manager.png)
 
 ## Accedere al gestore delle metriche calcolate
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
-## Aree di Gestione metriche calcolate
+## Azioni disponibili nel gestore delle metriche calcolate
 
-L’immagine seguente e la tabella che l’accompagna illustrano alcune delle aree e delle funzioni principali di Gestione metriche calcolate.
+Nel Gestore metriche calcolate puoi effettuare le seguenti operazioni:
 
-![](assets/calcmet_mgr_ui.png)
+* [Filtrare le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-filter.md)
 
-| Posizione nell’immagine | Nome e funzione |
-|---|---|
-| 1 | **Barra degli strumenti di gestione delle metriche calcolate:** Dopo aver selezionato una metrica, viene visualizzata questa barra degli strumenti. La maggior parte delle attività di gestione può essere completata da questa barra degli strumenti. |
-| 2 | **Filtro:** Puoi filtrare per tag, suite di rapporti, proprietari, tutti (solo amministratori), condivisi con me, il mio, i preferiti e approvati (solo amministratori). |
-| 3 | **Caselle di selezione:** Seleziona una metrica personalizzata per gestirla. |
-| 4 | **Preferiti:** Selezionando la stella accanto a una metrica, questa viene contrassegnata come preferita. |
-| 5 | **Titoli e descrizioni dei segmenti:** Questi valori vengono forniti nel generatore di metriche calcolate. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo per aprire il generatore di metriche calcolate. |
-| 6 | **Suite di rapporti:** Indica in quale suite di rapporti la metrica è stata salvata l’ultima volta. |
-| 7 | **Proprietario:** Indica il proprietario della metrica personalizzata. In qualità di non amministratore, puoi visualizzare solo le metriche che possiedi o quelle che sono state condivise con te. |
-| 8 | **Tag:** Mostra i tag applicati alla metrica, da te o da altri utenti che hanno condiviso il segmento con te. |
-| 9 | **Condiviso con:** Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso il segmento. |
-| 10 | **Selettore colonna:** Consente di selezionare o deselezionare le colonne nella pagina Metriche calcolate in modo da poter personalizzare la visualizzazione. |
-| Non visualizzato nell&#39;immagine | **Data di modifica:** Indica la data dell’ultima modifica apportata alla metrica personalizzata. |
+* [Contrassegnare le metriche calcolate come preferite](/help/components/calc-metrics/cm-workflow/cm-favorite.md)
 
-{style="table-layout:auto"}
+* [Approvare le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+
+* [Assegnare tag alle metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
+
+* [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md)
+
+* Esporta una metrica calcolata in un file CSV.
+
+* [Copiare le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-copy.md)
+
+* Elimina metriche calcolate
+
+## Configurare le colonne
+
+Puoi configurare le informazioni visualizzate per ogni metrica calcolata nel gestore delle metriche calcolate configurando le colonne visualizzate.
+
+Per configurare le colonne visibili in Gestione metriche calcolate:
+
+1. In Customer Journey Analytics, seleziona la **[!UICONTROL Components]** , quindi seleziona **[!UICONTROL Calculated metrics]**.
+
+1. In Gestione metriche calcolate, seleziona la **Personalizza colonne** icona ![Icona Personalizza colonne](assets/customize-columns-icon.png), quindi seleziona le colonne che desideri visualizzare nel Gestore delle metriche calcolate.
+
+   Sono disponibili le seguenti colonne:
+
+   | Titolo colonna | Descrizione |
+   |---|---|
+   | Preferiti | Visualizza icone a forma di stella accanto a ciascuna metrica calcolata, che consentono di contrassegnare le metriche calcolate come preferite. Per ulteriori informazioni, consulta [Contrassegnare le metriche calcolate come preferite](/help/components/calc-metrics/cm-workflow/cm-favorite.md). |
+   | Titolo e descrizione | Questi valori vengono forniti nel generatore di metriche calcolate. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo per aprire il generatore di metriche calcolate. |
+   | Suite di rapporti | Indica in quale suite di rapporti la metrica è stata salvata l’ultima volta. |
+   | Proprietario | Indica il proprietario della metrica personalizzata. In qualità di non amministratore, puoi visualizzare solo le metriche che possiedi o quelle che sono state condivise con te. |
+   | Tag | Mostra i tag applicati alla metrica, da te o da altri utenti che hanno condiviso con te la metrica calcolata. |
+   | Condiviso con | Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso la metrica calcolata. <p>Quando una metrica calcolata viene condivisa, accanto al nome della metrica calcolata viene visualizzata un’icona di condivisione.</p> |
+   | Data di modifica | Indica la data dell’ultima modifica apportata alla metrica personalizzata. |
+   | Utilizzato in | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).<p>Mostra in quale dei seguenti tipi di componenti è attualmente utilizzata la metrica calcolata:</p> <ul><li>Avvisi</li><li>Metriche calcolate</li><li>Progetti</li><li>Progetti programmati</li></ul> Ad esempio, se i componenti vengono utilizzati in 40 progetti e 2 metriche calcolate, questa colonna mostra [!UICONTROL **Metriche calcolate (2), progetti (40)**]. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione o se deve essere eliminato.</p><p>Queste informazioni non includono l’utilizzo dall’API o dal Report Builder.</p><p>È possibile utilizzare [Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md) oltre a queste informazioni, ti aiuteranno a tenere traccia di come i componenti vengono utilizzati nella tua organizzazione e a comprenderne meglio il funzionamento. |
+   | Ultimo utilizzo | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).<p>Mostra la data dell’ultimo utilizzo della metrica calcolata in uno qualsiasi dei seguenti tipi di componenti:</p> <ul><li>Avvisi</li><li>Metriche calcolate</li><li>Progetti</li><li>Progetti programmati</li></ul> <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione o se deve essere eliminato.</p><p>Queste informazioni non includono l’utilizzo dall’API o dal Report Builder.</p><p>È possibile utilizzare [Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md) oltre a queste informazioni, ti aiuteranno a tenere traccia di come i componenti vengono utilizzati nella tua organizzazione e a comprenderne meglio il funzionamento. |
+
+   {style="table-layout:auto"}

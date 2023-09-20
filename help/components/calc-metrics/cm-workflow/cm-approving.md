@@ -3,10 +3,10 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ In Gestione metriche calcolate, gli amministratori possono impostare un flusso d
 
 Per contrassegnare le metriche calcolate come approvate:
 
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica che desideri contrassegnare come approvata.
 

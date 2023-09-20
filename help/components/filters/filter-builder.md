@@ -3,7 +3,7 @@ description: Il Generatore di filtri fornisce un’area di lavoro per trascinare
 title: Crea filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 3%
@@ -64,10 +64,10 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. Per i
 1. Immettere o selezionare un valore per l&#39;elemento selezionato.
 1. Se necessario, aggiungi altri contenitori utilizzando **[!UICONTROL And]**, **[!UICONTROL Or]**, o **[!UICONTROL Then]** regole.
 1. Dopo aver inserito i contenitori e aver impostato le regole, vedi i risultati del filtro nel grafico di convalida in alto a destra. La convalida indica la percentuale e il numero assoluto di visualizzazioni di pagina, visite e persone univoche che corrispondono al filtro creato.
-1. Sotto **[!UICONTROL Tags]**, [tag](/help/components/filters/manage-filters.md) il contenitore selezionando un tag esistente o creandone uno nuovo.
+1. Sotto **[!UICONTROL Tags]**, [tag](/help/components/filters/filters-tag.md) il contenitore selezionando un tag esistente o creandone uno nuovo.
 1. Clic **[!UICONTROL Save]** per salvare il filtro.
 
-   Sei portato al [Gestore filtri](/help/components/filters/manage-filters.md), dove puoi assegnare tag, condividere e gestire il filtro in più modi.
+   Sei portato al [Gestione filtri](/help/components/filters/manage-filters.md), dove puoi assegnare tag, condividere e gestire il filtro in più modi.
 
 ## Aggiungere contenitori {#containers}
 

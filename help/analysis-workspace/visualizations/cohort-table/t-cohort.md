@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configurare un rapporto di analisi per coorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 90%
@@ -46,7 +46,7 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 
    Seleziona le celle (contigue o non contigue), quindi fai clic con il pulsante destro del mouse e scegli > **[!UICONTROL Create Filter From Selection]**.
 
-1. In [Generatore di filtri](/help/components/filters/manage-filters.md), modifica ulteriormente il filtro, quindi fai clic su **[!UICONTROL Save]**.
+1. In [Generatore di filtri](/help/components/filters/filter-builder.md), modifica ulteriormente il filtro, quindi fai clic su **[!UICONTROL Save]**.
 
    Il filtro salvato è disponibile per l’utilizzo nel pannello [!UICONTROL Filter] di [!UICONTROL Analysis Workspace].
 1. Rinomina e salva il progetto della coorte.

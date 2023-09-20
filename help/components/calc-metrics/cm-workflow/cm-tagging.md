@@ -3,9 +3,9 @@ description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
@@ -25,10 +25,9 @@ Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o
 >* **Categorie**, ad esempio Donna o Geografia.
 >* **Flussi di lavoro**, ad esempio Da approvare o Curare per (una specifica unità aziendale).
 
-
 ## Applicare i tag a una metrica calcolata
 
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare al gestore della metrica calcolata.
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo accanto alle metriche alle quali desideri assegnare i tag.
 
