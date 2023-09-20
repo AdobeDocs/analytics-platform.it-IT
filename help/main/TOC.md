@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 81%
+source-wordcount: '995'
+ht-degree: 78%
 
 ---
 
@@ -161,8 +161,11 @@ ht-degree: 81%
       + [Condividere progetti](../analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](../analysis-workspace/curate-share/shareable-links.md)
       + [Progetti solo visualizzazione](../analysis-workspace/curate-share/view-only-projects.md)
-      + [Scaricare file PDF o CSV](../analysis-workspace/curate-share/download-send.md)
-      + [Programmare progetti](../analysis-workspace/curate-share/t-schedule-report.md)
+   + Esportazione {#export}
+      + [Panoramica sull’esportazione](../analysis-workspace/export/export-project-overview.md)
+      + [Scarica](../analysis-workspace/export/download-send.md)
+      + [Invia ad altri](../analysis-workspace/export/t-schedule-report.md)
+      + [Esporta nel cloud](../analysis-workspace/export/export-cloud.md)
    + Virtual Analyst {#virtual-analyst}
       + [Panoramica di Virtual Analyst](../analysis-workspace/virtual-analyst/overview.md)
       + Rilevamento delle anomalie {#anomaly-detection}
@@ -253,6 +256,13 @@ ht-degree: 81%
       + [Gestire gli intervalli di date](../components/date-ranges/manage.md)
       + [Creare intervalli di date personalizzati](../components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](../components/date-ranges/time-comparison.md)
+   + Esportazioni {#exports}
+      + [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md)
+      + [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md)
+      + [Gestire i percorsi di esportazione cloud](/help/components/exports/manage-export-locations.md)
+      + [Gestione esportazioni](/help/components/exports/manage-exports.md)
+      + [Gestire i registri di esportazione](/help/components/exports/manage-export-logs.md)
+      + [Risolvere i problemi relativi alle esportazioni](/help/components/exports/troubleshoot-exports.md)
    + Dizionario dati {#data-dictionary}
       + [Panoramica del dizionario dati](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualizzare le informazioni sui componenti nel dizionario dati](../components/data-dictionary/view-data-dictionary.md)
@@ -325,6 +335,7 @@ ht-degree: 81%
    + [Visualizzare e gestire l’utilizzo](../admin/estimate-usage.md)
    + [Implicazioni dell’eliminazione](../admin/cja-deletion.md)
    + [Ottimizzare le prestazioni del Customer Journey Analytics](../admin/optimizing-performance.md)
+   + [Indirizzi IP](../admin/ip-addresses.md)
 
 + Labs {#labs}
    + [Guida utente di Labs](../labs/labs.md)

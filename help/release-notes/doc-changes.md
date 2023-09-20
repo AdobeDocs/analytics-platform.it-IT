@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 86%
@@ -26,7 +26,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Agosto 2023** | |
 | Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Miglioramenti a Report Builder | Contenuto aggiornato per [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) per fornire informazioni per il download delle attività pianificate. Contenuto aggiornato per  [Creare un blocco di dati](/help/report-builder/create-a-data-block.md) per fornire informazioni sull’utilizzo di Data di inizio come dimensione. |
-| Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
+| Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/export/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Supporto delle funzioni di Adobe Customer Journey Analytics | Sono state aggiunte ulteriori informazioni nella sezione *Supportato in un nuovo modo* tabella sulle funzionalità di sessionizzazione in Customer Journey Analytics rispetto ad Adobe Analytics. [Ulteriori informazioni](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evoluzione da Adobe Analytics | È stato aggiornato il *(Ri)Configurare I Canali Di Marketing* sezione con un riferimento al modello di funzione Campi derivati Canali di marketing. [Ulteriori informazioni](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guide rapide all’acquisizione dei dati per applicazioni mobili e altre piattaforme | Sono state aggiunte ulteriori guide introduttive sull’acquisizione dei dati che descrivono come acquisire e utilizzare dati da applicazioni mobili o altre piattaforme (come applicazioni desktop, giochi su console, applicazioni su set-top box e dispositivi IoT) in Customer Journey Analytics. [Ulteriori informazioni](../data-ingestion/data-ingestion.md) |
@@ -169,7 +169,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Aprile 2021 | Nuova documentazione sul supporto dei progetti pianificati in Workspace. |
 | Aprile 2021 | Nuovi argomenti sull’[esperienza Visualizzazione dati migliorata](/help/data-views/data-views.md). |
 | Aprile 2021 | Nuovi argomenti relativi all’[acquisizione di dati Google Analytics](/help/use-cases/ga/overview.md) e all’[analisi di tali dati](/help/use-cases/ga/report.md). |
-| Aprile 2021 | È stato aggiunto un argomento sui [rapporti pianificati](/help/analysis-workspace/curate-share/t-schedule-report.md) in Workspace. |
+| Aprile 2021 | È stato aggiunto un argomento sui [rapporti pianificati](/help/analysis-workspace/export/t-schedule-report.md) in Workspace. |
 | Aprile 2021 | Nuovo argomento sulle [dimensioni a cardinalità elevata in Customer Journey Analytics](/help/components/dimensions/high-cardinality.md). |
 | **Marzo 2021** | |
 | Marzo 2021 | È stato aggiunto un argomento sul supporto per i [dashboard di Analytics](/help/mobile-app/home.md) (app mobile). |

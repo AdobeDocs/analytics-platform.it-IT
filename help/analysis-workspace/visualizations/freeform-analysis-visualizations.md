@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 87%
+source-wordcount: '1232'
+ht-degree: 86%
 
 ---
 
@@ -47,15 +47,15 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
    * Nella barra a sinistra, seleziona la **Visualizzare** icona <!-- add icon -->, quindi trascina una visualizzazione nel pannello in cui desideri aggiungerla.
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona la **Più** , quindi scegli l’icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
 
-      ![Pulsante per aggiungere una visualizzazione](assets/visualization-add-to-panel.png)
+     ![Pulsante per aggiungere una visualizzazione](assets/visualization-add-to-panel.png)
 
    * Aggiungi un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it), quindi scegli la visualizzazione da aggiungere.
 
-      ![Pannello vuoto](assets/blank_panel.png)
+     ![Pannello vuoto](assets/blank_panel.png)
 
    * Fai clic con il pulsante destro del mouse su un pannello esistente nel progetto Analysis Workspace, quindi seleziona [!UICONTROL **Visualizzazione duplicata**] o [!UICONTROL **Copia visualizzazione**].
 
@@ -122,8 +122,8 @@ Ulteriori funzionalità per una visualizzazione sono disponibili facendo clic co
 | --- | --- |
 | Inserisci visualizzazione/pannello copiato | Consente di incollare (inserire) l’elemento copiato altrove nello stesso progetto o in un altro progetto. |
 | Copia visualizzazione | Consente di fare clic con il pulsante destro del mouse e copiare una visualizzazione in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
-| [Scarica elementi come CSV](/help/analysis-workspace/curate-share/download-send.md) | Scarica come CSV fino a 50.000 elementi dimensionali per la dimensione selezionata. |
-| [Scarica dati come CSV](/help/analysis-workspace/curate-share/download-send.md) | Scarica come CSV l’origine dati della visualizzazione. |
+| [Scaricare i dati del progetto](/help/analysis-workspace/export/download-send.md) | Scarica come CSV fino a 50.000 elementi dimensionali per la dimensione selezionata. |
+| [Scaricare i dati del progetto](/help/analysis-workspace/export/download-send.md) | Scarica come CSV l’origine dati della visualizzazione. |
 | Duplica visualizzazione | Crea una copia della visualizzazione corrente, che potrai quindi modificare. |
 | Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione. |
 | Ottieni collegamento visualizzazione | Consente di indirizzare un utente a una specifica visualizzazione in un progetto. Quando si fa clic sul collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato all’esatta visualizzazione collegata. |

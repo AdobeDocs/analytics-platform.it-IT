@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare un rapporto di analisi per coorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 90%
 
 ---
@@ -58,4 +58,4 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 
 ## Scaricare una visualizzazione per coorte
 
-Come altre visualizzazioni in Analysis Workspace, puoi scaricare una visualizzazione per coorte come file CSV o PDF. Per ulteriori informazioni, consulta [Scaricare file PDF o CSV](/help/analysis-workspace/curate-share/download-send.md).
+Come altre visualizzazioni in Analysis Workspace, puoi scaricare una visualizzazione per coorte come file CSV o PDF. Per ulteriori informazioni, consulta [Scaricare i dati del progetto](/help/analysis-workspace/export/download-send.md).

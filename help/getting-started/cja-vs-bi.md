@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
+source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 65%
@@ -38,7 +38,7 @@ Il Customer Journey Analytics fornisce un ambiente per collegare dati cross-chan
 
 Puoi usare il Customer Journey Analytics per porre domande utilizzando l’ambiente di Analysis Workspace visivo e ottenere informazioni quasi istantaneamente. I dati e i rapporti cross-channel sono immediatamente disponibili, senza la richiesta di codice SQL. Si possono eseguire ulteriori query e analisi con un semplice trascinamento nell’interfaccia utente, con i dati completamente correlati. Puoi continuare a fare domande, esplorando progressivamente più dettagli come richiesto. Puoi eseguire azioni immediate sulle informazioni scoperte, come la suddivisione dei tipi di pubblico per l’attivazione e l’orchestrazione.
 
-## Il potente motore di reporting di Customer Journey Analytics
+## Il potente motore di reporting del Customer Journey Analytics
 
 Il Customer Journey Analytics utilizza una potente architettura proprietaria che distribuisce l’analisi su centinaia o persino migliaia di server per visualizzare i dati in Analysis Workspace in pochi secondi. Alcune proprietà di rilievo di questa architettura di elaborazione includono:
 
@@ -52,7 +52,7 @@ Il Customer Journey Analytics utilizza una potente architettura proprietaria che
 
 * **Funge da soluzione di business intelligence headless**: definisci dimensioni, metriche, filtri in un’unica posizione, quindi qualsiasi client di Customer Journey Analytics (inclusa la nostra API di Customer Journey Analytics pubblica) può accedere a tali componenti. In questo modo le query complesse vengono sottratte agli utenti finali e si garantisce che i risultati siano gli stessi, indipendentemente dal client di reporting o di visualizzazione utilizzato.
 
-## Funzionalità di visualizzazione esclusive di Customer Journey Analytics
+## Funzionalità di visualizzazione esclusive del Customer Journey Analytics
 
 Il motore di reporting è fondamentale per il Customer Journey Analytics per consentirti di interagire progressivamente con tutti i dati del percorso del cliente all’interno di tale motore di reporting. Il Customer Journey Analytics è dotato di un ampio set di componenti che consentono di eseguire questa operazione visivamente e tramite trascinamento della selezione. Gli strumenti di visualizzazione BI ti consentono di esplorare i contenuti entro i limiti dei dati preparati da SQL (come definiti da IT). Il Customer Journey Analytics consente di suddividere e suddividere in base alle proprie esigenze, senza dover tornare al reparto IT per creare un&#39;altra visualizzazione SQL.
 
@@ -76,7 +76,7 @@ In questi componenti di visualizzazione sono incorporate funzionalità avanzate 
 
    * [curate](/help/analysis-workspace/curate-share/curate.md) per altri individui dell’organizzazione per un’esplorazione continua,
    * esportate in Excel utilizzando [Report Builder](/help/report-builder/report-buider-overview.md) (un plug-in dedicato),
-   * [condivise](/help/analysis-workspace/curate-share/share-projects.md) in vari formati, tra cui [PDF](/help/analysis-workspace/curate-share/download-send.md), [CSV](/help/analysis-workspace/curate-share/download-send.md) e attraverso una [app mobile dedicata](/help/mobile-app/home.md), con coloro che sono interessati ai rapporti finali e/o alle visualizzazioni.
+   * [condivise](/help/analysis-workspace/curate-share/share-projects.md) in vari formati, tra cui [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) e attraverso una [app mobile dedicata](/help/mobile-app/home.md), con coloro che sono interessati ai rapporti finali e/o alle visualizzazioni.
 
 Confrontare le funzionalità di visualizzazione del Customer Journey Analytics con quelle offerte dagli strumenti di business intelligence è difficile a causa della varietà di visualizzazioni disponibili. Alcuni strumenti di business intelligence dispongono di visualizzazioni più avanzate, ma Customer Journey Analytics si concentra su visualizzazioni interattive e interoperabili del percorso di clienti che consentono di suddividere i dati in pochi secondi senza dover pagare per ogni query aggiuntiva.
 

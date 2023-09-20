@@ -4,10 +4,10 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -19,12 +19,12 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 
 ## Caratteristiche della nuova pagina di destinazione {#new-features}
 
-| Funzione | Descrizione | Schermata |
+| Funzionalità | Descrizione | Schermata |
 | --- | --- | --- |
 | Espandere la tabella [!UICONTROL Projects] a schermo intero | Per espandere la tabella, fai clic sull’icona del menu con le tre linee. Le schede della barra a sinistra vengono compresse. | ![Espandere la tabella](assets/landing-collapse2.png) |
 | Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Larghezza delle colonne](assets/column-width.png) |
 | Riordinare gli elementi fissati | Per spostare verso l’alto o verso il basso un elemento fissato, fai clic sui suoi puntini di sospensione e seleziona **[!UICONTROL Move up]** o **[!UICONTROL Move down]**. | ![Spostare gli elementi fissati](assets/move-up-down.png) |
-| Nuove colonne di tabella | Fai clic sull’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](../analysis-workspace/curate-share/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporare tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
+| Nuove colonne di tabella | Fai clic sull’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](/help/analysis-workspace/export/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporare tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
 
 {style="table-layout:auto"}
@@ -82,25 +82,25 @@ Se ti trovi nella visualizzazione “Folders &amp; Projects” (Cartelle e proge
 
 ## Utilizzare la scheda Apprendimento {#navigate-learning}
 
-La pagina Apprendimento contiene tour video pratici, tutorial e collegamenti alla documentazione.
+La pagina Apprendimento contiene tutorial, presentazioni video pratiche e collegamenti alla documentazione.
 
 Utilizza la pagina Apprendimento nel Customer Journey Analytics per scoprire:
 
 * Funzioni e casi d’uso principianti, intermedi o avanzati in CJA
 * Passare più facilmente da Adobe Analytics a CJA
 
-### Accedi alla pagina di apprendimento
+### Accedere alla pagina Apprendimento
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Workspace**] > [!UICONTROL **Apprendimento**].
 
 ### Funzioni della pagina di apprendimento
 
-* **Filtra contenuto:** L’icona Filtro nella barra a sinistra consente di filtrare i contenuti di apprendimento in base al livello di esperienza (Principiante, Intermedio o Avanzato) e al tipo di contenuto (Documento, Video o Tour e tutorial).
-* **Tracciare l’avanzamento:** Dopo aver selezionato un contenuto, **[!UICONTROL Viewed]** viene visualizzato. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare **[!UICONTROL Viewed]** per rimuoverlo da un contenuto.
-* **Visualizza contenuto aggiuntivo:** Quando visualizzi un video, seleziona la **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
-   * **[!UICONTROL Visit YouTube]:** Visualizza la playlist Analysis Workspace YouTube completa.
+* **Filtrare i contenuti:** l’icona Filtro nella barra a sinistra consente di filtrare i contenuti di apprendimento in base al livello di esperienza (principiante, intermedio o avanzato) e al tipo di contenuto (documento, video o presentazione e tutorial).
+* **Tracciare l’avanzamento:** dopo aver selezionato una parte del contenuto, viene visualizzato un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare il tag **[!UICONTROL Viewed]** per rimuoverlo da una parte del contenuto.
+* **Visualizza contenuto aggiuntivo:** quando visualizzi un video, seleziona il pulsante **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
+   * **[!UICONTROL Visit YouTube]:** visualizza la playlist di YouTube completa di Analysis Workspace.
    * [!UICONTROL **Visita Experience League**]: visualizza la suite completa della documentazione di CJA su Experience League.
-* **Nozioni di base per i nuovi utenti:** Il [!UICONTROL Workspace Fundamentals] la presentazione è consigliata per i nuovi utenti. Questa presentazione consente di accedere direttamente a Workspace e di eseguire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
+* **Nozioni di base per i nuovi utenti:** La presentazione [!UICONTROL Workspace Fundamentals] è consigliata per i nuovi utenti. Questa presentazione consente di entrare direttamente in Workspace e di scoprire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
 
 ## Impostare la pagina di destinazione {#set-landing}
 

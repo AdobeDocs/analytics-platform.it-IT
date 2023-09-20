@@ -3,10 +3,10 @@ description: Le impostazioni colonna consentono di configurare la formattazione 
 title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '672'
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,25 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 
 Consente di ignorare il modello di attribuzione predefinito impostato in [Visualizzazioni dati](/help/data-views/component-settings/attribution.md).
 
-1. Fai clic sull’icona delle impostazioni (a forma di ingranaggio) nella colonna di una tabella a forma libera.
+<!--
+
+>[!NOTE]
+>
+>Consider the following when updating a component's attribution to a non-default attribution model:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
+
+-->
+
+Per utilizzare un modello di attribuzione non predefinito per una metrica in un Analysis Workspace:
+
+1. Fai clic sull’icona Impostazioni (ingranaggio) di una metrica nella colonna di una tabella a forma libera.
 
    ![Casella di controllo di attribuzione](assets/attribution-checkbox.png)
 
@@ -67,4 +85,3 @@ Consente di ignorare il modello di attribuzione predefinito impostato in [Visual
 >[!MORELIKETHIS]
 >
 >* [Gestione delle origini dati](/help/analysis-workspace/visualizations/t-sync-visualization.md)
-

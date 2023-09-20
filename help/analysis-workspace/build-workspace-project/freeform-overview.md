@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 78%
+source-wordcount: '1312'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ La pagina Progetti contiene le informazioni riportate di seguito.
 
 | Elemento | Descrizione |
 |---|---|
-| [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
+| [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
 | [Crea cartella](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
 | [Crea progetto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Avvia un nuovo progetto da zero. |
 | Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scorecard per dispositivi mobili. [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it), o [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
@@ -38,7 +38,7 @@ La pagina Progetti contiene le informazioni riportate di seguito.
 | Nome | Nome del progetto Workspace. |
 | Tipo | Indica se si tratta di un progetto Workspace, una cartella o un [Scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it). |
 | Tag | Tag che sono stati applicati al progetto. |
-| Pianificato | Indica se i progetti sono programmati per essere inviati tramite e-mail ai destinatari in base a una pianificazione. Consulta [Programmare progetti](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| Pianificato | Indica se i progetti sono programmati per essere inviati tramite e-mail ai destinatari in base a una pianificazione. Consulta [Inviare dati di progetto ad altri](/help/analysis-workspace/export/t-schedule-report.md). |
 | Collegamento condiviso (chiunque) | I progetti possono essere condivisi con chiunque, anche con persone che non hanno accesso ad Analysis Workspace. Questa colonna mostra se i progetti sono stati condivisi in questo modo. Consulta [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
 | Visualizzazione dati | La visualizzazione dati a cui è associato il progetto. |
 | [Ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Indica il tuo ruolo per il progetto, ossia se sei il proprietario o se sei autorizzato a modificarlo, duplicarlo o visualizzarlo. |
@@ -59,7 +59,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 | Opzione di menu | Descrizione |
 |---|---|
-| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva e Salva con nome. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](/help/analysis-workspace/curate-share/download-send.md) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
+| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva e Salva con nome. Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). [Scaricare i dati del progetto](/help/analysis-workspace/export/download-send.md) consente di esportare dati da Workspace. **Informazioni e impostazioni progetto** (vedi sotto) offre molte opzioni per la gestione del progetto. |
 | Modifica | Annulla o ripristina l’ultima azione. Con Clear All (Cancella tutto) puoi ripristinare il progetto e tornare al progetto vuoto iniziale. |
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](/help/components/overview.md) | Crea dal progetto nuovi filtri, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, usa Refresh Components (Aggiorna componenti) per recuperare le definizioni più recenti. |

@@ -4,10 +4,10 @@ description: Consente di impostare l’attribuzione predefinita per una metrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 38%
+source-wordcount: '1855'
+ht-degree: 35%
 
 ---
 
@@ -19,19 +19,52 @@ Attribution consente di personalizzare il modo in cui i valori delle dimensioni 
 
 Ad esempio:
 
-1. Una persona sul tuo sito fa clic su un collegamento di ricerca a pagamento a una delle tue pagine di prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
+1. Una persona sul tuo sito fa clic su un collegamento di ricerca a pagamento per accedere a una delle tue pagine di prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno dopo, vedono un post di un loro amico sui social media. Fa clic sul collegamento, quindi completa l’acquisto.
 
 In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting.
 
-Questa impostazione del componente Visualizzazione dati consente di impostare un modello di attribuzione predefinito per una metrica. Puoi sovrascrivere il modello di attribuzione di una data metrica mentre lavori in Analysis Workspace.
+## Impostare il modello di attribuzione predefinito di un componente
 
+Puoi impostare un modello di attribuzione predefinito per una data metrica aggiornando l’impostazione della metrica nella visualizzazione dati. In questo modo si sostituisce il modello di attribuzione della metrica ogni volta che viene utilizzato in Analysis Workspace.
 
+<!-- 
 
-Se l’organizzazione richiede che una metrica abbia più impostazioni di attribuzione, puoi effettuare una delle seguenti operazioni:
+>[!NOTE]
+>
+>Consider the following when enabling attribution on a metric:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
 
-* Copia la metrica nella visualizzazione dati con ogni impostazione di attribuzione desiderata. Puoi includere la stessa metrica più volte in una visualizzazione dati, assegnando a ciascuna metrica un’impostazione diversa. Assicurati di etichettare correttamente ogni metrica in modo che gli analisti possano capire la differenza tra queste metriche durante la generazione dei rapporti.
-* Sostituisci la metrica in Analysis Workspace. In una metrica di [Impostazioni colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), seleziona **[!UICONTROL Use non-default attribution model]** per modificare il modello di attribuzione e l’intervallo di lookback della metrica per quel rapporto specifico.
+-->
+
+Per aggiornare il modello di attribuzione predefinito di un componente:
+
+1. Vai alla visualizzazione dati che contiene il componente di cui desideri aggiornare il modello di attribuzione predefinito.
+
+1. Seleziona il componente, quindi espandi la sezione Attribuzione sul lato destro della schermata.
+
+   ![](../assets/attribution-settings.png)
+
+1. Seleziona [!UICONTROL **Imposta attribuzione**], quindi seleziona il modello di attribuzione in [!UICONTROL **Modello di attribuzione**] menu a discesa.
+
+   Consulta [Modelli di attribuzione](#attribution-models) per scoprire ogni modello di attribuzione.
+
+1. Seleziona [!UICONTROL **Salva e continua**].
+
+>[!TIP]
+>
+>Se l’organizzazione richiede che una metrica abbia più impostazioni di attribuzione, puoi effettuare una delle seguenti operazioni:
+>
+> * Copia la metrica nella visualizzazione dati con ogni impostazione di attribuzione desiderata. Puoi includere la stessa metrica più volte in una visualizzazione dati, assegnando a ciascuna metrica un’impostazione diversa. Assicurati di etichettare correttamente ogni metrica in modo che gli analisti possano capire la differenza tra queste metriche durante la generazione dei rapporti.
+>
+> * Sostituisci la metrica in Analysis Workspace. In una metrica di [Impostazioni colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), seleziona **[!UICONTROL Use non-default attribution model]** per modificare il modello di attribuzione e l’intervallo di lookback della metrica per quel rapporto specifico.
 
 ## Modelli di attribuzione
 

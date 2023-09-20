@@ -3,7 +3,7 @@ title: Etichette e criteri
 description: Scopri in che modo le etichette dati e i criteri definiti in Adobe Experience Platform influiscono sulle visualizzazioni dati e sul reporting in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
+source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 56%
@@ -24,7 +24,7 @@ Le seguenti etichette sono di particolare interesse per il Customer Journey Anal
 >
 >Le etichette di utilizzo dei dati non vengono propagate automaticamente ai set di dati uniti. Tuttavia, possono essere aggiunte manualmente.
 
-L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Puoi creare i tuoi criteri utilizzando [Interfaccia utente Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it) o tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
+L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Puoi creare i tuoi criteri utilizzando [Interfaccia utente Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it) o tramite [API del servizio criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=it) in Experience Platform.
 
 Nel Customer Journey Analytics vengono visualizzati due criteri definiti dall’Adobe che influiscono sul reporting e sul download/condivisione:
 
@@ -72,7 +72,7 @@ Questi componenti sono visualizzati in grigio nell’elenco della barra a sinist
 Inoltre, non è possibile salvare una visualizzazione dati contenente campi bloccati.
 
 >[!MORELIKETHIS]
->[Scaricare dati sensibili](/help/analysis-workspace/curate-share/download-send.md)
+>[Scaricare dati sensibili](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
 >[Cosa sono le etichette per limitazioni in Report Builder?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=it)
