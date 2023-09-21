@@ -5,18 +5,16 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 4%
+source-wordcount: '972'
+ht-degree: 3%
 
 ---
 
 # Configurare i percorsi di esportazione cloud
 
-{{select-package}}
-
-Prima di esportare i dati di Customer Journey Analytics in una destinazione cloud come descritto in [Esporta dati di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), devi aggiungere e configurare il percorso in cui desideri inviare i dati.
+Prima di esportare i rapporti sul Customer Journey Analytics in una destinazione cloud come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), devi aggiungere e configurare il percorso in cui desideri inviare i dati.
 
 Questo processo consiste nell’aggiungere e configurare l’account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md), quindi aggiungendo e configurando il percorso all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in questo articolo.
 
@@ -26,18 +24,36 @@ Per configurare un percorso di esportazione cloud:
 
 1. È necessario aggiungere un account prima di poter aggiungere una posizione. Se non lo hai già fatto, aggiungi un account come descritto in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
-1. Il giorno [!UICONTROL Exports] , seleziona la [!UICONTROL **Posizioni**] scheda.
-1. Seleziona [!UICONTROL **Aggiungi posizione**].
+1. Seleziona la [!UICONTROL **Posizioni**] , quindi seleziona [!UICONTROL **Aggiungi posizione**].
 
    ![pulsante aggiungi posizione](assets/location-add.png)
 
+   Oppure
+
+   Seleziona la [!UICONTROL **Account ubicazione**] , seleziona l’icona a 3 punti di un account esistente in cui desideri aggiungere una posizione, quindi seleziona [!UICONTROL **Aggiungi posizione**].
+
+   ![Aggiungi posizione all&#39;account esistente](assets/add-location-existing-account.png)
+
    Viene visualizzata la finestra di dialogo Posizione.
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione del conto per distinguerlo da altri conti dello stesso tipo. | | [!UICONTROL **Account località**] | Seleziona l&#39;account località creato in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
+1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione del conto per distinguerlo da altri conti dello stesso tipo. | | [!UICONTROL **Account località**] | Seleziona l’account in cui desideri creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
 
 1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
 
    Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo.
+
+   +++Data Landing Zone di Adobe Experience Platform
+
+   Specifica le seguenti informazioni per configurare un percorso per la zona di destinazione dati di Adobe Experience Platform:
+
+   <!-- still need to update; can't create AEP account -->
+
+   | Campo | Funzione |
+   |---------|----------|
+   | [!UICONTROL **ID organizzazione IMS**] | L’ID dell’organizzazione IMS è fornito da Adobe. Fai clic sull’icona Copia accanto a [!UICONTROL **ID organizzazione IMS**] per copiare il contenuto del campo, quindi utilizza l’ID nell’account Adobe Experience Platform. |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+
++++
 
    +++ARN per ruolo Amazon S3
 
@@ -108,19 +124,6 @@ Per configurare un percorso di esportazione cloud:
    | [!UICONTROL **Percorso stage**] | Percorso del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
-
-   +++Adobe Experience Platform
-
-   Specifica le seguenti informazioni per configurare un percorso Adobe Experience Platform:
-
-   <!-- still need to update; can't create AEP account -->
-
-   | Campo | Funzione |
-   |---------|----------|
-   | [!UICONTROL **ID organizzazione IMS**] | L’ID dell’organizzazione IMS è fornito da Adobe. Fai clic sull’icona Copia accanto a [!UICONTROL **ID organizzazione IMS**] per copiare il contenuto del campo, quindi utilizza l’ID nell’account Adobe Experience Platform. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
 
 +++
 

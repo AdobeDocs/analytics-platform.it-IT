@@ -5,18 +5,16 @@ title: Gestire i registri di esportazione
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: f070f998758cead3709f6c48412b22b29de00164
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 3%
 
 ---
 
 # Gestire i registri di esportazione
 
-{{select-package}}
-
-I registri di esportazione forniscono dettagli su ogni esportazione e vengono generati ogni volta che i dati di Analysis Workspace vengono esportati nel cloud. (Per informazioni su come esportare i dati nel cloud, vedi [Esporta dati di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).)
+I registri di esportazione forniscono dettagli su ogni esportazione e vengono generati ogni volta che i dati di Analysis Workspace vengono esportati nel cloud. (Per informazioni su come esportare i dati nel cloud, vedi [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).)
 
 Per le esportazioni pianificate, i registri riflettono le impostazioni di esportazione così come erano quando il registro è stato inviato. I registri non possono essere eliminati.
 
@@ -38,7 +36,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul>. |
+   | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati Adobe Experience Platform**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un’istanza specifica di un’esportazione è stata avviata ma non è ancora completa.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completato**]: l’elaborazione di un’istanza specifica di un’esportazione è stata completata ed è disponibile nell’account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
 
    {style="table-layout:auto"}
@@ -95,10 +93,10 @@ Per configurare le colonne in [!UICONTROL Log] scheda:
 
    | Colonna disponibile | Descrizione |
    |---------|----------|
-   | Nome esportazione | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni quando le creano, come descritto in [Esporta dati di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Nome esportazione | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni quando le creano, come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | ID esportazione | L’ID assegnato automaticamente all’esportazione al momento della creazione. <!-- True? --> |
    | ID istanza | ID dell’istanza del Customer Journey Analytics. <!-- True? --> |
-   | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell’esportazione, come descritto in [Esporta dati di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell’esportazione, come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | Numero di file | Numero di file inclusi nell&#39;esportazione. |
    | Dimensione | Dimensione dell&#39;esportazione.<p>La dimensione del file viene calcolata con una base di 1024, che a volte viene rappresentata come KIB e MIB. Se il provider di cloud calcola le dimensioni in base a 1000, le dimensioni visualizzate nel provider potrebbero essere leggermente diverse da quelle visualizzate qui.</p> |
    | Posizione | Posizione dell&#39;account in cui sono stati esportati i dati. |

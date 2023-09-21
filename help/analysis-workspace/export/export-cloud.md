@@ -1,24 +1,22 @@
 ---
 description: Esportare un progetto Analysis Workspace in una posizione cloud.
 keywords: Analysis Workspace
-title: Esporta dati di Customer Journey Analytics nel cloud
+title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 92d240581282684fd3e71dd2135d188b9239512b
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1609'
 ht-degree: 3%
 
 ---
 
-# Esporta dati di Customer Journey Analytics nel cloud
+# Esportare i rapporti di Customer Journey Analytics nel cloud
 
-{{select-package}}
+Puoi esportare tabelle complete di Workspace dal Customer Journey Analytics e inviare esportazioni alle destinazioni cloud designate.
 
-Puoi esportare tabelle complete dal Customer Journey Analytics e inviare dati a destinazioni cloud designate.
-
-Sono disponibili anche altri metodi di esportazione dei dati del Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
+Sono disponibili anche altri metodi di esportazione dei rapporti sui Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Esportare tabelle complete da Analysis Workspace
 
@@ -44,15 +42,14 @@ Per esportare tabelle complete da Analysis Workspace:
    | Tag | Puoi applicare un tag esistente all’esportazione oppure creare un nuovo tag e applicarlo. <p>Per applicare un tag esistente all’esportazione, seleziona un tag qualsiasi dal menu a discesa. Tutti i tag della tua azienda sono disponibili per l’applicazione<!-- double-check this -->.</p> <p>Per creare un nuovo tag, digitarne il nome e premere Invio.</p><p>Quando applichi i tag a un’esportazione, tieni presente quanto segue: <ul><li>I tag applicati possono essere filtrati o cercati nella tabella delle esportazioni.</li> <li>I tag applicati a un progetto non vengono applicati automaticamente durante l’esportazione di una tabella completa, come descritto in &quot;Configurare le colonne nella pagina di esportazione&quot; in [Gestione esportazioni](/help/components/exports/manage-exports.md). (in alternativa, quando [programmazione di un progetto completo per l&#39;esportazione](/help/analysis-workspace/export/t-schedule-report.md), tutti i tag applicati al progetto vengono automaticamente applicati all&#39;esportazione.)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | Descrizione | Aggiungi una descrizione all’esportazione. È possibile scegliere di visualizzare le descrizioni come una colonna nella [Pagina Esporta](/help/components/exports/manage-exports.md) durante la visualizzazione delle esportazioni. |
    | Visualizzazione dati | Seleziona la visualizzazione dati che contiene i componenti da includere nell’esportazione. Il menu a discesa Visualizzazione dati si trova nell’angolo superiore sinistro della finestra di dialogo e può essere identificato dall’icona della visualizzazione dati![icona della visualizzazione dati](assets/data-view-icon.png).  <p>**Nota:** Se si sceglie una visualizzazione dati con componenti mancanti già inclusi nella tabella dati, verrà richiesto di cancellare la tabella dati e di ricrearla utilizzando i componenti inclusi nella visualizzazione dati selezionata. </p> |
-   | Intervallo di lookback | Seleziona l’intervallo di tempo da includere nella tabella di dati. Le opzioni includono [!UICONTROL **Oggi**], [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**], [!UICONTROL **Questa settimana**], e [!UICONTROL **Questo mese**]. |
+   | Intervallo di lookback | Seleziona l’intervallo di tempo di reporting da includere in ciascun file di esportazione. Le opzioni includono [!UICONTROL **Oggi**], [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**], [!UICONTROL **Questa settimana**], e [!UICONTROL **Questo mese**]. |
    | Cancella | Cancella il contenuto della tabella dati. Questo consente di iniziare a creare una nuova tabella direttamente nella finestra di dialogo Nuova esportazione di tabella completa. |
-   | Frequenza di esportazione | Seleziona la frequenza con cui deve avvenire l’esportazione. <p>Puoi scegliere [!UICONTROL **Invia ora (una volta)**] per inviare l&#39;esportazione una sola volta. Quando selezioni questa opzione, l’esportazione viene inviata immediatamente.<p>In alternativa, puoi scegliere di inviare l’esportazione in base a una pianificazione definita. Quando si invia secondo una pianificazione, le opzioni includono [!UICONTROL **Giornaliero**], [!UICONTROL **Ogni settimana**], [!UICONTROL **Mensile per giorno della settimana**], [!UICONTROL **Mensile per giorno del mese**], [!UICONTROL **Annuale per giorno del mese**], e [!UICONTROL **Annuale per data specifica**]. </p><p>Quando selezioni una frequenza di esportazione, considera quanto segue:</p><ul><li>Le opzioni in [!UICONTROL **Intervallo di lookback**] cambia a seconda di ciò che selezioni qui.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>A seconda dell’opzione scelta, vengono visualizzati campi di configurazione aggiuntivi.</li></ul> |
+   | Frequenza di esportazione | Imposta la pianificazione per la frequenza con cui deve avvenire l’esportazione. <p>Puoi scegliere [!UICONTROL **Invia ora (una volta)**] per inviare l&#39;esportazione una sola volta. Quando selezioni questa opzione, l’esportazione viene avviata immediatamente.<p>In alternativa, puoi scegliere di inviare l’esportazione in base a una pianificazione definita. Quando si invia secondo una pianificazione, le opzioni includono [!UICONTROL **Giornaliero**], [!UICONTROL **Ogni settimana**], [!UICONTROL **Mensile per giorno della settimana**], [!UICONTROL **Mensile per giorno del mese**], [!UICONTROL **Annuale per giorno del mese**], e [!UICONTROL **Annuale per data specifica**]. </p><p>Quando selezioni una frequenza di esportazione, considera quanto segue:</p><ul><li>Le opzioni in [!UICONTROL **Intervallo di lookback**] cambia a seconda di ciò che selezioni qui.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>A seconda dell’opzione scelta, vengono visualizzati campi di configurazione aggiuntivi.</li></ul> |
    | A partire dal | Il giorno e l’ora in cui deve iniziare l’esportazione pianificata. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Fino al | Il giorno e l&#39;ora di scadenza dell&#39;esportazione pianificata. L’esportazione pianificata non viene più eseguita dopo la data e l’ora impostate. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Formato file | Scegli se i dati esportati devono essere in formato .csv o .json. |
    | Account | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>Per ulteriori informazioni, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).</p> |
    | Nome posizione | Selezionare la posizione dell&#39;account in cui si desidera inviare i dati di esportazione. <p>Per ulteriori informazioni, consulta [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).</p><p>È possibile selezionare [!UICONTROL **Aggiungi nuova posizione**] per creare una nuova posizione per un account di esportazione esistente. |
-   | Anteprima dati | Mostra la dimensione stimata, il numero stimato di righe e il numero di raggruppamenti. |
 
    {style="table-layout:auto"}
 
@@ -76,11 +73,11 @@ L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
 * Include le metriche calcolate nei dati del Customer Journey Analytics esportato.
 
-* Struttura l’output dei dati come valori concatenati (come Data Warehouse per Adobe Analytics).
+* Strutturare l’output dei dati come valori concatenati.
 
 * Esporta ad hoc o secondo una pianificazione. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
 
-* Esporta file in formato CSV o PDF. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
+* Esporta file in formato CSV o JSON. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
 
 * Esporta tabelle che includono più dimensioni.
 
@@ -145,8 +142,6 @@ Se in un rapporto viene utilizzato un modello di attribuzione non predefinito, i
 
 Dopo l’esportazione dei dati da Analysis Workspace, puoi modificare, riesportare, duplicare, assegnare tag o eliminare esportazioni esistenti, come descritto in [Gestione esportazioni](/help/components/exports/manage-exports.md).
 
-Puoi anche riprovare o registrare i ticket di supporto per le esportazioni non riuscite, come descritto in [Gestire i registri di esportazione](/help/components/exports/manage-export-logs.md).
-
 ## Visualizzare i dati esportati e il file manifesto
 
 ### Dati esportati
@@ -184,10 +179,10 @@ Se in precedenza utilizzavi Data Warehouse per esportare dati Adobe Analytics, l
 |---------|----------|---------|
 | Creare un rapporto personalizzato | Sì | Sì |
 | Metriche calcolate | Sì | No |
-| Segmenti | Sì | Sì |
+| Segmenti | Sì | Limitato |
 | Dimensioni | Limite di 5 | Senza limiti |
 | Metriche | Limite di 5 | Senza limiti |
-| Righe di reporting | Limite di 3, 30, 150 o 300, a seconda del livello | Senza limiti |
+| Righe di reporting | Limite di 3 milioni, 30 milioni, 150 milioni o 300 milioni, a seconda del livello | Senza limiti |
 | Numero di rapporti | Senza limiti | Senza limiti |
 | Consegna ad hoc | Sì | Sì |
 | Pianificare una consegna ricorrente | Sì | Sì |
