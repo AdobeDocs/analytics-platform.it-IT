@@ -5,9 +5,9 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1023'
 ht-degree: 3%
 
 ---
@@ -118,9 +118,9 @@ Per configurare un percorso di esportazione cloud:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **DB**] | Il database predefinito da utilizzare dopo la connessione oppure specifica una stringa vuota. Il database specificato deve essere un database esistente per il quale il ruolo predefinito specificato dispone di privilegi. <p>Per ulteriori informazioni, vedere [Pagina di riferimento dei parametri di connessione del driver JDBC nella documentazione del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Schema**] | Schema predefinito da utilizzare per il database specificato dopo la connessione o specifica una stringa vuota. Lo schema specificato deve essere uno schema esistente per il quale il ruolo predefinito specificato dispone di privilegi. <p>Per ulteriori informazioni, vedere [Pagina di riferimento dei parametri di connessione del driver JDBC nella documentazione del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Nome fase**] | Il nome del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | Il database specificato deve essere un database esistente per il quale il ruolo predefinito specificato dispone di privilegi.<p>Database associato al nome dell&#39;area di visualizzazione.</p> <p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente per il quale il ruolo predefinito specificato dispone di privilegi.<p>Schema associato al nome dell&#39;area di visualizzazione.</p><p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nome fase**] | Il nome della fase in cui vengono memorizzati i file di dati nel Snowflake. <p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe. <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere i privilegi nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome della fase, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Percorso stage**] | Percorso del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}

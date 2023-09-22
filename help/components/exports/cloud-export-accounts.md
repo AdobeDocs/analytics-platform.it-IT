@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1550'
 ht-degree: 2%
 
 ---
@@ -189,8 +189,8 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Identificatore account**] | Identifica in modo univoco un account di Snowflake all’interno dell’organizzazione e in tutta la rete globale di piattaforme cloud supportate dal Snowflake e aree geografiche cloud. <p>Devi ottenere l’identificatore dell’account di Snowflake, quindi incollare le informazioni qui.</p><p>Per informazioni su come ottenere queste informazioni, vedere [Pagina Identificatori account nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. Questo è un utente che verrà utilizzato specificamente per Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. <p>Per ulteriori informazioni, vedere [Pagina di riferimento dei parametri di connessione del driver JDBC nella documentazione del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **Ruolo**] | Ruolo di controllo di accesso predefinito da utilizzare nella sessione di Snowflake avviata dal driver. Questo è un ruolo che verrà utilizzato specificamente per Adobe. Specificare il ruolo qui, quindi creare un ruolo nel Snowflake con lo stesso nome e concedergli l&#39;accesso in lettura e scrittura.<p>Per ulteriori informazioni, vedere [Pagina di riferimento dei parametri di connessione del driver JDBC nella documentazione del Snowflake](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
+   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. Questo è un utente che verrà utilizzato specificamente per Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Ruolo**] | Questo è un ruolo che verrà utilizzato specificamente per Adobe. Specifica qui il ruolo, quindi crea un ruolo nel Snowflake con lo stesso nome e concedi il ruolo all&#39;utente. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
