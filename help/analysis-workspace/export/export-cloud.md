@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1612'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Per esportare tabelle complete da Analysis Workspace:
 
 L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
-* Esporta in una posizione condivisa, ad esempio Google Cloud Platform, Microsoft Azure, Amazon S3, Snowflake o Adobe Experience Platform.
+* Esporta in una posizione condivisa, ad esempio Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 o Snowflake.
 
 * Memorizza grandi quantità di dati storici.
 

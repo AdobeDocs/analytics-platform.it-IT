@@ -5,9 +5,9 @@ title: Risoluzione dei problemi di esportazione non riuscita
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 5%
 
 ---
@@ -42,8 +42,6 @@ Se continui a riscontrare problemi, contatta l’Assistenza clienti Adobe. Quand
 
 * Account
 
-* Nome società
-
 * Connessione
 
-* Visualizzazione dati
+* Nome dell’azienda
