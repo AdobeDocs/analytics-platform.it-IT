@@ -4,9 +4,9 @@ description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
+source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Il [!UICONTROL Usage] visualizza offre le seguenti impostazioni del grafico, che
 
 Aggiungi dati aggiuntivi al grafico.
 
-* **[!UICONTROL Show anomalies]**: esegue il rilevamento delle anomalie nell’analisi. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
+* **[!UICONTROL Show anomalies]**: Esecuzioni [rilevamento delle anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) sull&#39;analisi delle tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
 
 ## Applica confronto temporale
 
