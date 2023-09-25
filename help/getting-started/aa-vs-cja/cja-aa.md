@@ -4,9 +4,9 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 3149c50c14430c1960a9311b0464547b6e61bec7
+source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2131'
 ht-degree: 30%
 
 ---
@@ -136,5 +136,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | Analytics tra dispositivi | Il Customer Journey Analytics supporta la combinazione perfetta di set di dati specifici per dispositivo provenienti da sessioni non autenticate e autenticate. Il Customer Journey Analytics offre di eseguire il backfill dei dati storici su dispositivi noti. In Analytics, questa funzionalità è limitata a una singola suite di rapporti e all’utilizzo di un grafico dei dispositivi. |
 | Accesso SQL | Utilizzando l’opzione Data Distiller, il Customer Journey Analytics può rimuovere le limitazioni dei dati raccolti durante l’elaborazione backend di Adobe. Puoi modificare i dati con SQL, creare valori e set di dati specifici per la tua azienda e continuare a esplorare. Analytics non supporta alcun tipo di accesso SQL ai propri dati. |
 | Opzioni di sicurezza e privacy migliorate: preparazione HIPAA | Il Customer Journey Analytics è pronto per HIPAA e offre opzioni di sicurezza aggiuntive per la conformità alle normative. Adobe Analytics non è pronto per HIPAA. |
+| Possibilità di combinare set di dati (come suite di rapporti di Adobe Analytics) | Il Customer Journey Analytics consente di combinare dati provenienti da più suite di rapporti come se si trattasse di una singola suite di rapporti in Adobe Analytics. |
+| Campi derivati | I campi derivati consentono trasformazioni al momento del reporting dei dati. I dati possono essere combinati, corretti o creati immediatamente e possono essere applicati retroattivamente a tutti i rapporti. |
 
 {style="table-layout:auto"}
