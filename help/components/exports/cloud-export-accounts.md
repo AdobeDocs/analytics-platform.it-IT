@@ -5,7 +5,7 @@ title: Configurare account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo token SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP. Scopri come accedere ai tuoi dati&quot; |
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -98,7 +98,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Copia il contenuto del [!UICONTROL **ARN utente**] negli Appunti. L’ARN utente (Amazon Resource Name) è fornito da Adobe. È necessario collegare questo utente al criterio creato in ARN per il ruolo Amazon S3.
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -122,7 +122,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Copia il contenuto del [!UICONTROL **Entità**] negli Appunti, quindi assicurati di concedere all’Entità l’autorizzazione per caricare i file in questo bucket in Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -150,7 +150,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -176,7 +176,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure RBAC. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -202,7 +202,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Copia il contenuto del [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe. Utilizza la chiave pubblica nel Snowflake per connetterti al tuo account di Snowflake. Per ulteriori informazioni, vedere [Pagina di autenticazione coppia di chiavi e rotazione della coppia di chiavi nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
 
-1. Seleziona [!UICONTROL **Chiudi**].
+1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 

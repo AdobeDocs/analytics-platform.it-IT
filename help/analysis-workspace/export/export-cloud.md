@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1626'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
   Questo tipo di dati può essere utilizzato per rilevare le tendenze a lungo termine al fine di acquisire informazioni aziendali e, in ultima analisi, portare a un processo decisionale migliore.
 
-* Esporta tabelle complete contenenti migliaia o milioni di righe. Altri metodi di esportazione consentono un massimo di 50.000 righe.
+* Esporta tabelle complete contenenti migliaia o milioni di righe (3 milioni, 30 milioni o 150 milioni di righe, a seconda del tipo di licenza). Altri metodi di esportazione consentono un massimo di 50.000 righe.
 
 * Include le metriche calcolate nei dati del Customer Journey Analytics esportato.
 
@@ -108,7 +108,7 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 
 I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuoverli dalla tabella quando si esegue un’esportazione di tabella completa:
 
-* Metriche calcolate che utilizzano funzioni avanzate nella definizione della metrica (vedi [Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md) per ulteriori informazioni)
+* Metriche calcolate che utilizzano funzioni di base o avanzate nella definizione della metrica (vedi [Funzioni di base](/help/components/calc-metrics/cm-functions.md) e [Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md) per ulteriori informazioni)
 * Non è possibile esportare i componenti per i quali un amministratore ha impostato un limite (vedere *Filtrare i criteri di governance dei dati nelle visualizzazioni dati* sezione in [Etichette e criteri](/help/data-views/data-governance.md) per ulteriori informazioni)
 * Più di 5 dimensioni e 5 metriche per rapporto (sono supportate fino a 5 dimensioni e 5 metriche)
 * Nelle colonne della tabella:
