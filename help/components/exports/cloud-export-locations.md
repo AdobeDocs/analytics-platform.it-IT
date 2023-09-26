@@ -5,9 +5,9 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1082'
 ht-degree: 3%
 
 ---
@@ -118,9 +118,9 @@ Per configurare un percorso di esportazione cloud:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **DB**] | Il database specificato deve essere un database esistente per il quale il ruolo predefinito specificato dispone di privilegi.<p>Database associato al nome dell&#39;area di visualizzazione.</p> <p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente per il quale il ruolo predefinito specificato dispone di privilegi.<p>Schema associato al nome dell&#39;area di visualizzazione.</p><p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Nome fase**] | Il nome della fase in cui vengono memorizzati i file di dati nel Snowflake. <p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe. <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere i privilegi nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome della fase, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | Il database specificato deve essere esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere al database.<p>Database associato al nome dell&#39;area di visualizzazione.</p><p>È possibile concedere i privilegi di questo ruolo al database nel Snowflake utilizzando il comando seguente: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere a questo schema.<p>Schema associato al nome dell&#39;area di visualizzazione.<p>È possibile concedere i privilegi per il ruolo creato allo schema nel Snowflake utilizzando il comando seguente: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Per ulteriori informazioni, vedere [Database, schema e comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nome fase**] | Il nome della fase interna in cui i file di dati vengono memorizzati nel Snowflake.<p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe.<p>È possibile concedere l&#39;accesso in lettura e scrittura al nome dell&#39;area di visualizzazione nel Snowflake utilizzando il comando seguente: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere i privilegi nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome della fase, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Percorso stage**] | Percorso del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}

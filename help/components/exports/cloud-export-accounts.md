@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -189,8 +189,8 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Identificatore account**] | Identifica in modo univoco un account di Snowflake all’interno dell’organizzazione e in tutta la rete globale di piattaforme cloud supportate dal Snowflake e aree geografiche cloud. <p>Devi ottenere l’identificatore dell’account di Snowflake, quindi incollare le informazioni qui.</p><p>Per informazioni su come ottenere queste informazioni, vedere [Pagina Identificatori account nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. Questo è un utente che verrà utilizzato specificamente per Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **Ruolo**] | Questo è un ruolo che verrà utilizzato specificamente per Adobe. Specifica qui il ruolo, quindi crea un ruolo nel Snowflake con lo stesso nome e concedi il ruolo all&#39;utente. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. È consigliabile creare un nuovo utente da utilizzare specificamente, ad Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. È possibile creare un utente in un Snowflake utilizzando `CREATE USER` comando.  <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Ruolo**] | Ruolo che verrà assegnato all&#39;utente. È consigliabile creare un nuovo ruolo che verrà utilizzato specificamente, ad Adobe. Specifica qui il ruolo, quindi crea un ruolo nel Snowflake con lo stesso nome e concedi il ruolo all&#39;utente. È possibile creare un ruolo nel Snowflake utilizzando `CREATE ROLE` comando. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
@@ -200,7 +200,17 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    <!-- add screen shot -->
 
-1. Copia il contenuto del [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe. Utilizza la chiave pubblica nel Snowflake per connetterti al tuo account di Snowflake. Per ulteriori informazioni, vedere [Pagina di autenticazione coppia di chiavi e rotazione della coppia di chiavi nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
+1. Copia il contenuto del [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe.
+
+   Utilizza la chiave pubblica nel Snowflake per connetterti al tuo account di Snowflake. È necessario associare l&#39;utente creato a questa chiave pubblica.
+
+   In Snowflake, ad esempio, specificare il comando seguente:
+
+   ```
+   CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
+   ```
+
+   Per ulteriori informazioni, vedere [Pagina di autenticazione coppia di chiavi e rotazione della coppia di chiavi nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
 1. Seleziona [!UICONTROL **OK**].
 
