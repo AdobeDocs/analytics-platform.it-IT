@@ -1,15 +1,15 @@
 ---
-title: Filtra Dimension nel Report Builder
+title: Come filtrare le dimensioni nel Report Builder
 description: Descrive come utilizzare le dimensioni filtro nel Report Builder per il Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
 1. Fai clic sul pulsante **...** accanto al nome di un componente nella tabella.
 
-   ![](./assets/image27.png)
+   ![Le opzioni dell’icona con i puntini di sospensione.](./assets/image27.png)
 
 1. Seleziona **Filter dimension** (Dimensione filtro) nel menu a comparsa per visualizzare il riquadro **Filter dimension** (Dimensione filtro).
 
 1. Seleziona **Most popular** (Più popolari) o **Specific** (Specifici).
 
-   ![](./assets/image28.png)
+   ![Opzione specifica selezionata nel riquadro Dimensione filtro.](./assets/image28.png)
 
 1. Seleziona le opzioni appropriate in base al tipo di filtro scelto.
 
@@ -49,7 +49,7 @@ Esistono due modi per filtrare gli elementi dimensionali: Most popular (Più pop
 
 L’opzione Most popular (Più popolari) consente di filtrare dinamicamente gli elementi dimensione in base ai valori delle metriche. Il filtro Most popular (Più popolari) restituisce gli elementi dimensione con classificazione più elevata in base ai valori delle metriche. Per impostazione predefinita, sono elencati i primi 10 elementi dimensione, ordinati in base alla prima metrica aggiunta al blocco di dati.
 
-![File immagine](./assets/image29.png)
+![L’opzione Più popolare.](./assets/image29.png)
 
 
 ### Opzioni Page (Pagina) e Rows (Righe)
@@ -92,7 +92,7 @@ Per impostare i criteri da filtrare:
 
 1. Seleziona un operatore dall’elenco a discesa.
 
-   ![](./assets/image31.png)
+   ![Elenco degli operatori.](./assets/image31.png)
 
 1. Immetti un valore nel campo di ricerca.
 
@@ -114,14 +114,14 @@ Per cambiare la metrica utilizzata per filtrare e ordinare il blocco di dati:
 
 2. Fai clic sulla freccia della metrica desiderata. 
 
-   ![](./assets/image30.png)
+   ![Generatore di tabelle e metriche.](./assets/image30.png)
 
 
 ## Filtri specifici
 
 L’opzione Specific (Specifici) consente di creare un elenco di elementi dimensione per ogni dimensione. Utilizza il tipo di filtro **Specific** (Specifici) per specificare gli elementi dimensione esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 
-![](./assets/image32.png)
+![Opzioni specifiche ed elementi selezionati.](./assets/image32.png)
 
 ### From list (Da elenco)
 
@@ -129,7 +129,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    Quando selezioni l’opzione **From List** (Da elenco), l’elenco viene compilato con gli elementi dimensione che hanno il maggior numero di eventi.
 
-   ![](./assets/image33.png)
+   ![L&#39;opzione From list (Da elenco) e gli elementi disponibili.](./assets/image33.png)
 
    L’elenco **Available items** (Elementi disponibili) è ordinato dagli elementi dimensione con il maggior numero di eventi a quelli con il minore numero.
 
@@ -137,9 +137,9 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
 1. Per estendere la ricerca agli elementi non incluso negli ultimi 90 giorni di dati, fai clic su **Show items for the last 6 months** (Mostra elementi degli ultimi 6 mesi).
 
-   ![](./assets/image34.png)
+   ![Elenco Mostra elementi degli ultimi 6 mesi.](./assets/image34.png)
 
-   Una volta caricati i dati degli ultimi sei mesi, Report Builder aggiorna questo collegamento che diventa **Show items for last 18 months** (Mostra elementi degli ultimi 18 mesi).
+   Una volta caricati i dati degli ultimi 6 mesi, il Report Builder aggiorna il collegamento a **Mostra elementi per gli ultimi 18 mesi**.
 
 1. Seleziona un elemento dimensione.
 
@@ -151,7 +151,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    Per spostare un elemento nell’elenco, trascinalo o fai clic su ... per visualizzare il menu di spostamento.
 
-   ![](./assets/image36.png)
+   ![L’elenco degli elementi dimensione.](./assets/image36.png)
 
 1. Fai clic su **Apply** (Applica)
 
@@ -161,7 +161,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
 Seleziona l’opzione **From range of cells** (Da intervallo di celle) per scegliere un intervallo di celle contenente l’elenco degli elementi dimensione che ti interessano.
 
-![](./assets/image37.png)
+![Opzione e campo From range of cells (Da intervallo di celle) per selezionare un intervallo di celle.](./assets/image37.png)
 
 Quando selezioni un intervallo di celle, considera le seguenti restrizioni:
 
@@ -175,6 +175,6 @@ La selezione può contenere celle vuote o con valori che non corrispondono a un 
 
 Nella scheda **Dimensions** (Dimensioni), fai clic sulla freccia accanto al nome di una dimensione per visualizzare l’elenco degli elementi dimensione.
 
-![](./assets/dimensions_chevron.png)
+![La scheda Dimension e l’elenco delle dimensioni.](./assets/dimensions_chevron.png)
 
 Puoi trascinare gli elementi sulla **tabella**, oppure puoi fare doppio clic sul nome di un elemento per aggiungerlo al generatore di **tabelle**.

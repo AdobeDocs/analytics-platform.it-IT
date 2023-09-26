@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Utilizza l’hub Report Builder per creare, aggiornare, eliminare e gestire i bl
 
 L’hub Report Builder contiene i pulsanti Crea e Gestisci, l’elenco COMANDI e i pannelli QUICK EDIT (MODIFICA RAPIDA).
 
-<img src="./assets/hub51.png" width="50%"/>
+<img src="./assets/hub51.png" width="50%" alt="Hub Report Builder"/>
 
 
 ## Pulsanti Crea e Gestisci
@@ -30,7 +30,7 @@ Utilizza i pulsanti Crea o Gestisci per creare nuovi blocchi di dati o per gesti
 
 Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle selezionate o con un’azione precedente.
 
-![](./assets/hub1.png)
+![Pannello Comandi nell’hub Report Builer](./assets/hub1.png)
 
 ### Comandi
 
@@ -47,7 +47,7 @@ Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle se
 
 Quando selezioni uno o più blocchi di dati in un foglio di calcolo, in Report Builder viene visualizzato il pannello QUICK EDIT (MODIFICA RAPIDA). Puoi utilizzarlo per modificare i parametri in un singolo blocco di dati o per modificare i parametri in più blocchi di dati contemporaneamente.
 
-![](./assets/hub2.png)
+![Pannello Quick Edit (Modifica rapida) in Report Builder](./assets/hub2.png)
 
 Le modifiche apportate utilizzando le sezioni di Quick Edit (Modifica rapida) si applicano a tutti i blocchi di dati selezionati.
 
@@ -59,7 +59,7 @@ Quando modifichi la visualizzazione dati, tutti i blocchi di dati nella selezion
 
 Per modificare la visualizzazione dati, seleziona una nuova visualizzazione dati dal menu a discesa.
 
-![](./assets/image16.png)
+![Hub di Report Builder che mostra il menu a discesa della visualizzazione dati.](./assets/image16.png)
 
 ### Intervallo date
 

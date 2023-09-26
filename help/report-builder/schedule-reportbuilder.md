@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 90%
+source-wordcount: '1166'
+ht-degree: 85%
 
 ---
 
@@ -29,15 +29,15 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
 1. Fai clic sul pulsante Schedule (Pianifica) nell’hub di Report Builder.
 
-   ![](./assets/schedule-button.png){width="55%"}
+   ![Fai clic sul pulsante Pianifica per creare una pianificazione.](./assets/schedule-button.png){width="55%"}
 
 1. Fai clic su Schedule Workbook (Pianifica cartella di lavoro) o sul pulsante in alto a sinistra per creare una nuova cartella di lavoro pianificata.
 
-   ![descrizione alt](./assets/schedule-workbook.png){width="55%"}
+   ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){width="55%"}
 
    Il riquadro di pianificazione mostra alcune informazioni predefinite sulla cartella di lavoro, ad esempio il nome e l’ultima data di modifica della cartella di lavoro.
 
-   ![descrizione alt](./assets/schedule-pane.png){width="55%"}
+   ![Riquadro di pianificazione.](./assets/schedule-pane.png){width="55%"}
 
 1. (Facoltativo) Immetti un nome del file.
 
@@ -51,13 +51,13 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
    Selezionando questa opzione, viene richiesto di immettere una password per aprire il file. È utile se hai dei dubbi sulla sicurezza dei dati e desideri proteggere la cartella di lavoro tramite password. Per proteggere il file con una password è necessario selezionare **.zip compression** (compressione .zip). La password deve contenere almeno 8 caratteri, un numero e un carattere speciale.
 
-   ![descrizione alt](./assets/zip-compression.png){width="55%"}
+   ![Immettere una password nel campo Proteggi cartella di lavoro tramite password.](./assets/zip-compression.png){width="55%"}
 
 1. Inserisci i destinatari in **Recipients** (Destinatari). Puoi inserire il nome di una persona riconosciuta nell’organizzazione oppure l’indirizzo e-mail di una persona interna o esterna all’organizzazione.
 
 1. Inserisci l’oggetto dell’e-mail in **Subject** (Oggetto) e una descrizione per i destinatari. L’oggetto viene impostato automaticamente sul nome del file della cartella di lavoro, ma puoi modificarlo se necessario. Puoi aggiungere i dettagli nella sezione della descrizione.
 
-   ![descrizione alt](./assets/recipients-subject.png){width="55%"}
+   ![Immettere un oggetto nel campo Oggetto.](./assets/recipients-subject.png){width="55%"}
 
 1. Configura le opzioni di pianificazione per impostare la data e l’ora in cui desideri inviare la cartella di lavoro ai destinatari tramite e-mail.
 
@@ -65,15 +65,15 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
    Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
 
-   ![descrizione alt](./assets/frequency.png){width="55%"}
+   ![Seleziona la frequenza per pianificare il rapporto.](./assets/frequency.png){width="55%"}
 
 1. Dopo aver impostato la pianificazione, fai clic su **Send on schedule** (Invia secondo programma).
 
-   ![descrizione alt](./assets/send-on-schedule.png){width="55%"}
+   ![Fai clic su Invia secondo programma.](./assets/send-on-schedule.png){width="55%"}
 
    Nella parte inferiore dell’hub di Report Builder viene visualizzato un avviso di conferma e la cartella di lavoro pianificata viene elencata nella scheda Workbooks (Cartelle di lavoro).
 
-   ![descrizione alt](./assets/confirmation-toast.png){width="55%"}
+   ![Avviso popup conferma](./assets/confirmation-toast.png){width="55%"}
 
 ## Inviare la cartella di lavoro una sola volta
 
@@ -81,7 +81,7 @@ Puoi anche inviare la cartella di lavoro una sola volta.
 
 1. Deseleziona **Show scheduling options** (Mostra opzioni di pianificazione)
 
-   ![descrizione alt](./assets/send-now.png){width="40%"}
+   ![Fare clic su Deseleziona Mostra opzioni di pianificazione per inviare una cartella di lavoro una sola volta.](./assets/send-now.png){width="40%"}
 
 1. Fai clic su **Send Now** (Invia subito).
 
@@ -115,14 +115,14 @@ Un segno di spunta verde indica che la cartella di lavoro è stata inviata corre
 
 Per scegliere le colonne da visualizzare nella scheda della cronologia, fai clic sull’icona delle impostazioni delle colonne a destra della barra di ricerca.
 
-![descrizione alt](./assets/history.png){width="55%"}
+![Fai clic sull’icona della colonna per visualizzare o nascondere colonne specifiche.](./assets/history.png){width="55%"}
 
 Puoi filtrare la cronologia per visualizzare solo quella di una singola cartella di lavoro pianificata andando alla scheda delle cartelle di lavoro, selezionando la cartella di lavoro e facendo clic sull’icona della cronologia.
 
 Puoi anche visualizzare la cronologia di una cartella di lavoro specifica dalla scheda Workbooks (Cartelle di lavoro). Nella scheda Workbooks (Cartelle di lavoro) seleziona la cartella di lavoro, quindi fai clic sull’icona della cronologia.
 
-![descrizione alt](./assets/history2.png){width="55%"}
+![Icona cronologia cartelle di lavoro](./assets/history2.png){width="55%"}
 
 Il filtro della cartella di lavoro verrà quindi visualizzato nella parte superiore della cronologia. Per visualizzare nuovamente la cronologia di tutte le attività pianificate, fai clic sulla x accanto al filtro.
 
-![descrizione alt](./assets/history3.png){width="55%"}
+![Il filtro della cartella di lavoro.](./assets/history3.png){width="55%"}

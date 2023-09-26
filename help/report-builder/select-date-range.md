@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ L&#39;opzione Da cella consente di fare riferimento alle date immesse nelle cell
 
 Hai la possibilità di escludere oggi in qualsiasi intervallo di date selezionato.
 
-![](./assets/image17.png)
+![Seleziona Escludi oggi.](./assets/image17.png)
 
 ## Utilizzare il calendario
 
@@ -62,7 +62,7 @@ Per selezionare le date utilizzando il calendario
 
 Per impostare un intervallo di date in ordine inverso, fare clic prima sulla data di fine e quindi sulla data di inizio.
 
-![](./assets/image18.png)
+![Fare clic sulla data di fine e quindi sulla data di inizio.](./assets/image18.png)
 
 ### Menu a discesa Predefinito
 
@@ -76,7 +76,7 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Seleziona un’espressione continua per la data di inizio e/o di fine.
 
-   ![](./assets/image19.png)
+   ![Selezionare Usa date continue e quindi l&#39;espressione continua.](./assets/image19.png)
 
    **Inizio di** — Consente di selezionare l&#39;inizio di un giorno, una settimana, un mese, un trimestre o un anno.
 
@@ -86,11 +86,11 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Scegliere giorno, settimana, mese, trimestre o anno come periodo continuo.
 
-   ![](./assets/image20.png)
+   ![Scegliere il giorno corrente.](./assets/image20.png)
 
 1. Aggiungere o sottrarre giorni, settimane, mesi, trimestri o anni dalla data di rotazione.
 
-   ![](./assets/image21.png)
+   ![Selezionare il giorno corrente più 14 giorni.](./assets/image21.png)
 
 1. Fai clic su Successivo per definire l’intervallo di dati.
 
@@ -106,7 +106,7 @@ L’opzione di espressione personalizzata consente di modificare l’intervallo 
 
    Quando selezioni il **Usa espressione personalizzata** , i controlli standard dell&#39;intervallo di date continuo sono disattivati.
 
-   ![](./assets/custom_expression.png)
+   ![Selezionare Usa espressione personalizzata che mostra da tm-1m a td-1d.](./assets/custom_expression.png)
 
 1. Immetti un’espressione personalizzata.
 
@@ -163,7 +163,7 @@ Nella tabella seguente sono elencati alcuni esempi di espressioni di data.
 
 L&#39;intervallo di date può essere specificato nelle celle del foglio di lavoro. Utilizza il **Intervallo di date dalla cella** per scegliere la data di inizio e di fine del blocco di dati dalle celle selezionate. Quando selezioni il **Da cella** , il pannello viene visualizzato **Da** e **A** campi in cui è possibile immettere una posizione cella.
 
-![](./assets/image23.png)
+![Selezionate Dalla cella Sheet1!H4 a Sheet1!I4](./assets/image23.png)
 
 ## Escludi oggi
 

@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
 1. Clic **Creare un blocco di dati**.
 
-   ![](./assets/create_db.png)
+   ![Schermata che mostra l’opzione Crea blocco di dati.](./assets/create_db.png)
 
 1. Imposta il **Posizione blocco dati**.
 
@@ -41,13 +41,9 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
 1. Clic **Successivo**.
 
-   ![](./assets/choose_date_data_view3.png)
+   ![Schermata che mostra l’opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_data_view3.png)
 
    Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e filtri per crearlo. Le schede Dimension, Metriche e Filtri vengono visualizzate sopra il riquadro Generatore tabella.
-<!--
-    ![](./assets/image9.png)
-  -->
-
 
 ## Creare il blocco di dati
 
@@ -75,13 +71,13 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    Quando si aggiungono componenti alla tabella, nella posizione del blocco di dati nel foglio di lavoro viene visualizzata un&#39;anteprima del blocco di dati. Il layout dell’anteprima dei blocchi di dati viene aggiornato automaticamente quando aggiungi, sposti o rimuovi elementi nella tabella.
 
-   ![](./assets/image10.png)
+   ![Schermata che mostra i componenti aggiunti e il foglio di lavoro aggiornato.](./assets/image10.png)
 
    **Visualizzare o nascondere le intestazioni di riga e di colonna**
 
 1. Fai clic su **Tabella** impostazioni.
 
-   ![immagine segnaposto](./assets/table-settings.png){width="35%"}
+   ![Schermata che mostra l’opzione Impostazioni tabella.](./assets/table-settings.png){width="35%"}
 
 1. Seleziona o deseleziona l’opzione per Visualizzare le intestazioni di riga e colonna. Le intestazioni vengono visualizzate per impostazione predefinita.
 
@@ -89,7 +85,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
 1. Fai clic sull’icona dei puntini di sospensione sulle dimensioni o sulle intestazioni di colonna per visualizzare le impostazioni.
 
-   ![immagine segnaposto](./assets/row-heading.png){width="35%"}
+   ![L’icona con i puntini di sospensione nella sezione Riga.](./assets/row-heading.png){width="35%"}
 
 1. Fate clic su Nascondi (Hide) o Mostra (Show) per attivare/disattivare le etichette di quota o le intestazioni di colonna. Tutte le etichette sono visualizzate per impostazione predefinita.
 
@@ -97,8 +93,8 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
 
-   ![](./assets/image11.png)
+   ![Il messaggio di elaborazione.](./assets/image11.png)
 
    Il Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
 
-   ![](./assets/image12.png)
+   ![Il blocco di dati completato.](./assets/image12.png)

@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -72,11 +72,11 @@ Per scaricare e installare il componente aggiuntivo di Report Builder
 
 Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo di Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Gestione amministratore.
 
-![](./assets/image1.png)
+![Scheda Gestione amministratore nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
 
 Dopo aver installato il componente aggiuntivo di Report Builder, l&#39;icona del Report Builder viene visualizzata nella barra multifunzione di Excel nella scheda Home.
 
-![](./assets/rb_app_icon.png)
+![Icona Report Builder in Excel](./assets/rb_app_icon.png)
 
 ## Accedi al Report Builder
 
@@ -88,11 +88,11 @@ Dopo aver installato il componente aggiuntivo Report Builder for Excel per la pi
 
 1. Dalla barra degli strumenti di Adobe Report Builder, fai clic su **Login**.
 
-   ![](./assets/rb_login.png)
+   ![Fai clic sul pulsante di accesso al Report Builder.](./assets/rb_login.png)
 
 1. Immetti le informazioni del tuo account Adobe Experience ID. Le informazioni sull&#39;account devono corrispondere alle credenziali del Customer Journey Analytics.
 
-   ![](./assets/image4.png)
+   ![Icona di accesso e organizzazione.](./assets/image4.png)
 
 Dopo aver effettuato l’accesso, l’icona di accesso e l’organizzazione vengono visualizzate nella parte superiore del pannello
 
@@ -104,7 +104,7 @@ La prima volta che accedi, accedi all’organizzazione predefinita assegnata al 
 
 1. Seleziona un’organizzazione dall’elenco delle organizzazioni disponibili. Vengono elencate solo le organizzazioni a cui hai accesso.
 
-   ![](./assets/image5.png)
+   ![L’elenco delle organizzazioni a cui puoi accedere.](./assets/image5.png)
 
 ## Uscire
 
@@ -114,6 +114,6 @@ Puoi uscire dal Report Builder dal profilo utente.
 
 1. Fai clic sull’icona dell’avatar per visualizzare il profilo utente.
 
-   ![](./assets/image6.png)
+   ![L&#39;avatar del tuo profilo utente e il pulsante Disconnetti.](./assets/image6.png)
 
 1. Clic **Esci**.

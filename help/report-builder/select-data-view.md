@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 802a8f0b-10c2-4adc-a4ec-25f3d28f3002
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Per informazioni sulla creazione di un blocco di dati, consulta [Creare un blocc
 
 1. Fai clic su *icona cella* nel *Visualizzazioni dati* sezione.
 
-   ![Icona cella](/help/report-builder/assets/cell-icon.png)
+   ![Fare clic sull&#39;icona della cella.](/help/report-builder/assets/cell-icon.png)
 
 1. Seleziona una posizione di cella per aggiungere le visualizzazioni dati alla cella selezionata.
 
@@ -38,7 +38,7 @@ Per informazioni sulla creazione di un blocco di dati, consulta [Creare un blocc
 
 1. Selezionare le visualizzazioni dati da assegnare alla cella.
 
-   ![Icona cella](/help/report-builder/assets/select-data-view.png)
+   ![Seleziona le visualizzazioni dati.](/help/report-builder/assets/select-data-view.png)
 
 1. Fai clic su **Applica**.
 
