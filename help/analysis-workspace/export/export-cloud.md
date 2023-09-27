@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1853'
 ht-degree: 3%
 
 ---
@@ -18,11 +18,35 @@ Puoi esportare tabelle complete di Workspace dal Customer Journey Analytics e in
 
 Sono disponibili anche altri metodi di esportazione dei rapporti sui Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
+## Comprendere l’esportazione di tabelle complete
+
+Puoi esportare tabelle complete da Analysis Workspace a provider cloud come Google, Azure, Amazon e Adobe.
+
+[Vantaggi dell’esportazione di tabelle complete nel cloud](#advantages-of-exporting-to-the-cloud) includono la possibilità di esportare milioni di righe, includere metriche calcolate, dati della struttura in valori concatenati e altro ancora.
+
+Durante l&#39;esportazione di tabelle complete, tenere presente quanto segue:
+
+* Prima di esportare nel cloud, assicurati che le tabelle, l’ambiente e le autorizzazioni soddisfino i requisiti [requisiti di esportazione](#export-requirements).
+
+* Alcuni [funzioni](#unsupported-features) e [componenti](#unsupported-components) non sono supportate per l’esportazione di tabelle complete nel cloud.
+
+Utilizza il seguente processo per esportare tabelle complete nel cloud:
+
+1. [Configurare un account cloud](/help/components/exports/cloud-export-accounts.md)
+
+1. [Configurare una posizione sull’account](/help/components/exports/cloud-export-locations.md)
+
+1. [Esportare una tabella completa da Workspace](#export-full-tables-from-analysis-workspace)
+
+1. [Accedere ai dati nel cloud](#view-exported-data-and-manifest-file) e [Gestire le esportazioni in Adobe](/help/components/exports/manage-exports.md)
+
+![Processo di esportazione tabella completa](assets/export-full-table-process.png)
+
 ## Esportare tabelle complete da Analysis Workspace
 
 >[!NOTE]
 >
->Prima di esportare i dati come descritto in questa sezione, assicurarsi che [Esporta requisiti](#export-requirements) sono soddisfatte.
+>Prima di esportare i dati come descritto in questa sezione, ulteriori informazioni sull’esportazione di tabelle complete sono disponibili nella sezione [Comprendere l’esportazione di tabelle complete](#understand-full-table-export) sopra.
 
 Per esportare tabelle complete da Analysis Workspace:
 
@@ -58,6 +82,38 @@ Per esportare tabelle complete da Analysis Workspace:
    I dati vengono inviati all’account cloud specificato alla frequenza specificata.
 
 1. (Facoltativo) Dopo aver creato l’esportazione, che si scelga di inviarla ora o secondo una pianificazione definita, è possibile visualizzarla e gestirla sulla [Pagina Esporta](/help/components/exports/manage-exports.md) e visualizzarlo in [Esporta registri](/help/components/exports/manage-export-logs.md).</p>
+
+## Gestione esportazioni
+
+Dopo l’esportazione dei dati da Analysis Workspace, puoi modificare, riesportare, duplicare, assegnare tag o eliminare esportazioni esistenti, come descritto in [Gestione esportazioni](/help/components/exports/manage-exports.md).
+
+## Visualizzare i dati esportati e il file manifesto
+
+### Dati esportati
+
+I dati esportati sono disponibili come file compresso nella destinazione cloud configurata, come descritto in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
+
+Il nome del file compresso è il seguente, a seconda che sia stato scelto CSV o JSON come formato di file:
+
+* `cja-export-{reportInstanceId}-{idx}.csv.gz`
+
+* `cja-export-{reportInstanceId}-{idx}.json.gz`
+
+>[!NOTE]
+>
+>È possibile scegliere il formato di file nel [!UICONTROL **Formato file**] durante l&#39;esportazione della tabella, come descritto in [Esportare tabelle complete da Analysis Workspace](#export-full-tables-from-analysis-workspace).
+
+### File manifesto
+
+Un file manifesto con il nome file `cja-export-{reportInstanceId}-{idx}.json.gz` è incluso in tutte le consegne di esportazione riuscite che contengono almeno un file. Il file manifesto consente di verificare che tutti i file siano stati consegnati correttamente. Include le seguenti informazioni:
+
+* Elenco di tutti i file consegnati
+
+* Dimensione di ciascun file
+
+* La marca temporale di ciascun file
+
+<!-- add in  what the file name, structure, and file format will be -->
 
 ## Vantaggi dell&#39;esportazione nel cloud
 
@@ -141,38 +197,6 @@ Se in un rapporto viene utilizzato un modello di attribuzione non predefinito, i
   >[!NOTE]
   >
   >I rapporti multidimensionali sono supportati solo quando si esportano dati nel cloud, come descritto in questo articolo.
-
-## Gestione esportazioni
-
-Dopo l’esportazione dei dati da Analysis Workspace, puoi modificare, riesportare, duplicare, assegnare tag o eliminare esportazioni esistenti, come descritto in [Gestione esportazioni](/help/components/exports/manage-exports.md).
-
-## Visualizzare i dati esportati e il file manifesto
-
-### Dati esportati
-
-I dati esportati sono disponibili come file compresso nella destinazione cloud configurata, come descritto in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
-
-Il nome del file compresso è il seguente, a seconda che sia stato scelto CSV o JSON come formato di file:
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->È possibile scegliere il formato di file nel [!UICONTROL **Formato file**] durante l&#39;esportazione della tabella, come descritto in [Esportare tabelle complete da Analysis Workspace](#export-full-tables-from-analysis-workspace).
-
-### File manifesto
-
-Un file manifesto con il nome file `cja-export-{reportInstanceId}-{idx}.json.gz` è incluso in tutte le consegne di esportazione riuscite che contengono almeno un file. Il file manifesto consente di verificare che tutti i file siano stati consegnati correttamente. Include le seguenti informazioni:
-
-* Elenco di tutti i file consegnati
-
-* Dimensione di ciascun file
-
-* La marca temporale di ciascun file
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## Confronto tra l’esportazione di tabelle complete (in Customer Journey Analytics) e la Data Warehouse (in Adobe Analytics)
 
