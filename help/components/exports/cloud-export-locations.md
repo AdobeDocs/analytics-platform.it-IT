@@ -5,9 +5,9 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
@@ -20,10 +20,12 @@ Questo processo consiste nell’aggiungere e configurare l’account (ad esempio
 
 Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazione, la modifica e l’eliminazione, consulta [Gestire percorsi e account di esportazione cloud](/help/components/exports/manage-export-locations.md).
 
-Per configurare un percorso di esportazione cloud:
+## Inizia a creare un percorso di esportazione cloud
 
 1. È necessario aggiungere un account prima di poter aggiungere una posizione. Se non lo hai già fatto, aggiungi un account come descritto in [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).
+
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+
 1. Seleziona la [!UICONTROL **Posizioni**] , quindi seleziona [!UICONTROL **Aggiungi posizione**].
 
    ![pulsante aggiungi posizione](assets/location-add.png)
@@ -40,11 +42,17 @@ Per configurare un percorso di esportazione cloud:
 
 1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
 
-   Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo.
+   Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account località**] campo.
 
-   +++Data Landing Zone di Adobe Experience Platform
+### Area di destinazione dati Adobe Experience Platform
 
-   Specifica le seguenti informazioni per configurare un percorso per la zona di destinazione dati di Adobe Experience Platform:
+>[!IMPORTANT]
+>
+>Quando esporti i rapporti sul Customer Journey Analytics nella Adobe Experience Platform Data Landing Zone, accertati di scaricare i dati entro 7 giorni, quindi eliminarli dalla AEP Data Landing Zone. Dopo 7 giorni, i dati vengono eliminati automaticamente dalla zona di destinazione dati di AEP.
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] specifica le seguenti informazioni per configurare una posizione di zona di destinazione dati di Adobe Experience Platform:
 
    <!-- still need to update; can't create AEP account -->
 
@@ -53,11 +61,17 @@ Per configurare un percorso di esportazione cloud:
    | [!UICONTROL **ID organizzazione IMS**] | L’ID dell’organizzazione IMS è fornito da Adobe. Fai clic sull’icona Copia accanto a [!UICONTROL **ID organizzazione IMS**] per copiare il contenuto del campo, quindi utilizza l’ID nell’account Adobe Experience Platform. |
    | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
 
-+++
+   {style="table-layout:auto"}
 
-   +++ARN per ruolo Amazon S3
+1. Seleziona [!UICONTROL **Salva**].
 
-   Specifica le seguenti informazioni per configurare una posizione ARN per il ruolo Amazon S3:
+1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
+
+### ARN per ruolo Amazon S3
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] specifica le seguenti informazioni per configurare una posizione ARN per il ruolo Amazon S3:
 
    <!-- still need to update; can't create S3 role ARN account -->
 
@@ -68,11 +82,15 @@ Per configurare un percorso di esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++Piattaforma Google Cloud
+1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Per configurare il percorso di una piattaforma Google Cloud, specifica le seguenti informazioni:
+### Piattaforma Google Cloud
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare una posizione della piattaforma Google Cloud:
 
    <!-- still need to update; can't create GCP account -->
 
@@ -83,11 +101,15 @@ Per configurare un percorso di esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++SAS di Azure
+1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Specificare le informazioni seguenti per configurare un percorso SAS di Azure:
+### SAS di Azure
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare un percorso SAS di Azure:
 
    | Campo | Funzione |
    |---------|----------|
@@ -96,11 +118,15 @@ Per configurare un percorso di esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++RBAC di Azure
+1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Specificare le informazioni seguenti per configurare un percorso RBAC di Azure:
+### RBAC di Azure
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare un percorso RBAC di Azure:
 
    | Campo | Funzione |
    |---------|----------|
@@ -110,11 +136,15 @@ Per configurare un percorso di esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++Snowflake
+1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-   Specificare le informazioni seguenti per configurare un percorso di Snowflake:
+### Snowflake
+
+1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+
+1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare una posizione di Snowflake:
 
    | Campo | Funzione |
    |---------|----------|
@@ -124,8 +154,6 @@ Per configurare un percorso di esportazione cloud:
    | [!UICONTROL **Percorso stage**] | Percorso del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere [Scelta di una pagina Stage interno per file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
 
 1. Seleziona [!UICONTROL **Salva**].
 
