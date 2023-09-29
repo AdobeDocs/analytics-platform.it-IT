@@ -5,9 +5,9 @@ title: Gestire percorsi e account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizione**] scheda.
+1. Seleziona la [!UICONTROL **Posizioni**] scheda.
 
 1. Seleziona la **Filtro** icona.
 
@@ -36,7 +36,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati Adobe Experience Platform**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | Il nome dell’account a cui è associata la posizione. |
    | [!UICONTROL **Creato da**] | L’indirizzo e-mail dell’utente che ha creato la posizione. |
 
@@ -46,7 +46,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizione**] scheda.
+1. Seleziona la [!UICONTROL **Posizioni**] scheda.
 
 1. Nella scheda di ricerca, iniziare a digitare le informazioni associate alla posizione che si sta cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
@@ -54,7 +54,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizione**] , quindi selezionare la posizione da modificare.
+1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare la posizione da modificare.
 
    <!-- add screenshot? -->
 
@@ -74,7 +74,7 @@ Per eliminare una posizione:
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizione**] , quindi selezionare una o più posizioni da eliminare.
+1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare una o più posizioni da eliminare.
 
    <!-- add screenshot? -->
 

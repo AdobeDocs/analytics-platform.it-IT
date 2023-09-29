@@ -5,9 +5,9 @@ title: Gestire i registri di esportazione
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Log**] scheda.
+1. Seleziona la [!UICONTROL **Registri**] scheda.
 
 1. Seleziona la **Filtro** icona.
 
@@ -45,7 +45,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Log**] scheda.
+1. Seleziona la [!UICONTROL **Registri**] scheda.
 
 1. Nella scheda di ricerca, inizia a digitare le informazioni associate al registro che stai cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
@@ -69,25 +69,29 @@ Questa opzione non è disponibile quando si selezionano più registri.
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Registri**] , quindi selezionare un registro.
+1. Seleziona la [!UICONTROL **Registri**] scheda.
 
-   <!-- add screenshot? -->
+1. Individuare il registro associato all&#39;esportazione che si desidera modificare.
 
-1. Seleziona [!UICONTROL **Modifica**].
+1. Seleziona la **Modifica esportazione** icona ![icona esporta registro](assets/export-icon.png) accanto al registro.
+
+   Oppure
+
+   Seleziona il registro, quindi seleziona [!UICONTROL **Modifica esportazione**].
 
 ## Configurare le colonne
 
-È possibile aggiungere o rimuovere colonne nel [!UICONTROL Log] per configurare le informazioni visualizzate.
+È possibile aggiungere o rimuovere colonne nel [!UICONTROL Logs] per configurare le informazioni visualizzate.
 
 Seleziona un’intestazione di colonna per ordinare i registri in base a tale colonna. Per impostazione predefinita, i registri vengono ordinati in base alla data e all’ora di inizio dell’esportazione.
 
-Per configurare le colonne in [!UICONTROL Log] scheda:
+Per configurare le colonne in [!UICONTROL Logs] scheda:
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Log**] scheda.
+1. Seleziona la [!UICONTROL **Registri**] scheda.
 
-1. Seleziona la **Personalizza tabella** icona ![personalizza tabella](assets/customize-table-icon.png) in alto a destra nella [!UICONTROL Log] pagina.
+1. Seleziona la **Personalizza tabella** icona ![personalizza tabella](assets/customize-table-icon.png) in alto a destra nella [!UICONTROL Logs] pagina.
 
    Sono disponibili le seguenti colonne:
 
@@ -108,7 +112,7 @@ Per configurare le colonne in [!UICONTROL Log] scheda:
 
    {style="table-layout:auto"}
 
-1. Assicurati che tutte le colonne che desideri visualizzare siano selezionate. Le colonne selezionate vengono visualizzate nel [!UICONTROL Log] e visualizza le informazioni pertinenti.
+1. Assicurati che tutte le colonne che desideri visualizzare siano selezionate. Le colonne selezionate vengono visualizzate nel [!UICONTROL Logs] e visualizza le informazioni pertinenti.
 
 ## Visualizzare i registri di audit
 

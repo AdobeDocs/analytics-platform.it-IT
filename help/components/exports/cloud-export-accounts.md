@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1599'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. In [!UICONTROL **Descrizione del conto di ubicazione**] fornire una breve descrizione del conto per distinguerlo da altri conti dello stesso tipo.
 
-1. In [!UICONTROL **Tipo di account**] , seleziona il tipo di account cloud in cui stai effettuando l’esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e Adobe Experience Platform Data Landing Zone.
+1. In [!UICONTROL **Tipo di account**] , seleziona il tipo di account cloud in cui stai effettuando l’esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.
 
 1. Continua con la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] hai selezionato.
 
@@ -50,7 +50,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    * [Snowflake](#snowflake)
 
-### Area di destinazione dati Adobe Experience Platform
+### Area di destinazione dati AEP
 
 >[!IMPORTANT]
 >

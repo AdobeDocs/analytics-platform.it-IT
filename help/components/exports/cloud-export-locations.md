@@ -5,9 +5,9 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1415'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account località**] campo.
 
-### Area di destinazione dati Adobe Experience Platform
+### Area di destinazione dati AEP
 
 >[!IMPORTANT]
 >
