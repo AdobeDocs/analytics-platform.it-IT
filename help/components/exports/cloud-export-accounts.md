@@ -5,9 +5,10 @@ title: Configurare account di esportazione cloud
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1542'
 ht-degree: 2%
 
 ---
@@ -58,21 +59,13 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account), come descritto in precedenza.
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] viene visualizzata la seguente finestra di dialogo:
-
-   | Campo | Funzione |
-   |---------|----------|
-   | [!UICONTROL **ID organizzazione IMS**] | L’ID dell’organizzazione IMS è fornito da Adobe. Queste informazioni non sono generalmente necessarie. Può essere utile in caso di problemi con l’account e se devi contattare l’Assistenza clienti. |
-
-   {style="table-layout:auto"}
-
 1. Seleziona [!UICONTROL **Salva**].
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
    <!-- add screen shot -->
 
-1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo token SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP. Scopri come accedere ai tuoi dati&quot; |
+1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo token SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP.
 
 1. Seleziona [!UICONTROL **OK**].
 
@@ -215,6 +208,3 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 1. Seleziona [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
-
-
-

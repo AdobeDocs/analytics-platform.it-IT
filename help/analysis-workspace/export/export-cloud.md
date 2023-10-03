@@ -5,9 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1924'
 ht-degree: 3%
 
 ---
@@ -110,9 +111,7 @@ Un file manifesto con il nome file `cja-export-{reportInstanceId}-{idx}.json.gz`
 
 * Elenco di tutti i file consegnati
 
-* Dimensione di ciascun file
-
-* La marca temporale di ciascun file
+* Il checksum MD5 di ciascun file
 
 <!-- add in  what the file name, structure, and file format will be -->
 
@@ -126,7 +125,7 @@ L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
   Questo tipo di dati può essere utilizzato per rilevare le tendenze a lungo termine al fine di acquisire informazioni aziendali e, in ultima analisi, portare a un processo decisionale migliore.
 
-* Esporta tabelle complete contenenti migliaia o milioni di righe (3 milioni, 30 milioni o 150 milioni di righe, a seconda del tipo di licenza). Altri metodi di esportazione consentono un massimo di 50.000 righe.
+* Esporta tabelle complete contenenti migliaia o milioni di righe (3 milioni, 30 milioni, 150 milioni o 300 milioni di righe, a seconda del tipo di licenza). Altri metodi di esportazione consentono un massimo di 50.000 righe.
 
 * Include le metriche calcolate nei dati del Customer Journey Analytics esportato.
 
