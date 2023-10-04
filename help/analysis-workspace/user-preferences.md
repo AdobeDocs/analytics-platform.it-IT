@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 322f5a10b928a9bf679954aa1fe6415340ec675b
+source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
 workflow-type: tm+mt
-source-wordcount: '3178'
-ht-degree: 85%
+source-wordcount: '3204'
+ht-degree: 84%
 
 ---
 
@@ -111,6 +111,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **[Riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Raggruppamento per posizione | Seleziona questa opzione per far sì che il raggruppamento rimanga nella posizione dell’elemento anziché nell’elemento stesso. Per ulteriori informazioni sulle suddivisioni, consulta la sezione [Suddividere le dimensioni](/help/components/dimensions/t-breakdown-fa.md). |
 | | Calcolo percentuale | <ul><li>Colonna</li><li>Riga</li></ul> |
+| | Totali colonne (solo righe statiche) | <ul><li>Visualizza somma di righe: mostra la somma dei singoli elementi riga </li><li>Visualizza totale complessivo: mostra la somma deduplicata delle righe.</li></ul> |
 
 ## Preferenze delle visualizzazioni
 
