@@ -3,9 +3,8 @@ description: Gestisci il percorso di esportazione cloud in cui possono essere in
 keywords: Analysis Workspace
 title: Gestire percorsi e account di esportazione cloud
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 4%
@@ -13,6 +12,8 @@ ht-degree: 4%
 ---
 
 # Gestire percorsi e account di esportazione cloud
+
+{{release-limited-testing}}
 
 Puoi visualizzare, modificare ed eliminare i percorsi di esportazione cloud.
 

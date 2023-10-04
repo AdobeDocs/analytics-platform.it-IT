@@ -3,10 +3,8 @@ description: Configura il percorso di esportazione cloud in cui possono essere i
 keywords: Analysis Workspace
 title: Configurare i percorsi di esportazione cloud
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 3%
@@ -14,6 +12,8 @@ ht-degree: 3%
 ---
 
 # Configurare i percorsi di esportazione cloud
+
+{{release-limited-testing}}
 
 Prima di esportare i rapporti sul Customer Journey Analytics in una destinazione cloud come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), devi aggiungere e configurare il percorso in cui desideri inviare i dati.
 

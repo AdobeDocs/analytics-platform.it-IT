@@ -3,9 +3,8 @@ description: Gestire i registri per le esportazioni esistenti
 keywords: Analysis Workspace
 title: Gestire i registri di esportazione
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 3%
@@ -13,6 +12,8 @@ ht-degree: 3%
 ---
 
 # Gestire i registri di esportazione
+
+{{release-limited-testing}}
 
 I registri di esportazione forniscono dettagli su ogni esportazione e vengono generati ogni volta che i dati di Analysis Workspace vengono esportati nel cloud. (Per informazioni su come esportare i dati nel cloud, vedi [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).)
 

@@ -3,10 +3,8 @@ description: Configurare l’account di esportazione cloud a cui possono essere 
 keywords: Analysis Workspace
 title: Configurare account di esportazione cloud
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 2%
@@ -14,6 +12,8 @@ ht-degree: 2%
 ---
 
 # Configurare account di esportazione cloud
+
+{{release-limited-testing}}
 
 Prima di esportare i rapporti sul Customer Journey Analytics in una destinazione cloud come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), devi aggiungere e configurare la destinazione in cui desideri inviare i dati.
 
@@ -65,7 +65,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    <!-- add screen shot -->
 
-1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo token SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP.
+1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo URI SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP.
 
 1. Seleziona [!UICONTROL **OK**].
 
