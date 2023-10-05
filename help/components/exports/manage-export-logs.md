@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestire i registri di esportazione
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 708367159d00935bb77043e551dc915f79dd2584
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '706'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
    |---------|----------|
    | [!UICONTROL **ID esportazione**] | Specifica l’ID di esportazione del registro di esportazione da visualizzare. |
    | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un’istanza specifica di un’esportazione è stata avviata ma non è ancora completa.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completa**]: l’elaborazione di un’istanza specifica di un’esportazione è stata completata ed è disponibile nell’account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
+   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un’istanza specifica di un’esportazione è stata avviata ma non è ancora completa.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completa**]: l’elaborazione di un’istanza specifica di un’esportazione è stata completata ed è disponibile nell’account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Varie situazioni possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore.<p>Per ulteriori informazioni sui possibili motivi di un errore, vedere [Risoluzione dei problemi di esportazione non riuscita](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 

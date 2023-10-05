@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestione esportazioni
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '977'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,10 @@ Puoi modificare le proprietà, il formato, la pianificazione e le informazioni s
    Questa opzione non è disponibile quando si selezionano più esportazioni.
 
 1. Seleziona [!UICONTROL **Modifica**].
+
+   Il [!UICONTROL **Esporta tabella completa**] viene visualizzata una finestra di dialogo.
+
+1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, consulta [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 ## Duplicare un’esportazione
 
