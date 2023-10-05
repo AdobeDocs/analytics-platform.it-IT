@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 4%
+source-wordcount: '467'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | Il nome dell’account a cui è associata la posizione. |
    | [!UICONTROL **Creato da**] | L’indirizzo e-mail dell’utente che ha creato la posizione. |
 
@@ -49,7 +49,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. Seleziona la [!UICONTROL **Posizioni**] scheda.
 
-1. Nella scheda di ricerca, iniziare a digitare le informazioni associate alla posizione che si sta cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
+1. Nel campo di ricerca, iniziare a digitare le informazioni associate alla posizione che si sta cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
 ## Modifica posizioni
 
@@ -57,7 +57,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare la posizione da modificare.
 
-   <!-- add screenshot? -->
+   ![Modifica posizioni](assets/locations-edit.png)
 
 1. Seleziona [!UICONTROL **Modifica**].
 
@@ -77,7 +77,7 @@ Per eliminare una posizione:
 
 1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare una o più posizioni da eliminare.
 
-   <!-- add screenshot? -->
+   ![Modifica posizioni](assets/locations-edit.png)
 
 1. Seleziona [!UICONTROL **Elimina**], quindi seleziona [!UICONTROL **Elimina**] nella finestra di dialogo di conferma.
 
@@ -92,6 +92,20 @@ Per eliminare una posizione:
 1. Seleziona [!UICONTROL **Visualizza dettagli**] sull&#39;account che si desidera modificare.
 
 1. Apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Salva**].
+
+## Visualizza chiavi account
+
+Dopo aver creato un account, puoi visualizzare tutte le chiavi di account associate per tale account. Potrebbe essere necessario visualizzare queste informazioni se non hai completato la configurazione dell’account con il provider cloud [quando hai configurato originariamente l’account](/help/components/exports/cloud-export-accounts.md).
+
+Per visualizzare le chiavi associate a un account di esportazione:
+
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+
+1. Seleziona la [!UICONTROL **Account ubicazione**] scheda.
+
+   ![Pagina Account](assets/account-page.png)
+
+1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
 
 ## Elimina account
 

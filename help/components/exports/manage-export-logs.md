@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestire i registri di esportazione
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '703'
 ht-degree: 3%
 
 ---
@@ -37,8 +37,9 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati Adobe Experience Platform**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un’istanza specifica di un’esportazione è stata avviata ma non è ancora completa.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completato**]: l’elaborazione di un’istanza specifica di un’esportazione è stata completata ed è disponibile nell’account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
+   | [!UICONTROL **ID esportazione**] | Specifica l’ID di esportazione del registro di esportazione da visualizzare. |
+   | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Piattaforma Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un’istanza specifica di un’esportazione è stata avviata ma non è ancora completa.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completa**]: l’elaborazione di un’istanza specifica di un’esportazione è stata completata ed è disponibile nell’account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -48,7 +49,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
 1. Seleziona la [!UICONTROL **Registri**] scheda.
 
-1. Nella scheda di ricerca, inizia a digitare le informazioni associate al registro che stai cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
+1. Nel campo di ricerca, inizia a digitare le informazioni associate al registro che stai cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
 <!-- removed for MVP: Retry an export You can re-run the export associated with the selected log, using the data as it was on the day the log was originally exported. This is useful when selecting a log that show a failed export or when selecting a log that was accidentally deleted. 
 
@@ -74,11 +75,11 @@ Questa opzione non è disponibile quando si selezionano più registri.
 
 1. Individuare il registro associato all&#39;esportazione che si desidera modificare.
 
-1. Seleziona la **Modifica esportazione** icona ![icona esporta registro](assets/export-icon.png) accanto al registro.
+1. Seleziona la **Modifica esportazione** icona ![icona esporta registro](assets/export-icon.png) accanto al nome del registro.
 
    Oppure
 
-   Seleziona il registro, quindi seleziona [!UICONTROL **Modifica esportazione**].
+   Seleziona la casella di controllo accanto al registro, quindi seleziona [!UICONTROL **Modifica esportazione**].
 
 ## Configurare le colonne
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1572'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Continua con la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] hai selezionato.
 
-   * [Area di destinazione dati Adobe Experience Platform](#adobe-experience-platform)
+   * [Area di destinazione dati AEP](#adobe-experience-platform)
 
    * [ARN per ruolo Amazon S3](#amazon-s3-role-arn)
 
@@ -63,9 +63,9 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Finestra di dialogo Esporta account AEP Data Landing Zone](assets/export-account-aep.png)
 
-1. Copia il contenuto del [!UICONTROL **SAS**] negli Appunti. Utilizza questo URI SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP.
+1. Copia il contenuto del [!UICONTROL **URI SAS**] negli Appunti. Utilizza questo URI SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione AEP.
 
 1. Seleziona [!UICONTROL **OK**].
 
@@ -87,7 +87,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Esporta account creato finestra di dialogo Amazon S3 Ruolo ARN](assets/export-account-amazons3.png)
 
 1. Copia il contenuto del [!UICONTROL **ARN utente**] negli Appunti. L’ARN utente (Amazon Resource Name) è fornito da Adobe. È necessario collegare questo utente al criterio creato in ARN per il ruolo Amazon S3.
 
@@ -111,7 +111,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Finestra di dialogo di esportazione account creato](assets/export-account-gcp.png)
 
 1. Copia il contenuto del [!UICONTROL **Entità**] negli Appunti, quindi assicurati di concedere all’Entità l’autorizzazione per caricare i file in questo bucket in Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -139,7 +139,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Finestra di dialogo di esportazione account creato](assets/export-account-azure.png)
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -165,7 +165,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Finestra di dialogo di esportazione account creato](assets/export-account-azure.png)
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure RBAC. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -191,7 +191,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
 
-   <!-- add screen shot -->
+   ![Finestra di dialogo di esportazione account creato](assets/export-account-snowflake.png)
 
 1. Copia il contenuto del [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe.
 
