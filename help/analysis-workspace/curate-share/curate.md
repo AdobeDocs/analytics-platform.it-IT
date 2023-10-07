@@ -4,10 +4,10 @@ keywords: Cura di Analysis Workspace
 title: Curare progetti
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 95%
 
 ---
 
@@ -27,21 +27,21 @@ I componenti utilizzati nel progetto verranno aggiunti automaticamente.
 
 È inoltre possibile applicare la cura dal menu [!UICONTROL Share] facendo clic su **[!UICONTROL Curate and Share]**. Questa opzione cura automaticamente il progetto con i componenti in uso nel progetto. Puoi aggiungere altri componenti seguendo la procedura descritta sopra.
 
-![](assets/curation-field.png)
+![La finestra Cura componenti mostra i componenti in uso nel progetto.](assets/curation-field.png)
 
 ## Vista del progetto curato
 
 Quando un destinatario apre un progetto curato, vedrà solo il set curato di componenti che hai definito:
 
-![](assets/curate-project.png)
+![Un progetto curato condiviso che mostra i componenti definiti.](assets/curate-project.png)
 
 ## Rimuovere la cura del progetto
 
 Per rimuovere la cura del progetto e ripristinare l’intero set di componenti nella barra a sinistra:
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
-1. Fai clic su **[!UICONTROL Remove Curation]**.
-1. Fai clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Remove Curation]** (Crea set di dati).
+1. Fai clic su **[!UICONTROL Done]** (Crea set di dati da schema).
 
 ## Opzioni di cura del componente
 

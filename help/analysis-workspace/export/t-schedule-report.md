@@ -5,10 +5,10 @@ title: Inviare dati di Customer Journey Analytics ad altri tramite e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 61%
+source-wordcount: '969'
+ht-degree: 57%
 
 ---
 
@@ -31,10 +31,10 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 1. (Facoltativo) Aggiungi una descrizione da includere nell’e-mail per spiegare il file ricevuto.
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
 1. (Solo per i clienti Healthcare Shield) Fornisci una password. Consulta la sezione Proteggere un rapporto pianificato tramite password.
-1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
 1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione di consegna.
+1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
 
-![Invia subito file](assets/send-file-no-scheduling-options.JPG)
+![La finestra Invia file e il pulsante Invia ora.](assets/send-file-no-scheduling-options.JPG)
 
 ## Invia file secondo programma {#schedule}
 
@@ -49,7 +49,7 @@ Per inviare un file ai destinatari in base a una pianificazione ricorrente trami
 1. Specifica la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
 1. Fai clic su **[!UICONTROL Send on schedule]** (Usa modello di attribuzione non predefinito).
 
-![](assets/send-file.JPG)
+![Vengono visualizzate la finestra Invia file e le opzioni di pianificazione per visualizzare le impostazioni Inizio, Fine e frequenza giornaliera.](assets/send-file.JPG)
 
 ## Gestione progetti programmati {#manager}
 
@@ -98,7 +98,7 @@ Dopo che la società ha acquistato lo SKU Healthcare Shield ed è stata abilitat
 
 * Quando un progetto pianificato esistente sta per essere inviato. Il progetto attualmente pianificato viene disattivato fino a quando non è attiva la protezione tramite password. Il proprietario del progetto pianificato riceve un messaggio e-mail con informazioni su questo requisito.
 
-![protezione tramite password](assets/password.png)
+![La finestra Modifica progetto pianificato e la notifica di crittografia password indicano che l’organizzazione richiede la crittografia password.](assets/password.png)
 
 ### Requisiti per la password
 
@@ -113,7 +113,7 @@ I requisiti per la password sono conformi agli standard Adobi, che richiedono un
 
 Prima di pianificare un progetto, il proprietario del progetto riceve un messaggio e-mail simile al seguente:
 
-![e-mail](assets/email-password.png)
+![La notifica e-mail di Customer Journey Analytics che indica la crittografia della password è obbligatoria per l’organizzazione.](assets/email-password.png)
 
 1. Accedi al Customer Journey Analytics.
 1. Seleziona **[!UICONTROL View Scheduled Project]**.

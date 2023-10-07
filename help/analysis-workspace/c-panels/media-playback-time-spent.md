@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Playback Time Spen
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 75%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 
 ## Vista predefinita
 
-![Vista predefinita](assets/mpts_default_view.png)
+![Il tempo trascorso del playbook multimediale nella visualizzazione predefinita.](assets/mpts_default_view.png)
 
 ## Output del pannello {#Output}
 
@@ -65,7 +65,7 @@ In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona dell
 
 Se hai selezionato il raggruppamento per serie, per ciascun raggruppamento viene visualizzata una linea sul grafico a linee e un numero di riepilogo:
 
-![Output Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](assets/mpts_outputs1.png)
+![L’output del tempo di riproduzione dei contenuti multimediali mostra un grafico a linee e un riepilogo.](assets/mpts_outputs1.png)
 
 ### Origine dati
 

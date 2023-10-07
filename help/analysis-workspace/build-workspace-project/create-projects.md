@@ -3,11 +3,11 @@ description: Scopri come creare un progetto in Analysis Workspace
 title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
-exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
+exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 4%
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ Per aggiungere un pannello:
 
 1. Seleziona la [!UICONTROL **Pannelli**] nella barra a sinistra.
 
-   ![](assets/build-panels.png)
+   ![L’icona Seleziona pannelli e l’elenco dei pannelli disponibili.](assets/build-panels.png)
 
 1. Cerca il pannello da aggiungere. Quando viene visualizzato nella barra a sinistra, trascinalo nel progetto.
 
@@ -64,7 +64,7 @@ Per aggiungere una visualizzazione:
 
 1. Seleziona la **[!UICONTROL Visualizations]** nella barra a sinistra.
 
-   ![](assets/build-visualizations.png)
+   ![L’icona delle visualizzazioni selezionate e l’elenco delle visualizzazioni disponibili.](assets/build-visualizations.png)
 
 1. Cerca la visualizzazione da aggiungere. Quando viene visualizzato nella barra a sinistra, trascinalo su un pannello all’interno del progetto.
 
@@ -82,7 +82,7 @@ Per aggiungere un componente:
 
 1. Seleziona la **[!UICONTROL Components]** nella barra a sinistra.
 
-   ![](assets/build-components.png)
+   ![L&#39;icona Componenti selezionata e l&#39;elenco delle dimensioni disponibili.](assets/build-components.png)
 
 1. Cerca il componente che desideri aggiungere. Quando viene visualizzato nella barra a sinistra, trascinalo su un pannello o una visualizzazione all’interno del progetto.
 
@@ -90,6 +90,6 @@ Per aggiungere un componente:
 
 ## Salvare e condividere il progetto
 
-Quando crei un’analisi in Analysis Workspace, il tuo lavoro è [salvato automaticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
+Quando crei un’analisi in Analysis Workspace, il lavoro viene [salvato automaticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
-Una volta completato il progetto che raccoglie informazioni fruibili, il progetto è pronto per essere utilizzato da altri utenti. Puoi condividere il progetto con utenti e gruppi della tua organizzazione o anche con persone esterne all’organizzazione. Per informazioni sulla condivisione di un progetto, consulta [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+Una volta completato il progetto e questo sta raccogliendo approfondimenti utili, il progetto è pronto per essere utilizzato da altri utenti. Puoi condividere il progetto con utenti e gruppi dell’organizzazione o anche con persone esterne a questa. Per informazioni sulla condivisione di un progetto, consulta [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).

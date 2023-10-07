@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Eliminare le cartelle in Workspace
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 981dd31ef669251fd00b834afeafb5e396aa32da
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 90%
+source-wordcount: '122'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,11 @@ Per eliminare cartelle in Workspace
 
 1. Fai clic sull’icona con i puntini di sospensione **…** in alto a destra.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
+   ![Opzioni del menu a discesa dell’icona con i puntini di sospensione.](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
 
 2. Seleziona **Delete folder** (Elimina cartella).
 
    Una notifica di conferma indica che la cartella è stata eliminata.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
+   ![L’avviso popup di conferma Elimina cartella.](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
 

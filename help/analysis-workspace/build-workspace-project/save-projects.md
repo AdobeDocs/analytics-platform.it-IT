@@ -4,10 +4,10 @@ title: Salvare i progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '752'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Tutti i progetti in Analysis Workspace vengono salvati automaticamente ogni 2 mi
 
    1. Vai alla cartella [!UICONTROL **Recovered Projects**] (Progetti recuperati) nella pagina di destinazione di Analysis Workspace.
 
-      ![](assets/recovered-folder.png)
+      ![L’elenco delle cartelle che evidenziano la cartella Progetto recuperato.](assets/recovered-folder.png)
 
    1. Apri il progetto e salvalo nella posizione desiderata.
 
@@ -63,13 +63,13 @@ Sono disponibili le seguenti opzioni:
 * **Save as (Salva con nome):** salva le modifiche più recenti come nuovo progetto. Il progetto originale viene salvato solo con le ultime modifiche salvate automaticamente.
 * **Discard Changes (Elimina modifiche):** elimina le modifiche più recenti. Il progetto conserva le modifiche salvate automaticamente più recenti.
 
-![](assets/existing-save.png)
+![Fai clic su Salva per salvare le modifiche apportate a un progetto.](assets/existing-save.png)
 
 ### Uscire o chiudere una scheda
 
 In caso di uscita o chiusura della scheda del browser durante la visualizzazione di un progetto con modifiche non ancora salvate automaticamente, il browser avverte che le modifiche non salvate andranno perse. È possibile scegliere di uscire o annullare.
 
-![](assets/browser-image.png)
+![Fai clic su Lascia per uscire dal sito o su Annulla per spostarti senza salvare le modifiche. ](assets/browser-image.png)
 
 ### Arresto anomalo del browser o timeout della sessione
 
@@ -81,7 +81,7 @@ Seleziona **Yes** (Sì) per ripristinare il progetto dalla copia salvata automat
 
 Seleziona **No** per eliminare la copia salvata automaticamente e aprire l’ultima versione del progetto salvata dall’utente.
 
-![](assets/project-recovery.png)
+![Finestra di dialogo Ripristino del progetto.](assets/project-recovery.png)
 
 Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recuperare le modifiche non salvate.
 
@@ -91,7 +91,7 @@ Per aprire una versione precedente di un progetto:
 
 1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
 
-   ![](assets/previous-versions.png)
+   ![Nell’elenco Versioni del progetto salvate in precedenza sono elencate le opzioni che consentono di visualizzare Tutte le versioni o Solo le versioni con note.](assets/previous-versions.png)
 
 1. Rivedi l’elenco delle versioni precedenti disponibili.
    Vengono visualizzati [!UICONTROL Timestamp] e [!UICONTROL Editor], oltre a [!UICONTROL Notes] se sono state aggiunte al momento del salvataggio dell’[!UICONTROL Editor]. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.

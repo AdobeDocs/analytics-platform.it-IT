@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le c
 
 Quando accedi a Workspace, nella pagina Home Progetti viene visualizzato un elenco dei progetti, insieme alla cartella aziendale e alle cartelle personali create.
 
-![](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![Home page del progetto in cui sono elencati i progetti e la cartella dell’azienda.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## Informazioni sulla cartella aziendale {#company-folder}
 
@@ -38,11 +38,11 @@ Quando un utente accede a Workspace, la cartella aziendale viene aggiunta automa
 
 Gli amministratori dispongono di privilegi speciali assegnati alla cartella aziendale. Ad esempio, solo gli amministratori possono aggiungere o rimuovere cartelle o progetti nella cartella aziendale. Gli utenti senza accesso amministratore possono visualizzare il contenuto della cartella aziendale.
 
-![](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![La pagina Progetti che mostra le opzioni di amministrazione.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 Gli utenti che non sono amministratori hanno opzioni limitate.
 
-![](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![Pagina Progetti che mostra le opzioni non amministratore per le cartelle.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### Linee guida per la cartella aziendale {#company-folder-guidelines}
 

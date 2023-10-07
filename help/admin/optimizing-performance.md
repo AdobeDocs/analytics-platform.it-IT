@@ -3,9 +3,9 @@ description: Fattori che influiscono sulle prestazioni e sulle ottimizzazioni di
 title: Ottimizzare le prestazioni di Customer Journey Analytics e Analysis Workspace
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1963'
 ht-degree: 75%
 
 ---
@@ -50,7 +50,7 @@ Puoi anche **Download as CSV** (Scaricare come CSV) i contenuti delle prestazion
 >
 >Le informazioni nella pagina Prestazioni variano ogni volta che viene aperta questa finestra modale, in quanto i fattori sono soggetti a modifiche. Inoltre, Adobe continuerà a perfezionare le linee guida fornite man mano che diventano disponibili ulteriori dati.
 
-![](assets/performance-modal.png)
+![Prestazioni di Analysis Workspace con fattore di rete, progetto corrente e linee guida.](assets/performance-modal.png)
 
 ### Fattori di rete
 

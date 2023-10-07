@@ -3,10 +3,10 @@ description: Il rilevamento delle anomalie in Analysis Workspace utilizza una se
 title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Dopo aver selezionato il modello e individuato le festività nell’intervallo d
 
 Osserva il notevole miglioramento delle prestazioni per i giorni di Natale e Capodanno nell’esempio seguente:
 
-![](assets/anomaly_statistics.png)
+![Due grafici a linee che mostrano le modifiche delle prestazioni con e senza le prestazioni delle festività.](assets/anomaly_statistics.png)
 
 ## Rilevamento delle anomalie con granularità oraria
 

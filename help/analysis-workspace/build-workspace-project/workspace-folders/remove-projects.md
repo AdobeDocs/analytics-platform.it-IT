@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Rimuovere progetti dalle cartelle
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 92%
 
 ---
 
@@ -25,19 +25,19 @@ Puoi spostare i progetti da una cartella a un’altra creata.
 
 1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![Opzioni dei puntini di sospensione.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Seleziona **Sposta in** e quindi seleziona una cartella in cui spostare il progetto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![La finestra Seleziona posizione.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. Fai clic su **Sposta**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![Fai clic su Sposta.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    Un avviso pop-up conferma che il progetto è stato spostato.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![Avviso popup di conferma dello spostamento. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## Eliminare un progetto da una cartella di progetto {#delete-project-in-folder}
 
@@ -45,7 +45,7 @@ Quando elimini un progetto da una cartella, questo viene eliminato completamente
 
 1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![Opzioni dei puntini di sospensione.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. Seleziona **Elimina**.
 

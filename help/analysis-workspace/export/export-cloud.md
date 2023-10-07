@@ -1,12 +1,12 @@
 ---
-description: Esportare un progetto Analysis Workspace in una posizione cloud.
+description: Scopri come esportare un progetto Analysis Workspace in una posizione cloud.
 keywords: Analysis Workspace
 title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Utilizza il seguente processo per esportare tabelle complete nel cloud:
 
 1. [Accedere ai dati nel cloud](#view-exported-data-and-manifest-file) e [Gestire le esportazioni in Adobe](/help/components/exports/manage-exports.md)
 
-![Processo di esportazione tabella completa](assets/export-full-table-process.png)
+![Processo di esportazione dell’intera tabella descritto nei passaggi da 1 a 4.](assets/export-full-table-process.png)
 
 ## Esportare tabelle complete da Analysis Workspace
 
@@ -57,7 +57,7 @@ Per esportare tabelle complete da Analysis Workspace:
 
 1. Seleziona [!UICONTROL **Esporta tabella completa**].
 
-   ![esporta tabella completa](assets/export-full-table.png)
+   ![Menu a discesa della tabella a forma libera con Esporta tabella completa evidenziata.](assets/export-full-table.png)
 
 1. In [!UICONTROL **Nuova esportazione di tabelle complete**] , specificare le informazioni seguenti:
 

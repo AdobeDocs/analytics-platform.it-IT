@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Creare cartelle
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 76%
 
 ---
 
@@ -25,15 +25,15 @@ Per creare una nuova cartella,
 
 1. Seleziona i tag dal menu a discesa o aggiungi nuovi tag.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
+   ![Finestra Crea nuova cartella con il nome della nuova cartella e l’elenco dei tag disponibili.](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
 1. Fai clic su **Crea**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create.png)
+   ![Fai clic su Crea.](/help/analysis-workspace/build-workspace-project/assets/create.png)
 
    La nuova cartella viene aggiunta all’elenco principale dei progetti e delle cartelle.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+   ![Pagina di destinazione Progetti con l’elenco aggiornato dei progetti e delle cartelle.](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## Creare una sottocartella {#create-subfolder}
 
@@ -43,20 +43,20 @@ Per creare una sottocartella quando è aperta una cartella esistente,
 
 1. fai clic su **Crea una nuova cartella**.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+   ![fai clic su Crea una nuova cartella.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
 1. Immetti il nome di una sottocartella e aggiungi i tag necessari.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+   ![La finestra Crea nuova cartella con il nuovo nome e il nuovo campo Tag.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
 1. Fai clic su **Crea**.
 
    La nuova sottocartella viene aggiunta all’elenco dei progetti e delle sottocartelle.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+   ![Fai clic su Crea.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
 
    >[!NOTE]
    >
    >È possibile creare fino a 10 livelli di sottocartelle in una singola cartella.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+   ![Nell&#39;elenco a discesa delle cartelle vengono visualizzate tutte le sottocartelle all&#39;interno della cartella.](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

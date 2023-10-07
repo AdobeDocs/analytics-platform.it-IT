@@ -3,10 +3,10 @@ description: Scopri come analizzare i risultati dei test A/B nel pannello Sperim
 title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 59%
+source-wordcount: '1858'
+ht-degree: 58%
 
 ---
 
@@ -41,7 +41,7 @@ Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli
 
 Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi assegna a queste dimensioni le etichette **[!UICONTROL Experiment]** e **[!UICONTROL Variant]**.
 
-![etichetta di contesto](assets/context-label.png)
+![Opzioni dell’etichetta di contesto per la variante Sperimentazione e Sperimentazione.](assets/context-label.png)
 
 Se queste etichette non sono presenti, il pannello Sperimentazione non funziona, in quanto non ci saranno esperimenti su cui lavorare.
 
@@ -49,7 +49,7 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
 
 1. In Area di lavoro Customer Journey Analytics, trascina il pannello Sperimentazione in un progetto.
 
-![pannello sperimentazione](assets/experiment.png)
+![Il pannello Sperimentazione è stato trascinato in un progetto.](assets/experiment.png)
 
 >[!IMPORTANT]
 >Se la configurazione necessaria nelle visualizzazioni dati del Customer Journey Analytics non è stata completata, prima di poter procedere riceverai un messaggio: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
@@ -62,7 +62,7 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
    | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
    | **[!UICONTROL Normalizing Metric]** | La base ([!UICONTROL People], [!UICONTROL Sessions] oppure [!UICONTROL Events]) su cui verrà eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
-   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un intervallo temporale più specifico. |
+   | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
 
 1. Fai clic su **[!UICONTROL Build]**.
 
@@ -74,11 +74,11 @@ Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento �
 
 Per ogni metrica di successo selezionata, verrà visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
 
-![output dell’esperimento](assets/exp-output1.png)
+![L’output della sperimentazione che mostra una tabella a forma libera e una tendenza del tasso di conversione.](assets/exp-output1.png)
 
 Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] rispetto a [!UICONTROL Control Variant]:
 
-![output grafico a linee](assets/exp-output2.png)
+![L&#39;output del grafico a linee che mostra le prestazioni di Control rispetto a Control Variant.](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Il pannello di sperimentazione nel Customer Journey Analytics consente di analiz
 
 La figura seguente contrasta queste situazioni:
 
-![esperimento randomizzato](assets/randomize.png)
+![Un diagramma che mostra i dati osservazionali e l’esperimento randomizzato.](assets/randomize.png)
 
 Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando le persone su X, l&#39;impatto è più difficile da misurare e l&#39;analisi terrà esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
 

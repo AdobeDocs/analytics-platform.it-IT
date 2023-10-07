@@ -3,10 +3,10 @@ title: Pannello Attribution
 description: Come utilizzare e interpretare il pannello Attribution in Analysis Workspace.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 85%
+source-wordcount: '532'
+ht-degree: 80%
 
 ---
 
@@ -30,17 +30,17 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 1. Fai clic sull’icona del pannello a sinistra.
 1. Trascina il pannello [!UICONTROL Attribution] nel progetto di Analysis Workspace.
 
-   ![Nuovo pannello di attribuzione](assets/Attribution_Panel_1.png)
+   ![La finestra Nuovo progetto evidenzia il pannello Attribuzione.](assets/Attribution_Panel_1.png)
 
 1. Aggiungi una metrica che desideri attribuire e aggiungi qualsiasi dimensione secondo cui effettuare l’attribuzione. Alcuni esempi includono Marketing Channels o dimensioni personalizzate, ad esempio promozioni interne.
 
-   ![Seleziona dimensione e metrica](assets/attribution_panel2.png)
+   ![La finestra del pannello Attribuzione mostra diverse dimensioni e metriche selezionate.](assets/attribution_panel2.png)
 
 1. Seleziona i modelli di attribuzione e l’intervallo di lookback che desideri confrontare.
 
 1. Il pannello Attribution restituisce un set completo di dati e visualizzazioni che confrontano l’attribuzione per la dimensione e la metrica selezionate.
 
-   ![Visualizzazioni di Attribution](assets/attr_panel_vizs.png)
+   ![Visualizzazioni del pannello Attribuzione che confrontano metriche e dimensioni selezionate.](assets/attr_panel_vizs.png)
 
 ## Visualizzazioni di Attribution
 

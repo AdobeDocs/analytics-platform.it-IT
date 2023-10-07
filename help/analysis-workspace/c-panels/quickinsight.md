@@ -3,10 +3,10 @@ description: Quick Insights è uno strumento per i nuovi utenti di Workspace che
 title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 91%
+source-wordcount: '1073'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Quando inizi a utilizzare questo [!UICONTROL Analysis Workspace], potresti chied
 
 Per aiutarti con questo, e in base all’utilizzo dei componenti dati da parte della tua azienda in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] sfrutta un algoritmo che ti mostrerà le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Vedrai infatti dimensioni, metriche e filtri taggati come [!UICONTROL Popular] nell’elenco a discesa, come mostrato di seguito:
 
-![](assets/popular-tag.png)
+![Pannello Quick Insights (Approfondimenti rapidi).](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] ti aiuta a:
 
@@ -45,14 +45,14 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 1. Effettua l’accesso ad Customer Journey Analytics utilizzando le credenziali che ti sono state fornite.
 1. Vai su [!UICONTROL Workspace], fai clic su **[!UICONTROL Create New Project]** e quindi su **[!UICONTROL Quick Insights]**. Puoi accedere a questo pannello anche dal menu **[!UICONTROL Panel]** nella barra a sinistra.
 
-   ![](assets/qibuilder.png)
+   ![La vista Tutti i modelli evidenzia l’opzione Quick Insights.](assets/qibuilder.png)
 
-   ![](assets/qi-panel.png)
+   ![L’elenco Pannelli evidenzia l’opzione Quick Insights.](assets/qi-panel.png)
 
 1. La prima volta, segui il breve tutorial che illustra alcune delle nozioni di base di [!UICONTROL Quick Insights panel]. Oppure, fai clic per **[!UICONTROL Skip Tutorial]**.
 1. Seleziona i blocchi predefiniti (noti anche come componenti): dimensioni (arancione), metriche (verde), filtri (blu) o intervalli di date (viola). Devi selezionare almeno una dimensione e una metrica affinché una tabella possa essere generata automaticamente.
 
-   ![](assets/qibuilder2.png)
+   ![I componenti, tra cui dimensioni, metriche, filtri, segmenti e intervalli di date.](assets/qibuilder2.png)
 
    Sono disponibili tre modi per selezionare i blocchi predefiniti:
    * Trascinali e rilasciali dalla barra a sinistra.
@@ -63,10 +63,9 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 
    * Una tabella a forma libera con la dimensione (in questo caso US States) in verticale e la metrica (in questo caso Visits) in orizzontale nella parte superiore. Osserva questa tabella:
 
-   ![](assets/qibuilder3.png)
+   ![La tabella a forma libera che mostra la dimensione in verticale e la metrica in orizzontale.](assets/qibuilder3.png)
 
    * Una visualizzazione associata, in questo caso un [grafico a barre](/help/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati che hai aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato sul tempo (ad esempio [!UICONTROL Visits] al giorno/mese) viene visualizzato in un grafico a [!UICONTROL Line]. Per impostazione predefinita, qualsiasi dato non basato sul tempo (ad esempio [!UICONTROL Visits] per [!UICONTROL Device]) viene visualizzato in un grafico a [!UICONTROL Bar]. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia dell’elenco a discesa accanto al tipo di visualizzazione.
-
 
 1. Per eseguire un drill-down delle dimensioni e vedere gli elementi dimensionali, fai clic sulla freccia rivolta a destra > accanto alla dimensione (facoltativo).
 
@@ -80,28 +79,28 @@ Altri utili suggerimenti compariranno nel pannello [!UICONTROL Quick Insights Bu
 
 * Innanzitutto, completa il tutorial **[!UICONTROL More tips]**: puoi accedervi tramite l’icona di aiuto (?) accanto al titolo [!UICONTROL Quick Insights]. Questo tutorial viene visualizzato 24 ore dopo la creazione di un progetto con almeno una dimensione e una metrica.
 
-   ![](assets/qibuilder4.png)
+  ![La notifica del pannello Quick Insights viene visualizzata dopo aver fatto clic sull’icona Aiuto.](assets/qibuilder4.png)
 
 * **Raggruppamento per**: puoi utilizzare fino a 3 livelli di raggruppamenti sulle dimensioni per eseguire un drill-down dei dati effettivamente necessari.
 
-   ![](assets/qibuilder5.png)
+  ![Livelli secondari delle suddivisioni.](assets/qibuilder5.png)
 
 * **Aggiungi altre metriche**: puoi aggiungere fino a 2 ulteriori metriche utilizzando l’operatore AND per aggiungerle alla tabella.
 
-   ![](assets/qibuilder6.png)
+  ![Più metriche tra cui Visite e Dispositivi.](assets/qibuilder6.png)
 
 * **Aggiungi altri filtri**: puoi aggiungere fino a 2 ulteriori filtri utilizzando gli operatori AND o OR per aggiungerli alla tabella. Osserva cosa succede alla tabella quando aggiungi Mobile Users OR Loyal Visitors. Si trovano l’uno accanto all’altro, sopra le metriche. Se hai aggiunto Mobile Users AND Loyal Visitors, vedrai i risultati di entrambi i filtri insieme e saranno l’uno sopra l’altro nella tabella.
 
-   ![](assets/qibuilder7.png)
+  ![Diagramma che mostra gli utenti mobili e i visitatori fedeli aggiunti.](assets/qibuilder7.png)
 
 ## Limitazioni note
 
 Se tenti di modificare direttamente all’interno della tabella, il pannello [!UICONTROL Quick Insights] non sarà sincronizzato. Per ripristinare le impostazioni precedenti di [!UICONTROL Quick Insights], fai clic su **[!UICONTROL Resync Builder]** in alto a destra del pannello.
 
-![](assets/qibuilder9.png)
+![Pannello Quick Insights (Approfondimenti rapidi) con l’opzione Resync Builder (Generatore di risincronizzazione).](assets/qibuilder9.png)
 
 Visualizzerai un avviso prima di aggiungere qualsiasi elemento direttamente alla tabella:
 
-![](assets/qibuilder8.png)
+![Avviso dell&#39;opzione Risincronizza generatore.](assets/qibuilder8.png)
 
 In caso contrario, la creazione diretta farà sì che la tabella ora si comporti come una tabella a forma libera tradizionale, senza le funzioni utili per i nuovi utenti.

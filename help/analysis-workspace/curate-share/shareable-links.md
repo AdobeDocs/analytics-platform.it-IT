@@ -4,10 +4,10 @@ keywords: Condivisione di Analysis Workspace
 title: Creare collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 53%
+source-wordcount: '385'
+ht-degree: 49%
 
 ---
 
@@ -36,7 +36,7 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 
 [Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=it) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
 
-![](assets/get-viz-link.png)
+![Il menu a discesa dopo aver fatto clic con il pulsante destro del mouse sull’intestazione ed evidenziato il collegamento Ottieni visualizzazione.](assets/get-viz-link.png)
 
 ## Utilizzare i collegamenti in un sommario {#TOC}
 
@@ -44,4 +44,4 @@ Un suggerimento per sfruttare le varie opzioni di collegamento è includere semp
 
 [Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=it) su come creare un sommario utilizzando i collegamenti e l’editor Rich Text di Workspace.
 
-![](assets/toc.png)
+![Sommario di un progetto.](assets/toc.png)

@@ -3,10 +3,10 @@ description: Puoi scaricare i dati da Analysis Workspace copiandoli oppure espor
 title: Scarica dati Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 59%
+source-wordcount: '1104'
+ht-degree: 56%
 
 ---
 
@@ -28,7 +28,7 @@ Sono disponibili anche altri metodi di esportazione dei dati del Customer Journe
 
      Scegliere questa opzione se si desidera che il file scaricato sia in formato testo normale.
 
-   ![](assets/download-project.png)
+   ![Il menu a discesa Progetto con le opzioni Scarica CSV e Scarica PDF evidenziate.](assets/download-project.png)
 
 1. (Condizionale) Se hai scelto di scaricare un PDF, viene visualizzato un messaggio dopo che il progetto è pronto per essere scaricato. Seleziona [!UICONTROL **Scarica**].
 
@@ -51,7 +51,7 @@ Opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare 
 >È possibile utilizzare il tasto di scelta rapida `Ctrl+C` per copiare la selezione negli Appunti, quindi utilizzare `Ctrl+V` per incollarlo in uno strumento di terze parti.
 
 
-![](assets/copy-selection.png)
+![Opzione Copia selezione negli Appunti. ](assets/copy-selection.png)
 
 ## Scarica come CSV {#download-data}
 
@@ -66,7 +66,7 @@ Opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scari
 
 * All’interno di una tabella, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download selection as CSV]**. Questa opzione consente di scaricare solo la selezione, anziché tutta la tabella visualizzata.
 
-![](assets/download-data-viz.png)
+![Opzione Scarica dati come CSV.](assets/download-data-viz.png)
 
 ## Scaricare elementi come CSV {#download-items}
 
@@ -78,7 +78,7 @@ Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic co
 
 Mentre il download è in corso, puoi eseguire più attività all’interno del progetto e persino passare a un nuovo progetto Workspace nella stessa scheda. Il download si interrompe se apri una nuova scheda del browser. Il download viene annullato se esci completamente da Workspace o se chiudi la scheda del browser.
 
-![](assets/download-items.png)
+![Opzione Scarica elementi come CSV (pagina).](assets/download-items.png)
 
 ### File di elementi scaricati {#items-file}
 
@@ -90,7 +90,7 @@ Le funzioni della tabella vengono applicate al file scaricato come segue:
 
 Nell’esempio precedente, gli elementi Pagina vengono scaricati con il filtro del pannello (Clienti nuovi visitatori) e i componenti al di sopra (Canale marketing = E-mail) vengono applicati come filtri. I componenti al di sotto (Tipo di dispositivo mobile) vengono rimossi dal CSV scaricato.
 
-![](assets/downloaded-file.png)
+![Il file .csv scaricato è stato aperto in Excel.](assets/downloaded-file.png)
 
 ### Notifiche relative al download {#notifications}
 
@@ -100,7 +100,7 @@ Al termine, verrà visualizzata una notifica di completamento e il file verrà s
 
 Se richiedi più di un download alla volta, una notifica ti segnala che ogni download aggiuntivo sarà messo in coda fino al completamento del download precedente.
 
-![](assets/toast.png)
+![La notifica dello stato del download che mostra la percentuale di completamento e un collegamento per annullare il download.](assets/toast.png)
 
 ## Scaricare dati sensibili {#sensitive}
 

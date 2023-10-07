@@ -4,18 +4,18 @@ keywords: Progetti solo visualizzazione
 title: Progetti solo visualizzazione
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 81%
+source-wordcount: '249'
+ht-degree: 80%
 
 ---
 
 # Progetti solo visualizzazione
 
-Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Questo può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dati dell’organizzazione, Analysis Workspace o il Customer Journey Analytics in genere, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
+Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Ciò può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, con Analysis Workspace o con il Customer Journey Analytics in genere, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
 
-![](assets/view-only-project.png)
+![Progetto condiviso solo visualizzazione.](assets/view-only-project.png)
 
 ## Interazioni disattivate
 

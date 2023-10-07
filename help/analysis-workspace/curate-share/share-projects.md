@@ -4,9 +4,9 @@ keywords: Condivisione di Analysis Workspace
 title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf700355597760b36441864de36f460b5996a1fe
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1881'
 ht-degree: 23%
 
 ---
@@ -61,7 +61,7 @@ Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organi
 1. Vai al progetto che desideri condividere, quindi fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 Se sono presenti modifiche non salvate, viene richiesto di salvare prima il progetto.
 
-   ![](assets/share-proj-modal.png)
+   ![Finestra Condividi progetto.](assets/share-proj-modal.png)
 
    Per informazioni su come condividere più progetti contemporaneamente, consulta [Condivisione di progetti nel Project manager](#share-projects-in-the-project-manager).
 
@@ -99,7 +99,7 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 
 1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** campo.
 
-   ![](assets/share-proj-modal.png)
+   ![Il progetto Share (Condividi) evidenzia il campo Share by link (Condividi tramite collegamento).](assets/share-proj-modal.png)
 
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
 
@@ -145,7 +145,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    Selezionando questa opzione viene creato un collegamento al progetto che può essere condiviso con chiunque. Disattivando questa opzione è possibile disattivare l’accesso al progetto in qualsiasi momento.
 
-   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento di risorse utente o impostazione delle scadenze dell&#39;account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) nella guida per l’amministratore di Analytics.
+   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento di risorse utente o impostazione delle scadenze dell&#39;account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=it) nella guida per l’amministratore di Analytics.
 
 1. Scegliere se abilitare la seguente opzione di protezione (che può essere controllata dall&#39;amministratore di Customer Journey Analytics):
 
@@ -183,7 +183,7 @@ Con i progetti A e B selezionati, i destinatari 4 e 7 vengono aggiunti agli elen
 * Progetto A: 1, 2, 3, 4, 7
 * Progetto B: 4, 5, 6, 7
 
-![](assets/mult-proj-sharing.png)
+![La finestra Aggiungi destinatari a più progetti.](assets/mult-proj-sharing.png)
 
 ## Condividere componenti incorporati
 

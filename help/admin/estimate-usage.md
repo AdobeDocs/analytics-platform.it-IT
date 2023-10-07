@@ -4,9 +4,9 @@ description: Mostra due metodi per stimare l’utilizzo e un metodo per la gesti
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 71%
 
 ---
@@ -41,7 +41,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmen
 
 1. Aggiungi il **[!UICONTROL Records of event data available]** (Registro dei dati evento disponibili) per ogni connessione creata dalla tua organizzazione. (A seconda delle dimensioni della connessione, la visualizzazione di questo valore potrebbe richiedere del tempo.)
 
-   ![Dati evento](./assets/event-data.png)
+   ![Registrazioni dei dati evento disponibili.](./assets/event-data.png)
 
    >[!CAUTION]
    >
@@ -70,7 +70,7 @@ Questo metodo consente di eseguire un’analisi più approfondita dei dati di ut
 
 1. In Workspace, crea nuovi progetti basati su ciascuna delle visualizzazioni dati e richiama tutti gli eventi (dalla sezione **[!UICONTROL Metrics]** (elenco a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto di Customer Journey Analytics corrente.
 
-   ![Eventi](./assets/events-usage.png)
+   ![Tabella a forma libera che mostra gli eventi.](./assets/events-usage.png)
 
    Da qui puoi avere un’idea dell’andamento del tuo consumo mese per mese.
 
@@ -97,7 +97,7 @@ Per gestire l’utilizzo, il [Interfaccia utente connessioni](/help/connections/
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
-Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experience Platform, il Customer Journey Analytics riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, il Customer Journey Analytics mantiene i restanti 15 mesi.
+Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experienci Platform, il Customer Journey Analytics riceverà 25 mesi di dati tramite backfill. Se elimini 10 di questi mesi in Platform, il Customer Journey Analytics mantiene i restanti 15 mesi.
 
 La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Se la connessione include qualsiasi profilo o set di dati di ricerca, poiché sono uniti con set di dati evento, i dati vengono conservati in Customer Journey Analytics in base alle impostazioni di conservazione dei dati sulle marche temporali del set di dati evento.
 

@@ -1,12 +1,12 @@
 ---
-description: In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
-title: Panoramica di Rilevamento delle anomalie
+description: Scopri il rilevamento delle anomalie nei dati in Analysis Workspace.
+title: Funzionamento del rilevamento delle anomalie
 feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 93%
 
 ---
 

@@ -3,10 +3,10 @@ description: I pannelli sono raccolte di tabelle e visualizzazioni.
 title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 51%
+source-wordcount: '1266'
+ht-degree: 47%
 
 ---
 
@@ -27,7 +27,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | L’analisi del tempo di riproduzione consente di comprendere dove si è verificato il picco di concorrenza o dove si è verificato il calo. |
 
-![](assets/panel-overview.png)
+![Pannello Customer Journey Analytics in cui sono elencati i tipi di pannello disponibili.](assets/panel-overview.png)
 
 I pannelli [!UICONTROL Quick Insights], [!UICONTROL Blank] e [!UICONTROL Freeform] sono ideali per iniziare con le attività di analisi, mentre [!UICONTROL Attribution IQ] si presta ad analisi più avanzate. Nei progetti è disponibile un pulsante `"+"` che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
@@ -39,7 +39,7 @@ Il calendario del pannello controlla l’intervallo di reporting per tabelle e v
 
 Nota: se un componente di intervallo date (viola) viene utilizzato all’interno di una tabella, di una visualizzazione o di una zona di rilascio di un pannello, questo sovrascriverà il calendario del pannello.
 
-![](assets/panel-calendar.png)
+![Finestra del calendario che mostra l’intervallo di date selezionato.](assets/panel-calendar.png)
 
 Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avanzate del calendario del pannello. Se esegui rapporti su un intervallo di date che dura molti giorni, l’ora di inizio si applica al primo giorno e l’ora di fine si applica all’ultimo giorno dell’intervallo.
 
@@ -51,7 +51,7 @@ La zona di rilascio del pannello consente di applicare filtri e filtri a discesa
 
 Per iniziare a filtrare il pannello, trascina un filtro dalla barra a sinistra fino alla zona di rilascio del pannello.
 
-![](assets/segment-filter.png)
+![La barra a sinistra mostra le metriche disponibili e la metrica Cliente mobile trascinata nella zona di rilascio del pannello.](assets/segment-filter.png)
 
 ### Filtri ad hoc
 
@@ -61,7 +61,7 @@ I filtri ad hoc sono un tipo di filtro rapido e sono locali per il progetto. Non
 
 Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
 
-![](assets/adhoc-segment-filter.png)
+![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio.](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa statici
 
@@ -69,7 +69,7 @@ I filtri a discesa consentono di interagire con i dati in modo controllato. Ad e
 
 I filtri a discesa possono essere utilizzati per consolidare più progetti in un progetto unico. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un filtro Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un filtro a discesa Paese.
 
-![](assets/dropdown-filter-intro.png)
+![Filtri a discesa statici che mostrano il filtro &quot;Diretto&quot; del canale di mercato evidenziato. ](assets/dropdown-filter-intro.png)
 
 Per creare un filtro a discesa statico:
 
@@ -79,7 +79,7 @@ Per creare un filtro a discesa statico:
 
 Seleziona una delle opzioni dall’elenco a discesa per modificare i dati nel pannello. Puoi anche scegliere di non filtrare nessuno dei dati del pannello selezionando **[!UICONTROL No filter]**.
 
-![](assets/create-dropdown.png)
+![Per rilasciare un filtro a discesa statico, è disponibile la finestra del pannello con il campo del segmento del cliente di Mobile. ](assets/create-dropdown.png)
 
 Facendo clic con il pulsante destro del mouse su un filtro a discesa sono disponibili le seguenti opzioni:
 
@@ -109,7 +109,7 @@ Facendo clic con il pulsante destro del mouse su un filtro a discesa dinamico, �
 
 Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quando fai clic con il pulsante destro del mouse sull’intestazione del pannello.
 
-![](assets/right-click-menu.png)
+![Le opzioni disponibili nel menu di scelta rapida per l’intestazione di un pannello.](assets/right-click-menu.png)
 
 Sono disponibili le seguenti impostazioni:
 

@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Concurrent Viewers
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 79%
+source-wordcount: '1035'
+ht-degree: 76%
 
 ---
 
@@ -36,12 +36,12 @@ Puoi configurare il pannello Media Concurrent Viewers (Visualizzatori simultanei
 
 ### Vista predefinita
 
-![Vista predefinita](assets/concurrent-viewers-default.png)
+![Visualizzazione predefinita dei visualizzatori simultanei di contenuti multimediali.](assets/concurrent-viewers-default.png)
 
 
 ### Vista di raggruppamento per serie
 
-![vista di raggruppamento per serie](assets/concurrent-viewers-series-breakdown.png)
+![La vista di raggruppamento per serie di visualizzatori simultanei di contenuti multimediali mostra 7 di 10 dimensioni, segmenti o intervalli di date.](assets/concurrent-viewers-series-breakdown.png)
 
 ## Output del pannello {#Output}
 
@@ -51,7 +51,7 @@ In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona dell
 
 Se hai selezionato il raggruppamento per serie, per ciascun raggruppamento viene visualizzata una linea sul grafico a linee e un numero di riepilogo:
 
-![output visualizzatori simultanei](assets/concurrent-viewers-output.png)
+![Output dei visualizzatori simultanei di contenuti multimediali.](assets/concurrent-viewers-output.png)
 
 ### Origine dati
 
@@ -64,7 +64,7 @@ L’unica metrica che può essere utilizzata in questo pannello è Visualizzator
 In questa visualizzazione non è disponibile una tabella a forma libera.  Per visualizzare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica come file .csv.  Saranno inclusi i raggruppamenti per serie di dati.
 
 
-![output visualizzatori simultanei](assets/concurrent-viewers-download-csv.png)
+![Le opzioni di output dei visualizzatori simultanei evidenziano l’opzione &quot;Scarica dati come CSV&quot;.](assets/concurrent-viewers-download-csv.png)
 
 ## Domande frequenti {#FAQ}
 
