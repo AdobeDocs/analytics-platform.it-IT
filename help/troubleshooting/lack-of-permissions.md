@@ -4,13 +4,13 @@ description: Scopri come risolvere i problemi derivanti dalla mancanza di autori
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
+exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
+source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # Mancanza di autorizzazioni
 
@@ -21,7 +21,7 @@ Ad esempio, dopo aver creato un’ [Connessione](../connections/overview.md) e [
 
 >[!BEGINSHADEBOX]
 
-*[!UICONTROL Something went wrong and we couldn't load schema fields. Please try again.]*
+*[!UICONTROL Something went wrong retrieving DULE policies. Please verify account permissions, policies, or labels. Message: Forbidden.]*
 
 >[!ENDSHADEBOX]
 
@@ -41,5 +41,3 @@ Per correggere questo errore, è necessario disporre dei privilegi di amministra
 1. Assicurare **[!UICONTROL Manage Data Usage Policies]** e **[!UICONTROL View Data Usage Policies]** sono aggiunti al **[!UICONTROL Data Governance]** contenitore.
 
 1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
-
-
