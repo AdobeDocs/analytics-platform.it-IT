@@ -3,10 +3,11 @@ title: Acquisire dati tramite Adobe Experience Platform Mobile SDK
 description: Spiegare come acquisire i dati nel Customer Journey Analytics tramite Adobe Experience Platform Mobile SDK e la rete Edge
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 662e9645cdb4b67f364525167e5191a52c474864
+exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 62%
+source-wordcount: '3138'
+ht-degree: 61%
 
 ---
 
@@ -52,28 +53,36 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-2. Seleziona **[!UICONTROL Create schema]** (Crea schema). Seleziona **[!UICONTROL XDM ExperienceEvent]** (Profilo individuale XDM) dall’elenco delle opzioni.
+1. Seleziona **[!UICONTROL Create schema]**.
+.
+1. Nel passaggio Seleziona una classe della procedura guidata Crea schema, seleziona **[!UICONTROL Experience Event]**.
 
-   ![Creare uno schema](./assets/create-ee-schema.png)
+   ![Creare uno schema](./assets/create-ee-schema-wizard-step-1.png)
 
    >[!INFO]
    >
    >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
+   Seleziona **[!UICONTROL Next]**.
 
-3. Nella schermata [!UICONTROL Untitled schema] (Schema senza titolo):
 
-   1. Immetti un nome di visualizzazione per lo schema e (facoltativamente) una descrizione.
+1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
 
-      ![Assegnare un nome allo schema](./assets/name-schema.png)
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
 
-   2. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
+      ![Assegnare un nome allo schema](./assets/create-ee-schema-wizard-step-2.png)
+
+   1. Seleziona **[!UICONTROL Finish]**.
+
+1. Nella scheda Struttura dello schema di esempio:
+
+   1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
 
       ![Aggiungere un gruppo di campi](./assets/add-field-group-button.png)
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
-   3. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL AEP Mobile SDK ExperienceEvent]** dall’elenco.
+   1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL AEP Mobile SDK ExperienceEvent]** dall’elenco.
 
       ![Gruppo di campi Dettagli ciclo di vita mobile AEP](./assets/select-aepmobilesdk-experienceevent.png)
 
@@ -83,13 +92,13 @@ Per configurare lo schema:
 
       Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
-   4. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
+   1. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
 
-4. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
+1. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
 
    ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-mobileschema-plus.png)
 
-5. In [!UICONTROL Field Properties] pannello, invio `identification` come [!UICONTROL Field name], **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group].
+1. In [!UICONTROL Field Properties] pannello, invio `identification` come [!UICONTROL Field name], **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group].
 
    ![Oggetto di identificazione](./assets/identification-field-mobile.png)
 
@@ -97,7 +106,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
-6. Seleziona il campo **[!UICONTROL ecid]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (Identità) e **[!UICONTROL Primary Identity]** (Identità principale) e **[!UICONTROL ECID]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello di destra.
+1. Seleziona il campo **[!UICONTROL ecid]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (Identità) e **[!UICONTROL Primary Identity]** (Identità principale) e **[!UICONTROL ECID]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello di destra.
 
    ![Specificare ECID come identità](./assets/specify-identity-mobile.png)
 
@@ -105,7 +114,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Apply]** (Applica). Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
-7. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
+1. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
 
    ![Specificare l’e-mail come identità](./assets/specify-email-identity-mobile.png)
 
@@ -115,7 +124,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-8. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+1. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
@@ -127,7 +136,7 @@ Per configurare lo schema:
 
    ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
-9. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
+1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
 Hai creato uno schema minimo che modella i dati che puoi acquisire dall’app mobile. Lo schema consente di identificare i profili utilizzando Experience Cloud Identity e l’indirizzo e-mail. Attivando lo schema per il profilo, puoi garantire che i dati acquisiti dall’app mobile vengano aggiunti al Profilo cliente in tempo reale.
 

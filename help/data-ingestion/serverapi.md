@@ -3,10 +3,11 @@ title: Acquisire dati tramite l’API del server di rete Edge di Adobe Experienc
 description: Spiegare come acquisire i dati nel Customer Journey Analytics tramite l’API del server Adobe Experience Platform Edge Network e la rete Edge
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '2167'
-ht-degree: 60%
+source-wordcount: '2181'
+ht-degree: 59%
 
 ---
 
@@ -52,28 +53,36 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-2. Seleziona **[!UICONTROL Create schema]** (Crea schema). Seleziona **[!UICONTROL XDM ExperienceEvent]** (Profilo individuale XDM) dall’elenco delle opzioni.
+1. Seleziona **[!UICONTROL Create schema]**.
+.
+1. Nel passaggio Seleziona una classe della procedura guidata Crea schema, seleziona **[!UICONTROL Experience Event]**.
 
-   ![Creare uno schema](./assets/create-ee-schema.png)
+   ![Creare uno schema](./assets/create-ee-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (ad esempio, raggiungere un livello nel gioco). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+   >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+
+   Seleziona **[!UICONTROL Next]**.
 
 
-3. Nella schermata [!UICONTROL Untitled schema] (Schema senza titolo):
+1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
 
-   1. Immetti un nome di visualizzazione per lo schema e (facoltativamente) una descrizione.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
 
-      ![Assegnare un nome allo schema](./assets/name-schema.png)
+      ![Assegnare un nome allo schema](./assets/create-ee-schema-wizard-step-2.png)
 
-   2. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
+   1. Seleziona **[!UICONTROL Finish]**.
+
+1. Nella scheda Struttura dello schema di esempio:
+
+   1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
 
       ![Aggiungere un gruppo di campi](./assets/add-field-group-button.png)
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
-   3. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL Blinding Light]** dall’elenco. Questo gruppo di campi è stato creato per tenere traccia dei progressi degli utenti durante l&#39;esecuzione di un gioco fittizio intitolato Blinding Light su una console.
+   1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL Blinding Light]** dall’elenco. Questo gruppo di campi è stato creato per tenere traccia dei progressi degli utenti durante l&#39;esecuzione di un gioco fittizio intitolato Blinding Light su una console.
 
       ![Gruppo di campi Luce accecante](assets/schema-fieldgroup-blindinglight.png)
 
@@ -83,13 +92,13 @@ Per configurare lo schema:
 
       Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
-   4. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
+   1. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
 
-4. Seleziona **[!UICONTROL +]** accanto al nome dello schema.
+1. Seleziona **[!UICONTROL +]** accanto al nome dello schema.
 
    ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-gamingschema-plus.png)
 
-5. In [!UICONTROL Field Properties] pannello, invio `identification` come [!UICONTROL Field name], **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group].
+1. In [!UICONTROL Field Properties] pannello, invio `identification` come [!UICONTROL Field name], **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group].
 
    ![Oggetto di identificazione](./assets/identification-field-gaming.png)
 
@@ -97,7 +106,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
-6. Seleziona il campo **[!UICONTROL ecid]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (Identità) e **[!UICONTROL Primary Identity]** (Identità principale) e **[!UICONTROL ECID]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello di destra.
+1. Seleziona il campo **[!UICONTROL ecid]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (Identità) e **[!UICONTROL Primary Identity]** (Identità principale) e **[!UICONTROL ECID]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello di destra.
 
    ![Specificare ECID come identità](./assets/specify-identity-gaming.png)
 
@@ -105,7 +114,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Apply]** (Applica). Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
-7. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
+1. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
 
    ![Specificare l’e-mail come identità](./assets/specify-email-identity-gaming.png)
 
@@ -115,7 +124,7 @@ Per configurare lo schema:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-8. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+1. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
@@ -127,7 +136,7 @@ Per configurare lo schema:
 
    ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
-9. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
+1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
 Hai creato uno schema minimo che modella i dati che puoi acquisire dal gioco. Lo schema consente di identificare i profili utilizzando Experience Cloud Identity e l’indirizzo e-mail. Attivando lo schema per il profilo, puoi garantire che i dati acquisiti dal gioco da console vengano aggiunti al Profilo cliente in tempo reale.
 
