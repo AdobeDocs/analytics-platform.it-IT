@@ -3,14 +3,14 @@ title: Confrontare l’elaborazione dei dati nelle funzioni di reporting di Adob
 description: Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 54%
 
 ---
 
-# Confronta l’elaborazione dei dati in Adobe Analytics e Customer Journey Analytics.
+# Confrontare l’elaborazione dei dati in Adobe Analytics e Customer Journey Analytics
 
 Spesso è necessario poter elaborare i dati prima che siano utili per il reporting. Puoi elaborarli in diverse fasi del percorso, dalla raccolta dei dati alla generazione del rapporto o della visualizzazione.
 
@@ -56,7 +56,7 @@ Nel tempo, Adobe Analytics e ora il Customer Journey Analytics hanno migliorato 
 
 I passaggi di elaborazione dei dati eseguiti per Adobe Analytics e Customer Journey Analytics e la tempistica di tali passaggi varia a seconda della funzione. La tabella seguente fornisce un riepilogo dei tipi di elaborazione dei dati di ciascuna funzione di Analytics e indica quando viene applicata l’elaborazione dei dati.
 
-| Funzione | Applicata al momento dell’elaborazione | Applicata al momento del reporting | Non disponibile | Note |
+| Funzionalità | Applicata al momento dell’elaborazione | Applicata al momento del reporting | Non disponibile | Note |
 | --- | --- | --- | --- | --- |
 | [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it) reportistica<br/>(escluse le suite di rapporti virtuali o di Attribution IQ con elaborazione al momento del reporting) | <ul><li>[Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=it)</li><li>[Regole VISTA](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=it)</li><li>[Regole dei canali di marketing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=it) a livello di hit</li><li>Regole dei canali di marketing a livello di visita (vedi nota)</li><li>Definizione di visita</li><li>Logica di attribuzione</li></ul> | <ul><li>Logica di segmento</li><li>Metriche calcolate</li></ul> | <ul><li>Analytics tra dispositivi (vedi nota)</li></ul> | <ul><li>CDA richiede l’utilizzo di suite di rapporti virtuali con elaborazione al momento del reporting.</li><li>Le “regole dei canali di marketing a livello di visita” includono: **Is First Page of Visit** (È la prima pagina della visita), **Override Last-Touch Channel** (Sovrascrivi canale di ultimo contatto) e **Marketing Channel Expiration** (Scadenza canale di marketing). Consulta la [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it).</li></ul> |
 | Adobe Analytics [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=it) | <ul><li>Regole di elaborazione</li><li>Regole VISTA</li><li>Regole dei canali di marketing a livello di hit</li><li>Regole dei canali di marketing a livello di visita</li><li>Definizione di visita</li><li>Logica di attribuzione</li></ul> | <ul><li>Logica di segmento</li></ul> | <ul><li>Metriche calcolate</li><li>Analytics tra dispositivi</li></ul> |     |

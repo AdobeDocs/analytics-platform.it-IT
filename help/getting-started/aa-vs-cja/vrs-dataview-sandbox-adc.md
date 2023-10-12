@@ -1,16 +1,16 @@
 ---
-title: Suite di rapporti virtuali, visualizzazioni dati, sandbox di Adobe Experience Platform e il connettore di origine di Analytics
+title: Suite di rapporti virtuali, visualizzazioni dati, sandbox Adobe Experience Platform e il connettore di origine Analytics
 description: Scopri gli ambienti di reporting virtuali e gli ambienti sandbox.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 56%
+source-wordcount: '771'
+ht-degree: 50%
 
 ---
 
-# Suite di rapporti virtuali, visualizzazioni dati, sandbox di Adobe Experience Platform e il connettore di origine di Analytics
+# Suite di rapporti virtuali, visualizzazioni dati, sandbox Adobe Experience Platform e il connettore di origine Analytics
 
 Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti sandbox. È utile comprendere le somiglianze e le differenze tra le seguenti funzioni e il modo in cui queste si relazionano al [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it):
 
@@ -18,7 +18,7 @@ Adobe offre diversi metodi per creare ambienti di reporting virtuali e ambienti 
 * Visualizzazioni dati Customer Journey Analytics
 * Sandbox Adobe Experience Platform
 
-## Suite di rapporti virtuali di Adobe Analytics (VRS)
+## Suite di rapporti virtuali di Adobe Analytics
 
 Per ulteriori informazioni, consulta [Virtual report suites overview](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) (Panoramica delle suite di rapporti virtuali).
 
@@ -28,10 +28,10 @@ Una suite di rapporti virtuale:
 * può essere applicata sia ai dati storici che a quelli nuovi in modo non distruttivo;
 * consente di creare una o più visualizzazioni virtuali sopra una suite di rapporti di Adobe Analytics per l’utilizzo da parte di diversi team aziendali;
 * può essere utilizzata per curare diversi tipi di dati per diversi utenti in Adobe Analytics e per controllarne l’accesso;
-* fornisce funzionalità facoltative di [elaborazione al momento del reporting](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=it) di Adobe Analytics; in questo caso, una suite di rapporti virtuali può essere utilizzata per creare una definizione personalizzata di “visita”;
+* fornisce funzionalità facoltative di [elaborazione al momento del reporting](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=it) di Adobe Analytics; In questo caso, è possibile utilizzare una suite di rapporti virtuale per creare una definizione personalizzata di &quot;visita&quot;.
 * viene applicata in fase di esecuzione del report, in modo simile alla valutazione del segmento, ovvero _dopo_ che i dati sono stati raccolti e memorizzati in Adobe Analytics;
 * è richiesta per [Analisi tra dispositivi](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) in Adobe Analytics;
-* dispone dello stesso numero di variabili da utilizzare delle suite di rapporti standard di Analytics (250 eVar, 250 prop, 1000 eventi), anche se la cura delle suite di rapporti virtuali può limitare quali variabili sono presentate agli utenti;
+* dispone dello stesso numero di variabili da utilizzare delle suite di rapporti standard di Analytics (250 eVar, 250 prop, 1000 eventi), anche se la cura delle suite di rapporti virtuali può limitare quali variabili sono esposte agli utenti;
 * supporta le opzioni di calendario personalizzato.
 
 Una suite di rapporti virtuale non è:

@@ -3,10 +3,10 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
+source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 59%
+source-wordcount: '1548'
+ht-degree: 57%
 
 ---
 
@@ -59,7 +59,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
    | Finestra di [!UICONTROL Data preview] | L’intervallo di date per il pubblico. |
    | [!UICONTROL Total people] | Un numero di riepilogo del numero totale di persone presenti nel pubblico. Può arrivare fino a 20 milioni di persone. Se il pubblico supera i 20 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
    | [!UICONTROL Audience size limit] | Mostra quanto è lontano il pubblico dal limite di 20 milioni. |
-   | [!UICONTROL Estimated audience return] | Questa impostazione è utile per il retargeting dei clienti del pubblico che ritornano al tuo sito. In altre parole, che compaiono nuovamente in questo set di dati. <p>Qui puoi selezionare l’arco temporale (i prossimi sette giorni, le prossime due settimane, il prossimo mese) per ottenere la stima del numero di clienti che potrebbero tornare. |
+   | [!UICONTROL Estimated audience return] | Questa impostazione è utile per il retargeting dei clienti di questo pubblico che ritornano al tuo sito, all’app mobile o a un altro canale (in altre parole, che vengono nuovamente visualizzati in questo set di dati). <p>Qui puoi selezionare l’arco temporale (i prossimi sette giorni, le prossime due settimane, il prossimo mese) per ottenere la stima del numero di clienti che potrebbero tornare. |
    | [!UICONTROL Estimated to return] | Questo numero fornisce una stima dei clienti fidelizzati nell’arco temporale selezionato dall’elenco a discesa. Per prevedere questo numero usiamo il tasso storico di abbandono del pubblico. |
    | [!UICONTROL Preview metrics] | Questa impostazione ti consente di esaminare metriche specifiche per verificare se il pubblico contribuisce in misura sproporzionata a questa metrica, ad esempio “[!UICONTROL Revenue]” o “[!UICONTROL Average time on site]”. Ti fornisce il conteggio complessivo della metrica, così come la percentuale del totale che rappresenta. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
    | [!UICONTROL Namespaces included] | Gli spazi dei nomi specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
