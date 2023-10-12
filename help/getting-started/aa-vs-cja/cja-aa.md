@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Accesso API di reporting | Supporto completo; disponibile tramite [API CUSTOMER JOURNEY ANALYTICS](https://developer.adobe.com/cja-apis/docs/). |
 | Rapporti/progetti pianificati | Supporto completo. |
 | Segmenti | Supporto completo. Ora denominati &quot;Filtri&quot;: eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non vengono trasferiti al Customer Journey Analytics. |
-| Suite di rapporti virtuali | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
+| Suite di rapporti virtuali | Supporto completo. Ora chiamato [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Cura dei componenti delle suite di rapporti virtuali | Supporto completo. Ora fa parte di Visualizzazioni dati. |
 | Analisi di dati multimediali in streaming | I dati multimediali sono disponibili utilizzando il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo trascorso su contenuti multimediali in Workspace. |
 
@@ -65,7 +65,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Dimensioni di geosegmentazione | Tutti i dati di GeoSegmentation o posizione geografica raccolti in Adobe Analytics fluiscono nel Customer Journey Analytics tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Le implementazioni che non utilizzano il connettore di origine di Analytics, ma si basano sull’SDK per web di Experienci Platform per la raccolta di dati digitali, possono utilizzare [Servizio di ricerca geografica di Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html). |
 | Offuscamento IP | Per i clienti del Customer Journey Analytics che utilizzano il connettore di origine di Analytics per compilare i dati da Adobe Analytics nel Customer Journey Analytics: le impostazioni di offuscamento dell’IP applicate in Adobe Analytics scorrono nei dati del Customer Journey Analytics. Puoi controllare queste impostazioni in Adobe Analytics in base alle esigenze.<p>Per i clienti del Customer Journey Analytics che utilizzano Experienci Platform Web SDK per compilare direttamente i dati in Platform e Customer Journey Analytics. Puoi utilizzare la preparazione dati per la raccolta dati in Platform per configurare regole che offuschino l’indirizzo IP in base ai requisiti della tua azienda. |
 | Canali di marketing | Quando si utilizza il connettore di origine di Analytics, i dati dei canali di marketing fluiscono nel Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing sono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Consulta [Canali marketing Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html) per ulteriori informazioni. <br/>Per le implementazioni Web SDK, le regole di elaborazione del canale di marketing al momento del reporting sono supportate tramite [Campi derivati](../../data-views/derived-fields/derived-fields.md). |
-| Deduplica delle metriche | Ora è configurato per le metriche all’interno di Visualizzazioni dati. La deduplica delle metriche avviene a livello di persona o di sessione anziché a livello di set di dati, visualizzazione dati o connessione. |
+| Deduplica delle metriche | Ora è configurato per le metriche all’interno di Visualizzazioni dati. La deduplicazione delle metriche avviene a livello di persona o di sessione anziché a livello di set di dati, visualizzazione dati o connessione. |
 | Rapporti sulle sessioni nuovi e ripetuti | Precedentemente ottenuti utilizzando la dimensione Numero di visite. Sono supportate le sessioni nuove a dispetto di quelle ripetute [con un intervallo di lookback di 13 mesi](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=it). |
 | Regole di elaborazione, regole VISTA, regole di elaborazione del canale di marketing | Supportato utilizzando la funzionalità Preparazione dati di Adobe Experience Platform per set di dati basati su Web SDK e per i dati provenienti dal connettore di origine di Analytics. |
 | Variabile &quot;products&quot;  | Nell’Experience Platform, per soddisfare questo caso d’uso, gli utenti possono utilizzare un array di oggetti all’interno di uno schema di set di dati. All’interno di Customer Journey Analytics, i clienti possono utilizzare un qualsiasi numero di variabili di prodotto e non sono limitati a una singola variabile, come accade invece in Adobe Analytics. |

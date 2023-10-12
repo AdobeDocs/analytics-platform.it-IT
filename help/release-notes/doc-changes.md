@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: bf1e14fc0ecfdab3ff7032133d05ab0f40f123d6
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2666'
 ht-degree: 85%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Ottobre 2023** | |
+| Confronto con Adobe Analytics | È stata aggiunta una pagina di panoramica come introduzione al confronto e alla comprensione delle differenze tra Customer Journey Analytics e Adobe Analytics. |
 | Funzionalità aggiuntive dei campi derivati | È stata aggiornata la documentazione del nuovo [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) funzione. |
 | **Settembre 2023** | |
 | Struttura aggiornata degli articoli per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali trascorso), che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
