@@ -4,7 +4,7 @@ description: Spiega come inserire e utilizzare i dati utilizzando i connettori d
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 87%
@@ -53,15 +53,17 @@ Per configurare lo schema:
 
 1. Seleziona **[!UICONTROL Create schema]**.
 .
-1. Nel passaggio Seleziona una classe della procedura guidata Crea schema, seleziona **[!UICONTROL Individual Profile]**.
+1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
-   ![Creare uno schema](./assets/create-pr-schema-wizard-step-1.png)
+   1. Seleziona **[!UICONTROL Individual Profile]**.
 
-   >[!INFO]
-   >
-   >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      ![Creare uno schema](./assets/create-pr-schema-wizard-step-1.png)
 
-   Seleziona **[!UICONTROL Next]**.
+      >[!INFO]
+      >
+      >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+
+   1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
