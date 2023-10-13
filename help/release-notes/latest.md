@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 49d91b513abd545ea73c7867817cd8724b460be4
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 39%
+source-wordcount: '775'
+ht-degree: 38%
 
 ---
 
@@ -25,7 +25,7 @@ Queste note sulla versione coprono il periodo dal 4 ottobre 2023 al 24 ottobre 2
 | **Migra al Customer Journey Analytics i progetti Adobe Analytics ed eventuali componenti inclusi** | Ora puoi migrare i progetti Adobe Analytics al Customer Journey Analytics. Questo processo semplifica la transizione da Adobe Analytics a Customer Journey Analytics. <p>Quando esegui la migrazione dei progetti al Customer Journey Analytics, le risorse vengono mappate da una suite di rapporti di Adobe Analytics a una visualizzazione dati del Customer Journey Analytics.</p> <p>Esegui la migrazione dei progetti al Customer Journey Analytics dall’interfaccia di Adobe Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | N/D | 9 ottobre 2023 |
 | **Adobe Product Analytics: Mostra/Nascondi serie** | Fai clic sulla legenda del grafico o sulle righe della tabella per controllare la visibilità delle serie nelle visualizzazioni.  [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=en) | N/D | 4 ottobre 2023 |
 | **Annotazioni nell’Adobe Product Analytics** | L’analisi guidata ora supporta la possibilità di visualizzare le annotazioni create nel Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en) | N/D | 4 ottobre 2023 |
-| **Reporting Activity Manager** | Reporting Activity Manager consente di visualizzare la capacità di reporting per ogni connessione nell’organizzazione. Offre agli amministratori una visibilità dettagliata sul consumo di reporting per diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. Le funzionalità principali di Reporting Activity Manager includono:<ul><li>Annullare le richieste di reporting correnti (comprese le richieste da analisi guidate ed esportazioni di tabelle complete)</li><li>Limita le richieste successive per un periodo di tempo definito</li></ul>Oltre ad annullare le richieste correnti, gli amministratori possono ora limitare le richieste per un periodo di tempo definito. Gli amministratori possono limitare le richieste in base a richieste, progetti o utenti.  Ulteriori informazioni (disponibili a breve) | 17 ottobre 2023 | 23 ottobre 2023 |
+| **Reporting Activity Manager** | Reporting Activity Manager consente di visualizzare la capacità di reporting per ogni connessione nell’organizzazione. Offre agli amministratori una visibilità dettagliata sul consumo di reporting per diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. Le funzionalità principali di Reporting Activity Manager includono:<ul><li>Annullare le richieste di reporting correnti (comprese le richieste da analisi guidate ed esportazioni di tabelle complete)</li><li>Limita le richieste successive per un periodo di tempo definito</li></ul>Oltre ad annullare le richieste correnti, gli amministratori possono ora limitare le richieste per un periodo di tempo definito. Gli amministratori possono limitare le richieste in base a richieste, progetti o utenti.  [Ulteriori informazioni](/help/reporting-activity-manager/reporting-activity-overview.md) | 17 ottobre 2023 | 23 ottobre 2023 |
 
 {style="table-layout:auto"}
 
