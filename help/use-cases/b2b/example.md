@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
+source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1492'
 ht-degree: 13%
 
 ---
@@ -68,18 +68,13 @@ Consulta [Aggiungere e configurare i set di dati](../../connections/create-conne
 
 Per poter accedere alle dimensioni e alle metriche B2B rilevanti durante la creazione di un progetto Workspace, devi definire di conseguenza la visualizzazione dati.
 
-Questa sezione fornisce consigli e suggerimenti su quali dimensioni e metriche includere durante la definizione del [componenti](../../data-views/create-dataview.md#components) della visualizzazione dati.
+Questa sezione fornisce consigli e suggerimenti su quali dimensioni e metriche includere durante la definizione del [componenti](../../data-views/create-dataview.md#components) per i set di dati B2B nella visualizzazione dati.
 
-Per ciascun componente, vengono forniti il nome, il percorso dello schema e (se applicabile) i dettagli sulla configurazione.
+Per ciascun componente, vengono forniti il nome, il tipo di schema, il percorso dello schema e (se applicabile) i dettagli sulla configurazione.
 
++++ Set di dati per attività B2B
 
-### Set di dati per attività B2B
-
-Il set di dati dell’attività B2B contiene gli eventi di esperienza rilevanti ed è richiesto come parte di una connessione.
-
-+++ Dettagli
-
-#### Metriche
+### Metriche
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -111,7 +106,7 @@ Il set di dati dell’attività B2B contiene gli eventi di esperienza rilevanti 
 {style="table-layout:auto"}
 
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -139,19 +134,15 @@ Il set di dati dell’attività B2B contiene gli eventi di esperienza rilevanti 
 +++
 
 
-### Set di dati persona B2B
-
-Il set di dati Persona B2B contiene i profili rilevanti.
-
-+++ Dettagli
++++ Set di dati persona B2B
 
 
-#### Metriche
+### Metriche
 
 Nessun componente metrico è definito come parte di questo set di dati.
 
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -160,15 +151,12 @@ Nessun componente metrico è definito come parte di questo set di dati.
 
 {style="table-layout:auto"}
 
-+++ Dettagli
++++
 
-### Set di dati dell’opportunità B2B
 
-Il set di dati Opportunità B2B contiene le opportunità rilevanti.
++++  Set di dati dell’opportunità B2B
 
-+++ Dettagli
-
-#### Metriche
+### Metriche
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -182,7 +170,7 @@ Il set di dati Opportunità B2B contiene le opportunità rilevanti.
 {style="table-layout:auto"}
 
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -199,13 +187,10 @@ Il set di dati Opportunità B2B contiene le opportunità rilevanti.
 
 +++
 
-### Set di dati della campagna B2B
 
-Il set di dati della campagna B2B contiene dati della campagna.
++++ Set di dati della campagna B2B
 
-+++ Dettagli
-
-#### Metriche
+### Metriche
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -214,7 +199,7 @@ Il set di dati della campagna B2B contiene dati della campagna.
 {style="table-layout:auto"}
 
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -229,13 +214,10 @@ Il set di dati della campagna B2B contiene dati della campagna.
 +++
 
 
-### Set di dati dell’account B2B
 
-Il set di dati dell’account B2B contiene i dati dell’account.
++++ Set di dati dell’account B2B
 
-+++ Dettagli
-
-#### Metriche
+### Metriche
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -245,7 +227,7 @@ Il set di dati dell’account B2B contiene i dati dell’account.
 {style="table-layout:auto"}
 
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -265,13 +247,9 @@ Il set di dati dell’account B2B contiene i dati dell’account.
 +++
 
 
-### Set di dati dei membri della campagna B2B
++++ Set di dati dei membri della campagna B2B
 
-Il set di dati Membro della campagna B2B contiene le interazioni dei membri delle campagne.
-
-+++ Dettagli
-
-#### Metriche
+### Metriche
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
@@ -284,7 +262,7 @@ Il set di dati Membro della campagna B2B contiene le interazioni dei membri dell
 
 {style="table-layout:auto"}
 
-#### Dimensioni
+### Dimensioni
 
 | Nome componente | Tipo di dati dello schema | Percorso schema | Configurazione |
 |---|---|---|---|
