@@ -3,10 +3,10 @@ title: Visualizzare l’attività di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: dba42bedd14c4c6d958feab9a1ebdc137d489f32
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 12%
+source-wordcount: '1704'
+ht-degree: 10%
 
 ---
 
@@ -42,26 +42,26 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    | Elemento nell’interfaccia utente | Descrizione |
    | --- | --- |
-   | **[!UICONTROL connection]** | La connessione di cui si sta monitorando l’attività di reporting. |
-   | **[!UICONTROL Virtual report suites]** | Mostra tutte le suite di rapporti virtuali che confluiscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e di segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate nella suite di rapporti di base.<p>Ad esempio, se disponi di 10 richieste provenienti da 5 suite di rapporti virtuali, nella suite di rapporti a livello di base le richieste sono 50. In questo modo, si possono raggiungere molto rapidamente i limiti di capacità. |
-   | **[!UICONTROL Capacity utilization]** | La percentuale in tempo reale della capacità di reporting della suite di rapporti in uso. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario iniziare immediatamente ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
+   | **[!UICONTROL Connection]** | La connessione di cui si sta monitorando l’attività di reporting. |
+   | **[!UICONTROL Data Views]** | Mostra tutte le visualizzazioni dati che confluiscono nella connessione. Le visualizzazioni dati aggiungono complessità alle richieste di reporting a causa di livelli aggiuntivi di filtraggio e segmentazione applicati. Tutte le richieste provenienti dalla visualizzazione dati vengono combinate nella connessione.<p>Ad esempio, se disponi di 10 richieste provenienti da 5 visualizzazioni dati, nella connessione sono 50 le richieste. In questo modo, si possono raggiungere molto rapidamente i limiti di capacità. |
+   | **[!UICONTROL Capacity utilization]** | Percentuale della capacità di reporting della connessione utilizzata, in tempo reale. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario iniziare immediatamente ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
    | **[!UICONTROL Queued requests]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | Tempo medio di attesa prima dell’elaborazione delle richieste. <!-- ???? --> |
-   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sono stati eseguiti sulla suite di rapporti e ne viene monitorata l’attività.</li><li>[!UICONTROL **Inattivo**] (grigio): non è mai stato eseguito alcun rapporto sulla suite di rapporti. Questo stato viene visualizzato solo al momento della creazione delle suite di rapporti.</li></ul> |
+   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): sono stati eseguiti rapporti sulla connessione che ora è monitorata per l’attività.</li><li>[!UICONTROL **Inattivo**] (grigio): non è mai stato eseguito alcun rapporto sulla connessione. Questo stato viene visualizzato solo al momento della creazione delle connessioni.</li></ul> |
 
    {style="table-layout:auto"}
 
-## Visualizzare l’attività di reporting per una singola suite di rapporti
+## Visualizzare l’attività di reporting per una singola connessione
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Reporting Activity Manager**].
 
-1. Seleziona il titolo collegato della suite di rapporti per la quale desideri visualizzare i dettagli.
+1. Selezionare il titolo collegato della connessione per la quale si desidera visualizzare i dettagli.
 
-   I dati dell’attività di reporting vengono visualizzati per la suite di rapporti selezionata.
+   I dati dell’attività di reporting vengono visualizzati per la connessione selezionata.
 
-   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+   <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
-1. Utilizza i grafici e la tabella disponibili per comprendere l’attività di reporting nella suite di rapporti.
+1. Utilizza i grafici e la tabella disponibili per comprendere l’attività di reporting nella connessione.
 
    * [Visualizzare grafici](#view-graphs)
 
@@ -69,13 +69,13 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
 ### Visualizzare grafici
 
-Sono disponibili i seguenti grafici per comprendere meglio l’attività che si verifica nella suite di rapporti.
+I seguenti grafici sono disponibili per aiutarti a comprendere meglio l’attività che si verifica nella connessione.
 
 Se i grafici non sono visibili, selezionare [!UICONTROL **Mostra grafici**] pulsante.
 
 #### Grafico Utilizzo {#utilization}
 
-Il grafico Utilizzo mostra l’utilizzo dei rapporti per la suite di rapporti selezionata nelle ultime 2 ore.
+Il grafico Utilizzo mostra l&#39;utilizzo dei rapporti per la connessione selezionata nelle ultime 2 ore.
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui la percentuale di capacità di utilizzo era più alta per quel minuto.
 
@@ -86,7 +86,7 @@ Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui
 
 #### Grafico Utenti distinti
 
-Il grafico Utenti distinti mostra l’attività di reporting per la suite di rapporti selezionata nelle ultime 2 ore.
+Il grafico Utenti distinti mostra l’attività di reporting per la connessione selezionata nelle ultime 2 ore.
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di utenti era più alto per quel minuto.
 
@@ -97,7 +97,7 @@ Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui
 
 #### Grafico Richieste
 
-Il grafico Richieste mostra il numero di richieste elaborate e completate per la suite di rapporti selezionata nelle ultime 2 ore.
+Il grafico Richieste mostra il numero di richieste elaborate e completate per la connessione selezionata nelle ultime 2 ore.
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di richieste era più alto per quel minuto.
 
@@ -108,7 +108,7 @@ Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui
 
 #### Grafico in coda
 
-Il grafico di accodamento mostra il tempo medio di attesa della coda (in secondi) per le richieste di reporting per la suite di rapporti selezionata nelle ultime 2 ore.
+Il grafico di accodamento mostra il tempo medio di attesa della coda (in secondi) per le richieste di reporting per la connessione selezionata nelle ultime 2 ore.
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il tempo medio di attesa massimo era più alto per quel minuto.
 
@@ -215,11 +215,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
 | [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL **Queries**] | The number of queries currently running. |
 | [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
 
 {style="table-layout:auto"}
 

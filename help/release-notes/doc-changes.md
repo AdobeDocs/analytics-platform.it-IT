@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 85%
+source-wordcount: '2874'
+ht-degree: 79%
 
 ---
 
@@ -20,6 +20,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Ottobre 2023** | |
+| Esporta tabelle complete nel cloud | È stata aggiunta la documentazione sull’esportazione di tabelle complete con milioni di righe di Workspace nelle destinazioni cloud. <p>L’esportazione di tabelle complete offre la consegna una tantum o pianificata di tabelle di dati progettate in Workspace con supporto per fino a cinque raggruppamenti, cinque metriche, filtri e metriche calcolate, il tutto in una tabella concatenata. È l’evoluzione dei rapporti Data Warehouse in Adobe Analytics, con molte nuove funzioni, spesso richieste, che oggi non sono disponibili in Data Warehouse.</p><p>Per ulteriori informazioni, consulta [Esportare i rapporti di Customer Journey Analytics nel cloud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). | 4 ottobre 2023 |
+| Reporting Activity Manager | È stata aggiunta la documentazione per Reporting Activity Manager. <p>Reporting Activity Manager consente di visualizzare la capacità di reporting per ogni connessione nell’organizzazione. Offre agli amministratori una visibilità dettagliata sul consumo di reporting per diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting.</p> <p>Sono stati aggiunti i seguenti nuovi articoli:<ul><li>[Panoramica di Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[Visualizzare l’attività di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity.md)</li><li>[Annullare le richieste in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
+| Nuove colonne nelle pagine di gestione | Sono state documentate le nuove colonne ora disponibili in [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) e [Gestione filtri](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Confronto con Adobe Analytics | È stato aggiunto un [pagina panoramica](../getting-started/aa-vs-cja/overview.md) come introduzione sul confronto e sulla comprensione delle differenze tra Customer Journey Analytics e Adobe Analytics. |
 | Funzionalità aggiuntive dei campi derivati | È stata aggiornata la documentazione del nuovo [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) funzione. |
 | **Settembre 2023** | |

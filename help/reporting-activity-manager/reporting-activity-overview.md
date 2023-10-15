@@ -3,7 +3,7 @@ title: Panoramica di Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 34%
@@ -29,6 +29,8 @@ Reporting Activity Manager offre i seguenti vantaggi:
 * Consente di limitare le richieste future per un periodo di tempo specificato. Puoi limitare richieste specifiche, oppure tutte le richieste provenienti da un utente specifico o associate a un progetto specifico.
 
 ## Autorizzazioni
+
+<!-- update for CJA -->
 
 Per gestire le attività di reporting, è necessario disporre dell’autorizzazione di amministratore di prodotto Analytics in Adobe Admin Console.
 

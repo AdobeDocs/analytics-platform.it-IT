@@ -3,7 +3,7 @@ title: Annullare le richieste di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 3%
@@ -132,6 +132,8 @@ Puoi annullare tutte le richieste associate a uno o più progetti.
    In Analysis Workspace viene visualizzata una notifica per informare gli utenti che la richiesta è stata annullata. Per ulteriori informazioni su come appare questo in Analysis Workspace, vedi [Esperienza di accesso degli utenti a un rapporto annullato](#experience-when-users-access-a-cancelled-report).
 
 ## Esperienza di accesso degli utenti a un rapporto annullato
+
+<!-- Update for CJA and AA -->
 
 In Analysis Workspace, gli utenti visualizzano il seguente messaggio quando tentano di accedere a un rapporto annullato da un amministratore:
 

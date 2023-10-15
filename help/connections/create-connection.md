@@ -4,10 +4,10 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
+source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 57%
+source-wordcount: '2666'
+ht-degree: 53%
 
 ---
 
@@ -60,9 +60,15 @@ L’esperienza di creazione e modifica della connessione porta tutte le impostaz
 
 Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experience Platform quando si crea una connessione.
 
-1. Nella finestra di dialogo delle impostazioni della connessione, fai clic su **[!UICONTROL Add datasets]**.
+1. Nella finestra di dialogo Impostazioni connessione, seleziona **[!UICONTROL Add datasets]**.
 
-2. Seleziona uno o più set di dati e fai clic su **[!UICONTROL Next]**. Almeno un set di dati evento deve far parte della connessione.
+2. In [!UICONTROL Select datasets] , seleziona uno o più set di dati e seleziona **[!UICONTROL Next]**. Almeno un set di dati evento deve far parte della connessione.
+   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e selezionare le colonne da visualizzare nel [!UICONTROL Customize table] .
+   * Per cercare un set di dati specifico, utilizza ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) campo di ricerca.
+   * Per visualizzare o nascondere i set di dati selezionati, seleziona ![Seleziona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Hide selected]** o **[!UICONTROL Show selected]**.
+   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Per rimuovere tutti i set di dati selezionati, seleziona **[!UICONTROL Clear all]**.
+
+   ![Seleziona set di dati](assets/select-datasets.png)
 
 3. Ora configura singolarmente ciascun set di dati.
 
@@ -70,8 +76,10 @@ Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experien
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Guarda questo video su come definire un’identità in Experience Platform. |
+   | **[!UICONTROL Person ID]** | Disponibile solo per i set di dati evento e profilo. Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Guarda questo video su come definire un’identità in Experience Platform. |
    | **[!UICONTROL Timestamp]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. |
+   | **[!UICONTROL Key]** | Disponibile solo per i set di dati di ricerca. Chiave da utilizzare per un set di dati di ricerca. |
+   | **[!UICONTROL Matching key]** | Disponibile solo per i set di dati di ricerca. Chiave corrispondente a cui partecipare a uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento. |
    | **[!UICONTROL Data source type]** | Selezionare un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
    | **[!UICONTROL Import new data]** | Seleziona questa opzione se desideri stabilire una connessione continua, in modo che tutti i nuovi batch di dati aggiunti ai set di dati della connessione vengano automaticamente trasmessi a Workspace. Può essere impostato su [!UICONTROL On] o [!UICONTROL Off]. |
    | **[!UICONTROL Dataset backfill]** | Seleziona **[!UICONTROL Request backfill]** per la retrocompilazione dei dati storici.<ul><li>È possibile retrocompilare ogni set di dati singolarmente.</li><li>Assegna la priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La latenza è influenzata dalla quantità di dati storici disponibili.</li><li>Il connettore di origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li></ul> |
@@ -81,7 +89,7 @@ Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experien
    | **[!UICONTROL Dataset size]** | Dimensione del set di dati. |
    | **[!UICONTROL Schema]** | Schema in base al quale il set di dati è stato creato in Adobe Experience Platform. |
    | **[!UICONTROL Dataset]** | Nome del set di dati. |
-   | **[!UICONTROL Preview]**: `<dataset name>` | Visualizza in anteprima il set di dati con le colonne Data, Mio ID e Identificatore. |
+   | **[!UICONTROL Preview: *nome set di dati *]** | Visualizza in anteprima il set di dati con le colonne Data, Mio ID e Identificatore. |
    | **[!UICONTROL Remove]** | Puoi eliminare o rimuovere il set di dati e modificare l’ID persona senza eliminare l’intera connessione. L’eliminazione o la rimozione di riduce i costi associati all’acquisizione dei dati e il complicato processo di ricreazione dell’intera connessione e delle visualizzazioni dati associate. |
 
    {style="table-layout:auto"}
