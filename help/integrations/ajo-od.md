@@ -2,8 +2,8 @@
 title: Integrare la gestione delle decisioni di Adobe Journey Optimizer con Adobe Customer Journey Analytics
 description: Importa i dati generati da Adobe Journey Optimizer Decision Management e analizzali utilizzando Analysis Workspace all’interno di Customer Journey Analytics.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 20%
@@ -21,7 +21,7 @@ La gestione delle decisioni fa parte di Adobe Journey Optimizer ed è integrata 
 
 ## Inviare dati da Gestione decisioni a Adobe Experience Platform
 
-Adobe Experience Platform funge da origine dati centrale e da collegamento tra la gestione delle decisioni e il Customer Journey Analytics. I dati provenienti dalla gestione delle decisioni sono raccolti in Experience Platform **automaticamente** o come parte di **eventi di esperienza inviati in modo esplicito** ad esempio impression o clic. Consulta [Guida introduttiva alla raccolta dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) per ulteriori dettagli.
+Adobe Experience Platform funge da origine dati centrale e da collegamento tra la gestione delle decisioni e il Customer Journey Analytics. I dati provenienti dalla gestione delle decisioni sono raccolti in Experienci Platform **automaticamente** o come parte di **eventi di esperienza inviati in modo esplicito** ad esempio impression o clic. Consulta [Guida introduttiva alla raccolta dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) per ulteriori dettagli.
 
 ## Creare una connessione
 
