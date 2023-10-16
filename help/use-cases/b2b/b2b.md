@@ -1,17 +1,17 @@
 ---
-title: (B2B) Aggiungere dati a livello di account come set di dati di ricerca
+title: Aggiungere dati a livello di account come set di dati di ricerca
 description: Scopri come aggiungere dati basati su account come set di dati di ricerca al Customer Journey Analytics
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 74%
+source-wordcount: '801'
+ht-degree: 73%
 
 ---
 
-# (B2B) Aggiungere dati a livello di account come set di dati di ricerca
+# Aggiungere dati a livello di account come set di dati di ricerca
 
 Questo caso d’uso B2B mostra come specificare i dati a livello di account anziché a livello di persona per l’analisi. L’analisi a livello di account può rispondere a domande quali
 
