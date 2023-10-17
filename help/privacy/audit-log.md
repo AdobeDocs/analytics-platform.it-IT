@@ -3,9 +3,9 @@ title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit del Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 68%
 
 ---
@@ -48,6 +48,7 @@ Vengono visualizzati i seguenti elementi:
    * CREA
    * DELETE
    * MODIFICA
+   * EMBARGO
    * ESPORTA
    * ORG_CHANGE
    * AGGIORNA

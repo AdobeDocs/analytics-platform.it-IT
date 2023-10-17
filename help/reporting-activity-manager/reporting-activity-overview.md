@@ -3,10 +3,10 @@ title: Panoramica di Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '273'
+ht-degree: 28%
 
 ---
 
@@ -32,9 +32,7 @@ Reporting Activity Manager offre i seguenti vantaggi:
 
 <!-- update for CJA -->
 
-Per gestire le attività di reporting, è necessario disporre dell’autorizzazione di amministratore di prodotto Analytics in Adobe Admin Console.
-
-![autorizzazione](assets/rep-mgr-permission.png)
+Per gestire l’attività di reporting, devi disporre del ruolo di amministratore prodotto. Per ulteriori informazioni, consulta [Ruolo di amministratore di prodotto](/help/admin/cja-access-control.md#product-admin-role) in [Controllo accesso Customer Journey Analytics](/help/admin/cja-access-control.md).
 
 ## Visualizza attività di reporting
 
@@ -43,11 +41,3 @@ Per informazioni sulla visualizzazione dell&#39;attività di reporting in Report
 ## Annullare le richieste di reporting
 
 Per informazioni sull’annullamento delle richieste di reporting in Reporting Activity Manager, consulta [Annullare le richieste di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
-
-## Domande frequenti {#faq}
-
-| Domanda | Risposta |
-| --- | --- |
-| Posso acquistare una capacità di reporting aggiuntiva? | Questa funzionalità sarà disponibile a breve. |
-
-{style="table-layout:auto"}

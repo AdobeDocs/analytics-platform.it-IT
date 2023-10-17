@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: d5a46c4ffbacb0e05a637ee9e19875572a2aebf4
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '916'
 ht-degree: 81%
 
 ---
@@ -25,6 +25,7 @@ Gli amministratori di prodotto dispongono delle autorizzazioni per completare qu
 * Creare/aggiornare/eliminare connessioni o visualizzazioni dati
 * Aggiornare o eliminare progetti, filtri, metriche calcolate, tipi di pubblico, annotazioni o filtri creati da altri utenti
 * Condividere progetti Workspace con tutti gli utenti
+* Gestire l’attività di reporting in [Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-overview.md)
 
 Per poter creare, aggiornare o eliminare una [connessione](/help/connections/overview.md), non è sufficiente diventare amministratore di prodotto in Customer Journey Analytics. Per creare una connessione a un set di dati di Experience Platform, è necessario disporre anche di autorizzazioni Experience Platform. In particolare, devi far parte di un **profilo di prodotto Experience Platform** che ti fornisca le seguenti autorizzazioni:
 
