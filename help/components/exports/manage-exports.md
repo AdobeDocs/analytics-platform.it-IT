@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Gestione esportazioni
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 3%
@@ -12,8 +12,6 @@ ht-degree: 3%
 ---
 
 # Gestione esportazioni
-
-{{release-limited-testing}}
 
 Dopo aver esportato una tabella completa come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili sul [!UICONTROL Exports] scheda della [!UICONTROL Exports] pagina.
 

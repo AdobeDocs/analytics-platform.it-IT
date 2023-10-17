@@ -4,10 +4,10 @@ description: Consente di impostare l’attribuzione predefinita per una metrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 35%
+source-wordcount: '1933'
+ht-degree: 34%
 
 ---
 
@@ -28,21 +28,17 @@ In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca 
 
 Puoi impostare un modello di attribuzione predefinito per una data metrica aggiornando l’impostazione della metrica nella visualizzazione dati. In questo modo si sostituisce il modello di attribuzione della metrica ogni volta che viene utilizzato in Analysis Workspace.
 
-<!-- 
-
 >[!NOTE]
 >
->Consider the following when enabling attribution on a metric:
+>Quando abiliti l’attribuzione su una metrica, tieni presente quanto segue:
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **Quando si utilizza il componente in un rapporto con *una singola dimensione*:** L’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **Quando si utilizza il componente in un rapporto con *dimensioni multiple*:** L’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Più dimensioni sono disponibili solo quando [esportazione di dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
 Per aggiornare il modello di attribuzione predefinito di un componente:
 

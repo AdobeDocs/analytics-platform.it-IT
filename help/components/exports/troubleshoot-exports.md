@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Risoluzione dei problemi di esportazione non riuscita
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 5%
@@ -12,8 +12,6 @@ ht-degree: 5%
 ---
 
 # Risoluzione dei problemi di esportazione non riuscita
-
-{{release-limited-testing}}
 
 Quando [esportare tabelle complete da Analysis Workspace a destinazioni cloud](/help/analysis-workspace/export/export-cloud.md), è possibile visualizzare lo stato di tali esportazioni sia da [Scheda Esportazioni](/help/components/exports/manage-exports.md) e dal [Scheda Registri](/help/components/exports/manage-export-logs.md). Le esportazioni non riuscite mostrano lo stato [!UICONTROL **Non riuscito**].
 

@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 5%
+source-wordcount: '1049'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | Anteprima | Fornisce una lettura rapida su eventuali errori. L’anteprima copre gli ultimi 90 giorni. Questo è un modo per valutare inizialmente se hai selezionato i componenti giusti per la metrica. Un risultato imprevisto richiederebbe una seconda occhiata alla definizione della metrica. |
 | Compatibilità del prodotto | Per qualsiasi metrica calcolata creata in Customer Journey Analytics, questo valore viene sempre elencato come [!UICONTROL **Dati completamente elaborati**]. Le metriche calcolate possono includere solo dati provenienti da set di dati evento. |
 | Add | Per tutti i tipi di metriche calcolate, puoi aggiungere contenitori e numeri statici alla definizione. Per le metriche calcolate avanzate, puoi anche aggiungere filtri e funzioni.<ul><li>I contenitori funzionano come un’espressione matematica e determinano l’ordine delle operazioni. Pertanto, qualsiasi elemento in un contenitore verrà elaborato prima dell’operazione successiva.</li><li>Trascinare un filtro in un contenitore filtra tutto ciò che contiene. (Solo metriche calcolate avanzate)</li><li>Puoi impilare più filtri in un contenitore.</li></ul> |
-| Icona ingranaggio (tipo di metrica, attribuzione) | Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e i modelli di attribuzione. <!-- <p>**Note:** Consider the following when updating a component's attribution to a non-default attribution model:</p><ul><li>**When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.</li><li>**When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.</li><li>Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> --> <p>Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).</p> |
+| Icona ingranaggio (tipo di metrica, attribuzione) | Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e i modelli di attribuzione. <p>**Nota:** Quando aggiorni l’attribuzione di un componente a un modello di attribuzione non predefinito, tieni presente quanto segue:</p><ul><li>**Quando si utilizza il componente in un rapporto con *una singola dimensione*:** L’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.</li><li>**Quando si utilizza il componente in un rapporto con *dimensioni multiple*:** L’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.</li><li>Più dimensioni sono disponibili solo quando [esportazione di dati nel cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).</p> |
 | Icona più (+) | Consente di creare un nuovo componente, ad esempio un nuovo filtro (che porta al Generatore di filtri ). |
 | Componenti ricerca | Questa barra di ricerca consente di cercare dimensioni, metriche, filtri (solo per metriche calcolate avanzate) e funzioni (solo per metriche calcolate avanzate). |
 | Elenco dei Dimension | Invece di uscire dal generatore di metriche calcolate per creare un filtro semplice (nel generatore di filtri), ad esempio &quot;Pagina = Home page&quot;, puoi trascinare la pagina e selezionare la pagina iniziale direttamente dal generatore di metriche calcolate. Questo si traduce in un flusso di lavoro molto più semplice per la creazione di metriche calcolate filtrate. |

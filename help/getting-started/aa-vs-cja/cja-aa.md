@@ -4,10 +4,10 @@ description: Confronto tra le funzioni di Customer Journey Analytics e quelle di
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -60,6 +60,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
 | Attributi cliente | Ora detti &quot;Set di dati profilo&quot;, non vengono importati automaticamente da Experience Cloud, ma devono essere caricati in Experienci Platform prima di poter essere disponibili in Customer Journey Analytics. |
 | Feed di dati | L’esportazione dei set di dati di prima generazione è disponibile tramite [API di accesso ai dati Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) e attraverso [Destinazioni Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). Queste opzioni forniscono l’esportazione a livello di evento/riga di tutti i dati raccolti o acquisiti in Experienci Platform Data Lake. Le colonne di dati post-elaborazione non sono disponibili perché le colonne post vengono calcolate in fase di query. L’esportazione delle colonne Post è disponibile tramite il reporting. |
+| Data Warehouse reporting | [Esportazione tabella completa Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) è l’evoluzione dei rapporti Data Warehouse in Adobe Analytics, con molte nuove funzioni, spesso richieste, che oggi non sono disponibili in Data Warehouse. |
 | Dimensioni e metriche per entrata, uscita e tempo trascorso | Supportate (le entrate e le uscite sono ora denominate Inizio sessione e Fine sessione) e calcolate in modo leggermente diverso. |
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte del Customer Journey Analytics. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. I Dimension impostati nelle Visualizzazioni dati sono limitati a una persistenza massima di 90 giorni e non supportano la persistenza illimitata. |
 | Dimensioni di geosegmentazione | Tutti i dati di GeoSegmentation o posizione geografica raccolti in Adobe Analytics fluiscono nel Customer Journey Analytics tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). Le implementazioni che non utilizzano il connettore di origine di Analytics, ma si basano sull’SDK per web di Experienci Platform per la raccolta di dati digitali, possono utilizzare [Servizio di ricerca geografica di Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html). |
@@ -95,7 +96,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | --- | --- |
 | Avvisi | Il supporto è pianificato. |
 | Analisi dei contributi | Il supporto è pianificato. |
-| Data Warehouse reporting | Il supporto di questa funzione è pianificato per l’interfaccia di Analysis Workspace. Adobe Experience Platform [[!UICONTROL Query Service]](<https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it>) fornisce anche un’interfaccia per questi casi d’uso nel Customer Journey Analytics. |
 | Unione di ID tramite grafico dei dispositivi | Il supporto è pianificato. |
 | Modelli di progetto | Il supporto è pianificato. |
 | Rapporti in tempo reale | Il supporto è pianificato. |
