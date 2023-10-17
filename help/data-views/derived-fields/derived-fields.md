@@ -4,9 +4,9 @@ description: Un campo derivato specifica la manipolazione in fase di report dei 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
 workflow-type: tm+mt
-source-wordcount: '5185'
+source-wordcount: '5382'
 ht-degree: 12%
 
 ---
@@ -100,6 +100,22 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia d
 
    - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato modificato originale con `(copy)` è stato aggiunto.
 
+In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
+
+1. Seleziona il componente. Il componente potrebbe avere un nome diverso dal campo derivato.
+
+1. Nel pannello Componente, selezionate ![Icona Modifica](assets/Smock_Edit_18_N.svg) accanto al campo derivato, sotto il nome del campo Schema.
+
+1. Per modificare il campo derivato, utilizzare [!UICONTROL Edit derived field] di rete. Consulta [Interfaccia campo derivato](#derived-field-interface).
+
+   - Seleziona **[!UICONTROL ** Salva **]** per salvare il campo derivato aggiornato.
+
+   - Seleziona **[!UICONTROL ** Annulla **]** per annullare le modifiche apportate al campo derivato.
+
+   - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato modificato originale con `(copy)` è stato aggiunto.
+
+
+
 ## Eliminare un campo derivato
 
 1. Seleziona una visualizzazione dati esistente. Consulta [Visualizzazioni dati](../data-views.md) per ulteriori informazioni.
@@ -112,7 +128,19 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia d
 
 5. Passa il puntatore del mouse sul campo derivato che desideri eliminare e seleziona ![Icona Modifica](assets/Smock_Edit_18_N.svg).
 
-6. Nell’uso **[!UICONTROL ** Modifica campo derivato **]** , selezionare Elimina.
+6. In [!UICONTROL Edit derived field] interfaccia, seleziona **[!UICONTROL Delete]**.
+
+   A [!UICONTROL Delete component] chiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato all’esterno della visualizzazione dati.
+
+   - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
+
+In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
+
+1. Seleziona il componente. Il componente potrebbe avere un nome diverso dal campo derivato.
+
+1. Nel pannello Componente, selezionate ![Icona Modifica](assets/Smock_Edit_18_N.svg) accanto al campo derivato, sotto il nome del campo Schema.
+
+1. In [!UICONTROL Edit derived field] interfaccia, seleziona **[!UICONTROL Delete]**.
 
    A [!UICONTROL Delete component] chiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato all’esterno della visualizzazione dati.
 
