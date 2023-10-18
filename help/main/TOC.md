@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
+source-git-commit: f6c874a96278cf593174f5ee79557b3a711a23e3
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 76%
 
 ---
@@ -190,18 +190,20 @@ ht-degree: 76%
 
 + Analisi guidata {#guided-analysis}
    + [Panoramica](../guided-analysis/overview.md)
-   + Impatto {#impact}
-      + [Vista versione](../guided-analysis/types/release.md)
-      + [Vista primo utilizzo](../guided-analysis/types/first-use.md)
-   + Funnel {#funnel}
-      + [Vista frizione](../guided-analysis/types/friction.md)
-      + [Visualizzazione tendenze di conversione](../guided-analysis/types/conversion-trends.md)
    + Crescita degli utenti {#user-growth}
       + [Visualizzazione attiva](../guided-analysis/types/active.md)
       + [Visualizzazione della crescita netta](../guided-analysis/types/net-growth.md)
    + Tendenze {#trends}
       + [Visualizzazione utilizzo](../guided-analysis/types/usage.md)
       + [Visualizzazione frequenza](../guided-analysis/types/frequency.md)
+   + Funnel {#funnel}
+      + [Vista frizione](../guided-analysis/types/friction.md)
+      + [Visualizzazione tendenze di conversione](../guided-analysis/types/conversion-trends.md)
+   + Impatto {#impact}
+      + [Vista versione](../guided-analysis/types/release.md)
+      + [Vista primo utilizzo](../guided-analysis/types/first-use.md)
+   + Mantenimento {#retention}
+      + [Tassi di mantenimento](../guided-analysis/types/retention-rates.md)
    + [Casi di utilizzo del settore](../guided-analysis/industry-use-cases.md)
    + [Domande frequenti](../guided-analysis/faq.md)
 
