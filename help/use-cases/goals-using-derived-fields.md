@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 53cf026531ac5690a3e5a31acaa5654a52747b69
+source-git-commit: 69317871bae9ad2a0fecad6b1df1cc357094b05c
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Desideri impostare un obiettivo di ricavi mensile per ciascuno dei tuoi canali d
 
 ## Usa obiettivi
 
-Per utilizzare gli obiettivi nel progetto Workspace, utilizza la funzionalità delle metriche calcolate per &quot;normalizzare&quot; il campo derivato al suo valore statico originale.
+Per utilizzare gli obiettivi nel progetto Workspace, utilizza la funzionalità delle metriche calcolate per &quot;normalizzare&quot; il campo derivato al suo valore statico originale. Questa normalizzazione è necessaria in quanto i valori statici impostati per i campi derivati che definiscono gli obiettivi vengono incrementati con ogni evento.
 
 ### Obiettivi degli ordini di buoni mensili
 
