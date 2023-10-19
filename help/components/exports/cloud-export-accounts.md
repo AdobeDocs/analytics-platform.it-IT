@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Continua con la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] hai selezionato.
 
-   * [Area di destinazione dati AEP](#adobe-experience-platform)
+   * [Area di destinazione dati AEP](#aep-data-landing-zone)
 
    * [ARN per ruolo Amazon S3](#amazon-s3-role-arn)
 

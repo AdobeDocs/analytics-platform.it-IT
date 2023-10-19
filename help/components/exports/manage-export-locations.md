@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
@@ -63,11 +63,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 ## Elimina posizioni
 
-Se si elimina una posizione, vengono eliminate anche tutte le esportazioni che la utilizzano.
-
-Prima di eliminare una posizione, verifica se è utilizzata da qualsiasi esportazione selezionando l’icona delle informazioni accanto al nome della posizione.
-
-![esportazioni connesse](assets/location-connected-exports.png)
+Se si elimina una posizione, vengono eliminate anche tutte le esportazioni che la utilizzano. Controlla la finestra di dialogo di conferma durante l’eliminazione per assicurarti che non siano associate alla posizione esportazioni.
 
 Per eliminare una posizione:
 
@@ -77,7 +73,15 @@ Per eliminare una posizione:
 
    ![Modifica posizioni](assets/locations-edit.png)
 
-1. Seleziona [!UICONTROL **Elimina**], quindi seleziona [!UICONTROL **Elimina**] nella finestra di dialogo di conferma.
+1. Seleziona [!UICONTROL **Elimina**].
+
+   Viene visualizzata la finestra di dialogo Elimina posizione.
+
+1. Nella finestra di dialogo Elimina posizione, accertati che la posizione non sia associata ad alcuna esportazione prima di confermare l’eliminazione.
+
+   ![Finestra di conferma Elimina posizione](assets/delete-location-confirmation-dialog.png)
+
+1. Seleziona [!UICONTROL **Elimina**] di nuovo per confermare.
 
 ## Modifica account
 
@@ -85,7 +89,7 @@ Per eliminare una posizione:
 
 1. Seleziona la [!UICONTROL **Account ubicazione**] scheda.
 
-   ![Pagina Account](assets/account-page.png)
+   ![Pagina Account](assets/account-add.png)
 
 1. Seleziona [!UICONTROL **Visualizza dettagli**] sull&#39;account che si desidera modificare.
 
@@ -101,7 +105,7 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
 1. Seleziona la [!UICONTROL **Account ubicazione**] scheda.
 
-   ![Pagina Account](assets/account-page.png)
+   ![Pagina Account](assets/account-add.png)
 
 1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
 
@@ -111,7 +115,7 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
 1. Seleziona la [!UICONTROL **Account ubicazione**] scheda.
 
-   ![Pagina Account](assets/account-page.png)
+   ![Pagina Account](assets/account-add.png)
 
 1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Elimina account**].
 

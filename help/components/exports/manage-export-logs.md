@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestire i registri di esportazione
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,26 @@ ht-degree: 3%
 I registri di esportazione forniscono dettagli su ogni esportazione e vengono generati ogni volta che i dati di Analysis Workspace vengono esportati nel cloud. (Per informazioni su come esportare i dati nel cloud, vedi [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).)
 
 Per le esportazioni pianificate, i registri riflettono le impostazioni di esportazione così come erano quando il registro è stato inviato. I registri non possono essere eliminati.
+
+## Visualizzare i registri di esportazione
+
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+
+1. Seleziona la [!UICONTROL **Registri**] scheda.
+
+   ![Scheda Esporta registri](assets/export-logs-tab.png)
+
+   I dettagli di ciascun registro vengono visualizzati nelle colonne disponibili.
+
+1. Esegui una delle operazioni seguenti:
+
+   * [Personalizzare le colonne](#configure-columns) che vengono visualizzati.
+
+   * Seleziona la **Icona Informazioni** ![Icona Informazioni](assets/information-icon.png) accanto al nome del registro per visualizzare l&#39;esportazione associata al registro.
+
+   * Seleziona la **Icona Modifica esportazione** ![Icona Informazioni](assets/edit-export-icon.png) accanto al nome del registro per modificare l&#39;esportazione associata al registro.
+
+     Per ulteriori informazioni sulla modifica di un’esportazione, consulta [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 ## Filtrare e cercare i registri
 
