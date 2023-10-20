@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 hide: true
 hidefromtoc: true
-source-git-commit: ec0d57d0573b21767ed1703c9ddb1172e442e10a
+source-git-commit: 1cadf9d863c18f590a99e22d7b0e79b1074bf29f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ I successivi periodi fissi di durata contano il numero di utenti che sono ritorn
 * Se un utente si impegna con l’evento una sola volta nell’intervallo di date desiderato (il coinvolgimento iniziale), questo viene visualizzato solo nel bucket di durata &quot;Giorno 0&quot;.
 * Se un utente si impegna con l’evento più giorni dopo aver ottenuto inizialmente la qualifica per l’inclusione nell’analisi, vengono visualizzati nell’ultimo bucket di durata ammissibile e in tutti i bucket di durata che lo precedono. Questo tipo di calcolo è talvolta indicato come &quot;conservazione non limitata&quot;.
 * Se un utente si impegna più volte con l’evento durante l’intervallo di date configurato, nell’analisi vengono inclusi solo il primo e l’ultimo evento.
+
+![Schermata Tassi di mantenimento](../assets/retention-rates.png)
 
 ## Casi d’uso
 
