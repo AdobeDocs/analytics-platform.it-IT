@@ -1,12 +1,12 @@
 ---
 title: Visualizzazione utilizzo
 description: Misura il coinvolgimento degli utenti nel tempo.
-exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
+source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come una linea colorata o un set di barre, a seconda del tipo di grafico. Alla tabella viene aggiunta una riga che rappresenta l&#39;evento con tendenze. Puoi includere fino a cinque eventi.
 * **[!UICONTROL People]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di righe nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
+* **[!UICONTROL Breakdown]**: crea una riga di tendenza separata per elemento dimensionale. È supportata una singola dimensione di raggruppamento.
 
 ## Impostazioni grafico
 

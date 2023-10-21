@@ -3,9 +3,10 @@ title: Vista versione
 description: Confrontare le prestazioni in periodi uguali prima e dopo il rilascio.
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
+source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ Il **[!UICONTROL Release]** mostra un confronto tra le prestazioni degli indicat
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Valutazione complessiva delle prestazioni:** Il confronto di indicatori chiave complessivi, come le misure di coinvolgimento, può aiutarti a determinare se una determinata versione ha avuto complessivamente esito positivo.
-* **Monitorare**: se alcune misure, come il tempo di caricamento o gli accessi, prevedi di rimanere invariate quando vengono apportate modifiche, confrontalle prima e dopo per garantire che il rilascio non abbia comportato conseguenze indesiderate.
+* **Monitorare**: tieni traccia delle metriche vitali che dovrebbero rimanere invariate quando vengono apportate modifiche, ad esempio il tempo di caricamento o il numero di accessi. Utilizza questo tipo di analisi per confrontarli prima e dopo una versione per assicurarti che non abbia avuto conseguenze indesiderate.
 * **Adozione di funzioni**: se un aggiornamento del prodotto si concentra sul miglioramento di una determinata funzione, puoi utilizzare questa visualizzazione per confrontare direttamente l’utilizzo di tale funzione prima e dopo l’aggiornamento del prodotto.
 * **Rilevamento di bug**: il tracciamento del numero di errori prima e dopo una versione può fornire un indicatore anticipato dei problemi dei clienti. Se si nota un aumento di errori subito dopo una versione, è possibile collaborare con i team di progettazione o di sviluppo per identificare e correggere il problema, evitando un ulteriore impatto sui clienti.
 
@@ -38,7 +39,7 @@ La barra delle query consente di configurare i seguenti componenti:
 La vista Rilascio offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Metric]**: la metrica da misurare. Le opzioni includono [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], e [!UICONTROL Users].
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono Linea.
+* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Line] e [!UICONTROL Bar].
 
 ## Intervallo date
 
