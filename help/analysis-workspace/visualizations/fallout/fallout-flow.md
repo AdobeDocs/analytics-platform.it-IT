@@ -1,20 +1,20 @@
 ---
-description: Le visualizzazioni Abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
-title: Panoramica dell’abbandono
+description: Scopri i rapporti e le visualizzazioni di fallout.
+title: Informazioni sui rapporti di fallout e sulle visualizzazioni
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 79%
+source-wordcount: '234'
+ht-degree: 80%
 
 ---
 
 # Panoramica dell’abbandono
 
-Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
+I rapporti di abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
 
-Le visualizzazioni Abbandono consentono di:
+Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. Le visualizzazioni Abbandono consentono di:
 
 * Eseguire confronti affiancati di due diversi filtri nello stesso rapporto
 * Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto)

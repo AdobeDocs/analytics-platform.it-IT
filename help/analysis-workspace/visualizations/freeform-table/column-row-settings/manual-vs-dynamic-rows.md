@@ -3,10 +3,10 @@ title: Elementi dimensionali dinamici e statici nelle tabelle a forma libera
 description: Interagire con elementi dimensionali dinamici e statici nelle tabelle
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 87%
+source-wordcount: '548'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ Ad esempio, quando si trascina la dimensione Tipo di browser nella tabella, gli 
 Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e delle icone X, quindi eseguono le operazioni seguenti: **non** l&#39;icona del lucchetto è presente. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento di dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![](assets/dynamic-items.png)
+![Tabella a forma libera che evidenzia l’icona del filtro.](assets/dynamic-items.png)
 
 ## Elementi dimensionali statici
 
@@ -40,13 +40,13 @@ Ad esempio, quando trascini su specifici elementi della dimensione Tipo di brows
 
 Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe. Su ogni elemento sono invece presenti le icone lucchetto e X. Fai clic sull’icona X per rimuovere l’elemento dimensionale dalla tabella.
 
-![](assets/static-items.png)
+![Una tabella a forma libera che mostra il Tipo di browser e la riga Microsoft con un’icona di blocco. Nota: questo elemento dimensionale è statico e non cambierà con il tempo.](assets/static-items.png)
 
 ## Elementi dimensionali misti
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l’intestazione della riga indica “dimensioni miste”. Questi elementi dimensionali sono statici. Ad esempio, è possibile aggiungere elementi dimensionali specifici dalla dimensione Tipo di browser e altri elementi dimensionali dalla dimensione Browser.
 
-![](assets/mixed-dimensions.png)
+![Una tabella a forma libera che evidenzia la colonna Dimension misti.](assets/mixed-dimensions.png)
 
 ## Righe del totale a forma libera
 

@@ -1,13 +1,13 @@
 ---
-description: Utilizza la visualizzazione di flusso in un progetto Workspace.
-title: Configurare una visualizzazione di flusso
+description: Scopri come utilizzare la visualizzazione Flusso in un progetto Workspace.
+title: Come configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 57%
+source-wordcount: '1470'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,7 @@ Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o 
 
 Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
-![nuova interfaccia utente di Flusso](assets/new-flow.png)
+![La schermata di configurazione del flusso che mostra i campi Inizia con, Contiene e Termina con.](assets/new-flow.png)
 
 ## Creare una visualizzazione di flusso {#configure}
 
@@ -45,11 +45,11 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
 1. Se scegli una metrica, devi anche fornire una [!UICONTROL **Dimension di percorsi**] da utilizzare come percorso che porta o parte dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
 
-   ![dimensione del percorso](assets/pathing-dim.png)
+   ![La dimensione Percorsi.](assets/pathing-dim.png)
 
 1. (Facoltativo) Seleziona **[!UICONTROL Show advanced settings]** per configurare una delle opzioni seguenti:
 
-   ![impostazioni avanzate](assets/adv-settings.png)
+   ![Impostazioni avanzate con le opzioni di visualizzazione, Numero di colonne e Contenitore Flusso.](assets/adv-settings.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
@@ -80,7 +80,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
 ## Visualizzare e modificare l’output di Flusso {#output}
 
-![output di flusso](assets/flow-output.png)
+![Esempio di output di flusso che mostra Fine con visite, Dimensione percorso: Pagina e Contenitore flusso: Visitatori.](assets/flow-output.png)
 
 Nella parte superiore del diagramma viene visualizzato un riepilogo della configurazione di Flusso. I percorsi nel diagramma sono proporzionali. I percorsi con maggiore attività sono più spessi.
 
@@ -90,7 +90,7 @@ Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
 * Quando fai clic su un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Fai di nuovo clic sul nodo per chiuderlo.
 
-  ![dettagli-nodo](assets/node-details.png)
+  ![Esempio di diagramma di flusso interattivo che mostra i dettagli dei nodi.](assets/node-details.png)
 
 * Puoi filtrare una colonna per visualizzare solo alcuni risultati, ad esempio puoi includere ed escludere, specificare criteri, ecc.
 

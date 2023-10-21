@@ -3,10 +3,10 @@ description: Scopri come specificare i punti di contatto per creare una sequenza
 title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 71%
+source-wordcount: '713'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
 
 1. Trascina la dimensione Pagina nella tabella a forma libera, trascina una pagina (in questo esempio, Home - JJEsquire) nel campo **[!UICONTROL Add TouchPoint]** (Aggiungi punto di contatto) come primo punto di contatto.
 
-   ![](assets/fallout1.png)
+   ![Il menu a discesa Tutte le visite mostra JJEsquire trascinato nel campo Aggiungi punto di contatto.](assets/fallout1.png)
 
    Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto, il conteggio delle persone a quel punto e il tasso di successo per quel punto di contatto (nonché per confrontare il tasso di successo con altri punti di contatto).
 
@@ -40,11 +40,11 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
    >
    >Per unire più filtri si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione e metriche, si usa l’operatore OR.
 
-   ![](assets/multiple_obj_touchpoint.png)
+   ![I punti di contatto Page:CamerRoll o Page: Camera sono evidenziati.](assets/multiple_obj_touchpoint.png)
 
 1. È inoltre possibile **vincolare singoli punti di contatto all’evento successivo** (anziché &quot;alla fine&quot;) all’interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
 
-   ![](assets/next-hit-eventually.png)
+   ![La vista Tutte le visite mostra l’opzione Percorso finale evidenziata. ](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

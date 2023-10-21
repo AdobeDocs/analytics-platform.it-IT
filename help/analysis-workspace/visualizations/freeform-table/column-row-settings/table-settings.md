@@ -3,10 +3,10 @@ description: Le Impostazioni riga variano a seconda del componente che hai trasc
 title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 93%
+source-wordcount: '461'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ Visualizza un video sulle impostazioni di riga e colonna qui:
 
 Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni di riga, fai clic sull’icona [!UICONTROL Settings] accanto a una dimensione, a un filtro, a una metrica, a un periodo di tempo o a un raggruppamento in ognuna di queste:
 
-![](assets/row-settings.png)
+![Tabella a forma libera che evidenzia l’icona Impostazioni per le metriche](assets/row-settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -33,6 +33,6 @@ Per modificare il numero di righe visualizzate:
 
 1. Fai clic sul numero accanto a [!UICONTROL Rows] in cima alla tabella.
 
-   ![](assets/row-number.png)
+   ![Tabella a forma libera che mostra l’elenco a discesa per il numero di righe visualizzate. È selezionata una riga da 400.](assets/row-number.png)
 
 1. Dall’elenco a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.

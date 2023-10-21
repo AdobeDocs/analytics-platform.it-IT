@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare un rapporto di analisi per coorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 90%
+source-wordcount: '932'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 
 1. In Analysis Workspace, fai clic sull’icona **[!UICONTROL Visualizations]** nella barra a sinistra e trascina un **[!UICONTROL Cohort Table]** nell’area di lavoro.
 
-   ![](assets/cohort-table.png)
+   ![Esempio di tabella coorte con i criteri di inclusione e i criteri di ritorno.](assets/cohort-table.png)
 
 1. Definisci **[!UICONTROL Inclusion Criteria]**, **[!UICONTROL Return Criteria]**, **[!UICONTROL Cohort Type]** e **[!UICONTROL Settings]** come definito nella tabella seguente.
 
@@ -39,7 +39,7 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 
 1. Fai clic su **[!UICONTROL Build]**.
 
-   ![Risultato passaggio](assets/cohort-report.png)
+   ![Vista Tabella coorte che mostra i criteri di inclusione e i criteri di ritorno selezionati. Fai clic su Genera.](assets/cohort-report.png)
 
    Il rapporto mostra le persone che hanno effettuato un ordine ( *`Included`* ) e chi è tornato sul tuo sito nelle visite successive. La riduzione delle visite nel tempo consente di individuare i problemi e di prendere delle contro misure.
 1. (Facoltativo) Crea un filtro da una selezione.

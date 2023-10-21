@@ -1,12 +1,12 @@
 ---
-description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
+description: Scopri come modificare le impostazioni delle colonne per configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 84%
+source-wordcount: '792'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,7 @@ Visualizza un video sulle impostazioni di riga e colonna qui:
 
 Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
 
-![](assets/column_settings.png)
+![Impostazioni delle colonne che mostrano le celle totali, le celle di tabella e l&#39;anteprima delle celle di tabella.](assets/column_settings.png)
 
 È possibile modificare le impostazioni di **più colonne alla volta**. Seleziona più colonne e fai clic sull’icona delle impostazioni di una delle colonne. Le modifiche apportate verranno applicate a tutte le colonne contenenti celle selezionate.
 
@@ -42,7 +42,7 @@ Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera
 
 La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è inoltre abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
 
-![](assets/conditional-formatting.png)
+![Le opzioni di formattazione condizionale con Personalizzato selezionato.](assets/conditional-formatting.png)
 
 | Elemento | Descrizione |
 | --- | --- |
@@ -72,11 +72,11 @@ Per utilizzare un modello di attribuzione non predefinito per una metrica in un 
 
 1. Fai clic sull’icona Impostazioni (ingranaggio) di una metrica nella colonna di una tabella a forma libera.
 
-   ![Casella di controllo di attribuzione](assets/attribution-checkbox.png)
+   ![Le opzioni Column Setting (Impostazione colonna) evidenziano l’opzione Data Settings (Impostazioni dati): Use non-default attribution mode (Usa modalità di attribuzione non predefinita).](assets/attribution-checkbox.png)
 
 2. In **[!UICONTROL Data Settings]**, spunta **[!UICONTROL Use non-default attribution model]**. Per ulteriori informazioni sui diversi modelli di attribuzione, consulta [Modelli di attribuzione](/help/data-views/component-settings/attribution.md).
 
-   ![Selezione del modello di attribuzione](assets/attribution-select.png)
+   ![Le opzioni Column Attribution Model (Modello di attribuzione colonna) mostrano l&#39;opzione Lineare selezionata.](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

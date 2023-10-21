@@ -3,10 +3,10 @@ title: Cos’è un’analisi per coorte?
 description: Scopri l’analisi per coorte in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 82%
+source-wordcount: '496'
+ht-degree: 70%
 
 ---
 
@@ -39,30 +39,30 @@ Le seguenti funzionalità consentono un controllo accurato delle coorti che crei
 
 A [!UICONTROL Retention] il rapporto della coorte restituisce persone: ogni cella di dati mostra il numero e la percentuale di persone nella coorte che hanno eseguito un’azione in quel determinato periodo di tempo. Può contenere fino a 3 metriche e 10 filtri.
 
-![](assets/retention-report.png)
+![Un rapporto di coorte Rention che mostra le unità e la percentuale di persone nella coorte.](assets/retention-report.png)
 
 ### [!UICONTROL Churn] Tabella
 
 A [!UICONTROL Churn] la coorte è l’inverso di una tabella Retention e mostra le persone che non rientrano più o non sono mai rientrate nei criteri della coorte nel tempo. Può contenere fino a 3 metriche e 10 filtri.
 
-![](assets/churn-report.png)
+![Una tabella Churn (Abbandono) che mostra le unità e la percentuale di persone che non soddisfano i criteri di ritorno per una coorte.](assets/churn-report.png)
 
 ### [!UICONTROL Rolling Calculation]
 
 Consente di calcolare il livello di fidelizzazione o abbandono dei visitatori in base alla colonna precedente, non alla colonna Included.
 
-![](assets/cohort-rolling-calculation.png)
+![Un report di conservazione per coorte che mostra i calcoli basati su una colonna di dati precedente.](assets/cohort-rolling-calculation.png)
 
 ### [!UICONTROL Latency] Tabella
 
 Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusione. È un ottimo strumento di analisi pre/post. La colonna **[!UICONTROL Included]** è al centro della tabella ed è preceduta e seguita dai periodi di tempo precedenti e successivi all’evento di inclusione.
 
-![](assets/cohort-latency.png)
+![Un report di coorte che mostra il tempo trascorso prima e dopo un evento.](assets/cohort-latency.png)
 
 ### Coorte [!UICONTROL Custom Dimension]
 
 Puoi creare le coorti in base a una dimensione selezionata anziché in base al tempo, che è l’impostazione predefinita. Puoi usare dimensioni quali [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], o qualsiasi altra dimensione in Customer Journey Analytics per mostrare in che modo la fidelizzazione cambia in base a valori diversi di tali dimensioni.
 
-![](assets/cohort-customizable-cohort-row.png)
+![Un rapporto di coorte che mostra un rapporto personalizzato con dimensioni selezionate non come coorte basata sul tempo predefinita.](assets/cohort-customizable-cohort-row.png)
 
 Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
