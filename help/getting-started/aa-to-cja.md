@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
+source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1476'
 ht-degree: 73%
 
 ---
@@ -79,7 +79,6 @@ Questo metodo estende notevolmente le possibilità di raccolta dei dati: non esi
 Le funzioni o i componenti seguenti di Adobe Analytics non sono supportati:
 
 * Filtro bot
-* Ricerche per posizione, dominio o dispositivo
 * Misurazione di file multimediali in streaming
 * Livestream o trigger di Livestream
 
