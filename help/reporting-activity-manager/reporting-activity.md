@@ -3,7 +3,7 @@ title: Visualizzare l’attività di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7760f2d5af131549b1ff2a6ad13b01bae81636f7
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 8%
@@ -11,8 +11,6 @@ ht-degree: 8%
 ---
 
 # Visualizzare l’attività di reporting in Reporting Activity Manager
-
-{{release-limited-testing}}
 
 Il [!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e risolvere rapidamente i problemi di capacità di reporting durante i periodi di picco.
 

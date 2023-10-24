@@ -3,7 +3,7 @@ title: Panoramica di Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 28%
@@ -11,8 +11,6 @@ ht-degree: 28%
 ---
 
 # Reporting Activity Manager panoramica
-
-{{release-limited-testing}}
 
 Il [!UICONTROL Reporting Activity Manager] è disponibile per gli amministratori.
 

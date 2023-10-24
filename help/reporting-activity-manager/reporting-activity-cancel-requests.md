@@ -3,7 +3,7 @@ title: Annullare le richieste di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 1680e6115a75a0dd78f07aa0bb409b19b3585a78
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 5%
@@ -11,8 +11,6 @@ ht-degree: 5%
 ---
 
 # Annullare le richieste di reporting in Reporting Activity Manager
-
-{{release-limited-testing}}
 
 Il [!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e annullare rapidamente le richieste di reporting al fine di risolvere i problemi di capacità di reporting durante i periodi in cui si verificano picchi di reporting.
 
