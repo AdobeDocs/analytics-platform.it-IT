@@ -4,10 +4,10 @@ description: Scopri come Customer Journey Analytics consente di utilizzare Analy
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
+source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 82%
+source-wordcount: '937'
+ht-degree: 81%
 
 ---
 
@@ -83,8 +83,7 @@ Dall’inserimento dati all’accesso diretto a SQL, numerosi componenti di Expe
 
 * [Servizio query Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): utilizza SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento privo di server che consente di unire qualsiasi set di dati e di acquisire i risultati della query sotto forma di nuovo set di dati da utilizzare nel reporting, in Data Science Workspace o da acquisire in Profile Service. Puoi utilizzare Experienci Platform Query Service per creare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro vari canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
 * [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it):
-* [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it):
-* [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=it) nell’opzione sviluppatore: puoi usare i modelli di intelligenza artificiale (AI) e apprendimento automatico precompilati in Adobe Experience Platform per influenzare vari punti della customer journey. Sfruttando insights nascosti, puoi effettuare previsioni più affidabili lungo la customer journey, suggerire i migliori passaggi successivi o automatizzare processi complicati.
+* [Servizio identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
 
 ## Video
 
