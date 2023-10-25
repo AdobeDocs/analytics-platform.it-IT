@@ -4,10 +4,10 @@ description: Scopri come Customer Journey Analytics consente di utilizzare Analy
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
+source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 81%
+source-wordcount: '934'
+ht-degree: 77%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform ti permette di centralizzare e standardizzare i dati e
 
 Dall’inserimento dati all’accesso diretto a SQL, numerosi componenti di Experience Platform sono centrali per Customer Journey Analytics e sono complementari a esso:
 
-* [Servizio query Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): utilizza SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento privo di server che consente di unire qualsiasi set di dati e di acquisire i risultati della query sotto forma di nuovo set di dati da utilizzare nel reporting, in Data Science Workspace o da acquisire in Profile Service. Puoi utilizzare Experienci Platform Query Service per creare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro vari canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
+* [Servizio query Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it): utilizza SQL standard per recuperare i dati da Adobe Experience Platform, ad esempio i dati della soluzione Adobe, i dati 1st-party del cliente o qualsiasi altro dato relativo alla Platform. Si tratta di uno strumento privo di server che consente di unire qualsiasi set di dati e di acquisire i risultati della query sotto forma di nuovo set di dati da utilizzare nel reporting o da acquisire in Profile Service. Puoi utilizzare Experienci Platform Query Service per creare ecosistemi di analisi dei dati, creando un’immagine dei consumatori attraverso i loro vari canali di interazione. Tali canali possono includere sistemi POS, web, mobile, sistemi di gestione delle relazioni con i clienti e così via.
 * [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it):
 * [Servizio identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
 
