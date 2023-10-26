@@ -3,7 +3,7 @@ title: Visualizzare l’attività di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 8%
