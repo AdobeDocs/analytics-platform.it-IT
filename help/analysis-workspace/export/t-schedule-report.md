@@ -5,9 +5,9 @@ title: Inviare dati di Customer Journey Analytics ad altri tramite e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '970'
 ht-degree: 57%
 
 ---
@@ -88,7 +88,7 @@ Per ulteriori informazioni, consulta [Progetti pianificati](/help/components/sch
 
 >[!NOTE]
 >
->L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti del Customer Journey Analytics che hanno acquistato il [Healthcare Shield](https://business.adobe.com/it/solutions/experience-cloud-for-healthcare.html) componente aggiuntivo.
+>L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti del Customer Journey Analytics che hanno acquistato il [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) componente aggiuntivo.
 
 Adobe utilizza la password per crittografare i progetti pianificati, sia che siano inviati in formato .pdf o .csv.
 
