@@ -4,9 +4,9 @@ description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
+source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,10 @@ Il [!UICONTROL Usage] visualizza offre le seguenti impostazioni del grafico, che
 Aggiungi dati aggiuntivi al grafico.
 
 * **[!UICONTROL Show anomalies]**: Esecuzioni [rilevamento delle anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) sull&#39;analisi delle tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
+* **[!UICONTROL Trendline overlay]**: aggiunge al grafico una linea di tendenza che consente di visualizzare la direzione complessiva dei dati entro il periodo di tempo specificato.
+   * [!UICONTROL Linear]: modello di regressione lineare. Consigliato per dati che aumentano o diminuiscono a una velocità costante.
+   * [!UICONTROL Logarithmic]: modello di regressione di linea curva. Consigliato per i dati che si livellano nel tempo.
+   * [!UICONTROL Moving average]: linea arrotondata che calcola la media del periodo precedente per ciascun punto. Consigliato per i dati con cicli regolari. I periodi con media mobile disponibili dipendono dall’intervallo di date selezionato.
 
 ## Applica confronto temporale
 
