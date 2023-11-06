@@ -5,7 +5,7 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
+source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 85%
@@ -60,7 +60,6 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
 * Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera i 50.000, CCA non unisce più i dati per quel dispositivo.
-
 
 ## Abilitare l’Analisi cross-channel
 
