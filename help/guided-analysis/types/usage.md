@@ -4,10 +4,10 @@ description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
+source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,9 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come una linea colorata o un set di barre, a seconda del tipo di grafico. Alla tabella viene aggiunta una riga che rappresenta l&#39;evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL People]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di righe nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
-* **[!UICONTROL Breakdown]**: crea una riga di tendenza separata per elemento dimensionale. È supportata una singola dimensione di raggruppamento.
+* **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come una serie di grafici e una riga di tabella. Puoi includere fino a cinque eventi.
+* **[!UICONTROL People]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie del grafico e delle righe della tabella. Puoi includere fino a cinque segmenti.
+* **[!UICONTROL Breakdown property]**: suddivide le serie del grafico e le righe della tabella in base ai valori della proprietà selezionata. È supportata una singola proprietà di suddivisione. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. È possibile nascondere o esporre una riga nel grafico attivando/disattivando ![Mostra icona Nascondi](../assets/hide-in-chart.png) icona.
 
 ## Impostazioni grafico
 
@@ -43,13 +43,13 @@ Il [!UICONTROL Usage] visualizza offre le seguenti impostazioni del grafico, che
 
 ## Sovrapposizioni
 
-Aggiungi dati aggiuntivi al grafico.
+Aggiungi dati aggiuntivi al grafico. Quando sul grafico sono visibili più serie, le sovrapposizioni vengono visualizzate solo al passaggio del mouse.
 
-* **[!UICONTROL Show anomalies]**: Esecuzioni [rilevamento delle anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) sull&#39;analisi delle tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
-* **[!UICONTROL Trendline overlay]**: aggiunge al grafico una linea di tendenza che consente di visualizzare la direzione complessiva dei dati entro il periodo di tempo specificato.
-   * [!UICONTROL Linear]: modello di regressione lineare. Consigliato per dati che aumentano o diminuiscono a una velocità costante.
-   * [!UICONTROL Logarithmic]: modello di regressione di linea curva. Consigliato per i dati che si livellano nel tempo.
-   * [!UICONTROL Moving average]: linea arrotondata che calcola la media del periodo precedente per ciascun punto. Consigliato per i dati con cicli regolari. I periodi con media mobile disponibili dipendono dall’intervallo di date selezionato.
+* **[!UICONTROL Anomaly detection]**: Esecuzioni [rilevamento delle anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) sull&#39;analisi delle tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
+* **[!UICONTROL Trendline overlay]**: aggiunge al grafico una linea di tendenza che consente di rappresentare un pattern più chiaro nei dati.
+   * [!UICONTROL Linear]: crea una linea di regressione retta. Consigliato per dati lineari semplici che aumentano o diminuiscono a una velocità costante. Equazione: `y = a + b * x`
+   * [!UICONTROL Logarithmic]: crea una linea di regressione curva. Consigliato per i dati che aumentano o diminuiscono rapidamente, quindi diventano di più livello. Equazione: `y = a + b * log(x)`
+   * [!UICONTROL Moving average]: Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati precedenti (determinati dalla selezione), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di sette giorni o di quattro settimane. Le opzioni disponibili per la media mobile dipendono dall’intervallo e dall’intervallo di date selezionati.
 
 ## Applica confronto temporale
 
