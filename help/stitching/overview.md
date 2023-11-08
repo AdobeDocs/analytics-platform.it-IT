@@ -4,9 +4,9 @@ description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: 058b8d997c7cb2e4e73d3c2026a4b9bf29db26bd
+source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1463'
 ht-degree: 21%
 
 ---
@@ -44,7 +44,7 @@ Prima di utilizzare le unioni, assicurati che l’organizzazione sia preparata c
    * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Cloud Identity.
    * A **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considererà questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID transitorio deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione di Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
-  Entrambe le colonne (ID persistente e ID transitorio) devono essere definite come un campo di identità con uno spazio dei nomi identità nello schema sottostante il set di dati da unire. Quando si utilizza l’unione di identità in Real-time Customer Data Platform utilizzando [gruppo di campi identityMap](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity), è comunque necessario aggiungere campi di identità con uno spazio dei nomi di identità, in quanto l’unione di ripetizione discussa in questa sezione non supporta il gruppo di campi identityMap. Quando aggiungi un campo di identità durante l’utilizzo dell’unione di identità in Real-time Customer Data Platform in base al gruppo di campi identityMap, esegui *non* imposta il campo di identità aggiuntivo come identità primaria, in quanto questo interferirà con l’unione di identità basata sul gruppo identityMap in Real-time Customer Data Platform.
+  Entrambe le colonne (ID persistente e ID transitorio) devono essere definite come un campo di identità con uno spazio dei nomi identità nello schema sottostante il set di dati da unire. Quando si utilizza l’unione di identità in Real-time Customer Data Platform utilizzando [gruppo di campi identityMap](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity), è comunque necessario aggiungere campi di identità con uno spazio dei nomi di identità, in quanto l’unione di Customer Journey Analytics discussa in questa sezione non supporta il gruppo di campi identityMap. Quando aggiungi un campo di identità nello schema utilizzando anche il gruppo di campi identityMap, non impostare il campo di identità aggiuntivo come identità primaria, in quanto questo interferirà con il gruppo di campi identityMap utilizzato per Real-time Customer Data Platform.
 
 * L’unione include l’unione di dati utente autenticati e non autenticati. Prima di attivare l’unione su un set di dati evento, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) per ulteriori informazioni.
 
