@@ -3,9 +3,9 @@ description: Utilizza le visualizzazioni Numero di riepilogo e Variazione di rie
 title: Numero di riepilogo e Variazione di riepilogo
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '458'
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -30,16 +30,7 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 | Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
 | Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
 
-
-Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni del Numero di riepilogo:
-
-| Impostazione | Definizione |
-|--- |--- |
-| Percentuali | Visualizza le percentuali invece dei numeri. |
-| Visualizzazione legenda | Mostra informazioni sulla metrica visualizzata. |
-| Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
-| Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
-
+{style="table-layout:auto"}
 
 ## Visualizzazione Variazione di riepilogo {#summary-change}
 
