@@ -4,10 +4,10 @@ description: Tutte le impostazioni disponibili per creare o modificare una visua
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 56%
+source-wordcount: '1312'
+ht-degree: 55%
 
 ---
 
@@ -77,6 +77,10 @@ Indica il formato del calendario da applicare alla visualizzazione dati. Puoi av
 ## Componenti
 
 Successivamente, puoi impostare i componenti di una visualizzazione dati e quindi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare componenti standard.
+
+>[!IMPORTANT]
+>
+>È possibile aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
 
 1. Seleziona la **[!UICONTROL Components]** scheda.
 

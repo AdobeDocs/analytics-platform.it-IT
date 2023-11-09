@@ -4,10 +4,10 @@ description: Una visualizzazione dati specifica come interpretare gli elementi d
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 95%
+source-wordcount: '1048'
+ht-degree: 92%
 
 ---
 
@@ -22,6 +22,10 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 Puoi creare diverse visualizzazioni dati per una stessa connessione, con set di componenti molto diversi (dimensioni o metriche). Puoi anche creare visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Last Touch] e, contemporaneamente, un’altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL First Touch].
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
+
+>[!IMPORTANT]
+>
+>È possibile aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
 
 ## Funzionalità delle visualizzazioni dati {#capabilities}
 
