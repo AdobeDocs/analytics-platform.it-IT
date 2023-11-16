@@ -3,14 +3,15 @@ description: Documentazione che descrive come filtrare e ordinare le tabelle in 
 title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 5469585897e483d721326fd6859ad74087407825
+source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 73%
+source-wordcount: '953'
+ht-degree: 67%
 
 ---
 
-# Filtrare e ordinare tabelle
+
+# Filtrare e ordinare tabelle a forma libera
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 
@@ -18,13 +19,24 @@ Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi inte
 
 >[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
-## Filtrare le tabelle {#section_36E92E31442B4EBCB052073590C1F025}
+## Filtrare le tabelle
 
 I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più importanti.
 
 >[!NOTE]
 >
 > Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filtrare le righe di tabelle a forma libera
+
+Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libera. 
+
+- Fai clic sulla X nella riga
+- Clic con il pulsante destro del mouse > Righe selezionate eliminate
+- Filtri per tabella
+- Segmentazione
+
+Assicurati di leggere l’impatto di ogni metodo [Totali nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Escludere rapidamente righe specifiche da una tabella
 
@@ -39,6 +51,13 @@ Per escludere rapidamente righe specifiche da una tabella a forma libera:
 1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona l’icona x.
 
    Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
+
+### Clic con il pulsante destro del mouse > Elimina righe selezionate
+
+1. Seleziona una o più righe.
+1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Delete Selected Rows]**.
+
+   Questa azione rimuoverà le righe dalla tabella e applicherà un filtro tabella.
 
 ### Applicare un filtro semplice o avanzato a una tabella
 
@@ -59,7 +78,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Mostra avanzate**].
 
-   Sono disponibili le seguenti opzioni
+   Sono disponibili le seguenti opzioni di filtro avanzate:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -72,6 +91,10 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    L’icona **Filtro** ![Tabella con icona del filtro blu](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) diventa blu quando un filtro viene applicato alla tabella.
 
+### Filtri
+
+Visualizza la [Documentazione sui filtri](/help/components/filters/filters-overview.md) per ulteriori dettagli.
+
 ## Ordinare le tabelle
 
 Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace che sia una dimensione o una metrica.
@@ -82,8 +105,8 @@ Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](ht
 
    Eseguendo l’ordinamento, tieni presente quanto segue:
 
-   * La freccia giù ordina in ordine decrescente e la freccia su (impostazione predefinita) in ordine crescente.
-   * Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, è possibile che in un flusso di lavoro siano presenti passaggi numerati e che si desideri ordinare in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare alfabeticamente le origini dati, come nell‘immagine seguente.
+   - La freccia giù ordina in ordine decrescente e la freccia su (impostazione predefinita) in ordine crescente.
+   - Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, è possibile che in un flusso di lavoro siano presenti passaggi numerati e che si desideri ordinare in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare alfabeticamente le origini dati, come nell‘immagine seguente.
 
    ![](assets/sort-dimensions.png)
 
