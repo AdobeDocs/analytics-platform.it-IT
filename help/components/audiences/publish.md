@@ -3,10 +3,10 @@ title: Creare e pubblicare tipi di pubblico in Real-time Customer Profile
 description: Scopri come pubblicare tipi di pubblico da Customer Journey Analytics
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 57%
+source-wordcount: '1576'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    Configura queste impostazioni prima di pubblicare il pubblico.
 
-   ![Schermata per la creazione di un pubblico](assets/create-audience.png)
+   ![Schermata di creazione di un pubblico con le impostazioni di sottomissione descritte nella sezione successiva.](assets/create-audience.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
@@ -52,7 +52,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    L’anteprima del pubblico viene visualizzata nella barra a destra. Consente di avere un’analisi sintetica del pubblico creato.
 
-   ![Schermata dell’anteprima dei dati](assets/data-preview.png)
+   ![Schermata dell’anteprima dei dati che mostra un’analisi sintetica del pubblico.](assets/data-preview.png)
 
    | Impostazione di anteprima | Descrizione |
    | --- | --- |
@@ -108,7 +108,7 @@ Puoi visualizzare i tipi di pubblico del Customer Journey Analytics in Platform 
 
 Puoi trascinare i tipi di pubblico del Customer Journey Analytics nella definizione del segmento per i segmenti di Adobe Experience Platform.
 
-![](assets/audiences-aep.png)
+![Adobe dell’interfaccia utente di Expericen Platform che evidenzia i segmenti nel riquadro a sinistra e i tipi di pubblico di CJA nel pannello principale.](assets/audiences-aep.png)
 
 ## Domande frequenti {#faq}
 

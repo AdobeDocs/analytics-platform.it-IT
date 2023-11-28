@@ -4,10 +4,10 @@ description: Spiega come inserire e utilizzare i dati utilizzando i connettori d
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 87%
+source-wordcount: '1840'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Individual Profile]**.
 
-      ![Creare uno schema](./assets/create-pr-schema-wizard-step-1.png)
+      ![Crea una finestra dello schema con Profilo individuale selezionato](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -70,7 +70,7 @@ Per configurare lo schema:
 
    1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
 
-      ![Assegnare un nome allo schema](./assets/create-pr-schema-wizard-step-2.png)
+      ![Finestra Crea schema, con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 
@@ -78,7 +78,7 @@ Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
 
-      ![Aggiungere un gruppo di campi](./assets/add-field-group-button.png)
+      ![Finestra Crea schema che mostra il gruppo di campi Aggiungi](./assets/add-field-group-button.png)
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente gli schemi.
 

@@ -4,9 +4,9 @@ description: Scopri come aggiungere dati basati su account come set di dati di r
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '805'
 ht-degree: 73%
 
 ---
@@ -33,7 +33,7 @@ Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi cr
 
 Creazione di uno schema personalizzato per [ricerca](/help/getting-started/cja-glossary.md) La tabella assicura che il set di dati utilizzato sia disponibile in Customer Journey Analytics con la configurazione corretta (tipo di record). Ti consigliamo di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#create-new-class) denominata “Ricerca”, priva di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
 
-![](../assets/create-new-class.png)
+![Finestra di dialogo Crea nuova classe.](../assets/create-new-class.png)
 
 ## 2. Creare un set di dati di ricerca (Experience Platform)
 

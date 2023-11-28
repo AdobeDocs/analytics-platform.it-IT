@@ -1,16 +1,16 @@
 ---
 description: Mostra come impilare e sostituire i filtri nel Generatore di metriche calcolate.
-title: Sovrapponi e sostituisci filtri
+title: Sovrapporre e sostituire filtri
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 7%
 
 ---
 
-# Sovrapponi e sostituisci filtri
+# Sovrapporre e sostituire filtri
 
 Puoi impilare e sostituire i filtri nel generatore di metriche calcolate.
 
@@ -20,7 +20,7 @@ Puoi impilare e sostituire i filtri nel generatore di metriche calcolate.
 
 1. Nell’area di lavoro Definizione, rilascia il nuovo filtro accanto a quello esistente:
 
-![](assets/cm_stack_seg.png)
+![L’area di lavoro della definizione che mostra la metrica Visitatori USA è stata rilasciata accanto ai Visitatori internazionali esistenti.](assets/cm_stack_seg.png)
 
 ## Sostituire un filtro con un altro {#replace-filter}
 
@@ -28,4 +28,4 @@ Puoi impilare e sostituire i filtri nel generatore di metriche calcolate.
 
 1. Nell’area di lavoro Definizione, rilascia il nuovo filtro sopra quello esistente:
 
-![](assets/cm_replace_seg.png)
+![Un’area di lavoro della definizione che mostra i visitatori degli Stati Uniti è scesa sopra la metrica Visitatori internazionali.](assets/cm_replace_seg.png)

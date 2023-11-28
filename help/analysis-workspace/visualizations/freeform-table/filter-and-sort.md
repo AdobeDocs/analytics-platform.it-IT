@@ -3,15 +3,15 @@ description: Documentazione che descrive come filtrare e ordinare le tabelle in 
 title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '961'
 ht-degree: 67%
 
 ---
 
 
-# Filtrare e ordinare tabelle a forma libera
+# Filtra e ordina tabelle a forma libera
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 
@@ -67,7 +67,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. Seleziona l’icona **Filtro** quando viene visualizzata.
 
-   ![Icona del filtro in una tabella](assets/table-filter-icon.png)
+   ![Tabella a forma libera con l’icona Filtro.](assets/table-filter-icon.png)
 
    Sono disponibili le seguenti opzioni:
 
@@ -108,6 +108,6 @@ Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](ht
    - La freccia giù ordina in ordine decrescente e la freccia su (impostazione predefinita) in ordine crescente.
    - Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, è possibile che in un flusso di lavoro siano presenti passaggi numerati e che si desideri ordinare in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare alfabeticamente le origini dati, come nell‘immagine seguente.
 
-   ![](assets/sort-dimensions.png)
+   ![La vista Origini dati evidenzia l’icona di ordinamento.](assets/sort-dimensions.png)
 
 

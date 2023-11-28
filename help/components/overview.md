@@ -4,9 +4,9 @@ description: Scopri i componenti offerti dal Customer Journey Analytics e come u
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1110'
 ht-degree: 56%
 
 ---
@@ -36,7 +36,7 @@ I componenti in Analysis Workspace sono metriche, dimensioni, filtri e granulari
 
 Per accedere al pannello Componenti, fai clic su **[!UICONTROL Components]** nella barra a sinistra. Puoi cambiare Pannello (pannello vuoto, [pannello a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md) o pannello [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md)), [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e Componenti utilizzando le icone nella barra a sinistra o i [tasti di scelta rapida](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
-![](assets/components.png)
+![Icona Componenti](assets/components.png)
 
 Vedi [Creazione di un progetto](/help/analysis-workspace/home.md) per informazioni sull’utilizzo di Componenti all’interno di un progetto.
 
@@ -75,7 +75,7 @@ Puoi gestire i componenti direttamente nella barra a sinistra.
    >   È possibile selezionare più componenti tenendo premuto Maiusc oppure tenendo premuto Comando (su Mac) o Ctrl (su Windows).
 
 
-   ![](assets/component-actions.png)
+   ![Elenco Azioni componente](assets/component-actions.png)
 
    | Azione componente | Descrizione |
    |--- |--- |

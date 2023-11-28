@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1499'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    Seleziona la [!UICONTROL **Account ubicazione**] , seleziona l’icona a 3 punti di un account esistente in cui desideri aggiungere una posizione, quindi seleziona [!UICONTROL **Aggiungi posizione**].
 
-   ![Aggiungi posizione all&#39;account esistente](assets/add-location-existing-account.png)
+   ![Account GCP e menu a discesa con i puntini di sospensione visualizzati come Aggiungi posizione selezionata](assets/add-location-existing-account.png)
 
    Viene visualizzata la finestra di dialogo Posizione.
 
@@ -99,7 +99,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-### Piattaforma Google Cloud
+### Google Cloud Platform
 
 1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
 
@@ -118,7 +118,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-### SAS di Azure
+### Azure SAS
 
 1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
 
@@ -135,7 +135,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, consulta [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-### RBAC di Azure
+### Azure RBAC
 
 1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
 

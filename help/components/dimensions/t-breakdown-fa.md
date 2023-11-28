@@ -5,10 +5,10 @@ title: Suddividere dimensioni
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metr
 1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Risultato del passaggio](assets/fa_data_table_actions.png)
+   ![Risultato passaggio che mostra l’avviso di creazione dalla selezione selezionata.](assets/fa_data_table_actions.png)
 
    Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
@@ -41,7 +41,7 @@ Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metr
 
 A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e fai clic su **[!UICONTROL Edit]**:
 
-![Impostazioni di raggruppamento](assets/breakdown_settings.png)
+![Confronto attribuzione ordine con le impostazioni del raggruppamento](assets/breakdown_settings.png)
 
 Questo è il comportamento previsto quando si applicano modelli di attribuzione ai raggruppamenti o quando questi vengono modificati:
 

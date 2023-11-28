@@ -4,10 +4,10 @@ description: Anteprima di progetti prototipo per Customer Journey Analytics
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 90%
+source-wordcount: '405'
+ht-degree: 89%
 
 ---
 
@@ -55,13 +55,13 @@ Per avviare e valutare un prototipo:
 
 1. In qualsiasi momento durante l’utilizzo del prototipo, puoi fare clic su **[!UICONTROL Give Feedback]** per fornire un feedback nella finestra del messaggio.
 
-   ![finestra di feedback](assets/give_feedback.png)
+   ![Finestra di feedback](assets/give_feedback.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per inviare il tuo feedback.
 
 1. Per provare un prototipo diverso o per uscire dall’ambiente del prototipo, fai clic su **[!UICONTROL Leave Prototype]** in alto a destra e completa il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse quando si esce dall’ambiente del prototipo.
 
-   ![nuova finestra feedback](assets/short-survey.png)
+   ![Finestra Feedback percorso intelligente](assets/short-survey.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 

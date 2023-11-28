@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: 22cb88aa98576b70b8b089eda4a46f1e8963767a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 90%
+source-wordcount: '587'
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un filtro (se desiderato):
 
-   ![configurazione delle metriche chiave](assets/key-metric-config.png)
+   ![Configurazione delle metriche chiave che mostra le opzioni per metrica, intervallo di date principale, intervallo di date di confronto e segmento.](assets/key-metric-config.png)
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## Visualizza l’output
 
-![](assets/key-metric-output.png)
+![Output metrico chiave che mostra i grafici metrica, variazione di riepilogo, numero di riepilogo e linea.](assets/key-metric-output.png)
 
 Nota:
 
@@ -89,13 +89,13 @@ Nota:
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
-![statistiche](assets/key-metric-output2.png)
+![Statistiche sulle visite](assets/key-metric-output2.png)
 
 ## Impostazioni di visualizzazione
 
 Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per consentire una migliore generazione di rapporti e comunicazioni di metriche importanti. È possibile accedere alle impostazioni tramite l’icona a forma di ingranaggio nell’angolo in alto a destra della visualizzazione.
 
-![](assets/key-metric-settings.png)
+![Impostazioni di riepilogo delle metriche chiave che mostrano le opzioni Tipo di visualizzazione Riepilogo, Generale e Visualizzazione.](assets/key-metric-settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -116,7 +116,7 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
 1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
 
-   ![modifica](assets/edit-icon.png)
+   ![Icone di modifica della visualizzazione](assets/edit-icon.png)
 
    Ora ritorni alla visualizzazione di configurazione originale.
 

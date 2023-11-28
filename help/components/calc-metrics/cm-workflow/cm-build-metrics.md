@@ -3,9 +3,9 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Puoi iniziare a creare una metrica calcolata in uno dei seguenti modi:
 
 L’immagine seguente e la tabella che l’accompagna illustrano alcune delle aree e delle funzioni principali del generatore di metriche calcolate.
 
-![](assets/cm_builder_ui.png)
+![Nuova finestra delle metriche calcolate che mostra le aree e le funzioni principali descritte in questa sezione.](assets/cm_builder_ui.png)
 
 | Campo | Descrizione |
 | --- | --- |

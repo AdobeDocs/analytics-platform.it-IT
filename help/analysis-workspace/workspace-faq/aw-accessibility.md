@@ -3,10 +3,10 @@ description: Funzioni di supporto per l’accessibilità in Analysis Workspace
 title: Accessibilità di Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 99%
+source-wordcount: '599'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 * Il tasto `F6` consente di passare al primo pannello del progetto e tra le varie visualizzazioni all’interno di tale pannello. Quindi, consente di passare al pannello successivo del progetto e così via.
 * Gli indicatori di focus vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia attualmente attivo. L’indicatore è un bordo blu intorno all’elemento selezionato.
 
-   ![Indicatore di focus](assets/focus-indicator.png)
+  ![Tabella a forma libera che mostra un indicatore di stato attivo con un bordo blu attorno alla tabella a forma libera.](assets/focus-indicator.png)
 
 ### Navigazione tramite tastiera per la barra dei menu
 
@@ -98,7 +98,7 @@ Quando si crea un componente, i campi obbligatori vengono convalidati al momento
 
 Quando un componente viene convalidato completamente, premendo `Save` viene chiuso il generatore.
 
-![Convalida non superata](assets/error-validation.png)
+![Generatore di segmenti e indicatore di convalida degli errori.](assets/error-validation.png)
 
 ## Supporto per le funzioni di accessibilità del sistema operativo
 

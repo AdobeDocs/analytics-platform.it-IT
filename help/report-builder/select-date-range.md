@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1087'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ L&#39;opzione Da cella consente di fare riferimento alle date immesse nelle cell
 
 Hai la possibilità di escludere oggi in qualsiasi intervallo di date selezionato.
 
-![Seleziona Escludi oggi.](./assets/image17.png)
+![Riquadro di modifica rapida Report Builder con calendario selezionato ed Escludi oggi selezionato.](./assets/image17.png)
 
 ## Utilizzare il calendario
 
@@ -62,7 +62,7 @@ Per selezionare le date utilizzando il calendario
 
 Per impostare un intervallo di date in ordine inverso, fare clic prima sulla data di fine e quindi sulla data di inizio.
 
-![Fare clic sulla data di fine e quindi sulla data di inizio.](./assets/image18.png)
+![Riquadro Intervallo date Report Builder che mostra il calendario, la data di fine e la data di inizio selezionate.](./assets/image18.png)
 
 ### Menu a discesa Predefinito
 
@@ -76,7 +76,7 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Seleziona un’espressione continua per la data di inizio e/o di fine.
 
-   ![Selezionare Usa date continue e quindi l&#39;espressione continua.](./assets/image19.png)
+   ![Riquadro Intervallo date Report Builder che mostra Utilizza le date continue selezionate e l’espressione continua.](./assets/image19.png)
 
    **Inizio di** — Consente di selezionare l&#39;inizio di un giorno, una settimana, un mese, un trimestre o un anno.
 
@@ -86,11 +86,11 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Scegliere giorno, settimana, mese, trimestre o anno come periodo continuo.
 
-   ![Scegliere il giorno corrente.](./assets/image20.png)
+   ![Riquadro Intervallo date Report Builder che mostra il giorno corrente selezionato.](./assets/image20.png)
 
 1. Aggiungere o sottrarre giorni, settimane, mesi, trimestri o anni dalla data di rotazione.
 
-   ![Selezionare il giorno corrente più 14 giorni.](./assets/image21.png)
+   ![Riquadro Intervallo date Report Builder che mostra il giorno corrente più 14 giorni selezionati.](./assets/image21.png)
 
 1. Fai clic su Successivo per definire l’intervallo di dati.
 

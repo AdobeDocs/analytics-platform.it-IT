@@ -4,10 +4,10 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 51%
+source-wordcount: '881'
+ht-degree: 49%
 
 ---
 
@@ -17,7 +17,7 @@ Utilizzando il calendario, puoi specificare date e intervalli di date o selezion
 
 Le selezioni di calendario sono applicabili a livello del singolo pannello, ma è possibile applicarle a tutti i pannelli. Quando fai clic su un intervallo di date in Workspace, l’interfaccia mostra il mese del calendario corrente e il mese del calendario precedente. È possibile regolare questi due calendari facendo clic sulle frecce destra e sinistra nei rispettivi angoli superiori.
 
-![Calendario](assets/aw_calendar2.png){width="60%"}
+![Calendario che mostra ottobre 2022 e novembre 2022 con le opzioni dal 1° al 30 novembre selezionate.](assets/aw_calendar2.png){width="60%"}
 
 Il primo clic su un calendario avvia una selezione di intervalli di date. Il secondo clic completa la selezione di un intervallo di date, che viene evidenziato. Se si tiene premuto il tasto `Shift` (o se si fa clic con il pulsante destro del mouse), si aggiunge all’intervallo attualmente selezionato.
 
@@ -48,12 +48,12 @@ Per utilizzare gli intervalli di date del pannello relativo
 Se sono selezionate date relative, le date continue verranno basate sulla data di inizio del calendario del pannello e non sulla data odierna.
    * Se questa opzione non è selezionata, le date di rotazione saranno basate sulla data odierna.
 
-   ![date relative del pannello](assets/relative-date-selected.png){width="60%"}
+   ![Calendario con componenti di intervallo date selezionati relativi al calendario del pannello](assets/relative-date-selected.png){width="60%"}
 
 1. Fai clic su **Applica**.
 Le date relative sono visualizzate in alto a destra.
 
-   ![date relative a forma libera ](assets/relative-date-range1.png)
+   ![Tabella a forma libera con date relative evidenziate e Ultimo mese evidenziato. ](assets/relative-date-range1.png)
 
 ## Linee guida per intervalli di date relativi del pannello {#guidelines}
 

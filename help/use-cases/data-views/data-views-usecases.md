@@ -4,10 +4,10 @@ description: Diversi casi d’uso che illustrano la flessibilità e la potenza d
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 95%
+source-wordcount: '1279'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +20,11 @@ Questi casi d’uso mostrano la flessibilità e la potenza delle visualizzazioni
 Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICONTROL Orders] da una campo schema [!UICONTROL pageTitle] di tipo stringa. Ecco come si fa:
 
 1. Nella scheda Components (Componenti), trascina [!UICONTROL pageTitle] nella sezione [!UICONTROL Metrics] in [!UICONTROL Included Components].
-   ![](../assets/use-case1a.png)
+   ![Campi dello schema con una freccia che punta a pageTitle nell’elenco Nome componente.](../assets/use-case1a.png)
 1. Evidenzia la metrica appena trascinata e rinominala in [!UICONTROL Component Settings], a destra:
-   ![](../assets/orders.png)
+   ![Campi schema che evidenziano Ordini in Impostazioni componente.](../assets/orders.png)
 1. Apri la finestra di dialogo [!UICONTROL Include/Exclude Values] a destra e specifica quanto segue:
-   ![](../assets/orders2.png)
+   ![Valori di inclusione/esclusione con l&#39;opzione Imposta valori di inclusione/esclusione selezionata e con distinzione tra maiuscole e minuscole selezionata.](../assets/orders2.png)
 
    Il termine “confirmation” (conferma) indica che si tratta di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, viene conteggiato “1” per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi o esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i filtri e ovunque sia possibile utilizzare le metriche standard.
 1. Puoi anche specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] impostato su [!UICONTROL Session].
@@ -38,11 +38,11 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche n
 
 1. Trascina il numero intero [!UICONTROL call_length_min] nella sezione [!UICONTROL Dimensions] in [!UICONTROL Included Components]:
 
-   ![](../assets/integers.png)
+   ![Freccia che punta a call_length_mins nell&#39;elenco Dimension.](../assets/integers.png)
 
 1. Ora puoi aggiungere [!UICONTROL Value Bucketing] per presentare questa dimensione sotto forma di bucket nei rapporti. (Senza bucket, ogni istanza della dimensione si presenta come una voce distinta nei rapporti di Workspace.)
 
-   ![](../assets/bucketing.png)
+   ![Periodo fisso con valore di periodo fisso selezionato.](../assets/bucketing.png)
 
 ## 3. Utilizzare le dimensioni numeriche come “metriche” nei diagrammi di flusso {#numeric}
 
@@ -51,7 +51,7 @@ Puoi utilizzare una dimensione numerica per inserire “metriche” nella visual
 1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 2. Nei rapporti di Workspace, questo flusso mostra come [!UICONTROL Marketing Channels] scorre in [!UICONTROL Orders]:
 
-![](../assets/flow.png)
+![Flusso del canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
 
 ## 4. Applicare filtri agli eventi secondari {#sub-event}
 
@@ -82,7 +82,7 @@ Con la funzione [!UICONTROL Duplicate] in alto a destra, crea alcune metriche Ri
 
 Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio “Ricavi algoritmici”:
 
-![](../assets/algo-revenue.png)
+![Ricavi algoritmici con valori di conteggio selezionati nell’elenco Comportamento.](../assets/algo-revenue.png)
 
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).

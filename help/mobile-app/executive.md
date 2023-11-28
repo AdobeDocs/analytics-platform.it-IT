@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 78%
+source-wordcount: '1285'
+ht-degree: 77%
 
 ---
 
@@ -53,7 +53,7 @@ Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics 
 
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le credenziali di Customer Journey Analytics esistenti.
 
-![Schermata di benvenuto dell’app](assets/welcome.png)
+![Schermata di benvenuto app di Customer Journey Analytics](assets/welcome.png)
 
 ## Utilizzare le dashboard {#use-dashboards}
 

@@ -4,10 +4,10 @@ description: Utilizza le ricerche standard per migliorare i rapporti con dimensi
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 76%
+source-wordcount: '376'
+ht-degree: 73%
 
 ---
 
@@ -74,8 +74,8 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 Per creare rapporti sulle dimensioni di ricerca standard, devi aggiungerle quando crei una visualizzazione dati in Customer Journey Analytics:
 
-![](assets/global-lookup.png)
+![Creare una visualizzazione dati che mostri l’elenco Aggiungi componenti](assets/global-lookup.png)
 
 Puoi quindi visualizzare i dati di ricerca in Workspace:
 
-![](assets/gl-reporting.png)
+![Tabella a forma libera con i dati](assets/gl-reporting.png)

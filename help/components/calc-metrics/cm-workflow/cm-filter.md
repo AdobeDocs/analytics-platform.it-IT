@@ -2,10 +2,11 @@
 description: Consente di filtrare per tag, visualizzazione dati, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati).
 title: Filtrare le metriche calcolate
 feature: Calculated Metrics
-source-git-commit: 59b120022fcb149e6bfcab0039efc5a802995b92
+exl-id: 902da464-14de-45b9-bd92-d2db064cb095
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 28%
+source-wordcount: '212'
+ht-degree: 29%
 
 ---
 
@@ -19,7 +20,7 @@ I filtri semplificano la ricerca di metriche calcolate nella barra dei segmenti.
 
 1. In Gestione metriche calcolate, fai clic su **[!UICONTROL Filters]** icona:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![Gestione delle metriche calcolate che mostra l’icona Filtri e i filtri disponibili, ad esempio Tag, Suite di rapporti e Proprietari.](assets/filtering.png)
 
 1. Sono disponibili i seguenti filtri:
 

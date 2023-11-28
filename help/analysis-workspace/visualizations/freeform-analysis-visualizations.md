@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 83%
+source-wordcount: '1312'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
    * Nella barra a sinistra, seleziona la **Visualizzare** icona <!-- add icon -->, quindi trascina una visualizzazione nel pannello in cui desideri aggiungerla.
 
-     ![](assets/viz-rail.png)
+     ![Pannello Visualizzazioni](assets/viz-rail.png)
 
    * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona la **Più** , quindi scegli l’icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
 
@@ -81,14 +81,14 @@ Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ult
 
 Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere a [!UICONTROL Visualization Settings], fai clic sull’icona a forma di ingranaggio [!UICONTROL Visualization Settings].
 
-![Impostazioni](assets/settings.png)
+![Impostazioni delle visualizzazioni che mostrano le opzioni di impostazione descritte nella sezione successiva.](assets/settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
 | Tipo di visualizzazione | Modifica il tipo di elemento visivo utilizzato per rappresentare i dati. |
 | Granularità | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
 | Percentuali | Visualizza i valori in percentuale. |
-| Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![Sovrapposizione 100%](assets/stacked_100_percent.png) |
+| Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![Grafico a barre che mostra la vista delle opzioni Stacked 100%.](assets/stacked_100_percent.png) |
 | Visualizzazione legenda | Consente di nascondere il testo di dettagli per la visualizzazione Numero di riepilogo/Variazione di riepilogo. |
 | Limite massimo elementi | Consente di limitare il numero di elementi presentati in una visualizzazione. |
 | Ancoraggio asse Y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
@@ -107,7 +107,7 @@ Per modificare un’etichetta di legenda:
 1. Fai clic su una delle etichette della legenda.
 1. Fai clic su **[!UICONTROL Edit Label]**.
 
-   ![Modifica etichetta](assets/edit-label.png)
+   ![Etichetta della legenda e opzione Modifica etichetta.](assets/edit-label.png)
 
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
@@ -116,7 +116,7 @@ Per modificare un’etichetta di legenda:
 
 Ulteriori funzionalità per una visualizzazione sono disponibili facendo clic con il pulsante destro del mouse sull’intestazione della visualizzazione. Le impostazioni variano a seconda della visualizzazione. Alcune delle impostazioni disponibili sono:
 
-![Clic destro](assets/right-click.png)
+![Impostazioni di visualizzazione aggiuntive con le opzioni visualizzate al clic con il pulsante destro del mouse. Le opzioni sono descritte nella sezione successiva.](assets/right-click.png)
 
 | Impostazione | Descrizione |
 | --- | --- |

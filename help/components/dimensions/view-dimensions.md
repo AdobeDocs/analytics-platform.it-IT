@@ -3,10 +3,10 @@ description: Vengono visualizzate le cinque dimensioni principali per le dimensi
 title: Visualizzare in anteprima le dimensioni in Customer Journey Analytics Workspace
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 95%
+source-wordcount: '206'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Passa il cursore sull’icona Informazioni (i) accanto a una dimensione. Vengono visualizzate le 5 dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali). Precedentemente questi valori erano statici e i 5 valori scelti non cambiavano mai.
 
-![](assets/dimension-preview.png)
+![Primi 5 valori per dimensioni non temporali.](assets/dimension-preview.png)
 
 Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché statici, con la possibilità di convertirli in valori statici. Altri aspetti degni di nota:
 
@@ -22,7 +22,7 @@ Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché
 * Una colonna delle dimensioni dinamiche copiata o spostata diventa statica.
 * Quando si passa il cursore del mouse su una colonna delle dimensioni statiche, viene visualizzata l’icona di un lucchetto, che indica che la dimensione è statica.
 
-![](assets/dimension_static.png)
+![Popup colonna Dimension che evidenzia l&#39;icona del lucchetto.](assets/dimension_static.png)
 
 ## Mostra elementi dimensionali
 

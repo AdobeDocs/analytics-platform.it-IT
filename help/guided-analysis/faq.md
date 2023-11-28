@@ -1,12 +1,12 @@
 ---
 title: Domande frequenti sull’analisi guidata
 description: Domande frequenti sull’analisi guidata.
-exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Mentre [Analysis Workspace](../analysis-workspace/home.md) e l&#39;analisi guida
 
 * **L’analisi guidata è un’esperienza incentrata sugli eventi.** Ogni analisi inizia selezionando gli eventi, quindi è possibile aggiungere dimensioni e filtri per perfezionare i dati dell’evento.
 
-![Struttura](assets/structure.png)
+![Visualizzazioni di analisi guidata e Analysis Workspace](assets/structure.png)
 
 Prendi in considerazione l’esempio seguente in cui ti concentri sui dati intorno alla pagina principale del tuo sito web. I team pongono domande simili, ma l’approccio di analisi può essere diverso.
 

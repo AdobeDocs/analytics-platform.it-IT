@@ -3,10 +3,10 @@ description: 'In Analysis Workspace, il confronto delle date ti consente di pren
 title: Confronto delle date
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 1. Crea una tabella a forma libera, con qualsiasi dimensione e metrica desideri confrontare in un periodo di tempo.
 1. Fai clic con il pulsante destro del mouse su una riga di tabella e seleziona **[!UICONTROL Compare Time Periods]** (Confronta periodi di tempo).
 
-   ![](assets/compare-time.png)
+   ![Riga di tabella con Periodi di tempo di confronto selezionati](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 1. Il confronto risultante è simile a questo:
 
-   ![](assets/compare-time-result.png)
+   ![Tabella a forma libera che mostra un confronto tra intervalli di date e variazione percentuale.](assets/compare-time-result.png)
 
    Le righe nella colonna Modifica percentuale appaiono nere per i valori negativi e verdi per quelli positivi.
 
 1. (Facoltativo) Così come in tutti gli altri progetti di Workspace, puoi creare visualizzazioni sulla base di questi confronti temporali. Ad esempio, questo è un grafico a barre:
 
-   ![](assets/compare-time-barchart.png)
+   ![Grafico a barre dei progetti Workspace.](assets/compare-time-barchart.png)
 
    Tieni presente che, per mostrare la modifica della percentuale nel grafico a barre dovrai aver selezionato l’impostazione [!UICONTROL Percentages] (Percentuali) in [!UICONTROL Visualization Settings] (Impostazioni di visualizzazione).
 
@@ -55,7 +55,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** (Aggiungi una colonna periodo di tempo) ![](assets/add-time-period-column.png)
+1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** (Aggiungi una colonna periodo di tempo) ![Elenco colonne tabella con la colonna Aggiungi periodo di tempo evidenziata ](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
@@ -71,11 +71,11 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 1. Il periodo di tempo verrà inserito nella parte superiore della colonna selezionata:
 
-   ![](assets/add-time-period-column2.png)
+   ![Tabella a forma libera che mostra le occorrenze per il periodo di calendario corrente e il mese di calendario precedente.](assets/add-time-period-column2.png)
 
 1. Puoi aggiungere tutte le colonne di tempo che desideri, oltre ad abbinare intervalli di date diversi:
 
-   ![](assets/add-time-period-column4.png)
+   ![Tabella a forma libera che mostra le occorrenze del mese corrente, del mese precedente, del mese precedente di un anno fa e di una settimana del mese precedente di un anno fa.](assets/add-time-period-column4.png)
 
 1. Inoltre, puoi ordinare tutte le colonne, azione che modificherà l’ordine dei giorni a seconda della colonna che stai ordinando.
 
@@ -83,7 +83,7 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]** (Allineare le date della colonna affinché inizino sulla stessa riga; si applica all’intera tabella). “Si applica all’intera tabella” significa che se effettui, ad esempio, una suddivisione nella tabella, e se cambi questa impostazione per la suddivisione, questa modificherà l’impostazione per tutta la tabella.
 
-![](assets/date-comparison-setting.png)
+![Il menu a comparsa Tabella a forma libera con impostazioni tabella mostra le date di allineamento da ogni colonna affinché inizino tutte sulla stessa riga selezionata.](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Date
 
 Ad esempio: Quando scegli di allineare le date, se effettui un confronto mese-su-mese tra ottobre e settembre 2016, la colonna a sinistra inizierà con il 1 ottobre e la colonna a destra inizierà con il 1 settembre:
 
-![](assets/add-time-period-column3.png)
+![Confronto che mostra le percentuali su base mensile.](assets/add-time-period-column3.png)
 
 <!-- 
 

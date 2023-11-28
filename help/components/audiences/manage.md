@@ -1,12 +1,12 @@
 ---
-title: Gestire i tipi di pubblico creati in Customer Journey Analytics
+title: Scopri come gestire i tipi di pubblico creati in Customer Journey Analytics
 description: Scopri come gestire i tipi di pubblico in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 73%
+source-wordcount: '258'
+ht-degree: 65%
 
 ---
 
@@ -18,11 +18,11 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 * **Rinnovare una pianificazione di aggiornamento del pubblico** quando sta per scadere. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza della pianificazione.
 * Visualizzare l’**intervallo di aggiornamento** e l’**ultimo aggiornamento di un pubblico**
 * Ottieni informazioni approfondite su **tempo necessario per produrre un pubblico** dal Customer Journey Analytics e il tempo necessario per far apparire il pubblico in Real-time Customer Profile a scopo di attivazione.
-* Verifica se i tipi di pubblico nel Customer Journey Analytics sono **viene utilizzato attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione Experience Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
+* Verifica se i tipi di pubblico nel Customer Journey Analytics sono **viene utilizzato attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione Experienci Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
 
 ## Interfaccia utente di gestione
 
-![](assets/manage.png)
+![Riquadro della finestra Tipi di pubblico con più filtri.](assets/manage.png)
 
 | Impostazione dell’interfaccia utente | Definizione |
 | --- | --- |

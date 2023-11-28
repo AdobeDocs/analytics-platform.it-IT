@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 85%
 
 ---
 
@@ -23,15 +23,15 @@ Un intervallo di date si applica a livello del pannello. Per aggiungere al proge
 
 Il seguente intervallo di date personalizzato mostra un intervallo per “due mesi fa”, con una visualizzazione del riepilogo delle modifiche che mostra i cambiamenti direzionali.
 
-![](assets/date-range-two-months-ago.png)
+![Generatore di intervalli di date che mostra Usa date continue per due mesi fa](assets/date-range-two-months-ago.png)
 
 L’intervallo di date personalizzato viene visualizzato nella parte superiore del pannello dei componenti [!UICONTROL Date Range] (Intervallo date) all’interno del progetto:
 
-![](assets/date-range-panel-two-months-ago.png)
+![Pannello del componente Intervallo date con freccia rivolta a Due mesi fa.](assets/date-range-panel-two-months-ago.png)
 
 Puoi trascinare l’intervallo di date personalizzato all’interno di una colonna vicino a un intervallo di date continuo mensile personalizzato, utilizzando l’impostazione predefinita Mese precedente per un confronto. Aggiungi una visualizzazione di riepilogo delle modifiche e seleziona i totali da ogni colonna per mostrare il cambiamento direzionale:
 
-![](assets/date-range-two-months-table.png)
+![Variazione sintetica che mostra e aumenta del 14,45%.](assets/date-range-two-months-table.png)
 
 ## Utilizzare un intervallo di date continuo di 7 giorni
 
@@ -41,7 +41,7 @@ Nel Generatore intervalli di date, puoi creare un intervallo di date personalizz
 
 Ad esempio, puoi creare un intervallo di date che specifica una finestra di 7 giorni che termina una settimana fa:
 
-![](assets/create_date_range.png)
+![Generatore di intervalli di date che mostra un intervallo di date che specifica una finestra continua di 7 giorni.](assets/create_date_range.png)
 
 Seleziona *`rolling daily`*.
 

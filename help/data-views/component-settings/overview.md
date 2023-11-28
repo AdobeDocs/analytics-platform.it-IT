@@ -4,10 +4,10 @@ description: Visualizzare le impostazioni di base di un componente vista dati.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 68%
+source-wordcount: '461'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 Impostazioni di base utilizzate da un componente di vista dati.
 
-![: impostazioni del componente](../assets/component-settings.png)
+![Impostazioni dei componenti descritte in questa sezione](../assets/component-settings.png)
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |

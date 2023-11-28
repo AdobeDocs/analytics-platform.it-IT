@@ -1,29 +1,29 @@
 ---
-description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, che vengono approvati, che sono duplicati e così via.
-title: Visualizzare il dizionario dati
+description: Il dizionario dei dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, quali sono approvati, quali sono duplicati e così via.
+title: Visualizzare il dizionario dei dati
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 71%
 
 ---
 
 # Visualizzare le informazioni sui componenti nel dizionario dati
 
-Il dizionario dati consente di visualizzare informazioni su un componente, tra cui la descrizione del componente, componenti simili, altri componenti con cui un componente è utilizzato di frequente e altro ancora.
+Il dizionario dei dati consente di visualizzare informazioni su un componente, tra cui la sua descrizione, componenti simili, altri componenti con cui viene utilizzato di frequente e altro ancora.
 
-Per visualizzare informazioni su un componente nel dizionario dati:
+Per visualizzare informazioni su un componente nel dizionario dei dati:
 
 1. Vai al progetto Analysis Workspace che contiene il componente che desideri visualizzare.
 
-1. Seleziona la [!UICONTROL **Dizionario dati**] nella barra a sinistra di Analysis Workspace. (I modi alternativi per accedere al dizionario dati sono descritti in &quot;Accedere al dizionario dati&quot; in [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).)
+1. Seleziona l’icona [!UICONTROL **Dizionario dei dati**] nella barra a sinistra di Analysis Workspace. I modi alternativi per accedere al dizionario dati sono descritti in “Accedere al dizionario dei dati” in [Panoramica del dizionario dei dati](/help/components/data-dictionary/data-dictionary-overview.md).
 
-   Viene visualizzata la finestra Dizionario dati.
+   Viene visualizzata la finestra Dizionario dei dati.
 
-   ![data-dictionary.png](assets/data-dictionary.png)
+   ![Finestra del dizionario dati con filtri rapidi per Dimension, metriche, segmenti e intervalli di date](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -35,7 +35,7 @@ Per visualizzare informazioni su un componente nel dizionario dati:
 
 {{dd-filter-criteria}}
 
-1. (Facoltativo) Seleziona la **Ordina** icona ![Icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    {{components-sort-options}}
 
@@ -45,4 +45,4 @@ Per visualizzare informazioni su un componente nel dizionario dati:
 
    {{dd-component-information}}
 
-1. (Facoltativo) Trascina un componente dal dizionario dati ad Analysis Workspace.
+1. (Facoltativo) Trascina un componente dal dizionario dei dati ad Analysis Workspace.

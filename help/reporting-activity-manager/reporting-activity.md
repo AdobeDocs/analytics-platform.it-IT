@@ -4,9 +4,9 @@ description: Scopri come utilizzare il Reporting Activity Manager per diagnostic
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1917'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    Viene visualizzato un elenco delle connessioni di base abilitate.
 
-   ![coda dei rapporti](assets/reporting-activity1.png)
+   ![Attività di reporting che mostra la coda dei rapporti](assets/reporting-activity1.png)
 
 1. (Facoltativo) Puoi cercare o filtrare l’elenco delle connessioni:
 

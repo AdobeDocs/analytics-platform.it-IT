@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 95%
+source-wordcount: '777'
+ht-degree: 84%
 
 ---
 
@@ -33,7 +33,7 @@ Aspetti da considerare:
 
 1. Dall’elenco a discesa delle Visualizzazioni nella barra a sinistra, trascina la [!UICONTROL Combo chart] visualizzazione in un pannello vuoto.
 
-   ![Generare](assets/combo-chart-build.png)
+   ![Grafico combinato che mostra il campo delle opzioni e degli assi X e Y](assets/combo-chart-build.png)
 
 1. Dall’elenco a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
@@ -41,9 +41,9 @@ Aspetti da considerare:
 
    | Tipo di confronto a linee | Definizione |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Periodo di tempo](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Funzioni](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Due metriche](assets/combo-2metrics.png) |
+   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Eseguire un confronto con il periodo di tempo selezionato e il campo di selezione secondario per il periodo di tempo.](assets/combo-time-period.png) |
+   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Un menu a discesa di confronto mostra le Funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Un grafico combinato che confronta due metriche.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ Aspetti da considerare:
 
    L’output sarà simile al seguente:
 
-   ![Output](assets/combo-output.png)
+   ![Grafico combinato che mostra il periodo corrente in un grafico a barre e il periodo di confronto nel grafico a linee ](assets/combo-output.png)
 
    Il periodo corrente viene visualizzato nel grafico a barre; il periodo di confronto è rappresentato dal grafico a linee. I punti nel grafico a linee sono noti come “bar bells”, in quanto sono simili ai pesi di un bilanciere.
 
@@ -73,17 +73,17 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verr
 
 Ecco un esempio della media cumulativa della metrica Ricavi:
 
-![Media cumulativa](assets/combo-cumul-avg.png)
+![Un grafico combinato che mostra la media cumulativa](assets/combo-cumul-avg.png)
 
 Di seguito è riportato un esempio di grafico combinato con entrambe le funzioni di Media cumulativa e Media:
 
-![Due funzioni](assets/combo-two-functions.png)
+![Un grafico combinato che mostra le funzioni media cumulativa e media.](assets/combo-two-functions.png)
 
 ## Impostazioni del grafico combinato
 
 Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico combinato per modificarne le impostazioni.
 
-![Impostazioni](assets/combo-settings.png)
+![Visualizzazione Impostazioni grafico combinato con le opzioni descritte di seguito.](assets/combo-settings.png)
 
 | Impostazione | Definizione |
 | --- | --- |
@@ -94,7 +94,7 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |
 | **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se disponi di un set di dati di grandi dimensioni, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
 | **[!UICONTROL Overlays]** | Mostra o nasconde i punti (o “bar bell”) sulle linee. |
-| **[!UICONTROL Axis]** |  |
+| **[!UICONTROL Axis]** | |
 | **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse Y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore per tutti i confronti è il grigio. |
 | **[!UICONTROL Normalization]** | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | **[!UICONTROL Show x-axis]** | Visualizza o nasconde l’asse X. |

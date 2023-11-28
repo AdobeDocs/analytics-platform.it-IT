@@ -4,10 +4,10 @@ description: Scopri come inserire i dati di Marketo Engage nel Customer Journey 
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 66%
+source-wordcount: '430'
+ht-degree: 63%
 
 ---
 
@@ -25,7 +25,7 @@ Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/docs/
 
 ## Passaggio 3: configurare una connessione al set di dati nel Customer Journey Analytics
 
-Per creare rapporti sui set di dati di Experience Platform, devi prima stabilire una connessione tra i set di dati in Experience Platform e Customer Journey Analytics. Per ulteriori informazioni, consulta [Creare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
+Per creare rapporti sui set di dati di Experienci Platform, devi prima stabilire una connessione tra i set di dati in Experienci Platform e Customer Journey Analytics. Per ulteriori informazioni, consulta [Creare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
 
 ## Passaggio 4: creare una o più visualizzazioni dati
 
@@ -40,12 +40,12 @@ I clienti con CDP B2B/B2P possono condurre analisi in stile B2C in Customer Jour
 
 1. Crea un [filtro](/help/components/filters/create-filters.md) per le visualizzazioni di pagine web come segue - Tipo evento = web.webpagedetails.pageViews:
 
-   ![](../assets/marketo-filter.png)
+   ![Finestra di definizione che mostra il tipo di evento](../assets/marketo-filter.png)
 
 1. Nella tabella a forma libera, seleziona il filtro appena creato (Visualizzazioni pagine web), quindi inserisci l’intervallo di date relativo ai mesi. In questo modo puoi vedere le visite alle pagine web in base da parte dei lead per ognuno dei mesi specificati:
 
-   ![](../assets/marketo-freeform.png)
+   ![Tabella a forma libera che mostra gli eventi per mese.](../assets/marketo-freeform.png)
 
 1. Oppure, puoi ottenere le seguenti dimensioni: Person Key (Chiave persona) o Work Email Address (Indirizzo e-mail di lavoro). In questo modo potrai vedere le visite alle pagine web per ciascun lead:
 
-   ![](../assets/marketo-freeform2.png)
+   ![Tabella a forma libera che mostra gli eventi e le visualizzazioni WorkEmail.Address e delle pagine web.](../assets/marketo-freeform2.png)

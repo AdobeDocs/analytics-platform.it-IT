@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 49%
+source-wordcount: '980'
+ht-degree: 48%
 
 ---
 
@@ -73,7 +73,7 @@ L’esempio è un set di dati di profilo; lo stesso set di oggetti di schema far
 
 In Customer Journey Analytics, ora puoi passare a [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
 
-![Creare una visualizzazione dati](assets/create-dataview.png)
+![Finestra Crea visualizzazione dati](assets/create-dataview.png)
 
 ## Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
 

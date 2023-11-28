@@ -3,9 +3,9 @@ description: Con il generatore di metriche calcolate, chiunque può creare una m
 title: Metrica di partecipazione
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di 
 
    Nella casella Definizione, la metrica selezionata viene aggiornata aggiungendo  **(Partizione|Sessione)** al suo nome.
 
-   ![](assets/participation-setup.png)
+   ![Popup Modello di attribuzione colonna che mostra la partecipazione selezionata come modello e la sessione selezionata per l&#39;intervallo di lookback.](assets/participation-setup.png)
 
 
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica.
 1. Utilizza la metrica calcolata nel rapporto. Ad esempio, utilizza il [!DNL Orders (Session Participation)] metrica (come definita nel passaggio 5) in un rapporto per mostrare quale livello cliente ha contribuito (o partecipato) alle sessioni che contenevano un ordine.
 
-   ![](assets/participation-pages-customer-tier.png)
+   ![Tabella a forma libera con livello cliente e ordini.](assets/participation-pages-customer-tier.png)
 
 1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

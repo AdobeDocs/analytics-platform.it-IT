@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 77%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -51,7 +51,7 @@ Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics 
 
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali di Customer Journey Analytics esistenti; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
-![Schermata di benvenuto dell’app](assets/welcome.png)
+![Schermata di benvenuto delle dashboard di Adobe Analytics](assets/welcome.png)
 
 ## Aiutare i dirigenti ad accedere alla scorecard
 
@@ -74,7 +74,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 Spiega all’utente direzionale come appaiono le sezioni nelle scorecard condivise.
 
-![Spiegare le sezioni](assets/newexplain.png)
+![Spiega le tessere, compresi l’intervallo di date, il filtro segmento e le metriche e dimensioni selezionate](assets/newexplain.png)
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 

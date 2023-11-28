@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 74%
+source-wordcount: '2600'
+ht-degree: 68%
 
 ---
 
@@ -24,11 +24,11 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 Una scorecard Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout a sezioni affiancate, come mostrato di seguito:
 
-![Esempio di scorecard](assets/intro_scorecard.png)
+![Esempio di scorecard per Analytics che mostra la demo della scorecard per dispositivi mobili](assets/intro_scorecard.png)
 
 In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
-![Creatore di scorecard](assets/scorecard_builder.png)
+![Generatore di scorecard che mostra la nuova finestra scorecard per dispositivi mobili. ](assets/scorecard_builder.png)
 
 Per creare la scorecard, devi effettuare le seguenti operazioni:
 
@@ -45,7 +45,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
-![Template Scorecard](assets/new_template.png)
+![Finestra Tutti i modelli con la scorecard MObile vuota selezionata.](assets/new_template.png)
 
 ### Menu Strumenti
 
@@ -58,11 +58,11 @@ Per implementare il modello di scorecard:
 
 1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
 
-   ![selezione visualizzazione dati](assets/properties_save.png)
+   ![Nuova finestra scorecard mobile che evidenzia la selezione della visualizzazione dati](assets/properties_save.png)
 
 1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella sezione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Aggiungere sezioni](assets/build_list.png)
+   ![Nella scorecard è stata rilasciata una nuova finestra di scorecard per dispositivi mobili con una freccia che punta a una metrica (Nuovo KPI). ](assets/build_list.png)
 
 
 1. Da ogni sezione, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
@@ -73,7 +73,7 @@ Per aggiungere una dimensione correlata a una metrica, trascina una dimensione d
 
 Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le suddivisioni delle singole dimensioni vengono visualizzate nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della sezione. Puoi aggiungere più dimensioni a ogni sezione.
 
-![Aggiunta di dimensioni](assets/layer_dimensions.png)
+![Nuova finestra scorecard mobile con una freccia che punta dall’elenco delle dimensioni al riquadro scorecard.](assets/layer_dimensions.png)
 
 ## Applicazione di filtri {#filters}
 
@@ -81,29 +81,29 @@ Per applicare filtri alle singole tessere, trascina un filtro (i segmenti sono f
 
 Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) come in Customer Journey Analytics Workspace.
 
-![Crea filtri](assets/segment_ui.png)
+![Selettore a discesa dei filtri che evidenzia i filtri di generazione](assets/segment_ui.png)
 
 ## Aggiungere intervalli di date {#dates}
 
 Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
-![Nuova scorecard](assets/new_score_card.png)
+![Nuova scorecard per dispositivi mobili che evidenzia il confronto tra ieri e lo stesso giorno della settimana scorsa](assets/new_score_card.png)
 
 Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. Per rimuovere gli intervalli di date di cui non hai bisogno, fai clic sulla x. Per modificare una combinazione di intervalli di date, fai clic sull’icona della matita.
 
-![Nuova scorecard2](assets/new_score_card2.png)
+![Nuova scorecard mobile che evidenzia l’icona della matita](assets/new_score_card2.png)
 
 Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare uno degli intervalli di date disponibili oppure trascina un componente data dalla barra a destra fino alla zona di rilascio.
 
-![Nuova scorecard3](assets/new_score_card3.png)
+![Nuova scorecard mobile che evidenzia gli intervalli di date con data principale/ieri selezionati](assets/new_score_card3.png)
 
 Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i confronti temporali più comuni, disponibili nel menu a discesa. Puoi anche trascinare un componente data dalla barra a destra.
 
-![Nuova scorecard4](assets/new_score_card4.png)
+![Nuova scorecard mobile che evidenzia gli intervalli di date con data di confronto impostata su Stesso giorno della settimana scorsa selezionata](assets/new_score_card4.png)
 
 Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
 
-![Nuova scorecard5](assets/new_score_card5.png)
+![Icona Calendario](assets/new_score_card5.png)
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
@@ -111,11 +111,11 @@ Viene visualizzato il generatore di intervalli di date, in cui è possibile crea
 
 Per includere intervalli di date di confronto, attiva l’impostazione **Includi date di confronto**.
 
-![Includi date di confronto](assets/include-comparison-dates.png)
+![Nuova scorecard per dispositivi mobili che evidenzia il giorno precedente rispetto a ieri e include le date di confronto](assets/include-comparison-dates.png)
 
 L’impostazione è *attiva* per impostazione predefinita. Se non desideri visualizzare le date del confronto, puoi *disattivarla*.
 
-![Impostazione delle date di confronto deselezionata](assets/no-comparison-dates.png)
+![Nuova scorecard per dispositivi mobili che evidenzia Ieri e include le date di confronto](assets/no-comparison-dates.png)
 
 ## Applicare le visualizzazioni {#viz}
 
@@ -131,25 +131,25 @@ Oppure, fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra
 
 Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
 
-![Numero di riepilogo](assets/summary-number.png)
+![Nuova scorecard per dispositivi mobili con visualizzazione Numero di riepilogo che evidenzia 13.300 visite](assets/summary-number.png)
 
 ### [!UICONTROL Donut]
 
 Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, supponiamo che tu voglia vedere quale piattaforma di annunci ha contribuito al numero totale di persone univoche:
 
-![Visualizzazione ad anello](assets/donut-viz.png)
+![Nuova scorecard mobile che mostra una visualizzazione ad anello](assets/donut-viz.png)
 
 ### [!UICONTROL Line]
 
 La visualizzazione a linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. Questo esempio presenta la dimensione della categoria di prodotto.
 
-![Visualizzazione a linee](assets/line.png)
+![Nuova scorecard mobile che mostra una visualizzazione Linee](assets/line.png)
 
 ### [!UICONTROL Horizontal Bar]
 
 Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza la visualizzazione [!UICONTROL Horizontal Bar].
 
-![barre orizzontali](assets/horizontal.png)
+![Nuova scorecard mobile con una barra orizzontale](assets/horizontal.png)
 
 ### Rimuovere l’elemento di dimensione [!UICONTROL Unspecified]
 
@@ -158,7 +158,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 1. Seleziona la sezione corretta.
 1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
 
-   ![non specificato](assets/unspecified.png)
+   ![Proprietà con freccia rivolta verso destra accanto al nome della dimensione.](assets/unspecified.png)
 
 1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 

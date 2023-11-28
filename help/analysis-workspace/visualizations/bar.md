@@ -3,10 +3,10 @@ description: La visualizzazione di barre mostra barre verticali che rappresentan
 title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Questa visualizzazione mostra barre verticali che rappresentano diversi valori per una o più metriche.
 
-![](assets/bar.png)
+![Visualizzazione a barre verticali che mostra più metriche tra cui visualizzazioni di pagina, visite, entrate e uscite.](assets/bar.png)
 
 Nelle impostazioni di visualizzazione, un elenco a discesa di granularità permette di cambiare una visualizzazione con tendenza (ad esempio un grafico a linee) da base giornaliera a settimanale, mensile e così via.
 
@@ -24,8 +24,8 @@ Nelle impostazioni di visualizzazione, un elenco a discesa di granularità perme
 
 Questa visualizzazione è simile al grafico a barre, ma le barre delle varie serie sono sovrapposte le une alle altre.
 
-![](assets/bar-stacked.png)
+![Barre sovrapposte che mostrano più metriche.](assets/bar-stacked.png)
 
 Una nuova impostazione per le visualizzazioni Barre sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 
-![](assets/stacked_100_percent.png)
+![Grafico a barre in pila 100%.](assets/stacked_100_percent.png)

@@ -3,10 +3,10 @@ title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit del Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 68%
+source-wordcount: '765'
+ht-degree: 66%
 
 ---
 
@@ -30,7 +30,7 @@ In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Au
 
 Per impostazione predefinita vengono visualizzati i registri di audit relativi alla data odierna e al giorno precedente.
 
-![registro di audit](assets/audit_ui.png)
+![Registro di audit che evidenzia oggi (14 ottobre 2022) e ieri (13 ottobre 2022). ](assets/audit_ui.png)
 
 Per specificare quali colonne devono essere visibili, utilizza il selettore delle colonne in alto a destra.
 
@@ -38,7 +38,7 @@ Per specificare quali colonne devono essere visibili, utilizza il selettore dell
 
 Fai doppio clic sul pulsante Info (i) accanto a una descrizione.
 
-![registro di audit](assets/info-button-audit.png)
+![Registro di controllo che evidenzia il pulsante Info. ](assets/info-button-audit.png)
 
 Vengono visualizzati i seguenti elementi:
 
@@ -91,7 +91,7 @@ Vengono visualizzati i seguenti elementi:
 
 Seleziona l’icona a imbuto (![filtro](assets/filter-icon.png)) per visualizzare un elenco di filtri con cui limitare i risultati. Vengono visualizzati solo gli ultimi 1.000 record, a prescindere dai filtri selezionati.
 
-![filtri](assets/filters.png)
+![Registro di controllo che mostra i filtri visualizzati per Intervallo dati.](assets/filters.png)
 
 Nell’interfaccia utente sono disponibili i seguenti filtri per gli eventi di audit:
 

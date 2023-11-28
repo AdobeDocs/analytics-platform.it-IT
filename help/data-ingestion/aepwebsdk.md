@@ -4,10 +4,10 @@ description: Spiega come inserire dati in Customer Journey Analytics tramite Ado
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3283'
-ht-degree: 85%
+source-wordcount: '3292'
+ht-degree: 84%
 
 ---
 
@@ -59,7 +59,7 @@ Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
 
-      ![Creare uno schema](./assets/create-ee-schema-wizard-step-1.png)
+      ![Creare uno schema che evidenzi l’evento esperienza](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -72,7 +72,7 @@ Per configurare lo schema:
 
    1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
 
-      ![Assegnare un nome allo schema](./assets/create-ee-schema-wizard-step-2.png)
+      ![Finestra Crea schema con il nome dei campi schema](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 

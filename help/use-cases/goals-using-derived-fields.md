@@ -4,9 +4,9 @@ description: Scopri come utilizzare i campi derivati per creare rapporti sugli o
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '429'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Desideri impostare esplicitamente gli obiettivi per gli ordini di certificati re
 
 1. Impostare valori statici, utilizzando una REGOLA CASE WHEN, per ogni mese impostando un **[!UICONTROL Custom numeric value]**. Consulta la regola Obiettivi di prodotto mensili di seguito.
 
-   ![Obiettivi del prodotto](assets/goals-derived-field-product-goals-1.png)
+   ![Obiettivi di prodotto mensili](assets/goals-derived-field-product-goals-1.png)
 
 
 ### Obiettivi di ricavo del canale di marketing

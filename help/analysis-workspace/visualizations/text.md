@@ -3,10 +3,10 @@ description: Consente di aggiungere testo definito dall’utente al progetto Wor
 title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 86%
 
 ---
 
@@ -18,16 +18,16 @@ Puoi aggiungere testo definito dall’utente al progetto Workspace, utilizzando 
 
 Quando si modifica una casella di testo o una descrizione, è possibile regolare le dimensioni del font (livelli di intestazione), il colore, lo stile (grassetto, corsivo, sottolineato) e l’allineamento del testo selezionato. È inoltre possibile aggiungere elenchi puntati e numerati.
 
-![](assets/format.png)
+![Opzioni di testo per un progetto Workspace che evidenziano la palette dei colori del testo.](assets/format.png)
 
 ## Aggiungere collegamenti ipertestuali {#hyperlinks}
 
 Per aggiungere un collegamento ipertestuale, evidenzia il testo e fai clic sull’icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali possono portare a siti web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=it) e altro ancora, per assistere ulteriormente i destinatari del progetto.
 
-![](assets/hyperlink.png)
+![Opzioni di testo con l&#39;icona del collegamento evidenziata.](assets/hyperlink.png)
 
 ## Aggiungere immagini {#images}
 
 Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci l’URL pubblico dell’immagine. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
 
-![](assets/image.png)
+![Opzioni di testo con l&#39;icona dell&#39;immagine selezionata.](assets/image.png)

@@ -1,13 +1,13 @@
 ---
-description: Requisiti di sistema per Analysis Workspace.
+description: Scopri i requisiti di sistema per Analysis Workspace.
 keywords: Analysis Workspace
 title: Requisiti di amministrazione
 feature: FAQ
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 81%
+source-wordcount: '154'
+ht-degree: 76%
 
 ---
 

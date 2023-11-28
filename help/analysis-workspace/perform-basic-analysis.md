@@ -4,10 +4,10 @@ description: Descrive come utilizzare le visualizzazioni di base per analizzare 
 feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,6 @@ Ecco un esempio di visualizzazioni di base in Workspace. Potrai, ad esempio
 
 * Rappresenta la dimensione del pubblico in base alle origini dati, ad esempio dati da ad impression, Customer Journey Analytics, e-mail, POS, call center e sondaggi.
 
-![](assets/cja-basic-analysis.png)
+![Visualizzazioni di esempio di grafici di analisi di base. ](assets/cja-basic-analysis.png)
 
-![](assets/cja-basic-analysis2.png)
+![Altri esempi di visualizzazioni dei grafici di analisi di base](assets/cja-basic-analysis2.png)

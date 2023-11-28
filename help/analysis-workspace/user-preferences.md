@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti.
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3204'
-ht-degree: 84%
+source-wordcount: '3214'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 1. In Customer Journey Analytics, vai a [!UICONTROL **Progetti**] pagina di destinazione, quindi seleziona [!UICONTROL **Modifica preferenze**].
 
-   ![Preferenze utente](assets/user-preferences.png)
+   ![Nella vista Progetti Workspace sono evidenziate le opzioni di Modifica delle preferenze descritte in questa pagina.](assets/user-preferences.png)
 
    Oppure
 
@@ -71,7 +71,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 | --- | --- | --- |
 | **Visualizzazione** | | |
 |  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
-| | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli le palette di colori di visualizzazione utilizzate nell’analisi guidata e in Analysis Workspace. <ul><li> Palette categorica: applicata a molte visualizzazioni in Analysis Workspace e analisi guidata. Ogni colore rappresenta un valore categorico distinto. Scegli tra le opzioni fornite dall’Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li> Tavolozza divergente: applicata alla tabella coorte nell’analisi guidata della crescita di Analysis Workspace e utente. Questa tavolozza contiene un significato numerico con due estremi e una linea di base al centro.<li> Tavolozza sequenziale: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dalla luce al buio.</li></ul> |
+| | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli le palette di colori di visualizzazione utilizzate nell’analisi guidata e in Analysis Workspace. <ul><li> Palette categorica: applicata a molte visualizzazioni in Analysis Workspace e analisi guidata. Ogni colore rappresenta un valore di categoria distinto. Scegli tra le opzioni fornite da Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li> Tavolozza divergente: applicata alla tabella coorte nell’analisi guidata della crescita di Analysis Workspace e utente. Questa palette contiene un significato numerico con due estremi e una linea di base al centro.<li> Palette sequenziale: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro.</li></ul> |
 | **Dati** | | |
 |  | [Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#report-suite) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Visualizzazione dati specifica selezionata da un elenco</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
@@ -111,7 +111,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **[Riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Raggruppamento per posizione | Seleziona questa opzione per far sì che il raggruppamento rimanga nella posizione dell’elemento anziché nell’elemento stesso. Per ulteriori informazioni sulle suddivisioni, consulta la sezione [Suddividere le dimensioni](/help/components/dimensions/t-breakdown-fa.md). |
 | | Calcolo percentuale | <ul><li>Colonna</li><li>Riga</li></ul> |
-| | Totali colonne (solo righe statiche) | <ul><li>Visualizza somma di righe: mostra la somma dei singoli elementi riga </li><li>Visualizza totale complessivo: mostra la somma deduplicata delle righe.</li></ul> |
+| | Totali colonne (solo righe statiche) | <ul><li>Visualizza somma di righe: mostra la somma dei singoli elementi di riga </li><li>Visualizza totale complessivo: mostra la somma deduplicata di righe.</li></ul> |
 
 ## Preferenze delle visualizzazioni
 

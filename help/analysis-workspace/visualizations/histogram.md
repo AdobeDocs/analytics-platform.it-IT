@@ -3,10 +3,10 @@ description: Un istogramma è simile a un grafico a barre, ma con i numeri raggr
 title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 85%
+source-wordcount: '432'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Per creare un istogramma:
 1. Trascina **[!UICONTROL Histogram]** nel pannello.
 1. Scegli una metrica da trascinare sulla visualizzazione Istogramma e fai clic su **[!UICONTROL Build]**.
 
-![](assets/histogram.png)
+![Pannello istogramma vuoto che mostra il campo Rilascia una metrica sotto.](assets/histogram.png)
 
 >[!NOTE]
 >
@@ -54,11 +54,11 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 
 Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
 
-![](assets/manage-data-source.png)
+![Opzioni delle impostazioni dell’origine dati con l’opzione Mostra origine dati e blocca selezione selezionata.](assets/manage-data-source.png)
 
 I filtri pregenerati che compaiono nella tabella sono filtri interni e non saranno visualizzati nel selettore dei filtri. Fai clic sul pulsante “i” accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere il filtro pubblico.
 
-![](assets/prebuilt_segments.png)
+![Segmenti che mostrano la finestra di modifica e il collegamento Rendi pubblico.](assets/prebuilt_segments.png)
 
 Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per raggruppare i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
 

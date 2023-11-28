@@ -4,10 +4,10 @@ description: Spiegare come inserire dati provenienti dalla versione tradizionale
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 85%
+source-wordcount: '1115'
+ht-degree: 80%
 
 ---
 
@@ -53,29 +53,29 @@ Per creare un connettore di origine di Adobe Analytics:
 
 3. Seleziona **[!UICONTROL Set up]** (Configura) o **[!UICONTROL Add data]** (Aggiungi dati) nel riquadro Adobe Analytics.
 
-   ![Origini](./assets/sources-overview.png)
+   ![Finestra Adobe Experience Platform con Origini selezionate insieme ad applicazioni Adobi ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
 
 4. Seleziona **[!UICONTROL Report suite]** (Suite di rapporti). Dall’elenco delle suite di rapporti, seleziona quella da utilizzare.
 
-   ![Suite di rapporti](./assets/report-suites.png)
+   ![Finestra di Adobe Experience Platform che mostra l’elenco delle suite di rapporti](./assets/report-suites.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
 5. Seleziona **[!UICONTROL Default schema]** (Schema predefinito) come [!UICONTROL Target schema] (Schema di destinazione). Adobe Experience Platform crea automaticamente lo schema e il set di dati corrispondenti per mappare tutti i campi standard dalla suite di rapporti Adobe Analytics selezionata.
 
-   ![Schema predefinito](./assets/default-schema.png)
+   ![Finestra Adobe Experience Platform con lo schema predefinito selezionato](./assets/default-schema.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
 6. Assegna un nome al flusso di dati e (facoltativamente) fornisci una descrizione.
 
-   ![Dettagli del flusso di dati](./assets/dataflow-detail.png)
+   ![Finestra di Adobe Experience Platform che evidenzia la sezione dei dettagli del flusso di dati](./assets/dataflow-detail.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
 7. Controlla la connessione e seleziona **[!UICONTROL Finish]** (Fine).
 
-   ![Revisione](./assets/review.png)
+   ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connetti e Tipo di dati per la revisione](./assets/review.png)
 
 
 Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti. Il flusso di dati acquisisce fino a 13 mesi di dati storici per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a tre mesi.
@@ -111,9 +111,9 @@ Per creare la connessione:
 
    - Seleziona il set di dati creato automaticamente dal connettore di origine di Adobe Analytics e qualsiasi altro set di dati da includere nella connessione.
 
-     ![Aggiungere set di dati](./assets/cja-connections-2a.png)
+     ![Finestra Aggiungi set di dati](./assets/cja-connections-2a.png)
 
-   - Seleziona **[!UICONTROL Next]** (Avanti).
+   - Seleziona **[!UICONTROL Next]** (Aggiungi set di dati).
 
    Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
 

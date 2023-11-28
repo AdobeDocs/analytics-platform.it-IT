@@ -3,10 +3,10 @@ title: Grafico a dispersione
 description: Visualizzazione che mostra la relazione tra un massimo di tre metriche.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +20,4 @@ La visualizzazione del grafico a dispersione mostra la relazione tra gli element
 * La terza colonna determina il raggio del punto.
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
-![Grafico a dispersione](assets/scatter.png)
+![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)

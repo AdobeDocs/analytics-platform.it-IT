@@ -1,12 +1,12 @@
 ---
-description: Modalità di calcolo dei totali in Workspace.
+description: Informazioni su come vengono calcolati i totali di Workspace.
 title: Totali in Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 81%
+source-wordcount: '468'
+ht-degree: 76%
 
 ---
 
@@ -17,13 +17,13 @@ Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livel
 * **[!UICONTROL Grand Total]** (Totale tabella), numero di colore grigio: questo totale rappresenta tutti gli eventi che sono stati raccolti. Quando un filtro viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli eventi che corrispondono ai criteri del filtro.
 * **[!UICONTROL Table Total]** (Totale tabella), numero di colore nero: questo totale è in genere uguale o un sottoinsieme del [!UICONTROL Grand Total] (Totale complessivo). Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna).
 
-![](assets/total-row.png)
+![Tabella a forma libera che evidenzia il totale complessivo e il totale della tabella.](assets/total-row.png)
 
 ## Impostazione di visualizzazione del totale
 
 In **[!UICONTROL Column Settings]** (Impostazioni colonna) sono disponibili le opzioni **[!UICONTROL Show Totals]** (Mostra totali) e **[!UICONTROL Show Grand Total]** (Mostra totale complessivo). Se queste impostazioni non sono selezionate, i totali verranno rimossi dalla tabella. Ciò può essere utile nei casi in cui i totali siano privi di senso, ad esempio in alcuni [scenari di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=it).
 
-![](assets/column-settings-total.png)
+![Opzioni di Impostazioni colonna che mostrano i segni di spunta per Mostra totali e Mostra totale sovvenzione.](assets/column-settings-total.png)
 
 ## Impostazioni Totale riga statica
 
@@ -32,7 +32,7 @@ I totali della [riga statica](/help/analysis-workspace/visualizations/freeform-t
 * **[!UICONTROL Show sum of current rows as the total]** : mostra una somma lato client delle righe nella tabella, il che significa che il totale **non** deduplicare metriche quali visite o persone.
 * **[!UICONTROL Show Grand Total]** (Mostra totale complessivo): mostra una somma lato server, il che significa che il totale deduplicherà le metriche quali visite o persone.
 
-![](assets/static-rows.png)
+![Impostazioni riga che mostrano l&#39;opzione Mostra totale complessivo selezionata.](assets/static-rows.png)
 
 ## Domande frequenti
 

@@ -3,10 +3,10 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 10%
+source-wordcount: '225'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Per specificare il tipo di metrica durante la creazione di una metrica calcolata
 
 1. Seleziona l’icona a forma di ingranaggio accanto alla metrica di cui desideri selezionare il tipo.
 
-   ![](assets/cm_type_alloc.png)
+   ![Icona dell’ingranaggio con finestra a comparsa che mostra il tipo di metrica uguale a Standard.](assets/cm_type_alloc.png)
 
 1. Scegli tra le seguenti opzioni:
 

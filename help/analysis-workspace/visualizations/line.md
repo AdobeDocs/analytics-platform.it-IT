@@ -3,10 +3,10 @@ description: Utilizza la visualizzazione delle linee per rappresentare set di da
 title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La visualizzazione delle linee sarà presto disponibile [sottotitoli intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md).
+>La visualizzazione Linee sarà presto disponibile [sottotitoli intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere usato solo con una dimensione temporale.
 
@@ -36,7 +36,7 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: i valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.
 
-![Mostra minimo/massimo](assets/min-max-labels.png)
+![Una sovrapposizione con l’etichetta di valore minimo e massimo.](assets/min-max-labels.png)
 
 ## Mostra la sovrapposizione della linea di tendenza
 
@@ -56,5 +56,5 @@ Tutte le linee di tendenza del modello di regressione sono adattabili utilizzand
 | Logaritmico | Crea una linea curva di adattamento ed è utile quando il tasso di variazione nei dati aumenta o diminuisce rapidamente e poi si livella. Una linea di tendenza logaritmica può utilizzare valori negativi e positivi. Equazione: `y = a + b * log(x)` |
 | Esponenziale | Crea una linea curva ed è utile quando i dati aumentano o diminuiscono a ritmi costantemente crescenti. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a + e^(b * x)` |
 | Potenza | Crea una linea curva ed è utile per i set di dati che confrontano misurazioni che aumentano a una velocità specifica. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
-| Quadratico | Trova la forma migliore per un set di dati a forma di parabola (concava su o giù). Equazione: `y = a + b * x + c * x^2` |
+| Quadratico | Trova l’adattamento ottimale per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
 | Media mobile | Crea una linea di tendenza uniforme in base a un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di periodi), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di 7 giorni o una media mobile di 4 settimane. |

@@ -4,9 +4,9 @@ description: Consente di impostare l’attribuzione predefinita per una metrica.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1949'
 ht-degree: 34%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 34%
 
 Attribution consente di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo.
 
-![](../assets/attribution-settings.png)
+![Finestra Visualizzazioni dati che evidenzia l’opzione Imposta attribuzione](../assets/attribution-settings.png)
 
 Ad esempio:
 
@@ -46,7 +46,7 @@ Per aggiornare il modello di attribuzione predefinito di un componente:
 
 1. Seleziona il componente, quindi espandi la sezione Attribuzione sul lato destro della schermata.
 
-   ![](../assets/attribution-settings.png)
+   ![Finestra Visualizzazioni dati che evidenzia l’opzione Imposta attribuzione](../assets/attribution-settings.png)
 
 1. Seleziona [!UICONTROL **Imposta attribuzione**], quindi seleziona il modello di attribuzione in [!UICONTROL **Modello di attribuzione**] menu a discesa.
 

@@ -3,10 +3,10 @@ title: Etichette e criteri
 description: Scopri in che modo le etichette dati e i criteri definiti in Adobe Experience Platform influiscono sulle visualizzazioni dati e sul reporting in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 56%
+source-wordcount: '490'
+ht-degree: 52%
 
 ---
 
@@ -57,7 +57,7 @@ Puoi verificare se è attivato un criterio che blocca l’utilizzo di alcuni ele
 
 Di nuovo, fai clic su [!UICONTROL filter] nella barra a sinistra e sotto **[!UICONTROL Data Governance]**, fai clic su **[!UICONTROL Policies]**:
 
-![](assets/filter-policies.png)
+![Filtra i componenti inclusi per elenco che mostra la selezione di Applica analisi](assets/filter-policies.png)
 
 Fai clic su **[!UICONTROL Apply]** per vedere quali criteri sono abilitati.
 
@@ -67,7 +67,7 @@ Se i criteri **[!UICONTROL Enforce Analytics]** o **[!UICONTROL Enforce Download
 
 Questi componenti sono visualizzati in grigio nell’elenco della barra a sinistra [!UICONTROL Schema fields]:
 
-![](assets/component-greyed.png)
+![I componenti visualizzati in grigio e il messaggio Criteri che indica i criteri sono stati applicati a questo campo limitando l’utilizzo dei dati](assets/component-greyed.png)
 
 Inoltre, non è possibile salvare una visualizzazione dati contenente campi bloccati.
 

@@ -4,9 +4,9 @@ description: Descrive come creare una connessione a un set di dati di Platform i
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2667'
 ht-degree: 53%
 
 ---
@@ -30,9 +30,9 @@ L’esperienza di creazione e modifica della connessione porta tutte le impostaz
 ## Creare e configurare la connessione {#create-connection}
 
 1. In Customer Journey Analytics, fai clic su **[!UICONTROL Connections]** scheda.
-1. Fai clic su **[!UICONTROL Create new connection]**.
+1. Fai clic su **[!UICONTROL Create new connection]** (Usa modello di attribuzione non predefinito).
 
-   ![Impostazioni della connessione](assets/create-conn1.png)
+   ![Impostazioni di connessione senza titolo](assets/create-conn1.png)
 
 1. Configura le impostazioni della connessione.
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 1. Il giorno [!UICONTROL Exports] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
 1. Seleziona [!UICONTROL **Aggiungi account**].
 
-   ![Aggiungi account](assets/account-add.png)
+   ![Esporta le opzioni di pagina che mostrano Aggiungi un altro account](assets/account-add.png)
 
    Viene visualizzata la finestra di dialogo Aggiungi account.
 
@@ -41,11 +41,11 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    * [ARN per ruolo Amazon S3](#amazon-s3-role-arn)
 
-   * [Piattaforma Google Cloud](#google-cloud-platform)
+   * [Google Cloud Platform](#google-cloud-platform)
 
-   * [SAS di Azure](#azure-sas)
+   * [Azure SAS](#azure-sas)
 
-   * [RBAC di Azure](#azure-rbac)
+   * [Azure RBAC](#azure-rbac)
 
    * [Snowflake](#snowflake)
 
@@ -86,7 +86,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
       >È necessario eseguire questa azione ogni 7 giorni, perché l&#39;URI SAS scade 7 giorni dopo la creazione. Puoi creare uno script per automatizzare questo processo.
 
 
-      ![Campo URL SAS](assets/blob-container-sas-uri.png)
+      ![Immettere la finestra Informazioni connessione che mostra il campo URL SAS](assets/blob-container-sas-uri.png)
 
    1. Seleziona [!UICONTROL **Successivo**] > [!UICONTROL **Connetti**].
 
@@ -120,7 +120,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-### Piattaforma Google Cloud
+### Google Cloud Platform
 
 1. [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account), come descritto in precedenza.
 
@@ -144,7 +144,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-### SAS di Azure
+### Azure SAS
 
 1. [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account), come descritto in precedenza.
 
@@ -172,7 +172,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-### RBAC di Azure
+### Azure RBAC
 
 1. [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account), come descritto in precedenza.
 

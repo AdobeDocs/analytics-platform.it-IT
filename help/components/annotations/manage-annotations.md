@@ -4,10 +4,10 @@ description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 85%
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Il gestore [!UICONTROL Annotations] mostra tutte le annotazioni di cui sei propr
 
 ## Interfaccia utente di Annotations Manager (Gestione annotazioni)
 
-![](assets/annotation-mgr.png)
+![Opzioni per le annotazioni, ad esempio condivisione, assegnazione di tag o copia, descritte nella sezione successiva.](assets/annotation-mgr.png)
 
 | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- | 

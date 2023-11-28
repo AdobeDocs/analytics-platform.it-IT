@@ -3,9 +3,10 @@ title: Annullare le richieste di reporting in Reporting Activity Manager
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1454'
 ht-degree: 5%
 
 ---
@@ -50,7 +51,7 @@ Puoi annullare singole richieste che consumano una grande quantità di capacità
 
    1. Abilita l’opzione per [!UICONTROL **Limita le richieste successive**].
 
-      ![Limita le richieste successive](assets/restrict-subsequent-requests.png)
+      ![Annullamento 1 richiesta che mostra Limita le richieste successive selezionate e il messaggio di annullamento.](assets/restrict-subsequent-requests.png)
 
    1. Scegli tra le seguenti opzioni:
 
@@ -91,7 +92,7 @@ Puoi annullare tutte le richieste associate a uno o più utenti. Quando annulli 
 
    1. Abilita l’opzione per [!UICONTROL **Limita le richieste successive**]
 
-      ![Limita le richieste successive per utente](assets/restrict-subsequent-requests-user.png)
+      ![Richiesta Cancel 1 (Annulla 1) che mostra la voce Restrict after requests by user selected (Limita le richieste successive in base all’utente selezionato).](assets/restrict-subsequent-requests-user.png)
 
    1. Scegli tra le seguenti opzioni:
 
@@ -132,7 +133,7 @@ Puoi annullare tutte le richieste associate a uno o più progetti. Quando annull
 
    1. Abilita l’opzione per [!UICONTROL **Limita le richieste successive**].
 
-      ![Limita le richieste successive per progetto](assets/restrict-subsequent-requests-project.png)
+      ![Richiesta Cancel 1 (Annulla 1) che mostra la funzione Restrict after requests by project (Limita le richieste successive per progetto)](assets/restrict-subsequent-requests-project.png)
 
    1. Scegli tra le seguenti opzioni:
 
@@ -188,7 +189,7 @@ Per annullare le richieste per applicazione:
 
    1. Abilita l’opzione per [!UICONTROL **Limita le richieste successive**]
 
-      ![Limita le richieste successive per applicazione](assets/restrict-subsequent-requests-application.png)
+      ![Richiesta Cancel 1 (Annulla 1) che mostra la casella di controllo Limita le richieste successive per applicazione selezionata.](assets/restrict-subsequent-requests-application.png)
 
    1. Scegli tra le seguenti opzioni:
 

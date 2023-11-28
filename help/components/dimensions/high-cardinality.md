@@ -4,9 +4,9 @@ description: Spiega come il Customer Journey Analytics gestisce le dimensioni co
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '526'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Quando si utilizza una dimensione contenente molti valori univoci, il rapporto r
 
 Quando richiedi un rapporto con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione che indica che non tutti gli elementi dimensionali sono inclusi. Ad esempio, &quot;Righe: da 1 a 50 su oltre 22.343.156&quot;. La parola chiave &quot;più di&quot; indica che è stata applicata una certa ottimizzazione al rapporto per restituire gli elementi dimensionali più importanti.
 
-![Anteprima area di lavoro](assets/high-cardinality.png)
+![Tabella a forma libera in Workspace che mostra la parola chiave &quot;più di&quot; per mostrare 1-50 di più di 22.343.156](assets/high-cardinality.png)
 
 ## Determinazione degli elementi dimensionali da visualizzare
 

@@ -4,10 +4,10 @@ description: Includi o escludi in modo condizionale un elemento dimensione a sec
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Includi valori di esclusione consente di creare regole che dipendono dal valore di un elemento dimensione. I valori che non soddisfano i criteri impostati vengono trattati in Analysis Workspace come se non fossero mai esistiti, anche se i dati esistono ancora nel set di dati sottostante.
 
-![Includere/escludere](../assets/include-exclude.png)
+![Finestra Visualizzazioni dati che evidenzia i valori di inclusione/esclusione](../assets/include-exclude.png)
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
@@ -26,4 +26,4 @@ Includi valori di esclusione consente di creare regole che dipendono dal valore 
 | [!UICONTROL Match operand] | Consente di specificare l’operando di corrispondenza a cui deve essere applicato l’operatore di corrispondenza.<ul><li>**Stringa**: Campo di testo</li><li>**Doppio/Intero**: Campo di testo con frecce verso l’alto o il basso per i valori numerici</li><li>**Data**: Selettore di granularità del giorno (calendario)</li><li>**Data e ora**: Selettore di granularità data e ora</li></ul> |
 | [!UICONTROL Add rule] | Consente di specificare un operatore di corrispondenza e un operando aggiuntivi. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

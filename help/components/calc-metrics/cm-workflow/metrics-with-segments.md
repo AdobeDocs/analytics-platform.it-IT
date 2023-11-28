@@ -3,9 +3,9 @@ description: Il filtro per singole metriche consente di effettuare confronti di 
 title: Metriche filtrate
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Nel generatore di metriche calcolate, puoi applicare filtri all’interno della definizione della metrica. Questa funzione è utile se desideri derivare nuove metriche da utilizzare nell’analisi. Tieni presente che le definizioni dei filtri possono essere aggiornate tramite il Generatore di filtri. Se vengono apportate modifiche, il filtro verrà aggiornato automaticamente ovunque venga applicato, incluso se fa parte di una definizione di metrica calcolata.
 
-![](assets/german-visitors.png)
+![Riepilogo e definizione dei filtri per Paesi = Germania e Visitatori univoci](assets/german-visitors.png)
 
 ## Creare una metrica filtrata {#create}
 
@@ -28,7 +28,7 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 1. Crea un filtro ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;. Trascina la dimensione Paesi nell’area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
 
-   ![](assets/segment-from-dimension.png)
+   ![Filtro ad hoc che mostra Paesi è uguale a Germania](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
@@ -36,7 +36,7 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 1. Trascina il filtro Germania nell’area di lavoro Definizione e al suo interno trascina la metrica Visitatori univoci:
 
-   ![](assets/german-visitors.png)
+   ![Riepilogo e definizione dei paesi uguali a Germania e Visitatori unici](assets/german-visitors.png)
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
 
@@ -50,7 +50,7 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 1. In Analysis Workspace, trascina **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all’altra nella parte superiore:
 
-   ![](assets/workspace-pages.png)
+   ![Tabella a forma libera che mostra la dimensione Pagina per i visitatori tedeschi e internazionali](assets/workspace-pages.png)
 
 Panoramica video:
 
@@ -63,8 +63,8 @@ Puoi portare l’esempio precedente più in là confrontando il filtro con una p
 1. Rilascia il filtro Visitatori tedeschi (o internazionali) nell’area di lavoro.
 1. Rilascia qui sotto un altro filtro Visitatori tedeschi (o internazionali). Tuttavia, questa volta, fai clic sulla relativa icona di configurazione (ingranaggio) per selezionare il tipo di metrica &quot;Totale&quot;. Il formato deve essere &quot;Percentuale&quot;. L’operatore deve essere &quot;diviso per&quot;. Alla fine trovi questa definizione di metrica:
 
-   ![](assets/cm_metric_total.png)
+   ![Paesi è uguale a Germania e Visitatori univoci totali](assets/cm_metric_total.png)
 
 1. Applica questa metrica al progetto:
 
-   ![](assets/cm_percent_total.png)
+   ![Tabella a forma libera con pagina e % di visitatori tedeschi totali](assets/cm_percent_total.png)

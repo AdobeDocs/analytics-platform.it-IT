@@ -3,9 +3,9 @@ description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo accanto alle metriche alle quali desideri assegnare i tag.
 
-   ![](assets/cm_add_tags.png)
+   ![Assegna tag all’elenco delle metriche calcolate con Mobile Marketing selezionato.](assets/cm_add_tags.png)
 
 1. In [!UICONTROL **Tag Metrica calcolata**] finestra di dialogo:
 

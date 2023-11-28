@@ -2,10 +2,11 @@
 description: Contrassegnare le metriche calcolate come preferite è un altro modo per organizzarle in modo semplice.
 title: Contrassegnare le metriche calcolate come preferite
 feature: Calculated Metrics
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+exl-id: f0c9387f-16a4-40c5-9bed-73b871efd22e
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 17%
+source-wordcount: '91'
+ht-degree: 27%
 
 ---
 
@@ -17,6 +18,6 @@ Contrassegnare le metriche calcolate come preferite è un altro modo per organiz
 
 1. In Gestione metriche calcolate, seleziona la stella accanto a qualsiasi metrica calcolata che desideri contrassegnare come preferita. La stella diventerà gialla:
 
-   ![](assets/favorites.png)
+   ![Stella gialla che mostra i visitatori di Bing.](assets/favorites.png)
 
 1. Puoi anche filtrare i preferiti in **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Favorites]**.

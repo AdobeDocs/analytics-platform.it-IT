@@ -3,9 +3,9 @@ title: Riferimento - Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3119'
 ht-degree: 98%
 
 ---
@@ -61,11 +61,11 @@ Approximate Count Distinct (customer ID eVar) (Conteggio valori univoci approssi
 
 Definizione di una nuova metrica calcolata “Approximate Customers” (Clienti approssimativi):
 
-![](assets/approx-count-distinct.png)
+![Definizione nuova dimensione distinta per contea approssimativa che mostra l’ID cliente (eVar1)](assets/approx-count-distinct.png)
 
 Questo è il modo in cui la metrica “Approximate Customers” (Clienti approssimativi) potrebbe essere utilizzata nel reporting:
 
-![](assets/approx-customers.png)
+![Tabella a forma libera che mostra visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
 
 ## Uniques Exceeded (Univoci superati)
 
