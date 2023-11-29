@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 648acd49d6cc38531f50df0a7d78ec6dce533d01
+source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 76%
+source-wordcount: '1046'
+ht-degree: 77%
 
 ---
 
@@ -167,12 +167,10 @@ ht-degree: 76%
       + [Scarica](../analysis-workspace/export/download-send.md)
       + [Invia ad altri](../analysis-workspace/export/t-schedule-report.md)
       + [Esporta nel cloud](../analysis-workspace/export/export-cloud.md)
-   + Virtual Analyst {#virtual-analyst}
-      + [Panoramica di Virtual Analyst](../analysis-workspace/virtual-analyst/overview.md)
-      + Rilevamento delle anomalie {#anomaly-detection}
-         + [Panoramica di Rilevamento delle anomalie](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Visualizzare le anomalie in Analysis Workspace](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + Rilevamento delle anomalie {#anomaly-detection}
+      + [Panoramica di Rilevamento delle anomalie](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Visualizzare le anomalie in Analysis Workspace](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)

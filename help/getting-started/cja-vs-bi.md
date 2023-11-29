@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 65%
@@ -60,7 +60,7 @@ Il motore di reporting è fondamentale per il Customer Journey Analytics per con
 
 In questi componenti di visualizzazione sono incorporate funzionalità avanzate come:
 
-* **Funzioni di Virtual Analyst** quali il [Rilevamento delle anomalie](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) che utilizzano algoritmi predittivi e apprendimento automatico per fornire informazioni su ciò che sta causando comportamenti insoliti nei dati.
+* **Funzioni di Virtual Analyst** quali il [Rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) che utilizzano algoritmi predittivi e apprendimento automatico per fornire informazioni su ciò che sta causando comportamenti insoliti nei dati.
 
 * **Funzioni di analisi avanzate** che si concentrano specificamente sulle informazioni sul percorso del cliente, come [diagrammi di flusso](/help/analysis-workspace/visualizations/c-flow/flow.md), [Pannello Attribution](/help/analysis-workspace/c-panels/attribution.md), [diagrammi di abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), e [analisi dettagliate delle dimensioni](/help/components/dimensions/t-breakdown-fa.md). Alcuni esempi di visualizzazioni pronte all’uso sono:
 
