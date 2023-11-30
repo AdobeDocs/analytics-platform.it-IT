@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1507'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 1. Seleziona la [!UICONTROL **Posizioni**] , quindi seleziona [!UICONTROL **Aggiungi posizione**].
 
-   ![pulsante aggiungi posizione](assets/location-add.png)
+   ![Finestra Esporta con la scheda Posizione selezionata che evidenzia il pulsante Aggiungi posizione](assets/location-add.png)
 
    Oppure
 

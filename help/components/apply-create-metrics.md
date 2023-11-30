@@ -3,10 +3,10 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 25%
+source-wordcount: '387'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 * **Modelli di metriche calcolate**  <img src="./assets/adobe-logo.svg" width="18"> : metriche definite dall’Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica.
 
 
-![Metriche nell’interfaccia utente](assets/cja-metrics.png)
+![Pannello Workspace che evidenzia Metriche nel riquadro a sinistra.](assets/cja-metrics.png)
 
 Puoi vedere se una metrica è approvata ![Icona Approvato](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  o no. Per ulteriori dettagli su una metrica, passa il cursore del mouse sulla metrica e seleziona ![Icona Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
@@ -40,7 +40,7 @@ Puoi selezionare **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]
 
 Per accelerare e semplificare la creazione delle metriche calcolate, al menu di scelta rapida delle colonne delle tabelle a forma libera è stato aggiunto il comando **[!UICONTROL Create metric from selection]**. Questa opzione viene visualizzata quando è selezionata almeno una cella di intestazione di colonna.
 
-![Crea da selezione](assets/create-metric-from-selection.png)
+![Evidenziazione del pannello Workspace Crea da selezione](assets/create-metric-from-selection.png)
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
@@ -48,6 +48,6 @@ Per accelerare e semplificare la creazione delle metriche calcolate, al menu di 
 
 Per confrontare in modo rapido e semplice un modello di attribuzione con un altro, fai clic con il pulsante destro del mouse su una metrica e seleziona (Aggiungi modello di attribuzione comparativo) **[!UICONTROL Compare Attribution Models]**:
 
-![Confrontare attribuzione](assets/compare-attribution.png)
+![Evidenziazione del pannello Workspace Confronta modelli di attribuzione](assets/compare-attribution.png)
 
 Questa scorciatoia ti consente di confrontare in maniera facile e veloce un modello di attribuzione con un altro senza trascinare una metrica e configurarla due volte.
