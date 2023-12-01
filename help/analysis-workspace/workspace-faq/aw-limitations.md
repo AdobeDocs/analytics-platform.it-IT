@@ -3,10 +3,10 @@ description: Scopri le limitazioni note in Adobe Analysis Workspace e nei relati
 title: Limitazioni note in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 82%
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,6 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 * La funzione Crea metrica da selezione è disabilitata quando i filtri sono utilizzati come righe di una tabella. Inoltre, la funzione Create metric from selection (Crea metrica da selezione) non deve essere applicata a colonne allineate su data.
 * La formattazione condizionale per le righe di suddivisione non può utilizzare intervalli personalizzati.
 * Le righe dei totali della tabella non possono includere tendenze quando si applica l’impostazione di calcolo dei totali sommando i valori delle righe (generalmente utilizzato per righe con elementi statici).
-* [!UICONTROL Contribution Analysis] può essere eseguita con granularità [!UICONTROL daily] _esclusivamente_. Non può essere eseguita con dati [!UICONTROL hourly], [!UICONTROL weekly], ecc.
 
 ## Visualizzazioni
 
