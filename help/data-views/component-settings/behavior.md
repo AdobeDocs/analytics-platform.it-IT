@@ -4,16 +4,16 @@ description: Specifica il comportamento di una dimensione o metrica nel reportin
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 93%
+source-wordcount: '297'
+ht-degree: 89%
 
 ---
 
 # Impostazioni del componente Comportamento
 
-Le impostazioni del comportamento sono disponibili sia per le dimensioni che per le metriche. Le impostazioni disponibili dipendono dal tipo di componente e dal tipo di dati dello schema.
+Le impostazioni del comportamento sono disponibili sia per le dimensioni che per le metriche. La disponibilità delle impostazioni dipende dal tipo di componente e dal tipo di dati dello schema.
 
 ![Impostazioni del comportamento](../assets/behavior-settings.png)
 
@@ -25,11 +25,11 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 {style="table-layout:auto"}
 
-![Dimensione sensibile a maiuscole e minuscole](../assets/case-sens-workspace.png)
-
 >[!NOTE]
 >
 >Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, il Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori maiuscoli precedono i valori minuscoli). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
+
+![Dimensione sensibile a maiuscole e minuscole](../assets/case-sens-workspace.png)
 
 ## Impostazioni del comportamento delle metriche
 
