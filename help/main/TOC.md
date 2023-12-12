@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+source-git-commit: 3d53fbcfea341f0cf9c1cf7da5296565eafff0f9
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 77%
+source-wordcount: '1045'
+ht-degree: 75%
 
 ---
 
@@ -162,7 +162,7 @@ ht-degree: 77%
       + [Condividere progetti](../analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](../analysis-workspace/curate-share/shareable-links.md)
       + [Progetti solo visualizzazione](../analysis-workspace/curate-share/view-only-projects.md)
-   + Esportazione {#export}
+   + Esporta {#export}
       + [Panoramica sull’esportazione](../analysis-workspace/export/export-project-overview.md)
       + [Scarica](../analysis-workspace/export/download-send.md)
       + [Invia ad altri](../analysis-workspace/export/t-schedule-report.md)
@@ -343,6 +343,7 @@ ht-degree: 77%
    + Dati Adobe Analytics {#aa-data}
       + [Utilizzare le dimensioni del canale di marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinare suite di rapporti con schemi diversi](../use-cases/aa-data/combine-report-suites.md)
+      + [Emulazione dei feed dati](../use-cases/emulating-data-feeds.md)
    + Dati complessi {#complex-data}
       + [Utilizzare gli array di oggetti](../use-cases/object-arrays.md)
    + Campi derivati {#derived-fields}
