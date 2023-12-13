@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: e49ea37f36d105e428bc6d04a6ed42a47e2d75fc
+source-git-commit: b41adb3f3fa4abbfa7be491e5a1fbf81e1623598
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2552'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ In base all’implementazione, i dati a livello di hit tradizionalmente raccolti
 | cust_visid | identityMap | oggetto | ID visitatore del cliente |
 | cust_visid | endUserIDs._experience.aacustomid.id | oggetto | L’ID visitatore del cliente. |
 | cust_visid | endUserIDs._experience.aacustomid.primary | booleano | Il codice spazio dei nomi ID visitatore del cliente. |
-| cust_visid | endUserIDs._experience.aacustomid.namespace.code | Utilizzato insieme a visid_low per identificare in modo univoco l’ID visitatore del cliente. |
+| cust_visid | endUserIDs._experience.aacustomid.namespace.code | string | Utilizzato insieme a visid_low per identificare in modo univoco l’ID visitatore del cliente. |
 | geo\_* | placeContext.geo.* | stringa, numero | Dati di geolocalizzazione, come paese, regione, città e altri |
 | visit_page_num | _experience.analytics.session.depth | number | Variabile utilizzata nella dimensione Profondità di hit. Questo valore aumenta di 1 per ogni hit generato dall’utente e viene ripristinato dopo ogni visita. |
 | event_list | commerce.purchases, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | string | Eventi di e-commerce standard e personalizzati attivati sull’hit. |
