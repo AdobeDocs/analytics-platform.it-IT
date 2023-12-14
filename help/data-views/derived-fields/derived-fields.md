@@ -4,10 +4,10 @@ description: Un campo derivato specifica la manipolazione in fase di report dei 
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
+source-git-commit: db61abfda71a26e4fae7134dfbb2f637b77e1e8c
 workflow-type: tm+mt
-source-wordcount: '5382'
-ht-degree: 12%
+source-wordcount: '5524'
+ht-degree: 10%
 
 ---
 
@@ -216,7 +216,7 @@ Applica i condizionali, in base a criteri definiti da uno o più campi. Questi c
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] container:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterion] (consultate operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>È diverso da</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con alcun termine</li><li>Non termina con</li><li>Non termina con alcun termine</li><li>È impostato</li><li>Non è impostato</li></ul><p>Numeriche</p><ul><li>È uguale a</li><li>È diverso da</li><li>È maggiore di</li><li>È maggiore o uguale a</li><li>È minore di</li><li>È minore o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul><p>Date</p><ul><li>È uguale a</li><li>È diverso da</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È prima di</li><li>È precedente o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 operatori per campo derivato. Un esempio di un singolo operatore è &quot;Il dominio di riferimento contiene google&quot;. </li></ul> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenitore:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterion] (consultate operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Then set value to], [!UICONTROL Otherwise set value to]:</p><ul><li>[!UICONTROL Value]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>È diverso da</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con alcun termine</li><li>Non termina con</li><li>Non termina con alcun termine</li><li>È impostato</li><li>Non è impostato</li></ul><p>Numeriche</p><ul><li>È uguale a</li><li>È diverso da</li><li>È maggiore di</li><li>È maggiore o uguale a</li><li>È minore di</li><li>È minore o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul><p>Date</p><ul><li>È uguale a</li><li>È diverso da</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È prima di</li><li>È precedente o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 operatori per campo derivato. Un esempio di un singolo operatore è &quot;Il dominio di riferimento contiene google&quot;. </li></ul> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -621,7 +621,7 @@ Il rapporto desiderato dovrebbe essere simile al seguente:
 
 ### Dati prima di {#concatenate-uc-databefore}
 
-| Origin | Destinazione |
+| Origine | Destinazione |
 |----|---:|
 | SLC | MCO |
 | SLC | LAX |
@@ -1162,10 +1162,10 @@ Raccogli dati che includono un ID store. Il valore storeID contiene come primi d
 |---|--:|
 | CA293842 | 1 |
 | CA423402 | 1 |
-| UT123418 | 1 |
-| UT189021 | 1 |
+| UT 123418 | 1 |
+| UT 189021 | 1 |
 | ID028930 | 1 |
-| OR234223 | 1 |
+| O234223 | 1 |
 | NV22342 | 1 |
 
 {style="table-layout:auto"}
@@ -1281,6 +1281,12 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 - Puoi avere un massimo di 100 campi derivati per connessione di Customer Journey Analytics.
 
 ## Ulteriori informazioni
+
+[`Trim`](#trim) e [`Lowercase`](#lowercase) sono funzioni già disponibili nelle impostazioni del componente in [Visualizzazioni dati](../component-settings/overview.md). L’utilizzo dei campi derivati consente di combinare queste funzioni per eseguire una trasformazione dei dati più complessa direttamente nel Customer Journey Analytics. Ad esempio, puoi utilizzare `Lowercase` per rimuovere la distinzione tra maiuscole e minuscole in un campo evento, quindi utilizzare [`Lookup`](#lookup) affinché il nuovo campo minuscolo corrisponda a un set di dati di ricerca con solo chiavi di ricerca in minuscolo. Oppure puoi utilizzare `Trim` per rimuovere i caratteri prima di eseguire la configurazione `Lookup` sul nuovo campo.
+
+Il supporto per i campi di ricerca e profilo nei campi derivati consente di trasformare i dati in base alle ricerche degli eventi e agli attributi del profilo. Questo può essere particolarmente utile in scenari B2B con dati a livello di account nei set di dati di ricerca o di profilo. Inoltre, questo supporto è utile per manipolare i dati nei campi comuni dai dati di ricerca (come informazioni sulla campagna e tipo di offerta) o dai dati di profilo (come livello membro e tipo di account).
+
+Per ulteriori informazioni sui campi derivati, consulta:
 
 - [Sfruttare al meglio i dati: un framework per l’utilizzo di campi derivati nel Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 

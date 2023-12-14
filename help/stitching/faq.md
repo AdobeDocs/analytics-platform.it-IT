@@ -3,10 +3,11 @@ title: Domande frequenti sull’unione
 description: Domande frequenti sull’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
+source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 34%
+source-wordcount: '1269'
+ht-degree: 29%
 
 ---
 
@@ -63,9 +64,9 @@ L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey 
 
 +++
 
-+++**In che modo Stitching gestisce le richieste RGPD e CCPA?**
++++**In che modo Stitching gestisce le richieste di privacy?**
 
-Adobe gestisce le richieste RGPD e CCPA in conformità alle leggi locali e internazionali. Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+Adobe gestisce le richieste di accesso ai dati personali in conformità alle leggi locali e internazionali. Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
 
 +++
 
