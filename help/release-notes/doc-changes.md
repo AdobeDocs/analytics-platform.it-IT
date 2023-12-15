@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9b51a28ca2d387aabd3ffde651eed6c37d28baa0
+source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2725'
 ht-degree: 77%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Dicembre 2023** | |
+| Guardrail | Customer Journey Analytics di voci aggiunto [guardrail](../admin/guardrails.md). |
 | Aggiornamenti della conversione valuta | Documentazione più chiara su come [configurare la conversione della valuta](/help/data-views/component-settings/format.md). |
 | Aggiornamenti alla documentazione di Rilevamento anomalie | La documentazione relativa al rilevamento delle anomalie si trovava in precedenza in una sezione relativa ad Analista virtuale. Sono state apportate le seguenti modifiche: <ul><li>Il termine Analista virtuale è stato rimosso dalla documentazione.</li><li>La sezione relativa a [Rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stato spostato direttamente sotto la sezione Analysis Workspace.</li></ul> |
 | **Ottobre 2023** | |
