@@ -3,10 +3,10 @@ title: Registri di audit
 description: Scopri come visualizzare e gestire i registri di audit del Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 66%
+source-wordcount: '735'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Au
 
 Per impostazione predefinita vengono visualizzati i registri di audit relativi alla data odierna e al giorno precedente.
 
-![Registro di audit che evidenzia oggi (14 ottobre 2022) e ieri (13 ottobre 2022). ](assets/audit_ui.png)
+![Registro di controllo che evidenzia oggi e ieri. ](assets/audit_ui.png)
 
 Per specificare quali colonne devono essere visibili, utilizza il selettore delle colonne in alto a destra.
 
