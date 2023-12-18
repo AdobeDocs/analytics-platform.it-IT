@@ -4,7 +4,7 @@ description: Scopri i guardrail per il Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
+source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 9%
@@ -191,7 +191,7 @@ Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https:/
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Righe per report | 3 milioni - 150 milioni | Guarddrail imposto dal sistema | Numero massimo di righe di reporting per report; valore basato sul pacchetto concesso in licenza. |
+| Righe per report | 3 milioni - 300 milioni | Guarddrail imposto dal sistema | Numero massimo di righe di reporting per report; valore basato sul pacchetto concesso in licenza. |
 | Raggruppamenti per tabella | 5 | Guarddrail imposto dal sistema | Numero massimo di raggruppamenti per tabella. |
 | Metriche per tabella | 5 | Guarddrail imposto dal sistema | Numero massimo di metriche per tabella. |
 | Frequenza di pianificazione | 1 | Guarddrail imposto dal sistema | Le esportazioni possono essere programmate una volta (1) al giorno o con una pianificazione più lunga (ad esempio, una volta ogni 2 giorni o settimanalmente). |
