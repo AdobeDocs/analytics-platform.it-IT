@@ -3,10 +3,10 @@ title: Utilizzare dimensioni e metriche di binding nel Customer Journey Analytic
 description: Scopri come attribuire dimensioni ad array di oggetti per complesse analisi di persistenza.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 15660e1560ef8b1be510c0103e0f4818f1019c3e
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 84%
+source-wordcount: '1337'
+ht-degree: 83%
 
 ---
 
@@ -78,7 +78,7 @@ Se desideri esaminare i ricavi per colore senza una dimensione di binding, la di
 | --- | --- |
 | arancione fluo | 2099 |
 
-Accedi a Data View Manager e associa il colore del prodotto al nome del prodotto:
+Vai a **[!UICONTROL Data views]** e associare il [!DNL Product Color] dimensione a [!DNL Product Name]:
 
 ![Dimensione di binding](../assets/binding-dimension.png)
 
@@ -251,7 +251,7 @@ Se ha usato [!UICONTROL Most Recent] allocazione con la dimensione termine di ri
 
 Anche se questo esempio include una sola persona, molte persone che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-Per attribuire correttamente i termini di ricerca ai ricavi, puoi associarli al nome del prodotto ogni volta che è presente la metrica Ricerche.
+Ora puoi eseguire il binding [!DNL Search Term] a [!DNL Product Name] quando [!DNL Searches] La metrica è presente per attribuire correttamente il termine di ricerca ai ricavi.
 
 ![Metrica di binding](../assets/binding-metric.png)
 
@@ -342,7 +342,7 @@ Con l’allocazione Più recente e scadenza Persona, il termine di ricerca `"gro
 
 Tuttavia, se hai associato `search_term` a `ProfileID`, le ricerche di ciascun profilo vengono isolate nel rispettivo profilo, e attribuite al programma giusto.
 
-![Associazione dei visitatori](../assets/binding-visitor.png)
+![Associazione dei visitatori](../assets/binding-profileid.png)
 
 Analysis Workspace attribuirà correttamente il secondo episodio di Orangey al termine di ricerca `"kids show"`, senza tenere conto delle ricerche effettuate per altri profili.
 
@@ -435,3 +435,8 @@ Se invece si associa `product_finding_method` alla metrica Aggiunte al carrello,
 | --- | --- |
 | ricerca | 399,99 |
 | navigazione | 19,99 |
+
+
+>[!MORELIKETHIS]
+>
+>[Dimension di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=it) esercitazione.
