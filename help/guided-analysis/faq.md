@@ -4,9 +4,9 @@ description: Domande frequenti sull’analisi guidata.
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 2fe26bb906600a1987d9f4a07c5863030d52173a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Domande frequenti sull’analisi guidata.
 
 +++**Come posso effettuare il provisioning della mia organizzazione per l’analisi guidata?**
 
-L’analisi guidata è un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se desideri iniziare a utilizzare questo componente aggiuntivo, contatta il team del tuo account di Adobe.
+L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntivo a pagamento per il Customer Journey Analytics. Se desideri iniziare a utilizzare questo componente aggiuntivo, contatta il team del tuo account di Adobe.
 
 +++
 
@@ -59,7 +59,7 @@ Mentre [Analysis Workspace](../analysis-workspace/home.md) e l&#39;analisi guida
 
 * **Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe dimensionali, mentre le colonne sono in genere metriche. I filtri possono essere applicati sia nelle righe che nelle colonne per ottenere i dati desiderati.
 
-* **L’analisi guidata è un’esperienza incentrata sugli eventi.** Ogni analisi inizia selezionando gli eventi, quindi è possibile aggiungere dimensioni e filtri per perfezionare i dati dell’evento.
+* **L’analisi guidata è un evento e un’esperienza incentrata sull’utente.** Ogni analisi inizia selezionando gli eventi, quindi è possibile aggiungere dimensioni e filtri per perfezionare i dati dell’evento.
 
 ![Visualizzazioni di analisi guidata e Analysis Workspace](assets/structure.png)
 
@@ -69,7 +69,7 @@ Prendi in considerazione l’esempio seguente in cui ti concentri sui dati intor
 
   ![Dimension centrato](assets/dimension-centered.png)
 
-* Un tipico approccio di analisi guidata incentrata sugli eventi sarebbe: &quot;Quanti utenti hanno visualizzato la home page?&quot;
+* Un tipico evento e un approccio di analisi guidata incentrato sull’utente consistono in: &quot;Quanti utenti hanno visitato la nostra home page?&quot;
 
   ![Evento centrato](assets/event-centered.png)
 
