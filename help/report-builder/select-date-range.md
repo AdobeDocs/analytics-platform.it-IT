@@ -1,15 +1,15 @@
 ---
 title: Come selezionare un intervallo di dati nel Report Builder nel Customer Journey Analytics
 description: Descrive come utilizzare il calendario, le date continue e le espressioni personalizzate nel Report Builder per il Customer Journey Analytics
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 1%
 
 ---
 
@@ -142,10 +142,10 @@ Nella tabella seguente sono elencati alcuni esempi di operatori di date.
 | Operatori data | Unità | Descrizione |
 |----------------|---------|--------------------|
 | +6d | Giorno | Aggiungi 6 giorni alla data di riferimento |
-| +1w | Settimana | Aggiungi una settimana intera alla data di riferimento |
-| -2m | Mese | Sottrarre 2 mesi interi alla data di riferimento |
+| +1 w | Settimana | Aggiungi una settimana intera alla data di riferimento |
+| -2 m | Mese | Sottrarre 2 mesi interi alla data di riferimento |
 | -4q | Trimestre | Sottrarre 4 trimestri alla data di riferimento |
-| -1y | Anno | Sottrai un anno alla data di riferimento |
+| -1 anno | Anno | Sottrai un anno alla data di riferimento |
 
 #### Espressioni data
 
@@ -157,7 +157,7 @@ Nella tabella seguente sono elencati alcuni esempi di espressioni di data.
 | tm-1d | Ultimo giorno del mese precedente |
 | td-52w | Lo stesso giorno, 52 settimane fa |
 | tm-11m-1d | Ultimo giorno dello stesso mese lo scorso anno |
-| “2020-09-06” | 9 settembre 2020 |
+| &quot;2020-09-06&quot; | 9 settembre 2020 |
 
 ## Intervallo di date dalla cella
 
@@ -183,7 +183,7 @@ Nell’elenco seguente sono descritti i formati di intervalli di date validi.
 
 - Puoi creare un intervallo di date statico impostato per il futuro. Ad esempio, potrebbe essere necessario impostare una data futura per il lancio di una campagna di marketing la prossima settimana. Questa opzione crea in anticipo un monitoraggio della cartella di lavoro per una campagna.
 
-## Modificare l’intervallo date
+## Modificare l’intervallo di date
 
 Puoi modificare l’intervallo di date di un blocco di dati esistente selezionando Modifica blocco di dati nel pannello COMANDI o selezionando il collegamento dell’intervallo di date nel pannello QUICK EDIT (MODIFICA RAPIDA).
 

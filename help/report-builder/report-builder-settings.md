@@ -1,12 +1,12 @@
 ---
 title: Come configurare le impostazioni per il Report Builder nel Customer Journey Analytics
 description: Descrive come impostare la modalità offline, la lingua, la data di fine e le impostazioni per la risoluzione dei problemi.
-role: Data Engineer, Data Architect, Admin, User
+role: Admin
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -53,7 +53,7 @@ Per selezionare la lingua utilizzata nell’interfaccia utente del Report Builde
 
    ![Riquadro Report Builder intervallo di date che mostra l’elenco Lingua con inglese selezionato.](./assets/image39.png)
 
-1. Fai clic su **Applica.**
+1. Clic **Applica.**
 
 ## Risoluzione dei problemi
 
