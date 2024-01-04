@@ -4,9 +4,9 @@ description: Scopri i guardrail per il Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
+source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1478'
 ht-degree: 9%
 
 ---
@@ -210,8 +210,9 @@ Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https:/
 | Connettore di origine di Adobe Analytics per Real-time Customer Profile (A4T non abilitato) | &lt; 2 minuti |
 | Connettore di origine di Adobe Analytics per Real-time Customer Profile (A4T abilitato) | &lt; 30 minuti |
 | Acquisizione dei dati nel Data Lake da Edge Network o acquisizione in streaming | &lt; 60 minuti |
-| Acquisizione dei dati nel Data Lake dal connettore di origine di Adobe Analytics | &lt; 90 minuti |
+| Acquisizione dei dati nel Data Lake dal connettore di origine di Adobe Analytics | &lt; 2,25 ore |
 | Acquisizione dei dati nel Customer Journey Analytics da Data Lake | &lt; 90 minuti |
+| Stitching (funzione facoltativa; vedere [Panoramica sull’unione](../stitching/overview.md) per ulteriori informazioni) | &lt; 3,25 ore |
 | Backfill del connettore di origine Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
 | Frequenza di aggiornamento per tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento). |
