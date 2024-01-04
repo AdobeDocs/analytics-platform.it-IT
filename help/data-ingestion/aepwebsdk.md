@@ -4,10 +4,11 @@ description: Spiega come inserire dati in Customer Journey Analytics tramite Ado
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 84%
+source-wordcount: '3279'
+ht-degree: 83%
 
 ---
 
@@ -53,8 +54,7 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**.
-.
+1. Seleziona **[!UICONTROL Create schema]**. .
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
@@ -101,6 +101,10 @@ Per configurare lo schema:
    ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-schema-plus.png)
 
 1. Nel pannello [!UICONTROL Field Properties] (Proprietà campo), inserisci `Identification` come nome, **[!UICONTROL Identification]** (Identificazione) come [!UICONTROL Display name] (Nome di visualizzazione), seleziona **[!UICONTROL Object]** (Oggetto) come [!UICONTROL Type] (Tipo) e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group] (Gruppo di campo).
+
+   >[!NOTE]
+   >
+   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (like `ecid`, `crmId`e altri elementi necessari) al gruppo di campi e selezionarlo.
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
@@ -228,7 +232,7 @@ Per impostare il flusso di dati:
 
 Il flusso di dati è ora configurato per inoltrare i dati raccolti dal sito Web al set di dati in Adobe Experience Platform.
 
-Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it).
+Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en).
 
 
 

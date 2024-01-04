@@ -4,10 +4,11 @@ description: Spiegare come acquisire i dati nel Customer Journey Analytics trami
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 59%
+source-wordcount: '2179'
+ht-degree: 57%
 
 ---
 
@@ -53,8 +54,7 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**.
-.
+1. Seleziona **[!UICONTROL Create schema]**. .
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
@@ -84,7 +84,7 @@ Per configurare lo schema:
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
-   1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL Blinding Light]** dall’elenco. Questo gruppo di campi è stato creato per tenere traccia dei progressi degli utenti durante l&#39;esecuzione di un gioco fittizio intitolato Blinding Light su una console.
+   1. In [!UICONTROL Add fields groups] , seleziona la **[!UICONTROL Blinding Light]** gruppo di campi dall&#39;elenco. Questo gruppo di campi è stato creato per tenere traccia dei progressi degli utenti durante l&#39;esecuzione di un gioco fittizio intitolato Blinding Light su una console.
 
       ![Gruppo di campi Luce accecante](assets/schema-fieldgroup-blindinglight.png)
 
@@ -101,6 +101,10 @@ Per configurare lo schema:
    ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-gamingschema-plus.png)
 
 1. In [!UICONTROL Field Properties] pannello, invio `identification` come [!UICONTROL Field name], **[!UICONTROL Identification]** come [!UICONTROL Display name], seleziona **[!UICONTROL Object]** come [!UICONTROL Type] e seleziona **[!UICONTROL ExperienceEvent Core v2.1]** come [!UICONTROL Field Group].
+
+   >[!NOTE]
+   >
+   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (like `ecid`, `crmId`e altri elementi necessari) al gruppo di campi e selezionarlo.
 
    ![Oggetto di identificazione](./assets/identification-field-gaming.png)
 
@@ -228,7 +232,7 @@ Per impostare il flusso di dati:
 
 Il flusso di dati è ora configurato per inoltrare i dati raccolti dal gioco al set di dati in Adobe Experience Platform.
 
-Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it).
+Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en).
 
 ## Usa API server di rete Edge
 
