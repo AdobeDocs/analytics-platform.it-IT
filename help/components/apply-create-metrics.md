@@ -3,10 +3,11 @@ description: In Analysis Workspace, le metriche possono essere utilizzate in due
 title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 24%
+source-wordcount: '361'
+ht-degree: 22%
 
 ---
 

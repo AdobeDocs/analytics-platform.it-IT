@@ -4,9 +4,10 @@ description: Spiega come inserire e utilizzare i dati batch in Customer Journey 
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1778'
 ht-degree: 87%
 
 ---
@@ -48,8 +49,7 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**.
-.
+1. Seleziona **[!UICONTROL Create schema]**. .
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Individual Profile]**.
@@ -223,7 +223,7 @@ Consulta [Mappare un file CSV sopra uno schema XDM esistente](https://experience
 - come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM.
 - utilizzare modelli di mappatura,
 - utilizzare i campi calcolati per garantire che i dati batch siano conformi a quanto previsto dallo schema,
-- E altro ancora.
+- e altro ancora.
 
 
 ## Configurare una connessione

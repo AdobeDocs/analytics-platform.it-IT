@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 71%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +30,7 @@ La pagina Progetti contiene le informazioni riportate di seguito.
 
 | Elemento | Descrizione |
 |---|---|
-| [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
+| [Modifica preferenze](/help/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
 | [Crea cartella](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
 | [Crea progetto](/help/analysis-workspace/build-workspace-project/create-projects.md) | Avvia un nuovo progetto da zero. |
 | Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scorecard per dispositivi mobili. [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it), o [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
@@ -77,7 +78,7 @@ Le impostazioni includono:
 
 | Impostazione | Descrizione |
 |---|---|
-| Progetto Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
+| Nome progetto | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
 | Creato da | Nome del proprietario del progetto. |
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |

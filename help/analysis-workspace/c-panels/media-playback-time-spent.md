@@ -2,12 +2,12 @@
 title: Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)
 description: Come utilizzare e interpretare il pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) in Analysis Workspace.
 feature: Panels
-role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 74%
+source-wordcount: '938'
+ht-degree: 71%
 
 ---
 

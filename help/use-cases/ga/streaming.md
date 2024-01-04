@@ -3,9 +3,10 @@ title: Configurare dati Google Analytics in streaming in Adobe Experience Platfo
 description: Scopri come configurare la tua implementazione per inviare un livello di dati Google ad Adobe Experience Platform
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---

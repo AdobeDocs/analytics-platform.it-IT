@@ -3,10 +3,11 @@ description: Scopri come visualizzare le anomalie in una tabella o in un grafico
 title: Come visualizzare le anomalie in Analysis Workspace
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 89%
+source-wordcount: '479'
+ht-degree: 88%
 
 ---
 

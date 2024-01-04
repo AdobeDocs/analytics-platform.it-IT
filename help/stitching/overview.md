@@ -4,10 +4,11 @@ description: Panoramica sull’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 21%
+source-wordcount: '1428'
+ht-degree: 16%
 
 ---
 
@@ -58,10 +59,10 @@ Quando l&#39;organizzazione soddisfa tutti i prerequisiti e comprende [limitazio
 1. Contatta l’Assistenza clienti di Adobe con le seguenti informazioni:
 
    * Richiesta per abilitare l’unione.
-   * ID set di dati per il set di dati da ridigitare.
+   * ID del set di dati per il set di dati da reimpostare.
    * Nome della colonna dell’ID persistente per il set di dati desiderato (identificatore visualizzato su ogni riga).
    * Il nome della colonna dell’ID transitorio per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
-   * Preferenza di [ripetizione](explained.md) frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, o una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
+   * Preferenza di [ripetizione](explained.md) frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
    * Nome della sandbox.
 
 

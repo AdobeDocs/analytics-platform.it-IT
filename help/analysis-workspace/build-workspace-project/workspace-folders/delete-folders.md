@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Eliminare le cartelle in Workspace
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 82%
+ht-degree: 70%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 82%
 **Linee guida**
 
 * L’eliminazione di una cartella non comporta l’eliminazione del suo contenuto. Il contenuto di una cartella eliminata (progetti o sottocartelle) viene spostato nella cartella immediatamente precedente nella gerarchia delle cartelle.
-* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti. Consulta [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza nell’accesso alle cartelle e ai progetti. Consulta [Informazioni sulle cartelle in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
 
 Per eliminare cartelle in Workspace
 

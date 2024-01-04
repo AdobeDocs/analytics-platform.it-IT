@@ -5,10 +5,11 @@ title: Inviare dati di Customer Journey Analytics ad altri tramite e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 57%
+source-wordcount: '951'
+ht-degree: 55%
 
 ---
 
@@ -81,7 +82,7 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 | **[!UICONTROL View expired schedules]** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova programmazione di consegna. |
 | **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
-Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
+Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account utente è disabilitato nell’applicazione, tutte le consegne pianificate vengono interrotte.
 Per ulteriori informazioni, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md).
 
 ## Proteggere un progetto pianificato tramite password {#password}

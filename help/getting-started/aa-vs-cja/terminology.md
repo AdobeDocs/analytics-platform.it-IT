@@ -4,10 +4,11 @@ description: Alcune differenze terminologiche
 solution: Customer Journey Analytics
 exl-id: f0f9aa1e-f9d2-4dcb-bbe9-7960412c094b
 feature: Basics
-source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 67%
+source-wordcount: '625'
+ht-degree: 57%
 
 ---
 

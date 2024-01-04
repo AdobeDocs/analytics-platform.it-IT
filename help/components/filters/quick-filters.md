@@ -2,12 +2,12 @@
 description: Utilizzare filtri rapidi in Analysis Workspace per il Customer Journey Analytics
 title: Filtri rapidi
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3d55105a7d4f4687ed0fc6d857c906eec707f6a6
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 8%
+source-wordcount: '1093'
+ht-degree: 7%
 
 ---
 

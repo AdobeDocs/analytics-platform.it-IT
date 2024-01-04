@@ -4,10 +4,11 @@ description: Scopri i componenti offerti dal Customer Journey Analytics e come u
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 56%
+source-wordcount: '1046'
+ht-degree: 50%
 
 ---
 
@@ -25,10 +26,10 @@ Puoi gestire i seguenti componenti:
 * [**Filtri**](filters/filters-overview.md): crea, gestisci, condividi e applica filtri potenti e mirati del pubblico ai tuoi rapporti. I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni.
 * [**Metriche calcolate:**](calc-metrics/calc-metr-overview.md) utilizza metriche e formule come nuovi componenti da utilizzare nel reporting
 * [**Dizionario dati**](/help/components/data-dictionary/data-dictionary-overview.md): aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel loro ambiente Analytics e a comprenderli meglio.
-* [**Intervalli di date:**](date-ranges/create.md) personalizza e perfeziona gli intervalli di date offerti da Analysis Workspace.
+* [**Intervalli di date**](date-ranges/create.md): personalizza e perfeziona gli intervalli di date offerti da Analysis Workspace.
 * [**Dimension**](/help/components/dimensions/view-dimensions.md): i Dimension sono variabili che in genere contengono valori stringa. Le dimensioni comuni includono Pagina e Dominio di riferimento.
 * [**Metriche**](/help/components/apply-create-metrics.md): consente di quantificare i punti dati in Analysis Workspace.
-* [**Progetti:**](/help/analysis-workspace/home.md) organizza e gestisci i progetti in Analysis Workspace.
+* [**Progetti**](/help/analysis-workspace/home.md): organizza e gestisci i progetti in Analysis Workspace.
 
 ## Componenti di Analysis Workspace
 
@@ -81,9 +82,9 @@ Puoi gestire i componenti direttamente nella barra a sinistra.
    |--- |--- |
    | [!UICONTROL **Tag**] | Organizzare o gestire i componenti tramite l’applicazione di tag. Per eseguire la ricerca per tag nella barra a sinistra, fai clic sul filtro o digita #. I tag fungono anche da filtri nei gestori dei componenti. |
    | [!UICONTROL **Preferito**] | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nella barra a sinistra e filtrarli nei gestori dei componenti. |
-   | [!UICONTROL **Approvazione**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
+   | [!UICONTROL **Approva**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
    | [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
-   | [!UICONTROL **Eliminazione**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
+   | [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
 
 I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, il [Gestione filtri](/help/components/filters/manage-filters.md).
 
@@ -117,10 +118,10 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
    |---------|----------|
    | [!UICONTROL **Approvato**] | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
    | [!UICONTROL **Preferiti**] | Mostra solo i componenti inclusi nell’elenco dei Preferiti. Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Gestire i componenti](#manage-components). |
-   | [!UICONTROL **Dimensioni**] | Mostra solo i componenti che sono Dimensioni. |
-   | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono Metriche. |
+   | [!UICONTROL **Dimensioni**] | Mostra solo i componenti Dimension. |
+   | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono metriche. |
    | [!UICONTROL **Filtri**] | Mostra solo i componenti che sono filtri. |
-   | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono Intervalli di date. |
+   | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono intervalli di date. |
    | [!UICONTROL **Mostra tutti**] | Mostra tutti i componenti. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Non approvato**] | Mostra solo i componenti non ancora contrassegnati come approvati da un amministratore. In qualità di amministratore, questo è utile per identificare i componenti che richiedono la revisione e l’approvazione. Questa opzione è disponibile solo per gli amministratori. |
 

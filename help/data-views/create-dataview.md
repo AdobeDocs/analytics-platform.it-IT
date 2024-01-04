@@ -4,10 +4,11 @@ description: Tutte le impostazioni disponibili per creare o modificare una visua
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 55%
+source-wordcount: '1304'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +26,7 @@ Per creare o modificare una visualizzazione dati:
 1. Per creare una visualizzazione dati, seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dall’elenco delle visualizzazioni dati per modificarla.
 
 
-## Configura
+## Configurare
 
 Per configurare una visualizzazione dati nuova o esistente:
 
@@ -86,7 +87,7 @@ Successivamente, puoi impostare i componenti di una visualizzazione dati e quind
 
    ![Scheda Componenti](assets/dataview-components.png)
 
-   La [!UICONTROL Connection] è visibile in alto a sinistra, e contiene i set di dati e i relativi [!UICONTROL Schema fields]. I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contains data]** e **[!UICONTROL is not deprecated]** per impostazione predefinita, in modo che vengano visualizzati solo i campi Schema che contengono dati e che non sono obsoleti.
+   È possibile visualizzare [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati e i relativi [!UICONTROL Schema fields] di seguito.  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contains data]** e **[!UICONTROL is not deprecated]** per impostazione predefinita, in modo che vengano visualizzati solo i campi Schema che contengono dati e che non sono obsoleti.
 
 1. Cerca un campo schema tramite ![Icona Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** oppure trova un campo spostandosi in una qualsiasi delle raccolte di set di dati, come ![Icona cartella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>In alternativa, puoi creare un campo derivato utilizzando ![Icona dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato** . Consulta [Campi derivati](./derived-fields/derived-fields.md) per ulteriori informazioni.
 
@@ -115,7 +116,7 @@ Se trascini una cartella di campi schema dalla barra a sinistra, vengono dispost
 
 È possibile duplicare metriche o dimensioni e quindi modificarne le impostazioni specifiche per creare facilmente più metriche o dimensioni da un singolo campo schema. Seleziona l’impostazione [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni, in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome descrittivo.
 
-**Filtrare i campi o set di dati dello schema**
+**Filtrare campi o set di dati dello schema**
 
 Puoi filtrare ![Icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) campi schema nella barra a sinistra per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] criteri ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
 

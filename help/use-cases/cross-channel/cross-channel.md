@@ -4,10 +4,11 @@ description: Analizza ed estrai informazioni dalle interazioni dei clienti lungo
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 62%
+source-wordcount: '482'
+ht-degree: 61%
 
 ---
 
@@ -21,7 +22,7 @@ L’analisi cross-channel consente un’unica visualizzazione consolidata del co
 
 1. [Creare schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) per i dati da inserire.
 1. [Creare set di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=it) per i dati da inserire.
-1. [Inserire dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=it):
+1. [Acquisire dati in Experienci Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=it):
    1. Dati basati su eventi ![evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) dal sito web o dall’app mobile tramite il connettore di origine Edge Network o Analytics.
    2. Dati profilo ![profilo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (ad esempio da un sistema di gestione delle relazioni con i clienti, un’applicazione del call center o un’applicazione fedeltà).
    3. Ricercare dati ![ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (ad esempio nome del prodotto, categoria da un sistema di informazioni sul prodotto).
@@ -30,9 +31,9 @@ L’analisi cross-channel consente un’unica visualizzazione consolidata del co
 1. Esegui qualsiasi preparazione dei dati personalizzati per garantire una chiave comune tra i set di dati delle serie temporali da inserire in Customer Journey Analytics.
 1. Attribuisci ai dati di ricerca un ID primario che possa unirsi a un campo nei dati dell’evento. Conta come righe nella licenza.
 1. Imposta lo stesso ID primario per i dati di profilo come ID primario dei dati dell’evento.
-1. [Creare una connessione](../../connections/overview.md) acquisire i set di dati rilevanti da Experience Platform a Customer Journey Analytics.
+1. [Creare una connessione](../../connections/overview.md) acquisire i set di dati rilevanti da Experienci Platform a Customer Journey Analytics.
 1. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) sulla connessione per selezionare le dimensioni e le metriche specifiche da includere nella visualizzazione. Le impostazioni di attribuzione e allocazione sono configurate anche nella visualizzazione dati. Queste impostazioni vengono calcolate al momento del rapporto.
-1. [Crea un progetto per configurare dashboard e rapporti in Analysis Workspace.](/help/analysis-workspace/home.md)
+1. [Creare un progetto](/help/analysis-workspace/home.md) per configurare dashboard e rapporti in Analysis Workspace.
 
 ## Considerazioni
 

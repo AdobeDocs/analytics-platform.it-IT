@@ -3,9 +3,10 @@ title: Panoramica sui filtri
 description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 23%
 
 ---
@@ -83,7 +84,7 @@ Il contenitore Persona include ogni visita e visualizzazione di pagina, schermat
 I contenitori Persona possono includere valori basati sulla cronologia generale di una persona:
 
 - Giorni precedenti al primo acquisto
-- Pagina di ingresso originale o schermata iniziale dell’app mobile
+- Pagina iniziale originale o schermata iniziale dell&#39;app mobile
 - Domini di riferimento originali
 
 ### Contenitore Sessione {#session}

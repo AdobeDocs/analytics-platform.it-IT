@@ -4,10 +4,10 @@ description: Mostra due metodi per stimare l’utilizzo e un metodo per la gesti
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 71%
+source-wordcount: '868'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 71%
 
 Per visualizzare l’utilizzo del Customer Journey Analytics, puoi utilizzare diversi metodi:
 
-* Aggiungi le righe dei dati dell’evento per ogni connessione. Consulta la sezione [Stimare la dimensione della connessione](#stimare la dimensione) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
+* Aggiungi le righe dei dati dell’evento per ogni connessione. Consulta [Stimare la dimensione della connessione](#estimate-connection-size) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
+
 * Puoi visualizzare l’utilizzo in tre modi, descritti più dettagliatamente di seguito:
    * Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso.
    * Utilizza Report Builder per creare rapporti sugli eventi del mese scorso.

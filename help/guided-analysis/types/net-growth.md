@@ -3,14 +3,16 @@ title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Net growth] view
+# [!UICONTROL Net growth] visualizza
 
 Il **[!UICONTROL Net growth]** tipo di visualizzazione fornisce informazioni sul tasso di guadagno o perdita degli utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
 

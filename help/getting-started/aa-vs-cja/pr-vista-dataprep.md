@@ -3,10 +3,11 @@ title: Regole di elaborazione, VISTA e classificazioni rispetto alla preparazion
 description: Scopri la trasformazione dei dati utilizzando le regole di elaborazione e VISTA rispetto all’utilizzo della preparazione dati
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 64%
+source-wordcount: '546'
+ht-degree: 59%
 
 ---
 

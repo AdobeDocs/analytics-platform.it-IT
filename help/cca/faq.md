@@ -5,10 +5,10 @@ exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 66%
+source-wordcount: '1057'
+ht-degree: 64%
 
 ---
 
@@ -49,7 +49,7 @@ L’unione live è disponibile circa una settimana dopo l’attivazione di Cross
 
 [Analytics tra dispositivi](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) è una funzione specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafico dei dispositivi.
 
-[Analisi cross-channel](/help/cca/overview.md) è una funzione specifica di Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Reimposta l’ID persona di un set di dati, consentendo di combinare facilmente quest’ultimo con altri set di dati. Questa funzione opera in modo simile all’unione basata sui campi di CDA, ma l’implementazione è diversa a causa della diversa architettura dei dati tra Adobe Analytics e Customer Journey Analytics.
+[Analisi cross-channel](/help/stitching/overview.md) è una funzione specifica di Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Reimposta l’ID persona di un set di dati, consentendo di combinare facilmente quest’ultimo con altri set di dati. Questa funzione opera in modo simile all’unione basata sui campi di CDA, ma l’implementazione è diversa a causa della diversa architettura dei dati tra Adobe Analytics e Customer Journey Analytics.
 
 ## In che modo Cross-Channel Analytics gestisce le richieste RGPD e CCPA?
 

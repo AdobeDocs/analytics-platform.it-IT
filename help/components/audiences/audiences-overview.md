@@ -3,10 +3,11 @@ title: Scopri la panoramica sulla pubblicazione di tipi di pubblico di Customer 
 description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer Journey Analytics
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 53%
+source-wordcount: '489'
+ht-degree: 50%
 
 ---
 

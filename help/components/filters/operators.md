@@ -3,10 +3,11 @@ title: Operatori filtro
 description: Determina il modo in cui un componente interagisce con un valore all’interno di un filtro.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 43%
+source-wordcount: '597'
+ht-degree: 37%
 
 ---
 
@@ -28,7 +29,7 @@ Il Generatore di filtri consente di confrontare e vincolare i valori utilizzando
 | contiene alcuni | Restituisce elementi che contengono una delle sottostringhe specificate. Ad esempio, l’immissione `"Search Results"` con questo operatore corrisponderebbe `"Search Results"`, `"Results of Search"`, `"Search"`, e `"Results"`. Questo operatore supporta fino a 100 parole delimitate da spazi. |
 | non contiene nessuno | Tutti gli elementi che corrispondono a qualsiasi sottostringa vengono esclusi dai risultati. Ad esempio, l’immissione `"Search Results"` escluderebbe `"Search Results"`, `"Results of Search"`, `"Search"`, e `"Results"`. Questo operatore supporta fino a 100 parole delimitate da spazi. |
 | inizia con | Restituisce elementi che iniziano con il carattere o le stringhe del valore inserito. |
-| non inizia con | Restituisce tutti gli elementi che non iniziano con i caratteri o le stringhe dei valori inseriti. |
+| non inizia con | Restituisce tutti gli elementi che non iniziano con i caratteri o le stringhe dei valori immessi. |
 | termina con | Restituisce elementi che terminano con il carattere o le stringhe del valore inserito. |
 | non termina con | Restituisce tutti gli elementi che non terminano con i caratteri o le stringhe del valore inserito. |
 | corrisponde | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. Supporta i caratteri jolly utilizzando un asterisco (`*`). Questo operatore distingue tra maiuscole e minuscole. Ad esempio:<ul><li>`a*e` corrisponde a `ae`, `abcde`, `adobe`, e `a whole sentence`.</li><li>`adob*` corrisponde a `adobe`, `adobe analytics`, e `adobo recipe`</li><li>`*dobe` corrisponde a `dobe`, `adobe`, e `cute little dobe`.</li></ul> |

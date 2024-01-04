@@ -1,17 +1,18 @@
 ---
 title: Visualizzazione attiva
 description: Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi.
-exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 35e009ca6c21754fe7127fe63eea41f8ed00943d
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Active] view
+# [!UICONTROL Active] visualizza
 
 Il **Attivo** fornisce informazioni sulla crescita e l’acquisizione degli utenti in un periodo specifico. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale è una misurazione degli utenti. Gli utenti sono suddivisi in quattro categorie:
 

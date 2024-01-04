@@ -2,12 +2,12 @@
 description: Consente di visualizzare facilmente i dati di confronto in Analysis Workspace, ad esempio per fare confronti con lo scorso mese, lo scorso anno e così via.
 title: Visualizzazione con grafici combinati
 feature: Visualizations
-role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 La [!UICONTROL Combo chart] visualizzazione consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
 
-Utilizza un [!UICONTROL Combo chart] per:
+Utilizza un [!UICONTROL Combo chart] a:
 
 * Confrontare gli ordini di questa settimana con quelli dello stesso momento lo scorso mese (e lo scorso anno), tutto in pochi clic.
 * Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Unique Visitors] e [!UICONTROL Revenue]) tra di loro sullo stesso grafico.

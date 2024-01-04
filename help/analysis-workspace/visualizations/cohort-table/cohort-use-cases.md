@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +62,6 @@ Una multinazionale nel settore dei media usa campagne mirate per incentivare gli
 
 Un grande rivenditore di abbigliamento ha diversi filtri di clienti che contribuiscono a grandi porzioni del fatturato. Ogni filtro ha specifici prodotti progettati e creati appositamente per tale filtro. Con ogni lancio di nuovi prodotti, vuole sapere in che modo il nuovo prodotto incrementa le vendite per varie coorti nel tempo. Utilizzando la nuova impostazione [!UICONTROL Latency Table] in [!UICONTROL Cohort Analysis], può analizzare il comportamento e il ricavo generato da un particolare filtro di clienti nei periodi precedente e successivo al lancio. Utilizzando tali informazioni si possono individuare i prodotti che generano nuovi ricavi e quelli che invece non risultano convincenti.
 
-## Utenti più fedeli – Caso d’utilizzo
+## Singola aderenza - Caso di utilizzo: utenti più fedeli
 
 Una grande compagnia aerea deve il suo successo e il suo fatturato soprattutto ai clienti fedeli che ritornano nel tempo. In molti casi, i viaggiatori più fedeli rappresentano la maggior parte del fatturato e per il successo a lungo termine è quindi fondamentale assicurare di mantenere tali clienti nel tempo. Può essere difficile individuare i clienti più fedeli e coerenti. Tuttavia, con la nuova impostazione [!UICONTROL Rolling Calculation] in [!UICONTROL Cohort Analysis], è possibile analizzare i filtri dei clienti fedeli e individuare i viaggiatori che hanno effettuato più acquisti, mese dopo mese. La compagnia può quindi riservare a tali viaggiatori premi ed altri bonus come riconoscimento della loro fedeltà. Inoltre, cambiando il tipo di coorte da Retention (Fidelizzazione) a Churn (Abbandono), può identificare i clienti che non hanno effettuato acquisti ripetuti e riservare a tali filtri specifiche promozioni volte a coinvolgerli nuovamente e incentivarne la fidelizzazione.

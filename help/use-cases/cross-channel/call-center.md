@@ -4,10 +4,11 @@ description: Scopri come creare un set di dati che collega i dati dei call cente
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 95%
 
 ---
 
@@ -44,11 +45,11 @@ Durante l’importazione dei dati in Platform, seguire questi suggerimenti può 
 Il Customer Journey Analytics richiede un identificatore comune per generare un [set di dati combinato](/help/connections/combined-dataset.md).
 
 * Se i set di dati hanno già un identificatore comune su ogni evento in entrambi i set di dati, puoi saltare questo passaggio e procedere alla creazione di una connessione.
-* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, puoi unire i dati utilizzando l’Analisi cross-channel. Per i passaggi su come abilitare CCA per questi due set di dati, consulta la sezione [Panoramica dell’Analisi cross-channel](/help/cca/overview.md).
+* Se uno dei set di dati ha un identificatore comune solo per alcuni eventi, puoi unire i dati utilizzando [Stitching](/help/stitching/overview.md) per i passaggi per abilitare l’analisi cross-channel per questi due set di dati.
 
 ## Creare una connessione in Customer Journey Analytics
 
-[Creare una connessione in Customer Journey Analytics.](/help/connections/create-connection.md)
+[Creare una connessione](/help/connections/create-connection.md) nel Customer Journey Analytics.
 
 * Se utilizzi CCA, è disponibile un nuovo set di dati uniti da utilizzare. Utilizza il campo ID unito appena creato come ID persona.
 * In caso contrario, puoi selezionare sia i set di dati Web originali che quelli del call center da utilizzare nella connessione.

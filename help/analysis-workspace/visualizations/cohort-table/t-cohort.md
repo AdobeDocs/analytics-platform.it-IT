@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Configurare un rapporto di analisi per coorte
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '939'
 ht-degree: 88%
 
 ---
@@ -23,7 +24,7 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 
    | Elemento | Descrizione |
    |--- |--- |
-   | **[!UICONTROL Inclusion Criteria]** | Puoi applicare fino a 10 filtri di inclusione e fino a 3 metriche di inclusione. Il dato definisce se un utente viene incluso in una coorte. Ad esempio, se il dato di inclusione è Orders (Ordini), solo gli utenti che hanno effettuato un acquisto durante l’intervallo di tempo dell’analisi della coorte saranno inclusi nella coorte iniziale.<br>L’operatore predefinito tra più metriche è AND, ma è possibile cambiarlo in OR. Inoltre, è possibile aggiungere alle metriche un filtro numerico. Ad esempio: “Visite >= 1”.</br> |
+   | **[!UICONTROL Inclusion Criteria]** | Puoi applicare fino a 10 filtri di inclusione e fino a 3 metriche di inclusione. Il dato definisce se un utente viene incluso in una coorte. Ad esempio, se il dato di inclusione è Orders (Ordini), solo gli utenti che hanno effettuato un acquisto durante l’intervallo di tempo dell’analisi della coorte saranno inclusi nella coorte iniziale.<br>L’operatore predefinito tra più metriche è AND, ma è possibile cambiarlo in OR. Inoltre, è possibile aggiungere alle metriche un filtro numerico. Ad esempio: &quot;Visite >= 1&quot;.</br> |
    | **[!UICONTROL Return Criteria]** | Puoi applicare fino a 10 filtri di ritorno e fino a 3 metriche di ritorno. Questa metrica indica se l’utente è stato mantenuto (Retention, fidelizzazione) o meno (Churn, abbandono). Ad esempio, se la metrica di ritorno è Visualizzazioni video, saranno considerati fidelizzati solo gli utenti che hanno visualizzato un video durante i periodi successivi (dopo il periodo in cui sono stati aggiunti a una coorte). Un altro dato che quantifica la fidelizzazione è Visits (Visite). |
    | **[!UICONTROL Granularity]** | Granularità temporale per Day, Week, Month, Quarter, o Year (Giorno, Settimana, Mese, Trimestre, Anno). |
    | **[!UICONTROL Type]** | **[!UICONTROL Retention]**(Fidelizzazione), impostazione predefinita: una coorte di fidelizzazione misura se le coorti dei visitatori ritornano a visitare la proprietà digitale nel tempo. Si tratta della coorte standard che abbiamo sempre usato e indica il comportamento degli utenti in merito a ritorno e visite ripetute. Nella tabella, una coorte [!UICONTROL Retention] è indicata in verde.<br>**[!UICONTROL Churn]**: una coorte di abbandono (anche detta di &quot;perdita&quot; o &quot;attrito&quot;) misura il modo in cui le coorti di persone abbandonano la proprietà digitale nel tempo. Abbandono = 1 - Fidelizzazione. [!UICONTROL Churn] è utile per misurare la fedeltà e le opportunità, in quanto mostra con quale frequenza i clienti non ritornano. Puoi usare churn per analizzare e individuare specifiche aree di interesse, ovvero i filtri di coorte che richiedono maggiore attenzione. Nella tabella, una coorte [!UICONTROL Churn] è indicata in rosso, in modo analogo all’abbandono nella visualizzazione **[!UICONTROL Flow]**.</br> |

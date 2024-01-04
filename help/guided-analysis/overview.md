@@ -4,10 +4,11 @@ description: Un metodo di analisi dei dati in Customer Journey Analytics che con
 keywords: analisi dei prodotti
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
-source-git-commit: f99d1ce1881cd1ed3262fa3d2b2a9e16f84aa288
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 
 | Tipo di analisi | Tipo di visualizzazione | Descrizione |
 | --- | --- | --- |
-| [!UICONTROL Impact] | [del prossimo maggio (?)](types/release.md) | Confrontare le prestazioni in periodi uguali prima e dopo il rilascio. |
+| [!UICONTROL Impact] | [Versione](types/release.md) | Confrontare le prestazioni in periodi uguali prima e dopo il rilascio. |
 | [!UICONTROL Impact] | [Primo utilizzo](types/first-use.md) | Misura l’impatto del primo utilizzo delle funzioni sugli indicatori chiave. |
 | [!UICONTROL Funnel] | [Attrito](types/friction.md) | Confronta i tassi di conversione tra passaggi. |
 | [!UICONTROL Funnel] | [Tendenze di conversione](types/conversion-trends.md) | Tieni traccia delle modifiche nei tassi di conversione nel tempo. |
@@ -34,7 +35,7 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 
 {style="table-layout:auto"}
 
-## Accedere ad
+## Accesso
 
 Se la tua organizzazione dispone del provisioning per l’analisi guidata, puoi accedervi dalla pagina home del Customer Journey Analytics.
 

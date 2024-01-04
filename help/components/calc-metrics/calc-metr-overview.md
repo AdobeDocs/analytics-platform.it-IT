@@ -3,7 +3,8 @@ title: Panoramica delle metriche calcolate
 description: Scopri le metriche filtrate derivate in fase di esecuzione dei rapporti.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 90%

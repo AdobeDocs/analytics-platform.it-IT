@@ -3,10 +3,12 @@ title: Casi di utilizzo del settore
 description: Casi di utilizzo del settore per l’analisi guidata
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 2%
+source-wordcount: '1481'
+ht-degree: 1%
 
 ---
 

@@ -3,10 +3,11 @@ description: 'In Analysis Workspace, il confronto delle date ti consente di pren
 title: Confronto delle date
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 86%
+source-wordcount: '660'
+ht-degree: 85%
 
 ---
 
@@ -55,7 +56,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** (Aggiungi una colonna periodo di tempo) ![Elenco colonne tabella con la colonna Aggiungi periodo di tempo evidenziata ](assets/add-time-period-column.png)
+1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona (Confronta periodi di tempo) **[!UICONTROL Add Time Period Column]** ![Elenco colonne tabella con la colonna Aggiungi periodo di tempo evidenziata ](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 

@@ -1,14 +1,14 @@
 ---
 title: Panoramica sulle annotazioni
 description: Come utilizzare le annotazioni in Workspace.
-role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 51%
+source-wordcount: '291'
+ht-degree: 50%
 
 ---
 

@@ -3,10 +3,11 @@ title: Cos’è un’analisi per coorte?
 description: Scopri l’analisi per coorte in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 70%
+source-wordcount: '492'
+ht-degree: 63%
 
 ---
 
@@ -65,4 +66,4 @@ Puoi creare le coorti in base a una dimensione selezionata anziché in base al t
 
 ![Un rapporto di coorte che mostra un rapporto personalizzato con dimensioni selezionate non come coorte basata sul tempo predefinita.](assets/cohort-customizable-cohort-row.png)
 
-Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Per istruzioni su come impostare ed eseguire un rapporto per coorte, vai a [Configurare un rapporto di analisi per coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).

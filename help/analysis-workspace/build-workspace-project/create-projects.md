@@ -2,12 +2,12 @@
 description: Scopri come creare un progetto in Analysis Workspace
 title: Creare progetti
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ Le sezioni seguenti descrivono come creare un progetto e iniziare ad aggiungere 
 
 [Pannelli](/help/analysis-workspace/c-panels/panels.md) sono alla base di qualsiasi progetto in Analysis Workspace. I pannelli vengono utilizzati per organizzare il contenuto (visualizzazioni e componenti) di un progetto.
 
-Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente.
+Molti dei pannelli forniti in Analysis Workspace generano un set completo di analisi basate su alcuni input dell’utente.
 
 Per aggiungere un pannello:
 

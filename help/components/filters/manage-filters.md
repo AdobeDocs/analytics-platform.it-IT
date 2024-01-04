@@ -3,10 +3,11 @@ title: Gestione filtri
 description: Gestire i filtri in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
-source-git-commit: 8e04cdf67a365cb229660223547d60a4b8991f36
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 18%
+source-wordcount: '672'
+ht-degree: 19%
 
 ---
 

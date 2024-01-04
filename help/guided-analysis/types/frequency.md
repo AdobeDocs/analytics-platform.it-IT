@@ -3,14 +3,16 @@ title: Visualizzazione frequenza
 description: Misura l’interazione in base alla frequenza d’uso.
 feature: Guided Analysis
 keywords: analisi dei prodotti
-source-git-commit: 645c7913aea309fc52f5a474050406d5e6cbc0e9
+exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Frequency] view
+# [!UICONTROL Frequency] visualizza
 
 Il **[!UICONTROL Frequency]** visualizzare i dati degli eventi dei gruppi in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa vista contiene contenitori che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 

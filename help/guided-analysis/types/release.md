@@ -4,14 +4,15 @@ description: Confrontare le prestazioni in periodi uguali prima e dopo il rilasc
 feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
-source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# [!UICONTROL Release] view
+# [!UICONTROL Release] visualizza
 
 Il **[!UICONTROL Release]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una determinata data. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 

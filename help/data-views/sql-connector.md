@@ -5,10 +5,11 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 hide: true
 hidefromtoc: true
-exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
+exl-id: 1827a637-6c0f-43f2-862a-928089340d30
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2769'
 ht-degree: 1%
 
 ---
@@ -170,9 +171,9 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
    4. Customer Journey Analytics visualizzazioni dati vengono visualizzate come tabelle nell&#39;elenco **[!UICONTROL ** Tabella **]** . Le tabelle di visualizzazione dati hanno il prefisso `dv_`.
 
-   5. Trascinare le tabelle che si desidera usare nell&#39;area di disegno.
+   5. Trascinare le tabelle che si desidera utilizzare nell&#39;area di lavoro.
 
-   Ora puoi usare i dati delle tabelle di visualizzazione dati per versione i rapporti e le visualizzazioni.
+   Ora puoi lavorare con i dati delle tabelle delle visualizzazioni dati per creare rapporti e visualizzazioni.
 
    Consulta [Connettere Tableau a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) per ulteriori informazioni.
 
@@ -230,7 +231,7 @@ Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
 
 | Pattern | Esempio |
 |---|---|
-| Individuazione schema | <pre>SELEZIONA * DA DV1 DOVE 1=0</pre> |
+| Individuazione dello schema | <pre>SELEZIONA * DA DV1 DOVE 1=0</pre> |
 | Classifica / Suddivisione | <pre>SELEZIONA dim1, SOMMA(metric1) COME M1 DA DV1 DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;RAGGRUPPA<br/> PER DIM1<br/><br/></pre><pre>SELEZIONA dim1, SOMMA(metric1) COME M1 DA DV1 DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/> filterId = &#39;12345&#39;RAGGRUPPA<br/> PER dim1<br/><br/></pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  E (dim2 = &#39;A&#39; O dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>RAGGRUPPA PER dim1</pre> |
 | clausola HAVING | <pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>AVENTI m1 > 100</pre> |
 | Distinct, top <br/>valori di dimensione | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` >= &#39;2022-01-01&#39; E \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>ORDINA PER SOMMA(metrica1)<br/>LIMITE 15</pre> |
@@ -258,11 +259,11 @@ Le metriche disponibili per la selezione sono:
 
 - definito nella visualizzazione dati,
 
-- metriche calcolate compatibili con il Visualizza di dati a cui il utente è accesso.
+- metriche calcolate compatibili con la visualizzazione dati a cui l’utente ha accesso.
 
 Puoi selezionare una metrica in base al suo ID racchiuso in una `SUM(metric)` come per altre origini SQL.
 
-È possibile utilizzare i:
+Puoi utilizzare:
 
 - `SELECT COUNT(*)` o `COUNT(1)` per ottenere la metrica delle occorrenze.
 
@@ -297,7 +298,7 @@ Puoi applicare espressioni metriche aggiuntive alle tue `SELECT` invece di avere
 | `+`, `-`, `*`, `/`, e `%` | Aggiungere, sottrarre, moltiplicare, dividere e modulare/rimanente |
 | `-X` o `+X` | Modifica del segno o di una metrica in cui X è l’espressione della metrica |
 | `PI()` | Costante di |
-| `POSITIVE`, `NEGATIVE`, `ABS`, `FLOOR`, `CEIL`, `CEILING`, `EXP`, `LN`, `LOG10`, `LOG1P`, `SQRT`, `CBRT`, `DEGREES`, `RADIANS`, `SIN`, `COS`, `TAN`, `ACOS`, `ASIN`, `ATAN`, `COSH`, `SINH`, e `TANH` | Funzioni matematiche unarie |
+| `POSITIVE`, , , `FLOOR`, , `CEILING``EXP``COSH``COS``ATAN``SIN``SINH``ASIN``ACOS``TAN``RADIANS``DEGREES``CBRT``SQRT``LOG10``LN``LOG1P``NEGATIVE``CEIL`e `ABS``TANH` | Funzioni matematiche unarie |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | binario funzioni matematiche |
 
 {style="table-layout:auto"}

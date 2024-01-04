@@ -1,12 +1,13 @@
 ---
 description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
-title: Crea filtri
+title: Creare filtri
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 3%
+source-wordcount: '1161'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +84,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i filtri. Per i
 1. Trascina un Dimension, un filtro o un evento dal riquadro di sinistra al contenitore.
 1. Continua ad aggiungere nuovi contenitori dal livello superiore **[!UICONTROL Options]** > **[!UICONTROL Add container]** nella parte superiore della definizione, oppure aggiungi contenitori da un contenitore alla logica di nidificazione.
 
-   **O**
+   **OPPURE**
 
    Seleziona una o più regole, quindi fai clic su **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. In questo modo la selezione diventa un contenitore separato.
 

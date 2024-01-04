@@ -4,10 +4,11 @@ description: Pagina di destinazione di Customer Journey Analytics.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 4754be1df196836bd44feb963c22749a3124c377
+role: User, Admin, Developer
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 85%
+source-wordcount: '299'
+ht-degree: 80%
 
 ---
 

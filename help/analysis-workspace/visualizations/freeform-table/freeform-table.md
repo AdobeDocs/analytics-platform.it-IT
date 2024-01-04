@@ -3,10 +3,11 @@ title: Tabella a forma libera
 description: Le tabelle a forma libera sono alla base dell’analisi dei dati in Workspace
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 91%
+source-wordcount: '468'
+ht-degree: 90%
 
 ---
 

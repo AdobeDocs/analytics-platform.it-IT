@@ -3,7 +3,8 @@ description: Adobe fornisce varie metriche calcolate che puoi utilizzare. In que
 title: Metriche calcolate predefinite
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
-source-git-commit: 5e69b1aceb767343882b9cc85c0011bb1593f4af
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 25%

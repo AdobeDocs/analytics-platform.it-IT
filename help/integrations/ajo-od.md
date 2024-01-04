@@ -3,10 +3,11 @@ title: Integrare la gestione delle decisioni di Adobe Journey Optimizer con Adob
 description: Importa i dati generati da Adobe Journey Optimizer Decision Management e analizzali utilizzando Analysis Workspace all’interno di Customer Journey Analytics.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 20%
+source-wordcount: '698'
+ht-degree: 17%
 
 ---
 
@@ -29,7 +30,7 @@ Una volta che i dati di Gestione delle decisioni sono in Adobe Experience Platfo
 
 Seleziona e configura i seguenti set di dati:
 
-| Set di dati | Tipo di set di dati | Impostazioni della connessione | Descrizione |
+| Set di dati | Tipo di set di dati | Impostazioni di connessione | Descrizione |
 | --- | --- | --- | --- |
 | ODE DecisonEvents - _sandbox_ decisioning | Evento | ID persona: `IdentityMap` | Contiene dati generati automaticamente per gli eventi di decisione di Gestione delle decisioni. _Sandbox_ fa riferimento al nome specifico della sandbox. |
 | Set di dati evento feedback messaggi Adobe Journey Optimizer | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi. |
@@ -41,7 +42,7 @@ Seleziona e configura i seguenti set di dati:
 
 ## Creare una visualizzazione dati
 
-Dopo aver creato una connessione, puoi creare una o più [Viste dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) per configurare le dimensioni e le metriche desiderate disponibili in Customer Journey Analytics.
+Dopo aver creato una connessione, puoi creare una o più [Viste dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en) per configurare le dimensioni e le metriche desiderate disponibili in Customer Journey Analytics.
 
 >[!NOTE]
 >

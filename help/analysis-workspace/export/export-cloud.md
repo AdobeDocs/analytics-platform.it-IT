@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1974'
 ht-degree: 3%
 
 ---
@@ -220,6 +221,6 @@ Se in precedenza utilizzavi Data Warehouse per esportare dati Adobe Analytics, l
 | FTP / SFTP | No | Supporto legacy |
 | Azure | Sì | Sì |
 | Amazon S3 | Sì | Sì |
-| Piattaforma Google Cloud | Sì | Sì |
+| Google Cloud Platform | Sì | Sì |
 | Snowflake | Sì | No |
 | Frequenza di consegna | Giornaliero | Oraria |

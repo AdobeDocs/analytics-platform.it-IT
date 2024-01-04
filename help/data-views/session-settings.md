@@ -3,13 +3,14 @@ title: Impostazioni di sessione
 description: Impostazioni in una visualizzazione dati da utilizzare per definire la durata di una sessione e il trigger per avviare una nuova sessione
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
+exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
-
 
 # Impostazioni di sessione
 
@@ -45,4 +46,3 @@ Per definire il contesto di una sessione per una visualizzazione dati:
 
 
 4. Seleziona **[!UICONTROL Save]** o **[!UICONTROL Save and finish]** per salvare la definizione delle impostazioni di sessione.
-

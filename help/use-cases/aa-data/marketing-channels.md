@@ -4,10 +4,11 @@ description: Utilizza il connettore di origine di Analytics per inserire regole 
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 63%
+source-wordcount: '985'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +55,7 @@ Le impostazioni del canale di marketing operano in modo diverso per i dati di Pl
   ![Prima pagina della visita](../assets/first-page-of-visit.png)
 
 * **Override Last-Touch Channel** (Ignora canale ultimo contatto): questa impostazione in Marketing Channel Manager in genere impedisce ad alcuni canali di ottenere il merito del canale di ultimo contatto. Platform ignora questa impostazione, consentendo a canali ampi come “Direct” (Diretto) o “Internal” (Interno) di attribuire metriche in modo potenzialmente indesiderato. Adobe consiglia di rimuovere i canali in cui l’opzione “Override Last-Touch Channel” (Ignora canale ultimo contatto) è deselezionata.
-   * Puoi eliminare il canale di marketing diretto in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;Nessun valore&quot; di Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
+   * Puoi eliminare il canale di marketing &quot;Direct&quot; in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;No value&quot; (Nessun valore) del Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
    * In alternativa, puoi creare una classificazione del canale di marketing, classificando ciascun valore su se stesso, a eccezione dei canali da escludere nel Customer Journey Analytics. Quindi puoi utilizzare questa dimensione di classificazione quando crei una visualizzazione dati, al posto di `channel.typeAtSource`.
 
   ![Ignora canale ultimo contatto](../assets/override-last-touch-channel.png)

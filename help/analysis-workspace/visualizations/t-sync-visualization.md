@@ -4,7 +4,8 @@ keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’o
 title: Gestione delle origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 93%
@@ -35,7 +36,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 A differenza dell’architettura precedente, con questa architettura Analysis Workspace non crea più un livello duplicato nascosto in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
 
-**Esempi di casi d’uso:**
+**Esempi di utilizzo:**
 
 * Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati origine sono visualizzati in grigio:
 

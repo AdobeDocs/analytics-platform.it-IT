@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servizio query;servizio query;sintassi SQL;query service;Query service;sql syntax
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 65%
+source-wordcount: '826'
+ht-degree: 62%
 
 ---
 
@@ -49,7 +49,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 
 >[!NOTE]
 >
->Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite l’[Analisi cross-channel](/help/cca/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato nel Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, soprattutto se Stitching è stato attivato.
+>Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Stitching](/help/stitching/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato nel Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, soprattutto se Stitching è stato attivato.
 
 1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
 

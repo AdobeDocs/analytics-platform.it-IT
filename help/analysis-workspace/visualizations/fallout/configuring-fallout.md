@@ -3,10 +3,11 @@ description: Scopri come specificare i punti di contatto per creare una sequenza
 title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 68%
+source-wordcount: '704'
+ht-degree: 67%
 
 ---
 
@@ -49,7 +50,7 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Percorso finale </p> <p>(Impostazione predefinita) </p> </td> 
+   <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
    <td colname="col2"> <p>Vengono conteggiati i visitatori che "alla fine" atterreranno sulla pagina successiva del percorso, ma non necessariamente sull’evento successivo. </p> </td> 
   </tr> 
   <tr> 
