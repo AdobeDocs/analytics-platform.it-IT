@@ -5,7 +5,7 @@ title: Gestione esportazioni
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Seleziona un’intestazione di colonna per ordinare le esportazioni in base a ta
    | Nome | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni quando le creano, come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | ID | L’ID assegnato automaticamente all’esportazione al momento della creazione. <!-- True? --> |
    | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell’esportazione, come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
-   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Active], [!UICONTROL Complete], e [!UICONTROL Failed].<p> **Nota:** Per informazioni sulla risoluzione dei problemi relativi alle esportazioni non riuscite, vedere [Risoluzione dei problemi di esportazione non riuscita](/help/components/exports/troubleshoot-exports.md).</p> |
+   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Active], [!UICONTROL Completed], e [!UICONTROL Failed].<p> **Nota:** Per informazioni sulla risoluzione dei problemi relativi alle esportazioni non riuscite, vedere [Risoluzione dei problemi di esportazione non riuscita](/help/components/exports/troubleshoot-exports.md).</p> |
    | Tag | Visualizza tutti i tag applicati all&#39;esportazione. Per informazioni su come applicare i tag a un’esportazione, consulta [Assegnare tag a un’esportazione](#tag-an-export). |
    | Dimensione tabella (ultimo invio) | Dimensione dell&#39;esportazione l&#39;ultima volta che è stata inviata. |
    | Creato da | Utente che ha creato l’esportazione. |
