@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2554'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ In alternativa, puoi utilizzare `identityMap` per eseguire una query per le iden
 
 I campi XDM che puoi utilizzare nella query dipendono dalla definizione dello schema su cui si basano i set di dati. Assicurati di comprendere lo schema sottostante il set di dati.
 
-Per semplificare la mappatura tra le colonne Feed dati e i campi XDM, è consigliabile includere i [Modello Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) gruppo di campi nello schema dell’evento esperienza. Consulta [Best practice per la modellazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) e più specificamente [Adobe di gruppi di campi dello schema dell’applicazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+Per definire la mappatura tra le colonne Feed dati e i campi XDM, è necessario considerare la possibilità di verificare ed eventualmente (ri)utilizzare alcuni aspetti della [Modello Adobe Analytics ExperienceEvent](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) gruppo di campi. Consulta [Best practice per la modellazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) e più specificamente [Adobe di gruppi di campi dello schema dell’applicazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 Ad esempio, nel caso in cui desideri utilizzare *nome pagina* come parte del feed di dati:
 
