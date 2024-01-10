@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
 workflow-type: tm+mt
-source-wordcount: '5524'
+source-wordcount: '5674'
 ht-degree: 10%
 
 ---
@@ -1280,6 +1280,34 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 - È possibile utilizzare un massimo di dieci campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
    - Da questo massimo di dieci campi schema diversi, sono consentiti solo un massimo di tre campi schema di ricerca o schema di profilo.
 - Puoi avere un massimo di 100 campi derivati per connessione di Customer Journey Analytics.
+
+
+### Riepilogo dei limiti delle funzioni
+
+| Funzione | Limiti |
+|---|---|
+| <p>Case When</p> | <ul><li>5 casi Quando funzioni per campo derivato</li><li>200 operatori per campo derivato</li></ul> |
+| <p>Classifica</p> | <ul><li>5 Classificare le funzioni per campo derivato</li><li>100 righe per funzione</li></ul> |
+| <p>Concatena</p> | <ul><li>2 Concatenare funzioni per campo derivato</li></ul> |
+| <p>Trova e sostituisci</p> | <ul><li>2 Funzioni Trova e sostituisci per campo derivato</li></ul> |
+| <p>Ricerca</p> | <ul><li>5 Funzioni di ricerca per campo derivato</li></ul> |
+| <p>Minuscolo</p> | <ul><li>2 Funzioni minuscole per campo derivato</li></ul> |
+| <p>Unisci campi</p> | <ul><li>2 Funzioni dei campi unione per campo derivato</li></ul> |
+| <p>Regex Replace</p> | <ul><li>1 funzione Regex Replace per campo derivato</li></ul> |
+| <p>Split</p> | <ul><li>5 funzioni di suddivisione per campo derivato</li></ul> |
+| <p>Trim (Taglia)</p> | <ul><li>1 Funzione di ritaglio per campo derivato</li></ul> |
+| <p>Parsing URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
+
+{style="table-layout:auto"}
+
+### Operatori
+
+Un operatore in un costrutto If o Else If all&#39;interno di una funzione Case When è la combinazione di un criterio con **uno** valore. Ogni valore aggiuntivo per il criterio viene aggiunto al numero di operatori.
+
+Ad esempio, la condizione seguente utilizza 13 operatori.
+
+![Operatori di esempio](assets/operators-sample.png)
+
 
 ## Ulteriori informazioni
 
