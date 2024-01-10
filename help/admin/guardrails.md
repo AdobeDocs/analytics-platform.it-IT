@@ -4,9 +4,9 @@ description: Scopri i guardrail per il Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
+source-git-commit: 85aea47146d4079606ccdeb1bcc29d41bbf49837
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1480'
 ht-degree: 9%
 
 ---
@@ -76,7 +76,7 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 | Frequenza di aggiornamento del pubblico | 4 | Guarddrail imposto dal sistema | Frequenza massima in ore e [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. | |
 | Intervallo di lookback dell’aggiornamento del pubblico | 90 | Guarddrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guarddrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
-| Numero di tipi di pubblico di aggiornamento | 74, 100, 150 | Guarddrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento, il valore varia a seconda del pacchetto. |
+| Numero di tipi di pubblico di aggiornamento | 74, 100 | Guarddrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento, il valore varia a seconda del pacchetto (consulta Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
