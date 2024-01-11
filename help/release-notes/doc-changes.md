@@ -4,16 +4,26 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
 workflow-type: tm+mt
-source-wordcount: '2736'
-ht-degree: 76%
+source-wordcount: '2761'
+ht-degree: 75%
 
 ---
 
 # Customer Journey Analytics - Aggiornamenti della documentazione
 
 I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Journey Analytics, fin dalla sua introduzione.
+
+## 2024
+
+| Funzionalità | Descrizione |
+| --- | --- |
+| **Gennaio 2024** | |
+| Campi derivati | È stato aggiunto il riepilogo della funzione [limitazioni](/help/data-views/derived-fields/derived-fields.md#limitations) e spiegazione su come determinare il numero di [operatori](/help/data-views/derived-fields/derived-fields.md#operators) utilizzato in una funzione. |
+
+{style="table-layout:auto"}
+
 
 ## 2023
 
@@ -94,6 +104,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Pagina di destinazione | Nuovi aggiornamenti sulla [pagina di destinazione](/help/getting-started/landing.md). |
 | Pianificare le cartelle di lavoro | Pagina dedicata per descrivere come [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) in Report Builder. |
 | Supporto di array di oggetti per i set di dati di profilo e ricerca | Aggiornamento di [Utilizzare gli array di oggetti](/help/use-cases/object-arrays.md) e [Acquisire tipi di pubblico Adobe Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md) per il supporto di array di oggetti per set di dati di profilo e ricerca. |
+
+{style="table-layout:auto"}
 
 ## 2022
 
