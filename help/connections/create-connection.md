@@ -1,18 +1,18 @@
 ---
-title: Creare una connessione
-description: Descrive come creare una connessione a un set di dati di Platform in Customer Journey Analytics.
+title: Creare o modificare una connessione
+description: Descrive come creare o modificare una connessione a un set di dati di Experience Platform in Customer Journey Analytics.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 52%
+source-wordcount: '2617'
+ht-degree: 51%
 
 ---
 
-# Creare una connessione
+# Creare o modificare una connessione
 
 L’esperienza di creazione e modifica della connessione porta tutte le impostazioni di configurazione del set di dati e della connessione al centro dello schermo con un flusso di lavoro facilitato. Fornisce una selezione dei set di dati, una configurazione e un’esperienza di revisione dettagliate con informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato del batch, stato di backfill, ID persona e molto altro per ridurre il rischio di configurazione errata della connessione. Ecco una panoramica delle funzionalità:
 

@@ -5,9 +5,9 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1159'
 ht-degree: 85%
 
 ---
@@ -75,7 +75,7 @@ Una volta che la tua organizzazione soddisfa tutti i prerequisiti e ne comprende
    * Nome della sandbox.
 1. Dopo aver ricevuto la richiesta, l’Assistenza clienti Adobe collabora con i tecnici Adobe per abilitare l’Analisi cross-channel. Una volta abilitato, in Adobe Experience Platform compare un nuovo set di dati ridigitato contenente una nuova colonna ID persona. L’Assistenza clienti Adobe può fornire il nuovo ID set di dati e il nome della colonna ID persona.
 1. Quando è attivato per la prima volta, Adobe fornisce la compilazione dei dati uniti che risale all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa compilazione, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente.
-1. [Creare una connessione](/help/connections/create-connection.md) in Customer Journey Analytics utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
+1. [Creare o modificare una connessione](/help/connections/create-connection.md) in Customer Journey Analytics utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
 1. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) in base alla connessione.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->

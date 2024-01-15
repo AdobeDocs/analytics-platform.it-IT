@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 60%
+source-wordcount: '393'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/docs/
 
 ## Passaggio 3: configurare una connessione al set di dati nel Customer Journey Analytics
 
-Per creare rapporti sui set di dati di Experienci Platform, devi prima stabilire una connessione tra i set di dati in Experienci Platform e Customer Journey Analytics. Per ulteriori informazioni, consulta [Creare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
+Per creare rapporti sui set di dati di Experienci Platform, devi prima stabilire una connessione tra i set di dati in Experienci Platform e Customer Journey Analytics. Per ulteriori informazioni, consulta [Creare o modificare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
 
 ## Passaggio 4: creare una o più visualizzazioni dati
 

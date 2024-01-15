@@ -4,10 +4,10 @@ description: Scopri come configurare la tua implementazione per inviare un livel
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -21,4 +21,4 @@ La configurazione della raccolta dati prevede i seguenti passaggi:
 1. Installa l’[estensione Google Data Layer](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html?lang=it). Questa estensione funge da alternativa all’installazione dell’estensione Web SDK, specificamente destinata a un livello dati Google.
 1. [Crea uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it) nella raccolta dati di Adobe Experience Platform. Configura lo stream di dati per inviare dati ad Adobe Experience Platform. Attualmente è necessario mappare ogni oggetto di livello dati Google su un campo XDM applicabile. Adobe prevede di semplificare il flusso di lavoro di mappatura in futuro.
 
-Una volta implementati e pubblicati i tag desiderati sul sito, puoi procedere con la [creazione di una connessione](/help/connections/create-connection.md), quindi con la [creazione di una visualizzazione dati](/help/data-views/create-dataview.md).
+Dopo aver implementato e pubblicato i tag desiderati sul sito, puoi procedere con [creare una connessione](/help/connections/create-connection.md), quindi [creare una visualizzazione dati](/help/data-views/create-dataview.md).
