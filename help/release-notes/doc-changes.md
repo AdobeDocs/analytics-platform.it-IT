@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
+source-git-commit: 9beeb2013eb3b94dc55fb721233096f1813e2bf3
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2772'
 ht-degree: 75%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Gennaio 2024** | |
+| Gestire le connessioni | È stato aggiornato il [Gestire le connessioni](../connections/manage-connections.md) articolo, in base al feedback ricevuto dai clienti. |
 | Campi derivati | È stato aggiunto il riepilogo della funzione [limitazioni](/help/data-views/derived-fields/derived-fields.md#limitations) e spiegazione su come determinare il numero di [operatori](/help/data-views/derived-fields/derived-fields.md#operators) utilizzato in una funzione. |
 
 {style="table-layout:auto"}
