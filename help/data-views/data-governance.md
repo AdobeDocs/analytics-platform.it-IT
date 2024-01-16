@@ -4,10 +4,10 @@ description: Scopri in che modo le etichette dati e i criteri definiti in Adobe 
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 47%
+source-wordcount: '455'
+ht-degree: 41%
 
 ---
 
@@ -64,7 +64,7 @@ Fai clic su **[!UICONTROL Apply]** per vedere quali criteri sono abilitati.
 
 ## Effetti dei criteri abilitati sulle visualizzazioni dati
 
-Se i criteri **[!UICONTROL Enforce Analytics]** o **[!UICONTROL Enforce Download]** sono attivati, i componenti dello schema a cui sono associate determinate etichette di dati (come ad esempio C8 o C12) non possono essere aggiunti alle visualizzazioni dati.
+Se il **[!UICONTROL Enforce Analytics]** Se il criterio è attivato, i componenti dello schema a cui sono associate determinate etichette di dati (come C8) non possono essere aggiunti alle visualizzazioni dati.
 
 Questi componenti sono visualizzati in grigio nell’elenco della barra a sinistra [!UICONTROL Schema fields]:
 
