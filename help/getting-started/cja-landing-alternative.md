@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 214616922aa157c390265f76138f8836c80b72d5
+source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '446'
 ht-degree: 13%
 
 ---
@@ -23,13 +23,13 @@ Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto e nella 
 
 >[!TAB Workspace: previsione della serie temporale]
 
-La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale).
+La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). La previsione è disponibile solo per i dati relativi alle serie temporali.
 
 [![immagine](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
 
 >[!TAB Connessioni: record saltati]
 
-È ora possibile esaminare i motivi per cui i record vengono ignorati durante la definizione di una connessione. Per ulteriori informazioni, consulta Gestire le connessioni.
+È ora possibile esaminare i motivi per cui i record dei set di dati evento vengono ignorati durante la definizione di una connessione. Puoi ottenere dettagli sui motivi per cui i record vengono ignorati, ad esempio ID visitatore vuoti, conservazione dei dati e altri.
 
 [![immagine](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
 
