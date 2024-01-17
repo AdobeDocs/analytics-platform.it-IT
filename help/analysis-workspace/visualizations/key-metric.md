@@ -4,7 +4,7 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 24c2ab4a49b87b11046317a40882dde72a2a49c1
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 84%
@@ -37,7 +37,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un filtro (se desiderato):
 
-   ![Configurazione delle metriche chiave che mostra le opzioni per metrica, intervallo di date principale, intervallo di date di confronto e segmento.](assets/key-metric-config.png)
+   ![Configurazione della metrica chiave che mostra le opzioni per metrica, intervallo di date principale, intervallo di date di confronto e segmento.](assets/key-metric-config.png)
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
