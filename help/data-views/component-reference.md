@@ -5,7 +5,7 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 20f48259881bade1978909610055d6b20b894092
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 77%
@@ -36,6 +36,9 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 | [!UICONTROL Month] | Dimensione | Il mese in cui si è verificato un determinato evento. Il primo elemento dimensione è il primo mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese nell’intervallo di date. |
 | [!UICONTROL Quarter] | Dimensione | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
 | [!UICONTROL Year] | Dimensione | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
+| [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Se utilizzato in una definizione di filtro (ad esempio, &quot;[!UICONTROL Session Starts] exists’), si filtra fino al primo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Session Start Rate (Frequenza di inizio sessione)</li></p> |
+| [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all’ultimo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Session End Rate (Frequenza di fine sessione)</li></p> |
+| [!UICONTROL Time Spent (seconds)] | Metrica | Somma il tempo tra due valori diversi per una dimensione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metriche calcolate](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Tempo trascorso per persona</li><li>Time Spent Per Session (Tempo trascorso per sessione)</li></p> |
 
 {style="table-layout:auto"}
 
@@ -59,10 +62,7 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Person ID namespace] | Dimensione | Quale tipo di ID è costituito da [!UICONTROL Person ID]. Alcuni esempi: `email address`, `cookie ID`, `Analytics ID` |
 | [!UICONTROL Quarter of Year] | Dimensione suddivisa in base al tempo | Q1, Q2, Q3, Q4 |
 | [!UICONTROL Repeat session] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
-| [!UICONTROL Session Starts] | Metrica | Il numero di eventi che sono stati il primo evento di una sessione. Se utilizzato in una definizione di filtro (ad esempio, &quot;[!UICONTROL Session Starts] exists’), si filtra fino al primo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Session Start Rate (Frequenza di inizio sessione)</li></p> |
-| [!UICONTROL Session Ends] | Metrica | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può anche essere utilizzato in una definizione di filtro per filtrare gli elementi fino all’ultimo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Session End Rate (Frequenza di fine sessione)</li></p> |
 | [!UICONTROL Session Type] | Dimensione | Questa dimensione ha due valori: 1) [!UICONTROL First-Time] e 2) Ritorno. Il [!UICONTROL First-time] l’elemento riga include tutti i comportamenti (metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell’elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket &quot;Non applicabile&quot; per questa dimensione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
-| [!UICONTROL Time Spent (seconds)] | Metrica | Somma il tempo tra due valori diversi per una dimensione.<p>Questo componente deve essere incluso nella visualizzazione dati per i seguenti elementi [metriche calcolate](/help/components/calc-metrics/default-calcmetrics.md) per essere disponibile in Workspace: <ul><li>Tempo trascorso per persona</li><li>Time Spent Per Session (Tempo trascorso per sessione)</li></p> |
 | [!UICONTROL Time Spent per Event] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Event] bucket. |
 | [!UICONTROL Time Spent per Session] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Session] bucket. |
 | [!UICONTROL Time Spent per Person] | Dimensione | Intervalli [!UICONTROL Time Spent] metrica nei [!UICONTROL Person] bucket. |
