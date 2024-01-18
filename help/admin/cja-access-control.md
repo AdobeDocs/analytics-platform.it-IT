@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
+source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1063'
 ht-degree: 62%
 
 ---
@@ -56,13 +56,17 @@ Oltre ad essere aggiunto come amministratore di prodotto nella **Profilo prodott
 
      Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Controllo degli accessi in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
 
-* Esportare set di dati dalle destinazioni AEP
+* Esportare i set di dati nel cloud [Destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en)
+
+  >[!AVAILABILITY]
+  >
+  >La funzionalità descritta in questo articolo si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).
 
   Per eseguire questa attività, gli utenti devono inoltre disporre delle seguenti autorizzazioni di Experience Platform:
    * Gestire le destinazioni
    * Attivare le destinazioni
 
-     Per ulteriori informazioni sulle autorizzazioni di Experienci Platform Destinations, consulta [Panoramica sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
+     Per ulteriori informazioni sulle autorizzazioni di Experienci Platform Destinations, consulta [Panoramica sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
 
 ## Ruolo di amministratore del profilo di prodotto
 

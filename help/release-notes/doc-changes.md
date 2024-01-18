@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9beeb2013eb3b94dc55fb721233096f1813e2bf3
+source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
 workflow-type: tm+mt
-source-wordcount: '2772'
-ht-degree: 75%
+source-wordcount: '2789'
+ht-degree: 74%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Gennaio 2024** | |
+| Autorizzazioni necessarie per esportare i set di dati | Sono state aggiunte informazioni che spiegano [autorizzazioni richieste](/help/admin/cja-access-control.md) per esportare i set di dati nelle destinazioni cloud. |
 | Gestire le connessioni | È stato aggiornato il [Gestire le connessioni](../connections/manage-connections.md) articolo, in base al feedback ricevuto dai clienti. |
 | Campi derivati | È stato aggiunto il riepilogo della funzione [limitazioni](/help/data-views/derived-fields/derived-fields.md#limitations) e spiegazione su come determinare il numero di [operatori](/help/data-views/derived-fields/derived-fields.md#operators) utilizzato in una funzione. |
 
