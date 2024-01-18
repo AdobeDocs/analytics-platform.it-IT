@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 ## Inizio creazione account esportazione cloud
 
+1. Assicurati di soddisfare i requisiti [requisiti minimi](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) per esportare report nel cloud.
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 1. Il giorno [!UICONTROL Exports] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
 1. Seleziona [!UICONTROL **Aggiungi account**].
