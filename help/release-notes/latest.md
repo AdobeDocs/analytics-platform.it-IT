@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: efae6138159820414004a21de7c05b4373257876
+source-git-commit: 767170d382931423ff0ee60c037021bc87000150
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 31%
+source-wordcount: '448'
+ht-degree: 30%
 
 ---
 
@@ -23,7 +23,7 @@ Queste note sulla versione coprono il periodo di rilascio da fine ottobre 2023 a
 | **Analisi guidata - Tassi di mantenimento** | Nuovo tipo di visualizzazione che mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale all’interno dell’intervallo di date desiderato. [Ulteriori informazioni](../guided-analysis/types/retention-rates.md) | N/D | martedì 8 gennaio 2024 |
 | **Previsioni di serie temporali** | La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). | N/D | giovedì 31 gennaio 2024 |
 | **Analisi guidata - Linee di tendenza** | Le sovrapposizioni delle linee di tendenza sono ora disponibili nel [Utilizzo](/help/guided-analysis/types/usage.md) che consente di rappresentare un pattern più chiaro nei dati. | N/D | giovedì 17 gennaio 2024 |
-| **Pagina Dettagli connessioni - Record saltati** | È ora possibile esaminare i motivi per cui i record vengono ignorati durante la definizione di una connessione. [Ulteriori informazioni](../connections/manage-connections.md) | N/D | giovedì 31 gennaio 2024 |
+| **Pagina Dettagli connessioni - Record saltati** | È ora possibile esaminare i motivi per cui i record vengono ignorati durante la definizione di una connessione. | N/D | giovedì 31 gennaio 2024 |
 | **Aggiornamenti alla visualizzazione Riepilogo delle metriche chiave** | Quando si utilizza la visualizzazione Riepilogo delle metriche chiave, l’intervallo di date del confronto può ora essere aggiornato automaticamente, a seconda che l’opzione di intervallo di date del confronto scelta sia relativa all’intervallo di date principale o fissa. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md). | N/D | giovedì 17 gennaio 2024 |
 | **Analisi guidata - Flussi** | Nuovo tipo di visualizzazione che consente di esplorare singoli flussi di eventi utente. Questa analisi consente di trovare pattern di esperienza e raccontare storie di utenti migliori. | N/D | giovedì 31 gennaio 2024 |
 | **Analisi guidata - Miglioramenti della barra delle query** | Alcune impostazioni dei componenti sono ora incluse nella barra delle query, per migliorarne l’usabilità. | N/D | giovedì 31 gennaio 2024 |
