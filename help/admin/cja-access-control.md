@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
+source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 78%
+source-wordcount: '1013'
+ht-degree: 62%
 
 ---
 
@@ -21,21 +21,48 @@ Inoltre, vengono descritti modi più granulari per limitare l’accesso, come la
 
 ## Ruolo di amministratore di prodotto
 
-Gli amministratori di prodotto dispongono delle autorizzazioni per completare qualsiasi attività necessaria entro il Customer Journey Analytics. Devi essere aggiunto come Amministratore di prodotto al **Profilo prodotto Customer Journey Analytics** nel [Admin Console](https://adminconsole.adobe.com/enterprise/) in [!UICONTROL Customer Journey Analytics] > [!UICONTROL Admins] scheda > [!UICONTROL Add Admin]. Gli amministratori di prodotto dispongono delle seguenti autorizzazioni:
+Per impostazione predefinita, gli utenti a cui è assegnato il ruolo di amministratore prodotto dispongono delle autorizzazioni necessarie per eseguire la maggior parte delle attività all’interno del Customer Journey Analytics. Tuttavia, alcune attività richiedono autorizzazioni aggiuntive.
 
-* Creare/aggiornare/eliminare connessioni o visualizzazioni dati
-* Aggiornare o eliminare progetti, filtri, metriche calcolate, tipi di pubblico, annotazioni o filtri creati da altri utenti
+Per aggiungere un utente come amministratore di prodotto:
+
+1. Vai a [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+1. Seleziona [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **Amministratori**] scheda > [!UICONTROL **Aggiungi amministratore**].
+
+   Agli utenti aggiunti viene assegnato il [Autorizzazioni predefinite per l’amministratore del prodotto](#product-admin-default-permissions). Puoi anche concederli [autorizzazioni aggiuntive](#product-admin-additional-permissions) se necessario.
+
+### Autorizzazioni predefinite per l’amministratore del prodotto
+
+Gli amministratori di prodotto dispongono delle autorizzazioni per completare la maggior parte delle attività all’interno del Customer Journey Analytics.
+
+Gli amministratori di prodotto dispongono delle autorizzazioni necessarie per eseguire le attività seguenti per impostazione predefinita:
+
+* Creare, aggiornare ed eliminare visualizzazioni dati
+* Aggiornare ed eliminare progetti, filtri, metriche calcolate, pubblico, annotazioni o filtri creati da altri utenti
 * Condividere progetti Workspace con tutti gli utenti
 * Gestire l’attività di reporting in [Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-overview.md)
 
-Per poter creare, aggiornare o eliminare una [connessione](/help/connections/overview.md), non è sufficiente diventare amministratore di prodotto in Customer Journey Analytics. Per creare una connessione a un set di dati di Experience Platform, è necessario disporre anche di autorizzazioni Experience Platform. In particolare, devi far parte di un **profilo di prodotto Experience Platform** che ti fornisca le seguenti autorizzazioni:
+### Autorizzazioni aggiuntive per l’amministratore di prodotto
 
-* Modellazione dati: visualizzare schemi, gestire schemi
-* Gestione dati: visualizzare i set di dati, gestire i set di dati
-* Acquisizione dei dati: gestisci origini
-* Visualizzare gli spazi dei nomi delle identità
+Oltre ad essere aggiunto come amministratore di prodotto nella **Profilo prodotto Customer Journey Analytics** nel [Admin Console](https://adminconsole.adobe.com/enterprise/), sono necessarie autorizzazioni aggiuntive per completare le seguenti attività in Customer Journey Analytics:
 
-Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Controllo degli accessi in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
+* Creare, aggiornare ed eliminare dati [Connessioni](/help/connections/overview.md)
+
+  Per eseguire questa attività, gli utenti devono far parte di un **Profilo prodotto di Experience Platform** che fornisce le seguenti autorizzazioni:
+   * Modellazione dati: visualizzare schemi, gestire schemi
+   * Gestione dati: visualizzare i set di dati, gestire i set di dati
+   * Acquisizione dei dati: gestisci origini
+   * Visualizzare gli spazi dei nomi delle identità
+
+     Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Controllo degli accessi in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
+
+* Esportare set di dati dalle destinazioni AEP
+
+  Per eseguire questa attività, gli utenti devono inoltre disporre delle seguenti autorizzazioni di Experience Platform:
+   * Gestire le destinazioni
+   * Attivare le destinazioni
+
+     Per ulteriori informazioni sulle autorizzazioni di Experienci Platform Destinations, consulta [Panoramica sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
 
 ## Ruolo di amministratore del profilo di prodotto
 

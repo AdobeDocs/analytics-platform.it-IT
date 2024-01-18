@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Per esportare tabelle complete da Analysis Workspace:
    | Intervallo di lookback | Seleziona l’intervallo di tempo di reporting da includere in ciascun file di esportazione. Le opzioni includono [!UICONTROL **Oggi**], [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**], [!UICONTROL **Questa settimana**], e [!UICONTROL **Questo mese**]. <p>Questa opzione non viene visualizzata quando [!UICONTROL **Frequenza di esportazione**] è impostato su [!UICONTROL **Invia ora (una tantum)**]. |
    | Tabella dati | Visualizza la tabella a forma libera da esportare. Puoi modificare la tabella di dati trascinando i componenti dalla barra a sinistra alla tabella. La tabella viene aggiornata dinamicamente quando si aggiungono componenti all’area di lavoro.  <p>Tutti i segmenti applicati all’intera tabella del progetto vengono visualizzati nella parte superiore di ogni singola colonna della tabella.</p> |
    | Cancella | Cancella il contenuto della tabella dati. Questo consente di iniziare a creare una nuova tabella direttamente nella finestra di dialogo Nuova esportazione di tabella completa. |
-   | Frequenza di esportazione | Imposta la pianificazione per la frequenza con cui deve avvenire l’esportazione. <p>Puoi scegliere [!UICONTROL **Invia ora (una volta)**] per inviare l&#39;esportazione una sola volta. Quando selezioni questa opzione, l’esportazione viene avviata immediatamente.<p>In alternativa, puoi scegliere di inviare l’esportazione in base a una pianificazione definita. Quando si invia secondo una pianificazione, le opzioni includono [!UICONTROL **Giornaliero**], [!UICONTROL **Ogni settimana**], [!UICONTROL **Mensile per giorno della settimana**], [!UICONTROL **Mensile per giorno del mese**], [!UICONTROL **Annuale per giorno del mese**], e [!UICONTROL **Annuale per data specifica**]. </p><p>Quando selezioni una frequenza di esportazione, considera quanto segue:</p><ul><li>Le opzioni in [!UICONTROL **Intervallo di lookback**] cambia a seconda di ciò che selezioni qui.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>A seconda dell’opzione scelta, vengono visualizzati campi di configurazione aggiuntivi.</li></ul> |
+   | Frequenza di esportazione | Imposta la pianificazione per la frequenza con cui deve avvenire l’esportazione. <p>Puoi scegliere [!UICONTROL **Invia ora (una tantum)**] per inviare l&#39;esportazione una sola volta. Quando selezioni questa opzione, l’esportazione viene avviata immediatamente.<p>In alternativa, puoi scegliere di inviare l’esportazione in base a una pianificazione definita. Quando si invia secondo una pianificazione, le opzioni includono [!UICONTROL **Giornaliero**], [!UICONTROL **Ogni settimana**], [!UICONTROL **Mensile per giorno della settimana**], [!UICONTROL **Mensile per giorno del mese**], [!UICONTROL **Annuale per giorno del mese**], e [!UICONTROL **Annuale per data specifica**]. </p><p>Quando selezioni una frequenza di esportazione, considera quanto segue:</p><ul><li>Le opzioni in [!UICONTROL **Intervallo di lookback**] cambia a seconda di ciò che selezioni qui.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>A seconda dell’opzione scelta, vengono visualizzati campi di configurazione aggiuntivi.</li></ul> |
    | A partire dal | Il giorno e l’ora in cui deve iniziare l’esportazione pianificata. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Fino al | Il giorno e l&#39;ora di scadenza dell&#39;esportazione pianificata. L’esportazione pianificata non viene più eseguita dopo la data e l’ora impostate. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Formato file | Scegli se i dati esportati devono essere in formato .csv o .json. |
@@ -130,7 +130,7 @@ L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
 * Strutturare l’output dei dati come valori concatenati.
 
-* Esporta ad hoc o secondo una pianificazione. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
+* Esporta una tantum o in base a una pianificazione. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
 
 * Esporta file in formato CSV o JSON. (disponibile anche con [altre opzioni di esportazione](/help/analysis-workspace/export/export-project-overview.md).)
 
@@ -215,7 +215,7 @@ Se in precedenza utilizzavi Data Warehouse per esportare dati Adobe Analytics, l
 | Metriche | Limite di 5 | Senza limiti |
 | Righe di reporting | Limite di 3 milioni, 30 milioni, 150 milioni o 300 milioni, a seconda del livello | Senza limiti |
 | Numero di rapporti | Senza limiti | Senza limiti |
-| Consegna ad hoc | Sì | Sì |
+| Consegna ad hoc (una tantum) | Sì | Sì |
 | Pianificare una consegna ricorrente | Sì | Sì |
 | Consegna e-mail | No | Sì |
 | FTP / SFTP | No | Supporto legacy |
