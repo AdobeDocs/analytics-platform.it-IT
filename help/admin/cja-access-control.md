@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
+source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 60%
+source-wordcount: '1127'
+ht-degree: 56%
 
 ---
 
@@ -122,6 +122,9 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | **[!UICONTROL Data Views]** | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | **[!UICONTROL Reporting Tools]**: |   |
 | **[!UICONTROL Audit Logs Access]** | Questa autorizzazione applica il controllo delle autorizzazioni all’[API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) e all’interfaccia utente dei registri di controllo. |
+| **[!UICONTROL Analysis Workspace Access]** | Consente agli utenti di accedere ad Analysis Workspace in Customer Journey Analytics. |
+| [!UICONTROL **Accesso guidato alle analisi**] | Consente agli utenti di creare [Progetti di analisi guidata](/help/guided-analysis/overview.md). |
+| [!UICONTROL **Previsione**] | Consente agli utenti di accedere alla funzione di previsione in Analysis Workspace |
 | **[!UICONTROL Reporting Usage Admin]** | Consente agli utenti di visualizzare ed eliminare tutti i rapporti in esecuzione nella propria azienda. |
 | **[!UICONTROL Reporting Usage View]** | Consente agli utenti di visualizzare tutte le richieste di reporting simultanee. |
 | [!UICONTROL **Esportazione tabella completa**] | Consente agli utenti di [esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md). |
@@ -131,5 +134,9 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | **[!UICONTROL Annotation Creation]** | Consente agli utenti di creare [annotazioni](/help/components/annotations/overview.md). |
 | **[!UICONTROL Audience Creation]** | Consente agli utenti di creare [segmenti di pubblico](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Consente agli utenti di visualizzare [i segmenti di pubblico](/help/components/audiences/audiences-overview.md). |
+| [!UICONTROL **Condividere Collegamenti Al Progetto Con Chiunque**] | Consente agli utenti di [condividere progetti con chiunque.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=it#share-public-link) |
+| **[!UICONTROL Data View Tools]**: |   |
+| [!UICONTROL **Esportazione tabella completa**] | Consente agli utenti di [esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **Accesso a SQL Query Service**] | Consente agli utenti di accedere [Servizio query in AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it). |
 
 {style="table-layout:auto"}
