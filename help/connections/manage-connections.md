@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b41cc80310c49bd1b0c73f1323f86c8b280e15f
+source-git-commit: 852dbce716e151d5feee52e813c9db9d76d9ccea
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2322'
 ht-degree: 23%
 
 ---
@@ -118,17 +118,11 @@ Per visualizzare i dettagli di una connessione, selezionare un nome di connessio
 
 ![Finestra Tutti i set di dati con widget e impostazioni](assets/conn-details.png)
 
-La schermata Dettagli connessioni fornisce una visualizzazione dettagliata dello stato di una connessione. È possibile:
+L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagliata dello stato di una connessione. È possibile:
 
 * Controllare lo stato dei set di dati della connessione e del processo di acquisizione.
 * Identificare i problemi di configurazione che possono causare record ignorati o eliminati.
 * Vedere quando i dati sono disponibili per il reporting.
-
->[!IMPORTANT]
->
->Eventuali dati acquisiti prima del 13 agosto 2021 non vengono riflessi in questo [!UICONTROL Connections] .
-
-### Dettagli di connessione
 
 | Interfaccia utente | Descrizione |
 | --- | --- |
@@ -154,6 +148,10 @@ La schermata Dettagli connessioni fornisce una visualizzazione dettagliata dello
 | Schema | Schema di Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per il set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**se il set di dati è configurato per l’importazione di nuovi dati e<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** se il set di dati è configurato per non importare nuove importazioni di dati. |
 | [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill per il set di dati.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti,<p><span style="color:orange">●</span>   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill processing,<p><span style="color:green">●</span>   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p><span style="color:grey">●</span>   **[!UICONTROL _Disattivato_]** nel caso in cui non sia configurato alcun backfill. |
+
+>[!IMPORTANT]
+>
+>Eventuali dati acquisiti prima del 13 agosto 2021 non vengono riflessi nel [!UICONTROL Connections] di rete.
 
 ### Pannello Connessione
 
