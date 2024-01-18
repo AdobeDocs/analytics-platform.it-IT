@@ -5,15 +5,18 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
+source-git-commit: ef46598db68372b8b3b58dc06aa7d5faacca6cc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 13%
+source-wordcount: '520'
+ht-degree: 19%
 
 ---
 
 # Guida di Customer Journey Analytics
 
+Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer Journey Analytics. Il Customer Journey Analytics consente di raccogliere in Adobe Experience Platform i dati del cliente da un qualsiasi canale scelto (online e offline) e quindi di analizzarli in modo analogo all’attuale analisi dei dati digitali esistenti tramite Analysis Workspace.
+
+Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, per poter poi eseguire attività di attribuzione, filtri, segmentazione, flusso, abbandono, e così via tra i dati dei clienti.
 
 ## Novità
 
@@ -21,23 +24,23 @@ Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto e nella 
 
 >[!BEGINTABS]
 
->[!TAB Workspace: previsione della serie temporale]
+>[!TAB Analisi guidata - Tassi di mantenimento]
 
-La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). La previsione è disponibile solo per i dati relativi alle serie temporali.
+Nuovo tipo di visualizzazione che mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale all’interno dell’intervallo di date desiderato
 
-[![immagine](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
+[![immagine](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
 
->[!TAB Connessioni: record saltati]
+>[!TAB Analisi guidata - Linee di tendenza]
 
-È ora possibile esaminare i motivi per cui i record dei set di dati evento vengono ignorati durante la definizione di una connessione. Puoi ottenere dettagli sui motivi per cui i record vengono ignorati, ad esempio ID visitatore vuoti, conservazione dei dati e altri.
-
-[![immagine](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
-
->[!TAB Product Analytics: linee di tendenza]
-
-Le sovrapposizioni delle linee di tendenza sono ora disponibili nella vista Utilizzo guidato dell’analisi, che consente di rappresentare un pattern più chiaro nei dati.
+Le sovrapposizioni delle linee di tendenza sono ora disponibili nella visualizzazione Utilizzo, che consente di rappresentare un pattern più chiaro nei dati.
 
 [![immagine](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
+
+>[!TAB Visualizzazione di riepilogo delle metriche chiave]
+
+Quando si utilizza la visualizzazione Riepilogo delle metriche chiave, l’intervallo di date del confronto può ora essere aggiornato automaticamente, a seconda che l’opzione di intervallo di date del confronto scelta sia relativa all’intervallo di date principale o fissa.
+
+[![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
 
 >[!ENDTABS]
 
