@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -30,22 +30,23 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Attrito](friction.md).
 * **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-* **[!UICONTROL People]**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
+* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
+* **[!UICONTROL Segments]**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico
 
-La vista Tendenze di conversione offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+Il [!UICONTROL Conversion trends] visualizza offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Metric]**: la metrica da misurare. Le opzioni includono Sessioni e Utenti.
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono Linea.
-* **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione dal primo passaggio o dal passaggio precedente.
+* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Line].
+* **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione dal [!UICONTROL First step] o [!UICONTROL Previous step].
 
 >[!NOTE]
 >
 >Il **Media** nella tabella della vista Tendenze di conversione è diversa dalla **Totale** colonna nella [Vista frizione](friction.md) tabella. La prima rappresenta una media delle colonne dell’intervallo (ad esempio, media dei tassi di conversione giornalieri), mentre la seconda rappresenta un calcolo aggregato per l’intero intervallo di date.
 
-## Applica confronto temporale
+## Confronto temporale
 
 {{apply-time-comparison}}
 

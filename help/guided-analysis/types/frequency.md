@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,15 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Utilizzo](usage.md).
 * **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL People]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
+* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] e  [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
+* **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
 
 ## Impostazioni grafico
 
 Il [!UICONTROL Frequency] visualizza offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Metric]**: la metrica da misurare. Le opzioni includono [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] e  [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
 * **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Horizontal bar] e [!UICONTROL Stacked bar].
 
 ## Impostazioni bucket
@@ -51,7 +52,7 @@ Determina il modo in cui l’evento viene suddiviso in gruppi.
    * [!UICONTROL To]: la frequenza maggiore di questo valore è raggruppata nell’ultimo bucket.
    * [!UICONTROL Size]: intervallo di bucket.
 
-## Applica confronto temporale
+## Confronto temporale
 
 {{apply-time-comparison}}
 

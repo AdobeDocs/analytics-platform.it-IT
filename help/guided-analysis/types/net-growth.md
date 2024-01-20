@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,14 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Attivo](active.md).
 * **[!UICONTROL Events]**: l’evento che desideri misurare. Poiché questo tipo di visualizzazione è basato su utente, un utente che interagisce con l’evento una volta all’interno del periodo viene conteggiato come utente attivo. È possibile includere un evento in una query.
-* **[!UICONTROL People]**: il segmento che desideri misurare. È possibile includere un segmento in una query.
+* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
+* **[!UICONTROL Segments]**: il segmento che desideri misurare. È possibile includere un segmento in una query.
+
+## Confronto temporale
+
+{{apply-time-comparison}}
 
 ## Intervallo date
 

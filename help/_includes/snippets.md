@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 # Snippet
@@ -74,7 +74,7 @@ ht-degree: 64%
 
 {style="table-layout:auto"}
 
-## Applica confronto temporale {#apply-time-comparison}
+## Confronto temporale {#apply-time-comparison}
 
 È possibile confrontare il periodo di tempo corrente con un periodo precedente. Se selezionate un&#39;opzione in questo menu, ogni punto dati riceve una controparte con linee punteggiate di colore simile. Questa controparte rappresenta la stessa metrica nell’intervallo di date precedente selezionato. Impostando questa opzione si raddoppia il numero di elementi nel grafico e di righe nella tabella.
 

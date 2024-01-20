@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -30,24 +30,25 @@ Tutti gli utenti attivi (nuovo + repeat + return) appaiono come una tonalità di
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Fidelizzazione e abbandono degli utenti:** Offre una chiara visualizzazione dei periodi di fidelizzazione degli utenti. Riconoscere questi periodi di conservazione elevata o bassa può aiutare a prendere decisioni sui prodotti per incoraggiare la conservazione elevata o ridurre al minimo l’abbandono.
-* **Valutazione della campagna**: la visualizzazione di una campagna specifica può aiutarti a comprendere non solo la quantità di traffico generato, ma anche quanto la campagna abbia aiutato gli utenti a rimanere coinvolti.
+* **Valutazione della campagna**: la visualizzazione di una campagna specifica può aiutarti a comprendere quanto traffico ha generato e quanto ha aiutato gli utenti a rimanere coinvolti.
 * **Analisi del ciclo di vita degli utenti**: l’analisi della crescita degli utenti attivi durante l’intero ciclo di vita degli utenti può aiutare a identificare fasi specifiche in cui il coinvolgimento degli utenti subisce un calo. Ad esempio, se il numero di utenti inattivi per i singoli utenti in una fase di onboarding è elevato, ciò può indicare problemi di usabilità o la necessità di una migliore guida all’interno del prodotto.
 
 ## Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Crescita netta](net-growth.md).
 * **[!UICONTROL Events]**: l’evento che desideri misurare. Poiché questo tipo di visualizzazione è basato su utente, un utente che interagisce con l’evento una volta all’interno del periodo viene conteggiato come utente attivo. È possibile includere un evento in una query.
-* **[!UICONTROL People]**: il segmento che desideri misurare. È possibile includere un segmento in una query.
+* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
+* **[!UICONTROL Segments]**: il segmento in base al quale desideri filtrare i dati. È possibile includere un segmento in una query.
 
 ## Impostazioni grafico
 
 Il [!UICONTROL Active] visualizza offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Metric]**: la metrica da misurare. Le opzioni includono Numero di utenti e Percentuale di utenti.
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni disponibili sono Barre sovrapposte e Aree sovrapposte.
+* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Stacked bar] e [!UICONTROL Stacked area].
 
-## Applica confronto temporale
+## Confronto temporale
 
 {{apply-time-comparison}}
 
