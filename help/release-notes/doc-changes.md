@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
+source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 74%
+source-wordcount: '2859'
+ht-degree: 73%
 
 ---
 
@@ -20,6 +20,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Gennaio 2024** | |
+| Informazioni sulla migrazione di nuovi componenti durante la migrazione da Adobe Analytics | Sono state aggiunte informazioni a [Evoluzione da Adobe Analytics](/help/getting-started/aa-to-cja.md) che fa riferimento al nuovo [migrazione dei componenti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it) documentate nella Guida per l’amministratore di Adobe Analytics. |
+| È stato chiarito che alcune informazioni sono disponibili solo per gli amministratori | Sono state aggiunte informazioni che indicano che le colonne &quot;Ultimo utilizzo&quot; e &quot;Utilizzato in&quot; descritte in [Gestione metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md) e [Gestione filtri](/help/components/filters/manage-filters.md) sono disponibili solo per gli amministratori di sistema. |
 | Autorizzazioni necessarie per esportare i set di dati | Sono state aggiunte informazioni che spiegano [autorizzazioni richieste](/help/admin/cja-access-control.md) per esportare i set di dati nelle destinazioni cloud. |
 | Gestire le connessioni | È stato aggiornato il [Gestire le connessioni](../connections/manage-connections.md) articolo, in base al feedback ricevuto dai clienti. |
 | Campi derivati | È stato aggiunto il riepilogo della funzione [limitazioni](/help/data-views/derived-fields/derived-fields.md#limitations) e spiegazione su come determinare il numero di [operatori](/help/data-views/derived-fields/derived-fields.md#operators) utilizzato in una funzione. |

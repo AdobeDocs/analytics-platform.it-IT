@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 68%
+source-wordcount: '1450'
+ht-degree: 64%
 
 ---
 
@@ -81,6 +81,12 @@ Le funzioni o i componenti seguenti di Adobe Analytics non sono supportati:
 * Filtro bot
 * Misurazione di file multimediali in streaming
 * Livestream o trigger di Livestream
+
+### 5. Mappatura di progetti e componenti da Adobe Analytics al Customer Journey Analytics
+
+Migra i tuoi progetti e i relativi componenti associati da Adobe Analytics a Customer Journey Analytics.
+
+Prima che chiunque nell’organizzazione inizi la migrazione dei progetti, inizia i progetti di migrazione come descritto in [Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html), prima [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it)
 
 ## Prepararsi per le differenze fondamentali
 
