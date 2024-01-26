@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: 24b7e428b6652d3656d641ad030957b807d387d5
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '437'
 ht-degree: 30%
 
 ---
 
 # Note sulla versione corrente di Adobe Customer Journey Analytics (gennaio 2024)
 
-**Ultimo aggiornamento**: sabato 12 gennaio 2024
+**Ultimo aggiornamento**: sabato 26 gennaio 2024
 
 Queste note sulla versione coprono il periodo di rilascio da fine ottobre 2023 a gennaio 2024. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,13 +20,12 @@ Queste note sulla versione coprono il periodo di rilascio da fine ottobre 2023 a
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analisi guidata - Tassi di mantenimento** | Nuovo tipo di visualizzazione che mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale all’interno dell’intervallo di date desiderato. [Ulteriori informazioni](../guided-analysis/types/retention-rates.md) | N/D | martedì 8 gennaio 2024 |
-| **Previsioni di serie temporali** | La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). | giovedì 31 gennaio 2024 | giovedì 21 febbraio 2024 |
-| **Analisi guidata - Linee di tendenza** | Le sovrapposizioni delle linee di tendenza sono ora disponibili nel [Utilizzo](/help/guided-analysis/types/usage.md) che consente di rappresentare un pattern più chiaro nei dati. | N/D | giovedì 17 gennaio 2024 |
-| **Pagina Dettagli connessioni - Record saltati** | È ora possibile esaminare i motivi per cui i record vengono ignorati durante la definizione di una connessione. | N/D | giovedì 31 gennaio 2024 |
+| **Adobe Product Analytics - Tassi di mantenimento** | I tassi di mantenimento sono una nuova analisi guidata che mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale entro l’intervallo di date desiderato. [Ulteriori informazioni](../guided-analysis/types/retention-rates.md) | N/D | martedì 8 gennaio 2024 |
+| **Adobe Product Analytics - Linee di tendenza** | Le linee di tendenza sono una nuova analisi guidata disponibile nel [Utilizzo](/help/guided-analysis/types/usage.md) che consente di rappresentare un pattern più chiaro nei dati. | N/D | giovedì 17 gennaio 2024 |
 | **Aggiornamenti alla visualizzazione Riepilogo delle metriche chiave** | Quando si utilizza la visualizzazione Riepilogo delle metriche chiave, l’intervallo di date del confronto può ora essere aggiornato automaticamente, a seconda che l’opzione di intervallo di date del confronto scelta sia relativa all’intervallo di date principale o fissa. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md). | N/D | giovedì 17 gennaio 2024 |
-| **Analisi guidata - Flussi** | Nuovo tipo di visualizzazione che consente di esplorare singoli flussi di eventi utente. Questa analisi consente di trovare pattern di esperienza e raccontare storie di utenti migliori. | N/D | giovedì 31 gennaio 2024 |
-| **Analisi guidata - Miglioramenti della barra delle query** | Alcune impostazioni dei componenti sono ora incluse nella barra delle query, per migliorarne l’usabilità. | N/D | giovedì 31 gennaio 2024 |
+| **Adobe Product Analytics - Flussi** | Stream è una nuova analisi guidata che consente di esplorare singoli flussi di eventi utente. Questa analisi consente di trovare pattern di esperienza e raccontare storie di utenti migliori. | N/D | giovedì 31 gennaio 2024 |
+| **Adobe Product Analytics: miglioramenti della barra delle query** | Nell’analisi guidata, alcune impostazioni dei componenti sono ora incluse nella barra delle query, migliorando così la facilità d’uso. | N/D | giovedì 31 gennaio 2024 |
+| **Previsioni di serie temporali** | La previsione è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). | giovedì 31 gennaio 2024 | giovedì 21 febbraio 2024 |
 
 {style="table-layout:auto"}
 
