@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 64%
+source-wordcount: '1483'
+ht-degree: 63%
 
 ---
 
@@ -84,9 +84,17 @@ Le funzioni o i componenti seguenti di Adobe Analytics non sono supportati:
 
 ### 5. Mappatura di progetti e componenti da Adobe Analytics al Customer Journey Analytics
 
-Migra i tuoi progetti e i relativi componenti associati da Adobe Analytics a Customer Journey Analytics.
+Gli amministratori di Adobe Analytics possono eseguire la migrazione dei progetti Adobe Analytics e dei relativi componenti al Customer Journey Analytics.
 
-Prima che chiunque nell’organizzazione inizi la migrazione dei progetti, inizia i progetti di migrazione come descritto in [Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html), prima [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it)
+Il processo di migrazione include:
+
+* Ricreare i progetti Adobe Analytics nel Customer Journey Analytics.
+
+* Mappatura di dimensioni e metriche dalle suite di rapporti di Adobe Analytics alle dimensioni e alle metriche nelle visualizzazioni dati del Customer Journey Analytics.
+
+Prima di iniziare la migrazione, [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it).
+
+Dopo aver fatto tutte le preparazioni necessarie, puoi [Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html).
 
 ## Prepararsi per le differenze fondamentali
 
