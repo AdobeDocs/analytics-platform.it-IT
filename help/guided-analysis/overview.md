@@ -5,9 +5,9 @@ keywords: analisi dei prodotti
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6f80a1aa4ec9142d75fe1abb2f268dc60c7dd245
+source-git-commit: a5c2003a593917bce67346279a033a6041aff959
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -24,14 +24,15 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 
 | Tipo di analisi | Tipo di visualizzazione | Descrizione |
 | --- | --- | --- |
-| [!UICONTROL Impact] | [Versione](types/release.md) | Confrontare le prestazioni in periodi uguali prima e dopo il rilascio. |
-| [!UICONTROL Impact] | [Primo utilizzo](types/first-use.md) | Misura l’impatto del primo utilizzo delle funzioni sugli indicatori chiave. |
 | [!UICONTROL Funnel] | [Attrito](types/friction.md) | Confronta i tassi di conversione tra passaggi. |
 | [!UICONTROL Funnel] | [Tendenze di conversione](types/conversion-trends.md) | Tieni traccia delle modifiche nei tassi di conversione nel tempo. |
-| [!UICONTROL User growth] | [Attivo](types/active.md) | Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi. |
-| [!UICONTROL User growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
+| [!UICONTROL Impact] | [Versione](types/release.md) | Confrontare le prestazioni in periodi uguali prima e dopo il rilascio. |
+| [!UICONTROL Impact] | [Primo utilizzo](types/first-use.md) | Misura l’impatto del primo utilizzo delle funzioni sugli indicatori chiave. |
+| [!UICONTROL Retention] | [Tassi di mantenimento](types/retention-rates.md) | Misura le abitudini di ritorno continuative degli utenti. |
 | [!UICONTROL Trends] | [Utilizzo](types/usage.md) | Misura il coinvolgimento degli utenti nel tempo. |
 | [!UICONTROL Trends] | [Frequenza](types/frequency.md) | Misura l’interazione in base alla frequenza d’uso. |
+| [!UICONTROL User growth] | [Attivo](types/active.md) | Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi. |
+| [!UICONTROL User growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
 
 {style="table-layout:auto"}
 
