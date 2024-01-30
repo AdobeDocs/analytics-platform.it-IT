@@ -5,10 +5,10 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 2%
+source-wordcount: '1631'
+ht-degree: 3%
 
 ---
 
@@ -38,11 +38,18 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    Viene visualizzata la finestra di dialogo Posizione.
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
+1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account. | | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
 
 1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
 
    Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account località**] campo.
+
+   * [Area di destinazione dati AEP](#aep-data-landing-zone)
+   * [ARN per ruolo Amazon S3](#amazon-s3-role-arn)
+   * [Google Cloud Platform](#google-cloud-platform)
+   * [Azure SAS](#azure-sas)
+   * [Azure RBAC](#azure-rbac)
+   * [Snowflake](#snowflake)
 
 ### Area di destinazione dati AEP
 
@@ -50,7 +57,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 >
 >Quando esporti i rapporti sul Customer Journey Analytics nella Adobe Experience Platform Data Landing Zone, accertati di scaricare i dati entro 7 giorni, quindi eliminarli dalla AEP Data Landing Zone. Dopo 7 giorni, i dati vengono eliminati automaticamente dalla zona di destinazione dati di AEP.
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] specifica le seguenti informazioni per configurare una posizione di zona di destinazione dati di Adobe Experience Platform:
 
@@ -83,7 +94,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 ### ARN per ruolo Amazon S3
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] specifica le seguenti informazioni per configurare una posizione ARN per il ruolo Amazon S3:
 
@@ -102,7 +117,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 ### Google Cloud Platform
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare una posizione della piattaforma Google Cloud:
 
@@ -121,7 +140,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 ### Azure SAS
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare un percorso SAS di Azure:
 
@@ -138,7 +161,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 ### Azure RBAC
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare un percorso RBAC di Azure:
 
@@ -156,7 +183,11 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 ### Snowflake
 
-1. [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location), come descritto in precedenza.
+1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
+
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
+
+   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. In [!UICONTROL **Proprietà posizione**] sezione del [!UICONTROL **Aggiungi posizione**] , specificare le informazioni seguenti per configurare una posizione di Snowflake:
 

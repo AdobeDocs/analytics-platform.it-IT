@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 3%
+source-wordcount: '2182'
+ht-degree: 2%
 
 ---
 
@@ -73,8 +73,8 @@ Per esportare tabelle complete da Analysis Workspace:
    | A partire dal | Il giorno e l’ora in cui deve iniziare l’esportazione pianificata. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Fino al | Il giorno e l&#39;ora di scadenza dell&#39;esportazione pianificata. L’esportazione pianificata non viene più eseguita dopo la data e l’ora impostate. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Formato file | Scegli se i dati esportati devono essere in formato .csv o .json. |
-   | Account | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>Per ulteriori informazioni, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).</p> |
-   | Nome posizione | Selezionare la posizione dell&#39;account in cui si desidera inviare i dati di esportazione. <p>Per ulteriori informazioni, consulta [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).</p><p>È possibile selezionare [!UICONTROL **Aggiungi nuova posizione**] per creare una nuova posizione per un account di esportazione esistente. |
+   | Account | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:<ul><li>[!UICONTROL **Nome account località**]: specifica un nome per l’account della posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>[!UICONTROL **Descrizione del conto di ubicazione**]: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>[!UICONTROL **Tipo di account**]: seleziona il tipo di account cloud su cui stai effettuando l’esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.</li></ul><li>Per completare la configurazione dell’account, continua con il collegamento seguente che corrisponde al [!UICONTROL **Tipo di account**] hai selezionato:<ul><li>[Area di destinazione dati AEP](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[ARN per ruolo Amazon S3](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Piattaforma Google Cloud](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[SAS di Azure](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[RBAC di Azure](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | Nome posizione | Selezionare la posizione dell&#39;account in cui si desidera inviare i dati di esportazione.<p>Oppure, se non hai già configurato la posizione da utilizzare sull’account selezionato, puoi configurare una nuova posizione:<ol><li>Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: <ul><li>[!UICONTROL **Nome**]: nome della posizione.</li><li>[!UICONTROL **Descrizione**]: fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account.</li><li>[!UICONTROL **Account località**]: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato in [!UICONTROL **Account località**] campo:<ul><li>[Area di destinazione dati AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[ARN per ruolo Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Piattaforma Google Cloud](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[SAS di Azure](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[RBAC di Azure](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
