@@ -5,9 +5,9 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1319'
 ht-degree: 80%
 
 ---
@@ -22,7 +22,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 | Nome della visualizzazione | Descrizione |
 | --- | --- | 
-| [Superfici](/help/analysis-workspace/visualizations/area.md)<p>![Icona area](assets/Smock_GraphArea_18_N.svg)</p> | È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. | Risponde a domande come: <ul><li> |
+| [Superfici](/help/analysis-workspace/visualizations/area.md)<p>![Icona area](assets/Smock_GraphArea_18_N.svg)</p> | È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
 | [Barre](/help/analysis-workspace/visualizations/bar.md) <p>![Icona a barre](assets/Smock_GraphBarVertical_18_N.svg)</p> | Mostra barre verticali che rappresentano diversi valori su una o più metriche. |
 | [Grafico bullet](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Icona Punto elenco](assets/Smock_GraphBullet_18_N.svg)</p> | Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi). |
 | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icona della tabella coorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Cohort Analysis è utile per le analisi di fidelizzazione, abbandono o latenza. |
@@ -80,9 +80,9 @@ Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ult
 
 ## Impostazioni {#settings}
 
-Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere a [!UICONTROL Visualization Settings], fai clic sull’icona a forma di ingranaggio [!UICONTROL Visualization Settings].
+Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere alle impostazioni di visualizzazione, seleziona l’icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg).
 
-![Impostazioni delle visualizzazioni che mostrano le opzioni di impostazione descritte nella sezione successiva.](assets/settings.png)
+<img src="./assets/viz-settings-line.png" alt="Impostazioni di visualizzazione" width="50%" />
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -96,6 +96,7 @@ Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per ac
 | Normalizzazione | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | Visualizza asse doppia | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | Mostra anomalie | Completa i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
+| Mostra previsione | Migliora i grafici a linee e le tabelle a forma libera visualizzando i valori di previsione. |
 
 ## Legend (Legenda) {#legend}
 

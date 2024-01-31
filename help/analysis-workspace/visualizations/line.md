@@ -4,10 +4,10 @@ title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 84%
+source-wordcount: '506'
+ht-degree: 80%
 
 ---
 
@@ -21,13 +21,14 @@ La visualizzazione delle linee rappresenta le metriche con linee che mostrano co
 
 ![Visualizzazione delle linee](assets/line-viz.png)
 
-Fai clic sull’icona dell’ingranaggio in alto a destra della visualizzazione delle linee per accedere alle [**impostazioni di visualizzazione**](freeform-analysis-visualizations.md) disponibili. Le impostazioni sono suddivise in categorie:
+Seleziona l’icona delle impostazioni ![Impostazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nella barra superiore della visualizzazione Linee per accedere a [Impostazioni di visualizzazione](freeform-analysis-visualizations.md) disponibile. Le impostazioni sono suddivise in categorie:
+
+<img src="./assets/viz-settings-line.png" alt="Impostazioni di visualizzazione" width="50%" />
 
 * **Generali**: impostazioni comuni tra i tipi di visualizzazione
 * **Asse**: impostazioni che influiscono sull’asse x o y della visualizzazione delle linee
 * **Sovrapposizioni**: opzioni per aggiungere ulteriore contesto alla serie mostrata nella visualizzazione delle linee.
 
-![Impostazioni di visualizzazione](assets/viz-settings-modal.png)
 
 ## Modifica granularità
 

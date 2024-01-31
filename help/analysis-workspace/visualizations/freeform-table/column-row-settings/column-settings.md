@@ -4,10 +4,10 @@ title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 49b165c4dfec99ff1c65d4aacf4a5ffbe65d4004
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 77%
+source-wordcount: '814'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,9 @@ Visualizza un video sulle impostazioni di riga e colonna qui:
 
 ## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
 
-Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
+Per accedere [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell’intestazione della colonna.
 
-![Impostazioni delle colonne che mostrano le celle totali, le celle di tabella e l&#39;anteprima delle celle di tabella.](assets/column_settings.png)
+<img src="./assets/column-settings.png" alt="Impostazioni delle colonne che mostrano le celle totali, le celle di tabella e l&apos;anteprima delle celle di tabella." width="50%" />
 
 È possibile modificare le impostazioni di **più colonne alla volta**. Seleziona più colonne e fai clic sull’icona delle impostazioni di una delle colonne. Le modifiche apportate verranno applicate a tutte le colonne contenenti celle selezionate.
 
@@ -31,7 +31,8 @@ Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera
 | --- | --- |
 | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
 | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale di visualizzazioni di pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
-| Anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
+| Mostra anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
+| Mostra previsione | Determina se i valori di previsione vengono visualizzati in questa colonna. |
 | Testo a capo nelle intestazioni | Consente di mandare automaticamente a capo il testo delle intestazioni nelle tabelle a forma libera, per agevolare la lettura delle intestazioni e la condivisione delle tabelle. Questa opzione è utile per la creazione di file PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
 | Interpret zero as no value (Interpreta zero come nessun valore) | Per le celle con valore 0, determina se visualizzare 0 oppure la cella vuota. Questa funzione è particolarmente utile se si esaminano i dati quotidianamente e il mese in corso non è ancora terminato.  Invece di visualizzare valori 0 per le date future, è possibile sostituirli con delle celle vuote. Anche i grafici si adeguano a questa impostazione (ossia, se è stata selezionata, non visualizzano linee o barre con valori 0). |
 | Informazioni di base | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale. |
@@ -43,7 +44,7 @@ Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera
 
 La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è inoltre abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
 
-![Le opzioni di formattazione condizionale con Personalizzato selezionato.](assets/conditional-formatting.png)
+<img src="./assets/conditional-formatting.png" alt="Opzioni di formattazione condizionale con Personalizzato selezionato" width="50%" />
 
 | Elemento | Descrizione |
 | --- | --- |
