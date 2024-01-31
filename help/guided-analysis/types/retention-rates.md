@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: c5cc2a696ac1a5619b174163b2b6b87116e4f778
+source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Tassi di mantenimento
-
-{{release-limited-testing}}
 
 Il **[!UICONTROL Retention rates]** visualizza mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale entro l’intervallo di date desiderato. L’asse orizzontale rappresenta il numero di giorni trascorsi dall’intervento iniziale di un utente. L’asse verticale rappresenta la percentuale di utenti che si impegnano nuovamente.
 
