@@ -4,10 +4,10 @@ title: Sottotitoli intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,10 @@ Per avviare i sottotitoli generati automaticamente per una visualizzazione delle
 ![Finestra di analisi dell&#39;avvio che mostra la tendenza dei sottotitoli intelligenti per le visualizzazioni del prodotto. ](assets/intell-caps-1.png)
 
 Vengono ora generate informazioni sul linguaggio naturale.
+
+Nota bene
+
+* Sono necessari almeno 3 punti dati per generare correttamente i sottotitoli. In caso contrario, potrebbe venire visualizzato un messaggio di errore che indica &quot;Dati insufficienti per l&#39;analisi&quot;.
 
 * Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che alimenta la visualizzazione.
 
