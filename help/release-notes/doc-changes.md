@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
+source-git-commit: 85a921cf97efd33cc6264ce97c871f965f376a5a
 workflow-type: tm+mt
-source-wordcount: '2964'
-ht-degree: 70%
+source-wordcount: '2985'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzionalità | Descrizione |
 | --- | --- |
+| **Febbraio 2024** | |
+| Dettagli record ignorati | È stata aggiunta la documentazione sulla funzionalità dei dettagli dei record ignorati in Connessioni. Consulta [Dettagli di connessione](../connections/manage-connections.md#connection-details) per ulteriori informazioni. |
 | **Gennaio 2024** | |
 | Previsione | È stata aggiunta documentazione su [previsione](../analysis-workspace/c-forecast/forecasting.md), la nuova funzione di Analysis Workspace per prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale) per le tabelle a forma libera e i grafici a linee. |
 | È stata aggiornata la documentazione per l’aggiunta di account e posizioni durante l’esportazione di tabelle complete | La documentazione è stata aggiornata per riflettere aggiornamenti minori dell’interfaccia durante la configurazione di un nuovo account o posizione quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>Una nuova [!UICONTROL **Aggiungi account**] è ora disponibile in [!UICONTROL **Account**] menu a discesa. Il [!UICONTROL **Aggiungi posizione**] opzione precedentemente disponibile come pulsante accanto al [!UICONTROL **Nome posizione**] è ora disponibile un menu a discesa all’interno del menu stesso. |
@@ -39,7 +41,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Data center | È stato aggiunto un articolo sul Customer Journey Analytics [posizioni di hosting](../technotes/cja-datacenters.md). |
 | Guardrail | Customer Journey Analytics di voci aggiunto [guardrail](../admin/guardrails.md). |
 | Aggiornamenti della conversione valuta | Documentazione più chiara su come [configurare la conversione della valuta](/help/data-views/component-settings/format.md). |
-| Aggiornamenti alla documentazione di Rilevamento anomalie | La documentazione relativa al rilevamento delle anomalie si trovava in precedenza in una sezione relativa ad Analista virtuale. Sono state apportate le seguenti modifiche: <ul><li>Il termine Analista virtuale è stato rimosso dalla documentazione.</li><li>La sezione relativa a [Rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stato spostato direttamente sotto la sezione Analysis Workspace.</li></ul> |
+| Aggiornamenti alla documentazione di Rilevamento anomalie | La documentazione relativa al rilevamento delle anomalie si trovava in precedenza in una sezione relativa ad Analista virtuale. Sono state apportate le seguenti modifiche: <ul><li>Il termine Virtual Analyst è stato rimosso dalla documentazione.</li><li>La sezione relativa alla funzione [Rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stata spostata direttamente nella sezione Analysis Workspace.</li></ul> |
 | **Ottobre 2023** | |
 | Utilizzo di un campo derivato per l’impostazione di obiettivi/target | Aggiunto [caso d’uso](../use-cases/goals-using-derived-fields.md) articolo che illustra come utilizzare i campi derivati per impostare obiettivi/target e generare rapporti su di essi. |
 | Esporta tabelle complete nel cloud | È stata aggiunta la documentazione sull’esportazione di tabelle complete con milioni di righe di Workspace nelle destinazioni cloud. <p>L’esportazione di tabelle complete offre la consegna una tantum o pianificata di tabelle di dati progettate in Workspace con supporto per fino a cinque raggruppamenti, cinque metriche, filtri e metriche calcolate, il tutto in una tabella concatenata. È l’evoluzione dei rapporti Data Warehouse in Adobe Analytics, con molte nuove funzioni, spesso richieste, che oggi non sono disponibili in Data Warehouse.</p><p>Per ulteriori informazioni, consulta [Esportare i rapporti di Customer Journey Analytics nel cloud](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html). |

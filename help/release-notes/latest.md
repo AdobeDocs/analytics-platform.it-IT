@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 9f60d83673591aebeffeb6442bf9f8b897ab2f20
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 30%
+source-wordcount: '470'
+ht-degree: 53%
 
 ---
 
@@ -20,10 +20,11 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra l’8 gen
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Dettagli record ignorati** | È possibile recuperare i dettagli sul motivo per cui i record vengono ignorati durante la configurazione di una connessione. Consulta [Dettagli di connessione](../connections/manage-connections.md#connection-details) per ulteriori informazioni. | martedì 5 febbraio 2024 | martedì 5 febbraio 2024 |
 | **Previsioni di serie temporali** | [Previsione](../analysis-workspace/c-forecast/forecasting.md) è una nuova funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale) per le tabelle a forma libera e i grafici a linee. | giovedì 31 gennaio 2024 | giovedì 21 febbraio 2024 |
-| **Aggiornamenti alla visualizzazione Riepilogo delle metriche chiave** | Quando si utilizza la visualizzazione Riepilogo delle metriche chiave, l’intervallo di date del confronto può ora essere aggiornato automaticamente, a seconda che l’opzione di intervallo di date del confronto scelta sia relativa all’intervallo di date principale o fissa. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md). | N/D | giovedì 17 gennaio 2024 |
+| **Aggiornamenti alla visualizzazione Riepilogo delle metriche chiave** | Quando si utilizza la visualizzazione del Riepilogo delle metriche chiave, l’intervallo date di confronto può essere ora aggiornato automaticamente, in base a se l’opzione di intervallo date di confronto che si sceglie sia relativa all’intervallo date principale o fisso. [Ulteriori informazioni](/help/analysis-workspace/visualizations/key-metric.md). | N/D | 17 gennaio 2024 |
 | **Adobe Product Analytics: analisi dei tassi di mantenimento** | I tassi di mantenimento sono una nuova analisi guidata che consente di misurare le abitudini di ritorno in corso degli utenti. [Ulteriori informazioni](../guided-analysis/types/retention-rates.md) | N/D | martedì 8 gennaio 2024 |
-| **Adobe Product Analytics: sovrapposizione linea di tendenza** | Le linee di tendenza sono una nuova impostazione di sovrapposizione disponibile nel [Tendenze di utilizzo](/help/guided-analysis/types/usage.md) visualizzare e aiutare a rappresentare un pattern più chiaro nei dati. | N/D | giovedì 17 gennaio 2024 |
+| **Adobe Product Analytics: sovrapposizione linea di tendenza** | Le linee di tendenza sono una nuova impostazione di sovrapposizione disponibile nel [Tendenze di utilizzo](/help/guided-analysis/types/usage.md) visualizzare e aiutare a rappresentare un pattern più chiaro nei dati. | N/D | 17 gennaio 2024 |
 | **Adobe Product Analytics: miglioramenti della barra delle query** | Nell’analisi guidata, la barra di query a sinistra ora include il tipo di visualizzazione e le impostazioni Conteggio come, precedentemente disponibili in Impostazioni visualizzazione. | N/D | giovedì 31 gennaio 2024 |
 | **Adobe Product Analytics: analisi del flusso di utenti** | User Streams è una nuova analisi guidata che consente di esplorare singoli flussi di eventi utente per trovare pattern di esperienza e raccontare storie di utenti migliori. | N/D | giovedì 7 febbraio 2024 |
 
@@ -37,7 +38,7 @@ AN-310972; AN-332774; AN-332793; AN-332796; AN-333157; AN-334067; AN-334134; AN-
 
 | Avviso | Avviso aggiunto o aggiornato | Descrizione |
 | --- | --- | --- |
-| Adobe di aggiunte di membri oggetto API | giovedì 17 gennaio 2024 | Adobe può aggiungere membri di richiesta e risposta facoltativi (coppie nome/valore) agli oggetti API esistenti senza preavviso o modifiche nel controllo delle versioni. Tali aggiunte devono essere modifiche introduttive per l’implementazione. L’Adobe consiglia di fare riferimento alla documentazione API di qualsiasi strumento di terze parti integrato con le nostre API, in modo che tali aggiunte, se non comprese, vengano ignorate durante l’elaborazione. Adobe non rimuove parametri né aggiunge parametri richiesti senza prima fornire una notifica standard tramite le note sulla versione. |
+| Aggiunte di membri agli oggetti API di Adobe | 17 gennaio 2024 | Adobe può aggiungere membri di richiesta e risposta facoltativi (coppie nome/valore) agli oggetti API esistenti senza preavviso o modifiche nel controllo delle versioni. Tali aggiunte dovrebbero essere modifiche che non comportano interruzioni per l’implementazione. Adobe consiglia di fare riferimento alla documentazione API di qualsiasi strumento di terze parti integrato con le nostre API, in modo che tali aggiunte, se non comprese, vengano ignorate durante l’elaborazione. Adobe non rimuove né aggiunge parametri richiesti senza prima fornire una notifica standard tramite le note sulla versione. |
 
 {style="table-layout:auto"}
 
