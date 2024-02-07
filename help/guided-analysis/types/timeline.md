@@ -4,16 +4,16 @@ description: Esplora i pattern nell’attività della sessione.
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 5cd54973b08285badbedce273ac28371158f194c
+source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Timeline] visualizza
 
-Il **[!UICONTROL Timeline]** La vista consente di analizzare singole sessioni per determinare i pattern di comportamento. La barra a destra consente di selezionare un ID persona da analizzare. L’area centrale mostra l’ora, il valore della proprietà e la durata della persona.
+Il **[!UICONTROL Timeline]** La vista consente di analizzare singole sessioni per determinare i pattern di comportamento. La barra a destra consente di selezionare l’ID persona da analizzare. L’area centrale mostra l’ora, il valore della proprietà selezionata e la durata per ogni evento di quella persona.
 
 Questa analisi richiede l’aggiunta di **[!UICONTROL Person ID]** componente standard per [visualizzazione dati](/help/data-views/component-reference.md#optional). Se non si dispone di [!UICONTROL Person ID] componente aggiunto alla visualizzazione dati, viene visualizzato il seguente messaggio:
 
@@ -47,5 +47,5 @@ Il [!UICONTROL Timeline] visualizza offre le seguenti impostazioni del grafico, 
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa impostazione non influisce sulle visualizzazioni senza tendenze, ad esempio Frequenza.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa impostazione non influisce sulle viste non di tendenza, come la Timeline.
 * **[!UICONTROL Date]**: data di inizio e fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
