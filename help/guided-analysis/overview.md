@@ -5,9 +5,9 @@ keywords: analisi dei prodotti
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a5c2003a593917bce67346279a033a6041aff959
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1275'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ L&#39;analisi guidata categorizza i tipi di vista in **Tipi di analisi**. Sono d
 | [!UICONTROL Trends] | [Frequenza](types/frequency.md) | Misura l’interazione in base alla frequenza d’uso. |
 | [!UICONTROL User growth] | [Attivo](types/active.md) | Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi. |
 | [!UICONTROL User growth] | [Crescita netta](types/net-growth.md) | Stai guadagnando o perdendo utenti? |
+| [!UICONTROL User stream] | [Linea temporale](types/timeline.md) | Esplora i pattern nell’attività della sessione. |
 
 {style="table-layout:auto"}
 
