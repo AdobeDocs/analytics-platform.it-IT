@@ -4,9 +4,9 @@ description: Esplora i pattern di esperienza e racconta storie di utenti miglior
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
+source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,11 @@ Il **[!UICONTROL Timeline]** La vista consente di osservare gli eventi delle ses
 
 >[!NOTE]
 >
->La vista Timeline richiede che il **[!UICONTROL Person ID]** il componente standard sarà disponibile nel [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore dei dati di Adobe Analytics, consentendo alle organizzazioni di esercitare un controllo completo sulla privacy degli utenti che possono accedere a tali dati. Se una visualizzazione dati non dispone del [!UICONTROL Person ID] è stato aggiunto un componente, viene visualizzato il seguente messaggio:
+>La vista Timeline richiede che il **[!UICONTROL Person ID]** il componente standard sarà disponibile nel [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore dei dati di Adobe Analytics, consentendo alle organizzazioni di esercitare un controllo completo sulla privacy degli utenti che possono accedere a tali dati.
 
-* **Amministratori**: per questa analisi è necessaria la proprietà PersonID. Aggiungi PersonID alla visualizzazione dati.
-* **Non amministratori**: per questa analisi è necessaria la proprietà PersonID. Rivolgiti al tuo amministratore Adobe Analytics.
+Se una visualizzazione dati non dispone del [!UICONTROL Person ID] è stato aggiunto un componente, viene visualizzato il seguente messaggio:
+* **Amministratori**: per questa analisi è necessaria la proprietà PersonID. Aggiungi l&#39;ID persona alla visualizzazione dati.
+* **Non amministratori**: per questa analisi è necessaria la proprietà PersonID. Rivolgiti al tuo amministratore di Customer Journey Analytics per aggiungere l’ID persona alla visualizzazione dati.
 
 ## Casi d’uso
 
