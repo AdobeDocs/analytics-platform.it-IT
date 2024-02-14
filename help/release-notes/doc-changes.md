@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 85a921cf97efd33cc6264ce97c871f965f376a5a
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 71%
+source-wordcount: '3045'
+ht-degree: 69%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Febbraio 2024** | |
+| È stato chiarito che gli amministratori di prodotto hanno sempre accesso all’esportazione di tabelle complete | Sono state apportate le seguenti modifiche per chiarire che gli utenti a cui è assegnato il ruolo di amministratore prodotto hanno accesso all’esportazione di tabelle complete da Analysis Workspace per impostazione predefinita: <ul><li>È stato aggiunto un nuovo punto elenco a [Autorizzazioni predefinite per l’amministratore del prodotto](/help/admin/cja-access-control.md#product-admin-default-permissions). <p>È stata aggiunta una nota sotto [requisiti minimi per l’esportazione di tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</p> |
 | Dettagli record ignorati | È stata aggiunta la documentazione sulla funzionalità dei dettagli dei record ignorati in Connessioni. Consulta [Dettagli di connessione](../connections/manage-connections.md#connection-details) per ulteriori informazioni. |
 | **Gennaio 2024** | |
 | Previsione | È stata aggiunta documentazione su [previsione](../analysis-workspace/c-forecast/forecasting.md), la nuova funzione di Analysis Workspace per prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale) per le tabelle a forma libera e i grafici a linee. |
