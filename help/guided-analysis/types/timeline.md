@@ -4,7 +4,7 @@ description: Osserva gli eventi di sessione a livello di utente nel tempo per tr
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
+source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 Il **[!UICONTROL Timeline]** La visualizzazione ti consente di osservare gli eventi delle sessioni a livello di utente nel tempo, trovare modelli di esperienza e raccontare storie di utenti migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
 
+![Schermata della timeline](../assets/timeline.png)
+
 >[!NOTE]
 >
 >La vista Timeline richiede che il **[!UICONTROL Person ID]** il componente standard sarà disponibile nel [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore di Customer Journey Analytics, consentendo all’organizzazione di controllare completamente la privacy degli utenti che possono accedere a tali dati.
@@ -23,8 +25,6 @@ Se una visualizzazione dati non dispone del [!UICONTROL Person ID] è stato aggi
 
 * **Amministratori**: *La proprietà PersonID è obbligatoria per questa analisi. Aggiungi l&#39;ID persona alla visualizzazione dati.*
 * **Non amministratori**: *La proprietà PersonID è obbligatoria per questa analisi. Rivolgiti al tuo amministratore di Customer Journey Analytics per aggiungere l’ID persona alla visualizzazione dati.*
-
-![Schermata della timeline](../assets/timeline.png)
 
 ## Casi d’uso
 
