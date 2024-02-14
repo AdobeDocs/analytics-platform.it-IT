@@ -1,23 +1,23 @@
 ---
 title: Vista Timeline
-description: Esplora i pattern di esperienza e racconta storie di utenti migliori.
+description: Osserva gli eventi di sessione a livello di utente nel tempo per trovare modelli di esperienza.
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
+source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Timeline] visualizza
 
-Il **[!UICONTROL Timeline]** La visualizzazione ti consente di osservare gli eventi delle sessioni a livello di utente nel tempo, trovare modelli di esperienza e raccontare storie di utenti migliori. La barra a sinistra ti consente di filtrare in base ai valori delle proprietà di cui desideri eseguire il flusso. La barra a destra consente di selezionare l’ID persona da analizzare. L’area centrale mostra il flusso per sessione, costituita da marca temporale, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
+Il **[!UICONTROL Timeline]** La visualizzazione ti consente di osservare gli eventi delle sessioni a livello di utente nel tempo, trovare modelli di esperienza e raccontare storie di utenti migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
 
 >[!NOTE]
 >
->La vista Timeline richiede che il **[!UICONTROL Person ID]** il componente standard sarà disponibile nel [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore dei dati di Adobe Analytics, consentendo alle organizzazioni di esercitare un controllo completo sulla privacy degli utenti che possono accedere a tali dati.
+>La vista Timeline richiede che il **[!UICONTROL Person ID]** il componente standard sarà disponibile nel [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore di Customer Journey Analytics, consentendo all’organizzazione di controllare completamente la privacy degli utenti che possono accedere a tali dati.
 
 Se una visualizzazione dati non dispone del [!UICONTROL Person ID] è stato aggiunto un componente, viene visualizzato il seguente messaggio:
 
