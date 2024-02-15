@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
+source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 0%
@@ -44,13 +44,13 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Start & return event]**: i criteri dell’evento con cui un utente deve interagire per qualificarsi per l’inclusione nell’analisi. È supportato un evento, ma puoi includere filtri di proprietà.
-* **[!UICONTROL People]**: i segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
+* **[!UICONTROL Counted as]**: come desideri misurare il mantenimento degli utenti. Le opzioni includono [!UICONTROL Users retained] e [!UICONTROL Percentage of users retained].
+* **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico
 
 Il [!UICONTROL Retention rates] visualizza offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Metric]**: come desideri misurare il mantenimento degli utenti. Le opzioni includono [!UICONTROL Users retained] e [!UICONTROL Percentage of users retained].
 * **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line].
 
 ## Impostazioni durata
