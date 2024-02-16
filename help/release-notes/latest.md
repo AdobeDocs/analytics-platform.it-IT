@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 29c124da55842bcb9085059a9008f7a7d6baf44e
+source-git-commit: 22b87a6f64c296e3eb05ec3b7076bf6dfa2935f9
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra la fine d
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Previsioni di serie temporali** | [Previsione](../analysis-workspace/c-forecast/forecasting.md) è una nuova funzione di Analysis Workspace utilizzata per prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale) per le tabelle a forma libera e i grafici a linee. | giovedì 31 gennaio 2024 | giovedì 21 febbraio 2024 |
-| **Reporting di Media Analytics - Pubblico medio per minuto (AMA)** | Il pannello Pubblico medio per minuto è ora disponibile in CJA. I clienti Media Analytics possono utilizzare il pannello Pubblico medio per minuto per comprendere meglio il consumo medio dei loro contenuti. Il pubblico medio per minuto consente di confrontare la programmazione di qualsiasi lunghezza o genere. Inoltre, i clienti possono confrontare o aggiungere questo pubblico medio per minuto digitale alle metriche di minuti medi della TV lineare. Questo pannello offre maggiore flessibilità per misurare il pubblico medio per i periodi di tempo personalizzati, nonché quando la classificazione della durata è stata aggiornata dopo l’evento. |  | sabato 16 febbraio 2024 |
+| **Reporting di Media Analytics - Pubblico medio per minuto (AMA)** | Il pannello Pubblico medio per minuto è ora disponibile in CJA. I clienti Media Analytics possono utilizzare il pannello Pubblico medio per minuto per comprendere meglio il consumo medio dei loro contenuti. Il pubblico medio per minuto consente di confrontare la programmazione di qualsiasi lunghezza o genere. Inoltre, i clienti possono confrontare o aggiungere questo pubblico medio per minuto digitale alle metriche di minuti medi della TV lineare. Questo pannello offre maggiore flessibilità per misurare il pubblico medio per i periodi di tempo personalizzati, nonché quando la classificazione della durata è stata aggiornata dopo l’evento. |  | Febbraio 2024 |
 | **Metriche del conteggio delle righe per i dati di ricerca e profilo** | Le metriche del conteggio delle righe per i set di dati, configurate come parte di una connessione, ora includono i record aggiunti, saltati o eliminati dai set di dati di profilo e di ricerca. |  | giovedì 14 febbraio 2024 |
 | **Rilevamento bot di Experience Edge** | [Rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) consente di identificare gli eventi generati da Web SDK, Mobile SDK e Server API come generati da spider e bot noti. | | giovedì 21 febbraio 2024 |
 | **Metriche di utilizzo** | L’interfaccia delle metriche di utilizzo mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l’utilizzo del Customer Journey Analytics è conforme a quanto stabilito contrattualmente. | mercoledì 20 febbraio 2024 | Inizio marzo 2024 |
