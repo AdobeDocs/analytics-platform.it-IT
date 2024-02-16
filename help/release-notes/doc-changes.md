@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
+source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
 workflow-type: tm+mt
-source-wordcount: '3045'
-ht-degree: 69%
+source-wordcount: '3086'
+ht-degree: 68%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Febbraio 2024** | |
+| Sono stati aggiunti i requisiti di autorizzazione per il caricamento di file nei bucket ARN per ruolo Amazon S3 e GCP durante la configurazione delle posizioni di esportazione cloud | Sono stati aggiunti requisiti di autorizzazioni esatti per il caricamento di file nei bucket di Amazon S3 Role ARN e Google Cloud Platform quando [configurazione dei percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md). |
 | È stato chiarito che gli amministratori di prodotto hanno sempre accesso all’esportazione di tabelle complete | Sono state apportate le seguenti modifiche per chiarire che gli utenti a cui è assegnato il ruolo di amministratore prodotto hanno accesso all’esportazione di tabelle complete da Analysis Workspace per impostazione predefinita: <ul><li>È stato aggiunto un nuovo punto elenco a [Autorizzazioni predefinite per l’amministratore del prodotto](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>È stata aggiunta una nota sotto [requisiti minimi per l’esportazione di tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | Dettagli record ignorati | È stata aggiunta la documentazione sulla funzionalità dei dettagli dei record ignorati in Connessioni. Consulta [Dettagli di connessione](../connections/manage-connections.md#connection-details) per ulteriori informazioni. |
 | **Gennaio 2024** | |
