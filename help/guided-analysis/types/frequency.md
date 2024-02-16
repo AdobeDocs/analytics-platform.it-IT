@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Utilizzo](usage.md).
 * **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] e  [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] e  [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
 
 ## Impostazioni grafico

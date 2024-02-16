@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Attrito](friction.md).
 * **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
 * **[!UICONTROL Segments]**: i segmenti in cui desideri confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico

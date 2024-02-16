@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Crescita netta](net-growth.md).
 * **[!UICONTROL Events]**: l’evento che desideri misurare. Poiché questo tipo di visualizzazione è basato su utente, un utente che interagisce con l’evento una volta all’interno del periodo viene conteggiato come utente attivo. È possibile includere un evento in una query.
-* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
 * **[!UICONTROL Segments]**: il segmento in base al quale desideri filtrare i dati. È possibile includere un segmento in una query.
 
 ## Impostazioni grafico

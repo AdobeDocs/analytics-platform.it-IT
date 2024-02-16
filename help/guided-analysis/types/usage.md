@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 1d6a241766455a5da978b7e8401f1d7c0ba688d6
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Events & Metrics]**: eventi o metriche che desideri misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni della query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
-* **[!UICONTROL Counted as]**: la metrica da misurare. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Le opzioni conteggiate come sono applicabili solo alle query evento e vengono rimosse per le query metriche.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Le opzioni conteggiate come sono applicabili solo alle query evento e vengono rimosse per le query metriche.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie del grafico e delle righe della tabella. Puoi includere fino a cinque segmenti.
 * **[!UICONTROL Breakdown property]**: suddivide le serie del grafico e le righe della tabella in base ai valori della proprietà selezionata. È supportata una singola proprietà di suddivisione. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. È possibile nascondere o esporre una riga nel grafico attivando/disattivando ![Mostra icona Nascondi](../assets/hide-in-chart.png) icona.
 

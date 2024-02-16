@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Start & return event]**: i criteri dell’evento con cui un utente deve interagire per qualificarsi per l’inclusione nell’analisi. È supportato un evento, ma puoi includere filtri di proprietà.
-* **[!UICONTROL Counted as]**: come desideri misurare il mantenimento degli utenti. Le opzioni includono [!UICONTROL Users retained] e [!UICONTROL Percentage of users retained].
+* **[!UICONTROL Counted as]**: metodo di conteggio che desideri applicare agli utenti mantenuti. Le opzioni includono [!UICONTROL Users retained] e [!UICONTROL Percentage of users retained].
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
 
 ## Impostazioni grafico
