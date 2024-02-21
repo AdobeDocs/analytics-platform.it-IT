@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 17%
+source-wordcount: '622'
+ht-degree: 16%
 
 ---
 
@@ -17,21 +17,26 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer
 
 Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, per poter poi eseguire attività di attribuzione, filtri, segmentazione, flusso, abbandono, e così via tra i dati dei clienti.
 
-## Novità
+## Novità?
 
 Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto e nella documentazione del Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](../release-notes/doc-changes.md).
 
 >[!BEGINTABS]
 
+>[!TAB Previsione]
+
+La previsione è una funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). La previsione è disponibile solo per i dati relativi alle serie temporali.
+
+[![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
+
+
 >[!TAB Analisi guidata* - Tassi di mantenimento]
 
 Nuovo tipo di visualizzazione che mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale all’interno dell’intervallo di date desiderato. L’asse orizzontale rappresenta il numero di giorni trascorsi dall’intervento iniziale di un utente. L’asse verticale rappresenta la percentuale di utenti che si impegnano nuovamente.
 
-[![immagine](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
+[![immagine](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntivo a pagamento per il Customer Journey Analytics._</span>
-
-
 
 
 >[!TAB Analisi guidata* - Linee di tendenza]
