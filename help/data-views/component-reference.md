@@ -5,10 +5,10 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 20f48259881bade1978909610055d6b20b894092
+source-git-commit: 949f0870c8607879d4f685f4fbeb838ddb68f80a
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 77%
+source-wordcount: '913'
+ht-degree: 74%
 
 ---
 
@@ -29,6 +29,7 @@ Per impostazione predefinita, questi componenti standard richiesti vengono aggiu
 | [!UICONTROL People] | Metrica | In base all’ID persona specificato in un [!UICONTROL Connection]. |
 | [!UICONTROL Sessions] | Metrica | In base alle impostazioni di sessione della visualizzazione dati. |
 | [!UICONTROL Events] | Metrica | Il numero di righe da tutti i set di dati evento in un [!UICONTROL Connection]. |
+| [!UICONTROL Seconds] | Dimensione | Il secondo evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
 | [!UICONTROL Minute] | Dimensione | Il minuto in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto nell’intervallo di date. |
 | [!UICONTROL Hour] | Dimensione | L&#39;ora in cui si è verificato un dato evento (arrotondata per difetto). Il primo elemento dimensione è la prima ora nell’intervallo di date e l’ultimo elemento dimensione è l’ultima ora nell’intervallo di date. |
 | [!UICONTROL Day] | Dimensione | Il giorno in cui è accaduto un dato evento. Il primo elemento dimensione è il primo giorno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno dell’intervallo di date. |

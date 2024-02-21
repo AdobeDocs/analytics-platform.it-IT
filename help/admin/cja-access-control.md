@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 56%
+source-wordcount: '1207'
+ht-degree: 51%
 
 ---
 
@@ -79,7 +79,18 @@ Un profilo di prodotto è un set di autorizzazioni. Gli amministratori dei profi
 
 ## Accesso a livello di utente
 
-Gli utenti di Customer Journey Analytics non possono creare, modificare o visualizzare conenssioni o visualizzazioni dati. Gli utenti possono creare filtri, progetti, tipi di pubblico e metriche calcolate con autorizzazioni speciali in Admin Console.
+La matrice seguente illustra le autorizzazioni di accesso principali per diverse funzionalità di Customer Journey Analytics per gli amministratori di prodotti diversi da e gli amministratori di prodotti CJA. Comprendere queste autorizzazioni consente agli utenti di navigare e utilizzare CJA in modo efficace in base al loro ruolo e alle loro responsabilità all’interno dell’organizzazione.
+
+| Funzionalità del prodotto CJA | Amministratori non di prodotto (utenti) | Amministratori di prodotto |
+| --- | --- | --- |
+| **Visualizzazioni dati** | Impossibile visualizzare/aggiornare/creare/eliminare | Può creare/aggiornare/eliminare |
+| **Connessioni** | Impossibile visualizzare/aggiornare/creare/eliminare | Può creare/aggiornare/eliminare |
+| **Filtri** | Può creare | Può creare |
+| **Progetti** | Può creare | Può creare/aggiornare/eliminare |
+| **Tipi di pubblico** | Creazione consentita con autorizzazioni speciali in Admin Console | Può creare |
+| **Metriche calcolate** | Creazione consentita con autorizzazioni speciali in Admin Console | Può creare |
+
+{style="table-layout:auto"}
 
 ## Cura dei progetti Workspace
 
