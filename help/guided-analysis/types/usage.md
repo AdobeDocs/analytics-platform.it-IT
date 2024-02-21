@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Frequenza](frequency.md).
 * **[!UICONTROL Events & Metrics]**: eventi o metriche che desideri misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni della query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
 * **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Le opzioni conteggiate come sono applicabili solo alle query evento e vengono rimosse per le query metriche.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie del grafico e delle righe della tabella. Puoi includere fino a cinque segmenti.

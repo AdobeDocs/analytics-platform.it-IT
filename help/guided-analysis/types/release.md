@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Primo utilizzo](first-use.md).
 * **[!UICONTROL Key indicators]**: gli eventi che desideri misurare per utente. Ogni indicatore chiave selezionato viene rappresentato da una linea colorata. Alla tabella viene aggiunta una riga che rappresenta l’evento. Puoi includere fino a tre eventi.
 * **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], e [!UICONTROL Users].
 * **[!UICONTROL Factors]**: data che desideri confrontare prima e dopo.
