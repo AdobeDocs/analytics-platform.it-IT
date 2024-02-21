@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -29,7 +29,7 @@ I successivi periodi fissi di durata contano il numero di utenti che sono ritorn
 * Se un utente si impegna con l’evento più giorni dopo aver ottenuto inizialmente la qualifica per l’inclusione nell’analisi, vengono visualizzati nell’ultimo bucket di durata ammissibile e in tutti i bucket di durata che lo precedono. Questo tipo di calcolo è talvolta indicato come &quot;conservazione non limitata&quot;.
 * Se un utente si impegna più volte con l’evento durante l’intervallo di date configurato, nell’analisi vengono inclusi solo il primo e l’ultimo evento.
 
-![Schermata Tassi di mantenimento](../assets/retention-rates.png)
+![Schermata Tassi di mantenimento](../assets/retention-rates.png){style="border:1px solid gray"}
 
 ## Casi d’uso
 

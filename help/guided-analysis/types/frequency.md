@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Il **[!UICONTROL Frequency]** visualizzare i dati degli eventi dei gruppi in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa vista contiene contenitori che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
-![Schermata Frequenza](../assets/frequency-stacked.png)
+![Schermata Frequenza](../assets/frequency-stacked.png){style="border:1px solid gray"}
 
 ## Casi d’uso
 

@@ -5,7 +5,7 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -49,7 +49,7 @@ La vista Attrito offre le seguenti impostazioni del grafico, che possono essere 
 
 {{apply-time-comparison}}
 
-![Confronto del tempo di attrito](../assets/friction-compare.png)
+![Confronto del tempo di attrito](../assets/friction-compare.png){style="border:1px solid gray"}
 
 ## Intervallo date
 

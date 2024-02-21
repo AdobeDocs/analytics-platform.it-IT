@@ -5,7 +5,7 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -26,11 +26,11 @@ L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntiv
 
 Se utilizzi già oggi il Customer Journey Analytics, non sono necessarie ulteriori modifiche all’implementazione. L’analisi guidata utilizza lo stesso [Visualizzazioni dati](../data-views/data-views.md) e [Connessioni](../connections/overview.md) come altre interfacce CJA [Analysis Workspace](../analysis-workspace/home.md).
 
-Per consentire agli utenti finali di ottenere il massimo successo con l’analisi guidata, è consigliabile disporre di uno schema degli eventi e di una strategia di gestione affidabili in Adobe Experience Platform e [Visualizzazioni dati](../data-views/data-views.md).
+Per consentire agli utenti finali di avere il maggior successo nell’analisi guidata, ti consigliamo di disporre di uno schema eventi e di una strategia di gestione affidabili in Adobe Experience Platform e [Visualizzazioni dati](../data-views/data-views.md).
 
 +++
 
-+++**Quando utilizzare Analisi guidata o Analysis Workspace?**
++++**Quando utilizzare l’analisi guidata o Analysis Workspace?**
 
 **Analisi guidata** può aiutare gli utenti a ottenere rapidamente informazioni di alta qualità. È utile per i team di prodotto, per gli utenti che desiderano lavorare in modo più affidabile con i dati e anche per gli analisti come punto di partenza per analisi più approfondite.
 
@@ -40,7 +40,7 @@ Per consentire agli utenti finali di ottenere il massimo successo con l’analis
 
 +++**Come si confronta la terminologia tra analisi guidata e Analysis Workspace?**
 
-L’analisi guidata utilizza termini utilizzati più frequentemente tra i team di prodotto. Potete fare riferimento a questa tabella quando passate da un&#39;analisi guidata a un&#39;altra [Analysis Workspace](../analysis-workspace/home.md).
+L’analisi guidata utilizza termini utilizzati più frequentemente tra i team di prodotto. Potete fare riferimento a questa tabella quando passate dall&#39;analisi guidata all&#39;analisi [Analysis Workspace](../analysis-workspace/home.md).
 
 | Termine di analisi guidata | Termine Analysis Workspace |
 | --- | --- |
@@ -56,22 +56,22 @@ L’analisi guidata utilizza termini utilizzati più frequentemente tra i team d
 
 +++**Quali sono alcune differenze nell’analisi guidata e nell’approccio di reporting di Analysis Workspace?**
 
-Mentre [Analysis Workspace](../analysis-workspace/home.md) e l&#39;analisi guidata utilizza gli stessi dati sottostanti, il modo in cui ogni strumento consente di creare query di tali dati è diverso.
+Mentre [Analysis Workspace](../analysis-workspace/home.md) e analisi guidata utilizzano gli stessi dati sottostanti, il modo in cui ogni strumento consente di creare query di tali dati è diverso.
 
 * **Analysis Workspace è un’esperienza incentrata sulle dimensioni.** Le tabelle sono in genere costituite da righe dimensionali, mentre le colonne sono in genere metriche. I filtri possono essere applicati sia nelle righe che nelle colonne per ottenere i dati desiderati.
 
 * **L’analisi guidata è un evento e un’esperienza incentrata sull’utente.** Ogni analisi inizia selezionando gli eventi, quindi è possibile aggiungere dimensioni e filtri per perfezionare i dati dell’evento.
 
-![Visualizzazioni di analisi guidata e Analysis Workspace](assets/structure.png)
+![Analysis Workspace e viste di analisi guidate](assets/structure.png){style="border:1px solid gray"}
 
 Prendi in considerazione l’esempio seguente in cui ti concentri sui dati intorno alla pagina principale del tuo sito web. I team pongono domande simili, ma l’approccio di analisi può essere diverso.
 
 * Un tipico approccio Analysis Workspace incentrato sulle dimensioni consiste nel &quot;Esaminiamo la home page e vediamo quante visualizzazioni di pagina ha ricevuto&quot;.
 
-  ![Dimension centrato](assets/dimension-centered.png)
+  ![Dimension centrato](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* Un tipico evento e un approccio di analisi guidata incentrato sull’utente consistono in: &quot;Quanti utenti hanno visitato la nostra home page?&quot;
+* Un tipico evento e un approccio di analisi guidata incentrato sull’utente sarebbero: &quot;Quanti utenti hanno visitato la nostra home page?&quot;
 
-  ![Evento centrato](assets/event-centered.png)
+  ![Evento centrato](assets/event-centered.png){style="border:1px solid gray"}
 
 +++

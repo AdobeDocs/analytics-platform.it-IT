@@ -5,7 +5,7 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Aggiungi dati aggiuntivi al grafico. Quando sul grafico sono visibili più serie
 
 {{apply-time-comparison}}
 
-![Confronto tempo di utilizzo](../assets/usage-compare.png)
+![Confronto tempo di utilizzo](../assets/usage-compare.png){style="border:1px solid gray"}
 
 ## Intervallo date
 

@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: analisi dei prodotti
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 {style="table-layout:auto"}
 
-![Vista frizione per vendita al dettaglio](assets/retail-funnel-friction.png)
+![Vista frizione per vendita al dettaglio](assets/retail-funnel-friction.png){style="border:1px solid gray"}
 
-![Visualizzazione utilizzo per vendita al dettaglio](assets/retail-trends-usage.png)
+![Visualizzazione utilizzo per vendita al dettaglio](assets/retail-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -44,11 +44,11 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 {style="table-layout:auto"}
 
-![Vista frizione per i servizi finanziari](assets/fsi-funnel-friction.png)
+![Vista frizione per i servizi finanziari](assets/fsi-funnel-friction.png){style="border:1px solid gray"}
 
-![Visualizzazione utilizzo per servizi finanziari](assets/fsi-trends-usage.png)
+![Visualizzazione utilizzo per servizi finanziari](assets/fsi-trends-usage.png){style="border:1px solid gray"}
 
-![Visualizzazione attiva per i servizi finanziari](assets/fsi-user-growth-active.png)
+![Visualizzazione attiva per i servizi finanziari](assets/fsi-user-growth-active.png){style="border:1px solid gray"}
 
 +++
 
@@ -63,11 +63,11 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 {style="table-layout:auto"}
 
-![Vista frizione per viaggi e ospitalità](assets/th-funnel-friction.png)
+![Vista frizione per viaggi e ospitalità](assets/th-funnel-friction.png){style="border:1px solid gray"}
 
-![Visualizzazione utilizzo per viaggi e ospitalità](assets/th-trends-usage.png)
+![Visualizzazione utilizzo per viaggi e ospitalità](assets/th-trends-usage.png){style="border:1px solid gray"}
 
-![Tendenze di conversione per viaggi e ospitalità](assets/th-funnel-conversion-trends.png)
+![Tendenze di conversione per viaggi e ospitalità](assets/th-funnel-conversion-trends.png){style="border:1px solid gray"}
 
 +++
 
@@ -83,11 +83,11 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 {style="table-layout:auto"}
 
-![Visualizzazione frizione per contenuti multimediali e di intrattenimento](assets/me-funnel-friction.png)
+![Visualizzazione frizione per contenuti multimediali e di intrattenimento](assets/me-funnel-friction.png){style="border:1px solid gray"}
 
-![Visualizzazione attiva per contenuti multimediali e di intrattenimento](assets/me-user-growth-active.png)
+![Visualizzazione attiva per contenuti multimediali e di intrattenimento](assets/me-user-growth-active.png){style="border:1px solid gray"}
 
-![](assets/me-trends-usage.png)
+![Visualizzazione utilizzo per contenuti multimediali e di intrattenimento](assets/me-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -95,14 +95,14 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 | Caso d’uso | Esempio | Impatto | Analisi |
 | --- | --- | --- | --- |
-| **Migliorare i risultati sulla salute dei pazienti** | Un&#39;organizzazione dispone dei dati necessari per concentrare i propri sforzi sulla crescita. Prima di utilizzare l’analisi guidata, non avevano una chiara comprensione di quanti membri del piano benessere a settimana semplicemente hanno smesso di utilizzarlo del tutto. | **Ridurre le visite dei medici.** Identifica rapidamente gli utenti inattivi da coinvolgere di nuovo. | [Visualizzazioni di crescita degli utenti attivi](types/active.md) |
+| **Migliorare i risultati sulla salute dei pazienti** | Un&#39;organizzazione dispone dei dati necessari per concentrare i propri sforzi sulla crescita. Prima di utilizzare l’analisi guidata, non avevano una chiara comprensione di quanti membri del piano benessere alla settimana semplicemente hanno smesso di utilizzarlo del tutto. | **Ridurre le visite dei medici.** Identifica rapidamente gli utenti inattivi da coinvolgere di nuovo. | [Visualizzazioni di crescita degli utenti attivi](types/active.md) |
 | **Migliorare l’esperienza dei pazienti** | La visibilità del numero di pazienti che contattano i call center per una semplice reimpostazione della password ha rinnovato la passione di un analista di concentrarsi sul rafforzamento della loro esperienza del paziente. | **Ridurre i costi complessivi di gestione.** Creare una migliore esperienza del paziente e ridurre le chiamate ai servizi per il paziente. | [Visualizzazione tendenze di utilizzo](types/usage.md)<br>[Vista frizione](types/friction.md) |
 | **Identificare le azioni cross-channel ripetute per segmento** | Un’organizzazione vuole capire in che modo i membri idonei Medicare sono attivi con il loro utilizzo del piano per fornire loro messaggi specifici nei loro prodotti digitali. Le informazioni ottenute dall’analisi guidata contribuiscono a rendere il marketing più efficace. | **Personalizzare le scelte di iscrizione a Medicare.** Confrontare le azioni sequenziali comuni dei membri del piano più attivi. | [Vista frizione](types/friction.md)<br>[Visualizzazione crescita utenti attivi](types/active.md) |
 | **Mantieni i migliori talenti del settore** | Le risorse di Analytics per un’organizzazione sono bloccate per un periodo di tempo. L’analisi guidata consente all’organizzazione di ottenere rapidamente i dati di utilizzo del prodotto necessari per le chiamate di aggiornamento della leadership. | **Ridurre il carico di lavoro degli analisti.** Risposte più rapide. Generazione di rapporti avvicinabili per i casi in cui è più cruciale. | [Analisi guidata](overview.md) |
 
 {style="table-layout:auto"}
 
-![Vista frizione per l&#39;assistenza sanitaria](assets/healthcare-funnel-friction.png)
+![Vista frizione per l&#39;assistenza sanitaria](assets/healthcare-funnel-friction.png){style="border:1px solid gray"}
 
 +++
 
@@ -117,6 +117,6 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 {style="table-layout:auto"}
 
-![Visualizzazione utilizzo per B2B](assets/b2b-trends-usage.png)
+![Visualizzazione utilizzo per B2B](assets/b2b-trends-usage.png){style="border:1px solid gray"}
 
 +++

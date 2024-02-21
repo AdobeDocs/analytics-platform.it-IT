@@ -4,7 +4,7 @@ description: Osserva gli eventi di sessione a livello di utente nel tempo per tr
 feature: Guided Analysis
 keywords: analisi dei prodotti
 role: User
-source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Il **[!UICONTROL Timeline]** La visualizzazione ti consente di osservare gli eventi delle sessioni a livello di utente nel tempo, trovare modelli di esperienza e raccontare storie di utenti migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
 
-![Schermata della timeline](../assets/timeline.png)
+![Schermata della timeline](../assets/timeline.png){style="border:1px solid gray"}
 
 >[!NOTE]
 >
