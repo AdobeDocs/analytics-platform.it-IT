@@ -1,8 +1,8 @@
 ---
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 63%
+source-wordcount: '1158'
+ht-degree: 60%
 
 ---
 # Snippet
@@ -23,7 +23,19 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->È necessario disporre di **Seleziona** per utilizzare le funzionalità descritte in questa sezione. In caso di dubbi sul pacchetto di Customer Journey Analytics, contatta l’amministratore.
+>È necessario disporre di **Seleziona** per utilizzare la funzionalità descritta in questa sezione. In caso di dubbi sul pacchetto di Customer Journey Analytics, contatta l’amministratore.
+
+## Pacchetto Prime {#prime-package}
+
+>[!NOTE]
+>
+>È necessario disporre di **Prime** per utilizzare la funzionalità descritta in questa sezione. In caso di dubbi sul pacchetto di Customer Journey Analytics, contatta l’amministratore.
+
+## Pacchetto Ultimate {#ultimate-package}
+
+>[!NOTE]
+>
+>È necessario disporre di **Ultimate** per utilizzare le funzionalità descritte in questa sezione. In caso di dubbi sul pacchetto di Customer Journey Analytics, contatta l’amministratore.
 
 
 ## Criteri del filtro del dizionario dati {#dd-filter-criteria}
