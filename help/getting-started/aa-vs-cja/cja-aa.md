@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
 workflow-type: tm+mt
-source-wordcount: '2037'
-ht-degree: 23%
+source-wordcount: '2027'
+ht-degree: 20%
 
 ---
 
@@ -20,21 +20,23 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzionalità di Adobe Analytics | Note sul supporto |
 | --- | --- |
-| Rilevamento delle anomalie | Supporto completo. |
-| Attribution IQ | Supporto completo. |
+| Rilevamento delle anomalie | Supporto completo |
+| Attribution IQ | Supporto completo |
+| Rilevamento bot | *In arrivo!* Per [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it)set di dati basati su, viene applicato il filtro bot. La logica generale di rilevamento bot per altri set di dati viene eseguita da [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
 | Metriche calcolate | Supporto completo. Eventuali metriche calcolate esistenti nell’Analysis Workspace tradizionale non vengono trasferite al Customer Journey Analytics. |
 | Eventi calendario | Supporto completo. Gli eventi Calendario sono stati implementati come [Annotazioni](/help/components/annotations/overview.md) in Workspace. |
-| Download di CSV | Supporto completo. |
-| Calendari personalizzati | Supporto completo. |
-| Confronti di date | Supporto completo. |
+| Download di CSV | Supporto completo |
+| Calendari personalizzati | Supporto completo |
+| Confronti di date | Supporto completo |
 | Intervalli di date | È supportata tutta la funzionalità per intervalli di date. |
 | Dimensioni | Supporto completo. Il Customer Journey Analytics utilizza XDM e supporta dimensioni illimitate. Il Customer Journey Analytics non è legato alle proprietà o agli eVar personalizzati della versione tradizionale di Adobe Analytics. |
-| Eliminazione RGPD | Supporto completo; tieni presente che le funzioni RGPD sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. Il Customer Journey Analytics eredita qualsiasi modifica ai dati [!UICONTROL Experience Platform] crea nei set di dati sottostanti. |
+| Eliminazione RGPD | Supporto completo; tieni presente che il RGPD è ora gestito in coordinamento con [!UICONTROL Adobe Experience Platform]. Il Customer Journey Analytics eredita qualsiasi modifica ai dati [!UICONTROL Experience Platform] crea nei set di dati sottostanti. |
 | Rapporti su incremento e affidabilità | Supporto completo tramite [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) |
 | Variabili elenco/Prop elenco | Supporto completo. Il Customer Journey Analytics utilizza XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | eVar di merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
 | Metriche | Supporto completo; il Customer Journey Analytics utilizza Experience Data Model (XDM), supporta metriche illimitate e non è legato agli eventi di successo personalizzati di Adobe Analytics. Alcune metriche standard sono state rinominate da Adobe Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
-| Scorecard/Dashboard per dispositivi mobili | Supporto completo. |
+| Migrazione di progetti, filtri e metriche calcolate da Adobe Analytics al Customer Journey Analytics | Supporto completo. |
+| Scorecard/Dashboard per dispositivi mobili | Supporto completo |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. |
 | Esportazione PDF | Supporto completo. |
 | Cura dei progetti | Supporto completo. |
@@ -75,7 +77,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Condivisione dei progetti | La condivisione dei progetti è supportata solo tra gli utenti del Customer Journey Analytics; non esiste condivisione dei progetti tra il Customer Journey Analytics e il tradizionale Analysis Workspace. |
 | Report Builder | Supportato con un nuovo plug-in di Office 365 per Excel. |
 | Autorizzazioni utente/Controlli di accesso ai dati | Il Customer Journey Analytics distingue tra [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) amministratori di prodotto, amministratori dei profili di prodotto e utenti. Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, filtri o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, filtri o annotazioni. |
-| Visualizzazioni | Sono supportate tutte le visualizzazioni, tranne la visualizzazione Mappa. |
+| Visualizzazioni | Sono supportate tutte le visualizzazioni di Workspace, ad eccezione della visualizzazione Mappa. |
 | Unione cross-device/cross-channel | Supportata per i set di dati direttamente contenenti informazioni di identità (nota anche come unione “basata su campi”). L’unione basata su grafico non è ancora supportata, ma è pianificata. Consulta [Stitching](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
@@ -84,7 +86,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzione | Note |
 | --- | --- |
-| Filtro bot | Per [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it)set di dati basati su, viene applicato il filtro bot. La logica generale di filtro bot per altri set di dati non viene eseguita da [!UICONTROL Experience Platform] o Customer Journey Analytics. |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
 | Analytics for Target (A4T) | Il supporto parziale viene fornito tramite i campi nella sezione [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). È pianificato il supporto per nomi compatibili con A4T nelle esperienze e nelle attività di Target. |
 
@@ -101,7 +102,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Rapporti in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Origini dati ID transazione | Il supporto è pianificato. |
-| Migrazione di progetti, filtri e metriche calcolate da Adobe Analytics al Customer Journey Analytics | Il supporto è pianificato. |
 | Origini dati a livello di riepilogo | Il supporto è pianificato. |
 
 {style="table-layout:auto"}
@@ -118,9 +118,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 ## Mai supportato {#never}
 
 * Metrica Persone con Cross-Device Coop
-* Dashboard di Reports &amp; Analytics
-* Segnalibri di Reports &amp; Analytics
-* Target di Reports &amp; Analytics
 
 ## Funzioni di Adobe Customer Journey Analytics non disponibili in Adobe Analytics {#cja-not-aa}
 
