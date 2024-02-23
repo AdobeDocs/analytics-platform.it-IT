@@ -5,30 +5,30 @@ title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 21%
+source-wordcount: '1994'
+ht-degree: 58%
 
 ---
 
 # Condividere progetti
 
-Puoi condividere un progetto Analysis Workspace con i seguenti tipi di persone:
+Puoi condividere un progetto di Analysis Workspace con i seguenti tipi di persone:
 
 * Utenti e gruppi della tua organizzazione che hanno accesso ad Adobe Customer Journey Analytics
 
-  È possibile condividere l&#39;accesso Modifica, Duplica o Visualizza
+  È possibile condividere l’accesso a Modifica, Duplica o Visualizza
 
 * Utenti e gruppi dell’organizzazione che non hanno accesso al Customer Journey Analytics
 
-  I destinatari dispongono di accesso in sola lettura
+  I destinatari dispongono di accesso di sola lettura
 
 * Persone esterne all’organizzazione
 
-  I destinatari dispongono di accesso in sola lettura
+  I destinatari dispongono di accesso di sola lettura
 
-Qualsiasi [cura](curate.md) L’applicazione prima della condivisione si riflette quando i destinatari aprono il progetto.
+Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzata all’apertura del progetto da parte dei destinatari.
 
 Ecco una panoramica video della condivisione dei progetti:
 
@@ -49,64 +49,76 @@ Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
-* Ruoli di progetto (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legate all&#39;ID utente e al progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
-* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nel [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso &quot;All&quot;. Gli utenti non amministratori possono condividere con qualsiasi gruppo di cui sono membri, ad eccezione di &quot;All&quot; (Tutti).
+* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nel [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso “Tutti”. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “Tutti”.
 
-* Un utente che viene posizionato in più ruoli ottiene sempre l’esperienza di livello più alto. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il **[!UICONTROL Edit original]** ruolo individuale e **[!UICONTROL Read only]** come membro di un gruppo, riceveranno un **[!UICONTROL Edit original]** esperienza di progetto.
+* Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Edit original]**.
 
-* Amministratori inseriti in **[!UICONTROL Edit copy]** o **[!UICONTROL Read only]** ruolo ricevono tali esperienze limitate quando aprono un progetto. Un amministratore può modificare il proprio ruolo in **[!UICONTROL Edit original]** condividendo il progetto con se stessi e assegnando il ruolo Modifica, come descritto nella procedura seguente.
+* Gli amministratori inseriti in un ruolo **[!UICONTROL Edit copy]** o **[!UICONTROL Read only]** riceveranno tali esperienze limitate quando aprono un progetto. Un amministratore può modificare il proprio ruolo in **[!UICONTROL Edit original]** condividendo il progetto con se stesso e assegnando il ruolo Modifica, come descritto nella procedura seguente.
+
+* Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all’elenco esistente di destinatari per ciascun progetto.
+
+  Ad esempio, il progetto A è già condiviso con i destinatari 1, 2 e 3, mentre il progetto B è già condiviso con i destinatari 4, 5 e 6.
+
+  I progetti A e B sono quindi condivisi con i destinatari 4 e 7. Il nuovo elenco di condivisione per il progetto A è ora 1, 2, 3, 4 e 7, mentre il nuovo elenco di condivisione per il progetto B è 4, 5, 6 e 7.
 
 Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organizzazione:
 
-1. Vai al progetto che desideri condividere, quindi fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
-Se sono presenti modifiche non salvate, viene richiesto di salvare prima il progetto.
+1. In Customer Journey Analytics, seleziona la [!UICONTROL **Workspace**] , quindi seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
 
-   ![Finestra Condividi progetto.](assets/share-proj-modal.png)
-
-   Per informazioni su come condividere più progetti contemporaneamente, consulta [Condivisione di progetti nel Project manager](#share-projects-in-the-project-manager).
-
-1. Aggiungi destinatari o gruppi di destinatari in uno dei campi ruolo forniti:
-
-   **Modifica originale:** I destinatari possono **[!UICONTROL Save]** modifiche a un progetto e funzioni come co-proprietari. Questo ruolo è utile se desideri gestire un progetto con altri colleghi; ciò include la modifica e l’eliminazione degli elenchi dei destinatari per un progetto condiviso. <br>Nota: Analysis Workspace al momento non supporta la collaborazione in tempo reale, pertanto si consiglia di modificare un progetto solo un utente alla volta. Se i progetti vengono salvati contemporaneamente, viene mantenuta l’ultima versione.
-
-   **Modifica copia:** I destinatari possono **[!UICONTROL Save as]** e accedere alla barra a sinistra. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati della tua organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato.
-
-   **Sola lettura:** I destinatari non possono **[!UICONTROL Save]** o **[!UICONTROL Save as]** e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, con Analysis Workspace o con il Customer Journey Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro. Ulteriori informazioni su [Esperienza progetto di sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md).
-
-1. Scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
-
-   * **Condividere componenti di progetto incorporati:** Condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Components nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente; si tratta di un’azione una tantum al momento della condivisione.
-
-   * **Imposta come pagina di destinazione per i destinatari:** Imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente; si tratta di un’azione una tantum al momento della condivisione.
-
-1. Fai clic su **[!UICONTROL Share]**. Se il progetto è già stato condiviso, fai clic su [!UICONTROL **Aggiorna**].)
+1. Seleziona la casella di controllo accanto a uno o più progetti da condividere, quindi seleziona [!UICONTROL **Condividi**].
 
    Oppure
 
-   Clic **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, fai clic su **[!UICONTROL Curate & Update]**.) Ulteriori informazioni sulla [cura dei progetti](curate.md).
+   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
+
+   Viene visualizzata la finestra di dialogo Condividi progetto. Il [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] le sezioni della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
+
+   ![Finestra Condividi progetto.](assets/share-proj-modal.png)
+
+1. Aggiungi destinatari o gruppi di destinatari in uno dei campi ruolo forniti:
+
+   **Modifica originale:** i destinatari possono **[!UICONTROL Save]** le modifiche a un progetto e fungere da co-proprietari. Questo ruolo è utile se desideri gestire un progetto con altri colleghi; ciò include la modifica e l’eliminazione degli elenchi dei destinatari per un progetto condiviso. <br>Nota: Analysis Workspace al momento non supporta la collaborazione in tempo reale, pertanto si consiglia di modificare un progetto solo un utente alla volta. Se i progetti vengono salvati contemporaneamente, viene mantenuta l’ultima versione.
+
+   **Modifica copia:** i destinatari possono **[!UICONTROL Save as]** e accedere alla barra a sinistra. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati dell’organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato.
+
+   **Sola lettura:** i destinatari non possono **[!UICONTROL Save]** o **[!UICONTROL Save as]** e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, con Analysis Workspace o con il Customer Journey Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro. Scopri di più sull’[esperienza di progetto di Sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md).
+
+1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
+
+   * **Condividere componenti di progetto incorporati:** Condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
+
+   * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
+
+1. Seleziona **[!UICONTROL Share]** (Crea schema). Se il progetto è già stato condiviso, seleziona [!UICONTROL **Aggiorna**].)
+
+   Oppure
+
+   Seleziona **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**.) Ulteriori informazioni sulla [cura dei progetti](curate.md).
 
 ## Condividere un collegamento a un progetto
 
-Quando condividi un collegamento come descritto in questa sezione, considera quanto segue:
+Quando condividi un collegamento come descritto in questa sezione, prendi in considerazione quanto segue:
 
 * I destinatari che utilizzano il collegamento devono accedere al Customer Journey Analytics prima di poter accedere al progetto.
 
-* Se a un destinatario non viene assegnato un ruolo e riceve un [link](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita viene assegnato loro un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori ricevono **[!UICONTROL Edit copy]**.
+* Se a un destinatario non viene assegnato un ruolo e riceve un [link](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita viene assegnato loro un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
 
 Per condividere il collegamento del progetto con gli utenti dell’organizzazione:
 
-1. Salva il progetto. Se sono presenti modifiche non salvate, viene richiesto di salvare il progetto prima di condividere un collegamento.
+1. Salva il progetto. In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto prima di condividere un collegamento.
 
-1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** campo.
+1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al campo **[!UICONTROL Share by link]**.
 
    ![Il progetto Share (Condividi) evidenzia il campo Share by link (Condividi tramite collegamento).](assets/share-proj-modal.png)
 
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
 
-## Condividere un progetto con altri utenti (accesso non richiesto) {#share-public-link}
+## Condividere un progetto con chiunque (accesso non richiesto) {#share-public-link}
 
-Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md) ai progetti Analysis Workspace per le persone che non hanno accesso al Customer Journey Analytics. Ciò può includere:
+Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md) ai progetti Analysis Workspace per le persone che non hanno accesso al Customer Journey Analytics. Questo può includere:
 
 * Persone esterne all’organizzazione
 
@@ -138,15 +150,15 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
 
-   In presenza di modifiche non salvate, viene richiesto di salvare il progetto.
+   In presenza di modifiche non salvate, ti verrà richiesto di salvare il progetto.
 
    <!-- Add screen shot of new modal -->
 
-1. Abilita **[!UICONTROL Link is active]** se non è già abilitata.
+1. Abilita l’opzione **[!UICONTROL Link is active]** se non è già abilitata.
 
    Selezionando questa opzione viene creato un collegamento al progetto che può essere condiviso con chiunque. Disattivando questa opzione è possibile disattivare l’accesso al progetto in qualsiasi momento.
 
-   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento di risorse utente o impostazione delle scadenze dell&#39;account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=it) nella guida per l’amministratore di Analytics.
+   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento delle risorse utente o impostazione delle scadenze dell’account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=it) nella guida dell’amministratore di Analytics.
 
 1. Scegliere se abilitare la seguente opzione di protezione (che può essere controllata dall&#39;amministratore di Customer Journey Analytics):
 
@@ -166,25 +178,15 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace.
 
-1. (Facoltativo) Puoi fare clic sul pulsante **Genera nuovo collegamento** icona ![Icona Genera collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per rimuovere l’accesso da utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedere al progetto.
+1. (Facoltativo) Puoi fare clic sull’icona **Genera nuovo collegamento** ![Icona Genera collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per rimuovere l’accesso da utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedano al progetto.
 
 1. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo condividi. Le modifiche vengono salvate automaticamente.
 
-## Condivisione di progetti nel Project manager {#Manager}
+## Visualizza progetti condivisi con te
 
-I progetti possono essere condivisi anche da **[!UICONTROL Components]>[!UICONTROL Projects]**. Un singolo progetto può essere condiviso seguendo gli stessi passaggi indicati sopra.  Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all’elenco esistente di destinatari per ciascun progetto.
+Quando qualcuno condivide un progetto con te tramite [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi da [Scheda Progetti della pagina di destinazione di Analytics](/help/getting-started/landing.md#navigate-the-projects-tab).
 
-Ad esempio:
-
-* Il progetto A è condiviso con i destinatari 1, 2, 3
-* Il progetto B è condiviso con i destinatari 4, 5, 6
-
-Con i progetti A e B selezionati, i destinatari 4 e 7 vengono aggiunti agli elenchi di condivisione. Il nuovo elenco di condivisione per ciascun progetto ora è:
-
-* Progetto A: 1, 2, 3, 4, 7
-* Progetto B: 4, 5, 6, 7
-
-![La finestra Aggiungi destinatari a più progetti.](assets/mult-proj-sharing.png)
+Quando qualcuno condivide un progetto con te condividendo un collegamento (da [Scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un [condividi con chiunque](#share-a-project-with-anyone-no-login-required)), per accedere al progetto devi utilizzare il collegamento condiviso con te. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
 
 ## Condividere componenti incorporati
 
@@ -199,4 +201,4 @@ Video sull’argomento:
 | Cosa succede se due editor salvano un progetto contemporaneamente? | Le modifiche non vengono unite e viene mantenuta l’ultima versione del progetto salvata. Analysis Workspace non supporta attualmente la collaborazione in tempo reale. |
 | In qualità di amministratore, quale esperienza di progetto visualizzerò? | Gli amministratori inseriti in un ruolo **[!UICONTROL Edit copy]** o **[!UICONTROL Read only]** riceveranno tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può elevare il proprio ruolo a **[!UICONTROL Edit original]** in qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**. |
 | Cosa succede se un destinatario viene collocato in un ruolo come singolo utente e in un altro ruolo come membro di un gruppo? | Se un destinatario viene posizionato in più ruoli, riceverà sempre l’esperienza di livello più elevato. Ad esempio, se a un destinatario viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Can view]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Edit original]**. |
-| Quale esperienza riceve un destinatario se apre un collegamento al progetto? | I destinatari ricevono il ruolo in cui li hai inseriti nella modalità di condivisione. Se a un destinatario non viene assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** ), per impostazione predefinita vengono inseriti in un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**. |
+| Quale esperienza riceve un destinatario se apre un collegamento al progetto? | I destinatari ricevono il ruolo in cui li hai inseriti nella modalità di condivisione. Se non viene assegnato un ruolo al destinatario e questo riceve un collegamento al progetto (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** vicino al campo **[!UICONTROL Share by link]**), gli verrà assegnato un ruolo per impostazione predefinita. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**. |

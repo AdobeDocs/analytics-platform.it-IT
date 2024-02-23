@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d9a54eca27b41a7d52e61a75e18850608fc97e5e
+source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 67%
+source-wordcount: '3194'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Febbraio 2024** | |
+| Aggiornamenti alla documentazione sulla condivisione dei progetti | Sono state aggiunte informazioni su come [visualizzare i progetti condivisi con te](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Sono state inoltre semplificate le informazioni su [condivisione di singoli progetti o di più progetti](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Sono stati aggiunti requisiti di autorizzazione per il caricamento di file in Azure SAS e Azure RBAC durante la configurazione delle posizioni di esportazione cloud | Sono stati aggiunti requisiti di autorizzazione esatti per il caricamento di file in Azure SAS e Azure RBAC quando [configurazione degli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [configurazione dei percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md). |
 | Sono stati aggiunti i requisiti di autorizzazione per il caricamento di file nei bucket ARN per ruolo Amazon S3 e GCP durante la configurazione delle posizioni di esportazione cloud | Sono stati aggiunti requisiti di autorizzazioni esatti per il caricamento di file nei bucket di Amazon S3 Role ARN e Google Cloud Platform quando [configurazione dei percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md). |
 | È stato chiarito che gli amministratori di prodotto hanno sempre accesso all’esportazione di tabelle complete | Sono state apportate le seguenti modifiche per chiarire che gli utenti a cui è assegnato il ruolo di amministratore prodotto hanno accesso all’esportazione di tabelle complete da Analysis Workspace per impostazione predefinita: <ul><li>È stato aggiunto un nuovo punto elenco a [Autorizzazioni predefinite per l’amministratore del prodotto](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>È stata aggiunta una nota sotto [requisiti minimi per l’esportazione di tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
