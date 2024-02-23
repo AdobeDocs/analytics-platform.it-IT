@@ -5,10 +5,10 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
+source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 3%
+source-wordcount: '1734'
+ht-degree: 2%
 
 ---
 
@@ -151,7 +151,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Nome contenitore**] | Contenitore all’interno dell’account specificato in cui desideri inviare i dati di Customer Journey Analytics. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;archivio dei token SAS specificato nel campo del nome segreto dell&#39;insieme di credenziali delle chiavi durante la configurazione dell&#39;account SAS di Azure abbia `Write` autorizzazione. Questo consente al token SAS di creare file nel contenitore Azure. <p>Se si desidera che il token SAS sovrascriva anche i file, assicurarsi che l&#39;archivio dei token SAS disponga del `Delete` autorizzazione.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione di Azure Blob Storage.</p> |
 
    {style="table-layout:auto"}
 
@@ -172,7 +172,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Accertati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;ID applicazione specificato durante la configurazione dell&#39;account RBAC di Azure disponga del `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **Account**] | Account di archiviazione Azure. |
 
    {style="table-layout:auto"}
