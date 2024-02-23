@@ -6,7 +6,8 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
+exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
+source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 1%
@@ -128,7 +129,7 @@ Per cercare dati da altri set di dati, è possibile utilizzare la funzionalità 
 
 #### Calcoli
 
-Per eseguire calcoli sui campi (colonne), utilizzare le funzioni SQL standard, ad esempio `COUNT(*)` o [operatori e funzioni matematiche e statistiche](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) parte di Spark SQL. Inoltre, [funzioni finestra](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) fornisce supporto per aggiornare le aggregazioni e restituire singoli elementi per ogni riga in un sottoinsieme ordinato. Consulta [Esempi](#examples) su come utilizzare queste funzioni.
+Per eseguire calcoli sui campi (colonne), utilizzare le funzioni SQL standard, ad esempio `COUNT(*)`) o [operatori e funzioni matematiche e statistiche](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) parte di Spark SQL. Inoltre, [funzioni finestra](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) fornisce supporto per aggiornare le aggregazioni e restituire singoli elementi per ogni riga in un sottoinsieme ordinato. Consulta [Esempi](#examples) su come utilizzare queste funzioni.
 
 #### Struttura dati nidificata
 
@@ -277,4 +278,3 @@ In breve, l’emulazione della funzionalità Feed dati di Adobe Analytics implic
 >[!IMPORTANT]
 >
 >In questo caso d’uso sono coinvolti due scheduler. Per garantire il corretto funzionamento della funzionalità dei feed dati emulati, assicurati che le pianificazioni configurate in Query Service e le esportazioni di dati non interferiscano.
-
