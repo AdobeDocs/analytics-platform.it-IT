@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2be283e0abd32229be1921b106d166f47fb410a8
+source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
 workflow-type: tm+mt
-source-wordcount: '2632'
-ht-degree: 51%
+source-wordcount: '2618'
+ht-degree: 50%
 
 ---
 
@@ -52,7 +52,7 @@ L’esperienza di creazione e modifica della connessione porta tutte le impostaz
    | **[!UICONTROL Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
    | **[!UICONTROL Matching Key]** | Solo per i set di dati di ricerca (ad esempio _id). |
    | **[!UICONTROL Import new data]** | Imposta su On o Off. |
-   | **[!UICONTROL Backfill data]** | Puoi richiedere di eseguire il backfill dei dati in un set di dati in base a marche temporali di evento. Ad esempio, puoi richiedere di eseguire il backfill degli ultimi 7 giorni di dati, configurare l’ID persona corretto e verificare la corretta configurazione della tua connessione. Se tutto sembra a posto, puoi eseguire facilmente il backfill di tutti i dati rimanenti.<p>Inoltre, puoi abilitare l’importazione di nuovi dati per set di dati. Ad esempio, puoi abilitare l’importazione di nuovi dati solo per i dati di ricerca. |
+   | **[!UICONTROL Backfill data]** | Puoi richiedere di eseguire il backfill dei dati in un set di dati in base a marche temporali di evento. Ad esempio, puoi richiedere di eseguire il backfill degli ultimi 7 giorni di dati, configurare l’ID persona corretto e verificare la corretta configurazione della tua connessione. Se tutto sembra a posto, puoi eseguire facilmente il backfill di tutti i dati rimanenti.<p>Inoltre, puoi abilitare l’importazione di nuovi dati per set di dati. |
    | **[!UICONTROL Backfill status]** | Indica se vengono elaborati dati di retrocompilazione. |
 
    {style="table-layout:auto"}
