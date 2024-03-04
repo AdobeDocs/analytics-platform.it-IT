@@ -2,9 +2,8 @@
 description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
 title: Creare filtri
 feature: Filters
-exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c19309488e0a541b522ca6925c7ca2bdb90f2390
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 2%
