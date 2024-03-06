@@ -1,11 +1,11 @@
 ---
 title: Visualizzazione della crescita netta
 description: Stai guadagnando o perdendo utenti?
-feature: Guided Analysis
+feature: Adobe Product Analytics, Guided Analysis
 keywords: analisi dei prodotti
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
