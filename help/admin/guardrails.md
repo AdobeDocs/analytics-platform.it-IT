@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: b945ae10d9107a760e32f5d111e5c14724898646
+source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 7%
@@ -81,7 +81,7 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/Guardrails.html?lang=en).
+Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
 
 
 ## Scadenza set di dati automatizzato
@@ -126,7 +126,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en).
+Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
 
 
 ## Zona di destinazione dati
