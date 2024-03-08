@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Guardrail Customer Journey Analytics
 
-Questo documento stabilisce i limiti per i vari componenti del Customer Journey Analytics. Per guardrail, parametri di ambito e diritti, vedere [Descrizione prodotto per Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) o [Descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+Questo documento stabilisce i limiti per i vari componenti del Customer Journey Analytics. Per guardrail, parametri di ambito e diritti, vedere [Descrizione prodotto per Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o [Descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
 
 ## Tipi di limite
 
@@ -81,7 +81,7 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
+Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
 
 
 ## Scadenza set di dati automatizzato
@@ -101,7 +101,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 | Progetti | 2.000 | Guardrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
 | Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un’organizzazione. |
 | Visualizzazioni dati | 50 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione |
-| Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=en) per connessione. |
+| Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
 | Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un’organizzazione. |
 | Titolo connessione | 500 | Guardrail imposto dal sistema | Numero massimo di caratteri per un titolo di connessione. |
 | Metriche | 5.000 | Guardrail imposto dal sistema | Numero massimo di metriche in una visualizzazione dati. |
@@ -126,7 +126,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
+Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Zona di destinazione dati
@@ -181,7 +181,7 @@ Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https:/
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Dimensione file cartella di lavoro | 5 | Guardrail imposto dal sistema | Dimensione massima del file in MB di una cartella di lavoro pianificata. |
-| Blocchi di dati | 1000 | Guardrail imposto dal sistema | Numero massimo di [blocchi di dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=en) per cartella di lavoro. |
+| Blocchi di dati | 1000 | Guardrail imposto dal sistema | Numero massimo di [blocchi di dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=it) per cartella di lavoro. |
 | Metriche | 20 | Guardrail imposto dal sistema | Numero massimo di metriche per blocco di dati. |
 | Intervallo date | 13 | Guardrail imposto dal sistema | Numero massimo di mesi che un intervallo di date può estendere per blocco di dati. |
 | Righe | 50.000 | Guardrail imposto dal sistema | Numero massimo di righe per blocco di dati. |
@@ -204,7 +204,7 @@ Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https:/
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, fare riferimento al contratto di Customer Journey Analytics. Vedi Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en) per ulteriori informazioni.
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, fare riferimento al contratto di Customer Journey Analytics. Vedi Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) per ulteriori informazioni.
 
 | Flusso di dati | Latenza prevista |
 |---|---|

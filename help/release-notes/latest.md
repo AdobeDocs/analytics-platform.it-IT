@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 38%
 
 ---
@@ -18,11 +18,11 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra la fine d
 
 ## Funzioni nuove o aggiornate
 
-| Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
+| Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Previsioni di serie temporali** | [Previsione](../analysis-workspace/c-forecast/forecasting.md) è una nuova funzione di Analysis Workspace utilizzata per prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale) per le tabelle a forma libera e i grafici a linee. | giovedì 31 gennaio 2024 | giovedì 21 febbraio 2024 |
 | **Metriche del conteggio delle righe per i dati di ricerca e profilo** | Le metriche del conteggio delle righe per i set di dati, configurate come parte di una connessione, ora includono i record aggiunti, saltati o eliminati dai set di dati di profilo e di ricerca. |  | giovedì 14 febbraio 2024 |
-| **Rilevamento bot di Experience Edge** | [Rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) consente di identificare gli eventi generati da Web SDK, Mobile SDK e Server API come generati da spider e bot noti. | | martedì 29 aprile 2024 |
+| **Rilevamento bot Edge Network** | [Rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) consente di identificare gli eventi generati da Web SDK, Mobile SDK e Server API come generati da spider e bot noti. | | martedì 29 aprile 2024 |
 | **Metriche di utilizzo** | L’interfaccia delle metriche di utilizzo mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l’utilizzo del Customer Journey Analytics è conforme a quanto stabilito contrattualmente. | mercoledì 20 febbraio 2024 | giovedì 13 marzo 2024 |
 | **Adobe Product Analytics: condividi con chiunque** | Consente di condividere un collegamento in sola lettura ai progetti Adobe Product Analytics con persone che non hanno accesso al Product Analytics. |  | Fine di marzo 2024 |
 | **Adobe Product Analytics: applicare le metriche calcolate** | È ora possibile accedere alle metriche calcolate create in Analysis Workspace o nel generatore di metriche calcolate nella vista Tendenze: Utilizzo, per creare tendenze e confrontare le metriche nel tempo. |  | sabato 16 febbraio 2024 |

@@ -4,7 +4,7 @@ description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 50%
@@ -20,7 +20,7 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
 * Esportazione del pubblico a terzi tramite una destinazione di Experience Platform.
 * Arricchimento di Real-time Customer Profile con attributi utili derivati dai dati basati su eventi nel Customer Journey Analytics.
-* Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency)
+* Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
 I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experienci Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicarli in Real-time Customer Profile in Experienci Platform a scopo di attivazione.

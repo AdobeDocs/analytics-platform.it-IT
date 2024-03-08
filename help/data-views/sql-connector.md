@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2769'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Gli utenti devono avere accesso a:
    - progetti Customer Journey Analytics Workspace e
    - Visualizzazioni dati di Customer Journey Analytics che desiderano utilizzare.
 
-- Utilizzare le credenziali senza scadenza per connettere gli strumenti BI al connettore SQL di Customer Journey Analytics. Gio [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
+- Utilizzare le credenziali senza scadenza per connettere gli strumenti BI al connettore SQL di Customer Journey Analytics. Gio [Guida alle credenziali](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=it) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
 
 Consulta [Controllo dell’accesso](../admin/cja-access-control.md) per ulteriori informazioni, consulta la sezione Amministrazione del Customer Journey Analytics.
 
@@ -86,7 +86,7 @@ Nell’interfaccia utente di Experience Platform:
 
 +++
 
-Consulta [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=en) per ulteriori informazioni.
+Consulta [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=it) per ulteriori informazioni.
 
 
 ### Strumenti BI
@@ -101,7 +101,7 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
    2. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
 
-   3. Usare ![Copia](assets/Smock_Copy_18_N.svg) per copiare ogni parametro delle credenziali Postgres ([!UICONTROL Host], , , [!UICONTROL Port][!UICONTROL Database][!UICONTROL Username]e altri) quando necessario in Power BI.
+   3. Usare ![Copia](assets/Smock_Copy_18_N.svg) per copiare ogni parametro delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username]e altri) quando necessario in Power BI.
 
 2. In Power BI:
 
@@ -117,7 +117,7 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
       2. Incolla **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** campo di testo.
 
-         Aggiungi `?FLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja?FLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) per ulteriori informazioni.
+         Aggiungi `?FLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja?FLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) per ulteriori informazioni.
 
       3. Quando richiesto **[!UICONTROL ** Connettività dati **]** modalità, seleziona **[!UICONTROL ** DirectQuery **]** per garantire che le strutture di dati siano appiattite correttamente.
 
@@ -131,7 +131,7 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
    Tutte le dimensioni e le metriche associate a una o più tabelle selezionate vengono visualizzate nel riquadro di destra, pronte per essere utilizzate nelle visualizzazioni.
 
-   Consulta [Connetti Power BI a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html?lang=en) per ulteriori informazioni.
+   Consulta [Connetti Power BI a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html) per ulteriori informazioni.
 
 +++
 
@@ -159,13 +159,13 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
       3. Incolla **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** campo di testo.
 
-         Aggiungi `%3FFLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja%3FFLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) per ulteriori informazioni.
+         Aggiungi `%3FFLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja%3FFLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) per ulteriori informazioni.
 
       4. Seleziona **[!UICONTROL ** Nome utente e password **]** da **[!UICONTROL ** Autenticazione **]** elenco.
 
       5. Incolla **[!UICONTROL ** Nome utente **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Nome utente **]** campo di testo.
 
-      6. **[!UICONTROL ** Incolla parametro Password da Experience Platform Interroga [!UICONTROL Credentials] in Password **]****]** campo di **[!UICONTROL ** testo.
+      6. **[!UICONTROL ** Incolla parametro Password **]** da Experience Platform Interroga [!UICONTROL Credentials] in Password **]** campo di **[!UICONTROL ** testo.
 
       7. Seleziona **[!UICONTROL ** Accedi **]**.
 
@@ -175,11 +175,11 @@ Attualmente, il connettore SQL di Customer Journey Analytics è supportato e tes
 
    Ora puoi lavorare con i dati delle tabelle delle visualizzazioni dati per creare rapporti e visualizzazioni.
 
-   Consulta [Connettere Tableau a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) per ulteriori informazioni.
+   Consulta [Connettere Tableau a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html) per ulteriori informazioni.
 
 +++
 
-Consulta [Connettere i client a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en) per una panoramica e ulteriori informazioni sui vari strumenti disponibili.
+Consulta [Connettere i client a Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) per una panoramica e ulteriori informazioni sui vari strumenti disponibili.
 
 ## Funzionalità
 
@@ -219,11 +219,11 @@ prod:all=> \dv
 
 ### Nidificato e appiattito
 
-Per impostazione predefinita, lo schema delle visualizzazioni dati utilizza strutture nidificate, proprio come gli schemi XDM originali. L’integrazione supporta anche `FLATTEN` opzione. È possibile utilizzare questa opzione per forzare l’appiattimento dello schema per le visualizzazioni dati (e qualsiasi altra tabella nella sessione). L’appiattimento consente un utilizzo più semplice negli strumenti di business intelligence che non supportano schemi strutturati. Consulta [Utilizzo delle strutture di dati nidificati in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) per ulteriori informazioni.
+Per impostazione predefinita, lo schema delle visualizzazioni dati utilizza strutture nidificate, proprio come gli schemi XDM originali. L’integrazione supporta anche `FLATTEN` opzione. È possibile utilizzare questa opzione per forzare l’appiattimento dello schema per le visualizzazioni dati (e qualsiasi altra tabella nella sessione). L’appiattimento consente un utilizzo più semplice negli strumenti di business intelligence che non supportano schemi strutturati. Consulta [Utilizzo delle strutture di dati nidificati in Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html) per ulteriori informazioni.
 
 ### SQL supportato
 
-Consulta [Riferimento SQL di Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) per il riferimento completo sul tipo di SQL supportato.
+Consulta [Riferimento SQL di Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html) per il riferimento completo sul tipo di SQL supportato.
 
 Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
 
@@ -232,7 +232,7 @@ Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
 | Pattern | Esempio |
 |---|---|
 | Individuazione dello schema | <pre>SELEZIONA * DA DV1 DOVE 1=0</pre> |
-| Classifica / Suddivisione | <pre>SELEZIONA dim1, SOMMA(metric1) COME M1 DA DV1 DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;RAGGRUPPA<br/> PER DIM1<br/><br/></pre><pre>SELEZIONA dim1, SOMMA(metric1) COME M1 DA DV1 DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/> filterId = &#39;12345&#39;RAGGRUPPA<br/> PER dim1<br/><br/></pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  E (dim2 = &#39;A&#39; O dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>RAGGRUPPA PER dim1</pre> |
+| Classifica / Suddivisione | <pre>SELEZIONA dim1, SOMMA(metric1) COME M1<br/>DA DV1<br/>DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;RAGGRUPPA<br/> PER DIM1</pre><pre>SELEZIONA dim1, SOMMA(metric1) COME M1<br/>DA DV1<br/>DOVE \&#39;timestamp\&#39; TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  filterId = &#39;12345&#39;RAGGRUPPA<br/> PER dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  E (dim2 = &#39;A&#39; O dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>RAGGRUPPA PER dim1</pre> |
 | clausola HAVING | <pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>AVENTI m1 > 100</pre> |
 | Distinct, top <br/>valori di dimensione | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` >= &#39;2022-01-01&#39; E \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>ORDINA PER SOMMA(metrica1)<br/>LIMITE 15</pre> |
 | Totali delle metriche | <pre>SELEZIONA SOMMA(metrica1) COME m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;</pre> |
@@ -298,7 +298,7 @@ Puoi applicare espressioni metriche aggiuntive alle tue `SELECT` invece di avere
 | `+`, `-`, `*`, `/`, e `%` | Aggiungere, sottrarre, moltiplicare, dividere e modulare/rimanente |
 | `-X` o `+X` | Modifica del segno o di una metrica in cui X è l’espressione della metrica |
 | `PI()` | Costante di |
-| `POSITIVE`, , , `FLOOR`, , `CEILING``EXP``COSH``COS``ATAN``SIN``SINH``ASIN``ACOS``TAN``RADIANS``DEGREES``CBRT``SQRT``LOG10``LN``LOG1P``NEGATIVE``CEIL`e `ABS``TANH` | Funzioni matematiche unarie |
+| `POSITIVE`, `NEGATIVE`, `ABS`, `FLOOR`, `CEIL`, `CEILING``LOG1P``COSH``ACOS``SINH``ATAN``ASIN``TAN``COS``SIN``RADIANS``CBRT``LOG10``DEGREES``EXP``LN``SQRT`e`TANH` | Funzioni matematiche unarie |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | binario funzioni matematiche |
 
 {style="table-layout:auto"}

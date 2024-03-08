@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Questo caso d’uso descrive come utilizzare la potenza dei campi derivati per impostare gli obiettivi per una dimensione specifica e quindi utilizzarli nel progetto Workspace.
 
-Se non conosci i campi derivati, consulta la sezione [esercitazione](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=en) e [documentazione](../data-views/derived-fields/derived-fields.md) per un’introduzione.
+Se non conosci i campi derivati, consulta la sezione [esercitazione](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) e [documentazione](../data-views/derived-fields/derived-fields.md) per un’introduzione.
 
 
 ## Definire gli obiettivi

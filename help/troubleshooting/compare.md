@@ -1,19 +1,19 @@
 ---
-title: Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics
+title: Confrontare i dati di Adobe Analytics con i dati Customer Journey Analytics
 description: Scopri come confrontare i dati di Adobe Analytics con quelli del Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servizio query;servizio query;sintassi SQL;query service;Query service;sql syntax
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 62%
+ht-degree: 64%
 
 ---
 
-# Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics
+# Confrontare i dati di Adobe Analytics con i dati Customer Journey Analytics
 
 Quando l’organizzazione adotta il Customer Journey Analytics, potresti notare alcune differenze nei dati tra Adobe Analytics e Customer Journey Analytics. Questo è normale e può verificarsi per diversi motivi. Il Customer Journey Analytics è progettato per consentirti di migliorare alcune delle limitazioni sui dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate e non intenzionali. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare il Customer Journey Analytics senza problemi per l’integrità dei dati.
 
@@ -79,7 +79,7 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=it).
+   Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html).
 
 1. Se il connettore ha filtrato delle righe, sottrarle dalla metrica [!UICONTROL Occurrences]. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 

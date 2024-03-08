@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 12%
@@ -37,7 +37,7 @@ Set di dati da aggiungere alla connessione:
 | Set di dati dell’elenco di marketing B2B | Schema elenco di marketing B2B | Ricerca | Elenco di marketing XDM | XDM Business Marketing List è una classe XDM (Experience Data Model) standard che acquisisce le proprietà minime richieste di un elenco di marketing. Gli elenchi di marketing ti consentono di dare la priorità ai potenziali clienti che hanno maggiori probabilità di acquistare il tuo prodotto. |
 | Set di dati dei membri dell’elenco di marketing B2B | Schema membri di elenchi marketing B2B | Ricerca | Membri dell’elenco di marketing XDM | XDM Business Marketing List Members è una classe XDM (Experience Data Model) standard che descrive membri, persone o contatti associati a un elenco di marketing. |
 
-La relazione tra gli schemi di ricerca, lo schema di profilo e lo schema evento è definita nella configurazione B2B all’interno di Experienci Platform. Vedere Schemi in [Edizione B2B di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html?lang=en) e [Definire una relazione molti-a-uno tra due schemi in Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html?lang=en) per ulteriori dettagli.
+La relazione tra gli schemi di ricerca, lo schema di profilo e lo schema evento è definita nella configurazione B2B all’interno di Experienci Platform. Vedere Schemi in [Edizione B2B di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) e [Definire una relazione molti-a-uno tra due schemi in Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) per ulteriori dettagli.
 
 ![Relazione tra schemi B2B](assets/classes.png)
 
@@ -258,7 +258,7 @@ Nessun componente metrico è definito come parte di questo set di dati.
 | Rifiutato | Lungo | *_organizationID*`.campaignBounced` | Comportamento: **[!UICONTROL Count values]** |
 | Clic effettuato | Lungo | *_organizationID*`.campaignClicked` | Comportamento: **[!UICONTROL Count values]** |
 | Aperto | Lungo | *_organizationID*`.CampaignOpened` | Comportamento: **[!UICONTROL Count values]** |
-| Inviate | Lungo | *_organizationID*`.campaignSent` | Comportamento: **[!UICONTROL Count values]** |
+| Inviato | Lungo | *_organizationID*`.campaignSent` | Comportamento: **[!UICONTROL Count values]** |
 | Abbonato | Lungo | *_organizationID*`.campaignSubscribed` | Comportamento: **[!UICONTROL Count values]** |
 | Registrazioni webinar | Lungo | *_organizationID*`.Registrations` | Comportamento: **[!UICONTROL Count values]** |
 

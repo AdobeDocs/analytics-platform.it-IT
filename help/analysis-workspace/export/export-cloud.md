@@ -5,7 +5,7 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 2%
@@ -146,7 +146,7 @@ Assicurati che le tabelle, l’ambiente e le autorizzazioni soddisfino i seguent
 
 * **Ambiente:** Gli amministratori devono assicurarsi che gli indirizzi IP elencati in [Indirizzi IP utilizzati dal Customer Journey Analytics](/help/admin/ip-addresses.md) sono inclusi nel inserisco nell&#39;elenco Consentiti di installazione del firewall.
 
-* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con [!UICONTROL **Esportazione tabella completa**] le autorizzazioni assegnate per esportare tabelle complete. Per informazioni sull’assegnazione di un’autorizzazione a un profilo di prodotto nell’Admin Console, vedi [Autorizzazione di Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Controllo accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con [!UICONTROL **Esportazione tabella completa**] le autorizzazioni assegnate per esportare tabelle complete. Per informazioni sull’assegnazione di un’autorizzazione a un profilo di prodotto nell’Admin Console, vedi [Autorizzazione di Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Controllo accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
   >[!NOTE]
   >
@@ -211,7 +211,7 @@ Se in un rapporto viene utilizzato un modello di attribuzione non predefinito, i
 Se in precedenza utilizzavi Data Warehouse per esportare dati Adobe Analytics, la tabella seguente consente di comprendere le differenze tra l’esportazione di tabelle complete in Customer Journey Analytics e l’esportazione di dati con Data Warehouse in Adobe Analytics.
 
 
-| Funzionalità | Esportazione tabella completa nel Customer Journey Analytics | Data Warehouse in Adobe Analytics |
+| Funzione | Esportazione tabella completa nel Customer Journey Analytics | Data Warehouse in Adobe Analytics |
 |---------|----------|---------|
 | Creare un rapporto personalizzato | Sì | Sì |
 | Metriche calcolate | Sì | No |

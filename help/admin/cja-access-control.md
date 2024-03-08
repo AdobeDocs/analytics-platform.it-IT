@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -57,7 +57,7 @@ Oltre ad essere aggiunto come amministratore di prodotto nella **Profilo prodott
 
      Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Controllo degli accessi in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
 
-* Esportare i set di dati nel cloud [Destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en)
+* Esportare i set di dati nel cloud [Destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
   >[!AVAILABILITY]
   >
@@ -67,7 +67,7 @@ Oltre ad essere aggiunto come amministratore di prodotto nella **Profilo prodott
    * Gestire le destinazioni
    * Attivare le destinazioni
 
-     Per ulteriori informazioni sulle autorizzazioni di Experienci Platform Destinations, consulta [Panoramica sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
+     Per ulteriori informazioni sulle autorizzazioni di Experienci Platform Destinations, consulta [Panoramica sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html#access-controls).
 
 ## Ruolo di amministratore del profilo di prodotto
 
@@ -146,7 +146,7 @@ La **[!UICONTROL Permissions]** scheda fa parte di ciascun profilo di prodotto i
 | **[!UICONTROL Annotation Creation]** | Consente agli utenti di creare [annotazioni](/help/components/annotations/overview.md). |
 | **[!UICONTROL Audience Creation]** | Consente agli utenti di creare [segmenti di pubblico](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL Audience View]** | Consente agli utenti di visualizzare [i segmenti di pubblico](/help/components/audiences/audiences-overview.md). |
-| [!UICONTROL **Condividere Collegamenti Al Progetto Con Chiunque**] | Consente agli utenti di [condividere progetti con chiunque.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=it#share-public-link) |
+| [!UICONTROL **Condividere Collegamenti Al Progetto Con Chiunque**] | Consente agli utenti di [condividere progetti con chiunque.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html#share-public-link) |
 | **[!UICONTROL Data View Tools]**: |   |
 | [!UICONTROL **Esportazione tabella completa**] | Consente agli utenti di [esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md). |
 | [!UICONTROL **Accesso a SQL Query Service**] | Consente agli utenti di accedere [Servizio query in AEP](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it). |

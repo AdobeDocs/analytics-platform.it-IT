@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0cf1f69d5623a827cba64427c8db614b690968a0
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 23%
@@ -110,7 +110,7 @@ In alternativa, è possibile:
 
 1. Seleziona ![Aggiungi visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Create data view]** dalla barra dei pulsanti blu.
 
-Consulta [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
 ## Dettagli di connessione {#connection-detail}
 
@@ -199,4 +199,4 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!MORELIKETHIS]
 >
->[Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja.html?lang=en) esercitazione.
+>[Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja.html) esercitazione.

@@ -1,14 +1,14 @@
 ---
 title: Panoramica delle visualizzazioni dati
-description: Una visualizzazione dati specifica come interpretare gli elementi dei dati nella connessione di Customer Journey Analytics, ad esempio metriche, dimensioni, sessioni e così via.
+description: Una visualizzazione dati determina come interpretare gli elementi dei dati nella connessione Customer Journey Analytics, ad esempio metriche, dimensioni, sessioni, ecc.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c1e6279d8e2f0b31a82c2588fce8b3c2e614e440
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -26,11 +26,11 @@ I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazio
 
 >[!IMPORTANT]
 >
->È possibile aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
+>Puoi aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
 
 ## Funzionalità delle visualizzazioni dati {#capabilities}
 
-Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform o reimplementare l’ambiente di Customer Journey Analytics.
+Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform, né reimplementare l’ambiente Customer Journey Analytics.
 
 * **Puoi cambiare un componente da metrica a dimensione e viceversa**. Puoi creare metriche da campi stringa o dimensioni da campi numerici. Questo semplifica il lavoro, poiché non è necessario creare un campo numerico nello schema XDM per ogni metrica desiderata. Potrai infatti crearlo spontaneamente nella finestra di dialogo delle visualizzazioni dati. Di seguito sono riportati alcuni esempi:
    * **Crea una o più dimensioni e/o una dimensione da un singolo campo schema**. Si tratta di una relazione uno-a-molti. Ad esempio, puoi creare una o più metriche Ricavi e/o una o più dimensioni Ricavi da un singolo campo dello schema.

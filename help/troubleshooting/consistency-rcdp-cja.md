@@ -4,10 +4,10 @@ title: Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-ti
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 25%
+source-wordcount: '609'
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 ## Differenze nelle configurazioni di identità
 
-Real-Time CDP e Customer Journey Analytics oggi non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
+Real-Time CDP e Customer Journey Analytics oggi non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html) per generare un profilo unito.
 
 Il Customer Journey Analytics può essere configurato per l&#39;utilizzo [Stitching](../stitching/overview.md) che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra loro.
 
@@ -34,7 +34,7 @@ Puoi scegliere di inserire alcuni dati in Real-time CDP e alcuni in Customer Jou
 
 Il Customer Journey Analytics consente di apportare modifiche estese ai dati in fase di query, ad esempio combinando i campi, suddividendoli in più parti ed effettuando altre manipolazioni quali inclusioni/esclusioni, sottostringhe, deduplicazione dei valori, sessionizzazione e filtro a livello di riga.
 
-Real-Time CDP offre un diverso set di strumenti di manipolazione dei dati. Applica i [criteri di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=it) per determinare quali dati avranno priorità e quali saranno combinati per creare una vista unificata di una persona.
+Real-Time CDP offre un diverso set di strumenti di manipolazione dei dati. Applica i [criteri di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html) per determinare quali dati avranno priorità e quali saranno combinati per creare una vista unificata di una persona.
 
 ## Differenze in TTL (Time to Live) e acquisizione dei dati
 

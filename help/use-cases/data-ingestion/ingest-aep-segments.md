@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 50%
@@ -32,13 +32,13 @@ Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da var
 
 ## Passaggio 2: creare un set di dati Unione profili da esportare
 
-Per esportare il pubblico in un set di dati che può essere aggiunto a una connessione in un Customer Journey Analytics, devi creare un set di dati con uno schema di tipo Profilo [Schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it#understanding-union-schemas).
+Per esportare il pubblico in un set di dati che può essere aggiunto a una connessione in un Customer Journey Analytics, devi creare un set di dati con uno schema di tipo Profilo [Schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Gli schemi di unione sono composti da più schemi che condividono la stessa classe e sono stati abilitati per Profilo. Lo schema di unione consente di visualizzare una combinazione di tutti i campi contenuti negli schemi che condividono la stessa classe. Real-time Customer Profile utilizza lo schema di unione per creare una visualizzazione olistica di ogni cliente.
 
 ## Passaggio 3: esportare un pubblico nel set di dati di Unione profili tramite chiamata API {#export}
 
-Prima di importare un pubblico in un Customer Journey Analytics, devi esportarlo in un set di dati di Adobe Experience Platform. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare l’[endpoint API per processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it).
+Prima di importare un pubblico in un Customer Journey Analytics, devi esportarlo in un set di dati di Adobe Experience Platform. Questo può essere fatto solo utilizzando l’API di segmentazione, e in particolare l’[endpoint API per processi di esportazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html).
 
 Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e inserire i risultati nel set di dati Unione profili di Adobe Experience Platform creato nel passaggio 2. Anche se puoi esportare vari attributi/eventi per il pubblico, devi solo esportare il campo ID profilo specifico che corrisponde al campo ID persona utilizzato nella connessione di Customer Journey Analytics che userai (vedi di seguito nel passaggio 5).
 
