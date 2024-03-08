@@ -2,19 +2,19 @@
 title: Tassi di mantenimento
 description: Misura quanti utenti continuano a utilizzare il prodotto.
 feature: Adobe Product Analytics, Guided Analysis
-keywords: analisi dei prodotti
+keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: 77fbd2a9ad44affc62aa5e98728d3353d78d8c3c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 0%
+source-wordcount: '906'
+ht-degree: 1%
 
 ---
 
 # Tassi di mantenimento
 
-Il **[!UICONTROL Retention rates]** visualizza mostra la percentuale di utenti che tornano dopo il coinvolgimento iniziale entro l’intervallo di date desiderato. L’asse orizzontale rappresenta il numero di giorni trascorsi dall’intervento iniziale di un utente. L’asse verticale rappresenta la percentuale di utenti che si impegnano nuovamente.
+Il **[!UICONTROL Retention rates]** visualizza mostra il comportamento di utilizzo ripetuto degli utenti nel prodotto nel tempo, utile per comprendere le esigenze del mercato del prodotto. In questa vista, l’asse orizzontale rappresenta il numero di giorni trascorsi dall’intervento iniziale di un utente e l’asse verticale rappresenta la percentuale di utenti che si impegnano nuovamente.
 
 Questa analisi conta gli utenti in base a due eventi importanti:
 
@@ -27,7 +27,6 @@ I successivi periodi fissi di durata contano il numero di utenti che sono ritorn
 
 * Se un utente si impegna con l’evento una sola volta nell’intervallo di date desiderato (il coinvolgimento iniziale), questo viene visualizzato solo nel bucket di durata &quot;Giorno 0&quot;.
 * Se un utente si impegna con l’evento più giorni dopo aver ottenuto inizialmente la qualifica per l’inclusione nell’analisi, vengono visualizzati nell’ultimo bucket di durata ammissibile e in tutti i bucket di durata che lo precedono. Questo tipo di calcolo è talvolta indicato come &quot;conservazione non limitata&quot;.
-* Se un utente si impegna più volte con l’evento durante l’intervallo di date configurato, nell’analisi vengono inclusi solo il primo e l’ultimo evento.
 
 ![Schermata Tassi di mantenimento](../assets/retention-rates.png){style="border:1px solid gray"}
 
@@ -36,14 +35,15 @@ I successivi periodi fissi di durata contano il numero di utenti che sono ritorn
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Analisi per coorte**: raggruppa gli utenti in coorti basate sulle azioni da loro intraprese, ad esempio iscrizioni o acquisti. Puoi confrontare il livello di mantenimento di questi gruppi e determinare come affrontare il miglioramento dell’esperienza utente di ciascun gruppo.
-* **Analisi del servizio di abbonamento**: se il tuo prodotto utilizza un abbonamento o un altro tipo di modello di ricavo ricorrente, puoi vedere la percentuale di utenti che stanno sfruttando al meglio il tuo prodotto. Puoi identificare alcune qualità e comportamenti che questi utenti mostrano per comprendere meglio come si adatta il tuo mercato di prodotto.
+* **Adattabilità al mercato del prodotto**: misura l’utilizzo regolare del prodotto e visualizzalo come curve di fidelizzazione. Una maggiore fidelizzazione significa una maggiore aderenza al mercato del prodotto e la posizione in cui la curva si appiattisce indica quanto tempo è necessario per raggiungere l’adesione. Puoi visualizzare questa analisi a livello generale o suddividerla per singole funzioni del prodotto, per ottenere informazioni più approfondite.
+* **Analisi del servizio di abbonamento**: se il tuo prodotto utilizza un abbonamento o un altro tipo di modello di ricavo ricorrente, puoi vedere la percentuale di utenti che stanno sfruttando al meglio il tuo prodotto. Puoi identificare alcune qualità e comportamenti che questi utenti mostrano.
 * **Coinvolgimento degli utenti**: valuta il modo in cui alcuni tipi di utenti interagiscono con il prodotto e confronta insieme la frequenza con cui ritornano. Un dato segmento con una fidelizzazione inferiore rispetto ad altri può fornirti informazioni sul miglioramento di potenziali esperienze secondarie che potrebbero avere.
 
 ## Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL Start & return event]**: i criteri dell’evento con cui un utente deve interagire per qualificarsi per l’inclusione nell’analisi. È supportato un evento, ma puoi includere filtri di proprietà.
+* **[!UICONTROL Start & return event]**: i criteri dell’evento con cui un utente deve interagire per qualificarsi per l’inclusione e il mantenimento nell’analisi. È supportato un evento, ma puoi includere filtri di proprietà.
 * **[!UICONTROL Counted as]**: metodo di conteggio che desideri applicare agli utenti mantenuti. Le opzioni includono [!UICONTROL Users retained] e [!UICONTROL Percentage of users retained].
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
 
@@ -51,7 +51,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 Il [!UICONTROL Retention rates] visualizza offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line].
+* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line]. La visualizzazione delle linee mostra visivamente il giorno 0 nel grafico.
 
 ## Impostazioni durata
 
@@ -66,7 +66,7 @@ I periodi fissi di durata disponibili dipendono dall’intervallo di date impost
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati di conservazione. Le opzioni valide includono Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi, che influiscono sull’impostazione automatica dei periodi fissi di durata.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati di conservazione. Le opzioni valide includono Giornaliero, Settimanale e Mensile. Lo stesso intervallo di date può avere intervalli diversi, che influiscono sulle opzioni del periodo fisso di durata.
 * **[!UICONTROL Date]**: data di inizio e fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
 
 Se selezioni un intervallo di date vicino al giorno corrente, gli utenti che inizialmente si impegnano troppo vicino al giorno corrente non vengono inclusi. Questa analisi offre sempre a tutti gli utenti la possibilità di essere inclusi in tutti i bucket di durata. Un messaggio sotto la selezione del calendario fornisce informazioni sull’intervallo di date in cui gli utenti interagiscono e sull’intervallo riservato solo agli utenti di ritorno:
