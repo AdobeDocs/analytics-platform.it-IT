@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
 workflow-type: tm+mt
 source-wordcount: '1428'
-ht-degree: 68%
+ht-degree: 95%
 
 ---
 
@@ -16,35 +16,35 @@ ht-degree: 68%
 
 Se la tua organizzazione inizia a utilizzare Adobe Customer Journey Analytics, noterai alcune somiglianze e differenze tra Adobe Analytics e Customer Journey Analytics. Questa pagina illustra tali differenze per facilitare il passaggio alla nuova implementazione e al nuovo flusso di lavoro di reporting. Inoltre, fornisce alcune risorse aggiuntive sui nuovi concetti e ulteriori passaggi affinché il percorso dell’analista risulti più semplice ed efficace.
 
-Diverse funzioni di Customer Journey Analytics sono state rinominate e riprogettate per allinearsi agli standard di settore. Alcuni termini che sono stati aggiornati includono segmenti, suite di rapporti virtuali, classificazioni, attributi cliente e nomi di contenitori. Le limitazioni di eVar e prop sono state superate grazie a dimensioni e metriche personalizzate flessibili.
+Diverse funzioni di Customer Journey Analytics sono state rinominate e riprogettate, in linea con gli standard di settore. Alcuni termini che sono stati aggiornati includono segmenti, suite di rapporti virtuali, classificazioni, attributi cliente e nomi di contenitori. Le limitazioni di eVar e prop sono state superate grazie a dimensioni e metriche personalizzate flessibili.
 
 ## Cosa non è cambiato
 
 Molte delle funzioni di reporting che conosci restano invariate.
 
 * Puoi continuare a usare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati. Workspace funziona ancora come nell’ambiente Adobe Analytics tradizionale.
-* La stessa versione di [Dashboard di Adobe Analytics](/help/mobile-app/home.md) è disponibile e funziona in modo simile in Customer Journey Analytics e Adobe Analytics.
+* È disponibile la stessa versione delle [dashboard di Adobe Analytics](/help/mobile-app/home.md), che funziona in modo simile in Customer Journey Analytics e Adobe Analytics.
 * [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione di Report Builder, non era possibile utilizzarlo su Mac, se non veniva eseguito su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
 
 ## Modifiche alle funzioni di reporting
 
-Puoi accedere a molti più dati cross-channel da analizzare. Ad esempio, puoi creare un progetto Workspace che analizza le prestazioni di più canali, purché questi set di dati vengano acquisiti dalla tua organizzazione e inclusi nelle visualizzazioni dati utilizzate dal Customer Journey Analytics (vedi &quot;Modifiche all’architettura dei dati&quot;, di seguito).
+Puoi accedere a molti più dati cross-channel da analizzare. Ad esempio, puoi creare un progetto Workspace che analizza le prestazioni di più canali, purché questi set di dati vengano acquisiti dalla tua organizzazione e inclusi nelle visualizzazioni dati utilizzate da Customer Journey Analytics (consulta “Modifiche all’architettura dei dati” di seguito).
 
 ![Vista Origini dati che mostra visualizzazioni multicanale](assets/cross-channel.png)
 
 ## Modifiche all’architettura dei dati {#architecture}
 
-Il Customer Journey Analytics ottiene i dati da Adobe Experience Platform. Experience Platform permette di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema o canale, e applica la data science e l’apprendimento automatico al fine di migliorare la progettazione e l’erogazione di esperienze personalizzate.
+Customer Journey Analytics ottiene i dati da Adobe Experience Platform. Experience Platform permette di centralizzare e standardizzare i dati e i contenuti dei clienti da qualsiasi sistema o canale, e applica la data science e l’apprendimento automatico al fine di migliorare la progettazione e l’erogazione di esperienze personalizzate.
 
 In Experience Platform, i dati dei clienti vengono memorizzati come set di dati, costituiti da uno [schema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=it) e da batch di dati. Per ulteriori informazioni su Platform, consulta [Panoramica dell’architettura di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=it).
 
-L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) ai set di dati in Experienci Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e costituiscono la base del reporting nel Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
+L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) con i set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
-Una connessione consente all’amministratore di Analytics di integrare nel Customer Journey Analytics i set di dati da Adobe Experience Platform, inclusi nel video seguente:
+Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in Customer Journey Analytics, come illustrato nel seguente video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli della suite di rapporti tramite il connettore di origine di Analytics o l’SDK web. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare dati che in precedenza esistevano in suite di rapporti separate.
+Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origine di Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati che in precedenza si trovavano in suite di rapporti distinte.
 
 ## Modifiche al concetto di suite di rapporti virtuali {#data-views}
 
@@ -72,13 +72,13 @@ Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICON
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il [!UICONTROL Event] Il contenitore consente di suddividere le informazioni sulla persona in base ai singoli eventi.
+* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il contenitore [!UICONTROL Event] consente di suddividere le informazioni sulle persone in base ai singoli eventi.
 * **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione.
-* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il [!UICONTROL Person] il contenitore include ogni sessione ed evento di una persona entro l’intervallo di tempo specificato.
+* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include tutte le sessioni e gli eventi di una persona all’interno dell’intervallo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate
 
-Le metriche calcolate hanno un nome simile in Adobe Analytics e Customer Journey Analytics. Tuttavia, al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi elemento schema di Experience Platform. Di conseguenza, le metriche calcolate esistenti non sono compatibili con [!UICONTROL Customer Journey Analytics]. Per trasferire le metriche calcolate di Adobe Analytics a Customer Journey Analytics, guarda il video seguente:
+Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey Analytics. Tuttavia, al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi elemento schema di Experience Platform. Di conseguenza, le metriche calcolate esistenti non sono compatibili con [!UICONTROL Customer Journey Analytics]. Per trasferire le metriche calcolate di Adobe Analytics a Customer Journey Analytics, guarda il video seguente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
 
@@ -96,14 +96,14 @@ Le classificazioni sono diventate “Set di dati di ricerca”. I set di dati di
 
 ## Modifiche al concetto di attributi cliente
 
-Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati applicati alle persone, agli utenti o ai clienti in [!UICONTROL Event] dati. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
+Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati che vengono applicati alle persone, agli utenti e alla clientela nei dati [!UICONTROL Event]. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-Il Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che desideri utilizzare, inclusi ID cliente, ID cookie, ID di unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando [Stitching](../stitching/overview.md) consente di collegare le persone tra set di dati diversi. Qualsiasi utente che imposta un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità nel Customer Journey Analytics:
+Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[unione](../stitching/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in Customer Journey Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 
-In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. Il Customer Journey Analytics presenta meno limitazioni per i campi ad alta cardinalità. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Consulta [Dimensioni ad alta cardinalità](../components/dimensions/high-cardinality.md) per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con molti valori univoci.
+In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. Customer Journey Analytics presenta meno limitazioni ai campi a cardinalità elevata. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con numerosi valori univoci, consulta [Dimensioni a cardinalità elevata](../components/dimensions/high-cardinality.md).
