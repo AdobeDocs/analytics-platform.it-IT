@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Alcuni termini di Customer Journey Analytics differiscono da come sono stati tra
 | Organizzazione Experience Cloud | Società di accesso | Consulta [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it#topic_C31CB834F109465A82ED57FF0563B3F1). |
 | N/D | Suite di rapporti | Le suite di rapporti nel senso tradizionale di Adobe Analytics non esistono più. Al loro posto, è possibile creare [visualizzazioni dati](/help/data-views/create-dataview.md) (virtuali) dai set di dati di Platform a cui hai stabilito connessioni. |
 | Filtro | Segmento | I segmenti ora sono filtri. I filtri in Customer Journey Analytics si comportano allo stesso modo dei segmenti. Solo la terminologia è cambiata. |
-| Visualizzazione dati | Suite di rapporti virtuali | In Adobe Analytics, una suite di rapporti virtuali è una visualizzazione filtrata di una suite di rapporti principale. La differenza principale tra una suite di rapporti virtuali e una visualizzazione dati nel Customer Journey Analytics è che la suite di rapporti virtuali è un sottoinsieme di una suite di rapporti &quot;base&quot; o &quot;principale&quot; e, come tale, eredita alcune delle sue impostazioni. Poiché le suite di rapporti principali/base non esistono più, è possibile definire le visualizzazioni dati con le proprie impostazioni. |
+| Visualizzazione dati | Suite di rapporti virtuali | In Adobe Analytics, una suite di rapporti virtuali è una visualizzazione filtrata di una suite di rapporti principale. La differenza principale tra una suite di rapporti virtuali e una visualizzazione dati in Customer Journey Analytics è che la suite di rapporti virtuali è un sottoinsieme di una suite di rapporti “base” o “principali” e, di conseguenza, eredita alcune delle sue impostazioni. Poiché le suite di rapporti principali/base non esistono più, è possibile definire le visualizzazioni dati con le proprie impostazioni. |
 
 ## Glossario di Adobe Experience Platform
 

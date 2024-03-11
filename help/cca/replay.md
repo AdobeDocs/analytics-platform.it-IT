@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '594'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Cross-Channel Analytics effettua due passaggi sui dati di una determinata connes
    * Giornaliero: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma le persone non autenticate devono autenticarsi lo stesso giorno in cui visitano il sito.
    * Settimanale: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback di 7 giorni. Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati che hanno meno di una settimana non vengono uniti.
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Una persona deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato affinché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live-stitched da quel momento in poi.
+I dati oltre l’intervallo di lookback non vengono riprodotti. Una persona deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato perché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live-stitched da quel momento in poi.
 
 ## Passaggio 1: live-stitching
 

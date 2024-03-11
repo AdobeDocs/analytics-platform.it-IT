@@ -1,13 +1,13 @@
 ---
-description: Scopri i messaggi di errore in Adobe Analysis Workspace e nei relativi componenti
+description: Scopri i messaggi di errore in Adobe Analysis Workspace e i relativi componenti
 title: Messaggi di errore comuni in Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
 1. Seleziona un nome della cartella dal menu a discesa.
 
-   ![La vista Seleziona cartella mostra il menu a discesa e le sottocartelle disponibili.](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+   ![Vista Seleziona cartella che mostra il menu a discesa e le sottocartelle disponibili.](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
 1. Fai clic su **Aggiungi**.
 
@@ -36,11 +36,11 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
    I progetti selezionati vengono aggiunti alla cartella.
 
-   ![La sottocartella selezionata che mostra i tre progetti spostati.](/help/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
+   ![Sottocartella selezionata che mostra i tre progetti spostati.](/help/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
    Nella pagina di destinazione di Workspace ora è visualizzata la cartella contenente (3) progetti.
 
-   ![Nell&#39;elenco aggiornato della home page di Projects viene visualizzata la sottocartella con tre progetti.](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+   ![Elenco della pagina Home Progetti aggiornato che mostra la sottocartella con tre progetti.](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
 ## Dall’interno di una cartella {#inside-folder}
 
@@ -62,7 +62,7 @@ Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il col
 
    È possibile aggiungere più progetti alla cartella.
 
-   ![Vengono aggiunti tre progetti nella finestra Aggiungi progetti](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+   ![Finestra Aggiungi progetti che mostra tre progetti aggiunti](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
 1. Fai clic su **Aggiungi** per aggiungere i progetti alla cartella.
 

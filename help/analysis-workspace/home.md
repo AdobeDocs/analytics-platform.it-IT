@@ -7,9 +7,9 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Il video seguente fornisce una breve panoramica con esempi di ciò che è possib
 
 L’immagine seguente e la tabella allegata illustrano alcune delle aree principali di Analysis Workspace:
 
-![Finestra di Analysis Workspace che evidenzia la barra a sinistra e a sinistra, l’area di lavoro e il menu a discesa della visualizzazione dati.](assets/analysis-workspace-overvew.png)
+![Finestra di Analysis Workspace che evidenzia la barra all’estrema sinistra, l’area di lavoro e il menu a discesa della visualizzazione dati.](assets/analysis-workspace-overvew.png)
 
 | Posizione nell’immagine | Nome e funzione |
 |---------|----------|
 | A | **Barra all’estrema sinistra:** contiene schede per aggiungere pannelli, visualizzazioni e componenti in Analysis Workspace. Contiene anche l’icona del dizionario dati che viene utilizzata per aprirlo. |
 | B | **Barra a sinistra:** a seconda della scheda selezionata nella barra all’estrema sinistra, quest’area contiene singoli pannelli, visualizzazioni o componenti. |
 | C | **Area di lavoro:** questa è l’area principale in cui trascini il contenuto dalle barre a sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando si aggiungono pannelli, visualizzazioni e componenti all’area di lavoro. |
-| D | **Menu a discesa della visualizzazione dati:** Per ogni pannello in Analysis Workspace, il menu a discesa della visualizzazione dati consente di scegliere la visualizzazione dati da utilizzare come origine dati. |
+| D | **Menu a discesa della visualizzazione dati:** per ogni pannello in Analysis Workspace, il menu a discesa della visualizzazione dati consente di scegliere quella da utilizzare come origine dati. |
 
 ## Funzionalità in Analysis Workspace {#analysis}
 

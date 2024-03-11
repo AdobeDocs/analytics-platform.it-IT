@@ -6,9 +6,9 @@ feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ Per informazioni sulla creazione di annotazioni, consulta [Creare annotazioni](c
 
 1. Seleziona **[!UICONTROL Show annotations]** per visualizzare l’annotazione nelle scorecard per dispositivi mobili.
 
-   ![Opzioni delle annotazioni per dispositivi mobili per le scorecard.](assets/show-annotations.png)
+   ![Opzioni di annotazione per dispositivi mobili per le scorecard.](assets/show-annotations.png)
 
-1. Conferma che la visualizzazione delle annotazioni sia selezionata, vai a **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**.
+1. Conferma che la visualizzazione delle annotazioni sia selezionata, passa a **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**.
 
-   ![Opzioni delle annotazioni per dispositivi mobili per Informazioni progetto ed impostazioni che evidenziano l’opzione Mostra annotazioni.](assets/project-info-settings.png)
+   ![Opzioni di annotazione per dispositivi mobili per Informazioni progetto ed impostazioni che evidenziano l’opzione Mostra annotazioni.](assets/project-info-settings.png)
 
 ## Visualizzare le annotazioni nelle scorecard per dispositivi mobili
 
 Quando le annotazioni sono abilitate, le icone di annotazione sono visibili nel generatore di scorecard. Le annotazioni vengono visualizzate solo su grafici e tabelle nella visualizzazione dettagliata e non sono visibili dalla visualizzazione affiancata principale della scorecard.
 
-![Lo strumento di creazione delle scorecard evidenzia le icone delle annotazioni.](assets/view-annotations.png)
+![Generatore di scorecard che evidenzia le icone delle annotazioni.](assets/view-annotations.png)
 
-Quando le icone delle annotazioni sono visibili, non è possibile visualizzare o interagire completamente con le annotazioni nell’area di lavoro del generatore. Utilizza la modalità Anteprima per visualizzare e interagire con le annotazioni così come vengono visualizzate nell’app. ![Icona Anteprima](assets/preview-icon.png)
+Quando le icone delle annotazioni sono visibili, non è possibile visualizzare o interagire completamente con le annotazioni nell’area di lavoro del generatore. Utilizza la modalità Anteprima per visualizzare e interagire con le annotazioni così come vengono visualizzate nell’app. ![Icona anteprima](assets/preview-icon.png)
 
-I colori delle annotazioni vengono selezionati quando l’annotazione viene creata in Workspace. Le annotazioni grigie indicano la presenza di più annotazioni. ![Icone delle annotazioni](assets/gray-annotations1.png) ![Scorecard per dispositivi mobili con l’icona dell’annotazione evidenziata.](assets/gray-annotations2.png)
+I colori delle annotazioni vengono selezionati quando l’annotazione viene creata in Workspace. Le annotazioni grigie indicano la presenza di più annotazioni. ![Icone delle annotazioni](assets/gray-annotations1.png) ![Scorecard per dispositivi mobili con l’icona delle annotazioni evidenziata.](assets/gray-annotations2.png)
 
 ## Visualizzare le annotazioni del grafico
 

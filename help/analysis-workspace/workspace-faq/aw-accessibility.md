@@ -5,9 +5,9 @@ feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Per accessibilità si intendono i prodotti utilizzabili da persone con disabilit
 
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
-* Il `Tab` Questo tasto consente di utilizzare scelte rapide per punti di riferimento, spostandosi tra sezioni più grandi all’interno di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un’opzione trascinabile all’altra.
+* Il tasto `Tab` consente di utilizzare scelte rapide per punti di riferimento e di spostarsi tra sezioni più grandi all’interno di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un’opzione trascinabile all’altra.
 * I tasti `left/right arrows` consentono di spostarsi tra i singoli elementi evidenziati da `Tab`.
 * Il tasto `F6` consente di passare al primo pannello del progetto e tra le varie visualizzazioni all’interno di tale pannello. Quindi, consente di passare al pannello successivo del progetto e così via.
 * Gli indicatori di focus vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia attualmente attivo. L’indicatore è un bordo blu intorno all’elemento selezionato.
@@ -78,7 +78,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | --- | --- |
 | `[Ctrl + S]` | Salva |
 | `[Ctrl + Shift + G]` | Cura |
-| `[Ctrl + G]` | Condivisione |
+| `[Ctrl + G]` | Condividi |
 | `[Alt + Shift + S]` | Pianificazione |
 | `[Alt + L]` | Ottieni collegamento al progetto |
 | `[Ctrl + Shift + B]` | Scarica PDF |

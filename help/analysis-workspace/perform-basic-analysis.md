@@ -6,9 +6,9 @@ exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ Ecco un esempio di visualizzazioni di base in Workspace. Potrai, ad esempio
 
 * Rappresenta la dimensione del pubblico in base alle origini dati, ad esempio dati da ad impression, Customer Journey Analytics, e-mail, POS, call center e sondaggi.
 
-![Visualizzazioni di esempio di grafici di analisi di base. ](assets/cja-basic-analysis.png)
+![Visualizzazioni di esempio di grafici di analisi di base.](assets/cja-basic-analysis.png)
 
 ![Altri esempi di visualizzazioni dei grafici di analisi di base](assets/cja-basic-analysis2.png)

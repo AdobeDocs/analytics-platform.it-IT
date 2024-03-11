@@ -5,9 +5,9 @@ role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Le annotazioni si presentano in modo leggermente diverso, a seconda che si esten
 
 | Data | Aspetto |
 | --- | --- |
-| **Giorno singolo** | ![Visualizzazione a linee dei grafici con annotazione evidenziata](assets/single-day.png)<p>Quando passi il cursore sull’annotazione, puoi visualizzarne i dettagli, modificarla selezionando l’icona a forma di penna, oppure eliminarla:<p> ![Dettagli delle annotazioni con l’opzione per modificarla o eliminarla.](assets/hover.png) |
+| **Giorno singolo** | ![Visualizzazione del grafico a linee con annotazione evidenziata](assets/single-day.png)<p>Quando passi il cursore sull’annotazione, puoi visualizzarne i dettagli, modificarla selezionando l’icona a forma di penna, oppure eliminarla:<p> ![Dettagli delle annotazioni con l’opzione per modificare o eliminare l’annotazione.](assets/hover.png) |
 | **Intervallo date** | L’icona cambia e, quando ci passi sopra con il cursore, viene visualizzato l’intervallo di date.<p>![Icona dell’annotazione relativa all’intervallo di date](assets/multi-day.png)<p>Quando la selezioni nel grafico a linee, compaiono i metadati dell’annotazione e puoi modificarla o eliminarla:![](assets/multi-hover.png)<p>In una tabella viene visualizzata un’icona in corrispondenza di ogni data nell’intervallo di date.<p>![](assets/multi-day-table.png) |
 | **Annotazioni sovrapposte** | Nei giorni a cui sono associate più annotazioni, l’icona è grigia.<p>![Dettagli per le annotazioni sovrapposte  ](assets/grey.png)<p>Quando passi il cursore sull’icona grigia, vengono visualizzate tutte le annotazioni sovrapposte:<p>![](assets/overlap.png) |
 

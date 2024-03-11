@@ -1,14 +1,14 @@
 ---
 title: Panoramica dell’Analisi cross-channel
-description: Reimposta ID persona da più set di dati per unire le persone.
+description: Reimposta l’ID persona da più set di dati per unire le persone.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Prima di utilizzare l’Analisi cross-channel, assicurati che l’organizzazione
 
 * Un set di dati in Adobe Experience Platform deve avere due colonne che aiutano a identificare le persone:
    * Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID persona generato da una libreria Adobe Analytics AppMeasurement.
-   * A **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando una persona si autentica. Puoi utilizzare virtualmente qualsiasi identificatore desiderato, purché sia presente almeno una volta sullo stesso evento di un determinato ID persistente.
+   * Un **ID transitorio**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando una persona si autentica. Puoi utilizzare virtualmente qualsiasi identificatore desiderato, purché sia presente almeno una volta sullo stesso evento di un determinato ID persistente.
 * Un altro set di dati, ad esempio i dati del call center, che contiene un ID transitorio su ogni riga. Questo ID persona deve essere formattato in modo simile all’ID transitorio nell’altro set di dati.
 * Questa funzione ti consente di unire set di dati che possono includere l’unione di dati utente autenticati e non autenticati. Prima di unire i set di dati, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.
 
@@ -55,7 +55,7 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 * Le mappe ID personalizzate utilizzate nell’organizzazione non sono supportate.
 * Il grafico Privato cross-device non è supportato.
 * Analisi cross-channel non trasforma in alcun modo il campo utilizzato per l’unione. L’unione basata sui campi utilizza il valore nel campo specificato così come esiste nel set di dati non uniti all’interno del data lake. Il processo di creazione dei punti distingue tra maiuscole e minuscole. Ad esempio, se a volte nel campo viene visualizzata la parola “Bob” e a volte viene visualizzata la parola “BOB”, queste verranno trattate come due persone separate.
-* Dato che l’unione basata sui campi distingue tra maiuscole e minuscole, per i set di dati di Analytics generati tramite il connettore di origine di Analytics l’Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
+* Dato che l’unione basata sui campi fa distinzione tra maiuscole e minuscole, per i set di dati di Analytics generati tramite il connettore di origine di Analytics, Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio per assicurarsi che nessuna di queste regole introduca nuovi moduli dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
 * L’unione basata sui campi non combina o concatena i campi.
 * Il campo ID transitorio deve contenere un singolo tipo di ID (cioè ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 * Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione basata sui campi sceglierà in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione basata sul campo sceglierà Ann.
@@ -63,7 +63,7 @@ Analisi cross-channel è una funzione innovativa e affidabile, ma presenta limit
 
 ## Abilitare l’Analisi cross-channel
 
-Una volta che la tua organizzazione soddisfa tutti i prerequisiti e ne comprende i limiti, puoi seguire questi passaggi per iniziare a utilizzarla in Customer Journey Analytics.
+Quando l’organizzazione soddisfa tutti i prerequisiti e ne comprende i limiti, puoi seguire questi passaggi per iniziare a utilizzarla in Customer Journey Analytics.
 
 1. Importa i dati desiderati in Adobe Experience Platform. Per i dati di Adobe Analytics, consulta la sezione [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). Per altri tipi di dati, consulta la sezione [Creare uno schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) e [Inserire i dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) nella documentazione di Adobe Experience Platform.
 1. Contatta l’Assistenza clienti di Adobe con le seguenti informazioni:
@@ -75,7 +75,7 @@ Una volta che la tua organizzazione soddisfa tutti i prerequisiti e ne comprende
    * Nome della sandbox.
 1. Dopo aver ricevuto la richiesta, l’Assistenza clienti Adobe collabora con i tecnici Adobe per abilitare l’Analisi cross-channel. Una volta abilitato, in Adobe Experience Platform compare un nuovo set di dati ridigitato contenente una nuova colonna ID persona. L’Assistenza clienti Adobe può fornire il nuovo ID set di dati e il nome della colonna ID persona.
 1. Quando è attivato per la prima volta, Adobe fornisce la compilazione dei dati uniti che risale all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa compilazione, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente.
-1. [Creare o modificare una connessione](/help/connections/create-connection.md) in Customer Journey Analytics utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
+1. [Crea o modifica una connessione](/help/connections/create-connection.md) in Customer Journey Analytics utilizzando il set di dati appena generato e tutti gli altri set di dati che desideri includere. Scegli l’ID persona corretto per ogni set di dati.
 1. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) in base alla connessione.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->

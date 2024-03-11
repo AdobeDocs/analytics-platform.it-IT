@@ -7,9 +7,9 @@ type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
 source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ Report Builder per Customer Journey Analytics è disponibile per Excel sulle seg
 
 ## Casi d’uso comuni
 
-- **Estrazione dati**: Adobe Report Builder ti consente di estrarre dati dal Customer Journey Analytics in Excel. Puoi creare report e query personalizzati per recuperare punti di dati specifici rilevanti per l’analisi.
+- **Estrazione dati**: Adobe Report Builder consente di estrarre dati da Customer Journey Analytics in Excel. Puoi creare report e query personalizzati per recuperare punti di dati specifici rilevanti per l’analisi.
 
-- **Reporting personalizzato**: puoi progettare e formattare rapporti personalizzati in Excel in base alle tue esigenze di reporting specifiche. Ciò è particolarmente utile per adattare i rapporti alle diverse parti interessate.
+- **Generazione rapporti personalizzata**: puoi progettare e formattare rapporti personalizzati in Excel in base alle tue esigenze di reporting specifiche. Ciò è particolarmente utile per adattare i rapporti alle diverse parti interessate.
 
-- **Ad Hoc Analysis**: gli utenti possono generare rapidamente rapporti ad hoc per rispondere a domande specifiche o esplorare le tendenze dei dati senza dover passare attraverso un lungo processo di creazione dei rapporti.
+- **Analisi ad hoc**: gli utenti possono generare rapidamente rapporti ad hoc per rispondere a domande specifiche o esplorare le tendenze dei dati senza dover passare attraverso un lungo processo di generazione rapporti.
 
 - **Dashboard**: i dati estratti da CJA possono essere utilizzati per creare dashboard e visualizzazioni basate su Excel per una panoramica di alto livello degli indicatori di prestazioni chiave (KPI, Key Performance Indicators).
 
-- **Condivisione di approfondimenti**: puoi condividere report e informazioni di Excel con i membri del team o le parti interessate che potrebbero non avere accesso diretto a CJA.
+- **Condivisione di approfondimenti**: puoi condividere report e informazioni di Excel con i membri del team o gli stakeholder che potrebbero non avere accesso diretto a CJA.
 
 ## Video introduttivo
 

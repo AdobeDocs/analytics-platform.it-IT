@@ -1,13 +1,13 @@
 ---
 title: Integrare Adobe Journey Optimizer con Customer Journey Analytics
-description: Importa i dati generati da Adobe Journey Optimizer e analizzali utilizzando Analysis Workspace in Customer Journey Analytics.
+description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli utilizzando Analysis Workspace all’interno di Customer Journey Analytics.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puo
 
 Seleziona e configura i seguenti set di dati:
 
-| Set di dati | Tipo di set di dati | Impostazioni di connessione | Descrizione |
+| Set di dati | Tipo di set di dati | Impostazioni della connessione | Descrizione |
 | --- | --- | --- | --- |
-| Set di dati evento feedback messaggio AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio &quot;[!UICONTROL Sends]&#39; e &#39;[!UICONTROL Bounces]&quot;. |
-| Set di dati evento esperienza tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come &quot;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39;, e &#39;[!UICONTROL Unsubscribes]&quot;. |
-| Set di dati evento di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push come &quot;[!UICONTROL App Launches]&quot;. |
-| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
-| Set di dati entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di Percorsi e Campaign a tutti i dati evento Adobe Journey Optimizer. |
+| Set di dati evento feedback messaggio AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio “[!UICONTROL Sends]” e “[!UICONTROL Bounces]”. |
+| Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail, come “[!UICONTROL Opens]”, “[!UICONTROL Clicks]”, e “[!UICONTROL Unsubscribes]”. |
+| Set di dati evento di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push, come “[!UICONTROL App Launches]”. |
+| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
+| Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di percorso e campagna a tutti i dati evento Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data
 
 >[!NOTE]
 >
->Le discrepanze di dati tra Adobe Journey Optimizer e il Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
+>Le discrepanze di dati tra Adobe Journey Optimizer e Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
 
 
 ### Configurare dimensioni nella visualizzazione dati
@@ -76,19 +76,19 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 
 | Metrica | Descrizione | Elemento dello schema | Impostazioni del componente |
 | --- | --- | --- | --- |
-| Messaggi non recapitati | Il numero di messaggi non recapitati, inclusi i messaggi non recapitati immediati e quelli non recapitati dopo la consegna. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: se sono soddisfatti i criteri<br>È uguale a: `bounce`, è uguale a: `denylist` |
+| Messaggi non recapitati | Numero di messaggi non recapitati, compresi i mancati recapiti immediati e dopo la consegna. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: se sono soddisfatti i criteri<br>È uguale a: `bounce`, è uguale a: `denylist` |
 | Mancati recapiti dopo la consegna | Alcuni servizi e-mail segnalano le e-mail consegnate, e successivamente ne segnalano il mancato recapito. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `async` |
 | Clic su e-mail | Numero di clic all’interno dei messaggi. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `click` |
 | E-mail aperte | Numero di messaggi aperti. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `open` |
-| Errori | Il numero di messaggi che hanno generato un errore. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `error` |
+| Errori | Numero di messaggi che hanno generato un errore | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `error` |
 | Messaggi esclusi | Il numero di messaggi esclusi. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `exclude` |
 | Invii | Numero di messaggi accettati da provider e-mail. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `sent` |
 | Segnalazioni di spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `spam_complaint` |
-| Abbonamenti annullati | Numero di annullamenti di abbonamenti. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
+| Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
 | Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` |
-| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene visualizzato all&#39;utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` |
+| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene mostrato all’utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` |
 | Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` |
-| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. L’SDK di Mobile potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` |
+| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. Mobile SDK potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` |
 | Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}

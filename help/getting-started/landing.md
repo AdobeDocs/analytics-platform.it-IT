@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '1432'
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 
 ## Caratteristiche della nuova pagina di destinazione {#new-features}
 
-| Funzionalità | Descrizione | Schermata |
+| Funzione | Descrizione | Schermata |
 | --- | --- | --- |
 | Espandere la tabella [!UICONTROL Projects] a schermo intero | Per espandere la tabella, fai clic sull’icona del menu con le tre linee. Le schede della barra a sinistra vengono compresse. | ![Espandi la tabella selezionata mostrando solo i progetti senza le schede della barra a sinistra](assets/landing-collapse2.png) |
-| Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Selettori della larghezza di colonna](assets/column-width.png) |
+| Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Selettori di larghezza delle colonne](assets/column-width.png) |
 | Riordinare gli elementi fissati | Per spostare verso l’alto o verso il basso un elemento fissato, fai clic sui suoi puntini di sospensione e seleziona **[!UICONTROL Move up]** o **[!UICONTROL Move down]**. | ![Spostare gli elementi fissati](assets/move-up-down.png) |
 | Nuove colonne di tabella | Fai clic sull’icona [!UICONTROL Customize table] in alto a destra nella tabella. Le nuove colonne della tabella includono: <ul><li>**[!UICONTROL Scheduled]**: è impostato su [!UICONTROL On] quando un progetto è pianificato o su [!UICONTROL Off] quando non lo è. Fai clic sul collegamento [!UICONTROL On] per visualizzare informazioni sul progetto pianificato. Puoi anche [modificare la pianificazione del progetto](/help/analysis-workspace/export/t-schedule-report.md) se ne sei il proprietario.</li><li>**[!UICONTROL Project ID]**: l’ID del progetto può essere utilizzato a scopo di debug dei progetti.</li><li>**[!UICONTROL Longest Date Range]**: intervalli di date più lunghi aumentano la complessità del progetto e possono richiedere tempi di elaborazione e caricamento più lunghi. </li><li>**[!UICONTROL Number of Queries]**: numero totale di richieste effettuate ad Analytics al caricamento del progetto. Un numero elevato di query di progetto aumenta la complessità del progetto e può comporare tempi di elaborazione e caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. </li></ul> | ![Nuove colonne](assets/new-columns.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
@@ -50,7 +50,7 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 | [!UICONTROL Mobile scorecard] | Crea una [scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) vuota da progettare e costruire. |
 | [!UICONTROL Open Training Tutorial] | Apre la formazione di Workspace sul processo di creazione di un nuovo progetto iniziale in un tutorial dettagliato. |
 | [!UICONTROL Open release notes] | Apre la sezione Adobe Analytics delle ultime note sulla versione di Adobe Experience Cloud. |
-| Icona Filtro | Filtra per tag, visualizzazioni dati, proprietari, tipi e altri filtri (Personali, Condivisi con me, Preferiti e Approvati) |
+| Icona Filtro | Consente di filtrare per tag, visualizzazioni dati, proprietari, tipi e altri filtri (Personali, Condivisi con me, Preferiti e Approvati) |
 | Barra di ricerca | Cerca in tutte le colonne della tabella. |
 | Casella di selezione | Seleziona uno o più progetti per visualizzare le azioni di Project Management eseguibili: **Elimina**, **Condividi**, **Rinomina**, **Copia**, **Rimuovi**, **Sposta su**, **Sposta giù**, **Contrassegna**, **Approva**, **Esporta CSV** e **Sposta in**. Potresti non disporre delle autorizzazioni necessarie per eseguire tutte le azioni elencate. |
 | [!UICONTROL Favorites] | Aggiunge una stella accanto a un progetto o a una cartella preferita che può essere utilizzata come filtro. |
@@ -61,7 +61,7 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 | [!UICONTROL Type] | Indica se si tratta di un progetto Workspace, di una scorecard per dispositivi mobili o di una cartella. |
 | [!UICONTROL Tags] | Assegna tag ai progetti per organizzarli in gruppi. |
 | [!UICONTROL Project Role] | Identifica i ruoli di progetto: se l’utente è il proprietario del progetto e se dispone delle autorizzazioni necessarie per modificarlo o duplicarlo. |
-| [!UICONTROL Data View] | Identifica le visualizzazioni dati associate al progetto.<br>Le tabelle e le visualizzazioni all’interno di un pannello derivano i dati dalla visualizzazione dati selezionata in alto a destra nel pannello. La visualizzazione dati determina anche i componenti disponibili nella barra a sinistra. All’interno di un progetto, puoi utilizzare una o più visualizzazioni dati a seconda dei casi di utilizzo dell’analisi. L’elenco delle visualizzazioni dati è ordinato in base alla rilevanza. Adobe definisce la rilevanza in base a quanto recentemente e con quale frequenza la suite è stata utilizzata dall’utente corrente, e alla frequenza con cui viene utilizzata all’interno dell’organizzazione. |
+| [!UICONTROL Data View] | Identifica le visualizzazioni dati associate al progetto.<br>Le tabelle e le visualizzazioni all’interno di un pannello ricavano i dati dalla visualizzazione dati selezionata in alto a destra del pannello. La visualizzazione dati determina anche i componenti disponibili nella barra a sinistra. All’interno di un progetto, puoi utilizzare una o più visualizzazioni dati a seconda dei casi d’uso dell’analisi. L’elenco delle visualizzazioni dati è ordinato in base alla rilevanza. Adobe definisce la rilevanza in base a quanto recentemente e con quale frequenza la suite è stata utilizzata dall’utente corrente, e alla frequenza con cui viene utilizzata all’interno dell’organizzazione. |
 | [!UICONTROL Owner] | Identifica la persona che ha creato il progetto. |
 | [!UICONTROL Last opened] | Identifica la data dell’ultima apertura del progetto. |
 | Icona Personalizza tabella | Seleziona le colonne da visualizzare nella tabella. Per aggiungere o rimuovere colonne dall’elenco dei progetti, fai clic sull’icona della colonna (![Destinazione completa](assets/select-column.png)) in alto a destra, quindi seleziona o deseleziona i titoli delle colonne. |
@@ -84,9 +84,9 @@ Se ti trovi nella visualizzazione “Folders &amp; Projects” (Cartelle e proge
 
 La pagina Apprendimento contiene tutorial, presentazioni video pratiche e collegamenti alla documentazione.
 
-Utilizza la pagina Apprendimento nel Customer Journey Analytics per scoprire:
+Utilizza la pagina di apprendimento in Customer Journey Analytics per scoprire:
 
-* Funzioni e casi d’uso principianti, intermedi o avanzati in CJA
+* Le funzioni e casi d’uso per utenti principianti, intermedi o avanzati in CJA
 * Passare più facilmente da Adobe Analytics a CJA
 
 ### Accedere alla pagina Apprendimento
@@ -99,7 +99,7 @@ Utilizza la pagina Apprendimento nel Customer Journey Analytics per scoprire:
 * **Tracciare l’avanzamento:** dopo aver selezionato una parte del contenuto, viene visualizzato un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare il tag **[!UICONTROL Viewed]** per rimuoverlo da una parte del contenuto.
 * **Visualizza contenuto aggiuntivo:** quando visualizzi un video, seleziona il pulsante **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
    * **[!UICONTROL Visit YouTube]:** visualizza la playlist di YouTube completa di Analysis Workspace.
-   * [!UICONTROL **Visita Experience League**]: visualizza la suite completa della documentazione di CJA su Experience League.
+   * [!UICONTROL **Visita Experience League**]: consulta la suite completa della documentazione di CJA su Experience League.
 * **Nozioni di base per i nuovi utenti:** La presentazione [!UICONTROL Workspace Fundamentals] è consigliata per i nuovi utenti. Questa presentazione consente di entrare direttamente in Workspace e di scoprire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
 
 ## Impostare la pagina di destinazione {#set-landing}

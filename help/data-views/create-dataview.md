@@ -6,34 +6,34 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Creare o modificare una visualizzazione di dati
 
-La creazione di una visualizzazione dati comporta la creazione di metriche e dimensioni dagli elementi dello schema o l’utilizzo di componenti standard. Gli elementi dello schema sono prevalentemente dimensioni o metriche, a seconda dei requisiti aziendali. Una volta trascinato un elemento schema in una visualizzazione dati, a destra vengono visualizzate le opzioni che consentono di regolare il funzionamento della dimensione o metrica nel Customer Journey Analytics.
+Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli elementi dello schema o utilizzare componenti standard. Gli elementi dello schema sono prevalentemente dimensioni o metriche, a seconda dei requisiti aziendali. Una volta trascinato un elemento schema in una visualizzazione dati, a destra vengono visualizzate le opzioni con cui è possibile regolare il funzionamento della dimensione o metrica in Customer Journey Analytics.
 
 Video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-Per creare o modificare una visualizzazione dati:
+Creare o modificare una visualizzazione dati:
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e passa alla scheda **[!UICONTROL Data views]**.
-1. Per creare una visualizzazione dati, seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dall’elenco delle visualizzazioni dati per modificarla.
+1. Per creare una visualizzazione dati, seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
 
 
 ## Configurare
 
 Per configurare una visualizzazione dati nuova o esistente:
 
-1. Seleziona la **[!UICONTROL Configure]** (se non è già attiva).
+1. Seleziona la scheda **[!UICONTROL Configure]** (se non è già attiva).
 
-   ![Configurare la visualizzazione dati](assets/dataview-configure.png)
-1. Specifica [!UICONTROL Settings], [!UICONTROL Container], e [!UICONTROL Calendar] dettagli (vedi sotto).
+   ![Configurare una visualizzazione dati](assets/dataview-configure.png)
+1. Specifica i dettagli [!UICONTROL Settings], [!UICONTROL Container], e [!UICONTROL Calendar] (vedi di seguito).
 1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
 
 
@@ -55,7 +55,7 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Person container name] | [!UICONTROL Person] (impostazione predefinita). Il [!UICONTROL Person] il contenitore include ogni sessione ed evento per le persone entro l’intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
+| [!UICONTROL Person container name] | [!UICONTROL Person] (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
 | [!UICONTROL Session container name] | [!UICONTROL Session] (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
 | [!UICONTROL Event container name] | [!UICONTROL Event] (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
 
@@ -67,35 +67,35 @@ Indica il formato del calendario da applicare alla visualizzazione dati. Puoi av
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Time zone] | Scegli il fuso orario in cui presentare i dati. Se scegli un fuso orario con ora legale, i dati vengono automaticamente regolati in base a tale impostazione. In primavera, quando si va avanti di un’ora, vi sarà un vuoto di un’ora. In autunno, quando si va indietro di un’ora, verrà ripetuta un’ora al momento del passaggio all’ora solare. |
-| [!UICONTROL Calendar Type] | Determina in che modo vengono raggruppate le settimane del mese.<br>**Gregoriano:** formato di calendario standard. I trimestri sono raggruppati per mese.<br>**4-5-4 Retail:** calendario 4-5-4 standard nel settore retail. Il primo e l’ultimo mese del trimestre contengono ciascuno 4 settimane; il secondo mese del trimestre è invece composto di 5 settimane.<br>**Custom (4-5-4):** simile al calendario 4-5-4 eccetto che è possibile scegliere il primo giorno dell’anno e in quale anno si verifica la settimana “extra”.<br>**Personalizzato (4-4-5):** Il primo e l’ultimo mese di ogni trimestre contengono ciascuno 4 settimane; l’ultimo mese di ogni trimestre è invece composto di 5 settimane.<br>**Custom (5-4-4):** il primo mese di ogni trimestre è composto di 5 settimane; il secondo e il terzo mese di ogni trimestre contengono ciascuno 4 settimane. |
+| [!UICONTROL Time zone] | Scegli il fuso orario da applicare ai dati che vengono presentati. Se scegli un fuso orario con ora legale, i dati vengono automaticamente regolati in base a tale impostazione. In primavera, quando si va avanti di un’ora, vi sarà un vuoto di un’ora. In autunno, quando si va indietro di un’ora, verrà ripetuta un’ora al momento del passaggio all’ora solare. |
+| [!UICONTROL Calendar Type] | Determina in che modo vengono raggruppate le settimane del mese.<br>**Gregoriano:** formato di calendario standard. I trimestri sono raggruppati per mese.<br>**4-5-4 Retail:** calendario 4-5-4 standard nel settore retail. Il primo e l’ultimo mese del trimestre contengono ciascuno 4 settimane; il secondo mese del trimestre è invece composto di 5 settimane.<br>**Custom (4-5-4):** simile al calendario 4-5-4 eccetto che è possibile scegliere il primo giorno dell’anno e in quale anno si verifica la settimana “extra”.<br>**Custom (4-4-5):** il primo e l’ultimo mese di ogni trimestre contengono ciascuno 4 settimane; l’ultimo mese di ogni trimestre è invece composto di 5 settimane.<br>**Custom (5-4-4):** il primo mese di ogni trimestre è composto di 5 settimane; il secondo e il terzo mese di ogni trimestre contengono ciascuno 4 settimane. |
 | [!UICONTROL First month of the year] e [!UICONTROL First day of week] | Visibile per il calendario di tipo gregoriano. Specifica il mese da cui vuoi iniziare l’anno solare e il giorno da cui vuoi iniziare ogni settimana. |
 | [!UICONTROL First day of current year] | Visibile per i calendari di tipo personalizzato. Specifica il giorno dell’anno da utilizzare come inizio dell’anno corrente. Il calendario formatta automaticamente il primo giorno di ogni settimana in base a tale valore. |
-| [!UICONTROL Year in which the "extra" week occurs] | Per la maggior parte dei calendari di 364 giorni (52 settimane di 7 giorni ciascuna), ogni anno i giorni rimanenti vengono accumulati fino a raggiungere una settimana aggiuntiva. Questa viene quindi aggiunta all’ultimo mese dell’anno. Specifica a quale anno desideri aggiungere la settimana aggiungere. |
+| [!UICONTROL Year in which the "extra" week occurs] | Per la maggior parte dei calendari di 364 giorni (52 settimane di 7 giorni ciascuna), ogni anno i giorni rimanenti vengono accumulati fino a formare una settimana aggiuntiva. Questa viene quindi aggiunta all’ultimo mese dell’anno. Specifica a quale anno desideri aggiungere la settimana aggiungere. |
 
 {style="table-layout:auto"}
 
 ## Componenti
 
-Successivamente, puoi impostare i componenti di una visualizzazione dati e quindi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare componenti standard.
+Successivamente, puoi impostare i componenti di una visualizzazione dati e quindi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare i componenti standard.
 
 >[!IMPORTANT]
 >
->È possibile aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
+>Puoi aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
 
-1. Seleziona la **[!UICONTROL Components]** scheda.
+1. Seleziona la scheda **[!UICONTROL Components]**.
 
    ![Scheda Componenti](assets/dataview-components.png)
 
-   È possibile visualizzare [!UICONTROL Connection] in alto a sinistra, che contiene i set di dati e i relativi [!UICONTROL Schema fields] di seguito.  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contains data]** e **[!UICONTROL is not deprecated]** per impostazione predefinita, in modo che vengano visualizzati solo i campi Schema che contengono dati e che non sono obsoleti.
+   La [!UICONTROL Connection] è visibile in alto a sinistra, e contiene i set di dati e i relativi [!UICONTROL Schema fields].  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contains data]** e **[!UICONTROL is not deprecated]** per impostazione predefinita, in modo che vengano visualizzati solo i campi schema che contengono dati e che non sono obsoleti.
 
-1. Cerca un campo schema tramite ![Icona Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** oppure trova un campo spostandosi in una qualsiasi delle raccolte di set di dati, come ![Icona cartella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>In alternativa, puoi creare un campo derivato utilizzando ![Icona dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato** . Consulta [Campi derivati](./derived-fields/derived-fields.md) per ulteriori informazioni.
+1. Cerca un campo schema tramite l’![icona Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** oppure trova un campo spostandoti in una qualsiasi delle raccolte di set di dati, come ![icona Cartella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>In alternativa, puoi creare un campo derivato utilizzando l’![icona Dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato**. Per ulteriori informazioni, consulta [Campi derivati](./derived-fields/derived-fields.md).
 
-1. Quando hai trovato il campo schema specifico o hai definito il campo derivato, trascina quel campo, ad esempio ![Icona Handle](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, dalla barra a sinistra alla sezione Metriche o Dimension.
-Puoi trascinare più volte lo stesso campo schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName, puoi creare una dimensione denominata &quot;Pagine prodotto&quot; e un’altra denominata &quot;Pagine errore&quot;, utilizzando diversi [Impostazioni dei componenti](component-settings/overview.md) a destra.
+1. Una volta trovato il campo schema specifico o definito il campo derivato, trascinalo, ad esempio ![icona Gestisci](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, dalla barra a sinistra alla sezione Metriche o Dimensioni.
+Puoi trascinare più volte lo stesso campo schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName, puoi creare una dimensione denominata “Pagine prodotto” e un’altra denominata “Pagine errore”, applicando a ciascuna diverse [impostazioni componente](component-settings/overview.md) a destra.
 Se trascini una cartella di campi schema dalla barra a sinistra, vengono disposti automaticamente nelle sezioni appropriate. I campi stringa vanno nella sezione [!UICONTROL Dimensions], mentre i campi schema di tipo numerico vanno nella sezione [!UICONTROL Metrics]. Se fai clic su **[!UICONTROL Add all]**, tutti i campi schema vengono aggiunti alle rispettive posizioni.
 
-1. Dopo aver selezionato un componente, le impostazioni vengono visualizzate a destra.
+1. Quando selezioni il componente, a destra vengono visualizzate le impostazioni.
 
    ![Componente visualizzazione dati selezionato](assets/dataview-component-pagename.png)
 
@@ -116,23 +116,23 @@ Se trascini una cartella di campi schema dalla barra a sinistra, vengono dispost
 
 È possibile duplicare metriche o dimensioni e quindi modificarne le impostazioni specifiche per creare facilmente più metriche o dimensioni da un singolo campo schema. Seleziona l’impostazione [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni, in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome descrittivo.
 
-**Filtrare campi o set di dati dello schema**
+**Filtrare i campi o set di dati dello schema**
 
-Puoi filtrare ![Icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) campi schema nella barra a sinistra per [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] criteri ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
+Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) nella barra a sinistra per i criteri [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
 
 ![Filtrare i campi](assets/dataview-components-filter.png)
 
 >[!TIP]
 >
->Se i componenti non vengono caricati correttamente nella visualizzazione dati e viene invece visualizzato un messaggio di errore, consulta [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md) risoluzione.
+>Se i componenti non vengono caricati correttamente nella visualizzazione dati e viene invece visualizzato un messaggio di errore, consulta [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md) per ottenere una soluzione.
 
 
 
 ## Impostazioni
 
-1. Seleziona la **[!UICONTROL Settings]** scheda.
+1. Seleziona la scheda **[!UICONTROL Settings]**.
 1. Configura i filtri da applicare all’intera visualizzazione dati. Consulta [Impostazioni (filtri)](#settings-filters) di seguito.
-1. Configurare il timeout e le metriche della sessione. Consulta [Impostazioni sessione](#session-settings) di seguito.
+1. Configura il timeout e le metriche della sessione. Consulta [Impostazioni sessione](#session-settings) di seguito.
 1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
 
 ### Impostazioni (filtri)
@@ -141,6 +141,6 @@ Puoi aggiungere dei filtri applicabili a un’intera visualizzazione dati. Quest
 
 ### Impostazioni di sessione
 
-Determina quanto tempo di inattività deve trascorrere tra gli eventi prima che la sessione scada e che venga iniziata una nuova sessione. È necessario specificare un periodo di tempo. Facoltativamente, puoi anche forzare l’inizio di una nuova sessione quando un evento contiene una determinata metrica. Consulta [Impostazioni sessione](session-settings.md) per ulteriori dettagli.
+Determina quanto tempo di inattività deve trascorrere tra gli eventi prima che la sessione scada e che venga iniziata una nuova sessione. È necessario specificare un periodo di tempo. Facoltativamente, puoi anche forzare l’inizio di una nuova sessione quando un evento contiene una determinata metrica. Per altre informazioni consulta la parte relativa alle [Impostazioni della sessione](session-settings.md).
 
 Una volta specificate tutte le impostazioni desiderate, fai clic su **[!UICONTROL Save and finish]**.
