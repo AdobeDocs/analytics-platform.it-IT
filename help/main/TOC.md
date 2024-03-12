@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
+source-git-commit: a6dd3495b51edcb823431ccb87b283665ccd765d
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 74%
+source-wordcount: '1063'
+ht-degree: 79%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 74%
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
       + [Utilizza i dati di Adobe Analytics nel Customer Journey Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Supporto delle funzioni di Customer Journey Analytics](../getting-started/aa-vs-cja/cja-aa.md)
-      + [Confrontare la terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](../getting-started/aa-vs-cja/terminology.md)
-      + [Confrontare l’elaborazione dei dati in Adobe Analytics e Customer Journey Analytics](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Confronto della terminologia per i dati di Analytics trasmessi tramite il connettore di origine di Analytics](../getting-started/aa-vs-cja/terminology.md)
+      + [Confrontare l’elaborazione dei dati tra Adobe Analytics e Customer Journey Analytics](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Ambienti di reporting virtuali e ambienti sandbox](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
@@ -154,6 +154,7 @@ ht-degree: 74%
       + [Pannello vuoto](../analysis-workspace/c-panels/blank-panel.md)
       + [Pannello Sperimentazione](../analysis-workspace/c-panels/experimentation.md)
       + [Pannello a forma libera](../analysis-workspace/c-panels/freeform-panel.md)
+      + [Pannello Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Pannello Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Pannello Tempo trascorso su contenuti multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
@@ -208,7 +209,7 @@ ht-degree: 74%
       + [Visualizzazione della crescita netta](../guided-analysis/types/net-growth.md)
    + Flusso utente {#streams}
       + [Linea temporale](../guided-analysis/types/timeline.md)
-   + [Casi di utilizzo del settore](../guided-analysis/industry-use-cases.md)
+   + [Casi d’uso di settore](../guided-analysis/industry-use-cases.md)
    + [Domande frequenti](../guided-analysis/faq.md)
 
 + Componenti {#cja-components}
@@ -363,7 +364,7 @@ ht-degree: 74%
    + [Guida utente di Labs](../labs/labs.md)
 
 + Risoluzione dei problemi {#troubleshooting}
-   + [Confrontare i dati di Adobe Analytics con i dati del Customer Journey Analytics](../troubleshooting/compare.md)
+   + [Confrontare i dati di Adobe Analytics con i dati Customer Journey Analytics](../troubleshooting/compare.md)
    + [Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-time CDP e Customer Journey Analytics](../troubleshooting/consistency-rcdp-cja.md)
    + [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md)
 
