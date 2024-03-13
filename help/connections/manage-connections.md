@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17956f66d0bed46b876ba83aba8782c664fe2530
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 23%
+source-wordcount: '2564'
+ht-degree: 21%
 
 ---
 
@@ -24,9 +24,16 @@ Una volta che [ha creato o modificato una o più connessioni](/help/connections/
 * Visualizza tutti i set di dati in una connessione.
 * Controlla lo stato dei set di dati della connessione e lo stato del processo di acquisizione. Ad esempio, quando sono disponibili i dati in modo da poter iniziare con il reporting e l’analisi in Analysis Workspace.
 * Identifica eventuali discrepanze di dati dovute a configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati nel Customer Journey Analytics?
+* Ottieni informazioni sull’utilizzo delle righe acquisite e segnalabili in tutte le connessioni.
+
+[!UICONTROL Connections] dispone di due interfacce: [[!UICONTROL List]](#list) e [[!UICONTROL Usage]](#usage).
 
 
-Una tabella mostra tutte le connessioni disponibili. È possibile cercare rapidamente una connessione utilizzando il comando Cerca ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) casella.
+## Elenco
+
+Il [!UICONTROL List] è l&#39;interfaccia predefinita per Connessioni. Se non è selezionata, selezionare **[!UICONTROL List]** per accedere all’interfaccia.
+
+Il [!UICONTROL List] interfaccia mostra una tabella di tutte le connessioni disponibili. È possibile cercare rapidamente una connessione utilizzando il comando Cerca ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) casella.
 
 Nella tabella sono disponibili le seguenti colonne/icone.
 
@@ -46,7 +53,7 @@ Nella tabella sono disponibili le seguenti colonne/icone.
 
 Puoi configurare le colonne da visualizzare utilizzando ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). Questo mostra il **Personalizza tabella** consente di attivare/disattivare le colonne nella tabella.
 
-## Modificare una connessione
+### Modificare una connessione
 
 Consente agli amministratori di modificare la connessione.
 
@@ -69,7 +76,7 @@ Durante la modifica di una connessione è possibile:
 Consulta [Creare o modificare una connessione](create-connection.md) per ulteriori informazioni.
 
 
-## Eliminare una connessione {#connections-delete}
+### Eliminare una connessione {#connections-delete}
 
 Consente agli amministratori di eliminare la connessione.
 
@@ -91,7 +98,7 @@ Seleziona **[!UICONTROL Continue]** per eliminare la connessione.
 Consulta [Elimina implicazioni](/help/admin/cja-deletion.md) per ulteriori informazioni sulle implicazioni dell&#39;eliminazione di una connessione.
 
 
-## Creare una visualizzazione dati
+### Creare una visualizzazione dati
 
 Consente agli amministratori di creare una visualizzazione dati per la connessione.
 
@@ -112,7 +119,7 @@ In alternativa, è possibile:
 
 Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
-## Dettagli di connessione {#connection-detail}
+### Dettagli di connessione {#connection-detail}
 
 Per visualizzare i dettagli di una connessione, selezionare un nome di connessione nella tabella connessioni.
 
@@ -153,7 +160,7 @@ L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagli
 >
 >Eventuali dati acquisiti prima del 13 agosto 2021 non vengono riflessi nel [!UICONTROL Connections] di rete.
 
-### Pannello Connessione
+#### Pannello Connessione
 
 Quando nella tabella dei set di dati non è selezionato alcun set di dati, un pannello sul lato destro dell’interfaccia Connessioni mostra le opzioni e i dettagli di connessione.
 
@@ -173,7 +180,7 @@ Quando nella tabella dei set di dati non è selezionato alcun set di dati, un pa
 | [!UICONTROL Last modified] | Mostra la marca temporale dell’ultima modifica apportata alla connessione. |
 | [!UICONTROL Last modified by] | Mostra l’ultimo utente che ha modificato la connessione. |
 
-### Pannello Set di dati
+#### Pannello Set di dati
 
 Quando un set di dati viene selezionato nella tabella dei set di dati, in un pannello sul lato destro dell’interfaccia Connessioni vengono visualizzati i dettagli del set di dati selezionato.
 
@@ -195,6 +202,31 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 | [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Lookup]oppure [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#configure-dataset) |
 | [!UICONTROL Schema] | Mostra lo schema di Experience Platform su cui si basa questo set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID del set di dati viene generato in Experienci Platform. |
+
+
+## Utilizzo
+
+Il [!UICONTROL Usage] L’interfaccia di mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali.
+
+Seleziona la **[!UICONTROL Usage]** per accedere all’interfaccia.
+
+Per creare rapporti sull&#39;utilizzo:
+
+1. Seleziona un **[!UICONTROL Time range]**. Puoi scegliere tra **[!UICONTROL Last 6 months]**, **[!UICONTROL Year to date]**, o **[!UICONTROL Last 2 Years]**.
+1. Seleziona un **[!UICONTROL Interval]**. Puoi scegliere tra **[!UICONTROL Monthly]** o **[!UICONTROL Quarterly]**.
+
+Per [!UICONTROL Ingested rows]:
+
+* una casella mostra il [!UICONTROL Total] numero di righe acquisite.
+* una casella mostra il numero di righe acquisite per [!UICONTROL Last month] e la variazione in % (indicata da <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mese precedente.
+* un grafico a linee mostra  <span style="color:53b2ad">◼︎</span> Righe acquisite e <span style="color:4046c3">◼︎</span> Righe acquisite mensilmente.<br/>Puoi passare il cursore del mouse su qualsiasi punto dati per ogni linea nel grafico a linee per visualizzare un pop-up con la data e il numero di righe per il punto dati selezionato.
+
+
+Per [!UICONTROL Reportable rows]:
+
+* viene visualizzata una casella [!UICONTROL Total] numero di righe da segnalare.
+* una casella visualizza il numero di righe da segnalare per [!UICONTROL Last month] e la variazione in % (indicata da <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mese precedente.
+* un grafico a linee mostra  <span style="color:53b2ad">◼︎</span> Righe cumulative da segnalare e <span style="color:4046c3">◼︎</span> Righe mensili da segnalare.<br/>Puoi passare il cursore del mouse su qualsiasi punto dati per ogni linea nel grafico a linee per visualizzare un pop-up con la data e il numero di righe per il punto dati selezionato.
 
 
 >[!MORELIKETHIS]
