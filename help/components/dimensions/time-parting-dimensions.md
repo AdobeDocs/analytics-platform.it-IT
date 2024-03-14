@@ -4,10 +4,10 @@ title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -27,7 +27,7 @@ Le dimensioni suddivise in base al tempo si basano sul fuso orario della visuali
 | Ora del giorno | 0-23 |
 | AM/PM | AM, PM |
 | Giorno della settimana | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |
-| Fine settimana/Giorno feriale | Fine settimana, giorno feriale |
+| Giorno feriale/Fine settimana | Giorno feriale, Fine settimana |
 | Giorno del mese | 1-31 |
 | Mese dell’anno | Gennaio-Dicembre |
 | Giorno dell’anno | 1-366 |

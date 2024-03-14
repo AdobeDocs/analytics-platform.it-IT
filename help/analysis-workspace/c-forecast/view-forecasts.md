@@ -3,9 +3,10 @@ description: Scopri come visualizzare le previsioni in una tabella o in un grafi
 title: Come visualizzare le previsioni in Analysis Workspace
 feature: Visualizations
 role: User
-source-git-commit: e52cee369be75785a99798d5acfa9cfc5aba2986
+exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ## Visualizzare le previsioni in una tabella
 
-È possibile visualizzare le previsioni in una tabella a forma libera di serie temporali. Quando Mostra previsione è abilitato per la tabella a forma libera in [preferenze utente](../user-preferences.md), la previsione viene visualizzata automaticamente per la prima colonna di metriche aggiunta alla tabella. Per qualsiasi colonna aggiuntiva:
+È possibile visualizzare le previsioni in una tabella a forma libera di serie temporali. Quando [!UICONTROL Show forecast] è abilitato per la tabella a forma libera in [preferenze utente](../user-preferences.md), la previsione viene visualizzata automaticamente per la prima colonna di metriche aggiunta alla tabella. Per qualsiasi colonna aggiuntiva:
 
 1. Seleziona l’icona delle impostazioni della colonna ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell’intestazione della colonna, assicurati che **[!UICONTROL Show forecast]** è selezionato nell’elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](../visualizations/freeform-table/column-row-settings/column-settings.md).
 
@@ -50,5 +51,4 @@ Le previsioni vengono visualizzate nel grafico a linee come segue:
    * valore previsto per la metrica
    * limite superiore del valore previsto per la metrica
    * limite inferiore del valore previsto per la metrica
-* l&#39;area ombreggiata mostra la fascia di affidabilità della previsione.
-
+* L&#39;area ombreggiata mostra la fascia di affidabilità della previsione.
