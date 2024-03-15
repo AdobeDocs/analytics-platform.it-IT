@@ -4,10 +4,10 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 6bd4a0462547966342a52115eb9d45e7c1e1ad25
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 88%
+source-wordcount: '1346'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,7 @@ Le colonne disponibili sono:
 | [!UICONTROL **Condiviso con**] | Mostra con chi è attualmente condiviso il progetto. |
 | [!UICONTROL **Ultima modifica**] | Data e ora dell’ultima modifica apportata al progetto. |
 | [!UICONTROL **Ultima apertura**] | Identifica la data dell&#39;ultima apertura di un progetto da parte dell&#39;utente che sta visualizzando la pagina Progetti. |
-| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Questa colonna è disponibile solo per gli amministratori di sistema.</p> |
+| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Quando visualizzi questa colonna, tieni presente quanto segue:</p><ul><li>Le informazioni sull’utilizzo sono disponibili a partire da settembre 2023.</li><li>Questa colonna è disponibile solo per gli amministratori di sistema.</li></ul> |
 | [!UICONTROL **ID Progetto**] | Può essere utilizzato per il debug di progetti. |
 | [!UICONTROL **Intervallo date più lungo**] | Intervalli di date più lunghi aumentano la complessità del progetto e possono comportare tempi di elaborazione e di caricamento più lunghi. |
 | [!UICONTROL **Numero di query**] | Numero totale di richieste effettuate ad Analytics quando il progetto viene caricato. Un numero elevato di query di progetto aumenta la complessità del progetto e può comportare tempi di elaborazione e di caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. |
