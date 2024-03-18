@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 67%
+source-wordcount: '922'
+ht-degree: 69%
 
 ---
 
@@ -53,12 +53,15 @@ Per escludere rapidamente righe specifiche da una tabella a forma libera:
 
    Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
 
-### Clic con il pulsante destro del mouse > Elimina righe selezionate
+<!--### Right-click > Delete selected rows
 
-1. Seleziona una o più righe.
-1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Delete Selected Rows]**.
+Note: this option does not seem to work. AN-338422
 
-   Questa azione rimuoverà le righe dalla tabella e applicherà un filtro tabella.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
+
 
 ### Applicare un filtro semplice o avanzato a una tabella
 
