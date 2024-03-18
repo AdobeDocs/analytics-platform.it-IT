@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
 source-wordcount: '2757'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 Il numero massimo di set di dati che puoi aggiungere a una connessione è limitato a 100. Il mix dipende dal pacchetto di Customer Journey Analytics acquistato dalla tua azienda.
 
-| **Seleziona** pacchetto | **Foundation** pacchetto |
+| Pacchetto **Select** | Pacchetto **Foundation** |
 | --- | --- |
 | Qualsiasi combinazione di set di dati evento/profilo/ricerca, fino a 100 | Un set di dati evento per connessione |
 |  | Fino a 99 set di dati di profilo o di ricerca per connessione |
