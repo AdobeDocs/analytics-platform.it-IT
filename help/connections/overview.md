@@ -6,16 +6,16 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Panoramica sulle connessioni
 
-Le connessioni consentono agli amministratori di prodotti di Customer Journey Analytics di stabilire connessioni con diverse origini dati AEP, come set di dati di eventi, ricerche e profili. Queste connessioni consentono l’integrazione di dati da una connessione a una visualizzazione dati derivata. È consigliabile limitare l’accesso alla gestione delle connessioni a un gruppo di gestione di base. Le configurazioni a livello di Connessione hanno implicazioni contrattuali per quanto riguarda l&#39;assegnazione di volumi per i dati inseriti nel Customer Journey Analytics.
-Le connessioni sono le basi di CJA e vengono create dai set di dati di origine di AEP. L’accesso a Connessioni consente inoltre di visualizzare la gestione Connessioni, che consente di visualizzare i set di dati sottostanti che compongono la connessione, nonché di effettuare selezioni critiche di modifica e configurazione.
+Le connessioni consentono agli amministratori di prodotto di Customer Journey Analytics di stabilire connessioni con diverse origini dati AEP, come set di dati di eventi, ricerche e profili. Queste connessioni consentono l’integrazione di dati da una connessione a una visualizzazione dati derivata. È consigliabile limitare l’accesso alla gestione delle connessioni a un gruppo di gestione di base. Le configurazioni a livello di connessione hanno implicazioni contrattuali per quanto riguarda l’assegnazione di volumi per i dati inseriti in Customer Journey Analytics.
+Le connessioni sono le basi di CJA e vengono create dai set di dati di origine di AEP. L’accesso alle connessioni consente inoltre di visualizzare il gestore Connessioni, con il quale si possono visualizzare i set di dati sottostanti che compongono la connessione, nonché effettuare selezioni critiche di modifica e configurazione.
 
 Panoramica video:
 

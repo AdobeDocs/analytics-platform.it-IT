@@ -6,9 +6,9 @@ keywords: Product Analytics
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
 source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 | **Identificare il rischio di abbandono** | Un’organizzazione vede un alto tasso di avvicendamento dei clienti che si iscrivono alla piattaforma per guardare un evento stagionale e cancellano immediatamente l’abbonamento dopo la fine dell’evento. Identificare rapidamente questi utenti consente di mostrare consigli ai clienti per incitarli a rimanere coinvolti con la piattaforma. | **Mantenere abbonati soddisfatti.** Trovare contenuti che coinvolgano un segmento di crescita per intervenire con consigli. | [Visualizzazione crescita utenti attivi](types/active.md)<br>[Visualizzazione crescita netta](types/net-growth.md) |
 | **Trovare opportunità di upselling** | Un aspetto fondamentale per l’aumento dei ricavi aziendali è comprendere le offerte in-app più interessanti per i tifosi che si trovano allo stadio. L’analisi guidata consente di vedere esattamente quali offerte sono più efficaci. | **Aumentare le entrate accessorie.** Comprendere l’impatto delle offerte in-app nel guidare i comportamenti di acquisto. | [Visualizzazione primo utilizzo](types/first-use.md)<br>[Visualizzazione attrito](types/friction.md) |
 | **Ottimizzare l’esperienza cross-device** | Un’organizzazione desidera analizzare il modo in cui gli abbonati interagiscono con più dispositivi/app. Questa conoscenza consente di comprendere i modelli di consumo dei contenuti e di determinare dove sarebbe meglio eseguire il retargeting. | **Personalizzare l’esperienza.** Scoprire quali contenuti suscitano più interesse negli abbonati su ogni dispositivo. | [Visualizzazione delle tendenze di utilizzo](types/usage.md) |
-| **Deviare le chiamate del call center** | Un’organizzazione utilizza l’analisi guidata per identificare un problema che impediva il funzionamento del pagamento automatico, che ha indotto i clienti frustrati a chiamare il proprio centro di assistenza per annullare il piano. | **Ridurre le chiamate di supporto.** Creare un’esperienza cliente migliore e diminuire le chiamate al servizio clienti. | [Visualizzazione attrito](types/friction.md)<br>[Visualizzazione delle tendenze di conversione](types/conversion-trends.md) |
+| **Deviare le chiamate del call center** | Un’organizzazione utilizza l’analisi guidata per identificare un problema che impediva il funzionamento del pagamento automatico e che portava i clienti insoddisfatti a chiamare il centro di assistenza per annullare il piano. | **Ridurre le chiamate di supporto.** Creare un’esperienza cliente migliore e diminuire le chiamate al servizio clienti. | [Visualizzazione attrito](types/friction.md)<br>[Visualizzazione delle tendenze di conversione](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
@@ -87,7 +87,7 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 ![Visualizzazione attiva per media e intrattenimento](assets/me-user-growth-active.png){style="border:1px solid gray"}
 
-![Visualizzazione utilizzo per contenuti multimediali e di intrattenimento](assets/me-trends-usage.png){style="border:1px solid gray"}
+![Visualizzazione di utilizzo media e intrattenimento](assets/me-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -95,9 +95,9 @@ I casi d’uso per l’analisi guidata variano a seconda del settore. Questa pag
 
 | Caso d’uso | Esempio | Impatto | Analisi |
 | --- | --- | --- | --- |
-| **Migliorare i risultati sanitari dei pazienti** | Un’organizzazione dispone dei dati necessari per concentrare i propri sforzi sulla crescita. Prima di utilizzare l’analisi guidata, non avevano una chiara comprensione di quanti membri del piano benessere alla settimana semplicemente hanno smesso di utilizzarlo del tutto. | **Ridurre le visite dei medici.** Identificare rapidamente gli utenti inattivi da coinvolgere di nuovo. | [Analisi della crescita degli utenti attivi](types/active.md) |
+| **Migliorare i risultati sanitari dei pazienti** | Un’organizzazione dispone dei dati necessari per concentrare i propri sforzi sulla crescita. Prima di utilizzare l’analisi guidata, l’organizzazione non aveva una chiara comprensione di quanti membri del programma di benessere smettevano completamente di utilizzarlo ogni settimana. | **Ridurre le visite dei medici.** Identificare rapidamente gli utenti inattivi da coinvolgere di nuovo. | [Analisi della crescita degli utenti attivi](types/active.md) |
 | **Migliorare l’esperienza dei pazienti** | La visibilità del numero di pazienti che contattano i call center per una semplice reimpostazione della password ha rinnovato la passione di un analista di concentrarsi sul consolidamento dell’esperienza dei loro pazienti. | **Ridurre i costi complessivi di gestione.** Creare una migliore esperienza del paziente e ridurre le chiamate all’assistenza pazienti. | [Visualizzazione tendenze di utilizzo](types/usage.md)<br>[Visualizzazione attrito](types/friction.md) |
-| **Identificare le azioni cross-channel ripetute per segmento** | Un’organizzazione vuole capire quanto sono attivi i membri idonei al programma Medicare nell’utilizzo del piano per fornire loro messaggi specifici nei rispettivi prodotti digitali. Le informazioni ottenute dall’analisi guidata contribuiscono a rendere il marketing più efficace. | **Personalizzare le scelte di iscrizione a Medicare.** Confronto delle azioni sequenziali comuni dei membri del piano più attivi. | [Visualizzazione attrito](types/friction.md)<br>[Visualizzazione crescita utenti attivi](types/active.md) |
+| **Identificare le azioni cross-channel ripetute per segmento** | Un’organizzazione vuole capire quanto sono attivi i membri idonei al programma Medicare nell’utilizzo del piano per fornire loro messaggi specifici nei rispettivi prodotti digitali. Le informazioni approfondite ottenute dall’analisi guidata contribuiscono a rendere il marketing più efficace. | **Personalizzare le scelte di iscrizione a Medicare.** Confronto delle azioni sequenziali comuni dei membri del piano più attivi. | [Visualizzazione attrito](types/friction.md)<br>[Visualizzazione crescita utenti attivi](types/active.md) |
 | **Mantenere i migliori talenti del settore** | Le risorse di Analytics per un’organizzazione sono a corto di tempo. L’analisi guidata consente all’organizzazione di ottenere rapidamente i dati di utilizzo del prodotto necessari per le chiamate di aggiornamento della leadership. | **Ridurre il carico di lavoro degli analisti.** Ottenere risposte più rapidamente. Reporting accessibile per i casi in cui è più importante. | [Analisi guidata](overview.md) |
 
 {style="table-layout:auto"}

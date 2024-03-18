@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1092'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
 * Per creare o gestire una visualizzazione dati, è necessario un [set di autorizzazioni in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#admin-access-permissions).
-* Se utilizzi il [Connettore sorgente Adobe Analytics](/help/data-ingestion/analytics.md) oppure conosci già le nozioni di base di Adobe Analytics; potresti voler capire in che modo i campi negli schemi e nei set di dati, parte della connessione, si relazionano con i corrispondenti campi Adobe Analytics. Consulta [Mappature dei campi di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it) per ulteriori informazioni.
+* Se utilizzi il [connettore di origine di Adobe Analytics](/help/data-ingestion/analytics.md) oppure conosci già le nozioni di base di Adobe Analytics, potresti voler capire in che modo i campi negli schemi e nei set di dati, parte della connessione, si relazionano con i corrispondenti campi Adobe Analytics. Per ulteriori informazioni, consulta [Mappatura campi in Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it).
 
 ## Impostazioni delle visualizzazioni dati che possono essere ignorate in Workspace {#settings-override}
 

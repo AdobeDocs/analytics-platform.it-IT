@@ -5,9 +5,9 @@ exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ I dati di Adobe Analytics contengono più campi di identità. Tre importanti cam
 
 Adobe Analytics ID (AAID) è l’identificatore primario del dispositivo in Adobe Analytics e la sua esistenza è garantita su ogni evento trasmesso tramite il connettore di origine di Analytics. AAID viene talvolta indicato come “ID legacy di Analytics” o ID cookie `s_vi`. Tuttavia, viene creato un AAID anche se il cookie `s_vi` non è presente. AAID è rappresentato dalle colonne `post_visid_high/post_visid_low` nei [feed dati di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types).
 
-Nel connettore di origine di Analytics, AAID viene trasformato in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Il campo AAID di un dato evento contiene una singola identità che può corrispondere a uno dei diversi tipi descritti in [Ordine delle operazioni per gli ID di Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html%5B%5D). All’interno di un’intera suite di rapporti, AAID può contenere diversi tipi in tutti gli eventi. Il tipo di ciascun evento è indicato nella colonna `post_visid_type` nei feed dati di Analytics.) Vedi anche [Data column reference](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it) (Riferimento delle colonne di dati).
+Nel connettore di origine di Analytics, AAID viene trasformato in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Il campo AAID di un dato evento contiene una singola identità che può corrispondere a uno dei diversi tipi descritti in [Ordine delle operazioni per gli ID di Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=it%5B%5D). All’interno di un’intera suite di rapporti, AAID può contenere diversi tipi in tutti gli eventi. Il tipo di ciascun evento è indicato nella colonna `post_visid_type` nei feed dati di Analytics.) Vedi anche [Data column reference](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it) (Riferimento delle colonne di dati).
 
 ## ECID
 
 ECID (Experience Cloud ID), talvolta indicato anche come MCID (Marketing Cloud ID), è un campo separato dell’identificatore del dispositivo che viene popolato in Adobe Analytics quando Analytics viene implementato utilizzando il [servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=it). ECID è rappresentato dalla colonna `mcvisid` nei feed dati di Adobe Analytics.
 
-Se su un evento esiste un ECID, AAID può essere basato su ECID a seconda che il [periodo di tolleranza](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html) di Analytics sia configurato o meno. Vedi anche [Richieste Analytics ed Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html).
+Se su un evento esiste un ECID, AAID può essere basato su ECID a seconda che il [periodo di tolleranza](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=it) di Analytics sia configurato o meno. Vedi anche [Richieste Analytics ed Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=it).
 
 ## AACUSTOMID
 

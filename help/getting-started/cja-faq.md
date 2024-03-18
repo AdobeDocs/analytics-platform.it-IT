@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2329'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Di recente, Adobe ha modificato il modo in cui i dati vengono elaborati in Custo
 
 ## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 
-L’impostazione [**[!UICONTROL Enable rolling data window]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (3 mesi, 6 mesi, ecc.). È impostata a livello di [!UICONTROL connection], non a livello di [!UICONTROL dataset]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
+L’impostazione [**[!UICONTROL Enable rolling data window]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (3 mesi, 6 mesi, ecc.). È impostata a livello di [!UICONTROL connection], non a livello di [!UICONTROL dataset]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
@@ -267,4 +267,4 @@ Quando i dati raggiungono il data center regionale, la configurazione dello stre
 Customer Journey Analytics richiede set di dati da Adobe Experience Platform, pertanto la configurazione dello stream di dati/inoltro eventi richiede l’indirizzamento dei dati da parte del servizio Adobe Experience Platform dal centro dati regionale a quello in cui si trova l’istanza Adobe Experience Platform. Customer Journey Analytics e i relativi servizi e infrastrutture di supporto vengono distribuiti nella stessa istanza di Adobe Experience Platform.
 
 
-Consulta [Panoramica sulla raccolta dati](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) per ulteriori informazioni sul processo di raccolta dei dati oltre la rete Edge di Adobe Experience Platform e i relativi centri dati regionali.
+Per ulteriori informazioni sul processo di raccolta dei dati oltre la rete Edge di Adobe Experience Platform e i relativi centri dati nelle diverse aree geografiche, consulta la [Panoramica sulla raccolta dati](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=it).
