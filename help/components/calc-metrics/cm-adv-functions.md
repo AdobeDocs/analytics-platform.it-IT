@@ -4,9 +4,9 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3020'
 ht-degree: 98%
 
 ---
@@ -67,10 +67,6 @@ Definizione di una nuova metrica calcolata “Approximate Customers” (Clienti 
 Questo è il modo in cui la metrica “Approximate Customers” (Clienti approssimativi) potrebbe essere utilizzata nel reporting:
 
 ![Tabella a forma libera che mostra visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
-
-## Uniques Exceeded (Univoci superati)
-
-Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai [limiti di “uniques exceeded” (univoci superati)](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=it). Se in un determinato mese si raggiunge il limite “uniques exceeded” per una dimensione, il valore viene conteggiato come 1 elemento dimensione.
 
 ## Confronto delle funzioni di conteggio
 
