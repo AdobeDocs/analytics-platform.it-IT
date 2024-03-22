@@ -4,9 +4,9 @@ title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
+source-git-commit: 4c96089088560da635e2499e7ec770c19c3de0ab
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '918'
 ht-degree: 69%
 
 ---
@@ -33,7 +33,6 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libera. 
 
 - Fai clic sulla X nella riga
-- Clic con il pulsante destro del mouse > Righe selezionate eliminate
 - Filtri per tabella
 - Segmentazione
 
