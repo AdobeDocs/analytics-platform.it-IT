@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
+source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 95%
+source-wordcount: '2779'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Il numero massimo di set di dati che puoi aggiungere a una connessione è limita
 
 {style="table-layout:auto"}
 
-In caso di dubbi sul pacchetto di Customer Journey Analytics, contatta l’amministratore.
+In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
 
 ## Creare e configurare la connessione {#create-connection}
 
@@ -187,10 +187,10 @@ Questo calcolo viene eseguito per ogni set di dati della connessione.
 2. Per mostrare tutti i set di dati esistenti in Adobe Experience Platform, esegui la query `Show Tables`.
 
 
-## Potatura algoritmica di set di dati di ricerca di grandi dimensioni
+## Algoritmo di potatura di set di dati di ricerca di grandi dimensioni
 
-Quando crei una connessione, puoi aggiungere set di dati di grandi dimensioni a scopo di ricerca. Ad esempio, un set di dati che rappresenta un catalogo di prodotti in modo che sia possibile cercare informazioni descrittive sui prodotti durante la creazione di rapporti e visualizzazioni. Un set di dati di ricerca di questo tipo può superare il massimo di 10 milioni di ricerche univoche attualmente implementate come guardrail, con conseguente salto di dati aggiuntivi.
+Quando crei una connessione, puoi aggiungere set di dati di grandi dimensioni a scopi di ricerca. Ad esempio, un set di dati che rappresenta un catalogo di prodotti che permette di cercare informazioni descrittive sui prodotti durante la creazione di rapporti e visualizzazioni. Un set di dati di ricerca di grandi dimensioni può superare il massimo di 10 milioni di ricerche univoche attualmente implementate come guardrail, con il risultato di saltare dati aggiuntivi.
 
-Puoi richiedere l’eliminazione algoritmica di un set di dati di ricerca di tali dimensioni. Questa eliminazione caricherà solo i dati nel set di dati di ricerca per i quali sono disponibili chiavi nella parte del set di dati evento della connessione. Il conteggio dei riferimenti utilizzato nell’algoritmo torna a 90 giorni e viene aggiornato una volta alla settimana.
+Puoi richiedere un’eliminazione algoritmica di un set di dati di ricerca di grandi dimensioni. Questa eliminazione algoritmica mantiene solo i dati nel set di dati di ricerca che corrispondono alle chiavi nel set di dati dell’evento. In questo modo, non è necessario caricare l’intero set di dati di ricerca non potato. Gli elementi utilizzati meno di frequente o meno spesso vengono rimossi, il che potrebbe influenzare leggermente i rapporti, ma offre vantaggi significativi. L’algoritmo torna indietro di 90 giorni e si aggiorna settimanalmente.
 
-Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+Contatta il team di supporto Adobe per ulteriori informazioni e per abilitare questa funzionalità.
