@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '1959'
-ht-degree: 100%
+source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
+workflow-type: tm+mt
+source-wordcount: '1964'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Funzione | Note |
 | --- | --- |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
-| Analytics for Target (A4T) | Il supporto parziale viene fornito tramite i campi nel [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). È pianificato il supporto per nomi compatibili con A4T nelle esperienze e nelle attività di Target. |
+| Analytics for Target (A4T) | Attualmente in versione beta. Il supporto parziale viene fornito tramite i campi nel [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). È pianificato il supporto per nomi compatibili con A4T nelle esperienze e nelle attività di Target. |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 {style="table-layout:auto"}
 
-## Mai supportato {#never}
+## Funzioni che non saranno mai supportate {#never}
 
 * Metrica Persone con Cross-Device Coop
 
