@@ -3,9 +3,9 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 880bec05dbc14093f711ef54ee06ad2c8b178a7d
+source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 27%
 
 ---
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra la fine d
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Modifica del protocollo di eliminazione per i progetti Workspace** | In precedenza, i progetti eliminati non venivano mai eliminati dal sistema. Ora inizieremo a eliminare i progetti eliminati dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto tramite l’interfaccia web se dispongono di un URL per il progetto diretto. | | venerdì 14 marzo 2024 |
+| **Modifica del protocollo di eliminazione per i progetti Workspace** | In precedenza, i progetti Workspace eliminati non venivano mai eliminati dal sistema. Ora inizieremo a eliminare i progetti eliminati dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto eliminato tramite l’interfaccia web, se dispongono di un URL per il progetto diretto. | | venerdì 14 marzo 2024 |
 | **Nuova colonna disponibile nella pagina di destinazione Progetti** | Il **[!UICONTROL Last used]** è ora disponibile quando si visualizza la scheda Progetti nella [Pagina di destinazione Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>Queste informazioni possono essere utili per determinare se un progetto è utile per gli utenti dell’organizzazione, mostrando la data e l’ora dell’ultima apertura del progetto. Precedentemente, la colonna **[!UICONTROL Last used]** era disponibile solo in Gestione metriche calcolate, Gestione segmenti e Gestione avvisi.</p> |  | 13 marzo 2024 |
 | **Metriche di utilizzo** | Il [interfaccia delle metriche di utilizzo](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) mostra l’utilizzo delle righe acquisite e segnalabili su tutte le connessioni. Questa interfaccia consente di determinare se l’utilizzo del Customer Journey Analytics è conforme a quanto stabilito contrattualmente. |  | 13 marzo 2024 |
 | **Reporting di Media Analytics - Pubblico medio per minuto (AMA)** | Il pannello Pubblico medio per minuto è ora disponibile in CJA. I clienti Media Analytics possono utilizzare il pannello Pubblico medio per minuto per comprendere meglio il consumo medio dei loro contenuti. <p>Il pubblico medio per minuto consente di confrontare la programmazione di qualsiasi lunghezza o genere. Inoltre, i clienti possono confrontare o aggiungere questo pubblico medio per minuto digitale alle metriche medie per minuto della TV lineare.</p><p> Questo pannello offre maggiore flessibilità per misurare il pubblico medio per i periodi di tempo personalizzati, nonché quando la classificazione della durata è stata aggiornata dopo l’evento.</p><p>Per ulteriori informazioni, consulta [Pannello Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | mercoledì 12 marzo 2024 |

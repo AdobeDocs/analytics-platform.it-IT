@@ -5,10 +5,10 @@ title: Rimuovere progetti dalle cartelle
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: caf16a6971c4474516e116f8cb62e37f0bf6a06b
+source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 81%
+source-wordcount: '223'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Puoi spostare i progetti da una cartella a un’altra creata.
 
 ## Eliminare un progetto da una cartella di progetto {#delete-project-in-folder}
 
-Quando elimini un progetto da una cartella, questo viene eliminato dal sistema dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto tramite l’interfaccia web se dispongono di un URL diretto.
+Quando elimini un progetto da una cartella, questo viene eliminato dal sistema dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto eliminato tramite l’interfaccia web, se dispongono di un URL diretto.
 
 1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
