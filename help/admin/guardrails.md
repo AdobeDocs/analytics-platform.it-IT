@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 56b909a542915cd64251fb8849e55df920668025
+source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1523'
 ht-degree: 7%
 
 ---
@@ -121,7 +121,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 |---|--:|---|---|
 | Campi | 10.000 | Guardrail imposto dal sistema | Numero massimo di proprietà o campi per riga in un set di dati. |
 | Stringhe univoche | 10 milioni | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. |
-| Righe | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco all’interno di una connessione. |
+| Righe | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
 | Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti nel Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experienci Platform. |
 
 {style="table-layout:auto"}
