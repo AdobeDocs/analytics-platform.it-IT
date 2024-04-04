@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
+source-git-commit: 8af2c48c4895e6015c16e3973b6cd213aff38441
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1606'
 ht-degree: 7%
 
 ---
@@ -127,6 +127,18 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 {style="table-layout:auto"}
 
 Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+
+
+## Esportazione dei dati delle destinazioni
+
+| Nome | Valore | Tipo limite | Descrizione |
+|---|--:|---|---|
+| Esportazione dati | Archiviazione totale del data lake autorizzato | Barra di protezione delle prestazioni | Il cliente può utilizzare l’esportazione del set di dati di destinazione per esportare i dati del cliente nel data lake fino allo storage totale autorizzato del data lake. |
+| Set di dati disponibili | Profilo ed evento | Guardrail imposto dal sistema | Set di dati di profili ed eventi di esperienza creati nell’interfaccia utente di Experienci Platform dopo l’acquisizione o la raccolta di dati tramite Sources, Web SDK, Mobile SDK, Analytics Data Connector ed Audienci Manager. |
+
+{style="table-layout:auto"}
+
+Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
