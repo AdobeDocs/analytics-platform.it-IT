@@ -4,9 +4,9 @@ title: Sottotitoli intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una 
 
 1. Nella finestra di dialogo per modifica, fai clic sull’icona dell’occhio accanto all’informazione che desideri nascondere.
 
-1. Fai clic su **[!UICONTROL Apply]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Apply]**.
 
 Utilizza lo stesso processo per mostrare le didascalie.
 
@@ -71,3 +71,7 @@ Utilizza lo stesso processo per mostrare le didascalie.
 Se preferisci che non vengano generati sottotitoli intelligenti, puoi disattivare questa funzione dalle Preferenze di visualizzazione e deselezionare **[!UICONTROL Show intelligent captions]**.
 
 ![Opzioni di visualizzazione delle linee con l’opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
+
+## Sottotitoli intelligenti nelle scorecard per dispositivi mobili
+
+Per ulteriori informazioni, consulta [Gestire le scorecard](/help/mobile-app/manage-scorecard.md)
