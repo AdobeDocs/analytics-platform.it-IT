@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 6%
 
 ---
@@ -39,3 +39,4 @@ Il modo migliore per adattarsi a dimensioni ad alta cardinalità consiste nel li
 * Utilizza una dimensione del set di dati di ricerca. Le dimensioni del set di dati di ricerca combinano elementi dimensionali del set di dati evento, che limitano il numero di valori univoci restituiti.
 * Utilizza il [Includi/escludi](/help/data-views/component-settings/include-exclude-values.md) impostazione del componente in gestione visualizzazione dati.
 * Abbreviare l’intervallo di date della richiesta. Se molti valori univoci si accumulano nel tempo, la riduzione dell’intervallo di date del rapporto Workspace può limitare il numero di valori univoci da elaborare per i server.
+* Valuta l’utilizzo di [Esportazione tabella completa](/help/analysis-workspace/export/export-cloud.md) per restituire tutte le righe della tabella.
