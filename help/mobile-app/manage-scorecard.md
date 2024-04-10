@@ -4,13 +4,13 @@ title: Gestire le scorecard
 feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
+source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 72%
+source-wordcount: '1768'
+ht-degree: 66%
 
 ---
-
 
 # Gestire le scorecard
 
@@ -202,12 +202,30 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
-## Visualizzare sottotitoli intelligenti nelle scorecard
+## Visualizzare sottotitoli intelligenti nelle scorecard {#captions}
 
 Grazie ai sottotitoli intelligenti, i non analisti possono interpretare meglio i propri dati senza l’aiuto degli analisti. I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose sul linguaggio naturale per le visualizzazioni.
 
-Per visualizzare i sottotitoli intelligenti:
+Questi sottotitoli raccolgono le informazioni statistiche chiave nei dati e le formulano in linguaggio naturale, aiutando così i non analisti a sviluppare la loro alfabetizzazione ai dati.
 
-1. Fai clic su una tessera.
+I sottotitoli intelligenti sono disponibili per tutte le visualizzazioni nell’app mobile e includono Linea, Anello, Grafico a barre e Numero di riepilogo.
 
-1. altro
+Per visualizzare sottotitoli intelligenti in una scorecard per dispositivi mobili:
+
+1. In una scorecard, fai clic su una sezione. Ad esempio, in questa scorecard, fai clic su nel grafico a linee in basso.
+
+   ![Scorecard con visualizzazione delle linee](assets/caption1.png)
+
+1. Tocca l’icona blu in alto a destra per generare i sottotitoli. I sottotitoli verranno visualizzati sotto il grafico a linee.
+
+   ![Didascalia intelligente nella visualizzazione delle linee](assets/caption2.png)
+
+1. Scorri verso destra per visualizzare tutte le didascalie intelligenti.
+
+   I sottotitoli intelligenti possono indicare picchi di dati, anomalie, tendenze, declini, correlazioni e altri fenomeni.
+
+1. Per segnalare un problema, ad esempio contenuto dannoso o illegale, tocca il flag nero all’interno di una didascalia.
+
+   ![Segnala il problema relativo ai sottotitoli](assets/caption-report.png)
+
+1. Fai clic sulla X per uscire dalla **[!UICONTROL Report results]** .
