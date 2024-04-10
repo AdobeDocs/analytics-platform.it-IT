@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
 workflow-type: tm+mt
 source-wordcount: '3279'
 ht-degree: 83%
@@ -108,7 +108,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
+   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
