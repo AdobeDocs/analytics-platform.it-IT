@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dd4a2e4770e0ead4c7b4c578acd2ceacdfaa856c
+source-git-commit: 3ca28d9c9f1c6a9e14ce4c9080bd180a5699ad5b
 workflow-type: tm+mt
-source-wordcount: '3257'
+source-wordcount: '3270'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2024** | |
+| Previsione delle tecniche statistiche | È stato aggiunto un articolo che descrive [tecniche statistiche utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Sono state aggiunte informazioni sulla raccomandazione dell’esportazione di tabelle complete per dimensioni ad alta cardinalità | Punto elenco aggiunto in [Best practice per dimensioni ad alta cardinalità](/help/components/dimensions/high-cardinality.md) per consigliare l’utilizzo di Esportazione tabella completa per dimensioni ad alta cardinalità. |
 | **Marzo 2024** | |
 | Le informazioni di utilizzo relative alla colonna “Utilizzato in” sono disponibili solo a partire da settembre 2023. | È stato chiarito che le informazioni sull’utilizzo relative alla colonna **Utilizzato in** sulla [pagina di destinazione progetti](/help/getting-started/landing.md) risale solo a settembre 2023. |
