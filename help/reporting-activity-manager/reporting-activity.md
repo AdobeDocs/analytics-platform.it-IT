@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: d6f2d7129b472b32edc30dadfeb2303a92d790de
+source-git-commit: 4cb3c61a518b93119d8ffd503fc8653076ad56a1
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1980'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,8 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 1. Per visualizzare il numero totale di richieste di rapporti per tutte le connessioni nell’organizzazione, espandi [!UICONTROL **Mostra altro**] per visualizzare [!UICONTROL **Richieste di rapporti mensili**] grafico.
 
    Puoi visualizzare il numero di richieste di rapporti all’interno della tua organizzazione per il mese corrente e il mese precedente.
+
+   ![Attività di reporting che mostra la coda dei rapporti](assets/reporting-activity-monthly.png)
 
 1. (Facoltativo) Puoi cercare o filtrare l’elenco delle connessioni:
 
