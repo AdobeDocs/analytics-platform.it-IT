@@ -5,10 +5,10 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
+source-git-commit: 067a9e3d5319a33bb5ae894d76f3445e2d968d0e
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 2%
+source-wordcount: '1785'
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
 1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account. | | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
 
-1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
+1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.
 
    Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account località**] campo.
 
@@ -106,8 +106,8 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p> |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -129,8 +129,8 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati di aver concesso il `roles/storage.objectCreator` autorizzazione per l’entità fornita dall’Adobe. (L’entità viene fornita quando [configurazione dell’account di Google Cloud Platform](/help/components/exports/cloud-export-accounts.md).) <p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud.</p> |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati di aver concesso il `roles/storage.objectCreator` autorizzazione per l’entità fornita dall’Adobe. (L’entità viene fornita quando [configurazione dell’account di Google Cloud Platform](/help/components/exports/cloud-export-accounts.md).) <p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -151,7 +151,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Nome contenitore**] | Contenitore all’interno dell’account specificato in cui desideri inviare i dati di Customer Journey Analytics. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;archivio dei token SAS specificato nel campo del nome segreto dell&#39;insieme di credenziali delle chiavi durante la configurazione dell&#39;account SAS di Azure abbia `Write` autorizzazione. Questo consente al token SAS di creare file nel contenitore Azure. <p>Se si desidera che il token SAS sovrascriva anche i file, assicurarsi che l&#39;archivio dei token SAS disponga del `Delete` autorizzazione.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione di Azure Blob Storage.</p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che che l’archivio dei token SAS specificato nel campo Nome segreto di Key Vault durante la configurazione dell’account SAS di Azure abbia l’autorizzazione `Write`. Questo consente al token SAS di creare file nel contenitore Azure. <p>Se desideri che il token SAS sovrascriva anche i file, assicurati che l’archivio dei token SAS disponga dell’autorizzazione `Delete`.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
 
    {style="table-layout:auto"}
 
@@ -171,8 +171,8 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Accertati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;ID applicazione specificato durante la configurazione dell&#39;account RBAC di Azure disponga del `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
+   | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’ID applicazione specificato durante la configurazione dell’account RBAC di Azure disponga del ruolo `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **Account**] | Account di archiviazione Azure. |
 
    {style="table-layout:auto"}

@@ -5,10 +5,10 @@ title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cdf99e31790f089950de8063445b6264158131dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -48,13 +48,19 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 1. Seleziona la [!UICONTROL **Posizioni**] scheda.
 
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+
 1. Nel campo di ricerca, iniziare a digitare le informazioni associate alla posizione che si sta cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
 ## Modifica posizioni
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare la posizione da modificare.
+1. Seleziona la [!UICONTROL **Posizioni**] scheda.
+
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+
+1. Seleziona la posizione da modificare.
 
    ![Finestra Esporta che mostra la scheda Ubicazioni e l&#39;elenco delle ubicazioni.](assets/locations-edit.png)
 
@@ -70,7 +76,11 @@ Per eliminare una posizione:
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Seleziona la [!UICONTROL **Posizioni**] , quindi selezionare una o più posizioni da eliminare.
+1. Seleziona la [!UICONTROL **Posizioni**] scheda.
+
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+
+1. Seleziona una o più posizioni da eliminare.
 
    ![Finestra Esporta con la scheda Ubicazioni e l&#39;elenco delle ubicazioni](assets/locations-edit.png)
 
@@ -92,6 +102,8 @@ Per eliminare una posizione:
 
    ![Finestra Esportazioni con la scheda Account ubicazione](assets/account-add.png)
 
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+
 1. Seleziona [!UICONTROL **Visualizza dettagli**] sull&#39;account che si desidera modificare.
 
 1. Apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Salva**].
@@ -108,6 +120,8 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
    ![Finestra Esportazioni con la scheda Account ubicazione](assets/account-add.png)
 
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+
 1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
 
 ## Elimina account
@@ -117,6 +131,8 @@ Per visualizzare le chiavi associate a un account di esportazione:
 1. Seleziona la [!UICONTROL **Account ubicazione**] scheda.
 
    ![Finestra Esportazioni con la scheda Account ubicazione](assets/account-add.png)
+
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
 
 1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Elimina account**].
 

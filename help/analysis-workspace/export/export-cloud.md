@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 2%
+source-wordcount: '2217'
+ht-degree: 3%
 
 ---
 
@@ -175,7 +175,7 @@ I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuo
 * Metriche calcolate che utilizzano funzioni di base o avanzate nella definizione della metrica (vedi [Funzioni di base](/help/components/calc-metrics/cm-functions.md) e [Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md) per ulteriori informazioni)
 * Non è possibile esportare i componenti per i quali un amministratore ha impostato un limite (vedere *Filtrare i criteri di governance dei dati nelle visualizzazioni dati* sezione in [Etichette e criteri](/help/data-views/data-governance.md) per ulteriori informazioni)
 * Qualsiasi dimensione che soddisfi tutti i seguenti criteri:
-   * È stato creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md)
+   * È stato creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md) (simile alle variabili con più valori in Adobe Analytics)
    * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md)
    * Non utilizza un’ [dimensione di binding](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * Più di 5 dimensioni e 5 metriche per rapporto (sono supportate fino a 5 dimensioni e 5 metriche)
