@@ -4,7 +4,7 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 91ab1d3160db83979e1550f8f1b5135065cc6707
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 56%
@@ -86,7 +86,7 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming di Experience 
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenze nella pubblicazione di tipi di pubblico come descritto in questa sezione.](assets/latency-diagram.png)
+![Latenze nella pubblicazione di tipi di pubblico come descritto in questa sezione.](/help/components/audiences/assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
@@ -141,7 +141,7 @@ Il Customer Journey Analytics trasmette i dati in RTCP tramite pipeline e questi
 
 +++**Quali identità trasmette il Customer Journey Analytics?**
 
-Qualsiasi coppia identità/spazio dei nomi specificata nel [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
+Qualsiasi coppia identità/spazio dei nomi specificata nel [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
 
 +++
 
