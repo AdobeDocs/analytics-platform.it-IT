@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
+source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 18%
+source-wordcount: '935'
+ht-degree: 16%
 
 ---
 
@@ -32,6 +32,7 @@ Queste note sulla versione coprono il periodo dal 10 aprile 2024 al maggio 2024.
 | **Trasformazione dello schema B2B per la persona all’account** | Consente di trasformare i set di dati per supportare meglio le ricerche basate su persone in scenari di reporting B2B di Customer Journey Analytics. Questa funzionalità è disponibile per i set di dati per gli schemi B2B basati sulle seguenti classi:<ul><li>Relazione della persona dell’account aziendale XDM</li><li>Relazione della persona dell’opportunità di business XDM</li><li>Membri dell’elenco di marketing aziendale XDM</li><li>Membri della campagna aziendale XDM</li></ul> | | giovedì 1 maggio 2024 |
 | **Rilevamento bot di Experience Edge** | [Rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=it) consente di identificare gli eventi generati da Web SDK, Mobile SDK e Server API come generati da spider e bot noti. | | giovedì 1 maggio 2024 |
 | **Campi derivati: funzione successiva o precedente** | Queste nuove funzioni consentono di prendere un campo come input e quindi identificare il valore n-precedente o n-successivo per ottenere una migliore visualizzazione nel percorso di utenti. Questa funzionalità può anche essere combinata con altre funzioni in [!UICONTROL Derived Fields], ad esempio [!UICONTROL Concatenate], per creare nuove dimensioni. |  | giovedì 1 maggio 2024 |
+| **I tipi di pubblico vengono pubblicati in una nuova sezione &quot;Tipi di pubblico&quot; nell’Experience Platform** | I tipi di pubblico pubblicati da Customer Journey Analytics sono ora disponibili nella nuova sezione &quot;Tipi di pubblico&quot; in Adobe Experience Platform.<p>In precedenza, i tipi di pubblico pubblicati da Customer Journey Analytics erano disponibili in Experienci Platform nella sezione &quot;Segmenti&quot;.</p><p>Questo miglioramento offre i seguenti vantaggi:</p><ul><li>I tipi di pubblico non hanno più un ritardo di 1 ora prima di essere visualizzati in Experienci Platform; sono disponibili pochi secondi dopo la pubblicazione.</li><li>I tipi di pubblico possono essere ordinati in Experienci Platform utilizzando la colonna &quot;Origine&quot;, che mostra l’applicazione da cui il pubblico è stato pubblicato originariamente.</li><li>Le opzioni di filtro e ordinamento in Experienci Platform consentono di trovare più rapidamente i tipi di pubblico rilevanti.</li></ul> |  | Maggio 2024 |
 
 {style="table-layout:auto"}
 
