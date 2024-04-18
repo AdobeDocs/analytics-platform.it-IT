@@ -4,9 +4,9 @@ title: Panoramica sulla previsione
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 {{select-package}}
 
-La previsione è una funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). La previsione è disponibile solo per i dati relativi alle serie temporali.
+La previsione include una previsione statistica per i dati relativi alle serie temporali basata sui dati storici già esistenti nel Customer Journey Analytics. Le previsioni possono essere visualizzate in tabelle a forma libera e visualizzazioni con grafico a linee. Gli utenti possono controllare se la previsione viene inclusa automaticamente tramite le preferenze utente nell’interfaccia utente del Customer Journey Analytics. Possono inoltre attivarli e disattivarli per colonna nelle impostazioni della colonna. La previsione è già attivata solo per la prima colonna aggiunta a una tabella.
+
+La previsione è disponibile in &quot;Seleziona&quot; e livelli di licenza Customer Journey Analytics superiori.
 
 È possibile sfruttare le previsioni per:
 
