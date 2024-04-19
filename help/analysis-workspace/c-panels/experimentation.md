@@ -4,9 +4,9 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 68289e274c8ea985b6d07bca228f5e6654e05aa4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1842'
 ht-degree: 58%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 58%
 
 Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, Adobe Journey Optimizer e persino da dati BYO (risorse disponibili).
 
->[!IMPORTANT]
->
->A questo punto [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) Dati (A4T) *non può* da analizzare nel pannello Sperimentazione.
+Ulteriori informazioni su [integrazione tra Adobe Customer Journey Analytics e Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja4t/cja4t).
 
 ## Controllo degli accessi {#access}
 
@@ -33,7 +31,7 @@ Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un 
 
 Dopo che i dati dell’esperimento sono stati [acquisito](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it) in Adobe Experience Platform [creare una connessione nel Customer Journey Analytics](/help/connections/create-connection.md) a uno o più set di dati di sperimentazione.
 
-## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati {#contect-labels}
+## Passaggio 2: aggiungere etichette di contesto alle visualizzazioni dati {#context-labels}
 
 Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e servizi di Customer Journey Analytics come [!UICONTROL Experimentation] Il pannello può utilizzare queste etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
