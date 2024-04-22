@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 58%
+source-wordcount: '1940'
+ht-degree: 70%
 
 ---
 
@@ -71,10 +71,10 @@ Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organi
 
    Oppure
 
-   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+   Per condividere solo un singolo progetto, puoi aprire il progetto da condividere e poi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
 
-   Viene visualizzata la finestra di dialogo Condividi progetto. Il [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] le sezioni della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
+   Viene visualizzata la finestra di dialogo Condividi progetto. Le sezioni [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
 
    ![Finestra Condividi progetto.](assets/share-proj-modal.png)
 
@@ -92,11 +92,11 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
-1. Seleziona **[!UICONTROL Share]** (Crea schema). Se il progetto è già stato condiviso, seleziona [!UICONTROL **Aggiorna**].)
+1. Seleziona **[!UICONTROL Share]**. Se il progetto è già stato condiviso, seleziona [!UICONTROL **Aggiorna**].
 
    Oppure
 
-   Seleziona **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**.) Ulteriori informazioni sulla [cura dei progetti](curate.md).
+   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](curate.md).
 
 ## Condividere un collegamento a un progetto
 
@@ -138,7 +138,7 @@ Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/v
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 >
->* Se l’organizzazione concede la licenza Healthcare Shield, puoi condividere i progetti solo con gli utenti che si sono autenticati tramite Single Sign On (SSO) o Adobe ID; non puoi condividere progetti con utenti non autenticati. È tua responsabilità utilizzare questa funzione in conformità con le politiche di governance dei dati interne della tua azienda e condividere solo i collegamenti del progetto che contengono informazioni sanitarie personali (PHI) con gli utenti che dispongono delle autorizzazioni appropriate.
+>* Il [!UICONTROL Share with anyone] La funzione è bloccata per entrambe le licenze Healthcare Shield e Privacy &amp; Security Shield.
 
 La seguente dimostrazione video e la relativa documentazione descrivono le opzioni associate alla condivisione di un collegamento con chiunque:
 
@@ -158,7 +158,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    Selezionando questa opzione viene creato un collegamento al progetto che può essere condiviso con chiunque. Disattivando questa opzione è possibile disattivare l’accesso al progetto in qualsiasi momento.
 
-   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento delle risorse utente o impostazione delle scadenze dell’account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) nella guida dell’amministratore di Analytics.
+   Il proprietario del progetto è anche il proprietario di questo collegamento. La proprietà del collegamento può essere trasferita a un altro utente solo quando viene trasferita la proprietà del progetto, come descritto in [Trasferimento delle risorse utente o impostazione delle scadenze dell’account](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=it) nella guida dell’amministratore di Analytics.
 
 1. Scegliere se abilitare la seguente opzione di protezione (che può essere controllata dall&#39;amministratore di Customer Journey Analytics):
 
@@ -184,7 +184,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 ## Visualizza progetti condivisi con te
 
-Quando qualcuno condivide un progetto con te tramite [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi da [Scheda Progetti della pagina di destinazione di Analytics](/help/getting-started/landing.md#navigate-the-projects-tab).
+Quando qualcuno condivide un progetto con te tramite la [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi dalla [scheda Progetti della pagina di destinazione di Analytics](/help/getting-started/landing.md#navigate-the-projects-tab).
 
 Quando qualcuno condivide un progetto con te condividendo un collegamento (da [Scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un [condividi con chiunque](#share-a-project-with-anyone-no-login-required)), per accedere al progetto devi utilizzare il collegamento condiviso con te. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
 
