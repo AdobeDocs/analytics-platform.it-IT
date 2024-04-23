@@ -6,9 +6,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 21d77f06595993172460b724dc7991cb9a5a02a8
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Di seguito è illustrata la procedura per l’invio dei dati all’Experienci Pl
 
 | Metodo di migrazione | Processo per l’invio di dati a Platform |
 |---------|----------|
-| Nuova implementazione del Web SDK | [Inserire dati tramite Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md) |
-| Migrare l’implementazione di Adobe Analytics per utilizzare l’SDK per web | Se utilizzi l’estensione tag Analytics: [Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)<p>Oppure</p><p>Se utilizzi AppMeasurement: [Migrare da AppMeasurement a Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
-| Configura l’implementazione Adobe Analytics Web SDK esistente per inviare dati al Customer Journey Analytics | [Configurare un flusso di dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream) in [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) |
+| Nuova implementazione del Web SDK | Poiché si tratta di una nuova implementazione di Web SDK, è necessario seguire tutti i passaggi descritti in [Inserire dati tramite Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md). |
+| Migrare l’implementazione di Adobe Analytics per utilizzare l’SDK per web | I passaggi per la migrazione ad Adobe Analytics Web SDK variano a seconda che l&#39;implementazione corrente sia l&#39;estensione o l&#39;AppMeasurement di Analytics. <p>Se utilizzi l’estensione tag Analytics: [Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)</p><p>Oppure</p><p>Se utilizzi AppMeasurement: [Migrare da AppMeasurement a Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
+| Configura l’implementazione Adobe Analytics Web SDK esistente per inviare dati al Customer Journey Analytics | Poiché la tua implementazione di Adobe Analytics utilizza già Web SDK, devi solo: [impostare uno stream di dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream). Puoi ignorare l’altra sezione in [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk). |
 | Connettore di origine di Analytics | [Inserire e usare i dati dalla versione tradizionale di Adobe Analytics](/help/data-ingestion/analytics.md) |
 
 ## Quindi, mappa i dati sullo schema XDM.

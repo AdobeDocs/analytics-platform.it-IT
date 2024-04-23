@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 4%
+source-wordcount: '2026'
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,15 @@ Il metodo scelto per la migrazione da Adobe Analytics a Customer Journey Analyti
 
 * I tuoi obiettivi per il futuro
 
-Utilizza le sezioni seguenti per determinare quale metodo di migrazione di Customer Journey Analytics si allinea meglio agli obiettivi futuri e all’implementazione corrente della tua organizzazione:
+Utilizza le informazioni in questa pagina per determinare quale metodo di migrazione di Customer Journey Analytics si allinea meglio agli obiettivi futuri e all’implementazione corrente della tua organizzazione.
+
+Per determinare il metodo di migrazione ottimale per la tua organizzazione, le seguenti sezioni devono essere lette in sequenza:
+
+1. In primo luogo, [comprendere i metodi di migrazione disponibili](#understand-migration-methods).
+
+1. Allora, [valutare i metodi di migrazione disponibili](#assess-the-migration-methods-available-to-you-based-on-your-current-adobe-analytics-implementation).
+
+1. E infine... [valutare i vantaggi e gli svantaggi di ciascun metodo di migrazione](#weigh-the-advantages-and-disadvantages-of-the-migration-methods-available-to-you).
 
 ## Comprendere i metodi di migrazione
 
@@ -58,14 +66,14 @@ Nella tabella seguente sono elencati tutti i metodi di migrazione, il livello di
 
 | Metodo di migrazione | Livello di impegno | Redditività a lungo termine |
 |---------|----------|---------|
-| **Nuova implementazione del Web SDK**</br> Puoi eseguire una nuova implementazione di Adobe Experience Platform Web SDK per iniziare a inviare dati all’Edge Network Adobe Experience Platform <!-- what is the correct branding -->. <p>Per le organizzazioni che non utilizzano ancora l’SDK per web, questo metodo di migrazione è forse il più semplice per ottenere i dati da Edge Network (richiede il minor numero di passaggi), ma tutto il lavoro è svolto in anticipo, ad esempio la creazione dello schema XDM.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Creare uno schema XDM per l’organizzazione</li><li>Implementare l’SDK per web</li><li>Inviare dati a Platform</li></ol> | Alta | Alta |
-| **Migrare l’implementazione di Adobe Analytics per utilizzare l’SDK per web**</br> Se la tua implementazione di Adobe Analytics è AppMeasurement o l’estensione Analytics, puoi migrarla per utilizzare Adobe Experience Platform Web SDK per iniziare a inviare dati ad Edge Network prima di inviarli al Customer Journey Analytics. <!-- what else? --><p>Questo è il modo più semplice e fluido per portare i dati all’Edge Network; richiede più passaggi, ma offre una transizione più metodica con tappe più tangibili.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Sposta l’implementazione Adobe Analytics esistente nell’SDK per web e verifica che tutto funzioni lì.</li><li>Crea uno schema XDM per la tua organizzazione non appena hai tempo.</li><li>Utilizza la mappatura del flusso di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.</li><li>Inviare dati a Platform</li></ol> | Modera | Alta |
-| **Configura l’implementazione Adobe Analytics Web SDK esistente per inviare dati al Customer Journey Analytics**</br> Se la tua implementazione di Adobe Analytics utilizza già Web SDK, puoi iniziare a inviare dati al Customer Journey Analytics.<p>Prima di inviare i dati al Customer Journey Analytics, è consigliabile aggiornare lo schema di Adobe Analytics in base alle esigenze specifiche dell’organizzazione e di qualsiasi altra applicazione Platform che utilizzerai.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Inizia a inviare dati al Customer Journey Analytics.<!-- What's involved here? Just point it at CJA? --></li><li>(Facoltativo) Crea uno schema XDM per la tua organizzazione non appena hai tempo.</li><li>Utilizza la mappatura del flusso di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.</li></ol> | Bassa | Alta |
+| **Nuova implementazione del Web SDK**</br> Puoi eseguire una nuova implementazione di Adobe Experience Platform Web SDK per iniziare a inviare dati all’Edge Network Adobe Experience Platform <!-- what is the correct branding -->. <p>Per le organizzazioni che non utilizzano ancora il Web SDK, questo metodo di migrazione è forse il più semplice per portare i dati all’Edge Network (richiede il minor numero di passaggi); tuttavia, poiché tutto il lavoro è svolto in anticipo (ad esempio la creazione dello schema XDM), richiede uno sforzo iniziale maggiore.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Crea uno schema XDM per la tua organizzazione.</li><li>Implementa l’SDK per web.</li><li>Invia dati a Platform.</li></ol> | Alta | Alta |
+| **Migrare l’implementazione di Adobe Analytics per utilizzare l’SDK per web**</br> Se la tua implementazione di Adobe Analytics è AppMeasurement o l’estensione Analytics, puoi migrarla per utilizzare Adobe Experience Platform Web SDK per iniziare a inviare dati ad Edge Network prima di inviarli al Customer Journey Analytics. <!-- what else? --><p>Questo è il modo più semplice e fluido per portare i dati all’Edge Network; richiede più passaggi, ma offre una transizione più metodica con tappe più tangibili.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Sposta l’implementazione Adobe Analytics esistente nell’SDK per web e verifica che tutto funzioni lì.</li><li>Crea uno schema XDM per la tua organizzazione non appena hai tempo.</li><li>Utilizza la mappatura del flusso di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.</li><li>Invia dati a Platform.</li></ol> | Modera | Alta |
+| **Configura l’implementazione Adobe Analytics Web SDK esistente per inviare dati al Customer Journey Analytics**</br> Se la tua implementazione di Adobe Analytics utilizza già Web SDK, puoi iniziare a inviare dati al Customer Journey Analytics con il minimo sforzo.<p>Prima di inviare i dati al Customer Journey Analytics, è consigliabile aggiornare lo schema di Adobe Analytics in base alle esigenze specifiche dell’organizzazione e di qualsiasi altra applicazione Platform che utilizzerai.</p><p>I passaggi di base sono i seguenti:</p><ol><li>Inizia a inviare dati al Customer Journey Analytics.<!-- What's involved here? Just point it at CJA? --></li><li>(Facoltativo) Crea uno schema XDM per la tua organizzazione non appena hai tempo.</li><li>(Condizionale) Se hai creato uno schema XDM, utilizza la mappatura del flusso di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.</li></ol> | Bassa | Alta |
 | **Connettore di origine di Analytics**</br> Se la tua implementazione di Adobe Analytics è AppMeasurement o l’estensione Analytics, puoi iniziare a inviare dati a una visualizzazione dati nel Customer Journey Analytics.<p>Questo è il modo più semplice per portare i dati al Customer Journey Analytics, ma è il metodo meno efficace a lungo termine.</p> | Bassa | Bassa |
 
 {style="table-layout:auto"}
 
-Utilizza il diagramma seguente per visualizzare in che modo ogni metodo di migrazione rientra nello spettro in termini di livello di impegno e di sostenibilità a lungo termine:
+Utilizza il diagramma seguente per visualizzare in che modo ogni metodo di migrazione rientra nello spettro in termini di livello di sforzo e redditività a lungo termine:
 
 ![metodi di migrazione cja](assets/cja-migration-methods.png)
 
@@ -73,7 +81,7 @@ Utilizza il diagramma seguente per visualizzare in che modo ogni metodo di migra
 
 Non tutti i metodi di migrazione sono disponibili per ciascun tipo di implementazione di Adobe Analytics.
 
-Utilizza le informazioni riportate di seguito come linee guida generali per capire quale metodo di migrazione è più appropriato per la tua organizzazione.
+Utilizza le informazioni riportate di seguito per capire quale metodo di migrazione è più appropriato per la tua organizzazione.
 
 Se hai bisogno di consigli, indicazioni o supporto più specifici, contatta il rappresentante del tuo Adobe.
 
@@ -91,19 +99,19 @@ I vantaggi e gli svantaggi di un determinato metodo di migrazione dipendono dall
 
 Prima di utilizzare le informazioni riportate di seguito per determinare il metodo di migrazione più appropriato, esaminare le informazioni in [Comprendere i metodi di migrazione](#understand-migration-methods) se non lo hai già fatto.
 
-### AppMeasurement ed estensione Adobe Analytics
+### Per le implementazioni di Adobe Analytics che utilizzano: estensione AppMeasurement e Adobe Analytics
 
 La tabella seguente mostra i metodi di migrazione disponibili per le organizzazioni che hanno implementato Adobe Analytics con AppMeasurement o l’estensione Adobe Analytics:
 
 | Metodo di migrazione | Vantaggi | Svantaggi |
 |---------|----------|---------|
-| **Nuova implementazione del Web SDK** | <ul><li>Utilizza uno schema XDM, uno schema flessibile per definire tutti i campi necessari</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li><li>Nessun limite di carattere (100 caratteri per prop)</li><li>Rapporti e disponibilità dei dati ad alte prestazioni perché Adobe Experience Platform è progettato per [casi di utilizzo della personalizzazione in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it)</li><li>Scalabile (in grado di ricevere tutte le funzionalità e le caratteristiche più recenti)</li><li>Consolidare i tag per la raccolta dati di Adobe Experience Cloud tra altri prodotti Experience Cloud (AJO, RTCDP, ecc.)</li><li>[ID dispositivo di prime parti](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=it) per una maggiore precisione nell’identificazione dei visitatori</li></ul> | <ul><li>Il metodo di migrazione più lungo ed esigente<p>È necessario ricreare lo schema completo in XDM prima di poter iniziare a implementare Web SDK</p></li></ul> |
-| **Migrare da Adobe Analytics a Web SDK** | <ul><li>Conserva le regole e gli elementi dati già configurati nell’implementazione di Adobe Analytics.</li><li>Consente di passare a Web SDK senza influire sui rapporti esistenti di Adobe Analytics.</li><li>Offre flessibilità per creare uno schema XDM per la tua organizzazione in un secondo momento.</br>Non richiede il gruppo di campi Adobe Analytics Experience Event nel Customer Journey Analytics. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li><li>Nessun limite di carattere (100 caratteri per prop)</li><li>Rapporti e disponibilità dei dati ad alte prestazioni perché Adobe Experience Platform è progettato per [casi di utilizzo della personalizzazione in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it)</li><li>Scalabile (in grado di ricevere tutte le funzionalità e le caratteristiche più recenti)</li><li>Consolidare i tag per la raccolta dati di Adobe Experience Cloud tra altri prodotti Experience Cloud (AJO, RTCDP, ecc.)</li><li>[ID dispositivo di prime parti](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=it) per una maggiore precisione nell’identificazione dei visitatori</li></ul> | <ul><li>Deve essere conforme a uno schema XDM in futuro, utilizzando la mappatura dello stream di dati.</li><li>Incontra un certo debito tecnico. Ad esempio, il codice di AppMeasurement o di estensione legacy di Analytics può rimanere. </li></ul> |
+| **Nuova implementazione del Web SDK** | <ul><li>Utilizza uno schema XDM, uno schema flessibile per definire tutti i campi necessari e solo quelli rilevanti (consente di allontanarsi dal gruppo di campi Adobe Analytics Experience Event)</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento e così via)</li><li>Nessun limite di carattere (100 caratteri per prop)</li><li>Rapporti e disponibilità dei dati ad alte prestazioni perché Adobe Experience Platform è progettato per [casi di utilizzo della personalizzazione in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it)</li><li>Scalabile (in grado di ricevere tutte le funzionalità e le caratteristiche più recenti)</li><li>Consolidare i tag per la raccolta dati di Adobe Experience Cloud tra altri prodotti Experience Cloud (AJO, RTCDP e così via)</li><li>[ID dispositivo di prime parti](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=it) per una maggiore precisione nell’identificazione dei visitatori</li></ul> | <ul><li>Il metodo di migrazione più lungo ed esigente<p>È necessario ricreare lo schema completo in XDM prima di poter iniziare a implementare Web SDK</p></li></ul> |
+| **Migrare da Adobe Analytics a Web SDK** | <ul><li>Conserva le regole e gli elementi dati già configurati nell’implementazione di Adobe Analytics.</li><li>Consente di passare a Web SDK senza influire sui rapporti esistenti di Adobe Analytics.</li><li>Offre flessibilità per creare uno schema XDM per l’organizzazione in un secondo momento: uno schema flessibile per definire tutti i campi necessari e solo quelli rilevanti.</br>Non richiede il gruppo di campi Adobe Analytics Experience Event nel Customer Journey Analytics. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento e così via)</li><li>Nessun limite di carattere (100 caratteri per prop)</li><li>Rapporti e disponibilità dei dati ad alte prestazioni perché Adobe Experience Platform è progettato per [casi di utilizzo della personalizzazione in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it)</li><li>Scalabile (in grado di ricevere tutte le funzionalità e le caratteristiche più recenti)</li><li>Consolidare i tag per la raccolta dati di Adobe Experience Cloud tra altri prodotti Experience Cloud (AJO, RTCDP e così via)</li><li>[ID dispositivo di prime parti](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=it) per una maggiore precisione nell’identificazione dei visitatori</li></ul> | <ul><li>Deve essere conforme a uno schema XDM in futuro, utilizzando la mappatura dello stream di dati.</li><li>Incontra un certo debito tecnico. Ad esempio, il codice di AppMeasurement o di estensione legacy di Analytics può rimanere. </li></ul> |
 | **Connettore di origine di Analytics** | <ul><li>Metodo di migrazione meno lungo e impegnativo. <p>Migrazione rapida dei dati al Customer Journey Analytics con un investimento minimo</p></li></ul> | <ul><li>I dati non vengono inviati ad Edge Network e non possono essere condivisi con altre applicazioni Adobe Experience Platform; sono vincolati solo al Customer Journey Analytics<li>Difficoltà nel passare al Web SDK in futuro</li><li>Utilizza il gruppo di campi Evento esperienza di Analytics nello schema.</br>Questo gruppo di campi aggiunge molti eventi Adobe Analytics che non sono necessari nello schema del Customer Journey Analytics.  Questo può portare a uno schema più disordinato e complesso di quanto sia altrimenti necessario per il Customer Journey Analytics.</li><li>Livello massimo di [latenza](/help/admin/guardrails.md#latencies) in tutti i metodi di implementazione</li></ul> |
 
 {style="table-layout:auto"}
 
-### Web SDK
+### Per le implementazioni di Adobe Analytics che utilizzano: SDK web
 
 La tabella seguente mostra i metodi di migrazione disponibili per le organizzazioni che hanno implementato Adobe Analytics con Web SDK:
 
