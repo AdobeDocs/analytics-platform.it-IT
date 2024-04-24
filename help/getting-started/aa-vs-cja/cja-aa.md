@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 5c5e526c6442c6ad1c749b6472a342590db2eff5
+source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2029'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Segmenti | Supporto completo. Ora denominati “Filtri”: tieni presente che eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non vengono caricati in Customer Journey Analytics. |
 | Suite di rapporti virtuali | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Cura dei componenti della suite di rapporti virtuali | Supporto completo. Ora fa parte di Visualizzazioni dati. |
-| Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e per i set di dati generati da WebSDK. Consulta la [documentazione su quali variabili Analytics sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it). Se utilizzi la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca del dispositivo non sono attualmente supportati. Il supporto è pianificato per il futuro. Per aggiungere ricerche per dispositivi e browser al flusso di dati dell’SDK per web, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
+| Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e per i set di dati generati da WebSDK. Consulta la [documentazione su quali variabili Analytics sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it). Se utilizzi la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca del dispositivo non sono attualmente supportati. Il supporto è pianificato per il futuro. Per aggiungere ricerche per dispositivi e browser allo stream di dati dell’SDK per web, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
 | Analisi di dati multimediali in streaming | I dati multimediali sono disponibili tramite il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale utilizzato in Workspace. |
 
 {style="table-layout:auto"}

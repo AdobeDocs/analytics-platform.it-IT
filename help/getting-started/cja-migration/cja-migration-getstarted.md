@@ -4,13 +4,11 @@ description: Pianificare la migrazione da Adobe Analytics a Customer Journey Ana
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: 21d77f06595993172460b724dc7991cb9a5a02a8
+source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 8%
+source-wordcount: '634'
+ht-degree: 10%
 
 ---
 
@@ -51,25 +49,20 @@ Di seguito sono riportati alcuni dei vantaggi principali: (per un elenco complet
 ## Comprendere il processo di migrazione
 
 <!-- Include a graphic of the end-to-end process, as well as links to each step of the process -->
-Questa pagina rappresenta il passaggio 1 della migrazione, come illustrato nella tabella seguente. Completa tutti i passaggi descritti in questa tabella per migrare da Adobe Analytics a Customer Journey Analytics.
+Le informazioni in questa pagina descrivono il Passaggio 1 della migrazione, come evidenziato nella tabella seguente. Completa tutti i passaggi descritti in questa tabella per migrare da Adobe Analytics a Customer Journey Analytics.
 
-| Attività | Dettagli |
+| Attività di migrazione | Dettagli |
 |---------|----------|
-| **Passaggio 1: [Introduzione alla migrazione](/help/getting-started/cja-migration/cja-migration-getstarted.md)** | Scopri i vantaggi della migrazione ad Adobe Analytics e il processo di migrazione di base. |
-| **Passaggio 2: [Scegli il metodo di migrazione](/help/getting-started/cja-migration/cja-migration-method.md)** | Sono disponibili diversi metodi per la migrazione al Customer Journey Analytics. Scegli il metodo migliore per la tua organizzazione, tenendo in considerazione l’ambiente Adobe Analytics corrente della tua organizzazione e gli obiettivi a lungo termine. |
-| **Passaggio 3: [Inviare dati a Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | Il processo di invio dei dati a Adobe Experience Platform varia a seconda del metodo di migrazione scelto nel passaggio 1. |
-| **Passaggio 4: [Mappare i dati sullo schema XDM](/help/getting-started/cja-migration/cja-migration-xdm.md)** | [Schemi XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) vengono utilizzati in Adobe Experience Platform per descrivere la struttura dei dati in modo coerente e riutilizzabile. Definendo i dati in modo coerente tra i sistemi, diventa più semplice mantenere un significato e quindi ottenere valore dai dati.<p>La maggior parte dei metodi di migrazione richiede la creazione di un nuovo schema XDM o la mappatura dello schema Adobe Analytics esistente su XDM tramite la mappatura dello stream di dati.</p> |
-| **Passaggio 5: [Conserva dati storici](/help/getting-started/cja-migration/cja-migration-historical-data.md)** | La maggior parte delle organizzazioni deve conservare i dati storici di Adobe Analytics per un certo periodo di tempo. Sono disponibili varie opzioni per eseguire questa operazione. |
-| **Passaggio 6: [Pianificare l’onboarding degli utenti](/help/getting-started/cja-migration/cja-migration-onboarding.md)** | Dovresti dare agli utenti un periodo di tempo sufficiente (3 - 6 mesi) per familiarizzare con le differenze chiave di Analysis Workspace nel Customer Journey Analytics. |
-| **Passaggio 7: [Porta l’utilizzo dell’API di reporting](/help/getting-started/cja-migration/cja-migration-api.md)** | L’API di reporting del Customer Journey Analytics è nello stesso formato, ma utilizza un endpoint diverso. Porta l’utilizzo dell’API di reporting dall’API di reporting di Adobe Analytics all’API di reporting di Customer Journey Analytics. |
-| **Passaggio 8: [Sostituire feed dati e Data Warehouse](/help/getting-started/cja-migration/cja-migration-export-options.md)** | Decidi come utilizzare le opzioni di esportazione disponibili in Customer Journey Analytics per sostituire le funzioni Feed dati e Data Warehouse che stavi utilizzando in Adobe Analytics. |
-| **Passaggio 9: [Eseguire la migrazione di progetti e componenti](/help/getting-started/cja-migration/cja-migration-projects.md)** | L’area di migrazione dei componenti in Adobe Analytics consente di migrare i progetti e i relativi componenti associati da Adobe Analytics al Customer Journey Analytics. |
-| **Passaggio 10: [Eseguire attività successive alla migrazione](/help/getting-started/cja-getting-started.md)** | Dopo aver completato la migrazione, devi eseguire varie attività, tra cui inserire altri dati in Experienci Platform, creare connessioni tra set di dati e Customer Journey Analytics di Platform, creare visualizzazioni dati e imparare a creare rapporti sui dati multicanale in Analysis Workspace. |
+| <span class="preview">**Passaggio 1: introduzione alla migrazione**</span> | <span class="preview">Scopri i vantaggi della migrazione ad Adobe Analytics e il processo di migrazione di base.</span> |
+| **Passaggio 2: [Scegli il percorso di migrazione](/help/getting-started/cja-migration/cja-migration-path.md)** | Sono disponibili diversi metodi per la migrazione al Customer Journey Analytics. Scegli il metodo migliore per la tua organizzazione, in base all’ambiente Adobe Analytics corrente e agli obiettivi a lungo termine. |
+| **Passaggio 3: [Inviare dati a Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | Il processo di invio dei dati a Adobe Experience Platform varia a seconda del percorso di migrazione scelto nel passaggio 2. |
+| **Passaggio 4: [Conserva dati storici](/help/getting-started/cja-migration/cja-migration-historical-data.md)** | La maggior parte delle organizzazioni deve conservare i dati storici di Adobe Analytics per un certo periodo di tempo. Sono disponibili varie opzioni per eseguire questa operazione. |
+| **Passaggio 5: [Eseguire ulteriori attività di implementazione](/help/getting-started/cja-getting-started.md)** | A questo punto del processo di migrazione, è necessario eseguire varie attività prima che l’ambiente del Customer Journey Analytics sia pronto per l’uso.<p>Queste attività aggiuntive riguardano le migrazioni da Adobe Analytics e le nuove implementazioni di Customer Journey Analytics.</p><p>Queste attività includono:</p><ul><li>Experience Platform di altri dati</li><li>Creazione di connessioni tra set di dati di Platform e Customer Journey Analytics</li><li>Creazione di visualizzazioni dati</li><li>Portare l’utilizzo dell’API di reporting</li><li>Contabilità per feed di dati e Data Warehouse</li><li>Migrazione di progetti e componenti</li><li>Onboarding degli utenti di Planning</li></ul> <p>Per ulteriori informazioni, consulta [Guida introduttiva al Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
 
 {style="table-layout:auto"}
 
-## Scegli innanzitutto il metodo di migrazione
+## Scegli innanzitutto il percorso di migrazione
 
-Sono disponibili diversi metodi per la migrazione al Customer Journey Analytics. [Scegli il metodo migliore per la tua organizzazione](/help/getting-started/cja-migration/cja-migration-method.md).
+Sono disponibili diversi metodi per la migrazione al Customer Journey Analytics. [Scegli il metodo migliore per la tua organizzazione](/help/getting-started/cja-migration/cja-migration-path.md).
 
-Il metodo di migrazione scelto dipende dall’ambiente Adobe Analytics corrente della tua organizzazione e dagli obiettivi a lungo termine.
+Il percorso di migrazione scelto dipende dall’ambiente Adobe Analytics corrente della tua organizzazione e dagli obiettivi a lungo termine.
