@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3ca28d9c9f1c6a9e14ce4c9080bd180a5699ad5b
+source-git-commit: c55daff7e2d96c96b985b0ec9609eb4db0370a45
 workflow-type: tm+mt
-source-wordcount: '3270'
-ht-degree: 66%
+source-wordcount: '3355'
+ht-degree: 64%
 
 ---
 
@@ -22,8 +22,11 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Aprile 2024** | |
 | Previsione delle tecniche statistiche | È stato aggiunto un articolo che descrive [tecniche statistiche utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Sono state aggiunte informazioni sulla raccomandazione dell’esportazione di tabelle complete per dimensioni ad alta cardinalità | Punto elenco aggiunto in [Best practice per dimensioni ad alta cardinalità](/help/components/dimensions/high-cardinality.md) per consigliare l’utilizzo di Esportazione tabella completa per dimensioni ad alta cardinalità. |
+| È stata aggiunta la documentazione sui sottotitoli intelligenti nelle scorecard per dispositivi mobili | [Sottotitoli intelligenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) può aiutare i non analisti a dare un senso migliore ai propri dati senza l’aiuto degli analisti. |
+| Documentazione per le nuove funzioni degli Adobi Product Analytics | <ul><li>[Matrice di funzioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Avanzato [percentuali di conservazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[Approfondimenti migliorati in Funnel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Confrontare gli eventi all’interno di un singolo passaggio Funnel</li></ul> |
 | **Marzo 2024** | |
 | Le informazioni di utilizzo relative alla colonna “Utilizzato in” sono disponibili solo a partire da settembre 2023. | È stato chiarito che le informazioni sull’utilizzo relative alla colonna **Utilizzato in** sulla [pagina di destinazione progetti](/help/getting-started/landing.md) risale solo a settembre 2023. |
+| È stata aggiunta la documentazione sul miglioramento delle autorizzazioni per i componenti Workspace solo progetto | Se condividi un progetto con altri utenti, questi ultimi possono modificarlo [filtri rapidi](/help/components/filters/quick-filters.md) e altri componenti solo progetto incorporati nel progetto condiviso. |
 | **Febbraio 2024** | |
 | Aggiornamenti alla documentazione sulla condivisione del progetto | Sono state aggiunte informazioni su come [visualizzare i progetti condivisi con te](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Sono state inoltre semplificate le informazioni sulla [condivisione di singoli o più progetti](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Sono stati aggiunti requisiti di autorizzazione per il caricamento di file in Azure SAS e Azure RBAC durante la configurazione delle posizioni di esportazione cloud | Sono stati aggiunti requisiti di autorizzazione esatti per il caricamento di file in Azure SAS e Azure RBAC quando [configurazione degli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [configurazione dei percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md). |
