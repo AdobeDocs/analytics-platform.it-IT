@@ -8,7 +8,7 @@ role: User
 source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
 source-wordcount: '2029'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -131,9 +131,9 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | Campi derivati | I campi derivati consentono trasformazioni al momento dell’elaborazione del report. I dati possono essere combinati, corretti o creati immediatamente e si applicano retroattivamente a tutto il reporting. |
 | Opzioni di sicurezza e privacy migliorate: ambito dell’HIPAA | Customer Journey Analytics conforme all’HIPAA e offre opzioni di sicurezza aggiuntive per la conformità alle normative. Adobe Analytics non è conforme all’HIPAA. |
 | Analisi della sperimentazione | Customer Journey Analytics può valutare l’incremento e l’affidabilità di qualsiasi esperimento da qualsiasi origine dati definita come parte di una connessione. Questa valutazione consente di comprendere le relazioni causa-effetto tra le interazioni dei clienti che si estendono su qualsiasi canale. Analytics è limitato all’analisi di sperimentazione tramite A4T. |
-| Previsione | La previsione è una funzionalità AI/ML che include una previsione statistica per i dati relativi alle serie temporali basata sui dati storici già esistenti nel Customer Journey Analytics. Le previsioni possono essere visualizzate in tabelle a forma libera e visualizzazioni con grafico a linee. |
+| Previsione | La previsione è una funzionalità AI/ML che include una previsione statistica per i dati relativi alla serie temporale basata sui dati storici già esistenti in Customer Journey Analytics. Le previsioni possono essere visualizzate in tabelle a forma libera e in visualizzazioni con grafico a linee. |
 | Analisi guidata | L’analisi guidata è un formato di reporting che consente agli utenti di soddisfare rapidamente le proprie esigenze di dati in modo da ottenere rapidamente informazioni di elevata qualità e prendere decisioni maggiormente basate sui dati. L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntivo di Customer Journey Analytics. |
-| Sottotitoli intelligenti | I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose sul linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](/help/analysis-workspace/visualizations/line.md) visualizzazione. |
+| Didascalie intelligenti | Le didascalie intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni approfondite relative al linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni approfondite generate automaticamente per la visualizzazione [Linee](/help/analysis-workspace/visualizations/line.md). |
 | Trasformazioni al momento del rapporto | Le visualizzazioni dati in Customer Journey Analytics consentono di interpretare ulteriormente i dati di una connessione. Puoi modificare o rimuovere dati senza modificare l’implementazione, utilizzare sottostringhe per manipolare le dimensioni, creare metriche da qualsiasi valore o filtrare gli eventi secondari. Tutte queste trasformazioni sono effettuate in modo non distruttivo. Adobe Analytics offre funzionalità limitate tramite suite di rapporti virtuali e una lunghezza della sessione personalizzata. |
 | Accesso SQL | Utilizzando l’opzione Data Distiller, Customer Journey Analytics può rimuovere le limitazioni dei dati raccolti durante l’elaborazione backend di Adobe. Puoi modificare i dati con SQL, creare valori e set di dati specifici per la tua azienda e continuare ad approfondire. Analytics non supporta alcun tipo di accesso SQL ai propri dati. |
 | Dimensioni e metriche cliente illimitate | In Customer Journey Analytics le dimensioni sono illimitate; i valori possono essere numeri, testo, oggetti, elenchi o una combinazioni di questi. Le dimensioni possono essere nidificate o gerarchiche. Analytics supporta fino a un massimo di 75 proprietà e 250 eVar. |
