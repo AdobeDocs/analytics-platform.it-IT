@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
+source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 77%
@@ -40,8 +40,6 @@ ht-degree: 77%
    + [Confronto tra Customer Journey Analytics e soluzioni BI](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics e Adobe Analytics {#compare-aa-cja}
-   + [Evoluzione da Adobe Analytics](../getting-started/aa-to-cja.md)
-   + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
    + Migra al Customer Journey Analytics {#migrate-to-cja}
       + [Introduzione](/help/getting-started/cja-migration/cja-migration-getstarted.md)
       + [Scegli un percorso di migrazione](/help/getting-started/cja-migration/cja-migration-path.md)
@@ -56,6 +54,8 @@ ht-degree: 77%
       + [Ambienti di reporting virtuali e ambienti sandbox](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [Regole di elaborazione, VISTA e classificazioni rispetto alla preparazione dati](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+   + [Evoluzione da Adobe Analytics](../getting-started/aa-to-cja.md)
+   + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
 + Inserimento dei dati {#cja-data-ingestion}
    + [Panoramica sull’inserimento di dati](../data-ingestion/data-ingestion.md)
