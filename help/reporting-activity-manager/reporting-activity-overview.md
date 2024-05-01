@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 15%
+source-wordcount: '269'
+ht-degree: 16%
 
 ---
 
@@ -32,9 +32,9 @@ Reporting Activity Manager offre i seguenti vantaggi:
 
 <!-- update for CJA -->
 
-Per gestire l’attività di reporting, devi disporre del ruolo di amministratore prodotto. Per ulteriori informazioni, consulta [Ruolo di amministratore di prodotto](/help/admin/cja-access-control.md#product-admin-role) in [Controllo accesso Customer Journey Analytics](/help/admin/cja-access-control.md).
+Per gestire l’attività di reporting, devi disporre del ruolo di amministratore prodotto. Per ulteriori informazioni, consulta [Controllo accesso Customer Journey Analytics](/help/technotes/access-control.md).
 
-## Visualizza attività di reporting
+## Visualizzare l’attività di reporting
 
 Per informazioni sulla visualizzazione dell&#39;attività di reporting in Reporting Activity Manager, vedere [Visualizzare l’attività di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity.md).
 

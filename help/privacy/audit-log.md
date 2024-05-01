@@ -4,7 +4,7 @@ description: Scopri come visualizzare e gestire i registri di audit del Customer
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 65%
@@ -23,7 +23,7 @@ Questo argomento descrive i registri di audit nel Customer Journey Analytics, e 
 
 Se questa funzione è abilitata per la tua organizzazione, i registri di audit vengono raccolti automaticamente quando si verifica un’attività. Non è necessario abilitare manualmente la raccolta dei registri.
 
-Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzioni di Customer Journey Analytics, consulta [documentazione sul controllo degli accessi](../admin/cja-access-control.md).
+Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzioni di Customer Journey Analytics, consulta [documentazione sul controllo degli accessi](../technotes/access-control.md).
 
 ## Visualizza il registro di controllo nell’interfaccia utente
 

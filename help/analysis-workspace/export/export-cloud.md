@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2205'
 ht-degree: 3%
 
 ---
@@ -144,13 +144,13 @@ Assicurati che le tabelle, l’ambiente e le autorizzazioni soddisfino i seguent
 
 * **Tabelle:** Per poter essere supportate per un’esportazione di tabelle complete, tutte le tabelle devono includere almeno una dimensione nella riga e una metrica in ogni colonna.
 
-* **Ambiente:** Gli amministratori devono assicurarsi che gli indirizzi IP elencati in [Indirizzi IP utilizzati dal Customer Journey Analytics](/help/admin/ip-addresses.md) sono inclusi nel inserisco nell&#39;elenco Consentiti di installazione del firewall.
+* **Ambiente:** Assicurati che [Indirizzi IP](/help/technotes/ip-addresses.md) e [Domini](/help/technotes/domains.md) utilizzati dal Customer Journey Analytics sono consentiti tramite il firewall dell’organizzazione.
 
-* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con [!UICONTROL **Esportazione tabella completa**] le autorizzazioni assegnate per esportare tabelle complete. Per informazioni sull’assegnazione di un’autorizzazione a un profilo di prodotto nell’Admin Console, vedi [Autorizzazione di Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Controllo accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con [!UICONTROL **Esportazione tabella completa**] le autorizzazioni assegnate per esportare tabelle complete. Per informazioni sull’assegnazione di un’autorizzazione a un profilo di prodotto nell’Admin Console, vedi [Autorizzazione di Customer Journey Analytics in Admin Console](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
-  >  Utenti a cui è assegnato il [Ruolo di amministratore di prodotto](/help/admin/cja-access-control.md#product-admin-role) hanno sempre accesso all’esportazione di tabelle complete; a questi utenti non deve essere assegnato il [!UICONTROL **Esportazione tabella completa**] autorizzazione.
+  >  Utenti a cui è assegnato il [Ruolo di amministratore di prodotto](/help/technotes/access-control.md#product-admin-role) hanno sempre accesso all’esportazione di tabelle complete; a questi utenti non deve essere assegnato il [!UICONTROL **Esportazione tabella completa**] autorizzazione.
 
 
 ### Funzioni non supportate

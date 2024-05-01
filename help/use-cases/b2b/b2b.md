@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b4c77c3ef4d57aac6e914a2373b6a9169f4872df
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 73%
@@ -22,7 +22,7 @@ Questo caso d’uso B2B mostra come specificare i dati a livello di account anzi
 * Come si comporta questo account nel suo complesso rispetto a una campagna di marketing specifica, rispetto a un altro account?
 * Alcuni ruoli (come IT Manager) in un account si comportano in modo diverso rispetto allo stesso ruolo in un account diverso?
 
-Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati di [ricerca](/help/getting-started/cja-glossary.md).
+Per eseguire tutto questo, inserisci le informazioni a livello di account come set di dati di [ricerca](/help/technotes/glossary.md).
 
 Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi crea un set di dati della tabella di ricerca acquisendo dati a livello di account basati su .csv. Quindi procedi alla creazione di una connessione in Customer Journey Analytics (Customer Journey Analytics) che combina set di dati diversi, incluso quello di ricerca creato. In seguito puoi creare una visualizzazione dati e infine utilizzare tutti questi dati in Workspace.
 
@@ -32,7 +32,7 @@ Innanzitutto, crea uno schema di ricerca in Adobe Experience Platform, quindi cr
 
 ## 1. Crea lo schema di ricerca (Experience Platform)
 
-Creazione di uno schema personalizzato per [ricerca](/help/getting-started/cja-glossary.md) La tabella assicura che il set di dati utilizzato sia disponibile in Customer Journey Analytics con la configurazione corretta (tipo di record). Ti consigliamo di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#create-new-class) denominata “Ricerca”, priva di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
+Creazione di uno schema personalizzato per [ricerca](/help/technotes/glossary.md) La tabella assicura che il set di dati utilizzato sia disponibile in Customer Journey Analytics con la configurazione corretta (tipo di record). Ti consigliamo di [creare una classe di schema personalizzata](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#create-new-class) denominata “Ricerca”, priva di qualsiasi elemento, che può essere riutilizzata per tutte le tabelle di ricerca.
 
 ![Finestra di dialogo Crea nuova classe.](../assets/create-new-class.png)
 
