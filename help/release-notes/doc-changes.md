@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 355052289c5e613212030b7748b6116a12455953
+source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
 workflow-type: tm+mt
-source-wordcount: '3355'
-ht-degree: 64%
+source-wordcount: '3461'
+ht-degree: 62%
 
 ---
 
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Maggio 2024** | |
+| Nuova documentazione per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni di aggiornamento e molte considerazioni da tenere a mente in base all’implementazione Adobe Analytics corrente e agli obiettivi a lungo termine di un’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente di un’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | **Aprile 2024** | |
 | Previsione delle tecniche statistiche | È stato aggiunto un articolo che descrive [tecniche statistiche utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Sono state aggiunte informazioni sulla raccomandazione dell’esportazione di tabelle complete per dimensioni ad alta cardinalità | Punto elenco aggiunto in [Best practice per dimensioni ad alta cardinalità](/help/components/dimensions/high-cardinality.md) per consigliare l’utilizzo di Esportazione tabella completa per dimensioni ad alta cardinalità. |
