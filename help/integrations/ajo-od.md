@@ -4,8 +4,8 @@ description: Inserire i dati generati da,la gestione delle decisioni di Adobe Jo
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
+source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
+workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 100%
 
@@ -73,12 +73,12 @@ Per ottenere una parità approssimativa con metriche simili nella gestione delle
 | Tipo di evento (rinomina per fare riferimento a un evento specifico, ad esempio `Feedback` per `message.feedback`) [1] | Quantità di un tipo specifico di evento | `eventType` | Tipo di componente: metrica <br/>**[!UICONTROL Set Include Exclude Values]**: attivato<br/>**[!UICONTROL Match]**: [!UICONTROL If all criteria are met]<br/>**[!UICONTROL Criteria]**:**[!UICONTROL Equals]**`message.feedback` |
 | Punteggio opzione di decisione | Valore calcolato per un’opzione di decisione nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Tipo di componente: metrica |
 | Punteggio opzione decisione di fallback | Valore calcolato per un’opzione di decisione di fallback nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo di componente: metrica |
-| Offerte ignorate | Il numero di offerte ignorate o rifiutate senza altre interazioni dirette. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo di componente: metrica |
+| Offerte ignorate | Il numero di offerte ignorate o rifiutate senza altre interazioni dirette. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |
 | Offerte visualizzate | Il numero di offerte visualizzate nel profilo. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo di componente: metrica |
 | Offerte interattive | Il numero di offerte visualizzate nel profilo. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo di componente: metrica |
 | Offerte inviate | Il numero di offerte inviate al profilo. | `_experience.decisioning.`<br/>`propositionEventType.send` | Tipo di componente: metrica |
 | Trigger offerte | Il numero di offerte scelte per essere visualizzate dall’SDK client. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo di componente: metrica |
-| Annullamento dell’abbonamento alle offerte | Numero di offerte richieste dal profilo da non mostrare in futuro. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo di componente: metrica |
+| Annullamento dell’abbonamento alle offerte | Numero di offerte richieste dal profilo da non mostrare in futuro. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Tipo di componente: metrica |
 
 {style="table-layout:auto"}
 
