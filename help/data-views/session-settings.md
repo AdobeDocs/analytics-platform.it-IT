@@ -5,20 +5,20 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 89%
 
 ---
 
 # Impostazioni di sessione
 
-Le impostazioni di sessione nelle visualizzazioni dati cambiano il modo in cui Customer Journey Analytics calcola le sessioni provenienti dai dati presenti nella connessione.
+Al Customer Journey Analytics, puoi definire una sessione in qualsiasi modo per far corrispondere il modo in cui le persone interagiscono con le tue esperienze digitali. Puoi configurare le impostazioni della sessione all’interno di una visualizzazione dati.
 
-All’interno della scheda di **[!UICONTROL Settings]** Visualizzazioni dati, puoi definire una sessione in qualsiasi modo per far corrispondere il modo in cui le persone interagiscono con le tue esperienze digitali. Le definizioni delle impostazioni di sessione sono non distruttive e non alterano i dati sottostanti. Puoi impostare visualizzazioni dati multiple (ciascuna con la propria definizione di impostazioni di sessione specifica) come base per i progetti Workspace.
+Le definizioni delle impostazioni di sessione sono non distruttive e non alterano i dati sottostanti. Puoi impostare visualizzazioni dati multiple (ciascuna con la propria definizione di impostazioni di sessione specifica) come base per i progetti Workspace.
 
-Per definire il contesto di una sessione per una visualizzazione dati:
+Per definire il contesto di una sessione all’interno di una visualizzazione dati:
 
 1. Seleziona **[!UICONTROL Data views]** nell’interfaccia utente di Customer Journey Analytics.
 

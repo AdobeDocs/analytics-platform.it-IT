@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '1810'
-ht-degree: 85%
+source-wordcount: '1821'
+ht-degree: 84%
 
 ---
 
-# Inserire e utilizzare i dati utilizzando i connettori di origine.
+# Inserire e utilizzare i dati utilizzando i connettori di origine
 
 Questa guida introduttiva spiega come inserire dati in Adobe Experience Platform utilizzando un connettore di origine per un provider di dati e quindi utilizzarli in Customer Journey Analytics.
 
@@ -218,43 +218,43 @@ Per creare la connessione:
 
 1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
 
-2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
+1. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
-3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
+1. Nella schermata **[!UICONTROL Untitled connection]** (Connessione senza titolo):
 
-   Assegna un nome e una descrizione alla connessione in [!UICONTROL Connection Settings] (Impostazioni della connessione).
+   1. Assegna un nome e una descrizione alla connessione in **[!UICONTROL Connection Settings]** (Impostazioni della connessione).
 
-   Seleziona la sandbox corretta dall’elenco [!UICONTROL Sandbox] in [!UICONTROL Data settings] (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco [!UICONTROL Average number of daily events] (Numero medio di eventi giornalieri).
+   1. Seleziona la sandbox corretta dall’elenco **[!UICONTROL Sandbox]** in **[!UICONTROL Data settings]** (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco **[!UICONTROL Average number of daily events]** (Numero medio di eventi giornalieri).
 
-   ![Impostazioni della connessione](./assets/cja-connections-1.png)
+      ![Impostazioni della connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   1. Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
 
-   Nel passaggio [!UICONTROL Select datasets] (Seleziona set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+1. Nel passaggio **[!UICONTROL Select datasets]** (Seleziona set di dati) in **[!UICONTROL Add datasets]** (Aggiungi set di dati):
 
-   - Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset` (Set di dati di fidelizzazione di esempio)) e qualsiasi altro set di dati da includere nella connessione.
+   1. Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset` (Set di dati di fidelizzazione di esempio)) e qualsiasi altro set di dati da includere nella connessione.
 
-     ![Aggiungere set di dati](./assets/cja-connections-2.png)
+      ![Aggiungere set di dati](./assets/cja-connections-2.png)
 
-   - Seleziona **[!UICONTROL Next]** (Avanti).
+   1. Seleziona **[!UICONTROL Next]** (Avanti).
 
-   Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+1. Nel passaggio **[!UICONTROL Datasets settings]** (Impostazioni set di dati) in **[!UICONTROL Add datasets]** (Aggiungi set di dati):
 
-   - Per ogni set di dati:
+   Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL Person ID] (ID persona) tra le identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+   1. Seleziona un [!UICONTROL Person ID] (ID persona) tra le identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dall’elenco [!UICONTROL Data source type] (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
+   1. Seleziona l’origine dati corretta dall’elenco [!UICONTROL Data source type] (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
 
-      - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
+   1. Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
 
-     ![Configurare i set di dati](./assets/cja-connections-3.png)
+      ![Configurare i set di dati](./assets/cja-connections-3.png)
 
-   - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   1. Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
 
-   Seleziona **[!UICONTROL Save]** (Salva).
+   1. Seleziona **[!UICONTROL Save]** (Salva).
 
-Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).
+Dopo aver creato un’ [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezione e combinazione di set di dati](/help/connections/combined-dataset.md), [controllo dello stato dei set di dati di una connessione e dello stato di acquisizione dei dati](/help/connections/manage-connections.md), e altro ancora.
 
 ## Configurare una visualizzazione dati
 

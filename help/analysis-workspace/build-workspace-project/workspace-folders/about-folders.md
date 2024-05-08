@@ -5,10 +5,10 @@ title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le c
 
 Quando accedi a Workspace, nella pagina Home Progetti viene visualizzato un elenco dei progetti, insieme alla cartella aziendale e alle cartelle personali create.
 
-![Pagina Home del progetto in cui sono elencati i progetti e la cartella dell’azienda.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![Home page Progetti](../assets/landing-page2.png)
 
 ## Informazioni sulla cartella aziendale {#company-folder}
 
@@ -34,7 +34,6 @@ In qualità di amministratore, puoi condividere rapidamente i progetti con tutti
 
 Quando un utente accede a Workspace, la cartella aziendale viene aggiunta automaticamente all’elenco dei progetti e delle cartelle. Non esistono autorizzazioni specifiche per i progetti contenuti nella cartella aziendale.
 
-
 ### Opzioni di amministrazione {#admin-options}
 
 Gli amministratori dispongono di privilegi speciali assegnati alla cartella aziendale. Ad esempio, solo gli amministratori possono aggiungere o rimuovere cartelle o progetti nella cartella aziendale. Gli utenti senza accesso amministratore possono visualizzare il contenuto della cartella aziendale.
@@ -43,7 +42,7 @@ Gli amministratori dispongono di privilegi speciali assegnati alla cartella azie
 
 Gli utenti che non sono amministratori hanno opzioni limitate.
 
-![Pagina Progetti che mostra le opzioni non amministratore per le cartelle.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![Pagina Progetti che mostra le opzioni non amministratore per le cartelle.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### Linee guida per la cartella aziendale {#company-folder-guidelines}
 
@@ -53,6 +52,6 @@ Gli utenti che non sono amministratori hanno opzioni limitate.
 
 - Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti.
 
-- Quando un amministratore sposta un progetto nella cartella aziendale, il progetto viene condiviso con tutti anche se i privilegi condivisi originali erano limitati.
+- Quando un amministratore sposta un progetto nella cartella dell’azienda, il progetto viene condiviso con tutti gli utenti **Modifica copia** anche se i privilegi condivisi originali erano limitati.
 
 - Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
