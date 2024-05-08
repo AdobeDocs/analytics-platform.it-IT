@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
 source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1649'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Customer Journey Analytics utilizza un’architettura proprietaria potente che d
 
 * **Applicazione rapida di percorsi e filtri complessi**: il motore di reporting funziona su set di dati gerarchici parzialmente ordinati (ad esempio, persona -> sessioni -> eventi). Tutti i dati di un oggetto di primo livello (profili individuali) si trovano su un singolo nodo di elaborazione per ottenere risultati precisi. Questo partizionamento consente di applicare rapidamente percorsi e filtri complessi. Le operazioni complesse, come la creazione di sessioni, l’attribuzione, la persistenza dello stato degli attributi di dati e le opzioni di manipolazione dei dati complesse, vengono eseguite su larga scala con tempi di reporting rapidi. Nelle soluzioni BI, questo tipo di operazioni in genere richiede la creazione di nuovi cubi OLAP per ogni caso d’uso. Il motore di reporting di Customer Journey Analytics consente l’accesso illimitato all’intero set di dati su ogni query, con conseguenti dati completamente correlati senza bisogno di alcun cubing in anticipo.
 
-* **Query efficiente di flussi di dati complessi**: una delle principali differenze del motore di reporting rispetto ai database SQL e NoSQL tradizionali è la capacità di determinare i predicati in base a relazioni orientate alla sequenza a un livello fondamentale. Queste operazioni di query fondamentali possono esaminare il flusso di record, che è composto da molte sequenze con interfoliazione (e anche nidificate). Eseguono una query su tutti questi flussi di dati interconnessi con l’efficienza di un’unica operazione a sequenza contigua.
+* **Query efficiente di flussi di dati complessi**: una delle differenze principali tra i motori di reporting di database SQL tradizionali e NoSQL è la capacità di determinare i predicati in base a relazioni orientate a una sequenza a un livello fondamentale. Queste operazioni di query fondamentali possono esaminare il flusso di record, che è composto da molte sequenze con interfoliazione (e anche nidificate). Eseguono una query su tutti questi flussi di dati interconnessi con l’efficienza di un’unica operazione a sequenza contigua.
 
 * **Progettato per rispondere rapidamente a query di grandi dimensioni**: il motore di reporting non ha lo stesso scopo generale dei sistemi di Big Data tradizionali. Tuttavia, è progettato specificamente per rispondere a query che si estendono su milioni o persino miliardi di record (dati evento / eventi di esperienza), generalmente in meno di un secondo. A differenza di altri sistemi di Big Data, non lo fa campionando i dati o precompilando le risposte a tutte le domande che si potrebbero fare. Al contrario, è in grado di calcolare le risposte abbastanza rapidamente da supportare i casi d’uso di query interattive. Questo design specifico del motore di reporting di Customer Journey Analytics facilita la disponibilità dei dati e l’analisi e l’esplorazione continue ad alta velocità, consentendoti quindi di acquisire progressivamente approfondimenti e informazioni sui percorsi dei clienti.
 
