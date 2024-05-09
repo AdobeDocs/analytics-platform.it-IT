@@ -5,10 +5,10 @@ feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 45%
+ht-degree: 70%
 
 ---
 
@@ -29,36 +29,36 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 | Impostazione | Descrizione |
 | --- | --- |
 | Giorni selezionati | Giorni/settimane/mesi/anni selezionati |
-| Uso delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Ad esempio, vai [qui](/help/components/date-ranges/custom-date-ranges.md). |
+| Utilizzare date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Ad esempio, vai [qui](/help/components/date-ranges/custom-date-ranges.md). |
 | Intervallo date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. **[!UICONTROL This week/month/quarter/year (excluding today)]** consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
 | Applica | Applica l’intervallo di date solo al pannello corrente. |
 
-## Informazioni sugli intervalli di date del pannello relativo {#relative-panel-dates}
+## Informazioni sugli intervalli di date relativi al pannello {#relative-panel-dates}
 
-Se lavori in Workspace, puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Tre casi d’uso comuni in cui vedrai che le date del pannello relativo diventano effettive sono i grafici combinati, il riepilogo delle metriche chiave e gli intervalli di date delle tabelle a forma libera.
+Se lavori in Workspace, puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Tre casi d’uso comuni in cui vengono applicate le date relative al pannello sono i grafici combinati, il riepilogo delle metriche chiave e gli intervalli di date delle tabelle a forma libera.
 
-Per utilizzare gli intervalli di date del pannello relativo
+Per utilizzare gli intervalli di date relativi al pannello
 
-1. Seleziona la **Workspace** scheda.
+1. Seleziona la scheda **Workspace**.
 1. Seleziona **Progetto vuoto**.
 1. Aggiungi dimensioni, metriche e filtri dalla barra a sinistra.
-1. Fai clic sul campo intervallo date del pannello per attivare/disattivare l’impostazione dell’intervallo date del pannello relativo.
-1. Seleziona **Rendi i componenti dell’intervallo di date relativi al calendario del pannello**.
+1. Fai clic sul campo per intervallo di date del pannello per attivare/disattivare l’impostazione dell’intervallo di date relative al pannello.
+1. Seleziona **Rendi i componenti di intervallo di date relativi al calendario del pannello**.
    * Seleziona l’opzione per rendere i componenti dell’intervallo di date relativi al calendario del pannello.
-Se sono selezionate date relative, le date continue verranno basate sulla data di inizio del calendario del pannello e non sulla data odierna.
-   * Se questa opzione non è selezionata, le date di rotazione saranno basate sulla data odierna.
+Se vengono selezionate date relative, le date continue verranno basate sulla data di inizio del calendario del pannello e non su quella odierna.
+   * Se questa opzione non è selezionata, le date continue saranno basate sulla data odierna.
 
    ![Calendario con componenti di intervallo date selezionati relativi al calendario del pannello](assets/relative-date-selected.png){width="60%"}
 
-1. Clic **Applica**.
+1. Fai clic su **Applica**.
 Le date relative sono visualizzate in alto a destra.
 
    ![Tabella a forma libera con date relative evidenziate e Ultimo mese evidenziato. ](assets/relative-date-range1.png)
 
-## Linee guida per intervalli di date relativi del pannello {#guidelines}
+## Linee guida per gli intervalli di date relative del pannello {#guidelines}
 
-Quando utilizzi intervalli di date relativi per il pannello, tieni presenti le seguenti linee guida.
+Quando utilizzi gli intervalli di date relativi del pannello, tieni presenti le seguenti linee guida.
 
 ### Formule e intervalli di date relativi {#formula-relative-dates}
 
@@ -66,7 +66,7 @@ Se hai selezionato date relative, tutte le formule di date utilizzeranno la data
 
 ### Calendari personalizzati e intervalli di date relativi {#custom-calendar-formulas}
 
-Quando si utilizza un calendario personalizzato basato su settimane e si aggiungono mesi o anni, la formula calcola lo scostamento del giorno nel periodo specificato. La data effettiva può essere diversa a causa dell&#39;offset. La formula sceglie il giorno di destinazione nello stesso punto del calendario personalizzato. Ad esempio, il terzo venerdì della terza settimana in un calendario personalizzato.
+Quando si utilizza un calendario personalizzato basato su settimane e si aggiungono mesi o anni, la formula calcola l’offset del giorno nel periodo specificato. La data effettiva può essere diversa a causa dell’offset. La formula sceglie il giorno di destinazione nello stesso punto del calendario personalizzato. Ad esempio, il terzo venerdì della terza settimana in un calendario personalizzato.
 
 ### Informazioni sui filtri che utilizzano date continue e intervalli di date del pannello relativo {#segments-relative-dates}
 
