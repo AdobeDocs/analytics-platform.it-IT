@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2721'
 ht-degree: 1%
 
 ---
@@ -312,6 +312,11 @@ Il `daterange` la colonna speciale funziona in modo simile a  `timestamp`Tuttavi
 Il `daterange` Questo campo può essere utilizzato anche nelle funzioni data/ora per analizzare o troncare la data evento.
 
 Il `daterangeName` una colonna speciale può essere utilizzata per filtrare la query utilizzando un intervallo di date denominato come `Last Quarter`.
+
+>[!NOTE]
+>
+>Power BI non supporta `daterange` metriche inferiori a un giorno (ora, 30 minuti, 5 minuti, ecc.).
+
 
 #### ID filtro
 
