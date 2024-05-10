@@ -1,16 +1,16 @@
 ---
-title: Casi di utilizzo dei feed dati
+title: Casi d’uso per l’esportazione di dati
 description: Comprendere vari casi di utilizzo dell’esportazione di dati per il Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 19018e31bb2a46e88a27643fe10c388b40de243e
+exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
+source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
 
 ---
-
 
 # Casi d’uso per l’esportazione di dati
 
@@ -77,4 +77,3 @@ In generale, l’esportazione dei dati supporta una serie di casi d’uso. Ogni 
 | **Convalida dei dati**<br/> Valuta i dati clickstream per una raccolta accurata dei dati. | **Experience Platform**: [**Servizio query (Data Distiller) ed esporta set di dati**](queryservice-export-datasets.md)<br/> Interfaccia interattiva PostgreSQL per eseguire query SQL ad hoc utilizzando lo strumento SQL preferito per convalidare i dati nei set di dati.<br/><br/>**Customer Journey Analytics**: [**Esporta tabella completa**](export-full-table.md)<br/> Convalida i dati elaborati da CJA con attribuzione e sessionizzazione applicate. |
 | **Strumenti Data Lake, Data Warehouse o BI**<br/> Inserisci dati digitali nei tuoi strumenti di business intelligence o nel Data Lake per utilizzarli con set di dati aggiuntivi. | **Customer Journey Analytics**: [**Estensione BI**](bi-extension.md)<br/> Aggiungere metriche elaborate dal Customer Journey Analytics a strumenti di visualizzazione dei dati come Power BI e combinarle con dati aggiuntivi per rapporti personalizzati <br/><br/>**Experience Platform**: [**Servizio query (Data Distiller) ed esporta set di dati**](queryservice-export-datasets.md)<br> Genera dati clickstream personalizzati utilizzando SQL da consegnare alle destinazioni cloud. |
 | **Preparazione per IA/ML**<br/> Migliora i modelli e le attività di intelligenza artificiale/apprendimento automatico con i dati di Customer Journey Analytics. | **Customer Journey Analytics**: [**Esporta tabella completa**](export-full-table.md)<br/> Esporta metriche e dimensioni elaborate dal Customer Journey Analytics in destinazioni cloud una tantum o ricorrenti, incluse metriche calcolate e segmentazione.<br/><br/>**Experience Platform**: [**Servizio query (Data Distiller) ed esporta set di dati**](queryservice-export-datasets.md)<br/> Genera dati clickstream personalizzati utilizzando SQL per arricchire modelli AI/ML. |
-
