@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
+source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # Casi d’uso per l’esportazione di dati
 
-Questa sezione fornisce casi d’uso per l’esportazione di dati. Ogni caso d’uso è descritto nel proprio articolo. Per alcuni casi d’uso, viene fornita più di una soluzione.
+Questa sezione fornisce casi d’uso per l’esportazione di dati e come implementarli con una o più funzionalità di Customer Journey Analytics o Experience Platform. Ogni funzionalità è descritta in un articolo separato.
 
 ## Introduzione
 
@@ -67,7 +67,7 @@ Per coerenza metrica, è preferibile utilizzare le nuove funzioni di Customer Jo
    * imposta gli avvisi per i problemi di consegna e i limiti per le finestre di consegna pianificate.
 
 
-## Casi d’uso e soluzioni
+## Casi d’uso e funzionalità
 
 In generale, l’esportazione dei dati supporta una serie di casi d’uso. Ogni caso d’uso è diverso in termini di dati richiesti e di modalità di accesso ed esportazione di tali dati. Experience Platform e Customer Journey Analytics forniscono una serie di funzionalità che, indipendentemente o in combinazione, possono risolvere i vari casi d’uso. La tabella seguente fornisce una panoramica dei casi d’uso identificati per l’esportazione dei dati e delle funzionalità di Experience Platform e Customer Journey Analytics per implementare questi casi d’uso.
 
