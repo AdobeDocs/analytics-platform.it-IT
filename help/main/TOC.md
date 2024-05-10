@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: d1497c20c0e986ae27fd7c64a14fd92630081650
+source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 77%
+source-wordcount: '1102'
+ht-degree: 76%
 
 ---
 
@@ -344,6 +344,12 @@ ht-degree: 77%
    + Visualizzazioni dati {#data-views}
       + [Casi d’uso per le visualizzazioni dati](../use-cases/data-views/data-views-usecases.md)
       + [Utilizzare dimensioni e metriche di binding](../use-cases/data-views/binding-dimensions-metrics.md)
+   + Esportazione dati {#data-export}
+      + [Panoramica](../use-cases/data-export/overview.md)
+      + [Estensione BI](../use-cases/data-export/bi-extension.md)
+      + [Esportare i set di dati](../use-cases/data-export/export-datasets.md)
+      + [Esporta tabella completa](../use-cases/data-export/export-full-table.md)
+      + [Query Service ed esportazione di set di dati](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
       + [Un esempio di progetto B2B](../use-cases/b2b/example.md)
       + [Aggiungere dati a livello di account come set di dati di ricerca](../use-cases/b2b/b2b.md)
@@ -353,7 +359,6 @@ ht-degree: 77%
    + Dati Adobe Analytics {#aa-data}
       + [Utilizzare le dimensioni del canale di marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinare suite di rapporti con schemi diversi](../use-cases/aa-data/combine-report-suites.md)
-      + [Emulazione dei feed dati](../use-cases/emulating-data-feeds.md)
    + Dati complessi {#complex-data}
       + [Utilizzare gli array di oggetti](../use-cases/object-arrays.md)
    + Campi derivati {#derived-fields}
