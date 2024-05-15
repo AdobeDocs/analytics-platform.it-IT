@@ -1,44 +1,49 @@
 ---
 title: Visualizzazione Coinvolgimento
-description: Comprendi l’ampiezza e l’ampiezza del coinvolgimento delle funzioni.
+description: Comprendi l’ampiezza e la profondità del coinvolgimento delle funzioni.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
+source-git-commit: fda9b262ff4f0f0804354e5307c1cf885032e781
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Engagement] visualizza
 
-Il **[!UICONTROL Engagement]** Questa vista fornisce informazioni sulla frequenza di utilizzo di una funzione rispetto al numero di persone che la utilizzano. Questa analisi funziona meglio quando si confrontano diverse feature tra loro.
+Il **[!UICONTROL Engagement]** Questa vista fornisce informazioni sulla frequenza di utilizzo di una funzione rispetto al numero di persone che la utilizzano. Questa analisi funziona al meglio quando si confrontano diverse funzioni tra loro e aiuta ad alimentare le decisioni di investimento comprendendo quali sono le caratteristiche principali, di potenza, una tantum e discutibili.
 
-Le funzioni che tracciano la parte superiore di questa visualizzazione indicano che viene visitata frequentemente tra gli individui che la utilizzano. Le feature tracciate verso destra di questa visualizzazione indicano che la percentuale maggiore di utenti che interagisce con la feature è rappresentata da. Il numero mediano di volte in cui una feature viene utilizzata divide il grafico orizzontalmente. La percentuale mediana di utenti attivi giornalieri divide il grafico verticalmente.
+Le funzioni che tracciano la parte superiore di questa visualizzazione indicano che vengono utilizzate di frequente tra gli utenti coinvolti. Le funzioni che tracciano la parte destra di questa visualizzazione indicano che sono ampiamente adottate tra gli utenti attivi. Il numero mediano di volte in cui una feature viene utilizzata divide il grafico orizzontalmente. La percentuale mediana di utenti attivi divide il grafico verticalmente. Nota: le mediane vengono calcolate in base agli eventi selezionati nella query, non a tutti i dati.
 
-* Le funzioni in alto a sinistra nella matrice indicano che una funzione non è ampiamente adottata. Tuttavia, tra gli individui che lo usano, lo usano frequentemente.
-* Le funzioni in alto a destra nella matrice indicano che una funzione è ampiamente adottata e spesso utilizzata.
-* Le funzioni in basso a destra nella matrice indicano che una funzione è ampiamente adottata, ma non utilizzata di frequente.
-* Le funzioni in basso a sinistra nella matrice indicano che una funzione non è ampiamente adottata, né viene utilizzata di frequente.
+* Le funzioni in alto a sinistra nella matrice sono **alimentazione** caratteristiche; non sono ampiamente adottate, ma sono spesso utilizzate dagli utenti coinvolti.
+* Le funzionalità in alto a destra della matrice sono **forte impatto** caratteristiche; sono ampiamente adottati e utilizzati di frequente.
+* Le funzioni in basso a sinistra nella matrice sono **impatto ridotto** caratteristiche; non sono ampiamente adottate, né utilizzate frequentemente.
+* Le funzioni in basso a destra della matrice sono **una tantum** caratteristiche; sono ampiamente adottati, ma non utilizzati di frequente.
 
 ## Casi d’uso
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **Coinvolgimento per funzione**: puoi stabilire una correlazione diretta tra il coinvolgimento e l’adozione di una funzione specifica. Capire quali feature vengono utilizzate maggiormente può aiutare a determinare quali feature dare priorità all&#39;ottimizzazione.
-* **Scopri le funzioni sottoutilizzate**: caratteristiche con utenti attivi giornalieri bassi, ma un utilizzo elevato può indicare una funzione nascosta ma preziosa. Esamina l’esposizione di questi tipi di funzioni a più utenti.
-* **Migliorare le funzioni più comuni**: funzionalità con utenti attivi elevati ma poco utilizzate possono indicare che una funzionalità è fortemente richiesta, ma sottoutilizzata. Valuta l’opportunità di investire nel miglioramento di queste funzioni in modo che vengano utilizzate più spesso.
-* **Creare segmenti basati su funzioni**: l’analisi della frequenza di utilizzo di una funzione rispetto al numero di utenti che la adottano può aiutare a determinare i tipi di utenti che adottano una determinata funzione. Puoi creare segmenti in base agli utenti che utilizzano una funzione in modo occasionale o in base agli utenti che utilizzano frequentemente tale funzione.
-* **Adozione di funzioni test A/B**: confronta l’utilizzo di più funzioni utilizzando i segmenti. Aggiungi i segmenti di ciascuna coorte nella barra delle query per determinare facilmente la differenza nell’utilizzo delle funzioni.
+* **Coinvolgimento per funzione**: puoi stabilire una correlazione diretta tra il coinvolgimento e l’adozione di una funzione specifica. Capire quali funzioni vengono utilizzate di più può aiutare a determinare quali funzioni investire ulteriormente.
+* **Scopri le funzioni sottoutilizzate**: caratteristiche con utenti poco attivi ma un utilizzo elevato possono indicare una funzione di alimentazione, che è preziosa ma non scoperta o utilizzata dalla popolazione più ampia. Valuta se migliorare la reperibilità di queste funzioni in modo che più utenti le sfruttino.
+* **Migliorare le funzioni più comuni**: funzionalità con utenti attivi elevati ma poco utilizzate possono indicare che una funzionalità è fortemente richiesta, ma sottoutilizzata. Offrono l’opportunità di imparare di più dagli utenti su quali miglioramenti renderebbero la funzione più utile.
+* **Creare segmenti basati su funzioni**: visualizzando in questo modo l’utilizzo delle funzioni si ottengono ulteriori opportunità di analisi. Crea un segmento per qualsiasi punto del grafico per immergerti ulteriormente in tale gruppo di utenti e applicare tali insegnamenti alla tua strategia di coinvolgimento degli utenti.
+* **Adozione di funzioni test A/B**: confronta l’utilizzo di più funzioni tra diversi gruppi di utenti. Aggiungi segmenti nella barra delle query per determinare la differenza nell’utilizzo delle funzioni tra i diversi gruppi di utenti chiave.
 
 ## Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL Events]**: gli eventi che desideri misurare. Questi eventi rappresentano in genere l’utilizzo di una determinata funzione. Ogni selezione è rappresentata come un punto all&#39;interno della matrice. Puoi includere fino a dieci eventi.
-* **[!UICONTROL Counted as]**: determina i dettagli del conteggio degli utenti sull’asse x. Puoi misurare la percentuale media di utenti attivi giornalieri, settimanali, mensili o trimestrali. L’asse y regola automaticamente i tempi medi per utente in base alla selezione dell’asse x.
+* **[!UICONTROL Events]**: gli eventi che desideri misurare e che rappresentano l’utilizzo di una determinata funzione. Ogni selezione è rappresentata come un punto all&#39;interno della matrice. Puoi includere fino a dieci eventi. La mediana viene calcolata in base agli eventi selezionati.
+* **[!UICONTROL Counted as]**: lungo l’asse x, puoi misurare la percentuale media di utenti attivi giornalieri, settimanali, mensili o trimestrali. L’asse y regola automaticamente i tempi medi per utente in base alla selezione dell’asse x.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di punti tracciati nel grafico e le righe nella tabella. Puoi includere fino a tre segmenti.
+
+>[!TIP]
+>
+>Se l’utilizzo di una funzione è rappresentato da molti eventi che si verificano, puoi derivare un nuovo evento che rappresenta la funzione utilizzata nelle Visualizzazioni dati.
 
 ## Impostazioni grafico
 
@@ -47,7 +52,7 @@ Il [!UICONTROL Engagement] visualizza offre le seguenti impostazioni del grafico
 * **[!UICONTROL Medians]**: determina dove vengono visualizzate le linee mediane e come i punti tracciati si relazionano a tali mediane.
    * **[!UICONTROL Standard]**: mostra il valore assoluto di utilizzo e coinvolgimento.
    * **[!UICONTROL Normalized]**: mostra le modifiche relative da ogni mediana.
-* **[!UICONTROL Top events overlay]**: osserva come stanno andando gli eventi rispetto agli eventi più comuni.
+* **[!UICONTROL Top events overlay]**: scopri il comportamento degli eventi rispetto ai primi 20, in base all’attualità e alla rilevanza dell’azienda e dell’utente (lo stesso algoritmo applicato al selettore di eventi nella barra delle query).
 
 ## Confronto temporale
 
