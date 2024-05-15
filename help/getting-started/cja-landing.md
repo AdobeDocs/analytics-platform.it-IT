@@ -4,31 +4,55 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 59%
 
 ---
 
 # Guida di Customer Journey Analytics
 
-Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer Journey Analytics. Customer Journey Analytics consente di raccogliere in Adobe Experience Platform i dati cliente da un qualsiasi canale scelto (online e offline) e quindi di analizzarli in modo analogo all’attuale analisi dei dati digitali esistenti tramite Analysis Workspace.
+Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer Journey Analytics. Il Customer Journey Analytics consente di raccogliere in Adobe Experience Platform i dati del cliente da un qualsiasi canale scelto (online e offline). E quindi analizza questi dati esattamente come faresti con i tuoi dati digitali esistenti utilizzando oggi stesso Analysis Workspace.
 
-Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, per poter poi eseguire attività di attribuzione, filtri, segmentazione, flusso, abbandono, e così via, tra i dati cliente.
+Il Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, consentendoti di eseguire attività di attribuzione, filtri, flusso, abbandono, ecc. tra i dati cliente.
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](../release-notes/doc-changes.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Visita il [pagina aggiornamenti della documentazione](../release-notes/doc-changes.md) per rimanere aggiornato sulle ultime modifiche.
 
 >[!BEGINTABS]
+
+>[!TAB Estensione BI*]
+
+L&#39;estensione BI consente l&#39;accesso SQL alle visualizzazioni dati definite nel Customer Journey Analytics. Ora puoi utilizzare il tuo strumento BI preferito per creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti del Customer Journey Analytics con i loro progetti Analysis Workspace.
+
+[![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
+
+<span style="color:gray">*_Per utilizzare l’estensione BI, è necessario disporre del pacchetto Select o di una versione successiva._</span>
+
+
+<!--
+>[!TAB Improved Audience Publising] 
+
+Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
+
+[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
+
+-->
+
+
+>[!TAB Nuova documentazione]
+
+La nuova documentazione è ora disponibile su:<ul><li>Come effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.</li><li>Casi d’uso per l’esportazione di dati e funzionalità di Experience Platform e Percorso del cliente richieste. </li></ul>Seleziona **[!UICONTROL Learn more]** per questo e altri aggiornamenti della documentazione.
+
+[![immagine](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!TAB Previsione]
 
 La previsione è una funzione di Analysis Workspace che consente di prevedere una metrica standard o calcolata con qualsiasi granularità temporale supportata (oraria, giornaliera, settimanale, mensile e annuale). La previsione è disponibile solo per i dati relativi alle serie temporali.
 
 [![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
 
 >[!TAB Analisi guidata*: tassi di conservazione]
 
@@ -47,13 +71,6 @@ Le sovrapposizioni delle linee di tendenza sono ora disponibili nella visualizza
 
 <span style="color:gray">*_L’analisi guidata fa parte di Adobe Product Analytics, un componente aggiuntivo a pagamento di Customer Journey Analytics._</span>
 
-
->[!TAB Visualizzazione di riepilogo delle metriche chiave]
-
-Quando si utilizza la visualizzazione di Riepilogo delle metriche chiave, l’intervallo date di confronto può essere ora aggiornato automaticamente, in base a se l’opzione di intervallo date di confronto che si sceglie sia relativa all’intervallo date principale o fisso.
-
-[![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
-
 >[!ENDTABS]
 
 ## Inizia con le nozioni di base
@@ -68,7 +85,7 @@ Inizia consultando il materiale incluso nei collegamenti riportati di seguito pe
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>Acquisire e utilizzare i dati</strong><br/> Scopri le opzioni necessarie per acquisire i dati in Experience Platform e utilizzarli per l’analisi e il reporting in Customer Journey Analytics.</div>
+    <div><strong>Acquisire e utilizzare i dati</strong><br/>Scopri le opzioni necessarie per acquisire i dati in Experienci Platform e utilizzarli per l’analisi e il reporting in Customer Journey Analytics.</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
@@ -90,7 +107,7 @@ Inizia consultando il materiale incluso nei collegamenti riportati di seguito pe
 
 ## Esplora la documentazione
 
-Informazioni sul confronto tra Customer Journey Analytics e Adobe Analytics e su come inserire i dati nella soluzione e quindi preparare, visualizzare, analizzare e democratizzare tali dati e le analisi e i rapporti risultanti.
+Comprendi il confronto tra Customer Journey Analytics e Adobe Analytics. E come inserire i dati nella soluzione e quindi preparare, visualizzare, analizzare e democratizzare tali dati e le analisi e i rapporti risultanti.
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -111,7 +128,7 @@ Informazioni sul confronto tra Customer Journey Analytics e Adobe Analytics e su
   <tr style="border: 0;">
     <td>
       <img src="./assets/workspace.svg" width="35px"><br/>
-      <strong>Progetti Workspace</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Analisi di base </a> e <a href="/help/analysis-workspace/perform-adv-analysis.md">avanzata</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Progetti</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualizzazioni</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Pannelli</a>
+      <strong>Progetti Workspace</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Base</a> E <a href="/help/analysis-workspace/perform-adv-analysis.md">Analisi avanzata</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Progetti</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualizzare</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Pannelli</a>
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
@@ -128,7 +145,7 @@ Informazioni sul confronto tra Customer Journey Analytics e Adobe Analytics e su
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a>
 </td>
 <td><strong>Acquisizione dei dati</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Panoramica</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Origini</a> - <a href="/help/data-ingestion/serverapi.md">API server</a>
 </td>
