@@ -5,31 +5,33 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: fda9b262ff4f0f0804354e5307c1cf885032e781
+source-git-commit: a4c35466b225d44130bb55204e2fdb155fa7dee6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Engagement] visualizza
 
-Il **[!UICONTROL Engagement]** Questa vista fornisce informazioni sulla frequenza di utilizzo di una funzione rispetto al numero di persone che la utilizzano. Questa analisi funziona al meglio quando si confrontano diverse funzioni tra loro e aiuta ad alimentare le decisioni di investimento comprendendo quali sono le caratteristiche principali, di potenza, una tantum e discutibili.
+Il **[!UICONTROL Engagement]** Questa vista fornisce informazioni sulla frequenza di utilizzo di una funzione rispetto al numero di persone che la utilizzano. Questa analisi funziona meglio quando si confrontano diverse feature tra loro. Aiuta ad alimentare le decisioni di investimento comprendendo quali sono le tue caratteristiche principali, di potenza, una tantum e discutibili.
 
-Le funzioni che tracciano la parte superiore di questa visualizzazione indicano che vengono utilizzate di frequente tra gli utenti coinvolti. Le funzioni che tracciano la parte destra di questa visualizzazione indicano che sono ampiamente adottate tra gli utenti attivi. Il numero mediano di volte in cui una feature viene utilizzata divide il grafico orizzontalmente. La percentuale mediana di utenti attivi divide il grafico verticalmente. Nota: le mediane vengono calcolate in base agli eventi selezionati nella query, non a tutti i dati.
+Le funzioni che tracciano la parte superiore di questa visualizzazione indicano che vengono utilizzate di frequente tra gli utenti coinvolti. Le funzioni che tracciano la parte destra di questa visualizzazione indicano che sono ampiamente adottate tra gli utenti attivi. Il numero mediano di volte in cui una feature viene utilizzata divide il grafico orizzontalmente. La percentuale mediana di utenti attivi divide il grafico verticalmente. Le mediane vengono calcolate in base agli eventi selezionati nella query, non a tutti i dati.
 
 * Le funzioni in alto a sinistra nella matrice sono **alimentazione** caratteristiche; non sono ampiamente adottate, ma sono spesso utilizzate dagli utenti coinvolti.
 * Le funzionalità in alto a destra della matrice sono **forte impatto** caratteristiche; sono ampiamente adottati e utilizzati di frequente.
-* Le funzioni in basso a sinistra nella matrice sono **impatto ridotto** caratteristiche; non sono ampiamente adottate, né utilizzate frequentemente.
+* Le funzioni in basso a sinistra nella matrice sono **impatto ridotto** caratteristiche; non sono ampiamente adottate o utilizzate di frequente.
 * Le funzioni in basso a destra della matrice sono **una tantum** caratteristiche; sono ampiamente adottati, ma non utilizzati di frequente.
+
+![Schermata del coinvolgimento](../assets/feature-matrix.png)
 
 ## Casi d’uso
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
 * **Coinvolgimento per funzione**: puoi stabilire una correlazione diretta tra il coinvolgimento e l’adozione di una funzione specifica. Capire quali funzioni vengono utilizzate di più può aiutare a determinare quali funzioni investire ulteriormente.
-* **Scopri le funzioni sottoutilizzate**: caratteristiche con utenti poco attivi ma un utilizzo elevato possono indicare una funzione di alimentazione, che è preziosa ma non scoperta o utilizzata dalla popolazione più ampia. Valuta se migliorare la reperibilità di queste funzioni in modo che più utenti le sfruttino.
-* **Migliorare le funzioni più comuni**: funzionalità con utenti attivi elevati ma poco utilizzate possono indicare che una funzionalità è fortemente richiesta, ma sottoutilizzata. Offrono l’opportunità di imparare di più dagli utenti su quali miglioramenti renderebbero la funzione più utile.
+* **Scopri le funzioni sottoutilizzate**: funzionalità con utenti poco attivi ma con un utilizzo elevato possono indicare una funzione di alimentazione, che è preziosa ma non scoperta o utilizzata dalla popolazione più ampia. Valuta se migliorare la reperibilità di queste funzioni in modo che più utenti le sfruttino.
+* **Migliorare le funzioni più comuni**: funzionalità con utenti attivi elevati ma poco utilizzate possono indicare che una funzionalità è fortemente richiesta, ma sottoutilizzata. In queste situazioni è possibile ottenere ulteriori informazioni dagli utenti sui miglioramenti che renderebbero la funzione più utile.
 * **Creare segmenti basati su funzioni**: visualizzando in questo modo l’utilizzo delle funzioni si ottengono ulteriori opportunità di analisi. Crea un segmento per qualsiasi punto del grafico per immergerti ulteriormente in tale gruppo di utenti e applicare tali insegnamenti alla tua strategia di coinvolgimento degli utenti.
 * **Adozione di funzioni test A/B**: confronta l’utilizzo di più funzioni tra diversi gruppi di utenti. Aggiungi segmenti nella barra delle query per determinare la differenza nell’utilizzo delle funzioni tra i diversi gruppi di utenti chiave.
 
@@ -37,13 +39,13 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL Events]**: gli eventi che desideri misurare e che rappresentano l’utilizzo di una determinata funzione. Ogni selezione è rappresentata come un punto all&#39;interno della matrice. Puoi includere fino a dieci eventi. La mediana viene calcolata in base agli eventi selezionati.
+* **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento rappresenta l’utilizzo di una determinata funzione e viene visualizzato come punto all’interno della matrice. Puoi includere fino a dieci eventi. La mediana viene calcolata in base agli eventi selezionati.
 * **[!UICONTROL Counted as]**: lungo l’asse x, puoi misurare la percentuale media di utenti attivi giornalieri, settimanali, mensili o trimestrali. L’asse y regola automaticamente i tempi medi per utente in base alla selezione dell’asse x.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di punti tracciati nel grafico e le righe nella tabella. Puoi includere fino a tre segmenti.
 
 >[!TIP]
 >
->Se l’utilizzo di una funzione è rappresentato da molti eventi che si verificano, puoi derivare un nuovo evento che rappresenta la funzione utilizzata nelle Visualizzazioni dati.
+>Se più eventi rappresentano l’utilizzo di una singola funzione, puoi derivare un nuovo evento che rappresenta la funzione nelle Visualizzazioni dati.
 
 ## Impostazioni grafico
 
