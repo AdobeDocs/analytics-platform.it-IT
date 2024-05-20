@@ -4,10 +4,10 @@ title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 22%
+source-wordcount: '397'
+ht-degree: 21%
 
 ---
 
@@ -32,6 +32,10 @@ Puoi vedere se una metrica è approvata ![Icona Approvato](https://spectrum.adob
 
 
 Le metriche sono flessibili per quanto riguarda il loro utilizzo in Analysis Workspace. Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto. Puoi anche trascinare una metrica quando è presente una dimensione per visualizzarla rispetto a ciascun elemento dimensione. Trascinare una metrica sopra un’intestazione di metrica esistente la sostituisce e trascinare una metrica accanto a un’intestazione consente di vedere entrambe le metriche una accanto all’altra.
+
+## Utilizzare le metriche in Analysis Workspace
+
+Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, consulta [Utilizzare i componenti in Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 ## Metriche calcolate
 

@@ -4,10 +4,10 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 16%
+source-wordcount: '1121'
+ht-degree: 15%
 
 ---
 
@@ -34,9 +34,11 @@ Per creare un filtro rapido:
 
 1. Scegliere uno dei metodi seguenti per iniziare a creare il filtro rapido:
 
-   * **Ad hoc (trascinamento della selezione):** Dalla barra a sinistra, trascina un componente nell’area di rilascio accanto a **Filtro** nell’intestazione del pannello, quindi seleziona la **Modifica** per regolare il filtro.
+   * **Ad hoc (trascinamento della selezione):** Dalla barra a sinistra, trascina un componente nella zona di rilascio del filtro nell’intestazione del pannello.
 
-     ![Modificare filtro ad hoc](assets/filter-adhoc-edit.png)
+     ![rilascia un segmento nella zona di rilascio](assets/filter-dropzone.png)
+
+     Puoi modificare il filtro rapido come descritto in [Modificare un filtro rapido](#edit-a-quick-filter).
 
      >[!NOTE]
      >
