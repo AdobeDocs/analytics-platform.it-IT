@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 11%
+source-wordcount: '5707'
+ht-degree: 10%
 
 ---
 
@@ -255,7 +255,7 @@ Nel caso in cui il sito riceva i seguenti eventi di esempio, contenenti [!UICONT
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -445,13 +445,13 @@ Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti 
 
 >[!NOTE]
 >
->Questa funzione era originariamente denominata Lookup ma è stata rinominata in Classify per adattarsi a una funzione di ricerca futura con funzionalità diverse.
+>Questa funzione era originariamente denominata Lookup ma è stata rinominata in Classify per adattarsi alla funzione Lookup con funzionalità diverse.
 
 ## Specifiche {#classify-io}
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>[!UICONTROL When value equals] e [!UICONTROL Replace values with]:</p><ul><li>Stringa</li></ul><li>Mostra valori originali<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>5 funzioni per campo derivato<br/>100 righe per funzione</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field to classify]:<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>[!UICONTROL When value equals] e [!UICONTROL Replace values with]:</p><ul><li>Stringa</li></ul><li>Mostra valori originali<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <ul><li>5 funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato. Ogni voce per [!UICONTROL When value equals original value] [!UICONTROL Replace value with New value] è considerato un’operazione.</li></ul> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -1307,6 +1307,12 @@ Un operatore in un costrutto If o Else If all&#39;interno di una funzione Case W
 Ad esempio, la condizione seguente utilizza 13 operatori.
 
 ![Operatori di esempio](assets/operators-sample.png)
+
+Un operatore nella funzione Classify è una voce singola per [!UICONTROL When value equal Original value] [!UICONTROL Replace value with New value].
+
+Ad esempio, la regola Classifica seguente utilizza 3 operatori.
+
+![Schermata della regola di classificazione 1](assets/classify-1.png)
 
 
 ## Ulteriori informazioni
