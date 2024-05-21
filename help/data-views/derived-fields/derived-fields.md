@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
+source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
 workflow-type: tm+mt
-source-wordcount: '5707'
+source-wordcount: '5708'
 ht-degree: 10%
 
 ---
@@ -1287,7 +1287,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | Funzione | Limitazioni |
 |---|---|
 | <p>Case When</p> | <ul><li>5 casi Quando funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
-| <p>Classifica</p> | <ul><li>5 Classificare le funzioni per campo derivato</li><li>100 righe per funzione</li></ul> |
+| <p>Classifica</p> | <ul><li>5 Classificare le funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Concatena</p> | <ul><li>2 Concatenare funzioni per campo derivato</li></ul> |
 | <p>Trova e sostituisci</p> | <ul><li>2 Funzioni Trova e sostituisci per campo derivato</li></ul> |
 | <p>Ricerca</p> | <ul><li>5 Funzioni di ricerca per campo derivato</li></ul> |
