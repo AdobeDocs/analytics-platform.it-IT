@@ -1,14 +1,14 @@
 ---
 title: Visualizzazione frequenza
-description: Misura l’interazione in base alla frequenza d’uso.
+description: Misura il coinvolgimento in base alla frequenza d’uso.
 feature: Adobe Product Analytics, Guided Analysis
-keywords: analisi dei prodotti
+keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Il **[!UICONTROL Frequency]** visualizzare i dati degli eventi dei gruppi in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa vista contiene contenitori che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
-![Schermata Frequenza](../assets/frequency-stacked.png){style="border:1px solid gray"}
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
 
 ## Casi d’uso
 
@@ -33,7 +33,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Utilizzo](usage.md).
 * **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato come un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users],  [!UICONTROL Sessions],  [!UICONTROL Percentage of users] e  [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users], [!UICONTROL Sessions], [!UICONTROL Percentage of users] e [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
 
 ## Impostazioni grafico
