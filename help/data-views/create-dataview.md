@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '1304'
-ht-degree: 100%
+source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
+workflow-type: tm+mt
+source-wordcount: '1349'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,7 @@ Impostazioni generali per la visualizzazione dati.
 | --- | --- |
 | [!UICONTROL Connection] | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
 | [!UICONTROL Name] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nell’elenco a discesa in alto a destra in Analysis Workspace. |
+| ID esterno | Obbligatorio. Nome della visualizzazione dati che è possibile utilizzare in origini esterne, ad esempio strumenti di business intelligence. Il valore predefinito è `unspecified`. Se non specifichi un ID esterno, il nome verrà generato dal Nome della visualizzazione dati, sostituendo gli spazi con trattini bassi. |
 | [!UICONTROL Description] | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
 
 {style="table-layout:auto"}

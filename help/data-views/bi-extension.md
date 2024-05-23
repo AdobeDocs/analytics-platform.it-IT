@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 87661e0000d050652d9510bb4830ca6f30bfeae9
+source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2743'
 ht-degree: 1%
 
 ---
@@ -184,7 +184,7 @@ Consulta [Connettere i client a Query Service](https://experienceleague.adobe.co
 
 ## Funzionalità
 
-Per impostazione predefinita, le visualizzazioni dati hanno un nome sicuro per la tabella generato dal loro nome descrittivo. Ad esempio, la visualizzazione dati denominata [!UICONTROL My Web Data View] ha il nome della visualizzazione `my_web_data_view`.
+Per impostazione predefinita, le visualizzazioni dati hanno un nome sicuro per la tabella generato dal loro nome descrittivo. Ad esempio, la visualizzazione dati denominata [!UICONTROL My Web Data View] ha il nome della visualizzazione `my_web_data_view`. È possibile definire un nome da utilizzare nello strumento BI per la visualizzazione dati. Consulta [Impostazioni della visualizzazione dati](create-dataview.md#settings) per ulteriori informazioni.
 
 Se desideri utilizzare gli ID delle visualizzazioni dati come nomi delle tabelle, puoi aggiungere l’ `CJA_USE_IDS` impostazione del nome del database durante la connessione. Ad esempio: `prod:cja?CJA_USE_IDS` mostra le visualizzazioni dati con nomi come `dv_ABC123`.
 
