@@ -3,16 +3,16 @@ description: Scopri come aggiungere componenti a un progetto in Analysis Workspa
 title: Utilizzare i componenti in Analysis Workspace
 feature: Components
 role: User
-source-git-commit: d3f90414494b52aba9736fef83423e4a1b2508b5
+source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # Utilizzare i componenti in Analysis Workspace
 
-I componenti costituiscono i dati effettivi di qualsiasi progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, segmenti e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli in visualizzazioni o pannelli.
+I componenti costituiscono i dati effettivi di qualsiasi progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, filtri e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli in visualizzazioni o pannelli.
 
 Per informazioni generali sui tipi di componenti che è possibile aggiungere, vedere [Panoramica dei componenti](/help/components/overview.md).
 
@@ -34,9 +34,9 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
 1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
 
-   Ad esempio, puoi trascinare un segmento nella zona di rilascio del segmento nell’intestazione di un pannello.
+   Ad esempio, puoi trascinare un filtro nella zona di rilascio del filtro nell’intestazione di un pannello.
 
-   ![rilascia un segmento nella zona di rilascio](assets/filter-dropzone.png)
+   ![rilascia un filtro nella zona di rilascio](assets/filter-dropzone.png)
 
 1. Per informazioni più dettagliate, continua con una delle sezioni seguenti, a seconda del tipo di componente che stai aggiungendo:
 
@@ -44,7 +44,7 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    * [Aggiungere metriche a un progetto](#add-metrics-to-a-project)
 
-   * [Aggiungere segmenti a un progetto](#add-segments-to-a-project)
+   * [Aggiungere un filtro a un progetto](#add-filters-to-a-project)
 
    * [Aggiungere intervalli di date a un progetto](#add-date-ranges-to-a-project)
 
@@ -60,7 +60,7 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
      ![Aggiungere dimensioni a un progetto](assets/add-dimensions.png)
 
-   * Trascina una o più dimensioni dalla barra a sinistra alla zona di rilascio del segmento per creare un segmento ad hoc, come descritto in [Aggiungere segmenti a un progetto](#add-segments-to-a-project).
+   * Trascina una o più dimensioni dalla barra a sinistra alla zona di rilascio del filtro per creare un filtro ad hoc, come descritto in [Aggiungere filtri a un progetto](#add-filters-to-a-project).
 
 Per ulteriori informazioni sull’utilizzo delle dimensioni in Analysis Workspace, consulta [Anteprima dimensioni](/help/components/dimensions/view-dimensions.md), [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md), e [Dimensioni suddivise in base al tempo](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -96,11 +96,11 @@ Per aggiungere un filtro a un progetto in Analysis Workspace:
 
 1. Per iniziare a filtrare il pannello, scegli uno dei seguenti metodi:
 
-   * Trascina un singolo filtro dalla barra a sinistra alla zona di rilascio del segmento.
+   * Trascina un singolo filtro dalla barra a sinistra alla zona di rilascio del filtro.
 
      ![rilascia un filtro nella zona di rilascio](assets/filter-dropzone.png)
 
-   * Tenete premuto il tasto Maiusc o Ctrl per selezionare più segmenti nella barra a sinistra, quindi tenete premuto il tasto Maiusc mentre li rilasciate nella zona di rilascio del segmento.
+   * Tenere premuto il tasto Maiusc o Ctrl per selezionare più filtri nella barra a sinistra, quindi tenere premuto il tasto Maiusc mentre vengono rilasciati nella zona di rilascio del filtro.
 
      ![rilascia più filtri nella zona di rilascio](assets/filter-dropzone-multiple.png)
 
@@ -108,13 +108,13 @@ Per aggiungere un filtro a un progetto in Analysis Workspace:
 
      Puoi selezionare (x) per rimuovere qualsiasi opzione dal menu a discesa. Se si rimuove il [!UICONTROL **Nessun filtro**] , è necessario un filtro.
 
-   * Crea segmenti ad hoc trascinando componenti diversi dai segmenti nella zona di rilascio. In questo modo puoi risparmiare tempo e fatica andando al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
+   * Crea filtri ad hoc trascinando i componenti diversi dai filtri nella zona di rilascio. In questo modo puoi risparmiare tempo e fatica andando al Generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona Modifica a forma di matita per accedere al Generatore di filtri.
 
-     I segmenti ad hoc sono un tipo di segmento rapido e sono locali per il progetto. Non vengono visualizzati nella barra a sinistra, a meno che tu non li renda pubblici.
+     I filtri ad hoc sono un tipo di filtro rapido e sono locali per il progetto. Non vengono visualizzati nella barra a sinistra, a meno che tu non li renda pubblici.
 
      Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
 
-Per ulteriori informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+Per ulteriori informazioni su come utilizzare la zona di rilascio dei filtri su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
 ## Aggiungere intervalli di date a un progetto
 
