@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
+source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2792'
 ht-degree: 12%
 
 ---
@@ -208,7 +208,7 @@ Il [!UICONTROL Usage] L’interfaccia di mostra l’utilizzo delle righe acquisi
 
 Seleziona la **[!UICONTROL Usage]** per accedere all’interfaccia.
 
-Per creare rapporti sull&#39;utilizzo:
+### Report sull’utilizzo
 
 1. Seleziona un **[!UICONTROL Time range]**. Puoi scegliere tra **[!UICONTROL Last 6 months]**, **[!UICONTROL Year to date]**, o **[!UICONTROL Last 2 Years]**.
 1. Seleziona un **[!UICONTROL Interval]**. Puoi scegliere tra **[!UICONTROL Monthly]** o **[!UICONTROL Quarterly]**.
