@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
+source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2793'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,8 @@ Una volta che [ha creato o modificato una o più connessioni](/help/connections/
 ## Elenco
 
 Il [!UICONTROL List] è l&#39;interfaccia predefinita per Connessioni. Se non è selezionata, selezionare **[!UICONTROL List]** per accedere all’interfaccia.
+
+![vista a elenco](assets/list-view.png)
 
 Il [!UICONTROL List] interfaccia mostra una tabella di tutte le connessioni disponibili. È possibile cercare rapidamente una connessione utilizzando il comando Cerca ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) casella.
 
@@ -202,6 +204,8 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 Il [!UICONTROL Usage] L’interfaccia di mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali.
 
+![usage-view](assets/usage-view.png)
+
 Seleziona la **[!UICONTROL Usage]** per accedere all’interfaccia.
 
 Per creare rapporti sull&#39;utilizzo:
@@ -211,14 +215,14 @@ Per creare rapporti sull&#39;utilizzo:
 
 Per [!UICONTROL Ingested rows]:
 
-* un pannello visualizza il totale delle righe acquisite che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni secondo giorno del mese. All’interno del pannello:
+* Un pannello visualizza il totale delle righe acquisite che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni secondo giorno del mese. All’interno del pannello:
    * una casella mostra il numero di righe acquisite per l’ultimo mese e la modifica in % (indicata da <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mese precedente.
    * un grafico a linee mostra <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly ingested rows].<br/>Per visualizzare una finestra a comparsa che mostra il numero di righe acquisite mensilmente per un mese, passa il cursore del mouse su un punto dati nel grafico a linee.
 
 
 Per [!UICONTROL Reportable rows]:
 
-* un pannello visualizza il totale delle righe segnalabili che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni due giorni del mese. All’interno del pannello:
+* Un pannello visualizza il totale delle righe segnalabili che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni due giorni del mese. All’interno del pannello:
    * in una casella viene visualizzato il numero totale cumulativo di righe da segnalare.
    * in una casella viene visualizzato il numero totale di righe da segnalare per l&#39;ultimo mese e la modifica in % (indicata da <span style="color:green">▲</span> o <span style="color:c64545">▼</span>) del mese precedente.
    * un grafico a linee mostra <span style="color:53b2ad">◼︎</span> [!UICONTROL Monthly reportable rows].<br/>Per visualizzare un popup che visualizza il numero di righe segnalabili cumulative per un mese specifico, passa il cursore del mouse su un punto dati nel grafico a linee.
