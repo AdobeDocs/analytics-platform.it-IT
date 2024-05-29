@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: e767639d1e6276e4f9a52ce3f1bdb53b7c42ac04
 workflow-type: tm+mt
-source-wordcount: '2132'
-ht-degree: 99%
+source-wordcount: '2126'
+ht-degree: 98%
 
 ---
 
@@ -56,6 +56,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzione | Note |
 | --- | --- |
+| Analytics for Target (A4T) | Il [integrazione tra Adobe Customer Journey Analytics e Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso. |
 | Pubblicazione dei tipi di pubblico | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
 | Classificazioni | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate in Experience Platform e in Customer Journey Analytics tramite il connettore di origine delle classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in Experience Platform e resi disponibili in Customer Journey Analytics. |
 | Generatore regole di classificazione | Supportato utilizzando le [sottostringhe](/help/data-views/component-settings/substring.md) in Customer Journey Analytics. Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
@@ -87,7 +88,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Funzione | Note |
 | --- | --- |
 | Pannelli | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
-| Analytics for Target (A4T) | Attualmente in versione Beta. Il supporto parziale viene fornito tramite i campi nel [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it). È pianificato il supporto per nomi compatibili con A4T nelle esperienze e nelle attività di Target. |
 
 {style="table-layout:auto"}
 
