@@ -4,10 +4,10 @@ description: Inserire i dati generati da,la gestione delle decisioni di Adobe Jo
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
+source-git-commit: 027ff3983c67481dd8284667d97f59f427b18928
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Per ottenere una parità approssimativa con metriche simili nella gestione delle
 | Punteggio opzione decisione di fallback | Valore calcolato per un’opzione di decisione di fallback nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo di componente: metrica |
 | Offerte ignorate | Il numero di offerte ignorate o rifiutate senza altre interazioni dirette. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |
 | Offerte visualizzate | Il numero di offerte visualizzate nel profilo. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo di componente: metrica |
-| Offerte interattive | Il numero di offerte visualizzate nel profilo. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo di componente: metrica |
+| Offerte interattive | Il numero di offerte con cui il profilo ha interagito. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo di componente: metrica |
 | Offerte inviate | Il numero di offerte inviate al profilo. | `_experience.decisioning.`<br/>`propositionEventType.send` | Tipo di componente: metrica |
 | Trigger offerte | Il numero di offerte scelte per essere visualizzate dall’SDK client. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo di componente: metrica |
 | Annullamento dell’abbonamento alle offerte | Numero di offerte richieste dal profilo da non mostrare in futuro. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Tipo di componente: metrica |
