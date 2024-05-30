@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 6b1761baec8cb1b102943ef7145403ccd2dbf840
+source-git-commit: f3ac14fd144f7b038c0d0f7983bb99353ce250b5
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1091'
 ht-degree: 76%
 
 ---
@@ -246,6 +246,7 @@ ht-degree: 76%
    + Filtri {#cja-filters}
       + [Panoramica dei filtri](../components/filters/filters-overview.md)
       + [Creare filtri](../components/filters/create-filters.md)
+      + [Creare filtri sequenziali](../components/filters/seg-sequential-build.md)
       + [Condividere i filtri](../components/filters/filters-share.md)
       + [Assegnare tag ai filtri](../components/filters/filters-tag.md)
       + [Filtrare l’elenco dei filtri](../components/filters/filters-filter.md)
