@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: b21dba5b7bef0d9add116f1e9bca0403e9a8c1d5
+source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 0%
 >
 >L’Assistente AI per il Customer Journey Analytics è attualmente in versione beta. La funzione e la relativa documentazione sono soggette a modifiche.
 
-L’Assistente AI è una funzione dell’interfaccia utente che puoi utilizzare per navigare e comprendere i concetti e la terminologia di Adobe Customer Journey Analytics. L’Assistente AI nel Customer Journey Analytics viene addestrato sulla sua documentazione Adobe Experience League. Quando viene posta una domanda, l’Assistente AI risponde con una risposta utile che consente l’apprendimento rapido.
+L’Assistente AI è un’esperienza di conversazione che consente ai professionisti di eseguire attività a ritmo veloce, sia che si tratti della comprensione dei concetti, della risoluzione dei problemi o della ricerca di informazioni. Consente inoltre ai non esperti di svolgere compiti di esperti e migliora la qualità complessiva del lavoro.
+
+L’Assistente AI nel Customer Journey Analytics viene addestrato sulla sua documentazione Adobe Experience League. Quando viene posta una domanda, l’Assistente AI risponde con una risposta utile che consente l’apprendimento rapido.
 
 In qualità di utente principiante, puoi utilizzare l’Assistente AI per apprendere i concetti di Customer Journey Analytics e integrarti in prodotti e funzionalità che non conosci. In qualità di utente esperto, puoi utilizzare l’Assistente IA per presentare casi d’uso più avanzati o suggerimenti e trucchi.
 
@@ -58,6 +60,6 @@ In questa prima versione, l’accesso alla funzione dell’Assistente IA è disc
 
    ![Casella domanda](assets/ai-asst2.png)
 
-1. (Facoltativo) Per visualizzare le origini, fai clic su **[!UICONTROL Show Sources]** e vengono visualizzate le origini della documentazione che hanno fornito la risposta.
+1. (Facoltativo) Per visualizzare le origini, fai clic su **[!UICONTROL Show Sources]** e vengono visualizzate la fonte o le fonti di documentazione che hanno fornito la risposta.
 
 1. (Facoltativo) Puoi anche fornire un voto a comparsa o a discesa sull’utilità di una determinata risposta.
