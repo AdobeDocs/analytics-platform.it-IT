@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: 63dd68d31a9f2b907419fa660904f1dfdacaa0b8
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,11 @@ Il **[!UICONTROL Friction]** visualizza fornisce una rappresentazione visiva di 
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **Analisi della conversione**: puoi analizzare le conversioni in ogni fase del funnel. Monitorando il numero di utenti che avanzano da un passaggio all’altro, puoi identificare i colli di bottiglia con tassi di conversione insoliti o indesiderati. Queste informazioni sono utili per capire dove è possibile migliorare il prodotto per ottenere risultati immediati.
+* **Analisi della conversione**: puoi analizzare le conversioni in ogni fase del funnel, ad esempio un checkout retail, la registrazione dell’account, il flusso di abbonamento o altri percorsi critici per la tua esperienza di prodotto. Monitorando il numero di utenti che avanzano da un passaggio all’altro, puoi identificare i colli di bottiglia con tassi di conversione insoliti o indesiderati. Queste informazioni sono utili per capire dove è possibile migliorare il percorso di prodotti per ottenere risultati immediati.
+* **Analisi della sperimentazione**: puoi confrontare i tassi di conversione tra un funnel con passaggi o passaggi opzionali in cui viene eseguito un esperimento A/B. Queste informazioni possono aiutarti a determinare quale variante del funnel porta al tasso di conversione più alto, in modo da poter incoraggiare più utenti lungo quel percorso.
 * **Ottimizzazione dell’onboarding**: ottimizza il processo di onboarding del prodotto esaminando il comportamento degli utenti in relazione agli eventi chiave. Puoi identificare i passaggi con cui gli utenti hanno difficoltà o che non riescono a completare.
 * **Adozione e coinvolgimento delle funzioni**: scopri come gli utenti interagiscono con funzioni specifiche del tuo prodotto. L’analisi della progressione degli utenti attraverso i passaggi relativi alle funzioni consente di visualizzare i tassi di adozione e identificare le aree in cui gli utenti potrebbero sottoutilizzare determinate funzioni. Puoi quindi utilizzare queste informazioni per concentrarti sui miglioramenti delle funzioni per aumentare i tassi di adozione.
-* **Valutazione della campagna**: misura l’efficacia delle campagne di marketing. Puoi creare un segmento che si concentra sugli utenti che hanno toccato una determinata campagna e confrontare il loro processo di conversione con altre campagne o all’interno del tuo prodotto in generale.
+* **Efficacia del canale di marketing**: misura l’efficacia dei canali di marketing. Puoi creare un segmento che si concentra sugli utenti che hanno interagito con diversi canali di marketing (ad esempio ricerca a pagamento, visualizzazione, ricerca naturale o diretta), quindi confrontare i loro percorsi per vedere quale canale porta ai migliori risultati di prodotto.
 
 ## Barra delle query
 
@@ -33,7 +34,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Tendenze di conversione](conversion-trends.md).
 * **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-   * [!UICONTROL Compare]: ogni passaggio fornisce un’opzione per confrontare più eventi in un singolo passaggio funnel, creando un &quot;funnel fork&quot;. Questa funzione consente di confrontare l&#39;attrito di due percorsi uno accanto all&#39;altro senza creare due analisi separate.
+   * [!UICONTROL Compare]: ogni passaggio fornisce un’opzione per confrontare più eventi in un singolo passaggio funnel, creando un &quot;funnel fork&quot;. Questa funzione consente di confrontare l&#39;attrito di due percorsi uno accanto all&#39;altro senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno dell’imbuto.
 * **[!UICONTROL Counted as]**: ambito che desideri applicare al funnel. Le opzioni includono [!UICONTROL Sessions] e [!UICONTROL Users].
    * [!UICONTROL Sessions]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
    * [!UICONTROL Users]: per essere conteggiati, tutti i passaggi devono avvenire nell’intervallo di reporting selezionato.
