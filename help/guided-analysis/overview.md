@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
-workflow-type: ht
+source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
+workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Sono disponibili le seguenti visualizzazioni di analisi guidata:
 
 | Tipo di analisi | Tipo di visualizzazione | Descrizione |
 | --- | --- | --- |
-| [!UICONTROL Feature matrix] | [Coinvolgimento](types/engagement.md) | Comprendi la larghezza e l’ampiezza del coinvolgimento delle funzioni. |
+| [!UICONTROL Feature matrix] | [Coinvolgimento](types/engagement.md) | Comprendi l’ampiezza e la profondità del coinvolgimento delle funzioni. |
 | [!UICONTROL Funnel] | [Attrito](types/friction.md) | Confronta i tassi di conversione tra passaggi. |
 | [!UICONTROL Funnel] | [Tendenze di conversione](types/conversion-trends.md) | Tieni traccia delle modifiche nei tassi di conversione nel tempo. |
 | [!UICONTROL Impact] | [Versione](types/release.md) | Confronta le prestazioni in periodi uguali prima e dopo il rilascio. |
