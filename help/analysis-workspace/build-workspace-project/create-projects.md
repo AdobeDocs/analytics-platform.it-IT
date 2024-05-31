@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Per aggiungere un componente a un progetto in Analysis Workspace:
 
    ![Icona Componenti selezionata ed elenco delle dimensioni disponibili.](assets/build-components.png)
 
-1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
+1. Scorri fino al componente da aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
    Ad esempio, puoi trascinare un filtro nella zona di rilascio del filtro nell’intestazione di un pannello.
 

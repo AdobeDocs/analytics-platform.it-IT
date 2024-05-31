@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le c
 
 Quando accedi a Workspace, nella pagina Home Progetti viene visualizzato un elenco dei progetti, insieme alla cartella aziendale e alle cartelle personali create.
 
-![Home page Progetti](../assets/landing-page2.png)
+![Pagina Home progetti](../assets/landing-page2.png)
 
 ## Informazioni sulla cartella aziendale {#company-folder}
 
@@ -52,6 +52,6 @@ Gli utenti che non sono amministratori hanno opzioni limitate.
 
 - Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti.
 
-- Quando un amministratore sposta un progetto nella cartella dell’azienda, il progetto viene condiviso con tutti gli utenti **Modifica copia** anche se i privilegi condivisi originali erano limitati.
+- Quando un amministratore sposta un progetto nella cartella aziendale, il progetto viene condiviso con chiunque abbia un ruolo di **Modifica copia** anche se i privilegi condivisi originali erano limitati.
 
 - Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.

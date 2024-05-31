@@ -6,9 +6,9 @@ exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics consente di analizzare i dati utilizzando la potenza 
 
 >[!TIP]
 >
->Se non sono disponibili dati in Analysis Workspace, assicurati di aver seguito il [processo di acquisizione dati](/help/data-ingestion/data-ingestion.md), che include quanto segue:<ul><li>[Creare una connessione](/help/connections/create-connection.md#create-and-configure-the-connection) </br>Assicurati che la connessione sia configurata per importare nuovi dati, dati di retrocompilazione o entrambi.</li><li>[Aggiungere set di dati](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[Creare visualizzazioni dati](/help/data-views/create-dataview.md)</li></ul>
+>Se non sono disponibili dati in Analysis Workspace, assicurati di aver seguito il [processo di acquisizione dati](/help/data-ingestion/data-ingestion.md), che include quanto segue:<ul><li>[Creare una connessione](/help/connections/create-connection.md#create-and-configure-the-connection) </br>Assicurati che la connessione sia configurata per importare nuovi dati, dati di retrocompilazione o entrambi.</li><li>[Aggiungere set di dati](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[Creare le visualizzazioni dati](/help/data-views/create-dataview.md)</li></ul>
 
 Sentiti libero di sperimentare e trascinare dimensioni e metriche, modificane impostazioni di attribuzione, nomi descrittivi, fuso orario, impostazioni delle sessioni, ecc.
 
