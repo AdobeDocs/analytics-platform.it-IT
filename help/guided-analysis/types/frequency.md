@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
+source-git-commit: 70c274819eaef46627bf66d05ef8f790f61906a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '598'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Il [!UICONTROL Frequency] visualizza offre le seguenti impostazioni del grafico,
 
 ## Impostazioni bucket
 
-Determina il modo in cui l’evento viene suddiviso in gruppi.
+Determina il modo in cui l’evento viene suddiviso in gruppi (bucket). Nella vista della tabella con tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può contare verso bucket diversi in intervalli diversi.
 
 * **[!UICONTROL Auto buckets]**: identifica automaticamente la dimensione ottimale del bucket in base alla distribuzione dei dati.
 * **[!UICONTROL Customized buckets]**: personalizza il modo in cui i dati vengono raggruppati in contenitori.
@@ -60,5 +60,5 @@ Determina il modo in cui l’evento viene suddiviso in gruppi.
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa impostazione non influisce sulle visualizzazioni senza tendenze, ad esempio Frequenza.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Il grafico e la tabella mostrano i dati aggregati per impostazione predefinita, con l’opzione di espandere la tabella a una vista delle tendenze. Nella vista delle tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può contare verso bucket diversi in intervalli diversi.
 * **[!UICONTROL Date]**: data di inizio e fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
