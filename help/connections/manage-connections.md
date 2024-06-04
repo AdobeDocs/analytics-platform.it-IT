@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
+source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 12%
+source-wordcount: '2943'
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | [!UICONTROL Datasets] | Mostra uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se la connessione selezionata contiene più set di dati, seleziona **[!UICONTROL +*x *altro]**per visualizzare un **[!UICONTROL Datasets included]**pannello. Questo pannello mostra i collegamenti a tutti i set di dati e un’opzione per cercare un set di dati specifico che fa parte della connessione.<p><img src="./assets/datasets-included.png" alt="Risorse dati incluse" width="400"/><p>Selezionando un nome per un set di dati si apre il set di dati nell’interfaccia utente di Experienci Platform in una nuova scheda. |
 | [!UICONTROL Sandbox] | Mostra il [Sandbox di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
 | [!UICONTROL Owner] | Persona che ha creato la connessione. |
-| [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per i set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**per quanti set di dati sono configurati per l’importazione di nuovi dati, e&lt;/<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** per quanti set di dati viene disattivata l’importazione di nuovi dati. |
+| [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per i set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**per i set di dati configurati per l’importazione di nuovi dati e<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
 | [!UICONTROL Date created] | Il timestamp in cui è stata creata la connessione. |
 | [!UICONTROL Last modified] | Il timestamp dell’ultimo aggiornamento della connessione. |
 | [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill tra set di dati.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti tra set di dati,<p><span style="color:orange">●</span>   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill di elaborazione tra set di dati,<p><span style="color:green">●</span>   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati per i set di dati, e<p><span style="color:grey">●</span>   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definiti backfill per i set di dati nella connessione. |
@@ -149,6 +149,9 @@ L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagli
 | [!UICONTROL Data source type] | Tipo di origine del set di dati. Quando si crea una connessione, è possibile definire il tipo di origine. |
 | [!UICONTROL Dataset type] | Tipo di set di dati per questo set di dati. Il tipo può essere [!UICONTROL Event], [!UICONTROL Lookup], o [!UICONTROL Profile]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#configure-dataset) |
 | Schema | Schema di Experience Platform su cui si basa il set di dati. |
+| [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per il set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**se il set di dati è configurato per l’importazione di nuovi dati e<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** se il set di dati è configurato per non importare nuove importazioni di dati. |
+| [!UICONTROL Transform data] | Mostra lo stato di trasformazione dei set di dati di ricerca B2B applicabili. Consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md) per ulteriori informazioni.<p><span style="color:green">●</span>   **[!UICONTROL _x _On]**per i set di dati applicabili abilitati per la trasformazione, <p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** per i set di dati applicabili non abilitati per la trasformazione, e<p>**[!UICONTROL N/A]** per tutti gli altri set di dati, non applicabile per la trasformazione. |
+| [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill per il set di dati.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti,<p><span style="color:orange">●</span>   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill processing,<p><span style="color:green">●</span>   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p><span style="color:grey">●</span>   **[!UICONTROL _Disattivato_]** nel caso in cui non sia configurato alcun backfill. |
 | [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per il set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**se il set di dati è configurato per l’importazione di nuovi dati e<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
 | [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill per il set di dati.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti,<p><span style="color:orange">●</span>   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill processing,<p><span style="color:green">●</span>   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p><span style="color:grey">●</span>   **[!UICONTROL _Disattivato_]** nel caso in cui non sia configurato alcun backfill. |
 
@@ -172,6 +175,7 @@ Quando nella tabella dei set di dati non è selezionato alcun set di dati, un pa
 | [!UICONTROL Data views using connection] | Elenca tutte le visualizzazioni dati che utilizzano questa connessione. |
 | [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per i set di dati: <p><span style="color:green">●</span>   **[!UICONTROL _x _On]**per quanti set di dati sono configurati per l’importazione di nuovi dati e<p><span style="color:gray">●</span>   **[!UICONTROL _x disattivato_]** per quanti set di dati viene disattivata l’importazione di nuovi dati. |
 | [!UICONTROL Backfill data] | Mostra lo stato dei dati di retrocompilazione per i set di dati.<p><span style="color:red">●</span>   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti tra set di dati,<p><span style="color:orange">●</span>   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill di elaborazione tra set di dati,<p><span style="color:green">●</span>   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati per i set di dati, e<p><span style="color:grey">●</span>   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definiti backfill per i set di dati nella connessione. |
+| Trasformare i dati | Mostra lo stato di trasformazione dei set di dati di ricerca B2B applicabili. Consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md) per ulteriori informazioni.<p><span style="color:green">●</span>   **[!UICONTROL _x _On]**per il numero di set di dati abilitati per la trasformazione. |
 | [!UICONTROL Created by] | Mostra il nome della persona che ha creato la connessione. |
 | [!UICONTROL Last modified] | Mostra la marca temporale dell’ultima modifica apportata alla connessione. |
 | [!UICONTROL Last modified by] | Mostra l’ultimo utente che ha modificato la connessione. |
