@@ -4,9 +4,10 @@ description: Descrive come trasformare i dati in set di dati di schemi di ricerc
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ffa57c19174bf1618957efe7191c8486c8e3a900
+exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
+source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -17,10 +18,10 @@ Per supportare le ricerche basate su persone sui dati B2B (tra cui account, oppo
 
 Questa trasformazione è disponibile solo per i set di dati con dati per schemi di ricerca B2B, in base alle classi seguenti:
 
-* Relazione della persona dell’account aziendale XDM
-* Relazione della persona dell’opportunità di business XDM
-* Membri dell’elenco di marketing aziendale XDM
-* Membri della campagna aziendale XDM
+* [Relazione della persona dell’account aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relazione della persona dell’opportunità di business XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Membri dell’elenco di marketing aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 Per abilitare la trasformazione per un set di dati di questo tipo:
 
