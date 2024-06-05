@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 11%
+source-wordcount: '6438'
+ht-degree: 10%
 
 ---
 
@@ -160,13 +160,193 @@ Per creare rapidamente un campo derivato per casi d’uso specifici, sono dispon
 
 ### Canali di marketing
 
-Questo modello è configurato per l&#39;utilizzo di [Analisi Url](#dnl-url-parse) e [Caso di utilizzo](#dnl-case-when) funziona più volte per ottenere i valori appropriati da un URL. A questi valori viene quindi applicata la logica per associare l’URL a un canale di marketing specifico.
+Questo modello di funzione utilizza una raccolta di regole per generare canali di marketing.
 
 +++ Dettagli
 
 Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
 
-![Schermata del generatore di regole di modello del canale di marketing](assets/marketing-channel-template.png)
+![Schermata del generatore di regole di modello del canale di marketing](assets/function-template-marketing-channel-template.png)
+
++++
+
+### Messaggi non recapitati
+
+Questo modello di funzione utilizza una raccolta di regole per identificare i mancati recapiti del sito.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole Rimbalzi](assets/function-template-bounces.png)
+
++++
+
+### Combinazione di più Dimension
+
+Questo modello di funzione combina due valori in uno.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per la combinazione di più Dimension](assets/function-template-multi-dimension-combine.png)
+
++++
+
+### Nome set di dati intuitivo
+
+Questo modello di funzione fornisce un nome di set di dati leggibile.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole Nome set di dati intuitivo](assets/function-template-friendly-dataset-name.png)
+
++++
+
+### Nome pagina da URL
+
+Questo modello di funzione crea un nome di pagina semplice.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del Nome pagina dal generatore di regole URL](assets/function-template-page-name-from-url.png)
+
++++
+
+### Stagione festiva
+
+Questo modello di funzione classifica i momenti chiave dell’anno.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per la stagione delle vacanze](assets/function-template-holiday-season.png)
+
++++
+
+### Obiettivi mensili
+
+Questo modello di funzione imposta gli obiettivi mensili personalizzati.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per gli obiettivi mensili](assets/function-template-monthly-goals.png)
+
++++
+
+### Ottieni tutti i valori in elenco delimitato
+
+Questo modello di funzione converte un elenco limitato in un array.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per ottenere tutti i valori in un elenco delimitato](assets/function-template-get-all-values-in-delimited-list.png)
+
++++
+
+### Ottieni primo valore in elenco delimitato
+
+Questo modello di funzione ottiene il primo valore in un elenco delimitato.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole Ottieni primo valore in elenco delimitato](assets/function-template-get-first-value-in-delimited-list.png)
+
++++
+
+### Ottieni ultimo valore in elenco delimitato
+
+Questo modello di funzione ottiene l’ultimo valore in un elenco delimitato.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole Get Last Value in Delimited List](assets/function-template-get-last-value-in-delimited-list.png)
+
++++
+
+### Nome di dominio
+
+Questo modello di funzione estrae il nome di dominio utilizzando un’espressione regolare.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole del nome di dominio](assets/function-template-domain-name.png)
+
++++
+
+### Ottieni parametro stringa di query
+
+Questo modello di funzione estrae i valori della stringa di query.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per il parametro Get Query String](assets/function-template-get-query-string-parameter.png)
+
++++
+
+### Campo di transizione
+
+Questo modello di funzione cambia il reporting da un campo all’altro.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole del campo di transizione](assets/function-template-transition-field.png)
+
++++
+
+### Rilevamento bot semplice
+
+Questo modello di funzione implementa l’identificazione light bot.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per il rilevamento bot semplice](assets/function-template-simple-bot-detection.png)
+
++++
+
+### Collegamento di uscita.
+
+Questo modello di funzione identifica l’ultimo collegamento su cui è stato fatto clic in una sessione.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole per il collegamento di uscita](assets/function-template-exit-link.png)
+
++++
+
+### Collegamento di download.
+
+Questo modello di funzione contrassegna i collegamenti di download comuni.
+
++++ Dettagli
+
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Consulta [Riferimento funzione](#function-reference) per ulteriori informazioni.
+
+![Schermata del generatore di regole Collegamento di download](assets/function-template-download-link.png)
 
 +++
 
