@@ -4,9 +4,9 @@ title: Assistente AI per Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
+source-git-commit: 3ed6eabae8607a10920c8917a818f0497b337893
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ In questa prima versione, l’accesso alla funzione dell’Assistente IA è disc
 1. (Facoltativo) Per visualizzare le origini, fai clic su **[!UICONTROL Show Sources]** e vengono visualizzate la fonte o le fonti di documentazione che hanno fornito la risposta.
 
 1. (Facoltativo) Puoi anche fornire un voto a comparsa o a discesa sull’utilità di una determinata risposta.
+
+1. (Facoltativo) Puoi segnalare la risposta per contenuto inappropriato o dannoso.
