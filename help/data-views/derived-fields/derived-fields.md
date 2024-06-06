@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
 workflow-type: tm+mt
-source-wordcount: '6438'
+source-wordcount: '6837'
 ht-degree: 10%
 
 ---
@@ -435,7 +435,7 @@ Nel caso in cui il sito riceva i seguenti eventi di esempio, contenenti [!UICONT
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` | |
+| `https://google.com` |  |
 
 {style="table-layout:auto"}
 
@@ -1067,6 +1067,78 @@ Definisci un `Cross Channel Interactions` campo derivato. Utilizzi il [!UICONTRO
 
 +++
 
+
+<!-- NEXT OR PREVIOUS -->
+
+### Successivo o Precedente
+
+Accetta un campo come input e risolve il valore successivo o precedente per tale campo nell’ambito della sessione o dell’utilizzo. Ciò si applica solo ai campi della tabella Visita ed Evento.
+
++++ Dettagli
+
+## Specifiche {#prevornext-io}
+
+| Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
+|---|---|---|---|---|
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Method]:<ul><li>Valore precedente</li><li>Valore successivo</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Persona</li><li>Sessione</li></ul></li><li>[!UICONTROL Index]:<ul><li>Numeriche</li></ul><li>[!UICONTROL Include repeats]:<ul><li>Booleano</li></ul></li><li>[!UICONTROL Include 'No Values']:<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>3 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+
+{style="table-layout:auto"}
+
+## Caso d’uso {#prevornext-uc1}
+
+Ti piacerebbe capire cosa sono le **avanti** o **precedente** value è dei dati che ricevi, tenuto conto dei valori ripetuti.
+
+### Dati {#prevornext-uc1-databefore}
+
+**Esempio 1 - Gestione delle ripetizioni di inclusione**
+
+| Dati ricevuti | Valore successivo<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore successivo<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni |
+|---|---|---|---|---|
+| Creative Cloud | Creative Cloud | ricerca | *Nessun valore* | *Nessun valore* |
+| Creative Cloud | ricerca | ricerca | Creative Cloud | *Nessun valore* |
+| ricerca | ricerca | dettagli prodotto | Creative Cloud | Creative Cloud |
+| ricerca | dettagli prodotto | dettagli prodotto | ricerca | Creative Cloud |
+| dettagli prodotto | ricerca | ricerca | ricerca | ricerca |
+| ricerca | dettagli prodotto | dettagli prodotto | dettagli prodotto | dettagli prodotto |
+| dettagli prodotto | ricerca | ricerca | ricerca | ricerca |
+| ricerca | ricerca | *Nessun valore* | dettagli prodotto | dettagli prodotto |
+| ricerca | *Nessun valore* | *Nessun valore* | ricerca | dettagli prodotto |
+
+{style="table-layout:auto"}
+
+**Esempio 2 - Gestione dell’inclusione di ripetizioni con valori vuoti nei dati ricevuti**
+
+| Dati ricevuti | Valore successivo<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore successivo<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni |
+|---|---|---|---|---|
+| Creative Cloud | Creative Cloud | ricerca | *Nessun valore* | *Nessun valore* |
+| Creative Cloud | Creative Cloud | ricerca | Creative Cloud | *Nessun valore* |
+| Creative Cloud | ricerca | ricerca | Creative Cloud | *Nessun valore* |
+| ricerca | ricerca | dettagli prodotto | Creative Cloud | Creative Cloud |
+|   |   |   |   |   |
+| ricerca | ricerca | dettagli prodotto | ricerca | Creative Cloud |
+| ricerca | dettagli prodotto | dettagli prodotto | ricerca | Creative Cloud |
+| dettagli prodotto | *Nessun valore* | *Nessun valore* | ricerca | ricerca |
+|   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#prevnext-uc1-derivedfield}
+
+Definisci un `Next Value` o `Previous value` campo derivato. Utilizzi il [!UICONTROL NEXT OR PREVIOUS] per definire una regola che seleziona la [!UICONTROL Data received] campo, seleziona [!UICONTROL Next value] o [!UICONTROL Previous value] as [!UICONTROL Method], [!UICONTROL Session] as Scope e imposta il valore di [!UICONTROL Index] a `1`.
+
+![Schermata della regola Merge Fields](assets/prevnext-next.png)
+
+## Ulteriori informazioni {#prevnext-moreinfo}
+
+Puoi selezionare solo i campi che appartengono alla tabella Visita o Evento.
+
+[!UICONTROL Include repeats] determina come gestire i valori ripetuti per [!UICONTROL NEXT OR PREVIOUS] funzione.
+
+- Includi gli sguardi ripetuti e i valori successivi o precedenti. Se [!UICONTROL Include Repeats] viene selezionato, ignorerà eventuali ripetizioni sequenziali dei valori successivi o precedenti dell’hit corrente.
+
+- Le righe senza valori (vuoti) per un campo selezionato non avranno valori successivi o precedenti restituiti come parte del [!UICONTROL NEXT OR PREVIOUS] uscita funzione.
+
++++
 
 <!-- REGEX REPLACE -->
 
