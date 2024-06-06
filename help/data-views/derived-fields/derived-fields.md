@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
+source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
 workflow-type: tm+mt
-source-wordcount: '6837'
+source-wordcount: '7224'
 ht-degree: 10%
 
 ---
@@ -435,7 +435,7 @@ Nel caso in cui il sito riceva i seguenti eventi di esempio, contenenti [!UICONT
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |  |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -1002,6 +1002,85 @@ Definisci un `Product Names` campo derivato. Utilizzi il [!UICONTROL LOWERCASE] 
 
 +++
 
+<!-- MATH -->
+
+### Math
+
+Utilizzare gli operatori matematici di base (aggiungere, sottrarre, moltiplicare, dividere e aumentare a potenza) nei campi numerici.
+
++++ Dettagli
+
+## Specifiche {#math-io}
+
+| Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
+|---|---|---|---|---|
+| <ul><li>Numeriche</li></ul> | <ul><li>Uno o più campi numerici</li><li>Uno o più operatori (aggiungere, sottrarre, moltiplicare, dividere, alzare a potenza)</li><li>Valore di input utente</li></ul> | <ul><li>`+` (aggiungi)</li><li>`-` (sottrarre)</li><li>`*` (moltiplica)</li><li>`/` (dividi)</li><li>`^` (aumentare la potenza)</li></ul> | <ul><li>25 operazioni per campo derivato</li><li>5 funzioni matematiche per campo derivato</li></ul> | <p>Nuovo campo derivato</p> |
+
+{style="table-layout:auto"}
+
+## Caso d’uso {#math-uc}
+
+A causa dell’inflazione, desideri correggere i numeri dei ricavi dei dati CRM acquisiti con un’inflazione del 5%.
+
+### Dati prima di {#math-uc-databefore}
+
+| ID CRM | Entrate annuali |
+|---|---:|
+| 1234 | 35.070.000 |
+| 4133 | 7.500.000 |
+| 8110 | 10.980 |
+| 2201 | 42.620 |
+
+{style="table-layout:auto"}
+
+### Campo derivato {#math-uc-derivedfield}
+
+Definisci un `Corrected Annual Revenue` campo derivato. Utilizzi il [!UICONTROL MATH] funzione per definire una regola che moltiplica il numero di Ricavo annuale originale con 1,05.
+
+![Schermata della regola matematica](assets/math.png)
+
+
+### Dati dopo {#math-uc-dataafter}
+
+| ID CRM | Reddito Annuo Corretto |
+|---|---:|
+| 1234 | 36.823.500 |
+| 4133 | 7.875.000 |
+| 8110 | 11.529,00 |
+| 2201 | 44.751 |
+
+{style="table-layout:auto"}
+
+## Ulteriori informazioni {#math-more-info}
+
+Per creare una formula:
+
+1. È sufficiente iniziare a digitare nel campo Formula e nei campi numerici che corrispondono a ciò che si digita verrà visualizzato in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
+   ![Altre informazioni matematiche 1](assets/math-more-info-1.png)
+
+1. Aggiungi l’operando (ad esempio `*` da moltiplicare) seguito da un altro campo o da un valore statico. Le parentesi consentono di definire formule più complesse.
+
+1. Per inserire un valore statico (ad esempio `1.05`), digita il valore e seleziona **[!UICONTROL Add *x *come valore statico]**o **[!UICONTROL Add -*x* come valore statico negativo]** dal menu a comparsa.
+   ![Altre informazioni matematiche 2](assets/math-more-info-2.png)
+
+1. Un segno di spunta verde ![Segno Di Spunta](./assets/checkmark.svg)</span> indica se la formula matematica è valida, altrimenti verrà visualizzato un avviso <span style="color:red">![Avviso](./assets/alert.svg)</span> e il messaggio <span style="color:#ea3829">[!UICONTROL Invalid formula expression].</span>
+   ![Altre informazioni matematiche 3](assets/math-more-info-3.png)
+
+Esistono alcune considerazioni importanti quando si lavora con numeri statici nel [!UICONTROL MATH] funzione:
+
+- I valori statici devono essere associati a un campo. Ad esempio, utilizzando [!UICONTROL MATH] funzione con solo campi statici non supportata.
+- Non è possibile utilizzare l&#39;operatore di elevazione a potenza (`ˆ`) su un valore statico.
+- Se si utilizzano più valori statici in una formula, questi devono essere raggruppati utilizzando le parentesi affinché la formula sia valida. Ad esempio:
+
+   - Questa formula restituisce un errore.
+     ![Altre informazioni matematiche 4](assets/math-more-info-4.png)
+
+   - Formula valida.
+     ![Altre informazioni matematiche 5](assets/math-more-info-5.png)
+
++++
+
+
 <!-- MERGE FIELDS -->
 
 ### Unisci campi
@@ -1544,7 +1623,9 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | <p>Trova e sostituisci</p> | <ul><li>2 Funzioni Trova e sostituisci per campo derivato</li></ul> |
 | <p>Ricerca</p> | <ul><li>5 Funzioni di ricerca per campo derivato</li></ul> |
 | <p>Minuscolo</p> | <ul><li>2 Funzioni minuscole per campo derivato</li></ul> |
+| <p>Math</p> | <ul><li>25 operazioni per campo derivato</li><li>5 funzioni matematiche per campo derivato</li></ul> |
 | <p>Unisci campi</p> | <ul><li>2 Funzioni dei campi unione per campo derivato</li></ul> |
+| <p>Successivo o Precedente</p> | <ul><li>3 Funzioni Next o Previous per campo derivato</li></ul> |
 | <p>Regex Replace</p> | <ul><li>1 funzione Regex Replace per campo derivato</li></ul> |
 | <p>Split</p> | <ul><li>5 funzioni di suddivisione per campo derivato</li></ul> |
 | <p>Trim (Taglia)</p> | <ul><li>1 Funzione di ritaglio per campo derivato</li></ul> |

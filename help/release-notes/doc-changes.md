@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 83696cb3289ab564ebc08ee3d16e82d9fb92ebda
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3698'
 ht-degree: 63%
 
 ---
@@ -21,7 +21,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | --- | --- |
 | **Giugno 2024** | |
 | Trasformare i set di dati per le ricerche B2B | Documentazione su come supportare [ricerche basate su persone su dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne), è necessaria la trasformazione dei set di dati di ricerca B2B. |
-| Modelli di funzione campo derivato | Documentazione su [modelli di funzioni aggiuntivi per campi derivati](/help/data-views/derived-fields/derived-fields.md#function-templates). |
+| Funzioni di campo derivate e modelli di funzione | Documentazione sulle funzioni aggiuntive derivate del campo ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successivo o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) e [modelli di funzioni](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Maggio 2024** | |
 | Integrazione di Target | Aggiunto [sezione integrazione da articolo a Adobe](/help/integrations/cja4t.md) su come integrare Target con Customer Journey Analytics. |
 | Informazioni richieste per l’esportazione di rapporti sul Customer Journey Analytics in Google Cloud Platform quando si utilizzano vincoli di criteri organizzativi | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà dell’Adobe alla [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md) documentazione per l’esportazione dei rapporti sul Customer Journey Analytics in Google Cloud Platform. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
