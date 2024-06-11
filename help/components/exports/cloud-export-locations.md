@@ -5,10 +5,10 @@ title: Configurare i percorsi di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
+source-git-commit: 1bf36f60b0b3aec04bb1452e5f63f97051d9bb50
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 17%
+source-wordcount: '1928'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    Viene visualizzata la finestra di dialogo Posizione.
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account. | | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
+1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account. | | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell’organizzazione**] | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md). <p>Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.</p> <p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> | | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.
 
@@ -127,7 +127,7 @@ Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazi
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Customer Journey Analytics. <p>Assicurati di aver concesso il `roles/storage.objectCreator` autorizzazione per l’entità fornita dall’Adobe. (L’entità viene fornita quando [configurazione dell’account di Google Cloud Platform](/help/components/exports/cloud-export-accounts.md).) <p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p><p>Se l’organizzazione utilizza [Vincoli dei criteri di organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints) per consentire solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di proprietà dell’Adobe Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Customer Journey Analytics. <p>Assicurati di aver concesso il `roles/storage.objectCreator` autorizzazione per l’entità fornita dall’Adobe. (L’entità viene fornita quando [configurazione dell’account di Google Cloud Platform](/help/components/exports/cloud-export-accounts.md).) <p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p><p>Se l’organizzazione utilizza [Vincoli dei criteri dell&#39;organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) per accettare solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di Google Cloud Platform di proprietà di Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}

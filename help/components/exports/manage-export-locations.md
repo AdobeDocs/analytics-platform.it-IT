@@ -5,9 +5,9 @@ title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: cdf99e31790f089950de8063445b6264158131dd
+source-git-commit: 6e36885cfba60c808b9f069159670db6834fe41f
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -54,6 +54,10 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
 ## Modifica posizioni
 
+Una posizione può essere modificata solo dall’utente che l’ha creata o da un amministratore di sistema.
+
+Per modificare una posizione:
+
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
 1. Seleziona la [!UICONTROL **Posizioni**] scheda.
@@ -95,6 +99,10 @@ Per eliminare una posizione:
 1. Seleziona [!UICONTROL **Elimina**] di nuovo per confermare.
 
 ## Modifica account
+
+Un account può essere modificato solo dall’utente che lo ha creato o da un amministratore di sistema.
+
+Per modificare un account:
 
 1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
