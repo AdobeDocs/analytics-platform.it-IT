@@ -2,10 +2,10 @@
 title: Estensione Customer Journey Analytics BI
 description: Scopri come utilizzare Query Service, Power BI, Tableau o altri strumenti BI e SQL per accedere alle visualizzazioni dati tramite l’estensione Customer Journey Analytics BI.
 solution: Customer Journey Analytics
-feature: SQL Connector
+feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
+source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
 workflow-type: tm+mt
 source-wordcount: '2743'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Il [!DNL Customer Journey Analytics BI extension] abilita l&#39;accesso SQL al [visualizzazioni dati](./data-views.md) che hai definito nel Customer Journey Analytics. I data engineer e gli analisti potrebbero avere più familiarità con Power BI, Tableau o altri strumenti di business intelligence e visualizzazione (denominati anche strumenti BI). Ora possono creare reporting e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti del Customer Journey Analytics durante la creazione dei loro progetti Analysis Workspace.
 
-Adobe Experience Platform [Servizio query](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) è l’interfaccia SQL per i dati disponibili nel data lake di Experienci Platform. Con il [!DNL Customer Journey Analytics BI extension] abilitato, la funzionalità di [!DNL Query Service] è esteso per visualizzare le visualizzazioni dati di Customer Journey Analytics come tabelle o viste in un [!DNL Query Service] sessione. Di conseguenza, gli strumenti di business intelligence che utilizzano [!DNL Query Service] come la loro interfaccia PostgresSQL beneficiare perfettamente di questa funzionalità estesa.
+Adobe Experience Platform [Servizio query](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) è l’interfaccia SQL per i dati disponibili nel data lake di Experienci Platform. Con il [!DNL Customer Journey Analytics BI extension] abilitato, la funzionalità di [!DNL Query Service] è esteso per visualizzare le visualizzazioni dati di Customer Journey Analytics come tabelle o viste in un [!DNL Query Service] sessione. Di conseguenza, gli strumenti di business intelligence che utilizzano [!DNL Query Service] come la loro interfaccia PostgresSQL beneficiare perfettamente di questa funzionalità estesa.
 
 I principali vantaggi sono i seguenti:
 
