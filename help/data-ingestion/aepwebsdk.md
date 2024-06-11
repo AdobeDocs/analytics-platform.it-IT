@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 83%
+source-wordcount: '3221'
+ht-degree: 82%
 
 ---
 
@@ -279,21 +279,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
 Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-Immagina di voler impostare l’estensione Experience Cloud ID Service per poter utilizzare facilmente l’ID Experience Cloud. Il servizio ID Experience Cloud identifica le persone in tutte le soluzioni Adobe Experience Cloud.
-
-Per creare e configurare l’estensione Experience Cloud ID Service:
-
-1. Seleziona **[!UICONTROL Extensions]** (Estensioni) nella barra a sinistra.
-
-2. Seleziona **[!UICONTROL Catalog]** (Catalogo) nella barra superiore.
-
-3. Cerca o scorri fino all’estensione Experience Cloud ID Service e seleziona **[!UICONTROL Install]** (Installa) per installarlo.
-
-   <img src="./assets/ecid-extension.png" width="35%"/>
-
-4. Lascia tutte le configurazioni come predefinite.
-
-5. Seleziona **[!UICONTROL Save]** (Salva).
+L’SDK per web include [!UICONTROL Adobe Experience Cloud ID Service] in modalità nativa, quindi non è necessario aggiungere l’estensione del servizio ID al tag.
 
 #### **Elementi dati**
 
@@ -613,4 +599,4 @@ Per ulteriori informazioni su come creare progetti e generare analisi utilizzand
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati sulla rete Edge per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gli elementi dati e le regole per acquisire i dati dal tuo sito Web e inviarli al tuo flusso di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
+>Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati nell’Edge Network per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gli elementi dati e le regole per acquisire i dati dal tuo sito Web e inviarli al tuo flusso di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
