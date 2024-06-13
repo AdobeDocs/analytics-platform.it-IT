@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: f4a235d90ad44dbb192b74a03accc7ad4a39e986
+source-git-commit: 6b8d9abf7d807a1e19aa86386eb2dae9bb18f472
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1173'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 1%
 
 Il **[!UICONTROL Retention rates]** visualizza misura il modo in cui gli utenti continuano a utilizzare il prodotto nel tempo, per comprenderne meglio l’adeguatezza al mercato. L’analisi conta gli utenti in base a due eventi importanti:
 
-* Evento iniziale: la prima volta che un utente si è attivato con l’evento iniziale all’interno dell’intervallo di date
-* Evento di ritorno: ora più recente in cui un utente si è impegnato con l’evento di ritorno all’interno dell’intervallo di date analizzato
+* Evento iniziale: evento utilizzato per qualificare gli utenti per l’inclusione nell’analisi.
+* Evento return: gli eventi con cui un utente deve interagire per essere considerato come un utente di ritorno nell’analisi.
 
 In questa vista, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con gli eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l&#39;opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno fatto l&#39;evento iniziale nella stessa data.
 
