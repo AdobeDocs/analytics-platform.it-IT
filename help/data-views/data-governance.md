@@ -4,10 +4,10 @@ description: Scopri in che modo le etichette dati e i criteri definiti in Adobe 
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 950c121e6c889e202f048d4a33e8fecde3cd9efe
+source-git-commit: 6526ca2b7caaf64acf29d97c859c3e813d003d2d
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 23%
+source-wordcount: '539'
+ht-degree: 20%
 
 ---
 
@@ -27,10 +27,10 @@ Le seguenti etichette sono di particolare interesse per il Customer Journey Anal
 
 L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzate le policy. Puoi creare i tuoi criteri utilizzando [Interfaccia utente Experienci Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide) o tramite [API del servizio criteri](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/api/overview) in Experience Platform.
 
-Nel Customer Journey Analytics vengono visualizzati due criteri definiti dall’Adobe che influiscono sul reporting e sul download/condivisione:
+In Adobe sono disponibili due criteri definiti da Experienci Platform che possono emergere nel Customer Journey Analytics e influire sulla generazione di rapporti e sull’esportazione dei dati:
 
-* **[!UICONTROL Enforce Analytics]** policy
-* **[!UICONTROL Enforce Download]** policy
+* **[!UICONTROL Restrict usage analytics and user based measurement]** policy, utilizzando `C8` etichetta e
+* **[!UICONTROL Restrict data export]** policy, utilizzando `C12` etichetta.
 
 ## Visualizzare le etichette dati nelle visualizzazioni dati del Customer Journey Analytics
 
@@ -40,13 +40,13 @@ Le etichette dati create da te o da altri utenti in Experienci Platform vengono 
 | --- | --- |
 | Pulsante Informazioni su un campo schema | Fai clic su questo pulsante per indicare le [!UICONTROL Data Usage Labels] attualmente applicabili a un campo:<p>![](assets/data-label-left.png) |
 | Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Tutte le [!UICONTROL Data Usage Labels] sono elencate qui:<p>![](assets/data-label-right.png) |
-| Aggiungi etichette dati come colonna | Puoi aggiungere una colonna [!UICONTROL Data Usage Labels] alle colonne dei [!UICONTROL Included Components] nelle visualizzazioni dati. Fai clic sull’icona del selettore colonne e seleziona **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
+| Aggiungi etichette dati come colonna | Puoi aggiungere una colonna [!UICONTROL Data Usage Labels] alle colonne dei [!UICONTROL Included Components] nelle visualizzazioni dati. Seleziona l’icona del selettore colonne e fai clic su **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
 
 {style="table-layout:auto"}
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
-Nell’editor delle visualizzazioni dati, fai clic su [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Data Governance]** e tipo di **[!UICONTROL Label]**:
+Nell’editor delle visualizzazioni dati, seleziona la [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Data Governance]** e tipo di **[!UICONTROL Label]**:
 
 ![](assets/filter-labels.png)
 
@@ -54,17 +54,17 @@ Fai clic su **[!UICONTROL Apply]** per vedere quali componenti dispongono di eti
 
 ## Filtrare i criteri di governance dei dati nelle visualizzazioni dati
 
-Puoi verificare se un criterio (ad esempio, un criterio denominato Enforce Analytics) è attivato e se tale criterio blocca l’utilizzo di determinati elementi della visualizzazione dati di Customer Journey Analytics per l’analisi.
+Puoi verificare se è presente un criterio (ad esempio, un criterio creato, denominato **[!UICONTROL Enforce Analytics]**) è acceso. E se tale criterio blocca l’utilizzo di determinati elementi di visualizzazione dati di Customer Journey Analytics per l’analisi o l’esportazione di dati.
 
-Di nuovo, fai clic su [!UICONTROL filter] nella barra a sinistra e sotto **[!UICONTROL Data Governance]**, fai clic su **[!UICONTROL Policies]**:
+Di nuovo, seleziona la [!UICONTROL filter] nella barra a sinistra e sotto **[!UICONTROL Data Governance]**, seleziona **[!UICONTROL Policies]**:
 
-![Filtra i componenti inclusi per elenco che mostra la selezione di Applica analisi](assets/filter-policies.png)
+![Filtra i componenti inclusi per elenco, mostrando la selezione di Limita analisi dell’utilizzo e misurazione basata sull’utente](assets/filter-policies.png)
 
 Clic **[!UICONTROL Apply]** per vedere quali criteri sono abilitati.
 
 ## Effetti dei criteri abilitati sulle visualizzazioni dati
 
-Se il **[!UICONTROL Enforce Analytics]** Se il criterio è attivato, i componenti dello schema a cui sono associate determinate etichette di dati (come C8) non possono essere aggiunti alle visualizzazioni dati.
+Se uno o più criteri sono attivati con etichette C8 o C12, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
 
 Questi componenti sono visualizzati in grigio nella barra a sinistra [!UICONTROL Schema fields] elenco:
 
@@ -72,7 +72,7 @@ Questi componenti sono visualizzati in grigio nella barra a sinistra [!UICONTROL
 
 Inoltre, non è possibile salvare una visualizzazione dati contenente campi bloccati.
 
-Prova ad applicare le etichette di accesso e governance dei dati ai campi o ai gruppi di campi di questo Experience Platform, per i quali hai già definito dei componenti nella visualizzazione dati. Potrebbe essere visualizzata questa finestra di dialogo.
+Prova ad applicare etichette di accesso e governance dei dati (tramite criteri) ai campi o ai gruppi di campi di questo Experience Platform, per i quali hai già definito dei componenti nella visualizzazione dati. Potrebbe essere visualizzata questa finestra di dialogo.
 
 ![Violazione](assets/violation.png)
 
