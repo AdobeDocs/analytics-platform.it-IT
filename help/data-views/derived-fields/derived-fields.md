@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
+source-git-commit: 6f99a732688f59e3950fc9b4336ad5b0434f24a7
 workflow-type: tm+mt
-source-wordcount: '7494'
+source-wordcount: '8019'
 ht-degree: 10%
 
 ---
@@ -593,7 +593,7 @@ Definisci un `Trip Duration (bucketed)` campo derivato. Puoi creare quanto segue
 | [!DNL long trip] |
 
 
-## Ulteriori informazioni
+## Ulteriori informazioni {#casewhen-more-info}
 
 Il Customer Journey Analytics utilizza una struttura di contenitori nidificati, modellata sul modello di Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model). Consulta [Contenitori](../create-dataview.md#containers) e [Contenitori di filtri](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di base. Questo modello di contenitore, anche se per sua natura flessibile, impone alcuni vincoli quando si utilizza il generatore di regole.
 
@@ -841,6 +841,8 @@ Impedisce di contare un valore più volte.
 
 +++ Dettagli
 
+{{release-limited-testing}}
+
 ## Specifiche {#deduplicate-io}
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
@@ -1022,7 +1024,7 @@ Definisci un’ `Activity Name` campo derivato. Utilizzi il [!UICONTROL LOOKUP] 
 
 ![Schermata della regola Minuscolo](assets/lookup.png)
 
-## Ulteriori informazioni
+## Ulteriori informazioni {#lookup-more-info}
 
 È possibile inserire rapidamente [!UICONTROL Lookup] funzione nel generatore di regole, che contiene già una o più altre funzioni.
 
@@ -1161,6 +1163,8 @@ Esistono alcune considerazioni importanti quando si lavora con numeri statici ne
 
    - Formula valida.
      ![Altre informazioni matematiche 5](assets/math-more-info-5.png)
+
+Utilizza la funzione Math per i calcoli basati su hit. Utilizza il [Riepiloga](#summarize) funzione per i calcoli basati su eventi, sessioni o persone.
 
 +++
 
@@ -1350,7 +1354,7 @@ Si crea un `Page Identifier` campo derivato. Utilizzi il [!UICONTROL REGEX REPLA
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## Ulteriori informazioni
+## Ulteriori informazioni {#regex-replace-more-info}
 
 Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl. Sono supportate le seguenti espressioni:
 
@@ -1492,6 +1496,75 @@ Si crea un `Second Response` campo derivato per estrarre l’ultimo valore dal c
 
 +++
 
+<!-- SUMMARIZE -->
+
+### Riepiloga
+
+Applica funzioni di tipo aggregazione a metriche o dimensioni a livello di evento, sessione e utente.
+
++++ Dettagli
+
+{{release-limited-testing}}
+
+## Specifiche {#summarize-io}
+
+| Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
+|---|---|---|---|---|
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>Valore<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Metodi di riepilogo</li><li>Portata<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li></ul> | <ul><li>Numeriche<ul><li>MAX: restituisce il valore più grande da un insieme di valori</li><li>MIN - restituisce il valore più piccolo da un insieme di valori</li><li>MEDIANA: restituisce la mediana per un insieme di valori</li><li>MEDIA: restituisce la media per un set di valori</li><li>SOMMA: restituisce la somma per un set di valori</li><li>COUNT: restituisce il numero di valori ricevuti</li><li>DISTINCT - restituisce un insieme di valori distinti</li></ul></li><li>Stringhe<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li></ul></li><li>Date<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li><li>PRIMA: il primo valore ricevuto (determinato in base al tempo); applicabile solo per le tabelle sessione ed evento</li><li>PIÙ RECENTE: l’ultimo valore ricevuto (determinato in base all’ora); applicabile solo per le tabelle di sessioni ed eventi</li></ul></li></ul> | 3 funzioni per campo derivato | Nuovo campo derivato |
+
+{style="table-layout:auto"}
+
+## Caso d’uso {#summarize-uc}
+
+Desideri classificare Aggiungi al carrello Ricavi in tre diverse categorie: Piccola, Media e Grande. Questo consente di analizzare e identificare le caratteristiche dei clienti di alto valore.
+
+### Dati prima di {#summarize-uc-databefore}
+
+Ipotesi:
+
+- Aggiungi al carrello I ricavi vengono raccolti come campo numerico.
+
+Scenari
+
+- CustomerABC123 aggiunge $35 al carrello per ProductABC, quindi aggiunge separatamente ProductDEF al carrello per $75.
+- CustomerDEF456 aggiunge $50 al carrello per ProductGHI, quindi aggiunge separatamente ProductJKL al carrello per $275.
+- CustomerGHI789 aggiunge $500 al carrello per ProductMNO.
+
+Logica:
+
+- Se il totale delle entrate da aggiungere al carrello per un visitatore è inferiore a 150 $, imposta su Piccola.
+- Se il totale delle entrate da aggiungere al carrello per un visitatore è superiore a 150 $ ma inferiore a 500 $, imposta su Medio.
+- Se il totale delle entrate da aggiungere al carrello per un visitatore è maggiore o uguale a 500 $, imposta su Grande.
+
+Risultati:
+
+- Ricavi totali da aggiungere al carrello per $110 per CustomerABC123.
+- Ricavi totali da aggiungere al carrello per $325 per CustomerDEF456.
+- Ricavi totali da aggiungere al carrello per $500 per CustomerGHI789.
+
+### Campo derivato {#summarize-uc-derivedfield}
+
+Crea un’ `Add To Cart Revenue Size` campo derivato. Utilizzi il [!UICONTROL SUMMARIZE] funzione e [!UICONTROL Sum] [!UICONTROL Summarize method] con [!UICONTROL Scope] imposta su [!UICONTROL Person] per sommare i valori del [!UICONTROL cart_add] campo. Poi usi un secondo [!UICONTROL CASE WHEN] per dividere il risultato nelle dimensioni delle categorie della struttura.
+
+![Schermata della regola di riepilogo 1](assets/summarize.png)
+
+
+
+### Dati dopo {#summarize-uc-dataafter}
+
+| Aggiungi al carrello dimensione ricavi | Visitatori |
+|---|--:|
+| Piccolo | 1 |
+| Canale | 1 |
+| Grande | 1 |
+
+{style="table-layout:auto"}
+
+## Ulteriori informazioni {#summarize-more-info}
+
+Utilizzare la funzione Riepiloga per i calcoli basati sull&#39;ambito evento, sessione o persona. Utilizza il [Matematica](#math) funzione per calcoli basati su hit.
+
++++
 
 <!-- TRIM -->
 
@@ -1507,7 +1580,6 @@ Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall&#39;inizio 
 |---|---|---|---|---|
 | <ul><li>Stringa</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Ritaglia spazio vuoto</li><li>Ritaglia caratteri speciali<ul><li>Inserimento di caratteri speciali</li></ul></li><li>Rifila da sinistra<ul><li>Da <ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li><li>Rifila da destra<ul><li>Da <ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
-{style="table-layout:auto"}
 
 ## Caso d’uso 1 {#trim-uc1}
 
@@ -1713,6 +1785,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | <p>Successivo o Precedente</p> | <ul><li>3 Funzioni Next o Previous per campo derivato</li></ul> |
 | <p>Regex Replace</p> | <ul><li>1 funzione Regex Replace per campo derivato</li></ul> |
 | <p>Split</p> | <ul><li>5 funzioni di suddivisione per campo derivato</li></ul> |
+| <p>Riepiloga</p> | <ul><li>3 Funzioni di riepilogo per campo derivato</li></ul> |
 | <p>Trim (Taglia)</p> | <ul><li>1 Funzione di ritaglio per campo derivato</li></ul> |
 | <p>Parsing URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
 
@@ -1733,7 +1806,7 @@ Ad esempio, la regola Classifica seguente utilizza 3 operatori.
 ![Schermata della regola di classificazione 1](assets/classify-1.png)
 
 
-## Ulteriori informazioni
+## Ulteriori informazioni {#trim-more-info}
 
 [`Trim`](#trim) e [`Lowercase`](#lowercase) sono funzioni già disponibili nelle impostazioni del componente in [Visualizzazioni dati](../component-settings/overview.md). L’utilizzo dei campi derivati consente di combinare queste funzioni per eseguire una trasformazione dei dati più complessa direttamente nel Customer Journey Analytics. Ad esempio, puoi utilizzare `Lowercase` per rimuovere la distinzione tra maiuscole e minuscole in un campo evento, quindi utilizzare [`Lookup`](#lookup) affinché il nuovo campo minuscolo corrisponda a un set di dati di ricerca con solo chiavi di ricerca in minuscolo. Oppure puoi utilizzare `Trim` per rimuovere i caratteri prima di eseguire la configurazione `Lookup` sul nuovo campo.
 
