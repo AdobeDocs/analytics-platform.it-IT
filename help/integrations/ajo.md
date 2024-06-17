@@ -4,8 +4,8 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 | --- | --- | --- |
 | Nome del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Tipo di componente: dimensione |
 | Nome e versione del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | Tipo di componente: dimensione |
-| Nome del nodo del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Tipo di componente: dimensione |
+| Nome del nodo del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | Tipo di componente: dimensione |
 | Tipo di nodo del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | Tipo di componente: dimensione |
 | Nome della campagna | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | Tipo di componente: dimensione |
 | Canale | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | Tipo di componente: dimensione |
@@ -85,11 +85,11 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 | Invii | Numero di messaggi accettati da provider e-mail. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `sent` |
 | Segnalazioni di spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `spam_complaint` |
 | Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
-| Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` |
-| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene mostrato all’utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` |
-| Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` |
-| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. Mobile SDK potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` |
-| Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` |
+| Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` | |
+| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene mostrato all’utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` | |
+| Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` | |
+| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. Mobile SDK potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` | |
+| Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` | |
 
 {style="table-layout:auto"}
 
