@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
+source-git-commit: 8ff130a20c719a594207f854ff3b85619f38b512
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 96%
+source-wordcount: '1632'
+ht-degree: 82%
 
 ---
 
@@ -43,10 +43,20 @@ Impostazioni generali per la visualizzazione dati.
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Connection] | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
-| [!UICONTROL Name] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nell’elenco a discesa in alto a destra in Analysis Workspace. |
-| [!UICONTROL External ID] | Obbligatorio. Nome della visualizzazione dati che è possibile utilizzare in origini esterne, ad esempio strumenti di business intelligence. Il valore predefinito è `unspecified`. Se non specifichi un ID esterno, il nome verrà generato dal Nome della visualizzazione dati, sostituendo gli spazi con trattini bassi. |
-| [!UICONTROL Description] | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
+| [!UICONTROL **Connessione**] | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
+| [!UICONTROL **Nome**] | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nell’elenco a discesa in alto a destra in Analysis Workspace. |
+| [!UICONTROL **ID esterno**] | Obbligatorio. Il nome della visualizzazione dati che è possibile utilizzare in origini esterne, ad esempio in strumenti di business intelligence. Il valore predefinito è `unspecified`. Se non specifichi un ID esterno, il nome verrà generato dal Nome della visualizzazione dati, sostituendo gli spazi con trattini bassi. |
+| [!UICONTROL **Descrizione**] | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
+
+{style="table-layout:auto"}
+
+### Compatibilità
+
+Fornisce le impostazioni applicabili quando si utilizza Adobe Journey Optimizer oltre al Customer Journey Analytics.
+
+| Impostazione | Descrizione |
+| --- | --- |
+| [!UICONTROL **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**] | Questa opzione di configurazione standardizza il reporting tra Journey Optimizer e il Customer Journey Analytics. Consente inoltre di eseguire analisi avanzate dei dati Adobe Journey Optimizer in Customer Journey Analytics (selezionando la [!UICONTROL **Analizzare in CJA**] in Journey Optimizer).<p>Per eseguire questo tipo di analisi, Journey Optimizer deve accedere a una visualizzazione dati del Customer Journey Analytics.<p>Abilita questa opzione per renderla la visualizzazione dati predefinita utilizzata nei rapporti di Journey Optimizer.</p><p>Questa opzione di configurazione esegue automaticamente le operazioni riportate di seguito.</p><ul><li>Configura tutti i set di dati Journey Optimizer richiesti nella connessione associata in Customer Journey Analytics per l’utilizzo con Journey Optimizer.</li><li>Crea un set di metriche e dimensioni di Journey Optimizer nella visualizzazione dati (inclusi campi derivati e metriche calcolate). Le etichette di contesto vengono impostate automaticamente su tutte queste metriche e dimensioni.<p>**Nota:** Se necessario, puoi apportare personalizzazioni manuali aggiuntive ai set di dati, alle dimensioni o alle metriche disponibili nelle visualizzazioni dati, che utilizzi sia per Journey Optimizer che per Customer Journey Analytics, come descritto in [Integrare Adobe Journey Optimizer con Adobe Customer Journey Analytics](/help/integrations/ajo.md). </p></li></ul><p>Puoi modificare la visualizzazione dati predefinita in un secondo momento, ma così facendo si potrebbero alterare i dati di reporting di Journey Optimizer. Se si sceglie di disattivare questa opzione dopo averla attivata, verrà richiesto di selezionare una nuova visualizzazione dati predefinita.</p> |
 
 {style="table-layout:auto"}
 
@@ -56,9 +66,9 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Person container name] | [!UICONTROL Person] (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
-| [!UICONTROL Session container name] | [!UICONTROL Session] (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
-| [!UICONTROL Event container name] | [!UICONTROL Event] (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
+| [!UICONTROL **Nome contenitore persona**] | [!UICONTROL Person] (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
+| [!UICONTROL **Nome contenitore sessione**] | [!UICONTROL Session] (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
+| [!UICONTROL **Nome contenitore eventi**] | [!UICONTROL Event] (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
 
 {style="table-layout:auto"}
 
@@ -68,11 +78,11 @@ Indica il formato del calendario da applicare alla visualizzazione dati. Puoi av
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Time zone] | Scegli il fuso orario da applicare ai dati che vengono presentati. Se scegli un fuso orario con ora legale, i dati vengono automaticamente regolati in base a tale impostazione. In primavera, quando si va avanti di un’ora, vi sarà un vuoto di un’ora. In autunno, quando si va indietro di un’ora, verrà ripetuta un’ora al momento del passaggio all’ora solare. |
-| [!UICONTROL Calendar Type] | Determina in che modo vengono raggruppate le settimane del mese.<br>**Gregoriano:** formato di calendario standard. I trimestri sono raggruppati per mese.<br>**4-5-4 Retail:** calendario 4-5-4 standard nel settore retail. Il primo e l’ultimo mese del trimestre contengono ciascuno 4 settimane; il secondo mese del trimestre è invece composto di 5 settimane.<br>**Custom (4-5-4):** simile al calendario 4-5-4 eccetto che è possibile scegliere il primo giorno dell’anno e in quale anno si verifica la settimana “extra”.<br>**Custom (4-4-5):** il primo e l’ultimo mese di ogni trimestre contengono ciascuno 4 settimane; l’ultimo mese di ogni trimestre è invece composto di 5 settimane.<br>**Custom (5-4-4):** il primo mese di ogni trimestre è composto di 5 settimane; il secondo e il terzo mese di ogni trimestre contengono ciascuno 4 settimane. |
-| [!UICONTROL First month of the year] e [!UICONTROL First day of week] | Visibile per il calendario di tipo gregoriano. Specifica il mese da cui vuoi iniziare l’anno solare e il giorno da cui vuoi iniziare ogni settimana. |
-| [!UICONTROL First day of current year] | Visibile per i calendari di tipo personalizzato. Specifica il giorno dell’anno da utilizzare come inizio dell’anno corrente. Il calendario formatta automaticamente il primo giorno di ogni settimana in base a tale valore. |
-| [!UICONTROL Year in which the "extra" week occurs] | Per la maggior parte dei calendari di 364 giorni (52 settimane di 7 giorni ciascuna), ogni anno i giorni rimanenti vengono accumulati fino a formare una settimana aggiuntiva. Questa viene quindi aggiunta all’ultimo mese dell’anno. Specifica a quale anno desideri aggiungere la settimana aggiungere. |
+| [!UICONTROL **Fuso orario**] | Scegli il fuso orario da applicare ai dati che vengono presentati. Se scegli un fuso orario con ora legale, i dati vengono automaticamente regolati in base a tale impostazione. In primavera, quando si va avanti di un’ora, vi sarà un vuoto di un’ora. In autunno, quando si va indietro di un’ora, verrà ripetuta un’ora al momento del passaggio all’ora solare. |
+| [!UICONTROL **Tipo di calendario**] | Determina in che modo vengono raggruppate le settimane del mese.<br>**Gregoriano:** formato di calendario standard. I trimestri sono raggruppati per mese.<br>**4-5-4 Retail:** calendario 4-5-4 standard nel settore retail. Il primo e l’ultimo mese del trimestre contengono ciascuno 4 settimane; il secondo mese del trimestre è invece composto di 5 settimane.<br>**Custom (4-5-4):** simile al calendario 4-5-4 eccetto che è possibile scegliere il primo giorno dell’anno e in quale anno si verifica la settimana “extra”.<br>**Custom (4-4-5):** il primo e l’ultimo mese di ogni trimestre contengono ciascuno 4 settimane; l’ultimo mese di ogni trimestre è invece composto di 5 settimane.<br>**Custom (5-4-4):** il primo mese di ogni trimestre è composto di 5 settimane; il secondo e il terzo mese di ogni trimestre contengono ciascuno 4 settimane. |
+| [!UICONTROL **Primo mese dell’anno**] e [!UICONTROL **Primo giorno della settimana**] | Visibile per il calendario di tipo gregoriano. Specifica il mese da cui vuoi iniziare l’anno solare e il giorno da cui vuoi iniziare ogni settimana. |
+| [!UICONTROL **Primo giorno dell&#39;anno corrente**] | Visibile per i calendari di tipo personalizzato. Specifica il giorno dell’anno da utilizzare come inizio dell’anno corrente. Il calendario formatta automaticamente il primo giorno di ogni settimana in base a tale valore. |
+| [!UICONTROL **Anno in cui si verifica la settimana &quot;extra&quot;**] | Per la maggior parte dei calendari di 364 giorni (52 settimane di 7 giorni ciascuna), ogni anno i giorni rimanenti vengono accumulati fino a formare una settimana aggiuntiva. Questa viene quindi aggiunta all’ultimo mese dell’anno. Specifica a quale anno desideri aggiungere la settimana aggiungere. |
 
 {style="table-layout:auto"}
 
