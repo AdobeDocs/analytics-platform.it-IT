@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 10751991e3c40cfefac7d32cea0b5cc557133232
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 69%
+source-wordcount: '1335'
+ht-degree: 64%
 
 ---
 
@@ -70,7 +70,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 ### Informazioni e impostazioni progetto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
 
 ![Finestra Informazioni e impostazioni progetto.](assets/projectinfo.png)
 
@@ -89,11 +89,19 @@ Le impostazioni includono:
 
 ## Barra a sinistra {#left-rail}
 
-Nel progetto Workspace, puoi accedere a [pannelli](/help/analysis-workspace/c-panels/panels.md), tabelle, [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) e [componenti] dalla barra a sinistra. Si tratta degli elementi di base del progetto.
+All’interno di un progetto, nella barra a sinistra sono disponibili varie icone, ciascuna delle quali rappresenta parti importanti di un progetto:
 
-Puoi anche accedere a visualizzazioni e pannelli dal [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md).
+* [Pannelli](/help/analysis-workspace/c-panels/panels.md) ![icona pannelli](assets/panels-icon.png)
 
-I componenti (dimensioni, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla vista di dati del pannello attivo. Il pannello attivo è evidenziato da un bordo blu e la vista dati attiva è elencata nella parte superiore della barra dei componenti.
+* [Visualizzare](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![icona delle visualizzazioni](assets/visualizations-icon.png)
+
+* [Componenti](/help/components/overview.md)![icona dei componenti](assets/components-icon.png)
+
+* [Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)![icona dizionario dati](assets/data-dictionary-icon.png)
+
+* [Sommario](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![icona sommario](assets/toc-icon.png)
+
+I componenti (dimensioni, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla vista di dati del pannello attivo. Il pannello attivo è identificato dal bordo blu che lo circonda e la visualizzazione dati attiva è elencata nella parte superiore della barra dei componenti.
 
 ![I componenti relativi alla visualizzazione dati del pannello attivo per la visualizzazione dati Demo cross-industry.](assets/left-rail.png)
 

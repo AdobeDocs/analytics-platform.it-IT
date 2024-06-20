@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: cf399df3a8043f5ec9fe723a531bf2f8af68799a
+source-git-commit: cef43e45a647674c6f2472e9402224b5cbc617da
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 76%
+source-wordcount: '1105'
+ht-degree: 75%
 
 ---
 
@@ -105,6 +105,7 @@ ht-degree: 76%
       + [Panoramica dei progetti](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Salvare progetti](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [Sommario del progetto](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle in Workspace](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -120,6 +121,7 @@ ht-degree: 76%
       + [Gestione delle origini dati](../analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabella a forma libera {#freeform-table}
          + [Tabella a forma libera](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Creare collegamenti ipertestuali per le dimensioni in una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Impostazioni colonna e riga {#column-row-settings}
             + [Impostazioni colonna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Impostazioni riga](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

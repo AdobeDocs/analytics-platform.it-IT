@@ -3,10 +3,11 @@ description: Scopri come aggiungere componenti a un progetto in Analysis Workspa
 title: Utilizzare i componenti in Analysis Workspace
 feature: Components
 role: User
-source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
+exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
+source-git-commit: 697503bba56f44159df7a2f6a0e60a0a4178266d
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 11%
+source-wordcount: '848'
+ht-degree: 7%
 
 ---
 
@@ -32,9 +33,13 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    ![](assets/build-components.png)
 
-1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
+1. Scorri fino al componente da aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
-   Ad esempio, puoi trascinare un filtro nella zona di rilascio del filtro nell’intestazione di un pannello.
+1. (Facoltativo) Trascina un componente nella zona di rilascio del filtro nell’intestazione di un pannello.
+
+   I filtri si applicano a tutto il contenuto del pannello.
+
+   Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
    ![rilascia un filtro nella zona di rilascio](assets/filter-dropzone.png)
 
@@ -44,7 +49,7 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    * [Aggiungere metriche a un progetto](#add-metrics-to-a-project)
 
-   * [Aggiungere un filtro a un progetto](#add-filters-to-a-project)
+   * [Aggiungere filtri a un progetto](#add-filters-to-a-project)
 
    * [Aggiungere intervalli di date a un progetto](#add-date-ranges-to-a-project)
 
@@ -61,6 +66,10 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
      ![Aggiungere dimensioni a un progetto](assets/add-dimensions.png)
 
    * Trascina una o più dimensioni dalla barra a sinistra alla zona di rilascio del filtro per creare un filtro ad hoc, come descritto in [Aggiungere filtri a un progetto](#add-filters-to-a-project).
+
+1. (Facoltativo) Puoi suddividere dimensioni ed elementi dimensionali in Analysis Workspace con altri componenti.
+
+   Per ulteriori informazioni, consulta [Suddividere dimensioni in Workspace](/help/components/dimensions/t-breakdown-fa.md).
 
 Per ulteriori informazioni sull’utilizzo delle dimensioni in Analysis Workspace, consulta [Anteprima dimensioni](/help/components/dimensions/view-dimensions.md), [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md), e [Dimensioni suddivise in base al tempo](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -90,31 +99,23 @@ Per ulteriori informazioni sulle metriche, consulta [Panoramica delle metriche c
 
 [Filtri](/help/components/filters/filters-overview.md) consente di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
 
-Per aggiungere un filtro a un progetto in Analysis Workspace:
+In Analysis Workspace puoi utilizzare i filtri in uno dei seguenti modi:
 
-1. Inizia ad aggiungere un filtro al progetto in Analysis Workspace, come descritto in [Inizia ad aggiungere componenti a un progetto](#begin-adding-components-to-a-project).
+### Aggiungere filtri a un pannello
 
-1. Per iniziare a filtrare il pannello, scegli uno dei seguenti metodi:
+Quando aggiungi filtri a un pannello, i filtri si applicano a tutto il contenuto al suo interno.
 
-   * Trascina un singolo filtro dalla barra a sinistra alla zona di rilascio del filtro.
+Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
-     ![rilascia un filtro nella zona di rilascio](assets/filter-dropzone.png)
+### Aggiungere filtri a una colonna di una tabella a forma libera
 
-   * Tenere premuto il tasto Maiusc o Ctrl per selezionare più filtri nella barra a sinistra, quindi tenere premuto il tasto Maiusc mentre vengono rilasciati nella zona di rilascio del filtro.
+Quando si aggiungono filtri a una colonna di una tabella a forma libera, i filtri vengono applicati a tutto il contenuto della colonna della tabella.
 
-     ![rilascia più filtri nella zona di rilascio](assets/filter-dropzone-multiple.png)
+### Utilizzare i filtri per creare metriche calcolate
 
-     Viene creato un menu a discesa che consente agli utenti del pannello di scegliere il filtro da applicare. Il menu a discesa contiene [!UICONTROL **Nessun filtro**] opzione che gli utenti possono selezionare, lasciando il pannello non filtrato.
+Nel generatore di metriche calcolate, puoi applicare filtri all’interno della definizione della metrica.
 
-     Puoi selezionare (x) per rimuovere qualsiasi opzione dal menu a discesa. Se si rimuove il [!UICONTROL **Nessun filtro**] , è necessario un filtro.
-
-   * Crea filtri ad hoc trascinando i componenti diversi dai filtri nella zona di rilascio. In questo modo puoi risparmiare tempo e fatica andando al Generatore di filtri. I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al filtro, quindi sull’icona Modifica a forma di matita per accedere al Generatore di filtri.
-
-     I filtri ad hoc sono un tipo di filtro rapido e sono locali per il progetto. Non vengono visualizzati nella barra a sinistra, a meno che tu non li renda pubblici.
-
-     Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
-
-Per ulteriori informazioni su come utilizzare la zona di rilascio dei filtri su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+Per ulteriori informazioni, consulta [Metriche filtrate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
 
 ## Aggiungere intervalli di date a un progetto
 

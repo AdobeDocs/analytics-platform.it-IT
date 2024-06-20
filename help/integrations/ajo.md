@@ -4,10 +4,10 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+source-git-commit: 6e1db2351aa9fcc4682b892334430c1896cee914
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 83%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 100%
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=it) ti consente di fornire esperienze connesse, contestuali e personalizzate. Aiuta i tuoi clienti a prendere familiarità con il passaggio successivo nel loro percorso.
 
-Puoi importare i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics eseguendo i seguenti passaggi:
+Puoi importare i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics. Puoi farlo automaticamente. Se necessario, puoi apportare personalizzazioni manuali aggiuntive ai set di dati, alle dimensioni o alle metriche disponibili nelle visualizzazioni dati, che utilizzi sia per Adobe Journey Optimizer che per Customer Journey Analytics.
 
-## Inviare dati da Journey Optimizer ad Adobe Experience Platform
+## Configurare automaticamente una visualizzazione dati del Customer Journey Analytics da utilizzare con Journey Optimizer
+
+Un’opzione di configurazione in Customer Journey Analytics consente di designare una visualizzazione dati di Customer Journey Analytics da utilizzare con Journey Optimizer, senza la necessità di eseguire la configurazione manuale. <p>Per informazioni su come abilitare questa opzione di configurazione, vedere [Compatibilità](/help/data-views/create-dataview.md#compatibility) sezione in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
+
+## Configurare manualmente una visualizzazione dati del Customer Journey Analytics da utilizzare con Journey Optimizer
+
+Le sezioni seguenti descrivono come importare manualmente i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics. Ciò è necessario solo se [opzione di configurazione automatica](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) non è sufficiente per le tue esigenze.
+
+### Inviare dati da Journey Optimizer ad Adobe Experience Platform
 
 Adobe Experience Platform funge da origine dati centrale e da collegamento tra Journey Optimizer e Customer Journey Analytics. Consulta [Introduzione ai set di dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/data-management/datasets/get-started-datasets.html?lang=it) nella guida utente di Journey Optimizer per i passaggi su come inviare dati Journey Optimizer a Platform come set di dati.
 
-## Creare una connessione in Customer Journey Analytics
+### Creare una connessione in Customer Journey Analytics
 
 Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) in base ai set di dati di Journey Optimizer. Oppure puoi aggiungere set di dati di Journey Optimizer a una connessione esistente.
 
@@ -38,7 +46,7 @@ Seleziona e configura i seguenti set di dati:
 {style="table-layout:auto"}
 
 
-## Configurare la vista dati in modo da adattarla alle dimensioni e alle metriche di Journey Optimizer
+### Configurare la vista dati in modo da adattarla alle dimensioni e alle metriche di Journey Optimizer
 
 Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data-views/create-dataview.md) per configurare le dimensioni e le metriche desiderate disponibili in Customer Journey Analytics.
 
@@ -47,7 +55,7 @@ Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data
 >Le discrepanze di dati tra Adobe Journey Optimizer e Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
 
 
-### Configurare dimensioni nella visualizzazione dati
+#### Configurare dimensioni nella visualizzazione dati
 
 Per ottenere una parità approssimativa con dimensioni simili in Journey Optimizer, puoi creare le dimensioni seguenti in una visualizzazione dati. Vedi [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati per informazioni sulle opzioni di personalizzazione della dimensione.
 
@@ -70,7 +78,7 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 
 {style="table-layout:auto"}
 
-### Configurare le metriche nella visualizzazione dati
+#### Configurare le metriche nella visualizzazione dati
 
 Per ottenere una parità approssimativa con metriche simili in Journey Optimizer, in una visualizzazione dati puoi creare le metriche seguenti. Vedi [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati per informazioni sulle opzioni di personalizzazione delle metriche.
 
@@ -93,7 +101,7 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 
 {style="table-layout:auto"}
 
-### Configurare le metriche calcolate in Analysis Workspace
+#### Configurare le metriche calcolate in Analysis Workspace
 
 Dopo aver configurato le dimensioni e le metriche desiderate per il set di dati di Journey Optimizer, puoi anche configurare le [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md) per ottenere ulteriori informazioni su tali dati. Queste metriche calcolate si basano sulle metriche precedenti create nella Gestione visualizzazione dati.
 
