@@ -3,9 +3,10 @@ title: Creare collegamenti ipertestuali in una tabella a forma libera in Analysi
 description: Scopri come creare collegamenti ipertestuali per gli elementi dimensionali in una tabella a forma libera in Analysis Workspace
 feature: Visualizations
 role: User
-source-git-commit: 433aabe6785527642db6b03ca54bd050323f2b70
+exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
+source-git-commit: 0c83d64a2ab3d23f92bc804092fc507479418052
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ Durante la creazione di collegamenti ipertestuali per gli elementi dimensionali,
   Se crei un collegamento ipertestuale con un URL non valido o se crei un collegamento ipertestuale che fa riferimento a un elemento dimensione che non ha un valore URL (facendo riferimento direttamente all’elemento dimensione o utilizzando `$value` o `$breakdown` ), gli utenti che fanno clic sul collegamento ipertestuale visualizzeranno un messaggio di errore in cui viene indicato che l’URL non è valido.
 
 * I collegamenti ipertestuali creati per un singolo elemento dimensionale sovrascrivono quelli creati sulla dimensione.
+
+* I collegamenti ipertestuali non funzionano in [file PDF scaricati](/help/analysis-workspace/export/download-send.md).
 
 Per creare collegamenti ipertestuali per uno o più elementi dimensionali:
 
@@ -130,4 +133,3 @@ Per rimuovere i collegamenti ipertestuali dagli elementi dimensione:
    Il collegamento ipertestuale viene rimosso dal singolo elemento dimensione (se hai selezionato un singolo elemento dimensione) o da tutti gli elementi dimensione (se hai selezionato il nome della dimensione nell’intestazione della colonna della dimensione).
 
 1. [Salvare il progetto](/help/analysis-workspace/build-workspace-project/save-projects.md) per salvare le modifiche.
-

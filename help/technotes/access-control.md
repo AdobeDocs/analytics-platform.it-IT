@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 7280bd21882e2baa31e76dbb6f983ccaf1af8633
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 51%
+source-wordcount: '1155'
+ht-degree: 52%
 
 ---
 
@@ -59,11 +59,7 @@ Oltre ad essere aggiunto come amministratore di prodotto nella **Profilo prodott
 
 * Esportare i set di dati nel cloud [Destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it)
 
-  >[!AVAILABILITY]
-  >
-  >La possibilità di esportare i set di dati nel cloud si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).
-
-  Per eseguire questa attività, gli utenti devono inoltre disporre delle seguenti autorizzazioni di Experience Platform:
+  Per eseguire questa attività, gli utenti devono disporre delle seguenti autorizzazioni di Experience Platform:
    * Gestire le destinazioni
    * Attivare le destinazioni
 
