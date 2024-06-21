@@ -4,10 +4,10 @@ description: Scopri in che modo il connettore di origine di Analytics si occupa 
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 0dc99750126ed5b88b1d1f2d4afc28acad0fe84e
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,12 @@ All’interno di identityMap:
 * Se ECID è presente, viene contrassegnato come identità primaria dell’evento. In questo caso AAID può essere basato su ECID come da spiegazione precedente.
 In caso contrario, AAID è contrassegnato come identità primaria dell’evento.
 * AACUSTOMID non viene mai contrassegnato come ID primario dell’evento. Tuttavia, se AACUSTOMID è presente, AAID è basato su AACUSTOMID come da spiegazione precedente.
+
+Quando la o le identità vengono copiate in `identityMap`, `endUserIDs._experience.mcid.namespace.code` è impostato anche sullo stesso evento:
+
+* Se AAID è presente, `endUserIDs._experience.aaid.namespace.code` è impostato su &quot;AAID&quot;.
+* Se è presente ECID, `endUserIDs._experience.mcid.namespace.code` è impostato su &quot;ECID&quot;.
+* Se è presente AACUSTOMID, `endUserIDs._experience.aacustomid.namespace.code` è impostato su &quot;AACUSTOMID&quot;.
 
 ## Customer Journey Analytics e ID primario
 
