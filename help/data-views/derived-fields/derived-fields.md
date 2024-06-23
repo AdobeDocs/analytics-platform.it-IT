@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: ca7e8db5f439d5447725473cb5c3a47c4d801ffa
+source-git-commit: a0515c68407b01dd39bed9f0bf9121b575d02dea
 workflow-type: tm+mt
-source-wordcount: '8019'
+source-wordcount: '8018'
 ht-degree: 10%
 
 ---
@@ -1247,7 +1247,7 @@ Accetta un campo come input e risolve il valore successivo o precedente per tale
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Method]:<ul><li>Valore precedente</li><li>Valore successivo</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Persona</li><li>Sessione</li></ul></li><li>[!UICONTROL Index]:<ul><li>Numeriche</li></ul><li>[!UICONTROL Include repeats]:<ul><li>Booleano</li></ul></li><li>[!UICONTROL Include 'No Values']:<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>3 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>[!UICONTROL Field]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Method]:<ul><li>Valore precedente</li><li>Valore successivo</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Persona</li><li>Sessione</li></ul></li><li>[!UICONTROL Index]:<ul><li>Numeriche</li></ul><li>[!UICONTROL Include repeats]:<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>3 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
