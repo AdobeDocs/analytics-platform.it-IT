@@ -1,13 +1,13 @@
 ---
 title: Estensione Customer Journey Analytics BI
-description: Scopri come utilizzare Query Service, Power BI, Tableau o altri strumenti BI e SQL per accedere alle visualizzazioni dati tramite l’estensione Customer Journey Analytics BI.
+description: Scopri come utilizzare Power BI o Tableau per accedere alle visualizzazioni dati utilizzando l’estensione Customer Journey Analytics BI.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
+source-git-commit: 483f74408cfb81f2cbbbb25df9402aa829be09b1
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2770'
 ht-degree: 1%
 
 ---
@@ -28,19 +28,17 @@ I principali vantaggi sono i seguenti:
 
 ## Prerequisiti
 
-Per utilizzare questa funzionalità, è necessario:
+Per utilizzare questa funzionalità, è necessario disporre di:
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
-* Configura la funzionalità per i profili di prodotto, i gruppi di utenti e/o i singoli utenti pertinenti. I requisiti di accesso includono:
-   * Servizio query Adobe Experience Platform
-   * Progetti Workspace nel Customer Journey Analytics
-   * Visualizzazioni dati CJA desiderate da utilizzare
-   * Accesso all’estensione BI negli strumenti di visualizzazione dati
-
+* Accesso concesso agli Experienci Platform e ai Customer Journey Analytics.
+* Accesso concesso dall’amministratore di prodotto al Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
+* Accesso consentito alle visualizzazioni dati a cui desideri accedere.
+* Accesso concesso all’estensione CJA BI.
 * Utilizzare le credenziali senza scadenza per connettere gli strumenti BI al [!DNL Customer Journey Analytics BI extension]. Il [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
 
-Consulta [Controllo dell’accesso](../technotes/access-control.md) per ulteriori informazioni, consulta la sezione Amministrazione del Customer Journey Analytics.
+Consulta [Controllo accesso Percorso clienti](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l’amministratore di prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni di Customer Journey Analytics nell’Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Utilizzo
@@ -84,7 +82,7 @@ In Adobe Experience Platform:
 
 +++
 
-Consulta [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) per ulteriori informazioni.
+Consulta la [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) per ulteriori informazioni.
 
 
 ### Strumenti BI
@@ -113,9 +111,9 @@ Attualmente, il [!DNL Customer Journey Analytics BI extension] è supportato e t
 
    1. In **[!UICONTROL ** Database PostgressSQL **]** finestra di dialogo:
 
-      1. Incolla **[!UICONTROL ** Host **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Host **]** parametro da query Experienci Platform [!UICONTROL Credentials] nel  **[!UICONTROL ** Server **]** campo di testo.
 
-      1. Incolla **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] nel **[!UICONTROL ** Database **]** campo di testo.
 
          Aggiungi `?FLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja?FLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) per ulteriori informazioni.
 
@@ -124,7 +122,7 @@ Attualmente, il [!DNL Customer Journey Analytics BI extension] è supportato e t
       1. Viene chiesto di **[!UICONTROL Username]** e **[!UICONTROL Password]**. Utilizzare i parametri equivalenti dalle query Experienci Platform [!UICONTROL Credentials].
 
 
-   1. Dopo aver eseguito correttamente l’accesso, le tabelle di visualizzazione dati del Customer Journey Analytics vengono visualizzate nel file di Power BI **[!UICONTROL ** Navigatore **]**.
+   1. Dopo aver eseguito correttamente l&#39;accesso, le tabelle di visualizzazione dati del Customer Journey Analytics vengono visualizzate in Power BI **[!UICONTROL ** Navigatore **]**.
 
    1. Selezionare le tabelle delle visualizzazioni dati che si desidera utilizzare e selezionare **[!UICONTROL ** Carica **]**.
 
@@ -154,11 +152,11 @@ Attualmente, il [!DNL Customer Journey Analytics BI extension] è supportato e t
 
    1. Nella finestra di dialogo [!UICONTROL PostgresSQL] (Crea elemento dati):
 
-      1. Incolla **[!UICONTROL ** Host **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Host **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Server **]** campo di testo.
 
-      1. Incolla **[!UICONTROL ** Porta **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Porta **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Porta **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Porta **]** campo di testo.
 
-      1. Incolla **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Database **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Database **]** campo di testo.
 
          Aggiungi `%3FFLATTEN` al **[!UICONTROL ** Database **]** , in modo che si legga come `prod:cja%3FFLATTEN` ad esempio. Consulta [Flatten delle strutture di dati nidificate da utilizzare con strumenti BI di terze parti](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) per ulteriori informazioni.
 
@@ -166,9 +164,9 @@ Attualmente, il [!DNL Customer Journey Analytics BI extension] è supportato e t
 
       1. Incolla **[!UICONTROL ** Nome utente **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Nome utente **]** campo di testo.
 
-      1. Incolla **[!UICONTROL ** Password **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Password **]** campo di testo.
+      1. Incolla il **[!UICONTROL ** Password **]** parametro da query Experienci Platform [!UICONTROL Credentials] in **[!UICONTROL ** Password **]** campo di testo.
 
-      1. Seleziona **[!UICONTROL ** Accedi **]**.
+      1. Seleziona la **[!UICONTROL ** Accedi **]**.
 
    1. Le visualizzazioni dati di Customer Journey Analytics vengono visualizzate come tabelle nella **[!UICONTROL ** Tabella **]** elenco.
 
@@ -215,14 +213,14 @@ Per impostazione predefinita, lo schema delle visualizzazioni dati utilizza stru
 
 Consulta [Riferimento SQL di Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview) per il riferimento completo sul tipo di SQL supportato.
 
-Per esempi dell&#39;istruzione SQL utilizzabile, vedere la tabella seguente.
+Per esempi delle istruzioni SQL utilizzabili, vedere la tabella seguente.
 
 +++ Esempi
 
 | Pattern | Esempio |
 |---|---|
 | Individuazione schema | <pre>SELECT * FROM dv1 WHERE 1=0</pre> |
-| Classifica/Raggruppamento | <pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  filterId = &#39;12345&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  E (dim2 = &#39;A&#39; O dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>RAGGRUPPA PER dim1</pre> |
+| Classificazione o raggruppamento | <pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  filterId = &#39;12345&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39; E<br/>  E (dim2 = &#39;A&#39; O dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>RAGGRUPPA PER dim1</pre> |
 | `HAVING` clausola | <pre>SELECT dim1, SUM(metric1) AS m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>AVENTI m1 > 100</pre> |
 | Distinct, top <br/>valori di dimensione | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1</pre><pre>SELECT dim1 AS dv1<br/>DA dv1<br/>DOVE \`timestamp\` >= &#39;2022-01-01&#39; E \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>RAGGRUPPA PER dim1<br/>ORDINA PER SOMMA(metrica1)<br/>LIMITE 15</pre> |
 | Totali delle metriche | <pre>SELEZIONA SOMMA(metrica1) COME m1<br/>DA dv1<br/>DOVE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;</pre> |
@@ -276,7 +274,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### Calcoli in linea
 
-Puoi applicare calcoli aggiuntivi alle espressioni metriche nelle tue `SELECT` invece di avere la matematica definita in una metrica calcolata. Nella tabella seguente sono elencati i tipi di espressioni supportati.
+Puoi applicare calcoli aggiuntivi alle espressioni metriche nelle tue `SELECT`. Puoi usare questa matematica invece di definirla in una metrica calcolata. Nella tabella seguente sono elencati i tipi di espressioni supportati.
 
 | Operatore o funzione | Dettagli |
 |---|---|
@@ -304,19 +302,19 @@ Il campo timestamp può essere utilizzato anche nelle funzioni data/ora per anal
 
 #### Intervallo date
 
-Il `daterange` la colonna speciale funziona in modo simile a  `timestamp`Tuttavia, il filtro è limitato a giorni interi. Il `daterange` è anche facoltativo e ha gli stessi valori predefiniti di intervallo di `timestamp`.
+Il `daterange` la colonna speciale funziona in modo simile a `timestamp`; tuttavia il filtro è limitato a giorni interi. Il `daterange` è anche facoltativo e ha gli stessi valori predefiniti di intervallo di `timestamp`.
 Il `daterange` Questo campo può essere utilizzato anche nelle funzioni data/ora per analizzare o troncare la data evento.
 
 Il `daterangeName` una colonna speciale può essere utilizzata per filtrare la query utilizzando un intervallo di date denominato come `Last Quarter`.
 
 >[!NOTE]
 >
->Power BI non supporta `daterange` metriche inferiori a un giorno (ora, 30 minuti, 5 minuti, ecc.).
+>Il Power BI non supporta `daterange` metriche inferiori a un giorno (ora, 30 minuti, 5 minuti, ecc.).
 
 
 #### ID filtro
 
-Il `filterId` la colonna special è facoltativa e viene utilizzata per applicare alla query un filtro definito esternamente. L’applicazione di un filtro definito esternamente a una query è simile al trascinamento di un filtro su un pannello in Workspace. È possibile fornire più ID filtro tramite `AND`...e li manda.
+Il `filterId` la colonna special è facoltativa e viene utilizzata per applicare alla query un filtro definito esternamente. L’applicazione di un filtro definito esternamente a una query è simile al trascinamento di un filtro su un pannello in Workspace. È possibile utilizzare più ID filtro di `AND`...e li manda.
 
 Insieme a `filterId`, è possibile utilizzare `filterName` per utilizzare il nome di un filtro invece dell’ID.
 
