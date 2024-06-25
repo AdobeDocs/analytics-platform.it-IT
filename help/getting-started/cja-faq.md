@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
 source-wordcount: '2342'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,14 +58,14 @@ Sì. L’[unione](../stitching/overview.md) esamina i dati utente provenienti da
 
 +++**Come funziona la “ripetizione” nell’unione?**
 
-L’unione “ripete” i dati in base a identificatori univoci appresi. La ripetizione ha lo scopo di unire gli eventi inizialmente non autenticati da dispositivi che nel frattempo sono stati identificati. [Ulteriori informazioni](../stitching/explained.md)
+L’unione “ripete” i dati in base a identificatori univoci appresi. La ripetizione ha lo scopo di unire gli eventi inizialmente non autenticati da dispositivi che nel frattempo sono stati identificati. [Ulteriori informazioni](../stitching/overview.md)
 
 +++
 
 
 +++**Come funziona l’unione dei dati storici (retrocompilazione)?**
 
-Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/explained.md)
+Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/overview.md)
 
 +++
 
@@ -176,7 +176,7 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 
 +++**Posso condividere/pubblicare [!UICONTROL audiences] da [!DNL Customer Journey Analytics] a Experience Platform Real-Time CDP o altre applicazioni Experience Cloud?**
 
-È possibile [creare e pubblicare pubblici](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) identificato in Customer Journey Analytics a Real-time Customer Profile in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+Puoi [creare e pubblicare tipi di pubblico](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish) rilevati in Customer Journey Analytics sul profilo del cliente in tempo reale in Adobe Experience Platform per la personalizzazione e il targeting della clientela.
 
 +++
 
