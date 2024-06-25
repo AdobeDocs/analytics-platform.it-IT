@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a4c35466b225d44130bb55204e2fdb155fa7dee6
+source-git-commit: 670443a8caf6b71f49fc63a23b5328609864a9be
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 1%
+source-wordcount: '703'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Le funzioni che tracciano la parte superiore di questa visualizzazione indicano 
 * Le funzioni in basso a sinistra nella matrice sono **impatto ridotto** caratteristiche; non sono ampiamente adottate o utilizzate di frequente.
 * Le funzioni in basso a destra della matrice sono **una tantum** caratteristiche; sono ampiamente adottati, ma non utilizzati di frequente.
 
-![Schermata del coinvolgimento](../assets/feature-matrix.png)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 ## Casi d’uso
 
