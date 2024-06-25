@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cfdbbacc1c6f280e8959513d8073cd17c8699962
+source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 63%
@@ -24,7 +24,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Trasformare i set di dati per le ricerche B2B | È stata aggiunta la documentazione su come supportare [ricerche basate su persone su dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne) utilizzando la trasformazione dei set di dati di ricerca B2B. |
 | Funzioni di campo derivate e modelli di funzione | È stata aggiunta la documentazione sulle funzioni aggiuntive derivate dei campi ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successivo o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) e [modelli di funzioni](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Maggio 2024** | |
-| Integrazione di Target | Aggiunto [sezione integrazione da articolo a Adobe](/help/integrations/cja4t.md) su come integrare Target con Customer Journey Analytics. |
+| Integrazione di Target | Aggiunto [sezione integrazione da articolo a Adobe](/help/integrations/at.md) su come integrare Target con Customer Journey Analytics. |
 | Informazioni richieste per l’esportazione di rapporti sul Customer Journey Analytics in Google Cloud Platform quando si utilizzano vincoli di criteri organizzativi | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà dell’Adobe alla [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md) documentazione per l’esportazione dei rapporti sul Customer Journey Analytics in Google Cloud Platform. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
 | Documentazione su come aggiungere componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Casi d’uso per l’esportazione di dati | Set di nuovi articoli che descrivono [casi d’uso per l’esportazione di dati](/help/use-cases/data-export/overview.md) e come utilizzare le funzionalità di Experience Platform e Customer Journey Analytics per implementare questi casi d’uso |
