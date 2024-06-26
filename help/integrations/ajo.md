@@ -4,30 +4,108 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 6e1db2351aa9fcc4682b892334430c1896cee914
+source-git-commit: 529dd2ed2af60f8b417a5bf7d728a201dad70218
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 83%
+source-wordcount: '1382'
+ht-degree: 54%
 
 ---
 
-# Integrare Adobe Journey Optimizer con Adobe Customer Journey Analytics
+# Integrare Journey Optimizer con Customer Journey Analytics
 
-[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=it) ti consente di fornire esperienze connesse, contestuali e personalizzate. Aiuta i tuoi clienti a prendere familiarità con il passaggio successivo nel loro percorso.
+[Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) ti consente di fornire esperienze connesse, contestuali e personalizzate. Aiuta i tuoi clienti a prendere familiarità con il passaggio successivo nel loro percorso.
 
-Puoi importare i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics. Puoi farlo automaticamente. Se necessario, puoi apportare personalizzazioni manuali aggiuntive ai set di dati, alle dimensioni o alle metriche disponibili nelle visualizzazioni dati, che utilizzi sia per Adobe Journey Optimizer che per Customer Journey Analytics.
+Puoi configurare i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics. Puoi configurare automaticamente questa integrazione. Se necessario, puoi effettuare personalizzazioni manuali aggiuntive ai set di dati, alle dimensioni o alle metriche disponibili nella connessione o nelle visualizzazioni dati.
 
-## Configurare automaticamente una visualizzazione dati del Customer Journey Analytics da utilizzare con Journey Optimizer
+## Configurare automaticamente l’integrazione di Journey Optimizer
 
-Un’opzione di configurazione in Customer Journey Analytics consente di designare una visualizzazione dati di Customer Journey Analytics da utilizzare con Journey Optimizer, senza la necessità di eseguire la configurazione manuale. <p>Per informazioni su come abilitare questa opzione di configurazione, vedere [Compatibilità](/help/data-views/create-dataview.md#compatibility) sezione in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
+{{release-limited-testing-section}}
 
-## Configurare manualmente una visualizzazione dati del Customer Journey Analytics da utilizzare con Journey Optimizer
+Journey Optimizer supporta l’utilizzo del Customer Journey Analytics come motore di reporting. Consulta [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja) nella documentazione di Journey Optimizer.
 
-Le sezioni seguenti descrivono come importare manualmente i dati generati da Journey Optimizer per eseguire analisi avanzate in Customer Journey Analytics. Ciò è necessario solo se [opzione di configurazione automatica](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) non è sufficiente per le tue esigenze.
+Dopo aver abilitato la generazione di rapporti di Customer Journey Analytics per Journey Optimizer, viene automaticamente [connessione](/help/connections/overview.md) e [visualizzazione dati](/help/data-views/data-views.md) vengono create per la sandbox specifica.
 
-### Inviare dati da Journey Optimizer ad Adobe Experience Platform
+### Connessione
 
-Adobe Experience Platform funge da origine dati centrale e da collegamento tra Journey Optimizer e Customer Journey Analytics. Consulta [Introduzione ai set di dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/data-management/datasets/get-started-datasets.html?lang=it) nella guida utente di Journey Optimizer per i passaggi su come inviare dati Journey Optimizer a Platform come set di dati.
+La connessione ha il nome **[!UICONTROL AJO Enabled Connection (*nome sandbox *)]**e ha i seguenti valori predefiniti per la configurazione e i set di dati:
+
+| **Impostazioni della connessione** | Valore |
+|---|---| 
+| [!UICONTROL Connection name] | `AJO Enabled Connection (`_`sandbox name`_`)` |
+| [!UICONTROL Connection description] | [!UICONTROL *Descrivi qui la tua connessione*] |
+| [!UICONTROL Tags] | [!UICONTROL *Seleziona tag*] |
+
+
+| **Impostazioni dati** | Valore |
+|---|---| 
+| [!UICONTROL Enable rolling data window] | Attivato. [!UICONTROL Selected number of months] `13`. |
+| [!UICONTROL Sandbox] | [!UICONTROL *nome della sandbox*] (disattivato; non è possibile modificare questa impostazione). |
+| [!UICONTROL Average number of daily events] | meno di 1 milione (disabilitato; non è possibile modificare questa impostazione). |
+
+
+| Nome del set di dati | Schema | Tipo di set di dati | Tipo di origine dati | ID persona | Chiave | Chiave corrispondente | Importare nuovi dati | Recupero dati |
+|---|---|---|---|---|---|---|---|---|
+| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience.decisioning.`<br/>`propositions.scopeDetails.`<br/>`correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+
+
+### Visualizzazione dati
+
+La visualizzazione dati ha il nome **Abilita visualizzazione dati di AJO (*nome sandbox*)**.
+
+- In **[!UICONTROL Configure]** , i seguenti valori sono configurati come predefiniti.
+
+  | Impostazioni | Valore |
+  |---|---|
+  | [!UICONTROL Connection] | Connessione abilitata per AJO (*nome sandbox*) |
+  | [!UICONTROL Name] | `AJO Enabled Data View (`_`sandbox name`_`)` |
+  | [!UICONTROL External ID] | `AJO_Enabled_Data_View__`_`sandbox_name`_`_` (derivato dal nome) |
+  | [!UICONTROL Description] | `undefined` |
+
+  {style="table-layout:fixed"}
+
+  | Compatibilità | Valore |
+  |---|---|
+  | [!UICONTROL Set as default data view in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con Journey Optimizer, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), vedere [Compatibilità](/help/data-views/create-dataview.md#compatibility) sezione in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l&#39;opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continue]**, è necessario selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Confirm]** per confermare la selezione. Seleziona **[!UICONTROL Cancel]** per annullare la modifica della visualizzazione dati predefinita. |
+
+  | Contenitori | Valore |
+  |---|---|
+  | [!UICONTROL Person container name] | `Person` |
+  | [!UICONTROL Session container name] | `Session` |
+  | [!UICONTROL Event container name] | `Event` |
+
+  | Calendario | Valore |
+  |---|---|
+  | [!UICONTROL Time zone] | Fuso orario conforme alla località |
+  | [!UICONTROL Calendar type] | Gregoriano |
+  | [!UICONTROL First month of the year] | Gennaio |
+  | [!UICONTROL First day of the week] | Domenica |
+
+
+- In **Componenti** scheda:
+   - Tutte le metriche e le dimensioni che hanno **[!UICONTROL (AJO)]** aggiunti al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
+   - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente sono basate su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. La metrica Clic su pagina di destinazione (AJO), ad esempio, si basa sul campo derivato Clic su pagina di destinazione.
+   - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, in AJO (Spam Complaint) sono applicate le impostazioni Formato e Includi valori di esclusione.
+   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata **[!UICONTROL :*name_of_metric_or_dimension *]**. Ad esempio, il[!UICONTROL Landing Page Clicks (AJO)] la metrica ha l’etichetta di contesto [!UICONTROL :Landing page clicks (AJO)].
+
+- In **[!UICONTROL Settings]** , non vengono applicati valori di configurazione specifici
+
+>[!IMPORTANT]
+>
+>La modifica di uno qualsiasi dei valori configurati automaticamente per la connessione e la visualizzazione dati ha conseguenze per il reporting di Journey Optimizer che si basa sull’integrazione del Customer Journey Analytics configurata automaticamente e la utilizza.
+
+
+## Configurare manualmente una visualizzazione dati da utilizzare con Journey Optimizer
+
+Le sezioni seguenti descrivono come utilizzare manualmente i dati generati da Journey Optimizer per eseguire analisi avanzate di Customer Journey Analytics. Ciò è necessario solo se [opzione di configurazione automatica](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) non è sufficiente per le tue esigenze.
+
+### Invia dati da Journey Optimizer a Experience Platform
+
+Adobe Experience Platform funge da origine dati centrale e da collegamento tra Journey Optimizer e Customer Journey Analytics. Consulta [Introduzione ai set di dati](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) nella guida utente di Journey Optimizer per i passaggi su come inviare dati Journey Optimizer ad Experience Platform come set di dati.
 
 ### Creare una connessione in Customer Journey Analytics
 
@@ -41,7 +119,7 @@ Seleziona e configura i seguenti set di dati:
 | Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail, come “[!UICONTROL Opens]”, “[!UICONTROL Clicks]”, e “[!UICONTROL Unsubscribes]”. |
 | Set di dati evento di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push, come “[!UICONTROL App Launches]”. |
 | Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
-| Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di percorso e campagna a tutti i dati evento Adobe Journey Optimizer. |
+| Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di Percorsi e Campaign a tutti i dati evento Journey Optimizer. |
 
 {style="table-layout:auto"}
 
@@ -52,12 +130,12 @@ Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data
 
 >[!NOTE]
 >
->Le discrepanze di dati tra Adobe Journey Optimizer e Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
+>Le discrepanze di dati tra Journey Optimizer e il Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
 
 
 #### Configurare dimensioni nella visualizzazione dati
 
-Per ottenere una parità approssimativa con dimensioni simili in Journey Optimizer, puoi creare le dimensioni seguenti in una visualizzazione dati. Vedi [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati per informazioni sulle opzioni di personalizzazione della dimensione.
+Per ottenere una parità approssimativa con dimensioni simili in Journey Optimizer, puoi creare le dimensioni seguenti in una visualizzazione dati. Consulta [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Data View Manager per informazioni dettagliate sulle opzioni di personalizzazione delle dimensioni.
 
 | Dimensione | Elemento dello schema | Impostazioni del componente |
 | --- | --- | --- |
@@ -96,7 +174,7 @@ Per ottenere una parità approssimativa con metriche simili in Journey Optimizer
 | Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` | |
 | Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene mostrato all’utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` | |
 | Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` | |
-| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. Mobile SDK potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` | |
+| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. L’SDK di Mobile potrebbe ignorare la decisione, riducendo il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` | |
 | Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` | |
 
 {style="table-layout:auto"}
