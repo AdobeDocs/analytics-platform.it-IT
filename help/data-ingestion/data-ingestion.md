@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: dca1cc33058ba57815c3534ab21da86d5247531a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 70%
+source-wordcount: '943'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,6 @@ Sono disponibili diverse opzioni per l’acquisizione dei dati in Customer Journ
 >[!IMPORTANT]
 >
 >In tutti gli scenari, i dati che desideri _usare_ in Customer Journey Analytics vengono effettivamente _inseriti_ in Adobe Experience Platform.
-
 
 Esamina l’architettura di Customer Journey Analytics di alto livello mostrata in precedenza nella sezione [Panoramica](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it):
 
@@ -35,13 +34,25 @@ Il set di dati nell’architettura di cui sopra può provenire da varie origini:
 
 - dati ricavati dal tracciamento del sito web/app mobile tramite Adobe Experience Platform Web/Mobile SDK,
 
-- dati provenienti dal tracciamento di un’applicazione desktop, un gioco da console, un set-top box o un dispositivo IoT mediante l’API server di rete Edge di Adobe Experience Platform, oppure
+- dati provenienti dal tracciamento di un’applicazione desktop, un gioco da console, un set-top box o un dispositivo IoT utilizzando l’API server Adobe Experience Platform Edge Network, oppure
 
 - dati provenienti da un provider di dati di terze parti per il quale Adobe fornisce un connettore di origine.
 
 È possibile avere molti set di dati come questi.
 
 Questa sezione della documentazione offre guide introduttive per vari scenari.
+
+## Priorità di acquisizione e latenza
+
+È possibile acquisire i dati dell’evento in Customer Journey Analytics entro 90 minuti (SLT), indipendentemente dal fatto che i dati abbiano 24 ore, 48 ore o 7 giorni.
+
+Tieni presente che questa funzionalità varia in base al pacchetto SKU acquistato dalla tua azienda:
+
+- Priority Ingestion Basic: dati di 24 ore entro l’elaborazione SLT di 90 minuti (disponibile per **CJA Foundation** e **Selezione CJA**)
+
+- Priority Ingestion Intermedio: dati risalenti a 72 ore prima dell’elaborazione con SLT di 90 minuti (disponibile per **CJA Prime**)
+
+- Priority Ingestion Advanced: dati risalenti a 1 settimana e con un’elaborazione SLT di 90 minuti (disponibile per **CJA Ultimate**)
 
 ## Inserire e usare i dati dalla versione tradizionale di Adobe Analytics
 
@@ -50,7 +61,7 @@ Immagina di aver già distribuito Adobe Analytics e di voler inserire questi dat
 Per ulteriori informazioni, consulta la sezione [Inserire e usare i dati dalla versione tradizionale di Adobe Analytics](./analytics.md).
 
 
-## Acquisire e utilizzare i dati tramite la rete Edge
+## Acquisire e utilizzare i dati tramite l’Edge Network
 
 ### Utilizzo di Adobe Experience Platform Web SDK
 
@@ -64,11 +75,11 @@ Desideri analizzare la tua app mobile con la tecnologia Adobe, eseguire potenzia
 
 Consulta [Acquisire e utilizzare i dati tramite l’SDK di Adobe Experience Platform Mobile](./aepmobilesdk.md) per ulteriori informazioni.
 
-### Utilizzo dell’API server di rete Edge di Adobe Experience Platform
+### Utilizzo dell’API server di Adobe Experience Platform Edge Network
 
-Si desidera analizzare l&#39;applicazione desktop, il gioco eseguito su una console di giochi, l&#39;utilizzo di un&#39;applicazione di streaming video su un set-top box o il dispositivo IoT con tecnologia Adobe. Migrazione potenziale da un&#39;altra soluzione o avvio del tracciamento del comportamento di una persona su questi dispositivi da zero. Desideri seguire le best practice di Adobe per l’implementazione, che utilizza le API server di Adobe Experience Platform Edge Network e Edge Network, per acquisire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
+Si desidera analizzare l&#39;applicazione desktop, il gioco eseguito su una console di giochi, l&#39;utilizzo di un&#39;applicazione di streaming video su un set-top box o il dispositivo IoT con tecnologia Adobe. Migrazione potenziale da un&#39;altra soluzione o avvio del tracciamento del comportamento di una persona su questi dispositivi da zero. Desideri seguire le best practice di Adobe per l’implementazione, che utilizza le API e gli Edge Network Adobe Experience Platform Edge Network Server, per acquisire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
 
-Consulta [Acquisire e utilizzare i dati tramite l’API del server di rete Edge di Adobe Experience Platform](./serverapi.md) per ulteriori informazioni.
+Consulta [Acquisire e utilizzare i dati tramite l’API Adobe Experience Platform Edge Network Server](./serverapi.md) per ulteriori informazioni.
 
 ## Inserire e utilizzare dati batch
 
