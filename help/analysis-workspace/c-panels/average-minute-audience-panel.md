@@ -3,9 +3,10 @@ title: Pannello Pubblico medio per minuto
 description: Come utilizzare e interpretare il pannello Pubblico medio per minuto in Analysis Workspace.
 feature: Panels
 role: User, Admin
-source-git-commit: 907a627720910794d77f016d797f1b95d2d3ce13
+exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1664'
 ht-degree: 31%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->Il pannello Pubblico medio per minuto di Media è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Media Analytics per il Customer Journey Analytics.
+>Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato per il Customer Journey Analytics il componente aggiuntivo Streaming Media Collection.
 >
->Per acquistare Media Analytics, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>Per acquistare il componente aggiuntivo Streaming Media Collection, contatta il rappresentante commerciale Adobe o il team dell’account Adobe.
 
 In Analysis Workspace, il pubblico medio per minuto corrisponde al tempo impiegato per visualizzare il flusso multimediale diviso per la durata del contenuto oppure per la selezione totale del periodo e della granularità selezionata.
 
@@ -34,7 +35,7 @@ Il pannello Pubblico medio per minuto fornisce i seguenti vantaggi rispetto alla
 
 ## Accedere al pannello Pubblico medio per minuto del file multimediale
 
-1. In Analysis Workspace, vai a una suite di rapporti i cui componenti Media Analytics sono abilitati.
+1. In Analysis Workspace, vai a una suite di rapporti i cui componenti sono abilitati dal componente aggiuntivo Streaming Media Collection.
 
 1. Nella barra di navigazione a sinistra, seleziona la **Pannelli** icona.
 

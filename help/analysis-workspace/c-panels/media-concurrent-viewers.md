@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Concurrent Viewers
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 76%
+source-wordcount: '1052'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il 
 
 In Analysis Workspace, per visualizzatori simultanei si intende il numero di persone univoche che visualizzano i flussi multimediali in un determinato momento, indipendentemente dal numero di sessioni.
 
-Il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.  Per accedere al pannello Visualizzatori simultanei di contenuti multimediali, passa a una visualizzazione dati in cui sono abilitati i componenti Media Analytics. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
+Il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.  Per accedere al pannello Visualizzatori simultanei di contenuti multimediali, passa a una visualizzazione dati con i componenti abilitati dal componente aggiuntivo Streaming Media Collection. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 
 Ecco una panoramica video del pannello:
 
