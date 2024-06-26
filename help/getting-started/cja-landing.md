@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 81%
+source-wordcount: '756'
+ht-degree: 72%
 
 ---
 
@@ -23,11 +23,17 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Assistente AI]
+>[!TAB Assistente IA]
 
 L’Assistente AI è un’esperienza di conversazione che consente ai professionisti di eseguire attività a ritmo veloce, sia che si tratti della comprensione dei concetti, della risoluzione dei problemi o della ricerca di informazioni. Consente inoltre ai non esperti di svolgere compiti di esperti e migliora la qualità complessiva del lavoro.
 
 [![immagine](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB Unione basata su grafico]
+
+Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experienci Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>Unire i set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone nel Customer Journey Analytics.</li></ul>
+
+[![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 >[!TAB Ricerche B2B]
 
@@ -37,7 +43,7 @@ Come parte della configurazione di una connessione, puoi trasformare i set di da
 
 >[!TAB Campi derivati]
 
-Sono ora disponibili nuove funzioni derivate per i campi (Matematica, Successivo o Precedente) e modelli di funzioni aggiuntivi (come Bounces, Friendly Dataset Name, Holiday Season, Monthly Goals, Simple Bot Detection e altri).
+Sono ora disponibili nuove funzioni di campo derivato (Math, Successivo o Precedente, Riepiloga) e modelli di funzioni aggiuntivi (come Bounces, Friendly Dataset Name, Holiday Season, Monthly Goals, Simple Bot Detection e altri).
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 

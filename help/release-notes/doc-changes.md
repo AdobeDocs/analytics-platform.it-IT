@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bad5e71a51d9bf5f2155ea5c711763fafebc1bcf
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3726'
 ht-degree: 62%
 
 ---
@@ -20,10 +20,10 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Giugno 2024** | |
-| Unione basata su grafico | È stata aggiornata la documentazione sull’unione con l’introduzione dell’unione basata su grafico. |
+| Unione basata su grafico | Aggiornato e ristrutturato [documentazione sull’unione](/help/stitching/overview.md) con l’introduzione dell’unione basata su grafico. |
 | Assistente IA | Aggiunto [documentazione](../ai-assistant.md) sull&#39;Assistente AI per il Customer Journey Analytics. |
 | Trasformare i set di dati per le ricerche B2B | È stata aggiunta la documentazione su come supportare [ricerche basate su persone su dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne) utilizzando la trasformazione dei set di dati di ricerca B2B. |
-| Funzioni di campo derivate e modelli di funzione | È stata aggiunta la documentazione sulle funzioni aggiuntive derivate dei campi ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successivo o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) e [modelli di funzioni](/help/data-views/derived-fields/derived-fields.md#function-templates). |
+| Funzioni di campo derivate e modelli di funzione | È stata aggiunta la documentazione sulle funzioni aggiuntive derivate dei campi ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successivo o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous), e [Riepiloga](/help/data-views/derived-fields/derived-fields.md#summarize)) e [modelli di funzioni](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Maggio 2024** | |
 | Integrazione di Target | Aggiunto [sezione integrazione da articolo a Adobe](/help/integrations/at.md) su come integrare Target con Customer Journey Analytics. |
 | Informazioni richieste per l’esportazione di rapporti sul Customer Journey Analytics in Google Cloud Platform quando si utilizzano vincoli di criteri organizzativi | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà dell’Adobe alla [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md) documentazione per l’esportazione dei rapporti sul Customer Journey Analytics in Google Cloud Platform. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
