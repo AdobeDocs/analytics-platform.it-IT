@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -31,7 +31,7 @@ L’Assistente AI è un’esperienza di conversazione che consente ai profession
 
 >[!TAB Unione basata su grafico]
 
-Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experienci Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>Unire i set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone nel Customer Journey Analytics.</li></ul>
+Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experience Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>Unire i set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone nel Customer Journey Analytics.</li></ul>
 
 [![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -53,7 +53,7 @@ L&#39;estensione BI consente a SQL di accedere alle visualizzazioni dati definit
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-<span style="color:gray">*_Per utilizzare l’estensione BI, devi disporre del pacchetto Select o versione successiva._</span>
+*_Per utilizzare l’estensione BI, è necessario disporre del pacchetto Select o di una versione successiva._*
 
 
 <!--

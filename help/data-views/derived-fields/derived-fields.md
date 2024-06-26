@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '7753'
 ht-degree: 9%
@@ -607,9 +607,9 @@ I seguenti vincoli si applicano e vengono applicati quando *selezione* e *impost
 
 |  | Vincoli |
 |:---:|----|
-| **<span style='color: red'>A</span>** | Valori *seleziona* all&#39;interno dello stesso [!UICONTROL If], [!UICONTROL Else If] costrutto (utilizzando [!UICONTROL And] o [!UICONTROL Or]) in una regola deve provenire dallo stesso contenitore e può essere di qualsiasi tipo (stringa ![Stringa](assets/Smock_ABC_18_N.svg), numerico ![Numerico](assets/Smock_123_18_N.svg)e così via). <br/>![Schermata della dipendenza A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | Tutti i valori *set* in una regola deve provenire dallo stesso contenitore e avere lo stesso tipo o un valore derivato dello stesso tipo. <br/> ![Schermata della dipendenza B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | I valori *seleziona* in orizzontale [!UICONTROL If], [!UICONTROL Else If] costrutti nella regola do *non* devono provenire dallo stesso contenitore ed eseguire *non* devono essere dello stesso tipo. <br/> ![Schermata della dipendenza C](assets/dependency-c.png) |
+| **A** | Valori *seleziona* all&#39;interno dello stesso [!UICONTROL If], [!UICONTROL Else If] costrutto (utilizzando [!UICONTROL And] o [!UICONTROL Or]) in una regola deve provenire dallo stesso contenitore e può essere di qualsiasi tipo (stringa ![Stringa](assets/Smock_ABC_18_N.svg), numerico ![Numerico](assets/Smock_123_18_N.svg)e così via). <br/>![Schermata della dipendenza A](assets/dependency-a.png) |
+| **B** | Tutti i valori *set* in una regola deve provenire dallo stesso contenitore e avere lo stesso tipo o un valore derivato dello stesso tipo. <br/> ![Schermata della dipendenza B](assets/dependency-b.png) |
+| **C** | I valori *seleziona* in orizzontale [!UICONTROL If], [!UICONTROL Else If] costrutti nella regola do *non* devono provenire dallo stesso contenitore ed eseguire *non* devono essere dello stesso tipo. <br/> ![Schermata della dipendenza C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -1151,7 +1151,7 @@ Per creare una formula:
 1. Per inserire un valore statico (ad esempio `1.05`), digita il valore e seleziona **[!UICONTROL Add *x *come valore statico]**o **[!UICONTROL Add -*x* come valore statico negativo]** dal menu a comparsa.
    ![Altre informazioni matematiche 2](assets/math-more-info-2.png)
 
-1. Un segno di spunta verde ![Segno Di Spunta](./assets/checkmark.svg)</span> indica se la formula matematica è valida, altrimenti verrà visualizzato un avviso <span style="color:red">![Avviso](./assets/alert.svg)</span> e il messaggio <span style="color:#ea3829">[!UICONTROL Invalid formula expression].</span>
+1. Un segno di spunta verde ![Segno Di Spunta](./assets/checkmark.svg)</span> indica se la formula matematica è valida, altrimenti verrà visualizzato un avviso ![Avviso](./assets/alert.svg) e il messaggio [!UICONTROL Invalid formula expression].
    ![Altre informazioni matematiche 3](assets/math-more-info-3.png)
 
 Esistono alcune considerazioni importanti quando si lavora con numeri statici nel [!UICONTROL MATH] funzione:
@@ -1516,7 +1516,7 @@ Applica funzioni di tipo aggregazione a metriche o dimensioni a livello di event
 
 ## Caso d’uso {#summarize-uc}
 
-Desideri classificare Aggiungi al carrello Ricavi in tre diverse categorie: Piccola, Media e Grande. Questo consente di analizzare e identificare le caratteristiche dei clienti di alto valore.
+Desideri classificare Aggiungi al carrello Ricavi in tre diverse categorie: Piccolo, Medium e Grande. Questo consente di analizzare e identificare le caratteristiche dei clienti di alto valore.
 
 ### Dati prima di {#summarize-uc-databefore}
 
@@ -1533,7 +1533,7 @@ Scenari
 Logica:
 
 - Se il totale delle entrate da aggiungere al carrello per un visitatore è inferiore a 150 $, imposta su Piccola.
-- Se il totale delle entrate da aggiungere al carrello per un visitatore è superiore a 150 $ ma inferiore a 500 $, imposta su Medio.
+- Se il totale dei ricavi totali aggiunti al carrello per un visitatore è superiore a 150 $ ma inferiore a 500 $, imposta Medium.
 - Se il totale delle entrate da aggiungere al carrello per un visitatore è maggiore o uguale a 500 $, imposta su Grande.
 
 Risultati:
