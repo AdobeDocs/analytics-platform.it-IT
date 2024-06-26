@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
 workflow-type: tm+mt
 source-wordcount: '2976'
 ht-degree: 12%
@@ -51,7 +51,7 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | [!UICONTROL Import new data] | Mostra lo stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg))    **[!UICONTROL _x _On]**per i set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
 | [!UICONTROL Date created] | Il timestamp in cui è stata creata la connessione. |
 | [!UICONTROL Last modified] | Il timestamp dell’ultimo aggiornamento della connessione. |
-| [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill di elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg))   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati per i set di dati, e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definiti backfill per i set di dati nella connessione. |
+| [!UICONTROL Backfill data] | Mostra lo stato dei dati di backfill tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riuscito]**per il numero di backfill non riusciti tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _elaborazione backfill]**per il numero di backfill di elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati per i set di dati, e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definiti backfill per i set di dati nella connessione. |
 
 Per configurare le colonne da visualizzare, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), che mostra **Personalizza tabella** consente di attivare o disattivare le colonne nella tabella.
 
@@ -89,7 +89,7 @@ In alternativa, è possibile:
 
 Quando si elimina una connessione, **[!UICONTROL Delete connection]** indica quali visualizzazioni dati vengono eliminate e quali progetti workspace sono interessati.
 
-<img src="./assets/delete-connection.png" alt="Elimina connessione" width="400"/>
+![Elimina connessione](assets/delete-connection.png)
 
 Seleziona **[!UICONTROL Continue]** per eliminare la connessione.
 
