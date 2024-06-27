@@ -4,7 +4,7 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
+source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 55%
@@ -90,7 +90,7 @@ La visualizzazione dati ha il nome **Abilita visualizzazione dati di AJO (*nome 
    - Tutte le metriche e le dimensioni che hanno [!UICONTROL (AJO)] aggiunti al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
    - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] è basato su [!UICONTROL Landing Page Clicks] campo derivato.
    - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio: [!UICONTROL Spam Complaint (AJO)] ha [!UICONTROL Format] e [!UICONTROL Include Exclude Values] impostazioni applicate.
-   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, il [!UICONTROL Landing Page Clicks (AJO)] la metrica ha l’etichetta di contesto `: Landing page clicks (AJO)`.
+   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, il [!UICONTROL Landing Page Clicks (AJO)] la metrica ha l’etichetta di contesto `:Landing page clicks (AJO)`.
 
 - In **[!UICONTROL Settings]** , non vengono applicati valori di configurazione specifici
 
