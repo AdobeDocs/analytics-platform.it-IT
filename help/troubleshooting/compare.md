@@ -1,33 +1,33 @@
 ---
-title: Confrontare i dati di Adobe Analytics con i dati Customer Journey Analytics
+title: Confrontare i dati di Adobe Analytics con quelli di Customer Journey Analytics
 description: Scopri come confrontare i dati di Adobe Analytics con quelli del Customer Journey Analytics
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: servizio query;servizio query;sintassi SQL;query service;Query service;sql syntax
+keywords: servizio query;servizio Query;sintassi SQL
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Confrontare i dati di Adobe Analytics con i dati Customer Journey Analytics
+# Confrontare i dati di Adobe Analytics con quelli di Customer Journey Analytics
 
-Quando l’organizzazione adotta il Customer Journey Analytics, potresti notare alcune differenze nei dati tra Adobe Analytics e Customer Journey Analytics. Questo è normale e può verificarsi per diversi motivi. Il Customer Journey Analytics è progettato per consentirti di migliorare alcune delle limitazioni sui dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate e non intenzionali. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare il Customer Journey Analytics senza problemi per l’integrità dei dati.
+Quando l’organizzazione adotta Customer Journey Analytics, si possono notare alcune differenze confrontando i dati con quelli di Adobe Analytics. Questo è normale e può verificarsi per diversi motivi. Customer Journey Analytics è progettato per aiutare a migliorare alcune delle limitazioni ai dati in AA. Tuttavia, possono verificarsi discrepanze inaspettate e non previste. Questo articolo è progettato per aiutarti a diagnosticare e risolvere tali differenze in modo che tu e il tuo team possiate usare Customer Journey Analytics senza problemi per l’integrità dei dati.
 
-Supponiamo che tu abbia acquisito i dati di Adobe Analytics in Adobe Experience Platform tramite [Connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it)e quindi ha creato una connessione di Customer Journey Analytics utilizzando questo set di dati.
+Supponiamo che tu abbia acquisito i dati di Adobe Analytics in Adobe Experience Platform tramite il [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) e quindi creato una connessione a Customer Journey Analytics utilizzando questo set di dati.
 
-![Il flusso di dati da Adobe Analytics attraverso il connettore dati a Adobe Experience Platform e ad Customer Percorsi Analytics utilizzando le connessioni CJA.](assets/compare.png)
+![Il flusso di dati da Adobe Analytics attraversa il connettore dati verso Adobe Experience Platform e Customer Journey Analytics utilizzando le connessioni di quest’ultimo.](assets/compare.png)
 
-Successivamente, hai creato una visualizzazione dati e hai notato delle discrepanze con i risultati dei rapporti in Adobe Analytics, quando effettui rapporti su tali dati il Customer Journey Analytics.
+Successivamente, hai creato una visualizzazione dati e hai notato delle discrepanze con i risultati dei rapporti in Adobe Analytics, quando effettui rapporti su questi dati su Customer Journey Analytics.
 
 Di seguito sono riportati alcuni passaggi per confrontare i dati Adobe Analytics originali con quelli di Adobe Analytics attualmente in Customer Journey Analytics.
 
 ## Prerequisiti
 
-* Assicurati che il set di dati di Analytics in Adobe Experience Platform contenga dati per l’intervallo di date che stai esaminando.
+* Assicurati che il set di dati di Analytics in Adobe Experiencve Platform contenga dati per l’intervallo di date che stai esaminando.
 
 * Assicurati che la suite di rapporti selezionata in Analytics corrisponda alla suite di rapporti che è stata acquisita in Adobe Experience Platform.
 
@@ -41,7 +41,7 @@ La metrica [Occorrenze](https://experienceleague.adobe.com/docs/analytics/compon
 
 1. Salva questo progetto in modo da poterlo utilizzare nel confronto.
 
-## Passaggio 2: confrontare i risultati con [!UICONTROL Total records by timestamps] nel Customer Journey Analytics
+## Passaggio 2: confrontare i risultati con [!UICONTROL Total records by timestamps] in Customer Journey Analytics
 
 Ora confronta le [!UICONTROL Occurrences] in Analytics con i record totali per marca temporale in Customer Journey Analytics.
 
@@ -49,9 +49,9 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
 
 >[!NOTE]
 >
->Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite [Stitching](/help/stitching/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato nel Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, soprattutto se Stitching è stato attivato.
+>Questo funziona solo per i set di dati con valori medi regolari, non per i set di dati con unione (tramite l’[unione](/help/stitching/overview.md)). Tieni presente che la contabilizzazione dell’ID persona utilizzato in Customer Journey Analytics è fondamentale per il corretto funzionamento del confronto. Potrebbe non essere sempre facile replicarlo in Adobe Analytics, specialmente se l’unione è stata attivata.
 
-1. Da Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it), esegui la seguente query [!UICONTROL Total Records by timestamps]:
+1. Dai [Servizi query](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=it) di Adobe Experience Platform, esegui la seguente query [!UICONTROL Total Records by timestamps]:
 
    ```sql
    SELECT
@@ -79,15 +79,15 @@ I record totali per marca temporale devono corrispondere alle occorrenze, purch�
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html).
+   Per ulteriori informazioni su hit\_source, consulta: [Riferimento colonna dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it). Per ulteriori informazioni su page\_event consulta: [Ricerca eventi pagina](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=it).
 
 1. Se il connettore ha filtrato delle righe, sottrarle dalla metrica [!UICONTROL Occurrences]. Il numero risultante deve corrispondere al numero di eventi nei set di dati Adobe Experience Platform.
 
-## Perché i record potrebbero essere filtrati o saltati durante l’acquisizione da Adobe Experience Platform
+## Perché i registri possono essere filtrati o saltati durante l’acquisizione da Adobe Experience Platform
 
-Customer Journey Analytics [Connessioni](/help/connections/create-connection.md) ti consente di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplicazione: join esterno completo o unione su set di dati evento basati su marche temporali, quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
+Le [Connessioni](/help/connections/create-connection.md) di Customer Journey Analytics ti consentono di unire più set di dati in base a un ID persona comune nei set di dati. Sul back-end, si applica la deduplica: join esterno completo o unione su set di dati evento basati su marche temporali, quindi join interno su un set di dati di profilo e di ricerca, in base all’ID persona.
 
-Di seguito sono riportati alcuni dei motivi per cui i record potrebbero essere ignorati durante l’acquisizione di dati da Adobe Experience Platform.
+Ecco alcuni dei motivi per cui i record potrebbero essere ignorati durante l’acquisizione di dati da Adobe Experience Platform.
 
 * **Marca temporale mancante** - Se le marche temporali non sono presenti nei set di dati dell’evento, questi verranno completamente ignorati o saltati durante l’acquisizione.
 
