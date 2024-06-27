@@ -4,10 +4,10 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 529dd2ed2af60f8b417a5bf7d728a201dad70218
+source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 54%
+source-wordcount: '1366'
+ht-degree: 55%
 
 ---
 
@@ -45,7 +45,7 @@ La connessione ha il nome **[!UICONTROL AJO Enabled Connection (*nome sandbox *)
 
 | Nome del set di dati | Schema | Tipo di set di dati | Tipo di origine dati | ID persona | Chiave | Chiave corrispondente | Importare nuovi dati | Recupero dati |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience.decisioning.`<br/>`propositions.scopeDetails.`<br/>`correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
+| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
 | [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) On | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattivato |
@@ -87,10 +87,10 @@ La visualizzazione dati ha il nome **Abilita visualizzazione dati di AJO (*nome 
 
 
 - In **Componenti** scheda:
-   - Tutte le metriche e le dimensioni che hanno **[!UICONTROL (AJO)]** aggiunti al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
-   - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente sono basate su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. La metrica Clic su pagina di destinazione (AJO), ad esempio, si basa sul campo derivato Clic su pagina di destinazione.
-   - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, in AJO (Spam Complaint) sono applicate le impostazioni Formato e Includi valori di esclusione.
-   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata **[!UICONTROL :*name_of_metric_or_dimension *]**. Ad esempio, il[!UICONTROL Landing Page Clicks (AJO)] la metrica ha l’etichetta di contesto [!UICONTROL :Landing page clicks (AJO)].
+   - Tutte le metriche e le dimensioni che hanno [!UICONTROL (AJO)] aggiunti al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
+   - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] è basato su [!UICONTROL Landing Page Clicks] campo derivato.
+   - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio: [!UICONTROL Spam Complaint (AJO)] ha [!UICONTROL Format] e [!UICONTROL Include Exclude Values] impostazioni applicate.
+   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, il [!UICONTROL Landing Page Clicks (AJO)] la metrica ha l’etichetta di contesto `: Landing page clicks (AJO)`.
 
 - In **[!UICONTROL Settings]** , non vengono applicati valori di configurazione specifici
 
