@@ -7,7 +7,7 @@ exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 71%
+ht-degree: 88%
 
 ---
 
@@ -25,19 +25,19 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!TAB Assistente IA]
 
-L’Assistente AI è un’esperienza di conversazione che consente ai professionisti di eseguire attività a ritmo veloce, sia che si tratti della comprensione dei concetti, della risoluzione dei problemi o della ricerca di informazioni. Consente inoltre ai non esperti di svolgere compiti di esperti e migliora la qualità complessiva del lavoro.
+L’Assistente IA è un’esperienza conversazionale che consente ai professionisti di eseguire rapidamente attività, sia che si tratti di comprensione dei concetti, che di risoluzione dei problemi o di effettuare ricerche all’interno delle informazioni. Consente inoltre agli utenti non esperti di svolgere le attività degli esperti e migliora la qualità complessiva del lavoro.
 
 [![immagine](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 >[!TAB Unione basata su grafico]
 
-Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experience Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>Unire i set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone nel Customer Journey Analytics.</li></ul>
+Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experience Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>L’unione di set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone presenti in Customer Journey Analytics.</li></ul>
 
 [![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 >[!TAB Ricerche B2B]
 
-Come parte della configurazione di una connessione, puoi trasformare i set di dati per schemi di ricerca B2B specifici per supportare meglio le ricerche basate su persone sui dati B2B.
+Come parte della configurazione di una connessione, è possibile trasformare i set di dati per schemi di ricerca B2B specifici, per supportare meglio le ricerche basate su persone sui dati B2B.
 
 [![immagine](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
 
@@ -49,7 +49,7 @@ Sono ora disponibili nuove funzioni di campo derivato (Math, Successivo o Preced
 
 >[!TAB Estensione BI*]
 
-L&#39;estensione BI consente a SQL di accedere alle visualizzazioni dati definite in Customer Journey Analytics. Ora puoi utilizzare il tuo strumento BI preferito per creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti di Customer Journey Analytics con i loro progetti Analysis Workspace.
+L’estensione BI consente a SQL di accedere alle visualizzazioni dati definite in Customer Journey Analytics. Ora puoi utilizzare il tuo strumento BI preferito per creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti di Customer Journey Analytics con i loro progetti Analysis Workspace.
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
@@ -73,7 +73,7 @@ La previsione è una funzione di Analysis Workspace che consente di prevedere un
 
 >[!TAB Nuova documentazione]
 
-Sono ora disponibili nuove sezioni della documentazione su:<ul><li>Come effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.</li><li>Casi d’uso sull’esportazione dati e sulle relative funzionalità di Experience Platform e Customer Journey. </li></ul>Seleziona **[!UICONTROL Learn more]** per questo e altri aggiornamenti della documentazione.
+Sono disponibili ora nuove sezioni della documentazione sui seguenti argomenti:<ul><li>Come effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.</li><li>Casi d’uso sull’esportazione dati e sulle relative funzionalità di Experience Platform e Customer Journey. </li></ul>Seleziona **[!UICONTROL Learn more]** per questo e altri aggiornamenti della documentazione.
 
 [![immagine](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -151,8 +151,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 ## Risorse aggiuntive
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto del Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente AI</a>
+<td><strong>Customer Journey Analytics</strong><br/><a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente IA</a>
 </td>
 <td><strong>Acquisizione dei dati</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Panoramica</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Origini</a> - <a href="/help/data-ingestion/serverapi.md">API server</a>
 </td>
