@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 83e568d686a541bb6472a33dc0a7400cf6e8de2a
+source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 11%
@@ -54,7 +54,7 @@ Puoi trarre vantaggio dall’analisi cross-channel se combini uno o più set di 
 >
 >- Se rimuovi il set di dati di origine, il set di dati uniti non elabora più i dati e viene rimosso dal sistema.
 >
->- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati uniti. Se hai applicato le etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente allo schema del set di dati uniti. Consulta [Gestione delle etichette di utilizzo dei dati in Experienci Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) per ulteriori informazioni.
+>- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati uniti. Se hai applicato le etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente allo schema del set di dati uniti. Consulta [Gestione delle etichette di utilizzo dei dati in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) per ulteriori informazioni.
 
 L’unione è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
@@ -71,7 +71,7 @@ Assicurati di non confondere l’unione con:
 
 ## Unione basata sui campi
 
-Specifica un set di dati evento, nonché l’ID persistente (cookie) e l’ID transitorio (ID persona) per quel set di dati. L’unione basata sui campi crea una nuova colonna ID unita nel nuovo set di dati uniti e aggiorna questa colonna ID unita in base alle righe che hanno un ID transitorio per quello specifico ID persistente. <br/>È possibile utilizzare l’unione basata sui campi quando si utilizza il Customer Journey Analytics come soluzione indipendente (senza avere accesso al servizio Experienci Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
+Specifica un set di dati evento, nonché l’ID persistente (cookie) e l’ID transitorio (ID persona) per quel set di dati. L’unione basata sui campi crea una nuova colonna ID unita nel nuovo set di dati uniti e aggiorna questa colonna ID unita in base alle righe che hanno un ID transitorio per quello specifico ID persistente. <br/>È possibile utilizzare l’unione basata sui campi quando si utilizza il Customer Journey Analytics come soluzione indipendente (senza avere accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
 
 ![Unione basata sui campi](/help/stitching/assets/fbs.png)
 
@@ -210,7 +210,7 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata sui c
 
 ## Unione basata su grafico
 
-Specifica un set di dati evento, nonché l’ID persistente (cookie) e lo spazio dei nomi dell’ID transitorio (ID persona) per tale set di dati. L’unione basata su grafico crea una nuova colonna per l’ID unione nel nuovo set di dati uniti. Quindi utilizza l’ID persistente per eseguire query sul grafo delle identità dal servizio Identity di Experienci Platform, utilizzando lo spazio dei nomi specificato, per aggiornare l’ID unito.
+Specifica un set di dati evento, nonché l’ID persistente (cookie) e lo spazio dei nomi dell’ID transitorio (ID persona) per tale set di dati. L’unione basata su grafico crea una nuova colonna per l’ID unione nel nuovo set di dati uniti. Quindi utilizza l’ID persistente per eseguire query sul grafo delle identità dal servizio Identity di Experience Platform, utilizzando lo spazio dei nomi specificato, per aggiornare l’ID unito.
 
 ![Unione basata su grafico](/help/stitching/assets/gbs.png)
 
@@ -273,7 +273,7 @@ Con un’unione di ripetizione che si verifica alle 16:30 del 2023-05-13, con un
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -289,7 +289,7 @@ Con la ripetizione dell’unione che si verifica alle 16:30 23-05-13, con una co
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
 | ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -322,7 +322,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 I seguenti prerequisiti si applicano in modo specifico all’unione basata su grafico:
 
 - Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere una colonna che identifica un visitatore su ogni riga, la **ID persistente**. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Cloud Identity.
-- il grafo delle identità di Experience Cloud Identity Service deve contenere uno spazio dei nomi (ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experienci Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
+- il grafo delle identità di Experience Cloud Identity Service deve contenere uno spazio dei nomi (ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
 
 
 ### Limitazioni
