@@ -5,10 +5,10 @@ title: Sommario di un progetto
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
+source-git-commit: a6eeb4d35e9cbface2d8e880f976b2ad0aaf74a7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 All’interno di ogni progetto in Analysis Workspace, puoi visualizzare un sommario che ti consente di passare rapidamente da un pannello all’altro e alle visualizzazioni presenti nel progetto. Questa funzione è particolarmente utile quando si visualizzano progetti più grandi che contengono molti pannelli e visualizzazioni.
 
-+++Visualizza una dimostrazione video di questa funzione.
++++  Visualizzare una dimostrazione video di questa funzione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
 
