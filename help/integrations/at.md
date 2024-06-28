@@ -1,26 +1,38 @@
 ---
-title: Integrare Target con Customer Journey Analytics
-description: Integrare Target con Customer Journey Analytics
+title: Generazione di rapporti di Target in Adobe Customer Journey Analytics
+description: Integrare Adobe Target con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: 9691e60e0ecb4cb6b48355c653fa66d824560f80
+source-git-commit: b189776de8cadae3a93c717b6814f2130ab1be43
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '385'
+ht-degree: 40%
 
 ---
 
-# Integrare Target con Customer Journey Analytics
+# Generazione di rapporti di Target in Adobe Customer Journey Analytics
 
-I clienti di Adobe Target possono configurare il Customer Journey Analytics come origine per la generazione di rapporti.
+Il reporting di Target nel Customer Journey Analytics consente di misurare e creare rapporti sulle attività di Adobe Target direttamente nel Customer Journey Analytics. Questa funzionalità è paragonabile a quella eseguita in Adobe Analytics (AA) tramite Analytics for Target (A4T), ma con la connettività a Adobe Experience Platform (AEP).
 
-I vantaggi principali sono:
+Aggiungendo il set di dati di ricerca della classificazione di Target (disponibile per impostazione predefinita in Experience Platform) in una connessione di Customer Journey Analytics, gli utenti ora dispongono della corretta esposizione agli strumenti di reporting di Target, all’attribuzione dell’ordine di Target e ad altre funzioni. Con solo alcune preparazioni e modifiche minori effettuate all’interno della visualizzazione dati del Customer Journey Analytics, queste attività possono essere rese immediatamente disponibili per qualsiasi utente che desideri inviare i dati di Target direttamente in CJA.
 
-* Gli addetti al marketing possono applicare dinamicamente le metriche di successo del Customer Journey Analytics ai rapporti delle attività di Target in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
-* Gli addetti al marketing possono sfruttare le funzioni di Customer Journey Analytics, come il pannello Sperimentazione, per analizzare ulteriormente la personalizzazione del sito web.
-* Gli addetti al marketing possono avere un’unica origine per la generazione di rapporti per Adobe Journey Optimizer e Target. Entrambi i prodotti di personalizzazione possono essere collegati al Customer Journey Analytics per una visualizzazione più olistica della personalizzazione web.
+## Vantaggi principali
 
-Consulta [Generazione di rapporti di Target in Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) per ulteriori informazioni, consulta la documentazione di Target.
+* I marketer possono applicare dinamicamente le metriche di successo di Customer Journey Analytics ai rapporti di attività di Target in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
+* I marketer possono sfruttare le funzioni di Customer Journey Analytics, come il pannello Sperimentazione, per analizzare ulteriormente la personalizzazione del sito web.
+* I marketer possono avere un’unica origine di reporting per Adobe Journey Optimizer e Target. Entrambi i prodotti di personalizzazione possono essere collegati a Customer Journey Analytics per una visualizzazione più olistica della personalizzazione web.
 
-Consulta la [Pannello Sperimentazione](../analysis-workspace/c-panels/experimentation.md) per ulteriori informazioni su come gli analisti possono confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, da soluzioni Adobe come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
+## Note e considerazioni
+
+Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione CJA, è necessario apportare alcune modifiche minori alla visualizzazione dati di CJA dopo aver aggiunto questi componenti come dimensioni, tra cui:
+
+* Impostare la persistenza in modo che sia simile a come viene tracciata in Target (rivolgiti a un consulente di Target o al cliente per verificare le impostazioni corrette).
+
+* Impostando la persistenza su ALL, si consente il tracciamento simultaneo di più attività di Target e non la sovrascrittura di attività future o precedenti.
+
+## Informazioni più dettagliate
+
+Per ulteriori informazioni, consulta [Reporting di Target in Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) nella documentazione di Target.
+
+Consulta il [pannello Sperimentazione](../analysis-workspace/c-panels/experimentation.md) per ulteriori informazioni sulle possibilità, da parte degli analisti, di confrontare diverse varianti di esperienza utente, marketing o messaggistica al fine di stabilire quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).

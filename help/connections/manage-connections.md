@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
+source-git-commit: c0599526e6a6a9ac9788a4ce29bcf44256b6c4df
 workflow-type: tm+mt
-source-wordcount: '2976'
-ht-degree: 12%
+source-wordcount: '3065'
+ht-degree: 11%
 
 ---
 
@@ -206,7 +206,12 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 ## Utilizzo
 
-Il [!UICONTROL Usage] L’interfaccia di mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali.
+Il [!UICONTROL Usage] L’interfaccia di mostra l’utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, puoi utilizzare l’interfaccia utente Utilizzo per pianificare meglio il rinnovo della licenza del Customer Journey Analytics.
+
+È possibile selezionare un intervallo di tempo (tra gli ultimi 6 mesi, anno corrente o gli ultimi 2 anni) e un intervallo (tra mensile o trimestrale) per monitorare l&#39;utilizzo del Customer Journey Analytics. L’interfaccia è divisa in due sezioni:
+
+* Righe acquisite: totale delle righe acquisite/inviate dai set di dati evento in tutte le connessioni CJA, inclusi i record ignorati durante l’acquisizione
+* Righe segnalabili: il totale delle righe segnalabili che includono tutti i dati degli eventi in tutte le connessioni CJA
 
 ![usage-view](assets/usage-view.png)
 
