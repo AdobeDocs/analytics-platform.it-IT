@@ -4,9 +4,9 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: afa6a3cf8763a2d6419ec859385abc4cf095f214
+source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 * Elementi o raggruppamenti di Dimension con valori che fanno parte di un URL a cui desideri creare il collegamento (ad esempio, una dimensione Nome pagina che fa parte di un URL)
 
-Di seguito è riportata una dimostrazione video di questa funzione:
++++Visualizza una dimostrazione video di questa funzione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## Creare collegamenti ipertestuali per uno o più elementi dimensionali
 
