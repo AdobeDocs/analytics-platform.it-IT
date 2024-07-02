@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
+source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3723'
 ht-degree: 11%
 
 ---
@@ -345,13 +345,13 @@ Una volta che la tua organizzazione avrà raggiunto tutti [prerequisiti](#prereq
 
 ### Opzioni
 
-Selezionate le opzioni per l&#39;unione. Il pacchetto Customer Journey Analytics determina le opzioni disponibili per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione.
+Selezionate le opzioni per l&#39;unione. Il pacchetto Customer Journey Analytics determina le opzioni disponibili per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Consulta la [Descrizione del prodotto del Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) per ulteriori dettagli.
 
 | | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
 | Durata retrocompilazione unione una tantum | 13 mesi | 13 mesi | 25 mesi |
 | Intervallo di lookback e frequenza di ripetizione | <li>1 giorno, ogni giorno</li><li>fino a 7 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 14 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 30 giorni, settimanalmente</li> |
-| Numero massimo di set di dati consentiti per l’unione | 5 | 10 | 15 |
+| Numero massimo di set di dati consentiti per l’unione | 5 | 10 | 50 |
 
 ### Richiedi supporto
 

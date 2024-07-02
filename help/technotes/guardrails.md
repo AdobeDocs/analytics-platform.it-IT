@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: ffa7899b8ece8c39079ed64401ec6cad111e9a84
+source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1747'
 ht-degree: 7%
 
 ---
@@ -58,8 +58,6 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 
 <!--
 ## Attribution AI
-
-
 
 | Name |  Value | Description | PD? |
 |---|--:|---|:---:|
@@ -124,7 +122,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 | Campi | 10.000 | Guardrail imposto dal sistema | Numero massimo di proprietà o campi per riga in un set di dati. |
 | Stringhe univoche | 10 milioni | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. |
 | Righe | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
-| Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti nel Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experienci Platform. |
+| Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti nel Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -136,7 +134,7 @@ Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https:/
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Esportazione dati | Archiviazione totale del data lake autorizzato | Barra di protezione delle prestazioni | Il cliente può utilizzare l’esportazione del set di dati di destinazione per esportare i dati del cliente nel data lake fino allo storage totale autorizzato del data lake. |
-| Set di dati disponibili | Profilo ed evento | Guardrail imposto dal sistema | Set di dati di evento, profilo o ricerca creati nell’interfaccia utente di Experienci Platform dopo l’acquisizione o la raccolta di dati tramite Sources, Web SDK, Mobile SDK, Analytics Data Connector e Audienci Manager. |
+| Set di dati disponibili | Profilo ed evento | Guardrail imposto dal sistema | Set di dati di evento, profilo o ricerca creati nell’interfaccia utente di Experience Platform dopo l’acquisizione o la raccolta di dati tramite Sources, Web SDK, Mobile SDK, Analytics Data Connector e Audience Manager. |
 
 {style="table-layout:auto"}
 
@@ -158,9 +156,19 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente; il valore varia a seconda del pacchetto di Customer Journey Analytics (consulta Descrizione del prodotto). |
-| Dati di backfill | 60 - 395 | Guardrail imposto dal sistema | Numero massimo di giorni di recupero dati; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di retrocompilazione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
+
+
+## Unione basata su grafico
+
+| Nome | Valore | Tipo limite | Descrizione |
+|---|--:|---|---|
+| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente; il valore varia a seconda del pacchetto di Customer Journey Analytics (consulta Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di retrocompilazione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 
 ## Filtri e metriche calcolate
@@ -222,14 +230,14 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Flusso di dati | Latenza prevista |
 |---|---|
-| Connettore di origine da Adobe Analytics ad Adobe Analytics (A4T abilitato) | &lt; 30 minuti |
-| Connettore di origine di Adobe Analytics per Real-time Customer Profile (A4T non abilitato) | &lt; 2 minuti |
-| Connettore di origine di Adobe Analytics per Real-time Customer Profile (A4T abilitato) | &lt; 30 minuti |
+| Connettore da Adobe Analytics ad Adobe Analytics Source (A4T abilitato) | &lt; 30 minuti |
+| Connettore Source Adobe Analytics per Real-time Customer Profile (A4T non abilitato) | &lt; 2 minuti |
+| Connettore Source Adobe Analytics per Real-time Customer Profile (abilitato A4T) | &lt; 30 minuti |
 | Acquisizione dei dati nel data lake da acquisizione Edge Network o Streaming | &lt; 60 minuti |
-| Acquisizione dei dati nel Data Lake dal connettore di origine di Adobe Analytics | &lt; 2,25 ore |
+| Acquisizione dei dati nel data lake da Adobe Analytics Source Connector | &lt; 2,25 ore |
 | Acquisizione dei dati nel Customer Journey Analytics da Data Lake | &lt; 90 minuti |
 | Stitching (funzione facoltativa; vedere [Panoramica sull’unione](../stitching/overview.md) per ulteriori informazioni) | &lt; 3,25 ore |
-| Recupero dal connettore di origine di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
+| Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
 | Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento). |
 
