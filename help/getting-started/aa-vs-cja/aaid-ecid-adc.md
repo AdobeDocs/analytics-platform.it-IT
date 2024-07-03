@@ -5,9 +5,9 @@ exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
 source-git-commit: 5c5f276711f39abb1b3f3b955ad99e17cb0ac09c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ I dati di Adobe Analytics contengono più campi di identità. Tre importanti cam
 
 Adobe Analytics ID (AAID) è l’identificatore primario del dispositivo in Adobe Analytics e la sua esistenza è garantita su ogni evento trasmesso tramite il connettore di origine di Analytics. AAID viene talvolta indicato come “ID legacy di Analytics” o ID cookie `s_vi`. Tuttavia, viene creato un AAID anche se il cookie `s_vi` non è presente. AAID è rappresentato dalle colonne `post_visid_high/post_visid_low` nei [feed dati di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types).
 
-Nel connettore di origine di Analytics, AAID viene trasformato in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Il campo AAID di un dato evento contiene una singola identità che può corrispondere a uno dei diversi tipi descritti in [Ordine delle operazioni per gli ID di Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html). All’interno di un’intera suite di rapporti, AAID può contenere diversi tipi in tutti gli eventi. Il tipo di ciascun evento è indicato nella colonna `post_visid_type` nei feed dati di Analytics.) Vedi anche [Data column reference](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it) (Riferimento delle colonne di dati).
+Nel connettore di origine di Analytics, AAID viene trasformato in `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. Il campo AAID di un dato evento contiene una singola identità che può corrispondere a uno dei diversi tipi descritti in [Ordine delle operazioni per gli ID di Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=it). All’interno di un’intera suite di rapporti, AAID può contenere diversi tipi in tutti gli eventi. Il tipo di ciascun evento è indicato nella colonna `post_visid_type` nei feed dati di Analytics.) Vedi anche [Data column reference](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it) (Riferimento delle colonne di dati).
 
 ## ECID
 
@@ -53,11 +53,11 @@ All’interno di identityMap:
 In caso contrario, AAID è contrassegnato come identità primaria dell’evento.
 * AACUSTOMID non viene mai contrassegnato come ID primario dell’evento. Tuttavia, se AACUSTOMID è presente, AAID è basato su AACUSTOMID come da spiegazione precedente.
 
-Quando la o le identità vengono copiate in `identityMap`, `endUserIDs._experience.mcid.namespace.code` è impostato anche sullo stesso evento:
+Quando vengono copiate la o le identità in `identityMap`, anche l’`endUserIDs._experience.mcid.namespace.code` è impostato sullo stesso evento:
 
-* Se AAID è presente, `endUserIDs._experience.aaid.namespace.code` è impostato su &quot;AAID&quot;.
-* Se è presente ECID, `endUserIDs._experience.mcid.namespace.code` è impostato su &quot;ECID&quot;.
-* Se è presente AACUSTOMID, `endUserIDs._experience.aacustomid.namespace.code` è impostato su &quot;AACUSTOMID&quot;.
+* Se AAID è presente, `endUserIDs._experience.aaid.namespace.code` è impostato su “AAID”.
+* Se è presente ECID, `endUserIDs._experience.mcid.namespace.code` è impostato su “ECID”.
+* Se è presente AACUSTOMID, `endUserIDs._experience.aacustomid.namespace.code` è impostato su “AACUSTOMID”.
 
 ## Customer Journey Analytics e ID primario
 

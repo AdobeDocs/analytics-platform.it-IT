@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ L’Assistente IA è un’esperienza conversazionale che consente ai professioni
 
 [![immagine](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB Unione basata su grafico]
+>[!TAB Unione basata su grafici]
 
-Tramite l’unione basata su grafico, puoi utilizzare il grafico delle identità dal servizio Experience Platform Identity per ottenere una migliore visualizzazione del percorso del cliente: <ul><li>L’unione di set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Migliorare la copertura dell’identità preferita o d’oro per un singolo set di dati condividendo le identità tra diversi set di dati,</li><li>Allineamento dei profili creati in Real-time Customer Data Platform e Journey Optimizer alle persone presenti in Customer Journey Analytics.</li></ul>
+Tramite l’unione basata sui grafici, puoi utilizzare il grafico Identità dell&#39;Identity Service per ottenere una visualizzazione migliore del percorso cliente grazie a: <ul><li>L’unione di set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Miglioramento della copertura dell’identità preferita o d’oro per un singolo set di dati mediante la condivisione di identità tra set di dati diversi,</li><li>Allineamento dei profili creati in Adobe Real-time CDP e AJO alle persone presenti in Customer Journey Analytics.</li></ul>
 
 [![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -43,7 +43,7 @@ Come parte della configurazione di una connessione, è possibile trasformare i s
 
 >[!TAB Campi derivati]
 
-Sono ora disponibili nuove funzioni di campo derivato (Math, Successivo o Precedente, Riepiloga) e modelli di funzioni aggiuntivi (come Bounces, Friendly Dataset Name, Holiday Season, Monthly Goals, Simple Bot Detection e altri).
+Sono ora disponibili nuove funzioni per i campi derivati (Matematica, Successivo o Precedente, Riepilogo) e per i modelli di funzione aggiuntivi (come Mancati recapiti, Nome descrittivo set di dati, Vacanze, Obiettivi mensili, Rilevamento dei bot semplice e altri).
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -53,7 +53,7 @@ L’estensione BI consente a SQL di accedere alle visualizzazioni dati definite 
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-*_Per utilizzare l’estensione BI, è necessario disporre del pacchetto Select o di una versione successiva._*
+*_Per utilizzare l’estensione BI, devi disporre del pacchetto Select o versione successiva._*
 
 
 <!--
