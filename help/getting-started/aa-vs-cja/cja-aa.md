@@ -8,7 +8,7 @@ role: User
 source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
 workflow-type: tm+mt
 source-wordcount: '2278'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Suite di rapporti virtuali | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Cura dei componenti della suite di rapporti virtuali | Supporto completo. Ora fa parte di Visualizzazioni dati. |
 | Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e per i set di dati generati da WebSDK. Consulta la [documentazione su quali variabili Analytics sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it). Se utilizzi la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca del dispositivo non sono attualmente supportati. Il supporto è pianificato per il futuro. Per aggiungere ricerche per dispositivi e browser allo stream di dati Web SDK, fai riferimento a [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
-| Componente aggiuntivo Streaming Media Collection | I dati multimediali in streaming sono disponibili utilizzando il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo trascorso su contenuti multimediali in Workspace. |
+| Componente aggiuntivo di raccolta contenuti in streaming | I dati multimediali in streaming sono disponibili tramite il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale utilizzato in Workspace. |
 
 {style="table-layout:auto"}
 
