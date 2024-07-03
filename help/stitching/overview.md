@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
+source-git-commit: 805eb9dc9ab287934dd15eb56d3ac35187c979d7
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3752'
 ht-degree: 11%
 
 ---
@@ -323,6 +323,11 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata su gr
 
 - Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere una colonna che identifica un visitatore su ogni riga, la **ID persistente**. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Cloud Identity.
 - il grafo delle identità di Experience Cloud Identity Service deve contenere uno spazio dei nomi (ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
+
+>[!NOTE]
+>
+>Sì **non** richiede una licenza Real-time Customer Data Platform per l’unione basata su grafo. Il **Seleziona** Un pacchetto di Customer Journey Analytics o di livello superiore include i diritti richiesti per il servizio User Identity.
+
 
 
 ### Limitazioni
