@@ -5,16 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
+source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
 workflow-type: tm+mt
-source-wordcount: '3752'
+source-wordcount: '3793'
 ht-degree: 11%
 
 ---
 
 # Unione
 
-{{select-package}}
+>[!NOTE]
+>
+>È necessario disporre di **Seleziona** pacchetto o versione successiva (per unione basata sui campi) oppure **Prime** pacchetto o versione successiva (per l’unione basata su grafico) per utilizzare le funzionalità descritte in questa sezione. In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
+
 
 L’unione di identità (o semplicemente unione) è una funzione potente che eleva l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che il Customer Journey Analytics può gestire e consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona).
 
@@ -189,7 +192,7 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata sui c
 
 - Il set di dati dell’evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere due colonne che aiutino a identificare i visitatori:
 
-   - A **ID persistente**, un identificatore disponibile su ogni riga. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Cloud Identity.
+   - A **ID persistente**, un identificatore disponibile su ogni riga. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
    - A **ID transitorio**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID transitorio deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione di Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
 - Entrambe le colonne (ID persistente e ID transitorio) devono essere definite come un campo di identità con uno spazio dei nomi identità nello schema per il set di dati da unire. Quando si utilizza l’unione di identità in Real-time Customer Data Platform, utilizzando [`identityMap` gruppo di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), è comunque necessario aggiungere campi di identità con uno spazio dei nomi di identità. Questa identificazione dei campi di identità è necessaria in quanto l’unione di Customer Journey Analytics non supporta `identityMap` gruppo di campi. Quando si aggiunge un campo di identità nello schema, utilizzando anche `identityMap` gruppo di campi, non impostare il campo di identità aggiuntivo come identità primaria. L&#39;impostazione di un campo di identità aggiuntivo come identità primaria interferisce con `identityMap` gruppo di campi utilizzato per Real-time Customer Data Platform.
@@ -321,13 +324,12 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 I seguenti prerequisiti si applicano in modo specifico all’unione basata su grafico:
 
-- Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere una colonna che identifica un visitatore su ogni riga, la **ID persistente**. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Cloud Identity.
-- Il grafo delle identità di Experience Cloud Identity Service deve contenere uno spazio dei nomi, ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
+- Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere una colonna che identifica un visitatore su ogni riga, la **ID persistente**. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
+- Il grafo delle identità di Experience Platform Identity Service deve contenere uno spazio dei nomi, ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
 
 >[!NOTE]
 >
->Sì **non** richiede una licenza Real-time Customer Data Platform per l’unione basata su grafo. Il **Seleziona** Uno o più pacchetti di Customer Journey Analytics includono i diritti richiesti per il servizio User Identity.
-
+>Sì **non** richiede una licenza Real-time Customer Data Platform per l’unione basata su grafo. Il **Prime** Il pacchetto o versione successiva di Customer Journey Analytics include i diritti Experienci Platform richiesti per il servizio Identity.
 
 
 ### Limitazioni
