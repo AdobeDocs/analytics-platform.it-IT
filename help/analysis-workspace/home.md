@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 50312012b68fdcbcb300cf1f0ed9ce28b21fea29
+source-git-commit: e766858a93f8dcfadda2e7518b0d74468ff1ae4b
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 96%
+source-wordcount: '745'
+ht-degree: 95%
 
 ---
 
@@ -19,8 +19,9 @@ ht-degree: 96%
 >id="cja_workspace_fundamentals"
 >title="Nozioni di base su Analysis Workspace"
 >abstract="Segui il tour seguente per scoprire alcune delle nozioni di base di Analysis Workspace, tra cui la creazione di una tabella, l’aggiunta di una visualizzazione, la modifica dell’intervallo di date e altro ancora."
->
->Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere informazioni e condividerle con altri utenti. Utilizzando l’interfaccia di trascinamento del browser, puoi creare analisi, aggiungere visualizzazioni per mettere in risalto i dati, curare un set di dati, condividere e pianificare progetti con chiunque desideri.
+>additional-url="https://images-tv.adobe.com/mpcv3/7381/7a0633f8-972f-4367-a2ed-b169981efa7b_1681135724.854x480at800_h264.mp4" text="Panoramica di Analysis Workspace"
+
+Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere informazioni e condividerle con altri utenti. Utilizzando l’interfaccia di trascinamento del browser, puoi creare analisi, aggiungere visualizzazioni per mettere in risalto i dati, curare un set di dati, condividere e pianificare progetti con chiunque desideri.
 
 Il video seguente fornisce una breve panoramica con esempi di ciò che è possibile fare.
 
