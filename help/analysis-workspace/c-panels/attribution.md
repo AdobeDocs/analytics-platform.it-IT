@@ -4,19 +4,25 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 4ed05334a3866ec784901d273fcb13bd24b2d449
+source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 75%
+source-wordcount: '618'
+ht-degree: 69%
 
 ---
 
 # Pannello Attribution {#attribution-panel}
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution"
+>id="cja_workspace_attribution_button"
 >title="Attribuzione"
 >abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_attribution_panel"
+>title="Pannello Attribution"
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione su cui attribuire l’attributo. Può trattarsi di canali di marketing, campagne o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 
