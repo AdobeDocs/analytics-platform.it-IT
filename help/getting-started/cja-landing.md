@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: ht
-source-wordcount: '756'
-ht-degree: 100%
+source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 98%
 
 ---
 
@@ -29,11 +29,13 @@ L’Assistente IA è un’esperienza conversazionale che consente ai professioni
 
 [![immagine](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB Unione basata su grafici]
+>[!TAB Unione basata su grafico*]
 
 Tramite l’unione basata sui grafici, puoi utilizzare il grafico Identità dell&#39;Identity Service per ottenere una visualizzazione migliore del percorso cliente grazie a: <ul><li>L’unione di set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Miglioramento della copertura dell’identità preferita o d’oro per un singolo set di dati mediante la condivisione di identità tra set di dati diversi,</li><li>Allineamento dei profili creati in Adobe Real-time CDP e AJO alle persone presenti in Customer Journey Analytics.</li></ul>
 
 [![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
+*_È necessario disporre del pacchetto Prime per l’unione basata su grafico._*
 
 >[!TAB Ricerche B2B]
 
