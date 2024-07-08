@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
+source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3029'
 ht-degree: 95%
 
 ---
@@ -82,7 +82,7 @@ Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experien
    |---|---|
    | Set di dati | Nome del set di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare una finestra a comparsa con ulteriori dettagli sul set di dati. Nel popup puoi selezionare **[!UICONTROL Edit in Platform]** per modificare il set di dati direttamente in Experience Platform. |
    | Tipo di set di dati | Il tipo di set di dati: Evento, Profilo o Ricerca. |
-   | Numero di record | Il numero di record disponibili nell’ultimo batch del set di dati in Experience Platform. |
+   | Numero di record | Il totale dei record del mese precedente per il set di dati in Experience Platform. |
    | Schema | Schema su cui si basa il set di dati. Seleziona il nome per indirizzarti allo schema nell’Experience Platform. |
    | Ultima batch | Lo stato dell’ultimo batch acquisito in Experience Platform. Consulta [Stati batch](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) ulteriori informazioni. |
    | ID set di dati | ID del set di dati. |
