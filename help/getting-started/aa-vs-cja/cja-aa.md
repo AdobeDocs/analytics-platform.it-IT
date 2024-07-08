@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2278'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,12 +38,12 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Spostare progetti, filtri e metriche calcolate da Adobe Analytics a Customer Journey Analytics | Supporto completo. |
 | Dashboard/scorecard per dispositivi mobili | Supporto completo |
 | Pannelli | Supporto completo per i seguent pannelli: pannello vuoto, pannello di attribuzione, pannello a forma libera, Quick Insights ed elemento Successivo o Precedente. |
-| Esportazione PDF | Supporto completo. |
-| Cura dei progetti | Supporto completo. |
-| Collegamento del progetto | Supporto completo. |
+| Esportazione PDF | Supporto completo |
+| Cura dei progetti | Supporto completo |
+| Collegamento del progetto | Supporto completo |
 | Elaborazione dei tempi di reporting | Supporto completo; Customer Journey Analytics si basa esclusivamente sull’elaborazione dei tempi di reporting. |
 | Accesso API di reporting | Supporto completo; disponibile tramite l’[API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
-| Rapporti/progetti pianificati | Supporto completo. |
+| Rapporti/progetti pianificati | Supporto completo |
 | Segmenti | Supporto completo. Ora denominati “Filtri”: tieni presente che eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non vengono caricati in Customer Journey Analytics. |
 | Suite di rapporti virtuali | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Cura dei componenti della suite di rapporti virtuali | Supporto completo. Ora fa parte di Visualizzazioni dati. |
@@ -68,7 +68,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Dimensioni e metriche per entrata, uscita e tempo trascorso | Supportate (le entrate e le uscite sono ora denominate Inizio sessione e Fine sessione) e calcolate in modo leggermente diverso. |
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di Customer Journey Analytics. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. Le dimensioni impostate nelle visualizzazioni dati sono limitate a una persistenza massima di 90 giorni e non supportano la persistenza illimitata. |
 | Dimensioni Geosegmentazione | [Supporto completo](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
-| Unione basata su grafico | Da a [Unione basata su grafico](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview#graph-based-stitching), puoi sfruttare la potenza del grafico delle identità in [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per elevare i set di dati alla loro identità preferita. |
+| Unione basata su grafo | Tramite [Unione basata su grafo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview#graph-based-stitching), puoi sfruttare la potenza del grafo delle identità in [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home) per elevare i set di dati alla loro identità preferita. |
 | Offuscamento IP | Per i clienti Customer Journey Analytics che utilizzano il connettore di origine di Analytics per compilare i dati da Adobe Analytics in Customer Journey Analytics: le impostazioni di offuscamento dell’IP applicate in Adobe Analytics fluiscono nei dati di Customer Journey Analytics. Puoi controllare queste impostazioni in Adobe Analytics in base alle esigenze.<p>In questo modo i clienti di Customer Journey Analytics che utilizzano Experience Platform Web SDK possono compilare direttamente i dati in Platform e Customer Journey Analytics. Puoi utilizzare la preparazione dati per la raccolta dati in Platform per configurare regole che offuscano l’indirizzo IP in base ai requisiti della tua azienda. |
 | Canali di marketing | Utilizzando il connettore di origine di Analytics, i dati dei canali di marketing fluiscono in Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing vengono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Per ulteriori informazioni, consulta [Canali marketing in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html?lang=it). <br/>Per le implementazioni di Web SDK, le regole di elaborazione del canale di marketing al momento dell’elaborazione del report sono supportate tramite i [Campi derivati](../../data-views/derived-fields/derived-fields.md). |
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
