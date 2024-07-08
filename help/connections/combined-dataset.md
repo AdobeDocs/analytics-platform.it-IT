@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
+source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 41%
+source-wordcount: '731'
+ht-degree: 35%
 
 ---
 
@@ -66,7 +66,7 @@ per il reporting viene utilizzato il seguente set di dati combinato.
 
 Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` si basa sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati nel percorso dello schema  `_experience.somethingelse.string_color`. In questo scenario, i dati sono **non** è stato unito in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato.
 
-Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga. Il Customer Journey Analytics tratta tutti i dati come se fossero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente è presente in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione.
+Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga. Il Customer Journey Analytics tratta tutti i dati come se fossero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione. I campi con percorsi di schema identici vengono uniti.
 
 Questo concetto si applica anche all’attribuzione. Non importa da quale insieme di dati provenga una riga; l’attribuzione funziona esattamente come se tutti gli eventi provenissero da un singolo set di dati. Utilizzo delle tabelle precedenti in un esempio:
 
@@ -85,6 +85,10 @@ Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione 
 | Giallo | 6 |
 | Blu | 3 |
 | Rosso | 2 |
+
+>[!NOTE]
+>
+>Se un campo unito è una chiave di ricerca per un set di dati evento nella connessione, il set di dati di ricerca associato si arricchisce *tutto* valori di tale campo. Non importa da quale set di dati evento provenga una riga, in quanto la relazione di ricerca è associata al percorso dello schema condiviso.
 
 ## Analisi cross-channel
 
