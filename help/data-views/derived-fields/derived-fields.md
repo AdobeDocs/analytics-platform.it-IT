@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
 workflow-type: tm+mt
-source-wordcount: '7753'
+source-wordcount: '7746'
 ht-degree: 9%
 
 ---
@@ -381,9 +381,6 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 
 - vincoli (se applicabili).
 
->[!NOTE]
->
->La funzione di ricerca è stata rinominata in [Classifica](#classify). Consulta la [Classifica](#classify) per ulteriori informazioni.
 
 <!-- CASE WHEN -->
 
@@ -622,10 +619,6 @@ I seguenti vincoli si applicano e vengono applicati quando *selezione* e *impost
 Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti in un nuovo campo derivato.
 
 +++ Dettagli
-
->[!NOTE]
->
->Questa funzione era originariamente denominata Lookup ma è stata rinominata in Classify per adattarsi alla funzione Lookup con funzionalità diverse.
 
 ## Specifiche {#classify-io}
 
@@ -1027,6 +1020,8 @@ Definisci un’ `Activity Name` campo derivato. Utilizzi il [!UICONTROL LOOKUP] 
 ![Schermata della regola Minuscolo](assets/lookup.png)
 
 ## Ulteriori informazioni {#lookup-more-info}
+
+La funzione di ricerca viene applicata al momento della generazione del rapporto ai dati recuperati dal Customer Journey Analytics dal set di dati di ricerca configurato come parte della connessione.
 
 È possibile inserire rapidamente [!UICONTROL Lookup] funzione nel generatore di regole, che contiene già una o più altre funzioni.
 
