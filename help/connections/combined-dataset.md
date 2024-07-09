@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
+source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 35%
@@ -88,7 +88,7 @@ Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione 
 
 >[!NOTE]
 >
->Se un campo unito è una chiave di ricerca per un set di dati evento nella connessione, il set di dati di ricerca associato si arricchisce *tutto* valori di tale campo. Non importa da quale set di dati evento provenga una riga, in quanto la relazione di ricerca è associata al percorso dello schema condiviso.
+>Se un campo unito è una chiave di ricerca per un set di dati evento nella connessione, il set di dati di ricerca associato si arricchisce **tutto** valori di tale campo. Non importa da quale set di dati evento provenga una riga, in quanto la relazione di ricerca è associata al percorso dello schema condiviso.
 
 ## Analisi cross-channel
 
