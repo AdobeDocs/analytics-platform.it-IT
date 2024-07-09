@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
+source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
 workflow-type: tm+mt
-source-wordcount: '3809'
+source-wordcount: '3817'
 ht-degree: 12%
 
 ---
@@ -350,9 +350,9 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata su gr
 
 Una volta che la tua organizzazione avrà raggiunto tutti [prerequisiti](#prerequisites) e comprende le [limitazioni](#limitations) e metodo di unione specifico ([basato sul campo](#limitations-1) e [basato su grafico](#limitations-2)), puoi seguire questi passaggi per iniziare a utilizzare l’unione nel Customer Journey Analytics.
 
-### Opzioni
+### Seleziona opzioni
 
-Selezionate le opzioni per l&#39;unione. Il pacchetto Customer Journey Analytics determina i metodi di unione disponibili, le opzioni per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Consulta la [Descrizione del prodotto del Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) per ulteriori dettagli.
+Il pacchetto di Customer Journey Analytics a cui hai diritto determina i metodi di unione disponibili, le opzioni per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Consulta la [Descrizione del prodotto del Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) per ulteriori dettagli. Decidi le opzioni disponibili prima di richiedere assistenza.
 
 | | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
