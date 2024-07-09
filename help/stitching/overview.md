@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
+source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 11%
+source-wordcount: '3809'
+ht-degree: 12%
 
 ---
 
@@ -211,7 +211,7 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata sui c
 - Presta attenzione agli scenari in cui gli ID transitori contengono valori segnaposto, ad esempio `Undefined`. Consulta la [Domande frequenti](faq.md) per ulteriori informazioni.
 
 
-## Unione basata su grafico
+## Unione basata su grafo
 
 Specifica un set di dati evento, nonché l’ID persistente (cookie) e lo spazio dei nomi dell’ID transitorio (ID persona) per tale set di dati. L’unione basata su grafico crea una nuova colonna per l’ID unione nel nuovo set di dati uniti. Quindi utilizza l’ID persistente per eseguire query sul grafo delle identità dal servizio Identity di Experience Platform, utilizzando lo spazio dei nomi specificato, per aggiornare l’ID unito.
 
@@ -325,7 +325,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 I seguenti prerequisiti si applicano in modo specifico all’unione basata su grafico:
 
 - Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere una colonna che identifica un visitatore su ogni riga, la **ID persistente**. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
-- Il grafo delle identità di Experience Platform Identity Service deve contenere uno spazio dei nomi, ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) per ulteriori informazioni.
+- Il grafo delle identità di Experience Platform Identity Service deve contenere uno spazio dei nomi, ad esempio `Email`, o `Phone`) da utilizzare durante l&#39;unione per risolvere **ID transitorio**. Consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home) per ulteriori informazioni.
 
 >[!NOTE]
 >
@@ -352,10 +352,11 @@ Una volta che la tua organizzazione avrà raggiunto tutti [prerequisiti](#prereq
 
 ### Opzioni
 
-Selezionate le opzioni per l&#39;unione. Il pacchetto Customer Journey Analytics determina le opzioni disponibili per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Consulta la [Descrizione del prodotto del Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) per ulteriori dettagli.
+Selezionate le opzioni per l&#39;unione. Il pacchetto Customer Journey Analytics determina i metodi di unione disponibili, le opzioni per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Consulta la [Descrizione del prodotto del Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) per ulteriori dettagli.
 
 | | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
+| Metodi di unione disponibili | <li>Unione basata sui campi</li> | <li>Unione basata sui campi</li><li>Unione basata su grafo</li> | <li>Unione basata sui campi</li><li>Unione basata su grafo</li> |
 | Durata retrocompilazione unione una tantum | 13 mesi | 13 mesi | 25 mesi |
 | Intervallo di lookback e frequenza di ripetizione | <li>1 giorno, ogni giorno</li><li>fino a 7 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 14 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 30 giorni, settimanalmente</li> |
 | Numero massimo di set di dati consentiti per l’unione | 5 | 10 | 50 |
