@@ -4,9 +4,9 @@ title: Messaggi di errore comuni in Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: caf53fe1727c77b4dcb5a9f7b67c368fade2f86c
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: f0ff4abcfdb7361aed62bd35b50c4b014b223ec9
+workflow-type: tm+mt
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,10 @@ ht-degree: 100%
 
 | Messaggio di errore | Perché si verifica? | Ottimizzazione |
 | --- | --- | --- |
-| [!UICONTROL The data view is currently exceeding its reporting capacity. Please simplify the request or try again later.] |   |   |
+| [!UICONTROL The data view is experiencing unusually heavy reporting. Please try again later.] | L’organizzazione sta tentando di eseguire troppe richieste simultanee su una suite di rapporti specifica. Questo errore è causato da richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di generazione di rapporti. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. |
+| [!UICONTROL This report is too complex. Please review best practices for building Analysis Workspace reports.] | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un segmento o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. | Semplifica la richiesta rimuovendo alcune colonne o righe nella tabella oppure prova a suddividere la tabella in più richieste distinte. |
+| [!UICONTROL The data view is currently exceeding its reporting capacity. Please simplify the request or try again later.] | L’organizzazione sta tentando di eseguire troppe richieste simultanee su una suite di rapporti specifica. Questo errore è causato da richieste API, progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di generazione di rapporti. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under **[!UICONTROL Help > Submit Support Ticket]** and include your error code.] | Adobe sta riscontrando un problema da risolvere. | Invia il codice di errore all’Assistenza clienti. |
 | [!UICONTROL Error 500: Failed to load page] | I problemi relativi alla rete locale, come le [impostazioni del firewall](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=it) aziendale, contribuiscono a questo errore. Inoltre, è possibile che Adobe stia affrontando un problema che necessita di essere risolto. | Prova a eseguire di nuovo l’accesso dopo alcuni minuti. Se il problema persiste, invia il codice ID istanza EIM all’Assistenza clienti. |
 | [!UICONTROL One of the filters or the search in this visualization contains a text search that returned too many results.] | Il criterio del filtro o il filtro del rapporto è troppo ampio. | Restringi i criteri di ricerca e prova a inviare di nuovo la richiesta. |
-| [!UICONTROL The request is too complex.] | La richiesta di generazione rapporti è troppo grande e non può essere eseguita. Questo errore è causato da timeout dovuti alla dimensione della richiesta, troppi elementi associati in un filtro o un filtro di ricerca, inclusione di troppe metriche, combinazioni di dimensioni e metriche incompatibili, ecc. | Semplifica la richiesta rimuovendo alcune colonne o righe nella tabella oppure prova a suddividere la tabella in più richieste distinte. |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | La tabella contiene troppe celle a forma libera (righe * colonne). | Rimuovi alcune colonne o righe nella tabella oppure prova a suddividere la tabella in più richieste distinte. |
