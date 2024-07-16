@@ -7,7 +7,7 @@ role: User
 source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 69%
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="Attribuzione"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione"
+>abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="Pannello Attribution"
->abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione su cui attribuire l’attributo. Può trattarsi di canali di marketing, campagne o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione a cui attribuire. Può trattarsi di canali di marketing, campagne o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 
@@ -54,7 +54,7 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 
 1. Il pannello Attribution restituisce un set completo di dati e visualizzazioni che confrontano l’attribuzione per la dimensione e la metrica selezionate.
 
-   ![Visualizzazioni del pannello Attribuzione che confrontano metriche e dimensioni selezionate.](assets/attr_panel_vizs.png)
+   ![Visualizzazioni del pannello Attribuzione che confrontano le metriche e le dimensioni selezionate.](assets/attr_panel_vizs.png)
 
 ## Visualizzazioni di Attribution
 
@@ -64,4 +64,4 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 * **Grafico di sovrapposizione**: un diagramma di Venn che mostra i primi tre elementi dimensionali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando una persona è stata esposta a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
 * **Dettagli delle prestazioni**: consente di confrontare visivamente fino a tre modelli di attribuzione mediante un grafico a dispersione.
 * **Prestazioni con tendenze**: mostra la tendenza delle conversioni attribuite per l’elemento della dimensione superiore. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
-* **Flusso**: consente di vedere con quali canali si interagisce più comunemente e in quale ordine all’interno del percorso di una persona.
+* **Flusso**: consente di vedere con quali canali si interagisce più comunemente e in quale ordine nel percorso di una persona.
