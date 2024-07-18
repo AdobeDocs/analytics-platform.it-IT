@@ -7,7 +7,7 @@ exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
 source-git-commit: 697503bba56f44159df7a2f6a0e60a0a4178266d
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -23,9 +23,9 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
 ## Inizia ad aggiungere componenti a un progetto
 
-1. [Creare un progetto in Analysis Workspace](/help/analysis-workspace/build-workspace-project/create-projects.md) se non lo hai già fatto.
+1. [Crea un progetto in Analysis Workspace](/help/analysis-workspace/build-workspace-project/create-projects.md), se non lo hai già fatto.
 
-1. [Aggiungi un pannello](/help/analysis-workspace/c-panels/panels.md) o [aggiungere una visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) al progetto in Analysis Workspace.
+1. [Aggiungi un pannello](/help/analysis-workspace/c-panels/panels.md) o [aggiungi una visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) al progetto in Analysis Workspace.
 
    Se aggiungi un componente a un progetto vuoto, viene automaticamente creata una visualizzazione a forma libera.
 
@@ -39,7 +39,7 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    I filtri si applicano a tutto il contenuto del pannello.
 
-   Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+   Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
    ![rilascia un filtro nella zona di rilascio](assets/filter-dropzone.png)
 
@@ -69,9 +69,9 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
 1. (Facoltativo) Puoi suddividere dimensioni ed elementi dimensionali in Analysis Workspace con altri componenti.
 
-   Per ulteriori informazioni, consulta [Suddividere dimensioni in Workspace](/help/components/dimensions/t-breakdown-fa.md).
+   Per ulteriori informazioni, vedere [Suddividere dimensioni in Workspace](/help/components/dimensions/t-breakdown-fa.md).
 
-Per ulteriori informazioni sull’utilizzo delle dimensioni in Analysis Workspace, consulta [Anteprima dimensioni](/help/components/dimensions/view-dimensions.md), [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md), e [Dimensioni suddivise in base al tempo](/help/components/dimensions/time-parting-dimensions.md).
+Per ulteriori informazioni sull&#39;utilizzo delle dimensioni in Analysis Workspace, vedere [Anteprima dimensioni](/help/components/dimensions/view-dimensions.md), [Suddivisione dimensioni](/help/components/dimensions/t-breakdown-fa.md) e [Dimensioni suddivise in base al tempo](/help/components/dimensions/time-parting-dimensions.md).
 
 ## Aggiungere metriche a un progetto
 
@@ -93,11 +93,11 @@ Per aggiungere una metrica a un progetto in Analysis Workspace:
 
    * Trascina una metrica accanto a un’intestazione per vedere entrambe le metriche una accanto all’altra.
 
-Per ulteriori informazioni sulle metriche, consulta [Panoramica delle metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
+Per ulteriori informazioni sulle metriche, vedere [Panoramica delle metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
 
 ## Aggiungere filtri a un progetto
 
-[Filtri](/help/components/filters/filters-overview.md) consente di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
+[I filtri](/help/components/filters/filters-overview.md) ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
 
 In Analysis Workspace puoi utilizzare i filtri in uno dei seguenti modi:
 
@@ -105,7 +105,7 @@ In Analysis Workspace puoi utilizzare i filtri in uno dei seguenti modi:
 
 Quando aggiungi filtri a un pannello, i filtri si applicano a tutto il contenuto al suo interno.
 
-Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
 ### Aggiungere filtri a una colonna di una tabella a forma libera
 
@@ -115,11 +115,11 @@ Quando si aggiungono filtri a una colonna di una tabella a forma libera, i filtr
 
 Nel generatore di metriche calcolate, puoi applicare filtri all’interno della definizione della metrica.
 
-Per ulteriori informazioni, consulta [Metriche filtrate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
+Per ulteriori informazioni, vedere [Metriche filtrate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
 
 ## Aggiungere intervalli di date a un progetto
 
-[Intervalli di date](/help/components/date-ranges/custom-date-ranges.md) determina l’intervallo di tempo di reporting in Analysis Workspace e può essere applicato a uno o più pannelli all’interno di un progetto.
+[Gli intervalli di date](/help/components/date-ranges/custom-date-ranges.md) determinano l&#39;intervallo di tempo di reporting in Analysis Workspace e possono essere applicati a uno o più pannelli all&#39;interno di un progetto.
 
 Per impostazione predefinita, ogni pannello include un intervallo di date. Esistono diversi modi per aggiornare un intervallo di date per un pannello. Un modo per aggiornare un intervallo di date per un pannello in Analysis Workspace consiste nel trascinare un componente intervallo di date dalla barra a sinistra:
 
@@ -129,4 +129,4 @@ Per impostazione predefinita, ogni pannello include un intervallo di date. Esist
 
    ![rilascia un intervallo di date](assets/daterange-drop.png)
 
-Per ulteriori informazioni sull’utilizzo di calendari e intervalli di date in Analysis Workspace, consulta [Panoramica del calendario e degli intervalli di date](/help/components/date-ranges/custom-date-ranges.md).
+Per ulteriori informazioni sull&#39;utilizzo dei calendari e degli intervalli di date in Analysis Workspace, vedere [Panoramica del calendario e degli intervalli di date](/help/components/date-ranges/custom-date-ranges.md).

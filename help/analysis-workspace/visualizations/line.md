@@ -15,13 +15,13 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->La visualizzazione Linee sarà presto disponibile [sottotitoli intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md).
+>La visualizzazione Linee includerà presto [sottotitoli intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere usato solo con una dimensione temporale.
 
 ![Visualizzazione delle linee](assets/line-viz.png)
 
-Seleziona l’icona delle impostazioni ![Impostazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nella barra superiore della visualizzazione Linee per accedere a [Impostazioni di visualizzazione](freeform-analysis-visualizations.md) disponibile. Le impostazioni sono suddivise in categorie:
+Seleziona l&#39;icona delle impostazioni ![Impostazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nella barra superiore della visualizzazione Linee per accedere alle [impostazioni di visualizzazione](freeform-analysis-visualizations.md) disponibili. Le impostazioni sono suddivise in categorie:
 
 <img src="./assets/viz-settings-line.png" alt="Impostazioni di visualizzazione" width="50%" />
 
@@ -38,7 +38,7 @@ Nelle [impostazioni di visualizzazione](freeform-analysis-visualizations.md), un
 
 In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]** puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare rapidamente picchi e valli in una metrica. Nota: i valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.
 
-![Una sovrapposizione con l’etichetta di valore minimo e massimo.](assets/min-max-labels.png)
+![Sovrapposizione con l&#39;etichetta di valore minimo e massimo.](assets/min-max-labels.png)
 
 ## Mostra la sovrapposizione della linea di tendenza
 

@@ -31,4 +31,4 @@ Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace
 
 ## Post di blog
 
-Ecco un post correlato su [gestione di &quot;nessun valore&quot; nel Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+Ecco un post di blog correlato su [gestione di &quot;nessun valore&quot; nel Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).

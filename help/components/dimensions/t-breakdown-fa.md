@@ -22,7 +22,7 @@ Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metr
 1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
 1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Risultato passaggio che mostra l’avviso di creazione dalla selezione selezionata.](assets/fa_data_table_actions.png)
+   ![Risultato passaggio che mostra l&#39;avviso di creazione dalla selezione selezionata.](assets/fa_data_table_actions.png)
 
    Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
@@ -42,7 +42,7 @@ Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metr
 
 A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e fai clic su **[!UICONTROL Edit]**:
 
-![Confronto attribuzione ordine con le impostazioni del raggruppamento](assets/breakdown_settings.png)
+![Confronto attributi ordine con le impostazioni di raggruppamento](assets/breakdown_settings.png)
 
 Questo è il comportamento previsto quando si applicano modelli di attribuzione ai raggruppamenti o quando questi vengono modificati:
 

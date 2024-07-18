@@ -77,7 +77,7 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 Per creare rapporti sulle dimensioni di ricerca standard, devi aggiungerle quando crei una visualizzazione dati in Customer Journey Analytics:
 
-![Creare una visualizzazione dati che mostri l’elenco Aggiungi componenti](assets/global-lookup.png)
+![Creare una visualizzazione dati che mostra l&#39;elenco Aggiungi componenti](assets/global-lookup.png)
 
 Puoi quindi visualizzare i dati di ricerca in Workspace:
 

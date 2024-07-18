@@ -21,11 +21,11 @@ Questi casi d’uso mostrano la flessibilità e la potenza delle visualizzazioni
 Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICONTROL Orders] da una campo schema [!UICONTROL pageTitle] di tipo stringa. Ecco come si fa:
 
 1. Nella scheda Components (Componenti), trascina [!UICONTROL pageTitle] nella sezione [!UICONTROL Metrics] in [!UICONTROL Included Components].
-   ![Campi dello schema con una freccia che punta a pageTitle nell’elenco Nome componente.](../assets/use-case1a.png)
+   ![Campi schema con freccia che punta a pageTitle nell&#39;elenco dei nomi dei componenti.](../assets/use-case1a.png)
 1. Evidenzia la metrica appena trascinata e rinominala in [!UICONTROL Component Settings], a destra:
-   ![Campi schema che evidenziano Ordini in Impostazioni componente.](../assets/orders.png)
+   ![Campi schema che evidenziano Ordini nelle Impostazioni dei componenti.](../assets/orders.png)
 1. Apri la finestra di dialogo [!UICONTROL Include/Exclude Values] a destra e specifica quanto segue:
-   ![Valori di inclusione/esclusione con l&#39;opzione Imposta valori di inclusione/esclusione selezionata e con distinzione tra maiuscole e minuscole selezionata.](../assets/orders2.png)
+   ![Includi/Escludi valori con l&#39;opzione Imposta valori di inclusione/esclusione selezionata e con distinzione tra maiuscole e minuscole selezionata.](../assets/orders2.png)
 
    Il termine “confirmation” (conferma) indica che si tratta di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, viene conteggiato “1” per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi o esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i filtri e ovunque sia possibile utilizzare le metriche standard.
 1. Puoi anche specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] impostato su [!UICONTROL Session].
@@ -43,7 +43,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche n
 
 1. Ora puoi aggiungere [!UICONTROL Value Bucketing] per presentare questa dimensione sotto forma di bucket nei rapporti. (Senza bucket, ogni istanza della dimensione si presenta come una voce distinta nei rapporti di Workspace.)
 
-   ![Periodo fisso con valore di periodo fisso selezionato.](../assets/bucketing.png)
+   ![Creazione di periodi fissi con valore bucket selezionato.](../assets/bucketing.png)
 
 ## 3. Utilizzare le dimensioni numeriche come “metriche” nei diagrammi di flusso {#numeric}
 
@@ -52,7 +52,7 @@ Puoi utilizzare una dimensione numerica per inserire “metriche” nella visual
 1. Nella scheda [Components](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#configure-component-settings) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 2. Nei rapporti di Workspace, questo flusso mostra come [!UICONTROL Marketing Channels] scorre in [!UICONTROL Orders]:
 
-![Flusso del canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
+![Flusso canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
 
 ## 4. Applicare filtri agli eventi secondari {#sub-event}
 
@@ -83,7 +83,7 @@ Con la funzione [!UICONTROL Duplicate] in alto a destra, crea alcune metriche Ri
 
 Non dimenticare di rinominare ogni metrica in base alle differenze, ad esempio “Ricavi algoritmici”:
 
-![Ricavi algoritmici con valori di conteggio selezionati nell’elenco Comportamento.](../assets/algo-revenue.png)
+![Ricavi algoritmici con valori di conteggio selezionati nell&#39;elenco Comportamento.](../assets/algo-revenue.png)
 
 Per informazioni sulle altre impostazioni di visualizzazione dati, vedi [Creare le visualizzazioni dati](/help/data-views/create-dataview.md).
 Per una panoramica concettuale delle visualizzazioni dati, vedi [Panoramica delle visualizzazioni dati](/help/data-views/data-views.md).
@@ -102,7 +102,7 @@ Una dimensione e due metriche facilitano questo reporting:
 
 * [Prime sessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html#optional). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html#optional) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente—>
+* [Sessioni di ritorno](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html#optional) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
 
 Per accedere a questi componenti:
 
@@ -133,5 +133,5 @@ Attualmente sono supportate le date successive al 1° gennaio 1900 (con l’ecce
 * Data e ora: una società di vendita al dettaglio raccoglie l’ora di ogni acquisto dei propri punti vendita (POS) in-store. Vorrebbe capire quali sono i momenti in cui avvengono più acquisti in un determinato mese, per [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[Data e data-ora nell’impostazione del componente Formato](/help/data-views/component-settings/format.md)
+>[Data e data-ora nell&#39;impostazione del componente Formato](/help/data-views/component-settings/format.md)
 

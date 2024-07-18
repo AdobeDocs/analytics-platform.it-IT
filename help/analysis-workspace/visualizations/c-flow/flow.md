@@ -7,7 +7,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -29,9 +29,9 @@ Ora puoi visualizzare il [flusso tra dimensioni](/help/analysis-workspace/visual
 
 Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione al diagramma, trascinala fino ad una zona di rilascio.
 
-## Configurare una visualizzazione di flusso
+## Configurare una visualizzazione del flusso
 
-Per informazioni su come configurare una visualizzazione di flusso, consulta [Configurare una visualizzazione di flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+Per informazioni su come configurare una visualizzazione del flusso, consulta [Configurare una visualizzazione del flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## Esportare i diagrammi di flusso come file .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

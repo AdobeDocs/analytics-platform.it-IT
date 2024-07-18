@@ -35,7 +35,7 @@ Per assegnare tag a un filtro:
 
    * inserisci un nuovo nome di tag e premi **[!UICONTROL Enter]**.
 
-1. Clic **[!UICONTROL Tag]** per assegnare un tag al filtro.
+1. Fai di nuovo clic su **[!UICONTROL Tag]** per assegnare il tag al filtro.
 
 Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
 Puoi anche filtrare i tag andando in **[!UICONTROL Filters > Tags]**.

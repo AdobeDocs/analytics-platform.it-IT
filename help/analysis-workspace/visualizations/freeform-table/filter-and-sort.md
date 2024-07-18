@@ -25,7 +25,7 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 
 >[!NOTE]
 >
-> Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, vedere [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 ## Filtrare le righe di tabelle a forma libera
 
@@ -35,7 +35,7 @@ Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libe
 - Filtri per tabella
 - Segmentazione
 
-Assicurati di leggere l’impatto di ogni metodo [Totali nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Assicurati di leggere l&#39;impatto di ogni metodo sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Escludere rapidamente righe specifiche da una tabella
 
@@ -43,7 +43,7 @@ Puoi escludere rapidamente righe specifiche dalla tabella senza dover aprire la 
 
 >[!NOTE]
 >
->Quando escludi le righe come descritto in questa sezione, viene [!UICONTROL **Escludi sempre gli elementi**] la regola viene applicata automaticamente nella finestra di dialogo del filtro avanzato. Puoi visualizzare la regola applicata selezionando l’icona Filtro, quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Quando si escludono le righe come descritto in questa sezione, nella finestra di dialogo del filtro avanzato viene automaticamente applicata una regola [!UICONTROL **Escludi sempre elementi**]. (Puoi visualizzare la regola applicata selezionando l&#39;icona Filtro, quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Per escludere rapidamente righe specifiche da una tabella a forma libera:
 
@@ -69,7 +69,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. Seleziona l’icona **Filtro** quando viene visualizzata.
 
-   ![Tabella a forma libera con l’icona Filtro.](assets/table-filter-icon.png)
+   ![Tabella a forma libera che evidenzia l&#39;icona Filtro.](assets/table-filter-icon.png)
 
    Sono disponibili le seguenti opzioni:
 
@@ -95,7 +95,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ### Filtri
 
-Visualizza la [Documentazione sui filtri](/help/components/filters/filters-overview.md) per ulteriori dettagli.
+Per ulteriori dettagli, consulta la [documentazione sul filtro](/help/components/filters/filters-overview.md).
 
 ## Ordinare le tabelle
 
@@ -110,6 +110,6 @@ Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](ht
    - La freccia giù ordina in ordine decrescente e la freccia su (impostazione predefinita) in ordine crescente.
    - Puoi ordinare le dimensioni in ordine alfabetico o numerico. Ad esempio, è possibile che in un flusso di lavoro siano presenti passaggi numerati e che si desideri ordinare in base al numero del passaggio. Puoi ordinare una dimensione relativa alla data in base alla data. Oppure puoi ordinare alfabeticamente le origini dati, come nell‘immagine seguente.
 
-   ![La vista Origini dati evidenzia l’icona di ordinamento.](assets/sort-dimensions.png)
+   ![La vista Origini dati evidenzia l&#39;icona di ordinamento.](assets/sort-dimensions.png)
 
 

@@ -37,7 +37,7 @@ Per identificare i problemi di integrità nel dizionario dei dati:
 
    Viene visualizzata la finestra Dizionario dei dati.
 
-   ![Vista dell&#39;amministratore del dizionario dati che mostra l&#39;integrità del dizionario](assets/data-dictionary-admin.png)
+   ![Visualizzazione dell&#39;amministratore del dizionario dati che mostra l&#39;integrità del dizionario](assets/data-dictionary-admin.png)
 
 1. Verifica che nel menu a discesa sia selezionata la visualizzazione dati corretta.
 

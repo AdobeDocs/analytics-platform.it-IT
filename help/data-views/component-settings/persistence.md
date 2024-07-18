@@ -23,9 +23,9 @@ ht-degree: 79%
 
   >[!NOTE]
   >
-  >Se si dispone di [modello di attribuzione non predefinito](/help/data-views/component-settings/attribution.md) impostato su una metrica in un rapporto, il modello di attribuzione ignora l’allocazione impostata sulla dimensione per lo stesso rapporto.
+  >Se in un report è impostato un [modello di attribuzione non predefinito](/help/data-views/component-settings/attribution.md) per una metrica, il modello di attribuzione ignora l&#39;allocazione impostata sulla dimensione per lo stesso report.
   >
-  >Tuttavia, quando si esegue una [esportazione di tabelle complete](/help/analysis-workspace/export/export-cloud.md) che include più dimensioni, l’attribuzione mantiene i modelli di allocazione applicati a ciascuna dimensione.
+  >Tuttavia, quando si esegue una [esportazione di tabelle complete](/help/analysis-workspace/export/export-cloud.md) che include più dimensioni, l&#39;attribuzione mantiene i modelli di allocazione applicati a ogni dimensione.
 
 * **Scadenza** consente di determinare per quanto tempo un elemento dimensione persiste oltre l’evento su cui è impostato.
 
@@ -86,7 +86,7 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
 
-Consulta [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) esempi su come utilizzare in modo efficace le dimensioni di binding.
+Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedere [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -96,4 +96,4 @@ Elenco a discesa che consente di scegliere una metrica che funge da trigger di b
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Vedi il secondo esempio in [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md) per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding.
+Per ulteriori informazioni sull&#39;utilizzo efficace delle metriche di binding, vedere il secondo esempio in [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).

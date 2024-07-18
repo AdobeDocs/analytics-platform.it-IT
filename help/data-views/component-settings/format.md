@@ -20,11 +20,11 @@ Il formato consente di determinare come viene visualizzata una particolare metri
 
 È possibile determinare la modalità di visualizzazione di una particolare metrica regolandone le impostazioni di formato.
 
-1. In Customer Journey Analytics, seleziona la [!UICONTROL **Visualizzazioni dati**] scheda.
+1. In Customer Journey Analytics selezionare la scheda [!UICONTROL **Visualizzazioni dati**].
 
 1. Seleziona la visualizzazione dati che contiene il componente di cui desideri configurare l’impostazione di formato.
 
-1. Seleziona la [!UICONTROL **Componenti**] scheda.
+1. Selezionare la scheda [!UICONTROL **Componenti**].
 
 1. Seleziona il componente da configurare, quindi espandi la sezione [!UICONTROL **Formato**] sul lato destro della pagina.
 
@@ -38,7 +38,7 @@ Il formato consente di determinare come viene visualizzata una particolare metri
    | **[!UICONTROL Decimal]** | Non visibile sui tipi di dati dello schema a numero intero. Consente di specificare il numero di posizioni decimali visualizzate da una metrica. |
    | **[!UICONTROL Date]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL Date-Time]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Currency]** | Consente di determinare la valuta in cui visualizzare la metrica. <p>Se si analizzano i dati globali in cui le transazioni si verificano in valute diverse, vedere  [Usa conversione valuta](#use-currency-conversion).</p> |
+   | **[!UICONTROL Currency]** | Consente di determinare la valuta in cui visualizzare la metrica. <p>Se si analizzano dati globali in cui le transazioni si verificano in valute diverse, vedere [Usa conversione valuta](#use-currency-conversion).</p> |
    | **[!UICONTROL Show upward trend as]** | Consente di specificare se la tendenza verso l’alto per questa metrica è positiva (verde) o negativa (rossa). |
    | **[!UICONTROL True value]** e **[!UICONTROL False value]** | Visibile solo sui tipi di dati dello schema booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
 
@@ -55,27 +55,27 @@ Ad esempio, se un’azienda di e-commerce opera negli Stati Uniti, nel Regno Uni
 >Prima di iniziare a configurare una metrica per la conversione della valuta, considera quanto segue:
 >
 >* La metrica selezionata per la conversione della valuta deve avere un tipo numerico (Double, Long, Integer, Short, Byte).
->* Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme al [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) standard per la rappresentazione delle valute. Questi valori devono essere in formato maiuscolo completo, ad esempio USD per $, EUR per €, GBP per £.
+>* Imposta la connessione di Customer Journey Analytics in modo che contenga almeno un set di dati evento che contiene una dimensione di codice valuta per ogni evento contenente una metrica di valuta. La dimensione del codice valuta utilizza un codice valuta alfabetico conforme allo standard [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) per rappresentare le valute. Questi valori devono essere in formato maiuscolo completo, ad esempio USD per $, EUR per €, GBP per £.
 
 Per determinare come vengono visualizzate e convertite le valute per una data metrica:
 
-1. Inizia a configurare la metrica per la quale desideri utilizzare la valuta come formato, come descritto in precedenza, in [Configurare le impostazioni di formato per una metrica](#configure-format-settings-for-a-metric).
+1. Iniziare a configurare la metrica per la quale si desidera utilizzare la valuta come formato, come descritto in precedenza, in [Configurare le impostazioni di formato per una metrica](#configure-format-settings-for-a-metric).
 
-1. Con la metrica selezionata, effettua le seguenti selezioni nella [!UICONTROL **Formato**] sezione sul lato destro della pagina:
+1. Con la metrica selezionata, effettua le seguenti selezioni nella sezione [!UICONTROL **Formato**] sul lato destro della pagina:
 
-   * In [!UICONTROL **Formato**] campo, seleziona [!UICONTROL **Valuta**].
+   * Nel campo [!UICONTROL **Formato**], selezionare [!UICONTROL **Valuta**].
 
-   * In [!UICONTROL **Cifre decimali**] scegliere il numero di posizioni decimali visualizzate dalla metrica.
+   * Nel campo [!UICONTROL **Posizioni decimali**], scegli il numero di posizioni decimali visualizzate dalla metrica.
 
      Questa opzione è disponibile solo se la metrica ha un tipo numerico &quot;Double&quot; (Doppio).
 
-   * Seleziona la [!UICONTROL **Converti valuta**] opzione.
+   * Selezionare l&#39;opzione [!UICONTROL **Converti valuta**].
 
-   * In [!UICONTROL **Seleziona dimensione codice valuta**] , seleziona la dimensione che rappresenta la valuta da cui stai eseguendo la conversione (la valuta su cui si basano i dati). Ad esempio, selezionate una quota denominata [!UICONTROL **Codice valuta**].
+   * Nel campo [!UICONTROL **Seleziona dimensione codice valuta**], seleziona la dimensione che rappresenta la valuta da cui stai eseguendo la conversione (la valuta su cui si basano i dati). Selezionare ad esempio una dimensione denominata [!UICONTROL **Codice valuta**].
 
-     Se nello schema dati corrente non è presente una dimensione contenente un campo codice valuta, puoi creare un nuovo campo codice valuta utilizzando [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), o [Campi derivati](/help/data-views/derived-fields/derived-fields.md). La preparazione dati è adatta solo per le nuove implementazioni perché è solo su base di avanzamento. A seconda della configurazione di un’organizzazione, Data Distiller e Campi derivati possono essere utilizzati per accedere ai valori del codice valuta in modo storico.
+     Se nello schema dati corrente non è presente una dimensione contenente un campo del codice valuta, è possibile creare un nuovo campo del codice valuta utilizzando [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Distiller dati](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) o [Campi derivati](/help/data-views/derived-fields/derived-fields.md). La preparazione dati è adatta solo per le nuove implementazioni perché è solo su base di avanzamento. A seconda della configurazione di un’organizzazione, Data Distiller e Campi derivati possono essere utilizzati per accedere ai valori del codice valuta in modo storico.
 
-   * In [!UICONTROL **Conversione e visualizzazione della valuta in**] scegliere la valuta in cui si desidera convertire i dati.
+   * Nel campo [!UICONTROL **Converti e visualizza valuta in**], scegliere la valuta in cui si desidera convertire i dati.
 
 1. Ripeti questi passaggi se desideri applicare la conversione della valuta ad altre metriche.
 

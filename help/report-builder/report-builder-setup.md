@@ -68,11 +68,11 @@ Per scaricare e installare il componente aggiuntivo di Report Builder
 
 1. Riavviare Excel.
 
-**Se l’organizzazione blocca l’accesso a Microsoft Store**
+**Se l&#39;organizzazione blocca l&#39;accesso a Microsoft Store**
 
 Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo di Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Gestione amministratore.
 
-![Scheda Gestione amministratore nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
+![Scheda Amministrazione gestita nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
 
 Dopo aver installato il componente aggiuntivo di Report Builder, l&#39;icona del Report Builder viene visualizzata nella barra multifunzione di Excel nella scheda Home.
 
@@ -86,9 +86,9 @@ Dopo aver installato il componente aggiuntivo Report Builder for Excel per la pi
 
 1. Fai clic sull’icona Report Builder per avviare il Report Builder.
 
-1. Dalla barra degli strumenti di Adobe Report Builder, fai clic su **Login**.
+1. Dalla barra degli strumenti di Adobe Report Builder, fai clic su **Accesso**.
 
-   ![Fai clic sul pulsante di accesso al Report Builder.](./assets/rb_login.png)
+   ![Fare clic sul pulsante di accesso al Report Builder.](./assets/rb_login.png)
 
 1. Immetti le informazioni del tuo account Adobe Experience ID. Le informazioni sull&#39;account devono corrispondere alle credenziali del Customer Journey Analytics.
 
@@ -104,7 +104,7 @@ La prima volta che accedi, accedi all’organizzazione predefinita assegnata al 
 
 1. Seleziona un’organizzazione dall’elenco delle organizzazioni disponibili. Vengono elencate solo le organizzazioni a cui hai accesso.
 
-   ![L’elenco delle organizzazioni a cui puoi accedere.](./assets/image5.png)
+   ![Elenco delle organizzazioni a cui è possibile accedere.](./assets/image5.png)
 
 ## Uscire
 
@@ -114,6 +114,6 @@ Puoi uscire dal Report Builder dal profilo utente.
 
 1. Fai clic sull’icona dell’avatar per visualizzare il profilo utente.
 
-   ![L&#39;avatar del tuo profilo utente e il pulsante Disconnetti.](./assets/image6.png)
+   ![Avatar del tuo profilo utente e pulsante Disconnetti.](./assets/image6.png)
 
-1. Clic **Esci**.
+1. Fai clic su **Esci**.

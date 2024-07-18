@@ -37,7 +37,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un filtro (se desiderato):
 
-   ![Configurazione della metrica chiave che mostra le opzioni per metrica, intervallo di date principale, intervallo di date di confronto e segmento.](assets/key-metric-config.png)
+   ![Configurazione delle metriche chiave che mostra le opzioni per metrica, intervallo di date primario, intervallo di date di confronto e segmento.](assets/key-metric-config.png)
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
@@ -48,7 +48,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Build]**.
 
 <!--## How the Key Metric Summary visualization handles the comparison date range
 
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## Visualizza l’output
 
-![Output metrico chiave che mostra i grafici metrica, variazione di riepilogo, numero di riepilogo e linea.](assets/key-metric-output.png)
+![Output delle metriche chiave che mostra i grafici metrica, modifica di riepilogo, numero di riepilogo e linea.](assets/key-metric-output.png)
 
 Nota:
 
@@ -89,13 +89,13 @@ Nota:
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
-![Statistiche sulle visite](assets/key-metric-output2.png)
+![Statistiche visite](assets/key-metric-output2.png)
 
 ## Impostazioni di visualizzazione
 
 Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per consentire una migliore generazione di rapporti e comunicazioni di metriche importanti. È possibile accedere alle impostazioni tramite l’icona a forma di ingranaggio nell’angolo in alto a destra della visualizzazione.
 
-![Impostazioni di riepilogo delle metriche chiave che mostrano le opzioni Tipo di visualizzazione Riepilogo, Generale e Visualizzazione.](assets/key-metric-settings.png)
+![Impostazioni di riepilogo delle metriche chiave che mostrano le opzioni di tipo di visualizzazione Riepilogo, Generale e Visualizzazione.](assets/key-metric-settings.png)
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -116,7 +116,7 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
 1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
 
-   ![Icone di modifica della visualizzazione](assets/edit-icon.png)
+   ![Icona modifica visualizzazione.s](assets/edit-icon.png)
 
    Ora ritorni alla visualizzazione di configurazione originale.
 

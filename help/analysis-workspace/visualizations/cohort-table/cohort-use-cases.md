@@ -28,7 +28,7 @@ Puoi creare una [!UICONTROL Cohort Analysis] di sei mesi:
 
 **Metrica di ritorno**: sessioni o avvii
 
-I visitatori non vengono considerati *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l’app. [!UICONTROL Cohort Analysis] mostrerebbe quindi i pattern di utilizzo in cui *`App Install`* si verifica sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015, e così via). A seguito di questa analisi, potresti ad esempio inviare un’e-mail o un messaggio push a tutti gli utenti nel corso del mese due per ricordare loro di utilizzare l’app.
+I visitatori non contano come *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l&#39;app. [!UICONTROL Cohort Analysis] mostrerebbe quindi i pattern di utilizzo in cui *`App Install`* si verifica sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015, e così via). A seguito di questa analisi, potresti ad esempio inviare un’e-mail o un messaggio push a tutti gli utenti nel corso del mese due per ricordare loro di utilizzare l’app.
 
 ## Caso di utilizzo: abbonamento
 

@@ -10,7 +10,7 @@ role: User
 source-git-commit: 9c60c00818e82a6ca891ab9d90260922437c6cca
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ Questo articolo spiega come impostare, configurare e creare rapporti sui dati B2
 
 ## Connessione
 
-Definisci la connessione in modo da includere tutti i set di dati B2B rilevanti da Experienci Platform. Assicurati di includere e trasformare tutti i set di dati di ricerca rilevanti necessari per un tipico scenario di reporting basato su persona B2B. Consulta [Trasformare i set di dati di ricerca B2B](/help/connections/transform-datasets-b2b-lookups.md) per ulteriori informazioni.
+Definisci la connessione in modo da includere tutti i set di dati B2B rilevanti da Experience Platform. Assicurati di includere e trasformare tutti i set di dati di ricerca rilevanti necessari per un tipico scenario di reporting basato su persona B2B. Per ulteriori informazioni, vedere [Trasformare i set di dati di ricerca B2B](/help/connections/transform-datasets-b2b-lookups.md).
 
 Set di dati da aggiungere alla connessione:
 
@@ -29,7 +29,7 @@ Set di dati da aggiungere alla connessione:
 | Set di dati sull’attività B2B | Schema attività B2B | Evento | XDM ExperienceEvent | Un ExperienceEvent è una registrazione fattuale di ciò che è accaduto, incluso il momento e l’identità dell’individuo coinvolto. ExperienceEvents possono essere espliciti (azioni umane direttamente osservabili) o impliciti (generati senza un’azione umana diretta) e vengono registrati senza aggregazione o interpretazione. Sono fondamentali per l’analisi del dominio del tempo in quanto consentono l’osservazione e l’analisi dei cambiamenti che si verificano in una determinata finestra temporale e il confronto tra più finestre temporali per monitorare le tendenze. |
 | Set di dati persona B2B | Schema persona B2B | Profilo | Profilo individuale XDM | Un profilo individuale XDM costituisce una rappresentazione unica degli attributi e degli interessi sia di individui identificati che parzialmente identificati. I profili meno identificati possono contenere solo segnali comportamentali anonimi, come i cookie del browser, mentre i profili altamente identificati possono contenere informazioni personali dettagliate come nome, data di nascita, posizione e indirizzo e-mail. Man mano che un profilo cresce, diventa un solido archivio di informazioni personali, informazioni di identificazione, dettagli di contatto e preferenze di comunicazione per un individuo. |
 | Set di dati relazione persona account B2B | Schema di relazione della persona dell’account B2B | Ricerca | Relazione della persona dell’account aziendale XDM | XDM Business Account Person Relation è una classe XDM (Experience Data Model) standard che acquisisce le proprietà minime richieste di una persona associata a un account aziendale. |
-| Set di dati relazione persona opportunità B2B | Schema di relazione persona opportunità B2B | Ricerca | Relazione della persona dell’opportunità di business XDM | La relazione tra persona opportunità aziendale XDM è una classe XDM (Experience Data Model) standard che acquisisce le proprietà minime richieste di una persona associata a un’opportunità aziendale. |
+| Set di dati relazione persona opportunità B2B | Schema di relazione persona opportunità B2B | Ricerca | Relazione della persona dell’opportunità aziendale XDM | La relazione tra persona opportunità aziendale XDM è una classe XDM (Experience Data Model) standard che acquisisce le proprietà minime richieste di una persona associata a un’opportunità aziendale. |
 | Set di dati dei membri dell’elenco di marketing B2B | Schema membri di elenchi marketing B2B | Ricerca | Membri dell’elenco di marketing XDM | XDM Business Marketing List Members è una classe XDM (Experience Data Model) standard che descrive membri, persone o contatti associati a un elenco di marketing. |
 | Set di dati dei membri della campagna B2B | Schema membro della campagna B2B | Ricerca | Membri della campagna aziendale XDM | XDM Business Campaign Members è una classe XDM (Experience Data Model) standard che descrive un contatto o un lead associato a una campagna aziendale. |
 <!--
@@ -40,24 +40,24 @@ Set di dati da aggiungere alla connessione:
 -->
 
 
-La relazione tra gli schemi di ricerca, lo schema di profilo e lo schema evento è definita nella configurazione B2B all’interno di Experienci Platform. Vedere Schemi in [Edizione B2B di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) e [Definire una relazione molti-a-uno tra due schemi in Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) per ulteriori dettagli.
+La relazione tra gli schemi di ricerca, lo schema di profilo e lo schema evento è definita nella configurazione B2B all’interno di Experience Platform. Per ulteriori dettagli, vedere Schemi in [Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) e [Definire una relazione molti-a-uno tra due schemi in Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html).
 
 ![Relazione tra schemi B2B](assets/classes.png)
 
-Per ogni set di dati di ricerca aggiunto alla connessione, devi definire esplicitamente la relazione con un set di dati evento utilizzando **[!UICONTROL Key]** e **[!UICONTROL Matching key]** nel **[!UICONTROL Edit dataset]** . Ad esempio:
+Per ogni set di dati di ricerca aggiunto alla connessione, è necessario definire esplicitamente la relazione con un set di dati evento utilizzando **[!UICONTROL Key]** e **[!UICONTROL Matching key]** nella finestra di dialogo **[!UICONTROL Edit dataset]**. Ad esempio:
 
 ![Chiave - Chiave corrispondente](assets/key-matchingkey.png)
 
 Quattro schemi vengono utilizzati esplicitamente per collegare lo schema Persona ad altri schemi rilevanti: Account, Opportunità, Campaign e Marketing List. Questi schemi si basano sulle seguenti classi di schema:
 
 * Relazione della persona dell’account aziendale XDM
-* Relazione della persona dell’opportunità di business XDM
+* Relazione della persona dell’opportunità aziendale XDM
 * Membri dell’elenco di marketing aziendale XDM
 * Membri della campagna aziendale XDM
 
-Per ogni set di dati di ricerca, per uno schema basato su tale classe di schema, abilita anche **[!UICONTROL Transform dataset]** per garantire che i dati vengano trasformati per le ricerche basate su persone. Consulta [Trasformare i set di dati per le ricerche B2B](/help/connections/transform-datasets-b2b-lookups.md) per ulteriori informazioni.
+Per ogni set di dati di ricerca, per uno schema basato su tale classe di schema, si abilita anche **[!UICONTROL Transform dataset]** per garantire che i dati vengano trasformati per le ricerche basate su persone. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](/help/connections/transform-datasets-b2b-lookups.md).
 
-La tabella seguente fornisce un esempio di panoramica di [!UICONTROL Person ID], [!UICONTROL Key], e [!UICONTROL Matching key] per ciascuno dei set di dati.
+La tabella seguente fornisce una panoramica di esempio dei valori [!UICONTROL Person ID], [!UICONTROL Key] e [!UICONTROL Matching key] per ciascuno dei set di dati.
 
 
 | Set di dati | ID persona | Chiave | Chiave corrispondente (nel set di dati dell’evento) |
@@ -71,7 +71,7 @@ La tabella seguente fornisce un esempio di panoramica di [!UICONTROL Person ID],
 
 {style="table-layout:auto"}
 
-Consulta [Aggiungere e configurare i set di dati](../../connections/create-connection.md) per ulteriori informazioni su come configurare le impostazioni per un set di dati.
+Per ulteriori informazioni su come configurare le impostazioni per un set di dati, vedere [Aggiungere e configurare i set di dati](../../connections/create-connection.md).
 
 
 ## Visualizzazione dati

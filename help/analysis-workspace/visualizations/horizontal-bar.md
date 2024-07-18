@@ -17,13 +17,13 @@ ht-degree: 66%
 
 Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche.
 
-![Barra orizzontale che mostra le metriche di, tra cui Visualizzazioni pagina, Velocità pagina, Visite, Entrate ed Uscite.](assets/horizontal_bar.png)
+![Barra orizzontale che mostra le metriche tra cui visualizzazioni di pagina, velocità di pagina, visite, entrate ed uscite.](assets/horizontal_bar.png)
 
 ## Barre orizzontali sovrapposte {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Questa visualizzazione è simile al [!UICONTROL Horizontal Bar Chart] (grafico a barre orizzontali), ma con serie di barre sovrapposte le une alle altre.
 
-![Barra orizzontale sovrapposta che mostra le visualizzazioni di pagina, le visite, le entrate e le uscite.](assets/horizontal-bar-stacked.png)
+![Barra orizzontale sovrapposta che mostra visualizzazioni pagina, visite, entrate ed uscite.](assets/horizontal-bar-stacked.png)
 
 L’impostazione di visualizzazione [!UICONTROL Horizontal Bar Stacked] (Barre orizzontali sovrapposte) converte il grafico in una visualizzazione con sovrapposizione 100%.
 

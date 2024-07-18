@@ -1,5 +1,5 @@
 ---
-title: Inserire il pubblico Adobe Experience Platform nel Customer Journey Analytics
+title: Acquisire i tipi di pubblico di Adobe Experience Platform in Customer Journey Analytics
 description: Come acquisire il pubblico Adobe Experience Platform nel Customer Journey Analytics per ulteriori analisi.
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # Inserire il pubblico di Adobe Experience Platform in Adobe Customer Journey Analytics
 
-Questo caso d’uso descrive come importare in modo provvisorio e manuale i tipi di pubblico di Adobe Experience Platform (Adobe Experience Platform) nel Customer Journey Analytics. Questi tipi di pubblico possono essere stati creati nel Generatore di segmenti di Adobe Experience Platform, in Adobe Audience Manager o in altri strumenti e sono memorizzati nel Profilo cliente in tempo reale (RTCP, Real-time Customer Profile). I tipi di pubblico sono costituiti da un set di ID profilo ed eventuali attributi, eventi ecc. applicabili e vogliamo portarli in Customer Journey Analytics Workspace per l’analisi.
+Questo caso d’uso descrive come importare in modo provvisorio e manuale i tipi di pubblico di Adobe Experience Platform (Adobe Experience Platform) nel Customer Journey Analytics. Questi tipi di pubblico possono essere stati creati nel Generatore di segmenti di Adobe Experience Platform, in Adobe Audience Manager o in altri strumenti e sono memorizzati nel Profilo cliente in tempo reale (RTCP, Real-time Customer Profile). I tipi di pubblico sono costituiti da un set di ID profilo ed eventuali attributi, eventi ecc. applicabili e vogliamo inserirli nel Workspace di Customer Journey Analytics per l&#39;analisi.
 
 ## Prerequisiti
 
@@ -32,7 +32,7 @@ Probabilmente hai già dei tipi di pubblico in RTCP che possono provenire da var
 
 ## Passaggio 2: creare un set di dati Unione profili da esportare
 
-Per esportare il pubblico in un set di dati che può essere aggiunto a una connessione in un Customer Journey Analytics, devi creare un set di dati con uno schema di tipo Profilo [Schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+Per esportare il pubblico in un set di dati che possa essere aggiunto a una connessione nel Customer Journey Analytics, devi creare un set di dati con uno schema di profilo [Schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Gli schemi di unione sono composti da più schemi che condividono la stessa classe e sono stati abilitati per Profilo. Lo schema di unione consente di visualizzare una combinazione di tutti i campi contenuti negli schemi che condividono la stessa classe. Real-time Customer Profile utilizza lo schema di unione per creare una visualizzazione olistica di ogni cliente.
 
@@ -44,7 +44,7 @@ Puoi creare un processo di esportazione utilizzando l’ID pubblico desiderato e
 
 ## Passaggio 4: modificare l’output di esportazione
 
-Per poter essere acquisiti nel Customer Journey Analytics, i risultati del processo di esportazione devono essere trasformati in un set di dati profilo separato.  Questa trasformazione può essere eseguita con [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it)o un altro strumento di trasformazione a tua scelta. Per eseguire la generazione dei rapporti nel Customer Journey Analytics, è necessario solo l’ID profilo (che corrisponde all’ID persona nel Customer Journey Analytics) e uno o più ID pubblico.
+Per poter essere acquisiti nel Customer Journey Analytics, i risultati del processo di esportazione devono essere trasformati in un set di dati profilo separato.  Questa trasformazione può essere eseguita con [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) o con un altro strumento di trasformazione a tua scelta. Per eseguire la generazione dei rapporti nel Customer Journey Analytics, è necessario solo l’ID profilo (che corrisponde all’ID persona nel Customer Journey Analytics) e uno o più ID pubblico.
 
 Il processo di esportazione standard, tuttavia, contiene anche altri dati ed è quindi necessario modificare l’output per rimuovere i dati estranei e spostare alcuni elementi. Inoltre, è necessario creare uno schema o set di dati prima di aggiungervi i dati trasformati.
 
@@ -91,4 +91,4 @@ Ora puoi creare un rapporto in Workspace basato su `audienceMembershipId`, `audi
    1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
    1. Il Customer Journey Analytics supporta array/array di oggetti nei set di dati profilo. Utilizzare un [array di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) per audienceMembershipId o audienceMembershipIdName è l’opzione migliore.
    1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
-   1. Ora puoi creare rapporti sulla nuova dimensione `audienceMembershipIds` in Customer Journey Analytics Workspace.
+   1. È ora possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in Customer Journey Analytics Workspace.

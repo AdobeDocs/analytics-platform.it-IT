@@ -16,16 +16,16 @@ Puoi impilare e sostituire i filtri nel generatore di metriche calcolate.
 
 ## Sovrapponi filtri {#stack-filter}
 
-1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Inizia a creare una metrica, come descritto in [Metriche di compilazione](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 1. Nell’area di lavoro Definizione, rilascia il nuovo filtro accanto a quello esistente:
 
-![L’area di lavoro della definizione che mostra la metrica Visitatori USA è stata rilasciata accanto ai Visitatori internazionali esistenti.](assets/cm_stack_seg.png)
+![Area di lavoro di definizione che mostra la metrica Visitatori USA rilasciata accanto ai visitatori internazionali esistenti.](assets/cm_stack_seg.png)
 
 ## Sostituire un filtro con un altro {#replace-filter}
 
-1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Inizia a creare una metrica, come descritto in [Metriche di compilazione](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 1. Nell’area di lavoro Definizione, rilascia il nuovo filtro sopra quello esistente:
 
-![Un’area di lavoro della definizione che mostra i visitatori degli Stati Uniti è scesa sopra la metrica Visitatori internazionali.](assets/cm_replace_seg.png)
+![Area di lavoro di definizione che mostra i visitatori USA rilasciati sopra la metrica Visitatori internazionali.](assets/cm_replace_seg.png)

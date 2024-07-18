@@ -2,7 +2,8 @@
 description: I filtri sequenziali vengono creati utilizzando l’operatore THEN, anziché AND o OR. THEN implica che si verifica un criterio di filtro, seguito da un altro. Per impostazione predefinita, un filtro sequenziale identifica tutti i dati corrispondenti, mostrando il filtro "Includi tutti". I filtri sequenziali possono essere ulteriormente filtrati in un sottoinsieme di hit corrispondenti utilizzando le opzioni "Solo prima della sequenza" e "Solo dopo la sequenza".
 title: Creare filtri sequenziali
 feature: Filters
-source-git-commit: 2a9880148864140254d8acb0a53d701c2986dcb1
+exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
+source-git-commit: 85abe07d29ad74578aa5bf6a23ae4016b0e9d82f
 workflow-type: tm+mt
 source-wordcount: '3749'
 ht-degree: 64%
@@ -28,12 +29,12 @@ Quando crei un filtro in cui è impostato &quot;Includi tutti&quot;, il filtro i
 
 | Se il risultato | Sequenza |
 |--- | --- |
-| Corrisponde | A then B<br>A then (in una visita diversa) BA then D then B |
+| Corrisponde | A then B<br>A then (in un&#39;altra visita) BA then D then B |
 | Non corrisponde | B then A |
 
 ## Solo prima della sequenza e Solo dopo la sequenza {#only_before_after}
 
-Le opzioni **[!UICONTROL Only Before Sequence]** e **[!UICONTROL Only After Sequence]** filtra il filtro in un sottoinsieme di dati prima o dopo la sequenza specificata.
+Le opzioni **[!UICONTROL Only Before Sequence]** e **[!UICONTROL Only After Sequence]** filtrano il filtro in un sottoinsieme di dati prima o dopo la sequenza specificata.
 
 * **Solo prima della sequenza**: include tutti gli hit prima di una sequenza più il primo hit della sequenza stessa (vedi gli esempi 1 e 3). Se una sequenza appare più volte in un percorso, “Solo prima della sequenza” include il primo hit dell’ultima occorrenza della sequenza e tutti gli hit precedenti (vedi l’esempio 2).
 * **Solo dopo la sequenza**: include tutti gli hit dopo una sequenza più l’ultimo hit della sequenza stessa (vedi gli esempi 1 e 3). Se una sequenza appare più volte in un percorso, “Solo dopo la sequenza” include l’ultimo hit della prima occorrenza della sequenza e tutti gli hit successivi (vedi l’esempio 2).
@@ -109,7 +110,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di filtro:
 
 **Crea questo filtro**
 
-In questo esempio vengono nidificati due **[!UICONTROL Visit]** contenitori all’interno del livello superiore **[!UICONTROL Visitor]** contenitore e crea una sequenza del filtro utilizzando [!UICONTROL THEN] operatore.
+In questo esempio vengono nidificati due contenitori **[!UICONTROL Visit]** nel contenitore principale **[!UICONTROL Visitor]** e il filtro viene sequenziato utilizzando l&#39;operatore [!UICONTROL THEN].
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -136,7 +137,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di filtro:
 
 ## Aggregare i contenitori {#aggregate_containers}
 
-L’aggiunta di più contenitori [!UICONTROL Hit] all’interno di un contenitore [!UICONTROL Visitor] consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali pagina e numero visite per definire la visualizzazione di pagina e fornire una dimensione di sequenza all’interno del contenitore [!UICONTROL Hit]. L’applicazione della logica a livello di hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all’interno di [!UICONTROL Visitor] contenitore per la creazione di diversi tipi di filtri.
+L’aggiunta di più contenitori [!UICONTROL Hit] all’interno di un contenitore [!UICONTROL Visitor] consente di utilizzare gli operatori appropriati tra lo stesso tipo di contenitori e di utilizzare regole e dimensioni quali pagina e numero visite per definire la visualizzazione di pagina e fornire una dimensione di sequenza all’interno del contenitore [!UICONTROL Hit]. L&#39;applicazione della logica a livello di hit consente di vincolare e combinare le corrispondenze a uno stesso livello di hit all&#39;interno del contenitore [!UICONTROL Visitor] per creare diversi tipi di filtro.
 
 **Esempio**: i visitatori hanno visitato la pagina A dopo il primo hit nella sequenza di visualizzazioni di pagina (pagina D nell’esempio), poi hanno visitato la pagina B o la pagina C senza tenere conto del numero di visite.
 
@@ -159,7 +160,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di filtro:
 
 ## &quot;Nidificazione&quot; nei filtri sequenziali {#nesting}
 
-Posizionando punti di controllo in corrispondenza di entrambi [!UICONTROL Visit] e [!UICONTROL Hit] livello, puoi vincolare il filtro in modo da soddisfare i requisiti all’interno di una visita specifica o di un hit specifico.
+Posizionando punti di controllo sia a livello di [!UICONTROL Visit] che a livello di [!UICONTROL Hit], puoi vincolare il filtro in modo da soddisfare i requisiti all&#39;interno di una visita specifica o di un hit specifico.
 
 **Esempio**: il visitatore ha visitato la pagina A e poi la pagina B nella stessa visita. In una nuova visita, il visitatore è quindi passato alla pagina C.
 
@@ -179,11 +180,11 @@ Le regole del segmento includono tutti i dati a meno che tu non escluda espressa
 
 Esempio:
 
-* **Escludi pagine**. Utilizza una regola di filtro per eliminare una pagina specifica (ad esempio *`Home Page`*) da un rapporto, crea una regola Hit in cui la pagina è uguale a &quot;Home page&quot;, quindi escludila. Questa regola include automaticamente tutti i valori eccetto “Home page”.
+* **Escludi pagine**. Utilizzare una regola di filtro per eliminare una pagina specifica (ad esempio *`Home Page`*) da un report, creare una regola Hit in cui la pagina sia uguale a &quot;Home page&quot; e quindi escluderla. Questa regola include automaticamente tutti i valori eccetto “Home page”.
 * **Escludi i domini di riferimento**. Utilizza una regola che include solo i domini di riferimento da Google.com ed esclude tutti gli altri.
 * **Identifica i non acquirenti**. Identifica quando gli ordini sono maggiori di zero e quindi esclude il [!UICONTROL Visitor].
 
-L’operatore [!UICONTROL Exclude] può essere utilizzato per identificare una sequenza in cui visite o hit specifici non vengono eseguiti dal visitatore. [!UICONTROL Exclude Checkpoints] può essere incluso anche all’interno di un Gruppo logico (vedi di seguito).
+L’operatore [!UICONTROL Exclude] può essere utilizzato per identificare una sequenza in cui visite o hit specifici non vengono eseguiti dal visitatore. [!UICONTROL Exclude Checkpoints] può essere incluso anche all&#39;interno di un Gruppo logico (vedi sotto).
 
 ### Escludi tra punti di controllo {#exclude_between}
 
@@ -200,7 +201,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di filtro:
 
 **Crea questo filtro**
 
-Crea un filtro come faresti per un filtro sequenziale semplice, a livello misto o nidificato, quindi imposta il [!UICONTROL EXCLUDE] per l&#39;elemento contenitore. L’esempio seguente è un filtro di aggregazione in cui i tre [!UICONTROL Hit] i contenitori vengono trascinati nell’area di lavoro, il [!UICONTROL THEN] operatore assegnato per unire la logica del contenitore, quindi escludere il contenitore della visualizzazione di pagina centrale in modo da includere solo i visitatori che sono passati dalla pagina A alla pagina C nella sequenza.
+Creare un filtro come si farebbe per un filtro sequenziale semplice, a livello misto o nidificato, quindi impostare l&#39;operatore [!UICONTROL EXCLUDE] per l&#39;elemento contenitore. L&#39;esempio seguente è un filtro aggregato in cui i tre contenitori [!UICONTROL Hit] vengono trascinati nell&#39;area di lavoro, l&#39;operatore [!UICONTROL THEN] viene assegnato per unire la logica dei contenitori e poi escludere il contenitore della visualizzazione di pagina centrale in modo da includere solo i visitatori che sono passati dalla pagina A alla pagina C nella sequenza.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -224,7 +225,7 @@ Ad esempio, un negozio di abbigliamento vuole vedere tutti i visitatori che hann
 
 **Crea questo filtro**
 
-Creare un filtro di sequenza semplice trascinandone due [!UICONTROL Hit] all’area di lavoro e collegarli utilizzando il [!UICONTROL THEN] operatore. Quindi assegna l’operatore [!UICONTROL EXCLUDE] al secondo contenitore [!UICONTROL Hit] della sequenza.
+Creare un filtro di sequenza semplice trascinando due contenitori [!UICONTROL Hit] nell&#39;area di lavoro e collegandoli utilizzando l&#39;operatore [!UICONTROL THEN]. Quindi assegna l’operatore [!UICONTROL EXCLUDE] al secondo contenitore [!UICONTROL Hit] della sequenza.
 
 ![](assets/exclude_end_sequence.png)
 
@@ -235,11 +236,11 @@ Il contenitore [!UICONTROL Logic Group] è stato progettato per trattare *divers
 
 >[!NOTE]
 >
->A [!UICONTROL Logic Group] può essere definito solo in un filtro sequenziale, il che significa che [!UICONTROL THEN] all&#39;interno dell&#39;espressione.
+>Un [!UICONTROL Logic Group] può essere definito solo in un filtro sequenziale, il che significa che nell&#39;espressione viene utilizzato l&#39;operatore [!UICONTROL THEN].
 
 | Gerarchia dei contenitori | Illustrazione | Definizione |
 |---|---|---|
-| Gerarchia dei contenitori standard | ![](assets/nesting_container.png) | All&#39;interno del [!UICONTROL Visitor] contenitore, il [!UICONTROL Visit] e [!UICONTROL Hit] i contenitori sono nidificati in sequenza per estrarre i filtri in base agli hit, al numero di visite e al visitatore. |
+| Gerarchia dei contenitori standard | ![](assets/nesting_container.png) | All&#39;interno del contenitore [!UICONTROL Visitor], i contenitori [!UICONTROL Visit] e [!UICONTROL Hit] sono nidificati in sequenza per estrarre i filtri in base agli hit, al numero di visite e al visitatore. |
 | Gerarchia dei contenitori logica | ![](assets/logic_group_hierarchy.png) | La gerarchia dei contenitori standard è necessaria anche all’esterno del contenitore [!UICONTROL Logic Group]. Ma all’interno del contenitore [!UICONTROL Logic Group], i punti di controllo non richiedono un ordine o una gerarchia stabiliti, devono semplicemente essere soddisfatti dal visitatore in qualsiasi ordine. |
 
 I gruppi logici possono sembrare scoraggianti. Ecco alcune best practice per utilizzarli:
@@ -248,7 +249,7 @@ I gruppi logici possono sembrare scoraggianti. Ecco alcune best practice per uti
 Se desideri raggruppare punti di controllo sequenziali, il “contenitore” di cui hai bisogno è Gruppo logico. Tuttavia, se i punti di controllo sequenziali devono verificarsi nell’ambito di un singolo hit o di una visita, è necessario un contenitore Hit o Visita. Risulta ovvio che il contenitore Hit non è adatto per un gruppo di punti di controllo sequenziali, quando un hit può accreditare non più di un punto di controllo.
 
 **I gruppi logici semplificano la creazione di filtri sequenziali?**
-Sì. Supponiamo che tu stia cercando di identificare questo filtro di visitatori: **I visitatori che hanno visualizzato la pagina A e poi le pagine B, C e D**
+Sì. Supponiamo che tu stia cercando di identificare questo filtro di visitatori: **Visitatori che hanno visualizzato la pagina A e poi le pagine B, C e D**
 
 Puoi creare questo filtro senza un contenitore Gruppo logico, ma è complesso e laborioso. Dovresti specificare ogni sequenza di pagine che il visitatore può visualizzare:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
@@ -276,7 +277,7 @@ Come altri contenitori, i contenitori [!UICONTROL Logic Group] possono essere co
 
 ### Punti di controllo del Gruppo logico in qualsiasi ordine {#any_order}
 
-L’utilizzo di [!UICONTROL Logic Group] consente di soddisfare le condizioni all’interno del gruppo che risiedono al di fuori della sequenza. Questo consente di creare filtri in cui [!UICONTROL Visit] o [!UICONTROL Hit] il contenitore si verifica indipendentemente dalla gerarchia normale.
+L’utilizzo di [!UICONTROL Logic Group] consente di soddisfare le condizioni all’interno del gruppo che risiedono al di fuori della sequenza. In questo modo è possibile creare filtri in cui un contenitore [!UICONTROL Visit] o [!UICONTROL Hit] si verifica indipendentemente dalla gerarchia normale.
 
 **Esempio**: visitatori che hanno visitato la pagina A e poi la pagina B e C in qualsiasi ordine.
 
@@ -294,7 +295,7 @@ Il filtro deve corrispondere ad almeno uno dei punti di controllo del gruppo log
 
 ### Prima corrispondenza del Gruppo logico {#first_match}
 
-L’utilizzo di [!UICONTROL Logic Group] consente di soddisfare le condizioni all’interno del gruppo che risiedono al di fuori della sequenza. In questo filtro di prima corrispondenza non ordinato, il [!UICONTROL Logic Group] Le regole sono identificate inizialmente come una visualizzazione di pagina della pagina B o della pagina C, poi come la visualizzazione richiesta della pagina A.
+L’utilizzo di [!UICONTROL Logic Group] consente di soddisfare le condizioni all’interno del gruppo che risiedono al di fuori della sequenza. In questo filtro di prima corrispondenza non ordinato, le regole [!UICONTROL Logic Group] sono identificate prima come una visualizzazione di pagina della pagina B o della pagina C, quindi come la visualizzazione richiesta della pagina A.
 
 **Esempio**: visitatori che hanno visitato la pagina B o la pagina C e poi hanno visitato la pagina A.
 
@@ -306,7 +307,7 @@ Le dimensioni di pagina B e pagina C sono raggruppate all’interno di un conten
 
 ### Escludi AND in Gruppo logico {#lg_exclude_and}
 
-Creare filtri utilizzando [!UICONTROL Logic Group] quando più visualizzazioni di pagina sono aggregate per definire quali pagine dovevano essere visitate necessariamente mentre altre pagine sono state specificatamente saltate. ****
+Crea filtri utilizzando [!UICONTROL Logic Group] in cui più visualizzazioni di pagina sono aggregate per definire quali pagine dovevano essere visitate necessariamente mentre altre pagine sono state specificatamente saltate. ****
 
 **Esempio**: il visitatore ha visitato la pagina A, poi ha esplicitamente saltato la pagina B o C, ma ha visualizzato la pagina D.
 
@@ -320,7 +321,7 @@ Dopo aver nidificato i valori all’interno del [!UICONTROL Logic Group], fai cl
 
 ### Escludi OR in Gruppo logico {#lg_exclude_or}
 
-Creare filtri utilizzando [!UICONTROL Logic Group] quando più visualizzazioni di pagina sono aggregate per definire quali pagine dovevano essere visitate necessariamente mentre altre pagine sono state specificatamente saltate.
+Crea filtri utilizzando [!UICONTROL Logic Group] in cui più visualizzazioni di pagina sono aggregate per definire quali pagine dovevano essere visitate necessariamente mentre altre pagine sono state specificatamente saltate.
 
 **Esempio**: visitatori che hanno visitato la pagina A, ma non hanno visitato la pagina B o la pagina C prima della pagina A.
 
@@ -344,11 +345,11 @@ Puoi limitare la corrispondenza a una determinata durata utilizzando gli operato
 
 >[!NOTE]
 >
->Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorno/i** o **Giorno**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
+>Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorni** o **Giorni**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
 >
 >![immagine](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->Per le definizioni basate sulle dimensioni entro e dopo, utilizza le opzioni del sottomenu *Altri Dimension*:
+>Per le definizioni basate sulle dimensioni Within e After, utilizza le opzioni nel sottomenu *Altri Dimension*:
 >
 >![immagine](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
@@ -362,9 +363,9 @@ La durata è specificata da una singola lettera maiuscola che rappresenta la gra
 
 | Operatori | Descrizione |
 |--- |--- |
-| AFTER (DOPO) | L’operatore After viene utilizzato per specificare un limite minimo per il periodo di tempo tra due punti di controllo. Quando si impostano i valori After, il limite di tempo inizia quando viene applicato il filtro. Ad esempio, se l’operatore After è impostato su un contenitore per identificare i visitatori che visitano la pagina A ma non tornano per visitare la pagina B fino a un giorno dopo, quel giorno inizierà quando il visitatore esce dalla pagina A. Affinché il visitatore sia incluso nel filtro, devono trascorrere almeno 1440 minuti (un giorno) dopo l’abbandono della pagina A per visualizzare la pagina B. |
-| WITHIN (ENTRO) | L’operatore Within viene utilizzato per specificare un limite massimo per il periodo di tempo tra due punti di controllo. Ad esempio, se l’operatore Within è impostato su un contenitore per identificare i visitatori che visitano la pagina A e poi ritornano a visitare la pagina B entro un giorno, quel giorno inizierà quando il visitatore esce dalla pagina A. Per essere incluso nel filtro, il visitatore avrà un tempo massimo di un giorno prima di aprire la pagina B. Affinché il visitatore sia incluso nel filtro, la visita alla pagina B deve avvenire entro un massimo di 1440 minuti (un giorno) dopo l’abbandono della pagina A per visualizzare la pagina B. |
-| AFTER/WITHIN (DOPO/ENTRO) | Quando si utilizza sia After che Within, è importante comprendere che entrambi gli operatori inizieranno e finiranno in parallelo, non in modo sequenziale.   Ad esempio, se crei un filtro con il contenitore impostato su:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Quindi le condizioni per identificare i visitatori nel filtro sono soddisfatte solo tra 1 e 2 settimane. Entrambe le condizioni vengono applicate dal momento del primo hit pagina. |
+| AFTER (DOPO) | L’operatore After viene utilizzato per specificare un limite minimo per il periodo di tempo tra due punti di controllo. Quando si impostano i valori After, il limite di tempo inizia quando viene applicato il filtro. Ad esempio, se l’operatore After è impostato su un contenitore per identificare i visitatori che visitano la pagina A ma non tornano per visitare la pagina B fino a un giorno dopo, quel giorno inizierà quando il visitatore esce dalla pagina A.  Affinché il visitatore sia incluso nel filtro, devono trascorrere almeno 1440 minuti (un giorno) dopo l’abbandono della pagina A per visualizzare la pagina B. |
+| WITHIN (ENTRO) | L’operatore Within viene utilizzato per specificare un limite massimo per il periodo di tempo tra due punti di controllo. Ad esempio, se l’operatore Within è impostato su un contenitore per identificare i visitatori che visitano la pagina A e poi ritornano a visitare la pagina B entro un giorno, quel giorno inizierà quando il visitatore esce dalla pagina A. Per essere incluso nel filtro, il visitatore avrà un tempo massimo di un giorno prima di aprire la pagina B.   Affinché il visitatore sia incluso nel filtro, la visita alla pagina B deve avvenire entro un massimo di 1440 minuti (un giorno) dopo l’abbandono della pagina A per visualizzare la pagina B. |
+| AFTER/WITHIN (DOPO/ENTRO) | Quando si utilizza sia After che Within, è importante comprendere che entrambi gli operatori inizieranno e finiranno in parallelo, non in modo sequenziale.   Ad esempio, se crei un filtro con il contenitore impostato su:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Le condizioni per identificare i visitatori nel filtro sono soddisfatte solo tra 1 e 2 settimane. Entrambe le condizioni vengono applicate dal momento del primo hit pagina. |
 
 ### Utilizzare l’operatore After {#after}
 
@@ -375,7 +376,7 @@ La durata è specificata da una singola lettera maiuscola che rappresenta la gra
 
 ![](assets/time_between_after_operator.png)
 
-**Creare il segmento**: questo filtro viene creato aggiungendo una [!UICONTROL Visitor] contenitore con due [!UICONTROL Hit] contenitori. È quindi possibile impostare l’operatore [!UICONTROL THEN], aprire il menu a discesa dell’operatore [!UICONTROL AFTER] e impostare il numero di settimane.
+**Crea il segmento**: questo filtro viene creato aggiungendo un contenitore [!UICONTROL Visitor] con due contenitori [!UICONTROL Hit]. È quindi possibile impostare l’operatore [!UICONTROL THEN], aprire il menu a discesa dell’operatore [!UICONTROL AFTER] e impostare il numero di settimane.
 
 ![](assets/after_operator.png)
 
@@ -401,7 +402,7 @@ Se si imposta “After 2 weeks” (Dopo 2 settimane), se un hit per la pagina A 
 
 ![](assets/time_between_within_operator.png)
 
-**Creare il filtro**: questo filtro viene creato aggiungendo una [!UICONTROL Visitor] contenitore, quindi trascinamento con due [!UICONTROL Hit] contenitori. È quindi possibile impostare l’operatore [!UICONTROL THEN], aprire l’elenco a discesa dell’operatore [!UICONTROL AFTER] e impostare l’intervallo: hit, visualizzazioni di pagina, visite, minuti, ore, giorni, settimane, mesi, trimestri o anni.
+**Crea il filtro**: questo filtro viene creato aggiungendo un contenitore [!UICONTROL Visitor] e trascinandolo insieme a due contenitori [!UICONTROL Hit]. È quindi possibile impostare l’operatore [!UICONTROL THEN], aprire l’elenco a discesa dell’operatore [!UICONTROL AFTER] e impostare l’intervallo: hit, visualizzazioni di pagina, visite, minuti, ore, giorni, settimane, mesi, trimestri o anni.
 
 ![](assets/within_operator.png)
 
@@ -411,21 +412,21 @@ Le corrispondenze devono verificarsi entro il limite di tempo. Per l’espressio
 
 ### Gli operatori Within e After {#within_after}
 
-Utilizzare [!UICONTROL Within] e [!UICONTROL After] per fornire un punto finale massimo e minimo a entrambe le estremità di un filtro.
+Utilizzare [!UICONTROL Within] e [!UICONTROL After] per fornire un endpoint minimo e massimo a entrambe le estremità di un filtro.
 
 **Esempio**: i visitatori che hanno visitato la pagina A hanno poi visitato la pagina B dopo 2 settimane, ma entro 1 mese.
 
 ![](assets/time_between_using_both_operators.png)
 
-**Creare il segmento**: crea il filtro sequenziando due [!UICONTROL Hit] contenitori all’interno di una [!UICONTROL Visitor] contenitore. Quindi imposta gli operatori [!UICONTROL After] e [!UICONTROL Within].
+**Crea il segmento**: crea il filtro sequenziando due contenitori [!UICONTROL Hit] all&#39;interno di un contenitore [!UICONTROL Visitor]. Quindi imposta gli operatori [!UICONTROL After] e [!UICONTROL Within].
 
 ![](assets/within_after_together.png)
 
 **Corrispondenze**
 
-Tutti i visitatori che hanno raggiunto la pagina A il 1° giugno 2019 e ritornano dopo le 00:01 del 15 giugno 2019, ma *prima di* 1 luglio 2019 sono inclusi nel filtro. Confronta con la sezione sul periodo tra le esclusioni.
+Tutti i visitatori che hanno raggiunto la pagina A il 1° giugno 2019 e ritornano dopo le 00:01 del 15 giugno 2019, ma *prima* del 1° luglio 2019 sono inclusi nel filtro. Confronta con la sezione sul periodo tra le esclusioni.
 
-Il [!UICONTROL After] e [!UICONTROL Within] Gli operatori possono essere utilizzati insieme per definire un filtro sequenziale.
+Gli operatori [!UICONTROL After] e [!UICONTROL Within] possono essere utilizzati insieme per definire un filtro sequenziale.
 
 ![](assets/time_between_within_after.png)
 

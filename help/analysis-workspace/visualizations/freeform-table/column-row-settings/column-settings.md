@@ -21,7 +21,7 @@ Visualizza un video sulle impostazioni di riga e colonna qui:
 
 ## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
 
-Per accedere [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell’intestazione della colonna.
+Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull&#39;icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione della colonna.
 
 <img src="./assets/column-settings.png" alt="Impostazioni delle colonne che mostrano le celle totali, le celle di tabella e l&apos;anteprima delle celle di tabella." width="50%" />
 
@@ -62,23 +62,23 @@ Consente di ignorare il modello di attribuzione predefinito impostato in [Visual
 >
 >Quando aggiorni l’attribuzione di un componente a un modello di attribuzione non predefinito, tieni presente quanto segue:
 >
->* **Quando si utilizza il componente in un rapporto con *una singola dimensione*:** L’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando si utilizza il componente in un report con *una singola dimensione*:** L&#39;attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->* **Quando si utilizza il componente in un rapporto con *dimensioni multiple*:** L’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando si utilizza il componente in un report con *più dimensioni*:** L&#39;attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->   Più dimensioni sono disponibili solo quando [esportazione di dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Più dimensioni sono disponibili solo quando [esporta dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
 >
-> Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
+> Per ulteriori informazioni sull&#39;allocazione, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
 Per utilizzare un modello di attribuzione non predefinito per una metrica in un Analysis Workspace:
 
 1. Fai clic sull’icona Impostazioni (ingranaggio) di una metrica nella colonna di una tabella a forma libera.
 
-   ![Le opzioni Column Setting (Impostazione colonna) evidenziano l’opzione Data Settings (Impostazioni dati): Use non-default attribution mode (Usa modalità di attribuzione non predefinita).](assets/attribution-checkbox.png)
+   ![Le opzioni Column Setting evidenziano l&#39;opzione Data Settings: Usa modalità di attribuzione non predefinita.](assets/attribution-checkbox.png)
 
 2. In **[!UICONTROL Data Settings]**, spunta **[!UICONTROL Use non-default attribution model]**. Per ulteriori informazioni sui diversi modelli di attribuzione, consulta [Modelli di attribuzione](/help/data-views/component-settings/attribution.md).
 
-   ![Le opzioni Column Attribution Model (Modello di attribuzione colonna) mostrano l&#39;opzione Lineare selezionata.](assets/attribution-select.png)
+   ![Le opzioni del modello di attribuzione colonna mostrano Lineare selezionato.](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

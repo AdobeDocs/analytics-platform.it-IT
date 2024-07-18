@@ -24,11 +24,11 @@ La selezione di una visualizzazione dati da una cella semplifica l’aggiornamen
 Per selezionare una visualizzazione dati da una cella, crea innanzitutto un blocco di dati e assegna più visualizzazioni dati a una cella all’esterno del blocco di dati. Quindi, utilizza la visualizzazione dati dal pannello cella per aggiornare i blocchi di dati da diverse visualizzazioni dati.
 
 1. Crea un blocco di dati.
-Per informazioni sulla creazione di un blocco di dati, consulta [Creare un blocco di dati](/help/report-builder/create-a-data-block.md).
+Per informazioni sulla creazione di un blocco di dati, vedere [Creare un blocco di dati](/help/report-builder/create-a-data-block.md).
 
-1. Fai clic su *icona cella* nel *Visualizzazioni dati* sezione.
+1. Fai clic sull&#39;icona della *cella* nella sezione *Visualizzazioni dati*.
 
-   ![Crea una nuova finestra di blocco di dati con l’icona della cella evidenziata.](/help/report-builder/assets/cell-icon.png)
+   ![Crea una nuova finestra di blocco dati con l&#39;icona della cella evidenziata.](/help/report-builder/assets/cell-icon.png)
 
 1. Seleziona una posizione di cella per aggiungere le visualizzazioni dati alla cella selezionata.
 
@@ -38,13 +38,13 @@ Per informazioni sulla creazione di un blocco di dati, consulta [Creare un blocc
 
 1. Selezionare le visualizzazioni dati da assegnare alla cella.
 
-   ![Riquadro di modifica rapida Report Builder che mostra le visualizzazioni dati Seleziona.](/help/report-builder/assets/select-data-view.png)
+   ![Riquadro di modifica rapida Report Builder che mostra le visualizzazioni dati Select.](/help/report-builder/assets/select-data-view.png)
 
 1. Fai clic su **Applica**.
 
    Al termine del blocco di dati, puoi aggiornare il blocco di dati utilizzando una visualizzazione dati diversa dalla cella selezionata.
 
-   **Modificare la visualizzazione dati dalla cella**
+   **Cambia la visualizzazione dati dalla cella**
 
 1. Fare clic sulla posizione della cella della visualizzazione dati scelta nel passaggio 3.
 
@@ -52,7 +52,7 @@ Per informazioni sulla creazione di un blocco di dati, consulta [Creare un blocc
 
 1. Seleziona una visualizzazione dati diversa dall’elenco a discesa.
 
-1. (Facoltativo) **Seleziona Aggiorna blocchi di dati** in caso di modifica.
+1. (Facoltativo) **Seleziona Aggiorna blocchi dati** in caso di modifica.
 
 1. Fai clic su **Applica**.
 

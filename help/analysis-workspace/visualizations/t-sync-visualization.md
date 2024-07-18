@@ -24,7 +24,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 1. Nella tabella di dati, seleziona le celle (origine dati) che vuoi associare alla visualizzazione.
 1. Nella visualizzazione, fai clic sul punto accanto al titolo per visualizzare la finestra di dialogo **[!UICONTROL Data Source]** (Gestisci origini dati). Seleziona **[!UICONTROL Show Data Source]** (Mostra origine dati) o **[!UICONTROL Lock Selection]** (Blocca selezione).
 
-   ![La finestra di dialogo dell’opzione Origine dati presenta le opzioni descritte nella sezione successiva.](assets/manage-data-source.png)
+   ![La finestra di dialogo dell&#39;opzione Data Source mostra le opzioni descritte nella sezione successiva.](assets/manage-data-source.png)
 
    La sincronizzazione di una visualizzazione in una cella della tabella crea una nuova tabella (nascosta) e codifica tramite i colori la visualizzazione sincronizzata con quella tabella.
 
@@ -40,10 +40,10 @@ A differenza dell’architettura precedente, con questa architettura Analysis Wo
 
 * Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati origine sono visualizzati in grigio:
 
-  ![Percorso dell&#39;origine dati in un foglio di lavoro.](assets/data-source2.png)>
+  ![Percorso origine dati in un foglio di lavoro.](assets/data-source2.png)>
 * Puoi aggiungere numerose visualizzazioni, da diverse celle nella stessa tabella, come indicato di seguito. La tabella è la stessa dell’esempio precedente, ma la cella (e la metrica) di origine è diversa:
 
-  ![Posizione dell’origine dati con visualizzazioni aggiunte provenienti da più celle](assets/data-source3.png)>
+  ![Percorso origine dati con visualizzazioni aggiunte provenienti da più celle](assets/data-source3.png)>
 * Per vedere se esistono visualizzazioni collegate a una tabella a forma libera o di coorti, fai clic sul punto in alto a sinistra (Impostazioni origine dati). Passa il mouse sulla visualizzazione collegata per evidenziarla; fai clic per aprirla.
 
-  ![Impostazioni origine dati che evidenziano una visualizzazione collegata per le visualizzazioni della pagina superiore.](assets/linked-visualizations.png)>
+  ![Impostazioni Source dati che evidenziano una visualizzazione collegata per le visualizzazioni delle pagine principali.](assets/linked-visualizations.png)>

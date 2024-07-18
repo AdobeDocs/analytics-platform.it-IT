@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: dca1cc33058ba57815c3534ab21da86d5247531a
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
@@ -48,11 +48,11 @@ Questa sezione della documentazione offre guide introduttive per vari scenari.
 
 Tieni presente che questa funzionalità varia in base al pacchetto SKU acquistato dalla tua azienda:
 
-- Priority Ingestion Basic: dati di 24 ore entro l’elaborazione SLT di 90 minuti (disponibile per **CJA Foundation** e **Selezione CJA**)
+- Priority Ingestion Basic: dati di 24 ore entro l&#39;elaborazione SLT di 90 minuti (disponibile per **CJA Foundation** e **CJA Select**)
 
-- Priority Ingestion Intermedio: dati risalenti a 72 ore prima dell’elaborazione con SLT di 90 minuti (disponibile per **CJA Prime**)
+- Acquisizione prioritaria intermedia: dati di 72 ore entro l’elaborazione SLT di 90 minuti (disponibile per **CJA Prime**)
 
-- Priority Ingestion Advanced: dati risalenti a 1 settimana e con un’elaborazione SLT di 90 minuti (disponibile per **CJA Ultimate**)
+- Priority Ingestion Advanced: dati di 1 settimana entro l&#39;elaborazione SLT di 90 minuti (disponibile per **CJA Ultimate**)
 
 ## Inserire e usare i dati dalla versione tradizionale di Adobe Analytics
 
@@ -67,19 +67,19 @@ Per ulteriori informazioni, consulta la sezione [Inserire e usare i dati dalla v
 
 Desideri analizzare il tuo sito web con tecnologia Adobe, migrare potenzialmente da un’altra soluzione o iniziare a monitorare il comportamento della persona. Segui le best practice di Adobe per l’implementazione, che prevedono di utilizzare gli SDK di Adobe Experience Platform e la rete Edge, per inserire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
 
-Consulta [Acquisire e utilizzare i dati tramite Adobe Experience Platform Web SDK](./aepwebsdk.md) per ulteriori informazioni.
+Per ulteriori informazioni, vedere [Acquisire e utilizzare dati tramite Adobe Experience Platform Web SDK](./aepwebsdk.md).
 
 ### Utilizzo di Adobe Experience Platform Mobile SDK
 
 Desideri analizzare la tua app mobile con la tecnologia Adobe, eseguire potenzialmente la migrazione da un’altra soluzione o iniziare a tracciare da zero il comportamento di una persona nell’app. Segui le best practice di Adobe per l’implementazione, che prevedono di utilizzare gli SDK di Adobe Experience Platform e la rete Edge, per inserire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
 
-Consulta [Acquisire e utilizzare i dati tramite l’SDK di Adobe Experience Platform Mobile](./aepmobilesdk.md) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Acquisire e utilizzare i dati tramite Adobe Experience Platform Mobile SDK](./aepmobilesdk.md).
 
 ### Utilizzo dell’API server di Adobe Experience Platform Edge Network
 
 Si desidera analizzare l&#39;applicazione desktop, il gioco eseguito su una console di giochi, l&#39;utilizzo di un&#39;applicazione di streaming video su un set-top box o il dispositivo IoT con tecnologia Adobe. Migrazione potenziale da un&#39;altra soluzione o avvio del tracciamento del comportamento di una persona su questi dispositivi da zero. Desideri seguire le best practice di Adobe per l’implementazione, che utilizza le API e gli Edge Network Adobe Experience Platform Edge Network Server, per acquisire i dati. Puoi quindi utilizzare, combinare e analizzare i dati inseriti con i dati provenienti da altri canali e origini dati in Customer Journey Analytics.
 
-Consulta [Acquisire e utilizzare i dati tramite l’API Adobe Experience Platform Edge Network Server](./serverapi.md) per ulteriori informazioni.
+Per ulteriori informazioni, vedere [Acquisire e utilizzare dati tramite l&#39;API Adobe Experience Platform Edge Network Server](./serverapi.md).
 
 ## Inserire e utilizzare dati batch
 

@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Questa visualizzazione mostra barre verticali che rappresentano diversi valori per una o più metriche.
 
-![Visualizzazione a barre verticali che mostra più metriche tra cui visualizzazioni di pagina, visite, entrate e uscite.](assets/bar.png)
+![Visualizzazione a barre verticali che mostra più metriche tra cui visualizzazioni di pagina, visite, entrate ed uscite.](assets/bar.png)
 
 Nelle impostazioni di visualizzazione, un elenco a discesa di granularità permette di cambiare una visualizzazione con tendenza (ad esempio un grafico a linee) da base giornaliera a settimanale, mensile e così via.
 
@@ -25,7 +25,7 @@ Nelle impostazioni di visualizzazione, un elenco a discesa di granularità perme
 
 Questa visualizzazione è simile al grafico a barre, ma le barre delle varie serie sono sovrapposte le une alle altre.
 
-![Barre sovrapposte che mostrano più metriche.](assets/bar-stacked.png)
+![Barre in pila che mostrano più metriche.](assets/bar-stacked.png)
 
 Una nuova impostazione per le visualizzazioni Barre sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 

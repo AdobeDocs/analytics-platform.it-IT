@@ -25,7 +25,7 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
 1. Fai clic sul pulsante **...** accanto al nome di un componente nella tabella.
 
-   ![Le opzioni dell’icona con i puntini di sospensione.](./assets/image27.png)
+   ![Opzioni per l&#39;icona con i puntini di sospensione.](./assets/image27.png)
 
 1. Seleziona **Filter dimension** (Dimensione filtro) nel menu a comparsa per visualizzare il riquadro **Filter dimension** (Dimensione filtro).
 
@@ -49,7 +49,7 @@ Esistono due modi per filtrare gli elementi dimensionali: Most popular (Più pop
 
 L’opzione Most popular (Più popolari) consente di filtrare dinamicamente gli elementi dimensione in base ai valori delle metriche. Il filtro Most popular (Più popolari) restituisce gli elementi dimensione con classificazione più elevata in base ai valori delle metriche. Per impostazione predefinita, sono elencati i primi 10 elementi dimensione, ordinati in base alla prima metrica aggiunta al blocco di dati.
 
-![L’opzione Più popolare.](./assets/image29.png)
+![L&#39;opzione più comune.](./assets/image29.png)
 
 
 ### Opzioni Page (Pagina) e Rows (Righe)
@@ -129,7 +129,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    Quando selezioni l’opzione **From List** (Da elenco), l’elenco viene compilato con gli elementi dimensione che hanno il maggior numero di eventi.
 
-   ![L&#39;opzione From list (Da elenco) e gli elementi disponibili.](./assets/image33.png)
+   ![Opzione From List ed elementi disponibili.](./assets/image33.png)
 
    L’elenco **Available items** (Elementi disponibili) è ordinato dagli elementi dimensione con il maggior numero di eventi a quelli con il minore numero.
 
@@ -137,9 +137,9 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
 1. Per estendere la ricerca agli elementi non incluso negli ultimi 90 giorni di dati, fai clic su **Show items for the last 6 months** (Mostra elementi degli ultimi 6 mesi).
 
-   ![Elenco Mostra elementi degli ultimi 6 mesi.](./assets/image34.png)
+   ![Mostra elementi dell&#39;elenco degli ultimi 6 mesi.](./assets/image34.png)
 
-   Una volta caricati i dati degli ultimi 6 mesi, il Report Builder aggiorna il collegamento a **Mostra elementi per gli ultimi 18 mesi**.
+   Dopo il caricamento dei dati degli ultimi 6 mesi, il Report Builder aggiorna il collegamento a **Show items for last 18 months** (Mostra elementi degli ultimi 18 mesi).
 
 1. Seleziona un elemento dimensione.
 
@@ -151,7 +151,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    Per spostare un elemento nell’elenco, trascinalo o fai clic su ... per visualizzare il menu di spostamento.
 
-   ![L’elenco degli elementi dimensione.](./assets/image36.png)
+   ![Elenco degli elementi dimensione.](./assets/image36.png)
 
 1. Fai clic su **Apply** (Applica)
 
@@ -175,6 +175,6 @@ La selezione può contenere celle vuote o con valori che non corrispondono a un 
 
 Nella scheda **Dimensions** (Dimensioni), fai clic sulla freccia accanto al nome di una dimensione per visualizzare l’elenco degli elementi dimensione.
 
-![La scheda Dimension e l’elenco delle dimensioni.](./assets/dimensions_chevron.png)
+![Scheda Dimension e elenco delle dimensioni.](./assets/dimensions_chevron.png)
 
 Puoi trascinare gli elementi sulla **tabella**, oppure puoi fare doppio clic sul nome di un elemento per aggiungerlo al generatore di **tabelle**.

@@ -20,7 +20,7 @@ Sono disponibili 3 pulsanti di scelta per cambiare la densità di visualizzazion
 - **[!UICONTROL Comfortable]** (Comoda): versione con più spazio tra i dati rispetto alla versione Compatta.
 - **[!UICONTROL Expanded]** (Espansa), impostazione predefinita: versione standard utilizzata finora in Workspace.
 
-![Densità di viste compatte, comode ed espanse.](assets/view-density.png)
+![Densità di visualizzazione compatte, comode ed espanse.](assets/view-density.png)
 
 Per impostare la densità di visualizzazione:
 

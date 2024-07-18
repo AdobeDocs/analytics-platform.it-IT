@@ -17,9 +17,9 @@ In generale, Customer Journey Analytics eredita tutte le impostazioni relative a
 
 ## Governance dei dati
 
-L’integrazione tra Adobe Customer Journey Analytics e [Governance dei dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it) consente l’etichettatura dei dati sensibili del Customer Journey Analytics e l’applicazione delle politiche sulla privacy.
+L&#39;integrazione tra Adobe Customer Journey Analytics e [Governance dei dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it) consente l&#39;etichettatura dei dati sensibili del Customer Journey Analytics e l&#39;applicazione delle politiche sulla privacy.
 
-Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experienci Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Queste etichette interrompono o avvertono gli utenti che creano metriche e/o dimensioni da campi sensibili.
+Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Queste etichette interrompono o avvertono gli utenti che creano metriche e/o dimensioni da campi sensibili.
 
 Inoltre, quando i dati vengono esportati dal Customer Journey Analytics (tramite reporting, esportazione, API, ecc.), vengono aggiunti avvisi o etichette per avvisare gli utenti che un rapporto contiene informazioni sensibili che devono essere trattate in un modo specifico.
 

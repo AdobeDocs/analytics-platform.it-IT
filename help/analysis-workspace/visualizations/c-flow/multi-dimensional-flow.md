@@ -17,7 +17,7 @@ Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti
 
 Un’etichetta di dimensione all’inizio di ogni colonna Flusso facilita l’utilizzo di più dimensioni in una visualizzazione di flusso.
 
-![Un flusso interdimensionale che evidenzia più dimensioni tra cui Prodotto, Pagina, Versione del sistema operativo e Tempo trascorso.](assets/flow.png)
+![Flusso interdimensionale che evidenzia più dimensioni, tra cui prodotto, pagina, versione del sistema operativo e tempo trascorso.](assets/flow.png)
 
 Verranno esaminati due casi di utilizzo: per un’app e per un sito Web.
 
@@ -25,13 +25,13 @@ Verranno esaminati due casi di utilizzo: per un’app e per un sito Web.
 
 La dimensione [!UICONTROL Action Name] (Nome azione) è stata aggiunta al flusso, e il primo elemento restituito è [!UICONTROL ItemAdded]:
 
-![Un flusso che mostra l’elemento aggiunto.](assets/multi-dimensional-flow.png)
+![Un flusso che mostra l&#39;elemento aggiunto.](assets/multi-dimensional-flow.png)
 
 Per scoprire l’interazione tra le schermate o pagine e le azioni dell’app, puoi trascinare la Dimensione pagina in più luoghi, a seconda di cosa ti interessa:
 
 * Trascinala a una delle estremità della zona di rilascio (all’interno del rettangolo con bordo nero che viene visualizzato) per **sostituire** i primi risultati di tale estremità:
 
-  ![Un flusso che mostra la dimensione Pagina trascinata nelle aree multiple.](assets/multi-dimensional-flow2.png) ![Diagramma di flusso che mostra gli elementi trascinati.](assets/multi-dimensional-flow3.png)
+  ![Flusso che mostra la dimensione Pagina trascinata in più aree.](assets/multi-dimensional-flow2.png) ![Diagramma di flusso che mostra gli elementi trascinati.](assets/multi-dimensional-flow3.png)
 
 * Trascinala nello spazio bianco alla fine (osserva la parentesi quadra nera) per **aggiungere** altri dati alla visualizzazione:
 
@@ -39,15 +39,15 @@ Per scoprire l’interazione tra le schermate o pagine e le azioni dell’app, p
 
 Quando si sostituisce l’elemento ItemScaled nella colonna a destra con la Dimensione pagina, si ottiene questo risultato. Il primo risultato ora diventa il primo risultato per la Dimensione pagina:
 
-![Un valore fLow che mostra i risultati della dimensione Pagina nella parte superiore dell’elenco.](assets/multi-dimensional-flow5.png)
+![Un fLow che mostra i risultati della dimensione Pagina nella parte superiore dell&#39;elenco.](assets/multi-dimensional-flow5.png)
 
 Ora puoi vedere quanti clienti si stanno spostando tra le varie azioni e pagine. Per esplorare ulteriormente il flusso, fai clic sui vari nodi:
 
-![Flusso che mostra gli elementi aggiunti, gli elementi trascinati e la vista principale.](assets/multi-dimensional-flow6.png)
+![Un flusso che mostra gli elementi aggiunti, gli elementi trascinati e la visualizzazione principale.](assets/multi-dimensional-flow6.png)
 
 Quando si aggiunge un’altra dimensione Nome azione alla fine della visualizzazione, si ottiene questo risultato:
 
-![Un flusso che mostra il Nome azione aggiunto.](assets/multi-dimensional-flow7.png)
+![Flusso che mostra il nome dell&#39;azione aggiunto.](assets/multi-dimensional-flow7.png)
 
 Questo ti permette di ottenere informazioni approfondite e di apportare eventuali modifiche all’app che stai analizzando.
 
@@ -61,4 +61,4 @@ Trascina la dimensione Nome campagna in un nuovo flusso:
 
 Per vedere le pagine per le quali queste campagne generano traffico, trascina la dimensione Pagina a destra dei risultati del flusso per aggiungere altri dati alla visualizzazione:
 
-![Un flusso che mostra la dimensione Pagina trascinata a destra dei risultati del flusso.](assets/multi-dimensional-flow9.png)
+![Flusso che mostra la dimensione Pagina trascinata a destra dei risultati del flusso.](assets/multi-dimensional-flow9.png)

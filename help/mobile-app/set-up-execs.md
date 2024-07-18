@@ -7,7 +7,7 @@ exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 75%
 
 ---
@@ -39,19 +39,19 @@ Per garantire che gli utenti direzionali possano accedere alle scorecard nell’
 
 **Per gli utenti direzionali su iOS:**
 
-Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Per gli utenti direzionali su Android:**
 
-Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali di Customer Journey Analytics esistenti; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
-![Schermata di benvenuto delle dashboard di Adobe Analytics](assets/welcome.png)
+![Schermata di benvenuto dei dashboard di Adobe Analytics](assets/welcome.png)
 
 ## Aiutare i dirigenti ad accedere alla scorecard
 
@@ -74,7 +74,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 Spiega all’utente direzionale come appaiono le sezioni nelle scorecard condivise.
 
-![Spiega le tessere, compresi l’intervallo di date, il filtro segmento e le metriche e dimensioni selezionate](assets/newexplain.png)
+![Spiega le tessere, inclusi l&#39;intervallo di date, il filtro segmenti e le metriche e dimensioni selezionate](assets/newexplain.png)
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 

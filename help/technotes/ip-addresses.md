@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
 
-Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di per il funzionamento dei sistemi in uscita, ad esempio [esportazione di dati in un provider cloud](/help/analysis-workspace/export/export-cloud.md).
+Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di per il funzionamento dei sistemi in uscita, ad esempio [esportazione di dati in un provider di cloud](/help/analysis-workspace/export/export-cloud.md).
 
 >[!IMPORTANT]
 >

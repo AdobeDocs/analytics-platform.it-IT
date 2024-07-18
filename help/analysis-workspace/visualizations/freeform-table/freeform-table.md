@@ -15,19 +15,19 @@ ht-degree: 90%
 
 In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente e puoi usarla subito per analizzare e approfondire i dati.
 
-![Tabella a forma libera che mostra i componenti nelle righe e nelle colonne, inclusi Visite e Ordini online per più pagine web.](assets/opening-section.png)
+![Tabella a forma libera che mostra i componenti nelle righe e nelle colonne, incluse le visite e gli ordini in linea per più pagine Web.](assets/opening-section.png)
 
 ## Tabelle automatizzate
 
 Il modo più rapido per creare una tabella consiste nel trascinare i componenti direttamente in un progetto o pannello vuoto o in una tabella a forma libera. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=it).
 
-![Un nuovo pannello con il componente Visite è stato rilasciato nell’area di lavoro.](assets/automated-table.png)
+![Un nuovo pannello con il componente Visite è stato rilasciato nell&#39;area di lavoro.](assets/automated-table.png)
 
 ## Generatore di tabelle a forma libera
 
 Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire il rendering dei dati, puoi attivare il Generatore di tabelle a forma libera. Con il generatore abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e filtri per creare tabelle che rispondano a esigenze più complesse. I dati non verranno aggiornati istantaneamente, ma solo dopo aver fatto clic su **[!UICONTROL Build]**.
 
-![Un Generatore di tabelle a forma libera che mostra ](assets/table-builder.png)
+![Un generatore di tabelle a forma libera mostra ](assets/table-builder.png)
 
 ## Interazioni possibili nelle tabelle
 

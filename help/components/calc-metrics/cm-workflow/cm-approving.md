@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -16,24 +16,24 @@ In Gestione metriche calcolate, gli amministratori possono impostare un flusso d
 
 >[!NOTE]
 >
->Gli amministratori possono inoltre approvare le metriche calcolate (e altri componenti) dal dizionario dati, come descritto in [Modificare le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+>Gli amministratori possono inoltre approvare le metriche calcolate (e altri componenti) dal dizionario dati, come descritto in [Modifica le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 >
 >Tutte le metriche calcolate approvate nel dizionario dati vengono applicate al gestore delle metriche calcolate. Analogamente, le metriche approvate nel gestore delle metriche calcolate si riflettono nel dizionario dati.
 
 Per contrassegnare le metriche calcolate come approvate:
 
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
+1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica che desideri contrassegnare come approvata.
 
-1. Seleziona **[!UICONTROL Approve]** nel task di gestione nella parte superiore della pagina.
+1. Selezionare **[!UICONTROL Approve]** nell&#39;attività di gestione nella parte superiore della pagina.
 
-   Per rimuovere una metrica dall’elenco delle metriche approvate, seleziona **[!UICONTROL Unapprove]**.
+   Per rimuovere una metrica dall&#39;elenco delle metriche approvate, selezionare **[!UICONTROL Unapprove]**.
 
-1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
+1. (Facoltativo) Condividi la metrica con altri utenti dell&#39;organizzazione, come descritto in [Condividi metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
 
-1. Fai clic su **[!UICONTROL OK]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL OK]**.
 
-   Osserva l’icona di approvazione accanto alla metrica calcolata nell’elenco:  ![Icona di approvazione contrassegnata da un cerchio.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+   Osserva l&#39;icona di approvazione accanto alla metrica calcolata nell&#39;elenco: ![Simbolo di approvazione segnato in cerchio.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
-1. (Facoltativo) Per filtrare l’elenco delle metriche calcolate nel gestore Metriche calcolate in modo da visualizzare solo le metriche approvate, seleziona la **Filtro** icona, espandi **[!UICONTROL Other filters]**, quindi seleziona **[!UICONTROL Approved]**.
+1. (Facoltativo) Per filtrare l&#39;elenco delle metriche calcolate nel gestore delle metriche calcolate in modo da visualizzare solo le metriche approvate, selezionare l&#39;icona **Filtro**, espandere **[!UICONTROL Other filters]**, quindi selezionare **[!UICONTROL Approved]**.

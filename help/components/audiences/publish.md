@@ -13,9 +13,9 @@ ht-degree: 56%
 
 # Creare e pubblicare tipi di pubblico
 
-Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics a [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting e la personalizzazione dei clienti.
+Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
-Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acquisire familiarità con il concetto di pubblico di Customer Journey Analytics.
+Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico di Customer Journey Analytics.
 
 ## Creare un pubblico {#create}
 
@@ -33,7 +33,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    Configura queste impostazioni prima di pubblicare il pubblico.
 
-   ![Schermata di creazione di un pubblico con le impostazioni di sottomissione descritte nella sezione successiva.](assets/create-audience.png)
+   ![Schermata di creazione di un pubblico con le impostazioni di sottomissione descritta nella sezione successiva.](assets/create-audience.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
@@ -53,7 +53,7 @@ Leggi questo [panoramica](/help/components/audiences/audiences-overview.md) acqu
 
    L’anteprima del pubblico viene visualizzata nella barra a destra. Consente di avere un’analisi sintetica del pubblico creato.
 
-   ![Schermata dell’anteprima dei dati che mostra un’analisi sintetica del pubblico.](assets/data-preview.png)
+   ![Schermata dell&#39;anteprima dei dati che mostra un&#39;analisi riepilogativa del pubblico.](assets/data-preview.png)
 
    | Impostazione di anteprima | Descrizione |
    | --- | --- |
@@ -86,36 +86,36 @@ Dopo aver creato un pubblico, Adobe crea un segmento di streaming di Experience 
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenze nella pubblicazione di tipi di pubblico come descritto in questa sezione.](/help/components/audiences/assets/latency-diagram.png)
+![Latenze nella pubblicazione del pubblico come descritto in questa sezione.](/help/components/audiences/assets/latency-diagram.png)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
 | Non visualizzato | Connettore di origine da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
 | 1 | Acquisizione dei dati nel Data Lake (dal connettore di origine di Analytics o da altre origini) | Fino a 90 minuti |
-| 2 | Acquisizione dei dati da Experienci Platform Data Lake a Customer Journey Analytics | Fino a 90 minuti |
-| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati.<p>**Nota**: il pubblico viene creato/definito in Experienci Platform entro 1-2 minuti. Tuttavia, sono necessari circa 60 minuti prima che il pubblico inizi a ricevere gli ID in base ai criteri corrispondenti ed è pronto per l’attivazione. | Circa 60 minuti |
+| 2 | Acquisizione dei dati da Experience Platform Data Lake a Customer Journey Analytics | Fino a 90 minuti |
+| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati.<p>**Nota**: il pubblico viene creato/definito in Experience Platform entro 1-2 minuti. Tuttavia, sono necessari circa 60 minuti prima che il pubblico inizi a ricevere gli ID in base ai criteri corrispondenti ed è pronto per l’attivazione. | Circa 60 minuti |
 | 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 | 5 | Creazione di una destinazione in Adobe Experience Platform: attivazione del nuovo segmento | 1-2 ore |
 
 {style="table-layout:auto"}
 
-## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experienci Platform {#audiences-aep}
+## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experience Platform {#audiences-aep}
 
-Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] quando la connessione è stata configurata.
+Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] al momento della configurazione della connessione.
 
-RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, per esempio, <user@adobe.com> possono essere indirizzati a tutti i loro dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
+RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
-Puoi visualizzare i tipi di pubblico del Customer Journey Analytics in Platform andando su **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > **[!UICONTROL Audiences]** scheda > **[!UICONTROL CJA Audiences]**.
+Puoi visualizzare i tipi di pubblico del Customer Journey Analytics in Platform andando su **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > scheda **[!UICONTROL Audiences]** > **[!UICONTROL CJA Audiences]**.
 
 Puoi trascinare i tipi di pubblico del Customer Journey Analytics nella definizione del segmento per i segmenti di Adobe Experience Platform.
 
-![Adobe dell’interfaccia utente di Expericen Platform che evidenzia i segmenti nel riquadro a sinistra e i tipi di pubblico di CJA nel pannello principale.](assets/audiences-aep.png)
+![Adobe dell&#39;interfaccia utente di Expericen Platform che evidenzia i segmenti nel riquadro a sinistra e i tipi di pubblico di CJA nel pannello principale.](assets/audiences-aep.png)
 
 ## Domande frequenti {#faq}
 
 Domande frequenti sulla pubblicazione dei tipi di pubblico.
 
-+++**Cosa succede se un utente non è più membro di un pubblico in un Customer Journey Analytics?**
++++**Cosa succede se un utente non è più membro di un pubblico nel Customer Journey Analytics?**
 
 In questo caso, viene inviato un evento di uscita all’Experience Platform dal Customer Journey Analytics.
 
@@ -123,7 +123,7 @@ In questo caso, viene inviato un evento di uscita all’Experience Platform dal 
 
 +++**Cosa succede se elimini un pubblico nel Customer Journey Analytics?**
 
-Quando un pubblico di Customer Journey Analytics viene eliminato, non viene più visualizzato nell’interfaccia utente di Experienci Platform. Tuttavia, in Platform nessun profilo associato a quel pubblico viene effettivamente eliminato.
+Quando un pubblico di Customer Journey Analytics viene eliminato, non viene più visualizzato nell’interfaccia utente di Experience Platform. Tuttavia, in Platform nessun profilo associato a quel pubblico viene effettivamente eliminato.
 
 +++
 
@@ -133,15 +133,15 @@ Sì.
 
 +++
 
-+++**Il Customer Journey Analytics invia i dati del pubblico come eventi della pipeline o come file flat che va anche al data lake?**
++++**Il Customer Journey Analytics invia i dati del pubblico come eventi pipeline o come file flat che viene inviato anche al data lake?**
 
 Il Customer Journey Analytics trasmette i dati in RTCP tramite pipeline e questi dati vengono raccolti anche in un set di dati di sistema nel data lake.
 
 +++
 
-+++**Quali identità trasmette il Customer Journey Analytics?**
++++**Quali identità vengono inviate dal Customer Journey Analytics?**
 
-Qualsiasi coppia identità/spazio dei nomi specificata nel [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
+Qualsiasi coppia identità/spazio dei nomi specificata nella [Configurazione della connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection). Nello specifico, il passaggio in cui un utente seleziona il campo che desidera utilizzare come “ID persona”.
 
 +++
 
@@ -151,19 +151,19 @@ Vedi sopra. Mandiamo una sola identità per Customer Journey Analytics &quot;per
 
 +++
 
-+++**RTCP elabora anche i messaggi del Customer Journey Analytics? Il Customer Journey Analytics può aggiungere identità a un grafico delle identità di profilo tramite la condivisione dei tipi di pubblico?**
++++**RTCP elabora anche i messaggi di Customer Journey Analytics? Il Customer Journey Analytics può aggiungere identità a un grafico delle identità di profilo tramite la condivisione del pubblico?**
 
 No. Inviamo una sola identità per “persona”, quindi RTCP non avrebbe bordi del grafico da utilizzare.
 
 +++
 
-+++**A che ora vengono eseguiti aggiornamenti giornalieri, settimanali e mensili? In quale giorno della settimana si verificano aggiornamenti settimanali?**
++++**A che ora del giorno vengono eseguiti aggiornamenti giornalieri, settimanali e mensili? Quale giorno della settimana si verificano aggiornamenti settimanali?**
 
 La tempistica dell’aggiornamento si basa su quando è stato pubblicato il pubblico originale ed è ancorata a tale ora del giorno (e al giorno della settimana o del mese).
 
 +++
 
-+++**Gli utenti possono configurare l’ora di aggiornamento giornaliera, settimanale e mensile?**
++++**L&#39;ora di aggiornamento giornaliera, settimanale e mensile può essere configurata dagli utenti?**
 
 No, non possono essere configurate dagli utenti.
 

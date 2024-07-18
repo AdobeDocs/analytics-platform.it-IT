@@ -30,7 +30,7 @@ Utilizza i pulsanti Crea o Gestisci per creare nuovi blocchi di dati o per gesti
 
 Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle selezionate o con un’azione precedente.
 
-![Pannello Comandi nell’hub Report Builer](./assets/hub1.png)
+![Pannello Comandi nell&#39;hub Report Builer](./assets/hub1.png)
 
 ### Comandi
 
@@ -47,7 +47,7 @@ Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle se
 
 Quando selezioni uno o più blocchi di dati in un foglio di calcolo, in Report Builder viene visualizzato il pannello QUICK EDIT (MODIFICA RAPIDA). Puoi utilizzarlo per modificare i parametri in un singolo blocco di dati o per modificare i parametri in più blocchi di dati contemporaneamente.
 
-![Pannello Quick Edit (Modifica rapida) in Report Builder](./assets/hub2.png)
+![Pannello Quick Edit (Modifica rapida) nel Report Builder](./assets/hub2.png)
 
 Le modifiche apportate utilizzando le sezioni di Quick Edit (Modifica rapida) si applicano a tutti i blocchi di dati selezionati.
 

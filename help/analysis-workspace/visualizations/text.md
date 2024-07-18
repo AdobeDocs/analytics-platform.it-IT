@@ -19,7 +19,7 @@ Puoi aggiungere testo definito dall’utente al progetto Workspace, utilizzando 
 
 Quando si modifica una casella di testo o una descrizione, è possibile regolare le dimensioni del font (livelli di intestazione), il colore, lo stile (grassetto, corsivo, sottolineato) e l’allineamento del testo selezionato. È inoltre possibile aggiungere elenchi puntati e numerati.
 
-![Opzioni di testo per un progetto Workspace che evidenziano la palette dei colori del testo.](assets/format.png)
+![Opzioni di testo per un progetto Workspace che evidenzia la tavolozza dei colori del testo.](assets/format.png)
 
 ## Aggiungere collegamenti ipertestuali {#hyperlinks}
 

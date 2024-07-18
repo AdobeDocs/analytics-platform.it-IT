@@ -28,11 +28,11 @@ In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere fil
 
 1. Creare un filtro da un punto di contatto che ti interessa particolarmente e che potrebbe essere utile da applicare ad altri rapporti. A tale scopo, fai clic con il pulsante destro sul punto di contatto e seleziona **[!UICONTROL Create filter from touchpoint]**.
 
-   ![Il menu a discesa Punto di contatto con Crea segmento dal punto di contatto evidenziato.](assets/segment-from-touchpoint.png)
+   ![Menu a discesa Punto di contatto con Crea segmento dal punto di contatto evidenziato.](assets/segment-from-touchpoint.png)
 
    Viene aperto il Generatore di filtri, precompilato con il filtro sequenziale precostruito che corrisponde al punto di contatto selezionato:
 
-   ![Nel Generatore di filtri viene visualizzato il filtro sequenziale precompilato e precompilato.](assets/segment-builder.png)
+   ![Il Generatore di filtri visualizza il filtro sequenziale precompilato e precompilato.](assets/segment-builder.png)
 
 1. Assegna al filtro un titolo e una descrizione e salvalo.
 
@@ -42,7 +42,7 @@ In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere fil
 
 Per vedere ad esempio come gli utenti USA influenzano le metriche di fallout, trascina il filtro degli utenti USA nella sezione Fallout:
 
-![Il filtro Utenti USA selezionato ed evidenziato da trascinare nell’abbandono.](assets/segment-touchpoint.png)
+![Il filtro Utenti USA selezionato ed evidenziato da trascinare nell&#39;abbandono.](assets/segment-touchpoint.png)
 
 Oppure puoi creare un punto di contatto AND trascinando il filtro degli utenti USA su un altro punto di controllo.
 
@@ -53,10 +53,10 @@ Puoi confrontare un numero illimitato di filtri nella visualizzazione Fallout.
 1. Seleziona i filtri che desideri confrontare dalla barra [!UICONTROL Filter] a sinistra. Nel nostro esempio, abbiamo selezionato 2 filtri: Utenti USA e Utenti non USA.
 1. Trascinali nella zona di rilascio Filtro, in alto.
 
-   ![La visualizzazione Abbandono con i filtri selezionati e la freccia rossa che punta alla zona di rilascio Filtro.](assets/segment-drop.png)
+   ![Visualizzazione Abbandono con i filtri selezionati e la freccia rossa che punta alla zona di rilascio Filtro.](assets/segment-drop.png)
 
 1. Facoltativo: puoi mantenere il contenitore predefinito “Tutte le visite” o eliminarlo.
 
-   ![L’Abbandono mostra Tutte le visite insieme ai due filtri trascinati nel passaggio precedente.](assets/seg-compare.png)
+   ![Fallout che mostra tutte le visite insieme ai due filtri trascinati nel passaggio precedente.](assets/seg-compare.png)
 
 1. Ora puoi confrontare i dati di fallout tra i due filtri, ad esempio dove un filtro ha prestazioni migliori dell’altro o altri approfondimenti.

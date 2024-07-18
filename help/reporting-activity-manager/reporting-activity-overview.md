@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # Panoramica di Reporting Activity Manager
 
-Il [!UICONTROL Reporting Activity Manager] è disponibile per gli amministratori.
+[!UICONTROL Reporting Activity Manager] è disponibile per gli amministratori.
 
 Se nell’organizzazione si verifica un peggioramento delle prestazioni di reporting durante i periodi in cui si verificano picchi di reporting, Reporting Activity Manager consente di diagnosticare autonomamente e risolvere i problemi di capacità senza l’intervento dell’Assistenza clienti Adobe. Puoi gestire facilmente le code di reporting all’interno di un’unica interfaccia e agire immediatamente&#x200B;&#x200B; per migliorare l’esperienza degli utenti.
 
@@ -32,12 +32,12 @@ Reporting Activity Manager offre i seguenti vantaggi:
 
 <!-- update for CJA -->
 
-Per gestire l’attività di reporting, devi disporre del ruolo di amministratore prodotto. Per ulteriori informazioni, consulta [Controllo accesso Customer Journey Analytics](/help/technotes/access-control.md).
+Per gestire l’attività di reporting, devi disporre del ruolo di amministratore prodotto. Per ulteriori informazioni, vedere [Controllo di accesso di Customer Journey Analytics](/help/technotes/access-control.md).
 
 ## Visualizzare l’attività di reporting
 
-Per informazioni sulla visualizzazione dell&#39;attività di reporting in Reporting Activity Manager, vedere [Visualizzare l’attività di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity.md).
+Per informazioni sulla visualizzazione delle attività di reporting in Reporting Activity Manager, vedere [Visualizzare le attività di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity.md).
 
 ## Annullare le richieste di reporting
 
-Per informazioni sull’annullamento delle richieste di reporting in Reporting Activity Manager, consulta [Annullare le richieste di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
+Per informazioni sull&#39;annullamento delle richieste di reporting in Reporting Activity Manager, vedere [Annulla le richieste di reporting in Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).

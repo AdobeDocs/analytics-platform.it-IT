@@ -15,4 +15,4 @@ ht-degree: 69%
 
 I pannelli a forma libera sono pannelli vuoti con una tabella a forma libera inclusa come stato iniziale.
 
-![Il pannello a forma libera predefinito che mostra un pannello vuoto con una tabella a forma libera.](assets/freeform-panel.png)
+![Pannello a forma libera predefinito che mostra un pannello vuoto con una tabella a forma libera.](assets/freeform-panel.png)

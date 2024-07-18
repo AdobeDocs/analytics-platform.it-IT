@@ -8,7 +8,7 @@ role: User
 source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -18,7 +18,7 @@ Utilizzando il calendario, puoi specificare date e intervalli di date o selezion
 
 Le selezioni di calendario sono applicabili a livello del singolo pannello, ma è possibile applicarle a tutti i pannelli. Quando fai clic su un intervallo di date in Workspace, l’interfaccia mostra il mese del calendario corrente e il mese del calendario precedente. È possibile regolare questi due calendari facendo clic sulle frecce destra e sinistra nei rispettivi angoli superiori.
 
-![Calendario che mostra ottobre 2022 e novembre 2022 con le opzioni dal 1° al 30 novembre selezionate.](assets/aw_calendar2.png){width="60%"}
+![Calendario che mostra ottobre 2022 e novembre 2022 con valori selezionati dal 1° al 30 novembre.](assets/aw_calendar2.png){width="60%"}
 
 Il primo clic su un calendario avvia una selezione di intervalli di date. Il secondo clic completa la selezione di un intervallo di date, che viene evidenziato. Se si tiene premuto il tasto `Shift` (o se si fa clic con il pulsante destro del mouse), si aggiunge all’intervallo attualmente selezionato.
 
@@ -29,7 +29,7 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 | Impostazione | Descrizione |
 | --- | --- |
 | Giorni selezionati | Giorni/settimane/mesi/anni selezionati |
-| Utilizzare date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Ad esempio, vai [qui](/help/components/date-ranges/custom-date-ranges.md). |
+| Utilizzo delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Ad esempio, vai [qui](/help/components/date-ranges/custom-date-ranges.md). |
 | Intervallo date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. **[!UICONTROL This week/month/quarter/year (excluding today)]** consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
 | Applica | Applica l’intervallo di date solo al pannello corrente. |
@@ -49,12 +49,12 @@ Per utilizzare gli intervalli di date relativi al pannello
 Se vengono selezionate date relative, le date continue verranno basate sulla data di inizio del calendario del pannello e non su quella odierna.
    * Se questa opzione non è selezionata, le date continue saranno basate sulla data odierna.
 
-   ![Calendario con componenti di intervallo date selezionati relativi al calendario del pannello](assets/relative-date-selected.png){width="60%"}
+   ![Calendario con componenti intervallo date relativi al calendario del pannello selezionato](assets/relative-date-selected.png){width="60%"}
 
 1. Fai clic su **Applica**.
 Le date relative sono visualizzate in alto a destra.
 
-   ![Tabella a forma libera con date relative evidenziate e Ultimo mese evidenziato. ](assets/relative-date-range1.png)
+   ![Tabella a forma libera con date relative evidenziate e con il mese scorso evidenziato. ](assets/relative-date-range1.png)
 
 ## Linee guida per gli intervalli di date relative del pannello {#guidelines}
 
@@ -70,7 +70,7 @@ Quando si utilizza un calendario personalizzato basato su settimane e si aggiung
 
 ### Informazioni sui filtri che utilizzano date continue e intervalli di date del pannello relativo {#segments-relative-dates}
 
-Se crei un filtro o utilizzi un filtro con una data continua, ad esempio gli Ultimi 7 giorni o le Ultime 2 settimane, e fai clic sull’anteprima del filtro, la data continua verrà avviata a partire da *Oggi* invece della data di inizio del pannello. Di conseguenza, l’anteprima del filtro non corrisponderà a quando utilizzi effettivamente il filtro nella tabella. È interessata l’anteprima, non il filtro stesso.
+Se crei un filtro o utilizzi un filtro con una data continua, ad esempio gli Ultimi 7 giorni o le Ultime 2 settimane, e fai clic sull&#39;anteprima del filtro, la data continua inizierà da *Oggi* invece della data di inizio del pannello. Di conseguenza, l’anteprima del filtro non corrisponderà a quando utilizzi effettivamente il filtro nella tabella. È interessata l’anteprima, non il filtro stesso.
 
 ## Linee guida per intervalli di date e anteprime del pannello {#guidelines-panel-dates}
 

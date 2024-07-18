@@ -66,7 +66,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che viene visualizzato quando passi il cursore sul componente, come mostrato di seguito per **Prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che compare quando passi il cursore sul componente, come mostrato di seguito per le **prime visite**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -198,7 +198,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 1. Seleziona la sezione corretta.
 1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
 
-   ![Proprietà con freccia rivolta verso destra accanto al nome della dimensione.](assets/unspecified.png)
+   ![Proprietà con freccia che punta alla freccia destra accanto al nome della dimensione.](assets/unspecified.png)
 
 1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
@@ -214,7 +214,7 @@ Per visualizzare sottotitoli intelligenti in una scorecard per dispositivi mobil
 
 1. In una scorecard, fai clic su una sezione. Ad esempio, in questa scorecard, fai clic su nel grafico a linee in basso.
 
-   ![Scorecard con visualizzazione delle linee](assets/caption1.png)
+   ![Scorecard con visualizzazione a linee](assets/caption1.png)
 
 1. Tocca l’icona blu in alto a destra per generare i sottotitoli. I sottotitoli verranno visualizzati sotto il grafico a linee.
 
@@ -226,6 +226,6 @@ Per visualizzare sottotitoli intelligenti in una scorecard per dispositivi mobil
 
 1. Per segnalare un problema, ad esempio contenuto dannoso o illegale, tocca il flag nero all’interno di una didascalia.
 
-   ![Segnala il problema relativo ai sottotitoli](assets/caption-report.png)
+   ![Segnala un problema con la didascalia](assets/caption-report.png)
 
-1. Fai clic sulla X per uscire dalla **[!UICONTROL Report results]** .
+1. Fare clic sulla X per uscire dalla finestra di dialogo **[!UICONTROL Report results]**.

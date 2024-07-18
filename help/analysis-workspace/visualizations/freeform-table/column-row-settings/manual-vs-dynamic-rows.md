@@ -23,10 +23,10 @@ Quando rilasci una dimensione in una tabella a forma libera, vengono restituite 
 
 Ad esempio, quando si trascina la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione (ad esempio Microsoft, Apple, Google, ecc.) sono restituiti nelle righe della tabella in modo dinamico. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
 
-Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e delle icone X, quindi eseguono le operazioni seguenti: **non** l&#39;icona del lucchetto è presente. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento di dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Gli elementi dimensionali dinamici dispongono dell&#39;opzione filtro righe e delle icone X e **non** dispongono dell&#39;icona di blocco. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento di dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![Tabella a forma libera che evidenzia l’icona del filtro.](assets/dynamic-items.png)
+![Tabella a forma libera che evidenzia l&#39;icona del filtro.](assets/dynamic-items.png)
 
 ## Elementi dimensionali statici
 
@@ -41,13 +41,13 @@ Ad esempio, quando trascini su specifici elementi della dimensione Tipo di brows
 
 Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe. Su ogni elemento sono invece presenti le icone lucchetto e X. Fai clic sull’icona X per rimuovere l’elemento dimensionale dalla tabella.
 
-![Una tabella a forma libera che mostra il Tipo di browser e la riga Microsoft con un’icona di blocco. Nota: questo elemento dimensionale è statico e non cambierà con il tempo.](assets/static-items.png)
+![Tabella a forma libera che mostra il tipo di browser e la riga Microsoft con un&#39;icona di blocco. Nota: questo elemento dimensione è statico e non cambierà con il tempo.](assets/static-items.png)
 
 ## Elementi dimensionali misti
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l’intestazione della riga indica “dimensioni miste”. Questi elementi dimensionali sono statici. Ad esempio, è possibile aggiungere elementi dimensionali specifici dalla dimensione Tipo di browser e altri elementi dimensionali dalla dimensione Browser.
 
-![Una tabella a forma libera che evidenzia la colonna Dimension misti.](assets/mixed-dimensions.png)
+![Tabella a forma libera che evidenzia la colonna Dimension misti.](assets/mixed-dimensions.png)
 
 ## Righe del totale a forma libera
 

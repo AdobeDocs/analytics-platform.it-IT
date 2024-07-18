@@ -51,7 +51,7 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 * I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
-* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nel [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso “Tutti”. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “Tutti”.
+* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto nell&#39;[Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso “Tutti”. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “Tutti”.
 
 * Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Edit original]**.
 
@@ -65,7 +65,7 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organizzazione:
 
-1. In Customer Journey Analytics, seleziona la [!UICONTROL **Workspace**] , quindi seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
+1. In Customer Journey Analytics, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
 
 1. Seleziona la casella di controllo accanto a uno o più progetti da condividere, quindi seleziona [!UICONTROL **Condividi**].
 
@@ -88,7 +88,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
 1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
 
-   * **Condividere componenti di progetto incorporati:** Condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
+   * **Condividi componenti di progetto incorporati:** condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
    * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
@@ -104,7 +104,7 @@ Quando condividi un collegamento come descritto in questa sezione, prendi in con
 
 * I destinatari che utilizzano il collegamento devono accedere al Customer Journey Analytics prima di poter accedere al progetto.
 
-* Se a un destinatario non viene assegnato un ruolo e riceve un [link](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita viene assegnato loro un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
+* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli viene assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
 
 Per condividere il collegamento del progetto con gli utenti dell’organizzazione:
 
@@ -112,13 +112,13 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 
 1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al campo **[!UICONTROL Share by link]**.
 
-   ![Il progetto Share (Condividi) evidenzia il campo Share by link (Condividi tramite collegamento).](assets/share-proj-modal.png)
+   ![Il progetto di condivisione evidenzia il campo Condividi per collegamento.](assets/share-proj-modal.png)
 
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
 
 ## Condividere un progetto con chiunque (accesso non richiesto) {#share-public-link}
 
-Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md) ai progetti Analysis Workspace per le persone che non hanno accesso al Customer Journey Analytics. Questo può includere:
+Puoi concedere [l&#39;accesso in sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md) ai progetti Analysis Workspace a persone che non hanno accesso al Customer Journey Analytics. Questo può includere:
 
 * Persone esterne all’organizzazione
 
@@ -128,17 +128,17 @@ Puoi concedere [accesso in sola lettura](/help/analysis-workspace/curate-share/v
 >
 >Quando condividi un progetto Analysis Workspace con persone che non hanno accesso al Customer Journey Analytics, considera quanto segue:
 >
->* La possibilità di condividere un progetto in questo modo può essere disabilitata dall’amministratore di Customer Journey Analytics, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). Se non riesci a condividere un progetto come descritto in questa sezione, l’amministratore di Customer Journey Analytics ha disabilitato questa funzionalità.
+>* La possibilità di condividere un progetto in questo modo può essere disabilitata dall&#39;amministratore di Customer Journey Analytics, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). Se non riesci a condividere un progetto come descritto in questa sezione, l’amministratore di Customer Journey Analytics ha disabilitato questa funzionalità.
 >
 >* I progetti con più di 50 visualizzazioni espanse non possono essere condivisi con persone che non hanno accesso al Customer Journey Analytics.
 >
->* Gli utenti con cui condividi possono visualizzare tutti i filtri applicati al progetto durante [cura](curate.md).
+>* Gli utenti con cui condividi possono visualizzare tutti i filtri applicati al progetto durante [la cura](curate.md).
 > 
 >* Gli utenti con cui condividi possono modificare l’intervallo di date del progetto. L’intervallo di date impostato per il progetto viene visualizzato per impostazione predefinita.
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 >
->* Il [!UICONTROL Share with anyone] La funzione è bloccata per entrambe le licenze Healthcare Shield e Privacy &amp; Security Shield.
+>* La funzionalità [!UICONTROL Share with anyone] è bloccata per entrambe le licenze Healthcare Shield e Privacy &amp; Security Shield.
 
 La seguente dimostrazione video e la relativa documentazione descrivono le opzioni associate alla condivisione di un collegamento con chiunque:
 
@@ -166,13 +166,13 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
      Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto che stai condividendo. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
 
-     Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
+     Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per la società, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
       * Se questa opzione non è visibile, l&#39;amministratore di Customer Journey Analytics non ha attivato questa funzione.
 
       * Se questa opzione è abilitata e non puoi disabilitarla, significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione Experience Cloud per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che rilasciano licenze Healthcare Shield.
 
-1. Accanto al **[!UICONTROL Share with anyone (no login required)]** , fare clic sul pulsante **Copia collegamento** icona ![Icona Copia collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) per copiare il collegamento negli Appunti di sistema.
+1. Accanto al campo **[!UICONTROL Share with anyone (no login required)]**, fai clic sull&#39;icona **Copia collegamento** ![Copia collegamento icona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) per copiare il collegamento negli Appunti di sistema.
 
 1. Condividi il collegamento con le persone che desideri possano accedere al progetto. Ad esempio, puoi incollare il collegamento in un messaggio e-mail.
 
@@ -186,7 +186,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 Quando qualcuno condivide un progetto con te tramite la [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi dalla [scheda Progetti della pagina di destinazione di Analytics](/help/getting-started/landing.md#navigate-the-projects-tab).
 
-Quando qualcuno condivide un progetto con te condividendo un collegamento (da [Scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un [condividi con chiunque](#share-a-project-with-anyone-no-login-required)), per accedere al progetto devi utilizzare il collegamento condiviso con te. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
+Quando qualcuno condivide un progetto con te condividendo un collegamento (dalla [scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un collegamento [condividi con altri utenti](#share-a-project-with-anyone-no-login-required)), devi utilizzare il collegamento condiviso con te per accedere al progetto. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
 
 ## Condividere componenti incorporati
 

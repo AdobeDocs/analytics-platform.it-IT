@@ -26,7 +26,7 @@ Per visualizzare il sommario di un progetto:
 
 1. In Analysis Workspace, vai al progetto in cui desideri visualizzare il sommario.
 
-1. Nella barra di spostamento a sinistra, seleziona l’icona del sommario ![icona sommario](assets/toc-icon.png).
+1. Nella barra di navigazione a sinistra, seleziona l&#39;icona del sommario ![icona sommario](assets/toc-icon.png).
 
    Viene visualizzato il sommario del progetto e ciascun pannello viene espanso per impostazione predefinita.
 

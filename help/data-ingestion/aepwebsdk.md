@@ -54,25 +54,26 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**. .
+1. Selezionare **[!UICONTROL Create schema]**.
+.
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
 
-      ![Creare uno schema che evidenzi l’evento esperienza](./assets/create-ee-schema-wizard-step-1.png)
+      ![Crea uno schema che evidenzia l&#39;evento esperienza](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
-1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
+1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
+   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
 
-      ![Finestra Crea schema con il nome dei campi schema](./assets/create-ee-schema-wizard-step-2.png)
+      ![Finestra Crea schema con il nome dei campi dello schema](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 
@@ -104,7 +105,7 @@ Per configurare lo schema:
 
    >[!NOTE]
    >
-   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (like `ecid`, `crmId`e altri elementi necessari) al gruppo di campi e selezionarlo.
+   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (come `ecid`, `crmId` e altri necessari) al gruppo di campi e seleziona il nuovo gruppo di campi.
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
@@ -279,7 +280,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
 Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-L’SDK per web include [!UICONTROL Adobe Experience Cloud ID Service] in modalità nativa, quindi non è necessario aggiungere l’estensione del servizio ID al tag.
+L&#39;SDK per Web include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo, pertanto non è necessario aggiungere l&#39;estensione del servizio ID al tag.
 
 #### **Elementi dati**
 
@@ -591,7 +592,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

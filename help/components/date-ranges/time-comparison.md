@@ -22,7 +22,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 1. Crea una tabella a forma libera, con qualsiasi dimensione e metrica desideri confrontare in un periodo di tempo.
 1. Fai clic con il pulsante destro del mouse su una riga di tabella e seleziona **[!UICONTROL Compare Time Periods]** (Confronta periodi di tempo).
 
-   ![Riga di tabella con Periodi di tempo di confronto selezionati](assets/compare-time.png)
+   ![Riga di tabella con periodi di tempo di confronto selezionati](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -42,7 +42,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 1. Il confronto risultante è simile a questo:
 
-   ![Tabella a forma libera che mostra un confronto tra intervalli di date e variazione percentuale.](assets/compare-time-result.png)
+   ![Tabella a forma libera che mostra un confronto tra intervalli di date e variazioni percentuali.](assets/compare-time-result.png)
 
    Le righe nella colonna Modifica percentuale appaiono nere per i valori negativi e verdi per quelli positivi.
 
@@ -56,7 +56,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona (Confronta periodi di tempo) **[!UICONTROL Add Time Period Column]** ![Elenco colonne tabella con la colonna Aggiungi periodo di tempo evidenziata ](assets/add-time-period-column.png)
+1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Add Time Period Column]** ![Elenco colonne tabella con Aggiungi colonna periodo di tempo evidenziata ](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
@@ -76,7 +76,7 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 1. Puoi aggiungere tutte le colonne di tempo che desideri, oltre ad abbinare intervalli di date diversi:
 
-   ![Tabella a forma libera che mostra le occorrenze del mese corrente, del mese precedente, del mese precedente di un anno fa e di una settimana del mese precedente di un anno fa.](assets/add-time-period-column4.png)
+   ![Tabella a forma libera che mostra le occorrenze relative al mese corrente, al mese precedente, al mese precedente di un anno fa e a una settimana del mese precedente di un anno fa.](assets/add-time-period-column4.png)
 
 1. Inoltre, puoi ordinare tutte le colonne, azione che modificherà l’ordine dei giorni a seconda della colonna che stai ordinando.
 
@@ -84,7 +84,7 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]** (Allineare le date della colonna affinché inizino sulla stessa riga; si applica all’intera tabella). “Si applica all’intera tabella” significa che se effettui, ad esempio, una suddivisione nella tabella, e se cambi questa impostazione per la suddivisione, questa modificherà l’impostazione per tutta la tabella.
 
-![Il menu a comparsa Tabella a forma libera con impostazioni tabella mostra le date di allineamento da ogni colonna affinché inizino tutte sulla stessa riga selezionata.](assets/date-comparison-setting.png)
+![Tabella a mano libera con finestra a comparsa Impostazioni tabella che visualizza le date di allineamento da ogni colonna affinché inizino tutte sulla stessa riga selezionata.](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >

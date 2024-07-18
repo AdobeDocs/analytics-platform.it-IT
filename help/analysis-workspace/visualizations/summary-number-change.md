@@ -47,7 +47,7 @@ Questa visualizzazione si comporta come segue:
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 
 
-![Visualizzazione Variazione di riepilogo che mostra il delta tra due numeri.s](assets/summary-change.png)
+![Visualizzazione delle modifiche di riepilogo che mostra il delta tra due numeri.s](assets/summary-change.png)
 
 
 Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni della Variazione di riepilogo:

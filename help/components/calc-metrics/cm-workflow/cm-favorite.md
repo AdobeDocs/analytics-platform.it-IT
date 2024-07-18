@@ -14,10 +14,10 @@ ht-degree: 27%
 
 Contrassegnare le metriche calcolate come preferite è un altro modo per organizzarle in modo semplice.
 
-1. In Customer Journey Analytics, seleziona la **[!UICONTROL Components]** , quindi seleziona **[!UICONTROL Calculated metrics]**.
+1. In Customer Journey Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Calculated metrics]**.
 
 1. In Gestione metriche calcolate, seleziona la stella accanto a qualsiasi metrica calcolata che desideri contrassegnare come preferita. La stella diventerà gialla:
 
-   ![Stella gialla che mostra i visitatori di Bing.](assets/favorites.png)
+   ![Stella gialla che mostra i visitatori da Bing.](assets/favorites.png)
 
 1. Puoi anche filtrare i preferiti in **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Favorites]**.

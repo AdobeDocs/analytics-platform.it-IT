@@ -1,5 +1,5 @@
 ---
-title: Acquisire dati di Marketo Engage in Adobe Experience Platform e generare report nel Customer Journey Analytics
+title: Acquisire dati di Marketo Engage in Adobe Experience Platform e generare report in Customer Journey Analytics
 description: Scopri come inserire i dati di Marketo Engage nel Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,11 +8,11 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 57%
+ht-degree: 64%
 
 ---
 
-# Acquisire dati di Marketo Engage in Adobe Experience Platform e generare report nel Customer Journey Analytics
+# Acquisire dati di Marketo Engage in Adobe Experience Platform e generare report in Customer Journey Analytics
 
 Puoi sfruttare i nuovi set di dati di Marketo Engage disponibili in Adobe Experience Platform (Adobe Experience Platform) per fornire preziose soluzioni di analisi e reporting agli esperti di marketing B2B. Quindi crea rapporti su questi set di dati in Adobe Customer Journey Analytics.
 
@@ -26,7 +26,7 @@ Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/docs/
 
 ## Passaggio 3: configurare una connessione al set di dati nel Customer Journey Analytics
 
-Per creare rapporti sui set di dati di Experienci Platform, devi prima stabilire una connessione tra i set di dati in Experienci Platform e Customer Journey Analytics. Per ulteriori informazioni, consulta [Creare o modificare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
+Per creare rapporti sui set di dati di Experience Platform, devi prima stabilire una connessione tra i set di dati in Experience Platform e Customer Journey Analytics. Per ulteriori informazioni [Creare o modificare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it).
 
 ## Passaggio 4: creare una o più visualizzazioni dati
 
@@ -41,7 +41,7 @@ I clienti con CDP B2B/B2P possono condurre analisi in stile B2C in Customer Jour
 
 1. Crea un [filtro](/help/components/filters/create-filters.md) per le visualizzazioni di pagine web come segue - Tipo evento = web.webpagedetails.pageViews:
 
-   ![Finestra di definizione che mostra il tipo di evento](../assets/marketo-filter.png)
+   ![Finestra di definizione che mostra il tipo di evento ed evento](../assets/marketo-filter.png)
 
 1. Nella tabella a forma libera, seleziona il filtro appena creato (Visualizzazioni pagine web), quindi inserisci l’intervallo di date relativo ai mesi. In questo modo puoi vedere le visite alle pagine web in base da parte dei lead per ognuno dei mesi specificati:
 
@@ -49,4 +49,4 @@ I clienti con CDP B2B/B2P possono condurre analisi in stile B2C in Customer Jour
 
 1. Oppure, puoi ottenere le seguenti dimensioni: Person Key (Chiave persona) o Work Email Address (Indirizzo e-mail di lavoro). In questo modo potrai vedere le visite alle pagine web per ciascun lead:
 
-   ![Tabella a forma libera che mostra gli eventi e le visualizzazioni WorkEmail.Address e delle pagine web.](../assets/marketo-freeform2.png)
+   ![Tabella a forma libera con eventi e workEmail.Address e visualizzazioni di pagine Web.](../assets/marketo-freeform2.png)

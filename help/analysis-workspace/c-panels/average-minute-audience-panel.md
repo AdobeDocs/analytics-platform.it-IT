@@ -37,80 +37,80 @@ Il pannello Pubblico medio per minuto fornisce i seguenti vantaggi rispetto alla
 
 1. In Analysis Workspace, vai a una suite di rapporti i cui componenti sono abilitati dal componente aggiuntivo Streaming Media Collection.
 
-1. Nella barra di navigazione a sinistra, seleziona la **Pannelli** icona.
+1. Nella barra di navigazione a sinistra, seleziona l&#39;icona **Panels**.
 
-   ![Icona Pannelli nella navigazione a sinistra](assets/panels-icon.png)
+   ![Icona Pannelli nel menu di navigazione a sinistra](assets/panels-icon.png)
 
-1. Trascina [!UICONTROL **Pubblico medio per minuto del file multimediale**] nell’area di lavoro in Analysis Workspace.
+1. Trascina il pannello [!UICONTROL **Pubblico medio per minuto**] nell&#39;area di lavoro in Analysis Workspace.
 
-1. Per configurare il pannello, continua con [Input del pannello](#panel-inputs).
+1. Per configurare il pannello, continuare con [Input pannello](#panel-inputs).
 
 ## Input del pannello {#Input}
 
 Utilizza le impostazioni di input descritte in questa sezione per configurare il pannello Pubblico medio per minuto del file multimediale.
 
-1. Inizia a creare un pannello del pubblico medio per minuto, come descritto in [Accedere al pannello Pubblico medio per minuto del file multimediale](#access-the-media-average-minute-audience-panel).
+1. Inizia a creare un pannello Pubblico medio per minuto, come descritto in [Accedi al pannello Pubblico medio per minuto](#access-the-media-average-minute-audience-panel).
 
 1. Configura le seguenti impostazioni di input:
 
    | Impostazione | Descrizione |
    |---------|------------|
-   | **Intervallo date pannello** | L’intervallo di date predefinito del pannello è [!UICONTROL **Questo mese**]. È possibile modificarlo per visualizzare uno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
+   | **Intervallo date pannello** | L&#39;intervallo date predefinito del pannello è [!UICONTROL **Questo mese**]. È possibile modificarlo per visualizzare uno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
    | [!UICONTROL **Rilascia qui un segmento (o qualsiasi altro componente)**] | Come altri pannelli, questa impostazione filtra le selezioni in base ai segmenti creati. È un ottimo modo per esaminare piattaforme specifiche, live stream o altri segmenti multimediali comuni. |
-   | [!UICONTROL **Calcola metrica per**] | Scegli se visualizzare il pubblico medio per minuto di un contenuto specifico o se visualizzare il pubblico medio per minuto di un periodo di tempo personalizzato:<ul><li>**Contenuto specifico:** Questa opzione è disponibile solo se la durata è stata aggiornata utilizzando le classificazioni. Se la durata non è disponibile o se desideri visualizzare il pubblico medio per minuto di una serie temporale con più parti di contenuto o contenuto senza una specifica durata assegnata (come durante un live stream o un evento), seleziona [!UICONTROL **Periodo di tempo personalizzato**]. Le durate possono essere impostate utilizzando le classificazioni prima o dopo il tempo di elaborazione.</li><li>**Periodo personalizzato:** Questo è disponibile indipendentemente dal fatto che le durate siano rese disponibili utilizzando le Classificazioni.</li></ul> <p>Questa impostazione modifica il flusso di lavoro e l’output del rapporto.</p> |
+   | [!UICONTROL **Calcola metrica per**] | Scegli se visualizzare il pubblico medio per minuto di un contenuto specifico o se visualizzare il pubblico medio per minuto di un periodo di tempo personalizzato:<ul><li>**Contenuto specifico:** disponibile solo se la durata è stata aggiornata utilizzando le classificazioni. Se la durata non è disponibile o se desideri visualizzare il pubblico medio per minuto di una serie temporale con più parti di contenuto o contenuto senza una specifica durata assegnata (come durante un live stream o un evento), seleziona [!UICONTROL **Periodo di tempo personalizzato**]. Le durate possono essere impostate utilizzando le classificazioni prima o dopo il tempo di elaborazione.</li><li>**Periodo di tempo personalizzato:** disponibile indipendentemente dal fatto che le durate siano o meno rese disponibili tramite le classificazioni.</li></ul> <p>Questa impostazione modifica il flusso di lavoro e l’output del rapporto.</p> |
 
-1. Continua con [Contenuto specifico](#specific-content) o [Periodo di tempo personalizzato](#custom-time-period), a seconda dell’opzione scelta in [!UICONTROL **Calcola metrica per**] menu a discesa.
+1. Continua con [Contenuto specifico](#specific-content) o [Periodo di tempo personalizzato](#custom-time-period), a seconda dell&#39;opzione scelta nel menu a discesa [!UICONTROL **Calcola metrica per**].
 
 ### Contenuto specifico
 
-1. Se hai selezionato [!UICONTROL **Contenuto specifico**] nel [!UICONTROL **Calcola metrica per**] menu a discesa quando [configurazione degli input del pannello](#panel-inputs), specifica le seguenti opzioni di configurazione:
+1. Se hai selezionato [!UICONTROL **Contenuto specifico**] nel menu a discesa [!UICONTROL **Calcola metrica per**] durante la [configurazione degli input del pannello](#panel-inputs), specifica le seguenti opzioni di configurazione:
 
    | Impostazione | Descrizione |
    |---------|------------|
    | [!UICONTROL **Dimensione di reporting**] | Quando scegli un contenuto specifico, puoi selezionare l’output del rapporto in modo da utilizzare i campi ID contenuto o nome video per mostrare il contenuto e il pubblico medio per minuto associato per il periodo di tempo selezionato. |
-   | [!UICONTROL **Filtra contenuto per (facoltativo)**] | Scegli come filtrare il contenuto specifico, a seconda della visualizzazione desiderata o della struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: mostra gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. Questa opzione è selezionata per impostazione predefinita.</li></ul> |
+   | [!UICONTROL **Filtra contenuto per (facoltativo)**] | Scegli come filtrare il contenuto specifico, a seconda della visualizzazione desiderata o della struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: visualizza gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi video con dati del pubblico medio per minuto per la selezione scelta. Questa opzione è selezionata per impostazione predefinita.</li></ul> |
 
-1. Continua con [Impostazioni avanzate del contenuto specifico](#specific-content-advanced-settings) per configurare le impostazioni avanzate.
+1. Continua con [Impostazioni avanzate contenuto specifico](#specific-content-advanced-settings) per configurare le impostazioni avanzate.
 
 ### Impostazioni avanzate del contenuto specifico
 
-1. Con [!UICONTROL **Contenuto specifico**] selezionato in [!UICONTROL **Calcola metrica per**] menu a discesa, seleziona [!UICONTROL **Mostra impostazioni avanzate**], quindi specifica le seguenti opzioni di configurazione:
+1. Con [!UICONTROL **Contenuto specifico**] selezionato nel menu a discesa [!UICONTROL **Calcola metrica per**], selezionare [!UICONTROL **Mostra impostazioni avanzate**], quindi specificare le opzioni di configurazione seguenti:
 
    | Impostazione | Descrizione |
    |---------|------------|
    | Table settings (Impostazioni di tabella) | L’impostazione predefinita mostra i valori di calcolo nella tabella, la quale mostra il numeratore e il denominatore del pubblico medio per minuto come colonne precedenti nella tabella. Deselezionando questa opzione le due colonne vengono rimosse, lasciando solo il pubblico medio per minuto accanto all’ID contenuto o nome video. |
    | Time spent metric (Metrica della durata) | È possibile scegliere la durata predefinita del contenuto, che include solo la durata del contenuto, oppure scegliere di utilizzare la durata dei contenuti multimediali, che include la durata del contenuto e degli annunci insieme come calcolo del numeratore del pubblico medio per minuto. |
 
-1. Seleziona [!UICONTROL **Genera**] per terminare la creazione del pannello Pubblico medio per minuto.
+1. Seleziona [!UICONTROL **Build**] per completare la creazione del pannello Pubblico medio per minuto.
 
-1. Continua con [Output del pannello](#panel-output) per informazioni su come utilizzare il pannello Pubblico medio per minuto del file multimediale.
+1. Continua con [Output pannello](#panel-output) per informazioni su come utilizzare il pannello Pubblico medio per minuto del file multimediale.
 
 ### Periodo di tempo personalizzato
 
-1. Se hai selezionato [!UICONTROL **Periodo di tempo personalizzato**] nel [!UICONTROL **Calcola metrica per**] menu a discesa quando [configurazione degli input del pannello](#panel-inputs), specifica le seguenti opzioni di configurazione:
+1. Se hai selezionato [!UICONTROL **Periodo di tempo personalizzato**] nel menu a discesa [!UICONTROL **Calcola metrica per**] durante la [configurazione degli input del pannello](#panel-inputs), specifica le seguenti opzioni di configurazione:
 
    | Impostazione | Descrizione |
    |---------|------------|
-   | Granularity (Granularità) | La granularità predefinita è [!UICONTROL **5 minuti**], ma puoi scegliere una qualsiasi delle granularità utilizzate come denominatore per le serie temporali all’interno della selezione complessiva del periodo temporale effettuata nella selezione del calendario. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell’intera mezz’ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
-   | [!UICONTROL **Filtra contenuto per (facoltativo)**] | Scegli come filtrare il contenuto specifico, a seconda della visualizzazione desiderata o della struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: mostra gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. Questa opzione è selezionata per impostazione predefinita.</li></ul> |
+   | Granularity (Granularità) | La granularità predefinita è [!UICONTROL **5 minuti**], ma puoi scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all&#39;interno della selezione complessiva del periodo temporale effettuata nella selezione del calendario. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell’intera mezz’ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
+   | [!UICONTROL **Filtra contenuto per (facoltativo)**] | Scegli come filtrare il contenuto specifico, a seconda della visualizzazione desiderata o della struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: visualizza gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi video con dati del pubblico medio per minuto per la selezione scelta. Questa opzione è selezionata per impostazione predefinita.</li></ul> |
 
 1. Continua con [Impostazioni avanzate del periodo di tempo personalizzato](#custom-time-period-advanced-settings) per configurare le impostazioni avanzate.
 
 ### Impostazioni avanzate del periodo di tempo personalizzato
 
-1. Con [!UICONTROL **Periodo di tempo personalizzato**] selezionato in [!UICONTROL **Calcola metrica per**] menu a discesa, seleziona [!UICONTROL **Mostra impostazioni avanzate**], quindi specifica la seguente opzione di configurazione:
+1. Con [!UICONTROL **Periodo di tempo personalizzato**] selezionato nel menu a discesa [!UICONTROL **Calcola metrica per**], seleziona [!UICONTROL **Mostra impostazioni avanzate**], quindi specifica la seguente opzione di configurazione:
 
    | Impostazione | Descrizione |
    |---------|------------|
    | Table settings (Impostazioni di tabella) | L’impostazione predefinita visualizza i valori di calcolo nella tabella, la quale visualizza il numeratore e il denominatore del pubblico medio per minuto come colonne precedenti nella tabella. Deselezionando questa opzione le due colonne vengono rimosse, lasciando solo il pubblico medio per minuto accanto al periodo di tempo. |
 
-1. Seleziona [!UICONTROL **Genera**] per terminare la creazione del pannello Pubblico medio per minuto.
+1. Seleziona [!UICONTROL **Build**] per completare la creazione del pannello Pubblico medio per minuto.
 
-1. Continua con [Output del pannello](#panel-output) per informazioni su come utilizzare il pannello Pubblico medio per minuto del file multimediale.
+1. Continua con [Output pannello](#panel-output) per informazioni su come utilizzare il pannello Pubblico medio per minuto del file multimediale.
 
 ## Output del pannello
 
-L’output del pannello varia a seconda che sia stato scelto o meno [!UICONTROL **Contenuto specifico**] o [!UICONTROL **Periodo di tempo personalizzato**] nel [!UICONTROL **Calcola metrica per**] menu a discesa quando [configurazione degli input del pannello](#panel-inputs).
+L&#39;output del pannello varia a seconda che sia stato scelto [!UICONTROL **Contenuto specifico**] o [!UICONTROL **Periodo di tempo personalizzato**] nel menu a discesa [!UICONTROL **Calcola metrica per**] durante la [configurazione degli input del pannello](#panel-inputs).
 
 ### Contenuto specifico
 
@@ -144,7 +144,7 @@ Il pannello Pubblico medio per minuto restituisce quanto segue:
 
 * Una tabella che mostra i filtri e il pubblico medio per minuto delle granularità, nonché la durata del contenuto e la granularità di ogni periodo di tempo
 
-  Questa tabella viene visualizzata solo se l’opzione in Impostazioni avanzate è denominata [!UICONTROL **Mostra valori di calcolo nella tabella**] è selezionato.
+  Questa tabella viene visualizzata solo se è selezionata l&#39;opzione in Impostazioni avanzate denominata [!UICONTROL **Mostra valori di calcolo nella tabella**].
 
 Per modificare e ricreare il pannello in qualsiasi momento, seleziona l’icona Modifica (matita) in alto a destra.
 

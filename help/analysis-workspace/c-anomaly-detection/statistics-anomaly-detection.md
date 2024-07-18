@@ -56,7 +56,7 @@ Dopo aver selezionato il modello e individuato le festività nell’intervallo d
 
 Osserva il notevole miglioramento delle prestazioni per i giorni di Natale e Capodanno nell’esempio seguente:
 
-![Due grafici a linee che mostrano le modifiche delle prestazioni con e senza le prestazioni delle festività.](assets/anomaly_statistics.png)
+![Grafici a due righe che mostrano le modifiche delle prestazioni con e senza le prestazioni delle festività.](assets/anomaly_statistics.png)
 
 ## Rilevamento delle anomalie con granularità oraria
 

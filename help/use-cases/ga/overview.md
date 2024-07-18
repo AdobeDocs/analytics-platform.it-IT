@@ -21,11 +21,11 @@ I flussi di lavoro vengono forniti sia per i dati storici che per la raccolta da
 
 L’acquisizione di dati storici (di recupero) comporta l’esportazione di dati da Google e l’importazione di tali dati su Adobe Experience Platform. Consulta [Inserire dati Google Analytics su Adobe Experience Platform](backfill.md).
 
-Una volta inseriti correttamente i dati storici in Platform, puoi: [Configurare i dati correnti in streaming](streaming.md), oppure iniziare immediatamente a generare rapporti sui dati precompilati nel Customer Journey Analytics entro [Creazione di una connessione](/help/connections/create-connection.md).
+Una volta inseriti correttamente i dati storici in Platform, puoi [configurare i dati correnti in streaming](streaming.md) oppure iniziare immediatamente a generare rapporti sui dati precompilati nel Customer Journey Analytics [creando una connessione](/help/connections/create-connection.md).
 
 ## Configurare un&#39;implementazione Google Analytics esistente per Adobe Experience Platform {#configure}
 
-L’acquisizione dei dati correnti (in streaming) comporta l’invio di dati alla rete Edge di Adobe Experience Platform, che a sua volta li inoltra a Adobe Experience Platform. Consulta [Configurazione dei dati Google Analytics in streaming su Adobe Experience Platform](streaming.md).
+L’acquisizione dei dati correnti (in streaming) comporta l’invio di dati all’Edge Network di Adobe Experience Platform, che a sua volta li inoltra a Adobe Experience Platform. Consulta [Configurazione dei dati Google Analytics in streaming su Adobe Experience Platform](streaming.md).
 
 ## Configurare una connessione e una visualizzazione dati nel Customer Journey Analytics
 

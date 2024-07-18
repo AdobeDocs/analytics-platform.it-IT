@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Visualizzare l’attività di reporting in Reporting Activity Manager
 
-Il [!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e risolvere rapidamente i problemi di capacità di reporting durante i periodi di picco.
+[!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e risolvere rapidamente i problemi di capacità di reporting durante i periodi in cui si verificano picchi di reporting.
 
 Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chiave e i requisiti delle autorizzazioni, vedere [Panoramica di Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-overview.md).
 
@@ -24,19 +24,19 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    Viene visualizzato un elenco delle connessioni di base abilitate.
 
-   ![Attività di reporting che mostra la coda dei rapporti](assets/reporting-activity1.png)
+   ![Attività di reporting che mostra la coda dei report](assets/reporting-activity1.png)
 
-1. Per visualizzare il numero totale di richieste di rapporti per tutte le connessioni nell’organizzazione, espandi [!UICONTROL **Mostra altro**] per visualizzare [!UICONTROL **Richieste di rapporti mensili**] grafico.
+1. Per visualizzare il numero totale di richieste di report per tutte le connessioni nell&#39;organizzazione, espandi [!UICONTROL **Mostra altro**] per visualizzare il grafico [!UICONTROL **Richieste di report mensili**].
 
    Puoi visualizzare il numero di richieste di rapporti all’interno della tua organizzazione per il mese corrente e il mese precedente.
 
-   ![Attività di reporting che mostra la coda dei rapporti](assets/reporting-activity-monthly.png)
+   ![Attività di reporting che mostra la coda dei report](assets/reporting-activity-monthly.png)
 
 1. (Facoltativo) Puoi cercare o filtrare l’elenco delle connessioni:
 
    * Utilizza il campo di ricerca per cercare una connessione specifica. Inizia a digitare il nome o l’ID della connessione e l’elenco degli aggiornamenti delle connessioni durante la digitazione.
 
-   * Seleziona la [!UICONTROL **Filtro**] icona ![Icona Filtro](assets/filter-icon.png) per espandere l&#39;elenco delle opzioni di filtro. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
+   * Seleziona l&#39;icona [!UICONTROL **Filtro**] ![Icona Filtro](assets/filter-icon.png) per espandere l&#39;elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
 
      Per contrassegnare una connessione come preferita, seleziona l’icona a forma di stella a sinistra del nome della connessione.
 
@@ -50,22 +50,22 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
    | --- | --- |
    | **[!UICONTROL Connection]** | La connessione di cui si sta monitorando l’attività di reporting. |
    | **[!UICONTROL Data Views]** | Mostra tutte le visualizzazioni dati che utilizzano la connessione. La configurazione della visualizzazione dati può aggiungere complessità alle richieste di reporting. |
-   | **[!UICONTROL Capacity utilization]** | Percentuale della capacità di reporting della connessione utilizzata, in tempo reale. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario iniziare immediatamente ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
+   | **[!UICONTROL Capacity utilization]** | Percentuale della capacità di reporting della connessione utilizzata, in tempo reale. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario avviare immediatamente l&#39;annullamento delle richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
    | **[!UICONTROL Queued requests]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | Tempo medio di attesa prima dell’elaborazione delle richieste. <!-- ???? --> |
-   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): I rapporti sulla connessione sono stati eseguiti nelle ultime 2 ore. I dati mostrati nella tabella rappresentano la capacità di reporting per la connessione al momento dell’ultimo caricamento della pagina.</li><li>[!UICONTROL **Inattivo**] (grigio): non sono mai stati eseguiti rapporti sulla connessione nelle ultime 2 ore, pertanto non vengono visualizzati dati per la connessione.</li></ul> |
+   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sulla connessione sono stati eseguiti nelle ultime 2 ore. I dati mostrati nella tabella rappresentano la capacità di reporting per la connessione al momento dell’ultimo caricamento della pagina.</li><li>[!UICONTROL **Inattivo**] (grigio): non sono mai stati eseguiti report sulla connessione nelle ultime 2 ore, quindi non vengono visualizzati dati per la connessione.</li></ul> |
 
    {style="table-layout:auto"}
 
 ## Visualizzare l’attività di reporting per una singola connessione
 
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Reporting Activity Manager**].
+1. In Customer Journey Analytics, selezionare [!UICONTROL **Strumenti**] > [!UICONTROL **Gestione attività di reporting**].
 
 1. Selezionare il titolo collegato della connessione per la quale si desidera visualizzare i dettagli.
 
    I dati dell’attività di reporting vengono visualizzati per la connessione selezionata.
 
-1. (Facoltativo) Quando una connessione viene caricata per la prima volta in Reporting Activity Manager, i dati visualizzati rappresentano le metriche di utilizzo correnti. Per visualizzare le metriche aggiornate dopo il caricamento iniziale, seleziona la [!UICONTROL **Aggiorna**] per aggiornare manualmente la pagina.
+1. (Facoltativo) Quando una connessione viene caricata per la prima volta in Reporting Activity Manager, i dati visualizzati rappresentano le metriche di utilizzo correnti. Per visualizzare le metriche aggiornate dopo il caricamento iniziale, selezionare il pulsante [!UICONTROL **Aggiorna**] per aggiornare manualmente la pagina.
 
    <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
@@ -79,7 +79,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
 I seguenti grafici sono disponibili per aiutarti a comprendere meglio l’attività che si verifica nella connessione.
 
-Se i grafici non sono visibili, selezionare [!UICONTROL **Mostra grafici**] pulsante.
+Se i grafici non sono visibili, selezionare il pulsante [!UICONTROL **Mostra grafici**].
 
 #### Grafico Utilizzo {#utilization}
 
@@ -87,8 +87,8 @@ Il grafico Utilizzo mostra l&#39;utilizzo dei rapporti per la connessione selezi
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui la percentuale di capacità di utilizzo era più alta per quel minuto.
 
-* **Asse X**: capacità di utilizzo dei rapporti nelle ultime 2 ore.
-* **Asse Y**: percentuale di capacità di utilizzo dei rapporti, in minuti.
+* **Asse X**: la capacità di utilizzo del reporting nelle ultime 2 ore.
+* **Asse Y**: percentuale della capacità di utilizzo del reporting, in minuti.
 
   ![grafico di utilizzo](assets/utilization-graph.png)
 
@@ -98,10 +98,10 @@ Il grafico Utenti distinti mostra l’attività di reporting per la connessione 
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di utenti era più alto per quel minuto.
 
-* **Asse X**: l’attività di reporting nell’ultimo intervallo di tempo di 2 ore.
-* **Asse Y**: numero di utenti che hanno effettuato richieste di reporting per minuto.
+* **Asse X**: l&#39;attività di reporting nell&#39;ultimo intervallo di tempo di 2 ore.
+* **Asse Y**: numero di utenti che hanno effettuato richieste di reporting, per minuto.
 
-  ![Grafico Utenti distinti](assets/distinct-users-graph.png)
+  ![Grafico utenti distinti](assets/distinct-users-graph.png)
 
 #### Grafico Richieste
 
@@ -110,9 +110,9 @@ Il grafico Richieste mostra il numero di richieste elaborate e in coda per la co
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di richieste era più alto per quel minuto.
 
 * **Asse X**: numero di richieste elaborate e in coda negli ultimi due ore.
-* **Asse Y**: numero di richieste elaborate (in verde) e di richieste in coda (in viola), al minuto.
+* **Asse Y**: numero di richieste elaborate (in verde) e di richieste in coda (in viola) in base al minuto.
 
-  ![Grafico Utenti distinti](assets/requests-graph.png)
+  ![Grafico utenti distinti](assets/requests-graph.png)
 
 #### Grafico in coda
 
@@ -120,42 +120,42 @@ Il grafico di accodamento mostra il tempo medio di attesa della coda (in secondi
 
 Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il tempo medio di attesa massimo era più alto per quel minuto.
 
-* **Asse X**: tempo medio di attesa della coda per le richieste di reporting nell’ultimo intervallo di tempo di 2 ore.
+* **Asse X**: tempo medio di attesa della coda per le richieste di reporting nell&#39;ultimo intervallo di tempo di 2 ore.
 * **Asse Y**: tempo medio di attesa (in secondi).
 
-  ![Grafico Utenti distinti](assets/queueing-graph.png)
+  ![Grafico utenti distinti](assets/queueing-graph.png)
 
 ### Visualizza tabella {#view-table}
 
 Quando visualizzi la tabella, considera quanto segue:
 
-* È possibile scegliere di visualizzare i dati scegliendo una delle seguenti schede nella parte superiore della tabella dati: [!UICONTROL **Richiesta**], [!UICONTROL **Utente**], [!UICONTROL **Progetto**], o [!UICONTROL **Applicazione**].
+* Puoi scegliere di visualizzare i dati scegliendo una delle seguenti schede nella parte superiore della tabella dati: [!UICONTROL **Richiesta**], [!UICONTROL **Utente**], [!UICONTROL **Progetto**] o [!UICONTROL **Applicazione**].
 
 * Puoi cercare o filtrare l’elenco delle connessioni:
 
    * Utilizza il campo di ricerca per cercare una connessione specifica. Inizia a digitare il nome o l’ID della connessione e l’elenco degli aggiornamenti delle connessioni durante la digitazione.
 
-   * Seleziona la [!UICONTROL **Filtro**] icona ![Icona Filtro](assets/filter-icon.png) per espandere l&#39;elenco delle opzioni di filtro. Puoi filtrare per [!UICONTROL **Stato**], [!UICONTROL **Complessi**], [!UICONTROL **Applicazione**], [!UICONTROL **Utente**], o [!UICONTROL **Progetto**].
+   * Seleziona l&#39;icona [!UICONTROL **Filtro**] ![Icona Filtro](assets/filter-icon.png) per espandere l&#39;elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Stato**], [!UICONTROL **Complessità**], [!UICONTROL **Applicazione**], [!UICONTROL **Utente**] o [!UICONTROL **Progetto**].
 
-   * Puoi selezionare [!UICONTROL **Nascondere i grafici**] per visualizzare solo la tabella.
+   * È possibile selezionare [!UICONTROL **Nascondi grafici**] per visualizzare solo la tabella.
 
-![tabulazioni tabella](assets/report-activity-tabs.png)
+![schede tabella](assets/report-activity-tabs.png)
 
 #### Visualizza dati per richiesta
 
-Quando selezioni il [!UICONTROL **Richiesta**] nella tabella sono disponibili le seguenti colonne:
+Quando si seleziona la scheda [!UICONTROL **Richiesta**], nella tabella sono disponibili le colonne seguenti:
 
 | Colonna | Descrizione |
 | --- | --- |
-| [!UICONTROL **ID richiesta**] | ID univoco che può essere utilizzato a scopo di risoluzione dei problemi. Per copiare l’ID, seleziona la richiesta, quindi l’opzione, [!UICONTROL **Copia ID richiesta**]. |
-| [!UICONTROL **Esecuzione temporale**] | Da quanto tempo la richiesta è in esecuzione. |
+| [!UICONTROL **ID richiesta**] | ID univoco che può essere utilizzato a scopo di risoluzione dei problemi. Per copiare l&#39;ID, selezionare la richiesta, quindi selezionare l&#39;opzione [!UICONTROL **Copia ID richiesta**]. |
+| [!UICONTROL **Esecuzione**] | Da quanto tempo la richiesta è in esecuzione. |
 | [!UICONTROL **Ora di inizio**] | Quando la richiesta ha iniziato l’elaborazione (in base all’ora locale dell’amministratore). |
 | [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiesta prima dell’elaborazione. Questo valore è generalmente a &quot;0&quot; quando la capacità è sufficiente. |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico e così via.</li><li>Chiamate API dall&#39;API 2.0</li><li>Avvisi intelligenti<li>Esportazione tabella completa</li><li>Condividi con qualsiasi collegamento</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul><p>**Nota:** Se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che i metadati della richiesta non sono disponibili per l’utente.</p> |
-| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. <p>**Nota:** Se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che i metadati della richiesta non sono disponibili per l’utente.</p> |
-| [!UICONTROL **Progetto**] | Nomi di progetto Workspace salvati, ID di report API e così via. (I metadati possono variare tra le varie applicazioni).<p>**Nota:** Se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che il progetto non è stato salvato o che i metadati della richiesta non sono disponibili per l’utente.</p> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico e così via.</li><li>Chiamate API dall&#39;API 2.0</li><li>Avvisi intelligenti<li>Esportazione tabella completa</li><li>Condividi con qualsiasi collegamento</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul><p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], i metadati della richiesta non sono disponibili per l&#39;utente.</p> |
+| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. <p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], i metadati della richiesta non sono disponibili per l&#39;utente.</p> |
+| [!UICONTROL **Progetto**] | Nomi di progetto Workspace, ID di report API e così via salvati. (I metadati possono variare tra le varie applicazioni).<p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], il progetto non è stato salvato o i metadati della richiesta non sono disponibili per l&#39;utente.</p> |
 | [!UICONTROL **Stato**] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
-| [!UICONTROL **Complessi**] | Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. <p>Possibili valori:</p> <ul><li>[!UICONTROL **Basso**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alta**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |
+| [!UICONTROL **Complessità**] | Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. <p>Possibili valori:</p> <ul><li>[!UICONTROL **Basso**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **Alta**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |
 | [!UICONTROL **Limiti del mese**] | Il numero di mesi inclusi in una richiesta. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
 | [!UICONTROL **Colonne**] | Il numero di metriche e raggruppamenti nella richiesta. Più colonne aumenta la complessità della richiesta. |
 | [!UICONTROL **Segmenti**] | Il numero di segmenti applicati alla richiesta. Altri segmenti aumentano la complessità della richiesta. |
@@ -164,24 +164,24 @@ Quando selezioni il [!UICONTROL **Richiesta**] nella tabella sono disponibili le
 
 #### Visualizza dati per utente
 
-Quando selezioni il [!UICONTROL **Utente**] nella tabella sono disponibili le seguenti colonne:
+Quando si seleziona la scheda [!UICONTROL **Utente**], nella tabella sono disponibili le colonne seguenti:
 
 | Colonna | Descrizione |
 | --- | --- |
-| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l’utente si trova in una società di accesso per la quale non disponi di autorizzazioni amministrative. |
+| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l&#39;utente si trova in una società di accesso per la quale non si dispone di autorizzazioni amministrative. |
 | [!UICONTROL **Numero di richieste**] | Numero di richieste avviate dall&#39;utente. |
 | [!UICONTROL **Numero di progetti**] | Il numero di progetti associati all’utente. <!-- ??? --> |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico e così via.</li><li>Chiamate API dall&#39;API 2.0</li><li>Avvisi intelligenti<li>Esportazione tabella completa</li><li>Condividi con qualsiasi collegamento</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
-| [!UICONTROL **Complessità media**] | La complessità media delle richieste avviate dall’utente. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Complessità media**] | La complessità media delle richieste avviate dall’utente. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi mese**]</li><li>[!UICONTROL **Colonne medie**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
+| [!UICONTROL **Limiti medi mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Colonne medie**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
 | [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
 #### Visualizza dati per progetto
 
-Quando selezioni il [!UICONTROL **Progetto**] nella tabella sono disponibili le seguenti colonne:
+Quando si seleziona la scheda [!UICONTROL **Progetto**], nella tabella sono disponibili le colonne seguenti:
 
 | Colonna | Descrizione |
 | --- | --- |
@@ -189,16 +189,16 @@ Quando selezioni il [!UICONTROL **Progetto**] nella tabella sono disponibili le 
 | [!UICONTROL **Numero di richieste**] | Il numero di richieste associate al progetto. |
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati al progetto. <!-- ??? --> |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico e così via.</li><li>Chiamate API dall&#39;API 2.0</li><li>Avvisi intelligenti<li>Esportazione tabella completa</li><li>Condividi con qualsiasi collegamento</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
-| [!UICONTROL **Complessità media**] | La complessità media delle richieste incluse nel progetto. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Complessità media**] | La complessità media delle richieste incluse nel progetto. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi mese**]</li><li>[!UICONTROL **Colonne medie**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
+| [!UICONTROL **Limiti medi mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Colonne medie**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
 | [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
 #### Visualizza dati per applicazione
 
-Quando selezioni il [!UICONTROL **Applicazione**] nella tabella sono disponibili le seguenti colonne:
+Quando si seleziona la scheda [!UICONTROL **Applicazione**], nella tabella sono disponibili le colonne seguenti:
 
 | Colonna | Descrizione |
 | --- | --- |
@@ -206,9 +206,9 @@ Quando selezioni il [!UICONTROL **Applicazione**] nella tabella sono disponibili
 | [!UICONTROL **Numero di richieste**] | Il numero di richieste associate all’applicazione. |
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati all’applicazione. <!--???--> |
 | [!UICONTROL **Numero di progetti**] | Numero di progetti associati all&#39;applicazione. <!--???--> |
-| [!UICONTROL **Complessità media**] | La complessità media delle richieste associate all’applicazione. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Complessità media**] | La complessità media delle richieste associate all’applicazione. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti medi mesi**]</li><li>[!UICONTROL **Colonne medie**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
+| [!UICONTROL **Limiti medi mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Colonne medie**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
 | [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}

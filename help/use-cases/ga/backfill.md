@@ -78,11 +78,11 @@ In Google Cloud Platform, passa a **Export > Export to GCS** (Esporta > Esporta 
 
 >[!TIP]
 >
->Se prevedi di importare sia dati storici di Google Analytics che dati live in streaming, assicurati di utilizzare lo stesso schema per entrambi i set di dati. È possibile unire i set di dati in un Customer Journey Analytics utilizzando una [Set di dati combinato](/help/connections/combined-dataset.md).
+>Se prevedi di importare sia dati storici di Google Analytics che dati live in streaming, assicurati di utilizzare lo stesso schema per entrambi i set di dati. È possibile unire i set di dati in un Customer Journey Analytics utilizzando un [set di dati combinato](/help/connections/combined-dataset.md).
 
 Puoi mappare i dati di eventi GA in un set di dati esistente creato in precedenza, oppure puoi creare un nuovo set di dati, utilizzando lo schema XDM scelto. Dopo che hai selezionato lo schema, Experience Platform applica l’apprendimento automatico per premappare sullo [schema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it#ui) ciascuno dei campi presenti nei dati di Google Analytics.
 
-![Mappa dello schema che evidenzia i campi di dati GA e le mappature dello schema di Target](../assets/schema-map.png)
+![Mappa dello schema che evidenzia i campi di dati GA e le mappature dello schema di destinazione](../assets/schema-map.png)
 
 Una volta completata la mappatura dei campi sullo schema XDM, puoi pianificare l’importazione su base periodica. Applicando la convalida degli errori durante il processo di acquisizione, puoi verificare che non vi siamo problemi con i dati importati.
 
@@ -98,7 +98,7 @@ Alcuni campi XDM in Platform richiedono il formato corretto per consentire la co
 
   ![Marca temporale](../assets/timestamp.png)
 
-* **`_id`**: questo campo deve contenere un valore; per il Customer Journey Analytics non importa di quale valore si tratti. Puoi semplicemente aggiungere “1” al campo:
+* **`_id`**: questo campo deve contenere un valore. Per il Customer Journey Analytics non importa di quale valore si tratti. Puoi semplicemente aggiungere “1” al campo:
 
   ![ID](../assets/_id.png)
 

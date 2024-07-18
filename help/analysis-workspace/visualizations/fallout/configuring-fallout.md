@@ -19,7 +19,7 @@ Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio
 
 Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
 
-Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili che possono avere più valori per evento, come prodotti, listVars, eVar di merchandising e prop elenco). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili che possono avere più valori per evento, come prodotti, listVar, eVar di merchandising e prop elenco). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
 
@@ -41,11 +41,11 @@ Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVa
    >
    >Per unire più filtri si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione e metriche, si usa l’operatore OR.
 
-   ![I punti di contatto Page:CamerRoll o Page: Camera sono evidenziati.](assets/multiple_obj_touchpoint.png)
+   ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/multiple_obj_touchpoint.png)
 
-1. È inoltre possibile **vincolare singoli punti di contatto all’evento successivo** (anziché &quot;alla fine&quot;) all’interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
+1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché alla fine) all&#39;interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
 
-   ![La vista Tutte le visite mostra l’opzione Percorso finale evidenziata. ](assets/next-hit-eventually.png)
+   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. ](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

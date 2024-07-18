@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 4%
 
 ---
@@ -26,10 +26,10 @@ Tieni presente che questa formula dipende da un intervallo di tempo coerente. Se
 
 Questo filtro mostra la Percentuale non recapitate per il primo 30% delle pagine, quando ordinato per visite.
 
-![Se e poi filtrano mostrando la Percentuale non recapitate per il 30% delle pagine principali ordinate per visite.](assets/cm_wbr_2.png)
+![Se e quindi filtro che mostra la Percentuale non recapitate per il 30% delle pagine ordinate per visite.](assets/cm_wbr_2.png)
 
 ## Metrica ponderata {#section_F2D16B14569948289CF1310F9E6E3FC2}
 
 Supponiamo di voler ordinare in generale per frequenza di rimbalzo, ma le pagine con visite più alte dovrebbero essere più in alto nell’elenco. Puoi creare una percentuale di mancato recapito ponderata simile alla seguente:
 
-![Riepilogo con definizione per frequenza di rimbalzo per visite.](assets/cm_wbr.png)
+![Riepilogo con definizione per frequenza di mancato recapito per visite.](assets/cm_wbr.png)

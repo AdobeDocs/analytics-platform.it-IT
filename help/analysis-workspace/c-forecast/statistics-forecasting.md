@@ -3,13 +3,13 @@ description: La previsione in Analysis Workspace utilizza una serie di tecniche 
 title: Tecniche di statistica utilizzate nelle previsioni
 feature: Visualizations
 role: User
-source-git-commit: 1bd24ee1163e4615bf5626c51aec9f167352f2f6
+exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
+source-git-commit: accd7300c2dd6224e4d154cb6e3889f564e07a1a
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # Tecniche di statistica utilizzate nel servizio di previsione
 
@@ -54,7 +54,6 @@ Il servizio non fa alcuna supposizione sui dati utente. Ad esempio, il servizio 
 
 ## Riferimenti
 
-1. Taylor, Sean J. e Benjamin Letham: *Previsione su scala.* The American Statistician 72.1 (2018): 37-45.
+1. Taylor, Sean J. e Benjamin Letham: *Previsione su larga scala.* Statistico americano 72.1 (2018): 37-45.
 1. Triebe, Oskar, et al.: *Neuralprophet: previsione spiegabile su scala.* prestampa arXiv arXiv:2111.15397(2021).
-1. Zhang e Arbor scrive: *Rilevamento delle anomalie di serie temporali.* Domanda di brevetto USA #18/057883.
-
+1. Zhang e Arbor: *Rilevamento anomalie della serie temporale.* domanda di brevetto USA #18/057883.

@@ -59,13 +59,13 @@ Per avviare e valutare un prototipo:
 
 1. In qualsiasi momento durante l’utilizzo del prototipo, puoi fare clic su **[!UICONTROL Give Feedback]** per fornire un feedback nella finestra del messaggio.
 
-   ![Finestra di feedback](assets/give_feedback.png)
+   ![Intervallo di feedback](assets/give_feedback.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per inviare il tuo feedback.
 
 1. Per provare un prototipo diverso o per uscire dall’ambiente del prototipo, fai clic su **[!UICONTROL Leave Prototype]** in alto a destra e completa il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse quando si esce dall’ambiente del prototipo.
 
-   ![Finestra Feedback percorso intelligente](assets/short-survey.png)
+   ![Intervallo di feedback dei percorsi intelligenti](assets/short-survey.png)
 
 1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
 

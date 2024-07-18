@@ -64,7 +64,7 @@ L’unica metrica che può essere utilizzata in questo pannello è Visualizzator
 In questa visualizzazione non è disponibile una tabella a forma libera.  Per visualizzare l’origine dati, fai clic con il pulsante destro del mouse sul grafico a linee e scarica come file .csv.  Saranno inclusi i raggruppamenti per serie di dati.
 
 
-![Le opzioni di output dei visualizzatori simultanei evidenziano l’opzione &quot;Scarica dati come CSV&quot;.](assets/concurrent-viewers-download-csv.png)
+![Le opzioni di output dei visualizzatori simultanei evidenziano &quot;Scarica dati come CSV&quot;.](assets/concurrent-viewers-download-csv.png)
 
 ## Domande frequenti {#FAQ}
 

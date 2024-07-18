@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Components
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Puoi gestire i componenti direttamente nella barra a sinistra.
 
    Oppure
 
-   Seleziona un componente, quindi l’icona **Azione** (tre punti in verticale) in alto nell’elenco dei componenti.
+   Seleziona un componente, quindi seleziona l’icona **Azione** (tre punti) nella parte superiore dell’elenco dei componenti.
 
    >[!TIP]
    >
@@ -96,7 +96,7 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 1. Seleziona l’icona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
-2. Nel campo di ricerca, inizia a digitare il nome del componente che desideri utilizzare nel progetto.
+2. Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare nel progetto.
 
    Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Filtri** ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi. L’icona Adobe ![icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di filtro, e l’icona della calcolatrice ![icona Calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics della tua organizzazione.
 
@@ -133,7 +133,7 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 
-2. Seleziona l’icona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
+2. Seleziona l’icona **Componenti** ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
 3. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
 

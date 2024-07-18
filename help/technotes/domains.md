@@ -2,7 +2,8 @@
 title: Domini utilizzati dal Customer Journey Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 role: Admin
-source-git-commit: 43bda939a5464c5f65b0a050ccfdb5ba17f7d34b
+exl-id: 0c3e7b2e-cb48-4e14-ae18-65258ebce1b4
+source-git-commit: 8ffbca5dd83987a90d7b744d236e0556314000dd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
@@ -27,7 +28,7 @@ Alcune configurazioni del firewall bloccano i domini su cui il Customer Journey 
 
 ## Domini di Adobe Experience Cloud
 
-Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Consulta [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
+Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Vedere [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
 
 >[!MORELIKETHIS]
 >

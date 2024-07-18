@@ -15,7 +15,7 @@ ht-degree: 65%
 
 È possibile scaricare i dati di Customer Journey Analytics sulla propria workstation personale. Può essere sotto forma di dati copiati, CSV o PDF. Un PDF è in genere consigliato se desideri includere le visualizzazioni nel file scaricato. Se desideri semplicemente dati in formato testo, puoi usare CSV e dati copiati.
 
-Sono disponibili anche altri metodi di esportazione dei dati del Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
+Sono disponibili anche altri metodi di esportazione dei dati del Customer Journey Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Scarica come CSV o PDF {#download-project}
 
@@ -27,7 +27,7 @@ Quando si scaricano i progetti, considera quanto segue:
    * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito su server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
    * I download vengono riprodotti come una singola pagina senza impaginazione.
    * I rendering PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
-   * Qualsiasi [collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) che esistono nelle tabelle a forma libera non funzionano nel PDF scaricato.
+   * Tutti i [collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano in PDF scaricato.
 
 Per scaricare un progetto come file CSV o PDF:
 
@@ -41,13 +41,13 @@ Per scaricare un progetto come file CSV o PDF:
 
      Scegliere questa opzione se si desidera che il file scaricato sia in formato testo normale.
 
-   ![Il menu a discesa Progetto con le opzioni Scarica CSV e Scarica PDF evidenziate.](assets/download-project.png)
+   ![Menu a discesa Progetto con le opzioni Scarica CSV e Scarica PDF evidenziate.](assets/download-project.png)
 
 1. (Condizionale) Se hai scelto di scaricare un file PDF, dopo che il progetto è pronto per essere scaricato, viene visualizzato un messaggio. Seleziona [!UICONTROL **Scarica**].
 
 ## Copia negli Appunti (scelta rapida: Ctrl+C) {#copy-data}
 
-Opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati di Customer Journey Analytics da Workspace e incollarli in uno strumento di terze parti.
+L&#39;opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati di Customer Journey Analytics da Workspace e incollarli in uno strumento di terze parti.
 
 * Se desideri copiare la tabella visualizzata, fai clic con il pulsante destro del mouse sull’intestazione della tabella e scegli **Copia dati negli Appunti**.
 * Se desideri copiare un sottoinsieme di dati, effettua una selezione nella tabella, quindi fai clic con il pulsante destro del mouse e scegli **Copia selezione negli Appunti**.
@@ -61,7 +61,7 @@ Opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare 
 
 ## Scarica come CSV {#download-data}
 
-Opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati di Customer Journey Analytics o l’origine dati di qualsiasi visualizzazione.
+L&#39;opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati di Customer Journey Analytics o l&#39;origine dati di qualsiasi visualizzazione.
 
 * Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]**. In questo modo i dati di Customer Journey Analytics visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
 
@@ -106,13 +106,13 @@ Al termine, verrà visualizzata una notifica di completamento e il file verrà s
 
 Se richiedi più di un download alla volta, una notifica ti segnala che ogni download aggiuntivo sarà messo in coda fino al completamento del download precedente.
 
-![La notifica dello stato del download che mostra la percentuale di completamento e un collegamento per annullare il download.](assets/toast.png)
+![La notifica dello stato di download che mostra la percentuale di completamento e un collegamento per annullare il download.](assets/toast.png)
 
 ## Scaricare dati sensibili {#sensitive}
 
-Se il **[!UICONTROL Enforce Download]** [criteri di governance dei dati](/help/data-views/data-governance.md) è attivato nella visualizzazione dati su cui stai eseguendo il reporting, qualsiasi download (ad esempio mediante invio di e-mail o condivisione di file PDF) di progetti Workspace eseguirà l’hashing dei campi di dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come vuoti nel file .pdf o .csv.
+Se il **[!UICONTROL Enforce Download]** [criterio di governance dei dati](/help/data-views/data-governance.md) è attivato nella visualizzazione dati su cui stai eseguendo il reporting, qualsiasi download (ad esempio invio di e-mail o condivisione di file PDF) di progetti Workspace eseguirà l&#39;hashing dei campi dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come vuoti nel file .pdf o .csv.
 
-Se nella scheda sono inclusi campi di dati etichettati come sensibili [!UICONTROL Data View], l’opzione per selezionare e copiare i dati dalla schermata è limitata per tutti i dati in [!UICONTROL Data View].
+Se in [!UICONTROL Data View] sono inclusi campi dati etichettati come sensibili, l&#39;opzione per selezionare e copiare i dati dalla schermata è limitata per tutti i dati in [!UICONTROL Data View].
 
 ## Domande frequenti {#faq}
 

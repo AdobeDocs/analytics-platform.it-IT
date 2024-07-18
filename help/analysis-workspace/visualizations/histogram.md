@@ -55,7 +55,7 @@ Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazio
 
 Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
 
-![Opzioni delle impostazioni dell’origine dati con l’opzione Mostra origine dati e blocca selezione selezionata.](assets/manage-data-source.png)
+![Opzioni delle impostazioni di Data Source con Mostra Data Source e Blocca selezione selezionati.](assets/manage-data-source.png)
 
 I filtri pregenerati che compaiono nella tabella sono filtri interni e non saranno visualizzati nel selettore dei filtri. Fai clic sul pulsante “i” accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere il filtro pubblico.
 
@@ -65,4 +65,4 @@ Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre vis
 
 ## Post di blog
 
-Consulta questo post di blog per informazioni su [utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).
+Consulta questo post di blog sulle informazioni sull&#39;utilizzo di [istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).

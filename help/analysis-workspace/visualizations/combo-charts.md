@@ -15,7 +15,7 @@ ht-degree: 83%
 
 La [!UICONTROL Combo chart] visualizzazione consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
 
-Utilizza un [!UICONTROL Combo chart] a:
+Utilizza [!UICONTROL Combo chart] per:
 
 * Confrontare gli ordini di questa settimana con quelli dello stesso momento lo scorso mese (e lo scorso anno), tutto in pochi clic.
 * Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Unique Visitors] e [!UICONTROL Revenue]) tra di loro sullo stesso grafico.
@@ -33,7 +33,7 @@ Aspetti da considerare:
 
 1. Dall’elenco a discesa delle Visualizzazioni nella barra a sinistra, trascina la [!UICONTROL Combo chart] visualizzazione in un pannello vuoto.
 
-   ![Grafico combinato che mostra il campo delle opzioni e degli assi X e Y](assets/combo-chart-build.png)
+   ![Grafico combinato con l&#39;asse X e Y e il campo delle opzioni](assets/combo-chart-build.png)
 
 1. Dall’elenco a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
@@ -41,13 +41,13 @@ Aspetti da considerare:
 
    | Tipo di confronto a linee | Definizione |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Eseguire un confronto con il periodo di tempo selezionato e il campo di selezione secondario per il periodo di tempo.](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Un menu a discesa di confronto mostra le Funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Un grafico combinato che confronta due metriche.](assets/combo-2metrics.png) |
+   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Confronto in linea con il periodo di tempo selezionato e il campo di selezione secondario per il periodo di tempo.](assets/combo-time-period.png) |
+   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Menu a discesa di confronto delle righe che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Grafico combinato che confronta due metriche.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Build]**.
 
    L’output sarà simile al seguente:
 
@@ -73,7 +73,7 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verr
 
 Ecco un esempio della media cumulativa della metrica Ricavi:
 
-![Un grafico combinato che mostra la media cumulativa](assets/combo-cumul-avg.png)
+![Grafico combinato con media cumulativa](assets/combo-cumul-avg.png)
 
 Di seguito è riportato un esempio di grafico combinato con entrambe le funzioni di Media cumulativa e Media:
 
@@ -83,7 +83,7 @@ Di seguito è riportato un esempio di grafico combinato con entrambe le funzioni
 
 Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico combinato per modificarne le impostazioni.
 
-![Visualizzazione Impostazioni grafico combinato con le opzioni descritte di seguito.](assets/combo-settings.png)
+![Visualizzazione impostazioni grafico combinato con le opzioni descritte di seguito.](assets/combo-settings.png)
 
 | Impostazione | Definizione |
 | --- | --- |

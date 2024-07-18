@@ -29,7 +29,7 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
 1. Fai clic sul pulsante Schedule (Pianifica) nell’hub di Report Builder.
 
-   ![Fai clic sul pulsante Pianifica per creare una pianificazione.](./assets/schedule-button.png){width="55%"}
+   ![Fare clic sul pulsante Pianifica per creare una pianificazione.](./assets/schedule-button.png){width="55%"}
 
 1. Fai clic su Schedule Workbook (Pianifica cartella di lavoro) o sul pulsante in alto a sinistra per creare una nuova cartella di lavoro pianificata.
 
@@ -65,7 +65,7 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
    Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
 
-   ![Seleziona la frequenza per pianificare il rapporto.](./assets/frequency.png){width="55%"}
+   ![Selezionare la frequenza di pianificazione del report.](./assets/frequency.png){width="55%"}
 
 1. Dopo aver impostato la pianificazione, fai clic su **Send on schedule** (Invia secondo programma).
 
@@ -73,7 +73,7 @@ Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Bu
 
    Nella parte inferiore dell’hub di Report Builder viene visualizzato un avviso di conferma e la cartella di lavoro pianificata viene elencata nella scheda Workbooks (Cartelle di lavoro).
 
-   ![Avviso popup conferma](./assets/confirmation-toast.png){width="55%"}
+   ![Avviso di conferma](./assets/confirmation-toast.png){width="55%"}
 
 ## Inviare la cartella di lavoro una sola volta
 
@@ -105,7 +105,7 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unic
 
 * (Facoltativo) Fai clic sul cestino per eliminare l’attività di pianificazione.
 
-  ![Schermata che mostra l’elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
+  ![Schermata che mostra l&#39;elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
 
 ## Rivedere lo stato delle attività programmate
 
@@ -115,7 +115,7 @@ Un segno di spunta verde indica che la cartella di lavoro è stata inviata corre
 
 Per scegliere le colonne da visualizzare nella scheda della cronologia, fai clic sull’icona delle impostazioni delle colonne a destra della barra di ricerca.
 
-![Fai clic sull’icona della colonna per visualizzare o nascondere colonne specifiche.](./assets/history.png){width="55%"}
+![Fare clic sull&#39;icona della colonna per visualizzare o nascondere colonne specifiche.](./assets/history.png){width="55%"}
 
 Puoi filtrare la cronologia per visualizzare solo quella di una singola cartella di lavoro pianificata andando alla scheda delle cartelle di lavoro, selezionando la cartella di lavoro e facendo clic sull’icona della cronologia.
 
@@ -125,4 +125,4 @@ Puoi anche visualizzare la cronologia di una cartella di lavoro specifica dalla 
 
 Il filtro della cartella di lavoro verrà quindi visualizzato nella parte superiore della cronologia. Per visualizzare nuovamente la cronologia di tutte le attività pianificate, fai clic sulla x accanto al filtro.
 
-![Il filtro della cartella di lavoro.](./assets/history3.png){width="55%"}
+![Filtro cartella di lavoro.](./assets/history3.png){width="55%"}

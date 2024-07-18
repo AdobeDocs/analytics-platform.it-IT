@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -18,24 +18,24 @@ Questo tipo di informazioni potrebbe essere utile per qualsiasi proprietario di 
 
 >[!NOTE]
 >
->Le metriche con altri modelli di attribuzione, ad esempio Partecipazione, possono essere create dagli amministratori come parte di un [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it). Consulta [Impostazioni dei componenti di attribuzione](../../../data-views/component-settings/attribution.md) per ulteriori dettagli.<br/>L’esempio seguente mostra come una metrica di partecipazione può essere creata da qualsiasi utente con accesso al generatore di metriche calcolate in Workspace.
+>Le metriche con altri modelli di attribuzione, ad esempio Partecipazione, possono essere create anche dagli amministratori come parte di una [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=it). Per ulteriori dettagli, consulta [Impostazioni del componente di attribuzione](../../../data-views/component-settings/attribution.md).<br/>Nell&#39;esempio seguente viene illustrato come è possibile creare una metrica di partecipazione da qualsiasi utente con accesso al generatore di metriche calcolate in Workspace.
 
 
-1. Inizia a creare una metrica, come descritto in [Creare metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-1. Nel generatore di metriche calcolate, assegna un nome alla metrica `Participation` o qualcosa di simile.
-1. Trascina una metrica contenente un evento di successo, ad esempio [!DNL Orders], nella [!UICONTROL Definition] quadro.
-1. Seleziona ![Ingranaggio](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) per la metrica.
-1. Nella finestra a comparsa visualizzata, seleziona **[!UICONTROL Use a non-default attribution model]** per definire [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) di tale evento a **[!UICONTROL Participation]** e seleziona **[!UICONTROL Session]** per [!UICONTROL Lookback window]. Seleziona **[!UICONTROL Apply]** per confermare.
+1. Inizia a creare una metrica, come descritto in [Metriche di compilazione](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Nel generatore di metriche calcolate, assegnare un nome alla metrica `Participation` o a un nome simile.
+1. Trascinare una metrica contenente un evento di successo, ad esempio [!DNL Orders], nell&#39;area di lavoro [!UICONTROL Definition].
+1. Selezionare ![Ingranaggio](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) per la metrica.
+1. Nel popup visualizzato, selezionare **[!UICONTROL Use a non-default attribution model]** per definire il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) dell&#39;evento a **[!UICONTROL Participation]** e selezionare **[!UICONTROL Session]** per [!UICONTROL Lookback window]. Selezionare **[!UICONTROL Apply]** per confermare.
 
-   Nella casella Definizione, la metrica selezionata viene aggiornata aggiungendo  **(Partizione|Sessione)** al suo nome.
+   Nella casella Definizione, la metrica selezionata viene aggiornata aggiungendo **(Partizione|Sessione)** al nome.
 
-   ![Popup Modello di attribuzione colonna che mostra la partecipazione selezionata come modello e la sessione selezionata per l&#39;intervallo di lookback.](assets/participation-setup.png)
+   ![Menu a comparsa del modello di attribuzione colonna che mostra la partecipazione selezionata come modello e la sessione selezionata per l&#39;intervallo di lookback.](assets/participation-setup.png)
 
 
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica.
-1. Utilizza la metrica calcolata nel rapporto. Ad esempio, utilizza il [!DNL Orders (Session Participation)] metrica (come definita nel passaggio 5) in un rapporto per mostrare quale livello cliente ha contribuito (o partecipato) alle sessioni che contenevano un ordine.
+1. Utilizza la metrica calcolata nel rapporto. Ad esempio, utilizza la metrica [!DNL Orders (Session Participation)] calcolata (come definita nel passaggio 5) in un rapporto per mostrare quale livello cliente ha contribuito (o partecipato) alle sessioni che contenevano un ordine.
 
-   ![Tabella a forma libera con livello cliente e ordini.](assets/participation-pages-customer-tier.png)
+   ![Tabella a forma libera che mostra il livello cliente e gli ordini.](assets/participation-pages-customer-tier.png)
 
-1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
+1. (Facoltativo) Condividi la metrica con altri utenti dell&#39;organizzazione, come descritto in [Condividi metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

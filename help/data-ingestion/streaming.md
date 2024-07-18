@@ -50,7 +50,8 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**. .
+1. Selezionare **[!UICONTROL Create schema]**.
+.
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Individual Profile]**.
@@ -59,14 +60,14 @@ Per configurare lo schema:
 
       >[!INFO]
       >
-      >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
-1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
+1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
+   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
 
       ![Assegnare un nome allo schema](./assets/create-pr-schema-wizard-step-2.png)
 
@@ -237,7 +238,7 @@ Per creare un connettore di origine API HTTP:
 
 Puoi copiare l’URL dell’endpoint di streaming e usarlo per configurare la tua applicazione di fidelizzazione per lo streaming dei dati nel set di dati di fidelizzazione di Adobe Experience Platform.
 
-Consulta [Creare una connessione streaming API HTTP tramite l’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) per un tutorial molto più completo che illustra:
+Consulta [Creare una connessione streaming API HTTP utilizzando l&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) per un tutorial molto più completo che spiega:
 
 - come utilizzare l’autenticazione,
 - come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM e
@@ -351,7 +352,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel] . Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

@@ -1,19 +1,19 @@
 ---
 description: Utilizza i sottotitoli intelligenti per generare informazioni sul linguaggio naturale e far emergere rapidamente le tendenze all’interno delle visualizzazioni.
-title: Sottotitoli intelligenti
+title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
 source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Sottotitoli intelligenti
+# Didascalie intelligenti
 
-I sottotitoli intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni preziose sul linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente per [Linea](line.md) visualizzazione. Seguiranno altre visualizzazioni.
+Le didascalie intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni approfondite relative al linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente sulla visualizzazione [Riga](line.md). Seguiranno altre visualizzazioni.
 
 I sottotitoli intelligenti sono orientati verso:
 
@@ -24,9 +24,9 @@ I sottotitoli sono disponibili per tutti gli utenti del Customer Journey Analyti
 
 ## Avvia sottotitoli intelligenti {#launch}
 
-Per avviare i sottotitoli generati automaticamente per una visualizzazione delle linee, fai clic sul pulsante **[!UICONTROL Intelligent captions]** in alto a destra nella visualizzazione.
+Per avviare i sottotitoli generati automaticamente per una visualizzazione delle linee, fai clic sull&#39;icona **[!UICONTROL Intelligent captions]** in alto a destra della visualizzazione.
 
-![Finestra di analisi dell&#39;avvio che mostra la tendenza dei sottotitoli intelligenti per le visualizzazioni del prodotto. ](assets/intell-caps-1.png)
+![Finestra di analisi del lancio che mostra i sottotitoli intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intell-caps-1.png)
 
 Vengono ora generate informazioni sul linguaggio naturale.
 
@@ -44,17 +44,17 @@ Nota bene
 
 Ecco un esempio di sottotitoli:
 
-![Didascalie intelligenti per la visualizzazione delle linee, tra cui Stagionalità, Min, Max, Spike e Declino.](assets/captions.png)
+![Sottotitoli intelligenti per la visualizzazione delle linee, inclusi Stagionalità, Min, Max, Picco e Rifiuto.](assets/captions.png)
 
 ## Copia negli Appunti {#copy}
 
-È possibile copiare i sottotitoli negli Appunti e incollarli in un Powerpoint o in un altro strumento. Trova il **[!UICONTROL Copy captions to clipboard]** in alto a destra nella finestra di dialogo sottotitoli.
+È possibile copiare i sottotitoli negli Appunti e incollarli in un Powerpoint o in un altro strumento. Trova l’icona **[!UICONTROL Copy captions to clipboard]** in alto a destra nella finestra di dialogo dei sottotitoli.
 
 ## Modifica didascalie {#edit}
 
 Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni. Ad esempio, se non desideri conoscere l’ordine minimo, puoi semplicemente nasconderlo e fare clic su Applica, ma non verrà più visualizzato.
 
-1. Clic **[!UICONTROL Edit intelligent captions display]** accanto all&#39;icona degli Appunti.
+1. Fare clic sull&#39;icona **[!UICONTROL Edit intelligent captions display]** accanto all&#39;icona degli Appunti.
 
 1. Nella finestra di dialogo per modifica, fai clic sull’icona dell’occhio accanto all’informazione che desideri nascondere.
 
@@ -64,14 +64,14 @@ Utilizza lo stesso processo per mostrare le didascalie.
 
 ## Esporta sottotitoli {#export}
 
-È possibile **esportare sottotitoli tramite PDF**, purché il progetto venga salvato con i sottotitoli generati.
+Puoi **esportare i sottotitoli tramite PDF**, purché il progetto venga salvato con i sottotitoli generati.
 
 ## Disattiva sottotitoli {#toggle}
 
-Se preferisci che non vengano generati sottotitoli intelligenti, puoi disattivare questa funzione dalle Preferenze di visualizzazione e deselezionare **[!UICONTROL Show intelligent captions]**.
+Se preferisci che non vengano generati sottotitoli intelligenti, puoi disattivare questa funzione nelle preferenze di visualizzazione e deselezionare **[!UICONTROL Show intelligent captions]**.
 
-![Opzioni di visualizzazione delle linee con l’opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
+![Opzioni di visualizzazione delle linee che mostrano l&#39;opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
 
 ## Sottotitoli intelligenti nelle scorecard per dispositivi mobili
 
-I sottotitoli intelligenti sono disponibili anche in Customer Journey Analytics [scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+Le didascalie intelligenti sono disponibili anche nelle [scorecard per dispositivi mobili del Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).

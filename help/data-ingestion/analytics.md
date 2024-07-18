@@ -54,17 +54,17 @@ Per creare un connettore di origine di Adobe Analytics:
 
 3. Seleziona **[!UICONTROL Set up]** (Configura) o **[!UICONTROL Add data]** (Aggiungi dati) nel riquadro Adobe Analytics.
 
-   ![Finestra Adobe Experience Platform con Origini selezionate insieme ad applicazioni Adobi ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
+   ![Finestra di Adobe Experience Platform con Origini selezionate insieme ad applicazioni di Adobe ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
 
 4. Seleziona **[!UICONTROL Report suite]** (Suite di rapporti). Dall’elenco delle suite di rapporti, seleziona quella da utilizzare.
 
-   ![Finestra di Adobe Experience Platform che mostra l’elenco delle suite di rapporti](./assets/report-suites.png)
+   ![Finestra di Adobe Experience Platform con l&#39;elenco delle suite di rapporti](./assets/report-suites.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
 5. Seleziona **[!UICONTROL Default schema]** (Schema predefinito) come [!UICONTROL Target schema] (Schema di destinazione). Adobe Experience Platform crea automaticamente lo schema e il set di dati corrispondenti per mappare tutti i campi standard dalla suite di rapporti Adobe Analytics selezionata.
 
-   ![Finestra Adobe Experience Platform con lo schema predefinito selezionato](./assets/default-schema.png)
+   ![Finestra di Adobe Experience Platform con lo schema predefinito selezionato](./assets/default-schema.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
@@ -76,7 +76,7 @@ Per creare un connettore di origine di Adobe Analytics:
 
 7. Controlla la connessione e seleziona **[!UICONTROL Finish]** (Fine).
 
-   ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connetti e Tipo di dati per la revisione](./assets/review.png)
+   ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connect e Data type per la revisione](./assets/review.png)
 
 
 Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti. Il flusso di dati acquisisce fino a 13 mesi di dati storici per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a tre mesi.
@@ -193,7 +193,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel] . Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

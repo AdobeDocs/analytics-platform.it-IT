@@ -27,6 +27,6 @@ Il video seguente descrive come aggiungere descrizioni di dimensioni e metriche 
 
 Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel loro ambiente di Customer Journey Analytics e a comprenderli meglio. Ciò include la possibilità per gli amministratori di Customer Journey Analytics di aggiungere descrizioni dei componenti direttamente in Analysis Workspace.
 
-Per informazioni sull’aggiunta di una descrizione del componente nel dizionario dati, consulta [Modificare le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Per informazioni sull&#39;aggiunta di una descrizione di componente nel dizionario dati, vedere [Modifica voci di componente nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
-Per informazioni generali sul dizionario dati, vedi [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).
+Per informazioni generali sul dizionario dati, vedere [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).

@@ -55,7 +55,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 
 ## Vista predefinita
 
-![Il tempo trascorso del playbook multimediale nella visualizzazione predefinita.](assets/mpts_default_view.png)
+![Tempo predefinito trascorso dal playbook multimediale.](assets/mpts_default_view.png)
 
 ## Output del pannello {#Output}
 
@@ -65,7 +65,7 @@ In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona dell
 
 Se hai selezionato il raggruppamento per serie, per ciascun raggruppamento viene visualizzata una linea sul grafico a linee e un numero di riepilogo:
 
-![L’output del tempo di riproduzione dei contenuti multimediali mostra un grafico a linee e un riepilogo.](assets/mpts_outputs1.png)
+![L&#39;output del tempo di riproduzione dei contenuti multimediali mostra un grafico a linee e un riepilogo.](assets/mpts_outputs1.png)
 
 ### Origine dati
 

@@ -17,8 +17,8 @@ ht-degree: 35%
 
 Quando crei una connessione, Customer Journey Analytics combina tutti i set di dati evento in un singolo set di dati. Questo set di dati evento combinato è ciò che il Customer Journey Analytics utilizza per il reporting (insieme a set di dati di profilo e di ricerca). Quando includi più set di dati evento in una connessione:
 
-* I dati per i campi nei set di dati in base al **stesso percorso schema** vengono uniti in una singola colonna nel set di dati combinato.
-* La colonna ID persona, specificata per ciascun set di dati, viene unita in una singola colonna nel set di dati combinato, **indipendentemente dal loro nome**. Questa colonna è la base per identificare le persone univoche nel Customer Journey Analytics.
+* I dati per i campi nei set di dati basati sullo **stesso percorso schema** vengono uniti in una singola colonna nel set di dati combinato.
+* La colonna ID persona, specificata per ogni set di dati, viene unita in una singola colonna nel set di dati combinato, **indipendentemente dal nome**. Questa colonna è la base per identificare le persone univoche nel Customer Journey Analytics.
 * Le righe vengono elaborate in base alla marca temporale.
 * Gli eventi vengono risolti a livello di millisecondi.
 
@@ -64,7 +64,7 @@ per il reporting viene utilizzato il seguente set di dati combinato.
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` si basa sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati nel percorso dello schema  `_experience.somethingelse.string_color`. In questo scenario, i dati sono **non** è stato unito in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato.
+Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Il risultato è due colonne `string_color` nel set di dati combinato.
 
 Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga. Il Customer Journey Analytics tratta tutti i dati come se fossero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione. I campi con percorsi di schema identici vengono uniti.
 
@@ -88,7 +88,7 @@ Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione 
 
 >[!NOTE]
 >
->Se un campo unito è una chiave di ricerca per un set di dati evento nella connessione, il set di dati di ricerca associato si arricchisce **tutto** valori di tale campo. Non importa da quale set di dati evento provenga una riga, in quanto la relazione di ricerca è associata al percorso dello schema condiviso.
+>Se un campo unito è una chiave di ricerca per un set di dati evento nella connessione, il set di dati di ricerca associato ne arricchirà **tutti** i valori. Non importa da quale set di dati evento provenga una riga, in quanto la relazione di ricerca è associata al percorso dello schema condiviso.
 
 ## Analisi cross-channel
 

@@ -27,6 +27,6 @@ Ecco come contrassegnare un filtro come approvato:
 
    Osserva l’icona di approvazione accanto al filtro nell’elenco:
 
-   ![Gestore filtri che mostra che la condivisione è approvata per gli ordini superiori a 100.](assets/seg_approved.png)
+   ![Il Gestore filtri indica che gli ordini superiori a 100 sono approvati per la condivisione.](assets/seg_approved.png)
 
-1. Puoi anche annullare l’approvazione di un filtro approvato facendo clic su **[!UICONTROL Unapprove]**.
+1. È inoltre possibile annullare l&#39;approvazione di un filtro approvato facendo clic su **[!UICONTROL Unapprove]**.

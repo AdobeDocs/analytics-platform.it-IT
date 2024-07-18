@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Guardrail Customer Journey Analytics
 
-Questo documento stabilisce i limiti per i vari componenti del Customer Journey Analytics. Per guardrail, parametri di ambito e diritti, vedere [Descrizione prodotto per Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o [Descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+Questo documento stabilisce i limiti per i vari componenti del Customer Journey Analytics. Per i guardrail, i parametri di ambito e i diritti, vedere la [descrizione del prodotto per il Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o la [descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
 
 ## Tipi di limite
 
@@ -74,14 +74,14 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 |---|--:|---|---|
 | Filtri del pubblico | 20 | Guardrail imposto dal sistema | Numero massimo di [filtri](../components/filters/filters-overview.md) per pubblico. |
 | Numero di identità del pubblico | 20 milioni | Guardrail imposto dal sistema | Numero massimo di identità per pubblico. |
-| Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore e [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
+| Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guardrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guardrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
 | Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento, il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
+Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
 
 
 ## Scadenza set di dati automatizzato
@@ -99,10 +99,10 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Progetti | 50.000 | Guardrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
-| Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un’organizzazione. |
+| Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
 | Visualizzazioni dati | 50 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione |
 | Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
-| Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un’organizzazione. |
+| Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un&#39;organizzazione. |
 | Titolo connessione | 500 | Guardrail imposto dal sistema | Numero massimo di caratteri per un titolo di connessione. |
 | Metriche | 5.000 | Guardrail imposto dal sistema | Numero massimo di metriche in una visualizzazione dati. |
 | Dimensioni | 5.000 | Guardrail imposto dal sistema | Numero massimo di dimensioni in una visualizzazione dati. |
@@ -126,7 +126,7 @@ Vedi anche Experience Platform [Guardrail Real-time Customer Data Platform](http
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+Vedere anche l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -162,7 +162,7 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 {style="table-layout:auto"}
 
 
-## Unione basata su grafico
+## Unione basata su grafo
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
@@ -226,7 +226,7 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, fare riferimento al contratto di Customer Journey Analytics. Vedi Experience Platform [Guardrail per l’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) per ulteriori informazioni.
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, fare riferimento al contratto di Customer Journey Analytics. Per ulteriori informazioni, vedere l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
@@ -236,9 +236,9 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 | Acquisizione dei dati nel data lake da acquisizione Edge Network o Streaming | &lt; 60 minuti |
 | Acquisizione dei dati nel data lake da Adobe Analytics Source Connector | &lt; 2,25 ore |
 | Acquisizione dei dati nel Customer Journey Analytics da Data Lake | &lt; 90 minuti |
-| Stitching (funzione facoltativa; vedere [Panoramica sull’unione](../stitching/overview.md) per ulteriori informazioni) | &lt; 3,25 ore |
+| Unione (funzionalità facoltativa; per ulteriori informazioni, vedere [Panoramica dell&#39;unione](../stitching/overview.md)) | &lt; 3,25 ore |
 | Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
-| Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento). |
+| Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza è associata alla frequenza di aggiornamento). |
 
 {style="table-layout:auto"}

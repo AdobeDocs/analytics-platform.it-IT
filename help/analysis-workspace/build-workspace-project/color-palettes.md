@@ -29,7 +29,7 @@ Nota bene:
 ## Per modificare la palette di colori:
 
 1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Dalla sezione **[!UICONTROL Project Color Palette]** dall&#39;elenco a discesa, è possibile scegliere una delle cinque combinazioni di colore predefinite.
+1. Dall&#39;elenco a discesa **[!UICONTROL Project Color Palette]** è possibile scegliere una delle cinque combinazioni di colori predefinite.
 
    ![Le cinque combinazioni di colori predefinite.](assets/custom_palette.png)
 

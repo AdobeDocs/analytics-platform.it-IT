@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # Creare filtri
 
-In Workspace puoi creare diversi tipi di filtri, a seconda della complessità, dell’applicabilità solo al progetto corrente, a tutti i progetti e così via.
+In Workspace puoi creare diversi tipi di filtri, a seconda della complessità, dell’applicabilità solo al progetto corrente, di tutti i progetti e così via.
 
 Di seguito è riportato un riepilogo dei tipi di filtro disponibili, con collegamenti a informazioni su come crearli:
 
@@ -30,5 +30,5 @@ Quando si applicano filtri a un progetto a forma libera, sono disponibili anche 
 | --- | --- |
 | Creare un filtro dalla selezione | Crea un filtro in linea. Questo filtro si applica solo al progetto aperto e non viene salvato come filtro di Customer Journey Analytics.<p> 1. Seleziona le righe della tabella da includere nel filtro. 2. Fai clic con il pulsante destro del mouse sulla selezione. 3. Fai clic su *Create filter from selection* (Crea filtro da selezione). |
 | [!UICONTROL Components] Workspace > [!UICONTROL New Filter] | Viene visualizzato il generatore di filtri. Per ulteriori informazioni sui filtri, consulta l’articolo su come [generare i filtri](/help/components/filters/filter-builder.md). |
-| Condividi > Condividi progetto oppure Condividi > Cura dati progetto | In entrata [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) o [Cura progetti](/help/analysis-workspace/curate-share/curate.md), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
+| Condividi > Condividi progetto oppure Condividi > Cura dati progetto | In [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md) o [Cura progetti](/help/analysis-workspace/curate-share/curate.md), scopri come i filtri applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
 | Utilizzare i filtri come dimensioni | Il video seguente illustra come utilizzare i filtri come dimensioni:  <p>[Utilizza i filtri come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=it)</p> |

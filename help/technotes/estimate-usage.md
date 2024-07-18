@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Per visualizzare l’utilizzo del Customer Journey Analytics, puoi utilizzare diversi metodi:
 
-* Aggiungi le righe dei dati dell’evento per ogni connessione. Consulta [Stimare la dimensione della connessione](#estimate-connection-size) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
+* Aggiungi le righe dei dati dell’evento per ogni connessione. Vedi [Stima dimensione connessione](#estimate-connection-size) di seguito. Questo è un modo semplice per visualizzare i dati della riga dell’evento, per ogni connessione, per una specifica marca temporale.
 
 * Puoi visualizzare l’utilizzo in tre modi, descritti più dettagliatamente di seguito:
    * Utilizza Analysis Workspace per creare rapporti sugli eventi del mese scorso.
@@ -42,7 +42,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmen
 
 1. Aggiungi il **[!UICONTROL Records of event data available]** (Registro dei dati evento disponibili) per ogni connessione creata dalla tua organizzazione. (A seconda delle dimensioni della connessione, la visualizzazione di questo valore potrebbe richiedere del tempo.)
 
-   ![Registrazioni dei dati evento disponibili.](./assets/event-data.png)
+   ![Record di dati evento disponibili.](./assets/event-data.png)
 
    >[!CAUTION]
    >
@@ -69,9 +69,9 @@ Questo metodo consente di eseguire un’analisi più approfondita dei dati di ut
 >
 >    Non creare una nuova connessione che includa tutti i dati solo per misurare l’utilizzo, in quanto ciò raddoppierebbe l’utilizzo.
 
-1. In Workspace, crea nuovi progetti basati su ciascuna delle visualizzazioni dati e richiama tutti gli eventi (dalla sezione **[!UICONTROL Metrics]** (elenco a discesa) fino al primo venerdì del mese, a partire dal primo giorno del contratto di Customer Journey Analytics corrente.
+1. In Workspace, crea nuovi progetti basati su ciascuna visualizzazione dati e richiama tutti gli eventi (dall&#39;elenco a discesa **[!UICONTROL Metrics]**) che precedono il primo venerdì del mese, a partire dal primo giorno del contratto di Customer Journey Analytics corrente.
 
-   ![Tabella a forma libera che mostra gli eventi.](./assets/events-usage.png)
+   ![Tabella a forma libera con eventi.](./assets/events-usage.png)
 
    Da qui puoi avere un’idea dell’andamento del tuo consumo mese per mese.
 
@@ -83,7 +83,7 @@ In Report Builder, [crea un blocco dati](/help/report-builder/create-a-data-bloc
 
 ## Creazione di un rapporto automatico nell’API di Customer Journey Analytics {#api-report}
 
-1. Utilizza il [API di reporting per Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati evento, **per ogni connessione**. Usa questa configurazione per generare il rapporto
+1. Utilizza l&#39;API di reporting di [Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) per eseguire un report su tutti i dati evento, **per ogni connessione**. Usa questa configurazione per generare il rapporto
 
    * ogni primo venerdì di ogni mese.
    * tornare al primo giorno del contratto di Customer Journey Analytics corrente.
@@ -94,11 +94,11 @@ In Report Builder, [crea un blocco dati](/help/report-builder/create-a-data-bloc
 
 ## Gestire l’utilizzo definendo una finestra dati continua {#rolling}
 
-Per gestire l’utilizzo, il [Interfaccia utente connessioni](/help/connections/create-connection.md) consente di definire la conservazione dei dati di Customer Journey Analytics come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
+Per gestire l&#39;utilizzo, l&#39;[interfaccia utente connessioni](/help/connections/create-connection.md) ti consente di definire la conservazione dei dati di Customer Journey Analytics come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
-Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experienci Platform, il Customer Journey Analytics riceverà 25 mesi di dati tramite backfill. Eliminando10 di questi mesi in Platform, Customer Journey Analytics mantiene i restanti 15 mesi.
+Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experience Platform, il Customer Journey Analytics riceverà 25 mesi di dati tramite backfill. Eliminando10 di questi mesi in Platform, Customer Journey Analytics mantiene i restanti 15 mesi.
 
 La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Se la connessione include qualsiasi profilo o set di dati di ricerca, poiché sono uniti con set di dati evento, i dati vengono conservati in Customer Journey Analytics in base alle impostazioni di conservazione dei dati sulle marche temporali del set di dati evento.
 

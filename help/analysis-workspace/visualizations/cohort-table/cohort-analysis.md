@@ -30,7 +30,7 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementate solo di 1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta metriche non filtrabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
@@ -38,13 +38,13 @@ Le seguenti funzionalità consentono un controllo accurato delle coorti che crei
 
 ### [!UICONTROL Retention] Tabella
 
-A [!UICONTROL Retention] il rapporto della coorte restituisce persone: ogni cella di dati mostra il numero e la percentuale di persone nella coorte che hanno eseguito un’azione in quel determinato periodo di tempo. Può contenere fino a 3 metriche e 10 filtri.
+Un report per coorte [!UICONTROL Retention] restituisce persone: ogni cella di dati mostra il numero e la percentuale di persone nella coorte che hanno eseguito un&#39;azione in quel determinato periodo di tempo. Può contenere fino a 3 metriche e 10 filtri.
 
-![Un rapporto di coorte Rention che mostra le unità e la percentuale di persone nella coorte.](assets/retention-report.png)
+![Un report di coorte Rention che mostra le unità e la percentuale di persone nella coorte.](assets/retention-report.png)
 
 ### [!UICONTROL Churn] Tabella
 
-A [!UICONTROL Churn] la coorte è l’inverso di una tabella Retention e mostra le persone che non rientrano più o non sono mai rientrate nei criteri della coorte nel tempo. Può contenere fino a 3 metriche e 10 filtri.
+Una coorte [!UICONTROL Churn] è l&#39;inverso di una tabella Retention e mostra le persone che non rientrano più o non sono mai rientrate nei criteri della coorte nel tempo. Può contenere fino a 3 metriche e 10 filtri.
 
 ![Una tabella Churn (Abbandono) che mostra le unità e la percentuale di persone che non soddisfano i criteri di ritorno per una coorte.](assets/churn-report.png)
 
@@ -64,6 +64,6 @@ Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusion
 
 Puoi creare le coorti in base a una dimensione selezionata anziché in base al tempo, che è l’impostazione predefinita. Puoi usare dimensioni quali [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], o qualsiasi altra dimensione in Customer Journey Analytics per mostrare in che modo la fidelizzazione cambia in base a valori diversi di tali dimensioni.
 
-![Un rapporto di coorte che mostra un rapporto personalizzato con dimensioni selezionate non come coorte basata sul tempo predefinita.](assets/cohort-customizable-cohort-row.png)
+![Un report coorte che mostra un report personalizzato con le dimensioni selezionate non la coorte basata sul tempo predefinita.](assets/cohort-customizable-cohort-row.png)
 
-Per istruzioni su come impostare ed eseguire un rapporto per coorte, vai a [Configurare un rapporto di analisi per coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Per istruzioni su come impostare ed eseguire un rapporto sulla coorte, vai a [Configurare un rapporto di analisi per coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).

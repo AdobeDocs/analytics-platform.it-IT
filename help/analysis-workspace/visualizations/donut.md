@@ -15,4 +15,4 @@ ht-degree: 79%
 
 Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o filtri di un insieme. Il grafico ad anello è utile per confrontare percentuali di un totale, solitamente con un numero ridotto di voci.
 
-![Un grafico ad anello che mostra i dati come parti o filtri di un insieme.](assets/donut.png)
+![Grafico ad anello che mostra i dati come parti o filtri di un intero.](assets/donut.png)

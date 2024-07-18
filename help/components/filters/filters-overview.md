@@ -26,13 +26,13 @@ I filtri possono essere basati su
 
 Puoi generare e salvare filtri nel Generatore di filtri o generarli da una visualizzazione Fallout (in Workspace). Inoltre, i filtri possono essere utilizzati insieme come filtri sovrapposti.
 
-I filtri includono [Generatore di filtri](/help/components/filters/filter-builder.md) per creare i filtri ed eseguire un test preliminare, e [Gestione filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all’interno dell’organizzazione.
+Il filtro include il [Generatore di filtri](/help/components/filters/filter-builder.md) per creare filtri ed eseguire un test preliminare e il [Gestore filtri](/help/components/filters/manage-filters.md) per raccogliere i filtri, assegnare loro tag, approvarli, impostarne la protezione e condividerli all&#39;interno dell&#39;organizzazione.
 
 Il numero massimo di filtri che è possibile creare per l’organizzazione IMS è 50.000.
 
 ## Tipi di filtro {#types}
 
-Per informazioni sui tipi di filtri disponibili e su come crearli, consulta [Creare filtri](/help/components/filters/create-filters.md).
+Per informazioni sui tipi di filtri disponibili e su come crearli, vedere [Creare filtri](/help/components/filters/create-filters.md).
 
 ## Filtri sequenziali {#sequential}
 
@@ -40,7 +40,7 @@ I filtri sequenziali ti consentono di identificare le persone in base alla navig
 
 >[!IMPORTANT]
 >
->È necessario disporre di **Seleziona** per creare filtri sequenziali cross-channel. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore.
+>Per creare filtri sequenziali cross-channel è necessario disporre del pacchetto **Select**. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore.
 
 Ecco un esempio:
 
@@ -102,7 +102,7 @@ I contenitori Sessione includono valori basati sull’occorrenza per sessione:
 - Metriche di partecipazione
 - Metriche allocate linearmente
 
-Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a ogni avvio dell’app mobile da parte di un utente. Consulta [Impostazioni sessione](/help/data-views/session-settings.md) per ulteriori informazioni.
+Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a ogni avvio dell’app mobile da parte di un utente. Per ulteriori informazioni, vedere [Impostazioni sessione](/help/data-views/session-settings.md).
 
 ### Contenitore Evento {#event}
 

@@ -17,4 +17,4 @@ Contrassegnare i filtri come preferiti è un altro modo per organizzarli in modo
 
 1. In Gestione filtri, seleziona la stella accanto a qualsiasi filtro che desideri contrassegnare come preferito. La stella diventa gialla quando la selezioni.
 
-1. (Facoltativo) Puoi ordinare l’elenco dei filtri in base ai preferiti. Seleziona l’icona Filtro nella barra a sinistra, quindi seleziona [!UICONTROL **Altri filtri**] > [!UICONTROL **Preferiti**].
+1. (Facoltativo) Puoi ordinare l’elenco dei filtri in base ai preferiti. Seleziona l&#39;icona Filtro nella barra a sinistra, quindi seleziona [!UICONTROL **Altri filtri**] > [!UICONTROL **Preferiti**].

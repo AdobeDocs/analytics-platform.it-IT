@@ -8,23 +8,23 @@ role: User, Admin
 source-git-commit: 9a0e6ed66a20eac1fa5f94efd378842a579826c0
 workflow-type: tm+mt
 source-wordcount: '2008'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
 # Configurare account di esportazione cloud
 
-Prima di esportare i rapporti sul Customer Journey Analytics in una destinazione cloud come descritto in [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), devi aggiungere e configurare la destinazione in cui desideri inviare i dati.
+Prima di esportare i report di Customer Journey Analytics in una destinazione cloud come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), è necessario aggiungere e configurare la destinazione in cui si desidera inviare i dati.
 
-Questo processo consiste nell’aggiungere e configurare l’account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
+Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare il percorso all&#39;interno dell&#39;account (ad esempio una cartella all&#39;interno dell&#39;account) come descritto in [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-Per informazioni su come gestire gli account esistenti, incluse la visualizzazione, la modifica e l&#39;eliminazione degli account, vedere [Gestire percorsi e account di esportazione cloud](/help/components/exports/manage-export-locations.md).
+Per informazioni su come gestire gli account esistenti, tra cui la visualizzazione, la modifica e l&#39;eliminazione degli account, vedere [Gestire i percorsi e gli account di esportazione cloud](/help/components/exports/manage-export-locations.md).
 
 ## Inizio creazione account esportazione cloud
 
-1. Assicurati di soddisfare i requisiti [requisiti minimi](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) per esportare report nel cloud.
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
-1. Il giorno [!UICONTROL Exports] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
+1. Assicurati di soddisfare i [requisiti minimi](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) per l&#39;esportazione di report nel cloud.
+1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+1. Nella pagina [!UICONTROL Exports], selezionare la scheda [!UICONTROL **Account località**].
 
    ![Esporta le opzioni di pagina che mostrano Aggiungi un altro account](assets/account-add.png)
 
@@ -32,11 +32,11 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    Viene visualizzata la finestra di dialogo Aggiungi account.
 
-1. In [!UICONTROL **Nome account località**] , specificare un nome per il conto località. Questo nome viene visualizzato durante la creazione di una posizione.
+1. Nel campo [!UICONTROL **Nome account località**], specificare un nome per l&#39;account località. Questo nome viene visualizzato durante la creazione di una posizione.
 
-1. In [!UICONTROL **Descrizione del conto di ubicazione**] fornire una breve descrizione del conto per distinguerlo da altri conti dello stesso tipo.
+1. Nel campo [!UICONTROL **Descrizione account località**], fornisci una breve descrizione dell&#39;account per distinguerlo da altri account dello stesso tipo.
 
-1. Abilita l’opzione per [!UICONTROL **Rendi l’account disponibile a tutti gli utenti dell’organizzazione**] se desideri consentire ad altri utenti dell’organizzazione di utilizzare l’account.
+1. Abilita l&#39;opzione [!UICONTROL **Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione**] se desideri consentire ad altri utenti dell&#39;organizzazione di utilizzare l&#39;account.
 
    Quando condividi gli account, tieni presente quanto segue:
 
@@ -46,15 +46,15 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
    * Chiunque può creare una posizione per l&#39;account condiviso.
 
-   **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
+   **Nota:** questa funzionalità si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
 
-1. In [!UICONTROL **Tipo di account**] , seleziona il tipo di account cloud in cui stai effettuando l’esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.
+1. Nel campo [!UICONTROL **Tipo di account**], seleziona il tipo di account cloud in cui stai effettuando l&#39;esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.
 
-1. Continua con la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] hai selezionato.
+1. Continua con la sezione seguente che corrisponde al [!UICONTROL **tipo di account**] selezionato.
 
    * [Area di destinazione dati AEP](#aep-data-landing-zone)
 
-   * [ARN per ruolo Amazon S3](#amazon-s3-role-arn)
+   * [Amazon S3 con ruolo ARN](#amazon-s3-role-arn)
 
    * [Google Cloud Platform](#google-cloud-platform)
 
@@ -72,17 +72,17 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
    ![Finestra di dialogo Esporta account AEP Data Landing Zone](assets/export-account-aep.png)
 
-1. Copia il contenuto del [!UICONTROL **URI SAS**] negli Appunti. Utilizzerai questo URI SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione dati di AEP.
+1. Copia il contenuto del campo [!UICONTROL **URI SAS**] negli Appunti. Utilizzerai questo URI SAS per accedere ai dati esportati da Analysis Workspace dalla zona di destinazione dati di AEP.
 
    Se questo campo è vuoto, devi ottenere l’autorizzazione per accedere a Adobe Experience Platform.
 
@@ -92,13 +92,13 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
    >
    >Poiché l’account della zona di destinazione dati di AEP è basato su Azure, il modo più semplice per accedere ai rapporti esportati in AEP Data Landing Zone è utilizzare Azure Storage Explorer. I passaggi seguenti utilizzano questo metodo.
 
-   1. Se non lo hai già fatto, scarica il [Esplora archivi di Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+   1. Se non lo hai già fatto, scarica [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
    1. Nella documentazione di Adobe Experience Platform, segui i passaggi descritti in [Connettere il contenitore Data Landing Zone ad Azure Storage Explorer](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-      Puoi saltare le attività descritte nelle sezioni [Recuperare le credenziali per l’area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) e [Aggiorna credenziali zona di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), perché l&#39;URI copiato contiene queste credenziali.
+      È possibile saltare le attività descritte nelle sezioni [Recuperare le credenziali per l&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) e [Aggiornare le credenziali dell&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), perché l&#39;URI copiato contiene queste credenziali.
 
-   1. Quando segui la documentazione di Adobe Experience Platform e accedi al [!UICONTROL **URL SAS contenitore BLOB**] incolla l&#39;URI SAS copiato nel passaggio 3.
+   1. Quando segui la documentazione di Adobe Experience Platform e accedi al campo [!UICONTROL **URL SAS contenitore Blob**], incolla l&#39;URI SAS copiato nel passaggio 3.
 
       >[!NOTE]
       >
@@ -107,23 +107,23 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
       ![Immettere la finestra Informazioni connessione che mostra il campo URL SAS](assets/blob-container-sas-uri.png)
 
-   1. Seleziona [!UICONTROL **Successivo**] > [!UICONTROL **Connetti**].
+   1. Seleziona [!UICONTROL **Avanti**] > [!UICONTROL **Connetti**].
 
-1. Nel Customer Journey Analytics, nel [!UICONTROL **Account di esportazione creato**] finestra di dialogo, seleziona [!UICONTROL **OK**].
+1. Nel Customer Journey Analytics, nella finestra di dialogo [!UICONTROL **Esporta account creato**], selezionare [!UICONTROL **OK**].
 
    ![Finestra di dialogo Esporta account AEP Data Landing Zone](assets/export-account-aep.png)
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-### ARN per ruolo Amazon S3
+### Amazon S3 con ruolo ARN
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] , specificare le informazioni seguenti:
+1. Nella sezione [!UICONTROL **Proprietà account**] della finestra di dialogo [!UICONTROL **Aggiungi account**], specificare le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -133,13 +133,13 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
-   ![Esporta account creato finestra di dialogo Amazon S3 Ruolo ARN](assets/export-account-amazons3.png)
+   ![Esporta account creato finestra di dialogo Ruolo Amazon S3 ARN](assets/export-account-amazons3.png)
 
-1. Copia il contenuto del [!UICONTROL **ARN utente**] negli Appunti. L’utente ARN (nome risorsa Amazon) è fornito da Adobe. È necessario collegare questo utente al criterio creato in ARN per il ruolo Amazon S3.
+1. Copia il contenuto del campo [!UICONTROL **ARN**] utente negli Appunti. L’utente ARN (nome risorsa Amazon) è fornito da Adobe. È necessario collegare questo utente al criterio creato in ARN per il ruolo Amazon S3.
 
-1. Seleziona [!UICONTROL **OK**].
+1. Selezionare [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -147,11 +147,11 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] , specificare le informazioni seguenti:
+1. Nella sezione [!UICONTROL **Proprietà account**] della finestra di dialogo [!UICONTROL **Aggiungi account**], specificare le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -161,13 +161,13 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
-   ![Finestra di dialogo di esportazione account creato](assets/export-account-gcp.png)
+   ![Finestra di dialogo di esportazione account creata](assets/export-account-gcp.png)
 
-1. Copia il contenuto del [!UICONTROL **Entità**] negli Appunti, quindi assicurati di concedere all’Entità l’autorizzazione per caricare i file in questo bucket in Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
+1. Copia il contenuto del campo [!UICONTROL **Principal**] negli Appunti, quindi accertati di concedere all&#39;entità l&#39;autorizzazione per caricare i file in questo bucket in Google Cloud Platform. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **OK**].
+1. Selezionare [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -175,11 +175,11 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] , specificare le informazioni seguenti:
+1. Nella sezione [!UICONTROL **Proprietà account**] della finestra di dialogo [!UICONTROL **Aggiungi account**], specificare le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -187,19 +187,19 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
    | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **URI di Key Vault**] | <p>Percorso per l’URI SAS in Azure Key Vault.  Per configurare Azure SAS, è necessario memorizzare un URI SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI di Key Vault:<ul><li>Aggiungi un criterio di accesso a Key Vault per concedere l’autorizzazione all’applicazione Azure creata.</li><li>Assicurati che all’ID applicazione sia stato assegnato il ruolo incorporato di `Key Vault Certificate User` per accedere all’URI di Key Vault</br><p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
    | [!UICONTROL **Nome segreto di Key Vault**] | Nome segreto creato quando si aggiunge il segreto ad Azure Key Vault. In Microsoft Azure, queste informazioni si trovano nel Key Vault creato, nelle pagine delle impostazioni di **Key Vault**. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-   | [!UICONTROL **Segreto account località**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, vedere [Documentazione di Microsoft Azure su come registrare un’applicazione con la piattaforma Microsoft Identity](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
+   | [!UICONTROL **Segreto account località**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, vedere la [documentazione di Microsoft Azure relativa alla registrazione di un&#39;applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
 
    {style="table-layout:auto"}
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
-   ![Finestra di dialogo di esportazione account creato](assets/export-account-azure.png)
+   ![Finestra di dialogo di esportazione account creata](assets/export-account-azure.png)
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure SAS. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **OK**].
+1. Selezionare [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -207,11 +207,11 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] , specificare le informazioni seguenti:
+1. Nella sezione [!UICONTROL **Proprietà account**] della finestra di dialogo [!UICONTROL **Aggiungi account**], specificare le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -223,13 +223,13 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
-   ![Finestra di dialogo di esportazione account creato](assets/export-account-azure.png)
+   ![Finestra di dialogo di esportazione account creata](assets/export-account-azure.png)
 
 1. Se non lo hai già fatto, assicurati di concedere le autorizzazioni per il bucket in Azure RBAC. <!-- add link to Google Cloud docs on how to do this -->
 
-1. Seleziona [!UICONTROL **OK**].
+1. Selezionare [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -237,27 +237,27 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
 
 1. Inizia a creare un account di esportazione cloud in uno dei seguenti modi:
 
-   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizio creazione account esportazione cloud](#begin-creating-a-cloud-export-account)
+   * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un account di esportazione cloud](#begin-creating-a-cloud-export-account)
 
-   * Quando [esportazione di tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. In [!UICONTROL **Proprietà account**] sezione del [!UICONTROL **Aggiungi account**] , specificare le informazioni seguenti:
+1. Nella sezione [!UICONTROL **Proprietà account**] della finestra di dialogo [!UICONTROL **Aggiungi account**], specificare le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Identificatore account**] | Identifica in modo univoco un account di Snowflake all’interno dell’organizzazione e in tutta la rete globale di piattaforme cloud supportate dal Snowflake e aree geografiche cloud. <p>Devi ottenere l’identificatore dell’account di Snowflake, quindi incollare le informazioni qui.</p><p>Per informazioni su come ottenere queste informazioni, vedere [Pagina Identificatori account nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. È consigliabile creare un nuovo utente da utilizzare specificamente, ad Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. È possibile creare un utente in un Snowflake utilizzando `CREATE USER` comando.  <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **Ruolo**] | Ruolo che verrà assegnato all&#39;utente. È consigliabile creare un nuovo ruolo che verrà utilizzato specificamente, ad Adobe. Specifica qui il ruolo, quindi crea un ruolo nel Snowflake con lo stesso nome e concedi il ruolo all&#39;utente. È possibile creare un ruolo nel Snowflake utilizzando `CREATE ROLE` comando. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Identificatore account**] | Identifica in modo univoco un account di Snowflake all’interno dell’organizzazione e in tutta la rete globale di piattaforme cloud supportate dal Snowflake e aree geografiche cloud. <p>Devi ottenere l’identificatore dell’account di Snowflake, quindi incollare le informazioni qui.</p><p>Per sapere dove ottenere queste informazioni, consulta la pagina [Identificatori account nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
+   | [!UICONTROL **Utente**] | Nome di accesso dell&#39;utente che verrà utilizzato per la connessione. È consigliabile creare un nuovo utente da utilizzare specificamente, ad Adobe. Specificare qui il nome, quindi creare un utente in un Snowflake con lo stesso nome. È possibile creare un utente nel Snowflake utilizzando il comando `CREATE USER`.  <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Ruolo**] | Ruolo che verrà assegnato all&#39;utente. È consigliabile creare un nuovo ruolo che verrà utilizzato specificamente, ad Adobe. Specifica qui il ruolo, quindi crea un ruolo nel Snowflake con lo stesso nome e concedi il ruolo all&#39;utente. È possibile creare un ruolo nel Snowflake utilizzando il comando `CREATE ROLE`. <p>Per ulteriori informazioni, vedere [Comandi utente, ruolo e privilegio](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Il [!UICONTROL **Account di esportazione creato**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Account di esportazione creato**].
 
-   ![Finestra di dialogo di esportazione account creato](assets/export-account-snowflake.png)
+   ![Finestra di dialogo di esportazione account creata](assets/export-account-snowflake.png)
 
-1. Copia il contenuto del [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe.
+1. Copia il contenuto del campo [!UICONTROL **Chiave pubblica**] negli Appunti. La chiave pubblica è fornita da Adobe.
 
    Utilizza la chiave pubblica nel Snowflake per connetterti al tuo account di Snowflake. È necessario associare l&#39;utente creato a questa chiave pubblica.
 
@@ -267,8 +267,8 @@ Per informazioni su come gestire gli account esistenti, incluse la visualizzazio
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   Per ulteriori informazioni, vedere [Pagina di autenticazione coppia di chiavi e rotazione della coppia di chiavi nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth).
+   Per ulteriori informazioni, vedere la pagina [Autenticazione coppia di chiavi e rotazione coppia di chiavi nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
-1. Seleziona [!UICONTROL **OK**].
+1. Selezionare [!UICONTROL **OK**].
 
 1. Continua con [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).

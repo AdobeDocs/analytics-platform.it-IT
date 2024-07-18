@@ -23,8 +23,8 @@ I dati di abbandono vengono automaticamente aggiornati e li puoi vedere per più
 
 Puoi anche aggiungere delle metriche. In questo esempio, abbiamo aggiunto la metrica “Foto condivisa” per individuare il percorso seguito dai clienti:
 
-![La vista Tutte le visite mostra la metrica aggiunta: &quot;Foto condivisa&quot;.](assets/interdimensional-fallout2.png)
+![La visualizzazione Tutte le visite mostra la metrica aggiunta: &quot;Foto condivisa&quot;.](assets/interdimensional-fallout2.png)
 
 Inoltre, puoi combinare dimensioni e metriche diverse in punti di contatto di tipo AND. È sufficiente trascinare un’altra dimensione o metrica su una esistente:
 
-![La vista Tutte le visite mostra la metrica Nome azione aggiunta: Foto condivisa E condivisa.](assets/interdimensional-fallout3.png)
+![La vista Tutte le visite mostra il nome azione aggiunto: metrica Foto condivisa E condivisa.](assets/interdimensional-fallout3.png)

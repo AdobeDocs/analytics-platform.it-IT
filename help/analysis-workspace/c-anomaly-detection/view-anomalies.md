@@ -23,7 +23,7 @@ ht-degree: 88%
 
 1. Fai clic lontano dal menu impostazioni per visualizzare la tabella aggiornata.
 
-   ![È prevista una notifica di rilevamento delle anomalie che indica un valore inferiore del 15% rispetto a quello previsto.](assets/anomaly_detected.png)
+   ![Notifica di rilevamento delle anomalie che indica un valore inferiore del 15% rispetto a quello previsto.](assets/anomaly_detected.png)
 
 1. Le anomalie sono mostrate nella tabella come segue:
 
@@ -47,7 +47,7 @@ Per visualizzare le anomalie in un grafico a linee:
 
 1. Fai clic lontano dal menu impostazioni per visualizzare il grafico a linee aggiornato.
 
-   ![Un grafico a linee con un’anomalia ha rilevato un messaggio che indica un aumento del 15% rispetto al previsto.](assets/anomaly_linechart.png)
+   ![Un grafico a linee con un&#39;anomalia ha rilevato un messaggio che indica un aumento del 15% rispetto al previsto.](assets/anomaly_linechart.png)
 
    Le anomalie vengono mostrate nel grafico a linee come segue:
 

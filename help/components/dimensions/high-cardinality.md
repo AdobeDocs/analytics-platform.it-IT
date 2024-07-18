@@ -34,9 +34,9 @@ Anche se alcuni singoli elementi dimensionali potrebbero mancare nei rapporti co
 
 Il modo migliore per adattarsi a dimensioni ad alta cardinalità consiste nel limitare il numero di elementi dimensionali elaborati da un rapporto. Poiché tutti i rapporti vengono elaborati al momento della richiesta, è possibile modificare i parametri per i risultati immediati. L’Adobe consiglia una delle seguenti ottimizzazioni per le dimensioni ad alta cardinalità:
 
-* Utilizza un [Filtro](/help/components/filters/create-filters.md). I filtri si applicano al momento in cui ogni server elabora un sottoinsieme di dati.
+* Utilizza un [filtro](/help/components/filters/create-filters.md). I filtri si applicano al momento in cui ogni server elabora un sottoinsieme di dati.
 * Utilizza una ricerca. Gli elementi di Dimension esclusi dal termine di ricerca vengono rimossi dai risultati del rapporto, rendendo più probabile la visualizzazione degli elementi dimensionali desiderati.
 * Utilizza una dimensione del set di dati di ricerca. Le dimensioni del set di dati di ricerca combinano elementi dimensionali del set di dati evento, che limitano il numero di valori univoci restituiti.
-* Utilizza il [Includi/escludi](/help/data-views/component-settings/include-exclude-values.md) impostazione del componente in gestione visualizzazione dati.
+* Utilizza l&#39;impostazione del componente [Inclusione/Esclusione](/help/data-views/component-settings/include-exclude-values.md) nel gestore delle visualizzazioni dati.
 * Abbreviare l’intervallo di date della richiesta. Se molti valori univoci si accumulano nel tempo, la riduzione dell’intervallo di date del rapporto Workspace può limitare il numero di valori univoci da elaborare per i server.
-* Valuta l’utilizzo di [Esportazione tabella completa](/help/analysis-workspace/export/export-cloud.md) per restituire tutte le righe della tabella.
+* Provare a utilizzare [Esportazione tabella completa](/help/analysis-workspace/export/export-cloud.md) per restituire tutte le righe della tabella.

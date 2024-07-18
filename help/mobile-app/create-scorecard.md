@@ -24,7 +24,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 Una scorecard Analytics mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
 
-![Esempio di scorecard per Analytics che mostra la demo della scorecard per dispositivi mobili](assets/intro_scorecard.png)
+![Esempio di scorecard Analytics che mostra la demo della scorecard per dispositivi mobili](assets/intro_scorecard.png)
 
 In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
@@ -41,7 +41,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ### Creare un nuovo progetto {#create}
 
-1. Apri il Customer Journey Analytics e fai clic su **[!UICONTROL Workspace]** scheda.
+1. Aprire il Customer Journey Analytics e fare clic sulla scheda **[!UICONTROL Workspace]**.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -60,9 +60,9 @@ Per implementare il modello di scorecard:
 
    ![Nuova finestra scorecard mobile che evidenzia la selezione della visualizzazione dati](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella sezione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Nella scorecard è stata rilasciata una nuova finestra di scorecard per dispositivi mobili con una freccia che punta a una metrica (Nuovo KPI). ](assets/build_list.png)
+   ![Finestra Nuova scorecard mobile con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. ](assets/build_list.png)
 
 
 1. Da ogni sezione, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
@@ -73,33 +73,33 @@ Per aggiungere una dimensione correlata a una metrica, trascina una dimensione d
 
 Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le suddivisioni delle singole dimensioni vengono visualizzate nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della sezione. Puoi aggiungere più dimensioni a ogni sezione.
 
-![Nuova finestra scorecard mobile con una freccia che punta dall’elenco delle dimensioni al riquadro scorecard.](assets/layer_dimensions.png)
+![Nuova finestra scorecard mobile con una freccia che punta dall&#39;elenco delle dimensioni al riquadro scorecard.](assets/layer_dimensions.png)
 
 ## Applicazione di filtri {#filters}
 
 Per applicare filtri alle singole tessere, trascina un filtro (i segmenti sono filtri nel Customer Journey Analytics) dal pannello di sinistra e rilascialo direttamente sulla tessera.
 
-Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) come in Customer Journey Analytics Workspace.
+Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. [configurare e applicare i filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Customer Journey Analytics Workspace.
 
-![Selettore a discesa dei filtri che evidenzia i filtri di generazione](assets/segment_ui.png)
+![Selettore a discesa dei filtri che evidenzia i filtri di compilazione](assets/segment_ui.png)
 
 ## Aggiungere intervalli di date {#dates}
 
 Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
-![Nuova scorecard per dispositivi mobili che evidenzia il confronto tra ieri e lo stesso giorno della settimana scorsa](assets/new_score_card.png)
+![Nuova scorecard mobile evidenziata ieri rispetto allo stesso giorno della settimana scorsa](assets/new_score_card.png)
 
 Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. Per rimuovere gli intervalli di date di cui non hai bisogno, fai clic sulla x. Per modificare una combinazione di intervalli di date, fai clic sull’icona della matita.
 
-![Nuova scorecard mobile che evidenzia l’icona della matita](assets/new_score_card2.png)
+![Nuova scorecard mobile che evidenzia l&#39;icona della matita](assets/new_score_card2.png)
 
 Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare uno degli intervalli di date disponibili oppure trascina un componente data dalla barra a destra fino alla zona di rilascio.
 
-![Nuova scorecard mobile che evidenzia gli intervalli di date con data principale/ieri selezionati](assets/new_score_card3.png)
+![Nuova scorecard mobile che evidenzia gli intervalli di date con data principale/ieri selezionato](assets/new_score_card3.png)
 
 Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i confronti temporali più comuni, disponibili nel menu a discesa. Puoi anche trascinare un componente data dalla barra a destra.
 
-![Nuova scorecard mobile che evidenzia gli intervalli di date con data di confronto impostata su Stesso giorno della settimana scorsa selezionata](assets/new_score_card4.png)
+![Nuova scorecard per dispositivi mobili che evidenzia gli intervalli di date con data di confronto impostata su Stesso giorno della settimana scorsa selezionata](assets/new_score_card4.png)
 
 Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
 
@@ -115,7 +115,7 @@ Per includere intervalli di date di confronto, attiva l’impostazione **Includi
 
 L’impostazione è *attiva* per impostazione predefinita. Se non desideri visualizzare le date del confronto, puoi *disattivarla*.
 
-![Nuova scorecard per dispositivi mobili che evidenzia Ieri e include le date di confronto](assets/no-comparison-dates.png)
+![Nuova scorecard per dispositivi mobili che evidenzia ieri e include date di confronto](assets/no-comparison-dates.png)
 
 ## Applicare le visualizzazioni {#viz}
 
@@ -164,7 +164,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 1. Seleziona la sezione corretta.
 1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
 
-   ![Proprietà con freccia rivolta verso destra accanto al nome della dimensione.](assets/unspecified.png)
+   ![Proprietà con freccia che punta alla freccia destra accanto al nome della dimensione.](assets/unspecified.png)
 
 1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
@@ -218,7 +218,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che viene visualizzato quando passi il cursore sul componente, come mostrato di seguito per **Prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che compare quando passi il cursore sul componente, come mostrato di seguito per le **prime visite**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 

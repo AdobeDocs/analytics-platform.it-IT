@@ -2,10 +2,11 @@
 description: Descrive come copiare una metrica calcolata nel gestore delle metriche calcolate
 title: Copiare le metriche calcolate
 feature: Calculated Metrics
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+exl-id: b1cc1171-aebf-4b97-99db-9bbcef5ea9d7
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -15,7 +16,7 @@ Quando crei una nuova metrica calcolata, a volte è più semplice copiare una me
 
 Per copiare una metrica calcolata nel gestore delle metriche calcolate:
 
-1. In Customer Journey Analytics, seleziona la **[!UICONTROL Components]** , quindi seleziona **[!UICONTROL Calculated metrics]**.
+1. In Customer Journey Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Calculated metrics]**.
 
 1. In Gestione metriche calcolate, seleziona la metrica calcolata da copiare.
 

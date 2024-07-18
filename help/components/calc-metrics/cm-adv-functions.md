@@ -62,11 +62,11 @@ Approximate Count Distinct (customer ID eVar) (Conteggio valori univoci approssi
 
 Definizione di una nuova metrica calcolata “Approximate Customers” (Clienti approssimativi):
 
-![Definizione nuova dimensione distinta per contea approssimativa che mostra l’ID cliente (eVar1)](assets/approx-count-distinct.png)
+![Nuova definizione di dimensione distinta per contea approssimativa che mostra l&#39;ID cliente (eVar1)](assets/approx-count-distinct.png)
 
 Questo è il modo in cui la metrica “Approximate Customers” (Clienti approssimativi) potrebbe essere utilizzata nel reporting:
 
-![Tabella a forma libera che mostra visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
+![Tabella a forma libera con visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
 
 ## Confronto delle funzioni di conteggio
 

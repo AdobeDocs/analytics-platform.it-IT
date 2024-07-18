@@ -44,7 +44,7 @@ Tutti i progetti in Analysis Workspace vengono salvati automaticamente ogni 2 mi
 
    1. Vai alla cartella [!UICONTROL **Recovered Projects**] (Progetti recuperati) nella pagina di destinazione di Analysis Workspace.
 
-      ![L’elenco delle cartelle che evidenziano la cartella Progetto recuperato.](assets/recovered-folder.png)
+      ![L&#39;elenco delle cartelle che evidenziano la cartella del progetto recuperato.](assets/recovered-folder.png)
 
    1. Apri il progetto e salvalo nella posizione desiderata.
 
@@ -69,7 +69,7 @@ Sono disponibili le seguenti opzioni:
 
 In caso di uscita o chiusura della scheda del browser durante la visualizzazione di un progetto con modifiche non ancora salvate automaticamente, il browser avverte che le modifiche non salvate andranno perse. È possibile scegliere di uscire o annullare.
 
-![Fai clic su Lascia per uscire dal sito o su Annulla per spostarti senza salvare le modifiche. ](assets/browser-image.png)
+![Fare clic su Lascia per uscire dal sito o su Annulla per spostarsi senza salvare le modifiche. ](assets/browser-image.png)
 
 ### Arresto anomalo del browser o timeout della sessione
 
@@ -81,7 +81,7 @@ Seleziona **Yes** (Sì) per ripristinare il progetto dalla copia salvata automat
 
 Seleziona **No** per eliminare la copia salvata automaticamente e aprire l’ultima versione del progetto salvata dall’utente.
 
-![Finestra di dialogo Ripristino del progetto.](assets/project-recovery.png)
+![Finestra di dialogo Ripristino progetto.](assets/project-recovery.png)
 
 Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recuperare le modifiche non salvate.
 
@@ -91,7 +91,7 @@ Per aprire una versione precedente di un progetto:
 
 1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
 
-   ![Nell’elenco Versioni del progetto salvate in precedenza sono elencate le opzioni che consentono di visualizzare Tutte le versioni o Solo le versioni con note.](assets/previous-versions.png)
+   ![L&#39;elenco delle versioni del progetto salvate in precedenza e le opzioni per mostrare tutte le versioni o solo le versioni con note.](assets/previous-versions.png)
 
 1. Rivedi l’elenco delle versioni precedenti disponibili.
    Vengono visualizzati [!UICONTROL Timestamp] e [!UICONTROL Editor], oltre a [!UICONTROL Notes] se sono state aggiunte al momento del salvataggio dell’[!UICONTROL Editor]. Le versioni senza note sono conservate per 90 giorni; le versioni con note sono memorizzate per 1 anno.

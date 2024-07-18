@@ -41,19 +41,19 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti direzionali su iOS:**
 
-Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti direzionali su Android:**
 
-Fare clic sul seguente link (è disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e segui le istruzioni per scaricare, installare e aprire l’app:
+Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
 Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le credenziali di Customer Journey Analytics esistenti.
 
-![Schermata di benvenuto app di Customer Journey Analytics](assets/welcome.png)
+![Schermata di benvenuto app per Customer Journey Analytics](assets/welcome.png)
 
 ## Utilizzare le dashboard {#use-dashboards}
 
@@ -115,7 +115,7 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le sezioni della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-1. Per applicare un filtro segmenti alla scorecard, tocca l’elenco a discesa dei filtri e seleziona un segmento configurato dal tuo curatore. [Filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Workspace.
+1. Per applicare un filtro segmenti alla scorecard, tocca l’elenco a discesa dei filtri e seleziona un segmento configurato dal tuo curatore. [I filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell&#39;app funzionano allo stesso modo di Workspace.
 
    ![Filtro del segmento](assets/segment_filter.png)
 

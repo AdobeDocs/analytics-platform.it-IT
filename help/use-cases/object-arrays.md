@@ -84,7 +84,7 @@ Quando si crea una visualizzazione dati, sono disponibili le dimensioni e le met
 
 ### Stessi esempi di eventi (comportamento di reporting)
 
-Utilizzando solo l’evento precedente, le tabelle seguenti mostrano i rapporti Workspace con alcune combinazioni di dimensioni e metriche.
+Utilizzando solo l’evento precedente, le tabelle seguenti mostrano i rapporti di Workspace con alcune combinazioni di dimensioni e metriche.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |

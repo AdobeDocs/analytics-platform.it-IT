@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ I componenti utilizzati nel progetto verranno aggiunti automaticamente.
 
 Quando un destinatario apre un progetto curato, vedrà solo il set curato di componenti che hai definito:
 
-![Un progetto curato condiviso che mostra i componenti definiti.](assets/curate-project.png)
+![Progetto curato condiviso che mostra i componenti definiti dall&#39;utente.](assets/curate-project.png)
 
 ## Rimuovere la cura del progetto
 

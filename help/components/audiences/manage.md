@@ -18,8 +18,8 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 * **pianificare o annullare la pianificazione** dell’aggiornamento automatico del pubblico (la scadenza massima della pianificazione è di un anno);
 * **Rinnovare una pianificazione di aggiornamento del pubblico** quando sta per scadere. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza della pianificazione.
 * Visualizzare l’**intervallo di aggiornamento** e l’**ultimo aggiornamento di un pubblico**
-* Ottieni informazioni approfondite su **tempo necessario per produrre un pubblico** dal Customer Journey Analytics e il tempo necessario per far apparire il pubblico in Real-time Customer Profile a scopo di attivazione.
-* Verifica se i tipi di pubblico nel Customer Journey Analytics sono **viene utilizzato attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione Experienci Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
+* Ottieni informazioni sul **tempo necessario per produrre un pubblico** dal Customer Journey Analytics e sul tempo necessario per far apparire il pubblico in Real-time Customer Profile a scopo di attivazione.
+* Verifica se i tipi di pubblico nel Customer Journey Analytics sono **utilizzati attivamente da Real-time Customer Profile** o (idealmente) qualsiasi applicazione Experience Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
 
 ## Interfaccia utente di gestione
 

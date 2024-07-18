@@ -16,20 +16,20 @@ ht-degree: 28%
 
 Di seguito sono riportate alcune domande frequenti sull’unione:
 
-+++**Come posso utilizzare l’unione per vedere come le persone si spostano da un canale all’altro?**
++++**Come posso utilizzare l&#39;unione per vedere come le persone passano da un canale all&#39;altro?**
 
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
-2. Seleziona la **[!UICONTROL ** Visualizzare **]** a sinistra e trascinare un **[!UICONTROL ** Flusso **]** nell’area di lavoro a destra.
-3. Seleziona la **[!UICONTROL ** Componenti **]** a sinistra e trascinare la quota **[!UICONTROL ** ID set di dati **]** alla posizione centrale contrassegnata **[!UICONTROL ** Dimension o elemento **]**.
+2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL ** Flusso **]** nell&#39;area di lavoro a destra.
+3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale con etichetta **[!UICONTROL ** Dimension o elemento **]**.
 4. Questo rapporto di flusso è interattivo. Per espandere i flussi alle pagine successive o precedenti, selezionare uno qualsiasi dei valori. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
 
 +++
 
-+++**Quanto indietro nel tempo va l’unione dei visitatori di ripetizione?**
++++**Quanto indietro nel tempo va l&#39;unione dei visitatori di ripetizione?**
 
 L’intervallo di lookback per la rekeying dipende dalla frequenza di dati ripetizione desiderata. Ad esempio, se imposti l’unione per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la reimpostazione delle chiavi è di sette giorni. Se imposti l’unione per riprodurre i dati ogni giorno, l’intervallo di lookback per la reimpostazione delle chiavi è di un giorno.
 
@@ -43,27 +43,27 @@ L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condiv
 
 +++
 
-+++**In che modo l’unione gestisce le situazioni in cui una singola persona dispone di più ID persistenti?**
++++**In che modo l&#39;unione gestisce le situazioni in cui una singola persona dispone di molti ID persistenti?**
 
 In alcune situazioni, un singolo utente può essere associato a più ID persistenti. Un esempio è la cancellazione frequente dei cookie del browser o l’utilizzo della modalità privata/in incognito del browser.
 
-Per l’unione basata sui campi, il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità del Customer Journey Analytics di eseguire unioni tra dispositivi diversi.
+Per l’unione basata sui campi, il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di Customer Journey Analytics di eseguire unioni tra dispositivi.
 
 Per l’unione basata su grafico, una singola persona può avere molti ID persistenti nel grafico delle identità. L’unione basata su grafico utilizza l’ID persistente basato sullo spazio dei nomi specificato. Se per lo stesso spazio dei nomi sono presenti più ID persistenti, viene utilizzato il primo ID persistente lessicografico.
 
 +++
 
-+++**Una volta contattato il mio Adobe Account Team con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?**
++++**Una volta contattato il team dell&#39;account Adobe con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?**
 
 L’unione live è disponibile circa una settimana dopo l’attivazione dell’unione da parte di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
 +++
 
-+++**Qual è la differenza tra l’analisi cross-device (una funzione nella versione tradizionale di Analytics) e l’analisi cross-channel?**
++++**Qual è la differenza tra analisi cross-device (una funzionalità nella versione tradizionale di Analytics) e analisi cross-channel?**
 
-[Analisi cross-device](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) è una funzione specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafico dei dispositivi.
+[Analisi cross-device](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) è una funzionalità specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafico dei dispositivi.
 
-L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Unisce l’ID persona di un set di dati, consentendo di combinare facilmente tale set di dati con altri set di dati. Questa funzione opera in modo simile all’unione basata sui campi di analisi cross-device, ma l’implementazione è diversa a causa della diversa architettura dei dati tra Analytics tradizionale e Customer Journey Analytics. Consulta [Stitching](overview.md) e [analisi cross-channel](../use-cases/cross-channel/cross-channel.md) caso d’uso per ulteriori informazioni.
+L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Unisce l’ID persona di un set di dati, consentendo di combinare facilmente tale set di dati con altri set di dati. Questa funzione opera in modo simile all’unione basata sui campi di analisi cross-device, ma l’implementazione è diversa a causa della diversa architettura dei dati tra Analytics tradizionale e Customer Journey Analytics. Per ulteriori informazioni, vedi [Stitching](overview.md) e il caso di utilizzo [Cross-Channel Analysis](../use-cases/cross-channel/cross-channel.md).
 
 +++
 
@@ -83,7 +83,7 @@ Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID
 +++
 
 
-+++**Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, ad esempio &quot;Non definito&quot;?**
++++**Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, ad esempio &#39;Non definito&#39;?**
 
 Presta attenzione alla &quot;compressione della persona&quot; che si verifica quando l’unione viene applicata a dati che utilizzano valori segnaposto per ID transitori. Nella tabella di esempio seguente, gli ID persona non definiti provenienti da un set di dati originato da un sistema di gestione delle relazioni con i clienti vengono compilati con il valore &quot;Non definito&quot;, dando luogo a una rappresentazione errata delle persone.
 
@@ -103,17 +103,17 @@ Presta attenzione alla &quot;compressione della persona&quot; che si verifica qu
 
 +++
 
-+++**In che modo le metriche nei set di dati con unione di Customer Journey Analytics si confrontano con metriche simili nei set di dati senza unione di Customer Journey Analytics e con Adobe Analytics?**
++++**Come si confrontano le metriche nei set di dati con unione di Customer Journey Analytics con metriche simili nei set di dati senza unione di Customer Journey Analytics e con Adobe Analytics?**
 
 Alcune metriche in Customer Journey Analytics sono simili alle metriche nella versione tradizionale di Analytics, ma altre sono diverse, a seconda del confronto. La tabella seguente confronta diverse metriche comuni:
 
 | **Dati uniti di Customer Journey Analytics** | **Dati non uniti di Customer Journey Analytics** | **Adobe Analytics** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone** = numero di ID persona distinti in cui l’ID unione è scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona nel Customer Journey Analytics. | **Visitatori unici** = numero di ID visitatore distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
+| **Persone** = numero di ID persona distinti in cui l&#39;ID unione viene scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona nel Customer Journey Analytics. | **Visitatori unici** = numero di ID visitatore distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
 | **Sessioni**: definite in base alle impostazioni di sessione nella visualizzazione dati di Customer Journey Analytics. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definite in base alle impostazioni di sessione specificate nella visualizzazione dati di Customer Journey Analytics. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=it). |
-| **Eventi** = numero di righe nei dati uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un ID persistente vuoto. | **Eventi** = numero di righe nei dati non uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati non uniti nel data lake di Experienci Platform, questi eventi non vengono inclusi nel Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
+| **Eventi** = numero di righe nei dati uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un ID persistente vuoto. | **Eventi** = numero di righe nei dati non uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati non uniti nel data lake di Experience Platform, questi eventi non vengono inclusi nel Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
 
-Altre metriche possono essere simili in Customer Journey Analytics e Adobe Analytics. Ad esempio, il conteggio totale per Adobe Analytics [eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=it) 1-100 è comparabile tra Adobe Analytics tradizionale e Customer Journey Analytics (sia che siano uniti o meno). [Differenze nelle funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md)) come la deduplicazione degli eventi tra Customer Journey Analytics e Adobe Analytics, può causare discrepanze tra i due prodotti.
+Altre metriche possono essere simili in Customer Journey Analytics e Adobe Analytics. Ad esempio, il conteggio totale per gli [eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=it) 1-100 di Adobe Analytics è comparabile tra Adobe Analytics tradizionale e Customer Journey Analytics (sia che siano uniti o meno). [Differenze nelle funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md)) come la deduplicazione degli eventi tra Customer Journey Analytics e Adobe Analytics possono causare discrepanze tra i due prodotti.
 
 +++
 
@@ -123,8 +123,8 @@ No, al momento il Customer Journey Analytics non può utilizzare i campi Identit
 
 +++
 
-+++**Sarà necessario riacquisire i dati per passare dall’unione basata sui campi all’unione basata sui grafi?**
-Non è necessario riacquisire i dati in Experienci Platform, tuttavia dovranno essere riconfigurati in Customer Journey Analytics. Segui questi passaggi:
++++**Sarà necessario riacquisire i dati per passare dall&#39;unione basata sui campi all&#39;unione basata sui grafici?**
+Non è necessario riacquisire i dati in Experience Platform, tuttavia dovranno essere riconfigurati in Customer Journey Analytics. Segui questi passaggi:
 
 1. Imposta il nuovo set di dati uniti basato su grafico.
 1. Configura il nuovo set di dati come parte di una nuova connessione nel Customer Journey Analytics.
@@ -133,9 +133,9 @@ Non è necessario riacquisire i dati in Experienci Platform, tuttavia dovranno e
 
 +++
 
-+++**Verrebbero interrotti i rapporti esistenti?**
++++**Verrebbero interrotti i report esistenti?**
 
-No, se segui i passaggi descritti in precedenza. In caso contrario, chiedi assistenza all’Adobe Consulting.
+No, se segui i passaggi descritti in precedenza. In caso contrario, chiedi supporto aggiuntivo ad Adobe Consulting.
 
 +++
 

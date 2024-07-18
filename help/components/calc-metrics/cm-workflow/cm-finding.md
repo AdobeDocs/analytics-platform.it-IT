@@ -14,4 +14,4 @@ ht-degree: 7%
 
 È possibile individuare le metriche in Analysis Workspace nello stesso modo in cui si individuano altri tipi di componenti.
 
-Per informazioni su come individuare rapidamente i componenti, consulta [Cercare, filtrare e ordinare l’elenco dei componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/overview.html#search%2C-filter%2C-and-sort-the-component-list) in [Panoramica dei componenti](/help/components/overview.md).
+Per informazioni su come individuare rapidamente i componenti, vedere [Cercare, filtrare e ordinare l&#39;elenco dei componenti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/overview.html#search%2C-filter%2C-and-sort-the-component-list) in [Panoramica dei componenti](/help/components/overview.md).

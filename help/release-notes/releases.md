@@ -1,16 +1,16 @@
 ---
 description: Descrizione della strategia di rilascio continuo delle funzioni per Customer Journey Analytics
-title: Strategia di rilascio delle funzioni di Customer Journey Analytics
+title: Strategia di rilascio delle funzionalità di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Strategia di rilascio delle funzioni di Customer Journey Analytics
+# Strategia di rilascio delle funzionalità di Customer Journey Analytics
 
 I rilasci di Customer Journey Analytics funzionano su un modello di distribuzione continua che consente un approccio scalabile e graduale alla distribuzione delle funzioni.
 
@@ -28,7 +28,7 @@ Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obietti
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. L’Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall dell’organizzazione per un’esperienza ottimale durante le versioni. Questi flag vengono rimossi dopo il rilascio di una funzione a tutti. Consulta [Domini utilizzati dal Customer Journey Analytics](../technotes/domains.md) per ulteriori informazioni.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[ Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 

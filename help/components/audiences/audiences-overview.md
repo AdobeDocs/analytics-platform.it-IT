@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey Analytics
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per il targeting e la personalizzazione dei clienti.
+Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics su [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti nel Customer Journey Analytics. Tali azioni possono includere:
 
@@ -23,7 +23,7 @@ La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agir
 * Tutto questo con latenza minima dopo la pubblicazione del pubblico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti.
 
-I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experienci Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicarli in Real-time Customer Profile in Experienci Platform a scopo di attivazione.
+I tipi di pubblico creati nel Customer Journey Analytics non devono necessariamente essere basati su set di dati abilitati per il profilo. Puoi acquisire dati storici in Experience Platform senza abilitare set di dati e schemi associati per il profilo. Quindi utilizza questi set di dati per scoprire i tipi di pubblico rilevanti nel Customer Journey Analytics e pubblicarli in Real-time Customer Profile in Experience Platform a scopo di attivazione.
 
 ## Terminologia chiave
 
@@ -31,7 +31,7 @@ I tipi di pubblico creati nel Customer Journey Analytics non devono necessariame
 
 **Filtro**: un insieme di regole che, se valutate in un insieme di dati per un periodo di tempo, produce un sottoinsieme di dati. Un filtro può essere utilizzato nel processo di creazione di un pubblico quando è associato ad altri servizi di supporto. I filtri sono definiti e mantenuti nel Customer Journey Analytics.
 
-**Filtri** rispetto a **Segmenti**: il Customer Journey Analytics non utilizza il concetto di &quot;segmenti&quot;, utilizza invece i &quot;filtri&quot;. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di Customer Journey Analytics è il processo mediante il quale utilizziamo un filtro di Customer Journey Analytics per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
+**Filtri** rispetto a **Segmenti**: il Customer Journey Analytics non utilizza il concetto di &quot;segmenti&quot;, ma utilizza i &quot;filtri&quot;. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di Customer Journey Analytics è il processo mediante il quale utilizziamo un filtro di Customer Journey Analytics per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
 
 ## Autorizzazioni
 

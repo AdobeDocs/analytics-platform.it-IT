@@ -79,7 +79,7 @@ Se desideri esaminare i ricavi per colore senza una dimensione di binding, la di
 | --- | --- |
 | arancione fluo | 2099 |
 
-Vai a **[!UICONTROL Data views]** e associare il [!DNL Product Color] dimensione a [!DNL Product Name]:
+Vai in **[!UICONTROL Data views]** e associa la dimensione [!DNL Product Color] a [!DNL Product Name]:
 
 ![Dimensione di binding](../assets/binding-dimension.png)
 
@@ -238,13 +238,13 @@ Uno dei metodi di merchandising più comuni in Adobe Analytics prevede l’assoc
    }
    ```
 
-Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se hai usato [!UICONTROL Original] allocazione con la dimensione termine di ricerca:
+Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se hai utilizzato l&#39;allocazione [!UICONTROL Original] con la dimensione del termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
 | guantoni da pugilato | $ 204,97 |
 
-Se ha usato [!UICONTROL Most Recent] allocazione con la dimensione termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
+Se hai utilizzato l&#39;allocazione [!UICONTROL Most Recent] con la dimensione del termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
@@ -252,7 +252,7 @@ Se ha usato [!UICONTROL Most Recent] allocazione con la dimensione termine di ri
 
 Anche se questo esempio include una sola persona, molte persone che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-Ora puoi eseguire il binding [!DNL Search Term] a [!DNL Product Name] quando [!DNL Searches] La metrica è presente per attribuire correttamente il termine di ricerca ai ricavi.
+È ora possibile associare [!DNL Search Term] a [!DNL Product Name] ogni volta che la metrica [!DNL Searches] è presente per attribuire correttamente il termine di ricerca ai ricavi.
 
 ![Metrica di binding](../assets/binding-metric.png)
 
@@ -440,4 +440,4 @@ Se invece si associa `product_finding_method` alla metrica Aggiunte al carrello,
 
 >[!MORELIKETHIS]
 >
->[Dimension di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) esercitazione.
+>Esercitazione [Dimension di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html).

@@ -23,7 +23,7 @@ Questo argomento descrive i registri di audit nel Customer Journey Analytics, e 
 
 Se questa funzione è abilitata per la tua organizzazione, i registri di audit vengono raccolti automaticamente quando si verifica un’attività. Non è necessario abilitare manualmente la raccolta dei registri.
 
-Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzioni di Customer Journey Analytics, consulta [documentazione sul controllo degli accessi](../technotes/access-control.md).
+Per poter visualizzare ed esportare i registri di audit, con la funzione di controllo degli accessi in Adobe Console ti deve essere stata concessa l’autorizzazione **[!UICONTROL Audit Logs Access]**. Per informazioni su come gestire le singole autorizzazioni per le funzionalità di Customer Journey Analytics, consulta la [documentazione sul controllo degli accessi](../technotes/access-control.md).
 
 ## Visualizza il registro di controllo nell’interfaccia utente
 
@@ -31,7 +31,7 @@ In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Au
 
 Per impostazione predefinita vengono visualizzati i registri di audit relativi alla data odierna e al giorno precedente.
 
-![Registro di controllo che evidenzia oggi e ieri. ](assets/audit_ui.png)
+![Evidenziazione del registro di controllo oggi e ieri. ](assets/audit_ui.png)
 
 Per specificare quali colonne devono essere visibili, utilizza il selettore delle colonne in alto a destra.
 
@@ -57,11 +57,11 @@ Vengono visualizzati i seguenti elementi:
    * TRASFERIMENTO
    * ANNULLA APPROVAZIONE
    * ANNULLA CONDIVISIONE
-* **[!UICONTROL Date Created]**: data e ora in cui è stata eseguita l’azione.
-* **[!UICONTROL Description]**: riepilogo dell’azione.
-* **[!UICONTROL User Name]**: utente che ha eseguito l’azione.
-* **[!UICONTROL Email]**: indirizzo e-mail dell’utente che ha eseguito l’azione.
-* **[!UICONTROL Component Name]**: componente su cui l’utente ha agito.
+* **[!UICONTROL Date Created]**: data e ora in cui è stata eseguita l&#39;azione.
+* **[!UICONTROL Description]**: riepilogo dell&#39;azione.
+* **[!UICONTROL User Name]**: utente che ha eseguito l&#39;azione.
+* **[!UICONTROL Email]**: indirizzo e-mail dell&#39;utente che ha eseguito l&#39;azione.
+* **[!UICONTROL Component Name]**: il componente su cui l&#39;utente ha agito.
 * **[!UICONTROL Component Type]**: tipo di componente. Possibili valori:
    * ANNOTAZIONE
    * PUBBLICO
@@ -80,10 +80,10 @@ Vengono visualizzati i seguenti elementi:
    * PROGETTO_PIANIFICATO
    * UTENTE
    * GRUPPO_UTENTI
-* **[!UICONTROL Component ID]**: ID del componente su cui l’utente ha intrapreso un’azione.
-* **[!UICONTROL IMS Org ID]**: ID IMS dell’organizzazione, nel formato di `ABC123@AdobeOrg`.
-* **[!UICONTROL Log ID]**: ID univoco che identifica la voce del registro.
-* **[!UICONTROL User ID]**: ID univoco che identifica l’utente che ha eseguito l’azione.
+* **[!UICONTROL Component ID]**: ID del componente su cui l&#39;utente ha eseguito l&#39;azione.
+* **[!UICONTROL IMS Org ID]**: ID IMS dell&#39;organizzazione, nel formato `ABC123@AdobeOrg`.
+* **[!UICONTROL Log ID]**: ID univoco che identifica la voce di registro.
+* **[!UICONTROL User ID]**: ID univoco che identifica l&#39;utente che ha eseguito l&#39;azione.
 * **[!UICONTROL User Type]**: tipo di autenticazione utilizzato. I valori validi includono:
    * IMS
    * OKTA
@@ -92,7 +92,7 @@ Vengono visualizzati i seguenti elementi:
 
 Seleziona l’icona a imbuto (![filtro](assets/filter-icon.png)) per visualizzare un elenco di filtri con cui limitare i risultati. Vengono visualizzati solo gli ultimi 1.000 record, a prescindere dai filtri selezionati.
 
-![Registro di controllo che mostra i filtri visualizzati per Intervallo dati.](assets/filters.png)
+![Registro di controllo che mostra i filtri visualizzati per l&#39;intervallo di dati.](assets/filters.png)
 
 Nell’interfaccia utente sono disponibili i seguenti filtri per gli eventi di audit:
 
@@ -139,4 +139,4 @@ Puoi scaricare i registri di audit in formato CSV o JSON. Nei file scaricati ven
 
 ## Gestire i registri di audit tramite l’API
 
-Tutte le azioni che possono essere eseguite nell’interfaccia utente possono essere eseguite anche utilizzando le chiamate API. Consulta la [Documento di riferimento API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) per ulteriori informazioni.
+Tutte le azioni che possono essere eseguite nell’interfaccia utente possono essere eseguite anche utilizzando le chiamate API. Per ulteriori informazioni, consulta il documento di riferimento API [Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs).

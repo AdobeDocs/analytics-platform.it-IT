@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # Panoramica delle dimensioni
 
-I Dimension sono un tipo di componente del Customer Journey Analytics utilizzato per analizzare i dati. Ad esempio, puoi utilizzare le dimensioni quando crei rapporti in [Analysis Workspace](/help/analysis-workspace/home.md) o in [Report Builder](/help/report-builder/report-buider-overview.md).
+I Dimension sono un tipo di componente del Customer Journey Analytics utilizzato per analizzare i dati. Ad esempio, puoi utilizzare le dimensioni quando crei rapporti in [Analysis Workspace](/help/analysis-workspace/home.md) o nel [Report Builder](/help/report-builder/report-buider-overview.md).
 
 Le dimensioni Customer Journey Analytics sono illimitate; i valori possono essere numerici, testo, oggetti, elenchi o combinazioni di tutti.
 
@@ -30,7 +30,7 @@ Ogni dimensione rappresenta una parte o un facet diversi del sito. Puoi combinar
 
 ## Creare dimensioni
 
-Gli amministratori di Customer Journey Analytics possono [creare dimensioni all’interno di una visualizzazione dati](/help/data-views/create-dataview.md#components).
+Gli amministratori di Customer Journey Analytics possono [creare dimensioni in una visualizzazione dati](/help/data-views/create-dataview.md#components).
 
 ## Aggiungere descrizioni delle dimensioni
 

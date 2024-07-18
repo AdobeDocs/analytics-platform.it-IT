@@ -52,25 +52,26 @@ Per configurare lo schema:
 
 1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
 
-1. Seleziona **[!UICONTROL Create schema]**. .
+1. Selezionare **[!UICONTROL Create schema]**.
+.
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Individual Profile]**.
 
-      ![Crea una finestra dello schema con Profilo individuale selezionato](./assets/create-pr-schema-wizard-step-1.png)
+      ![Crea una finestra dello schema con profilo individuale selezionato](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Per modellare l’evento viene utilizzato uno schema Experience Event _comportamento_ di un profilo (come nome della scena, pulsante per aggiungerlo al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
-1. In [!UICONTROL Name and review step] del [!UICONTROL Create schema] procedura guidata:
+1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativo) un **[!UICONTROL Description]**.
+   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
 
-      ![Finestra Crea schema, con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
+      ![Finestra Crea schema con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 
@@ -175,11 +176,11 @@ A seconda della fonte da cui ricevi i dati di fidelizzazione, scegli il connetto
 
 Puoi acquisire dati da diverse origini. Di seguito sono riportate solo alcune delle numerose fonti disponibili:
 
-- applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), e altro)
+- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altro)
 
-- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [BLOB di Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob), e altro)
+- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
 
-- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server), e altro)
+- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) e altri)
 
 Per configurare un connettore di origine:
 
@@ -193,7 +194,7 @@ Per configurare un connettore di origine:
 
    1. **[!UICONTROL Select data]** (Seleziona dati): seleziona i dati di origine da inserire.
 
-   1. **[!UICONTROL Dataflow detail]**: fornisci ulteriori dettagli sul flusso di dati, ad esempio il nome e il set di dati da utilizzare.
+   1. **[!UICONTROL Dataflow detail]**: fornire ulteriori dettagli sul flusso di dati, ad esempio il nome e il set di dati da utilizzare.
 
    1. **[!UICONTROL Mapping]** (Mappatura): puoi mappare i campi dei dati di origine in arrivo agli attributi dello schema associato al set di dati selezionato.
 
@@ -209,9 +210,9 @@ Per configurare un connettore di origine:
 
    1. Seleziona **[!UICONTROL View documentation]** (Visualizza documentazione).
 
-Consulta [Acquisire e utilizzare dati dalla versione tradizionale di Adobe Analytics](./analytics.md) per informazioni su come utilizzare il connettore di origine di Adobe Analytics.
+Per informazioni sull&#39;utilizzo del connettore di origine di Adobe Analytics, vedere [Acquisire e utilizzare dati da Adobe Analytics](./analytics.md) tradizionale.
 
-Consulta [Acquisire e utilizzare dati in streaming](./streaming.md) per informazioni su come utilizzare il connettore di origine API HTTP.
+Per informazioni sull&#39;utilizzo del connettore di origine API HTTP, vedere [Acquisire e utilizzare dati in streaming](./streaming.md).
 
 Consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) per una panoramica dei connettori di origine, compresi i collegamenti a ulteriori informazioni per ciascun connettore.
 
@@ -262,7 +263,7 @@ Per creare la connessione:
 
    1. Seleziona **[!UICONTROL Save]** (Salva).
 
-Dopo aver creato un’ [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezione e combinazione di set di dati](/help/connections/combined-dataset.md), [controllo dello stato dei set di dati di una connessione e dello stato di acquisizione dei dati](/help/connections/manage-connections.md), e altro ancora.
+Dopo aver creato una [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezionare e combinare i set di dati](/help/connections/combined-dataset.md), [controllare lo stato dei set di dati di una connessione e lo stato dell&#39;acquisizione dei dati](/help/connections/manage-connections.md) e altro ancora.
 
 ## Configurare una visualizzazione dati
 
@@ -323,7 +324,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL Freeform table] nel [!UICONTROL Panel] . Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

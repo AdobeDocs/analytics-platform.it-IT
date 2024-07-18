@@ -18,9 +18,9 @@ Per supportare le ricerche basate su persone sui dati B2B (tra cui account, oppo
 
 Questa trasformazione è disponibile solo per i set di dati con dati per schemi di ricerca B2B, in base alle classi seguenti:
 
-* [Relazione della persona dell’account aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [Relazione della persona dell’opportunità di business XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Membri dell’elenco di marketing aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Relazione della persona dell&#39;account aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relazione della persona dell&#39;opportunità di business XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Membri dell&#39;elenco di marketing aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
@@ -32,7 +32,7 @@ Per abilitare la trasformazione per un set di dati di questo tipo:
 
 ![Abilita set di dati di trasformazione](assets/transform-dataset.gif)
 
-* Accertati di selezionare l’identificatore corretto per **[!UICONTROL Key]** e **[!UICONTROL Matching key]**, ad esempio `personKey.sourceKey`.
+* Assicurarsi di selezionare l&#39;identificatore corretto per **[!UICONTROL Key]** e **[!UICONTROL Matching key]**, ad esempio `personKey.sourceKey`.
 
 * Seleziona le opzioni per importare nuovi dati e la retrocompilazione del set di dati.
 

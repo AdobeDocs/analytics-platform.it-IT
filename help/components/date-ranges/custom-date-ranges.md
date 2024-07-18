@@ -16,15 +16,15 @@ ht-degree: 57%
 
 Puoi creare intervalli di date personalizzati in Analysis Workspace e salvarli come componenti Tempo.
 
-Per informazioni sull’aggiunta di intervalli di date esistenti a un progetto, consulta [Panoramica del calendario e degli intervalli di date](/help/components/date-ranges/calendar.md).
+Per informazioni sull&#39;aggiunta di intervalli di date esistenti a un progetto, vedere [Calendario e panoramica degli intervalli di date](/help/components/date-ranges/calendar.md).
 
 Per creare un intervallo di date personalizzato:
 
-1. In Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+1. In Adobe Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
 
    ![pagina intervallo date](assets/date-ranges.png)
 
-1. Seleziona [!UICONTROL **Crea un nuovo intervallo di date**].
+1. Seleziona [!UICONTROL **Crea nuovo intervallo di date**].
 
 1. Nel generatore di intervalli di date, specifica le seguenti informazioni:
 
@@ -34,10 +34,10 @@ Per creare un intervallo di date personalizzato:
    | [!UICONTROL **Descrizione**] | Descrizione dell’intervallo di date. |
    | [!UICONTROL **Tag**] | Qualsiasi tag che desideri applicare all’intervallo di date. |
    | [!UICONTROL **Intervallo date**] | Consente di scegliere un intervallo di date personalizzato. Per impostazione predefinita, sono selezionati gli ultimi 30 giorni. |
-   | [!UICONTROL **Predefinito**] | Scegli da un elenco di intervalli di date predefiniti, come [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**] e così via. |
+   | [!UICONTROL **Predefinito**] | Scegli da un elenco di intervalli di date predefiniti, ad esempio [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**] e così via. |
    | [!UICONTROL **Ora di inizio**] | L’ora del giorno in cui inizia l’intervallo di date. |
    | [!UICONTROL **Ora di fine**] | L’ora del giorno in cui termina l’intervallo di date. |
-   | [!UICONTROL **Utilizzare date continue**] | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul><br>Selezionato per impostazione predefinita. |
+   | [!UICONTROL **Utilizza date continue**] | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul><br>Selezionato per impostazione predefinita. |
 
 1. Seleziona [!UICONTROL **Salva**].
 
@@ -61,7 +61,7 @@ Puoi creare un intervallo di date che specifica una finestra continua di 7 giorn
 
 ![](assets/create_date_range.png)
 
-Utilizzare *`rolling daily`*.
+Usa *`rolling daily`*.
 
 * Le impostazioni Inizio corrispondono a *`current day minus 6 days`* (data attuale meno 14 giorni).
 

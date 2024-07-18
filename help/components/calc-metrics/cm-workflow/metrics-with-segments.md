@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -26,29 +26,29 @@ Supponiamo che tu voglia confrontare diversi aspetti di un filtro &quot;Visitato
 
 Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metrica denominata &quot;Visitatori internazionali&quot;:
 
-1. Crea un filtro ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;. Trascina la dimensione Paesi nell’area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
+1. Crea un filtro ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;. Trascina la dimensione Paesi nell&#39;area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
 
-   ![Filtro ad hoc che mostra Paesi è uguale a Germania](assets/segment-from-dimension.png)
+   ![Il filtro ad hoc che mostra Paesi è uguale a Germania](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Puoi eseguire questa operazione anche nel [Generatore di filtri](/help/components/filters/create-filters.md), ma abbiamo semplificato il flusso di lavoro rendendo le dimensioni disponibili nel generatore di metriche calcolate. &quot;Adhoc&quot; significa che il filtro non è visibile nel **[!UICONTROL Filters]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando il puntatore sull’icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
+   >Puoi eseguire questa operazione anche nel [Generatore di filtri](/help/components/filters/create-filters.md), ma il flusso di lavoro è stato semplificato rendendo disponibili le dimensioni nel generatore di metriche calcolate. &quot;Adhoc&quot; significa che il filtro non è visibile nell&#39;elenco **[!UICONTROL Filters]** nella barra a sinistra. È tuttavia possibile renderlo pubblico passando il puntatore sull&#39;icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
 
 1. Trascina il filtro Germania nell’area di lavoro Definizione e al suo interno trascina la metrica Visitatori univoci:
 
-   ![Riepilogo e definizione dei paesi uguali a Germania e Visitatori unici](assets/german-visitors.png)
+   ![Riepilogo e definizione dei paesi uguali a Germania e Visitatori univoci](assets/german-visitors.png)
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
 
 1. Crea un filtro ad hoc nel generatore di metriche calcolate denominato &quot;visitatori internazionali&quot;, dove &quot;Paesi&quot; non è uguale a &quot;Germania&quot;.
 
-   Trascina la dimensione Paesi nell’area di lavoro Definizione, seleziona [!UICONTROL **Germania**] come valore, quindi seleziona [!UICONTROL **non è uguale a**] come operatore.
+   Trascina la dimensione Paesi nell&#39;area di lavoro Definizione, seleziona [!UICONTROL **Germania**] come valore, quindi seleziona [!UICONTROL **è diverso**] come operatore.
 
 1. Trascina la metrica Visitatori univoci al suo interno.
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
 
-1. In Analysis Workspace, trascina **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all’altra nella parte superiore:
+1. In Analysis Workspace, trascina il Dimension **[!UICONTROL Page]** in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all&#39;altra nella parte superiore:
 
    ![Tabella a forma libera che mostra la dimensione Pagina per i visitatori tedeschi e internazionali](assets/workspace-pages.png)
 
@@ -63,7 +63,7 @@ Puoi portare l’esempio precedente più in là confrontando il filtro con una p
 1. Rilascia il filtro Visitatori tedeschi (o internazionali) nell’area di lavoro.
 1. Rilascia qui sotto un altro filtro Visitatori tedeschi (o internazionali). Tuttavia, questa volta, fai clic sulla relativa icona di configurazione (ingranaggio) per selezionare il tipo di metrica &quot;Totale&quot;. Il formato deve essere &quot;Percentuale&quot;. L’operatore deve essere &quot;diviso per&quot;. Alla fine trovi questa definizione di metrica:
 
-   ![Paesi è uguale a Germania e Visitatori univoci totali](assets/cm_metric_total.png)
+   ![Paesi è uguale a Germania e Totale visitatori univoci](assets/cm_metric_total.png)
 
 1. Applica questa metrica al progetto:
 

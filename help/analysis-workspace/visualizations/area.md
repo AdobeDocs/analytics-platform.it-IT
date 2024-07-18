@@ -17,7 +17,7 @@ ht-degree: 75%
 
 Questa visualizzazione di è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche.
 
-![Visualizzazione di aree che mostra più metriche tra cui Visualizzazioni pagina, Visite, Visitatori univoci e Percentuale non recapitate.](assets/area.png)
+![Visualizzazione area che mostra più metriche tra cui visualizzazioni di pagina, visite, visitatori univoci e frequenza di rimbalzo.](assets/area.png)
 
 ## Superfici sovrapposte {#stacked}
 

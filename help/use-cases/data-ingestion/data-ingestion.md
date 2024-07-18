@@ -31,7 +31,7 @@ Questo flusso di lavoro utilizza il connettore di origine di Analytics e varia a
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) è una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi Experience Cloud tramite la rete Edge di Adobe Experience Platform.
 
-1. [Configurare l’estensione Adobe Experience Platform Web SDK nei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it) per inviare dati a Adobe Experience Cloud dalle proprietà Web tramite Adobe Experience Platform Edge Network.
+1. [Configura l&#39;estensione Adobe Experience Platform Web SDK nei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it) per inviare dati a Adobe Experience Cloud dalle proprietà Web tramite l&#39;Edge Network di Adobe Experience Platform.
 1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
 
 ## Acquisire dati in modalità batch e in streaming
@@ -52,7 +52,7 @@ Adobe Experience Platform riunisce dati provenienti da più origini per aiutare 
 
 Segui i passaggi dettagliati descritti in questo tutorial su come [analizzare i dati Google Analytics utilizzando Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html).
 
-## Utilizza Bulk Data Insertion API per inserire i dati in Analytics, quindi effettua l’acquisizione tramite il connettore di origine Analytics in Experienci Platform
+## Utilizza Bulk Data Insertion API per inserire i dati in Analytics, quindi effettua l’acquisizione tramite il connettore di origine Analytics in Experience Platform
 
 1. [Utilizza Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) per inviare dati di raccolta lato server ad Adobe Analytics. È possibile inviare file in formato CSV contenenti dati di eventi.
 1. [Crea un connettore di origine Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per inserire i dati dei consumatori in Adobe Experience Platform.
