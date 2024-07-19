@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3029'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -80,16 +80,16 @@ Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experien
 
    | Colonna | Descrizione |
    |---|---|
-   | Set di dati | Nome del set di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un popup con ulteriori dettagli per il set di dati. Nel popup è possibile selezionare **[!UICONTROL Edit in Platform]** per modificare il set di dati direttamente in Experience Platform. |
-   | Tipo di set di dati | Il tipo di set di dati: Evento, Profilo o Ricerca. |
-   | Numero di record | Il totale dei record del mese precedente per il set di dati in Experience Platform. |
-   | Schema | Schema su cui si basa il set di dati. Seleziona il nome per indirizzarti allo schema nell’Experience Platform. |
-   | Ultima batch | Lo stato dell’ultimo batch acquisito in Experience Platform. Per ulteriori informazioni, vedere [Stati batch](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states). |
+   | Set di dati | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Nel pop-up è possibile selezionare **[!UICONTROL Edit in Platform]** per modificare il set di dati direttamente in Experience Platform. |
+   | Tipo di set di dati | Tipo di set di dati: evento, profilo o ricerca. |
+   | Numero di record | Totale dei record del mese precedente per il set di dati in Experience Platform. |
+   | Schema | Schema su cui si basa il set di dati. Seleziona il nome per indirizzarti allo schema in Experience Platform. |
+   | Ultimo batch | Stato dell’ultimo batch acquisito in Experience Platform. Per ulteriori informazioni, consulta [Stati batch](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/batch/troubleshooting#batch-states). |
    | ID set di dati | ID del set di dati. |
-   | Ultimo aggiornamento | L’ultimo timestamp aggiornato del set di dati. |
+   | Ultimo aggiornamento | Marca temporale dell’ultimo aggiornamento del set di dati. |
 
 
-1. Selezionare uno o più set di dati e selezionare **[!UICONTROL Next]**. Deve far parte della connessione almeno un set di dati evento.
+1. Seleziona uno o più set di dati e seleziona **[!UICONTROL Next]**. Deve far parte della connessione almeno un set di dati evento.
    * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Customize table].
    * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
    * Per scegliere tra visualizzare o nascondere i set di dati selezionati, utilizza ![Seleziona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Hide selected]** o **[!UICONTROL Show selected]**.
