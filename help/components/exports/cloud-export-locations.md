@@ -5,10 +5,10 @@ title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 1bf36f60b0b3aec04bb1452e5f63f97051d9bb50
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 20%
+source-wordcount: '1884'
+ht-degree: 19%
 
 ---
 
@@ -43,7 +43,7 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 ---------- ---------
 | [!UICONTROL **Nome**] | Nome della posizione.  |
 | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione della posizione per distinguerla dalle altre posizioni sull’account. |
-| [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | **Nota:** questa funzionalità si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md). <p>Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.</p> <p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
+| [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione. <p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
 | [!UICONTROL **Account località**] | Selezionare l&#39;account in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md). |
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.

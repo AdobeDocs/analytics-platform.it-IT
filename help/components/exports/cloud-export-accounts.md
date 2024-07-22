@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 9a0e6ed66a20eac1fa5f94efd378842a579826c0
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '1964'
 ht-degree: 29%
 
 ---
@@ -45,8 +45,6 @@ Per informazioni su come gestire gli account esistenti, tra cui la visualizzazio
    * Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.
 
    * Chiunque può creare una posizione per l&#39;account condiviso.
-
-   **Nota:** questa funzionalità si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
 
 1. Nel campo [!UICONTROL **Tipo di account**], seleziona il tipo di account cloud in cui stai effettuando l&#39;esportazione. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.
 
