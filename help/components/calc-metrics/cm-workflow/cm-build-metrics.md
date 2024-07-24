@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +16,17 @@ Il Customer Journey Analytics fornisce un’area di lavoro per trascinare e rila
 
 ## Inizio della creazione di una metrica calcolata
 
-Puoi iniziare a creare una metrica calcolata in uno dei seguenti modi:
+Puoi utilizzare il generatore di metriche calcolate per creare metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, puoi creare una metrica calcolata rapida, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/components/apply-create-metrics.md).
 
-* In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
-* In Analysis Workspace, apri un progetto, quindi seleziona l&#39;icona **Plus** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
-* In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
+Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata disponibile nell’elenco dei componenti.
+
+1. Accedi al generatore di metriche calcolate in uno dei seguenti modi:
+
+   * In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
+   * In Analysis Workspace, apri un progetto, quindi seleziona l&#39;icona **Plus** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
+   * In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
+
+1. Continua con [Aree del generatore di metriche calcolate](#areas-of-the-calculated-metrics-builder).
 
 ## Aree del generatore di metriche calcolate
 
@@ -46,7 +52,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | Icona ingranaggio (tipo di metrica, attribuzione) | Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e i modelli di attribuzione. <p>**Nota:** quando si aggiorna l&#39;attribuzione di un componente a un modello di attribuzione non predefinito, considera quanto segue:</p><ul><li>**Quando si utilizza il componente in un report con *una singola dimensione*:** L&#39;attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.</li><li>**Quando si utilizza il componente in un report con *più dimensioni*:** L&#39;attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.</li><li>Più dimensioni sono disponibili solo quando [esporta dati nel cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>Per ulteriori informazioni sull&#39;allocazione, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).</p> |
 | Icona più (+) | Consente di creare un nuovo componente, ad esempio un nuovo filtro (che porta al Generatore di filtri ). |
 | Componenti ricerca | Questa barra di ricerca consente di cercare dimensioni, metriche, filtri (solo per metriche calcolate avanzate) e funzioni (solo per metriche calcolate avanzate). |
-| Elenco dei Dimension | Invece di uscire dal generatore di metriche calcolate per creare un filtro semplice (nel generatore di filtri), ad esempio &quot;Pagina = Home page&quot;, puoi trascinare la pagina e selezionare la pagina iniziale direttamente dal generatore di metriche calcolate. Questo si traduce in un flusso di lavoro molto più semplice per la creazione di metriche calcolate filtrate. |
+| Elenco dei Dimension | Invece di uscire dal generatore di metriche calcolate per creare un filtro semplice (nel generatore di filtri), ad esempio &quot;Pagina = Home page&quot;, puoi trascinare dentro Pagina e selezionare Home page direttamente dal generatore di metriche calcolate. Questo si traduce in un flusso di lavoro molto più semplice per la creazione di metriche calcolate filtrate. |
 | Elenco delle metriche | Le metriche sono disponibili in 3 categorie:<ul><li>Metriche standard</li><li>Metriche calcolate</li><li>Modelli di metriche: in fondo all’elenco.</li></ul>Quando passi il cursore su una metrica, puoi vedere l’icona Info a destra di essa. Facendo clic su questa icona si ottengono le seguenti informazioni:<ul><li>La formula di calcolo.</li><li>Tendenza di anteprima della metrica.</li><li>Un’icona di modifica (matita) in alto a destra che ti porta al generatore di metriche calcolate dove puoi modificare questa metrica calcolata.</li></ul> |
 | Elenco filtri | Solo per metriche calcolate avanzate. In qualità di amministratore, questo elenco mostra tutti i filtri creati nella società di accesso. Se non sei un utente amministratore, in questo elenco vengono visualizzati i filtri di tua proprietà e quelli condivisi con te. |
 | Elenco delle funzioni | (Solo per metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: Base (utilizzato più spesso) e Avanzate. |

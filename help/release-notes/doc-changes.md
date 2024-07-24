@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '3816'
-ht-degree: 65%
+source-wordcount: '3920'
+ht-degree: 63%
 
 ---
 
@@ -20,8 +20,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2024** | |
+| Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all&#39;interno di un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su per creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Metriche di compilazione](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
 | Funzione di deduplicazione campo derivato | È stata aggiunta la documentazione sulla funzione [deduplicate](/help/data-views/derived-fields/derived-fields.md#deduplicate) del campo derivato. |
-| Messaggi di errore comuni aggiornati | Aggiornamenti minori ai [messaggi di errore comuni](/help/analysis-workspace/workspace-faq/error-messages.md). |
+| Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
 | Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili nella documentazione del Customer Journey Analytics e nella [documentazione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Unione basata su grafo | È stata aggiornata e ristrutturata la [documentazione relativa all&#39;unione](/help/stitching/overview.md) con l&#39;introduzione dell&#39;unione basata su grafico. |
