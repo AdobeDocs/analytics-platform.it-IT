@@ -6,9 +6,9 @@ exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
 source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -68,14 +68,14 @@ L’analisi guidata utilizza i seguenti elementi dell’interfaccia utente:
 
 ## Provisioning
 
-Le viste di analisi guidate sono incluse nei pacchetti di Customer Journey Analytics nel modo seguente:
+Le visualizzazioni di analisi guidate sono incluse nei pacchetti di Customer Journey Analytics nel modo seguente:
 
 | Pacchetto | Visualizzazioni disponibili |
 | --- | --- |
-| [!UICONTROL CJA add-ons] | Tendenze: uso, tendenze: frequenza, funnel: attrito, funnel: tendenze di conversione, mantenimento: tassi di mantenimento, crescita utente: attivo, crescita utente: crescita netta |
+| [!UICONTROL CJA add-ons] | Tendenze: utilizzo, tendenze: frequenza, funnel: attrito, funnel: tendenze di conversione, conservazione: tassi di conservazione, crescita utente: attivo, crescita utente: crescita netta |
 | [!UICONTROL CJA Foundation] | Tendenze: utilizzo |
-| [!UICONTROL CJA Select] | Viste di base + Tendenze: Frequenza, Funnel: Attrito, Funnel: Tendenze di conversione, Mantenimento: Tassi di mantenimento, Crescita utente: Attivo, Crescita utente: Crescita netta |
-| [!UICONTROL CJA Prime] | Seleziona viste + Flusso utente: Timeline, Matrice di funzioni: Coinvolgimento, Impatto: Rilascio, Impatto: Primo utilizzo |
+| [!UICONTROL CJA Select] | Visualizzazioni Foundation + Tendenze: frequenza, funnel: attrito, funnel: tendenze di conversione, conservazione: tassi di conservazione, crescita utente: attivo, crescita utente: crescita netta |
+| [!UICONTROL CJA Prime] | Seleziona visualizzazioni + Flusso utente: timeline, matrice di funzioni: coinvolgimento, impatto: rilascio, impatto: primo utilizzo |
 | [!UICONTROL CJA Ultimate] | Visualizzazioni Prime |
 
 {style="table-layout:auto"}

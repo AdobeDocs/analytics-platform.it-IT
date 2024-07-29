@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Come parte della configurazione di una connessione, è possibile trasformare i s
 
 >[!TAB Campi derivati]
 
-Sono ora disponibili nuove funzioni derivate per i campi (Matematica, Successiva o Precedente, Riepiloga, Deduplica) e modelli di funzioni aggiuntivi (come Mancati recapiti, Nome set di dati descrittivo, Stagione festiva, Obiettivi mensili, Rilevamento bot semplice e altri).
+Sono ora disponibili nuove funzioni per i campi derivati (Matematica, Successivo o Precedente, Riepilogo, Deduplica) e per i modelli di funzione aggiuntivi (come Mancati recapiti, Nome descrittivo set di dati, Vacanze, Obiettivi mensili, Rilevamento dei bot semplice e altri).
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 

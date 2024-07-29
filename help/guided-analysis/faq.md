@@ -1,24 +1,24 @@
 ---
 title: Domande frequenti sull’analisi guidata
-description: Domande frequenti per l’analisi guidata.
+description: Domande frequenti sull’analisi guidata.
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: df00d954de5db89f0ccc40f7eb2474523d9e774e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti sull’analisi guidata
 
-Domande frequenti per l’analisi guidata.
+Domande frequenti sull’analisi guidata.
 
-+++**La mia organizzazione ha accesso all&#39;analisi guidata?**
++++**La mia organizzazione ha accesso all’analisi guidata?**
 
-Le viste di analisi guidate sono incluse in tutti i pacchetti di Customer Journey Analytics. Per ulteriori informazioni sulle visualizzazioni sbloccate dal pacchetto CJA, consulta la sezione [provisioning](overview.md#provisioning) nella pagina della panoramica.
+Le visualizzazioni di analisi guidata sono incluse in tutti i pacchetti di Customer Journey Analytics. Per ulteriori informazioni sulle visualizzazioni sbloccate dal pacchetto CJA, consulta la sezione [provisioning](overview.md#provisioning) nella pagina della panoramica.
 
 +++
 
@@ -26,7 +26,7 @@ Le viste di analisi guidate sono incluse in tutti i pacchetti di Customer Journe
 
 Se già utilizzi Customer Journey Analytics, non sono necessarie ulteriori modifiche all’implementazione. L’analisi guidata utilizza le stesse [Visualizzazioni dati](../data-views/data-views.md) e [Connessioni](../connections/overview.md) di altre interfacce CJA come [Analysis Workspace](../analysis-workspace/home.md).
 
-Per consentire agli utenti finali di avere il maggior successo nell&#39;analisi guidata, è consigliabile disporre di uno schema eventi e di una strategia di gestione affidabili in Adobe Experience Platform e [Visualizzazioni dati](../data-views/data-views.md).
+Per consentire agli utenti finali di utilizzare al meglio l’analisi guidata, è consigliabile mettere in atto uno schema degli eventi e di una strategia di gestione affidabili in Adobe Experience Platform e nelle [Visualizzazioni dati](../data-views/data-views.md).
 
 +++
 
@@ -38,7 +38,7 @@ L’**analisi guidata** può aiutare gli utenti a ottenere rapidamente informazi
 
 +++
 
-+++**Come si confronta la terminologia tra analisi guidata e Analysis Workspace?**
++++**Come si  confronta la terminologia tra l’analisi guidata e Analysis Workspace?**
 
 L’analisi guidata si serve di termini utilizzati più frequentemente tra i team di prodotto. È possibile fare riferimento a questa tabella quando si passa da analisi guidata ad [Analysis Workspace](../analysis-workspace/home.md).
 
@@ -54,7 +54,7 @@ L’analisi guidata si serve di termini utilizzati più frequentemente tra i tea
 
 +++
 
-+++**Quali sono alcune differenze nell&#39;analisi guidata e nel reporting dell&#39;approccio di Analysis Workspace?**
++++**Quali sono le differenze nell’approccio di reporting tra l’analisi guidata e Analysis Workspace?**
 
 Sebbene [Analysis Workspace](../analysis-workspace/home.md) e l’analisi guidata utilizzino gli stessi dati sottostanti, il modo in cui ciascuno strumento consente di creare query di tali dati è diverso.
 
@@ -70,7 +70,7 @@ Prendi in considerazione l’esempio seguente in cui puoi concentrarti sui dati 
 
   ![Approccio incentrato sulle dimensioni](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* Un tipico evento e un approccio di analisi guidata incentrato sull’utente sarebbero: &quot;Quanti utenti hanno visitato la home page?&quot;
+* Un tipico approccio di analisi guidata incentrato sull’evento e sull’utente consisterebbe nell’esaminare quanti utenti hanno visitato la pagina Home
 
   ![Approccio incentrato sull’evento](assets/event-centered.png){style="border:1px solid gray"}
 
