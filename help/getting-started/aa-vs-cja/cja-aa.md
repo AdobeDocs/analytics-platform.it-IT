@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
+source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 100%
+source-wordcount: '2264'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Report Builder | Supportato con un nuovo plug-in di Office 365 per Excel. |
 | Autorizzazioni utente/Controlli dell’accesso ai dati | Customer Journey Analytics distingue tra amministratori di prodotto, amministratori di prodotto di [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e amministratori e utenti dei profili di prodotto. Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, filtri o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, filtri o annotazioni. |
 | Visualizzazioni | Sono supportate tutte le visualizzazioni Workspace, tranne la visualizzazione Mappa. |
-| Unione cross-device/cross-channel | Supportata per i set di dati direttamente contenenti informazioni di identità (nota anche come unione “basata su campi”). L’unione basata sui grafici non è ancora supportata, ma lo sarà presto. Consulta [Unione](../../stitching/overview.md). |
+| Unione cross-device/cross-channel | Supportato per i set di dati evento contenenti informazioni di identità. Consulta [Unione](../../stitching/overview.md). |
 
 {style="table-layout:auto"}
 
