@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 100%
+source-wordcount: '2353'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ L’unione “ripete” i dati in base a identificatori univoci appresi. La ripe
 
 +++**Come funziona l’unione dei dati storici (retrocompilazione)?**
 
-Quando CCA è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risalgono all’inizio del mese precedente (fino a 60 giorni). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/overview.md)
+Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale fino a quanto selezionato da te (fino a un massimo di 25 mesi, a seconda del pacchetto di Customer Journey Analytics a cui hai diritto). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/overview.md)
 
 +++
 
