@@ -6,9 +6,9 @@ feature: Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ L’**analisi guidata** può aiutare gli utenti a ottenere rapidamente informazi
 
 +++**Come si  confronta la terminologia tra l’analisi guidata e Analysis Workspace?**
 
-L&#39;analisi guidata e [Analysis Workspace](../analysis-workspace/home.md) si allineano alla maggior parte della terminologia chiave, con alcune piccole differenze.
+L’analisi guidata e [Analysis Workspace](../analysis-workspace/home.md) si allineano alla maggior parte della terminologia chiave, con alcune piccole differenze.
 
 | Termine di analisi guidata | Termine di Analysis Workspace |
 | --- | --- |
@@ -50,7 +50,7 @@ L&#39;analisi guidata e [Analysis Workspace](../analysis-workspace/home.md) si a
 | Elemento dimensione | Elemento dimensione |
 | Segmento | Filtro |
 | Filtro | Filtro rapporto |
-| Metrica calcolata, Metriche | Metrica calcolata |
+| Metriche calcolate, metriche | Metrica calcolata |
 
 {style="table-layout:auto"}
 
