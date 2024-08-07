@@ -3,16 +3,16 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4f228dbe58a9efbe988f274c071c61ec5e36d321
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: 466b4e22ba39197208a191a7298bf37a0b3e36c8
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
 
 # Note sulla versione corrente di Adobe Customer Journey Analytics di Adobe (luglio 2024)
 
-**Ultimo aggiornamento**: 29 luglio 2024
+**Ultimo aggiornamento**: giovedì 7 agosto 2024
 
 Queste note sulla versione coprono il periodo di rilascio compreso tra il 17 luglio 2024 e agosto 2024. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -26,7 +26,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra il 17 lug
 | **Campi derivati - Funzione Deduplica** | La funzione [Deduplica](/help/data-views/derived-fields/derived-fields.md#deduplicate) nei campi derivati consente di evitare di contare più volte un valore. |  | 17 luglio 2024 |
 | **Provisioning dell’analisi guidata per i clienti CJA** | L’analisi guidata consente agli utenti di gestire in autonomia dati e informazioni approfondite di alta qualità sul percorso del cliente tramite flussi di lavoro guidati, basati sui dati cross-channel di Customer Journey Analytics. <p>I team interfunzionali, dal marketing al prodotto, possono connettersi in tempo reale per utilizzare e comprendere questi rapporti.</p><p>Nei pacchetti CJA sono ora disponibili fino a 11 visualizzazioni di analisi guidate. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/overview)</p> |  | 17 luglio 2024 |
 | **Condividere account e posizioni utilizzati per l’esportazione e l’importazione** | Gli utenti possono ora rendere disponibili a tutti gli utenti della propria organizzazione gli account e le posizioni creati. Solo i proprietari degli account e delle posizioni e gli amministratori di sistema possono modificarli ed eliminarli. In precedenza, gli account e le posizioni potevano essere utilizzati solo dall’utente che li aveva creati. Queste impostazioni sono disponibili quando gli utenti [configurano account](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts) e le [posizioni di esportazione cloud](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/exports/cloud-export-locations). | 12 giugno 2024 | 19 luglio 2024 |
-| **I tipi di pubblico sono pubblicati in una nuova sezione “Tipi di pubblico” in Experience Platform** | I tipi di pubblico pubblicati da Customer Journey Analytics ora sono disponibili nella nuova sezione “Tipi di pubblico” in Adobe Experience Platform.<p>In precedenza, i tipi di pubblico pubblicati da Customer Journey Analytics erano disponibili in Experience Platform nella sezione “Segmenti”.</p><p>Questo miglioramento offre i seguenti vantaggi:</p><ul><li>I tipi di pubblico non hanno più un ritardo di 1 ora prima di essere visualizzati in Experience Platform, ma sono disponibili pochi secondi dopo la pubblicazione.</li><li>I tipi di pubblico possono essere ordinati in Experience Platform utilizzando la colonna “Origine”, che mostra l’applicazione da cui sono stati originariamente pubblicati.</li><li>Le opzioni di filtro e ordinamento in Experience Platform consentono di trovare più rapidamente i tipi di pubblico rilevanti.</li></ul> <p>(Il link alla documentazione seguirà a breve)</p> |  | Da definire |
+| **I tipi di pubblico sono pubblicati in una nuova sezione “Tipi di pubblico” in Experience Platform** | I tipi di pubblico pubblicati da Customer Journey Analytics ora sono disponibili nella nuova sezione “Tipi di pubblico” in Adobe Experience Platform.<p>In precedenza, i tipi di pubblico pubblicati da Customer Journey Analytics erano disponibili in Experience Platform nella sezione “Segmenti”.</p><p>Questo miglioramento offre i seguenti vantaggi:</p><ul><li>I tipi di pubblico non hanno più un ritardo di 1 ora prima di essere visualizzati in Experience Platform, ma sono disponibili pochi secondi dopo la pubblicazione.</li><li>I tipi di pubblico possono essere ordinati in Experience Platform utilizzando la colonna “Origine”, che mostra l’applicazione da cui sono stati originariamente pubblicati.</li><li>Le opzioni di filtro e ordinamento in Experience Platform consentono di trovare più rapidamente i tipi di pubblico rilevanti.</li></ul> <p>(Il link alla documentazione seguirà a breve)</p> | giovedì 14 agosto 2024 | venerdì 22 agosto 2024 |
 
 {style="table-layout:auto"}
 
