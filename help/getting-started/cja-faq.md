@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ L’unione “ripete” i dati in base a identificatori univoci appresi. La ripe
 
 +++**Come funziona l’unione dei dati storici (retrocompilazione)?**
 
-Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale fino a quanto selezionato da te (fino a un massimo di 25 mesi, a seconda del pacchetto di Customer Journey Analytics a cui hai diritto). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/overview.md)
+Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti che risale fino a quanto selezionato (fino a un massimo di 25 mesi, a seconda del pacchetto di Customer Journey Analytics a cui hai diritto). Per eseguire questa operazione di recupero, l’ID transitorio deve esistere nei dati non uniti che risalgono al periodo precedente. [Ulteriori informazioni](../stitching/overview.md)
 
 +++
 
