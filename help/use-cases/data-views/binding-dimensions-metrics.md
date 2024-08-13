@@ -4,19 +4,19 @@ description: Scopri come attribuire dimensioni ad array di oggetti per complesse
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 83%
+ht-degree: 70%
 
 ---
 
 
-# Utilizzare dimensioni e metriche di binding nel Customer Journey Analytics
+# Utilizzare dimensioni e metriche di binding
 
 Customer Journey Analytics offre diversi modi per mantenere i valori delle dimensioni oltre l’hit su cui sono impostati. Uno dei metodi di persistenza offerti da Adobe è noto come “binding”. Nelle versioni precedenti di Adobe Analytics, questo concetto era noto come “merchandising”.
 
-Anche se è possibile utilizzare dimensioni di binding con dati evento di livello principale, questo concetto è più indicato per l’utilizzo con [array di oggetti](/help/use-cases/object-arrays.md). È possibile attribuire una dimensione a una parte di un array di oggetti senza applicarla a tutti gli attributi di un dato evento. Ad esempio, puoi attribuire un termine di ricerca a un prodotto nell’array dell’oggetto carrello senza associare tale termine all’intero evento.
+Anche se è possibile utilizzare dimensioni di binding con dati evento di livello principale, questo concetto è più indicato per l’utilizzo con [array di oggetti](/help/use-cases/object-arrays.md). È possibile attribuire una dimensione a una parte di un array di oggetti senza applicare la dimensione a tutti gli attributi di un dato evento. Ad esempio, puoi attribuire un termine di ricerca a un prodotto nell’array dell’oggetto carrello senza associare tale termine all’intero evento.
 
 ## Esempio 1: utilizzare dimensioni di binding per attribuire altri attributi di prodotto a un acquisto
 
@@ -90,11 +90,11 @@ Quando imposti questo modello di persistenza, il Customer Journey Analytics pren
 | bianco | 1600 |
 | arancione fluo | 499 |
 
-## Esempio 2: utilizzare metriche di binding per associare termini di ricerca all’acquisto di un prodotto
+## Esempio 2: utilizzare metriche di binding per collegare un termine di ricerca a un acquisto di prodotto
 
-Uno dei metodi di merchandising più comuni in Adobe Analytics prevede l’associazione di un termine di ricerca a un prodotto, in modo che a ogni termine di ricerca venga attribuito il merito per il prodotto appropriato. Considera il seguente percorso del cliente:
+Uno dei metodi di merchandising più comuni in Adobe Analytics consiste nell’associare un termine di ricerca a un prodotto, in modo che a ogni termine di ricerca venga attribuito il merito per il prodotto appropriato. Considera il seguente percorso del cliente:
 
-1. Un visitatore arriva al tuo sito e cerca “guantoni da boxe”. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
+1. Un visitatore arriva sul tuo sito e cerca `boxing gloves`. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -131,7 +131,7 @@ Uno dei metodi di merchandising più comuni in Adobe Analytics prevede l’assoc
    }
    ```
 
-3. Poi il visitatore cerca “racchetta da tennis”. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
+3. Il visitatore cerca quindi `tennis racket`. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -171,7 +171,7 @@ Uno dei metodi di merchandising più comuni in Adobe Analytics prevede l’assoc
    }
    ```
 
-5. Il visitatore esegue quindi una terza ricerca, questa volta per “scarpe”. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
+5. Il visitatore esegue una terza ricerca per `shoes`. La metrica delle ricerche viene incrementata di uno, e vengono visualizzati i primi tre risultati di ricerca.
 
    ```json
    {
@@ -250,9 +250,9 @@ Se hai utilizzato l&#39;allocazione [!UICONTROL Most Recent] con la dimensione d
 | --- | --- |
 | scarpe | $ 204,97 |
 
-Anche se questo esempio include una sola persona, molte persone che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi, rendendo difficile determinare quali siano effettivamente i migliori risultati di ricerca.
+Anche se questo esempio include una sola persona, molte persone che cercano cose diverse possono attribuire erroneamente i termini di ricerca a prodotti diversi. La ricerca di più persone rende difficile determinare quali siano effettivamente i migliori risultati di ricerca.
 
-È ora possibile associare [!DNL Search Term] a [!DNL Product Name] ogni volta che la metrica [!DNL Searches] è presente per attribuire correttamente il termine di ricerca ai ricavi.
+È ora possibile associare [!DNL Search Term] a [!DNL Product Name] ogni volta che è presente la metrica [!DNL Searches] per attribuire correttamente il termine di ricerca ai ricavi.
 
 ![Metrica di binding](../assets/binding-metric.png)
 
@@ -268,11 +268,11 @@ Il Customer Journey Analytics rileva automaticamente la relazione tra la dimensi
 
 L’impostazione della dimensione Termine di ricerca su questo modello di persistenza esegue la logica seguente:
 
-* Quando è impostata la dimensione Termine di ricerca, controlla la presenza del nome del prodotto.
+* Quando è impostata la dimensione Termine di ricerca, verifica la presenza di un nome di prodotto.
 * Se il nome del prodotto non è presente, non viene eseguita alcuna operazione.
-* Se il nome del prodotto è presente, viene controllato se è presente la metrica Ricerche.
+* Se il nome del prodotto è presente, verifica la presenza della metrica Ricerche.
 * Se la metrica Ricerche non è presente, non viene eseguita alcuna operazione.
-* Se la metrica Ricerche è presente, il termine di ricerca viene associato a tutti i nomi di prodotto in tale evento. Viene quindi copiato fino allo stesso livello del nome del prodotto per l’evento in questione. In questo esempio, si tratta di product.search_term.
+* Se la metrica Ricerche è presente, il termine di ricerca viene associato a tutti i nomi di prodotto in tale evento. Viene quindi copiato fino allo stesso livello del nome del prodotto dell’evento. In questo esempio viene considerato come `product.search_term`.
 * Se lo stesso nome di prodotto è presente in un evento successivo, il termine di ricerca viene associato anche a tale evento.
 
 ## Esempio 3: associare il termine di ricerca video al profilo utente
@@ -334,7 +334,7 @@ Puoi associare un termine di ricerca a un profilo utente in modo da mantenere co
    }
    ```
 
-Con l’allocazione Più recente e scadenza Persona, il termine di ricerca `"grownup movie"` viene attribuito all’ultima visualizzazione del programma per bambini.
+Con l’allocazione Più recente e scadenza Persona, il termine di ricerca `grownup movie` viene attribuito all’ultima visualizzazione del programma per bambini.
 
 | Termine di ricerca | Avvio del video |
 | --- | --- |
@@ -345,7 +345,7 @@ Tuttavia, se hai associato `search_term` a `ProfileID`, le ricerche di ciascun p
 
 ![Associazione dei visitatori](../assets/binding-profileid.png)
 
-Analysis Workspace attribuirà correttamente il secondo episodio di Orangey al termine di ricerca `"kids show"`, senza tenere conto delle ricerche effettuate per altri profili.
+Analysis Workspace attribuisce il secondo episodio di Orangey al termine di ricerca `kids show` senza tenere conto delle ricerche effettuate in altri profili.
 
 | Termine di ricerca | Avvio del video |
 | --- | --- |
@@ -356,7 +356,7 @@ Analysis Workspace attribuirà correttamente il secondo episodio di Orangey al t
 
 È possibile associare valori alle dimensioni impostate negli eventi precedenti. Quando imposti una variabile con una dimensione di binding, il Customer Journey Analytics tiene conto del valore persistente. Se questo comportamento non è desiderato, è possibile regolare le impostazioni di persistenza della dimensione di binding. Considera l’esempio seguente in cui `product_finding_method` è impostato su un evento, quindi associato alla metrica Aggiunte al carrello nell’evento seguente.
 
-1. Un visitatore cerca il termine `"camera"`. Su questa pagina non è impostato alcun prodotto.
+1. Un visitatore cerca il termine `camera`. Su questa pagina non è impostato alcun prodotto.
 
    ```json
    {

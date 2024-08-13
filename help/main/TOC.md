@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 6d4dd1cd0e2c9b89ed37ca713ecc6d5db7d9e745
+source-git-commit: 9c022dba63fd837aee28393aceb4eac851a993ec
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,12 @@ ht-degree: 100%
       + [Opzioni per “Nessun valore”](../data-views/component-settings/no-value-options.md)
       + [Persistenza](../data-views/component-settings/persistence.md)
       + [Sottostringa](../data-views/component-settings/substring.md)
+      + [Gruppo di dati di riepilogo](../data-views/component-settings/summary-data-group.md)
       + [Bucketing dei valori](../data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](../data-views/component-reference.md)
    + [Estensione BI](../data-views/bi-extension.md)
    + [Campi derivati](../data-views/derived-fields/derived-fields.md)
+   + [Dati di riepilogo](../data-views/summary-data.md)
    + [Etichette e criteri](../data-views/data-governance.md)
 
 + Progetti Workspace {#cja-workspace}
@@ -346,11 +348,12 @@ ht-degree: 100%
       + [Configurare i dati streaming di Google Analytics in Platform](../use-cases/ga/streaming.md)
       + [Rapporto sui dati Google Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
    + Acquisizione dei dati {#data-ingestion}
-      + [Acquisire dati di Marketo Engage in Adobe Experience Platform e generare report in Customer Journey Analytics](../use-cases/data-ingestion/marketo.md)
-      + [Acquisire i tipi di pubblico di Adobe Experience Platform in Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Acquisire e utilizzare i dati del Marketo Engage](../use-cases/data-ingestion/marketo.md)
+      + [Acquisire e utilizzare i tipi di pubblico Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Visualizzazioni dati {#data-views}
       + [Casi d’uso per le visualizzazioni dati](../use-cases/data-views/data-views-usecases.md)
       + [Utilizzare dimensioni e metriche di binding](../use-cases/data-views/binding-dimensions-metrics.md)
+      + [Utilizzare i dati di riepilogo](../use-cases/data-views/summary-data.md)
    + Esportazione dei dati {#data-export}
       + [Panoramica](../use-cases/data-export/overview.md)
       + [Estensione BI](../use-cases/data-export/bi-extension.md)
