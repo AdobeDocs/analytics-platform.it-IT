@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 91ab1d3160db83979e1550f8f1b5135065cc6707
+source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 56%
+source-wordcount: '1638'
+ht-degree: 51%
 
 ---
 
@@ -17,9 +17,9 @@ Questo argomento illustra come creare e pubblicare i tipi di pubblico identifica
 
 Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico di Customer Journey Analytics.
 
-## Creare un pubblico {#create}
+## Creare e pubblicare un pubblico {#create}
 
-1. Per creare tipi di pubblico, puoi iniziare in diversi modi:
+1. Per iniziare a creare e pubblicare un pubblico, effettua una delle seguenti operazioni:
 
    | Metodo di creazione | Dettagli |
    | --- | --- |
@@ -74,26 +74,26 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Fai clic su **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio; ti porterà all’[interfaccia utente dei segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it) in Adobe Experience Platform. Per ulteriori informazioni, vedi di seguito.
 
-## Cosa succede dopo la creazione di un pubblico? {#after-audience-created}
+## Cosa succede dopo la creazione e la pubblicazione di un pubblico? {#after-audience-created}
 
-Dopo aver creato un pubblico, Adobe crea un segmento di streaming di Experience Platform per ogni nuovo pubblico di Customer Journey Analytics. Un segmento di streaming di Adobe Experience Platform viene creato solo se l’organizzazione è configurata per la segmentazione in streaming.
+Dopo aver creato e pubblicato un pubblico in Customer Journey Analytics, il pubblico è disponibile in Experience Platform. Un segmento di streaming di Adobe Experience Platform viene creato solo se l’organizzazione è configurata per la segmentazione in streaming.
 
-* Il segmento Adobe Experience Platform condivide lo stesso nome/descrizione del pubblico del Customer Journey Analytics, ma al nome verrà aggiunto l’ID del pubblico del Customer Journey Analytics per garantire che sia univoco.
-* Se il nome/la descrizione del pubblico del Customer Journey Analytics cambia, anche il nome/la descrizione del segmento di Adobe Experience Platform riflette tale modifica.
-* Se un pubblico di Customer Journey Analytics viene eliminato da un utente, il segmento Adobe Experience Platform NON viene eliminato. Il motivo è che il pubblico di Customer Journey Analytics potrebbe in seguito non essere eliminato.
+* Il pubblico in Platform condivide lo stesso nome/descrizione del pubblico di Customer Journey Analytics, ma al nome verrà aggiunto l’ID del pubblico di Customer Journey Analytics per garantire che sia univoco.
+* Eventuali modifiche apportate al nome o alla descrizione del pubblico nel Customer Journey Analytics vengono riportate in Platform.
+* Se un pubblico viene eliminato nel Customer Journey Analytics, continua a essere disponibile in Platform.
 
 ## Considerazioni sulla latenza {#latency}
 
 In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono verificarsi latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenze nella pubblicazione del pubblico come descritto in questa sezione.](/help/components/audiences/assets/latency-diagram.png)
+![Latenze nella pubblicazione del pubblico come descritto in questa sezione.](assets/latency-diagram.svg)
 
 | # | Punto di latenza | Durata della latenza |
 | --- | --- | --- |
 | Non visualizzato | Connettore di origine da Adobe Analytics ad Analytics (A4T) | Fino a 30 minuti |
 | 1 | Acquisizione dei dati nel Data Lake (dal connettore di origine di Analytics o da altre origini) | Fino a 90 minuti |
 | 2 | Acquisizione dei dati da Experience Platform Data Lake a Customer Journey Analytics | Fino a 90 minuti |
-| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati.<p>**Nota**: il pubblico viene creato/definito in Experience Platform entro 1-2 minuti. Tuttavia, sono necessari circa 60 minuti prima che il pubblico inizi a ricevere gli ID in base ai criteri corrispondenti ed è pronto per l’attivazione. | Circa 60 minuti |
+| 3 | La pubblicazione dei tipi di pubblico sul Profilo cliente in tempo reale inclusa la creazione automatica del segmento in streaming e consentendo al segmento di essere pronto a ricevere i dati. | Qualche secondo |
 | 4 | Frequenza di aggiornamento per tipi di pubblico | <ul><li>Aggiornamento singolo (latenza inferiore a 5 minuti)</li><li>Aggiornamento ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza va di pari passo con la frequenza di aggiornamento) |
 | 5 | Creazione di una destinazione in Adobe Experience Platform: attivazione del nuovo segmento | 1-2 ore |
 
@@ -103,13 +103,32 @@ In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono ve
 
 Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] al momento della configurazione della connessione.
 
-RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiungerà lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ora, ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
+RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiunge lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
-Puoi visualizzare i tipi di pubblico del Customer Journey Analytics in Platform andando su **[!UICONTROL Segments]** > **[!UICONTROL Create segments]** > scheda **[!UICONTROL Audiences]** > **[!UICONTROL CJA Audiences]**.
+Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 
-Puoi trascinare i tipi di pubblico del Customer Journey Analytics nella definizione del segmento per i segmenti di Adobe Experience Platform.
+>[!AVAILABILITY]
+>
+>La funzionalità descritta nei passaggi seguenti si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Se questi passaggi non corrispondono a quelli visualizzati nell&#39;ambiente, utilizza i seguenti passaggi: Vai a [!UICONTROL **Segmenti**] > [!UICONTROL **Crea segmenti**] > [!UICONTROL **Scheda Tipi di pubblico**] > [!UICONTROL **Tipi di pubblico CJA**].
+>
+>Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, vedere [Rilasci di funzionalità del Customer Journey Analytics](/help/release-notes/releases.md).
 
-![Adobe dell&#39;interfaccia utente di Expericen Platform che evidenzia i segmenti nel riquadro a sinistra e i tipi di pubblico di CJA nel pannello principale.](assets/audiences-aep.png)
+1. Espandi [!UICONTROL **Cliente**] nella barra a sinistra, quindi seleziona [!UICONTROL **Tipi di pubblico**]. <!-- is there a folder called "Customer Journey Analytics? -->
+
+1. Selezionare la scheda [!UICONTROL **Sfoglia**].
+
+   Opzione ![Tipi di pubblico nel pannello a sinistra](assets/audiences-aep.png)
+
+1. Per individuare il pubblico pubblicato da Customer Journey Analytics, effettua una delle seguenti operazioni:
+
+   * Ordina la tabella in base alla colonna [!UICONTROL **Origin**] per visualizzare i tipi di pubblico che mostrano [!UICONTROL **Customer Journey Analytics**] come origine.
+
+   * Seleziona l’icona del filtro.
+
+   * Utilizza il campo di ricerca.
+
+Per ulteriori informazioni sull&#39;utilizzo dei tipi di pubblico in Platform, consulta la sezione [Tipi di pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#audiences) nella [guida dell&#39;interfaccia utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) nella documentazione di Experience Platform.
+
 
 ## Domande frequenti {#faq}
 
