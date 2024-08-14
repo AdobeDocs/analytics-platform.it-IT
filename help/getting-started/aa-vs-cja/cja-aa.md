@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: ht
-source-wordcount: '2264'
-ht-degree: 100%
+source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,6 +45,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Accesso API di reporting | Supporto completo; disponibile tramite l’[API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | Rapporti/progetti pianificati | Supporto completo |
 | Segmenti | Supporto completo. Ora denominati “Filtri”: tieni presente che eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non vengono caricati in Customer Journey Analytics. |
+| Origini dati a livello di riepilogo | Supporto completo |
 | Suite di rapporti virtuali | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
 | Cura dei componenti della suite di rapporti virtuali | Supporto completo. Ora fa parte di Visualizzazioni dati. |
 | Dimensioni di dispositivo, referrer, browser e tecnologia | Supportato per i set di dati basati sul [connettore di origine di Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it) e per i set di dati generati da WebSDK. Consulta la [documentazione su quali variabili Analytics sono supportate tramite ADC](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=it). Se utilizzi la raccolta dati di Experience Platform Web SDK, il dispositivo e le dimensioni basati sulla ricerca del dispositivo non sono attualmente supportati. Il supporto è pianificato per il futuro. Per aggiungere ricerche per dispositivi e browser allo stream di dati Web SDK, fai riferimento a [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
@@ -103,7 +104,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Reporting in tempo reale | Il supporto è pianificato. |
 | Segmento IQ | Il supporto è pianificato. |
 | Origini dati ID transazione | Il supporto è pianificato. |
-| Origini dati a livello di riepilogo | Il supporto è pianificato. |
 
 {style="table-layout:auto"}
 
