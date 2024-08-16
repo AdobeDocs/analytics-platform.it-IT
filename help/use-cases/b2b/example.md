@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: 3f83b4c141324a7b255ac5af039fa1d7607f3b15
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1211'
 ht-degree: 5%
 
 ---
@@ -58,16 +58,16 @@ Per garantire una configurazione corretta di una connessione che supporta le ric
 
    | Set di dati | ID persona | Chiave | Chiave corrispondente<br/>(nel set di dati evento) |
    |---|---|---|---| 
-   | Set di dati sull’attività B2B | `personKey.sourceKey` | | |
-   | Set di dati persona B2B | `b2b.personKey.sourceKey` | | |
-   | Set di dati account B2B | | `accountKey.sourceKey`❶<br/>Chiave Source | `b2b.accountKey.sourceKey`❶<br/>(Set Di Dati Persona B2B) |
-   | Set di dati dell’opportunità B2B | | `opportunityKey.sourceKey`❷<br/>Chiave Source | `opportunityKey.sourceKey`❷<br/>(Set Di Dati Relazione Opportunità B2B) |
-   | Set di dati della campagna B2B | | `campaignKey.sourceKey`❸<br/>Chiave Source | `campaignKey.sourceKey`❸<br/>(Set Di Dati Membri Campagna B2B) |
-   | Set di dati dell’elenco di marketing B2B | | `marketingListKey.sourceKey`❹<br/>Chiave Source | `marketingListKey.sourceKey`❹<br/>(Set Di Dati Membri Elenco Di Marketing B2B) |
-   | Set di dati relazione persona account B2B | | `personKey.sourceKey`❺<br/>Chiave Source | `personKey.sourceKey`❺<br/>Chiave Source (Set di dati evento) |
-   | Set di dati relazione persona opportunità B2B | | `personKey.sourceKey`❻<br/>Chiave Source | `personKey.sourceKey`❻<br/>Chiave Source (Set di dati evento) |
-   | Set di dati dei membri della campagna B2B | | `personKey.sourceKey`❼<br/>Chiave Source | `personKey.sourceKey`❼<br/>Chiave Source (Set di dati evento) |
-   | Set di dati membri dell’elenco di marketing B2B | | `personKey.sourceKey`❽<br/>Chiave Source | `personKey.sourceKey`❽<br/>Chiave Source (Set di dati evento) |
+   | Set di dati sull’attività B2B | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine** | | |
+   | Set di dati persona B2B | ChiaveOrigine <br/>**b2b.personKey.sourceKey** | | |
+   | Set di dati account B2B | | ChiaveOrigine <br/>**accountKey.sourceKey**❶ | SourceKey<br>(Set di dati persona B2B)<br/>**b2b.accountKey.sourceKey**❶ |
+   | Set di dati dell’opportunità B2B | | Chiave Source <br/>**optionKey.sourceKey**❷ | SourceKey<br/>(Set di dati relazione opportunità B2B)<br/>**optionKey.sourceKey**❷ |
+   | Set di dati della campagna B2B | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(set di dati membro campagna B2B)<br/>c **ampaignKey.sourceKey**❸<br/> |
+   | Set di dati dell’elenco di marketing B2B | | ChiaveOrigine <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(set di dati membro elenco di marketing B2B)<br/>**marketingListKey.sourceKey**❹ |
+   | Set di dati relazione persona account B2B | | SourceKey <br/>**personKey.sourceKey**❺ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❺ |
+   | Set di dati relazione persona opportunità B2B | | ChiaveOrigine <br/>**chiavePersona.chiaveOrigine** Y❻ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❻ |
+   | Set di dati dei membri della campagna B2B | | SourceKey <br/>**personKey.sourceKey**❼ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❼ |
+   | Set di dati membri dell’elenco di marketing B2B | | SourceKey <br/>**personKey.sourceKey**❽ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
