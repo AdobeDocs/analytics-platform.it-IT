@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 3f83b4c141324a7b255ac5af039fa1d7607f3b15
+source-git-commit: aa1615be6eaeb5c098659ec6b58829ca8efe64a4
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1210'
 ht-degree: 5%
 
 ---
@@ -62,7 +62,7 @@ Per garantire una configurazione corretta di una connessione che supporta le ric
    | Set di dati persona B2B | ChiaveOrigine <br/>**b2b.personKey.sourceKey** | | |
    | Set di dati account B2B | | ChiaveOrigine <br/>**accountKey.sourceKey**❶ | SourceKey<br>(Set di dati persona B2B)<br/>**b2b.accountKey.sourceKey**❶ |
    | Set di dati dell’opportunità B2B | | Chiave Source <br/>**optionKey.sourceKey**❷ | SourceKey<br/>(Set di dati relazione opportunità B2B)<br/>**optionKey.sourceKey**❷ |
-   | Set di dati della campagna B2B | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(set di dati membro campagna B2B)<br/>c **ampaignKey.sourceKey**❸<br/> |
+   | Set di dati della campagna B2B | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(Set di dati membro campagna B2B)<br/>**campaignKey.sourceKey**❸<br/> |
    | Set di dati dell’elenco di marketing B2B | | ChiaveOrigine <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(set di dati membro elenco di marketing B2B)<br/>**marketingListKey.sourceKey**❹ |
    | Set di dati relazione persona account B2B | | SourceKey <br/>**personKey.sourceKey**❺ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❺ |
    | Set di dati relazione persona opportunità B2B | | ChiaveOrigine <br/>**chiavePersona.chiaveOrigine** Y❻ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❻ |
