@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 63%
+source-wordcount: '3970'
+ht-degree: 65%
 
 ---
 
@@ -19,8 +19,11 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| Agosto 2024 | |
+| Casi d’uso aggiornati per l’esportazione dei dati | Sono stati aggiunti esempi di query più dettagliati a [Query Service (Data Distiller) ed esporta set di dati](/help/use-cases/data-export/queryservice-export-datasets.md) per illustrare come applicare correttamente l&#39;attribuzione tra le sessioni utilizzando un intervallo di lookback. |
+| Dati di riepilogo | È stata aggiunta la documentazione su [dati di riepilogo](/help/data-views/summary-data.md), [impostazioni dei componenti del gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md) e un [caso di utilizzo dei dati di riepilogo](/help/use-cases/data-views/summary-data.md). |
 | **Luglio 2024** | |
-| Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all&#39;interno di un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su per creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Metriche di compilazione](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
+| Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all’interno di un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su come creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Crea metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
 | Funzione di deduplicazione campo derivato | È stata aggiunta la documentazione sulla funzione [deduplicate](/help/data-views/derived-fields/derived-fields.md#deduplicate) del campo derivato. |
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
