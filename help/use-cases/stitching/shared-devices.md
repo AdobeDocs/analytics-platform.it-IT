@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: 97fcb5f16962b85aa4f95bfbe2f16295d8bb3452
+source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '993'
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ Con l’unione è possibile attribuire i dati dei dispositivi condivisi utilizza
 
 #### Attribuzione ultima autenticazione
 
-Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. In Audience Manager viene utilizzato Last-auth, l’approccio preferito per i casi di utilizzo di Real-Time Customer Data Profile. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico.
+Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. In Audience Manager viene utilizzato Last-auth, l’approccio preferito per i casi di utilizzo di Real-Time Customer Data Profile. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Panoramica delle regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview).
 
 Quando si utilizza l’attribuzione last-auth nell’unione, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
@@ -65,7 +65,7 @@ Quando si utilizza l’attribuzione last-auth nell’unione, gli ID uniti vengon
 
 #### Device-split
 
-L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente nelle immediate vicinanze dell’attività anonima. La suddivisione dei dispositivi è l’approccio preferito per i casi di utilizzo analitici, in quanto attribuisce il merito per l’attività non autenticata e autenticata alla persona nota più vicina. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
+L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente nelle immediate vicinanze dell’attività anonima. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi. La suddivisione dei dispositivi è l’approccio preferito per i casi di utilizzo analitici, in quanto attribuisce il merito per l’attività non autenticata e autenticata alla persona nota più vicina. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
 
 Quando si utilizza l’attribuzione device-split nell’unione, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
