@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
+source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
@@ -77,7 +77,7 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 | Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guardrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guardrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
-| Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento, il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platfo
 |---|--:|---|---|
 | Progetti | 50.000 | Guardrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
 | Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
-| Visualizzazioni dati | 50 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione |
+| Visualizzazioni dati | 500 - 1000 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
 | Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un&#39;organizzazione. |
 | Titolo connessione | 500 | Guardrail imposto dal sistema | Numero massimo di caratteri per un titolo di connessione. |
@@ -110,7 +110,7 @@ Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platfo
 | Descrizione annotazione | 250 | Guardrail imposto dal sistema | Numero massimo di caratteri per una descrizione di annotazione. |
 | Campi schema | 10 | Guardrail imposto dal sistema | Numero massimo di campi schema (esclusi i campi standard) durante la definizione delle regole per un [campo derivato](../data-views/derived-fields/derived-fields.md). |
 | Campi ricerca/profilo | 3 | Guardrail imposto dal sistema | Numero massimo di campi dello schema di ricerca o profilo all’interno del numero massimo di campi dello schema (esclusi i campi standard) durante la definizione delle regole per un campo derivato. |
-| Campi derivati | 100 - 500 | Guardrail imposto dal sistema | Numero massimo di campi derivati per connessione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Campi derivati | 100 - 500 | Guardrail imposto dal sistema | Numero massimo di campi derivati per connessione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -155,9 +155,9 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente; il valore varia a seconda del pacchetto di Customer Journey Analytics (consulta Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di retrocompilazione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -166,9 +166,9 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente; il valore varia a seconda del pacchetto di Customer Journey Analytics (consulta Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di retrocompilazione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 
 ## Filtri e metriche calcolate
@@ -215,7 +215,7 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Righe per report | 3 milioni - 300 milioni | Guardrail imposto dal sistema | Numero massimo di righe di reporting per rapporto; il valore varia a seconda del pacchetto di Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Righe per report | 3 milioni - 300 milioni | Guardrail imposto dal sistema | Numero massimo di righe di reporting per report. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Raggruppamenti per tabella | 5 | Guardrail imposto dal sistema | Numero massimo di raggruppamenti per tabella. |
 | Metriche per tabella | 5 | Guardrail imposto dal sistema | Numero massimo di metriche per tabella. |
 | Frequenza Schedule | 1 | Guardrail imposto dal sistema | Le esportazioni possono essere programmate una volta (1) al giorno o con una pianificazione più lunga (ad esempio, una volta ogni 2 giorni o settimanalmente). |
