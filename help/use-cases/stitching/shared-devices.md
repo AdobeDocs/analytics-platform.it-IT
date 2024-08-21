@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
+source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '950'
 ht-degree: 4%
 
 ---
@@ -102,7 +102,9 @@ Considera diversi fattori per comprendere correttamente la diffusione dei dispos
 
 Per comprendere l’esposizione del dispositivo condiviso, puoi considerare l’esecuzione delle seguenti query.
 
-1. Comprendere il numero di dispositivi condivisi. Puoi utilizzare una query che conta gli ID dispositivo a cui sono associati due o più ID persona. Un esempio di query potrebbe essere simile al seguente:
+1. **Identificare i dispositivi condivisi**
+
+   Per comprendere il numero di dispositivi condivisi, esegui una query che conta gli ID dispositivo con due o più ID persona associati. Questo aiuta a identificare i dispositivi utilizzati da più individui.
 
    ```sql
    SELECT COUNT(*)
@@ -116,7 +118,9 @@ Per comprendere l’esposizione del dispositivo condiviso, puoi considerare l’
    ```
 
 
-2. Per i dispositivi condivisi, risultanti dalla prima query, è necessario comprendere quanti eventi del totale degli eventi possono essere attribuiti a tali dispositivi condivisi. Questa attribuzione offre un’idea migliore dell’impatto dei dispositivi condivisi sui dati e dell’impatto durante l’analisi. Un esempio di query potrebbe essere simile al seguente:
+2. **Attribuzione di eventi a dispositivi condivisi**
+
+   Per i dispositivi condivisi identificati, determina quanti eventi sul totale possono essere attribuiti a questi dispositivi. Questo fornisce insight sull’impatto che i dispositivi condivisi hanno sui tuoi dati e sulle implicazioni per l’analisi.
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -141,7 +145,9 @@ Per comprendere l’esposizione del dispositivo condiviso, puoi considerare l’
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-3. Per gli eventi attribuiti ai dispositivi condivisi (il risultato della seconda query), è necessario comprendere quanti di questi eventi NON hanno un ID persona. In caso contrario, quanti eventi del dispositivo condiviso sono eventi anonimi. In ultima analisi, l’algoritmo (last-auth, device-split, ECID-reset) scelto per migliorare la qualità dei dati influisce su questi eventi anonimi del dispositivo condiviso. Un esempio di query potrebbe essere simile al seguente:
+3. **Identifica eventi anonimi su dispositivi condivisi**
+
+   Tra gli eventi attribuiti ai dispositivi condivisi, identifica quanti mancano di un ID persona, indicando eventi anonimi. L’algoritmo scelto (ad esempio last-auth, device-split o ECID-reset) per migliorare la qualità dei dati influirà su questi eventi anonimi.
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -166,7 +172,9 @@ Per comprendere l’esposizione del dispositivo condiviso, puoi considerare l’
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-4. Infine, è importante comprendere l&#39;esposizione che ogni cliente potrebbe avere a causa di errori di classificazione degli eventi. Per ottenere questa esposizione, devi calcolare, per ogni dispositivo condiviso, la percentuale di eventi anonimi relativi al numero totale di eventi. Un esempio di query potrebbe essere simile al seguente:
+4. **Calcola l&#39;esposizione da errata classificazione degli eventi**
+
+   Infine, valutare l’esposizione che ogni cliente potrebbe affrontare a causa di errori di classificazione degli eventi. Calcola la percentuale di eventi anonimi rispetto al totale degli eventi per ciascun dispositivo condiviso. Questo aiuta a comprendere il potenziale impatto sulla precisione dei dati dei clienti.
 
    ```sql
    SELECT COUNT(*) AS total_events,
