@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -348,8 +348,8 @@ ht-degree: 98%
       + [Configurare i dati streaming di Google Analytics in Platform](../use-cases/ga/streaming.md)
       + [Rapporto sui dati Google Analytics in Customer Journey Analytics](../use-cases/ga/report.md)
    + Acquisizione dei dati {#data-ingestion}
-      + [Acquisire e utilizzare i dati del Marketo Engage](../use-cases/data-ingestion/marketo.md)
-      + [Acquisire e utilizzare i tipi di pubblico Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Acquisire e utilizzare i dati di Marketo Engage](../use-cases/data-ingestion/marketo.md)
+      + [Acquisire e utilizzare i tipi di pubblico di Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Visualizzazioni dati {#data-views}
       + [Casi d’uso per le visualizzazioni dati](../use-cases/data-views/data-views-usecases.md)
       + [Utilizzare dimensioni e metriche di binding](../use-cases/data-views/binding-dimensions-metrics.md)
