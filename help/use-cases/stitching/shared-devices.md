@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
+source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 4%
+source-wordcount: '930'
+ht-degree: 2%
 
 ---
 
@@ -26,11 +26,11 @@ Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un ac
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | 1234 | |
-| 2023-05-12 12:02 | Pagina prodotto | 1234 | |
-| 2023-05-12 12:03 | Ordine completato | 1234 | <ryan@a.com> |
-| 2023-05-12 12:07 | Pagina prodotto | 1234 | |
-| 2023-05-12 12:08 | Ordine completato | 1234 | <cassidy@a.com> |
+| 2023-05-12 12:01 | Pagina Home | `1234` | |
+| 2023-05-12 12:02 | Pagina prodotto | `1234` | |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` |
+| 2023-05-12 12:07 | Pagina prodotto | `1234` | |
+| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
 
 Gli eventi di successo dell’ordine (acquisto) assegnano i dati con precisione all’e-mail corretta. Il modo in cui questa assegnazione influisce sull&#39;analisi dipende dal modo in cui questa viene eseguita:
 
@@ -56,12 +56,12 @@ Quando si utilizza l’attribuzione last-auth nell’unione, gli ID uniti vengon
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unione |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:02 | Pagina prodotto | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:03 | Ordine completato | 1234 | <ryan@a.com> | <cassidy@a.com> |
-| 2023-05-12 12:07 | Pagina prodotto | 1234 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Ordine completato | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Pagina Home | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:02 | Pagina prodotto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 2023-05-12 12:07 | Pagina prodotto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 #### Device-split
@@ -72,12 +72,12 @@ Quando si utilizza l’attribuzione device-split nell’unione, gli ID uniti ven
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unione |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Pagina prodotto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Ordine completato | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Pagina prodotto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:08 | Ordine completato | 1234 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Pagina Home | 1234 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Pagina Home | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Pagina prodotto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Pagina prodotto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 ### Reimpostazione ECID
@@ -89,12 +89,12 @@ Quando si utilizza il ripristino ECID, gli ID uniti vengono risolti come mostrat
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unione |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:02 | Pagina prodotto | 1234 | | <ryan@a.com> |
-| 2023-05-12 12:03 | Ordine completato | 1234 | <ryan@a.com> | <ryan@a.com> |
-| 2023-05-12 12:07 | Pagina prodotto | 5678 | | <cassidy@a.com> |
-| 2023-05-12 12:08 | Ordine completato | 5678 | <cassidy@a.com> | <cassidy@a.com> |
-| 2023-05-13 11:08 | Pagina Home | 5678 | | <cassidy@a.com> |
+| 2023-05-12 12:01 | Pagina Home | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Pagina prodotto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Pagina prodotto | 5678 | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Ordine completato | 5678 | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Pagina Home | 5678 | | `cassidy@a.com` |
 
 ## Esposizione dispositivo condiviso
 
