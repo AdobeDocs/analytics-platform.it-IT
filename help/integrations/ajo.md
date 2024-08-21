@@ -4,10 +4,10 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
+source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '2876'
+ht-degree: 43%
 
 ---
 
@@ -48,7 +48,6 @@ La connessione porta il nome **[!UICONTROL AJO Enabled Connection (*nome sandbox
 | [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 
@@ -70,7 +69,7 @@ La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*no
 
   | Compatibilità | Valore |
   |---|---|
-  | [!UICONTROL Set as default data view in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con AJO, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continue]**, è necessario selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Confirm]** per confermare la selezione. Seleziona **[!UICONTROL Cancel]** per annullare la modifica alla visualizzazione dati predefinita. |
+  | [!UICONTROL Set as the default data view in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con AJO, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continue]**, è necessario selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Confirm]** per confermare la selezione. Seleziona **[!UICONTROL Cancel]** per annullare la modifica alla visualizzazione dati predefinita. |
 
   | Contenitori | Valore |
   |---|---|
@@ -88,7 +87,7 @@ La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*no
 
 - Nella scheda **Componenti**:
    - Tutte le metriche e le dimensioni che hanno [!UICONTROL (AJO)] aggiunto al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
-   - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] è basata sul campo derivato [!UICONTROL Landing Page Clicks].
+   - Alcune delle metriche o dimensioni che sono state aggiunte automaticamente sono basate su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] è basata sul campo derivato [!UICONTROL Landing Page Clicks].
    - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, [!UICONTROL Spam Complaint (AJO)] ha applicate le impostazioni [!UICONTROL Format] e [!UICONTROL Include Exclude Values].
    - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] ha l’etichetta di contesto `:Landing page clicks (AJO)`.
 
@@ -101,7 +100,7 @@ La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*no
 
 ## Configurare manualmente una visualizzazione dati da utilizzare con AJO
 
-Le sezioni seguenti descrivono come utilizzare manualmente i dati generati da AJO per eseguire analisi avanzate di Customer Journey Analytics. Ciò è necessario solo se l’[opzione di configurazione automatica](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) non è sufficiente per le tue esigenze.
+Le sezioni seguenti descrivono come utilizzare manualmente i dati generati da AJO per eseguire analisi avanzate di Customer Journey Analytics. Questa configurazione manuale è necessaria solo se l&#39;opzione di configurazione [automatica](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) non è sufficiente per le proprie esigenze.
 
 ### Inviare dati da AJO a Adobe Experience Platform
 
@@ -124,7 +123,7 @@ Seleziona e configura i seguenti set di dati:
 {style="table-layout:auto"}
 
 
-### Configurare la vista dati in modo da adattarla alle dimensioni e alle metriche di Journey Optimizer
+### Configurare la visualizzazione dati
 
 Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data-views/create-dataview.md) per configurare le dimensioni e le metriche desiderate disponibili in Customer Journey Analytics.
 
@@ -133,26 +132,45 @@ Dopo aver creato una connessione, puoi creare una o più [Viste dati](/help/data
 >Le discrepanze di dati tra AJO e Customer Journey Analytics sono in genere inferiori all’1-2%. È possibile che si verifichino discrepanze maggiori per i dati raccolti nelle ultime due ore. Per attenuare le discrepanze dovute ai tempi di elaborazione, utilizza intervalli di date escludendo “oggi”.
 
 
-#### Configurare dimensioni nella visualizzazione dati
+#### Configurare le dimensioni
 
 Per ottenere una parità approssimativa con dimensioni simili in Journey Optimizer, puoi creare le dimensioni seguenti in una visualizzazione dati. Consulta [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati, per informazioni dettagliate sulle opzioni di personalizzazione della dimensione.
 
-| Dimensione | Elemento dello schema | Impostazioni del componente |
-| --- | --- | --- |
-| Nome del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | Tipo di componente: dimensione |
-| Nome e versione del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | Tipo di componente: dimensione |
-| Nome del nodo del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | Tipo di componente: dimensione |
-| Tipo di nodo del percorso | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | Tipo di componente: dimensione |
-| Nome della campagna | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | Tipo di componente: dimensione |
-| Canale | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | Tipo di componente: dimensione |
-| Titolo push | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.push.title` | Tipo di componente: dimensione |
-| Oggetto dell’e-mail | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.email.subject` | Tipo di componente: dimensione |
-| Etichetta del collegamento | `_experience.customerJourneyManagement.`<br>`messageInteraction.label` | Tipo di componente: dimensione |
-| Nome dell’esperimento | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | Tipo di componente: dimensione<br>Etichette di contesto: esperimento Sperimentazione |
-| Nome del trattamento | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | Tipo di componente: dimensione<br>Etichette di contesto: variante Sperimentazione |
-| Motivo errore di consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | Tipo di componente: dimensione |
-| Motivo esclusione della consegna delle e-mail | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | Tipo di componente: dimensione |
-| Etichetta elemento | `_experience.decisioning.propositionAction.label` | Tipo di componente: dimensione |
+| Dimensione | Descrizione | Set di dati | Elemento dello schema | Impostazioni del componente |
+| --- | --- | --- | --- | --- |
+| Errore di esecuzione azione (AJO) | Condizione di errore che impediva l’esecuzione dell’azione in Percorsi Runtime. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.actionExecutionError ` | Tipo di componente: dimensione |
+| Etichetta azione (AJO) | Il nome visualizzato generato dal cliente dell’elemento con cui l’utente finale ha interagito. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionAction.label` | Tipo di componente: dimensione |
+| ID batch (AJO) | GUID creato alla chiamata di ogni nuova istanza batch per un Percorso pianificato o un&#39;azione campagna. Se, ad esempio, un Percorso pianificato o un&#39;azione di campagna viene eseguita alle 08.00 e alle 00.00, esistono due batchInstanceID diversi. | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | ` _experience.customerJourneyManagement.`<br/>`messageExecution.batchInstanceID` | Tipo di componente: dimensione |
+| Timestamp istanza batch (AJO) | Il timestamp dell’istanza batch. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | Campi derivati | Tipo di componente: Dimension (campo derivato) |
+| ID campagna (AJO) | ID della campagna. | Set di dati di entità AJO | `_experience.customerJourneyManagement.entities.`<br/>`campaign.campaignID` | Tipo di componente: dimensione |
+| Nome campagna (AJO) | Nome della campagna. | Set di dati di entità AJO | `_experience.customerJourneyManagement.entities.`<br/>`campaign.name` | Tipo di componente: dimensione |
+| ID versione campagna (AJO) | ID versione della campagna. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.campaign.campaignVersionID` | Tipo di componente: dimensione |
+| Canale (AJO) | Canale a cui devono essere correlati i dati. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.channel._id` | Tipo di componente: dimensione |
+| ID correlazione (AJO) | L’Id Di Correlazione. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.propositions.`<br/>`scopeDetails.correlationID` | Tipo di componente: dimensione |
+| Id Criterio Decisione (AJO) | ID del criterio di decisione utilizzato per decidere quali elementi includere nella proposta. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | Campi derivati | Tipo di componente: Dimension (campo derivato) |
+| Dominio destinatario e-mail (AJO) | Dominio dell’indirizzo e-mail | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | `_experience.customerJourneyManagement.`<br/>`emailChannelContext.address` | Tipo di componente: dimensione |
+| Oggetto e-mail (AJO) | Oggetto e-mail, non personalizzato | Set di dati di entità AJO | `_experience.customerJourneyManagement.entities.`<br/>`channelDetails.email.subject` | Tipo di componente: dimensione |
+| ID evento (AJO) | Un identificatore univoco dell’evento della serie temporale. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_id` | Tipo di componente: Dimension (campo derivato) |
+| ID criterio di uscita (AJO) | ID dei criteri di uscita utilizzati per determinare se il percorso deve uscire. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaID` | Tipo di componente: dimensione |
+| Nome criterio di uscita (AJO) | Nome dei criteri di uscita. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaName` | Tipo di componente: dimensione |
+| ID esperimento (AJO) | ID dell’esperimento. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | Tipo di componente: dimensione |
+| Nome esperimento (AJO) | Nome dell’esperimento. | Set di dati di entità AJO | `_experience.customerJourneyManagement.entities.`<br/>`experiment.experimentName` | Tipo di componente: Etichette contesto Dimension: esperimento |
+| Errore di recupero (AJO) | Condizione di errore che impediva l’esecuzione del recupero da parte di Percorsi Runtime. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.fetchError` | Tipo di componente: dimensione |
+| Ottimizzato per l’ora di invio (AJO) | È l’esecuzione di un messaggio SendTimeOptimized | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | `_experience.customerJourneyManagement.`<br/>`messageProfile.isSendTimeOptimized` | Tipo di componente: dimensione |
+| È un Percorso di test (AJO) | L’evento fa parte di un’esecuzione del percorso di test | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.inTest` | Tipo di componente: dimensione |
+| È un messaggio di prova (AJO) | Messaggio inviato come esecuzione del test | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | `_experience.customerJourneyManagement.`<br/>`messageProfile.isTestExecution` | Tipo di componente: dimensione |
+| ID elemento (AJO) | ID dell&#39;elemento. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositions.items.id` | Tipo di componente: dimensione |
+| Nome elemento (AJO) | Nome dell&#39;elemento | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositions.items.name` | Tipo di componente: dimensione |
+| ID azione percorso | ID azione di percorso, per il quale viene attivato MessageExecution. | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | `_experience.customerJourneyManagement.`<br/>`messageExecution.journeyActionID` | Tipo di componente: dimensione |
+| Nome nodo azione percorso (AJO) | Nome del nodo di azione del percorso. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO, set di dati entità di AJO | Campi derivati | Tipo di componente: Dimension (campo derivato) |
+| Nome nodo evento percorso (AJO) | Questo valore viene impostato ogni volta che si verifica un segmento o un evento esterno in un percorso. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO, set di dati entità di AJO | Campi derivati | Tipo di componente: Dimension (campo derivato) |
+| ID percorso (AJO) | ID del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyID` | Tipo di componente: dimensione |
+| Nome percorso (AJO) | Nome del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyName` | Tipo di componente: dimensione |
+| Nome e versione percorso (AJO) | Nome e versione del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNameAndVersion` | Tipo di componente: dimensione |
+| ID versione percorso (AJO) | ID versione del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.entities.`<br/>`journey.journeyVersionID` | Tipo di componente: dimensione |
+| ID pagina di destinazione (AJO) | Identificatore univoco per la pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | Tipo di componente: dimensione |
+| Pagina di destinazione Source (AJO) | Origine della pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | Campi derivati | Tipo di componente: Dimension (campo derivato) |
+| URL collegamento (AJO) | URL su cui l’utente ha fatto clic. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | Tipo di componente: dimensione |
 
 {style="table-layout:auto"}
 
@@ -160,32 +178,44 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 
 Per ottenere una parità approssimativa con metriche simili in Journey Optimizer, in una visualizzazione dati puoi creare le metriche seguenti. Vedi [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati per informazioni sulle opzioni di personalizzazione delle metriche.
 
-| Metrica | Descrizione | Elemento dello schema | Impostazioni del componente |
-| --- | --- | --- | --- |
-| Messaggi non recapitati | Numero di messaggi non recapitati, compresi i mancati recapiti immediati e dopo la consegna. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: se sono soddisfatti i criteri<br>È uguale a: `bounce`, è uguale a: `denylist` |
-| Mancati recapiti dopo la consegna | Alcuni servizi e-mail segnalano le e-mail consegnate, e successivamente ne segnalano il mancato recapito. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `async` |
-| Clic su e-mail | Numero di clic all’interno dei messaggi. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `click` |
-| E-mail aperte | Numero di messaggi aperti. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `open` |
-| Errori | Numero di messaggi che hanno generato un errore | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `error` |
-| Messaggi esclusi | Il numero di messaggi esclusi. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `exclude` |
-| Invii | Numero di messaggi accettati da provider e-mail. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `sent` |
-| Segnalazioni di spam | Numero di segnalazioni di spam. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Valori da includere/escludere: è uguale a `spam_complaint` |
-| Abbonamenti annullati | Numero di abbonamenti annullati. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | Tipo di componente: metrica<br>Includi valori di esclusione: è uguale a `unsubscribe` |
-| Invii Edge | Il numero di volte in cui la rete Edge invia un messaggio all’SDK Web o Mobile | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.send` | |
-| Visualizzazioni in entrata | Numero di volte in cui un messaggio Web o InApp viene mostrato all’utente | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.display` | |
-| Clic in entrata | Numero di clic sui messaggi Web o InApp | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.interact` | |
-| Trigger InApp | Il numero di volte che il motore decisionale ha suggerito di visualizzare il messaggio. Mobile SDK potrebbe ignorare la decisione di ridurre il numero di visualizzazioni effettive. | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.trigger` | |
-| Eliminazioni InApp | Il numero di volte in cui un messaggio InApp viene rimosso dall’interfaccia utente dall’SDK | Utilizzare l’elemento stringa dello schema `_experience.decisioning.propositionEventType.dismiss` | |
-
-{style="table-layout:auto"}
-
-#### Configurare le metriche calcolate in Analysis Workspace
-
-Dopo aver configurato le dimensioni e le metriche desiderate per il set di dati di Journey Optimizer, puoi anche configurare le [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md) per ottenere ulteriori informazioni su tali dati. Queste metriche calcolate si basano sulle metriche precedenti create nella Gestione visualizzazione dati.
-
-| Metrica calcolata | Descrizione | Formula |
-| --- | --- | --- |
-| Messaggi inviati | Numero totale di messaggi inviati. Include i messaggi con successo o non riusciti. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
-| Messaggi consegnati | Numero di e-mail consegnate ai clienti. | `[Sends] - [Bounces After Delivery]` |
+| Metrica | Descrizione | Set di dati | Elemento dello schema | Impostazioni del componente |
+| --- | --- | --- | --- | --- |
+| Installazioni app (AJO) | Numero di installazioni dell’app | Set di dati evento di tracciamento push AJO | `application.installs.value` | Tipo di componente: metrica |
+| Avvii di app (AJO) | Numero di volte in cui l’app mobile viene avviata | Set di dati evento di tracciamento push AJO | `application.launches.value` | Tipo di componente: metrica |
+| Mancati Recapiti Per Canali In Uscita (AJO) | Numero totale di messaggi non recapitati tra i canali in uscita | Set di dati evento feedback messaggio AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica |
+| Clic (AJO) | Numero totale di clic su tutti i canali | Set di dati evento di esperienza di tracciamento push di AJO, eventi dei passaggi del Percorso, set di dati evento di tracciamento e-mail di AJO, set di dati evento di feedback dei messaggi di AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Numero di offerte di fallback (AJO) | Numero di offerte di fallback. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.propositions.items.`<br/>`itemSelection.selectionDetail.selectionType` | Tipo di componente: metrica |
+| Numero di offerte (AJO) | Numero di offerte. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | ` _experience.decisioning.`<br/>`propositions.items.id` | Tipo di componente: metrica |
+| Metrica di deduplicazione (AJO) | Dedup metric | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_id` | Tipo di componente: metrica |
+| Consegnato (AJO) | Numero totale di messaggi consegnati. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Ignorato (AJO) | Conta ogni volta che il messaggio inApp viene chiuso dall’SDK di Adobe, indipendentemente dall’azione scelta dall’utente finale per chiuderlo. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |
+| Display (AJO) | Questo conteggio visualizza i messaggi di AJO. Ciò include le aperture e-mail, le visualizzazioni web e le visualizzazioni in-app. Le piattaforme mobili non segnalano la visualizzazione di SMS e messaggi push, pertanto non sono conteggiate. | Set di dati evento di esperienza di tracciamento push di AJO, eventi dei passaggi del Percorso, set di dati evento di tracciamento e-mail di AJO, set di dati evento di feedback dei messaggi di AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Aperture e-mail (AJO) | Numero totale di aperture e-mail | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
+| Clic in entrata (AJO) | Numero totale di clic tra i canali in entrata | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo di componente: metrica |
+| Notifiche in entrata ignorate (AJO) | Numero totale di ignoramenti tra i canali in entrata | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |
+| Impression in entrata (AJO) | Numero totale di impression tra i canali in entrata | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo di componente: metrica |
+| Fine percorso (AJO) | True se il passaggio corrente ha portato alla fine di un&#39;istanza del percorso. L’ultimo passaggio in un percorso per un determinato profilo è stato eseguito correttamente. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | Tipo di componente: metrica |
+| Immissioni percorso (AJO) | True se l&#39;evento del passaggio è stato un evento di ingresso percorso per un profilo. | Eventi passaggio percorso | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Uscite dal percorso (AJO) | True se il passaggio corrente ha portato alla fine di un&#39;istanza del percorso. Questo è l’ultimo passaggio di un percorso per un determinato profilo eseguito correttamente. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | Tipo di componente: metrica |
+| Errori di percorso (AJO) | Fornisce lo stato corrente del passaggio che ha completato l’esecuzione. Valori possibili: `Transitions` (il passaggio successivo si verificherà in una transizione di evento), `EndStep` (l&#39;ultimo passaggio in questa istanza di percorso è stato eseguito), `Error` (questo passaggio ha rilevato una condizione di errore, terminando l&#39;istanza di percorso corrente), `TimedOut` (il passaggio corrente è terminato a causa di un timeout in un recupero o in un&#39;azione). | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.stepStatus` | Tipo di componente: metrica |
+| Clic sulla pagina di destinazione (AJO) | Numero totale di clic sulla pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Conversioni delle pagine di destinazione (AJO) | Numero totale di conversioni nella pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
+| Visualizzazioni pagina di destinazione (AJO) | Numero totale di visualizzazioni nella pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
+| Entrate nodo (AJO) | True se l&#39;evento del passaggio è stato un evento di ingresso al nodo per un profilo. | Eventi passaggio percorso | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Clic in uscita (AJO) | Numero totale di clic tra i canali in uscita | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
+| Errori in uscita (AJO) | Numero totale di messaggi con errori tra i canali in uscita | Set di dati evento feedback messaggio AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica |
+| Esclusioni in uscita (AJO) | Numero totale di eventi di esclusione tra i canali in uscita | Set di dati evento feedback messaggio AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica |
+| Invii in uscita (AJO) | Numero totale di messaggi inviati tra canali in uscita | Set di dati evento feedback messaggio AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | Tipo di componente: metrica |
+| Azioni personalizzate push (AJO) | Numero totale di azioni personalizzate nell’interazione push. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `eventType` | Tipo di componente: metrica |
+| Interazioni push (AJO) | Numero di volte in cui l’app mobile viene avviata a causa di un’interazione con un messaggio push diretto | Set di dati evento di tracciamento push AJO | `application.launches.value` | Tipo di componente: metrica |
+| Invii (AJO) | Numero totale di messaggi inviati su tutti i canali | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Messaggi SMS in entrata (AJO) | Risposta SMS in entrata. Ad esempio, stop, start, subscribe, ecc. | Set di dati evento di tracciamento push di AJO, Set di dati evento feedback messaggi di AJO, Set di dati evento tracciamento e-mail di AJO | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | Tipo di componente: metrica |
+| Reclamo spam (AJO) | Numero totale di segnalazioni di posta indesiderata | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
+| Aggiunte a elenco iscrizioni (AJO) | Numero totale di aggiunte all’elenco di iscrizioni. | Set di dati evento esperienza di tracciamento e-mail AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Rimozioni elenco iscrizioni (AJO) | Numero totale di rimozioni dall’elenco iscrizioni. | Set di dati evento esperienza di tracciamento e-mail AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Target (AJO) | Questo conteggio del numero di volte in cui una proposta è stata indirizzata a una persona. Numero di volte in cui una proposta è stata considerata per la visualizzazione a una persona. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | Campi derivati | Tipo di componente: metrica (campo derivato) |
+| Attivato (AJO) | La proposta è stata scelta per essere visualizzata dall’SDK di Adobe. Altri fattori possono impedirne l’effettiva visualizzazione. | Set di dati evento di tracciamento push di AJO, eventi passaggio Percorso, set di dati evento di feedback dei messaggi di AJO, set di dati evento di tracciamento e-mail di AJO | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo di componente: metrica |
+| Visitatori univoci in esperimento (AJO) | I visitatori univoci nell’esperimento | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | Tipo di componente: metrica |
+| Annullamenti iscrizione (AJO) | Numero totale di annullamenti di abbonamenti | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo di componente: metrica |
 
 {style="table-layout:auto"}
