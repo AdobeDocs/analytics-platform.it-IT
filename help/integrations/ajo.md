@@ -4,9 +4,9 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
+source-git-commit: 5434b8432608ba5ee49f7062070fa1624af1b46a
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2868'
 ht-degree: 43%
 
 ---
@@ -106,7 +106,7 @@ Le sezioni seguenti descrivono come utilizzare manualmente i dati generati da AJ
 
 Adobe Experience Platform funge da origine dati centrale e da collegamento tra Journey Optimizer e Customer Journey Analytics. Consulta [Introduzione ai set di dati](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) nella guida utente di AJO per visualizzare i passaggi su come inviare dati AJO a Experience Platform come set di dati.
 
-### Creare una connessione in Customer Journey Analytics
+### Creare una connessione
 
 Una volta che i dati di Journey Optimizer sono in Adobe Experience Platform, puoi [Creare una connessione](/help/connections/create-connection.md) in base ai set di dati di Journey Optimizer. Oppure puoi aggiungere set di dati di Journey Optimizer a una connessione esistente.
 
@@ -174,7 +174,7 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 
 {style="table-layout:auto"}
 
-#### Configurare le metriche nella visualizzazione dati
+#### Configurare le metriche
 
 Per ottenere una parità approssimativa con metriche simili in Journey Optimizer, in una visualizzazione dati puoi creare le metriche seguenti. Vedi [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) in Gestione visualizzazione dati per informazioni sulle opzioni di personalizzazione delle metriche.
 
