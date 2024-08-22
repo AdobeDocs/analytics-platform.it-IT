@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
+source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Gli eventi di successo dell’ordine (acquisto) assegnano i dati con precisione 
 
 ## Migliorare l’analisi incentrata sulla persona
 
-Per migliorare l’analisi incentrata sulla persona dei dispositivi condivisi, puoi utilizzare le unioni o implementare la funzionalità di ripristino ECID. Entrambi gli approcci sono discussi più dettagliatamente nelle sezioni seguenti.
+I dati di esempio sono una combinazione di attività autenticate e non autenticate per lo stesso dispositivo. La sfida consiste nell’assegnare una persona al traffico non autenticato, in modo da poter eseguire un’analisi incentrata sulla persona e impedire a Customer Percorsi Analytics di rilasciare le attività che non hanno un valore ID persona. Per risolvere questo problema, puoi utilizzare l’unione oppure implementare la funzionalità di ripristino ECID. Entrambe le opzioni sono discusse più dettagliatamente nelle sezioni seguenti.
 
 ### Unione
 
