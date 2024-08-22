@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
-workflow-type: ht
-source-wordcount: '766'
-ht-degree: 100%
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 90%
 
 ---
 
@@ -28,6 +28,15 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 L’Assistente IA è un’esperienza conversazionale che consente ai professionisti di eseguire rapidamente attività, sia che si tratti di comprensione dei concetti, che di risoluzione dei problemi o di effettuare ricerche all’interno delle informazioni. Consente inoltre agli utenti non esperti di svolgere le attività degli esperti e migliora la qualità complessiva del lavoro.
 
 [![immagine](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB Dati di riepilogo]
+
+Consente di inserire dati di serie temporali privi di un ID persona. Questi dati di serie temporali possono essere utilizzati per supportare vari casi d’uso, ad esempio
+
+- Presentare indicatori di prestazioni di alto livello come parte o accanto ai dati a livello di evento.
+- Caricamento di destinazioni o obiettivi su base oraria o giornaliera, quindi posizionamento di tali destinazioni o obiettivi rispetto alle metriche a livello di evento.
+
+[![immagine](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
 >[!TAB Unione basata su grafici*]
 
@@ -75,7 +84,7 @@ La previsione è una funzione di Analysis Workspace che consente di prevedere un
 
 >[!TAB Nuova documentazione]
 
-Sono disponibili ora nuove sezioni della documentazione sui seguenti argomenti:<ul><li>Come effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.</li><li>Casi d’uso sull’esportazione dati e sulle relative funzionalità di Experience Platform e Customer Journey. </li></ul>Seleziona **[!UICONTROL Learn more]** per questo e altri aggiornamenti della documentazione.
+Sono disponibili ora nuove sezioni della documentazione sui seguenti argomenti:<ul><li>Caso di utilizzo dei dati di riepilogo e caso di utilizzo di esempio B2B.</li><li>Come effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.</li><li>Casi d’uso sull’esportazione dati e sulle relative funzionalità di Experience Platform e Customer Journey. </li></ul>Seleziona **[!UICONTROL Learn more]** per questo e altri aggiornamenti della documentazione.
 
 [![immagine](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -130,7 +139,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong>Visualizzazioni dati</strong><br/><a href="/help/data-views/data-views.md">Panoramica</a> - <a href="/help/data-views/create-dataview.md">Crea o modifica</a> - <a href="/help/data-views/session-settings.md">Impostazioni sessione</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Campi derivati</a> - <a href="/help/data-views/component-reference.md">Riferimento componente</a>
+      <strong>Visualizzazioni dati</strong><br/><a href="/help/data-views/data-views.md">Panoramica</a> - <a href="/help/data-views/create-dataview.md">Crea o modifica</a> - <a href="/help/data-views/session-settings.md">Impostazioni sessione</a> - <a href="/help/data-views/derived-fields/derived-fields.md">Campi derivati</a> - <a href="/help/data-views/summary-data.md">Dati di riepilogo</a> - <a href="/help/data-views/component-reference.md">Riferimento componente</a>
     </td>
 
 </tr>
@@ -145,7 +154,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong>Condivisione, esportazione, integrazione</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Progetti</a> - <a href="/help/mobile-app/home.md">Dashboard di Analytics</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a>  - <a href="/help/integrations/overview.md">Integrazioni</a>
+      <strong>Condividi, esporta, integra</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Progetti</a> - <a href="/help/mobile-app/home.md">Dashboard di Analytics</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">Esportazione cloud</a> - <a href="/help/integrations/overview.md">Integrazioni</a>
     </td>
   </tr>
 </table>

@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '4006'
 ht-degree: 65%
@@ -19,7 +19,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
-| Agosto 2024 | |
+| **Agosto 2024** | |
 | Un esempio di progetto B2B | È stato aggiunto un [caso d&#39;uso](/help/use-cases/b2b/example.md) che documenta come impostare, configurare e creare rapporti sui dati B2B a livello di profilo (persona) nel Customer Journey Analytics, utilizzando la nuova funzionalità [trasforma set di dati per ricerche B2B](/help/connections/transform-datasets-b2b-lookups.md). |
 | Casi d’uso aggiornati per l’esportazione dei dati | Sono stati aggiunti esempi di query più dettagliati a [Query Service (Data Distiller) ed esporta set di dati](/help/use-cases/data-export/queryservice-export-datasets.md) per illustrare come applicare correttamente l&#39;attribuzione tra le sessioni utilizzando un intervallo di lookback. |
 | Dati di riepilogo | È stata aggiunta la documentazione su [dati di riepilogo](/help/data-views/summary-data.md), [impostazioni dei componenti del gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md) e un [caso di utilizzo dei dati di riepilogo](/help/use-cases/data-views/summary-data.md). |

@@ -4,17 +4,15 @@ description: Dettagli e informazioni su come utilizzare e configurare i dati di 
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9517d698acf41a25fa972ced32faa75de540a080
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
 # Dati di riepilogo
-
-{{release-limited-testing}}
 
 I dati di riepilogo sono dati di serie temporali che non sono legati a un singolo ID persona. I dati di riepilogo rappresentano i dati aggregati a un diverso livello di aggregazione, ad esempio le campagne. Puoi utilizzare questi dati in Customer Journey Analytics per supportare vari casi d’uso. Ad esempio, dati contenenti una data e un singolo valore di metrica, oppure dati contenenti più dimensioni e metriche.
 
