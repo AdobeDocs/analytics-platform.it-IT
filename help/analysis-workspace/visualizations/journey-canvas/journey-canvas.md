@@ -5,10 +5,10 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: fb2a24d6f7a93e941a76db0d10c515381c476c31
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 2%
+source-wordcount: '1193'
+ht-degree: 1%
 
 ---
 
@@ -94,16 +94,25 @@ L’area di lavoro percorso fornisce un’analisi approfondita e approfondita ch
 
 L’utilizzo dell’area di lavoro Percorso per analizzare i percorsi creati in Journey Optimizer offre diversi vantaggi:
 
-| Funzione | Beneficio |
-|---------|----------|
-| **Creare eventi** | Creazione semplificata di eventi utilizzando qualsiasi dimensione, metrica o filtro di Customer Journey Analytics. <p>In Journey Optimizer, un utente tecnico deve creare un evento prima di poterlo aggiungere a un percorso.</p> |
-| **Crea tipi di pubblico da nodi personalizzati** | Crea tipi di pubblico in base a un nodo personalizzato creato nel percorso all’interno della visualizzazione dell’area di lavoro del Percorso. Avvia il generatore di pubblico di Customer Journey Analytics. <p>In Journey Optimizer, puoi creare tipi di pubblico solo per attività predefinite.</p> |
-| **Fallthrough e fallout** | B3 |
-| **Raggruppare gli eventi** | B3 |
-| **Rinomina eventi** | B3 |
-| **Elimina eventi** | B3 |
-| **Combina eventi** | B3 |
-| **Connetti eventi** | B3 |
+* Crea eventi utilizzando qualsiasi dimensione di Customer Journey Analytics, metrica, filtro o intervallo di date.
+
+  In Journey Optimizer, un utente tecnico deve creare un evento prima di poterlo aggiungere a un percorso.
+
+* Crea tipi di pubblico in base a un nodo personalizzato creato (avvia il Generatore di pubblico di Customer Journey Analytics).
+
+  In Journey Optimizer, puoi creare tipi di pubblico solo per attività predefinite.
+
+* Analizzare fallthrough e fallout
+
+* Suddividere gli eventi con qualsiasi dimensione
+
+* Combinare gli eventi
+
+* Eventi di connessione
+
+* Rinominare ed eliminare gli eventi
+
+* Molto di più
 
 ### Sincronizzazione tra Journey Optimizer e l’area di lavoro del Percorso
 
@@ -144,8 +153,6 @@ Certi termini che significano una cosa in Journey Optimizer significano qualcos&
 | Termine | Area di lavoro percorso | Journey Optimizer |
 |---------|----------|---------|
 | **Evento** | Una delle diverse metriche standard disponibili in Customer Journey Analytics. Questa metrica conta elementi come ricavi, abbonamenti o lead generati. | La categoria di attività che attiva un percorso personalizzato, ad esempio un acquisto online. |
-| A2 | B2 | C2 |
-| A3 | B3 | C3 |
 
 ### Analizzare un percorso Journey Optimizer nell’area di lavoro del Percorso
 

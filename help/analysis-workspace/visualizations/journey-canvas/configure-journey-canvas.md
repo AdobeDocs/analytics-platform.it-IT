@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: e06793a0ce73fa8d6aa9b798209bfc044e696931
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4138'
 ht-degree: 1%
 
 ---
@@ -220,6 +220,12 @@ La logica applicata ai nodi quando vengono combinati varia a seconda dei tipi di
 ### Connetti nodi
 
 È possibile connettere nodi già presenti nell&#39;area di lavoro oppure un nodo quando lo si aggiunge all&#39;area di lavoro.
+
+#### Logica durante la connessione dei nodi
+
+Quando si connettono nodi nell&#39;area di lavoro del Percorso, questi vengono connessi utilizzando l&#39;operatore THEN. Questa operazione è nota anche come [filtro sequenziale](/help/components/filters/seg-sequential-build.md).
+
+È possibile visualizzare la logica dei nodi connessi facendo clic con il pulsante destro del mouse sul nodo e selezionando [!UICONTROL **Crea filtro dal nodo**]. La logica è illustrata nella sezione [!UICONTROL **Definizione**].
 
 #### Connetti nodi esistenti
 
