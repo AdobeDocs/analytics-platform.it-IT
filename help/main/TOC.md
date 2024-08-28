@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 99%
 
 ---
 
@@ -143,6 +143,9 @@ ht-degree: 100%
          + [Panoramica del flusso](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurare una visualizzazione di flusso](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flussi interdimensionali](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + Area di lavoro percorso {#journey-canvas}
+         + [Panoramica dell’area di lavoro del percorso](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [Configurare una visualizzazione area di lavoro Percorso](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
       + [Superfici e superfici sovrapposte](../analysis-workspace/visualizations/area.md)
       + [Barre e barre sovrapposte](../analysis-workspace/visualizations/bar.md)
       + [Grafico bullet](../analysis-workspace/visualizations/bullet-graph.md)

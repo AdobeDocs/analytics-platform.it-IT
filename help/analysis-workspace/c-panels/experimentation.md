@@ -4,16 +4,16 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: e0cf556a094726edbee35b21bf71d5d1f227fcc7
+source-git-commit: 36718581c9a070bb5f5547f18be643ca91838bae
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 34%
+source-wordcount: '2022'
+ht-degree: 28%
 
 ---
 
 # Pannello Sperimentazione
 
-Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
+Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, da soluzioni Adobe come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
 
 Ulteriori informazioni sull&#39;integrazione [tra Adobe Customer Journey Analytics e Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja).
 
@@ -25,7 +25,7 @@ Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli ute
 
 Sono state aggiunte due nuove funzioni avanzate: [!UICONTROL Lift] e [!UICONTROL Confidence]. Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
 
-## Passaggio 1: creare una connessione per i set di dati dell’esperimento {#connection}
+## Passaggio 1: creare una connessione per i set di dati di sperimentazione {#connection}
 
 Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un array di oggetti **single**. Se i dati dell&#39;esperimento sono inclusi in una singola dimensione (con dati di esperimento e variante in una stringa delimitata), puoi utilizzare l&#39;impostazione [substring](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per suddividere la dimensione in due e utilizzarla nel pannello.
 
@@ -46,30 +46,31 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
 
 ## Passaggio 3: configurare il pannello Sperimentazione {#configure}
 
-1. In Customer Journey Analytics Workspace, trascina il pannello Sperimentazione in un progetto.
+1. In Analysis Workspace nel Customer Journey Analytics, aggiungi il pannello Sperimentazione a un progetto. Per ulteriori informazioni sull&#39;aggiunta di pannelli a un progetto, vedere [Aggiungere pannelli al progetto](/help/analysis-workspace/build-workspace-project/create-projects.md#add-panels-to-the-project) in [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md).
 
-![Il pannello Sperimentazione è stato trascinato in un progetto.](assets/experiment.png)
+   ![Il pannello Sperimentazione è stato trascinato in un progetto.](assets/experiment.png)
 
->[!IMPORTANT]
->
->Se la configurazione necessaria nelle visualizzazioni dati del Customer Journey Analytics non è stata completata, prima di poter procedere riceverai un messaggio: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
->
+   >[!IMPORTANT]
+   >
+   >Se la configurazione necessaria nelle visualizzazioni dati del Customer Journey Analytics non è stata completata, prima di poter procedere riceverai un messaggio: &quot;[!UICONTROL Please configure the experiment and variant dimensions in Data Views]&quot;.
+   >
 
 1. Configura le impostazioni di input del pannello.
 
    | Impostazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi all’esperimento degli ultimi 3 mesi. |
-   | **[!UICONTROL Control Variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
-   | **[!UICONTROL Success Metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing Metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
+   | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
+   | **[!UICONTROL Success metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. <p>È inoltre possibile utilizzare metriche calcolate che soddisfano i criteri necessari. Per ulteriori informazioni, vedere [Utilizzare le metriche calcolate nel pannello Sperimentazione](#use-calculated-metrics-in-the-experimentation-panel).</p> |
+   | **[!UICONTROL Normalizing metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
+   | [!UICONTROL **Includi limiti superiori/inferiori di affidabilità**] |  |
    | **[!UICONTROL Date Range]** | L’intervallo di date viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Build]**.
 
 ## Passaggio 4: visualizzare l’output del pannello {#view}
 
-Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni selezionate per il pannello. In qualsiasi momento, puoi modificare il pannello facendo clic sull’icona Modifica a forma di matita, in alto a destra.
+Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni selezionate per il pannello. In qualsiasi momento, puoi modificare il pannello selezionando l’icona Modifica a forma di matita in alto a destra.
 
 Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica. Vedi “Metodologia statistica” di seguito. Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con i valori di incremento e affidabilità più elevati.
 
@@ -113,13 +114,13 @@ Una sequenza con affidabilità del 95% include il valore &quot;true&quot; della 
 
 Il Customer Journey Analytics consente agli analisti di selezionare qualsiasi dimensione come &quot;esperimento&quot;. Ma come si interpreta un&#39;analisi in cui la dimensione scelta come esperimento non è quella per cui le persone sono randomizzate?
 
-Ad esempio, considera un annuncio visualizzato da una persona. Se decidi di mostrare le persone &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la variazione di alcune metriche (ad esempio, ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il reddito medio sull’intera popolazione, se hai sostituito lo status quo di mostrare l’annuncio A con la strategia alternativa di mostrare l’annuncio B.
+Ad esempio, considera un annuncio visualizzato da una persona. Se decidi di mostrare le persone &quot;ad B&quot; invece di &quot;ad A&quot;, potresti essere interessato a misurare la variazione di alcune metriche (ad esempio, ricavi medi). L’effetto causale della visualizzazione dell’annuncio B al posto dell’annuncio A è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come reddito medio sull’intera popolazione, se hai sostituito lo status quo di visualizzazione dell’annuncio A con la strategia alternativa di visualizzazione dell’annuncio B.
 
 Il test A/B è il gold standard all&#39;interno del settore per misurare obiettivamente gli effetti di tali interventi. La ragione fondamentale per cui un test A/B dà luogo a una stima causale è dovuta alla randomizzazione delle persone a ricevere una delle possibili varianti.
 
 Consideriamo ora una dimensione che non si ottiene con la randomizzazione, per esempio, lo stato americano della persona. Diciamo che le persone provengono principalmente da due stati, New York e California. I ricavi medi delle vendite di un marchio di abbigliamento invernale possono essere diversi nei due Stati a causa delle differenze nelle condizioni climatiche regionali. In una situazione del genere, le condizioni meteorologiche possono essere il vero fattore causale delle vendite di abbigliamento invernale, e non il fatto che gli stati geografici delle persone siano diversi.
 
-Il pannello di sperimentazione nel Customer Journey Analytics consente di analizzare i dati come differenza media di ricavi per stato delle persone. In una situazione del genere, la produzione non ha un’interpretazione causale. Tuttavia, tale analisi può essere ancora interessante. Esso fornisce una stima (insieme a misure di incertezza) della differenza tra le entrate medie degli Stati delle persone.  Questo valore è anche noto come &quot;Statistical Hypothesis Testing&quot;. L’output di questa analisi può essere interessante, ma non necessariamente actionable, poiché non hai e a volte non puoi randomizzare le persone a uno dei possibili valori della dimensione.
+Il pannello Sperimentazione nel Customer Journey Analytics consente di analizzare i dati come differenza media di ricavi per stato delle persone. In una situazione del genere, la produzione non ha un’interpretazione causale. Tuttavia, tale analisi può essere ancora interessante. Esso fornisce una stima (insieme a misure di incertezza) della differenza tra le entrate medie degli Stati delle persone.  Questo valore è anche noto come &quot;Statistical Hypothesis Testing&quot;. L’output di questa analisi può essere interessante, ma non necessariamente actionable, poiché non hai e a volte non puoi randomizzare le persone a uno dei possibili valori della dimensione.
 
 La figura seguente contrasta queste situazioni:
 
@@ -127,6 +128,26 @@ La figura seguente contrasta queste situazioni:
 
 Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, è possibile che la vera causa di entrambi sia il fattore confondente C. Se i dati non vengono ottenuti randomizzando le persone su X, l&#39;impatto è più difficile da misurare, e l&#39;analisi rende esplicitamente conto di C. La randomizzazione interrompe la dipendenza di X da C, permettendoci di misurare l&#39;effetto di X su Y senza doverci preoccupare di altre variabili.
 
-## Utilizzare le metriche calcolate nel pannello Sperimentazione
+## Utilizzare le metriche calcolate nella sperimentazione {#use-in-experimentation}
+
+>[!NOTE]
+>
+>Per le organizzazioni che utilizzano sia Customer Journey Analytics che Adobe Journey Optimizer, le informazioni contenute in questa sezione si applicano anche alle funzioni di sperimentazione in Journey Optimizer.
+
+
+Non tutte le metriche calcolate sono compatibili con il pannello Sperimentazione.
+
+Le metriche calcolate che includono una delle metriche o costanti seguenti non sono compatibili con il pannello Sperimentazione:
+
+* Metriche di base da un set di dati di riepilogo<!--add link to Rob's "Summary data" doc when it's published -->
+* Metriche di base divise o moltiplicate tra loro (ad esempio, `Revenue`/`Orders`)
+* Costanti aggiunte o sottratte da una metrica di base (ad esempio, `Revenue+50`)
+* Una delle metriche di base seguenti:
+   * Persone
+   * (che altro?)
+
+Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il valore [!UICONTROL **Ovunque nel Customer Journey Analytics (esclusa la sperimentazione)**] nel campo [!UICONTROL **Compatibilità prodotto**] durante la creazione della metrica calcolata. Per informazioni sulla creazione di una metrica calcolata, vedere [Genera metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+## Utilizzare le metriche derivate nel pannello Sperimentazione
 
 Per informazioni sull&#39;utilizzo di metriche derivate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119), consulta questo post di blog.[

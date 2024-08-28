@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 80%
+source-wordcount: '1337'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Grafico bullet](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![Icona punto elenco](assets/Smock_GraphBullet_18_N.svg)</p> | Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi). |
 | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icona tabella coorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Cohort Analysis è utile per le analisi di fidelizzazione, abbandono o latenza. |
 | [Anello](/help/analysis-workspace/visualizations/donut.md) <p>![Icona Anello](assets/Smock_GraphDonut_18_N.svg)</p> | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o filtri di un insieme. |
-| [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icona Abbandono](assets/Smock_ConversionFunnel_18_N.svg)</p> | I rapporti di abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. Può essere impostato su sequenze finali o esatte. |
+| [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icona Abbandono](assets/Smock_ConversionFunnel_18_N.svg)</p> | <!-- Similar to Journey canvas, -->Le visualizzazioni Abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. Le visualizzazioni di abbandono possono essere impostate su sequenze finali o esatte. <p><!-- Unlike Journey canvas, -->Le visualizzazioni Abbandono forniscono analisi solo per percorsi lineari con un singolo inizio e una singola fine noti.</p> |
 | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icona Flusso](assets/flow-icon.png)</p> | Mostra gli esatti percorsi dei clienti attraverso i siti web e le app. |
 | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icona tabella a forma libera](assets/Smock_ViewTable_18_N.svg)</p> | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. È la base per l’analisi dei dati in Workspace. |
 | [Istogramma](/help/analysis-workspace/visualizations/histogram.md)<p>![Icona istogramma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un istogramma racchiude persone, visite o eventi in contenitori in base a un volume di metrica. |
@@ -39,6 +39,8 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Testo](/help/analysis-workspace/visualizations/text.md)<p>![Icona grafico a dispersione](assets/Smock_Text_18_N.svg)</p> | Consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
 | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md)<p>![Icona Mappa ad albero](assets/Smock_GraphTree_18_N.svg)</p> | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
 | [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![Icona Venn](assets/venn-icon.png)</p> | Utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 filtri. |
+
+<!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
 ## Aggiungere visualizzazioni a un pannello
 
