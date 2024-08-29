@@ -5,7 +5,8 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -14,9 +15,11 @@ ht-degree: 1%
 
 # Panoramica dell’area di lavoro del percorso
 
+{{release-limited-testing}}
+
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. Consente di definire un percorso da zero o visualizzarne uno da Journey Optimizer, quindi di vedere in che modo le persone hanno abbandonato (abbandonato) o continuato (proseguito) il percorso.
 
-Puoi creare analisi di percorsi di utenti utilizzando qualsiasi combinazione di eventi, elementi dimensionali, filtri e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti decisionali. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti modifiche.
+È possibile [creare analisi di percorsi di utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, filtri e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti decisionali. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti modifiche.
 
 ## Funzioni chiave
 
@@ -161,5 +164,3 @@ Per informazioni sull&#39;analisi di un percorso Journey Optimizer nell&#39;area
 ## Generare analisi nell’area di lavoro del Percorso
 
 Puoi creare analisi nell’area di lavoro del Percorso basate su qualsiasi dimensione o metrica disponibile in Analysis Workspace. In alternativa, è possibile analizzare i percorsi creati in Journey Optimizer. Per ulteriori informazioni, vedere [Configurare una visualizzazione dell&#39;area di lavoro di Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
-
-

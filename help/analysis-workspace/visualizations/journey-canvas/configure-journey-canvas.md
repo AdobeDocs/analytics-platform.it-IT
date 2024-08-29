@@ -5,14 +5,17 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: 53984934-6fba-4f15-aeeb-d91039260553
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4276'
 ht-degree: 1%
 
 ---
 
 # Configurare una visualizzazione area di lavoro Percorso
+
+{{release-limited-testing}}
 
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti.
 
@@ -78,9 +81,9 @@ Devi [iniziare a creare una visualizzazione dell&#39;area di lavoro del Percorso
    | Impostazione | Funzione |
    |---------|----------|
    | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
-   | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nel nodo iniziale.<p>Questa opzione è disponibile solo se si dispone di un singolo nodo iniziale. Se disponi di più nodi iniziali, l’opzione è nascosta.</p></li></ul> |
+   | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello che soddisfano anche i criteri del nodo iniziale del percorso. Questa opzione è disponibile solo nei percorsi con un singolo nodo iniziale ed è disabilitata nei percorsi con più nodi iniziali. Un nodo iniziale è definito come qualsiasi nodo che non dispone di una connessione.)</li></ul> |
    | [!UICONTROL **Impostazioni freccia**] | Scegli tra le seguenti opzioni:<ul><li>[!UICONTROL **Nessuno**]: </li><li>[!UICONTROL **Condizione**]: </li><li>[!UICONTROL **Tutte le etichette**]: </li></ul><p>**Nota**: questa opzione viene visualizzata solo quando vengono rilevati dati Journey Optimizer nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di abbandono per ciascun nodo, mostrando il numero e la percentuale di persone che hanno abbandonato il percorso in un determinato nodo. |
+   | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso in un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
 
 1. Continua con [Aggiungi un nodo](#add-a-node).
 
@@ -92,7 +95,7 @@ Per aggiungere un nodo a una visualizzazione dell’area di lavoro del Percorso:
 
 1. In Analysis Workspace, apri una visualizzazione dell&#39;area di lavoro del Percorso esistente oppure [creane una nuova](#begin-building-a-journey-canvas-visualization).
 
-1. Trascina metriche, dimensioni, elementi dimensionali, filtri o intervalli di date dalla barra a sinistra all’area di lavoro. Metriche calcolate non supportate. Inoltre, le metriche o dimensioni basate su un [set di dati di riepilogo](/help/data-views/summary-data.md) non sono supportate.
+1. Trascina metriche, dimensioni, elementi dimensionali, filtri o intervalli di date dalla barra a sinistra all’area di lavoro. Sono supportate le metriche basate su un [campo derivato](/help/data-views/derived-fields/derived-fields.md). Tuttavia, le metriche calcolate e quelle basate su un [set di dati di riepilogo](/help/data-views/summary-data.md) non sono supportate.
 
    Per selezionare più componenti nella barra a sinistra, tieni premuto Maiusc oppure tieni premuto Comando (su Mac) o Ctrl (su Windows).
 
@@ -221,15 +224,25 @@ La logica applicata ai nodi quando vengono combinati varia a seconda dei tipi di
 
 È possibile connettere nodi già presenti nell&#39;area di lavoro oppure un nodo quando lo si aggiunge all&#39;area di lavoro.
 
+#### Frecce tra nodi
+
+I nodi sono collegati da una freccia. Sia la direzione della freccia che la larghezza hanno un significato:
+
+* **Direzione**: indica la sequenza di eventi del percorso
+
+* **Larghezza**: indica il volume percentuale da un nodo all&#39;altro
+
 #### Logica durante la connessione dei nodi
 
 Quando si connettono nodi nell&#39;area di lavoro del Percorso, questi vengono connessi utilizzando l&#39;operatore THEN. Questa operazione è nota anche come [filtro sequenziale](/help/components/filters/seg-sequential-build.md).
+
+I nodi sono connessi come un &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati purché alla fine si spostino da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi.
 
 È possibile visualizzare la logica dei nodi connessi facendo clic con il pulsante destro del mouse sul nodo e selezionando [!UICONTROL **Crea filtro dal nodo**]. La logica è illustrata nella sezione [!UICONTROL **Definizione**].
 
 #### Connetti nodi esistenti
 
-La freccia tra i nodi nell&#39;area di lavoro del Percorso determina la sequenza di eventi nel percorso.
+I percorsi non possono essere circolari e tornare ai nodi connessi in precedenza.
 
 Per connettere i nodi nell&#39;area di lavoro del Percorso:
 
@@ -239,7 +252,7 @@ Per connettere i nodi nell&#39;area di lavoro del Percorso:
 
 1. Trascinate uno dei 4 punti blu su uno dei 4 lati del nodo a cui desiderate connettervi.
 
-   Viene visualizzata una freccia che collega i 2 nodi. La freccia indica la direzione di spostamento delle persone nel percorso.
+   Viene visualizzata una freccia che collega i 2 nodi. Per ulteriori informazioni, vedere [Frecce tra nodi](#arrows-between-nodes).
 
 #### Connetti nodi durante l’aggiunta di un nodo
 
@@ -249,7 +262,7 @@ Per ulteriori informazioni, vedere [Aggiungere un nodo](#add-a-node).
 
 ### Modificare il colore di un nodo o di una freccia
 
-Puoi modificare il colore di un nodo o di una freccia nell’area di lavoro.
+Puoi personalizzare visivamente un percorso modificando il colore di qualsiasi nodo o freccia nell’area di lavoro. Ad esempio, puoi regolare i colori per indicare un evento desiderato o indesiderato.
 
 L’opzione per modificare il colore è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -339,7 +352,7 @@ Per creare un pubblico:
 
 ### Visualizza dati tendenza
 
-È possibile visualizzare i dati delle tendenze in un grafico a linee per gli oggetti nell&#39;area di lavoro del Percorso. &lt;!—, con alcuni dati di rilevamento delle anomalie predefiniti (questa è la definizione in Abbandono)>
+È possibile visualizzare i dati delle tendenze in un grafico a linee per gli oggetti nell&#39;area di lavoro del Percorso. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 L’opzione di tendenza è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -474,4 +487,3 @@ Per eliminare le frecce tra i nodi nell&#39;area di lavoro del Percorso:
 In Journey Optimizer, apri il percorso che desideri analizzare nell’area di lavoro del Percorso.
 
 1. Seleziona [!UICONTROL **Analizza in CJA**]. <!-- ?? -->
-
