@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4359'
 ht-degree: 1%
 
 ---
@@ -65,16 +65,20 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
    <!-- add screen shot -->
 
-1. Sia che si crei una nuova analisi da un&#39;area di lavoro vuota che si stia analizzando un percorso Journey Optimizer, è possibile configurare il percorso come descritto in [Configurare una visualizzazione dell&#39;area di lavoro Percorso](#begin-building-a-journey-canvas-visualization).
+1. Sia che si crei una nuova analisi da un&#39;area di lavoro vuota o che si stia analizzando un percorso Journey Optimizer, è possibile configurare il percorso come descritto in [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
 
 
-## Configurare una visualizzazione area di lavoro Percorso
+## Configurare le impostazioni di visualizzazione
 
-Devi [iniziare a creare una visualizzazione dell&#39;area di lavoro del Percorso](#begin-building-a-journey-canvas-visualization) prima di configurarla come descritto nelle sezioni seguenti.
+Nell’intestazione dell’area di lavoro del Percorso sono disponibili varie opzioni di configurazione.
 
-### Configurare le impostazioni
+Per configurare le impostazioni per la visualizzazione Area di lavoro Percorso:
 
 1. In Analysis Workspace, apri una visualizzazione dell&#39;area di lavoro del Percorso esistente oppure [creane una nuova](#begin-building-a-journey-canvas-visualization).
+
+   Le opzioni che consentono di configurare la visualizzazione area di lavoro Percorso sono disponibili nell’intestazione:
+
+   ![Opzioni intestazione area di lavoro Percorso](assets/journey-canvas-header.png)
 
 1. Configura una delle seguenti impostazioni visualizzate nella parte superiore della visualizzazione:
 
@@ -83,15 +87,17 @@ Devi [iniziare a creare una visualizzazione dell&#39;area di lavoro del Percorso
    | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello che soddisfano anche i criteri del nodo iniziale del percorso. Questa opzione è disponibile solo nei percorsi con un singolo nodo iniziale ed è disabilitata nei percorsi con più nodi iniziali. Un nodo iniziale è definito come qualsiasi nodo che non dispone di una connessione.)</li></ul> |
    | [!UICONTROL **Impostazioni freccia**] | Scegli tra le seguenti opzioni:<ul><li>[!UICONTROL **Nessuno**]: </li><li>[!UICONTROL **Condizione**]: </li><li>[!UICONTROL **Tutte le etichette**]: </li></ul><p>**Nota**: questa opzione viene visualizzata solo quando vengono rilevati dati Journey Optimizer nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
-   | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso in un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
+   | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso dopo un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
 
-1. Continua con [Aggiungi un nodo](#add-a-node).
+1. Continua con [Aggiungi nodi](#add-nodes).
 
-### Aggiungi un nodo
+## Aggiungi nodi
 
-I nodi in una visualizzazione dell’area di lavoro di un Percorso rappresentano gli eventi o le azioni di un percorso di utenti. Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’area di lavoro.
+I nodi in una visualizzazione dell’area di lavoro di un Percorso rappresentano gli eventi o le azioni di un percorso di utenti.
 
-Per aggiungere un nodo a una visualizzazione dell’area di lavoro del Percorso:
+Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’area di lavoro, consentendo all’area di lavoro del Percorso di scegliere i nodi superiori successivi o precedenti in base ai nodi esistenti oppure duplicando i nodi esistenti.
+
+### Trascina i componenti dalla barra a sinistra
 
 1. In Analysis Workspace, apri una visualizzazione dell&#39;area di lavoro del Percorso esistente oppure [creane una nuova](#begin-building-a-journey-canvas-visualization).
 
@@ -180,6 +186,24 @@ Puoi aggiungere i primi 3 nodi compresi tra 2 nodi esistenti:
 
    I primi 3 nodi vengono aggiunti tra i 2 nodi esistenti e ciascuno di essi viene connesso come ramo separato.
 
+### Nodi duplicati
+
+L’opzione per duplicare è disponibile per i seguenti oggetti nell’area di lavoro:
+
+* Più nodi
+
+Per duplicare i nodi:
+
+1. Selezionare più nodi da duplicare.
+
+1. Fare clic con il pulsante destro del mouse su uno dei nodi selezionati, quindi selezionare [!UICONTROL **Duplica**].
+
+## Progettare il percorso
+
+L’ordine dei nodi e le connessioni tra di essi influiscono sui dati dell’area di lavoro del Percorso. I percorsi devono riflettere in modo visivo e accurato la sequenza di eventi su cui desideri creare un rapporto.
+
+Dopo aver aggiunto i nodi all’area di lavoro, puoi ridisporli, combinarli, collegarli e aggiungere vincoli di tempo tra di essi.
+
 ### Ridisponi nodi
 
 I percorsi nell’area di lavoro del Percorso sono costituiti da un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri.
@@ -260,9 +284,30 @@ Quando aggiungi un nodo all’area di lavoro, puoi posizionarlo tra due nodi con
 
 Per ulteriori informazioni, vedere [Aggiungere un nodo](#add-a-node).
 
+### Aggiungere un vincolo di tempo tra i nodi
+
+È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, se una persona segue il percorso definito ma impiega più tempo del periodo di tempo assegnato per spostarsi tra i nodi, si considera che sia uscita dal percorso.
+
+L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti oggetti nell’area di lavoro:
+
+* La freccia tra i nodi
+
+Per aggiungere un vincolo di tempo:
+
+1. Fare clic con il pulsante destro del mouse sulla freccia tra due nodi, quindi selezionare [!UICONTROL **Aggiungi vincolo di tempo**].
+
+<!-- 
+
+from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
+1. Choose from the following options: 
+
+-->
+
+## Gestire nodi o frecce
+
 ### Modificare il colore di un nodo o di una freccia
 
-Puoi personalizzare visivamente un percorso modificando il colore di qualsiasi nodo o freccia nell’area di lavoro. Ad esempio, puoi regolare i colori per indicare un evento desiderato o indesiderato.
+Puoi personalizzare visivamente un percorso modificando il colore di qualsiasi nodo o freccia nell’area di lavoro. Ad esempio, è possibile regolare i colori per indicare un evento desiderato o indesiderato.
 
 L’opzione per modificare il colore è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -310,7 +355,7 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 
 * Più frecce tra nodi
 
-### Applicare un raggruppamento a uno o più nodi o frecce
+#### Applicare un raggruppamento a uno o più nodi o frecce
 
 1. Seleziona uno o più nodi in cui desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
@@ -320,7 +365,7 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 
 1. Seleziona [!UICONTROL **Raggruppamento**].
 
-### Applicare un raggruppamento a un singolo nodo
+#### Applicare un raggruppamento a un singolo nodo
 
 Puoi trascinare una dimensione dalla barra a sinistra sul nodo dell’area di lavoro in cui desideri applicare il raggruppamento.
 
@@ -374,37 +419,6 @@ Per visualizzare i dati di tendenza:
 
 1. Seleziona [!UICONTROL **Tendenza**].
 
-### Nodi duplicati
-
-L’opzione per duplicare è disponibile per i seguenti oggetti nell’area di lavoro:
-
-* Più nodi
-
-Per duplicare i nodi:
-
-1. Selezionare più nodi da duplicare.
-
-1. Fare clic con il pulsante destro del mouse su uno dei nodi selezionati, quindi selezionare [!UICONTROL **Duplica**].
-
-
-### Aggiungere un vincolo di tempo tra i nodi
-
-È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, se una persona segue il percorso definito ma impiega più tempo del periodo di tempo assegnato per spostarsi tra i nodi, si considera che sia uscita dal percorso.
-
-L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti oggetti nell’area di lavoro:
-
-* La freccia tra i nodi
-
-Per aggiungere un vincolo di tempo:
-
-1. Fare clic con il pulsante destro del mouse sulla freccia tra due nodi, quindi selezionare [!UICONTROL **Aggiungi vincolo di tempo**].
-
-<!-- 
-
-from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
-1. Choose from the following options: 
-
--->
 
 ### Creare un filtro basato su un nodo o una freccia
 
