@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
+source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4484'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
    |---------|----------|
    | [!UICONTROL **Metrica primaria**] | La metrica principale influisce sui seguenti aspetti della visualizzazione dell’area di lavoro del Percorso:  <ul><li>Definisce il modo in cui le persone si spostano nel percorso.</li><li>Numero totale visualizzato su ciascun nodo.<p>Ad esempio, se Persone è la metrica principale, ogni nodo mostra il numero di persone che hanno raggiunto quel nodo nel percorso.</p></li><li>La percentuale visualizzata su ciascun nodo. Una volta creata la visualizzazione, puoi scegliere di mostrare la percentuale del totale o del nodo iniziale.</li><p>Ad esempio, se Persone è la metrica principale, ogni nodo mostra la percentuale di persone che hanno raggiunto quel nodo nel percorso (la percentuale del totale o del nodo iniziale).</p></li><li>Quando una dimensione viene aggiunta alla visualizzazione, vengono aggiunti i primi 3 nodi della visualizzazione, in base alla metrica principale.</li></ul> |
    | [!UICONTROL **Metrica secondaria**] | La metrica secondaria è facoltativa. Quando ne è selezionato uno, le seguenti informazioni vengono visualizzate su ciascun nodo sotto la metrica principale: <ul><li>Numero totale<p>Ad esempio, se Sessioni è la metrica secondaria, ogni nodo mostra il numero di sessioni che hanno raggiunto quel nodo nel percorso.</p></li><li>La percentuale (dopo aver creato la visualizzazione, puoi scegliere di mostrare la percentuale del totale o del nodo iniziale).</li><p>Ad esempio, se Sessioni è la metrica secondaria, ogni nodo mostra la percentuale di sessioni che hanno raggiunto tale nodo nel percorso (la percentuale del totale o del nodo iniziale).</p></li></ul> |
-   | [!UICONTROL **percorso Journey Optimizer**]<!-- name? --> | Seleziona il percorso Journey Optimizer da utilizzare come base per l’analisi nell’area di lavoro del Percorso. In alternativa, puoi lasciare vuota questa opzione se desideri un’area di lavoro vuota da cui generare l’analisi in Analysis Workspace.</p> <p>Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Per ulteriori informazioni, vedere [Analizzare i percorsi Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [Panoramica area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: questa opzione viene visualizzata solo quando vengono rilevati dati Journey Optimizer nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **percorso Journey Optimizer**]<!-- name? --> | Seleziona il percorso Journey Optimizer da utilizzare come base per l’analisi nell’area di lavoro del Percorso. In alternativa, puoi lasciare vuota questa opzione se desideri un’area di lavoro vuota da cui generare l’analisi in Analysis Workspace.</p> <p>Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Per ulteriori informazioni, vedere [Analizzare i percorsi Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [Panoramica area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
 
 1. (Facoltativo) Seleziona [!UICONTROL **Mostra impostazioni avanzate**], quindi specifica le seguenti informazioni:
 
@@ -84,10 +84,11 @@ Per configurare le impostazioni per la visualizzazione Area di lavoro Percorso:
 
    | Impostazione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello che soddisfano anche i criteri del nodo iniziale del percorso. Questa opzione è disponibile solo nei percorsi con un singolo nodo iniziale ed è disabilitata nei percorsi con più nodi iniziali. Un nodo iniziale è definito come qualsiasi nodo che non dispone di una connessione.)</li></ul> |
-   | [!UICONTROL **Impostazioni freccia**] | Scegli tra le seguenti opzioni:<ul><li>[!UICONTROL **Nessuno**]: </li><li>[!UICONTROL **Condizione**]: </li><li>[!UICONTROL **Tutte le etichette**]: </li></ul><p>**Nota**: questa opzione viene visualizzata solo quando vengono rilevati dati Journey Optimizer nella visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Impostazioni freccia**] | Scegli tra le seguenti opzioni:<ul><li>[!UICONTROL **Nessuno**]: </li><li>[!UICONTROL **Condizione**]: </li><li>[!UICONTROL **Tutte le etichette**]: </li></ul><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso dopo un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
+   | **Controlli zoom** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli di zoom:<ul><li>**Zoom in** ![icona Zoom in](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Zoom indietro** ![icona Zoom indietro](assets/zoom-out-icon.png): riduce la visualizzazione per consentire più spazio nell&#39;area di lavoro.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li></ul><p>Per spostarsi nell&#39;area di lavoro dopo aver eseguito lo zoom avanti o indietro, fare clic con il mouse e trascinare nella posizione desiderata.</p> |
 
 1. Continua con [Aggiungi nodi](#add-nodes).
 
@@ -208,7 +209,9 @@ Dopo aver aggiunto i nodi all’area di lavoro, puoi ridisporli, combinarli, col
 
 I percorsi nell’area di lavoro del Percorso sono costituiti da un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri.
 
-Puoi trascinare i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Come fai tu, i dati vengono aggiornati di conseguenza.
+Puoi trascinare i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. È possibile selezionare più nodi tenendo premuto Comando (su Mac) o Ctrl (su Windows).
+
+Quando ridisponi l’ordine dei nodi nel percorso, i dati vengono aggiornati di conseguenza.
 
 ### Combinare nodi
 
@@ -282,7 +285,7 @@ Per connettere i nodi nell&#39;area di lavoro del Percorso:
 
 Quando aggiungi un nodo all’area di lavoro, puoi posizionarlo tra due nodi connessi. Il nodo viene aggiunto al flusso del percorso tra i due nodi esistenti.
 
-Per ulteriori informazioni, vedere [Aggiungere un nodo](#add-a-node).
+Per ulteriori informazioni, vedere [Aggiungere nodi](#add-nodes).
 
 ### Aggiungere un vincolo di tempo tra i nodi
 
@@ -369,7 +372,7 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 
 Puoi trascinare una dimensione dalla barra a sinistra sul nodo dell’area di lavoro in cui desideri applicare il raggruppamento.
 
-Per ulteriori informazioni, vedere [Aggiungere un nodo](#add-a-node).
+Per ulteriori informazioni, vedere [Aggiungere nodi](#add-nodes).
 
 ### Creazione di un pubblico
 
