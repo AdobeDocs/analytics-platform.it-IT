@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79efab0baf9c44603a7aad7383f42a9d9c0b63cb
+source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2901'
 ht-degree: 1%
 
 ---
@@ -197,7 +197,7 @@ Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Exp
 Per motivi di governance dei dati, si applicano i seguenti valori predefiniti e limitazioni aggiuntivi.
 
 * L’estensione BI richiede un limite di righe per i risultati della query. Il valore predefinito è 50, ma è possibile eseguire l&#39;override in SQL utilizzando `LIMIT n`, dove `n` è 1 - 50000.
-* L’estensione BI richiede un intervallo di date per limitare le righe utilizzate per i calcoli. Il valore predefinito è gli ultimi 30 giorni, ma è possibile ignorarlo nella clausola SQL `WHERE` utilizzando le colonne speciali [`timestamp`](#timestamp) o [`daterange`](#date-range) (per ulteriori informazioni, vedere la documentazione).
+* L’estensione BI richiede un intervallo di date per limitare le righe utilizzate per i calcoli. L&#39;impostazione predefinita corrisponde agli ultimi 30 giorni, ma è possibile ignorarla nella clausola SQL `WHERE` utilizzando le colonne speciali [`timestamp`](#timestamp) o [`daterange`](#date-range).
 * L’estensione BI richiede query di aggregazione. Impossibile utilizzare SQL come `SELECT * FROM ...` per ottenere le righe sottostanti non elaborate. A un livello avanzato, le query aggregate devono utilizzare:
    * Selezionare i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio, `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Seleziona le metriche suddivise per dimensione. <br/>Ad esempio, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
