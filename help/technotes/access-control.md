@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: fb106077949cc5a1a2fbaf7702bd0c872152499f
+source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1341'
 ht-degree: 13%
 
 ---
@@ -110,7 +110,7 @@ La scheda **[!UICONTROL Permissions]** fa parte di ciascun profilo di prodotto n
 
 | Categoria | Autorizzazione | Descrizione |
 | --- | --- | ---|
-| [!UICONTROL Data Views] | *nome di una visualizzazione dati* | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
+| [!UICONTROL Data Views] | *nome visualizzazione dati* | Se si attiva **[!UICONTROL Auto-Include]** a **[!UICONTROL On]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Off]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Analysis Workspace Access] | Consenti agli utenti di accedere a [Analysis Workspace](/help/analysis-workspace/home.md). |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Guided Analysis Access] | Consenti agli utenti di accedere a [Analisi guidata](/help/guided-analysis/overview.md). |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Calculated Metrics Creation] | Consenti agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). Gli utenti possono assegnare tag, condividere, eliminare, rinominare, approvare e non approvare solo le metriche calcolate create o condivise con esse. |
