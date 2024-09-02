@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
+source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 13%
@@ -92,7 +92,7 @@ Oltre ad essere stati aggiunti come amministratore di prodotto nel **profilo di 
       * l’autorizzazione ad accedere alle visualizzazioni dati pertinenti. Vedi [!UICONTROL Data Views] in [Accesso a livello utente](#user-level-access).
       * autorizzazione per accedere all’estensione Customer Journey Analytics BI. Vedi [!UICONTROL Data View Tools] in [Accesso a livello utente](#user-level-access).
 
-## Ruolo di amministratore del profilo di prodotto
+### Ruolo di amministratore del profilo di prodotto
 
 Un profilo di prodotto è un set di autorizzazioni. Gli amministratori di prodotto creano profili di prodotto e possono assegnarli per gestire uno o più profili di prodotto. Un amministratore del profilo di prodotto può quindi:
 
@@ -100,7 +100,7 @@ Un profilo di prodotto è un set di autorizzazioni. Gli amministratori di prodot
 
 * In Customer Journey Analytics, modifica le visualizzazioni dati che fanno parte di un profilo di prodotto assegnato. Gli amministratori dei profili di prodotto non possono creare nuove visualizzazioni dati.
 
-## Accesso a livello di utente
+### Accesso a livello di utente
 
 La tabella seguente illustra le autorizzazioni di accesso principali per diverse funzionalità di Customer Journey Analytics che puoi configurare per gli utenti rilevanti. Puoi gestire diversi livelli di accesso utente tramite i profili di prodotto. Un profilo di prodotto combina una serie di autorizzazioni che puoi quindi assegnare a singoli utenti o gruppi di utenti.
 
