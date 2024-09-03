@@ -4,16 +4,16 @@ description: Scopri le metriche filtrate derivate in fase di esecuzione dei rapp
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
 # Panoramica delle metriche calcolate
 
-Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti. I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione.
+Le metriche calcolate e le metriche calcolate avanzate sono metriche personalizzate che puoi creare dalle metriche esistenti. I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione.
 
 È possibile eseguire le seguenti azioni:
 
@@ -25,7 +25,7 @@ Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personaliz
 
 Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche calcolate avanzate:
 
-| Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate (derivate) |
+| Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate |
 |---|---|---|
 | Tipi di formato (decimale, ora, percentuale, valuta) | Sì | Sì |
 | Modifiche dell’attribuzione (predefinita, lineare, di partecipazione, ecc.) | Sì | Sì |

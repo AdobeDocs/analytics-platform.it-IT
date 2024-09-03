@@ -4,7 +4,7 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 36718581c9a070bb5f5547f18be643ca91838bae
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 28%
@@ -148,6 +148,6 @@ Le metriche calcolate che includono una delle metriche o costanti seguenti non s
 
 Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il valore [!UICONTROL **Ovunque nel Customer Journey Analytics (esclusa la sperimentazione)**] nel campo [!UICONTROL **Compatibilità prodotto**] durante la creazione della metrica calcolata. Per informazioni sulla creazione di una metrica calcolata, vedere [Genera metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
-## Utilizzare le metriche derivate nel pannello Sperimentazione
+## Utilizzare le metriche calcolate nel pannello Sperimentazione
 
-Per informazioni sull&#39;utilizzo di metriche derivate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119), consulta questo post di blog.[
+Consulta questo post di blog per informazioni sull&#39;utilizzo di [metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
