@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
-source-wordcount: '4484'
+source-wordcount: '4526'
 ht-degree: 1%
 
 ---
@@ -145,6 +145,10 @@ Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’
 
 ### Aggiungere i nodi principali in base ai nodi esistenti
 
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
+
 Puoi aggiungere automaticamente i nodi principali in base ai nodi già presenti nell’area di lavoro.
 
 Questa opzione è disponibile per i seguenti oggetti nell’area di lavoro:
@@ -188,6 +192,10 @@ Puoi aggiungere i primi 3 nodi compresi tra 2 nodi esistenti:
    I primi 3 nodi vengono aggiunti tra i 2 nodi esistenti e ciascuno di essi viene connesso come ramo separato.
 
 ### Nodi duplicati
+
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
 
 L’opzione per duplicare è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -289,6 +297,10 @@ Per ulteriori informazioni, vedere [Aggiungere nodi](#add-nodes).
 
 ### Aggiungere un vincolo di tempo tra i nodi
 
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
+
 È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, se una persona segue il percorso definito ma impiega più tempo del periodo di tempo assegnato per spostarsi tra i nodi, si considera che sia uscita dal percorso.
 
 L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti oggetti nell’area di lavoro:
@@ -310,6 +322,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### Modificare il colore di un nodo o di una freccia
 
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
+
 Puoi personalizzare visivamente un percorso modificando il colore di qualsiasi nodo o freccia nell’area di lavoro. Ad esempio, è possibile regolare i colori per indicare un evento desiderato o indesiderato.
 
 L’opzione per modificare il colore è disponibile per i seguenti oggetti nell’area di lavoro:
@@ -329,6 +345,10 @@ Per modificare il colore di un nodo o di una freccia:
    Sono disponibili i colori seguenti: <!--look into this interaction and color list-->
 
 ### Rinominare un nodo o una freccia
+
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
 
 Quando trascini un componente in una visualizzazione area di lavoro Percorsi, viene creato un nodo con lo stesso nome del nome del componente. Puoi rinominare il nodo in modo che corrisponda meglio al passaggio del percorso rappresentato dal nodo.
 
@@ -359,6 +379,10 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 * Più frecce tra nodi
 
 #### Applicare un raggruppamento a uno o più nodi o frecce
+
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
 
 1. Seleziona uno o più nodi in cui desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
@@ -400,6 +424,10 @@ Per creare un pubblico:
 
 ### Visualizza dati tendenza
 
+>[!AVAILABILITY]
+>
+>Questa funzione non è ancora disponibile.
+
 È possibile visualizzare i dati delle tendenze in un grafico a linee per gli oggetti nell&#39;area di lavoro del Percorso. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 L’opzione di tendenza è disponibile per i seguenti oggetti nell’area di lavoro:
@@ -421,7 +449,6 @@ Per visualizzare i dati di tendenza:
    Selezionare una o più frecce tra 2 nodi per i quali si desidera visualizzare i dati di tendenza, quindi fare clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Tendenza**].
-
 
 ### Creare un filtro basato su un nodo o una freccia
 

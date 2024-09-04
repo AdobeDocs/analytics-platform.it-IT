@@ -6,7 +6,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -147,7 +147,7 @@ Per ulteriori informazioni su questo campo, vedere [Configurare le impostazioni]
 
 Le modifiche apportate a un percorso in Journey Optimizer vengono sincronizzate con l&#39;area di lavoro del Percorso solo se il percorso rimane invariato nell&#39;area di lavoro del Percorso.
 
-Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, le modifiche apportate al percorso in Journey Optimizer non verranno applicate nell&#39;area di lavoro del Percorso. Per visualizzare le modifiche nell&#39;area di lavoro del Percorso, è possibile eliminare e [ricreare il percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, tutte le modifiche apportate al percorso in Journey Optimizer non vengono applicate nell&#39;area di lavoro del Percorso. Per visualizzare le modifiche nell&#39;area di lavoro del Percorso, è possibile eliminare e [ricreare il percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Differenze terminologiche tra Journey Optimizer e Customer Journey Analytics
 
