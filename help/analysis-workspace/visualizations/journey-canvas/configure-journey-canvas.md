@@ -6,10 +6,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: c94544baf4c934b16b2fc9ce837dd41e07a3dcac
 workflow-type: tm+mt
-source-wordcount: '4526'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
    Oppure
 
-   Aggiungere una visualizzazione dell&#39;area di lavoro del Percorso in uno dei modi descritti nella sezione [Aggiungere visualizzazioni a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+   Aggiungi una visualizzazione area di lavoro Percorso in uno dei modi descritti nella sezione [Aggiungere visualizzazioni a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Specifica le seguenti informazioni di base:
 
@@ -65,7 +65,7 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
    <!-- add screen shot -->
 
-1. Sia che si crei una nuova analisi da un&#39;area di lavoro vuota o che si stia analizzando un percorso Journey Optimizer, è possibile configurare il percorso come descritto in [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
+1. Sia che si crei una nuova analisi da un&#39;area di lavoro vuota o che si analizzi un percorso Journey Optimizer, è possibile configurare il percorso come descritto in [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
 
 
 ## Configurare le impostazioni di visualizzazione
@@ -84,9 +84,9 @@ Per configurare le impostazioni per la visualizzazione Area di lavoro Percorso:
 
    | Impostazione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
-   | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello che soddisfano anche i criteri del nodo iniziale del percorso. Questa opzione è disponibile solo nei percorsi con un singolo nodo iniziale ed è disabilitata nei percorsi con più nodi iniziali. Un nodo iniziale è definito come qualsiasi nodo che non dispone di una connessione.)</li></ul> |
-   | [!UICONTROL **Impostazioni freccia**] | Scegli tra le seguenti opzioni:<ul><li>[!UICONTROL **Nessuno**]: </li><li>[!UICONTROL **Condizione**]: </li><li>[!UICONTROL **Tutte le etichette**]: </li></ul><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione. Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. <p>A seconda del contenuto della visualizzazione, i possibili tipi di nodo includono:</p><ul><li>[!UICONTROL **Leggi segmento**]</li><li>[!UICONTROL **Fine**]</li><li>[!UICONTROL **Dimensione**]</li><li>[!UICONTROL **Metrica**]</li></ul><p>**Nota**: quando utilizzi questo campo, considera quanto segue:</p><ul><li>Questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui stai aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</li><li>Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, questa opzione non è più disponibile. Per ulteriori informazioni, vedere [Differenze visive dopo la modifica di un percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li><li>I nodi non vengono eliminati dal percorso quando vengono nascosti. Per informazioni su come eliminare un nodo, vedere [Eliminare i nodi](#delete-nodes).</li></ul></p> |
+   | [!UICONTROL **Valore percentuale**] | Scegli tra le seguenti opzioni: <ul><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati all&#39;interno dell&#39;intervallo di date del pannello.</li><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone incluse nella visualizzazione dati nell&#39;intervallo di date del pannello che soddisfano anche i criteri del nodo iniziale del percorso. Questa opzione è disponibile solo nei percorsi con un singolo nodo iniziale ed è disabilitata nei percorsi con più nodi iniziali. Un nodo iniziale è definito come qualsiasi nodo che non dispone di una connessione.)</li></ul> |
+   | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del Percorso possono contenere nomi personalizzati, etichette Journey Optimizer e condizioni Journey Optimizer. Scegliere una delle seguenti opzioni per determinare quali sono visualizzate:<ul><li>[!UICONTROL **Nessuno**]: nelle frecce nell&#39;area di lavoro del Percorso non vengono visualizzati nomi personalizzati, etichette Journey Optimizer o condizioni Journey Optimizer. </li><li>[!UICONTROL **Condizione**]: tutte le etichette di condizione configurate in Journey Optimizer vengono visualizzate sulle frecce nell&#39;area di lavoro del Percorso. Eventuali nomi personalizzati o altre etichette Journey Optimizer non vengono visualizzati.</li><li>[!UICONTROL **Tutte le etichette**]: se una freccia contiene un nome, un&#39;etichetta o una condizione personalizzata, verrà visualizzata sulla freccia nell&#39;area di lavoro del Percorso. Viene visualizzato un solo nome, etichetta o condizione per freccia, nell&#39;ordine di preferenza seguente: <ol><li>Un nome personalizzato aggiunto dall&#39;area di lavoro del Percorso (come descritto in [Rinominare un nodo o una freccia](#rename-a-node-or-arrow))</li><li>Etichetta Journey Optimizer</li><li>Una condizione Journey Optimizer</li></ol></li></ul><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
    | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso dopo un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
    | **Controlli zoom** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli di zoom:<ul><li>**Zoom in** ![icona Zoom in](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Zoom indietro** ![icona Zoom indietro](assets/zoom-out-icon.png): riduce la visualizzazione per consentire più spazio nell&#39;area di lavoro.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li></ul><p>Per spostarsi nell&#39;area di lavoro dopo aver eseguito lo zoom avanti o indietro, fare clic con il mouse e trascinare nella posizione desiderata.</p> |
 
@@ -114,7 +114,7 @@ Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’
    | Metrica | Un nodo esistente | Il componente viene combinato automaticamente con il nodo esistente. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p> |
    | Metrica | Una freccia tra 2 nodi esistenti | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p> |
    | Dimensione | Area vuota dell’area di lavoro | Vengono creati 3 nodi per i primi 3 elementi dimensionali in cui il componente è stato rilasciato, senza alcuna connessione con i nodi esistenti. (**Nota:** se vengono visualizzati solo 1 o 2 nodi, significa che i dati sono disponibili solo per 1 o 2 degli elementi dimensionali. Se non vengono visualizzati nodi, significa che i dati non sono disponibili per nessuno degli elementi dimensionali. In questo caso, prova ad aggiungerlo a un punto diverso del percorso, a regolare l’intervallo di date della visualizzazione o a scegliere una dimensione diversa.<p>Quando rilasci la dimensione nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerla come nodo singolo con 3 elementi dimensionali.</p><p></p> |
-   | Dimensione | Un nodo esistente | Al nodo viene applicato automaticamente un raggruppamento con i primi 5 elementi dimensionali visualizzati.<!--what happens if you hold Shift?--> |
+   | Dimensione | Un nodo esistente | Al nodo viene applicato automaticamente un raggruppamento con i primi 5 elementi dimensionali visualizzati.<!--what happens if you hold Shift?--><p>Per visualizzare il raggruppamento in una nuova visualizzazione di tabella a forma libera, seleziona il collegamento [!UICONTROL **Apri in una tabella a forma libera**] sul nodo.</p> |
    | Dimensione | Una freccia che connette 2 nodi esistenti | Vengono creati 3 nodi per i primi 3 elementi dimensionali che seguono il primo evento dopo il primo nodo (di persone/sessioni che alla fine raggiungono il secondo nodo). I nodi vengono visualizzati tra i due nodi esistenti in cui il componente è stato rilasciato e ogni nodo è connesso a entrambi i nodi esistenti. (**Nota:** se vengono visualizzati solo 1 o 2 nodi, significa che i dati sono disponibili solo per 1 o 2 degli elementi dimensionali. Se non vengono visualizzati nodi, significa che i dati non sono disponibili per nessuno degli elementi dimensionali. In questo caso, prova ad aggiungerlo a un punto diverso del percorso, a regolare l’intervallo di date della visualizzazione o a scegliere una dimensione diversa.<p>Quando rilasci la dimensione nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerla come nodo singolo con 3 elementi dimensionali. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p> |
    | Elemento dimensione | Area vuota dell’area di lavoro | Il nodo visualizza il punto in cui il componente è stato rilasciato, senza connessione con alcun nodo esistente. |
    | Elemento dimensione | Un nodo esistente | Il componente viene combinato automaticamente con il nodo esistente. |
@@ -125,9 +125,9 @@ Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’
    | Intervallo date | Area vuota dell’area di lavoro | Il nodo visualizza il punto in cui il componente è stato rilasciato, senza connessione con altri nodi.<p>Il numero e la percentuale visualizzati nel nodo includono il totale della metrica principale, filtrato per l’intervallo di date selezionato.</p> <p>Se ad esempio si seleziona Persone come metrica principale per il percorso, l’aggiunta di un intervallo di date Questo mese a un’area vuota dell’area di lavoro mostra tutte le persone che hanno avuto un evento nel corso del mese corrente.</p> |
    | Intervallo date | Un nodo esistente | Applica l’intervallo di date al nodo esistente. |
    | Intervallo date | Una freccia che connette 2 nodi | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Applica l’intervallo di date al punto del percorso in cui è stato rilasciato il componente.</p> |
-   | Più componenti | Area vuota dell&#39;area di lavoro | **Se nessuno dei componenti sono dimensioni:**<p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati, senza alcuna connessione con i nodi esistenti.</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. </p><p>**Se uno dei componenti che stai aggiungendo sono dimensioni:**</p><p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati, senza alcuna connessione con i nodi esistenti.</p><p>È possibile aggiungere una sola dimensione alla volta e vengono creati 3 nodi per i primi 3 elementi dimensionali in cui il componente è stato rilasciato.</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I primi 3 elementi dimensionali sono combinati con ciascun nodo. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p> |
+   | Più componenti | Area vuota dell&#39;area di lavoro | **Se nessuno dei componenti sono dimensioni:**<p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati, senza alcuna connessione con i nodi esistenti.</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. </p><p>**Se uno dei componenti che stai aggiungendo sono dimensioni:**</p><p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati, senza alcuna connessione con i nodi esistenti.</p><p>È possibile aggiungere una sola dimensione alla volta. Quando si aggiunge la dimensione, vengono creati 3 nodi per i primi 3 elementi dimensionali in cui il componente è stato rilasciato.</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I primi 3 elementi dimensionali sono combinati con ciascun nodo. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p> |
    | Più componenti | Un nodo esistente | Tutti i componenti sono combinati con il nodo esistente.<p>Se uno dei componenti che stai aggiungendo sono dimensioni, i primi 3 elementi dimensionali vengono combinati con il nodo.</p> <p>È possibile aggiungere una sola dimensione alla volta.</p> |
-   | Più componenti | Una freccia che connette 2 nodi esistenti | **Se nessuno dei componenti sono dimensioni:**<p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati e ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I componenti devono essere dello stesso tipo per essere combinati in un singolo nodo. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p><p>**Se uno dei componenti che stai aggiungendo sono dimensioni:**</p><p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati e ogni nodo è connesso a entrambi i nodi esistenti.</p><p>È possibile aggiungere una sola dimensione alla volta e vengono creati 3 nodi per i primi 3 elementi della dimensione che seguono il primo evento dopo il primo nodo (di persone/sessioni che alla fine raggiungono il secondo nodo). Ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I primi 3 elementi dimensionali sono combinati con ciascun nodo e ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p> |
+   | Più componenti | Una freccia che connette 2 nodi esistenti | **Se nessuno dei componenti sono dimensioni:**<p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati e ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I componenti devono essere dello stesso tipo per essere combinati in un singolo nodo. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p><p>**Se uno dei componenti che stai aggiungendo sono dimensioni:**</p><p>Ogni componente viene visualizzato come un nodo separato in cui i componenti sono stati eliminati e ogni nodo è connesso a entrambi i nodi esistenti.</p><p>È possibile aggiungere una sola dimensione alla volta. Quando si aggiunge la dimensione, vengono creati 3 nodi per i primi 3 elementi della dimensione che seguono il primo evento dopo il primo nodo (di persone/sessioni che alla fine raggiungono il secondo nodo). Ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Quando rilasci i componenti nell’area di lavoro, tieni premuto il tasto Maiusc per aggiungerli come un nodo combinato. I primi 3 elementi dimensionali sono combinati con ciascun nodo e ogni nodo è connesso a entrambi i nodi esistenti. (Vedi [Combina nodi](#combine-nodes) per ulteriori informazioni.)</p> |
 
    I nodi vengono visualizzati come una casella rettangolare con le seguenti informazioni:
 
@@ -143,13 +143,13 @@ Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’
 
 1. Continuate a personalizzare il percorso come descritto nelle sezioni seguenti. Puoi connettere nodi, rinominare nodi, applicare suddivisioni, creare tipi di pubblico, aggiungere vincoli di tempo e altro ancora.
 
-### Aggiungere i nodi principali in base ai nodi esistenti
+### Mostra i nodi principali in base ai nodi esistenti
 
 >[!AVAILABILITY]
 >
 >Questa funzione non è ancora disponibile.
 
-Puoi aggiungere automaticamente i nodi principali in base ai nodi già presenti nell’area di lavoro.
+Puoi visualizzare automaticamente i nodi principali in base ai nodi già presenti nell’area di lavoro. Puoi aggiungere i nodi principali all’area di lavoro del Percorso o visualizzarli in una tabella a forma libera.
 
 Questa opzione è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -157,39 +157,63 @@ Questa opzione è disponibile per i seguenti oggetti nell’area di lavoro:
 
 * La freccia tra i nodi
 
-#### Aggiungi nodi principali dopo un nodo esistente
+#### Mostra nodi principali dopo un nodo esistente
 
-Puoi selezionare un nodo e aggiungere al percorso i primi 3 nodi successivi.
+Puoi selezionare un nodo e visualizzare gli elementi dimensionali principali che seguono nel percorso. È possibile aggiungere i primi 3 elementi dimensionali all’area di lavoro del Percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
 
-1. Fare clic con il pulsante destro del mouse sul nodo in cui si desidera aggiungere i primi 3 nodi successivi nel percorso.
+1. Fai clic con il pulsante destro del mouse sul nodo in cui desideri visualizzare gli elementi dimensionali principali che seguono nel percorso.
 
-   Questo nodo non può avere nodi esistenti che ne escano nel percorso.
+   Il nodo non può avere nodi esistenti che ne escano nel percorso.
 
-1. Seleziona [!UICONTROL **Aggiungi nodi principali dopo questo nodo**].
+1. Seleziona [!UICONTROL **Mostra nodi principali dopo questo nodo**].
 
-   Vengono aggiunti i primi 3 nodi che seguono questo nodo nel percorso e ciascuno di essi è connesso al nodo selezionato come ramo separato.
+1. Seleziona il punto in cui desideri visualizzare gli elementi dimensionali:
 
-#### Aggiungi nodi principali prima di un nodo esistente
+   * [!UICONTROL **Nell&#39;area di lavoro del Percorso**]: aggiunge i primi 3 nodi all&#39;area di lavoro che segue questo nodo nel percorso. Ogni nodo è connesso al nodo selezionato come ramo separato nell’area di lavoro.
 
-Puoi aggiungere i primi 3 nodi che precedono un nodo esistente nel percorso.
+   * [!UICONTROL **In una tabella a forma libera**]: crea una visualizzazione di tabella a forma libera che mostra tutti gli elementi dimensionali principali che seguono questo nodo nel percorso.
 
-1. Fare clic con il pulsante destro del mouse sul nodo in cui si desidera aggiungere i primi 3 nodi che lo precedono nel percorso.
+1. Selezionate la quota desiderata dall&#39;elenco delle quote.
+
+   A seconda di quanto scelto nel passaggio precedente, i primi 3 elementi dimensionali vengono aggiunti all’area di lavoro come 3 nodi separati, oppure tutti gli elementi dimensionali principali vengono visualizzati in una tabella a forma libera.
+
+#### Mostra nodi principali prima di un nodo esistente
+
+Puoi selezionare un nodo e visualizzare gli elementi dimensionali principali che lo precedono nel percorso. È possibile aggiungere i primi 3 elementi dimensionali all’area di lavoro del Percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
+
+1. Fai clic con il pulsante destro del mouse sul nodo in cui desideri visualizzare gli elementi dimensionali principali che lo precedono nel percorso.
 
    Questo nodo non può contenere nodi esistenti che entrano in esso nel percorso.
 
-1. Seleziona [!UICONTROL **Aggiungi nodi principali prima di questo nodo**].
+1. Seleziona [!UICONTROL **Mostra nodi principali prima di questo nodo**].
 
-   Vengono aggiunti i primi 3 nodi che precedono questo nodo nel percorso e ciascuno di essi è connesso al nodo selezionato come ramo separato.
+1. Seleziona il punto in cui desideri visualizzare gli elementi dimensionali:
 
-#### Aggiungi nodi principali tra nodi esistenti
+   * [!UICONTROL **Nell&#39;area di lavoro del Percorso**]: aggiunge i primi 3 nodi all&#39;area di lavoro che precede questo nodo nel percorso. Ogni nodo è connesso al nodo selezionato come ramo separato nell’area di lavoro.
 
-Puoi aggiungere i primi 3 nodi compresi tra 2 nodi esistenti:
+   * [!UICONTROL **In una tabella a forma libera**]: crea una visualizzazione di tabella a forma libera che mostra tutti gli elementi dimensionali principali che precedono questo nodo nel percorso.
 
-1. Fare clic con il pulsante destro del mouse sulla freccia tra i due nodi in cui si desidera aggiungere i primi tre nodi del percorso.
+1. Selezionate la quota desiderata dall&#39;elenco delle quote.
 
-1. Seleziona [!UICONTROL **Aggiungi nodi principali**].<!-- I don't think this should have the word "next" in the UI option, because it's both next and previous. It's in between. Just "Get top nodes" sounds better to me.-->
+   A seconda di quanto scelto nel passaggio precedente, i primi 3 elementi dimensionali vengono aggiunti all’area di lavoro come 3 nodi separati, oppure tutti gli elementi dimensionali principali vengono visualizzati in una tabella a forma libera.
 
-   I primi 3 nodi vengono aggiunti tra i 2 nodi esistenti e ciascuno di essi viene connesso come ramo separato.
+#### Mostra nodi principali tra nodi esistenti
+
+Puoi selezionare una freccia e visualizzare gli elementi dimensionali principali compresi tra 2 nodi esistenti nel percorso. È possibile aggiungere i primi 3 elementi dimensionali all’area di lavoro del Percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
+
+1. Fai clic con il pulsante destro del mouse sulla freccia tra i due nodi in cui desideri visualizzare gli elementi dimensionali principali.
+
+1. Selezionare [!UICONTROL **Mostra nodi principali tra questi nodi**].
+
+1. Seleziona il punto in cui desideri visualizzare gli elementi dimensionali:
+
+   * [!UICONTROL **Nell&#39;area di lavoro di Percorso**]: aggiunge i primi 3 nodi all&#39;area di lavoro che si trovano tra i 2 nodi esistenti. Ogni nodo è connesso ai nodi circostanti come ramo separato nell’area di lavoro.
+
+   * [!UICONTROL **In una tabella a forma libera**]: crea una visualizzazione di tabella a forma libera che mostra tutti gli elementi dimensionali principali compresi tra i 2 nodi esistenti.
+
+1. Selezionate la quota desiderata dall&#39;elenco delle quote.
+
+   A seconda di quanto scelto nel passaggio precedente, i primi 3 elementi dimensionali vengono aggiunti all’area di lavoro come 3 nodi separati, oppure tutti gli elementi dimensionali principali vengono visualizzati in una tabella a forma libera.
 
 ### Nodi duplicati
 
@@ -301,7 +325,7 @@ Per ulteriori informazioni, vedere [Aggiungere nodi](#add-nodes).
 >
 >Questa funzione non è ancora disponibile.
 
-È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, se una persona segue il percorso definito ma impiega più tempo del periodo di tempo assegnato per spostarsi tra i nodi, si considera che sia uscita dal percorso.
+È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, le persone vengono considerate escluse dal percorso se seguono il percorso definito ma impiegano più tempo del periodo di tempo assegnato per spostarsi tra i nodi.
 
 L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -378,6 +402,16 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 
 * Più frecce tra nodi
 
+Quando applichi una suddivisione, tieni presente quanto segue:
+
+* I raggruppamenti vengono applicati alla metrica principale. La metrica secondaria non è interessata.
+
+* L’applicazione di un raggruppamento non modifica il percorso. Al contrario, mostra semplicemente un raggruppamento dei dati per il nodo in cui viene applicato.
+
+* Se un nodo presenta già un raggruppamento, l’applicazione di un nuovo raggruppamento sostituisce quello esistente.
+
+* I dati di raggruppamento vengono aggiornati se vengono apportate modifiche in un punto precedente del percorso.
+
 #### Applicare un raggruppamento a uno o più nodi o frecce
 
 >[!AVAILABILITY]
@@ -391,6 +425,14 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
    Seleziona una o più frecce tra 2 nodi in cui desideri applicare il raggruppamento, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Raggruppamento**].
+
+<!-- 1. Choose where you want to view the breakdown:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 #### Applicare un raggruppamento a un singolo nodo
 
@@ -410,6 +452,8 @@ L’opzione per creare un pubblico è disponibile per i seguenti oggetti nell’
 
 * Più frecce tra nodi
 
+Quando crei un pubblico da più nodi o frecce, questi vengono uniti con l’operatore OR.
+
 Per creare un pubblico:
 
 1. Seleziona uno o più nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
@@ -419,6 +463,14 @@ Per creare un pubblico:
    Seleziona una o più frecce tra 2 nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Crea pubblico**].
+
+<!-- 1. Choose where you want to create the audience:
+
+        * [!UICONTROL **In Journey canvas**]
+
+        * [!UICONTROL **In a freeform table**]
+
+-->
 
 1. Continuare a creare e pubblicare il pubblico come descritto in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
 
@@ -454,7 +506,7 @@ Per visualizzare i dati di tendenza:
 
 Puoi creare un nuovo filtro basato su un nodo o una freccia all’interno di un percorso. Una volta creato il filtro, puoi utilizzarlo ovunque in Analysis Workspace.
 
-I filtri creati dall&#39;area di lavoro del Percorso utilizzano [il filtro sequenziale](/help/components/filters/seg-sequential-build.md). Questo significa che il filtro utilizza l’operatore THEN per collegare la sequenza di eventi (ovvero il percorso) attraversati dalle persone, che porta al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel filtro.
+I filtri creati dall&#39;area di lavoro del Percorso utilizzano [il filtro sequenziale](/help/components/filters/seg-sequential-build.md). Questo significa che il filtro utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) attraversati dalle persone, che porta al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel filtro.
 
 Se crei un filtro basato su un nodo che include più percorsi, tutti i percorsi vengono inclusi nel filtro. I percorsi separati vengono uniti con l&#39;operatore OR.
 
