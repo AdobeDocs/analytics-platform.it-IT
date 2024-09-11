@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
    + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
 + Inserimento dei dati {#cja-data-ingestion}
-   + [Panoramica sull’inserimento di dati](../data-ingestion/data-ingestion.md)
+   + [Panoramica sull’acquisizione dei dati](../data-ingestion/data-ingestion.md)
    + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Rete Edge di Adobe Experience Platform {#edge-network}
@@ -190,6 +190,12 @@ ht-degree: 100%
       + [Panoramica sulla previsione](../analysis-workspace/c-forecast/forecasting.md)
       + [Visualizzare previsioni in Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Tecniche di statistica utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + Avvisi intelligenti {#alerts}
+      + [Panoramica degli avvisi intelligenti](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+      + [Differenze nel Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Creare avvisi](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [Gestire gli avvisi](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [Casi d’uso](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)

@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
+source-git-commit: 789e461bf45f272e4c93ea5aa77e5bcaf4ee6a29
 workflow-type: tm+mt
-source-wordcount: '2251'
-ht-degree: 98%
+source-wordcount: '2298'
+ht-degree: 96%
 
 ---
 
@@ -57,6 +57,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzione | Note |
 | --- | --- |
+| Avvisi | Il processo di [utilizzo degli avvisi intelligenti nel Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md) è quasi identico all&#39;utilizzo degli avvisi intelligenti in Adobe Analytics. <p>Tuttavia, a causa dei tempi di raccolta dei dati nel Customer Journey Analytics, gli avvisi orari non sono disponibili. In Customer Journey Analytics, gli avvisi possono essere configurati per giornaliero, settimanale o mensile.</p> |
 | Analytics for Target (A4T) | [L’integrazione tra Adobe Customer Journey Analytics e Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso. |
 | Pubblicazione dei tipi di pubblico | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
 | Classificazioni | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate in Experience Platform e in Customer Journey Analytics tramite il connettore di origine delle classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in Experience Platform e resi disponibili in Customer Journey Analytics. |
@@ -97,7 +98,6 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 
 | Funzione | Note |
 | --- | --- |
-| Avvisi | Il supporto è pianificato. |
 | Analisi dei contributi | Il supporto è pianificato. |
 | Modelli di progetto | Il supporto è pianificato. |
 | Reporting in tempo reale | Il supporto è pianificato. |
