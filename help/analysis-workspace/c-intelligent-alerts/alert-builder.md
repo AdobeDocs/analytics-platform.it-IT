@@ -3,10 +3,10 @@ description: Puoi ricevere degli avvisi quando i componenti del progetto raggiun
 title: Creazione di avvisi (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: 8f866d47ef0caccb91bd0e9cb9043bb1e16e0d89
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 22%
+source-wordcount: '990'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->Gli Avvisi intelligenti sono disponibili solo per i clienti di Adobe Analytics Prime e Adobe Analytics Ultimate.
+>Gli avvisi intelligenti sono disponibili per tutti i clienti. Tuttavia, per utilizzare il rilevamento delle anomalie in Avvisi intelligenti, è necessario disporre di Customer Journey Analytics Select, Prime o Ultimate.
 
 Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) nel Customer Journey Analytics consentono di ricevere notifiche immediate quando si verificano eventi anomali nei dati.
 
