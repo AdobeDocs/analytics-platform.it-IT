@@ -3,9 +3,9 @@ description: Scopri le differenze tra gli avvisi intelligenti e il Customer Jour
 title: Customer Journey Analytics di confronto delle funzioni degli avvisi intelligenti e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: d6f800a6e3e79556026291387e984a35949b3c46
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Per tenere conto di questo ritardo nel tempo di acquisizione, gli avvisi hanno u
 
 Puoi impostare il ritardo predefinito di 9 ore su un valore compreso tra 0 e 24 ore. Tuttavia, la riduzione del ritardo al di sotto di 9 ore può significare che stai eseguendo la segnalazione di dati incompleti, il che si traduce in informazioni di avviso imprecise.
 
-Per ulteriori informazioni su come regolare il ritardo e sui fattori da tenere in considerazione quando si esegue questa operazione, vedere <!--add link -->.
+Per ulteriori informazioni su come regolare il ritardo e sui fattori da considerare quando lo si fa, vedere [Creare avvisi](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
