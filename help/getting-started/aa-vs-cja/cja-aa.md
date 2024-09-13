@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 789e461bf45f272e4c93ea5aa77e5bcaf4ee6a29
+source-git-commit: a1f037ff907efd20d31c5567e09bb3ac0eb3130e
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 97%
+source-wordcount: '2327'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,7 @@ Le tabelle seguenti elencano le funzioni di Adobe Analytics supportate, parzialm
 | Impostazioni di persistenza eVar | Le eVar non fanno più parte di Customer Journey Analytics. Tuttavia, le impostazioni di persistenza ora fanno parte di Visualizzazioni dati e sono disponibili per tutte le dimensioni. La persistenza si basa sull’elaborazione dell’ora rapporto, non sull’elaborazione della raccolta dati. Le dimensioni impostate nelle visualizzazioni dati sono limitate a una persistenza massima di 90 giorni e non supportano la persistenza illimitata. |
 | Dimensioni Geosegmentazione | [Supporto completo](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it) |
 | Unione basata su grafo | Tramite [Unione basata su grafo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview#graph-based-stitching), puoi sfruttare la potenza del grafo delle identità in [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home) per elevare i set di dati alla loro identità preferita. |
+| Avvisi intelligenti | Il processo di utilizzo di [Avvisi intelligenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/intellligent-alerts) nel Customer Journey Analytics è quasi identico a quello di Adobe Analytics. Tuttavia, esistono [differenze importanti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison). |
 | Offuscamento IP | Per i clienti Customer Journey Analytics che utilizzano il connettore di origine di Analytics per compilare i dati da Adobe Analytics in Customer Journey Analytics: le impostazioni di offuscamento dell’IP applicate in Adobe Analytics fluiscono nei dati di Customer Journey Analytics. Puoi controllare queste impostazioni in Adobe Analytics in base alle esigenze.<p>In questo modo i clienti di Customer Journey Analytics che utilizzano Experience Platform Web SDK possono compilare direttamente i dati in Platform e Customer Journey Analytics. Puoi utilizzare la preparazione dati per la raccolta dati in Platform per configurare regole che offuscano l’indirizzo IP in base ai requisiti della tua azienda. |
 | Canali di marketing | Utilizzando il connettore di origine di Analytics, i dati dei canali di marketing fluiscono in Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing vengono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Per ulteriori informazioni, consulta [Canali marketing in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html?lang=it). <br/>Per le implementazioni di Web SDK, le regole di elaborazione del canale di marketing al momento dell’elaborazione del report sono supportate tramite i [Campi derivati](../../data-views/derived-fields/derived-fields.md). |
 | Persistenza della variabile merchandising | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
