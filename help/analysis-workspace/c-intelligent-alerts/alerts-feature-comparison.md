@@ -3,7 +3,7 @@ description: Scopri le differenze tra gli avvisi intelligenti e il Customer Jour
 title: Customer Journey Analytics di confronto delle funzioni degli avvisi intelligenti e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 74ad39f6ccc6436f7c8540b7d8b69b20b93d2b5c
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
@@ -11,8 +11,6 @@ ht-degree: 4%
 ---
 
 # Confronto delle funzioni di avvisi intelligenti: Customer Journey Analytics e Adobe Analytics
-
-{{release-limited-testing}}
 
 Il processo di utilizzo degli avvisi intelligenti in Customer Journey Analytics è quasi identico a quello degli avvisi intelligenti in Adobe Analytics. Tuttavia, ci sono importanti differenze.
 
