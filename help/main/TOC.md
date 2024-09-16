@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 99%
 
 ---
@@ -190,12 +190,6 @@ ht-degree: 99%
       + [Panoramica sulla previsione](../analysis-workspace/c-forecast/forecasting.md)
       + [Visualizzare previsioni in Analysis Workspace](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Tecniche di statistica utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + Avvisi intelligenti {#alerts}
-      + [Panoramica degli avvisi intelligenti](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-      + [Differenze nel Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Creare avvisi](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
-      + [Gestire gli avvisi](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
-      + [Casi d’uso](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)
@@ -299,6 +293,12 @@ ht-degree: 99%
       + [Gestire gli intervalli di date](../components/date-ranges/manage.md)
       + [Creare intervalli di date personalizzati](../components/date-ranges/custom-date-ranges.md)
       + [Confronto delle date](../components/date-ranges/time-comparison.md)
+   + Avvisi intelligenti {#alerts}
+      + [Panoramica](/help/components/c-intelligent-alerts/intellligent-alerts.md)
+      + [Differenze nel Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Creazione](/help/components/c-intelligent-alerts/alert-builder.md)
+      + [Gestire i  ](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [Casi d’uso](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Esportazioni {#exports}
       + [Configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md)
       + [Configurare le posizioni di esportazione cloud](/help/components/exports/cloud-export-locations.md)

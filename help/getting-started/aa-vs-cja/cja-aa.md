@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 33602a2c82d14463ebe4317704dbfa47b7b8ae35
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
 source-wordcount: '2312'
 ht-degree: 84%
@@ -78,7 +78,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 
 | Funzione | Note |
 | --- | --- |
-| **Avvisi** | Il processo di [utilizzo degli avvisi intelligenti nel Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md) è quasi identico all&#39;utilizzo degli avvisi intelligenti in Adobe Analytics. <p>Tuttavia, a causa dei tempi di raccolta dei dati nel Customer Journey Analytics, gli avvisi orari non sono disponibili. In Customer Journey Analytics, gli avvisi possono essere configurati per giornaliero, settimanale o mensile.</p> |
+| **Avvisi** | Il processo di [utilizzo degli avvisi intelligenti nel Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) è quasi identico all&#39;utilizzo degli avvisi intelligenti in Adobe Analytics. <p>Tuttavia, a causa dei tempi di raccolta dei dati nel Customer Journey Analytics, gli avvisi orari non sono disponibili. In Customer Journey Analytics, gli avvisi possono essere configurati per giornaliero, settimanale o mensile.</p> |
 | **Analytics for Target (A4T)** | [L’integrazione tra Adobe Customer Journey Analytics e Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso. |
 | **Pubblicazione pubblico** | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
 | **Classificazioni** | Ora denominati “Set di dati di ricerca”. Le classificazioni utilizzate in Analytics possono essere importate in Experience Platform e in Customer Journey Analytics tramite il connettore di origine delle classificazioni di Analytics. I set di dati di ricerca possono anche essere caricati direttamente in Experience Platform e resi disponibili in Customer Journey Analytics. |
