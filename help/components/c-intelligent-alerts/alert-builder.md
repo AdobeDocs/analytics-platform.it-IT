@@ -3,7 +3,7 @@ description: Puoi ricevere degli avvisi quando i componenti del progetto raggiun
 title: Creazione di avvisi (Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 4155f486c8398b75c2bed41d93562483d35c1477
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 22%
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) nel Customer Journey Analytics consentono di ricevere notifiche immediate quando si verificano eventi anomali nei dati.
 
-Per informazioni di panoramica più dettagliate sugli avvisi intelligenti, consulta [Panoramica degli avvisi intelligenti](/help/components/c-intelligent-alerts/intellligent-alerts.md).
+Per informazioni di panoramica più dettagliate sugli avvisi intelligenti, consulta [Panoramica degli avvisi intelligenti](/help/components/c-intelligent-alerts/intelligent-alerts.md).
 
 Per creare un avviso:
 
