@@ -1,18 +1,18 @@
 ---
-description: Casi di utilizzo per gli avvisi intelligenti.
-title: 'Avvisi intelligenti: casi di utilizzo'
+description: Casi di utilizzo per gli avvisi.
+title: 'Avvisi: casi di utilizzo'
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 55%
+source-wordcount: '63'
+ht-degree: 38%
 
 ---
 
-# Avvisi intelligenti: casi di utilizzo
+# Avvisi: casi di utilizzo
 
-Puoi creare avvisi intelligenti come descritto in [Crea avvisi](/help/components/c-intelligent-alerts/alert-builder.md).
+È possibile creare avvisi come descritto in [Creare avvisi](/help/components/c-intelligent-alerts/alert-builder.md).
 
 Nelle sezioni seguenti sono illustrati alcuni esempi di casi d’uso da considerare durante la creazione di avvisi.
 

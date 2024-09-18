@@ -1,41 +1,41 @@
 ---
-description: Il nuovo sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
-title: Panoramica degli avvisi intelligenti
+description: Gli avvisi consentono un controllo granulare sulle notifiche e un’integrazione con il rilevamento delle anomalie.
+title: Panoramica degli avvisi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 52%
+source-wordcount: '359'
+ht-degree: 27%
 
 ---
 
-# Panoramica degli avvisi intelligenti
+# Panoramica degli avvisi
 
->[!NOTE]
->
->Gli avvisi intelligenti sono disponibili per tutti i clienti. Tuttavia, per utilizzare il rilevamento delle anomalie in Avvisi intelligenti, è necessario disporre di Customer Journey Analytics Select, Prime o Ultimate.
+Gli avvisi nel Customer Journey Analytics ti consentono di ricevere notifiche in base a percentuali modificate o a punti dati specifici.
 
-Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) nel Customer Journey Analytics consentono di ricevere notifiche quando si verificano eventi anomali nei dati.
+A seconda del pacchetto di Customer Journey Analytics, puoi anche utilizzare gli avvisi da attivare in base alle soglie delle anomalie. Questi avvisi (noti anche come &quot;Avvisi intelligenti&quot;) forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
 
-Puoi impostare l’attivazione degli avvisi in base a soglie di anomalie, percentuali di modifica o punti dati specifici. Gli avvisi forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
+Gli avvisi consentono di:
 
-La funzione Avvisi intelligenti permette di:
-
-* Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore)
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso
+* Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore) (Disponibile solo per i clienti del Customer Journey Analytics con un pacchetto Select, Prime o Ultimate)
 
-Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
+Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
 
 ## Comprendere le differenze tra gli avvisi e il Customer Journey Analytics di Adobe Analytics
 
-Il processo di utilizzo degli avvisi intelligenti in Customer Journey Analytics è quasi identico a quello degli avvisi intelligenti in Adobe Analytics. Tuttavia, ci sono importanti differenze.
+La procedura di utilizzo degli avvisi in Customer Journey Analytics è quasi identica a quella di utilizzo degli avvisi in Adobe Analytics. Tuttavia, ci sono importanti differenze.
 
-Per ulteriori informazioni, vedere [Confronto delle funzionalità degli avvisi intelligenti: Customer Journey Analytics e Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
+Per ulteriori informazioni, vedere [Confronto delle funzionalità degli avvisi: Customer Journey Analytics e Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md).
 
 ## Ricerca delle anomalie per gli avvisi
+
+>[!NOTE]
+>
+>L&#39;utilizzo degli avvisi con rilevamento delle anomalie (noti anche come _avvisi intelligenti_) è disponibile solo per le organizzazioni con un pacchetto Select di Customer Journey Analytics, Prime o Ultimate.
 
 Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione varia in base alla granularità selezionata per l’avviso.
 
@@ -52,7 +52,7 @@ Per informazioni sulla creazione di avvisi nel Customer Journey Analytics, veder
 
 >[!IMPORTANT]
 >
->L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. Per gli avvisi intelligenti, Adobe consiglia di utilizzare dati privi di marcatura temporale.
+>L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. L’Adobe consiglia di utilizzare dati senza marca temporale per gli avvisi.
 
 ## Gestire gli avvisi
 
