@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ ht-degree: 99%
    + [Evoluzione da Adobe Analytics](../getting-started/aa-to-cja.md)
    + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
-+ Inserimento dei dati {#cja-data-ingestion}
-   + [Panoramica sull’acquisizione dei dati](../data-ingestion/data-ingestion.md)
++ Acquisizione dei dati {#cja-data-ingestion}
+   + [Panoramica sull’acquisizione di dati](../data-ingestion/data-ingestion.md)
    + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Rete Edge di Adobe Experience Platform {#edge-network}
@@ -295,7 +295,7 @@ ht-degree: 99%
       + [Confronto delle date](../components/date-ranges/time-comparison.md)
    + Avvisi {#alerts}
       + [Panoramica](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-      + [Differenze nel Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Differenze in Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [Creazione](/help/components/c-intelligent-alerts/alert-builder.md)
       + [Gestire i  ](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Casi d’uso](/help/components/c-intelligent-alerts/alerts-use-cases.md)
