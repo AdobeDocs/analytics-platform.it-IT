@@ -4,13 +4,13 @@ description: Dettagli e informazioni su come utilizzare e configurare i dati di 
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 7%
+source-wordcount: '1131'
+ht-degree: 6%
 
 ---
-
 
 # Dati di riepilogo
 
@@ -75,6 +75,14 @@ La combinazione dei dati riepilogati dell’evento e dei dati clickstream nel si
 | def456 | 775 | $ 650 | 775 | $ 1.250 | 1,92 |
 | ghi789 | 500 | $ 500 | 500 | $ 750 | 1,50 |
 
+
+### Ricercare dati
+
+Se desideri creare un rapporto utilizzando una dimensione definita in un set di dati di ricerca aggiuntivo (ad esempio, nome della campagna), devi seguire questi passaggi aggiuntivi:
+
+1. Creare un nuovo campo derivato che utilizza la funzione [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) per cercare il nome della campagna dal set di dati di ricerca. Nella definizione della funzione [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup) si utilizza la corrispondenza tra il codice della campagna e il codice di tracciamento per cercare il nome della campagna.
+1. Aggiungi il campo derivato appena creato come componente dimensione alla visualizzazione dati.
+1. Configura il componente dimensione nome campagna (dal set di dati di ricerca) in modo che abbia un raggruppamento di dati di riepilogo con il campo derivato appena creato.
 
 Consulta il caso d&#39;uso [Acquisire e generare rapporti sui dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un articolo dettagliato su come utilizzare, creare rapporti e analizzare i dati di riepilogo nel Customer Journey Analytics.
 

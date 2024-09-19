@@ -4,10 +4,11 @@ description: Utilizzare per spiegare tutti i dettagli su come inserire dati di r
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '4442'
-ht-degree: 9%
+source-wordcount: '4609'
+ht-degree: 8%
 
 ---
 
@@ -277,7 +278,7 @@ I dati di ricerca sono disponibili nel set di dati di ricerca di esempio. I dati
 | 17 | def321 | def-adgroup | Campagna 321 |
 | 18 | ghi321 | ghi-adgroup | Campagna 321 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica dati di ricerca di esempio](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica i dati di ricerca di esempio](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -487,6 +488,26 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
             1. Selezionare la dimensione **[!UICONTROL Campaign Id]** nell&#39;elenco **[!UICONTROL Dimensions]**.
             1. Si nota che **[!UICONTROL Hide component in reporting]** in **[!UICONTROL Component settings]** è ora abilitato automaticamente.
 
+      1. Creare un nuovo campo derivato, ad esempio `Campaign Name (Lookup Derived Field)`, per garantire la possibilità di creare rapporti in Workspace utilizzando la dimensione Nome campagna (ricerca) dal set di dati Esempio di ricerca.
+
+         ![Campo derivato per nome campagna](../aa-data/../assets/summary-derived-field.png)
+
+         1. Selezionare **[!UICONTROL campaign_id]** per **[!UICONTROL Value]**.
+         1. Selezionare **[!UICONTROL Example Lookup Data Dataset]** dal menu a discesa **[!UICONTROL Lookup dataset]**.
+         1. Selezionare **[!UICONTROL tracking_code]** dal menu a discesa **[!UICONTROL Matching Key]**.
+         1. Selezionare **[!UICONTROL campaign_name]** dal menu a discesa **[!UICONTROL Values to return]**.
+         1. Seleziona **[!UICONTROL Save]**.
+
+      1. Aggiungere il campo derivato appena creato **[!UICONTROL Campaign Name (Lookup Derived Field)]** all&#39;elenco dei componenti **[!UICONTROL Dimensions]**.
+
+      1. Selezionare la dimensione **[!UICONTROL Campaign Name (Lookup)]** nell&#39;elenco **[!UICONTROL Dimensions]**. Nel pannello dei componenti:
+
+         ![Gruppo di dati di riepilogo campi derivati](../assets/derived-field-summary-data-group.png)
+
+         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
+         1. Abilita **[!UICONTROL Create grouping]**.
+         1. Selezionare **[!UICONTROL Campaign Name (Lookup Derived Field)]** dall&#39;elenco a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che il nome della campagna (ricerca) dal set di dati di ricerca di esempio possa essere utilizzato in modo sicuro nel reporting (vedi [Workspace](#workspace)).
+
       1. Selezionare la metrica **[!UICONTROL Revenue]** dall&#39;elenco **[!UICONTROL Metrics]**. Nel pannello dei componenti:
 
          ![Dati di riepilogo ricavi](../assets/revenue-summary-data.png)
@@ -566,6 +587,14 @@ Aggiungi le metriche calcolate al rapporto.
          1. Selezionare un **[!UICONTROL Conditional formatting palette]** preferito.
    1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
 
+Se desideri creare un rapporto sul nome della campagna anziché sul codice di tracciamento (evento), effettua le seguenti operazioni:
+
+1. Duplica la visualizzazione a forma libera **[!UICONTROL Summary Data Report]**.
+1. Rinomina la visualizzazione duplicata in `Summary Data Report (using Campaign Name)`.
+1. Sostituisci ![Cambia](/help/assets/icons/Switch.svg) la dimensione **[!UICONTROL Tracking Code (Event)]** con la dimensione **[!UICONTROL Campaign Name (Lookup)]**.
+
+Puoi creare rapporti corretti per il Nome campagna (ricerca) a causa del campo derivato creato e della configurazione del componente del gruppo di dati di riepilogo per Nome campagna (ricerca). Vedi [Visualizzazione dati](#data-view).
+
 Il progetto finale deve essere simile a quello mostrato di seguito.
 
 ![Progetto di esempio con dati di riepilogo, che mostra il pannello dati di riepilogo con il rapporto dati di riepilogo](../assets/summary-workspace.png)
@@ -575,4 +604,3 @@ Il progetto finale deve essere simile a quello mostrato di seguito.
 >
 >[Dati di riepilogo](/help/data-views/summary-data.md)
 >[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)
-
