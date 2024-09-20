@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '4006'
+source-wordcount: '3996'
 ht-degree: 65%
 
 ---
@@ -262,7 +262,6 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | 7 ottobre 2020 | È stato aggiunto un argomento sui [set di dati evento combinati](/help/connections/combined-dataset.md). |
 | 15 settembre 2020 | È stato aggiunto un argomento sull’[acquisizione di dati](/help/data-ingestion/data-ingestion.md). |
 | 2 settembre 2020 | È stata aggiornata la sezione relativa alle [autorizzazioni utente](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). |
-| 7 agosto 2020 | È stato aggiunto un nuovo argomento sul [caso d’uso B2B, set di dati di ricerca](/help/use-cases/b2b/b2b.md). |
 | Luglio 2020 | Sono state aggiunte informazioni sull’opzione [Mappa identità per ID persona](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it). |
 | Luglio 2020 | È stato aggiunto un nuovo argomento su [array di oggetti](/help/use-cases/object-arrays.md) o “gerarchie di dati”. |
 | 14 aprile 2020 | L’argomento [Crea connessioni](/help/connections/create-connection.md) è stato aggiornato con informazioni sulle ultime modifiche apportate all’interfaccia. |

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 100%
+source-wordcount: '1415'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ Inoltre, più visualizzazioni dati possono essere basate sulla stessa connession
 
 ## Modifiche al concetto di classificazione
 
-Le classificazioni sono diventate “Set di dati di ricerca”. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati Evento o Profilo. Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti. Per un caso d’uso di esempio, vedi [Aggiungere dati a livello di account come set di dati di ricerca](/help/use-cases/b2b/b2b.md).
+Le classificazioni sono ora note come *Set di dati di ricerca*. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati Evento o Profilo. Ad esempio, puoi caricare dati ricerca che mappano ID numerici nei dati evento ai nomi dei prodotti.
 
 ## Modifiche al concetto di attributi cliente
 
