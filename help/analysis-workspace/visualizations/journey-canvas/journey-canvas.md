@@ -6,10 +6,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 1%
+source-wordcount: '1300'
+ht-degree: 2%
 
 ---
 
@@ -127,6 +127,16 @@ Inoltre, le modifiche apportate a un percorso in Journey Optimizer vengono sincr
 
 Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, possono verificarsi modifiche nell’elaborazione dei dati, nelle funzioni disponibili e nel comportamento di sincronizzazione.
 
+Se apporti una modifica significativa a un percorso Journey Optimizer nell’area di lavoro del Percorso, possono verificarsi modifiche nell’elaborazione dei dati, nelle funzioni disponibili e nel comportamento di sincronizzazione. Una modifica significativa include uno dei seguenti elementi:
+
+* Aggiunta o rimozione di un nodo
+
+* Aggiunta o rimozione di una freccia tra nodi
+
+* Modifica dei componenti su un nodo
+
+Se si apportano altre modifiche a un percorso Journey Optimizer nell’area di lavoro del Percorso, ad esempio se si trascina un nodo o si aggiunge un raggruppamento, le differenze descritte nelle sezioni seguenti non sono applicabili.
+
 >[!NOTE]
 >
 >Per ripristinare lo stato originale del percorso, è possibile premere Ctrl+z dopo aver apportato la prima modifica nell&#39;area di lavoro del Percorso. In alternativa, è possibile eliminare e [ricreare il percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
@@ -139,9 +149,13 @@ Questo perché, a differenza di Journey Optimizer, l’area di lavoro del Percor
 
 #### Differenze nelle funzioni
 
-Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il campo a discesa [!UICONTROL **Tipo di nodo**] non è più disponibile.
+Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, la funzionalità potrebbe cambiare per le seguenti funzioni, a seconda delle modifiche:
 
-Per ulteriori informazioni su questo campo, vedere [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+* I valori visualizzati nel campo [!UICONTROL **Tipo di nodo**] cambiano.
+
+* Le opzioni disponibili nel campo a discesa [!UICONTROL **Impostazioni freccia**] cambiano.
+
+Per ulteriori informazioni su questi campi, vedere [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 #### Differenze di sincronizzazione
 
