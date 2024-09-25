@@ -4,10 +4,10 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
+source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '595'
+ht-degree: 5%
 
 ---
 
@@ -32,38 +32,40 @@ Vengono ora generate informazioni sul linguaggio naturale.
 
 Nota bene
 
-* Sono necessari almeno 3 punti dati per generare correttamente le didascalie. In caso contrario, potrebbe venire visualizzato un messaggio di errore che indica &quot;Dati insufficienti per l&#39;analisi&quot;.
+* Sono necessari almeno 3 punti dati per generare correttamente le didascalie. In caso contrario, potrebbe verificarsi un errore come **[!UICONTROL Not enough data to analyze]**.
 
-* Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che alimenta la visualizzazione.
+* Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che attiva la visualizzazione.
 
 * Se la tabella contiene più metriche, le didascalie vengono generate solo per la prima metrica o per la metrica attualmente selezionata dall’utente.
 
-* Se salvi il progetto a questo punto e lo ricarichi in un secondo momento, i sottotitoli vengono aggiornati automaticamente con i nuovi dati. Lo stesso vale per i progetti programmati e i file PDF esportati da questo progetto.
+* Se salvi il progetto in un punto specifico e lo ricarichi in un secondo momento, i sottotitoli vengono aggiornati automaticamente con i nuovi dati. Lo stesso vale per i progetti programmati e i file PDF esportati da un progetto.
 
-## Visualizzare e interpretare i sottotitoli {#view}
-
-Ecco un esempio di sottotitoli:
+Ecco un esempio di sottotitoli intelligenti:
 
 ![Sottotitoli intelligenti per la visualizzazione delle linee, inclusi Stagionalità, Min, Max, Picco e Rifiuto.](assets/captions.png)
 
-## Copia negli Appunti {#copy}
+## Azioni
+
+È possibile eseguire le azioni seguenti sulle didascalie intelligenti:
+
+### Copia negli Appunti {#copy}
 
 È possibile copiare i sottotitoli negli Appunti e incollarli in PowerPoint o in altri strumenti. Seleziona ![Copia sottotitoli negli Appunti](/help/assets/icons/Copy.svg) in alto a destra nella finestra di dialogo sottotitoli.
 
-## Modifica didascalie {#edit}
+### Modifica visualizzazione {#edit}
 
-Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni. Ad esempio, se non desideri ottenere informazioni sull’ordine minimo, puoi semplicemente nascondere tali informazioni e fare clic su Applica. e non verrà visualizzato di nuovo.
+Puoi modificare la visualizzazione dei sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni.
 
 1. Selezionare ![Modifica didascalie intelligenti ](/help/assets/icons/EditInLight.svg) nella finestra di dialogo Didascalie intelligenti.
 
-1. Passa da ![Visibilità](/help/assets/icons/Visibility.svg) per mostrare un approfondimento specifico (come **[!UICONTROL Min]**) a ![VisibilitàDisattivata](/help/assets/icons/VisibilityOff.svg) per nascondere un approfondimento specifico (come **[!UICONTROL Spike]**).
+1. Passa da ![Visibilità](/help/assets/icons/Visibility.svg) per visualizzare informazioni specifiche (come **[!UICONTROL Min]**) a ![VisibilitàDisattivata](/help/assets/icons/VisibilityOff.svg) per nascondere informazioni specifiche (come **[!UICONTROL Spike]**).
 
    ![Modifica didascalie intelligenti](assets/edit-intelligent-captions.png)
 
 1. Seleziona **[!UICONTROL Apply]**.
 
 
-## Fornire feedback
+### Fornire feedback
 
 Puoi fornire un feedback sulle didascalie intelligenti generate.
 
@@ -73,11 +75,11 @@ Puoi fornire un feedback sulle didascalie intelligenti generate.
 
 1. Nella finestra di dialogo **[!UICONTROL Thank you for your feedback]**, fornisci il tuo feedback e seleziona **[!UICONTROL Submit]** per inviare il feedback.
 
-## Esporta sottotitoli {#export}
+### Esportazione {#export}
 
-Puoi **esportare i sottotitoli tramite PDF**, purché il progetto venga salvato con i sottotitoli generati.
+È possibile esportare sottotitoli intelligenti come parte di un PDF, purché il progetto venga salvato con i sottotitoli intelligenti generati.
 
-## Disattiva sottotitoli {#toggle}
+### Disattiva {#toggle}
 
 Se preferisci non visualizzare i sottotitoli intelligenti, puoi disattivare questa funzione.
 
@@ -87,9 +89,6 @@ Se preferisci non visualizzare i sottotitoli intelligenti, puoi disattivare ques
    ![Opzioni di visualizzazione delle linee che mostrano l&#39;opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
 
 1. Selezionare **[!UICONTROL Save]** per salvare la preferenza.
-
-
-
 
 
 ## Sottotitoli intelligenti nelle scorecard per dispositivi mobili
