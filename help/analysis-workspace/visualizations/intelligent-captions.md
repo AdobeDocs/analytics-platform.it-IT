@@ -1,13 +1,13 @@
 ---
-description: Utilizza i sottotitoli intelligenti per generare informazioni sul linguaggio naturale e far emergere rapidamente le tendenze all’interno delle visualizzazioni.
+description: Utilizza i sottotitoli intelligenti per generare informazioni in linguaggio naturale e far emergere rapidamente le tendenze nelle visualizzazioni.
 title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
+source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 6%
+source-wordcount: '615'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Vengono ora generate informazioni sul linguaggio naturale.
 
 Nota bene
 
-* Sono necessari almeno 3 punti dati per generare correttamente i sottotitoli. In caso contrario, potrebbe venire visualizzato un messaggio di errore che indica &quot;Dati insufficienti per l&#39;analisi&quot;.
+* Sono necessari almeno 3 punti dati per generare correttamente le didascalie. In caso contrario, potrebbe venire visualizzato un messaggio di errore che indica &quot;Dati insufficienti per l&#39;analisi&quot;.
 
 * Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che alimenta la visualizzazione.
 
@@ -48,19 +48,30 @@ Ecco un esempio di sottotitoli:
 
 ## Copia negli Appunti {#copy}
 
-È possibile copiare i sottotitoli negli Appunti e incollarli in un Powerpoint o in un altro strumento. Trova l’icona **[!UICONTROL Copy captions to clipboard]** in alto a destra nella finestra di dialogo dei sottotitoli.
+È possibile copiare i sottotitoli negli Appunti e incollarli in PowerPoint o in altri strumenti. Seleziona ![Copia sottotitoli negli Appunti](/help/assets/icons/Copy.svg) in alto a destra nella finestra di dialogo sottotitoli.
 
 ## Modifica didascalie {#edit}
 
-Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni. Ad esempio, se non desideri conoscere l’ordine minimo, puoi semplicemente nasconderlo e fare clic su Applica, ma non verrà più visualizzato.
+Puoi modificare i sottotitoli, ad esempio per nascondere o rendere visibile una particolare categoria di informazioni. Ad esempio, se non desideri ottenere informazioni sull’ordine minimo, puoi semplicemente nascondere tali informazioni e fare clic su Applica. e non verrà visualizzato di nuovo.
 
-1. Fare clic sull&#39;icona **[!UICONTROL Edit intelligent captions display]** accanto all&#39;icona degli Appunti.
+1. Selezionare ![Modifica didascalie intelligenti ](/help/assets/icons/EditInLight.svg) nella finestra di dialogo Didascalie intelligenti.
 
-1. Nella finestra di dialogo per modifica, fai clic sull’icona dell’occhio accanto all’informazione che desideri nascondere.
+1. Passa da ![Visibilità](/help/assets/icons/Visibility.svg) per mostrare un approfondimento specifico (come **[!UICONTROL Min]**) a ![VisibilitàDisattivata](/help/assets/icons/VisibilityOff.svg) per nascondere un approfondimento specifico (come **[!UICONTROL Spike]**).
 
-1. Fai clic su **[!UICONTROL Apply]**.
+   ![Modifica didascalie intelligenti](assets/edit-intelligent-captions.png)
 
-Utilizza lo stesso processo per mostrare le didascalie.
+1. Seleziona **[!UICONTROL Apply]**.
+
+
+## Fornire feedback
+
+Puoi fornire un feedback sulle didascalie intelligenti generate.
+
+1. Seleziona ![Altre azioni](/help/assets/icons/More.svg) nella finestra di dialogo Sottotitoli intelligenti.
+
+1. Seleziona ![Risposta valida](/help/assets/icons/ThumbUpOutline.svg) **[!UICONTROL Good response]**, ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg) **[!UICONTROL Bad response]** o ![Contrassegno](/help/assets/icons/Flag.svg) **[!UICONTROL Report]**.
+
+1. Nella finestra di dialogo **[!UICONTROL Thank you for your feedback]**, fornisci il tuo feedback e seleziona **[!UICONTROL Submit]** per inviare il feedback.
 
 ## Esporta sottotitoli {#export}
 
@@ -68,10 +79,40 @@ Puoi **esportare i sottotitoli tramite PDF**, purché il progetto venga salvato 
 
 ## Disattiva sottotitoli {#toggle}
 
-Se preferisci che non vengano generati sottotitoli intelligenti, puoi disattivare questa funzione nelle preferenze di visualizzazione e deselezionare **[!UICONTROL Show intelligent captions]**.
+Se preferisci non visualizzare i sottotitoli intelligenti, puoi disattivare questa funzione.
 
-![Opzioni di visualizzazione delle linee che mostrano l&#39;opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
+1. Vai a [Preferenze visualizzazioni](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
+1. Deseleziona **[!UICONTROL Show intelligent captions]**.
+
+   ![Opzioni di visualizzazione delle linee che mostrano l&#39;opzione per deselezionare Mostra sottotitoli intelligenti.](assets/toggle-captions.png)
+
+1. Selezionare **[!UICONTROL Save]** per salvare la preferenza.
+
+
+
+
 
 ## Sottotitoli intelligenti nelle scorecard per dispositivi mobili
 
 Le didascalie intelligenti sono disponibili anche nelle [scorecard per dispositivi mobili del Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+
+## Accesso alle funzioni
+
+I seguenti parametri regolano l’accesso alle didascalie intelligenti:
+
+* **Accesso alla soluzione**: la funzione Sottotitoli intelligenti è disponibile nel Customer Journey Analytics, ma non in Adobe Analytics.
+
+* **Accesso contrattuale**: se non sei in grado di utilizzare i sottotitoli intelligenti, contatta l&#39;amministratore della tua organizzazione o il rappresentante dell&#39;account Adobe. Prima di poter utilizzare Intelligent nella tua organizzazione, devi accettare alcuni termini legali relativi a GenAI.
+
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** determina l&#39;accesso. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
+   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
+   1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso ai sottotitoli intelligenti.
+   1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Permissions]**.
+   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
+   1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) per aggiungere **Didascalie intelligenti** a **[!UICONTROL Included permission items]**.
+
+      ![Aggiungi autorizzazione](./assets/intelligent-captions-permissions.png)
+
+   1. Selezionare **[!UICONTROL Save]** per salvare le autorizzazioni.
+
+Per ulteriori informazioni, vedere [Controllo dell&#39;accesso](/help/technotes/access-control.md#access-control).
