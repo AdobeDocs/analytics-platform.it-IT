@@ -4,9 +4,9 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
+source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '581'
 ht-degree: 5%
 
 ---
@@ -19,8 +19,6 @@ I sottotitoli intelligenti sono orientati verso:
 
 * Analisti che hanno bisogno di narrazioni da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per fornire contesto ai loro utenti.
 * Utenti aziendali che desiderano scoprire rapidamente soluzioni di alto livello.
-
-I sottotitoli sono disponibili per tutti gli utenti del Customer Journey Analytics e non richiedono autorizzazioni speciali.
 
 ## Avvia sottotitoli intelligenti {#launch}
 
@@ -101,7 +99,7 @@ I seguenti parametri regolano l’accesso alle didascalie intelligenti:
 
 * **Accesso alla soluzione**: la funzione Sottotitoli intelligenti è disponibile nel Customer Journey Analytics, ma non in Adobe Analytics.
 
-* **Accesso contrattuale**: se non sei in grado di utilizzare i sottotitoli intelligenti, contatta l&#39;amministratore della tua organizzazione o il rappresentante dell&#39;account Adobe. Prima di poter utilizzare Intelligent nella tua organizzazione, devi accettare alcuni termini legali relativi a GenAI.
+* **Accesso contrattuale**: se non sei in grado di utilizzare i sottotitoli intelligenti, contatta l&#39;amministratore della tua organizzazione o il rappresentante dell&#39;account Adobe. Prima di poter utilizzare i sottotitoli intelligenti nella tua organizzazione, devi accettare alcuni termini legali relativi a GenAI.
 
 * **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** determina l&#39;accesso. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
    1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
