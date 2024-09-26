@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è u
 
 Di recente, Adobe ha modificato il modo in cui i dati vengono elaborati in Customer Journey Analytics.
 
-<ul><li>I dati dell’evento per il giorno "corrente" vengono inviati in streaming come dati live. Tutti i dati con un orario evento precedente alle 23:59:59 del giorno precedente vengono trattati come retrocompilazione.:59:</li><li>Qualsiasi dato evento con una marca temporale con più di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come retrocompilazione e verrà acquisito con una priorità inferiore.</li></ul>
+<ul><li>I dati evento per il giorno “corrente” vengono inviati in streaming come dati live. Tutti i dati con un orario di evento precedente alle 23:59:59 23:59:59 del giorno precedente vengono trattati come retrocompilazione.</li><li>Qualsiasi dato evento con una marca temporale con più di 24 ore (anche se si trova nello stesso batch dei dati più recenti) viene considerato come retrocompilazione e verrà acquisito con una priorità inferiore.</li></ul>
 
 ## 5. Finestra continua per la conservazione dei dati [!UICONTROL Connection] {#data-retention}
 
@@ -150,7 +150,7 @@ Per l’eliminazione dei dati, dovresti preoccuparti di sei tipi di componenti: 
 
 | Azione | Risultato |
 | --- | --- |
-| Eliminare una sandbox in [!UICONTROL Adobe Experience Platform] | L’eliminazione di una sandbox interrompe il flusso di dati verso qualsiasi connessione [!UICONTROL Customer Journey Analytics] ai set di dati in tale sandbox. Verranno eliminate anche le connessioni, le visualizzazioni dati, le metriche e le dimensioni relative a questa sandbox eliminata. | |
+| Eliminare una sandbox in [!UICONTROL Adobe Experience Platform] | L’eliminazione di una sandbox interrompe il flusso di dati verso qualsiasi connessione [!UICONTROL Customer Journey Analytics] ai set di dati in tale sandbox. Verranno eliminate anche le connessioni, le visualizzazioni dati, le metriche e le dimensioni relative alla sandbox eliminata. | |
 | Eliminare uno schema in [!UICONTROL Adobe Experience Platform], ma non i set di dati associati a tale schema | [!UICONTROL Adobe Experience Platform] non consente di eliminare gli [!UICONTROL schemas] a cui sono associati uno o [!UICONTROL datasets]. Tuttavia, un amministratore che dispone delle autorizzazioni appropriate può prima eliminare i set di dati, e quindi eliminare lo schema. |
 | Eliminare un set di dati nel data lake di [!UICONTROL Adobe Experience Platform] | L’eliminazione di un set di dati nel data lake di Adobe Experience Platform interrompe il flusso di dati da tale set di dati a qualsiasi connessione Customer Journey Analytics che include tale set di dati. Eventuali dati provenienti da tale set di dati vengono eliminati automaticamente dalle connessioni Customer Journey Analytics associate. |
 | Eliminare un set di dati in [!UICONTROL Customer Journey Analytics] | Rivolgiti al team Adobe Account per avviare il processo di eliminazione di un set di dati all’interno di una connessione salvata. |
