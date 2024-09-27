@@ -4,7 +4,7 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
+source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 5%
@@ -17,7 +17,7 @@ Le didascalie intelligenti utilizzano lâ€™apprendimento automatico avanzato e lâ
 
 I sottotitoli intelligenti sono orientati verso:
 
-* Analisti che hanno bisogno di narrazioni da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per fornire contesto ai loro utenti.
+* Analisti, che hanno bisogno di narrazioni da condividere con altri utenti. Gli analisti hanno bisogno di queste informazioni per fornire contesto ai loro utenti.
 * Utenti aziendali che desiderano scoprire rapidamente soluzioni di alto livello.
 
 ## Avvia sottotitoli intelligenti {#launch}
