@@ -4,7 +4,7 @@ description: Come gestire le annotazioni in Workspace.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Nell’elenco delle annotazioni vengono visualizzate tutte le annotazioni di cui
 | Colonna | Descrizione |
 | --- | --- | 
 | ![ContornoStella](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un&#39;annotazione. |
-| **[!UICONTROL Title and description]** | Forniti nel generatore di annotazioni. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo. Verrà aperto il generatore di [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder). Un&#39;annotazione condivisa è indicata con ![Condividi](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Title and description]** | Forniti nel generatore di annotazioni. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo. Verrà aperto il generatore di [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder). Un&#39;annotazione condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | Visualizzazioni dati a cui si applica questa annotazione. |
 | **[!UICONTROL Owner]** | Proprietario dell’annotazione. In qualità di utente, puoi visualizzare solo le annotazioni di tua proprietà o quelle condivise con te. |
 | **[!UICONTROL Applied date range]** | Data o intervallo di date a cui viene applicata l’annotazione. |
@@ -57,7 +57,7 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 | ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un&#39;altra annotazione utilizzando [Generatore di annotazioni](create-annotations.md#annotation-builder). |
 | ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna annotazione, cerca le annotazioni utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag alle annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Tag Component]**, seleziona o deseleziona i tag per le annotazioni selezionate. Selezionare **[!UICONTROL Save]** per salvare i tag per le annotazioni selezionate. |
-| ![Condividi](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Condividi le annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Share Component]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le annotazioni selezionate. Vedi [Condividi annotazioni](#share-annotations) per ulteriori dettagli. |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi le annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Share Component]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le annotazioni selezionate. Vedi [Condividi annotazioni](#share-annotations) per ulteriori dettagli. |
 | ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina le annotazioni selezionate. Viene richiesta una conferma. |
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinominare una singola annotazione selezionata. Se questa opzione è selezionata, è possibile rinominare l’annotazione in linea. |
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia le annotazioni selezionate. Le nuove annotazioni vengono create con lo stesso nome e suffisso (Copia) |

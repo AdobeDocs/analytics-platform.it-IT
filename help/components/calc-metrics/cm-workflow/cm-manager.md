@@ -3,7 +3,7 @@ description: Il gestore delle metriche calcolate consente di condividere, filtra
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Nell’elenco dei filtri vengono visualizzate tutte le metriche calcolate di tua
 | Colonna | Descrizione |
 | --- | --- | 
 | ![ContornoStella](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o sfavorire ![StarOutline](/help/assets/icons/StarOutline.svg) una metrica calcolata. Vedi [Segna la metrica calcolata come preferita](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareLight.svg). |
+| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | Le visualizzazioni dati a cui si applica questa metrica calcolata. |
 | **[!UICONTROL Owner]** | Proprietario della metrica calcolata. In qualità di utente, puoi visualizzare solo le annotazioni di tua proprietà o quelle condivise con te. |
 | **[!UICONTROL Tags]** | Elenca i tag per questa metrica calcolata. |
@@ -56,7 +56,7 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 | ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
 | ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Tag Calculated metric]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
-| ![Condividi](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
 | ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina le metriche calcolate selezionate. Viene richiesta una conferma. |
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina una singola metrica calcolata selezionata. Se selezionata, puoi rinominare la metrica calcolata in linea. |
 | ![CerchioSegnoDiSpunta](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva le metriche calcolate selezionate. Vedi [Approvare le metriche calcolate](cm-approving.md). |

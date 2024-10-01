@@ -4,7 +4,7 @@ description: Condividi, rinomina o elimina intervalli di date in Analysis Worksp
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 8%
@@ -51,7 +51,7 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 | ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungi un altro intervallo di date utilizzando il generatore di intervalli di date [1}.](create.md#date-range-builder) |
 | ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionato alcun intervallo di date, cerca gli intervalli di date utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag agli intervalli di date selezionati. Nella finestra di dialogo **[!UICONTROL Tag Date range]**, seleziona o deseleziona i tag per gli intervalli di date selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per gli intervalli di date selezionati. |
-| ![Condividi](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Condividi gli intervalli di date selezionati. Nella finestra di dialogo **[!UICONTROL Share Date range]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per gli intervalli di date selezionati. |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi gli intervalli di date selezionati. Nella finestra di dialogo **[!UICONTROL Share Date range]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per gli intervalli di date selezionati. |
 | ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina gli intervalli di date selezionati. Viene richiesta una conferma. |
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina un singolo intervallo di date selezionato. Se questa opzione è selezionata, puoi rinominare l’intervallo di date in linea. |
 | ![CerchioSegnoDiSpunta](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva gli intervalli di date selezionati. |

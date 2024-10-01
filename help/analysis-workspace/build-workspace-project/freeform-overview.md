@@ -5,7 +5,7 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 4%
@@ -52,7 +52,7 @@ Nell’elenco dei progetti vengono visualizzati tutti i progetti di tua propriet
 | --- | --- | 
 | ![CasellaSelezione](/help/assets/icons/SelectBox.svg) | Quando sono selezionati uno o più progetti, nella parte inferiore dell’interfaccia di Project viene visualizzata una barra blu delle azioni. Vedi [Azioni](#actions) per ulteriori dettagli. |
 | ![ContornoStella](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un progetto. |
-| **[!UICONTROL Title and description]** | Per modificare il progetto, selezionare il collegamento del titolo, che apre il [progetto Workspace](/help/analysis-workspace/home.md). I progetti condivisi con te sono indicati con ![Condividi](/help/assets/icons/ShareLight.svg). Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un menu a comparsa con ulteriori dettagli sul progetto. Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida con azioni. Vedi [Azioni](#actions) per ulteriori dettagli. |
+| **[!UICONTROL Title and description]** | Per modificare il progetto, selezionare il collegamento del titolo, che apre il [progetto Workspace](/help/analysis-workspace/home.md). I progetti condivisi con te sono indicati con ![Condividi](/help/assets/icons/ShareAlt.svg). Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un menu a comparsa con ulteriori dettagli sul progetto. Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida con azioni. Vedi [Azioni](#actions) per ulteriori dettagli. |
 | **[!UICONTROL Type]** | Un progetto Workspace, una cartella ![FolderUser](/help/assets/icons/FolderUser.svg) o una [scorecard mobile](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
 | **[!UICONTROL Tags]** | Tag applicati al progetto. |
 | Pianificato | Indica se il progetto è programmato per essere inviato tramite e-mail ai destinatari. Le opzioni sono ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Vedi [Inviare dati di progetto ad altri](/help/analysis-workspace/export/t-schedule-report.md). |
@@ -82,7 +82,7 @@ Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida
 |---|---|
 | ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
 | ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma. |
-| ![Condividi](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Condividere un progetto. Per ulteriori informazioni, vedere [Condividi progetto](/help/analysis-workspace/curate-share/share-projects.md). |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividere un progetto. Per ulteriori informazioni, vedere [Condividi progetto](/help/analysis-workspace/curate-share/share-projects.md). |
 | ![Modifica](/help/assets/icons/Edit.svg) Rinomina | Rinominare un progetto. Apre una **[!UICONTROL Rename: *finestra di dialogo del nome del progetto *]**. Immettere un nuovo nome e selezionare **[!UICONTROL Save]**. |
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
 | ![PinOnff](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Aggiungi o rimuovi uno o più progetti o cartelle. I progetti e le cartelle bloccati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |

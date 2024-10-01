@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 33%
@@ -75,7 +75,7 @@ Puoi gestire i componenti (singolarmente o selezionandone più di uno).
    | ![Stella](/help/assets/icons/Star.svg) [!UICONTROL **Preferito**] | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nel pannello a sinistra e filtrarli nei gestori dei componenti. |
    | ![ContornoStella](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Rimuovi il componente dall’elenco dei preferiti. |
    | ![Segno di spunta](/help/assets/icons/Checkmark.svg) [!UICONTROL **Approva**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, nel pannello a sinistra puoi cercare e filtrare per Approvato. Un ![segno di spunta](/help/assets/icons/Checkmark.svg) identifica i componenti approvati. |
-   | ![Condividi](/help/assets/icons/ShareLight.svg) [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
+   | ![Condividi](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
    | ![Elimina](/help/assets/icons/Delete.svg) [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
 
 I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, vedi [Gestire i filtri](/help/components/filters/manage-filters.md).
