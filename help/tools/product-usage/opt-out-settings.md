@@ -3,14 +3,14 @@ title: Impostazioni di rinuncia all’utilizzo del prodotto
 description: Gestisci le impostazioni di rinuncia per i singoli utenti all’interno della tua organizzazione.
 hide: true
 hidefromtoc: true
-source-git-commit: 18686285efbdbc9e8fdac93e215adc4061bb0022
+source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Impostazioni di rinuncia all’utilizzo del prodotto
+# Impostazioni di rinuncia all’utilizzo del prodotto {#product-usage-opt-out-settings}
 
 La pagina delle _impostazioni di rinuncia_ ti consente di escludere o includere nuovamente gli utenti all&#39;interno della tua organizzazione dal monitoraggio dell&#39;utilizzo dei prodotti.
 
@@ -22,3 +22,8 @@ In questa pagina sono disponibili le seguenti impostazioni:
 * **[!UICONTROL Opt-out user list]**: tabella che mostra tutti gli utenti attualmente esclusi dal monitoraggio dell&#39;utilizzo dei prodotti. Per fornire nuovamente il consenso a un utente per il monitoraggio dell&#39;utilizzo del prodotto, selezionare la casella di controllo accanto a un determinato utente, quindi selezionare il pulsante **[!UICONTROL Opt-in]**.
 
 Adobe utilizza una combinazione di tracciamento lato client e lato server per raccogliere i dati di utilizzo del prodotto per la tua organizzazione. Quando un utente viene inizialmente escluso, potrebbe comunque visualizzare i dati di tracciamento lato client nel debugger fino a quando non si disconnette e torna al Customer Journey Analytics. La convalida lato server di Adobe garantisce che i dati di tracciamento lato client vengano eliminati per gli utenti esclusi.
+
+>[!CONTEXTUALHELP]
+>id="cja_product_usage_opt_out_settings"
+>title="Utenti esclusi"
+>abstract="Escludi utenti dal tracciamento dell’utilizzo del prodotto."
