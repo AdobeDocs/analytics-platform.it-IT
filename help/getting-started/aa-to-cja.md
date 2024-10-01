@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
+source-git-commit: e93f4875bbb5940d9182aadcefcc7166644434c4
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 100%
@@ -90,7 +90,7 @@ Ecco un paio di video per guidarti:
 
 * Grazie alla potenza delle visualizzazioni dati di Customer Journey Analytics, hai a disposizione molta più flessibilità nel definire le metriche e le dimensioni in Customer Journey Analytics. Ad esempio, puoi utilizzare il valore di una dimensione come definizione di una metrica. [Ulteriori informazioni](/help/use-cases/data-views/data-views-usecases.md)
 
-* Se hai definito un calendario personalizzato in Adobe Analytics, troverai [funzionalità di calendario personalizzato](/help/components/date-ranges/custom-date-ranges.md) simili anche in Customer Journey Analytics. È necessario assicurarsi che il calendario sia definito correttamente.
+* Se hai definito un calendario personalizzato in Adobe Analytics, troverai [funzionalità di calendario personalizzato](/help/components/date-ranges/overview.md) simili anche in Customer Journey Analytics. È necessario assicurarsi che il calendario sia definito correttamente.
 
 * In Customer Journey Analytics, puoi definire un valore di timeout personalizzato per visita o sessione e una metrica che avvierà una nuova sessione. Puoi creare visualizzazioni dati con diverse definizioni di sessione per ottenere più informazioni di quanto non fosse possibile in Adobe Analytics. Questa funzionalità può risultare particolarmente utile per i set di dati mobili.
 

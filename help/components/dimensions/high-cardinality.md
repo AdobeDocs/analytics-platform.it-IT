@@ -5,10 +5,10 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 6%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Quando si utilizza una dimensione contenente molti valori univoci, il rapporto risultante può contenere troppi elementi dimensionali univoci da visualizzare o calcolare. I risultati vengono troncati rimuovendo gli elementi dimensionali ritenuti meno importanti. Queste ottimizzazioni vengono eseguite per mantenere le prestazioni di progetto e prodotto.
 
-Quando richiedi un rapporto con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione che indica che non tutti gli elementi dimensionali sono inclusi. Ad esempio, &quot;Righe: da 1 a 50 su oltre 22.343.156&quot;. La parola chiave &quot;più di&quot; indica che è stata applicata una certa ottimizzazione al rapporto per restituire gli elementi dimensionali più importanti.
+Quando richiedi un rapporto con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione che indica che non tutti gli elementi dimensionali sono inclusi. Ad esempio, **[!UICONTROL Rows: 1-50 of more than 22,343,156]**. La parola chiave **[!UICONTROL more than]** indica che è stata applicata un&#39;ottimizzazione al report per restituire gli elementi dimensionali più importanti.
 
 ![Tabella a forma libera in Workspace che mostra la parola chiave &quot;più di&quot; per mostrare 1-50 di più di 22.343.156](assets/high-cardinality.png)
 

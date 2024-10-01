@@ -1,30 +1,30 @@
 ---
-description: La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
+description: Il fallout in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. I fallout offrono maggiore flessibilità nella definizione dei passaggi utente che si desidera esaminare.
 title: Abbandono interdimensionale
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 37158b4e614435724205c505f322c1d7a434c35d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 74%
+source-wordcount: '220'
+ht-degree: 7%
 
 ---
 
 # Abbandono interdimensionale
 
-La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
+Il fallout in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. I fallout offrono maggiore flessibilità nella definizione dei passaggi utente che si desidera esaminare.
 
-Ad esempio, oltre a una dimensione Pagina, puoi aggiungere dimensioni basate su azioni a una visualizzazione Abbandono. In questo modo puoi vedere l’interrelazione tra pagine e determinate azioni nei percorsi dei clienti.
+Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione Abbandono altri elementi dimensionali (come un nome di dispositivo specifico dalla dimensione Nome dispositivo). La combinazione di dimensioni consente di visualizzare il modo in cui le pagine e alcune azioni si interagiscono nei percorsi dei clienti.
 
-![La vista Tutte le visite mostra più dimensioni come punti di contatto.](assets/interdimensional-fallout1.png)
+![La vista Tutte le visite mostra più dimensioni come punti di contatto.](assets/fallout-otherdimension.png)
 
 I dati di abbandono vengono automaticamente aggiornati e li puoi vedere per più dimensioni.
 
-Puoi anche aggiungere delle metriche. In questo esempio, abbiamo aggiunto la metrica “Foto condivisa” per individuare il percorso seguito dai clienti:
+Puoi anche aggiungere metriche. Ad esempio, puoi aggiungere la metrica Chiamata per mostrare solo i percorsi per gli utenti per i quali esistono chiamate e che hanno contattato il call center:
 
-![La visualizzazione Tutte le visite mostra la metrica aggiunta: &quot;Foto condivisa&quot;.](assets/interdimensional-fallout2.png)
+![La visualizzazione Tutte le visite mostra la metrica aggiunta: &quot;Foto condivisa&quot;.](assets/fallout-metrics.png)
 
-Inoltre, puoi combinare dimensioni e metriche diverse in punti di contatto di tipo AND. È sufficiente trascinare un’altra dimensione o metrica su una esistente:
+Puoi combinare dimensioni e metriche. Trascina un’altra dimensione o metrica sopra una esistente. Ad esempio, per comprendere l’abbandono di persone che dispongono di un iPhone e che hanno contattato il call center.
 
-![La vista Tutte le visite mostra il nome azione aggiunto: metrica Foto condivisa E condivisa.](assets/interdimensional-fallout3.png)
+![La vista Tutte le visite mostra il nome azione aggiunto: metrica Foto condivisa E condivisa.](assets/fallout-combined.png)

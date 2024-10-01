@@ -1,13 +1,13 @@
 ---
 title: Usa dati di riepilogo nel Customer Journey Analytics
-description: Utilizzare per spiegare tutti i dettagli su come inserire dati di riepilogo nel Customer Journey Analytics
+description: Caso d’uso che illustra tutti i dettagli su come inserire dati di riepilogo nel Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4610'
 ht-degree: 8%
 
 ---
@@ -512,7 +512,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 
          ![Dati di riepilogo ricavi](../assets/revenue-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
+            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
             1. Selezionare **[!UICONTROL 30 Day]** dall&#39;elenco a discesa **[!UICONTROL Lookback window]**.
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **Formato**.
             1. Selezionare **[!UICONTROL Currency]** dall&#39;elenco a discesa **[!UICONTROL Format]**.
@@ -522,7 +522,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 
          ![Dati di riepilogo ordini](../assets/orders-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
+            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
             1. Selezionare **[!UICONTROL 30 Day]** dall&#39;elenco a discesa **[!UICONTROL Lookback window]**.
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
             1. Selezionare **[!UICONTROL Decimal]** dall&#39;elenco a discesa **[!UICONTROL Format]**.

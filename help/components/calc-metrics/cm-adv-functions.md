@@ -4,18 +4,18 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '3020'
-ht-degree: 98%
+source-wordcount: '3032'
+ht-degree: 97%
 
 ---
 
 # Riferimento - Funzioni avanzate
 
-Accedi a queste funzioni selezionando **[!UICONTROL Show Advanced]** nell’elenco a discesa **[!UICONTROL Functions]**.
+Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorri verso il basso per visualizzare l’elenco delle funzioni avanzate.
 
-## Funzioni tabella e Funzioni riga
+## Funzioni tabella e funzioni riga
 
 Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga contiene un output diverso per ogni riga della tabella.
 
@@ -26,6 +26,7 @@ Il parametro indica se includere gli zeri all’interno del calcolo. Talvolta lo
 Ad esempio, se hai una metrica Revenue (Entrate) e ne aggiungi al report una del tipo Page Views (Visualizzazioni pagina), improvvisamente saranno presenti più righe per le entrate che sono pari a zero. È probabile che non vorrai estendere questo risultato ai calcoli MEAN, MIN, QUARTILE e così via, che sono presenti nella colonna Revenue (Entrate). In questo caso, dovrai controllare il parametro include-zeros.
 
 D’altra parte, se disponi di due metriche di tuo interesse, potrebbe non essere giusto affermare che una presenti una media o un minimo più alto in virtù di alcune righe pari a zero, quindi non controlleresti il parametro in modo da includere gli zeri.
+
 
 ## AND
 
@@ -56,7 +57,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | La dimensione per la quale vuoi ottenere il conteggio dei valori univoci approssimativo degli elementi. |
 
-## Caso d’uso di esempio
+### Caso d’uso di esempio
 
 Approximate Count Distinct (customer ID eVar) (Conteggio valori univoci approssimativo (eVar ID cliente)) rappresenta un caso d’uso comune per questa funzione.
 
@@ -68,7 +69,7 @@ Questo è il modo in cui la metrica “Approximate Customers” (Clienti appross
 
 ![Tabella a forma libera con visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
 
-## Confronto delle funzioni di conteggio
+### Confronto delle funzioni di conteggio
 
 Approximate Count Distinct() rappresenta un miglioramento rispetto alle funzioni Count() e RowCount(), perché la metrica creata può essere utilizzata in qualsiasi report dimensionale per rappresentare un conteggio approssimativo di elementi per una dimensione separata. Ad esempio, un conteggio degli ID cliente utilizzati all’interno di un report Mobile Device Type (Tipo dispositivo mobile).
 

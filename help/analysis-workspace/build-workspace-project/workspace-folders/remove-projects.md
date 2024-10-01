@@ -1,24 +1,21 @@
 ---
-description: Scopri come rimuovere progetti dalle cartelle
+description: Scopri come rinominare i progetti dalle cartelle
 keywords: Analysis Workspace
 title: Rimuovere progetti dalle cartelle
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
-# Rimuovere un progetto da una cartella
+# Elimina progetti
 
-Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizione oppure eliminarlo.
+<!-- Is this article still needed -->
 
->[!NOTE]
->
->Quando un amministratore sposta un progetto nella cartella dell’azienda, il progetto viene condiviso con tutti, anche se i suoi privilegi di condivisione originali prevedevano restrizioni. Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
 
 ## Spostare un progetto {#move-project-in-folder}
 

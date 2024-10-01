@@ -1,25 +1,46 @@
 ---
 description: Scopri come creare metriche calcolate.
-title: Flusso di lavoro per le metriche calcolate
+title: Creare metriche calcolate
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 0%
 
 ---
 
-# Flusso di lavoro per le metriche calcolate
+# Creare metriche calcolate
 
-Scopri come creare metriche calcolate.
+Per impostazione predefinita, solo gli amministratori possono creare metriche calcolate. Le autorizzazioni degli utenti per visualizzare le metriche calcolate sono simili a quelle degli utenti per visualizzare altri componenti, ad esempio filtri, annotazioni e altro ancora.
 
-| Attività flusso di lavoro | Descrizione |
+Tuttavia, gli amministratori possono assegnare l&#39;autorizzazione **[!UICONTROL Calculated Metric Creation]** per **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** agli utenti tramite [Admin Console](/help/technotes/access-control.md#user-level-access).
+
+
+Puoi creare una metrica calcolata nei seguenti modi:
+
+![Modalità di creazione di un filtro](assets/create-metric.png)
+
+* ?? Nell&#39;interfaccia principale, selezionare **[!UICONTROL Components]** e selezionare **[!UICONTROL Calculated metrics]**. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] dal gestore [[!UICONTROL Calculated metrics]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+* ?? In un progetto Workspace, dal pannello a sinistra Componenti, seleziona ![Aggiungi](/help/assets/icons/Add.svg) in ![Evento](/help/assets/icons/Event.svg) **Metriche**.
+* ?? In un progetto Workspace, dal menu di scelta rapida nell&#39;intestazione di colonna delle metriche, selezionare **[!UICONTROL Create metric from selection]**. Dal sottomenu, è possibile selezionare una funzione o selezionare **[!UICONTROL Open in calculated metric builder]**. <br/>Se selezioni una funzione, la metrica calcolata viene definita come metrica solo progetto. Quando successivamente modifichi questa metrica, tramite la finestra a comparsa [Informazioni componente](/help/components/use-components-in-workspace.md#component-info), ricevi una notifica nel [Generatore di metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+* ?? In un progetto Workspace, selezionare **[!UICONTROL Components]** dal menu e selezionare **[!UICONTROL Create metric]**.
+* ?? In un progetto Workspace, utilizzare il collegamento **[!UICONTROL shift+cmd+c]** (macOS) o **[!UICONTROL shift+ctrl+c]** (Windows).
+
+Per definire la nuova metrica calcolata, utilizzare il generatore di metriche calcolate [](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+<!--
+
+Learn about the steps to take for creating calculated metrics.
+
+| Workflow Task | Description |
 | --- | --- |
-| Pianificare le metriche calcolate | Soprattutto per le metriche che verranno ufficialmente &quot;approvate&quot;, ha senso delineare quali metriche calcolate saranno ampiamente utilizzate e come saranno definite. |
-| [Genera](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) Metriche Calcolate | Genera e modifica metriche calcolate e calcolate avanzate da utilizzare nei componenti [!DNL Customer Journey Analytics]. |
-| [Tag](cm-tagging.md) Metriche calcolate | Assegna tag alle metriche calcolate per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate. |
-| [Approva](cm-approving.md) Metriche Calcolate | Approva le metriche calcolate per renderle canoniche. |
-| Applicare le metriche calcolate | È possibile applicare le metriche direttamente da un report, dal selettore delle metriche (per accedervi, fare clic su [!UICONTROL Show Metrics]). |
-| Filtrare le metriche calcolate | Nel selettore delle metriche, fare clic su [!UICONTROL Advanced Selection] e filtrare in base a tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati). |
-| Contrassegna metriche calcolate come [Preferiti](cm-finding.md) | Contrassegnare le metriche come preferite è un altro modo per organizzarle in modo semplice e intuitivo. |
+| Plan Calculated Metrics | Especially for metrics that are going to be officially "approved", it makes sense to outline which calculated metrics will be widely used and how they will be defined. |
+| [Build](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) Calculated Metrics | Build and edit calculated and advanced calculated metrics for use in [!DNL Customer Journey Analytics] components. |
+| [Tag](cm-tagging.md) Calculated Metrics | Tag calculated metrics for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
+| [Approve](cm-approving.md) Calculated Metrics | Approve calculated metrics to make them canonical. |
+| Apply Calculated Metrics | You can apply metrics directly from a report, from the Metric Selector (to access it, click [!UICONTROL Show Metrics]). |
+| Filter Calculated Metrics | In the Metric Selector, click [!UICONTROL Advanced Selection] and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
+| Mark Calculated Metrics as [Favorites](cm-finding.md) | Marking metrics as favorites is another way to organize them for ease of use.|
+
+-->

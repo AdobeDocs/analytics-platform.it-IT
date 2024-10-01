@@ -4,35 +4,40 @@ title: Condividere i filtri
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 96%
+source-wordcount: '290'
+ht-degree: 11%
 
 ---
 
-# Condividere i filtri {#share}
+# Condividere i filtri
 
-A seconda delle autorizzazioni, puoi condividere i filtri con l’intera organizzazione, i gruppi o i singoli utenti.
+Nel [Gestore filtri](manage-filters.md), puoi condividere i filtri. A seconda delle autorizzazioni, puoi condividere i filtri con l’intera organizzazione, i gruppi o i singoli utenti:
 
-| Amministratore | Non amministratore |
-|---|---|
-| Puoi condividere i filtri con tutti, con i gruppi e con gli utenti. Consulta la [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html) per maggiori informazioni. | Puoi condividere i filtri solo con singoli utenti. |
+* **Amministratori**: gli amministratori possono condividere i filtri con l&#39;intera organizzazione, con i gruppi all&#39;interno di un&#39;organizzazione e con i singoli utenti. Consulta la [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-products.html) per maggiori informazioni.
+* **Non amministratori**: i non amministratori possono condividere solo i filtri creati e solo con singoli utenti. |
 
-Quando è necessario condividere i filtri con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Ecco alcune best practice che puoi seguire:
+Per condividere uno o più filtri:
 
-* In qualità di Amministratore, condividi un filtro con tutti se è utile per l’intera azienda e tutti possono usarlo con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo un filtro approvato.
+1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri da condividere.
+1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/Share.svg) **[!UICONTROL Share]**.
+1. Nella finestra di dialogo **[!UICONTROL Share Filters]** (Crea elemento dati):
 
-* In qualità di Amministratore, condividi un filtro con un profilo di prodotto specifico se il filtro fornisce un buon valore aziendale per quel team. Non approvare ufficialmente questo tipo di filtro.
+   ![Finestra di dialogo Condividi filtri](assets/share-filter-dialog.png)
 
-* In qualità di Amministratore o di singolo utente, condividi un filtro con altri singoli utenti per esaminarlo e convalidarlo. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di filtro.
+   1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per *Cerca singoli utenti o gruppi* e limita l&#39;elenco di gruppi o singoli utenti con cui si desidera condividere il filtro.
 
-Per condividere un filtro:
+   1. Selezionare una o più opzioni dalla sezione **[!UICONTROL Organization]** o **[!UICONTROL Groups]** oppure cercare e selezionare uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
 
-1. Nel Gestore filtri, contrassegna la casella di controllo accanto al filtro che desideri condividere.
+   1. Selezionare **[!UICONTROL Save]** per condividere i filtri. Selezionare **[!UICONTROL Cancel]** per annullare.
 
-1. Nella barra degli strumenti di gestione del filtro, fai clic su **[!UICONTROL Share]**.
+## Best practice
 
-1. Se sei un amministratore, puoi selezionare Tutti o scegliere tra Gruppi e Utenti dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo singoli utenti. Usa il campo Ricerca per cercare gruppi o utenti. Fai clic su **[!UICONTROL Share]**. Accanto al filtro viene visualizzata l&#39;icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+Di seguito sono riportate alcune best practice per condividere i filtri e con chi condividere i filtri.
 
-1. Puoi filtrare i filtri condivisi con te selezionando Filtri > Altri filtri > Condivisi con me.
+* In qualità di amministratore, condividi un filtro con tutti solo se sei certo che gli utenti dell’organizzazione abbiano familiarità con l’utilizzo dei filtri. Puoi anche considerare la possibilità di preferire questi filtri. Per ulteriori informazioni, vedere [Contrassegnare un filtro come preferito](filters-favorite.md).
+
+* In qualità di amministratore, condividi un filtro con un gruppo specifico se tale filtro fornisce un valore aziendale per la parte degli utenti di tale gruppo
+
+* In qualità di amministratore o di singolo utente, condividi un filtro con uno o più singoli utenti per convalidarlo. Se i filtri non si rivelano utili, puoi eliminarli.

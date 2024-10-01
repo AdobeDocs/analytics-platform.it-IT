@@ -5,47 +5,41 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 31%
 
 ---
 
 # Panoramica sulle annotazioni
 
-Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare eventi calendario a dimensioni o metriche specifiche. È possibile aggiungere a una data o un intervallo di date annotazioni relative a problemi noti, festività, avvii di campagne, ecc. Puoi quindi visualizzare gli eventi in modo grafico e vedere se campagne o altri eventi hanno influenzato il traffico del sito, l’utilizzo di app mobile, i ricavi o su qualsiasi altra metrica.
+Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali ad altre parti interessate all’interno dell’organizzazione. Le annotazioni consentono di collegare eventi calendario a dimensioni e metriche specifiche. È possibile aggiungere a una data o un intervallo di date annotazioni relative a problemi noti, festività, avvii di campagne, ecc. Puoi quindi visualizzare gli eventi in modo grafico e vedere se campagne o altri eventi hanno influenzato il traffico del sito, l’utilizzo di app mobile, i ricavi o su qualsiasi altra metrica.
 
-Ad esempio, supponiamo che tu condivida dei progetti con la tua organizzazione. Se si è verificato un picco importante nel traffico a seguito di una campagna di marketing, è possibile aggiungere un’annotazione “Data di lancio della campagna” e impostarla per l’intera visualizzazione dati. Quando altri utenti visualizzano i set di dati che includono tale data, vedono l’annotazione all’interno dei loro progetti, insieme ai relativi dati.
+Ad esempio, stai condividendo dei progetti con la tua organizzazione. Se si verifica un calo significativo delle offerte accettate, è possibile creare un&#39;annotazione **Offerte non valide** e applicarla all&#39;intera visualizzazione dati. Quando altri utenti visualizzano i set di dati che includono tale data, vedono l’annotazione all’interno dei loro progetti, insieme ai relativi dati.
 
-![Grafico a linee con annotazione evidenziata.](assets/multi-day.png)
+![Grafico a linee con annotazione evidenziata.](assets/annotation-example.png)
 
-Aspetti da considerare:
+Le annotazioni possono essere applicate a:
 
-* Le annotazioni possono essere associate a una singola data o a un intervallo di date.
+* Una singola data o un intervallo di date.
 
-* Possono essere applicate all’intero set di dati oppure a metriche, dimensioni o filtri specifici.
+* L’intero set di dati o metriche, dimensioni o filtri specifici.
 
-* Possono essere applicate al progetto in cui sono state create (impostazione predefinita) oppure a tutti i progetti.
+* Progetto in cui vengono create le annotazioni (impostazione predefinita) o tutti i progetti.
 
-* Possono essere applicate alla visualizzazione dati in cui sono state create (per impostazione predefinita) oppure a tutte le visualizzazioni dati.
+* La visualizzazione dati in cui vengono create le annotazioni (impostazione predefinita) o tutte le visualizzazioni dati.
 
-## Autorizzazioni
+Consulta [Creare annotazioni](/help/components/annotations/create-annotations.md) per le varie opzioni disponibili per la creazione di annotazioni. Le annotazioni verranno quindi compilate, modificate e salvate nel [Generatore di annotazioni](create-annotations.md#annotation-builder).
 
-Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Le autorizzazioni degli utenti per visualizzare le annotazioni sono analoghe a quelle degli altri componenti di Analytics (come filtri, metriche calcolate ecc.).
+Utilizza [Gestione annotazioni](manage-annotations.md) per gestire le annotazioni.
 
-Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!UICONTROL Annotation Creation] (Analytics Tools) tramite [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
-
-## Attivare o disattivare le annotazioni {#annotations-on-off}
+## Attivare o disattivare le annotazioni
 
 Le annotazioni possono essere attivate o disattivate a diversi livelli:
 
-* A livello di visualizzazione: Impostazioni [!UICONTROL Visualization] > [!UICONTROL Show annotations]
-
-* A livello di progetto: [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
-
-* A livello utente: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
-
-![Finestra di dialogo delle impostazioni di visualizzazione con Mostra annotazioni evidenziate](assets/show-ann.png)
-
-![Preferenze utente che evidenziano Mostra annotazioni.](assets/show-ann2.png)
+| Livello | Come... |
+|---|---|
+| **Visualizzazione** | Attiva o disattiva ![Impostazione](/help/assets/icons/Setting.svg) > **[!UICONTROL Settings]** > **[!UICONTROL Show annotations]**.<br/>![Abilitare la disabilitazione delle annotazioni per una visualizzazione](/help/components/annotations/assets/annotations-visualization.png) |
+| **Progetto** | Dal menu di un progetto di Workspace, selezionare **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** e abilitare o disabilitare **[!UICONTROL Show annotations]**.<br/>![Abilita disabilitazione annotazioni per un progetto](/help/components/annotations/assets/annotations-project.png) |
+| **Utente** | Dalla scheda **[!UICONTROL Components]**, seleziona **[!UICONTROL Preferences]** oppure dal menu di un progetto Workspace, seleziona **[!UICONTROL Project]** > **[!UICONTROL User preferences]**. <br/>In **[!UICONTROL Preferences]**, selezionare **[!UICONTROL Projects & Analysis]**. Dalla barra della scheda a sinistra, selezionare **[!UICONTROL Data]**. In basso, abilitare o disabilitare **[!UICONTROL Show annotations]** sotto l&#39;intestazione **[!UICONTROL Freeform table]**.<br/>![Abilita disabilitazione annotazioni per un utente](/help/components/annotations/assets/annotations-user.png) |

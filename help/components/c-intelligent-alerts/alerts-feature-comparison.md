@@ -3,22 +3,20 @@ description: Scopri le differenze tra gli avvisi e il Customer Journey Analytics
 title: Customer Journey Analytics di confronto delle funzioni degli avvisi e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 5%
 
 ---
 
-# Confronto delle funzioni degli avvisi: Customer Journey Analytics e Adobe Analytics
+# Confronto delle funzioni di avviso
 
-La procedura di utilizzo degli avvisi in Customer Journey Analytics è quasi identica a quella di utilizzo degli avvisi in Adobe Analytics. Tuttavia, ci sono importanti differenze.
-
-Le sezioni seguenti descrivono le differenze principali.
+Il processo di utilizzo degli avvisi in Customer Journey Analytics è quasi identico a quello degli avvisi in Adobe Analytics. Tuttavia, ci sono importanti differenze. Le sezioni seguenti descrivono le differenze principali.
 
 ## Gli avvisi orari non sono disponibili nel Customer Journey Analytics
 
-Gli avvisi orari non sono disponibili nel Customer Journey Analytics come in Adobe Analytics. In Customer Journey Analytics, gli avvisi possono essere configurati per giornaliero, settimanale o mensile.
+Gli avvisi orari non sono disponibili nel Customer Journey Analytics come in Adobe Analytics. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.
 
 Ciò è dovuto ai vari modi in cui i dati possono essere acquisiti in Adobe Experience Platform, prima che vengano segnalati in Customer Journey Analytics. La completezza e la disponibilità dei dati non possono essere raggiunte in modo affidabile entro un’ora, rendendo gli avvisi orari poco pratici a causa dell’elevato potenziale di dati incompleti. Per ulteriori informazioni, consulta [I tempi di acquisizione dei dati variano](#data-ingestion-times-vary-in-customer-journey-analytics).
 

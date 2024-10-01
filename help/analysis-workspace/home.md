@@ -6,97 +6,149 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: e766858a93f8dcfadda2e7518b0d74468ff1ae4b
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '1380'
+ht-degree: 12%
 
 ---
 
 # Panoramica di Analysis Workspace {#analysis-workspace-overview}
 
->[!CONTEXTUALHELP]
->id="cja_workspace_fundamentals"
->title="Nozioni di base di Analysis Workspace"
->abstract="Segui la presentazione seguente per scoprire alcune delle nozioni di base di Analysis Workspace, tra cui la creazione di una tabella, l’aggiunta di una visualizzazione, la modifica dell’intervallo di date e altro ancora."
->additional-url="https://images-tv.adobe.com/mpcv3/7381/7a0633f8-972f-4367-a2ed-b169981efa7b_1681135724.854x480at800_h264.mp4" text="Panoramica di Analysis Workspace"
+Analysis Workspace consente di creare analisi rapidamente per raccogliere informazioni e condividerle con altri utenti. Tramite l&#39;interfaccia del browser, puoi creare le analisi, aggiungere visualizzazioni per dare vita ai dati, curare un set di dati, condividere e pianificare [progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md) con chiunque tu voglia.
 
-Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere informazioni e condividerle con altri utenti. Utilizzando l’interfaccia di trascinamento del browser, puoi creare analisi, aggiungere visualizzazioni per mettere in risalto i dati, curare un set di dati, condividere e pianificare progetti con chiunque desideri.
 
-Il video seguente fornisce una breve panoramica con esempi di ciò che è possibile fare.
++++ Guarda un video che mostra le possibilità offerte da Analytics Workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Aree di Analysis Workspace
+{{videoaa}}
 
-L’immagine seguente e la tabella allegata illustrano alcune delle aree principali di Analysis Workspace:
 
-![Finestra di Analysis Workspace che evidenzia la barra all’estrema sinistra, l’area di lavoro e il menu a discesa della visualizzazione dati.](assets/analysis-workspace-overvew.png)
++++
 
-| Posizione nell’immagine | Nome e funzione |
-|---------|----------|
-| A | **Barra all’estrema sinistra:** contiene schede per aggiungere pannelli, visualizzazioni e componenti in Analysis Workspace. Contiene anche l’icona del dizionario dati che viene utilizzata per aprirlo. |
-| B | **Barra a sinistra:** a seconda della scheda selezionata nella barra all’estrema sinistra, quest’area contiene singoli pannelli, visualizzazioni o componenti. |
-| C | **Area di lavoro:** questa è l’area principale in cui trascini il contenuto dalle barre a sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando si aggiungono pannelli, visualizzazioni e componenti all’area di lavoro. |
-| D | **Menu a discesa della visualizzazione dati:** per ogni pannello in Analysis Workspace, il menu a discesa della visualizzazione dati consente di scegliere quella da utilizzare come origine dati. |
+## Interfaccia
 
-## Funzionalità in Analysis Workspace {#analysis}
+L’immagine seguente e la tabella allegata illustrano gli elementi principali dell’interfaccia utente di Analysis Workspace:
 
-Di seguito sono riportate alcune delle funzioni chiave disponibili in Analysis Workspace:
+![Finestra di Analysis Workspace che evidenzia i pannelli all&#39;estrema sinistra e sinistra, l&#39;area di lavoro e il menu a discesa della visualizzazione dati.](assets/analysis-workspace-overview.png)
 
-### Pannelli
+| Posizione | Nome e funzione |
+|:---------:|----------|
+| ?? | Contiene il nome del progetto, una struttura di menu per accedere alle funzionalità, un pulsante ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) per tornare all&#39;elenco dei progetti e un pulsante **[!UICONTROL Share]** per condividere il progetto Workspace. <br/>Selezionare il nome del progetto (ad esempio: Progetto di esempio) in qualsiasi momento per modificare il nome. <br/>Seleziona ![StarOutline](/help/assets/icons/StarOutline.svg) per aggiungere il tuo progetto come preferito ![Star](/help/assets/icons/Star.svg). |
+| ?? | **Pannello pulsanti:** contiene i pulsanti per accedere alla chiave [funzionalità](#features) di Analysis Workspace: ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Panels]**, ![BarraGraficaVerticale](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Visualizations]** e ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** per il progetto in Analysis Workspace. Il pannello contiene anche un pulsante ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]** e ![Bookmark](/help/assets/icons/Bookmark.svg) **[!UICONTROL Data Dictionary]** per aprire il dizionario dati. |
+| ?? | **Pannello sinistro:** quest&#39;area contiene singoli pannelli, visualizzazioni, componenti o elenchi. Il contenuto dipende dal pulsante selezionato nel pannello pulsante. |
+| ?? | **Area di lavoro:** l&#39;area principale in cui trascinare il contenuto dal pannello sinistro per creare il progetto. Il progetto viene aggiornato dinamicamente quando si aggiungono pannelli, visualizzazioni ai pannelli e componenti alle visualizzazioni. Puoi creare più pannelli e, all’interno di ogni pannello, più visualizzazioni.<br/>Ogni pannello si basa su una visualizzazione dati selezionata. La visualizzazione dati selezionata determina i componenti disponibili, come metriche e dimensioni. Per ulteriori informazioni, consulta [Pannelli - Visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view). |
 
-I **pannelli** servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Panels]** superiore per visualizzare l’elenco di tutti i panelli disponibili.
+## Funzioni
 
-Per ulteriori informazioni sui pannelli, consulta [Panoramica sui pannelli](/help/analysis-workspace/c-panels/panels.md).
+Le funzioni chiave di Analysis Workspace sono disponibili tramite il pannello pulsante:
 
-![](assets/build-panels.png)
+| Icona | Funzione | Descrizione |
+|:---:|---|---|
+| ![PaginaWeb](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | I pannelli consentono di organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente. Nel pannello pulsante, seleziona ![PaginaWeb](/help/assets/icons/WebPage.svg) per visualizzare l&#39;elenco completo dei pannelli disponibili.<br/>Per ulteriori informazioni sui pannelli, vedere [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md). |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | Le visualizzazioni, ad esempio i grafici a barre o a linee, possono essere utilizzate per dare vita ai dati visivamente. Nel pannello a sinistra, seleziona l’icona centrale **[!UICONTROL Visualizations]** per visualizzare l’elenco completo delle visualizzazioni disponibili. <br/>Per ulteriori informazioni sulle visualizzazioni, consulta [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| ![Cura](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | I componenti in Analysis Workspace sono i seguenti:<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Metriche](/help/components/apply-create-metrics.md)</li><li>![Segmentazione](/help/assets/icons/Segmentation.svg) [Filtri](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalli di date](/help/components/date-ranges/overview.md)</li></ul>Per ulteriori informazioni su ciascuno di questi tipi di componenti, consulta la [Panoramica sui componenti](/help/components/overview.md). |
+| ![ElencoVisualizzazioni](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | Il sommario organizza tutti i pannelli e le visualizzazioni in un elenco comprimibile, consentendoti di accedere rapidamente a un pannello o a una visualizzazione specifica. |
+| ![Segnalibro](/help/assets/icons/Bookmark.svg) | **Dizionario dati** | Il dizionario dati in Analysis Workspace consente sia agli utenti che agli amministratori di tenere traccia dei componenti del proprio ambiente Analytics e di comprenderli meglio.<br/>Per ulteriori informazioni sul dizionario dati, vedere la [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md). |
 
-### Visualizzazioni
 
-**Visualizzazioni**, ad esempio un grafico a barre o a linee, può essere utilizzato per mettere visivamente in risalto i dati. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le visualizzazioni disponibili.
+## Menu
 
-Per ulteriori informazioni sulle visualizzazioni, consulta [Panoramica sulle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+La maggior parte delle funzionalità di Analysis Workspace è disponibile tramite trascinamento e menu di scelta rapida all’interno di pannelli, visualizzazioni e componenti.
 
-![](assets/build-visualizations.png)
+Sono inoltre disponibili funzionalità tramite il menu di Workspace e collegamenti o tasti di scelta rapida. I tasti di scelta rapida variano a seconda del sistema operativo su cui è in esecuzione il browser. Per una panoramica, consulta le tabelle seguenti.
 
-### Componenti
+Si noti che sulla tastiera possono essere utilizzati i seguenti simboli:
 
-I componenti in Analysis Workspace sono i seguenti:
+- **⇧** per **[!UICONTROL *shift *]**.
+- **⌘** per **[!UICONTROL *cmd *]**(comando).
+- **⌃** per **[!UICONTROL *ctrl *]**(controllo).
+- **** per **[!UICONTROL *opt *]**(opzione).
+- **⎇** per **[!UICONTROL *alt *]**(alternativo).
 
-* Dimensioni
+Per una panoramica dei menu disponibili, consulta le tabelle seguenti.
 
-* Metriche
+| **[!UICONTROL Project]** | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Create project]** | **[!UICONTROL *Maiusc+Comando+P *]** | **[!UICONTROL *Maiusc+Ctrl+P *]** | Crea un nuovo progetto. |
+| **[!UICONTROL Create a mobile scorecard]** | | | [Crea una nuova scorecard per dispositivi mobili](/help/mobile-app/create-scorecard.md). |
+| **[!UICONTROL Open...]** | **[!UICONTROL *comando+o *]** | **[!UICONTROL *ctrl+o *]** | [Apri un progetto esistente](/help/analysis-workspace/build-workspace-project/save-projects.md#open-another-project). |
+| **[!UICONTROL Open previous version...]** | **[!UICONTROL *opt+cmd+o *]** | **[!UICONTROL *alt+ctrl+o *]** | [Aprire le versioni precedenti del progetto](/help/analysis-workspace/build-workspace-project/save-projects.md#open-previous-version). |
+| **[!UICONTROL Save]** | **[!UICONTROL *cmd+s *]** | **[!UICONTROL *ctrl+s *]** | [Salva il progetto](/help/analysis-workspace/build-workspace-project/save-projects.md#save-projects). |
+| **[!UICONTROL Save with notes...]** | **[!UICONTROL *opt+cmd+s *]** | **[!UICONTROL *alt+ctrl+s *]** | [Aggiungi note alla versione del progetto salvata](/help/analysis-workspace/build-workspace-project/save-projects.md#save-project-options). |
+| **[!UICONTROL Save as...]** | **[!UICONTROL *Maiusc+Comando+S *]** | **[!UICONTROL *Maiusc+Ctrl+S *]** | [Salvare il progetto utilizzando un nome e dettagli diversi](/help/analysis-workspace/build-workspace-project/save-projects.md#save-project-options). |
+| **[!UICONTROL Refresh project]** | **[!UICONTROL *opt+r *]** | **[!UICONTROL *alt+r *]** | Aggiorna il progetto. |
+| **[!UICONTROL Download CSV]** | **[!UICONTROL *maiusc+cmd+v *]** | **[!UICONTROL *Maiusc+Ctrl+V *]** | Scarica il progetto come file CSV. |
+| **[!UICONTROL Download PDF]** | **[!UICONTROL *Maiusc+Comando+B *]** | **[!UICONTROL *Maiusc+Ctrl+B *]** | Scarica il progetto come documento PDF. |
+| **[!UICONTROL Project info & settings]** | | | Definisci le impostazioni per i progetti, ad esempio nome, tag, palette di colori e altro ancora. |
+| **[!UICONTROL User settings]** | | | [Configura le preferenze per l&#39;utilizzo di Analysis Workspace](/help/analysis-workspace/user-preferences.md). |
 
-* Filtri
 
-* Intervalli di date
+| **[!UICONTROL Edit]** | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Undo]** | **[!UICONTROL *comando+z *]** | **[!UICONTROL *ctrl+z *]** | Annulla l&#39;azione precedente. |
+| **[!UICONTROL Redo]** | **[!UICONTROL *comando+maiusc+z *]** | **[!UICONTROL *ctrl+maiusc+z *]** | Ripeti l’azione precedente. |
+| **[!UICONTROL Clear all]** | **[!UICONTROL *opt+w *]** | **[!UICONTROL *Alt+W *]** | Cancella tutti i pannelli nel progetto corrente. |
 
-Per ulteriori informazioni su ciascuno di questi tipi di componenti, consulta [Panoramica sui componenti](/help/components/overview.md).
+| **[!UICONTROL Insert]** | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Blank panel]** | **[!UICONTROL *opt+b *]** | **[!UICONTROL *Alt+B *]** | Inserisci un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). |
+| **[!UICONTROL Media concurrent viewers]** | **[!UICONTROL *opt+h *]** | **[!UICONTROL *alt-h *]** | Inserisci un pannello [Visualizzatori simultanei di contenuti multimediali](/help/analysis-workspace/c-panels/media-concurrent-viewers.md). |
+| **[!UICONTROL Media playback time spent]** | **[!UICONTROL *opt+i *]** | **[!UICONTROL *alt+i *]** | Inserisci un pannello [Tempo di riproduzione multimediale trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| **[!UICONTROL Media average minute audience]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Inserisci un pannello per [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| **[!UICONTROL Attribution]** | **[!UICONTROL *opt+e *]** | **[!UICONTROL *Alt+E *]** | Inserire un pannello [Attribuzione](/help/analysis-workspace/c-panels/attribution.md). |
+| **[!UICONTROL Freeform]** | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** | Inserisci un pannello [a forma libera](/help/analysis-workspace/c-panels/freeform-panel.md). |
+| **[!UICONTROL Quick insights]** | **[!UICONTROL *opt+j *]** | **[!UICONTROL *alt+j *]** | Inserisci un pannello [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md). |
+| **[!UICONTROL Experimentation]** | **[!UICONTROL *opt+x *]** | **[!UICONTROL *alt+x *]** | Inserire un pannello [Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md). |
+| **[!UICONTROL Freeform table]** | **[!UICONTROL *opt+1 *]** | **[!UICONTROL *alt+1 *]** | Inserisce una visualizzazione [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL Line]** | **[!UICONTROL *opt+2 *]** | **[!UICONTROL *alt+2 *]** | Inserisci una visualizzazione [Line](/help/analysis-workspace/visualizations/line.md). |
+| **[!UICONTROL Bar]** | **[!UICONTROL *opt+3 *]** | **[!UICONTROL *alt+3 *]** | Inserisci una visualizzazione [Barra](/help/analysis-workspace/visualizations/bar.md). |
+| **[!UICONTROL Combo]** | **[!UICONTROL *opt+4 *]** | **[!UICONTROL *alt+4 *]** | Inserisce una visualizzazione [Combo](/help/analysis-workspace/visualizations/combo-charts.md). |
 
-Ciascuno di questi tipi di componenti può essere aggiunto a una visualizzazione (ad esempio una tabella a forma libera) per iniziare a rispondere alle domande di business.
 
-Dopo aver compreso la terminologia dei componenti, puoi trascinare i componenti nelle visualizzazioni (comprese le tabelle a forma libera) per [realizzare l’analisi](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+| **[!UICONTROL Components]** | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Create filter...]** | **[!UICONTROL *Maiusc+Comando+E *]** | **[!UICONTROL *Maiusc+Ctrl+E *]** | Crea un nuovo [filtro](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Create metric...]** | **[!UICONTROL *maiusc+cmd+c *]** | **[!UICONTROL *Maiusc+Ctrl+C *]** | Crea una nuova [metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md). |
+| **[!UICONTROL Create date range...]** | **[!UICONTROL *Maiusc+Comando+D *]** | **[!UICONTROL *Maiusc+Ctrl+D *]** | Crea un nuovo [intervallo di dati](/help/components/date-ranges/overview.md). |
+| **[!UICONTROL Create annotation...]** | **[!UICONTROL *Maiusc+Cmd+o *]** | **[!UICONTROL *Maiusc+Ctrl+O *]** | Crea una nuova [annotazione](/help/components/annotations/overview.md). |
+| **[!UICONTROL Create audience...]** | **[!UICONTROL *maiusc+cmd+u *]** | **[!UICONTROL *Maiusc+Ctrl+U *]** | Crea un nuovo [pubblico](/help/components/audiences/audiences-overview.md). |
+| **[!UICONTROL Refewsh components]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *Alt+Maiusc+R *]** | Aggiorna i componenti nel progetto. |
 
-![](assets/build-components.png)
+| **[!UICONTROL Share]** | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Share with Workspace users]** | **[!UICONTROL *cmd+h *]** | **[!UICONTROL *ctrl+h *]** | [Condividi il progetto con altri utenti di Workspace](/help/analysis-workspace/curate-share/share-projects.md#share-with-customer-journey-analytics-users-and-groups-in-your-organization). |
+| **[!UICONTROL Share with anyone]** | **[!UICONTROL *opt+l *]** | **[!UICONTROL *alt+l *]** | [Condividi una versione di sola lettura del progetto con un altro utente](/help/analysis-workspace/curate-share/share-projects.md#share-a-link-to-a-project). |
+| **[!UICONTROL Send file]** | **[!UICONTROL opt+s]** | **[!UICONTROL *Alt+S *]** | [Invia il progetto come file CSV o PDF ad altri destinatari](/help/analysis-workspace/curate-share/send-schedule-files.md). |
+| **[!UICONTROL Schedule file export]** | **[!UICONTROL *maiusc+opt+s *]** | **[!UICONTROL *Maiusc+Alt+S *]** | [Inviare il progetto secondo una pianificazione come file CSV o PDF ad altri destinatari](/help/analysis-workspace/curate-share/send-schedule-files.md). |
+| **[!UICONTROL Curate project data]** | **[!UICONTROL *Maiusc+Comando+G *]** | **[!UICONTROL *Maiusc+Ctrl+G *]** | [Cura dati progetto](/help/analysis-workspace/curate-share/curate.md). |
 
-### Dizionario dati
-
-Il dizionario dei dati in Analysis Workspace consente sia agli utenti che agli amministratori di tenere traccia dei componenti nel proprio ambiente Analytics e di comprenderli meglio.
-
-Per ulteriori informazioni sul dizionario dei dati, consulta [Panoramica sul dizionario dei dati](/help/components/data-dictionary/data-dictionary-overview.md).
+| Aiuto | Scelta rapida Mac | Finestre collegamento | Descrizione |
+|---|---|---|---|
+| **[!UICONTROL Videos]** | | | Apri il canale Customer Journey Analytics YouTube in una nuova scheda del browser. |
+| **[!UICONTROL Help documentation]** | | | Apri la documentazione (stai leggendo ora...) in una nuova scheda del browser. |
+| **[!UICONTROL Help forum]** | | | Apri il forum Adobe Analytics Experience League Communities in una nuova scheda del browser. |
+| **[!UICONTROL Hotkeys]** | | | Mostra una panoramica dei tasti di scelta rapida che è possibile utilizzare in Workspace. |
+| **[!UICONTROL Enable debugger]** |  | | Abilita il debugger. Il progetto verrà ricaricato. |
+| **[!UICONTROL Disable debugger]** | | | Disattiva il debugger. Il progetto verrà ricaricato. |
+| **[!UICONTROL Performance]** | | | Visualizza una finestra di dialogo che visualizza le metriche in **[!UICONTROL Analysis Workspace performance]**. Utilizzare **[!UICONTROL Download as CSV]** per scaricare un file CSV delle metriche delle prestazioni. |
+| **[!UICONTROL About Workspace]** | | | Mostra una finestra di dialogo **[!UICONTROL About Analysis Workspace]** con informazioni sulla versione, i livelli di accesso alle funzionalità e i flag di funzionalità attivi. |
 
 ## Origini dati
 
-La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione. Seguono ulteriori informazioni su come [gestire le origini dati](/help/analysis-workspace/visualizations/t-sync-visualization.md).
+Puoi sincronizzare le visualizzazioni per controllare quale tabella di dati o origine dati corrisponde a una visualizzazione. Per ulteriori informazioni, vedere [gestire origini dati](/help/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Iniziare a utilizzare Analysis Workspace
+## Utilizzare Analysis Workspace
 
-### Accedere ad Adobe Analytics {#login}
 
-Per iniziare a utilizzare Analysis Workspace, accedi ad Adobe Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). La pagina Progetti di Analysis Workspace viene visualizzata per impostazione predefinita. Se è stato selezionato un progetto specifico, questo viene visualizzato per impostazione predefinita.
+Per iniziare a utilizzare Analysis Workspace:
 
-### Creare un progetto {#new-project}
+1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com).
+1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal commutatore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell&#39;interfaccia.
+1. La pagina **[!UICONTROL Projects]** di Analysis Workspace viene visualizzata per impostazione predefinita. Se hai selezionato un progetto specifico o hai lavorato di recente, tale progetto viene visualizzato per impostazione predefinita.
+
+### Creare un progetto
 
 Un’analisi in Analysis Workspace è definita come [progetto](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
 
@@ -108,13 +160,11 @@ I progetti possono essere organizzati in cartelle e sottocartelle, come descritt
 
 Quando crei un’analisi in Analysis Workspace, il lavoro viene [salvato automaticamente](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
-Una volta completato il progetto e questo sta raccogliendo approfondimenti utili, il progetto è pronto per essere utilizzato da altri utenti. Puoi condividere il progetto con utenti e gruppi dell’organizzazione o anche con persone esterne a questa. Per informazioni sulla condivisione di un progetto, consulta [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+Quando finisci di creare il progetto e raccogli informazioni fruibili, altri potrebbero voler utilizzare il progetto. Puoi condividere il progetto con utenti e gruppi dell’organizzazione o anche con persone esterne a questa. Per informazioni sulla condivisione di un progetto, consulta [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## Risorse aggiuntive {#resources}
 
-* Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it).
-* Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it#analytics).
-* Un ottimo modo per acquisire familiarità con Analysis Workspace è consultare il modello di tutorial di formazione su Analysis Workspace. Questo modello spiega la terminologia e i passaggi comuni per la realizzazione della prima analisi in Workspace. Per iniziare l’esercitazione:
-   1. Nella scheda [!UICONTROL **Workspace**] in Adobe Analytics, seleziona **[!UICONTROL Learning]** a sinistra.
-   1. Seleziona **[!UICONTROL Open Tutorial]**.
-      ![](assets/training-tutorial.png)
+- Pagina [Destinazione apprendimento](/help/getting-started/landing.md#learning) nel Customer Journey Analytics. Questa pagina è un ottimo modo per conoscere Analysis Workspace. Specialmente il Workspace di apprendimento fondamentale. Questo modello illustra la terminologia comune e i passaggi da seguire per creare la prima analisi in Workspace
+- Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current).
+

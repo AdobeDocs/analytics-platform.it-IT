@@ -4,38 +4,48 @@ title: Assegnare tag ai filtri
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 81%
+source-wordcount: '186'
+ht-degree: 3%
 
 ---
 
-# Assegnare tag ai filtri {#tag}
+# Assegnare tag ai filtri
 
-Nel Gestore filtri, assegnare tag ai filtri ti consente di organizzarli. Tutti gli utenti possono creare tag per i filtri e applicarne uno o più a un filtro. Tuttavia, puoi visualizzare solo i tag dei filtri di tua proprietà o che sono stati condivisi con te.
+Nel [Gestore filtri](manage-filters.md) è possibile utilizzare i tag per organizzare i filtri. Gli amministratori possono assegnare tag a tutti i filtri. Gli utenti che non sono amministratori possono assegnare tag solo ai filtri creati o condivisi con loro.
 
-Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:
+Per assegnare tag a uno o più filtri:
 
-* Tag basati sui nomi dei team, ad esempio Social Marketing e Mobile Marketing.
+1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri a cui si desidera assegnare il tag.
+1. Dalla barra delle azioni, seleziona ![Etichette](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. Nella finestra di dialogo **[!UICONTROL Tag Filters]** (Crea elemento dati):
 
-* Tag del progetto (tag di analisi), ad esempio Analisi per pagina di ingresso.
+   ![Finestra di dialogo Filtri tag](assets/tag-filter-dialog.png)
 
-* Tag di categorie: maschile; geografia.
+   1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare e limitare l&#39;elenco di tag.
 
-* Tag del flusso di lavoro: Da approvare; Curato per (una specifica unità aziendale).
+   2. In base all’elenco dei tag:
 
-Per assegnare tag a un filtro:
+      * seleziona uno o più tag esistenti dall’elenco, oppure
+      * immettere un nuovo tag e premere **[!UICONTROL ENTER]**. Ripeti l’operazione per aggiungere più di un nuovo tag.
 
-1. Nel Gestore filtri, contrassegna la casella di controllo accanto al filtro a cui desideri assegnare il tag. Viene visualizzata la barra degli strumenti di gestione del filtro.
+1. Selezionare **[!UICONTROL Save]** per salvare i tag per il filtro. Selezionare **[!UICONTROL Cancel]** per annullare.
 
-1. Fai clic su **[!UICONTROL Tag]** e
+Una volta salvati, i tag sono elencati nel campo [!UICONTROL Tag] per i filtri selezionati nel [Generatore di filtri](filter-builder.md).
 
-   * seleziona da tag esistenti, oppure
 
-   * inserisci un nuovo nome di tag e premi **[!UICONTROL Enter]**.
+## Suggerimenti
 
-1. Fai di nuovo clic su **[!UICONTROL Tag]** per assegnare il tag al filtro.
+Di seguito sono riportati alcuni suggerimenti per organizzare i tag in base a:
 
-Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
-Puoi anche filtrare i tag andando in **[!UICONTROL Filters > Tags]**.
+* **Team**: ad esempio Social Marketing o Mobile Marketing.
+
+* **Progetto**: ad esempio, Analisi pagina di ingresso.
+
+* **Categoria**:. Ad esempio, Uomini, Donne, Bambini.
+
+* **Geografia**: ad esempio Stati Uniti, California.
+
+* **Flusso di lavoro**: ad esempio: Da approvare, Curato
+

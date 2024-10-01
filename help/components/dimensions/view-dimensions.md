@@ -4,29 +4,34 @@ title: Visualizzare in anteprima le dimensioni in Customer Journey Analytics Wor
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 89%
+source-wordcount: '108'
+ht-degree: 21%
 
 ---
 
 # Anteprima delle dimensioni in Analysis Workspace
 
-Passa il cursore sull’icona Informazioni (i) accanto a una dimensione. Vengono visualizzate le 5 dimensioni principali per le dimensioni non temporali (e 15 per le dimensioni temporali). Precedentemente questi valori erano statici e i 5 valori scelti non cambiavano mai.
+È possibile utilizzare le [informazioni sul componente](/help/components/use-components-in-workspace.md#component-info) per un componente per visualizzare gli elementi principali di una dimensione.
 
-![Primi 5 valori per dimensioni non temporali.](assets/dimension-preview.png)
+![Informazioni sul componente](../assets/component-info.png)
 
-Ora, per impostazione predefinita, vengono visualizzati valori dinamici anziché statici, con la possibilità di convertirli in valori statici. Altri aspetti degni di nota:
+<!--
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
 
-* Man mano che i dati vengono aggiornati, le colonne delle dimensioni dinamiche vengono aggiornate per mostrare i 5/15 elementi di dimensioni correnti.
-* Una colonna delle dimensioni dinamiche copiata o spostata diventa statica.
-* Quando si passa il cursore del mouse su una colonna delle dimensioni statiche, viene visualizzata l’icona di un lucchetto, che indica che la dimensione è statica.
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
 
-![Popup colonna Dimension che evidenzia l&#39;icona del lucchetto.](assets/dimension_static.png)
+![Dimension column popup highlighting the lock icon.](assets/dimension_static.png)
+
+-->
+
 
 ## Mostra elementi dimensionali
 
-Se passi il cursore su una dimensione e fai clic sulla freccia destra grigia posta a lato, compare l’elenco degli elementi dimensionali corrispondenti. In genere vengono elencati gli elementi principali degli ultimi 30 giorni.
+Quando selezioni ![ChevronRight](/help/assets/icons/ChevronRight.svg) per una dimensione nel pannello dei componenti, viene visualizzato un elenco dei relativi elementi dimensionali. L’elenco degli elementi dimensione mostra in genere gli elementi principali degli ultimi 30 giorni. Quando sono disponibili più elementi, al di fuori dell’intervallo di date selezionato per il pannello, seleziona il collegamento per mostrare più elementi. Esempio: **[!UICONTROL Show items from last month]**.
 
-Se scorri verso il basso fino alla parte inferiore dell’elenco, visualizzerai l’opzione **[!UICONTROL Show Top Items From Last 6 Months]**. Fai clic su questa opzione per visualizzare gli elementi dimensionali principali degli ultimi 180 giorni.
+![Mostra elementi dimensione](assets/dimension-items.png)
+

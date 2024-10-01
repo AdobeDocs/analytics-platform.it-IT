@@ -5,53 +5,56 @@ title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
-# Informazioni sulla funzione Cartelle di Analytics
+# Informazioni sulle cartelle
 
-La funzione Cartelle di Analytics è un sistema di gestione delle cartelle visualizzato nella pagina di destinazione di Adobe Analytics e quando si seleziona **Workspace** > **Progetti**.
+Le cartelle nel Customer Journey Analytics sono disponibili nella pagina di destinazione di Workspace se hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector).
 
-La funzione Cartelle di Workspace consente agli utenti di organizzare e classificare i progetti per recuperarli e accedervi più facilmente. Inoltre, una cartella aziendale condivisa consente agli amministratori di creare e condividere facilmente i contenuti con tutti gli utenti di Workspace.
+Le cartelle in Workspace consentono di organizzare e classificare i progetti. Con la funzionalità cartelle, puoi creare cartelle e sottocartelle per gestire i progetti.
 
-Quando si dispone di un lungo elenco di progetti, la navigazione a un progetto specifico presenta alcune difficoltà. La funzione cartelle consente di creare cartelle e sottocartelle per gestire i progetti, semplificandone la ricerca quando ti servono.
+In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le cartelle personali. Una cartella aziendale condivisa consente agli amministratori di creare e condividere contenuti con tutti gli utenti di Workspace.
 
-In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le cartelle personali.
+Quando hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector), nella home page Progetti viene visualizzato un elenco dei tuoi progetti insieme alla cartella dell&#39;azienda e alle cartelle personali che hai creato. In caso contrario, verrà visualizzato un elenco dei progetti.
 
-Quando accedi a Workspace, nella pagina Home Progetti viene visualizzato un elenco dei progetti, insieme alla cartella aziendale e alle cartelle personali create.
 
-![Pagina Home progetti](../assets/landing-page2.png)
+## Cartella aziendale
 
-## Informazioni sulla cartella aziendale {#company-folder}
+La cartella Azienda è una cartella ad accesso condiviso per i progetti che gli amministratori possono condividere con tutti gli utenti.
 
-La cartella aziendale è una cartella ad accesso condiviso per i progetti che gli amministratori possono condividere con tutti gli utenti.
+In qualità di amministratore, puoi condividere rapidamente dei progetti con tutti gli utenti e raggruppare i progetti in sottocartelle per un gruppo di utenti. Ad esempio, disponi di un set di progetti che desideri che gli esperti di marketing utilizzino per iniziare la ricerca. Quindi puoi creare una cartella Marketing all’interno della cartella dell’azienda e inserire i progetti selezionati nella cartella Marketing. Questa cartella consente di accedere direttamente ai progetti condivisi e permette al team Marketing di sapere più facilmente dove cercare i progetti comuni.
 
-In qualità di amministratore, puoi condividere rapidamente i progetti con tutti gli utenti e raggruppare i progetti in sottocartelle per un gruppo di utenti. Ad esempio, se disponi di un set di progetti che desideri che gli addetti al marketing utilizzino per avviare la ricerca, puoi creare una cartella Marketing all’interno della cartella aziendale, quindi inserire i progetti selezionati nella cartella Marketing. Questo consente di accedere rapidamente ai progetti condivisi e permette al team del Marketing di sapere più facilmente dove cercare i file comuni.
+Quando accedi a Workspace, la cartella dell’azienda viene aggiunta automaticamente all’elenco dei progetti e delle cartelle. Non esistono autorizzazioni specifiche per i progetti contenuti nella cartella aziendale.
 
-Quando un utente accede a Workspace, la cartella aziendale viene aggiunta automaticamente all’elenco dei progetti e delle cartelle. Non esistono autorizzazioni specifiche per i progetti contenuti nella cartella aziendale.
+### Opzioni amministratore
 
-### Opzioni di amministrazione {#admin-options}
+Gli amministratori dispongono di privilegi speciali assegnati alla cartella dell’azienda. Ad esempio, solo gli amministratori possono aggiungere o rimuovere cartelle o progetti nella cartella dell’azienda. Gli utenti che non dispongono del controllo dell&#39;accesso di amministrazione possono visualizzare il contenuto della cartella dell&#39;azienda.
 
-Gli amministratori dispongono di privilegi speciali assegnati alla cartella aziendale. Ad esempio, solo gli amministratori possono aggiungere o rimuovere cartelle o progetti nella cartella aziendale. Gli utenti senza accesso amministratore possono visualizzare il contenuto della cartella aziendale.
+<!--
+![The Projects page showing the admin options.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
-![Pagina Progetti che mostra le opzioni amministratore.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+Non-Admins have limited options.
 
-Gli utenti che non sono amministratori hanno opzioni limitate.
+![The Projects page showing the non-admin options for folders.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
-![Pagina Progetti che mostra le opzioni non amministratore per le cartelle.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
+-->
 
-### Linee guida per la cartella aziendale {#company-folder-guidelines}
+### Linee guida
 
-- Gli amministratori possono aggiungere progetti alla cartella aziendale oppure creare un nuovo progetto e salvarlo nella cartella aziendale. Gli utenti che non sono amministratori possono visualizzare il contenuto della cartella aziendale.
+Di seguito sono riportate alcune linee guida per l&#39;utilizzo della cartella aziendale:
+
+- Gli amministratori possono aggiungere progetti alla cartella dell’azienda (Company Folder) o creare un nuovo progetto e salvarlo nella cartella dell’azienda (Company Folder). Gli utenti che non sono amministratori possono visualizzare il contenuto della cartella dell’azienda.
 
 - Gli amministratori possono creare sottocartelle all’interno della cartella aziendale.
 
-- Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti.
+- Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere l’accesso coerente a cartelle e progetti.
 
-- Quando un amministratore sposta un progetto nella cartella aziendale, il progetto viene condiviso con chiunque abbia un ruolo di **Modifica copia** anche se i privilegi condivisi originali erano limitati.
+- Quando un amministratore sposta un progetto nella cartella dell’azienda, la cartella viene condivisa con tutti anche se i privilegi condivisi originali prevedevano restrizioni.
+- Quando un amministratore sposta un progetto all’esterno della cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
 
-- Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
+- Quando un amministratore sposta un progetto all’esterno della cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.

@@ -1,35 +1,64 @@
 ---
-description: Mostra esempi di metriche filtrate e ponderate.
-title: Metriche filtrate e ponderate
+description: Mostra esempi di metriche calcolate.
+title: Esempi di metriche calcolate
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 4%
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
 
-# Metriche filtrate e ponderate
+# Esempi di metriche calcolate
 
-Mostra esempi di metriche filtrate e ponderate.
+Questo articolo mostra alcuni esempi su come definire metriche calcolate più avanzate.
 
-## Percentuale non recapitate filtrate {#section_D42F2452E4464948934063EB6F2DAAB4}
+## Percentuale mancati recapiti
 
-Questa semplice metrica filtrata mostra il tasso di mancato recapito solo per le pagine con più di 100 visite:
+Desideri calcolare la frequenza di mancato recapito.
 
-![Finestra di riepilogo che mostra le metriche applicate alle colonne 1 (Visite) e 2 (100) insieme alla Percentuale non recapitate. ](assets/cm_fbr.png)
++++ Dettagli
 
-Tieni presente che questa formula dipende da un intervallo di tempo coerente. Se esegui un rapporto per un singolo giorno, vale la pena esaminare qualsiasi pagina con più di 20 visite. Se lo esegui per un mese, potrebbe essere utile che il filtro includa più visite.
+La definizione di un mancato recapito è oggetto di un&#39;altra discussione, ma per questo esempio si definisce un filtro di eventi di mancato recapito in cui Inizio sessione è uguale a 1 e Fine sessione è uguale a 1. Questo filtro definisce la frequenza delle sessioni non recapitate alle sessioni.
 
-## Percentile percentuale di mancato recapito filtrata {#section_4F3E6D33A1FD438A932FA662B3510552}
 
-Questo filtro mostra la Percentuale non recapitate per il primo 30% delle pagine, quando ordinato per visite.
+### Filtro
 
-![Se e quindi filtro che mostra la Percentuale non recapitate per il 30% delle pagine ordinate per visite.](assets/cm_wbr_2.png)
+![Eventi di mancato recapito](assets/example-bounce-bouncedevents.png)
 
-## Metrica ponderata {#section_F2D16B14569948289CF1310F9E6E3FC2}
+### Metrica calcolata
 
-Supponiamo di voler ordinare in generale per frequenza di rimbalzo, ma le pagine con visite più alte dovrebbero essere più in alto nell’elenco. Puoi creare una percentuale di mancato recapito ponderata simile alla seguente:
+![Percentuale non recapitate](assets/example-bounce-rate.png)
 
-![Riepilogo con definizione per frequenza di mancato recapito per visite.](assets/cm_wbr.png)
+
+### Campi derivati
+
+In alternativa, è possibile definire un tasso di mancato recapito [ utilizzando campi derivati](/help/data-views/derived-fields/derived-fields.md#bounces).
+
+I campi derivati fanno parte di una visualizzazione dati che presenta il vantaggio che non tutti gli utenti possono ignorare o modificare la definizione di una metrica del tasso di mancato recapito. Anche tale vantaggio ha introdotto una limitazione. Gli utenti che non hanno accesso a una visualizzazione dati non possono utilizzare campi derivati e devono ricorrere a filtri e metriche calcolate per definire un tasso di mancato recapito.
+
+Per ulteriori informazioni su come calcolare i mancati recapiti e il tasso di mancato recapito nel Customer Journey Analytics, consulta questo [post di blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+
++++
+
+
+## Visualizzazioni pagina condizionali
+
+Desideri definire una metrica calcolata che calcoli solo le visualizzazioni di pagina per le pagine visitate in oltre 100 sessioni.
+
++++ Dettagli
+
+![Visualizzazioni pagina condizionali](assets/conditional-page-views.png)
+
++++
+
+## Visualizzazioni di pagina per il 30% delle prime sessioni
+
+Desideri definire una metrica calcolata che calcoli solo le visualizzazioni di pagina per le prime 30% delle sessioni.
+
++++ Dettagli
+
+![Prime 30% visualizzazioni di pagina](assets/top30-page-views.png)
+
++++

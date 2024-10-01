@@ -4,10 +4,10 @@ title: Visualizzare il dizionario dei dati
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
 1. Vai al progetto Analysis Workspace che contiene il componente che desideri visualizzare.
 
-1. Seleziona l’icona [!UICONTROL **Dizionario dei dati**] nella barra a sinistra di Analysis Workspace. I modi alternativi per accedere al dizionario dati sono descritti in “Accedere al dizionario dei dati” in [Panoramica del dizionario dei dati](/help/components/data-dictionary/data-dictionary-overview.md).
+1. Seleziona l&#39;icona [!UICONTROL **Dizionario dati**] nel pannello a sinistra di Analysis Workspace. I modi alternativi per accedere al dizionario dati sono descritti in “Accedere al dizionario dei dati” in [Panoramica del dizionario dei dati](/help/components/data-dictionary/data-dictionary-overview.md).
 
    Viene visualizzata la finestra Dizionario dei dati.
 

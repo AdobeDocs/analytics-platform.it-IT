@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1129'
 ht-degree: 6%
 
 ---
@@ -153,4 +153,4 @@ Assicurati che le impostazioni dei componenti per un gruppo di dati di riepilogo
 
 >[!MORELIKETHIS]
 >
->Consulta l&#39;articolo [Acquisire e utilizzare dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d&#39;uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
+>Consulta l&#39;articolo [Dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d&#39;uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.

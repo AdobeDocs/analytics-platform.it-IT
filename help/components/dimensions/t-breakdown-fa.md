@@ -6,43 +6,42 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 92%
+source-wordcount: '513'
+ht-degree: 56%
 
 ---
 
 # Suddividere dimensioni in Workspace
 
-È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
+Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specifiche; puoi creare query utilizzando metriche, dimensioni, filtri, linee temporali e altri valori rilevanti di analisi stratificata.
 
-Raggruppa i dati in tantissimi modi per ogni necessità; realizza query con metriche, dimensioni, filtri, linee temporali e altri valori rilevanti.
+1. In una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) selezionare **[!UICONTROL Breakdown]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) dal menu di scelta rapida di una o più righe selezionate.
 
-1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati.
-1. Nella tabella di dati, fai clic con il pulsante destro del mouse su un elemento e seleziona **[!UICONTROL Breakdown]** > *`<item>`*.
+   ![Risultato passaggio che mostra l&#39;avviso di creazione dalla selezione selezionata.](assets/breakdown.png)
 
-   ![Risultato passaggio che mostra l&#39;avviso di creazione dalla selezione selezionata.](assets/fa_data_table_actions.png)
+1. Dal sottomenu selezionare **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Filters]** o **[!UICONTROL Data ranges]** e quindi selezionare un elemento.
 
-   Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
-   >[!NOTE]
-   >
-   >È possibile mostrare nella tabella un massimo di 200 raggruppamenti. Questo limite aumenta per l’esportazione di raggruppamenti.
+>[!NOTE]
+>
+>È possibile mostrare nella tabella un massimo di 200 raggruppamenti. Questo limite aumenta per l’esportazione di raggruppamenti.
 
-**Video: dimensioni in Analysis Workspace**
+## Raggruppamento per posizione
 
->[!VIDEO](https://video.tv.adobe.com/v/23971)
+Per impostazione predefinita, le suddivisioni sono fissate a elementi di riga statici. Ad esempio, immagina di suddividere i primi 3 elementi dimensionali di pagina (Home page, Risultati ricerca, Pagamento) per canale di marketing. Poi abbandoni il progetto per due settimane. Quando lo riapri, le prime 3 pagine sono cambiate e ora Home page, Risultati ricerca e Pagamento sono le prime 4-6 pagine. Per impostazione predefinita, i raggruppamenti per canale di marketing vengono ancora visualizzati in Home page, Risultati ricerca e Pagamento, anche se ora si trovano nelle righe 4-6.
 
-**Video: raggruppamenti delle dimensioni**
+Al contrario, **Raggruppamento per posizione**, raggruppa sempre i primi 3 elementi, indipendentemente da quali siano. Facendo riferimento all’esempio, quando riapri il progetto, i raggruppamenti per canale di marketing sono legati alle prime 3 pagine della tabella. E non alla homepage, ai risultati della ricerca e al checkout, che ora si trovano nelle righe 4-6. Consulta [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) per informazioni su come configurare questa impostazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/23969)
+
 
 ## Applicare modelli di attribuzione ai raggruppamenti
 
-A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e fai clic su **[!UICONTROL Edit]**:
+A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e seleziona **[!UICONTROL Edit]**.
 
-![Confronto attributi ordine con le impostazioni di raggruppamento](assets/breakdown_settings.png)
+![Confronto attributi ordine con le impostazioni di raggruppamento](assets/breakdown-attribution.png)
 
 Questo è il comportamento previsto quando si applicano modelli di attribuzione ai raggruppamenti o quando questi vengono modificati:
 
@@ -52,7 +51,15 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 * Se la struttura ad albero della colonna contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 
-## Video
++++ Visualizza video che illustrano raggruppamenti
+
+Dimension in Analysis Workspace
+
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+Raggruppamenti per Dimension
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 Aggiungere dimensioni e metriche al progetto in Analysis Workspace:
 
@@ -65,3 +72,7 @@ Utilizzo delle dimensioni nelle tabelle a forma libera:
 Raggruppamenti delle dimensioni per posizione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033)
+
+{{videoaa}}
+
++++

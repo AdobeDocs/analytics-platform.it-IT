@@ -1,12 +1,12 @@
 ---
-description: Utilizza i sottotitoli intelligenti per generare informazioni in linguaggio naturale e far emergere rapidamente le tendenze nelle visualizzazioni.
+description: Utilizza i sottotitoli intelligenti per generare informazioni in linguaggio naturale utili a delineare le tendenze nelle visualizzazioni.
 title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
+source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ I sottotitoli intelligenti sono orientati verso:
 
 ## Avvia sottotitoli intelligenti {#launch}
 
-Per avviare i sottotitoli generati automaticamente per una visualizzazione delle linee, fai clic sull&#39;icona **[!UICONTROL Intelligent captions]** in alto a destra della visualizzazione.
+Per avviare i sottotitoli generati automaticamente per una visualizzazione delle linee, seleziona ![AEMScreen](/help/assets/icons/AI.svg) **[!UICONTROL Intelligent captions]** in alto a destra della visualizzazione.
 
 ![Finestra di analisi del lancio che mostra i sottotitoli intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intell-caps-1.png)
 
 Vengono ora generate informazioni sul linguaggio naturale.
 
-Nota bene
+Aspetti da considerare:
 
 * Sono necessari almeno 3 punti dati per generare correttamente le didascalie. In caso contrario, potrebbe verificarsi un errore come **[!UICONTROL Not enough data to analyze]**.
 

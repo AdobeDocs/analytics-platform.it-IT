@@ -3,10 +3,10 @@ title: Panoramica delle dimensioni
 description: Scopri che cosa sono le dimensioni e come vengono utilizzate nel Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 37%
+source-wordcount: '204'
+ht-degree: 27%
 
 ---
 
@@ -14,19 +14,22 @@ ht-degree: 37%
 
 I Dimension sono un tipo di componente del Customer Journey Analytics utilizzato per analizzare i dati. Ad esempio, puoi utilizzare le dimensioni quando crei rapporti in [Analysis Workspace](/help/analysis-workspace/home.md) o nel [Report Builder](/help/report-builder/report-buider-overview.md).
 
-Le dimensioni Customer Journey Analytics sono illimitate; i valori possono essere numerici, testo, oggetti, elenchi o combinazioni di tutti.
+Le dimensioni del Customer Journey Analytics sono di tipo illimitato; i valori possono essere numerici, testo, oggetti, elenchi o combinazioni di tutti.
 
 Un report di base in Customer Journey Analytics mostra righe di dimensioni (solitamente valori stringa) rispetto a una colonna di metriche (solitamente valori numerici).
 
-Ad esempio, la combinazione della dimensione ‘Pagina’ con la metrica ‘Visite’, genererà un rapporto con classifica che mostra le pagine più visitate:
+Ad esempio, se hai combinato la dimensione Pagina con la metrica Persone, otterrai un rapporto con una classifica che mostra le pagine più visitate dalle persone:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Pagina | Persone |
+| --- | ---: |
+| Pagina Home | 800 |
+| Pagina prodotto | 500 |
+| Pagina di acquisto | 100 |
+
+{style="table-layout:fixed"}
 
 Ogni dimensione rappresenta una parte o un facet diversi del sito. Puoi combinare una o più di queste dimensioni con una o più metriche per creare un rapporto desiderato.
+
 
 ## Creare dimensioni
 

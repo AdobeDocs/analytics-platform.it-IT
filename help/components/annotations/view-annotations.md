@@ -4,10 +4,10 @@ description: Come visualizzare le annotazioni in Workspace.
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 21%
 
 ---
 
@@ -17,26 +17,16 @@ Le annotazioni si presentano in modo leggermente diverso, a seconda che si esten
 
 ## Visualizzare le annotazioni nei grafici a linee o nelle tabelle
 
-| Data | Aspetto |
+| Tipo di visualizzazione <br/> | Descrizione |
 | --- | --- |
-| **Giorno singolo** | ![Visualizzazione del grafico a linee con annotazione evidenziata](assets/single-day.png)<p>Quando passi il cursore sull’annotazione, puoi visualizzarne i dettagli, modificarla selezionando l’icona a forma di penna, oppure eliminarla:<p> ![Dettagli delle annotazioni con l’opzione per modificare o eliminare l’annotazione.](assets/hover.png) |
-| **Intervallo date** | L’icona cambia e, quando ci passi sopra con il cursore, viene visualizzato l’intervallo di date.<p>![Icona dell’annotazione relativa all’intervallo di date](assets/multi-day.png)<p>Quando la selezioni nel grafico a linee, compaiono i metadati dell’annotazione e puoi modificarla o eliminarla:![](assets/multi-hover.png)<p>In una tabella viene visualizzata un’icona in corrispondenza di ogni data nell’intervallo di date.<p>![](assets/multi-day-table.png) |
-| **Annotazioni sovrapposte** | Nei giorni a cui sono associate più annotazioni, l’icona è grigia.<p>![Dettagli per le annotazioni sovrapposte  ](assets/grey.png)<p>Quando passi il cursore sull’icona grigia, vengono visualizzate tutte le annotazioni sovrapposte:<p>![](assets/overlap.png) |
+| **Riga **<br/>**Giorno singolo** | Quando selezioni ![Annota](/help/assets/icons/Annotate.svg) in una visualizzazione a linee, viene visualizzato un popup con i dettagli dell&#39;annotazione.<br/>![Annotation single day](assets/annotation-single-day.png)<br/>Per modificare l&#39;annotazione nel [Annotation builder](create-annotations.md#annotation-builder), selezionare ![Edit](/help/assets/icons/Edit.svg). Per eliminare l&#39;annotazione, selezionare ![Elimina](/help/assets/icons/Delete.svg). |
+| **Riga **<br/>**Intervallo date** | Quando selezioni ![AnnotateRange](/help/assets/icons/AnnotateRange.svg) viene visualizzato un popup con i dettagli dell&#39;annotazione e una riga in basso che indica l&#39;intervallo di date.<br/>![Intervallo annotazioni](assets/annotation-range.png)Per modificare l&#39;annotazione nel [Generatore annotazioni](create-annotations.md#annotation-builder), selezionare ![Modifica](/help/assets/icons/Edit.svg). Per eliminare l&#39;annotazione, selezionare ![Elimina](/help/assets/icons/Delete.svg). |
+| **Tabella a forma libera** | In una tabella a forma libera, puoi accedere a tutte le annotazioni dal pulsante delle annotazioni in alto a destra della visualizzazione. Seleziona ![Annota](/help/assets/icons/Annotate.svg) per visualizzare un (elenco a scorrimento) di tutte le annotazioni.<br/>![Tabella annotazioni](assets/annotations-table.png)<br/>Per ogni annotazione, è possibile selezionare ![Modifica](/help/assets/icons/Edit.svg) per modificare l&#39;annotazione nel [Generatore annotazioni](create-annotations.md#annotation-builder) e ![Elimina](/help/assets/icons/Delete.svg) per eliminarla. |
 
 {style="table-layout:auto"}
 
-## Visualizzare le annotazioni in un file .pdf
+## Visualizzare le annotazioni in un PDF
 
-Poiché non è possibile passare il cursore sulle icone in un file .pdf, nel file esportato sono presenti note descrittive sotto a un pannello. Ecco un esempio:
+Quando scarichi il progetto come PDF o invii il progetto come PDF, le annotazioni vengono riepilogate in PDF nella sezione Riepilogo annotazioni.
 
-![Visualizzazione evidenziata di un file .pdf con spiegazioni delle annotazioni.](assets/ann-pdf.png)
-
-## Visualizzare le annotazioni per dati senza tendenze
-
-A volte le annotazioni vengono visualizzate con dati senza tendenze, ma sono legate a una dimensione specifica. In tal caso, vengono visualizzate solo in un’annotazione di riepilogo in basso a destra. Ecco un esempio:
-
-![](assets/non-date.png)
-
-Il grafico di riepilogo viene riportato nell’angolo per tutti i tipi di visualizzazione, non solo nelle tabelle a forma libera senza tendenze e nei numeri di riepilogo. È incluso anche nelle visualizzazioni di tipo [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort] e così via.
-
-![Grafico di riepilogo nelle visualizzazioni](assets/ann-summary.png)
+![Visualizzazione evidenziata di un file .pdf con spiegazioni delle annotazioni.](assets/annotations-pdf.png)

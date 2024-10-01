@@ -4,10 +4,10 @@ title: Limitazioni note in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 92%
 
 ---
 
@@ -28,23 +28,23 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 * [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
-## Componenti > Filtri
+## Filtri
 
-* Alcune metriche e dimensioni non possono essere filtrate, ad esempio [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* I filtri ad hoc creati nell’[area di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di filtro rapido. Non vengono visualizzati nella barra a sinistra di Workspace o nel gestore dei componenti del filtro, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
+* Alcune metriche e dimensioni non possono essere filtrate, ad esempio [!UICONTROL Events], [!UICONTROL Persons], ecc.
+* I filtri ad hoc creati nell’[area di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di filtro rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o nel Gestore dei componenti del filtro, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
 
-## Componenti > Metriche calcolate
+## Metriche calcolate 
 
-* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi “Visualizzazioni” sopra.
+* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi [Visualizzazioni](#visualizations).
 * Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution], poiché possono includere modelli di attribuzione separati.
 * Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > filters], ovvero Componenti > Segmenti). Ad esempio, [!UICONTROL IP Address].
 
-## Componenti > Intervallo date
+## Intervalli di date
 
 * Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year], [!UICONTROL This day last month], ecc.
 
 
-## Componenti > Impostazioni report
+## Impostazioni dei rapporti
 
 * Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
 

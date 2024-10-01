@@ -4,10 +4,10 @@ title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 67%
+source-wordcount: '671'
+ht-degree: 39%
 
 ---
 
@@ -15,64 +15,73 @@ ht-degree: 67%
 
 Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
-Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio, puoi confrontare filtri quali utenti iOS e utenti Android. Trascina i filtri desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali filtri. Per mostrare solo tali filtri, puoi rimuovere la linea di base Tutte le visite.
+Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare i filtri, come gli utenti di iOS e Android™. Trascina i filtri desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali filtri. Se desideri visualizzare solo questi filtri, puoi rimuovere la linea di base Tutte le visite.
 
-Non esiste alcun limite al numero di passaggi che puoi aggiungere o al numero di dimensioni che puoi usare.
+Non esiste alcun limite al numero di passaggi che è possibile aggiungere o al numero di dimensioni utilizzate.
 
-Puoi eseguire il percorso sulle eVar, incluse le eVar di merchandising e [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) (variabili che possono avere più valori per evento, come prodotti, listVar, eVar di merchandising e prop elenco). Ad esempio, se qualcuno sta guardando “scarpe, camicie” su una pagina e “camicie, calze” sulla pagina successiva, il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad esempio, supponiamo che qualcuno stia guardando &quot;scarpe, camicie&quot; su una pagina e che nella pagina successiva guardi &quot;camicie, calze&quot;. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
-1. Trascina una visualizzazione [!UICONTROL Fallout] (Abbandono) dal menu a discesa Visualizzazioni in una [!UICONTROL Freeform Table] (Tabella a forma libera).
+## Seleziona
 
-1. Trascina la dimensione Pagina nella tabella a forma libera, trascina una pagina (in questo esempio, Home - JJEsquire) nel campo **[!UICONTROL Add TouchPoint]** (Aggiungi punto di contatto) come primo punto di contatto.
+1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
 
-   ![Il menu a discesa Tutte le visite mostra JJEsquire trascinato nel campo Aggiungi punto di contatto.](assets/fallout1.png)
+   ![La home page dalla dimensione Home page è stata trascinata nel campo Aggiungi punto di contatto.](assets/fallout-drag.png)
 
-   Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto, il conteggio delle persone a quel punto e il tasso di successo per quel punto di contatto (nonché per confrontare il tasso di successo con altri punti di contatto).
+   Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto e il numero di persone a quel punto. E osserva il tasso di successo per quel punto di contatto (nonché confronta il tasso di successo con altri punti di contatto).
 
-   I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). Punto di contatto % mostra il corretto proseguimento dal passaggio precedente verso il passaggio corrente nel rapporto di abbandono.
+   I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). **[!UICONTROL Touchpoint %]** mostra l&#39;abbandono riuscito dal passaggio precedente al passaggio corrente nel report sull&#39;abbandono.
 
-   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fai clic sulla freccia destra “>” sulla dimensione pagina per scegliere la specifica pagina da aggiungere al rapporto di abbandono.
+   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica da aggiungere al report Abbandono.
 
 1. Continua ad aggiungere punti di contatto fino a completare la sequenza.
 
-   Per **combinare più punti di contatto**, trascinali su un punto di contatto.
+   Puoi **combinare più punti di contatto** trascinando uno o più componenti aggiuntivi su un punto di contatto.
 
    >[!NOTE]
    >
    >Per unire più filtri si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione e metriche, si usa l’operatore OR.
 
-   ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/multiple_obj_touchpoint.png)
+   ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/fallout-or.png)
 
-1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché alla fine) all&#39;interno del percorso. Sotto ogni punto di contatto, un selettore consente di scegliere tra le opzioni “Eventual Path” (Percorso finale) e “Next Hit” (Hit successivo), come illustrato di seguito:
+1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Eventual path]** e **[!UICONTROL Next event]**, come illustrato di seguito:
 
-   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. ](assets/next-hit-eventually.png)
+   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. ](assets/fallout-nexthit.png)
 
-<table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
-   <td colname="col2"> <p>Vengono conteggiati i visitatori che "alla fine" atterreranno sulla pagina successiva del percorso, ma non necessariamente sull’evento successivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hit successivo </p> </td> 
-   <td colname="col2"> <p>Sono conteggiati i visitatori che arriveranno alla pagina successiva del percorso nel prossimo evento. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Opzione | Descrizione |
+   |---|---|
+   | **[!UICONTROL Eventual path]** (predefinito) | Vengono conteggiate le persone che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
+   | **[!UICONTROL Next event]** | re conteggiato che arriverà alla pagina successiva nel percorso al prossimo evento. |
 
-## Impostazioni di Abbandono {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
-| Impostazione | Descrizione |
+## Impostazioni
+
+Come parte della visualizzazione, sono disponibili impostazioni specifiche.
+
+| Contenitore Abbandono | Descrizione |
 |--- |--- |
-| Contenitore Abbandono <ul><li>Visita</li><li>Visitatore</li></ul> | Consente di passare da Visita a Visitatore per analizzare il percorso della persona. Il valore predefinito è Visitatore.  Queste impostazioni aiutano a comprendere il coinvolgimento della persona a livello di persona (tra visite) o a vincolare l’analisi a una singola visita. |
+| **[!UICONTROL Session]** o **[!UICONTROL Person]** | Passa da [!UICONTROL Session] a [!UICONTROL Person] per analizzare il percorso della persona. Il valore predefinito è [!UICONTROL Person]. Queste impostazioni consentono di comprendere il coinvolgimento di persone a livello di persona singola (attraverso più sessioni) o di limitare l’analisi a una singola sessione. |
 
-Quando **fai clic con il pulsante destro del mouse su un punto di contatto**, vengono visualizzate le seguenti opzioni:
+
+## Menu di scelta rapida
+
+Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rapida specifiche.
+
+![Opzioni di abbandono](assets/fallout-options.png)
 
 | Opzione | Descrizione |
 |--- |--- |
-| Tendenza punto di contatto | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
-| Tendenza punto di contatto (%) | Visualizza la tendenza della percentuale di abbandono totale. |
-| Tendenza tutti i punti di contatto (%) | Visualizzare nello stesso grafico la tendenza di tutte le percentuali dei punti di contatto nell’abbandono (tranne Tutte le visite, se incluso). |
-| Analizza il proseguimento in questo punto di contatto | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
-| Analizza l’abbandono in questo punto di contatto | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
-| Creare filtro da punto di contatto | Crea un nuovo filtro dal punto di contatto selezionato. |
+| **[!UICONTROL Trend touchpoint]** | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
+| **[!UICONTROL Trend touchpoint (%)]** | Visualizza la tendenza della percentuale di abbandono totale. |
+| **[!UICONTROL Trend all touchpoints (%)]** | Genera tendenze su tutte le percentuali dei punti di contatto nell&#39;abbandono (tranne **[!UICONTROL All People]**, se incluso) nello stesso grafico. |
+| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
+| **[!UICONTROL Break down fallout at this touchpoint]** | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
+| **[!UICONTROL Create filter from touchpoint]** | Crea un nuovo filtro dal punto di contatto selezionato. |
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

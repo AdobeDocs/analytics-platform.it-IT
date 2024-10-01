@@ -4,29 +4,26 @@ title: Approvare i filtri
 feature: Filters
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 57%
+source-wordcount: '125'
+ht-degree: 3%
 
 ---
 
-# Approvare i filtri {#approve}
+# Approvare i filtri
 
-Nel Gestore filtri puoi impostare un flusso di lavoro che includa l’approvazione del filtro per vari livelli di applicazione, per reparti o gruppi specifici e in linea con i criteri di reporting.
+Nel [Gestore filtri](manage-filters.md), puoi approvare e annullare l&#39;approvazione dei filtri. Solo gli amministratori possono approvare i filtri.
 
-Ecco come contrassegnare un filtro come approvato:
+Per approvare i filtri:
 
-1. Nel Gestore filtri, seleziona la casella di controllo a sinistra del Titolo del filtro.
+1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri da approvare.
+1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. I filtri approvati sono indicati con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-1. Fai clic su **[!UICONTROL Approve]** nella barra delle attività di gestione del filtro.
+Per annullare l’approvazione dei filtri:
 
-1. Prendi in considerazione la condivisione dei filtri approvati con la tua organizzazione.
+1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri che si desidera annullare l&#39;approvazione.
+1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
-1. Fai clic su **[!UICONTROL OK]**.
 
-   Osserva l’icona di approvazione accanto al filtro nell’elenco:
-
-   ![Il Gestore filtri indica che gli ordini superiori a 100 sono approvati per la condivisione.](assets/seg_approved.png)
-
-1. È inoltre possibile annullare l&#39;approvazione di un filtro approvato facendo clic su **[!UICONTROL Unapprove]**.
+Puoi filtrare l’elenco dei filtri in base ai filtri approvati. Selezionare **[!UICONTROL Other filters]** dal pannello ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** e selezionare **[!UICONTROL Approved]**. Per ulteriori informazioni, vedere [Filtrare l&#39;elenco dei filtri](/help/components/filters/filters-filter.md).

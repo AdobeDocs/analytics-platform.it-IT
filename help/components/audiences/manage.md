@@ -4,10 +4,10 @@ description: Scopri come gestire i tipi di pubblico in Customer Journey Analytic
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 65%
+ht-degree: 61%
 
 ---
 
@@ -27,7 +27,7 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 
 | Impostazione dell’interfaccia utente | Definizione |
 | --- | --- |
-| Hide/Show filters (Nascondi/mostra filtri) | Consente di mostrare o nascondere i seguenti filtri nella barra a sinistra: <ul><li>[!UICONTROL Data view]</li><li>[!UICONTROL Owner]</li><li>[!UICONTROL Refresh frequency]</li><li>[!UICONTROL Tags]</li></ul> |
+| Hide/Show filters (Nascondi/mostra filtri) | Consente di mostrare o nascondere i seguenti filtri nel pannello sinistro: <ul><li>[!UICONTROL Data view]</li><li>[!UICONTROL Owner]</li><li>[!UICONTROL Refresh frequency]</li><li>[!UICONTROL Tags]</li></ul> |
 | [!UICONTROL Title & Description] | Il titolo e la descrizione conferiti al pubblico al momento della creazione. |
 | [!UICONTROL Data view] | La visualizzazione dati in cui è stato creato il pubblico. |
 | [!UICONTROL Audience size] | Il numero totale di persone nel pubblico. |

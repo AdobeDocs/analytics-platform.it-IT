@@ -1,70 +1,56 @@
 ---
-description: Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
+description: Esempio di intervalli di date personalizzati in Analysis Workspace.
 keywords: Analysis Workspace
-title: Creazione di intervalli di date personalizzati
+title: Esempi di intervalli di date personalizzati
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 57%
+source-wordcount: '111'
+ht-degree: 3%
 
 ---
 
-# Creare intervalli di date personalizzati
+# Esempi di intervalli di date personalizzati
 
-Puoi creare intervalli di date personalizzati in Analysis Workspace e salvarli come componenti Tempo.
+Questo articolo mostra ulteriori esempi di intervalli di date personalizzati
 
-Per informazioni sull&#39;aggiunta di intervalli di date esistenti a un progetto, vedere [Calendario e panoramica degli intervalli di date](/help/components/date-ranges/calendar.md).
 
-Per creare un intervallo di date personalizzato:
 
-1. In Adobe Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+## Ultimi due mesi fa
 
-   ![pagina intervallo date](assets/date-ranges.png)
++++ Dettagli
 
-1. Seleziona [!UICONTROL **Crea nuovo intervallo di date**].
+Desideri definire un intervallo di date personalizzato che definisce due mesi fa. Utilizzate uno dei predefiniti.
 
-1. Nel generatore di intervalli di date, specifica le seguenti informazioni:
+![Ultimi 2 mesi fa](assets/date-range-example-simple.png)
 
-   | Opzione | Descrizione |
-   |---------|----------|
-   | [!UICONTROL **Titolo**] | Titolo dell’intervallo di date che verrà visualizzato quando gli utenti lo selezioneranno in Analysis Workspace. |
-   | [!UICONTROL **Descrizione**] | Descrizione dell’intervallo di date. |
-   | [!UICONTROL **Tag**] | Qualsiasi tag che desideri applicare all’intervallo di date. |
-   | [!UICONTROL **Intervallo date**] | Consente di scegliere un intervallo di date personalizzato. Per impostazione predefinita, sono selezionati gli ultimi 30 giorni. |
-   | [!UICONTROL **Predefinito**] | Scegli da un elenco di intervalli di date predefiniti, ad esempio [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**] e così via. |
-   | [!UICONTROL **Ora di inizio**] | L’ora del giorno in cui inizia l’intervallo di date. |
-   | [!UICONTROL **Ora di fine**] | L’ora del giorno in cui termina l’intervallo di date. |
-   | [!UICONTROL **Utilizza date continue**] | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul><br>Selezionato per impostazione predefinita. |
++++
 
-1. Seleziona [!UICONTROL **Salva**].
 
-## Esempio: intervallo di date per &quot;due mesi fa&quot; {#section_C4109C57CB444BB2A79CC8082BD67294}
+## In sequenza fino alla fine della settimana scorsa
 
-Il seguente intervallo di date personalizzato mostra un intervallo per “due mesi fa”, con una visualizzazione del riepilogo delle modifiche che mostra i cambiamenti direzionali.
++++ Dettagli
 
-![](assets/date-range-two-months-ago.png)
+Definire un intervallo di date che definisca il periodo compreso tra il giorno corrente una settimana fa e la fine della stessa settimana precedente. Ad esempio, se oggi è mercoledì 11 settembre 2024. Desideri un intervallo di date da mercoledì 4 settembre 2024 a sabato 7 settembre 2024. Settembre
 
-L’intervallo di date personalizzato viene visualizzato nella parte superiore del pannello dei componenti [!UICONTROL Date Range] (Intervallo date) all’interno del progetto:
+![Esempio di intervallo di date](assets/date-range-example.png)
 
-![](assets/date-range-panel-two-months-ago.png)
++++
 
-Puoi trascinare l’intervallo di date personalizzato all’interno di una colonna vicino a un intervallo di date continuo mensile personalizzato, utilizzando l’impostazione predefinita Mese precedente per un confronto. Aggiungi una visualizzazione di riepilogo delle modifiche e seleziona i totali da ogni colonna per mostrare il cambiamento direzionale:
+<!--
+## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-![](assets/date-range-two-months-table.png)
-
-## Esempio: utilizzare un intervallo di date continuo di 7 giorni {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
-
-Puoi creare un intervallo di date che specifica una finestra continua di 7 giorni che termina una settimana fa:
+You can create a date range that specifies a 7-day rolling window that ends one week ago:
 
 ![](assets/create_date_range.png)
 
-Usa *`rolling daily`*.
+Use *`rolling daily`*.
 
-* Le impostazioni Inizio corrispondono a *`current day minus 6 days`* (data attuale meno 14 giorni).
+* The Start settings would be *`current day minus 6 days`*.
 
-* Le impostazioni Fine corrispondono a *`current day minus 7 days`* (data attuale meno 7 giorni).
+* The End settings would be *`current day minus 7 days`*.
 
-L’intervallo di date può diventare un componente da trascinare in qualsiasi tabella a forma libera.
+This date range can be a component that you drag onto any freeform table.
+-->

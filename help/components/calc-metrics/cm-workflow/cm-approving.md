@@ -3,37 +3,26 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
 # Approvare le metriche calcolate
 
-In Gestione metriche calcolate, gli amministratori possono impostare un flusso di lavoro che include l’approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+In [Gestione metriche calcolate](cm-manager.md) è possibile approvare e annullare l&#39;approvazione dei filtri. Solo gli amministratori possono approvare le metriche calcolate.
 
->[!NOTE]
->
->Gli amministratori possono inoltre approvare le metriche calcolate (e altri componenti) dal dizionario dati, come descritto in [Modifica le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
->
->Tutte le metriche calcolate approvate nel dizionario dati vengono applicate al gestore delle metriche calcolate. Analogamente, le metriche approvate nel gestore delle metriche calcolate si riflettono nel dizionario dati.
+Per approvare le metriche calcolate:
 
-Per contrassegnare le metriche calcolate come approvate:
+1. In [Gestione metriche calcolate](cm-approving.md), selezionare una o più delle metriche calcolate che si desidera approvare.
+1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. Le metriche calcolate approvate sono indicate con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
+Per annullare l’approvazione delle metriche calcolate:
 
-1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica che desideri contrassegnare come approvata.
+1. In [Gestione filtri](cm-approving.md), selezionare una o più metriche calcolate che si desidera annullare l&#39;approvazione.
+1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
-1. Selezionare **[!UICONTROL Approve]** nell&#39;attività di gestione nella parte superiore della pagina.
 
-   Per rimuovere una metrica dall&#39;elenco delle metriche approvate, selezionare **[!UICONTROL Unapprove]**.
-
-1. (Facoltativo) Condividi la metrica con altri utenti dell&#39;organizzazione, come descritto in [Condividi metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
-
-1. Fai clic su **[!UICONTROL OK]**.
-
-   Osserva l&#39;icona di approvazione accanto alla metrica calcolata nell&#39;elenco: ![Simbolo di approvazione segnato in cerchio.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
-
-1. (Facoltativo) Per filtrare l&#39;elenco delle metriche calcolate nel gestore delle metriche calcolate in modo da visualizzare solo le metriche approvate, selezionare l&#39;icona **Filtro**, espandere **[!UICONTROL Other filters]**, quindi selezionare **[!UICONTROL Approved]**.
+Puoi filtrare l’elenco delle metriche calcolate in base alle metriche calcolate approvate. Selezionare **[!UICONTROL Other filters]** dal pannello ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** e selezionare **[!UICONTROL Approved]**. Per ulteriori informazioni, vedere [Filtrare l&#39;elenco delle metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-filter.md).

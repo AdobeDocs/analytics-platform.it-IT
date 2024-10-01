@@ -4,10 +4,10 @@ description: Interagire con elementi dimensionali dinamici e statici nelle tabel
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 

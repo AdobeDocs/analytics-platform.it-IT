@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 13%
 
 ---
@@ -146,7 +146,7 @@ Puoi fornire l’accesso all’amministrazione del profilo di prodotto a un resp
 
 ### Controllo dell’accesso a livello di riga
 
-Supponiamo che tu voglia consentire agli utenti di accedere ai dati di un solo giorno. Ecco come limitare l’accesso a queste righe specifiche:
+Desideri consentire agli utenti di accedere ai dati da un solo giorno. Ecco come limitare l’accesso a queste righe specifiche:
 
 1. Creare un filtro in [!UICONTROL Settings] di una visualizzazione dati specifica, dove [!UICONTROL Day] è uguale alla data alla quale si desidera che abbiano accesso ai dati. Per ulteriori informazioni, vedere [Crea visualizzazione dati](/help/data-views/create-dataview.md#settings-filters).
 1. Salva la visualizzazione dati, che applica il filtro alla parte di dati dei set di dati nella connessione sottostante. Tutte le righe che non rientrano nella definizione del filtro vengono automaticamente escluse dalla visualizzazione dati e non sono disponibili in Analysis Workspace quando si utilizza questa visualizzazione dati.

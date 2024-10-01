@@ -4,138 +4,108 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 16%
+source-wordcount: '1096'
+ht-degree: 1%
 
 ---
 
 # Filtri rapidi
 
-I filtri rapidi consentono di esplorare facilmente i dati all&#39;interno di un determinato progetto, senza la necessità di creare un filtro più complesso per l&#39;elenco dei componenti nel [Generatore di filtri](/help/components/filters/create-filters.md).
+I filtri rapidi consentono di esplorare rapidamente i dati all&#39;interno di un progetto Workspace, senza dover creare un filtro nel [Generatore di filtri](/help/components/filters/create-filters.md).
 
-Quando crei dei filtri rapidi, tieni presente quanto segue:
 
-* I filtri rapidi si applicano solo al progetto in cui sono stati creati. Non sono disponibili in altri progetti e non possono essere condivisi con altri utenti.
-* Sono consentite fino a 3 regole.
-* I contenitori nidificati o le regole sequenziali non sono supportati.
-* Se condividi un progetto con altri utenti, questi ultimi possono modificare i filtri rapidi e altri componenti di solo progetto incorporati nel progetto condiviso.
-
-Il video seguente illustra come utilizzare i filtri rapidi. (Nota: questo video utilizza il termine &quot;segmenti rapidi&quot; invece di &quot;filtri rapidi&quot;. Tuttavia, la funzionalità è la stessa.)
++++ Il video seguente illustra come utilizzare i filtri rapidi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
-## Creare un filtro rapido {#create}
 
-Qualsiasi utente in Analysis Workspace può creare un filtro rapido.
++++
+
+Quando desideri utilizzare i filtri rapidi, tieni presente che:
+
+* I filtri rapidi vengono creati direttamente in un progetto Workspace. Di conseguenza, un filtro rapido si applica solo al progetto Workspace in cui si crea il filtro rapido. I filtri rapidi nel progetto Workspace non sono disponibili in altri progetti e non possono essere condivisi con altri utenti.
+* È possibile specificare solo tre condizioni come parte di un filtro rapido.
+* I filtri rapidi non supportano contenitori nidificati o condizioni sequenziali.
+* Puoi modificare i filtri rapidi all’interno di un progetto Workspace condiviso. In questo modo, altri utenti possono modificare i filtri rapidi in un progetto Workspace condiviso con loro.
+
+## Creazione
+
+I filtri rapidi si applicano ai pannelli. Puoi creare uno o più filtri rapidi per ogni pannello del progetto Workspace. Qualsiasi utente in Analysis Workspace può creare filtri rapidi.
 
 Per creare un filtro rapido:
 
-1. Scegliere uno dei metodi seguenti per iniziare a creare il filtro rapido:
+* Seleziona ![FilterAdd](/help/assets/icons/FilterAdd.svg) nella parte superiore del pannello. <br/>Modificare quindi direttamente il filtro nel [Generatore di filtri rapido](#quick-filter-builder).
+* Trascina un componente dal pannello dei componenti alla zona di rilascio del filtro nell’intestazione del pannello. Una volta rilasciato, passa il cursore sul filtro e seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare il filtro nel [Generatore di filtri rapidi](#quick-filter-builder).
 
-   * **Ad hoc (trascinamento della selezione):** Dalla barra a sinistra, trascina un componente nella zona di rilascio del filtro nell&#39;intestazione del pannello.
+Quando crei un filtro rapido tramite trascinamento della selezione, tieni presente che:
 
-     ![rilascia un segmento nella zona di rilascio](assets/filter-dropzone.png)
+* Non tutti i tipi di componenti sono supportati. Le metriche calcolate non sono supportate e sono supportate solo le dimensioni e le metriche da cui puoi creare i filtri.
+* Per i componenti delle dimensioni e delle metriche, il [Generatore di filtri rapidi](#quick-filter-builder) crea automaticamente `exists` condizioni. Se ad esempio si trascina `City`, verrà creata la condizione `City exists`.
+* Per i valori di dimensione, il [Generatore di filtri rapidi](#quick-filter-builder) crea automaticamente una condizione `equals`. Se ad esempio si trascina `amsterdam` dalla dimensione `City`, verrà creata la condizione `City equals amsterdam`.
+* Se si trascina `unspecified` o `none`, il [Generatore di filtri rapido](#quick-filter-builder) crea automaticamente una condizione `does not exist`.
 
-     È possibile modificare il filtro rapido come descritto in [Modificare un filtro rapido](#edit-a-quick-filter).
+I filtri rapidi creati vengono visualizzati nella parte superiore del pannello. I filtri rapidi dispongono di una barra a sinistra sottile di colore blu chiaro. Quando un filtro rapido è in modalità di modifica mediante il [Generatore di filtri rapidi](#quick-filter-builder), lo sfondo del filtro rapido è azzurro.
 
-     >[!NOTE]
-     >
-     > Quando crei un filtro rapido ad hoc (trascinamento della selezione), tieni presente quanto segue:
-     > * I seguenti tipi di componenti non sono supportati: metriche calcolate, dimensioni e metriche da cui non è possibile creare i filtri.
-     > * Per eventi e dimensioni intere, Analysis Workspace crea dei filtri evento &quot;exists&quot; (esiste). Esempi: `Hit where eVar1 exists` o `Hit where event1 exists`.
-     > * Se nella zona di rilascio dei filtri viene rilasciato &quot;Non specificato&quot; o &quot;Nessuno&quot;, vengono automaticamente convertiti in un filtro di tipo &quot;non esiste&quot; in modo da essere trattati correttamente nei filtri.
+I risultati dei filtri rapidi creati in un pannello vengono applicati (utilizzando la logica AND) a tutte le visualizzazioni che fanno parte del pannello.
 
 
-   * **Utilizzo dell&#39;icona filtro:** In una tabella a forma libera, selezionare l&#39;icona **Filtro** nell&#39;intestazione del pannello.
+## Gestire i  
 
-     ![Filtro del segmento](assets/quick-seg1.png)
+Per gestire un filtro rapido, passa il cursore del mouse su **[!UICONTROL Quick filter]** specifico.
 
-1. Regola una delle impostazioni seguenti:
+* Seleziona ![Modifica](/help/assets/icons/Edit.svg) per aprire il [Generatore di filtri rapidi](#quick-filter-builder) e modificare il filtro rapido.
+* Selezionare ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire un popup. Nel popup vengono visualizzate informazioni sul filtro. È possibile selezionare **[!UICONTROL Make available to all projects and add to your component list]** Per aggiungere il filtro all&#39;elenco dei componenti ![Filter](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** nel pannello dei componenti. Viene visualizzata una finestra di dialogo **[!UICONTROL Save quick filter]** in cui viene richiesto di specificare un nome per il filtro. Selezionare **[!UICONTROL Save]** per continuare. [!UICONTROL Quick filter] diventa **[!UICONTROL Filter]**. Non è più possibile modificare il filtro utilizzando il [Generatore di filtri rapidi](#quick-filter-builder). È invece necessario modificare il filtro come filtro normale, utilizzando il [Generatore di filtri](filter-builder.md).
 
-   | Impostazione | Descrizione |
-   | --- | --- |
-   | [!UICONTROL Name] | Il nome predefinito di un filtro è una combinazione dei nomi delle regole nel filtro. Puoi rinominare il filtro in un nome più descrittivo. |
-   | [!UICONTROL Include/exclude] | Puoi includere o escludere componenti nella definizione del filtro, ma non entrambi. |
-   | Contenitore [!UICONTROL Hit/Visit/Visitor] | I filtri rapidi includono un solo contenitore [filtro](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers) che consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel filtro. [!UICONTROL Visitor] contiene i dati generali specifici della persona per visite e visualizzazioni di pagina. Un contenitore [!UICONTROL Visit] consente di impostare regole per suddividere i dati della persona in base alle visite, mentre un contenitore [!UICONTROL Hit] consente di suddividere le informazioni della persona in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
-   | [!UICONTROL Components] (Dimensione/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo i componenti (dimensioni, metriche, intervalli di date o valori di dimensione). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di filtri rapidi trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
-   | [!UICONTROL Operator] | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. Vedi [Operatori filtro](operators.md). |
-   | Segno più (+) | Aggiunge un’altra regola, |
-   | Qualificatori AND/OR | Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di filtro. |
-   | [!UICONTROL Apply] | Applica questo filtro al pannello. Se il filtro non contiene dati, verrà chiesto se si desidera continuare. |
-   | [!UICONTROL Open builder] | Apre il Generatore di filtri. Dopo aver salvato o applicato il filtro nel Generatore di filtri, non viene più considerato un &quot;Filtro rapido&quot;. Diventa parte della libreria di filtri dell’elenco di componenti. <p>Per rendere il componente disponibile in tutti i progetti e nella barra a sinistra, seleziona l&#39;opzione [!UICONTROL **Rendi questo filtro disponibile per tutti i progetti e aggiungilo all&#39;elenco dei componenti**].</p><p>Per ulteriori informazioni, vedere la sezione [Salvare un filtro rapido come filtro dell&#39;elenco dei componenti](#save-a-quick-filter-as-a-component-list-filter) in questo articolo.</p><p>**Nota:** solo gli utenti con l&#39;autorizzazione per la creazione di segmenti in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it) possono aprire il Generatore di filtri.</p> |
-   | [!UICONTROL Cancel] | Annulla questo filtro rapido (non applicarlo). |
-   | [!UICONTROL Date range] | La convalida utilizza l’intervallo di date del pannello per la ricerca dei dati. Tuttavia, qualsiasi intervallo di date applicato in un filtro rapido sovrascrive l’intervallo di date del pannello nella parte superiore del pannello. |
-   | Anteprima (in alto a destra) | Consente di vedere se si dispone di un filtro valido e quanto è ampio il filtro. Rappresenta il raggruppamento del set di dati che dovrebbe essere visualizzato quando applichi questo filtro. Potresti ricevere un avviso che indica che questo filtro non contiene dati. In questo caso, puoi procedere o modificare la definizione del filtro. |
+## Generatore di filtri rapidi
 
-1. Fai clic su [!UICONTROL **Applica**] per salvare le modifiche.
+Di seguito è riportato un esempio del generatore di filtri rapidi. Nell&#39;esempio, il generatore viene aperto per un filtro rapido denominato `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Entrambi i filtri rapidi nella parte superiore si applicano al pannello [!UICONTROL Average Order Value Dashboard] e a tutte le visualizzazioni in, ad esempio la tabella a forma libera [!UICONTROL Average Order Value Per Country].
 
-## Modificare un filtro rapido {#edit}
+![Generatore di filtri rapidi](assets/quick-filter-builder.png)
 
-1. Passa il puntatore del mouse sul filtro rapido da modificare, quindi seleziona l&#39;icona **Modifica**.
+Il generatore di filtri rapidi è costituito dalle seguenti aree e pulsanti.
 
-   ![Modificare filtro ad hoc](assets/filter-adhoc-edit.png)
+### Area intestazione
 
-1. Modifica la definizione o il nome del filtro.
-1. Fai clic su [!UICONTROL **Applica**] per salvare le modifiche.
+L’area dell’intestazione determina il nome, il tipo e l’ambito del filtro rapido. Inoltre, mostra un’immagine dei risultati del filtro rapido.
 
-## Salvare un filtro rapido come filtro per l’elenco dei componenti {#save}
+| Elemento | Descrizione |
+|---|---|
+| **[!UICONTROL Name]** | Il nome viene derivato automaticamente dalla definizione del filtro rapido. |
+| **[!UICONTROL People]** <br/>![CerchioSegnoDi Spunta](/help/assets/icons/CheckmarkCircle.svg) ![Avviso](/help/assets/icons/Alert.svg) | Visualizza in anteprima i dati risultanti dal filtro rapido. Una barra e una percentuale forniscono informazioni approfondite sulla quantità di dati complessivi che fanno parte del risultato del filtro rapido. Un ![avviso](/help/assets/icons/Alert.svg) rosso segnala che il filtro rapido non restituisce dati. |
+| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Seleziona dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri includere o escludere i risultati del filtro rapido dai dati nel pannello. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) l&#39;ambito del filtro rapido. |
 
->[!IMPORTANT]
->
-> Quando salvi un filtro rapido, considera quanto segue:
-> 
-> * Per salvare un filtro rapido, è necessario disporre dell&#39;autorizzazione Creazione segmento in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
-> 
-> * Dopo il salvataggio o l’applicazione del filtro, non è più possibile modificarlo nel generatore di filtri rapidi. Invece, devi utilizzare il Generatore di filtri regolare.
+### Area condizione
 
-Puoi scegliere di salvare i filtri rapidi come filtri per l’elenco dei componenti. I vantaggi dei filtri per l’elenco dei componenti includono:
+L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Per ogni condizione puoi specificare quanto segue:
 
-* Disponibilità in tutti i progetti Workspace
-* Supporto di filtri più complessi e di filtri sequenziali
+| Elemento | Descrizione |
+|---|---|
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Seleziona dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri specificare una condizione per una dimensione, una metrica o un intervallo di date. |
+| **[!UICONTROL *componente *]** | Il campo del componente per la condizione. È possibile [!UICONTROL *Digitare per aggiungere*] un componente, selezionare un componente dall&#39;elenco oppure trascinare un componente dal pannello dei componenti. Puoi rilasciare componenti simili solo nel campo componente della condizione. Ad esempio, potete rilasciare un componente di quota solo dal pannello dei componenti in una condizione di quota. <br/>Puoi anche trascinare e rilasciare per sostituire un componente esistente.<br/>Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per eliminare il componente dal campo del componente. |
+| **[!UICONTROL *operatore *]** | Operatore del componente. Per ulteriori informazioni, vedere [Operatori](operators.md). Disponibile solo per dimensioni e metriche. |
+| **[!UICONTROL *value *]** | Il valore della condizione. A seconda dell’operatore selezionato, è possibile selezionare il valore da un elenco o immetterlo. |
+| ![Dimensioni incrociate75](/help/assets/icons/CrossSize75.svg) | Seleziona questa opzione per eliminare una condizione dal filtro rapido. |
 
-È possibile salvare i filtri dal generatore di filtri rapidi o da [!UICONTROL Filter Builder].
+### Pulsanti
 
-### Salva nel generatore di filtri rapidi {#save2}
+| Pulsante | Descrizione |
+|---|---|
+| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Disponibile solo quando si definiscono più condizioni. Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) tra le condizioni. La selezione determina la logica booleana per il filtro rapido. Non è possibile combinare la logica quando si hanno tre condizioni. La logica booleana è **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
+| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) | Aggiunge un&#39;altra condizione al filtro rapido. Questo pulsante è disponibile solo se sono state definite una o due condizioni per il filtro rapido. |
+| **[!UICONTROL Apply]** | Applica le modifiche al filtro rapido. |
+| **[!UICONTROL Open builder]** | Viene richiesta una conferma con una finestra di dialogo **[!UICONTROL Are your sure?]**. Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il filtro nel [Generatore di filtri rapidi](#quick-filter-builder). Il filtro rapido verrà rinominato in **[!UICONTROL Filter]** e avrà una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di filtri](filter-builder.md) regolare con l&#39;opzione **[!UICONTROL Make this filter available to all your projects and add it to your component list]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Apply]**, il filtro verrà aggiunto all&#39;elenco dei componenti ![Filter](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** nel pannello dei componenti.</li><li>Se non si seleziona questa opzione e si seleziona **[!UICONTROL Apply]**, il filtro rimane un filtro solo progetto di Workspace.</li></ul> |
+| **[!UICONTROL Cancel]** | Seleziona questa opzione per annullare la creazione o la modifica di un filtro rapido. |
 
-1. Dopo aver applicato il filtro rapido, posiziona il cursore su di esso e seleziona l’icona Info (&quot;i&quot;).
-1. Seleziona **[!UICONTROL Make available to all projects and add to your component list]**.
-1. (Facoltativo) Rinomina il filtro.
-1. Seleziona **[!UICONTROL Save]**.
+## Filtri rapidi e Filtri
 
-   Il filtro viene ora visualizzato nell’elenco dei componenti nella barra a sinistra. Inoltre, la barra laterale del filtro cambia da blu chiaro a blu più scuro, indicando che non può più essere modificata o aperta nel generatore di filtri rapidi.
+I filtri rapidi sono esattamente ciò che sono denominati. Puoi creare e modificare rapidamente i filtri rapidi in linea e vedere immediatamente gli effetti nel pannello.
 
-### Salva nel Generatore di filtri {#save3}
+I filtri presentano i seguenti vantaggi rispetto ai filtri rapidi.
 
-1. Dopo aver applicato il filtro rapido, posiziona il cursore su di esso e seleziona l’icona Info (&quot;i&quot;).
-1. Seleziona **[!UICONTROL Save filter]**
-1. (Facoltativo) Rinomina il filtro, quindi seleziona [!UICONTROL **Applica**].
+* I filtri possono essere resi disponibili in tutti i tuoi progetti Workspace
+* I filtri supportano una maggiore complessità utilizzando contenitori nidificati e gerarchici e sequenze (utilizzando filtri di sequenza).
 
-   Torna a Workspace e osserva che la barra laterale del filtro cambia da blu chiaro a blu scuro, indicando che non può più essere modificata o aperta nel generatore di filtri rapidi. E salvandolo, diventa parte dell’elenco dei componenti.
-
-   ![Filtra elenco componenti](assets/quick-seg4.png)
-
-Dopo aver applicato il filtro, puoi scegliere di aggiungerlo all’elenco dei componenti del filtro e renderlo disponibile per tutti i progetti.
-
-1. Passa il puntatore del mouse sul filtro salvato e seleziona l’icona della matita.
-
-1. Seleziona [!UICONTROL **Apri generatore**].
-
-1. Nella parte superiore del Generatore di filtri, osserva questa finestra di dialogo:
-
-   ![Finestra di dialogo Filtro](assets/project-only-filter-dialog.png)
-
-1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this filtr available to all your projects and add it to your component list.]**.
-
-1. Seleziona **[!UICONTROL Save]**.
-
-   Il filtro viene ora visualizzato nell’elenco dei componenti del filtro per tutti i progetti.
-Puoi anche [condividere il filtro](/help/components/filters/filters-share.md) con altri utenti dell&#39;organizzazione.
-
-## Esempio di filtro rapido
-
-Il seguente esempio di filtro combina dimensioni e metriche:
-
-![Esempio di definizione del filtro](assets/quick-seg2.png)
 

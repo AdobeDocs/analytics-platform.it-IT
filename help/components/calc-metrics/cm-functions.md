@@ -4,16 +4,17 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 97%
 
 ---
 
 # Riferimento: funzioni di base
 
-Il Generatore di metriche calcolate consente di applicare funzioni statistiche e matematiche per generare metriche calcolate avanzate.
+
+Il generatore di metriche calcolate [](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche.
 
 Di seguito è riportato un elenco alfabetico delle funzioni e delle relative definizioni.
 
@@ -21,9 +22,12 @@ Di seguito è riportato un elenco alfabetico delle funzioni e delle relative def
 >
 >Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [!DNL MAXV(metrics)] consente anche [!DNL MAXV(PageViews + Visits).]
 
+
 ## Funzioni tabella e funzioni riga
 
 Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
+
+
 
 ## Valore assoluto (riga)
 
@@ -101,9 +105,9 @@ EXP(metric)
 
 Operatore di potenza
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y volte)
-</pre>
+
+pow(x,y) = x<sup>y</sup> = x *x* x*... (y volte)
+
 
 ## Media (tabella)
 
@@ -313,7 +317,7 @@ Per calcolare una varianza, si considera un’intera colonna di numeri. Di tale 
 
 Dopo aver ripetuto per l’intera colonna, si ottiene un singolo totale. Si divide quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzato come una colonna di numeri.
 
-Ad esempio, supponiamo che sia presente una colonna con tre elementi:
+Nel caso di una colonna a tre elementi:
 
 1
 
