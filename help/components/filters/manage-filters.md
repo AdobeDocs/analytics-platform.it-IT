@@ -4,7 +4,7 @@ description: Scopri come gestire i filtri nel Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Nell’elenco dei filtri vengono visualizzati tutti i filtri di tua proprietà, 
 | Colonna | Descrizione |
 | --- | --- | 
 | ![ContornoStella](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un filtro. Vedi [Contrassegna il filtro come preferito](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Per modificare il filtro, seleziona il collegamento del titolo, che apre il generatore di [filtri](filter-builder.md). Un filtro condiviso è indicato con ![Condividi](/help/assets/icons/Share.svg). |
+| **[!UICONTROL Title and description]** | Per modificare il filtro, seleziona il collegamento del titolo, che apre il generatore di [filtri](filter-builder.md). Un filtro condiviso è indicato con ![Condividi](/help/assets/icons/ShareLight.svg). |
 | **[!UICONTROL Data view]** | Visualizzazioni dati a cui si applica questo filtro. |
 | **[!UICONTROL Owner]** | Proprietario del filtro. In qualità di utente, puoi visualizzare solo i filtri di tua proprietà o le annotazioni condivise con te. |
 | **[!UICONTROL Tags]** | I tag per questo filtro. |
@@ -59,7 +59,7 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 | ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un altro filtro utilizzando [Generatore di filtri](filter-builder.md). |
 | ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionato alcun filtro, cerca i filtri utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag ai filtri selezionati. Nella finestra di dialogo **[!UICONTROL Tag Filter]**, seleziona o deseleziona i tag per i filtri selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per i filtri selezionati. Per ulteriori informazioni, vedere [Tag dei filtri](/help/components/filters/filters-tag.md). |
-| ![Condividi](/help/assets/icons/Share.svg) **[!UICONTROL Share]** | Condividi i filtri selezionati. Nella finestra di dialogo **[!UICONTROL Share Filter]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per i filtri selezionati. Per ulteriori informazioni, vedere [Condividi filtri](filters-share.md). |
+| ![Condividi](/help/assets/icons/ShareLight.svg) **[!UICONTROL Share]** | Condividi i filtri selezionati. Nella finestra di dialogo **[!UICONTROL Share Filter]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per i filtri selezionati. Per ulteriori informazioni, vedere [Condividi filtri](filters-share.md). |
 | ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina i filtri selezionati. Viene richiesta una conferma. |
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina un singolo filtro selezionato. Se questa opzione è selezionata, è possibile rinominare il filtro in linea. |
 | ![CerchioSegnoDiSpunta](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva i filtri selezionati. Per ulteriori informazioni, vedere [Approvare i filtri](filters-approve.md). |
