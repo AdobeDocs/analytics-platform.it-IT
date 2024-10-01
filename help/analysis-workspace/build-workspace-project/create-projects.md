@@ -4,14 +4,24 @@ title: Creare progetti
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 38%
+source-wordcount: '408'
+ht-degree: 37%
 
 ---
 
-# Creare progetti
+# Creare progetti {#create-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_countrepeatinstances"
+>title="Conta istanze ripetute"
+>abstract="Specifica se nei rapporti vengono conteggiate le istanze ripetute.<br/><br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono."
+
+<!-- markdownlint-enable MD034 -->
+
 
 I [progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace consentono di creare e visualizzare analisi business-critical.  Queste analisi possono essere condivise con le parti interessate all’interno o all’esterno dell’organizzazione.
 

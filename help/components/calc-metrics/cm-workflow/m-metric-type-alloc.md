@@ -3,9 +3,9 @@ description: Scopri il tipo di metrica e l’attribuzione
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 22%
 
 ---
@@ -148,8 +148,8 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_custom"
->title="Decadimento nel tempo"
->abstract="Il merito maggiore viene attribuito ai valori di Dimension più vicini nel tempo a una conversione."
+>title="Personalizzato"
+>abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -161,7 +161,6 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
 <!-- markdownlint-enable MD034 -->
-
 
 
 {{attribution-models-details}}
