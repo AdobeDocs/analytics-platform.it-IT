@@ -3,9 +3,9 @@ title: Impostazioni dati di utilizzo prodotto
 description: Abilita, disabilita o configura le impostazioni di utilizzo del prodotto.
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ La pagina _Impostazioni dati_ gestisce la configurazione di utilizzo del prodott
 In questa pagina sono disponibili le seguenti impostazioni:
 
 * **Abilita utilizzo prodotto**: attiva la raccolta dati sull&#39;utilizzo dei prodotti. Se abiliti l’utilizzo del prodotto e lo disabiliti in futuro, il set di dati, la connessione e la visualizzazione dati non vengono eliminati. Quando viene disattivato, il tracciamento viene disattivato a livello globale per la tua organizzazione.
-* **Sandbox**: determina la sandbox Adobe Experience Platform in cui vengono creati lo schema e il set di dati. La sandbox scelta non influisce sulla raccolta dei dati di utilizzo del prodotto. Se modifichi questa impostazione sandbox, vengono creati un set di dati, una connessione e una visualizzazione dati separati. I dati storici rimangono nella sandbox precedente.
-* **Ignora finestra di conservazione dati**: ogni set di dati ha una finestra di conservazione dati predefinita. Se questa impostazione è disabilitata, l’utilizzo del prodotto segue tale periodo di tempo predefinito. È possibile abilitare questa impostazione se si desidera ridurre il tempo di conservazione dei dati. Non è possibile estendere la conservazione dei dati oltre la finestra di conservazione dei dati predefinita del set di dati.
+* **Sandbox**: determina la sandbox Adobe Experience Platform in cui vengono creati lo schema e il set di dati. La sandbox scelta non influisce sulla raccolta dei dati di utilizzo del prodotto. Se modifichi questa impostazione sandbox, tutti i dati esistenti vengono eliminati. Nella sandbox selezionata vengono creati un nuovo set di dati, una nuova connessione e una nuova visualizzazione dati.
+* **Ignora finestra di conservazione dati**: ogni set di dati ha una finestra di conservazione dati predefinita. Se questa impostazione è disabilitata, l’utilizzo del prodotto segue tale periodo di tempo predefinito. È possibile abilitare questa impostazione se si desidera ridurre il tempo di conservazione dei dati. Abbreviare la finestra di conservazione dei dati, ridurre i costi e rispettare le linee guida sulla privacy specifiche dei dipendenti. Non è possibile estendere la conservazione dei dati oltre la finestra di conservazione dei dati predefinita del set di dati.
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_sandbox"
@@ -36,4 +36,4 @@ In questa pagina sono disponibili le seguenti impostazioni:
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
 >title="Ignora finestra di conservazione dei dati"
->abstract="Ridurre la disponibilità dei dati sull&#39;utilizzo dei prodotti per ridurre i costi."
+>abstract="Riduci la disponibilità dei dati di utilizzo del prodotto per ridurre i costi o rispettare le linee guida sulla privacy."
