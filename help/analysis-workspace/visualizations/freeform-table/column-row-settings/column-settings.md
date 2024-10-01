@@ -4,59 +4,75 @@ title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 49b165c4dfec99ff1c65d4aacf4a5ffbe65d4004
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 74%
+source-wordcount: '811'
+ht-degree: 19%
 
 ---
 
 # [!UICONTROL Column Settings]
 
-Le [!UICONTROL Column Settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
+Le [!UICONTROL Column settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 
-Visualizza un video sulle impostazioni di riga e colonna qui:
++++ Guarda una dimostrazione video di questa funzionalità.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
 
-## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
+{{videoaa}}
 
-Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull&#39;icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione della colonna.
++++
 
-<img src="./assets/column-settings.png" alt="Impostazioni delle colonne che mostrano le celle totali, le celle di tabella e l&apos;anteprima delle celle di tabella." width="50%" />
+Per accedere a [!UICONTROL Column settings], selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione di colonna.
 
-È possibile modificare le impostazioni di **più colonne alla volta**. Seleziona più colonne e fai clic sull’icona delle impostazioni di una delle colonne. Le modifiche apportate verranno applicate a tutte le colonne contenenti celle selezionate.
+![Impostazioni colonna](assets/column-settings.png)
 
-| Elemento | Descrizione |
+
+È possibile modificare le impostazioni per più colonne contemporaneamente. Selezionare più colonne e selezionare ![Impostazioni](/help/assets/icons/Setting.svg) in una delle colonne selezionate. Qualsiasi modifica apportata viene applicata a tutte le colonne in cui sono selezionate celle.
+
+| Opzione | Descrizione |
 | --- | --- |
-| Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
-| Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale di visualizzazioni di pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
-| Mostra anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
-| Mostra previsione | Determina se i valori di previsione vengono visualizzati in questa colonna. |
-| Testo a capo nelle intestazioni | Consente di mandare automaticamente a capo il testo delle intestazioni nelle tabelle a forma libera, per agevolare la lettura delle intestazioni e la condivisione delle tabelle. Questa opzione è utile per la creazione di file PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
-| Interpret zero as no value (Interpreta zero come nessun valore) | Per le celle con valore 0, determina se visualizzare 0 oppure la cella vuota. Questa funzione è particolarmente utile se si esaminano i dati quotidianamente e il mese in corso non è ancora terminato.  Invece di visualizzare valori 0 per le date future, è possibile sostituirli con delle celle vuote. Anche i grafici si adeguano a questa impostazione (ossia, se è stata selezionata, non visualizzano linee o barre con valori 0). |
-| Informazioni di base | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale. |
-| Grafico a barre | Visualizza un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. |
-| Formattazione condizionale | Consulta la sezione successiva. |
-| Table Cell Preview (Anteprima celle tabella) | Mostra un’anteprima di ciascuna cella con le opzioni di formattazione attualmente selezionate attive. |
+| **[!UICONTROL Show total]** | Mostra una somma lato client della colonna. Questo totale **non** deduplica metriche quali sessioni o persone. |
+| **[!UICONTROL Show grand total]** | Mostra una somma lato server della colonna. Il totale complessivo deduplica metriche quali sessioni o persone. |
+| **[!UICONTROL Show sparkline]** | Mostra un grafico a linee nell’intestazione della colonna. |
+| **[!UICONTROL Number]** | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
+| **[!UICONTROL Percent]** | Determina se mostrare/nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale delle visualizzazioni di pagina per la colonna.  Nota: per garantire la precisione, è possibile usare percentuali superiori al 100%. Il limite superiore può essere spostato a 1.000% per evitare che la larghezza delle colonne diventi troppo grande. |
+| **[!UICONTROL Show anomalies]** | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
+| **[!UICONTROL Show forecast]** | Determina se i valori di previsione sono visualizzati in questa colonna. |
+| **[!UICONTROL Wrap header text]** | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
+| **[!UICONTROL Interpret zero as no value]** | Per le celle con un valore 0, determinare se visualizzare una cella vuota o 0. Questa interpretazione è utile quando si esaminano i dati per ogni giorno di un mese e alcuni giorni sono futuri.  Invece di visualizzare valori 0 per le date future, vengono visualizzate celle vuote. I grafici rispettano anche questa impostazione, ovvero non visualizzano una linea o una barra con valori pari a 0. |
+| **[!UICONTROL Background]** | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale. |
+| **[!UICONTROL Bar Graph]** | Mostra un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. |
+| **[!UICONTROL Conditional Formatting]** | Utilizza la formattazione condizionale. Vedi la [sezione](#conditional-formatting) seguente. |
+| **[!UICONTROL Table Cell Preview]** | Anteprima di ogni cella con le opzioni di formattazione attualmente selezionate applicate. |
+| **[!UICONTROL Use non-default attribution model]** | Utilizza un modello di attribuzione non predefinito. Vedi la [sezione](#use-non-default-attribution-model) seguente. |
 
 ## Formattazione condizionale {#conditional-formatting}
 
-La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è inoltre abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
+La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale nelle tabelle a forma libera è abilitata automaticamente anche nelle suddivisioni, a meno che non venga selezionata l’opzione per limitare [!UICONTROL Custom].
 
-<img src="./assets/conditional-formatting.png" alt="Opzioni di formattazione condizionale con Personalizzato selezionato" width="50%" />
+<img src="./assets/conditional-formatting.png" alt="Opzioni di formattazione condizionale con Personalizzato selezionato" width="40%" />
 
-| Elemento | Descrizione |
+| Opzioni di formattazione condizionale | Descrizione |
 | --- | --- |
-| Formattazione condizionale | Applica alle celle un set di colori preconfigurato scelto. A seconda delle 4 combinazioni di colori disponibili selezionate, i diversi colori vengono assegnati a valori alti, valori intermedi e valori bassi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
-| Use Percent Limits (Usa limiti percentuali) | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. Funziona sia per metriche basate unicamente sulle percentuali (come Bounce Rate, o frequenza di rimbalzo), sia per quelle basate su conteggio e percentuale (come Visualizzazioni di pagina). |
-| Generazione automatica | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
-| Personalizzato | Assegna manualmente i limiti superiori/medi/inferiori. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
-| Tavolozza con formattazione condizionale | Scegli quale delle 4 combinazioni di colori disponibili utilizzare per la formattazione condizionale. |
+| **[!UICONTROL  Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
+| **[!UICONTROL Auto-generated]** | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
+| **[!UICONTROL Custom]** | Assegna manualmente **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** e **[!UICONTROL Lower limit]**. I limiti forniscono la flessibilità necessaria per determinare quando un valore di colonna diventa buono, medio o scarso. |
+| **[!UICONTROL Conditional formatting palette]** | Applica un set di colori preconfigurato alle celle. A seconda delle quattro combinazioni di colori selezionate, a valori alti, intermedi e bassi vengono assegnati colori diversi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
 
-## Usa modello di attribuzione non predefinito {#attribution}
+## Usa modello di attribuzione non predefinito {#use-non-default-attribution-model}
 
-Consente di ignorare il modello di attribuzione predefinito impostato in [Visualizzazioni dati](/help/data-views/component-settings/attribution.md).
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Abilita un modello di attribuzione non predefinito per le colonne selezionate"
+
+<!-- markdownlint-enable MD034 -->
+
+
+È possibile sostituire il modello di attribuzione predefinito configurato in [Visualizzazioni dati](/help/data-views/component-settings/attribution.md).
 
 >[!NOTE]
 >
@@ -72,13 +88,24 @@ Consente di ignorare il modello di attribuzione predefinito impostato in [Visual
 
 Per utilizzare un modello di attribuzione non predefinito per una metrica in un Analysis Workspace:
 
-1. Fai clic sull’icona Impostazioni (ingranaggio) di una metrica nella colonna di una tabella a forma libera.
+1. Seleziona **[!UICONTROL Use non-default attribution model]**. Se è già selezionato, utilizza **[!UICONTROL Edit]** per modificare il modello di attribuzione. Oppure deseleziona per tornare al modello di attribuzione predefinito.
 
    ![Le opzioni Column Setting evidenziano l&#39;opzione Data Settings: Usa modalità di attribuzione non predefinita.](assets/attribution-checkbox.png)
 
-2. In **[!UICONTROL Data Settings]**, spunta **[!UICONTROL Use non-default attribution model]**. Per ulteriori informazioni sui diversi modelli di attribuzione, consulta [Modelli di attribuzione](/help/data-views/component-settings/attribution.md).
+2. In **[!UICONTROL Column attribution model]**, selezionare **[!UICONTROL Model]** e **[!UICONTROL Lookback window]**. L’intervallo di lookback determina l’intervallo di attribuzione dei dati applicato per ogni conversione.
 
    ![Le opzioni del modello di attribuzione colonna mostrano Lineare selezionato.](assets/attribution-select.png)
+
+
+### Modelli di attribuzione
+
+{{attribution-models-details}}
+
+### Intervallo di lookback
+
+{{attribution-lookback-window}}
+
+
 
 >[!MORELIKETHIS]
 >

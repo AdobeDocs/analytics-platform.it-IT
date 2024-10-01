@@ -4,35 +4,55 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '258'
+ht-degree: 30%
 
 ---
 
-# Panoramica del flusso
+# Flusso {#flow}
 
-La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
+<!-- markdownlint-disable MD034 -->
 
-Consente di:
+>[!CONTEXTUALHELP]
+>id="cja_workspace_flow_button"
+>title="Flusso"
+>abstract="Crea una visualizzazione per visualizzare il flusso di persone da un punto di controllo all’altro."
 
-* Visualizzare il percorso seguito dal cliente nel sito Web o nell’applicazione
-* Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, uscita o una specifica dimensione
+>[!CONTEXTUALHELP]
+>id="cja_workspace_flow_panel"
+>title="Flusso"
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto all’altro.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensione o una metrica per visualizzare i punti di contatto principali che si verificano dopo l&#39;occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensione per visualizzare i punti di contatto principali prima e dopo l&#39;occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensione o una metrica per visualizzare i punti di contatto principali prima dell&#39;occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+La visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) [!UICONTROL Flow] mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
+
+Con la visualizzazione è possibile:
+
+* Visualizza il percorso di clienti attraverso il sito web o l’applicazione.
+* Analizza dove vanno i clienti prima e dopo i punti di controllo specificati, ad esempio ingresso, una dimensione specifica o uscita.
 * Creare filtri designando un punto specifico nel percorso scelto
 
-[Tutorial video sulla visualizzazione Flusso](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=it) (4:56)
++++ Visualizza una dimostrazione video della visualizzazione [!UICONTROL Flow].
 
-## Flussi interdimensionali {#in}
+>[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+
+{{videoaa}}
+
++++
+
+## Flussi interdimensionali
 
 Ora puoi visualizzare il [flusso tra dimensioni](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Ad esempio, puoi combinare pagine e reparti in un unico diagramma. In questo caso, il flusso potrebbe andare dalla home page alla pagina Uomo e quindi al reparto Scarpe.
 
 Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione al diagramma, trascinala fino ad una zona di rilascio.
 
-## Configurare una visualizzazione del flusso
+>[!MORELIKETHIS]
+>
+>[Configurare una visualizzazione di flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
-Per informazioni su come configurare una visualizzazione del flusso, consulta [Configurare una visualizzazione del flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
-
-## Esportare i diagrammi di flusso come file .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-I diagrammi di flusso sono parte del file .CSV di un progetto che viene creato da **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Questo consente di analizzare i risultati del flusso in Microsoft Excel (sotto forma di tabella) o in un’altra applicazione.

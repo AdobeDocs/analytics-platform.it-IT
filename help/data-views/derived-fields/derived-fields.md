@@ -5,14 +5,24 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 1fddf0e8421b35021a1f1641a684cacbc0ec1f0d
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '8011'
-ht-degree: 10%
+source-wordcount: '8487'
+ht-degree: 9%
 
 ---
 
-# Campi derivati
+# Campi derivati {#derived-fields}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields"
+>title="Campi derivati"
+>abstract="Un campo derivato consente di definire al volo le manipolazioni dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in Workspace o anche ulteriormente definito come componente nella visualizzazione dati."
+
+<!-- markdownlint-enable MD034 -->
+
 
 I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Adobe Customer Journey Analytics. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. È quindi possibile utilizzare il campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o definire ulteriormente il campo derivato come componente in [Visualizzazione dati](../data-views.md).
 
@@ -32,6 +42,8 @@ Quando si crea o si modifica un campo derivato, viene utilizzata l&#39;interfacc
 
 ![Schermata della finestra di dialogo Campo derivato](assets/derived-field-dialog.png)
 
+
+![PanoramicaProgramma](/help/assets/icons/ProgramOverview.svg)
 
 |  | Nome | Descrizione |
 |---------|----------|--------|
@@ -386,6 +398,16 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 
 ### Case When {#casewhen}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_casewhen"
+>title="Case When"
+>abstract="Questa funzione consente di applicare condizionali basati su criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori nel nuovo campo derivato in base alla sequenza delle condizioni."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Applica i condizionali, in base a criteri definiti da uno o più campi. Questi criteri vengono quindi utilizzati per definire i valori in un nuovo campo derivato, in base alla sequenza delle condizioni.
 
 +++ Dettagli
@@ -616,6 +638,16 @@ I seguenti vincoli si applicano e vengono applicati quando *si selezionano* e *s
 
 ### Classifica {#classify}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_classify"
+>title="Classifica"
+>abstract="Questa funzione consente di definire un insieme di valori che vengono sostituiti dai valori corrispondenti tramite l’immissione di testo."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti in un nuovo campo derivato.
 
 +++ Dettagli
@@ -751,6 +783,16 @@ Nell’interfaccia Classifica regola sono disponibili le seguenti funzionalità 
 
 ### Concatena {#concatenate}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_concatenate"
+>title="Concatena"
+>abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente in un singolo campo con delimitatori definiti."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Combina i valori dei campi in un unico nuovo campo derivato con delimitatori definiti.
 
 +++ Dettagli
@@ -827,6 +869,16 @@ Definisci un campo derivato `Origin - Destination`. Utilizzare la funzione [!UIC
 
 
 ### Deduplica {#dedup}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_deduplicate"
+>title="Deduplica"
+>abstract="Questa funzione consente di configurare un campo in modo da conteggiare solo i valori in modo non ripetitivo a livello di sessione o di persona. Inoltre, è possibile utilizzare un ID di deduplicazione per garantire che, in base a un determinato ID (ad esempio un ID acquisto), venga utilizzato un solo valore (sia la prima che l’ultima istanza)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Impedisce di contare un valore più volte.
 
@@ -911,7 +963,17 @@ Si definisce un nuovo campo derivato `Tracking Code (deduplicated)`. Utilizzare 
 
 <!-- FIND AND REPLACE -->
 
-### Trova e sostituisci {#find-replace}
+### Trova e sostituisci {#find-and-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_findandreplace"
+>title="Trova e sostituisci"
+>abstract="Questa funzione consente di trovare tutti i valori in un campo selezionato e sostituirli con un valore diverso in un nuovo campo derivato."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Trova tutti i valori in un campo selezionato e li sostituisce con un valore diverso in un nuovo campo derivato.
 
@@ -983,6 +1045,16 @@ Definisci un campo derivato `Email Marketing (updated)`. Utilizzare la funzione 
 
 ### Ricerca {#lookup}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lookup"
+>title="Ricerca"
+>abstract="Questa funzione consente di utilizzare i campi di un set di dati di ricerca utilizzando una chiave di corrispondenza tra i set di dati."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Cerca valori utilizzando un campo da un set di dati di ricerca e restituisce un valore in un nuovo campo derivato o per un’ulteriore elaborazione delle regole.
 
 +++ Dettagli
@@ -1034,6 +1106,16 @@ La funzione di ricerca viene applicata al momento della generazione del rapporto
 
 ### Minuscolo {#lowercase}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lowercase"
+>title="Minuscolo"
+>abstract="Questa funzione converte l’intero testo della stringa in valori minuscoli."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Converte i valori da un campo in minuscolo e li memorizza in un nuovo campo derivato.
 
 +++ Dettagli
@@ -1084,6 +1166,16 @@ Definisci un campo derivato `Product Names`. Utilizzare la funzione [!UICONTROL 
 <!-- MATH -->
 
 ### Math {#math}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_math"
+>title="Math"
+>abstract="Questa funzione consente di eseguire operazioni matematiche su un campo. La funzione può essere utilizzata per eseguire operazioni aritmetiche di base, quali addizione, sottrazione, moltiplicazione e divisione."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Utilizzare gli operatori matematici di base (aggiungere, sottrarre, moltiplicare, dividere e aumentare a potenza) nei campi numerici.
 
@@ -1166,6 +1258,16 @@ Utilizza la funzione Math per i calcoli basati su hit. Utilizza la funzione [Rie
 
 ### Unisci campi {#merge}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_mergefields"
+>title="Unisci campi"
+>abstract="Questa funzione consente di prendere valori da due campi diversi e includerne i rispettivi valori in una singola dimensione. La regola verifica innanzitutto se è impostato il primo valore. In caso contrario, utilizzerà il secondo valore e così via."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Unisce i valori di due campi diversi in un nuovo campo derivato.
 
 +++ Dettagli
@@ -1231,6 +1333,16 @@ Definisci un campo derivato `Cross Channel Interactions`. Utilizzare la funzione
 <!-- NEXT OR PREVIOUS -->
 
 ### Successivo o Precedente {#next-previous}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_nextprevious"
+>title="Successivo o Precedente"
+>abstract="Questa funzione consente di esaminare il valore successivo o precedente raccolto per un determinato campo."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Accetta un campo come input e risolve il valore successivo o precedente per tale campo nell’ambito della sessione o dell’utilizzo. Ciò si applica solo ai campi della tabella Visita ed Evento.
 
@@ -1303,6 +1415,16 @@ Puoi selezionare solo i campi che appartengono alla tabella Visita o Evento.
 <!-- REGEX REPLACE -->
 
 ### Regex Replace {#regex-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_regexreplace"
+>title="Regex Replace"
+>abstract="Questa funzione consente di estrarre parti di una stringa utilizzando espressioni regolari."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Sostituisce un valore di un campo utilizzando un&#39;espressione regolare in un nuovo campo derivato.
 
@@ -1401,6 +1523,16 @@ Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl
 
 ### Split {#split}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_split"
+>title="Split"
+>abstract="Questa funzione consente di suddividere un campo in più campi in base a un delimitatore."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Divide un valore da un campo in un nuovo campo derivato.
 
 +++ Dettagli
@@ -1493,6 +1625,16 @@ Creare un campo derivato `Second Response` per prendere l&#39;ultimo valore dal 
 
 ### Riepiloga {#summarize}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_summarize"
+>title="Riepiloga"
+>abstract="Questa funzione consente di aggregare i valori a livello di evento, sessione o persona. A seconda del tipo di campo per il campo selezionato, saranno disponibili opzioni diverse."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Applica funzioni di tipo aggregazione a metriche o dimensioni a livello di evento, sessione e utente.
 
 +++ Dettagli
@@ -1560,6 +1702,16 @@ Utilizzare la funzione Riepiloga per i calcoli basati sull&#39;ambito evento, se
 <!-- TRIM -->
 
 ### Trim (Taglia)
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_trim"
+>title="Trim (Taglia)"
+>abstract="Questa funzione consente di tagliare spazi o caratteri speciali dall’inizio o dalla fine di una stringa. Inoltre, la possibilità di specificare il numero di caratteri da utilizzare per il valore restituito, dalla parte anteriore o dalla fine della stringa."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall&#39;inizio o dalla fine dei valori di campo in un nuovo campo derivato.
 
@@ -1672,6 +1824,16 @@ Si crea un campo derivato `Store Identifier`. Utilizzare la funzione [!UICONTROL
 <!-- URL PARSE -->
 
 ### Parsing URL
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_urlparse"
+>title="Analisi Url"
+>abstract="Questa funzione consente di analizzare diverse parti di un URL, inclusi l’host, il percorso o i parametri di query."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analizza diverse parti di un URL, inclusi i parametri di protocollo, host, percorso o query.
 

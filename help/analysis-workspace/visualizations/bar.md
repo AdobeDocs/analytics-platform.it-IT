@@ -4,29 +4,57 @@ title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 79%
+source-wordcount: '161'
+ht-degree: 17%
 
 ---
 
 # Barre e barre sovrapposte
 
-## Barre {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## Barre {#bar}
 
-Questa visualizzazione mostra barre verticali che rappresentano diversi valori per una o più metriche.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_bar_button"
+>title="Barre"
+>abstract="Crea una visualizzazione a barre per rappresentare vari valori per una o più metriche."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** mostra barre verticali che rappresentano diversi valori in una o più metriche.
 
 ![Visualizzazione a barre verticali che mostra più metriche tra cui visualizzazioni di pagina, visite, entrate ed uscite.](assets/bar.png)
 
 Nelle impostazioni di visualizzazione, un elenco a discesa di granularità permette di cambiare una visualizzazione con tendenza (ad esempio un grafico a linee) da base giornaliera a settimanale, mensile e così via.
 
-## Barre sovrapposte {#section_9EA83779AE964635907EE5031A785A49}
+## Barre sovrapposte {#bar-stacked}
 
-Questa visualizzazione è simile al grafico a barre, ma le barre delle varie serie sono sovrapposte le une alle altre.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_barstacked_button"
+>title="Barre sovrapposte"
+>abstract="Crea una visualizzazione a barre per rappresentare vari valori per una o più metriche sovrapposte."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Bar stacked]** è simile a un grafico a barre, ma le barre delle serie sono sovrapposte le une alle altre.
 
 ![Barre in pila che mostrano più metriche.](assets/bar-stacked.png)
 
-Una nuova impostazione per le visualizzazioni Barre sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
+Utilizza l&#39;opzione **[!UICONTROL 100% stacked]** in ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** per trasformare il grafico in una visualizzazione con sovrapposizione 100%.
 
-![Grafico a barre in pila 100%.](assets/stacked_100_percent.png)
+![Grafico a barre in pila 100%.](assets/bar-stacked100.png)
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

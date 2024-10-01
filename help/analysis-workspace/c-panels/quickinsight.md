@@ -4,20 +4,36 @@ title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 26%
 
 ---
 
-# Pannello Quick Insights
+# Pannello Quick insights {#quick-insights-panel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_quickinsights_button"
+>title="Informazioni rapide"
+>abstract="Crea un pannello per creare rapidamente una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni."
+
+<!-- markdownlint-enable MD034 -->
+
 
 [!UICONTROL Quick Insights] fornisce indicazioni ai non analisti e ai nuovi utenti di [!UICONTROL Analysis Workspace] affinché scoprano come rispondere alle domande aziendali in modo rapido e semplice. È anche un ottimo strumento per gli utenti avanzati che desiderano rispondere rapidamente a una semplice domanda senza dover creare personalmente una tabella.
 
-Quando inizi a utilizzare questo [!UICONTROL Analysis Workspace], potresti chiederti quali visualizzazioni sarebbero più utili, quali dimensioni e metriche potrebbero semplificare gli approfondimenti, dove trascinare e rilasciare elementi, dove creare un filtro, ecc.
+Quando si inizia a utilizzare [!UICONTROL Analysis Workspace], ci si potrebbe chiedere:
 
-Per aiutarti con questo, e in base all’utilizzo dei componenti dati da parte della tua azienda in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] sfrutta un algoritmo che ti mostrerà le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Vedrai infatti dimensioni, metriche e filtri taggati come [!UICONTROL Popular] nell’elenco a discesa, come mostrato di seguito:
+* quali visualizzazioni sarebbero più utili,
+* quali dimensioni e metriche potrebbero facilitare gli approfondimenti,
+* dove trascinare gli elementi,
+* dove creare un filtro,
+* e altro ancora.
+
+Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull&#39;utilizzo dei componenti dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Vedrai infatti dimensioni, metriche e filtri con tag [!UICONTROL POPULAR] nell&#39;elenco a discesa, come mostrato di seguito:
 
 ![Pannello Quick Insights.](assets/popular-tag.png)
 
@@ -30,78 +46,98 @@ Per aiutarti con questo, e in base all’utilizzo dei componenti dati da parte d
 
 ## Terminologia chiave di base
 
-Di seguito sono riportati alcuni dei termini di base con cui è necessario tu abbia familiarità. Ogni tabella di dati è composta da 2 o più blocchi (componenti) utilizzati per spiegare la storia dei dati.
+Di seguito sono riportati alcuni dei termini di base che è necessario conoscere. Ogni tabella di dati è costituita da 2 o più blocchi (componenti) utilizzati per spiegare la storia dei dati.
 
 | Blocco predefinito (componente) | Definizione |
 |---|---|
-| [!UICONTROL Dimension] | Le dimensioni sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate, raggruppate e confrontate in un progetto. Sono valori non numerici e date raggruppati in elementi dimensionali. Ad esempio, “browser” o “pagina” sono dimensioni. |
-| [!UICONTROL Dimension item] | Gli elementi dimensionali sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero “Chrome”, “Firefox”, “Edge”, ecc. |
+| **[!UICONTROL Dimension]** | Le dimensioni sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate, raggruppate e confrontate in un progetto. Sono valori non numerici e date raggruppati in elementi dimensionali. Ad esempio, *browser* o *pagina* è una dimensione. |
+| **[!UICONTROL Dimension item]** | Gli elementi dimensionali sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero *Chrome*, *Firefox*, *Edge* o altri. |
 | [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività della persona come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
-| [!UICONTROL Visualization] | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. |
-| [!UICONTROL Dimension Breakdown] | Un raggruppamento di dimensioni è un modo per raggruppare letteralmente una dimensione secondo altre dimensioni. Nel nostro esempio, potresti raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite dei dispositivi mobili per stato, oppure potresti raggruppare i dispositivi mobili per tipo di dispositivo mobile, per regioni, per campagne interne, ecc. |
-| [!UICONTROL filter] | I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare filtri [!UICONTROL Visitor] in base agli attributi (tipo di browser, dispositivo, numero di visite, paese, genere), in base alle interazioni (campagne, ricerca di parole chiave, motore di ricerca), in base a uscite e entrate (persone da Facebook, una pagina di destinazione definita, un dominio di riferimento) o in base a variabili personalizzate (campo modulo, categorie definite, ID cliente). |
+| **[!UICONTROL Visualization]** | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. |
+| **[!UICONTROL Dimension Breakdown]** | Un raggruppamento di dimensioni è un modo per raggruppare una dimensione per altre dimensioni. Ad esempio, puoi suddividere gli Stati Uniti per Dispositivi mobili per ottenere le visite dei dispositivi mobili per stato. Oppure puoi suddividere i dispositivi mobili per tipo di dispositivo, per regione, per campagne interne e altro ancora. |
+| **[!UICONTROL Filter]** | I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare [!UICONTROL People] filtri in base a <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite e entrate: persone da Facebook, una pagina di destinazione definita, un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
-## Introduzione a Quick Insights
+## Seleziona
 
-1. Effettua l’accesso ad Customer Journey Analytics utilizzando le credenziali che ti sono state fornite.
-1. Vai su [!UICONTROL Workspace], fai clic su **[!UICONTROL Create New Project]** e quindi su **[!UICONTROL Quick Insights]**. Puoi accedere a questo pannello anche dal menu **[!UICONTROL Panel]** nella barra a sinistra.
+Per utilizzare un pannello **[!UICONTROL Quick insights]**:
 
-   ![Vista Tutti i modelli che evidenzia l’opzione Quick Insights.](assets/qibuilder.png)
+1. Crea un pannello **[!UICONTROL Quick insights]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-   ![Elenco Pannelli che evidenzia l’opzione Quick Insights.](assets/qi-panel.png)
+1. Quando utilizzi un pannello **[!UICONTROL Quick insights]** per la prima volta, potrebbe essere utile esaminare il breve [!UICONTROL Intro tutorial] che illustra alcune delle nozioni di base. Seleziona ![HelpOutline](/help/assets/icons/HelpOutline.svg) accanto al titolo del pannello Quick Insights e seleziona **[!UICONTROL Intro tutorial]** dal popup.
 
-1. La prima volta, segui il breve tutorial che illustra alcune delle nozioni di base di [!UICONTROL Quick Insights panel]. Oppure, fai clic per **[!UICONTROL Skip Tutorial]**.
-1. Seleziona i blocchi predefiniti (noti anche come componenti): dimensioni (arancione), metriche (verde), filtri (blu) o intervalli di date (viola). Devi selezionare almeno una dimensione e una metrica affinché una tabella possa essere generata automaticamente.
+1. Specifica [input](#panel-input) per il pannello.
 
-   ![Componenti, tra cui dimensioni, metriche, filtri, segmenti e intervalli di date.](assets/qibuilder2.png)
+1. Osserva [output](#panel-output) per il pannello.
 
-   Sono disponibili tre modi per selezionare i blocchi predefiniti:
-   * Trascinali e rilasciali dalla barra a sinistra.
-   * Se sai cosa stai cercando, inizia a digitare e [!UICONTROL Quick Insights] riempirà gli spazi vuoti.
-   * Fai clic sull’elenco a discesa ed cerca nell’elenco.
 
-1. Dopo aver aggiunto almeno una dimensione e una metrica, verrà creato quanto segue:
+### Input del pannello
 
-   * Una tabella a forma libera con la dimensione (in questo caso US States) in verticale e la metrica (in questo caso Visits) in orizzontale nella parte superiore. Osserva questa tabella:
+Seleziona i blocchi predefiniti:
 
-   ![Tabella a forma libera che mostra la dimensione in verticale e la metrica in orizzontale.](assets/qibuilder3.png)
+* **[!UICONTROL Analyze]** - specifica una dimensione (arancione)
+* **[!UICONTROL by]** - specifica una metrica (verde)
+* **[!UICONTROL filter by]** - specificare un filtro (blu)
+* **[!UICONTROL on]** - specificare un intervallo di dati (viola).
 
-   * Una visualizzazione associata, in questo caso un [grafico a barre](/help/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati che hai aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato sul tempo (ad esempio [!UICONTROL Visits] al giorno/mese) viene visualizzato in un grafico a [!UICONTROL Line]. Per impostazione predefinita, qualsiasi dato non basato sul tempo (ad esempio [!UICONTROL Visits] per [!UICONTROL Device]) viene visualizzato in un grafico a [!UICONTROL Bar]. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia dell’elenco a discesa accanto al tipo di visualizzazione.
+Per il corretto funzionamento della visualizzazione, devi selezionare almeno una dimensione e una metrica.
 
-1. Per eseguire un drill-down delle dimensioni e vedere gli elementi dimensionali, fai clic sulla freccia rivolta a destra > accanto alla dimensione (facoltativo).
 
-1. Prova ad aggiungere altri miglioramenti come descritto di seguito in “Ulteriori suggerimenti”.
 
-1. Salva il progetto facendo clic su **[!UICONTROL Project > Save]**.
+È possibile specificare i blocchi predefiniti in tre modi:
+
+* Trascina i componenti dal pannello a sinistra.
+* Inizia a digitare in uno dei campi del blocco predefinito. Quando viene trovato un input, il campo blocco predefinito viene compilato automaticamente con i valori possibili.
+* Specificare un elenco a discesa del blocco predefinito (ad esempio `Country` in **[!UICONTROL Analyze]**) e cercare nell&#39;elenco dei valori possibili (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore che si desidera utilizzare (ad esempio **[!UICONTROL Country code]**).
+
+Selezionare **[!UICONTROL Clear]** per cancellare tutti i campi di input.
+
+
+### Output del pannello
+
+1. Dopo aver aggiunto almeno una dimensione e una metrica, puoi visualizzare i risultati.
+
+   ![Tabella a forma libera che mostra la dimensione in verticale e la metrica in orizzontale.](assets/quick-insights-output.png)
+
+   * Tabella a forma libera con dimensione (Codice paese) e metrica (Sessioni), filtrata per sessioni web per gli ultimi 12 mesi.
+
+   * Una visualizzazione associata, in questo caso un [grafico a barre](/help/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati che hai aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato sul tempo (ad esempio [!UICONTROL Sessions] al giorno/mese) viene visualizzato in un grafico a [!UICONTROL Line]. Per impostazione predefinita, qualsiasi dato non basato sul tempo (ad esempio [!UICONTROL Sessions] per [!UICONTROL Device]) viene visualizzato in un grafico a [!UICONTROL Bar]. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia dell’elenco a discesa accanto al tipo di visualizzazione.
+
+1. Prova ad aggiungere altri miglioramenti come descritto di seguito in [Altri suggerimenti](#more-tips)
+
+1. È possibile salvare il progetto utilizzando **[!UICONTROL Project > Save]**.
 
 ## Ulteriori suggerimenti
 
-Altri utili suggerimenti compariranno nel pannello [!UICONTROL Quick Insights Builder], alcuni a seconda dell’ultima azione.
+Altri utili suggerimenti vengono visualizzati in [!UICONTROL Quick Insights Builder], alcuni a seconda dell&#39;ultima azione.
 
-* Innanzitutto, completa il tutorial **[!UICONTROL More tips]**: puoi accedervi tramite l’icona di aiuto (?) accanto al titolo [!UICONTROL Quick Insights]. Questo tutorial viene visualizzato 24 ore dopo la creazione di un progetto con almeno una dimensione e una metrica.
+* Innanzitutto, potrebbe essere utile completare l&#39;esercitazione di **[!UICONTROL More tips]**. Questo tutorial viene visualizzato 24 ore dopo la creazione di un progetto con almeno una dimensione e una metrica. Seleziona ![HelpOutline](/help/assets/icons/HelpOutline.svg) accanto al titolo del pannello Quick Insights e seleziona **[!UICONTROL More tips]** dal popup.
 
-  ![Notifica del pannello Quick Insights visualizzata dopo aver fatto clic sull’icona Aiuto.](assets/qibuilder4.png)
+  ![La notifica del pannello Quick Insights viene visualizzata dopo aver selezionato l&#39;icona della Guida.](assets/qibuilder4.png)
 
-* **Raggruppamento per**: puoi utilizzare fino a 3 livelli di raggruppamenti sulle dimensioni per eseguire un drill-down dei dati effettivamente necessari.
+* Puoi analizzare più dimensioni e metriche, combinare o confrontare filtri e specificare un intervallo di dati:
 
-  ![Sottolivelli di raggruppamenti.](assets/qibuilder5.png)
+  ![Risultato Generatore Quick Insights](assets/qibuilder-result.png)
 
-* **Aggiungi altre metriche**: puoi aggiungere fino a 2 ulteriori metriche utilizzando l’operatore AND per aggiungerle alla tabella.
+   * **[!UICONTROL Analyze]** dimensione **[!UICONTROL Broken-Down by]**: è possibile utilizzare fino a 3 livelli di raggruppamenti sulle dimensioni per eseguire il drill-down dei dati effettivamente necessari. Consulta le sezioni, E.
 
-  ![Più metriche tra cui Visite e Dispositivi.](assets/qibuilder6.png)
+   * Aggiungi altre metriche **[!UICONTROL by]**: è possibile aggiungere fino a 2 ulteriori metriche. Consulta la sezione su come e ➎.
 
-* **Aggiungi altri filtri**: puoi aggiungere fino a 2 ulteriori filtri utilizzando gli operatori AND o OR per aggiungerli alla tabella. Osserva cosa succede alla tabella quando aggiungi Mobile Users OR Loyal Visitors. Si trovano l’uno accanto all’altro, sopra le metriche. Se hai aggiunto Mobile Users AND Loyal Visitors, vedrai i risultati di entrambi i filtri insieme e saranno l’uno sopra l’altro nella tabella.
+   * **[!UICONTROL filter by]**: è possibile aggiungere fino a 2 ulteriori filtri. Ad esempio, aggiungi Prenotazioni come filtro e combina tale filtro con i filtri Prenotazioni frequenti e Volantini per la prima volta che confronti. Consulta ➏, ➐ e ➑.
 
-  ![Diagramma che mostra Mobile Users e Loyal Visitors aggiunti.](assets/qibuilder7.png)
+   * on: è possibile specificare l’intervallo di dati. Consulta ➒.
 
 ## Limitazioni note
 
-Se tenti di modificare direttamente all’interno della tabella, il pannello [!UICONTROL Quick Insights] non sarà sincronizzato. Per ripristinare le impostazioni precedenti di [!UICONTROL Quick Insights], fai clic su **[!UICONTROL Resync Builder]** in alto a destra del pannello.
+Se si tenta di modificare direttamente all&#39;interno della tabella, il pannello [!UICONTROL Quick Insights] potrebbe non essere sincronizzato. Seleziona **[!UICONTROL Resync Builder]** in alto a destra nel pannello per ripristinarlo alle impostazioni [!UICONTROL Quick Insights] precedenti.
 
-![Pannello Quick Insights con l’opzione Resync Builder (Generatore di risincronizzazione).](assets/qibuilder9.png)
+Viene visualizzato un avviso prima di aggiungere qualsiasi elemento direttamente alla tabella:
 
-Prima di aggiungere qualsiasi elemento direttamente alla tabella, visualizzerai un avviso.
+![Avviso dell’opzione Resync Builder.](assets/qibuilder-outofsync.png)
 
-![Avviso dell’opzione Resync Builder.](assets/qibuilder8.png)
+In caso contrario, la creazione diretta fa sì che la tabella si comporti come una tabella a forma libera tradizionale, senza le funzioni utili per i nuovi utenti.
 
-In caso contrario, la creazione diretta farà sì che la tabella ora si comporti come una tabella a forma libera tradizionale, senza le funzioni utili per i nuovi utenti.
+
+>[!MORELIKETHIS]
+>
+>[Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>

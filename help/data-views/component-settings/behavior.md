@@ -5,14 +5,24 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 89%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
-# Impostazioni del componente Comportamento
+# Impostazioni del componente Comportamento {#behavior-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_behavior"
+>title="Comportamento"
+>abstract="Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati.<br/><br/>**Parametri **<br/>**Minuscolo**: consente di specificare se i valori stringa nel campo devono essere minuscoli."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Le impostazioni del comportamento sono disponibili sia per le dimensioni che per le metriche. La disponibilità delle impostazioni dipende dal tipo di componente e dal tipo di dati dello schema.
 

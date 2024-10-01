@@ -4,14 +4,25 @@ description: Dettagli e come configurare le dimensioni dai set di dati per garan
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 2%
 
 ---
 
-# Impostazioni del componente [!UICONTROL Summary data group]
+# Impostazioni del componente [!UICONTROL Summary data group] {#summary-data-group-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup"
+>title="Gruppo di dati di riepilogo"
+>abstract="Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per combinare dimensioni da set di dati di riepilogo con altre dimensioni per il reporting."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per combinare dimensioni da set di dati di riepilogo con altre dimensioni per il reporting.
 
@@ -31,7 +42,7 @@ Per creare un raggruppamento di dimensioni:
 Quando si raggruppano le dimensioni, è necessario assicurarsi che le impostazioni per [!UICONTROL Substring], [!UICONTROL Behavior (Lower case)] e [!UICONTROL Include exclude values], per ciascuna delle dimensioni che fanno parte del gruppo, siano uguali. In caso contrario, ogni dimensione del gruppo può potenzialmente restituire risultati diversi prima del raggruppamento.
 Ad esempio:
 
-1. È stato creato un gruppo di dati di riepilogo per `campaign_code` (parte dei dati di riepilogo) e `tracking_code` (parte dei dati evento).
+1. È stato creato un gruppo di dati di riepilogo per `campaign_code` (parte dei dati di riepilogo) e `tracking_code` (parte dei dati dell&#39;evento).
 1. Hai applicato [!UICONTROL Behavior (Lower case)] alla dimensione `campaign_code` ma non alla dimensione `tracking_code`.
 
 I valori in `tracking_code` potrebbero essere visualizzati come diversi da `campaign_code`.
@@ -40,5 +51,3 @@ I valori in `tracking_code` potrebbero essere visualizzati come diversi da `camp
 >
 >Assicuratevi di effettuare il raggruppamento di quote da una sola quota e di non applicare il raggruppamento da più quote. Ad esempio, se si crea un raggruppamento aggiungendo la dimensione `campaign_name` alla dimensione `tracking_code`, non creare un raggruppamento anche per la dimensione `campaign_name`.
 >
-
-

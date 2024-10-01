@@ -5,20 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1989'
 ht-degree: 6%
 
 ---
 
-# Visualizzare l’attività di reporting in Reporting Activity Manager
+# Visualizzare l’attività di reporting {#view-reporting-activity}
 
 [!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e risolvere rapidamente i problemi di capacità di reporting durante i periodi in cui si verificano picchi di reporting.
 
 Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chiave e i requisiti delle autorizzazioni, vedere [Panoramica di Reporting Activity Manager](/help/reporting-activity-manager/reporting-activity-overview.md).
 
-## Visualizza attività di reporting per tutte le connessioni {#view-all-report-suites}
+## Per tutte le connessioni {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Connessioni"
+>abstract="Questa tabella mostra le connessioni per le quali si dispone dei diritti per gestire l&#39;attività di reporting. Le informazioni su ciascuna connessione sono disponibili in ogni colonna della tabella."
+
+<!-- markdownlint-enable MD034 -->
+
 
 1. In Customer Journey Analytics, vai a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -36,7 +46,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    * Utilizza il campo di ricerca per cercare una connessione specifica. Inizia a digitare il nome o l’ID della connessione e l’elenco degli aggiornamenti delle connessioni durante la digitazione.
 
-   * Seleziona l&#39;icona [!UICONTROL **Filtro**] ![Icona Filtro](assets/filter-icon.png) per espandere l&#39;elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
+   * Seleziona ![Filtro](/help/assets/icons/Filter.svg) per espandere l&#39;elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
 
      Per contrassegnare una connessione come preferita, seleziona l’icona a forma di stella a sinistra del nome della connessione.
 
@@ -57,7 +67,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    {style="table-layout:auto"}
 
-## Visualizzare l’attività di reporting per una singola connessione
+## Per una singola connessione
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Strumenti**] > [!UICONTROL **Gestione attività di reporting**].
 

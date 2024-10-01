@@ -5,14 +5,60 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 99%
+source-wordcount: '3357'
+ht-degree: 94%
 
 ---
 
-# Creare o modificare una connessione
+# Creare o modificare una connessione {#create-or-edit-a-connection}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsadded"
+>title="Record aggiunti"
+>abstract="Il numero di record (righe) aggiunti a una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsskipped"
+>title="Record ignorati"
+>abstract="Il numero di record (righe) ignorati durante il trasferimento di dati per una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsdeleted"
+>title="Record eliminati"
+>abstract="Numero di record (righe) rimossi da una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_lastadded"
+>title="Ultima aggiunta"
+>abstract="La marca temporale dell’ultimo batch da qualsiasi set di dati trasferito a una connessione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_enablerollingdatawindow"
+>title="Abilita finestra continua dati"
+>abstract="Definisci la conservazione dei dati come finestra continua in mesi a livello di connessione."
+
+<!-- markdownlint-enable MD034 -->
+
 
 L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. E ti consente di specificare informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato del batch, stato di retrocompilazione, ID persona e molto altro, per ridurre il rischio di configurazione errata della connessione. Di seguito una panoramica delle nuove funzionalità:
 
@@ -22,7 +68,11 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 * Puoi modificare i set di dati, ad esempio per richiedere un’altra retrocompilazione.
 * Puoi importare dati esistenti per set di dati.
 
++++ Video che illustra come creare e modificare un’esperienza di connessione
+
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
++++
 
 ## Prerequisiti
 
@@ -70,6 +120,42 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
    {style="table-layout:auto"}
 
 ## Aggiungere e configurare i set di dati {#add-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="Chiave corrispondente"
+>abstract="Seleziona un campo a cui unire un set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_importnewdata"
+>title="Importare nuovi dati"
+>abstract="Eventuali nuovi batch aggiunti al set di dati Experience Platform verranno aggiunti automaticamente a questa connessione e resi disponibili per l’analisi."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_datasetbackfill"
+>title="Recupero set di dati"
+>abstract="Questa opzione esegue il backfill dei dati esistenti (storici) dall’Experience Platform per questo set di dati nella connessione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_transformdataset"
+>title="Trasforma set di dati"
+>abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivato, la trasformazione del set di dati è irreversibile."
+
+<!-- markdownlint-enable MD034 -->
 
 Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experience Platform quando si crea una connessione.
 

@@ -5,14 +5,24 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 94%
 
 ---
 
-# Impostazioni del componente [!UICONTROL Substring]
+# Impostazioni del componente Substring (Sottostringa) {#substring-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_substring"
+>title="Sottostringa"
+>abstract="Estrarre parti di una stringa utilizzando regole o espressioni regolari."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire più metodi di manipolazione delle stringhe per ottenere gli elementi dimensionali desiderati nei rapporti.
 

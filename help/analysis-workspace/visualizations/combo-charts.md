@@ -1,24 +1,34 @@
 ---
-description: Consente di visualizzare facilmente i dati di confronto in Analysis Workspace, ad esempio per fare confronti con lo scorso mese, lo scorso anno e così via.
+description: Visualizzare facilmente i dati di confronto in Analysis Workspace, ad esempio per effettuare confronti con il mese scorso, lo scorso anno e così via.
 title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 83%
+source-wordcount: '542'
+ht-degree: 45%
 
 ---
 
-# Grafico combinato
+# Combinato {#combo}
 
-La [!UICONTROL Combo chart] visualizzazione consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
+<!-- markdownlint-disable MD034 -->
 
-Utilizza [!UICONTROL Combo chart] per:
+>[!CONTEXTUALHELP]
+>id="cja_workspace_combo_button"
+>title="Combinato"
+>abstract="Crea rapidamente una visualizzazione con grafico combinato senza dover prima creare una tabella a forma libera."
 
-* Confrontare gli ordini di questa settimana con quelli dello stesso momento lo scorso mese (e lo scorso anno), tutto in pochi clic.
-* Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Unique Visitors] e [!UICONTROL Revenue]) tra di loro sullo stesso grafico.
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![Commento](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
+
+Utilizza [!UICONTROL Combo] per:
+
+* Confrontare gli ordini di questa settimana con quelli dello stesso periodo del mese scorso (e dell&#39;anno scorso).
+* Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Persons] e [!UICONTROL Revenue]) tra di loro sullo stesso grafico.
 * Analizzare una metrica rispetto a una funzione (ad esempio [!UICONTROL Cumulative Average]) su un orizzonte temporale.
 
 Aspetti da considerare:
@@ -29,41 +39,39 @@ Aspetti da considerare:
 * Puoi applicare fino a 3 filtri a una metrica.
 * Le metriche calcolate non sono supportate nei grafici combinati.
 
-## Creare un grafico combinato
+## Seleziona
 
-1. Dall’elenco a discesa delle Visualizzazioni nella barra a sinistra, trascina la [!UICONTROL Combo chart] visualizzazione in un pannello vuoto.
-
-   ![Grafico combinato con l&#39;asse X e Y e il campo delle opzioni](assets/combo-chart-build.png)
+1. Aggiungi una visualizzazione ![Commento](/help/assets/icons/ComboChart.svg) [!UICONTROL Combo]. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
 1. Dall’elenco a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
-1. Seleziona il tipo di [!UICONTROL Line comparison] che desideri utilizzare.
+1. Selezionare il tipo di [!UICONTROL Line comparison] che si desidera utilizzare.
 
    | Tipo di confronto a linee | Definizione |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Confronto in linea con il periodo di tempo selezionato e il campo di selezione secondario per il periodo di tempo.](assets/combo-time-period.png) |
    | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Menu a discesa di confronto delle righe che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Grafico combinato che confronta due metriche.](assets/combo-2metrics.png) |
+   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Grafico combinato che confronta due metriche.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Build]**.
 
-   L’output sarà simile al seguente:
+   L’output è simile al seguente:
 
    ![Grafico combinato che mostra il periodo corrente in un grafico a barre e il periodo di confronto nel grafico a linee ](assets/combo-output.png)
 
-   Il periodo corrente viene visualizzato nel grafico a barre; il periodo di confronto è rappresentato dal grafico a linee. I punti nel grafico a linee sono noti come “bar bells”, in quanto sono simili ai pesi di un bilanciere.
+   Il periodo corrente viene visualizzato nel grafico a barre. Il grafico a linee rappresenta il periodo di confronto. I punti nel grafico a linee sono noti come *bar bells*.
 
 ## Funzioni supportate
 
-Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verrà restituita una funzione della metrica selezionata.
+Se si seleziona **[!UICONTROL Function]** come [!UICONTROL Line comparison type], viene restituita una funzione della metrica scelta.
 
 | Funzione | Definizione |
 | --- | --- |
-| **[!UICONTROL Column Sum]** | Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione) |
+| **[!UICONTROL Column Sum]** | Aggiunge tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione) |
 | **[!UICONTROL Cumulative Average]** | Restituisce la media delle ultime N righe. |
-| **[!UICONTROL Median]** | Restituisce la mediana di una metrica in una colonna. La mediana è il numero nel mezzo di un insieme di numeri, ovvero metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana. |
+| **[!UICONTROL Median]** | Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. La metà dei numeri ha valori che sono maggiori o uguali alla mediana e la metà dei numeri ha valori che sono minori o uguali alla mediana. |
 | **[!UICONTROL Cumulative]** | Somma cumulativa di N righe. |
 | **[!UICONTROL Column Maximum]** | Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. |
 | **[!UICONTROL Mean]** | Restituisce la media aritmetica di una metrica. |
@@ -77,28 +85,11 @@ Ecco un esempio della media cumulativa della metrica Ricavi:
 
 Di seguito è riportato un esempio di grafico combinato con entrambe le funzioni di Media cumulativa e Media:
 
-![Un grafico combinato che mostra le funzioni media cumulativa e media.](assets/combo-two-functions.png)
+![Un grafico combinato che mostra le funzioni media cumulativa e media.](assets/combo-three-functions.png)
 
-## Impostazioni del grafico combinato
-
-Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico combinato per modificarne le impostazioni.
-
-![Visualizzazione impostazioni grafico combinato con le opzioni descritte di seguito.](assets/combo-settings.png)
-
-| Impostazione | Definizione |
-| --- | --- |
-| **[!UICONTROL Visualization type]** | Consente di passare a un altro tipo di visualizzazione. |
-| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. |
-| **[!UICONTROL General]** |  |
-| **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
-| **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |
-| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se disponi di un set di dati di grandi dimensioni, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
-| **[!UICONTROL Overlays]** | Mostra o nasconde i punti (o “bar bell”) sulle linee. |
-| **[!UICONTROL Axis]** | |
-| **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse Y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore per tutti i confronti è il grigio. |
-| **[!UICONTROL Normalization]** | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
-| **[!UICONTROL Show x-axis]** | Visualizza o nasconde l’asse X. |
-| **[!UICONTROL Show y-axis]** | Visualizzare o nascondere l’asse y. |
-| **[!UICONTROL Anchor y-axis at zero]** | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
-
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

@@ -5,45 +5,50 @@ title: Gestione delle origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 17%
 
 ---
 
-# Gestione delle origini dati
+# Gestione delle origini dati {#manage-data-sources}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_lockselection"
+>title="Blocca selezione"
+>abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni selezionate o negli elementi selezionati nell’origine dati."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_lockselection_showtable"
+>title="Mostra tabella"
+>abstract="Selezionando **[!UICONTROL Show table]** verrà generata una nuova origine dati per la visualizzazione corrente, separata dall&#39;origine dati originale."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 
-**Suggerimento:** puoi individuare le visualizzazioni correlate dal colore del punto accanto al titolo. Colori uguali indicano che le visualizzazioni si basano sulla stessa origine dati.
+>[!TIP]
+>
+>Puoi individuare le visualizzazioni correlate dal colore di ![StatusOrange](/help/assets/icons/StatusOrange.svg) accanto al titolo delle visualizzazioni. Colori uguali indicano che le visualizzazioni si basano sulla stessa origine dati.
+>
 
-La gestione di un’origine dati consente di mostrare l’origine dati o di bloccare la selezione. Queste impostazioni determinano in che modo la visualizzazione cambia o meno con l’arrivo di nuovi dati.
+È possibile visualizzare o nascondere l&#39;origine dati. È inoltre possibile bloccare la selezione in base alle posizioni o agli elementi selezionati. Queste impostazioni determinano in che modo la visualizzazione cambia o meno con l’arrivo di nuovi dati.
 
-1. [Crea un progetto](/help/analysis-workspace/home.md) con una tabella di dati e una [visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
-1. Nella tabella di dati, seleziona le celle (origine dati) che vuoi associare alla visualizzazione.
-1. Nella visualizzazione, fai clic sul punto accanto al titolo per visualizzare la finestra di dialogo **[!UICONTROL Data Source]** (Gestisci origini dati). Seleziona **[!UICONTROL Show Data Source]** (Mostra origine dati) o **[!UICONTROL Lock Selection]** (Blocca selezione).
+![La finestra di dialogo delle opzioni di Data Source mostra le opzioni descritte nella sezione successiva.](assets/lock-selection.png)
 
-   ![La finestra di dialogo dell&#39;opzione Data Source mostra le opzioni descritte nella sezione successiva.](assets/manage-data-source.png)
 
-   La sincronizzazione di una visualizzazione in una cella della tabella crea una nuova tabella (nascosta) e codifica tramite i colori la visualizzazione sincronizzata con quella tabella.
-
-| Elemento | Descrizione |
+| Opzione | Descrizione |
 |--- |--- |
-| [!UICONTROL Linked Visualizations] | Se sono presenti visualizzazioni collegate a una tabella a forma libera o di coorti, con il punto in alto a sinistra si apre l’elenco delle visualizzazioni collegate e una casella “mostra” permette di mostrare o nascondere la tabella.  Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta. |
-| [!UICONTROL Show Data Source] | Consente di mostrare (attivando la casella di controllo) o nascondere (disattivandola) la tabella di dati corrispondente alla visualizzazione. |
-| [!UICONTROL Lock Selection] | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:  <ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continueranno ad essere visualizzate, anche nel caso in cui cambiassero gli elementi specifici che occupano tali posizioni. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li> <li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continueranno a essere visualizzati, anche nel caso in cui cambiassero posizione in graduatoria rispetto agli altri elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
-
-A differenza dell’architettura precedente, con questa architettura Analysis Workspace non crea più un livello duplicato nascosto in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
-
-**Esempi di utilizzo:**
-
-* Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati origine sono visualizzati in grigio:
-
-  ![Percorso origine dati in un foglio di lavoro.](assets/data-source2.png)>
-* Puoi aggiungere numerose visualizzazioni, da diverse celle nella stessa tabella, come indicato di seguito. La tabella è la stessa dell’esempio precedente, ma la cella (e la metrica) di origine è diversa:
-
-  ![Percorso origine dati con visualizzazioni aggiunte provenienti da più celle](assets/data-source3.png)>
-* Per vedere se esistono visualizzazioni collegate a una tabella a forma libera o di coorti, fai clic sul punto in alto a sinistra (Impostazioni origine dati). Passa il mouse sulla visualizzazione collegata per evidenziarla; fai clic per aprirla.
-
-  ![Impostazioni Source dati che evidenziano una visualizzazione collegata per le visualizzazioni delle pagine principali.](assets/linked-visualizations.png)>
+| **[!UICONTROL Data source]** | Dal menu a discesa, seleziona l’origine dati su cui si basa la visualizzazione. |
+| **[!UICONTROL Linked visualizations]** | Elenca tutte le visualizzazioni collegate. Si applica all’origine dati (tabella a forma libera). |
+| **[!UICONTROL Show data source]** | Consente di mostrare o nascondere l’origine dati (tabella a forma libera) corrispondente alla visualizzazione. |
+| **[!UICONTROL Lock Selection]** | Selezionare questa opzione per bloccare la visualizzazione ![BloccaChiusa](/help/assets/icons/LockClosed.svg) ai dati attualmente selezionati nella tabella di dati corrispondente. Una volta abilitata, seleziona tra:  <ul><li>**Posizioni selezionate**: la visualizzazione è bloccata sulle **posizioni** selezionate nella tabella di dati corrispondente. Queste posizioni continuano a essere visualizzate, anche se gli elementi specifici in queste posizioni cambiano (ad esempio a causa di ordinamenti o filtri). Ad esempio, seleziona questa opzione se desideri visualizzare sempre i primi cinque nomi di campagna elencati nell’origine dati di questa visualizzazione. Indipendentemente dai nomi delle campagne visualizzati.</li> <li>**Elementi selezionati**: la visualizzazione è bloccata su **elementi** specifici attualmente selezionati nella tabella di dati corrispondente. Questi elementi continuano a essere visualizzati, anche se modificano la classificazione tra gli elementi della tabella. Ad esempio, seleziona questa opzione se desideri visualizzare sempre gli stessi cinque nomi di campagna specifici elencati nell’origine dati di questa visualizzazione. Indipendentemente dalla classificazione di quei nomi di campagna.</li></ul>Se la visualizzazione è bloccata su dati che non sono più visibili nella tabella di dati connessa, puoi generare una nuova tabella. Seleziona **[!UICONTROL Show table]** per generare una nuova origine dati per la visualizzazione corrente, separata dall&#39;origine dati originale. |

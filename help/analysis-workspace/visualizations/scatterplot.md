@@ -1,19 +1,29 @@
 ---
-title: Grafico a dispersione
+title: A dispersione
 description: Visualizzazione che mostra la relazione tra un massimo di tre metriche.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 94%
+source-wordcount: '144'
+ht-degree: 67%
 
 ---
 
-# Grafico a dispersione
+# A dispersione {#scatter}
 
-La visualizzazione del grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_scatter_button"
+>title="A dispersione"
+>abstract="Crea una visualizzazione a dispersione che mostra la relazione tra gli elementi dimensionali fino a tre metriche."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
 
 * Il componente riga (in genere una dimensione) rappresenta ogni punto del grafico. Righe diverse vengono mostrate come punti colorati diversi.
 * La colonna più a sinistra (in genere una metrica) traccia la posizione del punto sull’asse Y (verticale).
@@ -22,3 +32,10 @@ La visualizzazione del grafico a dispersione mostra la relazione tra gli element
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
 ![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

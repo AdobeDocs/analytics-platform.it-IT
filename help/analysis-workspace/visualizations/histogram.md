@@ -4,64 +4,71 @@ title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 80%
+source-wordcount: '310'
+ht-degree: 40%
 
 ---
 
-# Istogramma
+# Istogramma {#histogram}
 
-Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#section_09D774C584864D4CA6B5672DC2927477).
+<!-- markdownlint-disable MD034 -->
 
-## Creare un istogramma {#section_74647707CC984A1CB6D3097F43A30B45}
+>[!CONTEXTUALHELP]
+>id="cja_workspace_histogram_button"
+>title="Istogramma"
+>abstract="Crea una visualizzazione istogramma per rappresentare la distribuzione dei dati numerici in gruppi di intervalli."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![Istogramma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** è simile a una visualizzazione [!UICONTROL Bar], ma raggruppa i numeri in intervalli (bucket). Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#advanced-settings).
+
+## Seleziona
 
 Per creare un istogramma:
 
-1. Fai clic su **[!UICONTROL Visualizations]** nella barra a sinistra.
-1. Trascina **[!UICONTROL Histogram]** nel pannello.
-1. Scegli una metrica da trascinare sulla visualizzazione Istogramma e fai clic su **[!UICONTROL Build]**.
-
-![Pannello istogramma vuoto che mostra il campo Rilascia una metrica sotto.](assets/histogram.png)
+1. Aggiungi una visualizzazione ![Istogramma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]**. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Trascinare una metrica dall&#39;elenco dei componenti **[!UICONTROL Metrics]** oppure selezionare una metrica dal menu a discesa [!UICONTROL *Aggiungi una metrica*].
+1. (facoltativo) Selezionare **[!UICONTROL Show advanced settings]**. Vedi [Impostazioni avanzate](#advanced-settings).
+1. Seleziona **[!UICONTROL Build]**.
 
 >[!NOTE]
 >
 >Gli istogrammi supportano solo metriche standard; le metriche calcolate non sono supportate.
 
-In questo esempio abbiamo usato la metrica Visualizzazioni di pagina per Visitatori uninovi. Il primo bucket (a sinistra) corrisponde a 1 visualizzazione di pagina per persona univoca, il secondo a due visualizzazioni di pagina, ecc.
+Nell’esempio seguente, viene utilizzato un istogramma per le sessioni di bucket relative al numero di persone. L’istogramma mostra che la maggior parte delle persone ha tra 16 e 21 sessioni per l’intervallo di dati selezionato.
 
-![](assets/histogram2.png)
+![](assets/histogram.png)
 
 ## Impostazioni avanzate {#section_09D774C584864D4CA6B5672DC2927477}
 
-Per regolare le impostazioni dell’istogramma, fai clic sull’icona Impostazioni (a forma di ingranaggi) in alto a destra. Puoi modificare le seguenti impostazioni:
+Come parte della visualizzazione, sono disponibili impostazioni specifiche dell’istogramma.
 
-| Impostazioni istogramma | Funzione |
+| Impostazioni degli istogrammi | Descrizione |
 |---|---|
-| Intervallo iniziale | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
-| Intervalli di metrica | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
-| Dimensione intervalli di metrica | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
-| Metodo di conteggio | Consente di scegliere tra [Visitatore](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=it), [Visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) o Tipo di hit. Ad esempio, visualizzazioni di pagina per visita, per persona o per evento. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera. |
+| **[!UICONTROL Starting bucket]** | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
+| **[!UICONTROL Metric buckets]** | Puoi aumentare o ridurre il numero di intervalli di dati. Il numero massimo consentito è 50. |
+| **[!UICONTROL Metric bucket size]** | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
+| **[!UICONTROL Counting method]** | Seleziona tra **[!UICONTROL Person]**, **[!UICONTROL Session]** o **[!UICONTROL Event]**. Ad esempio, visualizzazioni pagina per sessione, visualizzazioni pagina per persona o visualizzazioni pagina per evento. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Esempi**:
 
-* Con Intervallo iniziale: 1; Intervalli di metrica: 5; Dimensione intervalli di metrica: 2 viene generato l’istogramma: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Con Intervallo iniziale: 0; Intervalli di metrica: 3; Dimensione intervalli di metrica: 5 viene generato l’istogramma: 0-4, 5-9, 10-14.
+| Bucket iniziale | Periodi fissi di metrica | Dimensione del bucket della metrica | Risultato |
+|:----:|:--:|:--:|:--|
+| 1 | 5 | 2 | ![Istogramma, bucket iniziale 1, bucket metrica 5, dimensione bucket metrica 2](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![Istogramma, bucket iniziale 0, bucket metrica 3, dimensione bucket metrica 5](assets/histogram-0-3-5.png) |
 
-## Visualizzare e modificare i dati dell’istogramma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
 
-Per visualizzare o modificare l’origine dei dati dell’istogramma, fai clic sul punto accanto all’intestazione Istogramma per passare a **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
-
-![Opzioni delle impostazioni di Data Source con Mostra Data Source e Blocca selezione selezionati.](assets/manage-data-source.png)
-
-I filtri pregenerati che compaiono nella tabella sono filtri interni e non saranno visualizzati nel selettore dei filtri. Fai clic sul pulsante “i” accanto al nome del filtro, quindi fai clic su **[!UICONTROL Make public]** per rendere il filtro pubblico.
-
-![Segmenti che mostrano la finestra di modifica e il collegamento Rendi pubblico.](assets/prebuilt_segments.png)
-
-Per scoprire altri modi di gestire le tabelle di dati a forma libera e altre visualizzazioni, ad esempio per raggruppare i dati, visita [questa pagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
 
 ## Post di blog
 

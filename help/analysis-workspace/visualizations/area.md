@@ -4,27 +4,56 @@ title: Superfici e superfici sovrapposte
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 75%
+source-wordcount: '162'
+ht-degree: 17%
 
 ---
 
 # Superfici e superfici sovrapposte
 
-## Area {#Area}
+## Area {#area}
 
-Questa visualizzazione di è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche.
+<!-- markdownlint-disable MD034 -->
 
-![Visualizzazione area che mostra più metriche tra cui visualizzazioni di pagina, visite, visitatori univoci e frequenza di rimbalzo.](assets/area.png)
+>[!CONTEXTUALHELP]
+>id="cja_workspace_area_button"
+>title="Grafico a superficie"
+>abstract="Crea una visualizzazione grafico ad area per rappresentare l’intersezione di più metriche."
 
-## Superfici sovrapposte {#stacked}
+<!-- markdownlint-enable MD034 -->
 
-Questa visualizzazione è simile al grafico a superfici, ma ogni serie inizia al di sopra di quella precedente.
+
+La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** è simile a un grafico a linee, ma presenta un&#39;area colorata al di sotto della linea. Aggiungi un grafico a superficie quando disponi di più metriche e desideri visualizzare l’area espressa dall’intersezione di due o più metriche.
+
+![Visualizzazione area con più metriche](assets/area.png)
+
+## Superfici sovrapposte {#area-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_areastacked_button"
+>title="Superfici sovrapposte"
+>abstract="Crea una visualizzazione grafico ad area per rappresentare la sovrapposizione di più metriche."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+
+La visualizzazione ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** è simile a un&#39;area, ma ogni serie inizia all&#39;inizio della serie precedente.
 
 ![Superfici sovrapposte che mostrano ogni serie all&#39;inizio della serie precedente.](assets/area-stacked.png)
 
-Una nuova impostazione per le visualizzazioni Superfici sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
+Utilizza l&#39;opzione **[!UICONTROL 100% stacked]** in ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** per trasformare il grafico in una visualizzazione con sovrapposizione 100%.
 
-![Superfici sovrapposte che mostrano una visualizzazione con sovrapposizione 100%.](assets/areastacked100.png)
+![Superfici sovrapposte che mostrano una visualizzazione con sovrapposizione 100%.](assets/area-stacked100.png)
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

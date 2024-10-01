@@ -4,24 +4,42 @@ title: Informazioni sui rapporti di fallout e sulle visualizzazioni
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b38e9052618f7326cd5ea22b6cda8b96624a3f84
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 79%
+source-wordcount: '241'
+ht-degree: 47%
 
 ---
 
-# Panoramica dell’abbandono
+# Panoramica dell’abbandono {#fallout-overview}
 
-I rapporti di abbandono mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_fallout_button"
+>title="Fallout (abbandono)"
+>abstract="Crea una visualizzazione per visualizzare il modo in cui le persone passano correttamente ai punti di controllo desiderati."
+
+<!-- markdownlint-enable MD034 -->
+
+
+Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) [!UICONTROL Fallout] mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
+
++++ Visualizza una dimostrazione video di [!UICONTROL Fallout visualization].
+
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+
+{{videoaa}}
+
++++
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. Le visualizzazioni Abbandono consentono di:
 
 * Eseguire confronti affiancati di due diversi filtri nello stesso rapporto
-* Trascinare, rilasciare e spostare i passaggi funnel (punti di contatto)
-* Combinare diversi valori, da varie dimensioni e metriche
-* Creare un rapporto di abbandono con più dimensioni
-* Identificare dove vanno i clienti immediatamente dopo l’abbandono
+* Trascina e rilascia (e ridisponi) i passaggi funnel (punti di contatto).
+* Combina e abbina valori provenienti da dimensioni e metriche diverse.
+* Crea un rapporto di fallout multidimensionale.
+* Identifica dove vanno i clienti immediatamente dopo l’abbandono.
 
 Il report di abbandono visualizza i tassi di conversione ed abbandono tra ciascun passaggio o punto di contatto in una sequenza.
 
@@ -30,8 +48,12 @@ Ad esempio, puoi tenere traccia dei punti di abbandono di una persona durante un
 La visualizzazione Abbandono è utile per analizzare:
 
 * I tassi di conversione tramite specifici processi sul sito (ad esempio, acquisto o registrazione).
-* Flussi di traffico generali di ambito più ampio: per le persone che hanno visto la pagina Home, questo flusso mostra quanti hanno poi fatto una ricerca e quanti sono quindi passati a uno specifico articolo.
+* Flussi di traffico generali di ambito più ampio: per le persone che hanno visitato la home page, questo flusso mostra quante hanno eseguito una ricerca. E poi quanti di loro alla fine hanno guardato ad un oggetto specifico.
 * Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
 
-[Tutorial video sulla visualizzazione Abbandono](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=it) (4:15)
+>[!MORELIKETHIS]
+>
+>[Configurare una visualizzazione dell&#39;abbandono](configuring-fallout.md)
+
+
 

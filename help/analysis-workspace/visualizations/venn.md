@@ -4,25 +4,44 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 78%
+source-wordcount: '125'
+ht-degree: 19%
 
 ---
 
-# Venn
+# Venn {#venn}
 
-La visualizzazione di Venn consente di trascinare fino a 3 filtri (da Componenti) e una metrica per creare un diagramma di Venn.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_venn_button"
+>title="Venn"
+>abstract="Crea una visualizzazione con diagramma di Venn per confrontare rapidamente due elementi e la dimensione della loro sovrapposizione."
+
+<!-- markdownlint-enable MD034 -->
+
+
+La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** consente di trascinare fino a 3 filtri e una metrica (dal pannello Componenti) per creare un diagramma di Venn.
 
 ![Visualizzazione Venn che include tre filtri.](assets/venn.png)
 
-Puoi passare il mouse sui filtri per avere più informazioni approfondite sulle percentuali, ecc.
+Puoi passare il cursore del mouse sui filtri per ottenere maggiori informazioni sulle percentuali e altro ancora.
 
-![Visualizzazione Venn con informazioni espanse sul filtro per i partecipanti a Outdoor Fall 2015.](assets/venn_hover.png)
+Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], selezionare il colore ![StatusOrange](/help/assets/icons/StatusOrange.svg) accanto all&#39;intestazione **[!UICONTROL Venn]** e selezionare **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
 
-Per trasformare il diagramma di Venn in una tabella a forma libera, fai clic sul punto colorato accanto all’intestazione **[!UICONTROL Venn]** (Venn) e seleziona **[!UICONTROL Manage Data Sources]** (Gestisci origini dati) > **[!UICONTROL Available Data Sources]** (Origini dati disponibili) > **[!UICONTROL Freeform Table]** (Tabella a forma libera).
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-Per normalizzare il diagramma di Venn (estrarre la dimensione), fai clic sulla relativa icona Impostazioni visualizzazione e seleziona **[!UICONTROL Normalization]** (Normalizzazione).
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-![Opzione Impostazioni di visualizzazione per il tipo di visualizzazione: Diagramma di Venn.](assets/normalization.png)
+-->
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

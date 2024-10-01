@@ -4,14 +4,32 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 49%
+source-wordcount: '1668'
+ht-degree: 48%
 
 ---
 
-# Creare e pubblicare tipi di pubblico
+# Creare e pubblicare tipi di pubblico {#create-and-publish-audiences}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_refreshfrequency"
+>title="Refresh frequency (Frequenza di aggiornamento)"
+>abstract="Scopri con quale frequenza verrà rivalutata l’iscrizione di un pubblico.<br/>I tipi di pubblico occasionali vengono valutati una sola volta."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_audiencelimit"
+>title="Limite di pubblico"
+>abstract="I tipi di pubblico di aggiornamento sono limitati in base alla frequenza con cui vengono aggiornati."
+
+<!-- markdownlint-enable MD034 -->
 
 Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
@@ -53,7 +71,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
 
 1. Interpreta l’anteprima dei dati.
 
-   L’anteprima del pubblico viene visualizzata nella barra a destra. Consente di avere un’analisi sintetica del pubblico creato.
+   L’anteprima del pubblico viene visualizzata nel pannello di destra. Consente di avere un’analisi sintetica del pubblico creato.
 
    ![Schermata dell&#39;anteprima dei dati che mostra un&#39;analisi riepilogativa del pubblico.](assets/data-preview.png)
 
@@ -115,7 +133,7 @@ Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 >
 >Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, vedere [Rilasci di funzionalità del Customer Journey Analytics](/help/release-notes/releases.md).
 
-1. Espandi [!UICONTROL **Cliente**] nella barra a sinistra, quindi seleziona [!UICONTROL **Tipi di pubblico**]. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Espandi [!UICONTROL **Cliente**] nel pannello a sinistra, quindi seleziona [!UICONTROL **Tipi di pubblico**]. <!-- is there a folder called "Customer Journey Analytics? -->
 
 1. Selezionare la scheda [!UICONTROL **Sfoglia**].
 

@@ -5,14 +5,24 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 93%
 
 ---
 
-# Impostazioni del componente [!UICONTROL Value Bucketing]
+# Impostazioni del componente [!UICONTROL Value Bucketing] {#value-bucketing-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_valuebucketing"
+>title="Bucketing dei valori"
+>abstract="Valori bucket in intervalli specifici. Questi intervalli vengono visualizzati come elementi dimensionali nei rapporti."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Durante la creazione o la modifica di una visualizzazione dati, il bucket dei valori consente di combinare valori numerici in base a un intervallo. È disponibile solo per le dimensioni che utilizzano tipi di dati con schema intero o doppio.
 

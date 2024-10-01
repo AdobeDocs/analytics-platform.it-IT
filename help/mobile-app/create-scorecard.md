@@ -5,14 +5,24 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2600'
 ht-degree: 67%
 
 ---
 
-# Creare una scorecard per dispositivi mobili
+# Creare una scorecard per dispositivi mobili {#create-a-mobile-scorecard}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_mobilescorecard_annotations"
+>title="Annotazioni"
+>abstract="Le annotazioni possono essere create nel gestore dei componenti di all’interno di un progetto Workspace."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Analytics:
 
@@ -135,7 +145,7 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 
 ### [!UICONTROL Donut]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, supponiamo che tu voglia vedere quale piattaforma di annunci ha contribuito al numero totale di persone univoche:
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, vuoi vedere quale piattaforma di annunci ha contribuito al numero totale di persone univoche:
 
 ![Nuova scorecard mobile che mostra una visualizzazione ad anello](assets/donut-viz.png)
 

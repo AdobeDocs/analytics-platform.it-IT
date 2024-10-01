@@ -5,15 +5,26 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 79%
+source-wordcount: '857'
+ht-degree: 78%
 
 ---
 
 
-# Impostazioni del componente [!UICONTROL Persistence]
+# Impostazioni del componente [!UICONTROL Persistence] {#persistence-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_persistence"
+>title="Persistenza"
+>abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 [!UICONTROL Persistence] è la capacità di un dato valore di dimensione di riferirsi a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 

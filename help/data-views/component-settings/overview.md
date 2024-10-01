@@ -5,14 +5,33 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 91%
 
 ---
 
-# Impostazioni del componente
+# Impostazioni del componente {#component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_settings"
+>title="Impostazioni del componente"
+>abstract="Visualizza e configura il nome, la descrizione e altre impostazioni relative a un componente.<br/><br/>**Parametri **<br/>**Nascondi componente nel reporting**: selezionando questa casella, questo componente verrà nascosto agli utenti non amministratori nel reporting. Gli amministratori possono comunque accedervi selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_contextlabels"
+>title="Etichette di contesto"
+>abstract="La rimozione di un’etichetta di contesto può influire su pannelli o rapporti specifici in cui il componente è richiesto."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Le informazioni seguenti descrivono le impostazioni utilizzate da un componente di visualizzazione dati.
 

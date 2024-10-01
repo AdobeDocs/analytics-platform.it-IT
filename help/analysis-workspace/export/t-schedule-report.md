@@ -1,21 +1,21 @@
 ---
 description: Invia un progetto Analysis Workspace tramite e-mail o programmane la consegna.
 keywords: Analysis Workspace
-title: Inviare dati di Customer Journey Analytics ad altri tramite e-mail
+title: Inviare rapporti ad altri tramite e-mail
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 61%
+source-wordcount: '967'
+ht-degree: 55%
 
 ---
 
-# Inviare dati di Customer Journey Analytics ad altri tramite e-mail
+# Invia file ad altri
 
-Puoi esportare i rapporti sul Customer Journey Analytics inviandoli a destinatari selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare in base a una pianificazione. I file possono essere inviati in formato CSV o PDF.
+È possibile inviare i report di Customer Journey Analytics come file agli utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare in base a una pianificazione. I file possono essere inviati in formato CSV o PDF.
 
 Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
 
@@ -56,7 +56,7 @@ Per inviare un file ai destinatari in base a una pianificazione ricorrente trami
 
 I progetti Analysis Workspace pianificati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
 
-In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
+In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni di filtro nel pannello a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
 
 | Campo | Descrizione |
 | --- | --- |
@@ -78,14 +78,24 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 | **[!UICONTROL Edit schedule]** | Fai clic sul titolo della pianificazione per aggiornare le impostazioni di consegna. |
 | **[!UICONTROL Delete schedule]** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
 | **[!UICONTROL Add tags]** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
-| **[!UICONTROL View failed schedules]** | Passa alla barra a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
-| **[!UICONTROL View expired schedules]** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova programmazione di consegna. |
+| **[!UICONTROL View failed schedules]** | Passa al pannello a sinistra > Altri filtri > Impossibile visualizzare le pianificazioni non riuscite. |
+| **[!UICONTROL View expired schedules]** | Passa al pannello a sinistra > Altri filtri > Scaduto per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova programmazione di consegna. |
 | **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
 Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account utente è disabilitato nell’applicazione, tutte le consegne pianificate vengono interrotte.
 Per ulteriori informazioni, vedere [Progetti pianificati](/help/components/scheduled-projects-manager.md).
 
 ## Proteggere un progetto pianificato tramite password {#password}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_sendfile_password"
+>title="Crittografia password"
+>abstract="La password fornita verrà utilizzata per crittografare il file per il progetto pianificato. I requisiti di sicurezza dell&#39;organizzazione richiedono la crittografia della password."
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >

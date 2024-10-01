@@ -5,14 +5,24 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 91%
+source-wordcount: '227'
+ht-degree: 86%
 
 ---
 
-# Impostazioni dei componenti nelle opzioni “Nessun valore”
+# Impostazioni dei componenti nelle opzioni “Nessun valore” {#no-value-options-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_novalueoptions"
+>title="Opzioni per “Nessun valore”"
+>abstract="Configura il comportamento predefinito quando in una dimensione non è presente alcun valore."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace gestisce situazioni in cui un evento in un set di dati contiene una metrica, ma la dimensione non contiene un valore. Puoi scegliere il nome di tale elemento dimensione, nasconderlo completamente o anche considerarlo come un valore effettivo.
 

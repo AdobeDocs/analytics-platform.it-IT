@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 100%
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 100%
 
 Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli elementi dello schema o utilizzare componenti standard. Gli elementi dello schema sono prevalentemente dimensioni o metriche, a seconda dei requisiti aziendali. Una volta trascinato un elemento schema in una visualizzazione dati, a destra vengono visualizzate le opzioni con cui è possibile regolare il funzionamento della dimensione o metrica in Customer Journey Analytics.
 
-Video sull’argomento:
++++ Visualizza un video che illustra le visualizzazioni dati nel Customer Journey Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+
++++
 
 Creare o modificare una visualizzazione dati:
 
@@ -26,7 +28,17 @@ Creare o modificare una visualizzazione dati:
 1. Per creare una visualizzazione dati, seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
 
 
-## Configurare
+## Configurare {#configure}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="ID esterno"
+>abstract="La modifica dell’ID esterno può influire sul modo in cui il nome della visualizzazione dati viene visualizzato nelle origini esterne, ad esempio negli strumenti di business intelligence."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Per configurare una visualizzazione dati nuova o esistente:
 
@@ -50,9 +62,20 @@ Impostazioni generali per la visualizzazione dati.
 
 {style="table-layout:auto"}
 
-### Compatibilità
+### Compatibilità {#compatibility}
 
 {{release-limited-testing-section}}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>title="Visualizzazioni dati in Journey Optimizer"
+>abstract="Journey Optimizer deve utilizzare una visualizzazione dati configurata con Customer Journey Analytics.<br/>Abilitare questa opzione per impostare come predefinita la visualizzazione dati utilizzata nei report di Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Fornisce le impostazioni applicabili quando si utilizza AJO oltre a Customer Journey Analytics.
 

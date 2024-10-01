@@ -4,14 +4,33 @@ description: Scopri come visualizzare e gestire i registri di audit del Customer
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 65%
+source-wordcount: '777'
+ht-degree: 62%
 
 ---
 
-# Registri di audit
+# Registri di audit {#audit-logs}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_userid"
+>title="ID utente"
+>abstract="Per trovare l’ID utente, premi il pulsante Info su una voce di registro contenente l’utente desiderato."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_componentid"
+>title="ID componente"
+>abstract="Per trovare l’ID componente, premi il pulsante Info su una voce di registro contenente il componente desiderato."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Per aumentare la trasparenza e la visibilità delle attività eseguite nel sistema, Adobe Customer Journey Analytics consente di controllare le attività degli utenti per vari servizi e funzionalità sotto forma di &quot;registri di audit&quot;. Questi rappresentano una traccia di audit (o audit trail) che risulta utile per risolvere eventuali problemi, nonché per rispettare i criteri aziendali relativi alla gestione dei dati e i requisiti normativi, come l’Health Insurance Portability and Accountability Act (HIPAA).
 

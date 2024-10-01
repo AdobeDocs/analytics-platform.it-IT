@@ -1,19 +1,41 @@
 ---
-description: Consente di aggiungere testo definito dall’utente al progetto Workspace.
+description: Aggiunge testo definito dall'utente al Workspace.
 title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 86%
+source-wordcount: '239'
+ht-degree: 26%
 
 ---
 
-# Testo
+# Testo {#text-visualization}
 
-Puoi aggiungere testo definito dall’utente al progetto Workspace, utilizzando una visualizzazione di testo o una descrizione del pannello o della visualizzazione (fai clic con il pulsante destro del mouse sull’intestazione e scegli **[!UICONTROL Edit description]**). È inoltre possibile modificare la formattazione del testo, e aggiungere collegamenti ipertestuali e immagini.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_text_button"
+>title="Testo"
+>abstract="Aggiungi al progetto una visualizzazione Rich Text definita dall’utente."
+
+<!-- markdownlint-enable MD034 -->
+
+
+Per aggiungere testo RTF definito dall&#39;utente al progetto Workspace, puoi utilizzare una visualizzazione ![Testo](/help/assets/icons/Text.svg) **[!UICONTROL Text]** o una descrizione per una visualizzazione e un pannello.
+
+## Seleziona
+
+Puoi utilizzare la visualizzazione Testo nei seguenti modi:
+
+1. Aggiungi una visualizzazione ![Testo](/help/assets/icons/Text.svg) **[!UICONTROL Text]**. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+
+1. In un pannello o in una visualizzazione, dal menu di scelta rapida selezionare **[!UICONTROL Edit description]**.
+
+   Selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) al termine della modifica della descrizione, selezionare ![CloseCircle](/help/assets/icons/CloseCircle.svg) per annullare.
+
+È possibile modificare la formattazione del testo, aggiungere collegamenti ipertestuali e aggiungere immagini.
 
 ## Regolare la formattazione {#format}
 
@@ -23,12 +45,12 @@ Quando si modifica una casella di testo o una descrizione, è possibile regolare
 
 ## Aggiungere collegamenti ipertestuali {#hyperlinks}
 
-Per aggiungere un collegamento ipertestuale, evidenzia il testo e fai clic sull’icona del collegamento ipertestuale nel menu. I collegamenti ipertestuali possono portare a siti web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=it) e altro ancora, per assistere ulteriormente i destinatari del progetto.
+Per aggiungere un collegamento ipertestuale, evidenziare il testo e selezionare ![Collegamento](/help/assets/icons/Link.svg) nel menu. Puoi utilizzare i collegamenti ipertestuali per fornire ulteriore assistenza ai destinatari del progetto. I collegamenti ipertestuali possono essere collegati a siti Web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) e altro ancora.
 
 ![Opzioni di testo con l&#39;icona del collegamento evidenziata.](assets/hyperlink.png)
 
 ## Aggiungere immagini {#images}
 
-Per aggiungere un’immagine al progetto, fai clic sull’icona dell’immagine nel menu e inserisci l’URL pubblico dell’immagine. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
+Per aggiungere un&#39;immagine al progetto, seleziona ![Immagine](/help/assets/icons/Image.svg) nel menu e inserisci un URL immagine pubblico. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
 
 ![Opzioni di testo con l&#39;icona dell&#39;immagine selezionata.](assets/image.png)

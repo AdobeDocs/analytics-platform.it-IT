@@ -5,14 +5,24 @@ title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 70%
+source-wordcount: '1947'
+ht-degree: 66%
 
 ---
 
-# Condividere progetti
+# Condividere progetti {#share-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_shareprojects"
+>title="Condividere progetti"
+>abstract="Puoi condividere uno di questi ruoli di progetto con altri utenti dell’organizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Puoi condividere un progetto di Analysis Workspace con i seguenti tipi di persone:
 
@@ -30,10 +40,13 @@ Puoi condividere un progetto di Analysis Workspace con i seguenti tipi di person
 
 Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzata all’apertura del progetto da parte dei destinatari.
 
-Ecco una panoramica video della condivisione dei progetti:
++++ Guarda un video che mostra come utilizzare la condivisione dei progetti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
+{{videoaa}}
+
++++
 
 ## Condividi con utenti e gruppi del Customer Journey Analytics nella tua organizzazione {#Add}
 
@@ -65,7 +78,7 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organizzazione:
 
-1. In Customer Journey Analytics, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
+1. In Customer Journey Analytics, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona [!UICONTROL **Progetti**] nel pannello a sinistra.
 
 1. Seleziona la casella di controllo accanto a uno o più progetti da condividere, quindi seleziona [!UICONTROL **Condividi**].
 
@@ -82,9 +95,9 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    **Modifica originale:** i destinatari possono **[!UICONTROL Save]** le modifiche a un progetto e fungere da co-proprietari. Questo ruolo è utile se desideri gestire un progetto con altri colleghi; ciò include la modifica e l’eliminazione degli elenchi dei destinatari per un progetto condiviso. <br>Nota: Analysis Workspace al momento non supporta la collaborazione in tempo reale, pertanto si consiglia di modificare un progetto solo un utente alla volta. Se i progetti vengono salvati contemporaneamente, viene mantenuta l’ultima versione.
 
-   **Modifica copia:** i destinatari possono **[!UICONTROL Save as]** e accedere alla barra a sinistra. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati dell’organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato.
+   **Modifica copia:** i destinatari possono **[!UICONTROL Save as]** e accedere al pannello sinistro. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati dell’organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato.
 
-   **Sola lettura:** i destinatari non possono **[!UICONTROL Save]** o **[!UICONTROL Save as]** e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, con Analysis Workspace o con il Customer Journey Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro. Scopri di più sull’[esperienza di progetto di Sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md).
+   **Sola lettura:** i destinatari non possono **[!UICONTROL Save]** o **[!UICONTROL Save as]** e non hanno accesso al pannello sinistro. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione, con Analysis Workspace o con il Customer Journey Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro. Scopri di più sull’[esperienza di progetto di Sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md).
 
 1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
 
@@ -148,7 +161,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 1. Apri il progetto Analysis Workspace che desideri condividere.
 
-1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
+1. Selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
 
    In presenza di modifiche non salvate, ti verrà richiesto di salvare il progetto.
 
@@ -164,7 +177,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto che stai condividendo. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
+     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto che stai condividendo. Tuttavia, gli utenti con cui condividi non devono avere accesso al Customer Journey Analytics.
 
      Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per la società, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
@@ -172,13 +185,13 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
       * Se questa opzione è abilitata e non puoi disabilitarla, significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione Experience Cloud per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che rilasciano licenze Healthcare Shield.
 
-1. Accanto al campo **[!UICONTROL Share with anyone (no login required)]**, fai clic sull&#39;icona **Copia collegamento** ![Copia collegamento icona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)) per copiare il collegamento negli Appunti di sistema.
+1. Accanto al campo **[!UICONTROL Share with anyone (no login required)]**, seleziona ![Collegamento](/help/assets/icons/Link.svg) per copiare il collegamento negli Appunti di sistema.
 
 1. Condividi il collegamento con le persone che desideri possano accedere al progetto. Ad esempio, puoi incollare il collegamento in un messaggio e-mail.
 
    Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace.
 
-1. (Facoltativo) Puoi fare clic sull’icona **Genera nuovo collegamento** ![Icona Genera collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per rimuovere l’accesso da utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedano al progetto.
+1. (Facoltativo) È possibile selezionare ![Icona Genera nuovo collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per rimuovere l&#39;accesso agli utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedano al progetto.
 
 1. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo condividi. Le modifiche vengono salvate automaticamente.
 
