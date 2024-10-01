@@ -3,7 +3,7 @@ title: Panoramica sull’utilizzo del prodotto
 description: Visualizzare approfondimenti e rapporti sul modo in cui l’organizzazione utilizza il Customer Journey Analytics.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Panoramica sull’utilizzo del prodotto
+
+{{release-limited-testing}}
 
 L’utilizzo del prodotto consente all’organizzazione di visualizzare i dati analitici sul modo in cui l’organizzazione utilizza il Customer Journey Analytics. È disponibile per tutte le organizzazioni che utilizzano Customer Journey Analytics. Una volta abilitati, i seguenti componenti Adobe Experience Platform vengono creati e collegati automaticamente:
 

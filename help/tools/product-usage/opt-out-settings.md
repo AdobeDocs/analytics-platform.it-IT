@@ -3,16 +3,18 @@ title: Impostazioni di rinuncia all’utilizzo del prodotto
 description: Gestisci le impostazioni di rinuncia per i singoli utenti all’interno della tua organizzazione.
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # Impostazioni di rinuncia all’utilizzo del prodotto {#product-usage-opt-out-settings}
 
-La pagina delle _impostazioni di rinuncia_ ti consente di escludere o includere nuovamente gli utenti all&#39;interno della tua organizzazione dal monitoraggio dell&#39;utilizzo dei prodotti.
+{{release-limited-testing}}
+
+La pagina delle _impostazioni di rinuncia_ ti consente di escludere o includere nuovamente gli utenti all&#39;interno della tua organizzazione dal monitoraggio dell&#39;utilizzo dei prodotti. È visibile solo agli amministratori di prodotto.
 
 **Customer Journey Analytics** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]** > **[!UICONTROL Opt-out settings]**
 
