@@ -3,12 +3,10 @@ description: Configurare una visualizzazione area di lavoro del percorso
 title: Area di lavoro percorso
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 90180e1231ab8b50f1f6b8552e00d1c251d10a2f
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '5408'
+source-wordcount: '6504'
 ht-degree: 1%
 
 ---
@@ -41,19 +39,19 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
    Aggiungi una visualizzazione area di lavoro Percorso in uno dei modi descritti nella sezione [Aggiungere visualizzazioni a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [Panoramica delle visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
-1. Specifica le seguenti informazioni di base:
+1. Specificare le informazioni di base seguenti per configurare l&#39;area di lavoro del Percorso:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Metrica primaria**] | La metrica principale influisce sui seguenti aspetti della visualizzazione dell’area di lavoro del Percorso:  <ul><li>Definisce il modo in cui le persone si spostano nel percorso.</li><li>Numero totale visualizzato su ciascun nodo.<p>Ad esempio, se Persone è la metrica principale, ogni nodo mostra il numero di persone che hanno raggiunto quel nodo nel percorso.</p></li><li>La percentuale visualizzata su ciascun nodo. Una volta creata la visualizzazione, puoi scegliere di mostrare la percentuale del totale o del nodo iniziale.</li><p>Ad esempio, se Persone è la metrica principale, ogni nodo mostra la percentuale di persone che hanno raggiunto quel nodo nel percorso (la percentuale del totale o del nodo iniziale).</p></li><li>Quando una dimensione viene aggiunta alla visualizzazione, vengono aggiunti i primi 3 nodi della visualizzazione, in base alla metrica principale.</li></ul> |
-   | [!UICONTROL **Metrica secondaria**] | La metrica secondaria è facoltativa. Quando ne è selezionato uno, le seguenti informazioni vengono visualizzate su ciascun nodo sotto la metrica principale: <ul><li>Numero totale<p>Ad esempio, se Sessioni è la metrica secondaria, ogni nodo mostra il numero di sessioni che hanno raggiunto quel nodo nel percorso.</p></li><li>La percentuale (dopo aver creato la visualizzazione, puoi scegliere di mostrare la percentuale del totale o del nodo iniziale).</li><p>Ad esempio, se Sessioni è la metrica secondaria, ogni nodo mostra la percentuale di sessioni che hanno raggiunto tale nodo nel percorso (la percentuale del totale o del nodo iniziale).</p></li></ul> |
-   | [!UICONTROL **percorso Journey Optimizer**]<!-- name? --> | Seleziona il percorso Journey Optimizer da utilizzare come base per l’analisi nell’area di lavoro del Percorso. In alternativa, puoi lasciare vuota questa opzione se desideri un’area di lavoro vuota da cui generare l’analisi in Analysis Workspace.</p> <p>Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Per ulteriori informazioni, vedere [Analizzare i percorsi Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [Panoramica area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
+   | [!UICONTROL **Metrica primaria**] | Determina la metrica utilizzata per calcolare i valori percentuali e numerici su ciascun nodo del percorso. <p>**Nota**: l&#39;ambito dei dati inclusi in ogni valore percentuale e numerico è determinato dalla metrica scelta nel campo **[!UICONTROL Journey canvas container]**. Se ad esempio **[!UICONTROL Person]** è impostato come contenitore, le statistiche visualizzate nel percorso si estendono su più sessioni per una determinata persona. Se **[!UICONTROL Session]** è impostato come contenitore, le statistiche mostrate nel percorso sono vincolate a una singola sessione definita per una determinata persona.</p><p>Prendi in considerazione gli esempi seguenti:</p><ul><li>Se _Persone_ è la metrica principale e _Persona_ è il contenitore, solo le persone che hanno un evento che corrisponde ai criteri di ogni nodo successivo nel percorso si spostano in tutto il percorso. L’abbandono si verifica su un nodo quando una persona non è mai arrivata a nessuno dei nodi immediatamente successivi nel percorso. Potrebbero aver eseguito altre azioni sul sito, ma non soddisfano i criteri definiti da nessuno dei nodi che seguono immediatamente.</li><li>Se _Persone_ è la metrica principale e _Sessione_ è il contenitore, solo le persone che hanno un evento che corrisponde ai criteri di ogni nodo del percorso all&#39;interno di una singola sessione si spostano in tutto il percorso. L’abbandono si verifica su un nodo quando una persona non è mai arrivata a nessuno dei nodi immediatamente successivi nel percorso all’interno di una singola sessione. Potrebbero aver eseguito altre azioni sul sito all’interno della sessione, ma non soddisfano i criteri definiti da nessuno dei nodi che seguono immediatamente.</li></ul> <p>La metrica principale influisce sui seguenti aspetti della visualizzazione dell’area di lavoro del Percorso:</p><ul><li>Numero totale visualizzato su ciascun nodo.  <p>Ad esempio, se Eventi è la metrica principale, ogni nodo mostra il numero di persone che hanno avuto un evento che corrisponde ai criteri di quel nodo (e di ogni nodo precedente che lo precede nel percorso).</p></li><li>La percentuale visualizzata su ciascun nodo. Una volta creata la visualizzazione, è possibile utilizzare il menu a discesa **[!UICONTROL Percentage value]** per scegliere di visualizzare la percentuale del totale, la percentuale del nodo precedente o la percentuale del nodo iniziale.</li><p>Ad esempio, se Eventi è la metrica principale, ogni nodo mostra la percentuale di persone che hanno avuto un evento che corrisponde ai criteri di quel nodo (e di ogni nodo precedente che lo precede nel percorso).</p></li><li>Quando una dimensione viene aggiunta alla visualizzazione, vengono aggiunti i primi 3 nodi della visualizzazione, in base alla metrica principale.</li></ul> |
+   | [!UICONTROL **Metrica secondaria**] | Determina la metrica secondaria utilizzata per calcolare i valori percentuali e numerici su ciascun nodo del percorso. La metrica secondaria è facoltativa. <p>**Nota**: l&#39;ambito dei dati inclusi in ogni valore percentuale e numerico è determinato dalla metrica scelta nel campo **[!UICONTROL Journey canvas container]**. Se ad esempio **[!UICONTROL Person]** è impostato come contenitore, le statistiche visualizzate nel percorso si estendono su più sessioni per una determinata persona. Se **[!UICONTROL Session]** è impostato come contenitore, le statistiche mostrate nel percorso sono vincolate a una singola sessione definita per una determinata persona.</p><p>Quando si seleziona una metrica secondaria, questa influisce sui seguenti aspetti della visualizzazione dell’area di lavoro del Percorso:</p><ul><li>Il numero totale visualizzato su ciascun nodo sotto la metrica principale. <p>Ad esempio, se Account è la metrica secondaria, il numero di account viene visualizzato sul nodo per tutte le persone che hanno raggiunto quel nodo e solo quelle persone. Ogni nodo mostra il numero di sessioni che hanno raggiunto quel nodo nel percorso.</p></li><li>La percentuale visualizzata su ciascun nodo sotto la metrica principale. Una volta creata la visualizzazione, puoi scegliere di mostrare la percentuale del totale o del nodo iniziale.</li><p>Ad esempio, se Sessioni è la metrica secondaria, ogni nodo mostra la percentuale di sessioni che hanno raggiunto tale nodo nel percorso (la percentuale del totale o del nodo iniziale).</p></li></ul> |
+   | [!UICONTROL **percorso Journey Optimizer**]<!-- name? --> | Seleziona il percorso Journey Optimizer da utilizzare come base per l’analisi nell’area di lavoro del Percorso. Sono disponibili percorsi con uno dei seguenti stati: Live, Arrestato o Finito <p>In alternativa, puoi lasciare vuota questa opzione se desideri un’area di lavoro vuota da cui generare l’analisi in Analysis Workspace.</p> <p>Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Per ulteriori informazioni, vedere [Analizzare i percorsi Journey Optimizer](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys) in [Panoramica area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>**Nota**: questa opzione viene visualizzata solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p> |
 
 1. (Facoltativo) Seleziona [!UICONTROL **Mostra impostazioni avanzate**], quindi specifica le seguenti informazioni:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **contenitore area di lavoro Percorsi**] | Scegli il contenitore su cui concentrarti in tutto il percorso. Il contenitore scelto determina le statistiche visualizzate nella visualizzazione. Se i nomi dei contenitori sono diversi da quelli predefiniti mostrati di seguito, significa che sono stati personalizzati nella visualizzazione dati.<ul><li>**Sessioni:** limita le statistiche della visualizzazione in modo che rientrino in una singola sessione definita per una determinata persona. Ciò significa che i numeri e le percentuali visualizzati su ciascun nodo (che sono basati sulle metriche primaria e secondaria) devono verificarsi all’interno di una singola sessione per ogni persona.</li><li>**Persone:** consente alle statistiche della visualizzazione di coprire più sessioni per una determinata persona. Ciò significa che i numeri e le percentuali visualizzati su ciascun nodo (che sono basati sulle metriche primaria e secondaria) possono verificarsi in qualsiasi numero di sessioni, purché le sessioni appartengano alla stessa persona. Questa è l&#39;impostazione predefinita.</li></ul> |
+   | [!UICONTROL **contenitore area di lavoro Percorsi**] | Scegli il contenitore su cui concentrarti in tutto il percorso. Il contenitore scelto determina l’ambito dei dati acquisiti nel percorso. Questo influisce sulle statistiche visualizzate nella visualizzazione. Se i nomi dei contenitori sono diversi da quelli predefiniti mostrati di seguito, significa che sono stati personalizzati nella visualizzazione dati.<ul><li>**Sessione:** limita le statistiche della visualizzazione in modo che rientrino in una singola sessione definita per una persona specificata. Ciò significa che i numeri e le percentuali visualizzati su ciascun nodo (che sono basati sulle metriche primaria e secondaria) devono verificarsi all’interno di una singola sessione per ogni persona. In altre parole, una persona può essere rappresentata più volte in un singolo percorso.<p>Questo contenitore utilizza la metrica Sessioni.</p></li><li>**Persona:** (impostazione predefinita) consente alle statistiche della visualizzazione di occupare più sessioni per una determinata persona. Ciò significa che i numeri e le percentuali visualizzati su ciascun nodo (che sono basati sulle metriche primaria e secondaria) possono verificarsi in qualsiasi numero di sessioni, purché le sessioni appartengano alla stessa persona. In altre parole, una persona può essere rappresentata una sola volta in un singolo percorso.<p>Questo contenitore utilizza la metrica Persone.</p></li></ul> |
 
 1. Seleziona [!UICONTROL **Build**].
 
@@ -61,7 +59,7 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
    <!-- add screen shot -->
 
-   Se non disponi di Journey Optimizer o se non hai selezionato un percorso Journey Optimizer, viene visualizzata un’area di lavoro vuota in cui puoi iniziare a popolare il percorso.
+   Se non disponi di Journey Optimizer o se non hai selezionato un percorso Journey Optimizer, viene visualizzata un’area di lavoro vuota in cui puoi iniziare ad aggiungere nodi al percorso.
 
    <!-- add screen shot -->
 
@@ -85,9 +83,9 @@ Per configurare le impostazioni per la visualizzazione Area di lavoro Percorso:
    | Impostazione | Funzione |
    |---------|----------|
    | [!UICONTROL **Tipo di nodo**] | Consente di configurare quali tipi di nodo vengono visualizzati nella visualizzazione.<p>Per nascondere un tipo di nodo dalla visualizzazione, seleziona il (x) accanto al tipo di nodo oppure deselezionalo dal menu a discesa. Per visualizzare un tipo di nodo nascosto, selezionalo dal menu a discesa. I nodi non vengono eliminati dal percorso quando vengono nascosti. Per informazioni su come eliminare un nodo, vedere [Eliminare i nodi](#delete-nodes).)</p><p>Questo campo può contenere tipi di nodo di Journey Optimizer ([!UICONTROL **Leggi segmento**], [!UICONTROL **Fine**] e così via) e tipi di nodo componente ([!UICONTROL **Dimension**], [!UICONTROL **Metrica**], [!UICONTROL **Filtro**] e [!UICONTROL **Intervallo date**]), come segue: </p><ul><li>**Vengono visualizzati solo i tipi di nodo di Journey Optimizer** se il percorso è un percorso di Journey Optimizer che non è stato modificato nell&#39;area di lavoro del Percorso con una delle seguenti modifiche:<ul><li>Nodi aggiunti o rimossi</li><li>Frecce aggiunte o rimosse</li><li>Sono stati modificati i componenti su un nodo</li></ul></li><li>**Vengono visualizzati sia i tipi di nodo Journey Optimizer che i tipi di nodo componente** se il percorso è un percorso Journey Optimizer che è stato modificato nell&#39;area di lavoro del Percorso con una delle seguenti modifiche:<ul><li>Nodi aggiunti o rimossi</li><li>Frecce aggiunte o rimosse</li><li>Sono stati modificati i componenti su un nodo</li></ul></li><li>**Vengono visualizzati solo i tipi di nodo del componente** se il percorso non è un percorso Journey Optimizer.</li></ul></p> |
-   | [!UICONTROL **Valore percentuale**] | Il valore percentuale visualizzato su ciascun nodo del percorso. Questa percentuale include solo le persone incluse nella visualizzazione dati all’interno dell’intervallo di date del pannello. <p>Scegli tra le seguenti opzioni:</p> <ul><li>[!UICONTROL **Percentuale del nodo iniziale**]: la percentuale di tutte le persone che soddisfano i criteri di un nodo iniziale nel percorso. <p>Un nodo _start_ è un nodo che non ha nodi connessi che lo precedono.</p><p>Un percorso può contenere più nodi iniziali. Tuttavia, viene utilizzato il [!UICONTROL **Percentuale del totale**] se il percorso contiene 2 o più nodi iniziali che conducono a un nodo comune. Se desideri utilizzare il [!UICONTROL **Percentuale del nodo iniziale**], aggiorna il percorso in modo che ogni nodo del percorso possa essere ricondotto a un singolo nodo iniziale.</p></li><li>[!UICONTROL **Percentuale del nodo precedente**]: la percentuale di tutte le persone del nodo precedente.</li><li>[!UICONTROL **Percentuale del totale**]: la percentuale di tutte le persone incluse nella visualizzazione dati all&#39;interno dell&#39;intervallo di date del pannello.</li></ul> |
-   | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del Percorso possono essere configurate per mostrare etichette e valori personalizzati. <p>_Le etichette_ sono nomi personalizzati visualizzati sulle frecce. Su una determinata freccia viene visualizzata una sola etichetta. Le etichette possono essere una qualsiasi delle seguenti e sono visualizzate in questo ordine di preferenza:</p><ol><li>Un nome personalizzato aggiunto dall&#39;area di lavoro del Percorso (come descritto in [Rinominare un nodo o una freccia](#rename-a-node-or-arrow))</li><li>Etichetta Journey Optimizer</li><li>Una condizione Journey Optimizer</li></ol><p>_I valori_ sono i numeri e le percentuali visualizzati sulle frecce e indicano le persone o le sessioni che si sono spostate da un nodo al nodo successivo nel percorso. (In altre parole, coloro che non sono usciti dal percorso in un determinato momento). </p><p>Le seguenti opzioni sono disponibili per i percorsi che non provengono da Journey Optimizer e per i percorsi Journey Optimizer che non sono stati modificati in modo significativo nell’area di lavoro del Percorso: (le modifiche più importanti includono l’aggiunta o la rimozione di nodi, l’aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo).</p><ul><li>[!UICONTROL **Nessuna etichetta**]: nessuna etichetta visualizzata sulle frecce del percorso. </br> Questa opzione è disponibile solo se il percorso è stato modificato in </li><li>[!UICONTROL **Solo etichette**]: le etichette sono visualizzate sulle frecce del percorso.</li></ul><p>Per i percorsi Journey Optimizer che sono stati modificati in modo significativo nell&#39;area di lavoro del Percorso sono disponibili le seguenti opzioni: (le modifiche significative includono l&#39;aggiunta o la rimozione di nodi, l&#39;aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo.)(**Nota**: queste opzioni vengono visualizzate solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).)</p><ul><li>[!UICONTROL **Nessuna etichetta o valore**]: nessuna etichetta o valore visualizzato sulle frecce del percorso.</li><li>[!UICONTROL **Solo etichette**]: solo le etichette sono visualizzate sulle frecce del percorso. I valori non vengono visualizzati.</li><li>[!UICONTROL **Solo valori**]: nelle frecce del percorso vengono visualizzati solo i valori. Le etichette non vengono visualizzate.</li><li>[!UICONTROL **Valori ed etichette**]: le etichette e i valori sono visualizzati su frecce nel percorso.</li></ul> |
-   | [!UICONTROL **Mostra abbandono**] | Visualizza i dati di fallout per ciascun nodo. Mostra il numero e la percentuale di persone che hanno abbandonato il percorso dopo un determinato nodo. <p>Le persone che non rientrano nel percorso potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.</p> |
+   | [!UICONTROL **Valore percentuale**] | Il valore percentuale visualizzato su ciascun nodo del percorso. <p>Quando configuri i valori percentuali visualizzati sui nodi del percorso, considera quanto segue:</p><ul><li>Su ogni nodo viene visualizzata una percentuale per la metrica principale. Viene visualizzata anche una percentuale per la metrica secondaria, se ne è stata configurata una. Per ulteriori informazioni sulle impostazioni delle metriche primaria e secondaria, vedere [Inizia a creare una visualizzazione dell&#39;area di lavoro di Percorso](#begin-building-a-journey-canvas-visualization).</li><li>Le percentuali includono tutte le persone o le sessioni incluse nella visualizzazione dati all’interno dell’intervallo di date del pannello. L&#39;utilizzo di _persone_ o _sessioni_ dipende dall&#39;impostazione del contenitore. Per ulteriori informazioni sull&#39;impostazione del contenitore, vedere [Inizia a creare una visualizzazione dell&#39;area di lavoro di Percorso](#begin-building-a-journey-canvas-visualization).</li></ul> <p>Scegli tra le seguenti opzioni:</p> <ul><li>[!UICONTROL **Percentuale del nodo iniziale**]: calcola le percentuali visualizzate in ogni nodo in relazione al nodo iniziale. Le percentuali si basano sulla metrica principale e secondaria selezionata. <p>Un nodo _start_ è un nodo che non ha nodi connessi che lo precedono.</p><p>Un percorso può contenere più nodi iniziali. Tuttavia, viene utilizzato il [!UICONTROL **Percentuale del totale**] se il percorso contiene 2 o più nodi iniziali che conducono a un nodo comune. Se desideri utilizzare il [!UICONTROL **Percentuale del nodo iniziale**], aggiorna il percorso in modo che ogni nodo del percorso possa essere ricondotto a un singolo nodo iniziale.</p></li><li>[!UICONTROL **Percentuale del nodo precedente**]: calcola le percentuali visualizzate in ogni nodo in relazione al nodo precedente. Le percentuali si basano sulla metrica principale e secondaria selezionata.</li><li>[!UICONTROL **Percentuale del totale**]: calcola le percentuali visualizzate in ogni nodo in relazione a tutti i dati nella visualizzazione dati. Le percentuali si basano sulla metrica principale e secondaria selezionata.</li></ul> |
+   | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del Percorso possono essere configurate per mostrare etichette e valori personalizzati. <p>_Le etichette_ sono nomi personalizzati visualizzati sulle frecce. Su una determinata freccia viene visualizzata una sola etichetta. Le etichette possono essere una qualsiasi delle seguenti e sono visualizzate in questo ordine di preferenza:</p><ol><li>Nome personalizzato aggiunto dall&#39;area di lavoro del Percorso (come descritto in [Aggiungere o aggiornare un&#39;etichetta su una freccia](#add-or-update-a-label-on-an-arrow))</li><li>Etichetta Journey Optimizer</li><li>Una condizione Journey Optimizer</li></ol><p>_I valori_ sono i numeri e le percentuali visualizzati sulle frecce e indicano le persone o le sessioni che si sono spostate da un nodo al nodo successivo nel percorso. (In altre parole, coloro che non sono usciti dal percorso in un determinato momento). </p><p>Le seguenti opzioni sono disponibili per i percorsi che non provengono da Journey Optimizer e per i percorsi Journey Optimizer che non sono stati modificati in modo significativo nell’area di lavoro del Percorso: (le modifiche più importanti includono l’aggiunta o la rimozione di nodi, l’aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo).</p><ul><li>[!UICONTROL **Nessuna etichetta**]: nessuna etichetta visualizzata sulle frecce del percorso. </br> Questa opzione è disponibile solo se il percorso è stato modificato in </li><li>[!UICONTROL **Solo etichette**]: le etichette sono visualizzate sulle frecce del percorso.</li></ul><p>Per i percorsi Journey Optimizer che sono stati modificati in modo significativo nell&#39;area di lavoro del Percorso sono disponibili le seguenti opzioni: (le modifiche significative includono l&#39;aggiunta o la rimozione di nodi, l&#39;aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo.)(**Nota**: queste opzioni vengono visualizzate solo quando i dati di Journey Optimizer vengono rilevati nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).)</p><ul><li>[!UICONTROL **Nessuna etichetta o valore**]: nessuna etichetta o valore visualizzato sulle frecce del percorso.</li><li>[!UICONTROL **Solo etichette**]: solo le etichette sono visualizzate sulle frecce del percorso. I valori non vengono visualizzati.</li><li>[!UICONTROL **Solo valori**]: nelle frecce del percorso vengono visualizzati solo i valori. Le etichette non vengono visualizzate.</li><li>[!UICONTROL **Valori ed etichette**]: le etichette e i valori sono visualizzati su frecce nel percorso.</li></ul> |
+   | [!UICONTROL **Mostra abbandono**] | I dati di fallout mostrano una percentuale e un numero che non rientrano in ciascun nodo del percorso. I dati di fallout si basano sulla metrica associata alle impostazioni del contenitore del percorso; non si basano sulla metrica principale o secondaria.<p>Per impostazione predefinita, il contenitore è _Persona_, quindi la metrica utilizzata per i dati di fallout è _Persone_. Se il contenitore viene modificato in _Sessione_, la metrica utilizzata per i dati di fallout è _Sessioni_ e così via.</p><p>Se, ad esempio, l&#39;impostazione del contenitore è _Persona_, l&#39;abbandono mostra la percentuale e il numero di persone in ogni nodo del percorso che non sono mai arrivate ai nodi immediatamente successivi. Potrebbero aver eseguito altre azioni sul sito, ma non soddisfano i criteri definiti da nessuno dei nodi che seguono immediatamente.</p> <p>Per ulteriori informazioni sull&#39;impostazione del contenitore Area di lavoro di Percorso, vedere [Inizia a creare una visualizzazione Area di lavoro di Percorso](#begin-building-a-journey-canvas-visualization). |
    | **Controlli zoom** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli di zoom:<ul><li>**Zoom in** ![icona Zoom in](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Zoom indietro** ![icona Zoom indietro](assets/zoom-out-icon.png): riduce la visualizzazione per consentire più spazio nell&#39;area di lavoro.<p>È inoltre possibile utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li></ul><p>Per spostarsi nell&#39;area di lavoro dopo aver eseguito lo zoom avanti o indietro, fare clic con il mouse e trascinare nella posizione desiderata.</p> |
 
 1. Continua con [Aggiungi nodi](#add-nodes).
@@ -96,7 +94,7 @@ Per configurare le impostazioni per la visualizzazione Area di lavoro Percorso:
 
 I nodi in una visualizzazione dell’area di lavoro di un Percorso rappresentano gli eventi o le azioni di un percorso di utenti.
 
-Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’area di lavoro, consentendo all’area di lavoro del Percorso di scegliere i nodi superiori successivi o precedenti in base ai nodi esistenti oppure duplicando i nodi esistenti.
+Puoi creare i nodi nei seguenti modi: trascinando i componenti di Workspace dalla barra a sinistra all’area di lavoro; consentendo all’area di lavoro di Percorso di scegliere i nodi superiori successivi o precedenti in base ai nodi esistenti; oppure duplicando i nodi esistenti.
 
 ### Trascina i componenti dalla barra a sinistra
 
@@ -138,6 +136,8 @@ Per creare i nodi, trascina i componenti Workspace dalla barra a sinistra all’
    * Statistiche delle metriche primarie (totale e percentuale)
 
    * Statistiche metriche secondarie (totale e percentuale)
+
+   Un nodo pulsato o luminoso indica che i dati sono in fase di caricamento per quel nodo.
 
 1. Ripeti questa procedura per continuare ad aggiungere nodi per creare il percorso.
 
@@ -241,7 +241,7 @@ Dopo aver aggiunto i nodi all’area di lavoro, puoi ridisporli, combinarli, col
 
 I percorsi nell’area di lavoro del Percorso sono costituiti da un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri.
 
-Puoi trascinare i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. È possibile selezionare più nodi tenendo premuto Comando (su Mac) o Ctrl (su Windows).
+Puoi trascinare i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso.
 
 Quando ridisponi l’ordine dei nodi nel percorso, i dati vengono aggiornati di conseguenza.
 
@@ -251,7 +251,7 @@ Un nodo combinato nell’area di lavoro del Percorso è un singolo punto nel per
 
 #### Creare nodi combinati
 
-Per creare un nodo combinato nell&#39;area di lavoro del Percorso, è possibile eseguire una delle operazioni seguenti:
+Per combinare i nodi nell&#39;area di lavoro del Percorso, è possibile eseguire una delle operazioni seguenti:
 
 * Dalla barra a sinistra, trascina un singolo componente su un nodo dell’area di lavoro.
 
@@ -306,7 +306,7 @@ I percorsi non possono essere circolari e tornare ai nodi connessi in precedenza
 
 Per connettere i nodi nell&#39;area di lavoro del Percorso:
 
-1. Nell’area di lavoro, passa il cursore del mouse sul nodo che si trova per primo nella sequenza di percorso che desideri connettere a un altro nodo.
+1. In una visualizzazione area di lavoro Percorso, passa il cursore sul nodo che si trova per primo nella sequenza di percorso che desideri connettere a un altro nodo.
 
    Su ogni lato del nodo selezionato vengono visualizzati 4 punti blu.
 
@@ -334,7 +334,7 @@ L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti og
 
 Per aggiungere un vincolo di tempo:
 
-1. Fare clic con il pulsante destro del mouse sulla freccia tra due nodi, quindi selezionare [!UICONTROL **Aggiungi vincolo di tempo**].
+1. In una visualizzazione dell&#39;area di lavoro del Percorso, fare clic con il pulsante destro del mouse sulla freccia tra due nodi, quindi selezionare [!UICONTROL **Aggiungi vincolo di tempo**].
 
 <!-- 
 
@@ -361,7 +361,7 @@ L’opzione per modificare il colore è disponibile per i seguenti oggetti nell�
 
 Per modificare il colore di un nodo o di una freccia:
 
-1. Fare clic con il pulsante destro del mouse sul nodo o sulla freccia di cui si desidera modificare il colore.
+1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sul nodo o sulla freccia di cui desideri modificare il colore.
 
 1. Seleziona [!UICONTROL **Cambia colore**]. <!--make sure "color" isn't capitalized. It is in the req doc-->
 
@@ -369,7 +369,7 @@ Per modificare il colore di un nodo o di una freccia:
 
    Sono disponibili i colori seguenti: <!--look into this interaction and color list-->
 
-### Rinominare un nodo o una freccia
+### Rinominare un nodo
 
 >[!AVAILABILITY]
 >
@@ -381,15 +381,45 @@ L’opzione per rinominare è disponibile per i seguenti oggetti nell’area di 
 
 * Singoli nodi
 
-* La freccia tra i nodi
-
 Per rinominare un nodo:
 
-1. Fare clic con il pulsante destro del mouse sul nodo da rinominare.
+1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sul nodo che desideri rinominare.
 
 1. Selezionare [!UICONTROL **Rinomina**].
 
 1. Specificare un nuovo nome, quindi premere Invio.<!--is that right?-->
+
+### Aggiungere o aggiornare un&#39;etichetta su una freccia
+
+Le frecce visualizzate tra i nodi nell’area di lavoro del Percorso possono essere configurate per mostrare etichette e valori personalizzati.
+
+Le etichette sono nomi personalizzati visualizzati sulle frecce. Su una determinata freccia viene visualizzata una sola etichetta.
+
+Per ulteriori informazioni sulle etichette e i valori visualizzati sulle frecce, vedere &quot;Impostazioni freccia&quot; in [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
+
+L’opzione per aggiungere o aggiornare un’etichetta è disponibile per i seguenti oggetti nell’area di lavoro:
+
+* La freccia tra i nodi
+
+Per aggiungere un&#39;etichetta a una freccia:
+
+1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sulla freccia in cui desideri aggiungere un’etichetta.
+
+1. Seleziona **[!UICONTROL Add label]**.
+
+1. Specificare un nome per l&#39;etichetta, quindi premere Invio.
+
+   Se le impostazioni della freccia sono attualmente configurate per nascondere le etichette, viene visualizzato un messaggio che richiede di mostrare le etichette.
+
+Per aggiornare un&#39;etichetta esistente su una freccia:
+
+1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sulla freccia in cui desideri aggiungere un’etichetta.
+
+1. Seleziona **[!UICONTROL Update label]**.
+
+1. Specificare un nome per l&#39;etichetta, quindi premere Invio.
+
+   Se le impostazioni della freccia sono attualmente configurate per nascondere le etichette, viene visualizzato un messaggio che richiede di mostrare le etichette.
 
 ### Applicare un raggruppamento
 
@@ -419,21 +449,25 @@ Quando applichi una suddivisione, tieni presente quanto segue:
 >
 >Questa funzione non è ancora disponibile.
 
-1. Seleziona uno o più nodi in cui desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione area di lavoro Percorso, seleziona uno o più nodi in cui desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
    Oppure
 
-   Seleziona una o più frecce tra 2 nodi in cui desideri applicare il raggruppamento, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+   In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra 2 nodi in cui desideri applicare il raggruppamento, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Raggruppamento**].
 
-<!-- 1. Choose where you want to view the breakdown:
+1. Scegli dove visualizzare il raggruppamento:
 
-        * [!UICONTROL **In Journey canvas**]
+   * [!UICONTROL **Nell&#39;area di lavoro del Percorso**]
 
-        * [!UICONTROL **In a freeform table**]
+   * [!UICONTROL **Tabella a forma libera**]
 
--->
+1. Seleziona la dimensione da utilizzare per il raggruppamento.
+
+   Se hai scelto di visualizzare il raggruppamento nell’area di lavoro del Percorso, sul nodo vengono visualizzati i primi 5 elementi dimensionali. Sul nodo è disponibile un’opzione per aprire il raggruppamento in una tabella a forma libera.
+
+   Se hai scelto di visualizzare il raggruppamento in una tabella a forma libera, gli elementi dimensionali principali vengono visualizzati in una nuova tabella a forma libera immediatamente sopra la visualizzazione dell’area di lavoro del Percorso.
 
 #### Applicare un raggruppamento a un singolo nodo
 
@@ -457,21 +491,17 @@ Quando crei un pubblico da più nodi o frecce, questi vengono uniti con l’oper
 
 Per creare un pubblico:
 
-1. Seleziona uno o più nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione area di lavoro Percorso, seleziona uno o più nodi in cui vuoi creare un pubblico, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
    Oppure
 
-   Seleziona una o più frecce tra 2 nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+   In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra due nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
-1. Seleziona [!UICONTROL **Crea pubblico**].
+   >[!NOTE]
+   >
+   >I tipi di pubblico non possono includere metriche calcolate o metriche basate su un [set di dati di riepilogo](/help/data-views/summary-data.md). Se tenti di creare un pubblico da una qualsiasi area dell’area di lavoro del Percorso che contiene una metrica calcolata o una metrica basata su un set di dati di riepilogo, la metrica calcolata non verrà inclusa nella definizione del pubblico.
 
-<!-- 1. Choose where you want to create the audience:
-
-        * [!UICONTROL **In Journey canvas**]
-
-        * [!UICONTROL **In a freeform table**]
-
--->
+1. Seleziona [!UICONTROL **Crea pubblico dal nodo**] o [!UICONTROL **Crea pubblico dalla freccia**].
 
 1. Continuare a creare e pubblicare il pubblico come descritto in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
 
@@ -495,11 +525,11 @@ L’opzione di tendenza è disponibile per i seguenti oggetti nell’area di lav
 
 Per visualizzare i dati di tendenza:
 
-1. Selezionare uno o più nodi per i quali si desidera visualizzare i dati sulle tendenze, quindi fare clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione area di lavoro Percorso, seleziona uno o più nodi per i quali vuoi visualizzare i dati sulle tendenze, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
    Oppure
 
-   Selezionare una o più frecce tra 2 nodi per i quali si desidera visualizzare i dati di tendenza, quindi fare clic con il pulsante destro del mouse su una delle frecce selezionate.
+   In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra 2 nodi per i quali desideri visualizzare i dati delle tendenze, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Tendenza**].
 
@@ -513,7 +543,7 @@ Se crei un filtro basato su un nodo che include più percorsi, tutti i percorsi 
 
 Per creare un filtro:
 
-1. Nell’area di lavoro, fai clic con il pulsante destro del mouse sul nodo o sulla freccia che desideri utilizzare per creare il filtro.
+1. In una visualizzazione con area di lavoro Percorso, fai clic con il pulsante destro del mouse sul nodo o sulla freccia che desideri utilizzare per creare il filtro.
 
 1. Selezionare [!UICONTROL **Crea filtro dal nodo**] o [!UICONTROL **Crea filtro dalla freccia**].
 
@@ -529,7 +559,7 @@ Per creare un filtro:
 
 Per eliminare i nodi nell&#39;area di lavoro del Percorso:
 
-1. Selezionare uno o più nodi da eliminare, quindi fare clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione area di lavoro Percorso, seleziona uno o più nodi da eliminare, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
 1. Seleziona [!UICONTROL **Elimina**].
 
@@ -539,48 +569,14 @@ Per eliminare i nodi nell&#39;area di lavoro del Percorso:
 
 Per eliminare le frecce tra i nodi nell&#39;area di lavoro del Percorso:
 
-1. Selezionare una o più frecce tra 2 nodi da eliminare, quindi fare clic con il pulsante destro del mouse su una delle frecce selezionate.
+1. In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra due nodi da eliminare, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
 1. Seleziona [!UICONTROL **Elimina**].
 
-
-<!-- Delete this after I decide I don't want to do it this way. Will probably use sections like I hav above.
-
-### Manage existing nodes
-
-1. In Analysis Workspace, open an existing Journey canvas visualization, or [begin building a new one](#begin-building-a-journey-canvas-visualization).
-
-1. Right-click an **individual node** on the canvas, then select any of the following options:
-   
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Create segment**] | B1 |
-   | [!UICONTROL **Publish audience**] | B2 |
-   | [!UICONTROL **Trend**] | B3 | 
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Get top next ...**] | B2 |
-   | [!UICONTROL **Change color**] | B2 |
-   | [!UICONTROL **Rename**] | B2 |
-   | [!UICONTROL **Delete**] | B2 |
-
-1. Select **multiple nodes** on the canvas, right-click one of the selected nodes, then select any of the following options:
-
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Combine**] | B1 |
-   | [!UICONTROL **Delete**] | B2 |
-   | [!UICONTROL **Duplicate**] | B3 | 
-   | [!UICONTROL **Trend**] | B2 |
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Create segment**] | B2 |
-   | [!UICONTROL **Publish audience**] | B2 |
-
-   -->
-
-
 ## Apri un percorso da Journey Optimizer
 
+Quando visualizzi un percorso in Journey Optimizer, puoi scegliere di visualizzarlo nell’area di lavoro del Percorso.
 
-In Journey Optimizer, apri il percorso che desideri analizzare nell’area di lavoro del Percorso.
+1. In Journey Optimizer, apri il percorso che desideri analizzare nell’area di lavoro del Percorso.
 
 1. Seleziona [!UICONTROL **Analizza in CJA**]. <!-- ?? -->

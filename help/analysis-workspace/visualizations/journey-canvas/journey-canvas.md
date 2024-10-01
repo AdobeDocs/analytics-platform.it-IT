@@ -3,12 +3,10 @@ description: Panoramica dell’area di lavoro del percorso
 title: Area di lavoro percorso
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -35,7 +33,7 @@ Le funzioni chiave della visualizzazione Area di lavoro del Percorso includono:
 
 ## Potenziali informazioni
 
-Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area di lavoro del Percorso può fornire. Puoi scegliere se queste informazioni si basano su tutte le persone nella visualizzazione dati o su tutte le persone che hanno iniziato il percorso.
+Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area di lavoro del Percorso può fornire. Puoi scegliere se queste informazioni si basano su tutte le persone nella visualizzazione dati, su tutte le persone che hanno avviato il percorso o su tutte le persone del nodo precedente del percorso.
 
 **Abbandono**
 
@@ -47,7 +45,7 @@ Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area
 
 **Fallout**
 
-* Punti (nodi) del percorso in cui le persone più comunemente abbandonano il percorso
+* I punti (nodi) del percorso in cui le persone più comunemente cadono dal percorso (non sono mai arrivate ai nodi immediatamente successivi)
 
 **Altre**
 
