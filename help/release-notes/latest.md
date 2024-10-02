@@ -3,10 +3,10 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c403e2bbf20de3dca4440160ef3f69a9d0d60a2f
+source-git-commit: e45b57ca3ec55493c252336ac0b78fef97e03b36
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 39%
+source-wordcount: '513'
+ht-degree: 37%
 
 ---
 
@@ -24,7 +24,7 @@ Queste note sulla versione coprono il periodo dal 2 ottobre 2024 al 22 ottobre 2
 | **Utilizzo prodotto** | Scopri come la tua organizzazione utilizza Customer Journey Analytics. Abilitando questa funzione viene creato un set di dati in Adobe Experience Platform che raccoglie dati quando un utente dell’organizzazione utilizza Analysis Workspace. Vengono inoltre create automaticamente una connessione e una visualizzazione dati, che consentono di accedere a dimensioni quali i principali tipi di progetto, gli utenti più attivi e i componenti più popolari utilizzati nei progetti. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | venerdì 3 ottobre 2024 | giovedì 23 ottobre 2024 |
 | **Visualizzazione area di lavoro Percorsi** | L’area di lavoro percorso è una visualizzazione in Analysis Workspace che consente di analizzare il modo in cui le persone procedono attraverso un percorso definito o ne escono. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Come fai tu, i dati vengono aggiornati di conseguenza.<p>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti.<p>Per ulteriori informazioni sull&#39;area di lavoro Percorso, vedere [Panoramica sull&#39;area di lavoro Percorso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas).<p>Per informazioni su come creare una visualizzazione dell&#39;area di lavoro Percorsi, vedere [Configurare l&#39;area di lavoro Percorsi](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas). | 2 ottobre 2024 | martedì 14 ottobre 2024 |
 | **I filtri pannello e i filtri colonna sono ora inclusi durante la creazione di un pubblico** | Durante la creazione di un pubblico da una visualizzazione in Analysis Workspace, i filtri dei pannelli e i filtri di colonna sono ora inclusi come criteri aggiuntivi. Se non sono necessari, i filtri possono essere rimossi prima di pubblicare il pubblico. In precedenza, tutti i filtri applicati al pannello o alla colonna di una visualizzazione in Analysis Workspace venivano ignorati durante la creazione di un pubblico.<p>Per informazioni su come creare un pubblico da un Customer Journey Analytics, vedi [Creare e pubblicare tipi di pubblico](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish). |  | 2 ottobre 2024 |
-
+| **Trasferimento risorse** | Consente di trasferire ad altri utenti la proprietà di componenti quali progetti, filtri e metriche calcolate, in modo da garantire la continuità e l’accesso appropriato. | Ottobre 15 | Ottobre 22 |
 
 ## Correzioni in Customer Journey Analytics
 
