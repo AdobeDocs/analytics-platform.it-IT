@@ -3,10 +3,10 @@ description: Crea, modifica o elimina gli avvisi.
 title: Gestisci avvisi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '533'
+ht-degree: 4%
 
 ---
 
@@ -50,17 +50,17 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 
 È possibile eseguire azioni sugli avvisi utilizzando la barra delle azioni di. La barra delle azioni contiene le azioni seguenti:
 
-| Azione | Descrizione |
-|---|---|
-| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un altro avviso utilizzando [Generatore di avvisi](alert-builder.md#alert-builder). |
-| ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell&#39;elenco non è selezionato alcun avviso, cercare gli avvisi utilizzando questo campo di ricerca. |
-| ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag agli avvisi selezionati. Nella finestra di dialogo **[!UICONTROL Tag Alert]**, seleziona o deseleziona i tag per gli avvisi selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per gli avvisi selezionati. |
-| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina gli avvisi selezionati. Viene richiesta una conferma. |
-| ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinominare un singolo avviso selezionato. Se questa opzione è selezionata, è possibile rinominare l&#39;avviso in linea. |
-| ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia l’avviso selezionato. Vengono creati nuovi avvisi con lo stesso nome e suffisso `(Copy)`. |
-| ![Segno di spuntaCerchio](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Enable]** o **[!UICONTROL Disable]** | Attiva o disattiva gli avvisi selezionati. |
-| ![Aggiorna](/help/assets/icons/Refresh.svg) **[!UICONTROL Renew]** | Rinnova la data di scadenza dell’avviso. La data di scadenza si estende per 1 anno dal giorno in cui è stata selezionata questa opzione, indipendentemente dalla data di scadenza originale. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Esporta gli avvisi in un file `Alerts List.csv`. |
+| Icona | Azione | Descrizione |
+|:---:|---|---|
+| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un altro avviso utilizzando [Generatore di avvisi](alert-builder.md#alert-builder). |
+| ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Cerca per titolo*] | Se nell&#39;elenco non è selezionato alcun avviso, cercare gli avvisi utilizzando questo campo di ricerca. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag agli avvisi selezionati. Nella finestra di dialogo **[!UICONTROL Tag Alert]**, seleziona o deseleziona i tag per gli avvisi selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per gli avvisi selezionati. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina gli avvisi selezionati. Viene richiesta una conferma. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinominare un singolo avviso selezionato. Se questa opzione è selezionata, è possibile rinominare l&#39;avviso in linea. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia l’avviso selezionato. Vengono creati nuovi avvisi con lo stesso nome e suffisso `(Copy)`. |
+| ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** o **[!UICONTROL Disable]** | Attiva o disattiva gli avvisi selezionati. |
+| ![Aggiorna](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Rinnova la data di scadenza dell’avviso. La data di scadenza si estende per 1 anno dal giorno in cui è stata selezionata questa opzione, indipendentemente dalla data di scadenza originale. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta gli avvisi in un file `Alerts List.csv`. |
 
 
 ### Barra dei filtri attiva

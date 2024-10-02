@@ -4,9 +4,9 @@ description: Come gestire le annotazioni in Workspace.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 5%
 
 ---
@@ -52,16 +52,16 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 
 È possibile eseguire azioni sulle annotazioni utilizzando la barra delle azioni di. La barra delle azioni contiene le azioni seguenti:
 
-| Azione | Descrizione |
-|---|---|
-| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un&#39;altra annotazione utilizzando [Generatore di annotazioni](create-annotations.md#annotation-builder). |
-| ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna annotazione, cerca le annotazioni utilizzando questo campo di ricerca. |
-| ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag alle annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Tag Component]**, seleziona o deseleziona i tag per le annotazioni selezionate. Selezionare **[!UICONTROL Save]** per salvare i tag per le annotazioni selezionate. |
-| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi le annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Share Component]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le annotazioni selezionate. Vedi [Condividi annotazioni](#share-annotations) per ulteriori dettagli. |
-| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina le annotazioni selezionate. Viene richiesta una conferma. |
-| ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinominare una singola annotazione selezionata. Se questa opzione è selezionata, è possibile rinominare l’annotazione in linea. |
-| ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia le annotazioni selezionate. Le nuove annotazioni vengono create con lo stesso nome e suffisso (Copia) |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Esporta le annotazioni in un file `Annotations List.csv`. |
+| Icona | Azione | Descrizione |
+|:--:|---|---|
+| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra annotazione utilizzando [Generatore di annotazioni](create-annotations.md#annotation-builder). |
+| ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna annotazione, cerca le annotazioni utilizzando questo campo di ricerca. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag alle annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Tag Component]**, seleziona o deseleziona i tag per le annotazioni selezionate. Selezionare **[!UICONTROL Save]** per salvare i tag per le annotazioni selezionate. |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividi le annotazioni selezionate. Nella finestra di dialogo **[!UICONTROL Share Component]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le annotazioni selezionate. Vedi [Condividi annotazioni](#share-annotations) per ulteriori dettagli. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina le annotazioni selezionate. Viene richiesta una conferma. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinominare una singola annotazione selezionata. Se questa opzione è selezionata, è possibile rinominare l’annotazione in linea. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia le annotazioni selezionate. Le nuove annotazioni vengono create con lo stesso nome e suffisso (Copia) |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta le annotazioni in un file `Annotations List.csv`. |
 
 ### Barra dei filtri attiva
 

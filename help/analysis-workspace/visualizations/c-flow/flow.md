@@ -4,9 +4,9 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 30%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 
 
-La visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) [!UICONTROL Flow] mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
+La visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
 
 Con la visualizzazione è possibile:
 
@@ -37,7 +37,7 @@ Con la visualizzazione è possibile:
 * Analizza dove vanno i clienti prima e dopo i punti di controllo specificati, ad esempio ingresso, una dimensione specifica o uscita.
 * Creare filtri designando un punto specifico nel percorso scelto
 
-+++ Visualizza una dimostrazione video della visualizzazione [!UICONTROL Flow].
++++ Visualizza una dimostrazione video della visualizzazione Flusso.
 
 >[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 

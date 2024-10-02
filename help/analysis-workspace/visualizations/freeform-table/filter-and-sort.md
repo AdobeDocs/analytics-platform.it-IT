@@ -4,9 +4,9 @@ title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 44%
 
 ---
@@ -47,7 +47,7 @@ Per escludere righe specifiche da una tabella a forma libera:
 
 1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona ![Chiudi](/help/assets/icons/Close.svg).
 
-   Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
+   Tenere premuto il tasto ***shift*** per selezionare un intervallo di righe, oppure il tasto ***cmd*** (in Mac) o il tasto ***ctrl*** (in Windows) per selezionare più righe.
 
 <!--### Right-click > Delete selected rows
 

@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 45%
+source-wordcount: '541'
+ht-degree: 44%
 
 ---
 
@@ -50,7 +50,7 @@ Aspetti da considerare:
    | Tipo di confronto a linee | Definizione |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Confronto in linea con il periodo di tempo selezionato e il campo di selezione secondario per il periodo di tempo.](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![Menu a discesa di confronto delle righe che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
+   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Visualizza l&#39;elenco delle [funzioni supportate](#supported-functions).<p>![Menu a discesa di confronto delle righe che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Grafico combinato che confronta due metriche.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}

@@ -3,10 +3,10 @@ description: Il gestore delle metriche calcolate consente di condividere, filtra
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 3%
+source-wordcount: '855'
+ht-degree: 4%
 
 ---
 
@@ -51,17 +51,17 @@ Utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificar
 
 È possibile eseguire azioni sui filtri utilizzando la barra delle azioni di. La barra delle azioni contiene le azioni seguenti:
 
-| Azione | Descrizione |
-|---|---|
-| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
-| ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
-| ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Tag Calculated metric]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
-| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
-| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina le metriche calcolate selezionate. Viene richiesta una conferma. |
-| ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina una singola metrica calcolata selezionata. Se selezionata, puoi rinominare la metrica calcolata in linea. |
-| ![CerchioSegnoDiSpunta](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva le metriche calcolate selezionate. Vedi [Approvare le metriche calcolate](cm-approving.md). |
-| ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia le metriche calcolate selezionate. Le nuove metriche calcolate vengono create con lo stesso nome e suffisso `(Copy)` |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Esporta le metriche calcolate in un file `Calculated  metric List.csv`. |
+| Icona | Azione | Descrizione |
+|:---:|---|---|
+| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
+| ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Cerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Tag Calculated metric]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina le metriche calcolate selezionate. Viene richiesta una conferma. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina una singola metrica calcolata selezionata. Se selezionata, puoi rinominare la metrica calcolata in linea. |
+| ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Approva le metriche calcolate selezionate. Vedi [Approvare le metriche calcolate](cm-approving.md). |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia le metriche calcolate selezionate. Le nuove metriche calcolate vengono create con lo stesso nome e suffisso `(Copy)` |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta le metriche calcolate in un file `Calculated  metric List.csv`. |
 
 ### Barra dei filtri attiva
 

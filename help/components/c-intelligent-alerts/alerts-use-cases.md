@@ -1,12 +1,12 @@
 ---
 description: Casi di utilizzo per gli avvisi.
-title: 'Avvisi: casi di utilizzo'
+title: Casi di utilizzo degli avvisi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 38%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 38%
 
 Nelle sezioni seguenti sono illustrati alcuni esempi di casi d’uso da considerare durante la creazione di avvisi.
 
-## Creare un semplice avviso filtrato da due filtri {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtra avvisi
+
+Puoi creare semplici avvisi utilizzando i filtri. Ad esempio, definisci un avviso relativo al numero di sessioni per le persone che visitano la home page tramite una sessione dell’app mobile.
 
 <!-- 
 
@@ -24,12 +26,12 @@ Update screenshots for better readability.
 
  -->
 
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidare (raggruppare) gli avvisi invece di creare più avvisi {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Stack di avvisi
 
-Gli avvisi possono essere combinati in modo da evitare di ricevere troppi avvisi distinti.
+È possibile consolidare (raggruppare) gli avvisi invece di creare più avvisi. Gli avvisi possono essere combinati in modo da evitare di ricevere diversi avvisi. Nell’esempio seguente viene inviato un avviso quando viene attivata una delle soglie delle metriche.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

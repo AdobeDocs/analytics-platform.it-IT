@@ -4,9 +4,9 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2113'
 ht-degree: 22%
 
 ---
@@ -180,7 +180,6 @@ Le metriche calcolate che includono una delle metriche o costanti seguenti non s
 * Costanti aggiunte o sottratte da una metrica di base (ad esempio, `Revenue+50`)
 * Una delle metriche di base seguenti:
    * Persone
-   * (che altro?)
 
 Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il valore [!UICONTROL **Ovunque nel Customer Journey Analytics (esclusa la sperimentazione)**] nel campo [!UICONTROL **Compatibilità prodotto**] durante la creazione della metrica calcolata. Per informazioni sulla creazione di una metrica calcolata, vedere [Genera metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 

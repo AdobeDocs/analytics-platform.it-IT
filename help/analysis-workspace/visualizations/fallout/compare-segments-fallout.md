@@ -5,10 +5,10 @@ title: Applicare i filtri nell’analisi dell’abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 46%
+ht-degree: 43%
 
 ---
 
@@ -18,11 +18,11 @@ In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere fil
 
 >[!IMPORTANT]
 >
->I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto persona, i filtri utilizzati come punti di controllo devono essere basati su visite o eventi. Con Fallout in contesto visita, i filtri utilizzati come punto di controllo devono essere basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un filtro incompatibile come punto di contatto, viene visualizzato un avviso per la visualizzazione Abbandono. Alcune combinazioni di contenitori di filtri non valide generano diagrammi di fallout non validi, ad esempio:
-
-* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona
-* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto visita
-* Utilizzo di un filtro basato su visita come punto di contatto all’interno di una visualizzazione Fallout in un contesto visita
+>I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto persona, i filtri utilizzati come punti di controllo devono essere basati su sessioni o eventi. Con Fallout in contesto di sessione, i filtri utilizzati come punto di controllo devono essere basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un filtro incompatibile come punto di contatto, viene visualizzato un avviso per la visualizzazione Abbandono. Alcune combinazioni di contenitori di filtri non valide generano diagrammi di fallout non validi, ad esempio:
+>
+>* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona
+>* Utilizzo di un filtro basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione
+>* Utilizzo di un filtro basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione
 
 ## Creare un filtro da un punto di contatto
 
