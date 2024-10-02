@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 48%
+source-wordcount: '1593'
+ht-degree: 49%
 
 ---
 
@@ -126,12 +126,6 @@ Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID d
 RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiunge lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
-
->[!AVAILABILITY]
->
->La funzionalità descritta nei passaggi seguenti si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Se questi passaggi non corrispondono a quelli visualizzati nell&#39;ambiente, utilizza i seguenti passaggi: Vai a [!UICONTROL **Segmenti**] > [!UICONTROL **Crea segmenti**] > [!UICONTROL **Scheda Tipi di pubblico**] > [!UICONTROL **Tipi di pubblico CJA**].
->
->Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, vedere [Rilasci di funzionalità del Customer Journey Analytics](/help/release-notes/releases.md).
 
 1. Espandi [!UICONTROL **Cliente**] nel pannello a sinistra, quindi seleziona [!UICONTROL **Tipi di pubblico**]. <!-- is there a folder called "Customer Journey Analytics? -->
 

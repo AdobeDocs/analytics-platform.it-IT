@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. Consente di definire un percorso da zero o visualizzarne uno da Journey Optimizer, quindi di vedere in che modo le persone hanno abbandonato (abbandonato) o continuato (proseguito) il percorso.
 
 È possibile [creare analisi di percorsi di utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, filtri e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti decisionali. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti modifiche.
+
+[I nodi sono connessi](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati finché passano da un nodo all&#39;altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dall’impostazione del contenitore.
+
+![Area di lavoro Percorsi](assets/journey-canvas.png)
 
 ## Funzioni chiave
 
@@ -39,13 +43,13 @@ Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area
 
 * Numero e percentuale di persone che hanno completato il percorso (arrivate al nodo finale)
 
-* Numero e percentuale di persone arrivate a un determinato punto (nodo) del percorso
+* Numero e percentuale di persone arrivate a un determinato nodo del percorso
 
-* Passaggio più comune successivo o precedente a un determinato punto (nodo) del percorso
+* Il passaggio più comune che è arrivato dopo o prima di un dato nodo del percorso
 
 **Fallout**
 
-* I punti (nodi) del percorso in cui le persone più comunemente cadono dal percorso (non sono mai arrivate ai nodi immediatamente successivi)
+* I nodi del percorso in cui le persone più comunemente cadevano dal percorso (non sono mai arrivate ai nodi immediatamente successivi)
 
 **Altre**
 

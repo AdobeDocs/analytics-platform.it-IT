@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 057c9f4a0e8fb163bfb23cea1870f949ad4ae1c0
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,23 @@ Ad esempio, se utilizzi Persona come contenitore con Sessione come metrica princ
 
 Le seguenti configurazioni possono causare nodi che mostrano percentuali superiori al 100%:
 
-* Quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]** e viene selezionata una metrica primaria che restituisce meno dati per il nodo iniziale rispetto ai nodi successivi.
+* Quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]** o **[!UICONTROL Percent of start node]** e viene selezionata una metrica primaria che restituisce meno dati per il nodo iniziale rispetto ai nodi successivi.
 
   Ad esempio, se Ricavi è selezionato come metrica principale e non viene realizzato alcun ricavo sulla metrica principale, su qualsiasi nodo in cui i ricavi vengono realizzati verrà visualizzato un valore superiore al 100%.
 
+## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
+
+## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
+
+## I nodi che si trovano più avanti nel percorso hanno una percentuale o un valore più alto rispetto a quelli che si trovano prima
+
+## Un nodo con una percentuale o un valore superiore rispetto ai nodi che lo precedono nel percorso
+
+## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
+
+## Nodi
+
+## Una percentuale o un valore più alto nei nodi successivi
 
 ## Percorso non a forma di imbuto
 
