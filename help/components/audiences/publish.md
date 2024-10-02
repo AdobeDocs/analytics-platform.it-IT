@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
+source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 49%
+source-wordcount: '1711'
+ht-degree: 45%
 
 ---
 
@@ -42,12 +42,10 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Metodo di creazione | Dettagli |
    | --- | --- |
    | Dal menu principale **[!UICONTROL Components]>[!UICONTROL Audiences]** | Viene visualizzata la pagina di gestione dei tipi di pubblico. Fai clic su **[!UICONTROL Create audience]**; viene aperto [!UICONTROL Audience builder]. |
-   | Da una tabella a forma libera | Fai clic con il pulsante destro del mouse su un elemento in una tabella a forma libera e seleziona **[!UICONTROL Create audience from selection]**. Usando questo metodo il filtro viene precompilato con la dimensione o l’elemento della dimensione selezionato nella tabella. |
+   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È possibile, ad esempio, fare clic con il pulsante destro del mouse su un elemento in una tabella a forma libera oppure fare clic con il pulsante destro del mouse su un nodo nell&#39;area di lavoro del Percorso, quindi selezionare **[!UICONTROL Create audience]**. <p>Usando questo metodo il filtro viene precompilato con la dimensione o l’elemento della dimensione selezionato nella tabella.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>Coorte</li><li>Fallout (abbandono)</li><li>Flusso</li><li>Tabella a forma libera</li><li>Area di lavoro percorso</li><li>Venn</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, la metrica calcolata non verrà inclusa nella definizione del pubblico.</p> |
    | Dall’interfaccia utente di creazione/modifica del filtro | Seleziona la casella che riporta **[!UICONTROL Create an audience from this filter]**. Usando questo metodo il filtro viene precompilato. |
 
    {style="table-layout:auto"}
-
-   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. Crea il pubblico.
 
@@ -64,7 +62,7 @@ Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per 
    | Data di scadenza | La data in cui il pubblico smetterà di aggiornarsi. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza: l’amministratore riceve un’e-mail un mese prima della scadenza del pubblico. |
    | Finestra di lookback di aggiornamento | Specifica quanto indietro desideri andare nella finestra dei dati durante la creazione del pubblico. Il massimo è 90 giorni. |
    | [!UICONTROL One-time date range] | L’intervallo di date per la pubblicazione del pubblico una tantum. |
-   | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con gli operatori `And` o `Or`. |
+   | [!UICONTROL Filter] | I filtri sono l’input principale per il pubblico. Puoi aggiungere fino a 20 filtri. Questi filtri possono essere uniti con gli operatori `And` o `Or`.<p>Durante la creazione di un pubblico da una visualizzazione in Analysis Workspace (ad esempio, una tabella a forma libera o un’area di lavoro del Percorso), tutti i filtri applicati al pannello o alla colonna vengono mantenuti. Puoi rimuovere tutti i filtri applicati automaticamente.</p> |
    | [!UICONTROL View sample IDs] | Un campione di ID in questo pubblico. Utilizza la barra di ricerca per cercare ID di esempio. |
 
    {style="table-layout:auto"}
