@@ -4,10 +4,10 @@ title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 19%
+source-wordcount: '818'
+ht-degree: 20%
 
 ---
 
@@ -51,7 +51,7 @@ Per accedere a [!UICONTROL Column settings], selezionare ![Impostazioni colonna]
 
 La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale nelle tabelle a forma libera è abilitata automaticamente anche nelle suddivisioni, a meno che non venga selezionata l’opzione per limitare [!UICONTROL Custom].
 
-<img src="./assets/conditional-formatting.png" alt="Opzioni di formattazione condizionale con Personalizzato selezionato" width="40%" />
+![Formattazione condizionale](./assets/conditional-formatting.png)
 
 | Opzioni di formattazione condizionale | Descrizione |
 | --- | --- |
@@ -67,9 +67,19 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="Usa modello di attribuzione non predefinito"
->abstract="Abilita un modello di attribuzione non predefinito per le colonne selezionate"
+>abstract="Abilita un modello di attribuzione non predefinito per le colonne selezionate."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Per questa metrica non è disponibile la modalità di attribuzione non predefinita."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 È possibile sostituire il modello di attribuzione predefinito configurato in [Visualizzazioni dati](/help/data-views/component-settings/attribution.md).
