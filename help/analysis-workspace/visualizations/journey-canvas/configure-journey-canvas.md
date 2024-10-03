@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 3b9f477001747a96359f77f2e48baf7589b7a1e4
 workflow-type: tm+mt
-source-wordcount: '6575'
+source-wordcount: '6373'
 ht-degree: 1%
 
 ---
@@ -149,10 +149,6 @@ Puoi creare i nodi nei seguenti modi: trascinando i componenti di Workspace dall
 
 ### Mostra i nodi principali in base ai nodi esistenti
 
->[!AVAILABILITY]
->
->Questa funzione non è ancora disponibile.
-
 Puoi visualizzare automaticamente i nodi principali in base ai nodi già presenti nell’area di lavoro. Puoi aggiungere i nodi principali all’area di lavoro del Percorso o visualizzarli in una tabella a forma libera.
 
 Questa opzione è disponibile per i seguenti oggetti nell’area di lavoro:
@@ -221,17 +217,17 @@ Puoi selezionare una freccia e visualizzare gli elementi dimensionali principali
 
 ### Nodi duplicati
 
->[!AVAILABILITY]
->
->Questa funzione non è ancora disponibile.
-
 L’opzione per duplicare è disponibile per i seguenti oggetti nell’area di lavoro:
+
+* Singoli nodi
 
 * Più nodi
 
 Per duplicare i nodi:
 
-1. Selezionare più nodi da duplicare.
+1. Selezionare uno o più nodi da duplicare.
+
+   Per selezionare più nodi, tenere premuto Comando (su Mac) o Ctrl (su Windows).
 
 1. Fare clic con il pulsante destro del mouse su uno dei nodi selezionati, quindi selezionare [!UICONTROL **Duplica**].
 
@@ -263,7 +259,7 @@ Per combinare i nodi nell&#39;area di lavoro del Percorso, è possibile eseguire
 
 * Dalla barra a sinistra, trascina più componenti simultaneamente su un’area vuota dell’area di lavoro tenendo premuto il tasto Maiusc.
 
-* Nell&#39;area di lavoro selezionare i nodi da combinare, fare clic con il pulsante destro del mouse su uno dei nodi selezionati, quindi selezionare **Combina**.<!--Is there a limit on how many you can combine? -->
+<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
 
 #### Logica durante la combinazione dei nodi
 
@@ -304,7 +300,7 @@ I nodi sono collegati da una freccia. Sia la direzione della freccia che la larg
 
 Quando si connettono nodi nell&#39;area di lavoro del Percorso, questi vengono connessi utilizzando l&#39;operatore THEN. Questa operazione è nota anche come [filtro sequenziale](/help/components/filters/seg-sequential-build.md).
 
-I nodi sono connessi come un &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati purché alla fine si spostino da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dall’impostazione del contenitore. Può essere controllata anche aggiungendo [un vincolo di tempo](#add-a-time-constraint-between-nodes).
+I nodi sono connessi come un &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati purché alla fine si spostino da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dall’impostazione del contenitore. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 È possibile visualizzare la logica dei nodi connessi facendo clic con il pulsante destro del mouse sul nodo e selezionando [!UICONTROL **Crea filtro dal nodo**]. La logica è illustrata nella sezione [!UICONTROL **Definizione**].
 
@@ -328,23 +324,23 @@ Quando aggiungi un nodo all’area di lavoro, puoi posizionarlo tra due nodi con
 
 Per ulteriori informazioni, vedere [Aggiungere nodi](#add-nodes).
 
-### Aggiungere un vincolo di tempo tra i nodi
+<!--
+
+### Add a time constraint between nodes
 
 >[!AVAILABILITY]
 >
->Questa funzione non è ancora disponibile.
+>This feature is not yet available.
 
-È possibile impostare un vincolo temporale tra i nodi. Quando è presente un vincolo di tempo, le persone vengono considerate escluse dal percorso se seguono il percorso definito ma impiegano più tempo del periodo di tempo assegnato per spostarsi tra i nodi.
+You can set a time constraint between nodes. When a time constraint is in place, people are considered to have fallen out of the journey if they follow the defined journey but take longer than the allotted time period to move between the nodes.
 
-L’opzione per aggiungere un vincolo temporale è disponibile per i seguenti oggetti nell’area di lavoro:
+The option to add a time constraint is available for the following objects on the canvas:
 
-* La freccia tra i nodi
+* The arrow between nodes
 
-Per aggiungere un vincolo di tempo:
+To add a time constraint:
 
-1. In una visualizzazione dell&#39;area di lavoro del Percorso, fare clic con il pulsante destro del mouse sulla freccia tra due nodi, quindi selezionare [!UICONTROL **Aggiungi vincolo di tempo**].
-
-<!-- 
+1. In a Journey canvas visualization, right-click the arrow between 2 nodes, then select [!UICONTROL **Add time constraint**].
 
 from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
 1. Choose from the following options: 
@@ -353,35 +349,35 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ## Gestire nodi o frecce
 
-### Modificare il colore di un nodo o di una freccia
+<!--
+
+### Change the color of a node or arrow
 
 >[!AVAILABILITY]
 >
->Questa funzione non è ancora disponibile.
+>This feature is not yet available.
 
-Puoi personalizzare visivamente un percorso modificando il colore di qualsiasi nodo o freccia nell’area di lavoro. Ad esempio, è possibile regolare i colori per indicare un evento desiderato o indesiderato.
+You can visually customize a journey by changing the color of any node or arrow on the canvas. For example, you could adjust colors to indicate a desirable or undesirable event.
 
-L’opzione per modificare il colore è disponibile per i seguenti oggetti nell’area di lavoro:
+The option to change the color is available for the following objects on the canvas:
 
-* Singoli nodi
+* Individual nodes
 
-* La freccia tra i nodi
+* The arrow between nodes
 
-Per modificare il colore di un nodo o di una freccia:
+To change the color of a node or arrow:
 
-1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sul nodo o sulla freccia di cui desideri modificare il colore.
+1. In a Journey canvas visualization, right-click the node or arrow whose color you want to change.
 
-1. Seleziona [!UICONTROL **Cambia colore**]. <!--make sure "color" isn't capitalized. It is in the req doc-->
+1. Select [!UICONTROL **Change color**]. 
 
-1. Seleziona il colore desiderato.
+1. Select the desired color. 
 
-   Sono disponibili i colori seguenti: <!--look into this interaction and color list-->
+   The following colors are available: 
+
+-->
 
 ### Rinominare un nodo
-
->[!AVAILABILITY]
->
->Questa funzione non è ancora disponibile.
 
 Quando trascini un componente in una visualizzazione area di lavoro Percorsi, viene creato un nodo con lo stesso nome del nome del componente. Puoi rinominare il nodo in modo che corrisponda meglio al passaggio del percorso rappresentato dal nodo.
 
@@ -453,15 +449,13 @@ Quando applichi una suddivisione, tieni presente quanto segue:
 
 #### Applicare un raggruppamento a uno o più nodi o frecce
 
->[!AVAILABILITY]
->
->Questa funzione non è ancora disponibile.
-
 1. In una visualizzazione area di lavoro Percorso, seleziona uno o più nodi in cui desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
    Oppure
 
    In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra 2 nodi in cui desideri applicare il raggruppamento, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+
+   Per selezionare più nodi o frecce, tenere premuto Comando (su Mac) o Ctrl (su Windows).
 
 1. Seleziona [!UICONTROL **Raggruppamento**].
 
@@ -513,6 +507,8 @@ Per creare un pubblico:
 
    In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra due nodi in cui desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
 
+   Per selezionare più nodi o frecce, tenere premuto Comando (su Mac) o Ctrl (su Windows).
+
    >[!NOTE]
    >
    >I tipi di pubblico non possono includere metriche calcolate o metriche basate su un [set di dati di riepilogo](/help/data-views/summary-data.md). Se tenti di creare un pubblico da una qualsiasi area dell’area di lavoro del Percorso che contiene una metrica calcolata o una metrica basata su un set di dati di riepilogo, la metrica calcolata non verrà inclusa nella definizione del pubblico.
@@ -522,10 +518,6 @@ Per creare un pubblico:
 1. Continuare a creare e pubblicare il pubblico come descritto in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
 
 ### Visualizza dati tendenza
-
->[!AVAILABILITY]
->
->Questa funzione non è ancora disponibile.
 
 È possibile visualizzare i dati delle tendenze in un grafico a linee per gli oggetti nell&#39;area di lavoro del Percorso. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
@@ -546,6 +538,8 @@ Per visualizzare i dati di tendenza:
    Oppure
 
    In una visualizzazione area di lavoro Percorso, seleziona una o più frecce tra 2 nodi per i quali desideri visualizzare i dati delle tendenze, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+
+   Per selezionare più nodi o frecce, tenere premuto Comando (su Mac) o Ctrl (su Windows).
 
 1. Seleziona [!UICONTROL **Tendenza**].
 
