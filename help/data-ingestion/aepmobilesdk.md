@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3085'
 ht-degree: 61%
 
 ---
 
-# Acquisire dati tramite Adobe Experience Platform Mobile SDK
+# Acquisire dati tramite Mobile SDK
 
 Questa guida rapida spiega come acquisire i dati di tracciamento delle app mobili direttamente in Adobe Experience Platform utilizzando l’SDK Adobe Experience Platform Mobile e un Edge Network. Quindi usa quei dati nel Customer Journey Analytics.
 
@@ -283,7 +283,7 @@ Per ulteriori informazioni, vedere [Configurare l&#39;estensione dell&#39;Edge N
 Desideri anche impostare le seguenti estensioni aggiuntive dal catalogo:
 
 - Identità.
-- Garanzia AEP.
+- AEP ASSURANCE
 - Consenso.
 
 Per ulteriori informazioni sulle estensioni e sulla relativa configurazione, consulta [Configurare una proprietà tag](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=it) nell&#39;esercitazione per app mobili su Experience Platform.

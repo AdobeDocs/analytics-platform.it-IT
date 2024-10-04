@@ -1,17 +1,17 @@
 ---
-title: Creare collegamenti ipertestuali in una tabella a forma libera in Analysis Workspace
+title: Creare collegamenti ipertestuali in una tabella a forma libera
 description: Scopri come creare collegamenti ipertestuali per gli elementi dimensionali in una tabella a forma libera in Analysis Workspace
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1590'
 ht-degree: 1%
 
 ---
 
-# Creare collegamenti ipertestuali per le dimensioni in una tabella a forma libera
+# Creare collegamenti ipertestuali in una tabella a forma libera
 
 Puoi creare collegamenti ipertestuali per gli elementi dimensionali per renderli cliccabili all’interno di una tabella a forma libera in Analysis Workspace.
 
@@ -31,9 +31,9 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 +++
 
-## Creare collegamenti ipertestuali per uno o più elementi dimensionali
+## Creare collegamenti ipertestuali
 
-Durante la creazione di collegamenti ipertestuali per gli elementi dimensionali, considera quanto segue:
+Quando crei collegamenti ipertestuali per uno o più elementi dimensionali, considera quanto segue:
 
 * I collegamenti ipertestuali creati vengono memorizzati nella tabella a forma libera all’interno del progetto Analysis Workspace. I collegamenti ipertestuali non persistono quando si utilizzano gli stessi elementi dimensione o dimensione in un’altra tabella o in un altro progetto.
 

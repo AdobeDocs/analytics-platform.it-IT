@@ -1,18 +1,18 @@
 ---
 description: Spiega i fattori che influenzano la coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-time Customer Data Platform (Real-Time CDP) e Customer Journey Analytics.
-title: Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-Time CDP e Customer Journey Analytics
+title: Coerenza di metriche e iscrizione al pubblico
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 97%
 
 ---
 
 
-# Coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-Time CDP e Adobe Customer Journey Analytics
+# Coerenza di metriche e iscrizione al pubblico
 
 In scenari reali, non è possibile garantire la coerenza di metriche e conteggi di appartenenza a un pubblico tra Real-time Customer Data Platform (Real-Time CDP) e Customer Journey Analytics. Questo documento spiega perché.
 

@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 51d4f05d7d28befed0a5c0d1b47b53c2e045f7f7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '4070'
+source-wordcount: '4074'
 ht-degree: 63%
 
 ---
@@ -20,7 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2024** | |
-| Workspace e componenti | È stata aggiornata la documentazione su progetti (progetti, visualizzazioni e pannelli) e componenti di Workspace (annotazioni, dimensioni, metriche (calcolate), filtri, intervalli di date e avvisi). |
+| Workspace e componenti | È stata aggiornata la documentazione su progetti (progetti, visualizzazioni e pannelli) e componenti di Analysis Workspace (annotazioni, dimensioni, metriche (calcolate), filtri, intervalli di date, avvisi, progetti pianificati e tipi di pubblico). |
 | **Settembre 2024** | |
 | Aggiornamento dei dati di riepilogo | Aggiornati articoli di dati di riepilogo con informazioni su come utilizzare correttamente [dati di ricerca](/help/data-views/summary-data.md#lookup-data) durante la generazione di rapporti sui dati di riepilogo. |
 | Aggiornamento dell&#39;estensione BI | Aggiunta della sezione [valori predefiniti e limiti](/help/data-views/bi-extension.md#defaults-and-limitations) alla documentazione dell&#39;estensione BI. |

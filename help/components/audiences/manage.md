@@ -4,9 +4,9 @@ description: Scopri come gestire i tipi di pubblico in Customer Journey Analytic
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 18%
 
 ---
@@ -24,6 +24,8 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 * Verifica se i tipi di pubblico nel Customer Journey Analytics sono **utilizzati attivamente da Real-time Customer Platform**. Oppure (idealmente) qualsiasi applicazione Experience Platform che utilizzi i tipi di pubblico creati dal Customer Journey Analytics.
 
 Se disponi dell&#39;accesso [Visualizzazione pubblico](/help/technotes/access-control.md#user-level-access), puoi visualizzare i tipi di pubblico. Se disponi dell&#39;accesso [Creazione pubblico](/help/technotes/access-control.md#user-level-access), puoi modificare ed eliminare i tipi di pubblico. L&#39;[elenco tipi di pubblico](#audiences-list) mostra i tipi di pubblico.
+
+![Gestione tipi di pubblico](assets/audiences-manager.png)
 
 ## Elenco tipi di pubblico
 

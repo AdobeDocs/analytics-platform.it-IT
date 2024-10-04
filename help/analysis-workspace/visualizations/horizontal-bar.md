@@ -4,14 +4,16 @@ title: Barre orizzontali e Barre orizzontali sovrapposte
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 13%
+source-wordcount: '150'
+ht-degree: 12%
 
 ---
 
-# Barre orizzontali e Barre orizzontali sovrapposte
+# Barre orizzontali (sovrapposte)
+
+La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 
 ## Barre orizzontali {#horizontal-bar}
 

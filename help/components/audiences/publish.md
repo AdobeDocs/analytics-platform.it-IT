@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 15%
+source-wordcount: '1865'
+ht-degree: 14%
 
 ---
 
@@ -147,25 +147,25 @@ In diversi punti prima, durante e dopo la pubblicazione del pubblico, possono ve
 
 ## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experience Platform {#audiences-aep}
 
-Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-Time Customer Profile (RTCP). Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] al momento della configurazione della connessione.
+Customer Journey Analytics prende tutte le combinazioni di spazio dei nomi e ID dal pubblico pubblicato e le trasmette a Real-time Customer Data Platform. Il Customer Journey Analytics invia il pubblico all&#39;Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL Person ID] al momento della configurazione della connessione.
 
-RTCP esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiunge lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
+Real-time Customer Data Platform esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiunge lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ad esempio, è possibile eseguire il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 
-1. Espandi [!UICONTROL **Cliente**] nel pannello a sinistra, quindi seleziona [!UICONTROL **Tipi di pubblico**]. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Espandi **[!UICONTROL Customer]** nel pannello a sinistra, quindi seleziona **[!UICONTROL Audiences]**. <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. Selezionare la scheda [!UICONTROL **Sfoglia**].
-
-   Opzione ![Tipi di pubblico nel pannello a sinistra](assets/audiences-aep.png)
+1. Seleziona la scheda **[!UICONTROL Browse]**.
 
 1. Per individuare il pubblico pubblicato da Customer Journey Analytics, effettua una delle seguenti operazioni:
 
-   * Ordina la tabella in base alla colonna [!UICONTROL **Origin**] per visualizzare i tipi di pubblico che mostrano [!UICONTROL **Customer Journey Analytics**] come origine.
+   Opzione ![Tipi di pubblico nel pannello a sinistra](assets/aep-audiences.png)
 
-   * Seleziona l’icona del filtro.
+   * Ordina la tabella in base alla colonna **[!UICONTROL Origin]** per visualizzare i tipi di pubblico che mostrano [!UICONTROL **Customer Journey Analytics**] come origine.
 
-   * Utilizza il campo di ricerca.
+   * Filtra ![Filtra](/help/assets/icons/Filter.svg) su **[!UICONTROL Origin]** e seleziona **[!UICONTROL Customer Journey Analytics]**.
+
+   * Utilizza il campo di ricerca ![Ricerca](/help/assets/icons/Search.svg).
 
 Per ulteriori informazioni sull&#39;utilizzo dei tipi di pubblico in Platform, consulta la sezione [Tipi di pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) nella [guida dell&#39;interfaccia utente del Generatore di segmenti](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) nella documentazione di Experience Platform.
 
@@ -186,7 +186,7 @@ Quando un pubblico di Customer Journey Analytics viene eliminato, non viene più
 
 +++
 
-+++**Se un profilo corrispondente non esiste in RTCDP, viene creato un nuovo profilo?**
++++**Se un profilo corrispondente non esiste in Real-time Customer Data Platform, viene creato un nuovo profilo?**
 
 Sì.
 
@@ -194,7 +194,7 @@ Sì.
 
 +++**Il Customer Journey Analytics invia i dati del pubblico come eventi pipeline o come file flat che viene inviato anche al data lake?**
 
-Il Customer Journey Analytics trasmette i dati in RTCP tramite pipeline e questi dati vengono raccolti anche in un set di dati di sistema nel data lake.
+Il Customer Journey Analytics invia i dati in Real-time Customer Data Platform tramite pipeline e questi dati vengono raccolti anche in un set di dati di sistema nel data lake.
 
 +++
 
@@ -210,9 +210,9 @@ Vedi sopra. Viene inviata una sola identità per persona del Customer Journey An
 
 +++
 
-+++**RTCP elabora anche i messaggi di Customer Journey Analytics? Il Customer Journey Analytics può aggiungere identità a un grafico delle identità di profilo tramite la condivisione del pubblico?**
++++**Real-time Customer Data Platform elabora anche i messaggi di Customer Journey Analytics? Il Customer Journey Analytics può aggiungere identità a un grafico delle identità di profilo tramite la condivisione del pubblico?**
 
-No. Viene inviata una sola identità per persona, quindi non ci sarebbero margini di grafico da utilizzare per RTCP.
+No. Viene inviata una sola identità per persona, quindi non ci sarebbero margini di grafico da utilizzare per Real-time Customer Data Platform.
 
 +++
 

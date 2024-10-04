@@ -1,17 +1,17 @@
 ---
-title: Migrazione dei dati da Google Analytics a Customer Journey Analytics
+title: Migra dati da Google Analytics
 description: Scopri il flusso di lavoro generale per spostare i dati da Google Analytics a Adobe Experience Platform e visualizzare i rapporti in Customer Journey Analytics.
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 79%
+source-wordcount: '303'
+ht-degree: 75%
 
 ---
 
-# Migrazione dei dati da Google Analytics a Customer Journey Analytics
+# Migra dati da Google Analytics
 
 Se hai poca esperienza con Customer Journey Analytics, è possibile che la tua organizzazione disponga di dati esistenti su un&#39;altra piattaforma Analytics, ad esempio Google Analytics. Puoi seguire questi passaggi generali per spostare tali dati in Adobe Experience Platform, consentendoti di visualizzare i rapporti su Customer Journey Analytics.
 

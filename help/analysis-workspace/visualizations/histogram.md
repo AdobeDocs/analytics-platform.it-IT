@@ -4,7 +4,7 @@ title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 40%
@@ -42,7 +42,7 @@ Nell’esempio seguente, viene utilizzato un istogramma per le sessioni di bucke
 
 ![](assets/histogram.png)
 
-## Impostazioni avanzate {#section_09D774C584864D4CA6B5672DC2927477}
+## Impostazioni avanzate
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche dell’istogramma.
 

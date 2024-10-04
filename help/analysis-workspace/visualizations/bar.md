@@ -4,14 +4,16 @@ title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 17%
+source-wordcount: '168'
+ht-degree: 14%
 
 ---
 
-# Barre e barre sovrapposte
+# Barre (sovrapposte)
+
+La visualizzazione a barre ha un’opzione standard e sovrapposta.
 
 ## Barre {#bar}
 

@@ -1,19 +1,19 @@
 ---
-title: Acquisire dati storici da Google Analytics in Adobe Experience Platform
+title: Acquisire dati storici Google Analytics
 description: Come utilizzare Adobe Customer Journey Analytics per acquisire i dati Google Analytics in Adobe Experience Platform.
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 89%
+source-wordcount: '609'
+ht-degree: 88%
 
 ---
 
 
-# Acquisire dati storici da Google Analytics in Adobe Experience Platform
+# Acquisire dati storici Google Analytics
 
 Questa pagina contiene informazioni su come acquisire dati storici da Google Analytics in Adobe Experience Platform come set di dati, in modo che sia possibile farvi riferimento in una visualizzazione dati in Customer Journey Analytics. Puoi combinare i passaggi descritti in questa pagina con quelli per generare un set di dati ricorrente descritti in [Configurazione di un’implementazione live di Google Analytics](streaming.md). Combina questo set di dati storici con il set di dati dell’implementazione corrente per ottenere una visualizzazione diretta in Customer Journey Analytics con dati sia correnti che precedenti.
 

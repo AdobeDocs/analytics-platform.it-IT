@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2176'
 ht-degree: 57%
 
 ---
 
-# Acquisire dati tramite l’API Adobe Experience Platform Edge Network Server
+# Acquisire dati tramite l’API server Edge Network
 
 Questa guida rapida spiega come acquisire i dati di tracciamento da dispositivi come dispositivi IoT, set-top box, console di gioco e applicazioni desktop direttamente in Adobe Experience Platform utilizzando l’API Adobe Experience Platform Edge Network Server e Edge Network. Quindi usa quei dati nel Customer Journey Analytics.
 
