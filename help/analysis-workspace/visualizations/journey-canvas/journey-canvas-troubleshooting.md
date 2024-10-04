@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
+source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ Il percorso utilizzato nei seguenti scenari è configurato con le seguenti impos
 
 #### Scenario 1 - L’utente A segue il percorso del percorso nella prima sessione e quindi solo i nodi successivi in una sessione successiva
 
-Supponiamo che l’utente A visiti il sito e segua il percorso del percorso (Nodo 1: Visita sito > Nodo 2: Visualizza prodotto A > Nodo 3: Estrai). In questo scenario, viene conteggiato un evento su ogni nodo del percorso.
+Supponiamo che l’utente A visiti il sito e completi il percorso (Nodo 1: &quot;Visita il sito&quot; > Nodo 2: &quot;Visualizza il prodotto A&quot; > Nodo 3: &quot;Estrai&quot;). Poiché l&#39;utente A ha completato il percorso, viene conteggiato un evento su ciascun nodo del percorso.
 
-Ora supponiamo che l’utente A visiti di nuovo il sito in una sessione successiva. Poiché l&#39;utente A ha già soddisfatto i requisiti del percorso seguendo il percorso del percorso in una sessione precedente, ciò significa che ogni volta che l&#39;utente A estrae, anche se l&#39;utente A non ha seguito il percorso del percorso nella sessione corrente, viene conteggiato un evento sul terzo nodo del percorso, &quot;Estrai&quot;. Questo determina una percentuale e un numero più elevati sul nodo &quot;Check-out&quot; rispetto al nodo precedente, &quot;Visualizza prodotto A&quot;.
+Ora, supponiamo che l’utente A visiti di nuovo il sito in una sessione successiva. Poiché l&#39;utente A ha già completato il percorso in una sessione precedente seguendo il percorso del percorso, ciò significa che ogni volta che l&#39;utente A ha un evento che corrisponde a qualsiasi nodo del percorso, anche se l&#39;utente A non ha seguito il percorso del percorso nella sessione corrente, viene conteggiato un evento sul nodo pertinente del percorso. Ad esempio, se l’utente A estrae, viene conteggiato un evento sul nodo &quot;Estrai&quot;. Questo può comportare una percentuale e un numero più elevati sul nodo &quot;Check-out&quot; rispetto al nodo precedente, &quot;Visualizza prodotto A&quot;.
 
-In questo esempio, l’impostazione del contenitore del percorso svolge un ruolo fondamentale nel determinare se l’evento sul terzo nodo (&quot;Check-out&quot;) viene conteggiato nella sessione successiva.
+In questo esempio, l’impostazione contenitore del percorso &quot;Persona&quot; svolge un ruolo fondamentale nel determinare che l’evento sul terzo nodo (&quot;Check-out&quot;) viene conteggiato nella sessione successiva.
 
-In alternativa, se Sessione fosse stato impostato come contenitore (anziché Persona), l’evento che si è verificato solo sul terzo nodo nella visita successiva non sarebbe stato conteggiato nel percorso, perché le statistiche mostrate nel percorso sarebbero state vincolate a una singola sessione definita per una determinata persona. Per ulteriori informazioni sull&#39;impostazione del contenitore, vedere [Inizia a creare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) nell&#39;articolo [Configura una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+In alternativa, se l’impostazione del contenitore fosse stata impostata su &quot;Session&quot; (Sessione), l’evento che si è verificato solo sul terzo nodo nella visita successiva non sarebbe stato conteggiato nel percorso, perché le statistiche mostrate nel percorso sarebbero state vincolate a una singola sessione definita per una determinata persona. Per ulteriori informazioni sull&#39;impostazione del contenitore, vedere [Inizia a creare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) nell&#39;articolo [Configura una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### Scenario 2 - L&#39;utente B esce dal percorso
 
-Supponiamo che l’utente B visiti il sito e non segua il percorso del percorso (visiti il sito, visualizzi il prodotto B e poi estratti), che un evento venga conteggiato per il nodo iniziale del percorso, &quot;Visita il sito&quot;, ma che un evento non venga conteggiato per i nodi rimanenti e che l’utente B esca dal percorso. Anche se l’utente B è stato estratto, un evento non viene conteggiato sul terzo nodo, &quot;Check-out&quot;, perché l’utente B non ha seguito il percorso del percorso visualizzando il prodotto A.
+Supponiamo che l’utente B visiti il sito e non completi il percorso (visita il sito, visualizza il prodotto B e quindi estrae). In questo caso, un evento viene conteggiato per il nodo iniziale del percorso, &quot;Visita sito&quot;, ma un evento non viene conteggiato per i nodi rimanenti e l’utente B esce dal percorso. Anche se l&#39;utente B è stato estratto, un evento non viene conteggiato sul terzo nodo (&quot;Check-out&quot;) perché l&#39;utente B non ha completato il percorso visualizzando il prodotto A prima del check-out.
 
-Questo perché gli eventi vengono conteggiati per ogni nodo solo quando le persone seguono il &quot;percorso finale&quot; del percorso, il che significa che gli eventi vengono conteggiati purché la persona alla fine si sia spostata da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi.
+Questo perché gli eventi vengono conteggiati per ogni nodo solo quando le persone seguono il &quot;percorso finale&quot; del percorso, il che significa che gli eventi vengono conteggiati solo se la persona alla fine si è spostata da un nodo all’altro, indipendentemente dagli eventi che si verificano tra i 2 nodi.
 
 ### Il percorso ha più percorsi che convergono in un singolo nodo
 
