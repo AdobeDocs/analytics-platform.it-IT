@@ -4,14 +4,14 @@ description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 4d71aaaaa0ac0162588dd6767e6c6209676dfc18
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 50%
+source-wordcount: '498'
+ht-degree: 42%
 
 ---
 
-# Panoramica sulla pubblicazione di tipi di pubblico di Customer Journey Analytics
+# Panoramica sulla pubblicazione di tipi di pubblico
 
 Ora puoi creare e pubblicare i tipi di pubblico rilevati nel Customer Journey Analytics su [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
@@ -31,15 +31,15 @@ I tipi di pubblico creati nel Customer Journey Analytics non devono necessariame
 
 **Filtro**: un insieme di regole che, se valutate in un insieme di dati per un periodo di tempo, produce un sottoinsieme di dati. Un filtro può essere utilizzato nel processo di creazione di un pubblico quando è associato ad altri servizi di supporto. I filtri sono definiti e mantenuti nel Customer Journey Analytics.
 
-**Filtri** rispetto a **Segmenti**: il Customer Journey Analytics non utilizza il concetto di &quot;segmenti&quot;, ma utilizza i &quot;filtri&quot;. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di Customer Journey Analytics è il processo mediante il quale utilizziamo un filtro di Customer Journey Analytics per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
+**Filtri** rispetto a **Segmenti**: il Customer Journey Analytics non utilizza il concetto di *segmenti*, ma utilizza *filtri*. Sebbene siano entrambi un insieme di regole che possono contenere una logica simile, producono output diversi. Un filtro viene utilizzato per limitare un set di dati a scopo di analisi. Un segmento viene utilizzato per generare un elenco di identità che possono essere utilizzate per l’attivazione. I segmenti producono tipi di pubblico in Real-time Customer Profile, mentre i filtri (da soli) no. La pubblicazione di tipi di pubblico di Customer Journey Analytics è il processo mediante il quale utilizziamo un filtro di Customer Journey Analytics per creare un pubblico che può essere utilizzato da Real-time Customer Profile.
 
 ## Autorizzazioni
 
-* Gli amministratori ricevono automaticamente l’autorizzazione **[!UICONTROL Audience Publishing]** in Adobe Admin Console.
+* Gli amministratori ricevono automaticamente l&#39;autorizzazione **[!UICONTROL Audience Publishing]** in Adobe Admin Console.
 
-* Gli amministratori possono concedere questa autorizzazione a singoli utenti.
+* Gli amministratori e gli amministratori dei profili di prodotto possono concedere l&#39;autorizzazione **[!UICONTROL Audience Creation]** e **[!UICONTROL Audience View]** ai singoli utenti. Per ulteriori informazioni, vedere [Controllo dell&#39;accesso a livello utente](/help/technotes/access-control.md#user-level-access).
 
-* Gli amministratori richiedono inoltre l’autorizzazione **[!UICONTROL Manage Profiles]** in Adobe Experience Platform.
+* Gli amministratori devono inoltre disporre dell&#39;autorizzazione **[!UICONTROL Manage Profiles]** in Adobe Experience Platform.
 
 ## Governance dei dati e consenso
 

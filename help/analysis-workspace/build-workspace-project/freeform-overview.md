@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -78,21 +78,21 @@ Passa il puntatore del mouse su un&#39;intestazione di colonna per visualizzare 
 
 Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida ![Altro](/help/assets/icons/More.svg) o la barra blu delle azioni.
 
-| Azione | Descrizione |
-|---|---|
-| ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
-| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma. |
-| ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividere un progetto. Per ulteriori informazioni, vedere [Condividi progetto](/help/analysis-workspace/curate-share/share-projects.md). |
-| ![Modifica](/help/assets/icons/Edit.svg) Rinomina | Rinominare un progetto. Apre una **[!UICONTROL Rename: *finestra di dialogo del nome del progetto *]**. Immettere un nuovo nome e selezionare **[!UICONTROL Save]**. |
-| ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
-| ![PinOnff](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Aggiungi o rimuovi uno o più progetti o cartelle. I progetti e le cartelle bloccati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |
-| ![FrecciaSu](/help/assets/icons/ArrowUp.svg) **[!UICONTROL Move up]** | Sposta un progetto o una cartella bloccata verso l’alto nell’elenco dei progetti. |
-| ![Freccia giù](/help/assets/icons/ArrowDown.svg) **[!UICONTROL Move down]** | Sposta un progetto o una cartella bloccata verso il basso nell’elenco dei progetti. |
-| ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag a uno o più progetti o cartelle. Viene visualizzata la finestra di dialogo **[!UICONTROL Tag Components]** per selezionare uno o più tag. Selezionare **[!UICONTROL Save]** per salvare i tag per i progetti o le cartelle selezionati. |
-| ![Segno di spuntaCerchio](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** o **[!UICONTROL Unapprove]** | Approvare o annullare l’approvazione di un progetto. Solo gli amministratori possono approvare i progetti. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export CSV]** | Esporta i progetti selezionati in un file CSV denominato `Project List.csv`. |
-| ![AggiungiProgetto](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Add Projects]** | Aggiungi uno o più progetti a una cartella selezionata. In **[!UICONTROL Add Projects]** è possibile selezionare uno o più progetti. Selezionare **[!UICONTROL Add]** per aggiungere i progetti alla cartella. Per ulteriori informazioni, vedere [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-inside-a-folder). |
-| ![AggiungiCartella](/help/assets/icons/FolderAddTo.svg) **[!UICONTROL Move to]** | Sposta uno o più progetti selezionati in una cartella. In **[!UICONTROL Select Folder]**, selezionare la cartella in cui spostare il progetto selezionato e selezionare **[!UICONTROL Move]**. Per ulteriori informazioni, vedere [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-the-project-list). |
+| Icona | Azione | Descrizione |
+|:---:| ---|---|
+| ![Dimensioni incrociate75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma. |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividere un progetto. Per ulteriori informazioni, vedere [Condividi progetto](/help/analysis-workspace/curate-share/share-projects.md). |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinominare un progetto. Apre una **[!UICONTROL Rename: *finestra di dialogo del nome del progetto *]**. Immettere un nuovo nome e selezionare **[!UICONTROL Save]**. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Aggiungi o rimuovi uno o più progetti o cartelle. I progetti e le cartelle bloccati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |
+| ![FrecciaSu](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Move up]** | Sposta un progetto o una cartella bloccata verso l’alto nell’elenco dei progetti. |
+| ![FrecciaGiù](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Move down]** | Sposta un progetto o una cartella bloccata verso il basso nell’elenco dei progetti. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag a uno o più progetti o cartelle. Viene visualizzata la finestra di dialogo **[!UICONTROL Tag Components]** per selezionare uno o più tag. Selezionare **[!UICONTROL Save]** per salvare i tag per i progetti o le cartelle selezionati. |
+| ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** o **[!UICONTROL Unapprove]** | Approvare o annullare l’approvazione di un progetto. Solo gli amministratori possono approvare i progetti. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export CSV]** | Esporta i progetti selezionati in un file CSV denominato `Project List.csv`. |
+| ![AggiungiProgetto](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Add Projects]** | Aggiungi uno o più progetti a una cartella selezionata. In **[!UICONTROL Add Projects]** è possibile selezionare uno o più progetti. Selezionare **[!UICONTROL Add]** per aggiungere i progetti alla cartella. Per ulteriori informazioni, vedere [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-inside-a-folder). |
+| ![AggiungiCartella](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Move to]** | Sposta uno o più progetti selezionati in una cartella. In **[!UICONTROL Select Folder]**, selezionare la cartella in cui spostare il progetto selezionato e selezionare **[!UICONTROL Move]**. Per ulteriori informazioni, vedere [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-the-project-list). |
 
 
 

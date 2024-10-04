@@ -4,7 +4,7 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 26%
@@ -26,7 +26,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_button"
->title="Nullet"
+>title="Bullet"
 >abstract="Crea una visualizzazione con grafico bullet per mostrare come una metrica si confronta con, o misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->

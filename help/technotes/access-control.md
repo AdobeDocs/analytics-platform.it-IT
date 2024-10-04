@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1343'
 ht-degree: 13%
 
 ---
@@ -117,6 +117,7 @@ La scheda **[!UICONTROL Permissions]** fa parte di ciascun profilo di prodotto n
 | [!UICONTROL Reporting Tools] | [!UICONTROL Filter Creation] | Consenti agli utenti di creare [filtri](/help/components/filters/filters-overview.md). Gli utenti possono assegnare tag, condividere, eliminare, rinominare, approvare o annullare l’approvazione solo ai filtri creati o a quelli condivisi con loro. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Labs Access] | Consenti agli utenti di accedere alla scheda [Labs](/help/labs/labs.md) nel Customer Journey Analytics. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Annotation Creation] | Consenti agli utenti di creare [annotazioni](/help/components/annotations/overview.md). Gli utenti possono assegnare tag, condividere, eliminare e rinominare solo alle annotazioni create o condivise con esse. |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Consenti agli utenti di visualizzare [tipi di pubblico](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience Creation] | Consenti agli utenti di creare [audience](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audit Logs Access] | Applica il controllo delle autorizzazioni all&#39;API [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) e all&#39;interfaccia utente dei registri di controllo. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Consenti agli utenti [di condividere i progetti con chiunque.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |

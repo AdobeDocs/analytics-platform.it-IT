@@ -4,9 +4,9 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '512'
 ht-degree: 38%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_keymetricsummary_button"
 >title="Riepilogo delle metriche chiave"
->abstract="Crea una visualizzazione simile a una combinazione dei grafici a linee, a variazione di riepilogo e a numero di riepilogo. Utilizza questa visualizzazione per confrontare la tendenza delle metriche importanti tra due periodi di tempo."
+>abstract="Crea una visualizzazione costituita da una combinazione dei grafici a linee, variazione di riepilogo e numero di riepilogo. Utilizza questa visualizzazione per confrontare la tendenza delle metriche importanti tra due periodi di tempo."
 
 <!-- markdownlint-enable MD034 -->
 

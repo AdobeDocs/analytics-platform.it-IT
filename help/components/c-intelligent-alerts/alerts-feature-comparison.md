@@ -3,9 +3,9 @@ description: Scopri le differenze tra gli avvisi e il Customer Journey Analytics
 title: Customer Journey Analytics di confronto delle funzioni degli avvisi e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '562'
 ht-degree: 5%
 
 ---
@@ -56,9 +56,8 @@ In Adobe Analytics sono disponibili le seguenti opzioni:
 
 * Apri un progetto in Analysis Workspace, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create alert]**.
 
-* Apri un progetto in Analysis Workspace, quindi utilizza la seguente scelta rapida:
+* Apri un progetto in Analysis Workspace, quindi utilizza il seguente collegamento: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
 
-  `ctrl (or cmd) + shift + a`
 
 
 
