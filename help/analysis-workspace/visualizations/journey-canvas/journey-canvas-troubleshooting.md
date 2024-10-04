@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -20,65 +20,134 @@ La visualizzazione area di lavoro Percorso consente di analizzare e ottenere inf
 
 Per ulteriori informazioni sull&#39;area di lavoro Percorso, vedere [Panoramica sull&#39;area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) e [Configurare una visualizzazione dell&#39;area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-
-## Compatibilità tra la metrica contenitore e la metrica principale
-
-Puoi configurare il contenitore dell’area di lavoro del Percorso come Persona (che utilizza la metrica Persone) o Sessione (che utilizza la metrica Sessioni).
-
-Quando scegli una metrica principale o secondaria, accertati di scegliere una metrica compatibile con la metrica contenitore attualmente selezionata. La maggior parte delle metriche è compatibile con le metriche contenitore disponibili. Tuttavia, è necessario evitare alcune combinazioni di metriche contenitore e metriche primarie o secondarie.
-
-Ad esempio, se utilizzi Persona come contenitore con Sessione come metrica principale o secondaria
-
-
-| Contenitore | Metrica primaria o secondaria | Risultato |
-|---------|----------|---------|
-| Persone | Sessione | Questa combinazione può causare risultati non desiderati. Nello specifico, il risultato di questa combinazione può essere |
-| A2 | B2 | C2 |
-| A3 | B3 | C3 |
-
-
-## Percentuali che superano il 100%
-
-Le seguenti configurazioni possono causare nodi che mostrano percentuali superiori al 100%:
-
-* Quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]** o **[!UICONTROL Percent of start node]** e viene selezionata una metrica primaria che restituisce meno dati per il nodo iniziale rispetto ai nodi successivi.
-
-  Ad esempio, se Ricavi è selezionato come metrica principale e non viene realizzato alcun ricavo sulla metrica principale, su qualsiasi nodo in cui i ricavi vengono realizzati verrà visualizzato un valore superiore al 100%.
+Le seguenti informazioni possono essere utili per risolvere eventuali problemi non desiderati, ad esempio i nodi che arrivano in un secondo momento nel percorso e che presentano un conteggio percentuale o numerico più elevato rispetto ai nodi che arrivano in un secondo momento nel percorso.
 
 ## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
-
-## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
-
-## I nodi che si trovano più avanti nel percorso hanno una percentuale o un valore più alto rispetto a quelli che si trovano prima
-
-## Un nodo con una percentuale o un valore superiore rispetto ai nodi che lo precedono nel percorso
-
-## Nodi con una percentuale o un valore superiore rispetto ai nodi precedenti
-
-## Nodi
-
-## Una percentuale o un valore più alto nei nodi successivi
-
-## Percorso non a forma di imbuto
 
 Nell’area di lavoro del Percorso, i nodi che si trovano in una fase successiva del percorso possono mostrare un conteggio percentuale o numerico più elevato rispetto ai nodi che si trovano in una fase precedente del percorso.
 
-In altre parole, a differenza delle visualizzazioni Abbandono, che sono sempre a forma di imbuto (con la partecipazione che diminuisce con ogni passaggio), le visualizzazioni dell’area di lavoro del Percorso possono avere una partecipazione più elevata ai passaggi successivi del percorso.
+In altre parole, a differenza delle visualizzazioni Abbandono, che sono sempre a forma di funnel (con una partecipazione che diminuisce con ogni passaggio), le visualizzazioni dell’area di lavoro del Percorso possono avere una partecipazione più elevata nei passaggi successivi del percorso rispetto ai passaggi precedenti.
 
-Si consideri un percorso con le seguenti caratteristiche:
+Ciò può verificarsi nei seguenti scenari:
 
-* Il percorso contiene 3 nodi: Nodo A —> Nodo B —> Nodo C
+* Quando si utilizza una metrica primaria diversa da Persone o Sessioni
 
-* Campo **[!UICONTROL Percentage value]** impostato su **[!UICONTROL Percent of total]**
+* Quando più percorsi convergono in un singolo nodo
+
+### Il percorso utilizza una metrica primaria diversa da Persone o Sessione
+
+Poiché l’area di lavoro del Percorso consente di utilizzare qualsiasi metrica come metrica principale, ciò può comportare la visualizzazione di nodi che arrivano in un secondo momento nel percorso e mostrano un conteggio percentuale o numerico più elevato rispetto ai nodi che arrivano in un primo momento nel percorso.
+
+![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-higher-percentage.png)
+
+Il percorso utilizzato nei seguenti scenari è configurato con le seguenti impostazioni:
 
 * **[!UICONTROL Person]** è impostato come contenitore
 
 * **[!UICONTROL Event]** è impostato come metrica principale
 
-In questo scenario, supponiamo che un visitatore abbia visitato il nodo A, il nodo B e quindi il nodo C. Ognuna di queste visite conta come un singolo evento su ciascun nodo, perché sono state visitate nell’ordine definito dal percorso.
+#### Scenario 1 - L’utente A segue il percorso del percorso nella prima sessione e quindi solo i nodi successivi in una sessione successiva
 
-In una visita successiva al sito, il visitatore visita solo il nodo C, dando luogo a un evento aggiuntivo sul nodo C.
+Supponiamo che l’utente A visiti il sito e segua il percorso del percorso (Nodo 1: Visita sito > Nodo 2: Visualizza prodotto A > Nodo 3: Estrai). In questo scenario, viene conteggiato un evento su ogni nodo del percorso.
 
-In questo caso, i nodi A e B mostrerebbero ciascuno 1 evento e 100%, mentre il nodo C mostrerebbe 2 eventi e 200%.
+Ora supponiamo che l’utente A visiti di nuovo il sito in una sessione successiva. Poiché l&#39;utente A ha già soddisfatto i requisiti del percorso seguendo il percorso del percorso in una sessione precedente, ciò significa che ogni volta che l&#39;utente A estrae, anche se l&#39;utente A non ha seguito il percorso del percorso nella sessione corrente, viene conteggiato un evento sul terzo nodo del percorso, &quot;Estrai&quot;. Questo determina una percentuale e un numero più elevati sul nodo &quot;Check-out&quot; rispetto al nodo precedente, &quot;Visualizza prodotto A&quot;.
 
-D’altra parte, se Session fosse impostato come contenitore, i nodi A, B e C mostrerebbero ciascuno 1 evento e 100%, perché la visita successiva al sito in cui il visitatore ha visitato solo il nodo C non avrebbe soddisfatto i requisiti percorsi, perché i nodi A e B non sono stati visitati prima della visita del nodo C.
+In questo esempio, l’impostazione del contenitore del percorso svolge un ruolo fondamentale nel determinare se l’evento sul terzo nodo (&quot;Check-out&quot;) viene conteggiato nella sessione successiva.
+
+In alternativa, se Sessione fosse stato impostato come contenitore (anziché Persona), l’evento che si è verificato solo sul terzo nodo nella visita successiva non sarebbe stato conteggiato nel percorso, perché le statistiche mostrate nel percorso sarebbero state vincolate a una singola sessione definita per una determinata persona. Per ulteriori informazioni sull&#39;impostazione del contenitore, vedere [Inizia a creare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) nell&#39;articolo [Configura una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+
+<!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
+
+#### Scenario 2 - L&#39;utente B esce dal percorso
+
+Supponiamo che l’utente B visiti il sito e non segua il percorso del percorso (visiti il sito, visualizzi il prodotto B e poi estratti), che un evento venga conteggiato per il nodo iniziale del percorso, &quot;Visita il sito&quot;, ma che un evento non venga conteggiato per i nodi rimanenti e che l’utente B esca dal percorso. Anche se l’utente B è stato estratto, un evento non viene conteggiato sul terzo nodo, &quot;Check-out&quot;, perché l’utente B non ha seguito il percorso del percorso visualizzando il prodotto A.
+
+Questo perché gli eventi vengono conteggiati per ogni nodo solo quando le persone seguono il &quot;percorso finale&quot; del percorso, il che significa che gli eventi vengono conteggiati purché la persona alla fine si sia spostata da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi.
+
+### Il percorso ha più percorsi che convergono in un singolo nodo
+
+L’area di lavoro di percorso consente di includere più nodi iniziali in un singolo percorso, con conseguente molteplicità dei percorsi. Questi percorsi possono convergere in un nodo comune, facendo sì che i nodi che arrivano più avanti nel percorso mostrino un conteggio percentuale o numero più alto rispetto ai nodi che arrivano prima nel percorso.
+
+![Un percorso con più percorsi convergenti in un singolo nodo](assets/journey-canvas-percentage-converge.png)
+
+<!--
+
+The journey used in the following scenarios is configured with the following settings:
+
+* **[!UICONTROL Person]** is set as the container
+
+* **[!UICONTROL Event]** is set as the primary metric
+
+#### Scenario 
+
+When a journey contains multiple paths that converge into a single node, the two paths are combined into the single node using the OR operator. This can result in the
+
+-->
+
+### Percentuali percorsi
+
+Anche se i numeri visualizzati su ciascun nodo di un percorso rimangono costanti indipendentemente da ciò che è selezionato nel campo **[!UICONTROL Percentage value]**, le percentuali stesse possono cambiare.
+
+Le sezioni seguenti mostrano come le percentuali possono cambiare per lo stesso percorso, a seconda di quale delle seguenti opzioni è selezionata nel campo **[!UICONTROL Percentage value]**:
+
++++Percentuale del nodo iniziale
+
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of start node]**:
+
+![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-higher-percentage.png)
+
+| Nodo | Statistics (Statistiche) |
+|---------|----------|
+| Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
+| Nodo 2 - &quot;Visualizza prodotto A&quot; | Del numero totale di eventi visualizzati nel nodo iniziale, il 14% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |
+| Nodo 3: &quot;Estrai&quot; | Del numero totale di eventi visualizzati nel nodo iniziale, il 32% (113.782) corrispondeva ai criteri del terzo nodo del percorso, &quot;Check-out&quot;. |
+
++++
+
++++Percentuale del nodo precedente
+
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of previous node]**:
+
+![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-previous.png)
+
+| Nodo | Statistics (Statistiche) |
+|---------|----------|
+| Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
+| Nodo 2 - &quot;Visualizza prodotto A&quot; | Del numero totale di eventi visualizzati nel nodo precedente, il 14% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |
+| Nodo 3: &quot;Estrai&quot; | Del numero totale di eventi visualizzati nel nodo precedente, più del 100% (113.782) corrispondeva ai criteri del terzo nodo del percorso, &quot;Check-out&quot;. |
+
++++
+
++++Percentuale totale
+
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]**:
+
+![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-total.png)
+
+| Nodo | Statistics (Statistiche) |
+|---------|----------|
+| Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
+| Nodo 2 - &quot;Visualizza prodotto A&quot; | Sul numero totale di eventi, meno dell’1% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |
+| Nodo 3: &quot;Estrai&quot; | Del numero totale di eventi, l&#39;1% (113.782) corrispondeva ai criteri del terzo nodo del percorso, &quot;Check-out&quot;. |
+
++++
+
+## Compatibilità tra la metrica contenitore e la metrica principale
+
+Puoi configurare il contenitore dell’area di lavoro del Percorso come Persona (che utilizza la metrica Persone) o Sessione (che utilizza la metrica Sessioni).
+
+Assicurati di scegliere una metrica principale compatibile con la metrica contenitore attualmente selezionata. La maggior parte delle metriche è compatibile con le metriche contenitore disponibili. Tuttavia, è necessario evitare alcune combinazioni di metriche contenitore e metriche primarie.
+
+Ad esempio, l’utilizzo di Persona come contenitore con Sessione come metrica principale può causare risultati non desiderati.
+
+<!--
+
+## Percentages that exceed 100%
+
+The following configurations can result in nodes that show percentages that exceed 100%:
+
+* When the **[!UICONTROL Percentage value]** field is set to **[!UICONTROL Percent of total]** or **[!UICONTROL Percent of start node]**, and a primary metric is selected that results in less data for the start node than on subsequent nodes.
+
+  For example, if Revenue is selected as the primary metric, and no revenue is being realized on the primary metric, then on any node where revenue is being realized will show as exceeding 100%. 
+
+-->
