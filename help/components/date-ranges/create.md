@@ -1,17 +1,17 @@
 ---
-title: Creare un intervallo di date
+title: Creare intervalli di date
 description: Crea un intervallo di date da utilizzare nel reporting.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 7%
+source-wordcount: '424'
+ht-degree: 5%
 
 ---
 
-# Creare un intervallo di date
+# Creare intervalli di date
 
 
 Chiunque può creare un intervallo di date personalizzato. Puoi creare un intervallo di date nei seguenti modi:
