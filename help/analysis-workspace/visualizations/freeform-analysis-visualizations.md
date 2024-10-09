@@ -5,9 +5,9 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1530'
 ht-degree: 14%
 
 ---
@@ -35,6 +35,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | La visualizzazione dell’istogramma classifica persone, visite o eventi in contenitori in base a un volume di metrica. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali mostra barre orizzontali che rappresentano vari valori per una o più metriche. |
 | ![BarraGraficaOrizzontaleSovrapposta](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barre orizzontali sovrapposte](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione con barre orizzontali sovrapposte mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
+| ![Ramo3](/help/assets/icons/Branch3.svg) | [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Una visualizzazione area di lavoro percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. |
 | ![MetricheChiave](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) | Una visualizzazione di riepilogo delle metriche chiave combina le visualizzazioni delle linee, delle modifiche di riepilogo e dei numeri di riepilogo. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) | Una visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
 | ![Dispersione grafico](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Una visualizzazione a grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. |

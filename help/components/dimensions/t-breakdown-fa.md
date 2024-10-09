@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 56%
 
 ---
@@ -51,7 +51,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 * Se la struttura ad albero della colonna contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 
-+++ Visualizza video che illustrano raggruppamenti
++++ Video che illustrano le dimensioni e le suddivisioni delle dimensioni
 
 Dimension in Analysis Workspace
 

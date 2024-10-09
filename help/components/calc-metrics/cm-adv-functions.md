@@ -4,10 +4,10 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
 workflow-type: tm+mt
-source-wordcount: '3032'
-ht-degree: 97%
+source-wordcount: '2832'
+ht-degree: 19%
 
 ---
 
@@ -17,116 +17,1091 @@ Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elen
 
 ## Funzioni tabella e funzioni riga
 
-Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga contiene un output diverso per ogni riga della tabella.
+Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella. Ove applicabile e pertinente, una funzione è annotata con il tipo di funzione.
 
-## Che cosa significa il parametro Include-Zeros?
+## Che cosa significa il parametro include-zeros?
 
-Il parametro indica se includere gli zeri all’interno del calcolo. Talvolta lo zero non ha alcun significato, ma in determinate occasioni può risultare importante.
+Il parametro indica se includere gli zeri all’interno del calcolo. A volte zero significa *niente*, ma a volte è importante.
 
-Ad esempio, se hai una metrica Revenue (Entrate) e ne aggiungi al report una del tipo Page Views (Visualizzazioni pagina), improvvisamente saranno presenti più righe per le entrate che sono pari a zero. È probabile che non vorrai estendere questo risultato ai calcoli MEAN, MIN, QUARTILE e così via, che sono presenti nella colonna Revenue (Entrate). In questo caso, dovrai controllare il parametro include-zeros.
+Ad esempio, se hai una metrica Ricavi e poi aggiungi una metrica Visualizzazioni pagina al rapporto, improvvisamente saranno presenti più righe per i ricavi, che sono tutte pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su [MEAN](cm-functions.md#mean), [MIN](cm-functions.md#row-min), [QUARTILE](cm-functions.md#quartile) e altri calcoli presenti nella colonna delle entrate. In questo caso, controllare il parametro `include-zeros`.
 
-D’altra parte, se disponi di due metriche di tuo interesse, potrebbe non essere giusto affermare che una presenti una media o un minimo più alto in virtù di alcune righe pari a zero, quindi non controlleresti il parametro in modo da includere gli zeri.
+In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includervi degli zeri.
 
 
-## AND
+## E
 
-Restituisce il valore del relativo argomento. Per assicurarti che un valore non sia uguale a un valore particolare, utilizza la funzione NOT.
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
+
+
+Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| logical_test | Richiede almeno un parametro, ma può richiedere un numero qualsiasi di parametri. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
+
+## Approximate Count Distinct
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
+
+
+Restituisce il conteggio distinto approssimativo degli elementi dimensione per la dimensione selezionata.
+
+
+| Argomento | Descrizione |
+|---|---|
+| dimensione | Dimensione per la quale si desidera calcolare il conteggio degli elementi distinti approssimato |
+
+### Esempio
+
+Un caso d’uso comune per questa funzione si verifica quando si desidera ottenere un numero approssimativo di clienti.
+
+
+
+
+## Arco coseno
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Il coseno dell’angolo desiderato da -1 a 1 |
+
+
+
+## Arcoseno
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Seno dell&#39;angolo desiderato da -1 a 1 |
+
+
+
+## Arco tangente
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Tangente dell&#39;angolo desiderato da -1 a 1 |
+
+
+
+## Cdf-T
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
+
+
+Restituisce la probabilità che una variabile casuale con distribuzione di t-studente con n gradi di libertà abbia un punteggio z inferiore a col.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica per la quale desideri la funzione di distribuzione cumulativa della distribuzione t di Student |
+| number | I gradi di libertà per la funzione di distribuzione cumulativa della distribuzione t dello studente |
+
+### Esempio
+
+```
+CDF-T(-∞, n) = 0
+CDF-T(∞, n) = 1
+CDF-T(3, 5) ? 0.99865
+CDF-T(-2, 7) ? 0.0227501
+CDF-T(x, ∞) ? cdf_z(x)
+```
+
+
+## Cdf-Z
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(metric, number)]**
+
+
+Restituisce la probabilità che una variabile casuale con una distribuzione normale abbia un punteggio z inferiore a col.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica per la quale si desidera la funzione di distribuzione cumulativa della distribuzione normale standard |
+
+### Esempi
+
+```
+CDF-Z(-∞) = 0
+CDF-Z(∞) = 1
+CDF-Z(0) = 0.5
+CDF-Z(2) ? 0.97725
+CDF-Z(-3) ? 0.0013499
+```
+
+## Soffitto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica da arrotondare |
+
+
+## Affidabilità (inferiore)
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+
+Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](http://arxiv.org/pdf/2103.06476).
+
+L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+
+| Argomento | Descrizione |
+| --- | --- |
+| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
+| controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
+| soglia di significatività | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
+
+## Affidabilità (superiore)
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+
+Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](http://arxiv.org/pdf/2103.06476).
+
+L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+
+| Argomento | Descrizione |
+| --- | --- |
+| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
+| controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
+| soglia di significatività | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
+
+
+## Coseno
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
+
+[!BADGE Riga]{type="Neutral"}
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | L’angolo in radianti di cui vuoi ottenere il coseno |
+
+
+## Radice cubica
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
+
+
+Restituisce la radice cubica positiva di un numero. La radice cubica di un numero corrisponde al valore di quel numero elevato alla potenza di 1/3.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica per la quale si desidera calcolare la radice cubica |
+
+
+
+## Cumulativo
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
+
+Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti.
+
+| Argomento | Descrizione |
+| --- | --- |
+| number | L’ultimo numero N di righe per cui restituire la somma. Se N &lt;= 0 utilizzare tutte le righe precedenti. |
+| metrica | La metrica di cui desideri la Somma cumulativa. |
+
+### Esempi
+
+| Data | Ricavi | CUMULATIVE(0, Revenue) | CUMULATIVE(2, Revenue) |
+|------|------:|--------------:|--------------:|
+| Maggio | $ 500 | $ 500 | $ 500 |
+| Giugno | $ 200 | $ 700 | $ 700 |
+| Luglio | $ 400 | $ 1100 | $ 600 |
+
+
+## Cumulativo (media)
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
+
+Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti.
+
+| Argomento | Descrizione |
+| --- | --- |
+| number | L’ultimo numero N di righe per cui restituire la media. Se N &lt;= 0 utilizzare tutte le righe precedenti. |
+| metrica | La metrica di cui desideri la Media cumulativa. |
+
+>[!NOTE]
+>
+>Questa funzione non funziona con metriche di tasso come ricavi per persona. La funzione calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare le persone rispetto all’ultima N e infine dividerle. <br/>Utilizzare invece [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Dividi](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>
+
+
+## Uguale
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+
+
+Uguale. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Esempio
+
+`Metric 1 = Metric 2`
+
+
+
+## Regressione esponenziale: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+## Regressione esponenziale: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati indipendenti. |
+| metric_Y | Una metrica da designare come dati dipendenti. |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione esponenziale: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione esponenziale: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Floor
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
+
+[!BADGE Riga]{type="Neutral"}
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica da arrotondare. |
+
+
+## Maggiore di
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
+
+
+L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Esempio
+
+`Metric 1 > Metric 2`
+
+## Maggiore di o uguale a
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
+
+
+Maggiore o uguale a. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X |  |
+| metric_Y |  |
+
+### Esempio
+
+`Metric 1 >= Metric 2`
+
+
+
+## Coseno iperbolico
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico |
+
+
+
+## Seno iperbolico
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | L’angolo in radianti di cui vuoi ottenere il seno iperbolico |
+
+
+
+## Tangente iperbolica
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Angolo in radianti di cui trovare la tangente iperbolica |
+
+
+## Se 
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| logical_test | Obbligatorio. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
+| value_if_true | Il valore che vuoi ottenere se l’argomento logical_test restituisce TRUE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
+| value_if_false | Il valore che vuoi ottenere se l’argomento logical_test restituisce FALSE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
+
+
+## Minore di
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
+
+
+L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+
+### Esempio
+
+`Metric 1 < Metric 2`
+
+## Minore o uguale a
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
+
+Minore o uguale a. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Esempio
+
+`Metric 1 <= Metric 2`
+
+
+
+## Regressione lineare: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione lineare: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione lineare: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione lineare: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Base logaritmo 10
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Numero reale positivo di cui vuoi ottenere il logaritmo base 10 |
+
+
+## Regressione logaritmo: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione logaritmo: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione log: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione logaritmo: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Logaritmo naturale
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
+
+
+Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante e (2,71828182845904). LN è l’inverso della funzione EXP.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | Numero reale positivo di cui vuoi ottenere il logaritmo naturale |
+
+
+
+## Not
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
+
+
+Negazione come booleano. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| logical | Obbligatorio. Valore o espressione che può essere valutato come TRUE o FALSE |
+
+
+
+## Not Equal
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
+
+
+Diverso da. L’output è 0 (false) o 1 (true).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Esempio
+
+`Metric 1 != Metric 2`
+
+
+## Oppure
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| logical_test | Richiede almeno un parametro, ma può accettare un numero qualsiasi di parametri. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
+
 
 >[!NOTE]
 >
 >0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
 
+
+## Pi
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
+
+Restituisce Pi: 3,14159...
+
+
+## Regressione di potenza: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione di potenza: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione di potenza: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione di potenza: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione quadratica: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+## Regressione quadratica: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione quadratica: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+## Regressione quadratica: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+## Regressione reciproca: coefficiente di correlazione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Metrica da correlare con metric_Y |
+| metric_Y | Metrica da correlare con metric_X |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione reciproca: intersezione
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione reciproca: valore Y previsto
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Regressione reciproca: pendenza
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabella]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metric_X | Una metrica da designare come dati dipendenti |
+| metric_Y | Una metrica da designare come dati indipendenti |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+
+
+## Seno
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | L’angolo in radianti di cui vuoi ottenere il seno |
+
+
+
+
+## Punteggio T
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
+
+
+La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione standard. Alias per [punteggio Z](#z-score).
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica per la quale desideri il punteggio T |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+
+## Test T
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
+
+
+Esegue un test t a coda m con un punteggio t di x e n gradi di libertà.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica sulla quale desideri eseguire un test T |
+| gradi | I gradi di libertà |
+| code | Lunghezza della coda da utilizzare per eseguire la prova T |
+
+### Dettagli
+
+La firma è T-TEST (metrica, gradi, code). Sotto, effettua semplicemente la chiamata a ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Questa funzione è simile alla funzione **[Z-TEST](#z-test)**, che esegue ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**.
+
+- ***m*** è il numero di code.
+- ***n*** è il grado di libertà e deve essere un numero costante per l&#39;intero report, ovvero non deve cambiare riga per riga.
+- ***x*** è la statistica del test T e spesso è una formula (ad esempio, **[Z-SCORE](#z-score)**) basata su una metrica e viene valutata su ogni riga.
+
+Il valore restituito è la probabilità di visualizzare la statistica x del test in base ai gradi di libertà e al numero di code.
+
+**Esempi:**
+
+1. Utilizza questo valore per individuare gli outlier:
+
+   ```
+   T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
+   ```
+
+1. Combinalo con **[IF](#if)** per ignorare tassi non raggiunti molto alti o bassi e contare le sessioni su tutto il resto:
+
+   ```
+   IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
+   ```
+
+
+
+
+## Tangente
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
+
+
+Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | L’angolo in radianti di cui vuoi ottenere la tangente |
+
+
+
+## Punteggio Z
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+
+
+[!BADGE Riga]{type="Neutral"}
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica per la quale desideri il punteggio Z |
+| include_zeros | Se includere o meno i valori zero nei calcoli |
+
+Un punteggio Z pari a 0 (zero) implica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, il che significa se è superiore o inferiore alla media, oltre al numero di deviazioni standard.
+
+L’equazione per il punteggio Z è:
+
+![](assets/z_score.png)
+
+Dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** è la media della popolazione e ***[!DNL σ]*** è la deviazione standard della popolazione.
+
+>[!NOTE]
+>
+>***[!DNL μ]*** (mu) e ***[!DNL σ]*** (sigma) vengono calcolati automaticamente dalla metrica.
+
+
+
+## Test Z
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+
+
+Esegue un test z a una coda n con un punteggio z pari a x.
+
+
+| Argomento | Descrizione |
+|---|---|
+| metrica | La metrica su cui desideri eseguire un test Z |
+| code | Lunghezza della coda da utilizzare per eseguire il test Z |
+
+>[!NOTE]
+>
+>Presuppone che i valori siano distribuiti normalmente.
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+## AND
+
+Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
 ```
 AND(logical_test1,[logical_test2],...)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *logical_test1* | Obbligatorio. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE. |
-| *logical_test2* | Facoltativo. Condizioni aggiuntive da valutare come TRUE o FALSE. |
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
-## Approximate Count Distinct (dimension) (Conteggio valori univoci approssimativo (dimensione))
+## Approximate Count Distinct (dimension)
 
-Restituisce il conteggio valori univoci approssimativo degli elementi dimensione per la dimensione selezionata. La funzione sfrutta il metodo HyperLogLog (HLL) per approssimare i conteggi valori univoci ed è configurata per garantire che il valore sia compreso entro il 5% del valore effettivo per il 95% del tempo.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)
 ```
 
-| Argomento |  |
+|  Argument  |  |
 |---|---|
-| *dimension* | La dimensione per la quale vuoi ottenere il conteggio dei valori univoci approssimativo degli elementi. |
+|  *dimension* | The dimension for which you want the approximate distinct item count.  |
 
-### Caso d’uso di esempio
+### Example Use Case
 
-Approximate Count Distinct (customer ID eVar) (Conteggio valori univoci approssimativo (eVar ID cliente)) rappresenta un caso d’uso comune per questa funzione.
+Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
-Definizione di una nuova metrica calcolata “Approximate Customers” (Clienti approssimativi):
+Definition for a new 'Approximate Customers' calculated metric:
 
-![Nuova definizione di dimensione distinta per contea approssimativa che mostra l&#39;ID cliente (eVar1)](assets/approx-count-distinct.png)
+![Approximate county distinct new dimension definition showing Customer ID (eVar1)](assets/approx-count-distinct.png)
 
-Questo è il modo in cui la metrica “Approximate Customers” (Clienti approssimativi) potrebbe essere utilizzata nel reporting:
+This is how the "Approximate Customers" metric could be used in reporting:
 
-![Tabella a forma libera con visitatori univoci e clienti approssimativi ](assets/approx-customers.png)
+![Freeform Table showing Unique Visitors and Approximate Customers ](assets/approx-customers.png)
 
-### Confronto delle funzioni di conteggio
+### Comparing Count Functions
 
-Approximate Count Distinct() rappresenta un miglioramento rispetto alle funzioni Count() e RowCount(), perché la metrica creata può essere utilizzata in qualsiasi report dimensionale per rappresentare un conteggio approssimativo di elementi per una dimensione separata. Ad esempio, un conteggio degli ID cliente utilizzati all’interno di un report Mobile Device Type (Tipo dispositivo mobile).
+Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
 
-Questa funzione risulterà leggermente meno precisa rispetto a Count() e RowCount() perché sfrutta il metodo HLL, mentre Count() e RowCount() rappresentano conteggi esatti.
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
 
-## Arcocoseno (riga)
+## Arc Cosine (Row)
 
-Restituisce l’arcocoseno di una metrica, detto anche inverso del coseno. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato dai radianti ai gradi, moltiplicalo per 180/PI( ).
+Returns the arccosine, or inverse of the cosine, of a metric. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi. If you want to convert the result from radians to degrees, multiply it by 180/PI( ).
 
 ```
 ACOS(metric)
 ```
 
-| Argomento |  |
+|  Argument  |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Arcoseno (riga)
+## Arc Sine (Row)
 
-Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( ).
+Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arcsine in degrees, multiply the result by 180/PI( ).
 
 ```
 ASIN(metric)
 ```
 
-| Argomento |  |
+|  Argument  |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Arcotangente (riga)
+## Arc Tangent (Row)
 
-Restituisce l’arcotangente, o tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
+Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arctangent in degrees, multiply the result by 180/PI( ).
 
 ```
 ATAN(metric)
 ```
 
-| Argomento |  |
+|  Argument  |  |
 |---|---|
-| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
+|  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## Regressione esponenziale: valore Y previsto (riga)
+## Exponential Regression: Predicted Y (Row)
 
-Calcola i valori y previsti (metric_Y), in base ai valori x noti (metric_X) utilizzando il metodo dei minimi quadrati per calcolare la riga di adattamento ottimale in base a.
+Calculates the predicted y-values (metric_Y), given the known x-values (metric_X) using the "least squares" method for calculating the line of best fit based on .
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
 ## Cdf-T
 
-Restituisce la percentuale di valori nella distribuzione t di uno studente con n gradi di libertà che presenta un punteggio z inferiore a x.
+Returns the percentage of values in a student's t-distribution with n degrees of freedom that have a z-score less than x.
 
 ```
 cdf_t( -∞, n ) = 0
@@ -138,7 +1113,7 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 
 ## Cdf-Z
 
-Restituisce la percentuale di valori in una distribuzione normale che presenta un punteggio z inferiore a x.
+Returns the percentage of values in a normal distribution that have a z-score less than x.
 
 ```
 cdf_z( -∞ ) = 0
@@ -146,612 +1121,517 @@ cdf_z( ∞ ) = 1
 cdf_z( 0 ) = 0.5
 cdf_z( 2 ) ? 0.97725
 cdf_z( -3 ) ? 0.0013499
-```
-
-## Eccesso (riga)
-
-Restituisce l’integer più piccolo, non inferiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula CEILING(*Revenue*) per arrotondare le entrate al dollaro più vicino o 570 $.
 
 ```
-CEILING(metric)
-```
 
-| Argomento | Descrizione |
-|---|---|
-| *metric* | La metrica da arrotondare. |
+## Exponential Regression: Intercept (Table)
 
-## Confidence
-
-[!UICONTROL Confidence] (affidabilità) è una misura probabilistica della quantità di prove che dimostrano che una specifica variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
-
-```
-fx Confidence (normalizing-container, success-metric, control, significance-threshold)
-```
-
-| Argomento | Descrizione |
-| --- | --- |
-| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
-| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
-| control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
-| significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
-
-{style="table-layout:auto"}
-
-## Coseno (riga)
-
-Restituisce il coseno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
-
-```
-COS(metric)
-```
-
-| Argomento | Descrizione |
-|---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
-
-## Radice cubica
-
-Restituisce la radice cubica positiva di un numero. La radice cubica di un numero corrisponde al valore di quel numero elevato alla potenza di 1/3.
-
-```
-CBRT(metric)
-```
-
-| Argomento | Descrizione |
-|---|---|
-| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
-
-## Cumulativo
-
-Restituisce la somma di x per le ultime N righe secondo quanto ordinato dalla dimensione, utilizzando valori hash per i campi basati su stringhe.
-
-Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è ordinata dalla dimensione, risulta utile solo per le dimensioni con ordine naturale, come data o lunghezza del percorso.
-
-```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) |
-|------+------+--------------+--------------|
-| May  | $500 | $500         | $500         |
-| June | $200 | $700         | $700         |
-| July | $400 | $1100        | $600         |
-```
-
-## Media cumulativa
-
-Restituisce la media delle ultime N righe.
-
-Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è ordinata dalla dimensione, risulta utile solo per le dimensioni con ordine naturale, come data o lunghezza del percorso.
-
->[!NOTE]
->
->Questa funzione non opera come previsto con metriche di tasso come entrate/persona: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare le persone rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
-
-```
-cumul(revenue)/cumul(person)
-```
-
-## Uguale
-
-Restituisce elementi che corrispondono esattamente a un valore numerico o stringa.
-
-## Regressione esponenziale: coefficiente di correlazione (tabella)
-
-Restituisce il coefficiente di correlazione, *r*, tra due colonne di metrica ( *metric_A* e *metric_B*) per l’equazione di regressione.
-
-```
-CORREL.EXP(metric_X, metric_Y)
-```
-
-| Argomento | Descrizione |
-|---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
-
-## Regressione esponenziale: intersezione (tabella)
-
-Restituisce l’intersezione, *b*, tra due colonne di metrica ( *metric_X* e *metric_Y*) per
+Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione esponenziale: pendenza (tabella)
+## Exponential Regression: Slope (Table)
 
-Restituisce la pendenza, *a*, tra due colonne di metrica ( *metric_X* e *metric_Y*) per
+Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Base (riga)
+## Floor (Row)
 
-Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula FLOOR(*Revenue*) per arrotondare le entrate al dollaro più vicino o 569$.
+Returns the largest integer not greater than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula FLOOR( *Revenue*) to round revenue down to the nearest dollar, or $569.
 
 ```
 FLOOR(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | La metrica da arrotondare. |
+|  *metric* | The metric you want to round.  |
 
-## Maggiore di
+## Greater Than
 
-Restituisce elementi il cui conteggio numerico è maggiore del valore immesso.
+Returns items whose numeric count is greater than the value entered.
 
-## Maggiore di o uguale a
+## Greater Than or Equal
 
-Restituisce elementi il cui conteggio numerico è maggiore di o uguale al valore immesso.
+Returns items whose numeric count is greater than or equal to the value entered.
 
-## Coseno iperbolico (riga)
+## Hyperbolic Cosine (Row)
 
-Restituisce il coseno iperbolico di un numero.
+Returns the hyperbolic cosine of a number.
 
 ```
 COSH(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic cosine.  |
 
-## Seno iperbolico (riga)
+## Hyperbolic Sine (Row)
 
-Restituisce il seno iperbolico di un numero.
+Returns the hyperbolic sine of a number.
 
 ```
 SINH(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic sine.  |
 
-## Tangente iperbolica (riga)
+## Hyperbolic Tangent (Row)
 
-Restituisce la tangente iperbolica di un numero.
+Returns the hyperbolic tangent of a number.
 
 ```
 TANH(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica. |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
 
-## IF (riga)
+## IF (Row)
 
-La funzione IF restituisce un valore se una condizione specificata restituisce TRUE, mentre consente di ottenere un altro valore se tale condizione restituisce FALSE.
+The IF function returns one value if a condition you specify evaluates to TRUE, and another value if that condition evaluates to FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *logical_test* | Obbligatorio. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE. |
-| *[value_if_true]* | Il valore che vuoi ottenere se l’argomento *logical_test* restituisce TRUE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
-| *[value_if_false]* | Il valore che vuoi ottenere se l’argomento *logical_test* restituisce FALSE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
+|  *logical_test* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.)  |
+|  *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.)  |
 
-## Minore di
+## Less Than
 
-Restituisce elementi il cui conteggio numerico è inferiore al valore immesso.
+Returns items whose numeric count is less than the value entered.
 
-## Minore o uguale a
+## Less Than or Equal
 
-Restituisce elementi il cui conteggio numerico è minore o uguale al valore immesso.
+Returns items whose numeric count is less than or equal to the value entered.
 
 ## Lift
 
-Restituisce l’incremento di una particolare variante nelle conversioni rispetto a una variante di controllo. Più precisamente, rappresenta la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
+Returns the Lift a particular variant had in conversions over a control variant. It is the difference in performance between a given variant and the baseline, divided by the performance of the baseline, expressed as a percentage. 
 
 ```
 fx Lift (normalizing-container, success-metric, control)
 ```
 
-| Argomento | Descrizione |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
-| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
-| control | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
+| Normalizing Container | The basis (People, Sessions, or Events) on which a test will be run. |
+| Success Metric | The metric or metrics that a user is comparing variants with. |
+| Control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
 {style="table-layout:auto"}
 
-## Regressione lineare: coefficiente di correlazione
+## Linear regression_ Correlation Coefficient
 
-Y = a X + b. Restituisce il coefficiente di correlazione.
+Y = a X + b. Returns the correlation coefficient
 
-## Regressione lineare: intersezione
+## Linear regression_ Intercept
 
-Y = a X + b. Restituisce b.
+Y = a X + b. Returns b.
 
-## Regressione lineare: valore Y previsto
+## Linear regression_ Predicted Y
 
-Y = a X + b. Restituisce Y.
+Y = a X + b. Returns Y.
 
-## Regressione lineare: pendenza
+## Linear regression_ Slope
 
-Y = a X + b. Restituisce a.
+Y = a X + b. Returns a.
 
-## Base logaritmo 10 (riga)
+## Log Base 10 (Row)
 
-Restituisce il logaritmo base 10 di un numero.
+Returns the base-10 logarithm of a number.
 
 ```
 LOG10(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+|  *metric* | The positive real number for which you want the base-10 logarithm.  |
 
-## Regressione logaritmo: coefficiente di correlazione (tabella)
+## Log regression: Correlation coefficient (Table)
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne di metrica (*metric_X* e *metric_Y*) per l’equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolato utilizzando l’equazione CORREL.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the CORREL equation.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Regressione logaritmo: intersezione (tabella)
+## Log regression: Intercept (Table)
 
-Restituisce l’intersezione *b* come regressione dei minimi quadrati tra due colonne di metrica (*metric_X* e *metric_Y*) per l’equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l’equazione INTERCEPT.
+Returns the intercept *b* as the least squares regression between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the INTERCEPT equation.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione logaritmo: valore Y previsto (riga)
+## Log Regression: Predicted Y (Row)
 
-Calcola i [!DNL y] valori previsti (metric_Y), in base ai [!DNL x] valori noti (metric_X) utilizzando il metodo dei minimi quadrati per calcolare la riga di adattamento ottimale in base a [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l’equazione ESTIMATE.
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. It is calculated using the ESTIMATE equation.
 
-Nell’analisi di regressione, questa funzione calcola i [!DNL y] valori previsti (*metric_Y*), dati i [!DNL x] valori noti (*metric_X*) utilizzando il logaritmo per calcolare la linea più adatta all’equazione di regressione [!DNL Y = a ln(X) + b]. I [!DNL a] valori corrispondono a ciascun valore x e [!DNL b] è un valore costante.
+In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. The [!DNL a] values correspond to each x value, and [!DNL b] is a constant value.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione logaritmo: pendenza (tabella)
+## Log regression: Slope (Table)
 
-Restituisce la pendenza, *a*, tra due colonne di metrica (*metric_X* e *metric_Y*) per l’equazione di regressione [!DNL Y = a ln(X) + b]. Viene calcolata utilizzando l’equazione SLOPE.
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the SLOPE equation.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_A* | Una metrica da designare come dati dipendenti. |
-| *metric_B* | Una metrica da designare come dati indipendenti. |
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the independent data.  |
 
-## Logaritmo naturale
+## Natural Log
 
-Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante *e* (2,71828182845904). LN è l’inverso della funzione EXP.
+Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
 
 ```
 LN(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+|  *metric* | The positive real number for which you want the natural logarithm.  |
 
 ## NOT
 
-Restituisce 1 se il numero è 0 o restituisce 0 se è presente un altro numero.
+Returns 1 if the number is 0 or returns 0 if another number.
 
 ```
 NOT(logical)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *logical* | Obbligatorio. Un valore o espressione che può essere valutato come TRUE o FALSE. |
+|  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
 
-Per utilizzare NOT è necessario verificare se le espressioni (&lt;, >, =, &lt;>, ecc.) restituiscono i valori 0 o 1.
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
 
-## Non uguale
+## Not equal
 
-Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore immesso.
+Returns all items that do not contain the exact match of the value entered.
 
-## O (riga)
+## Or (Row)
 
-Restituisce TRUE se un qualsiasi argomento è TRUE oppure FALSE se tutti gli argomenti sono FALSE.
+Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
 
 >[!NOTE]
 >
->0 (zero) significa False, mentre qualsiasi altro valore corrisponde a True.
+>0 (zero) means False, and any other value is True.
 
 ```
 OR(logical_test1,[logical_test2],...)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *logical_test1* | Obbligatorio. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE. |
-| *logical_test2* | Facoltativo. Condizioni aggiuntive da valutare come TRUE o FALSE. |
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
 ## Pi
 
-Restituisce la costante PI, 3,14159265358979, con una precisione di 15 cifre.
+Returns the constant PI, 3.14159265358979, accurate to 15 digits.
 
 ```
 PI()
 ```
 
-La funzione [!DNL PI]non ha argomenti.
+The [!DNL PI]function has no arguments.
 
-## Regressione di potenza: coefficiente di correlazione (tabella)
+## Power regression: Correlation coefficient (Table)
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y = b*X].
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Regressione di potenza: intersezione (tabella)
+## Power regression: Intercept (Table)
 
-Restituisce l’intersezione, *b*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y = b*X].
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione di potenza: valore Y previsto (riga)
+## Power regression: Predicted Y (Row)
 
-Calcola i [!DNL y] valori previsti ( [!DNL metric_Y]), in base ai [!DNL x] valori noti ( [!DNL metric_X]) utilizzando il metodo dei minimi quadrati per calcolare la riga di adattamento ottimale per [!DNL Y = b*X].
+Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione di potenza: pendenza (tabella)
+## Power regression: Slope (Table)
 
-Restituisce la pendenza, *a*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y = b*X].
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione quadratica: coefficiente di correlazione (tabella)
+## Quadratic regression: Correlation coefficient (Table)
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y=(a*X+b)]****.
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Regressione quadratica: intersezione (tabella)
+## Quadratic regression: Intercept (Table)
 
-Restituisce l’intersezione, *b*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y=(a*X+b)]****.
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione quadratica: valore Y previsto (riga)
+## Quadratic regression: Predicted Y (Row)
 
-Calcola i [!DNL y] valori previsti (metric_Y), in base ai [!DNL x] valori noti (metric_X) utilizzando il metodo dei minimi quadrati per calcolare la riga di adattamento ottimale tramite [!DNL Y=(a*X+b)]****.
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_A* | Una metrica da designare come dati dipendenti. |
-| *metric_B* | Una metrica da designare come dati dipendenti. |
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
-## Regressione quadratica: pendenza (tabella)
+## Quadratic regression: Slope (Table)
 
-Restituisce la pendenza, *a*, tra due colonne di metrica (*metric_X* e metric_Y) per [!DNL Y=(a*X+b)]****.
+Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione reciproca: coefficiente di correlazione (tabella)
+## Reciprocal regression: Correlation coefficient (Table)
 
-Restituisce il coefficiente di correlazione, *r*, tra due colonne di metrica (*metric_X)* e *metric_Y*) per [!DNL Y = a/X+b].
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X)* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 CORREL.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Metrica da correlare con *metric_Y*. |
-| *metric_Y* | Metrica da correlare con *metric_X*. |
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## Regressione reciproca: intersezione (tabella)
+## Reciprocal regression: Intercept (Table)
 
-Restituisce l’intersezione, *b*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y = a/X+b].
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione reciproca: valore Y previsto (riga)
+## Reciprocal regression: Predicted Y (Row)
 
-Calcola i [!DNL y] valori previsti (metric_Y), in base ai [!DNL x] valori noti (metric_X) utilizzando il metodo dei minimi quadrati per calcolare la riga di adattamento ottimale tramite [!DNL Y = a/X+b].
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Regressione reciproca: pendenza (tabella)
+## Reciprocal regression: Slope (Table)
 
-Restituisce la pendenza, *a*, tra due colonne di metrica (*metric_X* e *metric_Y*) per [!DNL Y = a/X+b].
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric_X* | Una metrica da designare come dati dipendenti. |
-| *metric_Y* | Una metrica da designare come dati indipendenti. |
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## Seno (riga)
+## Sine (Row)
 
-Restituisce il seno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+Returns the sine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
 ```
 SIN(metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
+|  *metric* | The angle in radians for which you want the sine.  |
 
-## Punteggio T
+## T-Score
 
-Alias per punteggio Z, vale a dire la deviazione dalla media divisa per la deviazione standard.
+Alias for Z-Score, namely the deviation from the mean divided by the standard deviation
 
-## Test T
+## T-Test
 
-Esegue un test t a coda m con un punteggio t di col e n gradi di libertà.
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
 
-La firma è `t_test( x, n, m )`. Sotto, effettua semplicemente la chiamata `m*cdf_t(-abs(x),n)`. È simile alla funzione di test z che esegue `m*cdf_z(-abs(x))`.
+The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
-Qui `m` indica il numero di code e `n` corrisponde ai gradi di libertà. Devono essere numeri costanti per l’intero report, ovvero senza subire modifiche per riga.
+Here, `m` is the number of tails, and `n` is the degrees of freedom. These should be numbers (constant for the whole report, i.e. not changing on a row by row basis).
 
-`X` è la statistica del test t e spesso è una formula (ad es., zscore) basata su una metrica, che sarà valutata su ogni riga.
+`X` is the t-test statistic, and would often be a formula (e.g. zscore) based on a metric and will be evaluated on every row.
 
-Il valore restituito è la probabilità di visualizzare la statistica x del test in base ai gradi di libertà e al numero di code.
+The return value is the probability of seeing the test statistic x given the degrees of freedom and number of tails.
 
-**Esempi:**
+**Examples:**
 
-1. Utilizza questo valore per individuare gli outlier:
+1. Use it to find outliers:
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combinalo con `if` per ignorare tassi non raggiunti molto elevati o bassi e per contare le visite degli altri elementi:
+1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
    ```
 
-## Tangente
+## Tangent
 
-Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+Returns the tangent of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
 ```
 TAN (metric)
 ```
 
-| Argomento | Descrizione |
+|  Argument  | Description  |
 |---|---|
-| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+|  *metric* | The angle in radians for which you want the tangent.  |
 
-## Punteggio Z (riga)
+## Z-Score (Row)
 
-Restituisce il punteggio Z, o punteggio normale, in base a una distribuzione normale. Il punteggio Z è il numero di deviazioni standard di un’osservazione dalla media. Un punteggio Z pari a 0 (zero) indica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, il che significa se è superiore o inferiore alla media, oltre al numero di deviazioni standard.
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
-L’equazione per il punteggio Z è:
+The equation for Z-score is:
 
 ![](assets/z_score.png)
 
-dove [!DNL x] è il punteggio non elaborato, [!DNL μ] corrisponde alla media della popolazione e [!DNL σ] indica la deviazione standard della popolazione.
+where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!DNL σ] is the standard deviation of the population.
 
 >[!NOTE]
 >
->[!DNL μ] (mu) e[!DNL σ] (sigma) vengono calcolati automaticamente dalla metrica.
+>[!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
 
-Punteggio Z (metrica)
+Z-score(metric)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Argomento </th>
-   <th colname="col2" class="entry"> Descrizione </th>
+   <th colname="col1" class="entry"> Argument </th>
+   <th colname="col2" class="entry"> Description </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td colname="col1"> <i>metric</i> </td>
-   <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td>
+   <td colname="col2"> <p> Returns the value of its first non-zero argument. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Test Z
+## Z-Test
 
-Effettua un test Z con coda n con punteggio Z di A.
+Performs an n-tailed Z-test with Z-score of A.
 
-Restituisce la probabilità che la riga corrente possa essere vista casualmente nella colonna.
+Returns the probability that the current row could be seen by chance in the column.
 
 >[!NOTE]
 >
->Presuppone che i valori siano distribuiti normalmente.
+>Assumes that the values are normally distributed.
+
+-->
