@@ -4,10 +4,10 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 2%
+source-wordcount: '1697'
+ht-degree: 1%
 
 ---
 
@@ -37,9 +37,36 @@ Le funzioni chiave della visualizzazione Area di lavoro del Percorso includono:
 
 ## Potenziali informazioni
 
-Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area di lavoro del Percorso può fornire. Puoi scegliere se queste informazioni si basano su tutte le persone nella visualizzazione dati, su tutte le persone che hanno avviato il percorso o su tutte le persone del nodo precedente del percorso.
+L’area di lavoro percorso fornisce informazioni fruibili per i percorsi più complessi.
 
-**Abbandono**
+### Percorso con il tasso di conversione più alto {#conversion-rate-caption}
+
+L’informazione più importante nell’area di lavoro del Percorso viene visualizzata come una didascalia nella parte superiore dell’area stessa.
+
+Questa didascalia riassume quale di tutti i percorsi nel percorso ha avuto il più alto tasso di conversione.
+
+![Didascalia approfondimento area di lavoro Percorsi](assets/journey-canvas-caption.png)
+
+Quando interpreti questa didascalia, tieni presente quanto segue:
+
+* Un _percorso_ è definito come un nodo iniziale connesso tramite frecce a un nodo finale, con un numero qualsiasi di nodi connessi tra loro.
+
+* Il calcolo del tasso di conversione dipende dal tipo di percorso (il numero di nodi iniziali e finali contenuti nel percorso e se i percorsi si intersecano tra loro).
+
+  La tabella seguente descrive come vengono calcolati i tassi di conversione in base al tipo di percorso:
+
+  | Tipo di percorso | Calcolo del tasso di conversione | Esempio |
+  |---------|----------|---------|
+  | **Un singolo nodo iniziale e un singolo nodo finale** | Il tasso di conversione viene calcolato dividendo il numero del nodo finale per quello del nodo iniziale. | ![Percorso con più avvii che convergono in un nodo comune](assets/journey-canvas-single-path.png) |
+  | **Un singolo nodo iniziale e più nodi finali** | Il tasso di conversione viene calcolato individuando il nodo finale con il numero più alto e dividendo tale numero per quello del nodo iniziale. | ![Percorso con più avvii che convergono in un nodo comune](assets/journey-canvas-singlestart-multiend.png) |
+  | **Più percorsi autonomi, ognuno contenente un singolo nodo iniziale e un singolo nodo finale** | Il tasso di conversione viene calcolato dividendo il numero del nodo finale per quello del nodo iniziale. Il percorso con il tasso di conversione più alto è descritto nella didascalia. | ![Percorso con più avvii che convergono in un nodo comune](assets/journey-canvas-multi-start-separate.png) |
+  | **Più nodi iniziali che in qualsiasi punto del percorso convergono in un nodo comune** | Il tasso di conversione viene calcolato individuando il nodo finale con il numero più alto e dividendo tale numero per quello del nodo iniziale con il numero più basso. | ![Percorso con più avvii che convergono in un nodo comune](assets/journey-canvas-multi-start-converge.png) |
+
+### Abbandono, Abbandono e altro ancora
+
+Di seguito sono riportati alcuni esempi di altre informazioni che l’area di lavoro del Percorso può fornire. Puoi scegliere se queste informazioni si basano su tutte le persone nella visualizzazione dati, su tutte le persone che hanno avviato il percorso o su tutte le persone del nodo precedente del percorso.
+
+#### Fallthrough
 
 * Numero e percentuale di persone che hanno completato il percorso (arrivate al nodo finale)
 
@@ -47,14 +74,13 @@ Di seguito sono riportati alcuni esempi dei tipi di approfondimenti che l’area
 
 * Il passaggio più comune che è arrivato dopo o prima di un dato nodo del percorso
 
-**Fallout**
+#### Fallout (abbandono)
 
 * I nodi del percorso in cui le persone più comunemente cadevano dal percorso (non sono mai arrivate ai nodi immediatamente successivi)
 
-**Altre**
+#### Dati aggiuntivi per ogni nodo
 
-* Dati aggiuntivi per qualsiasi nodo del percorso (aggiungendo una dimensione di raggruppamento per il nodo)
-
+* Aggiungi una dimensione di raggruppamento su qualsiasi nodo del percorso per visualizzare dati aggiuntivi per quel nodo specifico
 
 ## Scegli tra l’area di lavoro del Percorso e le visualizzazioni Abbandono
 
