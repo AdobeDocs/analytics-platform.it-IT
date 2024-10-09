@@ -1,29 +1,33 @@
 ---
-title: Riferimento - Funzioni avanzate
+title: Funzioni avanzate
 description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra avanzate) dall’elenco a discesa Functions (Funzioni).
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2856'
 ht-degree: 19%
 
 ---
 
-# Riferimento - Funzioni avanzate
+# Funzioni avanzate
 
-Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorri verso il basso per visualizzare l’elenco delle funzioni avanzate.
+Il generatore di metriche calcolate [](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo documenta l’elenco alfabetico delle funzioni avanzate e delle relative definizioni.
+
+Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorrere verso il basso per visualizzare l&#39;elenco di **[!UICONTROL Advanced functions]**.
 
 ## Funzioni tabella e funzioni riga
 
-Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella. Ove applicabile e pertinente, una funzione è annotata con il tipo di funzione.
+Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
+
+Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"}[!BADGE Riga]{type="Neutral"}
 
 ## Che cosa significa il parametro include-zeros?
 
 Il parametro indica se includere gli zeri all’interno del calcolo. A volte zero significa *niente*, ma a volte è importante.
 
-Ad esempio, se hai una metrica Ricavi e poi aggiungi una metrica Visualizzazioni pagina al rapporto, improvvisamente saranno presenti più righe per i ricavi, che sono tutte pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su [MEAN](cm-functions.md#mean), [MIN](cm-functions.md#row-min), [QUARTILE](cm-functions.md#quartile) e altri calcoli presenti nella colonna delle entrate. In questo caso, controllare il parametro `include-zeros`.
+Ad esempio, se hai una metrica Ricavi e poi aggiungi una metrica Visualizzazioni pagina al rapporto, improvvisamente saranno presenti più righe per i ricavi, che sono tutte pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** e altri calcoli presenti nella colonna dei ricavi. In questo caso, controllare il parametro `include-zeros`.
 
 In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includervi degli zeri.
 
@@ -918,13 +922,13 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 
 **Esempi:**
 
-1. Utilizza questo valore per individuare gli outlier:
+1. Utilizza la funzione per trovare i valori erratici:
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. Combinalo con **[IF](#if)** per ignorare tassi non raggiunti molto alti o bassi e contare le sessioni su tutto il resto:
+1. Combina la funzione con **[IF](#if)** per ignorare tassi non raggiunti molto elevati o bassi e contare le sessioni su tutto il resto:
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )

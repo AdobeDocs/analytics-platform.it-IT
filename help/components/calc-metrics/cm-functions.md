@@ -1,31 +1,41 @@
 ---
-title: 'Riferimento: funzioni di base'
+title: Funzioni di base
 description: Il Generatore di metriche calcolate consente di applicare funzioni statistiche e matematiche per generare metriche calcolate avanzate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 31%
+source-wordcount: '1118'
+ht-degree: 29%
 
 ---
 
-# Riferimento: funzioni di base
+# Funzioni di base
 
 
-Il generatore di metriche calcolate [](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche.
-
-Di seguito è riportato un elenco alfabetico delle funzioni e delle relative definizioni.
+Il generatore di metriche calcolate [](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo documenta l’elenco alfabetico delle funzioni e delle relative definizioni.
 
 >[!NOTE]
 >
 >Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [COLUMN MAXIMUM(metrics)](#column-maximum) consente anche [COLUMN MAXIMUM(PageViews + Visits)](#column-maximum).
 
 
+
 ## Funzioni tabella e funzioni riga
 
-Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella. Ove applicabile e pertinente, una funzione è annotata con il tipo di funzione.
+Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
+
+Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"}[!BADGE Riga]{type="Neutral"}
+
+## Che cosa significa il parametro include-zeros?
+
+Il parametro indica se includere gli zeri all’interno del calcolo. A volte zero significa *niente*, ma a volte è importante.
+
+Ad esempio, se hai una metrica Ricavi e poi aggiungi una metrica Visualizzazioni pagina al rapporto, improvvisamente saranno presenti più righe per i ricavi, che sono tutte pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** e altri calcoli presenti nella colonna dei ricavi. In questo caso, controllare il parametro `include-zeros`.
+
+In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includere degli zeri
+
 
 
 ## Valore assoluto
