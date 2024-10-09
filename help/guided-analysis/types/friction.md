@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 216783872bf4dd26fe2137dffe8994d03193b604
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Tendenze di conversione](conversion-trends.md).
 * **[!UICONTROL Steps]**: i punti di contatto dell&#39;evento di cui si desidera tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-   * [!UICONTROL Compare]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio funnel, creando un &quot;funnel fork&quot;. Questa funzione consente di confrontare l&#39;attrito di due percorsi uno accanto all&#39;altro senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno dell’imbuto. Per un video che spiega come confrontare i funnel, consulta [Analisi dell&#39;attrito dei funnel](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel/funnel-friction-analysis) nei tutorial sul Customer Journey Analytics.
+   * [!UICONTROL Compare]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio funnel, creando un &quot;funnel fork&quot;. Questa funzione consente di confrontare l&#39;attrito di due percorsi uno accanto all&#39;altro senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno dell’imbuto. Guarda [Funnel](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) nei tutorial di Customer Journey Analytics per un video che spiega come confrontare i funnel.
 * **[!UICONTROL Counted as]**: ambito che si desidera applicare al funnel. Le opzioni includono [!UICONTROL Sessions] e [!UICONTROL Users].
    * [!UICONTROL Sessions]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
    * [!UICONTROL Users]: per essere conteggiati, tutti i passaggi devono avvenire nell&#39;intervallo di reporting selezionato.

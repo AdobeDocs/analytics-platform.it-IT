@@ -4,7 +4,7 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
 source-wordcount: '2856'
 ht-degree: 19%
@@ -168,7 +168,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](http://arxiv.org/pdf/2103.06476).
+Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
 L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
@@ -183,7 +183,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](http://arxiv.org/pdf/2103.06476).
+Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](https://arxiv.org/pdf/2103.06476).
 
 L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 

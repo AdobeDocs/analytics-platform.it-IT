@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
 source-wordcount: '4088'
 ht-degree: 63%
@@ -113,7 +113,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Giugno 2023** | |
 | Analisi e unione cross-channel | In previsione delle modifiche imminenti per abilitare l’unione e per chiarire ulteriormente come l’analisi cross-channel può essere migliorata utilizzando l’unione, la documentazione relativa alla funzionalità di analisi cross-channel viene modificata per fare riferimento all’[analisi cross-channel](../use-cases/cross-channel/cross-channel.md) come funzionalità e caso d’uso di Customer Journey Analytics e all’[Unione](../stitching/overview.md) come funzionalità importante per eseguire questa operazione. |
 | Accesso di Power BI e Tableau alle visualizzazioni dati di Customer Journey Analytics | L&#39;estensione Customer Journey Analytics BI consente l&#39;accesso SQL alle visualizzazioni dati definite in Customer Journey Analytics. [Ulteriori informazioni](/help/data-views/bi-extension.md) |
-| Visualizzazioni dati di Adobe Journey Optimizer | Gli amministratori di Customer Journey Analytics hanno accesso ad alcune visualizzazioni di dati aggiuntive in Customer Journey Analytics, denominate “Visualizzazione dati AJO (nome-sandbox)”. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration). |
+| Visualizzazioni dati di Adobe Journey Optimizer | Gli amministratori di Customer Journey Analytics hanno accesso ad alcune visualizzazioni di dati aggiuntive in Customer Journey Analytics, denominate “Visualizzazione dati AJO (nome-sandbox)”. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/reporting-configuration). |
 | Conversione valuta | È stata aggiornata la documentazione di supporto alla [conversione valuta](../data-views/component-settings/format.md#currency). |
 | Aggiornamenti delle metriche calcolate | Sono stati apportati i seguenti aggiornamenti alla documentazione sulle metriche calcolate per allinearla alle attuali funzionalità di Customer Journey Analytics: <ul><li>È stato aggiornato l’elenco di [metriche calcolate predefinite](/help/components/calc-metrics/default-calcmetrics.md) disponibile in Customer Journey Analytics</li><li>Schermate e procedure sono state aggiornate in vari articoli sulle metriche calcolate </li></ul> |
 | **Maggio 2023** | |
