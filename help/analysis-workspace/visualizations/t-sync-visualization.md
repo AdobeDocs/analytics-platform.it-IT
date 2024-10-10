@@ -8,7 +8,7 @@ role: User
 source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_lockselection"
 >title="Blocca selezione"
->abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni selezionate o negli elementi selezionati nell’origine dati."
+>abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni o gli elementi selezionati nell’origine dati."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 37%
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_countrepeatinstances"
 >title="Conta istanze ripetute"
->abstract="Specifica se nei rapporti vengono conteggiate le istanze ripetute.<br/><br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono."
+>abstract="Consente di specificare se conteggiare o meno, nei rapporti, le istanze ripetute.<br/><br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +61,7 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_repeatinstances"
 >title="Conta istanze ripetute"
->abstract="Specifica se nei rapporti vengono conteggiate le istanze ripetute.<br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono."
+>abstract="Consente di specificare se conteggiare o meno, nei rapporti, le istanze ripetute.<br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_donut_button"
 >title="Anello"
->abstract="Crea una visualizzazione ad anello per confrontare le percentuali di un totale, in genere con un numero ridotto di elementi."
+>abstract="Crea una visualizzazione ad anello per confrontare le percentuali di un totale, solitamente con un numero ridotto di elementi."
 
 <!-- markdownlint-enable MD034 -->
 

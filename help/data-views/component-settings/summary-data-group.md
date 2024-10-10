@@ -8,7 +8,7 @@ exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_summarydatagroup"
 >title="Gruppo di dati di riepilogo"
->abstract="Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per combinare dimensioni da set di dati di riepilogo con altre dimensioni per il reporting."
+>abstract="Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per il reporting, combinando dimensioni del set di dati di riepilogo con altre dimensioni."
 
 <!-- markdownlint-enable MD034 -->
 
 
-Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per combinare dimensioni da set di dati di riepilogo con altre dimensioni per il reporting.
+Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per il reporting, combinando dimensioni del set di dati di riepilogo con altre dimensioni.
 
 ![Impostazioni del componente del gruppo di dati di riepilogo](/help/data-views/assets/summary-data-group.png)
 

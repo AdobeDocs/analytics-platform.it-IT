@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
 source-wordcount: '1989'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
 >title="Connessioni"
->abstract="Questa tabella mostra le connessioni per le quali si dispone dei diritti per gestire l&#39;attività di reporting. Le informazioni su ciascuna connessione sono disponibili in ogni colonna della tabella."
+>abstract="Questa tabella mostra le connessioni per le quali si dispone dei diritti per gestire l’attività di reporting. Le informazioni su ciascuna connessione sono disponibili in ogni colonna della tabella."
 
 <!-- markdownlint-enable MD034 -->
 

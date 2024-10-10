@@ -7,7 +7,7 @@ role: User
 source-git-commit: b9abcf48c5334d71639d7d96558a63611a4a491c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_grandtotal"
 >title="Totale complessivo"
->abstract="Totale complessivo non supportato per tabelle o raggruppamenti con righe statiche"
+>abstract="Il totale complessivo non è supportato per tabelle o raggruppamenti con righe statiche."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarynumber_button"
 >title="Numero di riepilogo"
->abstract="Crea una visualizzazione che mostri i totali e i subtotali."
+>abstract="Crea una visualizzazione che mostra i totali e i subtotali."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,14 +40,14 @@ Come parte delle impostazioni di visualizzazione, sono disponibili opzioni speci
 | **[!UICONTROL Abbreviate value]** | Selezionare **[!UICONTROL Abbreviate value]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immettere un numero per definire la quantità di abbreviazione. Esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td  align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `0`</td><td align="right">$ 12 milioni</td></tr><tr><td>12.011.141,25 $</td><td> Selezionato, impostato su `1`</td><td  align="right">$ 12,0 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `2`</td><td align="right">$ 12,01 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `3`</td><td align="right">$ 12,011 milioni</td></tr></table> |
 | **[!UICONTROL Summarize value by]** | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
 
-## Modifica riepilogo {#summary-change}
+## Variazione di riepilogo {#summary-change}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarychange_button"
->title="Modifica riepilogo"
->abstract="Creare una visualizzazione che mostri il delta (variazione) tra due numeri"
+>title="Variazione di riepilogo"
+>abstract="Crea una visualizzazione che mostra il delta (variazione) tra due numeri"
 
 <!-- markdownlint-enable MD034 -->
 

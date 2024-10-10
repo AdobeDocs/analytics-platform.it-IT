@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 67%
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_scatter_button"
 >title="A dispersione"
->abstract="Crea una visualizzazione a dispersione che mostra la relazione tra gli elementi dimensionali fino a tre metriche."
+>abstract="Crea una visualizzazione a dispersione che mostra la relazione tra gli elementi dimensionali fino a un massimo di tre metriche."
 
 <!-- markdownlint-enable MD034 -->
 

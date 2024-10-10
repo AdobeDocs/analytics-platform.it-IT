@@ -9,7 +9,7 @@ role: User
 source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
 
@@ -92,7 +92,7 @@ Per ulteriori informazioni, vedere [Progetti pianificati](/help/components/sched
 >[!CONTEXTUALHELP]
 >id="cja_workspace_sendfile_password"
 >title="Crittografia password"
->abstract="La password fornita verrà utilizzata per crittografare il file per il progetto pianificato. I requisiti di sicurezza dell&#39;organizzazione richiedono la crittografia della password."
+>abstract="La password fornita verrà utilizzata per crittografare il file per il progetto pianificato. I requisiti di sicurezza dell’organizzazione richiedono la crittografia della password."
 
 <!-- markdownlint-enable MD034 -->
 

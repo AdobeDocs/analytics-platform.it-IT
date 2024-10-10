@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '854'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_substring"
 >title="Sottostringa"
->abstract="Estrarre parti di una stringa utilizzando regole o espressioni regolari."
+>abstract="Estrai parti di una stringa utilizzando regole o espressioni regolari."
 
 <!-- markdownlint-enable MD034 -->
 

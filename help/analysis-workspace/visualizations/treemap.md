@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 23%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_treemap_button"
 >title="Mappa ad albero"
->abstract="Crea una visualizzazione Mappa ad albero per visualizzare dati gerarchici (con struttura ad albero) con rettangoli nidificati."
+>abstract="Crea una visualizzazione mappa ad albero per mostrare dati gerarchici (con struttura ad albero) con rettangoli nidificati."
 
 <!-- markdownlint-enable MD034 -->
 

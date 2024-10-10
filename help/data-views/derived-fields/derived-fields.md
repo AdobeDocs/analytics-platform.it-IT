@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '8487'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields"
 >title="Campi derivati"
->abstract="Un campo derivato consente di definire al volo le manipolazioni dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in Workspace o anche ulteriormente definito come componente nella visualizzazione dati."
+>abstract="Un campo derivato consente di definire all’istante le manipolazioni dati, tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in Workspace o definirlo ulteriormente come componente nella Vista dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -403,7 +403,7 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_casewhen"
 >title="Case When"
->abstract="Questa funzione consente di applicare condizionali basati su criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori nel nuovo campo derivato in base alla sequenza delle condizioni."
+>abstract="Questa funzione consente di applicare condizionali basati su criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori nel nuovo campo derivato, in base alla sequenza delle condizioni."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -788,7 +788,7 @@ Nell’interfaccia Classifica regola sono disponibili le seguenti funzionalità 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_concatenate"
 >title="Concatena"
->abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente in un singolo campo con delimitatori definiti."
+>abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente, in un singolo campo con delimitatori definiti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -875,7 +875,7 @@ Definisci un campo derivato `Origin - Destination`. Utilizzare la funzione [!UIC
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_deduplicate"
 >title="Deduplica"
->abstract="Questa funzione consente di configurare un campo in modo da conteggiare solo i valori in modo non ripetitivo a livello di sessione o di persona. Inoltre, è possibile utilizzare un ID di deduplicazione per garantire che, in base a un determinato ID (ad esempio un ID acquisto), venga utilizzato un solo valore (sia la prima che l’ultima istanza)."
+>abstract="Questa funzione consente di configurare un campo in modo da contare solo i valori che non si ripetono a livello di sessione o di persona. Inoltre, è possibile utilizzare un ID di deduplica per garantire che, in base a un determinato ID (ad esempio un ID acquisto), venga utilizzato un solo valore (o la prima o l’ultima istanza)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1414,13 +1414,13 @@ Puoi selezionare solo i campi che appartengono alla tabella Visita o Evento.
 
 <!-- REGEX REPLACE -->
 
-### Regex Replace {#regex-replace}
+### Sostituisci Regex {#regex-replace}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_regexreplace"
->title="Regex Replace"
+>title="Sostituisci Regex"
 >abstract="Questa funzione consente di estrarre parti di una stringa utilizzando espressioni regolari."
 
 <!-- markdownlint-enable MD034 -->
@@ -1630,7 +1630,7 @@ Creare un campo derivato `Second Response` per prendere l&#39;ultimo valore dal 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_summarize"
 >title="Riepiloga"
->abstract="Questa funzione consente di aggregare i valori a livello di evento, sessione o persona. A seconda del tipo di campo per il campo selezionato, saranno disponibili opzioni diverse."
+>abstract="Questa funzione consente di aggregare i valori a livello di evento, sessione o persona. A seconda del tipo di campo, per il campo selezionato saranno disponibili opzioni diverse."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1643,7 +1643,7 @@ Applica funzioni di tipo aggregazione a metriche o dimensioni a livello di event
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>Valore<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Metodi di riepilogo</li><li>Portata<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li></ul> | <ul><li>Numeriche<ul><li>MAX: restituisce il valore più grande da un insieme di valori</li><li>MIN - restituisce il valore più piccolo da un insieme di valori</li><li>MEDIANA: restituisce la mediana per un insieme di valori</li><li>MEDIA: restituisce la media per un set di valori</li><li>SOMMA: restituisce la somma per un set di valori</li><li>COUNT: restituisce il numero di valori ricevuti</li><li>DISTINCT - restituisce un insieme di valori distinti</li></ul></li><li>Stringhe<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li></ul></li><li>Date<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li><li>PRIMA: il primo valore ricevuto (determinato in base al tempo); applicabile solo per le tabelle sessione ed evento</li><li>PIÙ RECENTE: l’ultimo valore ricevuto (determinato in base all’ora); applicabile solo per le tabelle di sessioni ed eventi</li></ul></li></ul> | 3 funzioni per campo derivato | Nuovo campo derivato |
+| <ul><li>Stringa</li><li>Numeriche</li><li>Data</li></ul> | <ul><li>Valore<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Metodi di riepilogo</li><li>Ambito<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li></ul> | <ul><li>Numeriche<ul><li>MAX: restituisce il valore più grande da un insieme di valori</li><li>MIN - restituisce il valore più piccolo da un insieme di valori</li><li>MEDIANA: restituisce la mediana per un insieme di valori</li><li>MEDIA: restituisce la media per un set di valori</li><li>SOMMA: restituisce la somma per un set di valori</li><li>COUNT: restituisce il numero di valori ricevuti</li><li>DISTINCT - restituisce un insieme di valori distinti</li></ul></li><li>Stringhe<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li></ul></li><li>Date<ul><li>DISTINCT - restituisce un insieme di valori distinti</li><li>COUNT DISTINCT - restituisce il numero di valori distinti</li><li>MOST COMMON - restituisce il valore stringa più spesso ricevuto</li><li>LEAST COMMON: restituisce il valore stringa ricevuto con minore frequenza</li><li>PRIMO - Il primo valore ricevuto; applicabile solo per le tabelle sessione ed evento</li><li>LAST- Ultimo valore ricevuto; applicabile solo per le tabelle di sessioni ed eventi</li><li>PRIMA: il primo valore ricevuto (determinato in base al tempo); applicabile solo per le tabelle sessione ed evento</li><li>PIÙ RECENTE: l’ultimo valore ricevuto (determinato in base all’ora); applicabile solo per le tabelle di sessioni ed eventi</li></ul></li></ul> | 3 funzioni per campo derivato | Nuovo campo derivato |
 
 {style="table-layout:auto"}
 
@@ -1708,7 +1708,7 @@ Utilizzare la funzione Riepiloga per i calcoli basati sull&#39;ambito evento, se
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_trim"
 >title="Trim (Taglia)"
->abstract="Questa funzione consente di tagliare spazi o caratteri speciali dall’inizio o dalla fine di una stringa. Inoltre, la possibilità di specificare il numero di caratteri da utilizzare per il valore restituito, dalla parte anteriore o dalla fine della stringa."
+>abstract="Questa funzione consente di rimuovere spazi o caratteri speciali dall’inizio o dalla fine di una stringa. Inoltre, consente di specificare il numero di caratteri da utilizzare per il valore restituito, sia nella parte anteriore sia alla fine della stringa."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1829,7 +1829,7 @@ Si crea un campo derivato `Store Identifier`. Utilizzare la funzione [!UICONTROL
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_urlparse"
->title="Analisi Url"
+>title="Analisi URL"
 >abstract="Questa funzione consente di analizzare diverse parti di un URL, inclusi l’host, il percorso o i parametri di query."
 
 <!-- markdownlint-enable MD034 -->
@@ -1936,7 +1936,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | <p>Math</p> | <ul><li>25 operazioni per campo derivato</li><li>5 funzioni matematiche per campo derivato</li></ul> |
 | <p>Unisci campi</p> | <ul><li>2 Funzioni dei campi unione per campo derivato</li></ul> |
 | <p>Successivo o Precedente</p> | <ul><li>3 Funzioni Next o Previous per campo derivato</li></ul> |
-| <p>Regex Replace</p> | <ul><li>1 funzione Regex Replace per campo derivato</li></ul> |
+| <p>Sostituisci Regex</p> | <ul><li>1 funzione Regex Replace per campo derivato</li></ul> |
 | <p>Split</p> | <ul><li>5 funzioni di suddivisione per campo derivato</li></ul> |
 | <p>Riepiloga</p> | <ul><li>3 Funzioni di riepilogo per campo derivato</li></ul> |
 | <p>Trim (Taglia)</p> | <ul><li>1 Funzione di ritaglio per campo derivato</li></ul> |

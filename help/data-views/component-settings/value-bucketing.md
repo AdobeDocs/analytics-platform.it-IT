@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_valuebucketing"
 >title="Bucketing dei valori"
->abstract="Valori bucket in intervalli specifici. Questi intervalli vengono visualizzati come elementi dimensionali nei rapporti."
+>abstract="Valori bucket in intervalli specifici. Questi intervalli vengono visualizzati come elementi della dimensione nei rapporti."
 
 <!-- markdownlint-enable MD034 -->
 

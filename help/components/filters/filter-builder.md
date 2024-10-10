@@ -1,23 +1,23 @@
 ---
 description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
-title: Creare filtri
+title: Crea filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Creare filtri {#build-filters}
+# Crea filtri {#build-filters}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_createaudience"
->title="Crea pubblico"
+>title="Crea un pubblico"
 >abstract="I tipi di pubblico possono essere creati da un filtro e condivisi con Adobe Experience Platform per l’attivazione."
 
 <!-- markdownlint-enable MD034 -->
@@ -167,7 +167,7 @@ Oppure potresti definire 52 filtri: 50 filtri per gli Stati Uniti, uno per il te
 
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_nonrepeatinginstance"
->title="Istanza non ripetuta"
+>title="Istanza di non ripetizione"
 >abstract="Include istanze univoche (non ripetute) per la dimensione."
 
 <!-- markdownlint-enable MD034 -->
@@ -203,7 +203,7 @@ La tabella seguente spiega, per ogni modello di attribuzione, quali eventi in ar
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
 | Ripetizione (impostazione predefinita) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
 | Istanza | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
-| Istanza non ripetuta | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
+| Istanza di non ripetizione | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
 
 Un esempio di rapporto sugli eventi che utilizzano i tre filtri è simile al seguente:
 

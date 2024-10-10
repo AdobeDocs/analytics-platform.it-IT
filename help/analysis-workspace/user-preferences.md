@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '3355'
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
@@ -54,7 +54,7 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_requireexperiencecloudauth"
 >title="Richiedere autenticazione Experience Cloud"
->abstract="Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione Condividi con chiunque in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud."
+>abstract="Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione “Condividi con chiunque” in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 | --- | --- | --- |
 | **Condivisione dei progetti** | | |
 | | Consenti condivisione solo con gli utenti di Workspace | Quando questa opzione è abilitata, gli utenti dell&#39;organizzazione non possono visualizzare l&#39;opzione **[!UICONTROL Share with anyone]** nel menu **[!UICONTROL Share]**. Ciò significa che gli utenti non possono condividere i progetti con persone che non hanno un account Analysis Workspace nell’organizzazione come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).<br/>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (ovvero gli utenti possono condividere i progetti con persone esterne all&#39;organizzazione) ad eccezione dei clienti con licenza Healthcare Shield. <p>Quando abiliti o disabiliti questa opzione, prendi in considerazione quanto segue:<ul><li>Se si abilita questa opzione, gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non potranno più accedere al progetto.</li><li>Se questa opzione è abilitata (per consentire solo la condivisione con gli utenti di Workspace) e successivamente disabilitata (per consentire la condivisione con chiunque), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL **Il collegamento è attivo**] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]**), come descritto in [Condividere un progetto con qualcuno (non è richiesto l&#39;accesso)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Per i clienti che dispongono di una licenza Healthcare Shield:** questa opzione è attivata per impostazione predefinita e non può essere disattivata. Prima di poter disabilitare questa opzione per consentire agli utenti di utilizzare l&#39;opzione di condivisione [!UICONTROL Share with anyone], è necessario aggiungere l&#39;autorizzazione [!UICONTROL Share project links with anyone] (che si trova in [!UICONTROL Reporting Tools]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettarne l’avviso legale. Per informazioni su come aggiungere un’autorizzazione in Admin Console, consulta [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Richiedere autenticazione Experience Cloud | Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione Condividi con chiunque in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l&#39;opzione di condivisione [!UICONTROL Share with anyone], l&#39;opzione [!UICONTROL Require Experience Cloud authentication] viene abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall&#39;utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con altri utenti, vedi [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando si abilita questa opzione, tutti i progetti precedentemente condivisi con l&#39;opzione di condivisione [!UICONTROL Share with anyone] e per i quali l&#39;opzione [!UICONTROL Require Experience Cloud authentication] non è abilitata vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Link is active]*disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l&#39;organizzazione, vedere [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilita creazione automatica account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione concede la licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
+| | Richiedere autenticazione Experience Cloud | Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione “Condividi con chiunque” in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l&#39;opzione di condivisione [!UICONTROL Share with anyone], l&#39;opzione [!UICONTROL Require Experience Cloud authentication] viene abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall&#39;utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con altri utenti, vedi [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando si abilita questa opzione, tutti i progetti precedentemente condivisi con l&#39;opzione di condivisione [!UICONTROL Share with anyone] e per i quali l&#39;opzione [!UICONTROL Require Experience Cloud authentication] non è abilitata vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Link is active]*disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l&#39;organizzazione, vedere [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilita creazione automatica account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione concede la licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -76,8 +76,8 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_categoricalpalette"
->title="Tavolozza categorica"
->abstract="Applicato a molte visualizzazioni in Analysis Workspace e analisi guidata. Ogni colore rappresenta un valore categorico distinto."
+>title="Palette per categorie"
+>abstract="Applicata a molte visualizzazioni in Analysis Workspace e nell’analisi guidata. Ogni colore rappresenta un valore di categoria distinto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,8 +85,8 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_divergingpalette"
->title="Tavolozza divergente"
->abstract="Applicato alla tabella coorte nell’analisi guidata della crescita di Analysis Workspace e utente. Questa palette contiene un significato numerico con due estremi e una linea di base al centro."
+>title="Palette divergente"
+>abstract="Applicata alla tabella coorte in Analysis Workspace e nell’analisi guidata della crescita degli utenti. Questa palette contiene un significato numerico con due estremi e una linea di base al centro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -94,8 +94,8 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_sequentialpalette"
->title="Tavolozza sequenziale"
->abstract="Applicato all&#39;analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro."
+>title="Palette sequenziale"
+>abstract="Applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro."
 
 <!-- markdownlint-enable MD034 -->
 

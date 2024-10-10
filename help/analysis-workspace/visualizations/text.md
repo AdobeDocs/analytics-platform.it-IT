@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_text_button"
 >title="Testo"
->abstract="Aggiungi al progetto una visualizzazione Rich Text definita dall’utente."
+>abstract="Aggiungi al progetto una visualizzazione di testo formattato definito dall’utente."
 
 <!-- markdownlint-enable MD034 -->
 

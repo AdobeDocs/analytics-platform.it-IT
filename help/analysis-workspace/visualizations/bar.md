@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -22,7 +22,7 @@ La visualizzazione a barre ha un’opzione standard e sovrapposta.
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bar_button"
 >title="Barre"
->abstract="Crea una visualizzazione a barre per rappresentare vari valori per una o più metriche."
+>abstract="Crea una visualizzazione a barre per rappresentare diversi valori per una o più metriche."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '3376'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="Record ignorati"
->abstract="Il numero di record (righe) ignorati durante il trasferimento di dati per una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati."
+>abstract="Il numero di record (righe) ignorati durante il trasferimento di dati per una connessione nell’intervallo di tempo selezionato per i set di dati selezionati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="Record eliminati"
->abstract="Numero di record (righe) rimossi da una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati"
+>abstract="Il numero di record (righe) rimossi da una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_lastadded"
->title="Ultima aggiunta"
+>title="Ultimo aggiunto"
 >abstract="La marca temporale dell’ultimo batch da qualsiasi set di dati trasferito a una connessione."
 
 <!-- markdownlint-enable MD034 -->
@@ -54,8 +54,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
->title="Abilita finestra continua dati"
->abstract="Definisci la conservazione dei dati come finestra continua in mesi a livello di connessione."
+>title="Abilita dati a finestra scorrevole"
+>abstract="Definisci la conservazione dei dati come finestra scorrevole in mesi a livello di connessione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -136,7 +136,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="Chiave corrispondente"
->abstract="Seleziona un campo a cui unire un set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento."
+>abstract="Seleziona un campo per partecipare a uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,7 +145,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="Importare nuovi dati"
->abstract="Eventuali nuovi batch aggiunti al set di dati Experience Platform verranno aggiunti automaticamente a questa connessione e resi disponibili per l’analisi."
+>abstract="Eventuali nuovi batch aggiunti al set di dati di Experience Platform verranno aggiunti automaticamente a questa connessione e resi disponibili per l’analisi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -153,8 +153,8 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_datasetbackfill"
->title="Recupero set di dati"
->abstract="Questa opzione esegue il backfill dei dati esistenti (storici) dall’Experience Platform per questo set di dati nella connessione."
+>title="Retrocompilazione dei set di dati"
+>abstract="Questa opzione esegue la retrocompilazione dei dati esistenti (storici) da Experience Platform per questo set di dati nella connessione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -163,7 +163,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="Trasforma set di dati"
->abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivato, la trasformazione del set di dati è irreversibile."
+>abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivata, la trasformazione del set di dati è irreversibile."
 
 <!-- markdownlint-enable MD034 -->
 

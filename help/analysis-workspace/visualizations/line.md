@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_line_button"
 >title="Linee"
->abstract="Crea una visualizzazione a linee che mostra come cambiano i valori nel tempo. È possibile utilizzare una visualizzazione a linee solo quando come dimensione si utilizza il tempo."
+>abstract="Crea una visualizzazione a linee che mostra come cambiano i valori in un periodo di tempo. Una visualizzazione a linee può essere utilizzata solo quando si usa la dimensione tempo."
 
 <!-- markdownlint-enable MD034 -->
 

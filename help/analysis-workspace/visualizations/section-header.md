@@ -1,23 +1,23 @@
 ---
-title: Intestazione sezione
+title: Intestazione di sezione
 description: Visualizzazione che inserisce un’intestazione di sezione nel progetto Workspace.
 feature: Visualizations
 role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
 
-# Intestazione sezione {#section-header}
+# Intestazione di sezione {#section-header}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_sectionheader_button"
->title="Intestazione sezione"
+>title="Intestazione di sezione"
 >abstract="Aggiungi un’intestazione di sezione a un pannello."
 
 <!-- markdownlint-enable MD034 -->

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_fallout_button"
 >title="Fallout (abbandono)"
->abstract="Crea una visualizzazione per visualizzare il modo in cui le persone passano correttamente ai punti di controllo desiderati."
+>abstract="Crea una visualizzazione per vedere come le persone procedono correttamente fino ai punti di controllo desiderati."
 
 <!-- markdownlint-enable MD034 -->
 

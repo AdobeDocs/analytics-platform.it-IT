@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 22%
+ht-degree: 40%
 
 ---
 
@@ -86,7 +86,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_linear"
 >title="Lineare"
->abstract="Il credito è distribuito uniformemente tra tutti i valori di dimensione."
+>abstract="Il credito è distribuito in modo uniforme tra tutti i valori di dimensione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_participation"
 >title="Partecipazione"
->abstract="Un credito del 100% a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrascritti."
+>abstract="Il 100% del credito va a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrastimati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -104,7 +104,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_sametouch"
 >title="Stesso contatto"
->abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento della conversione."
+>abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +113,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_ushaped"
 >title="A forma di U"
->abstract="40% di credito al primo valore di dimensione, 40% all’ultimo, 20% condiviso dal centro."
+>abstract="Il 40% del credito va al primo valore di dimensione, il 40% all’ultimo, il 20% condiviso dal centro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -122,7 +122,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
->abstract="Il 60% attribuisce all’ultimo valore di dimensione, il 20% al primo, il 20% al secondo."
+>abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -131,7 +131,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
->abstract="Credito del 60% al primo valore di dimensione, del 20% all’ultimo, del 20% condiviso dal centro."
+>abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -140,7 +140,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_timedecay"
 >title="Decadimento nel tempo"
->abstract="Il merito maggiore viene attribuito ai valori di Dimension più vicini nel tempo a una conversione."
+>abstract="Il merito maggiore viene attribuito ai valori di dimensione più vicini nel tempo a una conversione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -157,7 +157,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_algorithmic"
->title="Algoritmica"
+>title="Algoritmico"
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
 <!-- markdownlint-enable MD034 -->
@@ -173,7 +173,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervallo di lookback"
->abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata per ogni conversione."
+>abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 
 <!-- markdownlint-enable MD034 -->
 

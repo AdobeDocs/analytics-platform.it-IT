@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 3%
+ht-degree: 31%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_nextorpreviousitem_button"
 >title="Elemento successivo o precedente"
->abstract="Crea un pannello per comprendere le dimensioni precedenti da cui provengono le persone o la dimensione successiva a cui le persone vanno."
+>abstract="Crea un pannello per comprendere le dimensioni da cui in precedenza provenivano le persone o la dimensione dove andranno successivamente."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,8 +25,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_nextorpreviousitem_panel"
->title="Nidifica o elemento precedente"
->abstract="Analizza i luoghi più comuni da cui provengono o a cui accedono i visitatori in precedenza.<br/><br/>**Dimension**: selezionare una dimensione. Ad esempio **Pagina**.<br/>**Elemento Dimension**: selezionare un elemento dimensione specifico. Ad esempio **Home page**.<br/>**Direzione**: seleziona **Avanti** per visualizzare gli elementi dimensione immediatamente successivi all&#39;elemento dimensione selezionato. Seleziona **Precedente** per visualizzare gli elementi dimensione che conducono all&#39;elemento dimensione selezionato.<br/>**Contenitore**: seleziona **Sessione** per visualizzare gli elementi dimensione precedente/successiva nella stessa sessione oppure **Persona** per visualizzare l&#39;elemento dimensione precedente/successivo per la stessa persona."
+>title="Elemento successivo o precedente"
+>abstract="Analizza i luoghi più comuni da cui in precedenza venivano i visitatori o dove andranno successivamente.<br/><br/>**Dimensione**: seleziona una dimensione. Ad esempio **Pagina**.<br/>**Elemento dimensionale**: seleziona un elemento dimensionale specifico. Ad esempio, **Homepage**.<br/>**Direzione**: seleziona **Avanti** per visualizzare gli elementi dimensione immediatamente successivi all’elemento dimensionale selezionato. Seleziona **Precedente** per visualizzare gli elementi dimensionali che conducono all’elemento dimensionale selezionato.<br/>**Contenitore**: seleziona **Sessione** per visualizzare gli elementi dimensione precedente/successiva nella stessa sessione oppure **Persona** per visualizzare l’elemento dimensione precedente/successivo per la stessa persona."
 
 <!-- markdownlint-enable MD034 -->
 

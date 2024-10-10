@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_format"
 >title="Format"
->abstract="Determina come viene visualizzato un componente quando viene utilizzato nei rapporti."
+>abstract="Determina come viene visualizzato un componente quando viene utilizzato nei report."
 
 <!-- markdownlint-enable MD034 -->
 

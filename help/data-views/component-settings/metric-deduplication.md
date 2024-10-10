@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_deduplication"
 >title="Deduplica delle metriche"
->abstract="Configura una metrica per contare solo i valori che si verificano non ripetutamente."
+>abstract="Configura una metrica per contare solo i valori che si verificano in modo non ripetitivo."
 
 <!-- markdownlint-enable MD034 -->
 

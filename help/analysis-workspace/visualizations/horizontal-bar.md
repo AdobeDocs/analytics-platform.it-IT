@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 12%
+ht-degree: 38%
 
 ---
 
@@ -22,7 +22,7 @@ La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbar_button"
 >title="Barre orizzontali"
->abstract="Crea una visualizzazione a barre orizzontali per rappresentare vari valori per una o più metriche."
+>abstract="Crea una visualizzazione a barre orizzontali per rappresentare diversi valori per una o più metriche."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ La visualizzazione ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.s
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbarstacked_button"
 >title="Barre orizzontali sovrapposte"
->abstract="Crea una visualizzazione a barre orizzontali per rappresentare vari valori per una o più metriche sovrapposte."
+>abstract="Crea una visualizzazione a barre orizzontali per rappresentare diversi valori per una o più metriche sovrapposte."
 
 <!-- markdownlint-enable MD034 -->
 

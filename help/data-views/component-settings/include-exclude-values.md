@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_includeexcludevalues"
 >title="Includere valori di esclusione"
->abstract="Restringi una dimensione per includere solo i valori che corrispondono a criteri specifici. Le inclusioni e le esclusioni si verificano prima dell’allocazione e dei filtri nei rapporti.<br/><br/>**Parametri **<br/>**Distinzione maiuscole/minuscole**: verifica se la logica del filtro riportata di seguito distingue tra maiuscole e minuscole."
+>abstract="Restringi una dimensione per includere solo i valori che corrispondono a criteri specifici. Le inclusioni e le esclusioni si verificano prima dell’allocazione e dei filtri nei report.<br/><br/>**Parametri **<br/>**Distinzione tra maiuscole e minuscole**: verifica se la logica del filtro riportata di seguito fa distinzione tra maiuscole e minuscole."
 
 <!-- markdownlint-enable MD034 -->
 

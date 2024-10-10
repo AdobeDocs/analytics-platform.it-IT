@@ -7,11 +7,11 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1163'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
-# Pannello Visualizzatori simultanei di contenuti multimediali {#media-concurrent-viewers-panel}
+# Pannello Visualizzatori simultanei di file multimediali {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di contenuti multimediali "
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza o suddividi e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo in base al quale visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>Opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Maximum (Massimo) mostra i dettagli del picco di concorrenza. Minimum (Minimo) mostra i dettagli del valore minimo.<br/>**Raggruppamento per serie (facoltativo)**: raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o suddividi e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
 
 <!-- markdownlint-enable MD034 -->
 

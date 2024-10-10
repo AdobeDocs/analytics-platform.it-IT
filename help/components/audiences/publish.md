@@ -7,7 +7,7 @@ role: User
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '1861'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_audiencelimit"
->title="Limite di pubblico"
->abstract="I tipi di pubblico di aggiornamento sono limitati in base alla frequenza con cui vengono aggiornati."
+>title="Limite del pubblico"
+>abstract="L’aggiornamento dei tipi di pubblico è limitato in base alla frequenza con cui questi vengono aggiornati."
 
 <!-- markdownlint-enable MD034 -->
 

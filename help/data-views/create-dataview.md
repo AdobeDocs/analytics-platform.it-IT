@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Creare o modificare una visualizzazione dati:
 >[!CONTEXTUALHELP]
 >id="cja_dataview_externalid"
 >title="ID esterno"
->abstract="La modifica dell’ID esterno può influire sul modo in cui il nome della visualizzazione dati viene visualizzato nelle origini esterne, ad esempio negli strumenti di business intelligence."
+>abstract="La modifica dell’ID esterno può influire sul modo in cui il nome della visualizzazione dati appare nelle origini esterne, come gli strumenti di business intelligence."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,8 +71,8 @@ Impostazioni generali per la visualizzazione dati.
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
 >title="Visualizzazioni dati in Journey Optimizer"
->abstract="Journey Optimizer deve utilizzare una visualizzazione dati configurata con Customer Journey Analytics.<br/>Abilitare questa opzione per impostare come predefinita la visualizzazione dati utilizzata nei report di Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
+>abstract="Journey Optimizer deve utilizzare una visualizzazione dati configurata con Customer Journey Analytics.<br/>Abilita questa opzione per rendere questa la visualizzazione dati predefinita utilizzata nel reporting di Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
 
 <!-- markdownlint-enable MD034 -->
 

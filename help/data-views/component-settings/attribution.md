@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_attribution"
 >title="Attribuzione"
->abstract="Configura il modello di attribuzione predefinito applicato a una metrica nei rapporti."
+>abstract="Configura il modello di attribuzione predefinito applicato a una metrica nei report."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_colorpalette"
->title="Palette di colori progetto"
+>title="Palette dei colori del progetto"
 >abstract="Modifica la palette di colori utilizzata in questo progetto."
 
 <!-- markdownlint-enable MD034 -->

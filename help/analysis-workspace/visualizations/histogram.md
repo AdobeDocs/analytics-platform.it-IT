@@ -7,7 +7,7 @@ role: User
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_histogram_button"
 >title="Istogramma"
->abstract="Crea una visualizzazione istogramma per rappresentare la distribuzione dei dati numerici in gruppi di intervalli."
+>abstract="Crea una visualizzazione a istogramma per rappresentare la distribuzione dei dati numerici in gruppi di intervalli."
 
 <!-- markdownlint-enable MD034 -->
 

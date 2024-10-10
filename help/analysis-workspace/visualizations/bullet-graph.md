@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 26%
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_goalvalue"
 >title="Valore obiettivo"
->abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l&#39;obiettivo è il venti percento."
+>abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_button"
 >title="Bullet"
->abstract="Crea una visualizzazione con grafico bullet per mostrare come una metrica si confronta con, o misura rispetto a, intervalli di prestazioni (obiettivi)."
+>abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Bullet options]** | Specificare i valori per **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** e **[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l&#39;obiettivo principale a cui stai mirando.**[!UICONTROL Low goal]**e **[!UICONTROL Mid goal]**creano intervalli al di sotto dell&#39;obiettivo High. Nota: quando l&#39;opzione **[!UICONTROL Percentages]**è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l&#39;obiettivo è il venti percento. |
+| **[!UICONTROL Bullet options]** | Specificare i valori per **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** e **[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l&#39;obiettivo principale a cui stai mirando.**[!UICONTROL Low goal]**e **[!UICONTROL Mid goal]**creano intervalli al di sotto dell&#39;obiettivo High. Nota: quando l&#39;opzione **[!UICONTROL Percentages]**è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >

@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 18%
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ Per definire l&#39;annotazione, utilizzare [[!UICONTROL Annotation builder]](#an
 >[!CONTEXTUALHELP]
 >id="cja_components_annotations_details"
 >title="Dettagli annotazione"
->abstract="Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare gli eventi del calendario a dimensioni o metriche specifiche."
+>abstract="Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare eventi del calendario a dimensioni o metriche specifiche."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -49,8 +49,8 @@ Per definire l&#39;annotazione, utilizzare [[!UICONTROL Annotation builder]](#an
 
 >[!CONTEXTUALHELP]
 >id="cja_components_annotations_scope"
->title="Portata"
->abstract="L’ambito ti consente di personalizzare i dati sui quali aggiungere annotazioni. Le metriche calcolate e i segmenti non ereditano automaticamente le annotazioni applicate ai componenti utilizzati nelle loro definizioni. Puoi aggiungere nuove metriche calcolate alla sezione dell’ambito di un’annotazione esistente. I nuovi segmenti richiedono una nuova annotazione."
+>title="Ambito"
+>abstract="L’ambito ti consente di personalizzare quali dati annotare. Le metriche calcolate e i segmenti non ereditano automaticamente le annotazioni applicate ai componenti utilizzati nelle relative definizioni. Puoi aggiungere nuove metriche calcolate alla sezione dell’ambito di un’annotazione esistente. I nuovi segmenti richiedono una nuova annotazione."
 
 <!-- markdownlint-enable MD034 -->
 

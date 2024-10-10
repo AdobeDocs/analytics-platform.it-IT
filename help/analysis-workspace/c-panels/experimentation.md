@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="Sperimentazione"
->abstract="Confronta diverse esperienze utente, varianti di marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: l&#39;esperimento che verrà analizzato.<br>**Variante di controllo**: variante di controllo per l&#39;esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) su cui analizzare l&#39;esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo dell’affidabilità."
+>abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: l’esperimento che verrà analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
 
 <!-- markdownlint-enable MD034 -->
 

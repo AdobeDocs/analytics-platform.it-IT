@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 30%
+ht-degree: 74%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_flow_button"
 >title="Flusso"
->abstract="Crea una visualizzazione per visualizzare il flusso di persone da un punto di controllo all’altro."
+>abstract="Crea una visualizzazione per visualizzare il flusso di persone da un punto di controllo a quello successivo."
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto all’altro.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensione o una metrica per visualizzare i punti di contatto principali che si verificano dopo l&#39;occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensione per visualizzare i punti di contatto principali prima e dopo l&#39;occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensione o una metrica per visualizzare i punti di contatto principali prima dell&#39;occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
 
 <!-- markdownlint-enable MD034 -->
 

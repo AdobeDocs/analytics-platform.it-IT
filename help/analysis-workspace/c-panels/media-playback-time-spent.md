@@ -7,7 +7,7 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 42%
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_button"
->title="Tempo di riproduzione dei contenuti multimediali trascorso"
+>title="Tempo trascorso per la riproduzione di file multimediali"
 >abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di suddividerli e confrontarli."
 
 <!-- markdownlint-enable MD034 -->
@@ -26,8 +26,8 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_panel"
->title="Tempo di riproduzione dei contenuti multimediali trascorso"
->abstract="Analizza il consumo video nel tempo, seleziona varie granularità, suddividi e confronta.<br/><br/>**Granularità**: seleziona il periodo di tempo in base al quale visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Maximum (Massimo) mostra i dettagli del tempo di riproduzione massimo trascorso. Minimum (Minimo) mostra i dettagli del valore minimo. Somma mostra i dettagli per la somma totale del tempo di riproduzione trascorso.<br/>**Raggruppamento per serie (facoltativo)**: raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per visualizzare il formato ora per le visualizzazioni in ore o minuti."
+>title="Tempo trascorso per la riproduzione di file multimediali"
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità, suddividi e confronta.<br/><br/>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco del tempo di riproduzione trascorso. Il valore minimo mostra i dettagli del punto inferiore. Somma mostra i dettagli della somma totale del tempo di riproduzione trascorso.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per la visualizzazione del formato ora, in ore o minuti."
 
 <!-- markdownlint-enable MD034 -->
 
