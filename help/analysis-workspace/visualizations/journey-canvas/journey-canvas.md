@@ -4,10 +4,10 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 1%
+source-wordcount: '1606'
+ht-degree: 0%
 
 ---
 
@@ -82,32 +82,31 @@ Di seguito sono riportati alcuni esempi di altre informazioni che l’area di la
 
 * Aggiungi una dimensione di raggruppamento su qualsiasi nodo del percorso per visualizzare dati aggiuntivi per quel nodo specifico
 
-## Scegli tra l’area di lavoro del Percorso e le visualizzazioni Abbandono
+## Scegli tra le visualizzazioni Area di lavoro Percorso, Abbandono o Flusso
 
-Le visualizzazioni dell&#39;area di lavoro percorso sono simili alle [Visualizzazioni di abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), in quanto entrambe le visualizzazioni mostrano dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinita.
-
-Tuttavia, ci sono importanti differenze.
+La visualizzazione dell&#39;area di lavoro del Percorso presenta analogie con la [visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e la [visualizzazione Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md), ma con differenze importanti.
 
 ### Comprendere le differenze
 
-La tabella seguente mostra i tipi di analisi supportati nella visualizzazione Area di lavoro del Percorso e nella visualizzazione Abbandono:
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
-| Funzione | Visualizzazione area di lavoro percorso | Visualizzazione del fallout |
-|---------|----------|---------|
-| Percorsi lineari | Sì | Sì |
-| Percorsi non lineari con più punti di ingresso e percorsi | Sì | No |
-| percorsi Adobe Journey Optimizer | Sì | No |
-| Metrica principale | Qualsiasi metrica, comprese quelle calcolate | Può utilizzare solo la metrica Sessione o Utente |
-| Metrica secondaria | Sì<p>Qualsiasi metrica, comprese quelle calcolate</p> | No |
-| Confronta filtri | No | Sì<p>Confronta un [numero illimitato di filtri](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#compare-filters-in-fallout)</p> |
+{{journey-visualization-comparisons}}
 
-### Scegli la visualizzazione da utilizzare
+### Quando utilizzare l’area di lavoro del Percorso
 
-Prima di scegliere se utilizzare l&#39;area di lavoro del Percorso o Fallout, assicurati di [comprendere le differenze tra i due](#understand-the-differences).
+L’area di lavoro del percorso è essenziale per:
 
-Se l&#39;analisi dell&#39;abbandono coinvolge solo un percorso lineare con un solo inizio e una sola fine noti, è consigliabile utilizzare una [Visualizzazione di abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) come opzione più semplice per questi percorsi di utenti più semplici.
+* Analisi dell’abbandono che coinvolge percorsi con più punti di ingresso e percorsi.
 
-L’area di lavoro percorso è essenziale per l’analisi dell’abbandono che coinvolge percorsi con più punti di ingresso e percorsi o per l’analisi dei percorsi creati in Journey Optimizer.
+* Percorsi non lineari con più punti di ingresso e percorsi, con una sequenza di pagine predefinita.
+
+* Analisi esplorativa ad hoc basata su un percorso predefinito.
+
+* Analisi che richiede una metrica primaria diversa da Sessione, Persona o Occorrenze.
+
+* Analisi più approfondita dei percorsi originati in Adobe Journey Optimizer.
+
+Utilizza [la tabella precedente](#understand-the-differences) per comprendere le differenze tra le visualizzazioni Area di lavoro Percorso, Abbandono e Flusso.
 
 ## Analizzare percorsi Journey Optimizer
 

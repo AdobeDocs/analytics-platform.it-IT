@@ -4,10 +4,10 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 74%
+source-wordcount: '361'
+ht-degree: 53%
 
 ---
 
@@ -56,3 +56,22 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 >[Configurare una visualizzazione di flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
+## Scegli tra le visualizzazioni Flusso, Abbandono o Area di lavoro Percorso
+
+La visualizzazione Flusso ha analogie con la [visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e la [visualizzazione area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), ma con differenze importanti.
+
+### Comprendere le differenze
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### Quando utilizzare Flusso
+
+Le visualizzazioni Flusso sono più adatte per:
+
+* Analisi esplorativa ad hoc per il punto di contatto immediatamente successivo sul percorso. Utilizzare l&#39;area di lavoro Percorso per i percorsi con una sequenza di pagine predefinita o che utilizzano un percorso finale.
+
+* Percorsi non lineari con più punti di ingresso e percorsi. Utilizza area di lavoro Percorso per percorsi con una sequenza di pagine predefinita.
+
+Utilizza [la tabella precedente](#understand-the-differences) per comprendere le differenze tra Flusso, Abbandono e Area di lavoro Percorso.
