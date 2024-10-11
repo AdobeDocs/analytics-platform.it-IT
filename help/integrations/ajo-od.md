@@ -1,17 +1,17 @@
 ---
-title: Integrare la gestione delle decisioni di Adobe Journey Optimizer con Adobe Customer Journey Analytics
+title: Integrare Adobe Journey Optimizer Decision Management
 description: Inserire i dati generati da,la gestione delle decisioni di Adobe Journey Optimizer e analizzali utilizzando Analysis Workspace all’interno di Customer Journey Analytics.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 027ff3983c67481dd8284667d97f59f427b18928
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '689'
+ht-degree: 98%
 
 ---
 
-# Integrare la gestione delle decisioni con Adobe Customer Journey Analytics
+# Integrare la gestione delle decisioni
 
 
 La funzione [Gestione delle decisioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it) di Adobe Journey Optimizer semplifica la personalizzazione con una libreria centrale di offerte di marketing e un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform, per aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto.
