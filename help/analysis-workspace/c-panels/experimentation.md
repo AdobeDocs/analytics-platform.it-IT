@@ -4,10 +4,10 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 26%
+source-wordcount: '2101'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="Sperimentazione"
->abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: l’esperimento che verrà analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
+>abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: esperimento analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ Ulteriori informazioni sull&#39;integrazione [tra Adobe Customer Journey Analyti
 
 ## Controllo degli accessi {#access}
 
-Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics. Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, [prerequisiti](#prerequisites) richiede azioni che solo gli amministratori possono eseguire.
+Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics. Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, i prerequisiti richiedono azioni che solo gli amministratori possono eseguire.
 
 ## Nuove funzioni nelle metriche calcolate
 
@@ -52,6 +52,7 @@ Per utilizzare il pannello di sperimentazione, assicurati di seguire i seguenti 
 ### Creare una connessione ai set di dati dell’esperimento
 
 Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un array di oggetti **single**. Se i dati dell&#39;esperimento sono inclusi in una singola dimensione (con dati di esperimento e variante in una stringa delimitata), puoi utilizzare l&#39;impostazione [substring](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per suddividere la dimensione in due e utilizzarla nel pannello.
+
 
 Dopo che i dati dell&#39;esperimento sono stati [acquisiti](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform, [crea una connessione nel Customer Journey Analytics](/help/connections/create-connection.md) a uno o più set di dati dell&#39;esperimento.
 
@@ -79,8 +80,6 @@ Per utilizzare un pannello **[!UICONTROL Experimentation]**:
 
 1. Osserva [output](#panel-output) per il pannello.
 
-   ![Il pannello Sperimentazione è stato trascinato in un progetto.](assets/experiment.png)
-
    >[!IMPORTANT]
    >
    >Se la configurazione necessaria nelle visualizzazioni dati del Customer Journey Analytics non è stata completata, prima di poter procedere riceverai un messaggio: [!UICONTROL Please configure the experiment and variant dimensions in Data views].
@@ -92,13 +91,15 @@ Per utilizzare il pannello Sperimentazione:
 
 1. Configura le impostazioni di input del pannello:
 
+   ![Il pannello Sperimentazione è stato trascinato in un progetto.](assets/experiment-input.png)
+
    | Impostazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Date Range]** | L’intervallo di date per il pannello Sperimentazione viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
    | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi all&#39;esperimento degli ultimi 3 mesi. |
    | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
-   | **[!UICONTROL Success metrics]** | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la “variante con le prestazioni migliori” di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui il valore **[!UICONTROL Conversion rate]** è calcolato come **[!UICONTROL Conversions per session]** o **[!UICONTROL Conversions per person]**. |
+   | **[!UICONTROL Success metrics]** utenti | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (massimo o minimo) è dichiarata la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
+   | **[!UICONTROL Normalizing metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come Visualizzazione pagina |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Abilita questa opzione per mostrare i limiti superiori e inferiori per i livelli di affidabilità. |
 
 
@@ -106,17 +107,14 @@ Per utilizzare il pannello Sperimentazione:
 
 ### Output del pannello
 
-Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello viene visualizzata una riga di riepilogo per ricordarti le impostazioni selezionate per il pannello. In qualsiasi momento, puoi modificare il pannello selezionando l’icona Modifica a forma di matita in alto a destra.
+Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello, vengono fornite [visualizzazioni di riepilogo delle modifiche](../visualizations/summary-number-change.md) per ricordarti le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello selezionando l’icona Modifica a forma di matita in alto a destra.
 
 Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica (vedere [Metodologia statistica](#adobes-statistical-methodology)). Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con i valori di incremento e affidabilità più elevati.
 
-Per ogni metrica di successo selezionata, viene visualizzata una tabella a forma libera e una tendenza del tasso di conversione.
+Per ogni metrica di successo selezionata, vengono visualizzate una visualizzazione [tabella a forma libera](../visualizations/freeform-table/freeform-table.md) e un tasso di conversione [riga](../visualizations/line.md).
 
-![L&#39;output della sperimentazione mostra una tabella a forma libera e una tendenza del tasso di conversione.](assets/exp-output1.png)
+![L&#39;output della sperimentazione mostra una tabella a forma libera e una tendenza del tasso di conversione.](assets/experiment-output.png)
 
-Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] rispetto a [!UICONTROL Control Variant]:
-
-![L&#39;output del grafico a linee che mostra le prestazioni di Control rispetto a Control Variant.](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -124,11 +122,11 @@ Il grafico [!UICONTROL Line] fornisce le prestazioni di [!UICONTROL Control] ris
 
 #### Interpretare i risultati
 
-1. **L&#39;esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, vengono analizzati i dati accumulati nell&#39;esperimento fino a questo punto. L&#39;analisi dichiara un esperimento conclusivo quando l&#39;affidabilità valida supera una soglia del 95% per *almeno una* delle varianti. Con più di due bracci, viene applicata una correzione di Benjamini-Hochberg per la correzione per test di ipotesi multiple.
+1. **L&#39;esperimento è conclusivo**: ogni volta che visualizzi il rapporto sulla sperimentazione, vengono analizzati i dati accumulati nell&#39;esperimento fino a questo punto. L&#39;analisi dichiara che un esperimento è conclusivo quando l&#39;affidabilità valida *anytime* supera una soglia del 95% per *almeno una* delle varianti. Con più di due bracci, viene applicata una correzione di Benjamini-Hochberg per la correzione per test di ipotesi multiple.
 
-2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la variante con le prestazioni migliori. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia di affidabilità valida del 95% in qualsiasi momento (con correzioni Benjamini-Hochberg applicate).
+2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la variante con le prestazioni migliori. Questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia di affidabilità valida del 95% *anytime* (con correzioni Benjamini-Hochberg applicate).
 
-3. **Tasso di conversione**: il tasso di conversione visualizzato è un rapporto tra il valore della metrica di successo e il valore della metrica di normalizzazione. Tieni presente che questo valore può talvolta essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
+3. **Tasso di conversione**: il tasso di conversione visualizzato è un rapporto tra il valore della metrica di successo e il valore della metrica di normalizzazione, vale a dire il valore della metrica di successo, il valore della funzione. Nota che questo valore può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
 
 4. **Incremento**: il riepilogo del rapporto Esperimento mostra l&#39;Incremento rispetto alla linea di base, che è una misura del miglioramento percentuale del tasso di conversione di una determinata variante rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
