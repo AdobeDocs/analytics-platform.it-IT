@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 1a0422144b795be7f129b13208e93f8d3645a8e7
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 84%
+source-wordcount: '954'
+ht-degree: 86%
 
 ---
 
@@ -100,6 +100,8 @@ ht-degree: 84%
    + [Etichette e criteri](../data-views/data-governance.md)
 
 + Strumenti {#tools}
+   + Trasferimento risorse {#asset-transfer}
+      + [Trasferisci risorse](../tools/asset-transfer/transfer-assets.md)
    + Utilizzo prodotto {#product-usage}
       + [Panoramica](../tools/product-usage/usage-overview.md)
       + [Impostazioni dati](../tools/product-usage/data-settings.md)
@@ -163,7 +165,7 @@ ht-degree: 84%
       + [A linee](../analysis-workspace/visualizations/line.md)
       + [A dispersione](../analysis-workspace/visualizations/scatterplot.md)
       + [Numero riepilogo e modifica](../analysis-workspace/visualizations/summary-number-change.md)
-      + [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md)
+      + [Intestazione di sezione](/help/analysis-workspace/visualizations/section-header.md)
       + [Testo](../analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](../analysis-workspace/visualizations/treemap.md)
       + [Venn](../analysis-workspace/visualizations/venn.md)
@@ -175,9 +177,9 @@ ht-degree: 84%
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Visualizzatori simultanei di contenuti multimediali ](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Tempo di riproduzione dei contenuti multimediali trascorso](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Tempo trascorso per la riproduzione di file multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento successivo o precedente](../analysis-workspace/c-panels/next-previous.md)
-      + [Informazioni rapide](../analysis-workspace/c-panels/quickinsight.md)
+      + [Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
    + Curare, condividere e pianificare i progetti {#curate-share}
       + [Panoramica](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](../analysis-workspace/curate-share/curate.md)
@@ -262,7 +264,7 @@ ht-degree: 84%
    + Filtri {#cja-filters}
       + [Panoramica](../components/filters/filters-overview.md)
       + [Creare filtri](../components/filters/create-filters.md)
-      + [Creare filtri](../components/filters/filter-builder.md)
+      + [Crea filtri](../components/filters/filter-builder.md)
       + [Filtri rapidi](../components/filters/quick-filters.md)
       + [Filtri sequenziali](../components/filters/seg-sequential-build.md)
       + [Condividere i filtri](../components/filters/filters-share.md)
@@ -277,7 +279,7 @@ ht-degree: 84%
       + [Panoramica](../components/calc-metrics/calc-metr-overview.md)
       + Flusso di lavoro per le metriche calcolate {#cm-workflow}
          + [Creare metriche calcolate](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [Creare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Generare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [Creare una metrica di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
