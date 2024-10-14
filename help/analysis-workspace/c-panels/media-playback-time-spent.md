@@ -11,7 +11,7 @@ ht-degree: 54%
 
 ---
 
-# Pannello Tempo di riproduzione dei contenuti multimediali {#media-playback-time-spent-panel}
+# Pannello Tempo trascorso per la riproduzione di file multimediali {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
 

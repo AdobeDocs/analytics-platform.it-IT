@@ -7,7 +7,7 @@ role: User
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '1861'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_refreshfrequency"
 >title="Refresh frequency (Frequenza di aggiornamento)"
->abstract="Scopri con quale frequenza viene rivalutata l’iscrizione di un pubblico.<br/>I tipi di pubblico occasionali vengono valutati una sola volta."
+>abstract="Scopri con quale frequenza verrà rivalutata l’iscrizione di un pubblico.<br/>I tipi di pubblico occasionali vengono valutati una sola volta."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,8 +44,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_audiencesizelimit"
->title="Limite dimensione pubblico"
->abstract="Il pubblico non può superare i 20 milioni di membri."
+>title="Limite della dimensione del pubblico"
+>abstract="Il pubblico non può superare la dimensione di 20 milioni di membri."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_namespacesincluded"
->title="Namespace inclusi"
+>title="Spazi dei nomi inclusi"
 >abstract="Le identità in questo pubblico sono composte dagli spazi dei nomi seguenti."
 
 <!-- markdownlint-enable MD034 -->

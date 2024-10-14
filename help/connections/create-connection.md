@@ -64,7 +64,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
 >title="Numero medio di utilizzi giornalieri"
->abstract="Selezionare un intervallo per il numero di eventi giornalieri previsti per l&#39;intera connessione."
+>abstract="Seleziona un intervallo per il numero di eventi giornalieri previsti per l’intera connessione."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 22%
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_button"
 >title="Tabella a forma libera"
->abstract="Crea una visualizzazione vuota delle tabelle a forma libera che puoi creare utilizzando dimensioni, segmenti, metriche e intervalli di date. Puoi utilizzare la tabella a forma libera come base per altre visualizzazioni."
+>abstract="Crea una visualizzazione vuota delle tabelle a forma libera che puoi realizzare utilizzando dimensioni, segmenti, metriche e intervalli di date. Puoi utilizzare la tabella a forma libera come base per altre visualizzazioni."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 26%
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,7 @@ La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_areastacked_button"
 >title="Superfici sovrapposte"
->abstract="Crea una visualizzazione grafico ad area per rappresentare la sovrapposizione di più metriche."
+>abstract="Crea una visualizzazione di un grafico a superficie per rappresentare la sovrapposizione di più metriche."
 
 <!-- markdownlint-enable MD034 -->
 

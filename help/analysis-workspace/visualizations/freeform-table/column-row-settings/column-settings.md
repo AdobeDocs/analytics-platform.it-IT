@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -76,7 +76,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="Usa modello di attribuzione non predefinito"
->abstract="Per questa metrica non è disponibile la modalità di attribuzione non predefinita."
+>abstract="Per questa metrica non è disponibile un modello di attribuzione non predefinito."
 
 <!-- markdownlint-enable MD034 -->
 

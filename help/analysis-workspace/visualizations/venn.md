@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 19%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_venn_button"
 >title="Venn"
->abstract="Crea una visualizzazione con diagramma di Venn per confrontare rapidamente due elementi e la dimensione della loro sovrapposizione."
+>abstract="Crea una visualizzazione con diagramma di Venn per confrontare visivamente in modo rapido due elementi e la dimensione della relativa sovrapposizione."
 
 <!-- markdownlint-enable MD034 -->
 

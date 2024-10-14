@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 22%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ Nelle impostazioni di visualizzazione, un elenco a discesa di granularità perme
 >[!CONTEXTUALHELP]
 >id="cja_workspace_barstacked_button"
 >title="Barre sovrapposte"
->abstract="Crea una visualizzazione a barre per rappresentare vari valori per una o più metriche sovrapposte."
+>abstract="Crea una visualizzazione a barre per rappresentare diversi valori per una o più metriche sovrapposte."
 
 <!-- markdownlint-enable MD034 -->
 

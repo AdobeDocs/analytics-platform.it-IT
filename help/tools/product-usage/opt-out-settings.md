@@ -6,7 +6,7 @@ hidefromtoc: true
 source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -27,5 +27,5 @@ Adobe utilizza una combinazione di tracciamento lato client e lato server per ra
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_opt_out_settings"
->title="Utenti esclusi"
+>title="Escludere utenti"
 >abstract="Escludi utenti dal tracciamento dell’utilizzo del prodotto."
