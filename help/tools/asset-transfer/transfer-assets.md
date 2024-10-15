@@ -3,10 +3,10 @@ title: Trasferire le risorse
 description: Scopri come trasferire componenti da un utente all’altro
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: faa9545fa3928a19aeaaf7285a9643e7dc253cea
+source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '531'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Assets è spesso associato a un singolo proprietario e in alcuni casi, ad esempi
 
 ## Autorizzazioni
 
-Il trasferimento delle risorse richiede le autorizzazioni di amministratore di prodotto per il Customer Journey Analytics.
+Il trasferimento delle risorse richiede l’autorizzazione di amministratore di prodotto per il Customer Journey Analytics.
 
 ## Trasferire le risorse
 
@@ -44,7 +44,14 @@ Il trasferimento delle risorse richiede le autorizzazioni di amministratore di p
 
 1. Ora scorri la cartella di ciascun componente nel menu di navigazione a sinistra per selezionare i singoli componenti o tutte le risorse in una cartella da trasferire.
 
-   Il trasferimento di risorse da un amministratore a un non amministratore non comporta l’aggiornamento del destinatario a un amministratore.
+   >[!NOTE]
+   >
+   >Il trasferimento delle risorse da un amministratore a un non amministratore non comporta l’aggiornamento del destinatario a un amministratore.
+
+
+   >[!NOTE]
+   >
+   >    Quando si trasferiscono risorse che fanno riferimento ad altri componenti (ad esempio progetti che fanno riferimento ad altri filtri e metriche calcolate), i componenti non di proprietà dell’attuale proprietario del progetto verranno condivisi solo con il destinatario. La proprietà di tutti gli altri componenti verrà trasferita al destinatario.
 
 1. Per selezionare _tutte_ le risorse in una cartella, seleziona la casella accanto a **[!UICONTROL Name]** nella parte superiore della tabella.
 
@@ -58,17 +65,31 @@ Il trasferimento delle risorse richiede le autorizzazioni di amministratore di p
    >
    >Non chiudere la schermata durante il trasferimento per evitare l&#39;interruzione del processo. Questo garantisce un’esperienza di trasferimento fluida.
 
+## Trasferisci risultati
+
+Esistono tre possibili risultati per un trasferimento:
+
+- **Trasferimento completato**: &quot;Trasferimento di Assets completato.&quot;
+
+- **Operazione parzialmente riuscita**: &quot;Alcune risorse sono state trasferite correttamente&quot;.
+
+- **Errore di trasferimento**: &quot;Impossibile trasferire le risorse. Riprova.&quot;
+
 ## Trasferire le risorse durante l’aggiornamento da Adobe Analytics al Customer Journey Analytics
 
 Uno dei casi d’uso principali per il trasferimento delle risorse è durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 
 La funzionalità [Migrazione componenti](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics consente di migrare i progetti di proprietà dell&#39;amministratore ad altri amministratori. Tutti i componenti che compongono questi progetti vengono quindi ricreati in Customer Journey Analytics e l’amministratore del destinatario possiede tutti questi componenti, indipendentemente da chi li ha creati.
 
-Questo strumento Asset Transfer (Trasferimento risorse) consente successivamente agli amministratori di riassegnare i componenti ai proprietari legittimi.
+Questo strumento di trasferimento delle risorse consente successivamente agli amministratori di riassegnare i componenti ai legittimi proprietari, che siano amministratori o meno.
+
+>[!IMPORTANT]
+>
+>Anche se puoi trasferire i componenti utilizzando questo strumento, l’amministratore deve comunque assicurarsi che il destinatario abbia accesso alle visualizzazioni dati necessarie per visualizzare/utilizzare questi componenti. Puoi visualizzare e assegnare le autorizzazioni nell&#39;[Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 ## Export to CSV (Esporta in CSV)
 
-È possibile esportare un elenco di risorse trasferite da un utente all’altro in un file .csv.
+L&#39;opzione **[!UICONTROL Export to CSV]** consente solo agli amministratori di scaricare un elenco di utenti visualizzato in un file .csv. Non consente loro di esportare un elenco di risorse trasferite in un file .csv.
 
 <!---## Unknown users
 
