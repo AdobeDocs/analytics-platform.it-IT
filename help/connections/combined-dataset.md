@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8241bcc4a2653da456c1577eb95d5504ca118cd9
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 33%
@@ -66,7 +66,7 @@ per il reporting viene utilizzato il seguente set di dati combinato.
 
 Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato:
 
-| id | timestamp | _esperienza.<br/>qualsiasi cosa.<br/>string_color | esperienza.<br/>altro.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| id | timestamp | _esperienza.<br/>qualsiasi cosa.<br/>string_color | _esperienza.<br/>altro.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
 | --- | --- | --- | --- | --- | --- | ---: | ---:|
 | user_310 | 1 gen 7:02 | Rosso | | Volpe | | | |
 | user_310 | 1 gen 7:04 | | | | | 2 | |
