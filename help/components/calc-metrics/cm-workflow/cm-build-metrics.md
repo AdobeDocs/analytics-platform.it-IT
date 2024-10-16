@@ -3,7 +3,7 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 6%
@@ -67,8 +67,8 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
 1. Per verificare se la definizione della metrica calcolata è corretta, utilizza **[!UICONTROL Preview]** costantemente aggiornato dei risultati della metrica calcolata. **[!UICONTROL Preview]** copre gli ultimi 90 giorni e valuta continuamente la definizione della metrica calcolata.
 
    **[!UICONTROL Product compatibility]** indica se la metrica calcolata può essere utilizzata nella sperimentazione. I valori possibili sono:
-   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: la metrica calcolata può essere utilizzata in tutto il Customer Journey Analytics, eccetto nel pannello Sperimentazione.
-   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: la metrica calcolata può essere utilizzata in tutto il Customer Journey Analytics.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics]**: la metrica calcolata può essere utilizzata in tutto il Customer Journey Analytics.
+   * **[!UICONTROL Everywhere in Customer Journey Analytics (excluding experimentation)]**: la metrica calcolata può essere utilizzata in tutto il Customer Journey Analytics, eccetto nel pannello Sperimentazione.
 
 1. Seleziona:
    * **[!UICONTROL Save]** per salvare la metrica calcolata.

@@ -4,10 +4,10 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
+source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 23%
+source-wordcount: '2100'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 23%
 
 
 
-Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, da soluzioni Adobe come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
+Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse esperienze utente, varianti di marketing o di messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di qualsiasi esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, da soluzioni Adobe come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
 
 Ulteriori informazioni sull&#39;integrazione [tra Adobe Customer Journey Analytics e Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja).
 
@@ -41,9 +41,9 @@ Ulteriori informazioni sull&#39;integrazione [tra Adobe Customer Journey Analyti
 
 Il pannello Sperimentazione è disponibile per l’uso da parte di tutti gli utenti del Customer Journey Analytics. Non sono necessari diritti di amministratore o altre autorizzazioni. Tuttavia, i prerequisiti richiedono azioni che solo gli amministratori possono eseguire.
 
-## Nuove funzioni nelle metriche calcolate
+## Funzioni nelle metriche calcolate
 
-Sono state aggiunte due nuove funzioni avanzate: Incremento e Affidabilità. Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
+Sono disponibili due funzioni avanzate: Lift e Confidence (Incremento e affidabilità). Per ulteriori informazioni, consulta [Riferimento - Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md).
 
 ## Prerequisiti
 
@@ -51,10 +51,10 @@ Per utilizzare il pannello di sperimentazione, assicurati di seguire i seguenti 
 
 ### Creare una connessione ai set di dati dell’esperimento
 
-Lo schema di dati consigliato prevede che i dati dell’esperimento siano in un [array Oggetto](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) che contiene i dati dell’esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un array di oggetti **single**. Se i dati dell&#39;esperimento sono inclusi in una singola dimensione (con dati di esperimento e variante in una stringa delimitata), puoi utilizzare l&#39;impostazione [substring](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per suddividere la dimensione in due e utilizzarla nel pannello.
+Lo schema di dati consigliato prevede che i dati della sperimentazione siano in un [array di oggetti](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) che contiene i dati dell&#39;esperimento e della variante in due dimensioni separate. Entrambe le dimensioni devono trovarsi in un array di oggetti **single**. Se i dati della sperimentazione sono inclusi in una singola dimensione (con dati di esperimento e variante in una stringa delimitata), puoi utilizzare l&#39;impostazione [substring](/help/data-views/component-settings/substring.md) nelle visualizzazioni dati per suddividere la dimensione in due e utilizzarla nel pannello.
 
 
-Dopo che i dati dell&#39;esperimento sono stati [acquisiti](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform, [crea una connessione nel Customer Journey Analytics](/help/connections/create-connection.md) a uno o più set di dati dell&#39;esperimento.
+Dopo che i dati della sperimentazione sono stati [acquisiti](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform, [crea una connessione nel Customer Journey Analytics](/help/connections/create-connection.md) a uno o più set di dati dell&#39;esperimento.
 
 ### Aggiungere etichette di contesto nelle visualizzazioni dati
 
@@ -96,7 +96,7 @@ Per utilizzare il pannello Sperimentazione:
    | Impostazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Date Range]** | L’intervallo di date per il pannello Sperimentazione viene impostato automaticamente in base al primo evento ricevuto nel Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
-   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi all&#39;esperimento degli ultimi 3 mesi. |
+   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 3 mesi. |
    | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success metrics]** utenti | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (massimo o minimo) è dichiarata la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
    | **[!UICONTROL Normalizing metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come Visualizzazione pagina |
@@ -168,12 +168,11 @@ Quando si vuole misurare l&#39;impatto dell&#39;intervento X sull&#39;esito Y, �
 >
 >Per le organizzazioni che utilizzano sia Customer Journey Analytics che Adobe Journey Optimizer, le informazioni contenute in questa sezione si applicano anche alle funzioni di sperimentazione in Journey Optimizer.
 
-
 Non tutte le metriche calcolate sono compatibili con il pannello Sperimentazione.
 
 Le metriche calcolate che includono una delle metriche o costanti seguenti non sono compatibili con il pannello Sperimentazione:
 
-* Metriche di base da un set di dati di riepilogo<!--add link to Rob's "Summary data" doc when it's published -->
+* Metriche di base da un [set di dati di riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * Metriche di base divise o moltiplicate tra loro (ad esempio, `Revenue`/`Orders`)
 * Costanti aggiunte o sottratte da una metrica di base (ad esempio, `Revenue+50`)
 * Una delle metriche di base seguenti:
