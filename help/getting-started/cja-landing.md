@@ -4,7 +4,7 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 96%
@@ -141,7 +141,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>Analisi guidata</strong><br/><a href="/help/guided-analysis/overview.md">Panoramica</a> - <a href="/help/guided-analysis/types/active.md">Crescita utenti</a> - <a href="/help/guided-analysis/types/usage.md">Tendenze</a> - <a href="/help/guided-analysis/types/friction.md">Funnel</a> - <a href="/help/guided-analysis/types/release.md">Impatto</a> - <a href="/help/guided-analysis/industry-use-cases.md">Casi d’uso del settore</a>
+      <strong>Analisi guidata</strong><br/><a href="/help/guided-analysis/overview.md">Panoramica</a> - <a href="/help/guided-analysis/types/active-growth.md">Crescita utenti</a> - <a href="/help/guided-analysis/types/trends.md">Tendenze</a> - <a href="/help/guided-analysis/types/funnel.md">Funnel</a> - <a href="/help/guided-analysis/types/release-impact.md">Impatto</a> - <a href="/help/guided-analysis/industry-use-cases.md">Casi d’uso del settore</a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/> <strong>Condivisione, esportazione, integrazione</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Progetti</a> - <a href="/help/mobile-app/home.md">Dashboard di Analytics</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">Esportazione cloud</a> - <a href="/help/integrations/overview.md">Integrazioni</a>

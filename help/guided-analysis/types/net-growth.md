@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL Net growth] visualizzazione
 
-Il tipo di visualizzazione **[!UICONTROL Net growth]** fornisce informazioni sulla frequenza con cui si acquisiscono o si perdono utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
+Il tipo di visualizzazione ![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** fornisce informazioni sulla frequenza con cui si acquisiscono o si perdono utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
 
 Ogni punto dati rappresenta la crescita netta, calcolata con la seguente formula:
 
@@ -22,7 +22,7 @@ Ogni punto dati rappresenta la crescita netta, calcolata con la seguente formula
 
 Il risultato di questa formula è un rapporto. Una crescita netta di `1` rappresenta un equilibrio; il prodotto ha ottenuto lo stesso numero di utenti che ha perso. Una crescita netta superiore a `1` rappresenta una crescita positiva; c&#39;erano più utenti nuovi e di ritorno che utenti inattivi. Analogamente, una crescita netta inferiore a `1` rappresenta una perdita; erano presenti più utenti inattivi rispetto ai nuovi utenti + di ritorno.
 
-Analogamente al tipo di visualizzazione [Attivo](active.md), gli utenti sono definiti come segue:
+Analogamente al tipo di visualizzazione [Attivo](active-growth.md), gli utenti sono definiti come segue:
 
 * **[!UICONTROL New]**: l&#39;utente era attivo durante il periodo corrente, ma non in precedenza. Verificare l&#39;intervallo di visualizzazione dell&#39;analisi per determinare un nuovo utente passando il cursore sopra &#39;[!UICONTROL New users]&#39; nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo e all’intervallo di date selezionati.
 * **[!UICONTROL Return]**: l&#39;utente era attivo nel periodo corrente e non nel periodo immediatamente precedente, ma prima era attivo. Verificare l&#39;intervallo di visualizzazione dell&#39;analisi per determinare un utente restituito passando il cursore sopra &#39;[!UICONTROL Return users]&#39; nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo e all’intervallo di date selezionati.
@@ -46,7 +46,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Attivo](active.md).
+* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Attivo](active-growth.md).
 * **[!UICONTROL Events]**: evento che si desidera misurare. Poiché questo tipo di visualizzazione è basato su utente, un utente che interagisce con l’evento una volta all’interno del periodo viene conteggiato come utente attivo. È possibile includere un evento in una query.
 * **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
 * **[!UICONTROL Segments]**: il segmento che si desidera misurare. È possibile includere un segmento in una query.

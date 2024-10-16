@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL Conversion trends] visualizzazione
 
-La visualizzazione **[!UICONTROL Conversion trends]** fornisce una visualizzazione delle tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
+La visualizzazione ![Tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione delle tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
@@ -22,7 +22,7 @@ La visualizzazione **[!UICONTROL Conversion trends]** fornisce una visualizzazio
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **Tracciare gli sforzi di ottimizzazione**: dopo aver identificato i colli di bottiglia chiave che si desidera migliorare utilizzando [Attrito](friction.md), è possibile utilizzare questa visualizzazione per tenere traccia di come tali ottimizzazioni influiscono sul tasso di conversione nel tempo.
+* **Tracciare gli sforzi di ottimizzazione**: dopo aver identificato i colli di bottiglia chiave che si desidera migliorare utilizzando [Attrito](funnel.md), è possibile utilizzare questa visualizzazione per tenere traccia di come tali ottimizzazioni influiscono sul tasso di conversione nel tempo.
 * **Valutazione test A/B**: valutare l&#39;efficacia dei test A/B o degli esperimenti condotti nel contesto di un funnel. Confrontando i tassi di conversione tra diverse varianti, puoi facilmente determinare quali test forniscono tassi di conversione più elevati, per cui puoi decidere in base ai dati su quali varianti implementare in modo permanente.
 * **Valutazione delle campagne nel tempo**: misura l’efficacia delle campagne di marketing nel tempo. Puoi creare un segmento che si concentra sugli utenti che hanno toccato una determinata campagna e confrontare i loro tassi di conversione con altre campagne. Puoi anche confrontare i tassi di conversione correnti con campagne simili eseguite in passato.
 
@@ -30,7 +30,7 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL View]**: passaggio da questo tipo di visualizzazione a [Friction](friction.md).
+* **[!UICONTROL View]**: passaggio da questo tipo di visualizzazione a [Friction](funnel.md).
 * **[!UICONTROL Steps]**: i punti di contatto dell&#39;evento di cui si desidera tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
 * **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
 * **[!UICONTROL Segments]**: i segmenti in cui si desidera confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
@@ -44,7 +44,7 @@ La visualizzazione [!UICONTROL Conversion trends] offre le seguenti impostazioni
 
 >[!NOTE]
 >
->La colonna **Media** nella tabella di visualizzazione delle tendenze di conversione è diversa dalla colonna **Totale** nella tabella [Visualizzazione frizione](friction.md). La prima rappresenta una media delle colonne dell’intervallo (ad esempio, media dei tassi di conversione giornalieri), mentre la seconda rappresenta un calcolo aggregato per l’intero intervallo di date.
+>La colonna **Media** nella tabella di visualizzazione delle tendenze di conversione è diversa dalla colonna **Totale** nella tabella [Visualizzazione frizione](funnel.md). La prima rappresenta una media delle colonne dell’intervallo (ad esempio, media dei tassi di conversione giornalieri), mentre la seconda rappresenta un calcolo aggregato per l’intero intervallo di date.
 
 ## Confronto temporale
 

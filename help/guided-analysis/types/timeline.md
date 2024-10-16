@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: e9721eaf993175dd46e9d8edf9176d7c00308e8c
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Timeline] visualizzazione
 
-La visualizzazione **[!UICONTROL Timeline]** consente di osservare gli eventi delle sessioni a livello utente nel tempo per trovare modelli di esperienza e raccontare storie di utenti migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
+La visualizzazione ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL Timeline]** ti consente di osservare gli eventi della sessione a livello di utente nel tempo per trovare modelli di esperienza e raccontare storie utente migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
@@ -31,7 +31,7 @@ Se a una visualizzazione dati non è stato aggiunto il componente [!UICONTROL Pe
 
 I casi di utilizzo per questo tipo di visualizzazione includono:
 
-* **Esplorazione attrito**: se nella visualizzazione [Attrito](friction.md) è presente un calo drastico, è possibile creare un segmento di tali utenti e applicarlo in questa visualizzazione per indagare le possibili cause.
+* **Esplorazione attrito**: se nella visualizzazione [Attrito](funnel.md) è presente un calo drastico, è possibile creare un segmento di tali utenti e applicarlo in questa visualizzazione per indagare le possibili cause.
 * **Comportamento errore**: se gli utenti rilevano un errore di prodotto, puoi esplorare le operazioni eseguite dagli utenti prima o dopo la visualizzazione dell&#39;errore.
 * **Convalida della raccolta dati**: gli amministratori dei dati possono filtrare questa visualizzazione in base al proprio ID persona per verificare che l&#39;implementazione della propria organizzazione funzioni come previsto.
 
