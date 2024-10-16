@@ -1,19 +1,19 @@
 ---
 description: Adobe fornisce varie metriche calcolate che puoi utilizzare. In questa pagina sono elencate tali metriche e i loro utilizzi previsti.
-title: Metriche calcolate predefinite
+title: Modelli di metriche calcolate
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: a507417c945f827ebb8bc92f7b5f54a9c4e6faa0
+source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 7%
 
 ---
 
-# Metriche calcolate predefinite
+# Modelli di metriche calcolate
 
-Customer Journey Analytics fornisce le metriche calcolate predefinite seguenti per coprire i casi d’uso più comuni. Le metriche calcolate predefinite definite nell&#39;Adobe sono identificate da un piccolo logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Per filtrare rapidamente queste metriche, selezionare ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** nel filtro [Componenti](/help/components/overview.md#filter).
+Customer Journey Analytics fornisce i seguenti modelli di metriche calcolate per coprire i casi d’uso più comuni. Queste metriche calcolate definite dall&#39;Adobe sono identificate da un piccolo logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Per filtrare rapidamente queste metriche, selezionare ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** nel filtro [Componenti](/help/components/overview.md#filter).
 
 | Nome metrica calcolata | Descrizione<br/>Formula |
 |---------|----------|
