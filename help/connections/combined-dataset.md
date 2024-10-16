@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
+source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 35%
+source-wordcount: '919'
+ht-degree: 33%
 
 ---
 
@@ -30,20 +30,20 @@ Prendi in considerazione l’esempio seguente. Ci sono due set di dati evento, c
 >
 >In genere, Adobe Experience Platform memorizza una marca temporale in millisecondi UNIX®. In questo esempio, per maggiore leggibilità, vengono utilizzate la data e l’ora.
 
-| `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
-| --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
-| `user_310` | `1 Jan 7:04 AM` | | | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` | | | `2` |
+| example_id | timestamp | string_color | string_animal | metric_a |
+| --- | --- | --- | --- | ---: |
+| user_310 | 1 gen 7:02 | Rosso | Volpe | |
+| user_310 | 1 gen 7:04 | | | 2 |
+| user_310 | 1 gen 7:08 | Blu | | 3 |
+| user_847 | 2 gennaio 12:31 | | Tartaro | 4 |
+| user_847 | 2 gennaio 12:44 | | | 2 |
 
-| `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
-| --- | --- | --- | --- | --- |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
+| differente_id | timestamp | string_color | string_shape | metric_b |
+| --- | --- | --- | --- | ---: |
+| user_847 | 2 gennaio 12:26 | Giallo | Cerchio | 8,5 |
+| user_847 | 2 gennaio 1:01 PM | Rosso | | |
+| alternateid_656 | 2 gennaio 20:58 | Rosso | Quadrato | 4.2 |
+| alternateid_656 | 2 Gennaio 21:03 | | Triangolo | 3,1 |
 
 Quando crei una connessione utilizzando questi due set di dati evento e hai identificato
 
@@ -52,19 +52,31 @@ Quando crei una connessione utilizzando questi due set di dati evento e hai iden
 
 per il reporting viene utilizzato il seguente set di dati combinato.
 
-| `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
-| --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
-| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
-| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
+| id | timestamp | string_color | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| user_310 | 1 gen 7:02 | Rosso | Volpe | | | |
+| user_310 | 1 gen 7:04 | | | | 2 | |
+| user_310 | 1 gen 7:08 | Blu | | | 3 | |
+| user_847 | 2 gennaio 12:26 | Giallo | | Cerchio | | 8,5 |
+| user_847 | 2 gennaio 12:31 | | Tartaro | | 4 | |
+| user_847 | 2 gennaio 12:44 | | | | 2 | |
+| user_847 | 2 gennaio 1:01 PM | Rosso | | | | |
+| alternateid_656 | 2 gennaio 20:58 | Rosso | | Quadrato | | 4.2 |
+| alternateid_656 | 2 Gennaio 21:03 | | | Triangolo | | 3,1 |
 
-Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Il risultato è due colonne `string_color` nel set di dati combinato.
+Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato:
+
+| id | timestamp | _esperienza.<br/>qualsiasi cosa.<br/>string_color | esperienza.<br/>altro.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | --- | ---: | ---:|
+| user_310 | 1 gen 7:02 | Rosso | | Volpe | | | |
+| user_310 | 1 gen 7:04 | | | | | 2 | |
+| user_310 | 1 gen 7:08 | Blu | | | | 3 | |
+| user_847 | 2 gennaio 12:26 | | Giallo | | Cerchio | | 8,5 |
+| user_847 | 2 gennaio 12:31 | | | Tartaro |  | 4 | |
+| user_847 | 2 gennaio 12:44 | | | | | 2 | |
+| user_847 | 2 gennaio 1:01 PM | | Rosso | | | | |
+| alternateid_656 | 2 gennaio 20:58 | | Rosso | | Quadrato | | 4.2 |
+| alternateid_656 | 2 Gennaio 21:03 | | | | Triangolo | | 3,1 |
 
 Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga. Il Customer Journey Analytics tratta tutti i dati come se fossero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione. I campi con percorsi di schema identici vengono uniti.
 
@@ -73,7 +85,7 @@ Questo concetto si applica anche all’attribuzione. Non importa da quale insiem
 Se la connessione includesse solo la prima tabella e non la seconda, l’estrazione di un rapporto con la dimensione `string_color` e la metrica `metric_a` utilizzando l’attribuzione ultimo contatto apparirebbe così:
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | Non specificato | 6 |
 | Blu | 3 |
 | Rosso | 2 |
@@ -81,7 +93,7 @@ Se la connessione includesse solo la prima tabella e non la seconda, l’estrazi
 Tuttavia, se nella connessione includessi entrambe le tabelle, l’attribuzione sarebbe modificata poiché `user_847` si trova in entrambi i set di dati. Una riga del secondo set di dati attribuisce `metric_a` a “Giallo”, in precedenza non specificato:
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | Giallo | 6 |
 | Blu | 3 |
 | Rosso | 2 |
