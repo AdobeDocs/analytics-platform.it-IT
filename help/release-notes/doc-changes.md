@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
+source-git-commit: 18131b0ccabbc8043e2638c735a4a603029f4b93
 workflow-type: tm+mt
-source-wordcount: '4088'
+source-wordcount: '4084'
 ht-degree: 63%
 
 ---
@@ -53,7 +53,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Previsione delle tecniche statistiche | Aggiunto articolo che descrive le [tecniche statistiche utilizzate nel servizio di previsione](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Sono state aggiunte informazioni sulla raccomandazione dell’esportazione di tabelle complete per dimensioni ad alta cardinalità | È stato aggiunto un punto elenco in [Best practice per le dimensioni ad alta cardinalità](/help/components/dimensions/high-cardinality.md) per consigliare l&#39;utilizzo di Esportazione tabella completa per le dimensioni ad alta cardinalità. |
 | È stata aggiunta la documentazione sui sottotitoli intelligenti nelle scorecard per dispositivi mobili | [Didascalie intelligenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) può aiutare i non analisti a dare un senso migliore ai loro dati senza l&#39;aiuto degli analisti. |
-| Nuova documentazione per le funzioni di Adobe Product Analytics | <ul><li>[Matrice di funzionalità](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>[percentuali di conservazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/retention/retention-rates) migliorate</li><li>[Informazioni avanzate nel funnel](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>Confrontare gli eventi all’interno di un singolo passaggio Funnel</li></ul> |
+| Nuova documentazione per le funzioni di Adobe Product Analytics | <ul><li>[Matrice di funzionalità](/help/guided-analysis/types/funnel.md)</li><li>[Mantenimento](/help/guided-analysis/types/retention.md) avanzato</li><li>[Informazioni avanzate nel funnel](/help/guided-analysis/types/funnel.md)</li><li>Confrontare gli eventi all’interno di un singolo passaggio Funnel</li></ul> |
 | **Marzo 2024** | |
 | Le informazioni di utilizzo relative alla colonna “Utilizzato in” sono disponibili solo a partire da settembre 2023. | È stato chiarito che le informazioni sull’utilizzo relative alla colonna **Utilizzato in** sulla [pagina di destinazione progetti](/help/getting-started/landing.md) risale solo a settembre 2023. |
 | È stata aggiunta la documentazione sul miglioramento delle autorizzazioni per i componenti Workspace solo progetto | Se condividi un progetto con altri utenti, questi ultimi potranno modificare [filtri rapidi](/help/components/filters/quick-filters.md) e altri componenti di solo progetto incorporati nel progetto condiviso. |
