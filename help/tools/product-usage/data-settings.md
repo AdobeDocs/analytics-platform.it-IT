@@ -3,9 +3,9 @@ title: Impostazioni dei dati di utilizzo del prodotto
 description: Abilita, disabilita o configura le impostazioni di utilizzo del prodotto.
 hide: true
 hidefromtoc: true
-source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
+source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 14%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 14%
 
 La pagina _Impostazioni dati_ gestisce la configurazione di utilizzo del prodotto. Puoi utilizzare questa pagina per abilitare o disabilitare l’utilizzo dei prodotti per la tua organizzazione. Puoi anche configurare in quale sandbox di Adobe Experience Platform viene creato il set di dati e, se necessario, ignorare la finestra di conservazione dei dati. È visibile solo agli amministratori di prodotto.
 
-**Customer Journey Analytics** > **Strumenti** > **Utilizzo prodotto** > **Impostazioni dati**
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]** > **[!UICONTROL Data settings]**
 
 >[!IMPORTANT]
 >
->Quando si attiva questa funzione, è necessario accettare i termini e le condizioni prima di utilizzarla. Quando si accettano questi termini e condizioni, lo si fa per conto dell&#39;intera organizzazione.
+>Quando si attiva questa funzione, è necessario accettare i termini e le condizioni prima di utilizzarla. Quando si accettano questi termini e condizioni, lo si fa per conto dell&#39;intera organizzazione. La persona che accetta i termini e le condizioni è proprietaria della visualizzazione dati creata automaticamente quando questa funzione è abilitata.
 
 In questa pagina sono disponibili le seguenti impostazioni:
 
-* **Abilita utilizzo prodotto**: attiva la raccolta dati sull&#39;utilizzo dei prodotti. Se abiliti l’utilizzo del prodotto e lo disabiliti in futuro, il set di dati, la connessione e la visualizzazione dati non vengono eliminati. Quando viene disattivato, il tracciamento viene disattivato a livello globale per la tua organizzazione.
-* **Sandbox**: determina la sandbox Adobe Experience Platform in cui vengono creati lo schema e il set di dati. La sandbox scelta non influisce sulla raccolta dei dati di utilizzo del prodotto. Se modifichi questa impostazione sandbox, tutti i dati esistenti vengono eliminati. Nella sandbox selezionata vengono creati un nuovo set di dati, una nuova connessione e una nuova visualizzazione dati.
-* **Ignora finestra di conservazione dati**: ogni set di dati ha una finestra di conservazione dati predefinita. Se questa impostazione è disabilitata, l’utilizzo del prodotto segue tale periodo di tempo predefinito. È possibile abilitare questa impostazione se si desidera ridurre il tempo di conservazione dei dati. Abbreviare la finestra di conservazione dei dati, ridurre i costi e rispettare le linee guida sulla privacy specifiche dei dipendenti. Non è possibile estendere la conservazione dei dati oltre la finestra di conservazione dei dati predefinita del set di dati.
+* **[!UICONTROL Enable product usage]**: attiva/disattiva la raccolta dati sull&#39;utilizzo del prodotto. Se abiliti l’utilizzo del prodotto e poi lo disabiliti in futuro, il set di dati, la connessione e la visualizzazione dati non vengono eliminati. Quando viene disattivato, il tracciamento viene disattivato a livello globale per la tua organizzazione.
+* **[!UICONTROL Sandbox]**: determina la sandbox di Adobe Experience Platform in cui vengono creati lo schema e il set di dati. La sandbox scelta non influisce sulla raccolta dei dati di utilizzo del prodotto. Se modifichi questa impostazione sandbox, tutti i dati esistenti vengono eliminati. Nella sandbox selezionata vengono creati un nuovo set di dati, una nuova connessione e una nuova visualizzazione dati.
+* **[!UICONTROL Override data retention window]**: ogni set di dati ha una finestra di conservazione dei dati predefinita. Se questa impostazione è disabilitata, l’utilizzo del prodotto segue tale periodo di tempo predefinito. È possibile abilitare questa impostazione se si desidera ridurre il tempo di conservazione dei dati. Abbreviare la finestra di conservazione dei dati, ridurre i costi e rispettare le linee guida sulla privacy specifiche dei dipendenti. Non è possibile estendere la conservazione dei dati oltre la finestra di conservazione dei dati predefinita del set di dati.
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_sandbox"
