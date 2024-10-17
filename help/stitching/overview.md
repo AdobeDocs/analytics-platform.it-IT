@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
 source-wordcount: '4009'
 ht-degree: 13%
@@ -17,7 +17,6 @@ ht-degree: 13%
 >[!NOTE]
 >
 >Per utilizzare le funzionalità descritte in questa sezione è necessario disporre del pacchetto **Select** o di versione successiva (per l&#39;unione basata sui campi) o del pacchetto **Prime** o di una versione successiva (per l&#39;unione basata sui grafici). In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
-
 
 L’unione di identità (o semplicemente unione) è una funzione potente che eleva l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che il Customer Journey Analytics può gestire e consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona).
 

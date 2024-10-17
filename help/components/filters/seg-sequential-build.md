@@ -3,16 +3,16 @@ description: I filtri sequenziali sono filtri che utilizzano l’operatore THEN 
 title: Filtri sequenziali
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
-source-wordcount: '2372'
-ht-degree: 3%
+source-wordcount: '2342'
+ht-degree: 2%
 
 ---
 
 # Filtri sequenziali
 
-Puoi creare filtri sequenziali utilizzando l’operatore logico Then tra componenti, contenitori e componenti o contenitori. L’operatore logico Then implica che si verifichi una condizione di filtro seguita da un’altra.
+È possibile creare filtri sequenziali utilizzando l&#39;operatore logico [!UICONTROL Then] tra componenti, contenitori e componenti o contenitori. L&#39;operatore logico [!UICONTROL Then] implica che si verifica una condizione di filtro seguita da un&#39;altra.
 
 +++ Ecco un video che illustra la segmentazione sequenziale.
 
@@ -21,7 +21,6 @@ Puoi creare filtri sequenziali utilizzando l’operatore logico Then tra compone
 {{videoaa}}
 
 +++
-
 
 Un filtro sequenziale ha alcune [funzionalità di base](#basics) e altre opzioni che puoi configurare per aggiungere maggiore complessità al filtro sequenziale:
 
@@ -42,7 +41,7 @@ Un filtro sequenziale ha alcune [funzionalità di base](#basics) e altre opzioni
 
 
 
-Le nozioni di base per la creazione di un filtro sequenziale non sono diverse dalla creazione di un filtro regolare tramite il [Generatore di filtri](filter-builder.md). Il [Generatore di definizioni](filter-builder.md#definition-builder) viene utilizzato per creare la definizione del filtro. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica. Un filtro regolare diventa automaticamente un filtro sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](filter-builder.md#definition-builder).
+Le nozioni di base per la creazione di un filtro sequenziale non sono diverse dalla creazione di un filtro regolare tramite il [Generatore di filtri](filter-builder.md). È possibile utilizzare il [Generatore di definizioni](filter-builder.md#definition-builder) per creare la definizione del filtro. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica. Un filtro regolare diventa automaticamente un filtro sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](filter-builder.md#definition-builder).
 
 ### Esempi
 
@@ -79,7 +78,7 @@ Identifica tutte le sessioni in cui una persona visita una pagina prima di un’
 
 ![Sequenza nidificata](assets/sequence-nested.png)
 
-## Dopo e entro
+## [!UICONTROL After] e [!UICONTROL Within]
 
 È possibile utilizzare ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** operatore **[!UICONTROL Then]** per definire ulteriori [vincoli di tempo](#time-constraints) o [vincoli per eventi, sessioni o Dimension](#event-session-and-dimension-constraints).
 
@@ -107,7 +106,7 @@ La tabella seguente spiega più dettagliatamente gli operatori dei vincoli di te
 
 Alcuni esempi di utilizzo dei vincoli di tempo.
 
-##### Operatore After
+##### Operatore [!UICONTROL After]
 
 Identifica le persone che hanno visitato una pagina e poi un’altra solo dopo due settimane. Ad esempio, le persone che hanno visitato la home page, ma le | La pagina delle scarpe solo dopo due settimane.
 
@@ -115,15 +114,15 @@ Identifica le persone che hanno visitato una pagina e poi un’altra solo dopo d
 
 Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 00:01, allora una visualizzazione di pagina per le donne | Le scarpe corrisponderanno finché la visualizzazione della pagina si verifica dopo il 15 giugno 2024 alle 00:01.
 
-##### Operatore Within
+##### Operatore [!UICONTROL Within]
 
 Identifica le persone che hanno visitato una pagina e poi un’altra pagina entro cinque minuti. Ad esempio, le persone che hanno visitato la home page e quindi le donne | Scarpe pagina entro 5 minuti.
 
 ![Sequenza entro](assets/sequence-within.png)
 
-Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 12:01, allora una visualizzazione di pagina per le donne | Le scarpe corrispondono finché la visualizzazione della pagina si verifica prima del 15 giugno 2024 12:16.
+Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 12:01, allora una visualizzazione di pagina per le donne | Le scarpe corrisponderanno, purché la visualizzazione della pagina avvenga prima del 15 giugno 2024 alle 12:16.
 
-##### Operatore After but Within
+##### Operatore [!UICONTROL After] ma [!UICONTROL Within]
 
 Identifica le persone che hanno visitato una pagina e poi un’altra pagina dopo due settimane, ma entro un mese. Ad esempio, le persone che hanno visitato la home page e poi dopo due settimane ed entro un mese le donne | Pagina Scarpe.
 
@@ -132,7 +131,7 @@ Identifica le persone che hanno visitato una pagina e poi un’altra pagina dopo
 Tutte le persone che hanno raggiunto la Home Page il 1° giugno 2024 e che stanno tornando a visitare le Donne | La pagina delle scarpe dopo il 15 giugno 2019 alle 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
 
 
-### Vincoli di evento, sessione e Dimension
+### [!UICONTROL Event], [!UICONTROL Session] e [!UICONTROL Dimension] vincoli
 
 I vincoli di ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** consentono di specificare non solo un vincolo di tempo, ma anche un vincolo di evento, sessione o dimensione. Selezionare **[!UICONTROL Event(s)]**, **[!UICONTROL Session(s)]** o **[!UICONTROL Other dimensions]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Nome Dimension *]**. Puoi usare il campo [!UICONTROL *Ricerca*] per cercare una dimensione.
 
@@ -149,15 +148,15 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 | Pagina `Women \| Shoes` seguita dalla pagina `Checkout \| Thank You` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
 | Pagina `Women \| Shoes` seguita dalla pagina `Women \| Tops` seguita dalla pagina `Checkout \| Thank You` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
 
-## Includi
+## [!UICONTROL Include]
 
 Puoi specificare quali dati includere nel filtro sequenziale o in un contenitore sequenziale che fa parte del filtro sequenziale.
 
-### Tutti {#include_everyone}
+### [!UICONTROL Everyone] {#include_everyone}
 
 Per creare un filtro sequenziale che includa tutti, selezionare l&#39;opzione ![GruppoUtenti](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-Il filtro sequenziale identifica i dati che corrispondono al pattern specificato nel suo insieme.  Di seguito è riportato un esempio di filtro di sequenza di base che cerca le persone che hanno visitato una pagina di categoria di prodotto (Donna | Scarpe), seguita da una pagina di pagamento (Checkout | Grazie). Il filtro è impostato su ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+Il filtro sequenziale identifica i dati che corrispondono al pattern specificato nel suo insieme.  Di seguito è riportato un esempio di filtro di sequenza di base che cerca le persone che hanno visitato una pagina di categoria di prodotto (donne | Scarpe), seguita da una pagina di pagamento (Checkout | Grazie). Il filtro è impostato su ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
 ![Il filtro sequenziale include tutti](assets/sequence-include-everyone.png)
 
@@ -169,7 +168,7 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 | 2 | `Women \| Shoes` quindi `Men \| Shoes` e `Checkout \| Thank You` (in sessioni diverse) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You` quindi `Women \| Shoes` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
 
-### Solo prima della sequenza e Solo dopo la sequenza
+### [!UICONTROL Only Before Sequence] e [!UICONTROL Only After Sequence]
 
 Le opzioni ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** e ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** filtrano i dati in un sottoinsieme prima o dopo la sequenza specificata.
 
@@ -203,7 +202,7 @@ Quando esegui il reporting sulle sezioni del sito utilizzando questi tre filtri,
 
 ![Rapporto filtro sequenziale](assets/sequential-filter-freeform-table.png)
 
-## Escludi
+## [!UICONTROL Exclude]
 
 Le definizioni dei filtri includono tutti i dati a meno che non si escludano specificatamente ![Utente](/help/assets/icons/User.svg) [!UICONTROL Person], ![Visita](/help/assets/icons/Visit.svg) [!UICONTROL Session] o ![Pagina Web](/help/assets/icons/WebPage.svg) [!UICONTROL Event] utilizzando **[!UICONTROL Exclude]**.
 
@@ -215,7 +214,7 @@ Esempio di definizioni di esclusione:
 * **Escludi i domini di riferimento**. Utilizza una definizione che includa solo i domini di riferimento da Google.com ed escluda tutti gli altri.
 * **Identifica i non acquirenti**. Identifica quando gli ordini sono maggiori di zero e quindi esclude il [!UICONTROL Person].
 
-[!UICONTROL Exclude] può essere utilizzato per identificare una sequenza in cui sessioni o eventi specifici non vengono eseguiti dalla persona. [!UICONTROL Exclude] può essere incluso anche in un [!UICONTROL Logic Group] (vedi sotto).
+[!UICONTROL Exclude] può essere utilizzato per identificare una sequenza in cui le persone non fanno parte di sessioni specifiche o eseguono eventi specifici. [!UICONTROL Exclude] può essere incluso anche in un [!UICONTROL Logic Group] (vedi sotto).
 
 Puoi escludere i contenitori, non i componenti.
 
@@ -223,28 +222,28 @@ Puoi escludere i contenitori, non i componenti.
 
 Di seguito sono riportati alcuni esempi di utilizzo di [!UICONTROL Exclude].
 
-#### Escludi in
+#### [!UICONTROL Exclude] entro
 
 Identifica le persone che hanno visitato una pagina, non hanno visitato un’altra pagina e poi hanno visitato un’altra pagina. Escludi il contenitore utilizzando ![Impostazione](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Un contenitore escluso è identificato da una sottile barra rossa a sinistra.
 
 ![Escludi sequenza](assets/sequence-exclude.png)
 
 
-#### Escludi all’inizio
+#### [!UICONTROL Exclude] all&#39;inizio
 
 Identifica le persone che hanno visitato una pagina senza mai passare a un’altra pagina. Ad esempio, le persone che hanno ritirato un acquisto senza mai visitare la home page.
 
 ![Inizio esclusione sequenza](assets/sequence-exclude-start.png)
 
 
-#### Escludi alla fine
+#### [!UICONTROL Exclude] alla fine
 
 Identifica le persone che hanno visitato una pagina ma non altre pagine. Ad esempio, le persone che hanno visitato la pagina principale ma mai le pagine di pagamento.
 
 ![Fine esclusione sequenza](assets/sequence-exclude-end.png)
 
 
-## Gruppo logico
+## [!UICONTROL Logic Group]
 
 >[!NOTE]
 >
@@ -283,13 +282,13 @@ Identifica le persone che hanno visitato una pagina o un’altra pagina e poi ha
 
 ![Esempio di utilizzo della prima corrispondenza con il gruppo logico](assets/logicgroup-example-firstmatch.png)
 
-#### Escludi e
+#### [!UICONTROL Exclude] [!UICONTROL And]
 
 Identifica le persone che hanno visitato una pagina e poi esplicitamente non hanno visitato una serie di altre pagine, ma hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la home page non hanno visitato la pagina Uomini o donne, ma la pagina Bambini.
 
 ![Gruppo logico escludere e](assets/logicgroup-exclude-and.png)
 
-#### Escludi o
+#### [!UICONTROL Exclude] [!UICONTROL Or]
 
 Identifica le persone che hanno visitato una pagina e poi esplicitamente non hanno visitato nessuna pagina di un set di pagine, ma hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la home page non hanno visitato la pagina Uomini e donne, ma la pagina Bambini.
 
