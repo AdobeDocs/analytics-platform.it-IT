@@ -3,10 +3,10 @@ title: Impostazioni dei dati di utilizzo del prodotto
 description: Abilita, disabilita o configura le impostazioni di utilizzo del prodotto.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 14%
+source-wordcount: '302'
+ht-degree: 15%
 
 ---
 
@@ -19,8 +19,7 @@ La pagina _Impostazioni dati_ gestisce la configurazione di utilizzo del prodott
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]** > **[!UICONTROL Data settings]**
 
 >[!IMPORTANT]
->
->Quando si attiva questa funzione, è necessario accettare i termini e le condizioni prima di utilizzarla. Quando si accettano questi termini e condizioni, lo si fa per conto dell&#39;intera organizzazione. La persona che accetta i termini e le condizioni è proprietaria della visualizzazione dati creata automaticamente quando questa funzione è abilitata.
+>Quando si attiva questa funzione, è necessario accettare i termini e le condizioni prima di utilizzarla. Quando si accettano questi termini e condizioni, lo si fa per conto dell&#39;intera organizzazione.
 
 In questa pagina sono disponibili le seguenti impostazioni:
 

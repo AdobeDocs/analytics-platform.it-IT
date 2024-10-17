@@ -3,9 +3,9 @@ title: Panoramica sull’utilizzo del prodotto
 description: Visualizzare approfondimenti e rapporti sul modo in cui l’organizzazione utilizza il Customer Journey Analytics.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '336'
 ht-degree: 3%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-L’utilizzo del prodotto consente all’organizzazione di visualizzare i dati analitici sul modo in cui l’organizzazione utilizza il Customer Journey Analytics. È disponibile per tutte le organizzazioni che utilizzano Customer Journey Analytics. Una volta abilitati, i seguenti componenti Adobe Experience Platform vengono creati e collegati automaticamente:
+L’utilizzo del prodotto consente all’organizzazione di visualizzare i dati analitici sul modo in cui l’organizzazione utilizza il Customer Journey Analytics. È disponibile per tutte le organizzazioni che utilizzano Customer Journey Analytics. Una volta abilitati, i seguenti componenti Adobe Experience Platform vengono creati e collegati automaticamente. Questi componenti sono tutti di proprietà del sistema, sono di sola lettura e non possono essere modificati.
 
-* Uno schema in Adobe Experience Platform. Questo schema è di proprietà del sistema, è di sola lettura e non può essere modificato.
-* Un set di dati in Adobe Experience Platform. Questo set di dati è di proprietà del sistema, è di sola lettura e non può essere modificato.
-* Connessione nel Customer Journey Analytics. Questa connessione è di proprietà del sistema, è di sola lettura e non può essere modificata.
-* Una visualizzazione dati nel Customer Journey Analytics. Puoi modificare questa visualizzazione dati o crearne altre utilizzando la connessione precedente. Il proprietario della visualizzazione dati è la persona che abilita l’utilizzo del prodotto per la tua organizzazione.
+* Uno schema in Adobe Experience Platform
+* Un set di dati in Adobe Experience Platform
+* Una connessione nel Customer Journey Analytics
+* Una visualizzazione dati nel Customer Journey Analytics
 
 Una volta abilitata, la raccolta e l’impostazione dei dati vengono configurate automaticamente. Ogni volta che un utente esegue un’azione in Analysis Workspace, questa viene tracciata e disponibile per i rapporti.
 
@@ -29,7 +29,7 @@ Una volta abilitata, la raccolta e l’impostazione dei dati vengono configurate
 
 ## Dimensioni disponibili
 
-Quando abiliti l’utilizzo del prodotto, sono disponibili le seguenti dimensioni:
+Quando abiliti l’utilizzo del prodotto, sono disponibili le seguenti dimensioni. Se desideri modificare le impostazioni di dimensione, crea una copia della visualizzazione dati di proprietà del sistema e utilizza la visualizzazione dati copiata in Analysis Workspace.
 
 | Dimensione | Descrizione |
 | --- | --- |
