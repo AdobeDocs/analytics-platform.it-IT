@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,8 @@ L&#39;analisi di ![Mantenimento](/help/assets/icons/Retention.svg) **[!UICONTROL
 
 In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l&#39;opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno fatto l&#39;evento iniziale nella stessa data.
 
-+++ Video dimostrativo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
-+++
-
-![Mantenimento](../assets/retention.png)
 
 ## Casi d’uso
 
@@ -78,3 +73,9 @@ Se selezioni un intervallo di date vicino al giorno corrente, gli utenti che ini
 
 * **[!UICONTROL Analyzing users who did the start event in [Date interval]]**: se un utente interagisce con l&#39;evento entro questo intervallo di date, viene incluso nell&#39;analisi. Questo intervallo di date garantisce a tutti gli utenti un tempo sufficiente per qualificarsi per tutti i periodi fissi di durata. Questo intervallo di date può essere diverso dalla selezione se è vicino al giorno corrente.
 * **[!UICONTROL Data from [Date interval] is reserved to complete the analysis]**: se un utente si impegna per la prima volta in questo periodo, **non** sono inclusi nell&#39;analisi. Per gli intervalli di date recenti, questi utenti non avrebbero l’opportunità di qualificarsi per tutti i periodi fissi di durata. Per gli intervalli di date passati, questi utenti erano attivi al di fuori dell’intervallo di date selezionato.
+
+## Esempio
+
+Per un esempio dell’analisi, vedi di seguito.
+
+![Mantenimento](../assets/retention.png)

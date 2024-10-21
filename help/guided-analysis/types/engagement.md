@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '721'
 ht-degree: 2%
 
 ---
@@ -23,13 +23,8 @@ Le funzioni che tracciano la parte superiore di questa visualizzazione indicano 
 * Le funzionalità in basso a sinistra nella matrice sono le tue **funzionalità a basso impatto**; non sono ampiamente adottate o utilizzate di frequente.
 * Le funzionalità nella parte inferiore destra della matrice sono le **funzionalità occasionali**; sono ampiamente adottate, ma non utilizzate di frequente.
 
-+++ Video dimostrativo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
-+++
-
-![Confronto impegni](../assets/engagement-compare.png)
 
 ## Casi d’uso
 
@@ -76,3 +71,11 @@ L’intervallo di date desiderato per l’analisi. Questa impostazione è compos
 
 * **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa analisi tratta [!UICONTROL Interval] in modo simile a [!UICONTROL Counted as] nella barra delle query. Gli utenti attivi su base oraria non sono supportati.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Enagement compare](../assets/engagement-compare.png)
+-->

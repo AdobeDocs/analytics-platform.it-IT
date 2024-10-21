@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
@@ -25,14 +25,9 @@ L&#39;analisi ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL Timelin
 >* **Amministratori**: *Per questa analisi è necessaria la proprietà PersonID. Aggiungere l&#39;ID persona alla visualizzazione dati.*
 >* **Non amministratori**: *Per questa analisi è necessaria la proprietà PersonID. Rivolgiti al tuo amministratore di Customer Journey Analytics per aggiungere l&#39;ID persona alla visualizzazione dati.*
 
-
-+++ Video dimostrativo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
-+++
 
-![Timeline](../assets/timeline-new.png)
 
 ## Casi d’uso
 
@@ -68,3 +63,10 @@ L’intervallo di date desiderato per l’analisi. Questa impostazione è compos
 
 * **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa impostazione non influisce sull’analisi senza tendenze, ad esempio Timeline.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+
+
+## Esempio
+
+Per un esempio dell’analisi, vedi di seguito.
+
+![Timeline](../assets/timeline-new.png)

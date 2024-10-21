@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,9 @@ ht-degree: 1%
 
 L&#39;analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione delle tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
-+++ Video dimostrativo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
-+++
-
-![Confronto tra tendenze di conversione](../assets/conversion-trends-compare.png)
 
 ## Casi d’uso
 
@@ -67,3 +63,12 @@ L’intervallo di date desiderato per l’analisi. Questa impostazione è compos
 
 * **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi, che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un’analisi con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un’analisi con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Conversion trends time compare](../assets/conversion-trends-compare.png)
+
+-->

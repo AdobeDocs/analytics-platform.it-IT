@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '656'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,8 @@ Analogamente all&#39;analisi [Active](active-growth.md), gli utenti sono definit
 >
 >Gli utenti ripetuti non sono presi in considerazione in questo calcolo, in quanto non rappresentano alcun guadagno o perdita di utenti.
 
-+++ Video dimostrativo
-
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 
-+++
-
-![Confronto tra crescita netta](../assets/net-growth-compare.png)
 
 ## Casi d’uso
 
@@ -71,3 +66,10 @@ L’intervallo di date desiderato per l’analisi. Questa impostazione è compos
 
 * **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un’analisi con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un’analisi con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+
+
+## Esempio
+
+Per un esempio dell’analisi, vedi di seguito.
+
+![Confronto tra crescita netta](../assets/net-growth-compare.png)
