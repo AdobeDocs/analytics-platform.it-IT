@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
 workflow-type: tm+mt
-source-wordcount: '3376'
-ht-degree: 99%
+source-wordcount: '3521'
+ht-degree: 94%
 
 ---
 
@@ -134,11 +134,67 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_matchingkey"
->title="Chiave corrispondente"
->abstract="Seleziona un campo per partecipare a uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento."
+>id="cja_connection_primaryID"
+>title="ID primario"
+>abstract="Seleziona l’ID primario corretto per la connessione: Persona per uno scenario B2C. Conto per uno scenario B2B."
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_optionalContainers"
+>title="Contenitori opzionali"
+>abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Global account]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunity]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Buying group]**: abilita la configurazione dei gruppi di acquisto in una connessione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_personID"
+>title="ID persona"
+>abstract="Seleziona un ID persona dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_accountID"
+>title="ID account"
+>abstract="Seleziona un ID account (identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_globalAccountID"
+>title="ID account globale"
+>abstract="Seleziona un ID account globale (l’identificatore univoco di un account globale) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_opportunityID"
+>title="ID opportunità"
+>abstract="Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_buyingGroupID"
+>title="ID gruppo di acquisto"
+>abstract="Seleziona un ID gruppo di acquisto (l’identificatore univoco per un gruppo di acquisto) tra le identità disponibili definite nello schema del set di dati nell’Experience Platform."
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-disable MD034 -->
 
