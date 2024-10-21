@@ -1,48 +1,58 @@
 ---
-title: Visualizzazione frequenza
+title: Analisi della frequenza
 description: Misura il coinvolgimento in base alla frequenza d’uso.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '619'
 ht-degree: 2%
 
 ---
 
-# [!UICONTROL Frequency] visualizzazione
+# Analisi [!UICONTROL Frequency]
 
-La visualizzazione ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** raggruppa i dati evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa vista contiene contenitori che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
+L&#39;analisi ![Frequency](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** raggruppa i dati evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene contenitori che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
+
++++ Video dimostrativo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
 
++++
+
+![Frequenza](../assets/frequency.png)
+
 ## Casi d’uso
 
-I casi di utilizzo per questo tipo di visualizzazione includono:
+I casi di utilizzo per questa analisi includono:
 
 * **Coinvolgimento**: tieni traccia del livello di coinvolgimento degli utenti con qualsiasi evento del prodotto. Puoi fare clic su una parte qualsiasi del grafico a barre per salvarlo come segmento. I segmenti per bucket di coinvolgimento ridotti possono aiutarti a determinare il motivo per cui gli utenti non interagiscono con l’evento alla frequenza desiderata. I segmenti per bucket di coinvolgimento elevati possono aiutarti a capire perché gli utenti interagiscono spesso con l’evento. Da lì, puoi incoraggiare altri utenti ad adottare un comportamento simile.
-* **Fedeltà del cliente**: imposta l&#39;evento su Ordini e la metrica su Utenti. Questa visualizzazione consente di raggruppare gli utenti in base al numero di volte in cui hanno effettuato un acquisto sul sito entro l’intervallo di date specificato.
+* **Fedeltà del cliente**: imposta l&#39;evento su Ordini e la metrica su Utenti. Questa analisi consente di raggruppare gli utenti in base al numero di volte in cui hanno effettuato un acquisto sul sito entro l’intervallo di date specificato.
 * **Ottimizzazione del supporto**: visualizza il numero di chiamate di supporto o casi aperti per utente per ottenere informazioni approfondite su quali utenti incontrano il maggior numero di problemi. Puoi quindi creare un segmento per concentrarti sulla loro esperienza per aiutarli a identificare e risolvere i loro problemi.
 * **Servizi di abbonamento**: gli utenti con un coinvolgimento basso hanno maggiori probabilità di abbandono. Comprendere il comportamento degli utenti altamente coinvolti può aiutare a incoraggiare un comportamento simile per gli utenti meno coinvolti, rendendoli meno propensi ad annullare l’abbonamento.
 
-## Barra delle query
+## Interfaccia
+
+Per una panoramica dell&#39;interfaccia di analisi guidata, vedere [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+
+### Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL View]**: passa da questo tipo di visualizzazione a [Utilizzo](trends.md).
+* **[!UICONTROL View]**: passa da questa analisi a [Tendenze](trends.md).
 * **[!UICONTROL Events]**: gli eventi che si desidera misurare. Ogni evento selezionato viene rappresentato come un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users], [!UICONTROL Sessions], [!UICONTROL Percentage of users] e [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate su percentuali in questa vista sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users], [!UICONTROL Sessions], [!UICONTROL Percentage of users] e [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate sulle percentuali in questa analisi sono gli utenti o le sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
 * **[!UICONTROL Segments]**: i segmenti che si desidera misurare. Ogni segmento selezionato raddoppia il numero di barre nel grafico e di righe nella tabella. Puoi includere fino a cinque segmenti.
 
-## Impostazioni grafico
+### Impostazioni grafico
 
-La visualizzazione [!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L&#39;analisi [!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni includono [!UICONTROL Horizontal bar] e [!UICONTROL Stacked bar].
 
-## Impostazioni bucket
+### Impostazioni bucket
 
 Determina il modo in cui l’evento viene suddiviso in gruppi (bucket). Nella vista della tabella con tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può contare verso bucket diversi in intervalli diversi.
 
@@ -52,11 +62,11 @@ Determina il modo in cui l’evento viene suddiviso in gruppi (bucket). Nella vi
    * [!UICONTROL To]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
    * [!UICONTROL Size]: intervallo di bucket.
 
-## Confronto temporale
+### Confronto temporale
 
 {{apply-time-comparison}}
 
-## Intervallo date
+### Intervallo date
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 

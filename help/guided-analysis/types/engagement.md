@@ -1,20 +1,20 @@
 ---
-title: Visualizzazione Coinvolgimento
+title: Analisi del coinvolgimento
 description: Comprendi l’ampiezza e la profondità del coinvolgimento delle funzioni.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
 
-# [!UICONTROL Engagement] visualizzazione
+# Analisi [!UICONTROL Engagement]
 
-La visualizzazione ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** fornisce informazioni sulla frequenza di utilizzo di una funzionalità rispetto al numero di persone che la utilizzano. Questa analisi funziona meglio quando si confrontano diverse feature tra loro. Aiuta ad alimentare le decisioni di investimento comprendendo quali sono le tue caratteristiche principali, di potenza, una tantum e discutibili.
+L&#39;analisi ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** fornisce informazioni approfondite sulla frequenza di utilizzo di una funzionalità rispetto al numero di persone che la utilizzano. Questa analisi funziona meglio quando si confrontano diverse feature tra loro. Aiuta ad alimentare le decisioni di investimento comprendendo quali sono le tue caratteristiche principali, di potenza, una tantum e discutibili.
 
 Le funzioni che tracciano la parte superiore di questa visualizzazione indicano che vengono utilizzate di frequente tra gli utenti coinvolti. Le funzioni che tracciano la parte destra di questa visualizzazione indicano che sono ampiamente adottate tra gli utenti attivi. Il numero mediano di volte in cui una feature viene utilizzata divide il grafico orizzontalmente. La percentuale mediana di utenti attivi divide il grafico verticalmente. Le mediane vengono calcolate in base agli eventi selezionati nella query, non a tutti i dati.
 
@@ -23,11 +23,17 @@ Le funzioni che tracciano la parte superiore di questa visualizzazione indicano 
 * Le funzionalità in basso a sinistra nella matrice sono le tue **funzionalità a basso impatto**; non sono ampiamente adottate o utilizzate di frequente.
 * Le funzionalità nella parte inferiore destra della matrice sono le **funzionalità occasionali**; sono ampiamente adottate, ma non utilizzate di frequente.
 
++++ Video dimostrativo
+
 >[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
+
++++
+
+![Confronto impegni](../assets/engagement-compare.png)
 
 ## Casi d’uso
 
-I casi di utilizzo per questo tipo di visualizzazione includono:
+I casi di utilizzo per questa analisi includono:
 
 * **Coinvolgimento per funzione**: è possibile stabilire una correlazione diretta tra il coinvolgimento e l&#39;adozione di una funzione specifica. Capire quali funzioni vengono utilizzate di più può aiutare a determinare quali funzioni investire ulteriormente.
 * **Scopri le funzionalità sottoutilizzate**: le funzionalità con utenti attivi bassi ma con un utilizzo elevato possono indicare una funzionalità di alimentazione, che è preziosa ma non viene scoperta o utilizzata dalla popolazione più ampia. Valuta se migliorare la reperibilità di queste funzioni in modo che più utenti le sfruttino.
@@ -35,7 +41,11 @@ I casi di utilizzo per questo tipo di visualizzazione includono:
 * **Crea segmenti basati su funzionalità**: questo tipo di visualizzazione consente di visualizzare l&#39;utilizzo delle funzionalità per richiedere ulteriori opportunità di analisi. Crea un segmento per qualsiasi punto del grafico per immergerti ulteriormente in tale gruppo di utenti e applicare tali insegnamenti alla tua strategia di coinvolgimento degli utenti.
 * **Test A/B di adozione delle funzionalità**: confronta l&#39;utilizzo di più funzionalità tra gruppi di utenti diversi. Aggiungi segmenti nella barra delle query per determinare la differenza nell’utilizzo delle funzioni tra i diversi gruppi di utenti chiave.
 
-## Barra delle query
+## Interfaccia
+
+Per una panoramica dell&#39;interfaccia di analisi guidata, vedere [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+
+### Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
@@ -47,22 +57,22 @@ La barra delle query consente di configurare i seguenti componenti:
 >
 >Se più eventi rappresentano l’utilizzo di una singola funzione, puoi derivare un nuovo evento che rappresenta la funzione nelle Visualizzazioni dati.
 
-## Impostazioni grafico
+### Impostazioni grafico
 
-La visualizzazione [!UICONTROL Engagement] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L&#39;analisi [!UICONTROL Engagement] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Medians]**: Determinare dove vengono visualizzate le linee mediane e come i punti tracciati si relazionano a tali mediane.
    * **[!UICONTROL Standard]**: mostra il valore assoluto di utilizzo e coinvolgimento.
    * **[!UICONTROL Normalized]**: mostra le modifiche relative da ogni mediana.
 * **[!UICONTROL Top events overlay]**: osserva come stanno andando i tuoi eventi rispetto ai primi 20, in base all&#39;attualità e alla rilevanza della società e dell&#39;utente (lo stesso algoritmo applicato al selettore di eventi nella barra delle query).
 
-## Confronto temporale
+### Confronto temporale
 
 {{apply-time-comparison}}
 
-## Intervallo date
+### Intervallo date
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questo tipo di visualizzazione tratta [!UICONTROL Interval] in modo simile a [!UICONTROL Counted as] nella barra delle query. Gli utenti attivi su base oraria non sono supportati.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati sulle tendenze. Questa analisi tratta [!UICONTROL Interval] in modo simile a [!UICONTROL Counted as] nella barra delle query. Gli utenti attivi su base oraria non sono supportati.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.

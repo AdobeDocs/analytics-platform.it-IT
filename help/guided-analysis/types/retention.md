@@ -1,38 +1,48 @@
 ---
-title: Mantenimento
+title: Analisi del mantenimento
 description: Misura quanti utenti continuano a utilizzare il prodotto.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 8592d6d5d4a9d7b8ac6a40963059d386ec5ee804
+source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
 
-# Mantenimento
+# Analisi del mantenimento
 
-La visualizzazione di ![Mantenimento](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** misura il modo in cui gli utenti continuano a utilizzare il prodotto nel tempo, il che può aiutarti a comprendere le esigenze del mercato del prodotto. L’analisi conta gli utenti in base a due eventi importanti:
+L&#39;analisi di ![Mantenimento](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** misura il modo in cui gli utenti continuano a utilizzare il prodotto nel tempo, il che può aiutarti a comprendere le esigenze del mercato del prodotto. L’analisi conta gli utenti in base a due eventi importanti:
 
 * Evento iniziale: evento utilizzato per qualificare gli utenti per l’inclusione nell’analisi.
 * Evento di ritorno: uno o più eventi con cui un utente deve interagire per essere considerato un utente di ritorno nell’analisi.
 
-In questa vista, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l&#39;opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno fatto l&#39;evento iniziale nella stessa data.
+In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l&#39;opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno fatto l&#39;evento iniziale nella stessa data.
+
++++ Video dimostrativo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
++++
+
+![Mantenimento](../assets/retention.png)
+
 ## Casi d’uso
 
-I casi di utilizzo per questo tipo di visualizzazione includono:
+I casi di utilizzo per questa analisi includono:
 
 * **Analisi per coorte**: raggruppa gli utenti in coorti in base alle azioni da loro intraprese, ad esempio iscrizioni o acquisti. Puoi confrontare il livello di mantenimento di questi gruppi e determinare come affrontare il miglioramento dell’esperienza utente di ciascun gruppo.
 * **Adeguamento al mercato del prodotto**: misura l&#39;utilizzo regolare del prodotto e visualizzalo come curve di fidelizzazione. Una maggiore fidelizzazione significa una maggiore aderenza al mercato del prodotto e la posizione in cui la curva si appiattisce indica quanto tempo è necessario per raggiungere l’adesione. Puoi visualizzare questa analisi a livello generale o suddividerla per singole funzioni del prodotto, per ottenere informazioni più approfondite.
 * **Analisi del servizio di abbonamento**: se il prodotto utilizza un abbonamento o un altro tipo di modello di ricavi ricorrenti, puoi vedere la percentuale di utenti che stanno utilizzando al meglio il tuo prodotto. Puoi identificare alcune qualità e comportamenti che questi utenti mostrano.
 * **Coinvolgimento utente**: valuta il modo in cui alcuni tipi di utenti interagiscono con il tuo prodotto e confronta la frequenza con cui ritornano. Un dato segmento con una fidelizzazione inferiore rispetto ad altri può fornirti informazioni sul miglioramento di potenziali esperienze secondarie che potrebbero avere.
 
-## Barra delle query
+## Interfaccia
+
+Per una panoramica dell&#39;interfaccia di analisi guidata, vedere [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+
+### Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
@@ -51,13 +61,13 @@ La barra delle query consente di configurare i seguenti componenti:
       * **[!UICONTROL Custom durations]** ti consente di personalizzare i quattro bucket di durata visualizzati nel grafico e nella tabella.
 * **[!UICONTROL Segments]**: i segmenti che si desidera misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
 
-## Impostazioni grafico
+### Impostazioni grafico
 
-La visualizzazione [!UICONTROL Retention rates] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L&#39;analisi [!UICONTROL Retention] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line].
 
-## Intervallo date
+### Intervallo date
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
 
