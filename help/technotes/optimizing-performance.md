@@ -4,10 +4,10 @@ title: Ottimizzare le prestazioni di Customer Journey Analytics e Analysis Works
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 74%
+source-wordcount: '2564'
+ht-degree: 57%
 
 ---
 
@@ -86,3 +86,32 @@ I fattori del progetto in [!UICONTROL Help] > [!UICONTROL Performance] includono
 | **Numero di celle a forma libera** | Vedi la tabella &quot;Fattori di query&quot; sopra. | |
 | **Componenti utilizzati** | Vedi la tabella &quot;Fattori di query&quot; sopra. | |
 | **Intervallo date più lungo** | Vedi la tabella &quot;Fattori di query&quot; sopra. | |
+
+## Fattori di richiesta
+
+[!UICONTROL Help] > [!UICONTROL Performance] fattori di richiesta
+
+Utilizza il diagramma e i termini seguenti per scoprire come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione:
+
+>[!NOTE]
+>
+>Le linee guida consigliate per questi fattori si basano su un punteggio di complessità di Medium per le richieste di reporting.
+
+
+### Diagramma di elaborazione delle richieste
+
+![Elaborazione richiesta](assets/request-processing.png)
+
+### Richiedi termini di elaborazione
+
+| Fattore | Definizione | Ottimizzazione |
+| --- | --- | --- |
+| [!UICONTROL **Tempo medio di richiesta**] | Il tempo necessario dall’avvio della richiesta al completamento. La soglia consigliata è 15 secondi. <p>Nel diagramma [Elaborazione richiesta](#request-processing-diagram) riportato sopra, il tempo di richiesta rappresenta l&#39;intero processo, da **Richiesta Analysis Workspace avviata** a **Richiesta Analysis Workspace completata**.</p> |  |
+| [!UICONTROL **Tempo di richiesta più lungo**] | Il tempo necessario dall’avvio della richiesta al completamento. <p>Nel diagramma [Elaborazione richiesta](#request-processing-diagram) riportato sopra, il tempo di richiesta rappresenta l&#39;intero processo, da **Richiesta Analysis Workspace avviata** a **Richiesta Analysis Workspace completata**.</p> |  |
+| [!UICONTROL **Tempo medio di ricerca**] | Poiché Analysis Workspace memorizza solo l&#39;hash per le stringhe utilizzate in qualsiasi segmento, ogni volta che si elabora un progetto vengono eseguite **ricerche** per far corrispondere gli hash con i valori appropriati. La soglia consigliata è inferiore a 2 secondi.<p>Questo può richiedere molte risorse, a seconda del numero di valori che potrebbero potenzialmente corrispondere all’hash. </p><p>Nel diagramma [Elaborazione richiesta](#request-processing-diagram) riportato sopra, il tempo di ricerca è rappresentato nella fase **Ricerche** (al momento della **elaborazione del motore di richiesta**).</p> | Se le richieste rallentano qui, è probabile che il problema sia dovuto al fatto che nel progetto sono presenti troppi segmenti di stringa o stringhe con valori eccessivamente generici con troppe potenziali corrispondenze. |
+| [!UICONTROL **Tempo medio coda**] | Tempo totale di attesa in coda prima dell’elaborazione delle richieste. La soglia consigliata è di 5 secondi.<p>Nel diagramma [Elaborazione richiesta](#request-processing-diagram) riportato sopra, il tempo di coda è rappresentato nella fase **Coda motore di richiesta** e nella fase **Coda server**.</p> | Se le richieste rallentano qui, la causa potrebbe essere un numero eccessivo di richieste in esecuzione simultaneamente nell’organizzazione. Prova a eseguire la richiesta in un orario non di punta. |
+| [!UICONTROL **Tempo medio di elaborazione del server**] | Il tempo medio necessario per elaborare la richiesta.<p>Nel diagramma [Elaborazione richiesta](#request-processing-diagram) riportato sopra, il tempo medio di elaborazione del server è rappresentato nella fase **Coda server** e nella fase **Elaborazione server**. La soglia consigliata è 10 secondi | Se le richieste di rallentano qui, è probabile che il progetto abbia intervalli di date eccessivamente lunghi o visualizzazioni complesse. Prova ad abbreviare l’intervallo di date del progetto per ridurre i tempi di elaborazione. |
+| [!UICONTROL **Complessità**] | Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. La soglia consigliata è Medium o inferiore. <p>Possibili valori:</p> <ul><li>[!UICONTROL **Basso**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **Alta**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |  |
+| [!UICONTROL **Limiti del mese**] | Il numero di mesi inclusi in una richiesta. L’aumento dei limiti di mese aggiunge complessità alla richiesta. La soglia consigliata è pari o inferiore a 6. | Se le richieste rallentano qui, è possibile che i limiti dei mesi nel progetto siano troppo grandi. Prova a ridurre il numero di mesi. |
+| [!UICONTROL **Colonne**] | Il numero di metriche e raggruppamenti nella richiesta. Più colonne aumenta la complessità della richiesta. La soglia consigliata è pari o inferiore a 10. | Se le richieste rallentano qui, è possibile che il progetto contenga troppe colonne. Prova a ridurre il numero di colonne. |
+| [!UICONTROL **Segmenti**] | Il numero di segmenti applicati alla richiesta. Altri segmenti aumentano la complessità della richiesta. La soglia consigliata è pari o inferiore a 5. | Se le richieste rallentano qui, è possibile che il progetto contenga troppi segmenti. Prova a ridurre il numero di segmenti. |

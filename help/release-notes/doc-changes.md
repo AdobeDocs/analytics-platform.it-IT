@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 18131b0ccabbc8043e2638c735a4a603029f4b93
+source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
 workflow-type: tm+mt
-source-wordcount: '4084'
-ht-degree: 63%
+source-wordcount: '4118'
+ht-degree: 62%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2024** | |
+| Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/technotes/optimizing-performance.md#request-factors) nell&#39;articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/technotes/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
 | Workspace e componenti | È stata aggiornata la documentazione su progetti (progetti, visualizzazioni e pannelli) e componenti di Analysis Workspace (annotazioni, dimensioni, metriche (calcolate), filtri, intervalli di date, avvisi, progetti pianificati e tipi di pubblico). |
 | Analisi guidata | È stata aggiornata la documentazione con la disponibilità di [Analisi guidata](/help/guided-analysis/overview.md) da Analysis Workspace. |
 | **Settembre 2024** | |
