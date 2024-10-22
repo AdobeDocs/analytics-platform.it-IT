@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '535'
+ht-degree: 1%
 
 ---
 
@@ -65,8 +65,12 @@ L’intervallo di date desiderato per l’analisi. Questa impostazione è compos
 * **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
 
 
-## Esempio
+<!--
 
-Per un esempio dell’analisi, vedi di seguito.
+## Example
+
+See below for an example of the analysis.
 
 ![Timeline](../assets/timeline-new.png)
+
+-->

@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1190'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,11 @@ Se selezioni un intervallo di date vicino al giorno corrente, gli utenti che ini
 * **[!UICONTROL Analyzing users who did the start event in [Date interval]]**: se un utente interagisce con l&#39;evento entro questo intervallo di date, viene incluso nell&#39;analisi. Questo intervallo di date garantisce a tutti gli utenti un tempo sufficiente per qualificarsi per tutti i periodi fissi di durata. Questo intervallo di date può essere diverso dalla selezione se è vicino al giorno corrente.
 * **[!UICONTROL Data from [Date interval] is reserved to complete the analysis]**: se un utente si impegna per la prima volta in questo periodo, **non** sono inclusi nell&#39;analisi. Per gli intervalli di date recenti, questi utenti non avrebbero l’opportunità di qualificarsi per tutti i periodi fissi di durata. Per gli intervalli di date passati, questi utenti erano attivi al di fuori dell’intervallo di date selezionato.
 
-## Esempio
+<!--
+## Example
 
-Per un esempio dell’analisi, vedi di seguito.
+See below for an example of the analysis.
 
-![Mantenimento](../assets/retention.png)
+![Retention](../assets/retention.png)
+
+-->
