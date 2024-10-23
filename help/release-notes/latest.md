@@ -3,32 +3,35 @@ title: Visualizza le note sulla versione del Customer Journey Analytics corrente
 description: Note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 68bdee0cfc0a8a6718ea16cfdaea407c3c8c6e0b
+source-git-commit: 3db41390781517932447ab5e67cf9ba8fe02d774
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '328'
+ht-degree: 58%
 
 ---
 
-# Note sulla versione corrente di Adobe Customer Journey Analytics (ottobre 2024)
+# Note sulla versione corrente di Adobe Customer Journey Analytics (23 ottobre 2024)
 
-**Ultimo aggiornamento**: mercoledì 15 ottobre 2024
+**Ultimo aggiornamento**: giovedì 23 ottobre 2024
 
-Queste note sulla versione coprono il periodo dal 2 ottobre 2024 al 22 ottobre 2024. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo dal 15 ottobre 2024 alla fine dell’anno 2024. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Funzioni nuove o aggiornate
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Trasferimento risorse** | Consente di trasferire ad altri utenti la proprietà di componenti quali progetti, filtri e metriche calcolate, in modo da garantire la continuità e l’accesso appropriato. [Ulteriori informazioni](/help/tools/asset-transfer/transfer-assets.md) |  | Ottobre 15 |
-| **Analisi guidata: incorporare in Workspace** | [L&#39;analisi guidata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/overview) è ora disponibile direttamente in Analysis Workspace, consentendo agli utenti di creare dashboard con informazioni complete da pannelli, visualizzazioni e analisi guidate. Da una nuova sezione della barra a sinistra, puoi creare nuove analisi guidate da aggiungere ai progetti. Puoi anche accedere alle analisi guidate salvate che possono essere riutilizzate come blocchi predefiniti in molti progetti. | 2 ottobre 2024 | 31 ottobre 2024 |
-| **Utilizzo prodotto** | Scopri come la tua organizzazione utilizza Customer Journey Analytics. Abilitando questa funzione viene creato un set di dati in Adobe Experience Platform che raccoglie dati quando un utente dell’organizzazione utilizza Analysis Workspace. Vengono inoltre create automaticamente una connessione e una visualizzazione dati, che consentono di accedere a dimensioni quali i principali tipi di progetto, gli utenti più attivi e i componenti più popolari utilizzati nei progetti. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | giovedì 23 ottobre 2024 | Gennaio 2025 |
-| **Visualizzazione area di lavoro Percorsi** | L’area di lavoro percorso è una visualizzazione in Analysis Workspace che consente di analizzare il modo in cui le persone procedono attraverso un percorso definito o ne escono. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Come fai tu, i dati vengono aggiornati di conseguenza.<p>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti.<p>Per ulteriori informazioni sull&#39;area di lavoro Percorso, vedere [Panoramica sull&#39;area di lavoro Percorso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas).<p>Per informazioni su come creare una visualizzazione dell&#39;area di lavoro Percorsi, vedere [Configurare l&#39;area di lavoro Percorsi](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas). | 2 ottobre 2024 | martedì 14 ottobre 2024 |
-| **I filtri pannello e i filtri colonna sono ora inclusi durante la creazione di un pubblico** | Durante la creazione di un pubblico da una visualizzazione in Analysis Workspace, i filtri dei pannelli e i filtri di colonna sono ora inclusi come criteri aggiuntivi. Se non sono necessari, i filtri possono essere rimossi prima di pubblicare il pubblico. In precedenza, tutti i filtri applicati al pannello o alla colonna di una visualizzazione in Analysis Workspace venivano ignorati durante la creazione di un pubblico.<p>Per informazioni su come creare un pubblico da un Customer Journey Analytics, vedi [Creare e pubblicare tipi di pubblico](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish). |  | 2 ottobre 2024 |
+| **Analisi guidata: incorporare in Workspace** | [L&#39;analisi guidata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/guided-analysis/overview) è ora disponibile direttamente in Analysis Workspace, consentendo agli utenti di creare dashboard con informazioni complete da pannelli, visualizzazioni e analisi guidate. Da una nuova sezione della barra a sinistra, puoi creare nuove analisi guidate da aggiungere ai progetti. Puoi anche accedere alle analisi guidate salvate che possono essere riutilizzate come blocchi predefiniti in molti progetti. | 2 ottobre 2024 | giovedì 23 ottobre 2024 |
+| **Utilizzo prodotto** | Scopri come la tua organizzazione utilizza Customer Journey Analytics. Abilitando questa funzione viene creato un set di dati in Adobe Experience Platform che raccoglie dati quando un utente dell’organizzazione utilizza Analysis Workspace. Vengono inoltre create automaticamente una connessione e una visualizzazione dati, che consentono di accedere a dimensioni quali i principali tipi di progetto, gli utenti più attivi e i componenti più popolari utilizzati nei progetti. [Il link alla documentazione seguirà a breve] | giovedì 23 ottobre 2024 | Gennaio 2025 |
+
 
 ## Correzioni in Customer Journey Analytics
 
-AN-354085; AN-355870; AN-356037; AN-356881; AN-357100; AN-358193; AN-358364; AN-358911; AN-359000; AN-359160
+Tipi di pubblico: AN-359692
+Connessioni: AN-360403
+Esportazione di tabelle complete: AN-359785
+Generazione rapporti: AN-350707; AN-355331; AN-359308; AN-359826; AN-359915; AN-360097; AN-360245
+Report Builder: AN-361022
 
 ## Avvisi importanti per gli amministratori di Customer Journey Analytics
 
