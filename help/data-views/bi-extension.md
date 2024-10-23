@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3064'
 ht-degree: 1%
 
 ---
@@ -34,16 +34,22 @@ Di seguito sono riportati i passaggi aggiuntivi per impostare le autorizzazioni 
 
 ### Credenziali in scadenza
 
-* Accesso concesso agli Experienci Platform e ai Customer Journey Analytics.
-* Accesso concesso dall’amministratore di prodotto al Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
-* O
-* Accesso consentito alle visualizzazioni dati a cui desideri accedere.
-* Accesso concesso all’estensione CJA BI.
+Per utilizzare le credenziali in scadenza, è possibile:
+
+* Concedere l’accesso a Experience Platform e Customer Journey Analytics.
+* Concedi all’amministratore del prodotto l’accesso al Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
+
+Oppure puoi:
+
+* Concedi l’accesso alle visualizzazioni dati a cui desideri accedere.
+* Concedi l’accesso all’estensione di Customer Journey Analytics BI.
 
 ### Credenziali non in scadenza
 
-* Crea credenziali senza scadenza in Adobe Experience Platform.
-* Concedere l&#39;accesso alle credenziali senza scadenza seguendo gli stessi passaggi indicati in [Credenziali in scadenza](#Expiring-credentials).
+Per utilizzare credenziali senza scadenza:
+
+* Crea delle credenziali senza scadenza in Experience Platform.
+* Concedi l&#39;accesso alle credenziali senza scadenza seguendo i passaggi indicati in [Credenziali in scadenza](#Expiring-credentials).
 
 Consulta [Controllo dell&#39;accesso del Percorso clienti](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l&#39;amministratore del prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni di Customer Journey Analytics nell&#39;Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
