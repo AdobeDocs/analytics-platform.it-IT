@@ -4,10 +4,10 @@ description: Scopri come visualizzare e gestire i registri di audit del Customer
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -111,7 +111,7 @@ Vengono visualizzati i seguenti elementi:
 
 Seleziona l’icona a imbuto (![filtro](assets/filter-icon.png)) per visualizzare un elenco di filtri con cui limitare i risultati. Vengono visualizzati solo gli ultimi 1.000 record, a prescindere dai filtri selezionati.
 
-![Registro di controllo che mostra i filtri visualizzati per l&#39;intervallo di dati.](assets/filters.png)
+![Registro di controllo che mostra i filtri visualizzati per l&#39;intervallo di date.](assets/filters.png)
 
 Nell’interfaccia utente sono disponibili i seguenti filtri per gli eventi di audit:
 

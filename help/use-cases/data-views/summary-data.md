@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '4610'
 ht-degree: 8%
@@ -430,7 +430,7 @@ Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
 1. Seleziona **[!UICONTROL Connections]** dal menu principale.
 1. Selezionare la connessione, ad esempio **[!UICONTROL Example Connection Using Summary Data]**.
-1. Selezionare un intervallo di dati appropriato nei dettagli **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]**.
+1. Selezionare un intervallo di date appropriato nei dettagli **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]**.
    1. Selezionare ![Calendario](/help/assets/icons/Calendar.svg), quindi **[!UICONTROL Last 7 days]**.
    1. Seleziona **[!UICONTROL Apply]**.
 
@@ -550,7 +550,7 @@ Per creare un rapporto sui dati di riepilogo, crea un nuovo progetto in Analysis
 Viene visualizzata un&#39;area di lavoro vuota con un pannello [!UICONTROL Freeform], costituita da un [!UICONTROL Freeform table] vuoto.
 
 1. Assicurati che la visualizzazione dati, selezionata per il pannello, faccia riferimento alla visualizzazione dati contenente la configurazione dei dati di riepilogo. Ad esempio: **[!UICONTROL Example Data View Using Summary Data.]**
-1. Assicurati che l’intervallo di dati sia valido per i dati sui quali desideri generare rapporti. Esempio: **[!UICONTROL Last 2 full months]**.
+1. Assicurati che l’intervallo di date sia valido per i dati sui quali desideri creare rapporti. Esempio: **[!UICONTROL Last 2 full months]**.
 1. Trascinare **[!UICONTROL Tracking Code (Event)]** da **[!UICONTROL Dimensions]** e rilasciare la dimensione nella tabella a forma libera vuota.
 1. Trascinare **[!UICONTROL Orders]** da **[!UICONTROL Metrics]** e rilasciare la metrica nella colonna **[!UICONTROL Events]** per sostituire tale colonna nella tabella a forma libera.
 1. Trascina **[!UICONTROL Revenue]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.

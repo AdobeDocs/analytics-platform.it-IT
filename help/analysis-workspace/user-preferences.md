@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3355'
 ht-degree: 77%
@@ -229,7 +229,7 @@ Seleziona i titoli delle sezioni collegate per ulteriori informazioni e contesto
 | **Grafici sovrapposti** | | |
 | | Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. <p>Per ulteriori informazioni, consulta la sezione [Barre e barre sovrapposte](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Istogramma](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | Numero di bucket | Scegli il numero di intervalli di dati (bucket) nella visualizzazione. Il numero massimo consentito è 50. <p>Per ulteriori informazioni, consulta la sezione [Istogramma](/help/analysis-workspace/visualizations/histogram.md).</p> |
+| | Numero di bucket | Scegli il numero di intervalli di date (bucket) nella visualizzazione. Il numero massimo consentito è 50. <p>Per ulteriori informazioni, consulta la sezione [Istogramma](/help/analysis-workspace/visualizations/histogram.md).</p> |
 | | Metodo di conteggio | Scegli tra le seguenti opzioni: <ul><li>Hit</li><li>Sessione</li><li>Persona</li></ul> <p>Ad esempio, se utilizzato insieme alle visualizzazioni di pagina, puoi scegliere le visualizzazioni di pagina per persona, per visita o per evento. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera.</p> |
 | **[Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | Valore | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Variazione percentuale</li><li>Differenza grezza</li></ul> |

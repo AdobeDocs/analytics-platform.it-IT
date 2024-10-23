@@ -1,12 +1,12 @@
 ---
-title: Come selezionare un intervallo di dati nel Report Builder nel Customer Journey Analytics
+title: Come selezionare un intervallo di date nel Report Builder nel Customer Journey Analytics
 description: Descrive come utilizzare il calendario, le date continue e le espressioni personalizzate nel Report Builder per il Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Hai la possibilità di escludere oggi in qualsiasi intervallo di date selezionat
 
 ## Utilizzare il calendario
 
-Quando si utilizza il **Calendario**, nel campo dell&#39;intervallo di date viene visualizzato l&#39;intervallo di date corrente per la richiesta di blocco di dati. È possibile immettere le date direttamente nel campo dell’intervallo di date o utilizzare un’opzione di selezione dell’intervallo di dati.
+Quando si utilizza il **Calendario**, nel campo dell&#39;intervallo di date viene visualizzato l&#39;intervallo di date corrente per la richiesta di blocco di dati. È possibile immettere le date direttamente nel campo dell’intervallo di date o utilizzare un’opzione di selezione dell’intervallo di date.
 
 ### Campo intervallo di date
 
@@ -92,7 +92,7 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
    ![riquadro Intervallo date Report Builder che mostra il giorno corrente più 14 giorni selezionati.](./assets/image21.png)
 
-1. Fai clic su Successivo per definire l’intervallo di dati.
+1. Fai clic su Successivo per definire l’intervallo di date.
 
    Utilizza l’anteprima della data per confermare che l’intervallo di date risultante sia quello desiderato.
 

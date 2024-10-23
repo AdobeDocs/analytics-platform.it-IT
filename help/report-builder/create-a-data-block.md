@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
 1. Imposta l&#39;**intervallo di date**.
 
-   L’opzione Intervallo date ti consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per informazioni sulle opzioni dell&#39;intervallo di dati, vedere [Selezionare un intervallo di date](select-date-range.md).
+   L’opzione Intervallo date ti consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per informazioni sulle opzioni dell&#39;intervallo di date, vedere [Selezionare un intervallo di date](select-date-range.md).
 
 1. Fai clic su **Avanti**.
 

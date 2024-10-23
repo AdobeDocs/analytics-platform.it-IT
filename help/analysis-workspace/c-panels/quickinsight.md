@@ -4,7 +4,7 @@ title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 28%
@@ -77,7 +77,7 @@ Seleziona i blocchi predefiniti:
 * **[!UICONTROL Analyze]** - specifica una dimensione (arancione)
 * **[!UICONTROL by]** - specifica una metrica (verde)
 * **[!UICONTROL filter by]** - specificare un filtro (blu)
-* **[!UICONTROL on]** - specificare un intervallo di dati (viola).
+* **[!UICONTROL on]** - specificare un intervallo di date (viola).
 
 Per il corretto funzionamento della visualizzazione, devi selezionare almeno una dimensione e una metrica.
 
@@ -114,7 +114,7 @@ Altri utili suggerimenti vengono visualizzati in [!UICONTROL Quick Insights Buil
 
   ![La notifica del pannello Quick Insights viene visualizzata dopo aver selezionato l&#39;icona della Guida.](assets/qibuilder4.png)
 
-* Puoi analizzare più dimensioni e metriche, combinare o confrontare filtri e specificare un intervallo di dati:
+* Puoi analizzare più dimensioni e metriche, combinare o confrontare filtri e specificare un intervallo di date:
 
   ![Risultato Generatore Quick Insights](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ Altri utili suggerimenti vengono visualizzati in [!UICONTROL Quick Insights Buil
 
    * **[!UICONTROL filter by]**: è possibile aggiungere fino a 2 ulteriori filtri. Ad esempio, aggiungi Prenotazioni come filtro e combina tale filtro con i filtri Prenotazioni frequenti e Volantini per la prima volta che confronti. Consulta ➏, ➐ e ➑.
 
-   * on: è possibile specificare l’intervallo di dati. Consulta ➒.
+   * on: è possibile specificare l’intervallo di date. Consulta ➒.
 
 ## Limitazioni note
 
