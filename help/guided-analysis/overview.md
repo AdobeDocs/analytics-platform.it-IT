@@ -5,9 +5,9 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1692'
 ht-degree: 34%
 
 ---
@@ -15,11 +15,6 @@ ht-degree: 34%
 # Panoramica dell’analisi guidata
 
 L’analisi guidata consente agli utenti, dal marketing ai prodotti agli analisti, di gestire in autonomia dati e informazioni di alta qualità sul percorso del cliente tramite flussi di lavoro guidati, basati sui dati multicanale del Customer Journey Analytics. Analogamente alle scorecard per Analysis Workspace e dispositivi mobili, l’analisi guidata utilizza dati provenienti da una [Visualizzazione dati](/help/data-views/data-views.md), che fa riferimento ai dati in Adobe Experience Platform tramite un [Connessione](../connections/overview.md). Molti rapporti creati nell’analisi guidata possono essere trasferiti facilmente in Analysis Workspace per ulteriori ricerche.
-
->[!NOTE]
->
->Consulta le [domande frequenti](faq.md) per informazioni sulle differenze terminologiche (segmenti, filtri e altro) tra Analisi guidata e Analysis Workspace.
-
 
 Sono disponibili le seguenti analisi guidate:
 
