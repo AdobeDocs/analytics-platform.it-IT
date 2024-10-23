@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3051'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,22 @@ I principali vantaggi sono i seguenti:
 
 ## Prerequisiti
 
-Per utilizzare questa funzionalità, è necessario disporre di:
-
+Per utilizzare questa funzionalità, è possibile utilizzare credenziali in scadenza o non in scadenza per connettere gli strumenti BI a [!DNL Customer Journey Analytics BI extension]. La [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
+Di seguito sono riportati i passaggi aggiuntivi per impostare le autorizzazioni CJA
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
+
+### Credenziali in scadenza
 
 * Accesso concesso agli Experienci Platform e ai Customer Journey Analytics.
 * Accesso concesso dall’amministratore di prodotto al Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
+* O
 * Accesso consentito alle visualizzazioni dati a cui desideri accedere.
 * Accesso concesso all’estensione CJA BI.
-* Utilizzare le credenziali senza scadenza per connettere gli strumenti BI a [!DNL Customer Journey Analytics BI extension]. La [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) fornisce ulteriori informazioni sull&#39;impostazione di credenziali in scadenza o non in scadenza.
+
+### Credenziali non in scadenza
+
+* Crea credenziali senza scadenza in Adobe Experience Platform.
+* Concedere l&#39;accesso alle credenziali senza scadenza seguendo gli stessi passaggi indicati in [Credenziali in scadenza](#Expiring-credentials).
 
 Consulta [Controllo dell&#39;accesso del Percorso clienti](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l&#39;amministratore del prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni di Customer Journey Analytics nell&#39;Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 

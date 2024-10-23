@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 94%
+source-wordcount: '3588'
+ht-degree: 93%
 
 ---
 
@@ -194,6 +194,16 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >abstract="Seleziona un ID gruppo di acquisto (l’identificatore univoco per un gruppo di acquisto) tra le identità disponibili definite nello schema del set di dati nell’Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="Chiave corrispondente"
+>abstract="Seleziona la modalità di unione: in base a una chiave o a un contenitore corrispondente.<br/><br/>**[!UICONTROL Matching key]**: selezionare un campo a cui unire uno dei set di dati evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Matching container]**: selezionare un contenitore da utilizzare per l&#39;unione con uno dei set di dati evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 <!-- markdownlint-disable MD034 -->
