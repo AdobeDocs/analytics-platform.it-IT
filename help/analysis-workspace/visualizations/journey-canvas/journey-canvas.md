@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,13 @@ L’informazione più importante nell’area di lavoro del Percorso viene visual
 
 Questa didascalia riassume quale di tutti i percorsi nel percorso ha avuto il più alto tasso di conversione.
 
+Se il percorso contiene più nodi iniziali, la didascalia avrà l&#39;aspetto seguente:
+
 ![Didascalia approfondimento area di lavoro Percorsi](assets/journey-canvas-caption.png)
+
+Quando il percorso contiene un singolo nodo iniziale, la didascalia si presenta così:
+
+![didascalia di approfondimento area di lavoro Percorso nodo single start](assets/journey-canvas-caption-singlestart.png)
 
 Quando interpreti questa didascalia, tieni presente quanto segue:
 
@@ -176,13 +182,9 @@ Questo perché, a differenza di Journey Optimizer, l’area di lavoro del Percor
 
 #### Differenze nelle funzioni
 
-Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del Percorso, la funzionalità potrebbe cambiare per le seguenti funzioni, a seconda delle modifiche:
+Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, le opzioni disponibili nel campo a discesa [!UICONTROL **Impostazioni freccia**] variano a seconda delle modifiche apportate. Per ulteriori informazioni, vedere [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-* I valori visualizzati nel campo [!UICONTROL **Tipo di nodo**] cambiano.
-
-* Le opzioni disponibili nel campo a discesa [!UICONTROL **Impostazioni freccia**] cambiano.
-
-Per ulteriori informazioni su questi campi, vedere [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Il campo [!UICONTROL **Tipo di nodo**] è disponibile solo in Journey Optimizer. Non è disponibile quando si visualizza un percorso Journey Optimizer nell’area di lavoro del Percorso, indipendentemente dal fatto che si apportino modifiche al percorso nell’area di lavoro del Percorso.
 
 #### Differenze di sincronizzazione
 
