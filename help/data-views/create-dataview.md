@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 99%
+source-wordcount: '1802'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli elementi dello schema o utilizzare componenti standard. Gli elementi dello schema sono prevalentemente dimensioni o metriche, a seconda dei requisiti aziendali. Una volta trascinato un elemento schema in una visualizzazione dati, a destra vengono visualizzate le opzioni con cui è possibile regolare il funzionamento della dimensione o metrica in Customer Journey Analytics.
 
-+++ Visualizza un video che illustra le visualizzazioni dati nel Customer Journey Analytics
++++ Guarda un video che illustra Visualizzazioni dati in Customer Journey Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
@@ -35,7 +35,7 @@ Creare o modificare una visualizzazione dati:
 >[!CONTEXTUALHELP]
 >id="cja_dataview_externalid"
 >title="ID esterno"
->abstract="La modifica dell’ID esterno può influire sul modo in cui il nome della visualizzazione dati appare nelle origini esterne, come gli strumenti di business intelligence."
+>abstract="La modifica di ID esterno può influire sul modo in cui il nome della visualizzazione dati viene visualizzato nelle origini esterne, ad esempio in strumenti di business intelligence."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ Impostazioni generali per la visualizzazione dati.
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
 >title="Visualizzazioni dati in Journey Optimizer"
->abstract="Journey Optimizer deve utilizzare una visualizzazione dati configurata con Customer Journey Analytics.<br/>Abilita questa opzione per rendere questa la visualizzazione dati predefinita utilizzata nel reporting di Adobe Journey Optimizer."
+>abstract="Il Customer Journey Analytics deve utilizzare una connessione e una visualizzazione dati compatibili con Adobe Journey Optimizer. Per impostazione predefinita, a questo scopo vengono create automaticamente una connessione e una visualizzazione dati.<br/>In alternativa, è possibile abilitare questa opzione per impostare la visualizzazione dati predefinita utilizzata nei report di Adobe Journey Optimizer. Quando questa opzione è attivata, tutti i componenti necessari richiesti per Journey Optimizer vengono aggiunti a questa visualizzazione dati e tutti i set di dati Journey Optimizer necessari vengono aggiunti alla connessione associata a questa visualizzazione dati."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
 
 <!-- markdownlint-enable MD034 -->

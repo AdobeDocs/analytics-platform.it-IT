@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 85%
+source-wordcount: '942'
+ht-degree: 91%
 
 ---
 
@@ -49,10 +49,10 @@ ht-degree: 85%
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
       + [Utilizzare i dati di Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Funzionalità supportate](../getting-started/aa-vs-cja/cja-aa.md)
-      + [Confrontare la terminologia](../getting-started/aa-vs-cja/terminology.md)
-      + [Confrontare l’elaborazione dati](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Confronto della terminologia](../getting-started/aa-vs-cja/terminology.md)
+      + [Confronto dell’elaborazione dati](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [Ambienti](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [Elaborazione di Analytics e preparazione dati](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [Elaborazione di Analytics rispetto alla preparazione dei dati](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [Identità di Analytics](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Evoluzione da Adobe Analytics](../getting-started/aa-to-cja.md)
    + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
@@ -83,16 +83,16 @@ ht-degree: 85%
    + [Impostazioni di sessione](../data-views/session-settings.md)
    + Impostazioni dei componenti {#component-settings}
       + [Panoramica delle impostazioni dei componenti](../data-views/component-settings/overview.md)
-      + [Attribution](../data-views/component-settings/attribution.md)
+      + [Attribuzione](../data-views/component-settings/attribution.md)
       + [Comportamento](../data-views/component-settings/behavior.md)
       + [Formato](../data-views/component-settings/format.md)
       + [Includere valori di esclusione](../data-views/component-settings/include-exclude-values.md)
-      + [Deduplicazione delle metriche](../data-views/component-settings/metric-deduplication.md)
+      + [Deduplica delle metriche](../data-views/component-settings/metric-deduplication.md)
       + [Opzioni per “Nessun valore”](../data-views/component-settings/no-value-options.md)
       + [Persistenza](../data-views/component-settings/persistence.md)
       + [Sottostringa](../data-views/component-settings/substring.md)
       + [Gruppo di dati di riepilogo](../data-views/component-settings/summary-data-group.md)
-      + [Bucketing dei valori](../data-views/component-settings/value-bucketing.md)
+      + [Bucket dei valori](../data-views/component-settings/value-bucketing.md)
    + [Documentazione dei componenti standard](../data-views/component-reference.md)
    + [Estensione BI](../data-views/bi-extension.md)
    + [Campi derivati](../data-views/derived-fields/derived-fields.md)
@@ -104,7 +104,7 @@ ht-degree: 85%
       + [Trasferisci risorse](../tools/asset-transfer/transfer-assets.md)
    + Utilizzo prodotto {#product-usage}
       + [Panoramica](../tools/product-usage/usage-overview.md)
-      + [Impostazioni dati](../tools/product-usage/data-settings.md)
+      + [Impostazioni dei dati](../tools/product-usage/data-settings.md)
       + [Impostazioni di rinuncia](../tools/product-usage/opt-out-settings.md)
 
 + Progetti Workspace {#cja-workspace}
@@ -119,10 +119,10 @@ ht-degree: 85%
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Gestione cartelle](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Gestire le cartelle](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Aggiungere o spostare progetti nelle cartelle](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Tasti di scelta rapida](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Tavolozze dei colori](../analysis-workspace/build-workspace-project/color-palettes.md)
+      + [Palette di colori](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densità di visualizzazione](../analysis-workspace/build-workspace-project/view-density.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -164,8 +164,8 @@ ht-degree: 85%
       + [Riepilogo delle metriche chiave](../analysis-workspace/visualizations/key-metric.md)
       + [A linee](../analysis-workspace/visualizations/line.md)
       + [A dispersione](../analysis-workspace/visualizations/scatterplot.md)
-      + [Numero riepilogo e modifica](../analysis-workspace/visualizations/summary-number-change.md)
-      + [Intestazione di sezione](/help/analysis-workspace/visualizations/section-header.md)
+      + [Numero e variazione di riepilogo](../analysis-workspace/visualizations/summary-number-change.md)
+      + [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md)
       + [Testo](../analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](../analysis-workspace/visualizations/treemap.md)
       + [Venn](../analysis-workspace/visualizations/venn.md)
@@ -176,7 +176,7 @@ ht-degree: 85%
       + [Sperimentazione](../analysis-workspace/c-panels/experimentation.md)
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Visualizzatori simultanei di contenuti multimediali ](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tempo trascorso per la riproduzione di file multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento successivo o precedente](../analysis-workspace/c-panels/next-previous.md)
       + [Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
@@ -242,7 +242,7 @@ ht-degree: 85%
       + [Gestire le annotazioni](../components/annotations/manage-annotations.md)
       + [Visualizzare le annotazioni](../components/annotations/view-annotations.md)
       + [Annotazioni per dispositivi mobili](../components/annotations/mobile-annotations.md)
-   + [Progetti programmati](../components/scheduled-projects-manager.md)
+   + [Progetti pianificati](../components/scheduled-projects-manager.md)
    + Tipi di pubblico {#audiences}
       + [Panoramica dei tipi di pubblico](../components/audiences/audiences-overview.md)
       + [Creare e pubblicare tipi di pubblico](../components/audiences/publish.md)
@@ -252,12 +252,12 @@ ht-degree: 85%
       + [Anteprima dimensioni](../components/dimensions/view-dimensions.md)
       + [Suddividere dimensioni](../components/dimensions/t-breakdown-fa.md)
       + [Suddividere le dimensioni in base al tempo](../components/dimensions/time-parting-dimensions.md)
-      + [Dimensioni ad alta cardinalità](../components/dimensions/high-cardinality.md)
+      + [Dimensioni a cardinalità elevata](../components/dimensions/high-cardinality.md)
    + [Metriche](../components/apply-create-metrics.md)
    + Filtri {#cja-filters}
       + [Panoramica](../components/filters/filters-overview.md)
       + [Creare filtri](../components/filters/create-filters.md)
-      + [Crea filtri](../components/filters/filter-builder.md)
+      + [Generare i filtri](../components/filters/filter-builder.md)
       + [Filtri rapidi](../components/filters/quick-filters.md)
       + [Filtri sequenziali](../components/filters/seg-sequential-build.md)
       + [Condividere i filtri](../components/filters/filters-share.md)
@@ -363,9 +363,10 @@ ht-degree: 85%
       + [Acquisire e utilizzare i dati di Marketo Engage](../use-cases/data-ingestion/marketo.md)
       + [Acquisire e utilizzare i tipi di pubblico di Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
    + Visualizzazioni dati {#data-views}
-      + [Casi d’uso per le visualizzazioni dati](../use-cases/data-views/data-views-usecases.md)
-      + [Utilizzare dimensioni e metriche di binding](../use-cases/data-views/binding-dimensions-metrics.md)
-      + [Utilizzare i dati di riepilogo](../use-cases/data-views/summary-data.md)
+      + [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md)
+      + [Utilizzare dimensioni e metriche di binding](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md)
+      + [Casi di utilizzo dell’estensione BI](/help/use-cases/data-views/bi-extension-usecases.md)
    + Esportazione dei dati {#data-export}
       + [Panoramica](../use-cases/data-export/overview.md)
       + [Estensione BI](../use-cases/data-export/bi-extension.md)
