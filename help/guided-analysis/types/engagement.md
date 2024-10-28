@@ -5,14 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 3%
 
 ---
 
-# Analisi [!UICONTROL Engagement]
+# Analisi [!UICONTROL Engagement] {#engagement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_engagement_button"
+>title="Coinvolgimento"
+>abstract="Comprendi l’ampiezza e la profondità del coinvolgimento delle funzioni."
+
+<!-- markdownlint-enable MD034 -->
+
 
 L&#39;analisi ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** fornisce informazioni approfondite sulla frequenza di utilizzo di una funzionalità rispetto al numero di persone che la utilizzano. Questa analisi funziona meglio quando si confrontano diverse feature tra loro. Aiuta ad alimentare le decisioni di investimento comprendendo quali sono le tue caratteristiche principali, di potenza, una tantum e discutibili.
 

@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 5%
+source-wordcount: '494'
+ht-degree: 6%
 
 ---
 
-# Analisi [!UICONTROL Release impact]
+# Analisi [!UICONTROL Release impact] {#release-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_releaseimpact_button"
+>title="Impatto sulla versione"
+>abstract="Confronta le prestazioni in periodi uguali prima e dopo il rilascio."
+
+<!-- markdownlint-enable MD034 -->
 
 L&#39;analisi ![Release](/help/assets/icons/Release.svg) **[!UICONTROL Release impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una determinata data. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 

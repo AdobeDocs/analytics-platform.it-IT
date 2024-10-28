@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '652'
+ht-degree: 3%
 
 ---
 
-# Analisi [!UICONTROL Net growth]
+# Analisi [!UICONTROL Net growth] {#net-growth}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_netgrowth_button"
+>title="Crescita netta"
+>abstract="Stai guadagnando o perdendo utenti?"
+
+<!-- markdownlint-enable MD034 -->
 
 L&#39;analisi ![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** fornisce informazioni sulla frequenza con cui si acquisiscono o si perdono utenti in un periodo specifico. L&#39;asse orizzontale è un intervallo di tempo, mentre l&#39;asse verticale è la misura della crescita.
 

@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
 
-# Analisi [!UICONTROL Timeline]
+# Analisi [!UICONTROL Timeline] {#timeline}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_timeline_button"
+>title="Linea temporale"
+>abstract="Osserva gli eventi della sessione a livello di utente nel tempo."
+
+<!-- markdownlint-enable MD034 -->
 
 L&#39;analisi ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL Timeline]** ti consente di osservare gli eventi della sessione a livello di utente nel tempo per trovare modelli di esperienza e raccontare storie utente migliori. La barra a sinistra ti consente di filtrare il flusso per valori di proprietà e segmenti. La barra a destra consente di selezionare da un elenco randomizzato di utenti che corrispondono ai criteri del filtro. L&#39;area centrale mostra il flusso per l&#39;utente selezionato per sessione, costituito da timestamp, valori delle proprietà e durata. La durata non è disponibile per l’ultimo evento di una determinata sessione.
 

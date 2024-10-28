@@ -5,14 +5,23 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 2%
+source-wordcount: '646'
+ht-degree: 3%
 
 ---
 
-# Analisi [!UICONTROL Funnel]
+# Analisi [!UICONTROL Funnel] {#funnel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_funnel_button"
+>title="Funnel"
+>abstract="Confronta i tassi di conversione tra passaggi."
+
+<!-- markdownlint-enable MD034 -->
 
 L&#39;analisi ![ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**fornisce una rappresentazione visiva di un percorso di utenti critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti nell’ordine finale, ma possono essere eseguiti in qualsiasi momento all’interno dell’intervallo di reporting.
 
