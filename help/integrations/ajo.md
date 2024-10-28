@@ -4,7 +4,7 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: 5e239753928f5c994245025c8b5d2aee3eee6091
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 99%
@@ -18,8 +18,6 @@ ht-degree: 99%
 Puoi configurare i dati generati da AJO per eseguire analisi avanzate in Customer Journey Analytics. Puoi configurare automaticamente questa integrazione. Se necessario, puoi effettuare personalizzazioni manuali aggiuntive ai set di dati, alle dimensioni o alle metriche disponibili nella connessione o nelle visualizzazioni dati.
 
 ## Configurare automaticamente l’integrazione di AJO
-
-{{release-limited-testing-section}}
 
 AJO supporta l’utilizzo di Customer Journey Analytics come motore di reporting. Consulta [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channel-report/report-gs-cja) nella documentazione di AJO.
 
