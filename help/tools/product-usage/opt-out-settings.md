@@ -1,9 +1,7 @@
 ---
 title: Impostazioni di rinuncia all’utilizzo del prodotto
 description: Gestisci le impostazioni di rinuncia per i singoli utenti all’interno della tua organizzazione.
-hide: true
-hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 8%
