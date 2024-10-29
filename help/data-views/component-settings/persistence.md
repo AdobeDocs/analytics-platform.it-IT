@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 80%
+source-wordcount: '870'
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="Persistenza"
->abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting."
+>abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting. Per ulteriori informazioni, vedere [impostazioni di allocazione](/help/data-views/component-settings/persistence.md#allocation-settings), [impostazioni di scadenza](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensione di binding](/help/data-views/component-settings/persistence.md#binding-dimension) e metriche di binding."
 
 <!-- markdownlint-enable MD034 -->
 

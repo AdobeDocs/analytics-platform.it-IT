@@ -5,7 +5,7 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 18%
@@ -22,16 +22,6 @@ ht-degree: 18%
 >abstract="Determina come viene visualizzato un componente quando viene utilizzato nei report."
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format_currencyconversion"
->title="Conversione valuta"
->abstract="Seleziona una dimensione del codice valuta per configurare e visualizzare la valuta in un tipo di valuta selezionato."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 Il formato consente di determinare come viene visualizzata una particolare metrica quando viene utilizzata nei rapporti.
@@ -64,7 +54,16 @@ Il formato consente di determinare come viene visualizzata una particolare metri
 
    {style="table-layout:auto"}
 
-## Usa conversione valuta
+## Usa conversione valuta {#use-currency-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format_currencyconversion"
+>title="Conversione valuta"
+>abstract="Seleziona una dimensione del codice valuta per configurare e visualizzare la valuta in un tipo di valuta selezionato."
+
+<!-- markdownlint-enable MD034 -->
 
 La conversione valutaria in Customer Journey Analytics può essere estremamente utile per le imprese che operano a livello internazionale. Rimuovendo le complessità della conversione manuale della valuta, la conversione della valuta in Customer Journey Analytics porta uniformità e chiarezza ai dati finanziari. La conversione valutaria tiene traccia dei tassi di cambio storici giornalieri e mantiene tali tassi per un periodo di 4 anni.
 
