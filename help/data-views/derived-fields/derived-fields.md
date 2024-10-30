@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '8487'
 ht-degree: 15%
@@ -224,15 +224,15 @@ Questo modello di funzione crea un nome di pagina semplice.
 
 +++ Dettagli
 
-Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Per ulteriori informazioni, vedere [Riferimento funzione](#function-reference).
+Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Per ulteriori informazioni, vedere [Riferimento](#function-reference) alle funzioni.
 
-![Schermata del nome della pagina dal generatore di regole URL](assets/function-template-page-name-from-url.png)
+![Schermata del nome Pagina da URL regola builder](assets/function-template-page-name-from-url.png)
 
 +++
 
-### Stagione festiva {#holiday}
+### Festività natalizie {#holiday}
 
-Questo modello di funzione classifica i momenti chiave dell’anno.
+Questo modello di funzione classifica i periodi chiave dell&#39;anno.
 
 +++ Dettagli
 
@@ -384,7 +384,7 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
    - input: possibili valori di input,
    - operatori inclusi: operatori supportati per questa funzione (se del caso),
    - limitazioni: limitazioni applicabili a questa funzione specifica,
-   - output.
+   - prodotto.
 
 - casi d’uso, tra cui:
    - dati prima di definire il campo derivato,
@@ -1097,7 +1097,7 @@ La funzione di ricerca viene applicata al momento della generazione del rapporto
 1. Seleziona ![Icona campo schema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
 1. Seleziona il set di dati di ricerca e individua il campo da utilizzare per la ricerca.
 1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso Quando). Quando è valida, una casella blu, con etichetta **[!UICONTROL + Add]**, consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui è stato rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
-   ![Trascinamento ricerca](assets/lookup-drag.png)
+   ![Trascinamento della ricerca](assets/lookup-drag.png)
 
 +++
 
@@ -1239,9 +1239,9 @@ Per creare una formula:
 
 Durante l&#39;utilizzo di numeri statici nella funzione [!UICONTROL MATH] è necessario tenere presenti alcune considerazioni importanti:
 
-- I valori statici devono essere associati a un campo. Ad esempio, l&#39;utilizzo della funzione [!UICONTROL MATH] con solo campi statici non è supportato.
-- Non è possibile utilizzare l&#39;operatore di incremento dell&#39;alimentazione (`ˆ`) su un valore statico.
-- Se si utilizzano più valori statici in una formula, questi devono essere raggruppati utilizzando le parentesi affinché la formula sia valida. Ad esempio:
+- I valori statici devono essere associati a un campo. Ad esempio, l&#39;utilizzo della [!UICONTROL MATH] funzione solo con campi statici non è supportato.
+- Non è possibile utilizzare l&#39;operatore raise to power (`ˆ`) su un valore statico.
+- Se si utilizzano più valori statici in una formula, questi valori statici devono essere raggruppati tra parentesi affinché la formula sia valida. Ad esempio:
 
    - Questa formula restituisce un errore.
      ![Ulteriori informazioni matematiche 4](assets/math-more-info-4.png)
@@ -1358,13 +1358,13 @@ Accetta un campo come input e risolve il valore successivo o precedente per tale
 
 ## Caso d’uso {#prevornext-uc1}
 
-Desideri capire qual è il valore **next** o **previous** dei dati ricevuti, tenendo conto dei valori ripetuti.
+È like capire qual è il **valore successivo** o **precedente** dei dati ricevuti, presi in account valori di ripetizione.
 
 ### Dati {#prevornext-uc1-databefore}
 
-**Esempio 1 - La gestione include le ripetizioni**
+**Esempio 1 - Gestione include ripetizioni**
 
-| Dati ricevuti | Valore successivo<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore successivo<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni |
+| Dati ricevuti | Valore<br/>Successivo Sessione<br/>Index = 1<br/>Includi ripetizioni | Valore successivo<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>Includi ripetizioni | Valore precedente<br/>Sessione<br/>Indice = 1<br/>NON includere ripetizioni |
 |---|---|---|---|---|
 | Creative Cloud | Creative Cloud | ricerca | *Nessun valore* | *Nessun valore* |
 | Creative Cloud | ricerca | ricerca | Creative Cloud | *Nessun valore* |
@@ -1701,7 +1701,7 @@ Utilizzare la funzione Riepiloga per i calcoli basati sull&#39;ambito evento, se
 
 <!-- TRIM -->
 
-### Trim (Taglia)
+### Trim (Taglia) {#trim}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -1724,11 +1724,11 @@ Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall&#39;inizio 
 | <ul><li>Stringa</li></ul> | <ul><li>[!UICONTROL Field]<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Ritaglia spazio vuoto</li><li>Ritaglia caratteri speciali<ul><li>Inserimento di caratteri speciali</li></ul></li><li>Rifila da sinistra<ul><li>Da <ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li><li>Rifila da destra<ul><li>Da <ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li></ul></li><li>Su<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione n.</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag da includere nella stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 
-## Caso d’uso 1 {#trim-uc1}
+## Caso d&#39;uso 1 {#trim-uc1}
 
-I dati del prodotto vengono raccolti, ma contengono spazi vuoti nascosti che generano rapporti sui frammenti. Per eliminare facilmente gli spazi vuoti in eccesso
+Raccogli i dati di prodotto, tuttavia tali dati contengono nascosto caratteri di spazi vuoti che frammentano la segnalazione. Avresti like per tagliare facilmente gli spazi bianchi in eccesso
 
-### Dati prima di {#trim-uc1-databefore}
+### Dati precedenti {#trim-uc1-databefore}
 
 | ID prodotto | Eventi |
 |---|--:|
@@ -1823,7 +1823,7 @@ Si crea un campo derivato `Store Identifier`. Utilizzare la funzione [!UICONTROL
 
 <!-- URL PARSE -->
 
-### Parsing URL
+### Parsing URL {#urlparse}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -1928,7 +1928,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 |---|---|
 | <p>Case When</p> | <ul><li>5 casi Quando funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Classifica</p> | <ul><li>5 Classificare le funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
-| <p>Concatena</p> | <ul><li>2 Concatenare funzioni per campo derivato</li></ul> |
+| <p>Concatena</p> | <ul><li>2 Funzioni di concatenazione per campo derivato</li></ul> |
 | <p>Deduplica</p> | <ul><li>5 Deduplicare le funzioni per campo derivato</li></ul> |
 | <p>Trova e sostituisci</p> | <ul><li>2 Funzioni Trova e sostituisci per campo derivato</li></ul> |
 | <p>Ricerca</p> | <ul><li>5 Funzioni di ricerca per campo derivato</li></ul> |
