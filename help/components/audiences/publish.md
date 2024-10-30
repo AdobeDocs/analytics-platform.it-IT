@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 18%
+source-wordcount: '1886'
+ht-degree: 17%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 18%
 
 
 
-Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+Questo argomento illustra come creare e pubblicare i tipi di pubblico identificati nel Customer Journey Analytics in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/home) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
 
 Leggi questa [panoramica](/help/components/audiences/audiences-overview.md) per acquisire familiarità con il concetto di pubblico di Customer Journey Analytics.
 
@@ -100,7 +100,7 @@ Configura queste impostazioni per definire o aggiornare il pubblico.
 | **[!UICONTROL Name]** | Il nome del pubblico. Ad esempio: `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Tags]** | Qualsiasi tag che desideri assegnare al pubblico per scopi organizzativi. Puoi selezionare uno o più tag preesistenti o immetterne uno nuovo. |
 | **[!UICONTROL Description]** | Una descrizione del pubblico, per distinguerlo dagli altri. Ad esempio: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Refresh frequency]** | La frequenza con cui desideri aggiornare il pubblico.<p/>Puoi scegliere tra <ul><li>Pubblico **[!UICONTROL One time]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, questa opzione potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare **[!UICONTROL One time date range]**. È possibile utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere una delle opzioni seguenti:<ul><li>**[!UICONTROL Every 4 hour]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Daily]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Weekly]**: un pubblico che si aggiorna settimanalmente.</li><li>**[!UICONTROL Monthly]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per aggiornare i tipi di pubblico, devi specificare:<ul><li>**[!UICONTROL Refresh lookback window]** (Autenticazione): Definisci il numero di giorni di lookback a partire da oggi in cui viene valutato un pubblico. Puoi selezionare tra le opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Expiration date]**: definisci quando il pubblico smette di aggiornare. È possibile utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul> Tieni presente che esiste un limite di 75-150 aggiornamenti del pubblico, a seconda della adesione al Customer Journey Analytics.</li></ul> |
+| **[!UICONTROL Refresh frequency]** | La frequenza con cui desideri aggiornare il pubblico.<p/>Puoi scegliere tra <ul><li>Pubblico **[!UICONTROL One time]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, questa opzione potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare **[!UICONTROL One time date range]**. È possibile utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere una delle opzioni seguenti:<ul><li>**[!UICONTROL Every 4 hour]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Daily]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Weekly]**: un pubblico che si aggiorna settimanalmente.</li><li>**[!UICONTROL Monthly]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per aggiornare i tipi di pubblico, devi specificare:<ul><li>**[!UICONTROL Refresh lookback window]**. Definisci il numero di giorni di lookback a partire da oggi in cui viene valutato un pubblico. Puoi selezionare tra le opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Expiration date]**: definisci quando il pubblico smette di aggiornare. È possibile utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul> Tieni presente che esiste un limite di 75-150 aggiornamenti del pubblico, a seconda della adesione al Customer Journey Analytics.</li></ul> |
 | **[!UICONTROL Filter]** | I filtri sono l’input principale per il pubblico. Trascina e rilascia uno o più filtri dal pannello ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filter]** di sinistra nell&#39;area Filtro. Puoi usare ![Cerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca filtri*] per cercare i filtri. Puoi aggiungere fino a 20 filtri. È possibile unire i filtri con **[!UICONTROL And]** o **[!UICONTROL Or]** operatori.<p>Durante la creazione di un pubblico da una visualizzazione in Analysis Workspace (ad esempio, una tabella a forma libera o un’area di lavoro del Percorso), tutti i filtri applicati al pannello o alla colonna vengono mantenuti. Puoi rimuovere tutti i filtri applicati automaticamente.</p> |
 | **[!UICONTROL Data preview]** | Seleziona ![Info](/help/assets/icons/Info.svg) per mostrare o nascondere la [Anteprima dati](#data-preview) per l&#39;intervallo date selezionato. |
 
@@ -126,7 +126,7 @@ Dopo aver creato e pubblicato un pubblico in Customer Journey Analytics, il pubb
 
 * Il pubblico in Platform condivide lo stesso nome e la stessa descrizione del pubblico Customer Journey Analytics. Al nome viene aggiunto l&#39;ID pubblico Customer Journey Analytics per garantire che il pubblico sia univoco.
 * Eventuali modifiche apportate al nome o alla descrizione del pubblico nel Customer Journey Analytics vengono riportate in Experience Platform.
-* Se un pubblico viene eliminato nel Customer Journey Analytics, il pubblico continua a essere disponibile in Experience Platform.
+* Se un pubblico viene eliminato nel Customer Journey Analytics, il pubblico continua a essere disponibile in Experience Platform fino alla scadenza dell’iscrizione al profilo del pubblico. L’iscrizione al profilo scade dopo 420 giorni per i tipi di pubblico una tantum e dopo 16 giorni per i tipi di pubblico ricorrenti.
 
 ## Considerazioni sulla latenza {#latency}
 
