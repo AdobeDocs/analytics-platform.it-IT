@@ -6,51 +6,51 @@ feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
 source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Gestione cartelle
+# Gestire le cartelle
 
-In Workspace è possibile gestire le cartelle in due modi. Dall’interno della cartella o da una o più cartelle selezionate nell’elenco dei progetti. Le cartelle possono essere rinominate, spostate o eliminate.
+In Workspace è possibile gestire le cartelle in due modi. Dall’interno della cartella o da una o più cartelle selezionate nell’elenco dei progetti. La gestione delle cartelle include la possibilità di rinominare, spostare o eliminare le cartelle.
 
 ## Rinominare le cartelle
 
-È possibile rinominare solo le cartelle create, a meno che non si sia un amministratore. Un amministratore può rinominare qualsiasi cartella.
+Puoi rinominare solo le cartelle che hai creato, a meno che tu non sia un amministratore. Un amministratore può rinominare qualsiasi cartella.
 
-Per rinominare le cartelle in Workspace:
+Per rinominare le cartelle in Workspace:
 
-* Selezionare una cartella da rinominare nell&#39;[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+* Seleziona una cartella da rinominare nell’[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Seleziona **[!UICONTROL Rename]** dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu.
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**, immettere un nuovo nome e selezionare **[!UICONTROL Save]**.
+   1. Dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Rename]**.
+   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**, immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
-* Nella cartella che si desidera rinominare.
+* All’interno della cartella che desideri rinominare.
 
-   1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell&#39;area [Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**immettere un nuovo nome e selezionare **[!UICONTROL Save]**.
+   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
 
 ## Spostare le cartelle
 
-È possibile spostare solo le cartelle create, a meno che non si sia un amministratore. L’amministratore può spostare qualsiasi cartella.
+Puoi spostare solo le cartelle che hai creato, a meno che tu non sia un amministratore. E l’amministratore può spostare qualsiasi cartella.
 
-Per spostare le cartelle in Workspace:
+Per spostare le cartelle in Workspace:
 
-* Selezionare una cartella da spostare nell&#39;[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+* Seleziona una cartella da spostare nell’[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Seleziona **[!UICONTROL Move to]** dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu.
+   1. Dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Move to]**.
    1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
 
    1. Seleziona **[!UICONTROL Move]**.
 
 * All’interno della cartella che desideri spostare.
 
-   1. Seleziona **[!UICONTROL Move folder]** da ![Altro](/help/assets/icons/More.svg) nell&#39;area [Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Seleziona **[!UICONTROL Move folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
    1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
 
@@ -59,24 +59,24 @@ Per spostare le cartelle in Workspace:
 
 ## Eliminare le cartelle
 
-È possibile eliminare solo le cartelle create, a meno che non si sia un amministratore. Un amministratore può eliminare qualsiasi cartella.
+Puoi eliminare solo le cartelle che hai creato, a meno che tu non sia un amministratore. Un amministratore può eliminare qualsiasi cartella.
 
 Quando elimini una cartella, si applicano le seguenti linee guida:
 
-* L’eliminazione di una cartella non comporta l’eliminazione del suo contenuto. Il contenuto di una cartella eliminata (progetti o sottocartelle) viene spostato nella cartella principale nella gerarchia.
-* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori devono coordinarsi con gli altri amministratori per mantenere l’accesso coerente a cartelle e progetti.
+* L’eliminazione di una cartella non comporta l’eliminazione del relativo contenuto. Il contenuto di una cartella eliminata (progetti o sottocartelle) viene spostato nella cartella principale nella gerarchia delle cartelle.
+* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori devono coordinarsi con altri amministratori per mantenere la coerenza dell’accesso alle cartelle e ai progetti.
 
-Per eliminare cartelle in Workspace:
+Per eliminare le cartelle in Workspace
 
-* Selezionare una o più cartelle da eliminare nell&#39;[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+* Seleziona una o più cartelle da eliminare nell’[Elenco progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Seleziona **[!UICONTROL Delete]** dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu.
+   1. Dalle [azioni](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Delete]**.
 
    1. Nella finestra di dialogo **[!UICONTROL Are you sure?]**, seleziona **[!UICONTROL OK]** per eliminare le cartelle.
 
-* All’interno della cartella da eliminare.
+* All’interno della cartella che desideri eliminare.
 
-   1. Seleziona **[!UICONTROL Delete folder]** da ![Altro](/help/assets/icons/More.svg) nell&#39;area [Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Seleziona **[!UICONTROL Delete folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella cartella **[!UICONTROL Delete *name *?Finestra di dialogo]**, selezionare **[!UICONTROL OK]**.
+   1. Nella finestra di dialogo per **[!UICONTROL Delete *rinominare *la cartella]**, seleziona **[!UICONTROL OK]**.
 
