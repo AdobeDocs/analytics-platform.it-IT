@@ -8,21 +8,21 @@ role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3355'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
 # Preferenze utente
 
-Puoi gestire le impostazioni o le preferenze utente per Analysis Workspace e i componenti correlati per tutti i nuovi progetti o pannelli creati. I progetti e i pannelli esistenti non sono interessati.
+Puoi gestire le impostazioni o le preferenze dell’utente di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. I progetti e i pannelli esistenti non sono interessati.
 
 ## Aggiornare le preferenze
 
-Puoi aggiornare le tue preferenze nei seguenti modi:
+Puoi aggiornare le preferenze nei seguenti modi:
 
-- Selezionare ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** dall&#39;interfaccia principale di Workspace.
-- Selezionare **[!UICONTROL Project]** > **[!UICONTROL User preferences]** dal menu quando si lavora in un progetto Workspace.
-- Selezionare **[!UICONTROL Components]** > **[!UICONTROL Preferences]** dalla barra superiore principale del Customer Journey Analytics (disponibile solo per gli amministratori di prodotto).
+- Seleziona ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** dall’interfaccia principale di Workspace.
+- Seleziona **[!UICONTROL Project]** > **[!UICONTROL User preferences]** dal menu quando si lavora in un progetto Workspace.
+- Seleziona **[!UICONTROL Components]** > **[!UICONTROL Preferences]** dalla barra superiore principale di Customer Journey Analytics (disponibile solo per gli amministratori di prodotto).
 
 ## Configurare le preferenze
 
@@ -34,9 +34,9 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 
 | Preferenza | Opzioni |
 | --- | --- |
-| **[!UICONTROL Landing page]** | Scegliere la pagina da visualizzare come pagina predefinita quando si accede al Customer Journey Analytics: <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Analisi guidata tendenze vuota</li><li>Progetto specifico, selezionato da un elenco</li></ul> |
+| **[!UICONTROL Landing page]** | Scegli quale pagina visualizzare come pagina predefinita quando accedi a Customer Journey Analytics: <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Analisi guidata delle tendenze vuota</li><li>Progetto specifico, selezionato da un elenco</li></ul> |
 | **[!UICONTROL Tips]** | Visualizza i suggerimenti in una casella blu nell’area in basso a destra di Analysis Workspace. <p>L’opzione è abilitata per impostazione predefinita.</p> |
-| **[!UICONTROL Components displayed in left panel groups]** | Scegliete il numero di ciascun gruppo di componenti da visualizzare nel menu Componenti nel pannello a sinistra. <p>Se scegli 0 per un gruppo di componenti, questo non sarà più accessibile dal pannello a sinistra.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti gruppi di componenti:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, consulta la sezione [Panoramica dei componenti](/help/components/overview.md).</p> |
+| **[!UICONTROL Components displayed in left panel groups]** | Scegli quanti elementi di ciascun gruppo di componenti visualizzare nel menu Componenti nel pannello di sinistra. <p>Se per un gruppo di componenti scegli 0, questo non sarà più accessibile dal pannello di sinistra.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti gruppi di componenti:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, consulta la sezione [Panoramica dei componenti](/help/components/overview.md).</p> |
 
 ### Preferenze organizzazione IMS {#ims-organization-preferences}
 
@@ -44,8 +44,8 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_shareonlyworkspace"
->title="Consenti condivisione solo con gli utenti di Workspace"
->abstract="Quando è abilitata, l&#39;opzione **[!UICONTROL Share with anyone]** non è più disponibile per gli utenti che condividono un progetto Analysis Workspace. Le persone che in precedenza avevano ricevuto l’accesso a un progetto tramite questa opzione di condivisione non possono più accedere al progetto."
+>title="Consenti la condivisione solo con gli utenti di Workspace"
+>abstract="Quando è abilitata, l’opzione **[!UICONTROL Share with anyone]** non è più disponibile per gli utenti che condividono un progetto Analysis Workspace. Le persone che in precedenza avevano ricevuto l’accesso a un progetto tramite questa opzione di condivisione non possono più accedere al progetto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_requireexperiencecloudauth"
->title="Richiedere autenticazione Experience Cloud"
+>title="Richiedere l’autenticazione Experience Cloud"
 >abstract="Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione “Condividi con chiunque” in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud."
 
 <!-- markdownlint-enable MD034 -->
@@ -64,8 +64,8 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
 | **Condivisione dei progetti** | | |
-| | Consenti condivisione solo con gli utenti di Workspace | Quando questa opzione è abilitata, gli utenti dell&#39;organizzazione non possono visualizzare l&#39;opzione **[!UICONTROL Share with anyone]** nel menu **[!UICONTROL Share]**. Ciò significa che gli utenti non possono condividere i progetti con persone che non hanno un account Analysis Workspace nell’organizzazione come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).<br/>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (ovvero gli utenti possono condividere i progetti con persone esterne all&#39;organizzazione) ad eccezione dei clienti con licenza Healthcare Shield. <p>Quando abiliti o disabiliti questa opzione, prendi in considerazione quanto segue:<ul><li>Se si abilita questa opzione, gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non potranno più accedere al progetto.</li><li>Se questa opzione è abilitata (per consentire solo la condivisione con gli utenti di Workspace) e successivamente disabilitata (per consentire la condivisione con chiunque), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL **Il collegamento è attivo**] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]**), come descritto in [Condividere un progetto con qualcuno (non è richiesto l&#39;accesso)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Per i clienti che dispongono di una licenza Healthcare Shield:** questa opzione è attivata per impostazione predefinita e non può essere disattivata. Prima di poter disabilitare questa opzione per consentire agli utenti di utilizzare l&#39;opzione di condivisione [!UICONTROL Share with anyone], è necessario aggiungere l&#39;autorizzazione [!UICONTROL Share project links with anyone] (che si trova in [!UICONTROL Reporting Tools]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettarne l’avviso legale. Per informazioni su come aggiungere un’autorizzazione in Admin Console, consulta [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Richiedere autenticazione Experience Cloud | Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione “Condividi con chiunque” in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l&#39;opzione di condivisione [!UICONTROL Share with anyone], l&#39;opzione [!UICONTROL Require Experience Cloud authentication] viene abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall&#39;utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con altri utenti, vedi [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md). <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando si abilita questa opzione, tutti i progetti precedentemente condivisi con l&#39;opzione di condivisione [!UICONTROL Share with anyone] e per i quali l&#39;opzione [!UICONTROL Require Experience Cloud authentication] non è abilitata vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Share with anyone] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Link is active]*disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l&#39;organizzazione, vedere [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilita creazione automatica account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione concede la licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
+| | Consenti la condivisione solo con gli utenti di Workspace | Quando questa opzione è abilitata, gli utenti dell’organizzazione non possono visualizzare l’opzione **[!UICONTROL Share with anyone]** nel menu **[!UICONTROL Share]**. Ciò significa che gli utenti non possono condividere i progetti con persone che non dispongono di un account Analysis Workspace nell’organizzazione come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).<br/>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (gli utenti possono condividere i progetti con persone esterne all’organizzazione), ad eccezione della clientela che dispone di una licenza Healthcare Shield. <p>Quando abiliti o disabiliti questa opzione, prendi in considerazione quanto segue:<ul><li>Quando abiliti questa opzione, gli utenti che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione [!UICONTROL Share with anyone] non possono più accedere al progetto.</li><li>Se questa opzione è abilitata (per consentire la condivisione solo con gli utenti di Workspace) e viene successivamente disabilitata (per consentire la condivisione con chiunque), le persone che in precedenza hanno ricevuto l’accesso a un progetto tramite l’opzione di condivisione [!UICONTROL Share with anyone] non riottengono automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare l’opzione [!UICONTROL **Il collegamento è attivo**] che è disponibile quando condividi un progetto con chiunque **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]**), come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Per chi dispone di una licenza Healthcare Shield:** questa opzione è attivata per impostazione predefinita e non può essere disattivata. Prima di poter disabilitare questa opzione in modo che gli utenti possano utilizzare l’opzione di condivisione [!UICONTROL Share with anyone], devi aggiungere l’autorizzazione [!UICONTROL Share project links with anyone] (che si trova in [!UICONTROL Reporting Tools]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettarne l’avviso legale. Per informazioni su come aggiungere un’autorizzazione in Admin Console, consulta [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
+| | Richiedere l’autenticazione Experience Cloud | Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione “Condividi con chiunque” in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l’opzione di condivisione [!UICONTROL Share with anyone], l’opzione [!UICONTROL Require Experience Cloud authentication] è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall’utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con chiunque, consulta [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).) <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando abiliti questa opzione, tutti i progetti precedentemente condivisi con l’opzione di condivisione [!UICONTROL Share with anyone] e per i quali non è abilitata l’opzione [!UICONTROL Require Experience Cloud authentication] vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l’autenticazione Experience Cloud) e viene successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), le persone che in precedenza hanno ricevuto l’accesso a un progetto tramite l’opzione di condivisione [!UICONTROL Share with anyone] non riottengono automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare l’opzione [!UICONTROL Link is active]* che è disponibile quando condividi un progetto con chiunque **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l’organizzazione, consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilitare la creazione automatica dell’account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione concede la licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -76,7 +76,7 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_categoricalpalette"
->title="Palette per categorie"
+>title="Palette categorica"
 >abstract="Applicata a molte visualizzazioni in Analysis Workspace e nell’analisi guidata. Ogni colore rappresenta un valore di categoria distinto."
 
 <!-- markdownlint-enable MD034 -->
@@ -107,13 +107,13 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
 | **Visualizzazione** | | |
-|  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Scegli la quantità di contenuto da visualizzare sullo schermo riducendo la spaziatura verticale del pannello sinistro, delle tabelle a forma libera e delle tabelle a coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
+|  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale del pannello di sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
 | | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli le palette di colori di visualizzazione utilizzate in Analysis Workspace e nell’analisi guidata. <ul><li> Palette per categorie: applicata a molte visualizzazioni in Analysis Workspace e nell’analisi guidata. Ogni colore rappresenta un valore di categoria distinto. Scegli tra le opzioni fornite da Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li> Palette divergente: applicata alla tabella coorte in Analysis Workspace e nell’analisi guidata della crescita degli utenti. Questa palette contiene un significato numerico con due estremi e una linea di base al centro.<li> Palette sequenziale: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro.</li></ul> |
 | **Dati** | | |
-|  | [Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#report-suite) | Scegli i dati da cui derivano i dati di tabelle e visualizzazioni. <ul><li>Più recente (impostazione predefinita)</li><li>Visualizzazione dati specifica selezionata da un elenco</li></ul> |
-|  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>È possibile abilitare [!UICONTROL Make date range components relative to panel calendar by default].</li></ul> |
+|  | [Visualizzazione dati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#report-suite) | Scegli i dati da cui le tabelle e le visualizzazioni ricavano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Visualizzazione dati specifica selezionata da un elenco</li></ul> |
+|  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Puoi abilitare [!UICONTROL Make date range components relative to panel calendar by default].</li></ul> |
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
-|  | Conteggio istanze | Abilita [!UICONTROL Count repeat instances] per specificare se le istanze ripetute vengono conteggiate nei rapporti. Ad esempio, se questa opzione è abilitata, più visualizzazioni consecutive della stessa pagina vengono considerate come visualizzazioni di più pagine. Se l’opzione è disattivata, più visualizzazioni consecutive della stessa pagina vengono conteggiate come una singola pagina. <p>**Nota:** questa impostazione influisce solo su determinate metriche (ad esempio Sessioni) e non si applica alle visualizzazioni Flusso o Abbandono.</p> |
+|  | Conteggio istanze | Abilita [!UICONTROL Count repeat instances] per specificare se le istanze ripetute sono conteggiate nei rapporti. Ad esempio, se questa opzione è abilitata, più visualizzazioni consecutive della stessa pagina vengono trattate come visualizzazioni di più pagine. Se questa opzione è disabilitata, più visualizzazioni consecutive della stessa pagina vengono conteggiate come una singola pagina. <p>**Nota:** questa impostazione influisce solo su determinate metriche (ad esempio Sessioni) e non si applica alle visualizzazioni Flusso o Fallout.</p> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
 |  | Mostra annotazioni | Scegli se rendere visibili le annotazioni nei progetti. Per ulteriori informazioni sulle annotazioni, consulta la sezione [Panoramica delle annotazioni](/help/components/annotations/overview.md). |
@@ -126,7 +126,7 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_showanomalies"
 >title="Mostra anomalie"
->abstract="Selezionando **[!UICONTROL Show anomalies]** verrà automaticamente eseguito il rilevamento delle anomalie sulla prima colonna di metriche aggiunta a una visualizzazione a forma libera della serie temporale."
+>abstract="Selezionando **[!UICONTROL Show anomalies]** verrà automaticamente eseguito il rilevamento delle anomalie sulla prima colonna di metriche aggiunta a una visualizzazione Tabella a forma libera di una serie temporale."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -135,7 +135,7 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_showforecast"
 >title="Mostra previsione"
->abstract="Se selezioni **[!UICONTROL Show forecast]**, verrà automaticamente prevista la prima colonna di metriche aggiunta a una visualizzazione a forma libera della serie temporale."
+>abstract="Selezionando **[!UICONTROL Show forecast]** verrà automaticamente eseguita la previsione sulla prima colonna di metriche aggiunta a una visualizzazione Tabella a forma libera di una serie temporale."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -144,7 +144,7 @@ Puoi personalizzare le preferenze delle tabelle a forma libera per tutti i nuovi
 
 Alcune di queste preferenze possono essere personalizzate anche per singole tabelle.
 
-Seleziona i titoli delle sezioni collegate per ulteriori informazioni e contesto sulle preferenze disponibili.
+Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto sulle preferenze disponibili.
 
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
@@ -176,7 +176,7 @@ Puoi aggiornare le preferenze di visualizzazione per tutti i nuovi progetti crea
 
 Alcune di queste preferenze possono essere personalizzate anche per le singole visualizzazioni.
 
-Seleziona i titoli delle sezioni collegate per ulteriori informazioni e contesto sulle preferenze disponibili.
+Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto sulle preferenze disponibili.
 
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
@@ -187,7 +187,7 @@ Seleziona i titoli delle sezioni collegate per ulteriori informazioni e contesto
 | | Visualizza asse doppio (se applicabile) | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | | Normalizzazione (se applicabile) | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | | Ancoraggio asse Y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
-| | Ancoraggio delle anomalie in scala sull&#39;asse Y | L’asse y verrà ridimensionato utilizzando valori di anomalia. |
+| | Consenti alle anomalie di ridimensionare l’asse Y | L’asse y verrà ridimensionato utilizzando valori di anomalia. |
 | **[Linee](/help/analysis-workspace/visualizations/line.md)** | | |
 | | Percentuali | Visualizza i valori in percentuale per le visualizzazioni delle linee. |
 | | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliata per la visualizzazione delle linee. |
@@ -257,11 +257,11 @@ Puoi ripristinare tutte le preferenze utente alle impostazioni predefinite del s
 
 Questa azione non può essere annullata.
 
-1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] **>** [!UICONTROL **Preferenze**] dal menu principale. In alternativa, selezionare **[!UICONTROL Project]** > **[!UICONTROL User settings]** dal menu Workspace.
+1. In Customer Journey Analytics, seleziona [!UICONTROL **Componenti**] **>** [!UICONTROL **Preferenze**] dal menu principale. In alternativa, seleziona **[!UICONTROL Project]** > **[!UICONTROL User settings]** dal menu Workspace.
 
-1. In alto a destra, seleziona **[!UICONTROL Restore defaults]** (Ripristina impostazioni predefinite).
+1. In alto a destra, seleziona **[!UICONTROL Restore defaults]**.
 
-1. Seleziona **[!UICONTROL Restore defaults]** in **[!UICONTROL Restore system default settings]**, .
+1. Seleziona **[!UICONTROL Restore defaults]** in **[!UICONTROL Restore system default settings]**.
 
 ## [!UICONTROL Dark theme]
 
@@ -271,5 +271,5 @@ Se preferisci uno sfondo scuro per l’interfaccia utente di Customer Journey An
 
    ![tema scuro](assets/dark-theme.png)
 
-1. Abilita **[!UICONTROL Dark theme]**..
+1. Abilita **[!UICONTROL Dark theme]**.
 

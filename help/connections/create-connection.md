@@ -28,7 +28,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="Record ignorati"
->abstract="Il numero di record (righe) ignorati durante il trasferimento di dati per una connessione nell’intervallo di tempo selezionato per i set di dati selezionati."
+>abstract="Il numero di record (righe) ignorati durante il trasferimento di dati per una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="Record eliminati"
->abstract="Il numero di record (righe) rimossi da una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati"
+>abstract="Il numero di record (righe) rimossi da una connessione durante l’intervallo di tempo selezionato per i set di dati selezionati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_lastadded"
->title="Ultimo aggiunto"
+>title="Ultima aggiunta"
 >abstract="La marca temporale dell’ultimo batch da qualsiasi set di dati trasferito a una connessione."
 
 <!-- markdownlint-enable MD034 -->
@@ -54,8 +54,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
->title="Abilita dati a finestra scorrevole"
->abstract="Definisci la conservazione dei dati come finestra scorrevole in mesi a livello di connessione."
+>title="Abilita finestra di dati continua"
+>abstract="Definisci la conservazione dei dati come finestra continua in mesi a livello di connessione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -210,8 +210,8 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
->title="Importare nuovi dati"
->abstract="Eventuali nuovi batch aggiunti al set di dati di Experience Platform verranno aggiunti automaticamente a questa connessione e resi disponibili per l’analisi."
+>title="Importa nuovi dati"
+>abstract="Eventuali nuovi batch aggiunti al set di dati in Experience Platform verranno aggiunti automaticamente a questa connessione e resi disponibili per l’analisi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -229,7 +229,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="Trasforma set di dati"
->abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivata, la trasformazione del set di dati è irreversibile."
+>abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivata questa opzione, la trasformazione del set di dati è irreversibile."
 
 <!-- markdownlint-enable MD034 -->
 

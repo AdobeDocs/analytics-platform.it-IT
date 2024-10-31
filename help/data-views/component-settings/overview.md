@@ -1,5 +1,5 @@
 ---
-title: Impostazioni del componente
+title: Impostazioni dei componenti
 description: Visualizzare le impostazioni di base di un componente vista dati.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
@@ -8,18 +8,18 @@ role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
-# Impostazioni del componente {#component-settings}
+# Impostazioni dei componenti {#component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_settings"
->title="Impostazioni del componente"
->abstract="Visualizza e configura il nome, la descrizione e altre impostazioni relative a un componente.<br/><br/>**Parametri **<br/>**Nascondi componente nel reporting**: selezionando questa casella, questo componente verrà nascosto agli utenti non amministratori nel reporting. Gli amministratori possono comunque accedervi selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
+>title="Impostazioni dei componenti"
+>abstract="Visualizza e configura il nome, la descrizione e altre impostazioni correlate a un componente.<br/><br/>**Parametri **<br/>**Nascondi componente nella generazione di rapporti**: selezionando questa casella, questo componente verrà nascosto agli utenti non amministratori nella generazione di rapporti. Gli amministratori possono comunque accedervi selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
