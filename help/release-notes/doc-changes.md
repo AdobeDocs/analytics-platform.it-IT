@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
+source-git-commit: 8ff3a1c874a0eb67e4b7a6edda6156c4d07edc9f
 workflow-type: tm+mt
-source-wordcount: '4118'
-ht-degree: 62%
+source-wordcount: '4153'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2024** | |
-| Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/technotes/optimizing-performance.md#request-factors) nell&#39;articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/technotes/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
+| Dispositivi condivisi | È stato aggiunto un articolo su un caso d’uso che fornisce contesto sui dispositivi condivisi, come gestire e mitigare i dati dai dispositivi condivisi utilizzando l’unione e comprendere l’esposizione dei dispositivi condivisi nei dati utilizzando Query Service. |
+| Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/technotes/optimizing-performance.md#request-factors) nell’articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/technotes/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
 | Workspace e componenti | È stata aggiornata la documentazione su progetti (progetti, visualizzazioni e pannelli) e componenti di Analysis Workspace (annotazioni, dimensioni, metriche (calcolate), filtri, intervalli di date, avvisi, progetti pianificati e tipi di pubblico). |
 | Analisi guidata | È stata aggiornata la documentazione con la disponibilità di [Analisi guidata](/help/guided-analysis/overview.md) da Analysis Workspace. |
 | **Settembre 2024** | |
@@ -42,8 +43,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Trasformare i set di dati per le ricerche B2B | È stata aggiunta la documentazione su come supportare [ricerche basate su persone sui dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne) utilizzando la trasformazione dei set di dati di ricerca B2B. |
 | Funzioni di campo derivate e modelli di funzione | È stata aggiunta la documentazione sulle funzioni aggiuntive dei campi derivati ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successiva o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous) e [Riepiloga](/help/data-views/derived-fields/derived-fields.md#summarize)) e sui [modelli di funzione](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Maggio 2024** | |
-| Integrazione di Target | È stato aggiunto [un articolo alla sezione sull&#39;integrazione di Adobe](/help/integrations/at.md) su come integrare Target con Customer Journey Analytics. |
-| Informazioni richieste per l’esportazione di rapporti sul Customer Journey Analytics in Google Cloud Platform quando si utilizzano vincoli di criteri organizzativi | Alla documentazione [Configura i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md) per l&#39;esportazione dei report di Customer Journey Analytics in Google Cloud Platform, è stato aggiunto l&#39;ID organizzazione di Google Cloud Platform di proprietà dell&#39;Adobe. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
+| Integrazione di Target | È stato aggiunto [un articolo alla sezione di integrazione di Adobe](/help/integrations/at.md) su come integrare Target con Customer Journey Analytics. |
+| Informazioni richieste per l’esportazione di rapporti sul Customer Journey Analytics in Google Cloud Platform quando si utilizzano vincoli di criteri organizzativi | È stato aggiunto l&#39;ID organizzazione di Google Cloud Platform di proprietà di Adobe alla documentazione [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md) per esportare i rapporti di Customer Journey Analytics in Google Cloud Platform. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
 | Documentazione su come aggiungere componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/components/use-components-in-workspace.md). |
 | Casi d’uso per l’esportazione di dati | Set di nuovi articoli che descrivono [casi di utilizzo per l&#39;esportazione dei dati](/help/use-cases/data-export/overview.md) e come utilizzare le funzionalità di Experience Platform e Customer Journey Analytics per implementare questi casi di utilizzo |
 | Nuova documentazione per l’aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni e molte considerazioni da tenere a mente, a seconda dell’implementazione Adobe Analytics corrente e degli obiettivi a lungo termine dell’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente dell’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |

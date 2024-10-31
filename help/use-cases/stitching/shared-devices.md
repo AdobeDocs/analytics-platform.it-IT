@@ -3,13 +3,11 @@ title: Dispositivi condivisi
 description: Spiegazione di come gestire i dispositivi condivisi utilizzando l’unione e altre tecniche.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
+source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '659'
 ht-degree: 3%
 
 ---
@@ -67,7 +65,7 @@ Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti v
 
 ### Device-split
 
-L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente nelle immediate vicinanze dell’attività anonima. La suddivisione dei dispositivi è l’approccio preferito per i casi di utilizzo analitici, in quanto attribuisce il merito per l’attività non autenticata e autenticata alla persona nota più vicina. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
+L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente nelle immediate vicinanze dell’attività anonima. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
 
 Quando nell’unione viene utilizzata l’attribuzione device-split, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
