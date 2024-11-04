@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: ab8a4c65de59e725d7d181ee699d7a196988bf98
+source-git-commit: 7f5eddcf1ceaa6228411867f5794bfe72b2ad6ab
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 4%
+source-wordcount: '1528'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 L’Assistente all’intelligenza artificiale di Data Analysis è un agente di conversazione intelligente e sensibile al contesto che può aiutarti a rispondere in modo più rapido ed efficiente alle domande che potresti avere sui tuoi dati di Analysis Workspace nel Customer Journey Analytics.
 
-L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i diversi tipi di metriche e componenti, e traduce il prompt nella dimensione, nella metrica e nell’intervallo di date corretti per questa analisi. Invece di dover acquisire familiarità con i componenti della visualizzazione dati e quindi trascinare e rilasciare tali componenti nella combinazione migliore per rispondere alla domanda, puoi semplicemente digitare la domanda nell’Assistente AI.
+L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i diversi tipi di metriche e componenti, e traduce il prompt nella dimensione, nella metrica e nell’intervallo di date corretti per l’analisi. Invece di dover acquisire familiarità con i componenti della visualizzazione dati e quindi trascinare e rilasciare tali componenti nella combinazione migliore per rispondere alla domanda, puoi semplicemente digitare la domanda nell’Assistente AI.
 
 ## Funzionalità interne ed esterne all&#39;ambito per la versione di Alpha
 
-### Funzioni nell&#39;ambito
+### Funzioni di Alpha nell’ambito
 
 | Funzionalità supportata | Descrizione |
 | --- | --- |
@@ -29,10 +29,10 @@ L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i dive
 | **Tipi di visualizzazione supportati** | <ul><li>A linee</li><li>Multiriga</li><li>A forma libera</li><li>Barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> |
 | **Rilevamento prompt fuori ambito** | Se si invia una richiesta che non rientra nell&#39;ambito, ad esempio &quot;esporta questo progetto&quot;, l&#39;Assistente risponde informando che la domanda non rientra nell&#39;ambito. |
 | **Domande chiarificatrici** | Se poni una domanda che non ha abbastanza contesto per cui l’Assistente IA deve rispondere o è troppo generica, l’Assistente IA risponde con una domanda chiarificatrice e/o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Su quale delle seguenti &quot;aree&quot; desideri concentrarti?*</li><li>Filtro: *Quale filtro &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? (ad esempio #5274 store, #2949 store, ecc.) |
-| **Turno multiplo** | L’Assistente AI risponde a un prompt con il contesto dei prompt precedenti, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up. Esempio: *Visualizza i dati da marzo ad aprile.* |
+| **Turno multiplo** | L’Assistente AI risponde a un prompt con il contesto dei prompt precedenti, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up.Esempio: <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> |
 | **Feedback** | <ul><li>Miniature in alto</li><li>Miniature giù</li><li>Contrassegno</li></ul> |
 
-### Funzioni fuori ambito
+### Funzioni di Alpha fuori ambito
 
 | Funzione non supportata | Descrizione |
 | --- | --- |
@@ -69,25 +69,29 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ## Accedere e utilizzare l’Assistente di Data Analysis AI
 
-1. Vai a questo collegamento per aprire Workspace nell’organizzazione IMS di Labs (in fase) e accedi con il tuo Adobe ID.
+1. Vai a [experience.adobe.com](https://experience.adobe.com/) e accedi con il tuo Adobe ID.
 
-1. Fai clic su **[!UICONTROL Blank project]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
+2. Seleziona **Customer Journey Analytics** dalla Home Experience Cloud
 
-1. Fai clic sull’icona della chat dell’Assistente AI in alto a destra.
+3. Fai clic su **[!UICONTROL Blank project]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
+
+4. Assicurati che la visualizzazione dati selezionata per il pannello sia quella abilitata per l’uso dell’Assistente AI per i test di Alpha (contatta taylorb@adobe.com o nel canale Slack di Alpha, in caso di dubbi).
+
+5. Fai clic sull’icona della chat dell’Assistente AI in alto a destra.
 
    ![Icona Assistente IA](/help/assets/ai-asst-icon.png)
 
-1. Nella finestra di dialogo **[!UICONTROL Ask about Customer Journey Analytics]** in basso, fai una domanda di analisi dei dati nell&#39;Assistente AI.
+6. Nella finestra di dialogo **[!UICONTROL Ask about Customer Journey Analytics]** in basso, fai una domanda di analisi dei dati nell&#39;Assistente AI.
 
 ### Esempio 1
 
 Ad esempio, supponiamo che tu sia interessato agli ordini ricevuti dalla tua azienda in luglio.
 
-1. Inserire &quot;Mostra ordini in luglio&quot;.
+1. Immetti *&quot;Trend ordini in luglio.&quot;*
 
    ![prompt IA](/help/assets/ai-asst-prompt1.png)
 
-1. L’Assistente AI ora raccoglie informazioni approfondite esaminando i dati nella visualizzazione dati, incluse le metriche e i componenti. Traduce il prompt nelle dimensioni, nelle metriche e nell’intervallo di dati corretti.
+2. L’Assistente AI ora raccoglie informazioni approfondite esaminando i dati nella visualizzazione dati, incluse le metriche e i componenti. Traduce il prompt nelle dimensioni, nelle metriche e nell’intervallo di dati corretti.
 
    Come puoi vedere, ha generato automaticamente un grafico a linee e una tabella a forma libera che mostra gli ordini per luglio.
 
@@ -97,9 +101,9 @@ Ad esempio, supponiamo che tu sia interessato agli ordini ricevuti dalla tua azi
 
 Ora vuoi vedere come si confrontano i ricavi per regione.
 
-1. Nella finestra del prompt, inserire &quot;Mostra ricavi per regione&quot;.
+1. Nella finestra del prompt, immettere *&quot;Mostra ricavi per area.&quot;*
 
-2. L’intelligenza artificiale è sufficientemente intelligente da comprendere che per &quot;regione&quot; si intende &quot;regione del cliente&quot;. Produce un grafico a barre che mostra al meglio i ricavi per area:
+2. L’Assistente AI capisce in modo intelligente che per &quot;area&quot; si intende &quot;area del cliente&quot;. Produce un grafico a barre che mostra al meglio i ricavi per area:
 
    ![Grafico a barre](/help/assets/ai-asst-result2.png)
 
@@ -107,7 +111,7 @@ Ora vuoi vedere come si confrontano i ricavi per regione.
 
 Ora vediamo i ricavi per categoria di prodotto.
 
-1. Nella finestra del prompt, inserire &quot;Mostra ricavi per categoria di prodotto&quot;.
+1. Nella finestra del prompt, immettere *&quot;Proporzione di ricavi per categoria di prodotto&quot;.*
 
 2. Anche in questo caso, l&#39;Assistente di IA per l&#39;analisi dei dati sceglie la visualizzazione più appropriata, in questo caso la visualizzazione **[!UICONTROL Donut]**, per rispondere alla domanda.
 
@@ -117,9 +121,9 @@ Ora vediamo i ricavi per categoria di prodotto.
 
 Infine, è importante sapere quale SKU è la più redditizia e dove investire le risorse di marketing.
 
-1. Nella finestra del prompt, chiedi &quot;Qual è il profitto tra SKU da febbraio a maggio&quot;.
+1. Nella finestra del prompt, chiedere a *&quot;Qual è il profitto tra SKU da febbraio a maggio.&quot;*
 
-1. Un semplice grafico **[!UICONTROL Bar]** fornisce la risposta più concisa:
+2. Un semplice grafico **[!UICONTROL Bar]** fornisce la risposta più concisa:
 
    ![Grafico a barre](/help/assets/ai-asst-result4.png)
 
@@ -144,23 +148,31 @@ Di seguito sono riportati alcuni esempi di prompt comuni e di quale visualizzazi
 
 ## Best practice per la richiesta di informazioni
 
-Da definire
+L’Assistente AI elabora il contesto fornito da ogni prompt utente e tenta di rispondere in modo intelligente con la visualizzazione più appropriata e con i componenti di una tabella a forma libera. Tuttavia, la risposta dell’Assistente AI può variare in base alle parole e alle frasi specifiche utilizzate in un prompt, pertanto lievi modifiche nella lingua possono portare a risultati diversi. Ecco come trarne il massimo vantaggio: <ul><li>Sii specifico: includi termini esatti (come &quot;vendite del mese scorso in California&quot;) per limitare la risposta.</li><li>Utilizzare metriche e filtri chiari: l’aggiunta di metriche specifiche (come &quot;Ricavi&quot;), dimensioni (ad esempio &quot;nome sito web&quot;), filtri (ad esempio &quot;utenti iPhone&quot;) e intervalli di date (come &quot;ultimi tre mesi&quot;) consente all’Assistente AI di concentrarsi sui dati giusti.</li><li>Domande dirette: formulare domande direttamente, come &quot;Qual è il reddito medio per categoria di prodotto quest&#39;anno?&quot; consente all’Assistente AI di fornire informazioni chiare e pertinenti.</li></ul>
+
+Consulta la seguente tabella di termini e frasi di esempio da utilizzare nei prompt con l’Assistente di IA per l’analisi dei dati in CJA, insieme ai tipi di risposte che è possibile aspettarsi. Questi esempi sono progettati per aiutarti a comprendere in che modo parole o strutture specifiche possono influenzare l’output dell’Assistente AI, garantendo informazioni più precise e preziose. Tieni presente che l’Assistente AI utilizza l’intelligenza artificiale generativa, pertanto le visualizzazioni o i dati selezionati possono variare leggermente in base a prompt simili.
+
+| Risultato desiderato | Termini e frasi di esempio |
+| --- | --- |
+| Visualizzazione Numero di riepilogo | <ul><li>Totale</li></ul> |
+| Confronta componenti | <ul><li>Confronta</li><li>VS</li><li>Contrasto</li><li>Settimana per settimana</li><li>Su base mensile</li><li>Trimestre su trimestre</li><li>Anno su Anno</li></ul> |
+| Visualizzazione ad anello | <ul><li>Proporzione</li><li>Quota di</li><li>Distribuzione</li><li>Percento</li><li>Contributo</li><li>Porzione</li><li>Parti</li></ul> |
+| Visualizzazione a linee | <ul><li>Tendenza</li><li>[Metrica] in [Intervallo di tempo]</li></ul> |
+| Visualizzazione a barre | <ul><li>[Metrica] per [dimensione]</li></ul> |
 
 ## Alpha di aspettative relative ai test e feedback richiesto
 
-Dopo aver posto ciascuna domanda, rivedi attentamente la risposta fornita dall’assistente. È fondamentale valutare in modo completo le visualizzazioni generate prima di fornire un feedback.
+Dopo aver posto ciascuna domanda, rivedi attentamente la risposta fornita dall’assistente. È fondamentale valutare in modo completo le visualizzazioni generate prima di fornire un feedback. Quando valuti la risposta dall’Assistente AI, considera quanto segue:
 
-Valuta la risposta: la risposta è corretta?
+* Risposta o modello della barra di chat: valuta la risposta testuale fornita dall’Assistente. La risposta è appropriata dato il contesto dei prompt?
 
-Se l’Assistente risponde nella barra di chat: valuta la risposta testuale.
+* Visualizzazione/grafico: valuta la visualizzazione. È la visualizzazione appropriata/prevista per la domanda o ti saresti aspettato una visualizzazione diversa?
 
-* Se viene visualizzata una visualizzazione o un grafico: valuta la visualizzazione. È la visualizzazione appropriata/prevista per la domanda?
+* Tabella a forma libera: valuta la tabella a forma libera. I dati della tabella a forma libera sono corretti? I dati vengono suddivisi dove richiesto? I filtri applicati sono quelli richiesti o previsti?
 
-* Se viene visualizzata una tabella a forma libera: Valuta la tabella a forma libera. I dati della tabella a forma libera sono corretti? I dati vengono suddivisi dove richiesto? I filtri applicati sono quelli richiesti o previsti?
+* Messaggio di errore/Fuori ambito: se viene visualizzato un messaggio di errore generico che indica che la domanda non rientra nell’ambito, indica se ritieni che il messaggio fuori ambito sia appropriato, tenuto conto del prompt. Il prompt è stato effettivamente incluso nell&#39;ambito?
 
-* Se viene visualizzato un messaggio di errore generico che indica che la domanda non rientra nell’ambito, indica se ritieni che il messaggio non compreso nell’ambito sia appropriato, alla luce del tuo messaggio. Il prompt è stato effettivamente incluso nell&#39;ambito?
-
-Per ogni risposta, dai un pollice in alto o un pollice in basso, in base alla risposta
+**Per ogni risposta, immetti un pollice in alto o un pollice in basso, in base alla risposta**
 
 Dopo aver selezionato i pollici verso l&#39;alto o verso il basso, effettuare una selezione per le relative caselle di feedback a selezione multipla. Se si desidera fornire un feedback aggiuntivo, aggiungere note nella casella di testo aperta.
 
