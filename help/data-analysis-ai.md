@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 37be5b159b756db2c8b523db6602f274541e2a81
+source-git-commit: 376ad62c3883eef675f9b1df639e8c46ee259229
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1587'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Assistente di IA per l’analisi dei dati nel Customer Journey Analytics - Alpha
 
-L’Assistente all’intelligenza artificiale di Data Analysis è un agente di conversazione intelligente e sensibile al contesto che può aiutarti a rispondere in modo più rapido ed efficiente alle domande che potresti avere sui tuoi dati di Analysis Workspace nel Customer Journey Analytics.
+L’Assistente di IA per l’analisi dei dati è un agente di conversazione di IA generativa che può aiutarti a rispondere in modo più rapido ed efficiente alle domande che potresti avere sui tuoi dati di Analysis Workspace nel Customer Journey Analytics.
 
-L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i diversi tipi di metriche e componenti, e traduce il prompt nella dimensione, nella metrica e nell’intervallo di date corretti per l’analisi. Invece di dover acquisire familiarità con i componenti della visualizzazione dati e quindi trascinare e rilasciare tali componenti nella combinazione migliore per rispondere alla domanda, puoi semplicemente digitare la domanda nell’Assistente AI.
+Quando fai una domanda in AI Assistant, quest’ultimo analizza tutti i componenti della visualizzazione dati, compresi i diversi tipi di metriche e componenti, e traduce il messaggio nella dimensione, nella metrica e nell’intervallo di date corretti per l’analisi. Invece di dover acquisire familiarità con i componenti della visualizzazione dati e quindi trascinare e rilasciare tali componenti nella combinazione migliore per rispondere alla domanda, puoi semplicemente digitare la domanda nell’Assistente AI.
 
 ![Assistente di IA per l&#39;analisi dei dati](assets/cja-ai-asst-da.gif)
 
@@ -32,6 +32,7 @@ L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i dive
 | **Rilevamento prompt fuori ambito** | Se si invia una richiesta che non rientra nell&#39;ambito, ad esempio &quot;esporta questo progetto&quot;, l&#39;Assistente risponde informando che la domanda non rientra nell&#39;ambito. |
 | **Domande chiarificatrici** | Se poni una domanda che non ha abbastanza contesto per cui l’Assistente IA deve rispondere o è troppo generica, l’Assistente IA risponde con una domanda chiarificatrice e/o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Su quale delle seguenti &quot;aree&quot; desideri concentrarti?*</li><li>Filtro: *Quale filtro &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? (ad esempio #5274 store, #2949 store, ecc.) |
 | **Turno multiplo** | L’Assistente AI risponde a un prompt con il contesto dei prompt precedenti, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up.Esempio: <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> |
+| **Verificabilità** | La verificabilità e la correttezza dei dati possono essere confermate tramite la tabella a forma libera generata e la visualizzazione dei dati. Ad esempio, se un utente chiede *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;mese scorso&quot;) siano stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati. |
 | **Feedback** | <ul><li>Miniature in alto</li><li>Miniature giù</li><li>Contrassegno</li></ul> |
 
 ### Funzioni di Alpha fuori ambito
@@ -42,7 +43,6 @@ L’Assistente esamina tutti i dati di una visualizzazione dati, compresi i dive
 | **Domande chiarificatrici** | Le domande più chiare sono limitate ai componenti e agli elementi dimensionali. L’Assistente AI non è in grado di chiarire visualizzazioni, granularità, confronto, ambito di dati e così via. Senza chiarire le domande, l’Assistente utilizza per impostazione predefinita ciò che probabilmente stai chiedendo. Se restituisce una visualizzazione o una granularità dei dati impreviste, puoi utilizzare la funzionalità multi-turn/update per regolare la visualizzazione e i dati. |
 | **Azioni/funzionalità Workspace** | L’Assistente AI non può intraprendere azioni per un utente in Workspace a parte la creazione e l’aggiornamento delle visualizzazioni. Ad esempio, non può effettuare le seguenti operazioni:<ul><li>Pulsanti dell’interfaccia utente per le azioni contestuali (aggiungi al grafico, nuovo pannello, nuova tabella)</li><li>Condividi</li><li>Esportazione</li><li>Scaricare</li><li>Gestire le preferenze utente</li><li>Cura</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li></ul> |
 | **Tipi di visualizzazione non supportati** | <ul><li>Flusso</li><li>Fallout (abbandono)</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Bullet</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li></ul> |
-| **Spiegabilità e verificabilità** | Descrizione o citazione trasparente del modo in cui l’Assistente AI ha generato una risposta e in cui è possibile verificare che la risposta sia corretta. |
 
 <!---## Feature access in the Customer Journey Analytics UI
 
@@ -77,7 +77,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. Fai clic su **[!UICONTROL Blank project]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
 
-4. Assicurati che la visualizzazione dati selezionata per il pannello sia quella abilitata per l’uso dell’Assistente AI per i test di Alpha (contatta taylorb@adobe.com o nel canale Slack di Alpha, in caso di dubbi).
+4. Assicurati che la visualizzazione dati selezionata per il pannello sia quella abilitata per l’utilizzo dell’Assistente AI per i test di Alpha (in caso di dubbi, contatta l’utente nel canale Slack di Alpha)
 
 5. Fai clic sull’icona della chat dell’Assistente AI in alto a destra.
 
@@ -111,23 +111,23 @@ Ora vuoi vedere come si confrontano i ricavi per regione.
 
 ### Esempio 3
 
-Ora vediamo i ricavi per categoria di prodotto.
+Quindi, oltre a comprendere i ricavi per regione, è necessario visualizzare anche i dati relativi ai profitti per regione. Invece di dover ridigitare l’ultimo prompt, puoi chiedere all’Assistente IA di aggiornare la visualizzazione e la tabella a forma libera più recenti.
+
+1. Nella finestra del prompt, digitare *&quot;Aggiungi profitto.&quot;*
+
+2. Il grafico **[!UICONTROL Bar]** fornisce ancora la risposta più concisa, ma la metrica di profitto è stata aggiunta come colonna nella tabella a forma libera:
+
+   ![Grafico a barre](/help/assets/ai-asst-result4.png)
+
+### Esempio 4
+
+Infine, vediamo i ricavi per categoria di prodotto.
 
 1. Nella finestra del prompt, immettere *&quot;Proporzione di ricavi per categoria di prodotto&quot;.*
 
 2. Anche in questo caso, l&#39;Assistente di IA per l&#39;analisi dei dati sceglie la visualizzazione più appropriata, in questo caso la visualizzazione **[!UICONTROL Donut]**, per rispondere alla domanda.
 
    ![Anello](/help/assets/ai-asst-result3.png)
-
-### Esempio 4
-
-Infine, è importante sapere quale SKU è la più redditizia e dove investire le risorse di marketing.
-
-1. Nella finestra del prompt, chiedere a *&quot;Qual è il profitto tra SKU da febbraio a maggio.&quot;*
-
-2. Un semplice grafico **[!UICONTROL Bar]** fornisce la risposta più concisa:
-
-   ![Grafico a barre](/help/assets/ai-asst-result4.png)
 
 ## Esempio di prompt di analisi dei dati
 
@@ -180,7 +180,6 @@ Dopo aver selezionato i pollici verso l&#39;alto o verso il basso, effettuare un
 
 ## Domande e contatti
 
-* E-mail `taylorb@adobe.com` (PM)
 * Invia domande e feedback nel canale Slack di Alpha: #aep-cja-ai-assistant-testers ???
 
 
