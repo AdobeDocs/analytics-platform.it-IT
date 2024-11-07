@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 64662195842ae799d2020c226ca34293905d13ae
+source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 88%
+source-wordcount: '1003'
+ht-degree: 87%
 
 ---
 
@@ -47,6 +47,9 @@ ht-degree: 88%
       + [Inviare i dati a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservare i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Processo consigliato](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [Implementazione di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+      + [Creare set di dati di ricerca per le classificazioni](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [Utilizza i tag per eseguire l’aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
       + [Architettura dello schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Creare lo schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [Usa lo schema esistente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
@@ -56,7 +59,7 @@ ht-degree: 88%
       + [Creare una connessione](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Creare una visualizzazione dati](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Convalidare il flusso di dati](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [Upgrade shortcut: Migrate to Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [Collegamento per l’aggiornamento: migrazione a Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
       + [Utilizzare i dati di Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)

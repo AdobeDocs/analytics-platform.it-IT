@@ -8,12 +8,12 @@ hide: true
 hidefromtoc: true
 source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 26%
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
-# Creare un flusso di dati da utilizzare con il Customer Journey Analytics
+# Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics
 
 >[!NOTE]
 > 
@@ -21,23 +21,18 @@ ht-degree: 26%
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-<!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
+Analogamente ai dati delle classificazioni in Adobe Analytics, i set di dati di ricerca sono il metodo per classificare i dati in Customer Journey Analytics.
 
-Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È lo stream di dati che determina a quali servizi vengono inoltrati i dati.
+Quando si utilizza il connettore di origine di Analytics, alcuni set di dati di ricerca standard vengono applicati automaticamente al momento del rapporto. Per ulteriori informazioni, consulta [Aggiungere ricerche standard ai set di dati](/help/connections/standard-lookups.md).
 
-Nella configurazione, vuoi configurare lo stream di dati per inviare i dati raccolti al set di dati in Adobe Experience Platform.
+Per classificare i dati con una nuova implementazione di Experience Platform Web SDK, è necessario creare un set di dati di ricerca per ogni dimensione che contiene i dati da classificare.
 
-Per impostare il flusso di dati:
+Per creare set di dati di ricerca da utilizzare nel Customer Journey Analytics:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Datastreams]** da [!UICONTROL DATA COLLECTION] nella barra a sinistra.
+1. In AEP, crea un nuovo schema. Questo è un nuovo schema specifico per i set di dati di ricerca. Non è possibile utilizzare uno schema esistente.
 
-1. Seleziona **[!UICONTROL New Datastream]** (Nuovo flusso di dati).
+1. Devi creare una nuova classe di schema per le ricerche.
 
-1. Assegna un nome e una descrizione al tuo flusso di dati. Seleziona lo schema dall’elenco [!UICONTROL Event Schema] (Schema eventi).
-
-   ![Nuovo flusso di dati](assets/new-datastream.png)
-
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Crea un set di dati di ricerca da questo.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-

@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 26%
+source-wordcount: '290'
+ht-degree: 27%
 
 ---
 
 # Aggiungere Platform as a service allo stream di dati
 
 >[!NOTE]
->
->Utilizzare questa documentazione dopo aver completato il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi precedenti generati in modo dinamico per la tua organizzazione.
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
->Dopo aver completato i passaggi in questa pagina, continua seguendo i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione dal [questionario Adobe Analytics all&#39;aggiornamento di Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
@@ -55,4 +53,4 @@ Con lo stream di dati disponibile, devi aggiungere Platform as a service:
 
    Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html).
 
-1. Continua seguendo i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione dal [questionario di aggiornamento di Adobe Analytics al Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).

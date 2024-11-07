@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 55%
+source-wordcount: '921'
+ht-degree: 51%
 
 ---
 
 # Creare uno schema XDM da utilizzare con il Customer Journey Analytics
 
 >[!NOTE]
->
->Utilizzare questa documentazione dopo aver completato il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi precedenti generati in modo dinamico per la tua organizzazione.
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
->Dopo aver completato i passaggi in questa pagina, continua seguendo i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione dal [questionario Adobe Analytics all&#39;aggiornamento di Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
 >[!IMPORTANT]
 >
@@ -62,13 +60,13 @@ Per creare uno schema:
 
    1. Seleziona **[!UICONTROL Finish]**.
 
-1. Nella scheda Struttura dello schema di esempio:
+1. Nella scheda [!UICONTROL **Struttura**] dello schema:
 
-   1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
-
-      ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
+   1. Nella sezione **[!UICONTROL Field groups]**, selezionare **[!UICONTROL + Add]**.
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
+
+      ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
 
    1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL AEP Web SDK ExperienceEvent]** dall’elenco.
 
@@ -116,7 +114,7 @@ Per creare uno schema:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-1. Seleziona l’elemento principale dello schema che visualizza il nome dello schema, quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+1. (Facoltativo) Se desideri integrare il Customer Journey Analytics con RTCDP, seleziona l&#39;elemento principale dello schema con il nome dello schema, quindi seleziona l&#39;opzione **[!UICONTROL Profile]**.
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
@@ -124,7 +122,7 @@ Per creare uno schema:
 
    >[!IMPORTANT]
    >
-   >    Una volta salvato uno schema abilitato per il profilo, non è più possibile disattivarlo per il profilo.
+   >Dopo aver abilitato uno schema per il profilo, non può essere disabilitato per il profilo.
 
    ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
@@ -148,5 +146,5 @@ Per creare uno schema:
 
    Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e singoli campi a uno schema, consulta la sezione [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it).
 
-1. Continua seguendo i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione dal [questionario di aggiornamento di Adobe Analytics al Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
 
