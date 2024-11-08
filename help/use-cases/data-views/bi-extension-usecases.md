@@ -7,16 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: adc9e888eece72031ed234e634b206475d1539d7
+source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
 workflow-type: tm+mt
-source-wordcount: '7262'
-ht-degree: 3%
+source-wordcount: '7254'
+ht-degree: 2%
 
 ---
 
 # Casi di utilizzo dell’estensione BI
 
-Questo articolo illustra come eseguire una serie di casi d’uso utilizzando l’estensione di Customer Journey Analytics BI. Per ogni caso d’uso spiega la funzionalità del Customer Journey Analytics, seguita dai dettagli per ciascuno degli strumenti di business intelligence supportati:
+Questo articolo illustra come eseguire una serie di casi d’uso utilizzando l’estensione di Customer Journey Analytics BI. Ogni caso d’uso descrive la funzionalità del Customer Journey Analytics, seguita dai dettagli di ciascuno degli strumenti di business intelligence supportati:
 
 * **Power BI desktop**. La versione utilizzata è la 2.137.1102.0 a 64 bit (ottobre 2024).
 * **Desktop Tableau**. La versione utilizzata è 2024.1.5 (20241.24.0705.0334) a 64 bit.
@@ -1470,21 +1470,21 @@ Le dimensioni dell&#39;intervallo di date dal Customer Journey Analytics, come *
 Le metriche del Customer Journey Analytics sono identificate da [!UICONTROL Component ID]. [!UICONTROL Component ID] è definito nella visualizzazione dati del Customer Journey Analytics. La metrica **[!UICONTROL Purchase Revenue]** nel Customer Journey Analytics, ad esempio, ha [!UICONTROL Component ID] **[!UICONTROL purchase_revenue]**, che è il nome della metrica in Power BI Desktop. Un **[!UICONTROL ∑]** indica le metriche. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata **[!UICONTROL Sum of *metrica *]**.
 
 **Filtri**
-I filtri definiti nel Customer Journey Analytics sono disponibili nel campo **[!UICONTROL filterName]**. Quando si utilizza un campo **[!UICONTROL filterName]** in Power BI Desktop, è possibile specificare il filtro da utilizzare.
+I filtri definiti nel Customer Journey Analytics sono disponibili come parte del campo **[!UICONTROL filterName]**. Quando si utilizza un campo **[!UICONTROL filterName]** in Power BI Desktop, è possibile specificare il filtro da utilizzare.
 
 **Metriche calcolate**
 Le metriche calcolate definite nel Customer Journey Analytics sono identificate dai [!UICONTROL External ID] definiti per la metrica calcolata. La metrica calcolata **[!UICONTROL Product Name (Count Distinct)]**, ad esempio, contiene [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** ed è visualizzata come **[!UICONTROL cm_product_name_count_distinc]**t in Power BI Desktop.
 
 **Intervalli di date**
-Gli intervalli di date definiti nel Customer Journey Analytics sono disponibili nel campo **[!UICONTROL daterangeName]**. Quando si utilizza un campo **[!UICONTROL daterangeName]**, è possibile specificare l&#39;intervallo di date da utilizzare.
+Gli intervalli di date definiti nel Customer Journey Analytics sono disponibili come parte del campo **[!UICONTROL daterangeName]**. Quando si utilizza un campo **[!UICONTROL daterangeName]**, è possibile specificare l&#39;intervallo di date da utilizzare.
 
 **Trasformazioni personalizzate**
-Power BI Desktop fornisce funzionalità di trasformazione personalizzate utilizzando [Espressioni di analisi dei dati (DAX)](https://learn.microsoft.com/en-us/dax/dax-overview). Ad esempio, desideri eseguire il caso d’uso con classificazione di dimensione Singola con i nomi dei prodotti in minuscolo. Per eseguire questa operazione:
+Power BI Desktop fornisce funzionalità di trasformazione personalizzate utilizzando [Espressioni di analisi dei dati (DAX)](https://learn.microsoft.com/en-us/dax/dax-overview). Ad esempio, desideri eseguire il caso d’uso con classificazione di dimensione Singola con i nomi dei prodotti in minuscolo.
 
 1. Nella vista Rapporto, seleziona la visualizzazione a barre.
 1. Selezionare product_name nel riquadro Dati.
 1. Seleziona Nuova colonna nella barra degli strumenti.
-1. Nell&#39;editor delle formule definire una nuova colonna denominata `product_name_lower`, ad esempio `product_name_lower = LOWER('public.cc_data_view[product_name])`.
+1. Nell&#39;editor formule, definire una nuova colonna denominata `product_name_lower`, ad esempio `product_name_lower = LOWER('public.cc_data_view[product_name])`.
    ![Power BI trasformazione desktop in inferiore](assets/uc14-powerbi-transformation.png)
 1. Assicurati di selezionare la nuova colonna product_name_lower nel riquadro Dati invece della colonna product_name.
 1. Seleziona Rapporto come tabella da ![Altro](/help/assets/icons/More.svg) nella visualizzazione tabella.
@@ -1545,16 +1545,16 @@ Le dimensioni dell&#39;intervallo di date dal Customer Journey Analytics, come *
 Le metriche del Customer Journey Analytics sono identificate da [!UICONTROL Component Name]. [!UICONTROL Component Name] è definito nella visualizzazione dati del Customer Journey Analytics. La metrica **[!UICONTROL Purchase Revenue]** nel Customer Journey Analytics, ad esempio, ha [!UICONTROL Component Name] **[!UICONTROL Purchase Revenue]**, che è il nome della metrica in Tableau. Tutte le metriche sono identificate da **[!UICONTROL #]**. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata **[!UICONTROL Sum(*metrica *)]**.
 
 **Filtri**
-I filtri definiti nel Customer Journey Analytics sono disponibili nel campo **[!UICONTROL Filter Name]**. Quando si utilizza un campo **[!UICONTROL Filter Name]** in Tableau, è possibile specificare il filtro da utilizzare.
+I filtri definiti nel Customer Journey Analytics sono disponibili come parte del campo **[!UICONTROL Filter Name]**. Quando si utilizza un campo **[!UICONTROL Filter Name]** in Tableau, è possibile specificare il filtro da utilizzare.
 
 **Metriche calcolate**
 Le metriche calcolate definite nel Customer Journey Analytics sono identificate dai [!UICONTROL Title] definiti per la metrica calcolata. Ad esempio, la metrica calcolata **[!UICONTROL Product Name (Count Distinct)]** ha [!UICONTROL Title] **[!UICONTROL Product Name (Count Distinct)]** ed è visualizzata come **[!UICONTROL Cm Product Name Count Distinct]** in Tableau.
 
 **Intervalli di date**
-Gli intervalli di date definiti nel Customer Journey Analytics sono disponibili nel campo **[!UICONTROL Daterange Name]**. Quando si utilizza un campo **[!UICONTROL Daterange Name]**, è possibile specificare l&#39;intervallo di date da utilizzare.
+Gli intervalli di date definiti nel Customer Journey Analytics sono disponibili come parte del campo **[!UICONTROL Daterange Name]**. Quando si utilizza un campo **[!UICONTROL Daterange Name]**, è possibile specificare l&#39;intervallo di date da utilizzare.
 
 **Trasformazioni personalizzate**
-Tableau Desktop fornisce funzionalità di trasformazione personalizzate utilizzando [Campi calcolati](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Ad esempio, desideri eseguire il caso d’uso con classificazione di dimensione Singola con i nomi dei prodotti in minuscolo. Per eseguire questa operazione:
+Tableau Desktop fornisce funzionalità di trasformazione personalizzate utilizzando [Campi calcolati](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Ad esempio, desideri eseguire il caso d’uso con classificazione di dimensione Singola con i nomi dei prodotti in minuscolo.
 
 1. Selezionare **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** dal menu principale.
    1. Definire **[!UICONTROL Lowercase Product Name]** utilizzando la funzione `LOWER([Product Name])`.
