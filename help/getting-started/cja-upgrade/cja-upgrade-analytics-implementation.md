@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
+source-git-commit: 3827bafd85a03e8574667095b372aa61afb6756b
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 10%
+source-wordcount: '628'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 10%
 
 Esistono diversi modi per effettuare l’aggiornamento al Customer Journey Analytics, ma non tutti i percorsi di aggiornamento sono disponibili per ciascun tipo di implementazione di Adobe Analytics. Tuttavia, il percorso di aggiornamento consigliato è disponibile indipendentemente da come Adobe Analytics viene implementato nella tua organizzazione.
 
-Utilizza le informazioni seguenti per comprendere quali percorsi di aggiornamento sono disponibili per la tua organizzazione.
+Utilizza le informazioni riportate di seguito per comprendere l’implementazione corrente di Adobe Analytics e quali percorsi di aggiornamento sono disponibili per la tua organizzazione.
 
 Se hai bisogno di consigli, indicazioni o supporto più specifici, contatta il rappresentante Adobe.
 
@@ -31,8 +32,8 @@ Se hai bisogno di consigli, indicazioni o supporto più specifici, contatta il r
 |---------|----------|----------|
 | AppMeasurement | L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics.<p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics con AppMeasurement per JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Nuova implementazione di Experience Platform Web SDK</li><li>Migrare da Adobe Analytics a Web SDK</li><li>Connettore di origine di Analytics</li></ul> |
 | Estensione Adobe Analytics (tag) | <p>I tag in Adobe Experience Platform sono una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a team di sviluppo nell’organizzazione per aggiornare il codice sul sito.</p><p>Per ulteriori informazioni su questo tipo di implementazione, vedi [Implementare Adobe Analytics utilizzando l&#39;estensione Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Nuova implementazione di Experience Platform Web SDK</li><li>Migrare da Adobe Analytics a Web SDK</li><li>Connettore di origine di Analytics</li></ul> |
-| SDK per web (alloy.js) | Experience Platform Web SDK è il metodo attualmente consigliato da Adobe per l’implementazione di Adobe Analytics. L’Edge Network di Adobe Experience Platform ti consente di inviare dati destinati a più prodotti a una posizione centralizzata. <p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics con l&#39;Edge Network di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform</li></ul> |
-| Estensione Web SDK (tag) | Experience Platform Web SDK è il metodo attualmente consigliato da Adobe per l’implementazione di Adobe Analytics. L’Edge Network di Adobe Experience Platform ti consente di inviare dati destinati a più prodotti a una posizione centralizzata. <p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics con l&#39;Edge Network di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform</li></ul> |
+| Experience Platform Web SDK (alloy.js) | Experience Platform Web SDK è il metodo attualmente consigliato da Adobe per l’implementazione di Adobe Analytics. L’Edge Network di Adobe Experience Platform ti consente di inviare dati destinati a più prodotti a una posizione centralizzata. <p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics con l&#39;Edge Network di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform</li></ul> |
+| Estensione Experience Platform Web SDK (tag) | Experience Platform Web SDK è il metodo attualmente consigliato da Adobe per l’implementazione di Adobe Analytics per i dati web. L’Edge Network di Adobe Experience Platform ti consente di inviare dati destinati a più prodotti a una posizione centralizzata. <p>Per ulteriori informazioni su questo tipo di implementazione, vedere [https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/overview](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform</li></ul> |
+| Experience Platform Mobile SDK | L’SDK di Mobile di Experience Platform è il metodo attualmente consigliato da Adobe per implementare Adobe Analytics per i dati mobili. L’Edge Network di Adobe Experience Platform ti consente di inviare dati destinati a più prodotti a una posizione centralizzata.<p>L’SDK di Adobe Experience Platform Mobile aiuta ad alimentare le soluzioni e i servizi di Experience Cloud di Adobe nelle app mobili. </p><p>Per ulteriori informazioni su questo tipo di implementazione, vedi [Implementare Adobe Analytics utilizzando l&#39;SDK di Adobe Experience Platform Mobile](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/mobile-sdk/overview)</p> | <ul><li>(Consigliata) Nuova implementazione di Experience Platform Web SDK con il connettore Source di Analytics</li><li>Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform</li></ul> |
 
 {style="table-layout:auto"}
-
