@@ -1,15 +1,15 @@
 ---
-title: Creazione di uno schema per il Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+title: Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics
+description: Scopri come creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 3827bafd85a03e8574667095b372aa61afb6756b
+source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---

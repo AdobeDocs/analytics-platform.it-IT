@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
+source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 87%
+source-wordcount: '1009'
+ht-degree: 86%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 87%
       + [Processo consigliato](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [Implementazione di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Creare set di dati di ricerca per le classificazioni](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [Creare un campo derivato da un canale di marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Utilizza i tag per eseguire l’aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
       + [Architettura dello schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Creare lo schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
