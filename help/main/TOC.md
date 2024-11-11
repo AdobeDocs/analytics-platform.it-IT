@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 86%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 + [Guida di Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
 + [Assistente IA per Adobe Customer Journey Analytics](../ai-assistant.md)
-+ [Assistente di IA per l’analisi dei dati per il Customer Journey Analytics](../data-analysis-ai.md)
++ [Assistente IA per l’analisi dei dati per Customer Journey Analytics](../data-analysis-ai.md)
 
 + Note sulla versione {#releases}
    + [Versione più recente](../release-notes/latest.md)
@@ -51,12 +51,12 @@ ht-degree: 86%
       + [Creare set di dati di ricerca per le classificazioni](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Creare un campo derivato da un canale di marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Utilizza i tag per eseguire l’aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
-      + [Architettura dello schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+      + [Progettare lo schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [Creare lo schema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
-      + [Usa lo schema esistente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + [Utilizzare lo schema esistente](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
       + [Creare un set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
       + [Creare un flusso di dati](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
-      + [Aggiungere Platform as a service](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [Aggiungere Platform come servizio](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
       + [Creare una connessione](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Creare una visualizzazione dati](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Convalidare il flusso di dati](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
@@ -77,7 +77,7 @@ ht-degree: 86%
    + [Panoramica sull’acquisizione di dati](../data-ingestion/data-ingestion.md)
    + Inserire e utilizzare le guide introduttive{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Edge Network Experience Platform {#edge-network}
+      + Rete Edge di Adobe Experience Platform {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [API server](../data-ingestion/serverapi.md)
@@ -117,7 +117,7 @@ ht-degree: 86%
 
 + Strumenti {#tools}
    + Trasferimento risorse {#asset-transfer}
-      + [Trasferisci risorse](../tools/asset-transfer/transfer-assets.md)
+      + [Trasferimento risorse](../tools/asset-transfer/transfer-assets.md)
    + Utilizzo prodotto {#product-usage}
       + [Panoramica](../tools/product-usage/usage-overview.md)
       + [Impostazioni dei dati](../tools/product-usage/data-settings.md)
@@ -151,7 +151,7 @@ ht-degree: 86%
          + Impostazioni colonna e riga {#column-row-settings}
             + [Impostazioni colonna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Impostazioni riga](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Elementi dinamici e statici](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [Elementi statici e dinamici](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrare e ordinare tabelle](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totali in Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabella coorte {#cohort-table}
@@ -194,7 +194,7 @@ ht-degree: 86%
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Tempo trascorso per la riproduzione di file multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Tempo trascorso su contenuti multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento successivo o precedente](../analysis-workspace/c-panels/next-previous.md)
       + [Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
    + Curare, condividere e pianificare i progetti {#curate-share}
@@ -211,14 +211,14 @@ ht-degree: 86%
    + Rilevamento delle anomalie {#anomaly-detection}
       + [Panoramica](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Visualizzare le anomalie](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Tecniche di statistica](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [Tecniche statistiche](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + Previsione {#forecasting}
       + [Panoramica](../analysis-workspace/c-forecast/forecasting.md)
-      + [Visualizza previsioni](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [Tecniche di statistica](../analysis-workspace/c-forecast/statistics-forecasting.md)
+      + [Visualizzare le previsioni](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [Tecniche statistiche](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [Sommario ](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
-   + Domande frequenti su Workspace e altri {#workspace-faq}
+   + Domande frequenti su Workspace e altro {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)
       + [Messaggi di errore](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitazioni](../analysis-workspace/workspace-faq/aw-limitations.md)
@@ -244,7 +244,7 @@ ht-degree: 86%
    + [Crescita netta](../guided-analysis/types/net-growth.md)
    + [Impatto sulla versione](../guided-analysis/types/release-impact.md)
    + [Mantenimento](../guided-analysis/types/retention.md)
-   + [Linea temporale](../guided-analysis/types/timeline.md)
+   + [Timeline](../guided-analysis/types/timeline.md)
    + [Tendenze](../guided-analysis/types/trends.md)
    + [Casi d’uso di settore](../guided-analysis/industry-use-cases.md)
    + [Domande frequenti](../guided-analysis/faq.md)
@@ -372,10 +372,10 @@ ht-degree: 86%
 + Casi d’uso {#cja-usecases}
    + [Casi d’uso di Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Dati di Google Analytics {#ga}
-      + [Migra dati da Google Analytics](../use-cases/ga/overview.md)
-      + [Acquisire dati storici Google Analytics](../use-cases/ga/backfill.md)
-      + [Configurare i dati delle Google Analytics in streaming](../use-cases/ga/streaming.md)
-      + [Rapporto sui dati Google Analytics](../use-cases/ga/report.md)
+      + [Migrare i dati da Google Analytics](../use-cases/ga/overview.md)
+      + [Acquisire dati storici di Google Analytics](../use-cases/ga/backfill.md)
+      + [Configurare i dati in streaming di Google Analytics](../use-cases/ga/streaming.md)
+      + [Rapporti sui dati di Google Analytics](../use-cases/ga/report.md)
    + Acquisizione dei dati {#data-ingestion}
       + [Acquisire e utilizzare i dati di Marketo Engage](../use-cases/data-ingestion/marketo.md)
       + [Acquisire e utilizzare i tipi di pubblico di Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -383,7 +383,7 @@ ht-degree: 86%
       + [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md)
       + [Utilizzare dimensioni e metriche di binding](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md)
-      + [Casi di utilizzo dell’estensione BI](/help/use-cases/data-views/bi-extension-usecases.md)
+      + [Casi d’uso dell’estensione BI](/help/use-cases/data-views/bi-extension-usecases.md)
    + Esportazione dei dati {#data-export}
       + [Panoramica](../use-cases/data-export/overview.md)
       + [Estensione BI](../use-cases/data-export/bi-extension.md)
@@ -410,7 +410,7 @@ ht-degree: 86%
 
 + Risoluzione dei problemi {#troubleshooting}
    + [Confrontare dati](../troubleshooting/compare.md)
-   + [Coerenza di metriche e pubblico](../troubleshooting/consistency-rcdp-cja.md)
+   + [Coerenza di metriche e tipi di pubblico](../troubleshooting/consistency-rcdp-cja.md)
    + [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md)
 
 + Note tecniche {#technotes}
