@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 28%
+source-wordcount: '1871'
+ht-degree: 25%
 
 ---
 
@@ -55,7 +55,7 @@ Per l’unione basata su grafico, una singola persona può avere molti ID persis
 
 +++**Una volta contattato il team dell&#39;account Adobe con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?**
 
-L’unione live è disponibile circa una settimana dopo l’attivazione dell’unione da parte di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
+L’unione live è disponibile circa una settimana dopo l’attivazione di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
 +++
 
@@ -70,6 +70,80 @@ L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey 
 +++**In che modo Stitching gestisce le richieste di privacy?**
 
 Adobe gestisce le richieste di accesso ai dati personali in conformità alle leggi locali e internazionali. Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+
+>[!IMPORTANT]
+>
+>Il processo di separazione, come parte delle richieste di accesso a dati personali, cambia all’inizio del 2025. Il processo di rimozione delle unioni corrente riavvia gli eventi utilizzando la versione più recente delle identità note. Questa riassegnazione degli eventi a un’altra identità potrebbe avere conseguenze legali indesiderate. Per risolvere questi problemi, a partire dal 2025 il nuovo processo di rimozione delle unioni aggiorna gli eventi che sono oggetto della richiesta di privacy con l’ID persistente.
+> 
+
+Per illustrare, immagina i seguenti dati per le identità, gli eventi prima e dopo l’unione.
+
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|---|---|---|---|---|---|---|
+|  | 1 | ts1 | 123 | ecid | Bob | CustId |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| | 2 | ts1 | 123 | ecid | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+|---|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | Bob | CustId |
+| | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+
+
+**Processo corrente per la richiesta di accesso a dati personali**
+
+Quando viene ricevuta una richiesta di accesso a dati personali per un cliente con CustID Bob, le righe contenenti voci barrate vengono eliminate. Altri eventi vengono ripristinati utilizzando la mappa delle identità. Ad esempio, il primo ID unito nel set di dati unito è aggiornato a **Alex**.
+
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|:---:|---|---|---|---|---|---|
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
+
+
+**Nuovo processo per la richiesta di accesso a dati personali**
+
+Quando viene ricevuta una richiesta di accesso a dati personali per un cliente con CustID Bob, le righe contenenti voci barrate vengono eliminate. Altri eventi vengono ricomposti utilizzando l’ID persistente. Ad esempio, il primo ID unito nel set di dati unito è stato aggiornato a **123**.
+
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|:---:|---|---|---|---|---|---|
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
+|  | 2 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId |
+
+
+| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **123** | ecid |
+| ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
+| | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 +++
 

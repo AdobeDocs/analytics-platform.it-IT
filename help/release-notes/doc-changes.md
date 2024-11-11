@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
+source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
 workflow-type: tm+mt
-source-wordcount: '4153'
-ht-degree: 63%
+source-wordcount: '4175'
+ht-degree: 62%
 
 ---
 
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Novembre 2024** | |
+| Richieste di unione e privacy | È stata aggiunta una notifica sulle [modifiche imminenti nel processo di annullamento dell&#39;unione](/help/stitching/faq.md#frequently-asked-questions) che sono il risultato di richieste di privacy. |
 | **Ottobre 2024** | |
 | Dispositivi condivisi | È stato aggiunto un [articolo sul caso d&#39;uso](/help/use-cases/stitching/shared-devices.md) che fornisce contesto sui dispositivi condivisi, come gestire e mitigare i dati dai dispositivi condivisi utilizzando l&#39;unione e comprendere l&#39;esposizione dei dispositivi condivisi nei tuoi dati utilizzando Query Service. |
 | Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/technotes/optimizing-performance.md#request-factors) nell’articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/technotes/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
