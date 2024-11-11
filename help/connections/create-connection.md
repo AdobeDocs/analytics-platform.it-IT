@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3588'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryID"
 >title="ID primario"
->abstract="Seleziona l’ID primario corretto per la connessione: Persona per uno scenario B2C. Conto per uno scenario B2B."
+>abstract="Seleziona l’ID primario corretto per la connessione: Persona per uno scenario B2C. Account per uno scenario B2B."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -155,7 +155,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_personID"
 >title="ID persona"
->abstract="Seleziona un ID persona dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+>abstract="Seleziona un ID persona tra le identità disponibili definite negli schemi di set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -164,7 +164,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountID"
 >title="ID account"
->abstract="Seleziona un ID account (identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+>abstract="Seleziona un ID account (identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,7 +173,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalAccountID"
 >title="ID account globale"
->abstract="Seleziona un ID account globale (l’identificatore univoco di un account globale) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+>abstract="Seleziona un ID account globale (l’identificatore univoco di un account globale) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -182,7 +182,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityID"
 >title="ID opportunità"
->abstract="Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) dalle identità disponibili definite nello schema del set di dati nell’Experience Platform."
+>abstract="Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -191,7 +191,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyingGroupID"
 >title="ID gruppo di acquisto"
->abstract="Seleziona un ID gruppo di acquisto (l’identificatore univoco per un gruppo di acquisto) tra le identità disponibili definite nello schema del set di dati nell’Experience Platform."
+>abstract="Seleziona un ID gruppo acquisti (l’identificatore univoco per un gruppo acquisti) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -200,7 +200,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="Chiave corrispondente"
->abstract="Seleziona la modalità di unione: in base a una chiave o a un contenitore corrispondente.<br/><br/>**[!UICONTROL Matching key]**: selezionare un campo a cui unire uno dei set di dati evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Matching container]**: selezionare un contenitore da utilizzare per l&#39;unione con uno dei set di dati evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
+>abstract="Seleziona la modalità di unione: in base a una chiave o a un contenitore corrispondente.<br/><br/>**[!UICONTROL Matching key]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Matching container]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
 
 <!-- markdownlint-enable MD034 -->
 

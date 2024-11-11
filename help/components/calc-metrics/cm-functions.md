@@ -5,16 +5,16 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # Funzioni di base
 
 
-Il generatore di metriche calcolate [](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo documenta l’elenco alfabetico delle funzioni e delle relative definizioni.
+Il [Generatore di metriche calcolate](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo riporta un elenco alfabetico delle funzioni e delle relative definizioni.
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione
 
 ## Che cosa significa il parametro include-zeros?
 
-Il parametro indica se includere gli zeri all’interno del calcolo. A volte zero significa *niente*, ma a volte è importante.
+Il parametro indica se includere gli zeri all’interno del calcolo. Talvolta lo zero *non* ha alcun significato, ma in determinate occasioni può risultare importante.
 
-Ad esempio, se hai una metrica Ricavi e poi aggiungi una metrica Visualizzazioni pagina al rapporto, improvvisamente saranno presenti più righe per i ricavi, che sono tutte pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** e altri calcoli presenti nella colonna dei ricavi. In questo caso, controllare il parametro `include-zeros`.
+Ad esempio, se hai una metrica Revenue (Entrate) e ne aggiungi al report una del tipo Page Views (Visualizzazioni pagina), improvvisamente saranno presenti più righe per le entrate che sono pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** e altri calcoli presenti nella colonna dei ricavi. In questo caso, dovrai controllare il parametro `include-zeros`.
 
 In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includere degli zeri
 
@@ -46,7 +46,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica di cui desideri calcolare il valore assoluto. |
+| metrica | La metrica della quale desideri calcolare il valore assoluto. |
 
 
 ## Massimo colonna
@@ -77,7 +77,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
 
-Aggiunge tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione).
+Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione).
 
 | Argomento | Descrizione |
 |---|---|
@@ -92,7 +92,7 @@ Aggiunge tutti i valori numerici di una metrica all’interno di una colonna (ne
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica da contare. |
+| metrica | La metrica da conteggiare. |
 
 
 ## Esponente
@@ -103,7 +103,7 @@ Aggiunge tutti i valori numerici di una metrica all’interno di una colonna (ne
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | L&#39;esponente applicato alla base e. |
+| metrica | L’esponente applicato alla base e. |
 
 
 ## Media
@@ -139,7 +139,7 @@ Restituisce il resto dopo aver diviso x per y utilizzando la divisione euclidea.
 | Argomento | Descrizione |
 |---|---|
 | metric_X | La prima metrica che desideri dividere. |
-| metric_Y | La seconda metrica da dividere. |
+| metric_Y | La seconda metrica che desideri dividere. |
 
 ### Esempi
 
@@ -171,7 +171,7 @@ MODULO(MODULO(x,y)+y,y)
 
 
 
-## Operatore elettrico
+## Operatore di potenza
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
@@ -192,7 +192,7 @@ Restituisce x elevato alla potenza y.
 | Argomento | Descrizione |
 |---|---|
 | metrica | La metrica di cui desideri calcolare il valore del quartile. |
-| quartile | Indica il valore del quartile da restituire. |
+| quartile | Indica quale valore del quartile restituire. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
 
@@ -200,12 +200,12 @@ Restituisce x elevato alla potenza y.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
 
-L&#39;arrotondamento senza un parametro *number* è uguale all&#39;arrotondamento con un parametro *number* pari a 0, ovvero arrotondato al numero intero più vicino.  Con un parametro *number*, ROUND restituisce le *number* cifre a destra del decimale.  Se *number* è negativo, restituisce 0 a sinistra del decimale.
+L’arrotondamento senza un parametro *numerico* è uguale all’arrotondamento con un parametro *numero* pari a 0, vale a dire arrotondato al numero intero più vicino.  Con un parametro *numerico* ROUND restituisce il *numero* di cifre a destra del decimale.  Se il *numero* è negativo, restituisce gli 0 a sinistra del decimale.
 
 | Argomento | Descrizione |
 |---|---|
 | metrica | La metrica da arrotondare. |
-| number | Quante cifre a destra del decimale restituire. (Se negativo restituisce zero a sinistra del decimale). |
+| number | Quante cifre a destra del decimale restituire. Se la cifra è negativa, restituisce gli zero a sinistra del decimale. |
 
 ### Esempi
 
@@ -221,14 +221,14 @@ ROUND( 314.15, -2) = 300
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
-Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). *I valori univoci superati* sono conteggiati come 1.
+Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). *Univoci superati* viene conteggiato come 1.
 
 
 ## Massimo riga
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
 
-Massimo delle colonne di ogni riga.
+La somma delle colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|
@@ -239,7 +239,7 @@ Massimo delle colonne di ogni riga.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
 
-Minimo delle colonne di ogni riga.
+Minimo di colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|
@@ -267,7 +267,7 @@ Somma delle colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica di cui desideri calcolare la radice quadrata. |
+| metrica | Metrica per la quale desideri calcolare la radice quadrata. |
 
 
 ## Deviazione standard
@@ -278,7 +278,7 @@ Somma delle colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|
-| | La metrica di cui desideri calcolare la deviazione standard. |
+| | Metrica per la quale desideri calcolare la deviazione standard. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
 
@@ -290,7 +290,7 @@ Somma delle colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale desideri calcolare la varianza. |
+| metrica | Metrica per la quale desideri calcolare la varianza. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
 
@@ -298,10 +298,10 @@ L’equazione per VARIANCE è:
 
 ![](assets/variance_eq.png){width="100"}
 
-Dove *x* è la media del campione, [MEAN(*metric*)](#mean) e *n* è la dimensione del campione.
+Dove *x* è la media del campione, [MEAN(*metrica*)](#mean) e *n* è la dimensione del campione.
 
 
-Per calcolare una varianza, si considera un&#39;intera colonna di numeri. Di tale elenco di numeri si calcola prima la media. Una volta ottenuta la media, scorri ogni voce e fai quanto segue:
+Per calcolare una varianza, considera un’intera colonna di numeri. Di tale elenco di numeri si calcola prima la media. Una volta ottenuta la media, si esamina ogni voce e si effettuano le seguenti operazioni:
 
 1. Si sottrae la media dal numero.
 
@@ -309,7 +309,7 @@ Per calcolare una varianza, si considera un&#39;intera colonna di numeri. Di tal
 
 1. Si aggiunge al totale.
 
-Dopo aver ripetuto l’iterazione sull’intera colonna, si ottiene un singolo totale. Si divide quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzato come una colonna di numeri.
+Dopo aver ripetuto per l’intera colonna, si ottiene un singolo totale. Si divide quindi il totale per il numero di elementi nella colonna. Tale numero è la varianza della colonna. È un singolo numero. Viene tuttavia visualizzato come una colonna di numeri.
 
 Nell’esempio della seguente colonna a tre elementi:
 
@@ -319,7 +319,7 @@ Nell’esempio della seguente colonna a tre elementi:
 | 2 |
 | 3 |
 
-La media di questa colonna è 2. La varianza per la colonna è ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3.
+La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
 
 
 

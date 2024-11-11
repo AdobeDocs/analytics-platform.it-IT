@@ -5,9 +5,9 @@ feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Seleziona i blocchi:
 * **[!UICONTROL Analyze]**: specifica una dimensione (arancione)
 * **[!UICONTROL by]**: specifica una metrica (verde)
 * **[!UICONTROL filter by]**: specifica un filtro (blu)
-* **[!UICONTROL on]** - specificare un intervallo di date (viola).
+* **[!UICONTROL on]**: specifica un intervallo di date (viola).
 
 Per il corretto funzionamento della visualizzazione, devi selezionare almeno una dimensione e una metrica.
 
@@ -124,7 +124,7 @@ Altri utili pop-up di suggerimenti in [!UICONTROL Quick Insights Builder], alcun
 
    * **[!UICONTROL filter by]**: puoi aggiungere fino a 2 ulteriori filtri. Ad esempio, aggiungi il filtro Prenotazioni e combinalo con i filtri Prenotazioni frequenti e Nuovi viaggiatori per confrontarli. Consulta ➏, ➐ e ➑.
 
-   * on: è possibile specificare l’intervallo di date. Consulta ➒.
+   * on: puoi specificare l’intervallo di date. Consulta ➒.
 
 ## Limitazioni note
 
