@@ -4,9 +4,9 @@ description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1421'
 ht-degree: 8%
 
 ---
@@ -174,9 +174,13 @@ Quando crei contenitori all’interno di altri contenitori, in realtà stai crea
 2. Applica la definizione del filtro nidificato ai dati rimanenti. La definizione del filtro nidificato NON si applica ai dati scartati dalla prima definizione.
 3. Ripeti l’operazione fino al completamento del calcolo di tutte le definizioni dei filtri dei contenitori nidificati. I dati rimanenti vengono quindi inclusi nel risultato e utilizzati per il reporting.
 
+>[!NOTE]
+>
+>Quando nidifichi un filtro all’interno di un filtro (ad esempio, trascini un filtro dal pannello Componenti alla definizione del filtro), viene creato un contenitore con una copia (non un riferimento) della definizione del filtro trascinato.
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
+
 
 | Container | What container you can nest inside |
 | Event | Only event conditions |
