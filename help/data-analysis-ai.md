@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 6f264ffd30bb1308f95a913a16fb587f36d95a04
+source-git-commit: cc743d74a98dae9029654add65d3e685320fe9f3
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 3%
@@ -180,4 +180,4 @@ Dopo aver selezionato i pollici verso l&#39;alto o verso il basso, effettuare un
 
 ## Domande e contatti
 
-* Invia domande e feedback nel canale Slack di Alpha: #aep-cja-ai-assistant-testers ???
+* Invia domande e feedback nel canale Slack di Alpha: #cja-assistant-data-alpha
