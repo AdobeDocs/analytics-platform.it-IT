@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
+source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 51%
+source-wordcount: '990'
+ht-degree: 48%
 
 ---
 
-# Creare uno schema XDM da utilizzare con il Customer Journey Analytics
+# Creare uno schema XDM da utilizzare con l’implementazione di Customer Journey Analytics Web SDK
 
 >[!NOTE]
 > 
@@ -39,7 +40,7 @@ Per creare uno schema:
 
 1. Seleziona **[!UICONTROL Create schema]**.
 
-1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
+1. Nel passaggio **[!UICONTROL Select a class]** della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
 
@@ -60,11 +61,11 @@ Per creare uno schema:
 
    1. Seleziona **[!UICONTROL Finish]**.
 
-1. Nella scheda [!UICONTROL **Struttura**] dello schema:
+1. Aggiungi tutti i gruppi di campi contenenti i campi da includere nello schema.
+
+   I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
    1. Nella sezione **[!UICONTROL Field groups]**, selezionare **[!UICONTROL + Add]**.
-
-      I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
       ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
 
@@ -78,7 +79,19 @@ Per creare uno schema:
 
       Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
-   1. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
+   1. (Facoltativo) Seleziona eventuali gruppi di campi aggiuntivi da includere.
+
+   1. Seleziona **[!UICONTROL Add field groups]**.
+
+1. (Facoltativo) Se disponi di campi personalizzati da includere nello schema, crea un gruppo di campi personalizzato e aggiungi i campi personalizzati al gruppo di campi.
+
+   1. Nella sezione **[!UICONTROL Field groups]**, selezionare **[!UICONTROL + Add]**.
+
+      ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
+
+   1. Nella finestra di dialogo [!UICONTROL Add fields groups], seleziona **[!UICONTROL Create new field group]**.
+
+   1. Specificare un nome visualizzato e una descrizione facoltativa, quindi selezionare **[!UICONTROL Add field groups]**.
 
 1. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
 
@@ -147,4 +160,3 @@ Per creare uno schema:
    Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e singoli campi a uno schema, consulta la sezione [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it).
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-

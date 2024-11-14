@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
+source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1498'
 ht-degree: 7%
 
 ---
@@ -90,9 +90,13 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 1. (Facoltativo) Se desideri integrare il Customer Journey Analytics con Adobe Journey Optimizer, utilizza l’oggetto di personalizzazione nella tua implementazione per l’utilizzo in Adobe Journey Optimizer.
 
-1. (Facoltativo) Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine di Analytics.
+1. (Facoltativo) Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine di Analytics:
 
-   Per ulteriori informazioni, vedere [Utilizzare un connettore di origine](/help/data-ingestion/sources.md#use-a-source-connector) in [Acquisire e utilizzare dati tramite i connettori di origine](/help/data-ingestion/sources.md).
+   1. [Crea uno schema per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+
+   1. [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
 1. Espandi la sezione che descrive come implementare Experience Platform Web SDK per l’implementazione del Customer Journey Analytics, quindi completa i passaggi associati:
 
@@ -106,7 +110,7 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    +++Tag
 
-   1. [Implementa il tag loader sul tuo sito](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md).
+   1. [Implementa il tag loader sul tuo sito](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
    1. [Creare una proprietà tag e aggiungere l&#39;estensione Adobe Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
 
