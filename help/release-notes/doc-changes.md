@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4196'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Novembre 2024** | |
+| Casi d’uso dell’estensione BI | Documentazione di diversi [casi di utilizzo di estensioni BI](/help/use-cases/data-views/bi-extension-usecases.md) per strumenti BI come Power BI Desktop e Tableau Desktop. |
 | Richieste di unione e privacy | È stata aggiunta una notifica sulle [modifiche imminenti nel processo di annullamento dell&#39;unione](/help/stitching/faq.md#frequently-asked-questions) che sono il risultato di richieste di privacy. |
 | **Ottobre 2024** | |
 | Dispositivi condivisi | È stato aggiunto un [articolo sul caso d&#39;uso](/help/use-cases/stitching/shared-devices.md) che fornisce contesto sui dispositivi condivisi, come gestire e mitigare i dati dai dispositivi condivisi utilizzando l&#39;unione e comprendere l&#39;esposizione dei dispositivi condivisi nei tuoi dati utilizzando Query Service. |

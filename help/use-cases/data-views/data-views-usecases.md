@@ -5,10 +5,10 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 62779154e889158c62e4713a951fb3633c16d5e1
+source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 35%
+source-wordcount: '1252'
+ht-degree: 32%
 
 ---
 
@@ -24,6 +24,10 @@ Per ulteriori dettagli, vedere il caso d&#39;uso [Use Dimensions Metrics](bindin
 
 Per ulteriori dettagli, vedi il caso d&#39;uso [Dati di riepilogo](summary-data.md).
 
+## Casi d’uso dell’estensione BI
+
+Consulta i [casi di utilizzo dell&#39;estensione BI](bi-extension-usecases.md) su come eseguire una serie di casi di utilizzo utilizzando l&#39;estensione Customer Journey Analytics BI.
+
 ## Creare una metrica da un campo schema di tipo stringa {#string}
 
 Ad esempio, durante la creazione di una visualizzazione dati, è possibile creare una metrica [!UICONTROL Orders] da un campo schema [!UICONTROL Page Title] che è una stringa.
@@ -35,7 +39,7 @@ Ad esempio, durante la creazione di una visualizzazione dati, è possibile crear
 1. Apri la sezione **[!UICONTROL Include/Exclude Values]** e specifica quanto segue:
    1. Abilita **[!UICONTROL Set include exclude values]**.
    1. Selezionare **[!UICONTROL If all criteria are met]** da **[!UICONTROL Match]**.
-   1. Specificare `confirmation`. Questo testo per page_title indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi o esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i filtri e ovunque sia possibile utilizzare le metriche standard.
+   1. Specificare `confirmation`. Questo testo per page_title indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i filtri e ovunque sia possibile utilizzare le metriche standard.
 
    ![Dimension alla metrica](../assets/string-to-metric.gif){width=100%}
 1. Puoi anche specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] impostato su [!UICONTROL Session].
