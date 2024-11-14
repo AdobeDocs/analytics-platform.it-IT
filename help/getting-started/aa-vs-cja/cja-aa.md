@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1cf7ae6635f51f0ca06cbc235032525e3d9b3fec
+source-git-commit: 221b73ef8dc0f7d28d13b8571955792367519849
 workflow-type: tm+mt
 source-wordcount: '2311'
 ht-degree: 99%
@@ -41,7 +41,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 
 ## Funzioni/componenti di Adobe Analytics completamente supportati {#full-support}
 
-| Funzionalità di Adobe Analytics | Note sul supporto |
+| Funzionalità di Adobe Analytics | Note sul supporto di CJA |
 | --- | --- |
 | **Rilevazione delle anomalie** | Supporto completo |
 | **Attribution IQ** | Supporto completo |
@@ -78,7 +78,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 
 | Funzione | Note |
 | --- | --- |
-| **Advertising Cloud** | Puoi [raccogliere dati storici per gli AMO ID e gli EF ID da utilizzare in Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars) |
+| **Advertising Cloud** | È possibile [raccogliere i dati storici per gli AMO ID e gli EF ID da utilizzare nel Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
 | **Avvisi** | Il processo di [utilizzo degli avvisi in Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) è quasi identico a quello degli avvisi in Adobe Analytics. <p>Tuttavia, a causa dei tempi di raccolta dei dati in Customer Journey Analytics, gli avvisi orari non sono disponibili. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.</p> |
 | **Analytics for Target (A4T)** | [L’integrazione tra Adobe Customer Journey Analytics e Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso. |
 | **Pubblicazione dei tipi di pubblico** | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
