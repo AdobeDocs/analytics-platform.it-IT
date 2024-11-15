@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
       + [Inviare i dati a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservare i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Processo consigliato](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [Implementazione di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+      + [Informazioni sull’implementazione di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [Creare set di dati di ricerca per le classificazioni](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [Creare un campo derivato da un canale di marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Implementare il tag loader per l’estensione Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
@@ -63,7 +63,7 @@ ht-degree: 92%
       + [Creare una connessione](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Creare una visualizzazione dati](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Convalidare il flusso di dati](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [Collegamento per l’aggiornamento: migrazione a Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [Collegamento per l’aggiornamento: eseguire la migrazione a Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
       + [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [Aggiungi il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
