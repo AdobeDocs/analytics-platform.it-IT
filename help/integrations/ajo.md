@@ -5,9 +5,9 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2860'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi configurare i dati generati da AJO per eseguire analisi avanzate in Custome
 
 ## Configurare automaticamente l’integrazione di AJO
 
-AJO supporta l’utilizzo di Customer Journey Analytics come motore di reporting. Consulta [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) nella documentazione di AJO.
+AJO supporta l’utilizzo di Customer Journey Analytics come motore di reporting. Consulta [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) nella documentazione di AJO.
 
 Dopo aver abilitato il reporting di Customer Journey Analytics per AJO, vengono create automaticamente una [connessione](/help/connections/overview.md) e una [visualizzazione dati](/help/data-views/data-views.md) per la sandbox specifica.
 
