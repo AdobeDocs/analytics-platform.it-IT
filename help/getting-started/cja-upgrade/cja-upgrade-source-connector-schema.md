@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -20,6 +21,22 @@ ht-degree: 1%
 >Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
+
+## Comprendere come il connettore di origine di Analytics può inserire dati storici nel Customer Journey Analytics
+
+Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici nel Customer Journey Analytics.
+
+Si presuppone che si desideri [creare uno schema XDM durante l&#39;aggiornamento al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle specifiche applicazioni Platform utilizzate.
+
+Per utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati storici, è necessario:
+
+1. Crea uno schema XDM per il connettore di origine di Analytics, come descritto di seguito.
+
+1. [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. [Aggiungi il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## Creare uno schema XDM per il connettore di origine di Analytics
 
 Dovresti avere già [creato un nuovo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) per l&#39;implementazione Experience Platform Web SDK da utilizzare con il Customer Journey Analytics. Questo schema deve contenere qualsiasi gruppo di campi per i campi su cui intendi raccogliere dati.
 
@@ -52,4 +69,3 @@ Per creare lo schema XDM da utilizzare con il connettore di origine di Analytics
 1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-

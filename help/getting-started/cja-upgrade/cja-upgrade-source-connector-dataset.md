@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d30a1a7cbe441529f5b094215c0ea1131c1f67fc
+exl-id: 424485a3-a076-4656-83b6-733f16cc2326
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 35%
+source-wordcount: '766'
+ht-degree: 23%
 
 ---
 
@@ -20,6 +21,30 @@ ht-degree: 35%
 >Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
+
+>[!NOTE]
+>
+>Le informazioni contenute in questa pagina presuppongono quanto segue:
+>
+>* Si sta effettuando l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics.
+>* Stai utilizzando l’SDK web per la tua raccolta di dati di Customer Journey Analytics futura.
+>* Desideri utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati cronologici di analisi di Adobe.
+
+## Comprendere come il connettore di origine di Analytics può inserire dati storici nel Customer Journey Analytics
+
+Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici nel Customer Journey Analytics.
+
+Si presuppone che si desideri [creare uno schema XDM durante l&#39;aggiornamento al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle specifiche applicazioni Platform utilizzate.
+
+Per utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati storici, è necessario:
+
+1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. Aggiungi il set di dati del connettore di origine di Analytics alla connessione, come descritto di seguito.
+
+## Aggiungi il set di dati del connettore di origine di Analytics alla connessione
 
 Dopo aver [creato un connettore di origine Analytics per i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md), viene automaticamente creato un set di dati per i dati di Analytics.
 
@@ -68,7 +93,7 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
 1. Definire il periodo da includere nella retrocompilazione immettendo le date di inizio e di fine o selezionando l&#39;icona del calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
 
-   Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.
+   Il connettore di origine di Analytics importa 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è di 3 mesi.
 
    >[!IMPORTANT]
    >
@@ -83,4 +108,3 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 1. Seleziona **[!UICONTROL Add datasets]**, quindi seleziona **[!UICONTROL Save]** per salvare la connessione.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-
