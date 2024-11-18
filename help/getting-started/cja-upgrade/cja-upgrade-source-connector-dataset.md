@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 23%
+source-wordcount: '715'
+ht-degree: 24%
 
 ---
 
@@ -21,14 +21,6 @@ ht-degree: 23%
 >Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
-
->[!NOTE]
->
->Le informazioni contenute in questa pagina presuppongono quanto segue:
->
->* Si sta effettuando l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics.
->* Stai utilizzando l’SDK web per la tua raccolta di dati di Customer Journey Analytics futura.
->* Desideri utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati cronologici di analisi di Adobe.
 
 ## Comprendere come il connettore di origine di Analytics può inserire dati storici nel Customer Journey Analytics
 
