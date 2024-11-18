@@ -4,10 +4,10 @@ description: Mostra due metodi per stimare l’utilizzo e un metodo per la gesti
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 71%
+source-wordcount: '862'
+ht-degree: 68%
 
 ---
 
@@ -46,7 +46,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmen
 
    >[!CAUTION]
    >
-   >   Questo conteggio si applica solo ai dati evento, non ai dati di profilo o di ricerca. Se disponi di dati di profilo e ricerca, il conteggio sarà leggermente più alto. Tuttavia, attualmente non è possibile creare rapporti sull’utilizzo dei dati di profilo e di ricerca nell’interfaccia utente. Questa funzionalità è prevista per il 2023.
+   >   Questo conteggio si applica solo ai dati evento, non ai dati di profilo o di ricerca. Se disponi di dati di profilo e ricerca, il conteggio sarà leggermente più alto. Tuttavia, attualmente non è possibile creare rapporti sull’utilizzo dei dati di profilo e di ricerca nell’interfaccia utente di.
 
 1. Una volta ottenuta la somma di tutte le righe di dati evento, controlla il diritto “Rows of Data” (Righe di dati) nel contratto per Customer Journey Analytics sottoscritto dalla tua azienda con Adobe.
 
@@ -57,7 +57,7 @@ Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmen
    * Cambia le [impostazioni di conservazione dei dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it#set-rolling-window-for-connection-data-retention).
    * [Elimina le connessioni non utilizzate](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
    * [Eliminare un set di dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#implications-of-deleting-data-components).
-   * Contatta il tuo Adobe Account Team per aggiungere alla licenza ulteriore capacità.
+   * Contatta il team dell’account Adobe per ottenere una licenza per capacità aggiuntiva.
 
 ## Creare un progetto Workspace utilizzando tutti i dati evento {#workspace-event-data}
 
