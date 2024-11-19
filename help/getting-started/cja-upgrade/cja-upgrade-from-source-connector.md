@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
+source-git-commit: a1feb2e8458169ed208da2c42fab62d25e1015bb
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -33,17 +34,17 @@ Di seguito è riportato il processo di alto livello per passare dal connettore d
 
 1. Creare un&#39;implementazione Web SDK, come descritto in [Passaggi dettagliati consigliati per l&#39;aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) nell&#39;articolo [Passaggio da Adobe Analytics al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
-   Dopo aver configurato l’implementazione dell’SDK web, continua con il passaggio seguente.
+   Dopo aver configurato l’implementazione dell’SDK web, continua con i passaggi seguenti.
 
 1. Decidi se utilizzare lo schema Adobe Analytics o uno schema XDM nell’implementazione dell’SDK web.
 
    Per ulteriori informazioni, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
-1. (Condizionale) Se prevedi di utilizzare lo schema Adobe Analytics, aggiungi alla connessione di Customer Journey Analytics il set di dati creato automaticamente dal connettore di origine Analytics.
+1. (Condizionale) Se prevedi di utilizzare lo schema Adobe Analytics con l’implementazione dell’SDK web, aggiungi alla connessione di Customer Journey Analytics il set di dati creato automaticamente dal connettore di origine Analytics.
 
    Per ulteriori informazioni, vedere [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
-1. (Condizionale) Se prevedi di creare uno schema XDM:
+1. (Condizionale) Se prevedi di creare uno schema XDM da utilizzare con l’implementazione dell’SDK per web:
 
    1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
@@ -54,11 +55,3 @@ Di seguito è riportato il processo di alto livello per passare dal connettore d
    1. Elimina il connettore di origine originale di Analytics. <!-- need to add steps somewhere about how to do this -->
 
    1. [Crea un nuovo connettore di origine Analytics e mappa i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-
-
-
-
-
-
-
