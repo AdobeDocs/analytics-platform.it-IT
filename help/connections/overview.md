@@ -6,9 +6,9 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Panoramica video:
 
 ## Autorizzazioni necessarie
 
-Per creare una connessione di Customer Journey Analytics, è necessario disporre delle seguenti autorizzazioni. Per ulteriori dettagli sulle autorizzazioni, consulta la documentazione per le [Autorizzazioni Adobe Admin Console](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) e [Autorizzazioni Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
+Per creare una connessione Customer Journey Analytics, è necessario disporre delle seguenti autorizzazioni. Per ulteriori dettagli sulle autorizzazioni, consulta la documentazione di [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) e le [Autorizzazioni Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
 
 ### In Adobe Admin Console:
 
@@ -36,7 +36,7 @@ Per creare una connessione di Customer Journey Analytics, è necessario disporre
 * Modellazione dati: visualizzare schemi, gestire schemi
 * Gestione dati: visualizzare i set di dati, gestire i set di dati
 * Acquisizione dei dati: gestisci origini
-* Identity Management: visualizzare gli spazi dei nomi delle identità
+* Identity Management: visualizzare gli spazi dei nomi di identità
 * Sandbox: sandbox utilizzate nelle connessioni di Customer Journey Analytics correlate
 
 >[!IMPORTANT]
