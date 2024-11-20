@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9f2f79e264d9cdd460751c50fe252bb7237682fd
+exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
+source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
 workflow-type: tm+mt
-source-wordcount: '13205'
+source-wordcount: '15294'
 ht-degree: 1%
 
 ---
@@ -523,14 +524,14 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Utenti nuovi e ripetuti**] | Visualizza un confronto tra i visitatori nuovi e quelli ripetuti. <p>**Questo può aiutarti** a comprendere meglio l&#39;efficacia del tuo sito nel mantenere la fedeltà dei clienti o la velocità con cui acquisisci nuovi clienti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio offrire incentivi per acquisti futuri ai nuovi visitatori per indurli a tornare.</p><p>Questo modello utilizza </p> |
-| **ID persona/Spazio dei nomi** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza  </p> |
-| **Panoramica sulla posizione** | Visualizza una panoramica della posizione del visitatore in una visualizzazione mappa.<p>**Questo può aiutarti** a capire meglio dove si trovano i visitatori che stanno visitando il tuo sito. </p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le risorse di marketing nelle posizioni in cui visualizzi più interesse e opportunità.</p><p>Questo modello utilizza  </p> |
+| [!UICONTROL **Utenti nuovi e ripetuti**] | Visualizza un confronto tra i visitatori nuovi e quelli ripetuti. <p>**Questo può aiutarti** a comprendere meglio l&#39;efficacia del tuo sito nel mantenere la fedeltà dei clienti o la velocità con cui acquisisci nuovi clienti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio offrire incentivi per acquisti futuri ai nuovi visitatori per indurli a tornare.</p><!-- This template uses the --> |
+| **ID persona/Spazio dei nomi** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><!-- This template uses the --> |
+| **Panoramica sulla posizione** | Visualizza una panoramica della posizione del visitatore in una visualizzazione mappa.<p>**Questo può aiutarti** a capire meglio dove si trovano i visitatori che stanno visitando il tuo sito. </p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le risorse di marketing nelle posizioni in cui visualizzi più interesse e opportunità.</p><!-- This template uses the --> |
 | **Paesi geografici** | Visualizzare il paese da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a capire meglio da cosa provengono i visitatori dei paesi più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come utilizzare i dati per concentrarti sulle attività di marketing in questi paesi, o assicurarti che la tua esperienza sul sito sia ottimale in paesi che hanno diverse lingue primarie.</p><p>Questo modello utilizza la dimensione Paesi. </p> |
 | **Stati Geo USA** | Visualizza lo stato (negli Stati Uniti) da cui hanno avuto origine le persone che visitano il sito. È simile al modello Geo Regions, con la differenza che è specifico per gli Stati Uniti.<p>**Questo può aiutarti** a comprendere meglio gli stati americani più popolari da cui provengono i visitatori che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarsi sulle attività di marketing in questi stati.</p><p>Questo modello utilizza la dimensione Stati Uniti. </p> |
 | **Aree geografiche** | Visualizzare l&#39;area geografica da cui hanno avuto origine le persone che visitano il sito. Una regione è un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. <p>**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste aree geografiche, oppure assicurarti che l&#39;esperienza del tuo sito sia ottimale nelle aree geografiche che hanno diverse lingue primarie. </p><p>Questo modello utilizza le dimensioni ID(variabili/geocountry) e Aree geografiche. </p> |
-| **Città geografiche** | Visualizza la città da cui provengono le persone che visitano il sito. <p>**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. </p><p>Questo modello utilizza la dimensione Città </p> |
-| **Geo US DMA** | Visualizzare le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui hanno avuto origine le persone che visitano il sito.<p>**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree di maggior successo. </p><p>Questo modello utilizza </p> |
+| **Città geografiche** | Visualizza la città da cui provengono le persone che visitano il sito. <p>**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. </p><p>Questo modello utilizza la dimensione Città. </p> |
+| **Geo US DMA** | Visualizzare le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui hanno avuto origine le persone che visitano il sito.<p>**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree di maggior successo. </p><!-- This template uses the --> |
 | **Lingue** | Visualizza le lingue principali in cui i visitatori preferiscono visualizzare il contenuto. <p>**Questo può aiutarti** a comprendere meglio le lingue preferite più frequentemente dai visitatori.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le attività di localizzazione o di marketing per le lingue più popolari.</p><p>Questo modello utilizza la dimensione Lingua.</p> |
 | **Panoramica tecnologia** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza </p> |
 | **Browser** | Visualizza il nome e la versione dei principali browser utilizzati dagli utenti per accedere al tuo sito.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità.</p><p>Questo modello utilizza la dimensione Browser. </p> |
@@ -708,12 +709,14 @@ Sono disponibili i seguenti modelli:
 
 ### Mobile: app mobile {#mobile-app}
 
+<!-- add contextual help for Mobile app screens and mobile app actions -->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-lifecycle-metrics-app-usage-template"
->title="Utilizzo app mobile"
->abstract=""
+>title="Visualizza il numero di utenti, avvii e primi avvii nell&#39;app, nonché la durata media della sessione."
+>abstract="**Questo ti aiuta** a capire meglio quanto viene utilizzata l&#39;app. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare le prestazioni dell&#39;app in modo che possano essere scalate in base alla quantità di utilizzo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -721,8 +724,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-journeys"
->title="Percorsi di app mobili"
->abstract=""
+>title="Visualizza i pattern di utilizzo principali per la tua app mobile."
+>abstract="**Questo ti aiuta** a capire meglio come le persone usano la tua app. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il modo in cui le persone possono passare da una schermata all&#39;altra per eseguire il targeting dei flussi di lavoro più comuni."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -730,8 +733,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-key-metrics"
->title="Metriche delle app mobili"
->abstract=""
+>title="Visualizza alcune delle metriche più comuni per le app mobili."
+>abstract="**Questo può aiutarti** a comprendere meglio le prestazioni di base della tua app mobile.<br/>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare lo stato e le prestazioni complessive dell&#39;app."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -739,8 +742,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-messaging"
->title="Messaggistica app mobile"
->abstract=""
+>title="Visualizza i dati sulle prestazioni per i messaggi in-app e push per la tua app."
+>abstract="**Questo ti aiuta** a capire meglio come le persone utilizzano le funzionalità di messaggistica in-app e come le notifiche push indirizzino efficacemente il traffico verso la tua app.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare l&#39;esperienza di notifica push della messaggistica in-app."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -748,8 +751,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-performance-template"
->title="Prestazioni delle app mobili"
->abstract=""
+>title="Visualizza le prestazioni dell’app e dove gli utenti riscontrano problemi."
+>abstract="**Questo può aiutarti** a capire meglio se gli utenti che usano la tua app riscontrano rallentamento o prestazioni ridotte. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come risolvere problemi esistenti o migliorare le prestazioni dell&#39;app prima che si verifichino dei problemi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -757,8 +760,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--mobile-app-retention"
->title="Fidelizzazione app mobile"
->abstract=""
+>title="Puoi vedere quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app."
+>abstract="**Questo può aiutarti** a capire meglio come i tuoi utenti più fedeli stanno utilizzando la tua app.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio migliorare le tue attività di marketing per le funzionalità utilizzate dai tuoi utenti più fedeli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -766,14 +769,14 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **App mobile Screens**] | Visualizza informazioni sugli schermi mobili utilizzati dagli utenti per accedere al sito, ad esempio dimensioni dello schermo, larghezza dello schermo e altezza dello schermo. <p>**Questo può aiutarti** a comprendere meglio come le persone stanno vivendo il tuo sito.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio ottimizzare il rendering del sito per ottenere le dimensioni di schermo più comuni.</p><p>Questo modello utilizza |
-| **Azioni app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Utilizzo app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Percorsi di app mobili** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Metriche app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Messaggistica app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Prestazioni app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Conservazione app mobile** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
+| [!UICONTROL **App mobile Screens**] | Visualizza il numero di eventi, sessioni e persone associati a ciascuna schermata nell’app mobile.<p>**Questo può aiutarti** a capire meglio quali schermate del tuo sito sono più popolari.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti sugli schermi più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. Utilizza anche la dimensione Titolo pagina.</p> |
+| **Azioni app mobile** | Visualizza le azioni che gli utenti stanno intraprendendo sulla tua app mobile. <p>**Questo può aiutarti** a comprendere meglio come le persone usano la tua app e il valore che ricevono da essa.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come migliorare le funzionalità di sviluppo che si completano o migliorano rispetto a quelle più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. |
+| **Utilizzo app mobile** | Visualizza il numero di utenti, avvii e primi avvii nell&#39;app, nonché la durata media della sessione.<p>**Questo ti aiuta** a capire meglio quanto viene utilizzata l&#39;app. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare le prestazioni dell&#39;app in modo che possano essere scalate in base alla quantità di utilizzo.</p><!-- This template uses the --> |
+| **Percorsi di app mobili** | Visualizza i pattern di utilizzo principali per la tua app mobile. <p>**Questo ti aiuta** a capire meglio come le persone usano la tua app. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il modo in cui le persone possono passare da una schermata all&#39;altra per eseguire il targeting dei flussi di lavoro più comuni. </p><!-- This template uses the --> |
+| **Metriche app mobile** | Visualizza alcune delle metriche più comuni per le app mobili. <p>**Questo può aiutarti** a comprendere meglio le prestazioni di base della tua app mobile.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare lo stato e le prestazioni complessive dell&#39;app.</p><!-- This template uses the --> |
+| **Messaggistica app mobile** | Visualizza i dati sulle prestazioni per i messaggi in-app e push per la tua app.<p>**Questo ti aiuta** a capire meglio come le persone utilizzano le funzionalità di messaggistica in-app e come le notifiche push indirizzino efficacemente il traffico verso la tua app.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare l&#39;esperienza di notifica push della messaggistica in-app.</p><!-- This template uses the --> |
+| **Prestazioni app mobile** | Visualizza le prestazioni dell’app e dove gli utenti riscontrano problemi. <p>**Questo può aiutarti** a capire meglio se gli utenti che usano la tua app riscontrano rallentamento o prestazioni ridotte. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come risolvere problemi esistenti o migliorare le prestazioni dell&#39;app prima che si verifichino dei problemi.</p><!-- This template uses the --> |
+| **Conservazione app mobile** | Puoi vedere quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app. <p>**Questo può aiutarti** a capire meglio come i tuoi utenti più fedeli stanno utilizzando la tua app.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio migliorare le tue attività di marketing per le funzionalità utilizzate dai tuoi utenti più fedeli.</p><!-- This template uses the --> |
 
 ### Mobile: informazioni dispositivo mobile {#mobile-devices}
 
@@ -822,45 +825,170 @@ Sono disponibili i seguenti modelli:
 | **Tipo di dispositivo mobile** | Visualizza i tipi di dispositivi mobili utilizzati dagli utenti per accedere al sito, ad esempio telefoni e tablet.<p>**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.</p><p>Questo modello utilizza la dimensione Tipo di dispositivo mobile.</p> |
 | **Produttore** | Visualizza quali produttori producono i dispositivi mobili utilizzati dagli utenti per accedere al tuo sito, ad esempio Apple e Samsung.<p>**Questo può aiutarti** a capire meglio quali produttori sono più popolari nella tua base di utenti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle capacità di diversi produttori per garantire un&#39;esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Produttore di dispositivi mobili.</p> |
 
-### Suddivisione del tempo
+### Suddivisione del tempo {#time-parting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--minuteOfHour"
+>title="Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, in un rapporto con un arco temporale di reporting di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le risorse per i momenti di picco, fino al minuto.<br/>Questo modello utilizza la dimensione Minuto dell&#39;ora."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--hourOfDay"
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.<br/>Questo modello utilizza la dimensione Ora del giorno."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--am-pm"
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per AM e PM. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, le ore AM di ogni giorno sono raggruppate nello stesso elemento dimensionale."
+>abstract="***Questo ti aiuta** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.<br/>Questo modello utilizza la dimensione AM/PM."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfWeek"
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, in un rapporto che si estende sul mese di gennaio, ogni giorno della settimana è raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio quali giorni della settimana il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno della settimana."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfMonth"
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se un rapporto si estende su un anno intero, ogni giorno del mese viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio quali giorni di ogni mese il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno del mese."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--dayOfYear"
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio quali giorni di ogni anno il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno dell&#39;anno."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekdayWeekend"
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorni feriali e weekend. Ad esempio, in un rapporto che si estende sul mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi dimensionali separati."
+>abstract="**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito nei giorni feriali rispetto ai fine settimana.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come fare più personale al call center nei fine settimana, se il rapporto indica che i fine settimana sono più occupati dei giorni feriali.<br/>Questo modello utilizza la dimensione Giorno feriale/Fine settimana."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--weekOfYear"
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni settimana viene raggruppata nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio quali settimane dell&#39;anno il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per le settimane a traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Settimana dell&#39;anno."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--monthOfYear"
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni mese viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio in quali mesi il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per i mesi a traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Mese dell&#39;anno."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--quarterOfYear"
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per trimestre dell&#39;anno. Ad esempio, se un rapporto si estende su più anni, ogni trimestre viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a capire meglio quali sono i quartieri in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come ad esempio il tempo di lancio dei prodotti per aumentare i trimestri a traffico storicamente basso.<br/>Questo modello utilizza la dimensione Trimestre dell&#39;anno."
+
+<!-- markdownlint-enable MD034 -->
 
 Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Minuto dell&#39;Ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, in un rapporto con un arco temporale di reporting di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza la dimensione Minuto dell’ora. |
-| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione Ora del giorno. |
-| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per AM e PM. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, le ore AM di ogni giorno sono raggruppate nello stesso elemento dimensionale.<p>**Questo ti aiuta** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione AM/PM. |
-| **Giorno della settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, in un rapporto che si estende sul mese di gennaio, ogni giorno della settimana è raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni della settimana il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana. |
-| **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se un rapporto si estende su un anno intero, ogni giorno del mese viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni mese il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese. |
-| **Giorno dell&#39;anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno dell’anno. |
-| **Giorno feriale/Fine settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorni feriali e weekend. Ad esempio, in un rapporto che si estende sul mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi dimensionali separati. <p>**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito nei giorni feriali rispetto ai fine settimana.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come fare più personale al call center nei fine settimana, se il rapporto indica che i fine settimana sono più occupati dei giorni feriali.</p><p>Questo modello utilizza la dimensione Giorno feriale/Fine settimana. |
-| **Settimana dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni settimana viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali settimane dell&#39;anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per le settimane a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Settimana dell’anno. |
-| **Mese dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni mese viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio in quali mesi il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per i mesi a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Mese dell’anno. |
-| **Trimestre dell&#39;anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per trimestre dell&#39;anno. Ad esempio, se un rapporto si estende su più anni, ogni trimestre viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali sono i quartieri in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come ad esempio il tempo di lancio dei prodotti per aumentare i trimestri a traffico storicamente basso.</p><p>Questo modello utilizza la dimensione Trimestre dell’anno. |
+| [!UICONTROL **Minuto dell&#39;Ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, in un rapporto con un arco temporale di reporting di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le risorse per i momenti di picco, fino al minuto.</p><p>Questo modello utilizza la dimensione Minuto dell’ora.</p> |
+| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
+| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per AM e PM. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, le ore AM di ogni giorno sono raggruppate nello stesso elemento dimensionale.<p>**Questo ti aiuta** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
+| **Giorno della settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, in un rapporto che si estende sul mese di gennaio, ogni giorno della settimana è raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni della settimana il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana.</p> |
+| **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se un rapporto si estende su un anno intero, ogni giorno del mese viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni mese il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese.</p> |
+| **Giorno dell&#39;anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno dell’anno.&lt;/> |
+| **Giorno feriale/Fine settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorni feriali e weekend. Ad esempio, in un rapporto che si estende sul mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi dimensionali separati. <p>**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito nei giorni feriali rispetto ai fine settimana.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come fare più personale al call center nei fine settimana, se il rapporto indica che i fine settimana sono più occupati dei giorni feriali.</p><p>Questo modello utilizza la dimensione Giorno feriale/Fine settimana.</p> |
+| **Settimana dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni settimana viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali settimane dell&#39;anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per le settimane a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Settimana dell’anno.</p> |
+| **Mese dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni mese viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio in quali mesi il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per i mesi a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Mese dell’anno.</p> |
+| **Trimestre dell&#39;anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per trimestre dell&#39;anno. Ad esempio, se un rapporto si estende su più anni, ogni trimestre viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali sono i quartieri in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come ad esempio il tempo di lancio dei prodotti per aumentare i trimestri a traffico storicamente basso.</p><p>Questo modello utilizza la dimensione Trimestre dell’anno.</p> |
 
-### Cross-Channel
+### Cross-Channel {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--multiChannelOverview"
+>title="Visualizzare la distribuzione del traffico su più canali."
+>abstract="**Questo può aiutarti** a capire meglio quali canali indirizzano con maggior successo il traffico e il coinvolgimento. <br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali che stanno ottenendo il massimo ritorno sull&#39;investimento.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--callCenterDeflection"
+>title="Visualizzare come il traffico web influisce sul traffico del call center."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto self-service sul tuo sito web stia deviando il traffico verso il tuo call center.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti self-service per ridurre il traffico verso il call center, o misurare il ROI dei contenuti self-service calcolando la quantità risparmiata attraverso meno chiamate di supporto.<br/>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--webAppTemplate"
+>title="Visualizzare il traffico web e quello mobile insieme."
+>abstract="**Questo ti aiuta** a comprendere meglio la distribuzione del traffico web e mobile sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio dedicare più risorse all&#39;esperienza della tua app mobile quando raggiunge un certo livello di traffico.<br/>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--onlineOffline"
+>title="Visualizza il traffico online e offline insieme."
+>abstract="**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico."
+
+<!-- markdownlint-enable MD034 -->
 
 Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Panoramica multicanale**] | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Confronto tra canali** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Deflessione del call center (Web+Call Center)** | Visualizzare come il traffico web influisce sul traffico del call center.<p>**Questo può aiutarti** a comprendere meglio come il contenuto self-service sul tuo sito web stia deviando il traffico verso il tuo call center.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti self-service per ridurre il traffico verso il call center, o misurare il ROI dei contenuti self-service calcolando la quantità risparmiata attraverso meno chiamate di supporto.</p><p>Questo modello utilizza |
-| **Web+App** | Visualizzare il traffico web e quello mobile insieme.<p>**Questo ti aiuta** a comprendere meglio la distribuzione del traffico web e mobile sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio dedicare più risorse all&#39;esperienza della tua app mobile quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza |
-| **Online/Offline** | Visualizza il traffico online e offline insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza |
+| [!UICONTROL **Panoramica multicanale**] | Visualizzare la distribuzione del traffico su più canali. <p>**Questo può aiutarti** a capire meglio quali canali indirizzano con maggior successo il traffico e il coinvolgimento. </p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali che stanno ottenendo il massimo ritorno sull&#39;investimento.</p><p>Questo modello utilizza le metriche utente, sessione ed evento.</p> |
+| **Deflessione del call center (Web+Call Center)** | Visualizzare come il traffico web influisce sul traffico del call center.<p>**Questo può aiutarti** a comprendere meglio come il contenuto self-service sul tuo sito web stia deviando il traffico verso il tuo call center.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti self-service per ridurre il traffico verso il call center, o misurare il ROI dei contenuti self-service calcolando la quantità risparmiata attraverso meno chiamate di supporto.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
+| **Web+App** | Visualizzare il traffico web e quello mobile insieme.<p>**Questo ti aiuta** a comprendere meglio la distribuzione del traffico web e mobile sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio dedicare più risorse all&#39;esperienza della tua app mobile quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
+| **Online/Offline** | Visualizza il traffico online e offline insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><!-- This template uses the ... --> |
 
-### Altri canali
+### Altri canali {#other-channels}
 
 Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Dashboard del call center**] | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **POS/Offline** | Visualizzare i dati POS (Point-of-Sale) e delle transazioni offline.<p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
+| **POS/Offline** | Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che visualizzano informazioni sui negozi principali, i prodotti principali e le categorie di prodotti principali, nonché sulle vendite online e offline. <p>**Questo ti aiuta** a capire meglio quali sono i tuoi prodotti più venduti nel punto vendita e online.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio assegnare più risorse di marketing ai tuoi prodotti e canali dalle prestazioni più elevate.</p><p>Questo modello utilizza le metriche Utenti, Ricavi e Ordini.</p> |
 | **E-mail/AJO** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
-| **Sondaggio** | <p>**Questo ti può aiutare** a comprendere meglio</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come </p><p>Questo modello utilizza |
+| **Sondaggio** | Visualizzare il coinvolgimento degli utenti nei sondaggi. Visualizza il numero di avvii e completamenti, le domande e risposte principali e il numero di partecipanti nuovi rispetto a quelli ripetuti.<p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i sondaggi futuri per ottenere una migliore partecipazione.</p><p>Questo modello utilizza le metriche Utenti, Eventi, Inizio sondaggio, Completamento sondaggio e Tasso di completamento sondaggio.</p> |
 
 ### AJO {#AJO-templates}
 
@@ -868,8 +996,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-campaign"
->title="Campagne AJO"
->abstract=""
+>title="Visualizza le metriche essenziali per le campagne Journey Optimizer, tra cui campagne e-mail, sperimentazione, in-app, SMS e altro ancora."
+>abstract="**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia della tua campagna e del livello di coinvolgimento.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -877,8 +1005,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-journey"
->title="percorsi AJO"
->abstract=""
+>title="Visualizzare le metriche essenziali per i percorsi Journey Optimizer, inclusi percorsi e-mail, sperimentazione, in-app, SMS e altro ancora."
+>abstract="**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia e del livello di coinvolgimento del tuo percorso.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -886,8 +1014,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
->title="Pagine di destinazione di AJO"
->abstract=""
+>title="Visualizzare il comportamento degli utenti, i pattern di coinvolgimento, i tassi di conversione e altre metriche chiave."
+>abstract="**Questo può aiutarti** a comprendere meglio l&#39;efficacia della tua pagina di destinazione. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le prestazioni della pagina di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -895,8 +1023,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
->title="Rapporto panoramica di AJO"
->abstract=""
+>title="Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente."
+>abstract="**Questo ti può aiutare** a comprendere meglio l&#39;efficacia di alto livello delle tue campagne e dei tuoi percorsi. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -904,8 +1032,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
->title="Abbonamenti AJO"
->abstract=""
+>title="Visualizzare gli abbonamenti e gli annullamenti degli abbonamenti dei profili associati a determinati elenchi."
+>abstract="**Questo ti può aiutare** a comprendere meglio l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio regolare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,14 +1,14 @@
 ---
 title: Analisi delle tendenze
-description: Misura il coinvolgimento utenti nel tempo.
+description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_guidedanalysis_trends_button"
 >title="Tendenze"
->abstract="Misura il coinvolgimento utenti nel tempo."
+>abstract="Misura il coinvolgimento degli utenti nel tempo."
 
 <!-- markdownlint-enable MD034 -->
 
