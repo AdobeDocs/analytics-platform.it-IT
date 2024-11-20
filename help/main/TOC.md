@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 92%
       + [Collegamento per l’aggiornamento: eseguire la migrazione a Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
       + [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
-      + [Aggiungi il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Utilizza esclusivamente il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
       + [Spostarsi dal connettore di origine di Analytics all’SDK per web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
