@@ -3,8 +3,9 @@ description: Come porre domande sulla documentazione del Customer Journey Analyt
 title: Assistente IA per Adobe Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -26,7 +27,7 @@ Alcuni esempi di domande sui concetti includono:
 * Per che cosa si usa meglio il Customer Journey Analytics?
 * Come si imposta una visualizzazione dati?
 
-Non è possibile rispondere a domande che esulano dall’ambito del Customer Journey Analytics, ad esempio domande su altri prodotti Adobe come Adobe Target e la suite Adobe Creative Cloud.
+Non è possibile rispondere a domande che esulano dall’ambito di Customer Journey Analytics, ad esempio domande su altri prodotti Adobe come Adobe Target e la suite Adobe Creative Cloud.
 
 L’Assistente per l’intelligenza artificiale per il Customer Journey Analytics è disponibile per tutti i livelli di prodotto.
 
