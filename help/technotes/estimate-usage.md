@@ -4,9 +4,9 @@ description: Mostra due metodi per stimare l’utilizzo e un metodo per la gesti
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
+source-git-commit: 191d1b7a4b851e93a44487dad4794709cbbd0374
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '843'
 ht-degree: 68%
 
 ---
@@ -29,10 +29,6 @@ Per gestire l&#39;utilizzo del Customer Journey Analytics:
 ## Stimare la dimensione della connessione {#estimate-size}
 
 Potrebbe essere necessario sapere quante righe di dati evento si hanno attualmente in [!UICONTROL Customer Journey Analytics]. Per ottenere un resoconto accurato dell’utilizzo dei record di dati evento (righe di dati) per la tua organizzazione, procedi come segue **per ciascuna delle connessioni create dall’organizzazione**.
-
->[!NOTE]
->
->Effettua questa operazione il primo venerdì di ogni mese, in quanto Adobe genera il rapporto sull’utilizzo più recente in quel giorno.
 
 1. In [!UICONTROL Customer Journey Analytics], fai clic sulla scheda **[!UICONTROL Connections]**.
 
