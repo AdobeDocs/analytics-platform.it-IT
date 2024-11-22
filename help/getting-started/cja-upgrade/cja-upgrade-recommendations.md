@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1594'
 ht-degree: 7%
 
 ---
@@ -22,19 +22,17 @@ A seconda di diversi fattori, come la timeline e i vincoli delle risorse, i pass
 
 ## Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni
 
->[!NOTE]
->
->I passaggi di aggiornamento descritti in questa sezione sono i passaggi di aggiornamento consigliati che qualsiasi organizzazione può utilizzare per eseguire correttamente l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
->
->Tuttavia, a seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati potrebbero non essere pratici per la tua organizzazione. In questo caso, utilizza il [questionario di aggiornamento di Adobe Analytics al Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/) per generare in modo dinamico passaggi di aggiornamento personalizzati in base alle circostanze specifiche della tua organizzazione.
-
 Il processo consigliato di aggiornamento da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dati preferito per il Customer Journey Analytics. In aggiunta a Web SDK, Adobe consiglia anche di utilizzare il connettore di origine di Analytics per facilitare la transizione al Customer Journey Analytics. Utilizza il connettore di origine di Analytics per conservare i dati storici di Adobe Analytics ed eseguire confronti di dati affiancati.
 
-Dopo la transizione completa al Customer Journey Analytics, il connettore di origine di Analytics può essere disattivato e l’SDK web di Experience Platform può essere utilizzato esclusivamente.
+Una volta che si dispone di un numero sufficiente di dati storici utilizzando Experience Platform Web SDK e si è effettuata la transizione completa al Customer Journey Analytics, il connettore di origine di Analytics può essere disattivato e l’SDK web può essere utilizzato esclusivamente.
+
+>[!NOTE]
+>
+>I passaggi di aggiornamento descritti in questa sezione non sono pratici per la tua organizzazione. Utilizza il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/) per generare in modo dinamico passaggi di aggiornamento personalizzati per le circostanze specifiche della tua organizzazione.
 
 ### Processo di aggiornamento consigliato di alto livello
 
-1. **Implementa Experience Platform Web SDK**
+1. **Implementa Experience Platform Web SDK (per la raccolta dati in corso)**
 
    Una nuova implementazione di Experience Platform Web SDK è il modo migliore per raccogliere dati per il Customer Journey Analytics. Fornisce la base migliore per ottenere il massimo dal Customer Journey Analytics perché è il metodo più performante, semplice e a prova di futuro per l&#39;implementazione del Customer Journey Analytics.
 
@@ -44,7 +42,7 @@ Dopo la transizione completa al Customer Journey Analytics, il connettore di ori
 
    * Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)
 
-1. **Configura il connettore di origine di Adobe Analytics**
+1. **Configura il connettore di origine di Adobe Analytics (per il recupero dei dati storici)**
 
    Per facilitare la transizione a utilizzando Experience Platform Web SDK con Customer Journey Analytics, Adobe consiglia inoltre di utilizzare il connettore di origine di Adobe Analytics. Questo consente di conservare in Customer Journey Analytics i dati storici e visualizzare i dati dell’implementazione Adobe Analytics esistente, insieme ai dati della nuova implementazione Experience Platform Web SDK.
 
@@ -128,21 +126,9 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 1. [Convalidare che i dati fluiscano nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
 
-1. (Facoltativo) Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine di Analytics:
-
-   >[!NOTE]
-   >
-   >Se non hai creato in precedenza un connettore di origine Analytics, procedi come segue.
-   >
-   >Se utilizzi già il connettore di origine Analytics con Customer Journey Analytics, segui i passaggi descritti in [Passare dal connettore di origine Analytics all&#39;SDK Web per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
-
-   1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
-
-   1. [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-   1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
-
 1. [Migra progetti e componenti](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
+
+   <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
 1. (Facoltativo) Se utilizzi canali di marketing in Adobe Analytics, puoi [creare un campo derivato dal canale di marketing nel Customer Journey Analytics](/help/data-views/derived-fields/derived-fields.md#marketing-channels).
 
@@ -152,9 +138,25 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    Utilizza [il modello di funzione canali di marketing](/help/data-views/derived-fields/derived-fields.md#marketing-channels) nei campi derivati per creare rapidamente un campo derivato per i canali di marketing.
 
-1. Confronta i dati della vecchia implementazione con quelli della nuova implementazione e assicurati di comprendere tutte le differenze e il motivo per cui esistono.
+1. Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics della nuova implementazione e assicurati di comprendere tutte le differenze e il motivo per cui esistono. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
-1. Informazioni sul supporto delle funzionalità [ nel Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). La maggior parte delle funzioni di Adobe Analytics sono supportate nel Customer Journey Analytics e molte funzioni aggiuntive sono disponibili nel Customer Journey Analytics.
+1. (Facoltativo) Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine di Analytics:
+
+   >[!NOTE]
+   >
+   >Se non hai creato in precedenza un connettore di origine Analytics, procedi come segue.
+   >
+   >Se utilizzi già il connettore di origine Analytics con Customer Journey Analytics, segui i passaggi descritti in [Passare dal connettore di origine Analytics all&#39;SDK Web per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+
+   1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+   1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi sullo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+      Oppure
+
+      Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+
+   1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
 1. Pianifica l’onboarding degli utenti.
 
@@ -164,9 +166,11 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    Per informazioni su alcune delle differenze principali tra Adobe Analytics e Customer Journey Analytics, consulta [Guida per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md).
 
-1. Disattiva la raccolta dati di AppMeasurement.
+1. Informazioni sul supporto delle funzionalità [ nel Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). La maggior parte delle funzioni di Adobe Analytics sono supportate nel Customer Journey Analytics e molte funzioni aggiuntive sono disponibili nel Customer Journey Analytics.
 
-1. Disattiva il connettore di origine di Analytics.
+1. [Disattiva la raccolta dati di AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md) quando l&#39;implementazione dell&#39;SDK Web è completa e hai familiarità con i dati che stai raccogliendo.
+
+1. Disattiva il connettore di origine di Analytics dopo che tutti i dati del connettore di origine di Analytics lasciano il periodo di conservazione dei dati.
 
    Con l’implementazione Experience Platform Web SDK, il connettore di origine Analytics è necessario solo per i dati storici di Adobe Analytics e per confrontare i dati dell’implementazione originale con quelli della nuova implementazione.
 

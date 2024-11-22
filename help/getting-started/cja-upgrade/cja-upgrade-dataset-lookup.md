@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 2%
+source-wordcount: '786'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Quando si utilizza il connettore di origine di Analytics, alcuni set di dati di 
 
 Per classificare i dati in Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è necessario creare uno schema XDM e un set di dati di ricerca per ogni dimensione che contiene i dati da classificare.
 
-## Creare uno schema XDM
+## Creare uno schema XDM da utilizzare con il set di dati di ricerca
 
 Crea un nuovo schema XDM per ogni dimensione che contiene i dati da classificare nel Customer Journey Analytics. Quando crei il set di dati di ricerca in un passaggio successivo, farà riferimento a questo schema.
 
@@ -120,9 +120,9 @@ Per aggiungere il set di dati di ricerca alla connessione nel Customer Journey A
 
 1. Seleziona **[!UICONTROL Add datasets]**, quindi seleziona **[!UICONTROL Save]**.
 
+   <!-- is there a step right in between here where you select the dataset -->
+
 1. Utilizzando il campo **[!UICONTROL Key]** e il campo **[!UICONTROL Matching key]**, crea una correlazione tra il campo nel set di dati di ricerca e quello nel set di dati evento o di riepilogo.
 
 1. Dopo che tutti i set di dati di ricerca sono stati aggiunti alla connessione nel Customer Journey Analytics, continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
 

@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 2%
+source-wordcount: '663'
+ht-degree: 8%
 
 ---
 
@@ -32,9 +32,13 @@ Per utilizzare il connettore di origine di Analytics per inserire nel Customer J
 
 1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Crea il connettore di origine di Analytics e mappa i campi come descritto di seguito.
+1. Se non disponi già di un connettore di origine Analytics, crea il connettore di origine Analytics e mappa i campi sullo schema XDM, come descritto di seguito.
 
-1. [Aggiungi il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+   Oppure
+
+   Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+
+1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## Creare il connettore di origine di Analytics e mappare i campi
 
@@ -69,6 +73,8 @@ Per creare un connettore di origine di Adobe Analytics da utilizzare per i dati 
    ![mappa campi schema](assets/schema-mapping.png)
 
    1. In **[!UICONTROL Source field]**, selezionare un campo Adobe Analytics dal gruppo di campi Modello Adobe Analytics ExperienceEvent. Quindi, in **[!UICONTROL Target field]**, seleziona il campo XDM a cui vuoi mappare.
+
+      Non tutti i campi di Adobe Analytics hanno un campo corrispondente in XDM a causa delle differenze di architettura inerenti tra AppMeasurement e XDM.
 
    1. Ripeti questa procedura per ogni campo del gruppo di campi Modello Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
 

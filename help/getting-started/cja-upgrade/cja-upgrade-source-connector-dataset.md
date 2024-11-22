@@ -1,5 +1,5 @@
 ---
-title: Aggiungi il set di dati del connettore di origine di Analytics alla connessione
+title: Aggiungere il set di dati del connettore di origine di Analytics alla connessione
 description: Scopri come aggiungere il set di dati del connettore di origine di Analytics alla connessione
 role: Admin
 solution: Customer Journey Analytics
@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 24%
+source-wordcount: '837'
+ht-degree: 25%
 
 ---
 
-# Aggiungi il set di dati del connettore di origine di Analytics alla connessione
+# Aggiungere il set di dati del connettore di origine di Analytics alla connessione
 
 >[!NOTE]
 > 
@@ -32,11 +32,15 @@ Per utilizzare il connettore di origine di Analytics per inserire nel Customer J
 
 1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi sullo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   Oppure
+
+   Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. Aggiungi il set di dati del connettore di origine di Analytics alla connessione, come descritto di seguito.
 
-## Aggiungi il set di dati del connettore di origine di Analytics alla connessione
+## Aggiungere il set di dati del connettore di origine di Analytics alla connessione
 
 Dopo aver [creato un connettore di origine Analytics per i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md), viene automaticamente creato un set di dati per i dati di Analytics.
 
@@ -83,20 +87,26 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
 1. Nella sezione **[!UICONTROL Dataset backfill]**, selezionare **[!UICONTROL Request backfill]**.
 
-1. Definire il periodo da includere nella retrocompilazione immettendo le date di inizio e di fine o selezionando l&#39;icona del calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
+1. Definire il periodo che si desidera includere nel Customer Journey Analytics per il backfill della connessione immettendo le date di inizio e di fine o selezionando l&#39;icona del calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
 
-   Il connettore di origine di Analytics importa 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è di 3 mesi.
+   Indica in modo esplicito le date della richiesta di backfill. A seconda di diversi fattori, potrebbe essere utile effettuare una delle seguenti operazioni:
 
-   >[!IMPORTANT]
-   >
-   >Indica in modo esplicito le date della richiesta di backfill. La data di fine deve essere la data in cui hai iniziato a raccogliere i dati con l’implementazione dell’SDK web.
-   >
-   >In alternativa, puoi scegliere una data poco dopo la data in cui hai iniziato a raccogliere i dati con l’implementazione dell’SDK web, quindi utilizzare i segmenti per filtrare i dati sovrapposti.
+   * Scegli una data di fine corrispondente alla data della prima raccolta dei dati con l’implementazione dell’SDK web.
+
+   * Scegli una data di fine che sia poco successiva alla data in cui hai iniziato a raccogliere i dati con l’implementazione dell’SDK web, quindi utilizza i segmenti di visualizzazione dati per filtrare i dati sovrapposti.
+
+   * Scegli una data di fine che determini una maggiore sovrapposizione nei dati, quindi utilizza i segmenti di visualizzazione dati per filtrare i dati sovrapposti.
+
+     **Nota:** questa opzione comporterebbe costi maggiori perché la connessione conterrebbe più righe.
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
 1. Seleziona **[!UICONTROL Queue backfill]**.
 
 1. Seleziona **[!UICONTROL Add datasets]**, quindi seleziona **[!UICONTROL Save]** per salvare la connessione.
+
+1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, vedere [Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+
+   Questa opzione è necessaria solo se non è già stata eseguita durante la configurazione dell’implementazione dell’SDK web.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
