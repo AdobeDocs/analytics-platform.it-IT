@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -68,8 +68,8 @@ ht-degree: 97%
       + [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
-      + [Utilizza esclusivamente il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [Spostarsi dal connettore di origine di Analytics all’SDK per web](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+      + [Utilizzare esclusivamente il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
+      + [Spostarsi dal connettore di origine di Analytics al Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
       + [Disattiva la raccolta dati di AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
