@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 1%
@@ -26,11 +26,11 @@ Analogamente ai dati delle classificazioni in Adobe Analytics, i set di dati di 
 
 Quando si utilizza il connettore di origine di Analytics, alcuni set di dati di ricerca standard vengono applicati automaticamente al momento del rapporto. Per ulteriori informazioni, consulta [Aggiungere ricerche standard ai set di dati](/help/connections/standard-lookups.md).
 
-Per classificare i dati in Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è necessario creare uno schema XDM e un set di dati di ricerca per ogni dimensione che contiene i dati da classificare.
+Per classificare i dati in Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è necessario creare uno schema personalizzato e un set di dati di ricerca per ogni dimensione che contiene i dati da classificare.
 
-## Creare uno schema XDM da utilizzare con il set di dati di ricerca
+## Creare uno schema personalizzato da utilizzare con il set di dati di ricerca
 
-Crea un nuovo schema XDM per ogni dimensione che contiene i dati da classificare nel Customer Journey Analytics. Quando crei il set di dati di ricerca in un passaggio successivo, farà riferimento a questo schema.
+Crea un nuovo schema personalizzato per ogni dimensione che contiene i dati da classificare nel Customer Journey Analytics. Quando crei il set di dati di ricerca in un passaggio successivo, farà riferimento a questo schema.
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
@@ -58,7 +58,7 @@ Per creare uno schema da utilizzare con un set di dati di ricerca nel Customer J
 
 ## Creare un set di dati di ricerca
 
-Dopo aver [creato uno schema XDM](#create-an-xdm-schema-for-lookup-datasets) da utilizzare per un set di dati di ricerca, è necessario creare il set di dati di ricerca e mapparlo sullo schema.
+Dopo aver [creato uno schema personalizzato](#create-a-custom-schema-to-use-with-the-lookup-dataset) da utilizzare per un set di dati di ricerca, è necessario creare il set di dati di ricerca e mapparlo allo schema.
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
@@ -100,7 +100,7 @@ Per creare un set di dati di ricerca da utilizzare con uno schema nel Customer J
 
 ## Aggiungere il set di dati di ricerca alla connessione nel Customer Journey Analytics
 
-Dopo aver [creato uno schema XDM](#create-an-xdm-schema-for-lookup-datasets) e [creato un set di dati di ricerca](#create-a-lookup-dataset), devi aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics.
+Dopo aver [creato uno schema personalizzato](#create-a-custom-schema-to-use-with-the-lookup-dataset) e [creato un set di dati di ricerca](#create-a-lookup-dataset), è necessario aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics.
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 

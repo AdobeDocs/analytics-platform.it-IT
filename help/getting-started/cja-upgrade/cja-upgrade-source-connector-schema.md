@@ -1,20 +1,20 @@
 ---
-title: Creare uno schema XDM per il connettore di origine di Analytics
-description: Scopri come creare uno schema XDM per il connettore di origine di Analytics
+title: Creare uno schema personalizzato per il connettore di origine di Analytics
+description: Scopri come creare uno schema personalizzato per il connettore di origine di Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 8%
+source-wordcount: '534'
+ht-degree: 2%
 
 ---
 
-# Creare uno schema XDM per il connettore di origine di Analytics
+# Creare uno schema personalizzato per il connettore di origine di Analytics
 
 >[!NOTE]
 > 
@@ -26,13 +26,13 @@ ht-degree: 8%
 
 Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici nel Customer Journey Analytics.
 
-Si presuppone che si desideri [creare uno schema XDM durante l&#39;aggiornamento al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle specifiche applicazioni Platform utilizzate.
+Si presuppone che si desideri [creare uno schema personalizzato da utilizzare con l&#39;implementazione dell&#39;SDK Web di Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle applicazioni Platform specifiche utilizzate.
 
 Per utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati storici, è necessario:
 
-1. Crea uno schema XDM per il connettore di origine di Analytics, come descritto di seguito.
+1. Crea uno schema personalizzato per il connettore di origine di Analytics, come descritto di seguito.
 
-1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi sullo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi sullo schema personalizzato](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
 
    Oppure
 
@@ -40,9 +40,9 @@ Per utilizzare il connettore di origine di Analytics per inserire nel Customer J
 
 1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
-## Creare uno schema XDM per il connettore di origine di Analytics
+## Creare uno schema personalizzato per il connettore di origine di Analytics
 
-Dovresti avere già [creato un nuovo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) per l&#39;implementazione Experience Platform Web SDK da utilizzare con il Customer Journey Analytics. Questo schema deve contenere qualsiasi gruppo di campi per i campi su cui intendi raccogliere dati.
+Dovresti avere già [creato un nuovo schema personalizzato](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) per l&#39;implementazione di Experience Platform Web SDK da utilizzare con il Customer Journey Analytics. Questo schema deve contenere qualsiasi gruppo di campi per i campi su cui intendi raccogliere dati.
 
 Ora è necessario utilizzare gli stessi gruppi di campi dallo schema SDK per web e aggiungerli a un nuovo schema che può essere utilizzato con il connettore di origine di Analytics.
 
@@ -52,9 +52,9 @@ Questo schema per il connettore di origine di Analytics deve contenere:
 
 * Gruppo di campi Modello Adobe Analytics ExperienceEvent
 
-Per creare lo schema XDM da utilizzare con il connettore di origine di Analytics:
+Per creare lo schema personalizzato da utilizzare con il connettore di origine di Analytics:
 
-1. In Adobe Experience Platform, iniziare a creare un nuovo schema XDM come descritto in [Creare uno schema XDM da utilizzare con il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. In Adobe Experience Platform, iniziare a creare un nuovo schema personalizzato come descritto in [Creare uno schema personalizzato da utilizzare con l&#39;implementazione di Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 1. Aggiungi tutti i gruppi di campi (compresi eventuali gruppi di campi personalizzati) inclusi nello schema creato per l’implementazione dell’SDK per web.
 
