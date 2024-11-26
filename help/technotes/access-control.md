@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1401'
 ht-degree: 13%
 
 ---
@@ -65,6 +65,16 @@ Oltre ad essere stati aggiunti come amministratore di prodotto nel **profilo di 
   | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Accesso in sola lettura per gli spazi dei nomi di identità. |
 
   Per ulteriori informazioni sulle autorizzazioni Experience Platform, vedere [Gestione delle autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
+
+
+* Se Adobe Journey Optimizer è stato integrato con CJA in cui sono presenti connessioni AJO, è necessario aggiungere anche le autorizzazioni Percorsi per accedere alle connessioni:
+
+  | Categoria | Autorizzazione | Descrizione |
+  |---|---|---|
+  | [!UICONTROL Journeys] | [!UICONTROL View Journeys Events, Data Sources and Actions] | Accesso in sola lettura a eventi di percorso, azioni personalizzate di percorso e origini dati di percorso. |
+  | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys Events, Data Sources and Actions] | Leggi, crea, modifica ed elimina eventi, origini o azioni. |
+  | [!UICONTROL Journeys] | [!UICONTROL View Journeys] | Accesso in sola lettura ai percorsi. |
+  | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys] | Lettura, creazione, modifica ed eliminazione di percorsi. |
 
 * Esporta set di dati in [destinazioni](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
