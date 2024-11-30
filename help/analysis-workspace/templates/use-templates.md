@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
+source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
 workflow-type: tm+mt
-source-wordcount: '15370'
+source-wordcount: '15380'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,9 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    * **[!UICONTROL Adobe templates]**: mostra tutti i modelli forniti da Adobe.
 
-   * **[!UICONTROL _login_company_name _modelli]**: mostra tutti i modelli aziendali creati per nell&#39;organizzazione.
+   * **[!UICONTROL _login_company_name _modelli]**: mostra tutti i modelli aziendali creati per la tua organizzazione.
 
-     I modelli aziendali possono essere creati solo da un amministratore.
+     I modelli aziendali possono essere creati solo da un amministratore. Per informazioni su come creare un modello aziendale, vedere [Creare e gestire modelli](/help/analysis-workspace/templates/create-templates.md).
 
 1. Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
 
@@ -77,13 +77,15 @@ Se si esce da un modello dopo aver apportato modifiche, viene richiesto di salva
 
 Per personalizzare un modello e salvarlo come progetto:
 
-1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Workspace**].
+1. In Customer Journey Analytics selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Selezionare la scheda [!UICONTROL **Modelli**].
 
 1. Seleziona il modello da visualizzare. Ad esempio, in [!UICONTROL **Più popolari**], seleziona il modello [!UICONTROL **Pagine**].
 
    Il modello Pagine, visualizzato in Analysis Workspace, mostra due [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Grafico a barre](/help/analysis-workspace/visualizations/bar.md) e [Numero riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md)) e una [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). La metrica utilizzata è Occorrenze.
+
+   <!--update screenshot. The following is AA -->
 
    ![Modello pagine](assets/pages-report.png)
 
@@ -96,7 +98,7 @@ Per personalizzare un modello e salvarlo come progetto:
 
 1. (Facoltativo) Salva il modello come progetto selezionando [!UICONTROL **Progetto**] > [!UICONTROL **Salva**].
 
-   Il modello viene salvato come nuovo progetto e non modifica il rapporto esistente. Per ulteriori informazioni sul salvataggio di un rapporto come progetto, consulta [Salvare i progetti](/help/analysis-workspace/build-workspace-project/save-projects.md).
+   Il modello viene salvato come nuovo progetto e non modifica il modello esistente. Per ulteriori informazioni sul salvataggio dei progetti, vedere [Salva progetti](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
 ## Modelli disponibili
 
