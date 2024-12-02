@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
+source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '543'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Per creare un nuovo modello utilizzabile dalle persone della società di accesso
    |---------|----------|
    | **[!UICONTROL Name]** | Fornisci un nome descrittivo per il modello. |
    | **[!UICONTROL Description]** | Fornire una breve descrizione del modello che ne descriva gli usi previsti. |
-   | **[!UICONTROL Why use this template]** | Fornisci una breve spiegazione per informare le persone dell’organizzazione su come potrebbe essere utilizzato questo modello. |
+   | **[!UICONTROL Why use this template]** | Fornisci una breve spiegazione per informare le persone dell’organizzazione su come potrebbe essere utilizzato questo modello. Questa spiegazione viene visualizzata nella pagina Anteprima del modello. |
    | **[!UICONTROL Channels]** | Scegli tutti i canali applicabili a questo modello. È possibile selezionare più canali: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** e **[!UICONTROL In-store]**.<p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
    | **[!UICONTROL Use cases]** | Scegli eventuali casi d’uso applicabili a questo modello. È possibile selezionare più casi d&#39;uso: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** e **[!UICONTROL Acquisition]**. <p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
    | **[!UICONTROL Tags]** | Specifica i tag da applicare al modello. Gli utenti possono filtrare l’elenco dei modelli in base ai tag aggiunti. |

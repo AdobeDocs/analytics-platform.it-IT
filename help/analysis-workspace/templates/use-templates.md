@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
+source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
 workflow-type: tm+mt
-source-wordcount: '15380'
+source-wordcount: '15430'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,11 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
      I modelli aziendali possono essere creati solo da un amministratore. Per informazioni su come creare un modello aziendale, vedere [Creare e gestire modelli](/help/analysis-workspace/templates/create-templates.md).
 
-1. Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+1. Per modificare la modalità di visualizzazione dei modelli disponibili, utilizzare una delle opzioni seguenti:
+
+   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+
+   * Quando si utilizza la vista a schede ![icona vista a schede](assets/card-view-icon.png), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Nel campo di ricerca, iniziare a digitare il nome del modello che si desidera trovare, quindi selezionarlo dall&#39;elenco dei modelli.
 
@@ -57,17 +61,23 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    Per un elenco dei modelli disponibili, vedere la sezione [Modelli disponibili](#available-templates) di seguito.
 
-1. (Facoltativo) Visualizza e utilizza modelli che contengono componenti non disponibili nella visualizzazione dati. Per impostazione predefinita, gli unici modelli visualizzati sono quelli che utilizzano componenti disponibili nella visualizzazione dati.
+1. (Facoltativo) Visualizza e utilizza modelli che contengono componenti non disponibili nella visualizzazione dati. Per impostazione predefinita, i modelli vengono visualizzati solo se utilizzano componenti disponibili nella visualizzazione dati.
 
-   1. Seleziona (nome dell’opzione filtro?) per visualizzare i modelli che richiedono componenti aggiuntivi.
+   1. Seleziona l’icona del filtro.
 
-      <!-- add screenshot -->
+   1. Selezionare **[!UICONTROL Not ready for use]** per visualizzare i modelli che richiedono componenti aggiuntivi.
 
-   1. Seleziona il modello da utilizzare.
-
-   1. Se il modello contiene componenti non disponibili nella visualizzazione dati, viene visualizzato un messaggio che indica quali componenti risultano mancanti. Fai clic su (pulsante?) per passare alla visualizzazione dati in cui è possibile crearli automaticamente. <!--how do you do this? Walk through the process -->
+      ![Usa un modello senza componenti](assets/template-not-ready.png)
 
 1. Seleziona il modello per creare un rapporto basato sul modello scelto.
+
+1. (Condizionale) Se il modello contiene componenti non disponibili nella visualizzazione dati, viene visualizzata la finestra di dialogo Visualizzazione dati non compatibile, in cui viene indicato che la visualizzazione dati è incompatibile con il modello e vengono indicati i componenti mancanti.
+
+   Effettuare una delle seguenti operazioni:
+
+   * Scegliere una visualizzazione dati diversa nel menu a discesa **[!UICONTROL Change data view]**.
+
+   * Selezionare **[!UICONTROL Continue anyway]** per visualizzare il modello con i componenti mancanti.
 
 ## Creare un progetto basato su un modello {#use-reports}
 
