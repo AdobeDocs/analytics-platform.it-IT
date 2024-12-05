@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 4%
+source-wordcount: '970'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Per informazioni su come gli utenti possono creare un progetto basato su un mode
 
 Gli amministratori possono modificare o eliminare i modelli aziendali.
 
-1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona **[!UICONTROL _login_company_name _modelli]**.
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi in **[!UICONTROL Templates]** nella barra a sinistra seleziona **[!UICONTROL _login_company_name _modelli]**.
 
 1. Se visualizzi i modelli in una vista a colonne ![icona vista a colonne](assets/column-view-icon.png):
 
@@ -67,6 +67,8 @@ Gli amministratori possono modificare o eliminare i modelli aziendali.
    1. Individuare il modello che si desidera modificare o eliminare.
 
       ![Visualizzazione scheda modello società](assets/company-template-cards.png)
+
+   1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Preview]**.
 
    1. Selezionare l&#39;icona Altro, quindi selezionare **[!UICONTROL Edit]** o **[!UICONTROL Delete]**.
 
@@ -97,6 +99,73 @@ Gli amministratori possono rinominare, assegnare tag e approvare i modelli azien
    È inoltre possibile eliminare un modello oppure eliminare un modello come descritto in [Modifica o elimina modelli](#edit-or-delete-templates).
 
 1. (Facoltativo) Per tornare alla visualizzazione normale, nella barra dei filtri, deselezionare **[!UICONTROL Company templates]**.
+
+## Aggiungere componenti mancanti alla visualizzazione dati per un determinato modello
+
+Per impostazione predefinita, alcuni modelli forniti da Adobe non funzionano perché contengono componenti non presenti nella visualizzazione dati.
+
+Per ogni componente mancante, nella visualizzazione dati è disponibile un’etichetta di contesto corrispondente. È necessario aggiungere l’etichetta di contesto corrispondente a un componente già presente nella visualizzazione dati, oppure è necessario aggiungere un nuovo componente alla visualizzazione dati e aggiungervi l’etichetta di contesto.
+
+Per aggiungere componenti mancanti a un modello:
+
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi in **[!UICONTROL Templates]** nella barra a sinistra, seleziona **[!UICONTROL Adobe templates]**.
+
+1. Seleziona l’icona del filtro per filtrare l’elenco dei modelli.
+
+1. Selezionare **[!UICONTROL Not ready for use]** per visualizzare i modelli che richiedono componenti non presenti nella visualizzazione dati.
+
+   ![Usa un modello senza componenti](assets/template-not-ready.png)
+
+1. Individua un modello non ancora pronto per l’utilizzo con la visualizzazione dati.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * **Se visualizzi modelli in una vista a colonne** ![icona vista a colonne](assets/column-view-icon.png):
+
+      1. Vai al modello che non è ancora pronto per l’uso con la visualizzazione dati, quindi seleziona l’icona info accanto al nome del modello.
+
+         ![Informazioni modello società](assets/company-template-info.png)
+
+      1. Seleziona **[!UICONTROL Preview]**.
+
+         ![Pagina anteprima modello](assets/template-preview.png)
+
+   * **Se visualizzi modelli in una visualizzazione a schede** ![icona di visualizzazione a schede](assets/card-view-icon.png):
+
+      1. Individua il modello non ancora pronto per l’utilizzo con la visualizzazione dati.
+
+         ![Visualizzazione scheda modello società](assets/company-template-cards.png)
+
+      1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Preview]**.
+
+         ![Pagina anteprima modello](assets/template-preview.png)
+
+1. Nella sezione **[!UICONTROL Missing components]** viene visualizzato un elenco di componenti mancanti nella visualizzazione dati. Seleziona **[!UICONTROL Add these components to your data view]**.
+
+   La pagina di configurazione per la visualizzazione dati viene visualizzata in una nuova scheda.
+
+1. Selezionare la scheda **[!UICONTROL Components]** per la visualizzazione dati.
+
+   ![Scheda dei componenti della visualizzazione dati](assets/template-dataview.png)
+
+1. Per ogni componente elencato come mancante nel modello, eseguire una delle operazioni seguenti nella scheda **[!UICONTROL Components]**:
+
+   * Nella sezione **[!UICONTROL Included components]** selezionare un componente già incluso nella visualizzazione dati che si desidera utilizzare per il componente mancante.
+
+   * Aggiungi un nuovo componente alla visualizzazione dati che desideri utilizzare per il componente mancante, quindi seleziona il componente.
+
+     Per aggiungere un nuovo componente alla visualizzazione dati, cercare nell&#39;elenco dei campi dello schema, quindi trascinarlo nella sezione **[!UICONTROL Included components]**.
+
+1. Con il componente selezionato, individuare il menu a discesa **[!UICONTROL Context labels]** nella colonna di destra.
+
+   ![Scheda dei componenti della visualizzazione dati](assets/template-dataview-context-label.png)
+
+1. Nel menu a discesa **[!UICONTROL Context labels]**, selezionare l&#39;etichetta di contesto con lo stesso nome del componente mancante.
+
+1. Seleziona **[!UICONTROL Save and continue]**.
+
+1. Per ogni componente mancante, ripeti il processo di aggiunta dell’etichetta di contesto corrispondente a un componente nella visualizzazione dati.
+
 
 ## Accedere a un modello aziendale
 

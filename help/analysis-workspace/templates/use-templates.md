@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
 workflow-type: tm+mt
-source-wordcount: '15430'
+source-wordcount: '15471'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,11 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    Per un elenco dei modelli disponibili, vedere la sezione [Modelli disponibili](#available-templates) di seguito.
 
-1. (Facoltativo) Visualizza e utilizza modelli che contengono componenti non disponibili nella visualizzazione dati. Per impostazione predefinita, i modelli vengono visualizzati solo se utilizzano componenti disponibili nella visualizzazione dati.
+1. (Facoltativo) Puoi visualizzare i modelli che contengono componenti non disponibili nella visualizzazione dati. Per impostazione predefinita, i modelli vengono visualizzati solo se utilizzano componenti disponibili nella visualizzazione dati.
+
+   >[!NOTE]
+   >
+   >   Prima di poter utilizzare questi modelli, un amministratore deve innanzitutto aggiungere alla visualizzazione dati le etichette di contesto richieste per i componenti mancanti. Per ulteriori informazioni, vedere [Aggiungere componenti mancanti alla visualizzazione dati per un modello specificato](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [Utilizzare i modelli](/help/analysis-workspace/templates/create-templates.md).
 
    1. Seleziona l’icona del filtro.
 
