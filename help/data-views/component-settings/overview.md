@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 | [!UICONTROL Component Name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
 | [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
 | [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. Queste etichette potrebbero essere necessarie per definire un set di componenti che è possibile utilizzare nei rapporti sulla sperimentazione utilizzando il [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace. Per ulteriori informazioni, consulta [Integrare con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Reportistica di destinazione](/help/integrations/at.md). |
+| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. Queste etichette potrebbero essere necessarie per definire un set di componenti utilizzabili nel reporting sulla sperimentazione utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace. Per ulteriori informazioni, consulta [Integrare con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Reportistica di destinazione](/help/integrations/at.md). |
 | [!UICONTROL Schema field name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
