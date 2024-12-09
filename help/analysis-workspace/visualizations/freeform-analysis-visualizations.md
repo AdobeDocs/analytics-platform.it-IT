@@ -5,16 +5,16 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 14%
+source-wordcount: '1529'
+ht-degree: 16%
 
 ---
 
 # Panoramica delle visualizzazioni
 
-Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri.
+Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici di dispersione e altri.
 
 ## Tipi
 
@@ -25,11 +25,11 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![AreaGrafica](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | Visualizzazione con grafico ad area. È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) | Visualizzazione con grafico a barre con barre verticali che rappresentano diversi valori per una o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analysis-workspace/visualizations/bar.md) | Visualizzazione con grafico a barre in pila con barre verticali che rappresentano diversi valori per una o più metriche. |
-| ![BulletGrafico](/help/assets/icons/GraphBullet.svg)</p> | [Punto elenco](/help/analysis-workspace/visualizations/bullet-graph.md) | Una visualizzazione con grafico bullet che mostra come un valore al quale sei interessato si confronta con altri intervalli di prestazioni (obiettivi). |
-| ![NumeroTesto](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una visualizzazione per coorte è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Una tabella coorte è utile per l’analisi di fidelizzazione, abbandono o latenza. |
+| ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) | Una visualizzazione con grafico bullet che mostra come un valore al quale sei interessato si confronta con altri intervalli di prestazioni (obiettivi). |
+| ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una visualizzazione per coorte è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Una tabella coorte è utile per l’analisi di fidelizzazione, abbandono o latenza. |
 | ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | Un grafico combinato consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. |
-| ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | Simile a un grafico a torta, una visualizzazione ad anello mostra i dati come parti o filtri di un insieme. |
-| ![FunnelConversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Una visualizzazione dell’abbandono mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
+| ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | Simile a un grafico a torta, una visualizzazione ad anello mostra i dati come parti o filtri di un insieme. |
+| ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | Una visualizzazione dell’abbandono mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
 | ![PercorsiGrafici](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Una visualizzazione di flusso mostra gli esatti percorsi dei clienti attraverso i siti web e le app. |
 | ![VisualizzaTabella](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una visualizzazione a forma libera è una visualizzazione interattiva. La visualizzazione di tabelle a forma libera è la base per l’analisi dei dati in Workspace. |
 | ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | La visualizzazione dell’istogramma classifica persone, visite o eventi in contenitori in base a un volume di metrica. |
@@ -38,9 +38,9 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![Ramo3](/help/assets/icons/Branch3.svg) | [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Una visualizzazione area di lavoro percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. |
 | ![MetricheChiave](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) | Una visualizzazione di riepilogo delle metriche chiave combina le visualizzazioni delle linee, delle modifiche di riepilogo e dei numeri di riepilogo. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) | Una visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
-| ![Dispersione grafico](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Una visualizzazione a grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. |
+| ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | Una visualizzazione a grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. |
 | ![RegolaPagina](/help/assets/icons/PageRule.svg) | [Intestazione sezione](section-header.md) | Identificare e articolare le sezioni all’interno di un pannello. |
-| ![SpostaSuGiù](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione della modifica di riepilogo mostra la modifica tra le celle selezionate come un numero o una percentuale grande. |
+| ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione della modifica di riepilogo mostra la modifica tra le celle selezionate come un numero o una percentuale grande. |
 | ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione del numero di riepilogo mostra la cella selezionata come un numero grande. |
 | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) | Una visualizzazione di testo consente di aggiungere testo definito dall’utente al Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md)<p> | In una visualizzazione con mappa ad albero i dati gerarchici (con struttura ad albero) vengono visualizzati come un insieme di rettangoli nidificati. |
@@ -60,7 +60,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
    * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg), quindi scegli l&#39;icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
 
-   * Aggiungi un [pannello vuoto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel), quindi seleziona la visualizzazione da aggiungere.
+   * Aggiungi un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md), quindi seleziona la visualizzazione da aggiungere.
 
    * Dal menu di scelta rapida di una visualizzazione esistente nel progetto Analysis Workspace, seleziona **[!UICONTROL Duplicate visualization]** o **[!UICONTROL Copy visualization]**.
 

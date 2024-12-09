@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 5%
+source-wordcount: '1487'
+ht-degree: 6%
 
 ---
 
@@ -46,14 +46,14 @@ Dall’area titolo è possibile creare un progetto, creare una cartella, modific
 ## Elenco dei progetti
 
 
-Nell’elenco dei progetti vengono visualizzati tutti i progetti di tua proprietà e che sono stati condivisi con te. L’elenco include le colonne seguenti:
+Nell’elenco dei progetti vengono visualizzati tutti i progetti di tua proprietà e che sono stati condivisi con te. L’elenco dispone delle seguenti colonne:
 
 | Colonna | Descrizione |
 | --- | --- | 
 | ![CasellaSelezione](/help/assets/icons/SelectBox.svg) | Quando sono selezionati uno o più progetti, nella parte inferiore dell’interfaccia di Project viene visualizzata una barra blu delle azioni. Vedi [Azioni](#actions) per ulteriori dettagli. |
-| ![ContornoStella](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un progetto. |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un progetto. |
 | **[!UICONTROL Title and description]** | Per modificare il progetto, selezionare il collegamento del titolo, che apre il [progetto Workspace](/help/analysis-workspace/home.md). I progetti condivisi con te sono indicati con ![Condividi](/help/assets/icons/ShareAlt.svg). Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un menu a comparsa con ulteriori dettagli sul progetto. Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida con azioni. Vedi [Azioni](#actions) per ulteriori dettagli. |
-| **[!UICONTROL Type]** | Un progetto Workspace, una cartella ![FolderUser](/help/assets/icons/FolderUser.svg) o una [scorecard mobile](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| **[!UICONTROL Type]** | Un progetto Workspace, una cartella ![FolderUser](/help/assets/icons/FolderUser.svg) o una [scorecard mobile](/help/mobile-app/home.md). |
 | **[!UICONTROL Tags]** | Tag applicati al progetto. |
 | Pianificato | Indica se il progetto è programmato per essere inviato tramite e-mail ai destinatari. Le opzioni sono ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Vedi [Inviare dati di progetto ad altri](/help/analysis-workspace/export/t-schedule-report.md). |
 | **[!UICONTROL Shared link (anyone)]** | Se un progetto è condiviso con altri, anche con persone che non hanno accesso ad Analysis Workspace. Le opzioni sono ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Active]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactive]**. Vedi [Condividi un progetto con qualcuno (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
@@ -72,7 +72,7 @@ Passa il puntatore del mouse su un&#39;intestazione di colonna per visualizzare 
 
 * **[!UICONTROL Sort Ascending]**
 * **[!UICONTROL Sort Descending]**
-* **[!UICONTROL Resize column]** (Autenticazione): Viene visualizzata una linea blu che consente di ridimensionare la colonna.
+* **[!UICONTROL Resize column]**. Viene visualizzata una linea blu che consente di ridimensionare la colonna.
 
 ### Azioni
 
@@ -104,7 +104,7 @@ Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida
 
 * Per definire le colonne da visualizzare per l&#39;[elenco progetti](#project-list), selezionare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) e nella finestra di dialogo **[!UICONTROL Customize table]** selezionare o deselezionare le colonne. Selezionare **[!UICONTROL Apply]** per applicare la personalizzazione. Vedi [Elenco progetti](#project-list) per ulteriori dettagli sulle colonne.
 
-## Pannello Filtro
+## Pannello filtro
 
 Puoi filtrare i progetti e le cartelle nell&#39;[Elenco progetti](#project-list) utilizzando il pannello dei filtri. Per mostrare o nascondere il pannello dei filtri, utilizza ![Filtro](/help/assets/icons/Filter.svg).
 

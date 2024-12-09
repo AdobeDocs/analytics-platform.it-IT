@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 28a43ef92bee1359509c0c3f92d51a08653830c3
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 28%
+source-wordcount: '1747'
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 28%
 >title="Pubblico medio per minuto del file multimediale"
 >abstract="Crea un pannello per analizzare il pubblico medio per minuto di un contenuto specifico o in un periodo di tempo specifico."
 
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -29,8 +28,6 @@ ht-degree: 28%
 >id="cja_workspace_mediaaverageminuteaudience_panel"
 >title="Pubblico medio per minuto del file multimediale"
 >abstract="Mostra le prestazioni di contenuti multimediali specifici o in un periodo di tempo personalizzato.<br/><br/>**Parametri generali **<br/>**Calcola metrica per**: seleziona la metrica da utilizzare per il pannello. Seleziona **Contenuto specifico** per analizzare il pubblico medio per minuto di un contenuto o evento specifico in base alla sua lunghezza. **Seleziona Periodo di tempo personalizzato** per analizzare il cambiamento del pubblico medio per minuto in un periodo di tempo personalizzato selezionato.<br/>**Dimensione di reporting**: seleziona questa opzione per creare rapporti in base a **Nome video** della dimensione **ID contenuto**. Disponibile solo quando hai selezionato Contenuto specifico come metrica.<br/>**Granularità**: seleziona la granularità per il reporting. Disponibile solo se hai selezionato Periodo di tempo personalizzato come metrica.<br/>**Filtra il contenuto per (facoltativo)**: seleziona uno spettacolo, una stagione, un episodio specifico oppure seleziona una dimensione personalizzata per filtrare il contenuto.<br/><br/>**Impostazioni avanzate **<br/>**Impostazioni tabella**: seleziona se visualizzare i valori di calcolo nella tabella.<br/>**Metrica tempo trascorso**: seleziona quale metrica del tempo trascorso desideri utilizzare per il calcolo del contenuto specifico. Disponibile solo quando hai selezionato Contenuto specifico come metrica."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#specific-content" text="Contenuto specifico"
->additional-url="https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#custom-time-period" text="Periodo di tempo personalizzato"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +36,7 @@ ht-degree: 28%
 >
 >Il pannello **[!UICONTROL Media average minute audience]** è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per il Customer Journey Analytics.
 >
->Per ulteriori informazioni, contatta il rappresentante commerciale Adobe o il team dell’account Adobe.
+>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 In Analysis Workspace, il pubblico medio per minuto può fornire informazioni su
@@ -59,18 +56,18 @@ Il pannello Pubblico medio per minuto fornisce i seguenti vantaggi rispetto alla
 
   Se esegui questo aggiornamento quando utilizzi la metrica, la classificazione della durata non esiste (se la classificazione non era presente). Oppure la classificazione della durata non è aggiornata (se la classificazione era presente ma non corretta).
 
-## Seleziona
+## Utilizzo
 
-Per utilizzare un pannello **[!UICONTROL Media average minute audience]**:
+Per usare un pannello **[!UICONTROL Media average minute audience]**:
 
 1. Crea un pannello **[!UICONTROL Media average minute audience]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
 1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
 
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
 ### Input del pannello
 
@@ -185,7 +182,7 @@ Il pannello Pubblico medio per minuto utilizza solo la metrica Pubblico medio pe
 
 >[!MORELIKETHIS]
 >
-> [Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 > [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 > [Pannello Tempo di riproduzione dei contenuti multimediali](media-playback-time-spent.md)
 >

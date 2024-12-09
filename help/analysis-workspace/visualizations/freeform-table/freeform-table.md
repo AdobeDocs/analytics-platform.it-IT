@@ -4,9 +4,9 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '692'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 28%
 <!-- markdownlint-enable MD034 -->
 
 
-In Analysis Workspace, una visualizzazione ![Tabella](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** è la base per l&#39;analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente per consentirti di analizzare e approfondire rapidamente.
+In Analysis Workspace, una visualizzazione ![Tabella](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** è la base per l&#39;analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](/help/components/overview.md) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente per consentirti di analizzare e approfondire rapidamente.
 
 ![Tabella a forma libera che mostra i componenti nelle righe e nelle colonne, incluse le visite e gli ordini in linea per più pagine Web.](assets/opening-section.png)
 
@@ -54,16 +54,16 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 ### Righe
 
 * Puoi [creare rapidamente una nuova visualizzazione](../freeform-analysis-visualizations.md#visualize) da una o più righe utilizzando ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg).
-* È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) del progetto.
+* È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) del progetto.
 * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Selezionare il numero accanto a **[!UICONTROL Rows]** nell&#39;intestazione della prima colonna per visualizzare più righe in una pagina. Passa a una pagina diversa utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg) nell&#39;intestazione della prima colonna.
-* Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa).
-* Le righe possono essere [filtrate](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings).
+* Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](/help/components/dimensions/t-breakdown-fa.md).
+* Le righe possono essere [filtrate](/help/components/filters/filters-overview.md) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Colonne
 
 * I componenti possono essere impilati all’interno di colonne per creare metriche filtrate, analisi incrociate e altro ancora.
-* La visualizzazione di ogni colonna può essere regolata nelle [impostazioni della colonna](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings).
-* Sono disponibili diverse azioni tramite il [menu di scelta rapida](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency). Il menu fornisce azioni diverse a seconda che sia selezionata l’intestazione della tabella, le righe o le colonne.
+* La visualizzazione di ogni colonna può essere regolata nelle [impostazioni della colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+* Sono disponibili diverse azioni tramite il [menu di scelta rapida](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). Il menu fornisce azioni diverse a seconda che sia selezionata l’intestazione della tabella, le righe o le colonne.
 
 
 ## Impostazioni

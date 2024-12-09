@@ -4,9 +4,9 @@ title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 30%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 30%
 
 Per aggiungere testo RTF definito dall&#39;utente al progetto Workspace, puoi utilizzare una visualizzazione ![Testo](/help/assets/icons/Text.svg) **[!UICONTROL Text]** o una descrizione per una visualizzazione e un pannello.
 
-## Seleziona
+## Utilizzo
 
 Puoi utilizzare la visualizzazione Testo nei seguenti modi:
 
@@ -45,7 +45,7 @@ Quando si modifica una casella di testo o una descrizione, è possibile regolare
 
 ## Aggiungere collegamenti ipertestuali {#hyperlinks}
 
-Per aggiungere un collegamento ipertestuale, evidenziare il testo e selezionare ![Collegamento](/help/assets/icons/Link.svg) nel menu. Puoi utilizzare i collegamenti ipertestuali per fornire ulteriore assistenza ai destinatari del progetto. I collegamenti ipertestuali possono essere collegati a siti Web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) e altro ancora.
+Per aggiungere un collegamento ipertestuale, evidenziare il testo e selezionare ![Collegamento](/help/assets/icons/Link.svg) nel menu. Puoi utilizzare i collegamenti ipertestuali per fornire ulteriore assistenza ai destinatari del progetto. I collegamenti ipertestuali possono essere collegati a siti Web esterni, pagine di documentazione, [progetti, pannelli o visualizzazioni di Workspace](/help/analysis-workspace/curate-share/shareable-links.md) e altro ancora.
 
 ![Opzioni di testo con l&#39;icona del collegamento evidenziata.](assets/hyperlink.png)
 
