@@ -4,7 +4,7 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 1%
@@ -51,7 +51,7 @@ I filtri rapidi creati vengono visualizzati nella parte superiore del pannello. 
 I risultati dei filtri rapidi creati in un pannello vengono applicati (utilizzando la logica AND) a tutte le visualizzazioni che fanno parte del pannello.
 
 
-## Gestire i  
+## Gestire i
 
 Per gestire un filtro rapido, passa il cursore del mouse su **[!UICONTROL Quick filter]** specifico.
 
@@ -94,7 +94,7 @@ L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Pe
 | Pulsante | Descrizione |
 |---|---|
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Disponibile solo quando si definiscono più condizioni. Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) tra le condizioni. La selezione determina la logica booleana per il filtro rapido. Non è possibile combinare la logica quando si hanno tre condizioni. La logica booleana è **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
-| ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) | Aggiunge un&#39;altra condizione al filtro rapido. Questo pulsante è disponibile solo se sono state definite una o due condizioni per il filtro rapido. |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | Aggiunge un&#39;altra condizione al filtro rapido. Questo pulsante è disponibile solo se sono state definite una o due condizioni per il filtro rapido. |
 | **[!UICONTROL Apply]** | Applica le modifiche al filtro rapido. |
 | **[!UICONTROL Open builder]** | Viene richiesta una conferma con una finestra di dialogo **[!UICONTROL Are your sure?]**. Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il filtro nel [Generatore di filtri rapidi](#quick-filter-builder). Il filtro rapido verrà rinominato in **[!UICONTROL Filter]** e avrà una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di filtri](filter-builder.md) regolare con l&#39;opzione **[!UICONTROL Make this filter available to all your projects and add it to your component list]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Apply]**, il filtro verrà aggiunto all&#39;elenco dei componenti ![Filter](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** nel pannello dei componenti.</li><li>Se non si seleziona questa opzione e si seleziona **[!UICONTROL Apply]**, il filtro rimane un filtro solo progetto di Workspace.</li></ul> |
 | **[!UICONTROL Cancel]** | Seleziona questa opzione per annullare la creazione o la modifica di un filtro rapido. |

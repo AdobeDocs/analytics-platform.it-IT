@@ -1,17 +1,17 @@
 ---
-title: Panoramica della tabella coorte
+title: Panoramica delle tabelle coorte
 description: Scopri come utilizzare una tabella coorte per l’analisi per coorte in Analysis Workspace
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 40%
+source-wordcount: '609'
+ht-degree: 37%
 
 ---
 
-# Panoramica della tabella coorte {#cohort-table-overview}
+# Panoramica delle tabelle coorte {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -56,6 +56,8 @@ Esempi di cosa è possibile fare con [!UICONTROL Cohort table]:
 >[!IMPORTANT]
 >
 >[!UICONTROL Cohort Analysis] non supporta metriche non filtrabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
+
+Le tabelle coorte nel Customer Journey Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore Source di Analytics sono doppie.
 
 ## Funzionalità della tabella coorte
 
