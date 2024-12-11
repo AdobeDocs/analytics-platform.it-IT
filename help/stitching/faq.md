@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 25%
+source-wordcount: '1910'
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 25%
 
 Di seguito sono riportate alcune domande frequenti sull’unione:
 
-+++**Come posso utilizzare l&#39;unione per vedere come le persone passano da un canale all&#39;altro?**
+## Spostarsi tra i canali
+
++++ Come posso utilizzare l’unione per vedere come le persone si spostano da un canale all’altro?
 
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
@@ -29,13 +31,17 @@ Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare u
 
 +++
 
-+++**Quanto indietro nel tempo va l&#39;unione dei visitatori di ripetizione?**
+### Riproduci
+
++++ Quanto indietro nel tempo va l’unione dei visitatori di ripetizione?
 
 L’intervallo di lookback per la rekeying dipende dalla frequenza di dati ripetizione desiderata. Ad esempio, se imposti l’unione per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la reimpostazione delle chiavi è di sette giorni. Se imposti l’unione per riprodurre i dati ogni giorno, l’intervallo di lookback per la reimpostazione delle chiavi è di un giorno.
 
 +++
 
-+++**Come vengono gestiti i dispositivi condivisi?**
+## Dispositivi condivisi
+
++++ Come vengono gestiti i dispositivi condivisi?
 
 In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
@@ -43,7 +49,9 @@ L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condiv
 
 +++
 
-+++**In che modo l&#39;unione gestisce le situazioni in cui una singola persona dispone di molti ID persistenti?**
+## Molti ID persistenti
+
++++ In che modo l’unione gestisce le situazioni in cui una singola persona dispone di più ID persistenti?
 
 In alcune situazioni, un singolo utente può essere associato a più ID persistenti. Un esempio è la cancellazione frequente dei cookie del browser o l’utilizzo della modalità privata/in incognito del browser.
 
@@ -53,13 +61,17 @@ Per l’unione basata su grafico, una singola persona può avere molti ID persis
 
 +++
 
-+++**Una volta contattato il team dell&#39;account Adobe con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?**
+## Processo di unione
+
++++ Una volta contattato il mio team Adobe Account con le informazioni desiderate, quanto tempo ci vuole per rendere disponibile il set di dati reimpostato?
 
 L’unione live è disponibile circa una settimana dopo l’attivazione di Adobe. La disponibilità del backfill dipende dalla quantità di dati esistenti. I set di dati di piccole dimensioni (meno di 1 milione di eventi al giorno) in genere richiedono un paio di giorni, mentre i set di dati di grandi dimensioni (1 miliardo di eventi al giorno) possono richiedere una settimana o più.
 
 +++
 
-+++**Qual è la differenza tra analisi cross-device (una funzionalità nella versione tradizionale di Analytics) e analisi cross-channel?**
+## Analisi cross-device e cross-channel
+
++++ Qual è la differenza tra l’analisi cross-device (una funzione nella versione tradizionale di Analytics) e l’analisi cross-channel?
 
 [Analisi cross-device](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) è una funzionalità specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafico dei dispositivi.
 
@@ -67,7 +79,9 @@ L’analisi cross-channel è un caso di utilizzo specifico del Customer Journey 
 
 +++
 
-+++**In che modo Stitching gestisce le richieste di privacy?**
+## Privacy
+
++++ In che modo Stitching gestisce le richieste di privacy?
 
 Adobe gestisce le richieste di accesso ai dati personali in conformità alle leggi locali e internazionali. Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
 
@@ -147,7 +161,9 @@ Quando viene ricevuta una richiesta di accesso a dati personali per un cliente c
 
 +++
 
-+++**Cosa succede se il campo ID persistente in uno o più eventi è vuoto?**
+## Valori ID persistenti vuoti
+
++++ Cosa succede se il campo ID persistente in uno o più eventi è vuoto?
 
 Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID unito per tale evento in viene determinato in uno dei due modi seguenti:
 
@@ -157,7 +173,9 @@ Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID
 +++
 
 
-+++**Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, ad esempio &#39;Non definito&#39;?**
+## Valori ID transitori non definiti
+
++++ Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, come `Undefined`?
 
 Presta attenzione alla &quot;compressione della persona&quot; che si verifica quando l’unione viene applicata a dati che utilizzano valori segnaposto per ID transitori. Nella tabella di esempio seguente, gli ID persona non definiti provenienti da un set di dati originato da un sistema di gestione delle relazioni con i clienti vengono compilati con il valore &quot;Non definito&quot;, dando luogo a una rappresentazione errata delle persone.
 
@@ -177,7 +195,9 @@ Presta attenzione alla &quot;compressione della persona&quot; che si verifica qu
 
 +++
 
-+++**Come si confrontano le metriche nei set di dati con unione di Customer Journey Analytics con metriche simili nei set di dati senza unione di Customer Journey Analytics e con Adobe Analytics?**
+## Confronto delle metriche
+
++++ In che modo le metriche nei set di dati con unione di Customer Journey Analytics si confrontano con metriche simili nei set di dati senza unione di Customer Journey Analytics e con Adobe Analytics?
 
 Alcune metriche in Customer Journey Analytics sono simili alle metriche nella versione tradizionale di Analytics, ma altre sono diverse, a seconda del confronto. La tabella seguente confronta diverse metriche comuni:
 
@@ -191,13 +211,18 @@ Altre metriche possono essere simili in Customer Journey Analytics e Adobe Analy
 
 +++
 
-+++**Il Customer Journey Analytics può utilizzare i campi di Identity Map?**
+## Mappa delle identità
+
++++ Il Customer Journey Analytics può utilizzare i campi di Identity Map?
 
 No, al momento il Customer Journey Analytics non può utilizzare i campi Identity Map per l’unione.
 
 +++
 
-+++**Sarà necessario riacquisire i dati per passare dall&#39;unione basata sui campi all&#39;unione basata sui grafici?**
+## Passa all’unione basata su grafico
+
++++ Sarà necessario riacquisire i dati per passare dall’unione basata sui campi all’unione basata sui grafici?
+
 Non è necessario riacquisire i dati in Experience Platform, tuttavia dovranno essere riconfigurati in Customer Journey Analytics. Segui questi passaggi:
 
 1. Imposta il nuovo set di dati uniti basato su grafico.
@@ -207,7 +232,9 @@ Non è necessario riacquisire i dati in Experience Platform, tuttavia dovranno e
 
 +++
 
-+++**Verrebbero interrotti i report esistenti?**
+## Interruzione nel reporting
+
++++ Verrebbero interrotti i rapporti esistenti?
 
 No, se segui i passaggi descritti in precedenza. In caso contrario, chiedi supporto aggiuntivo ad Adobe Consulting.
 
