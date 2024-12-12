@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 50%
+ht-degree: 52%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 50%
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-Dopo la [creazione del tag e l&#39;aggiunta dell&#39;estensione Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), è necessario configurarlo con elementi dati e regole, in base alla modalità di tracciamento del sito e di invio dei dati a Adobe Experience Platform. Dopo aver configurato gli elementi dati e le regole per il tag, puoi generarlo e pubblicarlo.
+Dopo aver [creato il tag e aggiunto l&#39;estensione Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), è necessario configurarlo con elementi dati e regole, in base alla modalità di tracciamento del sito e di invio dei dati a Adobe Experience Platform. Dopo aver configurato gli elementi dati e le regole per il tag, puoi generarlo e pubblicarlo.
 
 ## Configurare gli elementi dati
 
@@ -194,7 +195,7 @@ Per definire una regola:
 
 Dopo aver definito elementi dati e regole, devi generare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice di incorporamento univoco che consente di integrare la build assegnata nel sito.
 
-I tag Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che dovrebbero adattarsi alla distribuzione dell’SDK web per Adobe Experience Platform. Per ulteriori informazioni, consulta la sezione [Panoramica di pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
+I tag di Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che dovrebbero adattarsi alla distribuzione di Adobe Experience Platform Web SDK. Per ulteriori informazioni, consulta la sezione [Panoramica di pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 Per generare e pubblicare il tag:
 
@@ -225,4 +226,3 @@ Per generare e pubblicare il tag:
 1. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
 
    ![Pubblica - Libreria di compilazione](assets/build-library.png)
-

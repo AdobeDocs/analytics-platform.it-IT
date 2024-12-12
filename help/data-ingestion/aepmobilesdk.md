@@ -1,11 +1,11 @@
 ---
 title: Acquisire dati tramite Adobe Experience Platform Mobile SDK
-description: Spiegare come acquisire i dati nel Customer Journey Analytics tramite l’SDK di Adobe Experience Platform Mobile e l’Edge Network
+description: Spiegare come acquisire i dati nel Customer Journey Analytics tramite Adobe Experience Platform Mobile SDK e l’Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3085'
 ht-degree: 61%
@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # Acquisire dati tramite Mobile SDK
 
-Questa guida rapida spiega come acquisire i dati di tracciamento delle app mobili direttamente in Adobe Experience Platform utilizzando l’SDK Adobe Experience Platform Mobile e un Edge Network. Quindi usa quei dati nel Customer Journey Analytics.
+Questa guida rapida spiega come acquisire i dati di tracciamento delle app mobili direttamente in Adobe Experience Platform utilizzando Adobe Experience Platform Mobile SDK e Edge Network. Quindi usa quei dati nel Customer Journey Analytics.
 
 A questo scopo, è necessario:
 
@@ -272,7 +272,7 @@ Per creare e configurare l&#39;estensione Adobe Experience Platform Mobile SDK:
 
 1. Seleziona la sandbox e il flusso di dati creato in precedenza per il tuo [!UICONTROL Production Environment] (Ambiente di produzione) e (facoltativamente) [!UICONTROL Staging Environment] (Ambiente di gestione temporanea) e [!UICONTROL Development Environment] (Ambiente di sviluppo).
 
-   ![Configurazione dell&#39;estensione AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
+   ![Configurazione estensione AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Immetti **[!UICONTROL Edge Network domain]** sotto [!UICONTROL Domain configuration]. In genere utilizza `<organizationName>.data.adobedc.net`.
 
@@ -417,7 +417,7 @@ Per ottenere istruzioni sul codice che spiegano come configurare l’app mobile 
 
 3. Seleziona **[!UICONTROL Close]** (Chiudi).
 
-Invece del codice per l’ambiente di sviluppo, potresti aver selezionato un altro ambiente (staging, produzione) in base alla posizione in cui stai distribuendo l’SDK di Adobe Experience Platform Mobile.
+Invece del codice per l’ambiente di sviluppo, potresti aver selezionato un altro ambiente (staging, produzione) in base alla posizione in cui stai distribuendo Adobe Experience Platform Mobile SDK.
 
 Per ulteriori informazioni, consulta la sezione [Ambienti](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=it).
 

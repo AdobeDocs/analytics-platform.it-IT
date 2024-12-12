@@ -1,11 +1,11 @@
 ---
-title: Inserire dati tramite Adobe Experience Platform Web SDK
+title: Acquisire dati tramite Adobe Experience Platform Web SDK
 description: Spiega come inserire dati in Customer Journey Analytics tramite Adobe Experience Platform Web SDK e la rete Edge
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3218'
 ht-degree: 82%
@@ -260,7 +260,7 @@ Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Propri
 
 #### **Estensioni**
 
-Per garantire che tu possa inviare dati a Adobe Experience Platform (tramite lo stream di dati), aggiungi l’estensione Adobe Platform Web SDK al tag.
+Per garantire che sia possibile inviare dati a Adobe Experience Platform (tramite lo stream di dati), aggiungi l’estensione Adobe Platform Web SDK al tag.
 
 Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
@@ -280,7 +280,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
 Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-L&#39;SDK per Web include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo, pertanto non è necessario aggiungere l&#39;estensione del servizio ID al tag.
+Il Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo, pertanto non è necessario aggiungere l&#39;estensione del servizio ID al tag.
 
 #### **Elementi dati**
 

@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
+exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
+source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-Dopo aver configurato l’implementazione dell’SDK web, devi controllare gli stati dei singoli batch per verificare che i dati vengano acquisiti nel set di dati.
+Dopo aver configurato l’implementazione di Web SDK, è necessario controllare gli stati dei singoli batch per verificare che i dati vengano acquisiti nel set di dati.
 
 1. Nell&#39;interfaccia utente di Experience Platform, selezionare **[!UICONTROL Monitoring]** nel menu di navigazione a sinistra.
 
@@ -33,16 +34,15 @@ Dopo aver configurato l’implementazione dell’SDK web, devi controllare gli s
 
 1. Selezionare **[!UICONTROL Batch end-to-end]** per visualizzare un elenco di batch.
 
-   Se non viene visualizzato alcun batch, controlla l’implementazione dell’SDK web per assicurarti che invii correttamente i dati ad Adobe.
+   Se non viene visualizzato alcun batch, controlla l’implementazione di Web SDK per assicurarti che invii correttamente i dati ad Adobe.
 
    <!-- insert screenshot -->
 
 1. Selezionare l&#39;ID batch per un determinato set di dati, quindi verificare che **[!UICONTROL Success]** sia visualizzato nel campo **[!UICONTROL Status]**.
 
-   Se **[!UICONTROL Failed]** è visualizzato nel campo **[!UICONTROL Status]**, controlla l&#39;implementazione dell&#39;SDK Web per assicurarti che invii correttamente i dati ad Adobe.
+   Se **[!UICONTROL Failed]** è visualizzato nel campo **[!UICONTROL Status]**, controlla l&#39;implementazione del Web SDK per assicurarti che invii correttamente i dati ad Adobe.
 
    Ripetere questo passaggio per verificare lo stato di ciascun batch.
 
-
-
+1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
 
