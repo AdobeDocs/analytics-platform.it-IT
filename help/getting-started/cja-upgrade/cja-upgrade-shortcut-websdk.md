@@ -1,19 +1,20 @@
 ---
-title: Collegamento per l’aggiornamento Migrare un’implementazione di AppMeasurement o estensione Analytics per utilizzare l’SDK per web
+title: Collegamento per l’aggiornamento Migrare un’implementazione di AppMeasurement o estensione Analytics per utilizzare il Web SDK
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8ef60cc3918b79919674e3c0478a2c1b1bd21d27
+exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
+source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 46%
 
 ---
 
-# Collegamento per l’aggiornamento: esegui la migrazione di un’implementazione di AppMeasurement o estensione Analytics per utilizzare l’SDK per web {#shortcut-migrate-websdk}
+# Collegamento per l’aggiornamento: esegui la migrazione di un’implementazione di AppMeasurement o estensione Analytics per utilizzare Web SDK {#shortcut-migrate-websdk}
 
 >[!NOTE]
 >
@@ -23,14 +24,14 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
->title="Migrare l’implementazione di Analytics per utilizzare l’SDK per web"
+>title="Migrare l’implementazione di Analytics per utilizzare il Web SDK"
 >abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
 
 <!-- markdownlint-enable MD034 -->
 
-Durante l&#39;aggiornamento al Customer Journey Analytics, l&#39;Adobe [consiglia una nuova implementazione dell&#39;SDK Web Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Tuttavia, a seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati potrebbero non essere pratici per la tua organizzazione.
+Durante l&#39;aggiornamento al Customer Journey Analytics, l&#39;Adobe [consiglia una nuova implementazione del SDK Web Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Tuttavia, a seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati potrebbero non essere pratici per la tua organizzazione.
 
-Se la tua implementazione di Adobe Analytics è AppMeasurement o l’estensione Analytics, è disponibile un collegamento per l’aggiornamento che consente di migrare l’implementazione di Adobe Analytics e utilizzare Adobe Experience Platform Web SDK per iniziare a inviare dati ad Edge Network e Adobe Analytics prima di inviarli al Customer Journey Analytics.
+Se l’implementazione di Adobe Analytics è AppMeasurement o l’estensione Analytics, è disponibile un collegamento per l’aggiornamento che consente di migrare l’implementazione di Adobe Analytics in modo da utilizzare Adobe Experience Platform Web SDK per iniziare a inviare dati ad Edge Network e Adobe Analytics prima di inviarli al Customer Journey Analytics.
 
 ## Vantaggi e svantaggi
 
@@ -44,9 +45,9 @@ Considera i seguenti vantaggi e svantaggi del collegamento per l’aggiornamento
 
 ## Passaggi di base
 
-Se decidi di prendere il collegamento per l&#39;aggiornamento per migrare l&#39;implementazione dell&#39;AppMeasurement o dell&#39;estensione Analytics per utilizzare l&#39;SDK Web, viene aggiunto un nuovo passaggio ai passaggi generati dinamicamente per l&#39;organizzazione nel [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+Se decidi di prendere il collegamento per l&#39;aggiornamento per migrare l&#39;implementazione dell&#39;AppMeasurement o dell&#39;estensione Analytics per utilizzare Web SDK, viene aggiunto un nuovo passaggio ai passaggi generati dinamicamente per l&#39;organizzazione nel [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-I passaggi di base per la migrazione di un’implementazione di AppMeasurement o estensione Analytics per utilizzare Web SDK sono:
+I passaggi di base per la migrazione di un’implementazione di AppMeasurement o di estensione Analytics per utilizzare Web SDK sono i seguenti:
 
 1. Inizia a inviare dati a Platform.
 
@@ -55,4 +56,3 @@ I passaggi di base per la migrazione di un’implementazione di AppMeasurement o
 1. (Facoltativo) Crea uno schema XDM per l’organizzazione non appena hai tempo.
 
 1. (Condizionale) Se hai creato uno schema XDM, utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
-
