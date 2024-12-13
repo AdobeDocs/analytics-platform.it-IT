@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 49%
 
 ---
@@ -61,7 +61,7 @@ Per utilizzare un pannello **[!UICONTROL Media concurrent viewers]**:
 
 1. Crea un pannello **[!UICONTROL Media concurrent viewers]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
+1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati da Streaming Media Collection.
 
 1. Specifica l’[input](#panel-input) per il pannello.
 

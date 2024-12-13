@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback time spes
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1115'
 ht-degree: 57%
 
 ---
@@ -63,7 +63,7 @@ Per utilizzare un pannello **[!UICONTROL Media playback time spent]**:
 
 1. Crea un pannello **[!UICONTROL Media playback time spent]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
+1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati da Streaming Media Collection.
 
 1. Specifica l’[input](#panel-input) per il pannello.
 

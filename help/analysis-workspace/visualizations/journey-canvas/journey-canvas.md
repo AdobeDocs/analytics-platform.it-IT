@@ -4,10 +4,10 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 0%
+source-wordcount: '1657'
+ht-degree: 1%
 
 ---
 
@@ -120,7 +120,7 @@ Utilizza [la tabella precedente](#understand-the-differences) per comprendere le
 
 L’analisi dei percorsi Journey Optimizer nell’area di lavoro del Percorso fornisce informazioni approfondite e fruibili sul modo in cui le persone interagiscono con un percorso.
 
-Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Se è possibile apportare modifiche a un percorso nell&#39;area di lavoro del Percorso, [le modifiche non verranno più sincronizzate da Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas).
+Quando si analizza un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, il percorso viene visualizzato con l&#39;ordine, la sequenza e la struttura di Journey Optimizer. Se si apportano modifiche significative a un percorso nell&#39;area di lavoro del Percorso, [le modifiche non verranno più sincronizzate da Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas).
 
 ### Vantaggi dell&#39;analisi dei percorsi Journey Optimizer con l&#39;area di lavoro del Percorso
 
@@ -152,7 +152,7 @@ L’utilizzo dell’area di lavoro Percorso per analizzare i percorsi creati in 
 
 Dopo aver creato un&#39;analisi di un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, i dati vengono sincronizzati in una sola direzione, da Journey Optimizer all&#39;area di lavoro del Percorso. Ciò significa che le modifiche apportate a un percorso nell’area di lavoro del Percorso non vengono mai applicate in Journey Optimizer.
 
-Inoltre, le modifiche apportate a un percorso in Journey Optimizer vengono sincronizzate con l’area di lavoro del Percorso solo se il percorso rimane invariato nell’area di lavoro del Percorso. Dopo aver modificato un percorso nell&#39;area di lavoro del Percorso, tutte le modifiche apportate al percorso in Journey Optimizer non vengono riportate nell&#39;area di lavoro del Percorso. Per visualizzare le modifiche nell&#39;area di lavoro del Percorso, è possibile eliminare e [ricreare il percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Inoltre, le modifiche apportate a un percorso in Journey Optimizer vengono sincronizzate con l&#39;area di lavoro del Percorso [solo se il percorso non è stato modificato in modo significativo nell&#39;area di lavoro del Percorso](#differences-after-modifying-a-journey-in-journey-canvas). Dopo aver modificato un percorso nell&#39;area di lavoro del Percorso, tutte le modifiche apportate al percorso in Journey Optimizer non vengono riportate nell&#39;area di lavoro del Percorso. Per visualizzare le modifiche nell&#39;area di lavoro del Percorso, è possibile eliminare e [ricreare il percorso nell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### Differenze dopo la modifica di un percorso nell’area di lavoro del Percorso {#differences-after-modifying}
 

@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1745'
 ht-degree: 31%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->Il pannello **[!UICONTROL Media average minute audience]** è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per il Customer Journey Analytics.
+>Il pannello **[!UICONTROL Media average minute audience]** è disponibile solo per i clienti che hanno acquistato Streaming Media Collection per il Customer Journey Analytics.
 >
 >Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
@@ -62,8 +62,7 @@ Per usare un pannello **[!UICONTROL Media average minute audience]**:
 
 1. Crea un pannello **[!UICONTROL Media average minute audience]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
-
+1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati da Streaming Media Collection.
 
 1. Specifica l’[input](#panel-input) per il pannello.
 

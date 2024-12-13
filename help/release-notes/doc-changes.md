@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
-workflow-type: ht
-source-wordcount: '4196'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '4199'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione di deduplica dei campi derivati | È stata aggiunta la documentazione sulla funzione [deduplica](/help/data-views/derived-fields/derived-fields.md#deduplicate) dei campi derivati. |
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
-| Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all’interno della documentazione di Customer Journey Analytics e anche nella [Documentazione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
+| Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di &quot;Media Analytics&quot; e &quot;Streaming Media&quot; sono state sostituite con i nomi &quot;Streaming Media Collection Add-on&quot; e &quot;Streaming Media Collection&quot; quando si fa riferimento all’insieme di funzioni per contenuti multimediali in streaming che raccolgono dati multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili nella documentazione del Customer Journey Analytics e nella [documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Unione basata su grafo | È stata aggiornata e ristrutturata la [documentazione relativa all’unione](/help/stitching/overview.md) con l’introduzione dell’unione basata su grafico. |
 | Assistente IA | È stata aggiunta la [documentazione](../ai-assistant.md) sull&#39;Assistente IA per Customer Journey Analytics. |
 | Trasformare i set di dati per le ricerche B2B | È stata aggiunta la documentazione su come supportare [ricerche basate su persone sui dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne) utilizzando la trasformazione dei set di dati di ricerca B2B. |
