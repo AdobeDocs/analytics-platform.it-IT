@@ -4,7 +4,7 @@ title: Salvare i progetti
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 19%
@@ -16,7 +16,7 @@ ht-degree: 19%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_addnotes"
+>id="workspace_project_addnotes"
 >title="Aggiungere note"
 >abstract="Aggiungi note sulla versione del progetto che viene salvata. Le note verranno archiviate con la versione e saranno accessibili dal menu **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**."
 
@@ -40,10 +40,10 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
    1. Specifica quanto segue:
 
       * **[!UICONTROL Name]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Description]** (Autenticazione): Descrizione del progetto.
-      * **[!UICONTROL Tags]** (Autenticazione): Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]** (Autenticazione): Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
-      * **[!UICONTROL Version notes]** (Autenticazione): Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
+      * **[!UICONTROL Description]**. Descrizione del progetto.
+      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
+      * **[!UICONTROL Folder]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
+      * **[!UICONTROL Version notes]**. Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
 
    1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
 
@@ -77,10 +77,10 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
    1. Specifica quanto segue:
 
       * **[!UICONTROL Name]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Description]** (Autenticazione): Descrizione del progetto.
-      * **[!UICONTROL Tags]** (Autenticazione): Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]** (Autenticazione): Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
-      * **[!UICONTROL Version notes]** (Autenticazione): Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
+      * **[!UICONTROL Description]**. Descrizione del progetto.
+      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
+      * **[!UICONTROL Folder]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
+      * **[!UICONTROL Version notes]**. Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
 
    1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
 

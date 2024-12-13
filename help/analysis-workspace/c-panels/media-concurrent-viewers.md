@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1163'
-ht-degree: 44%
+ht-degree: 49%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_button"
->title="Visualizzatori simultanei di contenuti multimediali "
+>id="workspace_mediaconcurrentviewers_button"
+>title="Visualizzatori simultanei di contenuti multimediali"
 >abstract="Crea un pannello per analizzare il pubblico medio per minuto di un contenuto specifico o in un periodo di tempo specifico."
 
 <!-- markdownlint-enable MD034 -->
@@ -25,8 +25,8 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_panel"
->title="Visualizzatori simultanei di contenuti multimediali "
+>id="workspace_mediaconcurrentviewers_panel"
+>title="Visualizzatori simultanei di contenuti multimediali"
 >abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o suddividi e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
 
 <!-- markdownlint-enable MD034 -->
@@ -37,7 +37,7 @@ ht-degree: 44%
 >
 >Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato per il Customer Journey Analytics il componente aggiuntivo Streaming Media Collection.
 >
->Per ulteriori informazioni, contatta il rappresentante commerciale Adobe o il team dell’account Adobe.
+>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media concurrent viewers]** consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.
@@ -55,7 +55,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei è il numero di pers
 
 +++
 
-## Seleziona
+## Utilizzo
 
 Per utilizzare un pannello **[!UICONTROL Media concurrent viewers]**:
 
@@ -63,9 +63,9 @@ Per utilizzare un pannello **[!UICONTROL Media concurrent viewers]**:
 
 1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
 ### Input del pannello
 
@@ -123,7 +123,7 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 
 >[!MORELIKETHIS]
 >
->[Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[Pannello Tempo di riproduzione dei contenuti multimediali](media-playback-time-spent.md)
 >[Pannello del pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >

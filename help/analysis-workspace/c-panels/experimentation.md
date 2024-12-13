@@ -4,10 +4,10 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2100'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_button"
+>id="workspace_experimentation_button"
 >title="Sperimentazione"
 >abstract="Crea un pannello per confrontare diverse esperienze utente, varianti di marketing o di messaggistica. E per determinare quale variazione è meglio per guidare un risultato specifico."
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_panel"
+>id="workspace_experimentation_panel"
 >title="Sperimentazione"
 >abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: esperimento analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
 
@@ -69,16 +69,16 @@ Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dime
 
 Se queste etichette non sono presenti, il pannello Sperimentazione non funziona, in quanto non ci saranno esperimenti su cui lavorare.
 
-## Seleziona
+## Utilizzo
 
 Per utilizzare un pannello **[!UICONTROL Experimentation]**:
 
 1. Crea un pannello **[!UICONTROL Experimentation]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
    >[!IMPORTANT]
    >
@@ -109,7 +109,7 @@ Per utilizzare il pannello Sperimentazione:
 
 Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello, vengono fornite [visualizzazioni di riepilogo delle modifiche](../visualizations/summary-number-change.md) per ricordarti le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello selezionando l’icona Modifica a forma di matita in alto a destra.
 
-Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica (vedere [Metodologia statistica](#adobes-statistical-methodology)). Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con i valori di incremento e affidabilità più elevati.
+Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla significatività statistica (vedi [Metodologia statistica](#adobes-statistical-methodology)). Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con l&#39;incremento e l&#39;affidabilità più elevati.
 
 Per ogni metrica di successo selezionata, vengono visualizzate una visualizzazione [tabella a forma libera](../visualizations/freeform-table/freeform-table.md) e un tasso di conversione [riga](../visualizations/line.md).
 

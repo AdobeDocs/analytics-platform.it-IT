@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_combo_button"
+>id="workspace_combo_button"
 >title="Combinato"
 >abstract="Crea rapidamente una visualizzazione con grafico combinato senza dover prima creare una tabella a forma libera."
 
@@ -39,7 +39,7 @@ Aspetti da considerare:
 * Puoi applicare fino a 3 filtri a una metrica.
 * Le metriche calcolate non sono supportate nei grafici combinati.
 
-## Seleziona
+## Utilizzo
 
 1. Aggiungi una visualizzazione ![Commento](/help/assets/icons/ComboChart.svg) [!UICONTROL Combo]. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 

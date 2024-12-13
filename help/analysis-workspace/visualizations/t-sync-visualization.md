@@ -5,7 +5,7 @@ title: Gestione delle origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 23%
@@ -17,7 +17,7 @@ ht-degree: 23%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_lockselection"
+>id="workspace_freeformtable_lockselection"
 >title="Blocca selezione"
 >abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni o gli elementi selezionati nell’origine dati."
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_lockselection_showtable"
+>id="workspace_freeformtable_lockselection_showtable"
 >title="Mostra tabella"
 >abstract="Selezionando **[!UICONTROL Show table]** verrà generata una nuova origine dati per la visualizzazione corrente, separata dall&#39;origine dati originale."
 

@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 45%
+ht-degree: 50%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 45%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution_button"
+>id="workspace_attribution_button"
 >title="Attribuzione"
 >abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution_panel"
+>id="workspace_attribution_panel"
 >title="Pannello Attribution"
 >abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione a cui attribuire. Questa dimensione può essere un canale di marketing, una campagna o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
@@ -43,15 +43,15 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 * Analizzare visivamente sequenze di marketing principali: è possibile esplorare in modo visivo i percorsi che hanno condotto alla conversione, con visualizzazioni di abbandono e di flusso a più nodi.
 * Costruire metriche calcolate: è possibile utilizzare un qualsiasi numero di metodi di allocazione di attribuzione.
 
-## Seleziona
+## Utilizzo
 
 Per utilizzare un pannello **[!UICONTROL Attribution]**:
 
 1. Crea un pannello **[!UICONTROL Attribution]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
 ### Input del pannello
 
@@ -93,5 +93,5 @@ La visualizzazione seguente fa parte dell’output del pannello.
 
 >[!MORELIKETHIS]
 >
-> [Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

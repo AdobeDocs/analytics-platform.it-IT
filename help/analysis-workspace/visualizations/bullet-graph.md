@@ -4,7 +4,7 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 44%
@@ -16,7 +16,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_goalvalue"
+>id="workspace_bullet_goalvalue"
 >title="Valore obiettivo"
 >abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
 
@@ -25,7 +25,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_button"
+>id="workspace_bullet_button"
 >title="Bullet"
 >abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 

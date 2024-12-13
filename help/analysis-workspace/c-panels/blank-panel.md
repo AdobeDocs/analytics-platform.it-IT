@@ -4,10 +4,10 @@ title: Pannello vuoto
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_blankpanel_button"
+>id="workspace_blankpanel_button"
 >title="Pannello vuoto"
 >abstract="Mostra una selezione di pannelli o visualizzazioni che puoi creare per generare un’analisi completamente personalizzata."
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Pannelli in Analysis Workspace"
@@ -24,55 +24,55 @@ ht-degree: 19%
 <!-- markdownlint-enable MD034 -->
 
 
-Un **[!UICONTROL Blank panel]** mostra una selezione di pannelli (indicati da ![PaginaWeb](/help/assets/icons/WebPage.svg)) o visualizzazioni che è possibile creare per creare un&#39;analisi completamente personalizzata.
+Un **[!UICONTROL Blank panel]** mostra una selezione di pannelli (indicati da ![WebPage](/help/assets/icons/WebPage.svg)) o di visualizzazioni che è possibile creare per generare un’analisi completamente personalizzata.
 
-## Seleziona
+## Utilizzo
 
 Per utilizzare un **[!UICONTROL Blank panel]**:
 
 1. Crea un **[!UICONTROL Blank panel]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-   ![Crea un pannello](assets/create-panel.png)
+   ![Creare un pannello](assets/create-panel.png)
 
 
 
 1. Seleziona una visualizzazione o un pannello tra le opzioni disponibili.
 
 
-   * Quando selezioni un pannello, il pannello vuoto passa al pannello selezionato.
+   * Quando selezioni un pannello, il pannello vuoto lascia il posto al pannello selezionato.
    * Quando selezioni una visualizzazione, questa viene aggiunta al pannello vuoto.
 
-   Ad esempio, seleziona una visualizzazione (come ![VisualizzaElenco](/help/assets/icons/ViewList.svg) **[!UICONTROL Cohort table]**) da aggiungere al pannello oppure seleziona un pannello (come ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribution]**) per modificare il pannello in un pannello di attribuzione.
+   Ad esempio, seleziona una visualizzazione (come ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Cohort table]**) da aggiungere al pannello oppure seleziona un pannello (come ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribution]**) per modificare il pannello in un pannello di attribuzione.
 
 
 
-È possibile:
+Puoi:
 
-* Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **entro** un pannello per aggiungere un&#39;altra visualizzazione. Viene visualizzata una finestra a comparsa che consente di selezionare una visualizzazione.
+* Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **dentro** un pannello per aggiungere un’altra visualizzazione. Viene visualizzato un riquadro a comparsa che consente di selezionare una visualizzazione.
 
-  | Seleziona... | Per creare un... |
+  | Seleziona... | Per creare una visualizzazione... |
   |---|---|
   | ![Tabella](/help/assets/icons/Table.svg) | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![Linee](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) |
-  | ![FunnelConversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![Flusso di lavoro](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) |
-  | ![AreaGraficaSovrapposta](/help/assets/icons/GraphAreaStacked.svg) | [Superfici sovrapposte](/help/analysis-workspace/visualizations/area.md) |
-  | ![NumeroTesto](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
-  | ![BulletGrafico](/help/assets/icons/GraphBullet.svg) | [Punto elenco](/help/analysis-workspace/visualizations/bullet-graph.md) |
-  | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) |
-  | ![SpostaSuGiù](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Area grafica sovrapposta](/help/assets/icons/GraphAreaStacked.svg) | [Area sovrapposta](/help/analysis-workspace/visualizations/area.md) |
+  | ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![Grafico bullet](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) |
+  | ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) |
-  | ![Dispersione grafico](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) |
   | ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
-  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md) |
+  | ![Grafico ad albero](/help/assets/icons/GraphTree.svg) | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md) |
 
-* Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **esterno** un pannello per aggiungere un altro pannello vuoto.
+* Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **fuori** dal pannello per aggiungere un altro pannello vuoto.
 
 
 >[!MORELIKETHIS]
 >
->[Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

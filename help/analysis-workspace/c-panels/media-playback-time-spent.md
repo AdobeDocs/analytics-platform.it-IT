@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Playback time spes
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_button"
->title="Tempo trascorso per la riproduzione di file multimediali"
+>id="workspace_mediaplaybacktimespent_button"
+>title="Tempo trascorso su contenuti multimediali"
 >abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di suddividerli e confrontarli."
 
 <!-- markdownlint-enable MD034 -->
@@ -25,8 +25,8 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_panel"
->title="Tempo trascorso per la riproduzione di file multimediali"
+>id="workspace_mediaplaybacktimespent_panel"
+>title="Tempo trascorso su contenuti multimediali"
 >abstract="Analizza il consumo video nel tempo, seleziona varie granularità, suddividi e confronta.<br/><br/>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco del tempo di riproduzione trascorso. Il valore minimo mostra i dettagli del punto inferiore. Somma mostra i dettagli della somma totale del tempo di riproduzione trascorso.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per la visualizzazione del formato ora, in ore o minuti."
 
 <!-- markdownlint-enable MD034 -->
@@ -57,7 +57,7 @@ Il tempo di riproduzione trascorso può aiutarti a comprendere:
 
 +++
 
-## Seleziona
+## Utilizzo
 
 Per utilizzare un pannello **[!UICONTROL Media playback time spent]**:
 
@@ -65,9 +65,9 @@ Per utilizzare un pannello **[!UICONTROL Media playback time spent]**:
 
 1. Accertati di selezionare una visualizzazione dati per il pannello con componenti configurati dal componente aggiuntivo Streaming Media Collection.
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
 
 ### Input del pannello
@@ -118,7 +118,7 @@ L’unica metrica che può essere utilizzata in questo pannello è Playback Time
 
 >[!MORELIKETHIS]
 >
->[Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[Pannello del pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 >

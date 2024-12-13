@@ -6,7 +6,7 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 58%
@@ -37,7 +37,7 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 
 ![Finestra Invia file e pulsante Invia ora.](assets/send-file-no-scheduling-options.JPG)
 
-## Invia file secondo programma {#schedule}
+## Invia file secondo pianificazione {#schedule}
 
 Per inviare un file ai destinatari in base a una pianificazione ricorrente tramite e-mail:
 
@@ -90,7 +90,7 @@ Per ulteriori informazioni, vedere [Progetti pianificati](/help/components/sched
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_sendfile_password"
+>id="workspace_sendfile_password"
 >title="Crittografia password"
 >abstract="La password fornita verrà utilizzata per crittografare il file per il progetto pianificato. I requisiti di sicurezza dell’organizzazione richiedono la crittografia della password."
 
@@ -113,7 +113,7 @@ Dopo che la società ha acquistato lo SKU Healthcare Shield ed è stata abilitat
 
 ### Requisiti per la password
 
-I requisiti per la password sono conformi agli standard Adobi, che richiedono un minimo di 8 caratteri con almeno un numero e un carattere speciale.
+I requisiti per la password sono conformi agli standard Adobe, che richiedono un minimo di 8 caratteri con almeno un numero e un carattere speciale.
 
 ### Proteggere un nuovo progetto pianificato tramite password
 

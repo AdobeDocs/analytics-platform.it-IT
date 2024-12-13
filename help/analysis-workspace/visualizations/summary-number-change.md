@@ -4,7 +4,7 @@ title: Numero di riepilogo e Variazione di riepilogo
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 48%
@@ -18,7 +18,7 @@ ht-degree: 48%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_summarynumber_button"
+>id="workspace_summarynumber_button"
 >title="Numero di riepilogo"
 >abstract="Crea una visualizzazione che mostra i totali e i subtotali."
 
@@ -45,7 +45,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili opzioni speci
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_summarychange_button"
+>id="workspace_summarychange_button"
 >title="Variazione di riepilogo"
 >abstract="Creare una visualizzazione che mostri il delta (variazione) tra due numeri"
 

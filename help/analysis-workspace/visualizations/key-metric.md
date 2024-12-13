@@ -4,7 +4,7 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 44%
@@ -16,7 +16,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_keymetricsummary_button"
+>id="workspace_keymetricsummary_button"
 >title="Riepilogo delle metriche chiave"
 >abstract="Crea una visualizzazione che combina grafici a linee, a variazione di riepilogo e a numero di riepilogo. Utilizza questa visualizzazione per confrontare la tendenza delle metriche importanti tra due periodi di tempo."
 
@@ -39,7 +39,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 * Un dirigente che vuole capire come sono cambiate le prenotazioni da questo trimestre all’ultimo trimestre.
 
-## Seleziona
+## Utilizzo
 
 1. Aggiungi una visualizzazione ![Metriche chiave](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]**. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 

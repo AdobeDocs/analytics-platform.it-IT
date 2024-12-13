@@ -4,10 +4,10 @@ title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,7 @@ La visualizzazione a barre ha un’opzione standard e sovrapposta.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bar_button"
+>id="workspace_bar_button"
 >title="Barre"
 >abstract="Crea una visualizzazione a barre per rappresentare diversi valori per una o più metriche."
 
@@ -38,7 +38,7 @@ Nelle impostazioni di visualizzazione, un elenco a discesa di granularità perme
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_barstacked_button"
+>id="workspace_barstacked_button"
 >title="Barre sovrapposte"
 >abstract="Crea una visualizzazione a barre per rappresentare diversi valori per una o più metriche sovrapposte."
 

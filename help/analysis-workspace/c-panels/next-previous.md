@@ -3,10 +3,11 @@ description: Pannello che mostra gli elementi dimensionali precedenti o successi
 title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 31%
+ht-degree: 41%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_button"
+>id="workspace_nextorpreviousitem_button"
 >title="Elemento successivo o precedente"
 >abstract="Crea un pannello per comprendere le dimensioni da cui in precedenza provenivano le persone o la dimensione dove andranno successivamente."
 
@@ -24,7 +25,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_panel"
+>id="workspace_nextorpreviousitem_panel"
 >title="Elemento successivo o precedente"
 >abstract="Analizza i luoghi più comuni da cui in precedenza venivano i visitatori o dove andranno successivamente.<br/><br/>**Dimensione**: seleziona una dimensione. Ad esempio **Pagina**.<br/>**Elemento dimensionale**: seleziona un elemento dimensionale specifico. Ad esempio, **Homepage**.<br/>**Direzione**: seleziona **Avanti** per visualizzare gli elementi dimensione immediatamente successivi all’elemento dimensionale selezionato. Seleziona **Precedente** per visualizzare gli elementi dimensionali che conducono all’elemento dimensionale selezionato.<br/>**Contenitore**: seleziona **Sessione** per visualizzare gli elementi dimensione precedente/successiva nella stessa sessione oppure **Persona** per visualizzare l’elemento dimensione precedente/successivo per la stessa persona."
 
@@ -34,15 +35,15 @@ ht-degree: 31%
 
 Il pannello **[!UICONTROL Next or previous item]** contiene diverse tabelle e visualizzazioni per identificare l&#39;elemento dimensione successivo o precedente per una dimensione specifica. Ad esempio, puoi scoprire a quali pagine i clienti accedono più spesso dopo aver visitato la home page.
 
-## Seleziona
+## Utilizzo
 
-Per utilizzare un pannello **[!UICONTROL Next or previous item]**:
+Per usare un pannello **[!UICONTROL Next or previous item]**:
 
 1. Crea un pannello **[!UICONTROL Next or previous item]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Specifica [input](#panel-input) per il pannello.
+1. Specifica l’[input](#panel-input) per il pannello.
 
-1. Osserva [output](#panel-output) per il pannello.
+1. Osserva l’[output](#panel-output) per il pannello.
 
 ### Input del pannello
 
@@ -80,5 +81,5 @@ Il pannello [!UICONTROL Next or previous item] restituisce un set completo di da
 
 >[!MORELIKETHIS]
 >
->[Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >
