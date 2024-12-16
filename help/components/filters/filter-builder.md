@@ -1,17 +1,17 @@
 ---
 description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
-title: Crea filtri
+title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 4%
+source-wordcount: '1402'
+ht-degree: 6%
 
 ---
 
-# Crea filtri {#build-filters}
+# Generare i filtri {#build-filters}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -21,6 +21,16 @@ ht-degree: 4%
 >abstract="I tipi di pubblico possono essere creati da un filtro e condivisi con Adobe Experience Platform per l’attivazione."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_filter_datapreview"
+>title="Anteprima dati"
+>abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale nella visualizzazione dati degli ultimi **90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, è possibile che la connessione sia ancora in esecuzione."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 La finestra di dialogo **[!UICONTROL Filter builder]** viene utilizzata per creare nuovi filtri o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New filter]** o **[!UICONTROL Edit filter]** per i filtri creati o gestiti dal gestore [[!UICONTROL Filters]](/help/components/filters/manage-filters.md).
@@ -37,7 +47,7 @@ La finestra di dialogo **[!UICONTROL Filter builder]** viene utilizzata per crea
 
 >[!ENDTABS]
 
-1. Specificare i dettagli seguenti (![Obbligatorio](/help/assets/icons/Required.svg) è obbligatorio):
+1. Specifica i dettagli seguenti (![Obbligatorio](/help/assets/icons/Required.svg) indica i dati obbligatori):
 
    | Elemento | Descrizione |
    | --- | --- |
@@ -45,7 +55,7 @@ La finestra di dialogo **[!UICONTROL Filter builder]** viene utilizzata per crea
    | **[!UICONTROL Project-only filter]** | Una casella di informazioni per spiegare che il filtro è visibile solo nel progetto in cui viene creato e che non verrà aggiunto all’elenco dei componenti. Consenti a **[!UICONTROL Make this filter available to all your projects and add it to your component list]** di modificare tale impostazione. Questa casella di informazioni è visibile solo quando si crea un [filtro rapido](quick-filters.md) e si trasforma le informazioni del filtro rapido in un filtro normale utilizzando **[!UICONTROL Open builder]** dall&#39;interfaccia [!UICONTROL Quick filter]. |
    | **[!UICONTROL Title]** ![Obbligatorio](/help/assets/icons/Required.svg) | Denomina il filtro, ad esempio `Last month mobile customers`. |
    | **[!UICONTROL Description]** | Fornire una descrizione per il filtro, ad esempio `Filter to define the mobile customers for the last month`. |
-   | **[!UICONTROL Tags]** | Organizza il filtro creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
+   | **[!UICONTROL Tags]** | Organizza il filtro creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
    | **[!UICONTROL Definition]** ![Obbligatorio](/help/assets/icons/Required.svg) | Definisci il filtro utilizzando il [Generatore di definizioni](#definition-builder). |
 
    {style="table-layout:auto"}

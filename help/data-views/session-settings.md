@@ -5,14 +5,26 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# Impostazioni di sessione
+# Impostazioni di sessione {#session-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_settings_datapreview"
+>title="Anteprima dati"
+>abstract="Confronta i dati di questo filtro con i dati della connessione. La percentuale di anteprima è basata sul numero totale nella connessione a partire dagli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, è possibile che la connessione sia ancora in esecuzione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
 
 In Customer Journey Analytics puoi definire una sessione in qualsiasi modo per far corrispondere il modo in cui le persone interagiscono con le tue esperienze digitali. Puoi configurare le impostazioni della sessione all’interno di una visualizzazione dati.
 
