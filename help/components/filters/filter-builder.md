@@ -4,7 +4,7 @@ title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
+source-git-commit: b1bf7dfa4b2b95c2b3c00b71719a93bc7394ed33
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filter_datapreview"
+>id="cja_components_filters_datapreview"
 >title="Anteprima dati"
 >abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale nella visualizzazione dati degli ultimi **90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, è possibile che la connessione sia ancora in esecuzione."
 
