@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3588'
-ht-degree: 98%
+source-wordcount: '3610'
+ht-degree: 97%
 
 ---
 
@@ -204,8 +204,6 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 
 <!-- markdownlint-enable MD034 -->
 
-
-
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -232,6 +230,16 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 >abstract="Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B. Una volta attivata questa opzione, la trasformazione del set di dati è irreversibile."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_connectionmap"
+>title="Mappa di connessione"
+>abstract="La mappa Connessione visualizza le relazioni tra evento, persona, account e set di dati di ricerca rilevanti (come opportunità, membri della campagna e altro)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Con il nuovo flusso di lavoro è possibile aggiungere un set di dati di Experience Platform quando si crea una connessione.
 

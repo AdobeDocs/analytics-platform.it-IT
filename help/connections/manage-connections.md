@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3049'
+source-wordcount: '3150'
 ht-degree: 10%
 
 ---
@@ -121,7 +121,7 @@ Per visualizzare i dettagli di una connessione, selezionare un nome di connessio
 
 ![Finestra Tutti i set di dati con widget e impostazioni](assets/conn-details.png)
 
-L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagliata dello stato di una connessione. È possibile:
+L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagliata dello stato di una connessione. Puoi:
 
 * Controllare lo stato dei set di dati della connessione e del processo di acquisizione.
 * Identificare i problemi di configurazione che possono causare record ignorati o eliminati.
@@ -205,6 +205,46 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 
 ## Utilizzo
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_keyusagemetrics"
+>title="Metriche di utilizzo chiave"
+>abstract="Fornisci dati mensili e totali per le righe principali e cronologiche da segnalare."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyingestedrows"
+>title="Righe acquisite mensilmente"
+>abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni sulla crescita dei dati e sui tassi di acquisizione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyreportablerows"
+>title="Righe mensili da segnalare"
+>abstract="Tiene traccia del numero di righe disponibili per il reporting. Le righe da segnalare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da segnalare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_detailbreakdown"
+>title="Dettaglio del raggruppamento."
+>abstract="Puoi visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag, con l’opzione di scaricare un file CSV dei dati."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 L&#39;interfaccia [!UICONTROL Usage] mostra l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, puoi utilizzare l’interfaccia utente Utilizzo per pianificare il rinnovo della licenza del Customer Journey Analytics.
 
