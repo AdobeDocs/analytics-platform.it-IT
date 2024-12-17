@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 94d3c5352d00269b760e8b7bdf5059eaaa9b0bd3
+source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
-source-wordcount: '3204'
+source-wordcount: '3322'
 ht-degree: 10%
 
 ---
@@ -262,7 +262,32 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_datanotavailable"
+>title="Dati non disponibili"
+>abstract="I dati storici precedenti a settembre 2024 non sono disponibili a causa di limitazioni del sistema. Le metriche vengono raccolte e visualizzate a partire da settembre 2024. Il grafico mostra gli ultimi 18 mesi sulla timeline. I dati futuri verranno visualizzati non appena saranno disponibili."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_corereportablerows"
+>title="Righe principali da segnalare"
+>abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento da gennaio 2023 a gennaio 2024."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_historicalreportablerows"
+>title="Righe cronologiche da segnalare"
+>abstract="Visualizza il numero totale di righe disponibili per il periodo più vecchio di 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento precedente a gennaio 2023."
+
+<!-- markdownlint-enable MD034 -->
 
 
 L&#39;interfaccia [!UICONTROL Usage] mostra l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, puoi utilizzare l’interfaccia utente Utilizzo per pianificare il rinnovo della licenza del Customer Journey Analytics.
