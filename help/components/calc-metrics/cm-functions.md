@@ -4,7 +4,7 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 91%
@@ -191,7 +191,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_median"
+>id="calcmetrics_function_median"
 >title="Mediana"
 >abstract="Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana."
 
@@ -426,7 +426,7 @@ Somma delle colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_square_root"
+>id="calcmetrics_function_square_root"
 >title="Radice quadrata"
 >abstract="Restituisce la radice quadrata positiva di un numero. La radice quadrata di un numero è il valore di quel numero elevato alla potenza di 1/2."
 
