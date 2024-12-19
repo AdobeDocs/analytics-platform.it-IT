@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
+source-git-commit: 34b94eeeeb501f6c0deb982351b7c65e0a97bc68
 workflow-type: tm+mt
-source-wordcount: '17950'
+source-wordcount: '18087'
 ht-degree: 1%
 
 ---
@@ -1347,6 +1347,24 @@ Sono disponibili i seguenti modelli:
 | **Online/Offline** | Visualizza il traffico online e offline insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><!-- This template uses the ... --> |
 
 ### Altri canali {#other-channels}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--pointOfSale"
+>title="Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che visualizzano informazioni sui negozi principali, i prodotti principali e le categorie di prodotti principali, nonché sulle vendite online e offline."
+>abstract="**Questo ti aiuta** a capire meglio quali sono i tuoi prodotti più venduti nel punto vendita e online.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio assegnare più risorse di marketing ai tuoi prodotti e canali dalle prestazioni più elevate."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--survey"
+>title="Visualizzare il coinvolgimento degli utenti nei sondaggi. Visualizza il numero di avvii e completamenti, le domande e risposte principali e il numero di partecipanti nuovi rispetto a quelli ripetuti."
+>abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i sondaggi futuri per ottenere una migliore partecipazione."
+
+<!-- markdownlint-enable MD034 -->
 
 Sono disponibili i seguenti modelli:
 
