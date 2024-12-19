@@ -4,7 +4,7 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4163'
 ht-degree: 28%
@@ -37,7 +37,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_and"
+>id="functions-and"
 >title="E"
 >abstract="Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true)."
 
@@ -57,7 +57,7 @@ Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_approximate_count_distinct"
+>id="functions-count-distinct-metric"
 >title="Approximate Count Distinct"
 >abstract="Restituisce il conteggio distinto approssimativo degli elementi dimensione per la dimensione selezionata."
 
@@ -84,7 +84,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_cosine"
+>id="functions-acos"
 >title="Arco coseno"
 >abstract="Restituisce l’arcocoseno di una metrica, detto anche inverso del coseno. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI()."
 
@@ -107,7 +107,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_sine"
+>id="functions-asin"
 >title="Arcoseno"
 >abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L&#39;arcoseno è l&#39;angolo il cui seno è un numero. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcoseno in gradi, moltiplicate il risultato per 180/PI()"
 
@@ -130,7 +130,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_tangent"
+>id="functions-atan"
 >title="Arco tangente"
 >abstract="Restituisce l’arcotangente, o tangente inversa, di un numero. L&#39;arcotangente è l&#39;angolo la cui tangente è un numero. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcotangente in gradi, moltiplicate il risultato per 180/PI()."
 
@@ -153,7 +153,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_t"
+>id="functions-cdf-t"
 >title="Cdf-T"
 >abstract="Restituisce la probabilità che una variabile casuale con distribuzione di t-studente con n gradi di libertà abbia un punteggio z inferiore a col."
 
@@ -184,7 +184,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_z"
+>id="functions-cdf-z"
 >title="Cdf-Z"
 >abstract="Restituisce la probabilità che una variabile casuale con una distribuzione normale abbia un punteggio z inferiore a col."
 
@@ -213,7 +213,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_ceiling"
+>id="functions-ceil"
 >title="Soffitto"
 >abstract="Restituisce l’integer più piccolo, non inferiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula CEILING(Revenue) per arrotondare le entrate al dollaro più vicino o 570 $."
 
@@ -233,7 +233,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence"
+>id="functions-waskr-confidence"
 >title="Confidence"
 >abstract="Calcolare l&#39;affidabilità valida in qualsiasi momento utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
@@ -258,7 +258,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_lower"
+>id="functions-waskr-confidence-interval-lower"
 >title="Affidabilità (inferiore)"
 >abstract="Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
@@ -282,7 +282,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_upper"
+>id="functions-waskr-confidence-interval-upper"
 >title="Affidabilità (superiore)"
 >abstract="Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](https://arxiv.org/pdf/2103.06476)."
 
@@ -307,7 +307,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cosine"
+>id="functions-cos"
 >title="Coseno"
 >abstract="Restituisce il coseno dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
 
@@ -327,7 +327,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cube_root"
+>id="functions-cube-root"
 >title="Radice cubica"
 >abstract="Restituisce la radice cubica positiva di un numero. La radice cubica di un numero corrisponde al valore di quel numero elevato alla potenza di 1/3."
 
@@ -350,7 +350,7 @@ Restituisce la radice cubica positiva di un numero. La radice cubica di un numer
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative"
+>id="functions-cumul"
 >title="Cumulativo"
 >abstract="Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti."
 
@@ -379,7 +379,7 @@ Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gl
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative_average"
+>id="functions-cumul-avg"
 >title="Cumulativo (media)"
 >abstract="Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti."
 
@@ -405,7 +405,7 @@ Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gl
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_equal"
+>id="functions-eq"
 >title="Uguale"
 >abstract="Uguale. L’output è 0 (false) o 1 (true)."
 
@@ -431,7 +431,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_correlation_coefficient"
+>id="functions-ls-corr-exp"
 >title="Regressione esponenziale: coefficiente di correlazione"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione."
 
@@ -454,7 +454,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_predicted_y"
+>id="functions-ls-pred-exp"
 >title="Regressione esponenziale: valore Y previsto"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce Y."
 
@@ -478,7 +478,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_intercept"
+>id="functions-ls-intercept-exp"
 >title="Regressione esponenziale: intersezione"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce b."
 
@@ -501,7 +501,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_slope"
+>id="functions-ls-slope-exp"
 >title="Regressione esponenziale: pendenza"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce a."
 
@@ -525,7 +525,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_floor"
+>id="functions-floor"
 >title="Floor"
 >abstract="Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula FLOOR(Revenue) per arrotondare le entrate al dollaro più vicino o 569 $."
 
@@ -545,7 +545,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than"
+>id="functions-gt"
 >title="Maggiore di"
 >abstract="L’output è 0 (false) o 1 (true)."
 
@@ -570,7 +570,7 @@ L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than_or_equal"
+>id="functions-ge"
 >title="Maggiore di o uguale a"
 >abstract="Maggiore o uguale a. L’output è 0 (false) o 1 (true)."
 
@@ -596,7 +596,7 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_cosine"
+>id="functions-cosh"
 >title="Coseno iperbolico"
 >abstract="Restituisce il coseno iperbolico di un numero."
 
@@ -619,7 +619,7 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_sine"
+>id="functions-sinh"
 >title="Seno iperbolico"
 >abstract="Restituisce il seno iperbolico di un numero."
 
@@ -639,7 +639,7 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_tangent"
+>id="functions-tanh"
 >title="Tangente iperbolica"
 >abstract="Restituisce la tangente iperbolica di un numero."
 
@@ -659,7 +659,7 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_if"
+>id="functions-if"
 >title="Se "
 >abstract="Se il valore del parametro condition è diverso da zero (true), il risultato sarà il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false."
 
@@ -683,7 +683,7 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than"
+>id="functions-lt"
 >title="Minore di"
 >abstract="L’output è 0 (false) o 1 (true)."
 
@@ -708,7 +708,7 @@ L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than_or_equal"
+>id="functions-le"
 >title="Minore o uguale a"
 >abstract="Minore o uguale a. L’output è 0 (false) o 1 (true)."
 
@@ -734,7 +734,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_lift"
+>id="functions-waskr-lift"
 >title="Lift"
 >abstract="L’incremento del rapporto rispetto al valore di controllo."
 
@@ -753,7 +753,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_correlation_coefficient"
+>id="functions-ls-corr-linear"
 >title="Regressione lineare: coefficiente di correlazione"
 >abstract="Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione."
 
@@ -778,7 +778,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_intercept"
+>id="functions-ls-intercept-linear"
 >title="Regressione lineare: intersezione"
 >abstract="Regressione lineare: Y = a X + b. Restituisce b."
 
@@ -803,7 +803,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_predicted_y"
+>id="functions-ls-pred-linear"
 >title="Regressione lineare: valore Y previsto"
 >abstract="Regressione lineare: Y = a X + b. Restituisce Y."
 
@@ -828,7 +828,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_slope"
+>id="functions-ls-slope-linear"
 >title="Regressione lineare: pendenza"
 >abstract="Regressione lineare: Y = a X + b. Restituisce a."
 
@@ -850,7 +850,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_base_ten"
+>id="functions-log10"
 >title="Base logaritmo 10"
 >abstract="Restituisce il logaritmo base 10 di un numero."
 
@@ -872,7 +872,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_coefficient"
+>id="functions-ls-corr-log"
 >title="Regressione logaritmo: coefficiente di correlazione"
 >abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce il coefficiente di correlazione."
 
@@ -894,7 +894,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_intercept"
+>id="functions-ls-intercept-log"
 >title="Regressione registro: intersezione"
 >abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce b."
 
@@ -917,7 +917,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_predicted_y"
+>id="functions-ls-pred-log"
 >title="Regressione registro: valore Y previsto"
 >abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce Y."
 
@@ -940,7 +940,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_slope"
+>id="functions-ls-slope-log"
 >title="Regressione registro: pendenza"
 >abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce a."
 
@@ -963,7 +963,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_natural_log"
+>id="functions-log"
 >title="Logaritmo naturale"
 >abstract="Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante e (2,71828182845904). LN è l’inverso della funzione EXP."
 
@@ -984,7 +984,7 @@ Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano s
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not"
+>id="functions-not"
 >title="Not"
 >abstract="Negazione come booleano. L’output è 0 (false) o 1 (true)."
 
@@ -1005,7 +1005,7 @@ Negazione come booleano. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not_equal"
+>id="functions-ne"
 >title="Not Equal"
 >abstract="Diverso da. L’output è 0 (false) o 1 (true)."
 
@@ -1032,7 +1032,7 @@ Diverso da. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_or"
+>id="functions-or"
 >title="Oppure"
 >abstract="Disgiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true)."
 
@@ -1059,7 +1059,7 @@ Diverso da. L’output è 0 (false) o 1 (true).
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_pi"
+>id="functions-pi"
 >title="Pi"
 >abstract="Restituisce Pi: 3,14159..."
 
@@ -1075,7 +1075,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_correlation_coefficient"
+>id="functions-ls-corr-power"
 >title="Regressione di potenza: coefficiente di correlazione"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce il coefficiente di correlazione."
 
@@ -1098,7 +1098,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_intercept"
+>id="functions-ls-intercept-power"
 >title="Regressione di potenza: intersezione"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce b."
 
@@ -1122,7 +1122,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_predicted_y"
+>id="functions-ls-pred-power"
 >title="Regressione di potenza: valore Y previsto"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce Y."
 
@@ -1145,7 +1145,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_slope"
+>id="functions-ls-slope-power"
 >title="Regressione di potenza: pendenza"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce a."
 
@@ -1168,7 +1168,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_correlation_coefficient"
+>id="functions-ls-corr-quadratic"
 >title="Regressione quadratica: coefficiente di correlazione"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce il coefficiente di correlazione."
 
@@ -1189,7 +1189,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_intercept"
+>id="functions-ls-intercept-quadratic"
 >title="Regressione quadratica: intersezione"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce a."
 
@@ -1211,7 +1211,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_predicted_y"
+>id="functions-ls-pred-quadratic"
 >title="Regressione quadratica: valore Y previsto"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce Y."
 
@@ -1233,7 +1233,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_slope"
+>id="functions-ls-slope-quadratic"
 >title="Regressione quadratica: pendenza"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce b."
 
@@ -1256,7 +1256,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_correlation_coefficient"
+>id="functions-ls-corr-reciprocal"
 >title="Regressione reciproca: coefficiente di correlazione"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione."
 
@@ -1278,7 +1278,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_intercept"
+>id="functions-ls-intercept-reciprocal"
 >title="Regressione reciproca: intersezione"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce un valore."
 
@@ -1300,7 +1300,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_predicted_y"
+>id="functions-ls-pred-reciprocal"
 >title="Regressione reciproca: valore Y previsto"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce Y."
 
@@ -1322,7 +1322,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_slope"
+>id="functions-ls-slope-reciprocal"
 >title="Regressione Reciproale: Pendenza"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce b."
 
@@ -1346,7 +1346,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_sine"
+>id="functions-sin"
 >title="Seno"
 >abstract="Restituisce il seno dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
 
@@ -1370,7 +1370,7 @@ Restituisce Pi: 3,14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_score"
+>id="functions-t-score"
 >title="Punteggio T"
 >abstract="La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione standard. Alias per [punteggio Z](#z-score)."
 
@@ -1391,7 +1391,7 @@ La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione stan
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_test"
+>id="functions-t-test"
 >title="Test T"
 >abstract="Esegue un test t a coda m con un punteggio t di x e n gradi di libertà."
 
@@ -1438,7 +1438,7 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_tangent"
+>id="functions-tan"
 >title="Tangente"
 >abstract="Restituisce la tangente dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
 
@@ -1459,7 +1459,7 @@ Restituisce la tangente dell’angolo specificato. Se l&#39;angolo è espresso i
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_score"
+>id="functions-z-score"
 >title="Punteggio Z"
 >abstract="La deviazione dalla media divisa per la deviazione standard."
 
@@ -1493,7 +1493,7 @@ Dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** è la media d
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_test"
+>id="functions-z-test"
 >title="Test Z"
 >abstract="Esegue un test z a una coda n con un punteggio z pari a x."
 

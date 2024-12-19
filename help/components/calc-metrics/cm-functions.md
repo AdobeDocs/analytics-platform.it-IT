@@ -4,7 +4,7 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 91%
@@ -43,7 +43,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_absolute_value"
+>id="functions-abs"
 >title="Valore assoluto"
 >abstract="Restituisce il valore assoluto di un numero. Il valore assoluto di un numero è il numero con un valore positivo."
 
@@ -64,7 +64,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_maximum"
+>id="functions-col-max"
 >title="Massimo colonna"
 >abstract="Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. MAXV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali."
 
@@ -85,7 +85,7 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_minimum"
+>id="functions-col-min"
 >title="Minimo colonna"
 >abstract="Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. MINV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali."
 
@@ -107,7 +107,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_sum"
+>id="functions-col-sum"
 >title="Somma colonna"
 >abstract="Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione)."
 
@@ -128,7 +128,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_count"
+>id="functions-count"
 >title="Conteggio"
 >abstract="Restituisce il numero, o conteggio, di valori diversi da zero di una metrica all’interno di una colonna (il numero di elementi univoci riportati all’interno di una dimensione)."
 
@@ -149,7 +149,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponent"
+>id="functions-exp"
 >title="Esponente"
 >abstract="Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. EXPONENT è l&#39;inverso di LN, il logaritmo naturale di un numero."
 
@@ -169,7 +169,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_mean"
+>id="functions-mean"
 >title="Media"
 >abstract="Restituisce la media aritmetica di una metrica in una colonna"
 
@@ -191,7 +191,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_median"
+>id="functions-median"
 >title="Mediana"
 >abstract="Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana."
 
@@ -213,7 +213,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_modulo"
+>id="functions-modulo"
 >title="Modulo"
 >abstract="Restituisce il resto dopo aver diviso x per y utilizzando la divisione euclidea. "
 
@@ -250,7 +250,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_percentile"
+>id="functions-percentile"
 >title="Percentile"
 >abstract="Restituisce l’nono percentile, che è un valore compreso tra 0 e 100. Quando n &lt; 0, la funzione utilizza zero. Quando n > 100, la funzione restituisce 100."
 
@@ -274,7 +274,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_operator"
+>id="functions-pow"
 >title="Operatore di potenza"
 >abstract="Restituisce x elevato alla potenza y."
 
@@ -295,7 +295,7 @@ Restituisce x elevato alla potenza y.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quartile"
+>id="functions-quartile"
 >title="Quartile"
 >abstract="Restituisce il quartile dei valori di una metrica. Ad esempio, i quartili possono essere utilizzati per trovare il 25% dei prodotti che generano maggiori ricavi."
 
@@ -318,7 +318,7 @@ Restituisce x elevato alla potenza y.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_round"
+>id="functions-round"
 >title="Arrotondamento"
 >abstract="L’arrotondamento senza un parametro *numerico* è uguale all’arrotondamento con un parametro *numero* pari a 0, vale a dire arrotondato al numero intero più vicino.  Con un parametro *numerico* ROUND restituisce il *numero* di cifre a destra del decimale.  Se il *numero* è negativo, restituisce gli 0 a sinistra del decimale."
 
@@ -347,7 +347,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_count"
+>id="functions-count-rows"
 >title="Conteggio righe"
 >abstract="Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). *Univoci superati* viene conteggiato come 1."
 
@@ -363,7 +363,7 @@ Restituisce il numero di righe di una colonna specificata (il numero di elementi
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_max"
+>id="functions-row-max"
 >title="Massimo riga"
 >abstract="La somma delle colonne di ogni riga."
 
@@ -384,7 +384,7 @@ La somma delle colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_min"
+>id="functions-row-min"
 >title="Minimo riga"
 >abstract="Minimo di colonne di ogni riga."
 
@@ -406,7 +406,7 @@ Minimo di colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_sum"
+>id="functions-row-sum"
 >title="Somma righe"
 >abstract="Somma delle colonne di ogni riga."
 
@@ -426,7 +426,7 @@ Somma delle colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_square_root"
+>id="functions-sqrt"
 >title="Radice quadrata"
 >abstract="Restituisce la radice quadrata positiva di un numero. La radice quadrata di un numero è il valore di quel numero elevato alla potenza di 1/2."
 
@@ -447,7 +447,7 @@ Somma delle colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_standard_deviation"
+>id="functions-stdev"
 >title="Deviazione standard"
 >abstract="Restituisce la deviazione standard, o radice quadrata della varianza, in base a una popolazione di dati campione."
 
@@ -468,7 +468,7 @@ Somma delle colonne di ogni riga.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_variance"
+>id="functions-variance"
 >title="Varianza"
 >abstract="Restituisce la varianza in base a una popolazione di dati campione."
 
