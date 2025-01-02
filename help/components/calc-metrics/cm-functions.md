@@ -5,9 +5,9 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="Esponente"
->abstract="Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. EXPONENT è l&#39;inverso di LN, il logaritmo naturale di un numero."
+>abstract="Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. ESPONENTE è l’inverso di LN, il logaritmo naturale di un numero."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -171,7 +171,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 >[!CONTEXTUALHELP]
 >id="functions-mean"
 >title="Media"
->abstract="Restituisce la media aritmetica di una metrica in una colonna"
+>abstract="Restituisce la media aritmetica, o la media, di una metrica in una colonna."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -193,7 +193,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 >[!CONTEXTUALHELP]
 >id="functions-median"
 >title="Mediana"
->abstract="Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana."
+>abstract="Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri è costituita da valori maggiori o uguali alla mediana e l’altra metà da quelli minori o uguali alla mediana."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -252,7 +252,7 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="Percentile"
->abstract="Restituisce l’nono percentile, che è un valore compreso tra 0 e 100. Quando n &lt; 0, la funzione utilizza zero. Quando n > 100, la funzione restituisce 100."
+>abstract="Restituisce l’ennesimo percentile, che è un valore compreso tra 0 e 100. Quando n &lt; 0, la funzione utilizza zero. Quando n > 100, la funzione restituisce 100."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -365,13 +365,13 @@ Restituisce il numero di righe di una colonna specificata (il numero di elementi
 >[!CONTEXTUALHELP]
 >id="functions-row-max"
 >title="Massimo riga"
->abstract="La somma delle colonne di ogni riga."
+>abstract="Il massimo delle colonne di ogni riga."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
 
-La somma delle colonne di ogni riga.
+Il massimo delle colonne di ogni riga.
 
 | Argomento | Descrizione |
 |---|---|

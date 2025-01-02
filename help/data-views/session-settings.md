@@ -6,9 +6,9 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_settings_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo filtro con i dati della connessione. La percentuale di anteprima è basata sul numero totale nella connessione a partire dagli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, è possibile che la connessione sia ancora in esecuzione."
+>abstract="Confronta i dati di questo filtro con i dati della connessione. La percentuale di anteprima è basata sul numero totale nella connessione a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,9 +6,9 @@ title: Come utilizzare i tasti di scelta rapida di Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -21,64 +21,64 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 - **⇧** per **[!UICONTROL ** Maiusc **]**.
 - **⌘** per **[!UICONTROL ** Cmd **]** (comando).
 - **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
-- **** per **[!UICONTROL ** Opt **]** (opzione).
+- **⌥** per **[!UICONTROL ** Opt **]** (opzione).
 - **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
 | --- | --- | --- | 
-| Crea nuovo progetto | **[!UICONTROL *cmd + Maiusc + p *]** | **[!UICONTROL *Ctrl + Maiusc + P *]** |
-| Apri progetto esistente | **[!UICONTROL *comando + o *]** | **[!UICONTROL *ctr + o *]** |
-| Passa al riquadro Pannelli | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *Alt + Maiusc + 1 *]** |
-| Passa al riquadro Visualizzazioni | **[!UICONTROL *opt + shift + 2 *]** | **[!UICONTROL *Alt + Maiusc + 2 *]** |
-| Passa al riquadro Componenti | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *Alt + Maiusc + 3 *]** |
-| Comprimi/espandi tutti i pannelli | **[!UICONTROL *opt + m *]** | **[!UICONTROL *Alt + M *]** |
-| Comprimi/espandi pannello attivo | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *Alt + Ctrl + M *]** |
-| Passa al pannello successivo | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
-| Passa al pannello precedente | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
+| Crea nuovo progetto | **[!UICONTROL *Comando+Maiusc+p *]** | **[!UICONTROL *Ctrl+Maiusc+p *]** |
+| Apri un progetto esistente | **[!UICONTROL *Comando+o *]** | **[!UICONTROL *Ctrl+o *]** |
+| Passa al riquadro Pannelli | **[!UICONTROL *Opzione+Maiusc+1 *]** | **[!UICONTROL *Alt+Maiusc+1 *]** |
+| Passa al riquadro Visualizzazioni | **[!UICONTROL *Opzione+Maiusc+2 *]** | **[!UICONTROL *Alt+Maiusc+2 *]** |
+| Passa al riquadro Componenti | **[!UICONTROL *Opzione+Maiusc+3 *]** | **[!UICONTROL *Alt+Maiusc+3 *]** |
+| Comprimi/espandi tutti i pannelli | **[!UICONTROL *Opzione+m *]** | **[!UICONTROL *Alt+m *]** |
+| Comprimi/espandi pannello attivo | **[!UICONTROL *Opzione+Comando+m *]** | **[!UICONTROL *Alt+Ctrl+m *]** |
+| Passa al pannello successivo | **[!UICONTROL *Opzione *+ ▶︎]** | **[!UICONTROL *Alt *+ ▶︎]** |
+| Passa al pannello precedente | **[!UICONTROL *Opzione *+ ◀︎]** | **[!UICONTROL *Alt *+ ◀︎]** |
 
 ## Azioni di analisi
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
 | --- | --- | --- | 
-| Ricerca pannello a sinistra | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
-| Creare un avviso | **[!UICONTROL *comando + Maiusc + A *]** | **[!UICONTROL *Ctrl + Maiusc + A *]** |
-| Creare una metrica calcolata | **[!UICONTROL *cmd + Maiusc + c *]** | **[!UICONTROL *Ctrl + Maiusc + C *]** |
-| Creare un intervallo di date | **[!UICONTROL *cmd + Maiusc + D *]** | **[!UICONTROL *Ctrl + Maiusc + D *]** |
-| Creare un filtro | **[!UICONTROL *cmd + Maiusc + E *]** | **[!UICONTROL *Ctrl + Maiusc + E *]** |
-| Cancella tutto | **[!UICONTROL *Alt + W *]** | **[!UICONTROL *opt + w *]** |
-| Copia | **[!UICONTROL *cmd + c *]** | **[!UICONTROL *ctrl + c *]** |
-| Ripristina | **[!UICONTROL *comando + Maiusc + Z *]** | **[!UICONTROL *Ctrl + Maiusc + Z *]** |
-| Annulla | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
-| Aggiorna componenti | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *Alt + Maiusc + R *]** |
-| Aggiorna progetto | **[!UICONTROL *opt + r *]** | **[!UICONTROL *Alt + R *]** |
-| Imposta come pagina di destinazione | **[!UICONTROL *cmd + Maiusc + L *]** | **[!UICONTROL *Ctrl + Maiusc + L *]** |
+| Ricerca pannello a sinistra | **[!UICONTROL *Comando+/*]** | **[!UICONTROL *Ctrl+/*]** |
+| Crea un avviso | **[!UICONTROL *Comando+Maiusc+a *]** | **[!UICONTROL *Ctrl+Maiusc+a *]** |
+| Crea una metrica calcolata | **[!UICONTROL *Comando+Maiusc+c *]** | **[!UICONTROL *Ctrl+Maiusc+c *]** |
+| Crea un intervallo di date | **[!UICONTROL *Comando+Maiusc+d *]** | **[!UICONTROL *Ctrl+Maiusc+d *]** |
+| Crea un filtro | **[!UICONTROL *Comando+Maiusc+e *]** | **[!UICONTROL *Ctrl+Maiusc+e *]** |
+| Cancella tutto | **[!UICONTROL *Alt+w *]** | **[!UICONTROL *Opzione+w *]** |
+| Copia | **[!UICONTROL *Comando+c *]** | **[!UICONTROL *Ctrl+c *]** |
+| Ripristina | **[!UICONTROL *Comando+Maiusc+z *]** | **[!UICONTROL *Ctrl+Maiusc+z *]** |
+| Annulla | **[!UICONTROL *Comando+z *]** | **[!UICONTROL *Ctrl+z *]** |
+| Aggiorna componenti | **[!UICONTROL *Opzione+Maiusc+r *]** | **[!UICONTROL *Alt+Maiusc+r *]** |
+| Aggiorna progetto | **[!UICONTROL *Opzione+r *]** | **[!UICONTROL *Alt+r *]** |
+| Imposta come pagina di destinazione | **[!UICONTROL *Comando+Maiusc+l *]** | **[!UICONTROL *Ctrl+Maiusc+l *]** |
 
 ## Aggiungi pannelli e azioni di visualizzazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
 | --- | --- | --- | 
-| Nuovo pannello Attribuzione | **[!UICONTROL *opt + e *]** | **[!UICONTROL *Alt + E *]** |
-| Nuovo pannello vuoto | **[!UICONTROL *opt + b *]** | **[!UICONTROL *Alt + B *]** |
-| Nuovo pannello a forma libera | **[!UICONTROL *opt + a *]** | **[!UICONTROL *Alt + A *]** |
-| Nuovo pannello Quick Insights | **[!UICONTROL *opt + f *]** | **[!UICONTROL *Alt + F *]** |
-| Nuova tabella a forma libera | **[!UICONTROL *opt + 1 *]** | **[!UICONTROL *Alt + 1 *]** |
-| Nuovo grafico a linee | **[!UICONTROL *opt + 2 *]** | **[!UICONTROL *Alt + 2 *]** |
-| Nuovo grafico a barre | **[!UICONTROL *opt + 3 *]** | **[!UICONTROL *alt + 3 *]** |
-| Nuovo grafico combinato | **[!UICONTROL *opt + 4 *]** | **[!UICONTROL *alt + 4 *]** |
+| Nuovo pannello Attribuzione | **[!UICONTROL *Opzione+e *]** | **[!UICONTROL *Alt+e *]** |
+| Nuovo pannello vuoto | **[!UICONTROL *Opzione+b *]** | **[!UICONTROL *Alt+b *]** |
+| Nuovo pannello a forma libera | **[!UICONTROL *Opzione+a *]** | **[!UICONTROL *Alt+a *]** |
+| Nuovo pannello Quick Insights | **[!UICONTROL *Opzione+f *]** | **[!UICONTROL *Alt+f *]** |
+| Nuova tabella a forma libera | **[!UICONTROL *Opzione+1 *]** | **[!UICONTROL *Alt+1 *]** |
+| Nuovo grafico a linee | **[!UICONTROL *Opzione+2 *]** | **[!UICONTROL *Alt+2 *]** |
+| Nuovo grafico a barre | **[!UICONTROL *Opzione+3 *]** | **[!UICONTROL *Alt+3 *]** |
+| Nuovo grafico combinato | **[!UICONTROL *Opzione+4 *]** | **[!UICONTROL *Alt+4 *]** |
 
 ## Azioni di democratizzazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
 | --- | --- | --- | 
-| Salva progetto | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
-| Salva progetto come | **[!UICONTROL *comando + Maiusc + S *]** | **[!UICONTROL *Ctrl + Maiusc + S *]** |
-| Salva come modello | **[!UICONTROL *opt + t *]** | **[!UICONTROL *Alt + T *]** |
-| Scarica come CSV | **[!UICONTROL *cmd + Maiusc + v *]** | **[!UICONTROL *Ctrl + Maiusc + V *]** |
-| Scarica come PDF | **[!UICONTROL *cmd + Maiusc + b *]** | **[!UICONTROL *Ctrl + Maiusc + B *]** |
-| Cura dati progetto | **[!UICONTROL *comando + Maiusc + G *]** | **[!UICONTROL *Ctrl + Maiusc + G *]** |
-| Condividi progetto | **[!UICONTROL *cmd + g *]** | **[!UICONTROL *Ctrl + G *]** |
-| Ottieni collegamento progetto | **[!UICONTROL *Alt + L *]** | **[!UICONTROL *Alt + L *]** |
-| Invia subito file | **[!UICONTROL *Alt + S *]** | **[!UICONTROL *Alt + S *]** |
-| Invia file secondo pianificazione | **[!UICONTROL *Maiusc + Alt + S *]** | **[!UICONTROL *Maiusc + Alt + S *]** |
+| Salva progetto | **[!UICONTROL *Comando+s *]** | **[!UICONTROL *Ctrl+s *]** |
+| Salva progetto come | **[!UICONTROL *Comando+Maiusc+s *]** | **[!UICONTROL *Ctrl+Maiusc+s *]** |
+| Salva come modello | **[!UICONTROL *Opzione+t *]** | **[!UICONTROL *Alt+t *]** |
+| Scarica come CSV | **[!UICONTROL *Comando+Maiusc+v *]** | **[!UICONTROL *Ctrl+Maiusc+v *]** |
+| Scarica come PDF | **[!UICONTROL *Comando+Maiusc+b *]** | **[!UICONTROL *Ctrl+Maiusc+b *]** |
+| Cura dati progetto | **[!UICONTROL *Comando+Maiusc+g *]** | **[!UICONTROL *Ctrl+Maiusc+g *]** |
+| Condividi progetto | **[!UICONTROL *Comando+g *]** | **[!UICONTROL *Ctrl+g *]** |
+| Ottieni collegamento progetto | **[!UICONTROL *Alt+l *]** | **[!UICONTROL *Alt+l *]** |
+| Invia subito file | **[!UICONTROL *Alt+s *]** | **[!UICONTROL *Alt+s *]** |
+| Invia file secondo pianificazione | **[!UICONTROL *Maiusc+Alt+s *]** | **[!UICONTROL *Maiusc+Alt+s *]** |
