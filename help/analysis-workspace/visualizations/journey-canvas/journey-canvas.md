@@ -4,14 +4,34 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
+source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 1%
+source-wordcount: '1766'
+ht-degree: 3%
 
 ---
 
-# Panoramica dell’area di lavoro del percorso
+# Panoramica dell’area di lavoro del percorso {#journey-canvas-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_button"
+>title="Area di lavoro percorso"
+>abstract="Simile a Abbandono, questa visualizzazione mostra come le persone procedono attraverso o abbandonano una serie di punti di contatto. Utilizza l’area di lavoro Percorso per percorsi con più punti di ingresso e percorsi o per analizzare percorsi creati in Journey Optimizer."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_panel"
+>title="Area di lavoro percorso"
+>abstract="Analizzare il modo in cui le persone procedono attraverso un percorso definito o ne escono. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Come fai tu, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti"
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. Consente di definire un percorso da zero o visualizzarne uno da Journey Optimizer, quindi di vedere in che modo le persone hanno abbandonato (abbandonato) o continuato (proseguito) il percorso.
 
