@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
+source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Con l’unione è possibile attribuire i dati dei dispositivi condivisi utilizza
 
 ### Attribuzione ultima autenticazione
 
-Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Panoramica delle regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview).
+Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
 
 Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
@@ -65,7 +65,7 @@ Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti v
 
 ### Device-split
 
-L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente nelle immediate vicinanze dell’attività anonima. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
+L’attività anonima degli attributi di suddivisione del dispositivo da un dispositivo condiviso all’utente noto più recente che ha cercato nel passato. La suddivisione del dispositivo è attualmente utilizzata nell’unione basata sui campi.
 
 Quando nell’unione viene utilizzata l’attribuzione device-split, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
