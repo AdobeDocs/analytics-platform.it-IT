@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
+source-git-commit: 05e1b5e26d5a1dc1e46a675131185f0927c65f22
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1759'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="Area di lavoro percorso"
->abstract="Simile a Abbandono, questa visualizzazione mostra come le persone procedono attraverso o abbandonano una serie di punti di contatto. Utilizza l’area di lavoro Percorso per percorsi con più punti di ingresso e percorsi o per analizzare percorsi creati in Journey Optimizer."
+>abstract="Mostra come le persone procedono attraverso o cadono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi o per analizzare percorsi creati in Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
