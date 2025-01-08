@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 78803a2062b38b0f4a80837d18dbf3e9cc609cc8
+source-git-commit: 02026709480872216ee76e842045517822c59bff
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1919'
 ht-degree: 27%
 
 ---
@@ -46,6 +46,8 @@ L’intervallo di lookback per la rekeying dipende dalla frequenza di dati ripet
 In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
 L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condivisi vengono considerati persone separate (anche se provengono dallo stesso dispositivo).
+
+Per ulteriori dettagli, vedi il caso d&#39;uso [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
 
 +++
 
