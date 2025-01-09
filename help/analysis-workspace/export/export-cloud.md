@@ -5,9 +5,9 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2226'
 ht-degree: 3%
 
 ---
@@ -178,6 +178,7 @@ I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuo
    * È stato creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md) (simile alle variabili con più valori in Adobe Analytics)
    * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md)
    * Non utilizza una [dimensione di associazione](/help/use-cases/data-views/binding-dimensions-metrics.md)
+* Più dimensioni provenienti da campi che fanno riferimento a [array di oggetti](/help/use-cases/object-arrays.md) diversi. Sono consentite più dimensioni che fanno riferimento allo stesso array di oggetti.
 * Più di 5 dimensioni e 5 metriche per rapporto (sono supportate fino a 5 dimensioni e 5 metriche)
 * Nelle colonne della tabella:
    * Intervalli di date
