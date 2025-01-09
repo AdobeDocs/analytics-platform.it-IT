@@ -4,20 +4,15 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 7980286bed4f08b2ca23c0930538adb6c694344e
+badgePremium: label="Versione Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Versione Adobe Analytics di questo articolo"
+source-git-commit: f13f5be06cfadc9ff875c378a0505b4f1f4469dd
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 42%
+source-wordcount: '214'
+ht-degree: 41%
 
 ---
 
 # Bullet {#bullet}
-
-<!-- markdownlint-disable MD034 -->
-
-[!BADGE Adobe Analytics versione]{type=Informative url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html"}
-
-<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -37,7 +32,6 @@ ht-degree: 42%
 >abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->
-
 
 La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra il confronto tra una metrica e gli intervalli di prestazioni (obiettivi) o le relative misurazioni.
 
