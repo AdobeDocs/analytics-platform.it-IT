@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
+source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 10%
+source-wordcount: '3519'
+ht-degree: 9%
 
 ---
 
@@ -135,7 +135,7 @@ L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagli
 | [!UICONTROL Records of event data available] | Numero totale di righe del set di dati evento disponibili per il reporting, **per l&#39;intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Il conteggio cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. Una volta aggiunti i dati, vi è una latenza di 1-2 ore per far sì che vengano visualizzati nel reporting. |
 | [!UICONTROL Metrics] | Riepiloga i record evento, ricerca, profilo e set di dati di riepilogo aggiunti, saltati ed eliminati e il numero di batch aggiunti. Queste metriche si basano sul **set di dati e intervallo di date selezionati**.<p>Selezionare **[!UICONTROL Check detail]** per visualizzare la finestra a comparsa **[!UICONTROL Check skipped detail]**. Il pop-up elenca il numero di record saltati e il motivo di tutti i set di dati evento o di tutti i set di dati selezionati.<p><img src="./assets/skipped-records.png" width="500"/><p>Selezionare il popup ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) con ulteriori informazioni. Per alcuni motivi ignorati, ad esempio [!UICONTROL Empty visitor ID], nel popup viene visualizzato PSQL di esempio per EQS (Experience Platform per Query Service) utilizzabile in [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) per eseguire query per i record ignorati nel set di dati. Selezionare ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** per copiare SQL. |
 | [!UICONTROL Records added] | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Aggiornato ogni 10 minuti. |
-| [!UICONTROL Records skipped] | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati includono: marche temporali mancanti, ID persona mancante o non valido e così via. Aggiornato ogni 10 minuti. <p>Gli ID persona non validi (ad esempio `undefined` o `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) sono ID che non possono essere attribuiti a un utente o persona specifica. Queste righe non possono essere acquisite nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Stitching](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che viene quindi ignorato durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo da zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
+| [!UICONTROL Records skipped] | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati includono: marche temporali mancanti, ID persona mancante o non valido e così via. Aggiornato ogni 10 minuti. <p>Gli ID persona non validi (ad esempio `undefined` o `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che compaiono in un evento più di 1 milione di volte in un dato mese) sono ID che non possono essere attribuiti a un utente o persona specifica. Queste righe non possono essere acquisite nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Stitching](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che viene quindi ignorato durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo da zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
 | Eliminazione di [!UICONTROL Records] completata | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Qualcuno potrebbe aver eliminato un set di dati in [!DNL Experience Platform], ad esempio. Aggiornato ogni 10 minuti.<p>In alcuni scenari, questo valore può includere anche i record sostituiti, ad esempio con l’unione o alcuni aggiornamenti dei set di dati di ricerca. Prendi in considerazione questo esempio:</p><ul><li>Carichi un record in un set di dati Profilo individuale XDM, che il Customer Journey Analytics è configurato per acquisire come dati di ricerca profilo. Nei dettagli della connessione, questo set di dati visualizzerebbe 1 record aggiunto.</li><li>Carichi un duplicato del record originale nello stesso set di dati AEP, che ora contiene due record. Il Customer Journey Analytics acquisisce il record aggiuntivo dal set di dati di ricerca del profilo. Poiché nella connessione è già stato acquisito un record di profilo per tale ID persona, il Customer Journey Analytics elimina la versione precedente e aggiunge i nuovi dati del profilo. Nei dettagli della connessione, questa azione rappresenterebbe 1 record aggiunto e 1 record eliminato, perché il Customer Journey Analytics mantiene solo i dati di ricerca profilo più recenti per qualsiasi ID persona acquisito.</li><li>In totale, il set di dati AEP contiene due record che risultano identici. Separatamente, i dettagli della connessione al Customer Journey Analytics visualizzano lo stato dei dati acquisiti: 2 record aggiunti e 1 record eliminato per questo set di dati profilo. </li></ul> |
 | ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _Cerca nome o ID set di dati_ | Campo di ricerca del set di dati. È possibile eseguire ricerche nella tabella dei set di dati in base al nome o a [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets table] | I set di dati che fanno parte della connessione. |
@@ -195,7 +195,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 | [!UICONTROL Records deleted] | Quanti record sono stati eliminati durante il periodo di tempo selezionato. |
 | [!UICONTROL Batches added] | Quanti batch di dati sono stati aggiunti a questo set di dati. |
 | [!UICONTROL Records skipped] | Quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>I motivi per cui i record vengono ignorati includono: marche temporali mancanti, ID persona mancante o non valido e così via. Aggiornato ogni 10 minuti.<p>Gli ID persona non validi (ad esempio `undefined` o `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) sono ID che non possono essere attribuiti a un utente o persona specifica. Queste righe non possono essere acquisite nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Stitching](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che viene quindi ignorato durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo da zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
-| [!UICONTROL Last added] | Data di aggiunta dell’ultimo batch. |
+| [!UICONTROL Last added] | La marca temporale in cui è stato aggiunto l’ultimo batch. |
 | [!UICONTROL Import new data] | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Il]**se il set di dati è configurato per l&#39;importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Off_]** se il set di dati non è configurato per l&#39;importazione di nuovi dati. |
 | [!UICONTROL Backfill data] | Stato dei dati di backfill per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riusciti]**per il numero di backfill non riusciti,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _backfill in elaborazione]**per il numero di backfill in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurato alcun backfill.<p>Per visualizzare una finestra di dialogo con una panoramica dei precedenti backfill per il set di dati, seleziona <img src="./assets/pastbackfill.svg" alt="Backfill passati" width="15"/> **[!UICONTROL Past backfills]**. |
 | [!UICONTROL Data source type] | Tipo di origine dati definito durante l’aggiunta del set di dati alla connessione. |
@@ -204,7 +204,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 | [!UICONTROL Dataset ID] | Questo ID del set di dati viene generato in Experience Platform. |
 
 
-## Utilizzo
+## Utilizzo {#connections-usage}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -212,7 +212,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_keyusagemetrics"
 >title="Metriche di utilizzo chiave"
 >abstract="Fornisci dati mensili e totali per le righe principali e cronologiche da segnalare."
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -222,7 +221,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_monthlyingestedrows"
 >title="Righe acquisite mensilmente"
 >abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni sulla crescita dei dati e sui tassi di acquisizione."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -231,7 +229,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_monthlyreportablerows"
 >title="Righe mensili da segnalare"
 >abstract="Tiene traccia del numero di righe disponibili per il reporting. Le righe da segnalare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da segnalare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -241,7 +238,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_detailbreakdown"
 >title="Dettaglio del raggruppamento."
 >abstract="Puoi visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag, con l’opzione di scaricare un file CSV dei dati."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -250,7 +246,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_otherdatasets"
 >title="Altri set di dati"
 >abstract="Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come *Altri set di dati* per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e *Altri set di dati* non verranno più visualizzati."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -259,7 +254,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_unknowndatasetsorconnections"
 >title="Set di dati o connessioni sconosciuti"
 >abstract="I set di dati o le connessioni sconosciuti vengono visualizzati utilizzando i relativi ID."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -268,7 +262,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_usage_datanotavailable"
 >title="Dati non disponibili"
 >abstract="I dati storici precedenti a settembre 2024 non sono disponibili a causa di limitazioni del sistema. Le metriche vengono raccolte e visualizzate a partire da settembre 2024. Il grafico mostra gli ultimi 18 mesi sulla timeline. I dati futuri verranno visualizzati non appena saranno disponibili."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -277,7 +270,6 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_corereportablerows"
 >title="Righe principali da segnalare"
 >abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento da gennaio 2023 a gennaio 2024."
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -286,41 +278,94 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >id="cja_connections_historicalreportablerows"
 >title="Righe cronologiche da segnalare"
 >abstract="Visualizza il numero totale di righe disponibili per il periodo più vecchio di 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento precedente a gennaio 2023."
-
 <!-- markdownlint-enable MD034 -->
 
 
-L&#39;interfaccia [!UICONTROL Usage] mostra l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, puoi utilizzare l’interfaccia utente Utilizzo per pianificare il rinnovo della licenza del Customer Journey Analytics.
+L&#39;interfaccia [!UICONTROL Usage] mostra l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Se non è selezionata, selezionare la scheda **[!UICONTROL Usage]** per accedere all&#39;interfaccia.
 
-È possibile selezionare un intervallo di tempo (tra gli ultimi 6 mesi, anno corrente o gli ultimi 2 anni) e un intervallo (tra mensile o trimestrale) per monitorare l&#39;utilizzo del Customer Journey Analytics. L’interfaccia è divisa in due sezioni:
+Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, è possibile utilizzare l&#39;interfaccia di utilizzo per pianificare il rinnovo della licenza del Customer Journey Analytics.
 
-* Righe acquisite: totale delle righe acquisite/inviate dai set di dati evento in tutte le connessioni di Customer Journey Analytics, inclusi i record ignorati durante l’acquisizione
-* Righe segnalabili: il totale delle righe segnalabili che includono tutti i dati degli eventi in tutte le connessioni di Customer Journey Analytics
+L’interfaccia di utilizzo utilizza le metriche seguenti
 
-![visualizzazione-utilizzo](assets/usage-view.png)
+| Nome della metrica | Descrizione |
+|---|---|
+| Righe cronologiche da segnalare | Numero di righe per il periodo più vecchio di 13 mesi. |
+| Righe principali da segnalare | Numero di righe negli ultimi 13 mesi. |
+| Righe acquisite | Quante righe vengono acquisite per il periodo specifico. |
+| Righe da segnalare | Quante righe di dati hai come parte della connessione per il periodo specifico. |
+| Righe cumulative | Quante righe vengono acquisite fino al mese specifico. |
 
-Selezionare la scheda **[!UICONTROL Usage]** per accedere all&#39;interfaccia.
-
-### Report sull’utilizzo
-
-1. Seleziona **[!UICONTROL Time range]**. È possibile selezionare tra **[!UICONTROL Last 6 months]**, **[!UICONTROL Year to date]** o **[!UICONTROL Last 2 Years]**.
-1. Selezionare un **[!UICONTROL Interval]**. È possibile selezionare tra **[!UICONTROL Monthly]** o **[!UICONTROL Quarterly]**.
-
-Per [!UICONTROL Ingested rows]:
-
-* Un pannello visualizza il totale delle righe acquisite che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni secondo giorno del mese. All’interno del pannello:
-   * in una casella vengono visualizzati il numero di righe acquisite nell’ultimo mese e la modifica in % (indicata da ▲ o ▼) rispetto al mese precedente.
-   * un grafico a linee visualizza il ◼︎ [!UICONTROL Monthly ingested rows].<br/>Per visualizzare un popup che visualizza il numero di righe acquisite mensili per un mese, passa il cursore del mouse su un punto dati nel grafico a linee.
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
 
 
-Per [!UICONTROL Reportable rows]:
 
-* Un pannello visualizza il totale delle righe segnalabili che includono tutti i dati degli eventi in tutte le connessioni aggiornate ogni due giorni del mese. All’interno del pannello:
-   * in una casella viene visualizzato il numero totale cumulativo di righe da segnalare.
-   * in una casella viene visualizzato il numero totale di righe da segnalare per l&#39;ultimo mese e la variazione in % (indicata da ▲ o ▼) rispetto al mese precedente.
-   * un grafico a linee visualizza il ◼︎ [!UICONTROL Monthly reportable rows].<br/>Per visualizzare un popup che visualizza il numero di righe segnalabili cumulative per un mese specifico, posizionare il cursore del mouse su un punto dati nel grafico a linee.
-   * un grafico a linee visualizza il ◼︎ [!UICONTROL Cumulative reportable rows].<br/>Per visualizzare un popup che visualizza il numero di righe mensili da segnalare per un mese, passa il cursore del mouse su un punto dati nel grafico a linee.
+L’interfaccia di utilizzo è costituita da due pannelli:
 
+* Pannello **[!UICONTROL Key usage metrics]**: fornisce righe di dati di base e cronologici da segnalare. Il pannello tiene inoltre traccia delle modifiche percentuali rispetto al mese precedente per entrambe le righe di dati principali e storici.
+
+  Il pannello viene visualizzato in una visualizzazione:
+
+   * **[!UICONTROL Core data reportable rows]**.
+
+     Quante righe da segnalare hai negli ultimi 13 mesi. Il numero di riepilogo è il numero di righe principali da segnalare (ad esempio, 741M) per l’ultimo mese (ad esempio, dicembre 2024).
+
+   * **[!UICONTROL Historical data reportable rows]**.
+
+     Quante righe da segnalare si hanno per il periodo più vecchio di 13 mesi. Il numero di riepilogo è il numero di righe segnalabili cronologiche (ad esempio, 127M) per l’ultimo mese (ad esempio, dicembre 2024).
+
+  Quando passi il cursore su una barra sovrapposta nella visualizzazione, viene visualizzato il numero di righe per quella parte specifica della barra (ad esempio).
+
+
+  ![Metriche di utilizzo chiave](assets/usage-key-usage-metrics.png)
+
+* Un pannello combinato che mostra tre pannelli secondari per:
+
++++ Righe acquisite
+
+  Il pannello secondario **[!UICONTROL Ingested rows]** misura il numero totale di record aggiunti al sistema ogni mese, fornendo informazioni sulla crescita dei dati e sui tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+  ![Righe acquisite](assets/usage-ingested-rows.png)
+
+  Puoi passare il cursore del mouse sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli.
+
++++
+
++++ Righe da segnalare
+
+  La visualizzazione **[!UICONTROL Reportable rows]** tiene traccia del numero di righe disponibili per il reporting sottraendo le righe saltate ed eliminate dalle righe acquisite, fungendo da metrica chiave per la fatturazione e l&#39;utilizzo dei dati. Il pannello secondario fornisce due riepiloghi:
+
+   * **[!UICONTROL Last month total]**: riepilogo delle righe segnalabili totali fino al mese corrente.
+   * **[!UICONTROL This month]**: riepilogo delle righe totali del mese corrente e della modifica rispetto al mese precedente.
+
+  ![Righe segnalabili](assets/usage-reportable-rows.png)
+
+  Puoi passare il cursore del mouse sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli.
+
++++
+
++++ Dettaglio raggruppamento
+
+  È possibile utilizzare la tabella **[!UICONTROL Detail breakdown]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono segnalati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati durante un periodo di reporting. I set di dati o le connessioni sconosciuti vengono segnalati utilizzando gli ID.
+
+  Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Other datasets] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Other datasets] non viene più visualizzato.
+
+   * Per modificare il raggruppamento, selezionare una combinazione per **[!UICONTROL View by]** e **[!UICONTROL Breakdown by]**.
+
+     | **[!UICONTROL View by]** opzioni | **[!UICONTROL Breakdown by]** opzioni |
+     |---|---|
+     | **[!UICONTROL Connection]** | **[!UICONTROL -]** e **[!UICONTROL Dataset]** |
+     | **[!UICONTROL Dataset]** | **[!UICONTROL -]** |
+     | **[!UICONTROL Sandbox]** | **[!UICONTROL Connection]** |
+     | **[!UICONTROL Tag]** | **[!UICONTROL Connection]** |
+
+  ![Dettaglio raggruppamento](assets/usage-detail-breakdown.png)
+
++++
+
+  Puoi definire un **[!UICONTROL Time range]** in mesi per il quale generare il rapporto. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l&#39;intervallo di tempo.
 
 >[!MORELIKETHIS]
 >

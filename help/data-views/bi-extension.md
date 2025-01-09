@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
+source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
 workflow-type: tm+mt
-source-wordcount: '3089'
-ht-degree: 1%
+source-wordcount: '3145'
+ht-degree: 2%
 
 ---
 
@@ -70,7 +70,7 @@ In Adobe Experience Platform:
 
 1. Selezionare ![Crea query](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Crea query **]**.
 
-1. Selezionare il `cja` **[!UICONTROL ** database **]**.
+1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
 1. Per eseguire la query, digitare l&#39;istruzione SQL e selezionare il pulsante ![Esegui](assets/Smock_Play_18_N.svg) (oppure premere `[SHIFT]` + `[ENTER]`).
 
@@ -85,7 +85,7 @@ In Adobe Experience Platform:
 
    1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
 
-   1. Selezionare il `cja` **[!UICONTROL ** database **]**.
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
    1. Per copiare la stringa di comando, utilizzare ![Copia](assets/Smock_Copy_18_N.svg) nella sezione **[!UICONTROL ** Comando PSQL **]**.
 
@@ -110,7 +110,7 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
    1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
 
-   1. Selezionare il `cja` **[!UICONTROL ** database **]**.
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
    1. Utilizza ![Copia](assets/Smock_Copy_18_N.svg) per copiare ciascuno dei parametri delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] e altri) quando necessario in Power BI.
 
@@ -153,7 +153,7 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
    1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
 
-   1. Selezionare il ` cja` **[!UICONTROL ** database **]**.
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
    1. Utilizza ![Copia](assets/Smock_Copy_18_N.svg) per copiare ciascuno dei parametri delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] e altri) quando necessario in Tableau Desktop.
 
@@ -256,7 +256,7 @@ Per esempi delle istruzioni SQL utilizzabili, vedere la tabella seguente.
 | Totali delle metriche | <pre>SELECT SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</pre> |
 | Suddivisioni<br/>multidimensionali<br/>e principali | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 1, 2<br/>ORDER BY 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>FROM dv1</pre> |
 | Sottoseleziona:<br/>Filtra ulteriori<br/>risultati | <pre>SELECT dim1, m1<br/>FROM (<br/> SELECT dim1, SUM(metric1) AS m1<br/> FROM dv1<br/> WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</br> GROUP BY dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
-| Sottoseleziona:<br/>Query tra<br/>visualizzazioni dati | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/> SELECT dim1 AS key, SUM(metric1) AS m1<br/> FROM dv1<br/> WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/> GROUP BY dim1<br/><br/> UNION<br/><br/> SELECT dim2 AS key, SUM(m1) AS m1<br/> FROM dv2<br/> WHERE \`timestamp\` BETWEEN &#39;2022-0 1-01&#39; E &#39;2022-01-02&#39;<br/> GROUP BY dim2<br/>GROUP BY chiave<br/>ORDER BY totale</pre> |
+| Sottoseleziona:<br/>Query tra<br/>visualizzazioni dati | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/> SELECT dim1 AS key, SUM(metric1) AS m1<br/> FROM dv1<br/> WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/> GROUP BY dim1<br/><br/> UNION<br/><br/> SELECT dim2 AS key, SUM(m1) AS m1<br/> FROM dv2<br/> WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/> GROUP BY dim2<br/>GROUP BY key<br/>ORDER BY total</pre> |
 | Sottoseleziona: <br/>Origine con livelli, <br/>filtro, <br/>e aggregazione | Livellato con sottoselezioni:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/> SELECT \_.dim1,\_.m1<br/> FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` TRA &#39;2022-01-01&#39; E &#39;2022-01-02&#39;<br/> ) \_<br/> WHERE \_.dim1 nelle righe (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>)<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>Livelli che utilizzano CTE WITH:<br/><pre>CON righe COME (<br/> CON \_ AS (<br/>)    SELECT * FROM data_ares<br/>    WHERE \`timestamp\` TRA &#39;2021-01-01&#39; E &#39;2021-02-01&#39;<br/> )<br/> SELECT \_.item, \_.units FROM \_<br/> WHERE \_.item IS NOT NULL<br/>)<br/>SELECT rows.item, SUM(rows.units) AS units<br/>FROM rows WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
 | Seleziona la posizione in cui le<br/>metriche precedono<br/> o sono combinate con<br/>le dimensioni | <pre>SELECT SUM(metric1) AS m1, dim1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 2</pre> |
 
