@@ -4,7 +4,7 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: b1cdaa871bf5040cf1cf436348b4ca03c5553a76
+source-git-commit: 9d2df264659341252c0ad02705eb4db04337ab0c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 43%
@@ -19,7 +19,7 @@ ht-degree: 43%
 >id="workspace_bullet_goalvalue"
 >title="Valore obiettivo"
 >abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph" text="Punto elenco (Adobe Analytics)"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="Punto elenco (Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
