@@ -1,9 +1,10 @@
 ---
 title: Panoramica sull’utilizzo del prodotto
 description: Visualizzare approfondimenti e rapporti sul modo in cui l’organizzazione utilizza il Customer Journey Analytics.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
+source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '361'
 ht-degree: 3%
 
 ---
@@ -24,6 +25,12 @@ Una volta abilitata, la raccolta e l’impostazione dei dati vengono configurate
 >[!IMPORTANT]
 >
 >Questa funzione conta per i limiti di riga contrattuali in Adobe Experience Platform. Assicurati che la tua organizzazione possa inserire i dati generati da questa funzione prima di abilitarla.
+
+## Abilita utilizzo prodotto
+
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]**
+
+Passando a questa sezione dell&#39;interfaccia nel Customer Journey Analytics, puoi passare a [Impostazioni dati](data-settings.md), dove puoi abilitare questa funzione.
 
 ## Dimensioni disponibili
 
