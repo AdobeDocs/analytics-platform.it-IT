@@ -4,11 +4,11 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="Versione Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Versione Adobe Analytics di questo articolo"
-source-git-commit: f13f5be06cfadc9ff875c378a0505b4f1f4469dd
+badgePremium: label="↗︎ versione Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Seleziona per visualizzare la versione Adobe Analytics di questo articolo."
+source-git-commit: 8278c29186f763729445928a41d5aa3ffe0d2eb4
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 41%
+source-wordcount: '219'
+ht-degree: 40%
 
 ---
 
