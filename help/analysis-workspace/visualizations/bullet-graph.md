@@ -4,7 +4,7 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
+source-git-commit: 59b0462f114ca98289b4f7de92478d031d97fd31
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 40%
@@ -31,7 +31,11 @@ ht-degree: 40%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
 *Questo articolo documenta la visualizzazione Punto elenco in **Customer Journey Analytics**. Vedi [Punto elenco](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra il confronto tra una metrica e gli intervalli di prestazioni (obiettivi) o le relative misurazioni.
 
