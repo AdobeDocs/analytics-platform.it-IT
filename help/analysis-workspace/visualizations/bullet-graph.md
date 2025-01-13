@@ -4,10 +4,9 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="Versione Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="Seleziona per visualizzare la versione Adobe Analytics di questo articolo."
-source-git-commit: 896c7be6f1cfa4b0b714eb08ac47c1b89edecb79
+source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '221'
 ht-degree: 40%
 
 ---
@@ -20,7 +19,6 @@ ht-degree: 40%
 >id="workspace_bullet_goalvalue"
 >title="Valore obiettivo"
 >abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
->additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="Punto elenco (Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,6 +30,8 @@ ht-degree: 40%
 >abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->
+
+*Questo articolo documenta la visualizzazione Punto elenco in **Customer Journey Analytics**. Vedi [Punto elenco](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione **Adobe Analytics**di questo articolo.*
 
 La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra il confronto tra una metrica e gli intervalli di prestazioni (obiettivi) o le relative misurazioni.
 
