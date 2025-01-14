@@ -5,7 +5,7 @@ exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
@@ -17,14 +17,14 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_deduplication"
+>id="dataview_component_metric_deduplication"
 >title="Deduplica delle metriche"
->abstract="Configura una metrica per contare solo i valori che si verificano in modo non ripetitivo."
+>abstract="Configura una metrica per conteggiare solo i valori che non si verificano in modo ripetitivo."
 
 <!-- markdownlint-enable MD034 -->
 
 
-La deduplicazione delle metriche consente di configurare una metrica in modo da conteggiare unicamente i valori in modo non ripetitivo.
+La deduplica delle metriche consente di configurare una metrica in modo da conteggiare unicamente i valori in modo non ripetitivo.
 
 ![Deduplica delle metriche](../assets/metric-deduplication.png)
 

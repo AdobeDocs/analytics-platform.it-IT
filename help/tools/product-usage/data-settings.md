@@ -1,10 +1,11 @@
 ---
 title: Impostazioni dei dati di utilizzo del prodotto
 description: Abilita, disabilita o configura le impostazioni di utilizzo del prodotto.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 15%
+source-wordcount: '340'
+ht-degree: 24%
 
 ---
 
@@ -32,5 +33,15 @@ In questa pagina sono disponibili le seguenti impostazioni:
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
+>title="Sostituisci finestra di conservazione dei dati"
+>abstract="Riduci la disponibilità dei dati di utilizzo del prodotto per aiutare a ridurre i costi o rispettare le linee guida sulla privacy."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_sandbox"
+>title="Sandbox di Adobe Experience Platform"
+>abstract="Determina la sandbox di Adobe Experience Platform in cui vengono creati lo schema e il set di dati."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_data_retention"
 >title="Sostituisci finestra di conservazione dei dati"
 >abstract="Riduci la disponibilità dei dati di utilizzo del prodotto per aiutare a ridurre i costi o rispettare le linee guida sulla privacy."

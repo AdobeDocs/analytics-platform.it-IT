@@ -3,10 +3,10 @@ description: Scopri il tipo di metrica e l’attribuzione
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -48,7 +48,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_nondefaultattributionmodel"
+>id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Usa modello di attribuzione non predefinito"
 >abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
 
@@ -57,7 +57,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attributionmodel"
+>id="components_calculatedmetrics_attributionmodel"
 >title="Modello"
 >abstract="Seleziona un modello di attribuzione per la metrica."
 
@@ -66,7 +66,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lasttouch"
+>id="components_calculatedmetrics_attribution_lasttouch"
 >title="Ultimo contatto"
 >abstract="Il 100% del credito va all’ultimo valore di dimensione visualizzato da un visitatore."
 
@@ -75,7 +75,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_firsttouch"
+>id="components_calculatedmetrics_attribution_firsttouch"
 >title="Primo contatto"
 >abstract="Il 100% del credito va al primo valore di dimensione visualizzato da un visitatore."
 
@@ -84,7 +84,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_linear"
+>id="components_calculatedmetrics_attribution_linear"
 >title="Lineare"
 >abstract="Il credito è distribuito in modo uniforme tra tutti i valori di dimensione."
 
@@ -93,7 +93,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_participation"
+>id="components_calculatedmetrics_attribution_participation"
 >title="Partecipazione"
 >abstract="Il 100% del credito va a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrastimati."
 
@@ -102,7 +102,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_sametouch"
+>id="components_calculatedmetrics_attribution_sametouch"
 >title="Stesso contatto"
 >abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
@@ -111,7 +111,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_ushaped"
+>id="components_calculatedmetrics_attribution_ushaped"
 >title="A forma di U"
 >abstract="Il 40% del credito va al primo valore di dimensione, il 40% all’ultimo, il 20% condiviso dal centro."
 
@@ -120,7 +120,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_jcurve"
+>id="components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
 >abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
@@ -129,7 +129,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_inversej"
+>id="components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
 >abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
@@ -138,7 +138,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_timedecay"
+>id="components_calculatedmetrics_attribution_timedecay"
 >title="Decadimento nel tempo"
 >abstract="Il merito maggiore viene attribuito ai valori di dimensione più vicini nel tempo a una conversione."
 
@@ -147,7 +147,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_custom"
+>id="components_calculatedmetrics_attribution_custom"
 >title="Personalizzato"
 >abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
@@ -156,7 +156,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_algorithmic"
+>id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algoritmico"
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
@@ -171,7 +171,7 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lookbackwindow"
+>id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervallo di lookback"
 >abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup"
+>id="dataview_component_dimension_summarydatagroup"
 >title="Gruppo di dati di riepilogo"
 >abstract="Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni del raggruppamento e viene utilizzato per il reporting, combinando dimensioni del set di dati di riepilogo con altre dimensioni."
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
+>id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Nascondi nel reporting"
 >abstract="Selezionando questa opzione verrà abilitato **[!UICONTROL Hide component in reporting]** per quella dimensione e il componente non verrà visualizzato in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics."
 

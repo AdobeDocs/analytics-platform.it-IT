@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '8486'
 ht-degree: 15%
@@ -17,7 +17,7 @@ ht-degree: 15%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields"
+>id="dataview_derivedfields"
 >title="Campi derivati"
 >abstract="Un campo derivato consente di definire all’istante le manipolazioni dati, tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in Workspace o definirlo ulteriormente come componente nella Vista dati."
 
@@ -430,7 +430,7 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_casewhen"
+>id="dataview_derivedfields_casewhen"
 >title="Case When"
 >abstract="Questa funzione consente di applicare condizionali basati su criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori nel nuovo campo derivato, in base alla sequenza delle condizioni."
 
@@ -670,7 +670,7 @@ I seguenti vincoli si applicano e vengono applicati quando *si selezionano* e *s
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_classify"
+>id="dataview_derivedfields_classify"
 >title="Classifica"
 >abstract="Questa funzione consente di definire un insieme di valori che vengono sostituiti dai valori corrispondenti tramite l’immissione di testo."
 
@@ -815,7 +815,7 @@ Nell’interfaccia Classifica regola sono disponibili le seguenti funzionalità 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_concatenate"
+>id="dataview_derivedfields_concatenate"
 >title="Concatena"
 >abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente, in un singolo campo con delimitatori definiti."
 
@@ -902,7 +902,7 @@ Definisci un campo derivato `Origin - Destination`. Utilizzare la funzione [!UIC
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_deduplicate"
+>id="dataview_derivedfields_deduplicate"
 >title="Deduplica"
 >abstract="Questa funzione consente di configurare un campo in modo da contare solo i valori che non si ripetono a livello di sessione o di persona. Inoltre, è possibile utilizzare un ID di deduplica per garantire che, in base a un determinato ID (ad esempio un ID acquisto), venga utilizzato un solo valore (o la prima o l’ultima istanza)."
 
@@ -997,7 +997,7 @@ Si definisce un nuovo campo derivato `Tracking Code (deduplicated)`. Utilizzare 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_findandreplace"
+>id="dataview_derivedfields_findandreplace"
 >title="Trova e sostituisci"
 >abstract="Questa funzione consente di trovare tutti i valori in un campo selezionato e sostituirli con un valore diverso in un nuovo campo derivato."
 
@@ -1077,7 +1077,7 @@ Definisci un campo derivato `Email Marketing (updated)`. Utilizzare la funzione 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lookup"
+>id="dataview_derivedfields_lookup"
 >title="Ricerca"
 >abstract="Questa funzione consente di utilizzare i campi di un set di dati di ricerca utilizzando una chiave di corrispondenza tra i set di dati."
 
@@ -1138,7 +1138,7 @@ La funzione di ricerca viene applicata al momento della generazione del rapporto
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lowercase"
+>id="dataview_derivedfields_lowercase"
 >title="Minuscolo"
 >abstract="Questa funzione converte l’intero testo della stringa in valori minuscoli."
 
@@ -1199,7 +1199,7 @@ Definisci un campo derivato `Product Names`. Utilizzare la funzione [!UICONTROL 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_math"
+>id="dataview_derivedfields_math"
 >title="Math"
 >abstract="Questa funzione consente di eseguire operazioni matematiche su un campo. La funzione può essere utilizzata per eseguire operazioni aritmetiche di base, quali addizione, sottrazione, moltiplicazione e divisione."
 
@@ -1290,7 +1290,7 @@ Utilizza la funzione Math per i calcoli basati su hit. Utilizza la funzione [Rie
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_mergefields"
+>id="dataview_derivedfields_mergefields"
 >title="Unisci campi"
 >abstract="Questa funzione consente di prendere valori da due campi diversi e includerne i rispettivi valori in una singola dimensione. La regola verifica innanzitutto se è impostato il primo valore. In caso contrario, utilizzerà il secondo valore e così via."
 
@@ -1366,7 +1366,7 @@ Definisci un campo derivato `Cross Channel Interactions`. Utilizzare la funzione
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_nextprevious"
+>id="dataview_derivedfields_nextprevious"
 >title="Successivo o Precedente"
 >abstract="Questa funzione consente di esaminare il valore successivo o precedente raccolto per un determinato campo."
 
@@ -1448,7 +1448,7 @@ Puoi selezionare solo i campi che appartengono alla tabella Visita o Evento.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_regexreplace"
+>id="dataview_derivedfields_regexreplace"
 >title="Sostituisci Regex"
 >abstract="Questa funzione consente di estrarre parti di una stringa utilizzando espressioni regolari."
 
@@ -1555,7 +1555,7 @@ Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_split"
+>id="dataview_derivedfields_split"
 >title="Split"
 >abstract="Questa funzione consente di suddividere un campo in più campi in base a un delimitatore."
 
@@ -1657,7 +1657,7 @@ Creare un campo derivato `Second Response` per prendere l&#39;ultimo valore dal 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_summarize"
+>id="dataview_derivedfields_summarize"
 >title="Riepiloga"
 >abstract="Questa funzione consente di aggregare i valori a livello di evento, sessione o persona. A seconda del tipo di campo, per il campo selezionato saranno disponibili opzioni diverse."
 
@@ -1735,7 +1735,7 @@ Utilizzare la funzione Riepiloga per i calcoli basati sull&#39;ambito evento, se
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_trim"
+>id="dataview_derivedfields_trim"
 >title="Trim (Taglia)"
 >abstract="Questa funzione consente di rimuovere spazi o caratteri speciali dall’inizio o dalla fine di una stringa. Inoltre, consente di specificare il numero di caratteri da utilizzare per il valore restituito, sia nella parte anteriore sia alla fine della stringa."
 
@@ -1857,7 +1857,7 @@ Si crea un campo derivato `Store Identifier`. Utilizzare la funzione [!UICONTROL
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_urlparse"
+>id="dataview_derivedfields_urlparse"
 >title="Analisi URL"
 >abstract="Questa funzione consente di analizzare diverse parti di un URL, inclusi l’host, il percorso o i parametri di query."
 

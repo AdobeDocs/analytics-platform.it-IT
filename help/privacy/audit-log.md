@@ -4,7 +4,7 @@ description: Scopri come visualizzare e gestire i registri di audit del Customer
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 67%
@@ -16,7 +16,7 @@ ht-degree: 67%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_tools_auditlog_userid"
+>id="tools_auditlog_userid"
 >title="ID utente"
 >abstract="Per trovare l’ID utente, premi il pulsante Info su una voce di registro contenente l’utente desiderato."
 
@@ -25,7 +25,7 @@ ht-degree: 67%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_tools_auditlog_componentid"
+>id="tools_auditlog_componentid"
 >title="ID componente"
 >abstract="Per trovare l’ID componente, premi il pulsante Info su una voce di registro contenente il componente desiderato."
 

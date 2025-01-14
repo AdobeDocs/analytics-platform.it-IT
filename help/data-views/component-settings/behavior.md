@@ -5,10 +5,10 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_behavior"
+>id="dataview_component_dimension_behavior"
 >title="Comportamento"
 >abstract="Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati.<br/><br/>**Parametri **<br/>**Minuscolo**: consente di specificare se i valori stringa nel campo devono essere minuscoli."
 

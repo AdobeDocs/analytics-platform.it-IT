@@ -5,8 +5,8 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_settings"
+>id="dataview_component_settings"
 >title="Impostazioni dei componenti"
 >abstract="Visualizza e configura il nome, la descrizione e altre impostazioni correlate a un componente.<br/><br/>**Parametri **<br/>**Nascondi componente nella generazione di rapporti**: selezionando questa casella, questo componente verrà nascosto agli utenti non amministratori nella generazione di rapporti. Gli amministratori possono comunque accedervi selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_contextlabels"
+>id="dataview_component_contextlabels"
 >title="Etichette di contesto"
 >abstract="La rimozione di un’etichetta di contesto può influire su pannelli o rapporti specifici in cui il componente è richiesto."
 

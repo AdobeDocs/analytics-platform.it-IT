@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_productcompatibility"
+>id="components_calculatedmetrics_productcompatibility"
 >title="Compatibilità prodotto"
 >abstract="Indica dove in Customer Journey Analytics può essere utilizzata la metrica calcolata, ad esempio in Analysis Workspace, Report Builder e così via. Alcune metriche calcolate non possono essere utilizzate con la sperimentazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Utilizzare le metriche calcolate nella sperimentazione"
@@ -25,7 +25,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_externalid"
+>id="components_calculatedmetrics_externalid"
 >title="ID esterno"
 >abstract="La modifica dell’ID esterno potrebbe influire sul modo in cui la metrica calcolata appare nelle origini esterne, come gli strumenti di business intelligence"
 
@@ -46,7 +46,7 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
 
 >[!ENDTABS]
 
-1. Specificare i dettagli seguenti (![Obbligatorio](/help/assets/icons/Required.svg) è obbligatorio):
+1. Specifica i dettagli seguenti (![Obbligatorio](/help/assets/icons/Required.svg) indica i dati obbligatori):
 
    | Elemento | Descrizione |
    | --- | --- |
@@ -59,7 +59,7 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
    | **[!UICONTROL Decimal places]** | Specifica il numero di posizioni decimali per il formato selezionato. Abilitato solo se il formato selezionato è Decimale, Valuta e Percentuale. |
    | **[!UICONTROL Show upward trend as]** | Specificare se una tendenza verso l&#39;alto della metrica calcolata viene visualizzata come ▲ **[!UICONTROL Good (Green)]** o come ▼ **[!UICONTROL Bad (Red)]**. |
    | **[!UICONTROL Currency]** | Specifica la valuta della metrica calcolata. Abilitato solo se il formato selezionato è Valuta. |
-   | **[!UICONTROL Tags]** | Organizza la metrica calcolata creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
+   | **[!UICONTROL Tags]** | Organizza la metrica calcolata creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
    | **[!UICONTROL Preview]** | L’anteprima copre gli ultimi 90 giorni ed è un modo per verificare se la metrica è stata definita correttamente. |
    | **[!UICONTROL Summary]** | Visualizza un riepilogo della definizione della metrica calcolata. <br/>Ad esempio: ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total Orders]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
    | **[!UICONTROL Definition]** ![Obbligatorio](/help/assets/icons/Required.svg) | Definisci il filtro utilizzando il [Generatore di definizioni](#definition-builder). |
@@ -78,7 +78,7 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
 
 ## Generatore di definizioni
 
-Utilizza il Generatore di definizioni per trascinare e rilasciare dimensioni, metriche, filtri e funzioni per creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. In questa costruzione, puoi utilizzare metriche standard, metriche definite dall’Adobe, metriche calcolate, filtri, dimensioni e funzioni. Tutti questi componenti sono disponibili dal pannello dei componenti nel generatore di metriche calcolate. Inoltre, puoi utilizzare operatori e contenitori nella definizione.
+Utilizza il Generatore di definizioni per trascinare e rilasciare dimensioni, metriche, filtri e funzioni per creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. In questa costruzione puoi utilizzare metriche standard, metriche definite dall’Adobe, metriche calcolate, filtri, dimensioni e funzioni. Tutti questi componenti sono disponibili dal pannello dei componenti nel generatore di metriche calcolate. Inoltre, puoi utilizzare operatori e contenitori nella definizione.
 
 ![Crea metrica calcolata](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 

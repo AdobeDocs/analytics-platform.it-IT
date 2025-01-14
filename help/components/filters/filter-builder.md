@@ -4,7 +4,7 @@ title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_createaudience"
+>id="components_filters_createaudience"
 >title="Crea un pubblico"
 >abstract="I tipi di pubblico possono essere creati da un filtro e condivisi con Adobe Experience Platform per l’attivazione."
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_datapreview"
+>id="components_filters_datapreview"
 >title="Anteprima dati"
 >abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale nella visualizzazione dati degli ultimi **90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
@@ -158,7 +158,7 @@ Oppure potresti definire 52 filtri: 50 filtri per gli Stati Uniti, uno per il te
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_repeating"
+>id="components_filters_attribution_repeating"
 >title="Ripetizione"
 >abstract="Include le istanze e i valori persistenti per la dimensione."
 
@@ -167,7 +167,7 @@ Oppure potresti definire 52 filtri: 50 filtri per gli Stati Uniti, uno per il te
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_instance"
+>id="components_filters_attribution_instance"
 >title="Istanza"
 >abstract="Include le istanze e i valori persistenti per la dimensione."
 
@@ -176,7 +176,7 @@ Oppure potresti definire 52 filtri: 50 filtri per gli Stati Uniti, uno per il te
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_nonrepeatinginstance"
+>id="components_filters_attribution_nonrepeatinginstance"
 >title="Istanza di non ripetizione"
 >abstract="Include istanze univoche (non ripetute) per la dimensione."
 

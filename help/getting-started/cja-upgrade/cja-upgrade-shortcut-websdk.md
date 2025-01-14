@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 46%
+source-wordcount: '690'
+ht-degree: 43%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
+>title="Migrare l’implementazione di Analytics per utilizzare il Web SDK"
+>abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="migrate_aa_to_websdk"
 >title="Migrare l’implementazione di Analytics per utilizzare il Web SDK"
 >abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
 

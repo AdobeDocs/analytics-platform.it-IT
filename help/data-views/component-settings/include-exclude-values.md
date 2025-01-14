@@ -5,7 +5,7 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 555dbd5c84fbec7c71b328229da5196fe2e64b76
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 91%
@@ -17,7 +17,7 @@ ht-degree: 91%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_includeexcludevalues"
+>id="dataview_component_metric_includeexcludevalues"
 >title="Includere valori di esclusione"
 >abstract="Filtra una metrica per contare solo i valori che corrispondono a criteri specifici."
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_includeexcludevalues"
+>id="dataview_component_dimension_includeexcludevalues"
 >title="Includere valori di esclusione"
 >abstract="Restringi una dimensione per includere solo i valori che corrispondono a criteri specifici. Le inclusioni e le esclusioni si verificano prima dell’allocazione e dei filtri nei report.<br/><br/>**Parametri **<br/>**Distinzione tra maiuscole e minuscole**: verifica se la logica del filtro riportata di seguito fa distinzione tra maiuscole e minuscole."
 
