@@ -3,12 +3,10 @@ description: Panoramica sull’utilizzo dei modelli predefiniti in Analysis Work
 title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '19266'
+source-wordcount: '19275'
 ht-degree: 1%
 
 ---
@@ -65,7 +63,9 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    >[!NOTE]
    >
-   >   Prima di poter utilizzare questi modelli, un amministratore deve innanzitutto aggiungere alla visualizzazione dati le etichette di contesto richieste per i componenti mancanti. Per ulteriori informazioni, vedere [Aggiungere componenti mancanti alla visualizzazione dati per un modello specificato](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [Utilizzare i modelli](/help/analysis-workspace/templates/create-templates.md).
+   >Prima di poter utilizzare questi modelli, un amministratore deve innanzitutto aggiungere alla visualizzazione dati le etichette di contesto richieste per i componenti mancanti. Per ulteriori informazioni, vedere [Aggiungere componenti mancanti alla visualizzazione dati per un modello specificato](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [Utilizzare i modelli](/help/analysis-workspace/templates/create-templates.md).
+   >
+   >Per ulteriori informazioni sulle etichette di contesto, vedere [Impostazioni dei componenti](/help/data-views/component-settings/overview.md).
 
    1. Seleziona l’icona del filtro.
 

@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e326b5457c82a7b4789c68588546707fabca42f6
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 76%
 
 ---
 
@@ -43,7 +43,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 | [!UICONTROL Component Name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
 | [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
 | [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. Queste etichette potrebbero essere necessarie per definire un set di componenti utilizzabili nel reporting sulla sperimentazione utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace. Per ulteriori informazioni, consulta [Integrare con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Reportistica di destinazione](/help/integrations/at.md). |
+| [!UICONTROL Context labels] | Facoltativo. Elenco a discesa delle etichette disponibili definite dal sistema che possono essere applicate a un componente. <p>Queste etichette possono essere richieste nelle seguenti situazioni:</p> <ul><li>Per definire un set di componenti da utilizzare nei rapporti sulla sperimentazione utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace.<p>Per ulteriori informazioni, vedere [Integrare con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Generazione rapporti di Target](/help/integrations/at.md).</p></li><li>Quando si utilizzano i modelli forniti da Adobe. Per impostazione predefinita, alcuni modelli forniti da Adobe non funzionano perché contengono componenti non presenti nella visualizzazione dati.<p>Per ogni componente mancante, nella visualizzazione dati è disponibile un’etichetta di contesto corrispondente. È necessario aggiungere l’etichetta di contesto corrispondente a un componente già presente nella visualizzazione dati, oppure è necessario aggiungere un nuovo componente alla visualizzazione dati e aggiungervi l’etichetta di contesto.</p><p>Per ulteriori informazioni, vedere [Aggiungere componenti mancanti alla visualizzazione dati per un modello specificato](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) nell&#39;articolo [Creare e gestire modelli](/help/analysis-workspace/templates/create-templates.md).</p> |
 | [!UICONTROL Schema field name] | Nome del campo schema. |
 | [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
 | [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
