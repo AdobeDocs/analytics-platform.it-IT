@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 7%
+source-wordcount: '2016'
+ht-degree: 9%
 
 ---
 
@@ -24,6 +24,15 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
+>title="Connessioni"
+>abstract="Questa tabella mostra le connessioni per le quali si dispone dei diritti per gestire l’attività di reporting. Le informazioni su ciascuna connessione sono disponibili in ogni colonna della tabella."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
 >title="Connessioni"
 >abstract="Questa tabella mostra le connessioni per le quali si dispone dei diritti per gestire l’attività di reporting. Le informazioni su ciascuna connessione sono disponibili in ogni colonna della tabella."
 

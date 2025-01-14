@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
 source-wordcount: '4092'
 ht-degree: 99%
@@ -187,7 +187,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_primaryID"
+>id="cja_connection_primaryid"
 >title="ID primario"
 >abstract="Seleziona l’ID primario corretto per la connessione: Persona per uno scenario B2C. Account per uno scenario B2B."
 
@@ -196,7 +196,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_optionalContainers"
+>id="cja_connection_optionalcontainers"
 >title="Contenitori opzionali"
 >abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Global account]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunity]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Buying group]**: abilita la configurazione dei gruppi di acquisto in una connessione."
 
@@ -205,7 +205,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_personID"
+>id="cja_connection_personid"
 >title="ID persona"
 >abstract="Seleziona un ID persona tra le identità disponibili definite negli schemi di set di dati in Experience Platform."
 
@@ -214,7 +214,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountID"
+>id="cja_connection_accountid"
 >title="ID account"
 >abstract="Seleziona un ID account (identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -223,7 +223,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountField"
+>id="cja_connection_accountfield"
 >title="Campo account"
 >abstract="Seleziona un campo che rappresenta l’ID account (l’identificatore univoco di un account)."
 
@@ -233,7 +233,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_globalAccountID"
+>id="cja_connection_globalaccountid"
 >title="ID account globale"
 >abstract="Seleziona un ID account globale (l’identificatore univoco di un account globale) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -242,7 +242,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_opportunityID"
+>id="cja_connection_opportunityid"
 >title="ID opportunità"
 >abstract="Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -251,7 +251,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_buyingGroupID"
+>id="cja_connection_buyinggroupid"
 >title="ID gruppo di acquisto"
 >abstract="Seleziona un ID gruppo acquisti (l’identificatore univoco per un gruppo acquisti) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -305,7 +305,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_primaryID"
+>id="connection_primaryid"
 >title="ID primario"
 >abstract="Seleziona l’ID primario corretto per la connessione: Persona per uno scenario B2C. Account per uno scenario B2B."
 
@@ -314,7 +314,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_optionalContainers"
+>id="connection_optionalcontainers"
 >title="Contenitori opzionali"
 >abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Global account]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunity]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Buying group]**: abilita la configurazione dei gruppi di acquisto in una connessione."
 
@@ -323,7 +323,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_personID"
+>id="connection_personid"
 >title="ID persona"
 >abstract="Seleziona un ID persona tra le identità disponibili definite negli schemi di set di dati in Experience Platform."
 
@@ -332,14 +332,14 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountID"
+>id="connection_accountid"
 >title="ID account"
 >abstract="Seleziona un ID account (identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountField"
+>id="connection_accountfield"
 >title="Campo account"
 >abstract="Seleziona un campo che rappresenta l’ID account (l’identificatore univoco di un account)."
 
@@ -348,7 +348,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_globalAccountID"
+>id="connection_globalaccountid"
 >title="ID account globale"
 >abstract="Seleziona un ID account globale (l’identificatore univoco di un account globale) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -357,7 +357,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_opportunityID"
+>id="connection_opportunityid"
 >title="ID opportunità"
 >abstract="Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
@@ -366,7 +366,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_buyingGroupID"
+>id="connection_buyinggroupid"
 >title="ID gruppo di acquisto"
 >abstract="Seleziona un ID gruppo acquisti (l’identificatore univoco per un gruppo acquisti) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
 
