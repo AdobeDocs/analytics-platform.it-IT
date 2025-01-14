@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
+source-git-commit: 198d2670b2008cb669433753d5bfedd90f71c220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1470'
 ht-degree: 2%
 
 ---
@@ -191,3 +191,10 @@ Per aggiungere componenti mancanti a un modello:
 Come per i modelli forniti da Adobe, gli utenti dell’organizzazione possono accedere ai modelli creati dagli amministratori.
 
 Per informazioni su come accedere a un modello aziendale, vedere [Accedere ed eseguire un modello](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md).
+
+## Nascondi la scheda Modelli
+
+Gli amministratori possono nascondere la scheda Modelli per tutti gli utenti all’interno della propria organizzazione.
+
+1. Passa a **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]**.
+1. Selezionare l&#39;opzione per **[!UICONTROL Hide Templates tab]**.
