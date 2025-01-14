@@ -4,14 +4,77 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
+source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 4%
 
 ---
 
-# Didascalie intelligenti
+# Didascalie intelligenti {#intelligent-captions}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_area"
+>title="Sottotitoli intelligenti: area"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_bar"
+>title="Sottotitoli intelligenti: barra"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_donut"
+>title="Didascalie intelligenti: Anello"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_horizontalbar"
+>title="Sottotitoli intelligenti: barra orizzontale"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_line"
+>title="Sottotitoli intelligenti: linea"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_fallout"
+>title="Sottotitoli intelligenti: Abbandono"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_flow"
+>title="Sottotitoli intelligenti: Flusso"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+
+<!-- markdownlint-enable MD034 -->
 
 Le didascalie intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni approfondite relative al linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni generate automaticamente sulla visualizzazione [Riga](line.md). Seguiranno altre visualizzazioni.
 
