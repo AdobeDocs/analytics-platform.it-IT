@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1188'
 ht-degree: 48%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per la versione ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
+*Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in **Customer Journey Analytics**.<br/>Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

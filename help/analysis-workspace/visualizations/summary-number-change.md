@@ -4,9 +4,9 @@ title: Numero di riepilogo e Variazione di riepilogo
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 45%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 45%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Numero riepilogo e Modifica riepilogo in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Numero di riepilogo e Modifica di riepilogo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione Numero riepilogo e Modifica riepilogo in **Customer Journey Analytics**.<br/>Consulta [Numero riepilogo e Modifica riepilogo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

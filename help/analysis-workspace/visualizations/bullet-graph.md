@@ -4,10 +4,10 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 39%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Punto elenco in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione Punto elenco in **Customer Journey Analytics**.<br/>Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

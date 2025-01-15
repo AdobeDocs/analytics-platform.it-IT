@@ -4,9 +4,9 @@ title: Barre orizzontali e Barre orizzontali sovrapposte
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 33%
 
 ---
@@ -29,7 +29,7 @@ La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 
 >[!BEGINSHADEBOX]
 
-*In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Visualizza [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per la versione ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
+*In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in **Customer Journey Analytics**.<br/>Vedi [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 
