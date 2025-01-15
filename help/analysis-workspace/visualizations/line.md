@@ -4,9 +4,9 @@ title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 23%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Linee in **Customer Journey Analytics**. Vedi [Riga](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione Linee in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta la [riga](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

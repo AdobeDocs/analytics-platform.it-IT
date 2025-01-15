@@ -4,10 +4,10 @@ title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 27%
+source-wordcount: '197'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ La visualizzazione a barre ha un’opzione standard e sovrapposta.
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in **Customer Journey Analytics**. Vedi [Barre e barre sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Visualizza [Barre e barre sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

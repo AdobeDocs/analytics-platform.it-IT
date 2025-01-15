@@ -4,9 +4,9 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 50%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 50%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Flusso in **Customer Journey Analytics**. Vedi [Flusso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione del flusso in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

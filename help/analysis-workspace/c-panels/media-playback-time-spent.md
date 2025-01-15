@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback time spes
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 56%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-*In questo articolo viene documentato il tempo di riproduzione trascorso nel pannello in **Customer Journey Analytics**. Consulta [Pannello Tempo di riproduzione trascorso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta il pannello Tempo di riproduzione dei contenuti multimediali trascorso in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta il [pannello Tempo di riproduzione trascorso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

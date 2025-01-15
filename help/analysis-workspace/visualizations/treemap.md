@@ -4,10 +4,10 @@ title: Mappa ad albero
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 28%
+source-wordcount: '155'
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Mappa ad albero in **Customer Journey Analytics**. Vedi [Mappa ad albero](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione Mappa ad albero in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Visualizza [Mappa ad albero](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

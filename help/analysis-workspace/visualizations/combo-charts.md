@@ -4,9 +4,9 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '564'
 ht-degree: 48%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione combinata in **Customer Journey Analytics**. Vedi [Combo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) per la versione **Adobe Analytics**di questo articolo.*
+*Questo articolo documenta la visualizzazione combinata in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Combo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 
