@@ -4,7 +4,7 @@ title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 8eb146fccbdbe47df8ca28f7b8dcbce2bf6888fd
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 7%
@@ -192,7 +192,7 @@ Seleziona ![Impostazione](/help/assets/icons/Setting.svg) nel componente dimensi
 |---|---|
 | **[!UICONTROL Repeating model (default)]** | Includi l’istanza e i valori persistenti per la dimensione per determinare la qualifica. |
 | **[!UICONTROL Instance]** | Includi solo i valori di istanza per la dimensione per determinare la qualifica. |
-| **[!UICONTROL Non-repeating instance]** | Includi valori di istanza univoci (non ripetuti) per la dimensione per determinare la qualifica. |
+| **[!UICONTROL Non-repeating instance]** | Includi valori univoci di istanza (non ripetuti) per la dimensione per determinare la qualifica. |
 
 
 ![Modello di attribuzione sulla dimensione durante la creazione di un filtro](assets/filter-dimension-attribution.png)

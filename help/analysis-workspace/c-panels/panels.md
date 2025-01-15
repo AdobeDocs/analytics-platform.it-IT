@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
 workflow-type: tm+mt
-source-wordcount: '2000'
-ht-degree: 100%
+source-wordcount: '2033'
+ht-degree: 97%
 
 ---
 
@@ -149,17 +149,21 @@ Puoi anche trascinare componenti diversi da filtri direttamente nella zona di ri
 
 Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
 
-![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio.](assets/adhoc-segment-filter.png)
+![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa
 
-+++ Visualizza un video che illustra i filtri a discesa.
-
 >[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
-{{videoaa}}
+Questo video illustra le funzionalità di con Adobe Analytics. Tuttavia, la funzionalità è disponibile anche in Customer Journey Analytics. Tieni presente le seguenti differenze terminologiche.
 
-+++
+| Adobe Analytics | Analisi Percorso clienti |
+| --- | --- |
+| Segmenti | Filtri |
+| Visitatore | Persona |
+| Visita | Sessione |
+| Hit | Evento |
+
 
 #### Filtri a discesa statici
 
