@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 0e4e4621abe02c022981e458282543908b2396c2
-workflow-type: ht
+source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazio
 Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni degli elementi dello schema, senza dover modificare lo schema in Adobe Experience Platform, né reimplementare l’ambiente Customer Journey Analytics.
 
 * Puoi cambiare un componente da metrica a dimensione e viceversa. Puoi creare metriche da campi stringa o dimensioni da campi numerici. Questa funzionalità semplifica il lavoro, poiché non è necessario creare un campo numerico nello schema XDM per ogni metrica desiderata. Potrai infatti crearlo spontaneamente nella finestra di dialogo delle visualizzazioni dati. Di seguito sono riportati alcuni esempi:
-   * **Crea una o più dimensioni e/o una dimensione da un singolo campo schema**. Si tratta di una relazione uno-a-molti. Ad esempio, puoi creare una o più metriche Ricavi e/o una o più dimensioni Ricavi da un singolo campo dello schema.
+   * **Crea una o più metriche e/o dimensioni da un singolo campo schema**. Si tratta di una relazione uno-a-molti. Ad esempio, puoi creare una o più metriche Ricavi e/o una o più dimensioni Ricavi da un singolo campo dello schema.
    * **Utilizza un campo stringa come metrica**: quando compili uno schema in Experience Platform con un set di dati, potresti non sapere ancora quali elementi schema saranno necessari. Ad esempio, potresti non esserti reso conto di aver bisogno di una metrica per *Errori su una pagina* e quindi non aver creato l’elemento schema numerico corrispondente. Utilizzando un elemento stringa come metrica, ora con le impostazioni delle visualizzazioni dati puoi specificare che, ogni volta che una stringa contiene la parola `error`, può essere utilizzata come metrica.
    * **Utilizza un campo numerico come dimensione**: ad esempio, se desideri estrarre la metrica Ricavi dalla dimensione Ricavi, quest’ultima mostra ogni valore come un elemento dimensione, quindi, il numero di istanze per ogni elemento dimensione.
 
@@ -46,7 +46,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 * Puoi visualizzare ulteriori informazioni relative allo schema sui componenti. Ad esempio:
 
    * il tipo di set di dati (evento, profilo, ricerca, riepilogo) da cui proviene il componente;
-   * tipo di schema (stringa, numero intero, ecc.) da cui proviene, e
+   * il tipo di schema (stringa, numero intero, ecc.) da cui ha origine e
    * il percorso dello schema (il campo XDM su cui si basa).
 
 * Puoi assegnare tag a un componente per facilitarne la ricerca in Workspace.
