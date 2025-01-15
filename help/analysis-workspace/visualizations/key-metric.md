@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: e4107e2f795b9beb7aa2802aa7ea646be6733212
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 37%
+source-wordcount: '872'
+ht-degree: 36%
 
 ---
 
@@ -21,6 +21,14 @@ ht-degree: 37%
 >abstract="Crea una visualizzazione che combina grafici a linee, a variazione di riepilogo e a numero di riepilogo. Utilizza questa visualizzazione per confrontare la tendenza delle metriche importanti tra due periodi di tempo."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in **Customer Journey Analytics**. Vedi [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
+
 
 La visualizzazione ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due archi temporali. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 

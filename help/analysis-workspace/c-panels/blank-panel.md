@@ -4,10 +4,10 @@ title: Pannello vuoto
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '215'
-ht-degree: 100%
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 100%
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Pannelli in Analysis Workspace"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta il pannello vuoto in **Customer Journey Analytics**. Vedi [Pannello vuoto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 
 Un **[!UICONTROL Blank panel]** mostra una selezione di pannelli (indicati da ![WebPage](/help/assets/icons/WebPage.svg)) o di visualizzazioni che è possibile creare per generare un’analisi completamente personalizzata.

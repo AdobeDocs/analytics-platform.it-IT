@@ -4,10 +4,10 @@ title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 30%
+source-wordcount: '259'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 30%
 >abstract="Aggiungi al progetto una visualizzazione di testo formattato definito dall’utente."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Testo in **Customer Journey Analytics**. Vedi [Testo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 
 Per aggiungere testo RTF definito dall&#39;utente al progetto Workspace, puoi utilizzare una visualizzazione ![Testo](/help/assets/icons/Text.svg) **[!UICONTROL Text]** o una descrizione per una visualizzazione e un pannello.

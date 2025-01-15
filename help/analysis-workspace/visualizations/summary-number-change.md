@@ -4,10 +4,10 @@ title: Numero di riepilogo e Variazione di riepilogo
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 48%
+source-wordcount: '472'
+ht-degree: 45%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 48%
 >abstract="Crea una visualizzazione che mostra i totali e i subtotali."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Numero riepilogo e Modifica riepilogo in **Customer Journey Analytics**. Vedi [Numero riepilogo e Modifica riepilogo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
+
 
 Utilizza la visualizzazione ![Riepiloga](/help/assets/icons/123.svg) **[!UICONTROL Summary number]** per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue, utilizzando l’origine dati associata:
 

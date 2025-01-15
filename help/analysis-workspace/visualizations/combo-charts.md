@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 47%
+source-wordcount: '562'
+ht-degree: 48%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 47%
 >abstract="Crea rapidamente una visualizzazione con grafico combinato senza dover prima creare una tabella a forma libera."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione combinata in **Customer Journey Analytics**. Vedi [Combo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 
 La visualizzazione ![Commento](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.

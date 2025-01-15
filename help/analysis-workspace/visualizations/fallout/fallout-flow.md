@@ -4,10 +4,10 @@ title: Informazioni sui rapporti di fallout e sulle visualizzazioni
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 33%
+source-wordcount: '349'
+ht-degree: 31%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 33%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Abbandono in **Customer Journey Analytics**. Vedi [Abbandono](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
 

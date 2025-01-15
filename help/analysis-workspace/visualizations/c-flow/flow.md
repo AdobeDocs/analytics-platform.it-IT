@@ -4,10 +4,10 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 53%
+source-wordcount: '382'
+ht-degree: 50%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 53%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Flusso in **Customer Journey Analytics**. Vedi [Flusso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 
 La visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
