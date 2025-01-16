@@ -4,14 +4,22 @@ title: Superfici e superfici sovrapposte
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 28%
+source-wordcount: '196'
+ht-degree: 27%
 
 ---
 
 # Superfici (sovrapposte)
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta le visualizzazioni Superfici e Superfici sovrapposte in **Customer Journey Analytics**.<br/>Consulta [Superfici e superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
+
+La visualizzazione dell’area è dotata di un’opzione standard e sovrapposta.
 
 ## Area {#area}
 
@@ -25,11 +33,7 @@ ht-degree: 28%
 <!-- markdownlint-enable MD034 -->
 
 
->[!BEGINSHADEBOX]
 
-*Questo articolo documenta le visualizzazioni Superfici e Superfici sovrapposte in **Customer Journey Analytics**.<br/>Consulta [Superfici e superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) per la versione **Adobe Analytics**di questo articolo.*
-
->[!ENDSHADEBOX]
 
 
 La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** è simile a un grafico a linee, ma presenta un&#39;area colorata al di sotto della linea. Aggiungi un grafico a superficie quando disponi di più metriche e desideri visualizzare l’area espressa dall’intersezione di due o più metriche.
