@@ -817,7 +817,7 @@ Nell’interfaccia Classifica regola sono disponibili le seguenti funzionalità 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_concatenate"
 >title="Concatena"
->abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente, in un singolo campo con delimitatori definiti."
+>abstract="Questa funzione consente di combinare due o più campi, campi derivati o valori stringa immessi dall’utente, in un singolo campo con delimitatori definiti"
 
 <!-- markdownlint-enable MD034 -->
 

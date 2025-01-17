@@ -27,7 +27,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Sperimentazione"
->abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: esperimento analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Normalizzazione della metrica**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
+>abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico.<br/><br/>**Parametri **<br/>**Esperimento**: l’esperimento che verrà analizzato.<br>**Variante di controllo**: variante di controllo per l’esperimento selezionato.<br/>**Metrica di successo**: fino a 5 metriche di successo standard (non calcolate) per analizzare l’esperimento.<br/>**Metrica di normalizzazione**: persone, sessioni o eventi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Questa metrica influisce anche sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità."
 
 <!-- markdownlint-enable MD034 -->
 

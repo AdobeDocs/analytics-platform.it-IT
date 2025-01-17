@@ -18,7 +18,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribuzione"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione."
+>abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
