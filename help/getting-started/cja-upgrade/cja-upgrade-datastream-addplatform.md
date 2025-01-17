@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 27%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 27%
 
 Prima di completare i passaggi descritti in questa sezione, deve esistere già un flusso di dati. La data e la modalità di creazione dello stream di dati dipendono dall’implementazione di Adobe Analytics, come segue:
 
-* Se la tua implementazione di Adobe Analytics utilizza l’SDK per web o l’estensione SDK per web, lo stream di dati era disponibile per il tuo ambiente Adobe Analytics prima del processo di aggiornamento.
+* Se l’implementazione di Adobe Analytics utilizza Web SDK o l’estensione Web SDK, lo stream di dati era disponibile per il tuo ambiente Adobe Analytics prima del processo di aggiornamento.
 
 * Per altre implementazioni di Adobe Analytics, la creazione di un datastream fa parte del processo di aggiornamento, come descritto in [Creare un datastream da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 

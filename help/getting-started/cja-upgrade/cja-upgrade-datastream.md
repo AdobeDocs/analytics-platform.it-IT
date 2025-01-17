@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: f76d098d-d223-40e4-be81-d28e7581396b
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 26%
+source-wordcount: '248'
+ht-degree: 22%
 
 ---
 
@@ -27,6 +28,12 @@ Un flusso di dati rappresenta la configurazione lato server quando si implementa
 
 Nella configurazione, vuoi configurare lo stream di dati per inviare i dati raccolti al set di dati in Adobe Experience Platform.
 
+>[!NOTE]
+>
+>I passaggi seguenti sono necessari solo per le implementazioni di Adobe Analytics che utilizzano AppMeasurement o l’estensione Analytics (tag).
+>
+>Se l’implementazione di Adobe Analytics utilizza il Web SDK o l’estensione Web SDK, lo stream di dati esiste già nell’ambiente Adobe Analytics.
+
 Per impostare il flusso di dati:
 
 1. In Adobe Experience Platform, seleziona **[!UICONTROL Datastreams]** da [!UICONTROL DATA COLLECTION] nella barra a sinistra.
@@ -40,4 +47,3 @@ Per impostare il flusso di dati:
 1. Seleziona **[!UICONTROL Save]** (Salva).
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-

@@ -7,18 +7,16 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1564'
 ht-degree: 7%
 
 ---
 
 # Aggiornamento da Adobe Analytics a Customer Journey Analytics
 
-Durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics, Adobe consiglia una nuova implementazione di Experience Platform Web SDK, in combinazione con il connettore di origine di Analytics, come descritto in [Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni](#recommended-upgrade-steps-for-most-organizations).
-
-A seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati potrebbero non essere pratici per la tua organizzazione. In questo caso, utilizza il [questionario di aggiornamento di Adobe Analytics al Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/) per generare in modo dinamico passaggi di aggiornamento personalizzati in base alle circostanze specifiche della tua organizzazione.
+Durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics, puoi seguire i [passaggi di aggiornamento consigliati](#recommended-upgrade-steps-for-most-organizations). Oppure puoi [generare dinamicamente i passaggi di aggiornamento](#dynamically-generate-upgrade-steps-for-your-organization) per le circostanze univoche della tua organizzazione.
 
 ## Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni
 
@@ -100,9 +98,11 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    +++Tag
 
-   1. [Implementa il tag loader sul tuo sito](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
-
    1. [Creare una proprietà tag e aggiungere l&#39;estensione Adobe Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
+
+   1. [Aggiungere l’estensione Adobe Experience Platform Web SDK alla proprietà tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+
+   1. [Implementa il tag loader sul tuo sito](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
    1. [Aggiungi la logica di raccolta dati XDM al tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
 
@@ -120,11 +120,11 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 1. (Facoltativo) Collega i dati web con dati provenienti da altri canali, ad esempio i dati del call center.
 
-   A tale scopo, aggiungi set di dati aggiuntivi alla connessione di Customer Journey Analytics.
+   A tale scopo, aggiungere set di dati aggiuntivi alla connessione di Customer Journey Analytics, come descritto in [Importare dati Web e call center](/help/use-cases/cross-channel/call-center.md).
 
 1. [Crea una visualizzazione dati nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
-1. [Convalidare che i dati fluiscano nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+1. [Verificare che i dati vengano inseriti nella visualizzazione dati nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
 
 1. [Migra progetti e componenti](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
