@@ -4,10 +4,10 @@ description: Scopri come utilizzare una tabella coorte per l’analisi per coort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 36%
+source-wordcount: '653'
+ht-degree: 33%
 
 ---
 
@@ -68,7 +68,9 @@ Le tabelle coorte nel Customer Journey Analytics supportano metriche basate sul 
 
 ## Funzionalità della tabella coorte
 
-Le seguenti funzionalità consentono un controllo accurato delle coorti che crei:
+Le sezioni seguenti descrivono le funzioni di analisi per coorte che consentono un controllo accurato delle coorti che stai creando.
+
+Per informazioni più dettagliate sulla creazione di una coorte e sull&#39;esecuzione di un report [!UICONTROL Cohort Analysis], vedere [Configurare una tabella coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### Tabella [!UICONTROL Retention]
 
