@@ -4,14 +4,20 @@ title: Barre orizzontali e Barre orizzontali sovrapposte
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 33%
 
 ---
 
 # Barre orizzontali (sovrapposte)
+
+>[!BEGINSHADEBOX]
+
+_In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per _![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**versione di questo articolo._
+
+>[!ENDSHADEBOX]
 
 La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 
@@ -25,13 +31,6 @@ La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 >abstract="Crea una visualizzazione a barre orizzontali per rappresentare diversi valori per una o più metriche."
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-*In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in **Customer Journey Analytics**.<br/>Vedi [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per la versione **Adobe Analytics**di questo articolo.*
-
->[!ENDSHADEBOX]
 
 
 La visualizzazione ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** mostra barre orizzontali che rappresentano diversi valori in una o più metriche.

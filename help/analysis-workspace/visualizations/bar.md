@@ -4,7 +4,7 @@ title: Barre e barre sovrapposte
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 27%
@@ -12,6 +12,12 @@ ht-degree: 27%
 ---
 
 # Barre (sovrapposte)
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in **Customer Journey Analytics**.<br/>Visualizza [Barre e barre sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione **Adobe Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La visualizzazione a barre ha un’opzione standard e sovrapposta.
 
@@ -26,12 +32,6 @@ La visualizzazione a barre ha un’opzione standard e sovrapposta.
 
 <!-- markdownlint-enable MD034 -->
 
-
->[!BEGINSHADEBOX]
-
-*Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in **Customer Journey Analytics**.<br/>Visualizza [Barre e barre sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione **Adobe Analytics**di questo articolo.*
-
->[!ENDSHADEBOX]
 
 
 La visualizzazione ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** mostra barre verticali che rappresentano diversi valori in una o più metriche.
