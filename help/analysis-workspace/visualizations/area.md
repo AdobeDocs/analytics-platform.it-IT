@@ -4,7 +4,7 @@ title: Superfici e superfici sovrapposte
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
+source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 27%
@@ -18,6 +18,7 @@ ht-degree: 27%
 *Questo articolo documenta le visualizzazioni Superfici e Superfici sovrapposte in **Customer Journey Analytics**.<br/>Consulta [Superfici e superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
+
 
 La visualizzazione dell’area è dotata di un’opzione standard e sovrapposta.
 
