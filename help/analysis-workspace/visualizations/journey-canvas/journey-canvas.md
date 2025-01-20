@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c7828617d45991f9f3ba946fc12e248ac172141d
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1881'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione dell&#39;area di lavoro del Percorso in **Customer Journey Analytics**.<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**.*
+_Questo articolo documenta la visualizzazione dell&#39;area di lavoro del Percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

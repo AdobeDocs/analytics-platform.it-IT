@@ -4,9 +4,9 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2132'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Sperimentazione in **Customer Journey Analytics**.<br/>Consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come analizzare le attività e le esperienze Adobe Target in **Adobe Analytics**.*
+_Questo articolo documenta il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

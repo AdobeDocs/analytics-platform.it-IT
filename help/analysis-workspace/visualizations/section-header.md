@@ -4,9 +4,9 @@ description: Visualizzazione che inserisce un’intestazione di sezione nel prog
 feature: Visualizations
 role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
-source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '91'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 >[!BEGINSHADEBOX]
 
 
-*Questo articolo documenta la visualizzazione dell&#39;intestazione di sezione in **Customer Journey Analytics**.<br/>Consulta [Intestazione sezione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/section-header) per la versione **Adobe Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione dell&#39;intestazione di sezione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Intestazione sezione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/section-header) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 

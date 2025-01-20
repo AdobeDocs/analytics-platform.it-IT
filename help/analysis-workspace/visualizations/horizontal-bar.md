@@ -4,7 +4,7 @@ title: Barre orizzontali e Barre orizzontali sovrapposte
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 33%
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per _![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**versione di questo articolo._
+_In questo articolo vengono documentate le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: Pannello a forma libera
 feature: Panels
 exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 30%
+source-wordcount: '108'
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello a forma libera in **Customer Journey Analytics**.<br/>Consulta [Pannello a forma libera](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) per la versione **Adobe Analytics**di questo articolo.*
+_Questo articolo documenta il pannello a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello a forma libera](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ description: Visualizzazione che mostra la relazione tra un massimo di tre metri
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 68%
+source-wordcount: '167'
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione a dispersione in **Customer Journey Analytics**.<br/>Consulta [Dispersione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) per la versione **Adobe Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione a dispersione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Dispersione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
