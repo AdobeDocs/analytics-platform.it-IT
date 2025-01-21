@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Questo articolo fornisce contesto sui dispositivi condivisi, come gestire e miti
 
 Un dispositivo condiviso è un dispositivo utilizzato da più persone. Scenari comuni sono dispositivi come tablet, dispositivi utilizzati nei chioschi o attrezzature informatiche condivise dagli agenti in un call center.
 
-Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un acquisto, i dati dell’evento di esempio potrebbero essere simili ai seguenti:
+Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un acquisto autenticato, i dati dell’evento di esempio potrebbero essere simili ai seguenti:
 
 | Evento | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |--:|---|---|---|---|

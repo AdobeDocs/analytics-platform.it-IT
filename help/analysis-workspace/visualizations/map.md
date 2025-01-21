@@ -3,14 +3,13 @@ description: Utilizza la visualizzazione mappa in un progetto Workspace.
 title: Mappa
 feature: Visualizations
 role: User, Admin
-badgePremium: label="Versione Adobe Analytics" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization.html" tooltip="Seleziona per visualizzare la versione Adobe Analytics di questo articolo."
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 19%
 
 ---
 
