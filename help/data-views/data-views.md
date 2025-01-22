@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

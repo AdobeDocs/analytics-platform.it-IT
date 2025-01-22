@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2033'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -147,17 +147,17 @@ Per iniziare a filtrare il pannello, trascina un filtro dal pannello di sinistra
 Puoi anche trascinare componenti diversi da filtri direttamente nella zona di rilascio, per creare filtri in modo più rapido e senza dover passare al [Generatore di filtri](/help/components/filters/filter-builder.md). I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del filtro.
 
 
-Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
+Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
 
-![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio](assets/adhoc-segment-filter.png)
+![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio.](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa
 
 >[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
-Questo video illustra le funzionalità di con Adobe Analytics. Tuttavia, la funzionalità è disponibile anche in Customer Journey Analytics. Tieni presente le seguenti differenze terminologiche.
+Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Tieni presente le seguenti differenze terminologiche.
 
-| Adobe Analytics | Analisi Percorso clienti |
+| Adobe Analytics | Customer Journey Analytics |
 | --- | --- |
 | Segmenti | Filtri |
 | Visitatore | Persona |
