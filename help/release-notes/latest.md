@@ -3,9 +3,9 @@ title: Note sulla versione di Customer Journey Analytics
 description: Ultime note sulla versione del Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: eff900722dc06d3bb272d1143c0e2344855e3c5c
+source-git-commit: 806bcaa72479c3e871e12fd1c4802bac97eda439
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 27%
 
 ---
@@ -34,7 +34,7 @@ Queste note sulla versione coprono il periodo dal 23 ottobre 2024 al 30 gennaio 
 Avvisi: AN-363263; AN-364880; AN-365029; AN-365960
 Pubblico: AN-362564; AN-363254;
 Acquisizione dei dati: AN-362359; AN-362751
-Visualizzazioni dati: AN-362089; AN-365213; AN-365770; AN-366171
+Visualizzazioni dati: AN-362089; AN-365213; AN-365770; AN-366171; AN-366681
 Campi derivati: AN-359711; AN-362496
 Posizioni di esportazione: AN-363999
 Esportazione di tabelle complete: AN-363055
