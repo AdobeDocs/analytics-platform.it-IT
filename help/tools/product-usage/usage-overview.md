@@ -2,10 +2,10 @@
 title: Panoramica sull’utilizzo del prodotto
 description: Visualizzare approfondimenti e rapporti sul modo in cui l’organizzazione utilizza il Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
+source-git-commit: ae22dc84406427567d45b670aa9737ea3a8b2f7b
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
@@ -36,17 +36,96 @@ Passando a questa sezione dell&#39;interfaccia nel Customer Journey Analytics, p
 
 Quando abiliti l’utilizzo del prodotto, sono disponibili le seguenti dimensioni. Se desideri modificare le impostazioni di dimensione, crea una copia della visualizzazione dati di proprietà del sistema e utilizza la visualizzazione dati copiata in Analysis Workspace.
 
-| Dimensione | Descrizione |
-| --- | --- |
-| Nome azione | Tipo di azione eseguita dall&#39;utente. Puoi utilizzare questa dimensione come qualsiasi metrica desiderata creando una copia nelle impostazioni della visualizzazione dati. |
-| Modello di attribuzione utilizzato | Tipo di modello di attribuzione utilizzato dal componente. |
-| Componente | Campo derivato che include il tipo di componente e il nome del componente. |
-| Tipo di componente | Il tipo di componente aggiunto, rimosso o modificato. |
-| Utente di accesso | Utente che ha eseguito l&#39;azione. |
-| Pannello utilizzato | Il pannello in cui il componente è stato aggiunto, rimosso o modificato. |
-| Nome progetto | Nome intuitivo del progetto. |
-| Tipo di progetto | Il tipo di progetto. |
-| ID utente | ID utente che ha attivato l’evento. |
-| Visualizzazione utilizzata | Visualizzazione aggiunta, rimossa o modificata. |
+* **[!UICONTROL Action Name]**: tipo di azione eseguita dall&#39;utente. Puoi utilizzare questa dimensione come qualsiasi metrica desiderata creando una copia nelle impostazioni della visualizzazione dati. Gli elementi del Dimension includono:
+   * [!UICONTROL Add attribution]
+   * [!UICONTROL Add component]
+   * [!UICONTROL Add panel]
+   * [!UICONTROL Add visualization]
+   * [!UICONTROL Create new guided analysis]
+   * [!UICONTROL Create new project]
+   * [!UICONTROL Curate components]
+   * [!UICONTROL Download CSV]
+   * [!UICONTROL Download PDF]
+   * [!UICONTROL Load guided analysis]
+   * [!UICONTROL Load project]
+   * [!UICONTROL New scorecard loaded]
+   * [!UICONTROL Open data dictionary]
+   * [!UICONTROL Open intelligent captions]
+   * [!UICONTROL Project share]
+   * [!UICONTROL Run Experimentation panel]
+   * [!UICONTROL Save project]
+   * [!UICONTROL Scorecard saved]
+   * [!UICONTROL Send file]
+   * [!UICONTROL Send file on schedule]
+   * [!UICONTROL Share project with anyone]
+   * [!UICONTROL Share project with Workspace users]
+* **[!UICONTROL Attribution Model Used]**: tipo di modello di attribuzione utilizzato dal componente. Gli elementi del Dimension includono:
+   * [!UICONTROL Last touch]
+   * [!UICONTROL First touch]
+   * [!UICONTROL Linear]
+   * [!UICONTROL Participation]
+   * [!UICONTROL Same touch]
+   * [!UICONTROL U shaped]
+   * [!UICONTROL J curve]
+   * [!UICONTROL Inverse J]
+   * [!UICONTROL Time decay]
+   * [!UICONTROL Custom]
+   * [!UICONTROL Algorithmic]
+* **[!UICONTROL Component Name]**: nome del componente aggiunto, rimosso o modificato.
+* **[!UICONTROL Component Type]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi del Dimension includono:
+   * [!UICONTROL Dimension]
+   * [!UICONTROL Metric]
+   * [!UICONTROL Filter]
+   * [!UICONTROL Calculated metric]
+   * [!UICONTROL Date range]
+   * [!UICONTROL Annotation]
+   * [!UICONTROL Alert]
+* **[!UICONTROL Login User]**: utente che ha eseguito l&#39;azione.
+* **[!UICONTROL Panel Used]**: pannello in cui il componente è stato aggiunto, rimosso o modificato. Gli elementi del Dimension includono:
+   * [!UICONTROL Attribution]
+   * [!UICONTROL Blank panel]
+   * [!UICONTROL Experimentation]
+   * [!UICONTROL Freeform]
+   * [!UICONTROL Next or previous item]
+   * [!UICONTROL Quick insights]
+   * [!UICONTROL Trends]
+   * [!UICONTROL Funnel]
+   * [!UICONTROL User growth]
+   * [!UICONTROL Impact]
+   * [!UICONTROL User stream]
+   * [!UICONTROL Retention]
+   * [!UICONTROL Feature matrix]
+* **[!UICONTROL Project Name]**: nome descrittivo del progetto.
+* **[!UICONTROL Project Type]**: tipo di progetto. Gli elementi del Dimension includono:
+   * `workspace-projects`
+   * `guided-analysis`
+   * `mobile-scorecard-builder`
+* **[!UICONTROL User ID]**: ID utente che ha attivato l&#39;evento.
+* **[!UICONTROL Visualization Used]**: visualizzazione aggiunta, rimossa o modificata. Gli elementi del Dimension includono:
+   * [!UICONTROL Freeform table]
+   * [!UICONTROL Cohort table]
+   * [!UICONTROL Fallout]
+   * [!UICONTROL Flow]
+   * [!UICONTROL Journey Canvas reportlet]
+   * [!UICONTROL Area]
+   * [!UICONTROL Area stacked]
+   * [!UICONTROL Bar]
+   * [!UICONTROL Bar stacked]
+   * [!UICONTROL Bullet]
+   * [!UICONTROL Combo]
+   * [!UICONTROL Donut]
+   * [!UICONTROL Histogram]
+   * [!UICONTROL Horizontal bar]
+   * [!UICONTROL Horizontal bar stacked]
+   * [!UICONTROL Key metric summary]
+   * [!UICONTROL Line]
+   * [!UICONTROL Map]
+   * [!UICONTROL Scatter]
+   * [!UICONTROL Section header]
+   * [!UICONTROL Summary change]
+   * [!UICONTROL Summary number]
+   * [!UICONTROL Text]
+   * [!UICONTROL Treemap]
+   * [!UICONTROL Venn]
 
 L’utilizzo del prodotto non tiene traccia dei singoli componenti del progetto quando un progetto viene semplicemente aperto o visualizzato. Tuttavia, viene tenuta traccia dell’azione dell’utente di apertura di un progetto.
