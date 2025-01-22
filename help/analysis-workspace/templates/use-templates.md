@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
 workflow-type: tm+mt
-source-wordcount: '19275'
+source-wordcount: '19269'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
 1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**].
 
-   ![Schede modelli](assets/view-prebuilt-templates.png)
+   ![Schede modelli](assets/view-prebuilt-templates-full.png)
 
 1. Nella sezione [!UICONTROL **Modelli**] selezionare una delle schede seguenti:
 
@@ -43,9 +43,9 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
 1. Per modificare la modalità di visualizzazione dei modelli disponibili, utilizzare una delle opzioni seguenti:
 
-   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando la vista a colonne ![VisualizzaColonna](/help/assets/icons/ViewColumn.svg) o l&#39;icona della vista a schede ![Scheda](/help/assets/icons/Card.svg).
 
-   * Quando si utilizza la vista a schede ![icona vista a schede](assets/card-view-icon.png), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Quando si utilizza la vista a schede ![Scheda](/help/assets/icons/Card.svg), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Nel campo di ricerca, iniziare a digitare il nome del modello che si desidera trovare, quindi selezionarlo dall&#39;elenco dei modelli.
 

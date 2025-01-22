@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: ht
-source-wordcount: '1344'
-ht-degree: 100%
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
+workflow-type: tm+mt
+source-wordcount: '1338'
+ht-degree: 99%
 
 ---
 
@@ -17,14 +17,13 @@ ht-degree: 100%
 
 Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere informazioni e quindi condividerle con altri utenti. Utilizzando l’interfaccia di trascinamento del browser, puoi creare analisi, aggiungere visualizzazioni per mettere in risalto i dati, curare un set di dati, condividere e pianificare [progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md) con chiunque desideri.
 
+>[!BEGINSHADEBOX]
 
-+++ Guarda un video che mostra le possibilità offerte da Analytics Workspace.
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Area di lavoro di analisi](https://video.tv.adobe.com/v/26266/?quality=12){target="_blank"}
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+>[!ENDSHADEBOX]
 
-{{videoaa}}
 
-+++
 
 ## Interfaccia
 
@@ -64,7 +63,7 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 - **⇧** per **[!UICONTROL *Maiusc *]**.
 - **⌘** per **[!UICONTROL *Cmd *]**(comando).
 - **⌃** per **[!UICONTROL *Ctrl *]**(controllo).
-- **** per **[!UICONTROL *Opt *]**(opzione).
+- **⌥** per **[!UICONTROL *Opt *]**(opzione).
 - **⎇** per **[!UICONTROL *Alt *]**(alternativo).
 
 Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
