@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: ht
-source-wordcount: '2310'
-ht-degree: 100%
+source-git-commit: 8c4b42c0046068ba45a47ecd9c7eab2ed89028e5
+workflow-type: tm+mt
+source-wordcount: '2377'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | --- | --- |
 | **Possibilità di combinare set di dati (come le suite di rapporti di Adobe Analytics)** | Customer Journey Analytics consente di [combinare dati](/help/connections/combined-dataset.md) provenienti da più suite di rapporti come se si trattasse di una singola suite di rapporti in Adobe Analytics. |
 | **Sistemazione per qualsiasi tipo di dati** | Customer Journey Analytics è combinato con la capacità di Experience Platform di contenere tutti i tipi e schemi di dati. Utilizzando [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) i dati possono essere rappresentati e organizzati in modo uniforme e sono pronti per essere combinati ed esaminati. Adobe Analytics si concentra principalmente sui dati di analisi del web e dei dispositivi mobili con alcune funzionalità per [importare i dati](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=it). |
+| **Estensione BI** | L’[Estensione BI](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) consente di collegare CJA direttamente agli strumenti di visualizzazione di BI più diffusi, come PowerBI o Tableau. Utilizzando questa estensione, puoi far corrispondere esattamente i rapporti di BI a quelli visualizzati in Analysis Workspace e in altre interfacce di reporting di CJA. Questo è un modo molto più semplice per ottenere il reporting BI per CJA senza la necessità di ricreare rapporti/metriche dai dati non elaborati. |
 | **Analytics tra dispositivi** | Customer Journey Analytics supporta la combinazione perfetta di set di dati specifici per dispositivo, provenienti da sessioni non autenticate e autenticate. Customer Journey Analytics consente di eseguire la retrocompilazione dei dati storici su dispositivi noti. In Adobe Analytics, questa funzionalità è limitata a una singola suite di rapporti e all’utilizzo di un grafo dei dispositivi. |
 | **Miglioramenti della dimensione** | Customer Journey Analytics offre una grande flessibilità nell’utilizzo delle dimensioni: <ul><li>**Dimensioni personalizzate basate su numeri**:[offre la possibilità di creare dimensioni personali a bse numerica all’interno di una vista dati](/help/data-views/create-dataview.md#components).</li><li>**Ordinamento dimensioni basate su stringhe**: [ordina in modo alfabetico le dimensioni in una tabella a forma libera.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>In Adobe Analytics erano disponibili sono alcune dimensioni numeriche preimpostate e l’ordinamento delle dimensioni basate su stringhe non era possibile.</p> |
 | **Campi derivati** | I [campi derivati](/help/data-views/derived-fields/derived-fields.md) consentono trasformazioni al momento dell’elaborazione del report. I dati possono essere combinati, corretti o creati immediatamente e queste trasformazioni si applicano retroattivamente a tutti i rapporti. |
@@ -31,11 +32,12 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Analisi della sperimentazione** | Customer Journey Analytics può [valutare l’incremento e l’affidabilità di qualsiasi esperimento](/help/analysis-workspace/c-panels/experimentation.md) da qualsiasi origine dati definita come parte di una connessione. Questa valutazione consente di comprendere le relazioni causa-effetto tra le interazioni dei clienti che si estendono su qualsiasi canale. Analytics è limitato all’analisi di sperimentazione tramite A4T. |
 | **Previsione** | La [previsione](/help/analysis-workspace/c-forecast/forecasting.md) è una funzionalità AI/ML che include una previsione statistica per i dati relativi alla serie temporale basata sui dati storici già esistenti in Customer Journey Analytics. Le previsioni possono essere visualizzate in tabelle a forma libera e in visualizzazioni con grafico a linee. |
 | **Analisi guidata** | L’[analisi guidata](/help/guided-analysis/overview.md) consente agli utenti di gestire in autonomia dati e informazioni approfondite di alta qualità sul percorso cliente tramite flussi di lavoro guidati, basati sui dati cross-channel di Customer Journey Analytics. |
-| **Didascalie intelligenti** | Le didascalie intelligenti utilizzano l’apprendimento automatico avanzato e l’intelligenza artificiale generativa per fornire informazioni approfondite relative al linguaggio naturale per le visualizzazioni di Workspace. La versione iniziale fornisce informazioni approfondite generate automaticamente per la visualizzazione [Linee](/help/analysis-workspace/visualizations/line.md). |
+| **Didascalie intelligenti** | [Didascalie intelligenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) utilizza funzioni avanzate di apprendimento automatico e IA generativa per fornire informazioni preziose sul linguaggio naturale per le visualizzazioni di Workspace. I sottotitoli intelligenti sono supportati per le seguenti visualizzazioni: Linea, Multiriga, Barra, Barra orizzontale, Anello, Area, Flusso e Abbandono. |
+| **Utilizzo prodotto** | [Utilizzo del prodotto]https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview() mostra come la tua organizzazione utilizza il Customer Journey Analytics. |
 | **Trasformazioni al momento del rapporto** | Le [visualizzazioni dati](/help/data-views/data-views.md) in Customer Journey Analytics consentono di interpretare ulteriormente i dati di una connessione. Puoi modificare o rimuovere dati senza modificare l’implementazione, utilizzare sottostringhe per manipolare le dimensioni, creare metriche da qualsiasi valore o filtrare gli eventi secondari. Tutte queste trasformazioni sono effettuate in modo non distruttivo. Adobe Analytics offre funzionalità limitate tramite suite di rapporti virtuali e una lunghezza della sessione personalizzata. |
-| **Estensione BI** | L’[Estensione BI](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) consente di collegare CJA direttamente agli strumenti di visualizzazione di BI più diffusi, come PowerBI o Tableau. Utilizzando questa estensione, puoi far corrispondere esattamente i rapporti di BI a quelli visualizzati in Analysis Workspace e in altre interfacce di reporting di CJA. Questo è un modo molto più semplice per ottenere il reporting BI per CJA senza la necessità di ricreare rapporti/metriche dai dati non elaborati. |
 | **Accesso SQL** | Utilizzando l’opzione Data Distiller, Customer Journey Analytics può rimuovere le limitazioni dei dati raccolti durante l’elaborazione backend di Adobe. Puoi modificare i dati con SQL, creare valori e set di dati specifici per la tua azienda e continuare ad approfondire. Analytics non supporta alcun tipo di accesso SQL ai propri dati. |
 | **Stitching** | L’[Unione](/help/stitching/overview.md) è una funzione potente che migliora l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che Customer Journey Analytics può gestire e consente di combinare ed eseguire facilmente rapporti su più set di dati da canali diversi, in base a un identificatore comune (ID persona). |
+| **Modelli in Adobe Journey Optimizer** | Personalizza la nuova interfaccia di reporting in Adobe Journey Optimizer creando o modificando un [modello](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) in Customer Journey Analytics, quindi salvando il modello da utilizzare nella pagina Rapporti in Journey Optimizer. |
 | **Dimensioni e metriche cliente illimitate** | In Customer Journey Analytics le dimensioni sono illimitate; i valori possono essere numeri, testo, oggetti, elenchi o una combinazioni di questi. Le dimensioni possono essere nidificate o gerarchiche. <br/>Al contrario, Analytics supporta fino a un massimo di 75 proprietà e 250 eVar. |
 | **Valori univoci illimitati** | Customer Journey Analytics supporta valori univoci illimitati o elementi dimensionali che possono essere inseriti in un rapporto all’interno di una singola dimensione.<p>Non ci sono [limiti di cardialità su una dimensione](/help/components/dimensions/high-cardinality.md) e quindi ogni valore univoco può comparire ed essere contato.</p><p>Questo approccio elimina le limitazioni di reportistica e analisi che si possono incontrare con implementazioni su larga scala di Adobe Analytics, risultando in etichette [!UICONTROL Low Traffic].</p><p>In Customer Journey Analytics è possibile vedere un’etichetta [!UICONTROL Uniques Exceeded], ma questo accade molto meno di frequente e può essere limitato applicando filtri o segmenti ai dati.</p> |
 
@@ -64,6 +66,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Esportazione PDF** | Supporto completo |
 | **Cura dei progetti** | Supporto completo |
 | **Collegamento del progetto** | Supporto completo |
+| **Modelli di prodotto** | Include [modelli predefiniti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates) e [modelli aziendali](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#access-a-company-template). |
 | **Elaborazione dell&#39;ora rapporto** | Supporto completo; Customer Journey Analytics si basa esclusivamente sull’elaborazione dei tempi di reporting. |
 | **Accesso API di reporting** | Supporto completo; disponibile tramite l’[API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | **Rapporti/progetti pianificati** | Supporto completo |
@@ -118,7 +121,6 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | Funzione | Note |
 | --- | --- |
 | **Analisi dei contributi** | Il supporto è pianificato. |
-| **Modelli di progetto** | Il supporto è pianificato. |
 | **Reporting in tempo reale** | Il supporto è pianificato. |
 | **Segment IQ** | Il supporto è pianificato. |
 | **Origini dati ID transazione** | Il supporto è pianificato. |
