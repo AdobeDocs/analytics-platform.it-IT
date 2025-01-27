@@ -4,10 +4,10 @@ description: Scopri come visualizzare e gestire i registri di audit del Customer
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 67%
+source-wordcount: '872'
+ht-degree: 60%
 
 ---
 
@@ -63,22 +63,22 @@ Fai doppio clic sul pulsante Info (i) accanto a una descrizione.
 Vengono visualizzati i seguenti elementi:
 
 * **[!UICONTROL Action Name]**: azione eseguita. Possibili valori:
-   * API_REQUEST
-   * APPROVA
-   * CREA
-   * DELETE
-   * MODIFICA
-   * EMBARGO
-   * ESPORTA
-   * ORG_CHANGE
-   * AGGIORNA
-   * CONDIVIDI
-   * TRASFERIMENTO
-   * ANNULLA APPROVAZIONE
-   * ANNULLA CONDIVISIONE
+   * API_REQUEST: qualsiasi azione attiva una richiesta API back-end. Vengono visualizzati i dettagli relativi alla richiesta API.
+   * APPROVA: è stata eseguita un’azione di &quot;approvazione&quot;.
+   * CREATE: è stata eseguita un’azione &quot;create&quot;.
+   * DELETE: è stata eseguita un’azione &quot;delete&quot;.
+   * MODIFICA: è stata eseguita un’azione di modifica.
+   * EMBARGO:
+   * EXPORT: è stata eseguita un’azione di &quot;esportazione&quot;.
+   * ORG_CHANGE: È stata eseguita un&#39;azione di modifica dell&#39;organizzazione.
+   * REFRESH: è stata eseguita un’azione di &quot;aggiornamento&quot;.
+   * SHARE: È stata eseguita un’azione &quot;condividi&quot;.
+   * TRANSFER: è stata eseguita un’azione di trasferimento.
+   * UNAPPROVE (NON APPROVARE): è stata eseguita un’azione di &quot;non approvazione&quot;.
+   * UNSHARE: è stata eseguita un’azione &quot;unshare&quot;.
 * **[!UICONTROL Date Created]**: data e ora in cui è stata eseguita l&#39;azione.
 * **[!UICONTROL Description]**: riepilogo dell&#39;azione.
-* **[!UICONTROL User Name]**: utente che ha eseguito l&#39;azione.
+* **[!UICONTROL User Name]**: utente che ha eseguito l&#39;azione. A volte, il nome utente potrebbe mancare. Considera l&#39;utilizzo della funzionalità [Utilizzo prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/product-usage/usage-overview), in quanto include sempre il nome utente di accesso.
 * **[!UICONTROL Email]**: indirizzo e-mail dell&#39;utente che ha eseguito l&#39;azione.
 * **[!UICONTROL Component Name]**: il componente su cui l&#39;utente ha agito.
 * **[!UICONTROL Component Type]**: tipo di componente. Possibili valori:
@@ -94,7 +94,7 @@ Vengono visualizzati i seguenti elementi:
    * FILTRO
    * ORGANIZZAZIONE IMS
    * DISPOSITIVI MOBILI
-   * PROGETTO
+   * PROGETTO (Workspace)
    * RAPPORTO
    * PROGETTO_PIANIFICATO
    * UTENTE
