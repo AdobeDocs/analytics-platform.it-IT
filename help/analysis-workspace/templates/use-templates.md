@@ -4,7 +4,7 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
+source-git-commit: c4ea1ffd6ffb21f972bb144fe6b56526ad4697ff
 workflow-type: tm+mt
 source-wordcount: '19269'
 ht-degree: 1%
@@ -947,8 +947,6 @@ Sono disponibili i seguenti modelli:
 | **Tipi di browser** | Visualizza i nomi delle organizzazioni che hanno creato i browser principali utilizzati dagli utenti per accedere al sito. Questo è diverso dal modello Browser in quanto non elenca diverse versioni dello stesso browser come elementi dimensionali separati.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità. </p><p>Questo modello utilizza la dimensione Tipo di browser. </p> |
 
 ### Web: Acquisizione {#web-acquisition}
-
-<!--CJA only-->
 
 <!--AA only-->
 

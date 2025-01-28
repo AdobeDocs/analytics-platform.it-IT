@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1586'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics, puoi seguire i [passaggi di aggiornamento consigliati](#recommended-upgrade-steps-for-most-organizations). Oppure puoi [generare dinamicamente i passaggi di aggiornamento](#dynamically-generate-upgrade-steps-for-your-organization) per le circostanze univoche della tua organizzazione.
 
-## Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni
+## Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni {#upgrade-process}
 
 Il processo consigliato di aggiornamento da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dei dati preferito per il Customer Journey Analytics. Insieme al Web SDK, Adobe consiglia anche di utilizzare il connettore di origine di Analytics per facilitare la transizione al Customer Journey Analytics. Utilizza il connettore di origine di Analytics per conservare i dati storici di Adobe Analytics ed eseguire confronti di dati affiancati.
 
@@ -28,7 +28,16 @@ Una volta che disponi di un numero sufficiente di dati storici utilizzando Exper
 >
 >Se i passaggi di aggiornamento descritti in questa sezione non sono pratici per la tua organizzazione, utilizza il [questionario di aggiornamento di Adobe Analytics al Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/) per generare in modo dinamico passaggi di aggiornamento personalizzati per le circostanze specifiche della tua organizzazione.
 
-### Processo di aggiornamento consigliato di alto livello
+### Processo di aggiornamento consigliato di alto livello {#high-level-upgade-process}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-historical-data"
+>title="Dati storici da Adobe Analytics"
+>abstract="Trasferisci i dati storici della suite di rapporti di Adobe Analytics in Adobe Experience Platform e Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
 
 1. **Implementare Experience Platform Web SDK (per la raccolta dati in corso)**
 
@@ -54,7 +63,7 @@ Una volta che disponi di un numero sufficiente di dati storici utilizzando Exper
 
      Puoi mantenere in funzione il connettore di origine di Analytics fino a quando non avrai familiarità con le differenze. <!--elaborate on what those differences are? -->
 
-   Il connettore di origine di Analytics come implementazione autonoma non è un metodo consigliato a lungo termine per l’utilizzo del Customer Journey Analytics. Ciò è dovuto a latenza elevata, schemi ingombranti e complessi, dipendenza dalla nomenclatura di Adobe Analytics (prop, eVar e così via) e difficoltà nel passare infine dal connettore di origine all’implementazione consigliata di Web SDK.
+   Il connettore di origine di Analytics come implementazione autonoma non è un metodo consigliato a lungo termine per l’utilizzo del Customer Journey Analytics. Ciò è dovuto a latenza elevata, schemi ingombranti e complessi, dipendenza dalla nomenclatura di Adobe Analytics (prop, eVar e così via) e difficoltà nel passare infine dal connettore di origine di Analytics all’implementazione consigliata di Web SDK.
 
 ### Passaggi di aggiornamento consigliati dettagliati
 

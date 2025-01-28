@@ -1,81 +1,26 @@
 ---
-title: Comprendere l’implementazione di Adobe Analytics e come influisce sull’aggiornamento al Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+title: Aggiornamento da una soluzione di analisi di terze parti a un Customer Journey Analytics
+description: Scopri come effettuare l’aggiornamento da una soluzione di analisi di terze parti al Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 5%
+source-wordcount: '768'
+ht-degree: 4%
 
 ---
 
-# Comprendere l’implementazione di Adobe Analytics e come influisce sull’aggiornamento al Customer Journey Analytics {#implementation-affects-upgrade}
+# Aggiornamento da una soluzione di analisi di terze parti a un Customer Journey Analytics {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-upgrade-appmeasurement"
->title="AppMeasurement (file JS manuale)"
->abstract="Un’implementazione di JavaScript che carica AppMeasurement.js su una pagina e invia i dati ad Adobe utilizzando l’oggetto s (ad esempio, s.eVar1)."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-analyticsextension"
->title="Estensione Adobe Analytics (tag)"
->abstract="Un’implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione Adobe Analytics."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-websdk"
->title="Web SDK (alloy.js)"
->abstract="Un’implementazione di JavaScript che carica la libreria Web SDK (alloy.js) su una pagina e invia i dati ad Adobe utilizzando un payload JSON."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-websdkextension"
->title="Estensione Web SDK (tag)"
->abstract="Un’implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione Web SDK."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-api"
->title="API di inserimento dati"
->abstract="Implementazione che utilizza l’API di inserimento dati o l’API di inserimento dati in blocco."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-mobilesdk"
->title="Mobile SDK"
->abstract="Implementazione che utilizza Adobe Experience Platform Mobile SDK."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-unknown"
->title="Implementazione sconosciuta"
->abstract="Se non sei la persona che gestisce l’implementazione, puoi selezionare temporaneamente questa opzione."
+>id="cja-upgrade-third-party"
+>title="Un prodotto di analisi di terze parti"
+>abstract="Implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nel questionario verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a un Customer Journey Analytics da un prodotto di analisi di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -83,13 +28,18 @@ ht-degree: 5%
 > 
 >Usa le informazioni in questa pagina per rispondere alle domande nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-Esistono diversi modi per implementare Adobe Analytics. Durante l’aggiornamento al Customer Journey Analytics, non tutti i percorsi di aggiornamento sono disponibili per tutte le implementazioni di Adobe Analytics. Tuttavia, il percorso di aggiornamento consigliato è disponibile indipendentemente da come Adobe Analytics viene implementato nella tua organizzazione.
+Il processo consigliato di aggiornamento da una soluzione di analisi di terze parti a un Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dati preferito per il Customer Journey Analytics. Insieme al Web SDK, Adobe consiglia anche di acquisire in Adobe Experience Platform i dati storici dalla soluzione di analisi di terze parti.
 
-Utilizza le informazioni seguenti per scoprire l’implementazione corrente di Adobe Analytics e quali percorsi di aggiornamento sono disponibili per la tua organizzazione.
+<!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
+
+Utilizza la procedura seguente per passare al Customer Journey Analytics da una soluzione di analisi di terze parti, ad esempio Google Analytics:
+
+1. ...
+
 
 Se hai bisogno di consigli, indicazioni o supporto più specifici, contatta il rappresentante Adobe.
 
-| Implementazione esistente di Adobe Analytics | Descrizione | Percorsi di aggiornamento disponibili |
+| Soluzione di analisi esistente | Descrizione | Percorsi di aggiornamento disponibili |
 |---------|----------|----------|
 | AppMeasurement | L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics.<p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics con AppMeasurement per JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview).</p> | <ul><li>[(Consigliato) Nuova implementazione di Experience Platform Web SDK per la raccolta dati continua; connettore Source di Analytics per i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Nuova implementazione di Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md) </li><li>Migrare da Adobe Analytics a Web SDK</li><li>[Connettore Source Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |
 | Estensione Adobe Analytics (tag) | <p>I tag in Adobe Experience Platform sono una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a team di sviluppo nell’organizzazione per aggiornare il codice sul sito.</p><p>Per ulteriori informazioni su questo tipo di implementazione, vedere [Implementare Adobe Analytics utilizzando l&#39;estensione Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/overview).</p> | <ul><li>[(Consigliato) Nuova implementazione di Experience Platform Web SDK per la raccolta dati continua; connettore Source di Analytics per i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Nuova implementazione di Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md) </li><li>Migrare da Adobe Analytics a Web SDK</li><li>[Connettore Source Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |
