@@ -8,7 +8,7 @@ role: User
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_frequency_button"
 >title="Frequenza"
->abstract="Visualizzare la distribuzione delle attività utente ripetute per eventi specifici."
+>abstract="Visualizza la distribuzione delle attività degli utenti ripetuti per eventi specifici."
 
 <!-- markdownlint-enable MD034 -->
 

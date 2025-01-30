@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 00c57793846d997dbfd80b413f3cf3b78a96097b
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 19%
+ht-degree: 64%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Mappa"
->abstract="Questa visualizzazione rappresenta le metriche sovrapponendole su una mappa. Ciò è utile per identificare i dati tra diverse aree geografiche."
+>abstract="Questa visualizzazione rappresenta le metriche sovrapponendole su una mappa. Questo è utile per identificare i dati tra diverse aree geografiche."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Bolle"
->abstract="Tracciare gli eventi utilizzando le bolle."
+>abstract="Traccia gli eventi utilizzando le bolle."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,8 +37,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mappa di calore"
->abstract="Tracciare gli eventi utilizzando una mappa di calore."
+>title="Heatmap"
+>abstract="Traccia gli eventi utilizzando una mappa termica."
 
 <!-- markdownlint-enable MD034 -->
 

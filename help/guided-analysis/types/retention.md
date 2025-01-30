@@ -1,5 +1,5 @@
 ---
-title: Analisi del mantenimento
+title: Analisi conservazione
 description: Misura quanti utenti continuano a utilizzare il prodotto.
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
@@ -8,11 +8,11 @@ role: User
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Analisi del mantenimento {#retention}
+# Analisi conservazione {#retention}
 
 <!-- markdownlint-disable MD034 -->
 

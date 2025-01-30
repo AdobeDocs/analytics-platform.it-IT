@@ -7,7 +7,7 @@ role: User
 source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -55,7 +55,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili opzioni speci
 >[!CONTEXTUALHELP]
 >id="workspace_summarychange_button"
 >title="Variazione di riepilogo"
->abstract="Creare una visualizzazione che mostri il delta (variazione) tra due numeri"
+>abstract="Crea una visualizzazione che mostra il delta (variazione) tra due numeri"
 
 <!-- markdownlint-enable MD034 -->
 

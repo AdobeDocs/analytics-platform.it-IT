@@ -10,11 +10,11 @@ exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 43%
+ht-degree: 58%
 
 ---
 
-# Collegamento per l’aggiornamento: esegui la migrazione di un’implementazione di AppMeasurement o estensione Analytics per utilizzare Web SDK {#shortcut-migrate-websdk}
+# Scelta rapida per l’aggiornamento: eseguire la migrazione di un’implementazione di AppMeasurement o estensione Analytics per utilizzare Web SDK {#shortcut-migrate-websdk}
 
 >[!NOTE]
 >
@@ -24,8 +24,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
->title="Migrare l’implementazione di Analytics per utilizzare il Web SDK"
->abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
+>title="Eseguire la migrazione dell’implementazione di Analytics per utilizzare Web SDK"
+>abstract="Invece di inviare dati tramite un oggetto XDM, è possibile inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,8 +33,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="migrate_aa_to_websdk"
->title="Migrare l’implementazione di Analytics per utilizzare il Web SDK"
->abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
+>title="Eseguire la migrazione dell’implementazione di Analytics per utilizzare Web SDK"
+>abstract="Invece di inviare dati tramite un oggetto XDM, è possibile inviare tutte le variabili in formato AppMeasurement tramite l’oggetto dati. Questa scelta rapida ti consente di continuare a utilizzare la logica di AppMeasurement per inviare dati a Platform."
 
 <!-- markdownlint-enable MD034 -->
 

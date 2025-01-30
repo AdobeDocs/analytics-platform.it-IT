@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '3793'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
@@ -211,7 +211,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_keyusagemetrics"
 >title="Metriche di utilizzo chiave"
->abstract="Fornisci dati mensili e totali per le righe principali e cronologiche da segnalare."
+>abstract="Fornisce dati mensili e totali per le righe principali e storiche da riportare."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -220,15 +220,15 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyingestedrows"
 >title="Righe acquisite mensilmente"
->abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni sulla crescita dei dati e sui tassi di acquisizione."
+>abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni approfondite sulla crescita dei dati e sui tassi di acquisizione."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyreportablerows"
->title="Righe mensili da segnalare"
->abstract="Tiene traccia del numero di righe disponibili per il reporting. Le righe da segnalare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da segnalare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
+>title="Righe mensili da riportare"
+>abstract="Traccia il numero di righe disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -236,7 +236,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_detailbreakdown"
->title="Dettaglio del raggruppamento."
+>title="Raggruppamento in dettaglio."
 >abstract="Puoi visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag, con l’opzione di scaricare un file CSV dei dati."
 <!-- markdownlint-enable MD034 -->
 
@@ -252,8 +252,8 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_unknowndatasetsorconnections"
->title="Set di dati o connessioni sconosciuti"
->abstract="I set di dati o le connessioni sconosciuti vengono visualizzati utilizzando i relativi ID."
+>title="Connessioni o set di dati sconosciuti"
+>abstract="Le connessioni o i set di dati sconosciuti vengono visualizzati utilizzando i relativi ID."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -268,16 +268,16 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
->title="Righe principali da segnalare"
->abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento da gennaio 2023 a gennaio 2024."
+>title="Righe principali da riportare"
+>abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
->title="Righe cronologiche da segnalare"
->abstract="Visualizza il numero totale di righe disponibili per il periodo più vecchio di 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento precedente a gennaio 2023."
+>title="Righe storiche da riportare"
+>abstract="Visualizza il numero totale di righe disponibili per il periodo antecedente agli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -286,7 +286,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >[!CONTEXTUALHELP]
 >id="connections_usage_keyusagemetrics"
 >title="Metriche di utilizzo chiave"
->abstract="Fornisci dati mensili e totali per le righe principali e cronologiche da segnalare."
+>abstract="Fornisce dati mensili e totali per le righe principali e storiche da riportare."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -295,15 +295,15 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyingestedrows"
 >title="Righe acquisite mensilmente"
->abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni sulla crescita dei dati e sui tassi di acquisizione."
+>abstract="Misura il numero totale di record aggiunti al sistema ogni mese per fornire informazioni approfondite sulla crescita dei dati e sui tassi di acquisizione."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyreportablerows"
->title="Righe mensili da segnalare"
->abstract="Tiene traccia del numero di righe disponibili per il reporting. Le righe da segnalare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da segnalare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
+>title="Righe mensili da riportare"
+>abstract="Traccia il numero di righe disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -311,7 +311,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_detailbreakdown"
->title="Dettaglio del raggruppamento."
+>title="Raggruppamento in dettaglio."
 >abstract="Puoi visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag, con l’opzione di scaricare un file CSV dei dati."
 <!-- markdownlint-enable MD034 -->
 
@@ -327,8 +327,8 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_unknowndatasetsorconnections"
->title="Set di dati o connessioni sconosciuti"
->abstract="I set di dati o le connessioni sconosciuti vengono visualizzati utilizzando i relativi ID."
+>title="Connessioni o set di dati sconosciuti"
+>abstract="Le connessioni o i set di dati sconosciuti vengono visualizzati utilizzando i relativi ID."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -343,16 +343,16 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
->title="Righe principali da segnalare"
->abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento da gennaio 2023 a gennaio 2024."
+>title="Righe principali da riportare"
+>abstract="Visualizza il numero totale di righe disponibili negli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
->title="Righe cronologiche da segnalare"
->abstract="Visualizza il numero totale di righe disponibili per il periodo più vecchio di 13 mesi. Ad esempio, il 1° febbraio 2024, il numero mostra il totale delle righe disponibili con una marca temporale dell’evento precedente a gennaio 2023."
+>title="Righe storiche da riportare"
+>abstract="Visualizza il numero totale di righe disponibili per il periodo antecedente agli ultimi 13 mesi. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -365,8 +365,8 @@ L’interfaccia di utilizzo utilizza le metriche seguenti
 
 | Nome della metrica | Descrizione |
 |---|---|
-| Righe cronologiche da segnalare | Numero di righe per il periodo più vecchio di 13 mesi. |
-| Righe principali da segnalare | Numero di righe negli ultimi 13 mesi. |
+| Righe storiche da riportare | Numero di righe per il periodo più vecchio di 13 mesi. |
+| Righe principali da riportare | Numero di righe negli ultimi 13 mesi. |
 | Righe acquisite | Quante righe vengono acquisite per il periodo specifico. |
 | Righe da segnalare | Quante righe di dati hai come parte della connessione per il periodo specifico. |
 | Righe cumulative | Quante righe vengono acquisite fino al mese specifico. |

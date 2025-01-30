@@ -7,7 +7,7 @@ exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 source-git-commit: 4c0a18bcaef0b9d6a4d2289fc0be20cfcfefff7d
 workflow-type: tm+mt
 source-wordcount: '19458'
-ht-degree: 1%
+ht-degree: 85%
 
 ---
 
@@ -158,8 +158,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--unitsOvertimeReport"
->title="Visualizza il numero totale di unità acquistate in tutti gli ordini. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo ti aiuta** a capire meglio come le vendite unitarie aumentano o diminuiscono nel tempo. Puoi applicare un segmento per scoprire quali clienti o aree geografiche acquistano più unità e come queste vendite unitarie tendono nel tempo.<br/>**In base a quanto appreso, è possibile** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando le vendite unitarie prima e dopo l&#39;avvio della campagna. In alternativa, è possibile confrontare le vendite unitarie annuali durante le festività.<br/>Questo modello utilizza la dimensione Giorno e la metrica Unità."
+>title="Visualizza il numero totale di unità acquistate in tutti gli ordini. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio come le vendite delle unità aumentano o diminuiscono nel tempo. Puoi applicare un segmento per scoprire quale clientela o quali aree geografiche acquistano il maggior numero di unità e quale sia la tendenza delle rispettive vendite nel tempo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando le vendite di unità prima e dopo l’avvio della campagna. Oppure è possibile confrontare le vendite di unità durante le festività rispetto all’anno precedente.<br/>Questo modello utilizza la dimensione Giorno e la metrica Unità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -170,7 +170,7 @@ Per accedere a tutti i modelli predefiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--training"
 >title="Modello per le esercitazioni"
->abstract="Scopri la terminologia e i passaggi comuni di Analysis Workspace per creare la tua prima analisi."
+>abstract="Scopri la terminologia e i passaggi più comuni di Analysis Workspace per creare la tua prima analisi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -178,8 +178,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--pagesRankedReport"
->title="Identifica le pagine più popolari e meno popolari."
->abstract="**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui sono più interessati.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i metadati della pagina per aumentare la visibilità sulle pagine visualizzate meno o passare del tempo a migliorare il contenuto delle pagine più visualizzate.<br/>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina."
+>title="Identifica le pagine più popolari e quelle meno popolari."
+>abstract="**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui è più interessato.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare i metadati della pagina per aumentare la visibilità delle pagine meno visualizzate oppure dedicare del tempo al miglioramento dei contenuti delle pagine più visualizzate.<br/>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -187,8 +187,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--pageViewsOvertimeReport"
->title="Visualizzare il numero totale di visualizzazioni di pagina. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. "
->abstract="**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.<br/>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina."
+>title="Visualizza il numero totale di visualizzazioni di pagina. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. "
+>abstract="**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -196,8 +196,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--visitsOvertimeReport"
->title="Visualizza il numero totale di visite. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.<br/>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visite."
+>title="Visualizza il numero totale di visite. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -205,8 +205,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--visitorsOvertimeReport"
->title="Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. "
->abstract="**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentino o diminuiscano nel tempo o rispetto a un periodo precedente.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare se una campagna di marketing lanciata di recente è riuscita ad attirare nuove persone sul sito confrontando visitatori univoci prima e dopo il lancio della campagna. Oppure puoi confrontare il numero di persone che visitano il sito durante le festività anno su anno.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci. "
+>title="Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. "
+>abstract="**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentano o diminuiscono nel tempo o rispetto a un periodo precedente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se una campagna di marketing avviata di recente è riuscita ad attirare nuove persone sul sito confrontando i visitatori univoci prima e dopo l’avvio della campagna. Oppure è possibile confrontare il numero di persone che visitano il sito durante le festività rispetto all’anno precedente.<br/>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -214,8 +214,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--keyMetricsReport"
->title="Visualizza un rapporto che mostra affiancate le metriche di visualizzazioni di pagina, visite e visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che che visitano il sito, del numero di volte in cui sono state visitate le pagine e del numero di sessioni.<br/>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell&#39;anno o prima e dopo l&#39;esecuzione di campagne di marketing. <br/>Questo modello utilizza la dimensione Giorno, la metrica Visualizzazioni pagina, la metrica Visite e la metrica Visitatori univoci."
+>title="Visualizza un rapporto che mostra fianco a fianco le metriche relative a visualizzazioni pagina, visite e visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che visitano il sito, del numero di volte che le pagine sono state visitate e del numero di sessioni.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell’anno o prima e dopo l’esecuzione di campagne di marketing. <br/>Questo modello utilizza la dimensione Giorno e le metriche di Visualizzazioni pagina, Visite e Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -223,8 +223,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--siteSectionRankedReport"
->title="Visualizza le sezioni più popolari o con le prestazioni più elevate del sito."
->abstract="**Questo può aiutarti** a capire meglio quali sezioni del tuo sito sono più visitate.<br>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali prodotti o servizi fornisci generano il maggior interesse.<br/>Questo modello utilizza la dimensione Sezione sito e la metrica Visite."
+>title="Visualizza le sezioni del sito più popolari o con le prestazioni migliori."
+>abstract="**Questo può aiutarti** a comprendere meglio quali sezioni del tuo sito sono più visitate.<br>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali tra i prodotti o i servizi che fornisci generano maggiore interesse.<br/>Questo modello utilizza la dimensione Sezione sito e la metrica Visite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -233,7 +233,7 @@ Per accedere a tutti i modelli predefiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--next-page-report"
 >title="Visualizza i luoghi più comuni in cui le persone vanno immediatamente dopo aver visitato una determinata pagina."
->abstract="**Questo può aiutarti** a comprendere meglio il comportamento degli utenti dopo aver visitato una determinata pagina.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se la progettazione o il layout della pagina possa essere ottimizzato per indirizzare gli utenti a pagine più desiderate, ad esempio una pagina per effettuare un acquisto o lasciare una recensione.<br/>Questo modello utilizza la dimensione Pagina e la metrica Eventi."
+>abstract="**Questo può aiutarti** a comprendere meglio il comportamento degli utenti dopo aver visitato una determinata pagina.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se la progettazione o il layout della pagina può essere ottimizzato per indirizzare gli utenti verso le pagine più desiderate, ad esempio una pagina dove effettuare un acquisto o lasciare una recensione.<br/>Questo modello utilizza la dimensione Pagina e la metrica Eventi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -242,7 +242,7 @@ Per accedere a tutti i modelli predefiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--previous-page-report"
 >title="Visualizza i luoghi più comuni in cui le persone vanno immediatamente prima di visitare una determinata pagina."
->abstract="**Questo può aiutarti** a capire meglio quali pagine indirizzano il maggior traffico verso una determinata pagina.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare se le pagine che non sono visualizzate come pagine precedenti richiedono collegamenti più evidenti alla pagina corrente."
+>abstract="**Questo può aiutarti** a comprendere meglio quali pagine indirizzano il traffico maggiore verso una determinata pagina.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se le pagine che non sono visualizzate come le pagine precedenti necessitano di collegamenti più evidenti alla pagina corrente."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -250,8 +250,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--campaignRankedReport"
->title="Visualizza i collegamenti più efficaci per indirizzare il traffico verso il tuo sito."
->abstract="**Questo può aiutarti** a capire meglio quali codici di tracciamento (e i collegamenti a essi associati) sono stati più utilizzati per accedere al tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare la tua strategia per la posizione in cui aggiungi collegamenti al tuo sito.<br/>Questo modello utilizza la dimensione Codice di tracciamento e la metrica Visite."
+>title="Visualizza i collegamenti che sono stati più efficaci nel generare traffico verso il tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali codici di tracciamento (e i collegamenti associati a essi) sono stati più utilizzati per accedere al tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare la strategia su dove aggiungere i collegamenti al tuo sito.<br/>Questo modello utilizza la dimensione Codice di tracciamento e la metrica Visite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -259,8 +259,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--productsRankedReport"
->title="Visualizza il numero di ordini per prodotto. I dati vengono visualizzati in un arco di tempo."
->abstract="**Questo ti aiuta** a capire quali prodotti sono più richiesti o meno.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio modificare le tue strategie di marketing per promuovere prodotti dalle prestazioni elevate o per migliorare o interrompere prodotti dalle prestazioni insoddisfacenti. Puoi anche regolare l’inventario dei prodotti in base all’analisi dei dati.<br/>Questo modello utilizza la dimensione Prodotto e la metrica Ordini."
+>title="Visualizza il numero di ordini per prodotto. I dati vengono visualizzati in un periodo di tempo."
+>abstract="**Questo può aiutarti** a comprendere quali sono i prodotti con la domanda più alta o più bassa.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le strategie di marketing per promuovere prodotti con prestazioni elevate oppure per migliorare o interrompere prodotti con prestazioni insufficienti. Puoi anche modificare l’inventario dei prodotti in base all’analisi dei dati.<br/>Questo modello utilizza la dimensione Prodotto e la metrica Ordini."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -268,8 +268,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--lastTouchChannelRankedReport"
->title="Visualizza i canali di marketing più recenti con cui i visitatori fanno riferimento durante il periodo di coinvolgimento (30 giorni per impostazione predefinita)."
->abstract="**Questo può aiutarti** a capire quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito e che hanno causato conversioni.<br/>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio allocare più risorse ai canali con prestazioni elevate o allocare meno risorse ai canali con prestazioni insoddisfacenti.<br/>Questo modello utilizza la dimensione Canale di ultimo contatto e la metrica Visitatori univoci."
+>title="Visualizza i canali di marketing più recenti con cui i visitatori corrispondono durante il periodo di coinvolgimento (30 giorni per impostazione predefinita)."
+>abstract="**Questo può aiutarti** a comprendere quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito e che hanno generato delle conversioni.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse ai canali con prestazioni elevate o meno risorse ai canali con prestazioni insufficienti.<br/>Questo modello utilizza la dimensione Canale di ultimo contatto e la metrica Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -278,7 +278,7 @@ Per accedere a tutti i modelli predefiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--lastTouchChannelDetailRankedReport"
 >title="Visualizza i dettagli sui canali di marketing più recenti con cui i visitatori corrispondono durante il periodo di coinvolgimento (30 giorni per impostazione predefinita)."
->abstract="**Questo può aiutarti** a capire non solo quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito che hanno generato conversioni, ma anche i dettagli su tali canali di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare i dettagli del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.<br/>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio allocare più risorse ai canali con prestazioni elevate o allocare meno risorse ai canali con prestazioni insoddisfacenti.<br/>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto e la metrica Visitatori univoci. "
+>abstract="**Questo può aiutarti** a comprendere non solo quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito generando conversioni, ma anche i dettagli su tali canali di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing “Ricerca a pagamento”, puoi utilizzare i dettagli del canale per visualizzare quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse ai canali con prestazioni elevate o meno risorse ai canali con prestazioni insufficienti.<br/>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto e la metrica Visitatori univoci. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -286,8 +286,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--revenueOvertimeReport"
->title="Visualizza l&#39;importo monetario di tutti i prodotti acquistati in tutti gli ordini. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a capire come i ricavi aumentano o diminuiscono nel tempo. Puoi combinare questa metrica con qualsiasi dimensione per scoprire quali elementi dimensionali hanno contribuito ai ricavi.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio proiettare i ricavi futuri in base alle tendenze precedenti. Puoi anche aggiungere un’altra dimensione, come la dimensione Codice di tracciamento, per scoprire quali campagne generano più ricavi.<br/>Questo modello utilizza la dimensione Giorno e la metrica Ricavi."
+>title="Visualizza l’importo monetario di tutti i prodotti acquistati in tutti gli ordini. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere il modo in cui i ricavi aumentano o diminuiscono nel tempo. Puoi combinare questa metrica con qualsiasi dimensione per scoprire quali elementi della dimensione hanno contribuito ai ricavi.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio proiettare i ricavi futuri in base alle tendenze precedenti. Puoi anche aggiungere un’altra dimensione, come la dimensione Codice di tracciamento, per scoprire quali campagne generano maggiori ricavi.<br/>Questo modello utilizza la dimensione Giorno e la metrica Ricavi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -295,8 +295,8 @@ Per accedere a tutti i modelli predefiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--ordersOvertimeReport"
->title="Visualizza il numero totale di eventi di acquisto. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo ti aiuta** a comprendere meglio come aumenta o diminuisce nel tempo l&#39;interesse per i tuoi prodotti e servizi. Puoi applicare un segmento per scoprire quali clienti o aree geografiche stanno effettuando il maggior numero di ordini e come questi ultimi tendono nel tempo.<br/>**In base a quanto appreso, è possibile** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando gli ordini prima e dopo il lancio della campagna. Oppure puoi confrontare gli ordini relativi alle festività su base annua.<br/>Questo modello utilizza la dimensione Giorno e la metrica Ordini."
+>title="Visualizza il numero totale di eventi di acquisto. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio come aumenta o diminuisce nel tempo l’interesse per i tuoi prodotti e servizi. Puoi applicare un segmento per scoprire quale clientela o quali aree geografiche stanno effettuando il maggior numero di ordini e quale sia la tendenza di tali ordini nel tempo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando gli ordini prima e dopo l’avvio della campagna. Oppure potresti confrontare gli ordini relativi alle festività anno per anno.<br/>Questo modello utilizza la dimensione Giorno e la metrica Ordini."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -305,20 +305,20 @@ Sono disponibili i seguenti modelli:
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Esercitazione**] | Scopri la terminologia e i passaggi comuni di Analysis Workspace per creare la tua prima analisi |
-| [!UICONTROL **Pagine**] | <!--duplicated in Engagement section--> Identifica le pagine più popolari e meno popolari. <p>**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui sono più interessati.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i metadati della pagina per aumentare la visibilità sulle pagine visualizzate meno o passare del tempo a migliorare il contenuto delle pagine più visualizzate.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina.</p> |
-| [!UICONTROL **Visualizzazioni pagina**] | <!--duplicated in Engagement section--> Visualizzare il numero totale di visualizzazioni di pagina. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina.</p> |
-| [!UICONTROL **Visite Web**] | <!--duplicated in Engagement section--> Visualizza il numero totale di visite. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.</p><p>Questo modello utilizza le dimensioni Giorno e Visite.</p> |
-| [!UICONTROL **Visitatori Web**] | <!--duplicated in Engagement section--> Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentino o diminuiscano nel tempo o rispetto a un periodo precedente.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare se una campagna di marketing lanciata di recente è riuscita ad attirare nuove persone sul sito confrontando visitatori univoci prima e dopo il lancio della campagna. Oppure puoi confrontare il numero di persone che visitano il sito durante le festività anno su anno.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Metriche chiave**] | <!--duplicated in Engagement section--> Visualizza un rapporto che mostra affiancate le metriche di visualizzazioni di pagina, visite e visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che che visitano il sito, del numero di volte in cui sono state visitate le pagine e del numero di sessioni.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell&#39;anno o prima e dopo l&#39;esecuzione di campagne di marketing. </p><p>Questo modello utilizza la dimensione Giorno, la metrica Visualizzazioni pagina, la metrica Visite e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Sezioni del sito**] | Visualizza le sezioni più popolari o con le prestazioni più elevate del sito. <p>**Questo può aiutarti** a capire meglio quali sezioni del tuo sito sono più visitate.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali prodotti o servizi fornisci generano il maggior interesse.</p> <p>Questo modello utilizza la dimensione Sezione sito e la metrica Visite.</p> |
-| [!UICONTROL **Pagina successiva**] | Visualizza i luoghi più comuni in cui le persone vanno immediatamente dopo aver visitato una determinata pagina. <p>**Questo può aiutarti** a comprendere meglio il comportamento degli utenti dopo aver visitato una determinata pagina.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se la progettazione o il layout della pagina possa essere ottimizzato per indirizzare gli utenti a pagine più desiderate, ad esempio una pagina per effettuare un acquisto o lasciare una recensione.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Eventi.</p> |
-| [!UICONTROL **Pagina precedente**] | Visualizza i luoghi più comuni in cui le persone vanno immediatamente prima di visitare una determinata pagina. <p>**Questo può aiutarti** a capire meglio quali pagine indirizzano il maggior traffico verso una determinata pagina.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare se le pagine che non sono visualizzate come pagine precedenti richiedono collegamenti più evidenti alla pagina corrente.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Eventi.</p> |
-| [!UICONTROL **Codice di tracking**] | Visualizza i collegamenti più efficaci per indirizzare il traffico verso il tuo sito. <p>**Questo può aiutarti** a capire meglio quali codici di tracciamento (e i collegamenti a essi associati) sono stati più utilizzati per accedere al tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare la tua strategia per la posizione in cui aggiungi collegamenti al tuo sito.</p><p>Questo modello utilizza la dimensione Codice di tracciamento e la metrica Visite.</p> |
-| [!UICONTROL **Prodotti**] | Visualizza il numero di ordini per prodotto. I dati vengono visualizzati in un arco di tempo. <p>**Questo ti aiuta** a capire quali prodotti sono più richiesti o meno.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio modificare le tue strategie di marketing per promuovere prodotti dalle prestazioni elevate o per migliorare o interrompere prodotti dalle prestazioni insoddisfacenti. Puoi anche regolare l’inventario dei prodotti in base all’analisi dei dati.</p><p>Questo modello utilizza la dimensione Prodotto e la metrica Ordini.</p> |
-| [!UICONTROL **Canale di ultimo contatto**] | Visualizza i canali di marketing più recenti con cui i visitatori fanno riferimento durante il periodo di coinvolgimento (30 giorni per impostazione predefinita).<p>**Questo può aiutarti** a capire quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito e che hanno causato conversioni.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio allocare più risorse ai canali con prestazioni elevate o allocare meno risorse ai canali con prestazioni insoddisfacenti.</p><p>Questo modello utilizza la dimensione Canale di ultimo contatto e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Dettaglio del canale di ultimo contatto**] | Visualizza i dettagli sui canali di marketing più recenti con cui i visitatori corrispondono durante il periodo di coinvolgimento (30 giorni per impostazione predefinita).<p>**Questo può aiutarti** a capire non solo quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito che hanno generato conversioni, ma anche i dettagli su tali canali di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare i dettagli del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio allocare più risorse ai canali con prestazioni elevate o allocare meno risorse ai canali con prestazioni insoddisfacenti.</p><p>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Ricavi**] | <!--duplicated in Web Conversion section-->Visualizza l&#39;importo monetario dei prodotti acquistati in tutti gli ordini. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti.<p>**Questo può aiutarti** a capire come i ricavi aumentano o diminuiscono nel tempo. Puoi combinare questa metrica con qualsiasi dimensione per scoprire quali elementi dimensionali hanno contribuito ai ricavi.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio proiettare i ricavi futuri in base alle tendenze precedenti. Puoi anche aggiungere un’altra dimensione, come la dimensione Codice di tracciamento, per scoprire quali campagne generano più ricavi.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Ricavi.</p> |
-| [!UICONTROL **Ordini**] | <!--duplicated in Web Conversion section-->Visualizza il numero totale di eventi di acquisto. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo ti aiuta** a comprendere meglio come aumenta o diminuisce nel tempo l&#39;interesse per i tuoi prodotti e servizi. Puoi applicare un segmento per scoprire quali clienti o aree geografiche stanno effettuando il maggior numero di ordini e come questi ultimi tendono nel tempo.</p><p>**In base a quanto appreso, è possibile** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando gli ordini prima e dopo il lancio della campagna. Oppure puoi confrontare gli ordini relativi alle festività su base annua.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Ordini.</p> |
+| [!UICONTROL **Pagine**] | <!--duplicated in Engagement section--> Identifica le pagine più popolari e quelle meno popolari. <p>**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui è più interessato.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare i metadati della pagina per aumentare la visibilità delle pagine meno visualizzate oppure dedicare del tempo al miglioramento dei contenuti delle pagine più visualizzate.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina.</p> |
+| [!UICONTROL **Visualizzazioni pagina**] | <!--duplicated in Engagement section--> Visualizza il numero totale di visualizzazioni di pagina. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina.</p> |
+| [!UICONTROL **Visite Web**] | <!--duplicated in Engagement section--> Visualizza il numero totale di visite. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.</p><p>Questo modello utilizza le dimensioni Giorno e Visite.</p> |
+| [!UICONTROL **Visitatori Web**] | <!--duplicated in Engagement section--> Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentano o diminuiscono nel tempo o rispetto a un periodo precedente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se una campagna di marketing avviata di recente è riuscita ad attirare nuove persone sul sito confrontando i visitatori univoci prima e dopo l’avvio della campagna. Oppure è possibile confrontare il numero di persone che visitano il sito durante le festività rispetto all’anno precedente.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Metriche chiave**] | <!--duplicated in Engagement section--> Visualizza un rapporto che mostra fianco a fianco le metriche relative a visualizzazioni pagina, visite e visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che visitano il sito, del numero di volte che le pagine sono state visitate e del numero di sessioni.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell&#39;anno o prima e dopo l&#39;esecuzione di campagne di marketing. </p><p>Questo modello utilizza la dimensione Giorno, la metrica Visualizzazioni pagina, la metrica Visite e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Sezioni del sito**] | Visualizza le sezioni del sito più popolari o con le prestazioni migliori. <p>**Questo può aiutarti** a comprendere meglio quali sezioni del tuo sito sono più visitate.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali tra i prodotti o i servizi che fornisci generano maggiore interesse.</p> <p>Questo modello utilizza la dimensione Sezione sito e la metrica Visite.</p> |
+| [!UICONTROL **Pagina successiva**] | Visualizza i luoghi più comuni in cui le persone vanno immediatamente dopo aver visitato una determinata pagina. <p>**Questo può aiutarti** a comprendere meglio il comportamento degli utenti dopo aver visitato una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se la progettazione o il layout della pagina può essere ottimizzato per indirizzare gli utenti verso le pagine più desiderate, ad esempio una pagina dove effettuare un acquisto o lasciare una recensione.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Eventi.</p> |
+| [!UICONTROL **Pagina precedente**] | Visualizza i luoghi più comuni in cui le persone vanno immediatamente prima di visitare una determinata pagina. <p>**Questo può aiutarti** a comprendere meglio quali pagine indirizzano il traffico maggiore verso una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se le pagine che non sono visualizzate come le pagine precedenti necessitano di collegamenti più evidenti alla pagina corrente.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Eventi.</p> |
+| [!UICONTROL **Codice di tracking**] | Visualizza i collegamenti che sono stati più efficaci nel generare traffico verso il tuo sito. <p>**Questo può aiutarti** a comprendere meglio quali codici di tracciamento (e i collegamenti associati a essi) sono stati più utilizzati per accedere al tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare la strategia su dove aggiungere i collegamenti al tuo sito.</p><p>Questo modello utilizza la dimensione Codice di tracciamento e la metrica Visite.</p> |
+| [!UICONTROL **Prodotti**] | Visualizza il numero di ordini per prodotto. I dati vengono visualizzati in un periodo di tempo. <p>**Questo può aiutarti** a comprendere quali sono i prodotti con la domanda più alta o più bassa.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le strategie di marketing per promuovere prodotti con prestazioni elevate oppure per migliorare o interrompere prodotti con prestazioni insufficienti. Puoi anche modificare l’inventario dei prodotti in base all’analisi dei dati.</p><p>Questo modello utilizza la dimensione Prodotto e la metrica Ordini.</p> |
+| [!UICONTROL **Canale di ultimo contatto**] | Visualizza i canali di marketing più recenti con cui i visitatori corrispondono durante il periodo di coinvolgimento (30 giorni per impostazione predefinita).<p>**Questo può aiutarti** a comprendere quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito e che hanno generato delle conversioni.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse ai canali con prestazioni elevate o meno risorse ai canali con prestazioni insufficienti.</p><p>Questo modello utilizza la dimensione Canale di ultimo contatto e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Dettaglio del canale di ultimo contatto**] | Visualizza i dettagli sui canali di marketing più recenti con cui i visitatori corrispondono durante il periodo di coinvolgimento (30 giorni per impostazione predefinita).<p>**Questo può aiutarti** a comprendere non solo quali canali di marketing sono stati più efficaci nel portare le persone sul tuo sito generando conversioni, ma anche i dettagli su tali canali di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing “Ricerca a pagamento”, puoi utilizzare i dettagli del canale per visualizzare quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse ai canali con prestazioni elevate o meno risorse ai canali con prestazioni insufficienti.</p><p>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Ricavi**] | <!--duplicated in Web Conversion section-->Visualizza l&#39;importo monetario dei prodotti acquistati in tutti gli ordini. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti.<p>**Questo può aiutarti** a comprendere il modo in cui i ricavi aumentano o diminuiscono nel tempo. Puoi combinare questa metrica con qualsiasi dimensione per scoprire quali elementi della dimensione hanno contribuito ai ricavi.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio proiettare i ricavi futuri in base alle tendenze precedenti. Puoi anche aggiungere un’altra dimensione, come la dimensione Codice di tracciamento, per scoprire quali campagne generano maggiori ricavi.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Ricavi.</p> |
+| [!UICONTROL **Ordini**] | <!--duplicated in Web Conversion section-->Visualizza il numero totale di eventi di acquisto. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come aumenta o diminuisce nel tempo l’interesse per i tuoi prodotti e servizi. Puoi applicare un segmento per scoprire quale clientela o quali aree geografiche stanno effettuando il maggior numero di ordini e quale sia la tendenza di tali ordini nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando gli ordini prima e dopo l’avvio della campagna. Oppure potresti confrontare gli ordini relativi alle festività anno per anno.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Ordini.</p> |
 
 ### Web: coinvolgimento {#web-engagement}
 
@@ -329,7 +329,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--real-time"
 >title="Visualizza le dimensioni e le metriche attualmente raccolte sul tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio le tendenze sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio rispondere e gestire attivamente le prestazioni dei contenuti e delle campagne di marketing correnti."
+>abstract="**Questo può aiutarti** a comprendere meglio le tendenze sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio rispondere a e gestire attivamente le prestazioni dei contenuti e delle campagne di marketing correnti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -337,8 +337,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timeSpentVisitOvertimeReport"
->title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e quanto tempo i visitatori passano sul sito.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se le modifiche al sito determinano una maggiore quantità di tempo da parte dei visitatori.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
+>title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio il livello di coinvolgimento dei visitatori e quanto tempo trascorrono sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se, in seguito a modifiche apportate al sito, i visitatori trascorrono più tempo sul sito.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -346,8 +346,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timePriorRankedReport"
->title="Visualizzare il tempo medio trascorso dagli utenti prima di un evento di successo."
->abstract="**Questo può aiutarti** a comprendere meglio quanto tempo impiegano i visitatori per eseguire un&#39;azione desiderata, ad esempio per effettuare un acquisto.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio valutare se le modifiche al tuo sito migliorano la capacità dei visitatori di raggiungere rapidamente un evento di successo.<br/>Questo modello utilizza la dimensione Tempo precedente all&#39;evento e la metrica Visitatori univoci."
+>title="Visualizza il tempo medio trascorso dagli utenti prima di un evento di successo."
+>abstract="**Questo può aiutarti** a comprendere meglio quanto tempo impiegano i visitatori per eseguire un’azione desiderata, ad esempio per effettuare un acquisto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se, in seguito a modifiche apportate al sito, i visitatori possono raggiungere più rapidamente un evento di successo.<br/>Questo modello utilizza la dimensione Tempo prima dell’evento e la metrica Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -355,8 +355,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--falloutReport"
->title="Visualizza il punto in cui le persone escono o continuano attraverso una sequenza di pagine predefinita."
->abstract="**Questo può aiutarti** a capire meglio dove le persone stanno abbandonando il percorso di utenti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come analizzare i tassi di conversione attraverso processi specifici sul tuo sito (ad esempio un processo di acquisto o registrazione), o analizzare le correlazioni tra gli eventi sul tuo sito. Ad esempio, la percentuale di persone che hanno guardato l&#39;informativa sulla privacy ha continuato ad acquistare un prodotto. Puoi anche utilizzare questo modello per eseguire confronti affiancati di due segmenti diversi nello stesso rapporto.<br/>Questo modello utilizza la visualizzazione Abbandono."
+>title="Visualizza il punto in cui le persone abbandonano o proseguono attraverso una sequenza di pagine predefinita."
+>abstract="**Questo può aiutarti** a comprendere meglio dove le persone  abbandonano il percorso dell’utente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare i tassi di conversione per processi specifici (come un processo di acquisto o di registrazione) oppure analizzare le correlazioni tra gli eventi. Ad esempio, la percentuale di persone che ha visualizzato l’informativa sulla privacy e ha poi acquistato un prodotto. Puoi anche utilizzare questo modello per eseguire confronti paralleli di due segmenti diversi dello stesso rapporto.<br/>Questo modello utilizza la visualizzazione Fallout."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -364,8 +364,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--cross-device-analysis"
->title="Visualizzare i dispositivi utilizzati da tutti i punti del percorso."
->abstract="**Questo ti aiuta** a capire meglio quante persone interagiscono con il tuo marchio, i tipi di dispositivi che utilizzano e come il loro utilizzo di più dispositivi influisce sulla loro esperienza. Ad esempio, con quale frequenza le persone iniziano un’attività su un dispositivo mobile e successivamente passano a un desktop per completare un’attività? Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo? E così via.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio ottimizzare alcune parti del percorso di utenti per un&#39;esperienza mobile.<br/>Questo modello utilizza le metriche Flusso, Abbandono, Analisi per coorte, Persone e Dispositivi univoci."
+>title="Visualizza quali dispositivi le persone hanno utilizzato in tutti i punti del percorso."
+>abstract="**Questo può aiutarti** a comprendere meglio quante persone interagiscono col tuo brand, i tipi di dispositivi che utilizzano e come l’utilizzo di più dispositivi influisce sulla loro esperienza. Ad esempio, con quale frequenza le persone iniziano un’attività da un dispositivo mobile e successivamente passano a un PC desktop per completare tale attività? Quali sono i percorsi più comuni seguiti dagli utenti per passare da un dispositivo all’altro? Dove decidono di lasciar perdere? Dove hanno successo? E così via.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare determinate parti del percorso dell’utente per un’esperienza mobile.<br/>Questo modello utilizza le visualizzazioni Flusso e Fallout, l’analisi Coorte, e le metriche Persone e Dispositivi univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -373,8 +373,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--web-retention"
->title="Visualizza chi sono i tuoi utenti più fedeli e cosa stanno facendo sul tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio il numero di volte in cui una persona visita il tuo sito in media, la frequenza con cui le persone ritornano al sito e il numero di giorni tra le visite di ritorno.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio analizzare quale contenuto è più efficace per riportare le persone sul sito.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
+>title="Visualizza chi sono gli utenti più fedeli e cosa fanno sul sito."
+>abstract="**Questo può aiutarti** a comprendere quante volte una persona visita il tuo sito in media, la frequenza con cui le persone ritornano al sito e quanti giorni passano tra visite successive.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio analizzare quali sono i contenuti più efficaci nel riportare le persone sul sito.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -382,8 +382,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--audio-consumption-template"
->title="Visualizza le tendenze e le metriche principali del consumo audio multimediale su tutti i dispositivi digitali."
->abstract="**Questo può aiutarti** a comprendere meglio come i visitatori consumano contenuti audio sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio analizzare quale contenuto viene maggiormente utilizzato.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
+>title="Visualizza le tendenze e le metriche principali relative al consumo di audio su tutti i dispositivi digitali."
+>abstract="**Questo può aiutarti** a comprendere meglio come i visitatori consumano contenuti audio sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio analizzare quali sono i contenuti maggiormente consultati.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -391,8 +391,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--media-recency-frequency-loyalty"
->title="Visualizza le tendenze e le metriche principali del consumo di contenuti multimediali su tutti i dispositivi digitali."
->abstract="**Questo può aiutarti** a comprendere meglio il numero di volte in cui una persona visita il tuo sito in media, la frequenza con cui le persone ritornano al sito e il numero di giorni tra le visite di ritorno.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio analizzare quale contenuto è più efficace per riportare le persone sul sito.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
+>title="Visualizza le tendenze e le metriche principali relative al consumo di contenuti multimediali su tutti i dispositivi digitali."
+>abstract="**Questo può aiutarti** a comprendere meglio quante volte una persona visita il tuo sito in media, la frequenza con cui le persone ritornano al sito e quanti giorni passano tra visite successive.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio analizzare quali sono i contenuti più efficaci nel riportare le persone sul sito.<br/>Questo modello utilizza le metriche Visite e Visitatori univoci."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -400,8 +400,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--reloadsRankedReport"
->title="Visualizza il numero di volte in cui un elemento dimensione era presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento."
->abstract="**Questo può aiutarti** a identificare quando potrebbero verificarsi problemi in una determinata pagina che richiederebbero a un visitatore di ricaricare la pagina.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali pagine presentano problemi da risolvere.<br/>Questo modello utilizza la metrica Ricarica."
+>title="Visualizza quante volte un elemento dimensione è stato presente durante un ricaricamento. In genere un ricaricamento si verifica quando un visitatore aggiorna la finestra del browser."
+>abstract="**Questo può aiutarti** a individuare quando su una determinata pagina potrebbero verificarsi problemi che inducono il visitatore a ricaricarla.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali pagine presentano problemi da risolvere.<br/>Questo modello utilizza la metrica Ricaricamenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -409,8 +409,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timeSpentPageRankedReport"
->title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e quanto tempo i visitatori passano sul sito.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se le modifiche al sito determinano una maggiore quantità di tempo da parte dei visitatori.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
+>title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio il livello di coinvolgimento dei visitatori e quanto tempo trascorrono sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se, in seguito a modifiche apportate al sito, i visitatori trascorrono più tempo sul sito.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -418,8 +418,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--entryPageOriginalRankedReport"
->title="Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta nel corso della vita del visitatore."
->abstract="**Questo ti aiuta** a capire meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni dei visitatori sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare l&#39;esperienza iniziale che le persone trovano sul sito o assicurarti che le pagine che le persone vedono per la prima volta quando accedono al tuo sito siano accoglienti e forniscano i collegamenti necessari ad altre aree del sito.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche la visualizzazione a barre e la visualizzazione a forma libera della tabella."
+>title="Visualizza le pagine principali a cui le persone accedono alla prima visita del tuo sito durante il ciclo di vita di un visitatore."
+>abstract="**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o quali sono le prime impressioni dei visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -427,8 +427,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--singlePageVisitsRankedReport"
->title="Visualizzare il numero di visite costituito da una singola pagina univoca."
->abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e quanto tempo i visitatori passano sul sito.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se le modifiche al sito determinano una maggiore quantità di tempo da parte dei visitatori.<br/>Questo modello utilizza la dimensione Visite a pagina singola."
+>title="Visualizza il numero di visite in cui è stata visitata una singola pagina univoca."
+>abstract="**Questo può aiutarti** a comprendere meglio il livello di coinvolgimento dei visitatori e quanto tempo trascorrono sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se, in seguito a modifiche apportate al sito, i visitatori trascorrono più tempo sul sito.<br/>Questo modello utilizza la dimensione Visite a pagina singola."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -436,8 +436,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--sitePerformanceOverview"
->title="Visualizzare i dati sulle prestazioni per il sito Adobe Experience Manager."
->abstract="**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare le impostazioni di Experience Manager."
+>title="Visualizza i dati sulle prestazioni per il sito Adobe Experience Manager."
+>abstract="**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare le impostazioni di Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -445,8 +445,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--formsPerformanceOverview"
->title="Visualizza i dati sulle prestazioni per il tuo Adobe Experience Manager Forms."
->abstract="**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare le impostazioni di Experience Manager."
+>title="Visualizza i dati sulle prestazioni per Adobe Experience Manager Forms."
+>abstract="**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare le impostazioni di Experience Manager."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -454,8 +454,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--itp-impact"
->title="Visualizzare e analizzare gli effetti di Intelligent Tracking Prevention (ITP) sulla raccolta dei dati e sul reporting."
->abstract="**Questo può aiutarti** a comprendere meglio la potenziale perdita di dati dovuta alle restrizioni sui cookie imposte da ITP.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio adattare la configurazione di Analytics per ridurre al minimo l&#39;impatto di ITP."
+>title="Visualizza e analizza gli effetti della Prevenzione intelligente del tracciamento (ITP) sulla raccolta dei dati e sul reporting."
+>abstract="**Questo può aiutarti** a comprendere meglio la potenziale perdita di dati dovuta alle restrizioni sui cookie imposte dall’ITP.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio adattare la configurazione dell’analisi per ridurre al minimo l’impatto dell’ITP."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -465,8 +465,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template_time_spent"
->title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita, nonché il tempo medio che gli utenti trascorrono prima di un evento di successo. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti."
->abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e il tempo necessario ai visitatori per eseguire un&#39;azione desiderata, ad esempio per effettuare un acquisto.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio valutare se le modifiche al tuo sito migliorano la capacità dei visitatori di raggiungere rapidamente un evento di successo.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi), la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
+>title="Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita, nonché il tempo medio trascorso dagli utenti prima di un evento di successo. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti."
+>abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e quanto tempo impiegano per eseguire un’azione desiderata, ad esempio per effettuare un acquisto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se le modifiche al tuo sito migliorano la possibilità dei visitatori di raggiungere rapidamente un evento di successo.<br/>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -474,8 +474,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--web-content-consumption"
->title="Visualizzare i contenuti web più utilizzati e coinvolge maggiormente gli utenti."
->abstract="**Questo può aiutarti** a capire meglio dove vanno le persone al primo accesso al sito, quali sezioni del sito sono più visitate e quali pagine hanno più probabilità di allontanare le persone dal sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali percorsi sul sito indirizzano le persone alle pagine più importanti e quali sono le pagine che più probabilmente allontanano le persone dal sito.<br/>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Vengono inoltre utilizzate le visualizzazioni Flusso per le sezioni di entrata, uscita e superiori."
+>title="Visualizza quali sono i contenuti web maggiormente consumati e che coinvolgono gli utenti."
+>abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapiti, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -483,8 +483,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--media-content-consumption"
->title="Visualizzare i contenuti multimediali più utilizzati e coinvolge maggiormente gli utenti."
->abstract="**Questo può aiutarti** a capire meglio dove vanno le persone al primo accesso al sito, quali sezioni del sito sono più visitate e quali pagine hanno più probabilità di allontanare le persone dal sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali percorsi sul sito indirizzano le persone alle pagine più importanti e quali sono le pagine che più probabilmente allontanano le persone dal sito.<br/>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Inoltre, utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione grafico a dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per periodo fisso; e una visualizzazione a linee che mostra una visualizzazione con tendenze del tempo medio trascorso sul sito."
+>title="Visualizza quali sono i contenuti multimediali maggiormente utilizzati e che coinvolgono gli utenti."
+>abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapitati, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico di dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per intervalli di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -492,8 +492,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--flowreport"
->title="Visualizzare i luoghi più comuni in cui le persone vanno immediatamente dopo la visita o immediatamente prima di visitare un determinato luogo."
->abstract="**Questo ti aiuta** a capire come il traffico si sposta da una determinata pagina ad altre parti del sito e i percorsi seguiti dalle persone per arrivare a una determinata pagina.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se la progettazione o il layout della pagina possa essere ottimizzato per indirizzare gli utenti a pagine più desiderate, ad esempio una pagina per effettuare un acquisto o lasciare una recensione. Oppure valuta se le informazioni sulla pagina corrente possano fornire la direzione o le azioni che le persone stanno cercando quando arrivano dalle pagine precedenti. Oppure puoi valutare se le pagine che non sono visualizzate come pagine precedenti richiedono collegamenti più prominenti alla pagina corrente.<br/>Questo modello utilizza il pannello Elemento successivo o precedente."
+>title="Visualizza i luoghi più comuni in cui le persone vanno immediatamente dopo aver visitato o prima di visitare un determinato luogo."
+>abstract="**Questo può aiutarti** a comprendere come il traffico si sposta da una determinata pagina ad altre parti del sito e i percorsi seguiti dalle persone per arrivare a una determinata pagina.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se la progettazione o il layout della pagina può essere ottimizzato per indirizzare gli utenti verso le pagine più desiderate, ad esempio una pagina dove effettuare un acquisto o lasciare una recensione. Oppure valuta se le informazioni presenti nella pagina corrente sono in grado di fornire la direzione o le azioni che le persone cercano quando arrivano dalle pagine precedenti. Oppure puoi valutare se le pagine che non sono visualizzate come pagine precedenti necessitano di collegamenti più evidenti alla pagina corrente.<br/>Questo modello utilizza il pannello Elemento successivo o precedente."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -502,7 +502,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--page-summary-report"
 >title="Visualizza informazioni chiave su qualsiasi pagina delle tue proprietà. Mostra le visualizzazioni di pagina, una linea di tendenza, una visualizzazione di flusso e altro ancora."
->abstract="**Questo ti aiuta** a capire meglio come le persone interagiscono con una determinata pagina.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come analizzare le prestazioni della pagina in un periodo di tempo o capire meglio cosa guida il traffico verso la pagina.<br/>Questo modello utilizza la metrica Visualizzazioni pagina. Utilizza anche la visualizzazione Linee e la visualizzazione Flusso."
+>abstract="**Questo può aiutarti** a comprendere meglio come le persone interagiscono con una determinata pagina.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare le prestazioni della pagina rispetto a un periodo di tempo o comprendere meglio cosa favorisce il traffico verso la pagina.<br/>Questo modello utilizza la metrica Visualizzazioni pagina. Utilizza anche le visualizzazioni Linea e Flusso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -511,7 +511,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--entryPageRankedReport"
 >title="Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta."
->abstract="**Questo ti aiuta** a capire meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni dei visitatori sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare l&#39;esperienza iniziale che le persone trovano sul sito o assicurarti che le pagine che le persone vedono per la prima volta quando accedono al tuo sito siano accoglienti e forniscano i collegamenti necessari ad altre aree del sito.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche la visualizzazione a barre e la visualizzazione a forma libera della tabella."
+>abstract="**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni che i visitatori hanno rispetto ad esso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -520,7 +520,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
 >title="Visualizza le pagine principali a cui gli utenti accedono immediatamente prima di lasciare il sito."
->abstract="**Questo ti aiuta** a capire meglio quali pagine allontanano le persone dal sito. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l&#39;esperienza che le persone ottengono prima di partire, oppure includere contenuti o collegamenti per incoraggiare le persone a rimanere sul tuo sito.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche la visualizzazione a barre e la visualizzazione a forma libera della tabella."
+>abstract="**Questo può aiutarti** a comprendere meglio quali pagine allontanano le persone dal sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -537,22 +537,22 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Metriche chiave**] | <!--duplicated in Most popular section--> Visualizza un rapporto che mostra affiancate le metriche di visualizzazioni di pagina, visite e visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che che visitano il sito, del numero di volte in cui sono state visitate le pagine e del numero di sessioni.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell&#39;anno o prima e dopo l&#39;esecuzione di campagne di marketing. </p><p>Questo modello utilizza la dimensione Giorno, la metrica Visualizzazioni pagina, la metrica Visite e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Visualizzazioni pagina**] | <!--duplicated in Most popular section-->Visualizzare il numero totale di visualizzazioni di pagina. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina.</p> |
-| [!UICONTROL **Pagine**] | <!--duplicated in Most popular section-->Identifica le pagine più popolari e meno popolari. <p>**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui sono più interessati.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i metadati della pagina per aumentare la visibilità sulle pagine visualizzate meno o passare del tempo a migliorare il contenuto delle pagine più visualizzate.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina.</p> |
-| [!UICONTROL **Visite**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visite. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**In base a ciò che apprendi, potresti** eseguire una serie di operazioni, ad esempio valutare l&#39;efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l&#39;avvio della campagna. Oppure puoi confrontare il traffico delle vacanze su base annua.</p><p>Questo modello utilizza le dimensioni Giorno e Visite.</p> |
-| [!UICONTROL **Visitatori**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentino o diminuiscano nel tempo o rispetto a un periodo precedente.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare se una campagna di marketing lanciata di recente è riuscita ad attirare nuove persone sul sito confrontando visitatori univoci prima e dopo il lancio della campagna. Oppure puoi confrontare il numero di persone che visitano il sito durante le festività anno su anno.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci.</p> |
-| [!UICONTROL **Tempo trascorso**] | Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita, nonché il tempo medio che gli utenti trascorrono prima di un evento di successo. I dati vengono visualizzati in un periodo di tempo e confrontati con i periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e il tempo necessario ai visitatori per eseguire un&#39;azione desiderata, ad esempio per effettuare un acquisto.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio valutare se le modifiche al tuo sito migliorano la capacità dei visitatori di raggiungere rapidamente un evento di successo.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi), la dimensione Giorno e la metrica Tempo trascorso per visita (secondi).</p> |
-| [!UICONTROL **Sezioni del sito**] | <!--duplicated in Most popular section-->Visualizza le sezioni più popolari o con le prestazioni più elevate del sito. <p>**Questo può aiutarti** a capire meglio quali sezioni del tuo sito sono più visitate.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali prodotti o servizi fornisci generano il maggior interesse.</p> <p>Questo modello utilizza la dimensione Sezione sito e la metrica Visite.</p> |
-| [!UICONTROL **Consumo di contenuti Web**] | Visualizzare i contenuti web più utilizzati e coinvolge maggiormente gli utenti.<p>**Questo può aiutarti** a capire meglio dove vanno le persone al primo accesso al sito, quali sezioni del sito sono più visitate e quali pagine hanno più probabilità di allontanare le persone dal sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare quali percorsi sul sito indirizzano le persone alle pagine più importanti e quali sono le pagine che più probabilmente allontanano le persone dal sito.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Vengono inoltre utilizzate le visualizzazioni Flusso per le sezioni di entrata, uscita e superiori.</p> |
-| [!UICONTROL **Consumo di contenuti multimediali**] | Visualizzare i contenuti multimediali più utilizzati e coinvolge maggiormente gli utenti.<p>**Questo può aiutarti** a capire meglio dove vanno le persone al primo accesso al sito, quali sezioni del sito sono più visitate e quali pagine hanno più probabilità di allontanare le persone dal sito.</p><p>**In base a quanto appreso, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio valutare quali percorsi sul sito indirizzano le persone alle pagine più importanti e quali pagine hanno più probabilità di allontanarle dal sito <!-- not sure about these takeaways... -->.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Inoltre, utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione grafico a dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per periodo fisso; e una visualizzazione a linee che mostra una visualizzazione con tendenze del tempo medio trascorso sul sito.</p> |
-| [!UICONTROL **Flusso pagina successivo e precedente**] | Visualizza una visualizzazione di flusso dei luoghi più comuni in cui le persone si recano immediatamente dopo la visita e immediatamente prima di visitare una determinata pagina. <p>**Questo ti aiuta** a capire come il traffico si sposta da una determinata pagina ad altre parti del sito e i percorsi seguiti dalle persone per arrivare a una determinata pagina.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio valutare se la progettazione o il layout della pagina possa essere ottimizzato per indirizzare gli utenti a pagine più desiderate, ad esempio una pagina per effettuare un acquisto o lasciare una recensione. Oppure valuta se le informazioni sulla pagina corrente possano fornire la direzione o le azioni che le persone stanno cercando quando arrivano dalle pagine precedenti. Oppure puoi valutare se le pagine che non sono visualizzate come pagine precedenti richiedono collegamenti più prominenti alla pagina corrente.</p><p>Questo modello utilizza il pannello Elemento successivo o precedente.</p> |
-| **Riepilogo pagina** | Visualizza informazioni chiave su qualsiasi pagina delle tue proprietà. Mostra le visualizzazioni di pagina, una linea di tendenza, una visualizzazione di flusso e altro ancora.  <p>**Questo ti aiuta** a capire meglio come le persone interagiscono con una determinata pagina.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come analizzare le prestazioni della pagina in un periodo di tempo o capire meglio cosa guida il traffico verso la pagina.</p><p>Questo modello utilizza la metrica Visualizzazioni pagina. Utilizza anche la visualizzazione Linee e la visualizzazione Flusso.</p> |
-| **Pagine di ingresso** | Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta. <p>**Questo ti aiuta** a capire meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni dei visitatori sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare l&#39;esperienza iniziale che le persone trovano sul sito o assicurarti che le pagine che le persone vedono per la prima volta quando accedono al tuo sito siano accoglienti e forniscano i collegamenti necessari ad altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche la visualizzazione a barre e la visualizzazione a forma libera della tabella.</p> |
-| **Esci dalle pagine** | Visualizza le pagine principali a cui gli utenti accedono immediatamente prima di lasciare il sito.<p>**Questo ti aiuta** a capire meglio quali pagine allontanano le persone dal sito. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l&#39;esperienza che le persone ottengono prima di partire, oppure includere contenuti o collegamenti per incoraggiare le persone a rimanere sul tuo sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche la visualizzazione a barre e la visualizzazione a forma libera della tabella.</p> |
+| [!UICONTROL **Metriche chiave**] | <!--duplicated in Most popular section--> Visualizza un rapporto che mostra fianco a fianco le metriche relative a visualizzazioni pagina, visite e visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che visitano il sito, del numero di volte che le pagine sono state visitate e del numero di sessioni.</p><p>**In base a ciò che hai appreso, potresti** eseguire un numero qualsiasi di operazioni, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell&#39;anno o prima e dopo l&#39;esecuzione di campagne di marketing. </p><p>Questo modello utilizza la dimensione Giorno, la metrica Visualizzazioni pagina, la metrica Visite e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Visualizzazioni pagina**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visualizzazioni di pagina. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visualizzazioni pagina.</p> |
+| [!UICONTROL **Pagine**] | <!--duplicated in Most popular section-->Identifica le pagine più popolari e quelle meno popolari. <p>**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui è più interessato.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare i metadati della pagina per aumentare la visibilità delle pagine meno visualizzate oppure dedicare del tempo al miglioramento dei contenuti delle pagine più visualizzate.</p><p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina.</p> |
+| [!UICONTROL **Visite**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visite. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.</p><p>Questo modello utilizza le dimensioni Giorno e Visite.</p> |
+| [!UICONTROL **Visitatori**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come la portata e la dimensione del pubblico del tuo sito aumentano o diminuiscono nel tempo o rispetto a un periodo precedente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se una campagna di marketing avviata di recente è riuscita ad attirare nuove persone sul sito confrontando i visitatori univoci prima e dopo l’avvio della campagna. Oppure è possibile confrontare il numero di persone che visitano il sito durante le festività rispetto all’anno precedente.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Visitatori univoci.</p> |
+| [!UICONTROL **Tempo trascorso**] | Visualizza il tempo medio che i visitatori trascorrono sul sito durante ogni visita, nonché il tempo medio trascorso dagli utenti prima di un evento di successo. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento dei visitatori e quanto tempo impiegano per eseguire un’azione desiderata, ad esempio per effettuare un acquisto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se le modifiche al tuo sito migliorano la possibilità dei visitatori di raggiungere rapidamente un evento di successo.</p><p>Questo modello utilizza la dimensione Giorno e la metrica Tempo trascorso per visita (secondi), la dimensione Giorno e la metrica Tempo trascorso per visita (secondi).</p> |
+| [!UICONTROL **Sezioni del sito**] | <!--duplicated in Most popular section-->Visualizza le sezioni del sito più popolari o con le prestazioni migliori. <p>**Questo può aiutarti** a comprendere meglio quali sezioni del tuo sito sono più visitate.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali tra i prodotti o i servizi che fornisci generano maggiore interesse.</p> <p>Questo modello utilizza la dimensione Sezione sito e la metrica Visite.</p> |
+| [!UICONTROL **Consumo di contenuti Web**] | Visualizza quali sono i contenuti web maggiormente consumati e che coinvolgono gli utenti.<p>**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali.</p> |
+| [!UICONTROL **Consumo di contenuti multimediali**] | Visualizza quali sono i contenuti multimediali maggiormente utilizzati e che coinvolgono gli utenti.<p>**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.</p><p>**In base a quanto appreso, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio valutare quali percorsi sul sito indirizzano le persone alle pagine più importanti e quali pagine hanno più probabilità di allontanarle dal sito <!-- not sure about these takeaways... -->.</p> <p>Questo modello utilizza la dimensione Pagina e la metrica Visualizzazioni pagina, la metrica Visite, la metrica Visitatori univoci, la metrica Tasso di ingresso, la metrica Tasso di rimbalzo, la metrica Tasso di uscita e la metrica Velocità contenuto. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico di dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per intervalli di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito.</p> |
+| [!UICONTROL **Flusso pagina successivo e precedente**] | Visualizza una visualizzazione di flusso dei luoghi più comuni in cui le persone si recano immediatamente dopo la visita e immediatamente prima di visitare una determinata pagina. <p>**Questo può aiutarti** a comprendere come il traffico si sposta da una determinata pagina ad altre parti del sito e i percorsi seguiti dalle persone per arrivare a una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se la progettazione o il layout della pagina può essere ottimizzato per indirizzare gli utenti verso le pagine più desiderate, ad esempio una pagina dove effettuare un acquisto o lasciare una recensione. Oppure valuta se le informazioni presenti nella pagina corrente sono in grado di fornire la direzione o le azioni che le persone cercano quando arrivano dalle pagine precedenti. Oppure puoi valutare se le pagine che non sono visualizzate come pagine precedenti necessitano di collegamenti più evidenti alla pagina corrente.</p><p>Questo modello utilizza il pannello Elemento successivo o precedente.</p> |
+| **Riepilogo pagina** | Visualizza informazioni chiave su qualsiasi pagina delle tue proprietà. Mostra le visualizzazioni di pagina, una linea di tendenza, una visualizzazione di flusso e altro ancora.  <p>**Questo può aiutarti** a comprendere meglio come le persone interagiscono con una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare le prestazioni della pagina rispetto a un periodo di tempo o comprendere meglio cosa favorisce il traffico verso la pagina.</p><p>Questo modello utilizza la metrica Visualizzazioni pagina. Utilizza anche le visualizzazioni Linea e Flusso.</p> |
+| **Pagine di ingresso** | Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta. <p>**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni che i visitatori hanno rispetto ad esso.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera.</p> |
+| **Esci dalle pagine** | Visualizza le pagine principali a cui gli utenti accedono immediatamente prima di lasciare il sito.<p>**Questo ti aiuta** a capire meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera.</p> |
 | **Panoramica sull&#39;utilizzo del prodotto** (disponibile a breve) | Visualizzare il modo in cui il prodotto di Customer Journey Analytics viene utilizzato all’interno dell’organizzazione. <p>**Questo può aiutarti** a comprendere meglio quante persone usano il Customer Journey Analytics, con quale frequenza lo usano e le tendenze di utilizzo nel tempo. Puoi anche visualizzare il numero di progetti in fase di creazione e i dettagli su tali progetti (ad esempio, quali componenti, visualizzazioni e pannelli sono più comunemente utilizzati) e molte altre statistiche di utilizzo.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio eliminare i progetti o i componenti inutilizzati o fornire agli utenti corsi di formazione sulle funzioni più comuni.</p> |
 
-### Web: Conversione {#web-conversion}
+### Web: conversione {#web-conversion}
 
 <!--AA only-->
 
@@ -560,8 +560,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--categoryRankedReport"
->title="Visualizza il numero di visite associate a ciascuna categoria di prodotto sul sito. Questa funzione è utile per le implementazioni che utilizzano la variabile prodotti e desiderano visualizzare metriche sulla categoria del prodotto. La dimensione che compila questo modello può essere intenzionalmente vuota se non hai prodotti sul sito."
->abstract="**Questo ti aiuta** a comprendere meglio i prodotti più venduti o più visualizzati. &lt;/br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio misurare l&#39;efficacia di una campagna di marketing per un determinato prodotto.<br/>Questo modello utilizza la dimensione Categoria e la metrica Visite. "
+>title="Visualizza il numero di visite associate a ciascuna categoria di prodotto sul sito. Questa funzione è utile per le implementazioni che utilizzano la variabile prodotti e desiderano visualizzare metriche sulla categoria di prodotto. La dimensione che popola questo modello può essere intenzionalmente vuota se non hai prodotti sul sito."
+>abstract="**Questo può aiutarti** a capire meglio i prodotti più venduti o più visualizzati. &lt;/br/>**In base a quanto appreso, potresti** fare diverse cose, ad esempio misurare l’efficacia di una campagna di marketing per un determinato prodotto.<br/>Questo modello utilizza la dimensione Categoria e la metrica Visite. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -569,8 +569,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--commerce-and-marketing-management"
->title="Visualizza informazioni predefinite per i rivenditori sulle attività di e-commerce per migliorare le vendite. Questo è destinato agli utenti di Adobe Commerce, ma può essere utilizzato da qualsiasi rivenditore online."
->abstract="**Questo può aiutarti** a comprendere meglio come le tue attività di e-commerce contribuiscono ai numeri di vendita.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come regolare i budget per le attività che ottengono il maggior ROI."
+>title="Visualizza insight predefiniti per rivenditori sulle attività commerciali, per aiutare a migliorare le vendite. Questo è destinato agli utenti di Adobe Commerce, ma può essere utilizzato da qualsiasi rivenditore online."
+>abstract="**Questo può aiutarti** a comprendere meglio come le tue attività commerciali contribuiscono ai numeri di vendita.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come regolare i budget per le attività che ottengono il maggior ROI."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -580,8 +580,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--productConversionReport"
->title="Visualizza la conversione del prodotto in una visualizzazione funnel che mostra carrelli, pagamenti e ordini. È inoltre possibile visualizzare le percentuali di conversione, le medie dei ricavi, le medie delle unità e le medie degli ordini."
->abstract="**Questo ti aiuta** a capire meglio come le persone avanzano e abbandonano durante il processo di conversione.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il tuo sito Web per facilitare un processo di pagamento più fluido."
+>title="Visualizza la conversione del prodotto in una visualizzazione funnel che mostra carrelli, pagamenti e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie dei ricavi, delle unità e degli ordini."
+>abstract="**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -589,8 +589,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--retail-products-template"
->title="Visualizzare i prodotti con le prestazioni più elevate."
->abstract="**Questo ti aiuta** a capire meglio quali prodotti hanno più successo.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come aumentare i finanziamenti per i prodotti di successo e diminuire i finanziamenti per i prodotti di minor successo.<br/>Questo modello utilizza le metriche Visualizzazioni prodotto, Aggiunte carrello, Ordini, Entrate e Unità. Utilizza anche la dimensione Prodotto."
+>title="Visualizza quali sono i prodotti più performanti."
+>abstract="**Questo può aiutarti** a comprendere meglio quali sono i prodotti di maggior successo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come aumentare i finanziamenti per i prodotti di successo e diminuirli per i prodotti di minore successo.<br/>Questo modello utilizza le metriche Visualizzazioni prodotto, Aggiunte carrello, Ordini, Ricavi e Unità. Utilizza anche la dimensione Prodotto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -598,8 +598,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--cartConversionReport"
->title="Visualizzare il numero di volte in cui le persone hanno eseguito eventi di pagamento chiave, ad esempio l&#39;aggiunta di articoli al carrello, la visualizzazione del carrello, la rimozione di articoli dal carrello e l&#39;estrazione."
->abstract="**Questo può aiutarti** a capire meglio quali parti del funnel del processo di pagamento che portano alla conversione e quali sono più soggette all&#39;abbandono del carrello.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio ridurre l&#39;attrito in determinati passaggi del processo di pagamento.<br/>Questo modello utilizza"
+>title="Visualizza il numero di volte in cui le persone hanno eseguito eventi chiave di pagamento, ad esempio l’aggiunta di articoli al carrello, la visualizzazione del carrello, la rimozione di articoli dal carrello e il pagamento."
+>abstract="**Questo può aiutarti** a comprendere meglio quali parti del funnel del processo di pagamento portano alla conversione e quali sono più soggette all’abbandono del carrello.<br/>**Sulla base di quanto appreso potresti** fare diverse cose, ad esempio ridurre l’attrito in determinati passaggi del processo di pagamento.<br/>Questo modello utilizza"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -608,7 +608,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--cartsOvertimeReport"
 >title="Visualizza il numero di persone che hanno aggiunto un prodotto al carrello."
->abstract="**Questo può aiutarti** a comprendere meglio il numero di persone che aggiungono un prodotto al carrello, rispetto al numero complessivo di prodotti che vengono aggiunti a un carrello.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio misurare l&#39;efficacia delle pagine dei tuoi prodotti.<br/>Questo modello utilizza la metrica Carrelli."
+>abstract="**Questo può aiutarti** a comprendere meglio il numero di persone che aggiungono un prodotto al carrello, rispetto al numero complessivo di prodotti aggiunti a un carrello.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio misurare l’efficacia delle pagine relative ai tuoi prodotti.<br/>Questo modello utilizza la metrica Carrelli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -617,7 +617,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--cartViewsOvertimeReport"
 >title="Visualizza il numero di volte in cui le persone hanno visualizzato il carrello."
->abstract="**Questo può aiutarti** a comprendere meglio l&#39;esperienza di pagamento nel tentativo di ridurre i tassi di abbandono del carrello o di analizzare il tempo tra le aggiunte al carrello e le estrazioni tra i diversi prodotti.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come offrire promozioni per prodotti che rimangono nei carrelli più a lungo e sono a maggior rischio di abbandono.<br/>Questo modello utilizza la metrica Visualizzazioni carrello."
+>abstract="**Questo può aiutarti** a comprendere meglio l’esperienza di pagamento nel tentativo di ridurre le percentuali di abbandono del carrello o ad analizzare il tempo che intercorre tra le aggiunte al carrello e i pagamenti tra i diversi prodotti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come offrire promozioni per i prodotti che rimangono più a lungo nei carrelli e che sono a maggior rischio di abbandono.<br/>Questo modello utilizza la metrica Visualizzazioni carrello."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -626,7 +626,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--cartAdditionsOvertimeReport"
 >title="Visualizza il numero di volte in cui le persone hanno aggiunto qualcosa al carrello."
->abstract="**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui l&#39;interesse del cliente per un prodotto è sufficientemente elevato da consentirne l&#39;aggiunta al carrello.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i consigli di prodotto per tutti i clienti. Questo può essere fatto analizzando quali prodotti vengono spesso aggiunti agli stessi carrelli e suggerendo prodotti correlati in base agli articoli già nel carrello."
+>abstract="**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui l’interesse della clientela per un prodotto è abbastanza alto da spingerla ad aggiungerlo al carrello.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i consigli sui prodotti per tutta la clientela. Questo può essere fatto analizzando quali prodotti vengono aggiunti frequentemente agli stessi carrelli e suggerendo prodotti correlati in base agli articoli già presenti nel carrello."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -635,7 +635,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--cartRemovalsOvertimeReport"
 >title="Visualizza il numero di volte in cui le persone hanno rimosso qualcosa dal carrello."
->abstract="**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto, oppure può aiutarti a capire dove possono esistere problemi nel processo di pagamento.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio rimuovere eventuali barriere che potrebbero esistere nel processo di pagamento, ad esempio un&#39;esperienza utente complicata.<br/>Questo modello utilizza la metrica Rimozioni carrello."
+>abstract="**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui la clientela non è più interessata a un prodotto, oppure può aiutarti a capire dove potrebbero esserci problemi nel processo di pagamento.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio rimuovere eventuali barriere esistenti nel processo di pagamento, ad esempio un’esperienza utente complicata.<br/>Questo modello utilizza la metrica Rimozioni carrello."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -643,8 +643,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--purchaseConversionReport"
->title="Visualizza la conversione dell’acquisto in una visualizzazione funnel che mostra sessioni, carrelli e ordini. È inoltre possibile visualizzare le percentuali di conversione, le medie dei ricavi, le medie delle unità e le medie degli ordini."
->abstract="**Questo ti aiuta** a capire meglio come le persone avanzano e abbandonano durante il processo di conversione.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il tuo sito Web per facilitare un processo di pagamento più fluido."
+>title="Visualizza la conversione dell’acquisto in una visualizzazione funnel che mostra sessioni, carrelli e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie dei ricavi, delle unità e degli ordini."
+>abstract="**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -652,19 +652,19 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Funnel di conversione prodotto**] | Visualizza la conversione del prodotto in una visualizzazione funnel che mostra carrelli, pagamenti e ordini. È inoltre possibile visualizzare le percentuali di conversione, le medie dei ricavi, le medie delle unità e le medie degli ordini.<p>**Questo ti aiuta** a capire meglio come le persone avanzano e abbandonano durante il processo di conversione.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il tuo sito Web per facilitare un processo di pagamento più fluido.</p> |
-| **Prodotti** | Scopri quali prodotti sono più determinanti per le metriche chiave, ad esempio i più venduti o i più visualizzati. <p>**Questo ti aiuta** a capire meglio quali prodotti hanno più successo.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come aumentare i finanziamenti per i prodotti di successo e diminuire i finanziamenti per i prodotti di minor successo.</p><p>Questo modello utilizza la metrica Ordini e la dimensione Prodotto. |
-| **Prestazioni del prodotto** | Visualizzare i prodotti con le prestazioni più elevate.<p>**Questo ti aiuta** a capire meglio quali prodotti hanno più successo.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come aumentare i finanziamenti per i prodotti di successo e diminuire i finanziamenti per i prodotti di minor successo.</p><p>Questo modello utilizza le metriche Visualizzazioni prodotto, Aggiunte carrello, Ordini, Ricavi e Unità. Utilizza anche la dimensione Prodotto. |
-| **Funnel di conversione carrello** | Visualizzare il numero di volte in cui le persone hanno eseguito eventi di pagamento chiave, ad esempio l&#39;aggiunta di articoli al carrello, la visualizzazione del carrello, la rimozione di articoli dal carrello e l&#39;estrazione. <p>**Questo può aiutarti** a capire meglio quali parti del funnel del processo di pagamento che portano alla conversione e quali sono più soggette all&#39;abbandono del carrello.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio ridurre l&#39;attrito in determinati passaggi del processo di pagamento.</p> |
-| **Carrelli** | Visualizza il numero di persone che hanno aggiunto un prodotto al carrello.<p>**Questo può aiutarti** a comprendere meglio il numero di persone che aggiungono un prodotto al carrello, rispetto al numero complessivo di prodotti che vengono aggiunti a un carrello.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio misurare l&#39;efficacia delle pagine dei tuoi prodotti.</p><p>Questo modello utilizza la metrica Carrelli. |
-| **Visualizzazioni del carrello** | Visualizza il numero di volte in cui le persone hanno visualizzato il carrello. <p>**Questo può aiutarti** a comprendere meglio l&#39;esperienza di pagamento nel tentativo di ridurre i tassi di abbandono del carrello o di analizzare il tempo tra le aggiunte al carrello e le estrazioni tra i diversi prodotti.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come offrire promozioni per prodotti che rimangono nei carrelli più a lungo e sono a maggior rischio di abbandono.</p><p>Questo modello utilizza la metrica Visualizzazioni carrello. |
-| **Aggiunte al carrello** | Visualizza il numero di volte in cui le persone hanno aggiunto qualcosa al carrello. <p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui l&#39;interesse del cliente per un prodotto è sufficientemente elevato da consentirne l&#39;aggiunta al carrello.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i consigli di prodotto per tutti i clienti. Questo può essere fatto analizzando quali prodotti vengono spesso aggiunti agli stessi carrelli e suggerendo prodotti correlati in base agli articoli già nel carrello. |
-| **Rimozioni dal carrello** | Visualizza il numero di volte in cui le persone hanno rimosso qualcosa dal carrello.<p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto, oppure può aiutarti a capire dove possono esistere problemi nel processo di pagamento.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio rimuovere eventuali barriere che potrebbero esistere nel processo di pagamento, ad esempio un&#39;esperienza utente complicata.</p><p>Questo modello utilizza la metrica Rimozioni carrello. |
-| **Acquisto funnel di conversione** | Visualizza la conversione dell’acquisto in una visualizzazione funnel che mostra sessioni, carrelli e ordini. È inoltre possibile visualizzare le percentuali di conversione, le medie dei ricavi, le medie delle unità e le medie degli ordini.<p>**Questo ti aiuta** a capire meglio come le persone avanzano e abbandonano durante il processo di conversione.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il tuo sito Web per facilitare un processo di pagamento più fluido.</p> |
+| [!UICONTROL **Funnel di conversione prodotto**] | Visualizza la conversione del prodotto in una visualizzazione funnel che mostra carrelli, pagamenti e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie dei ricavi, delle unità e degli ordini.<p>**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido.</p> |
+| **Prodotti** | Scopri quali prodotti sono più determinanti per le metriche chiave, ad esempio i più venduti o i più visualizzati. <p>**Questo può aiutarti** a comprendere meglio quali sono i prodotti di maggior successo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come aumentare i finanziamenti per i prodotti di successo e diminuirli per i prodotti di minore successo.</p><p>Questo modello utilizza la metrica Ordini e la dimensione Prodotto. |
+| **Prestazioni del prodotto** | Visualizza quali sono i prodotti più performanti.<p>**Questo può aiutarti** a comprendere meglio quali sono i prodotti di maggior successo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come aumentare i finanziamenti per i prodotti di successo e diminuirli per i prodotti di minore successo.</p><p>Questo modello utilizza le metriche Visualizzazioni prodotto, Aggiunte carrello, Ordini, Ricavi e Unità. Utilizza anche la dimensione Prodotto. |
+| **Funnel di conversione carrello** | Visualizza il numero di volte in cui le persone hanno eseguito eventi chiave di pagamento, ad esempio l’aggiunta di articoli al carrello, la visualizzazione del carrello, la rimozione di articoli dal carrello e il pagamento. <p>**Questo può aiutarti** a comprendere meglio quali parti del funnel del processo di pagamento portano alla conversione e quali sono più soggette all’abbandono del carrello.</p><p>**Sulla base di quanto appreso potresti** fare diverse cose, ad esempio ridurre l’attrito in determinati passaggi del processo di pagamento.</p> |
+| **Carrelli** | Visualizza il numero di persone che hanno aggiunto un prodotto al carrello.<p>**Questo può aiutarti** a comprendere meglio il numero di persone che aggiungono un prodotto al carrello, rispetto al numero complessivo di prodotti aggiunti a un carrello.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio misurare l’efficacia delle pagine relative ai tuoi prodotti.</p><p>Questo modello utilizza la metrica Carrelli. |
+| **Visualizzazioni del carrello** | Visualizza il numero di volte in cui le persone hanno visualizzato il carrello. <p>**Questo può aiutarti** a comprendere meglio l’esperienza di pagamento nel tentativo di ridurre le percentuali di abbandono del carrello o ad analizzare il tempo che intercorre tra le aggiunte al carrello e i pagamenti tra i diversi prodotti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come offrire promozioni per i prodotti che rimangono più a lungo nei carrelli e che sono a maggior rischio di abbandono.</p><p>Questo modello utilizza la metrica Visualizzazioni carrello. |
+| **Aggiunte al carrello** | Visualizza il numero di volte in cui le persone hanno aggiunto qualcosa al carrello. <p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui l’interesse della clientela per un prodotto è abbastanza alto da spingerla ad aggiungerlo al carrello.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i consigli sui prodotti per tutta la clientela. Questo può essere fatto analizzando quali prodotti vengono spesso aggiunti agli stessi carrelli e suggerendo prodotti correlati in base agli articoli già nel carrello. |
+| **Rimozioni dal carrello** | Visualizza il numero di volte in cui le persone hanno rimosso qualcosa dal carrello.<p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui la clientela non è più interessata a un prodotto, oppure può aiutarti a capire dove potrebbero esserci problemi nel processo di pagamento.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio rimuovere eventuali barriere esistenti nel processo di pagamento, ad esempio un’esperienza utente complicata.</p><p>Questo modello utilizza la metrica Rimozioni carrello. |
+| **Acquisto funnel di conversione** | Visualizza la conversione dell’acquisto in una visualizzazione funnel che mostra sessioni, carrelli e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie dei ricavi, delle unità e degli ordini.<p>**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido.</p> |
 | **Ricavi** | <!--duplicated in Most popular section-->Visualizza l&#39;importo monetario dei prodotti acquistati in tutti gli ordini.<p>**Questo può aiutarti** a capire meglio quali elementi dimensionali hanno contribuito ai ricavi, combinando la metrica Ricavi con qualsiasi dimensione. Ad esempio, puoi vedere le campagne principali (utilizzando la dimensione Codice di tracciamento) che hanno contribuito ai ricavi. </p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio regolare le campagne che non soddisfano gli obiettivi di ricavo previsti.</p><p>Questo modello utilizza la metrica Ricavi. |
 | **Ordini** | <!--duplicated in Most popular section-->Visualizza il numero totale di eventi di acquisto effettuati sul sito. <p>**Questo può aiutarti** a capire meglio quali elementi dimensionali hanno contribuito a un ordine, combinando la metrica Ordini con qualsiasi dimensione. Ad esempio, puoi vedere le campagne principali (utilizzando la dimensione Codice di tracciamento) che hanno contribuito agli acquisti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare le campagne che non soddisfano i target di acquisto previsti. </p><p>Questo modello utilizza la metrica Ordini. |
 
-### Web: audience {#web-audience}
+### Web: pubblico {#web-audience}
 
 <!--AA only-->
 
@@ -672,8 +672,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--people"
->title="Visualizza il numero di persone che interagiscono con il tuo marchio."
->abstract="**Questo può aiutarti** a comprendere meglio le tendenze di utilizzo sul tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come misurare l&#39;efficacia delle recenti attività di marketing nella generazione di nuovi visitatori del tuo sito."
+>title="Visualizza il numero di persone che interagiscono con il tuo brand."
+>abstract="**Questo può aiutarti** a comprendere meglio le tendenze di utilizzo sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come misurare l’efficacia delle recenti attività di marketing nel generare nuovi visitatori per il tuo sito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -682,7 +682,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--bots"
 >title="Visualizza le visualizzazioni di pagina e le tendenze relative al traffico da bot sul sito."
->abstract="**Questo può aiutarti** a comprendere meglio la quantità di traffico da bot filtrato dai tuoi rapporti, in base alle regole bot che hai configurato.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio continuare a monitorare l&#39;attività dei bot per identificare nuovi pattern."
+>abstract="**Questo può aiutarti** a comprendere meglio la quantità di traffico da bot filtrato dai tuoi rapporti, in base alle regole bot che hai configurato.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio continuare a monitorare l’attività dei bot per identificare nuovi pattern."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -690,8 +690,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--firstvsrepeatvisitors"
->title="Visualizza un confronto tra i visitatori nuovi e quelli ripetuti."
->abstract="**Questo può aiutarti** a comprendere meglio l&#39;efficacia del tuo sito nel mantenere la fedeltà dei clienti o la velocità con cui acquisisci nuovi clienti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio offrire incentivi per acquisti futuri ai nuovi visitatori per indurli a tornare."
+>title="Visualizza un confronto tra visitatori nuovi e visitatori ripetuti."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -699,8 +699,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--personid"
->title="Visualizzare il comportamento dei singoli utenti su vari canali."
->abstract="**Questo può aiutarti** a comprendere meglio il percorso completo dei clienti e le interazioni tra più punti di contatto.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti."
+>title="Visualizza il comportamento di singoli utenti su vari canali."
+>abstract="**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -709,7 +709,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--timeZoneRankedReport"
 >title="Visualizza i fusi orari principali dei visitatori che accedono al tuo sito."
->abstract="**Questo può aiutarti** a capire meglio in quali fusi orari vivono i tuoi visitatori.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come regolare la manutenzione del sito in momenti che influiscono sul minor numero di persone."
+>abstract="**Questo può aiutarti** a comprendere meglio in quali fusi orari vivono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare la manutenzione del sito in orari che interessino il minor numero di persone."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -717,8 +717,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--location"
->title="Visualizza una panoramica della posizione del visitatore in una visualizzazione mappa."
->abstract="**Questo può aiutarti** a capire meglio dove si trovano i visitatori che stanno visitando il tuo sito. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le risorse di marketing nelle posizioni in cui visualizzi più interesse e opportunità."
+>title="Visualizza una panoramica della posizione del visitatore in una visualizzazione della mappa."
+>abstract="**Questo può aiutarti** a comprendere meglio dove si trovano i visitatori che visitano il tuo sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare le risorse di marketing nelle posizioni in cui visualizzi maggiore interesse e opportunità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -727,7 +727,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--domainRankedReport"
 >title="Visualizza i domini principali dei visitatori che accedono al tuo sito."
->abstract="**Questo ti aiuta** a capire meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio indirizzare i contenuti ai tuoi clienti più grandi."
+>abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti verso la clientela maggiore."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -736,7 +736,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--topLevelDomainRankedReport"
 >title="Visualizza i domini principali dei visitatori che accedono al tuo sito."
->abstract="**Questo ti aiuta** a capire meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio indirizzare i contenuti ai tuoi clienti più grandi."
+>abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti verso la clientela maggiore."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -744,8 +744,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--browserWidthRankedReport"
->title="Visualizzare le larghezze superiori del browser utilizzate per accedere al sito."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato ai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando le larghezze più comuni del browser. In questo modo è possibile massimizzare gli sforzi di controllo della qualità.<br/>Questo modello utilizza la dimensione Browser."
+>title="Visualizza le dimensioni della larghezza dei browser principali che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le dimensioni di larghezza dei browser più comuni. In questo modo è possibile massimizzare le attività di controllo qualità.<br/>Questo modello utilizza la dimensione Browser."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -753,8 +753,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--browserHeightRankedReport"
->title="Visualizza le altezze principali del browser utilizzate dagli utenti per accedere al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato ai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando le altezze più comuni del browser. In questo modo è possibile massimizzare gli sforzi di controllo della qualità.<br/>Questo modello utilizza la dimensione Browser. "
+>title="Visualizza le dimensioni dell’altezza dei browser principali che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le dimensioni di altezza dei browser più comuni. In questo modo è possibile massimizzare le attività di controllo qualità.<br/>Questo modello utilizza la dimensione Browser. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -762,8 +762,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--operatingSystemRankedReport"
->title="Visualizzare il nome dei sistemi operativi e la versione utilizzati per accedere al sito."
->abstract="**Questo può aiutarti** a comprendere meglio i sistemi operativi e le versioni più comuni utilizzati dai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i sistemi operativi e le versioni principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità."
+>title="Visualizza il nome e la versione dei sistemi operativi che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio le versioni e i sistemi operativi più comuni utilizzati dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni tramite i principali sistemi operativi e relative versioni. In questo modo è possibile massimizzare le attività di controllo qualità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -771,8 +771,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--operatingSystemTypeRankedReport"
->title="Visualizzare il nome dei sistemi operativi utilizzati dagli utenti per accedere al sito."
->abstract="**Questo può aiutarti** a comprendere meglio i sistemi operativi più comuni utilizzati dai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i sistemi operativi principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità."
+>title="Visualizza il nome dei sistemi operativi utilizzati dalle persone per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio i sistemi operativi più comuni utilizzati dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con principali sistemi operativi. In questo modo è possibile massimizzare le attività di controllo qualità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -780,8 +780,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--returnFrequencyRankedReport"
->title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili.utilizzati dagli utenti per accedere al sito."
->abstract="**Questo può aiutarti** a capire meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle funzionalità di rete di diversi gestori per garantire un&#39;esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore mobile."
+>title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili che le persone utilizzano per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle funzionalità di rete dei diversi operatori, in modo da garantire un’esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore di telefonia mobile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -789,8 +789,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--returnVisitorsOvertimeReport"
->title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili.utilizzati dagli utenti per accedere al sito."
->abstract="**Questo può aiutarti** a capire meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle funzionalità di rete di diversi gestori per garantire un&#39;esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore mobile."
+>title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili che le persone utilizzano per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle funzionalità di rete dei diversi operatori, in modo da garantire un’esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore di telefonia mobile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -799,7 +799,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--visitNumberRankedReport"
 >title="Visualizza quante volte un visitatore ha visitato il sito."
->abstract="**Questo può aiutarti** a comprendere meglio quanto sono coinvolti i visitatori quando ritornano al tuo sito. Questo vale per la durata del visitatore, indipendentemente dall’intervallo di date del progetto.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio regolare le attività di marketing per i visitatori frequenti.<br/>Questo modello utilizza la dimensione Numero visite."
+>abstract="**Questo può aiutarti** a comprendere meglio quanto sono coinvolti i visitatori quando ritornano sul tuo sito. Questo viene applicato al ciclo di vita del visitatore, indipendentemente dall’intervallo di date del progetto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le attività di marketing per i visitatori frequenti.<br/>Questo modello utilizza la dimensione Numero di visite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -808,7 +808,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--customerLoyaltyRankedReport"
 >title="Visualizza il numero di visitatori del sito che hanno effettuato 0 acquisti precedenti, 1 acquisto precedente, 2 acquisti precedenti o 3+ acquisti precedenti."
->abstract="**Questo ti aiuta** a capire meglio in che modo il tuo sito influisce sul comportamento d&#39;acquisto.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio concentrarsi sui visitatori che tornano per fare un acquisto, in modo da poter incoraggiare un comportamento simile per i nuovi visitatori.<br/>Questo modello utilizza la dimensione Fedeltà del cliente."
+>abstract="**Questo può aiutarti** a comprendere meglio in che modo il tuo sito influisce sul comportamento d’acquisto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrarti sui visitatori che tornano per fare un acquisto, in modo da poter incoraggiare un comportamento simile per i nuovi visitatori.<br/>Questo modello utilizza la dimensione Fedeltà della clientela."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -816,8 +816,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--daysBeforeFirstPurchaseRankedReport"
->title="Visualizza il numero di giorni che trascorrono tra la prima volta che un visitatore raggiunge il sito e il momento in cui effettua un acquisto. Ad esempio, se un visitatore effettua un acquisto un giorno dopo la prima visita, tutte le visite o gli eventi successivi appartengono all’elemento dimensione 1 giorno."
->abstract="**Questo può aiutarti** a capire meglio quanto tempo impiegano i visitatori per effettuare un acquisto.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio aggiornare il tuo sito per incoraggiare un&#39;acquisizione più veloce.<br/>Questo modello utilizza la dimensione Giorni prima del primo acquisto."
+>title="Visualizza il numero di giorni che trascorrono tra la prima volta che un visitatore raggiunge il sito e il momento in cui effettua un acquisto. Ad esempio, se un visitatore effettua un acquisto un giorno dopo la prima visita, tutte le visite o gli eventi successivi appartengono all’elemento della dimensione 1 giorno."
+>abstract="**Questo può aiutarti** a capire meglio quanto tempo impiegano i visitatori per effettuare un acquisto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare il tuo sito per incoraggiare un acquisto più veloce.<br/>Questo modello utilizza la dimensione Giorni prima del primo acquisto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -826,7 +826,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--daysSinceLastPurchaseRankedReport"
 >title="Visualizza il tempo trascorso tra l’hit corrente del visitatore e il suo acquisto più recente in quel momento."
->abstract="**Questo può aiutarti** a comprendere meglio il comportamento dei visitatori dopo l&#39;acquisto di qualcosa sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio aggiornare il tuo sito per incoraggiare gli acquisti successivi.<br/>Questo modello utilizza la dimensione Giorni dall&#39;ultimo acquisto."
+>abstract="**Questo può aiutarti** a comprendere meglio il comportamento del visitatore dopo che ha acquistato qualcosa sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare il tuo sito per incoraggiare gli acquisti successivi.<br/>Questo modello utilizza la dimensione Giorni dall’ultimo acquisto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -834,8 +834,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenSizeRankedReport"
->title="Visualizza le dimensioni principali dello schermo dei dispositivi mobili utilizzate dagli utenti per accedere al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato ai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando le dimensioni più comuni dello schermo dei dispositivi mobili. In questo modo è possibile massimizzare gli sforzi di controllo della qualità."
+>title="Visualizza le dimensioni principali dello schermo dei dispositivi mobili che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le dimensioni più comuni dello schermo dei dispositivi mobili. In questo modo è possibile massimizzare le attività di controllo qualità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -843,8 +843,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenHeightRankedReport"
->title="Visualizza le altezze superiori dello schermo del cellulare utilizzate dagli utenti per accedere al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato ai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando le altezze dello schermo più comuni per dispositivi mobili. In questo modo è possibile massimizzare gli sforzi di controllo della qualità."
+>title="Visualizza le dimensioni dell’altezza dello schermo dei dispositivi mobili principali che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le altezze dello schermo dei dispositivi mobili più comuni. In questo modo è possibile massimizzare le attività di controllo qualità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -852,8 +852,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenWidthRankedReport"
->title="Visualizzare le larghezze superiori dello schermo dei dispositivi mobili utilizzate dagli utenti per accedere al sito."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato ai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando le larghezze più comuni dello schermo dei dispositivi mobili. In questo modo è possibile massimizzare gli sforzi di controllo della qualità."
+>title="Visualizzare le dimensioni della larghezza dello schermo dei dispositivi mobili principali che le persone utilizzano per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le larghezze dello schermo dei dispositivi mobili più comuni. In questo modo è possibile massimizzare le attività di controllo qualità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -863,8 +863,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--countryGeoReport"
->title="Visualizzare il paese da cui provengono le persone che visitano il sito."
->abstract="**Questo può aiutarti** a capire meglio da cosa provengono i visitatori dei paesi più popolari che visitano il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come utilizzare i dati per concentrarti sulle attività di marketing in questi paesi, o assicurarti che la tua esperienza sul sito sia ottimale in paesi che hanno diverse lingue primarie.<br/>Questo modello utilizza la dimensione Paesi."
+>title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
+>abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -872,8 +872,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--stateGeoReport"
->title="Visualizza lo stato (negli Stati Uniti) da cui hanno avuto origine le persone che visitano il sito. È simile al modello Geo Regions, con la differenza che è specifico per gli Stati Uniti."
->abstract="**Questo può aiutarti** a comprendere meglio gli stati americani più popolari da cui provengono i visitatori che visitano il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarsi sulle attività di marketing in questi stati.<br/>Questo modello utilizza la dimensione Stati Uniti."
+>title="Visualizza lo stato (negli Stati Uniti) da cui provengono le persone che visitano il sito. È simile al modello Aree geografiche, ma è specifico per gli Stati Uniti."
+>abstract="**Questo può aiutarti** a comprendere meglio quali sono gli Stati Uniti più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Stati.<br/>Questo modello utilizza la dimensione Stati Uniti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -881,8 +881,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--regionGeoReport"
->title="Visualizzare l&#39;area geografica da cui hanno avuto origine le persone che visitano il sito. Una regione è un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. "
->abstract="**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste aree geografiche, oppure assicurarti che l&#39;esperienza del tuo sito sia ottimale nelle aree geografiche che hanno diverse lingue primarie. <br/>Questo modello utilizza le dimensioni ID(variabili/geocountry) e Region. "
+>title="Visualizza l’area geografica da cui provengono le persone che visitano il sito. Un’area è un’area geografica più piccola di un Paese ma più grande di una città. In alcuni Paesi, un’area geografica è uno stato, una provincia o una prefettura. In altre aree, è un Paese costituente, un dipartimento o un’area metropolitana. "
+>abstract="**Questo può aiutarti** a comprendere meglio le aree geografiche più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste aree geografiche, oppure assicurarti che l’esperienza del tuo sito sia ottimale nelle aree geografiche con lingue principali diverse. <br/>Questo modello utilizza le dimensioni ID(variables/geocountry) e Aree geografiche. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -891,7 +891,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--cityGeoReport"
 >title="Visualizza la città da cui provengono le persone che visitano il sito."
->abstract="**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori che visitano il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. <br/>Questo modello utilizza la dimensione Città"
+>abstract="**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori del tu sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. <br/>Questo modello utilizza la dimensione Città"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -899,8 +899,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--dmaGeoReport"
->title="Visualizzare le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui hanno avuto origine le persone che visitano il sito."
->abstract="**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree di maggior successo. "
+>title="Visualizza le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui provengono le persone che visitano il sito."
+>abstract="**Questo può aiutarti** a comprendere meglio le aree geografiche più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree geografiche di maggior successo. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -909,7 +909,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--languageRankedReport"
 >title="Visualizza le lingue principali in cui i visitatori preferiscono visualizzare il contenuto."
->abstract="**Questo può aiutarti** a comprendere meglio le lingue preferite più frequentemente dai visitatori.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le attività di localizzazione o di marketing per le lingue più popolari.<br/>Questo modello utilizza la dimensione Lingua."
+>abstract="**Questo può aiutarti** a comprendere meglio le lingue preferite più frequentemente dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare le attività di localizzazione o di marketing per le lingue più popolari.<br/>Questo modello utilizza la dimensione Lingua."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -917,8 +917,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--web-technology-template"
->title="Visualizzare informazioni relative alla tecnologia utilizzata dagli utenti per accedere al sito, ad esempio sistemi operativi, browser e dispositivi."
->abstract="**Questo ti aiuta** a capire meglio quali tecnologie vengono utilizzate più di frequente per accedere al tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come ottimizzare il tuo sito per le tecnologie in uso."
+>title="Visualizza informazioni relative alla tecnologia che utilizzano le persone per accedere al tuo sito, ad esempio sistemi operativi, browser e dispositivi."
+>abstract="**Questo può aiutarti** a comprendere meglio quali tecnologie vengono utilizzate più di frequente per accedere al tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare il tuo sito per le tecnologie in uso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -926,8 +926,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--browserRankedReport"
->title="Visualizza il nome e la versione dei principali browser utilizzati dagli utenti per accedere al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità.<br/>Questo modello utilizza la dimensione Browser."
+>title="Visualizza il nome e la versione dei principali browser che le persone utilizzano per accedere al tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando delle nuove versioni con i principali browser. In questo modo è possibile massimizzare le attività di controllo qualità.<br/>Questo modello utilizza la dimensione Browser."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -935,8 +935,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--browserTypeRankedReport"
->title="Visualizza i nomi delle organizzazioni che hanno creato i browser principali utilizzati dagli utenti per accedere al sito. Questo è diverso dal modello Browser in quanto non elenca diverse versioni dello stesso browser come elementi dimensionali separati."
->abstract="**Questo ti aiuta** a comprendere meglio i browser più comuni utilizzati dai visitatori <br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità. <br/>Questo modello utilizza la dimensione Tipo di browser. "
+>title="Visualizza i nomi delle organizzazioni che hanno realizzato i principali browser utilizzati dalle persone per accedere al tuo sito. Questo si differenzia dal modello Browser in quanto non elenca le diverse versioni dello stesso browser come elementi della dimensione separati."
+>abstract="**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con l’utilizzo dei principali browser. In questo modo è possibile massimizzare le attività di controllo qualità. <br/>Questo modello utilizza la dimensione Tipo di browser. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -944,19 +944,19 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra i visitatori nuovi e quelli ripetuti. <p>**Questo può aiutarti** a comprendere meglio l&#39;efficacia del tuo sito nel mantenere la fedeltà dei clienti o la velocità con cui acquisisci nuovi clienti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio offrire incentivi per acquisti futuri ai nuovi visitatori per indurli a tornare.</p><!-- This template uses the --> |
-| **ID persona** | Visualizzare il comportamento dei singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso completo dei clienti e le interazioni tra più punti di contatto.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti.</p><!-- This template uses the --> |
-| **Paesi geografici** | Visualizzare il paese da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a capire meglio da cosa provengono i visitatori dei paesi più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come utilizzare i dati per concentrarti sulle attività di marketing in questi paesi, o assicurarti che la tua esperienza sul sito sia ottimale in paesi che hanno diverse lingue primarie.</p><p>Questo modello utilizza la dimensione Paesi. </p> |
-| **Stati Geo US** | Visualizza lo stato (negli Stati Uniti) da cui hanno avuto origine le persone che visitano il sito. È simile al modello Geo Regions, con la differenza che è specifico per gli Stati Uniti.<p>**Questo può aiutarti** a comprendere meglio gli stati americani più popolari da cui provengono i visitatori che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarsi sulle attività di marketing in questi stati.</p><p>Questo modello utilizza la dimensione Stati Uniti. </p> |
-| **Aree geografiche** | Visualizzare l&#39;area geografica da cui hanno avuto origine le persone che visitano il sito. Una regione è un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. <p>**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste aree geografiche, oppure assicurarti che l&#39;esperienza del tuo sito sia ottimale nelle aree geografiche che hanno diverse lingue primarie. </p><p>Questo modello utilizza le dimensioni ID(variabili/geocountry) e Aree geografiche. </p> |
-| **Città geografiche** | Visualizza la città da cui provengono le persone che visitano il sito. <p>**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. </p><p>Questo modello utilizza la dimensione Città. </p> |
-| **Geo US DMA** | Visualizzare le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui hanno avuto origine le persone che visitano il sito.<p>**Questo può aiutarti** a comprendere meglio le aree geografiche da cui provengono i visitatori più popolari che visitano il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree di maggior successo. </p><!-- This template uses the --> |
-| **Lingue** | Visualizza le lingue principali in cui i visitatori preferiscono visualizzare il contenuto. <p>**Questo può aiutarti** a comprendere meglio le lingue preferite più frequentemente dai visitatori.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come concentrare le attività di localizzazione o di marketing per le lingue più popolari.</p><p>Questo modello utilizza la dimensione Lingua.</p> |
-| **Panoramica sulla tecnologia** | Visualizzare informazioni relative alla tecnologia utilizzata per accedere al sito, ad esempio sistemi operativi, browser e dispositivi. <p>**Questo ti aiuta** a capire meglio quali tecnologie vengono utilizzate più di frequente per accedere al tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come ottimizzare il tuo sito per le tecnologie in uso.</p> |
-| **Browser** | Visualizza il nome e la versione dei principali browser utilizzati dagli utenti per accedere al tuo sito.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità.</p><p>Questo modello utilizza la dimensione Browser. </p> |
-| **Tipi di browser** | Visualizza i nomi delle organizzazioni che hanno creato i browser principali utilizzati dagli utenti per accedere al sito. Questo è diverso dal modello Browser in quanto non elenca diverse versioni dello stesso browser come elementi dimensionali separati.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la qualità del sito testando nuove versioni del sito utilizzando i browser principali. In questo modo è possibile massimizzare gli sforzi di controllo della qualità. </p><p>Questo modello utilizza la dimensione Tipo di browser. </p> |
+| [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra visitatori nuovi e visitatori ripetuti. <p>**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare.</p><!-- This template uses the --> |
+| **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti.</p><!-- This template uses the --> |
+| **Paesi geografici** | Visualizzare il Paese da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.</p><p>Questo modello utilizza la dimensione Paesi. </p> |
+| **Stati Geo US** | Visualizza lo stato (negli Stati Uniti) da cui provengono le persone che visitano il sito. È simile al modello Aree geografiche, ma è specifico per gli Stati Uniti.<p>**Questo può aiutarti** a comprendere meglio quali sono gli Stati Uniti più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Stati.</p><p>Questo modello utilizza la dimensione Stati Uniti. </p> |
+| **Aree geografiche** | Visualizza l’area geografica da cui provengono le persone che visitano il sito. Un’area è un’area geografica più piccola di un Paese ma più grande di una città. In alcuni Paesi, un’area geografica è uno stato, una provincia o una prefettura. In altre aree, è un Paese costituente, un dipartimento o un’area metropolitana. <p>**Questo può aiutarti** a comprendere meglio le aree geografiche più popolari da cui provengono i visitatori del tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste aree geografiche, oppure assicurarti che l&#39;esperienza del tuo sito sia ottimale nelle aree geografiche che hanno diverse lingue primarie. </p><p>Questo modello utilizza le dimensioni ID(variabili/geocountry) e Aree geografiche. </p> |
+| **Città geografiche** | Visualizza la città da cui provengono le persone che visitano il sito. <p>**Questo può aiutarti** a comprendere meglio le città più popolari da cui provengono i visitatori del tu sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in queste città. </p><p>Questo modello utilizza la dimensione Città. </p> |
+| **Geo US DMA** | Visualizza le aree di marketing designate (DMA) all’interno degli Stati Uniti da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a comprendere meglio le aree geografiche più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing nelle aree geografiche di maggior successo. </p><!-- This template uses the --> |
+| **Lingue** | Visualizza le lingue principali in cui i visitatori preferiscono visualizzare il contenuto. <p>**Questo può aiutarti** a comprendere meglio le lingue preferite più frequentemente dai visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare le attività di localizzazione o di marketing per le lingue più popolari.</p><p>Questo modello utilizza la dimensione Lingua.</p> |
+| **Panoramica sulla tecnologia** | Visualizzare informazioni relative alla tecnologia utilizzata per accedere al sito, ad esempio sistemi operativi, browser e dispositivi. <p>**Questo può aiutarti** a comprendere meglio quali tecnologie vengono utilizzate più di frequente per accedere al tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare il tuo sito per le tecnologie in uso.</p> |
+| **Browser** | Visualizza il nome e la versione dei principali browser che le persone utilizzano per accedere al tuo sito.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando delle nuove versioni con i principali browser. In questo modo è possibile massimizzare le attività di controllo qualità.</p><p>Questo modello utilizza la dimensione Browser. </p> |
+| **Tipi di browser** | Visualizza i nomi delle organizzazioni che hanno realizzato i principali browser utilizzati dalle persone per accedere al tuo sito. Questo si differenzia dal modello Browser in quanto non elenca le diverse versioni dello stesso browser come elementi della dimensione separati.<p>**Questo può aiutarti** a comprendere meglio i browser più comuni utilizzati dai visitatori</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando delle nuove versioni con i principali browser. In questo modo è possibile massimizzare le attività di controllo qualità. </p><p>Questo modello utilizza la dimensione Tipo di browser. </p> |
 
-### Web: Acquisizione {#web-acquisition}
+### Web: acquisizione {#web-acquisition}
 
 <!--AA only-->
 
@@ -964,8 +964,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-acquisition-template"
->title="Visualizza in che modo il tuo sito web ottiene visitatori su dispositivi mobili."
->abstract="**Questo può aiutarti** a comprendere meglio i vari fattori che portano all&#39;acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali più efficaci.<br/>Questo modello utilizza la metrica Percentuale non recapitate e la metrica Rimbalzi. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer."
+>title="Visualizza in che modo il sito web ottiene visitatori sui dispositivi mobili."
+>abstract="**Questo può aiutarti** a comprendere meglio i vari fattori che portano all’acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali più efficaci.<br/>Questo modello utilizza le metriche Percentuale di mancati recapiti e Mancato recapito. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -973,8 +973,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
->title="Visualizza affiancati i dati di Google e di Bing Paid Search."
->abstract="**Questo può aiutarti** a comprendere meglio la quantità di traffico che viene inviato al tuo sito e se i clienti si stanno convertendo.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio stimare l&#39;efficacia in termini di costi di una campagna pubblicitaria."
+>title="Visualizza i dati Google e di ricerca a pagamento di Bing affiancati."
+>abstract="**Questo può aiutarti** a comprendere meglio la quantità di traffico che arriva al tuo sito e se la clientela si sta convertendo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio stimare in termini di costi l’efficacia di una campagna pubblicitaria."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -982,8 +982,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--searchEngineRankRankedReport"
->title="Puoi vedere quale pagina dei risultati di ricerca un visitatore ha fatto clic sul tuo sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento dimensionale per questa variabile è Pagina di ricerca 2."
->abstract="**Questo ti aiuta** a comprendere meglio il livello di classifica delle pagine nei risultati di ricerca.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare la tua strategia SEO per garantire che il contenuto venga visualizzato nella prima pagina dei risultati di ricerca."
+>title="Visualizza quale pagina dei risultati di ricerca su cui un visitatore ha fatto clic per arrivare sul sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento della dimensione per questa variabile è Pagina di ricerca 2."
+>abstract="**Questo può aiutarti** a comprendere meglio il posizionamento delle pagine nei risultati di ricerca.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la strategia SEO per garantire che i tuoi contenuti vengano visualizzati nella prima pagina dei risultati di ricerca."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -993,8 +993,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--marketing-channel-overview-template"
->title="Quando si utilizza l’attribuzione personalizzata, questo modello mostra il modo in cui i visitatori arrivano sul sito."
->abstract="**Questo ti aiuta** a capire meglio quali dei tuoi canali di marketing sono più efficaci.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio investire di più in canali di marketing efficaci e disinvestire da canali di marketing meno influenti.<br/>Questo modello utilizza la dimensione ID(variables/marketingchannel) e la metrica Ricavi."
+>title="Quando viene utilizzata l’attribuzione personalizzata, questo modello mostra il modo in cui i visitatori arrivano sul tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali dei tuoi canali di marketing sono i più efficaci.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio investire maggiormente su canali di marketing efficaci e disinvestire da quelli meno influenti.<br/>Questo modello utilizza la dimensione ID(variables/marketingchannel) e la metrica Ricavi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1002,8 +1002,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--firstouchChannelRankedReport"
->title="Visualizza il primo canale di marketing a cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita)."
->abstract="**Questo ti aiuta** a capire meglio quali canali di marketing indirizzano il traffico iniziale verso il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci.<br/>Questo modello utilizza la dimensione Canale di primo contatto."
+>title="Visualizza il primo canale di marketing a cui un visitatore corrisponde durante il relativo periodo di coinvolgimento (30 giorni per impostazione predefinita)."
+>abstract="**Questo può aiutarti** a comprendere meglio quali canali di marketing favoriscono il traffico iniziale verso il tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.<br/>Questo modello utilizza la dimensione Canale di primo contatto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1011,8 +1011,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--firstouchChannelDetailRankedReport"
->title="Visualizza i dettagli sul primo canale di marketing con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita)."
->abstract="**Questo ti può aiutare** a capire meglio cosa ha contribuito all&#39;hit che corrisponde a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare i dettagli del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci.<br/>Questo modello utilizza la dimensione Dettaglio canale di primo contatto."
+>title="Visualizza i dettagli sul primo canale di marketing a cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita)."
+>abstract="**Questo può aiutarti** a comprendere meglio cosa ha contribuito all’hit corrispondente a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing “Ricerca a pagamento”, puoi utilizzare i dettagli del canale per visualizzare quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.<br/>Questo modello utilizza la dimensione Dettaglio canale di primo contatto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1020,8 +1020,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--campaignConversionReport"
->title="Visualizza il numero di click-through e checkout per le campagne."
->abstract="**Questo ti aiuta** a capire meglio come le campagne di marketing stanno guidando la conversione.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio determinare quali campagne di marketing generano il maggior ROI."
+>title="Visualizza il numero di click-through e di pagamenti per le campagne."
+>abstract="**Questo può aiutarti** a comprendere meglio il modo in cui le campagne di marketing promuovono una conversione.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio individuare quali campagne di marketing generano il maggior ROI."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1030,7 +1030,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--retail-campaign-performance-template"
 >title="Visualizza i dettagli sulle prestazioni delle campagne di marketing."
->abstract="**Questo ti aiuta** a comprendere meglio i vari indicatori di successo associati alle campagne, come ricavi, visualizzazioni prodotti, ordini e così via.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio concentrare le attività di marketing sulle campagne che generano maggior fatturato. <br/>Questo modello utilizza la metrica Ricavi, la metrica Visualizzazioni prodotto, la metrica Aggiunte carrello, la metrica Ordini e la metrica Unità. Vengono inoltre utilizzate le dimensioni Codice di tracciamento e Dominio di riferimento."
+>abstract="**Questo può aiutarti** a comprendere meglio i vari indicatori di successo associati alle campagne, come ricavi, visualizzazioni prodotti, ordini e così via.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sulle campagne che generano maggiori ricavi. <br/>Questo modello utilizza le metriche Ricavi, Visualizzazioni prodotto, Aggiunte carrello, Ordini e Unità. Utilizza inoltre le dimensioni Codice di tracciamento e Dominio di riferimento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1038,8 +1038,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--web-acquisition-template"
->title="Visualizza come il tuo sito web ottiene i visitatori."
->abstract="**Questo può aiutarti** a comprendere meglio i vari fattori che portano all&#39;acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali più efficaci.<br/>Questo modello utilizza la metrica Percentuale non recapitate e la metrica Rimbalzi. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer."
+>title="Visualizza come il tuo sito web ottiene visitatori."
+>abstract="**Questo può aiutarti** a comprendere meglio i vari fattori che portano all’acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali più efficaci.<br/>Questo modello utilizza le metriche Percentuale di mancati recapiti e Mancato recapito. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1047,8 +1047,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchKeywordRankedReport"
->title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che sia a pagamento o naturale."
->abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito. <br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito.<br/>Questo modello utilizza la dimensione Parola chiave di ricerca."
+>title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che siano a pagamento o naturali."
+>abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito.<br/>Questo modello utilizza la dimensione Parola chiave di ricerca."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1056,8 +1056,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchPaidKeywordRankedReport"
->title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito e corrispondenti al rilevamento di ricerche a pagamento."
->abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito. <br/>Questo modello utilizza la dimensione Parola chiave di ricerca - Pagato. "
+>title="Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il sito e che corrispondono al rilevamento della ricerca a pagamento."
+>abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito. <br/>Questo modello utilizza la dimensione Parola chiave di ricerca - A pagamento. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1065,8 +1065,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchNaturalKeywordRankedReport"
->title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il tuo sito che non corrispondono al rilevamento di ricerche a pagamento."
->abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito.<br/>Questo modello utilizza la dimensione Parola chiave di ricerca - Naturale. "
+>title="Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il tuo sito e che non corrispondono al rilevamento della ricerca a pagamento."
+>abstract="**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito.<br/>Questo modello utilizza la dimensione Parola chiave di ricerca - Naturale. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1074,8 +1074,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchRankedReport"
->title="Visualizza i motori di ricerca utilizzati dai visitatori per raggiungere il tuo sito, indipendentemente dal fatto che sia a pagamento o naturale."
->abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito.<br/>Questo modello utilizza la dimensione Motore di ricerca. "
+>title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che siano a pagamento o naturali."
+>abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito.<br/>Questo modello utilizza la dimensione Motore di ricerca. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1083,8 +1083,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchPaidRankedReport"
->title="Visualizza i motori di ricerca utilizzati dai visitatori per raggiungere il tuo sito, che corrispondono al rilevamento di ricerche a pagamento."
->abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito. <br/>Questo modello utilizza la dimensione Motore di ricerca - Pagato."
+>title="Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il sito e che corrispondono al rilevamento della ricerca a pagamento."
+>abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito. <br/>Questo modello utilizza la dimensione Motore di ricerca - A pagamento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1092,8 +1092,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--searchNaturalRankedReport"
->title="Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il tuo sito che non corrispondono al rilevamento di ricerche a pagamento."
->abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito.<br/>Questo modello utilizza la dimensione Motore di ricerca - Naturale."
+>title="Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il tuo sito e che non corrispondono al rilevamento della ricerca a pagamento."
+>abstract="**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito.<br/>Questo modello utilizza la dimensione Motore di ricerca - Naturale."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1101,8 +1101,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--referringDomainRankedReport"
->title="Visualizza i domini su cui gli utenti fanno clic per raggiungere il tuo sito."
->abstract="**Questo ti aiuta** a capire meglio quali siti di terze parti indirizzano più traffico verso il tuo. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno su cui un visitatore deve fare clic.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo più strettamente agli interessi dei visitatori provenienti dai principali domini di riferimento. <br/>Questo modello utilizza la dimensione Dominio di riferimento."
+>title="Visualizza i domini su cui le persone fanno clic per raggiungere il tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali siti di terze parti favoriscono maggiore traffico verso il tuo sito. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo maggiormente agli interessi dei visitatori provenienti dai principali domini di riferimento. <br/>Questo modello utilizza la dimensione Dominio di riferimento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1110,8 +1110,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--referringDomainOriginalRankedReport"
->title="Visualizza il primo dominio di riferimento tramite il quale gli utenti hanno fatto clic per raggiungere il sito. Una volta impostato, contiene lo stesso valore per l’intera durata di vita dell’ID visitatore."
->abstract="**Questo può aiutarti** a capire meglio quali siti di terze parti originariamente indirizzano il traffico verso il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento originali. <br/>Questo modello utilizza la dimensione Dominio di riferimento originale."
+>title="Visualizza il primo dominio di riferimento su cui le persone hanno fatto clic per raggiungere il sito. Una volta impostato, contiene lo stesso valore per l’intero ciclo di vita dell’ID visitatore."
+>abstract="**Questo può aiutarti** a comprendere meglio quali siti di terze parti inizialmente favoriscono il traffico verso il tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento. <br/>Questo modello utilizza la dimensione Dominio di riferimento originale."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1119,8 +1119,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--referrerRankedReport"
->title="Puoi vedere su quali URL si trovavano i visitatori quando facevano clic per raggiungere il tuo sito. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sull’URL esterno e un visitatore deve fare clic su di esso."
->abstract="**Questo può aiutarti** a capire meglio quali URL specifici indirizzano il maggior traffico verso il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come creare o modificare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dagli URL principali. <br/>Questo modello utilizza la dimensione Dominio di riferimento.</p>"
+>title="Visualizza su quali URL si trovano i visitatori quando fanno clic per raggiungere il sito. Affinché l’elemento della dimensione venga visualizzato, deve esistere un collegamento sull’URL esterno e un visitatore deve fare clic su di esso."
+>abstract="**Questo può aiutarti** a comprendere meglio quali URL specifici favoriscono maggiore traffico verso il tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali URL. <br/>Questo modello utilizza la dimensione Dominio di riferimento.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1128,8 +1128,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--referrerTypeRankedReport"
->title="Visualizza i canali generici attraverso i quali i visitatori hanno fatto clic per arrivare al sito. Adobe mantiene le regole per ogni canale. I canali possibili includono motori di ricerca, social network, altri siti web, disco rigido o e-mail."
->abstract="**Questo può aiutarti** a capire meglio quale tipo di referrer gestisce più traffico verso il tuo sito.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come creare o modificare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti da un determinato canale.<br/>Questo modello utilizza la dimensione Tipo referrer."
+>title="Visualizza i canali generici su cui i visitatori hanno fatto clic per arrivare al tuo sito. Adobe gestisce le regole per ciascun canale. I canali possibili includono motori di ricerca, social network, altri siti web, disco rigido o e-mail."
+>abstract="**Questo può aiutarti** a comprendere meglio quale tipo di referrer favorisce maggior traffico verso il tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti da un determinato canale.<br/>Questo modello utilizza la dimensione Tipo referrer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1137,25 +1137,25 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Rapporto panoramica canale**] | Quando si utilizza l’attribuzione personalizzata, questo modello mostra il modo in cui i visitatori arrivano sul sito.<p>**Questo ti aiuta** a capire meglio quali dei tuoi canali di marketing sono più efficaci.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio investire di più in canali di marketing efficaci e disinvestire da canali di marketing meno influenti.</p><p>Questo modello utilizza la dimensione ID(variables/marketingchannel) e la metrica Ricavi.</p> |
-| [!UICONTROL **Canali marketing**] > [!UICONTROL **Canale primo contatto**] | Visualizza il primo canale di marketing a cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita). <p>**Questo ti aiuta** a capire meglio quali canali di marketing indirizzano il traffico iniziale verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Canale di primo contatto.</p> |
-| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Dettagli canale di primo contatto**] | Visualizza i dettagli sul primo canale di marketing con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita).<p>**Questo ti può aiutare** a capire meglio cosa ha contribuito all&#39;hit che corrisponde a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare i dettagli del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Dettaglio canale di primo contatto.</p> |
-| [!UICONTROL **Canali marketing**] > [!UICONTROL **Canale ultimo contatto**] | Visualizza il canale di marketing più recente con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita).<p>**Questo ti può aiutare** a capire meglio quali canali di marketing indirizzano il traffico verso il tuo sito che dà luogo a conversioni.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Canale di ultimo contatto.  </p> |
-| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Dettagli canale di ultimo contatto**] | Visualizza dettagli sul canale di marketing più recente con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita)<p>**Questo ti può aiutare** a capire meglio cosa ha contribuito all&#39;hit che corrisponde a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare i dettagli del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing nelle aree più efficaci. </p><p>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto. </p> |
+| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Rapporto panoramica canale**] | Quando viene utilizzata l’attribuzione personalizzata, questo modello mostra il modo in cui i visitatori arrivano sul tuo sito.<p>**Questo può aiutarti** a comprendere meglio quali dei tuoi canali di marketing sono i più efficaci.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio investire maggiormente su canali di marketing efficaci e disinvestire da quelli meno influenti.</p><p>Questo modello utilizza la dimensione ID(variables/marketingchannel) e la metrica Ricavi.</p> |
+| [!UICONTROL **Canali marketing**] > [!UICONTROL **Canale primo contatto**] | Visualizza il primo canale di marketing a cui un visitatore corrisponde durante il relativo periodo di coinvolgimento (30 giorni per impostazione predefinita). <p>**Questo può aiutarti** a comprendere meglio quali canali di marketing favoriscono il traffico iniziale verso il tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Canale di primo contatto.</p> |
+| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Dettagli canale di primo contatto**] | Visualizza i dettagli sul primo canale di marketing a cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita).<p>**Questo può aiutarti** a comprendere meglio cosa ha contribuito all’hit corrispondente a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing “Ricerca a pagamento”, puoi utilizzare i dettagli del canale per visualizzare quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Dettaglio canale di primo contatto.</p> |
+| [!UICONTROL **Canali marketing**] > [!UICONTROL **Canale ultimo contatto**] | Visualizza il canale di marketing più recente con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita).<p>**Questo ti può aiutare** a capire meglio quali canali di marketing indirizzano il traffico verso il tuo sito che dà luogo a conversioni.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Canale di ultimo contatto.  </p> |
+| [!UICONTROL **Canali di marketing**] > [!UICONTROL **Dettagli canale di ultimo contatto**] | Visualizza dettagli sul canale di marketing più recente con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita)<p>**Questo può aiutarti** a comprendere meglio cosa ha contribuito all’hit corrispondente a un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing “Ricerca a pagamento”, puoi utilizzare i dettagli del canale per visualizzare quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci. </p><p>Questo modello utilizza la dimensione Dettaglio canale di ultimo contatto. </p> |
 | [!UICONTROL **Campagne**] > [!UICONTROL **Codice di tracciamento**] | Visualizza i nomi dei codici di tracciamento sul tuo sito. Puoi inserire collegamenti con valori di parametri di stringhe di query diversi in posizioni diverse su Internet.<p>**Questo ti aiuta** a capire meglio quali collegamenti sono stati più efficaci nel traffico verso il tuo sito. L’aggiunta di stringhe di query del codice di tracciamento è comune nelle e-mail, negli annunci pubblicitari, nei post sui social media e in altre attività di marketing utilizzate dalla tua organizzazione</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio concentrare le attività di marketing sulle campagne che generano maggior fatturato.</p><p>Questo modello utilizza la dimensione Codice di tracciamento. </p> |
-| [!UICONTROL **Campagne**] > [!UICONTROL **Funnel di conversione campagna**] | Visualizza il numero di click-through e checkout per le campagne. <p>**Questo ti aiuta** a capire meglio come le campagne di marketing stanno guidando la conversione.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio determinare quali campagne di marketing generano il maggior ROI.</p> |
-| [!UICONTROL **Campagne**] > [!UICONTROL **Prestazioni campagna**] | Visualizza i dettagli sulle prestazioni delle campagne di marketing.<p>**Questo ti aiuta** a comprendere meglio i vari indicatori di successo associati alle campagne, come ricavi, visualizzazioni prodotti, ordini e così via.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio concentrare le attività di marketing sulle campagne che generano maggior fatturato. </p><p>Questo modello utilizza la metrica Ricavi, la metrica Visualizzazioni prodotto, la metrica Aggiunte carrello, la metrica Ordini e la metrica Unità. Vengono inoltre utilizzate le dimensioni Codice di tracciamento e Dominio di riferimento. </p> |
-| **Acquisizione web** | Visualizza come il tuo sito web ottiene i visitatori.<p>**Questo può aiutarti** a comprendere meglio i vari fattori che portano all&#39;acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali più efficaci.</p><p>Questo modello utilizza le metriche Percentuale non recapitate e Percentuale non recapitate. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer.  </p> |
-| **Parole chiave di ricerca - tutti** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che sia a pagamento o naturale. <p>**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito. </p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito.</p><p>Questo modello utilizza la dimensione Parola chiave di ricerca. </p> |
-| **Parole chiave di ricerca - a pagamento** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito e corrispondenti al rilevamento di ricerche a pagamento.<p>**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito. </p><p>Questo modello utilizza la dimensione Parola chiave di ricerca - A pagamento. </p> |
-| **Parole chiave di ricerca - naturale** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il tuo sito che non corrispondono al rilevamento di ricerche a pagamento.<p>**Questo può aiutarti** a comprendere meglio le parole chiave che gli utenti usano nelle ricerche che generano traffico sul sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che determinano il traffico del sito.</p><p>Questo modello utilizza la dimensione Parola chiave di ricerca - Naturale. </p> |
-| **Motori di ricerca - tutti** | Visualizza i motori di ricerca utilizzati dai visitatori per raggiungere il tuo sito, indipendentemente dal fatto che sia a pagamento o naturale. <p>**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito.</p><p>Questo modello utilizza la dimensione Motore di ricerca. </p> |
-| **Motori di ricerca - a pagamento** | Visualizza i motori di ricerca utilizzati dai visitatori per raggiungere il tuo sito, che corrispondono al rilevamento di ricerche a pagamento.<p>**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito. </p><p>Questo modello utilizza la dimensione Motore di ricerca - Pagato. </p> |
-| **Motori di ricerca - naturale** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il tuo sito che non corrispondono al rilevamento di ricerche a pagamento.<p>**Questo può aiutarti** a comprendere meglio i motori di ricerca utilizzati dagli utenti che generano traffico sul sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come concentrare le tue attività SEO sui motori di ricerca che generano più traffico verso il sito.</p><p>Questo modello utilizza la dimensione Motore di ricerca - Naturale. </p> |
-| **Domini di riferimento** | Visualizza i domini su cui gli utenti fanno clic per raggiungere il tuo sito.<p>**Questo ti aiuta** a capire meglio quali siti di terze parti indirizzano più traffico verso il tuo. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno su cui un visitatore deve fare clic.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento. </p><p>Questo modello utilizza la dimensione Dominio di riferimento. </p> |
-| **Domini di riferimento originali** | Visualizza il primo dominio di riferimento tramite il quale gli utenti hanno fatto clic per raggiungere il sito. Una volta impostato, contiene lo stesso valore per l’intera durata di vita dell’ID visitatore.<p>**Questo può aiutarti** a capire meglio quali siti di terze parti originariamente indirizzano il traffico verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento originali. </p><p>Questo modello utilizza la dimensione Dominio di riferimento originale. </p> |
-| **Riferimenti** | Puoi vedere su quali URL si trovavano i visitatori quando facevano clic per raggiungere il tuo sito. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sull’URL esterno e un visitatore deve fare clic su di esso.  <p>**Questo può aiutarti** a capire meglio quali URL specifici indirizzano il maggior traffico verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come creare o modificare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dagli URL principali. </p><p>Questo modello utilizza la dimensione Dominio di riferimento </p><p>Questo modello utilizza la dimensione Referrer. </p> |
-| **Tipi di referrer** | Visualizza i canali generici attraverso i quali i visitatori hanno fatto clic per arrivare al sito. Adobe mantiene le regole per ogni canale. I canali possibili includono motori di ricerca, social network, altri siti web, disco rigido o e-mail.<p>**Questo può aiutarti** a capire meglio quale tipo di referrer gestisce più traffico verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come creare o modificare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti da un determinato canale.</p><p>Questo modello utilizza la dimensione Tipo referrer.</p> |
+| [!UICONTROL **Campagne**] > [!UICONTROL **Funnel di conversione campagna**] | Visualizza il numero di click-through e di pagamenti per le campagne. <p>**Questo può aiutarti** a comprendere meglio il modo in cui le campagne di marketing promuovono una conversione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio individuare quali campagne di marketing generano il maggior ROI.</p> |
+| [!UICONTROL **Campagne**] > [!UICONTROL **Prestazioni campagna**] | Visualizza i dettagli sulle prestazioni delle campagne di marketing.<p>**Questo può aiutarti** a comprendere meglio i vari indicatori di successo associati alle campagne, come ricavi, visualizzazioni prodotti, ordini e così via.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio concentrare le attività di marketing sulle campagne che generano maggior fatturato. </p><p>Questo modello utilizza la metrica Ricavi, la metrica Visualizzazioni prodotto, la metrica Aggiunte carrello, la metrica Ordini e la metrica Unità. Utilizza inoltre le dimensioni Codice di tracciamento e Dominio di riferimento. </p> |
+| **Acquisizione web** | Visualizza come il tuo sito web ottiene visitatori.<p>**Questo può aiutarti** a comprendere meglio i vari fattori che portano all’acquisizione, come le parole chiave di ricerca, il dominio di riferimento e così via.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali più efficaci.</p><p>Questo modello utilizza le metriche Percentuale non recapitate e Percentuale non recapitate. Vengono inoltre utilizzate le dimensioni Motore di ricerca, Parola chiave di ricerca, Pagina di ingresso, Dominio di riferimento, Codice di tracciamento e Referrer.  </p> |
+| **Parole chiave di ricerca - tutti** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che siano a pagamento o naturali. <p>**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito.</p><p>Questo modello utilizza la dimensione Parola chiave di ricerca. </p> |
+| **Parole chiave di ricerca - a pagamento** | Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il sito e che corrispondono al rilevamento della ricerca a pagamento.<p>**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito. </p><p>Questo modello utilizza la dimensione Parola chiave di ricerca - A pagamento. </p> |
+| **Parole chiave di ricerca - naturale** | Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il tuo sito e che non corrispondono al rilevamento della ricerca a pagamento.<p>**Questo può aiutarti** a comprendere meglio le parole chiave che le persone utilizzano nelle ricerche che generano traffico sul sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come identificare e colmare i gap SEO tra le parole chiave utilizzate e quelle che favoriscono il traffico del sito.</p><p>Questo modello utilizza la dimensione Parola chiave di ricerca - Naturale. </p> |
+| **Motori di ricerca - tutti** | Visualizza le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito, indipendentemente dal fatto che siano a pagamento o naturali. <p>**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito.</p><p>Questo modello utilizza la dimensione Motore di ricerca. </p> |
+| **Motori di ricerca - a pagamento** | Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il sito e che corrispondono al rilevamento della ricerca a pagamento.<p>**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito. </p><p>Questo modello utilizza la dimensione Motore di ricerca - Pagato. </p> |
+| **Motori di ricerca - naturale** | Visualizza le parole chiave di ricerca che i visitatori utilizzano per raggiungere il tuo sito e che non corrispondono al rilevamento della ricerca a pagamento.<p>**Questo può aiutarti** a comprendere meglio i motori di ricerca che le persone utilizzano e che generano traffico sul sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività SEO sui motori di ricerca che favoriscono maggiore traffico verso il tuo sito.</p><p>Questo modello utilizza la dimensione Motore di ricerca - Naturale. </p> |
+| **Domini di riferimento** | Visualizza i domini su cui le persone fanno clic per raggiungere il tuo sito.<p>**Questo può aiutarti** a comprendere meglio quali siti di terze parti favoriscono maggiore traffico verso il tuo sito. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento. </p><p>Questo modello utilizza la dimensione Dominio di riferimento. </p> |
+| **Domini di riferimento originali** | Visualizza il primo dominio di riferimento su cui le persone hanno fatto clic per raggiungere il sito. Una volta impostato, contiene lo stesso valore per l’intero ciclo di vita dell’ID visitatore.<p>**Questo può aiutarti** a comprendere meglio quali siti di terze parti inizialmente favoriscono il traffico verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o regolare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dai principali domini di riferimento originali. </p><p>Questo modello utilizza la dimensione Dominio di riferimento originale. </p> |
+| **Riferimenti** | Visualizza su quali URL si trovano i visitatori quando fanno clic per raggiungere il sito. Affinché l’elemento della dimensione venga visualizzato, deve esistere un collegamento sull’URL esterno e un visitatore deve fare clic su di esso.  <p>**Questo può aiutarti** a comprendere meglio quali URL specifici favoriscono maggiore traffico verso il tuo sito.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come creare o modificare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti dagli URL principali. </p><p>Questo modello utilizza la dimensione Dominio di riferimento </p><p>Questo modello utilizza la dimensione Referrer. </p> |
+| **Tipi di referrer** | Visualizza i canali generici su cui i visitatori hanno fatto clic per arrivare al tuo sito. Adobe gestisce le regole per ciascun canale. I canali possibili includono motori di ricerca, social network, altri siti web, disco rigido o e-mail.<p>**Questo può aiutarti** a comprendere meglio quale tipo di referrer favorisce maggior traffico verso il tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo meglio agli interessi dei visitatori provenienti da un determinato canale.</p><p>Questo modello utilizza la dimensione Tipo referrer.</p> |
 
 ### Mobile: app mobile {#mobile-app}
 
@@ -1164,7 +1164,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--mobileappscreens"
 >title="Visualizza il numero di eventi, sessioni e persone associati a ciascuna schermata nell’app mobile."
->abstract="**Questo può aiutarti** a capire meglio quali schermate del tuo sito sono più popolari.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti sugli schermi più popolari."
+>abstract="**Questo può aiutarti** a comprendere meglio quali schermate del tuo sito sono più popolari.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i contenuti delle schermate più popolari."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1172,8 +1172,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobileappactions"
->title="Visualizza le azioni che gli utenti stanno intraprendendo sulla tua app mobile."
->abstract="**Questo può aiutarti** a comprendere meglio come le persone usano la tua app e il valore che ne traggono.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come sviluppare funzionalità che si completano o migliorano rispetto a quelle più popolari."
+>title="Visualizza le azioni che le persone intraprendono sull’app mobile."
+>abstract="**Questo può aiutarti** a comprendere meglio come le persone utilizzano la tua app e il valore che ne traggono.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come sviluppare funzioni che completino o perfezionino quelle più popolari."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1183,8 +1183,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-lifecycle-metrics-app-usage-template"
->title="Visualizza il numero di utenti, avvii e primi avvii nell&#39;app, nonché la durata media della sessione."
->abstract="**Questo ti aiuta** a capire meglio quanto viene utilizzata l&#39;app. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare le prestazioni dell&#39;app in modo che possano essere scalate in base alla quantità di utilizzo."
+>title="Visualizza il numero di utenti, avvii e primi avvii sull’app, nonché la durata media di una sessione."
+>abstract="**Questo può aiutarti** a comprendere meglio quanto viene utilizzata l’applicazione. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1192,8 +1192,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-journeys"
->title="Visualizza i pattern di utilizzo principali per la tua app mobile."
->abstract="**Questo ti aiuta** a capire meglio come le persone usano la tua app. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il modo in cui le persone possono passare da una schermata all&#39;altra per eseguire il targeting dei flussi di lavoro più comuni."
+>title="Visualizza i pattern di utilizzo principali per l’app mobile."
+>abstract="**Questo può aiutarti** a comprendere meglio il modo in cui le persone utilizzano la tua app. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il modo in cui le persone passano da una schermata all’altra per i flussi di lavoro più comuni."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1202,7 +1202,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-key-metrics"
 >title="Visualizza alcune delle metriche più comuni per le app mobili."
->abstract="**Questo ti aiuta** a comprendere meglio le prestazioni di base della tua app mobile.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare lo stato e le prestazioni complessive dell&#39;app."
+>abstract="**Questo può aiutarti** a comprendere meglio le prestazioni di base della tua app mobile.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare lo stato e le prestazioni complessive dell’app."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1210,8 +1210,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-messaging"
->title="Visualizza i dati sulle prestazioni per i messaggi in-app e push per la tua app."
->abstract="**Questo ti aiuta** a capire meglio come le persone utilizzano le funzionalità di messaggistica in-app e come le notifiche push indirizzino efficacemente il traffico verso la tua app.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare l&#39;esperienza di notifica push della messaggistica in-app."
+>title="Visualizza i dati sulle prestazioni per la messaggistica in-app e push dell’applicazione."
+>abstract="**Questo può aiutarti** a comprendere meglio come le persone utilizzano le funzionalità di messaggistica in-app e l’efficacia delle notifiche push nell’indirizzare più traffico verso la tua app.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare l’esperienza di notifica push in-app."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1220,7 +1220,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-performance-template"
 >title="Visualizza le prestazioni dell’app e dove gli utenti riscontrano problemi."
->abstract="**Questo può aiutarti** a capire meglio se gli utenti che usano la tua app riscontrano rallentamento o prestazioni ridotte. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come risolvere problemi esistenti o migliorare le prestazioni dell&#39;app prima che si verifichino dei problemi."
+>abstract="**Questo può aiutarti** a comprendere meglio se chi utilizza la tua app riscontra rallentamenti o prestazioni ridotte. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come risolvere dei problemi esistenti o migliorare le prestazioni dell’app prima che si verifichino dei problemi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1228,8 +1228,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-retention"
->title="Puoi vedere quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app."
->abstract="**Questo può aiutarti** a capire meglio come i tuoi utenti più fedeli stanno utilizzando la tua app.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio migliorare le tue attività di marketing per le funzionalità utilizzate dai tuoi utenti più fedeli."
+>title="Visualizza quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app."
+>abstract="**Questo può aiutarti** a comprendere meglio come i tuoi utenti più fedeli utilizzano la tua applicazione.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le attività di marketing per le funzioni utilizzate dagli utenti più fedeli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1237,23 +1237,23 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Schermate app mobile**] | Visualizza il numero di eventi, sessioni e persone associati a ciascuna schermata nell’app mobile.<p>**Questo può aiutarti** a capire meglio quali schermate del tuo sito sono più popolari.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti sugli schermi più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. Utilizza anche la dimensione Titolo pagina.</p> |
-| **Azioni app mobile** | Visualizza le azioni che gli utenti stanno intraprendendo sulla tua app mobile. <p>**Questo può aiutarti** a comprendere meglio come le persone usano la tua app e il valore che ricevono da essa.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come migliorare le funzionalità di sviluppo che si completano o migliorano rispetto a quelle più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. |
-| **Utilizzo app mobile** | Visualizza il numero di utenti, avvii e primi avvii nell&#39;app, nonché la durata media della sessione.<p>**Questo ti aiuta** a capire meglio quanto viene utilizzata l&#39;app. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare le prestazioni dell&#39;app in modo che possano essere scalate in base alla quantità di utilizzo.</p><!-- This template uses the --> |
-| **percorsi di app mobili** | Visualizza i pattern di utilizzo principali per la tua app mobile. <p>**Questo ti aiuta** a capire meglio come le persone usano la tua app. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare il modo in cui le persone possono passare da una schermata all&#39;altra per eseguire il targeting dei flussi di lavoro più comuni. </p><!-- This template uses the --> |
-| **Metriche app mobile** | Visualizza alcune delle metriche più comuni per le app mobili. <p>**Questo ti aiuta** a comprendere meglio le prestazioni di base della tua app mobile.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio valutare lo stato e le prestazioni complessive dell&#39;app.</p><!-- This template uses the --> |
-| **Messaggistica app mobile** | Visualizza i dati sulle prestazioni per i messaggi in-app e push per la tua app.<p>**Questo ti aiuta** a capire meglio come le persone utilizzano le funzionalità di messaggistica in-app e come le notifiche push indirizzino efficacemente il traffico verso la tua app.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare l&#39;esperienza di notifica push della messaggistica in-app.</p><!-- This template uses the --> |
-| **Prestazioni app mobile** | Visualizza le prestazioni dell’app e dove gli utenti riscontrano problemi. <p>**Questo può aiutarti** a capire meglio se gli utenti che usano la tua app riscontrano rallentamento o prestazioni ridotte. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come risolvere problemi esistenti o migliorare le prestazioni dell&#39;app prima che si verifichino dei problemi.</p><!-- This template uses the --> |
-| **Conservazione app mobile** | Puoi vedere quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app. <p>**Questo può aiutarti** a capire meglio come i tuoi utenti più fedeli stanno utilizzando la tua app.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio migliorare le tue attività di marketing per le funzionalità utilizzate dai tuoi utenti più fedeli.</p><!-- This template uses the --> |
+| [!UICONTROL **Schermate app mobile**] | Visualizza il numero di eventi, sessioni e persone associati a ciascuna schermata nell’app mobile.<p>**Questo può aiutarti** a comprendere meglio quali schermate del tuo sito sono più popolari.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i contenuti delle schermate più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. Utilizza anche la dimensione Titolo pagina.</p> |
+| **Azioni app mobile** | Visualizza le azioni che le persone intraprendono sull’app mobile. <p>**Questo può aiutarti** a comprendere meglio come le persone usano la tua app e il valore che ricevono da essa.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come migliorare le funzionalità di sviluppo che si completano o migliorano rispetto a quelle più popolari.</p><p>Questo modello utilizza le metriche Eventi, Sessioni, Persone e Modifica percentuale. |
+| **Utilizzo app mobile** | Visualizza il numero di utenti, avvii e primi avvii sull’app, nonché la durata media di una sessione.<p>**Questo ti aiuta** a capire meglio quanto viene utilizzata l&#39;app. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo.</p><!-- This template uses the --> |
+| **percorsi di app mobili** | Visualizza i pattern di utilizzo principali per l’app mobile. <p>**Questo ti aiuta** a capire meglio come le persone usano la tua app. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il modo in cui le persone passano da una schermata all’altra per i flussi di lavoro più comuni. </p><!-- This template uses the --> |
+| **Metriche app mobile** | Visualizza alcune delle metriche più comuni per le app mobili. <p>**Questo può aiutarti** a comprendere meglio le prestazioni di base della tua app mobile.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare lo stato e le prestazioni complessive dell’app.</p><!-- This template uses the --> |
+| **Messaggistica app mobile** | Visualizza i dati sulle prestazioni per la messaggistica in-app e push dell’applicazione.<p>**Questo può aiutarti** a comprendere meglio come le persone utilizzano le funzionalità di messaggistica in-app e l’efficacia delle notifiche push nell’indirizzare più traffico verso la tua app.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare l’esperienza di notifica push in-app.</p><!-- This template uses the --> |
+| **Prestazioni app mobile** | Visualizza le prestazioni dell’app e dove gli utenti riscontrano problemi. <p>**Questo può aiutarti** a capire meglio se gli utenti che usano la tua app riscontrano rallentamento o prestazioni ridotte. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come risolvere dei problemi esistenti o migliorare le prestazioni dell’app prima che si verifichino dei problemi.</p><!-- This template uses the --> |
+| **Conservazione app mobile** | Visualizza quali utenti sono i più fedeli all’app e cosa fanno all’interno dell’app. <p>**Questo può aiutarti** a comprendere meglio come i tuoi utenti più fedeli utilizzano la tua applicazione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le attività di marketing per le funzioni utilizzate dagli utenti più fedeli.</p><!-- This template uses the --> |
 
-### Mobile: informazioni dispositivo mobile {#mobile-devices}
+### Mobile: informazioni sui dispositivi mobili {#mobile-devices}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="template--mobileCarrierRankedReport"
->title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili.utilizzati dagli utenti per accedere al sito."
->abstract="**Questo può aiutarti** a capire meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle funzionalità di rete di diversi gestori per garantire un&#39;esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore mobile."
+>title="Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili che le persone utilizzano per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle funzionalità di rete dei diversi operatori, in modo da garantire un’esperienza utente fluida.<br/>Questo modello utilizza la dimensione Operatore di telefonia mobile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1261,8 +1261,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobileDeviceNameRankedReport"
->title="Visualizza la marca e il modello dei dispositivi mobili utilizzati dagli utenti per accedere al tuo sito."
->abstract="**Questo può aiutarti** a capire meglio quali dispositivi mobili sono più popolari nella tua base di utenti.<br/>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.<br/>Questo modello utilizza la dimensione Nome dispositivo mobile."
+>title="Visualizza la marca e il modello dei dispositivi mobili utilizzati dalle persone per accedere al sito."
+>abstract="**Questo può aiutarti** a comprendere meglio quali siano i dispositivi mobili più popolari nella tua base di utenti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.<br/>Questo modello utilizza la dimensione Nome dispositivo mobile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1270,8 +1270,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobileDeviceTypeRankedReport"
->title="Visualizza i tipi di dispositivi mobili utilizzati dagli utenti per accedere al sito, ad esempio telefoni e tablet."
->abstract="**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.<br/>Questo modello utilizza la dimensione Tipo di dispositivo mobile."
+>title="Visualizza i tipi di dispositivi mobili utilizzati dalle persone per accedere al sito, ad esempio telefoni e tablet."
+>abstract="**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.<br/>Questo modello utilizza la dimensione Tipo di dispositivo mobile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1279,8 +1279,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="template--mobileManufacturerRankedReport"
->title="Visualizza quali produttori producono i dispositivi mobili utilizzati dagli utenti per accedere al tuo sito, ad esempio Apple e Samsung."
->abstract="**Questo può aiutarti** a capire meglio quali produttori sono più popolari nella tua base di utenti.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle capacità di diversi produttori per garantire un&#39;esperienza utente fluida.<br/>Questo modello utilizza la dimensione Produttore di dispositivi mobili."
+>title="Visualizza i produttori dei dispositivi mobili utilizzati per accedere al sito, ad esempio Apple e Samsung."
+>abstract="**Questo può aiutarti** a comprendere meglio quali produttori sono più popolari nella tua base di utenti.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle capacità dei diversi produttori, in modo da garantire un’esperienza utente fluida.<br/>Questo modello utilizza la dimensione Produttore dispositivi mobili."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1288,12 +1288,12 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Operatore mobile**] | Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili.utilizzati dagli utenti per accedere al sito.<p>**Questo può aiutarti** a capire meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle funzionalità di rete di diversi gestori per garantire un&#39;esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Operatore mobile.</p> |
-| **Dispositivi** | Visualizza la marca e il modello dei dispositivi mobili utilizzati dagli utenti per accedere al tuo sito.<p>**Questo può aiutarti** a capire meglio quali dispositivi mobili sono più popolari nella tua base di utenti.</p><p>**In base a ciò che hai appreso, potresti** eseguire una serie di operazioni, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.</p><p>Questo modello utilizza la dimensione Nome dispositivo mobile.</p> |
-| **Tipo di dispositivo** | Visualizza i tipi di dispositivi mobili utilizzati dagli utenti per accedere al sito, ad esempio telefoni e tablet.<p>**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.</p><p>Questo modello utilizza la dimensione Tipo di dispositivo mobile.</p> |
-| **Produttore** | Visualizza quali produttori producono i dispositivi mobili utilizzati dagli utenti per accedere al tuo sito, ad esempio Apple e Samsung.<p>**Questo può aiutarti** a capire meglio quali produttori sono più popolari nella tua base di utenti.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio personalizzare la distribuzione dei contenuti in base alle capacità di diversi produttori per garantire un&#39;esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Produttore di dispositivi mobili.</p> |
+| [!UICONTROL **Operatore mobile**] | Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili che le persone utilizzano per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle funzionalità di rete dei diversi operatori, in modo da garantire un’esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Operatore mobile.</p> |
+| **Dispositivi** | Visualizza la marca e il modello dei dispositivi mobili utilizzati dalle persone per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio quali siano i dispositivi mobili più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.</p><p>Questo modello utilizza la dimensione Nome dispositivo mobile.</p> |
+| **Tipo di dispositivo** | Visualizza i tipi di dispositivi mobili utilizzati dalle persone per accedere al sito, ad esempio telefoni e tablet.<p>**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.</p><p>Questo modello utilizza la dimensione Tipo di dispositivo mobile.</p> |
+| **Produttore** | Visualizza i produttori dei dispositivi mobili utilizzati per accedere al sito, ad esempio Apple e Samsung.<p>**Questo può aiutarti** a comprendere meglio quali produttori sono più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle capacità dei diversi produttori, in modo da garantire un’esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Produttore di dispositivi mobili.</p> |
 
-### Suddivisione del tempo {#time-parting}
+### Suddivisione temporale {#time-parting}
 
 <!--CJA only-->
 
@@ -1301,8 +1301,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--minuteOfHour"
->title="Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, in un rapporto con un arco temporale di reporting di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le risorse per i momenti di picco, fino al minuto.<br/>Questo modello utilizza la dimensione Minuto dell&#39;ora."
+>title="Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, se disponi di un rapporto con un arco temporale di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le risorse per le ore di punta, minuto per minuto.<br/>Questo modello utilizza la dimensione Minuto dell’ora."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1310,8 +1310,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--hourOfDay"
->title="Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.<br/>Questo modello utilizza la dimensione Ora del giorno."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale."
+>abstract="**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.<br/>Questo modello utilizza la dimensione Ora del giorno."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1319,8 +1319,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--am-pm"
->title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per AM e PM. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, le ore AM di ogni giorno sono raggruppate nello stesso elemento dimensionale."
->abstract="***Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.<br/>Questo modello utilizza la dimensione AM/PM."
+>title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per ore AM e PM. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, le ore prima di mezzogiorno di ciascun giorno vengono raggruppate nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.<br/>Questo modello utilizza la dimensione AM/PM."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1328,8 +1328,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--dayOfWeek"
->title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, in un rapporto che si estende sul mese di gennaio, ogni giorno della settimana è raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio quali giorni della settimana il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno della settimana."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno della settimana. Ad esempio, se disponi di un rapporto che copre il mese di gennaio, ogni giorno della settimana viene raggruppato nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio quali giorni della settimana il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno della settimana."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1337,8 +1337,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--dayOfMonth"
->title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se un rapporto si estende su un anno intero, ogni giorno del mese viene raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio quali giorni di ogni mese il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno del mese."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se disponi di un rapporto che copre un intero anno, ogni giorno del mese viene raggruppato nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio quali giorni di ogni mese il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno del mese."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1346,8 +1346,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--dayOfYear"
->title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio quali giorni di ogni anno il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno dell&#39;anno."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno dell’anno. Ad esempio, se disponi di un rapporto che ricopre più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio quali giorni di ogni anno il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.<br/>Questo modello utilizza la dimensione Giorno dell’anno."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1355,8 +1355,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--weekdayWeekend"
->title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorni feriali e weekend. Ad esempio, in un rapporto che si estende sul mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi dimensionali separati."
->abstract="**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito nei giorni feriali rispetto ai fine settimana.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come fare più personale al call center nei fine settimana, se il rapporto indica che i fine settimana sono più occupati dei giorni feriali.<br/>Questo modello utilizza la dimensione Giorno feriale/Fine settimana."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per giorni del fine settimana e giorni feriali. Ad esempio, se disponi di un rapporto che ricopre il mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi di dimensione separati."
+>abstract="**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito durante i giorni feriali rispetto ai giorni del fine settimana.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aumentare il personale del call center nei fine settimana, se il rapporto indica che tali giorni sono più impegnativi rispetto a quelli feriali.<br/>Questo modello utilizza la dimensione Giorno feriale/Fine settimana."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1364,8 +1364,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--weekOfYear"
->title="Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni settimana viene raggruppata nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio quali settimane dell&#39;anno il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per le settimane a traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Settimana dell&#39;anno."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni settimana viene raggruppata nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio quali settimane dell’anno il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nelle settimane con traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Settimana dell’anno."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1373,8 +1373,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--monthOfYear"
->title="Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni mese viene raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio in quali mesi il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per i mesi a traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Mese dell&#39;anno."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni mese viene raggruppato nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio in quali mesi il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei mesi con traffico elevato, ad esempio durante le vacanze.<br/>Questo modello utilizza la dimensione Mese dell’anno."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1382,8 +1382,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--quarterOfYear"
->title="Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per trimestre dell&#39;anno. Ad esempio, se un rapporto si estende su più anni, ogni trimestre viene raggruppato nello stesso elemento dimensionale."
->abstract="**Questo può aiutarti** a capire meglio quali sono i quartieri in cui il tuo sito viene visitato più frequentemente e meno frequentemente.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come ad esempio il tempo di lancio dei prodotti per aumentare i trimestri a traffico storicamente basso.<br/>Questo modello utilizza la dimensione Trimestre dell&#39;anno."
+>title="Visualizza eventi, sessioni e persone sul sito, suddivisi per trimestre dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni trimestre viene raggruppato nello stesso elemento della dimensione."
+>abstract="**Questo può aiutarti** a comprendere meglio quali sono i trimestri in cui il tuo sito viene visitato più e meno frequentemente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio programmare il lancio dei prodotti in modo da potenziare i trimestri storicamente a basso traffico.<br/>Questo modello utilizza la dimensione Trimestre dell’anno."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1391,16 +1391,16 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Minuto dell&#39;ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, in un rapporto con un arco temporale di reporting di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le risorse per i momenti di picco, fino al minuto.</p><p>Questo modello utilizza la dimensione Minuto dell’ora.</p> |
-| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
-| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per AM e PM. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, le ore AM di ogni giorno sono raggruppate nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l&#39;ora del giorno in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base alle informazioni acquisite, è possibile** eseguire un&#39;operazione qualsiasi, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
-| **Giorno della settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, in un rapporto che si estende sul mese di gennaio, ogni giorno della settimana è raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni della settimana il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana.</p> |
-| **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se un rapporto si estende su un anno intero, ogni giorno del mese viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni mese il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese.</p> |
-| **Giorno dell’anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento dimensionale. <p>**Questo può aiutarti** a capire meglio quali giorni di ogni anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come assegnare al call center personale più appropriato per i giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno dell’anno.&lt;/> |
-| **Giorno feriale/Fine settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorni feriali e weekend. Ad esempio, in un rapporto che si estende sul mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi dimensionali separati. <p>**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito nei giorni feriali rispetto ai fine settimana.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come fare più personale al call center nei fine settimana, se il rapporto indica che i fine settimana sono più occupati dei giorni feriali.</p><p>Questo modello utilizza la dimensione Giorno feriale/Fine settimana.</p> |
-| **Settimana dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni settimana viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali settimane dell&#39;anno il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per le settimane a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Settimana dell’anno.</p> |
-| **Mese dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se un rapporto si estende su più anni, ogni mese viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio in quali mesi il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che hai appreso, potresti** fare più cose, come personale del call center più appropriato per i mesi a traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Mese dell’anno.</p> |
-| **Trimestre dell’anno** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per trimestre dell&#39;anno. Ad esempio, se un rapporto si estende su più anni, ogni trimestre viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a capire meglio quali sono i quartieri in cui il tuo sito viene visitato più frequentemente e meno frequentemente.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come ad esempio il tempo di lancio dei prodotti per aumentare i trimestri a traffico storicamente basso.</p><p>Questo modello utilizza la dimensione Trimestre dell’anno.</p> |
+| [!UICONTROL **Minuto dell&#39;ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, se disponi di un rapporto con un arco temporale di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le risorse per le ore di punta, minuto per minuto.</p><p>Questo modello utilizza la dimensione Minuto dell’ora.</p> |
+| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
+| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per ore AM e PM. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, le ore prima di mezzogiorno di ciascun giorno vengono raggruppate nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
+| **Giorno della settimana** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per giorno della settimana. Ad esempio, se disponi di un rapporto che copre il mese di gennaio, ogni giorno della settimana viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni della settimana il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana.</p> |
+| **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se disponi di un rapporto che copre un intero anno, ogni giorno del mese viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni di ogni mese il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese.</p> |
+| **Giorno dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno dell’anno. Ad esempio, se disponi di un rapporto che ricopre più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni di ogni anno il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno dell’anno.&lt;/> |
+| **Giorno feriale/Fine settimana** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorni del fine settimana e giorni feriali. Ad esempio, se disponi di un rapporto che ricopre il mese di gennaio, i giorni feriali e i fine settimana sono raggruppati in elementi di dimensione separati. <p>**Questo può aiutarti** a comprendere meglio le differenze nel traffico del sito durante i giorni feriali rispetto ai giorni del fine settimana.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aumentare il personale del call center nei fine settimana, se il rapporto indica che tali giorni sono più impegnativi rispetto a quelli feriali.</p><p>Questo modello utilizza la dimensione Giorno feriale/Fine settimana.</p> |
+| **Settimana dell&#39;anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per settimana dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni settimana viene raggruppata nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio quali settimane dell’anno il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nelle settimane con traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Settimana dell’anno.</p> |
+| **Mese dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni mese viene raggruppato nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio in quali mesi il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei mesi con traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Mese dell’anno.</p> |
+| **Trimestre dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per trimestre dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni trimestre viene raggruppato nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio quali sono i trimestri in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio programmare il lancio dei prodotti in modo da potenziare i trimestri storicamente a basso traffico.</p><p>Questo modello utilizza la dimensione Trimestre dell’anno.</p> |
 
 ### Cross-Channel {#cross-channel}
 
@@ -1410,8 +1410,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--multiChannelOverview"
->title="Visualizzare la distribuzione del traffico su più canali."
->abstract="**Questo può aiutarti** a capire meglio quali canali indirizzano con maggior successo il traffico e il coinvolgimento. <br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali che stanno ottenendo il massimo ritorno sull&#39;investimento.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
+>title="Visualizza la distribuzione del traffico su più canali."
+>abstract="**Questo può aiutarti** a comprendere meglio quali canali favoriscono maggior traffico e coinvolgimento con successo. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1419,8 +1419,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--callCenterDeflection"
->title="Visualizzare come il traffico web influisce sul traffico del call center."
->abstract="**Questo può aiutarti** a comprendere meglio come il contenuto self-service sul tuo sito web stia deviando il traffico verso il tuo call center.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti self-service per ridurre il traffico verso il call center, o misurare il ROI dei contenuti self-service calcolando la quantità risparmiata attraverso meno chiamate di supporto.<br/>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel."
+>title="Visualizza come il traffico web influisce sul traffico del call center."
+>abstract="**Questo può aiutarti** a comprendere meglio come il contenuto self-service del tuo sito web stia deviando il traffico verso il call center.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i contenuti self-service in modo da ridurre il traffico verso il call center, oppure misurare il ROI dei contenuti self-service calcolando l’importo risparmiato grazie a un minor numero di chiamate di supporto.<br/>Questo modello utilizza le metriche Sessioni web, Sessioni app mobile e Sessioni web+app cross-channel."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1428,8 +1428,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--webAppTemplate"
->title="Visualizzare il traffico web e quello mobile insieme."
->abstract="**Questo ti aiuta** a comprendere meglio la distribuzione del traffico web e mobile sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio dedicare più risorse all&#39;esperienza della tua app mobile quando raggiunge un certo livello di traffico.<br/>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel."
+>title="Visualizza il traffico web e il traffico sui dispositivi mobili insieme."
+>abstract="**Questo può aiutarti** a comprendere meglio la distribuzione del traffico web e sui dispositivi mobili sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse all’esperienza della tua app mobile quando raggiunge un certo livello di traffico.<br/>Questo modello utilizza le metriche Sessioni web, Sessioni app mobile e Sessioni web+app cross-channel."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1437,8 +1437,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--onlineOffline"
->title="Visualizza il traffico online e offline insieme."
->abstract="**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico."
+>title="Visualizza il traffico online e il traffico non in linea insieme."
+>abstract="**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e non in linea sul tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1446,10 +1446,10 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Panoramica multicanale**] | Visualizzare la distribuzione del traffico su più canali. <p>**Questo può aiutarti** a capire meglio quali canali indirizzano con maggior successo il traffico e il coinvolgimento. </p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, ad esempio concentrare le attività di marketing sui canali che stanno ottenendo il massimo ritorno sull&#39;investimento.</p><p>Questo modello utilizza le metriche utente, sessione ed evento.</p> |
-| **Web+App** | Visualizzare il traffico web e quello mobile insieme.<p>**Questo ti aiuta** a comprendere meglio la distribuzione del traffico web e mobile sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio dedicare più risorse all&#39;esperienza della tua app mobile quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
-| **Online/Offline** | Visualizza il traffico online e offline insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e offline sul tuo sito.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><!-- This template uses the ... --> |
-| **Deflessione del call center** | Visualizzare come il traffico web influisce sul traffico del call center.<p>**Questo può aiutarti** a comprendere meglio come il contenuto self-service sul tuo sito web stia deviando il traffico verso il tuo call center.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio migliorare i contenuti self-service per ridurre il traffico verso il call center, o misurare il ROI dei contenuti self-service calcolando la quantità risparmiata attraverso meno chiamate di supporto.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
+| [!UICONTROL **Panoramica multicanale**] | Visualizza la distribuzione del traffico su più canali. <p>**Questo può aiutarti** a capire meglio quali canali indirizzano con maggior successo il traffico e il coinvolgimento. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.</p><p>Questo modello utilizza le metriche utente, sessione ed evento.</p> |
+| **Web+App** | Visualizza il traffico web e il traffico sui dispositivi mobili insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico web e sui dispositivi mobili sul tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse all’esperienza della tua app mobile quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
+| **Online/Offline** | Visualizza il traffico online e il traffico non in linea insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e non in linea sul tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><!-- This template uses the ... --> |
+| **Deflessione del call center** | Visualizza come il traffico web influisce sul traffico del call center.<p>**Questo può aiutarti** a comprendere meglio come il contenuto self-service del tuo sito web stia deviando il traffico verso il call center.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i contenuti self-service in modo da ridurre il traffico verso il call center, oppure misurare il ROI dei contenuti self-service calcolando l’importo risparmiato grazie a un minor numero di chiamate di supporto.</p><p>Questo modello utilizza le metriche Sessioni Web, Sessioni app mobile e Sessioni Web+App cross-channel.</p> |
 
 ### Altri canali {#other-channels}
 
@@ -1457,8 +1457,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--callcenterdashboard"
->title="Visualizzare i dati del call center, specificando il motivo per cui i clienti hanno chiamato e il numero di volte."
->abstract="**Questo può aiutarti** a capire meglio dove si verificano problemi con i clienti e dove vengono spese le risorse del call center.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio risolvere problemi di prodotto che stanno aumentando il traffico del call center, migliorando in ultima analisi la redditività del prodotto."
+>title="Visualizza i dati del call center, includendo il motivo per cui la clientela ha chiamato e il numero di volte."
+>abstract="**Questo può aiutarti** a comprendere meglio dove si verificano problemi con la clientela e dove vengono spese le risorse relative al call center.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio risolvere problemi relativi a un prodotto che determinano un aumento del traffico del call center, migliorando in ultima analisi la redditività del prodotto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1466,8 +1466,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--pointOfSale"
->title="Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che visualizzano informazioni sui negozi principali, i prodotti principali e le categorie di prodotti principali, nonché sulle vendite online e offline."
->abstract="**Questo ti aiuta** a capire meglio quali sono i tuoi prodotti più venduti nei vari punti vendita e online.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio assegnare più risorse di marketing ai tuoi prodotti e canali dalle prestazioni più elevate."
+>title="Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che mostrano informazioni sui principali negozi, prodotti e categorie di prodotti, nonché sulle vendite online e non in linea."
+>abstract="**Questo può aiutarti** a comprendere meglio quali sono i tuoi prodotti più venduti nei vari punti vendita e online.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di marketing ai prodotti e i canali con le migliori prestazioni."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1476,7 +1476,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-email"
 >title="Visualizza in che modo le e-mail progettate e inviate tramite Adobe Journey Optimizer generano nuove appartenenze, membri fedeltà e opportunità di cross-selling."
->abstract="**Questo ti aiuta** a comprendere meglio l&#39;efficacia delle e-mail che progetti e invii utilizzando Adobe Journey Optimizer.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare la tua strategia e-mail per una determinata campagna e-mail."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia delle e-mail progettate e inviate tramite Adobe Journey Optimizer.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare la tua strategia e-mail per una determinata campagna e-mail."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1484,8 +1484,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--survey"
->title="Visualizzare il coinvolgimento degli utenti nei sondaggi. Visualizza il numero di avvii e completamenti, le domande e risposte principali e il numero di partecipanti nuovi rispetto a quelli ripetuti."
->abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i sondaggi futuri per ottenere una migliore partecipazione."
+>title="Visualizza il coinvolgimento dell’utente nei sondaggi. Visualizza il numero di avvii e completamenti, domande e risposte principali e numero di partecipanti nuovi rispetto a quelli ripetuti."
+>abstract="**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare i sondaggi futuri per ottenere una migliore partecipazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1493,10 +1493,10 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Dashboard del call center**] | Visualizzare i dati del call center, specificando il motivo per cui i clienti hanno chiamato e il numero di volte. <p>**Questo può aiutarti** a capire meglio dove si verificano problemi con i clienti e dove vengono spese le risorse del call center.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio risolvere problemi di prodotto che stanno aumentando il traffico del call center, migliorando in ultima analisi la redditività del prodotto.</p> |
-| **Punto vendita** | Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che visualizzano informazioni sui negozi principali, i prodotti principali e le categorie di prodotti principali, nonché sulle vendite online e offline. <p>**Questo ti aiuta** a capire meglio quali sono i tuoi prodotti più venduti nel punto vendita e online.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio assegnare più risorse di marketing ai tuoi prodotti e canali dalle prestazioni più elevate.</p><p>Questo modello utilizza le metriche Utenti, Ricavi e Ordini.</p> |
-| **Analisi e-mail Journey Optimizer** | Visualizza in che modo le e-mail progettate e inviate tramite Adobe Journey Optimizer generano nuove appartenenze, membri fedeltà e opportunità di cross-selling. <p>**Questo ti aiuta** a comprendere meglio l&#39;efficacia delle e-mail che progetti e invii utilizzando Adobe Journey Optimizer.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare la tua strategia e-mail per una determinata campagna e-mail.</p> |
-| **Sondaggio** | Visualizzare il coinvolgimento degli utenti nei sondaggi. Visualizza il numero di avvii e completamenti, le domande e risposte principali e il numero di partecipanti nuovi rispetto a quelli ripetuti.<p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio regolare i sondaggi futuri per ottenere una migliore partecipazione.</p><p>Questo modello utilizza le metriche Utenti, Eventi, Inizio sondaggio, Completamento sondaggio e Tasso di completamento sondaggio.</p> |
+| [!UICONTROL **Dashboard del call center**] | Visualizza i dati del call center, includendo il motivo per cui la clientela ha chiamato e il numero di volte. <p>**Questo può aiutarti** a comprendere meglio dove si verificano problemi con la clientela e dove vengono spese le risorse relative al call center.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio risolvere problemi relativi a un prodotto che determinano un aumento del traffico del call center, migliorando in ultima analisi la redditività del prodotto.</p> |
+| **Punto vendita** | Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che mostrano informazioni sui principali negozi, prodotti e categorie di prodotti, nonché sulle vendite online e non in linea. <p>**Questo ti aiuta** a capire meglio quali sono i tuoi prodotti più venduti nel punto vendita e online.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di marketing ai prodotti e i canali con le migliori prestazioni.</p><p>Questo modello utilizza le metriche Utenti, Ricavi e Ordini.</p> |
+| **Analisi e-mail Journey Optimizer** | Visualizza in che modo le e-mail progettate e inviate tramite Adobe Journey Optimizer generano nuove appartenenze, membri fedeltà e opportunità di cross-selling. <p>**Questo può aiutarti** a comprendere meglio l’efficacia delle e-mail progettate e inviate tramite Adobe Journey Optimizer.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare la tua strategia e-mail per una determinata campagna e-mail.</p> |
+| **Sondaggio** | Visualizza il coinvolgimento dell’utente nei sondaggi. Visualizza il numero di avvii e completamenti, domande e risposte principali e numero di partecipanti nuovi rispetto a quelli ripetuti.<p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare i sondaggi futuri per ottenere una migliore partecipazione.</p><p>Questo modello utilizza le metriche Utenti, Eventi, Inizio sondaggio, Completamento sondaggio e Tasso di completamento sondaggio.</p> |
 
 ### Journey Optimizer {#AJO-templates}
 
@@ -1507,7 +1507,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-campaign"
 >title="Visualizza le metriche essenziali per le campagne Journey Optimizer, tra cui campagne e-mail, sperimentazione, in-app, SMS e altro ancora."
->abstract="**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia della tua campagna e del livello di coinvolgimento.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione."
+>abstract="**Questo può aiutarti** a comprendere dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa sull’efficacia della tua campagna e sul livello di coinvolgimento.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico target."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1515,8 +1515,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-journey"
->title="Visualizzare le metriche essenziali per i percorsi Journey Optimizer, inclusi percorsi e-mail, sperimentazione, in-app, SMS e altro ancora."
->abstract="**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia e del livello di coinvolgimento del tuo percorso.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione."
+>title="Visualizza le metriche essenziali per i percorsi Journey Optimizer, tra cui percorsi e-mail, sperimentazione, in-app, SMS e altro ancora."
+>abstract="**Questo può aiutarti** a comprendere dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa sull’efficacia del tuo percorso e sul livello di coinvolgimento.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico target."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1524,8 +1524,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
->title="Visualizzare il comportamento degli utenti, i pattern di coinvolgimento, i tassi di conversione e altre metriche chiave."
->abstract="**Questo può aiutarti** a comprendere meglio l&#39;efficacia della tua pagina di destinazione. <br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le prestazioni della pagina di destinazione."
+>title="Visualizza il comportamento degli utenti, i pattern di coinvolgimento, i tassi di conversione e altre metriche chiave."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia della tua pagina di destinazione. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le prestazioni della tua pagina di destinazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1534,7 +1534,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
 >title="Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente."
->abstract="**Questo ti può aiutare** a comprendere meglio l&#39;efficacia di alto livello delle tue campagne e dei tuoi percorsi. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico di destinazione."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia ad alto livello delle tue campagne e dei tuoi percorsi. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1542,8 +1542,8 @@ Sono disponibili i seguenti modelli:
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
->title="Visualizzare gli abbonamenti e gli annullamenti degli abbonamenti dei profili associati a determinati elenchi."
->abstract="**Questo ti può aiutare** a comprendere meglio l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio regolare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico di destinazione."
+>title="Visualizza abbonamenti e annullamenti di abbonamenti dei profili associati a determinati elenchi."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia delle diverse campagne di abbonamento e delle iniziative nel promuovere il coinvolgimento e le conversioni.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico target."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1551,8 +1551,8 @@ Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Campagne Journey Optimizer**] | Visualizza le metriche essenziali per le campagne Journey Optimizer, tra cui campagne e-mail, sperimentazione, in-app, SMS e altro ancora.<p>**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia della tua campagna e del livello di coinvolgimento.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione.</p> |
-| **percorsi Journey Optimizer** | Visualizzare le metriche essenziali per i percorsi Journey Optimizer, inclusi percorsi e-mail, sperimentazione, in-app, SMS e altro ancora.<p>**Questo ti aiuta** a comprendere meglio dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa dell&#39;efficacia e del livello di coinvolgimento del tuo percorso.</p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico di destinazione.</p> |
-| **Pagine di destinazione di Journey Optimizer** | Visualizzare il comportamento degli utenti, i pattern di coinvolgimento, i tassi di conversione e altre metriche chiave.<p>**Questo può aiutarti** a comprendere meglio l&#39;efficacia della tua pagina di destinazione. </p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, ad esempio ottimizzare le prestazioni della pagina di destinazione.</p> |
-| **Rapporto panoramica su Journey Optimizer** | Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente.<p>**Questo ti può aiutare** a comprendere meglio l&#39;efficacia di alto livello delle tue campagne e dei tuoi percorsi. </p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico di destinazione.</p> |
-| **Iscrizioni Journey Optimizer** | Visualizzare gli abbonamenti e gli annullamenti degli abbonamenti dei profili associati a determinati elenchi.<p>**Questo ti può aiutare** a comprendere meglio l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio regolare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico di destinazione.</p> |
+| [!UICONTROL **Campagne Journey Optimizer**] | Visualizza le metriche essenziali per le campagne Journey Optimizer, tra cui campagne e-mail, sperimentazione, in-app, SMS e altro ancora.<p>**Questo può aiutarti** a comprendere dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa sull’efficacia della tua campagna e sul livello di coinvolgimento.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico target.</p> |
+| **percorsi Journey Optimizer** | Visualizza le metriche essenziali per i percorsi Journey Optimizer, tra cui percorsi e-mail, sperimentazione, in-app, SMS e altro ancora.<p>**Questo può aiutarti** a comprendere dettagli quali il numero di clic e il numero di messaggi inviati, offrendo una visione completa sull’efficacia del tuo percorso e sul livello di coinvolgimento.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne in base ai livelli di coinvolgimento del pubblico target.</p> |
+| **Pagine di destinazione di Journey Optimizer** | Visualizza il comportamento degli utenti, i pattern di coinvolgimento, i tassi di conversione e altre metriche chiave.<p>**Questo può aiutarti** a comprendere meglio l&#39;efficacia della tua pagina di destinazione. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le prestazioni della tua pagina di destinazione.</p> |
+| **Rapporto panoramica su Journey Optimizer** | Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente.<p>**Questo ti può aiutare** a comprendere meglio l&#39;efficacia di alto livello delle tue campagne e dei tuoi percorsi. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target.</p> |
+| **Iscrizioni Journey Optimizer** | Visualizza abbonamenti e annullamenti di abbonamenti dei profili associati a determinati elenchi.<p>**Questo può aiutarti** a comprendere meglio l’efficacia delle diverse campagne di abbonamento e delle iniziative nel promuovere il coinvolgimento e le conversioni.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico target.</p> |

@@ -27,7 +27,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_button"
 >title="Bullet"
->abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
+>abstract="Crea una visualizzazione con grafico bullet per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->
 

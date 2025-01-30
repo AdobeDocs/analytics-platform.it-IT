@@ -7,7 +7,7 @@ role: User
 source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_area"
->title="Sottotitoli intelligenti: area"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: area"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_bar"
->title="Sottotitoli intelligenti: barra"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: barre"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,8 +35,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_donut"
->title="Didascalie intelligenti: Anello"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: anello"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,8 +44,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_horizontalbar"
->title="Sottotitoli intelligenti: barra orizzontale"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: barre orizzontali"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,8 +53,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_line"
->title="Sottotitoli intelligenti: linea"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: linee"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -62,8 +62,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_fallout"
->title="Sottotitoli intelligenti: Abbandono"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: fallout"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,8 +71,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_flow"
->title="Sottotitoli intelligenti: Flusso"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per comprendere e interpretare più facilmente i dati per questa visualizzazione."
+>title="Didascalie intelligenti: flusso"
+>abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 

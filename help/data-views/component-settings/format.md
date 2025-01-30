@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -54,14 +54,14 @@ Il formato consente di determinare come viene visualizzata una particolare metri
 
    {style="table-layout:auto"}
 
-## Usa conversione valuta {#use-currency-conversion}
+## Usare la conversione valuta {#use-currency-conversion}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_format_currencyconversion"
 >title="Conversione valuta"
->abstract="Seleziona una dimensione del codice valuta per configurare e visualizzare la valuta in un tipo di valuta selezionato."
+>abstract="Seleziona una dimensione del codice valuta per configurare e visualizzare la valuta in base al tipo selezionato."
 
 <!-- markdownlint-enable MD034 -->
 

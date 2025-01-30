@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistenza"
->abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting. Per ulteriori informazioni, vedere [impostazioni di allocazione](/help/data-views/component-settings/persistence.md#allocation-settings), [impostazioni di scadenza](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensione di binding](/help/data-views/component-settings/persistence.md#binding-dimension) e [metriche di binding](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting. Per ulteriori informazioni, consulta [impostazioni di allocazione](/help/data-views/component-settings/persistence.md#allocation-settings), [impostazioni di scadenza](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensione vincolante](/help/data-views/component-settings/persistence.md#binding-dimension) e [metriche vincolanti](/help/data-views/component-settings/persistence.md#binding-metric)."
 
 <!-- markdownlint-enable MD034 -->
 

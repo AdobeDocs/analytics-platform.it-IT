@@ -7,7 +7,7 @@ role: User
 source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4163'
-ht-degree: 28%
+ht-degree: 60%
 
 ---
 
@@ -39,34 +39,34 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="E"
->abstract="Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true)."
+>abstract="Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
-Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true).
+Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
 | logical_test | Richiede almeno un parametro, ma può richiedere un numero qualsiasi di parametri. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
 
 
-## Approximate Count Distinct {#approximate_count_distinct}
+## Conteggio distinto approssimativo {#approximate_count_distinct}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-count-distinct-metric"
->title="Approximate Count Distinct"
->abstract="Restituisce il conteggio distinto approssimativo degli elementi dimensione per la dimensione selezionata."
+>title="Conteggio distinto approssimativo"
+>abstract="Restituisce il conteggio distinto approssimativo degli elementi della dimensione per la dimensione selezionata."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
 
 
-Restituisce il conteggio distinto approssimativo degli elementi dimensione per la dimensione selezionata.
+Restituisce il conteggio distinto approssimativo degli elementi della dimensione per la dimensione selezionata.
 
 
 | Argomento | Descrizione |
@@ -79,14 +79,14 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 
 
 
-## Arco coseno {#arc-cosine}
+## Arcocoseno {#arc-cosine}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-acos"
->title="Arco coseno"
->abstract="Restituisce l’arcocoseno di una metrica, detto anche inverso del coseno. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI()."
+>title="Arcocoseno"
+>abstract="Restituisce l’arcocoseno di una metrica, detto anche inverso del coseno. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( )."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -109,7 +109,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="Arcoseno"
->abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L&#39;arcoseno è l&#39;angolo il cui seno è un numero. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcoseno in gradi, moltiplicate il risultato per 180/PI()"
+>abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( )."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -125,14 +125,14 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 
 
 
-## Arco tangente {#arc-tangent}
+## Arcotangente {#arc-tangent}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-atan"
->title="Arco tangente"
->abstract="Restituisce l’arcotangente, o tangente inversa, di un numero. L&#39;arcotangente è l&#39;angolo la cui tangente è un numero. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcotangente in gradi, moltiplicate il risultato per 180/PI()."
+>title="Arcotangente"
+>abstract="Restituisce l’arcotangente, o tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( )."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -155,13 +155,13 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
 >title="Cdf-T"
->abstract="Restituisce la probabilità che una variabile casuale con distribuzione di t-studente con n gradi di libertà abbia un punteggio z inferiore a col."
+>abstract="Restituisce la probabilità che una variabile casuale con distribuzione t di Student con n gradi di libertà abbia un punteggio z inferiore a col."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
 
-Restituisce la probabilità che una variabile casuale con distribuzione di t-studente con n gradi di libertà abbia un punteggio z inferiore a col.
+Restituisce la probabilità che una variabile casuale con distribuzione t di Student con n gradi di libertà abbia un punteggio z inferiore a col.
 
 | Argomento | Descrizione |
 |---|---|
@@ -208,14 +208,14 @@ CDF-Z(2) ? 0.97725
 CDF-Z(-3) ? 0.0013499
 ```
 
-## Soffitto {#ceiling}
+## Ceiling {#ceiling}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
->title="Soffitto"
->abstract="Restituisce l’integer più piccolo, non inferiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula CEILING(Revenue) per arrotondare le entrate al dollaro più vicino o 570 $."
+>title="Ceiling"
+>abstract="Restituisce l’integer più piccolo, non inferiore a un valore specificato. 70 esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,93 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -235,13 +235,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
 >title="Confidence"
->abstract="Calcolare l&#39;affidabilità valida in qualsiasi momento utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
+>abstract="Calcola il valore di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcolare l&#39;affidabilità valida in qualsiasi momento utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
+Calcola il valore di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
 L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
@@ -260,13 +260,13 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-lower"
 >title="Affidabilità (inferiore)"
->abstract="Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
+>abstract="Calcola il valore **inferiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcolare l&#39;affidabilità valida per qualsiasi tempo **lower** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniformi per tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
+Calcola il valore **inferiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
 L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
@@ -284,13 +284,13 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-upper"
 >title="Affidabilità (superiore)"
->abstract="Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](https://arxiv.org/pdf/2103.06476)."
+>abstract="Calcola il valore **superiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcolare l&#39;intervallo di confidenza valido per qualsiasi tempo **upper** utilizzando il metodo WASKR come descritto in [Teoria dei limiti centrali uniforme per il tempo e sequenze di confidenza asintotiche](https://arxiv.org/pdf/2103.06476).
+Calcola il valore **superiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
 L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
@@ -309,7 +309,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="Coseno"
->abstract="Restituisce il coseno dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
+>abstract="Restituisce il coseno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -352,13 +352,13 @@ Restituisce la radice cubica positiva di un numero. La radice cubica di un numer
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="Cumulativo"
->abstract="Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti."
+>abstract="Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
 
-Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti.
+Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti.
 
 | Argomento | Descrizione |
 | --- | --- |
@@ -374,20 +374,20 @@ Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gl
 | Luglio | $ 400 | $ 1100 | $ 600 |
 
 
-## Cumulativo (media) {#cumulative-average}
+## Media cumulativa {#cumulative-average}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
->title="Cumulativo (media)"
->abstract="Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti."
+>title="Media cumulativa"
+>abstract="Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
-Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, sommare gli elementi precedenti.
+Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti.
 
 | Argomento | Descrizione |
 | --- | --- |
@@ -407,13 +407,13 @@ Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gl
 >[!CONTEXTUALHELP]
 >id="functions-eq"
 >title="Uguale"
->abstract="Uguale. L’output è 0 (false) o 1 (true)."
+>abstract="Uguale. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
 
-Uguale. L’output è 0 (false) o 1 (true).
+Uguale. L’output è 0 (falso) o 1 (vero).
 
 
 | Argomento | Descrizione |
@@ -449,13 +449,13 @@ Uguale. L’output è 0 (false) o 1 (true).
 | metric_Y | Metrica da correlare con metric_X |
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
-## Regressione esponenziale: valore Y previsto {#exponential-regression-predicted-y}
+## Regressione esponenziale: Y previsto {#exponential-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
->title="Regressione esponenziale: valore Y previsto"
+>title="Regressione esponenziale: Y previsto"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -473,13 +473,13 @@ Uguale. L’output è 0 (false) o 1 (true).
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione esponenziale: intersezione {#exponential-regression-intercept}
+## Regressione esponenziale: intercetta {#exponential-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
->title="Regressione esponenziale: intersezione"
+>title="Regressione esponenziale: intercetta"
 >abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
@@ -527,7 +527,7 @@ Uguale. L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="Floor"
->abstract="Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per le entrate e il prezzo di un prodotto è pari a 569,34 $, utilizza la formula FLOOR(Revenue) per arrotondare le entrate al dollaro più vicino o 569 $."
+>abstract="Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 569 $."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -547,13 +547,13 @@ Uguale. L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-gt"
 >title="Maggiore di"
->abstract="L’output è 0 (false) o 1 (true)."
+>abstract="L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
 
-L’output è 0 (false) o 1 (true).
+L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
@@ -572,13 +572,13 @@ L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ge"
 >title="Maggiore di o uguale a"
->abstract="Maggiore o uguale a. L’output è 0 (false) o 1 (true)."
+>abstract="Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
 
-Maggiore o uguale a. L’output è 0 (false) o 1 (true).
+Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
@@ -654,14 +654,14 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 | metrica | Angolo in radianti di cui trovare la tangente iperbolica |
 
 
-## Se  {#if}
+## Se {#if}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-if"
->title="Se "
->abstract="Se il valore del parametro condition è diverso da zero (true), il risultato sarà il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false."
+>title="Se"
+>abstract="Se il valore del parametro di condizione è diverso da zero (vero), il risultato è il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -685,13 +685,13 @@ Maggiore o uguale a. L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-lt"
 >title="Minore di"
->abstract="L’output è 0 (false) o 1 (true)."
+>abstract="L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
 
-L’output è 0 (false) o 1 (true).
+L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
@@ -710,13 +710,13 @@ L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-le"
 >title="Minore o uguale a"
->abstract="Minore o uguale a. L’output è 0 (false) o 1 (true)."
+>abstract="Minore di o uguale a. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
 
-Minore o uguale a. L’output è 0 (false) o 1 (true).
+Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
@@ -729,7 +729,7 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 
 
 
-## Lift (#lift)
+## Incremento (#lift)
 
 <!-- markdownlint-disable MD034 -->
 
@@ -773,13 +773,13 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 
 
 
-## Regressione lineare: intersezione {#linear-regression-intercept}
+## Regressione lineare: intercetta {#linear-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-linear"
->title="Regressione lineare: intersezione"
+>title="Regressione lineare: intercetta"
 >abstract="Regressione lineare: Y = a X + b. Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
@@ -798,13 +798,13 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 
 
 
-## Regressione lineare: valore Y previsto {#linear-regression-predicted-y}
+## Regressione lineare: Y previsto {#linear-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
->title="Regressione lineare: valore Y previsto"
+>title="Regressione lineare: Y previsto"
 >abstract="Regressione lineare: Y = a X + b. Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -845,13 +845,13 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Base logaritmo 10 {#log-base-ten}
+## Log in base 10 {#log-base-ten}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-log10"
->title="Base logaritmo 10"
+>title="Log in base 10"
 >abstract="Restituisce il logaritmo base 10 di un numero."
 
 <!-- markdownlint-enable MD034 -->
@@ -867,14 +867,14 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 | metrica | Numero reale positivo di cui vuoi ottenere il logaritmo base 10 |
 
 
-## Regressione logaritmo: coefficiente di correlazione {#log-regression-correlation-coefficient}
+## Regressione logaritmica: coefficiente di correlazione {#log-regression-correlation-coefficient}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
->title="Regressione logaritmo: coefficiente di correlazione"
->abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce il coefficiente di correlazione."
+>title="Regressione logaritmica: coefficiente di correlazione"
+>abstract="Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -889,14 +889,14 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione registro: intersezione {#log-regression-intercept}
+## Regressione logaritmica: intercetta {#log-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
->title="Regressione registro: intersezione"
->abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce b."
+>title="Regressione logaritmica: intercetta"
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -912,14 +912,14 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 
 
 
-## Regressione registro: valore Y previsto {#log-regression-predicted-y}
+## Regressione logaritmica: Y previsto {#log-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
->title="Regressione registro: valore Y previsto"
->abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce Y."
+>title="Regressione logaritmica: Y previsto"
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -935,13 +935,13 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 
 
 
-## Regressione registro: pendenza {#log-regression-slope}
+## Regressione logaritmica: pendenza {#log-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
->title="Regressione registro: pendenza"
+>title="Regressione logaritmica: pendenza"
 >abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
@@ -965,13 +965,13 @@ Minore o uguale a. L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-log"
 >title="Logaritmo naturale"
->abstract="Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante e (2,71828182845904). LN è l’inverso della funzione EXP."
+>abstract="Restituisce il logaritmo naturale di un numero. I logaritmi naturali sono basati sulla costante e (2.71828182845904). LN è l’inverso della funzione EXP."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
 
-Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano sulla costante e (2,71828182845904). LN è l’inverso della funzione EXP.
+Restituisce il logaritmo naturale di un numero. I logaritmi naturali sono basati sulla costante e (2.71828182845904). LN è l’inverso della funzione EXP.
 
 | Argomento | Descrizione |
 |---|---|
@@ -979,20 +979,20 @@ Restituisce il logaritmo naturale di un numero. I logaritmi naturali si basano s
 
 
 
-## Not {#not}
+## Non {#not}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-not"
->title="Not"
->abstract="Negazione come booleano. L’output è 0 (false) o 1 (true)."
+>title="Non"
+>abstract="Negazione come booleano. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
 
-Negazione come booleano. L’output è 0 (false) o 1 (true).
+Negazione come booleano. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
@@ -1000,21 +1000,21 @@ Negazione come booleano. L’output è 0 (false) o 1 (true).
 
 
 
-## Not Equal {#not-equal}
+## Non uguale {#not-equal}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ne"
->title="Not Equal"
->abstract="Diverso da. L’output è 0 (false) o 1 (true)."
+>title="Non uguale"
+>abstract="Non uguale. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
 
 
-Diverso da. L’output è 0 (false) o 1 (true).
+Non uguale. L’output è 0 (falso) o 1 (vero).
 
 
 | Argomento | Descrizione |
@@ -1034,7 +1034,7 @@ Diverso da. L’output è 0 (false) o 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="Oppure"
->abstract="Disgiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (false) o 1 (true)."
+>abstract="Disgiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1093,13 +1093,13 @@ Restituisce Pi: 3,14159...
 
 
 
-## Regressione di potenza: intersezione {#power-regression-intercept}
+## Regressione di potenza: intercetta {#power-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-power"
->title="Regressione di potenza: intersezione"
+>title="Regressione di potenza: intercetta"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
@@ -1117,13 +1117,13 @@ Restituisce Pi: 3,14159...
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione di potenza: valore Y previsto {#power-regression-predicted-y}
+## Regressione di potenza: Y previsto {#power-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-power"
->title="Regressione di potenza: valore Y previsto"
+>title="Regressione di potenza: Y previsto"
 >abstract="Regressione di potenza: Y = b X ^ a. Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -1184,13 +1184,13 @@ Restituisce Pi: 3,14159...
 | metric_Y | Metrica da correlare con metric_X |
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
-## Regressione quadratica: intersezione {#quadratic-regression-intercept}
+## Regressione quadratica: intercetta {#quadratic-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-quadratic"
->title="Regressione quadratica: intersezione"
+>title="Regressione quadratica: intercetta"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
@@ -1206,13 +1206,13 @@ Restituisce Pi: 3,14159...
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione quadratica: valore Y previsto {#quadratic-regression-predicted-y}
+## Regressione quadratica: Y previsto {#quadratic-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-quadratic"
->title="Regressione quadratica: valore Y previsto"
+>title="Regressione quadratica: Y previsto"
 >abstract="Regressione quadratica: Y = (a + bX) ^ 2, Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -1273,14 +1273,14 @@ Restituisce Pi: 3,14159...
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione reciproca: intersezione {#reciprocal-regression-intercept}
+## Regressione reciproca: intercetta {#reciprocal-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-reciprocal"
->title="Regressione reciproca: intersezione"
->abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce un valore."
+>title="Regressione reciproca: intercetta"
+>abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1295,13 +1295,13 @@ Restituisce Pi: 3,14159...
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
 
-## Regressione reciproca: valore Y previsto {#reciprocal-regression-predicted-y}
+## Regressione reciproca: Y previsto {#reciprocal-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-reciprocal"
->title="Regressione reciproca: valore Y previsto"
+>title="Regressione reciproca: Y previsto"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -1323,7 +1323,7 @@ Restituisce Pi: 3,14159...
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-reciprocal"
->title="Regressione Reciproale: Pendenza"
+>title="Regressione reciproca: pendenza"
 >abstract="Regressione reciproca: Y = a + b X ^ -1. Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
@@ -1348,7 +1348,7 @@ Restituisce Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="Seno"
->abstract="Restituisce il seno dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
+>abstract="Restituisce il seno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1393,13 +1393,13 @@ La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione stan
 >[!CONTEXTUALHELP]
 >id="functions-t-test"
 >title="Test T"
->abstract="Esegue un test t a coda m con un punteggio t di x e n gradi di libertà."
+>abstract="Esegue un test t con coda m con un punteggio t di x e n gradi di libertà."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
 
-Esegue un test t a coda m con un punteggio t di x e n gradi di libertà.
+Esegue un test t con coda m con un punteggio t di x e n gradi di libertà.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1440,13 +1440,13 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="Tangente"
->abstract="Restituisce la tangente dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180."
+>abstract="Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-Restituisce la tangente dell’angolo specificato. Se l&#39;angolo è espresso in gradi, moltiplicatelo per PI()/180.
+Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1495,13 +1495,13 @@ Dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** è la media d
 >[!CONTEXTUALHELP]
 >id="functions-z-test"
 >title="Test Z"
->abstract="Esegue un test z a una coda n con un punteggio z pari a x."
+>abstract="Effettua un test z con coda n con punteggio z di x."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-Esegue un test z a una coda n con un punteggio z pari a x.
+Effettua un test z con coda n con punteggio z di x.
 
 | Argomento | Descrizione |
 |---|---|

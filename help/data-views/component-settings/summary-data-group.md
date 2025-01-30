@@ -8,7 +8,7 @@ exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_summarydatagroup_hideinreporting"
->title="Nascondi nel reporting"
+>title="Nascondere nel reporting"
 >abstract="Selezionando questa opzione verrà abilitato **[!UICONTROL Hide component in reporting]** per quella dimensione e il componente non verrà visualizzato in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
