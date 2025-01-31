@@ -4,10 +4,10 @@ title: Grafico bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 39%
+source-wordcount: '235'
+ht-degree: 37%
 
 ---
 
@@ -39,9 +39,18 @@ _Questo articolo documenta la visualizzazione Punto elenco in_ ![CustomerJourney
 
 La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra il confronto tra una metrica e gli intervalli di prestazioni (obiettivi) o le relative misurazioni.
 
-![](assets/bullet.png)
+![Visualizzazione grafico bullet](assets/bullet.png)
 
 Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). È possibile specificare intervalli di obiettivi alti, medi e bassi. È possibile specificare intervalli di obiettivi in ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]**.
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico bullet](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Impostazioni
 

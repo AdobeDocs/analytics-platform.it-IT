@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 80%
+source-wordcount: '878'
+ht-degree: 79%
 
 ---
 
@@ -99,7 +99,13 @@ Elenco a discesa che consente di associare la persistenza di un valore di dimens
 
 Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedere [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL Binding Metric]
 

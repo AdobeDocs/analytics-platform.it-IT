@@ -4,7 +4,7 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 19%
@@ -85,7 +85,7 @@ I sottotitoli intelligenti sono orientati verso:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sottotitoli intelligenti](https://video.tv.adobe.com/v/3420131/?learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sottotitoli intelligenti](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

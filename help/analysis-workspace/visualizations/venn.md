@@ -4,10 +4,10 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 27%
+source-wordcount: '156'
+ht-degree: 26%
 
 ---
 
@@ -44,6 +44,14 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 ![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
 -->
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

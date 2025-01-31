@@ -1,13 +1,13 @@
 ---
 description: Informazioni sulla funzionalità sommario in un progetto Workspace
 keywords: Analysis Workspace
-title: Sommario
+title: 'Sommario '
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 9d32100f28e8806cc30aaf52e30216cbce1a38b0
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '177'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 4%
 
 In Analysis Workspace puoi visualizzare un sommario per un progetto, per spostarti rapidamente tra i pannelli e le visualizzazioni esistenti nel progetto. Il sommario è particolarmente utile quando si visualizzano progetti più grandi che contengono molti pannelli e visualizzazioni.
 
-+++ Guarda una dimostrazione video di questa funzionalità.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} per un video demo.
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!TIP]
 >

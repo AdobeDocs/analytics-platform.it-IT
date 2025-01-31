@@ -5,18 +5,23 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 76%
+source-wordcount: '1277'
+ht-degree: 74%
 
 ---
 
 # Guida introduttiva per utenti direzionali
 
-Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Analytics. Ecco un video che le illustra:
+Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/343460/)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aiutare i dirigenti ad accedere alle scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343460/){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
 
 Questa guida ha lo scopo di aiutare gli utenti direzionali a leggere e interpretare le scorecard nelle dashboard di Analytics. L’app consente agli utenti direzionali di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 

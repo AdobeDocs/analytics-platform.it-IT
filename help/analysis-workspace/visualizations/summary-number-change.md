@@ -4,14 +4,26 @@ title: Numero di riepilogo e Variazione di riepilogo
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '486'
+ht-degree: 46%
 
 ---
 
 # Numero riepilogo e Modifica riepilogo
+
+>[!BEGINSHADEBOX]
+
+_Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepilogo in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Numero di riepilogo e Modifica di riepilogo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e Visualizzazione modifica riepilogo](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Numero di riepilogo {#summary-number}
 
@@ -23,14 +35,6 @@ ht-degree: 47%
 >abstract="Crea una visualizzazione che mostra i totali e i subtotali."
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-_Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepilogo in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Numero di riepilogo e Modifica di riepilogo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
-
->[!ENDSHADEBOX]
-
 
 Utilizza la visualizzazione ![Riepiloga](/help/assets/icons/123.svg) **[!UICONTROL Summary number]** per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue, utilizzando l’origine dati associata:
 

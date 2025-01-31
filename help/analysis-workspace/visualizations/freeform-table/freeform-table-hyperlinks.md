@@ -4,9 +4,9 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1595'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,19 @@ Puoi creare collegamenti ipertestuali per gli elementi dimensionali per renderli
 
 Questa funzionalità è particolarmente utile quando si creano collegamenti ipertestuali per i seguenti tipi di elementi dimensionali:
 
-* Elementi di Dimension con valori URL (ad esempio, una dimensione URL pagina)
+* Elementi di Dimension con valori URL (ad esempio, una dimensione URL pagina).
 
-* Elementi del Dimension che contengono raggruppamenti con valori URL (ad esempio, una dimensione Nome pagina con raggruppamento di una dimensione URL pagina)
+* Elementi del Dimension che contengono raggruppamenti con valori URL (ad esempio, una dimensione Nome pagina con raggruppamento di una dimensione URL pagina).
 
-* Elementi o raggruppamenti di Dimension con valori che fanno parte di un URL (ad esempio, una dimensione Nome pagina che fa parte di un URL)
+* Elementi o raggruppamenti di Dimension con valori che fanno parte di un URL (ad esempio, una dimensione Nome pagina che fa parte di un URL).
 
-+++ Guarda una dimostrazione video di questa funzionalità.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} per un video demo.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Creare collegamenti ipertestuali
 

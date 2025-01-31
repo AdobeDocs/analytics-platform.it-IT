@@ -4,10 +4,10 @@ title: Anello
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 26%
+source-wordcount: '121'
+ht-degree: 25%
 
 ---
 
@@ -34,13 +34,15 @@ Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons
 
 ![Grafico ad anello che mostra i dati come parti o filtri di un intero.](assets/donut.png)
 
-+++ Guarda una dimostrazione video di questa funzionalità.
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

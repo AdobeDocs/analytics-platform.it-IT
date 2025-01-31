@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Analogamente all&#39;analisi [Active](active-growth.md), gli utenti sono definit
 >
 >Gli utenti ripetuti non sono presi in considerazione in questo calcolo, in quanto non rappresentano alcun guadagno o perdita di utenti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 
 ## Casi d’uso

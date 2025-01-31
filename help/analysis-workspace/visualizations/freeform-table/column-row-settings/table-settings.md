@@ -4,22 +4,21 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 16%
+source-wordcount: '880'
+ht-degree: 15%
 
 ---
 
 # Impostazioni riga
 
-+++ Guarda una dimostrazione video di questa funzionalità.
 
->[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
-+++
+>[!ENDSHADEBOX]
 
 Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni delle righe della tabella, selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** accanto a una dimensione, un filtro, una metrica, un periodo di tempo o un raggruppamento all&#39;interno di ciascuno di questi oggetti.
 
@@ -80,8 +79,8 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | Opzione | Descrizione |
 |---|---|
 | **[!UICONTROL Create metric from selection]** | Crea una nuova metrica dalla metrica selezionata. La metrica può essere Media, Media, Colonna max, Colonna min, Somma colonna. Puoi anche selezionare Apri nel generatore di metriche calcolate per creare una metrica calcolata. |
-| **[!UICONTROL Add time period column]** | Aggiungi una colonna Periodo di tempo. Sono disponibili diverse opzioni, in cui l&#39;intervallo di calendario del pannello determina l&#39;*intervallo di date*: <li>**[!UICONTROL Prior *intervallo di date *a questo intervallo di date]**</li><li>**[!UICONTROL These *intervallo di date *a questo intervallo di date]**.</li><li>**[!UICONTROL Custom date range to this date range]** (Autenticazione): Apre **[!UICONTROL Date range builder]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
-| **[!UICONTROL Compare time periods]** | Aggiunge le colonne del periodo di tempo di confronto. Disponibile solo quando la dimensione non è basata sul tempo. Sono disponibili diverse opzioni che determinano l&#39;*intervallo di date*: <li>**[!UICONTROL Prior *intervallo di date *a questo intervallo di date]**</li><li>**[!UICONTROL Custom date range to this date range]** (Autenticazione): Apre **[!UICONTROL Date range builder]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
+| **[!UICONTROL Add time period column]** | Aggiungi una colonna Periodo di tempo. Sono disponibili diverse opzioni, in cui l&#39;intervallo di calendario del pannello determina l&#39;*intervallo di date*: <li>**[!UICONTROL Prior *intervallo di date *a questo intervallo di date]**</li><li>**[!UICONTROL These *intervallo di date *a questo intervallo di date]**.</li><li>**[!UICONTROL Custom date range to this date range]**. Apre **[!UICONTROL Date range builder]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
+| **[!UICONTROL Compare time periods]** | Aggiunge le colonne del periodo di tempo di confronto. Disponibile solo quando la dimensione non è basata sul tempo. Sono disponibili diverse opzioni che determinano l&#39;*intervallo di date*: <li>**[!UICONTROL Prior *intervallo di date *a questo intervallo di date]**</li><li>**[!UICONTROL Custom date range to this date range]**. Apre **[!UICONTROL Date range builder]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
 | **[!UICONTROL Modify attribution models]** | Modifica il modello di attribuzione per la colonna. |
 | **[!UICONTROL Compare attribution model]** | Specifica un nuovo modello di attribuzione e confrontalo con il modello di attribuzione per la colonna selezionata. Viene aggiunta una nuova colonna con le nuove metriche del modello di attribuzione. Inoltre, viene aggiunta una colonna Percentuale di variazione per il confronto. |
 | **[!UICONTROL Reset column widths]** | Ripristina la larghezza predefinita delle colonne. |

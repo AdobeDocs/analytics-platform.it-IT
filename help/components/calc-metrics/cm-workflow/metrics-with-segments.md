@@ -3,9 +3,9 @@ description: Il filtro per singole metriche consente di effettuare confronti di 
 title: Metriche filtrate
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -87,10 +87,12 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
    ![Visualizzazione della tabella a forma libera di Workspace con tedesco rispetto al totale internazionale](assets/workspace-german-vs-international-totals-percentage.png)
 
 
-+++ Ecco un video che illustra come utilizzare una metrica calcolata filtrata come metrica senza implementazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata filtrata come metrica senza implementazione](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+

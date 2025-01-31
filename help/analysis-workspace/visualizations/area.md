@@ -4,7 +4,7 @@ title: Superfici e superfici sovrapposte
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 26%
@@ -51,8 +51,6 @@ La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 
 >abstract="Crea una visualizzazione di un grafico a superficie per rappresentare la sovrapposizione di più metriche."
 
 <!-- markdownlint-enable MD034 -->
-
-
 
 
 La visualizzazione ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** è simile a un&#39;area, ma ogni serie inizia all&#39;inizio della serie precedente.

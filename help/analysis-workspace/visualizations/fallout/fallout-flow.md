@@ -4,10 +4,10 @@ title: Informazioni sui rapporti di fallout e sulle visualizzazioni
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 31%
+source-wordcount: '356'
+ht-degree: 30%
 
 ---
 
@@ -31,13 +31,15 @@ _Questo articolo documenta la visualizzazione Abbandono in_ ![CustomerJourneyAna
 
 Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
 
-+++ Visualizza una dimostrazione video di [!UICONTROL Fallout visualization].
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un rapporto di visualizzazione dell&#39;abbandono](https://video.tv.adobe.com/v/345883/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 Le visualizzazioni Abbandono consentono di:
 

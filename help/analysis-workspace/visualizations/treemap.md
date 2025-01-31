@@ -4,10 +4,10 @@ title: Mappa ad albero
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 27%
+source-wordcount: '163'
+ht-degree: 26%
 
 ---
 
@@ -37,6 +37,13 @@ A ogni sezione dell’albero viene assegnato un rettangolo, che racchiude al suo
 ![Esempio di mappa ad albero che mostra riquadri di rettangoli più piccoli che rappresentano rami secondari.](assets/treemap.png)
 
 Con una mappa ad albero, potete vedere dei pattern che sarebbero difficili da individuare in altri modi. Utilizzando il colore e le dimensioni delle quote potete scoprire come le quote sono correlate e se una determinata quota è particolarmente rilevante. Un secondo vantaggio delle mappe ad albero è che, per costruzione, le mappe ad albero fanno un uso efficiente dello spazio.
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa ad albero](https://video.tv.adobe.com/v/334458/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]

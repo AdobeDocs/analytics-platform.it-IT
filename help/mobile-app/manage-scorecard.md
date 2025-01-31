@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 66%
+source-wordcount: '1789'
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,12 @@ Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa 
 
 Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
@@ -78,7 +83,13 @@ Ad esempio, se ti concentri sul traffico web, la metrica più importante può es
 
 Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 **Per creare una storia di dati** {#data-story-create}
 

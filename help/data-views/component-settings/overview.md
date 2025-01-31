@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e326b5457c82a7b4789c68588546707fabca42f6
-workflow-type: ht
-source-wordcount: '642'
-ht-degree: 100%
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,12 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 {style="table-layout:auto"}
 
-Ecco un video sulle impostazioni dei componenti nelle visualizzazioni dati:
 
->[!VIDEO](https://video.tv.adobe.com/v/333112/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni tipo di componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+

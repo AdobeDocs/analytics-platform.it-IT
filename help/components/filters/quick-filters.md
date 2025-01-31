@@ -4,9 +4,9 @@ title: Filtri rapidi
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,13 @@ ht-degree: 1%
 I filtri rapidi consentono di esplorare rapidamente i dati all&#39;interno di un progetto Workspace, senza dover creare un filtro nel [Generatore di filtri](/help/components/filters/create-filters.md).
 
 
-+++ Il video seguente illustra come utilizzare i filtri rapidi.
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
-+++
+>[!ENDSHADEBOX]
+
 
 Quando desideri utilizzare i filtri rapidi, tieni presente che:
 

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 99%
+source-wordcount: '1427'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Molte delle funzioni di reporting che conosci restano invariate.
 
 * Puoi continuare a usare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati. Workspace funziona ancora come nell’ambiente Adobe Analytics tradizionale.
 * È disponibile la stessa versione delle [dashboard di Adobe Analytics](/help/mobile-app/home.md), che funziona in modo simile in Customer Journey Analytics e Adobe Analytics.
-* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione di Report Builder, non era possibile utilizzarlo su Mac, se non veniva eseguito su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
+* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione del Report Builder, non era possibile utilizzarlo in Mac a meno che non venisse eseguito su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
 
 ## Modifiche alle funzioni di reporting
 
@@ -40,9 +40,19 @@ In Experience Platform, i dati dei clienti vengono memorizzati come set di dati,
 
 L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) con i set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
-Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in Customer Journey Analytics, come illustrato nel seguente video:
+Una connessione consente all’amministratore di Analytics di integrare i set di dati da Adobe Experience Platform al Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
+
+<!-- Outdated UI
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
+
 
 Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclusi quelli delle suite di rapporti tramite il connettore di origine di Analytics e Web SDK. È possibile combinare in Experience Platform le implementazioni esistenti da diverse suite di rapporti. Le connessioni e le visualizzazioni dati basate su questi set di dati possono combinare i dati che in precedenza si trovavano in suite di rapporti distinte.
 
@@ -78,9 +88,14 @@ Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i con
 
 ## Modifiche al concetto di metriche calcolate
 
-Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey Analytics. Tuttavia, al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi elemento schema di Experience Platform. Di conseguenza, le metriche calcolate esistenti non sono compatibili con [!UICONTROL Customer Journey Analytics]. Per trasferire le metriche calcolate di Adobe Analytics a Customer Journey Analytics, guarda il video seguente:
+Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey Analytics. Tuttavia, al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi elemento schema di Experience Platform. Di conseguenza, le metriche calcolate esistenti non sono compatibili con [!UICONTROL Customer Journey Analytics].
 
->[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Spostamento delle metriche calcolate da Adobe Analytics al Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} per un video dimostrativo su come spostare le metriche calcolate.
+
+>[!ENDSHADEBOX]
 
 ## Modifiche alle impostazioni di attribuzione e scadenza delle variabili
 
@@ -92,7 +107,7 @@ Inoltre, più visualizzazioni dati possono essere basate sulla stessa connession
 
 ## Modifiche al concetto di classificazione
 
-Le classificazioni sono ora note come *Set di dati di ricerca*. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati Evento o Profilo. Ad esempio, puoi caricare dati ricerca che mappano ID numerici nei dati evento ai nomi dei prodotti.
+Le “classificazioni” sono ora denominate *Set di dati di ricerca*. I set di dati di ricerca vengono utilizzati per cercare valori o chiavi presenti nei dati evento o di profilo. Ad esempio, puoi caricare dati ricerca per mappare gli ID numerici presenti nei dati evento sui nomi dei prodotti.
 
 ## Modifiche al concetto di attributi cliente
 
@@ -100,9 +115,14 @@ Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di d
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[unione](../stitching/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in Customer Journey Analytics:
+Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[unione](../stitching/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Guarda il video seguente che evidenzia l’uso delle identità nel Customer Journey Analytics
 
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell&#39;identità nel Customer Journey Analytics](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 

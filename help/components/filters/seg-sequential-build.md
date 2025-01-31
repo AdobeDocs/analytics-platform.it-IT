@@ -3,9 +3,9 @@ description: I filtri sequenziali sono filtri che utilizzano l’operatore THEN 
 title: Filtri sequenziali
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2343'
 ht-degree: 2%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 È possibile creare filtri sequenziali utilizzando l&#39;operatore logico [!UICONTROL Then] tra componenti, contenitori e componenti o contenitori. L&#39;operatore logico [!UICONTROL Then] implica che si verifica una condizione di filtro seguita da un&#39;altra.
 
-+++ Ecco un video che illustra la segmentazione sequenziale.
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} per un video demo.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 Un filtro sequenziale ha alcune [funzionalità di base](#basics) e altre opzioni che puoi configurare per aggiungere maggiore complessità al filtro sequenziale:
 

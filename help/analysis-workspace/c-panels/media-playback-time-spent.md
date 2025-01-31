@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback time spes
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1148'
 ht-degree: 56%
 
 ---
@@ -57,11 +57,15 @@ Il tempo di riproduzione trascorso può aiutarti a comprendere:
 
 * Dove si è verificato il calo.
 
-+++ Guarda una dimostrazione video di questa funzionalità.
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+>[!BEGINSHADEBOX]
 
-+++
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699){target="_blank"} per un video demo.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## Utilizzo
 

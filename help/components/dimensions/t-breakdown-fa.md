@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 56%
+source-wordcount: '533'
+ht-degree: 50%
 
 ---
 
@@ -51,28 +51,49 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 * Se la struttura ad albero della colonna contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 
-+++ Video che illustrano le dimensioni e le suddivisioni delle dimensioni
+>[!BEGINSHADEBOX]
 
-Dimension in Analysis Workspace
-
->[!VIDEO](https://video.tv.adobe.com/v/23971)
-
-Raggruppamenti per Dimension
-
->[!VIDEO](https://video.tv.adobe.com/v/23969)
-
-Aggiungere dimensioni e metriche al progetto in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/30606)
-
-Utilizzo delle dimensioni nelle tabelle a forma libera:
-
->[!VIDEO](https://video.tv.adobe.com/v/40179)
-
-Raggruppamenti delle dimensioni per posizione:
-
->[!VIDEO](https://video.tv.adobe.com/v/24033)
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [raggruppamenti di Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suddivisione Dimension per posizione](https://video.tv.adobe.com/v/24033){target="_blank"}.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+

@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 48%
+source-wordcount: '1193'
+ht-degree: 47%
 
 ---
 
@@ -53,13 +53,13 @@ Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il 
 In Analysis Workspace, la metrica Visualizzatori simultanei è il numero di persone univoche che visualizzano i flussi multimediali in un momento specifico, indipendentemente dal numero di sessioni.
 
 
-+++ Guarda una dimostrazione video di questa funzionalità.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello visualizzatori simultanei di contenuti multimediali](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 ## Utilizzo
 

@@ -4,10 +4,10 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 50%
+source-wordcount: '386'
+ht-degree: 46%
 
 ---
 
@@ -41,15 +41,17 @@ Con la visualizzazione è possibile:
 
 * Visualizza il percorso di clienti attraverso il sito web o l’applicazione.
 * Analizza dove vanno i clienti prima e dopo i punti di controllo specificati, ad esempio ingresso, una dimensione specifica o uscita.
-* Creare filtri designando un punto specifico nel percorso scelto
+* Crea i filtri designando un punto specifico nel percorso scelto.
 
-+++ Visualizza una dimostrazione video della visualizzazione Flusso.
 
->[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una visualizzazione di flusso](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} per un video demo.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Flussi interdimensionali
 

@@ -4,10 +4,10 @@ description: Visualizzazione che mostra la relazione tra un massimo di tre metri
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 67%
+source-wordcount: '176'
+ht-degree: 57%
 
 ---
 
@@ -30,7 +30,7 @@ _Questo articolo documenta la visualizzazione a dispersione in_ ![CustomerJourne
 >[!ENDSHADEBOX]
 
 
-La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
+La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. La visualizzazione richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
 
 * Il componente riga (in genere una dimensione) rappresenta ogni punto del grafico. Righe diverse vengono mostrate come punti colorati diversi.
 * La colonna più a sinistra (in genere una metrica) traccia la posizione del punto sull’asse Y (verticale).
@@ -39,6 +39,14 @@ La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
 ![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

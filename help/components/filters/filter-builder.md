@@ -4,7 +4,7 @@ title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8eb146fccbdbe47df8ca28f7b8dcbce2bf6888fd
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 10%
@@ -132,13 +132,13 @@ Puoi creare filtri che contengono intervalli di date continui. Potrai quindi ris
 
 ![Filtra utilizzando un intervallo di date continuo](assets/filter-rolling-date-range.gif)
 
-+++ Video sull’utilizzo di intervalli di date continui nei filtri
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## Sovrapponi filtri {#stack}
 

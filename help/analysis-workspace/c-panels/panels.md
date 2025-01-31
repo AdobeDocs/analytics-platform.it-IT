@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
-workflow-type: ht
-source-wordcount: '2033'
-ht-degree: 100%
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '2003'
+ht-degree: 99%
 
 ---
 
@@ -153,16 +153,13 @@ Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/qu
 
 ### Filtri a discesa
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Tieni presente le seguenti differenze terminologiche.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Eliminare i filtri](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
-| Adobe Analytics | Customer Journey Analytics |
-| --- | --- |
-| Segmenti | Filtri |
-| Visitatore | Persona |
-| Visita | Sessione |
-| Hit | Evento |
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 
 #### Filtri a discesa statici

@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 48%
+source-wordcount: '565'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ _Questo articolo documenta la visualizzazione combinata in_ ![CustomerJourneyAna
 >[!ENDSHADEBOX]
 
 
-La visualizzazione ![Commento](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
+La visualizzazione ![Grafico combinato](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
 
 Utilizza [!UICONTROL Combo] per:
 

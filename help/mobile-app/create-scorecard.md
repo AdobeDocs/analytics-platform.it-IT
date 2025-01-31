@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '2600'
-ht-degree: 68%
+source-wordcount: '2631'
+ht-degree: 67%
 
 ---
 
@@ -26,7 +26,13 @@ ht-degree: 68%
 
 Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -202,7 +208,14 @@ Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa 
 
 Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
@@ -240,7 +253,15 @@ Ad esempio, se ti concentri sul traffico web, la metrica più importante può es
 
 Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 **Per creare una storia di dati** {#data-story-create}
 

@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '4092'
-ht-degree: 100%
+source-wordcount: '4093'
+ht-degree: 99%
 
 ---
 
@@ -131,11 +131,13 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 * Puoi modificare i set di dati, ad esempio per richiedere un’altra retrocompilazione.
 * Puoi importare dati esistenti per set di dati.
 
-+++ Video che illustra come creare e modificare un’esperienza di connessione
 
->[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 ## Prerequisiti
 
