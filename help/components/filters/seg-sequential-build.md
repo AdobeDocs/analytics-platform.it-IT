@@ -3,7 +3,7 @@ description: I filtri sequenziali sono filtri che utilizzano l’operatore THEN 
 title: Filtri sequenziali
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 2%
