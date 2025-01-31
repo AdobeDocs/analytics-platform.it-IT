@@ -2,7 +2,7 @@
 title: Impostazioni dei dati di utilizzo del prodotto
 description: Abilita, disabilita o configura le impostazioni di utilizzo del prodotto.
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 24%
@@ -10,8 +10,6 @@ ht-degree: 24%
 ---
 
 # Impostazioni dei dati di utilizzo del prodotto {#product-usage-data-settings}
-
-{{release-limited-testing}}
 
 La pagina _Impostazioni dati_ gestisce la configurazione di utilizzo del prodotto. Puoi utilizzare questa pagina per abilitare o disabilitare l’utilizzo dei prodotti per la tua organizzazione. Puoi anche configurare in quale sandbox di Adobe Experience Platform viene creato il set di dati e, se necessario, ignorare la finestra di conservazione dei dati. È visibile solo agli amministratori di prodotto.
 

@@ -2,7 +2,7 @@
 title: Impostazioni di rinuncia all’utilizzo del prodotto
 description: Gestisci le impostazioni di rinuncia per i singoli utenti all’interno della tua organizzazione.
 exl-id: 0ea24582-bab8-4a76-ac00-7c265423e8bb
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 12%
@@ -10,8 +10,6 @@ ht-degree: 12%
 ---
 
 # Impostazioni di rinuncia all’utilizzo del prodotto {#product-usage-opt-out-settings}
-
-{{release-limited-testing}}
 
 La pagina delle _impostazioni di rinuncia_ ti consente di escludere o includere nuovamente gli utenti all&#39;interno della tua organizzazione dal monitoraggio dell&#39;utilizzo dei prodotti. È visibile solo agli amministratori di prodotto.
 
