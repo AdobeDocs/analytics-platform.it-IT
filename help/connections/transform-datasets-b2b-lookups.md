@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
+source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '405'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +30,12 @@ Questa trasformazione è disponibile solo per i set di dati con dati per schemi 
 
 Per abilitare la trasformazione per un set di dati di questo tipo:
 
-![Abilita set di dati di trasformazione](assets/transform-dataset.gif)
+![Abilita set di dati di trasformazione](/help/connections/assets/transform.gif)
 
-* Assicurarsi di selezionare l&#39;identificatore corretto per **[!UICONTROL Key]** e **[!UICONTROL Matching key]**, ad esempio `personKey.sourceKey`.
+* Verificare per ogni set di dati i valori consigliati per **[!UICONTROL Key]** e **[!UICONTROL Matching key]**. Se si modificano i valori dai valori suggeriti, verrà visualizzato un avviso che richiede di continuare. Devi accertarti che:
+
+   * Il valore selezionato per **Chiave** si basa sul tipo di dati ID persona.
+   * Il valore selezionato per **Chiave corrispondente** è definito come campo di identità principale per il set di dati dell&#39;evento.
 
 * Seleziona le opzioni per importare nuovi dati e la retrocompilazione del set di dati.
 
@@ -43,7 +46,7 @@ Per abilitare la trasformazione per un set di dati di questo tipo:
 
   >[!IMPORTANT]
   >
-  >Una volta attivata e salvata la connessione, la trasformazione è irreversibile. Non è possibile modificare l’impostazione di trasformazione per un set di dati una volta salvata una connessione, se non rimuovendo e aggiungendo nuovamente il set di dati alla connessione.
+  >Una volta attivata e salvata la connessione, la trasformazione è irreversibile. Non puoi modificare la configurazione di Chiave, Chiave corrispondente e Set di dati Trasforma. Puoi solo rimuovere, aggiungere e riconfigurare il set di dati.
 
 Per abilitare la trasformazione per uno o più set di dati che fanno già parte di una connessione esistente:
 
