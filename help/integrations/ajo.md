@@ -4,10 +4,10 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
-workflow-type: ht
-source-wordcount: '2860'
-ht-degree: 100%
+source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+workflow-type: tm+mt
+source-wordcount: '3354'
+ht-degree: 89%
 
 ---
 
@@ -169,6 +169,31 @@ Per ottenere una parità approssimativa con dimensioni simili in Journey Optimiz
 | ID pagina di destinazione (AJO) | Identificatore univoco per pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | Tipo di componente: dimensione |
 | Origine pagina di destinazione (AJO) | Origine della pagina di destinazione. | Set di dati evento esperienza di tracciamento e-mail AJO | Campi derivati | Tipo di componente: dimensione (campo derivato) |
 | URL collegamento (AJO) | URL su cui l’utente ha fatto clic. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | Tipo di componente: dimensione |
+| Motivo di esclusione del messaggio (AJO) | Motivo di esclusione | Set di dati evento di feedback messaggi AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageExclusion.reason` | Tipo di componente: dimensione |
+| Categoria errore messaggio (AJO) | Categoria errore | Set di dati evento di feedback messaggi AJO | ` _experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.category` | Tipo di componente: dimensione |
+| Motivo dell’errore del messaggio (AJO) | Motivo dell’errore | Set di dati evento di feedback messaggi AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.reason` | Tipo di componente: dimensione |
+| Tipo di errore del messaggio (AJO) | Tipo di errore | Set di dati evento di feedback messaggi AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.type` | Tipo di componente: dimensione |
+| Stato errore messaggio (AJO) | Stato errore | Set di dati evento di feedback messaggi AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.status` | Tipo di componente: dimensione |
+| ID messaggio (AJO) | ID del messaggio a cui devono essere correlati i dati. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.messageID` | Tipo di componente: dimensione |
+| Nuovo tentativo messaggio (AJO) | Numero tentativi | Set di dati evento di feedback messaggi AJO | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.retryCount` | Tipo di componente: dimensione |
+| ID nodo (AJO) | ID del nodo del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | Tipo di componente: dimensione |
+| Nome nodo (AJO) | Nome del nodo del percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeName` | Tipo di componente: dimensione |
+| Tipo di nodo (AJO) | Tipo di nodo del nodo di percorso. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | Tipo di componente: dimensione |
+| Sistema operativo (AJO) | Nome del sistema operativo. | Set di dati evento esperienza di tracciamento push AJO | `environment.operatingSystem` | Tipo di componente: dimensione |
+| Versione sistema operativo (AJO) | Versione del sistema operativo. | Set di dati evento esperienza di tracciamento push AJO | environment.operatingSystemVersion | Tipo di componente: dimensione |
+| Piattaforma push (AJO) | Servizio del provider push, ad esempio apns o fcm. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`pushChannelContext.platform` | Tipo di componente: dimensione |
+| Titolo push (AJO) | Titolo push, non personalizzato. | Set di dati entità AJO, Set di dati evento feedback messaggi AJO, Set di dati evento tracciamento push AJO | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.push.title | Component type: Dimension` |
+| Criterio di consenso rifiutato (AJO) | Nome del criterio di consenso rifiutato corrispondente. | Eventi passaggio percorso | `_experience.journeyOrchestration.`<br/>`stepEvents.consent.rejectedPolicies.name` | Tipo di componente: dimensione |
+| Messaggio SMS in entrata (AJO) | Risposta SMS in entrata, ad esempio arresto, avvio, abbonamento e così via. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | Tipo di componente: dimensione |
+| Tipo di messaggio SMS (AJO) | Provider SMS, ad esempio inbound, inboundReply o send. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | ` _experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | Tipo di componente: dimensione |
+| Provider SMS (AJO) | Provider SMS, ad esempio sinch o twilio. | AJO Email Tracking Experience Event Dataset, AJO Message Feedback Event Dataset, AJO Push Tracking Experience Event Dataset | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | Tipo di componente: dimensione |
+| Tipo di selezione (AJO) | Superficie di canale su cui è stato visualizzato il messaggio. | Eventi dei passaggi del percorso, Set di dati dell’evento di tracciamento delle e-mail di AJO, Set di dati dell’evento di feedback dei messaggi di AJO, Set di dati dell’evento di tracciamento push di AJO | `_experience.decisioning.propositions.`<br/>`items.itemSelection.`<br/>`selectionDetail.selectionType` | Tipo di componente: dimensione |
+| ID elenco iscrizioni (AJO) | Identificatore univoco per l’elenco di iscrizioni. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.subscription.`<br/>` subscriptionListID` | Tipo di componente: dimensione |
+| Superficie (AJO) |  | Eventi dei passaggi del percorso, Set di dati dell’evento di tracciamento delle e-mail di AJO, Set di dati dell’evento di feedback dei messaggi di AJO, Set di dati dell’evento di tracciamento push di AJO | `_experience.decisioning.`<br/>`propositions.scope` | Tipo di componente: dimensione |
+| ID trattamento (AJO) | ID del trattamento selezionato per l’esperimento. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentID` | Tipo di componente: dimensione |
+| Nome del trattamento (AJO) | Nome del trattamento selezionato per l’esperimento. | Set di dati di entità AJO | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentName` | Tipo di componente: dimensione |
+| ID URL (AJO) | Identificatore univoco dell’URL su cui l’utente ha fatto clic. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | Tipo di componente: dimensione |
+| Etichetta URL (AJO) | Etichetta intuitiva per URL. | Set di dati evento esperienza di tracciamento e-mail AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.label` | Tipo di componente: dimensione |
 
 {style="table-layout:auto"}
 
