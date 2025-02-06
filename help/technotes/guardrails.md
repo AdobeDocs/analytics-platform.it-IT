@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
+source-git-commit: 2dd215b0fe689c9370e9f5867fd1bd5fdee83d42
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -22,7 +22,7 @@ In questo documento sono disponibili due tipi di limiti predefiniti:
 
 | Tipo di guardrail | Descrizione |
 |----------|---------|
-| **Guardrail delle prestazioni (limite soft)** | I guardrail di prestazioni sono limiti di utilizzo relativi all’ambito dei tuoi casi d’uso. Quando si superano i guardrail delle prestazioni, è possibile che si verifichi un peggioramento delle prestazioni e della latenza. L’Adobe non è responsabile di tale degrado delle prestazioni. I clienti che superano costantemente un Guardrail delle prestazioni possono scegliere di concedere in licenza una capacità aggiuntiva per evitare il degrado delle prestazioni. |
+| **Guardrail delle prestazioni (limite soft)** | I guardrail di prestazioni sono limiti di utilizzo relativi all’ambito dei tuoi casi d’uso. Quando si superano i guardrail delle prestazioni, è possibile che si verifichi un peggioramento delle prestazioni e della latenza. Adobe non è responsabile di tale degrado delle prestazioni. I clienti che superano costantemente un Guardrail delle prestazioni possono scegliere di concedere in licenza una capacità aggiuntiva per evitare il degrado delle prestazioni. |
 | **Guardrail applicati dal sistema (limite rigido)** | I guardrail applicati dal sistema vengono applicati dall’interfaccia utente o dall’API del Customer Journey Analytics. Si tratta di limiti che non possono essere superati poiché l’interfaccia utente e l’API non consentono di farlo o restituiscono un errore. |
 
 {style="table-layout:auto"}
@@ -134,7 +134,7 @@ Vedere anche l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dat
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Esportazione dati | Archiviazione totale del data lake autorizzato | Barra di protezione delle prestazioni | Il cliente può utilizzare l’esportazione del set di dati di destinazione per esportare i dati del cliente nel data lake fino allo storage totale autorizzato del data lake. |
-| Set di dati disponibili | Profilo ed evento | Guardrail imposto dal sistema | Set di dati di evento, profilo o ricerca creati nell’interfaccia utente di Experience Platform dopo l’acquisizione o la raccolta di dati tramite Sources, Web SDK, Mobile SDK, Analytics Data Connector e Audience Manager. |
+| Set di dati disponibili | Profilo ed evento | Guardrail imposto dal sistema | Set di dati di evento, profilo o ricerca creati nell’interfaccia utente di Experience Platform dopo l’acquisizione o la raccolta di dati tramite Origini, Web SDK, Mobile SDK, Connettore dati di Analytics e Audience Manager. |
 
 {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 | Acquisizione dei dati nel data lake da acquisizione Edge Network o Streaming | &lt; 60 minuti |
 | Acquisizione dei dati nel data lake da Adobe Analytics Source Connector | &lt; 2,25 ore |
 | Acquisizione dei dati nel Customer Journey Analytics da Data Lake | &lt; 90 minuti |
-| Unione (funzionalità facoltativa; per ulteriori informazioni, vedere [Panoramica dell&#39;unione](../stitching/overview.md)) | &lt; 3,25 ore |
+| Unione (funzionalità facoltativa; per ulteriori informazioni, vedere [Panoramica dell&#39;unione](../stitching/overview.md)) | 4 ore |
 | Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
 | Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza è associata alla frequenza di aggiornamento). |
