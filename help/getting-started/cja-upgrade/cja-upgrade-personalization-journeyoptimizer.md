@@ -6,14 +6,23 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 4438f4f7bd2794f459a1f771b1685f2501838b5f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Utilizzare l’oggetto di personalizzazione per Adobe Journey Optimizer
+# Utilizzare l’oggetto di personalizzazione per Adobe Journey Optimizer {#upgrade-personalization}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-personalization"
+>title="Utilizzare l’oggetto di personalizzazione per Adobe Journey Optimizer"
+>abstract="Utilizza l’oggetto di personalizzazione nell’implementazione per l’utilizzo in Adobe Journey Optimizer."
+
+<!-- markdownlint-enable MD034 -->
 
 Il risultato dell’oggetto di personalizzazione finisce in un set di dati. Il risultato della sperimentazione. Quando un cliente ha utilizzato AA con Target, questo finisce in uno spazio completamente diverso rispetto a quando sta eseguendo la migrazione a CJA e utilizzerà CJA con Adobe Target.
 

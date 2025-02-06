@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 59089146b8e56db3b0b4084615f99dc65899b74f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 6%
+source-wordcount: '526'
+ht-degree: 0%
 
 ---
 
-# Architettura dello schema da utilizzare con il Customer Journey Analytics
+# Architettura dello schema da utilizzare con il Customer Journey Analytics {#upgrade-schema-architect}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-architect"
+>title="Architettura di uno schema"
+>abstract="Discuti all’interno della tua organizzazione i requisiti di raccolta dei dati e determina come creare uno schema da utilizzare in Adobe Experience Platform. Questo passaggio viene visualizzato perché desideri utilizzare il processo consigliato di utilizzo di uno schema personalizzato per la tua organizzazione. È fondamentale eseguire correttamente questo passaggio, in quanto uno schema su cui si allineano tutti i team all’interno della tua organizzazione semplifica notevolmente l’acquisizione dei dati.<br><br>Il tempo stimato per riunire tutte le parti rilevanti dell&#39;organizzazione per allinearsi a uno schema unificato è di 1-2 mesi. Questo intervallo di tempo dipende in larga misura dal numero di team necessari per coordinarsi e dal numero di dimensioni + metriche su cui allinearsi."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -22,7 +31,11 @@ ht-degree: 6%
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-Adobe consiglia di creare uno schema Experience Data Model (XDM) durante l’aggiornamento al Customer Journey Analytics. Uno schema XDM consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. Quando sono necessarie delle modifiche allo schema, non è necessario esaminare minuziosamente migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.
+Adobe consiglia di creare uno schema XDM (Experience Data Model) personalizzato da utilizzare con il Web SDK durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics. In alternativa, puoi utilizzare lo schema Adobe Analytics predefinito, che utilizza il gruppo di campi Adobe Analytics ExperienceEvent.
+
+Uno schema XDM personalizzato consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. A differenza dello schema Adobe Analytics predefinito che utilizza il gruppo di campi Adobe Analytics ExperienceEvent, quando sono necessarie modifiche a uno schema XDM personalizzato, non è necessario esaminare migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.
+
+Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 Esamina le sezioni seguenti quando inizi a progettare lo schema XDM.
 

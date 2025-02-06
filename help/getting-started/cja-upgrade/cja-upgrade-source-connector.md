@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 7%
+source-wordcount: '798'
+ht-degree: 6%
 
 ---
 
-# Creare il connettore di origine di Analytics e mappare i campi
+# Creare il connettore di origine di Analytics e mappare i campi {#create-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create"
+>title="Creare il connettore di origine di Analytics"
+>abstract="Utilizza il connettore di origine di Analytics per acquisire i dati della suite di rapporti da utilizzare nel Customer Journey Analytics.<br><br>La creazione del connettore di origine di Analytics richiede solo alcuni minuti con le impostazioni predefinite."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-map-fields"
+>title="Creare il connettore di origine di Analytics e mappare i campi dello schema"
+>abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics allo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici al Customer Journey Analytics.<br><br>Il tempo necessario per eseguire questo passaggio dipende dal numero di dimensioni e metriche da mappare. Questo passaggio non è così difficile come è noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +44,7 @@ ht-degree: 7%
 
 Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici nel Customer Journey Analytics.
 
-Si presuppone che si desideri [creare uno schema personalizzato da utilizzare con l&#39;implementazione dell&#39;SDK Web di Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle applicazioni Platform specifiche utilizzate.
+Si presuppone che si desideri [creare uno schema personalizzato da utilizzare con l&#39;implementazione di Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle applicazioni Platform specifiche utilizzate.
 
 Per utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati storici, è necessario:
 
@@ -36,7 +54,7 @@ Per utilizzare il connettore di origine di Analytics per inserire nel Customer J
 
    Oppure
 
-   Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema SDK Web personalizzato](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema personalizzato di Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
@@ -92,6 +110,6 @@ Per creare un connettore di origine di Adobe Analytics da utilizzare per i dati 
 
    Dopo la creazione della connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti. Il flusso di dati acquisisce fino a 13 mesi di dati storici per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a tre mesi.
 
-   Se utilizzi il connettore di origine di Analytics per inserire dati storici nell’implementazione dell’SDK web di Customer Journey Analytics, devi aggiungere questo set di dati creato automaticamente alla connessione creata per l’implementazione dell’SDK web.
+   Se utilizzi il connettore di origine di Analytics per inserire dati storici nell’implementazione di Customer Journey Analytics Web SDK, devi aggiungere questo set di dati creato automaticamente alla connessione creata per l’implementazione di Web SDK.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).

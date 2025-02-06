@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 27%
+source-wordcount: '337'
+ht-degree: 23%
 
 ---
 
-# Aggiungere Platform as a service allo stream di dati
+# Aggiungere Platform as a service allo stream di dati {#upgrade-addplatform-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-addplatform-datastream"
+>title="Aggiungere Adobe Experience Platform come servizio allo stream di dati"
+>abstract="Un flusso di dati richiede uno o più servizi a cui inviare i dati. Configura Adobe Experience Platform come servizio nel flusso di dati.<br><br>L&#39;aggiunta di servizi a un flusso di dati è un processo semplice, che richiede solo pochi minuti."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

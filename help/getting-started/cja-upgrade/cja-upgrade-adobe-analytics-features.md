@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1460cbd05cce793b25d026c413744508ab951147
+source-git-commit: 8d14bb23283107402332106df36e8f7898ea5d30
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 29%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 29%
 > 
 >Usa le informazioni in questa pagina per rispondere alle domande nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-Nell&#39;elenco seguente vengono visualizzate solo le funzionalità incluse nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/). Per un elenco completo delle funzionalità di Adobe Analytics supportate, parzialmente supportate o non supportate nel Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+L’elenco seguente mostra solo le funzioni di Adobe Analytics che richiedono considerazione durante il processo di aggiornamento a Customer Journey Analytics. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate nel Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 Considera quali delle seguenti funzioni di Adobe Analytics desideri continuare a utilizzare quando effettui l’aggiornamento al Customer Journey Analytics:
 

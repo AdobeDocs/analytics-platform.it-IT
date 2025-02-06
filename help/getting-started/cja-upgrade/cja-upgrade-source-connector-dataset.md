@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 25%
+source-wordcount: '908'
+ht-degree: 23%
 
 ---
 
-# Aggiungere il set di dati del connettore di origine di Analytics alla connessione
+# Aggiungere il set di dati del connettore di origine di Analytics alla connessione {#upgrade-source-connector-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-dataset"
+>title="Aggiungi il set di dati del connettore di origine di Analytics alla connessione"
+>abstract="Ora che i dati storici della suite di rapporti di Analytics sono in Adobe Experience Platform, aggiungi il set di dati alla connessione esistente creata durante la configurazione iniziale del Customer Journey Analytics. Una volta completato questo passaggio, saranno disponibili i dati storici nel Customer Journey Analytics.<br><br>L&#39;aggiunta di un set di dati a una connessione nel Customer Journey Analytics è semplice e richiede solo pochi minuti."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -44,13 +53,13 @@ Per utilizzare il connettore di origine di Analytics per inserire nel Customer J
 
 Dopo aver [creato un connettore di origine Analytics per i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md), viene automaticamente creato un set di dati per i dati di Analytics.
 
-Devi aggiungere questo set di dati creato automaticamente alla stessa connessione creata per l’implementazione dell’SDK web. In questo modo, i dati di Analytics verranno inseriti nella stessa visualizzazione dati di Customer Journey Analytics dei dati dell’SDK per web.
+È necessario aggiungere questo set di dati creato automaticamente alla stessa connessione creata per l’implementazione di Web SDK. In questo modo, i dati di Analytics verranno inseriti nella stessa visualizzazione dati di Customer Journey Analytics dei dati di Web SDK.
 
-Per aggiungere il set di dati creato automaticamente alla stessa connessione creata per l’implementazione dell’SDK web:
+Per aggiungere il set di dati creato automaticamente alla stessa connessione creata per l’implementazione di Web SDK:
 
 1. In Customer Journey Analytics, seleziona la scheda **[!UICONTROL Connections]**.
 
-1. Seleziona la connessione [creata per l&#39;implementazione dell&#39;SDK Web](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. Selezionare la connessione [creata per l&#39;implementazione di Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
 
 1. Seleziona **[!UICONTROL Edit]**.
 
@@ -91,9 +100,9 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
    Indica in modo esplicito le date della richiesta di backfill. A seconda di diversi fattori, potrebbe essere utile effettuare una delle seguenti operazioni:
 
-   * Scegli una data di fine corrispondente alla data della prima raccolta dei dati con l’implementazione dell’SDK web.
+   * Scegli una data di fine corrispondente alla data della prima raccolta dei dati con l’implementazione di Web SDK.
 
-   * Scegli una data di fine che sia poco successiva alla data in cui hai iniziato a raccogliere i dati con l’implementazione dell’SDK web, quindi utilizza i segmenti di visualizzazione dati per filtrare i dati sovrapposti.
+   * Scegli una data di fine che sia poco successiva alla data in cui hai iniziato a raccogliere i dati con l’implementazione del Web SDK, quindi utilizza i segmenti di visualizzazione dati per filtrare i dati sovrapposti.
 
    * Scegli una data di fine che determini una maggiore sovrapposizione nei dati, quindi utilizza i segmenti di visualizzazione dati per filtrare i dati sovrapposti.
 
@@ -107,6 +116,6 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
 1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, vedere [Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
-   Questa opzione è necessaria solo se non è già stata eseguita durante la configurazione dell’implementazione dell’SDK web.
+   Questa opzione è necessaria solo se non è già stata eseguita durante la configurazione dell’implementazione di Web SDK.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).

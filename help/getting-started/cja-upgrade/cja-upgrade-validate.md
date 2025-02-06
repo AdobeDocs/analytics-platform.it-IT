@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Convalidare il flusso dei dati verso il Customer Journey Analytics
+# Convalidare il flusso dei dati verso il Customer Journey Analytics {#validate-data}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-data-validate"
+>title="Convalidare il flusso dei dati"
+>abstract="Utilizza i dettagli di connessione per verificare se i dati fluiscono nel Customer Journey Analytics.<br><br>Se tutto è stato fatto correttamente e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, la loro risoluzione può richiedere molto più tempo."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

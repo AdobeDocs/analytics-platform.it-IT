@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 31%
+source-wordcount: '286'
+ht-degree: 27%
 
 ---
 
-# Creare un set di dati da utilizzare con il Customer Journey Analytics
+# Creare un set di dati da utilizzare con il Customer Journey Analytics {#upgrade-create-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataset-create"
+>title="Creare un set di dati in Adobe Experience Platform"
+>abstract="Un set di dati è una posizione in cui si trovano i dati raccolti. Crea questa posizione in Adobe Experience Platform.<br><br>La creazione di un set di dati con uno schema richiede solo alcuni minuti."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -58,4 +68,3 @@ Per creare un set di dati:
    Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare ed eliminare un set di dati, consulta la [guida dell&#39;interfaccia utente per i set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it). Scopri anche come abilitare un set di dati per Real-Time Customer Profile.
 
 1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
-

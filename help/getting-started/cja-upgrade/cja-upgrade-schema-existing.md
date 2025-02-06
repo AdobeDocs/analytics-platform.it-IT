@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 49%
+source-wordcount: '493'
+ht-degree: 38%
 
 ---
 
-# Scegli lo schema per il Customer Journey Analytics
+# Scegli lo schema per il Customer Journey Analytics {#choose-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-tailored"
+>title="Utilizzare uno schema personalizzato"
+>abstract="(Consigliato) La personalizzazione dello schema consente all’organizzazione di tenere traccia solo di ciò che ti serve ed evitare il sovraccarico legato a campi disordinati e non necessari. Questa opzione include i gruppi di campi aggiunti dal SDK Web e i gruppi di campi personalizzati per l&#39;organizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-default"
+>title="Utilizza lo schema predefinito"
+>abstract="(Sconsigliato) Lo schema Adobe Analytics contiene più di mille campi, che possono causare schemi complessi e incompleti. La tua organizzazione sarebbe costretta a continuare ad aderire al concetto di prop ed eVar, che è un concetto legacy non utilizzato nel Customer Journey Analytics. L&#39;integrazione con altri servizi Adobe Experience Platform è più difficile."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >

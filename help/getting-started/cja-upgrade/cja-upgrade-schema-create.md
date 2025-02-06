@@ -7,14 +7,41 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 48%
+source-wordcount: '1253'
+ht-degree: 36%
 
 ---
 
-# Creare uno schema personalizzato da utilizzare con l’implementazione di Customer Journey Analytics Web SDK
+# Creare uno schema personalizzato da utilizzare con l’implementazione di Customer Journey Analytics Web SDK {#create-custom-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create"
+>title="Creare lo schema personalizzato desiderato in Adobe Experience Platform"
+>abstract="Utilizza l’interfaccia utente di Adobe Experience Platform per creare uno schema in modo che Adobe conosca il formato corretto per memorizzare i dati.<br><br>Questo passaggio comporta l&#39;effettiva creazione dello schema concordato dall&#39;organizzazione. Il tempo stimato per la creazione dello schema nell’interfaccia di Adobe Experience Platform è di circa una settimana, a seconda del numero di dimensioni e metriche da creare."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create-default-aa"
+>title="Creare uno schema utilizzando il gruppo di campi Adobe Analytics ExperienceEvent"
+>abstract="Utilizza il gruppo di campi &quot;Adobe Analytics ExperienceEvent&quot; per creare in Adobe Experience Platform uno schema contenente tutti i campi utilizzati da Adobe Analytics.<br><br>La creazione di uno schema basato sul gruppo di campi Adobe Analytics ExperienceEvent è semplice e richiede solo pochi minuti."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-profile"
+>title="Abilita lo schema per il profilo"
+>abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché è stato selezionato il desiderio di integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l&#39;operazione richiede solo alcuni minuti."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,11 +53,17 @@ ht-degree: 48%
 >
 >Prima di iniziare la creazione dello schema personalizzato, rivolgiti al team di dati e ad altre parti interessate all’interno dell’organizzazione per identificare la progettazione dello schema ideale per il Customer Journey Analytics e le altre applicazioni Adobe Experience Platform utilizzate. Per ulteriori informazioni, consulta [Architettura dello schema da utilizzare con il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-L’Adobe consiglia di creare uno schema Experience Data Model (XDM) personalizzato da utilizzare con l’SDK web durante l’aggiornamento al Customer Journey Analytics. Uno schema personalizzato consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. Quando sono necessarie delle modifiche allo schema, non è necessario esaminare minuziosamente migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.
+Nelle sezioni seguenti viene descritto come creare uno schema che può essere utilizzato con il Customer Journey Analytics. Sono disponibili le seguenti opzioni di schema:
+
+* **Schema XDM personalizzato:** (consigliato) Consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. Qualsiasi modifica futura necessaria è semplice.
+
+* **Lo schema Adobe Analytics che utilizza il gruppo di campi Adobe Analytics ExperienceEvent:** richiede l&#39;aggiunta di migliaia di campi non necessari. Qualsiasi cambiamento futuro richiesto è più difficile.
+
+Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 ## Creare lo schema
 
-Lo schema personalizzato definito per l’implementazione dell’SDK web rappresenta il modello dei dati raccolti in Adobe Experience Platform.
+Lo schema personalizzato definito per l’implementazione di Web SDK rappresenta il modello dei dati raccolti in Adobe Experience Platform.
 
 Per creare uno schema personalizzato:
 
@@ -80,6 +113,10 @@ Per creare uno schema personalizzato:
       Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
    1. (Facoltativo) Seleziona eventuali gruppi di campi aggiuntivi da includere.
+
+      Se hai scelto di utilizzare lo schema Adobe Analytics predefinito invece di creare uno schema XDM personalizzato, ora puoi aggiungere il gruppo di campi Adobe Analytics ExperienceEvent. Tuttavia, Adobe consiglia di creare uno schema XDM personalizzato anziché aggiungere questo gruppo di campi.
+
+      Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
    1. Seleziona **[!UICONTROL Add field groups]**.
 

@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '352'
+ht-degree: 27%
 
 ---
 
-# Implementare il tag loader per l’estensione Web SDK
+# Implementare il tag loader per l’estensione Web SDK {#upgrade-tag-loader}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-loader"
+>title="Implementare il tag loader sul sito"
+>abstract="Collabora con il team di sviluppo del tuo sito web per installare il tag loader in ogni pagina del sito.<br><br>Il tempo di completamento di questa attività dipende in larga misura dal tempo di risposta del team tecnico con cui si lavora per distribuire il codice. Alcune organizzazioni che dispongono di team di progettazione altamente adattivi possono completare questo passaggio in pochi giorni, mentre i team di progettazione con un ampio arretrato di attività potrebbero richiedere un mese o più."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: ef6afb2872b88c82801ceb279dd757e6e1f5e78c
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 6%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
-# Creazione di un campo derivato dal canale di marketing per il Customer Journey Analytics
+# Creazione di un campo derivato dal canale di marketing per il Customer Journey Analytics {#create-marketing-channel-derived-field}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-marketing-channel"
+>title="Creare un campo derivato dal canale di marketing"
+>abstract="I campi derivati vengono creati all’interno di una visualizzazione dati.<br><br>L&#39;utilizzo di una configurazione del canale di marketing predefinita richiede solo alcuni minuti. La creazione di una configurazione del canale di marketing altamente personalizzata potrebbe richiedere alcune ore."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -24,7 +33,7 @@ ht-degree: 6%
 
 Quando utilizzi il connettore di origine di Analytics, i dati dei canali di marketing fluiscono nel Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing vengono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Per ulteriori informazioni, vedere [Utilizzare le dimensioni del canale di marketing](/help/use-cases/aa-data/marketing-channels.md).
 
-Per utilizzare i canali di marketing nel Customer Journey Analytics quando utilizzi Experience Platform Web SDK, puoi utilizzare i campi derivati in una visualizzazione dati per ricreare gli stessi canali di marketing e le stesse regole di elaborazione per il Customer Journey Analytics.
+Per utilizzare i canali di marketing nel Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è possibile utilizzare i campi derivati in una visualizzazione dati per ricreare gli stessi canali di marketing e le stesse regole di elaborazione per il Customer Journey Analytics.
 
 1. In Customer Journey Analytics, seleziona la visualizzazione dati in cui desideri aggiungere canali di marketing.
 
