@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '3350'
-ht-degree: 100%
+source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+workflow-type: tm+mt
+source-wordcount: '3387'
+ht-degree: 98%
 
 ---
 
@@ -138,6 +138,17 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 >abstract="Selezionando **[!UICONTROL Show forecast]** verrà automaticamente eseguita la previsione sulla prima colonna di metriche aggiunta a una visualizzazione Tabella a forma libera di una serie temporale."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Metrica tabella predefinita"
+>abstract="Seleziona la metrica o il contenitore predefinito da utilizzare per le tabelle a forma libera. Se la visualizzazione dati selezionata non contiene la metrica o il contenitore predefinito selezionato, la tabella passa automaticamente a un’altra metrica principale."
+
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 Puoi personalizzare le preferenze delle tabelle a forma libera per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
