@@ -10,7 +10,7 @@ exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ Una volta che disponi di un numero sufficiente di dati storici utilizzando Exper
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-historical-data"
 >title="Dati storici da Adobe Analytics"
->abstract="Trasferisci i dati storici della suite di rapporti di Adobe Analytics in Adobe Experience Platform e Customer Journey Analytics."
+>abstract="Importa i dati storici della suite di rapporti di Adobe Analytics in Adobe Experience Platform e Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ Una volta che disponi di un numero sufficiente di dati storici utilizzando Exper
 
    Il connettore di origine di Analytics consente di:
 
-   * Trasferisci i dati storici della suite di rapporti di Adobe Analytics in Adobe Experience Platform e Customer Journey Analytics.
+   * Importa i dati storici della suite di rapporti di Adobe Analytics in Adobe Experience Platform e Customer Journey Analytics.
 
      Puoi mantenere in funzione il connettore di origine di Analytics per il tempo necessario a conservare i dati storici di Adobe Analytics.
 

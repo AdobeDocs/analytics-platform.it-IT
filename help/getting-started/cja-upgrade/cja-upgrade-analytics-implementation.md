@@ -1,5 +1,5 @@
 ---
-title: Comprendere l’implementazione di Adobe Analytics e come influisce sull’aggiornamento al Customer Journey Analytics
+title: Comprendere l’implementazione di Adobe Analytics e il modo in cui influisce sull’aggiornamento a Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 5%
+ht-degree: 24%
 
 ---
 
-# Comprendere l’implementazione di Adobe Analytics e come influisce sull’aggiornamento al Customer Journey Analytics {#implementation-affects-upgrade}
+# Comprendere l’implementazione di Adobe Analytics e il modo in cui influisce sull’aggiornamento a Customer Journey Analytics {#implementation-affects-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement"
 >title="AppMeasurement (file JS manuale)"
->abstract="Un’implementazione di JavaScript che carica AppMeasurement.js su una pagina e invia i dati ad Adobe utilizzando l’oggetto s (ad esempio, s.eVar1)."
+>abstract="Implementazione di JavaScript che carica AppMeasurement.js su una pagina e invia i dati ad Adobe utilizzando l’oggetto s (ad esempio, s.eVar1)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-analyticsextension"
->title="Estensione Adobe Analytics (tag)"
->abstract="Un’implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione Adobe Analytics."
+>title="Estensione di Adobe Analytics (tag)"
+>abstract="Implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione di Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk"
 >title="Web SDK (alloy.js)"
->abstract="Un’implementazione di JavaScript che carica la libreria Web SDK (alloy.js) su una pagina e invia i dati ad Adobe utilizzando un payload JSON."
+>abstract="Implementazione di JavaScript che carica la libreria Web SDK (alloy.js) su una pagina e invia i dati ad Adobe utilizzando un payload JSON."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdkextension"
 >title="Estensione Web SDK (tag)"
->abstract="Un’implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione Web SDK."
+>abstract="Implementazione di tag che carica la raccolta dati di Adobe Experience Platform (precedentemente nota come Launch). Nel tag è installata l’estensione Web SDK."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,26 +1,27 @@
 ---
-title: Aggiornamento da una soluzione di analisi di terze parti a un Customer Journey Analytics
+title: Aggiornamento da una soluzione di analisi di terze parti a Customer Journey Analytics
 description: Scopri come effettuare l’aggiornamento da una soluzione di analisi di terze parti al Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
+source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Aggiornamento da una soluzione di analisi di terze parti a un Customer Journey Analytics {#upgrade-from-third-party}
+# Aggiornamento da una soluzione di analisi di terze parti a Customer Journey Analytics {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="Un prodotto di analisi di terze parti"
->abstract="Implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nel questionario verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a un Customer Journey Analytics da un prodotto di analisi di terze parti."
+>title="Prodotto di analisi di terze parti"
+>abstract="Implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nel questionario verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto di analisi di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 

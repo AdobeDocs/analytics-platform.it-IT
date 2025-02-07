@@ -1,5 +1,5 @@
 ---
-title: Transizione dal connettore di origine di Analytics al Web SDK per il Customer Journey Analytics
+title: Transizione dal connettore di origine di Analytics a Web SDK per Customer Journey Analytics
 description: Scopri come passare al Web SDK dal connettore di origine di Analytics durante l’aggiornamento al Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Transizione dal connettore di origine di Analytics al Web SDK per il Customer Journey Analytics {#transition-from-source-connector}
+# Transizione dal connettore di origine di Analytics a Web SDK per Customer Journey Analytics {#transition-from-source-connector}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector"
->title="Implementazione del connettore di origine di Analytics"
->abstract="Il connettore di origine di Analytics ti consente di ottenere facilmente valore dal Customer Journey Analytics, ma richiede il pagamento sia per Adobe Analytics che per Customer Journey Analytics. Questa guida consente di passare a un’implementazione indipendente di Web SDK."
+>title="Imlementazione del connettore di origine di Analytics"
+>abstract="Il connettore di origine di Analytics consente di ottenere facilmente valore da Customer Journey Analytics, ma richiede il pagamento sia per Adobe Analytics che per Customer Journey Analytics. Questa guida consente di passare a un’implementazione indipendente di Web SDK."
 
 <!-- markdownlint-enable MD034 -->
 

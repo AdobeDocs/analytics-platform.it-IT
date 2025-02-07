@@ -1,26 +1,27 @@
 ---
-title: Informazioni sul supporto delle funzioni di Adobe Analytics durante l’aggiornamento al Customer Journey Analytics
+title: Scopri di più sul supporto delle funzioni di Adobe Analytics durante l’aggiornamento a Customer Journey Analytics
 description: Scopri il supporto delle funzioni di Adobe Analytics durante l’aggiornamento al Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8d14bb23283107402332106df36e8f7898ea5d30
+exl-id: 92053109-f80d-47ab-b011-c28a5411149c
+source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 29%
+ht-degree: 59%
 
 ---
 
-# Informazioni sul supporto delle funzioni di Adobe Analytics durante l’aggiornamento al Customer Journey Analytics {#feature-support-upgrade}
+# Scopri di più sul supporto delle funzioni di Adobe Analytics durante l’aggiornamento a Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-migrate-projects"
 >title="Componenti e progetti"
->abstract="I componenti di Adobe Analytics includono: Progetti (con le relative tabelle a forma libera e visualizzazioni associate), segmenti e metriche calcolate."
+>abstract="I componenti di Adobe Analytics includono: progetti (con le relative tabelle a forma libera e visualizzazioni associate), segmenti e metriche calcolate."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +48,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channels"
 >title="Canali di marketing"
->abstract="Crea regole che categorizzano il modo in cui i clienti arrivano sul tuo sito."
+>abstract="Crea regole che categorizzano il modo in cui la clientela arriva sul sito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,8 +74,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
->title="Dati multimediali in streaming"
->abstract="Componente aggiuntivo per Adobe Analytics, specializzato nella raccolta di dati di contenuti multimediali, come audio, video o contenuti in streaming."
+>title="Dati di file multimediali in streaming"
+>abstract="Componente aggiuntivo per Adobe Analytics, specializzato nella raccolta dati di file multimediali, come audio, video o contenuti in streaming."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,4 +96,3 @@ Considera quali delle seguenti funzioni di Adobe Analytics desideri continuare a
 | [Feed dati](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | L’esportazione dei set di dati di prima generazione è disponibile tramite l’[API di accesso ai dati di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it) e attraverso le [destinazioni di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it). Queste opzioni forniscono l’esportazione a livello di evento/riga di tutti i dati raccolti o acquisiti nel data lake di Experience Platform. Le colonne dei dati di post-elaborazione non sono disponibili perché le colonne post vengono calcolate in fase di query. L’esportazione delle colonne post è disponibile tramite il reporting. |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | L’[Esportazione tabella completa di Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) è l’evoluzione dei rapporti Data Warehouse in Adobe Analytics, con molte nuove funzioni, spesso richieste, che oggi non sono disponibili in Data Warehouse. |
 | [Dati multimediali in streaming](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview) | I dati multimediali in streaming sono disponibili tramite il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale utilizzato in Workspace. |
-
