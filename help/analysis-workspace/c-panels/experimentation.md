@@ -4,9 +4,9 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2139'
 ht-degree: 20%
 
 ---
@@ -189,3 +189,7 @@ Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il v
 ## Utilizzare le metriche calcolate nel pannello Sperimentazione
 
 Consulta questo post di blog per informazioni sull&#39;utilizzo di [metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+
+>[!MORELIKETHIS]
+>[Padroneggiare la sperimentazione Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>
