@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
+source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 2%
+source-wordcount: '1614'
+ht-degree: 11%
 
 ---
 
@@ -66,12 +66,12 @@ La procedura guidata di configurazione è costituita da quattro sezioni ([Dettag
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="Dettagli"
->abstract="Immetti un nome per la connessione. Nelle sezioni **[!UICONTROL Data view]**, **[!UICONTROL Experience capture and definition]** e **[!UICONTROL Data collection]** vengono forniti ulteriori dettagli per garantire che Content Analytics possa essere configurato correttamente."
+>abstract="Fornisci un nome per la connessione. Nelle sezioni **[!UICONTROL Data view]**, **[!UICONTROL Experience capture and definition]** e **[!UICONTROL Data collection]** vengono forniti ulteriori dettagli per garantire che Content Analytics possa essere configurato correttamente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Dettagli"
->abstract="Questa guida definirà i requisiti necessari per configurare l’analisi dei contenuti. Specifica un nome per questa configurazione"
+>abstract="Questa guida definirà i requisiti necessari per configurare Content Analytics. Specifica un nome per questa configurazione"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -126,17 +126,17 @@ Una visualizzazione dati è associata a un Customer Journey Analytics [Connessio
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics. Quando questa opzione è selezionata, devi definire una o più combinazioni di un regex e parametri di query per definire gli URL per i quali includere le esperienze."
+>abstract="Puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics. Quando questa opzione è selezionata, devi definire una o più combinazioni di un regex e parametri di query per definire gli URL per i quali desideri includere le esperienze."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Raccogliere esperienze nell’analisi dei contenuti"
+>abstract="Raccogliere esperienze in Content Analytics"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_url_header"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Specifica gli URL a cui si applicano i parametri seguenti"
+>abstract="Specificare gli URL a cui si applicano i parametri seguenti"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_edit_button"
@@ -174,12 +174,12 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="Raccolta dati"
->abstract="Definisci la proprietà Tag da utilizzare o creane una nuova. Definisci le pagine e le risorse da includere o escludere utilizzando espressioni regolari."
+>abstract="Definisci la proprietà tag da utilizzare o creane una nuova. Definisci le pagine e le risorse da includere o escludere utilizzando espressioni regolari."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="Raccolta dati"
->abstract="Fornisci una proprietà tag"
+>abstract="Fornire una proprietà tag"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -194,7 +194,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
 >title="Raccolta dati"
->abstract="**Assets da includere/escludere**"
+>abstract="**Risorse da includere/escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
@@ -283,3 +283,9 @@ Dopo aver creato o modificato una configurazione, sono disponibili le azioni rip
       1. Se il Web SDK non è configurato per la proprietà Tags, viene creata una nuova configurazione Web SDK per inviare solo eventi di Content Analytics.
       1. Se il Web SDK è configurato per questa proprietà Tag, non viene apportata alcuna modifica alla configurazione del Web SDK esistente.
 * **[!UICONTROL Save]**: le modifiche apportate a una configurazione implementata vengono salvate e l&#39;implementazione viene aggiornata.
+* **[!UICONTROL Exit]**. Chiude la configurazione guidata. Tutte le modifiche apportate a una configurazione implementata vengono ignorate.
+
+>[!MORELIKETHIS]
+>
+>[Configurazione manuale di Content Analytics](manual.md)
+>

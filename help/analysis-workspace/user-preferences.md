@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 98%
+source-wordcount: '3451'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Metrica tabella predefinita"
->abstract="Seleziona la metrica o il contenitore predefinito da utilizzare per le tabelle a forma libera. Se la visualizzazione dati selezionata non contiene la metrica o il contenitore predefinito selezionato, la tabella passa automaticamente a un’altra metrica principale."
+>abstract="Seleziona la metrica predefinita da utilizzare per le tabelle a forma libera. Se la visualizzazione dati selezionata non contiene la metrica predefinita selezionata, la tabella passa automaticamente a un’altra metrica principale."
 
 
 <!-- markdownlint-enable MD034 -->
@@ -181,7 +181,17 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 | | Calcolo percentuale | <ul><li>Colonna</li><li>Riga</li></ul> |
 | | Totali colonne (solo righe statiche) | <ul><li>Visualizza somma di righe: mostra la somma dei singoli elementi di riga </li><li>Visualizza totale complessivo: mostra la somma deduplicata di righe.</li></ul> |
 
-### Preferenze delle visualizzazioni
+### Preferenze delle visualizzazioni {#visalization-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultflowcontainer"
+>title="Metrica tabella predefinita"
+>abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Flusso. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Flusso passa automaticamente a un altro contenitore principale."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultfalloutcontainer"
+>title="Metrica tabella predefinita"
+>abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Abbandono. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Abbandono passa automaticamente a un altro contenitore principale."
 
 Puoi aggiornare le preferenze di visualizzazione per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
 
