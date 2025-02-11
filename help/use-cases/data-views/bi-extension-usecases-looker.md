@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
+source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
 workflow-type: tm+mt
-source-wordcount: '10355'
+source-wordcount: '10356'
 ht-degree: 4%
 
 ---
@@ -236,7 +236,7 @@ Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulte
          1. Assegna un nome al progetto in **[!UICONTROL Create a new LookML Project for this model]**. Per `example: example_looker_project`.
          1. Seleziona **[!UICONTROL Next]**.
       1. In **[!UICONTROL ➋ Select Tables]**:
-         1. Selezionare **[!UICONTROL public]**, quindi assicurarsi che la visualizzazione dati di Customer Journey Analytics sia selezionata. Esempio: ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**.
+         1. Selezionare **[!UICONTROL public]**, quindi assicurarsi che la visualizzazione dati di Customer Journey Analytics sia selezionata. Esempio: ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**.
          1. Seleziona **[!UICONTROL Next]**.
       1. In **[!UICONTROL ➌ Select Primary Keys]**:
          1. Seleziona **[!UICONTROL Next]**.
@@ -244,7 +244,7 @@ Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulte
          1. Accertati di selezionare la vista. Ad esempio: **[!UICONTROL cc_data_view.view]**.
          1. Seleziona **[!UICONTROL Next]**.
       1. In **[!UICONTROL ➎ Enter Model Name]**:
-         1. Assegna un nome al modello. Esempio: `example_looker_mode`l.
+         1. Assegna un nome al modello. Ad esempio: `example_looker_model`.
       1. Seleziona **[!UICONTROL Complete and Explore Data]**.
 
    Sei stato reindirizzato all&#39;interfaccia **[!UICONTROL Explore]** di Looker, pronto per esplorare i dati.
@@ -258,8 +258,8 @@ Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori inf
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
 | Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare!** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ChiudiCerchio](/help/assets/icons/CloseCircle.svg) | Errore visualizzato da Looker: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
 
 ### Ulteriori informazioni
 
