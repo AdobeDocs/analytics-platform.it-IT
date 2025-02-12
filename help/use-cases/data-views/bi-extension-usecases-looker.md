@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
+source-git-commit: 007674fd9da69a4a333d5300c4f4d30640c4b366
 workflow-type: tm+mt
 source-wordcount: '10356'
 ht-degree: 4%
@@ -222,7 +222,7 @@ Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulte
       1. Seleziona **[!UICONTROL Expand all]** alle **[!UICONTROL Optional Settings]**.
       1. Imposta **[!UICONTROL Max connections]** per nodo su `5`.
       1. Assicurarsi che **[!UICONTROL SSL]** sia abilitato.
-      1. Selezionare **[!UICONTROL Test]** per verificare la connessione. Dovresti vedere un banner nella parte superiore dello schermo con un messaggio come **[!UICONTROL Success, can connect JDBC string: jdbc:postgresql://examplecompany.platform-query-stage.adobe.io:80/prod:cja?FLATTEN?tcpKeepAlive=true&ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&sslmode=prefer]**.
+      1. Selezionare **[!UICONTROL Test]** per verificare la connessione. Dovresti vedere un banner nella parte superiore dello schermo con un messaggio come **[!UICONTROL Success, can connect JDBC ....]**.
       1. Selezionare **[!UICONTROL Connect]** per stabilire e salvare la connessione.
    1. La nuova connessione viene visualizzata nell&#39;interfaccia **[!UICONTROL Connections]**.
    1. Seleziona **←** da **[!UICONTROL Admin]** per passare alla navigazione principale nella barra a sinistra.

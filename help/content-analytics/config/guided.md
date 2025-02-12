@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 11%
+source-wordcount: '1755'
+ht-degree: 10%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 11%
 >Questo articolo è una bozza preliminare non ufficiale di una versione finale di prossima pubblicazione e fa parte della documentazione di Content Analytics. Tutti i contenuti sono soggetti a modifiche e nessun obbligo legale può essere derivato dalla versione corrente di questo articolo.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
 
 La configurazione guidata consente di configurare l’analisi dei contenuti in modo rapido e semplice. La configurazione guidata utilizza una procedura guidata per impostare i requisiti necessari per configurare automaticamente Content Analytics per la tua organizzazione. Nella schermata **[!UICONTROL Configuration]** è possibile creare una nuova configurazione o modificare una configurazione esistente.
 
+>[!IMPORTANT]
+>
+>Nella tua organizzazione puoi avere una sola configurazione di Analytics contenuto per sandbox.
+
+
 Per accedere alla configurazione di Content Analytics
 
-* Selezionare **[!UICONTROL Data Management]** > **[!UICONTROL Content Analytics]** dal menu principale nel Customer Journey Analytics.
+* Selezionare **[!UICONTROL Data Management]** > **[!UICONTROL Content Analytics]** dal menu principale in Customer Journey Analytics.
 
 Nella schermata Configurazione analisi contenuto viene visualizzata una tabella delle configurazioni di analisi contenuto esistenti.
 
@@ -92,12 +97,12 @@ Ogni configurazione richiede un nome univoco. Ad esempio: `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Visualizzazione dati"
->abstract="Seleziona una visualizzazione dati esistente dal Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti."
+>abstract="Seleziona una visualizzazione dati esistente da Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Visualizzazione dati"
->abstract="Selezionare una visualizzazione dati esistente dal Customer Journey Analytics con cui si desidera unire i dati di analisi dei contenuti.<br/>"
+>abstract="Selezionare una visualizzazione dati esistente da Customer Journey Analytics con cui si desidera unire i dati di analisi dei contenuti.<br/>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -116,7 +121,7 @@ Se modifichi una configurazione esistente, l’elenco mostra solo le visualizzaz
    * Per definire le colonne da visualizzare nella tabella, selezionare ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg). Selezionare le colonne da visualizzare nella finestra di dialogo **[!UICONTROL Customize table]** e selezionare **[!UICONTROL Apply]** per applicare le modifiche.
 1. Selezionare **[!UICONTROL Save]** per confermare la visualizzazione dati selezionata. Selezionare **[!UICONTROL Cancel]** per annullare.
 
-Una visualizzazione dati è associata a un Customer Journey Analytics [Connessione](/help/connections/overview.md). Una connessione si basa su una sandbox all’interno della tua organizzazione. Una volta salvata la configurazione, **[!UICONTROL Sandbox]** viene automaticamente compilato con il nome corretto della sandbox, in base alla visualizzazione dati selezionata.
+Una visualizzazione dati è associata a una [connessione](/help/connections/overview.md) Customer Journey Analytics. Una connessione si basa su una sandbox all’interno della tua organizzazione. Una volta salvata la configurazione, **[!UICONTROL Sandbox]** viene automaticamente compilato con il nome corretto della sandbox, in base alla visualizzazione dati selezionata.
 
 
 ### Acquisizione e definizione dell’esperienza {#onboarding-experiences}
@@ -147,7 +152,9 @@ Una visualizzazione dati è associata a un Customer Journey Analytics [Connessio
 
 <!-- markdownlint-enable MD034 -->
 
-In questa sezione, puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics. Un’esperienza è tutto il testo su una pagina web riproducibile utilizzando l’URL utilizzato dall’utente che visita inizialmente quella pagina web. Quando viene selezionata, è necessario definire gli URL per i quali includere le esperienze.
+In questa sezione, puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics.  Un’esperienza è tutto il testo su una pagina web riproducibile utilizzando l’URL utilizzato dall’utente che visita inizialmente quella pagina web.
+
+Per impostazione predefinita, **[!UICONTROL Include experiences]** è disattivato. Quando viene selezionata, è necessario definire gli URL per i quali includere le esperienze.
 
 Per includere le esperienze in una configurazione nuova o non implementata:
 
@@ -157,8 +164,8 @@ Per includere le esperienze in una configurazione nuova o non implementata:
 1. Specifica i parametri che determinano il rendering del contenuto sul sito web. I parametri sono zero o più combinazioni di **[!UICONTROL Domain regular expression]** e **[!UICONTROL Query parameters]**.
    1. Immettere un **[!UICONTROL Domain regular expression]**, ad esempio `(?!.*\b(store|help|admin)\b)`.
    1. Specificare un elenco separato da virgole di **[!UICONTROL Query parameters,]**, ad esempio `outdoors, patio, kitchen`.
-   1. Selezionare **[!UICONTROL Remove]** se si desidera rimuovere una combinazione.
-   1. Selezionare **[!UICONTROL Add another]** per aggiungere un&#39;altra combinazione.
+1. Selezionare **[!UICONTROL Remove]** se si desidera rimuovere una combinazione di espressioni regolari di dominio e parametri di query.
+1. Selezionare **[!UICONTROL Add another]** se si desidera aggiungere un&#39;altra combinazione di un&#39;espressione regolare e parametri di query.
 
 Per modificare esperienze esistenti o includerne di nuove in una configurazione implementata:
 
@@ -230,10 +237,7 @@ In una nuova configurazione, è necessario definire la proprietà Tag da utilizz
 
    1. Seleziona **[!UICONTROL Create new]**.
    2. Specificare **[!UICONTROL Tag name]**, ad esempio `ACA Test`.
-   3. Specificare uno o più **[!UICONTROL Domains]**, ad esempio `example.com`.
-
-   * Per aggiungere altri domini, selezionare **[!UICONTROL Add another]**.
-   * Per rimuovere un dominio, selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
+   3. Specificare **[!UICONTROL Domains]**, ad esempio `example.com`.
 
 * Se hai selezionato di includere le esperienze, indica quali pagine includere o escludere durante la raccolta di dati per Content Analytics.
 
@@ -254,13 +258,25 @@ Per una configurazione esistente, non è possibile modificare la proprietà Tag.
 
 ### Riepilogo
 
-Dopo aver fornito tutti i dettagli necessari, verrà visualizzato un **[!UICONTROL You're almost ready to implement _nome configurazione _per il riepilogo di Content Analytics]**.
+Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sugli artefatti creati o modificati.
 
-Per le configurazioni implementate esistenti, viene visualizzato un **[!UICONTROL You have implemented _nome configurazione _per il riepilogo di Content Analytics]**.
+* Quando si implementa una nuova configurazione, viene visualizzato un **[!UICONTROL You're almost ready to implement _nome configurazione _per il riepilogo di Content Analytics]**.
+
+* Per le configurazioni implementate esistenti, viene visualizzato un **[!UICONTROL You have implemented _nome configurazione _per il riepilogo di Content Analytics]**.
 
 ![Riepilogo configurazione analisi contenuto](../assets/aca-configuration-summary.png)
 
 ### Azioni
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_implementation_warning"
+>title="Avvertenza sull’implementazione dell’onboarding"
+>abstract="L’analisi dei contenuti verrà configurata parzialmente in base all’input fornito in questo flusso di lavoro. Diverse altre impostazioni vengono scelte automaticamente in base a ciò che è generalmente utile per l’analisi dei contenuti. Ti invitiamo a rivedere le impostazioni di ciascun artefatto per verificare che soddisfino le tue esigenze e linee guida. <br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/>Inoltre, per derivare gli attributi di immagini e testo, Adobe recupererà questi attributi utilizzando l&#39;URL acquisito al momento della visita degli utenti in base alle impostazioni di raccolta dati implementate."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Dopo aver creato o modificato una configurazione, sono disponibili le azioni riportate di seguito.
 
