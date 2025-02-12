@@ -1,6 +1,6 @@
 ---
-title: Creazione di uno schema personalizzato per il Customer Journey Analytics
-description: Scopri come creare uno schema personalizzato per il Customer Journey Analytics
+title: Creare uno schema personalizzato per Customer Journey Analytics
+description: Scopri come creare uno schema personalizzato per Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -39,27 +39,27 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="Abilita lo schema per il profilo"
->abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché è stato selezionato il desiderio di integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l&#39;operazione richiede solo alcuni minuti."
+>abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché hai selezionato il desiderio di integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l&#39;operazione richiede solo alcuni minuti."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
 >[!IMPORTANT]
 >
->Prima di iniziare la creazione dello schema personalizzato, rivolgiti al team di dati e ad altre parti interessate all’interno dell’organizzazione per identificare la progettazione dello schema ideale per il Customer Journey Analytics e le altre applicazioni Adobe Experience Platform utilizzate. Per ulteriori informazioni, consulta [Architettura dello schema da utilizzare con il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+>Prima di iniziare a creare lo schema personalizzato, rivolgiti al team di dati e ad altre parti interessate all’interno dell’organizzazione per identificare la progettazione dello schema ideale per Customer Journey Analytics e le altre applicazioni Adobe Experience Platform utilizzate. Per ulteriori informazioni, consulta [Architettura dello schema da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-Nelle sezioni seguenti viene descritto come creare uno schema che può essere utilizzato con il Customer Journey Analytics. Sono disponibili le seguenti opzioni di schema:
+Nelle sezioni seguenti viene descritto come creare uno schema che può essere utilizzato con Customer Journey Analytics. Sono disponibili le seguenti opzioni di schema:
 
 * **Schema XDM personalizzato:** (consigliato) Consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. Qualsiasi modifica futura necessaria è semplice.
 
 * **Lo schema Adobe Analytics che utilizza il gruppo di campi Adobe Analytics ExperienceEvent:** richiede l&#39;aggiunta di migliaia di campi non necessari. Qualsiasi cambiamento futuro richiesto è più difficile.
 
-Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 ## Creare lo schema
 
@@ -116,7 +116,7 @@ Per creare uno schema personalizzato:
 
       Se hai scelto di utilizzare lo schema Adobe Analytics predefinito invece di creare uno schema XDM personalizzato, ora puoi aggiungere il gruppo di campi Adobe Analytics ExperienceEvent. Tuttavia, Adobe consiglia di creare uno schema XDM personalizzato anziché aggiungere questo gruppo di campi.
 
-      Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+      Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
    1. Seleziona **[!UICONTROL Add field groups]**.
 
@@ -142,7 +142,7 @@ Per creare uno schema personalizzato:
 
    ![Oggetto di identificazione](assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
+   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -164,7 +164,7 @@ Per creare uno schema personalizzato:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-1. (Facoltativo) Se desideri integrare il Customer Journey Analytics con RTCDP, seleziona l&#39;elemento principale dello schema con il nome dello schema, quindi seleziona l&#39;opzione **[!UICONTROL Profile]**.
+1. (Facoltativo) Se desideri integrare Customer Journey Analytics con RTCDP, seleziona l&#39;elemento principale dello schema che mostra il nome dello schema, quindi seleziona l&#39;opzione **[!UICONTROL Profile]**.
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
@@ -190,7 +190,7 @@ Per creare uno schema personalizzato:
 
    * Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-   * Definisci l’ID Experience Cloud come identificatore principale e invia un’e-mail come identificatore.
+   * Definisci Experience Cloud ID come identificatore primario e e-mail come identificatore.
 
    * Abilitare lo schema per il profilo
 

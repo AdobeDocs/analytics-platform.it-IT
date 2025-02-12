@@ -1,5 +1,5 @@
 ---
-title: Creazione di una visualizzazione dati nel Customer Journey Analytics
+title: Creare una visualizzazione dati in Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,20 +14,20 @@ ht-degree: 18%
 
 ---
 
-# Creazione di una visualizzazione dati nel Customer Journey Analytics {#upgrade-create-dataview}
+# Creare una visualizzazione dati in Customer Journey Analytics {#upgrade-create-dataview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
->title="Creazione di una visualizzazione dati nel Customer Journey Analytics"
->abstract="Una visualizzazione dati è un contenitore specifico del Customer Journey Analytics che consente di determinare come interpretare i dati di una connessione.<br><br>Mentre la creazione iniziale della visualizzazione dati richiede alcuni minuti, la configurazione di ogni dimensione e metrica con le impostazioni del componente desiderate può richiedere alcuni giorni. La modifica di queste impostazioni viene applicata retroattivamente, in modo che l’organizzazione possa perfezionarle nel tempo."
+>title="Creare una visualizzazione dati in Customer Journey Analytics"
+>abstract="Una visualizzazione dati è un contenitore specifico di Customer Journey Analytics che consente di determinare come interpretare i dati di una connessione.<br><br>Mentre la creazione iniziale della visualizzazione dati richiede alcuni minuti, la configurazione di ogni dimensione e metrica con le impostazioni del componente desiderate può richiedere alcuni giorni. La modifica di queste impostazioni viene applicata retroattivamente, in modo che l’organizzazione possa perfezionarle nel tempo."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -53,7 +53,7 @@ Per creare una visualizzazione dati:
 
    ![Scheda Componenti](assets/dataview-components.png)
 
-1. Dalla scheda [!UICONTROL **Componenti**], trascina gli elementi dello schema dalla barra a sinistra alla sezione [!UICONTROL **Metriche**] o alla sezione [!UICONTROL **Dimension**]. Gli elementi dello schema aggiunti diventano metriche o dimensioni nella visualizzazione dati.
+1. Dalla scheda [!UICONTROL **Componenti**], trascina gli elementi dello schema dalla barra a sinistra alla sezione [!UICONTROL **Metriche**] o alla sezione [!UICONTROL **Dimensioni**]. Gli elementi dello schema aggiunti diventano metriche o dimensioni nella visualizzazione dati.
 
    Per informazioni dettagliate sulle opzioni disponibili quando si aggiungono componenti a una visualizzazione dati, vedere [Componenti](/help/data-views/create-dataview.md#components) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 

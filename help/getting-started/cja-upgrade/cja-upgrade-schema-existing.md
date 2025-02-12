@@ -1,6 +1,6 @@
 ---
-title: Scegli lo schema per il Customer Journey Analytics
-description: Scopri le opzioni disponibili nella scelta di uno schema per il Customer Journey Analytics e i vantaggi e gli svantaggi di ciascuno
+title: Scegli lo schema per Customer Journey Analytics
+description: Scopri le opzioni disponibili per la scelta di uno schema per Customer Journey Analytics e i vantaggi e gli svantaggi di ciascuno
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 ---
 
-# Scegli lo schema per il Customer Journey Analytics {#choose-schema}
+# Scegli lo schema per Customer Journey Analytics {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
 >title="Utilizza lo schema predefinito"
->abstract="(Sconsigliato) Lo schema Adobe Analytics contiene più di mille campi, che possono causare schemi complessi e incompleti. La tua organizzazione sarebbe costretta a continuare ad aderire al concetto di prop ed eVar, che è un concetto legacy non utilizzato nel Customer Journey Analytics. L&#39;integrazione con altri servizi Adobe Experience Platform è più difficile."
+>abstract="(Sconsigliato) Lo schema Adobe Analytics contiene più di mille campi, che possono causare schemi complessi e incompleti. La tua organizzazione sarebbe costretta a continuare ad aderire al concetto di prop ed eVar, un concetto legacy non utilizzato in Customer Journey Analytics. L&#39;integrazione con altri servizi Adobe Experience Platform è più difficile."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,13 +40,13 @@ ht-degree: 38%
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-Durante l’aggiornamento al Customer Journey Analytics, Adobe consiglia di creare uno schema Experience Data Model (XDM) personalizzato per allinearlo meglio alle esigenze della tua organizzazione quando inizi a utilizzare altri servizi Platform. In alternativa, puoi scegliere di utilizzare lo schema Adobe Analytics esistente.
+Durante l’aggiornamento a Customer Journey Analytics, Adobe consiglia di creare uno schema Experience Data Model (XDM) personalizzato per allinearlo meglio alle esigenze della tua organizzazione quando inizi a utilizzare altri servizi Platform. In alternativa, puoi scegliere di utilizzare lo schema Adobe Analytics esistente.
 
 Considera i vantaggi e gli svantaggi di ciascuno.
 
 ## Creare uno schema personalizzato personalizzato per la tua organizzazione (scelta consigliata)
 
-L’Adobe consiglia di creare uno schema personalizzato durante l’aggiornamento al Customer Journey Analytics.
+Adobe consiglia di creare uno schema personalizzato durante l’aggiornamento a Customer Journey Analytics.
 
 | Vantaggi | Svantaggi |
 |----------|---------|
@@ -54,7 +54,7 @@ L’Adobe consiglia di creare uno schema personalizzato durante l’aggiornament
 
 ## Usa lo schema Adobe Analytics esistente
 
-L&#39;opzione per utilizzare lo schema Adobe Analytics esistente con il Customer Journey Analytics è disponibile solo se l&#39;implementazione Adobe Analytics è configurata con Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+L&#39;opzione per utilizzare lo schema Adobe Analytics esistente con Customer Journey Analytics è disponibile solo se l&#39;implementazione Adobe Analytics è configurata con Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Vantaggi | Svantaggi |
 |----------|---------|

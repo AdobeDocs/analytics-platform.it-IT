@@ -1,6 +1,6 @@
 ---
-title: Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics
-description: Scopri come creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics
+title: Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics
+description: Scopri come creare set di dati di ricerca per classificare i dati in Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics {#upgrade-lookup-dataset}
+# Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -39,11 +39,11 @@ Per classificare i dati in Customer Journey Analytics quando si utilizza Experie
 
 ## Creare uno schema personalizzato da utilizzare con il set di dati di ricerca
 
-Crea un nuovo schema personalizzato per ogni dimensione che contiene i dati da classificare nel Customer Journey Analytics. Quando crei il set di dati di ricerca in un passaggio successivo, farà riferimento a questo schema.
+Crea un nuovo schema personalizzato per ogni dimensione che contiene i dati da classificare in Customer Journey Analytics. Quando crei il set di dati di ricerca in un passaggio successivo, farà riferimento a questo schema.
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
-Per creare uno schema da utilizzare con un set di dati di ricerca nel Customer Journey Analytics:
+Per creare uno schema da utilizzare con un set di dati di ricerca in Customer Journey Analytics:
 
 1. In Adobe Experience Platform, seleziona **[!UICONTROL Schemas]** nella sezione **[!UICONTROL Data Management]** nella barra a sinistra.
 
@@ -71,7 +71,7 @@ Dopo aver [creato uno schema personalizzato](#create-a-custom-schema-to-use-with
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
-Per creare un set di dati di ricerca da utilizzare con uno schema nel Customer Journey Analytics:
+Per creare un set di dati di ricerca da utilizzare con uno schema in Customer Journey Analytics:
 
 >[!NOTE]
 >
@@ -105,15 +105,15 @@ Per creare un set di dati di ricerca da utilizzare con uno schema nel Customer J
 
 1. Seleziona **[!UICONTROL Finish]**.
 
-1. Continua con [Aggiungi il set di dati di ricerca alla tua connessione nel Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
+1. Continua con [Aggiungi il set di dati di ricerca alla tua connessione in Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
 
-## Aggiungere il set di dati di ricerca alla connessione nel Customer Journey Analytics
+## Aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics
 
 Dopo aver [creato uno schema personalizzato](#create-a-custom-schema-to-use-with-the-lookup-dataset) e [creato un set di dati di ricerca](#create-a-lookup-dataset), è necessario aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics.
 
 Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
-Per aggiungere il set di dati di ricerca alla connessione nel Customer Journey Analytics:
+Per aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics:
 
 1. In Customer Journey Analytics, seleziona la scheda **[!UICONTROL Connections]**.
 
@@ -133,5 +133,5 @@ Per aggiungere il set di dati di ricerca alla connessione nel Customer Journey A
 
 1. Utilizzando il campo **[!UICONTROL Key]** e il campo **[!UICONTROL Matching key]**, crea una correlazione tra il campo nel set di dati di ricerca e quello nel set di dati evento o di riepilogo.
 
-1. Dopo che tutti i set di dati di ricerca sono stati aggiunti alla connessione nel Customer Journey Analytics, continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+1. Dopo aver aggiunto alla connessione in Customer Journey Analytics tutti i set di dati di ricerca, continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
 

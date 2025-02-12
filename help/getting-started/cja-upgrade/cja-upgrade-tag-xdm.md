@@ -21,13 +21,13 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="Aggiungere la logica di raccolta dati XDM al tag"
->abstract="Con il tag loader installato sul sito, puoi aggiungere regole ed elementi di dati per compilare un oggetto XDM da inviare a Adobe. Adobe consiglia di mantenere un documento di progettazione della soluzione per monitorare la configurazione dei tag.<br><br>Questo passaggio richiede molto lavoro, in quanto comporta la configurazione di tutta la logica Analytics per la proprietà. Aspettati di dedicare un mese o più per stabilire le regole di tag corrette, testarle e distribuirle sul sito."
+>abstract="Con il tag loader installato sul sito, puoi aggiungere regole ed elementi di dati per compilare un oggetto XDM da inviare ad Adobe. Adobe consiglia di mantenere un documento di progettazione della soluzione per monitorare la configurazione dei tag.<br><br>Questo passaggio richiede molto lavoro, in quanto comporta la configurazione di tutta la logica Analytics per la proprietà. Aspettati di dedicare un mese o più per stabilire le regole di tag corrette, testarle e distribuirle sul sito."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -39,7 +39,7 @@ Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dat
 
 Le sezioni seguenti descrivono gli elementi dati consigliati e altri elementi dati comuni che puoi configurare.
 
-Esistono vari tipi di elementi dati. Due elementi dati comuni che potresti voler configurare sono: uno che acquisisce il nome della pagina visualizzato dalle persone sul sito e un altro che acquisisce l’ID Experience Cloud di ogni persona che visita il sito.
+Esistono vari tipi di elementi dati. Due elementi dati comuni che potresti voler configurare sono: uno che acquisisce il nome della pagina che le persone stanno visualizzando sul tuo sito e un altro che acquisisce l’Experience Cloud ID di ogni persona che visita il tuo sito.
 
 Dopo aver configurato questi due elementi dati, puoi configurare elementi dati aggiuntivi per i dati specifici che desideri acquisire.
 
@@ -91,7 +91,7 @@ Per creare un elemento dati nome pagina:
 
 #### Elemento dati ECID
 
-Un elemento dati comune che si applica alla maggior parte delle organizzazioni è un elemento dati che acquisisce l’ID Experience Cloud di ogni persona che visita il sito.
+Un elemento dati comune che si applica alla maggior parte delle organizzazioni è un elemento dati che acquisisce l’Experience Cloud ID di ogni persona che visita il sito.
 
 Per creare un elemento dati ECID:
 
@@ -101,7 +101,7 @@ Per creare un elemento dati ECID:
 
 1. Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Proprietà tag) per aprirlo.
 
-1. (Condizionale) Installa l&#39;estensione del servizio ID Experience Cloud, se non è già installata:
+1. (Condizionale) Installa l&#39;estensione del servizio Experience Cloud ID se non è già installata:
 
    1. Seleziona **[!UICONTROL Extensions]** (Elementi dati) nella barra a sinistra.
 

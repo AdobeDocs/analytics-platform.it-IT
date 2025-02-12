@@ -18,12 +18,12 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
->title="Crea esportazioni di tabelle complete simili a Data Warehouse"
+>title="Creare esportazioni di tabelle complete simili a Data Warehouse"
 >abstract="Le esportazioni di tabelle complete sono disponibili non appena vengono visualizzati i dati in Analysis Workspace. È possibile creare o pianificare esportazioni di tabelle complete in base alle esigenze.<br><br>Il completamento della creazione di esportazioni di tabelle complete richiede solo alcuni minuti se si conoscono già i dati da includere nell&#39;esportazione."
 
 <!-- markdownlint-enable MD034 -->
 
-Puoi esportare tabelle complete di Workspace dal Customer Journey Analytics e inviare esportazioni alle destinazioni cloud designate.
+Puoi esportare tabelle complete di Workspace da Customer Journey Analytics e inviare esportazioni a destinazioni cloud designate.
 
 Sono disponibili anche altri metodi di esportazione dei report di Customer Journey Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
@@ -125,7 +125,7 @@ Un file manifesto con il nome di file `cja-export-{reportInstanceId}-{idx}.json.
 
 ## Vantaggi dell&#39;esportazione nel cloud
 
-L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
+L’esportazione di dati Customer Journey Analytics nel cloud consente di:
 
 * Esporta in una posizione condivisa, ad esempio Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 o Snowflake.
 
@@ -135,7 +135,7 @@ L’esportazione dei dati di Customer Journey Analytics nel cloud consente di:
 
 * Esporta tabelle complete contenenti migliaia o milioni di righe (3 milioni, 30 milioni, 150 milioni o 300 milioni di righe, a seconda del tipo di licenza). Altri metodi di esportazione consentono un massimo di 50.000 righe.
 
-* Include le metriche calcolate nei dati del Customer Journey Analytics esportato.
+* Includi le metriche calcolate nei dati Customer Journey Analytics esportati.
 
 * Strutturare l’output dei dati come valori concatenati.
 
@@ -153,9 +153,9 @@ Assicurati che le tabelle, l’ambiente e le autorizzazioni soddisfino i seguent
 
 * **Tabelle:** tutte le tabelle devono includere almeno una dimensione nella riga e una metrica in ogni colonna per poter essere supportate con un&#39;esportazione di tabella completa.
 
-* **Ambiente:** Verificare che gli [indirizzi IP](/help/technotes/ip-addresses.md) e i [domini](/help/technotes/domains.md) utilizzati dal Customer Journey Analytics siano consentiti tramite il firewall dell&#39;organizzazione.
+* **Ambiente:** Verificare che gli [indirizzi IP](/help/technotes/ip-addresses.md) e i [domini](/help/technotes/domains.md) utilizzati da Customer Journey Analytics siano consentiti tramite il firewall dell&#39;organizzazione.
 
-* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con l&#39;autorizzazione [!UICONTROL **Esportazione tabella completa**] per esportare tabelle complete. Per informazioni sull&#39;assegnazione di un&#39;autorizzazione a un profilo di prodotto nell&#39;Admin Console, vedere [Autorizzazione di Customer Journey Analytics nell&#39;Admin Console](/help/technotes/access-control.md).
+* **Autorizzazioni:** In Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con l&#39;autorizzazione [!UICONTROL **Esportazione tabella completa**] per esportare tabelle complete. Per informazioni sull&#39;assegnazione di un&#39;autorizzazione a un profilo di prodotto in Admin Console, vedere [Autorizzazione Customer Journey Analytics in Admin Console](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
@@ -174,7 +174,7 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 * Dimensioni dinamiche
 
   Per ulteriori informazioni, vedere [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
-* I Dimension nel primo raggruppamento sono convertiti e aggiunti come dimensione secondaria nella riga della tabella esportata; eventuali altri raggruppamenti non sono inclusi nella tabella
+* Le dimensioni nella prima suddivisione sono convertite e aggiunte come dimensione secondaria nella riga della tabella esportata; eventuali altre suddivisioni non sono incluse nella tabella
 * L&#39;ordinamento non è supportato per la maggior parte dei set di dati; i dati potrebbero essere ordinati per set di dati di piccole dimensioni
 
 ### Componenti non supportati
@@ -216,12 +216,12 @@ Se in un rapporto viene utilizzato un modello di attribuzione non predefinito, i
   >
   >I rapporti multidimensionali sono supportati solo quando si esportano dati nel cloud, come descritto in questo articolo.
 
-## Confronto tra l’esportazione di tabelle complete (in Customer Journey Analytics) e la Data Warehouse (in Adobe Analytics)
+## Confronto tra l’esportazione di tabelle complete (in Customer Journey Analytics) e Data Warehouse (in Adobe Analytics)
 
-Se in precedenza utilizzavi Data Warehouse per esportare dati Adobe Analytics, la tabella seguente consente di comprendere le differenze tra l’esportazione di tabelle complete in Customer Journey Analytics e l’esportazione di dati con Data Warehouse in Adobe Analytics.
+Se in precedenza si utilizzava Data Warehouse per esportare dati di Adobe Analytics, la tabella seguente consente di comprendere le differenze tra l’esportazione di tabelle complete in Customer Journey Analytics e l’esportazione di dati con Data Warehouse in Adobe Analytics.
 
 
-| Funzione | Esportazione tabella completa nel Customer Journey Analytics | Data Warehouse in Adobe Analytics |
+| Funzione | Esportazione di tabelle complete in Customer Journey Analytics | Data Warehouse in Adobe Analytics |
 |---------|----------|---------|
 | Creare un rapporto personalizzato | Sì | Sì |
 | Metriche calcolate | Sì | No |

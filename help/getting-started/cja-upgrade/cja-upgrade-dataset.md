@@ -1,5 +1,5 @@
 ---
-title: Creazione di uno schema per il Customer Journey Analytics
+title: Creare uno schema per Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 ---
 
-# Creare un set di dati da utilizzare con il Customer Journey Analytics {#upgrade-create-dataset}
+# Creare un set di dati da utilizzare con Customer Journey Analytics {#upgrade-create-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 27%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 

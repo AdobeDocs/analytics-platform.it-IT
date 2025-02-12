@@ -1,6 +1,6 @@
 ---
-title: Creazione di un campo derivato dal canale di marketing per il Customer Journey Analytics
-description: Scopri come creare un campo derivato dal canale di marketing per il Customer Journey Analytics
+title: Creare un campo derivato dal canale di marketing per Customer Journey Analytics
+description: Scopri come creare un campo derivato dal canale di marketing per Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 ---
 
-# Creazione di un campo derivato dal canale di marketing per il Customer Journey Analytics {#create-marketing-channel-derived-field}
+# Creare un campo derivato dal canale di marketing per Customer Journey Analytics {#create-marketing-channel-derived-field}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,13 +27,13 @@ ht-degree: 5%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-Quando utilizzi il connettore di origine di Analytics, i dati dei canali di marketing fluiscono nel Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing vengono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Per ulteriori informazioni, vedere [Utilizzare le dimensioni del canale di marketing](/help/use-cases/aa-data/marketing-channels.md).
+Quando si utilizza il connettore di origine di Analytics, i dati dei canali di marketing fluiscono in Customer Journey Analytics attraverso tale connettore. Le regole del canale di marketing vengono configurate nella versione tradizionale di Adobe Analytics e alcune regole non sono supportate. Per ulteriori informazioni, vedere [Utilizzare le dimensioni del canale di marketing](/help/use-cases/aa-data/marketing-channels.md).
 
-Per utilizzare i canali di marketing nel Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è possibile utilizzare i campi derivati in una visualizzazione dati per ricreare gli stessi canali di marketing e le stesse regole di elaborazione per il Customer Journey Analytics.
+Per utilizzare i canali di marketing in Customer Journey Analytics quando si utilizza Experience Platform Web SDK, è possibile utilizzare campi derivati in una visualizzazione dati per ricreare gli stessi canali di marketing e le stesse regole di elaborazione per Customer Journey Analytics.
 
 1. In Customer Journey Analytics, seleziona la visualizzazione dati in cui desideri aggiungere canali di marketing.
 

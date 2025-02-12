@@ -1,5 +1,5 @@
 ---
-title: Creazione di uno schema per il Customer Journey Analytics
+title: Creare uno schema per Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Convalidare il flusso dei dati verso il Customer Journey Analytics {#validate-data}
+# Convalidare il flusso dei dati verso Customer Journey Analytics {#validate-data}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
 >title="Convalidare il flusso dei dati"
->abstract="Utilizza i dettagli di connessione per verificare se i dati fluiscono nel Customer Journey Analytics.<br><br>Se tutto è stato fatto correttamente e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, la loro risoluzione può richiedere molto più tempo."
+>abstract="Utilizza i dettagli di connessione per verificare se i dati fluiscono in Customer Journey Analytics.<br><br>Se tutto è stato fatto correttamente e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, la loro risoluzione può richiedere molto più tempo."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-Puoi verificare che la connessione sia attiva e che i dati vengano trasmessi alle visualizzazioni dati nel Customer Journey Analytics.
+Puoi verificare che la connessione sia attiva e che i dati vengano trasmessi alle visualizzazioni dati in Customer Journey Analytics.
 
-1. In Customer Journey Analytics, selezionare la scheda Connessioni.
+1. In Customer Journey Analytics, seleziona la scheda Connessioni.
 
    ![visualizzazione elenco](assets/list-view.png)
 

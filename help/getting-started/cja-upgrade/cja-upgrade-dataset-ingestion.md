@@ -1,6 +1,6 @@
 ---
-title: Monitorare l’acquisizione del set di dati durante l’aggiornamento al Customer Journey Analytics
-description: Scopri come monitorare l’acquisizione dei set di dati durante l’aggiornamento al Customer Journey Analytics
+title: Monitorare l’acquisizione del set di dati durante l’aggiornamento a Customer Journey Analytics
+description: Scopri come monitorare l’acquisizione dei set di dati durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Monitorare l’acquisizione del set di dati durante l’aggiornamento al Customer Journey Analytics {#monitor-ingestion}
+# Monitorare l’acquisizione del set di dati durante l’aggiornamento a Customer Journey Analytics {#monitor-ingestion}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Dopo aver configurato l’implementazione di Web SDK, è necessario controllare gli stati dei singoli batch per verificare che i dati vengano acquisiti nel set di dati.
 
-1. Nell&#39;interfaccia utente di Experience Platform, selezionare **[!UICONTROL Monitoring]** nel menu di navigazione a sinistra.
+1. Nell&#39;interfaccia utente di Experience Platform, seleziona **[!UICONTROL Monitoring]** nel menu di navigazione a sinistra.
 
    Viene visualizzato il dashboard Monitoraggio. Questa dashboard consente di visualizzare gli stati dei dati in entrata dall’acquisizione in batch o in streaming.
 

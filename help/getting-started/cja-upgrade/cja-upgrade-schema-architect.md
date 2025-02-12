@@ -1,5 +1,5 @@
 ---
-title: Architettura dello schema da utilizzare con il Customer Journey Analytics
+title: Architettura dello schema per l’utilizzo con Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Architettura dello schema da utilizzare con il Customer Journey Analytics {#upgrade-schema-architect}
+# Architettura dello schema per l’utilizzo con Customer Journey Analytics {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -35,17 +35,17 @@ Adobe consiglia di creare uno schema XDM (Experience Data Model) personalizzato 
 
 Uno schema XDM personalizzato consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. A differenza dello schema Adobe Analytics predefinito che utilizza il gruppo di campi Adobe Analytics ExperienceEvent, quando sono necessarie modifiche a uno schema XDM personalizzato, non è necessario esaminare migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.
 
-Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per il Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 Esamina le sezioni seguenti quando inizi a progettare lo schema XDM.
 
 ## Evitare le restrizioni di Adobe Analytics nello schema XDM
 
-L’architettura di base del Customer Journey Analytics offre molta più flessibilità rispetto ad Adobe Analytics. La creazione di un nuovo schema XDM è un modo chiave per liberare tale flessibilità. Quando esegui l’aggiornamento a Customer Journey Analytics, evita di trasferire nello schema restrizioni Adobe Analytics non necessarie.
+L’architettura di base di Customer Journey Analytics offre molta più flessibilità rispetto ad Adobe Analytics. La creazione di un nuovo schema XDM è un modo chiave per liberare tale flessibilità. Quando esegui l’aggiornamento a Customer Journey Analytics, accertati di evitare di portare avanti nello schema restrizioni Adobe Analytics non necessarie.
 
 | Architettura dei dati di Adobe Analytics | Architettura dello schema XDM |
 |---------|----------|
-| Le singole metriche vengono aggiunte all’architettura dei dati di Analytics.<br/>In Adobe Analytics, ad esempio, si dispone di un eVar diverso per ogni evento. | Crea singole metriche nella visualizzazione dati anziché nello schema XDM. Questa operazione offre maggiore flessibilità in se è necessario apportare modifiche in un secondo momento.<br/>In Customer Journey Analytics, ad esempio, è presente un singolo evento nello schema e si utilizzano gli eventi di creazione nella visualizzazione dati. |
+| Le singole metriche vengono aggiunte all’architettura dei dati di Analytics.<br/>In Adobe Analytics, ad esempio, si dispone di un eVar diverso per ogni evento. | Crea singole metriche nella visualizzazione dati anziché nello schema XDM. Questa operazione offre maggiore flessibilità in se è necessario apportare modifiche in un secondo momento.<br/>In Customer Journey Analytics, ad esempio, si dispone di un singolo evento nello schema e si utilizzano gli eventi di creazione nella visualizzazione dati. |
 | Per creare variabili personalizzate sono necessarie proprietà ed eVar. | B2 |
 | A3 | B3 |
 

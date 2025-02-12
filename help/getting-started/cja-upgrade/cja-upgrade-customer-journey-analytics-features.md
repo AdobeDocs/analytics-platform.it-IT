@@ -1,6 +1,6 @@
 ---
-title: Comprendere le funzioni specifiche del Customer Journey Analytics
-description: Scopri le funzioni specifiche di Customer Journey Analytics
+title: Comprendere le funzionalità esclusive di Customer Journey Analytics
+description: Scopri le funzionalità esclusive di Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -13,14 +13,14 @@ ht-degree: 27%
 
 ---
 
-# Comprendere le funzioni specifiche del Customer Journey Analytics {#feature-support-upgrade}
+# Comprendere le funzionalità esclusive di Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
 >title="Collegare i dati di origini diverse"
->abstract="(Consigliato) La capacità di combinare dati analitici provenienti da altri canali è il caso d’uso principale per il Customer Journey Analytics."
+>abstract="(Consigliato) La possibilità di combinare i dati di analisi di altri canali è il caso d’uso principale per Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,17 +29,17 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="Unire gli hit da più set di dati"
->abstract="Se uno dei set di dati non condivide un identificatore principale (ad esempio, un ID Experience Cloud), puoi comunque unire i dati utilizzando un’altra dimensione, ad esempio il nome utente o l’indirizzo e-mail di accesso."
+>abstract="Se uno dei set di dati non condivide un identificatore principale (ad esempio, un Experience Cloud ID), puoi comunque unire tali dati utilizzando un’altra dimensione, ad esempio il nome utente o l’indirizzo e-mail di accesso."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Usa le informazioni in questa pagina per rispondere alle domande nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Usa le informazioni in questa pagina per rispondere alle domande nell&#39;[elenco di controllo per l&#39;aggiornamento di Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-Nell&#39;elenco seguente vengono illustrate solo le funzionalità di Customer Journey Analytics che devono essere considerate durante il processo di aggiornamento. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate nel Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+Nell&#39;elenco seguente vengono illustrate solo le funzionalità di Customer Journey Analytics che devono essere considerate durante il processo di aggiornamento. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate in Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
-Considera quale delle seguenti funzioni di Customer Journey Analytics desideri adottare quando effettui l&#39;aggiornamento al Customer Journey Analytics:
+Considera quale delle seguenti funzioni di Customer Journey Analytics desideri adottare quando effettui l’aggiornamento a Customer Journey Analytics:
 
 | Funzione Customer Journey Analytics | Funzione |
 |---------|----------|

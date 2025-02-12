@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
 >title="Creare il connettore di origine di Analytics"
->abstract="Utilizza il connettore di origine di Analytics per acquisire i dati della suite di rapporti da utilizzare nel Customer Journey Analytics.<br><br>La creazione del connettore di origine di Analytics richiede solo alcuni minuti con le impostazioni predefinite."
+>abstract="Utilizza il connettore di origine di Analytics per acquisire i dati della suite di rapporti da utilizzare in Customer Journey Analytics.<br><br>La creazione del connettore di origine di Analytics richiede solo alcuni minuti con le impostazioni predefinite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,23 +30,23 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
 >title="Creare il connettore di origine di Analytics e mappare i campi dello schema"
->abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics allo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici al Customer Journey Analytics.<br><br>Il tempo necessario per eseguire questo passaggio dipende dal numero di dimensioni e metriche da mappare. Questo passaggio non è così difficile come è noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
+>abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics allo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici a Customer Journey Analytics.<br><br>Il tempo necessario per eseguire questo passaggio dipende dal numero di dimensioni e metriche da mappare. Questo passaggio non è così difficile come è noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-## Comprendere come il connettore di origine di Analytics può inserire dati storici nel Customer Journey Analytics
+## Comprendere come il connettore di origine di Analytics può inserire dati storici in Customer Journey Analytics
 
-Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici nel Customer Journey Analytics.
+Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici in Customer Journey Analytics.
 
-Si presuppone che si desideri [creare uno schema personalizzato da utilizzare con l&#39;implementazione di Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle applicazioni Platform specifiche utilizzate.
+Questo processo presuppone che si desideri [creare uno schema personalizzato da utilizzare con l&#39;implementazione di Customer Journey Analytics Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md), perché si desidera uno schema semplificato personalizzato in base alle esigenze della propria organizzazione e alle applicazioni Platform specifiche utilizzate.
 
-Per utilizzare il connettore di origine di Analytics per inserire nel Customer Journey Analytics i dati storici, è necessario:
+Per utilizzare il connettore di origine di Analytics per inserire dati storici in Customer Journey Analytics, è necessario:
 
 1. [Creare uno schema personalizzato per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
@@ -70,9 +70,9 @@ Per creare un connettore di origine di Adobe Analytics da utilizzare per i dati 
 
 1. Seleziona **[!UICONTROL Add data]** nel riquadro Adobe Analytics.
 
-   ![Finestra di Adobe Experience Platform con Origini selezionate insieme alle applicazioni Adobe ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
+   ![Finestra di Adobe Experience Platform con origini selezionate insieme alle applicazioni Adobe ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
 
-1. Seleziona **[!UICONTROL Report suite]**, quindi dall&#39;elenco delle suite di rapporti, seleziona la suite di rapporti che contiene i dati storici che desideri utilizzare nel Customer Journey Analytics.
+1. Seleziona **[!UICONTROL Report suite]**, quindi dall&#39;elenco delle suite di rapporti, seleziona la suite di rapporti che contiene i dati storici che desideri utilizzare in Customer Journey Analytics.
 
    ![Finestra di Adobe Experience Platform con l&#39;elenco delle suite di rapporti](./assets/report-suites.png)
 
@@ -92,7 +92,7 @@ Per creare un connettore di origine di Adobe Analytics da utilizzare per i dati 
 
    1. In **[!UICONTROL Source field]**, selezionare un campo Adobe Analytics dal gruppo di campi Modello Adobe Analytics ExperienceEvent. Quindi, in **[!UICONTROL Target field]**, seleziona il campo personalizzato nello schema XDM a cui desideri mapparlo.
 
-      Non tutti i campi di Adobe Analytics hanno un campo corrispondente in XDM a causa delle differenze di architettura inerenti tra AppMeasurement e XDM.
+      Non tutti i campi di Adobe Analytics hanno un campo corrispondente in XDM a causa delle differenze di architettura intrinseche tra AppMeasurement e XDM.
 
    1. Ripeti questa procedura per ogni campo del gruppo di campi Modello Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
 

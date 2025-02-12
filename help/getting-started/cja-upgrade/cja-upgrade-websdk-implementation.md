@@ -1,6 +1,6 @@
 ---
-title: Comprendere le opzioni di implementazione di Web SDK durante l'aggiornamento al Customer Journey Analytics
-description: Scopri le opzioni di implementazione di Web SDK durante l’aggiornamento al Customer Journey Analytics
+title: Comprendere le opzioni di implementazione di Web SDK durante l'aggiornamento a Customer Journey Analytics
+description: Scopri le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Comprendere le opzioni di implementazione di Web SDK durante l&#39;aggiornamento al Customer Journey Analytics {#web-sdk-implementation-options}
+# Comprendere le opzioni di implementazione di Web SDK durante l&#39;aggiornamento a Customer Journey Analytics {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-Il processo consigliato di aggiornamento da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dei dati preferito per il Customer Journey Analytics.
+Il processo consigliato di aggiornamento da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dati preferito per Customer Journey Analytics.
 
 Sono disponibili tre metodi supportati per utilizzare Adobe Experience Platform Web SDK:
 
