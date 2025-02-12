@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 10%
@@ -256,7 +256,7 @@ Per una configurazione esistente, non è possibile modificare la proprietà Tag.
 
 * Per modificare le risorse da includere o escludere durante la raccolta dei dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Asset]**.
 
-### Riepilogo
+### Riepilogo {#summary}
 
 Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sugli artefatti creati o modificati.
 
@@ -266,7 +266,7 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 
 ![Riepilogo configurazione analisi contenuto](../assets/aca-configuration-summary.png)
 
-### Azioni
+### Azioni {#actions}
 
 <!-- markdownlint-disable MD034 -->
 
