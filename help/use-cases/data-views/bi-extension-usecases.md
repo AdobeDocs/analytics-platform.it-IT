@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
+source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
 workflow-type: tm+mt
-source-wordcount: '11956'
+source-wordcount: '11965'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,8 @@ Questo articolo illustra come eseguire una serie di casi d’uso utilizzando l�
 * **Desktop Power BI**. La versione utilizzata è la 2.137.1102.0 a 64 bit (ottobre 2024).
 * **Desktop Tableau**. La versione utilizzata è 2024.1.5 (20241.24.0705.0334) a 64 bit.
 * **Ricerca**. Versione online 25.0.23, disponibile tramite [looker.com](https://looker.com){target="_blank"}
-* **Jupyter Notebook**. La versione utilizzata è la 7.3.2
+* **Jupyter Notebook**. La versione utilizzata è la 7.3.2.
+* **StudioRS**. La versione utilizzata è 2024.12.0, build 467.
 
 Sono documentati i seguenti casi d’uso:
 
