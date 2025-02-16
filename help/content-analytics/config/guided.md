@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
+source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 10%
@@ -273,7 +273,7 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="Avvertenza sull’implementazione dell’onboarding"
->abstract="L’analisi dei contenuti verrà configurata parzialmente in base all’input fornito in questo flusso di lavoro. Diverse altre impostazioni vengono scelte automaticamente in base a ciò che è generalmente utile per l’analisi dei contenuti. Ti invitiamo a rivedere le impostazioni di ciascun artefatto per verificare che soddisfino le tue esigenze e linee guida. <br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/>Inoltre, per derivare gli attributi di immagini e testo, Adobe recupererà questi attributi utilizzando l&#39;URL acquisito al momento della visita degli utenti in base alle impostazioni di raccolta dati implementate."
+>abstract="L’analisi dei contenuti verrà configurata parzialmente in base all’input fornito in questo flusso di lavoro. Diverse altre impostazioni vengono scelte automaticamente in base a ciò che è generalmente utile per l’analisi dei contenuti. Ti invitiamo a rivedere le impostazioni di ciascun artefatto per verificare che soddisfino le tue esigenze e linee guida. <br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Inoltre, per derivare gli attributi di immagini e testo, Adobe recupererà questi attributi utilizzando l&#39;URL acquisito al momento della visita degli utenti in base alle impostazioni di raccolta dati implementate."
 
 <!-- markdownlint-enable MD034 -->
 
