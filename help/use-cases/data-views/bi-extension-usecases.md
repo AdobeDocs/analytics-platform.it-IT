@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
+source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 3%
@@ -318,7 +318,7 @@ Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori inf
 1. Eseguire la cella.
 1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la password dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** nel campo **[!UICONTROL Password]** di Jupyter Notebook.
 
-   ![Configurazione blocco appunti Jupter Passaggio 1](assets/jupyter-config-step1.png)
+   ![Configurazione blocco appunti Jupter Passaggio 1](assets/jupyter-config-step1.png){zoomable="yes"}
 
 1. In una nuova cella, immettere le istruzioni per caricare l&#39;estensione SQL, la libreria richiesta e connettersi a Customer Journey Analytics.
 
@@ -330,7 +330,7 @@ Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori inf
 
    Eseguite la shell. Non dovrebbe essere visualizzato alcun output, ma la cella dovrebbe essere eseguita senza alcun avviso.
 
-   ![Configurazione blocco appunti Jupyer Passaggio 4](assets/jupyter-config-step2.png)
+   ![Configurazione blocco appunti Jupyer Passaggio 4](assets/jupyter-config-step2.png){zoomable="yes"}
 
 1. In una nuova chiamata, immetti le istruzioni per ottenere un elenco delle visualizzazioni dati disponibili in base alla connessione.
 
@@ -354,7 +354,7 @@ Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori inf
 
    Eseguite la shell. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Configurazione Jupyter Notebook Passaggio 5](assets/jupyter-config-step3.png)
+   ![Configurazione Jupyter Notebook Passaggio 5](assets/jupyter-config-step3.png){zoomable="yes"}
 
    Dovresti visualizzare **[!UICONTROL cc_data_view]** nell&#39;elenco delle visualizzazioni dati.
 
@@ -405,7 +405,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Viene richiesto di **[!UICONTROL Host]**, **[!UICONTROL Database]** e **[!UICONTROL User]**. È sufficiente accettare i valori forniti nel passaggio precedente.
 1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la password dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** al prompt della finestra di dialogo **[!UICONTROL Password]** in Studio.
 
-   ![Passaggio di configurazione RStudio 1](assets/rstudio-config-step1.png)
+   ![Passaggio di configurazione RStudio 1](assets/rstudio-config-step1.png){zoomable="yes"}
 
 1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
 
@@ -442,7 +442,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Passaggio di configurazione RStudio 2](assets/rstudio-config-step2.png)
+   ![Passaggio di configurazione RStudio 2](assets/rstudio-config-step2.png){zoomable="yes"}
 
 ### Per APPIATTIRE o meno
 
@@ -599,7 +599,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc2-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc2-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -622,7 +622,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc2-rstudio-results.png)
+   ![Risultati studio](assets/uc2-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -737,7 +737,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc3-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc3-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -760,7 +760,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc3-rstudio-results.png)
+   ![Risultati studio](assets/uc3-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -904,7 +904,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc4-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc4-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -927,7 +927,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc4-rstudio-results.png)
+   ![Risultati studio](assets/uc4-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1130,7 +1130,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc5-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc5-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -1156,7 +1156,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc5-rstudio-results.png)
+   ![Risultati studio](assets/uc5-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1390,7 +1390,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc6-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc6-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -1409,7 +1409,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc6-rstudio-results.png)
+   ![Risultati studio](assets/uc6-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1559,7 +1559,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc7-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc7-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -1576,7 +1576,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc7-rstudio-results.png)
+   ![Risultati studio](assets/uc7-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1682,7 +1682,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc8-jupyter-input.png)
+   ![Risultati Jupyter Notebook](assets/uc8-jupyter-input.png){zoomable="yes"}
 
 1. Selezionare **[!UICONTROL Fishing Products]** dal menu a discesa.
 
@@ -1706,7 +1706,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc8-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc8-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -1729,7 +1729,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc8-rstudio-results.png)
+   ![Risultati studio](assets/uc8-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1849,7 +1849,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc9-jupyter-input.png)
+   ![Risultati Jupyter Notebook](assets/uc9-jupyter-input.png){zoomable="yes"}
 
 1. Selezionare **[!UICONTROL Fishing Products]** dal menu a discesa.
 
@@ -1874,7 +1874,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc9-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc9-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -1893,7 +1893,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc9-rstudio-results.png)
+   ![Risultati studio](assets/uc9-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -2013,7 +2013,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc10-jupyter-input.png)
+   ![Risultati Jupyter Notebook](assets/uc10-jupyter-input.png){zoomable="yes"}
 
 1. Selezionare **[!UICONTROL Hunting]** dal menu a discesa.
 
@@ -2039,7 +2039,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc10-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc10-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB StudioRS]
@@ -2058,7 +2058,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc10-rstudio-results.png)
+   ![Risultati studio](assets/uc10-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -2292,7 +2292,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc11-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc11-jupyter-results.png){zoomable="yes"}
 
 La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
@@ -2313,7 +2313,7 @@ La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc11-rstudio-results.png)
+   ![Risultati studio](assets/uc11-rstudio-results.png){zoomable="yes"}
 
 La query generata da Studio utilizzando l&#39;estensione BI include `ORDER BY`, il che implica che l&#39;ordine viene applicato tramite Studio e l&#39;estensione BI.
 
@@ -2578,7 +2578,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc12-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc12-jupyter-results.png){zoomable="yes"}
 
 La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
@@ -2599,7 +2599,7 @@ La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc12-rstudio-results.png)
+   ![Risultati studio](assets/uc12-rstudio-results.png){zoomable="yes"}
 
 La query generata da Studio utilizzando l&#39;estensione BI include `LIMIT 5`, il che implica che il limite viene applicato tramite Studio e l&#39;estensione BI.
 
@@ -2833,7 +2833,7 @@ Gli oggetti Customer Journey Analytics (dimensioni, metriche, filtri, metriche c
 
 1. Eseguire la cella. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati Jupyter Notebook](assets/uc13-jupyter-results.png)
+   ![Risultati Jupyter Notebook](assets/uc13-jupyter-results.png){zoomable="yes"}
 
 La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
@@ -2857,7 +2857,7 @@ I componenti Customer Journey Analytics (dimensioni, metriche, filtri, metriche 
 
 1. Esegui il blocco. Dovresti visualizzare un output simile alla schermata seguente.
 
-   ![Risultati studio](assets/uc13-rstudio-results.png)
+   ![Risultati studio](assets/uc13-rstudio-results.png){zoomable="yes"}
 
 La query generata da Studio utilizzando l&#39;estensione BI include `lower`, il che implica che la trasformazione personalizzata viene eseguita da Studio e dall&#39;estensione BI.
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
+source-git-commit: 30e3df15aecec0bab180cd06e0ae7c79f58cdf44
 workflow-type: tm+mt
-source-wordcount: '3145'
+source-wordcount: '3561'
 ht-degree: 2%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] abilita l&#39;accesso SQL alle [visualizzazioni dati](./data-views.md) definite nel Customer Journey Analytics. I data engineer e gli analisti potrebbero avere più familiarità con Power BI, Tableau Desktop o altri strumenti di business intelligence e visualizzazione (denominati anche strumenti BI). Ora possono creare reporting e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti del Customer Journey Analytics durante la creazione dei loro progetti Analysis Workspace.
+[!DNL Customer Journey Analytics BI extension] abilita l&#39;accesso SQL alle [visualizzazioni dati](./data-views.md) definite in Customer Journey Analytics. I data engineer e gli analisti potrebbero avere più familiarità con Power BI, Tableau Desktop o altri strumenti di business intelligence e visualizzazione (denominati anche strumenti BI). Ora possono creare reporting e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti di Customer Journey Analytics durante la creazione dei loro progetti Analysis Workspace.
 
 Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) è l&#39;interfaccia SQL per i dati disponibili nel data lake di Experience Platform. Con [!DNL Customer Journey Analytics BI extension] abilitato, la funzionalità di [!DNL Query Service] viene estesa per visualizzare le visualizzazioni dati di Customer Journey Analytics come tabelle o visualizzazioni in una sessione di [!DNL Query Service]. Di conseguenza, gli strumenti di business intelligence che utilizzano [!DNL Query Service] come interfaccia PostgresSQL usufruiscono senza soluzione di continuità di questa funzionalità estesa.
 
 I principali vantaggi sono i seguenti:
 
-* Non è necessario ricreare una rappresentazione equivalente delle visualizzazioni dati di Customer Journey Analytics all&#39;interno dello strumento BI stesso. <br/>Consulta [Visualizzazioni dati](data-views.md) per ulteriori informazioni sulla funzionalità delle visualizzazioni dati per capire cosa deve essere ricreato.
-* Maggiore coerenza nelle attività di reporting e analisi tra strumenti di business intelligence e Customer Journey Analytics.
+* Non è necessario ricreare una rappresentazione equivalente delle visualizzazioni dati di Customer Journey Analytics all’interno dello strumento BI stesso. <br/>Consulta [Visualizzazioni dati](data-views.md) per ulteriori informazioni sulla funzionalità delle visualizzazioni dati per capire cosa deve essere ricreato.
+* Maggiore coerenza nelle attività di reporting e analisi tra gli strumenti di business intelligence e Customer Journey Analytics.
 * Combinare i dati di Customer Journey Analytics con altre origini dati già disponibili negli strumenti BI.
 
 ## Prerequisiti
@@ -36,22 +36,22 @@ Di seguito sono riportati i passaggi aggiuntivi per impostare le autorizzazioni 
 
 Per utilizzare le credenziali in scadenza, è possibile:
 
-* Concedere l’accesso a Experience Platform e Customer Journey Analytics.
-* Concedi all’amministratore del prodotto l’accesso al Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
+* Concedere l’accesso ad Experience Platform e Customer Journey Analytics.
+* Concedi all’amministratore del prodotto l’accesso a Customer Journey Analytics per visualizzare, modificare, aggiornare o eliminare connessioni e visualizzazioni dati.
 
 Oppure puoi:
 
 * Concedi l’accesso alle visualizzazioni dati a cui desideri accedere.
-* Concedi l’accesso all’estensione di Customer Journey Analytics BI.
+* Concedere l’accesso all’estensione Customer Journey Analytics BI.
 
 ### Credenziali non in scadenza
 
 Per utilizzare credenziali senza scadenza:
 
-* Crea delle credenziali senza scadenza in Experience Platform.
+* Crea credenziali senza scadenza in Experience Platform.
 * Concedi l&#39;accesso alle credenziali senza scadenza seguendo i passaggi indicati in [Credenziali in scadenza](#Expiring-credentials).
 
-Consulta [Controllo dell&#39;accesso del Percorso clienti](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l&#39;amministratore del prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni di Customer Journey Analytics nell&#39;Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
+Consulta [Controllo dell&#39;accesso del Percorso clienti](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l&#39;amministratore del prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni Customer Journey Analytics in Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Utilizzo
@@ -141,7 +141,7 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
    Tutte le dimensioni e le metriche associate a una o più tabelle selezionate vengono visualizzate nel riquadro di destra, pronte per essere utilizzate nelle visualizzazioni.
 
-   Per ulteriori informazioni, vedere [Connetti Power BI a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+   Per ulteriori informazioni, vedere [Connessione di Power BI a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi). Vedi anche [casi d&#39;uso dell&#39;estensione BI](/help/use-cases/data-views/bi-extension-usecases.md) per un esempio dettagliato.
 
 +++
 
@@ -165,7 +165,7 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
    1. Nella finestra di dialogo [!UICONTROL PostgresSQL] (Crea elemento dati):
 
-      1. Incollare il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credentials] nel campo di testo **[!UICONTROL ** Server **]**.
+      1. Incolla il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credentials] nel campo di testo **[!UICONTROL ** Server **]**.
 
       1. Incolla il parametro **[!UICONTROL ** Porta **]** dalle query Experience Platform [!UICONTROL Credentials] nel campo di testo **[!UICONTROL ** Porta **]**.
 
@@ -187,13 +187,88 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
    Ora puoi lavorare con i dati delle tabelle delle visualizzazioni dati per creare rapporti e visualizzazioni.
 
-   Per ulteriori informazioni, vedere [Connetti Tableau a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
+   Per ulteriori informazioni, vedere [Connetti Tableau a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau). Vedi anche [casi d&#39;uso dell&#39;estensione BI](/help/use-cases/data-views/bi-extension-usecases.md) per un esempio dettagliato.
+
++++
+
++++ Looker
+
+1. Cercare i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
+
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
+
+   1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
+
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
+
+   1. Utilizza ![Copia](assets/Smock_Copy_18_N.svg) per copiare ciascuno dei parametri delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] e altri) quando necessario in Looker.
+
+1. In Looker:
+
+   1. Seleziona **[!UICONTROL Admin]** nella barra a sinistra.
+   1. Seleziona **[!UICONTROL Connections]**.
+   1. Seleziona **[!UICONTROL Add Connection]** (Salva).
+   1. Nella schermata **[!UICONTROL Connect your database to Looker]**, incolla i valori appropriati quando configuri la nuova connessione. Assicurarsi di selezionare **[!UICONTROL PostgreSQL 9.5+]** come dialetto.
+   1. Seleziona **[!UICONTROL Test]** per verificare la connessione.
+   1. Dopo aver eseguito correttamente l&#39;operazione, selezionare **[!UICONTROL Update]** per salvare la connessione.
+
+   Ora puoi lavorare con i dati delle tabelle delle visualizzazioni dati per creare rapporti e visualizzazioni.
+
+   Per ulteriori informazioni, vedere [Connessione di Looker a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker). Vedi anche [casi d&#39;uso dell&#39;estensione BI](/help/use-cases/data-views/bi-extension-usecases.md) per un esempio dettagliato.
+
++++
+
++++ Jupyter Notebook
+
+1. Cercare i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
+
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
+
+   1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
+
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
+
+   1. Utilizza ![Copia](assets/Smock_Copy_18_N.svg) per copiare ciascuno dei parametri delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] e altri) quando necessario in Jupyter Notebook.
+
+1. In Jupyter Notebook:
+
+   1. Assicurati di utilizzare le librerie richieste.
+   1. Utilizza i valori appropriati durante la configurazione e l’esecuzione della connessione.
+   1. Verifica la connessione eseguendo una query rilevante.
+
+   In caso di esito positivo, puoi lavorare con i dati per creare rapporti e visualizzazioni.
+
+   Per ulteriori informazioni, vedere [Connettere Jupyter Notebook a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook). Vedi anche [casi d&#39;uso dell&#39;estensione BI](/help/use-cases/data-views/bi-extension-usecases.md) per un esempio dettagliato.
+
++++
+
++++ Studio
+
+1. Cercare i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
+
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
+
+   1. Seleziona **[!UICONTROL ** Credenziali **]** dalla barra superiore.
+
+   1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
+
+   1. Utilizza ![Copia](assets/Smock_Copy_18_N.svg) per copiare ciascuno dei parametri delle credenziali Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] e altri) quando necessario in Jupyter Notebook.
+
+1. In Studio:
+
+   1. Assicurati di utilizzare le librerie richieste.
+   1. Utilizza i valori appropriati durante la configurazione e l’esecuzione della connessione.
+   1. Verifica la connessione eseguendo una query rilevante.
+
+   In caso di esito positivo, puoi lavorare con i dati per creare rapporti e visualizzazioni.
+
+   Per ulteriori informazioni, vedere [Connetti RSudio a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio). Vedi anche [casi d&#39;uso per estensioni BI](/help/use-cases/data-views/bi-extension-usecases.md) per un esempio dettagliato (che utilizza invece il pacchetto RPostgres).
 
 +++
 
 Per una panoramica e ulteriori informazioni sui vari strumenti disponibili, vedere [Connettere i client a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview).
 
-Consulta [Casi d&#39;uso](/help/use-cases/data-views/bi-extension-usecases.md) su come eseguire una serie di casi d&#39;uso utilizzando l&#39;estensione di Customer Journey Analytics BI
+Consulta [Casi d&#39;uso](/help/use-cases/data-views/bi-extension-usecases.md) su come eseguire una serie di casi d&#39;uso utilizzando l&#39;estensione Customer Journey Analytics BI.
 
 ## Funzionalità
 
@@ -203,7 +278,7 @@ Se si desidera utilizzare gli ID delle visualizzazioni dati come nomi di tabella
 
 ### Governance dei dati
 
-Le impostazioni relative alla governance dei dati nel Customer Journey Analytics vengono ereditate da Adobe Experience Platform. L’integrazione tra Governance dei dati di Customer Journey Analytics e Governance dei dati di Adobe Experience Platform consente l’etichettatura dei dati sensibili di Customer Journey Analytics e l’applicazione delle politiche sulla privacy.
+Le impostazioni relative alla governance dei dati in Customer Journey Analytics vengono ereditate da Adobe Experience Platform. L’integrazione tra Customer Journey Analytics e Governance dei dati di Adobe Experience Platform consente l’etichettatura dei dati Customer Journey Analytics sensibili e l’applicazione delle politiche sulla privacy.
 
 Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Pertanto, i dati interrogati utilizzando [!DNL Customer Journey Analytics BI extension] mostrano avvertenze o errori appropriati quando non sono conformi alle etichette e ai criteri definiti per la privacy.
 
@@ -286,7 +361,7 @@ Puoi utilizzare:
 
 #### Conteggio dei valori distinti
 
-A causa della natura sottostante del funzionamento del Customer Journey Analytics, l&#39;unica dimensione per la quale è possibile ottenere un conteggio distinto esatto è la dimensione `adobe_personid`. Le istruzioni SQL seguenti `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` restituiscono il valore della metrica persone predefinita, che corrisponde al numero di persone distinte. Per le altre quote, viene restituito un conteggio distinto approssimativo.
+A causa della natura sottostante del funzionamento di Customer Journey Analytics, l&#39;unica dimensione per la quale è possibile ottenere un conteggio distinto esatto è la dimensione `adobe_personid`. Le istruzioni SQL seguenti `SELECT COUNT(DISTINCT adobe_personid)` o `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` restituiscono il valore della metrica persone predefinita, che corrisponde al numero di persone distinte. Per le altre quote, viene restituito un conteggio distinto approssimativo.
 
 #### Metriche condizionali
 
@@ -339,7 +414,7 @@ La colonna speciale `daterangeName` può essere utilizzata per filtrare la query
 
 >[!NOTE]
 >
->Power BI non supporta `daterange` metriche inferiori a una giornata (ore, 30 minuti, 5 minuti, ecc.).
+>Power BI non supporta `daterange` metriche inferiori a un giorno (ore, 30 minuti, 5 minuti, ecc.).
 >
 
 #### ID filtro
