@@ -10,7 +10,7 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
 >title="Convalidare il flusso dei dati"
->abstract="Utilizza i dettagli di connessione per verificare se i dati fluiscono in Customer Journey Analytics.<br><br>Se tutto è stato fatto correttamente e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, la loro risoluzione può richiedere molto più tempo."
+>abstract="Utilizza i dettagli di connessione per convalidare che il flusso di dati in Customer Journey Analytics.<br><br>Se tutto è risulta corretto e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, risolverli può richiedere molto più tempo."
 
 <!-- markdownlint-enable MD034 -->
 

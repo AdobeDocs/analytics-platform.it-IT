@@ -10,7 +10,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -92,17 +92,17 @@ Ogni configurazione richiede un nome univoco. Ad esempio: `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataview_button"
 >title="Visualizzazione dati"
->abstract="Per la configurazione di Content Analytics devi selezionare una visualizzazione dati esistente. Quindi, puoi unire i dati di analisi dei contenuti con altri dati."
+>abstract="Per la configurazione di Content Analytics è necessario selezionare una visualizzazione dati esistente. In questo modo, puoi unire i dati di analisi dei contenuti con altri dati."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Visualizzazione dati"
->abstract="Seleziona una visualizzazione dati esistente da Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti."
+>abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Visualizzazione dati"
->abstract="Selezionare una visualizzazione dati esistente da Customer Journey Analytics con cui si desidera unire i dati di analisi dei contenuti.<br/>"
+>abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti.<br/>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -146,7 +146,7 @@ Una visualizzazione dati è associata a una [connessione](/help/connections/over
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_edit_button"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Puoi modificare le impostazioni nell’estensione Adobe Content Analytics nella proprietà Tag, associata alla configurazione selezionata."
+>abstract="Puoi modificare le impostazioni nell’estensione Content Analytics di Adobe nella proprietà Tag, associata alla configurazione selezionata."
 
 
 
@@ -181,7 +181,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="Raccolta dati"
->abstract="Definisci la proprietà tag da utilizzare o creane una nuova. Definisci le pagine e le risorse da includere o escludere utilizzando espressioni regolari."
+>abstract="Definisci la proprietà tag da utilizzare o creane una nuova. Definisci inoltre le pagine e le risorse da includere o escludere utilizzando espressioni regolari."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
@@ -211,12 +211,12 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
 >title="Raccolta dati"
->abstract="Puoi modificare le impostazioni per le pagine dell’estensione Adobe Content Analytics nella proprietà Tag, associata alla configurazione selezionata."
+>abstract="Puoi modificare le impostazioni per le pagine dell’estensione Content Analytics di Adobe nella proprietà Tag, associata alla configurazione selezionata."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_edit_button"
 >title="Raccolta dati"
->abstract="Puoi modificare le impostazioni delle risorse nell’estensione Adobe Content Analytics nella proprietà Tag, associata alla configurazione selezionata."
+>abstract="Puoi modificare le impostazioni delle risorse nell’estensione Content Analytics di Adobe nella proprietà Tag, associata alla configurazione selezionata."
 
 <!-- markdownlint-enable MD034 -->
 

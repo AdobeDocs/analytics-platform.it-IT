@@ -1,5 +1,5 @@
 ---
-title: Scegli lo schema per Customer Journey Analytics
+title: Scegliere lo schema per Customer Journey Analytics
 description: Scopri le opzioni disponibili per la scelta di uno schema per Customer Journey Analytics e i vantaggi e gli svantaggi di ciascuno
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 38%
+ht-degree: 62%
 
 ---
 
-# Scegli lo schema per Customer Journey Analytics {#choose-schema}
+# Scegliere lo schema per Customer Journey Analytics {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
 >title="Utilizzare uno schema personalizzato"
->abstract="(Consigliato) La personalizzazione dello schema consente all’organizzazione di tenere traccia solo di ciò che ti serve ed evitare il sovraccarico legato a campi disordinati e non necessari. Questa opzione include i gruppi di campi aggiunti dal SDK Web e i gruppi di campi personalizzati per l&#39;organizzazione."
+>abstract="(Consigliato) La personalizzazione dello schema consente alla tua organizzazione di tenere traccia solo di ciò che serve e di evitare il sovraccarico legato a campi disordinati e non necessari. Questa opzione include i gruppi di campi aggiunti dal Web SDK e i gruppi di campi personalizzati per l’organizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
->title="Utilizza lo schema predefinito"
->abstract="(Sconsigliato) Lo schema Adobe Analytics contiene più di mille campi, che possono causare schemi complessi e incompleti. La tua organizzazione sarebbe costretta a continuare ad aderire al concetto di prop ed eVar, un concetto legacy non utilizzato in Customer Journey Analytics. L&#39;integrazione con altri servizi Adobe Experience Platform è più difficile."
+>title="Utilizzare lo schema predefinito"
+>abstract="(Non consigliato) Lo schema di Adobe Analytics contiene più di mille campi e questo può comportare schemi complessi e disordinati. La tua organizzazione sarebbe costretta a continuare ad aderire al concetto di prop ed eVar, che è un concetto legacy non utilizzato in Customer Journey Analytics. L’integrazione con altri servizi Adobe Experience Platform è più difficile."
 
 <!-- markdownlint-enable MD034 -->
 

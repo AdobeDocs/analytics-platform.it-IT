@@ -10,7 +10,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 27%
+ht-degree: 49%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="Implementare il tag loader sul sito"
->abstract="Collabora con il team di sviluppo del tuo sito web per installare il tag loader in ogni pagina del sito.<br><br>Il tempo di completamento di questa attività dipende in larga misura dal tempo di risposta del team tecnico con cui si lavora per distribuire il codice. Alcune organizzazioni che dispongono di team di progettazione altamente adattivi possono completare questo passaggio in pochi giorni, mentre i team di progettazione con un ampio arretrato di attività potrebbero richiedere un mese o più."
+>title="Implementare il tag di caricamento sul sito"
+>abstract="Collabora con il team di sviluppo del tuo sito web per installare il tag di caricamento in ogni pagina del sito.<br><br>Il tempo di completamento di questa attività dipende maggiormente dal tempo di risposta del team di progettazione con cui collabori per distribuire il codice. Alcune organizzazioni che dispongono di team di progettazione altamente adattivi possono completare questo passaggio in alcuni giorni, mentre i team di progettazione con un ampio arretrato di attività potrebbero richiedere un mese o più."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 

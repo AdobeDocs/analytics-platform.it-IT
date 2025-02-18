@@ -10,7 +10,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="Convalidare i dati nel set di dati"
->abstract="Dopo aver configurato l’implementazione di Web SDK, puoi utilizzare Gestione attività set di dati per visualizzare i batch acquisiti e non riusciti. Se vedi batch acquisiti principalmente, questo passaggio è completo. Se vengono visualizzati batch con errori principali o nessun batch, controlla l’implementazione di Web SDK per assicurarti che invii correttamente i dati ad Adobe.<br><br>Se tutto è stato fatto correttamente e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, la loro risoluzione può richiedere molto più tempo."
+>abstract="Dopo aver configurato l’implementazione di Web SDK, puoi utilizzare Gestione attività set di dati per visualizzare i batch acquisiti e non riusciti. Se visualizzi principalmente i batch acquisiti, questo passaggio è completo. Se visualizzi principalmente batch con errori o nessun batch, controlla l’implementazione di Web SDK per assicurarti che invii correttamente i dati ad Adobe.<br><br>Se tutto è risulta corretto e senza errori, questo passaggio può essere eseguito in meno di un giorno. In caso di più problemi di raccolta dati, risolverli può richiedere molto più tempo."
 
 <!-- markdownlint-enable MD034 -->
 

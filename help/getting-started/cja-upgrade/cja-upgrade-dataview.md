@@ -10,7 +10,7 @@ exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 18%
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
 >title="Creare una visualizzazione dati in Customer Journey Analytics"
->abstract="Una visualizzazione dati è un contenitore specifico di Customer Journey Analytics che consente di determinare come interpretare i dati di una connessione.<br><br>Mentre la creazione iniziale della visualizzazione dati richiede alcuni minuti, la configurazione di ogni dimensione e metrica con le impostazioni del componente desiderate può richiedere alcuni giorni. La modifica di queste impostazioni viene applicata retroattivamente, in modo che l’organizzazione possa perfezionarle nel tempo."
+>abstract="Una visualizzazione dati è un contenitore specifico di Customer Journey Analytics che consente di determinare come interpretare i dati da una connessione.<br><br>Mentre la creazione iniziale della visualizzazione dati richiede alcuni minuti, la configurazione di ogni dimensione e metrica con le impostazioni dei componenti desiderate può richiedere alcuni giorni. La modifica di queste impostazioni viene applicata retroattivamente, in modo che l’organizzazione possa perfezionarle nel tempo."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,5 +1,5 @@
 ---
-title: Creazione di uno schema per il Customer Journey Analytics
+title: Creare uno schema per Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,24 +10,24 @@ exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 23%
+ht-degree: 40%
 
 ---
 
-# Aggiungere Platform as a service allo stream di dati {#upgrade-addplatform-datastream}
+# Aggiungere Platform come servizio a uno stream di dati {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
 >title="Aggiungere Adobe Experience Platform come servizio allo stream di dati"
->abstract="Un flusso di dati richiede uno o più servizi a cui inviare i dati. Configura Adobe Experience Platform come servizio nel flusso di dati.<br><br>L&#39;aggiunta di servizi a un flusso di dati è un processo semplice, che richiede solo pochi minuti."
+>abstract="Uno stream di dati richiede uno o più servizi a cui inviare i dati. Configura Adobe Experience Platform come servizio nel tuo stream di dati.<br><br>L’aggiunta di servizi a uno stream di dati è un processo semplice che richiede solo pochi minuti."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations), oppure puoi seguire i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
@@ -37,7 +37,7 @@ Prima di completare i passaggi descritti in questa sezione, deve esistere già u
 
 * Se l’implementazione di Adobe Analytics utilizza Web SDK o l’estensione Web SDK, lo stream di dati era disponibile per il tuo ambiente Adobe Analytics prima del processo di aggiornamento.
 
-* Per altre implementazioni di Adobe Analytics, la creazione di un datastream fa parte del processo di aggiornamento, come descritto in [Creare un datastream da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
+* Per altre implementazioni di Adobe Analytics, la creazione di uno stream di dati fa parte del processo di aggiornamento, come descritto in [Creare uno stream di dati da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 
 Con lo stream di dati disponibile, devi aggiungere Platform as a service:
 

@@ -1,5 +1,5 @@
 ---
-title: Architettura dello schema per l’utilizzo con Customer Journey Analytics
+title: Progettare e uno schema da utilizzare con Customer Journey Analytics
 description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# Architettura dello schema per l’utilizzo con Customer Journey Analytics {#upgrade-schema-architect}
+# Progettare e uno schema da utilizzare con Customer Journey Analytics {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
->title="Architettura di uno schema"
->abstract="Discuti all’interno della tua organizzazione i requisiti di raccolta dei dati e determina come creare uno schema da utilizzare in Adobe Experience Platform. Questo passaggio viene visualizzato perché desideri utilizzare il processo consigliato di utilizzo di uno schema personalizzato per la tua organizzazione. È fondamentale eseguire correttamente questo passaggio, in quanto uno schema su cui si allineano tutti i team all’interno della tua organizzazione semplifica notevolmente l’acquisizione dei dati.<br><br>Il tempo stimato per riunire tutte le parti rilevanti dell&#39;organizzazione per allinearsi a uno schema unificato è di 1-2 mesi. Questo intervallo di tempo dipende in larga misura dal numero di team necessari per coordinarsi e dal numero di dimensioni + metriche su cui allinearsi."
+>title="Progettare uno schema"
+>abstract="Discuti all’interno della tua organizzazione i requisiti di raccolta dei dati e determina come creare uno schema da utilizzare in Adobe Experience Platform. Questo passaggio viene visualizzato perché desideri utilizzare il processo di utilizzo consigliato di uno schema personalizzato per la tua organizzazione. È fondamentale eseguire correttamente questo passaggio, in quanto uno schema su cui allineare tutti i team all’interno della tua organizzazione semplifica notevolmente l’acquisizione dei dati.<br><br>Il tempo stimato per riunire tutte le parti rilevanti della tua organizzazione e allinearle su uno schema unificato è di 1-2 mesi. Questo intervallo di tempo dipende maggiormente dal numero di team necessari da coordinare e dal numero di dimensioni + metriche da allineare."
 
 <!-- markdownlint-enable MD034 -->
 

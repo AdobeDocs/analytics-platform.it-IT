@@ -1,5 +1,5 @@
 ---
-title: Comprendere le opzioni di implementazione di Web SDK durante l'aggiornamento a Customer Journey Analytics
+title: Comprendere le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
 description: Scopri le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -9,18 +9,18 @@ hidefromtoc: true
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
-# Comprendere le opzioni di implementazione di Web SDK durante l&#39;aggiornamento a Customer Journey Analytics {#web-sdk-implementation-options}
+# Comprendere le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-js"
 >title="Libreria JavaScript di Web SDK (alloy.js)"
->abstract="Includi la libreria SDK Web (alloy.js) in ogni pagina del sito."
+>abstract="Includi la libreria Web SDK (alloy.js) in ogni pagina del sito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-tags"
 >title="Estensione tag Web SDK"
->abstract="(Consigliato) Se non utilizzi ancora i tag, installa il caricatore di tag sul sito. Se utilizzi già Tag, puoi aggiungere l’estensione Web SDK alla proprietà tag. Questa opzione include implementazioni effettuate utilizzando i tag all’interno di Adobe Experience Platform Data Collection e sistemi di gestione dei tag di terze parti."
+>abstract="(Consigliato) Se non utilizzi ancora i tag, installa il caricamento di tag sul sito. Se utilizzi già i tag, puoi aggiungere l’estensione Web SDK alla proprietà tag. Questa opzione include implementazioni utilizzando i tag all’interno della raccolta dati di Adobe Experience Platform e i sistemi di gestione dei tag di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-api"
 >title="Pacchetto NPM"
->abstract="Utilizza l’API di raccolta dati per inviare i dati direttamente a un flusso di dati. Sono supportati sia i tipi non autenticati (da client a server) che autenticati (da server a server)."
+>abstract="Utilizza l’API di raccolta dati per inviare i dati direttamente a uno stream di dati. Sono supportati sia i tipi non autenticati (da client a server) che autenticati (da server a server)."
 
 <!-- markdownlint-enable MD034 -->
 

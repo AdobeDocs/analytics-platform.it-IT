@@ -10,7 +10,7 @@ exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
 >title="Creare un campo derivato dal canale di marketing"
->abstract="I campi derivati vengono creati all’interno di una visualizzazione dati.<br><br>L&#39;utilizzo di una configurazione del canale di marketing predefinita richiede solo alcuni minuti. La creazione di una configurazione del canale di marketing altamente personalizzata potrebbe richiedere alcune ore."
+>abstract="I campi derivati vengono creati all’interno di una visualizzazione dati.<br><br>L’utilizzo di una configurazione predefinita per il canale di marketing richiede solo alcuni minuti, mentre la creazione di una configurazione altamente personalizzata potrebbe richiedere alcune ore."
 
 <!-- markdownlint-enable MD034 -->
 

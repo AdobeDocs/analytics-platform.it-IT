@@ -10,7 +10,7 @@ exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 6%
+ht-degree: 22%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
->title="Creare il connettore di origine di Analytics e mappare i campi dello schema"
->abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics allo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici a Customer Journey Analytics.<br><br>Il tempo necessario per eseguire questo passaggio dipende dal numero di dimensioni e metriche da mappare. Questo passaggio non è così difficile come è noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
+>title="Creare il connettore di origine di Analytics e mappare i campi schema"
+>abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics per lo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici a Customer Journey Analytics.<br><br>Il tempo necessario per questo passaggio dipende maggiormente dal numero di dimensioni e metriche da mappare. Questo passaggio non è difficile, quanto noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -48,7 +48,7 @@ Questo processo presuppone che si desideri [creare uno schema personalizzato da 
 
 Per utilizzare il connettore di origine di Analytics per inserire dati storici in Customer Journey Analytics, è necessario:
 
-1. [Creare uno schema personalizzato per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Creare uno schema XDM personalizzato per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
 1. Se non disponi già di un connettore di origine Analytics, crea il connettore di origine Analytics e mappa i campi sullo schema Web SDK personalizzato, come descritto di seguito.
 

@@ -8,7 +8,7 @@ role: User
 source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 51%
+ht-degree: 68%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
->title="Aggiungere set di dati aggiuntivi alla connessione"
->abstract="Dopo aver aggiunto i dati a un set di dati in Adobe Experience Platform, puoi aggiungerlo alla connessione in Customer Journey Analytics. Assicurati che, quando aggiungi dati da altri canali, questi aderiscano allo schema utilizzato dalla tua organizzazione.<br><br>Ogni set di dati aggiunto richiede un&#39;enorme quantità di lavoro, in particolare per verificare che esista un identificatore univoco per ogni evento e per assicurarsi che la struttura dati generale sia conforme allo schema personalizzato della tua organizzazione. La creazione di questo flusso di lavoro può richiedere il coordinamento tra più team all’interno dell’organizzazione distribuiti in diversi mesi."
+>title="Aggiungere altri set di dati alla connessione"
+>abstract="Dopo aver aggiunto i dati desiderati a un set di dati in Adobe Experience Platform, è possibile aggiungere il set di dati a una connessione in Customer Journey Analytics. Se aggiungi dati da altri canali, assicurati che siano conformi allo schema utilizzato dalla tua organizzazione.<br><br>Ogni set di dati aggiunto richiede un’ingente mole di lavoro, in particolare per verificare che per ogni evento esista un identificatore univoco e per assicurarsi che la struttura generale dei dati sia conforme allo schema personalizzato dell’organizzazione. La definizione di questo flusso di lavoro può richiedere il coordinamento di più team all’interno dell’organizzazione per un periodo di alcuni mesi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,7 +32,7 @@ L’analisi cross-channel consente un’unica visualizzazione consolidata del co
 1. [Creare schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it) per i dati da inserire.
 1. [Creare set di dati](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=it) per i dati da inserire.
 1. [Inserire dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=it):
-   1. Dati basati su eventi ![evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) da siti Web o app mobili tramite il connettore di origine Edge Network o Analytics.
+   1. Dati basati sull&#39;evento ![evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) dal sito Web o dall&#39;app mobile tramite il connettore di origine di Edge Network o Analytics.
    2. Dati profilo ![profilo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (ad esempio da un sistema CRM, un&#39;applicazione call center, un&#39;applicazione fedeltà).
    3. Ricerca dati ![ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (ad esempio nome prodotto, categoria da un sistema di informazioni sul prodotto).
 

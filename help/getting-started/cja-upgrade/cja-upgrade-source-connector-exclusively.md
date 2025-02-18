@@ -1,5 +1,5 @@
 ---
-title: Utilizza il connettore di origine di Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics
+title: Utilizzare il connettore di origine di Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics
 description: Scopri come creare il connettore di origine di Analytics e mappare i campi
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 21%
+ht-degree: 39%
 
 ---
 
-# Utilizza il connettore di origine di Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics {#use-source-connector-exclusively}
+# Utilizzare il connettore di origine di Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics {#use-source-connector-exclusively}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-exclusively"
->title="Utilizza solo il connettore di origine di Analytics"
->abstract="(Sconsigliato) Non è possibile eseguire l’integrazione con altri servizi Adobe Experience Platform o uscire da Adobe Analytics con il connettore di origine di Analytics. È probabile che per collegare i dati da altre origini sia necessario eseguire l’unione. Per selezionare questa opzione, è necessario soddisfare tutti i requisiti indicati nel questionario."
+>title="Utilizzare unicamente il connettore di origine di Analytics"
+>abstract="(Non consigliato) Non è possibile eseguire l’integrazione con altri servizi Adobe Experience Platform o uscire da Adobe Analytics con il connettore di origine di Analytics. È probabile che per collegare i dati da altre origini sia necessario eseguire l’unione. Per selezionare questa opzione, è necessario soddisfare tutti i requisiti nel questionario."
 
 <!-- markdownlint-enable MD034 -->
 

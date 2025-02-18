@@ -10,7 +10,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 27%
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
 >title="Creare un set di dati in Adobe Experience Platform"
->abstract="Un set di dati è una posizione in cui si trovano i dati raccolti. Crea questa posizione in Adobe Experience Platform.<br><br>La creazione di un set di dati con uno schema richiede solo alcuni minuti."
+>abstract="Per set di dati si intende la posizione in cui si trovano i dati raccolti. Crea questa posizione in Adobe Experience Platform.<br><br>La creazione di un set di dati con uno schema richiede solo alcuni minuti."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -10,7 +10,7 @@ exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-lookup-dataset-create"
->title="Crea un set di dati di ricerca per ogni dimensione contenente i dati di classificazione"
->abstract="Analogamente ai dati delle classificazioni in Adobe Analytics, i set di dati di ricerca sono il metodo per classificare i dati in Customer Journey Analytics."
+>title="Creare un set di dati di ricerca per ogni dimensione contenente dati di classificazione"
+>abstract="Simili ai dati delle classificazioni in Adobe Analytics, i set di dati di ricerca costituiscono il metodo con cui vengono classificati i dati in Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 >
 >Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
 
-Analogamente ai dati delle classificazioni in Adobe Analytics, i set di dati di ricerca sono il metodo per classificare i dati in Customer Journey Analytics.
+Simili ai dati delle classificazioni in Adobe Analytics, i set di dati di ricerca costituiscono il metodo con cui vengono classificati i dati in Customer Journey Analytics.
 
 Quando si utilizza il connettore di origine di Analytics, alcuni set di dati di ricerca standard vengono applicati automaticamente al momento del rapporto. Per ulteriori informazioni, consulta [Aggiungere ricerche standard ai set di dati](/help/connections/standard-lookups.md).
 

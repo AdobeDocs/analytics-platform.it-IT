@@ -1,5 +1,5 @@
 ---
-title: Comprendere le funzionalità esclusive di Customer Journey Analytics
+title: Comprendere le funzioni esclusive di Customer Journey Analytics
 description: Scopri le funzionalità esclusive di Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -9,18 +9,18 @@ hidefromtoc: true
 source-git-commit: f4440148d26e81938d029d4a077cd787c868f1be
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 27%
+ht-degree: 54%
 
 ---
 
-# Comprendere le funzionalità esclusive di Customer Journey Analytics {#feature-support-upgrade}
+# Comprendere le funzioni esclusive di Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
->title="Collegare i dati di origini diverse"
->abstract="(Consigliato) La possibilità di combinare i dati di analisi di altri canali è il caso d’uso principale per Customer Journey Analytics."
+>title="Collegare dati di origini diverse"
+>abstract="(Consigliato) La possibilità di combinare dati di analisi provenienti da altri canali è il caso d’uso principale per Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,7 +29,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="Unire gli hit da più set di dati"
->abstract="Se uno dei set di dati non condivide un identificatore principale (ad esempio, un Experience Cloud ID), puoi comunque unire tali dati utilizzando un’altra dimensione, ad esempio il nome utente o l’indirizzo e-mail di accesso."
+>abstract="Se un set di dati non condivide un identificatore principale (ad esempio, un ID Experience Cloud), puoi comunque combinare i dati utilizzando un’altra dimensione, ad esempio il nome utente o l’indirizzo e-mail di accesso."
 
 <!-- markdownlint-enable MD034 -->
 

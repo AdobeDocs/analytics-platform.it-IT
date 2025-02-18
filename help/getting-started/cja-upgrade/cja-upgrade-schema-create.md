@@ -10,18 +10,18 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 36%
+ht-degree: 51%
 
 ---
 
-# Creare uno schema personalizzato da utilizzare con l’implementazione di Customer Journey Analytics Web SDK {#create-custom-schema}
+# Creare uno schema personalizzato da utilizzare con l’implementazione del Web SDK di Customer Journey Analytics {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
 >title="Creare lo schema personalizzato desiderato in Adobe Experience Platform"
->abstract="Utilizza l’interfaccia utente di Adobe Experience Platform per creare uno schema in modo che Adobe conosca il formato corretto per memorizzare i dati.<br><br>Questo passaggio comporta l&#39;effettiva creazione dello schema concordato dall&#39;organizzazione. Il tempo stimato per la creazione dello schema nell’interfaccia di Adobe Experience Platform è di circa una settimana, a seconda del numero di dimensioni e metriche da creare."
+>abstract="Utilizza l’interfaccia utente di Adobe Experience Platform per creare uno schema in modo che Adobe conosca il formato corretto per archiviare i tuoi dati.<br><br>Questo passaggio comporta l’effettiva creazione dello schema concordato dalla tua organizzazione. Il tempo stimato per la creazione dello schema nell’interfaccia di Adobe Experience Platform è di circa una settimana, a seconda del numero di dimensioni e metriche da creare."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
->title="Creare uno schema utilizzando il gruppo di campi Adobe Analytics ExperienceEvent"
->abstract="Utilizza il gruppo di campi &quot;Adobe Analytics ExperienceEvent&quot; per creare in Adobe Experience Platform uno schema contenente tutti i campi utilizzati da Adobe Analytics.<br><br>La creazione di uno schema basato sul gruppo di campi Adobe Analytics ExperienceEvent è semplice e richiede solo pochi minuti."
+>title="Creare uno schema utilizzando il gruppo di campi ExperienceEvent di Adobe Analytics"
+>abstract="Utilizza il gruppo di campi “ExperienceEvent di Adobe Analytics” per creare uno schema in Adobe Experience Platform che contiene tutti i campi utilizzati da Adobe Analytics.<br><br>La creazione di uno schema basato sul gruppo di campi ExperienceEvent di Adobe Analytics è semplice e richiede solo pochi minuti per essere completata."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
->title="Abilita lo schema per il profilo"
->abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché hai selezionato il desiderio di integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l&#39;operazione richiede solo alcuni minuti."
+>title="Abilitare lo schema per il profilo"
+>abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché è stato selezionato che desideri integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l’operazione richiede solo alcuni minuti."
 
 <!-- markdownlint-enable MD034 -->
 
