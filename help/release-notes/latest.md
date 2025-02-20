@@ -3,10 +3,10 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 89ad5b445c79ee318ca064cbeb1da5948a714671
+source-git-commit: 419676a446bd04a1d0f7a96ffc564e439db48f54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 64%
+source-wordcount: '208'
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra il sabato
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Estensione BI - Supporto Looker** | L&#39;estensione Customer Journey Analytics BI ora [supporta Looker, Jupyter Notebook e R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | sabato 24 gennaio 2025 |
+| **Estensione BI - Supporto Looker** | L&#39;estensione Customer Journey Analytics BI ora supporta [Looker, Jupyter Notebook e R Studio](/help/data-views/bi-extension.md). I [casi di utilizzo dell&#39;estensione BI](/help/use-cases/data-views/bi-extension-usecases.md) sono stati aggiornati per riflettere gli strumenti aggiuntivi supportati. |   | sabato 24 gennaio 2025 |
 
 ## Correzioni in Customer Journey Analytics
 
