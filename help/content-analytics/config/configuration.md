@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '344'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 1%
 
 
 Per configurare Content Analytics per la tua organizzazione, utilizza la [configurazione guidata](guided.md) di Content Analytics. La procedura guidata di configurazione ti guida attraverso tutti i passaggi necessari per impostare i prerequisiti per una configurazione automatica di Content Analytics.
+
+Dopo un’implementazione corretta, puoi apportare alcune modifiche utilizzando la procedura guidata di configurazione. Tuttavia, potrebbero essere necessarie [modifiche manuali](manual.md).
 
 ## Prerequisiti
 
@@ -56,6 +58,8 @@ Prima di configurare Content Analytics, accertati di soddisfare i seguenti prere
 >>
 [!MORELIKETHIS]
 >>
+* [Configurazione guidata](guided.md)
+* [Configurazione manuale](manual.md)
 * [Controllo dell&#39;accesso](/help/technotes/access-control.md)
 >
 
