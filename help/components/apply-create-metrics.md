@@ -4,9 +4,9 @@ title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 17d3e8ed5986348bb4ba50822dfd9bb43d5a7570
+source-git-commit: 84ab8434671ccbce12dce95e1164b9a25c7b8439
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -103,7 +103,7 @@ Per creare una metrica calcolata per un singolo progetto:
 
    * [!UICONTROL **Moltiplica**]: crea una nuova colonna che moltiplica i valori delle due colonne selezionate.
 
-   * [!UICONTROL **Modifica percentuale**]: crea una nuova colonna che mostra la modifica percentuale delle due colonne selezionate.
+   * [!UICONTROL **Modifica percentuale**]: crea una nuova colonna che mostra la modifica percentuale tra le due colonne selezionate.
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
