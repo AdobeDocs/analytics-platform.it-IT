@@ -3,10 +3,10 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e6f86bf3dee81d70300cb26a1593d0e40966a63b
+source-git-commit: f61e3c1563187a4852734fcca5ffbd21b70849f0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 63%
+source-wordcount: '254'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra il sabato
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Estensione BI - supporto esteso** | L&#39;estensione Customer Journey Analytics BI ora [supporta Looker, Jupyter Notebook e R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | sabato 24 gennaio 2025 |
-| **Media Collection: aggiornamenti del connettore di origine di Adobe per il nuovo XDM per Media Reporting** | Il connettore di origine di Analytics mapperà automaticamente i dati multimediali in streaming in Adobe Analytics agli stessi campi utilizzati da Web SDK. In precedenza, i dati venivano mappati sia sulla vecchia che sulla nuova posizione, ma in futuro verrà utilizzata solo la nuova posizione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 30 gennaio 2025 |
+| **Media Collection: aggiornamenti del connettore di origine di Adobe per il nuovo XDM per Media Reporting** | Il connettore Source di Analytics mappa automaticamente i dati multimediali in streaming in Adobe Analytics agli stessi campi utilizzati dal Web SDK. In precedenza, i dati venivano mappati sia sulla vecchia che sulla nuova posizione, ma in futuro verrà utilizzata solo la nuova posizione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 30 gennaio 2025 |
 
 
 ## Correzioni in Customer Journey Analytics
