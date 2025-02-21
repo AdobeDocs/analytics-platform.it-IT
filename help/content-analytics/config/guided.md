@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 17%
+source-wordcount: '1935'
+ht-degree: 16%
 
 ---
 
@@ -105,9 +105,14 @@ Ogni configurazione richiede un nome univoco. Ad esempio: `Example Content Analy
 >abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti.<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change"
->title="Seleziona visualizzazione dati"
+>id="aca_onboarding_dataview_change_content"
+>title="Nuova visualizzazione dati"
 >abstract="La selezione di una nuova visualizzazione dati si tradurrà in un aggiornamento a tale visualizzazione dati per includere le metriche e le dimensioni di Content Analytics. Se necessario, anche la connessione associata viene aggiornata per includere i set di dati di analisi del contenuto. La connessione e la visualizzazione dati attualmente configurate per l’analisi dei contenuti non vengono modificate."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change_title"
+>title="Nuova visualizzazione dati"
+>abstract="Nuova visualizzazione dati"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -144,12 +149,12 @@ Una visualizzazione dati è associata a una [connessione](/help/connections/over
 >abstract="Raccogliere esperienze in Content Analytics"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_url_header"
+>id="aca_onboarding_experiences_parameters_header"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Specificare gli URL a cui si applicano i parametri seguenti"
+>abstract="Specifica i parametri che determinano come viene eseguito il rendering del contenuto sul sito web."
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_edit_button"
+>id="aca_onboarding_experiencecapture_edit_button"
 >title="Acquisizione e definizione dell’esperienza"
 >abstract="Puoi modificare le impostazioni nell’estensione Content Analytics di Adobe nella proprietà Tag, associata alla configurazione selezionata."
 
@@ -194,7 +199,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="Raccolta dati"
->abstract="Fornire una proprietà tag"
+>abstract="**Fornisci una proprietà tag**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -228,7 +233,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 
 <!-- markdownlint-enable MD034 -->
 
-#### Nuova configurazione
+#### Nuova configurazione {#new-configuration}
 
 In una nuova configurazione, è necessario definire la proprietà Tag da utilizzare o crearne una nuova. Inoltre, devi definire le pagine e le risorse da includere o escludere utilizzando espressioni regolari.
 
@@ -256,7 +261,7 @@ In una nuova configurazione, è necessario definire la proprietà Tag da utilizz
    * Specificare un&#39;espressione regolare per **[!UICONTROL Asset]**. Ad esempio: `(?!.*\b(store|help|admin)\b)`.
 
 
-#### Configurazione esistente
+#### Configurazione esistente {#existing-configuration}
 
 Per una configurazione esistente, non è possibile modificare la proprietà Tag. Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 
@@ -279,9 +284,19 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning"
+>id="aca_onboarding_implementation_warning_content"
 >title="Avvertenza sull’implementazione dell’onboarding"
 >abstract="Se si seleziona **[!UICONTROL Implement]**, l&#39;analisi dei contenuti verrà configurata in base all&#39;input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma l’utente (in qualità di titolare del trattamento dei dati) deve rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupererà gli attributi utilizzando:<ol><li>L’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate e</li><li>URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_implementation_warning_title"
+>title="Conferma dell&#39;attuazione"
+>abstract="Conferma dell&#39;attuazione"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -307,6 +322,11 @@ Dopo aver creato o modificato una configurazione, sono disponibili le azioni rip
       * A Workspace viene aggiunto un modello di reporting di Content Analytics.
 * **[!UICONTROL Save]**: le modifiche apportate a una configurazione implementata vengono salvate e l&#39;implementazione viene aggiornata.
 * **[!UICONTROL Exit]**. Chiude la configurazione guidata. Tutte le modifiche apportate a una configurazione implementata vengono ignorate.
+
+
+## Pubblica {#publish}
+
+Per attivare la configurazione di Content Analytics devi [pubblicare manualmente](manual.md) la proprietà Tag creata dopo aver selezionato **[!UICONTROL Implement]**, come parte della procedura guidata di configurazione.
 
 >[!MORELIKETHIS]
 >
