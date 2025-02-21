@@ -55,12 +55,11 @@ Prima di configurare Content Analytics, accertati di soddisfare i seguenti prere
    * Hai una chiara comprensione di quale (tipo di) risorsa desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
 
 
->>
-[!MORELIKETHIS]
->>
-* [Configurazione guidata](guided.md)
-* [Configurazione manuale](manual.md)
-* [Controllo dell&#39;accesso](/help/technotes/access-control.md)
+>[!MORELIKETHIS]
+>
+>* [Configurazione guidata](guided.md)
+>* [Configurazione manuale](manual.md)
+>* [Controllo dell&#39;accesso](/help/technotes/access-control.md)
 >
 
 
