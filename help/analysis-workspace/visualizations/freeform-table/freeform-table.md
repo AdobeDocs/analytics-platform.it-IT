@@ -4,7 +4,7 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 27%
@@ -103,7 +103,7 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 | **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Massimo 50.000 elementi dimensionali per la dimensione selezionata. |
 | **[!UICONTROL Copy visualization]** | Copia la visualizzazione in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
 | **[!UICONTROL Download data CSV]** | Scarica immediatamente i dati visualizzati della visualizzazione sul dispositivo locale. |
-| **[!UICONTROL  Export full table...]** | Esporta la tabella completa in posizioni cloud designate. Vedi [Esporta i report di Customer Journey Analytics nel cloud](../../export/export-cloud.md) |
+| **[!UICONTROL Export full table...]** | Esporta la tabella completa in posizioni cloud designate. Vedi [Esporta i report di Customer Journey Analytics nel cloud](../../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Crea un duplicato esatto della visualizzazione. |
 | **[!UICONTROL Edit description]** | Aggiungi (o modifica) un testo descrittivo per la visualizzazione. Vedi [Testo](../text.md). |
 | **[!UICONTROL Get visualization link]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli Appunti. |
