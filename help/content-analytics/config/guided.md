@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
+source-git-commit: 4650718a067f68d4edfad3db71e822898f661648
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 16%
@@ -284,7 +284,6 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 >abstract="Se si seleziona **[!UICONTROL Implement]**, l&#39;analisi dei contenuti verrà configurata in base all&#39;input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma l’utente (in qualità di titolare del trattamento dei dati) deve rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupererà gli attributi utilizzando:<ol><li>L’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate e</li><li>URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
 
 <!-- markdownlint-enable MD034 -->
-
 
 Dopo aver creato o modificato una configurazione, sono disponibili le azioni riportate di seguito.
 
