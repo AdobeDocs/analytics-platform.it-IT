@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: 3c11f204b73ec1cc5c4c359b6cc5c88023c93e43
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 8%
+source-wordcount: '1536'
+ht-degree: 7%
 
 ---
 
@@ -31,6 +31,23 @@ ht-degree: 8%
 
 <!-- markdownlint-enable MD034 -->
 
+Customer Journey Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensioni, metriche, filtri e funzioni per creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o complesse.
+
+## Inizio della creazione di una metrica calcolata
+
+Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, è possibile creare rapidamente una metrica calcolata disponibile solo per il progetto in cui è stata creata, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/components/apply-create-metrics.md).
+
+Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata disponibile nell’elenco dei componenti.
+
+1. Accedi al generatore di metriche calcolate in uno dei seguenti modi:
+
+   * In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
+   * In Analysis Workspace, apri un progetto, quindi seleziona l&#39;icona **Plus** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
+   * In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
+
+1. Continua con [Aree del generatore di metriche calcolate](#areas-of-the-calculated-metrics-builder).
+
+## Aree del generatore di metriche calcolate
 
 La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizzata per creare nuove metriche calcolate o per modificare quelle esistenti. La finestra di dialogo si chiama **[!UICONTROL New calculated metric]** o **[!UICONTROL Edit calculated metric]** per le metriche create o gestite dal gestore [[!UICONTROL Calculated metrics]](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
