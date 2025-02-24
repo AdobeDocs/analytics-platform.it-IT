@@ -4,7 +4,7 @@ title: Flussi interdimensionali
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 80522177d5258e4b5046b3872483ce2b482ae77d
+source-git-commit: 1eeba4dc9de52f2890cf25794e767f199a4aa04c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 8%
@@ -37,7 +37,7 @@ Per esplorare l&#39;interazione tra schermate e tipi di evento (come aggiungi al
 
   ![Flusso che mostra la dimensione Pagina trascinata nello spazio vuoto alla fine.](assets/flowapp-add.png)
 
-La visualizzazione di flusso seguente mostra il risultato dell&#39;aggiunta della dimensione **[!UICONTROL  Event Types]**. La visualizzazione fornisce informazioni su come gli utenti dell’app mobile si spostano attraverso le varie schermate dell’app prima di aggiungere prodotti al carrello, chiudere l’applicazione, visualizzare un’offerta e altro ancora.
+La visualizzazione di flusso seguente mostra il risultato dell&#39;aggiunta della dimensione **[!UICONTROL Event Types]**. La visualizzazione fornisce informazioni su come gli utenti dell’app mobile si spostano attraverso le varie schermate dell’app prima di aggiungere prodotti al carrello, chiudere l’applicazione, visualizzare un’offerta e altro ancora.
 
 ![Un fLow che mostra i risultati della dimensione Pagina nella parte superiore dell&#39;elenco.](assets/flowapp-result.png)
 
