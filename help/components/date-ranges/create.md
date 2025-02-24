@@ -4,7 +4,7 @@ description: Crea un intervallo di date da utilizzare nel reporting.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a913f23506f692e64633408b8cd9bad6be27970b
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 51%
@@ -18,7 +18,7 @@ Chiunque può creare un intervallo di date personalizzato. Puoi creare un interv
 
 ![Creare un’annotazione](assets/create-date-range.png)
 
-* ?? Nell’interfaccia principale, seleziona **[!UICONTROL Components]** e quindi **[!UICONTROL Date range]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] dal gestore [[!UICONTROL Date range]](/help/components/date-ranges/manage.md).
+* ?? Nell’interfaccia principale, seleziona **[!UICONTROL Components]** e quindi **[!UICONTROL Date range]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dal gestore [[!UICONTROL Date range]](/help/components/date-ranges/manage.md).
 * ?? In un progetto Workspace, dal menu di scelta rapida di una visualizzazione, seleziona **[!UICONTROL Custom date range to this date range]**.
 * ?? In un progetto Workspace, selezionare **[!UICONTROL Components]** dal menu e selezionare **[!UICONTROL Create date range]**
 * ?? In un progetto Workspace, utilizzare il collegamento **[!UICONTROL ctrl+shift+d]** (Windows) o **[!UICONTROL shift+command+d]** (macOS).
