@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 1bea6a1bc7d2070f01a60ef859675a0f9d03c86d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2389'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ No, puoi utilizzare qualsiasi ID, incluso un hash di un ID cliente, che non è u
 >
 >Non esiste una dimensione fissa dei dati in Customer Journey Analytics e pertanto Adobe non può eseguire il commit per un tempo di acquisizione standard. Adobe sta lavorando attivamente per ridurre queste latenze attraverso nuovi aggiornamenti e l’ottimizzazione dell’acquisizione.
 
-* Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in Adobe Experience Platform. (Dimensione batch > 50 milioni di righe: più di 90 minuti). Se l’unione è abilitata, l’acquisizione può richiedere fino a 4 ore. Per ulteriori dettagli, vedi [guardrail](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
+* Dati o eventi live: elaborati e acquisiti entro 90 minuti, una volta che i dati sono disponibili in Adobe Experience Platform. (Dimensione batch > 50 milioni di righe: più di 90 minuti). Se l’unione è abilitata, l’acquisizione può richiedere fino a 4 ore. Per ulteriori dettagli, consulta [Guardrail](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/guardrails).
 * Backfill di piccole dimensioni: entro sette giorni
 * Backfill di grandi dimensioni: entro 30 giorni
 
