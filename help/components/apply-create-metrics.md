@@ -4,9 +4,9 @@ title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 84ab8434671ccbce12dce95e1164b9a25c7b8439
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '853'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Per informazioni su come accedere al generatore di metriche calcolate, vedere [C
 
 ### Creare metriche calcolate per un singolo progetto
 
-Puoi creare metriche calcolate rapide disponibili solo per il progetto in cui sono state create.
+Puoi creare rapidamente una metrica di calcolo disponibile solo per il progetto in cui è stata creata.
 
 Per creare una metrica calcolata per un singolo progetto:
 
