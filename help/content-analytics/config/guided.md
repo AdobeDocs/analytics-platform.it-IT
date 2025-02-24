@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
+source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1923'
 ht-degree: 16%
 
 ---
@@ -105,14 +105,9 @@ Ogni configurazione richiede un nome univoco. Ad esempio: `Example Content Analy
 >abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di analisi dei contenuti.<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_content"
+>id="aca_onboarding_dataview_change_dialog"
 >title="Nuova visualizzazione dati"
 >abstract="La selezione di una nuova visualizzazione dati si tradurrà in un aggiornamento a tale visualizzazione dati per includere le metriche e le dimensioni di Content Analytics. Se necessario, anche la connessione associata viene aggiornata per includere i set di dati di analisi del contenuto. La connessione e la visualizzazione dati attualmente configurate per l’analisi dei contenuti non vengono modificate."
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_title"
->title="Nuova visualizzazione dati"
->abstract="Nuova visualizzazione dati"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -284,19 +279,9 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_content"
->title="Avvertenza sull’implementazione dell’onboarding"
->abstract="Se si seleziona **[!UICONTROL Implement]**, l&#39;analisi dei contenuti verrà configurata in base all&#39;input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma l’utente (in qualità di titolare del trattamento dei dati) deve rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupererà gli attributi utilizzando:<ol><li>L’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate e</li><li>URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_title"
+>id="aca_onboarding_implementation_warning_dialog"
 >title="Conferma dell&#39;attuazione"
->abstract="Conferma dell&#39;attuazione"
-
-<!-- markdownlint-enable MD034 -->
-
+>abstract="Se si seleziona **[!UICONTROL Implement]**, l&#39;analisi dei contenuti verrà configurata in base all&#39;input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma l’utente (in qualità di titolare del trattamento dei dati) deve rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupererà gli attributi utilizzando:<ol><li>L’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate e</li><li>URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
