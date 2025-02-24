@@ -1,16 +1,16 @@
 ---
 title: Scopri di più sul supporto delle funzioni di Adobe Analytics durante l’aggiornamento a Customer Journey Analytics
-description: Scopri il supporto delle funzioni di Adobe Analytics durante l’aggiornamento al Customer Journey Analytics
+description: Scopri il supporto delle funzioni di Adobe Analytics durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 59%
+source-wordcount: '482'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 59%
 >id="cja-upgrade-activity-map"
 >title="Sovrapposizione Activity Map e tracciamento dei collegamenti"
 >abstract="Estensione del browser che consente di visualizzare i dati di tracciamento dei collegamenti come sovrapposizione sul sito."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-activity-map-support"
+>title="Il supporto per la sovrapposizione Activity Map non è ancora disponibile"
+>abstract="Il supporto per la sovrapposizione di Activity Map non è ancora disponibile in Customer Journey Analytics. La sua disponibilità è prevista per il futuro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -79,17 +88,26 @@ ht-degree: 59%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-component-migration"
+>title="Eseguire la migrazione di progetti e componenti"
+>abstract="Porta i progetti Adobe Analytics e i relativi componenti in Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
+
 >[!NOTE]
 > 
->Usa le informazioni in questa pagina per rispondere alle domande nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Usa le informazioni in questa pagina per rispondere alle domande nell&#39;[elenco di controllo per l&#39;aggiornamento di Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-L’elenco seguente mostra solo le funzioni di Adobe Analytics che richiedono considerazione durante il processo di aggiornamento a Customer Journey Analytics. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate nel Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+L’elenco seguente mostra solo le funzioni di Adobe Analytics che richiedono considerazione durante il processo di aggiornamento a Customer Journey Analytics. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate in Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
-Considera quali delle seguenti funzioni di Adobe Analytics desideri continuare a utilizzare quando effettui l’aggiornamento al Customer Journey Analytics:
+Considera quali delle seguenti funzioni di Adobe Analytics desideri continuare a utilizzare quando effettui l’aggiornamento a Customer Journey Analytics:
 
-| Funzione di Adobe Analytics | Caratteristica corrispondente nel Customer Journey Analytics |
+| Funzione di Adobe Analytics | Funzione corrispondente in Customer Journey Analytics |
 |---------|----------|
-| [Componenti e progetti da Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Migra i progetti e i relativi componenti al Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
+| [Componenti e progetti da Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [Eseguire la migrazione dei progetti e dei relativi componenti in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration). |
 | [Sovrapposizione Activity Map e tracciamento dei collegamenti](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | Non ancora disponibile |
 | [Dati di classificazione](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | I set di dati di ricerca sono il metodo per classificare i dati in Customer Journey Analytics.<p>[Crea un set di dati di ricerca per ogni dimensione contenente i dati di classificazione.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [Canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | I campi derivati vengono creati all’interno di una visualizzazione dati. <p>[Crea un campo derivato da canale di marketing.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |

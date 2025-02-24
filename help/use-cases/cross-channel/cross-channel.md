@@ -5,10 +5,10 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 68%
+source-wordcount: '581'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="Aggiungere altri set di dati alla connessione"
->abstract="Dopo aver aggiunto i dati desiderati a un set di dati in Adobe Experience Platform, è possibile aggiungere il set di dati a una connessione in Customer Journey Analytics. Se aggiungi dati da altri canali, assicurati che siano conformi allo schema utilizzato dalla tua organizzazione.<br><br>Ogni set di dati aggiunto richiede un’ingente mole di lavoro, in particolare per verificare che per ogni evento esista un identificatore univoco e per assicurarsi che la struttura generale dei dati sia conforme allo schema personalizzato dell’organizzazione. La definizione di questo flusso di lavoro può richiedere il coordinamento di più team all’interno dell’organizzazione per un periodo di alcuni mesi."
+>abstract="Dopo aver aggiunto i dati a un set di dati in Adobe Experience Platform, puoi aggiungerlo alla connessione in Customer Journey Analytics. Se aggiungi dati da altri canali, assicurati che siano conformi allo schema utilizzato dalla tua organizzazione.<br><br>Ogni set di dati aggiunto richiede un’ingente mole di lavoro, in particolare per verificare che per ogni evento esista un identificatore univoco e per assicurarsi che la struttura generale dei dati sia conforme allo schema personalizzato dell’organizzazione. La definizione di questo flusso di lavoro può richiedere il coordinamento di più team all’interno dell’organizzazione per un periodo di alcuni mesi."
 
 <!-- markdownlint-enable MD034 -->
 

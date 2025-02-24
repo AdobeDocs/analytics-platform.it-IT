@@ -1,13 +1,13 @@
 ---
 title: Transizione dal connettore di origine di Analytics a Web SDK per Customer Journey Analytics
-description: Scopri come passare al Web SDK dal connettore di origine di Analytics durante l’aggiornamento al Customer Journey Analytics
+description: Scopri come passare al Web SDK dal connettore di origine di Analytics durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 15%
@@ -27,21 +27,21 @@ ht-degree: 15%
 
 >[!NOTE]
 > 
->Usa le informazioni in questa pagina per rispondere alle domande nell&#39;elenco di controllo per l&#39;aggiornamento di [Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
+>Usa le informazioni in questa pagina per rispondere alle domande nell&#39;[elenco di controllo per l&#39;aggiornamento di Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
 
-L’utilizzo del connettore di origine di Analytics come unica implementazione per il Customer Journey Analytics presenta alcuni svantaggi intrinseci.
+L’utilizzo del connettore di origine di Analytics come unica implementazione per Customer Journey Analytics presenta alcuni svantaggi intrinseci.
 
-Se la tua organizzazione ha già effettuato l’aggiornamento al Customer Journey Analytics utilizzando solo l’implementazione del connettore di origine di Analytics, Adobe consiglia di passare a un’implementazione che utilizza il connettore di origine di Analytics (per i dati storici), insieme a una nuova implementazione del SDK web (per la raccolta dati continua).
+Se la tua organizzazione ha già eseguito l’aggiornamento a Customer Journey Analytics utilizzando solo l’implementazione del connettore di origine di Analytics, Adobe consiglia di passare a un’implementazione che utilizza il connettore di origine di Analytics (per i dati storici), insieme a una nuova implementazione di Web SDK (per la raccolta dati continua).
 
 ## Comprendere vantaggi e svantaggi dell’utilizzo esclusivo del connettore di origine di Analytics
 
-Per informazioni sui vantaggi e gli svantaggi dell&#39;utilizzo del connettore di origine Analytics, vedere [Utilizzare il connettore di origine Analytics esclusivamente per l&#39;aggiornamento al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md).
+Per informazioni sui vantaggi e gli svantaggi dell&#39;utilizzo del connettore di origine Analytics, vedere [Utilizzare il connettore di origine Analytics esclusivamente per l&#39;aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md).
 
 ## Transizione dal connettore di origine di Analytics al Web SDK
 
 Di seguito è riportato il processo di alto livello per la transizione dall’utilizzo esclusivo del connettore di origine Analytics a un’implementazione composta sia dal connettore di origine Analytics che da un’implementazione Web SDK:
 
-1. Creazione di un&#39;implementazione di Web SDK, come descritto in [Passaggi dettagliati consigliati per l&#39;aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) nell&#39;articolo [Aggiornamento da Adobe Analytics al Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
+1. Creare un&#39;implementazione di Web SDK, come descritto in [Passaggi dettagliati consigliati per l&#39;aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) nell&#39;articolo [Aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
    Dopo aver configurato l’implementazione di Web SDK, continua con i passaggi seguenti.
 
@@ -62,11 +62,11 @@ Di seguito è riportato il processo di alto livello per la transizione dall’ut
 
    1. Ripeti questa procedura per ogni campo del gruppo di campi Modello Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
 
-1. Aggiungi il set di dati creato automaticamente con il connettore di origine Analytics originale alla connessione di Customer Journey Analytics.
+1. Aggiungi il set di dati creato automaticamente con il connettore di origine Analytics originale alla connessione Customer Journey Analytics.
 
    Per ulteriori informazioni, consulta [Aggiungere il set di dati dal connettore di origine Analytics corrente alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
-1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, vedere [Creare set di dati di ricerca per classificare i dati nel Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, vedere [Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
 1. Elimina il connettore di origine originale di Analytics. <!-- need to add steps somewhere about how to do this -->
 
