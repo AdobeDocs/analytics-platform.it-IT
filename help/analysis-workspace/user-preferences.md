@@ -8,7 +8,7 @@ role: User
 source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
 source-wordcount: '3451'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -191,7 +191,7 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="Metrica tabella predefinita"
->abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Abbandono. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Abbandono passa automaticamente a un altro contenitore principale."
+>abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Fallout. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Fallout passa automaticamente a un altro contenitore principale."
 
 Puoi aggiornare le preferenze di visualizzazione per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
 
