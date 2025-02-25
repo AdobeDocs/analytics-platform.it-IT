@@ -4,10 +4,10 @@ title: Coerenza di metriche e appartenenza a un pubblico
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,8 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 Real-Time CDP e Customer Journey Analytics attualmente non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
 
-Customer Journey Analytics può essere configurato per utilizzare l’[Unione](../stitching/overview.md), che estrae gli identificatori dai set di dati nel data lake e applica una logica personalizzata per collegarli tra di loro.
+È possibile configurare Customer Journey Analytics per l&#39;utilizzo di [Unione](../stitching/overview.md). Se si utilizza [Unione basata sui campi](/help/stitching/fbs.md) come meccanismo di unione, specificare un identificatore da un set di dati nel data lake per unire i dati in tale set di dati allo scopo di elevare il set di dati con profili uniti migliorati. Se si utilizza l&#39;unione basata su [Graph](/help/stitching/gbs.md) come meccanismo di unione, un processo simile sta utilizzando il grafo delle identità, in base a uno spazio dei nomi identità specificato.
 
-In futuro, Customer Journey Analytics sarà in grado di utilizzare il grafo identità.
 
 ## Differenze nella configurazione dei set di dati
 
