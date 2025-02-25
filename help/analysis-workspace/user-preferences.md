@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
+source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3511'
 ht-degree: 96%
 
 ---
@@ -185,22 +185,22 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
->title="Metrica tabella predefinita"
+>title="Contenitore predefinito"
 >abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Flow]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Flow] passerà automaticamente a un altro contenitore primario."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
->title="Metrica tabella predefinita"
+>title="Contenitore predefinito"
 >abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Fallout]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Fallout] passerà automaticamente a un altro contenitore primario."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
->title="Metrica tabella predefinita"
+>title="Metodo di conteggio predefinito"
 >abstract="Selezionare il metodo di conteggio predefinito da utilizzare per le visualizzazioni [!UICONTROL Histogram]. Se la visualizzazione dati selezionata non contiene il metodo di conteggio predefinito selezionato, la visualizzazione [!UICONTROL Histogram] passerà automaticamente a un altro metodo di conteggio principale."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
->title="Metrica tabella predefinita"
+>title="Contenitore predefinito"
 >abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Journey canvas]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Journey canvas] passerà automaticamente a un altro contenitore primario."
 
 
