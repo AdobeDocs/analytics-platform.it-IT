@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
+source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
 workflow-type: tm+mt
-source-wordcount: '3451'
-ht-degree: 100%
+source-wordcount: '3514'
+ht-degree: 96%
 
 ---
 
@@ -186,12 +186,23 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="Metrica tabella predefinita"
->abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Flusso. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Flusso passa automaticamente a un altro contenitore principale."
+>abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Flow]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Flow] passerà automaticamente a un altro contenitore primario."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="Metrica tabella predefinita"
->abstract="Seleziona il contenitore predefinito da utilizzare per le visualizzazioni Fallout. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione Fallout passa automaticamente a un altro contenitore principale."
+>abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Fallout]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Fallout] passerà automaticamente a un altro contenitore primario."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulthistogramcountingmethod"
+>title="Metrica tabella predefinita"
+>abstract="Selezionare il metodo di conteggio predefinito da utilizzare per le visualizzazioni [!UICONTROL Histogram]. Se la visualizzazione dati selezionata non contiene il metodo di conteggio predefinito selezionato, la visualizzazione [!UICONTROL Histogram] passerà automaticamente a un altro metodo di conteggio principale."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultjourneycanvascontainer"
+>title="Metrica tabella predefinita"
+>abstract="Selezionare il contenitore predefinito da utilizzare per le visualizzazioni [!UICONTROL Journey canvas]. Se la visualizzazione dati selezionata non contiene il contenitore predefinito selezionato, la visualizzazione [!UICONTROL Journey canvas] passerà automaticamente a un altro contenitore primario."
+
 
 Puoi aggiornare le preferenze di visualizzazione per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
 
