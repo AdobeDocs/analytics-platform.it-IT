@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 36%
+source-wordcount: '1463'
+ht-degree: 38%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 36%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) oppure i passaggi di aggiornamento generati in modo dinamico per la tua organizzazione con il [questionario di aggiornamento da Adobe Analytics a Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/).
->
->Dopo aver completato i passaggi descritti in questa pagina, continua seguendo i passaggi di aggiornamento consigliati o generati in modo dinamico.
+{{upgrade-note-step}}
 
 Dopo aver [creato il tag e aggiunto l&#39;estensione Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), è necessario configurarlo con elementi dati e regole, in base alla modalità di tracciamento del sito e di invio dei dati a Adobe Experience Platform. Dopo aver configurato gli elementi dati e le regole per il tag, puoi generarlo e pubblicarlo.
 
