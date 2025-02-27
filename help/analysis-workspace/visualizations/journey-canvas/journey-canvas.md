@@ -4,9 +4,9 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1893'
 ht-degree: 12%
 
 ---
@@ -170,11 +170,11 @@ L’area di lavoro percorso fornisce un’analisi approfondita e approfondita ch
 
 L’utilizzo dell’area di lavoro Percorso per analizzare i percorsi creati in Journey Optimizer offre diversi vantaggi:
 
-* Crea eventi utilizzando qualsiasi dimensione di Customer Journey Analytics, metrica, filtro o intervallo di date.
+* Crea eventi utilizzando qualsiasi dimensione, metrica, filtro o intervallo di date di Customer Journey Analytics.
 
   In Journey Optimizer, un utente tecnico deve creare un evento prima di poterlo aggiungere a un percorso.
 
-* Crea tipi di pubblico in base a un nodo personalizzato creato (avvia il Generatore di pubblico di Customer Journey Analytics).
+* Creare tipi di pubblico in base a un nodo personalizzato creato (avvia Customer Journey Analytics audience builder).
 
   In Journey Optimizer, puoi creare tipi di pubblico solo per attività predefinite.
 
@@ -234,7 +234,7 @@ Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del P
 
 ### Differenze terminologiche tra Journey Optimizer e Customer Journey Analytics
 
-Certi termini che significano una cosa in Journey Optimizer significano qualcos&#39;altro in Customer Journey Analytics. Quando si utilizza l’area di lavoro del Percorso, vengono utilizzati i termini del Customer Journey Analytics.
+Alcuni termini che significano una cosa in Journey Optimizer significano qualcosa di diverso in Customer Journey Analytics. Quando si utilizza un’area di lavoro di Percorso, vengono utilizzati i termini di Customer Journey Analytics.
 
 | Termine | Area di lavoro percorso | Journey Optimizer |
 |---------|----------|---------|
@@ -247,3 +247,9 @@ Per informazioni sull&#39;analisi di un percorso Journey Optimizer nell&#39;area
 ## Generare analisi nell’area di lavoro del Percorso
 
 Puoi creare analisi nell’area di lavoro del Percorso basate su qualsiasi dimensione o metrica disponibile in Analysis Workspace. In alternativa, è possibile analizzare i percorsi creati in Journey Optimizer. Per ulteriori informazioni, vedere [Configurare una visualizzazione dell&#39;area di lavoro di Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+
+
+>[!MORELIKETHIS]
+>
+> * [Guida alla visualizzazione Area di lavoro Percorsi in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+
