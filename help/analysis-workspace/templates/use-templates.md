@@ -91,7 +91,7 @@ Se si esce da un modello dopo aver apportato modifiche, viene richiesto di salva
 
 Per personalizzare un modello e salvarlo come progetto:
 
-1. In Customer Journey Analytics selezionare la scheda [!UICONTROL **Workspace**].
+1. In Customer Journey Analytics, selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Selezionare la scheda [!UICONTROL **Modelli**].
 
@@ -356,7 +356,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="aa-template--falloutReport"
 >title="Visualizza il punto in cui le persone abbandonano o proseguono attraverso una sequenza di pagine predefinita."
->abstract="**Questo può aiutarti** a comprendere meglio dove le persone  abbandonano il percorso dell’utente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare i tassi di conversione per processi specifici (come un processo di acquisto o di registrazione) oppure analizzare le correlazioni tra gli eventi. Ad esempio, la percentuale di persone che ha visualizzato l’informativa sulla privacy e ha poi acquistato un prodotto. Puoi anche utilizzare questo modello per eseguire confronti paralleli di due segmenti diversi dello stesso rapporto.<br/>Questo modello utilizza la visualizzazione Fallout."
+>abstract="**Questo può aiutarti** a comprendere meglio dove le persone abbandonano il percorso dell’utente.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare i tassi di conversione per processi specifici (come un processo di acquisto o di registrazione) oppure analizzare le correlazioni tra gli eventi. Ad esempio, la percentuale di persone che ha visualizzato l’informativa sulla privacy e ha poi acquistato un prodotto. Puoi anche utilizzare questo modello per eseguire confronti paralleli di due segmenti diversi dello stesso rapporto.<br/>Questo modello utilizza la visualizzazione Fallout."
 
 <!-- markdownlint-enable MD034 -->
 
