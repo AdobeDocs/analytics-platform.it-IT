@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '8486'
+source-wordcount: '8489'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Adobe Customer Journey Analytics. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. È quindi possibile utilizzare il campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o definire ulteriormente il campo derivato come componente in [Visualizzazione dati](../data-views.md).
 
-I campi derivati consentono di risparmiare molto tempo e fatica rispetto alla trasformazione o alla manipolazione dei dati in altre posizioni al di fuori del Customer Journey Analytics. Ad esempio [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Distiller dati](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) o all&#39;interno dei processi ETL (Extract Transform Load)/ELT (Extract Load Transform).
+I campi derivati consentono di risparmiare molto tempo e fatica rispetto alla trasformazione o alla manipolazione dei dati in altre posizioni al di fuori di Customer Journey Analytics. Ad esempio [Preparazione dati](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=it), [Distiller dati](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) o all&#39;interno dei processi ETL (Extract Transform Load)/ELT (Extract Load Transform).
 
 I campi derivati sono definiti all&#39;interno di [Visualizzazioni dati](../data-views.md), sono basati su un set di funzioni definite come regole e applicate ai campi standard e/o schema disponibili.
 
@@ -160,7 +160,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 >[!NOTE]
 >
->I campi derivati vengono gestiti a livello di connessione nel Customer Journey Analytics. Qualsiasi modifica apportata a un campo derivato in una delle visualizzazioni dati associate a tale connessione viene applicata a tutte le visualizzazioni dati associate.
+>I campi derivati vengono gestiti a livello di connessione in Customer Journey Analytics. Qualsiasi modifica apportata a un campo derivato in una delle visualizzazioni dati associate a tale connessione viene applicata a tutte le visualizzazioni dati associate.
 
 
 
@@ -195,7 +195,7 @@ Per utilizzare il modello, è necessario specificare i parametri corretti per og
 
 +++
 
-### Combinazione di più Dimension {#multi-dim}
+### Combina più Dimension {#multi-dim}
 
 Questo modello di funzione combina due valori in uno.
 
@@ -205,7 +205,7 @@ Questo modello di funzione combina due valori in uno.
 
 Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Per ulteriori informazioni, vedere [Riferimento funzione](#function-reference).
 
-![Schermata del generatore di regole per la combinazione di più Dimension](assets/function-template-multi-dimension-combine.png)
+![Schermata del generatore di regole di combinazione di più Dimension](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -643,9 +643,9 @@ Definisci un campo derivato `Trip Duration (bucketed)`. Crea la seguente regola 
 
 ## Ulteriori informazioni {#casewhen-more-info}
 
-Il Customer Journey Analytics utilizza una struttura di contenitori nidificati, modellata su [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model) di Adobe Experience Platform. Consulta [Contenitori](../create-dataview.md#containers) e [Contenitori filtro](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di background. Questo modello di contenitore, anche se per sua natura flessibile, impone alcuni vincoli quando si utilizza il generatore di regole.
+Customer Journey Analytics utilizza una struttura di contenitori nidificati, modellata su [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model) di Adobe Experience Platform. Consulta [Contenitori](../create-dataview.md#containers) e [Contenitori filtro](../../components/filters/filters-overview.md#filter-containers) per ulteriori informazioni di background. Questo modello di contenitore, anche se per sua natura flessibile, impone alcuni vincoli quando si utilizza il generatore di regole.
 
-Il Customer Journey Analytics utilizza il seguente modello di contenitore predefinito:
+Customer Journey Analytics utilizza il seguente modello di contenitore predefinito:
 
 <p align="center">
 <img src="./assets/containers.png" width="50%" valign="middle">
@@ -1118,7 +1118,7 @@ Definisci un campo derivato `Activity Name`. Utilizzare la funzione [!UICONTROL 
 
 ## Ulteriori informazioni {#lookup-more-info}
 
-La funzione di ricerca viene applicata al momento della generazione del rapporto ai dati recuperati dal Customer Journey Analytics dal set di dati di ricerca configurato come parte della connessione.
+La funzione di ricerca viene applicata al momento della generazione del rapporto ai dati recuperati da Customer Journey Analytics dal set di dati di ricerca configurato come parte della connessione.
 
 È possibile inserire rapidamente una funzione [!UICONTROL Lookup] nel generatore di regole, che contiene già una o più altre funzioni.
 
@@ -1500,7 +1500,7 @@ Si crea un campo derivato `Page Identifier`. Utilizzare la funzione [!UICONTROL 
 
 ## Ulteriori informazioni {#regex-replace-more-info}
 
-Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl. Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl. Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |
@@ -1948,7 +1948,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 
 - È possibile utilizzare un massimo di dieci campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
    - Da questo massimo di dieci campi schema diversi, sono consentiti solo un massimo di tre campi schema di ricerca o schema di profilo.
-- Puoi avere un massimo di 100 campi derivati per connessione di Customer Journey Analytics.
+- Puoi avere un massimo di 100 campi derivati per connessione Customer Journey Analytics.
 
 
 ### Riepilogo delle limitazioni delle funzioni
@@ -1990,12 +1990,13 @@ Ad esempio, la regola Classifica seguente utilizza 3 operatori.
 
 ## Ulteriori informazioni {#trim-more-info}
 
-[`Trim`](#trim) e [`Lowercase`](#lowercase) sono funzionalità già disponibili nelle impostazioni del componente in [Visualizzazioni dati](../component-settings/overview.md). L’utilizzo dei campi derivati consente di combinare queste funzioni per eseguire una trasformazione dei dati più complessa direttamente nel Customer Journey Analytics. È ad esempio possibile utilizzare `Lowercase` per rimuovere la distinzione tra maiuscole e minuscole in un campo evento, quindi utilizzare [`Lookup`](#lookup) per far corrispondere il nuovo campo minuscolo a un set di dati di ricerca che contiene solo chiavi di ricerca in minuscolo. In alternativa, è possibile utilizzare `Trim` per rimuovere i caratteri prima di configurare `Lookup` nel nuovo campo.
+[`Trim`](#trim) e [`Lowercase`](#lowercase) sono funzionalità già disponibili nelle impostazioni del componente in [Visualizzazioni dati](../component-settings/overview.md). L’utilizzo dei campi derivati consente di combinare queste funzioni per eseguire una trasformazione dei dati più complessa direttamente in Customer Journey Analytics. È ad esempio possibile utilizzare `Lowercase` per rimuovere la distinzione tra maiuscole e minuscole in un campo evento, quindi utilizzare [`Lookup`](#lookup) per far corrispondere il nuovo campo minuscolo a un set di dati di ricerca che contiene solo chiavi di ricerca in minuscolo. In alternativa, è possibile utilizzare `Trim` per rimuovere i caratteri prima di configurare `Lookup` nel nuovo campo.
 
 Il supporto per i campi di ricerca e profilo nei campi derivati consente di trasformare i dati in base alle ricerche degli eventi e agli attributi del profilo. Questo può essere particolarmente utile in scenari B2B con dati a livello di account nei set di dati di ricerca o di profilo. Inoltre, questo supporto è utile per manipolare i dati nei campi comuni dai dati di ricerca (come informazioni sulla campagna e tipo di offerta) o dai dati di profilo (come livello membro e tipo di account).
 
-Per ulteriori informazioni sui campi derivati, consulta:
+>[!MORELIKETHIS]
+>
+>- [Blog: Sfruttare al meglio i dati: un framework per l&#39;utilizzo di campi derivati in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [Blog: casi d&#39;uso per i campi derivati per Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [Blog: Miglioramenti Ai Campi Derivati Da Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
-- [Sfruttare al meglio i dati: un framework per l&#39;utilizzo di campi derivati nel Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
-
-- [Casi di utilizzo di campi derivati per il Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)

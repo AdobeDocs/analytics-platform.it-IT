@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4108'
 ht-degree: 99%
 
 ---
@@ -134,7 +134,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -182,7 +182,6 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
    | **[!UICONTROL Backfill data]** | Puoi richiedere di eseguire la retrocompilazione dei dati in un set di dati. Ad esempio, puoi richiedere di eseguire la retrocompilazione degli ultimi 7 giorni di dati. Configura il set di dati correttamente e verifica la connessione. Se tutto sembra a posto, puoi eseguire facilmente il backfill di tutti i dati rimanenti.<p>Inoltre, puoi abilitare l’importazione di nuovi dati per set di dati. |
    | **[!UICONTROL Backfill status]** | Questo stato indica se vengono elaborati dati di retrocompilazione. |
 
-   {style="table-layout:auto"}
 
 ## Aggiungere e configurare i set di dati {#add-dataset}
 
@@ -501,7 +500,9 @@ Esistono tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTROL 
 | **[!UICONTROL Profile]** | Dati applicati a visitatori, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe “Profilo individuale XDM”. | Puoi scegliere l’ID persona da includere. Per ogni set di dati (esclusi i set di dati di riepilogo) definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona. Per esempio ID cookie, ID di unione, ID utente, Codice di tracciamento, ecc.Nota su <br>![ID persona ](assets/person-id.png)****: se crei una connessione che include set di dati con ID diversi, comparirà anche nel reporting. Per unire i set di dati è necessario utilizzare lo stesso ID persona. |
 | **Riepilogo** | Dati di serie temporali che non sono legati a un singolo ID persona. I dati di riepilogo rappresentano i dati aggregati a un diverso livello di aggregazione, ad esempio le campagne. Puoi utilizzare questi dati in Customer Journey Analytics per supportare vari casi d’uso. Per ulteriori informazioni, consulta [Dati di riepilogo](/help/data-views/summary-data.md). | Viene impostato automaticamente sul campo marca temporale predefinito dagli schemi delle metriche di riepilogo basati sull’evento in Experience Platform. È supportata solo la granularità oraria o giornaliera. | Qualsiasi schema predefinito o personalizzato basato sulla classe “Metriche di riepilogo XDM”. | N/D |
 
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>Blog: [Come sfruttare i set di dati di eventi, ricerche e profili in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ## Utilizzo di campi numerici come chiavi e valori di ricerca {#numeric}
 

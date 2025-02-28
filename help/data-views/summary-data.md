@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1140'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ I dati clickstream nel sito contengono i seguenti eventi.
 
 ### Dati combinati
 
-Come spiegato in [Set di dati evento combinato](/help/connections/combined-dataset.md), durante la definizione di una connessione, Customer Journey Analytics crea un set di dati evento combinato complessivo. Quando configuri la visualizzazione dati per le dimensioni provenienti da un set di dati di riepilogo, sono disponibili opzioni per raggruppare e nascondere le dimensioni in preparazione al reporting in Workspace. In particolare per i dati di riepilogo, i dati di riepilogo vengono combinati con i dati evento, in base alla configurazione del [componente gruppo di dati di riepilogo](component-settings/summary-data-group.md).
+Come spiegato in [Set di dati evento combinato](/help/connections/combined-dataset.md), quando si definisce una connessione, Customer Journey Analytics crea un set di dati evento combinato complessivo. Quando configuri la visualizzazione dati per le dimensioni provenienti da un set di dati di riepilogo, sono disponibili opzioni per raggruppare e nascondere le dimensioni in preparazione al reporting in Workspace. In particolare per i dati di riepilogo, i dati di riepilogo vengono combinati con i dati evento, in base alla configurazione del [componente gruppo di dati di riepilogo](component-settings/summary-data-group.md).
 
 | Codice di tracciamento | Codice campagna | Impressioni | Costo | Click-through | Ricavi |
 |---|---|--:|--:|--:|--:|
@@ -84,7 +84,7 @@ Se desideri creare un rapporto utilizzando una dimensione definita in un set di 
 1. Aggiungi il campo derivato appena creato come componente dimensione alla visualizzazione dati.
 1. Configura il componente dimensione nome campagna (dal set di dati di ricerca) in modo che abbia un raggruppamento di dati di riepilogo con il campo derivato appena creato.
 
-Consulta il caso d&#39;uso [Acquisire e generare rapporti sui dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un articolo dettagliato su come utilizzare, creare rapporti e analizzare i dati di riepilogo nel Customer Journey Analytics.
+Consulta il caso d&#39;uso [Acquisire e generare rapporti sui dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un articolo dettagliato su come utilizzare, creare rapporti e analizzare i dati di riepilogo in Customer Journey Analytics.
 
 
 ## Prerequisiti
@@ -103,8 +103,8 @@ Non è possibile combinare e abbinare la granularità oraria e giornaliera dei d
 
 Il fuso orario dei dati di riepilogo è definito a livello di schema di riepilogo in Experience Platform. Il fuso orario si applica solo ai dati granulari orari.
 
-- Per la granularità giornaliera, l’Experience Platform assume valori UTC, a meno che la marca temporale non includa uno scostamento di fuso orario. Quando si aggiunge il set di dati di riepilogo contenente i dati di riepilogo giornalieri, Customer Journey Analytics ignora la definizione del fuso orario impostata nello schema e rispetta il giorno associato alla marca temporale dai dati nel set di dati.
-- Per la granularità oraria, il Customer Journey Analytics rispetta il fuso orario configurato nello schema dei dati di riepilogo nell’Experience Platform durante l’interpretazione della marca temporale. La tabella seguente fornisce alcuni esempi di tale interpretazione.
+- Per la granularità giornaliera, Experience Platform assume valori UTC, a meno che la marca temporale non includa uno scostamento di fuso orario. Quando si aggiunge il set di dati di riepilogo contenente i dati di riepilogo giornalieri, Customer Journey Analytics ignora la definizione del fuso orario impostata nello schema e rispetta il giorno associato alla marca temporale dai dati nel set di dati.
+- Per la granularità oraria, Customer Journey Analytics rispetta il fuso orario configurato nello schema dei dati di riepilogo in Experience Platform durante l’interpretazione della marca temporale. La tabella seguente fornisce alcuni esempi di tale interpretazione.
 
   | Timestamp <br/> dati di origine | Schema fuso orario <br/> | Timestamp<br/>Experience<br/>Platform | Dati<br/> fuso orario<br/>visualizzazione | Timestamp<br/>Cliente<br/>Percorso<br>Analytics |
   |---|---|---|:---|---|
@@ -142,15 +142,17 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 | Variabile | Valore |
 |---|---|
-| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Per ulteriori informazioni su come specificare i valori per queste variabili, vedere [Autenticare e accedere alle API Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication). |
+| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Per ulteriori informazioni su come specificare i valori per queste variabili, vedere [Autenticazione e accesso alle API di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication). |
 | `$SCHEMA_ID` | Puoi trovare l’ID dello schema nell’interfaccia utente di Experience Platform. Seleziona lo schema di riepilogo dall&#39;elenco degli schemi e individua **[!UICONTROL API Usage]** > **[!UICONTROL Schema ID]** nel pannello di destra. Utilizza tale ID come valore. |
 | `$GRANULARITY` | Specificare `hour` o `day` come valore. |
-| `$TIMEZONE` | Specificare il valore dell&#39;identificatore del fuso orario corretto dalla colonna dell&#39;identificatore TZ nell&#39;[Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Esempio: `America/Los_Angeles`. |
+| `$TIMEZONE` | Specificare il valore dell&#39;identificatore del fuso orario corretto dalla colonna dell&#39;identificatore TZ nell&#39;[Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Ad esempio: `America/Los_Angeles`. |
 
-## Impostazioni del componente
+## Impostazioni dei componenti
 
 Assicurati che le impostazioni dei componenti per un gruppo di dati di riepilogo siano le stesse. Per ulteriori dettagli, vedere [Impostazioni dei componenti del gruppo di dati di riepilogo](component-settings/summary-data-group.md#same-component-settings).
 
 >[!MORELIKETHIS]
 >
->Consulta l&#39;articolo [Dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d&#39;uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
+>- Consulta l&#39;articolo [Dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d&#39;uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
+>- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+
