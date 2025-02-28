@@ -4,14 +4,20 @@ title: Come configurare una visualizzazione di flusso
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1339'
 ht-degree: 35%
 
 ---
 
-# Configurare una visualizzazione del flusso
+# Configurare una visualizzazione del flusso {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Contenitore Flusso"
+>abstract="Seleziona il contenitore da utilizzare per visualizzare (i numeri per) il percorso."
+
 
 Le visualizzazioni Flusso consentono di comprendere il percorso che ha origine da un evento di conversione specifico sul sito web o sull’app. Oppure che porta a un evento di conversione specifico. La visualizzazione traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche.
 
@@ -19,7 +25,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
 
 ![La schermata di configurazione del flusso che mostra i campi Inizia con, Contiene e Termina con.](assets/new-flow.png)
 
-## Seleziona
+## Utilizzo
 
 1. Aggiungi una visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
@@ -39,7 +45,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    >
    >Impossibile utilizzare le metriche calcolate nei campi **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
 
-1. Se scegli una metrica, devi anche fornire un [!UICONTROL **Dimension di percorsi**] da utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato di seguito. Il valore predefinito è [!UICONTROL **Pagina**].
+1. Se scegli una metrica, devi anche fornire un [!UICONTROL **percorso Dimension**] da utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato di seguito. Il valore predefinito è [!UICONTROL **Pagina**].
 
    ![Configurazione del flusso](assets/flow-configure.png)
 

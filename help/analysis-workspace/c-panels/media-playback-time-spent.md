@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Media Playback time spes
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 56%
+source-wordcount: '1061'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Analizza il consumo video nel tempo, seleziona varie granularità, suddividi e confronta.<br/><br/>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco del tempo di riproduzione trascorso. Il valore minimo mostra i dettagli del punto inferiore. Somma mostra i dettagli della somma totale del tempo di riproduzione trascorso.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per la visualizzazione del formato ora, in ore o minuti."
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, suddividi e confronta utilizzando filtri, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +41,7 @@ _Questo articolo documenta il pannello Tempo di riproduzione dei contenuti multi
 
 >[!NOTE]
 >
->Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato per il Customer Journey Analytics il componente aggiuntivo Streaming Media Collection.
+>Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Customer Journey Analytics.
 >Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 

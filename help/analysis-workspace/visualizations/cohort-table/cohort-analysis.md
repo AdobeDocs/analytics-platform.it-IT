@@ -4,10 +4,10 @@ description: Scopri come utilizzare una tabella coorte per l’analisi per coort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 32%
+source-wordcount: '671'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabella coorte"
->abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizza il coinvolgimento continuo e l’abbandono nel tempo.<br/><br/>**Parametri **<br/>**Criteri di inclusione**: i componenti utilizzati per definire le coorti di visitatori iniziali.<br/>**Criteri di ritorno**: i componenti utilizzati per determinare se un visitatore è tornato."
+>abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizza il loro coinvolgimento continuo e l’abbandono nel tempo. Specifica impostazioni aggiuntive come granularità, tipo di analisi per coorte e se utilizzare o meno il calcolo continuo. Puoi impostare opzioni avanzate per creare una tabella di latenza o una coorte di dimensioni personalizzata in base a una dimensione selezionata."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 >
 >[!UICONTROL Cohort Analysis] non supporta metriche non filtrabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
 
-Le tabelle coorte nel Customer Journey Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore Source di Analytics sono doppie.
+Le tabelle coorte in Customer Journey Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore Source di Analytics sono doppie.
 
 ## Funzionalità della tabella coorte
 

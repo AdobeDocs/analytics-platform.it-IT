@@ -4,14 +4,15 @@ title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 39%
+source-wordcount: '694'
+ht-degree: 38%
 
 ---
 
-# Configurare una visualizzazione dell’abbandono
+# Configurare una visualizzazione dell’abbandono {#configure-fallout-visualization}
+
 
 Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
@@ -21,7 +22,7 @@ Non esiste alcun limite al numero di passaggi che è possibile aggiungere o al n
 
 Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad esempio, supponiamo che qualcuno stia guardando &quot;scarpe, camicie&quot; su una pagina e che nella pagina successiva guardi &quot;camicie, calze&quot;. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
-## Seleziona
+## Utilizzo
 
 1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
@@ -54,7 +55,12 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad e
    | **[!UICONTROL Next event]** | re conteggiato che arriverà alla pagina successiva nel percorso al prossimo evento. |
 
 
-## Impostazioni
+## Impostazioni {#settings}
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_container"
+>title="Contenitore Abbandono"
+>abstract="Seleziona un contenitore per analizzare i percorsi. Questa selezione consente di comprendere il coinvolgimento e vincola l’analisi al contenitore selezionato."
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 

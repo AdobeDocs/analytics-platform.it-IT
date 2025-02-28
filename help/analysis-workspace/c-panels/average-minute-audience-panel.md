@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 30%
+source-wordcount: '1635'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Pubblico medio per minuto del file multimediale"
->abstract="Mostra le prestazioni di contenuti multimediali specifici o in un periodo di tempo personalizzato.<br/><br/>**Parametri generali **<br/>**Calcola metrica per**: seleziona la metrica da utilizzare per il pannello. Seleziona **Contenuto specifico** per analizzare il pubblico medio per minuto di un contenuto o evento specifico in base alla sua lunghezza. **Seleziona Periodo di tempo personalizzato** per analizzare il cambiamento del pubblico medio per minuto in un periodo di tempo personalizzato selezionato.<br/>**Dimensione di reporting**: seleziona questa opzione per creare rapporti in base a **Nome video** della dimensione **ID contenuto**. Disponibile solo quando hai selezionato Contenuto specifico come metrica.<br/>**Granularità**: seleziona la granularità per il reporting. Disponibile solo se hai selezionato Periodo di tempo personalizzato come metrica.<br/>**Filtra il contenuto per (facoltativo)**: seleziona uno spettacolo, una stagione, un episodio specifico oppure seleziona una dimensione personalizzata per filtrare il contenuto.<br/><br/>**Impostazioni avanzate **<br/>**Impostazioni tabella**: seleziona se visualizzare i valori di calcolo nella tabella.<br/>**Metrica tempo trascorso**: seleziona quale metrica del tempo trascorso desideri utilizzare per il calcolo del contenuto specifico. Disponibile solo quando hai selezionato Contenuto specifico come metrica."
+>abstract="Mostra le prestazioni di contenuti multimediali specifici o le prestazioni in un periodo di tempo personalizzato. Specifica la dimensione di reporting e facoltativamente filtra il contenuto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,9 +39,9 @@ _Questo articolo documenta il pannello del pubblico medio per minuto in_ ![Custo
 
 >[!NOTE]
 >
->Il pannello **[!UICONTROL Media average minute audience]** è disponibile solo per i clienti che hanno acquistato Streaming Media Collection per il Customer Journey Analytics.
+>Il pannello **[!UICONTROL Media average minute audience]** è disponibile solo per i clienti che hanno acquistato Streaming Media Collection per Customer Journey Analytics.
 >
->Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>Per ulteriori informazioni, contatta il rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 In Analysis Workspace, il pubblico medio per minuto può fornire informazioni su

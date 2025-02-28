@@ -5,10 +5,10 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 90%
+source-wordcount: '319'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Comportamento"
->abstract="Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati.<br/><br/>**Parametri **<br/>**Minuscolo**: consente di specificare se i valori stringa nel campo devono essere minuscoli."
+>abstract="Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati. Specifica se i valori stringa nel campo devono essere minuscoli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 >[!NOTE]
 >
->Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, il Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori maiuscoli precedono i valori minuscoli). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
+>Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori maiuscoli precedono i valori minuscoli). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
 
 ![Dimensione sensibile a maiuscole e minuscole](../assets/case-sens-workspace.png)
 

@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 47%
+source-wordcount: '1129'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="Visualizzatori simultanei di contenuti multimediali"
->abstract="Crea un pannello per analizzare il pubblico medio per minuto di un contenuto specifico o in un periodo di tempo specifico."
+>abstract="Crea un pannello per analizzare i visualizzatori simultanei in un determinato periodo di tempo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di contenuti multimediali"
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o suddividi e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo in base al quale osservare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Suddivisione serie (facoltativo)**: puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza e, facoltativamente, suddividi e confronta utilizzando filtri, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,9 +41,9 @@ _Questo articolo documenta il pannello Visualizzatori simultanei di contenuti mu
 
 >[!NOTE]
 >
->Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato per il Customer Journey Analytics il componente aggiuntivo Streaming Media Collection.
+>Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Customer Journey Analytics.
 >
->Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>Per ulteriori informazioni, contatta il rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media concurrent viewers]** consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.

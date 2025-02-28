@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 48%
+source-wordcount: '649'
+ht-degree: 39%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribuzione"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione"
+>abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando metrica di successo, canale e intervallo di lookback."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Pannello Attribution"
->abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione a cui attribuire. Questa dimensione può essere un canale di marketing, una campagna o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
+>abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione per una metrica di successo. Seleziona il canale (dimensione), i modelli da includere e l’intervallo di lookback."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->

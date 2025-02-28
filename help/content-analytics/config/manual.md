@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,42 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Questo articolo descrive le azioni di configurazione manuali che potrebbero essere necessarie per apportare modifiche all’implementazione di Content Analytics. In generale, è consigliabile utilizzare la [procedura guidata di configurazione](guided.md) per apportare modifiche all&#39;implementazione, ma non tutte le modifiche possono essere apportate utilizzando tale procedura guidata.
+Questo articolo descrive le azioni manuali necessarie per attivare o disattivare una configurazione di Content Analytics o per modificare l’implementazione di Content Analytics.
 
 Sono disponibili le seguenti azioni di configurazione manuali:
 
-## Pubblica
+## Attiva
 
-Per attivare una configurazione di Content Analytics, devi [pubblicare](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} la proprietà Tag associata. Solo quando pubblichi la proprietà Tag di analisi del contenuto, i dati di analisi del contenuto vengono raccolti per i domini, l’esperienza e le risorse configurati
+Per attivare una nuova configurazione o le modifiche apportate a una configurazione esistente, è necessario [pubblicare](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} la proprietà Tag associata. Solo quando pubblichi la proprietà Tag di analisi del contenuto, i dati di analisi del contenuto vengono raccolti per i domini, l’esperienza e le risorse configurati.
+
+
+## Disattiva
+
+Per disattivare la raccolta dei dati di analisi del contenuto, [annulla la pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} della proprietà Tag associata per la configurazione di Analisi del contenuto.
+
 
 
 ## Modifica
+
+In generale, è necessario utilizzare la [procedura guidata di configurazione](guided.md) per apportare modifiche all&#39;implementazione.
+
+In alternativa, puoi utilizzare l’estensione Adobe Content Analytics nella proprietà Tag associata alla configurazione di Content Analytics per apportare modifiche ai seguenti artefatti:
+
+* [Sandbox e flusso di dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
+
+  >[!CAUTION]
+  >
+  >È necessario verificare che la sandbox e lo stream di dati configurati nell&#39;estensione Adobe Content Analytics siano già configurati per Content Analytics utilizzando la [configurazione guidata](guided.md) in una fase precedente. Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>È inoltre necessario verificare che gli aggiornamenti per sandbox o flussi di dati non interferiscano con un&#39;altra configurazione di Content Analytics configurata per utilizzare gli stessi flussi di dati sandbox o.
+  >
+
+* [Filtro eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}.
+
+  Puoi modificare le espressioni regolari per modificare il modo in cui filtri pagine e risorse.
+
+
+Dopo aver apportato modifiche nell&#39;estensione Adobe Content Analytics, assicurati di [attivare](#activate) le modifiche.
+
+
 
 >[!MORELIKETHIS]
 >
