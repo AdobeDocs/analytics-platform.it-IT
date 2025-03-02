@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
+source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 2%
+source-wordcount: '460'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,19 @@ Questa trasformazione è disponibile solo per i set di dati con dati per schemi 
 >
 >Per ogni ID è previsto un limite massimo di 10.000 elementi. Questo limite implica che per ogni ID persona dato puoi avere solo 10.000 account, o 10.000 opportunità, o 10.000 elenchi di marketing, o 10.000 campagne.
 
+>[!PREREQUISITES]
+>
+>Per il corretto funzionamento dell’acquisizione, è necessario verificare che i set di dati di ricerca B2B includano dati compilati per i seguenti campi (come definiti negli schemi di ricerca B2B):
+>
+>| Set di dati contenente dati conformi allo schema | Campo popolato con dati |
+>|---|---|
+>| Relazione della persona dell’account aziendale XDM | `accountPersonID` |
+>| Persona dell’opportunità di business XDM | `opportunityPersonID` |
+>| Elenco di marketing aziendale XDM | `marketingListMemberID` |
+>| Membri della campagna aziendale XDM | `campaign.sourceKey` |
+>
 
-Per abilitare la trasformazione per un set di dati di questo tipo:
+Per abilitare la trasformazione per un set di dati di ricerca B2B:
 
 ![Abilita set di dati di trasformazione](/help/connections/assets/transform.gif)
 
