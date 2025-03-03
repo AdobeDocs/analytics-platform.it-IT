@@ -4,7 +4,7 @@ title: Strategia di rilascio delle funzionalità di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
