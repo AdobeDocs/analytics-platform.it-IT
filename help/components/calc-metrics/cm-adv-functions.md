@@ -4,10 +4,10 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
+source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 60%
+source-wordcount: '4267'
+ht-degree: 59%
 
 ---
 
@@ -418,8 +418,8 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La metrica da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
@@ -557,8 +557,8 @@ L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La metrica di base da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
@@ -582,8 +582,8 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X |  |
-| metric_Y |  |
+| metric_X | La metrica di base da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
@@ -695,8 +695,8 @@ L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La metrica da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
@@ -720,8 +720,8 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La metrica da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
@@ -1019,8 +1019,8 @@ Non uguale. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | La metrica da utilizzare per il confronto. |
+| metric_Y | La metrica da utilizzare per il confronto. |
 
 ### Esempio
 
