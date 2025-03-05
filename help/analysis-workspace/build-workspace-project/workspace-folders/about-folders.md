@@ -5,9 +5,9 @@ title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -49,12 +49,7 @@ Non-Admins have limited options.
 Di seguito sono riportate alcune linee guida per l’utilizzo della cartella aziendale:
 
 - Gli amministratori possono aggiungere i progetti alla cartella aziendale oppure creare un nuovo progetto e salvarlo nella cartella aziendale. Gli utenti che non sono amministratori possono visualizzare il contenuto della cartella aziendale.
-
 - Gli amministratori possono creare sottocartelle all’interno della cartella aziendale.
-
 - Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza dell’accesso alle cartelle e ai progetti.
-
 - Quando un amministratore sposta un progetto nella cartella aziendale, il progetto viene condiviso con tutti, anche se i privilegi di condivisione originali erano limitati.
-- Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
-
 - Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
