@@ -1,20 +1,20 @@
 ---
-title: Usa dati di riepilogo nel Customer Journey Analytics
-description: Caso d’uso che illustra tutti i dettagli su come inserire dati di riepilogo nel Customer Journey Analytics
+title: Utilizzare i dati di riepilogo in Customer Journey Analytics
+description: Caso d’uso che illustra tutti i dettagli su come inserire dati di riepilogo in Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '4610'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Utilizzare i dati di riepilogo
 
-Questo caso d’uso ti aiuta a comprendere come utilizzare i dati di riepilogo nelle attività di reporting e analisi. Il caso d’uso descrive tutti i passaggi necessari per utilizzare i dati di riepilogo nel Customer Journey Analytics:
+Questo caso d’uso ti aiuta a comprendere come utilizzare i dati di riepilogo nelle attività di reporting e analisi. Il caso d’uso descrive tutti i passaggi necessari per utilizzare i dati di riepilogo in Customer Journey Analytics:
 
 - [Acquisire](#ingest) dati di riepilogo e altre origini dati in Experience Platform.
 - Configura la [connessione](#connection) per i dati di riepilogo e altre origini dati.
@@ -25,7 +25,7 @@ Il caso d’uso fornisce dati di esempio per dati di riepilogo, dati evento e da
 
 ## Acquisisci
 
-Per questo caso d’uso vengono utilizzati i seguenti dati di riepilogo di esempio, che mostrano i dati di riepilogo per l’esecuzione di campagne su Facebook.
+Per questo caso d’uso utilizzi i seguenti dati di riepilogo di esempio, che mostrano i dati di riepilogo per l’esecuzione di campagne su Facebook.
 
 +++Dati di riepilogo
 
@@ -54,12 +54,12 @@ Per questo caso d’uso vengono utilizzati i seguenti dati di riepilogo di esemp
 
 +++
 
-Per utilizzare i dati di riepilogo nel Customer Journey Analytics, in un rapporto o come parte dell’analisi dei dati in Workspace, è necessario
+Per utilizzare i dati di riepilogo in Customer Journey Analytics, in un rapporto o come parte dell’analisi dei dati in Workspace, è necessario
 
 - uno schema di riepilogo in Experience Platform,
 - un set di dati di riepilogo in Experience Platform,
-- una connessione nel Customer Journey Analytics configurata per utilizzare il set di dati di riepilogo,
-- una visualizzazione dati nel Customer Journey Analytics, configurata correttamente con metriche e dimensioni per i dati di riepilogo.
+- una connessione in Customer Journey Analytics configurata per utilizzare il set di dati di riepilogo,
+- una visualizzazione dati in Customer Journey Analytics, configurata correttamente con metriche e dimensioni per i dati di riepilogo.
 
 Questi dati di riepilogo vengono utilizzati insieme a un set di dati per dati evento e a un set di dati per dati di ricerca.
 
@@ -383,7 +383,7 @@ In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]**, 
 
 ## Connessione
 
-Per utilizzare i dati di esempio in Customer Journey Analytics, è necessario creare una connessione che includa il set di dati di riepilogo di esempio di Experience Platform.
+Per utilizzare i dati di esempio in Customer Journey Analytics, crea una connessione che include il set di dati di riepilogo di esempio da Experience Platform.
 
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
@@ -423,9 +423,9 @@ Per utilizzare i dati di esempio in Customer Journey Analytics, è necessario cr
 
 1. Nella schermata di connessione **[!UICONTROL Connections]** > **[!UICONTROL Example Connection using Summary Data]**, selezionare **[!UICONTROL Save]** per salvare la connessione.
 
-I dati dei set di dati vengono aggiunti al Customer Journey Analytics, che può richiedere un paio d’ore. Quindi, per favore, attendi prima di continuare.
+I dati dei set di dati vengono aggiunti a Customer Journey Analytics, che può richiedere un paio d’ore. Quindi, per favore, attendi prima di continuare.
 
-Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente nel Customer Journey Analytics.
+Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente in Customer Journey Analytics.
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
 1. Seleziona **[!UICONTROL Connections]** dal menu principale.
@@ -434,7 +434,7 @@ Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente 
    1. Selezionare ![Calendario](/help/assets/icons/Calendar.svg), quindi **[!UICONTROL Last 7 days]**.
    1. Seleziona **[!UICONTROL Apply]**.
 
-Nell&#39;elenco di **[!UICONTROL Datasets]**, i valori nella colonna **[!UICONTROL Records added]** devono confermare che i dati dei set di dati fanno ora parte del Customer Journey Analytics.
+Nell&#39;elenco di **[!UICONTROL Datasets]**, i valori nella colonna **[!UICONTROL Records added]** devono confermare che i dati dei set di dati fanno ora parte di Customer Journey Analytics.
 
 ![Esempio di connessione per i dati di riepilogo](../assets/example-connection-summary-data.png)
 
@@ -447,12 +447,12 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 1. Seleziona **[!UICONTROL Create new data view]**.
 1. In **[!UICONTROL Data views]**, passare attraverso le schermate della procedura guidata per configurare la visualizzazione dati.
    1. Nel passaggio **[!UICONTROL Configure]** di **[!UICONTROL Data views]**:
-      1. Seleziona la connessione da **[!UICONTROL Settings]** | **[!UICONTROL Connection]**. Esempio: **[!UICONTROL Example Connection Using Summary Data]**.
+      1. Seleziona la connessione da **[!UICONTROL Settings]** | **[!UICONTROL Connection]**. Ad esempio: **[!UICONTROL Example Connection Using Summary Data]**.
       1. Immetti **[!UICONTROL Name]** per la visualizzazione dati, ad esempio `Example Data View Using Summary Data`.
       1. Lascia tutte le altre impostazioni.
       1. Seleziona **[!UICONTROL Save and continue]**.
    1. Nel passaggio **[!UICONTROL Components]** di **[!UICONTROL Data views]** > **[!UICONTROL Example Data View Using Summary Data]**:
-      1. Aggiungi i seguenti componenti all’elenco Dimension e metriche. Tieni presente che, per maggiore chiarezza, i nomi dei componenti vengono modificati dal loro nome predefinito, utilizzando **[!UICONTROL Component name]** in **[!UICONTROL Component settings]** nel pannello dei componenti (a destra).
+      1. Aggiungi i seguenti componenti all’elenco Dimensioni e metriche. Tieni presente che, per maggiore chiarezza, i nomi dei componenti vengono modificati dal loro nome predefinito, utilizzando **[!UICONTROL Component name]** in **[!UICONTROL Component settings]** nel pannello dei componenti (a destra).
 
          **Metriche**
 
@@ -469,7 +469,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
          |---|---|---|---|
          | Gruppo di annunci (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.ad_group |
          | Gruppo di annunci (riepilogo) | Esempio di set di dati di riepilogo | Stringa | *_tenant*.ad_group |
-         | ID campagna | Esplora set di dati di riepilogo | Stringa | *_tenant*.campaign_id |
+         | ID campagna | Esempio di set di dati di riepilogo | Stringa | *_tenant*.campaign_id |
          | Nome campagna (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.campaign_name |
          | Nome campagna (riepilogo) | Esempio di set di dati di riepilogo | Stringa | *_tenant*.campaign_name |
          | Rete | Esempio di set di dati di riepilogo | Stringa | *_tenant*.network |
@@ -550,13 +550,13 @@ Per creare un rapporto sui dati di riepilogo, crea un nuovo progetto in Analysis
 Viene visualizzata un&#39;area di lavoro vuota con un pannello [!UICONTROL Freeform], costituita da un [!UICONTROL Freeform table] vuoto.
 
 1. Assicurati che la visualizzazione dati, selezionata per il pannello, faccia riferimento alla visualizzazione dati contenente la configurazione dei dati di riepilogo. Ad esempio: **[!UICONTROL Example Data View Using Summary Data.]**
-1. Assicurati che l’intervallo di date sia valido per i dati sui quali desideri creare rapporti. Esempio: **[!UICONTROL Last 2 full months]**.
+1. Assicurati che l’intervallo di date sia valido per i dati sui quali desideri creare rapporti. Ad esempio: **[!UICONTROL Last 2 full months]**.
 1. Trascinare **[!UICONTROL Tracking Code (Event)]** da **[!UICONTROL Dimensions]** e rilasciare la dimensione nella tabella a forma libera vuota.
 1. Trascinare **[!UICONTROL Orders]** da **[!UICONTROL Metrics]** e rilasciare la metrica nella colonna **[!UICONTROL Events]** per sostituire tale colonna nella tabella a forma libera.
 1. Trascina **[!UICONTROL Revenue]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
 1. Trascina **[!UICONTROL Impressions (Summary)]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
 1. Trascina **[!UICONTROL Cost (Summary)]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Per salvare il progetto, selezionare **[!UICONTROL Project]** > **[!UICONTROL Save]** e specificare un nome per il progetto. Esempio: `Example Project Using Summary Data`.
+1. Per salvare il progetto, selezionare **[!UICONTROL Project]** > **[!UICONTROL Save]** e specificare un nome per il progetto. Ad esempio: `Example Project Using Summary Data`.
 
 Desideri utilizzare la potenza della generazione rapporti sui dati di riepilogo e rapporti sul costo per impression e sul ritorno sulla spesa pubblicitaria (ROAS). Per generare rapporti su queste metriche, devi creare due metriche calcolate.
 
