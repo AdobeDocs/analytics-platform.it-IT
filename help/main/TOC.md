@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 87b2927735834d253fa8a35ba106c1ed720a4ced
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 92%
+source-wordcount: '1193'
+ht-degree: 91%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 92%
          + [Creare un set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [Creare set di dati di ricerca per le classificazioni](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [Monitorare l’acquisizione del set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + Crea tag {#create-tags}
+      + Implementare il Web SDK con i tag {#create-tags}
          + [Creare un tag per la proprietà](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [Aggiungere l’estensione Web SDK al tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [Implementare il tag loader per l’estensione Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
          + [Aggiungere la logica di raccolta dati XDM al tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
-      + [Implementazione manuale del Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
-      + [Implementare il Web SDK con l’API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
+      + [Implementare il Web SDK manualmente](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
+      + [Implementare Web SDK con l’API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
       + [Creare una connessione](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Creare una visualizzazione dati](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Creare un campo derivato da un canale di marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
@@ -88,6 +88,8 @@ ht-degree: 92%
          + [Informazioni sull’implementazione di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
          + [Supporto delle funzioni di Adobe Analytics durante l’aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
          + [Funzioni di Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
+         + [Opzioni di implementazione di Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
+         + [Configurazione di Adobe Analytics Web SDK per Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
    + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
       + [Utilizzare i dati di Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)

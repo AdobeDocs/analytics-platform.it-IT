@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 14%
+source-wordcount: '1067'
+ht-degree: 12%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 14%
 >id="cja-upgrade-keep-aa"
 >title="Mantenere entrambi i prodotti di analisi"
 >abstract="(Non consigliato) Se selezioni questa opzione, il contratto con Adobe includerà sia Adobe Analytics che Customer Journey Analytics e, a lungo termine, questa scelta potrà risultare più costosa per l’organizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-source-connector"
+>title="Disattiva il connettore di origine di Analytics per utilizzare i dati esclusivamente dal Web SDK"
+>abstract="Il connettore di origine di Analytics viene utilizzato per fornire confronto dei dati affiancato, dati storici e accesso ad alcune funzioni che non sono completamente disponibili in Customer Journey Analytics. Se non hai più bisogno di Adobe Analytics per questi scopi, puoi disabilitare il connettore di origine di Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,6 +67,24 @@ Quando decidi se e quando la tua organizzazione deve disabilitare Adobe Analytic
 >id="cja-upgrade-disable-appmeasurement-third-pary"
 >title="Disattivare un sistema di gestione tag di terze parti"
 >abstract="Con i dati di Web SDK completamente funzionanti, collabora con il tuo amministratore di tag per rimuovere la libreria di AppMeasurement dal sistema di gestione di tag di terze parti.<br><br>Il tempo stimato per l’esecuzione di questo passaggio dipende dalla semplicità con cui è possibile disabilitare AppMeasurement dal prodotto di gestione dei tag, nonché dal ciclo di rilascio utilizzato dall’organizzazione per distribuire e gestire il codice dei tag."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-tags"
+>title="Disattivare l’estensione Analytics nei tag"
+>abstract="Con i dati di Web SDK completamente funzionanti, rivolgiti all’amministratore dei tag per rimuovere l’estensione Adobe Analytics dalla proprietà tag. Prima di eseguire questa operazione, assicurati che gli utenti siano passati dall’utilizzo di Adobe Analytics a Customer Journey Analytics."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-api"
+>title="Disattiva la raccolta dati API per Adobe Analytics"
+>abstract="Con i dati di Web SDK completamente funzionanti, collabora con il team di progettazione applicabile per rimuovere il codice Adobe Analytics dal progetto. Prima di eseguire questa operazione, assicurati che gli utenti siano passati dall’utilizzo di Adobe Analytics a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 16%
+source-wordcount: '132'
+ht-degree: 21%
 
 ---
 
@@ -20,40 +20,48 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="Utilizzare l’oggetto di personalizzazione per Adobe Journey Optimizer"
->abstract="Utilizza l’oggetto di personalizzazione da usare con Adobe Journey Optimizer nella tua implementazione."
+>abstract="Sfruttando le tecnologie all’avanguardia nell’apprendimento automatico supervisionato e nell’apprendimento profondo, l’ottimizzazione personalizzata consente a un utente aziendale (addetto al marketing) di definire gli obiettivi aziendali e utilizza i dati dei suoi clienti per addestrare modelli orientati al business che offrano offerte personalizzate e massimizzino i KPI."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-Il risultato dell’oggetto di personalizzazione finisce in un set di dati. Il risultato della sperimentazione. Quando un cliente ha utilizzato AA con Target, questo finisce in uno spazio completamente diverso rispetto a quando sta eseguendo la migrazione a CJA e utilizzerà CJA con Adobe Target.
+Sfruttando le tecnologie all’avanguardia nell’apprendimento automatico supervisionato e nell’apprendimento profondo, l’ottimizzazione personalizzata consente a un utente aziendale (addetto al marketing) di definire gli obiettivi aziendali e utilizza i dati dei suoi clienti per addestrare modelli orientati al business che offrano offerte personalizzate e massimizzino i KPI.
 
-Target era il vecchio modo di impostare un test A/B o una sperimentazione. Poi, verificare i risultati di tali test in Target è finito in AA per la generazione di rapporti. Ora, se utilizzi Target, invece di dire che desideri i dati in Target, puoi selezionare CJA come origine per la generazione di rapporti per un’attività di Adobe Target. Quindi, se un cliente esegue questa operazione in AA e desidera passare a CJA, ...
+Per ulteriori informazioni, vedere [Modello di ottimizzazione personalizzato](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) nella Guida di Journey Optimizer.
 
-Se un cliente dispone di AJO e utilizza Offerte in AJO, può impostare offerte e creare anche set di dati in Platform... Ma non è esattamente rilevante con l&#39;aggiornamento.
+<!--
 
+The result of the personalization object ends up in a dataset. The result of experimentation. When a customer has used AA with Target, that ends up in a complete different space than when they're migrating to CJA and they're going to use CJA with Adobe Target. 
 
+Target was the old way of setting up an A/B test or experimentation. Then ensuring the results of those tests in Target ended up in AA for reporting. Now if you're using Target, instead of saying that you want the data in Target, you can now select CJA as your reporting source for an Adobe Target activity. So if a customer is doing this in AA and they want to move to CJA, ...
 
-Domande alle quali dobbiamo rispondere:
-
-1. Come si determinano i criteri di personalizzazione (rosso per l’utente A e blu per l’utente B)
-
-1. Cosa implementiamo sul sito per determinare l&#39;oggetto rosso / blu?
-
-
-2 modi per farlo:
-
-Rendering manuale del contenuto o rendering automatico del contenuto.
-
-
-## Implementazione manuale del Web SDK
-
-
-## Implementazione di Mobile SDK
+If a customer has AJO, and is using Offers in AJO, then they can set up offers, and that also creates datasets in Platform... But that's not relevant with upgrade, exactly.
 
 
 
+Questions we need to answer:
+
+1. How do we determine the personalization criteria (Red for user A and blue for User B)
+
+1. What do we implement on the site to determine the red / blue object?
 
 
-## Tag
+2 ways we can do it:
+
+Manually rendering content or Automatically rendering content. 
+
+
+## Manual implementation of the Web SDK
+
+
+## Mobile SDK implementation 
+
+
+
+
+
+## Tags
+
+-->
 

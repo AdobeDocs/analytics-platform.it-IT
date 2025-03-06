@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 1ac7059e76797b14c00993a2a46aa51b1ebfe6a2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 43%
+source-wordcount: '349'
+ht-degree: 32%
 
 ---
 
@@ -39,6 +39,24 @@ ht-degree: 43%
 >id="cja-upgrade-websdk-api"
 >title="Pacchetto NPM"
 >abstract="Utilizza l’API di raccolta dati per inviare i dati direttamente a uno stream di dati. Sono supportati sia i tipi non autenticati (da client a server) che autenticati (da server a server)."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-no-selection"
+>title="Implementare il Web SDK per la proprietà specificata"
+>abstract="Per istruzioni più dettagliate, seleziona il tipo di implementazione desiderato nel questionario."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-third-party"
+>title="Aggiungere la libreria Web SDK al sistema di gestione dei tag di terze parti"
+>abstract="Per aggiungere la libreria Web SDK al sito, rivolgiti all’amministratore del sistema di gestione dei tag.<br><br>Il tempo di completamento di questa attività dipende in larga misura dalla capacità di risposta del singolo responsabile del sistema di gestione dei tag. L’aggiunta della libreria Web SDK potrebbe essere inclusa nella logica di implementazione associata e distribuita durante i cicli di rilascio standard dell’organizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
