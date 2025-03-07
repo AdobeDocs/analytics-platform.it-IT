@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 71%
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ Nel Data Block Manager (Gestore dei blocchi di dati) sono elencati tutti i blocc
 
 ## Ordinare l’elenco di blocchi di dati
 
-Puoi ordinare l’elenco di blocchi di dati in base a una colonna visualizzata. Ad esempio, puoi ordinare l’elenco Bloccati di dati per visualizzazioni dati, Filtri, Intervallo date e altre variabili.
+Puoi ordinare l’elenco di blocchi di dati in base a una colonna visualizzata. Ad esempio, puoi ordinare l’elenco Bloccati di dati per visualizzazioni dati, segmenti, intervallo di date e altre variabili.
 
 Per ordinare l’elenco di blocchi di dati, fai clic su un’intestazione di colonna.
 
@@ -46,9 +46,9 @@ Utilizza il campo di ricerca per individuare qualsiasi elemento nella tabella de
 
 ## Modificare blocchi di dati
 
-Puoi modificare la visualizzazione dati, l’intervallo di date o i filtri applicati a uno o più blocchi di dati.
+Puoi modificare la visualizzazione dati, l’intervallo di date o i segmenti applicati a uno o più blocchi di dati.
 
-Ad esempio, puoi sostituire un filtro esistente con un nuovo filtro in uno o più blocchi di dati.
+Ad esempio, puoi sostituire un segmento esistente con un nuovo segmento in uno o più blocchi di dati.
 
 1. Seleziona i blocchi di dati da aggiornare. Puoi selezionare la casella di controllo di primo livello per selezionare tutti i blocchi di dati oppure selezionare i singoli blocchi di dati.
 
@@ -58,7 +58,7 @@ Ad esempio, puoi sostituire un filtro esistente con un nuovo filtro in uno o pi�
 
    ![Finestra di modifica rapida](./assets/image58.png)
 
-1. Seleziona un collegamento di filtro per aggiornare visualizzazioni dati, intervalli di date o filtri.
+1. Seleziona un collegamento di segmento per aggiornare visualizzazioni dati, intervalli di date o segmenti.
 
    ![Il campo Aggiungi segmento nella finestra di modifica rapida](./assets/image59.png)
 
@@ -83,7 +83,7 @@ Fai clic sull’icona del cestino per eliminare un blocco di dati selezionato.
 
 ## Raggruppare blocchi di dati
 
-Puoi raggruppare i blocchi di dati utilizzando il menu a discesa **Raggruppa per** oppure fare clic sul titolo di una colonna. Per ordinare i blocchi di dati per colonna, fai clic sul titolo della colonna. Per raggruppare i blocchi di dati per gruppi, seleziona un nome di gruppo dal menu a discesa **Raggruppa per**. Ad esempio, la schermata seguente mostra i blocchi di dati raggruppati per Sheet (Foglio). I blocchi di dati sono raggruppati per Sheet1 (Foglio1) e Sheet2 (Foglio2). Questo è utile, ad esempio, nel caso di sostituzione del filtro. Se a ogni blocco di dati sono applicati più filtri, è utile creare un gruppo contenente tutti i blocchi di dati che desideri sostituire. Puoi quindi selezionarli e modificarli tutti in una sola volta.
+Puoi raggruppare i blocchi di dati utilizzando il menu a discesa **Raggruppa per** oppure fare clic sul titolo di una colonna. Per ordinare i blocchi di dati per colonna, fai clic sul titolo della colonna. Per raggruppare i blocchi di dati per gruppi, seleziona un nome di gruppo dal menu a discesa **Raggruppa per**. Ad esempio, la schermata seguente mostra i blocchi di dati raggruppati per Sheet (Foglio). I blocchi di dati sono raggruppati per Sheet1 (Foglio1) e Sheet2 (Foglio2). Ciò è utile, ad esempio, nel caso di sostituzione del segmento. Se a ciascun blocco di dati sono applicati più segmenti, è utile creare un gruppo contenente tutti i blocchi di dati che desideri sostituire. Puoi quindi selezionarli e modificarli tutti in una sola volta.
 
 ![Gestione blocchi di dati con l&#39;elenco Raggruppa per foglio.](./assets/group-data-blocks.png)
 

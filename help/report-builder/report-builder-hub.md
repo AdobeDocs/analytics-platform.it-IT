@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle se
 
 Quando selezioni uno o più blocchi di dati in un foglio di calcolo, in Report Builder viene visualizzato il pannello QUICK EDIT (MODIFICA RAPIDA). Puoi utilizzarlo per modificare i parametri in un singolo blocco di dati o per modificare i parametri in più blocchi di dati contemporaneamente.
 
-![Pannello Quick Edit (Modifica rapida) nel Report Builder](./assets/hub2.png)
+![Pannello Modifica rapida in Report Builder](./assets/hub2.png)
 
 Le modifiche apportate utilizzando le sezioni di Quick Edit (Modifica rapida) si applicano a tutti i blocchi di dati selezionati.
 
@@ -59,12 +59,12 @@ Quando modifichi la visualizzazione dati, tutti i blocchi di dati nella selezion
 
 Per modificare la visualizzazione dati, seleziona una nuova visualizzazione dati dal menu a discesa.
 
-![Hub di Report Builder che mostra il menu a discesa della visualizzazione dati.](./assets/image16.png)
+![L&#39;hub Report Builder visualizza il menu a discesa della visualizzazione dati.](./assets/image16.png)
 
 ### Intervallo date
 
 **Intervallo date** mostra l’intervallo di date per i blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più intervalli di date, il collegamento **Intervallo date** visualizza *Multiple* (Multiplo).
 
-### Filtri
+### Segmenti
 
-Il collegamento **Filtri** visualizza un elenco riepilogativo dei filtri utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più filtri applicati, il collegamento **Filtri** visualizza *Multiple* (Multipli).
+Il collegamento **Segmenti** visualizza un elenco di riepilogo dei segmenti utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più segmenti applicati, il collegamento **Segmenti** visualizza *Multipli*.
