@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 47%
+source-wordcount: '213'
+ht-degree: 50%
 
 ---
 
@@ -51,4 +51,4 @@ Per impostare il flusso di dati:
 
 1. Seleziona **[!UICONTROL Save]** (Salva).
 
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}

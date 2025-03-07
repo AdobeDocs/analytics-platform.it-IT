@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1510'
 ht-degree: 93%
 
 ---
@@ -121,4 +121,4 @@ Puoi aggiungere un set di dati di Experience Platform quando crei una connession
 
    {style="table-layout:auto"}
 
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}

@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 12%
@@ -135,3 +135,6 @@ Se non hai più bisogno di Adobe Analytics per gli scopi descritti nella sezione
    Dopo aver raccolto una quantità sufficiente di dati storici in Customer Journey Analytics con la nuova implementazione di Web SDK, puoi rimuovere completamente il connettore di origine di Analytics.
 
    Esegui questa operazione quando non hai più bisogno dei dati storici dal tuo ambiente Adobe Analytics tramite il connettore di origine di Analytics e puoi affidarti esclusivamente ai dati storici raccolti con la nuova implementazione di Web SDK.
+
+{{upgrade-final-step}}
+

@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 26%
 
 ---
 
@@ -39,17 +39,23 @@ Esamina le sezioni seguenti quando inizi a progettare lo schema XDM.
 
 L’architettura di base di Customer Journey Analytics offre molta più flessibilità rispetto ad Adobe Analytics. La creazione di un nuovo schema XDM è un modo chiave per liberare tale flessibilità. Quando esegui l’aggiornamento a Customer Journey Analytics, accertati di evitare di portare avanti nello schema restrizioni Adobe Analytics non necessarie.
 
+>[!NOTE]
+>
+>Le seguenti informazioni non sono ancora complete. Sarà completato nel prossimo futuro.
+
 | Architettura dei dati di Adobe Analytics | Architettura dello schema XDM |
 |---------|----------|
 | Le singole metriche vengono aggiunte all’architettura dei dati di Analytics.<br/>In Adobe Analytics, ad esempio, si dispone di un eVar diverso per ogni evento. | Crea singole metriche nella visualizzazione dati anziché nello schema XDM. Questa operazione offre maggiore flessibilità in se è necessario apportare modifiche in un secondo momento.<br/>In Customer Journey Analytics, ad esempio, si dispone di un singolo evento nello schema e si utilizzano gli eventi di creazione nella visualizzazione dati. |
-| Per creare variabili personalizzate sono necessarie proprietà ed eVar. | B2 |
-| A3 | B3 |
+| Per creare variabili personalizzate sono necessarie proprietà ed eVar. |  |
 
 ## Identificare il team di dati e altre parti interessate in tutta l’organizzazione
 
+>[!NOTE]
+>
+>Queste informazioni non sono ancora disponibili. Sarà disponibile a breve.
 
 ## Considera altre applicazioni Adobe Experience Platform utilizzate nell’organizzazione
 
-
-
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+>[!NOTE]
+>
+>Queste informazioni non sono ancora disponibili. Sarà disponibile a breve.

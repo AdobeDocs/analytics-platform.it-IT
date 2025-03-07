@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 55%
+source-wordcount: '207'
+ht-degree: 59%
 
 ---
 
@@ -63,4 +63,4 @@ Per creare un set di dati:
 
    Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare ed eliminare un set di dati, consulta la [guida dell&#39;interfaccia utente per i set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it). Scopri anche come abilitare un set di dati per Real-Time Customer Profile.
 
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}

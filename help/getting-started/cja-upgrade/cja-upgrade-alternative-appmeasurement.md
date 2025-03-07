@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 39%
+source-wordcount: '1302'
+ht-degree: 40%
 
 ---
 
@@ -100,7 +100,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
       Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
-   1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}.
 
 
 

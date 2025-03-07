@@ -1,22 +1,26 @@
 ---
-title: Introduzione all’aggiornamento al Customer Journey Analytics
-description: Pianifica l’aggiornamento da Adobe Analytics al Customer Journey Analytics
+title: Introduzione all’aggiornamento a Customer Journey Analytics
+description: Pianificare l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 63%
+source-wordcount: '715'
+ht-degree: 56%
 
 ---
 
-# Passaggio 1: introduzione all’aggiornamento al Customer Journey Analytics
+# Passaggio 1: introduzione all’aggiornamento a Customer Journey Analytics
+
+>[!AVAILABILITY]
+>
+>Le informazioni contenute in questa pagina verranno sostituite dalle seguenti informazioni di aggiornamento più complete: <ul><li>**Passaggi di aggiornamento consigliati**<p>Per informazioni dettagliate, vedere [Percorso consigliato durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guida all&#39;aggiornamento di Customer Journey Analytics**<p>È disponibile una nuova guida all’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la tua organizzazione e le tue circostanze specifiche.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Upgrade to Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.</p></li></ul>
 
 Customer Journey Analytics è il prodotto di analisi di nuova generazione. Consente la raccolta dati multicanale (sia online che offline), combinata con potenti funzionalità di elaborazione al momento del rapporto (tramite la definizione di componenti e campi derivati nelle visualizzazioni dati).
 
-Prima di iniziare il processo di aggiornamento da Adobe Analytics a Customer Journey Analytics, è necessario comprendere i vantaggi del Customer Journey Analytics e i passaggi necessari per il corretto aggiornamento.
+Prima di iniziare il processo di aggiornamento da Adobe Analytics a Customer Journey Analytics, è necessario comprendere i vantaggi di Customer Journey Analytics e i passaggi necessari per eseguire correttamente l’aggiornamento.
 
 ## Comprendere i vantaggi di Customer Journey Analytics
 
@@ -49,20 +53,20 @@ Di seguito sono riportati alcuni dei vantaggi principali: (per un elenco complet
 ## Comprendere il processo di aggiornamento
 
 <!-- Include a graphic of the end-to-end process, as well as links to each step of the process -->
-Le informazioni contenute in questa pagina descrivono il passaggio 1 del processo di aggiornamento, come evidenziato nella tabella seguente. Completa tutti i passaggi descritti in questa tabella per eseguire l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
+Le informazioni contenute in questa pagina descrivono il passaggio 1 del processo di aggiornamento, come evidenziato nella tabella seguente. Completa tutti i passaggi descritti in questa tabella per effettuare l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 
 | Attività di aggiornamento | Dettagli |
 |---------|----------|
-| <span class="preview">**Passaggio 1: introduzione all&#39;aggiornamento**</span> | <span class="preview">Scopri i vantaggi dell&#39;aggiornamento al Customer Journey Analytics e del processo di aggiornamento di base.</span> |
-| **Passaggio 2: [Scegliere il percorso di aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Sono disponibili diversi metodi per l&#39;aggiornamento al Customer Journey Analytics. Scegli il metodo migliore per l’organizzazione, in base all’ambiente Adobe Analytics corrente e agli obiettivi a lungo termine. |
+| <span class="preview">**Passaggio 1: introduzione all&#39;aggiornamento**</span> | <span class="preview">Scopri i vantaggi dell&#39;aggiornamento a Customer Journey Analytics e del processo di aggiornamento di base.</span> |
+| **Passaggio 2: [Scegliere il percorso di aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Sono disponibili diversi metodi per l&#39;aggiornamento a Customer Journey Analytics. Scegli il metodo migliore per l’organizzazione, in base all’ambiente Adobe Analytics corrente e agli obiettivi a lungo termine. |
 | **Passaggio 3: [Inviare dati ad Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | Il processo di invio dei dati a Adobe Experience Platform varia a seconda del percorso di aggiornamento scelto nel passaggio 2. |
 | **Passaggio 4: [Conserva i dati storici](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | La maggior parte delle organizzazioni deve conservare i dati storici di Adobe Analytics per un certo periodo di tempo. Sono disponibili varie opzioni per eseguire questa operazione. |
-| **Passaggio 5: [Esegui ulteriori attività di implementazione](/help/getting-started/cja-getting-started.md)** | A questo punto del processo di aggiornamento, è necessario eseguire varie attività prima che l&#39;ambiente del Customer Journey Analytics sia pronto per l&#39;uso.<p>Queste attività aggiuntive riguardano gli aggiornamenti da Adobe Analytics e le nuove implementazioni di Customer Journey Analytics.</p><p>Queste attività includono:</p><ul><li>Inserimento di altri dati in Experience Platform</li><li>Creazione di connessioni tra set di dati di Platform e Customer Journey Analytics</li><li>Creazione di visualizzazioni dati</li><li>Conversione dell’utilizzo dell’API di reporting</li><li>Contabilità per feed di dati e Data Warehouse</li><li>Migrazione di progetti e componenti</li><li>Pianificazione dell’onboarding degli utenti</li></ul> <p>Per ulteriori informazioni, consulta [Guida introduttiva a Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
+| **Passaggio 5: [Esegui ulteriori attività di implementazione](/help/getting-started/cja-getting-started.md)** | A questo punto del processo di aggiornamento, è necessario eseguire varie attività prima che l’ambiente Customer Journey Analytics sia pronto per l’uso.<p>Queste attività aggiuntive riguardano gli aggiornamenti da Adobe Analytics e le nuove implementazioni Customer Journey Analytics.</p><p>Queste attività includono:</p><ul><li>Inserimento di altri dati in Experience Platform</li><li>Creazione di connessioni tra set di dati di Platform e Customer Journey Analytics</li><li>Creazione di visualizzazioni dati</li><li>Conversione dell’utilizzo dell’API di reporting</li><li>Contabilità per feed di dati e Data Warehouse</li><li>Migrazione di progetti e componenti</li><li>Pianificazione dell’onboarding degli utenti</li></ul> <p>Per ulteriori informazioni, consulta [Guida introduttiva a Customer Journey Analytics](/help/getting-started/cja-getting-started.md). |
 
 {style="table-layout:auto"}
 
 ## Scegli innanzitutto il percorso di aggiornamento
 
-Sono disponibili diversi metodi per l&#39;aggiornamento al Customer Journey Analytics. [Scegli il metodo migliore per la tua organizzazione](/help/getting-started/cja-upgrade/cja-upgrade-path.md).
+Sono disponibili diversi metodi per l&#39;aggiornamento a Customer Journey Analytics. [Scegli il metodo migliore per la tua organizzazione](/help/getting-started/cja-upgrade/cja-upgrade-path.md).
 
 Il percorso di aggiornamento scelto dipende dall’ambiente Adobe Analytics corrente della tua organizzazione e dagli obiettivi a lungo termine.

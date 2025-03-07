@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 10%
+source-wordcount: '739'
+ht-degree: 11%
 
 ---
 
@@ -129,5 +129,7 @@ Per aggiungere il set di dati di ricerca alla connessione in Customer Journey An
 
 1. Utilizzando il campo **[!UICONTROL Key]** e il campo **[!UICONTROL Matching key]**, crea una correlazione tra il campo nel set di dati di ricerca e quello nel set di dati evento o di riepilogo.
 
-1. Dopo aver aggiunto alla connessione in Customer Journey Analytics tutti i set di dati di ricerca, continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+1. Ripeti questo processo fino a quando tutti i set di dati di ricerca non vengono aggiunti alla connessione in Customer Journey Analytics.
+
+{{upgrade-final-step}}
 

@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 34%
 
 ---
 
@@ -114,4 +114,4 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
    Questa opzione è necessaria solo se non è già stata eseguita durante la configurazione dell’implementazione di Web SDK.
 
-1. Continua seguendo i [passaggi di aggiornamento consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o i [passaggi di aggiornamento generati dinamicamente](https://gigazelle.github.io/cja-ttv/).
+{{upgrade-final-step}}
