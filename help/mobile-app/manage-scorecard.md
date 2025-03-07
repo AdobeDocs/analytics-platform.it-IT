@@ -5,20 +5,20 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1782'
 ht-degree: 65%
 
 ---
 
 # Gestire le scorecard
 
-Questo argomento spiega ai curatori di dati di Customer Journey Analytics come visualizzare e gestire gli elementi delle scorecard.
+Questo argomento spiega ai curatori di dati Customer Journey Analytics come visualizzare e gestire gli elementi delle scorecard.
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri nel Customer Journey Analytics.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei segmenti.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
@@ -109,7 +109,7 @@ Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e cambiare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. È possibile personalizzare sezioni e singole diapositive per aggiungere segmenti, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
 
 **Personalizzazione delle sezioni**
 

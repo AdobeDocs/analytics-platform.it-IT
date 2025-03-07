@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2617'
 ht-degree: 67%
 
 ---
@@ -36,7 +36,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una 
 
 >[!NOTE]
 >
->Le schermate delle scorecard di Analytics per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non dal Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
+>Le schermate delle scorecard di Analytics per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non da Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
 
 Una scorecard Analytics mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
 
@@ -57,7 +57,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ### Creare un nuovo progetto {#create}
 
-1. Aprire il Customer Journey Analytics e fare clic sulla scheda **[!UICONTROL Workspace]**.
+1. Aprire Customer Journey Analytics e fare clic sulla scheda **[!UICONTROL Workspace]**.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -91,13 +91,13 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 ![Nuova finestra scorecard mobile con una freccia che punta dall&#39;elenco delle dimensioni al riquadro scorecard.](assets/layer_dimensions.png)
 
-## Applicazione di filtri {#filters}
+## Applicare i segmenti {#segments}
 
-Per applicare filtri alle singole tessere, trascina un filtro (i segmenti sono filtri nel Customer Journey Analytics) dal pannello di sinistra e rilascialo direttamente sulla tessera.
+Per applicare segmenti alle singole sezioni, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla sezione.
 
-Se vuoi applicare il filtro a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i filtri selezionandoli nel menu dei filtri sotto gli intervalli di date. [configurare e applicare i filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Customer Journey Analytics Workspace.
+Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. In alternativa, puoi anche applicare i segmenti selezionandoli nel menu dei segmenti sotto gli intervalli di date. [configura e applica segmenti per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si configura in Customer Journey Analytics Workspace.
 
-![Selettore a discesa dei filtri che evidenzia i filtri di compilazione](assets/segment_ui.png)
+![Selettore a discesa dei segmenti che evidenzia i segmenti di build](assets/segment_ui.png)
 
 ## Aggiungere intervalli di date {#dates}
 
@@ -186,7 +186,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei filtri. I segmenti sono filtri nel Customer Journey Analytics.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei segmenti.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
@@ -281,7 +281,7 @@ Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e cambiare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. È possibile personalizzare sezioni e singole diapositive per aggiungere segmenti, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
 
 **Personalizzazione delle sezioni**
 

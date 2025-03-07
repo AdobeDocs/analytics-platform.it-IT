@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 75%
+source-wordcount: '691'
+ht-degree: 70%
 
 ---
 
@@ -20,14 +20,14 @@ In alcuni casi, gli utenti direzionali potrebbero aver bisogno di ulteriore assi
 
 1. Imposta i nuovi utenti in [Admin Console di Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it).
 
-1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni di accesso ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui si basano le scorecard, nonché a filtri, metriche e dimensioni.
+1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni di accesso ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui sono basate le scorecard, nonché ai segmenti, alle metriche e alle dimensioni.
 
 ## Prerequisiti di sistema per gli utenti dell’app
 
 Per garantire che gli utenti direzionali possano accedere alle scorecard nell’app, assicurati che:
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore.
-* Hanno un accesso valido al Customer Journey Analytics.
+* Abbiano un accesso valido a Customer Journey Analytics.
 * Le scorecard per dispositivi mobili a essi destinate siano state correttamente create e condivise.
 * Abbiano accesso ai Componenti che la scorecard include. Tieni presente che quando condividi le scorecard puoi selezionare l’opzione **[!UICONTROL Share embedded components]**.
 
@@ -35,21 +35,21 @@ Per garantire che gli utenti direzionali possano accedere alle scorecard nell’
 
 >[!NOTE]
 >
->Anche se l’app mobile è denominata dashboard di Adobe Analytics nell’app store, può essere utilizzata allo stesso modo delle scorecard per dispositivi mobili di Customer Journey Analytics.
+>Anche se l’app mobile è denominata dashboard di Adobe Analytics nell’app store, può essere utilizzata in egual misura con le scorecard per dispositivi mobili Customer Journey Analytics.
 
 **Per gli utenti direzionali su iOS:**
 
-Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
+Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile opp)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Per gli utenti direzionali su Android:**
 
-Fare clic sul seguente collegamento (disponibile anche nel Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
+Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali di Customer Journey Analytics esistenti; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
+Una volta scaricata e installata, gli utenti esecutivi possono accedere all’app utilizzando le loro credenziali esistenti di Customer Journey Analytics; supportiamo sia gli ID Adobe che Enterprise ID e Federated ID.
 
 ![Schermata di benvenuto dei dashboard di Adobe Analytics](assets/welcome.png)
 
@@ -74,7 +74,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
 Spiega all’utente direzionale come appaiono le sezioni nelle scorecard condivise.
 
-![Spiega le tessere, inclusi l&#39;intervallo di date, il filtro segmenti e le metriche e dimensioni selezionate](assets/newexplain.png)
+![Spiega le tessere, inclusi l&#39;intervallo di date, il segmento e le metriche e dimensioni selezionate](assets/newexplain.png)
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
@@ -112,7 +112,7 @@ Se l’utente direzionale effettua l’accesso e vede un messaggio che dice che 
 
 ![Niente di condiviso](assets/nothing.png)
 
-* L’utente direzionale potrebbe aver selezionato la sandbox di Customer Journey Analytics errata oppure
+* L’utente direzionale potrebbe aver selezionato la sandbox di Customer Journey Analytics sbagliata oppure
 * la scorecard potrebbe non essere stata condivisa con l’utente direzionale.
 
-Verifica che l’utente direzionale possa accedere alla sandbox di Customer Journey Analytics corretta e che la scorecard sia stata condivisa.
+Verifica che l’utente manageriale possa accedere alla sandbox Customer Journey Analytics corretta e che la scorecard sia stata condivisa.
