@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 23%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 23%
 >id="cja-upgrade-source-connector-create-schema"
 >title="Creare uno schema XDM per il connettore di origine di Analytics"
 >abstract="Questo schema è una combinazione del gruppo di campi ExperienceEvent di Adobe Analytics con tutti i gruppi di campi che compongono lo schema personalizzato della tua organizzazione. Ti consente di mappare i campi utilizzati dal connettore di origine di Analytics sullo schema della tua organizzazione e viene utilizzato solo per i dati storici.<br><br>Poiché di natura tecnica, la creazione di questo schema può essere completata in alcune ore, possibilmente in modo più rapido se conosci esattamente i gruppi di campi che compongono lo schema personalizzato della tua organizzazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-historical"
+>title="Creare il connettore di origine di Analytics per i dati storici"
+>abstract="Puoi usare il connettore di origine di Analytics per inserire in Adobe Experience Platform i dati della suite di rapporti di Adobe Analytics. Questi dati possono quindi essere utilizzati come dati storici in Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 99f82353e41180a0090e84e58593d63fc5cbe803
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%
@@ -36,7 +36,7 @@ L’utilizzo dell’Assistente AI per rispondere a domande incentrate sui dati i
 | **Verificabilità** | La verificabilità e la correttezza dei dati possono essere confermate tramite la tabella a forma libera generata e la visualizzazione dei dati. Ad esempio, se un utente chiede *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;mese scorso&quot;) sono stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati. |
 | **Feedback** | <ul><li>Miniature in alto</li><li>Miniature in basso</li><li>Contrassegno</li></ul> |
 
-### Funzioni di Alpha al di fuori dell’ambito
+### Funzioni di Beta fuori ambito
 
 | Funzione non supportata | Descrizione |
 | --- | --- |
@@ -78,9 +78,9 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. Seleziona **[!UICONTROL Blank project]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
 
-4. Assicurati che la visualizzazione dati selezionata per il pannello sia la stessa abilitata per l’utilizzo con l’Assistente IA per i test di Alpha.
+4. Assicurati che la visualizzazione dati selezionata per il pannello sia la stessa abilitata per l’utilizzo con l’Assistente IA per i test di Beta.
 
-   In caso di dubbi, contatta il canale Slack di Alpha.
+   In caso di dubbi, contatta il canale Slack di Beta.
 
 5. Seleziona l’icona della chat dell’Assistente AI nell’area in alto a destra della pagina.
 
@@ -187,7 +187,7 @@ Questi esempi sono progettati per aiutarti a comprendere in che modo parole o st
 | Visualizzazione Linee | <ul><li>Tendenza</li><li>[Metrica] in [Intervallo di tempo]</li></ul> |
 | Visualizzazione a barre | <ul><li>[Metrica] da [Dimension]</li></ul> |
 
-## Aspettative di test di Alpha e feedback richiesto
+## Aspettative di test di Beta e feedback richiesto
 
 Dopo aver posto ciascuna domanda, rivedi attentamente la risposta fornita dall’assistente. È fondamentale valutare in modo completo le visualizzazioni generate prima di fornire un feedback.
 
