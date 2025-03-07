@@ -1,21 +1,21 @@
 ---
-title: Come utilizzare i filtri nel Report Builder nel Customer Journey Analytics
-description: Descrive come utilizzare i filtri nel Report Builder per il Customer Journey Analytics
+title: Come utilizzare i segmenti in Report Builder in Customer Journey Analytics
+description: Descrive come utilizzare i segmenti in Report Builder for Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
-# Utilizzare i filtri nel Report Builder
+# Utilizzare i segmenti in Report Builder
 
-È possibile applicare i filtri quando si crea un nuovo blocco di dati o quando si seleziona l&#39;opzione **Modifica blocco di dati** dal pannello COMANDI.
+Puoi applicare i segmenti quando crei un nuovo blocco di dati o quando selezioni l&#39;opzione **Modifica blocco di dati** dal pannello COMANDI.
 
 ## Applicare filtri a un blocco di dati
 
@@ -65,7 +65,7 @@ Puoi aggiungere o rimuovere filtri utilizzando le opzioni Aggiungi/Rimuovi.
 
 1. Fai clic su **Applica** per salvare le modifiche e tornare al pannello hub.
 
-   Nel Report Builder viene visualizzato un messaggio per confermare le modifiche apportate al filtro.
+   In Report Builder viene visualizzato un messaggio per confermare le modifiche apportate al filtro.
 
 ### Sostituire un filtro
 
@@ -87,7 +87,7 @@ Puoi aggiungere o rimuovere filtri utilizzando le opzioni Aggiungi/Rimuovi.
 
 1. Fai clic su **Applica**.
 
-   Il Report Builder aggiorna l’elenco dei filtri per riflettere la sostituzione.
+   Report Builder aggiorna l’elenco dei filtri in base alla sostituzione.
 
 ### Definire i filtri dei blocchi di dati dalla cella
 

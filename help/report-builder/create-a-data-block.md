@@ -1,12 +1,12 @@
 ---
-title: Come creare un blocco di dati utilizzando il Report Builder nel Customer Journey Analytics
+title: Come creare un blocco di dati utilizzando Report Builder in Customer Journey Analytics
 description: Descrive come creare un blocco di dati.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -43,13 +43,13 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
    ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_data_view3.png)
 
-   Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e filtri per crearlo. Le schede Dimension, Metriche e Filtri vengono visualizzate sopra il riquadro Generatore tabella.
+   Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e segmenti per crearlo. Le schede Dimensioni, Metriche e Segmenti vengono visualizzate sopra il riquadro Generatore tabella.
 
 ## Creare il blocco di dati
 
 Per creare il blocco di dati, seleziona i componenti del rapporto, quindi personalizza il layout.
 
-1. Aggiungere Dimension, metriche e filtri.
+1. Aggiungi dimensioni, metriche e segmenti.
 
    Scorrere gli elenchi dei componenti o utilizzare il campo **ricerca** per individuare i componenti. Trascina i componenti nel riquadro Tabella oppure fai doppio clic sul nome di un componente nell’elenco per aggiungerlo automaticamente al riquadro Tabella.
 
@@ -57,7 +57,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    - I componenti Dimension vengono aggiunti alla sezione Riga o alla sezione Colonna se una dimensione è già presente nelle colonne.
    - I componenti data vengono aggiunti alla sezione Colonna.
-   - I componenti Filtro vengono aggiunti alla sezione Filtri.
+   - I componenti del segmento vengono aggiunti alla sezione Segmenti.
 
    **Data di inizio come Dimension**
 
@@ -95,6 +95,6 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    ![Elaborazione del messaggio.](./assets/image11.png)
 
-   Il Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
+   Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
 
    ![Blocco di dati completato.](./assets/image12.png)

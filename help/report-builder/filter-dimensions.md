@@ -1,14 +1,14 @@
 ---
-title: Come filtrare le dimensioni nel Report Builder
-description: Descrive come utilizzare le dimensioni filtro nel Report Builder per il Customer Journey Analytics
+title: Come filtrare le dimensioni in Report Builder
+description: Descrive come utilizzare le dimensioni filtro in Report Builder for Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1016'
 ht-degree: 88%
 
 ---
@@ -21,7 +21,7 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
 1. Seleziona un blocco di dati e fai clic su Modifica blocco di dati nel pannello COMANDI.
 
-1. Fai clic su Avanti per visualizzare la scheda Dimensione.
+1. Fare clic su **[!UICONTROL Next]** per visualizzare la scheda Dimensioni.
 
 1. Fai clic sul pulsante **...** accanto al nome di un componente nella tabella.
 
@@ -139,7 +139,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    ![Mostra elementi dell&#39;elenco degli ultimi 6 mesi.](./assets/image34.png)
 
-   Dopo il caricamento dei dati degli ultimi 6 mesi, il Report Builder aggiorna il collegamento a **Show items for last 18 months** (Mostra elementi degli ultimi 18 mesi).
+   Dopo il caricamento dei dati degli ultimi 6 mesi, Report Builder aggiorna il collegamento a **Show items for last 18 months** (Mostra elementi degli ultimi 18 mesi).
 
 1. Seleziona un elemento dimensione.
 
@@ -175,6 +175,6 @@ La selezione può contenere celle vuote o con valori che non corrispondono a un 
 
 Nella scheda **Dimensions** (Dimensioni), fai clic sulla freccia accanto al nome di una dimensione per visualizzare l’elenco degli elementi dimensione.
 
-![Scheda Dimension e elenco delle dimensioni.](./assets/dimensions_chevron.png)
+![Scheda Dimensioni e elenco delle dimensioni.](./assets/dimensions_chevron.png)
 
 Puoi trascinare gli elementi sulla **tabella**, oppure puoi fare doppio clic sul nome di un elemento per aggiungerlo al generatore di **tabelle**.
