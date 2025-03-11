@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 67%
+source-wordcount: '2624'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ In qualità di curatore di questa scorecard, puoi usare il generatore di scoreca
 
 Per creare la scorecard, devi effettuare le seguenti operazioni:
 
-1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
+1. Accedere al modello [!UICONTROL Blank mobile scorecard] in Workspace.
 2. Configura la scorecard con i dati e salvala.
 
 ## Accedi al modello [!UICONTROL Blank Mobile Scorecard] {#template}
@@ -58,6 +58,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 ### Creare un nuovo progetto {#create}
 
 1. Aprire Customer Journey Analytics e fare clic sulla scheda **[!UICONTROL Workspace]**.
+1. Nella barra a sinistra, fai clic su **[!UICONTROL Projects]**.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -72,7 +73,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 Per implementare il modello di scorecard:
 
-1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
+1. Alla voce **[!UICONTROL Scorecard properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
 
    ![Nuova finestra scorecard mobile che evidenzia la selezione della visualizzazione dati](assets/properties_save.png)
 
