@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
+source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -51,23 +52,4 @@ Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come d
 1. Nel riquadro di destra, impostare l&#39;impostazione [persistenza](/help/data-views/component-settings/persistence.md) su &#39;Sessione&#39;.
 1. Fai clic su **[!UICONTROL Save]**.
 
-## Passaggio 4: configurare Workspace per la dimensione ID sessione
 
-Crea una tabella a forma libera in Workspace e configurala in modo che i valori ID sessione siano collegati direttamente alla metrica quantistica.
-
-1. Accedi a [experience.adobe.com](https://experience.adobe.com).
-1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Workspace]** nel menu principale.
-1. Seleziona un progetto esistente o crea un progetto.
-1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
-1. Trascina la dimensione ID sessione nell’area di lavoro di Workspace.
-1. Fare clic con il pulsante destro del mouse sull&#39;intestazione di colonna della dimensione, quindi selezionare **[!UICONTROL Create hyperlinks for all dimension items]**.
-1. Seleziona **[!UICONTROL Create a custom URL]**.
-1. Incolla la seguente struttura URL:
-
-   ```
-   https://adobe.quantummetric.com/#/replay/cookie:$value
-   ```
-
-1. Fai clic su **[!UICONTROL Create]**.
-
-Ogni ID sessione è ora un collegamento cliccabile. Questi collegamenti ti portano alla metrica quantistica in una nuova scheda, che ti consente di analizzare più dettagliatamente quella particolare sessione. Per ulteriori informazioni sull&#39;aggiunta di collegamenti ipertestuali a elementi dimensionali di Analysis Workspace, vedere [Creare collegamenti ipertestuali in una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).
