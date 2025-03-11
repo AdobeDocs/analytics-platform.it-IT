@@ -4,12 +4,10 @@ description: Scopri come effettuare l’aggiornamento da una soluzione di analis
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 13%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="Un prodotto non Adobe Analytics"
->abstract="Implementazione che raccoglie dati per un prodotto diverso da Adobe Analytics, ad esempio Google Analytics. Selezionando questa opzione nel questionario verranno disattivate diverse opzioni che non sono applicabili quando si esegue l’aggiornamento a Customer Journey Analytics da un prodotto non Adobe Analytics."
+>abstract="Implementazione che raccoglie dati per un prodotto diverso da Adobe Analytics, ad esempio Google Analytics. Selezionando questa opzione nella guida all’aggiornamento verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto non Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
