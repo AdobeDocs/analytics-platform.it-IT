@@ -1,28 +1,28 @@
 ---
-title: Indirizzi IP utilizzati dal Customer Journey Analytics
+title: Indirizzi IP utilizzati da Customer Journey Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 0e4ea634a604a65484a57f5af8021badb86a865a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
-# Indirizzi IP utilizzati dal Customer Journey Analytics
+# Indirizzi IP utilizzati da Customer Journey Analytics
 
-Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati o dai server responsabili dell’accesso ai dati di Adobe. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
 
 Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di per il funzionamento dei sistemi in uscita, ad esempio [esportazione di dati in un provider di cloud](/help/analysis-workspace/export/export-cloud.md).
 
 >[!IMPORTANT]
 >
->Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet smette di funzionare.
+>Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet cessa di funzionare.
 
-## VA7: clienti USA e America
+## Clienti americani e americani
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -47,8 +47,9 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 | `52.254.106.208/28` |
 | `20.186.185.227` |
 | `52.254.107.0/28` |
+| `66.117.18.0/24` |
 
-## NLD2: Europa
+## Europa
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -76,7 +77,7 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 | `40.74.7.208/28` |
 | `40.74.6.112/28` |
 
-## AUS5: Australia
+## Australia
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -108,7 +109,7 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 | `20.193.56.128/28` |
 | `20.227.32.175` |
 
-## CAN2: Canada
+## Canada
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -141,6 +142,6 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 
 >[!MORELIKETHIS]
 >
->[Domini utilizzati dal Customer Journey Analytics](domains.md)
+>[Domini utilizzati da Customer Journey Analytics](domains.md)
 >
 >[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
