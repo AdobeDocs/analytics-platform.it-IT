@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
+source-git-commit: d722e88d163dd99aa7b98c6fa6cd75028d7d9e6f
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 0%
+source-wordcount: '329'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +22,29 @@ Collegando le ripetizioni della sessione della metrica quantistica ai dati di CJ
 
 Questo caso d’uso richiede la raccolta dell’ID di sessione della metrica quantistica insieme al resto dell’implementazione. Per informazioni su come modificare l&#39;implementazione, consulta [Raccolta degli ID di sessione della metrica quantistica in Customer Journey Analytics](collect-session-id.md).
 
-## Visualizzazione di sessioni da Customer Journey Analytics
+## Passaggio 1: configurare Workspace per la dimensione ID sessione
+
+Crea una tabella a forma libera in Workspace e configurala in modo che i valori ID sessione siano collegati direttamente alla metrica quantistica.
+
+1. Accedi a [experience.adobe.com](https://experience.adobe.com).
+1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Workspace]** nel menu principale.
+1. Seleziona un progetto esistente o crea un progetto.
+1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Trascina la dimensione ID sessione nell’area di lavoro di Workspace.
+1. Fare clic con il pulsante destro del mouse sull&#39;intestazione di colonna della dimensione, quindi selezionare **[!UICONTROL Create hyperlinks for all dimension items]**.
+1. Seleziona **[!UICONTROL Create a custom URL]**.
+1. Incolla la seguente struttura URL:
+
+   ```
+   https://adobe.quantummetric.com/#/replay/cookie:$value
+   ```
+
+1. Fai clic su **[!UICONTROL Create]**.
+
+Ogni ID sessione è ora un collegamento cliccabile. Questi collegamenti ti portano alla metrica quantistica in una nuova scheda, che ti consente di analizzare più dettagliatamente quella particolare sessione. Per ulteriori informazioni sull&#39;aggiunta di collegamenti ipertestuali a elementi dimensionali di Analysis Workspace, vedere [Creare collegamenti ipertestuali in una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).
+
+## Passaggio 2 Visualizzazione delle sessioni da Customer Journey Analytics
 
 Dopo aver creato il rapporto Workspace con collegamenti selezionabili, puoi utilizzare i filtri in Customer Journey Analytics per identificare sessioni interessanti da analizzare ulteriormente in Metrica quantistica.
+La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Per ulteriori informazioni sulla ripetizione della sessione della metrica quantistica, consulta https://www.quantummetric.com/platform/session-replay
+
