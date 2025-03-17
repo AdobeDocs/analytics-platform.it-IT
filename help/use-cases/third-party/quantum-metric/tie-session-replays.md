@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d722e88d163dd99aa7b98c6fa6cd75028d7d9e6f
+source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
 
 # La sessione della metrica quantistica viene ripetuta sui dati in Customer Journey Analytics
 
-Collegando le ripetizioni della sessione della metrica quantistica ai dati di CJA, i clienti possono capire meglio &quot;il perché&quot; di &quot;cosa&quot;.  Workspace può essere utilizzato per scoprire le sessioni con attrito, quindi puoi fare clic sugli ID sessione con collegamento ipertestuale per esplorare la ripetizione della sessione in Metrica quantistica.  Questi dati consentono di visualizzare il comportamento all’interno di una sessione e di comprendere meglio cosa causa attrito per i consumatori.
+Collegando le ripetizioni della sessione della metrica quantistica ai dati di CJA, i clienti possono capire meglio &quot;il perché&quot; di &quot;cosa&quot;.  Workspace può essere utilizzato per scoprire le sessioni con attrito, quindi puoi fare clic sugli ID sessione con collegamento ipertestuale per esplorare la ripetizione della sessione in Metrica quantistica.  Questi dati consentono di visualizzare il comportamento all’interno di una sessione e di comprendere meglio cosa causa attrito per i consumatori.  Attraverso le ripetizioni delle sessioni associate a CJA, puoi acquisire un contesto critico sul comportamento del cliente nella tua esperienza.
 
 ## Prerequisiti
 
@@ -46,5 +46,5 @@ Ogni ID sessione è ora un collegamento cliccabile. Questi collegamenti ti porta
 ## Passaggio 2 Visualizzazione delle sessioni da Customer Journey Analytics
 
 Dopo aver creato il rapporto Workspace con collegamenti selezionabili, puoi utilizzare i filtri in Customer Journey Analytics per identificare sessioni interessanti da analizzare ulteriormente in Metrica quantistica.
-La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Per ulteriori informazioni sulla ripetizione della sessione della metrica quantistica, consulta https://www.quantummetric.com/platform/session-replay
+La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Ulteriori informazioni sulla ripetizione della sessione della metrica quantistica su [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)
 
