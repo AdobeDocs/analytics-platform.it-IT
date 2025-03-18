@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: a3817114534ddea434ee0c5b8147ba90e1d144dc
+source-git-commit: 6480eb4cd5210cd9318614a507516bd3736da40a
 workflow-type: tm+mt
-source-wordcount: '19456'
+source-wordcount: '19642'
 ht-degree: 85%
 
 ---
@@ -533,6 +533,16 @@ Sono disponibili i seguenti modelli:
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--content-analytics"
+>title="Scopri le prestazioni migliori per gli attributi di contenuto e contenuto."
+>abstract="**Questo può aiutarti** ad apprendere le prestazioni del tuo contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnare loro i tag ai contenuti. [Ulteriori informazioni](/help/content-analytics/content-analytics.md).<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come promuovere risorse ad alte prestazioni nella tua home page, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o ruotare il contenuto che ha iniziato a diventare obsoleto."
+
+<!-- markdownlint-enable MD034 -->
+
+
 Sono disponibili i seguenti modelli:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
@@ -551,6 +561,7 @@ Sono disponibili i seguenti modelli:
 | **Pagine di ingresso** | Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta. <p>**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o le prime impressioni che i visitatori hanno rispetto ad esso.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera.</p> |
 | **Esci dalle pagine** | Visualizza le pagine principali a cui gli utenti accedono immediatamente prima di lasciare il sito.<p>**Questo ti aiuta** a capire meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni A barre e Tabella a forma libera.</p> |
 | **Panoramica sull&#39;utilizzo del prodotto** | Visualizza il modo in cui il prodotto Customer Journey Analytics viene utilizzato all’interno dell’organizzazione. <p>**Questo può aiutarti** a comprendere meglio quante persone usano Customer Journey Analytics, con quale frequenza lo usano e le tendenze di utilizzo nel tempo. Puoi anche visualizzare il numero di progetti in fase di creazione e i dettagli su tali progetti (ad esempio, quali componenti, visualizzazioni e pannelli sono più comunemente utilizzati) e molte altre statistiche di utilizzo.</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio eliminare i progetti o i componenti inutilizzati o fornire agli utenti corsi di formazione sulle funzioni più comuni.</p> |
+| **Analisi dei contenuti** | Scopri le prestazioni migliori per gli attributi di contenuto e contenuto.<p>**Questo può aiutarti** ad apprendere le prestazioni del tuo contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnare loro i tag ai contenuti. [Ulteriori informazioni](/help/content-analytics/content-analytics.md).</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come promuovere risorse ad alte prestazioni nella tua home page, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o ruotare il contenuto che ha iniziato a diventare obsoleto.</p> |
 
 ### Web: conversione {#web-conversion}
 
