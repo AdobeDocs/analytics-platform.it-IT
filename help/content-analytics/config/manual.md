@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Sono disponibili le seguenti azioni di configurazione manuali:
 
 Per attivare una nuova configurazione o le modifiche apportate a una configurazione esistente:
 
-1. Devi seguire il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Solo dopo aver pubblicato correttamente la libreria per la proprietà Tag che contiene la configurazione di Content Analytics, i dati di Content Analytics vengono raccolti per i domini, le esperienze e le risorse configurate.
+1. Devi seguire il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata. Solo a questo punto vengono raccolti i dati di Content Analytics per i domini, le esperienze e le risorse configurati.
 
-1. Devi [installare](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) il codice da incorporare nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o pubblicazione, soggetto ad analisi dei contenuti.
+1. Devi [installare](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o pubblicazione, soggetto a Content Analytics.
 
 
 ## Disattiva
 
 Per disattivare la raccolta dei dati di analisi dei contenuti:
 
-1. Rimuovi il [codice di incorporamento](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, in base a Content Analytics.
+1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, soggetto a Content Analytics.
 1. [Elimina](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) la proprietà Tag associata per la configurazione di Content Analytics.
 
 
 
 ## Modifica
 
-In generale, è necessario utilizzare la [procedura guidata di configurazione](guided.md) per apportare modifiche all&#39;implementazione.
+È possibile apportare alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modifica la visualizzazione dati.
 
-In alternativa, puoi utilizzare l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tag associata alla configurazione di Content Analytics per apportare modifiche ai seguenti artefatti:
+Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata alla configurazione Content Analytics per apportare modifiche ai seguenti artefatti:
 
 * [Sandbox e flusso di dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
 
   >[!CAUTION]
   >
-  >È necessario verificare che la sandbox e lo stream di dati configurati nell&#39;estensione Adobe Content Analytics siano già configurati per Content Analytics utilizzando la [configurazione guidata](guided.md) in una fase precedente. Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>È inoltre necessario verificare che gli aggiornamenti per sandbox o flussi di dati non interferiscano con un&#39;altra configurazione di Content Analytics configurata per utilizzare gli stessi flussi di dati sandbox o.
+  >Verificare che la sandbox e lo stream di dati configurati nell&#39;estensione Adobe Content Analytics siano già configurati per Content Analytics utilizzando la [configurazione guidata](guided.md) in una fase precedente. Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>Verificare inoltre che gli aggiornamenti per sandbox o flussi di dati non interferiscano con un&#39;altra configurazione di Content Analytics configurata per utilizzare la stessa sandbox o gli stessi flussi di dati.
   >
 
 * [Filtro eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
@@ -76,9 +76,9 @@ Dopo aver apportato modifiche nell&#39;estensione Adobe Content Analytics, assic
 
 ## Controllo delle versioni
 
-Se hai bisogno del controllo delle versioni delle esperienze di Content Analytics, devi aggiungere una funzione `adobe.getContentExperienceVersion` globale nelle pagine che consideri esperienze da analizzare.
+Se hai bisogno del controllo delle versioni delle esperienze Content Analytics, devi aggiungere una funzione `adobe.getContentExperienceVersion` globale nelle pagine che consideri esperienze da analizzare.
 
-La funzione `adobe.getContentExperienceVersion` deve restituire una stringa come valore, che può essere qualsiasi elemento scelto per identificare la versione. La versione viene aggiunta all&#39;URL Experience ID.
+La funzione `adobe.getContentExperienceVersion` deve restituire una stringa come valore, che può essere qualsiasi cosa scelta, per identificare la versione. La versione viene aggiunta all&#39;[URL Experience ID](/help/content-analytics/report/components.md#experience-metadata).
 
 Se la funzione non è presente o non viene restituito alcun valore dalla funzione, il valore `NoVersion` viene utilizzato come predefinito.
 

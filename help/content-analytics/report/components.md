@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1390'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica un valo
 | Strategie di persuasione dell’esperienza | ![IA ha generato](/help/assets/icons/AI.svg) strategie di persuasione presenti nell&#39;esperienza specificata. I valori possibili sono: Identità sociale, Prova sociale, Autorità, Concretezza, Piede nella porta, Reazione superata, Reciprocità, Ancoraggio e confronto, Impatto sociale, Scarsità e Antropomorfismo. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Narrative dell’esperienza | ![AI ha generato](/help/assets/icons/AI.svg) narrazioni che l&#39;esperienza sta creando in base alla rilevanza dal punto di vista di un addetto marketing. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Toni esperienza | ![IA ha generato](/help/assets/icons/AI.svg) toni che l&#39;esperienza sta creando in base alla rilevanza dal punto di vista di un addetto marketing | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Emozioni di Experience Marketing | ![IA generata](/help/assets/icons/AI.svg) L&#39;emozione invocata dal lettore durante la lettura dell&#39;esperienza: Urgenza, Esclusività, Incoraggiamento, Sfida, Curiosità, Raggiungimento, Fiducia, Semplicità e Fascinazione. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
+| Emozioni di Experience Marketing | ![IA generata](/help/assets/icons/AI.svg) L&#39;emozione invocata dal lettore durante la lettura del testo utilizzato come parte dell&#39;esperienza: Urgenza, Esclusività, Incoraggiamento, Sfida, Curiosità, Risultato, Fiducia, Semplicità e Fascinazione. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Conteggio emoticon esperienza | ![IA ha generato](/help/assets/icons/AI.svg) numero di emoticon per l&#39;esperienza. | Metrica | Valori di conteggio<br/>Decimali \| Cifre decimali: 0 |
 | Conteggio hashtag esperienza | ![IA ha generato](/help/assets/icons/AI.svg) numero di hashtag per l&#39;esperienza. | Metrica | Valori di conteggio<br/>Decimali \| Cifre decimali: 0 |
 | Conteggio frasi esperienza | ![IA ha generato](/help/assets/icons/AI.svg) il numero di frasi per l&#39;esperienza. | Metrica | Valori di conteggio<br/>Decimali \| Cifre decimali: 0 |
@@ -163,3 +163,4 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica un valo
 | Percentuale di click-through esperienza | Clic sull’esperienza/Visualizzazioni dell’esperienza | Metrica calcolata | |
 
 {style="table-layout:fixed"}
+

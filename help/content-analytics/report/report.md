@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,9 @@ La generazione di rapporti sull’analisi dei contenuti viene eseguita all’int
 Per iniziare a generare rapporti su Content Analytics da zero:
 
 1. [Crea un nuovo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [apri un progetto](/help/analysis-workspace/build-workspace-project/open-projects.md) esistente in Workspace.
+1. Assicurati di [selezionare una visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view) per la generazione di rapporti di Content Analytics. Il reporting di Content Analytics è disponibile solo per le visualizzazioni dati [configurate](/help/content-analytics/config/configuration.md) per Content Analytics.
 1. Trascina una visualizzazione ![Tabella](/help/assets/icons/Table.svg) [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) nell&#39;area di lavoro.
-1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come filtri, intervalli di date, annotazioni) per creare informazioni approfondite di Content Analytics.
+1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come filtri, intervalli di date, annotazioni) per creare informazioni approfondite di Content Analytics. In alternativa, utilizza il modello Content Analytics.
 
 ## Miniature
 
@@ -49,7 +50,7 @@ Per aprire l&#39;anteprima con i dettagli seguenti:
   |---|---|
   | ![Anteprima esperienza analisi contenuti](../assets/aca-experience-preview.png) | ![Anteprima risorse di analisi dei contenuti](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
-  | **[!UICONTROL Impressions (all times)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all mes)]**: numero di impression per la risorsa. |
+  | **[!UICONTROL Impressions (all times)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
   | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) per esaminare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. [Raggruppamento](/help/assets/icons/Breakdown.svg) per esaminare le risorse. |
   | **[!UICONTROL First impression]**: data della prima impressione dell&#39;esperienza. | **[!UICONTROL First impression]**: data della prima impression della risorsa. |
   | **[!UICONTROL  Most recent impression]**: data dell&#39;impression più recente dell&#39;esperienza. | **[!UICONTROL Most recent impression]**: data dell&#39;impression più recente della risorsa. |
