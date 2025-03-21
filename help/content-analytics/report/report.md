@@ -7,30 +7,27 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: df3a877feed82f6cbd181561da68837373bdafb8
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
 
 # Panoramica reportistica di Content Analytics
 
->[!WARNING]
->
->Questo articolo è una bozza preliminare non ufficiale di una versione finale di prossima pubblicazione e fa parte della documentazione di Content Analytics. Tutti i contenuti sono soggetti a modifiche e nessun obbligo legale può essere derivato dalla versione corrente di questo articolo.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
-La generazione di rapporti sull’analisi dei contenuti viene eseguita all’interno di Analysis Workspace. È disponibile un [modello](#template) Workspace specifico, che consente di accedere immediatamente a un progetto Workspace precompilato con informazioni rilevanti sul contenuto.
+Puoi creare rapporti, eseguire analisi e ottenere informazioni su Content Analytics in [Analysis Workspace](/help/analysis-workspace/home.md). È disponibile un [modello](#template) Workspace specifico, che consente di accedere immediatamente a un progetto Workspace precompilato con informazioni rilevanti sul contenuto.
 
 Per iniziare a generare rapporti su Content Analytics da zero:
 
 1. [Crea un nuovo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [apri un progetto](/help/analysis-workspace/build-workspace-project/open-projects.md) esistente in Workspace.
 1. Assicurati di [selezionare una visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view) per la generazione di rapporti di Content Analytics. Il reporting di Content Analytics è disponibile solo per le visualizzazioni dati [configurate](/help/content-analytics/config/configuration.md) per Content Analytics.
 1. Trascina una visualizzazione ![Tabella](/help/assets/icons/Table.svg) [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) nell&#39;area di lavoro.
-1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come filtri, intervalli di date, annotazioni) per creare informazioni approfondite di Content Analytics. In alternativa, utilizzare il [modello di analisi dei contenuti](#template).
+1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come filtri, intervalli di date, annotazioni) per creare informazioni approfondite di Content Analytics.
 
 ## Miniature
 
@@ -38,9 +35,16 @@ In base alle dimensioni specifiche di Content Analytics che utilizzi nel progett
 
 ![Miniature di Content Analytics](../assets/aca-thumbnails.png)
 
+Per configurare la visualizzazione delle miniature per una dimensione Content Analytics:
+
+* Passa il puntatore del mouse su una riga di intestazione per una dimensione Content Analytics. Ad esempio, **[!UICONTROL Asset Name]** o **[!UICONTROL Experience IDs]**.
+* Seleziona ![Impostazione](/help/assets/icons/Setting.svg).
+* Nel popup **[!UICONTROL Row setting]**, sotto **[!UICONTROL Settings]**, selezionare o deselezionare **[!UICONTROL Show Thumbnails]**.
+
+
 ## Anteprime
 
-Per le dimensioni che hanno miniature (come Nome risorsa, Nome esperienza e altre), puoi aprire una finestra a comparsa di anteprima.
+Per le righe di una dimensione Content Analytics che mostrano miniature, puoi aprire una finestra a comparsa di anteprima.
 
 Per aprire l&#39;anteprima con i dettagli seguenti:
 
@@ -50,11 +54,11 @@ Per aprire l&#39;anteprima con i dettagli seguenti:
   |---|---|
   | ![Anteprima esperienza analisi contenuti](../assets/aca-experience-preview.png) | ![Anteprima risorse di analisi dei contenuti](../assets/aca-asset-preview.png) |
   | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
-  | **[!UICONTROL Impressions (all times)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
-  | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. |
+  | **[!UICONTROL Impressions (all time)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
+  | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. |
   | **[!UICONTROL First impression]**: data della prima impressione dell&#39;esperienza. | **[!UICONTROL First impression]**: data della prima impression della risorsa. |
   | **[!UICONTROL  Most recent impression]**: data dell&#39;impression più recente dell&#39;esperienza. | **[!UICONTROL Most recent impression]**: data dell&#39;impression più recente della risorsa. |
-  | **[!UICONTROL Experience attributes]**: attributi dell&#39;esperienza. | **[!UICONTROL Asset attributes]**: attributi della risorsa. |
+  | **[!UICONTROL Experience attributes]**: [attributi](/help/content-analytics/report/components.md#experience-attributes) dell&#39;esperienza. | **[!UICONTROL Asset attributes]**: [attributi](/help/content-analytics/report/components.md#asset-attributes) della risorsa. |
 
 
 ## Modello
@@ -72,7 +76,7 @@ Per utilizzare il modello:
 1. Nella finestra di dialogo **[!UICONTROL Set up your template]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Select a conversion metric]**. Ad esempio: **[!UICONTROL Asset CTR]**.
 1. Seleziona **[!UICONTROL Continue]**.
 
-Un progetto **[!UICONTROL Content Analytics Overview]** viene aperto in Workspace. Il progetto si articola in quattro gruppi, ciascuno dei quali risponde a domande specifiche:
+Un progetto **[!UICONTROL Content Analytics Overview]** viene aperto in Workspace. Il progetto è costituito da quattro pannelli, in cui ogni pannello fornisce tabelle e visualizzazioni a forma libera per rispondere a una domanda specifica:
 
 * **Quali sono le prestazioni migliori?**
 Questo pannello ti aiuta a capire quali esperienze e quali risorse in esse sono alla base del coinvolgimento e della conversione. Le esperienze sono una pagina web completa, acquisita in un momento specifico. Un’esperienza può contenere sia testo che più singole risorse di immagine. Una risorsa è una singola immagine.
@@ -129,18 +133,18 @@ Una visualizzazione [line](/help/analysis-workspace/visualizations/line.md) che 
 Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le parole chiave dell&#39;esperienza principale in base alla metrica di conversione selezionata.
 
 * **Dove vengono visualizzate le risorse nel sito?**
-Un pannello costituito da una tabella a forma libera che specifica dove vengono visualizzate più risorse di visualizzazioni sul sito.
+Un pannello costituito da una tabella a forma libera che specifica dove vengono visualizzate sul sito le risorse più visualizzate.
 
   Il pannello è costituito da una visualizzazione:
 
    * **Dove vengono visualizzate le risorse più visualizzate?**
-Puoi suddividere qualsiasi ID risorsa per dimensioni che ti aiutino a capire meglio dove viene visualizzata l’immagine.
+Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene visualizzata l’immagine.
 
-     In questo esempio [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) viene utilizzato [!UICONTROL *ID percezione risorsa*] anziché [!UICONTROL *ID risorsa*]. A volte, la stessa immagine può essere duplicata sul sito con un URL immagine diverso. L&#39;attributo [!UICONTROL _Percezione risorsa_] consente di raggruppare questi duplicati in un singolo ID. Poiché le risorse possono cambiare in una pagina, ogni risorsa viene suddivisa per [!UICONTROL _ID esperienza_], per identificare la versione della pagina in cui è stata visualizzata la risorsa.
+     Nell&#39;esempio [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)), viene utilizzato **[!UICONTROL Asset Perception ID]** anziché [!UICONTROL Asset Id]. A volte, la stessa immagine può essere duplicata sul sito con un URL immagine diverso. L&#39;attributo [!UICONTROL Asset Perception ID] consente di raggruppare questi duplicati in un singolo ID.
 
-     Puoi sostituire [!UICONTROL _Experience ID_] con altre dimensioni che ti aiutano a comprendere la posizione di una risorsa sul tuo sito. [!UICONTROL _Nome pagina_], [!UICONTROL _URL pagina_] o [!UICONTROL _Sezione sito_].
+     Poiché le risorse possono cambiare in una pagina, ogni risorsa viene suddivisa per **[!UICONTROL Experience Id]**, in modo da identificare la versione della pagina in cui è apparsa la risorsa. È possibile sostituire [!UICONTROL Experience Id] con altre dimensioni che consentono di comprendere la posizione di una risorsa sul sito. Ad esempio, [!UICONTROL Page name], [!UICONTROL Page URL] o [!UICONTROL Site section].
 
-     È inoltre possibile scambiare [!UICONTROL _ID percezione_] con [!UICONTROL _ID risorsa_] per ottenere un record in cui viene fatto riferimento a URL immagine specifici.
+     È inoltre possibile scambiare [!UICONTROL Asset Perception ID] con [!UICONTROL Asset Id] per ottenere un record in cui viene fatto riferimento a URL di immagini specifici.
 
 
 >[!MORELIKETHIS]

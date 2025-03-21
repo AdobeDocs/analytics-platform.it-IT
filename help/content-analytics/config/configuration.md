@@ -7,43 +7,30 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
 # Configurare l’analisi dei contenuti
 
->[!WARNING]
->
->Questo articolo è una bozza preliminare non ufficiale di una versione finale di prossima pubblicazione e fa parte della documentazione di Content Analytics. Tutti i contenuti sono soggetti a modifiche e nessun obbligo legale può essere derivato dalla versione corrente di questo articolo.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
 La configurazione di Content Analytics prevede i seguenti passaggi:
 
-![Configurazione di Content Analytics](../assets/aca-configuration.svg)
+![Configurazione di Content Analytics](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. Utilizza la procedura guidata [configurazione guidata](guided.md) di Content Analytics per eseguire tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics. Puoi salvare le configurazioni e tornare in un secondo momento.
-1. Una volta acquisiti i valori di configurazione, puoi implementare la configurazione. Questa implementazione crea tutti gli artefatti richiesti, in base a ciò che hai configurato nella procedura guidata. Vengono creati, aggiornati o selezionati i seguenti artefatti:
-   * Customer Journey Analytics
-      * [visualizzazione dati](/help/data-views/data-views.md) selezionata.
-      * È selezionata una [connessione](/help/connections/overview.md), derivata automaticamente dalla visualizzazione dati selezionata.
-   * Experience Platform
-      * Viene selezionata la sandbox, derivata automaticamente dalla connessione. I flussi di lavoro e i servizi necessari sono abilitati nella sandbox.
-      * Gli schemi Content Analytics sono selezionati nella sandbox. Se non disponibile, vengono creati gli schemi necessari.
-      * I set di dati di Content Analytics sono selezionati nella sandbox. Se non disponibile, vengono creati i set di dati necessari.
-   * Raccolta dati
-      * All’interno del flusso di dati viene creato un flusso di dati e viene configurato un servizio Experience Platform per inviare dati al set di dati dell’evento esperienza di Content Analytics.
-      * Viene creata una proprietà Tags con l’estensione Adobe Content Analytics configurata per la sandbox, lo stream di dati e altre opzioni di configurazione corrette della procedura guidata.
+1. Utilizza la procedura guidata [configurazione guidata](guided.md) di Content Analytics per eseguire tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics. Puoi salvare le configurazioni in qualsiasi momento e tornare in un secondo momento.
+1. Una volta acquisiti i valori di configurazione, puoi implementare la configurazione. Questa implementazione crea tutti gli artefatti richiesti, in base a ciò che hai configurato nella procedura guidata.
 1. Solo quando [pubblichi manualmente](manual.md) la proprietà Tags, la configurazione Content Analytics verrà effettivamente distribuita e attivata.
 
 1. È possibile apportare solo alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modificare la [visualizzazione dati](/help/data-views/data-views.md).
-1. Puoi apportare altre modifiche a una configurazione implementata. Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata.
-1. Solo quando [ripubblichi manualmente](manual.md) la proprietà Tags, le modifiche alla configurazione dei passaggi 4 e 5 vengono distribuite e attivate in modo efficace.
+1. Puoi apportare altre modifiche a una configurazione implementata utilizzando l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata.
+1. Solo quando [ripubblichi](manual.md) manualmente la proprietà Tags, le modifiche alla configurazione vengono effettivamente distribuite e attivate.
 
 
 ## Prerequisiti

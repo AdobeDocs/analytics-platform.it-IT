@@ -7,27 +7,24 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Panoramica di Content Analytics
 
->[!WARNING]
->
->Questo articolo è una bozza preliminare non ufficiale di una versione finale di prossima pubblicazione e fa parte della documentazione di Content Analytics. Tutti i contenuti sono soggetti a modifiche e nessun obbligo legale può essere derivato dalla versione corrente di questo articolo.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
-L’analisi dei contenuti aiuta gli addetti al marketing a comprendere in che modo i contenuti influiscono sugli indicatori prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie dati sul modo in cui i contenuti vengono utilizzati e sul loro impatto sulle varie unità. Ad esempio, i clienti rispondono meglio a un tono di voce specifico, a una paletta di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso dei clienti in Customer Journey Analytics.
+L’analisi dei contenuti aiuta gli addetti al marketing a comprendere in che modo i contenuti influiscono sugli indicatori prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie dati sul modo in cui i contenuti vengono utilizzati e sul loro impatto sulle varie unità. Ad esempio, i clienti rispondono meglio a un tono di voce specifico, a una palette di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso dei clienti in Customer Journey Analytics.
 
 L&#39;analisi dei contenuti utilizza un servizio di funzionalità **basato su AI e apprendimento automatico** per suddividere il contenuto in componenti e attributi. Creando un profilo di metadati strutturato su tutti i contenuti, puoi analizzare quali contenuti e quali attributi di tali contenuti determinano i risultati aziendali.
 
-Oltre alla creazione di questo profilo di metadati strutturato, Content Analytics fornisce un **servizio Identity** che identifica le risorse e le esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando la stessa risorsa viene visualizzata in più posizioni. In questo caso, le due istanze di risorse vengono trattate come se fossero le stesse, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
+Oltre alla creazione di questo profilo di metadati strutturato, Content Analytics fornisce un **servizio Identity** che identifica le risorse e le esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando la stessa risorsa viene visualizzata in più posizioni. In questo caso, le istanze di questa risorsa vengono trattate come la stessa risorsa, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
 
 ## Valore
 
@@ -44,7 +41,7 @@ Content Analytics utilizza i seguenti termini chiave:
 
 ![Assets ed esperienze](/help/content-analytics/assets//content-analytics-experience-asset.png)
 
-* **Esperienza**: per esperienza si intende tutto il testo di una pagina Web riproducibile tramite l&#39;URL utilizzato dall&#39;utente iniziale che visita la pagina Web. A ogni esperienza viene assegnato un identificatore univoco.
+* **Esperienza**: un&#39;esperienza è tutto il testo in una pagina Web riproducibile utilizzando l&#39;URL utilizzato dall&#39;utente iniziale che ha visitato la pagina Web. A ogni esperienza viene assegnato un identificatore univoco.
 * **Risorsa**: una risorsa è un contenuto singolo e univoco, come un&#39;immagine. A ogni risorsa viene inoltre assegnato un identificatore univoco.
 * **Attributo**: un attributo è un elemento di metadati descrittivo associato a un&#39;esperienza o a una risorsa. Esempi di un attributo sono: stile della fotografia, leggibilità, strategia di persuasione, colore dell&#39;oggetto, colore di sfondo.
 
@@ -55,10 +52,10 @@ Content Analytics utilizza i dati di visualizzazione delle immagini web raccolti
 ![Analisi dei contenuti - Come funziona](assets/aca-overview.gif)
 
 
-1. Quando un utente visita un sito configurato per Content Analytics, Experience Platform Web SDK registra le interazioni con il contenuto.
-1. Il servizio assemblatore di funzioni e il servizio Identity elaborano i dati rivisti. Tale processo consiste in un crawler che rivede le versioni pubbliche degli URL configurati e applica i servizi AI/ML.
-1. I risultati di questi servizi (componenti, attributi e identità) vengono utilizzati per aggiornare i set di dati di analisi del contenuto pertinenti in Experience Platform.
-1. I dati di analisi dei contenuti, insieme ai dati comportamentali e ad altri set di dati di ricerca, vengono utilizzati nella configurazione di Customer Journey Analytics (combinazione di Connessione, Visualizzazione dati e Workspace). Tale configurazione fornisce le basi per ottenere informazioni esclusive a livello di macro sul contenuto.
+1. Quando un utente visita un sito, [configurato per Content Analytics](config/configuration.md), Experience Platform Web SDK registra le interazioni con il contenuto.
+1. Il servizio Identity e Feature elabora queste interazioni. Tale processo consiste in un crawler che rivede le versioni pubbliche degli URL configurati che definiscono le interazioni. Per tutti questi URL sottoposti a ricerca per indicizzazione, il servizio Identity identifica in modo univoco le esperienze e le risorse. Inoltre, il servizio di funzionalità applica i servizi AI/ML per individuare esperienze, risorse, metadati e attributi.
+1. I risultati di questi servizi ([componenti, attributi e identità](/help/content-analytics/report/components.md)) vengono utilizzati per aggiornare i set di dati di analisi del contenuto pertinenti in Experience Platform.
+1. I dati di analisi dei contenuti, insieme ai dati comportamentali e ad altri dati di ricerca, possono essere utilizzati in una configurazione di Customer Journey Analytics ([Connessione](/help/connections/overview.md), [Visualizzazione dati](/help/data-views/data-views.md) e [Workspace](/help/analysis-workspace/home.md)). Tale configurazione fornisce le basi per ottenere informazioni esclusive a livello di macro sul contenuto. <br/>Puoi avviare i tuoi report e l&#39;analisi di Content Analytics utilizzando [il modello Content Analytics](/help/content-analytics/report/report.md#template).
 
 >[!NOTE]
 >
