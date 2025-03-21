@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
+source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Per utilizzare il modello:
 1. Nella finestra di dialogo **[!UICONTROL Set up your template]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Select a conversion metric]**. Ad esempio: **[!UICONTROL Asset CTR]**.
 1. Seleziona **[!UICONTROL Continue]**.
 
-Un progetto **[!UICONTROL Content Analytics Overview]** viene aperto in Workspace. Il progetto è costituito da quattro pannelli, in cui ogni pannello fornisce tabelle e visualizzazioni a forma libera per rispondere a una domanda specifica:
+Un progetto **[!UICONTROL Content Analytics Overview]** viene aperto in [Analysis Workspace](/help/analysis-workspace/home.md). Il progetto è costituito da quattro [pannelli](/help/analysis-workspace/c-panels/panels.md), in cui ogni pannello fornisce [tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) e [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per rispondere a una domanda specifica:
 
 * **Quali sono le prestazioni migliori?**
 Questo pannello ti aiuta a capire quali esperienze e quali risorse in esse sono alla base del coinvolgimento e della conversione. Le esperienze sono una pagina web completa, acquisita in un momento specifico. Un’esperienza può contenere sia testo che più singole risorse di immagine. Una risorsa è una singola immagine.
@@ -85,9 +85,9 @@ Questo pannello ti aiuta a capire quali esperienze e quali risorse in esse sono 
 
    * **Esperienze**
 
-      * **Experience CTR**: una visualizzazione di riepilogo delle modifiche che mostra Experience CTR.
-      * **Prime esperienze di conversione**: visualizzazione con grafico a barre orizzontale che mostra le prime esperienze di conversione in base alla metrica di conversione selezionata.
-      * **Esperienze dalle prestazioni migliori**: una tabella a forma libera (con anteprime e anteprime) per le esperienze dalle prestazioni migliori.
+      * **Experience CTR**: una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Experience CTR.
+      * **Prime esperienze di conversione**: una visualizzazione con [barra orizzontale](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le prime esperienze di conversione in base alla metrica di conversione selezionata.
+      * **Esperienze dalle prestazioni migliori**: una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)(incluse [miniature](#thumbnails) e [anteprime](#previews)) per le esperienze dalle prestazioni migliori.
 
    * **Assets**
 
