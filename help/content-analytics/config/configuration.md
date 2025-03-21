@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ La configurazione di Content Analytics prevede i seguenti passaggi:
 
 1. Utilizza la procedura guidata [configurazione guidata](guided.md) di Content Analytics per eseguire tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics. Puoi salvare le configurazioni in qualsiasi momento e tornare in un secondo momento.
 1. Una volta acquisiti i valori di configurazione, puoi implementare la configurazione. Questa implementazione crea tutti gli artefatti richiesti, in base a ciò che hai configurato nella procedura guidata.
-1. Solo quando [pubblichi manualmente](manual.md) la proprietà Tags, la configurazione Content Analytics verrà effettivamente distribuita e attivata.
+1. Solo quando [pubblichi manualmente](manual.md) la proprietà Tags, la configurazione Content Analytics viene effettivamente distribuita e attivata.
 
 1. È possibile apportare solo alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modificare la [visualizzazione dati](/help/data-views/data-views.md).
 1. Puoi apportare altre modifiche a una configurazione implementata utilizzando l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata.
