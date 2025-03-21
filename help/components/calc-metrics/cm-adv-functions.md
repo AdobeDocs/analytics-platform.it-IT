@@ -4,10 +4,10 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
+source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
-source-wordcount: '4267'
-ht-degree: 59%
+source-wordcount: '4376'
+ht-degree: 58%
 
 ---
 
@@ -729,7 +729,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 
 
-## Incremento (#lift)
+## Lift {#lift}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -739,6 +739,10 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 >abstract="L’incremento del rapporto rispetto al valore di controllo."
 
 <!-- markdownlint-enable MD034 -->
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(normalizing-container, success-metric, control)]**
+
+L’incremento del rapporto rispetto al valore di controllo.
 
 | Argomento | Descrizione |
 | --- | --- |
@@ -1338,6 +1342,27 @@ Restituisce Pi: 3,14159...
 | metric_Y | Una metrica da designare come dati indipendenti |
 | include_zeros | Se includere o meno i valori zero nei calcoli |
 
+
+
+## Varianza di esempio
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-variance-estimate"
+>title="Varianza di esempio"
+>abstract="Calcola una stima della varianza del campione utilizzando la formula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)). dove N è il conteggio del contenitore di normalizzazione. <br/>Utilizzato come parte dei *calcoli di attendibilità validi* in qualsiasi momento. In genere questa funzione non è utile da sola, ma può essere utilizzata per controllare i calcoli o per eseguire i calcoli di affidabilità *manualmente*."
+
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(normalizing-container, success-metric)]**
+
+Calcola una stima della varianza del campione.
+
+| Argomento | Descrizione |
+| --- | --- |
+| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
+
+<!-- markdownlint-enable MD034 -->
 
 
 
