@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
+source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -46,5 +46,5 @@ Ogni ID sessione è ora un collegamento cliccabile. Questi collegamenti ti porta
 ## Passaggio 2 Visualizzazione delle sessioni da Customer Journey Analytics
 
 Dopo aver creato il rapporto Workspace con collegamenti selezionabili, puoi utilizzare i filtri in Customer Journey Analytics per identificare sessioni interessanti da analizzare ulteriormente in Metrica quantistica.
-La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Ulteriori informazioni sulla ripetizione della sessione della metrica quantistica su [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)
+La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Ulteriori informazioni sulla ripetizione della sessione della metrica quantistica su [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay). Per ulteriori risorse, contatta il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o invia una richiesta tramite il [portale delle richieste dei clienti](https://community.quantummetric.com/s/public-support-page) per la metrica quantistica.
 
