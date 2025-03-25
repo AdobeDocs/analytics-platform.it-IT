@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
+source-git-commit: 255f06ba504a0fa189a02966c5d3c63e1a4fadfd
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 Alcuni casi d&#39;uso, come [l&#39;associazione delle riproduzioni delle sessioni della metrica quantistica](tie-session-replays.md) o [l&#39;utilizzo delle mappe di calore della metrica quantistica](heatmap.md) richiedono la modifica dell&#39;implementazione per raccogliere l&#39;ID della sessione della metrica quantistica. Questa pagina illustra il processo per inserire correttamente tali dati nell’implementazione esistente.
 
+## Prerequisiti
+
 Questi passaggi presuppongono l’utilizzo di tag in Raccolta dati di Adobe Experience Platform. Puoi adattare questi metodi di raccolta dati a un’implementazione manuale di Web SDK se la tua organizzazione non utilizza i tag.
 
-## Passaggio 1: acquisire l’ID della sessione della metrica quantistica utilizzando l’estensione dei tag della metrica quantistica
+### Passaggio 1: acquisire l’ID della sessione della metrica quantistica utilizzando l’estensione dei tag della metrica quantistica
 
 Segui questi passaggi per aggiungere l’ID sessione della metrica quantistica ai dati inviati a Adobe Experience Platform.
 
@@ -37,11 +39,11 @@ Segui questi passaggi per aggiungere l’ID sessione della metrica quantistica a
 
 Per ulteriori informazioni, consulta la documentazione dell&#39;estensione tag [Quantum Metric](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric).
 
-## Passaggio 2: confermare i campi del set di dati inclusi
+### Passaggio 2: confermare i campi del set di dati inclusi
 
 Verifica che i set di dati nella connessione abbiano ora l’ID sessione della metrica quantistica nel set di dati desiderato.
 
-## Passaggio 3: aggiungere l’ID sessione della metrica quantistica come dimensione disponibile
+### Passaggio 3: aggiungere l’ID sessione della metrica quantistica come dimensione disponibile
 
 Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come dimensione disponibile in Customer Journey Analytics.
 
