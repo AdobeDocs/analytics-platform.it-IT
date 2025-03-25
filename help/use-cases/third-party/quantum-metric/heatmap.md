@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
+source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,6 @@ Devi avere diritto al pacchetto **UX Ops** della metrica Quantum per accedere al
 
 ## Visualizzazione delle mappe di calore facendo clic sui collegamenti all’interno di Customer Journey Analytics
 
-Dopo aver trovato una pagina per la quale desideri esplorare la mappatura termica, puoi applicarla al pannello in cui si trova l’URL. La tabella restituisce un URL che consente di esplorare le mappe di calore per la pagina in questione, la profondità di scorrimento e le zone chiave per l’interazione.  Ulteriori informazioni sulle mappe di calore della metrica quantistica all&#39;indirizzo [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)
+Dopo aver trovato una pagina per la quale desideri esplorare la mappatura termica, puoi applicarla al pannello in cui si trova l’URL. La tabella restituisce un URL che consente di esplorare le mappe di calore per la pagina in questione, la profondità di scorrimento e le zone chiave per l’interazione.  Ulteriori informazioni sulle mappe di calore della metrica quantistica sono disponibili all&#39;indirizzo [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps).  Per ulteriori risorse, contatta il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o invia una richiesta tramite il [portale delle richieste dei clienti](https://community.quantummetric.com/s/public-support-page) per la metrica quantistica.
 
 
