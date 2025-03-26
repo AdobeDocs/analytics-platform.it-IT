@@ -5,10 +5,10 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 16e8668d88dda2784ba60a1fa4302225ceff190f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 92%
+source-wordcount: '286'
+ht-degree: 58%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 <!-- markdownlint-enable MD034 -->
 
 
-Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace gestisce situazioni in cui un evento in un set di dati contiene una metrica, ma la dimensione non contiene un valore. Puoi scegliere il nome di tale elemento dimensione, nasconderlo completamente o anche considerarlo come un valore effettivo.
+[!UICONTROL No value options] consente di determinare come Analysis Workspace gestisce le situazioni in cui un evento in un set di dati contiene una metrica ma la dimensione non contiene un valore. Puoi scegliere il nome di tale elemento dimensione, nasconderlo completamente o anche considerarlo come un valore effettivo.
 
 ![Opzioni per “Nessun valore”](../assets/no-value-options.png)
 
@@ -32,13 +32,20 @@ Le opzioni “Nessun valore” consentono di determinare come Analysis Workspace
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL If shown, call "No value"] | Campo di testo che consente di rinominare l’elemento dimensione **[!UICONTROL No value]** con altro nome. |
-| [!UICONTROL Don't show No value by default] | Questo valore non viene visualizzato nella generazione rapporti. Le occorrenze della metrica non collegate a questa dimensione non sono visibili nel rapporto. |
-| [!UICONTROL Show No value by default] | Mostra questo valore nella generazione rapporti. |
-| [!UICONTROL Treat No value as a value] | Sostituisce i valori vuoti nei dati con il testo specificato in [!UICONTROL If shown, call "No value"]. Ad esempio, se la dimensione è rappresentata dai tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in “Desktop”. Quando modifichi questo campo in un valore personalizzato, tale valore viene considerato come un valore stringa legittimo. Pertanto, se in questo campo immetti il valore “Rosso”, tutte le istanze della stringa “Rosso” che compaiono nei dati stessi vengono raccolte sotto la stessa riga che hai specificato. |
+| **[!UICONTROL If shown, call "No value"]** | Campo di testo che consente di rinominare l’elemento dimensione **[!UICONTROL No value]** con altro nome. |
+| **[!UICONTROL Don't show "No value" by default]** | Questo valore non viene visualizzato nella generazione rapporti. Le occorrenze della metrica non collegate a questa dimensione non sono visibili nel rapporto. |
+| **[!UICONTROL Show "No value" by default]** | Mostra questo valore nella generazione rapporti. |
+| **[!UICONTROL Treat "No value" as a value]** | (Non supportato per le dimensioni numeriche) Sostituisce i valori vuoti nei dati con il testo specificato in [!UICONTROL If shown, call "No value"]. Ad esempio, se la dimensione è rappresentata dai tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in “Desktop”. Quando modifichi questo campo in un valore personalizzato, tale valore viene considerato come un valore stringa legittimo. Pertanto, se in questo campo immetti il valore “Rosso”, tutte le istanze della stringa “Rosso” che compaiono nei dati stessi vengono raccolte sotto la stessa riga che hai specificato. |
 
-{style="table-layout:auto"}
+## Supporto di &quot;Nessun valore&quot; per dimensioni numeriche {#numeric}
 
-## Post di blog
+Quando utilizzi un valore numerico come dimensione, puoi
 
-Ecco un post di blog correlato su [gestione di &quot;nessun valore&quot; nel Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+* Configura l’opzione &quot;Nessun valore&quot; in una visualizzazione dati. Tutte le impostazioni di configurazione sono supportate ad eccezione di **[!UICONTROL Treat "No value" as a value]**.
+* Utilizzare [!UICONTROL Include "No value"] per le dimensioni numeriche in una tabella a forma libera in Workspace.
+* Nel Generatore di filtri, utilizza gli operatori &quot;esiste&quot; o &quot;non esiste&quot; con dimensioni numeriche.
+
+>[!MORELIKETHIS]
+>
+>Ecco un post di blog correlato su [gestione di &quot;nessun valore&quot; in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+
