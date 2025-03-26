@@ -5,10 +5,10 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 16e8668d88dda2784ba60a1fa4302225ceff190f
+source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 58%
+source-wordcount: '284'
+ht-degree: 59%
 
 ---
 
@@ -41,9 +41,10 @@ ht-degree: 58%
 
 Quando utilizzi un valore numerico come dimensione, puoi
 
-* Configura l’opzione &quot;Nessun valore&quot; in una visualizzazione dati. Tutte le impostazioni di configurazione sono supportate ad eccezione di **[!UICONTROL Treat "No value" as a value]**.
-* Utilizzare [!UICONTROL Include "No value"] per le dimensioni numeriche in una tabella a forma libera in Workspace.
-* Nel Generatore di filtri, utilizza gli operatori &quot;esiste&quot; o &quot;non esiste&quot; con dimensioni numeriche.
+* Configura l’opzione &quot;Nessun valore&quot; in una visualizzazione dati. Tutte le impostazioni di configurazione mostrate sopra sono supportate ad eccezione di **[!UICONTROL Treat "No value" as a value]**.
+* Utilizzare **[!UICONTROL Include "No value"]** per le dimensioni numeriche in una tabella a forma libera in Workspace.
+* Nel Generatore di filtri, utilizza gli operatori **[!UICONTROL exists]** o **[!UICONTROL does not exist]** con dimensioni numeriche.
+
 
 >[!MORELIKETHIS]
 >
