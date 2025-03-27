@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ La configurazione di Content Analytics prevede i seguenti passaggi:
 
 1. Utilizza la procedura guidata [configurazione guidata](guided.md) di Content Analytics per eseguire tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics. Puoi salvare le configurazioni in qualsiasi momento e tornare in un secondo momento.
 1. Una volta acquisiti i valori di configurazione, puoi implementare la configurazione. Questa implementazione crea tutti gli artefatti richiesti, in base a ciò che hai configurato nella procedura guidata.
-1. Solo quando [pubblichi manualmente](manual.md) la proprietà Tags, la configurazione Content Analytics viene effettivamente distribuita e attivata.
+1. Solo quando [pubblichi manualmente](manual.md) la proprietà Tags, la configurazione di Content Analytics viene distribuita in modo efficace e la raccolta dati viene avviata.
 
 1. È possibile apportare solo alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modificare la [visualizzazione dati](/help/data-views/data-views.md).
 1. Puoi apportare altre modifiche a una configurazione implementata utilizzando l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata.
-1. Solo quando [ripubblichi](manual.md) manualmente la proprietà Tags, le modifiche alla configurazione vengono effettivamente distribuite e attivate.
+1. Solo quando [ripubblichi manualmente](manual.md) la proprietà Tags, le modifiche alla configurazione vengono effettivamente distribuite e la raccolta dati, in base alle modifiche, viene avviata.
 
 
 ## Prerequisiti

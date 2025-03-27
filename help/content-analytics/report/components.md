@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1194'
 ht-degree: 6%
 
 ---
@@ -44,8 +44,6 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una cop
 | URL miniatura esperienza | URL per la miniatura dell’esperienza. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Profondità percentuale orizzontale esperienza | Valore quantificabile della profondità percentuale orizzontale dell’esperienza. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Profondità percentuale verticale esperienza | Valore quantificabile della profondità percentuale verticale dell’esperienza. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Profondità pixel orizzontale | Valore quantificabile della profondità pixel orizzontale dell’esperienza. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Profondità pixel verticale | Valore quantificabile della profondità in pixel verticale dell’esperienza. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 
 {style="table-layout:fixed"}
 
@@ -55,7 +53,6 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una cop
 
 | Titolo | Descrizione | Tipo | Impostazioni |
 |---|---|---|---|
-| Punteggio di leggibilità dell’esperienza | ![IA ha generato](/help/assets/icons/AI.svg) un punteggio di leggibilità per l&#39;esperienza. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Parole chiave dell’esperienza | ![AI ha generato](/help/assets/icons/AI.svg) parole chiave per l&#39;esperienza. | Campo derivato da Dimension<br> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Strategie di persuasione dell’esperienza | ![IA ha generato](/help/assets/icons/AI.svg) strategie di persuasione presenti nell&#39;esperienza specificata. I valori possibili sono: Identità sociale, Prova sociale, Autorità, Concretezza, Piede nella porta, Reazione superata, Reciprocità, Ancoraggio e confronto, Impatto sociale, Scarsità e Antropomorfismo. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Narrative dell’esperienza | ![AI ha generato](/help/assets/icons/AI.svg) narrazioni che l&#39;esperienza sta creando in base alla rilevanza dal punto di vista di un addetto marketing. | Campo derivato da Dimension<br/> | Mostra \| Nessun valore<br/>\| più recente Sessione |
@@ -88,19 +85,12 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una cop
 |---|---|---|---|
 | Origine risorsa | URL di origine accessibile al pubblico per la risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | ID risorsa | Identificatore univoco della risorsa. Il binario della risorsa determina l’univocità. Se il binario della risorsa cambia, l’ID cambia. L’ID univoco può essere l’URL, ma può anche essere creato un hash. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Nome risorsa | Nome della risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Tipo di risorsa | Tipo di risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| URL miniatura risorsa | URL per la miniatura della risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Percorso Asset HTML | Percorso HTML concatenato per la risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | URL collegamento risorsa | Ancoraggio pagina più vicino per la risorsa. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Larghezza visualizzazione risorsa | Larghezza di visualizzazione delle risorse di contenuto. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Altezza di visualizzazione risorsa | Altezza di visualizzazione delle risorse di contenuto. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Risorsa Assoluta a sinistra | Risorsa di contenuto a sinistra assoluta. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
 | Assoluto risorsa superiore | La risorsa del contenuto è in cima. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Risorsa creata da | Identificatore per la creazione di risorse. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Data di creazione risorsa | Data di creazione risorsa. | Dimensione | \| Più recente Sessione |
-| Ultimo aggiornamento risorsa eseguito da | Identificatore per l’aggiornamento delle risorse. | Dimensione | Mostra \| Nessun valore<br/>\| più recente Sessione |
-| Data ultimo aggiornamento risorsa | Data di aggiornamento risorsa. | Dimensione | \| Più recente Sessione |
 
 {style="table-layout:fixed"}
 
@@ -157,7 +147,7 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una cop
 | Titolo | Descrizione | Tipo | Impostazioni |
 |---|---|---|---|
 | Percentuale di click-through risorsa | Clic su risorsa/Visualizzazioni risorse | Metrica calcolata | |
-| Percentuale di click-through esperienza | Clic sull’esperienza/Visualizzazioni dell’esperienza | Metrica calcolata | |
+| Percentuale di click-through esperienza | Clic su esperienza/Visualizzazioni esperienza | Metrica calcolata | |
 
 {style="table-layout:fixed"}
 

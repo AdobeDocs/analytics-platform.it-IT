@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Per aprire l&#39;anteprima con i dettagli seguenti:
   | Anteprima esperienza | Anteprima risorsa |
   |---|---|
   | ![Anteprima esperienza analisi contenuti](../assets/aca-experience-preview.png) | ![Anteprima risorse di analisi dei contenuti](../assets/aca-asset-preview.png) |
-  | **[!UICONTROL Name of the experience]** | **[!UICONTROL Name of the asset]** |
+  | Nome della dimensione (ad esempio, **[!UICONTROL Experience ID])** | Nome della dimensione della risorsa (ad esempio, **[!UICONTROL Asset ID])** |
   | **[!UICONTROL Impressions (all time)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
   | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. |
   | **[!UICONTROL First impression]**: data della prima impressione dell&#39;esperienza. | **[!UICONTROL First impression]**: data della prima impression della risorsa. |
@@ -84,6 +84,11 @@ Questo pannello ti aiuta a capire quali esperienze e quali risorse in esse sono 
   Il pannello è costituito dalle seguenti visualizzazioni:
 
    * **Esperienze**
+
+     >[!NOTE]
+     >
+     >Queste visualizzazioni vengono visualizzate solo quando [hai incluso esperienze](/help/content-analytics/config/guided.md#experience-capture-and-definition) nella configurazione di Content Analytics.
+     > 
 
       * **Experience CTR**: una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Experience CTR.
       * **Prime esperienze di conversione**: una visualizzazione con [barra orizzontale](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le prime esperienze di conversione in base alla metrica di conversione selezionata.
@@ -117,7 +122,13 @@ Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che 
 Esempio di [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che confronta le prestazioni degli elementi di una singola categoria di attributi di risorsa: Colori di primo piano. Puoi sostituire questo attributo di risorsa con altre dimensioni di categoria dell’attributo di risorsa.
 
 * **Quali attributi esperienza contribuiscono alle conversioni?**
-Mentre gli attributi della risorsa si concentrano sulle qualità visive delle immagini, gli attributi dell’esperienza si concentrano sul testo della pagina. Le visualizzazioni seguenti consentono di esplorare quali attributi di esperienza contribuiscono alla conversione. Questi attributi vengono inoltre assegnati automaticamente utilizzando i modelli AI e GenAI.
+
+  >[!NOTE]
+  >
+  >Questo pannello viene visualizzato solo se nella configurazione di Content Analytics hai [incluso esperienze](/help/content-analytics/config/guided.md#experience-capture-and-definition).
+  > 
+
+  Mentre gli attributi della risorsa si concentrano sulle qualità visive delle immagini, gli attributi dell’esperienza si concentrano sul testo della pagina. Le visualizzazioni seguenti consentono di esplorare quali attributi di esperienza contribuiscono alla conversione. Questi attributi vengono inoltre assegnati automaticamente utilizzando i modelli AI e GenAI.
 
   Il pannello è costituito dalle seguenti visualizzazioni:
 

@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
@@ -20,31 +20,31 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-Questo articolo descrive le azioni manuali necessarie per attivare o disattivare una configurazione di Content Analytics o per modificare l’implementazione di Content Analytics.
+Questo articolo descrive le azioni manuali necessarie per avviare o arrestare la raccolta di dati di una configurazione di Content Analytics o per modificare l’implementazione di Content Analytics.
 
 Sono disponibili le seguenti azioni di configurazione manuali:
 
-## Attiva
+## Avviare la raccolta dati
 
-Per attivare una nuova configurazione o le modifiche apportate a una configurazione esistente:
+Per avviare la raccolta dati per una configurazione di Content Analytics implementata:
 
-1. Devi seguire il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata.
+1. Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata.
 
-1. Devi [installare](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o pubblicazione, soggetto a Content Analytics.
+1. [Installa](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, gestione temporanea o pubblicazione, soggetto a Content Analytics.
 
 
-## Disattiva
+## Interrompi raccolta dati
 
-Per disattivare la raccolta dei dati di analisi dei contenuti:
+Per interrompere la raccolta dati per una configurazione di Content Analytics implementata:
 
 1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, soggetto a Content Analytics.
 1. [Elimina](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) la proprietà Tag associata per la configurazione di Content Analytics.
 
 
 
-## Modifica
+## Modificare la raccolta dati
 
-È possibile apportare alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modifica la visualizzazione dati.
+È possibile apportare alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modifica la visualizzazione dati oppure abilita o disabilita le esperienze.
 
 Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata alla configurazione Content Analytics per apportare modifiche ai seguenti artefatti:
 
@@ -57,14 +57,14 @@ Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.ado
 
 * [Acquisizione e definizione dell&#39;esperienza](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
-  Puoi modificare l’espressione regolare per cambiare il modo in cui esegui le operazioni.
+  Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come viene eseguito il rendering del contenuto sul sito web.
 
 * [Filtro eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
 
   Puoi modificare le espressioni regolari per modificare il modo in cui filtri pagine e risorse.
 
 
-Dopo aver apportato modifiche nell&#39;estensione Adobe Content Analytics, assicurati di utilizzare il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} per attivare le modifiche.
+Dopo aver apportato modifiche all&#39;estensione Adobe Content Analytics, assicurati di utilizzare [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta di dati in base alle modifiche apportate.
 
 
 
