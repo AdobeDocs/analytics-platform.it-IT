@@ -1,13 +1,13 @@
 ---
 title: Registri di audit
-description: Scopri come visualizzare e gestire i registri di audit del Customer Journey Analytics.
+description: Scopri come visualizzare e gestire i registri di audit di Customer Journey Analytics.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
+source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 60%
+source-wordcount: '893'
+ht-degree: 59%
 
 ---
 
@@ -36,7 +36,7 @@ Per aumentare la trasparenza e la visibilità delle attività eseguite nel siste
 
 In un certo senso, un registro di audit comunica **chi** ha eseguito **quale** azione, e **quando** l’a eseguita. Ogni azione registrata contiene metadati che indicano il tipo di azione, la data e l’ora, l’ID e-mail dell’utente che l’ha eseguita ed eventuali attributi aggiuntivi relativi al tipo di azione.
 
-Questo argomento descrive i registri di audit nel Customer Journey Analytics, e spiega come visualizzarli e gestirli nell’interfaccia utente.
+Questo argomento descrive i registri di audit in Customer Journey Analytics e spiega come visualizzarli e gestirli nell’interfaccia utente.
 
 ## Accedere ai registri di audit
 
@@ -66,9 +66,9 @@ Vengono visualizzati i seguenti elementi:
    * API_REQUEST: qualsiasi azione attiva una richiesta API back-end. Vengono visualizzati i dettagli relativi alla richiesta API.
    * APPROVA: è stata eseguita un’azione di &quot;approvazione&quot;.
    * CREATE: è stata eseguita un’azione &quot;create&quot;.
-   * DELETE: è stata eseguita un’azione &quot;delete&quot;.
+   * DELETE: è stata eseguita un’azione &quot;elimina&quot;.
    * MODIFICA: è stata eseguita un’azione di modifica.
-   * EMBARGO:
+   * EMBARGO: quando si limita una richiesta in [Reporting Activity Manager](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), l&#39;azione viene registrata nel Registro di controllo in EMBARGO.
    * EXPORT: è stata eseguita un’azione di &quot;esportazione&quot;.
    * ORG_CHANGE: È stata eseguita un&#39;azione di modifica dell&#39;organizzazione.
    * REFRESH: è stata eseguita un’azione di &quot;aggiornamento&quot;.
@@ -158,4 +158,4 @@ Puoi scaricare i registri di audit in formato CSV o JSON. Nei file scaricati ven
 
 ## Gestire i registri di audit tramite l’API
 
-Tutte le azioni che possono essere eseguite nell’interfaccia utente possono essere eseguite anche utilizzando le chiamate API. Per ulteriori informazioni, consulta il documento di riferimento API [Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs).
+Tutte le azioni che possono essere eseguite nell’interfaccia utente possono essere eseguite anche utilizzando le chiamate API. Per ulteriori informazioni, consulta il [documento di riferimento API di Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs).
