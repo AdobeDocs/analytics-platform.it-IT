@@ -1,14 +1,14 @@
 ---
 title: Come gestire le connessioni in Customer Journey Analytics
-description: Descrive come gestire le connessioni ai set di dati Experience Platform in Customer Journey Analytics (Customer Journey Analytics).
+description: Descrive come gestire le connessioni ai set di dati di Experience Platform in Customer Journey Analytics (Customer Journey Analytics).
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 7f2f2fc92c188c4cdfba7d87b7b64458daf2f0a6
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3913'
 ht-degree: 23%
 
 ---
@@ -23,7 +23,7 @@ Dopo aver creato o modificato [ una o più connessioni](/help/connections/create
 * Creare una visualizzazione dati a partire da una connessione.
 * Visualizza tutti i set di dati in una connessione.
 * Controlla lo stato dei set di dati della connessione e lo stato del processo di acquisizione. Ad esempio, quando sono disponibili i dati in modo da poter iniziare con il reporting e l’analisi in Analysis Workspace.
-* Identifica eventuali discrepanze di dati dovute a configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati nel Customer Journey Analytics?
+* Identifica eventuali discrepanze di dati dovute a configurazione errata. Vi mancano delle righe? In caso affermativo, quali righe mancano e perché? Hai configurato in modo errato le connessioni e causato la mancanza di dati in Customer Journey Analytics?
 * Ottieni informazioni sull’utilizzo delle righe acquisite e segnalabili in tutte le connessioni.
 
 [!UICONTROL Connections] ha due interfacce: [[!UICONTROL List]](#list) e [[!UICONTROL Usage]](#usage).
@@ -133,10 +133,10 @@ L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagli
 | Selettore set di dati | Consente di scegliere uno o tutti i set di dati della connessione. Non è possibile selezionare più set di dati. Predefinito su [!UICONTROL All datasets]. |
 | Selettore intervallo di date | Modifica la data di inizio e di fine oppure seleziona ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) per aprire il selettore dell&#39;intervallo di date. Nel selettore intervallo di date selezionare un intervallo di date utilizzando uno dei periodi predefiniti, ad esempio **[!UICONTROL Last 6 months]**, oppure utilizzare il calendario per selezionare le date di inizio e di fine. Selezionare **[!UICONTROL Apply]** per applicare il nuovo intervallo di date. |
 | [!UICONTROL Records of event data available] | Numero totale di righe del set di dati evento disponibili per il reporting, **per l&#39;intera connessione**. Questo conteggio è indipendente da qualsiasi impostazione del calendario. Il conteggio cambia se selezioni un set di dati dal selettore o selezionando un set di dati nella tabella. Una volta aggiunti i dati, vi è una latenza di 1-2 ore per far sì che vengano visualizzati nel reporting. |
-| [!UICONTROL Metrics] | Riepiloga i record evento, ricerca, profilo e set di dati di riepilogo aggiunti, saltati ed eliminati e il numero di batch aggiunti. Queste metriche si basano sul **set di dati e intervallo di date selezionati**.<p>Selezionare **[!UICONTROL Check detail]** per visualizzare la finestra a comparsa **[!UICONTROL Check skipped detail]**. Il pop-up elenca il numero di record saltati e il motivo di tutti i set di dati evento o di tutti i set di dati selezionati.<p><img src="./assets/skipped-records.png" width="500"/><p>Selezionare il popup ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) con ulteriori informazioni. Per alcuni motivi ignorati, ad esempio [!UICONTROL Empty visitor ID], nel popup viene visualizzato PSQL di esempio per EQS (Experience Platform per Query Service) utilizzabile in [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) per eseguire query per i record ignorati nel set di dati. Selezionare ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** per copiare SQL. |
+| [!UICONTROL Metrics] | Riepiloga i record evento, ricerca, profilo e set di dati di riepilogo aggiunti, saltati ed eliminati e il numero di batch aggiunti. Queste metriche si basano sul **set di dati e intervallo di date selezionati**.<p>Selezionare **[!UICONTROL Check detail]** per visualizzare la finestra a comparsa **[!UICONTROL Check skipped detail]**. Il pop-up elenca il numero di record saltati e il motivo di tutti i set di dati evento o di tutti i set di dati selezionati.<p><img src="./assets/skipped-records.png" width="500"/><p>Selezionare il popup ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) con ulteriori informazioni. Per alcuni motivi ignorati, ad esempio [!UICONTROL Empty visitor ID], nel popup viene visualizzato PSQL di esempio per EQS (Experience Platform for Query Service) che è possibile utilizzare in [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) per eseguire query per i record ignorati nel set di dati. Selezionare ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copy sample PSQL for EQS]** per copiare SQL. |
 | [!UICONTROL Records added] | Indica quante righe sono state aggiunte nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Aggiornato ogni 10 minuti. |
 | [!UICONTROL Records skipped] | Indica quante righe sono state saltate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati includono: marche temporali mancanti, ID persona mancante o non valido e così via. Aggiornato ogni 10 minuti. <p>Gli ID persona non validi (ad esempio `undefined` o `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che compaiono in un evento più di 1 milione di volte in un dato mese) sono ID che non possono essere attribuiti a un utente o persona specifica. Queste righe non possono essere acquisite nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Stitching](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che viene quindi ignorato durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo da zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
-| Eliminazione di [!UICONTROL Records] completata | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Qualcuno potrebbe aver eliminato un set di dati in [!DNL Experience Platform], ad esempio. Aggiornato ogni 10 minuti.<p>In alcuni scenari, questo valore può includere anche i record sostituiti, ad esempio con l’unione o alcuni aggiornamenti dei set di dati di ricerca. Prendi in considerazione questo esempio:</p><ul><li>Carichi un record in un set di dati Profilo individuale XDM, che il Customer Journey Analytics è configurato per acquisire come dati di ricerca profilo. Nei dettagli della connessione, questo set di dati visualizzerebbe 1 record aggiunto.</li><li>Carichi un duplicato del record originale nello stesso set di dati AEP, che ora contiene due record. Il Customer Journey Analytics acquisisce il record aggiuntivo dal set di dati di ricerca del profilo. Poiché nella connessione è già stato acquisito un record di profilo per tale ID persona, il Customer Journey Analytics elimina la versione precedente e aggiunge i nuovi dati del profilo. Nei dettagli della connessione, questa azione rappresenterebbe 1 record aggiunto e 1 record eliminato, perché il Customer Journey Analytics mantiene solo i dati di ricerca profilo più recenti per qualsiasi ID persona acquisito.</li><li>In totale, il set di dati AEP contiene due record che risultano identici. Separatamente, i dettagli della connessione al Customer Journey Analytics visualizzano lo stato dei dati acquisiti: 2 record aggiunti e 1 record eliminato per questo set di dati profilo. </li></ul> |
+| Eliminazione di [!UICONTROL Records] completata | Indica quante righe sono state eliminate nel periodo di tempo selezionato, **per il set di dati e l’intervallo di date selezionati**. Qualcuno potrebbe aver eliminato un set di dati in [!DNL Experience Platform], ad esempio. Aggiornato ogni 10 minuti.<p>In alcuni scenari, questo valore può includere anche i record sostituiti, ad esempio con l’unione o alcuni aggiornamenti dei set di dati di ricerca. Prendi in considerazione questo esempio:</p><ul><li>Carichi un record in un set di dati Profilo individuale XDM, che Customer Journey Analytics è configurato per acquisire come dati di ricerca profilo. Nei dettagli della connessione, questo set di dati visualizzerebbe 1 record aggiunto.</li><li>Carichi un duplicato del record originale nello stesso set di dati di AEP, che ora contiene due record. Customer Journey Analytics acquisisce il record aggiuntivo dal set di dati di ricerca del profilo. Vedendo che ha già acquisito un record di profilo nella connessione per quell’ID persona, Customer Journey Analytics elimina la versione precedente e aggiunge i nuovi dati del profilo. Nei dettagli della connessione, questa azione rappresenterebbe 1 record aggiunto e 1 record eliminato, perché Customer Journey Analytics mantiene solo i dati di ricerca profilo più recenti per qualsiasi ID persona acquisito.</li><li>In totale, il set di dati di AEP contiene due record che risultano identici. I dettagli della connessione a Customer Journey Analytics visualizzano separatamente lo stato dei dati acquisiti: 2 record aggiunti e 1 record eliminato per questo set di dati profilo. </li></ul> |
 | ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _Cerca nome o ID set di dati_ | Campo di ricerca del set di dati. È possibile eseguire ricerche nella tabella dei set di dati in base al nome o a [!UICONTROL Dataset ID]. |
 | [!UICONTROL Datasets table] | I set di dati che fanno parte della connessione. |
 | [!UICONTROL Datasets] | Nome del set di dati che fa parte della connessione. Puoi selezionare il collegamento ipertestuale per aprire il set di dati nell’interfaccia utente di Experience Platform in una nuova scheda. Puoi selezionare la riga o la casella di controllo per visualizzare i dettagli solo per il set di dati selezionato. |
@@ -148,7 +148,7 @@ L&#39;interfaccia dei dettagli Connessioni fornisce una visualizzazione dettagli
 | [!UICONTROL Last added] | La marca temporale dell’ultimo batch del set di dati aggiunto a una connessione. |
 | [!UICONTROL Data source type] | Tipo di origine del set di dati. Quando si crea una connessione, è possibile definire il tipo di origine. |
 | [!UICONTROL Dataset type] | Tipo di set di dati per questo set di dati. Il tipo può essere [!UICONTROL Event], [!UICONTROL Profile], [!UICONTROL Lookup] o [!UICONTROL Summary]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| Schema | Schema di Experience Platform su cui si basa il set di dati. |
+| Schema | Lo schema Experience Platform su cui si basa il set di dati. |
 | [!UICONTROL Import new data] | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Il]**se il set di dati è configurato per l&#39;importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Off_]** se il set di dati non è configurato per l&#39;importazione di nuovi dati. |
 | [!UICONTROL Transform data] | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _il]**per i set di dati applicabili abilitati per la trasformazione, <p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x disattivato_]** per i set di dati applicabili non abilitato per la trasformazione e<p>**[!UICONTROL N/A]** per tutti gli altri set di dati, non applicabile per la trasformazione. |
 | [!UICONTROL Backfill data] | Stato dei dati di backfill per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riusciti]**per il numero di backfill non riusciti,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _backfill in elaborazione]**per il numero di backfill in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui i backfill non siano configurati. |
@@ -186,7 +186,7 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 | Dettagli | Descrizione |
 | --- | --- |
-| [!UICONTROL Person ID] | Un’identità definita nello schema del set di dati nell’Experience Platform. Questa identità è l’ID persona selezionato durante la creazione della connessione. Se crei una connessione che include set di dati con ID diversi, il reporting lo riflette. Per unire i set di dati, devi utilizzare lo stesso ID persona in tutti i set di dati. |
+| [!UICONTROL Person ID] | Un’identità definita nello schema del set di dati in Experience Platform. Questa identità è l’ID persona selezionato durante la creazione della connessione. Se crei una connessione che include set di dati con ID diversi, il reporting lo riflette. Per unire i set di dati, devi utilizzare lo stesso ID persona in tutti i set di dati. |
 | [!UICONTROL Key] | Chiave specificata per un set di dati di ricerca. |
 | [!UICONTROL Matching Key] | Chiave corrispondente specificata per un set di dati di ricerca. |
 | [!UICONTROL Timestamp] | La marca temporale definita per un set di dati evento. |
@@ -197,10 +197,10 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 | [!UICONTROL Records skipped] | Quante righe sono state saltate durante l’acquisizione nel periodo di tempo selezionato.<p>I motivi per cui i record vengono ignorati includono: marche temporali mancanti, ID persona mancante o non valido e così via. Aggiornato ogni 10 minuti.<p>Gli ID persona non validi (ad esempio `undefined` o `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL Person ID] che appare in un evento più di 1 milione di volte in un dato mese) sono ID che non possono essere attribuiti a un utente o persona specifica. Queste righe non possono essere acquisite nel sistema e generano acquisizione e reporting soggetti a errori. Per correggere gli ID persona non validi, hai 3 possibilità:<ul><li>Utilizza [Stitching](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti solo da zeri con ID utente validi.</li><li>Rimuovi l’ID utente, che viene quindi ignorato durante l’acquisizione (da preferire agli ID utente non validi o agli ID composti solo da zeri).</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
 | [!UICONTROL Last added] | La marca temporale in cui è stato aggiunto l’ultimo batch. |
 | [!UICONTROL Import new data] | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Il]**se il set di dati è configurato per l&#39;importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Off_]** se il set di dati non è configurato per l&#39;importazione di nuovi dati. |
-| [!UICONTROL Backfill data] | Stato dei dati di backfill per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riusciti]**per il numero di backfill non riusciti,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _backfill in elaborazione]**per il numero di backfill in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurato alcun backfill.<p>Per visualizzare una finestra di dialogo con una panoramica dei precedenti backfill per il set di dati, seleziona <img src="./assets/pastbackfill.svg" alt="Backfill passati" width="15"/> **[!UICONTROL Past backfills]**. |
+| [!UICONTROL Backfill data] | Stato dei dati di backfill per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _backfill non riusciti]**per il numero di backfill non riusciti,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _backfill in elaborazione]**per il numero di backfill in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _backfill completati]**per il numero di backfill completati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurato alcun backfill.<p>Per visualizzare una finestra di dialogo con una panoramica dei precedenti backfill per il set di dati, seleziona <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Past backfills]**. |
 | [!UICONTROL Data source type] | Tipo di origine dati definito durante l’aggiunta del set di dati alla connessione. |
 | [!UICONTROL Dataset type] | [!UICONTROL Event], [!UICONTROL Profile], [!UICONTROL Lookup] o [!UICONTROL Summary]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| [!UICONTROL Schema] | Schema di Experience Platform su cui si basa questo set di dati. |
+| [!UICONTROL Schema] | Lo schema Experience Platform su cui si basa questo set di dati. |
 | [!UICONTROL Dataset ID] | Questo ID del set di dati viene generato in Experience Platform. |
 
 
@@ -356,10 +356,30 @@ Quando un set di dati viene selezionato nella tabella dei set di dati, in un pan
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_corereportablerows"
+>title="Righe principali da riportare"
+>abstract="Le righe principali da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_historicalreportablerows"
+>title="Righe storiche da riportare"
+>abstract="Le righe cronologiche da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_cumulativereportablerows"
+>title="Righe cumulative per reporting"
+>abstract="Le righe cumulative da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 L&#39;interfaccia [!UICONTROL Usage] mostra l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni. Se non è selezionata, selezionare la scheda **[!UICONTROL Usage]** per accedere all&#39;interfaccia.
 
-Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme ai termini contrattuali. Oltre a scopi di monitoraggio, è possibile utilizzare l&#39;interfaccia di utilizzo per pianificare il rinnovo della licenza del Customer Journey Analytics.
+Questa interfaccia consente di determinare se l&#39;utilizzo del Customer Journey Analytics è conforme a quanto stabilito contrattualmente. Oltre a scopi di monitoraggio, è possibile utilizzare l&#39;interfaccia di utilizzo per pianificare il rinnovo della licenza Customer Journey Analytics.
 
 L’interfaccia di utilizzo utilizza le metriche seguenti
 
@@ -368,7 +388,7 @@ L’interfaccia di utilizzo utilizza le metriche seguenti
 | Righe storiche da riportare | Numero di righe per il periodo più vecchio di 13 mesi. |
 | Righe principali da riportare | Numero di righe negli ultimi 13 mesi. |
 | Righe acquisite | Quante righe vengono acquisite per il periodo specifico. |
-| Righe da segnalare | Quante righe di dati hai come parte della connessione per il periodo specifico. |
+| Righe per reporting | Quante righe di dati hai come parte della connessione per il periodo specifico. |
 | Righe cumulative | Quante righe vengono acquisite fino al mese specifico. |
 
 >[!NOTE]
@@ -409,7 +429,7 @@ L’interfaccia di utilizzo è costituita da due pannelli:
 
 +++
 
-+++ Righe da segnalare
++++ Righe per reporting
 
   La visualizzazione **[!UICONTROL Reportable rows]** tiene traccia del numero di righe disponibili per il reporting sottraendo le righe saltate ed eliminate dalle righe acquisite, fungendo da metrica chiave per la fatturazione e l&#39;utilizzo dei dati. Il pannello secondario fornisce due riepiloghi:
 
@@ -422,7 +442,7 @@ L’interfaccia di utilizzo è costituita da due pannelli:
 
 +++
 
-+++ Dettaglio raggruppamento
++++ Raggruppamento dettagliato
 
   È possibile utilizzare la tabella **[!UICONTROL Detail breakdown]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono segnalati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati durante un periodo di reporting. I set di dati o le connessioni sconosciuti vengono segnalati utilizzando gli ID.
 
