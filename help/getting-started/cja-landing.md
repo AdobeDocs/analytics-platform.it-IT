@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '836'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,12 @@ Con Customer Journey Analytics puoi definire come collegare i dati online e offl
 Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Visita la [pagina di aggiornamenti della documentazione](../release-notes/doc-changes.md) per conoscere le ultime modifiche.
 
 >[!BEGINTABS]
+
+>[!TAB Content Analytics]
+
+Adobe Content Analytics consente di analizzare in modo rapido e semplice grandi volumi di dati sui contenuti per scoprire tendenze, individuare anomalie, identificare il sovraccarico di contenuti e ottenere informazioni approfondite dall’esposizione dei contenuti.
+
+[![immagine](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB Assistente IA]
 
@@ -65,18 +71,6 @@ Tramite l’unione basata sui grafici, puoi utilizzare il grafico Identità dell
 [![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_Per l’unione basata su grafici, è necessario disporre del pacchetto Prime._*
-
->[!TAB Ricerche B2B]
-
-Come parte della configurazione di una connessione, è possibile trasformare i set di dati per schemi di ricerca B2B specifici, per supportare meglio le ricerche basate su persone sui dati B2B.
-
-[![immagine](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
-
->[!TAB Campi derivati]
-
-Sono ora disponibili nuove funzioni per i campi derivati (Matematica, Successivo o Precedente, Riepilogo, Deduplica) e per i modelli di funzione aggiuntivi (come Mancati recapiti, Nome descrittivo set di dati, Vacanze, Obiettivi mensili, Rilevamento dei bot semplice e altri).
-
-[![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Estensione BI*]
 

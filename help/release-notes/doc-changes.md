@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: ht
-source-wordcount: '4644'
-ht-degree: 100%
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
+workflow-type: tm+mt
+source-wordcount: '4681'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Aprile 2025** | |
+| Analisi dei contenuti | [Documentazione](/help/content-analytics/content-analytics.md) per Adobe Content Analytics. Content Analytics consente di analizzare in modo rapido e semplice grandi volumi di dati sui contenuti per individuare tendenze, individuare anomalie, identificare l’eccesso di contenuti e ottenere informazioni approfondite dall’esposizione dei contenuti. |
 | **Marzo 2025** | |
 | Casi d’uso della metrica quantistica | Sono stati aggiunti casi d’uso per la raccolta di dati da [Metrica quantistica](/help/use-cases/third-party/quantum-metric/collect-session-id.md). |
 | **Febbraio 2025** |  |
