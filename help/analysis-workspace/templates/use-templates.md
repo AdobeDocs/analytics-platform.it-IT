@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 6480eb4cd5210cd9318614a507516bd3736da40a
+source-git-commit: 32d7d2f21e2f906e25d0dfccd92d0be2f515d781
 workflow-type: tm+mt
-source-wordcount: '19642'
+source-wordcount: '19643'
 ht-degree: 85%
 
 ---
@@ -538,7 +538,7 @@ Sono disponibili i seguenti modelli:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Scopri le prestazioni migliori per gli attributi di contenuto e contenuto."
->abstract="**Questo può aiutarti** ad apprendere le prestazioni del tuo contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnare loro i tag ai contenuti. [Ulteriori informazioni](/help/content-analytics/content-analytics.md).<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come promuovere risorse ad alte prestazioni nella tua home page, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o ruotare il contenuto che ha iniziato a diventare obsoleto."
+>abstract="**Questo può aiutarti** ad apprendere le prestazioni del tuo contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnare loro i tag ai contenuti. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}.<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come promuovere risorse ad alte prestazioni nella tua home page, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o ruotare il contenuto che ha iniziato a diventare obsoleto."
 
 <!-- markdownlint-enable MD034 -->
 
