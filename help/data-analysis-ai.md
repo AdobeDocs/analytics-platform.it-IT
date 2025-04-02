@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
+source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1824'
 ht-degree: 3%
 
 ---
@@ -22,15 +22,15 @@ L’utilizzo dell’agente di Data Insights per rispondere a domande incentrate 
 
 ![Agente di Data Insights nell&#39;Assistente AI](assets/cja-ai-asst-da.gif)
 
-## Funzioni interne ed esterne all’ambito per la versione di Alpha
+## Funzionalità interne ed esterne all&#39;ambito per Beta
 
-### Funzioni di Alpha nell’ambito
+### Funzioni di Beta nell’ambito
 
 | Funzione supportata | Descrizione |
 | --- | --- |
 | **Creare e aggiornare visualizzazioni** | Genera una tabella a forma libera e la relativa visualizzazione (ad esempio una linea, una barra, un anello e così via).<p>Esempio: *Qual è il profitto tra SKU da febbraio a maggio?* |
 | **Tipi di visualizzazione supportati** | <ul><li>A linee</li><li>Multiriga</li><li>Tabella a forma libera</li><li>Barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> |
-| **Rilevamento prompt fuori ambito** | Se si invia un messaggio che non rientra nell&#39;ambito, ad esempio &quot;Esporta il progetto&quot;, l&#39;Assistente risponde informando che la domanda non rientra nell&#39;ambito. |
+| **Rilevamento prompt fuori ambito** | Se invii un messaggio che esula dall’ambito, ad esempio &quot;esporta questo progetto&quot;, Data Insights Agent risponde informandoti che la domanda non rientra nell’ambito. |
 | **Domande chiarificatrici** | Se fai una domanda che non ha abbastanza contesto per cui l’agente di Data Insights deve rispondere, o che è troppo generica, l’agente di Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Filtro: *Quale filtro &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via. |
 | **Turno multiplo** | L’agente di Data Insights risponde a un prompt con il contesto proveniente da qualsiasi prompt precedente, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up. Esempio: <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> |
 | **Verificabilità** | La verificabilità e la correttezza dei dati possono essere confermate tramite la tabella a forma libera generata e la visualizzazione dei dati. Ad esempio, se un utente chiede *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;mese scorso&quot;) sono stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati. |
@@ -41,7 +41,7 @@ L’utilizzo dell’agente di Data Insights per rispondere a domande incentrate 
 | Funzione non supportata | Descrizione |
 | --- | --- |
 | **Riepilogo o risposta in linea** | L’agente di Data Insights non può rispondere in linea nella barra della chat con una risposta di riepilogo di un prompt utente. Esempio di prompt fuori ambito:<ul><li>*Visualizza un riepilogo delle informazioni contenute nell&#39;ultimo prompt.*</li><li>*Riepiloga gli elementi di rilievo dalla visualizzazione delle linee.*</li></ul> |
-| **Domande chiarificatrici** | Le domande più chiare sono limitate ai componenti e agli elementi dimensionali. L’agente di Data Insights non è in grado di chiarire elementi quali visualizzazioni dati, visualizzazioni, granularità dei dati, confronto e ambito. Quando non è possibile utilizzare le domande di chiarimento, l&#39;Assistente utilizza per impostazione predefinita ciò che viene richiesto. Se restituisce una visualizzazione o una granularità dei dati impreviste, puoi utilizzare la funzionalità multi-turn/update per regolare la visualizzazione e i dati. |
+| **Domande chiarificatrici** | Le domande più chiare sono limitate ai componenti e agli elementi dimensionali. L’agente di Data Insights non è in grado di chiarire elementi quali visualizzazioni dati, visualizzazioni, granularità dei dati, confronto e ambito. Quando non è possibile utilizzare le domande di chiarimento, l’agente utilizza per impostazione predefinita ciò che viene richiesto con maggiore probabilità. Se restituisce una visualizzazione o una granularità dei dati impreviste, puoi utilizzare la funzionalità multi-turn/update per regolare la visualizzazione e i dati. |
 | **Azioni/funzionalità Workspace** | L’agente di Data Insights non può intraprendere azioni per un utente in Workspace a parte la creazione e l’aggiornamento delle visualizzazioni. Ad esempio, non può effettuare nessuna delle seguenti operazioni:<ul><li>Pulsanti dell’interfaccia utente per le azioni contestuali (aggiungi al grafico, nuovo pannello, nuova tabella)</li><li>Condividi</li><li>Esportazione</li><li>Scaricare</li><li>Gestire le preferenze utente</li><li>Cura</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li></ul> |
 | **Tipi di visualizzazione non supportati** | <ul><li>Flusso</li><li>Fallout (abbandono)</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Bullet</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li></ul> |
 
@@ -51,7 +51,7 @@ I seguenti parametri regolano l’accesso all’agente di Data Insights in Custo
 
 * **Accesso alla soluzione**: l&#39;agente Data Insights è disponibile per i clienti Customer Journey Analytics Prime e Ultimate. Non è disponibile in Adobe Analytics.
 
-* **Accesso contrattuale**: se non sei in grado di utilizzare l&#39;agente Data Insights nell&#39;Assistente AI, contatta l&#39;amministratore della tua organizzazione o il rappresentante dell&#39;account Adobe. Prima che la tua organizzazione possa utilizzare l’agente di approfondimenti dati nell’Assistente di intelligenza artificiale, devi accettare alcuni termini legali relativi a GenAI.
+* **Accesso contrattuale**: se non sei in grado di utilizzare l&#39;agente Data Insights nell&#39;Assistente AI, contatta l&#39;amministratore della tua organizzazione o il rappresentante dell&#39;account Adobe. Prima che la tua organizzazione possa utilizzare Data Insights Agent, devi accettare alcuni termini legali relativi a GenAI.
 
 * **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** determina l&#39;accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
    1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
@@ -90,7 +90,7 @@ Per ulteriori informazioni, vedere [Controllo dell&#39;accesso](/help/technotes/
 
    ![Icona Assistente IA](/help/assets/ai-asst-icon.png)
 
-6. Nella finestra di dialogo **[!UICONTROL Ask about Customer Journey Analytics]** nella parte inferiore della pagina, fai una domanda sulla visualizzazione dei dati nell&#39;Assistente AI.
+6. Nella finestra di dialogo **[!UICONTROL Ask about Customer Journey Analytics]** nella parte inferiore della pagina, fai una domanda sulla visualizzazione dei dati utilizzando l&#39;agente di approfondimenti dati.
 
    Per ulteriori informazioni, vedi gli esempi seguenti.
 
@@ -102,7 +102,7 @@ Ad esempio, supponiamo che tu sia interessato agli ordini ricevuti dalla tua azi
 
 ![prompt IA](/help/assets/ai-asst-prompt1.png)
 
-**Risposta:** l&#39;agente di Data Insights nell&#39;Assistente di intelligenza artificiale raccoglie informazioni approfondite esaminando i dati nella visualizzazione dati, incluse le metriche e i componenti. Traduce il prompt nelle dimensioni e nelle metriche corrette all’interno dell’intervallo di dati.
+**Risposta:** l&#39;agente di Data Insights raccoglie informazioni approfondite esaminando i dati nella visualizzazione dati, incluse le metriche e i componenti. Traduce il prompt nelle dimensioni e nelle metriche corrette all’interno dell’intervallo di dati.
 
 Come puoi vedere, ha generato automaticamente un grafico a linee e una tabella a forma libera per mostrare gli ordini di luglio.
 
@@ -114,13 +114,13 @@ Ora vuoi vedere come si confrontano i ricavi per regione.
 
 **Prompt:** Nella finestra del prompt, immettere *&quot;Mostra ricavi per area&quot;*
 
-**Risposta:** l&#39;agente di Data Insights nell&#39;Assistente di intelligenza artificiale comprende in modo intelligente che per &quot;area&quot; si intende &quot;area cliente&quot;. Produce un grafico a barre che mostra al meglio i ricavi per area:
+**Risposta:** l&#39;agente di approfondimenti dati capisce in modo intelligente che per &quot;area&quot; si intende &quot;area cliente&quot;. Produce un grafico a barre che mostra al meglio i ricavi per area:
 
 ![Grafico a barre](/help/assets/ai-asst-result2.png)
 
 ### Esempio 3
 
-Quindi, oltre a comprendere i ricavi per regione, è necessario visualizzare anche i dati relativi ai profitti per regione. Invece di ripetere il prompt precedente, puoi chiedere all’Assistente IA di aggiornare la visualizzazione e la tabella a forma libera più recenti.
+Quindi, oltre a comprendere i ricavi per regione, è necessario visualizzare anche i dati relativi ai profitti per regione. Invece di ripetere la richiesta precedente, puoi chiedere all’agente di Data Insights di aggiornare la visualizzazione e la tabella a forma libera più recenti.
 
 **Prompt:** Nella finestra del prompt, digitare *&quot;Aggiungi profitto.&quot;*
 
@@ -134,7 +134,7 @@ Infine, esaminiamo i ricavi per categoria di prodotto.
 
 **Prompt:** Nella finestra del prompt, immettere *&quot;Proporzione di ricavi per categoria di prodotto.&quot;*
 
-**Risposta:** Anche in questo caso, l&#39;agente Data Insights dell&#39;Assistente AI sceglie la visualizzazione più appropriata, in questo caso la visualizzazione **[!UICONTROL Donut]**, per rispondere alla domanda.
+**Risposta:** Anche in questo caso, l&#39;agente Data Insights sceglie la visualizzazione più appropriata, in questo caso la visualizzazione **[!UICONTROL Donut]**, per rispondere alla domanda.
 
 ![Anello](/help/assets/ai-asst-result3.png)
 
@@ -171,9 +171,9 @@ Per ottenere i migliori risultati, considera le seguenti linee guida:
 
 * Poni domande dirette: la formulazione delle domande facilita il compito dell’agente di Data Insights di fornire informazioni chiare e pertinenti. Di seguito è riportato un esempio di una domanda diretta in un prompt: &quot;Qual è il reddito medio per categoria di prodotto quest&#39;anno?&quot;
 
-Rivedi la seguente tabella di termini e frasi di esempio che puoi utilizzare nei prompt con l’agente Data Insights nell’Assistente AI, insieme ai tipi di risposte che è possibile prevedere.
+Rivedi la seguente tabella di termini e frasi di esempio che puoi utilizzare nei prompt con l’agente di Data Insights, insieme ai tipi di risposte che puoi aspettarti.
 
-Questi esempi sono progettati per aiutarti a comprendere in che modo parole o strutture specifiche possono influenzare l’output dell’Assistente AI, garantendo informazioni più precise e preziose. L’agente di Data Insights nell’Assistente AI utilizza l’intelligenza artificiale generativa, pertanto le visualizzazioni o i dati selezionati possono variare leggermente in base a prompt simili.
+Questi esempi sono progettati per aiutarti a comprendere in che modo parole o strutture specifiche possono influenzare l’output di Data Insight Agent, garantendo informazioni più precise e preziose. L’agente di Data Insights utilizza l’intelligenza artificiale generativa, pertanto le visualizzazioni o i dati selezionati possono variare leggermente in base a prompt simili.
 
 | Risultato desiderato | Termini e frasi di esempio |
 | --- | --- |
@@ -187,9 +187,9 @@ Questi esempi sono progettati per aiutarti a comprendere in che modo parole o st
 
 Dopo aver posto ciascuna domanda, rivedi attentamente la risposta fornita dall’assistente. È fondamentale valutare in modo completo le visualizzazioni generate prima di fornire un feedback.
 
-Quando valuti una risposta dell’agente di Data Insights nell’Assistente AI, considera quanto segue:
+Quando valuti una risposta dall’agente di Data Insights, considera quanto segue:
 
-* Risposta o modello della barra di chat: valuta la risposta testuale fornita dall’Assistente. La risposta è appropriata dato il contesto della richiesta?
+* Risposta o modello della barra di chat: valuta la risposta testuale fornita. La risposta è appropriata dato il contesto della richiesta?
 
 * Visualizzazione/grafico: valuta la visualizzazione. È la visualizzazione appropriata o prevista per la domanda, o ti saresti aspettato una visualizzazione diversa?
 
@@ -203,4 +203,4 @@ Dopo la selezione del pollice verso l&#39;alto o del pollice verso il basso, eff
 
 ## Domande e contatti
 
-* Invia domande e feedback nel canale Slack di Alpha: #cja-assistant-data-alpha
+* Invia domande e feedback nel canale Slack di Beta: #data-insights-agent-in-cja-beta
