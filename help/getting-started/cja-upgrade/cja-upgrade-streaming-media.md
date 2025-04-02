@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Durante i passaggi per l’aggiornamento da Adobe Analytics a Customer Journey A
 
 * Durante la creazione di una visualizzazione dati per Customer Journey Analytics, includi i campi di schema richiesti per Streaming Media Collection.
 
-  Assicurati di mappare questi campi schema ai valori corretti nell’oggetto XDM.
+  Accertati di mappare questi campi schema ai valori corretti nell’oggetto XDM.
 
   Per ulteriori informazioni sui campi obbligatori, vedere [Creare una visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) nella Guida di Streaming Media Collection.
 
