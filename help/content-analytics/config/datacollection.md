@@ -6,13 +6,13 @@ feature: Content Analytics
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
+exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
+source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
-
 
 # Raccolta dati di Content Analytics
 
@@ -24,11 +24,13 @@ Questo articolo spiega in dettaglio come Content Analytics raccoglie i dati
 Nel contesto del presente articolo si utilizzano le seguenti definizioni:
 
 * **Esperienza**: per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID. Content Analytics non registra il testo sulla pagina.
-* **Risorsa**: immagine. Content Analytics registra l’URL della risorsa.
-* **URL rilevante**: l&#39;URL di base più eventuali parametri che determinano il contenuto della pagina.
 * **Experience ID**: combinazione univoca di URL rilevanti e versione esperienza.
    * Specifica, come parte della [configurazione](configuration.md), quali parametri sono rilevanti per ogni URL completo specificato.
-   * È possibile definire l&#39;[identificatore di versione](manual.md#versioning) utilizzato. Per la raccolta dati, la versione non viene considerata. Viene raccolto solo l’URL rilevante.
+   * È possibile definire l&#39;[identificatore di versione](manual.md#versioning) utilizzato.
+* **Risorsa**: immagine. Content Analytics registra l’URL della risorsa.
+* **ID risorsa**: URL della risorsa.
+* **URL rilevante**: l&#39;URL di base più eventuali parametri che determinano il contenuto della pagina.
+
 
 ## Funzionalità
 
@@ -38,7 +40,7 @@ La libreria Content Analytics raccoglie dati quando:
 * L&#39;URL della pagina è configurato nell&#39;estensione [Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, parte della libreria Tag inclusa.
 
 
-### Evento Content Analytics
+## Evento Content Analytics
 
 Un evento Content Analytics è costituito da:
 
@@ -50,7 +52,15 @@ Un evento Content Analytics è costituito da:
 * Visualizzazioni risorse (se presenti e se configurate)
 * Clic su risorsa (se presenti e se configurati)
 
-#### Visualizzazioni o clic registrati
+
+Gli eventi Content Analytics vengono raccolti come sequenza di:
+
+1. [Visualizzazione registrata o clic](#recorded-view-or-click).
+1. [Un evento regolare o specifico (comportamentale)](#regular-or-specific-behaviorial-event).
+
+Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere una visualizzazione o fare clic separatamente dalla raccolta dell’evento immediatamente successivo alla visualizzazione o fare clic su. Questo modo di raccogliere i dati di analisi dei contenuti riduce anche la quantità di dati raccolti. raccolta di dati.
+
+### Visualizzazione registrata o clic su
 
 Viene registrata una visualizzazione delle risorse quando:
 
@@ -73,26 +83,19 @@ Un clic sull&#39;esperienza viene registrato quando:
 * Qualsiasi clic si verifica su un collegamento nella pagina per il quale sono abilitate le esperienze.
 
 
-#### Eventi inviati
+### Evento regolare o specifico (comportamentale)
 
-Gli eventi Content Analytics vengono inviati quando si verificano le due condizioni seguenti:
+Gli attivatori per attivare un evento regolare o specifico (comportamentale) nel contesto di Content Analytics sono:
 
-* Il contenuto viene inviato quando:
-
-   * Viene registrata una visualizzazione o un clic su una risorsa.
-   * Viene registrata una visualizzazione esperienza o un clic su.
-
-* Viene attivato un trigger per l’invio di un evento, che si verifica quando:
-
-   * Web SDK o AppMeasurement invia un evento.
-   * La visibilità diventa nascosta, ad esempio:
-      * Download delle pagine
-      * Cambia scheda
-      * Riduci a icona browser
-      * Chiudi browser
-      * Schermata di blocco
-   * L’URL viene modificato e diventa un URL rilevante modificato.
-   * Le visualizzazioni di una risorsa superano il limite batch di 32.
+* Web SDK o AppMeasurement invia un evento.
+* La visibilità diventa nascosta, ad esempio:
+   * Download delle pagine
+   * Cambia scheda
+   * Riduci a icona browser
+   * Chiudi browser
+   * Schermata di blocco
+* L’URL viene modificato e diventa un URL rilevante modificato.
+* Le visualizzazioni di una risorsa superano il limite batch di 32.
 
 
 ## Schemi
