@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 0%
 # Configurare l’analisi dei contenuti
 
 {{release-limited-testing}}
+
 
 La configurazione di Content Analytics prevede i seguenti passaggi:
 
@@ -42,8 +43,8 @@ Prima di configurare Content Analytics, verifica che siano soddisfatti i seguent
 * Hai considerato attentamente le seguenti importanti opzioni di configurazione:
 
    * Il tuo sito è adatto per la generazione di rapporti sull’esperienza. La generazione di rapporti sull’esperienza corretta è possibile solo quando vengono soddisfatte le seguenti condizioni:
-      * Puoi accedere al contenuto del sito solo tramite URL rivolti al pubblico. L’accesso al sito non richiede token personalizzati, cookie o altri meccanismi non disponibili tramite l’URL.
-      * Le pagine del sito sono riproducibili utilizzando l’URL della pagina e comprendi quali parametri URL facoltativi guidano le esperienze.
+      * Le pagine del sito devono essere riproducibili utilizzando l’URL della pagina.
+      * Il contenuto di testo visualizzato da un utente può essere riprodotto utilizzando l’URL della pagina e non dipende da cookie o altri meccanismi di personalizzazione.
    * Hai una chiara comprensione delle pagine che desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
    * Hai una chiara comprensione di quale (tipo di) risorsa desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
 

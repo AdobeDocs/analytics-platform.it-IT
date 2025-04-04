@@ -7,14 +7,16 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
 # Raccolta dati di Content Analytics
+
+{{release-limited-testing}}
 
 Questo articolo spiega in dettaglio come Content Analytics raccoglie i dati
 
@@ -23,8 +25,8 @@ Questo articolo spiega in dettaglio come Content Analytics raccoglie i dati
 
 Nel contesto del presente articolo si utilizzano le seguenti definizioni:
 
-* **Esperienza**: per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID. Content Analytics non registra il testo sulla pagina.
-* **Experience ID**: combinazione univoca di URL rilevanti e versione esperienza.
+* **Esperienza**: per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID basato sull’URL della pagina. Successivamente, il testo sulla pagina viene acquisito tramite il servizio di recupero.
+* **Experience ID**: combinazione univoca di URL rilevanti (URL di base più eventuali parametri che determinano il contenuto della pagina) e [experience version](manual.md#versioning).
    * Specifica, come parte della [configurazione](configuration.md), quali parametri sono rilevanti per ogni URL completo specificato.
    * È possibile definire l&#39;[identificatore di versione](manual.md#versioning) utilizzato.
 * **Risorsa**: immagine. Content Analytics registra l’URL della risorsa.
@@ -64,7 +66,7 @@ Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, 
 
 Viene registrata una visualizzazione delle risorse quando:
 
-* La risorsa non è stata esclusa in base alla configurazione dell&#39;estensione ACA.
+* La risorsa non è stata esclusa in base alla configurazione dell&#39;estensione Content Analytics.
 * La risorsa è visualizzata al 75%.
 * La risorsa non è già stata registrata per questa pagina.
 
@@ -100,7 +102,7 @@ Gli attivatori per attivare un evento regolare o specifico (comportamentale) nel
 
 ## Schemi
 
-I dati di Content Analytics vengono raccolti in set di dati in Experience Platform, in base a schemi Content Analytics specifici. Gli schemi di riferimento sono disponibili al pubblico e vengono utilizzati in un’implementazione predefinita di Content Analytics.
+I dati di Content Analytics vengono raccolti in set di dati in Experience Platform, in base a schemi Content Analytics specifici. Gli schemi di riferimento sono disponibili al pubblico:
 
 * [Schema risorse digitali](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [Schema esperienza digitale](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)
