@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
+source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Gli eventi Content Analytics vengono raccolti come sequenza di:
 1. [Visualizzazione registrata o clic](#recorded-view-or-click).
 1. [Un evento regolare o specifico (comportamentale)](#regular-or-specific-behaviorial-event).
 
-Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere una visualizzazione o fare clic separatamente dalla raccolta dell’evento immediatamente successivo alla visualizzazione o fare clic su. Questo modo di raccogliere i dati di analisi dei contenuti riduce anche la quantità di dati raccolti. raccolta di dati.
+Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere una visualizzazione o fare clic separatamente dalla raccolta dell’evento immediatamente successivo alla visualizzazione o fare clic su. Questo modo di raccogliere i dati di analisi dei contenuti riduce anche la quantità di dati raccolti.
 
 ### Visualizzazione registrata o clic su
 
@@ -71,7 +71,7 @@ Viene registrata una visualizzazione delle risorse quando:
 Un clic su risorsa viene registrato quando:
 
 * La risorsa è stata visualizzata.
-* La risorsa non è stata esclusa in base alla configurazione dell&#39;estensione ACA.
+* La risorsa non è stata esclusa in base alla configurazione dell&#39;estensione Content Analytics.
 * Un clic direttamente sulla risorsa, che è un collegamento, porta a un’altra pagina.
 
 Viene registrata una visualizzazione dell’esperienza quando:
@@ -95,7 +95,7 @@ Gli attivatori per attivare un evento regolare o specifico (comportamentale) nel
    * Chiudi browser
    * Schermata di blocco
 * L’URL viene modificato e diventa un URL rilevante modificato.
-* Le visualizzazioni di una risorsa superano il limite batch di 32.
+* Le visualizzazioni delle risorse registrate e pronte per l’invio superano il numero di 32.
 
 
 ## Schemi
