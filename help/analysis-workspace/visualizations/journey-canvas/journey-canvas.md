@@ -4,10 +4,10 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
 workflow-type: tm+mt
 source-wordcount: '1893'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Area di lavoro percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso a Adobe Journey Optimizer può analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Area di lavoro percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso a Adobe Journey Optimizer può analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -81,17 +81,17 @@ L’area di lavoro percorso fornisce informazioni fruibili per i percorsi più c
 
 ### Percorso con il tasso di conversione più alto {#conversion-rate-caption}
 
-L’informazione più importante nell’area di lavoro del Percorso viene visualizzata come una didascalia nella parte superiore dell’area stessa.
+L’insight più importante nell’area di lavoro del Percorso viene visualizzata come didascalia nella parte superiore dell’area stessa.
 
 Questa didascalia riassume quale di tutti i percorsi nel percorso ha avuto il più alto tasso di conversione.
 
 Se il percorso contiene più nodi iniziali, la didascalia avrà l&#39;aspetto seguente:
 
-![Didascalia approfondimento area di lavoro Percorsi](assets/journey-canvas-caption.png)
+![Didascalia Percorsi canvas insight](assets/journey-canvas-caption.png)
 
 Quando il percorso contiene un singolo nodo iniziale, la didascalia si presenta così:
 
-![didascalia di approfondimento area di lavoro Percorso nodo single start](assets/journey-canvas-caption-singlestart.png)
+![Percorso area di lavoro sottotitolo insight nodo single start](assets/journey-canvas-caption-singlestart.png)
 
 Quando interpreti questa didascalia, tieni presente quanto segue:
 

@@ -48,7 +48,7 @@ _Questo articolo documenta il pannello Visualizzatori simultanei di contenuti mu
 
 Il pannello **[!UICONTROL Media concurrent viewers]** consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.
 
-Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il picco di concorrenza o dove si è verificato un calo, così da fornire informazioni sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori. E per risolvere problemi o pianificare volumi o scala.
+Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il picco di concorrenza o dove si è verificato un calo, così da fornire ad insight preziosi dati sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori. E per risolvere problemi o pianificare volumi o scala.
 
 In Analysis Workspace, la metrica Visualizzatori simultanei è il numero di persone univoche che visualizzano i flussi multimediali in un momento specifico, indipendentemente dal numero di sessioni.
 

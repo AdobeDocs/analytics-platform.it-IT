@@ -4,10 +4,10 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
 workflow-type: tm+mt
-source-wordcount: '2097'
-ht-degree: 17%
+source-wordcount: '2129'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ Per utilizzare il pannello Sperimentazione:
    | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 3 mesi. |
    | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success metrics]** utenti | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (massimo o minimo) è dichiarata la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing metric]** | Base ([!UICONTROL People], [!UICONTROL Sessions] o [!UICONTROL Events]) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come Visualizzazione pagina |
+   | **[!UICONTROL Normalizing metric]** | Base (**[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]** o **[!UICONTROL Events]**) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come Visualizzazione pagina. |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Abilita questa opzione per mostrare i limiti superiori e inferiori per i livelli di affidabilità. |
 
 

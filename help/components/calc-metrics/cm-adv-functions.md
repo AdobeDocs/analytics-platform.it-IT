@@ -6,8 +6,8 @@ exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
-source-wordcount: '4376'
-ht-degree: 58%
+source-wordcount: '4964'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elen
 
 Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
 
-Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"}[!BADGE Riga]{type="Neutral"}
+Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"} o [!BADGE Riga]{type="Neutral"}
 
 ## Che cosa significa il parametro include-zeros?
 
@@ -93,7 +93,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcocoseno, o inverso del coseno, di una metrica. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( ).
 
 
 | Argomento | Descrizione |
@@ -116,7 +116,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcoseno in gradi, moltiplicate il risultato per 180/PI().
 
 
 | Argomento | Descrizione |
@@ -139,7 +139,7 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcotangente, o tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
 
 
 | Argomento | Descrizione |
@@ -221,7 +221,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il numero intero più piccolo, non inferiore a un valore specificato. 70 esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,93 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $.
 
 | Argomento | Descrizione |
 |---|---|
@@ -315,7 +315,7 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il coseno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
 
 | Argomento | Descrizione |
 |---|---|
@@ -440,7 +440,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
@@ -463,7 +463,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce Y.
 
 
 | Argomento | Descrizione |
@@ -487,7 +487,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -510,7 +510,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce a.
 
 
 | Argomento | Descrizione |
@@ -533,7 +533,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;intero più grande non maggiore di un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 569 $.
 
 | Argomento | Descrizione |
 |---|---|
@@ -605,7 +605,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il coseno iperbolico di un numero.
 
 
 | Argomento | Descrizione |
@@ -627,7 +627,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il seno iperbolico di un numero.
 
 | Argomento | Descrizione |
 |---|---|
@@ -647,7 +647,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce la tangente iperbolica di un numero.
 
 | Argomento | Descrizione |
 |---|---|
@@ -668,7 +668,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Se il valore del parametro di condizione è diverso da zero (true), il risultato sarà il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false.
 
 
 | Argomento | Descrizione |
@@ -766,7 +766,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
@@ -791,7 +791,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce b.
 
 
 | Argomento | Descrizione |
@@ -816,7 +816,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce Y.
 
 
 | Argomento | Descrizione |
@@ -840,7 +840,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -863,7 +863,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il logaritmo base 10 di un numero.
 
 
 | Argomento | Descrizione |
@@ -884,7 +884,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -906,7 +906,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -929,7 +929,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -952,7 +952,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1045,7 +1045,7 @@ Non uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+Disgiunzione [!BADGE Riga]{type="Neutral"}. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero).
 
 
 | Argomento | Descrizione |
@@ -1087,7 +1087,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1111,7 +1111,7 @@ Restituisce Pi: 3,14159...
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce b.
 
 
 | Argomento | Descrizione |
@@ -1134,7 +1134,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1157,7 +1157,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1180,7 +1180,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1201,7 +1201,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1223,7 +1223,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1245,7 +1245,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1268,7 +1268,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1290,7 +1290,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1312,7 +1312,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1334,7 +1334,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1380,7 +1380,7 @@ Calcola una stima della varianza del campione.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il seno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
 
 
 | Argomento | Descrizione |
@@ -1492,7 +1492,7 @@ Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, mo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} la deviazione dalla media divisa per la deviazione standard.
 
 | Argomento | Descrizione |
 |---|---|
