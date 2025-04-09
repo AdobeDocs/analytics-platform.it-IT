@@ -5,10 +5,10 @@ exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: af88be97f303095129177b2132c6711c648cea34
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,7 @@ La deduplica delle metriche consente di configurare una metrica in modo da conte
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Metric deduplication] | Una casella di controllo che consente di abilitare la deduplicazione delle metriche. Disabilitata per impostazione predefinita. |
-| [!UICONTROL Deduplication scope] | Consente di determinare quanto indietro nel tempo deve effettuarsi la verifica univoca.<br>**Sessione**: viene conteggiata solo la prima occorrenza metrica della sessione.<br>**Persona**: viene conteggiata solo la prima occorrenza metrica nell’intervallo di reporting. |
+| [!UICONTROL Deduplication scope] | Consente di determinare quanto indietro nel tempo deve effettuarsi la verifica univoca.<br/>**[!UICONTROL Global account]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Account]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Opportunity]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Buying group]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Person]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br>**[!UICONTROL Session]**: viene conteggiata solo la prima occorrenza metrica della sessione.<br> |
 | [!UICONTROL Deduplication ID] | Invece di applicare la deduplicazione sulla metrica stessa, puoi applicare la deduplicazione metrica in base a una dimensione. Impostazione molto utile per dimensioni quali l&#39;ID acquisto. |
 | [!UICONTROL Value to keep] | <ul><li>**Mantieni prima istanza**: utilizza questa opzione nelle situazioni in cui l’istanza iniziale della metrica è quella valida. Ad esempio, per una conferma di acquisto: se l’utente ricarica inavvertitamente la pagina e questo genera un’altra istanza di conferma dell’acquisto, l’evento valido resta comunque quello iniziale.</li><li>**Mantieni ultima istanza**: utilizza questa opzione in situazioni in cui conviene raccogliere l’ultima istanza. Esempio: l’utente aggiorna il suo profilo online. In questo caso sarà necessario contare solo uno di tali aggiornamenti per sessione. Tuttavia, l’utente può aggiornare il profilo più volte durante una sessione. Se si mantenesse la prima istanza, alcune attività potrebbero non essere associate all’evento. In casi simili, conviene mantenere l’ultima istanza.</li></ul> |
 
