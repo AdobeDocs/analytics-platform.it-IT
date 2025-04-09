@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 79%
+source-wordcount: '958'
+ht-degree: 72%
 
 ---
 
@@ -84,20 +84,26 @@ Dettagli sulle impostazioni di allocazione disponibili.
   | First known (Primo noto) | C | C | C | C | C |
   | Last known (Ultimo noto) | A | A | A | A | A |
 
+
 ## [!UICONTROL Expiration] del profilo
 
 Dettagli sulle impostazioni di scadenza disponibili.
 
 * **Sessione**: scade dopo una determinata sessione. Finestra di scadenza predefinita.
-* **Persona**: scade alla fine dell’intervallo di reporting.
+* **Finestra di reporting per persona**: scade alla fine dell&#39;intervallo di reporting.
+* **Finestra di reporting account globale** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
+* **Finestra di reporting account** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
+* **Finestra di reporting opportunità** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
+* **Finestra di reporting per gruppi di acquisto** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
 * **Orario personalizzato**: scade dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
 * **Metrica**: quando questa metrica viene visualizzata in un evento, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
+
 
 ## [!UICONTROL Binding Dimension]
 
 Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
 
-Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedere [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
+Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedere [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
 
 
 >[!BEGINSHADEBOX]
@@ -111,6 +117,6 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 Elenco a discesa che consente di scegliere una metrica che funge da trigger di binding. Le opzioni valide includono le metriche incluse nella visualizzazione dati.
 
-Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nella matrice dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
+Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nell’array dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Per ulteriori informazioni sull&#39;utilizzo efficace delle metriche di binding, vedere il secondo esempio in [Utilizzo di dimensioni e metriche di binding nel Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
+Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedere il secondo esempio in [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).

@@ -4,10 +4,10 @@ title: Come configurare una visualizzazione di flusso
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 35%
+source-wordcount: '1371'
+ht-degree: 34%
 
 ---
 
@@ -59,7 +59,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi ai percorsi che iniziano o terminano con la prima o l’ultima occorrenza di una dimensione, elemento o metrica. Per una spiegazione più dettagliata, vedi [Limita alla prima/ultima occorrenza](#example-scenario-for-limit-to-firstlast-occurrence). |
    | **[!UICONTROL Number of columns]** | Determina il numero di colonne desiderato nel diagramma Flusso. Puoi indicare un massimo di 5 colonne. |
    | **[!UICONTROL Items expanded per column]** | Il numero di elementi che desideri inserire in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
-   | **[!UICONTROL Flow container]** | È possibile passare da **[!UICONTROL Sessions]** a **[!UICONTROL Person]** per analizzare i percorsi. Queste impostazioni consentono di comprendere il coinvolgimento di una persona a livello personale (tra sessioni) o di vincolare l’analisi a una singola sessione. |
+   | **[!UICONTROL Flow container]** | È possibile passare da **[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Sessions]** e **[!UICONTROL Person]** per analizzare i percorsi. Queste impostazioni consentono di comprendere il coinvolgimento di una persona a livello personale (tra sessioni) o di vincolare l’analisi a una singola sessione. |
 
    >[!IMPORTANT]
    >

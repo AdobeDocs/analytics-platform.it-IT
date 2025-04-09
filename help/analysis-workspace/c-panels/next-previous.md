@@ -4,10 +4,10 @@ title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 2c28d9658165baf4de9519733c321d47c71f2bda
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 20%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -63,7 +63,7 @@ Per usare un pannello **[!UICONTROL Next or previous item]**:
 | **[!UICONTROL Dimension]** | Seleziona la dimensione per la quale desideri esplorare gli elementi successivi o precedenti. |
 | **[!UICONTROL Dimension item]** | Seleziona l’elemento dimensione specifico al centro dell’interrogazione successiva/precedente. |
 | **[!UICONTROL Direction]** | Specificare se si sta cercando l&#39;elemento di dimensione [!UICONTROL Next] o [!UICONTROL Previous]. |
-| **[!UICONTROL Container]** | Selezionare il contenitore [!UICONTROL Session] o [!UICONTROL Person] (impostazione predefinita) per determinare l&#39;ambito della richiesta di informazioni. |
+| **[!UICONTROL Container]** | Seleziona il contenitore **[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Session]** o **[!UICONTROL Person]**, per determinare l&#39;ambito della richiesta di informazioni. |
 
 {style="table-layout:auto"}
 

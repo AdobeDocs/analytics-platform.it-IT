@@ -1,13 +1,13 @@
 ---
-description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
+description: Il Generatore di filtri fornisce un’area di lavoro per trascinare e rilasciare dimensioni di metrica, filtri ed eventi per filtrare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare filtri semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
 title: Generare i filtri
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 10%
+source-wordcount: '1466'
+ht-degree: 9%
 
 ---
 
@@ -76,7 +76,7 @@ Utilizza il Generatore di definizioni per creare la definizione del filtro. In q
 Puoi configurare il tipo e l’ambito della definizione:
 
 1. Per specificare il tipo di definizione, specifica se la build deve includere o escludere la definizione. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** e dal menu a discesa attiva **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
-1. Per specificare l&#39;ambito della definizione, selezionare dall&#39;elenco a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Event]**, **[!UICONTROL Session]** o **[!UICONTROL Person]**.
+1. Per specificare l&#39;ambito della definizione, selezionare dall&#39;elenco a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Event]**, **[!UICONTROL Session]**, **[!UICONTROL Person]**, **[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} o **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
 
@@ -113,7 +113,7 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 * Per aggiungere un altro componente al contenitore, trascina e rilascia un componente dal pannello dei componenti al contenitore. Utilizzare la linea di inserimento blu come guida.
 * Per aggiungere un altro componente all’esterno del contenitore, trascina e rilascia un componente dal pannello dei componenti all’esterno del contenitore, ma all’interno del contenitore di definizione principale. Utilizzare la linea di inserimento blu come guida.
 * Per modificare la logica tra i componenti di un contenitore, tra contenitori o tra un contenitore e un componente, selezionare i **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni Then, il filtro diventa sequenziale. Per ulteriori informazioni, vedere [Creare un filtro sequenziale](seg-sequential-build.md).
-* Per cambiare il livello del contenitore, selezionare ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** o ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Person]**.
+* Per cambiare il livello del contenitore, selezionare ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![Account](/help/assets/icons/Account.svg) **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![Opportunità](/help/assets/icons/Opportunity.svg) **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![BuyingGroup](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Event]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Session]** o ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Person]**.
 
 È possibile utilizzare ![Impostazione](/help/assets/icons/Setting.svg) in un contenitore per le azioni seguenti:
 
