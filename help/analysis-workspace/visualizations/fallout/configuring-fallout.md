@@ -4,9 +4,9 @@ title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '695'
 ht-degree: 38%
 
 ---
@@ -52,7 +52,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad e
    | Opzione | Descrizione |
    |---|---|
    | **[!UICONTROL Eventual path]** (predefinito) | Vengono conteggiate le persone che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
-   | **[!UICONTROL Next event]** | re conteggiato che arriverà alla pagina successiva nel percorso al prossimo evento. |
+   | **[!UICONTROL Next event]** | Vengono conteggiate le persone che arriveranno alla pagina successiva del percorso nel prossimo evento. |
 
 
 ## Impostazioni {#settings}

@@ -4,7 +4,7 @@ description: Scopri i filtri utilizzati e come creare un filtro semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 8%
@@ -20,7 +20,7 @@ I filtri possono essere basati su:
 
 - attributi (tipo di browser, dispositivo, numero di visite, paese, genere),
 - interazioni (campagne, ricerca di parole chiave, motore di ricerca),
-- uscite ed entrate (persone provenienti da Facebook, da una pagina di destinazione definita, da un dominio di riferimento, da un evento di recinto geografico),
+- uscite e entrate (persone da Facebook, una pagina di destinazione definita, dominio di riferimento, evento recinto geografico),
 - variabili personalizzate (campo modulo, categorie definite, ID cliente),
 - e altri criteri.
 
@@ -41,7 +41,7 @@ In particolare, in qualità di amministratore, la corretta pianificazione dei fi
 
 - **Componenti**: decide quali componenti includere nella definizione del filtro e in base a quali valori le condizioni devono essere convalidate.
 
-- **Processo**: considerare un processo di approvazione per il filtro. Non esiste un flusso di lavoro di approvazione nel Customer Journey Analytics, ma è comunque possibile organizzare un processo per determinare se approvare o meno un filtro.
+- **Processo**: considerare un processo di approvazione per il filtro. In Customer Journey Analytics non è presente alcun flusso di lavoro di approvazione, ma è comunque possibile organizzare un processo per determinare se approvare o meno un filtro.
 
 - **Modularità**: definisci i filtri tenendo presente la modularità. Gli utenti dei filtri possono quindi [sovrapporre filtri](filter-builder.md#stack-filters) per creare nuovi potenti filtri.
 
@@ -62,7 +62,7 @@ I filtri regolari ti consentono di identificare i dati (persone, sessioni, event
 
 >[!IMPORTANT]
 >
->Per creare filtri sequenziali cross-channel è necessario disporre del pacchetto **Select**. In caso di dubbi sul pacchetto di Customer Journey Analytics disponibile, contattare l&#39;amministratore.
+>Per creare filtri sequenziali cross-channel è necessario disporre del pacchetto **Select**. In caso di dubbi sul pacchetto Customer Journey Analytics, contatta l’amministratore.
 
 I filtri sequenziali ti consentono di identificare dati (persone, sessioni, eventi) in base alla navigazione (visualizzazioni di pagina nel sito, interazioni con scene nell’app mobile o utilizzo di un menu su un set-top box). I filtri sequenziali consentono di identificare, ad esempio, cosa piace a una persona e cosa evita. Per definire un filtro sequenziale si utilizza l’operatore logico Then. Per ulteriori informazioni, vedere [Filtri sequenziali](seg-sequential-build.md).
 
@@ -146,7 +146,7 @@ I contenitori Sessione includono valori basati su eventi per sessione:
 - Metriche di partecipazione.
 - Metriche allocate linearmente.
 
-Le visualizzazioni dati nel Customer Journey Analytics consentono di determinare la durata di una sessione, ma anche quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a ogni avvio dell’app mobile da parte di un utente. Per ulteriori informazioni, vedere [Impostazioni sessione](/help/data-views/session-settings.md).
+Le visualizzazioni dati in Customer Journey Analytics consentono di determinare la durata di una sessione e quando crearne una nuova. Ad esempio, puoi definire una nuova sessione di app mobile in base a ogni avvio dell’app mobile da parte di un utente. Per ulteriori informazioni, vedere [Impostazioni sessione](/help/data-views/session-settings.md).
 
 ### Contenitore Evento
 
