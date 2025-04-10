@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
+source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 18%
+source-wordcount: '2259'
+ht-degree: 15%
 
 ---
 
@@ -169,6 +169,38 @@ Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 
 Per ulteriori informazioni sull&#39;utilizzo dei tipi di pubblico in Platform, consulta la sezione [Tipi di pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) nella [guida dell&#39;interfaccia utente del Generatore di segmenti](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) nella documentazione di Experience Platform.
 
+### Differenze nei conteggi dei tipi di pubblico tra Customer Journey Analytics e Real-Time Customer Data Platform
+
+Possono verificarsi discrepanze nel conteggio del pubblico tra Customer Journey Analytics e Real-Time Customer Data Platform. I punti seguenti forniscono una spiegazione dettagliata di queste differenze:
+
+![Infografica sulle differenze di pubblico tra Customer Journey Analytics e Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+
+**Conteggi probabilistici e deterministici**
+
+La metodologia con cui vengono calcolati i numeri di iscrizione al pubblico differisce tra le due app, come descritto di seguito.
+
+* **Customer Journey Analytics**: la metrica **[!UICONTROL Total People]** in Customer Journey Analytics è un valore stimato. Ciò significa che il conteggio è una stima basata sulle regole del pubblico e può variare tra gli intervalli di aggiornamento.
+* **Real-Time Customer Data Platform**: il conteggio in Real-Time Customer Data Platform è deterministico, basato sui processi di valutazione giornalieri e corretto al termine della pubblicazione del pubblico nel portale del pubblico.
+
+**Intervallo e frequenza di pubblicazione**
+
+I tipi di pubblico vengono pubblicati in Real-Time Customer Data Platform a una velocità di 1500 record al secondo (RPS). Ad esempio, un pubblico di 20 milioni di membri impiegherà circa 3,7 ore per la pubblicazione completa (20M/1500 RPS/3600 secondi all&#39;ora). Durante questo periodo, sono probabili differenze di appartenenza del pubblico tra le due app.
+
+**Frammentazione profilo**
+
+Se i profili importati da Customer Journey Analytics esistono già in Real-Time Customer Data Platform, non vengono conteggiati come nuovi profili. Questo può causare conteggi di profili inferiori al previsto in Real-Time Customer Data Platform.
+
+**Pubblico in batch rispetto a pubblico in streaming**
+
+I tipi di pubblico di Customer Journey Analytics non sono inclusi nel processo di valutazione in blocco giornaliero e rimangono fissi fino al successivo intervallo di pubblicazione. Al contrario, altri tipi di pubblico in batch in Real-Time Customer Data Platform vengono rivalutati ogni 24 ore.
+
+### Tappe principali da ricordare
+
+* **Conteggi stimati in Customer Journey Analytics**: il conteggio di **[!UICONTROL Total People]** in Customer Journey Analytics è una stima e può variare a causa dei dati in streaming e dei comportamenti di identità.
+* **Conteggi deterministici in Real-Time Customer Data Platform**: il conteggio in Real-Time Customer Data Platform è fisso e non cambia fino al successivo intervallo di pubblicazione.
+* **Frammentazione profilo**: tenere presente che i profili esistenti in Real-Time Customer Data Platform potrebbero non contribuire a nuovi conteggi di profili durante l&#39;importazione da Customer Journey Analytics.
+
+Differenziando chiaramente questi aspetti, puoi comprendere e gestire meglio i dati sul pubblico in Customer Journey Analytics e Real-Time Customer Data Platform.
 
 ## Domande frequenti {#faq}
 
