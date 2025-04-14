@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
+source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1829'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ I seguenti parametri regolano l’accesso all’agente di Data Insights in Custo
    1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso a [!UICONTROL AI Assistant: Product Knowledge].
    1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Permissions]**.
    1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
-   1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Assistente IA: visualizzazione dati** a **[!UICONTROL Included permission items]**.
+   1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Assistente AI: conoscenza del prodotto** e **Assistente AI: analisi dei dati** a **[!UICONTROL Included permission items]**.
 
       ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
 
