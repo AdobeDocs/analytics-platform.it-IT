@@ -4,7 +4,7 @@ title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 25%
@@ -41,7 +41,7 @@ Con la visualizzazione è possibile:
 
 * Visualizza il percorso di clienti attraverso il sito web o l’applicazione.
 * Analizza dove vanno i clienti prima e dopo i punti di controllo specificati, ad esempio ingresso, una dimensione specifica o uscita.
-* Crea i filtri designando un punto specifico nel percorso scelto.
+* Crea segmenti designando un punto specifico nel percorso scelto.
 
 
 >[!BEGINSHADEBOX]

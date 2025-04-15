@@ -1,13 +1,13 @@
 ---
-description: La visualizzazione Anello mostra i dati come parti o filtri di un insieme.
+description: La visualizzazione Anello mostra i dati come parti o segmenti di un insieme.
 title: Anello
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 25%
+ht-degree: 16%
 
 ---
 
@@ -30,9 +30,9 @@ _Questo articolo documenta la visualizzazione Anello in_ ![CustomerJourneyAnalyt
 >[!ENDSHADEBOX]
 
 
-Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** mostra i dati come parti o filtri di un intero. Utilizza una visualizzazione ad anello per confrontare percentuali di un totale, in genere con un numero ridotto di elementi.
+Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** mostra i dati come parti o segmenti di un intero. Utilizza una visualizzazione ad anello per confrontare percentuali di un totale, in genere con un numero ridotto di elementi.
 
-![Grafico ad anello che mostra i dati come parti o filtri di un intero.](assets/donut.png)
+![Grafico ad anello che mostra i dati come parti o segmenti di un intero.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]

@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 3%
@@ -31,7 +31,7 @@ L’utilizzo dell’agente di Data Insights per rispondere a domande incentrate 
 | **Creare e aggiornare visualizzazioni** | Genera una tabella a forma libera e la relativa visualizzazione (ad esempio una linea, una barra, un anello e così via).<p>Esempio: *Qual è il profitto tra SKU da febbraio a maggio?* |
 | **Tipi di visualizzazione supportati** | <ul><li>A linee</li><li>Multiriga</li><li>Tabella a forma libera</li><li>Barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> |
 | **Rilevamento prompt fuori ambito** | Se invii un messaggio che esula dall’ambito, ad esempio &quot;esporta questo progetto&quot;, Data Insights Agent risponde informandoti che la domanda non rientra nell’ambito. |
-| **Domande chiarificatrici** | Se fai una domanda che non ha abbastanza contesto per cui l’agente di Data Insights deve rispondere, o che è troppo generica, l’agente di Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Filtro: *Quale filtro &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via. |
+| **Domande chiarificatrici** | Se fai una domanda che non ha abbastanza contesto per cui l’agente di Data Insights deve rispondere, o che è troppo generica, l’agente di Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Filtro: *Quale segmento &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via. |
 | **Turno multiplo** | L’agente di Data Insights risponde a un prompt con il contesto proveniente da qualsiasi prompt precedente, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up. Esempio: <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> |
 | **Verificabilità** | La verificabilità e la correttezza dei dati possono essere confermate tramite la tabella a forma libera generata e la visualizzazione dei dati. Ad esempio, se un utente chiede *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;mese scorso&quot;) sono stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati. |
 | **Feedback** | <ul><li>Miniature in alto</li><li>Miniature in basso</li><li>Contrassegno</li></ul> |
@@ -167,7 +167,7 @@ Per ottenere i migliori risultati, considera le seguenti linee guida:
 
 * Sii specifico: includi termini esatti per limitare la risposta. Di seguito è riportato un esempio di un prompt specifico: &quot;Last month&#39;s sales in California&quot; (Vendite del mese scorso in California)
 
-* Utilizzare metriche e filtri chiari: l’aggiunta di metriche specifiche (ad esempio &quot;Ricavi&quot;), dimensioni (ad esempio &quot;nome del sito web&quot;), filtri (ad esempio &quot;utenti iPhone&quot;) e intervalli di date (ad esempio &quot;ultimi tre mesi&quot;) consente all’agente di Data Insights di concentrarsi sui dati giusti.
+* Utilizzare metriche e segmenti chiari: l’aggiunta di metriche specifiche (ad esempio &quot;Ricavi&quot;), dimensioni (ad esempio &quot;nome del sito web&quot;), segmenti (ad esempio &quot;utenti iPhone&quot;) e intervalli di date (ad esempio &quot;ultimi tre mesi&quot;) consente a Data Insights Agent di concentrarsi sui dati giusti.
 
 * Poni domande dirette: la formulazione delle domande facilita il compito dell’agente di Data Insights di fornire informazioni chiare e pertinenti. Di seguito è riportato un esempio di una domanda diretta in un prompt: &quot;Qual è il reddito medio per categoria di prodotto quest&#39;anno?&quot;
 
@@ -193,7 +193,7 @@ Quando valuti una risposta dall’agente di Data Insights, considera quanto segu
 
 * Visualizzazione/grafico: valuta la visualizzazione. È la visualizzazione appropriata o prevista per la domanda, o ti saresti aspettato una visualizzazione diversa?
 
-* Tabella a forma libera: valuta la tabella a forma libera. I dati della tabella a forma libera sono corretti? I dati vengono suddivisi dove richiesto? I filtri applicati sono quelli richiesti o previsti?
+* Tabella a forma libera: valuta la tabella a forma libera. I dati della tabella a forma libera sono corretti? I dati vengono suddivisi dove richiesto? I segmenti applicati sono quelli richiesti o previsti?
 
 * Messaggio di errore/fuori ambito: se viene visualizzato un messaggio di errore generico che indica che la domanda non rientra nell’ambito, indica se il messaggio fuori ambito è appropriato, in base al prompt. Il prompt era nell&#39;ambito?
 

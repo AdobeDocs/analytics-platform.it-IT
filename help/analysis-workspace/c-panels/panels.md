@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
 workflow-type: tm+mt
 source-wordcount: '2003'
-ht-degree: 99%
+ht-degree: 62%
 
 ---
 
@@ -85,7 +85,7 @@ Quando crei un nuovo pannello, la visualizzazione dati predefinita si basa sulla
 
 >[!IMPORTANT]
 >
->La visualizzazione dati selezionata determina le dimensioni, le metriche e i filtri disponibili per la creazione di visualizzazioni in un pannello.
+>La visualizzazione dati selezionata determina le dimensioni, le metriche e i segmenti disponibili per la creazione di visualizzazioni in un pannello.
 >
 >
 >Quando passi da una visualizzazione dati a un pannello, alcuni componenti potrebbero non essere disponibili nella nuova visualizzazione dati. Questa modifica può impedire il corretto rendering della visualizzazione. Potresti visualizzare avvisi come:
@@ -100,7 +100,7 @@ Il calendario del pannello controlla l’intervallo della date di reporting per 
 
 >[!NOTE]
 >
->Se un componente intervallo di date del ![Calendario](/help/assets/icons/Calendar.svg) viene utilizzato all’interno di una visualizzazione o di un pannello (ad esempio, come filtro), il componente intervallo di date sostituisce il calendario del pannello.
+>Se un componente ![Calendario](/help/assets/icons/Calendar.svg) intervallo di date viene utilizzato all&#39;interno di una visualizzazione o di un pannello (ad esempio, come segmento), il componente intervallo di date sostituisce il calendario del pannello.
 >
 
 
@@ -134,85 +134,85 @@ Seleziona **[!UICONTROL Apply to all panels]** per applicare l’intervallo di d
 
 ## Zona di rilascio {#dropzone}
 
-La zona di rilascio del pannello consente di applicare filtri e filtri a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più filtri a un pannello.
+La zona di rilascio del pannello consente di applicare segmenti e segmenti a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più segmenti a un pannello.
 
 ### Filtri
 
-Per iniziare a filtrare il pannello, trascina un filtro dal pannello di sinistra fino alla zona di rilascio del pannello. Ripeti questa procedura per aggiungere altri filtri al pannello. I filtri vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
+Per iniziare a segmentare il pannello, trascina un segmento dal pannello di sinistra fino alla zona di rilascio del pannello. Ripeti questo processo per aggiungere altri segmenti al pannello. I filtri vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
 
 ![Il pannello di sinistra mostra le metriche disponibili e la metrica del cliente mobile trascinata nella zona di rilascio del pannello.](assets/segment-filter.png)
 
-#### Filtri rapidi
+#### Segmenti rapidi
 
-Puoi anche trascinare componenti diversi da filtri direttamente nella zona di rilascio, per creare filtri in modo più rapido e senza dover passare al [Generatore di filtri](/help/components/filters/filter-builder.md). I filtri creati in questo modo vengono automaticamente definiti come filtri a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del filtro.
+Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi, risparmiando tempo e fatica nel [Generatore di segmenti](/help/components/filters/filter-builder.md). I filtri creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
 
 
-Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md).
+Per ulteriori informazioni, consultare [Segmenti rapidi](/help/components/filters/quick-filters.md).
 
-![Filtri ad hoc resi pubblici e rilasciati nella zona di rilascio.](assets/adhoc-segment-filter.png)
+![Segmenti ad hoc resi pubblici ed eliminati nella zona di rilascio](assets/adhoc-segment-filter.png)
 
 ### Filtri a discesa
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Eliminare i filtri](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-#### Filtri a discesa statici
+#### Segmenti a discesa statici
 
-I filtri a discesa statici consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da filtrare il pannello per tablet, telefono cellulare o desktop.
+I segmenti a discesa statici consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un segmento a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per Tablet, Telefono cellulare o Desktop.
 
-I filtri a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un filtro Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un filtro a discesa Paese.
+I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
 
-![Filtri a discesa statici che mostrano il filtro del canale di mercato “Diretto” evidenziato. ](assets/dropdown-filter-intro.png)
+![Segmenti a discesa statici che mostrano il segmento &quot;Direct&quot; del canale di mercato evidenziato. ](assets/dropdown-filter-intro.png)
 
-##### Creare filtri a discesa statici
+##### Creare segmenti a discesa statici
 
-* Per i filtri a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dal pannello di sinistra e rilasciala nella zona di rilascio del pannello tenendo premuto ⇧ (*Maiusc*). In questo modo viene creato un filtro a discesa con tutti gli elementi dimensionali associati a tale dimensione.
+* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dal pannello di sinistra e rilasciala nella zona di rilascio del pannello mantenendo ⇧ (*shift*). Questa azione crea un segmento a discesa con tutti gli elementi dimensionali associati a quella dimensione.
 
-  Oppure, se desideri che il filtro a discesa includa solo elementi dimensionali specifici associati a una dimensione, seleziona l’icona a forma di freccia verso destra accanto alla dimensione desiderata nel pannello di sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) (*Maiusc* + *Seleziona*) o ^ + ![seleziona](/help/assets/icons/Select.svg) (*controllo* + *Seleziona*), quindi rilasciali nell’area di rilascio del pannello **mentre tieni premuto** ⇧.
+  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, seleziona l’icona a forma di freccia destra accanto alla dimensione desiderata nel pannello a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) (*Maiusc* + *Seleziona*) o ^ + ![seleziona](/help/assets/icons/Select.svg) (*controllo* + *Seleziona*), quindi rilasciali nell’area di rilascio del pannello **mentre tieni premuto** ⇧.
 
-* Per i filtri a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo filtri o solo metriche), seleziona più elementi dello stesso tipo nel pannello a sinistra utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Quindi rilascia gli elementi nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
+* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo segmenti o solo metriche), seleziona più elementi dello stesso tipo nel pannello a sinistra utilizzando ⇧+![Seleziona](/help/assets/icons/Select.svg) o ^+![Seleziona](/help/assets/icons/Select.svg). Quindi rilascia gli elementi nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
 
-  Viene creato un filtro a discesa singolo con i componenti selezionati.
+  Viene creato un singolo segmento a discesa con i componenti selezionati.
 
-* Per i filtri a discesa che utilizzano un mix di componenti (ad esempio 2 metriche e 3 filtri), seleziona più componenti utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto** ⇧. In questo contesto, tutti i tipi di componenti vengono trattati come filtri a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due filtri a discesa separati: uno include gli elementi dimensionali e l’altro include le metriche.
+* Per i segmenti a discesa che utilizzano una combinazione di tipi di componenti (ad esempio 2 metriche e 3 segmenti), seleziona più componenti utilizzando ⇧+![Seleziona](/help/assets/icons/Select.svg) o ^+![Seleziona](/help/assets/icons/Select.svg). Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto** ⇧. In questo contesto, tutti i tipi di componenti vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: un segmento a discesa include gli elementi dimensionali e l’altro include le metriche.
 
-Un filtro a discesa fornisce le seguenti opzioni del menu di scelta rapida:
+Un segmento a discesa fornisce le seguenti opzioni del menu di scelta rapida:
 
-* **[!UICONTROL Delete drop-down]**: rimuove il filtro a discesa dal pannello.
-* **[!UICONTROL Delete label]**: rimuove il testo mostrato sopra un filtro a discesa. Per modificare l’etichetta, passa il puntatore sull’etichetta e seleziona ![Modifica etichetta del filtro a discesa](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Add label]**: quando aggiungi un filtro a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
-* **[!UICONTROL Require selection]**: richiede che nel pannello sia impostato un filtro.
+* **[!UICONTROL Delete drop-down]**: rimuove il segmento a discesa dal pannello.
+* **[!UICONTROL Delete label]**: rimuovere il testo visualizzato sopra un segmento a discesa. Per modificare l&#39;etichetta, passa il puntatore sull&#39;etichetta e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Add label]**: quando si aggiunge un segmento a discesa a un progetto, l&#39;etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Require selection]**: richiede che nel pannello sia impostato un segmento.
 
-##### Utilizzare filtri a discesa statici
+##### Utilizzare segmenti a discesa statici
 
-Per filtrare il pannello, gli utenti possono utilizzare il menu dei filtri a discesa in uno dei seguenti modi:
+Per segmentare il pannello, gli utenti possono utilizzare il menu a discesa dei segmenti in uno dei seguenti modi:
 
-* Applica un singolo filtro al pannello selezionandolo dal filtro a discesa.
+* Applica un singolo segmento al pannello selezionando il segmento dal segmento a discesa.
 
-* Applica più filtri al pannello selezionandoli dal filtro a discesa. Il pannello viene filtrato per includere qualsiasi filtro selezionato.
+* Applica più segmenti al pannello selezionando più segmenti dal segmento a discesa. Il pannello viene segmentato per includere uno qualsiasi dei segmenti selezionati.
 
 
-#### Creare filtri a discesa dinamici
+#### Segmenti a discesa dinamici
 
-I filtri a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri filtri a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dall’elenco a discesa **[!UICONTROL Countries]**, l’elenco a discesa **[!UICONTROL Cities]** si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
+I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dall’elenco a discesa **[!UICONTROL Countries]**, l’elenco a discesa **[!UICONTROL Cities]** si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
 
-Lo stesso concetto si applica a tutte le dimensioni: sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e i filtri selezionati. Gli elementi dimensionali selezionati nei filtri a discesa statici influiscono sui valori disponibili nei filtri a discesa dinamici. Tuttavia, ciò non vale per il contrario: gli elementi dimensionali selezionati nei filtri a discesa dinamici non influiscono sui valori disponibili nei filtri a discesa statici.
+Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e nei segmenti selezionati. Gli elementi Dimension selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi Dimension selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
 
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un filtro a discesa dinamico in modo che non contenga un valore, consentendo ad altri filtri a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reset all]** per cancellare la selezione da tutti i filtri a discesa per quel pannello.
+La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. Puoi anche cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Selezionare **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti del menu a discesa per quel pannello.
 
-Per creare un filtro a discesa dinamico:
+Per creare un segmento a discesa dinamico:
 
 * Trascina una singola dimensione nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
 
-Tieni presente che i filtri a discesa dinamici non sono disponibili per metriche, filtri o intervalli di date.
+I segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
 
-Un filtro a discesa dinamico fornisce le stesse opzioni del menu di scelta rapida dei filtri a discesa statici.
+Un segmento a discesa dinamico fornisce le stesse opzioni del menu di scelta rapida dei segmenti a discesa statici.
 
 
 ## Menu di scelta rapida

@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
@@ -61,7 +61,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    | **[!UICONTROL Metric]** | Seleziona la metrica da esaminare. Sono supportate tutte le metriche. |
    | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera.<p>Scegli uno degli intervalli di date disponibili nella visualizzazione dati.</p> <p>Scegli [!UICONTROL **Intervallo date pannello**] se desideri utilizzare lo stesso intervallo di date utilizzato nel pannello in cui si trova la visualizzazione.</p> |
    | **[!UICONTROL Comparison date range]** | L’intervallo di date che desideri confrontare con l’intervallo di date principale. |
-   | **[!UICONTROL Filter (optional)]** | Qualsiasi filtro a cui sei interessato per questo riepilogo. |
+   | **[!UICONTROL Filter (optional)]** | Qualsiasi segmento al quale sei interessato per questo riepilogo. |
 
    {style="table-layout:auto"}
 
@@ -153,7 +153,7 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
    Ora ritorni alla visualizzazione di configurazione originale.
 
-1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il filtro come preferisci.
+1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il segmento come preferisci.
 
 >[!MORELIKETHIS]
 >

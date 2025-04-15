@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3f84fd36c4859a4325774be2a6cb8793cda2295e
+source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
 workflow-type: tm+mt
-source-wordcount: '3466'
-ht-degree: 21%
+source-wordcount: '3756'
+ht-degree: 19%
 
 ---
 # Snippet
@@ -41,10 +41,10 @@ ht-degree: 21%
 
 | Opzione | Funzione |
 |---------|----------|
-| **[!UICONTROL Recommended]** | Ordina i componenti per ciascun tipo (dimensione, metrica, filtro e intervallo di date) in base ai consigli. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto in ciascun elenco. |
-| **[!UICONTROL Last modified]** | Ordina i componenti per ciascun tipo (dimensione, metrica, filtro e intervallo di date) in base alla data dell’ultima modifica. I componenti modificati più di recente vengono visualizzati più in alto in ciascun elenco. |
-| **[!UICONTROL Alphabetical]** | Ordina i componenti per ciascun tipo (dimensione, metrica, filtro e intervallo di date) in ordine alfabetico crescente. |
-| **[!UICONTROL Categorical]** | Ordina i componenti per ciascun tipo (dimensione, metrica, filtro e intervallo di date) in base alla loro categoria. Ad esempio, componenti di visualizzazione dati curati e non curati. |
+| **[!UICONTROL Recommended]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base ai consigli. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto in ciascun elenco. |
+| **[!UICONTROL Last modified]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base alla data dell’ultima modifica. I componenti modificati più di recente vengono visualizzati più in alto in ciascun elenco. |
+| **[!UICONTROL Alphabetical]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in ordine alfabetico crescente. |
+| **[!UICONTROL Categorical]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base alla loro categoria. Ad esempio, componenti di visualizzazione dati curati e non curati. |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ Le opzioni di confronto del tempo disponibili includono il periodo precedente, 1
 
 ## Dimostrazione video Adobe Analytics {#videoaa}
 
-*Questo video illustra le funzionalità di Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Presta attenzione alle differenze terminologiche tra Adobe Analytics e Customer Journey Analytics (ad esempio segmenti e filtri, visite e sessioni).*
+*Questo video illustra le funzionalità di Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Tenere presente le differenze terminologiche tra Adobe Analytics e Customer Journey Analytics (ad esempio &quot;visite&quot; e &quot;sessioni&quot;).*
 
 
 ## Pannello Filtri {#filterspanel}
@@ -138,13 +138,13 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 * **30 giorni**: cerca fino a 30 giorni da quando si è verificata la conversione.
 * **60 giorni**: cerca fino a 60 giorni da quando si è verificata la conversione.
 * **90 giorni**: cerca fino a 90 giorni dal momento in cui si è verificata la conversione.
-* **13 mesi** [!BADGE B2B edition]{type=Informative}
+* **13 mesi** [!BADGE B2B edition]{type=Informative}: cerca fino a 13 mesi da quando si è verificata la conversione.
 * **Sessione**: considera fino l&#39;inizio della sessione in cui si è verificata una conversione. Gli intervalli di lookback della sessione rispettano il [Timeout sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
 * **Persona (intervallo di reporting)**: esamina tutte le visite fino al primo del mese dell&#39;intervallo date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback a persona sarà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Account Globale (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
-* **Account (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
-* **Opportunità (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
-* **Gruppo di acquisto (finestra di reporting)** [!BADGE B2B edition]{type=Informative}
+* **Account globale (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account globali fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback globale dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
+* **Account (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
+* **Opportunità (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutte le opportunità fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’opportunità includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
+* **Gruppo di acquisto (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti i gruppi di acquisto fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su gruppo di acquisto includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
 * **Ora personalizzata:** consente di impostare un intervallo di lookback personalizzato da quando si è verificata una conversione. È possibile specificare il numero di minuti, ore, giorni, settimane, mesi o trimestri. Ad esempio, se si verificasse una conversione il 20 febbraio, un intervallo di lookback di cinque giorni valuterebbe tutti i punti di contatto delle dimensioni dal 15 febbraio al 20 febbraio nel modello di attribuzione.
 
 ## Esempio di attribuzione {#attribution-example}
@@ -236,7 +236,7 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative}<br/>Inoltre, [!BADGE B2B edition]{type=Informative}[!BADGE B2B edition]{type=Informative}<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative}.  è nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. <br/>Inoltre, le funzionalità di [!BADGE B2B edition]{type=Informative} e la documentazione di [!BADGE B2B edition]{type=Informative} sono soggette a modifiche e non è possibile derivarne alcun obbligo legale.<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
 >
 
 
@@ -244,4 +244,4 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 >[!INFO]
 >
-In questa documentazione, articoli o funzionalità B2B specifici, disponibili solo con Customer Journey Analytics B2B edition, sono contrassegnati con [!BADGE B2B edition]{type=Informative}
+>In questa documentazione, articoli o funzionalità B2B specifici, disponibili solo con Customer Journey Analytics B2B edition, sono contrassegnati con [!BADGE B2B edition]{type=Informative}.

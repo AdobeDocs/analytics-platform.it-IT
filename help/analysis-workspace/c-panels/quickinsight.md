@@ -4,10 +4,10 @@ title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Quick Insights in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+_Questo articolo descrive il pannello Quick Insights in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -37,10 +37,10 @@ Quando inizi a utilizzare [!UICONTROL Analysis Workspace], potresti chiederti:
 * quali visualizzazioni sarebbero più utili,
 * quali dimensioni e metriche potrebbero facilitare le informazioni approfondite,
 * dove trascinare gli elementi,
-* dove creare un filtro,
+* dove creare un segmento,
 * e altro ancora.
 
-Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i filtri e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Infatti, visualizzerai dimensioni, metriche e filtri taggati con [!UICONTROL POPULAR] nell’elenco a discesa, come mostrato di seguito:
+Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Vedrai infatti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR] nell&#39;elenco a discesa, come mostrato di seguito:
 
 ![Pannello Quick Insights.](assets/popular-tag.png)
 
@@ -48,7 +48,7 @@ Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo c
 
 * Creare correttamente una tabella di dati e una relativa visualizzazione in [!UICONTROL Analysis Workspace].
 * Imparare la terminologia e il vocabolario dei componenti ed elementi di base di [!UICONTROL Analysis Workspace].
-* Effettuare semplici raggruppamenti di dimensioni, aggiungere metriche multiple o confrontare facilmente filtri all’interno di una [!UICONTROL Freeform table].
+* Effettuare semplici raggruppamenti di dimensioni, aggiungere metriche multiple o confrontare facilmente segmenti all’interno di una [!UICONTROL Freeform table].
 * Modificare o provare vari tipi di visualizzazione per trovare lo strumento di ricerca per la tua analisi in modo rapido e intuitivo.
 
 ## Terminologia chiave di base
@@ -62,7 +62,7 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario che t
 | [!UICONTROL Metric] | Le metriche corrispondono a informazioni quantitative sull’attività della persona come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | **[!UICONTROL Visualization]** | Workspace offre [diverse visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici di dispersione e altri. |
 | **[!UICONTROL Dimension Breakdown]** | Un raggruppamento di dimensioni è un modo per raggruppare una dimensione secondo altre dimensioni. Ad esempio, puoi raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite da parte di dispositivi mobili per stato. Oppure puoi raggruppare i dispositivi mobili per tipo di dispositivo mobile, per aree geografiche, per campagne interne e altro ancora. |
-| **[!UICONTROL Filter]** | I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare filtri [!UICONTROL People] in base ad <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite ed entrate: persone da Facebook, una pagina di destinazione definita, un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
+| **[!UICONTROL Filter]** | I filtri ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare [!UICONTROL People] segmenti in base a <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite ed entrate: persone da Facebook, una pagina di destinazione definita, un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Utilizzo
 
@@ -83,7 +83,7 @@ Seleziona i blocchi:
 
 * **[!UICONTROL Analyze]**: specifica una dimensione (arancione)
 * **[!UICONTROL by]**: specifica una metrica (verde)
-* **[!UICONTROL filter by]**: specifica un filtro (blu)
+* **[!UICONTROL segment by]** - specifica un segmento (blu)
 * **[!UICONTROL on]**: specifica un intervallo di date (viola).
 
 Per il corretto funzionamento della visualizzazione, devi selezionare almeno una dimensione e una metrica.
@@ -105,7 +105,7 @@ Seleziona **[!UICONTROL Clear]** per cancellare tutti i campi di input.
 
    ![Tabella a forma libera che mostra la dimensione in verticale e la metrica in orizzontale.](assets/quick-insights-output.png)
 
-   * Una tabella a forma libera con dimensione (Codice paese) e metrica (Sessioni), filtrata per sessioni web per gli ultimi 12 mesi.
+   * Tabella a forma libera con dimensione (Codice paese) e metrica (Sessioni), segmentata per sessioni web per gli ultimi 12 mesi.
 
    * Una visualizzazione associata, in questo caso un [grafico a barre](/help/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati che hai aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato sul tempo (ad esempio [!UICONTROL Sessions] al giorno/mese) viene visualizzato in un grafico a [!UICONTROL Line]. Per impostazione predefinita, qualsiasi dato non basato sul tempo (ad esempio [!UICONTROL Sessions] per [!UICONTROL Device]) viene visualizzato in un grafico a [!UICONTROL Bar]. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia dell’elenco a discesa accanto al tipo di visualizzazione.
 
@@ -121,7 +121,7 @@ Altri utili pop-up di suggerimenti in [!UICONTROL Quick Insights Builder], alcun
 
   ![Notifica nel pannello Quick Insights visualizzata dopo aver selezionato l’icona Aiuto.](assets/qibuilder4.png)
 
-* Puoi analizzare più dimensioni e metriche, combinare o confrontare filtri e specificare un intervallo di date:
+* Puoi analizzare più dimensioni e metriche, combinare o confrontare segmenti e specificare un intervallo di date:
 
   ![Generatore di risultati di insight rapidi](assets/qibuilder-result.png)
 
@@ -129,7 +129,7 @@ Altri utili pop-up di suggerimenti in [!UICONTROL Quick Insights Builder], alcun
 
    * Aggiungi altre metriche **[!UICONTROL by]**: puoi aggiungere fino a 2 ulteriori metriche. Consulta ➍ e ➎.
 
-   * **[!UICONTROL filter by]**: puoi aggiungere fino a 2 ulteriori filtri. Ad esempio, aggiungi il filtro Prenotazioni e combinalo con i filtri Prenotazioni frequenti e Nuovi viaggiatori per confrontarli. Consulta ➏, ➐ e ➑.
+   * **[!UICONTROL segment by]**: è possibile aggiungere fino a 2 ulteriori segmenti. Ad esempio, aggiungi Prenotazioni come segmento e combina quel segmento con i segmenti Prenotazioni frequenti e Volantini per la prima volta che confronti. Consulta ➏, ➐ e ➑.
 
    * on: puoi specificare l’intervallo di date. Consulta ➒.
 

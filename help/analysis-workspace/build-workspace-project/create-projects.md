@@ -4,10 +4,10 @@ title: Creare progetti
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
    * [Dimensione](/help/components/dimensions/overview.md) **[!DNL Store Country]** ➍
    * [Metrica](/help/components/apply-create-metrics.md) **[!DNL People]** ➎
    * [Metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md) **[!DNL Avg Order Value]** ➏
-   * [Filtro](/help/components/filters/filters-overview.md) **[!DNL Mobile App Sessions]** ➐
+   * **[!DNL Mobile App Sessions]** [segmento](/help/components/filters/filters-overview.md) ➐
    * [Intervallo di date](/help/components/date-ranges/overview.md) **[!DNL Last Month]** ➑
    * [Annotazione](/help/components/annotations/overview.md) **[!DNL Example]** ➒
 

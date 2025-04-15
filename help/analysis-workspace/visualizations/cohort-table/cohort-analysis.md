@@ -4,7 +4,7 @@ description: Scopri come utilizzare una tabella coorte per l’analisi per coort
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 26%
@@ -41,7 +41,7 @@ _Questo articolo documenta la tabella coorte in_ ![CustomerJourneyAnalytics](/he
 
 Una *coorte* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Una visualizzazione ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL Cohort table]** è utile, ad esempio, quando vuoi scoprire in che modo una coorte si relaziona con un brand. Permette di individuare facilmente cambiamenti nelle tendenze e reagire di conseguenza. Puoi trovare informazioni sull’[!UICONTROL Cohort Analysis] su Internet, ad esempio [Cohort Analysis 101](https://it.wikipedia.org/wiki/Analisi_di_coorte).
 
-Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensioni, metriche e filtri specifici) e condividerlo con chiunque. Consulta [Cura e condivisione](/help/analysis-workspace/curate-share/curate.md).
+Dopo aver generato un rapporto sulla coorte, puoi curarne i componenti (dimensioni, metriche e segmenti specifici) e condividerlo con chiunque. Vedi [Cura e condivisione](/help/analysis-workspace/curate-share/curate.md).
 
 Esempi di cosa è possibile fare con [!UICONTROL Cohort table]:
 
@@ -64,7 +64,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta metriche non filtrabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta metriche non segmentabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
 
 Le tabelle coorte in Customer Journey Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore Source di Analytics sono doppie.
 
@@ -76,13 +76,13 @@ Per informazioni più dettagliate sulla creazione di una coorte e sull&#39;esecu
 
 ### Tabella [!UICONTROL Retention]
 
-Una tabella coorte [!UICONTROL Retention] restituisce persone: ogni cella di dati mostra il numero e la percentuale di persone nella coorte che hanno eseguito un’azione in quel determinato periodo di tempo. Può contenere fino a 3 metriche e 10 filtri.
+Una tabella coorte [!UICONTROL Retention] restituisce persone: ogni cella di dati mostra il numero e la percentuale di persone nella coorte che hanno eseguito un’azione in quel determinato periodo di tempo. Puoi includere fino a 3 metriche e 10 segmenti.
 
 ![Un report di coorte Rention che mostra le unità e la percentuale di persone nella coorte.](assets/retention-report.png)
 
 ### Tabella [!UICONTROL Churn]
 
-Una tabella coorte [!UICONTROL Churn] è l&#39;inverso di una tabella Retention e mostra le persone che non rientrano più o non sono mai rientrate nei criteri della coorte nel tempo. Può contenere fino a 3 metriche e 10 filtri.
+Una tabella coorte [!UICONTROL Churn] è l&#39;inverso di una tabella Retention e mostra le persone che non rientrano più o non sono mai rientrate nei criteri della coorte nel tempo. Puoi includere fino a 3 metriche e 10 segmenti.
 
 ![Una tabella Churn (Abbandono) che mostra le unità e la percentuale di persone che non soddisfano i criteri di ritorno per una coorte.](assets/churn-report.png)
 

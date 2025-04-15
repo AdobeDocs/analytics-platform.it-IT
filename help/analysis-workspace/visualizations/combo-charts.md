@@ -4,7 +4,7 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: acb4d9269d604857eaef80466d6f7b9b46d53c26
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 47%
@@ -45,7 +45,7 @@ Aspetti da considerare:
 * Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
-* Puoi applicare fino a 3 filtri a una metrica.
+* Puoi applicare fino a 3 segmenti a una metrica.
 * Le metriche calcolate non sono supportate nei grafici combinati.
 
 ## Utilizzo

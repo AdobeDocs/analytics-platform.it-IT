@@ -3,22 +3,23 @@ description: Scopri le opzioni per aprire i progetti.
 title: Progetti aperti
 feature: Workspace Basics
 role: User
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
+exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Progetti aperti
 
-Puoi aprire un progetto direttamente dalla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md). Cerca il progetto nell’elenco. Utilizza [search](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello dei filtri](/help/analysis-workspace/build-workspace-project/freeform-overview.md#filter-panel) per limitare l&#39;elenco.
+Puoi aprire un progetto direttamente dalla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md). Cerca il progetto nell’elenco. Utilizza [search](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello segmenti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) per limitare l&#39;elenco.
 
 * Seleziona il titolo del progetto per aprirlo in Analysis Workspace.
 
 Puoi anche aprire un progetto mentre lavori in un altro progetto.
 
-* Selezionare **[!UICONTROL Open]** dal menu **[!UICONTROL Project]**. Viene visualizzata una finestra di dialogo simile alla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).  Utilizza [search](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello dei filtri](/help/analysis-workspace/build-workspace-project/freeform-overview.md#filter-panel) per limitare l&#39;elenco.
+* Selezionare **[!UICONTROL Open]** dal menu **[!UICONTROL Project]**. Viene visualizzata una finestra di dialogo simile alla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).  Utilizza [search](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello segmenti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) per limitare l&#39;elenco.
 * Seleziona il titolo del progetto per aprirlo in Analysis Workspace.
 
 Se non riesci a trovare il progetto e vuoi avviare un nuovo progetto, seleziona **[!UICONTROL Create new]**.
@@ -48,6 +49,6 @@ Quando si apre un progetto, è possibile che venga visualizzata una finestra di 
 
 Per correggere questo avviso, è possibile:
 
-* **[!UICONTROL Change the data view]** (Autenticazione): Selezionare una visualizzazione dati corretta da **[!UICONTROL Change data view:]** ![Dati](/help/assets/icons/Data.svg). Se la visualizzazione dati selezionata è valida, il progetto viene aperto in Analysis Workspace.
-* **[!UICONTROL Return to landing page]** (Autenticazione): Il progetto selezionato non è aperto ed è possibile selezionare un altro progetto.
-* **[!UICONTROL Continue anyway]** (Autenticazione): Il progetto si apre in Analysis Workspace, ma mostra errori in alcune visualizzazioni e le visualizzazioni dati non compatibili hanno un avviso ![Avviso](/help/assets/icons/Alert.svg) prima del nome della visualizzazione dati.
+* **[!UICONTROL Change the data view]**. Selezionare una visualizzazione dati corretta da **[!UICONTROL Change data view:]** ![Dati](/help/assets/icons/Data.svg). Se la visualizzazione dati selezionata è valida, il progetto viene aperto in Analysis Workspace.
+* **[!UICONTROL Return to landing page]**. Il progetto selezionato non è aperto ed è possibile selezionare un altro progetto.
+* **[!UICONTROL Continue anyway]**. Il progetto si apre in Analysis Workspace, ma mostra errori in alcune visualizzazioni e le visualizzazioni dati non compatibili hanno un avviso ![Avviso](/help/assets/icons/Alert.svg) prima del nome della visualizzazione dati.

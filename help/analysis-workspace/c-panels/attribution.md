@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -43,7 +43,7 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 * Utilizza confronto illimitato tra modelli di attribuzione: confronta dinamicamente tutti i modelli che desideri.
 * Evitare le modifiche di implementazione: con l’elaborazione al momento del reporting e le sessioni in base al contesto, è possibile integrare e applicare il contesto di percorso del cliente in fase di esecuzione.
 * Costruire la sessione che si adatta al meglio allo scenario di attribuzione.
-* Suddividere l’attribuzione in base ai filtri: è possibile confrontare facilmente le prestazioni dei canali di marketing in qualsiasi filtro importante (ad esempio, clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà rispetto a Customer Lifetime Value).
+* Suddividere l’attribuzione in base ai segmenti: è possibile confrontare facilmente le prestazioni dei canali di marketing in qualsiasi segmento importante (ad esempio, clienti nuovi rispetto a clienti di ritorno, prodotto X rispetto a prodotto Y, livello di fedeltà rispetto a Customer Lifetime Value).
 * Ispezionare l’analisi incrociata e a più contatti dei canali: è possibile utilizzare diagrammi di Venn, istogrammi e risultati di attribuzione di tendenze.
 * Analizzare visivamente sequenze di marketing principali: è possibile esplorare in modo visivo i percorsi che hanno condotto alla conversione, con visualizzazioni di abbandono e di flusso a più nodi.
 * Costruire metriche calcolate: è possibile utilizzare un qualsiasi numero di metodi di allocazione di attribuzione.
@@ -82,7 +82,7 @@ La visualizzazione seguente fa parte dell’output del pannello.
 
 * **Metrica totale**: il numero totale di conversioni che si sono verificate nell&#39;intervallo di tempo di reporting e sono attribuite alla dimensione selezionata.
 * **Barra di confronto attribuzione**: confronta visivamente le conversioni attribuite per ciascun elemento dimensionale dalla dimensione selezionata. Ogni colore della barra rappresenta un modello di attribuzione distinto.
-* **Tabella di confronto attribuzione**: mostra gli stessi dati del grafico a barre, rappresentandoli sotto forma di tabella. Se si selezionano colonne o righe diverse in questa tabella, il grafico a barre e diverse altre visualizzazioni nel pannello vengono filtrate. Questa tabella funziona come qualsiasi altra tabella a forma libera in Workspace e consente di aggiungere componenti quali metriche, filtri o raggruppamenti.
+* **Tabella di confronto attribuzione**: mostra gli stessi dati del grafico a barre, rappresentandoli sotto forma di tabella. Se si selezionano colonne o righe diverse in questa tabella, il grafico a barre e diverse altre visualizzazioni nel pannello vengono segmentate. Questa tabella funziona come qualsiasi altra tabella a forma libera in Workspace e consente di aggiungere componenti quali metriche, segmenti o raggruppamenti.
 * **Diagramma di sovrapposizione**: una visualizzazione di Venn che mostra i primi tre elementi dimensionali e la frequenza con cui partecipano congiuntamente a una conversione. Ad esempio, le dimensioni della sovrapposizione a bolla indicano quanto spesso si è verificata una conversione quando una persona è stata esposta a entrambi gli elementi dimensionali. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.
 * **Dettagli delle prestazioni**: una visualizzazione a dispersione per confrontare visivamente fino a tre modelli di attribuzione.
 * **Prestazioni con tendenze**: mostra la tendenza delle conversioni attribuite per l’elemento della dimensione superiore. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione si aggiorna in base alla selezione.

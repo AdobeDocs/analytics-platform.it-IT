@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 
 | **[!UICONTROL Components]** | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows | Descrizione |
 |---|---|---|---|
-| **[!UICONTROL Create filter...]** | **[!UICONTROL *Maiusc+Comando+e *]** | **[!UICONTROL *Maiusc+Ctrl+e *]** | Crea un nuovo [filtro](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Create segment...]** | **[!UICONTROL *Maiusc+Comando+e *]** | **[!UICONTROL *Maiusc+Ctrl+e *]** | Crea un nuovo [segmento](/help/components/filters/create-filters.md). |
 | **[!UICONTROL Create metric...]** | **[!UICONTROL *Maiusc+Comando+c *]** | **[!UICONTROL *Maiusc+Ctrl+c *]** | Crea una nuova [metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *Maiusc+Comando+d *]** | **[!UICONTROL *Maiusc+Ctrl+d *]** | Crea un nuovo [intervallo di date](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *Maiusc+Comando+o *]** | **[!UICONTROL *Maiusc+Ctrl+o *]** | Crea una nuova [annotazione](/help/components/annotations/overview.md). |

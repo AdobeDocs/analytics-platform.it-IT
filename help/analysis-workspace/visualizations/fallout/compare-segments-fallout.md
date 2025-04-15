@@ -1,20 +1,20 @@
 ---
-description: In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri.
-keywords: fallout e filtri;filtri nell’analisi di fallout;confrontare filtri di fallout
-title: Applicare i filtri nell’analisi dell’abbandono
+description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
+keywords: abbandono e segmenti;segmenti nell’analisi dell’abbandono;confrontare segmenti nell’abbandono
+title: Applicare i segmenti nell’analisi dell’abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
-# Applicare i filtri nell’analisi dell’abbandono
+# Applicare i segmenti nell’analisi dell’abbandono
 
-In Analysis Workspace puoi creare filtri da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri.
+Puoi creare segmenti da un punto di contatto, aggiungere filtri come punto di contatto e confrontare flussi di lavoro chiave tra vari filtri in Analysis Workspace.
 
 >[!IMPORTANT]
 >

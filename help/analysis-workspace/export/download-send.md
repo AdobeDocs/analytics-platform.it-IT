@@ -4,30 +4,30 @@ title: Scarica dati Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: cd4722cc2eb95d7d5e4000361c8f96a30a3589e9
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
 # Scarica dati Customer Journey Analytics
 
-È possibile scaricare i dati di Customer Journey Analytics sulla propria workstation personale. Può essere sotto forma di dati copiati, CSV o PDF. Un PDF è in genere consigliato se desideri includere le visualizzazioni nel file scaricato. Se desideri semplicemente dati in formato testo, puoi usare CSV e dati copiati.
+È possibile scaricare i dati Customer Journey Analytics sulla propria workstation personale. Può essere sotto forma di dati copiati, CSV o PDF. Un PDF è generalmente consigliato se desideri che le visualizzazioni siano incluse nel file scaricato. Se desideri semplicemente dati in formato testo, puoi usare CSV e dati copiati.
 
-Sono disponibili anche altri metodi di esportazione dei dati del Customer Journey Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/analysis-workspace/export/export-project-overview.md).
+Sono disponibili anche altri metodi di esportazione dei dati di Customer Journey Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
 ## Scarica come CSV o PDF {#download-project}
 
 Quando si scaricano i progetti, considera quanto segue:
 
-* Quando si scaricano i progetti come file CSV o PDF, il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](/help/analysis-workspace/export/t-schedule-report.md).
+* Quando si scaricano i progetti come CSV o PDF, il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](/help/analysis-workspace/export/t-schedule-report.md).
 
 * Quando si scaricano progetti come PDF:
-   * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito su server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
+   * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito sui server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
    * I download vengono riprodotti come una singola pagina senza impaginazione.
    * I rendering PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
-   * Tutti i [collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano in PDF scaricato.
+   * Tutti i [collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano nel PDF scaricato.
 
 Per scaricare un progetto come file CSV o PDF:
 
@@ -63,7 +63,7 @@ L&#39;opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di co
 
 L&#39;opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati di Customer Journey Analytics o l&#39;origine dati di qualsiasi visualizzazione.
 
-* Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]**. In questo modo i dati di Customer Journey Analytics visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
+* Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]**. In questo modo i dati Customer Journey Analytics visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
 
   >[!NOTE]
   >
@@ -80,7 +80,7 @@ Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic co
 
 >[!TIP]
 >
-> Se la dimensione supera i 50.000 elementi, scarica il file con diverse metriche di ordinamento oppure applica un filtro. Ad esempio, esegui un download con i dati in ordine decrescente in base a Visite, quindi un secondo download in ordine crescente. Questo consente di recuperare gli elementi in fondo alle liste.
+> Se la dimensione supera i 50.000 elementi, scarica il file con diverse metriche di ordinamento oppure applica un segmento. Ad esempio, esegui un download con i dati in ordine decrescente in base a Visite, quindi un secondo download in ordine crescente. Questo consente di recuperare gli elementi in fondo alle liste.
 
 Mentre il download è in corso, puoi eseguire più attività all’interno del progetto e persino passare a un nuovo progetto Workspace nella stessa scheda. Se apri una nuova scheda del browser, il download verrà messo in pausa. Se esci completamente da Workspace o se chiudi la scheda del browser, il download verrà annullato.
 
@@ -90,7 +90,7 @@ Mentre il download è in corso, puoi eseguire più attività all’interno del p
 
 Le funzioni della tabella vengono applicate al file scaricato come segue:
 
-* Tutti i filtri dei pannelli vengono applicati come filtri.
+* Tutti i segmenti dei pannelli vengono applicati come filtri.
 * Le suddivisioni **al di sopra** della dimensione selezionata nella tabella vengono applicate come filtri sopra ogni colonna.
 * Le suddivisioni **al di sotto** della dimensione selezionata nella tabella vengono rimosse.
 

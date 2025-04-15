@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 100fe0c9bf5dd1db78ae8188e8de1f8ea53123dc
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1969'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -103,7 +103,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
 1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
 
-   * **Condividi componenti di progetto incorporati:** condivide filtri, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
+   * **Condividi componenti di progetto incorporati:** condividi segmenti, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
    * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
@@ -147,7 +147,7 @@ Puoi concedere [l&#39;accesso in sola lettura](/help/analysis-workspace/curate-s
 >
 >* I progetti con più di 50 visualizzazioni espanse non possono essere condivisi con persone che non hanno accesso a Customer Journey Analytics.
 >
->* Gli utenti con cui condividi possono visualizzare tutti i filtri applicati al progetto durante [la cura](curate.md).
+>* Gli utenti con cui condividi possono visualizzare tutti i segmenti applicati al progetto durante [la cura](curate.md).
 > 
 >* Gli utenti con cui condividi possono modificare l’intervallo di date del progetto. L’intervallo di date impostato per il progetto viene visualizzato per impostazione predefinita.
 >

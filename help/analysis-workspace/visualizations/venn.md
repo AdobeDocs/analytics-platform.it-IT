@@ -1,10 +1,10 @@
 ---
-description: La visualizzazione di Venn consente di trascinare fino a 3 filtri (da Componenti) e una metrica per creare un diagramma di Venn.
+description: La visualizzazione di Venn consente di trascinare fino a 3 segmenti (da Componenti) e una metrica per creare un diagramma di Venn.
 title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 26%
@@ -30,11 +30,11 @@ _Questo articolo documenta la visualizzazione Venn in_ ![CustomerJourneyAnalytic
 >[!ENDSHADEBOX]
 
 
-La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** consente di trascinare fino a 3 filtri e una metrica (dal pannello Componenti) per creare un diagramma di Venn.
+La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** consente di trascinare fino a 3 segmenti e una metrica (dal pannello Componenti) per creare un diagramma di Venn.
 
-![Visualizzazione Venn che include tre filtri.](assets/venn.png)
+![Visualizzazione Venn che include tre segmenti.](assets/venn.png)
 
-Puoi passare il cursore del mouse sui filtri per ottenere maggiori informazioni sulle percentuali e altro ancora.
+Puoi passare il cursore del mouse sui segmenti per ottenere più insight in percentuali e altro ancora.
 
 Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], selezionare il colore ![StatusOrange](/help/assets/icons/StatusOrange.svg) accanto all&#39;intestazione **[!UICONTROL Venn]** e selezionare **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
 

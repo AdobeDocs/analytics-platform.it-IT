@@ -4,10 +4,10 @@ title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ A seconda della granularità della data applicata al rapporto, vengono usate 3 d
 
 ## Rilevamento delle anomalie con granularità giornaliera
 
-Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. Innanzitutto, viene determinato che tipo di modello applicare in base ai dati disponibili per la classe selezionata. Sono disponibili due classi: un modello basato su serie temporale e uno per il rilevamento di dati aberranti (filtro funzionale).
+Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. Innanzitutto, l’algoritmo determina il tipo di modello da applicare in base ai dati disponibili di cui selezioniamo una delle due classi: un modello basato su serie temporali o un modello di rilevamento di valori aberranti (segmentazione funzionale).
 
 Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Nello specifico, l’algoritmo prova le seguenti combinazioni:
 
@@ -29,7 +29,7 @@ Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stag
 1. MNA (errore moltiplicativo, nessuna tendenza, stagionalità additiva)
 1. AAN (errore additivo, tendenza additiva, nessuna stagionalità)
 
-L’algoritmo verifica quale di queste combinazioni è la più adatta selezionando quella con il miglior valore di errore medio assoluto percentuale (MAPE, Mean Absolute Percentage Error). Tuttavia, se il valore MAPE del modello per serie temporale migliore è maggiore del 15%, viene applicato il filtro funzionale. Solitamente, per i dati altamente ripetitivi (ad esempio, di settimana in settima o di mese in mese) risulta più adatto il modello di serie temporale.
+L’algoritmo verifica quale di queste combinazioni è la più adatta selezionando quella con il miglior valore di errore medio assoluto percentuale (MAPE, Mean Absolute Percentage Error). Tuttavia, se il MAPE del modello di serie temporali migliore è superiore al 15%, viene applicata la segmentazione funzionale. Solitamente, per i dati altamente ripetitivi (ad esempio, di settimana in settima o di mese in mese) risulta più adatto il modello di serie temporale.
 
 Dopo la selezione del modello, l’algoritmo regola i risultati in base a festività e stagionalità anno su anno. Per le festività, l’algoritmo verifica la presenza delle seguenti festività nell’intervallo di date del rapporto:
 

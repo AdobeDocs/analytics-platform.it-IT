@@ -5,10 +5,10 @@ feature: Workspace Basics
 title: Come utilizzare i tasti di scelta rapida di Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 | Crea un avviso | **[!UICONTROL *Comando+Maiusc+a *]** | **[!UICONTROL *Ctrl+Maiusc+a *]** |
 | Crea una metrica calcolata | **[!UICONTROL *Comando+Maiusc+c *]** | **[!UICONTROL *Ctrl+Maiusc+c *]** |
 | Crea un intervallo di date | **[!UICONTROL *Comando+Maiusc+d *]** | **[!UICONTROL *Ctrl+Maiusc+d *]** |
-| Crea un filtro | **[!UICONTROL *Comando+Maiusc+e *]** | **[!UICONTROL *Ctrl+Maiusc+e *]** |
+| Creare un segmento | **[!UICONTROL *Comando+Maiusc+e *]** | **[!UICONTROL *Ctrl+Maiusc+e *]** |
 | Cancella tutto | **[!UICONTROL *Alt+w *]** | **[!UICONTROL *Opzione+w *]** |
 | Copia | **[!UICONTROL *Comando+c *]** | **[!UICONTROL *Ctrl+c *]** |
 | Ripristina | **[!UICONTROL *Comando+Maiusc+z *]** | **[!UICONTROL *Ctrl+Maiusc+z *]** |
