@@ -7,9 +7,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
-source-git-commit: 0e4e52cfd42db321c4a7a18a9b1473a67f87e785
+exl-id: ff8d419e-5cc6-4e1b-8cf8-9dbaa8054179
+source-git-commit: d7ee16c64761440989f2850d72b8159799bb8479
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '396'
 ht-degree: 22%
 
 ---
@@ -39,6 +40,10 @@ Per implementare Customer Journey Analytics B2B edition, si applicano i seguenti
 | **Passaggio 3: creare visualizzazioni dati** | Una visualizzazione dati è *filtrata* dei dati. Puoi creare diverse visualizzazioni dati per la stessa connessione, con impostazioni diverse per timeout visita, attribuzione e altro ancora. Puoi creare più viste dati per un singolo set di dati. Quando si configura una visualizzazione dati con B2B edition, sono disponibili opzioni aggiuntive.<br>Consulta [Creare una visualizzazione dati](/help/data-views/create-dataview.md). |
 | **Passaggio 4: creare rapporti sui dati multicanale in Workspace** | Dopo aver creato connessioni e visualizzazioni dati, analizza i dati B2B inseriti utilizzando la potenza e la flessibilità di Analysis Workspace.<br>Consulta [Eseguire analisi di base](/help/analysis-workspace/perform-basic-analysis.md) ed [Eseguire analisi avanzate](/help/analysis-workspace/perform-adv-analysis.md). |
 
-## Caso d’uso
+<!--
 
-Il documento [Caso di utilizzo B2B](../data-ingestion/data-ingestion.md) fornisce un esempio di caso di utilizzo su come implementare Customer Journey Analytics B2B edition.
+## Use Case
+
+The [B2B Use Case ](../data-ingestion/data-ingestion.md) document provides an example use case on how to implement Customer  Journey Analytics B2B Edition.
+
+-->
