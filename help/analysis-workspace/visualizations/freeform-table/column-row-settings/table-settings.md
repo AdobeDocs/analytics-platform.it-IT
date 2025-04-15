@@ -4,9 +4,9 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '897'
 ht-degree: 15%
 
 ---
@@ -87,3 +87,7 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | **[!UICONTROL Create annotation from selection]** | Apri **[!UICONTROL Annotation details]** per aggiungere un&#39;annotazione. |
 | **[!UICONTROL Create filter from selection]** | Apri **[!UICONTROL Filter builder]** per creare un filtro dalla selezione. |
 | **[!UICONTROL Create audience from selection]** | Apri la finestra di dialogo **[!UICONTROL Create audience]** per creare un pubblico dalla selezione. |
+
+## Modificare l&#39;altezza delle righe
+
+È possibile impostare la densità di visualizzazione di un progetto su **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]** e **[!UICONTROL Expanded]**. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density).

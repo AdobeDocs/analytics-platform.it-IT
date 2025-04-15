@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1918'
 ht-degree: 27%
 
 ---
@@ -71,7 +71,7 @@ L’unione live è disponibile circa una settimana dopo l’attivazione di Adobe
 
 +++
 
-## Analisi cross-device e cross-channel
+## Analisi tra dispositivi e analisi cross-channel
 
 +++ Qual è la differenza tra l’analisi cross-device (una funzione nella versione tradizionale di Analytics) e l’analisi cross-channel?
 
