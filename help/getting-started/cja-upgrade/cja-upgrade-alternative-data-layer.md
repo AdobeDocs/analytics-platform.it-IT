@@ -8,18 +8,18 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 9%
+ht-degree: 44%
 
 ---
 
-# Alternativa di aggiornamento: invia il livello dati a Customer Journey Analytics {#data-collection-data-layer}
+# Alternativa di aggiornamento: inviare il livello dati a Customer Journey Analytics {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer"
 >title="Inviare il livello di dati ad Adobe"
->abstract="Invece di inviare dati tramite un oggetto XDM, puoi inviare l’intero livello di dati ad Adobe tramite l’oggetto dati.<br><br>Questa opzione consente di risparmiare tempo di implementazione consentendo di mappare il livello dati su XDM, anziché popolare un oggetto XDM da zero. Tuttavia, questa mappatura è un lavoro molto lungo, perché ci sarà una quantità significativa di dati che Adobe non è in grado di interpretare facilmente. Questa opzione introduce anche una complessità aggiuntiva nel tempo, perché qualsiasi campo aggiunto ai dati in un secondo momento deve essere mappato a XDM nello stream di dati."
+>abstract="Invece di inviare dati tramite un oggetto XDM, è possibile inviare l’intero livello dati ad Adobe tramite l’oggetto dati.<br><br>Questa opzione consente di risparmiare tempo di implementazione effettuando la mappatura del livello dati su XDM, anziché popolare un oggetto XDM da zero. Tuttavia, tale mappatura può essere laborioso, a causa di una quantità significativa di dati che potrebbero non essere facilmente interpretati da Adobe. Inoltre, questa opzione introduce nel tempo ulteriori complessità, in quanto qualsiasi campo aggiunto ai dati in un secondo momento dovrà essere mappato su XDM nello stream di dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-send-data-layer"
 >title="Inviare il livello dati ad Adobe"
->abstract="Configura l’implementazione per inviare i dati ad Adobe al momento desiderato e configura il payload JSON affinché sia l’intero livello di dati."
+>abstract="Configura l’implementazione per inviare i dati ad Adobe al momento desiderato e configura il payload JSON affinché corrisponda all’intero livello di dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer-map"
 >title="Assegnare ogni elemento del livello dati a XDM"
->abstract="Mappa ogni elemento del livello dati sul campo XDM desiderato. Tutti gli elementi del livello dati che non sono mappati a un campo XDM vengono eliminati in modo permanente, in quanto Adobe non sa dove o come memorizzare tali dati."
+>abstract="Mappa ogni elemento del livello dati sul campo XDM desiderato. Tutti gli elementi del livello dati che non sono mappati su un campo XDM vengono eliminati in modo permanente, in quanto Adobe non sa dove o come memorizzare tali dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +63,8 @@ Di seguito sono riportati i vantaggi e gli svantaggi dell&#39;utilizzo di questa
 
 I passaggi di base per inviare l’intero livello dati a Customer Journey Analytics sono i seguenti:
 
-1. Configura l’implementazione per inviare i dati ad Adobe al momento desiderato e configura il payload JSON affinché sia l’intero livello di dati.
+1. Configura l’implementazione per inviare i dati ad Adobe al momento desiderato e configura il payload JSON affinché corrisponda all’intero livello di dati.
 
 1. Mappa ogni elemento del livello dati sul campo XDM desiderato.
 
-   Tutti gli elementi del livello dati che non sono mappati a un campo XDM vengono eliminati in modo permanente, in quanto Adobe non sa dove o come memorizzare tali dati.
+   Tutti gli elementi del livello dati che non sono mappati su un campo XDM vengono eliminati in modo permanente, in quanto Adobe non sa dove o come memorizzare tali dati.

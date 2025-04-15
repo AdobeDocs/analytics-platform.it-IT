@@ -354,7 +354,7 @@ Quando crei o modifichi una configurazione, disponi delle seguenti opzioni:
 * **[!UICONTROL Exit]**. Chiude la configurazione guidata. Tutte le modifiche apportate a una configurazione implementata vengono ignorate.
 
 
-## Pubblica {#publish}
+## Pubblicazione {#publish}
 
 Per iniziare a raccogliere i dati per la configurazione di Content Analytics, devi [pubblicare manualmente](manual.md) la proprietà Tags creata dopo aver selezionato **[!UICONTROL Implement]**.
 

@@ -46,9 +46,9 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Count values] | Visibile sui tipi di dati con schema intero e doppio. Aumenta la metrica della quantità specificata. Ad esempio, aumenta di 50 una metrica se il valore della colonna è `50`. |
-| [!UICONTROL Count instances] | Visibile sui tipi di dati con schema intero e doppio. Aumenta la metrica di uno, indipendentemente dal valore. La presenza di qualsiasi valore aumenta la metrica. Ad esempio, aumenta di 1 una metrica se il valore della colonna è `50`. |
-| [!UICONTROL Values to count] | Visibile sui tipi di dati di schema booleano. Consente di determinare se la metrica aumenta contando `true`, `false` o entrambi. |
+| [!UICONTROL Count values] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica della quantità specificata. Ad esempio, aumenta di 50 una metrica se il valore della colonna è `50`. |
+| [!UICONTROL Count instances] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica di uno, indipendentemente dal valore. La presenza di qualsiasi valore aumenta la metrica. Ad esempio, aumenta di 1 una metrica se il valore della colonna è `50`. |
+| [!UICONTROL Values to count] | Visibile sui tipi di dati di schema Booleano. Consente di determinare se la metrica aumenta contando `true`, `false` o entrambi. |
 
 {style="table-layout:auto"}
 

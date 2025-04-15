@@ -8,7 +8,7 @@ exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
 source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-media-edge"
->title="Configurare e implementare Media Edge"
+>title="Configurare e implementare i file multimediali Edge"
 >abstract="Se prevedi di utilizzare Streaming Media Collection con Customer Journey Analytics, devi effettuare selezioni specifiche in determinati passaggi del processo di aggiornamento. Ad esempio, devi aggiungere il gruppo di campi Dettagli interazioni di Media Analytics allo schema, abilitare Media Analytics nello stream di dati e altro ancora."
 
 <!-- markdownlint-enable MD034 -->

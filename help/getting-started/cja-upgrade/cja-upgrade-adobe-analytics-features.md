@@ -8,7 +8,7 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 40%
+ht-degree: 55%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map-support"
->title="Il supporto per la sovrapposizione Activity Map non è ancora disponibile"
->abstract="Il supporto per la sovrapposizione di Activity Map non è ancora disponibile in Customer Journey Analytics. La sua disponibilità è prevista per il futuro."
+>title="Supporto per la sovrapposizione Activity Map non ancora disponibile"
+>abstract="Il supporto per la sovrapposizione Activity Map non è ancora disponibile in Customer Journey Analytics. Sarà disponibile in futuro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="Dati di file multimediali in streaming"
->abstract="Componente aggiuntivo per Adobe Analytics e Customer Journey Analytics, specializzato nella raccolta di dati multimediali come audio, video o contenuti in streaming."
+>abstract="Componente aggiuntivo per Adobe Analytics e Customer Journey Analytics, specializzato nella raccolta dati di file multimediali, come audio, video o contenuti in streaming."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -90,8 +90,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
->title="Eseguire la migrazione di progetti e componenti"
->abstract="Porta i progetti Adobe Analytics e i relativi componenti in Customer Journey Analytics."
+>title="Migrazione di progetti e componenti"
+>abstract="Porta in Customer Journey Analytics i progetti Adobe Analytics e i relativi componenti."
 
 <!-- markdownlint-enable MD034 -->
 

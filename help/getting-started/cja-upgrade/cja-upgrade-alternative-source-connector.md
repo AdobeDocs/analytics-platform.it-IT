@@ -8,18 +8,18 @@ exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 25%
+ht-degree: 41%
 
 ---
 
-# Alternativa di aggiornamento: utilizza il connettore di origine di Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics {#use-source-connector-exclusively}
+# Alternativa di aggiornamento: utilizzare solo il connettore di origine di Analytics per l’aggiornamento a Customer Journey Analytics {#use-source-connector-exclusively}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-exclusively"
 >title="Utilizzare unicamente il connettore di origine di Analytics"
->abstract="(Sconsigliato) Puoi utilizzare il connettore di origine Analytics come unico percorso di implementazione per Customer Journey Analytics. <br><br>Questa opzione consente di risparmiare tempo nell&#39;implementazione inviando rapidamente i dati a Customer Journey Analytics. Tuttavia, presenta diverse carenze, come latenza più elevata e difficoltà nel trasferire Adobe Analytics in futuro."
+>abstract="(Sconsigliato) Puoi utilizzare il connettore di origine Analytics come unico percorso di implementazione per Customer Journey Analytics. <br><br>Questa opzione riduce il tempo di implementazione inviando rapidamente i dati a Customer Journey Analytics. Tuttavia, presenta diverse carenze, come latenza più elevata e difficoltà nel lasciare Adobe Analytics in futuro."
 
 <!-- markdownlint-enable MD034 -->
 
