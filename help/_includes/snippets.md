@@ -1,8 +1,8 @@
 ---
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 3f84fd36c4859a4325774be2a6cb8793cda2295e
 workflow-type: tm+mt
-source-wordcount: '3742'
-ht-degree: 19%
+source-wordcount: '3466'
+ht-degree: 21%
 
 ---
 # Snippet
@@ -138,13 +138,13 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 * **30 giorni**: cerca fino a 30 giorni da quando si è verificata la conversione.
 * **60 giorni**: cerca fino a 60 giorni da quando si è verificata la conversione.
 * **90 giorni**: cerca fino a 90 giorni dal momento in cui si è verificata la conversione.
-* **13 mesi** [!BADGE B2B edition]{type=Informative}: cerca fino a 13 mesi da quando si è verificata la conversione.
+* **13 mesi** [!BADGE B2B edition]{type=Informative}
 * **Sessione**: considera fino l&#39;inizio della sessione in cui si è verificata una conversione. Gli intervalli di lookback della sessione rispettano il [Timeout sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
 * **Persona (intervallo di reporting)**: esamina tutte le visite fino al primo del mese dell&#39;intervallo date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback a persona sarà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Account globale (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account globali fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback globale dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Account (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Opportunità (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutte le opportunità fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’opportunità includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Gruppo di acquisto (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti i gruppi di acquisto fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su gruppo di acquisto includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
+* **Account Globale (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
+* **Account (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
+* **Opportunità (Finestra Di Reporting)** [!BADGE B2B edition]{type=Informative}
+* **Gruppo di acquisto (finestra di reporting)** [!BADGE B2B edition]{type=Informative}
 * **Ora personalizzata:** consente di impostare un intervallo di lookback personalizzato da quando si è verificata una conversione. È possibile specificare il numero di minuti, ore, giorni, settimane, mesi o trimestri. Ad esempio, se si verificasse una conversione il 20 febbraio, un intervallo di lookback di cinque giorni valuterebbe tutti i punti di contatto delle dimensioni dal 15 febbraio al 20 febbraio nel modello di attribuzione.
 
 ## Esempio di attribuzione {#attribution-example}
@@ -193,17 +193,17 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 | Funzione | Area di lavoro percorso | Fallout (abbandono) | Flusso |
 |---------|----------|---------|---------|
-| **Sequenza di pagine predefinita** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
-| **Sequenza esplorativa di pagine (analisi ad hoc)** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Limitato</br>Consente di fare clic con il pulsante destro del mouse e visualizzare l&#39;abbandono immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza della dimensione tra nodi. Ciò significa che ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |
-| **Mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito)** | Sì</br>Mostra per percorsi predefiniti ed esplorativi | Sì</br>Mostra percorsi predefiniti | Sì</br>Mostra per percorsi esplorativi |
+| **Sequenza di pagine predefinita** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi immediatamente successivi (non finali) [visualizzando i nodi principali basati sui nodi esistenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
+| **Sequenza esplorativa di pagine (analisi ad hoc)** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi immediatamente successivi (non finali) [visualizzando i nodi principali basati sui nodi esistenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Limitato</br>Consente di fare clic con il pulsante destro del mouse e visualizzare l&#39;abbandono immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza della dimensione tra nodi. Ciò significa che ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |
+| **Mostra dove le persone hanno lasciato (abbandonato) e continuato (proseguito)** | Sì</br>Mostra per percorsi predefiniti ed esplorativi. | Sì</br>Mostra percorsi predefiniti | Sì</br>Mostra per percorsi esplorativi |
 | **percorsi lineari** | Sì | Sì | No |
 | **percorsi non lineari con più punti di ingresso e percorsi** | Sì | No | Sì |
-| **Metrica primaria** | Qualsiasi metrica, comprese quelle calcolate | Solo sessione o persona | Solo occorrenze (visualizzazioni percorso) |
-| **Metrica secondaria** | Sì<p>Qualsiasi metrica, comprese quelle calcolate</p> | No | No |
+| **Metrica primaria** | Qualsiasi metrica, comprese quelle calcolate. | Solo sessione o persona | Solo occorrenze (visualizzazioni percorso) |
+| **Metrica secondaria** | Sì<p>Qualsiasi metrica, comprese quelle calcolate.</p> | No | No |
 | **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, filtri e intervalli di date. | Metriche, elementi dimensionali, filtri e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
 | **Confronta filtri** | No | Sì<p>Eseguire confronti affiancati di due diversi filtri nello stesso rapporto</p> | No |
 | **Interazione tramite trascinamento** | Sì | Sì | No |
-| **percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per analisi più approfondite e personalizzazione | No | No |
+| **percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per un&#39;analisi e una personalizzazione più approfondite. | No | No |
 
 {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative}.  è nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. <br/>Inoltre, le funzionalità di [!BADGE B2B edition]{type=Informative} e la documentazione di [!BADGE B2B edition]{type=Informative} sono soggette a modifiche e non è possibile derivarne alcun obbligo legale.<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative}<br/>Inoltre, [!BADGE B2B edition]{type=Informative}[!BADGE B2B edition]{type=Informative}<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
 >
 
 
@@ -244,4 +244,4 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 >[!INFO]
 >
->In questa documentazione, articoli o funzionalità B2B specifici, disponibili solo con Customer Journey Analytics B2B edition, sono contrassegnati con [!BADGE B2B edition]{type=Informative}.
+In questa documentazione, articoli o funzionalità B2B specifici, disponibili solo con Customer Journey Analytics B2B edition, sono contrassegnati con [!BADGE B2B edition]{type=Informative}
