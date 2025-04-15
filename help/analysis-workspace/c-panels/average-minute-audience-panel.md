@@ -4,7 +4,7 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 23%
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Pubblico medio per minuto del file multimediale"
->abstract="Mostra le prestazioni di contenuti multimediali specifici o le prestazioni in un periodo di tempo personalizzato. Specifica la dimensione di reporting e facoltativamente filtra il contenuto."
+>abstract="Mostra le prestazioni di contenuti multimediali specifici o le prestazioni in un periodo di tempo personalizzato. Specifica la dimensione di reporting e facoltativamente segmenta il contenuto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Utilizza le impostazioni di input descritte in questa sezione per configurare il
    | Impostazione | Descrizione |
    |---------|------------|
    | **Intervallo date pannello** | L&#39;intervallo date predefinito del pannello è [!UICONTROL **Questo mese**]. È possibile modificarlo per visualizzare uno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
-   | [!UICONTROL **Rilascia qui un segmento (o qualsiasi altro componente)**] | Come altri pannelli, questa impostazione filtra le selezioni in base ai segmenti creati. Questa impostazione è un ottimo modo per esaminare piattaforme specifiche, flussi live o altri segmenti multimediali comuni. |
+   | [!UICONTROL **Rilascia qui un segmento (o qualsiasi altro componente)**] | Come altri pannelli, questa impostazione segmenta le selezioni in base ai segmenti creati. Questa impostazione è un ottimo modo per esaminare piattaforme specifiche, flussi live o altri segmenti multimediali comuni. |
    | [!UICONTROL **Calcola metrica per**] | Scegli se visualizzare il pubblico medio per minuto di [**[!UICONTROL Specific content]**](#specific-content). Oppure se desideri visualizzare il pubblico medio per minuto di un [**[!UICONTROL Custom time period]**](#custom-time-period).<br/><br/>Seleziona [!UICONTROL **Periodo di tempo personalizzato**]: <ul><li>Se la durata non è disponibile, oppure </li><li>se desideri visualizzare il pubblico medio per minuto di una serie temporale con più parti di contenuto, oppure</li><li>per contenuti senza una specifica durata assegnata (come durante un live stream o un evento)</li></ul></li></li></ul> <p>Questa impostazione modifica il flusso di lavoro e l’output del rapporto.</p> |
 
 1. Continua con [Contenuto specifico](#specific-content) o [Periodo di tempo personalizzato](#custom-time-period), a seconda dell&#39;opzione scelta nell&#39;elenco a discesa [!UICONTROL **Calcola metrica per**].

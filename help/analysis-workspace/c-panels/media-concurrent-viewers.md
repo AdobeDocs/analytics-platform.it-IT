@@ -4,10 +4,10 @@ description: Come utilizzare e interpretare il pannello Visualizzatori simultane
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 41%
+ht-degree: 43%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di contenuti multimediali"
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza e, facoltativamente, suddividi e confronta utilizzando filtri, dimensioni, elementi dimensionali o intervalli di date."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Puoi configurare il pannello Visualizzatori simultanei di contenuti multimediali
 | **[!UICONTROL Panel date range]** | L’intervallo di date predefinito del pannello è Today (Oggi).  È possibile modificarlo per visualizzare uno o più mesi alla volta. <br> <br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
 | **[!UICONTROL Granularity]** | L’impostazione predefinita della granularità è Minuto.<br>Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto).  Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe. |
 | **[!UICONTROL Panel summary numbers]** | Per visualizzare i dettagli di data o ora per i visualizzatori simultanei, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. **[!UICONTROL Minimum]** mostra i dettagli del valore minimo.  Per impostazione predefinita il pannello mostra solo il valore massimo, ma puoi impostarlo sul valore minimo o su entrambi.<br><br>Se utilizzi i raggruppamenti, per ciascuno viene visualizzato un numero di riepilogo. |
-| **[!UICONTROL Series breakdown]** | Facoltativamente, puoi suddividere la visualizzazione per filtri, dimensioni, elementi dimensionali o intervalli di date.<br>È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br>Quando si trascina una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.<br>Per confrontare intervalli di date, trascina 2 o più intervalli di date nel filtro di raggruppamento per serie. |
+| **[!UICONTROL Series breakdown]** | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date.<br>È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br>Quando si trascina una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.<br>Per confrontare intervalli di date, trascina 2 o più intervalli di date nel segmento di raggruppamento per serie. |
 
 Ecco un esempio del pannello configurato per la granularità **[!UICONTROL Minute]**, con **[!UICONTROL Maximum only]** numeri di riepilogo. E suddiviso per **[!UICONTROL Other]**, **[!UICONTROL Table]**, **[!UICONTROL Mobile Phone]**, **[!UICONTROL Gaming Console]**, **[!UICONTROL Media Player]**, **[!UICONTROL Set-top Box]**, **[!UICONTROL Television]**.
 
@@ -116,7 +116,7 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 |---|---|
 | Dov’è la tabella a forma libera? Come posso visualizzare l’origine dati? | La tabella a forma libera non è disponibile in questa vista. È possibile scaricare l&#39;origine dati dal menu di scelta rapida del grafico a linee e selezionare **[!UICONTROL Download data as CSV]**. |
 | Perché la granularità è cambiata? | Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente in modo che l’intervallo di date completo possa rientrare entro questo limite di righe.<br><br>Quando passi da un intervallo di date più ampio a uno più ridotto, la granularità viene aggiornata al dettaglio più basso consentito dopo la modifica dell&#39;intervallo di date. Per visualizzare una granularità maggiore, modifica il pannello e ricompila. |
-| Come si confrontano nomi video, filtri, tipi di contenuto e altri? | Per confrontare questi elementi in una singola visualizzazione, trascina filtri, dimensioni o elementi dimensionali specifici nel filtro di raggruppamento per serie.<br><br>La visualizzazione è limitata a 10 raggruppamenti.  Per visualizzarne più di 10, è necessario utilizzare più pannelli. |
+| Come si confrontano nomi video, segmenti, tipi di contenuto e altri? | Per confrontare questi elementi in una singola visualizzazione, trascina segmenti, dimensioni o elementi dimensionali specifici nel segmento di suddivisione per serie.<br><br>La visualizzazione è limitata a 10 raggruppamenti.  Per visualizzarne più di 10, è necessario utilizzare più pannelli. |
 | Come si confrontano gli intervalli di date? | Per confrontare intervalli di date diversi in una singola visualizzazione, utilizza i raggruppamenti di serie trascinando 2 o più intervalli di date.  Gli intervalli di date sovrascrivono l’intervallo del pannello. |
 | Come posso modificare il tipo di visualizzazione? | Questo pannello consente solo la visualizzazione a linee per le serie temporali. |
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
