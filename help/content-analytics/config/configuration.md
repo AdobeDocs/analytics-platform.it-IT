@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 320b1cb94f63d0e6813999c1dc293b7e78ac7845
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -38,8 +38,8 @@ Prima di configurare Content Analytics, verifica che siano soddisfatti i seguent
 * Se hai implementato [Web SDK utilizzando Javascript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"} per la regolare raccolta di dati comportamentali, assicurati di usare il nome predefinito <code>alloy</code> per la libreria JavaScript.
 * Hai il ruolo Amministratore di prodotto Customer Journey Analytics, con le autorizzazioni aggiuntive per gestire le connessioni e le visualizzazioni dati.
 * È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}. Queste autorizzazioni sono costituite da:
-   * [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
+   * [Autorizzazioni di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * Hai considerato attentamente le seguenti importanti opzioni di configurazione:
 
    * Il tuo sito è adatto per la generazione di rapporti sull’esperienza. La generazione di rapporti sull’esperienza corretta è possibile solo quando vengono soddisfatte le seguenti condizioni:
