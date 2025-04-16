@@ -3,7 +3,8 @@ description: Casi di utilizzo per gli avvisi.
 title: Casi di utilizzo degli avvisi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+exl-id: 3aa5e38e-fa19-40aa-a537-d4da529e1bc7
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Nelle sezioni seguenti sono illustrati alcuni esempi di casi d’uso da consider
 
 ## Filtra avvisi
 
-Puoi creare semplici avvisi utilizzando i filtri. Ad esempio, definisci un avviso relativo al numero di sessioni per le persone che visitano la home page tramite una sessione dell’app mobile.
+Puoi creare semplici avvisi utilizzando i segmenti. Ad esempio, definisci un avviso relativo al numero di sessioni per le persone che visitano la home page tramite una sessione dell’app mobile.
 
 
 ![](assets/alerts-example1.png)

@@ -3,7 +3,7 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Approvare le metriche calcolate
 
-In [Gestione metriche calcolate](cm-manager.md) è possibile approvare e annullare l&#39;approvazione dei filtri. Solo gli amministratori possono approvare le metriche calcolate.
+In [Gestione metriche calcolate](cm-manager.md), puoi approvare e annullare l&#39;approvazione dei segmenti. Solo gli amministratori possono approvare le metriche calcolate.
 
 Per approvare le metriche calcolate:
 

@@ -1,9 +1,10 @@
 ---
-description: Scopri le differenze tra gli avvisi e il Customer Journey Analytics di Adobe Analytics
-title: Customer Journey Analytics di confronto delle funzioni degli avvisi e Adobe Analytics
+description: Scopri le differenze tra gli avvisi in Customer Journey Analytics e Adobe Analytics
+title: Confronto delle funzioni degli avvisi tra Customer Journey Analytics e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 5%
@@ -14,21 +15,21 @@ ht-degree: 5%
 
 Il processo di utilizzo degli avvisi in Customer Journey Analytics è quasi identico a quello degli avvisi in Adobe Analytics. Tuttavia, ci sono importanti differenze. Le sezioni seguenti descrivono le differenze principali.
 
-## Gli avvisi orari non sono disponibili nel Customer Journey Analytics
+## Gli avvisi orari non sono disponibili in Customer Journey Analytics
 
-Gli avvisi orari non sono disponibili nel Customer Journey Analytics come in Adobe Analytics. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.
+Gli avvisi orari non sono disponibili in Customer Journey Analytics come in Adobe Analytics. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.
 
 Ciò è dovuto ai vari modi in cui i dati possono essere acquisiti in Adobe Experience Platform, prima che vengano segnalati in Customer Journey Analytics. La completezza e la disponibilità dei dati non possono essere raggiunte in modo affidabile entro un’ora, rendendo gli avvisi orari poco pratici a causa dell’elevato potenziale di dati incompleti. Per ulteriori informazioni, consulta [I tempi di acquisizione dei dati variano](#data-ingestion-times-vary-in-customer-journey-analytics).
 
-## I tempi di acquisizione dei dati variano a seconda del Customer Journey Analytics
+## I tempi di acquisizione dei dati variano in Customer Journey Analytics
 
-Il tempo necessario prima che i dati siano completi e disponibili per essere segnalati nel Customer Journey Analytics varia a seconda dell&#39;organizzazione.
+Il tempo necessario prima che i dati siano completi e disponibili per essere segnalati in Customer Journey Analytics varia a seconda dell’organizzazione.
 
 Ciò è dovuto ai seguenti motivi:
 
 * Capacità di Platform di contenere tutti i tipi di schemi e tipi di dati
 
-  A differenza di Adobe Analytics (che segnala solo i dati web), [molti tipi diversi di dati possono essere acquisiti in Adobe Experience Platform](/help/data-ingestion/data-ingestion.md) per essere segnalati in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.
+  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform](/help/data-ingestion/data-ingestion.md) è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.[
 
 * Ritardo nella consegna dei dati batch ai set di dati di Platform
 
@@ -52,15 +53,8 @@ In Adobe Analytics sono disponibili le seguenti opzioni:
 
 * Selezionare uno o più elementi in una tabella a forma libera, quindi fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Create alert from selection]**.
 
-  Questo precompila immediatamente il generatore di avvisi per creare un avviso con le metriche e i filtri corretti.
+  Questo precompila immediatamente il generatore di avvisi per creare un avviso con le metriche e i segmenti corretti.
 
 * Apri un progetto in Analysis Workspace, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create alert]**.
 
 * Apri un progetto in Analysis Workspace, quindi utilizza il seguente collegamento: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
-
-
-
-
-
-
-

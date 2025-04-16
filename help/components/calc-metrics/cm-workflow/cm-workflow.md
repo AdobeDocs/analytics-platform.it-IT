@@ -3,7 +3,7 @@ description: Scopri come creare metriche calcolate.
 title: Creare metriche calcolate
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Creare metriche calcolate
 
-Per impostazione predefinita, solo gli amministratori possono creare metriche calcolate. Le autorizzazioni degli utenti per visualizzare le metriche calcolate sono simili a quelle degli utenti per visualizzare altri componenti, ad esempio filtri, annotazioni e altro ancora.
+Per impostazione predefinita, solo gli amministratori possono creare metriche calcolate. Gli utenti dispongono delle autorizzazioni per visualizzare le metriche calcolate, in modo analogo a come visualizzano altri componenti (come segmenti, annotazioni e altro ancora).
 
 Tuttavia, gli amministratori possono assegnare l&#39;autorizzazione **[!UICONTROL Calculated Metric Creation]** per **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** agli utenti tramite [Admin Console](/help/technotes/access-control.md#user-level-access).
 

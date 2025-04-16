@@ -3,7 +3,7 @@ description: Le funzioni ti consentono di filtrare/ordinare i dati ed eseguire a
 title: Usare le funzioni
 feature: Calculated Metrics
 exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 6%
@@ -20,7 +20,7 @@ Per un elenco di tutte le funzioni, vedere [Funzioni di base](/help/components/c
 
 >[!NOTE]
 >
->Quando includi funzioni nella Definizione del generatore di metriche calcolate, applica sempre la funzione prima di trascinare metriche o filtri.
+>Quando includi funzioni nella Definizione del generatore di metriche calcolate, applica sempre la funzione prima di trascinare metriche o segmenti.
 >
 
 
