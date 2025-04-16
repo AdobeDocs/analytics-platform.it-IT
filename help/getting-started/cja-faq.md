@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 1bea6a1bc7d2070f01a60ef859675a0f9d03c86d
-workflow-type: ht
-source-wordcount: '2389'
-ht-degree: 100%
+source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+workflow-type: tm+mt
+source-wordcount: '2387'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ Dipende dal caso d’uso: collabora con il team Adobe Account. I casi d’uso at
 
 ## 9. Stimare la dimensione della connessione {#estimate-size}
 
-Consulta [Stimare e gestire l’utilizzo](/help/technotes/estimate-usage.md).
+Consulta [Utilizzo delle connessioni](/help/connections/manage-connections.md#usage).
 
 ## 10. Superamento del limite di utilizzo {#overage}
 
