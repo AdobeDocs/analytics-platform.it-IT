@@ -1,5 +1,5 @@
 ---
-source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 19%
@@ -236,7 +236,7 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative}.  è nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. <br/>Inoltre, le funzionalità di [!BADGE B2B edition]{type=Informative} e la documentazione di [!BADGE B2B edition]{type=Informative} sono soggette a modifiche e non è possibile derivarne alcun obbligo legale.<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questo articolo e qualsiasi altro articolo o funzionalità contrassegnata con [!BADGE B2B edition]{type=Informative} si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. <br/>Inoltre, le funzionalità di [!BADGE B2B edition]{type=Informative} e la documentazione di [!BADGE B2B edition]{type=Informative} sono soggette a modifiche e non è possibile derivarne alcun obbligo legale.<br/>Questa nota verrà rimossa quando la funzionalità sarà disponibile. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).
 >
 
 

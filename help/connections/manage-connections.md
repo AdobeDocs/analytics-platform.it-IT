@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
-source-wordcount: '4046'
+source-wordcount: '4052'
 ht-degree: 22%
 
 ---
@@ -44,7 +44,7 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | [!UICONTROL Name] | Il nome descrittivo della connessione. Per visualizzare i dettagli della connessione, selezionare il nome del collegamento ipertestuale. Vedi [Dettagli connessione](#connection-details). |
 | ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Per visualizzare informazioni su [!UICONTROL Datasets included], [!UICONTROL Sandbox], [!UICONTROL Owner] e altro, seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) accanto al nome della connessione.<p>Una finestra pop-up visualizza i dettagli. <p><img src="./assets/conn-info.png" alt="Visualizza informazioni di connessione" width="400"/> |
 | ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Per [creare una visualizzazione dati](#create-a-data-view) per la connessione, selezionare ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Questa icona viene visualizzata solo se alla connessione non è già associata alcuna visualizzazione dati. |
-| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per: <p>![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [Modifica](#edit-a-connection) una connessione.<p>![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [Elimina](#delete-a-connection) una connessione.<p>![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [Crea nuova visualizzazione dati](#create-a-data-view). Per creare visualizzazioni dati aggiuntive per la connessione.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) Connection map. To view a connection map for the connection. |
+| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per: <p>![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [Modifica](#edit-a-connection) una connessione.<p>![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [Elimina](#delete-a-connection) una connessione.<p>![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [Crea nuova visualizzazione dati](#create-a-data-view). Per creare visualizzazioni dati aggiuntive per la connessione.<p>Mappa di connessione ![GraphPathing](/help/assets/icons/GraphPathing.svg). Per visualizzare una mappa di connessione per la connessione. |
 | **[!UICONTROL Datasets]** | Uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se la connessione selezionata contiene altri set di dati, selezionare **[!UICONTROL +*x *ulteriori]**per visualizzare un pannello **[!UICONTROL Datasets included]**. Questo pannello mostra i collegamenti a tutti i set di dati e un’opzione per cercare un set di dati specifico che fa parte della connessione.<p><img src="./assets/datasets-included.png" alt="Risorse dati incluse" width="400"/><p>Selezionando un nome per un set di dati si apre il set di dati nell’interfaccia utente di Experience Platform in una nuova scheda. |
 | **[!UICONTROL Sandbox]** | La sandbox [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione attinge i relativi set di dati. Questa sandbox è stata selezionata al momento della creazione della connessione. Non può essere modificato. |
 | **[!UICONTROL Owner]** | Persona che ha creato la connessione. |
@@ -127,7 +127,7 @@ Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione da
 Per visualizzare una [mappa di connessione](/help/connections/create-connection.md#connection-map) che descrive le relazioni tra i set di dati che fanno parte di una connessione:
 
 1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) accanto al nome della connessione.
-1. Select ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]**.
+1. Selezionare ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]**.
 
 ### Dettagli di connessione {#connection-detail}
 
@@ -485,3 +485,5 @@ L’interfaccia di utilizzo è costituita da due pannelli:
 >[!MORELIKETHIS]
 >
 >Esercitazione su [Visualizzare, risolvere e modificare le impostazioni di connessione](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
+>[Gestione dell&#39;utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>
