@@ -4,10 +4,10 @@ title: Creare progetti
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '459'
+ht-degree: 88%
 
 ---
 
@@ -65,6 +65,15 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="Consenti commenti"
+>abstract="Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Impostazioni progetto offre informazioni a livello di progetto sul progetto attualmente attivo.
 
@@ -83,6 +92,7 @@ Le impostazioni includono:
 | Mostra annotazioni | Specifica se le annotazioni per questo progetto sono visualizzate o meno. |
 | [Palette dei colori del progetto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale del pannello a sinistra, delle tabelle a forma libera e delle tabelle a coorte. |
+| Consenti commenti | Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti. Per ulteriori informazioni, vedere [Aggiungere e gestire commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md). |
 
 
 

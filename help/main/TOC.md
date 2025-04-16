@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 3bdde8181ec2a0e507dae907acb3da2b702f5578
+source-git-commit: 3304bb497a4d973dcd222829d8abd71618f7d2a5
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1219'
 ht-degree: 84%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 84%
          + [Creare il connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
          + [Aggiungere il set di dati del connettore di origine di Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Valutare quando disabilitare Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
-      + [Disabilita Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + [Disabilitare Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
       + Metodi di aggiornamento alternativi {#alternative-upgrade-methods}
          + [Utilizzare la raccolta dati di AppMeasurement](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
          + [Invia livello dati](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
@@ -165,6 +165,7 @@ ht-degree: 84%
       + [Panoramica](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Progetti aperti](/help/analysis-workspace/build-workspace-project/open-projects.md)
+      + [Commento nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Salvare progetti](../analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)

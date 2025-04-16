@@ -1,20 +1,20 @@
 ---
 title: Guardrail Customer Journey Analytics
-description: Scopri i guardrail per il Customer Journey Analytics
+description: Scopri i guardrail per Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 22b95bce42ee9f04b828cf5b765f40008a1534b1
+source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
 
 # Guardrail Customer Journey Analytics
 
-Questo documento stabilisce i limiti per i vari componenti del Customer Journey Analytics. Per i guardrail, i parametri di ambito e i diritti, vedere la [descrizione del prodotto per il Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o la [descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+Questo documento definisce i limiti per i vari componenti di Customer Journey Analytics. Per i guardrail, i parametri di ambito e i diritti, vedere la [descrizione del prodotto per Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o la [descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
 
 ## Tipi di limite
 
@@ -23,11 +23,11 @@ In questo documento sono disponibili due tipi di limiti predefiniti:
 | Tipo di guardrail | Descrizione |
 |----------|---------|
 | **Guardrail delle prestazioni (limite soft)** | I guardrail di prestazioni sono limiti di utilizzo relativi all’ambito dei tuoi casi d’uso. Quando si superano i guardrail delle prestazioni, è possibile che si verifichi un peggioramento delle prestazioni e della latenza. Adobe non è responsabile di tale degrado delle prestazioni. I clienti che superano costantemente un Guardrail delle prestazioni possono scegliere di concedere in licenza una capacità aggiuntiva per evitare il degrado delle prestazioni. |
-| **Guardrail applicati dal sistema (limite rigido)** | I guardrail applicati dal sistema vengono applicati dall’interfaccia utente o dall’API del Customer Journey Analytics. Si tratta di limiti che non possono essere superati poiché l’interfaccia utente e l’API non consentono di farlo o restituiscono un errore. |
+| **Guardrail applicati dal sistema (limite rigido)** | I guardrail applicati dal sistema vengono applicati dall’interfaccia utente o dall’API di Customer Journey Analytics. Si tratta di limiti che non possono essere superati poiché l’interfaccia utente e l’API non consentono di farlo o restituiscono un errore. |
 
 {style="table-layout:auto"}
 
-Alcune delle funzioni e il relativo valore associato per il limite dipendono dal pacchetto di Customer Journey Analytics a cui hai diritto.
+Alcune delle funzioni e il valore associato per il limite dipendono dal pacchetto Customer Journey Analytics a cui hai diritto.
 
 >[!NOTE]
 >
@@ -53,6 +53,10 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 | Pannelli per progetto | 15 | Guardrail imposto dal sistema | Numero massimo di [pannelli](../analysis-workspace/home.md#panels) per progetto. |
 | Visualizzazioni per pannello | 25 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni](../analysis-workspace/home.md#visualizations) per pannello. |
 | Campi derivati per tabella a forma libera | 5 | Guardrail imposto dal sistema | Numero massimo di campi derivati diversi in una singola tabella a forma libera. |
+| Commenti per progetto | 1.000 | Guardrail imposto dal sistema | Numero massimo di commenti per progetto. |
+| Risposte per commento | 100 | Guardrail imposto dal sistema | Numero massimo di risposte per commento. |
+| Immagini per commento | 5 | Guardrail imposto dal sistema | Numero massimo di immagini per commento. |
+| Dimensioni immagine | 2 | Guardrail imposto dal sistema | Dimensioni massime di caricamento per immagine in MB |
 
 {style="table-layout:auto"}
 
@@ -77,11 +81,11 @@ Alcune delle funzioni e il relativo valore associato per il limite dipendono dal
 | Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guardrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guardrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
-| Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
-Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
 
 
 ## Scadenza set di dati automatizzato
@@ -100,7 +104,7 @@ Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platfo
 |---|--:|---|---|
 | Progetti | 50.000 | Guardrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
 | Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
-| Visualizzazioni dati | 500 - 1000 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Visualizzazioni dati | 500 - 1000 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
 | Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un&#39;organizzazione. |
 | Titolo connessione | 500 | Guardrail imposto dal sistema | Numero massimo di caratteri per un titolo di connessione. |
@@ -110,7 +114,7 @@ Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platfo
 | Descrizione annotazione | 250 | Guardrail imposto dal sistema | Numero massimo di caratteri per una descrizione di annotazione. |
 | Campi schema | 10 | Guardrail imposto dal sistema | Numero massimo di campi schema (esclusi i campi standard) durante la definizione delle regole per un [campo derivato](../data-views/derived-fields/derived-fields.md). |
 | Campi ricerca/profilo | 3 | Guardrail imposto dal sistema | Numero massimo di campi dello schema di ricerca o profilo all’interno del numero massimo di campi dello schema (esclusi i campi standard) durante la definizione delle regole per un campo derivato. |
-| Campi derivati | 100 - 500 | Guardrail imposto dal sistema | Numero massimo di campi derivati per connessione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Campi derivati | 100 - 500 | Guardrail imposto dal sistema | Numero massimo di campi derivati per connessione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -122,11 +126,11 @@ Vedere anche l&#39;Experience Platform [Guardrail Real-time Customer Data Platfo
 | Campi | 10.000 | Guardrail imposto dal sistema | Numero massimo di proprietà o campi per riga in un set di dati. |
 | Stringhe univoche | 10 milioni | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. |
 | Righe | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
-| Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti nel Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
+| Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti in Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
 
 {style="table-layout:auto"}
 
-Vedere anche l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -138,7 +142,7 @@ Vedere anche l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dat
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -155,9 +159,9 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -166,9 +170,9 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 
 ## Filtri e metriche calcolate
@@ -177,10 +181,10 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 |---|--:|---|---|
 | Contenitori per filtro | 50 | Guardrail imposto dal sistema | Numero massimo di contenitori per filtro. |
 | Metriche per metrica calcolata | 25 | Guardrail imposto dal sistema | Numero massimo di metriche per metrica calcolata. |
-| Metriche e Dimension per filtro | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per filtro. |
+| Metriche e dimensioni per filtro | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per filtro. |
 | Contenitori nidificati per filtro | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per filtro. |
 | Regole per filtro | 100 | Guardrail imposto dal sistema | Numero massimo di regole per filtro. |
-| Confronti di stringhe al Dimension per filtro | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per filtro. |
+| Confronti di stringhe per Dimension per filtro | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per filtro. |
 | Metriche calcolate  | 6.000 | Guardrail imposto dal sistema | Numero massimo di metriche calcolate per un’organizzazione. |
 | Filtri | 50.000 | Guardrail imposto dal sistema | Numero massimo di filtri che è possibile definire per un’organizzazione. |
 | Chiamate API | 120 | Guardrail imposto dal sistema | Richieste API al minuto (12 richieste ogni 6 secondi). |
@@ -215,7 +219,7 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Righe per report | 3 milioni - 300 milioni | Guardrail imposto dal sistema | Numero massimo di righe di reporting per report. Il valore varia a seconda della confezione del Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Righe per report | 3 milioni - 300 milioni | Guardrail imposto dal sistema | Numero massimo di righe di reporting per report. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Raggruppamenti per tabella | 5 | Guardrail imposto dal sistema | Numero massimo di raggruppamenti per tabella. |
 | Metriche per tabella | 5 | Guardrail imposto dal sistema | Numero massimo di metriche per tabella. |
 | Frequenza Schedule | 1 | Guardrail imposto dal sistema | Le esportazioni possono essere programmate una volta (1) al giorno o con una pianificazione più lunga (ad esempio, una volta ogni 2 giorni o settimanalmente). |
@@ -226,16 +230,16 @@ Vedi anche Experience Platform [Guardrail di esportazione del set di dati](https
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, fare riferimento al contratto di Customer Journey Analytics. Per ulteriori informazioni, vedere l&#39;Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
 | Connettore da Adobe Analytics ad Adobe Analytics Source (A4T abilitato) | &lt; 30 minuti |
 | Connettore Source Adobe Analytics per Real-time Customer Profile (A4T non abilitato) | &lt; 2 minuti |
 | Connettore Source Adobe Analytics per Real-time Customer Profile (abilitato A4T) | &lt; 30 minuti |
-| Acquisizione dei dati nel data lake da acquisizione Edge Network o Streaming | &lt; 60 minuti |
+| Acquisizione dei dati nel Data Lake da Edge Network o acquisizione in streaming | &lt; 60 minuti |
 | Acquisizione dei dati nel data lake da Adobe Analytics Source Connector | &lt; 2,25 ore |
-| Acquisizione dei dati nel Customer Journey Analytics da Data Lake | &lt; 90 minuti |
+| Acquisizione dei dati in Customer Journey Analytics da Data Lake | &lt; 90 minuti |
 | Unione (funzionalità facoltativa; per ulteriori informazioni, vedere [Panoramica dell&#39;unione](../stitching/overview.md)) | &lt; 4 ore |
 | Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
