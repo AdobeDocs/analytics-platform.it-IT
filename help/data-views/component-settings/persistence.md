@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 72%
+source-wordcount: '1008'
+ht-degree: 62%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 72%
 
 
 
-[!UICONTROL Persistence] è la capacità di un dato valore di dimensione di riferirsi a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
+[!UICONTROL Persistence] è la capacità di un dato valore di dimensione di attribuire a una metrica oltre l&#39;evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 
 ![Finestra Visualizzazioni dati che evidenzia le opzioni di persistenza](../assets/persistence.png)
 
-* **Allocazione** consente di determinare quale valore viene mantenuto quando più elementi dimensionali possono persistere alla volta in una singola colonna.
+* **Allocazione** consente di determinare quale valore mantenere quando più elementi dimensionali possono persistere alla volta in una singola colonna.
 
   >[!NOTE]
   >
@@ -45,8 +45,8 @@ ht-degree: 72%
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Set persistence] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
-| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono: [!UICONTROL Most recent], [!UICONTROL Original], [!UICONTROL Instance], [!UICONTROL All]. A partire dal 28 ottobre 2021, un intervallo di lookback fino a 90 giorni verrà aggiunto all&#39;impostazione [!UICONTROL Allocation]. |
-| [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: [!UICONTROL Session] (predefinito), [!UICONTROL Person], [!UICONTROL Custom Time], [!UICONTROL Metric]. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
+| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Most recent]**: i valori nella dimensione persistono finché non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Original]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL All]**: tutti i valori per questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL First known]**: viene utilizzato il primo valore per questa dimensione che verrà applicato a tutti gli eventi prima e dopo.</li><li>**[!UICONTROL Last known]**: viene utilizzato l&#39;ultimo valore per questa dimensione, che verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
+| [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Session]** (predefinito)</li><li>**[!UICONTROL Person]**</li><li>**[!UICONTROL Custom Time]**</li><li>**[!UICONTROL Metric]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
 
 {style="table-layout:auto"}
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
+source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Nel contesto del presente articolo si utilizzano le seguenti definizioni:
 La libreria Content Analytics raccoglie dati quando:
 
 * Content Analytics è incluso nella libreria Tag caricata sulla pagina.
-* L&#39;URL della pagina è configurato nell&#39;estensione [Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, parte della libreria Tag inclusa.
+* L&#39;URL della pagina è configurato nell&#39;estensione [Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, che fa parte della libreria Tag inclusa.
 
 
 ## Evento Content Analytics
