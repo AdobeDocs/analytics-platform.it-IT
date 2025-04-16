@@ -4,10 +4,10 @@ title: Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Area di lavoro percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Area di lavoro percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e filtri. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ _Questo articolo documenta la visualizzazione dell&#39;area di lavoro del Percor
 
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. Consente di definire un percorso da zero o visualizzarne uno da Journey Optimizer, quindi di vedere in che modo le persone hanno abbandonato (abbandonato) o continuato (proseguito) il percorso.
 
-È possibile [creare analisi di percorsi di utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, filtri e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti decisionali. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti modifiche.
+Puoi [generare analisi di percorsi di utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, segmenti e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti decisionali. Trascina i nodi nell’area di lavoro per ridisporre gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti modifiche.
 
 [I nodi sono connessi](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati finché passano da un nodo all&#39;altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dall’impostazione del contenitore.
 
@@ -170,7 +170,7 @@ L’area di lavoro percorso fornisce un’analisi approfondita e approfondita ch
 
 L’utilizzo dell’area di lavoro Percorso per analizzare i percorsi creati in Journey Optimizer offre diversi vantaggi:
 
-* Crea eventi utilizzando qualsiasi dimensione, metrica, filtro o intervallo di date di Customer Journey Analytics.
+* Crea eventi utilizzando qualsiasi dimensione, metrica, segmento o intervallo di date di Customer Journey Analytics.
 
   In Journey Optimizer, un utente tecnico deve creare un evento prima di poterlo aggiungere a un percorso.
 
