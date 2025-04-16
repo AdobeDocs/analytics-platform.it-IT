@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Per gestire i componenti dall’interfaccia principale di Customer Journey Analy
 
 Puoi gestire i seguenti componenti:
 
-* [Filtri](filters/filters-overview.md): creare, gestire, condividere e applicare filtri per tipi di pubblico efficaci e mirati ai rapporti. I filtri consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni.
+* [Segmenti](filters/filters-overview.md): crea, gestisci, condividi e applica segmenti di pubblico potenti e mirati ai tuoi rapporti. I filtri consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni.
 * [Metriche calcolate:](calc-metrics/calc-metr-overview.md) utilizza metriche e formule come nuovi componenti da utilizzare nella generazione rapporti.
 * [Intervalli di date](date-ranges/create.md): personalizza e perfeziona gli intervalli di date che offre Analysis Workspace.
 * [Annotazioni](/help/components/annotations/overview.md): comunica alla tua organizzazione informazioni e dettagli contestuali sui dati.
@@ -36,7 +36,7 @@ Puoi gestire i seguenti componenti:
 
 ## Componenti di Analysis Workspace
 
-I componenti in Analysis Workspace sono metriche, dimensioni, filtri e intervalli di date che puoi trascinare su pannelli e visualizzazioni nel progetto Workspace. I componenti creati, come ad esempio una metrica calcolata, vengono aggiunti a questi pannelli o a un intervallo di date personalizzato.
+I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e intervalli di date da trascinare su pannelli e visualizzazioni nel progetto Workspace. I componenti creati, come ad esempio una metrica calcolata, vengono aggiunti a questi pannelli o a un intervallo di date personalizzato.
 
 Per accedere al pannello Componenti, seleziona ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** nel pannello del pulsante.
 
@@ -63,16 +63,16 @@ Puoi gestire i componenti (singolarmente o selezionandone più di uno).
 
    ![Elenco Azioni componenti che mostra Tag, Preferiti, Approva, Condividi ed Elimina.](assets/component-menu.gif){width=100%}
 
-   | Azione del componente | Descrizione |
+   | Azione componenti | Descrizione |
    |--- |--- |
    | ![Etichetta](/help/assets/icons/Label.svg) [!UICONTROL **Tag**] | Organizzare o gestire i componenti tramite l’applicazione di tag. Puoi eseguire la ricerca nel pannello a sinistra facendo clic sul filtro ![Filtra](/help/assets/icons/Filter.svg) o digitando `#`. I tag fungono anche da filtri nei gestori dei componenti. |
    | ![Stella](/help/assets/icons/Star.svg) [!UICONTROL **Preferiti**] | Aggiunge il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nel pannello a sinistra e filtrarli nei gestori dei componenti. |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Rimuovi il componente dall’elenco dei preferiti. |
    | ![Segno di spunta](/help/assets/icons/Checkmark.svg) [!UICONTROL **Approva**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi cercare e filtrare per Approvato nel pannello a sinistra. Un ![Segno di spunta](/help/assets/icons/Checkmark.svg) identifica i componenti approvati. |
-   | ![Condividi](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
-   | ![Elimina](/help/assets/icons/Delete.svg) [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio filtri o metriche calcolate. |
+   | ![Condividi](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
+   | ![Elimina](/help/assets/icons/Delete.svg) [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
 
-I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, consulta [Gestione filtri](/help/components/filters/manage-filters.md).
+I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, consulta [Gestire i segmenti](/help/components/filters/manage-filters.md).
 
 ## Gestione dell’elenco dei componenti
 
@@ -84,7 +84,7 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
 
 2. Nel campo di ricerca, inizia a digitare il nome del componente da visualizzare nel progetto.
 
-   Un colore e un’icona identificano il tipo di componente. Le **Dimensioni** ![icona Dimensioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, i **Filtri** ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, gli **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola e le **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi.<br/>L’icona Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica un modello di metrica calcolata o un modello di filtro. L’icona della calcolatrice ![icona calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore dell’organizzazione.
+   Un colore e un’icona identificano il tipo di componente. Le **Dimensioni** ![icona Dimensioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, i **Filtri** ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, gli **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola e le **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi.<br/>L&#39;icona Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica un modello di metrica calcolata o un modello di segmento. L’icona della calcolatrice ![icona calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore dell’organizzazione.
 
 3. Seleziona il componente dall’elenco a discesa.
 
@@ -102,7 +102,7 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
    | ![Stella](/help/assets/icons/Star.svg) | **[!UICONTROL Favorites]** | Mostra solo i componenti inclusi nell’elenco dei Preferiti. <br/>Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Gestire i componenti](#manage-components). |
    | ![Dimensioni](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Mostra solo i componenti che sono Dimensioni. |
    | ![Evento](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Mostra solo i componenti che sono Metriche. |
-   | ![Segmentazione](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Filters]** | Mostra solo i componenti che sono Filtri. |
+   | ![Segmentazione](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segments]** | Mostra solo i componenti che sono segmenti. |
    | ![Calendario](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Mostra solo i componenti che sono Intervalli di date. |
    | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL *Nome tag *]** | Mostra solo i componenti con i tag selezionati specifici. È disponibile un tag dedicato Adobe Template, per le [metriche calcolate predefinite](/help/components/calc-metrics/default-calcmetrics.md) fornite da Adobe. |
 

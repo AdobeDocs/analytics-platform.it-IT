@@ -5,18 +5,18 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 31%
+ht-degree: 96%
 
 ---
 
 # Panoramica sulle annotazioni
 
-Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali ad altre parti interessate all’interno dell’organizzazione. Le annotazioni consentono di collegare eventi calendario a dimensioni e metriche specifiche. È possibile aggiungere a una data o un intervallo di date annotazioni relative a problemi noti, festività, avvii di campagne, ecc. Puoi quindi visualizzare gli eventi in modo grafico e vedere se campagne o altri eventi hanno influenzato il traffico del sito, l’utilizzo di app mobile, i ricavi o su qualsiasi altra metrica.
+Le annotazioni consentono di comunicare in modo efficace dettagli contestuali sui dati agli altri stakeholder nella propria organizzazione. Le annotazioni consentono di collegare gli eventi calendario a dimensioni o metriche specifiche. È possibile aggiungere a una data o un intervallo di date annotazioni relative a problemi noti, festività, nuove campagne, ecc. Puoi quindi visualizzare gli eventi in modo grafico e vedere se campagne o altri eventi hanno influenzato il traffico del sito, l’utilizzo di app mobile, i ricavi o su qualsiasi altra metrica.
 
-Ad esempio, stai condividendo dei progetti con la tua organizzazione. Se si verifica un calo significativo delle offerte accettate, è possibile creare un&#39;annotazione **Offerte non valide** e applicarla all&#39;intera visualizzazione dati. Quando altri utenti visualizzano i set di dati che includono tale data, vedono l’annotazione all’interno dei loro progetti, insieme ai relativi dati.
+Ad esempio, supponiamo che tu condivida dei progetti con la tua organizzazione. Se si verifica un calo significativo delle offerte accettate, è possibile creare un’annotazione **Offerte errate** e applicarla all’intera visualizzazione dati. Quando altri utenti visualizzano i set di dati che includono tale data, vedono l’annotazione all’interno dei loro progetti, insieme ai relativi dati.
 
 ![Grafico a linee con annotazione evidenziata.](assets/annotation-example.png)
 
@@ -24,13 +24,13 @@ Le annotazioni possono essere applicate a:
 
 * Una singola data o un intervallo di date.
 
-* L’intero set di dati o metriche, dimensioni o filtri specifici.
+* L’intero set di dati o metriche, dimensioni o segmenti specifici.
 
-* Progetto in cui vengono create le annotazioni (impostazione predefinita) o tutti i progetti.
+* Il progetto in cui vengono create le annotazioni (impostazione predefinita) o tutti i progetti.
 
-* La visualizzazione dati in cui vengono create le annotazioni (impostazione predefinita) o tutte le visualizzazioni dati.
+* La visualizzazione dei dati in cui vengono create le annotazioni (impostazione predefinita) o tutte le visualizzazioni dei dati.
 
-Consulta [Creare annotazioni](/help/components/annotations/create-annotations.md) per le varie opzioni disponibili per la creazione di annotazioni. Le annotazioni verranno quindi compilate, modificate e salvate nel [Generatore di annotazioni](create-annotations.md#annotation-builder).
+Per le varie opzioni disponibili per la creazione di annotazioni, consulta [Creare annotazioni](/help/components/annotations/create-annotations.md). Le annotazioni verranno quindi compilate, modificate e salvate nel [generatore di annotazioni](create-annotations.md#annotation-builder).
 
 Utilizza [Gestione annotazioni](manage-annotations.md) per gestire le annotazioni.
 
@@ -38,8 +38,8 @@ Utilizza [Gestione annotazioni](manage-annotations.md) per gestire le annotazion
 
 Le annotazioni possono essere attivate o disattivate a diversi livelli:
 
-| Livello | Come... |
+| Livello | Procedura |
 |---|---|
-| **Visualizzazione** | Attiva o disattiva ![Impostazione](/help/assets/icons/Setting.svg) > **[!UICONTROL Settings]** > **[!UICONTROL Show annotations]**.<br/>![Abilitare la disabilitazione delle annotazioni per una visualizzazione](/help/components/annotations/assets/annotations-visualization.png) |
-| **Progetto** | Dal menu di un progetto di Workspace, selezionare **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** e abilitare o disabilitare **[!UICONTROL Show annotations]**.<br/>![Abilita disabilitazione annotazioni per un progetto](/help/components/annotations/assets/annotations-project.png) |
-| **Utente** | Dalla scheda **[!UICONTROL Components]**, seleziona **[!UICONTROL Preferences]** oppure dal menu di un progetto Workspace, seleziona **[!UICONTROL Project]** > **[!UICONTROL User preferences]**. <br/>In **[!UICONTROL Preferences]**, selezionare **[!UICONTROL Projects & Analysis]**. Dalla barra della scheda a sinistra, selezionare **[!UICONTROL Data]**. In basso, abilitare o disabilitare **[!UICONTROL Show annotations]** sotto l&#39;intestazione **[!UICONTROL Freeform table]**.<br/>![Abilita disabilitazione annotazioni per un utente](/help/components/annotations/assets/annotations-user.png) |
+| **Visualizzazione** | Abilita o disabilita ![Impostazione](/help/assets/icons/Setting.svg) > **[!UICONTROL Settings]** > **[!UICONTROL Show annotations]**.<br/>![Abilitare o disabilitare annotazioni per una visualizzazione](/help/components/annotations/assets/annotations-visualization.png) |
+| **Progetto** | Dal menu di un progetto Workspace, seleziona **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]** e abilita o disabilita **[!UICONTROL Show annotations]**.<br/>![Abilitare o disabilitare annotazioni per un progetto](/help/components/annotations/assets/annotations-project.png) |
+| **Utente** | Dalla scheda **[!UICONTROL Components]**, seleziona **[!UICONTROL Preferences]** oppure dal menu di un progetto Workspace, seleziona **[!UICONTROL Project]** > **[!UICONTROL User preferences]**. <br/>In **[!UICONTROL Preferences]**, seleziona **[!UICONTROL Projects & Analysis]**. Dalla barra della scheda a sinistra, seleziona **[!UICONTROL Data]**. In basso, abilita o disabilita **[!UICONTROL Show annotations]** sotto l’intestazione **[!UICONTROL Freeform table]**.<br/>![Abilitare o disabilitare annotazioni per un utente](/help/components/annotations/assets/annotations-user.png) |

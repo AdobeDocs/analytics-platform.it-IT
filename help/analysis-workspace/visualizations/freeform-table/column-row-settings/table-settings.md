@@ -4,7 +4,7 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 15%
@@ -20,7 +20,7 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 >[!ENDSHADEBOX]
 
-Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni delle righe della tabella, selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** accanto a una dimensione, un filtro, una metrica, un periodo di tempo o un raggruppamento all&#39;interno di ciascuno di questi oggetti.
+Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella. Per accedere alle impostazioni delle righe della tabella, selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** accanto a una dimensione, un segmento, una metrica, un periodo di tempo o un raggruppamento all&#39;interno di ciascuno di questi oggetti.
 
 ![Tabella a forma libera che evidenzia l&#39;icona Impostazioni per le metriche](assets/row-settings.png)
 
@@ -71,7 +71,7 @@ Quando si selezionano uno o più elementi dimensionali (prima colonna) o una o p
 | **[!UICONTROL Trend selection]** | Crea una visualizzazione con grafico a linee di tendenza per la selezione. |
 | **[!UICONTROL Display only selected rows]** | Visualizza solo le righe selezionate nella visualizzazione. |
 | **[!UICONTROL Display all rows]** | Visualizza tutte le righe della visualizzazione. |
-| **[!UICONTROL Create filter from selection]** | Apri **[!UICONTROL Filter builder]** per creare un filtro dalla selezione. |
+| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Filter builder]** per creare un segmento dalla selezione. |
 | **[!UICONTROL Create audience from selection]** | Apri la finestra di dialogo **[!UICONTROL Create audience]** per creare un pubblico dalla selezione. |
 
 Quando si seleziona un’intestazione di colonna di una metrica, sono disponibili le seguenti opzioni aggiuntive del menu di scelta rapida.
@@ -85,7 +85,7 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | **[!UICONTROL Compare attribution model]** | Specifica un nuovo modello di attribuzione e confrontalo con il modello di attribuzione per la colonna selezionata. Viene aggiunta una nuova colonna con le nuove metriche del modello di attribuzione. Inoltre, viene aggiunta una colonna Percentuale di variazione per il confronto. |
 | **[!UICONTROL Reset column widths]** | Ripristina la larghezza predefinita delle colonne. |
 | **[!UICONTROL Create annotation from selection]** | Apri **[!UICONTROL Annotation details]** per aggiungere un&#39;annotazione. |
-| **[!UICONTROL Create filter from selection]** | Apri **[!UICONTROL Filter builder]** per creare un filtro dalla selezione. |
+| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Filter builder]** per creare un segmento dalla selezione. |
 | **[!UICONTROL Create audience from selection]** | Apri la finestra di dialogo **[!UICONTROL Create audience]** per creare un pubblico dalla selezione. |
 
 ## Modificare l&#39;altezza delle righe

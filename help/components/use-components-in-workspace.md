@@ -4,7 +4,7 @@ title: Utilizzare i componenti in Analysis Workspace
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Utilizzare i componenti in Analysis Workspace
 
-I componenti costituiscono i dati effettivi di qualsiasi progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, filtri e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli in visualizzazioni o pannelli.
+I componenti costituiscono i dati effettivi di qualsiasi progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, segmenti e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli in visualizzazioni o pannelli.
 
 Per ulteriori informazioni sui tipi di componenti che è possibile aggiungere, vedere [Panoramica dei componenti](/help/components/overview.md).
 
@@ -31,8 +31,8 @@ Per ulteriori informazioni sui tipi di componenti che è possibile aggiungere, v
 
 1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
 
-1. Facoltativamente, puoi trascinare un componente nella zona di rilascio del filtro nell’intestazione di un pannello. Questo trascinamento definisce il componente come un filtro e applica il filtro a tutto il contenuto del pannello.
-Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+1. Facoltativamente, puoi trascinare un componente nella zona di rilascio del segmento nell’intestazione di un pannello. Questo trascinamento definisce il componente come un segmento e applica il segmento a tutto il contenuto all’interno del pannello.
+Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
 1. Per informazioni più dettagliate, vedere le sezioni seguenti:
 
@@ -40,13 +40,13 @@ Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannell
 
    * [Aggiungere metriche a un progetto](#add-metrics-to-a-project)
 
-   * [Aggiungere filtri a un progetto](#add-filters-to-a-project)
+   * [Aggiungere segmenti a un progetto](#add-segments-to-a-project)
 
    * [Aggiungere intervalli di date a un progetto](#add-date-ranges-to-a-project)
 
 ### Aggiungere dimensioni a un progetto
 
-[Dimension](/help/components/dimensions/overview.md) sono variabili in Customer Journey Analytics che in genere contengono valori stringa. Al contrario, le [metriche](/help/components/calc-metrics/calc-metr-overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
+[Le dimensioni](/help/components/dimensions/overview.md) sono variabili in Customer Journey Analytics che in genere contengono valori stringa. Al contrario, le [metriche](/help/components/calc-metrics/calc-metr-overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
 
 1. Inizia ad aggiungere una dimensione al progetto in Analysis Workspace, come descritto in [Aggiungere componenti a un progetto](#add-components-to-a-project).
 
@@ -56,7 +56,7 @@ Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannell
 
    * Trascina una dimensione in una visualizzazione (ad esempio una tabella a forma libera) in Analysis Workspace.
 
-   * Trascina una o più dimensioni dal pannello di sinistra nella zona di rilascio del filtro per creare un filtro rapido, come descritto in [Aggiungere filtri a un progetto](#add-filters-to-a-project).
+   * Trascina una o più dimensioni dal pannello di sinistra nella zona di rilascio dei segmenti per creare un segmento rapido, come descritto in [Aggiungere segmenti a un progetto](#add-filters-to-a-project).
 
 1. Facoltativamente, puoi suddividere dimensioni ed elementi dimensionali in Analysis Workspace con altri componenti. Per ulteriori informazioni, vedere [Suddividere dimensioni in Workspace](/help/components/dimensions/t-breakdown-fa.md).
 
@@ -93,17 +93,17 @@ Per ulteriori informazioni sulle metriche, vedere [Metriche](/help/components/ap
 
 [I filtri](/help/components/filters/filters-overview.md) ti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni specifiche.
 
-In Analysis Workspace puoi utilizzare i filtri in uno dei seguenti modi:
+Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
-* Aggiungere filtri a un pannello
-Quando aggiungi filtri a un pannello, i filtri si applicano a tutto il contenuto al suo interno.
-Per informazioni su come utilizzare la zona di rilascio dei filtri in un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+* Aggiungere segmenti a un pannello
+Quando aggiungi segmenti a un pannello, i segmenti vengono applicati a tutto il contenuto al suo interno.
+Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, vedi [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
-* Aggiungere filtri a una visualizzazione
-Quando si aggiungono filtri a una colonna di una tabella a forma libera, i filtri vengono applicati a tutto il contenuto della colonna della tabella. Puoi anche aggiungere filtri come parte di una visualizzazione di abbandono.
+* Aggiungere segmenti a una visualizzazione
+Quando aggiungi segmenti a una colonna di una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna della tabella. Puoi anche aggiungere segmenti come parte di una visualizzazione di abbandono.
 
-* Utilizzare i filtri nei componenti
-Quando definisci componenti come [metriche calcolate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) o anche [filtri](/help/components/filters/filter-builder.md) puoi utilizzare i filtri come parte della definizione.
+* Utilizzare i segmenti nei componenti
+Quando definisci componenti come [metriche calcolate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/filters/filter-builder.md) puoi utilizzare i filtri come parte della definizione.
 
 
 ### Aggiungere intervalli di date a un progetto

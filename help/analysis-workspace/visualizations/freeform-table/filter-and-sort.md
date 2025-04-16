@@ -4,9 +4,9 @@ title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '815'
 ht-degree: 44%
 
 ---
@@ -94,7 +94,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. Selezionare **[!UICONTROL Apply]** per filtrare i dati. Selezionare **[!UICONTROL Clear]** per cancellare tutti gli input. Selezionare **[!UICONTROL Cancel]** per annullare e chiudere la finestra di dialogo. <br/>Un&#39;icona ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** colorata indica e visualizza i dettagli quando un filtro viene applicato alla tabella.
 
-### Utilizzare i filtri per il pubblico
+### Utilizzare i segmenti di pubblico
 
 Per ulteriori dettagli, consulta [Panoramica sui filtri](/help/components/filters/filters-overview.md).
 

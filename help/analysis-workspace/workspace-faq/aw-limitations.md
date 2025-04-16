@@ -4,10 +4,10 @@ title: Limitazioni note in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -24,20 +24,20 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Visualizzazioni
 
-* Le visualizzazioni che sfruttano i filtri, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare metriche calcolate come input.
+* Le visualizzazioni che sfruttano segmenti quali [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram] non possono accettare metriche calcolate come input.
 * [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Filtri
 
-* Alcune metriche e dimensioni non possono essere filtrate, ad esempio [!UICONTROL Events], [!UICONTROL Persons], ecc.
-* I filtri ad hoc creati nell’[area di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di filtro rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o nel Gestore dei componenti del filtro, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Filtri rapidi](/help/components/filters/quick-filters.md)
+* Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Events], [!UICONTROL Persons] e così via.
+* I segmenti ad hoc creati nella zona di rilascio [pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di segmento rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o nel gestore dei componenti Filtro a meno che non vengano resi pubblici. Per ulteriori informazioni, consultare [Segmenti rapidi](/help/components/filters/quick-filters.md).
 
 ## Metriche calcolate 
 
-* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Vedi [Visualizzazioni](#visualizations).
+* Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Consulta [Visualizzazioni](#visualizations).
 * Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution], poiché possono includere modelli di attribuzione separati.
-* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > filters], ovvero Componenti > Segmenti). Ad esempio, [!UICONTROL IP Address].
+* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > segments], ovvero Componenti > Segmenti). Ad esempio, [!UICONTROL IP Address].
 
 ## Intervalli di date
 

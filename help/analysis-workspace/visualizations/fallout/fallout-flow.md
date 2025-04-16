@@ -4,7 +4,7 @@ title: Informazioni sui rapporti di fallout e sulle visualizzazioni
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -43,7 +43,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Le visualizzazioni Abbandono consentono di:
 
-* Eseguire confronti affiancati di due diversi filtri nello stesso rapporto
+* Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto
 * Trascina e rilascia (e ridisponi) i passaggi funnel (punti di contatto).
 * Combina e abbina valori provenienti da dimensioni e metriche diverse.
 * Crea un rapporto di fallout multidimensionale.
@@ -75,7 +75,7 @@ Le visualizzazioni Abbandono sono più adatte per:
 
 * Analisi dell’abbandono che coinvolge percorsi con una sequenza di pagine predefinita e un singolo punto di ingresso e percorso. Utilizzare l&#39;area di lavoro Percorso per percorsi con più punti di ingresso e percorsi.
 
-* Percorsi in cui è necessario eseguire confronti affiancati di due diversi filtri nello stesso rapporto.
+* Percorsi in cui è necessario eseguire confronti affiancati di due segmenti diversi nello stesso rapporto.
 
 Utilizza [la tabella precedente](#understand-the-differences) per comprendere le differenze tra le visualizzazioni Area di lavoro Percorso, Abbandono e Flusso.
 

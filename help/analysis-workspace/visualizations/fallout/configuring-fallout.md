@@ -4,10 +4,10 @@ title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 38%
 
 Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
 
-Puoi perfino aggiungere filtri all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare i filtri, come gli utenti di iOS e Android™. Trascina i filtri desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali filtri. Se desideri visualizzare solo questi filtri, puoi rimuovere la linea di base Tutte le visite.
+Puoi perfino aggiungere segmenti all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare segmenti, come gli utenti di iOS e Android™. Trascina i segmenti desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali segmenti. Se desideri visualizzare solo tali segmenti, puoi rimuovere la linea di base Tutte le visite.
 
 Non esiste alcun limite al numero di passaggi che è possibile aggiungere o al numero di dimensioni utilizzate.
 
-Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad esempio, supponiamo che qualcuno stia guardando &quot;scarpe, camicie&quot; su una pagina e che nella pagina successiva guardi &quot;camicie, calze&quot;. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad esempio, supponiamo che qualcuno stia guardando &quot;scarpe, camicie&quot; su una pagina e che nella pagina successiva guardi &quot;camicie, calze&quot;. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 ## Utilizzo
 
@@ -41,7 +41,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e filtri. Ad e
 
    >[!NOTE]
    >
-   >Per unire più filtri si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione e metriche, si usa l’operatore OR.
+   >Per unire più segmenti si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione, si usa l’operatore OR.
 
    ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/fallout-or.png)
 
@@ -82,7 +82,7 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 | **[!UICONTROL Trend all touchpoints (%)]** | Genera tendenze su tutte le percentuali dei punti di contatto nell&#39;abbandono (tranne **[!UICONTROL All People]**, se incluso) nello stesso grafico. |
 | **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
 | **[!UICONTROL Break down fallout at this touchpoint]** | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
-| **[!UICONTROL Create filter from touchpoint]** | Crea un nuovo filtro dal punto di contatto selezionato. |
+| **[!UICONTROL Create segment from touchpoint]** | Crea un nuovo segmento dal punto di contatto selezionato. |
 
 >[!MORELIKETHIS]
 >

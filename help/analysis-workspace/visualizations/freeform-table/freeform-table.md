@@ -4,10 +4,10 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -46,7 +46,7 @@ Il modo più rapido per creare una tabella consiste nel trascinare i componenti 
 
 ## Generatore di tabelle a forma libera
 
-Se prima preferisci aggiungere diversi componenti alla tabella, quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Enable table builder]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e filtri per creare tabelle che rispondano a domande più complesse. I dati vengono aggiornati dopo la selezione di **[!UICONTROL Build]**.
+Se prima preferisci aggiungere diversi componenti alla tabella, quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Enable table builder]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. I dati vengono aggiornati dopo la selezione di **[!UICONTROL Build]**.
 
 ![Un generatore di tabelle a forma libera mostra ](assets/table-builder.png)
 
@@ -56,7 +56,7 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 
 ### Filtra e ordina
 
-* Puoi [filtrare e ordinare](filter-and-sort.md) i dati in una tabella.
+* Puoi [segmentare e ordinare](filter-and-sort.md) i dati in una tabella.
 
 ### Righe
 
@@ -64,11 +64,11 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 * È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) del progetto.
 * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Selezionare il numero accanto a **[!UICONTROL Rows]** nell&#39;intestazione della prima colonna per visualizzare più righe in una pagina. Passa a una pagina diversa utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg) nell&#39;intestazione della prima colonna.
 * Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](/help/components/dimensions/t-breakdown-fa.md).
-* Le righe possono essere [filtrate](/help/components/filters/filters-overview.md) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
+* Le righe possono essere [segmentate](/help/components/filters/filters-overview.md) per mostrare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Colonne
 
-* I componenti possono essere impilati all’interno di colonne per creare metriche filtrate, analisi incrociate e altro ancora.
+* I componenti possono essere impilati all’interno di colonne per creare metriche segmentate, analisi incrociate e altro ancora.
 * La visualizzazione di ogni colonna può essere regolata nelle [impostazioni della colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 * Sono disponibili diverse azioni tramite il [menu di scelta rapida](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). Il menu fornisce azioni diverse a seconda che sia selezionata l’intestazione della tabella, le righe o le colonne.
 
