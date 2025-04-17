@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 Per creare una visualizzazione dati:
 
-1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e passa alla scheda **[!UICONTROL Data views]**.
+1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e seleziona **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 1. Seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
 

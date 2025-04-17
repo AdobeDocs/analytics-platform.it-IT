@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ Per ulteriori informazioni, vedere [Connettori di origine Adobe Experience Platf
 La creazione di un connettore di origine per i dati della metrica quantistica crea automaticamente un set di dati in Adobe Experience Platform. Aggiungi questo set di dati a una [connessione](/help/connections/overview.md) nuova o esistente in Customer Journey Analytics.
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com).
-1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Connections]** nel menu principale.
+1. Passa a Customer Journey Analytics e seleziona **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 1. Assegna un nome alla connessione e aggiungi il set di dati della metrica quantistica alla connessione.
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -46,7 +47,7 @@ La creazione di un connettore di origine per i dati della metrica quantistica cr
 Crea una [visualizzazione dati](/help/data-views/data-views.md) per configurare le impostazioni delle dimensioni e delle metriche.
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com).
-1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Data views]** nel menu principale.
+1. Passa a Customer Journey Analytics e seleziona **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 1. Seleziona la visualizzazione dati desiderata o crea una visualizzazione dati.
 1. Individua le dimensioni e le metriche della metrica quantistica desiderate nell’elenco dei campi dello schema a destra e trascinale nell’area delle dimensioni e delle metriche al centro.
 1. Utilizza il riquadro a destra per configurare ciascuna dimensione e metrica desiderata.

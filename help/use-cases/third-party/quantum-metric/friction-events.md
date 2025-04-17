@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Verifica che i set di dati nella connessione abbiano ora l’ID sessione della m
 Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come dimensione disponibile in Customer Journey Analytics.
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com).
-1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Data views]** nel menu principale.
+1. Passa a Customer Journey Analytics e seleziona **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 1. Seleziona la visualizzazione dati esistente desiderata.
 1. Individuate l&#39;elenco del campo evento di attrito della metrica Quantum a sinistra e trascinatelo nell&#39;area delle metriche al centro.
 1. Nel riquadro di destra, impostare l&#39;impostazione [Includi/Escludi valori](/help/data-views/component-settings/include-exclude-values.md) sugli eventi di attrito desiderati di cui tenere traccia. Puoi aggiungere più eventi di attrito alla stessa metrica per combinarli. Puoi anche trascinare un’altra copia del campo degli eventi di attrito nell’area delle metriche per tracciare altri eventi di attrito come metrica separata.

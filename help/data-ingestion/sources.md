@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1888'
 ht-degree: 78%
 
 ---
@@ -32,7 +32,7 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa guida rapida è una guida semplificata su come acquisire i dati in Adobe Experience Platform utilizzando un connettore di origine e utilizzarli nel Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire i dati utilizzando un connettore di origine in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 
 ## Configurare uno schema e un set di dati
@@ -62,14 +62,14 @@ Per configurare lo schema:
 
       >[!INFO]
       >
-      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
 
       ![Finestra Crea schema con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
 
@@ -119,7 +119,7 @@ Per configurare lo schema:
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile).
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
@@ -176,7 +176,7 @@ A seconda della fonte da cui ricevi i dati di fidelizzazione, scegli il connetto
 
 Puoi acquisire dati da diverse origini. Di seguito sono riportate solo alcune delle numerose fonti disponibili:
 
-- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altro)
+- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altri)
 
 - Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
 
@@ -225,7 +225,7 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 1. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
@@ -271,7 +271,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
@@ -308,7 +308,7 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
 
 2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 

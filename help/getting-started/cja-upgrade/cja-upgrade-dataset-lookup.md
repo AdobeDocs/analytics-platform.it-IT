@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 97%
+source-wordcount: '743'
+ht-degree: 96%
 
 ---
 
@@ -109,7 +109,7 @@ Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
 Per aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics:
 
-1. In Customer Journey Analytics, seleziona la scheda **[!UICONTROL Connections]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 1. Seleziona l’![icona Altro](assets/More.svg) accanto alla connessione in cui desideri aggiungere il set di dati di ricerca, quindi seleziona **[!UICONTROL Edit]**.
 

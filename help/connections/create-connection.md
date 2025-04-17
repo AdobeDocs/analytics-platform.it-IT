@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '4659'
+source-wordcount: '4661'
 ht-degree: 84%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 84%
 >title="Numero medio di utilizzi giornalieri"
 >abstract="Seleziona un intervallo per il numero di eventi giornalieri previsti per l’intera connessione."
 
-<!-- markdownlint-enable MD034 -->
 
 
 L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. E ti consente di specificare informazioni critiche come tipo di set di dati, dimensioni, schema, ID set di dati, stato del batch, stato di retrocompilazione, ID persona e molto altro, per ridurre il rischio di configurazione errata della connessione. Di seguito una panoramica delle nuove funzionalità:
@@ -154,7 +153,7 @@ In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, con
 
 ## Creare e configurare la connessione {#create-connection}
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Connections]** dal menu principale.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 1. Seleziona **[!UICONTROL Create new connection]**.
 
 >[!BEGINTABS]
@@ -442,7 +441,6 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection
 >title="Mappa di connessione"
 >abstract="La Mappa di connessione visualizza le relazioni tra evento, persona, account e set di dati di ricerca rilevanti (come opportunità, membri della campagna e altro)."
 
-<!-- markdownlint-enable MD034 -->
 
 
 Il flusso di lavoro consente di aggiungere uno o più set di dati di Experience Platform durante la creazione di una connessione.

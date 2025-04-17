@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 79%
+source-wordcount: '1085'
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa guida rapida è una guida semplificata su come acquisire i dati, utilizzando il connettore di origine di Adobe Analytics, e utilizzarli nel Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire i dati utilizzando il connettore di origine di Adobe Analytics e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 
 ## Configurare un connettore di origine di Adobe Analytics
@@ -54,11 +54,11 @@ Per creare un connettore di origine di Adobe Analytics:
 
 3. Seleziona **[!UICONTROL Set up]** (Configura) o **[!UICONTROL Add data]** (Aggiungi dati) nel riquadro Adobe Analytics.
 
-   ![Finestra di Adobe Experience Platform con Origini selezionate insieme ad applicazioni di Adobe ed Aggiungi dati evidenziati.](./assets/sources-overview.png)
+   ![Finestra di Adobe Experience Platform con Origini selezionate insieme alle applicazioni Adobe e Aggiungi dati evidenziati.](./assets/sources-overview.png)
 
 4. Seleziona **[!UICONTROL Report suite]** (Suite di rapporti). Dall’elenco delle suite di rapporti, seleziona quella da utilizzare.
 
-   ![Finestra di Adobe Experience Platform con l&#39;elenco delle suite di rapporti](./assets/report-suites.png)
+   ![Finestra di Adobe Experience Platform con l’elenco delle suite di rapporti](./assets/report-suites.png)
 
    Seleziona **[!UICONTROL Next]** (Avanti).
 
@@ -76,10 +76,10 @@ Per creare un connettore di origine di Adobe Analytics:
 
 7. Controlla la connessione e seleziona **[!UICONTROL Finish]** (Fine).
 
-   ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connect e Data type per la revisione](./assets/review.png)
+   ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connetti e Tipo di dati per la revisione](./assets/review.png)
 
 
-Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti. Il flusso di dati acquisisce fino a 13 mesi di dati storici per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a tre mesi.
+Una volta creata la connessione, il flusso di dati viene creato automaticamente per popolare un set di dati con i dati di Adobe Analytics dalla suite di rapporti. Il flusso di dati acquisisce fino a 13 mesi di dati storici per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.
 
 Al termine dell’inserimento iniziale, i dati della suite di rapporti Adobe Analytics sono pronti per essere utilizzati da Customer Journey Analytics.
 
@@ -94,7 +94,7 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
@@ -140,7 +140,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
@@ -177,7 +177,7 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
 
 2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 

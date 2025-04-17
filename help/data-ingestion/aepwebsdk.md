@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3218'
-ht-degree: 82%
+source-wordcount: '3222'
+ht-degree: 87%
 
 ---
 
@@ -60,20 +60,20 @@ Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
 
-      ![Crea uno schema che evidenzia l&#39;evento esperienza](./assets/create-ee-schema-wizard-step-1.png)
+      ![Creare uno schema che evidenzia l’evento esperienza](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
 
-      ![Finestra Crea schema con il nome dei campi dello schema](./assets/create-ee-schema-wizard-step-2.png)
+      ![Finestra Crea schema che mostra i campi Denomina lo schema](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 
@@ -105,11 +105,11 @@ Per configurare lo schema:
 
    >[!NOTE]
    >
-   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (come `ecid`, `crmId` e altri necessari) al gruppo di campi e seleziona il nuovo gruppo di campi.
+   >Se tale gruppo di campi non è disponibile, cercane un altro contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=it) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=it#define-a-identity-field) (come `ecid`, `crmId` e altri di cui hai bisogno) al gruppo di campi e seleziona il nuovo gruppo di campi.
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -135,7 +135,7 @@ Per configurare lo schema:
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile).
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
@@ -157,7 +157,7 @@ Per acquisire questi dati del profilo:
 
 - Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-- Definisci l’ID Experience Cloud come identificatore principale e invia un’e-mail come identificatore.
+- Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
 
 - Abilitare lo schema per il profilo
 
@@ -201,7 +201,7 @@ Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, crea
 
 ## Configurare un flusso di dati
 
-Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È lo stream di dati che determina a quali servizi vengono inoltrati i dati.
+Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È il flusso di dati che determina a quali servizi vengono inoltrati i dati.
 
 Nella configurazione, desideri che i dati raccolti dal sito Web vengano inviati al set di dati in Adobe Experience Platform.
 
@@ -233,7 +233,7 @@ Per impostare il flusso di dati:
 
 Il flusso di dati è ora configurato per inoltrare i dati raccolti dal sito Web al set di dati in Adobe Experience Platform.
 
-Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html).
+Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it).
 
 
 
@@ -280,7 +280,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
 Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-Il Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo, pertanto non è necessario aggiungere l&#39;estensione del servizio ID al tag.
+Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo e, pertanto, non è necessario aggiungere al tag l’estensione del servizio ID.
 
 #### **Elementi dati**
 
@@ -424,7 +424,7 @@ Per ulteriori informazioni, consulta la sezione [Regole](https://experienceleagu
 
 ### Creare e pubblicare il tag
 
-Dopo aver definito elementi dati e regole, devi generare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice di incorporamento univoco che consente di integrare la build assegnata nel sito.
+Dopo aver definito elementi dati e regole, devi generare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice da incorporare univoco che consente di integrare la build assegnata nel sito.
 
 Per generare e pubblicare il tag:
 
@@ -444,7 +444,7 @@ Per generare e pubblicare il tag:
 
    - Seleziona **[!UICONTROL Save & Build to Development]** (Salva e crea per lo sviluppo).
 
-   Il tag viene salvato e generato per l’ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
+   Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
 4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
 
@@ -493,7 +493,7 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
@@ -539,7 +539,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
@@ -576,7 +576,7 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
 
 2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 
@@ -600,4 +600,4 @@ Per ulteriori informazioni su come creare progetti e generare analisi utilizzand
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati nell’Edge Network per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gli elementi dati e le regole per acquisire i dati dal tuo sito Web e inviarli al tuo flusso di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
+>Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati in Edge Network per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gli elementi dati e le regole per acquisire i dati dal tuo sito Web e inviarli al tuo flusso di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.

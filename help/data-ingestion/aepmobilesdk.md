@@ -1,20 +1,20 @@
 ---
 title: Acquisire dati tramite Adobe Experience Platform Mobile SDK
-description: Spiegare come acquisire i dati nel Customer Journey Analytics tramite Adobe Experience Platform Mobile SDK e l’Edge Network
+description: Spiegare come acquisire i dati in Customer Journey Analytics tramite Adobe Experience Platform Mobile SDK e Edge Network
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 61%
+source-wordcount: '3089'
+ht-degree: 64%
 
 ---
 
 # Acquisire dati tramite Mobile SDK
 
-Questa guida rapida spiega come acquisire i dati di tracciamento delle app mobili direttamente in Adobe Experience Platform utilizzando Adobe Experience Platform Mobile SDK e Edge Network. Quindi usa quei dati nel Customer Journey Analytics.
+Questa guida rapida spiega come acquisire i dati di tracciamento delle app mobili direttamente in Adobe Experience Platform utilizzando Adobe Experience Platform Mobile SDK e Edge Network. Quindi utilizza tali dati in Customer Journey Analytics.
 
 A questo scopo, è necessario:
 
@@ -34,7 +34,7 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa guida rapida è una guida semplificata su come acquisire in Adobe Experience Platform i dati raccolti dall’applicazione e utilizzarli nel Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire in Adobe Experience Platform i dati raccolti dall’applicazione e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 
 ## Configurare uno schema e un set di dati
@@ -64,14 +64,14 @@ Per configurare lo schema:
 
       >[!INFO]
       >
-      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
 
       ![Assegnare un nome allo schema](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -87,11 +87,11 @@ Per configurare lo schema:
 
    1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL AEP Mobile SDK ExperienceEvent]** dall’elenco.
 
-      ![Gruppo di campi Dettagli ciclo di vita AEP Mobile](./assets/select-aepmobilesdk-experienceevent.png)
+      ![Gruppo di campi Dettagli ciclo di vita mobile di AEP](./assets/select-aepmobilesdk-experienceevent.png)
 
       Puoi selezionare il pulsante di anteprima per visualizzare un’anteprima dei campi che fanno parte del gruppo di campi, ad esempio `application > name`.
 
-      ![Anteprima gruppo di campi Dettagli ciclo di vita mobile AEP](./assets/aepmobilesdk-experienceevent-preview.png)
+      ![Anteprima gruppo di campi Dettagli ciclo di vita mobile di AEP](./assets/aepmobilesdk-experienceevent-preview.png)
 
       Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
 
@@ -105,11 +105,11 @@ Per configurare lo schema:
 
    >[!NOTE]
    >
-   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (come `ecid`, `crmId` e altri necessari) al gruppo di campi e seleziona il nuovo gruppo di campi.
+   >Se tale gruppo di campi non è disponibile, cercane un altro contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=it) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=it#define-a-identity-field) (come `ecid`, `crmId` e altri di cui hai bisogno) al gruppo di campi e seleziona il nuovo gruppo di campi.
 
    ![Oggetto di identificazione](./assets/identification-field-mobile.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili utilizzando la tua app mobile utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, vuoi identificare i profili utilizzando la tua app mobile utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -135,7 +135,7 @@ Per configurare lo schema:
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile).
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
@@ -157,7 +157,7 @@ Per acquisire i dati del profilo:
 
 - Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-- Definisci l’ID Experience Cloud come identificatore principale e invia un’e-mail come identificatore.
+- Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
 
 - Abilitare lo schema per il profilo
 
@@ -201,7 +201,7 @@ Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, crea
 
 ## Configurare un flusso di dati
 
-Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È lo stream di dati che determina a quali servizi vengono inoltrati i dati.
+Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È il flusso di dati che determina a quali servizi vengono inoltrati i dati.
 
 Nella configurazione, desideri che i dati raccolti dall’app mobile vengano inviati al set di dati in Adobe Experience Platform.
 
@@ -260,7 +260,7 @@ Per configurare, seleziona il tag appena creato dall&#39;elenco di [!UICONTROL T
 
 #### **Estensioni**
 
-Aggiungi l’estensione di Edge Network Adobe Platform al tag per garantire che tu possa inviare dati a Adobe Experience Platform (tramite lo stream di dati).
+Aggiungi l’estensione Adobe Platform Edge Network al tag per garantire che tu possa inviare dati a Adobe Experience Platform (tramite lo stream di dati).
 
 Per creare e configurare l&#39;estensione Adobe Experience Platform Mobile SDK:
 
@@ -272,18 +272,18 @@ Per creare e configurare l&#39;estensione Adobe Experience Platform Mobile SDK:
 
 1. Seleziona la sandbox e il flusso di dati creato in precedenza per il tuo [!UICONTROL Production Environment] (Ambiente di produzione) e (facoltativamente) [!UICONTROL Staging Environment] (Ambiente di gestione temporanea) e [!UICONTROL Development Environment] (Ambiente di sviluppo).
 
-   ![Configurazione estensione AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
+   ![Configurazione dell&#39;estensione AEP Mobile SDK](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Immetti **[!UICONTROL Edge Network domain]** sotto [!UICONTROL Domain configuration]. In genere utilizza `<organizationName>.data.adobedc.net`.
 
 1. Seleziona **[!UICONTROL Save]**.
 
-Per ulteriori informazioni, vedere [Configurare l&#39;estensione dell&#39;Edge Network di Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/edge-network).
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network).
 
 Desideri anche impostare le seguenti estensioni aggiuntive dal catalogo:
 
 - Identità.
-- AEP ASSURANCE
+- AEP Assurance.
 - Consenso.
 
 Per ulteriori informazioni sulle estensioni e sulla relativa configurazione, consulta [Configurare una proprietà tag](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=it) nell&#39;esercitazione per app mobili su Experience Platform.
@@ -318,7 +318,7 @@ Puoi creare tutti gli elementi dati desiderati e utilizzarli nelle regole.
 
 #### **Regole**
 
-I tag in Adobe Experience Platform seguono un sistema basato su regole. Cercano le interazione degli utenti e i relativi dati. Quando i criteri descritti nelle tue regole vengono soddisfatti, la regola attiva l’estensione, lo script o il codice lato client identificato. Puoi utilizzare le regole per inviare dati (come un oggetto XDM) in Adobe Experience Platform utilizzando l’estensione di Edge Network Adobe Experience Platform.
+I tag in Adobe Experience Platform seguono un sistema basato su regole. Cercano le interazione degli utenti e i relativi dati. Quando i criteri descritti nelle tue regole vengono soddisfatti, la regola attiva l’estensione, lo script o il codice lato client identificato. Puoi utilizzare le regole per inviare dati (come un oggetto XDM) in Adobe Experience Platform utilizzando l’estensione Adobe Experience Platform Edge Network.
 
 Ad esempio, desideri inviare i dati dell’evento quando l’app mobile viene utilizzata (in primo piano) e quando l’app mobile non viene utilizzata (viene rimandata in background).
 
@@ -364,7 +364,7 @@ Per definire una regola:
 
    - Seleziona **[!UICONTROL Save]** (Salva).
 
-Quanto sopra è solo un esempio di definizione di una regola che invia dati XDM, contenenti lo stato dell’applicazione, alla rete Adobe Edge e a Adobe Experience Platform.
+Quanto sopra è solo un esempio di definizione di una regola che invia dati XDM, contenenti lo stato dell’applicazione, ad Adobe Edge Network e a Adobe Experience Platform.
 
 Puoi utilizzare le regole in vari modi nel tag per manipolare le variabili (utilizzando gli elementi dati).
 
@@ -372,7 +372,7 @@ Per ulteriori informazioni, consulta la sezione [Regole](https://developer.adobe
 
 ### Creare e pubblicare il tag
 
-Dopo aver definito elementi dati e regole, devi generare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice di incorporamento univoco che consente di integrare la build assegnata nel sito.
+Dopo aver definito elementi dati e regole, devi generare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice da incorporare univoco che consente di integrare la build assegnata nel sito.
 
 Per generare e pubblicare il tag:
 
@@ -392,7 +392,7 @@ Per generare e pubblicare il tag:
 
    - Seleziona **[!UICONTROL Save & Build to Development]** (Salva e crea per lo sviluppo).
 
-   Il tag viene salvato e generato per l’ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
+   Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
 4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
 
@@ -437,7 +437,7 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
@@ -483,7 +483,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
@@ -520,7 +520,7 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
 
 2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 
@@ -544,4 +544,4 @@ Per ulteriori informazioni su come creare progetti e generare analisi utilizzand
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. Partendo dalla definizione dei dati da raccogliere (schema) e di dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di dati sulla rete Edge per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Edge Network Adobe Experience Platform e altri), gli elementi dati e le regole per acquisire dati dall’app mobile e inviarli allo stream di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento delle notifiche push nell’app mobile e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare; infine, hai creato il tuo primo progetto per visualizzare e analizzare i dati delle app mobili.
+>Hai completato tutti i passaggi. Partendo dalla definizione dei dati da raccogliere (schema) e di dove memorizzarli (set di dati) in Adobe Experience Platform, hai configurato un flusso di dati sulla rete Edge per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Edge Network e altri), gli elementi dati e le regole per acquisire dati dall’app mobile e inviarli allo stream di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento delle notifiche push nell’app mobile e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare; infine, hai creato il tuo primo progetto per visualizzare e analizzare i dati delle app mobili.

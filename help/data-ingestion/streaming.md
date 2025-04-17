@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1828'
 ht-degree: 84%
 
 ---
@@ -60,14 +60,14 @@ Per configurare lo schema:
 
       >[!INFO]
       >
-      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
 
       ![Assegnare un nome allo schema](./assets/create-pr-schema-wizard-step-2.png)
 
@@ -117,7 +117,7 @@ Per configurare lo schema:
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile).
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
@@ -253,7 +253,7 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connections]** (Connessioni) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
 
@@ -299,7 +299,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Data views]** (Visualizzazioni dati) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
 
 2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
 
@@ -336,7 +336,7 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell’interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione superiore.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
 
 2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
 

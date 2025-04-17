@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Le definizioni delle impostazioni di sessione sono non distruttive e non alteran
 
 Per definire il contesto di una sessione per una visualizzazione dati:
 
-1. Seleziona **[!UICONTROL Data views]** nell’interfaccia utente di Customer Journey Analytics.
+1. Selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nella navigazione principale dell&#39;interfaccia utente di Customer Journey Analytics.
 
 2. Crea una nuova visualizzazione dati o modificane una esistente. Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](create-dataview.md).
 
