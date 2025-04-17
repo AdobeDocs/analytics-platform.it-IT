@@ -1,21 +1,21 @@
 ---
-description: Descrive come copiare un filtro nel Gestore filtri
-title: Copiare filtri
+description: Descrive come copiare un segmento nel Gestore segmenti
+title: Copiare segmenti
 feature: Filters
 exl-id: a64737bd-5d5b-4e85-95ff-eb1d90b95e18
 role: User
-source-git-commit: 52752beb746dabdf0e604fa28ea373d0106de8a2
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
 
 ---
 
-# Copiare filtri
+# Copiare segmenti
 
-Nel [Gestore filtri](manage-filters.md), puoi copiare i filtri. La copia di un filtro è utile quando si desidera creare una versione leggermente modificata di un filtro esistente o ridefinire un filtro di cui non si è proprietari e non è possibile modificarlo.
+Nel [Gestore segmenti](manage-filters.md), puoi copiare i segmenti. La copia di un segmento è utile quando si desidera creare una versione leggermente modificata di un segmento esistente o ridefinire un segmento di cui non si è proprietari e che non è possibile modificare.
 
-1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri da copiare.
+1. Nel [Gestore segmenti](manage-filters.md), seleziona uno o più segmenti da copiare.
 1. Dalla barra delle azioni, seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
 
-I filtri vengono copiati e visualizzati nell’elenco dei filtri con lo stesso nome dell’originale ma con (Copia) aggiunto.
+I segmenti vengono copiati e visualizzati nell’elenco dei segmenti con lo stesso nome dell’originale ma con (Copy) aggiunto ad esso.

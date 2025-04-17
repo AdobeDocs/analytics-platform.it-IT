@@ -1,19 +1,19 @@
 ---
-description: Utilizzare filtri rapidi in Analysis Workspace per Customer Journey Analytics
-title: Filtri rapidi
+description: Utilizzare i segmenti rapidi in Analysis Workspace for Customer Journey Analytics
+title: Segmenti rapidi
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+workflow-type: tm+mt
+source-wordcount: '1099'
+ht-degree: 59%
 
 ---
 
-# Filtri rapidi
+# Segmenti rapidi
 
-I filtri rapidi consentono di esplorare rapidamente i dati all’interno di un progetto Workspace, senza dover creare un filtro nel [Generatore di filtri](/help/components/filters/create-filters.md).
+I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di un progetto Workspace, senza dover creare un segmento nel [Generatore di segmenti](/help/components/filters/create-filters.md).
 
 
 
@@ -24,46 +24,46 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 >[!ENDSHADEBOX]
 
 
-Quando desideri utilizzare i filtri rapidi, tieni presente che:
+Quando desideri utilizzare i segmenti rapidi, tieni presente che:
 
-* I filtri rapidi vengono creati direttamente in un progetto Workspace. Di conseguenza, un filtro rapido si applica solo al progetto Workspace in cui crei il filtro rapido. I filtri rapidi nel progetto Workspace non sono disponibili in altri progetti e non possono essere condivisi con altri utenti.
-* Puoi specificare solo tre condizioni come parte di un filtro rapido.
-* I filtri rapidi non supportano contenitori nidificati o condizioni sequenziali.
-* Puoi modificare i filtri rapidi all’interno di un progetto Workspace condiviso. In questo modo, altri utenti possono modificare i filtri rapidi in un progetto Workspace che hai condiviso con loro.
+* I segmenti rapidi vengono creati direttamente in un progetto Workspace. Di conseguenza, un segmento rapido si applica solo al progetto Workspace in cui è stato creato. I segmenti rapidi nel progetto Workspace non sono disponibili in altri progetti e non possono essere condivisi con altri utenti.
+* È possibile specificare solo tre condizioni come parte di un segmento rapido.
+* I segmenti rapidi non supportano contenitori nidificati o condizioni sequenziali.
+* Puoi modificare i segmenti rapidi all’interno di un progetto Workspace condiviso. In questo modo, altri utenti possono modificare i segmenti rapidi in un progetto Workspace condiviso con questi utenti.
 
 ## Creazione
 
-I filtri rapidi si applicano ai pannelli. Puoi creare uno o più filtri rapidi per ogni pannello nel progetto Workspace. Qualsiasi utente in Analysis Workspace può creare filtri rapidi.
+I segmenti rapidi si applicano ai pannelli. Puoi creare uno o più segmenti rapidi per ogni pannello del progetto Workspace. Qualsiasi utente in Analysis Workspace può creare segmenti rapidi.
 
-Per creare un filtro rapido:
+Per creare un segmento rapido:
 
-* Seleziona ![FilterAdd](/help/assets/icons/FilterAdd.svg) nella parte superiore del pannello. <br/>Modifica quindi direttamente il filtro nel [Generatore di filtri rapidi](#quick-filter-builder).
-* Trascina un componente dal pannello dei componenti alla zona di rilascio del filtro nell’intestazione del pannello. Una volta rilasciato, passa il cursore sul filtro e seleziona ![Edit](/help/assets/icons/Edit.svg) per modificare il filtro nel [Generatore di filtri rapidi](#quick-filter-builder).
+* Seleziona ![SegmentAdd](/help/assets/icons/FilterAdd.svg) nella parte superiore del pannello. <br/>Quindi, modifica direttamente il segmento nel [Generatore di segmenti rapido](#quick-filter-builder).
+* Trascina un componente dal pannello dei componenti alla zona di rilascio del segmento nell’intestazione del pannello. Una volta rilasciato, passa il cursore sul segmento e seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare il segmento nel [Generatore di segmenti rapidi](#quick-filter-builder).
 
-Quando crei un filtro rapido usando il trascinamento, tieni presente che:
+Quando crei un segmento rapido tramite trascinamento, tieni presente che:
 
-* Non tutti i tipi di componenti sono supportati. Le metriche calcolate non sono supportate e sono supportate solo le dimensioni e le metriche da cui puoi creare i filtri.
-* Per i componenti delle dimensioni e delle metriche, il [Generatore di filtri rapidi](#quick-filter-builder) crea automaticamente una condizione `exists`. Se, ad esempio, trascini `City`, viene creata la condizione `City exists`.
-* Per i valori di dimensione, il [Generatore di filtri rapidi](#quick-filter-builder) crea automaticamente una condizione `equals`. Se, ad esempio, trascini `amsterdam` dalla dimensione `City`, viene creata la condizione `City equals amsterdam`.
-* Se trascini `unspecified` o `none`, il [Generatore di filtri rapidi](#quick-filter-builder) crea automaticamente una condizione `does not exist`.
+* Non tutti i tipi di componenti sono supportati. Le metriche calcolate non sono supportate e sono supportate solo le dimensioni e le metriche da cui puoi creare i segmenti.
+* Per i componenti delle dimensioni e delle metriche, [Generatore di segmenti rapido](#quick-filter-builder) crea automaticamente `exists` condizioni. Se, ad esempio, trascini `City`, viene creata la condizione `City exists`.
+* Per i valori di dimensione, il [Generatore di segmenti rapido](#quick-filter-builder) crea automaticamente una condizione `equals`. Se, ad esempio, trascini `amsterdam` dalla dimensione `City`, viene creata la condizione `City equals amsterdam`.
+* Se trascini `unspecified` o `none`, il [Generatore di segmenti rapido](#quick-filter-builder) crea automaticamente una condizione `does not exist`.
 
-I filtri rapidi creati vengono visualizzati nella parte superiore del pannello. I filtri rapidi hanno una barra sottile azzurra a sinistra. Quando un filtro rapido è in modalità di modifica utilizzando il [Generatore di filtri rapidi](#quick-filter-builder), lo sfondo del filtro rapido è azzurro.
+I segmenti rapidi creati vengono visualizzati nella parte superiore del pannello. I segmenti rapidi hanno una barra a sinistra sottile di colore blu chiaro. Quando un segmento rapido è in modalità di modifica mediante il [Generatore di segmenti rapidi](#quick-filter-builder), lo sfondo del segmento rapido è di colore blu chiaro.
 
-I risultati dei filtri rapidi creati in un pannello vengono applicati (utilizzando l’operatore logico AND) a tutte le visualizzazioni che fanno parte del pannello.
+I risultati dei segmenti rapidi creati in un pannello vengono applicati (utilizzando la logica AND) a tutte le visualizzazioni che fanno parte del pannello.
 
 
 ## Gestire i
 
-Per gestire un filtro rapido, passa il cursore del mouse sul **[!UICONTROL Quick filter]** specifico.
+Per gestire un segmento rapido, passa il cursore del mouse su **[!UICONTROL Quick segment]** specifico.
 
-* Seleziona ![Edit](/help/assets/icons/Edit.svg) per aprire il [Generatore di filtri rapidi](#quick-filter-builder) e modifica il filtro rapido.
-* Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire un popup. Nel popup vengono visualizzate informazioni sul filtro. Puoi selezionare **[!UICONTROL Make available to all projects and add to your component list]** per aggiungere il filtro all’elenco dei componenti ![Filter](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** nel pannello dei componenti. Viene visualizzata una finestra di dialogo **[!UICONTROL Save quick filter]** in cui viene richiesto di specificare un nome per il filtro. Seleziona **[!UICONTROL Save]** per continuare. Il [!UICONTROL Quick filter] diventa un **[!UICONTROL Filter]**. Non puoi più modificare il filtro utilizzando il [Generatore di filtri rapidi](#quick-filter-builder). Devi invece modificare il filtro come un filtro normale, utilizzando il [Generatore di filtri](filter-builder.md).
+* Seleziona ![Modifica](/help/assets/icons/Edit.svg) per aprire il [Generatore di segmenti rapidi](#quick-filter-builder) e modificare i segmenti rapidi.
+* Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire un popup. Nel popup vengono visualizzate informazioni sul filtro. È possibile selezionare **[!UICONTROL Make available to all projects and add to your component list]** Per aggiungere il segmento all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** nel pannello dei componenti. Viene visualizzata una finestra di dialogo **[!UICONTROL Save quick segment]** in cui viene richiesto di specificare un nome per il segmento. Seleziona **[!UICONTROL Save]** per continuare. Il [!UICONTROL Quick segment] diventa un **[!UICONTROL Segment]**. Non è più possibile modificare il segmento utilizzando [Generatore di segmenti rapidi](#quick-filter-builder). È invece necessario modificare il segmento come segmento regolare, utilizzando il [Generatore di segmenti](filter-builder.md).
 
-## Generatore di filtri rapidi
+## Generatore di segmenti rapidi
 
-Di seguito è riportato un esempio del Generatore di filtri rapidi. Nell’esempio, il generatore viene aperto per un filtro rapido denominato `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Entrambi i filtri rapidi nella parte superiore si applicano al pannello [!UICONTROL Average Order Value Dashboard] e a tutte le visualizzazioni al suo interno, ad esempio alla tabella a forma libera [!UICONTROL Average Order Value Per Country].
+Consulta di seguito un esempio del Generatore di segmenti rapidi. Nell’esempio, il generatore viene aperto per un filtro rapido denominato `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Entrambi i filtri rapidi nella parte superiore si applicano al pannello [!UICONTROL Average Order Value Dashboard] e a tutte le visualizzazioni al suo interno, ad esempio alla tabella a forma libera [!UICONTROL Average Order Value Per Country].
 
-![Generatore di filtri rapidi](assets/quick-filter-builder.png)
+![Generatore di segmenti rapidi](assets/quick-filter-builder.png)
 
 Il generatore di filtri rapidi è costituito dalle seguenti aree e pulsanti.
 

@@ -1,27 +1,27 @@
 ---
-description: Puoi assegnare tag ai filtri per organizzarli.
-title: Assegnare tag ai filtri
+description: Puoi assegnare tag ai segmenti per organizzarli.
+title: Assegnare tag ai segmenti
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 66ec61ea64f1265d887d4941a22e1f9757120daa
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Assegnare tag ai filtri
+# Assegnare tag ai segmenti
 
-Nel [Gestore filtri](manage-filters.md) è possibile utilizzare i tag per organizzare i filtri. Gli amministratori possono assegnare tag a tutti i filtri. Gli utenti che non sono amministratori possono assegnare tag solo ai filtri creati o condivisi con loro.
+Nel [Gestore segmenti](manage-filters.md), puoi utilizzare i tag per organizzare i segmenti. Gli amministratori possono assegnare tag a tutti i segmenti. Gli utenti che non sono amministratori possono assegnare tag solo ai segmenti creati o condivisi con loro.
 
-Per assegnare tag a uno o più filtri:
+Per assegnare tag a uno o più segmenti:
 
-1. In [Gestione filtri](manage-filters.md), selezionare uno o più filtri a cui si desidera assegnare il tag.
+1. Nel [Gestore segmenti](manage-filters.md), seleziona uno o più segmenti ai quali desideri assegnare i tag.
 1. Dalla barra delle azioni, seleziona ![Etichette](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
-1. Nella finestra di dialogo **[!UICONTROL Tag Filters]** (Crea elemento dati):
+1. Nella finestra di dialogo **[!UICONTROL Tag Segments]** (Crea elemento dati):
 
-   ![Finestra di dialogo Filtri tag](assets/tag-filter-dialog.png)
+   ![Finestra di dialogo Segmenti di tag](assets/tag-filter-dialog.png)
 
    1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare e limitare l&#39;elenco di tag.
 
@@ -30,9 +30,9 @@ Per assegnare tag a uno o più filtri:
       * seleziona uno o più tag esistenti dall’elenco, oppure
       * immettere un nuovo tag e premere **[!UICONTROL ENTER]**. Ripeti l’operazione per aggiungere più di un nuovo tag.
 
-1. Selezionare **[!UICONTROL Save]** per salvare i tag per il filtro. Selezionare **[!UICONTROL Cancel]** per annullare.
+1. Selezionare **[!UICONTROL Save]** per salvare i tag per il segmento. Seleziona **[!UICONTROL Cancel]** per annullare.
 
-Una volta salvati, i tag sono elencati nel campo [!UICONTROL Tag] per i filtri selezionati nel [Generatore di filtri](filter-builder.md).
+Una volta salvati, i tag vengono elencati nel campo [!UICONTROL Tag] per i segmenti selezionati nel [Generatore di segmenti](filter-builder.md).
 
 
 ## Suggerimenti
