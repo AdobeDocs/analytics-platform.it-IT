@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
 <!-- markdownlint-enable MD034 -->
 
 
-Le impostazioni del comportamento sono disponibili sia per le dimensioni che per le metriche. La disponibilità delle impostazioni dipende dal tipo di componente e dal tipo di dati dello schema.
+Le impostazioni del comportamento sono disponibili sia per le dimensioni che per le metriche. Le impostazioni disponibili dipendono dal tipo di componente e dal tipo di dati dello schema.
 
 ![Impostazioni del comportamento](../assets/behavior-settings.png)
 
@@ -38,7 +38,7 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 >[!NOTE]
 >
->Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori maiuscoli precedono i valori minuscoli). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
+>Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori in maiuscolo precedono i valori in minuscolo). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
 
 ![Dimensione sensibile a maiuscole e minuscole](../assets/case-sens-workspace.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Creare uno schema per Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -55,6 +55,6 @@ Con lo stream di dati disponibile, devi aggiungere Platform as a service:
 
    Il flusso di dati è ora configurato per inoltrare i dati raccolti dal sito Web al set di dati in Adobe Experience Platform.
 
-   Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html).
+   Per ulteriori informazioni su come configurare un flusso di dati e come gestire i dati sensibili consulta la sezione [Panoramica dei flussi di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it).
 
 {{upgrade-final-step}}

@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 48%
+ht-degree: 96%
 
 ---
 
@@ -17,19 +17,19 @@ In generale, Customer Journey Analytics eredita tutte le impostazioni relative a
 
 ## Governance dei dati
 
-L&#39;integrazione tra Adobe Customer Journey Analytics e [Governance dei dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it) consente l&#39;etichettatura dei dati sensibili di Customer Journey Analytics e l&#39;applicazione delle politiche sulla privacy.
+L’integrazione tra Adobe Customer Journey Analytics e [governance dei dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it) consente l’etichettatura dei dati Customer Journey Analytics sensibili e l’applicazione dei criteri di privacy.
 
-Le etichette per la privacy e i criteri creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Queste etichette interrompono o avvertono gli utenti che creano metriche e/o dimensioni da campi sensibili.
+Le etichette e i criteri di privacy creati sui set di dati utilizzati da Experience Platform possono essere visualizzati nel flusso di lavoro delle visualizzazioni dati di Customer Journey Analytics. Queste etichette interrompono o avvertono gli utenti che creano metriche e/o dimensioni da campi sensibili.
 
-Inoltre, quando i dati vengono esportati da Customer Journey Analytics (tramite reporting, esportazione, API, ecc.), vengono aggiunti avvisi o etichette per avvisare gli utenti che un rapporto contiene informazioni sensibili che devono essere trattate in un modo specifico.
+Inoltre, quando i dati vengono esportati da Customer Journey Analytics (tramite reporting, esportazione, API ecc.), vengono aggiunti avvisi o etichette per avvisare gli utenti che un report contiene informazioni sensibili che devono essere trattate in un modo specifico.
 
-Questa integrazione consente di gestire più facilmente la conformità. Gli amministratori di dati della tua organizzazione possono impostare criteri per limitare l’utilizzo. Di conseguenza, gli utenti di Customer Journey Analytics possono utilizzare i dati in modo più affidabile, sapendo che sono conformi alle policy definite dagli amministratori dei dati.
+Questa integrazione consente di gestire più facilmente la conformità. Gli amministratori di dati della tua organizzazione possono impostare criteri per limitare l’utilizzo. Di conseguenza, gli utenti di Customer Journey Analytics possono utilizzare i dati in modo più affidabile, sapendo che sono conformi ai criteri definiti dagli amministratori dei dati.
 
 [Ulteriori informazioni](/help/data-views/data-governance.md)
 
 ## RGPD
 
-Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Customer Journey Analytics dipende da Platform Data Lake per applicare le richieste di eliminazione relative al RGPD e per notificare a Customer Journey Analytics il completamento delle richieste. Tutte le modifiche apportate ai batch interessati in Customer Journey Analytics per i set di dati evento sono sincronizzate con i dati di Platform. I set di dati di profilo e di ricerca interessati da richieste di eliminazione relative al RGPD vengono completamente riacquisiti dopo ogni richiesta di eliminazione. Le richieste di eliminazione vengono generalmente completate entro 7 giorni da un evento di eliminazione nel Data Lake.
+Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Customer Journey Analytics dipende dal data lake di Platform per l’applicazione delle richieste di eliminazione GDPR e per la notifica a Customer Journey Analytics quando le richieste sono completate. Tutte le modifiche ai batch interessati in Customer Journey Analytics per i set di dati evento sono sincronizzate con i dati di Platform. I set di dati di profilo e di ricerca interessati da richieste di eliminazione GDPR sono completamente riacquisiti dopo ogni richiesta di eliminazione. Le richieste di eliminazione vengono generalmente completate entro 7 giorni da un evento di eliminazione nel data lake.
 
 ## CCPA
 

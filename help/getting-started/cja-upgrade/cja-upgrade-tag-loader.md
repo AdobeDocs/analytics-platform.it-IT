@@ -8,7 +8,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 64%
 
 {{upgrade-note-step}}
 
-Devi installare il tag sul sito web che desideri monitorare, il che implica il posizionamento di codice nel tag di intestazione del modello del sito web.
+Devi installare il tag sul sito web che desideri monitorare, il che implica il posizionamento del codice nel tag di intestazione del modello del sito web.
 
-Il processo seguente descrive come ottenere il codice che fa riferimento al tag. Per ulteriori informazioni, consulta le [Guide all&#39;implementazione per tag e inoltro eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) nella documentazione di Experience Platform.
+Il processo seguente descrive come ottenere il codice che fa riferimento al tag. Per ulteriori informazioni, consulta le [Guide all’implementazione per tag e inoltro eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/get-started/implementation-guides) nella documentazione di Experience Platform.
 
 Per ottenere il codice che fa riferimento al tag:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, vai a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
 
-1. Nella pagina **[!UICONTROL Tag Properties]**, seleziona il tag appena creato dall&#39;elenco delle proprietà per aprirlo.
+1. Nella pagina **[!UICONTROL Tag Properties]**, seleziona il tag appena creato dall’elenco delle proprietà per aprirlo.
 
 1. Seleziona **[!UICONTROL Environments]** (Ambienti) nella barra a sinistra.
 

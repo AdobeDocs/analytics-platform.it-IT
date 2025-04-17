@@ -8,7 +8,7 @@ exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement"
->title="Disabilita la raccolta dati di AppMeasurement"
+>title="Disabilitare la raccolta dati di AppMeasurement"
 >abstract="Con i dati di Web SDK completamente funzionanti, collabora con il team di sviluppatori per rimuovere AppMeasurement.js dal tuo sito Web o dalla proprietà.<br><br>La rimozione di AppMeasurement da un sito Web richiede solo alcuni minuti, ma il completamento delle operazioni affidate al team tecnico richiede molto tempo. Assicurati tuttavia che gli utenti di Analytics utilizzino Customer Journey Analytics e non Adobe Analytics; se non l’hai già fatto, il processo di annuncio per trasferire tutti i dati potrebbe richiedere molto più tempo."
 
 <!-- markdownlint-enable MD034 -->
@@ -27,9 +27,9 @@ ht-degree: 60%
 
 Prima di disabilitare Adobe Analytics, controlla le informazioni in [Valuta quando disabilitare Adobe Analytics dopo l&#39;aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md).
 
-* **Tag:** disabilita l&#39;estensione Adobe Analytics
+* **Tag:** disabilita l’estensione Adobe Analytics
 
-* **AppMeasurment:** Sostituisci la libreria AppMeasurement.js s s=newobject
+* **AppMeasurment:** sostituisci la libreria AppMeasurement.js s=newobject
 
 >[!NOTE]
 >

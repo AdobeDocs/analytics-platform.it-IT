@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 26%
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**
 
 Puoi passare il cursore del mouse sui segmenti per ottenere più insight in percentuali e altro ancora.
 
-Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], selezionare il colore ![StatusOrange](/help/assets/icons/StatusOrange.svg) accanto all&#39;intestazione **[!UICONTROL Venn]** e selezionare **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
+Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], seleziona lo ![StatusOrange](/help/assets/icons/StatusOrange.svg) colorato accanto all’intestazione **[!UICONTROL Venn]**, quindi seleziona **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera di **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,15 +48,15 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

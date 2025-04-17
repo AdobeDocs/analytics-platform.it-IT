@@ -1,6 +1,6 @@
 ---
-description: Come creare e condividere scorecard per le dashboard di Analytics
-title: Creare e condividere scorecard
+description: Come creare e condividere le scorecard per le dashboard di Analytics
+title: Creare e condividere le scorecard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 66%
+ht-degree: 96%
 
 ---
 
@@ -24,29 +24,29 @@ ht-degree: 66%
 <!-- markdownlint-enable MD034 -->
 
 
-Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Analytics:
+Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analytics come configurare e presentare le dashboard per gli utenti direzionali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Analytics:
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Le schermate delle scorecard di Analytics per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non da Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
+>Le schermate della scorecard di Analytics per questa pagina sono state riprese dall’interfaccia utente di Adobe Analytics, non da quella di Customer Journey Analytics. Tuttavia le due interfacce utente sono quasi identiche.
 
-Una scorecard Analytics mostra le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come mostrato di seguito:
+Una scorecard di Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout affiancato, come mostrato di seguito:
 
-![Esempio di scorecard Analytics che mostra la demo della scorecard per dispositivi mobili](assets/intro_scorecard.png)
+![Esempio di scorecard di Analytics che mostra la demo della scorecard per dispositivi mobili](assets/intro_scorecard.png)
 
-In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
+In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le sezioni che appariranno nella scorecard per l’utente direzionale. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
-![Generatore di scorecard che mostra la nuova finestra scorecard per dispositivi mobili. ](assets/scorecard_builder.png)
+![Generatore di scorecard che mostra la finestra nuova scorecard per dispositivi mobili. ](assets/scorecard_builder.png)
 
-Per creare la scorecard, devi effettuare le seguenti operazioni:
+Per creare la scorecard, dovrai effettuare le seguenti operazioni:
 
 1. Accedere al modello [!UICONTROL Blank mobile scorecard] in Workspace.
 2. Configura la scorecard con i dati e salvala.
@@ -57,12 +57,12 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ### Creare un nuovo progetto {#create}
 
-1. Aprire Customer Journey Analytics e fare clic sulla scheda **[!UICONTROL Workspace]**.
+1. Apri Customer Journey Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
 1. Nella barra a sinistra, fai clic su **[!UICONTROL Projects]**.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
-![Finestra Tutti i modelli con la scorecard MObile vuota selezionata.](assets/new_template.png)
+![Finestra Tutti i modelli con la scorecard per dispositivi mobili vuota selezionata.](assets/new_template.png)
 
 ### Menu Strumenti
 
@@ -71,15 +71,15 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ## Configurare la scorecard con i dati e salvarla {#configure}
 
-Per implementare il modello di scorecard:
+Per implementare il modello della scorecard:
 
 1. Alla voce **[!UICONTROL Scorecard properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
 
-   ![Nuova finestra scorecard mobile che evidenzia la selezione della visualizzazione dati](assets/properties_save.png)
+   ![Finestra Nuova scorecard per dispositivi mobili con la selezione della visualizzazione dati evidenziata](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Finestra Nuova scorecard mobile con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. ](assets/build_list.png)
+   ![Finestra Nuova scorecard per dispositiivi mobili con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. ](assets/build_list.png)
 
 
 1. Da ogni sezione, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
@@ -90,7 +90,7 @@ Per aggiungere una dimensione correlata a una metrica, trascina una dimensione d
 
 Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le suddivisioni delle singole dimensioni vengono visualizzate nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della sezione. Puoi aggiungere più dimensioni a ogni sezione.
 
-![Nuova finestra scorecard mobile con una freccia che punta dall&#39;elenco delle dimensioni al riquadro scorecard.](assets/layer_dimensions.png)
+![Finestra Nuova scorecard per dispositivi mobili con una freccia che dall’elenco delle dimensioni punta al riquadro scorecard.](assets/layer_dimensions.png)
 
 ## Applicare i segmenti {#segments}
 
@@ -104,23 +104,23 @@ Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la te
 
 Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
-![Nuova scorecard mobile evidenziata ieri rispetto allo stesso giorno della settimana scorsa](assets/new_score_card.png)
+![Nuova scorecard per dispositivi mobili che evidenzia Ieri e Stesso giorno della settimana scorsa](assets/new_score_card.png)
 
 Ogni nuova scorecard inizia con 6 combinazioni di intervalli di date incentrate sui dati di oggi e ieri. Per rimuovere gli intervalli di date di cui non hai bisogno, fai clic sulla x. Per modificare una combinazione di intervalli di date, fai clic sull’icona della matita.
 
-![Nuova scorecard mobile che evidenzia l&#39;icona della matita](assets/new_score_card2.png)
+![Nuova scorecard per dispositiivi mobili che evidenzia l’icona a forma di matita](assets/new_score_card2.png)
 
 Per creare o modificare una data primaria, utilizza il menu a discesa per selezionare uno degli intervalli di date disponibili oppure trascina un componente data dalla barra a destra fino alla zona di rilascio.
 
-![Nuova scorecard mobile che evidenzia gli intervalli di date con data principale/ieri selezionato](assets/new_score_card3.png)
+![Nuova scorecard per dispositivi mobili che evidenzia gli intervalli di date con Data principale/Ieri selezionati](assets/new_score_card3.png)
 
 Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i confronti temporali più comuni, disponibili nel menu a discesa. Puoi anche trascinare un componente data dalla barra a destra.
 
-![Nuova scorecard per dispositivi mobili che evidenzia gli intervalli di date con data di confronto impostata su Stesso giorno della settimana scorsa selezionata](assets/new_score_card4.png)
+![Nuova scorecard per dispositivi mobili che evidenzia gli intervalli di date con Data di confronto impostata su Stesso giorno della settimana scorsa selezionato](assets/new_score_card4.png)
 
-Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
+Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del Calendario.
 
-![Icona Calendario](assets/new_score_card5.png)
+![Calendar icon](assets/new_score_card5.png)
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
@@ -128,11 +128,11 @@ Viene visualizzato il generatore di intervalli di date, in cui è possibile crea
 
 Per includere intervalli di date di confronto, attiva l’impostazione **Includi date di confronto**.
 
-![Nuova scorecard per dispositivi mobili che evidenzia il giorno precedente rispetto a ieri e include le date di confronto](assets/include-comparison-dates.png)
+![Nuova scorecard per dispositivi mobili che evidenzia Ieri e Giorno precedente e Includi date di confronto](assets/include-comparison-dates.png)
 
 L’impostazione è *attiva* per impostazione predefinita. Se non desideri visualizzare le date del confronto, puoi *disattivarla*.
 
-![Nuova scorecard per dispositivi mobili che evidenzia ieri e include date di confronto](assets/no-comparison-dates.png)
+![Nuova scorecard per dispositivi mobili che evidenzia Ieri e Includi date di confronto](assets/no-comparison-dates.png)
 
 ## Applicare le visualizzazioni {#viz}
 
@@ -152,25 +152,25 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 
 ### [!UICONTROL Donut]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, vuoi vedere quale piattaforma di annunci ha contribuito al numero totale di persone univoche:
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, vuoi capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
 
-![Nuova scorecard mobile che mostra una visualizzazione ad anello](assets/donut-viz.png)
+![Nuova scorecard per dispositivi mobili che mostra una visualizzazione ad anello](assets/donut-viz.png)
 
 ### [!UICONTROL Line]
 
 La visualizzazione a linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. Questo esempio presenta la dimensione della categoria di prodotto.
 
-![Nuova scorecard per dispositivi mobili che mostra una visualizzazione Linee](assets/line.png)
+![Nuova scorecard per dispositivi mobili che mostra una visualizzazione a linee](assets/line.png)
 
 ### [!UICONTROL Horizontal Bar]
 
 Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza la visualizzazione [!UICONTROL Horizontal Bar].
 
-![Nuova scorecard mobile con una barra orizzontale](assets/horizontal.png)
+![Nuova scorecard per dispositivi mobili con una barra orizzontale](assets/horizontal.png)
 
 ## Denomina scorecard {#name}
 
-Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
+Per denominare la scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
 
 ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
@@ -212,7 +212,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -242,7 +242,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che compare quando passi il cursore sul componente, come mostrato di seguito per le **prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi rimuovilo facendo clic sulla **x** che compare quando passi il cursore sul componente, come mostrato di seguito per **Nuovi visitatori**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -250,21 +250,21 @@ Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard
 
 Una presentazione di dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
 
-Ad esempio, se ti concentri sul traffico web, la metrica più importante può essere costituita dalle visite, ma potresti anche essere interessato a nuove persone e a persone univoche, e potresti voler visualizzare i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
+Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
 Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} .
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-**Per creare una storia di dati** {#data-story-create}
+**Creazione di una presentazione di dati** {#data-story-create}
 
 Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una sezione.
 
@@ -315,9 +315,9 @@ Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
 
 Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 
-## Anteprima scorecard {#preview}
+## Anteprima delle scorecard {#preview}
 
-Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
+Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
 
 1. Fai clic su **[!UICONTROL Preview]** in alto a destra.
 
@@ -352,13 +352,13 @@ Per condividere la scorecard con un utente direzionale:
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno quindi le modifiche dopo aver aggiornato la scorecard nella loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
 
 ### Condividere le scorecard mediante un collegamento condivisibile
 
-L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o SMS. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili consentono di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento delle parti interessate.
+L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’e-mail, in un documento o in un’app di messaggistica testuale. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app per dispositivi mobili delle dashboard. Il deep linking condivisibile consente di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento degli stakeholder.
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
@@ -370,7 +370,7 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    Quando un destinatario utilizza un’app desktop o un browser per aprire il collegamento, il progetto della scorecard per dispositivi mobili si aprirà in Workspace.
 
-   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Adobe Analytics.
+   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si aprirà direttamente nell’app delle dashboard di Adobe Analytics.
 
-   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
+   Se un destinatario non ha scaricato l’app per dispositivi mobili, verrà indirizzato all’elenco delle app nell’App Store o in Google Play Store dove può scaricarla.
 

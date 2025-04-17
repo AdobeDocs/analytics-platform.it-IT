@@ -8,7 +8,7 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
->Prima di iniziare a creare lo schema personalizzato, rivolgiti al team di dati e ad altre parti interessate all’interno dell’organizzazione per identificare la progettazione dello schema ideale per Customer Journey Analytics e le altre applicazioni Adobe Experience Platform utilizzate. Per ulteriori informazioni, consulta [Architettura dello schema da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+>Prima di iniziare a creare lo schema personalizzato, lavora con il team di dati e con gli altri stakeholder all’interno dell’organizzazione per identificare la progettazione dello schema ideale della tua organizzazione per Customer Journey Analytics e per le altre applicazioni Adobe Experience Platform utilizzate. Per ulteriori informazioni, consulta [Progettare lo schema da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
-Nelle sezioni seguenti viene descritto come creare uno schema che può essere utilizzato con Customer Journey Analytics. Sono disponibili le seguenti opzioni di schema:
+Nelle sezioni seguenti viene descritto come creare uno schema che può essere utilizzato con Customer Journey Analytics. Sono disponibili le seguenti opzioni per lo schema:
 
-* **Schema XDM personalizzato:** (consigliato) Consente uno schema semplificato personalizzato in base alle esigenze della tua organizzazione e alle specifiche applicazioni Platform utilizzate. Qualsiasi modifica futura necessaria è semplice.
+* **Schema XDM personalizzato:** (Consigliato) Consente uno schema semplificato che viene personalizzato in base alle esigenze dell’organizzazione e alle specifiche applicazioni di Platform che utilizzi. Qualsiasi modifica futura necessaria è semplice.
 
-* **Lo schema Adobe Analytics che utilizza il gruppo di campi Adobe Analytics ExperienceEvent:** richiede l&#39;aggiunta di migliaia di campi non necessari. Qualsiasi cambiamento futuro richiesto è più difficile.
+* **Schema Adobe Analytics che utilizza il gruppo di campi di Adobe Analytics ExperienceEvent:** richiede l’aggiunta di migliaia di campi non necessari. Qualsiasi modifica futura necessaria è più difficile.
 
-Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+Per ulteriori informazioni su queste opzioni di schema, consulta [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
 ## Creare lo schema
 
@@ -63,7 +63,7 @@ Per creare uno schema personalizzato:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** entro [!UICONTROL DATA MANAGEMENT].
+1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** all’interno di [!UICONTROL DATA MANAGEMENT].
 
 1. Seleziona **[!UICONTROL Create schema]**.
 
@@ -71,20 +71,20 @@ Per creare uno schema personalizzato:
 
    1. Seleziona **[!UICONTROL Experience Event]**.
 
-      ![Crea uno schema che evidenzia l&#39;evento esperienza](assets/create-ee-schema-wizard-step-1.png)
+      ![Creare uno schema che evidenzia l’evento esperienza](assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    Lo schema Experience Event viene utilizzato per modellare il _comportamento_ di un profilo (come nome di scena, pulsante da aggiungere al carrello). Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
+      >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
    1. Seleziona **[!UICONTROL Next]**.
 
 
 1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
 
-   1. Immetti **[!UICONTROL Schema display name]** per lo schema e (facoltativo) **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
 
-      ![Finestra Crea schema con il nome dei campi dello schema](assets/create-ee-schema-wizard-step-2.png)
+      ![Finestra Crea schema che mostra i campi Denomina lo schema](assets/create-ee-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Finish]**.
 
@@ -92,7 +92,7 @@ Per creare uno schema personalizzato:
 
    I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente lo schema.
 
-   1. Nella sezione **[!UICONTROL Field groups]**, selezionare **[!UICONTROL + Add]**.
+   1. Nella sezione **[!UICONTROL Field groups]**, seleziona **[!UICONTROL + Add]**.
 
       ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
 
@@ -108,21 +108,21 @@ Per creare uno schema personalizzato:
 
    1. (Facoltativo) Seleziona eventuali gruppi di campi aggiuntivi da includere.
 
-      Se hai scelto di utilizzare lo schema Adobe Analytics predefinito invece di creare uno schema XDM personalizzato, ora puoi aggiungere il gruppo di campi Adobe Analytics ExperienceEvent. Tuttavia, Adobe consiglia di creare uno schema XDM personalizzato anziché aggiungere questo gruppo di campi.
+      Se hai scelto di utilizzare lo schema Adobe Analytics predefinito invece di creare uno schema XDM personalizzato, a questo punto puoi aggiungere il gruppo di campi Adobe Analytics ExperienceEvent. Tuttavia, Adobe consiglia di creare uno schema XDM personalizzato anziché aggiungere questo gruppo di campi.
 
-      Per ulteriori informazioni su queste opzioni di schema, vedere [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
+      Per ulteriori informazioni su queste opzioni di schema, consulta [Scegliere lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md).
 
    1. Seleziona **[!UICONTROL Add field groups]**.
 
-1. (Facoltativo) Se disponi di campi personalizzati da includere nello schema, crea un gruppo di campi personalizzato e aggiungi i campi personalizzati al gruppo di campi.
+1. (Facoltativo) Se disponi di campi personalizzati da includere nello schema, crea un gruppo di campi personalizzato e aggiungi i campi personalizzati a questo gruppo.
 
-   1. Nella sezione **[!UICONTROL Field groups]**, selezionare **[!UICONTROL + Add]**.
+   1. Nella sezione **[!UICONTROL Field groups]**, seleziona **[!UICONTROL + Add]**.
 
       ![Aggiungere un gruppo di campi](assets/add-field-group-button.png)
 
    1. Nella finestra di dialogo [!UICONTROL Add fields groups], seleziona **[!UICONTROL Create new field group]**.
 
-   1. Specificare un nome visualizzato e una descrizione facoltativa, quindi selezionare **[!UICONTROL Add field groups]**.
+   1. Specifica un nome visualizzato e una descrizione facoltativa, quindi seleziona **[!UICONTROL Add field groups]**.
 
 1. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
 
@@ -132,11 +132,11 @@ Per creare uno schema personalizzato:
 
    >[!NOTE]
    >
-   >Se tale gruppo di campi non è disponibile, cercare un altro gruppo di campi contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (come `ecid`, `crmId` e altri necessari) al gruppo di campi e seleziona il nuovo gruppo di campi.
+   >Se tale gruppo di campi non è disponibile, cercane un altro contenente campi di identità. Oppure [crea un nuovo gruppo di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=it) e [aggiungi nuovi campi di identità](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=it#define-a-identity-field) (come `ecid`, `crmId` e altri di cui hai bisogno) al gruppo di campi e seleziona il nuovo gruppo di campi.
 
    ![Oggetto di identificazione](assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per tenere traccia dell’identificazione della persona (ad esempio ID cliente, ID fedeltà).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
 
@@ -158,15 +158,15 @@ Per creare uno schema personalizzato:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-1. (Facoltativo) Se desideri integrare Customer Journey Analytics con RTCDP, seleziona l&#39;elemento principale dello schema che mostra il nome dello schema, quindi seleziona l&#39;opzione **[!UICONTROL Profile]**.
+1. (Facoltativo) Se desideri integrare Customer Journey Analytics con RTCDP, seleziona l’elemento principale dello schema che ne mostra il nome, quindi seleziona l’opzione **[!UICONTROL Profile]**.
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
-   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile).
+   Per ulteriori informazioni, consulta la sezione [Abilitare lo schema per l’utilizzo in Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#profile).
 
    >[!IMPORTANT]
    >
-   >Dopo aver abilitato uno schema per il profilo, non può essere disabilitato per il profilo.
+   >Una volta che lo schema è stato abilitato per il profilo, non può essere disabilitato.
 
    ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
@@ -184,7 +184,7 @@ Per creare uno schema personalizzato:
 
    * Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-   * Definisci Experience Cloud ID come identificatore primario e e-mail come identificatore.
+   * Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
 
    * Abilitare lo schema per il profilo
 

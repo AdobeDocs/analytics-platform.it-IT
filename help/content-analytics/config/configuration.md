@@ -1,5 +1,5 @@
 ---
-title: Configurare l’analisi dei contenuti
+title: Configurare Content Analytics
 description: Panoramica sulla configurazione di Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
@@ -8,11 +8,11 @@ exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Configurare l’analisi dei contenuti
+# Configurare Content Analytics
 
 {{release-limited-testing}}
 
@@ -35,7 +35,7 @@ La configurazione di Content Analytics prevede i seguenti passaggi:
 Prima di configurare Content Analytics, verifica che siano soddisfatti i seguenti prerequisiti:
 
 * Hai inserito nell’elenco Consentiti l’agente utente e l’indirizzo IP per il servizio di funzionalità utilizzato in Content Analytics. La stringa dell&#39;agente utente da configurare è: <code>AdobeFeature/1.0</code>.
-* Se hai implementato il [Web SDK utilizzando JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"} per la regolare raccolta di dati comportamentali, assicurati di utilizzare il nome predefinito <code>alloy</code> per la libreria JavaScript.
+* Se hai implementato il [Web SDK utilizzando JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/install/library){target="_blank"} per la regolare raccolta di dati comportamentali, assicurati di utilizzare il nome predefinito <code>alloy</code> per la libreria JavaScript.
 * Hai il ruolo Amministratore di prodotto Customer Journey Analytics, con le autorizzazioni aggiuntive per gestire le connessioni e le visualizzazioni dati.
 * Se pensi di raccogliere esperienze Content Analytics, assicurati di impostare e aggiornare [il controllo delle versioni di Content Analytics](manual.md#versioning) in base alle modifiche apportate alle pagine Web.
 * È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}:
@@ -46,8 +46,8 @@ Prima di configurare Content Analytics, verifica che siano soddisfatti i seguent
    * Il tuo sito è adatto per la generazione di rapporti sull’esperienza. La generazione di rapporti sull’esperienza corretta è possibile solo quando vengono soddisfatte le seguenti condizioni:
       * Le pagine del sito devono essere riproducibili utilizzando l’URL della pagina.
       * Il contenuto di testo visualizzato da un utente può essere riprodotto utilizzando l’URL della pagina e non dipende da cookie o altri meccanismi di personalizzazione.
-   * Hai una chiara comprensione delle pagine che desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
-   * Hai una chiara comprensione di quale (tipo di) risorsa desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
+   * Hai una chiara comprensione delle pagine per le quali desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
+   * Hai una chiara comprensione della risorsa o tipo di risorsa per la quale desideri acquisire analisi e approfondimenti sul coinvolgimento dei contenuti.
 
 
 ## Controllo degli accessi
@@ -68,5 +68,5 @@ Questo accesso implica:
 >
 >* [Configurazione guidata](guided.md)
 >* [Configurazione manuale](manual.md)
->* [Controllo dell&#39;accesso](/help/technotes/access-control.md)
+>* [Controllo degli accessi](/help/technotes/access-control.md)
 >

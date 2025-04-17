@@ -1,6 +1,6 @@
 ---
 title: Creare uno schema per Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: f76d098d-d223-40e4-be81-d28e7581396b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 50%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È lo stream di dati che determina a quali servizi vengono inoltrati i dati.
+Un flusso di dati rappresenta la configurazione lato server quando si implementano gli SDK per Web e dispositivi mobili di Adobe Experience Platform. Durante la raccolta di dati con gli SDK di Adobe Experience Platform, i dati vengono inviati alla rete Edge di Adobe Experience Platform. È il flusso di dati che determina a quali servizi vengono inoltrati i dati.
 
-Nella configurazione, vuoi configurare lo stream di dati per inviare i dati raccolti al set di dati in Adobe Experience Platform.
+Nella configurazione, vuoi impostare lo stream di dati per inviare i dati raccolti al set di dati in Adobe Experience Platform.
 
 >[!NOTE]
 >
 >I passaggi seguenti sono necessari solo per le implementazioni di Adobe Analytics che utilizzano AppMeasurement o l’estensione Analytics (tag).
 >
->Se l’implementazione di Adobe Analytics utilizza il Web SDK o l’estensione Web SDK, lo stream di dati esiste già nell’ambiente Adobe Analytics.
+>Se l’implementazione di Adobe Analytics utilizza Web SDK o l’estensione Web SDK, lo stream di dati esiste già nell’ambiente Adobe Analytics.
 
 Per impostare il flusso di dati:
 

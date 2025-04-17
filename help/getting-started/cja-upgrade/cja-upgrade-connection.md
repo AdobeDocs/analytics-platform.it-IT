@@ -1,6 +1,6 @@
 ---
 title: Creare uno schema per Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/connections/create-connection.md -->
 
-Le informazioni seguenti spiegano come creare e configurare una connessione e come aggiungere set di dati di Experience Platform alla connessione creata. Per ulteriori informazioni sulla creazione e la configurazione di una connessione, vedere [Creare o modificare una connessione](/help/connections/create-connection.md).
+Le informazioni seguenti spiegano come creare e configurare una connessione e come aggiungere set di dati di Experience Platform alla connessione creata. Per ulteriori informazioni sulla creazione e la configurazione di una connessione, consulta [Creare o modificare una connessione](/help/connections/create-connection.md).
 
 ## Creare e configurare la connessione {#create-connection}
 
@@ -107,7 +107,7 @@ Puoi aggiungere un set di dati di Experience Platform quando crei una connession
    | **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
    | **[!UICONTROL Import new data]** | Attiva questa opzione se desideri stabilire una connessione continua. Con una connessione continua, i nuovi batch di dati aggiunti ai set di dati sono disponibili automaticamente in Workspace. |
    | **[!UICONTROL Dataset backfill]** | Abilita **[!UICONTROL Backfill all existing data]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Request backfill]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Queue backfill]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Cancel]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li></ul> |
-   | **[!UICONTROL Transform dataset]** | Per set di dati di ricerca B2B specifici, puoi abilitare la trasformazione di un set di dati per scenari di reporting appropriati basati su persone B2B. |
+   | **[!UICONTROL Transform dataset]** | Per set di dati di ricerca B2B specifici puoi abilitare la trasformazione di un set di dati per scenari di reporting B2B appropriati basati su persone. |
    | **[!UICONTROL Backfill status]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
    | **[!UICONTROL Dataset ID]** | Questo ID viene generato automaticamente. |
    | **[!UICONTROL Description]** | Descrizione specificata quando è stato creato il set di dati. |

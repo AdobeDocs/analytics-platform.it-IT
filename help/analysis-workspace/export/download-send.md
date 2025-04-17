@@ -1,37 +1,37 @@
 ---
 description: Puoi scaricare i dati da Analysis Workspace copiandoli oppure esportandoli in formato PDF e CSV.
-title: Scarica dati Customer Journey Analytics
+title: Scaricare i dati di Customer Journey Analytics
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 63%
+ht-degree: 98%
 
 ---
 
-# Scarica dati Customer Journey Analytics
+# Scaricare i dati di Customer Journey Analytics
 
-È possibile scaricare i dati Customer Journey Analytics sulla propria workstation personale. Può essere sotto forma di dati copiati, CSV o PDF. Un PDF è generalmente consigliato se desideri che le visualizzazioni siano incluse nel file scaricato. Se desideri semplicemente dati in formato testo, puoi usare CSV e dati copiati.
+Puoi scaricare i dati di Customer Journey Analytics sulla tua workstation personale. I dati possono essere scaricati sotto forma di dati copiati, file CSV o PDF. Un PDF è in genere preferito se desideri includere le visualizzazioni nel file scaricato. Se desideri semplicemente dati in formato testo, puoi usare CSV e dati copiati.
 
-Sono disponibili anche altri metodi di esportazione dei dati di Customer Journey Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/analysis-workspace/export/export-project-overview.md).
+Sono disponibili anche altri metodi di esportazione dei dati di Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
-## Scarica come CSV o PDF {#download-project}
+## Scaricare come file CSV o PDF {#download-project}
 
 Quando si scaricano i progetti, considera quanto segue:
 
-* Quando si scaricano i progetti come CSV o PDF, il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](/help/analysis-workspace/export/t-schedule-report.md).
+* Quando si scaricano i progetti come file CSV o PDF, il progetto può essere salvato o non salvato quando si richiede di scaricare un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](/help/analysis-workspace/export/t-schedule-report.md).
 
-* Quando si scaricano progetti come PDF:
-   * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito sui server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
-   * I download vengono riprodotti come una singola pagina senza impaginazione.
-   * I rendering PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
+* Quando si scaricano i progetti come file PDF:
+   * I file scaricati possono richiedere alcuni minuti per l’esportazione, perché il progetto viene rieseguito sui server di Adobe prima di generarli in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
+   * I file scaricati vengono riprodotti come una singola pagina senza impaginazione.
+   * I file PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
    * Tutti i [collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano nel PDF scaricato.
 
 Per scaricare un progetto come file CSV o PDF:
 
-1. Effettua una delle seguenti operazioni, a seconda del formato in cui desideri che si trovi il download:
+1. A seconda del formato in cui desideri scaricare il progetto, effettua una delle seguenti operazioni:
 
    * **PDF:** seleziona **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
 
@@ -39,15 +39,15 @@ Per scaricare un progetto come file CSV o PDF:
 
    * **CSV:** seleziona **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
 
-     Scegliere questa opzione se si desidera che il file scaricato sia in formato testo normale.
+     Scegli questa opzione se desideri che il file scaricato sia in formato testo normale.
 
    ![Menu a discesa Progetto con le opzioni Scarica CSV e Scarica PDF evidenziate.](assets/download-project.png)
 
 1. (Condizionale) Se hai scelto di scaricare un file PDF, dopo che il progetto è pronto per essere scaricato, viene visualizzato un messaggio. Seleziona [!UICONTROL **Scarica**].
 
-## Copia negli Appunti (scelta rapida: Ctrl+C) {#copy-data}
+## Copiare negli Appunti (tasto di scelta rapida: Ctrl+C) {#copy-data}
 
-L&#39;opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati di Customer Journey Analytics da Workspace e incollarli in uno strumento di terze parti.
+L’opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di copiare rapidamente i dati di Customer Journey Analytics da Workspace e incollarli in uno strumento di terze parti.
 
 * Se desideri copiare la tabella visualizzata, fai clic con il pulsante destro del mouse sull’intestazione della tabella e scegli **Copia dati negli Appunti**.
 * Se desideri copiare un sottoinsieme di dati, effettua una selezione nella tabella, quindi fai clic con il pulsante destro del mouse e scegli **Copia selezione negli Appunti**.
@@ -61,9 +61,9 @@ L&#39;opzione di scelta rapida **[!UICONTROL Copy to clipboard]** consente di co
 
 ## Scarica come CSV {#download-data}
 
-L&#39;opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scaricare come CSV una tabella di dati di Customer Journey Analytics o l&#39;origine dati di qualsiasi visualizzazione.
+L’opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di scaricare come un file CSV una tabella di dati di Customer Journey Analytics o l’origine dati di qualsiasi visualizzazione.
 
-* Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]**. In questo modo i dati Customer Journey Analytics visualizzati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
+* Nell’intestazione di una tabella o visualizzazione, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]**. In questo modo i dati di Customer Journey Analytics mostrati nella tabella o l’origine dati sottostante per una visualizzazione vengono scaricati come file CSV.
 
   >[!NOTE]
   >
@@ -76,7 +76,7 @@ L&#39;opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di
 
 ## Scaricare elementi come CSV {#download-items}
 
-Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic con il pulsante destro del mouse sull’intestazione della tabella o su una riga qualsiasi e seleziona **Scarica elementi come CSV (_nome dimensione_)**. Questa opzione consente di esportare fino a 50.000 elementi dimensionali (in base all’ordinamento della tabella) per la dimensione selezionata, con opzioni di ordinamento e filtri applicati. Se scegli questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Anche se la tabella a forma libera non prevede alcun limite, per prestazioni ottimali si consiglia di utilizzare l’opzione Scarica elementi solo per le tabelle con meno di 20 colonne.
+Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic con il pulsante destro del mouse sull’intestazione della tabella o su una riga qualsiasi e seleziona **Scarica elementi come CSV (_nome dimensione_)**. Questa opzione consente di esportare fino a 50.000 elementi dimensionali (in base all’ordinamento della tabella) per la dimensione selezionata, con l’applicazione di opzioni di ordinamento e filtri. Se scegli questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Anche se la tabella a forma libera non prevede alcun limite, per prestazioni ottimali si consiglia di utilizzare l’opzione Scarica elementi solo per le tabelle con meno di 20 colonne.
 
 >[!TIP]
 >
@@ -106,13 +106,13 @@ Al termine, verrà visualizzata una notifica di completamento e il file verrà s
 
 Se richiedi più di un download alla volta, una notifica ti segnala che ogni download aggiuntivo sarà messo in coda fino al completamento del download precedente.
 
-![La notifica dello stato di download che mostra la percentuale di completamento e un collegamento per annullare il download.](assets/toast.png)
+![La notifica dello stato del download mostra la percentuale di completamento e un collegamento per annullare l’operazione.](assets/toast.png)
 
 ## Scaricare dati sensibili {#sensitive}
 
-Se il **[!UICONTROL Enforce Download]** [criterio di governance dei dati](/help/data-views/data-governance.md) è attivato nella visualizzazione dati su cui stai eseguendo il reporting, qualsiasi download (ad esempio invio di e-mail o condivisione di file PDF) di progetti Workspace eseguirà l&#39;hashing dei campi dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come vuoti nel file .pdf o .csv.
+Se il [criterio di governance dei dati](/help/data-views/data-governance.md) **[!UICONTROL Enforce Download]** è attivato nella visualizzazione dati su cui stai eseguendo il reporting, qualsiasi download (ad esempio mediante invio di e-mail o condivisione di pdf) di progetti Workspace verrà sottoposto all’hashing dei campi di dati etichettati come sensibili. Puoi comunque eseguire l’analisi di questi campi in Workspace, ma se tenti di inviare un messaggio e-mail o di condividere in altro modo un progetto, i campi bloccati verranno visualizzati come vuoti nel file .pdf o .csv.
 
-Se in [!UICONTROL Data View] sono inclusi campi dati etichettati come sensibili, l&#39;opzione per selezionare e copiare i dati dalla schermata è limitata per tutti i dati in [!UICONTROL Data View].
+Se nella [!UICONTROL Data View] sono inclusi campi dati etichettati come sensibili, l’opzione per selezionare e copiare i dati dalla schermata è limitata per tutti i dati della [!UICONTROL Data View].
 
 ## Domande frequenti {#faq}
 

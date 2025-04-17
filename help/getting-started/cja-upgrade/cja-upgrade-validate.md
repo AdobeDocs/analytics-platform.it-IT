@@ -1,6 +1,6 @@
 ---
 title: Creare uno schema per Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Puoi verificare che la connessione sia attiva e che i dati vengano trasmessi all
 
 1. In Customer Journey Analytics, seleziona la scheda Connessioni.
 
-   ![visualizzazione elenco](assets/list-view.png)
+   ![vista a elenco](assets/list-view.png)
 
-1. Seleziona la [connessione configurata](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. Seleziona la [connessione che hai configurato](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
 
-   ![Finestra Tutti i set di dati con widget e impostazioni](assets/conn-details.png)
+   ![Finestra Tutti i set di dati che mostra widget e impostazioni](assets/conn-details.png)
 
-1. Per informazioni sui dettagli disponibili per ciascuna connessione, vedere [Dettagli connessione](/help/connections/manage-connections.md#manage-connections) in [Gestione connessioni](/help/connections/manage-connections.md).
+1. Per informazioni sui dettagli disponibili per ciascuna connessione, consulta [Dettagli connessione](/help/connections/manage-connections.md#manage-connections) in [Gestione connessioni](/help/connections/manage-connections.md).
 
 {{upgrade-final-step}}
 

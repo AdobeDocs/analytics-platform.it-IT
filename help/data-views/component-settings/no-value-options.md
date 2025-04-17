@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 59%
+ht-degree: 64%
 
 ---
 
@@ -48,5 +48,5 @@ Quando utilizzi un valore numerico come dimensione, puoi
 
 >[!MORELIKETHIS]
 >
->Ecco un post di blog correlato su [gestione di &quot;nessun valore&quot; in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+>Ecco un post di blog correlato su [gestione di “nessun valore” in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
 

@@ -7,7 +7,7 @@ exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ L’analisi guidata è ora disponibile direttamente da Analysis Workspace, conse
 
 >[!TAB Didascalie intelligenti v2]
 
-I sottotitoli intelligenti sono ora supportati, con ulteriori miglioramenti all&#39;interfaccia, per le visualizzazioni [Riga](/help/analysis-workspace/visualizations/line.md) (incluse più righe), [Barra](/help/analysis-workspace/visualizations/bar.md), [Barra orizzontale](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (incluse più righe di area), [Anello](/help/analysis-workspace/visualizations/donut.md), [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md).
+Le didascalie intelligenti sono ora supportate con ulteriori miglioramenti all’interfaccia, per le visualizzazioni [A linee](/help/analysis-workspace/visualizations/line.md) (incluse più linee), [A barre](/help/analysis-workspace/visualizations/bar.md), [A barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (incluse più linee di area), [Ad anello](/help/analysis-workspace/visualizations/donut.md), [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md).
 
 [![immagine](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
@@ -74,7 +74,7 @@ Tramite l’unione basata sui grafici, puoi utilizzare il grafico Identità dell
 
 >[!TAB Estensione BI*]
 
-L’estensione BI consente a SQL di accedere alle visualizzazioni dati definite in Customer Journey Analytics. Ora puoi utilizzare lo strumento BI preferito (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook e RStudio) per creare rapporti e dashboard basati sulle stesse visualizzazioni dati utilizzate dagli utenti Customer Journey Analytics con i loro progetti Analysis Workspace. [Casi d’uso](/help/use-cases/data-views/bi-extension-usecases.md) forniti.
+L’estensione BI consente a SQL di accedere alle visualizzazioni dati definite in Customer Journey Analytics. Ora puoi utilizzare il tuo strumento BI preferito (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook, and RStudio) per creare rapporti e dashboard basati sulle stesse visualizzazioni dati che gli utenti di Customer Journey Analytics utilizzano con i relativi progetti Analysis Workspace. [Casi d’uso](/help/use-cases/data-views/bi-extension-usecases.md) forniti.
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

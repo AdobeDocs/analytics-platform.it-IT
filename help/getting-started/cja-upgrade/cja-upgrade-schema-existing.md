@@ -1,6 +1,6 @@
 ---
 title: Scegliere lo schema per Customer Journey Analytics
-description: Scopri le opzioni disponibili per la scelta di uno schema per Customer Journey Analytics e i vantaggi e gli svantaggi di ciascuno
+description: Scopri le opzioni disponibili per la scelta di uno schema per Customer Journey Analytics e i vantaggi e gli svantaggi di ciascuna
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 65%
 
 Durante l’aggiornamento a Customer Journey Analytics, Adobe consiglia di creare uno schema Experience Data Model (XDM) personalizzato per allinearlo meglio alle esigenze della tua organizzazione quando inizi a utilizzare altri servizi Platform. In alternativa, puoi scegliere di utilizzare lo schema Adobe Analytics esistente.
 
-Considera i vantaggi e gli svantaggi di ciascuno.
+Valuta i vantaggi e gli svantaggi di ciascuno.
 
-## Creare uno schema personalizzato personalizzato per la tua organizzazione (scelta consigliata)
+## Creare uno schema personalizzato su misura per la tua organizzazione (scelta consigliata)
 
 Adobe consiglia di creare uno schema personalizzato durante l’aggiornamento a Customer Journey Analytics.
 
 | Vantaggi | Svantaggi |
 |----------|---------|
-| <ul><p>I vantaggi dell’aggiornamento allo schema personalizzato includono:</p><ul><li>Uno schema semplificato personalizzato in base alle esigenze dell’organizzazione e alle specifiche applicazioni di Platform che utilizzi.</li><p>Quando sono necessarie delle modifiche allo schema, non è necessario esaminare minuziosamente migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.</p></ul> | <p>Gli svantaggi dell’aggiornamento allo schema personalizzato includono:</p><ul><li>L’aggiornamento dello schema è un processo che richiede molto tempo prima di iniziare a inviare dati a Platform.</li></ul> |
+| <ul><p>I vantaggi dell’aggiornamento al proprio schema personalizzato includono:</p><ul><li>Uno schema semplificato personalizzato in base alle esigenze dell’organizzazione e alle specifiche applicazioni di Platform che utilizzi.</li><p>Quando sono necessarie delle modifiche allo schema, non è necessario esaminare minuziosamente migliaia di campi inutilizzati per trovare il campo che richiede l’aggiornamento.</p></ul> | <p>Gli svantaggi dell’aggiornamento al proprio schema personalizzato includono:</p><ul><li>L’aggiornamento dello schema è un processo dispendioso in termini di tempo, necessario prima di iniziare a inviare i dati a Platform.</li></ul> |
 
-## Usa lo schema Adobe Analytics esistente
+## Utilizzarte lo schema Adobe Analytics esistente
 
-L&#39;opzione per utilizzare lo schema Adobe Analytics esistente con Customer Journey Analytics è disponibile solo se l&#39;implementazione Adobe Analytics è configurata con Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
+L’opzione di utilizzare lo schema Adobe Analytics esistente con Customer Journey Analytics è disponibile solo se l’implementazione Adobe Analytics è configurata con Adobe Experience Platform Web SDK. <!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | Vantaggi | Svantaggi |
 |----------|---------|

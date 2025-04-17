@@ -1,6 +1,6 @@
 ---
-title: Comprendere le funzioni esclusive di Customer Journey Analytics
-description: Scopri le funzionalità esclusive di Customer Journey Analytics
+title: Comprendere le funzioni univoche di Customer Journey Analytics
+description: Informazioni sulle funzioni univoche di Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,11 +8,11 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 46%
+ht-degree: 67%
 
 ---
 
-# Comprendere le funzioni esclusive di Customer Journey Analytics {#feature-support-upgrade}
+# Comprendere le funzioni univoche di Customer Journey Analytics {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -79,14 +79,14 @@ ht-degree: 46%
 
 {{upgrade-note}}
 
-Nell&#39;elenco seguente vengono illustrate solo le funzionalità di Customer Journey Analytics che devono essere considerate durante il processo di aggiornamento. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate in Customer Journey Analytics, vedere [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
+Nell’elenco seguente vengono illustrate solo le funzioni di Customer Journey Analytics che devono essere considerate durante il processo di aggiornamento. Per un elenco completo delle funzionalità di Adobe Analytics completamente supportate, parzialmente supportate o non supportate in Customer Journey Analytics, consulta [Supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md).
 
-Considera quale delle seguenti funzioni di Customer Journey Analytics desideri adottare quando effettui l’aggiornamento a Customer Journey Analytics:
+Considera quali delle seguenti funzioni di Customer Journey Analytics desideri adottare quando effettui l’aggiornamento a Customer Journey Analytics:
 
-| Funzione Customer Journey Analytics | Funzione |
+| Funzione di Customer Journey Analytics | Funzione |
 |---------|----------|
-| [Collegare dati Web con dati provenienti da altri canali, ad esempio dati del call center](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics è combinato con la capacità di Experience Platform di contenere tutti i tipi e schemi di dati. Utilizzando [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) i dati possono essere rappresentati e organizzati in modo uniforme e sono pronti per essere combinati ed esaminati. Adobe Analytics si concentra principalmente sui dati di analisi del web e dei dispositivi mobili con alcune funzionalità per [importare i dati](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=it). |
-| [Unire gli hit da altri set di dati utilizzando una dimensione personalizzata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics consente di [combinare dati](/help/connections/combined-dataset.md) provenienti da più suite di rapporti come se si trattasse di una singola suite di rapporti in Adobe Analytics. |
+| [Collegare dati Web con dati provenienti da altri canali, ad esempio dati di call center](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics è combinato con la capacità di Experience Platform di contenere tutti i tipi e schemi di dati. Utilizzando [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home.html?lang=it) i dati possono essere rappresentati e organizzati in modo uniforme e sono pronti per essere combinati ed esaminati. Adobe Analytics si concentra principalmente sui dati di analisi del web e dei dispositivi mobili con alcune funzionalità per [importare i dati](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=it). |
+| [Unire gli hit provenienti da altri set di dati utilizzando una dimensione personalizzata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics consente di [combinare dati](/help/connections/combined-dataset.md) provenienti da più suite di rapporti come se si trattasse di una singola suite di rapporti in Adobe Analytics. |
 | [Integrare con Adobe Real-time CDP](/help/components/audiences/audiences-overview.md) | Puoi [creare e pubblicare i tipi di pubblico](/help/components/audiences/audiences-overview.md) rilevati in Customer Journey Analytics su Real-Time Customer Profile in Adobe Experience Platform per la personalizzazione e il targeting dei clienti. |
 | [Integrare con Adobe Target (A4T)](/help/integrations/at.md) | Il reporting di Target in Customer Journey Analytics consente di [misurare e creare rapporti sulle attività di Adobe Target](/help/integrations/at.md) direttamente in Customer Journey Analytics. Tuttavia, Adobe consiglia di eseguire l’integrazione con Adobe Journey Optimizer per i casi di utilizzo di personalizzazione. |
 | [Integrare con Adobe Journey Optimizer](/help/integrations/ajo.md) | È possibile configurare i dati generati da Journey Optimizer per [eseguire analisi avanzate in Customer Journey Analytics](/help/integrations/ajo.md). |

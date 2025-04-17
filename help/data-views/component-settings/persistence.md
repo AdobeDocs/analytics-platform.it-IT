@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 62%
+ht-degree: 79%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 62%
 
   >[!NOTE]
   >
-  >Se in un report è impostato un [modello di attribuzione non predefinito](/help/data-views/component-settings/attribution.md) per una metrica, il modello di attribuzione ignora l&#39;allocazione impostata sulla dimensione per lo stesso report.
+  >Se in un report è impostato un [modello di attribuzione non predefinito](/help/data-views/component-settings/attribution.md) per una metrica, il modello di attribuzione ignora l’allocazione impostata sulla dimensione per lo stesso report.
   >
-  >Tuttavia, quando si esegue una [esportazione di tabelle complete](/help/analysis-workspace/export/export-cloud.md) che include più dimensioni, l&#39;attribuzione mantiene i modelli di allocazione applicati a ogni dimensione.
+  >Tuttavia, quando si esegue un’[esportazione di tabelle complete](/help/analysis-workspace/export/export-cloud.md) che include più dimensioni, l’attribuzione mantiene i modelli di allocazione applicati a ogni dimensione.
 
 * **Scadenza** consente di determinare per quanto tempo un elemento dimensione persiste oltre l’evento su cui è impostato.
 
@@ -101,22 +101,22 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 ## [!UICONTROL Binding Dimension]
 
-Elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni incluse nella visualizzazione dati.
+Un elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni presenti nella visualizzazione dati.
 
-Per esempi su come utilizzare in modo efficace le dimensioni di binding, vedere [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
+Per esempi su come utilizzare in modo efficace le dimensioni di binding, consulta [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 ## [!UICONTROL Binding Metric]
 
-Elenco a discesa che consente di scegliere una metrica che funge da trigger di binding. Le opzioni valide includono le metriche incluse nella visualizzazione dati.
+Un elenco a discesa che consente di scegliere una metrica che agisce come un trigger di binding. Le opzioni valide includono le metriche presenti nella visualizzazione dati.
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nell’array dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 
-Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, vedere il secondo esempio in [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
+Per ulteriori informazioni su come utilizzare in modo efficace le metriche di binding, consulta il secondo esempio in [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).

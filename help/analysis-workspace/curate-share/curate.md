@@ -8,7 +8,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -23,18 +23,18 @@ La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, in
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 I componenti utilizzati nel progetto verranno aggiunti automaticamente.
-1. (Facoltativo) Per aggiungere altri componenti, trascina i componenti da condividere dal pannello di sinistra al campo [!UICONTROL Curate Components].
+1. (Facoltativo) Per aggiungere altri componenti, trascina quelli che vuoi condividere dal pannello a sinistra al campo [!UICONTROL Curate Components].
 1. Fai clic su **[!UICONTROL Done]**.
 
 È inoltre possibile applicare la cura dal menu [!UICONTROL Share] facendo clic su **[!UICONTROL Curate and Share]**. Questa opzione cura automaticamente il progetto con i componenti in uso nel progetto. Puoi aggiungere altri componenti seguendo la procedura descritta sopra.
 
-![La finestra Cura componenti mostra i componenti in uso nel progetto.](assets/curation-field.png)
+![La finestra Curate Components mostra i componenti in uso nel progetto.](assets/curation-field.png)
 
 ## Vista del progetto curato
 
 Quando un destinatario apre un progetto curato, vedrà solo il set curato di componenti che hai definito:
 
-![Progetto curato condiviso che mostra i componenti definiti dall&#39;utente.](assets/curate-project.png)
+![Progetto curato condiviso che mostra i componenti che hai definito.](assets/curate-project.png)
 
 ## Rimuovere la cura del progetto
 
@@ -46,7 +46,7 @@ Per rimuovere la cura del progetto e ripristinare l’intero set di componenti n
 
 ## Opzioni di cura del componente
 
-In un progetto curato, al destinatario verrà offerta l&#39;opzione per **[!UICONTROL Show All]** componenti nel pannello a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
+In un progetto curato, al destinatario verrà offerta l’opzione **[!UICONTROL Show All]** i componenti nel pannello a sinistra. [!UICONTROL Show All] mostra diversi set di componenti in base a:
 
 * Livello di autorizzazione dell’utente (amministratore o non amministratore)
 * Ruolo di progetto (proprietario/editor o meno)

@@ -8,7 +8,7 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 13%
+ht-degree: 74%
 
 ---
 
@@ -40,41 +40,41 @@ Se la tua organizzazione ha già effettuato l’aggiornamento a Customer Journey
 
 ## Comprendere vantaggi e svantaggi dell’utilizzo esclusivo del connettore di origine di Analytics
 
-Per informazioni sui vantaggi e gli svantaggi dell&#39;utilizzo del connettore di origine Analytics, vedere [Utilizzare il connettore di origine Analytics esclusivamente per l&#39;aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md).
+Per informazioni sui vantaggi e gli svantaggi dell’utilizzo del connettore di origine Analytics, consulta [Utilizzare il connettore di origine Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md).
 
 ## Transizione dal connettore di origine di Analytics al Web SDK
 
 Di seguito è riportato il processo di alto livello per la transizione dall’utilizzo esclusivo del connettore di origine Analytics a un’implementazione composta sia dal connettore di origine Analytics che da un’implementazione Web SDK:
 
-1. Creare un&#39;implementazione di Web SDK, come descritto in [Passaggi dettagliati consigliati per l&#39;aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) nell&#39;articolo [Aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
+1. Crea un’implementazione di Web SDK, come descritto in [Passaggi dettagliati consigliati per l’aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) nell’articolo [Aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
    Dopo aver configurato l’implementazione di Web SDK, continua con i passaggi seguenti.
 
-1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
+1. [Crea uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
 1. Mappa ogni dimensione di Adobe Analytics dal connettore di origine di Analytics alla dimensione nello schema di Web SDK.
 
    1. 
       <!-- how do you get here -->
 
-   1. Nella sezione **[!UICONTROL Map standard fields]** selezionare la scheda **[!UICONTROL Custom]**.
+   1. Nella sezione **[!UICONTROL Map standard fields]**, seleziona la scheda **[!UICONTROL Custom]**.
 
    1. Seleziona **[!UICONTROL Add new mapping]**.
 
       ![mappa campi schema](assets/schema-mapping.png)
 
-   1. In **[!UICONTROL Source field]**, selezionare un campo Adobe Analytics dal gruppo di campi Modello Adobe Analytics ExperienceEvent. Quindi, in **[!UICONTROL Target field]**, seleziona il campo XDM a cui vuoi mappare.
+   1. Nel **[!UICONTROL Source field]**, seleziona un campo Adobe Analytics dal gruppo di campi del modello Adobe Analytics ExperienceEvent. Quindi, nel **[!UICONTROL Target field]**, seleziona il campo XDM a cui desideri mapparlo.
 
-   1. Ripeti questa procedura per ogni campo del gruppo di campi Modello Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
+   1. Ripeti questa procedura per ogni campo del gruppo di campi Modello di Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
 
 1. Aggiungi il set di dati creato automaticamente con il connettore di origine Analytics originale alla connessione Customer Journey Analytics.
 
    Per ulteriori informazioni, consulta [Aggiungere il set di dati dal connettore di origine Analytics corrente alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
 
-1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, vedere [Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, consulta [Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
 1. Elimina il connettore di origine originale di Analytics. <!-- need to add steps somewhere about how to do this -->
 
-1. [Crea un nuovo connettore di origine Analytics e mappa i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+1. [Creare un nuovo connettore di origine di Analytics e mappare i campi](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
 
 {{upgrade-final-step}}

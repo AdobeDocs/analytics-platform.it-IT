@@ -1,6 +1,6 @@
 ---
 title: Panoramica di Content Analytics
-description: Panoramica di Content Analytics
+description: Una panoramica di Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
@@ -8,7 +8,7 @@ exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 1acb6ee56ec3d1c5ae21bb857205a0b9cc66cea0
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -16,36 +16,36 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-L’analisi dei contenuti aiuta gli addetti al marketing a comprendere in che modo i contenuti influiscono sugli indicatori prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie dati sul modo in cui i contenuti vengono utilizzati e sul loro impatto sulle varie unità. Ad esempio, i clienti rispondono meglio a un tono di voce specifico, a una palette di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso dei clienti in Customer Journey Analytics.
+Content Analytics aiuta i marketer a comprendere in che modo i contenuti influiscono sugli indicatori di prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie dati sul modo in cui i contenuti vengono utilizzati e sul loro impatto sulle varie unità. Ad esempio, i clienti rispondono meglio a un tono di voce specifico, a una palette di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso della clientela in Customer Journey Analytics.
 
-L&#39;analisi dei contenuti utilizza un servizio di funzionalità **basato su AI e apprendimento automatico** per suddividere il contenuto in componenti e attributi. Creando un profilo di metadati strutturato su tutti i contenuti, puoi analizzare quali contenuti e quali attributi di tali contenuti determinano i risultati aziendali.
+Content Analytics utilizza un **servizio di funzionalità** basato sull’IA e sul Machine learning per suddividere il contenuto in componenti e attributi. Creando un profilo di metadati strutturati su tutti i contenuti, puoi analizzare quali contenuti e quali attributi di tali contenuti determinano i risultati aziendali.
 
-Oltre alla creazione di questo profilo di metadati strutturato, Content Analytics fornisce un **servizio Identity** che identifica le risorse e le esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando la stessa risorsa viene visualizzata in più posizioni. In questo caso, le istanze di questa risorsa vengono trattate come la stessa risorsa, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
+Oltre alla creazione di questo profilo di metadati strutturati, Content Analytics fornisce un **servizio Identity** che identifica risorse ed esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando esattamente la stessa risorsa viene visualizzata in più posizioni. In questo caso, le istanze di questa risorsa vengono trattate come la stessa risorsa, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
 
 ## Valore
 
-L’analisi dei contenuti fornisce valore a un livello crescente:
+Content Analytics fornisce valore a un livello crescente:
 
-1. Contenuto **utilizzo**: con Content Analytics puoi ottenere informazioni sulle risorse che ricevono impression e sulle aree in cui le risorse ricevono impression. Queste informazioni consentono di verificare se le risorse sono sottoutilizzate o sovrautilizzate nelle proprietà web.
-1. Contenuto **accordi**: l&#39;analisi del contenuto può fornire informazioni sul coinvolgimento come il tasso medio di click-through per le risorse con determinati attributi. Queste informazioni consentono di determinare se tipi specifici di esperienze sono ancora efficaci.
-1. Contenuto **percorsi**: in combinazione con tutti gli altri dati disponibili in Experience Platform, puoi ottenere ulteriori informazioni sui percorsi di contenuti. Ad esempio, se un contenuto specifico porta a conversioni, oltre al coinvolgimento. E con questa conoscenza è possibile determinare il ROI sui tipi di contenuto.
-1. Contenuto **personalizzazione**: in ultima analisi, Content Analytics ti consente di agire in base alle tue informazioni e di utilizzarle per determinare come spendere denaro per i contenuti. Ad esempio, devo inviare tipi specifici di contenuto a tipi di pubblico specifici? Quali contenuti mi offrono opportunità di personalizzazione elevate?
+1. **Utilizzo** del contenuto: con Content Analytics puoi ottenere informazioni sulle risorse che ricevono impression e sulle aree in cui le risorse ricevono impression. Queste informazioni ti aiutano a capire se le risorse sono sottoutilizzate o sovrautilizzate nelle proprietà web.
+1. **Coinvolgimento** del contenuto: Content Analytics può fornire informazioni sul coinvolgimento come il tasso medio di click-through per le risorse con determinati attributi. Queste informazioni ti aiutano a determinare se tipi specifici di esperienze sono ancora efficaci.
+1. **Percorsi** del contenuto: inoltre, in combinazione con tutti gli altri dati disponibili in Experience Platform, puoi ottenere ulteriori informazioni sui percorsi nei contenuti. Ad esempio, se un contenuto specifico porta a conversioni, oltre al coinvolgimento. E con questa conoscenza puoi determinare il ROI sui tipi di contenuto.
+1. **Personalizzazione** del contenuto: in ultima analisi, Content Analytics ti consente di agire in base alle informazioni e di utilizzarle per determinare come spendere denaro per i contenuti. Ad esempio, devo inviare tipi specifici di contenuto a tipi di pubblico specifici? Quali contenuti mi offrono opportunità di personalizzazione elevate?
 
 ## Terminologia
 
 Content Analytics utilizza i seguenti termini chiave:
 
-![Assets ed esperienze](/help/content-analytics/assets/content-analytics-experience-asset.png)
+![Risorse ed esperienze](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
 * **Esperienza**: un&#39;esperienza è tutto il testo in una pagina Web riproducibile utilizzando l&#39;URL utilizzato dall&#39;utente iniziale che ha visitato la pagina Web. A ogni esperienza viene assegnato un identificatore univoco. Le modifiche apportate alla pagina, che comportano modifiche al HTML della pagina, generano una nuova esperienza.
-* **Risorsa**: una risorsa è un contenuto singolo e univoco, come un&#39;immagine. A ogni risorsa viene inoltre assegnato un identificatore univoco e un ID percettivo. Un ID percettivo è un identificatore condiviso con risorse visivamente identiche. Gli ID percettivi aiutano a deduplicare le risorse che possono avere un URL risorsa diverso e quindi un ID risorsa diverso, ma che sono percepitamente identici.
-* **Attributo**: un attributo è un elemento di metadati descrittivo associato a un&#39;esperienza o a una risorsa. Esempi di un attributo sono: stile della fotografia, leggibilità, strategia di persuasione, colore dell&#39;oggetto, colore di sfondo.
+* **Risorsa**: una risorsa è un contenuto singolo e univoco, come un’immagine. A ogni risorsa viene inoltre assegnato un identificatore univoco e un ID percettivo. Un ID percettivo è un identificatore condiviso con risorse visivamente identiche. Gli ID percettivi aiutano a deduplicare le risorse che possono avere un URL risorsa diverso e quindi un ID risorsa diverso, ma che sono percepitamente identici.
+* **Attributo**: un attributo è un elemento di metadati descrittivo associato a un’esperienza o a una risorsa. Gli esempi di un attributo sono: stile della fotografia, leggibilità, strategia di persuasione, colore dell’oggetto, colore di sfondo.
 
 ## Come funziona
 
-Content Analytics utilizza i dati di visualizzazione delle immagini web raccolti nei set di dati evento in Experience Platform. Questi dati possono essere raccolti tramite i vari metodi disponibili: Experience Platform Edge Network (Web SDK, Server API) o il connettore di origine Analytics.
+Content Analytics utilizza i dati di visualizzazione delle immagini web raccolti nei set di dati evento in Experience Platform. Questi dati possono essere raccolti tramite i vari metodi disponibili: rete Edge di Experience Platform (Web SDK, Server API) o il connettore di origine di Analytics.
 
-![Analisi dei contenuti - Come funziona](assets/aca-overview.gif)
+![Content Analytics: come funziona](assets/aca-overview.gif)
 
 
 1. Quando un utente visita un sito, [configurato per Content Analytics](config/configuration.md), Experience Platform Web SDK registra le impression e le interazioni con il contenuto.
@@ -68,7 +68,7 @@ Content Analytics utilizza i dati di visualizzazione delle immagini web raccolti
 
 >[!MORELIKETHIS]
 >
->[Generazione rapporti di Content Analytics](report/report.md)
->[Configura analisi contenuto](config/configuration.md)
+>[Reporting di Content Analytics](report/report.md)
+>[Configurare Content Analytics](config/configuration.md)
 >
 

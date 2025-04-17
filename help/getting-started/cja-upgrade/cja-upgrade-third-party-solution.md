@@ -1,6 +1,6 @@
 ---
-title: Aggiornamento da una soluzione di analisi di terze parti a Customer Journey Analytics
-description: Scopri come effettuare l’aggiornamento da una soluzione di analisi di terze parti a Customer Journey Analytics
+title: Aggiornare da una soluzione di analisi di terze parti a Customer Journey Analytics
+description: Scopri come aggiornare da una soluzione di analisi di terze parti a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,11 +8,11 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 22%
+ht-degree: 44%
 
 ---
 
-# Aggiornamento da una soluzione di analisi di terze parti a Customer Journey Analytics {#upgrade-from-third-party}
+# Aggiornare da una soluzione di analisi di terze parti a Customer Journey Analytics {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,7 +25,7 @@ ht-degree: 22%
 
 {{upgrade-note}}
 
-Il processo consigliato di aggiornamento da una soluzione di analisi diversa da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dati preferito per Customer Journey Analytics. Insieme al Web SDK, Adobe consiglia inoltre di acquisire in Adobe Experience Platform i dati storici dalla soluzione di analisi di terze parti.
+Il processo consigliato di aggiornamento da una soluzione di analisi diversa da Adobe Analytics a Customer Journey Analytics è una nuova implementazione di Experience Platform Web SDK, che è il metodo di raccolta dati preferito per Customer Journey Analytics. Insieme a Web SDK, Adobe consiglia inoltre di acquisire in Adobe Experience Platform i dati storici dalla soluzione di analisi di terze parti.
 
 <!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
 

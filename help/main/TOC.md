@@ -133,7 +133,7 @@ ht-degree: 84%
    + [Impostazioni di sessione](../data-views/session-settings.md)
    + Impostazioni dei componenti {#component-settings}
       + [Panoramica delle impostazioni dei componenti](../data-views/component-settings/overview.md)
-      + [Attribuzione](../data-views/component-settings/attribution.md)
+      + [Attribution](../data-views/component-settings/attribution.md)
       + [Comportamento](../data-views/component-settings/behavior.md)
       + [Formato](../data-views/component-settings/format.md)
       + [Includere valori di esclusione](../data-views/component-settings/include-exclude-values.md)
@@ -164,7 +164,7 @@ ht-degree: 84%
    + Progetti {#build-workspace-project}
       + [Panoramica](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
-      + [Progetti aperti](/help/analysis-workspace/build-workspace-project/open-projects.md)
+      + [Aprire i progetti](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Commento nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Salvare progetti](../analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
@@ -195,7 +195,7 @@ ht-degree: 84%
          + [Panoramica](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi d’uso](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Fallout (abbandono) {#fallout}
+      + Abbandono {#fallout}
          + [Panoramica](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -204,7 +204,7 @@ ht-degree: 84%
          + [Panoramica](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurare](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flussi interdimensionali](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + Area di lavoro percorso {#journey-canvas}
+      + Area di lavoro del percorso {#journey-canvas}
          + [Panoramica](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [Configurare](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [Risoluzione dei problemi](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
@@ -219,7 +219,7 @@ ht-degree: 84%
       + [A linee](../analysis-workspace/visualizations/line.md)
       + [Mappa](/help/analysis-workspace/visualizations/map.md)
       + [A dispersione](../analysis-workspace/visualizations/scatterplot.md)
-      + [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md)
+      + [Intestazione di sezione](/help/analysis-workspace/visualizations/section-header.md)
       + [Numero e variazione di riepilogo](../analysis-workspace/visualizations/summary-number-change.md)
       + [Testo](../analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](../analysis-workspace/visualizations/treemap.md)
@@ -227,11 +227,11 @@ ht-degree: 84%
    + Pannelli {#panels}
       + [Panoramica](../analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](../analysis-workspace/c-panels/blank-panel.md)
-      + [Attribuzione](../analysis-workspace/c-panels/attribution.md)
+      + [Attribution](../analysis-workspace/c-panels/attribution.md)
       + [Sperimentazione](../analysis-workspace/c-panels/experimentation.md)
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Visualizzatori simultanei di contenuti multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Visualizzatori simultanei di file multimediali](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tempo trascorso su contenuti multimediali](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento successivo o precedente](../analysis-workspace/c-panels/next-previous.md)
       + [Quick Insights](../analysis-workspace/c-panels/quickinsight.md)
@@ -241,7 +241,7 @@ ht-degree: 84%
       + [Condividere progetti](../analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](../analysis-workspace/curate-share/shareable-links.md)
       + [Progetti solo visualizzazione](../analysis-workspace/curate-share/view-only-projects.md)
-   + Esportazione {#export}
+   + Esportare {#export}
       + [Panoramica](../analysis-workspace/export/export-project-overview.md)
       + [Scaricare](../analysis-workspace/export/download-send.md)
       + [Inviare ad altri](../analysis-workspace/export/t-schedule-report.md)
@@ -254,7 +254,7 @@ ht-degree: 84%
       + [Panoramica](../analysis-workspace/c-forecast/forecasting.md)
       + [Visualizzare le previsioni](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Tecniche statistiche](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [Sommario ](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+   + [Sommario](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace e altro ancora {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)
@@ -291,8 +291,8 @@ ht-degree: 84%
    + [Frequenza](../guided-analysis/types/frequency.md)
    + [Funnel](../guided-analysis/types/funnel.md)
    + [Crescita netta](../guided-analysis/types/net-growth.md)
-   + [Impatto sulla versione](../guided-analysis/types/release-impact.md)
-   + [Mantenimento](../guided-analysis/types/retention.md)
+   + [Impatto della versione](../guided-analysis/types/release-impact.md)
+   + [Conservazione](../guided-analysis/types/retention.md)
    + [Timeline](../guided-analysis/types/timeline.md)
    + [Tendenze](../guided-analysis/types/trends.md)
    + [Casi d’uso di settore](../guided-analysis/industry-use-cases.md)

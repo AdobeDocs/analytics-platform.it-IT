@@ -7,7 +7,7 @@ role: User
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 33%
+ht-degree: 82%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Istogramma in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Visualizza [Istogramma](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+_Questo articolo descrive la visualizzazione a istogramma in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Istogramma](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/histogram) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-La visualizzazione ![Istogramma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** è simile a una visualizzazione [!UICONTROL Bar], ma raggruppa i numeri in intervalli (bucket). Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#advanced-settings).
+Una visualizzazione a **[!UICONTROL Histogram]** ![istogramma](/help/assets/icons/Histogram.svg) è simile a una visualizzazione [!UICONTROL Bar], ma con i numeri raggruppati in intervalli (bucket). Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#advanced-settings).
 
 ## Utilizzo
 
 Per creare un istogramma:
 
-1. Aggiungi una visualizzazione ![Istogramma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]**. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Trascinare una metrica dall&#39;elenco dei componenti **[!UICONTROL Metrics]** oppure selezionare una metrica dal menu a discesa [!UICONTROL *Aggiungi una metrica*].
-1. (facoltativo) Selezionare **[!UICONTROL Show advanced settings]**. Vedi [Impostazioni avanzate](#advanced-settings).
+1. Aggiungi una visualizzazione a **[!UICONTROL Histogram]** ![istogramma](/help/assets/icons/Histogram.svg). Consulta [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Trascina una metrica dall’elenco dei componenti **[!UICONTROL Metrics]** oppure seleziona una metrica dal menu a discesa [!UICONTROL *Aggiungi una metrica*].
+1. (facoltativo) Seleziona **[!UICONTROL Show advanced settings]**. Consulta [Impostazioni avanzate](#advanced-settings).
 1. Seleziona **[!UICONTROL Build]**.
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Nell’esempio seguente, viene utilizzato un istogramma per le sessioni di bucke
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche dell’istogramma.
 
-| Impostazioni degli istogrammi | Descrizione |
+| Impostazioni istogramma | Descrizione |
 |---|---|
 | **[!UICONTROL Starting bucket]** | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
 | **[!UICONTROL Metric buckets]** | Consente di aumentare/diminuire il numero di intervalli di dati (bucket). Il numero massimo di bucket è 50. |
@@ -64,15 +64,15 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dell�
 
 **Esempi**:
 
-| Bucket iniziale | Periodi fissi di metrica | Dimensione del bucket della metrica | Risultato |
+| Bucket iniziale | Bucket metrica | Dimensione bucket di metrica | Risultato |
 |:----:|:--:|:--:|:--|
 | 1 | 5 | 2 | ![Istogramma, bucket iniziale 1, bucket metrica 5, dimensione bucket metrica 2](assets/histogram-1-5-2.png) |
 | 0 | 3 | 5 | ![Istogramma, bucket iniziale 0, bucket metrica 3, dimensione bucket metrica 5](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[Utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 

@@ -1,6 +1,6 @@
 ---
 title: Creare uno schema per Customer Journey Analytics
-description: Scopri il percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Un set di dati è il costrutto che memorizza e gestisce i dati raccolti in Adobe
 
 Per creare un set di dati:
 
-1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** entro [!UICONTROL DATA MANAGEMENT].
+1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** all’interno di [!UICONTROL DATA MANAGEMENT].
 
-1. Seleziona **[!UICONTROL Create dataset]** (Crea set di dati).
+1. Seleziona **[!UICONTROL Create dataset]**.
 
    ![Creare un set di dati](assets/create-dataset.png)
 
@@ -59,6 +59,6 @@ Per creare un set di dati:
 
    ![Abilitare lo schema per il profilo](assets/aepwebsdk-dataset-profile.png)
 
-   Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare ed eliminare un set di dati, consulta la [guida dell&#39;interfaccia utente per i set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it). Scopri anche come abilitare un set di dati per Real-Time Customer Profile.
+   Per ulteriori informazioni su come visualizzare, visualizzare in anteprima, creare o eliminare un set di dati, consulta la sezione [Guida all’interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it). Puoi anche scoprire come abilitare un set di dati per il profilo cliente in tempo reale.
 
 {{upgrade-final-step}}

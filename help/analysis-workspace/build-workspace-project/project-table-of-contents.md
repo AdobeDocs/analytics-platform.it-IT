@@ -1,24 +1,24 @@
 ---
 description: Informazioni sulla funzionalità sommario in un progetto Workspace
 keywords: Analysis Workspace
-title: 'Sommario '
+title: Sommario
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
 source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 4%
+ht-degree: 92%
 
 ---
 
-# Sommario 
+# Sommario
 
-In Analysis Workspace puoi visualizzare un sommario per un progetto, per spostarti rapidamente tra i pannelli e le visualizzazioni esistenti nel progetto. Il sommario è particolarmente utile quando si visualizzano progetti più grandi che contengono molti pannelli e visualizzazioni.
+In Analysis Workspace puoi visualizzare il sommario di un progetto, per spostarti rapidamente tra i pannelli e le visualizzazioni al suo interno. Il sommario è particolarmente utile quando si visualizzano progetti più grandi che contengono molti pannelli e visualizzazioni.
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} per un video demo.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -33,13 +33,13 @@ Per visualizzare il sommario di un progetto:
 
 1. In Analysis Workspace, vai al progetto in cui desideri visualizzare il sommario.
 
-1. Nel pannello del pulsante, seleziona ![VisualizzaElenco](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Per ulteriori informazioni, vedere [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).<br/>
+1. Nel pannello del pulsante, seleziona ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Per ulteriori informazioni, consulta [Panoramica su Analysis Workspace](/help/analysis-workspace/home.md).<br/>
 
-   Viene visualizzato **[!UICONTROL Table of contents]** per il progetto e ogni pannello viene espanso per impostazione predefinita.
+   Viene visualizzato il **[!UICONTROL Table of contents]** del progetto e ogni pannello viene espanso per impostazione predefinita.
 
-1. In **[!UICONTROL Table of contents]**, selezionare una visualizzazione.<br/>
+1. Nel **[!UICONTROL Table of contents]**, seleziona una visualizzazione.<br/>
 
-   La visualizzazione selezionata viene scorsa automaticamente in ed evidenziata brevemente.
+   La visualizzazione selezionata viene scorsa automaticamente ed evidenziata brevemente.
 
    ![SOMMARIO evidenziato](assets/toc-highlighted.png)
 

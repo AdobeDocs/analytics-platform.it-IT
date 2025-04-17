@@ -1,5 +1,5 @@
 ---
-description: Scopri la funzione Flusso che mostra i percorsi seguiti dai clienti nei tuoi siti web e nelle tue app.
+description: Informazioni sulla funzione Flusso che mostrano i percorsi dei clienti nei siti web e nelle app.
 title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 25%
+ht-degree: 85%
 
 ---
 
@@ -30,23 +30,23 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-La visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
+La visualizzazione **[!UICONTROL Flow]** ![GraphPathing](/help/assets/icons/GraphPathing.svg) mostra i percorsi del cliente nei siti web e nelle app.
 
-Con la visualizzazione è possibile:
+Con la visualizzazione puoi:
 
-* Visualizza il percorso di clienti attraverso il sito web o l’applicazione.
-* Analizza dove vanno i clienti prima e dopo i punti di controllo specificati, ad esempio ingresso, una dimensione specifica o uscita.
+* Visualizzare il percorso del cliente nel sito web o nell’applicazione.
+* Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, una specifica dimensione oppure uscita.
 * Crea segmenti designando un punto specifico nel percorso scelto.
 
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una visualizzazione di flusso](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} per un video demo.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una visualizzazione del flusso](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -61,12 +61,12 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 
 >[!MORELIKETHIS]
 >
->[Configurare una visualizzazione di flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configurare una visualizzazione del flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
-## Scegli tra le visualizzazioni Flusso, Abbandono o Area di lavoro Percorso
+## Scegliere tra le visualizzazioni Flusso, Abbandono o Area di lavoro del percorso
 
-La visualizzazione Flusso ha analogie con la [visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e la [visualizzazione area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), ma con differenze importanti.
+La visualizzazione Flusso ha analogie con la [visualizzazione Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e la [visualizzazione Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), ma con differenze importanti.
 
 ### Comprendere le differenze
 
@@ -78,8 +78,8 @@ La visualizzazione Flusso ha analogie con la [visualizzazione Abbandono](/help/a
 
 Le visualizzazioni Flusso sono più adatte per:
 
-* Analisi esplorativa ad hoc per il punto di contatto immediatamente successivo sul percorso. Utilizzare l&#39;area di lavoro Percorso per i percorsi con una sequenza di pagine predefinita o che utilizzano un percorso finale.
+* Analisi esplorativa ad hoc per il punto di contatto immediatamente successivo sul percorso. Utilizza Area di lavoro del percorso per i percorsi con una sequenza di pagine predefinita o per quelli che utilizzano un percorso finale.
 
-* Percorsi non lineari con più punti di ingresso e percorsi. Utilizza area di lavoro Percorso per percorsi con una sequenza di pagine predefinita.
+* Percorsi non lineari con più punti di ingresso e percorsi. Utilizza Area di lavoro del percorso per percorsi con una sequenza di pagine predefinita.
 
-Utilizza [la tabella precedente](#understand-the-differences) per comprendere le differenze tra Flusso, Abbandono e Area di lavoro Percorso.
+Utilizza [la tabella precedente](#understand-the-differences) per le informazioni sulle differenze tra Flusso, Abbandono e Area di lavoro del percorso.
