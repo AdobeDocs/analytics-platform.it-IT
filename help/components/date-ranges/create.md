@@ -4,10 +4,10 @@ description: Crea un intervallo di date per l’utilizzo nella reportistica.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 3f9c185c86f2ae2727881d0d74ca54815867adb1
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -53,7 +53,7 @@ Le finestre di dialogo **[!UICONTROL New date range]** o **[!UICONTROL Edit date
 
 1. Specifica un **[!UICONTROL Title]** per l’intervallo di date. Ad esempio: **[!UICONTROL Quarterly]**.
 1. Facoltativamente, specificare una **[!UICONTROL Description]**.
-1. Organizza il filtro creando o applicando uno o più **[!UICONTROL Tags]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
+1. Organizzare il segmento creando o applicando uno o più **[!UICONTROL Tags]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
 1. Seleziona un **[!UICONTROL Date Range]** selezionando prima la data di inizio e quindi la data di fine.
 In alternativa, è possibile selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
 

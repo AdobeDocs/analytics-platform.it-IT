@@ -4,10 +4,10 @@ title: Monitorare l’integrità del dizionario dei dati
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 78%
 
 ---
 
@@ -49,6 +49,6 @@ Per identificare i problemi di integrità nel dizionario dei dati:
 
    * [!UICONTROL **ai componenti non sono collegati dati**]
 
-   A seconda di ciò che selezioni, il filtro appropriato viene applicato al dizionario dei dati e vengono visualizzati solo i componenti rilevanti.
+   A seconda di ciò che selezioni, il segmento appropriato viene applicato al dizionario dati e vengono visualizzati solo i componenti rilevanti.
 
 1. Modifica i componenti per migliorare lo stato del dizionario dei dati. Per informazioni su come modificare un componente nel dizionario dei dati, vedi [Modificare le voci dei componenti nel dizionario dei dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).

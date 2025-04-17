@@ -1,14 +1,14 @@
 ---
-description: Gestisci il percorso di esportazione cloud in cui possono essere inviati i dati del Customer Journey Analytics
+description: Gestisci il percorso di esportazione cloud in cui possono essere inviati i dati Customer Journey Analytics
 keywords: Analysis Workspace
 title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 1%
+source-wordcount: '1365'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Per informazioni su come creare un nuovo percorso, vedere [Configurare i percors
 
 ## Filtrare e cercare i percorsi
 
-Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni o cercare una posizione.
+Per trovare le informazioni necessarie, puoi filtrare in base all’elenco delle posizioni o cercare una posizione.
 
 ### Filtra l’elenco delle posizioni
 
@@ -36,7 +36,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle posizioni
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Piattaforma cloud Google**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **Tipo di posizione**]<!--should this be changed to Account type?--> | Tipo di conto a cui è associata l&#39;ubicazione. Possono essere disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Account**] | Il nome dell’account a cui è associata la posizione. |
    | [!UICONTROL **Creato da**] | L’indirizzo e-mail dell’utente che ha creato la posizione. |
 
@@ -154,7 +154,7 @@ Gli amministratori di sistema possono impedire agli utenti di creare account e p
 
 ### Stabilire se gli utenti possono creare e modificare gli account
 
-Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare account e modificarli nell&#39;ambiente di Customer Journey Analytics, come descritto in [configurazione degli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).
+Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare account e modificarne quelli creati nell&#39;ambiente Customer Journey Analytics, come descritto in [configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).
 
 Puoi impedire agli utenti di creare account. In questo caso, gli utenti possono comunque utilizzare gli account già creati, ma non possono più modificarli. È possibile eliminare gli account creati dagli utenti, come descritto in [Eliminare un account](#delete-an-account).
 
@@ -170,7 +170,7 @@ Per impedire a tutti gli utenti di creare e modificare account:
 
 ### Stabilire se gli utenti possono creare e modificare le posizioni
 
-Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare percorsi e modificarli nell&#39;ambiente di Customer Journey Analytics, come descritto in [configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
+Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare percorsi e modificarli nell&#39;ambiente Customer Journey Analytics, come descritto in [configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
 Puoi impedire agli utenti di creare posizioni. In questo caso, gli utenti possono comunque utilizzare le posizioni già create, ma non possono più modificarle. È possibile eliminare i percorsi creati dagli utenti, come descritto in [Elimina percorsi](#delete-a-location).
 
@@ -221,15 +221,15 @@ Per limitare i tipi di account disponibili per gli utenti durante la creazione e
 
    I seguenti tipi di account sono disponibili per impostazione predefinita per gli utenti. Deseleziona uno di questi tipi di account che desideri impedire agli utenti di utilizzare.
 
-   * [!UICONTROL **Area di destinazione dati AEP**]
+   * [!UICONTROL **AEP Data Landing Zone**]
 
-   * [!UICONTROL **ARN per ruolo Amazon S3**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Piattaforma cloud Google**]
+   * [!UICONTROL **Google Cloud Platform**]
 
-   * [!UICONTROL **SAS di Azure**]
+   * [!UICONTROL **Azure SAS**]
 
-   * [!UICONTROL **RBAC di Azure**]
+   * [!UICONTROL **Azure RBAC**]
 
    * [!UICONTROL **Snowflake**]
 

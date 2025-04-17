@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 50%
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 # Suddividere dimensioni in Workspace
 
-Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specifiche; puoi creare query utilizzando metriche, dimensioni, filtri, linee temporali e altri valori rilevanti di analisi stratificata.
+Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specifiche; puoi creare query utilizzando metriche, dimensioni, segmenti, linee temporali e altri valori di suddivisione dell’analisi pertinenti.
 
 1. In una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) selezionare **[!UICONTROL Breakdown]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) dal menu di scelta rapida di una o più righe selezionate.
 
@@ -23,7 +23,7 @@ Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specif
 
 1. Dal sottomenu selezionare **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Filters]** o **[!UICONTROL Date ranges]** e quindi selezionare un elemento.
 
-Puoi analizzare metriche per elementi dimensionali o filtri di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [raggruppamenti di Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension breakdown](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -89,7 +89,7 @@ Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheck
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suddivisione Dimension per posizione](https://video.tv.adobe.com/v/24033){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suddivisione Dimension per posizione](https://video.tv.adobe.com/v/24033){target="_blank"}.
 
 {{videoaa}}
 
