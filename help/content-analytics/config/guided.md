@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
+source-git-commit: e79094d974e4e91b044611f997c0e4215487d74f
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 40%
@@ -218,7 +218,7 @@ Per includere le esperienze in una configurazione nuova o non implementata:
 1. Selezionare **[!UICONTROL Add Regex]** se si desidera aggiungere un&#39;altra combinazione di un&#39;espressione regolare e parametri di query.
 
 
-### Configurazione implementata {#implemented-experiences-configuration}
+#### Configurazione implementata {#implemented-experiences-configuration}
 
 Per modificare esperienze esistenti o includerne di nuove in una configurazione implementata:
 
