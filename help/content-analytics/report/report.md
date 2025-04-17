@@ -1,18 +1,18 @@
 ---
-title: Generazione di rapporti per l’analisi dei contenuti
+title: Reportistica di Content Analytics
 description: Come creare rapporti su Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 0%
 
 ---
 
-# Panoramica reportistica di Content Analytics
+# Panoramica sulla generazione rapporti di Content Analytics
 
 {{release-limited-testing}}
 
@@ -23,11 +23,11 @@ Per iniziare a generare rapporti su Content Analytics da zero:
 1. [Crea un nuovo](/help/analysis-workspace/build-workspace-project/create-projects.md) o [apri un progetto](/help/analysis-workspace/build-workspace-project/open-projects.md) esistente in Workspace.
 1. Assicurati di [selezionare una visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view) per la generazione di rapporti di Content Analytics. Il reporting di Content Analytics è disponibile solo per le visualizzazioni dati [configurate](/help/content-analytics/config/configuration.md) per Content Analytics.
 1. Trascina una visualizzazione ![Tabella](/help/assets/icons/Table.svg) [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) nell&#39;area di lavoro.
-1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come filtri, intervalli di date, annotazioni) per creare informazioni approfondite di Content Analytics.
+1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come segmenti, intervalli di date, annotazioni) per creare informazioni approfondite sull&#39;analisi dei contenuti.
 
 ## Miniature
 
-In base alle dimensioni specifiche di Content Analytics che utilizzi nel progetto, vengono visualizzate le miniature per le risorse e le dimensioni.
+In base alle dimensioni specifiche di Content Analytics utilizzate nel progetto, vengono visualizzate le miniature per le risorse e le dimensioni.
 
 ![Miniature di Content Analytics](../assets/aca-thumbnails.png)
 
@@ -48,7 +48,7 @@ Per aprire l&#39;anteprima con i dettagli seguenti:
 
   | Anteprima esperienza | Anteprima risorsa |
   |---|---|
-  | ![Anteprima esperienza analisi contenuti](../assets/aca-experience-preview.png) | ![Anteprima risorse di analisi dei contenuti](../assets/aca-asset-preview.png) |
+  | ![Anteprima esperienza Content Analytics](../assets/aca-experience-preview.png) | ![Anteprima risorse Content Analytics](../assets/aca-asset-preview.png) |
   | Nome della dimensione (ad esempio, **[!UICONTROL Experience ID])** | Nome della dimensione della risorsa (ad esempio, **[!UICONTROL Asset ID])** |
   | **[!UICONTROL Impressions (all time)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
   | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. |
@@ -67,7 +67,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Accertati di aver selezionato una visualizzazione dati configurata per Content Analytics.
-1. Cercare o utilizzare i filtri (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**s) per trovare e selezionare il modello **[!UICONTROL Content analytics]**.
+1. Cercare o utilizzare i segmenti (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**s) per trovare e selezionare il modello **[!UICONTROL Content analytics]**.
 1. Seleziona **[!UICONTROL Use template]**.
 1. Nella finestra di dialogo **[!UICONTROL Set up your template]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Select a conversion metric]**. Ad esempio: **[!UICONTROL Asset CTR]**.
 1. Seleziona **[!UICONTROL Continue]**.
@@ -156,6 +156,6 @@ Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene v
 
 >[!MORELIKETHIS]
 >
->[Componenti di analisi dei contenuti](components.md)
+>[Componenti Content Analytics](components.md)
 >[Usa modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

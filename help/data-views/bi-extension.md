@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '3188'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -519,7 +519,7 @@ A causa della natura sottostante del funzionamento di Customer Journey Analytics
 
 #### Metriche condizionali
 
-Puoi incorporare una clausola `IF` o `CASE` nelle funzioni `SUM` o `COUNT` per aggiungere un filtro aggiuntivo specifico per una metrica selezionata. L’aggiunta di queste clausole è simile all’applicazione di un filtro a una colonna della metrica in una tabella di rapporti di Workspace.
+È possibile incorporare una clausola `IF` o `CASE` nelle funzioni `SUM` o `COUNT` per aggiungere segmentazioni aggiuntive specifiche per una metrica selezionata. L’aggiunta di queste clausole è simile all’applicazione di un segmento a una colonna di metriche in una tabella di rapporti di Workspace.
 
 Esempi:
 
@@ -556,26 +556,26 @@ La colonna speciale `timestamp` viene utilizzata per fornire gli intervalli di d
 * Se viene fornito solo un massimo (`timestamp < X` o `timestamp <= X`), l’intervallo è compreso tra X meno 30 giorni e X.
 * Se non viene fornito nulla, l’intervallo è da ora meno 30 giorni a ora.
 
-L’intervallo di marca temporale viene convertito in un filtro globale per intervalli di date in RankedRequest.
+L’intervallo di marca temporale viene convertito in un segmento globale di intervallo di date in RankedRequest.
 Il campo marca temporale può essere utilizzato anche nelle funzioni data/ora per analizzare o troncare la marca temporale dell’evento.
 
 #### Intervallo date
 
-La colonna speciale `daterange` funziona in modo simile a `timestamp`, tuttavia il filtro è limitato a giorni interi. Anche `daterange` è facoltativo e ha gli stessi valori predefiniti di intervallo di `timestamp`.
+La colonna speciale `daterange` funziona in modo simile a `timestamp`; tuttavia la segmentazione è limitata a giorni interi. Anche `daterange` è facoltativo e ha gli stessi valori predefiniti di intervallo di `timestamp`.
 Il campo `daterange` può essere utilizzato anche nelle funzioni data/ora per analizzare o troncare la data evento.
 
-La colonna speciale `daterangeName` può essere utilizzata per filtrare la query utilizzando un intervallo di date denominato come `Last Quarter`.
+La colonna speciale `daterangeName` può essere utilizzata per segmentare la query utilizzando un intervallo di date denominato come `Last Quarter`.
 
 >[!NOTE]
 >
 >Power BI non supporta metriche `daterange` inferiori a un giorno (ora, 30 minuti, 5 minuti, ecc.).
 >
 
-#### ID filtro
+#### ID segmento
 
-La colonna speciale `filterId` è facoltativa e viene utilizzata per applicare un filtro definito esternamente alla query. L’applicazione di un filtro definito esternamente a una query è simile al trascinamento di un filtro su un pannello in Workspace. È possibile inserire più ID di filtro utilizzando `AND`.
+La colonna speciale `filterId` è facoltativa e viene utilizzata per applicare alla query un segmento definito esternamente. L’applicazione di un segmento definito esternamente a una query è simile al trascinamento di un segmento su un pannello in Workspace. È possibile utilizzare più ID segmento da `AND` che li invia.
 
-Insieme a `filterId`, puoi utilizzare `filterName` per utilizzare il nome di un filtro invece del suo ID.
+Insieme a `filterId`, è possibile utilizzare `filterName` per utilizzare il nome di un segmento invece dell&#39;ID.
 
 ### Clausola Where
 
@@ -583,11 +583,11 @@ La clausola `WHERE` viene gestita in tre passaggi:
 
 1. Trova l’intervallo di date dai campi speciali `timestamp`, `daterange` o `daterangeName`.
 
-1. Trova qualsiasi `filterId` o `filterName` definito esternamente da includere nel filtro.
+1. Trova qualsiasi `filterId` o `filterName` definito esternamente da includere nel segmento.
 
-1. Trasforma le espressioni rimanenti in filtri ad hoc.
+1. Trasforma le espressioni rimanenti in segmenti ad hoc.
 
-La gestione viene eseguita analizzando il primo livello di `AND` nella clausola `WHERE`. Ogni espressione di primo livello con `AND` deve corrispondere a una delle precedenti. Qualsiasi elemento più profondo del primo livello di `AND`, o se la clausola `WHERE` utilizza `OR` al livello superiore, viene gestito come filtro ad hoc.
+La gestione viene eseguita analizzando il primo livello di `AND` nella clausola `WHERE`. Ogni espressione di primo livello con `AND` deve corrispondere a una delle precedenti. Qualsiasi elemento più profondo del primo livello di `AND` o, se la clausola `WHERE` utilizza `OR` al livello principale, viene gestito come segmento ad hoc.
 
 ### Ordinamento
 
