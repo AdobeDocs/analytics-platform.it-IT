@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Nel contesto del presente articolo si utilizzano le seguenti definizioni:
 * **Esperienza**: per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID basato sull’URL della pagina. Successivamente, il testo sulla pagina viene acquisito tramite il servizio di recupero.
 * **Experience ID**: combinazione univoca di URL rilevanti (URL di base più eventuali parametri che determinano il contenuto della pagina) e [experience version](manual.md#versioning).
    * Specifica, come parte della [configurazione](configuration.md), quali parametri sono rilevanti per ogni URL completo specificato.
-   * È possibile definire l&#39;[identificatore di versione](manual.md#versioning) utilizzato.
+   * Puoi definire un [identificatore di versione](manual.md#versioning) da utilizzare, in modo da raccogliere correttamente le modifiche alle esperienze.
 * **Risorsa**: immagine. Content Analytics registra l’URL della risorsa.
 * **ID risorsa**: URL della risorsa.
 * **URL rilevante**: l&#39;URL di base più eventuali parametri che determinano il contenuto della pagina.

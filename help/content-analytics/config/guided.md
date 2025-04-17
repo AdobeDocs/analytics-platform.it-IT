@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6e59b029542b7b4353f03b6dd083e25955aacc7b
+source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2458'
 ht-degree: 12%
 
 ---
@@ -105,7 +105,7 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
 >title="Pulisci visualizzazione dati selezionata"
->abstract="È stata selezionata una visualizzazione dati per la quale è già stato eseguito il provisioning per Content Analytics. La configurazione di Content Analytics esistente viene rimossa e la visualizzazione dati viene fornita con la nuova configurazione."
+>abstract="Hai selezionato una visualizzazione dati per la quale è già stato eseguito il provisioning per Content Analytics. La configurazione di Content Analytics esistente viene rimossa e la visualizzazione dati viene fornita con la nuova configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
@@ -145,7 +145,7 @@ La configurazione richiede la selezione di una [Visualizzazione dati](/help/data
 1. Selezionare **[!UICONTROL Save]** per confermare la visualizzazione dati selezionata. Selezionare **[!UICONTROL Cancel]** per annullare.
 
 
-In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-views.md) è associata a una [connessione](/help/connections/overview.md) di Customer Journey Analytics. Una connessione si basa su una sandbox all’interno della tua organizzazione. Una volta salvata la configurazione, **[!UICONTROL Sandbox]** viene automaticamente compilato con il nome della sandbox, in base alla visualizzazione dati selezionata.
+In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-views.md) è associata a una [connessione](/help/connections/overview.md) di Customer Journey Analytics. Una connessione si basa su una sandbox all’interno della tua organizzazione. Dopo aver salvato la configurazione, nel campo **[!UICONTROL Sandbox]** viene inserito automaticamente il nome della sandbox, in base alla visualizzazione dati selezionata.
 
 
 ### Acquisizione e definizione dell’esperienza {#onboarding-experiences}
@@ -180,7 +180,7 @@ In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="È necessario modificare le impostazioni per la raccolta dati sull’esperienza nell’estensione Adobe Content Analytics nella proprietà Tags associata alla configurazione corrente."
+>abstract="È necessario modificare le impostazioni per la raccolta dati sull’esperienza nell’estensione Adobe Content Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -192,6 +192,14 @@ Considera l’inclusione delle esperienze solo quando è applicabile quanto segu
 
 * Le pagine del sito devono essere riproducibili utilizzando l’URL della pagina.
 * Il contenuto di testo visualizzato da un utente può essere riprodotto utilizzando l’URL della pagina e non dipende da cookie o altri meccanismi di personalizzazione.
+
+>[!IMPORTANT]
+>
+>Implementa il controllo delle versioni di [Content Analytics](manual.md#versioning) per raccogliere le modifiche apportate alle esperienze (pagine) soggette a Content Analytics.
+
+
+
+#### Nuova configurazione {#new-experiences-configuration}
 
 Per includere le esperienze in una configurazione nuova o non implementata:
 
@@ -208,6 +216,9 @@ Per includere le esperienze in una configurazione nuova o non implementata:
    1. Specificare un elenco separato da virgole di **[!UICONTROL Query parameters,]**, ad esempio `outdoors, patio, kitchen`.
 1. Selezionare **[!UICONTROL Remove]** se si desidera rimuovere una combinazione di espressioni regolari di dominio e parametri di query.
 1. Selezionare **[!UICONTROL Add Regex]** se si desidera aggiungere un&#39;altra combinazione di un&#39;espressione regolare e parametri di query.
+
+
+### Configurazione implementata {#implemented-experiences-configuration}
 
 Per modificare esperienze esistenti o includerne di nuove in una configurazione implementata:
 
@@ -304,7 +315,8 @@ In una nuova configurazione, devi definire se desideri utilizzare una proprietà
 
 >[!IMPORTANT]
 >
->Se disponi di un&#39;implementazione di Web SDK esistente che utilizza la [libreria JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) e non l&#39;estensione [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration), devi rimuovere manualmente l&#39;estensione automatica inclusa di Web SDK dalla nuova proprietà Tags.
+>Rimuovere manualmente l&#39;estensione automatica di Web SDK inclusa dalla nuova proprietà Tags nel caso in cui sia presente un&#39;implementazione di Web SDK che utilizza la [libreria JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) anziché l&#39;estensione [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration).
+>
 
 
 
