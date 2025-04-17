@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 1acb6ee56ec3d1c5ae21bb857205a0b9cc66cea0
+source-git-commit: 28a0abd3415a167e6dd3de3b77bd49b78fc003cd
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 50%
+source-wordcount: '857'
+ht-degree: 48%
 
 ---
 
@@ -65,10 +65,15 @@ Content Analytics utilizza i dati di visualizzazione delle immagini web raccolti
 >Se hai concesso la licenza per il componente aggiuntivo Privacy and Security Shield, tieni presente che (tutti i dati generati da) esperienze e risorse, soggette a Content Analytics, non sono coperti dall’etichettatura DULE o dalle chiavi gestite dal cliente.
 >
 
+>[!NOTE]
+>
+>Content Analytics [invia eventi aggiuntivi](config/datacollection.md#content-analytics-event) che probabilmente influiscono su qualsiasi definizione di percentuale di mancato recapito basata sul numero di eventi in una sessione o in una pagina.
+>
 
 >[!MORELIKETHIS]
 >
 >[Reporting di Content Analytics](report/report.md)
 >[Configurare Content Analytics](config/configuration.md)
+>[Calcolo dei mancati recapiti e della frequenza di rimbalzo in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
