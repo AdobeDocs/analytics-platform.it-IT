@@ -4,46 +4,46 @@ title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # Tipo di metrica e attribuzione
 
-È possibile configurare il tipo di metrica e il [modello di attribuzione](#attribution-models) per una metrica in una definizione di metrica calcolata.
+Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-models) per una metrica in una definizione di metrica calcolata.
 
-1. Selezionare ![Impostazione](/help/assets/icons/Setting.svg) nel componente metrica.
-1. Nella finestra di dialogo a comparsa:
+1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) nel componente metrica.
+1. Nella finestra di dialogo popup:
 
    ![Tipo di metrica e attribuzione](assets/cm-type-alloc.png)
 
-   * Specificare **[!UICONTROL Metric type]**:
+   * Specifica il **[!UICONTROL Metric type]**:
 
      | Tipi di metriche | Definizione |
      |---|---|
-     | **[!UICONTROL Standard]** | Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. <p>Ad esempio, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** prende gli ordini per quell&#39;elemento riga specifico e lo divide per il numero di sessioni per quell&#39;elemento riga specifico. |
-     | **[!UICONTROL Grand total]** | Utilizza **[!UICONTROL Grand total]** per il periodo di reporting in ogni elemento di riga. Se una formula è costituita da una singola metrica Totale complessivo, la metrica calcolata visualizza lo stesso numero Totale complessivo su ogni riga. Le metriche del totale complessivo sono utili quando si desidera creare metriche calcolate che si confrontano con i dati totali. <p>Ad esempio, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** mostra la proporzione degli ordini rispetto a tutte le sessioni, non solo le sessioni rispetto all&#39;elemento riga specifico. In questo esempio si specifica **[!UICONTROL Grand Total]** per la metrica ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** nella metrica calcolata, che la trasformerà automaticamente in ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]**. |
+     | **[!UICONTROL Standard]** | Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento di riga. <p>Ad esempio, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** prende gli ordini per quell’elemento di riga specifico e lo divide per il numero di sessioni per quell’elemento di riga specifico. |
+     | **[!UICONTROL Grand total]** | Utilizza **[!UICONTROL Grand total]** per il periodo di reporting in ogni elemento di riga. Se una formula è costituita da una singola metrica Totale complessivo, la metrica calcolata visualizza lo stesso numero Totale complessivo su ogni elemento di riga. Le metriche del totale complessivo sono utili quando desideri creare metriche calcolate che si confrontano con i dati totali. <p>Ad esempio, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** mostra la proporzione degli ordini rispetto a tutte le sessioni, non solo le sessioni rispetto all’elemento di riga specifico. In questo esempio, specifica **[!UICONTROL Grand Total]** per la metrica ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** nella metrica calcolata, che la trasformerà automaticamente in ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]**. |
 
-   * Specificare **[!UICONTROL Attribution]**.
+   * Specifica **[!UICONTROL Attribution]**.
 
-      1. Puoi effettuare le seguenti operazioni:
+      1. Puoi:
 
-         * Disabilita **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
-         * Abilita **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
+         * Disabilitare **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
+         * Abilitare **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
 
-            * Seleziona **[!UICONTROL Model]** dai modelli di attribuzione.
-            * Seleziona **[!UICONTROL Lookback window]**. Se si seleziona **[!UICONTROL Custom Time]**, è possibile definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**. Per ulteriori informazioni, vedere [Intervallo di lookback](#lookback-window)
+            * Seleziona un **[!UICONTROL Model]** dai modelli di attribuzione.
+            * Seleziona una **[!UICONTROL Lookback window]**. Se selezioni **[!UICONTROL Custom Time]**, puoi definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**. Per ulteriori informazioni, consulta [Intervallo di lookback](#lookback-window).
 
-      1. Selezionare **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
+      1. Seleziona **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
 
      Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Edit]** per modificare la selezione.
 
 Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribuzione e di un intervallo di lookback.
 
 
-## Attribuzione {#attribution}
+## Attribution {#attribution}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -184,31 +184,31 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 
 Prendi in considerazione l’esempio seguente:
 
-1. Il 15 settembre, una persona arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
-1. Il 18 settembre, la persona ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
+1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
+1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
 1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
 A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi:
 
-* Utilizzando **il primo contatto** e un intervallo di lookback di **sessione**, l&#39;attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene 100% di credito per l’acquisto di 50 $.
+* Utilizzando il modello **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
 
-* Utilizzando **il primo contatto** e un intervallo di lookback di **persona**, l&#39;attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
+* Utilizzando il modello **primo contatto** e un **intervallo di lookback per visitatore**, l’attribuzione considera tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
 
-* Utilizzando **linear** e un intervallo di lookback di **sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-Utilizzando **linear** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
+* Utilizzando il modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
+Utilizzando il modello **lineare** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
 
-* Utilizzando **a forma di J** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
+* Utilizzando il modello **a forma di J** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
 
    * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
    * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
    * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
 
-* Utilizzando **Decadimento nel tempo** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
+* Utilizzando il modello **Decadimento nel tempo** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
 
-   * Intervallo di zero giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
-   * Intervallo di zero giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
-   * Intervallo di sei giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
-   * Intervallo di nove giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
+   * Intervallo di 0 giorni tra punto di contatto visualizzazione e conversione. `2^(-0/7) = 1`
+   * Intervallo di 0 giorni tra punto di contatto e-mail e conversione. `2^(-0/7) = 1`
+   * Intervallo di 6 giorni tra punto di contatto social e conversione. `2^(-6/7) = 0.552`
+   * Intervallo di 9 giorni tra punto di contatto ricerca a pagamento e conversione. `2^(-9/7) = 0.41`
    * La normalizzazione di questi valori determina quanto segue:
 
       * Visualizzazione: 33,8%, ovvero 16,88 $
@@ -216,12 +216,12 @@ Utilizzando **linear** e un intervallo di lookback di **persona**, il credito è
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
-Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone e quindi arrotondate al numero intero più vicino per il reporting.
+Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono lo 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
 
 
 >[!MORELIKETHIS]
 >
->[Impostazioni del componente di attribuzione](/help/data-views/component-settings/attribution.md)
+>[Impostazioni dei componenti di attribuzione](/help/data-views/component-settings/attribution.md)
 >[Metrica di partecipazione](participation-metric.md)
 >
 

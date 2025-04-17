@@ -5,35 +5,35 @@ feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
 source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
 # Densità di visualizzazione
 
-Regolando la densità di visualizzazione è possibile visualizzare più dati sullo schermo riducendo la spaziatura verticale del pannello sinistro, tabelle a forma libera e tabelle a coorte. Sono disponibili tre opzioni:
+Regolando la densità di visualizzazione puoi visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, delle tabelle a forma libera e delle tabelle a coorte. Sono disponibili tre opzioni:
 
 >[!BEGINTABS]
 
->[!TAB Compatto]
+>[!TAB Compatta]
 
-Questa è la versione più compatta.
+Questa è la versione con maggiore densità di visualizzazione.
 
-![Densità di visualizzazione compatte.](assets/view-density-compact.png)
+![Densità della visualizzazione compatta.](assets/view-density-compact.png)
 
 >[!TAB Comoda]
 
-Questa è la visualizzazione a cui sei abituato in Workspace.
+Impostazione che hai utilizzato finora in Workspace.
 
-![Densità di visualizzazione espanse.](assets/view-density-comfortable.png)
+![Densità della visualizzazione espansa.](assets/view-density-comfortable.png)
 
->[!TAB Espanso]
+>[!TAB Espansa]
 
-Questa è la visualizzazione a cui sei abituato in Workspace.
+Impostazione che hai utilizzato finora in Workspace.
 
-![Densità di visualizzazione espanse.](assets/view-density-expanded.png)
+![Densità della visualizzazione espansa.](assets/view-density-expanded.png)
 
 >[!ENDTABS]
 
@@ -42,4 +42,4 @@ Per impostare la densità di visualizzazione:
 
 1. In Workspace, passa a **[!UICONTROL Projects]** > **[!UICONTROL Project info and settings]**.
 
-1. Selezionare un&#39;opzione **[!UICONTROL View density]** e selezionare **[!UICONTROL Save]**.
+1. Seleziona un’opzione **[!UICONTROL View density]** e quindi **[!UICONTROL Save]**.

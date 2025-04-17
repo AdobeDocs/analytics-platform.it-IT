@@ -2,17 +2,17 @@
 title: Analisi delle tendenze di conversione
 description: Tieni traccia delle modifiche del tasso di conversione nel tempo.
 feature: Adobe Product Analytics, Guided Analysis
-keywords: Product Analytics
+keywords: product analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Analisi [!UICONTROL Conversion trends] {#conversion-trends}
+# [!UICONTROL Conversion trends] analisi {#conversion-trends}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 <!-- markdownlint-enable MD034 -->
 
 
-L&#39;analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione delle tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
+L’analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione con le tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
@@ -32,31 +32,31 @@ L&#39;analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTren
 
 ## Casi d’uso
 
-I casi di utilizzo per questa analisi includono:
+I casi d’uso per questa analisi includono:
 
-* **Tracciare gli sforzi di ottimizzazione**: dopo aver identificato i colli di bottiglia chiave che si desidera migliorare utilizzando l&#39;analisi [Funnel](funnel.md), è possibile utilizzare questa analisi per tenere traccia di come tali ottimizzazioni influiscono sul tasso di conversione nel tempo.
-* **Valutazione test A/B**: valutare l&#39;efficacia dei test A/B o degli esperimenti condotti nel contesto di un funnel. Confrontando i tassi di conversione tra diverse varianti, puoi facilmente determinare quali test forniscono tassi di conversione più elevati, per cui puoi decidere in base ai dati su quali varianti implementare in modo permanente.
-* **Valutazione delle campagne nel tempo**: misura l’efficacia delle campagne di marketing nel tempo. Puoi creare un segmento che si concentra sugli utenti che hanno toccato una determinata campagna e confrontare i loro tassi di conversione con altre campagne. Puoi anche confrontare i tassi di conversione correnti con campagne simili eseguite in passato.
+* **Tracciare le attività di ottimizzazione**: dopo aver identificato i colli di bottiglia chiave che desideri migliorare tramite l’analisi [Funnel](funnel.md), è possibile utilizzare questa analisi per tenere traccia dell’impatto di tali ottimizzazioni sul tasso di conversione nel tempo.
+* **Valutazione test A/B**: valuta l’efficacia dei test A/B o degli esperimenti condotti nel contesto di un funnel. Confrontando i tassi di conversione tra diverse varianti, puoi facilmente determinare quali test forniscono tassi di conversione più elevati, per cui puoi decidere in base ai dati quali varianti implementare in modo permanente.
+* **Valutazione della campagna nel tempo**: misura l’efficacia delle campagne di marketing nel tempo. Puoi creare un segmento incentrato sugli utenti che sono entrati in contatto con una determinata campagna e confrontare i loro tassi di conversione con altre campagne. Puoi anche confrontare i tassi di conversione correnti con campagne simili eseguite in passato.
 
 ## Interfaccia
 
-Per una panoramica dell&#39;interfaccia di analisi guidata, vedere [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questa analisi a [Funnel](funnel.md).
-* **[!UICONTROL Steps]**: i punti di contatto dell&#39;evento di cui si desidera tenere traccia. Ogni barra del grafico rappresenta un passo. Puoi includere fino a dieci passaggi.
-* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
-* **[!UICONTROL Segments]**: i segmenti in cui si desidera confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
+* **[!UICONTROL Steps]**: i punti di contatto dell’evento di cui desideri tenere traccia. Ogni barra del grafico rappresenta un passaggio. Puoi includere fino a dieci passaggi.
+* **[!UICONTROL Counted as]**: il metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users] e [!UICONTROL Sessions].
+* **[!UICONTROL Segments]**: i segmenti che desideri confrontare nel funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
-### Impostazioni grafico
+### Impostazioni del grafico
 
-L&#39;analisi [!UICONTROL Conversion trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L’analisi [!UICONTROL Conversion trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra di esso:
 
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni includono [!UICONTROL Line].
-* **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all&#39;altro. Le opzioni includono il calcolo della conversione da [!UICONTROL First step] o [!UICONTROL Previous step].
+* **[!UICONTROL Chart type]**: il tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Line].
+* **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione da [!UICONTROL First step] o [!UICONTROL Previous step].
 
 >[!NOTE]
 >
@@ -69,10 +69,10 @@ L&#39;analisi [!UICONTROL Conversion trends] offre le seguenti impostazioni del 
 
 ### Intervallo date
 
-L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
+L’intervallo di date desiderato per l’analisi. Questa impostazione è costituita da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi, che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un’analisi con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un’analisi con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
-* **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale desideri visualizzare i dati di tendenza. Le opzioni valide includono: Oraria, Giornaliera, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere una granularità diversa, da cui dipende il numero di punti dati nel grafico e il numero di colonne nella tabella. Nella visualizzazione di un’analisi di tre giorni con granularità giornaliera, ad esempio, saranno presenti solo tre punti dati, mentre in quella di un’analisi di tre giorni con granularità oraria ne saranno presenti 72.
+* **[!UICONTROL Date]**: la data di inizio e di fine. Per comodità, sono disponibili intervalli di date continui predefiniti e intervalli personalizzati salvati in precedenza; in alternativa, puoi utilizzare il selettore del calendario per scegliere un intervallo di date fisso.
 
 <!--
 ## Example

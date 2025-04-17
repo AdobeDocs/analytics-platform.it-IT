@@ -3,16 +3,16 @@ title: Analisi delle tendenze
 description: Misura il coinvolgimento degli utenti nel tempo.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
-keywords: Product Analytics
+keywords: product analytics
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Analisi [!UICONTROL Trends] {#trends}
+# [!UICONTROL Trends] analisi {#trends}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -23,49 +23,49 @@ ht-degree: 2%
 
 <!-- markdownlint-enable MD034 -->
 
-L&#39;analisi ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
+L’analisi delle ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Casi d’uso
 
-I casi di utilizzo per questa analisi includono:
+I casi d’uso per questa analisi includono:
 
-* **Valutazione delle prestazioni del prodotto**: le tendenze consentono di valutare le prestazioni complessive del prodotto in un determinato periodo. Analizzando metriche quali coinvolgimento degli utenti, tassi di adozione o di conversione, puoi verificare se le prestazioni del prodotto stanno migliorando, stagnando o diminuendo.
-* **Adozione di funzionalità**: le tendenze consentono di comprendere in che modo gli utenti adottano nuove funzionalità o aggiornamenti rilasciati. È possibile determinare quali feature sono popolari e quali feature richiedono miglioramenti. Queste informazioni ti consentono di prendere decisioni basate sui dati sulle funzioni per dare priorità alle tue attività di sviluppo.
-* **Comportamento utente**: le tendenze possono fornire informazioni sul comportamento degli utenti nel tempo. Esaminando le azioni specifiche intraprese dagli utenti, è possibile identificare i pattern in cui gli utenti potrebbero abbandonarsi. Puoi combinare le informazioni provenienti da questa analisi con [Funnel](funnel.md) per ottenere ulteriori informazioni sul comportamento.
-* **Test A/B e sperimentazione**: se esegui test A/B all&#39;interno del prodotto, puoi utilizzare Tendenze per determinare quali test hanno più successo nel tempo.
+* **Valutazione delle prestazioni del prodotto**: le tendenze consentono di valutare le prestazioni complessive del prodotto in un determinato periodo. Analizzando metriche quali coinvolgimento degli utenti, tassi di adozione o di conversione, puoi verificare se le prestazioni del prodotto stanno migliorando, ristagnando o peggiorando.
+* **Adozione di funzioni**: le tendenze consentono di comprendere in che modo gli utenti adottano nuove funzioni o nuovi aggiornamenti rilasciati. Puoi determinare quali funzioni sono popolari e quali funzioni richiedono miglioramenti. Queste informazioni ti consentono di prendere decisioni basate sui dati riguardo alle funzioni a cui dare priorità nelle tue attività di sviluppo.
+* **Comportamento degli utenti**: le tendenze possono fornire informazioni sul comportamento degli utenti nel tempo. Esaminando le azioni specifiche intraprese dagli utenti, puoi identificare i pattern di possibile abbandono degli utenti. Puoi combinare le informazioni provenienti da questa analisi con il [Funnel](funnel.md) per ottenere ulteriori informazioni sul comportamento.
+* **Test A/B e sperimentazione**: se esegui dei test A/B all’interno del prodotto, puoi utilizzare le Tendenze per misurare quali test sono più efficaci nel tempo.
 
 ## Interfaccia
 
-Per una panoramica dell&#39;interfaccia di analisi guidata, vedere [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
 La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questa analisi a [Frequenza](frequency.md).
-* **[!UICONTROL Events & Metrics]**: eventi o metriche da misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni della query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
-* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Le opzioni conteggiate come sono applicabili solo alle query evento e vengono rimosse per le query metriche.
-* **[!UICONTROL Segments]**: i segmenti che si desidera misurare. Ogni segmento selezionato raddoppia il numero delle serie del grafico e delle righe della tabella. Puoi includere fino a cinque segmenti.
-* **[!UICONTROL Breakdown property]**: suddivide le serie del grafico e le righe della tabella in base ai valori della proprietà selezionata. È supportata una singola proprietà di suddivisione. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. È possibile nascondere o esporre una riga nel grafico attivando l&#39;icona ![Mostra icona nascondi](../assets/hide-in-chart.png).
+* **[!UICONTROL Events & Metrics]**: gli eventi o le metriche che desideri misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni delle query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
+* **[!UICONTROL Counted as]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Conteggiati come opzioni, sono applicabili solo alle query evento e vengono rimossi per le query metriche.
+* **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie di grafici e delle righe di tabella. Puoi includere fino a cinque segmenti.
+* **[!UICONTROL Breakdown property]**: suddivide le serie dei grafici e le righe di tabella per i valori della proprietà selezionata. È supportata una singola proprietà di raggruppamento. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. Puoi nascondere o esporre una riga nel grafico attivando l’icona ![Show hide icon](../assets/hide-in-chart.png).
 
-### Impostazioni grafico
+### Impostazioni del grafico
 
-L&#39;analisi [!UICONTROL Trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L’analisi [!UICONTROL Trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni disponibili sono Linea, Barre, Barre sovrapposte e Area sovrapposta.
+* **[!UICONTROL Chart type]**: tipo di visualizzazione da usare. Le opzioni includono: linea, barre, barre sovrapposte e superfici sovrapposte.
 
 ### Sovrapposizioni
 
-Aggiungi dati aggiuntivi al grafico. Quando sul grafico sono visibili più serie, le sovrapposizioni vengono visualizzate solo al passaggio del mouse.
+Aggiungi altri dati al grafico. Quando sul grafico sono visibili più serie, le sovrapposizioni vengono visualizzate solo al passaggio del mouse.
 
-* **[!UICONTROL Anomaly detection]**: esegue [il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nell&#39;analisi con tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
-* **[!UICONTROL Trendline overlay]**: aggiunge una linea di tendenza al grafico per meglio rappresentare un pattern più chiaro nei dati.
-   * [!UICONTROL Linear]: crea una linea di regressione retta. Consigliato per dati lineari semplici che aumentano o diminuiscono a una velocità costante. Equazione: `y = a + b * x`
-   * [!UICONTROL Logarithmic]: crea una linea di regressione curva. Consigliato per i dati che aumentano o diminuiscono rapidamente, quindi diventano di più livello. Equazione: `y = a + b * log(x)`
-   * [!UICONTROL Moving average]: crea una linea di tendenza uniforme basata su un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati precedenti (determinati dalla selezione), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono la media mobile di sette giorni o di quattro settimane. Le opzioni disponibili per la media mobile dipendono dall’intervallo e dall’intervallo di date selezionati.
+* **[!UICONTROL Anomaly detection]**: esegue [il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nell’analisi con tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
+* **[!UICONTROL Trendline overlay]**: aggiunge una linea di tendenza al grafico che aiuta a rappresentare un pattern più chiaro nei dati.
+   * [!UICONTROL Linear]: crea una retta di regressione. Consigliata per dati lineari semplici che aumentano o diminuiscono a un tasso costante. Equazione: `y = a + b * x`
+   * [!UICONTROL Logarithmic]: crea una curva di regressione. Consigliata per i dati che aumentano o diminuiscono rapidamente, quindi si livellano. Equazione: `y = a + b * log(x)`
+   * [!UICONTROL Moving average]: crea una linea di tendenza uniforme in base a un insieme di medie. Nota anche come media continua, la media mobile utilizza un numero specifico di punti di dati precedenti (determinati dalla selezione), ne calcola la media e utilizza tale media come punto sulla linea. Gli esempi includono la media mobile di sette giorni o la media mobile di quattro settimane. Le opzioni disponibili per la media mobile dipendono dall’intervallo e dall’intervallo di date selezionati.
 
 ### Confronto temporale
 
@@ -74,10 +74,10 @@ Aggiungi dati aggiuntivi al grafico. Quando sul grafico sono visibili più serie
 
 ### Intervallo date
 
-L’intervallo di date desiderato per l’analisi. Questa impostazione è composta da due componenti:
+L’intervallo di date desiderato per l’analisi. Questa impostazione è costituita da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono Orario, Giornaliero, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere intervalli diversi che influiscono sul numero di coordinate nel grafico e sul numero di colonne nella tabella. Ad esempio, la visualizzazione di un’analisi con granularità giornaliera della durata di tre giorni mostrerebbe solo tre punti di dati, mentre un’analisi con granularità oraria della durata di tre giorni mostrerebbe 72 punti di dati.
-* **[!UICONTROL Date]**: la data di inizio e di fine. Sono disponibili predefiniti per intervalli di date continui e intervalli personalizzati salvati in precedenza, oppure puoi utilizzare il selettore calendario per scegliere un intervallo di date fisso.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono: Oraria, Giornaliera, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere una granularità diversa, da cui dipende il numero di punti dati nel grafico e il numero di colonne nella tabella. Nella visualizzazione di un’analisi di tre giorni con granularità giornaliera, ad esempio, saranno presenti solo tre punti dati, mentre in quella di un’analisi di tre giorni con granularità oraria ne saranno presenti 72.
+* **[!UICONTROL Date]**: la data di inizio e di fine. Per comodità, sono disponibili intervalli di date continui predefiniti e intervalli personalizzati salvati in precedenza; in alternativa, puoi utilizzare il selettore del calendario per scegliere un intervallo di date fisso.
 
 
 <!--

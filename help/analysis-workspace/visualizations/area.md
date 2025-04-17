@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
 source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Superfici e Superfici sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Superfici e Superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) per_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta le visualizzazioni a Superficie e a Superfici sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Superficie e superfici sovrapposte](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/area) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-La visualizzazione dell’area è dotata di un’opzione standard e sovrapposta.
+La visualizzazione a superficie ha un’opzione standard e una sovrapposta.
 
 ## Area {#area}
 
@@ -37,9 +37,9 @@ La visualizzazione dell’area è dotata di un’opzione standard e sovrapposta.
 
 
 
-La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** è simile a un grafico a linee, ma presenta un&#39;area colorata al di sotto della linea. Aggiungi un grafico a superficie quando disponi di più metriche e desideri visualizzare l’area espressa dall’intersezione di due o più metriche.
+La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** è simile a un grafico a linee, ma la superficie al sotto della linea è colorata. Aggiungi un grafico a superficie quando hai diverse metriche e desideri visualizzare la superficie di intersezione di due o più metriche.
 
-![Visualizzazione area con più metriche](assets/area.png)
+![Visualizzazione superficie con più metriche](assets/area.png)
 
 ## Superfici sovrapposte {#area-stacked}
 
@@ -53,17 +53,17 @@ La visualizzazione ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 
 <!-- markdownlint-enable MD034 -->
 
 
-La visualizzazione ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** è simile a un&#39;area, ma ogni serie inizia all&#39;inizio della serie precedente.
+La visualizzazione ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** è simile al grafico a superficie, ma ogni serie inizia al di sopra di quella precedente.
 
-![Superfici sovrapposte che mostrano ogni serie all&#39;inizio della serie precedente.](assets/area-stacked.png)
+![Superfici sovrapposte che mostrano ogni serie al di sopra di quella precedente.](assets/area-stacked.png)
 
-Utilizza l&#39;opzione **[!UICONTROL 100% stacked]** in ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** per trasformare il grafico in una visualizzazione con sovrapposizione 100%.
+Utilizza l’opzione **[!UICONTROL 100% stacked]** in ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** per trasformare il grafico in una visualizzazione a superfici sovrapposte al 100%.
 
-![Superfici sovrapposte che mostrano una visualizzazione con sovrapposizione 100%.](assets/area-stacked100.png)
+![Superfici sovrapposte che mostrano una visualizzazione con sovrapposizione al 100%.](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazzione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

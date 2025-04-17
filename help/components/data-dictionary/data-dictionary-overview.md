@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analyis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati in Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -66,32 +66,32 @@ Di seguito sono riportati alcuni dei modi in cui gli amministratori di Analytics
 
 * Identificare i componenti non ancora approvati.
 
-* Aggiornare le descrizioni dei componenti direttamente in Analysis Workspace. Eventuali aggiornamenti apportati alle descrizioni dei componenti nel dizionario dati vengono rispecchiati nella visualizzazione dati.
+* Aggiornare le descrizioni dei componenti direttamente in Analysis Workspace. Eventuali aggiornamenti apportati alle descrizioni dei componenti nel dizionario dei dati vengono riflessi nella visualizzazione dati.
 
-  Allo stesso modo, qualsiasi aggiornamento apportato alle descrizioni dei componenti nella visualizzazione dati viene riflesso in Analysis Workspace.
+  Allo stesso modo, qualsiasi aggiornamento apportato alle descrizioni dei componenti nella visualizzazione dati si riflette in Analysis Workspace.
 
-  Per ulteriori informazioni sull&#39;aggiunta di descrizioni di componenti in Analysis Workspace o in una visualizzazione dati, vedere [Aggiungere descrizioni di componenti](/help/components/add-component-descriptions.md).
+  Per ulteriori informazioni sull’aggiunta di descrizioni dei componenti in Analysis Workspace o in una suite di rapporti, consulta [Aggiungere descrizioni dei componenti](/help/components/add-component-descriptions.md).
 
 ## Accedere al dizionario dei dati
 
 In Analysis Workspace è possibile accedere al dizionario dei dati in uno dei seguenti modi:
 
-![Icona dizionario dati nel pannello sinistro](assets/data-dictionary-access.png)
+![Icona Dizionario dei dati nel pannello a sinistra](assets/data-dictionary-access.png)
 
 * Da ![Segnalibro](/help/assets/icons/Bookmark.svg) nel pannello del pulsante.
 
 
 
-* Da ![Segnalibro](/help/assets/icons/Bookmark.svg) nella finestra a comparsa Info di un componente.
+* Da ![Segnalibro](/help/assets/icons/Bookmark.svg) nella finestra a comparsa delle informazioni di un componente.
 
 
 Per informazioni dettagliate sulle varie opzioni disponibili nel dizionario dei dati, vedi [Visualizzare le informazioni sui componenti nel dizionario dei dati](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Aggiornare e curare il dizionario dei dati
 
-Gli amministratori di Customer Journey Analytics sono responsabili della gestione di un dizionario dati integro per la propria organizzazione, come descritto in [Monitorare l&#39;integrità del dizionario dati](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Gli amministratori di Customer Journey Analytics sono responsabili della manutenzione di un dizionario dei dati integro per la propria organizzazione, come descritto in [Monitorare l’integrità del dizionario dei dati](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Come parte di questo processo, gli amministratori di Customer Journey Analytics possono modificare le informazioni su ciascun componente nel dizionario dati, come descritto in [Modifica le voci dei componenti nel dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+Come parte di questo processo, gli amministratori di Customer Journey Analytics possono modificare le informazioni su ciascun componente nel dizionario dei dati, come descritto in [Modificare le voci dei componenti nel dizionario dei dati](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Spostare, ridurre a icona o chiudere il dizionario dei dati
 

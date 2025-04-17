@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"
 >title="Aggiungere note"
->abstract="Aggiungi note sulla versione del progetto che viene salvata. Le note verranno archiviate con la versione e saranno accessibili dal menu **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**."
+>abstract="Aggiungi note sulla versione del progetto che viene salvata. Queste note verranno archiviate con la versione e saranno accessibili dal menu **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,34 +27,34 @@ I progetti in Analysis Workspace vengono salvati automaticamente ogni 2 minuti. 
 
 ## Salva
 
-Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspace, seleziona **[!UICONTROL Project]**, quindi scegli una delle seguenti opzioni:
+Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspace, seleziona **[!UICONTROL Project]**, quindi scegli tra le seguenti opzioni:
 
 * **[!UICONTROL Save]**
 
-  Salva le modifiche apportate al progetto. Se il progetto è condiviso, anche i destinatari del progetto visualizzano le modifiche.
+  Salva le modifiche apportate al progetto. Se il progetto è condiviso, anche i destinatari del progetto visualizzeranno le modifiche.
 
   Quando salvi il progetto per la prima volta, viene visualizzata una finestra di dialogo **[!UICONTROL Save]**.
 
   ![Salva progetto](assets/save-project.png)
 
-   1. Specifica quanto segue:
+   1. Specifica:
 
       * **[!UICONTROL Name]** (obbligatorio). nome del progetto.
       * **[!UICONTROL Description]**. Descrizione del progetto.
-      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
-      * **[!UICONTROL Version notes]**. Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
+      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Ricerca tag*] o aggiungine di nuovi utilizzando **[!UICONTROL ENTER]**.
+      * **[!UICONTROL Folder]**. Seleziona una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+      * **[!UICONTROL Version notes]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
 
    1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
 
-  Quando si salva un progetto, viene salvata una versione del progetto che viene memorizzata per 90 giorni.
+  Il salvataggio del progetto in realtà salva una versione del progetto che viene memorizzata per 90 giorni.
 
-  Se si salva un progetto condiviso, viene visualizzata una finestra di dialogo di avviso **[!UICONTROL Save changes to shared project]** in cui viene richiesto di confermare.
+  Se salvi un progetto condiviso, una finestra di dialogo di avviso **[!UICONTROL Save changes to shared project]** ti chiede di confermare.
 
   ![Salva progetto condiviso](assets/save-project-shared.png)
 
-   * Selezionare **[!UICONTROL Save]** per salvare il progetto.
-   * Selezionare **[!UICONTROL Save as]** per salvare il progetto come progetto duplicato con un nuovo nome.
+   * Seleziona **[!UICONTROL Save]** per salvare il progetto.
+   * Seleziona **[!UICONTROL Save as]** per salvare il progetto come duplicato con un nuovo nome.
 
 
 * **[!UICONTROL Save with notes]**
@@ -63,28 +63,28 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   Quando salvi il progetto, aggiungi note sulle modifiche apportate al progetto. Nella finestra di dialogo Salva note sulla versione:
 
-   1. Immetti **[!UICONTROL Version notes]** nell&#39;area di testo **[!UICONTROL Add notes]**.
+   1. Immetti le **[!UICONTROL Version notes]** nell’area di testo **[!UICONTROL Add notes]**.
    1. Seleziona **[!UICONTROL Save]**.
 
   Le note sono archiviate con la versione del progetto e sono disponibili quando [apri una versione precedente](open-projects.md#open-previous-version) del progetto. Una versione salvata con le note viene automaticamente memorizzata per un anno.
 
 * **[!UICONTROL Save As]**
 
-  ![Salva progetto con nome](assets/save-project-as.png)
+  ![Salva progetto come](assets/save-project-as.png)
 
   Crea un duplicato del progetto con un nuovo nome. Viene visualizzata la finestra di dialogo Salva con nome.
 
-   1. Specifica quanto segue:
+   1. Specifica:
 
       * **[!UICONTROL Name]** (obbligatorio). nome del progetto.
       * **[!UICONTROL Description]**. Descrizione del progetto.
-      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specificate una cartella, il progetto viene salvato nella cartella corrente da cui avete creato un nuovo progetto.
-      * **[!UICONTROL Version notes]**. Aggiungi note sulla versione nell&#39;area di testo *Aggiungi note*.
+      * **[!UICONTROL Tags]**. Cerca i tag nel campo [!UICONTROL *Ricerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL ENTER]**.
+      * **[!UICONTROL Folder]**. Seleziona una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+      * **[!UICONTROL Version notes]**. Aggiungi note sulla versione nell’area di testo *Aggiungi note*.
 
    1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
 
-  Puoi salvare il progetto in un’altra cartella. Il progetto originale non subisce modifiche.
+  Puoi salvare il progetto in un’altra cartella. Il progetto originale non verrà interessato.
 
 
 <!-- Cannot find this option in CJA 
@@ -96,20 +96,20 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
 >[!IMPORTANT]
 >
->Anche se i nuovi progetti vengono salvati automaticamente, è necessario salvare ogni nuovo progetto manualmente la **prima** volta.
+>Anche se i nuovi progetti vengono salvati automaticamente, è necessario salvare manualmente ogni nuovo progetto la **prima** volta.
 >
 
-Tutti i progetti in Analysis Workspace vengono salvati automaticamente ogni 2 minuti nel computer locale. Questo salvataggio automatico include i nuovi progetti creati che non sono ancora stati salvati manualmente.
+Tutti i progetti in Analysis Workspace vengono salvati automaticamente ogni 2 minuti nel computer locale. Il salvataggio automatico include i progetti appena creati che non sono ancora stati salvati manualmente.
 
 ### Nuovi progetti
 
 Analysis Workspace richiede di salvare manualmente nuovi progetti quando si passa a un altro progetto, si chiude la scheda del browser e così via.
 
-Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, viene salvata una versione di ripristino del progetto nella pagina di destinazione di Analysis Workspace in una cartella denominata **[!UICONTROL Recovered Projects (Last 7 Days)]** (Ultimi 7 giorni). Ripristinare il progetto recuperato e salvarlo manualmente nella posizione desiderata.
+Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, viene salvata una versione di ripristino del progetto nella pagina di destinazione di Analysis Workspace in una cartella denominata **[!UICONTROL Recovered Projects (Last 7 Days)]** (Ultimi 7 giorni). Rripristina il progetto recuperato e salvalo manualmente nella posizione desiderata.
 
 Per ripristinare un progetto recuperato:
 
-1. Vai alla cartella **[!UICONTROL Recovered Projects (Last 7 Days)]** nella pagina di destinazione di Analysis Workspace.
+1. Passa alla cartella **[!UICONTROL Recovered Projects (Last 7 Days)]** nella pagina di destinazione di Analysis Workspace.
 
 <!-- 
      ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
@@ -120,35 +120,35 @@ Per ripristinare un progetto recuperato:
 
 ### Progetti esistenti
 
-Se per qualsiasi motivo lasci un progetto con modifiche che non sono ancora state salvate automaticamente, Analysis Workspace ti chiederà di salvare le modifiche o ti invierà un messaggio di avviso.
+Se per qualsiasi motivo esci da un progetto con modifiche non ancora salvate automaticamente, Analysis Workspace richiede di salvare le modifiche o mostra un messaggio di avviso.
 
 
 Alcuni scenari comuni:
 
 #### Aprire un altro progetto
 
-Se apri un altro progetto mentre lavori su un progetto che contiene modifiche non ancora salvate automaticamente, Analysis Workspace ti chiede di salvare il progetto corrente.
+Se apri un altro progetto mentre lavori a un progetto contenente modifiche non ancora salvate automaticamente, Analysis Workspace richiede di salvare il progetto in corso.
 
 Sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Save]**: sostituisce la copia locale salvata automaticamente più recente del progetto con le modifiche più recenti.
+* **[!UICONTROL Save]**: sostituisce la copia locale più recente del progetto salvata automaticamente con le ultime modifiche.
 * **[!UICONTROL Discard Changes]**: ignora le modifiche più recenti. Il progetto conserva la copia locale salvata automaticamente più recente.
-* **[!UICONTROL Cancel]**: annullare l&#39;azione per aprire un altro progetto e mantenere aperto il progetto esistente.
+* **[!UICONTROL Cancel]**: annulla l’azione per aprire un altro progetto e mantenere aperto il progetto esistente.
 
 <!-- ![Click Save to save changes to a project.](assets/existing-save.png) -->
 
 #### Uscire o chiudere una scheda
 
-Se esci dalla pagina o chiudi la scheda del browser mentre visualizzi un progetto con modifiche non ancora salvate automaticamente, il browser ti avvisa che le modifiche non salvate andranno perse. Puoi scegliere di uscire o annullare. Il modo in cui il browser avvisa l’utente dipende dal browser utilizzato.
+In caso di uscita o chiusura della scheda del browser durante la visualizzazione di un progetto con modifiche non ancora salvate automaticamente, il browser avverte che le modifiche non salvate andranno perse. È possibile scegliere di uscire o annullare. Il modo in cui il browser avvisa l’utente dipende dal browser utilizzato.
 
 
 ### Arresto anomalo del browser o timeout della sessione
 
-Se il browser si blocca o se la sessione scade, al successivo accesso ad Analysis Workspace ti viene richiesto di ripristinare eventuali modifiche al progetto che non sono ancora state salvate automaticamente.
+Se il browser subisce un arresto anomalo o se la sessione si interrompe, al prossimo accesso ad Analysis Workspace ti verrà richiesto di ripristinare eventuali modifiche al progetto che non sono ancora state salvate automaticamente.
 
-* Selezionare **[!UICONTROL Yes]** per ripristinare il progetto dalla copia salvata automaticamente più recente.
+* Seleziona **[!UICONTROL Yes]** per ripristinare il progetto dalla copia salvata automaticamente più recente.
 
-* Selezionare **[!UICONTROL No]** per eliminare la copia salvata automaticamente e aprire l&#39;ultima versione del progetto salvata dall&#39;utente.
+* Seleziona **[!UICONTROL No]** per eliminare la copia salvata automaticamente e aprire l’ultima versione del progetto salvata dall’utente.
 
 <!--![The Project Recovery dialog box.](assets/project-recovery.png)-->
 

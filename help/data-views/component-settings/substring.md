@@ -1,18 +1,18 @@
 ---
-title: Impostazioni del componente Substring (Sottostringa)
+title: Impostazioni dei componenti della Sottostringa
 description: Utilizza un sottoinsieme di una stringa come elementi dimensionali.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Impostazioni del componente Substring (Sottostringa) {#substring-component-settings}
+# Impostazioni dei componenti della Sottostringa {#substring-component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -32,7 +32,7 @@ Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire pi�
 
 ## From the Left/Right (Da sinistra/destra)
 
-Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. I metodi **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** forniscono due elenchi a discesa: **[!UICONTROL From]** (da dove inizia l&#39;output) e **[!UICONTROL To]** (dove termina l&#39;output).
+Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. I metodi **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** forniscono due elenchi a discesa: **[!UICONTROL From]** (da dove inizia l’output) e **[!UICONTROL To]** (dove termina l’output).
 
 * **[!UICONTROL String Start]**: inizio della stringa.
 * **[!UICONTROL String End]**: fine della stringa.
@@ -41,7 +41,7 @@ Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o a
    * **[!UICONTROL Match]**: stringa da trovare (corrispondenza). Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
    * **[!UICONTROL Index]**: il criterio **[!UICONTROL Match]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
    * **[!UICONTROL Include String]**: casella di controllo che, se abilitata, include nell’output la stringa **[!UICONTROL Match]**.
-* **[!UICONTROL Length]**: numero intero che specifica quanti caratteri includere dopo la posizione di inizio dell’output. Disponibile solo nell&#39;elenco a discesa **[!UICONTROL To]**.
+* **[!UICONTROL Length]**: numero intero che specifica quanti caratteri includere dopo la posizione di inizio dell’output. Disponibile solo sotto l’elenco a discesa **[!UICONTROL To]**.
 
 ## Delimiter (Delimitatore)
 
@@ -66,7 +66,7 @@ Da utilizzare con campi contenenti URL. Per l’URL di esempio `https://example.
 
 Se l’input non è un URL valido o se il componente URL desiderato non è presente, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
 
-## Trim (Taglia)
+## Taglia
 
 Consente di rimuovere dalla stringa spazi vuoti o caratteri speciali.
 
@@ -81,7 +81,7 @@ Applica espressioni regolari a una dimensione per recuperare il valore desiderat
 * **[!UICONTROL Output format]**: campo facoltativo che consente di aggiungere del testo o riordinare l’output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
 * **[!UICONTROL Case sensitive]**: casella di controllo che, se abilitata, applica all’espressione regolare la distinzione tra maiuscole e minuscole.
 
-Il Customer Journey Analytics utilizza un sottoinsieme della sintassi regex Perl. Se l’input non corrisponde all’espressione regolare e **[!UICONTROL Output format]** è vuoto, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md). Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l’input non corrisponde all’espressione regolare e **[!UICONTROL Output format]** è vuoto, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md). Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |
