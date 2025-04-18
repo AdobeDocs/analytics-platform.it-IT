@@ -1,15 +1,15 @@
 ---
 title: Aggiungere eventi di attrito della metrica quantistica a Customer Journey Analytics
-description: Aggiungi profondità agli approfondimenti in Customer Journey Analytics utilizzando gli eventi di attrito raccolti in Quantum Metric.
+description: Aggiungi gli eventi di attrito raccolti da Quantum Metric ai dati comportamentali di Customer Journey Analytics per aggiungere profondità agli approfondimenti in CJA.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,20 @@ Questo caso d’uso ha due requisiti:
 
 ## Passaggio 1: acquisire eventi di attrito utilizzando l’estensione tag Quantum Metric
 
-Il team CSM della metrica quantistica può aiutarti a determinare gli elementi dello schema adatti da aggiungere e a modificare l’implementazione per raccogliere i dati desiderati da utilizzare in Customer Journey Analytics. Contatta il tuo Customer Success Manager Quantum Metric per ulteriori informazioni.
+Consulta [Estensione della metrica quantistica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) nella guida Destinazioni di Adobe Experience Platform per istruzioni su come impostare i tag per includere i dati della metrica quantistica. L’utilizzo di questa estensione passa più righe in un set di dati esistente.
 
-In ultima analisi, è necessario iniziare a tracciare il nome dell’evento di attrito in un campo.
+Utilizza i tag nella raccolta dati di Adobe Experience Platform per impostare manualmente il nome dell’evento di attrito in modo che possa essere incluso nell’oggetto XDM e analizzato. Un modo per farlo è nel codice personalizzato della regola:
 
-## Passaggio 2: confermare i campi del set di dati inclusi
+```js
+_satellite.setVar('qm_error_name','error rage click');
+return true;
+```
 
-Verifica che i set di dati nella connessione abbiano ora l’ID sessione della metrica quantistica nel set di dati desiderato.
+Quindi, aggiungi l’elemento dati impostato dinamicamente all’oggetto XDM:
 
-## Passaggio 3: aggiungere una o più dimensioni e metriche alla visualizzazione dati in Customer Journey Analytics
+![Schermata del nome dell&#39;errore della metrica quantistica](assets/error-name.png)
+
+## Passaggio 2: aggiungi una o più dimensioni e metriche alla visualizzazione dati in Customer Journey Analytics
 
 Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come dimensione disponibile in Customer Journey Analytics.
 
@@ -45,8 +50,9 @@ Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come d
 1. Individuate l&#39;elenco del campo evento di attrito della metrica Quantum a sinistra e trascinatelo nell&#39;area delle metriche al centro.
 1. Nel riquadro di destra, impostare l&#39;impostazione [Includi/Escludi valori](/help/data-views/component-settings/include-exclude-values.md) sugli eventi di attrito desiderati di cui tenere traccia. Puoi aggiungere più eventi di attrito alla stessa metrica per combinarli. Puoi anche trascinare un’altra copia del campo degli eventi di attrito nell’area delle metriche per tracciare altri eventi di attrito come metrica separata.
 1. Dopo aver creato tutte le dimensioni e le metriche desiderate, fare clic su **[!UICONTROL Save]**.
+1. Per un elenco completo degli eventi di errore, consulta la documentazione sulle metriche quantitative. Se hai altre domande, contatta il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o invia una richiesta tramite il [portale delle richieste dei clienti per la metrica quantistica](https://community.quantummetric.com/s/public-support-page).
 
-## Passaggio 4: utilizzare la dimensione e le metriche con il resto dei dati in Analysis Workspace
+## Passaggio 3: utilizzare la dimensione e le metriche con il resto dei dati in Analysis Workspace
 
 Con i dati evento di attrito della metrica quantistica raccolti insieme al resto dei dati del visitatore, puoi utilizzarli esattamente come faresti con qualsiasi altra dimensione o metrica in Customer Journey Analytics.
 

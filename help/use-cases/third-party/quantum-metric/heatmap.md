@@ -7,26 +7,24 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
+source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
 
 # Utilizzare le mappe di calore della metrica quantistica con Customer Journey Analytics
 
-Il collegamento della mappatura di calore delle metriche quantistiche ai dati di CJA consente di comprendere meglio il coinvolgimento a livello di pagina e di ottimizzare le pagine in base al comportamento dei consumatori. Workspace può essere utilizzato per comprendere i flussi di utenti e vedere quali percorsi i consumatori seguono da una pagina all’altra. Quindi puoi fare clic su URL pagina con collegamento ipertestuale per creare una mappa visiva del modo in cui gli utenti interagiscono con il contenuto.  Collegando Quantum Metric Heatmapping a CJA, ora puoi associare le interazioni a livello di pagina ai risultati di business, portando l’analisi al livello successivo.
+Il collegamento della mappatura di calore delle metriche quantistiche ai dati di CJA consente di comprendere meglio il coinvolgimento a livello di pagina e di ottimizzare le pagine in base al comportamento dei consumatori. Workspace può essere utilizzato per comprendere i flussi di utenti e vedere quali percorsi i consumatori seguono da una pagina all’altra. Quindi puoi fare clic su URL pagina con collegamento ipertestuale per creare una mappa visiva del modo in cui gli utenti interagiscono con il contenuto. Collegando Quantum Metric Heatmapping a CJA, ora puoi associare le interazioni a livello di pagina ai risultati di business, portando l’analisi al livello successivo.
 
 La tabella restituisce tutte le sessioni in quel segmento e puoi fare clic su una di esse per approfondire l’analisi in QM.  Per ulteriori informazioni sulla ripetizione della sessione della metrica quantistica, consulta https://www.quantummetric.com/platform/session-replay
 
 ## Prerequisiti
 
-Questo caso d’uso richiede la raccolta dell’ID di sessione della metrica quantistica insieme al resto dell’implementazione. Per informazioni su come modificare l&#39;implementazione, consulta [Raccolta degli ID di sessione della metrica quantistica in Customer Journey Analytics](collect-session-id.md).
-
 Devi avere diritto al pacchetto **UX Ops** della metrica Quantum per accedere alle funzionalità della mappa di calore della metrica Quantum.
 
-## Crea una tabella a forma libera in Workspace e configurala in modo che i valori ID sessione siano collegati direttamente alla metrica quantistica.
+## Passaggio 1: crea una tabella a forma libera in Workspace e configurala in modo che i valori ID sessione siano collegati direttamente alla metrica quantistica.
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com).
 1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Workspace]** nel menu principale.
@@ -42,12 +40,8 @@ Devi avere diritto al pacchetto **UX Ops** della metrica Quantum per accedere al
    ```
 
 1. Fai clic su **[!UICONTROL Create]**.
+1. Verifica uno dei collegamenti per vedere se si apre nell’URL con l’estensione Quantum Metric visibile. Questi collegamenti si aprono in una nuova scheda in modo che il progetto Workspace rimanga aperto.
 
-1. Fai clic su Crea, quindi verifica uno dei collegamenti per vedere se si apre nell’URL con l’estensione QM aperta. Nota: si aprirà in una scheda separata in modo da non perdere il lavoro.
+## Passaggio 2: visualizzare le mappe di calore facendo clic sui collegamenti in Customer Journey Analytics
 
-
-## Visualizzazione delle mappe di calore facendo clic sui collegamenti all’interno di Customer Journey Analytics
-
-Dopo aver trovato una pagina per la quale desideri esplorare la mappatura termica, puoi applicarla al pannello in cui si trova l’URL. La tabella restituisce un URL che consente di esplorare le mappe di calore per la pagina in questione, la profondità di scorrimento e le zone chiave per l’interazione.  Ulteriori informazioni sulle mappe di calore della metrica quantistica sono disponibili all&#39;indirizzo [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps).  Per ulteriori risorse, contatta il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o invia una richiesta tramite il [portale delle richieste dei clienti](https://community.quantummetric.com/s/public-support-page) per la metrica quantistica.
-
-
+Dopo aver trovato una pagina da esplorare con la mappatura di calore, puoi applicarla al pannello desiderato. La tabella restituisce un URL che consente di esplorare le mappe di calore, la profondità di scorrimento e le zone chiave per l’interazione utilizzando la metrica quantistica. Per ulteriori informazioni, consulta [Panoramica del prodotto della mappa di calore della metrica quantistica](https://www.quantummetric.com/platform/interaction-heatmaps). Puoi anche contattare il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o inviare una richiesta tramite il [portale delle richieste dei clienti per la metrica quantistica](https://community.quantummetric.com/s/public-support-page).
