@@ -4,10 +4,10 @@ description: Scopri gli ambienti di reporting virtuali e gli ambienti sandbox.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -48,14 +48,14 @@ Per ulteriori informazioni, consulta [Panoramica delle visualizzazioni dati](htt
 
 Una visualizzazione dati:
 
-* può essere basata sui filtri di Customer Journey Analytics;
+* Può essere basata sui segmenti di Customer Journey Analytics.
 * può essere applicata sia ai dati storici che a quelli nuovi in modo non distruttivo;
 * consente di creare una o più visualizzazioni virtuali sopra una connessione Customer Journey Analytics per l’utilizzo da parte di diversi team aziendali;
 * può essere utilizzata per curare diversi tipi di dati per diversi utenti in Customer Journey Analytics e per controllarne l’accesso;
 * fornisce potenti opzioni non distruttive per trasformare e migliorare i dati in entrata in Customer Journey Analytics tramite una connessione CJA;
 * si basa sulle funzionalità di elaborazione al momento dell’elaborazione del report di Customer Journey Analytics;
 * consente agli utenti di creare una definizione personalizzata di “sessione”;
-* viene applicata in fase di esecuzione del report, in modo simile a una valutazione del filtro, ovvero _dopo_ che il connettore di origine (Adobe Analytics o altro) ha scritto dei dati in un set di dati nel data lake di Adobe Experience Platform e _dopo_ che i dati sono stati acquisiti in Customer Journey Analytics tramite una connessione CJA;
+* viene applicata in fase di esecuzione del report, in modo simile alla valutazione di un segmento; ovvero _dopo_ che il connettore di origine (Adobe Analytics o altro) ha scritto dei dati in un set di dati nel data lake di Adobe Experience Platform e _dopo_ che i dati sono stati acquisiti in Customer Journey Analytics tramite una connessione CJA;
 * consente un numero illimitato di variabili, anche se la cura può limitare quali variabili sono presentate agli utenti;
 * consente la denominazione personalizzata dei contenitori Evento, Sessione e Persona;
 * supporta le opzioni di calendario personalizzato.
@@ -70,7 +70,7 @@ Per ulteriori informazioni, consulta [Panoramica sulle sandbox](https://experien
 
 Una sandbox di Adobe Experience Platform:
 
-* fornisce un mezzo per suddividere una singola istanza Adobe Experience Platform in ambienti virtuali separati (sviluppo, test, fase, produzione, ecc.), utili per lo sviluppo e l’aggiornamento delle applicazioni di esperienza digitale;
+* Fornisce un mezzo per suddividere una singola istanza Adobe Experience Platform in ambienti virtuali separati (sviluppo, test, staging, produzione, ecc.) per facilitare lo sviluppo e l’evoluzione delle applicazioni di esperienza digitale.
 * può essere considerata un contenitore che racchiude tutti i dati e le applicazioni di un determinato ambiente.
 
 Una sandbox di Adobe Experience Platform non:

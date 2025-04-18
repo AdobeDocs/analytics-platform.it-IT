@@ -4,10 +4,10 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta la ![pagina di destinazione di [VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) in Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pagina di destinazione in Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -53,7 +53,7 @@ La scheda **[!UICONTROL Learning]** contiene tutorial, presentazioni video prati
 
 >[!NOTE]
 >
->Molte delle seguenti impostazioni vengono mantenute durante la sessione e tra sessioni diverse. Ad esempio, la scheda selezionata, i filtri selezionati, le colonne selezionate e la direzione di ordinamento delle colonne. I risultati della ricerca non vengono mantenuti.
+>Molte delle seguenti impostazioni vengono mantenute durante la sessione e tra sessioni diverse. Ad esempio, la scheda selezionata, i segmenti selezionati, le colonne selezionate e la direzione di ordinamento delle colonne. I risultati della ricerca non vengono mantenuti.
 
 Per ulteriori informazioni, consulta [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
 

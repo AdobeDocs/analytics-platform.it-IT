@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ Per creare una visualizzazione dati:
 
    Per informazioni dettagliate sulle opzioni disponibili quando si aggiungono componenti a una visualizzazione dati, consulta [Componenti](/help/data-views/create-dataview.md#components) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
-1. Seleziona la scheda [!UICONTROL **Impostazioni**]. Da qui puoi configurare i filtri da applicare all’intera visualizzazione dati e configurare il timeout e le metriche della sessione.
+1. Seleziona la scheda [!UICONTROL **Impostazioni**]. Da qui, puoi configurare i segmenti da applicare all’intera visualizzazione dati e configurare il timeout e le metriche della sessione.
 
    Per informazioni dettagliate sulle opzioni disponibili durante la configurazione delle impostazioni per una visualizzazione dati, consulta [Impostazioni](/help/data-views/create-dataview.md#settings) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
