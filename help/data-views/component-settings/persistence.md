@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="Persistenza"
->abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei filtri nel reporting. Per ulteriori informazioni, consulta [impostazioni di allocazione](/help/data-views/component-settings/persistence.md#allocation-settings), [impostazioni di scadenza](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensione vincolante](/help/data-views/component-settings/persistence.md#binding-dimension) e [metriche vincolanti](/help/data-views/component-settings/persistence.md#binding-metric)."
+>abstract="Configura il modello di allocazione predefinito applicato a una dimensione. L’allocazione si applica prima dei segmenti nel reporting. Per ulteriori informazioni, consulta [impostazioni di allocazione](/help/data-views/component-settings/persistence.md#allocation-settings), [impostazioni di scadenza](/help/data-views/component-settings/persistence.md#expiration-settings), [dimensione vincolante](/help/data-views/component-settings/persistence.md#binding-dimension) e [metriche vincolanti](/help/data-views/component-settings/persistence.md#binding-metric)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,7 +40,7 @@ ht-degree: 79%
 
 * **Scadenza** consente di determinare per quanto tempo un elemento dimensione persiste oltre l’evento su cui è impostato.
 
-[!UICONTROL Persistence] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di filtri o di altre operazioni di analisi.
+[!UICONTROL Persistence] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di segmentazioni o di altre operazioni di analisi.
 
 | Impostazione | Descrizione |
 | --- | --- |
