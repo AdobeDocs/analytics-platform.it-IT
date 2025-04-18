@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 84%
@@ -199,7 +199,7 @@ ht-degree: 84%
          + [Panoramica](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Applicazione di filtri](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Applicare i segmenti](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
          + [Panoramica](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurare](../analysis-workspace/visualizations/c-flow/create-flow.md)
@@ -320,19 +320,19 @@ ht-degree: 84%
       + [Suddividere le dimensioni in base al tempo](../components/dimensions/time-parting-dimensions.md)
       + [Dimensioni a cardinalità elevata](../components/dimensions/high-cardinality.md)
    + [Metriche](../components/apply-create-metrics.md)
-   + Filtri {#cja-filters}
+   + Segmenti {#cja-segments}
       + [Panoramica](../components/filters/filters-overview.md)
-      + [Creare filtri](../components/filters/create-filters.md)
-      + [Generare i filtri](../components/filters/filter-builder.md)
-      + [Filtri rapidi](../components/filters/quick-filters.md)
-      + [Filtri sequenziali](../components/filters/seg-sequential-build.md)
-      + [Condividere i filtri](../components/filters/filters-share.md)
-      + [Assegnare tag ai filtri](../components/filters/filters-tag.md)
-      + [Filtrare l’elenco dei filtri](../components/filters/filters-filter.md)
-      + [Contrassegnare i filtri come preferiti](../components/filters/filters-favorite.md)
-      + [Approvare i filtri](../components/filters/filters-approve.md)
-      + [Copiare filtri](../components/filters/filters-copy.md)
-      + [Gestire i filtri](../components/filters/manage-filters.md)
+      + [Creare un segmento](../components/filters/create-filters.md)
+      + [Generare segmenti](../components/filters/filter-builder.md)
+      + [Segmenti rapidi](../components/filters/quick-filters.md)
+      + [Segmenti sequenziali](../components/filters/seg-sequential-build.md)
+      + [Condividere segmenti](../components/filters/filters-share.md)
+      + [Assegnare tag ai segmenti](../components/filters/filters-tag.md)
+      + [Filtrare l’elenco dei segmenti](../components/filters/filters-filter.md)
+      + [Contrassegnare i segmenti come preferiti](../components/filters/filters-favorite.md)
+      + [Approvare segmenti](../components/filters/filters-approve.md)
+      + [Copiare segmenti](../components/filters/filters-copy.md)
+      + [Gestire segmenti](../components/filters/manage-filters.md)
       + [Operatori](../components/filters/operators.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica](../components/calc-metrics/calc-metr-overview.md)
@@ -342,8 +342,8 @@ ht-degree: 84%
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [Creare una metrica di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
-         + [Metriche filtrate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
-         + [Sovrapporre e sostituire filtri](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [Metriche segmentate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [Sovrapponi e sostituisci segmenti](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Filtrare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-filter.md)
          + [Contrassegnare le metriche calcolate come preferite](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Copiare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-copy.md)

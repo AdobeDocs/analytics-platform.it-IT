@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
-workflow-type: ht
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 * Puoi applicare la formattazione a una metrica, ad esempio per visualizzare valori decimali, ora, percentuale o valuta, specificare quante cifre decimali includere, mostrare in verde o in rosso una tendenza in crescita e specificare opzioni di valuta.
 
-* Puoi creare una metrica o dimensione in base a solo alcuni valori nel campo schema. Ad esempio, se desideri una metrica di Errori, puoi creare una metrica dal campo del nome della pagina e includere solo le pagine che contengono la parola `error`. La metrica Errori creata in questo modo supporta i filtri, può essere inserita nelle metriche calcolate e funziona con attribuzione, flusso, abbandono, ecc.
+* Puoi creare una metrica o dimensione in base a solo alcuni valori nel campo schema. Ad esempio, se desideri una metrica di Errori, puoi creare una metrica dal campo del nome della pagina e includere solo le pagine che contengono la parola `error`. La metrica Errori creata in questo modo supporta i segmenti, può essere inserita nelle metriche calcolate e funziona con attribuzione, flusso, abbandono, ecc.
 
 * Per le dimensioni, puoi ncludere o escludere automaticamente solo determinati valori all’interno di un campo specifico. Ad esempio, se uno sviluppatore ha inviato un valore errato di `dev mistake` in un campo, puoi facilmente escluderlo dai rapporti utilizzando una regola di esclusione. La dimensione si comporta come se il valore errato non fosse mai esistito nei dati.
 

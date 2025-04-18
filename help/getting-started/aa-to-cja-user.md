@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1427'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Molte delle funzioni di reporting che conosci restano invariate.
 
 * Puoi continuare a usare la potenza di [Analysis Workspace](/help/analysis-workspace/home.md) per analizzare i dati. Workspace funziona ancora come nell’ambiente Adobe Analytics tradizionale.
 * È disponibile la stessa versione delle [dashboard di Adobe Analytics](/help/mobile-app/home.md), che funziona in modo simile in Customer Journey Analytics e Adobe Analytics.
-* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione del Report Builder, non era possibile utilizzarlo in Mac a meno che non venisse eseguito su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
+* [Report Builder](/help/report-builder/report-buider-overview.md) ha una nuova interfaccia e funziona su MS Windows, MacOS e la versione web di Excel. (Prima di questa versione di Report Builder, non era possibile utilizzarlo su Mac, se non veniva eseguito su VMware.) Questa versione non supporta ancora la richiesta di dati AA tradizionale.
 
 ## Modifiche alle funzioni di reporting
 
@@ -40,7 +40,7 @@ In Experience Platform, i dati dei clienti vengono memorizzati come set di dati,
 
 L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/connections/create-connection.md) con i set di dati in Experience Platform. Quindi, utilizzando tali connessioni, crea delle [visualizzazioni dati](/help/data-views/data-views.md). Le visualizzazioni dati sono concettualmente simili alle suite di rapporti virtuali e rappresentano la base delle funzioni di reporting di Customer Journey Analytics. Poiché tutti i dati originano da Experience Platform, non serve più ricorrere alle suite di rapporti come contenitori di dati.
 
-Una connessione consente all’amministratore di Analytics di integrare i set di dati da Adobe Experience Platform al Customer Journey Analytics.
+Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in Customer Journey Analytics.
 
 
 <!-- Outdated UI
@@ -78,7 +78,7 @@ Grazie a questa flessibilità, puoi trovarti in situazioni in cui un singolo cam
 
 Anche se tecnicamente i segmenti non vengono migrati da Adobe Analytics a Customer Journey Analytics, puoi utilizzare lo strumento di migrazione dei componenti per ricreare i segmenti di Adobe Analytics in Customer Journey Analytics. I segmenti vengono ricreati in Customer Journey Analytics in base alle dimensioni e alle metriche mappate. Per ulteriori informazioni, consulta [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it).
 
-Non è ancora possibile condividere o pubblicare i [!UICONTROL filters] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] ad Experience Platform Unified Profile; questa funzionalità è attualmente in fase di sviluppo.
+Non è ancora possibile condividere o pubblicare i [!UICONTROL segments] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] ad Experience Platform Unified Profile; questa funzionalità è attualmente in fase di sviluppo.
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
@@ -93,7 +93,7 @@ Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Spostamento delle metriche calcolate da Adobe Analytics al Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} per un video dimostrativo su come spostare le metriche calcolate.
+Per un video demo su come spostare le metriche calcolate, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Spostamento delle metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -115,12 +115,12 @@ Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di d
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
-Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[unione](../stitching/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Guarda il video seguente che evidenzia l’uso delle identità nel Customer Journey Analytics
+Customer Journey Analytics estende i concetti di identità oltre gli ECID per includere qualsiasi ID che tu voglia utilizzare: ID cliente, ID cookie, ID unione, ID utente, codice di tracciamento e così via. Utilizzando un ID con uno spazio dei nomi comune nei diversi set di dati, oppure utilizzando l’[unione](../stitching/overview.md), diventa più facile collegare le persone tra diversi set di dati. Chiunque imposti un progetto Workspace in Customer Journey Analytics deve comprendere gli ID utilizzati nei diversi set di dati. Il seguente video evidenzia l’uso delle identità in Customer Journey Analytics
 
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell&#39;identità nel Customer Journey Analytics](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} per un video demo.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell’identità in Customer Journey Analytics](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

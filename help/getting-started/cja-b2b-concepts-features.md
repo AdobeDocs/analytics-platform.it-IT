@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3812b10e558c1b8a3ee4fe474405543c68433d8e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Questo articolo spiega i concetti e le funzioni generali su set di dati e conten
 
 I set di dati sono le origini di una connessione. Come parte dell’impostazione di una connessione, puoi definire i set di dati da includere in tale connessione.
 
-I contenitori sono utilizzati in Customer Journey Analytics per supportare e facilitare funzioni come filtri, metriche calcolate e funzionalità di analisi avanzate.
+I contenitori sono utilizzati in Customer Journey Analytics per supportare e facilitare funzioni come segmenti, metriche calcolate e funzionalità di analisi avanzate.
 
 
 

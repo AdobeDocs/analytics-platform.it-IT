@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Puoi utilizzare Customer Journey Analytics per fare delle richieste utilizzando 
 
 Customer Journey Analytics utilizza un’architettura proprietaria potente che distribuisce l’analisi su centinaia o persino migliaia di server per visualizzare i dati in Analysis Workspace in pochi secondi. Alcune proprietà di rilievo di questa architettura di elaborazione includono:
 
-* **Ottimizzato per query relative a singoli clienti**: tecnicamente, Customer Journey Analytics memorizza i dati in un motore di reporting distribuito che utilizza in modo esteso la memorizzazione in cache. Tale motore è ottimizzato per le query dinamiche sui dati di evento a livello individuale e, come tale, è perfettamente ottimizzato per le query relative al cliente. Il motore di reporting memorizza i dati in indici bitmap orientati su colonne che consentono un rapido calcolo immediato delle metriche aggregate. Dispone di un ampio motore di filtro che consente potenti analisi di segmentazione/pubblico. Inoltre, ha una comprensione essenziale della sequenza tra i punti di dati che è utile per analizzare il comportamento tra questi punti di dati (l’ordine in cui si sono verificate le cose) e per assegnare l’attribuzione utilizzando modelli vari e complessi.
+* **Ottimizzato per query relative a singoli clienti**: tecnicamente, Customer Journey Analytics memorizza i dati in un motore di reporting distribuito che utilizza in modo esteso la memorizzazione in cache. Tale motore è ottimizzato per le query dinamiche sui dati di evento a livello individuale e, come tale, è perfettamente ottimizzato per le query relative al cliente. Il motore di reporting memorizza i dati in indici bitmap orientati su colonne che consentono un rapido calcolo immediato delle metriche aggregate. Dispone di un ampio motore di segmentazione che consente una potente analisi di segmentazione/pubblico. Inoltre, ha una comprensione essenziale della sequenza tra i punti di dati che è utile per analizzare il comportamento tra questi punti di dati (l’ordine in cui si sono verificate le cose) e per assegnare l’attribuzione utilizzando modelli vari e complessi.
 
 * **Applicazione rapida di percorsi e filtri complessi**: il motore di reporting funziona su set di dati gerarchici parzialmente ordinati (ad esempio, persona -> sessioni -> eventi). Tutti i dati di un oggetto di primo livello (profili individuali) si trovano su un singolo nodo di elaborazione per ottenere risultati precisi. Questo partizionamento consente di applicare rapidamente percorsi e filtri complessi. Le operazioni complesse, come la creazione di sessioni, l’attribuzione, la persistenza dello stato degli attributi di dati e le opzioni di manipolazione dei dati complesse, vengono eseguite su larga scala con tempi di reporting rapidi. Nelle soluzioni BI, questo tipo di operazioni in genere richiede la creazione di nuovi cubi OLAP per ogni caso d’uso. Il motore di reporting di Customer Journey Analytics consente l’accesso illimitato all’intero set di dati su ogni query, con conseguenti dati completamente correlati senza bisogno di alcun cubing in anticipo.
 
