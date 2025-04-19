@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 95%
+source-wordcount: '1648'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ Customer Journey Analytics utilizza un’architettura proprietaria potente che d
 
 Il motore di reporting è fondamentale per Customer Journey Analytics per consentirti di interagire e di agire progressivamente su tutti i dati del percorso cliente all’interno del motore. Customer Journey Analytics viene fornito con un ampio set di componenti che ti consentono di eseguire questa operazione visivamente e tramite trascinamento. Gli strumenti di visualizzazione BI ti consentono di esplorare i contenuti entro i limiti dei dati preparati da SQL (come definiti da IT). Customer Journey Analytics consente di analizzare nel dettaglio il più possibile, senza dover tornare all’IT per creare un’altra vista SQL.
 
-“Progressivamente” è un concetto chiave: contrariamente alla maggior parte delle visualizzazioni negli strumenti BI, l’interfaccia utente visiva con trascinamento di Customer Journey Analytics consente di suddividere continuamente i dati in base alle tue esigenze specifiche. Puoi creare query visive in modo interattivo utilizzando metriche, dimensioni, filtri (segmenti), calcoli, linee temporali, annotazioni e altri valori di analisi rilevanti.
+&quot;Progressivamente&quot; è un concetto chiave in questo caso: a differenza della maggior parte delle visualizzazioni negli strumenti di business intelligence, l’interfaccia utente visiva con trascinamento della selezione in Customer Journey Analytics consente di suddividere continuamente i dati in base alle esigenze specifiche: puoi creare query visive in modo interattivo utilizzando metriche, dimensioni, segmenti, calcoli, linee temporali, annotazioni e altri valori di analisi rilevanti.
 
 In questi componenti di visualizzazione sono incorporate funzionalità avanzate come:
 

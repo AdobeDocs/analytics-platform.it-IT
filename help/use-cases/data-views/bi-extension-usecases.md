@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '11965'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -34,9 +34,9 @@ Sono documentati i seguenti casi d’uso:
    * [Classificazione dimensione singola](#single-dimension-ranked)
    * [Classificazione di più dimensioni](#multiple-dimension-ranked)
    * [Conta valori di dimensione distinti](#count-distinct-dimension-values)
-   * [Utilizzare i nomi degli intervalli di date per filtrare](#use-date-range-names-to-filter)
-   * [Utilizzare i nomi dei filtri per filtrare](#use-filter-names-to-filter)
-   * [Utilizzare i valori di dimensione per filtrare](#use-dimension-values-to-filter)
+   * [Utilizza nomi di intervalli di date per segmentare](#use-date-range-names-to-segment)
+   * [Utilizzare i nomi dei segmenti per segmentare](#use-segment-names-to-segment)
+   * [Utilizzare i valori di quota per segmentare](#use-dimension-values-to-segment)
    * [Ordina](#sort)
    * [Limiti](#limits)
 
@@ -122,19 +122,19 @@ Nei casi d’uso, sostituisci questi oggetti di esempio con oggetti appropriati 
 
 ### Per APPIATTIRE o meno
 
-Power BI Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data).
+Power BI Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
-| Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare!** |
+| Nessuno | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare!** |
 | `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ChiudiCerchio](/help/assets/icons/CloseCircle.svg) | Power BI Desktop visualizza l&#39;errore: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
 
 ### Ulteriori informazioni
 
 * [Prerequisiti](/help/data-views/bi-extension.md#prerequisites)
-* [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [Connetti Power BI a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+* [Guida alle credenziali](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials)
+* [Connetti Power BI a Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -176,19 +176,19 @@ Power BI Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 ### Per APPIATTIRE o meno
 
-Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data).
+Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
-| Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
+| Nessuno | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
 
 ### Ulteriori informazioni
 
 * [Prerequisiti](/help/data-views/bi-extension.md#prerequisites)
-* [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [Connettere Tableau Desktop a Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
+* [Guida alle credenziali](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials)
+* [Connettere Tableau Desktop a Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/tableau).
 
 
 >[!TAB Ricerca]
@@ -253,18 +253,18 @@ Tableau Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ulte
 
 ### Per APPIATTIRE o meno
 
-Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data).
+Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
-| Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
+| Nessuno | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
 
 ### Ulteriori informazioni
 
 * [Prerequisiti](/help/data-views/bi-extension.md#prerequisites)
-* [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [Guida alle credenziali](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB Blocco appunti Jupyter]
@@ -360,18 +360,18 @@ Looker supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori inf
 
 ### Per APPIATTIRE o meno
 
-Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data).
+Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
-| Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
+| Nessuno | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![ChiudiCerchio](/help/assets/icons/CloseCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. `%3FFLATTEN` è la versione con codifica URL di `?FLATTEN`. |
 
 ### Ulteriori informazioni
 
 * [Prerequisiti](/help/data-views/bi-extension.md#prerequisites)
-* [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [Guida alle credenziali](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials)
 
 >[!TAB StudioRS]
 
@@ -446,18 +446,18 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 ### Per APPIATTIRE o meno
 
-Studio supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data).
+Studio supporta i seguenti scenari per il parametro `FLATTEN`. Per ulteriori informazioni, vedere [Flatten nested data](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
 | Parametro FLATTEN | Esempio | Supportati | Osservazioni |
 |---|---|:---:|---|
-| Nessuno | `prod:cja` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. |
+| Nessuno | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **Opzione consigliata da utilizzare**. |
 | `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ChiudiCerchio](/help/assets/icons/CloseCircle.svg) | |
 
 ### Ulteriori informazioni
 
 * [Prerequisiti](/help/data-views/bi-extension.md#prerequisites)
-* [Guida alle credenziali](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [Guida alle credenziali](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 
@@ -1095,7 +1095,7 @@ Un esempio di pannello **[!UICONTROL Single Dimension Ranked]** per il caso d&#3
 1. Effettuare le selezioni appropriate e immettere i valori proposti, in modo che il filtro legga **[!UICONTROL is between inclusive]** `1000000` **[!UICONTROL AND]** `2000000`.
 1. Seleziona **[!UICONTROL Run]**.
 1. Selezionare **[!UICONTROL ‣ Visualization]** per visualizzare la visualizzazione delle linee.
-1. Seleziona **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** per aggiornare la visualizzazione. Nella finestra di dialogo a comparsa:
+1. Seleziona **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** per aggiornare la visualizzazione. Nella finestra di dialogo popup:
    1. Seleziona la scheda **[!UICONTROL Series]**.
    1. Scorri verso il basso per vedere **[!UICONTROL Purchases]** e cambia **[!UICONTROL Type]** in **[!UICONTROL Line]**.
    1. Seleziona la scheda **[!UICONTROL Y]**.
@@ -1264,7 +1264,7 @@ Un esempio di pannello **[!UICONTROL Multiple Dimension Ranked]** per il caso d&
    1. Seleziona **[!UICONTROL SUM(Purchases)]** e dal menu a discesa seleziona **[!UICONTROL Dual Axis]**.
    1. Selezionare **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Marks]** e selezionare **[!UICONTROL Line]** dal menu a discesa.
    1. Selezionare **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Marks]** e selezionare **[!UICONTROL Bar]** dal menu a discesa.
-   1. Selezionare **[!UICONTROL Entire View]** dal menu **[!UICONTROL Fit]**.
+   1. Seleziona **[!UICONTROL Entire View]** dal menu **[!UICONTROL Fit]**.
    1. Seleziona il titolo **[!UICONTROL Purchase Revenue]** nel grafico e assicurati che i ricavi dell&#39;acquisto siano in ordine crescente.
 
       Il desktop Tableau dovrebbe essere simile al seguente.
@@ -1352,7 +1352,7 @@ Un esempio di pannello **[!UICONTROL Multiple Dimension Ranked]** per il caso d&
 1. Selezionare **[!UICONTROL is >]** e immettere `800000` per limitare i risultati.
 1. Seleziona **[!UICONTROL Run]**.
 1. Selezionare **[!UICONTROL ‣ Visualization]** per visualizzare la visualizzazione delle linee.
-1. Seleziona **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** per aggiornare la visualizzazione. Nella finestra di dialogo a comparsa:
+1. Seleziona **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** per aggiornare la visualizzazione. Nella finestra di dialogo popup:
    1. Seleziona la scheda **[!UICONTROL Plot]**.
    1. Scorri verso il basso e seleziona **[!UICONTROL Edit Chart Config]**.
    1. Modifica il JSON in **[!UICONTROL Chart Config (Override)]** come nella schermata seguente, quindi seleziona **[!UICONTROL Preview]**.
@@ -2901,24 +2901,24 @@ Per la maggior parte delle visualizzazioni di Customer Journey Analytics, Power 
 
 | Icona | Visualizzazione Customer Journey Analytics | Visualizzazione desktop di Power BI |
 | :---: | --- | ---| 
-| ![AreaGrafica](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico ad area, grafico ad area sovrapposta e grafico ad area 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico ad area, grafico ad area sovrapposta e grafico ad area 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) | [Istogramma cluster](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analysis-workspace/visualizations/bar.md) | [Istogramma in pila e istogramma in pila al 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
 | ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) |  |
 | ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](/help/analysis-workspace/visualizations/combo-charts.md) | [Grafico a linee e istogramma in pila e Grafico a linee e istogramma in cluster](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
+| ![Combinato](/help/assets/icons/ComboChart.svg) | [Combinato](/help/analysis-workspace/visualizations/combo-charts.md) | [Grafico a linee e istogramma in pila e Grafico a linee e istogramma in cluster](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
 | ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | [Grafico ad anello](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#doughnut-charts) |
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [Funnel](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#funnel-charts). |
-| ![PercorsiGrafici](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Albero di scomposizione? |
-| ![VisualizzaTabella](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) e [Matrice](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
-| ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) |  |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Albero di scomposizione? |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) e [Matrice](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) |  |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre cluster](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![BarraGraficaOrizzontaleSovrapposta](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barre orizzontali sovrapposte](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre in pila e Grafico a barre in pila 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![Ramo3](/help/assets/icons/Branch3.svg) | [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [Struttura di decomposizione](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
-| ![MetricheChiave](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre in pila e Grafico a barre in pila 100%](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [Area di lavoro percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [Struttura di decomposizione](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) | [Grafico a linee](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
 | ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | [Grafico a dispersione](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
-| ![RegolaPagina](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) | [Casella di testo](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) | [Casella di testo](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | [Scheda](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
 | ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | [Scheda](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
 | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) | [Casella di testo](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
@@ -2984,24 +2984,24 @@ Per la maggior parte delle visualizzazioni di Customer Journey Analytics, Tablea
 
 | Icona | Visualizzazione Customer Journey Analytics | Visualizzazione desktop di Power BI |
 | :---: | --- | ---| 
-| ![AreaGrafica](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico a superficie](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico a superficie](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) | [Grafico a barre](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analysis-workspace/visualizations/bar.md) |  |
 | ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafico bullet](https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm) |
 | ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](/help/analysis-workspace/visualizations/combo-charts.md) | [Grafici combinati](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
+| ![Combinato](/help/assets/icons/ComboChart.svg) | [Combinato](/help/analysis-workspace/visualizations/combo-charts.md) | [Grafici combinati](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
 | ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | |
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | |
-| ![PercorsiGrafici](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
-| ![VisualizzaTabella](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella testo](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
-| ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | [Istogramma](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella testo](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | [Istogramma](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![BarraGraficaOrizzontaleSovrapposta](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barre orizzontali sovrapposte](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![Ramo3](/help/assets/icons/Branch3.svg) | [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
-| ![MetricheChiave](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [Area di lavoro percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) | [Grafico a linee](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
 | ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | [Scatter Plot (Dispersione)](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
-| ![RegolaPagina](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | |
 | ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | |
 | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) | |
@@ -3048,24 +3048,24 @@ Per la maggior parte delle visualizzazioni di Customer Journey Analytics, Looker
 
 | Icona | Visualizzazione Customer Journey Analytics | Visualizzazione desktop di Power BI |
 | :---: | --- | ---| 
-| ![AreaGrafica](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico a superficie](https://cloud.google.com/looker/docs/area-options) |
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | [Grafico a superficie](https://cloud.google.com/looker/docs/area-options) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) | [Grafico a barre](https://cloud.google.com/looker/docs/bar-options) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analysis-workspace/visualizations/bar.md) | [Grafico a barre](https://cloud.google.com/looker/docs/bar-options) |
 | ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafico bullet](https://cloud.google.com/looker/docs/bullet-chart) |
 | ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](/help/analysis-workspace/visualizations/combo-charts.md) | [Personalizzazione delle visualizzazioni](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
+| ![Combinato](/help/assets/icons/ComboChart.svg) | [Combinato](/help/analysis-workspace/visualizations/combo-charts.md) | [Personalizzazione delle visualizzazioni](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
 | ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | [Anello](https://cloud.google.com/looker/docs/donut-multiples-options) |
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [Funnel](https://cloud.google.com/looker/docs/funnel-options) |
-| ![PercorsiGrafici](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Chiave santa](https://cloud.google.com/looker/docs/sankey) |
-| ![VisualizzaTabella](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella](https://cloud.google.com/looker/docs/table-options) |
-| ![Istogramma](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Chiave santa](https://cloud.google.com/looker/docs/sankey) |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [Tabella](https://cloud.google.com/looker/docs/table-options) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://cloud.google.com/looker/docs/bar-options) |
-| ![BarraGraficaOrizzontaleSovrapposta](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barre orizzontali sovrapposte](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://cloud.google.com/looker/docs/bar-options) |
-| ![Ramo3](/help/assets/icons/Branch3.svg) | [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
-| ![MetricheChiave](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analysis-workspace/visualizations/horizontal-bar.md) | [Grafico a barre](https://cloud.google.com/looker/docs/bar-options) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [Area di lavoro percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md) |  |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analysis-workspace/visualizations/line.md) | [Grafico a linee](https://cloud.google.com/looker/docs/line-options) |
 | ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analysis-workspace/visualizations/scatterplot.md) | [Grafico a dispersione](https://cloud.google.com/looker/docs/scatter-options) |
-| ![RegolaPagina](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [Intestazione sezione](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | [Valore singolo](https://cloud.google.com/looker/docs/single-value-options) |
 | ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | [Valore singolo](https://cloud.google.com/looker/docs/single-value-options) |
 | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) | [Valore singolo](https://cloud.google.com/looker/docs/single-value-options) |

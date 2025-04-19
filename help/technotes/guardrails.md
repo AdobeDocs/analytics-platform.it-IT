@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Filtri del pubblico | 20 | Guardrail imposto dal sistema | Numero massimo di [filtri](../components/filters/filters-overview.md) per pubblico. |
+| Segmenti di pubblico | 20 | Guardrail imposto dal sistema | Numero massimo di [segmenti](../components/filters/filters-overview.md) per pubblico. |
 | Numero di identità del pubblico | 20 milioni | Guardrail imposto dal sistema | Numero massimo di identità per pubblico. |
 | Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guardrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
@@ -183,18 +183,18 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 | Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 
-## Filtri e metriche calcolate
+## Segmenti e metriche calcolate
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Contenitori per filtro | 50 | Guardrail imposto dal sistema | Numero massimo di contenitori per filtro. |
+| Contenitori per filtro | 50 | Guardrail imposto dal sistema | Numero massimo di contenitori per segmento. |
 | Metriche per metrica calcolata | 25 | Guardrail imposto dal sistema | Numero massimo di metriche per metrica calcolata. |
-| Metriche e dimensioni per filtro | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per filtro. |
-| Contenitori nidificati per filtro | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per filtro. |
-| Regole per filtro | 100 | Guardrail imposto dal sistema | Numero massimo di regole per filtro. |
-| Confronti di stringhe per Dimension per filtro | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per filtro. |
+| Metriche e dimensioni per filtro | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per segmento. |
+| Contenitori nidificati per filtro | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per segmento. |
+| Regole per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di regole per segmento. |
+| Confronti di stringhe per Dimension per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per segmento. |
 | Metriche calcolate  | 6.000 | Guardrail imposto dal sistema | Numero massimo di metriche calcolate per un’organizzazione. |
-| Filtri | 50.000 | Guardrail imposto dal sistema | Numero massimo di filtri che è possibile definire per un’organizzazione. |
+| Segmenti | 50.000 | Guardrail imposto dal sistema | Numero massimo di segmenti che è possibile definire per un’organizzazione. |
 | Chiamate API | 120 | Guardrail imposto dal sistema | Richieste API al minuto (12 richieste ogni 6 secondi). |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Riquadri | 16 | Guardrail imposto dal sistema | Numero massimo di sezioni per scorecard. |
-| Filtri | 10 | Guardrail imposto dal sistema | Numero massimo di filtri per scorecard. |
+| Segmenti | 10 | Guardrail imposto dal sistema | Numero massimo di segmenti per scorecard. |
 | Dimensioni | 10 | Guardrail imposto dal sistema | Numero massimo di dimensioni per scorecard. |
 
 {style="table-layout:auto"}

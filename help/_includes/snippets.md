@@ -1,8 +1,8 @@
 ---
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3756'
-ht-degree: 19%
+ht-degree: 30%
 
 ---
 # Snippet
@@ -60,7 +60,7 @@ Le opzioni di confronto del tempo disponibili includono il periodo precedente, 1
 *Questo video illustra le funzionalità di Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Tenere presente le differenze terminologiche tra Adobe Analytics e Customer Journey Analytics (ad esempio &quot;visite&quot; e &quot;sessioni&quot;).*
 
 
-## Pannello Filtri {#filterspanel}
+## Pannello Segmenti {#filterspanel}
 
 1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l’elenco dei Filtri, puoi selezionare di nuovo ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.
 1. Seleziona i filtri da una qualsiasi delle sezioni disponibili.
@@ -70,14 +70,14 @@ Le opzioni di confronto del tempo disponibili includono il periodo precedente, 1
 
 | Tag | Descrizione |
 |---|---|
-| ![Tag](/help/assets/filter-tag.png){width="300"} | La sezione **[!UICONTROL Tags]** consente di filtrare i tag. <ul><li>Puoi ![cercare](/help/assets/icons/Search.svg) *Cerca tag* per cercare i tag che puoi utilizzare per filtrare.</li><li>È possibile selezionare più tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di tag selezionati (se sono selezionati uno o più tag).</li><li>**2︎⃣**: numero di tag disponibili per gli elementi risultanti dal filtro corrente.</li><li>7︎⃣: numero di elementi associati al tag specifico.</li></ul></li></ul> |
+| ![Tag](/help/assets/filter-tag.png){width="300"} | La sezione **[!UICONTROL Tags]** consente di filtrare in base ai tag. <ul><li>Puoi ![cercare](/help/assets/icons/Search.svg) *Cerca tag* per cercare i tag che puoi utilizzare per filtrare.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di tag selezionati (se sono selezionati uno o più tag).</li><li>**2︎⃣**: numero di tag disponibili per gli elementi risultanti dal filtro corrente.</li><li>7︎⃣: numero di elementi associati al tag specifico.</li></ul></li></ul> |
 
 
 ## Sezione filtro visualizzazione dati {#dataviewfiltersection}
 
 | Visualizzazione dati | Descrizione |
 |---|---|
-| ![Visualizzazioni dati](/help/assets/filter-dataview.png){width="300"} | La sezione **[!UICONTROL Data view]** consente di filtrare le visualizzazioni dati. <ul><li>Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per cercare le visualizzazioni dati da utilizzare per filtrare.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di visualizzazioni dati selezionate (se sono selezionate una o più visualizzazioni dati).</li><li>**3︎⃣**: numero di visualizzazioni dati disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla visualizzazione dati specifica.</li></ul></li></ul> |
+| ![Visualizzazioni dati](/help/assets/filter-dataview.png){width="300"} | La sezione **[!UICONTROL Data view]** consente di filtrare in base alle visualizzazioni dati. <ul><li>Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per cercare le visualizzazioni dati da utilizzare per filtrare.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di visualizzazioni dati selezionate (se sono selezionate una o più visualizzazioni dati).</li><li>**3︎⃣**: numero di visualizzazioni dati disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla visualizzazione dati specifica.</li></ul></li></ul> |
 
 ## Sezione filtro di stato abilitato {#enabledstatusfiltersection}
 
@@ -95,13 +95,13 @@ Le opzioni di confronto del tempo disponibili includono il periodo precedente, 1
 
 | Proprietario | Descrizione |
 |---|---|
-| ![Proprietari](/help/assets/filter-owners.png){width="300"} | La sezione **[!UICONTROL Owner]** consente di filtrare in base ai proprietari. <ul><li>Puoi ![cercare](/help/assets/icons/Search.svg) *Cerca proprietari* per cercare i proprietari che puoi utilizzare per filtrare.</li><li>È possibile selezionare più di un proprietario. I proprietari disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di proprietari selezionati (se sono selezionati uno o più proprietari).</li><li>**3︎⃣**: numero di proprietari disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati al proprietario specifico.</li></ul></li></ul> |
+| ![Proprietari](/help/assets/filter-owners.png){width="300"} | La sezione **[!UICONTROL Owner]** consente di filtrare in base ai proprietari. <ul><li>Puoi ![cercare](/help/assets/icons/Search.svg) *Cerca proprietari* per cercare i proprietari che puoi utilizzare per filtrare.</li><li>Puoi selezionare più di un proprietario. I proprietari disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di proprietari selezionati (se sono selezionati uno o più proprietari).</li><li>**3︎⃣**: numero di proprietari disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati al proprietario specifico.</li></ul></li></ul> |
 
 ## Sezione filtro Altri filtri {#otherfiltersfiltersection}
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Other filters]** consente di filtrare in base ad un altro filtro predefinito.<ul><li>Puoi selezionare una o più delle seguenti opzioni:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Other filters]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Sezione filtro intervallo di date  {#daterangefiltersection}
 
@@ -151,31 +151,31 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 Prendi in considerazione l’esempio seguente:
 
-1. Il 15 settembre, una persona arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
-1. Il 18 settembre, la persona ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
+1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
+1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
 1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
 A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi:
 
-* Utilizzando **il primo contatto** e un intervallo di lookback di **sessione**, l&#39;attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene 100% di credito per l’acquisto di 50 $.
+* Utilizzando il **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
 
-* Utilizzando **il primo contatto** e un intervallo di lookback di **persona**, l&#39;attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
+* Utilizzando il **primo contatto** e un **intervallo di lookback per persona**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
 
-* Utilizzando **linear** e un intervallo di lookback di **sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-Utilizzando **linear** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
+* Utilizzando un modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
+Utilizzando un modello **lineare** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
 
-* Utilizzando **a forma di J** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
+* Utilizzando un modello **a forma di J** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
 
    * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
    * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
    * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
 
-* Utilizzando **Decadimento nel tempo** e un intervallo di lookback di **persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
+* Utilizzando **Decadimento nel tempo** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
 
-   * Intervallo di zero giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
-   * Intervallo di zero giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
-   * Intervallo di sei giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
-   * Intervallo di nove giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
+   * Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
+   * Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
+   * Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
+   * Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
    * La normalizzazione di questi valori determina quanto segue:
 
       * Visualizzazione: 33,8%, ovvero 16,88 $
@@ -183,7 +183,7 @@ Utilizzando **linear** e un intervallo di lookback di **persona**, il credito è
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
 
-Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone e quindi arrotondate al numero intero più vicino per il reporting.
+Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono lo 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
 
 ## Confronti nella visualizzazione percorso {#journey-visualization-comparisons}
 
@@ -191,7 +191,7 @@ Varie visualizzazioni nell’analisi del Percorso di clienti sono progettate per
 
 Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio soddisfa le tue esigenze.
 
-| Funzione | Area di lavoro percorso | Fallout (abbandono) | Flusso |
+| Funzione | Area di lavoro del percorso | Abbandono | Flusso |
 |---------|----------|---------|---------|
 | **Sequenza di pagine predefinita** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi immediatamente successivi (non finali) [visualizzando i nodi principali basati sui nodi esistenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
 | **Sequenza esplorativa di pagine (analisi ad hoc)** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché passino infine da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi immediatamente successivi (non finali) [visualizzando i nodi principali basati sui nodi esistenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#show-the-top-nodes-based-on-existing-nodes). | Limitato</br>Consente di fare clic con il pulsante destro del mouse e visualizzare l&#39;abbandono immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza della dimensione tra nodi. Ciò significa che ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |

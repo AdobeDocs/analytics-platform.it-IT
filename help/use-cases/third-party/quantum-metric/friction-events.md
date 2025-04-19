@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -66,4 +66,4 @@ Le possibili idee di analisi sono:
 
 * Dati dell’evento di attrito di tendenza nel tempo
 * In una visualizzazione di abbandono o funnel, aggiungi eventi Customer Journey Analytics come alcuni passaggi ed eventi di attrito della metrica quantistica come altri. Questo rapporto consente di vedere dove i visitatori si trovano più comunemente nei guai.
-* Crea e applica un filtro per i visitatori che sperimentano eventi di attrito per un’analisi più approfondita
+* Crea e applica un segmento per i visitatori che sperimentano eventi di attrito per un’analisi più approfondita

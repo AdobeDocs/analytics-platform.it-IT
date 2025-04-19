@@ -3,23 +3,23 @@ title: Trasferire le risorse
 description: Scopri come trasferire componenti da un utente all’altro
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
+exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
-
 # Trasferire le risorse
 
-Lo strumento Asset Transfer (Trasferimento risorse) consente di trasferire la proprietà delle risorse ad altri utenti. Assets può includere componenti quali progetti, filtri, intervalli di date, metriche calcolate, annotazioni, avvisi e progetti pianificati.
+Lo strumento Asset Transfer (Trasferimento risorse) consente di trasferire la proprietà delle risorse ad altri utenti. Assets può includere componenti quali progetti, segmenti, intervalli di date, metriche calcolate, annotazioni, avvisi e progetti pianificati.
 
-Assets è spesso associato a un singolo proprietario e in alcuni casi, ad esempio per quanto riguarda i filtri e le metriche calcolate, non può essere modificato o condiviso anche dagli amministratori. Quando gli utenti abbandonano l’organizzazione o il loro ruolo cambia, potrebbe diventare necessario trasferire la proprietà di queste risorse ad altri utenti per garantire la continuità e l’accesso appropriato.
+Assets è spesso associato a un singolo proprietario e in alcuni casi, come segmenti e metriche calcolate, non può essere modificato o condiviso anche dagli amministratori. Quando gli utenti abbandonano l’organizzazione o il loro ruolo cambia, potrebbe diventare necessario trasferire la proprietà di queste risorse ad altri utenti per garantire la continuità e l’accesso appropriato.
 
 ## Autorizzazioni
 
-Il trasferimento delle risorse richiede l’autorizzazione di amministratore di prodotto per il Customer Journey Analytics.
+Il trasferimento delle risorse richiede l’autorizzazione di amministratore di prodotto per Customer Journey Analytics.
 
 ## Trasferire le risorse
 
@@ -51,7 +51,7 @@ Il trasferimento delle risorse richiede l’autorizzazione di amministratore di 
 
    >[!NOTE]
    >
-   >    Quando si trasferiscono risorse che fanno riferimento ad altri componenti (ad esempio progetti che fanno riferimento ad altri filtri e metriche calcolate), i componenti non di proprietà dell’attuale proprietario del progetto verranno condivisi solo con il destinatario. La proprietà di tutti gli altri componenti verrà trasferita al destinatario.
+   >    Quando si trasferiscono risorse che fanno riferimento ad altri componenti (ad esempio progetti che fanno riferimento ad altri segmenti e metriche calcolate), i componenti non di proprietà dell’attuale proprietario del progetto verranno condivisi solo con il destinatario. La proprietà di tutti gli altri componenti verrà trasferita al destinatario.
 
 1. Per selezionare _tutte_ le risorse in una cartella, seleziona la casella accanto a **[!UICONTROL Name]** nella parte superiore della tabella.
 
@@ -75,7 +75,7 @@ Esistono tre possibili risultati per un trasferimento:
 
 - **Errore di trasferimento**: &quot;Impossibile trasferire le risorse. Riprova.&quot;
 
-## Trasferire le risorse durante l’aggiornamento da Adobe Analytics al Customer Journey Analytics
+## Trasferire le risorse durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 
 Uno dei casi d’uso principali per il trasferimento delle risorse è durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 
@@ -85,7 +85,7 @@ Questo strumento di trasferimento delle risorse consente successivamente agli am
 
 >[!IMPORTANT]
 >
->Anche se puoi trasferire i componenti utilizzando questo strumento, l’amministratore deve comunque assicurarsi che il destinatario abbia accesso alle visualizzazioni dati necessarie per visualizzare/utilizzare questi componenti. Puoi visualizzare e assegnare le autorizzazioni nell&#39;[Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
+>Anche se puoi trasferire i componenti utilizzando questo strumento, l’amministratore deve comunque assicurarsi che il destinatario abbia accesso alle visualizzazioni dati necessarie per visualizzare/utilizzare questi componenti. Puoi visualizzare e assegnare le autorizzazioni in [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 ## Export to CSV (Esporta in CSV)
 

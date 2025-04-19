@@ -5,10 +5,10 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -42,14 +42,14 @@ Durante l’importazione dei dati in Platform, seguire questi suggerimenti può 
 
 ## Unisci gli ID persona
 
-Il Customer Journey Analytics richiede un identificatore comune per generare un [set di dati combinato](/help/connections/combined-dataset.md).
+Customer Journey Analytics richiede un identificatore comune per generare un [set di dati combinato](/help/connections/combined-dataset.md).
 
 * Se i set di dati hanno già un identificatore comune su ogni evento in entrambi i set di dati, puoi saltare questo passaggio e procedere alla creazione di una connessione.
 * Se uno dei set di dati ha un identificatore comune solo su alcuni eventi, puoi unire i dati utilizzando [Unione](/help/stitching/overview.md) per i passaggi per abilitare l&#39;analisi cross-channel per questi due set di dati.
 
 ## Creare una connessione in Customer Journey Analytics
 
-[Crea una connessione](/help/connections/create-connection.md) nel Customer Journey Analytics.
+[Crea una connessione](/help/connections/create-connection.md) in Customer Journey Analytics.
 
 * Se utilizzi CCA, è disponibile un nuovo set di dati uniti da utilizzare. Utilizza il campo ID unito appena creato come ID persona.
 * In caso contrario, puoi selezionare sia i set di dati Web originali che quelli del call center da utilizzare nella connessione.
@@ -69,11 +69,11 @@ Le seguenti visualizzazioni possono essere utilizzate per ottenere informazioni 
 
 Questa visualizzazione ti aiuta a capire come CCA unisce i dati.
 
-1. Crea due filtri. La variabile utilizzata in questi due filtri è la stessa variabile menzionata in precedenza che riflette l’origine dati di ciascun evento. Per ulteriori informazioni, consulta la sezione [Creare un filtro](/help/components/filters/create-filters.md).
+1. Crea due segmenti. La variabile utilizzata in questi due segmenti è la stessa variabile di cui sopra che riflette la fonte dei dati di ciascun evento. Per ulteriori informazioni, consulta [Creare un segmento](/help/components/filters/create-filters.md).
    * Contenitore Persona in cui l’ID del set di dati è uguale ai dati Web
    * Contenitore Persone in cui l’ID del set di dati è uguale ai dati del call center
 2. In Analysis Workspace, trascina una visualizzazione [Venn](/help/analysis-workspace/visualizations/venn.md) nell’area di lavoro di Workspace.
-3. Trascina i due filtri appena creati nell’area **[!UICONTROL Add Filter]** (Aggiungi filtro) e la metrica People (Persone) nell’area **[!UICONTROL Add Metric]** (Aggiungi metrica).
+3. Trascinare i due segmenti appena creati nell&#39;area **[!UICONTROL Add Filter]** e la metrica Persone nell&#39;area **[!UICONTROL Add Metric]**.
 
 La visualizzazione Venn risultante mostra il numero di persone nel set di dati che contengono sia dati Web che i dati call center. Maggiore è la sovrapposizione, più persone sono state unite correttamente. Le aree che non si sovrappongono rappresentano le persone che risiedono esclusivamente in un set di dati o nell’altro.
 
@@ -93,8 +93,8 @@ Il rapporto risultante mostra le pagine principali che inviano le chiamate al ca
 Puoi aumentare ulteriormente le informazioni con questa tabella suddividendo le chiamate per motivo o categoria.
 
 1. Fai clic sulla freccia destra sotto la dimensione “Call reason” (Motivo della chiamata) nell’elenco dei componenti. Questa azione mostra singoli valori dimensionali.
-2. Trascina i valori dimensionali desiderati sotto la metrica “Calls” (Chiamate), che filtra la metrica in base a ogni rispettivo motivo della chiamata.
-3. Ripeti l’operazione per ogni motivo della chiamata che desideri approfondire. Utilizza il filtro “All sessions” (Tutte le sessioni) per visualizzare il totale aggregato.
+2. Trascina i valori di dimensione desiderati sotto la metrica &quot;Chiamate&quot;, che segmenta tale metrica per ogni rispettivo motivo di chiamata.
+3. Ripeti l’operazione per ogni motivo della chiamata che desideri approfondire. Utilizza il segmento &quot;Tutte le sessioni&quot; per visualizzare il totale aggregato.
 
 <!-- screenshot -->
 
@@ -139,10 +139,10 @@ step 2:
 
 Slide 4
 
-Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+Create a bunch of segments - facets to their business. Segments were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really segments)
 
 wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
 
-use sequential filters, but you lose the ability to use attribution IQ
+use sequential segments, but you lose the ability to use attribution IQ
 
 ## What to do when you've found insight -->

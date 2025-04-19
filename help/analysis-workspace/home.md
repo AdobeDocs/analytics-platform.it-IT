@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 99%
@@ -45,7 +45,7 @@ Le funzioni chiave di Analysis Workspace sono disponibili tramite il pannello pu
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | I [pannelli](/help/analysis-workspace/c-panels/panels.md) servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano un intero set di analisi basate su alcuni input dell’utente. |
 | ![Analisi guidata](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Guided Analysis]** | L’[Analisi guidata](../guided-analysis/overview.md) ti consente di gestire autonomamente dati e informazioni di alta qualità sul percorso cliente tramite flussi di lavoro guidati. Puoi creare un’analisi da includere nel progetto Workspace o includere un’analisi esistente salvata in precedenza. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), ad esempio un grafico a barre o a linee che può essere utilizzato per mettere visivamente in risalto i dati. Nel pannello all’estrema sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco completo delle visualizzazioni disponibili. |
-| ![Cura](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | I [Componenti](/help/components/overview.md) includono i seguenti elementi:<ul><li>![Dimensioni](/help/assets/icons/Dimensions.svg) [Dimensioni](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Metriche](/help/components/apply-create-metrics.md)</li><li>![Segmentazione](/help/assets/icons/Segmentation.svg) [Filtri](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalli di date](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Cura](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | I [Componenti](/help/components/overview.md) includono i seguenti elementi:<ul><li>![Dimensioni](/help/assets/icons/Dimensions.svg) [Dimensioni](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Metriche](/help/components/apply-create-metrics.md)</li><li>![Segmentazione](/help/assets/icons/Segmentation.svg) [Segmenti](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalli di date](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | Il sommario organizza tutti i pannelli e le visualizzazioni inclusi nel progetto in un elenco comprimibile, che consente di accedere rapidamente a un pannello specifico o a una visualizzazione specifica. |
 | ![Segnalibro](/help/assets/icons/Bookmark.svg) | **Dizionario dati** | Il [Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md) aiuta sia agli utenti che agli amministratori a tenere traccia e comprendere meglio i componenti nell’ambiente Analytics. |
 

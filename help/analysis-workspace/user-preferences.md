@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3753'
 ht-degree: 73%
@@ -36,7 +36,7 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 | --- | --- |
 | **[!UICONTROL Landing page]** | Scegli quale pagina visualizzare come pagina predefinita quando accedi a Customer Journey Analytics: <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Analisi guidata delle tendenze vuota</li><li>Progetto specifico, selezionato da un elenco</li></ul> |
 | **[!UICONTROL Tips]** | Visualizza i suggerimenti in una casella blu nell’area in basso a destra di Analysis Workspace. <p>L’opzione è abilitata per impostazione predefinita.</p> |
-| **[!UICONTROL Components displayed in left panel groups]** | Scegli quanti elementi di ciascun gruppo di componenti visualizzare nel menu Componenti nel pannello di sinistra. <p>Se per un gruppo di componenti scegli 0, questo non sarà più accessibile dal pannello di sinistra.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti gruppi di componenti:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, consulta la sezione [Panoramica dei componenti](/help/components/overview.md).</p> |
+| **[!UICONTROL Components displayed in left panel groups]** | Scegli quanti elementi di ciascun gruppo di componenti visualizzare nel menu Componenti nel pannello di sinistra. <p>Se per un gruppo di componenti scegli 0, questo non sarà più accessibile dal pannello di sinistra.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti gruppi di componenti:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Segmenti</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, consulta la sezione [Panoramica dei componenti](/help/components/overview.md).</p> |
 
 ### Preferenze organizzazione IMS {#ims-organization-preferences}
 

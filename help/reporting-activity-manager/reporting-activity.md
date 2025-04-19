@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
-workflow-type: ht
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+workflow-type: tm+mt
 source-wordcount: '2016'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -51,11 +51,11 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    ![Attività di reporting che mostra la coda dei report](assets/reporting-activity-monthly.png)
 
-1. (Facoltativo) Puoi cercare o filtrare l’elenco delle connessioni:
+1. (Facoltativo) Puoi cercare o segmentare l’elenco delle connessioni:
 
    * Utilizza il campo di ricerca per cercare un rapporto specifico. Inizia a digitare il nome o l’ID della connessione e l’elenco delle connessioni si aggiorna durante la digitazione.
 
-   * Seleziona ![Filtro](/help/assets/icons/Filter.svg) per espandere l’elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
+   * Seleziona ![Filtro](/help/assets/icons/Filter.svg) per espandere l&#39;elenco delle opzioni del segmento. Puoi filtrare per [!UICONTROL **Preferiti**] o [!UICONTROL **Stato**].
 
      Per contrassegnare una connessione come preferita, seleziona l’icona a forma di stella a sinistra del nome della connessione.
 

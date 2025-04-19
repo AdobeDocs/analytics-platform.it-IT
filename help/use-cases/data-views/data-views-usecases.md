@@ -5,16 +5,16 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1244'
 ht-degree: 32%
 
 ---
 
 # Casi d’uso per le visualizzazioni dati
 
-Questi casi d’uso illustrano la flessibilità e la potenza delle visualizzazioni dati nel Customer Journey Analytics.
+Questi casi d’uso illustrano la flessibilità e la potenza delle visualizzazioni dati in Customer Journey Analytics.
 
 ## Utilizzare le metriche delle dimensioni di binding
 
@@ -26,7 +26,7 @@ Per ulteriori dettagli, vedi il caso d&#39;uso [Dati di riepilogo](summary-data.
 
 ## Casi d’uso dell’estensione BI
 
-Consulta i [casi di utilizzo dell&#39;estensione BI](bi-extension-usecases.md) su come eseguire una serie di casi di utilizzo utilizzando l&#39;estensione Customer Journey Analytics BI.
+Consulta i [casi d&#39;uso dell&#39;estensione BI](bi-extension-usecases.md) su come eseguire una serie di casi d&#39;uso utilizzando l&#39;estensione Customer Journey Analytics BI.
 
 ## Creare una metrica da un campo schema di tipo stringa {#string}
 
@@ -39,9 +39,9 @@ Ad esempio, durante la creazione di una visualizzazione dati, è possibile crear
 1. Apri la sezione **[!UICONTROL Include/Exclude Values]** e specifica quanto segue:
    1. Abilita **[!UICONTROL Set include exclude values]**.
    1. Selezionare **[!UICONTROL If all criteria are met]** da **[!UICONTROL Match]**.
-   1. Specificare `confirmation`. Questo testo per page_title indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i filtri e ovunque sia possibile utilizzare le metriche standard.
+   1. Specificare `confirmation`. Questo testo per page_title indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i segmenti e ovunque sia possibile utilizzare le metriche standard.
 
-   ![Dimension alla metrica](../assets/string-to-metric.gif){width=100%}
+   ![Da Dimension a metrica](../assets/string-to-metric.gif){width=100%}
 1. Puoi anche specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] impostato su [!UICONTROL Session].
 È inoltre possibile creare un&#39;altra metrica [!UICONTROL Orders] dallo stesso campo e specificare un modello di attribuzione diverso. Ad esempio [!UICONTROL First Touch] e un [!UICONTROL Lookback window] diverso, ad esempio [!UICONTROL 30 days].
 
@@ -49,7 +49,7 @@ Un altro esempio potrebbe essere quello di utilizzare l’ID persona, una dimens
 
 ## Usa numeri interi come dimensioni {#integers}
 
-In precedenza, i numeri interi venivano trattati automaticamente come metriche nel Customer Journey Analytics. Ora i valori numerici (compresi gli eventi personalizzati da Adobe Analytics) possono essere trattati come dimensioni. Ecco un esempio:
+In precedenza, i numeri interi venivano trattati automaticamente come metriche in Customer Journey Analytics. Ora i valori numerici (compresi gli eventi personalizzati da Adobe Analytics) possono essere trattati come dimensioni. Ecco un esempio:
 
 
 
@@ -88,7 +88,7 @@ Con queste nuove impostazioni verranno visualizzati solo i ricavi di alto valore
 
 La tua azienda potrebbe aver dedicato del tempo a insegnare agli utenti ad aspettarsi &quot;Non specificato&quot; per le dimensioni nei rapporti. Il valore predefinito per le dimensioni nelle Visualizzazioni dati è &quot;No value&quot; (Nessun valore). Tuttavia, puoi specificare per ogni dimensione come deve essere segnalato Nessun valore. Consulta le opzioni Nessun valore per un componente dimensione.
 
-![Nessuna opzione valore](../assets/no-value-options.gif){width=100%}
+![Opzioni per “Nessun valore”](../assets/no-value-options.gif){width=100%}
 
 
 ## Creare più metriche con impostazioni di attribuzione diverse {#attribution}

@@ -7,10 +7,10 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1829'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,9 +29,9 @@ L’utilizzo dell’agente di Data Insights per rispondere a domande incentrate 
 | Funzione supportata | Descrizione |
 | --- | --- |
 | **Creare e aggiornare visualizzazioni** | Genera una tabella a forma libera e la relativa visualizzazione (ad esempio una linea, una barra, un anello e così via).<p>Esempio: *Qual è il profitto tra SKU da febbraio a maggio?* |
-| **Tipi di visualizzazione supportati** | <ul><li>A linee</li><li>Multiriga</li><li>Tabella a forma libera</li><li>Barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> |
+| **Tipi di visualizzazione supportati** | <ul><li>A linee</li><li>Multiriga</li><li>Tabella a forma libera</li><li>A barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> |
 | **Rilevamento prompt fuori ambito** | Se invii un messaggio che esula dall’ambito, ad esempio &quot;esporta questo progetto&quot;, Data Insights Agent risponde informandoti che la domanda non rientra nell’ambito. |
-| **Domande chiarificatrici** | Se fai una domanda che non ha abbastanza contesto per cui l’agente di Data Insights deve rispondere, o che è troppo generica, l’agente di Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Filtro: *Quale segmento &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via. |
+| **Domande chiarificatrici** | Se fai una domanda che non ha abbastanza contesto per cui l’agente di Data Insights deve rispondere, o che è troppo generica, l’agente di Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. Esempi: <p>**Componenti**<ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Segmento: *Quale segmento &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul>**Elementi Dimension**: quale &quot;nome archivio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via. |
 | **Turno multiplo** | L’agente di Data Insights risponde a un prompt con il contesto proveniente da qualsiasi prompt precedente, consentendo agli utenti di aggiornare le visualizzazioni e porre domande di follow-up. Esempio: <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> |
 | **Verificabilità** | La verificabilità e la correttezza dei dati possono essere confermate tramite la tabella a forma libera generata e la visualizzazione dei dati. Ad esempio, se un utente chiede *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;mese scorso&quot;) sono stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati. |
 | **Feedback** | <ul><li>Miniature in alto</li><li>Miniature in basso</li><li>Contrassegno</li></ul> |
@@ -42,8 +42,8 @@ L’utilizzo dell’agente di Data Insights per rispondere a domande incentrate 
 | --- | --- |
 | **Riepilogo o risposta in linea** | L’agente di Data Insights non può rispondere in linea nella barra della chat con una risposta di riepilogo di un prompt utente. Esempio di prompt fuori ambito:<ul><li>*Visualizza un riepilogo delle informazioni contenute nell&#39;ultimo prompt.*</li><li>*Riepiloga gli elementi di rilievo dalla visualizzazione delle linee.*</li></ul> |
 | **Domande chiarificatrici** | Le domande più chiare sono limitate ai componenti e agli elementi dimensionali. L’agente di Data Insights non è in grado di chiarire elementi quali visualizzazioni dati, visualizzazioni, granularità dei dati, confronto e ambito. Quando non è possibile utilizzare le domande di chiarimento, l’agente utilizza per impostazione predefinita ciò che viene richiesto con maggiore probabilità. Se restituisce una visualizzazione o una granularità dei dati impreviste, puoi utilizzare la funzionalità multi-turn/update per regolare la visualizzazione e i dati. |
-| **Azioni/funzionalità Workspace** | L’agente di Data Insights non può intraprendere azioni per un utente in Workspace a parte la creazione e l’aggiornamento delle visualizzazioni. Ad esempio, non può effettuare nessuna delle seguenti operazioni:<ul><li>Pulsanti dell’interfaccia utente per le azioni contestuali (aggiungi al grafico, nuovo pannello, nuova tabella)</li><li>Condividi</li><li>Esportazione</li><li>Scaricare</li><li>Gestire le preferenze utente</li><li>Cura</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li></ul> |
-| **Tipi di visualizzazione non supportati** | <ul><li>Flusso</li><li>Fallout (abbandono)</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Bullet</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li></ul> |
+| **Azioni/funzionalità Workspace** | L’agente di Data Insights non può intraprendere azioni per un utente in Workspace a parte la creazione e l’aggiornamento delle visualizzazioni. Ad esempio, non può effettuare nessuna delle seguenti operazioni:<ul><li>Pulsanti dell’interfaccia utente per le azioni contestuali (aggiungi al grafico, nuovo pannello, nuova tabella)</li><li>Condividi</li><li>Esportare</li><li>Scaricare</li><li>Gestire le preferenze utente</li><li>Cura</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribution</li></ul> |
+| **Tipi di visualizzazione non supportati** | <ul><li>Flusso</li><li>Abbandono</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Bullet</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li></ul> |
 
 ## Gestire l’accesso all’agente di Data Insights in Customer Journey Analytics
 
@@ -56,15 +56,15 @@ I seguenti parametri regolano l’accesso all’agente di Data Insights in Custo
 * **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** determina l&#39;accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
    1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
    1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso a [!UICONTROL AI Assistant: Product Knowledge].
-   1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Permissions]**.
+   1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
    1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
    1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Assistente AI: conoscenza del prodotto** e **Assistente AI: analisi dei dati** a **[!UICONTROL Included permission items]**.
 
       ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
 
-   1. Selezionare **[!UICONTROL Save]** per salvare le autorizzazioni.
+   1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
 
-Per ulteriori informazioni, vedere [Controllo dell&#39;accesso](/help/technotes/access-control.md#access-control).
+Per ulteriori informazioni, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
 ## Accedere all’agente di Data Insights nell’assistente di intelligenza artificiale
 
@@ -146,13 +146,13 @@ Di seguito sono riportati alcuni esempi di prompt comuni e delle visualizzazioni
 | --- | --- |
 | Mostra profitti in [Mese] | A linee<p>La richiesta di una tendenza o di una metrica entro un determinato intervallo di tempo per impostazione predefinita restituisce una visualizzazione a linee. |
 | Andamento ordini in [Mese] | A linee |
-| Mostra ricavi per area geografica in [Mese] | Barre |
+| Mostra ricavi per area geografica in [Mese] | A barre |
 | Quota di ricavi per categoria di prodotto | Ad anello |
-| Ordini per giorno della settimana, da gennaio a maggio | Barre |
-| Mostra ordini per genere, da marzo a giugno | Barre |
-| Qual è il profitto tra SKU da febbraio a maggio | Barre |
-| Ricavi per nome archivio in [Mese] | Barre |
-| Quali sono stati i miei 10 SKU principali in base al profitto in [Mese]? | Barre |
+| Ordini per giorno della settimana, da gennaio a maggio | A barre |
+| Mostra ordini per genere, da marzo a giugno | A barre |
+| Qual è il profitto tra SKU da febbraio a maggio | A barre |
+| Ricavi per nome archivio in [Mese] | A barre |
+| Quali sono stati i miei 10 SKU principali in base al profitto in [Mese]? | A barre |
 | Percentuale di acquisti per mese dell&#39;anno | Ad anello |
 | Profitto totale in [Mese] | Numero di riepilogo<p>Se si richiede il &quot;totale&quot; di una metrica in un determinato intervallo di tempo, viene restituita una visualizzazione del numero di riepilogo. |
 
