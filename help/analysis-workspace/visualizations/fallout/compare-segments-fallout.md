@@ -5,7 +5,7 @@ title: Applicare i segmenti nell’analisi dell’abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 39%
@@ -18,7 +18,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 >[!IMPORTANT]
 >
->I filtri utilizzati come punti di controllo in Fallout devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Fallout. Con Fallout in contesto persona, i segmenti utilizzati come punti di controllo devono essere segmenti basati su sessione o eventi. Con Fallout in contesto di sessione, i segmenti utilizzati come punto di controllo devono essere segmenti basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un segmento incompatibile come punto di contatto, viene visualizzato un avviso per la visualizzazione Abbandono. Alcune combinazioni di contenitori di segmenti non valide generano diagrammi di fallout non validi, ad esempio:
+>I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con Fallout in contesto persona, i segmenti utilizzati come punti di controllo devono essere segmenti basati su sessione o eventi. Con Fallout in contesto di sessione, i segmenti utilizzati come punto di controllo devono essere segmenti basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un segmento incompatibile come punto di contatto, viene visualizzato un avviso per la visualizzazione Abbandono. Alcune combinazioni di contenitori di segmenti non valide generano diagrammi di fallout non validi, ad esempio:
 >
 >* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona
 >* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione
@@ -30,9 +30,9 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
    ![Menu a discesa Punto di contatto con Crea segmento dal punto di contatto evidenziato.](assets/fallout-createfilter.png)
 
-   Verrà aperto [!UICONTROL Filter builder], precompilato con il segmento sequenziale predefinito che corrisponde al punto di contatto selezionato:
+   Verrà aperto [!UICONTROL Segment builder], precompilato con il segmento sequenziale predefinito che corrisponde al punto di contatto selezionato:
 
-   ![Il Generatore di filtri visualizza il segmento sequenziale precompilato e precompilato.](assets/fallout-definefilter.png)
+   ![Il Generatore di segmenti visualizza il segmento sequenziale precompilato e precompilato.](assets/fallout-definefilter.png)
 
 1. Assegna al segmento un titolo e una descrizione e salvalo.
 
@@ -50,8 +50,8 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
 
-1. Selezionare i segmenti da confrontare dal pannello [!UICONTROL Filter] a sinistra. Nell&#39;esempio vengono selezionati tre segmenti: *Dettagli volo: Pagina Versione A*, *Dettagli volo: Pagina Versione B* e *Dettagli volo: Pagina Versione C*.
-1. Trascina i tre segmenti nella zona di rilascio Filtro, nella parte superiore della visualizzazione.
+1. Selezionare i segmenti da confrontare dal pannello [!UICONTROL Segment] a sinistra. Nell&#39;esempio vengono selezionati tre segmenti: *Dettagli volo: Pagina Versione A*, *Dettagli volo: Pagina Versione B* e *Dettagli volo: Pagina Versione C*.
+1. Trascina i tre segmenti nella zona di rilascio Segmento, nella parte superiore della visualizzazione.
 
 
 1. Facoltativo: è possibile mantenere *Tutte le visite* come contenitore predefinito o eliminare il contenitore.

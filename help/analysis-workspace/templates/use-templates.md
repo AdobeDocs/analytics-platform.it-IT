@@ -4,7 +4,7 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '19643'
 ht-degree: 99%
@@ -67,7 +67,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli della s
    >
    >Per ulteriori informazioni sulle etichette di contesto, consulta [Impostazioni dei componenti](/help/data-views/component-settings/overview.md).
 
-   1. Seleziona l’icona del filtro.
+   1. Seleziona l’icona del segmento.
 
    1. Seleziona **[!UICONTROL Not ready for use]** per visualizzare i modelli che richiedono componenti aggiuntivi.
 
@@ -106,7 +106,7 @@ Per personalizzare un modello e salvarlo come progetto:
 1. Esegui una delle operazioni seguenti:
 
    * Visualizza il modello.
-   * Puoi trascinare uno o più filtri nella zona di rilascio Filtro, nella parte superiore. Ad esempio, trascina il filtro [!UICONTROL **Clienti mobile**] e visualizza i risultati.
+   * Puoi trascinare uno o più segmenti nella zona di rilascio Segmento, nella parte superiore. Ad esempio, trascina il segmento [!UICONTROL **Clienti mobile**] e visualizza i risultati.
    * Modifica l’intervallo di date andando sul calendario in alto a destra.
    * Aggiungi raggruppamenti di dimensioni, trascina altre metriche e personalizza il modello a livello generale in base alle tue esigenze.
 

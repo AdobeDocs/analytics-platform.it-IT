@@ -4,7 +4,7 @@ description: Interagire con elementi dimensionali dinamici e statici nelle tabel
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 44%
@@ -32,7 +32,7 @@ Gli elementi dimensionali dinamici dispongono dell&#39;opzione filtro righe ![Fi
 
 Gli elementi dimensionali statici non cambiano con il tempo, sono componenti fissi che vengono sempre restituiti in una tabella a forma libera. Gli elementi dimensionali statici sono consigliati quando si desidera analizzare sempre gli stessi elementi, siano essi campagne o giorni della settimana specifici.
 
-Ogni volta che selezioni e rilasci manualmente valori di componenti specifici (dimensione, metrica, filtro, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne.
+Ogni volta che selezioni e rilasci manualmente valori di componenti specifici (dimensione, metrica, segmento, intervallo di date) in una tabella, il risultato è un elenco statico di righe o colonne.
 
 Ad esempio, quando trascini su specifici elementi della dimensione Tipo di browser, come Microsoft e Apple, questi due elementi specifici vengono sempre inseriti nella tabella.
 
@@ -46,7 +46,7 @@ Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l&#39;intestazione di riga indica **[!UICONTROL Mixed Dimensions]**. Questi elementi dimensionali sono statici. Ad esempio, è possibile aggiungere elementi dimensionali specifici dalla dimensione Gruppo di browser e altri elementi dimensionali dalla dimensione Nome browser.
 
-![Tabella a forma libera che evidenzia la colonna Dimension misti.](assets/mixed-dimensions.png)
+![Tabella a forma libera che evidenzia la colonna Dimensioni miste.](assets/mixed-dimensions.png)
 
 ## Righe del totale a forma libera
 

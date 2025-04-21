@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: a7bd67894b02174d980a730086f89df97b524356
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2285'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -183,7 +183,7 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuoverli dalla tabella durante un’esportazione di tabella completa:
 
 * Metriche calcolate che utilizzano funzioni di base o avanzate nella definizione della metrica (per ulteriori informazioni, consulta [Funzioni di base](/help/components/calc-metrics/cm-functions.md) e [Funzioni avanzate](/help/components/calc-metrics/cm-adv-functions.md))
-* Non è possibile esportare i componenti per i quali un amministratore ha impostato un limite (per ulteriori informazioni, consulta la sezione *Filtro sui criteri di governance dei dati nelle visualizzazioni dati* in [Etichette e criteri](/help/data-views/data-governance.md))
+* Non è possibile esportare i componenti per i quali un amministratore ha impostato un limite (per ulteriori informazioni, consulta la sezione *Segmento sui criteri di governance dei dati nelle visualizzazioni dati* in [Etichette e criteri](/help/data-views/data-governance.md))
 * Qualsiasi dimensione che soddisfi tutti i seguenti criteri:
    * È stato creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md) (simile alle variabili con più valori in Adobe Analytics)
    * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md)
@@ -197,7 +197,7 @@ I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuo
    * Metriche calcolate
    * Metriche
    * Intervalli di date
-   * Filtri
+   * Segmenti
 
 ### Comportamento attribuzione
 

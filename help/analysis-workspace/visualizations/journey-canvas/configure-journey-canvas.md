@@ -1,10 +1,10 @@
 ---
 description: Configurare una visualizzazione area di lavoro del percorso
-title: Area di lavoro percorso
+title: Area di lavoro del percorso
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '6207'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti.
 
-![Area di lavoro Percorsi](assets/journey-canvas.png)
+![Area di lavoro del percorso](assets/journey-canvas.png)
 
 ## Panoramica dell’area di lavoro del percorso
 
@@ -23,7 +23,7 @@ Per ulteriori informazioni sull&#39;area di lavoro di Percorso, vedere [Panorami
 
 * Funzioni chiave
 
-* Potenziali informazioni
+* Informazioni approfondite potenziali
 
 * Differenze tra area di lavoro del Percorso e Abbandono
 
@@ -118,9 +118,9 @@ Puoi creare i nodi nei seguenti modi: trascinando i componenti di Workspace dall
    | Elemento dimensione | Area vuota dell’area di lavoro | Il nodo visualizza il punto in cui il componente è stato rilasciato, senza connessione con alcun nodo esistente. |
    | Elemento dimensione | Un nodo esistente | Il componente viene combinato automaticamente con il nodo esistente. |
    | Elemento dimensione | Una freccia che connette 2 nodi esistenti | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p> |
-   | Filtro | Area vuota dell’area di lavoro | Il nodo mostra dove il componente è stato rilasciato senza essere connesso con altri nodi.<p>Il numero e la percentuale visualizzati sul nodo includono il totale della metrica principale, segmentato per il segmento selezionato.</p> <p>Ad esempio, se Persone è selezionata come metrica principale per il percorso, l’aggiunta di un segmento di Oggi a un’area vuota dell’area di lavoro mostra tutte le persone che hanno avuto un evento oggi.</p> |
-   | Filtro | Un nodo esistente | Applica il segmento al nodo esistente. |
-   | Filtro | Una freccia che connette 2 nodi | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Applica il segmento al punto del percorso in cui è stato rilasciato il componente.</p> |
+   | Segmento | Area vuota dell’area di lavoro | Il nodo mostra dove il componente è stato rilasciato senza essere connesso con altri nodi.<p>Il numero e la percentuale visualizzati sul nodo includono il totale della metrica principale, segmentato per il segmento selezionato.</p> <p>Ad esempio, se Persone è selezionata come metrica principale per il percorso, l’aggiunta di un segmento di Oggi a un’area vuota dell’area di lavoro mostra tutte le persone che hanno avuto un evento oggi.</p> |
+   | Segmento | Un nodo esistente | Applica il segmento al nodo esistente. |
+   | Segmento | Una freccia che connette 2 nodi | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Applica il segmento al punto del percorso in cui è stato rilasciato il componente.</p> |
    | Intervallo date | Area vuota dell’area di lavoro | Il nodo visualizza il punto in cui il componente è stato rilasciato, senza connessione con altri nodi.<p>Il numero e la percentuale visualizzati sul nodo includono il totale della metrica principale, segmentato per l’intervallo di date selezionato.</p> <p>Se ad esempio si seleziona Persone come metrica principale per il percorso, l’aggiunta di un intervallo di date Questo mese a un’area vuota dell’area di lavoro mostra tutte le persone che hanno avuto un evento nel corso del mese corrente.</p> |
    | Intervallo date | Un nodo esistente | Applica l’intervallo di date al nodo esistente. |
    | Intervallo date | Una freccia che connette 2 nodi | Il nodo viene visualizzato tra i due nodi esistenti in cui il componente è stato rilasciato ed è connesso a entrambi i nodi esistenti. (Vedi [Connetti nodi](#connect-nodes) per ulteriori informazioni.)</p><p>Applica l’intervallo di date al punto del percorso in cui è stato rilasciato il componente.</p> |
@@ -274,10 +274,10 @@ La logica applicata ai nodi quando vengono combinati varia a seconda dei tipi di
 | Metrica + Metrica | Unito con OR |
 | Elemento Dimension + Elemento Dimension (dalla stessa dimensione padre) | Unito con OR |
 | Elemento Dimension + Elemento Dimension (da dimensioni padre diverse) | Unito con AND |
-| Filtro + Filtro | Unito con AND |
-| Dimension + metrica, intervallo di date o filtro | Unito con AND |
-| Intervallo di date + Metrica, Filtro o Dimension | Unito con AND |
-| Filtro + metrica, intervallo di date o Dimension | Unito con AND |
+| Segmento + Segmento | Unito con AND |
+| Dimension + metrica, intervallo di date o segmento | Unito con AND |
+| Intervallo di date + Metrica, Segmento o Dimension | Unito con AND |
+| Segmento + metrica, intervallo di date o Dimension | Unito con AND |
 
 ### Connetti nodi
 
@@ -546,7 +546,7 @@ Per visualizzare i dati di tendenza:
 
 Puoi creare un nuovo segmento basato su un nodo o una freccia all’interno di un percorso. Dopo la creazione del segmento, puoi utilizzarlo ovunque in Analysis Workspace.
 
-I filtri creati dall&#39;area di lavoro del Percorso utilizzano [segmentazione sequenziale](/help/components/filters/seg-sequential-build.md). Questo significa che il segmento utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) che le persone hanno attraversato, fino al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel segmento.
+I segmenti creati dall&#39;area di lavoro del Percorso utilizzano [la segmentazione sequenziale](/help/components/filters/seg-sequential-build.md). Questo significa che il segmento utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) che le persone hanno attraversato, fino al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel segmento.
 
 Se crei un segmento basato su un nodo che include più percorsi, tutti i percorsi vengono inclusi nel segmento. I percorsi separati vengono uniti con l&#39;operatore OR.
 
@@ -556,9 +556,9 @@ Per creare un segmento:
 
 1. Seleziona [!UICONTROL **Crea segmento dal nodo**] o [!UICONTROL **Crea segmento dalla freccia**].
 
-   Viene visualizzato il Generatore di filtri. Nella sezione [!UICONTROL **Definition**], la definizione del segmento viene creata in base al nodo o alla freccia selezionati e al relativo contesto all&#39;interno del percorso.
+   Viene visualizzato il Generatore di segmenti. Nella sezione [!UICONTROL **Definition**], la definizione del segmento viene creata in base al nodo o alla freccia selezionati e al relativo contesto all&#39;interno del percorso.
 
-1. Specifica un titolo per il segmento e apporta eventuali altre modifiche. Per ulteriori informazioni sulla creazione di un segmento, vedere [Generatore di filtri](/help/components/filters/filter-builder.md).
+1. Specifica un titolo per il segmento e apporta eventuali altre modifiche. Per ulteriori informazioni sulla creazione di un segmento, vedere [Generatore di segmenti](/help/components/filters/filter-builder.md).
 
 1. Seleziona [!UICONTROL **Salva**] per salvare il segmento.
 

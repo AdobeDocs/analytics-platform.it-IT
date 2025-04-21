@@ -4,10 +4,10 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -47,8 +47,8 @@ Quando si seleziona l’intestazione della dimensione, sono disponibili le segue
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli Appunti. |
-| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Massimo 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
+| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
 | **[!UICONTROL Download selection as CSV]** | Scarica immediatamente gli elementi dimensionali della visualizzazione sul dispositivo locale. |
 | **[!UICONTROL Create hyperlink for all dimension items]** | Crea collegamenti ipertestuali per tutti gli elementi dimensionali. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Edit hyperlink for all dimension items]** | Modifica i collegamenti ipertestuali per tutti gli elementi dimensionali. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
@@ -66,12 +66,12 @@ Quando si selezionano uno o più elementi dimensionali (prima colonna) o una o p
 | **[!UICONTROL Create hyperlink]** | Crea un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Edit hyperlink]** | Modificare un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Remove hyperlink]** | Rimuove un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
-| **[!UICONTROL Breakdown]** | Suddividi l’elemento dimensione. Selezionare dall&#39;elenco di **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Filters]** o **[!UICONTROL Date ranges]**. Ricerca alternativa per un componente, utilizzando *Ricerca*. |
+| **[!UICONTROL Breakdown]** | Suddividi l’elemento dimensione. Selezionare dall&#39;elenco di **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Segments]** o **[!UICONTROL Date ranges]**. Ricerca alternativa per un componente, utilizzando *Ricerca*. |
 | **[!UICONTROL Delete selected]** | Elimina le righe (elementi) selezionate. |
 | **[!UICONTROL Trend selection]** | Crea una visualizzazione con grafico a linee di tendenza per la selezione. |
 | **[!UICONTROL Display only selected rows]** | Visualizza solo le righe selezionate nella visualizzazione. |
 | **[!UICONTROL Display all rows]** | Visualizza tutte le righe della visualizzazione. |
-| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Filter builder]** per creare un segmento dalla selezione. |
+| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Segment builder]** per creare un segmento dalla selezione. |
 | **[!UICONTROL Create audience from selection]** | Apri la finestra di dialogo **[!UICONTROL Create audience]** per creare un pubblico dalla selezione. |
 
 Quando si seleziona un’intestazione di colonna di una metrica, sono disponibili le seguenti opzioni aggiuntive del menu di scelta rapida.
@@ -85,7 +85,7 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | **[!UICONTROL Compare attribution model]** | Specifica un nuovo modello di attribuzione e confrontalo con il modello di attribuzione per la colonna selezionata. Viene aggiunta una nuova colonna con le nuove metriche del modello di attribuzione. Inoltre, viene aggiunta una colonna Percentuale di variazione per il confronto. |
 | **[!UICONTROL Reset column widths]** | Ripristina la larghezza predefinita delle colonne. |
 | **[!UICONTROL Create annotation from selection]** | Apri **[!UICONTROL Annotation details]** per aggiungere un&#39;annotazione. |
-| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Filter builder]** per creare un segmento dalla selezione. |
+| **[!UICONTROL Create segment from selection]** | Apri **[!UICONTROL Segment builder]** per creare un segmento dalla selezione. |
 | **[!UICONTROL Create audience from selection]** | Apri la finestra di dialogo **[!UICONTROL Create audience]** per creare un pubblico dalla selezione. |
 
 ## Modificare l&#39;altezza delle righe

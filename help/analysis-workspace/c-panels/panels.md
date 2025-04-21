@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2003'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -136,26 +136,26 @@ Seleziona **[!UICONTROL Apply to all panels]** per applicare l’intervallo di d
 
 La zona di rilascio del pannello consente di applicare segmenti e segmenti a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più segmenti a un pannello.
 
-### Filtri
+### Segmenti
 
-Per iniziare a segmentare il pannello, trascina un segmento dal pannello di sinistra fino alla zona di rilascio del pannello. Ripeti questo processo per aggiungere altri segmenti al pannello. I filtri vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
+Per iniziare a segmentare il pannello, trascina un segmento dal pannello di sinistra fino alla zona di rilascio del pannello. Ripeti questo processo per aggiungere altri segmenti al pannello. I segmenti vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
 
 ![Il pannello di sinistra mostra le metriche disponibili e la metrica del cliente mobile trascinata nella zona di rilascio del pannello.](assets/segment-filter.png)
 
 #### Segmenti rapidi
 
-Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi, risparmiando tempo e fatica nel [Generatore di segmenti](/help/components/filters/filter-builder.md). I filtri creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
+Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi, risparmiando tempo e fatica nel [Generatore di segmenti](/help/components/filters/filter-builder.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
 
 
 Per ulteriori informazioni, consultare [Segmenti rapidi](/help/components/filters/quick-filters.md).
 
 ![Segmenti ad hoc resi pubblici ed eliminati nella zona di rilascio](assets/adhoc-segment-filter.png)
 
-### Filtri a discesa
+### Segmenti a discesa
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
