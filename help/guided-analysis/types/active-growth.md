@@ -5,10 +5,10 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ La barra delle query consente di configurare i seguenti componenti:
 * **[!UICONTROL View]**: consente di passare da questa analisi a [Crescita netta](net-growth.md).
 * **[!UICONTROL Events]**: l’evento che desideri misurare. Poiché questa analisi è basata sull’utente, vengono conteggiati come utenti attivi anche coloro che interagiscono con l’evento una volta nell’arco del periodo. Puoi includere un evento in una query.
 * **[!UICONTROL Counted as]**: il metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
-* **[!UICONTROL Segments]**: il segmento in base al quale filtrare i dati. Puoi includere un segmento in una query.
+* **[!UICONTROL Segments]**: segmento in base al quale si desidera segmentare i dati. Puoi includere un segmento in una query.
 
 ### Impostazioni del grafico
 

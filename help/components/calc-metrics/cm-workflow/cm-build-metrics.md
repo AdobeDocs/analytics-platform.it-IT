@@ -1,12 +1,12 @@
 ---
-description: Il Generatore di metriche calcolate fornisce un’area di lavoro in cui trascinare metriche, dimensioni, filtri e funzioni per creare metriche personalizzate basate sulla logica gerarchica, le regole e gli operatori del contenitore. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
+description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare dimensioni, metriche, segmenti e funzioni e creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -156,7 +156,7 @@ Utilizza il concetto di contenitore di segmenti per creare una [metrica segmenta
 * Per aggiungere un contenitore di segmenti da una dimensione:
 
    1. Trascina un componente ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
-   1. Nel popup **[!UICONTROL Create Filter from Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. Nel popup **[!UICONTROL Create Segment from Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Seleziona **[!UICONTROL Done]**. Contenitore di segmenti aggiunto a **[!UICONTROL Definition]**.
 
 
@@ -165,11 +165,11 @@ Utilizza il concetto di contenitore di segmenti per creare una [metrica segmenta
    * Trascina e rilascia un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Cerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
 Automaticamente un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**, utilizzando il nome del segmento.
 
-   * Trascina un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Filters]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
+   * Trascina un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
 
    * Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dall’interno di un contenitore:
 
-      1. Seleziona **[!UICONTROL Filter]**. Contenitore di segmenti aggiunto a **[!UICONTROL Definition]**.
+      1. Seleziona **[!UICONTROL Segment]**. Contenitore di segmenti aggiunto a **[!UICONTROL Definition]**.
       1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
 
   >[!TIP]
@@ -182,7 +182,7 @@ Per rimuovere un segmento da un contenitore:
 
 * Seleziona ![Chiudi](/help/assets/icons/Close.svg) accanto al nome del segmento.
 
-Per ulteriori dettagli ed esempi, consulta [Metriche filtrate](metrics-with-segments.md).
+Per ulteriori dettagli ed esempi, vedi [Metriche segmentate](metrics-with-segments.md).
 
 #### Contenitore funzione
 
@@ -218,6 +218,6 @@ Per eliminare un contenitore, seleziona ![Close](/help/assets/icons/Close.svg) a
 >[!MORELIKETHIS]
 >
 >[Usare le funzioni](cm-using-functions.md)
->[Filtri](/help/components/filters/filters-overview.md)
+>[Segmenti](/help/components/filters/filters-overview.md)
 >
 

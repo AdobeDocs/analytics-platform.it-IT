@@ -2,8 +2,8 @@
 title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
 * **[!UICONTROL Component Type]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi domensionali includono:
    * [!UICONTROL Dimension]
    * [!UICONTROL Metric]
-   * [!UICONTROL Filter]
+   * [!UICONTROL Segment]
    * [!UICONTROL Calculated metric]
    * [!UICONTROL Date range]
    * [!UICONTROL Annotation]

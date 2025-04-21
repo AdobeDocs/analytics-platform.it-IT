@@ -4,7 +4,7 @@ title: Condividere segmenti
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 12%
@@ -22,9 +22,9 @@ Per condividere uno o più segmenti:
 
 1. Nel [Gestore segmenti](manage-filters.md), seleziona uno o più segmenti da condividere.
 1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
-1. Nella finestra di dialogo **[!UICONTROL Share Filters]** (Crea elemento dati):
+1. Nella finestra di dialogo **[!UICONTROL Share Segments]** (Crea elemento dati):
 
-   ![Finestra di dialogo Condividi filtri](assets/share-filter-dialog.png)
+   ![Finestra di dialogo Condividi segmento](assets/share-filter-dialog.png)
 
    1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per *Cerca singoli utenti o gruppi* e limita l&#39;elenco di gruppi o singoli utenti con cui si desidera condividere il segmento.
 

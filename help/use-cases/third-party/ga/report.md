@@ -5,10 +5,10 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -56,9 +56,9 @@ Con una metrica calcolata, puoi applicare tale attribuzione ai ricavi dal web, d
 
 ![Metrica calcolata](../../assets/calc-metric.png)
 
-Attribution IQ consente inoltre di filtrare i dati. Puoi visualizzare l’attribuzione rispetto a solo specifici set di utenti, ad esempio considerando solo chi utilizza più dispositivi.
+Attribution IQ consente inoltre di segmentare i dati. Puoi visualizzare l’attribuzione rispetto a solo specifici set di utenti, ad esempio considerando solo chi utilizza più dispositivi.
 
-![Filtro](../../assets/filter.png)
+![Segmento](../../assets/filter.png)
 
 Puoi anche attribuire i ricavi dal sito web e dall’app ai contenuti Google Ad. L’esempio di questo set di dati ha portato maggiori ricavi dall’app mobile guidata da Google Ads online che dal web. Ordinando gli annunci in base ai ricavi derivanti dal web e dall’app, ottieni un quadro diverso di quali siano gli annunci Google Ads più preformanti.
 

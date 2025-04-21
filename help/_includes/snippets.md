@@ -1,5 +1,5 @@
 ---
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
 workflow-type: tm+mt
 source-wordcount: '3756'
 ht-degree: 30%
@@ -200,8 +200,8 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 | **percorsi non lineari con più punti di ingresso e percorsi** | Sì | No | Sì |
 | **Metrica primaria** | Qualsiasi metrica, comprese quelle calcolate. | Solo sessione o persona | Solo occorrenze (visualizzazioni percorso) |
 | **Metrica secondaria** | Sì<p>Qualsiasi metrica, comprese quelle calcolate.</p> | No | No |
-| **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, filtri e intervalli di date. | Metriche, elementi dimensionali, filtri e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
-| **Confronta filtri** | No | Sì<p>Eseguire confronti affiancati di due diversi filtri nello stesso rapporto</p> | No |
+| **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, segmenti e intervalli di date. | Metriche, elementi dimensionali, segmenti e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
+| **Confronto dei segmenti** | No | Sì<p>Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto</p> | No |
 | **Interazione tramite trascinamento** | Sì | Sì | No |
 | **percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per un&#39;analisi e una personalizzazione più approfondite. | No | No |
 

@@ -4,19 +4,19 @@ description: Scopri i segmenti utilizzati e come creare un segmento semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1426'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 
 # Panoramica sulla segmentazione
 
-Customer Journey Analytics ti consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti. I filtri ti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni. I filtri sono progettati come approfondimenti codificati del pubblico che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
+Customer Journey Analytics ti consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti. I segmenti ti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni. I segmenti sono progettati come informazioni codificate sul pubblico che puoi creare in base alle tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo.
 
-I filtri possono essere basati su:
+I segmenti possono essere basati su:
 
 - attributi (tipo di browser, dispositivo, numero di visite, paese, genere),
 - interazioni (campagne, ricerca di parole chiave, motore di ricerca),
@@ -119,7 +119,7 @@ Il contenitore Persona include ogni sessione e ogni evento per le persone che si
 - Tutte le sessioni per queste persone.
 - Tutti i dati evento per queste persone.
 
-Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono eventi e sessioni per tutte le persone che si qualificano per il filtro. Il contenitore Persona è quello più suscettibile a modifiche in base a intervalli di date definiti.
+Poiché è il contenitore definito in modo più ampio, i rapporti generati a livello del contenitore Persona restituiscono eventi e sessioni per tutte le persone idonee per il segmento. Il contenitore Persona è quello più suscettibile a modifiche in base a intervalli di date definiti.
 I contenitori Persona possono includere valori basati sulla cronologia generale di una persona:
 
 - Giorni precedenti al primo acquisto.
@@ -191,7 +191,7 @@ You can use nesting between containers and between conditions within a container
 
 Traditional Analytics comes with numerous out-of-the-box templates and calculated metrics. Many of them do not apply in Customer Journey Analytics, or have to be renamed or recreated. Others depend on a solution for context-aware variables in Customer Journey Analytics.
 
-| Filter Name | Description |
+| Segment Name | Description |
 | --- | --- |
 | All Data | All Data is a required segment that gets dynamically added to reporting when a metric is added to the row of a Freeform table. |
 -->

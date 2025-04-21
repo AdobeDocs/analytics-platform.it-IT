@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 88%
@@ -73,7 +73,7 @@ Questa visualizzazione ti aiuta a capire come CCA unisce i dati.
    * Contenitore Persona in cui l’ID del set di dati è uguale ai dati Web
    * Contenitore Persone in cui l’ID del set di dati è uguale ai dati del call center
 2. In Analysis Workspace, trascina una visualizzazione [Venn](/help/analysis-workspace/visualizations/venn.md) nell’area di lavoro di Workspace.
-3. Trascinare i due segmenti appena creati nell&#39;area **[!UICONTROL Add Filter]** e la metrica Persone nell&#39;area **[!UICONTROL Add Metric]**.
+3. Trascinare i due segmenti appena creati nell&#39;area **[!UICONTROL Add Segment]** e la metrica Persone nell&#39;area **[!UICONTROL Add Metric]**.
 
 La visualizzazione Venn risultante mostra il numero di persone nel set di dati che contengono sia dati Web che i dati call center. Maggiore è la sovrapposizione, più persone sono state unite correttamente. Le aree che non si sovrappongono rappresentano le persone che risiedono esclusivamente in un set di dati o nell’altro.
 

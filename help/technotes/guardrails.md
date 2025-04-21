@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -187,10 +187,10 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Contenitori per filtro | 50 | Guardrail imposto dal sistema | Numero massimo di contenitori per segmento. |
+| Contenitori per segmento | 50 | Guardrail imposto dal sistema | Numero massimo di contenitori per segmento. |
 | Metriche per metrica calcolata | 25 | Guardrail imposto dal sistema | Numero massimo di metriche per metrica calcolata. |
-| Metriche e dimensioni per filtro | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per segmento. |
-| Contenitori nidificati per filtro | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per segmento. |
+| Metriche e dimensioni per segmento | 25 | Guardrail imposto dal sistema | Numero massimo di metriche e dimensioni univoche per segmento. |
+| Contenitori nidificati per segmento | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per segmento. |
 | Regole per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di regole per segmento. |
 | Confronti di stringhe per Dimension per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per segmento. |
 | Metriche calcolate  | 6.000 | Guardrail imposto dal sistema | Numero massimo di metriche calcolate per un’organizzazione. |

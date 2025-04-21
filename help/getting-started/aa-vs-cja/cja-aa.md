@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 96%
+source-wordcount: '2432'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Variabili elenco/Prop elenco** | Supporto completo. Customer Journey Analytics sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | **eVar di merchandising** | Supporto completo tramite [dimensioni di binding e metriche di binding](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=it#binding-dimension) |
 | **Metriche** | Supporto completo; Customer Journey Analytics utilizza Experience Data Model (XDM), supporta metriche illimitate e non è legato agli eventi di successo personalizzati di Adobe Analytics. Alcune metriche standard sono state rinominate da Adobe Analytics: Visitatori = Persone, Visite = Sessioni, Hit = Eventi. |
-| **Migrazione di progetti, filtri e metriche calcolate da Adobe Analytics a Customer Journey Analytics** | Supporto completo. |
+| **Migrazione di progetti, segmenti e metriche calcolate da Adobe Analytics a Customer Journey Analytics** | Supporto completo. |
 | **Scorecard mobile/Dashboard** | Supporto completo |
 | **Pannelli** | Supporto completo per i seguent pannelli: pannello vuoto, pannello di attribuzione, pannello a forma libera, Quick Insights ed elemento Successivo o Precedente. |
 | **Esportazione PDF** | Supporto completo |
@@ -73,7 +73,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Elaborazione dell&#39;ora rapporto** | Supporto completo; Customer Journey Analytics si basa esclusivamente sull’elaborazione dei tempi di reporting. |
 | **Accesso API di reporting** | Supporto completo; disponibile tramite l’[API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/). |
 | **Rapporti/progetti pianificati** | Supporto completo |
-| **Segmenti** | Supporto completo. Ora denominati “Filtri”: tieni presente che eventuali segmenti esistenti nella versione tradizionale di Analysis Workspace non vengono caricati in Customer Journey Analytics. |
+| **Segmenti** | Supporto completo. (Precedentemente denominati &quot;Filtri&quot;). |
 | **Streaming Media Collection** | I dati multimediali in streaming sono disponibili tramite il connettore di origine di Analytics come parte del pannello Visualizzatori simultanei di contenuti multimediali e del pannello Tempo di riproduzione multimediale utilizzato in Workspace. |
 | **Origini dati a livello di riepilogo** | Supporto completo |
 | **Suite di rapporti virtuali** | Supporto completo. Ora questa funzione è denominata [Visualizzazioni dati](/help/data-views/create-dataview.md). |
@@ -109,7 +109,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Variabile dei prodotti** | In Experience Platform, per soddisfare questo caso d’uso, gli utenti possono utilizzare un array di oggetti all’interno di uno schema di set di dati. In Customer Journey Analytics gli utenti possono utilizzare un qualsiasi numero di variabili di prodotto, senza essere vincolati a una singola variabile come accade invece in Adobe Analytics. |
 | **Condivisione dei progetti** | La condivisione dei progetti è supportata solo tra gli utenti di Customer Journey Analytics, non esiste tra Customer Journey Analytics e la versione tradizionale di Analysis Workspace. |
 | **Report Builder** | Supportato con un nuovo plug-in di Office 365 per Excel. |
-| **Autorizzazioni utente/Controlli dell’accesso ai dati** | Customer Journey Analytics distingue tra amministratori di prodotto, amministratori di prodotto di [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e amministratori e utenti dei profili di prodotto. Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, filtri o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, segmenti o annotazioni. |
+| **Autorizzazioni utente/Controlli dell’accesso ai dati** | Customer Journey Analytics distingue tra amministratori di prodotto, amministratori di prodotto di [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e amministratori e utenti dei profili di prodotto. Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, segmenti o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, segmenti o annotazioni. |
 | **Visualizzazioni** | Sono supportate tutte le visualizzazioni Workspace, tranne la visualizzazione Mappa. |
 | **Unione cross-device/cross-channel** | Supportata per i set di dati evento contenenti informazioni di identità. Consulta [Unione](../../stitching/overview.md). |
 

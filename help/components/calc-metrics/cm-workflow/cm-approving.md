@@ -3,9 +3,9 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ Per approvare le metriche calcolate:
 
 Per annullare l’approvazione delle metriche calcolate:
 
-1. In [Gestione filtri](cm-approving.md), selezionare una o più metriche calcolate che si desidera annullare l&#39;approvazione.
+1. In [Gestione metriche calcolate](cm-approving.md), selezionare una o più metriche calcolate che si desidera annullare l&#39;approvazione.
 1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
 

@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1242'
 ht-degree: 32%
 
 ---
@@ -69,7 +69,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## Applicare filtri agli eventi secondari {#sub-event}
 
-Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di evento secondario, mentre i filtri (segmenti) generati nel generatore di filtri consentono di filtrare solo a livello di evento. Pertanto, puoi filtrare gli eventi secondari utilizzando inclusione/esclusione nelle visualizzazioni dati, e quindi fare riferimento a tale nuova metrica/dimensione in un filtro a livello di evento.
+Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di evento secondario, mentre i segmenti generati nel Generatore di segmenti consentono di filtrare solo a livello di evento. Puoi filtrare gli eventi secondari utilizzando inclusione/esclusione nelle visualizzazioni dati e quindi fare riferimento a tale nuova metrica/dimensione in un segmento a livello di evento.
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite superiori a 50 $. Pertanto, se un ordine include un acquisto di prodotti da 50 $ e un acquisto di prodotti da 25 $, la funzionalità di inclusione/esclusione rimuove l’acquisto di prodotti da 25 $ e non l’intero ordine.
 

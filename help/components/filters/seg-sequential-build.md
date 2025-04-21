@@ -3,7 +3,7 @@ description: I segmenti sequenziali sono segmenti che utilizzano l’operatore T
 title: Segmenti sequenziali
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Un segmento sequenziale ha alcune [funzionalità di base](#basics) e opzioni agg
 
 
 
-Le nozioni di base per la creazione di un segmento sequenziale non sono diverse dalla creazione di un segmento regolare utilizzando il [Generatore di segmenti](filter-builder.md). È possibile utilizzare il [Generatore di definizioni](filter-builder.md#definition-builder) per creare la definizione del segmento. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica. Un segmento regolare diventa un filtro sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](filter-builder.md#definition-builder).
+Le nozioni di base per la creazione di un segmento sequenziale non sono diverse dalla creazione di un segmento regolare utilizzando il [Generatore di segmenti](filter-builder.md). È possibile utilizzare il [Generatore di definizioni](filter-builder.md#definition-builder) per creare la definizione del segmento. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica. Un segmento regolare diventa un segmento sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](filter-builder.md#definition-builder).
 
 ### Esempi
 
