@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 11e6d5a2aace4554b48c05c2316061de1e628108
+exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
+source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ I commenti in Analysis Workspace consentono di condividere informazioni approfon
 >* **Organizzazione:** L&#39;amministratore di Customer Journey Analytics può disabilitare questa funzionalità per l&#39;organizzazione, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md).
 
 ## Visualizza commenti
+
+Puoi visualizzare i commenti dall’area commenti nella barra a destra o dal badge del commento, se presente.
+
+![Visualizza commenti in Analysis Workspace](assets/workspace-comments-view.png)
 
 ### Visualizza commenti nell&#39;area commenti
 
@@ -61,6 +66,12 @@ Per aggiungere un commento a un’area specifica del progetto (ad esempio un val
 
 1. Con il progetto aperto in Analysis Workspace, fai clic con il pulsante destro del mouse sull’area del progetto in cui desideri inserire il commento.
 
+   Tutte le visualizzazioni supportano i badge di commento nell’intestazione della visualizzazione, ma solo le visualizzazioni seguenti supportano i badge di commento su punti di dati specifici all’interno della visualizzazione:
+
+   * Tabella a forma libera
+   * Tabella coorte
+   * A linee
+
    <!--add screenshot-->
 
 1. Seleziona **[!UICONTROL Add comment]**.
@@ -97,6 +108,8 @@ La funzione di commento in Analysis Workspace semplifica la collaborazione con a
 
 1. Digita il simbolo @, quindi inizia a digitare il nome, il cognome o l’indirizzo e-mail della persona che desideri includere.
 
+   ![utente tag](assets/comments-tag-user.png)
+
 1. Seleziona il nome della persona quando viene visualizzato nel menu a discesa.
 
 Quando si utilizza il simbolo @ per includere le persone in un commento, tenere presente quanto segue:
@@ -122,6 +135,38 @@ Quando si utilizza il simbolo @ per includere le persone in un commento, tenere 
 1. (Facoltativo) Informa un&#39;altra persona del tuo commento digitando il simbolo @ seguito dal suo nome. Per ulteriori informazioni sull&#39;utilizzo del simbolo @ per notificare altri utenti, vedere [Includere altri utenti in un commento](#include-others-in-a-comment).
 
 1. Seleziona **[!UICONTROL Submit]**.
+
+## Inserisci un badge per un commento esistente
+
+Se un commento è disponibile nell’area commenti nella barra a destra, ma non dispone ancora di un badge nel progetto, puoi aggiungere il badge.
+
+1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](assets/comments-area-icon.png) nella barra a destra di Analysis Workspace.
+
+1. Seleziona l&#39;icona altro ![commento-icona-altro](assets/comment-more-icon.png) accanto al commento per il quale vuoi inserire un distintivo, quindi seleziona **[!UICONTROL Place badge]**.
+
+1. Seleziona l’area del progetto in cui desideri inserire il badge per il commento esistente.
+
+   Nell&#39;area del progetto Workspace selezionata è stato inserito un **badge di commento** ![badge di commento](assets/comment-indicator.png). Il commento viene visualizzato anche nella parte superiore dell’area commenti nella barra a destra.
+
+   Per ulteriori informazioni, vedi [Visualizzare i badge di commento in un progetto](#view-comment-badges-in-a-project).
+
+Per rimuovere un badge:
+
+1. Selezionare il badge da rimuovere, quindi selezionare **[!UICONTROL Remove badge]**.
+
+   Il badge viene rimosso, ma il commento è ancora disponibile nell’area commenti nella barra a destra.
+
+## Spostare un badge per un commento esistente
+
+Puoi spostare un badge di commento già inserito per un commento esistente.
+
+1. Con il progetto aperto in Analysis Workspace, individua il badge del commento da spostare.
+
+1. Fare clic con il pulsante destro del mouse sul badge, quindi selezionare **[!UICONTROL Move placement]**.
+
+1. Seleziona l’area del progetto in cui desideri inserire il badge.
+
+<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
 
 ## Copiare il collegamento in un commento
 
@@ -182,36 +227,3 @@ Per risolvere un commento:
 Per impostazione predefinita, i commenti risolti sono nascosti dall&#39;area commenti. Per visualizzare i commenti risolti:
 
 1. Selezionare l&#39;icona del filtro nell&#39;area commenti, quindi deselezionare l&#39;opzione **[!UICONTROL Hide resolved comments]**.
-
-## Inserisci un badge per un commento esistente
-
-Se un commento è disponibile nell’area commenti nella barra a destra, ma non dispone ancora di un badge nel progetto, puoi aggiungere il badge.
-
-1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](assets/comments-area-icon.png) nella barra a destra di Analysis Workspace.
-
-1. Seleziona l&#39;icona altro ![commento-icona-altro](assets/comment-more-icon.png) accanto al commento per il quale vuoi inserire un distintivo, quindi seleziona **[!UICONTROL Place badge]**.
-
-1. Seleziona l’area del progetto in cui desideri inserire il badge per il commento esistente.
-
-   Nell&#39;area del progetto Workspace selezionata è stato inserito un **badge di commento** ![badge di commento](assets/comment-indicator.png). Il commento viene visualizzato anche nella parte superiore dell’area commenti nella barra a destra.
-
-   Per ulteriori informazioni, vedi [Visualizzare i badge di commento in un progetto](#view-comment-badges-in-a-project).
-
-Per rimuovere un badge:
-
-1. Selezionare il badge da rimuovere, quindi selezionare **[!UICONTROL Remove badge]**.
-
-   Il badge viene rimosso, ma il commento è ancora disponibile nell’area commenti nella barra a destra.
-
-## Spostare un badge per un commento esistente
-
-Puoi spostare un badge di commento già inserito per un commento esistente.
-
-1. Con il progetto aperto in Analysis Workspace, individua il badge del commento da spostare.
-
-1. Fare clic con il pulsante destro del mouse sul badge, quindi selezionare **[!UICONTROL Move placement]**.
-
-1. Seleziona l’area del progetto in cui desideri inserire il badge.
-
-<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
-
