@@ -4,10 +4,10 @@ description: Come gestire l’utilizzo di Customer Journey Analytics.
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 43%
+source-wordcount: '256'
+ht-degree: 37%
 
 ---
 
@@ -25,7 +25,7 @@ Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui 
 
 Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione dei dati verrà sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di 25 mesi di dati in Experience Platform, Customer Journey Analytics riceverà 25 mesi di dati tramite backfill. Eliminando10 di questi mesi in Platform, Customer Journey Analytics mantiene i restanti 15 mesi.
 
-La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Se la connessione include qualsiasi profilo o set di dati di ricerca, poiché sono uniti con set di dati evento, i dati vengono conservati in Customer Journey Analytics in base alle impostazioni di conservazione dei dati sui timestamp del set di dati evento.
+La conservazione dei dati si basa su marche temporali e si applica solo ai set di dati evento e ai set di dati di riepilogo. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Se la connessione include qualsiasi profilo o set di dati di ricerca, poiché sono uniti con set di dati evento, i dati vengono conservati in Customer Journey Analytics in base alle impostazioni di conservazione dei dati sui timestamp del set di dati evento.
 
 
 >[!MORELIKETHIS]

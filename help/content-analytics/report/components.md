@@ -1,20 +1,18 @@
 ---
-title: Componenti di analisi dei contenuti
+title: Componenti Content Analytics
 description: Dettagli sui componenti specifici di Content Analytics, come dimensioni, metriche (calcolate) e campi derivati
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 0731eadd403ecb428d36492b83351aa0e696b41f
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
 
 ---
 
-# Componenti di analisi dei contenuti
-
-{{release-limited-testing}}
+# Componenti Content Analytics
 
 Analytics per contenuto aggiunge le seguenti categorie di componenti (dimensioni, metriche (calcolate) e campi derivati) ai componenti già disponibili in Customer Journey Analytics:
 
