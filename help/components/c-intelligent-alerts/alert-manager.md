@@ -4,9 +4,9 @@ title: Gestisci avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '566'
 ht-degree: 18%
 
 ---
@@ -73,7 +73,9 @@ La barra dei filtri mostra i filtri attivi applicati dal pannello dei filtri all
 
 È possibile filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro di controllo. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
 
-{{filterspanel}}
+
+1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l&#39;elenco Avvisi, puoi selezionare ancora ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.
+1. Seleziona i filtri da una qualsiasi delle sezioni disponibili.
 
 
 #### Sezione filtro tag

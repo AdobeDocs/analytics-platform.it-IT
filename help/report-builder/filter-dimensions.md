@@ -6,12 +6,13 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 88%
+source-wordcount: '1007'
+ht-degree: 71%
 
 ---
+
 
 # Dimensioni filtro
 
@@ -21,47 +22,58 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
 1. Seleziona un blocco di dati e fai clic su Modifica blocco di dati nel pannello COMANDI.
 
-1. Fare clic su **[!UICONTROL Next]** per visualizzare la scheda Dimensioni.
+1. Selezionare **[!UICONTROL Next]** per visualizzare la scheda Dimensioni.
 
-1. Fai clic sul pulsante **...** accanto al nome di un componente nella tabella.
+1. Seleziona ![AltroPiccolo](/help/assets/icons/MoreSmall.svg) accanto al nome di un componente nella tabella.
 
    ![Opzioni per l&#39;icona con i puntini di sospensione.](./assets/image27.png)
 
 1. Seleziona **Filter dimension** (Dimensione filtro) nel menu a comparsa per visualizzare il riquadro **Filter dimension** (Dimensione filtro).
 
-1. Seleziona **Most popular** (Più popolari) o **Specific** (Specifici).
+1. Seleziona **Most popular** o **Specific**.
 
    ![Opzione specifica selezionata nel riquadro Dimensione filtro.](./assets/image28.png)
 
 1. Seleziona le opzioni appropriate in base al tipo di filtro scelto.
 
-1. Fai clic su **Apply** (Applica) per aggiungere il filtro.
+1. Fai clic su **Applica** per aggiungere il filtro.
 
    In Report Builder viene visualizzata la conferma del filtro aggiunto.
 
-Per visualizzare i filtri applicati, passa il cursore su una dimensione. Un’icona filtro a destra del nome di una dimensione indica che ci sono stati applicati dei filtri.
+Per visualizzare i filtri applicati, passa il cursore su una dimensione. Le dimensioni con filtri applicati visualizzano un&#39;icona di filtro ![Filtro](/help/assets/icons/Filter.svg) accanto al nome del Dimension.
+
+## Modificare il filtro e l’ordinamento
+
+Accanto alla metrica utilizzata per filtrare e ordinare il blocco di dati viene visualizzata una freccia. La direzione della freccia indica se la metrica è in ordine crescente o decrescente.
+
+Per cambiare la direzione di ordinamento, seleziona la freccia accanto alla metrica.
+
+Per cambiare la metrica utilizzata per filtrare e ordinare il blocco di dati:
+
+1. Passa il puntatore sul componente di metrica desiderato nel generatore di tabelle per visualizzare altre opzioni.
+
+2. Seleziona la freccia sulla metrica preferita.
+
+   ![Generatore di tabelle e metriche.](./assets/image30.png)
+
+
 
 ## Tipo di filtro
 
 Esistono due modi per filtrare gli elementi dimensionali: Most popular (Più popolari) e Specific (Specifici).
 
-## Most popular (Più popolari)
+### Most popular (Più popolari)
 
 L’opzione Most popular (Più popolari) consente di filtrare dinamicamente gli elementi dimensione in base ai valori delle metriche. Il filtro Most popular (Più popolari) restituisce gli elementi dimensione con classificazione più elevata in base ai valori delle metriche. Per impostazione predefinita, sono elencati i primi 10 elementi dimensione, ordinati in base alla prima metrica aggiunta al blocco di dati.
 
 ![L&#39;opzione più comune.](./assets/image29.png)
 
 
-### Opzioni Page (Pagina) e Rows (Righe)
+**Opzioni Page e Rows**
 
 Puoi utilizzare i campi **Page** (Pagina) e **Rows** (Righe) per suddividere i dati in pagine o gruppi sequenziali o pagine. Questo consente di inserire nel rapporto valori di riga diversi dai primi valori. Questa funzione è particolarmente utile per richiamare dati oltre il limite di 50.000 righe.
 
-#### Valori predefiniti per pagina e righe
-
-- Page = 1
-- Rows = 10
-
-Le impostazioni predefinite di Page (Pagina) e Rows (Righe) prevedono che ogni pagina contiene 10 righe di dati. La pagina 1 restituisce i primi 10 elementi, la pagina 2 restituisce i successivi 10 elementi e così via.
+Il valore predefinito per Pagina è 1 e per Righe è 10. Queste impostazioni predefinite implicano che ogni pagina abbia 10 righe di dati. La pagina 1 restituisce i primi 10 elementi, la pagina 2 restituisce i successivi 10 elementi e così via.
 
 La tabella seguente riporta alcuni esempi di valori di pagina e riga e dell’output risultante.
 
@@ -73,16 +85,16 @@ La tabella seguente riporta alcuni esempi di valori di pagina e riga e dell’ou
 | 2 | 100 | Elementi da 101 a 200 |
 | 2 | 50.000 | Elementi da 50.001 a 100.000 |
 
-#### Valori minimi e massimi
+I valori minimo e massimo sono:
 
 - Pagina iniziale: Min = 1, Max: 50 milioni
 - Numero di righe: Min = 1, Max: 50.000
 
 ### Includi “Nessun valore“
 
-In Customer Journey Analytics, alcune dimensioni raccolgono una voce “no value” (nessun valore). Con questo filtro puoi escludere tali valori dai rapporti. Ad esempio, puoi creare una classificazione “Nome prodotto” in base al codice SKU del prodotto. Se per uno SKU di prodotto non è stata impostata una classificazione Nome prodotto specifica, il valore Nome prodotto viene impostato su “No value” (Nessun valore).
+In Customer Journey Analytics, alcune dimensioni raccolgono una voce &quot;No value&quot; (Nessun valore). Con questo filtro puoi escludere tali valori dai rapporti. Ad esempio, puoi creare una classificazione “Nome prodotto” in base al codice SKU del prodotto. Se per uno SKU di prodotto non è stata impostata una classificazione Nome prodotto specifica, il valore Nome prodotto viene impostato su “No value” (Nessun valore).
 
-L’opzione Includi “**Nessun valore**” è selezionata per impostazione predefinita. Per escludere le voci prive di valore, deseleziona questa opzione.
+**[!UICONTROL Include "No value"]** è selezionato per impostazione predefinita. Per escludere le voci prive di valore, deseleziona questa opzione.
 
 ### Filtrare per criterio
 
@@ -96,34 +108,19 @@ Per impostare i criteri da filtrare:
 
 1. Immetti un valore nel campo di ricerca.
 
-1. Fai clic su Add row (Aggiungi riga) per confermare la selezione e aggiungere un altro elemento di criteri.
+1. Seleziona ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Add row]** per confermare la selezione e aggiungere un altro elemento di criteri.
 
-1. Fai clic sull’icona Elimina per rimuovere un elemento di criteri.
+1. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un elemento di criteri.
 
    Puoi includere fino a 10 elementi di criteri.
 
-### Modificare il filtro e l’ordinamento
-
-Accanto alla metrica utilizzata per filtrare e ordinare il blocco di dati viene visualizzata una freccia. La direzione della freccia indica se la metrica è ordinata dal valore maggiore a quello minore o viceversa.
-
-Per cambiare l’ordinamento, fai clic sulla freccia accanto alla metrica. 
-
-Per cambiare la metrica utilizzata per filtrare e ordinare il blocco di dati:
-
-1. Passa il puntatore sul componente di metrica desiderato nel generatore di tabelle per visualizzare altre opzioni.
-
-2. Fai clic sulla freccia della metrica desiderata. 
-
-   ![Generatore di tabelle e metriche.](./assets/image30.png)
-
-
-## Filtri specifici
+### Filtri specifici
 
 L’opzione Specific (Specifici) consente di creare un elenco di elementi dimensione per ogni dimensione. Utilizza il tipo di filtro **Specific** (Specifici) per specificare gli elementi dimensione esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 
 ![Opzioni specifiche ed elementi selezionati.](./assets/image32.png)
 
-### From list (Da elenco)
+#### From list (Da elenco)
 
 1. Seleziona l’opzione **From list** (Da un elenco) per cercare e selezionare gli elementi dimensione.
 
@@ -157,7 +154,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
    Report Builder aggiorna l’elenco in base al filtro specifico applicato.
 
-### From range of cells (Da intervallo di celle)
+#### From range of cells (Da intervallo di celle)
 
 Seleziona l’opzione **From range of cells** (Da intervallo di celle) per scegliere un intervallo di celle contenente l’elenco degli elementi dimensione che ti interessano.
 

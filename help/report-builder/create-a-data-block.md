@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,33 @@ Un *blocco di dati* è la tabella di dati creata da una singola richiesta di dat
 
 Configura i parametri iniziali dei blocchi di dati per la posizione del blocco di dati, le visualizzazioni dati e un intervallo di date.
 
-1. Fai clic su **Crea blocco di dati**.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
 
-   ![Schermata che mostra l&#39;opzione Crea blocco di dati.](./assets/create_db.png)
+   ![Schermata che mostra l&#39;opzione Crea blocco di dati.](./assets/create-datablock.png)
 
-1. Imposta il **percorso blocco dati**.
+1. Imposta **[!UICONTROL Data block location]**.
 
    L&#39;opzione Posizione blocco dati definisce la posizione del foglio di lavoro in cui Report Builder aggiunge i dati al foglio di lavoro.
 
-   Per specificare la posizione del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata sarà l’angolo superiore sinistro del blocco di dati quando i dati vengono recuperati.
+   Per specificare il percorso del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella, ad esempio `a3`, `\\\$a3`, `a\\\$3` o `sheet1!a2`. La cella specificata sarà l’angolo superiore sinistro del blocco di dati quando i dati vengono recuperati.
 
-1. Scegli le **Visualizzazioni dati**.
+   Utilizza ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) per scegliere una posizione del blocco di dati dalla cella selezionata corrente nel foglio.
+
+1. Scegliere **[!UICONTROL Data views]**.
 
    L’opzione Visualizzazioni dati consente di scegliere una visualizzazione dati da un menu a discesa o di fare riferimento a una visualizzazione dati da una posizione cella.
 
-1. Imposta l&#39;**intervallo di date**.
+   Selezionare ![DataViewSelector](/help/assets/icons/DataViewSelector.svg) per creare una visualizzazione dati da una cella.
+
+1. Imposta **[!UICONTROL Date range]**.
 
    L’opzione Intervallo date ti consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per informazioni sulle opzioni dell&#39;intervallo di date, vedere [Selezionare un intervallo di date](select-date-range.md).
 
-1. Fai clic su **Avanti**.
+   Selezionare **[!UICONTROL Calendar]** per scegliere un intervallo di dati utilizzando ![Calendario](/help/assets/icons/Calendar.svg) oppure immettere manualmente un intervallo di date. In alternativa, potete scegliere un predefinito dal menu a discesa Predefiniti di ricerca (Search Presets).
+
+   Selezionare **[!UICONTROL From Cell]** per definire i dati iniziali e finali in base a una cella del foglio corrente.
+
+1. Seleziona **Avanti**.
 
    ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_data_view3.png)
 
@@ -59,11 +67,11 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
    - I componenti data vengono aggiunti alla sezione Colonna.
    - I componenti del segmento vengono aggiunti alla sezione Segmenti.
 
-   **Data di inizio come Dimension**
+### Data di inizio come Dimension
 
-   Imposta la data di inizio come dimensione per identificare chiaramente la data di inizio del blocco di dati. Questa funzione è utile se disponi di un rapporto pianificato regolarmente con un intervallo di date continuo o se disponi di un intervallo di date non convenzionale e devi essere libero dalla data di inizio.
+Imposta la data di inizio come dimensione per identificare chiaramente la data di inizio del blocco di dati. Questa funzione è utile se disponi di un rapporto pianificato regolarmente con un intervallo di date continuo o se disponi di un intervallo di date non convenzionale e devi essere libero dalla data di inizio.
 
-   ![Schermata che mostra la data di inizio nell&#39;elenco delle dimensioni.](./assets/start-date-dimension.png){width="30%"}
+![Schermata che mostra la data di inizio nell&#39;elenco delle dimensioni.](./assets/start-date-dimension.png)
 
 1. Disporre gli elementi nel riquadro Tabella per personalizzare il layout del blocco di dati.
 
@@ -73,28 +81,29 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    ![Schermata che mostra i componenti aggiunti e il foglio di lavoro aggiornato.](./assets/image10.png)
 
-   **Visualizzare o nascondere le intestazioni di riga e di colonna**
+### Visualizzare o nascondere le intestazioni di riga e di colonna
 
-1. Fare clic sull&#39;icona delle impostazioni della **Tabella**.
+1. Selezionare l&#39;icona **[!UICONTROL Table]** ![Impostazioni](/help/assets/icons/Setting.svg).
 
-   ![Schermata che mostra l&#39;opzione Impostazioni tabella.](./assets/table-settings.png){width="35%"}
+   ![Schermata che mostra l&#39;opzione Impostazioni tabella.](./assets/table-settings.png)
 
 1. Seleziona o deseleziona l’opzione per Visualizzare le intestazioni di riga e colonna. Le intestazioni vengono visualizzate per impostazione predefinita.
 
-   **Nascondi o mostra le etichette delle dimensioni e le intestazioni delle metriche**
+### Nascondere o mostrare etichette dimensione e intestazioni metriche
 
-1. Fai clic sull’icona dei puntini di sospensione sulle dimensioni o sulle intestazioni di colonna per visualizzare le impostazioni.
+Per visualizzare le impostazioni, seleziona l’icona con i puntini di sospensione sulle dimensioni o sulle intestazioni di colonna.
 
-   ![Icona puntini di sospensione nella sezione Riga.](./assets/row-heading.png){width="35%"}
+![Icona puntini di sospensione nella sezione Riga.](./assets/row-heading.png)
 
-1. Fate clic su Nascondi (Hide) o Mostra (Show) per attivare/disattivare le etichette di quota o le intestazioni di colonna. Tutte le etichette sono visualizzate per impostazione predefinita.
+1. Seleziona ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) **[!UICONTROL Hide]** o ![Visibility](/help/assets/icons/Visibility.svg) **[!UICONTROL Show]** per attivare/disattivare le etichette di dimensione o le intestazioni di colonna. Tutte le etichette sono visualizzate per impostazione predefinita.
 
-1. Fare clic su **Fine**.
+1. Seleziona **[!UICONTROL Finish]**.
 
-   Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
 
-   ![Elaborazione del messaggio.](./assets/image11.png)
+Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
 
-   Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
+![Elaborazione del messaggio.](./assets/image11.png)
 
-   ![Blocco di dati completato.](./assets/image12.png)
+Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
+
+![Blocco di dati completato.](./assets/image12.png)

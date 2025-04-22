@@ -4,7 +4,7 @@ title: Visualizza informazioni sul componente
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 60%
@@ -33,7 +33,7 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
    Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Segmenti** ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi. L&#39;icona Adobe ![icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metriche calcolate o un modello di segmento e l&#39;icona calcolatrice ![icona calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics dell&#39;organizzazione.
 
-1. (Facoltativo) Seleziona l&#39;icona **Filtro** ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi seleziona una delle seguenti opzioni di segmento per segmentare l&#39;elenco dei componenti:
+1. (Facoltativo) Seleziona l&#39;icona **Filtro** ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi seleziona una delle seguenti opzioni di segmento per filtrare l&#39;elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|

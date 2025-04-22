@@ -4,10 +4,10 @@ description: Scopri come gestire i segmenti in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -64,12 +64,12 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia il segmento selezionato. I nuovi segmenti vengono creati con lo stesso nome e suffisso `(Copy)`. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Esporta i segmenti in un file `Segments List.csv`. |
 
-### Barra dei segmenti attiva
+### Barra dei filtri attivi
 
-La barra dei segmenti mostra i segmenti attivi applicati dal pannello dei segmenti all’elenco dei segmenti (se presenti). È possibile rimuovere rapidamente un segmento utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più segmenti, è possibile rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
+La barra dei filtri mostra i segmenti attivi applicati dal pannello dei filtri all’elenco dei segmenti (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, è possibile rimuovere tutti utilizzando **[!UICONTROL Remove all]**.
 
-### Pannello Segment
+### Pannello dei filtri
 
-È possibile segmentare l&#39;elenco dei segmenti utilizzando il pannello sinistro ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** di Windows Live. Il pannello del segmento visualizza il tipo di segmento e il numero di segmenti che lo rispettano. Seleziona ![Segmento](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei segmenti.
+Puoi filtrare l&#39;elenco dei segmenti utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro di controllo. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di segmenti che rispettano il filtro specifico. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello Filtro.
 
 Vedi [Filtra l&#39;elenco dei segmenti](filters-filter.md) per ulteriori informazioni.

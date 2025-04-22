@@ -4,7 +4,7 @@ title: Generare segmenti
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 46%
@@ -20,17 +20,10 @@ ht-degree: 46%
 >title="Crea un pubblico"
 >abstract="I tipi di pubblico possono essere creati da un segmento e condivisi con Adobe Experience Platform per l’attivazione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
 >abstract="Confronta i dati di questo segmento con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/filters/manage-filters.md).
@@ -155,32 +148,23 @@ Oppure potresti definire 52 segmenti: 50 segmenti per gli Stati Uniti, uno per i
 
 ## Attribution {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="Ripetizione"
 >abstract="Include le istanze e i valori persistenti per la dimensione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Istanza"
 >abstract="Include le istanze e i valori persistenti per la dimensione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="Istanza di non ripetizione"
 >abstract="Include istanze univoche (non ripetute) per la dimensione."
 
-<!-- markdownlint-enable MD034 -->
 
 
 
@@ -218,3 +202,5 @@ La tabella seguente spiega, per ogni modello di attribuzione, quali eventi in ar
 Un esempio di rapporto sugli eventi che utilizzano i tre segmenti è simile al seguente:
 
 ![Risultati modello di attribuzione segmento](assets/filter-dimension-attribution-results.png)
+
+<!-- markdownlint-enable MD034 -->

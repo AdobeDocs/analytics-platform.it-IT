@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 99%
@@ -51,7 +51,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    ![Attività di reporting che mostra la coda dei report](assets/reporting-activity-monthly.png)
 
-1. (Facoltativo) Puoi cercare o segmentare l’elenco delle connessioni:
+1. (Facoltativo) Puoi cercare o filtrare l’elenco delle connessioni:
 
    * Utilizza il campo di ricerca per cercare un rapporto specifico. Inizia a digitare il nome o l’ID della connessione e l’elenco delle connessioni si aggiorna durante la digitazione.
 

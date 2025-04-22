@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1241'
 ht-degree: 32%
 
 ---
@@ -39,7 +39,7 @@ Ad esempio, durante la creazione di una visualizzazione dati, è possibile crear
 1. Apri la sezione **[!UICONTROL Include/Exclude Values]** e specifica quanto segue:
    1. Abilita **[!UICONTROL Set include exclude values]**.
    1. Selezionare **[!UICONTROL If all criteria are met]** da **[!UICONTROL Match]**.
-   1. Specificare `confirmation`. Questo testo per page_title indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i segmenti e ovunque sia possibile utilizzare le metriche standard.
+   1. Specificare `confirmation`. Il testo per **[!UICONTROL page_title]** indica che la pagina è correlata al posizionamento di un ordine. Dopo aver esaminato tutti i titoli delle pagine che rispondono a tali criteri, verrà conteggiato `1` per ogni istanza. Il risultato è una nuova metrica (non una metrica calcolata). Una metrica con valori inclusi/esclusi può essere utilizzata ovunque sia possibile utilizzare qualsiasi altra metrica. Funziona con Attribution IQ, con i segmenti e ovunque sia possibile utilizzare le metriche standard.
 
    ![Da Dimension a metrica](../assets/string-to-metric.gif){width=100%}
 1. Puoi anche specificare un modello di attribuzione per questa metrica, ad esempio [!UICONTROL Last Touch], con [!UICONTROL Lookback window] impostato su [!UICONTROL Session].
@@ -69,7 +69,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## Applicare filtri agli eventi secondari {#sub-event}
 
-Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di evento secondario, mentre i segmenti generati nel Generatore di segmenti consentono di filtrare solo a livello di evento. Puoi filtrare gli eventi secondari utilizzando inclusione/esclusione nelle visualizzazioni dati e quindi fare riferimento a tale nuova metrica/dimensione in un segmento a livello di evento.
+Questa funzionalità è specifica per i campi basati su array. La funzionalità di inclusione/esclusione consente di filtrare a livello di evento secondario, mentre i segmenti generati nel Generatore di segmenti forniscono solo segmentazione a livello di evento. Puoi filtrare gli eventi secondari utilizzando inclusione/esclusione nelle visualizzazioni dati e quindi fare riferimento a tale nuova metrica/dimensione in un segmento a livello di evento.
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite superiori a 50 $. Pertanto, se un ordine include un acquisto di prodotti da 50 $ e un acquisto di prodotti da 25 $, la funzionalità di inclusione/esclusione rimuove l’acquisto di prodotti da 25 $ e non l’intero ordine.
 

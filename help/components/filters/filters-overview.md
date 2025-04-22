@@ -4,9 +4,9 @@ description: Scopri i segmenti utilizzati e come creare un segmento semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1472'
 ht-degree: 5%
 
 ---
@@ -160,6 +160,14 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 - Proprietà elenco
 - Dimensioni elenco
 - Dimensioni del merchandising (nel contesto degli eventi)
+
+
+
+### contenitori B2B
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+Se hai accesso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), sono disponibili altri contenitori da utilizzare nei segmenti. Ulteriori dettagli sull&#39;utilizzo di questi contenitori aggiuntivi sono disponibili in [Concetti e funzionalità B2B](/help/getting-started/cja-b2b-concepts-features.md).
 
 
 ### Contenitore gruppo logico
