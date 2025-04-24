@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Sono disponibili vari metodi per filtrare le righe da una tabella a forma libera
 
 - Escludere righe specifiche da una tabella
 - Applicare filtri a una tabella
-- Utilizzare filtri per tipo di pubblico
+- Utilizzare i segmenti di pubblico
 
 Assicurati di leggere in che misura ogni metodo influisce sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -96,7 +96,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ### Utilizzare i segmenti di pubblico
 
-Per maggiori informazioni, consulta [Panoramica sui filtri](/help/components/filters/filters-overview.md).
+Per ulteriori dettagli, consulta [Panoramica sulla segmentazione](/help/components/filters/filters-overview.md).
 
 ## Ordinare le tabelle
 
