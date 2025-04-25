@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 47%
+source-wordcount: '304'
+ht-degree: 46%
 
 ---
 
@@ -36,10 +36,9 @@ I componenti soggetti a questi criteri sono disattivati e dispongono di un&#39;i
 
 Per ulteriori informazioni, vedere [Etichette e criteri](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
 
-<!--
 
-![The policy note indicating prohibited use of data.](assets/rb-restricted-label.png){zoomable="yes"}
--->
+![Nota del criterio che indica l&#39;utilizzo non consentito dei dati.](assets/restricted-label.png){zoomable="yes"}
+
 
 ## Aggiornare i rapporti che contengono dati con restrizioni
 
