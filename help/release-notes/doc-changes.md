@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
+source-git-commit: 9cda9a2b8d5ec876a1c4a5c539daa1e0624a4460
 workflow-type: tm+mt
-source-wordcount: '5031'
+source-wordcount: '5040'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2025** | |
+| Report Builder | Ha rivisto e aggiornato la documentazione di [Report Builder](/help/report-builder/report-buider-overview.md). |
 | Visualizzare e gestire l’utilizzo | È stata rielaborata la documentazione su come [visualizzare](/help/connections/manage-connections.md#usage) e [gestire](/help/technotes/estimate-usage.md) l’utilizzo di Customer Journey Analytics |
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md) consente di analizzare in modo rapido e semplice grandi volumi di dati di contenuto per individuare tendenze, individuare anomalie, identificare l&#39;eccesso di contenuto e ottenere informazioni approfondite dall&#39;esposizione dei contenuti. |
 | Sono stati aggiornati i campi XDM per la raccolta dei dati di Streaming Media in Adobe Experience Platform | Durante la raccolta di dati Streaming Media in Adobe Experience Platform, i percorsi dei campi XDM mostrati nell’intestazione &quot;Percorso campo XDM&quot; della documentazione sui parametri Streaming Media non devono più essere utilizzati. I percorsi dei campi sono disponibili nelle pagine seguenti e sono contrassegnati come &quot;Obsoleti&quot;: [Parametri audio e video](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [Parametri annuncio](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [Parametri capitolo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [Parametri stato lettore](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters) e [Parametri qualità](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters). |

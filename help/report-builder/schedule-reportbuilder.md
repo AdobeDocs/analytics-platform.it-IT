@@ -6,20 +6,20 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 84%
+source-wordcount: '950'
+ht-degree: 14%
 
 ---
 
 # Pianificare le cartelle di lavoro
 
-Dopo aver salvato la cartella di lavoro e completato l’analisi, è possibile condividere facilmente la cartella di lavoro con altri membri del team utilizzando la funzione di pianificazione. La funzione Schedule (Pianifica) consente di creare una pianificazione che aggiorna automaticamente i dati nella cartella di lavoro e invia tramite e-mail il file .xlsx della cartella di lavoro di Excel come allegato al pubblico specificato alla data e all’ora indicate. L’impostazione di una pianificazione fornisce automaticamente ai destinatari aggiornamenti regolari. Puoi anche utilizzare la funzione di pianificazione per inviare la cartella di lavoro una volta senza pianificare gli aggiornamenti automatici.
+Dopo aver salvato la cartella di lavoro e completato l&#39;analisi, è possibile condividerla con altri utenti del team utilizzando la funzionalità di pianificazione. La funzione di pianificazione consente di creare una pianificazione che aggiorna automaticamente i dati nella cartella di lavoro. E invia tramite e-mail il file della cartella di lavoro di Excel come allegato al pubblico specificato in una data e un’ora specifiche. L’impostazione di una pianificazione fornisce automaticamente ai destinatari aggiornamenti regolari. Puoi anche utilizzare la funzione di pianificazione per inviare la cartella di lavoro una volta senza pianificare gli aggiornamenti automatici.
 
-Puoi creare più pianificazioni per una singola cartella di lavoro. Ad esempio, puoi inviare una cartella di lavoro al team su base giornaliera e inviare la cartella di lavoro al tuo responsabile una volta alla settimana creando due pianificazioni diverse.
+Puoi creare più pianificazioni per una singola cartella di lavoro. Ad esempio, si creano due pianificazioni per inviare una cartella di lavoro al team ogni giorno e al manager una volta alla settimana.
 
-La funzione Schedule (Pianifica) consente inoltre di impostare la protezione tramite password per una cartella di lavoro e di modificare le cartelle di lavoro pianificate in precedenza.
+La funzione di pianificazione consente inoltre di impostare la protezione tramite password per una cartella di lavoro e di modificare le cartelle di lavoro pianificate in precedenza.
 
 
 >[!BEGINSHADEBOX]
@@ -31,104 +31,152 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica c
 
 ## Pianificare una cartella di lavoro
 
-Utilizza il pulsante Schedule task (Pianifica attività) nell’hub di Report Builder per creare rapidamente una pianificazione in modo da poter distribuire automaticamente un file Excel della cartella di lavoro (.xlsx) a un singolo utente o a un gruppo.
+Per pianificare una cartella di lavoro:
 
-1. Fai clic sul pulsante Schedule (Pianifica) nell’hub di Report Builder.
+1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub di Report Builder per creare una pianificazione che consenta di distribuire automaticamente un file di Excel della cartella di lavoro (con estensione xlsx) a un singolo utente o a un gruppo.
 
-   ![Fare clic sul pulsante Pianifica per creare una pianificazione.](./assets/schedule-button.png){width="55%"}
+   ![Selezionare il pulsante Pianifica per creare una pianificazione.](./assets/schedule.png){zoomable="yes"}
 
-1. Fai clic su Schedule Workbook (Pianifica cartella di lavoro) o sul pulsante in alto a sinistra per creare una nuova cartella di lavoro pianificata.
+1. Selezionare **[!UICONTROL Schedule Workbook]** o ![Aggiungi](/help/assets/icons/Add.svg) per creare una nuova cartella di lavoro pianificata.
 
-   ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){width="55%"}
+   ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){zoomable="yes"}
 
    Il riquadro di pianificazione mostra alcune informazioni predefinite sulla cartella di lavoro, ad esempio il nome e l’ultima data di modifica della cartella di lavoro.
 
-   ![Riquadro di pianificazione.](./assets/schedule-pane.png){width="55%"}
+### File
 
-1. (Facoltativo) Immetti un nome del file.
+Nella sezione **[!UICONTROL File]**, è possibile fornire dettagli sul tipo di file, il nome e una password per proteggere il file.
 
-   Il file della cartella di lavoro viene salvato con il nome della cartella di lavoro per impostazione predefinita, ma può essere modificato. Se la stessa cartella di lavoro viene inviata a più tipi di pubblico e desideri assegnargli un nome più descrittivo per un determinato pubblico, puoi modificare il nome.
+![Riquadro di pianificazione.](./assets/schedule-pane.png){zoomable="yes"}
 
-1. (Facoltativo) Seleziona **Append time-stamp to file name** (Aggiungi marca temporale al nome del file).
+1. Utilizza ![TableSelect](/help/assets/icons/TableSelect.svg) per selezionare la cartella di lavoro corrente, se non è già selezionata.
 
-   Puoi aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. È utile per vedere rapidamente quale versione di una cartella di lavoro è stata inviata in una data specifica. **Filename preview** (Anteprima nome file) mostra come verrà visualizzato il nome del file della cartella di lavoro nell’e-mail quando la cartella di lavoro viene distribuita. Il formato della marca temporale è AAAA-MM-GG.
+1. (Facoltativo) Immetti **[!UICONTROL File name]**.
 
-1. (Facoltativo) Seleziona **.zip compression** (compressione .zip) per comprimere il file e proteggerlo tramite password.
+   Per impostazione predefinita, il nome del file della cartella di lavoro corrisponde al nome della cartella di lavoro, ma è possibile modificare il nome del file in base alle proprie esigenze.
 
-   Selezionando questa opzione, viene richiesto di immettere una password per aprire il file. È utile se hai dei dubbi sulla sicurezza dei dati e desideri proteggere la cartella di lavoro tramite password. Per proteggere il file con una password è necessario selezionare **.zip compression** (compressione .zip). La password deve contenere almeno 8 caratteri, un numero e un carattere speciale.
+1. Seleziona **[!UICONTROL File type]**.
 
-   ![Immettere una password nel campo Proteggi cartella di lavoro tramite password.](./assets/zip-compression.png){width="55%"}
+   * **[!UICONTROL Excel]**
+   * **[!UICONTROL PDF]**
+   * **[!UICONTROL CSV]**
 
-1. Inserisci i destinatari in **Recipients** (Destinatari). Puoi inserire il nome di una persona riconosciuta nell’organizzazione oppure l’indirizzo e-mail di una persona interna o esterna all’organizzazione.
+   Quando selezioni **[!UICONTROL CSV]**, tieni presente che la cartella di lavoro pianificata viene inviata come allegato zip. Alcune amministrazioni e-mail aziendali potrebbero bloccare le e-mail con allegati zip. Di conseguenza viene visualizzato un avviso.
+
+1. (Facoltativo) Selezionare **[!UICONTROL Append time-stamp to file name]**.
+
+   Puoi aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. Una marca temporale è utile per vedere quale versione di una cartella di lavoro è stata inviata in una data specifica. Se selezionata, puoi scegliere tra:
+
+   * **[!UICONTROL ISO Date format]**, con conseguente aggiunta di `YYYY-MM-DD` al nome file.
+   * **[!UICONTROL ISO Date format + time stamp]**, con conseguente aggiunta di `YYYY-MM-DD_HH-MM-SS` al nome file.
+
+<!-- Does no longer seem to be an option? 
+1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
+
+    When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
+
+    ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
+-->
+
+1. Immettere una password in **[!UICONTROL Password protect the workbook]**. Una password valida richiede almeno 8 caratteri, un numero e un carattere speciale. Seleziona ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) per visualizzare la password e ![Visibility](/help/assets/icons/Visibility.svg) per nascondere la password (impostazione predefinita).
+
+
+### E-mail
+
+Nella sezione **[!UICONTROL Email]**, è possibile fornire i destinatari, l&#39;oggetto e la descrizione dell&#39;e-mail.
+
+![Pianifica impostazioni e-mail](assets/schedule-email.png){zoomable="yes"}
+
+1. Inserisci i destinatari in **Recipients** (Destinatari). È possibile immettere il nome di una persona riconosciuta nell&#39;organizzazione. Oppure puoi immettere un indirizzo e-mail di una persona esterna alla tua organizzazione.
 
 1. Inserisci l’oggetto dell’e-mail in **Subject** (Oggetto) e una descrizione per i destinatari. L’oggetto viene impostato automaticamente sul nome del file della cartella di lavoro, ma puoi modificarlo se necessario. Puoi aggiungere i dettagli nella sezione della descrizione.
 
-   ![Immettere un oggetto nel campo Oggetto.](./assets/recipients-subject.png){width="55%"}
+1. Facoltativamente, è possibile immettere una descrizione nell&#39;area di testo **[!UICONTROL Description]**.
 
-1. Configura le opzioni di pianificazione per impostare la data e l’ora in cui desideri inviare la cartella di lavoro ai destinatari tramite e-mail.
 
-   Scegli le date e ore di inizio e fine e l’arco temporale. Può essere la data odierna o una data futura.
+### Pianificazione
 
-   Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
+Nella sezione **[!UICONTROL Schedule]** è possibile definire la pianificazione per l&#39;invio delle e-mail con la cartella di lavoro ai destinatari.
 
-   ![Selezionare la frequenza di pianificazione del report.](./assets/frequency.png){width="55%"}
+![Definizione pianificazione](assets/schedule-enable.png){zoomable="yes"}
 
-1. Dopo aver impostato la pianificazione, fai clic su **Send on schedule** (Invia secondo programma).
+1. Selezionare **[!UICONTROL Show scheduling options]** per definire una pianificazione.
 
-   ![Fai clic su Invia secondo programma.](./assets/send-on-schedule.png){width="55%"}
+1. Immettere una data di inizio in **[!UICONTROL Starting on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di inizio dal calendario.
 
-   Nella parte inferiore dell’hub di Report Builder viene visualizzato un avviso di conferma e la cartella di lavoro pianificata viene elencata nella scheda Workbooks (Cartelle di lavoro).
+1. Immettere una data di fine in **[!UICONTROL Ending on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di fine dal calendario.
 
-   ![Avviso di conferma](./assets/confirmation-toast.png){width="55%"}
+1. Seleziona una **[!UICONTROL Frequency]**. A seconda della frequenza selezionata, sono disponibili opzioni aggiuntive. Vedi la tabella seguente.
 
-## Inviare la cartella di lavoro una sola volta
+   | Frequenza | Opzioni |
+   |---|---|
+   | **[!UICONTROL Send hourly]** | Immettere un valore per **[!UICONTROL Send every number of hours]**. |
+   | **[!UICONTROL Send daily]** | Selezionare un **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** o **[!UICONTROL Custom frequency]**.<br/>Se si seleziona **[!UICONTROL Custom frequency]**, immettere un valore per **[!UICONTROL Send every number of days]**. |
+   | **[!UICONTROL Send weekly]** | Immettere un valore per **[!UICONTROL Send every number of weeks]**. E seleziona un **[!UICONTROL Day of week]**. |
+   | **[!UICONTROL Send monthly by day of the week]** | Selezionare **[!UICONTROL Day of week]** e **[!UICONTROL Week of month]**. |
+   | **[!UICONTROL Send monthly by day of the month]** | Selezionare un valore da **[!UICONTROL Send on this day of the month]**. |
+   | **[!UICONTROL Send yearly by day of the month]** | Selezionare un **[!UICONTROL Day of week]**, selezionare un **[!UICONTROL Week of month]** e selezionare un **[!UICONTROL Monthly of year]**. |
+   | **[!UICONTROL Send yearly by specific date]** | Selezionare un **[!UICONTROL Month of year]** e un valore da **[!UICONTROL Send on this day of the month]**. |
 
-Puoi anche inviare la cartella di lavoro una sola volta.
+### Invia
 
-1. Deseleziona **Show scheduling options** (Mostra opzioni di pianificazione)
+Per inviare la cartella di lavoro:
 
-   ![Fare clic su Deseleziona Mostra opzioni di pianificazione per inviare una cartella di lavoro una sola volta.](./assets/send-now.png){width="40%"}
+* Se non è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send now]** per inviare immediatamente la cartella di lavoro tramite e-mail.
+* Se è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send on schedule]** per inviare la cartella di lavoro tramite e-mail utilizzando la pianificazione definita.
 
-1. Fai clic su **Send Now** (Invia subito).
+In entrambi i casi, nella parte inferiore dell’hub Report Builder viene visualizzato un avviso popup di conferma.
 
-## Visualizzare e modificare le cartelle di lavoro pianificate
+Per annullare l&#39;invio della cartella di lavoro, selezionare **[!UICONTROL Cancel]**.
 
-Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unica posizione nella scheda Workbooks (Cartelle di lavoro).
 
-1. Nella sezione Schedule (Pianifica) dell’hub di Report Builder, fai clic sulla scheda Workbooks (Cartelle di lavoro). Usa questa visualizzazione per visualizzare un elenco di tutte le cartelle di lavoro pianificate.
+## Visualizzare e gestire cartelle di lavoro pianificate
 
-1. Seleziona una cartella di lavoro. Vengono visualizzati diversi strumenti che consentono di modificare la cartella di lavoro, modificare l&#39;attività di pianificazione, mettere in pausa e riavviare l&#39;attività di pianificazione, scaricare un rapporto attività pianificata o eliminare l&#39;attività di pianificazione.
+È possibile visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda **[!UICONTROL Workbooks]**.
 
-   ![Schermata che mostra le icone di pianificazione della cartella di lavoro.](./assets/schedule-icons.png){width="20%"}
+1. Seleziona **[!UICONTROL Schedule]** nell&#39;hub Report Builder
 
-* (Facoltativo) Fai clic sull’icona della matita per modificare l’attività di pianificazione della cartella di lavoro.
+1. Seleziona la scheda **[!UICONTROL Workbooks]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
 
-* (Facoltativo) Fai clic sull’icona dell’orologio per visualizzare la cronologia di ciascuna attività pianificata.
+   ![Cartella di lavoro pianificata](assets/scheduled-workbooks.png){zoomable="yes"}
 
-* (Facoltativo) Fai clic sull’icona Pausa per sospendere e riavviare l’attività di pianificazione della distribuzione. Questa opzione è utile se è necessario modificare la cartella di lavoro prima di inviarla. Fai nuovamente clic sull’icona di pausa per riavviare la distribuzione.
+   Passa il cursore del mouse sull’icona per visualizzare lo stato di una cartella di lavoro pianificata.
 
-* (Facoltativo) Fare clic sull&#39;icona di download per scaricare una copia dell&#39;attività di pianificazione della cartella di lavoro.
+   Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare specifiche cartelle di lavoro pianificate.
+Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
 
-* (Facoltativo) Fai clic sul cestino per eliminare l’attività di pianificazione.
+1. Selezionare una o più cartelle di lavoro.
 
-  ![Schermata che mostra l&#39;elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
+   ![Pianifica cartelle di lavoro selezionate](assets/scheduled-workbooks-selected.png){zoomable="yes"}
 
-## Rivedere lo stato delle attività programmate
+   Sono disponibili le seguenti opzioni:
 
-La visualizzazione della cronologia consente di controllare lo stato di ogni attività pianificata. È disponibile una riga separata che documenta il cambiamento stato per ogni attività pianificata. Nell’esempio riportato di seguito, la pianificazione *New Hourly Schedule* (Nuova pianificazione oraria) è stata avviata il 5 gennaio alle 15.04. Entro le 15:05 è stata aggiornata correttamente ed è stata inviata ai destinatari. La cartella di lavoro successiva, *Bad workbook* (Cartella di lavoro non valida), ha riscontrato un errore durante il processo di aggiornamento. Se una cartella di lavoro non è stata inviata, la scheda della cronologia consente di risolvere i problemi mostrando in quale punto del processo si è verificato l’errore. In questo caso, è probabile che sia dovuto ad alcuni errori del blocco dati, ad esempio un componente mancante, che hanno impedito l’aggiornamento della cartella di lavoro.
+   | Opzione | Descrizione |
+   |---|---|
+   | ![Modifica](/help/assets/icons/Edit.svg) | Modifica la pianificazione per una cartella di lavoro selezionata. |
+   | ![Cronologia](/help/assets/icons/History.svg) | Mostra la cronologia delle cartelle di lavoro selezionate. |
+   | ![Pausa](/help/assets/icons/Pause.svg) | Sospende la pianificazione delle cartelle di lavoro selezionate. |
+   | ![Riproduci](/help/assets/icons/Play.svg) | Riprendere la pianificazione delle cartelle di lavoro selezionate. |
+   | ![Scarica](/help/assets/icons/Download.svg) | Scarica la cartella di lavoro selezionata in una nuova cartella di lavoro. |
+   | ![Elimina](/help/assets/icons/Delete.svg) | Elimina la pianificazione delle cartelle di lavoro selezionate. |
 
-Un segno di spunta verde indica che la cartella di lavoro è stata inviata correttamente. Un punto esclamativo all’interno di un triangolo rosso indica che si è verificato un errore.
 
-Per scegliere le colonne da visualizzare nella scheda della cronologia, fai clic sull’icona delle impostazioni delle colonne a destra della barra di ricerca.
+## Cronologia e stato delle cartelle di lavoro pianificate
 
-![Fare clic sull&#39;icona della colonna per visualizzare o nascondere colonne specifiche.](./assets/history.png){width="55%"}
+È possibile visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate nella scheda **[!UICONTROL History]**.
 
-Puoi filtrare la cronologia per visualizzare solo quella di una singola cartella di lavoro pianificata andando alla scheda delle cartelle di lavoro, selezionando la cartella di lavoro e facendo clic sull’icona della cronologia.
+1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub Report Builder.
 
-Puoi anche visualizzare la cronologia di una cartella di lavoro specifica dalla scheda Workbooks (Cartelle di lavoro). Nella scheda Workbooks (Cartelle di lavoro) seleziona la cartella di lavoro, quindi fai clic sull’icona della cronologia.
+1. Seleziona la scheda **[!UICONTROL History]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
 
-![Icona cronologia cartelle di lavoro](./assets/history2.png){width="55%"}
+   ![Cronologia pianificata](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
-Il filtro della cartella di lavoro verrà quindi visualizzato nella parte superiore della cronologia. Per visualizzare nuovamente la cronologia di tutte le attività pianificate, fai clic sulla x accanto al filtro.
+   Utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare cartelle di lavoro specifiche nell&#39;elenco.
+Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
 
-![Filtro cartella di lavoro.](./assets/history3.png){width="55%"}
+   La scheda **[!UICONTROL History]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
+
+   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica che la cartella di lavoro è stata inviata correttamente.
+   * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica che si è verificato un errore.
+
+In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione mostra la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.

@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 86%
@@ -191,7 +191,7 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 
 ### Impostazioni (segmenti)
 
-Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dall&#39;elenco nella barra a sinistra e rilascialo sul campo [!UICONTROL Add segments].
+Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dall&#39;elenco nella barra a sinistra e rilascialo sul campo **[!UICONTROL Add segments]**.
 
 ### Impostazioni di sessione
 

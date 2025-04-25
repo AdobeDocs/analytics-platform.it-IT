@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 84%
+ht-degree: 81%
 
 ---
 
@@ -263,7 +263,7 @@ ht-degree: 84%
       + [Requisiti di amministrazione](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ Analisi dei contenuti {#content-analytics}
++ Content Analytics {#content-analytics}
    + [Panoramica](/help/content-analytics/content-analytics.md)
    + Rapporto {#report}
       + [Panoramica](/help/content-analytics/report/report.md)
@@ -387,9 +387,9 @@ ht-degree: 84%
    + [Creare un blocco di dati](../report-builder/create-a-data-block.md)
    + [Hub Report Builder](../report-builder/report-builder-hub.md)
    + [Seleziona una visualizzazione dati](../report-builder/select-data-view.md)
-   + [Selezionare un intervallo di date](../report-builder/select-date-range.md)
+   + [Seleziona un intervallo di date](../report-builder/select-date-range.md)
    + [Utilizzare i segmenti](../report-builder/work-with-filters.md)
-   + [Dimensioni filtro](../report-builder/filter-dimensions.md)
+   + [Filtra dimensioni](../report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](../report-builder/manage-reportbuilder.md)
    + [Pianificare le cartelle di lavoro](../report-builder/schedule-reportbuilder.md)
    + [Etichette per limitazioni](../report-builder/restricted-labels.md)
