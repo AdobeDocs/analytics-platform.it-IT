@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
+source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 10%
+source-wordcount: '462'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,12 @@ Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di 
    - Richiesta per abilitare l’unione.
    - ID del set di dati per il set di dati da reimpostare.
    - Il nome della colonna (percorso identità e spazio dei nomi) dell’ID persistente per il set di dati desiderato (l’identificatore visualizzato su ogni riga).
-   - Per l’unione basata sui campi, il nome della colonna dell’ID transitorio per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione). Per l’unione basata su grafico, lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
+   - Se il set di dati supporta `identityMap`:
+      - Per l’unione basata sui campi, specifica lo spazio dei nomi per gli ID persistenti e transitori.
+      - Per l’unione basata su grafo, specifica lo spazio dei nomi per l’ID persistente e lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
+   - Se il set di dati non supporta `identityMap`:
+      - Per l’unione basata sui campi, il nome della colonna dell’ID transitorio per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
+      - Per l’unione basata su grafico, lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
    - Preferenza di intervallo di lookback e frequenza di ripetizione. Consulta il tuo pacchetto Customer Journey Analytics per le [opzioni](#options) disponibili.
    - Nome della sandbox.
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1540'
 ht-degree: 7%
 
 ---
@@ -15,9 +15,77 @@ ht-degree: 7%
 # Unione basata su grafico
 
 
-Nell’unione basata su grafico, specifica un set di dati evento, nonché l’ID persistente (cookie) e lo spazio dei nomi dell’ID transitorio (ID persona) per tale set di dati. L’unione basata su grafico crea una nuova colonna per l’ID unione nel nuovo set di dati uniti. Quindi utilizza l’ID persistente per eseguire query sul grafo delle identità dal servizio Identity di Experience Platform, utilizzando lo spazio dei nomi specificato, per aggiornare l’ID unito.
+Nell’unione basata su grafico, specifica un set di dati evento, nonché l’ID persistente (cookie) e lo spazio dei nomi dell’ID transitorio (ID persona) per tale set di dati. L’unione basata su grafico crea una nuova colonna per l’ID unione nel nuovo set di dati uniti. Quindi utilizza l’ID persistente per eseguire query sul grafo delle identità dal servizio Experience Platform Identity, utilizzando lo spazio dei nomi specificato, per aggiornare l’ID unito.
 
 ![Unione basata su grafico](/help/stitching/assets/gbs.png)
+
+## IdentityMap
+
+L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identifyMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+
+- Utilizzo dell&#39;identità primaria nello spazio dei nomi `identityMap` per definire l&#39;ID persistente:
+   - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessigraficamente e la prima identità viene selezionata.
+   - Se più identità primarie si trovano in un singolo spazio dei nomi, viene selezionata la prima identità primaria disponibile lessicografica.
+
+  Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco di identità primarie ordinato e, infine, l’identità selezionata.
+
+  <table>
+     <tr>
+       <th>Namespace</th>
+       <th>Elenco identità</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Elenco identità ordinate</th>
+      <th>Identità selezionata</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+- Utilizzo dello spazio dei nomi `identityMap` per definire l&#39;ID persistente:
+   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per PersitentID, viene utilizzata la prima identità disponibile lessicografica.
+
+  Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco ordinato di identità per lo spazio dei nomi selezionato (ECID) e, infine, l’identità selezionata.
+
+  <table>
+     <tr>
+       <th>Namespace</th>
+       <th>Elenco identità</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Elenco identità ordinate</th>
+      <th>Identità selezionata</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
+
 
 ## Funzionamento dell’unione basata su grafico
 
@@ -133,13 +201,13 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 I seguenti prerequisiti si applicano in modo specifico all’unione basata su grafico:
 
-- Il set di dati dell&#39;evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione, deve avere una colonna che identifica un visitatore su ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria Adobe Analytics AppMeasurement o un ECID generato dal servizio Experience Platform Identity.
+- Il set di dati dell&#39;evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione, deve avere una colonna che identifica un visitatore su ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato dal servizio Experience Platform Identity.
 - Anche l&#39;ID persistente deve essere [definito come identità](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) nello schema.
-- Il grafo delle identità di Experience Platform Identity Service deve avere uno spazio dei nomi (ad esempio `Email` o `Phone`) da utilizzare durante l&#39;unione per risolvere il **ID transitorio**. Per ulteriori informazioni, consulta [Experience Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home).
+- Il grafo delle identità di Experience Platform Identity Service deve avere uno spazio dei nomi (ad esempio `Email` o `Phone`) da utilizzare durante l&#39;unione per risolvere il **ID transitorio**. Per ulteriori informazioni, consulta [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home).
 
 >[!NOTE]
 >
->**not** richiede una licenza Real-time Customer Data Platform per l&#39;unione basata su grafico. Il pacchetto **Prime** o versione successiva del Customer Journey Analytics include i diritti Experienci Platform richiesti per il servizio Identity.
+>**not** richiede una licenza di Real-time Customer Data Platform per l&#39;unione basata su grafico. Il pacchetto **Prime** o versione successiva di Customer Journey Analytics include i diritti richiesti dal servizio Experience Platform Identity.
 
 
 ## Limitazioni
@@ -148,7 +216,7 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata su gr
 
 - Le marche temporali non vengono prese in considerazione quando si esegue una query per l’ID transitorio utilizzando lo spazio dei nomi specificato. Pertanto, è possibile che un ID persistente sia unito a un ID transitorio di un record che ha una marca temporale precedente.
 - Negli scenari di dispositivi condivisi, in cui lo spazio dei nomi nel grafico contiene più identità, viene utilizzata la prima identità lessicografica. Se i limiti e le priorità dello spazio dei nomi sono configurati come parte del rilascio delle regole di collegamento del grafico, viene utilizzata l’identità dell’ultimo utente autenticato. Per ulteriori informazioni, vedere [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
-- Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafico delle identità. Puoi utilizzare le identità di backfill nel caso in cui non utilizzi un’applicazione di Experience Platform, come Real-time Customer Data Platform, per compilare il grafico delle identità.
+- Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafico delle identità. Puoi utilizzare le identità di backfill nel caso in cui non utilizzi un’applicazione Experience Platform, come Real-time Customer Data Platform, per compilare il grafico delle identità.
 - Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
    - Numero massimo di identità in un grafico: 50.
    - Numero massimo di collegamenti a un’identità per una singola acquisizione batch: 50.

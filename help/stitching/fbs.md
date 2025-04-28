@@ -1,21 +1,92 @@
 ---
-title: Unione basata sui campi
+title: Unione basata su campi
 description: Spiegazione dell’unione basata sui campi
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1779'
 ht-degree: 15%
 
 ---
 
-# Unione basata sui campi
+# Unione basata su campi
 
-Nell’unione basata sui campi puoi specificare un set di dati evento, nonché l’ID persistente (cookie) e l’ID transitorio (ID persona) per tale set di dati. L’unione basata sui campi crea una nuova colonna ID unita nel nuovo set di dati uniti e aggiorna questa colonna ID unita in base alle righe che hanno un ID transitorio per quello specifico ID persistente. <br/>È possibile utilizzare l&#39;unione basata sui campi quando si utilizza il Customer Journey Analytics come soluzione autonoma (non avendo accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
+Nell’unione basata sui campi puoi specificare un set di dati evento, nonché l’ID persistente (cookie) e l’ID transitorio (ID persona) per tale set di dati. L’unione basata sui campi crea una nuova colonna ID unita nel nuovo set di dati uniti e aggiorna questa colonna ID unita in base alle righe che hanno un ID transitorio per quello specifico ID persistente. <br/>È possibile utilizzare l&#39;unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione autonoma (non avendo accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
 
 ![Unione basata sui campi](/help/stitching/assets/fbs.png)
+
+
+## IdentityMap
+
+L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identifyMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+
+- Utilizzo dell&#39;identità primaria nello spazio dei nomi `identityMap` per definire l&#39;ID persistente:
+   - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessigraficamente e la prima identità viene selezionata.
+   - Se più identità primarie si trovano in un singolo spazio dei nomi, viene selezionata la prima identità primaria disponibile lessicografica.
+
+  Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco di identità primarie ordinato e, infine, l’identità selezionata.
+
+  <table>
+     <tr>
+       <th>Namespace</th>
+       <th>Elenco identità</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Elenco identità ordinate</th>
+      <th>Identità selezionata</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+
+- Utilizzo dello spazio dei nomi `identityMap` per definire persistentID o transientID o entrambi:
+   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per persistentID o transientID, viene utilizzato il primo valore disponibile lessicografico.
+   - Gli spazi dei nomi per persistentID e transientID devono escludersi a vicenda.
+
+  Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco ordinato di identità per lo spazio dei nomi selezionato (ECID) e, infine, l’identità selezionata.
+
+  <table>
+     <tr>
+       <th>Namespace</th>
+       <th>Elenco identità</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Elenco identità ordinate</th>
+      <th>Identità selezionata</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
 
 ## Funzionamento dell’unione basata sui campi
 
@@ -139,21 +210,24 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata sui c
 
 - Il set di dati dell’evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere due colonne che aiutino a identificare i visitatori:
 
-   - Un **ID persistente**, un identificatore disponibile su ogni riga. Ad esempio, un ID visitatore generato da una libreria di AppMeasurement Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
-   - Un **ID transitorio**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID transitorio deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione di Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
+   - Un **ID persistente**, un identificatore disponibile su ogni riga. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
+   - Un **ID transitorio**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID transitorio deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
-- Entrambe le colonne (ID persistente e ID transitorio) devono essere definite come un campo di identità con uno spazio dei nomi identità nello schema per il set di dati da unire. Quando si utilizza l&#39;unione delle identità in Real-time Customer Data Platform, utilizzando il gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), è comunque necessario aggiungere campi di identità con uno spazio dei nomi di identità. Questa identificazione dei campi di identità è necessaria in quanto l&#39;unione di Customer Journey Analytics non supporta il gruppo di campi `identityMap`. Quando si aggiunge un campo di identità nello schema, ma si utilizza anche il gruppo di campi `identityMap`, non impostare il campo di identità aggiuntivo come identità primaria. L&#39;impostazione di un campo di identità aggiuntivo come identità primaria interferisce con il gruppo di campi `identityMap` utilizzato per Real-time Customer Data Platform.
+<!--
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+
+-->
 
 ## Limitazioni
 
 Le seguenti limitazioni si applicano in modo specifico all’unione basata sui campi:
 
 - Le attuali funzionalità di rekeying sono limitate a un solo passaggio (ID persistente a ID transitorio). La reimpostazione in più passaggi (ad esempio, ID persistente in un ID transitorio e quindi in un altro ID transitorio) non è supportata.
-- Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera le 50.000, il Customer Journey Analytics non unisce più i dati per tale dispositivo.
+- Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera le 50.000, Customer Journey Analytics non unisce più i dati per tale dispositivo.
 - Le mappe ID personalizzate utilizzate nell’organizzazione non sono supportate.
 - L’unione distingue tra maiuscole e minuscole. Per i set di dati generati tramite il connettore di origine di Analytics, Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio. Questa revisione assicura che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
 - L’unione non combina o concatena i campi.
 - Il campo ID transitorio deve contenere un singolo tipo di ID (ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
 - Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione seleziona l’ID in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione seleziona Ann.
 - Presta attenzione agli scenari in cui gli ID transitori contengono valori segnaposto, ad esempio `Undefined`. Per ulteriori informazioni, consulta le [domande frequenti](faq.md).
-
+- Non è possibile utilizzare lo stesso spazio dei nomi sia persistentID che transientID; gli spazi dei nomi devono escludersi a vicenda.
