@@ -2,7 +2,7 @@
 title: Panoramica delle metriche e delle dimensioni condivise
 description: Utilizza lo stesso riferimento a dimensione o metrica in più visualizzazioni dati.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Utilizza la casella di controllo accanto a un componente per visualizzare tutte 
 ![Anteprima delle azioni disponibili](assets/smd-actions.png)
 
 * ![Icona matita](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**: consente di aprire le dimensioni e le metriche selezionate nell&#39;[editor di componenti condivisi](shared-component-editor.md), modificando le impostazioni dei [componenti](/help/data-views/component-settings/overview.md). Quando selezioni più componenti da modificare, questi vengono tutti aperti nell’editor dei componenti. Per modificare lo stesso campo per più componenti, nell’editor componenti puoi fare clic sui componenti tenendo premuto Maiusc.
-* ![Icona Condivisione](/help/assets/icons/Share.svg) **[!UICONTROL Share to data view(s)]**: apre una finestra che mostra tutte le visualizzazioni dati disponibili nella connessione selezionata. Selezionare la casella di controllo per ogni visualizzazione dati in cui si desidera rendere disponibile il componente, quindi selezionare **[!UICONTROL Share]**.
-* ![Icona Annulla condivisione](/help/assets/icons/SaveTo.svg) **[!UICONTROL Unshare to data view(s)]**: apre una finestra che mostra tutte le visualizzazioni dati con cui questo componente è attualmente condiviso. Selezionare la casella di controllo per ogni visualizzazione dati da cui si desidera rimuovere la disponibilità del componente, quindi selezionare **[!UICONTROL Unshare]**.
+* ![Icona Condivisione](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share to data view(s)]**: apre una finestra che mostra tutte le visualizzazioni dati disponibili nella connessione selezionata. Selezionare la casella di controllo per ogni visualizzazione dati in cui si desidera rendere disponibile il componente, quindi selezionare **[!UICONTROL Share]**.
+* ![Icona Annulla condivisione](/help/assets/icons/SaveTo.svg) **[!UICONTROL Unshare from data view(s)]**: apre una finestra che mostra tutte le visualizzazioni dati con cui questo componente è attualmente condiviso. Selezionare la casella di controllo per ogni visualizzazione dati da cui si desidera rimuovere la disponibilità del componente, quindi selezionare **[!UICONTROL Unshare]**.
 * ![Icona duplicata](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**: crea una copia dei componenti selezionati. Per i componenti duplicati viene generato un nuovo ID componente.
 * ![Icona Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**: rimuove i componenti selezionati dall&#39;interfaccia. Se i componenti selezionati sono condivisi con una visualizzazione dati, non sono condivisi.
