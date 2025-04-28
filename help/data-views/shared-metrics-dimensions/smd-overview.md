@@ -1,7 +1,8 @@
 ---
 title: Panoramica delle metriche e delle dimensioni condivise
 description: Utilizza lo stesso riferimento a dimensione o metrica in più visualizzazioni dati.
-source-git-commit: 263767028893d9b04e5c8f8ae067b3e6283e4053
+exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
+source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -81,7 +82,7 @@ Tutte le dimensioni e le metriche condivise sono visualizzate sotto le quattro s
    * **[!UICONTROL Last modified]**: se il componente è stato modificato dopo la creazione, la data dell&#39;ultima modifica.
 * **[!UICONTROL Job history]**: selezionare l&#39;icona ![Icona Cronologia](/help/assets/icons/History.svg) per aprire una finestra modale che mostra tutte le istanze di importazione di dimensioni e metriche dalle singole visualizzazioni dati.
 
-## Modifica di componenti o condivisione di componenti nelle visualizzazioni dati
+## Modificare i componenti o condividerli con le visualizzazioni dati
 
 Utilizza la casella di controllo accanto a un componente per visualizzare tutte le azioni disponibili che puoi eseguire. Sono supportate selezioni multiple.
 
