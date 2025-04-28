@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
+source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 15%
@@ -29,7 +29,7 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
 
   Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco di identità primarie ordinato e, infine, l’identità selezionata.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Namespace</th>
        <th>Elenco identità</th>
@@ -44,7 +44,7 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Elenco identità ordinate</th>
       <th>Identità selezionata</th>
@@ -62,7 +62,7 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
 
   Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco ordinato di identità per lo spazio dei nomi selezionato (ECID) e, infine, l’identità selezionata.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Namespace</th>
        <th>Elenco identità</th>
@@ -77,7 +77,7 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Elenco identità ordinate</th>
       <th>Identità selezionata</th>
