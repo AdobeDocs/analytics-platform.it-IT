@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
+source-git-commit: 98432804b71805c3714423dff577bbf80d5c92d1
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 15%
@@ -21,7 +21,7 @@ Nell’unione basata sui campi puoi specificare un set di dati evento, nonché l
 
 ## IdentityMap
 
-L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identifyMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell&#39;identità primaria nello spazio dei nomi `identityMap` per definire l&#39;ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessigraficamente e la prima identità viene selezionata.
