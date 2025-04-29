@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Area di lavoro del percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi di Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Area di lavoro del percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>I clienti con accesso a Adobe Journey Optimizer possono analizzare i percorsi Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi di utenti creando un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi di Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 74%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
->title="Implementare il Web SDK per la proprietà specificata"
+>title="Implementare Web SDK per la proprietà specificata"
 >abstract="Per istruzioni più dettagliate, seleziona il tipo di implementazione desiderato nella guida all’aggiornamento."
 
 <!-- markdownlint-enable MD034 -->
@@ -55,7 +55,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
 >title="Aggiungere la libreria Web SDK al sistema di gestione dei tag di terze parti"
->abstract="Per aggiungere la libreria Web SDK al sito, rivolgiti all’amministratore del sistema di gestione dei tag.<br><br>Il tempo di completamento di questa attività dipende in larga misura dalla capacità di risposta del singolo responsabile del sistema di gestione dei tag. L’aggiunta della libreria Web SDK potrebbe essere inclusa nella logica di implementazione associata e distribuita durante i cicli di rilascio standard dell’organizzazione."
+>abstract="Per aggiungere la libreria Web SDK al sito, collabora con l’amministratore sulla gestione dei tag.<br><br>Il tempo di completamento di questa attività dipende in larga misura dalla capacità di risposta del singolo responsabile del sistema di gestione dei tag. L’aggiunta della libreria Web SDK potrebbe essere inclusa nella logica di implementazione associata e distribuita durante i cicli di rilascio standard dell’organizzazione."
 
 <!-- markdownlint-enable MD034 -->
 

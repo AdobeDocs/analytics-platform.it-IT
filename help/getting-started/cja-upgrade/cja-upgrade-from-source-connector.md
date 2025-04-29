@@ -8,7 +8,7 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 74%
+ht-degree: 92%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 74%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-delete"
->title="Elimina il connettore di origine Analytics esistente"
->abstract="Il connettore di origine di Analytics di cui disponi non è compatibile con lo schema personalizzato della tua organizzazione. Tuttavia, i dati esistono ancora nella suite di rapporti di Analytics. Questo passaggio rimuove il connettore di origine Analytics corrente in modo da poterlo ricreare utilizzando lo schema corretto in un passaggio successivo.<br><br>Prima di eliminare il connettore di origine, è possibile coordinarsi con altri utenti dell&#39;organizzazione per assicurarsi che la rimozione del connettore di origine non influisca sulla creazione di rapporti all&#39;interno dell&#39;organizzazione. Questo coordinamento potrebbe richiedere diverse settimane per essere completato."
+>title="Eliminare il connettore di origine di Analytics esistente"
+>abstract="Il connettore di origine di Analytics di cui attualmente disponi non è compatibile con lo schema personalizzato della tua organizzazione. Tuttavia, i dati esistono ancora nella suite di rapporti di Analytics. Questo passaggio rimuove il connettore di origine di Analytics corrente in modo da poterlo ricreare utilizzando lo schema corretto in un passaggio successivo.<br><br>Prima di eliminare il connettore di origine, puoi coordinarti con altri utenti della tua organizzazione per assicurarti che la rimozione del connettore di origine non influisca sulla creazione di rapporti all’interno dell’organizzazione. Questa attività di coordinamento potrebbe richiedere diverse settimane."
 
 <!-- markdownlint-enable MD034 -->
 

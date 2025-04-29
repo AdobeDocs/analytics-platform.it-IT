@@ -8,7 +8,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 44%
+ht-degree: 54%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="Prodotto di analisi non Adobe"
->abstract="Un’ implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nella guida all’aggiornamento verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto non Adobe Analytics."
+>abstract="Un’ implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nella guida aggiornata verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto di analisi non Adobe."
 
 <!-- markdownlint-enable MD034 -->
 

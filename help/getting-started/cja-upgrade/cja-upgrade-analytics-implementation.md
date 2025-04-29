@@ -8,7 +8,7 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-third-party"
->title="AppMeasurement utilizzando uno strumento di gestione dei tag di terze parti"
->abstract="Implementazione che utilizza uno strumento di gestione tag di terze parti."
+>title="AppMeasurement mediante uno strumento di gestione dei tag di terze parti"
+>abstract="Implementazione che utilizza uno strumento di gestione dei tag di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -91,7 +91,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
 >title="Determinare il tipo di implementazione esistente"
->abstract="Lavora internamente nella tua organizzazione per determinare il tipo di implementazione attualmente utilizzato per inviare dati ad Adobe Analytics. Quando effettui l’aggiornamento a Customer Journey Analytics, collabora con l’utente o il team che conosce queste informazioni.<br><br>Dopo aver determinato il tipo di implementazione utilizzato dalla propria organizzazione, modificare la risposta nella Guida all&#39;aggiornamento di Customer Journey Analytics."
+>abstract="Lavora internamente nella tua organizzazione per determinare il tipo di implementazione attualmente utilizzato per inviare dati ad Adobe Analytics. Quando effettui l’aggiornamento a Customer Journey Analytics, collabora con l’utente o il team che conosce queste informazioni.<br><br>Dopo aver determinato il tipo di implementazione utilizzato dalla tua organizzazione, modifica la risposta nella Guida all’aggiornamento di Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

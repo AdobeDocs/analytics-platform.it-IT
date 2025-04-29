@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribution"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando metrica di successo, canale e intervallo di lookback."
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando la metrica di successo, il canale e l’intervallo di lookback."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Pannello Attribuzione"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione per una metrica di successo. Seleziona il canale (dimensione), i modelli da includere e l’intervallo di lookback."
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione per una metrica di successo. Seleziona il canale (dimensione), i modelli da includere e l’intervallo di lookback."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->

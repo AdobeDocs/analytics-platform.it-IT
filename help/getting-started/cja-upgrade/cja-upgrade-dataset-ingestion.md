@@ -8,7 +8,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 50%
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="Convalidare i dati nel set di dati"
->abstract="Dopo aver configurato l’implementazione, puoi utilizzare il gestore delle attività del set di dati per visualizzare i batch acquisiti e non riusciti. Se visualizzi principalmente i batch acquisiti, questo passaggio è completo. Se vengono visualizzati batch con errori principali o nessun batch, controlla l’implementazione per assicurarti che invii correttamente i dati ad Adobe."
+>abstract="Ora che hai configurato l’implementazione, puoi utilizzare Gestione attività set di dati per visualizzare i batch con errori e non riusciti. Se visualizzi principalmente i batch acquisiti, questo passaggio è completo. Se visualizzi principalmente batch con errori o nessun batch, verifica l’implementazione per assicurarti che stia inviando correttamente i dati ad Adobe."
 
 <!-- markdownlint-enable MD034 -->
 

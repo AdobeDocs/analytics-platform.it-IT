@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto all’altro. Specifica un componente (metrica, dimensione o elemento) con cui iniziare e con cui terminare. Facoltativamente, puoi definire impostazioni avanzate per configurare ulteriormente la visualizzazione."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo. Specifica un componente (metrica, dimensione o elemento) con cui iniziare e con cui terminare. Se necessario, puoi definire impostazioni avanzate per configurare ulteriormente la visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 

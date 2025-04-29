@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
 source-wordcount: '4964'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -1351,7 +1351,7 @@ Restituisce Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza di esempio"
->abstract="Calcola una stima della varianza del campione utilizzando la formula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)). dove N è il conteggio del contenitore di normalizzazione. <br/>Utilizzato come parte dei *calcoli di attendibilità validi* in qualsiasi momento. In genere questa funzione non è utile da sola, ma può essere utilizzata per controllare i calcoli o per eseguire i calcoli di affidabilità *manualmente*."
+>abstract="Calcola una stima della varianza di esempio utilizzando la formula (somma(metrica^2) / (N - 1)) - (somma(metrica))^2/(N*(N-1)). dove N è il numero del contenitore di normalizzazione. <br/>Questa viene utilizzata nell’ambito dei calcoli di attendibilità *validi in ogni momento*. In genere, questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*."
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(normalizing-container, success-metric)]**
 

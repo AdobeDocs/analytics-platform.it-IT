@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="Visualizzatori simultanei di file multimediali"
->abstract="Crea un pannello per analizzare i visualizzatori simultanei in un determinato periodo di tempo."
+>abstract="Crea un pannello per analizzare i visualizzatori simultanei in un periodo di tempo specifico."
 
 <!-- markdownlint-enable MD034 -->
 

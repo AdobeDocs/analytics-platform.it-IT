@@ -8,7 +8,7 @@ exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-manual-populate-xdm"
 >title="Compilare un oggetto XDM e inviarlo allo stream di dati"
->abstract="Questo passaggio coinvolge l’intera logica di JavaScript per inviare dati a un flusso di dati. Adobe consiglia di mantenere un documento di progettazione della soluzione per monitorare come viene popolato l’oggetto XDM. Prevedi di dedicare un mese o più per stabilire i valori corretti del payload JSON, testarli e distribuirli sul tuo sito. Poiché questo passaggio richiede un contatto costante con il team tecnico per essere completato, potrebbe richiedere più tempo a seconda della capacità di risposta."
+>abstract="Questo passaggio coinvolge l’intera logica JavaScript per inviare dati a uno stream di dati. Adobe consiglia di mantenere un documento di progettazione della soluzione che consenta di tenere traccia del modo in cui viene compilato un oggetto XDM. Per stabilire i valori corretti del payload JSON, testarli e distribuirli sul sito, potrebbe essere necessario almeno un mese di lavoro. Il completamento di questo passaggio richiede un contatto costante con il team tecnico; pertanto, a seconda della capacità di risposta di quest’ultimo, potrebbe richiedere più tempo."
 
 <!-- markdownlint-enable MD034 -->
 

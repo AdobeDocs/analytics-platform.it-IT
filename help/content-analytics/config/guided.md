@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 40%
+ht-degree: 48%
 
 ---
 
@@ -97,7 +97,7 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="Nuova visualizzazione dati"
->abstract="La selezione di una nuova visualizzazione dati comporta un aggiornamento a tale visualizzazione dati per includere le metriche e le dimensioni di Content Analytics. Se necessario, la connessione associata viene aggiornata anche per includere i set di dati di analisi dei contenuti. La connessione e la visualizzazione dati attualmente configurate per l’analisi dei contenuti non vengono modificate."
+>abstract="Quando si selezione una nuova visualizzazione dati, tale visualizzazione viene aggiornata per includere le metriche e le dimensioni di analisi dei contenuti. Se necessario, la connessione associata viene aggiornata anche per includere i set di dati di analisi dei contenuti. La connessione e la visualizzazione dati attualmente configurate per l’analisi dei contenuti non vengono modificate."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
@@ -107,7 +107,7 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
 >title="Pulizia visualizzazione dati precedente"
->abstract="È stata selezionata una nuova visualizzazione dati. La configurazione Content Analytics per la visualizzazione dati selezionata in precedenza viene rimossa."
+>abstract="Hai selezionato una nuova visualizzazione dati. La configurazione Content Analytics per la visualizzazione dati selezionata in precedenza viene rimossa."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,38 +145,38 @@ La configurazione richiede la selezione di una [Visualizzazione dati](/help/data
 In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-views.md) è associata a una [connessione](/help/connections/overview.md) di Customer Journey Analytics. Una connessione si basa su una sandbox all’interno della tua organizzazione. Dopo aver salvato la configurazione, nel campo **[!UICONTROL Sandbox]** viene inserito automaticamente il nome della sandbox, in base alla visualizzazione dati selezionata.
 
 
-### Acquisizione e definizione dell’esperienza {#onboarding-experiences}
+### Acquisizione e definizione delle esperienze {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
->title="Acquisizione e definizione dell’esperienza"
+>title="Acquisizione e definizione delle esperienze"
 >abstract="Puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics. Quando questa opzione è selezionata, devi definire una o più combinazioni di un regex e parametri di query per definire gli URL per i quali desideri includere le esperienze."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
->title="Acquisizione e definizione dell’esperienza"
+>title="Acquisizione e definizione delle esperienze"
 >abstract="Raccogli esperienze in Content Analytics"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
->title="Acquisizione e definizione dell’esperienza"
->abstract="Specifica i parametri che determinano il rendering del contenuto sul sito web."
+>title="Acquisizione e definizione delle esperienze"
+>abstract="Specifica i parametri che determinano come viene eseguito il rendering del contenuto sul sito web."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_new_include_experiences"
->title="Acquisizione e definizione dell’esperienza"
+>title="Acquisizione e definizione delle esperienze"
 >abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e è disponibile il reporting sulle esperienze."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
->title="Acquisizione e definizione dell’esperienza"
+>title="Acquisizione e definizione delle esperienze"
 >abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e è disponibile il reporting sulle esperienze. <br><br/>Utilizza ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** per modificare la configurazione della raccolta dati per le esperienze nella proprietà Tags associata alla configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
->title="Acquisizione e definizione dell’esperienza"
+>title="Acquisizione e definizione delle esperienze"
 >abstract="È necessario modificare le impostazioni per la raccolta dati sull’esperienza nell’estensione Adobe Content Analytics."
 
 <!-- markdownlint-enable MD034 -->
@@ -243,7 +243,7 @@ In questa sezione configuri come raccogliere i dati di analisi dei contenuti.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="Raccolta dati"
->abstract="**Fornisci una proprietà tag**"
+>abstract="**Specifica una proprietà tag**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -268,17 +268,17 @@ In questa sezione configuri come raccogliere i dati di analisi dei contenuti.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
 >title="Raccolta dati"
->abstract="Puoi modificare le impostazioni per le pagine dell’estensione Adobe Content Analytics nella proprietà Tags associata alla configurazione corrente."
+>abstract="Puoi modificare le impostazioni per le pagine nell’estensione Content Analytics di Adobe nella proprietà Tag associata alla configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_edit_button"
 >title="Raccolta dati"
->abstract="Puoi modificare le impostazioni per le risorse nell’estensione Adobe Content Analytics nella proprietà Tags associata alla configurazione corrente."
+>abstract="Puoi modificare le impostazioni per le risorse nell’estensione Content Analytics di Adobe nella proprietà Tag associata alla configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tags_disabled_description "
->title="Proprietà Tags disabilitata"
->abstract="Estensione Content Analytics già attiva."
+>title="Proprietà Tag disabilitata"
+>abstract="L’estensione Content Analytics è già attiva."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -342,7 +342,7 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo fornisce dettagli sug
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="Conferma dell’implementazione"
->abstract="Se si seleziona **[!UICONTROL Implement]**, l’analisi dei contenuti verrà configurata in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma l’utente (in qualità di titolare del trattamento dei dati) deve esaminare le impostazioni di ciascun artefatto per verificare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>L’URL, acquisito al momento della visita del sito dell’utente, in base alle impostazioni di raccolta dati configurate e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
+>abstract="Se si seleziona **[!UICONTROL Implement]**, l’analisi dei contenuti verrà configurata in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per l’analisi dei contenuti. Tuttavia, in qualità di titolare del trattamento dei dati, devi rivedere le impostazioni di ciascun artefatto per confermare che siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo le normative applicabili.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>l’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate, e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 

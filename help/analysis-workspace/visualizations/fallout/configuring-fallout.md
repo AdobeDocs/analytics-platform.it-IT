@@ -7,7 +7,7 @@ role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 35%
+ht-degree: 42%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
 ## Utilizzo
 
-1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
 
    ![La home page dalla dimensione Home page è stata trascinata nel campo Aggiungi punto di contatto.](assets/fallout-drag.png)
@@ -59,12 +59,12 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
->title="Contenitore Abbandono"
->abstract="Seleziona un contenitore per analizzare i percorsi. Questa selezione consente di comprendere il coinvolgimento e vincola l’analisi al contenitore selezionato."
+>title="Contenitore Fallout"
+>abstract="Seleziona un contenitore per analizzare il percorso. Questa selezione ti consente di comprendere il tipo di coinvolgimento e vincola l’analisi al contenitore selezionato."
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 
-| Contenitore Abbandono | Descrizione |
+| Contenitore Fallout | Descrizione |
 |--- |--- |
 | **[!UICONTROL Session]** o **[!UICONTROL Person]** | Passa da [!UICONTROL Session] a [!UICONTROL Person] per analizzare il percorso della persona. Il valore predefinito è [!UICONTROL Person]. Queste impostazioni consentono di comprendere il coinvolgimento di persone a livello di persona singola (attraverso più sessioni) o di limitare l’analisi a una singola sessione. |
 
@@ -86,8 +86,8 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

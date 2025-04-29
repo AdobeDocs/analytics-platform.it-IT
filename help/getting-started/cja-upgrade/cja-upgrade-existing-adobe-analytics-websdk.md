@@ -8,7 +8,7 @@ exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 61%
+ht-degree: 66%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 61%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-remove-aa-from-datastream"
->title="Rimuovere Adobe Analytics as a service dallo stream di dati"
->abstract="Con i dati di Web SDK completamente funzionanti, rivolgiti all’amministratore di Platform per rimuovere Adobe Analytics as a service dallo stream di dati. Prima di eseguire questa operazione, assicurati che gli utenti siano passati dall’utilizzo di Adobe Analytics a Customer Journey Analytics."
+>title="Rimuovere Adobe Analytics come servizio dallo stream di dati"
+>abstract="Con i dati da Web SDK completamente funzionanti, rivolgiti all’amministratore di Platform per rimuovere Adobe Analytics come servizio dallo stream di dati. Prima di farlo, assicurati che gli utenti siano già passati da Adobe Analytics a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 67%
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
 >title="Collegare dati di origini diverse"
->abstract="(Consigliato) Collega dati da varie proprietà web, mobili e offline per creare una singola vista consolidata del comportamento del cliente. Questa capacità di combinare i dati di analisi di altri canali è il caso d’uso principale per Customer Journey Analytics."
+>abstract="(Consigliato) Collega dati da varie proprietà web, dispositivi mobili e offline per creare una singola vista consolidata del comportamento della clientela. Questa possibilità di combinare dati di analisi provenienti da altri canali è il caso d’uso principale per Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
 >title="Integrare temporaneamente con Adobe Target"
->abstract="Adobe consiglia di eseguire l’integrazione con Adobe Journey Optimizer per i casi di utilizzo di personalizzazione. L’integrazione con Adobe Target è possibile, ma è una soluzione a breve termine."
+>abstract="Adobe consiglia di eseguire l’integrazione con Adobe Journey Optimizer per i casi di utilizzo di personalizzazione. L’integrazione con Adobe Target è possibile, ma è una soluzione temporanea."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,7 +73,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="Integrare temporaneamente con Adobe Audience Manager"
->abstract="Adobe consiglia di eseguire l’integrazione con Adobe Real-time CDP per i casi d’uso basati sul pubblico. L’integrazione con Audience Manager è possibile, ma è una soluzione a breve termine."
+>abstract="Adobe consiglia di eseguire l’integrazione con Adobe Real-time CDP per i casi d’uso basati sul pubblico. L’integrazione con Audience Manager è possibile, ma è una soluzione temporanea."
 
 <!-- markdownlint-enable MD034 -->
 

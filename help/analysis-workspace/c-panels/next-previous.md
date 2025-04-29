@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 80%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Elemento successivo o precedente"
->abstract="Analizza i luoghi più comuni da cui provengono o a cui accedono i visitatori in precedenza. Specifica la dimensione, l’elemento dimensione, la direzione e il contenitore da utilizzare per la visualizzazione."
+>abstract="Analizza i luoghi più comuni da cui provenivano in precedenza i visitatori o dove andranno successivamente. Specifica la dimensione, l’elemento della dimensione, la direzione e il contenitore da utilizzare per la visualizzazione."
 
 
 
@@ -42,7 +42,7 @@ Il pannello **[!UICONTROL Next or previous item]** contiene diverse tabelle e vi
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_container"
 >title="Contenitore"
->abstract="Seleziona il contenitore per determinare l’ambito della richiesta di informazioni."
+>abstract="Seleziona il contenitore per determinare l’ambito della richiesta."
 
 Per usare un pannello **[!UICONTROL Next or previous item]**:
 

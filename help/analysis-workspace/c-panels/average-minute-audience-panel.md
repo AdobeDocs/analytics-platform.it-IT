@@ -7,7 +7,7 @@ exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1635'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Pubblico medio per minuto del file multimediale"
->abstract="Mostra le prestazioni di contenuti multimediali specifici o le prestazioni in un periodo di tempo personalizzato. Specifica la dimensione di reporting e facoltativamente segmenta il contenuto."
+>abstract="Mostra le prestazioni di contenuti multimediali specifici o in un periodo di tempo personalizzato. Specifica la dimensione di reporting e facoltativamente segmenta il contenuto."
 
 <!-- markdownlint-enable MD034 -->
 

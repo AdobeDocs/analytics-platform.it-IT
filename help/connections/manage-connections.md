@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
 source-wordcount: '4052'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -380,17 +380,17 @@ Quando nella tabella dei set di dati è selezionata una riga di set di dati, in 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="Righe principali segnalabili"
->abstract="Le righe principali da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+>abstract="Le righe principali da riportare sono valori istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se si seleziona gennaio - marzo, i valori faranno riferimento allo snapshot dal mese di marzo."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="Righe cronologiche segnalabili"
->abstract="Le righe cronologiche da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+>abstract="Le righe storiche per reporting presentano valori ottenuti da uno snapshot, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se si seleziona gennaio - marzo, i valori faranno riferimento allo snapshot dal mese di marzo."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="Righe cumulative per reporting"
->abstract="Le righe cumulative da segnalare sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se un cliente seleziona gennaio - marzo, i valori rifletteranno l’istantanea da marzo."
+>abstract="Le righe cumulative per reporting presentano valori ottenuti da uno snapshot, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. Se si seleziona gennaio - marzo, i valori faranno riferimento allo snapshot dal mese di marzo."
 
 <!-- markdownlint-enable MD034 -->
 
