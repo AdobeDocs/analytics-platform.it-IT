@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 1a88be1f79bc6dc07f849af5f32f3472105ee3ed
 workflow-type: tm+mt
-source-wordcount: '5062'
+source-wordcount: '5077'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2025** | |
+| Connessioni | È stata rielaborata e aggiornata la documentazione sulle connessioni del Percorso clienti per il prossimo B2B edition del Percorso clienti. |
 | Caso di utilizzo dell’analisi del prodotto | Aggiunta dell&#39;analisi del prodotto [in Customer Journey Analytics](/help/use-cases/product-analysis.md). |
 | Metriche e dimensioni condivise | È stata aggiunta la documentazione per la funzione [Metriche e dimensioni condivise](/help/data-views/shared-metrics-dimensions/smd-overview.md). |
 | Report Builder | Ha rivisto e aggiornato la documentazione di [Report Builder](/help/report-builder/report-buider-overview.md). |

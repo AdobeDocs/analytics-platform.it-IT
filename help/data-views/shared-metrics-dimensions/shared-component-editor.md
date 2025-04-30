@@ -1,7 +1,8 @@
 ---
 title: Editor di componenti condivisi
 description: Creare o modificare dimensioni e metriche condivise.
-source-git-commit: d2c6605cc440c293aca279c1583bac964055d277
+exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
+source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -19,7 +20,7 @@ L’editor dei componenti condivisi consente di creare o modificare dimensioni e
 
 In alto a destra sono presenti tre pulsanti:
 
-* **[!UICONTROL Close]** o **[!UICONTROL Cancel]**: se tutte le modifiche vengono salvate, il pulsante **[!UICONTROL Close]** chiude l&#39;editor. Se sono presenti modifiche non salvate, il pulsante **[!UICONTROL Cancel] chiude l&#39;editor senza salvarle.
+* **[!UICONTROL Close]** o **[!UICONTROL Cancel]**: se tutte le modifiche vengono salvate, il pulsante **[!UICONTROL Close]** chiude l&#39;editor. Se sono presenti modifiche non salvate, il pulsante **[!UICONTROL Cancel]** chiude l&#39;editor senza salvarle.
 * **[!UICONTROL Save]**: salva tutti i componenti e mantiene aperto l&#39;editor.
 * **[!UICONTROL Save and finish]**: salva tutti i componenti e chiude l&#39;editor.
 
