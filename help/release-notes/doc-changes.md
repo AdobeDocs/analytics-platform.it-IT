@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a88be1f79bc6dc07f849af5f32f3472105ee3ed
+source-git-commit: 8a8244bff45017a4b021599df6ff3dc37cf8e1c6
 workflow-type: tm+mt
-source-wordcount: '5077'
-ht-degree: 90%
+source-wordcount: '5107'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2025** | |
+| Limiti di esportazione della tabella completi aumentati | È stato modificato il [numero di colonne](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud#comparison-of-full-table-export-in-customer-journey-analytics-to-data-warehouse-in-adobe-analytics) che i clienti possono utilizzare con l&#39;esportazione di tabelle complete da 5 dimensioni e 5 metriche a 10 dimensioni e 10 metriche. |
 | Connessioni | È stata rielaborata e aggiornata la documentazione sulle connessioni del Percorso clienti per il prossimo B2B edition del Percorso clienti. |
 | Caso di utilizzo dell’analisi del prodotto | Aggiunta dell&#39;analisi del prodotto [in Customer Journey Analytics](/help/use-cases/product-analysis.md). |
 | Metriche e dimensioni condivise | È stata aggiunta la documentazione per la funzione [Metriche e dimensioni condivise](/help/data-views/shared-metrics-dimensions/smd-overview.md). |

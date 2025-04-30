@@ -5,7 +5,7 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 98%
@@ -189,7 +189,7 @@ I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuo
    * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md)
    * Non utilizza una [dimensione di binding](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * Più dimensioni provenienti da campi che fanno riferimento a [array di oggetti](/help/use-cases/object-arrays.md) diversi. (Sono consentite più dimensioni che fanno riferimento allo stesso array di oggetti.)
-* Più di 5 dimensioni e 5 metriche per rapporto (sono supportate fino a 5 dimensioni e 5 metriche)
+* Più di 10 dimensioni e 10 metriche per rapporto (sono supportate fino a 10 dimensioni e 10 metriche)
 * Nelle colonne della tabella:
    * Intervalli di date
    * Dimensioni
@@ -227,8 +227,8 @@ Se in precedenza si utilizzava Data Warehouse per esportare dati di Adobe Analyt
 | Creare un rapporto personalizzato | Sì | Sì |
 | Metriche calcolate | Sì | No |
 | Segmenti | Sì | Limitato |
-| Dimensioni | Limite di 5 | Senza limiti |
-| Metriche | Limite di 5 | Senza limiti |
+| Dimensioni | Limite di 10 | Senza limiti |
+| Metriche | Limite di 10 | Senza limiti |
 | Righe di reporting | Limite di 3 milioni, 30 milioni, 150 milioni o 300 milioni, a seconda del livello | Senza limiti |
 | Numero di rapporti | Senza limiti | Senza limiti |
 | Consegna ad hoc (una tantum) | Sì | Sì |
