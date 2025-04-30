@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4ddb98b800457e407bb414ed4929c5d5018cf30
+source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
 workflow-type: tm+mt
-source-wordcount: '6279'
-ht-degree: 60%
+source-wordcount: '6347'
+ht-degree: 58%
 
 ---
 
@@ -210,6 +210,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 
 Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della connessione *]**:
 
+![Impostazioni di connessione senza titolo](assets/create-conn1-b2b.png)
+
 1. Configura le impostazioni della connessione.
 
    | Impostazione | Descrizione |
@@ -217,7 +219,7 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Connection name]** | Assegna un nome univoco alla connessione. |
    | **[!UICONTROL Connection description]** | Descrivi lo scopo della connessione. |
    | **[!UICONTROL Tags]** | Specifica i tag da aggiungere alla connessione in modo da poterli utilizzare per cercare la connessione in una fase successiva. |
-   | **[!UICONTROL Primary ID]** | Seleziona l’ID primario corretto per la connessione: <ul><li>![Utente](/help/assets/icons/User.svg) **[!UICONTROL Person]** per uno scenario B2C</li><li> ![Compilazione](/help/assets/icons/Building.svg) **[!UICONTROL Account]** per uno scenario B2B.</li></ul>.<br/>Non appena aggiungi uno o più set di dati alla connessione, non potrai più modificare l&#39;ID primario. <br/>La selezione dell&#39;ID primario definisce se la connessione è basata su persona o su account. La base di connessione determina le [impostazioni](#dataset-settings) disponibili per alcuni tipi di set di dati. |
+   | **[!UICONTROL Primary ID]** | Seleziona l’ID primario corretto per la connessione: <ul><li>![Utente](/help/assets/icons/User.svg) **[!UICONTROL Person]** per una connessione basata su persona in genere utilizzata in uno scenario B2C.</li><li> ![Compilazione](/help/assets/icons/Building.svg) di **[!UICONTROL Account]** per una connessione basata su account in genere utilizzata in uno scenario B2B.</li></ul>Non appena aggiungi uno o più set di dati alla connessione, non potrai più modificare l’ID primario. <br/>La selezione dell&#39;ID primario definisce se la connessione è basata su persona o su account. La base di connessione determina le [impostazioni](#dataset-settings) disponibili per alcuni tipi di set di dati. |
    | **[!UICONTROL Optional containers]** | Se hai selezionato ![Compilazione](/help/assets/icons/Building.svg) **[!UICONTROL Account]** come **[!UICONTROL Primary ID]**, seleziona altri contenitori.<ul><li>**[!UICONTROL Global account]**: abilita la configurazione degli account globali in una connessione.</li><li>**[!UICONTROL Opportunity]**: abilita la configurazione delle opportunità in una connessione.</li><li>**[!UICONTROL Buying group]**: abilita la configurazione dei gruppi di acquisto in una connessione.</li><ul> |
    | **[!UICONTROL Sandbox]** | Scegli una sandbox in Experience Platform che contiene i set di dati per i quali desideri creare una connessione.<p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.<p>Dopo aver selezionato la sandbox, la barra a sinistra mostra tutti i set di dati nella sandbox da cui puoi richiamarli. |
    | **[!UICONTROL Enable rolling data window]** | La casella di controllo, se selezionata, consente di definire un’impostazione di conservazione dei dati di Customer Journey Analytics come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.<p>La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di finestra continua per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili. Tuttavia, se la connessione include un profilo o set di dati di ricerca (oltre a uno o più set di dati evento), tali dati verranno conservati per lo stesso periodo di tempo.<p> Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.<p><ul><li>Se lasci l’impostazione predefinita (non selezionata), il periodo di conservazione viene sostituito dall’impostazione di conservazione dei dati di Adobe Experience Platform. Se disponi di un valore di 25 mesi di dati in Experience Platform, Customer Journey Analytics può ottenere 25 mesi di dati tramite retrocompilazione. Eliminando10 di questi mesi in Platform, Customer Journey Analytics mantiene i restanti 15 mesi.</li><li>Se si abilita una finestra continua dei dati, specificare in **[!UICONTROL Select number of months]** il numero di mesi per i quali si abilita la finestra continua dei dati. |
@@ -238,7 +240,7 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Data source type]** | Il tipo di origine dati del set di dati. Non applicabile per i set di dati di riepilogo. |
    | **[!UICONTROL Account ID]** | (visualizzato solo per le connessioni basate sull’account) L’ID account utilizzato per supportare la generazione di rapporti basati sull’account per il set di dati. |
    | **[!UICONTROL Global Account ID]** | (visualizzato solo per le connessioni basate sull’account) L’ID account globale utilizzato per supportare la generazione di rapporti basati sull’account per il set di dati. |
-   | **[!UICONTROL Buying Group ID]** | (visualizzato solo per le connessioni basate su account) L&#39;ID del gruppo di acquisto utilizzato per cercare i dati del gruppo di acquisto. |
+   | **[!UICONTROL Buying Group ID]** | (visualizzato solo per le connessioni basate su account) ID del gruppo di acquisto utilizzato per cercare i dati del gruppo di acquisto. |
    | **[!UICONTROL Opportunity ID]** | (visualizzato solo per le connessioni basate su account) L’ID opportunità utilizzato per cercare i dati dell’opportunità. |
    | **[!UICONTROL Person ID]** | L’ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Key]** | Chiave utilizzata per un set di dati di ricerca. |
@@ -463,7 +465,7 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_datasetbackfill"
 >title="Retrocompilazione dei set di dati"
->abstract="Questa opzione esegue la retrocompilazione dei dati esistenti (storici) da Experience Platform per questo set di dati nella connessione."
+>abstract="Questa opzione esegue il backfill dei dati esistenti (storici) da Experience Platform per questo set di dati nella connessione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -483,7 +485,7 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 >title="Mappa di connessione"
 >abstract="La Mappa di connessione visualizza le relazioni tra evento, persona, account e set di dati di ricerca rilevanti (come opportunità, membri della campagna e altro)."
 
-## Aggiungere set di dati
+### Aggiungere set di dati
 
 Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modifichi una connessione.
 
@@ -513,7 +515,7 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
    * Per visualizzare i dettagli di un set di dati, selezionare ![InfoOutline](/help/assets/icons/InfoOutline.svg).
 
 
-1. Seleziona uno o più set di dati e seleziona **[!UICONTROL Next]**. Deve far parte della connessione almeno un set di dati evento.
+1. Seleziona uno o più set di dati e seleziona **[!UICONTROL Next]**. Almeno un evento o un set di dati di riepilogo deve far parte della connessione.
 
 1. Configura le impostazioni [ per ciascuno dei set di dati selezionati](#dataset-settings), uno alla volta, nel passaggio **[!UICONTROL Datasets settings]** di tipo della finestra di dialogo **[!UICONTROL Add datasets]**.
 
@@ -540,7 +542,7 @@ Per modificare un set di dati già configurato per una connessione, nell&#39;int
 
 ### Impostazioni del set di dati
 
-Quando aggiungi set di dati o ne modifichi uno esistente, configura le impostazioni per ogni set di dati. Le impostazioni disponibili dipendono dal [tipo di set di dati](#dataset-types) e, per alcuni tipi di set di dati, dal tipo di connessione (basata su persona o sull&#39;account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}).
+Quando aggiungi set di dati o ne modifichi uno esistente, configura le impostazioni per ogni set di dati. Le impostazioni disponibili dipendono dal [tipo di set di dati](#dataset-types) e, per alcuni tipi di set di dati, dal tipo di connessione (basata su persona o [!BADGE basata su account B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}.).
 
 Tutti i set di dati e i tipi di set di dati hanno [impostazioni generali e dettagli](#general-dataset-settings-and-details), ad esempio se importare nuovi dati e richiedere i backfill.
 
@@ -558,8 +560,8 @@ Per un set di dati evento in una connessione basata su persona, puoi specificare
 | --- | --- |
 | **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che nello schema non sono definiti ID persona. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
 | **[!UICONTROL Timestamp]** | Questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati sull’evento in Experience Platform. |
-| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
-| **[!UICONTROL Data source description]** | Descrivere l&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
+| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+| **[!UICONTROL Data source description]** | Descrizione dell&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
 
 
 ##### Connessione basata su account
@@ -572,14 +574,14 @@ Per un set di dati evento in una connessione basata su account, puoi specificare
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Account ID]** | Seleziona un ID account (l’identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform. |
-| **[!UICONTROL Global Account ID]** | Seleziona un ID account (l’identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform. |
+| **[!UICONTROL Account ID]** | Seleziona un ID account globale (l’identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform. Applicabile quando hai aggiunto l’account globale come contenitore alla connessione. |
+| **[!UICONTROL Global Account ID]** | Seleziona un ID account (l’identificatore univoco di un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform. Applicabile quando non hai aggiunto l’account globale come contenitore alla connessione. |
 | **[!UICONTROL Opportunity ID]** | Seleziona un ID opportunità (l’identificatore univoco di un’opportunità) tra le identità disponibili definite nello schema del set di dati in Experience Platform. |
 | **[!UICONTROL Buying Group ID]** | Seleziona un ID gruppo di acquisto (l’identificatore univoco per un gruppo di acquisto) tra le identità disponibili definite nello schema del set di dati in Experience Platform. |
 | **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
 | **[!UICONTROL Timestamp]** | Questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati sull’evento in Experience Platform. |
-| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
-| **[!UICONTROL Data source description]** | Descrivere l&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
+| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+| **[!UICONTROL Data source description]** | Descrizione dell&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
 
 
 #### Set di dati di profilo
@@ -594,9 +596,9 @@ Per un set di dati profilo in una connessione basata su persona, specifica:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che nessun ID persona è stato definito nello schema. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
-| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
-| **[!UICONTROL Data source description]** | Descrivere l&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
+| **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, nello schema non viene definito alcun ID persona. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
+| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+| **[!UICONTROL Data source description]** | Descrizione dell&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
 
 #### Connessione basata su account
 
@@ -606,10 +608,11 @@ Per un set di dati profilo in una connessione basata su account, specifica:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che nessun ID persona è stato definito nello schema. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
-| **[!UICONTROL Account ID]** | Seleziona un ID account utilizzato per supportare la generazione di rapporti basati sull’account per il set di dati dall’elenco a discesa delle identità disponibili. |
-| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
-| **[!UICONTROL Data source description]** | Descrivere l&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
+| **[!UICONTROL Person ID]** | Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Consulta [Utilizzare Identity Map come ID persona](#id-map) per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, nello schema non viene definito alcun ID persona. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
+| **[!UICONTROL Global Account field]** | Seleziona un campo account globale per supportare la generazione di rapporti basati sull’account per il set di dati dall’elenco a discesa delle identità disponibili. Applicabile quando hai aggiunto l’account globale come contenitore alla connessione. |
+| **[!UICONTROL Account field]** | Seleziona un campo account per supportare la generazione di rapporti basati sull’account per il set di dati dall’elenco a discesa delle identità disponibili. Applicabile quando non hai aggiunto l’account globale come contenitore alla connessione. |
+| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+| **[!UICONTROL Data source description]** | Descrizione dell&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
 
 #### Set di dati di ricerca
 
@@ -617,7 +620,7 @@ Le impostazioni specifiche per un set di dati di ricerca dipendono dal tipo di c
 
 ##### Connessione basata su persona
 
-![Ricerca impostazioni set di dati evento basate su persona](assets/lookup-dataset-settings-b2c.png)
+![Impostazioni del set di dati evento di ricerca basate su persona](assets/lookup-dataset-settings-b2c.png)
 
 Per un set di dati di ricerca in una connessione basata su persona, specifica:
 
@@ -625,8 +628,8 @@ Per un set di dati di ricerca in una connessione basata su persona, specifica:
 |---|---|
 | **[!UICONTROL Key]** | Chiave da utilizzare per un set di dati di ricerca. |
 | **[!UICONTROL Matching key]** | Chiave corrispondente per partecipare a uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento. |
-| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
-| **[!UICONTROL Data source description]** | Descrivere l&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
+| **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+| **[!UICONTROL Data source description]** | Descrizione dell&#39;origine dati dopo aver selezionato Altro come tipo di origine dati. |
 | **[!UICONTROL Transform dataset]** | Per set di dati di ricerca B2B specifici puoi abilitare la trasformazione di un set di dati per scenari di reporting B2B appropriati basati su persone. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md). |
 
 
@@ -635,7 +638,7 @@ Per un set di dati di ricerca in una connessione basata su persona, specifica:
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-![Basato su account impostazioni set di dati evento di ricerca](assets/lookup-dataset-settings-b2b.png)
+![Impostazioni set di dati evento di ricerca basate sull&#39;account](assets/lookup-dataset-settings-b2b.png)
 
 Per un set di dati di ricerca in una connessione basata su account, puoi specificare:
 
@@ -675,25 +678,6 @@ Quando elimini un set di dati, ricevi notifiche sulle implicazioni dell’elimin
 
 Quando si seleziona ![Cronologia](/help/assets/icons/History.svg) **[!UICONTROL Past backfills]** nell&#39;interfaccia, in una finestra di dialogo **[!UICONTROL Past backfills: _Nome set di dati_]** vengono visualizzati i backfill più recenti del set di dati.
 
-## Anteprima della connessione {#preview}
-
-Per visualizzare in anteprima la connessione creata, selezionare ![PageSearch](/help/assets/icons/PageSearch.svg) **[!UICONTROL Connection preview]** nella finestra di dialogo Impostazioni connessione.
-
-![Anteprima della connessione](assets/create-conn4.png)
-
-Questa anteprima contiene alcune colonne contenenti la configurazione della connessione. I tipi di colonna visualizzati dipendono dai singoli set di dati.
-
-
-## Mappa di connessione
-
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
-
-Per visualizzare una mappa delle relazioni tra i set di dati che fanno parte della connessione, seleziona ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]** nella finestra di dialogo Impostazioni connessione.
-
-![Mappa di connessione](assets/connectionmap.png)
-
-Questa mappa ti consente di comprendere meglio come hai definito la connessione e impostare la relazione tra evento, profilo, ricerca e set di dati di riepilogo utilizzando gli identificatori.
-
 ## Tipi di set di dati {#dataset-types}
 
 Per ogni set di dati aggiunto alla connessione, [!UICONTROL Customer Journey Analytics] imposta automaticamente il tipo in base ai dati in arrivo.
@@ -711,9 +695,25 @@ Esistono tipi diversi di set di dati: dati [!UICONTROL Event], dati [!UICONTROL 
 | **[!UICONTROL Profile]** | Dati applicati all&#39;account, alle persone, agli utenti o ai clienti nei dati [!UICONTROL Event]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema predefinito o personalizzato basato sulla classe *XDM Individual Profile*. | Puoi scegliere l&#39;ID persona/ID account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} da includere. Ogni set di dati (ad eccezione dei set di dati di riepilogo) definito in [!DNL Experience Platform] dispone di un proprio set di uno o più ID persona o ID account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} definiti. Ad esempio, ID cookie, ID di unione, ID utente, codice di tracciamento, ID account e così via.Nota su <br>![ID persona ](assets/person-id.png)****: se crei una connessione che include set di dati con ID diversi, comparirà anche nel reporting. Per unire i set di dati, devi utilizzare lo stesso ID persona o ID account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}. |
 | **Riepilogo** | Dati di serie temporali che non sono associati a un singolo ID persona. I dati di riepilogo rappresentano i dati aggregati a un diverso livello di aggregazione, ad esempio le campagne. Puoi utilizzare questi dati in Customer Journey Analytics per supportare vari casi d’uso. Per ulteriori informazioni, consulta [Dati di riepilogo](/help/data-views/summary-data.md). | Imposta automaticamente sul campo marca temporale predefinito dagli schemi Metriche di riepilogo basati sull’evento in Experience Platform. È supportata solo la granularità oraria o giornaliera. | Qualsiasi schema predefinito o personalizzato basato sulla classe *Metriche di riepilogo XDM*. | N/D |
 
->[!MORELIKETHIS]
->
->Blog: [Come sfruttare i set di dati di eventi, ricerche e profili in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+## Anteprima della connessione {#preview}
+
+Per visualizzare in anteprima la connessione creata, selezionare ![PageSearch](/help/assets/icons/PageSearch.svg) **[!UICONTROL Connection preview]** nella finestra di dialogo Impostazioni connessione.
+
+![Anteprima della connessione](assets/create-conn4.png)
+
+Questa anteprima contiene alcune colonne contenenti la configurazione della connessione. I tipi di colonna visualizzati dipendono dai singoli set di dati.
+
+
+## Mappa di connessione
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+Per visualizzare una mappa delle relazioni tra i set di dati che fanno parte della connessione, seleziona ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]** nella finestra di dialogo Impostazioni connessione.
+
+![Mappa di connessione](assets/connectionmap.png)
+
+Questa mappa consente di comprendere meglio come hai definito la connessione e impostare la relazione tra evento, profilo, ricerca e set di dati di riepilogo utilizzando gli identificatori.
+
 
 ## Utilizzo di campi numerici come chiavi e valori di ricerca {#numeric}
 
@@ -779,5 +779,10 @@ Quando crei una connessione, puoi aggiungere set di dati di grandi dimensioni a 
 Puoi richiedere l’algoritmo di potatura di un set di dati di ricerca di grandi dimensioni. Questa potatura algoritmica mantiene solo i dati nel set di dati di ricerca che corrispondono alle chiavi nel set di dati dell’evento. In questo modo, non è necessario caricare l’intero set di dati di ricerca non potato. Gli elementi utilizzati meno di frequente o meno recenti vengono rimossi, il che potrebbe influenzare leggermente i rapporti, ma offre vantaggi significativi. L’algoritmo torna indietro di 90 giorni e si aggiorna settimanalmente.
 
 Contatta il team di supporto Adobe per ulteriori informazioni e per abilitare questa funzionalità.
+
+
+>[!MORELIKETHIS]
+>
+>Blog: [Come sfruttare i set di dati di eventi, ricerche e profili in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![Condividi](/help/assets/icons/Share.svg)
