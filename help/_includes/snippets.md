@@ -1,8 +1,8 @@
 ---
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
 workflow-type: tm+mt
-source-wordcount: '3719'
-ht-degree: 30%
+source-wordcount: '3995'
+ht-degree: 33%
 
 ---
 # Snippet
@@ -239,3 +239,19 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 >[!INFO]
 >
 >In questa documentazione, articoli o funzionalità B2B specifici, disponibili solo con Customer Journey Analytics B2B edition, sono contrassegnati con [!BADGE B2B edition]{type=Informative}.
+
+
+## Impostazioni comuni del set di dati {#common-dataset-settings}
+
+| Impostazione | Descrizione |
+|---|---|
+| **[!UICONTROL Import new data]** | Attiva questa opzione se desideri stabilire una connessione continua. Con una connessione continua, i nuovi batch di dati aggiunti ai set di dati sono disponibili automaticamente in Workspace. |
+| **[!UICONTROL Dataset backfill]** | Abilita **[!UICONTROL Backfill all existing data]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Request backfill]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Queue backfill]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Cancel]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li></ul> |
+| **[!UICONTROL Batch status]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
+| **[!UICONTROL Dataset ID]** | Questo ID viene generato automaticamente. |
+| **[!UICONTROL Description]** | Descrizione fornita a questo set di dati al momento della creazione. |
+| **[!UICONTROL Number of records]** | Dimensione del set di dati. |
+| **[!UICONTROL Schema]** | Schema sulla cui base è stato creato il set di dati in Adobe Experience Platform. |
+| **[!UICONTROL Dataset]** | Nome del set di dati. |
+| **[!UICONTROL Preview: *nome del set di dati *]** | Visualizza in anteprima il set di dati per le prime 10 righe e le prime 10 colonne. |
+| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]** | È possibile [eliminare un set di dati](/help/connections/create-connection.md#delete-a-dataset) senza eliminare l&#39;intera connessione. L’eliminazione di un set di dati da una connessione riduce i costi associati all’acquisizione dei dati e il complicato processo di ricreazione dell’intera connessione e delle visualizzazioni dati associate. |
