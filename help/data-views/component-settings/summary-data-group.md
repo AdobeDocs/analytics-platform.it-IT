@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Per creare un raggruppamento delle dimensioni:
 1. Seleziona una dimensione.
 1. Seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary data group]**.
 1. Abilita **[!UICONTROL Create grouping]**.
-1. Seleziona una dimensione dall’elenco a discesa **[!UICONTROL Dimension]** che desideri raggruppare con la dimensione selezionata dal primo passaggio. Dall’elenco a discesa sono disponibili solo le dimensioni già aggiunte alla visualizzazione dati.
+1. Selezionare una dimensione dal menu a discesa **[!UICONTROL Dimension]** che si desidera raggruppare con la dimensione selezionata dal primo passaggio. Solo le dimensioni già aggiunte alla visualizzazione dati sono disponibili dal menu a discesa.
 1. Facoltativamente, abilita **[!UICONTROL Hide in reporting]** per nascondere la dimensione raggruppata dal reporting. L’abilitazione di questa opzione è simile alla configurazione di **[!UICONTROL Hide in reporting]** nella dimensione raggruppata separatamente. Consulta [Impostazioni dei componenti](overview.md) per ulteriori informazioni.
 1. Facoltativamente, per aggiungere ulteriori dimensioni al raggruppamento, seleziona ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Add dimension to group]**.<br/>Puoi aggiungere fino a nove dimensioni, poiché in un gruppo di dati di riepilogo il limite è dieci.
 

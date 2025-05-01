@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '4616'
+source-wordcount: '4618'
 ht-degree: 16%
 
 ---
@@ -313,7 +313,7 @@ Per aggiungere un gruppo di campi contenente i campi per i dati di esempio:
 1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) accanto al nome dello schema **[!UICONTROL Example summary Data Schema]**. Viene aperto un pannello **[!UICONTROL Field properties]** che consente di aggiungere dettagli a un campo.
    1. Immetti **[!UICONTROL Field name]**: `campaign_id`
    1. Immetti **[!UICONTROL Display name]**: `campaign_id`
-   1. Seleziona **[!UICONTROL Type]** dal menu a discesa **[!UICONTROL Select data type]**: **[!UICONTROL String]**
+   1. Selezionare **[!UICONTROL Type]** dal menu a discesa **[!UICONTROL Select data type]**: **[!UICONTROL String]**
    1. Verificare che **[!UICONTROL Assign to]** **[!UICONTROL Field group]** sia selezionato e selezionare **[!UICONTROL Example Summary Data]** dal menu a discesa.
    1. Scorrere verso il basso e selezionare **[!UICONTROL Apply]**.
 1. Ripetere il passaggio precedente per gli altri campi dei dati di riepilogo. Per i valori corretti, consulta la tabella seguente.
@@ -362,7 +362,7 @@ Per caricare i dati di esempio in questo set di dati:
    1. Selezionare **[!UICONTROL Launch]** dal pannello **[!UICONTROL Map CSV to XDM schema]**.
 1. Nel passaggio **[!UICONTROL Dataflow detail]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]**:
    1. Selezionare **[!UICONTROL Existing dataset]** per **[!UICONTROL Target dataset]**.
-   1. Selezionare **[!UICONTROL Example Summary Data Dataset]** dall&#39;elenco a discesa.
+   1. Selezionare **[!UICONTROL Example Summary Data Dataset]** dal menu a discesa.
    1. Seleziona **[!UICONTROL Next]**.
 1. Nel passaggio **[!UICONTROL Select data]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]**:
    1. Trascina il file con dati di riepilogo in formato CSV su **[!UICONTROL Drag and drop files]**. In alternativa, utilizzare **[!UICONTROL Choose files]** per selezionare il file.
@@ -391,8 +391,8 @@ Per utilizzare i dati di esempio in Customer Journey Analytics, crea una conness
 1. Seleziona **[!UICONTROL Create new connection]**.
 1. In **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]**:
    1. Immetti un **[!UICONTROL Connection name]**, ad esempio `Example Connection Using Summary Data`.
-   1. Seleziona dall’elenco a discesa Sandbox la sandbox che contiene il set di dati creato e gli altri set di dati da includere.
-   1. Selezionare **[!UICONTROL less than 1 million]** dall&#39;elenco a discesa **[!UICONTROL Average number of daily events]**.
+   1. Dal menu a discesa Sandbox, seleziona la sandbox che contiene il set di dati creato e gli altri set di dati da includere.
+   1. Selezionare **[!UICONTROL less than 1 million]** dal menu a discesa **[!UICONTROL Average number of daily events]**.
    1. Seleziona **[!UICONTROL Add datasets]**.
    1. Nel passaggio **[!UICONTROL Select datasets]** della procedura guidata **[!UICONTROL Add datasets]**:
       1. Cerca in ![Cerca](/help/assets/icons/Search.svg) e seleziona **[!UICONTROL Example Summary Data Dataset]**, **[!UICONTROL Example Event Data Dataset]** e **[!UICONTROL Example Lookup Data Dataset]**.
@@ -456,7 +456,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 
          **Metriche**
 
-         | Nome componente | Set di dati | Tipo di dati dello schema | Percorso schema |
+         | Nome componente | Set di dati | Tipo di dati dello schema | Percorso dello schema |
          |---|---|---|---|
          | Costo | Esempio di set di dati di riepilogo | Doppio | *_tenant*.cost |
          | Impression | Esempio di set di dati di riepilogo | Intero | *_tenant*.impression |
@@ -465,7 +465,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 
          **Dimensioni**
 
-         | Nome componente | Set di dati | Tipo di dati dello schema | Percorso schema |
+         | Nome componente | Set di dati | Tipo di dati dello schema | Percorso dello schema |
          |---|---|---|---|
          | Gruppo di annunci (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.ad_group |
          | Gruppo di annunci (riepilogo) | Esempio di set di dati di riepilogo | Stringa | *_tenant*.ad_group |
@@ -483,7 +483,7 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
          ![Rilevamento dei dati di riepilogo del codice](../assets/tracking-code-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
          1. Abilita **[!UICONTROL Create grouping]**.
-         1. Selezionare **[!UICONTROL Campaign Id]** dall&#39;elenco a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che i dati dell’evento e i dati di riepilogo vengano combinati correttamente a scopo di reporting.
+         1. Selezionare **[!UICONTROL Campaign Id]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che i dati dell’evento e i dati di riepilogo vengano combinati correttamente a scopo di reporting.
          1. È possibile abilitare **[!UICONTROL Hide in reporting]**. [!UICONTROL Hide in reporting] assicura che la dimensione selezionata ([!UICONTROL Campaign Id]) sia nascosta in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics. Se hai attivato questa opzione, puoi verificare quanto segue:
             1. Selezionare la dimensione **[!UICONTROL Campaign Id]** nell&#39;elenco **[!UICONTROL Dimensions]**.
             1. Si nota che **[!UICONTROL Hide component in reporting]** in **[!UICONTROL Component settings]** è ora abilitato automaticamente.
@@ -506,27 +506,27 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
 
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
          1. Abilita **[!UICONTROL Create grouping]**.
-         1. Selezionare **[!UICONTROL Campaign Name (Lookup Derived Field)]** dall&#39;elenco a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che il nome della campagna (ricerca) dal set di dati di ricerca di esempio possa essere utilizzato in modo sicuro nel reporting (vedi [Workspace](#workspace)).
+         1. Selezionare **[!UICONTROL Campaign Name (Lookup Derived Field)]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che il nome della campagna (ricerca) dal set di dati di ricerca di esempio possa essere utilizzato in modo sicuro nel reporting (vedi [Workspace](#workspace)).
 
       1. Selezionare la metrica **[!UICONTROL Revenue]** dall&#39;elenco **[!UICONTROL Metrics]**. Nel pannello dei componenti:
 
          ![Dati di riepilogo ricavi](../assets/revenue-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
-            1. Selezionare **[!UICONTROL 30 Day]** dall&#39;elenco a discesa **[!UICONTROL Lookback window]**.
+            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Attribution Model]**.
+            1. Selezionare **[!UICONTROL 30 Day]** dal menu a discesa **[!UICONTROL Lookback window]**.
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **Formato**.
-            1. Selezionare **[!UICONTROL Currency]** dall&#39;elenco a discesa **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL 2]** dall&#39;elenco a discesa **[!UICONTROL Decimal places]**.
+            1. Selezionare **[!UICONTROL Currency]** dal menu a discesa **[!UICONTROL Format]**.
+            1. Selezionare **[!UICONTROL 2]** dal menu a discesa **[!UICONTROL Decimal places]**.
 
       1. Selezionare la metrica **[!UICONTROL Orders]** dall&#39;elenco **[!UICONTROL Metrics]**. Nel pannello dei componenti:
 
          ![Dati di riepilogo ordini](../assets/orders-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**.
-            1. Selezionare **[!UICONTROL 30 Day]** dall&#39;elenco a discesa **[!UICONTROL Lookback window]**.
+            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Attribution Model]**.
+            1. Selezionare **[!UICONTROL 30 Day]** dal menu a discesa **[!UICONTROL Lookback window]**.
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL Decimal]** dall&#39;elenco a discesa **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL ▲ Good (green)]** dall&#39;elenco a discesa **[!UICONTROL Show upward trend as]**.
+            1. Selezionare **[!UICONTROL Decimal]** dal menu a discesa **[!UICONTROL Format]**.
+            1. Selezionare **[!UICONTROL ▲ Good (green)]** dal menu a discesa **[!UICONTROL Show upward trend as]**.
 
       1. Seleziona **[!UICONTROL Save and continue]**.
 

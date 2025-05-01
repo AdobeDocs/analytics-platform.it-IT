@@ -2,9 +2,9 @@
 title: Panoramica delle metriche e delle dimensioni condivise
 description: Utilizza lo stesso riferimento a dimensione o metrica in più visualizzazioni dati.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Tutte le dimensioni e le metriche condivise sono visualizzate sotto le quattro s
    * **[!UICONTROL Created by]**: visualizza solo i componenti creati da un determinato utente.
    * **[!UICONTROL Duplicates]**: visualizza solo i componenti con lo stesso ID componente di un altro componente. Questi filtri sono identici alla revisione dei componenti tramite le schede di panoramica.
 * **Ricerca**: utilizza l&#39;icona ![Icona Ricerca](../../assets/icons/Search.svg) per cercare un componente in base al nome.
-* **[!UICONTROL Connection]**: elenco a discesa che modifica la [connessione](/help/connections/overview.md). Le dimensioni e le metriche condivise sono sempre specifiche per una singola connessione.
+* **[!UICONTROL Connection]**: menu a discesa che modifica la [connessione](/help/connections/overview.md). Le dimensioni e le metriche condivise sono sempre specifiche per una singola connessione.
 * **[!UICONTROL Customize table]**: selezionare l&#39;icona ![Personalizza icona tabella](/help/assets/icons/ColumnSetting.svg) per mostrare o nascondere le colonne nella tabella. Le opzioni disponibili includono:
    * **[!UICONTROL Field name]**: nome della dimensione o metrica condivisa. Questo campo è sempre visibile.
    * **[!UICONTROL Type]**: indica se il componente è una dimensione o una metrica. Questo campo è sempre visibile.

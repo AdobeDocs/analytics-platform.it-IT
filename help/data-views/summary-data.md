@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 99%
+source-wordcount: '1141'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Per utilizzare correttamente i dati di riepilogo nei rapporti e nelle analisi, �
 
 ### Granularità e fuso orario
 
-Quando configuri il set di dati contenente i dati di riepilogo in Customer Journey Analytics, noti che la granularità viene derivata automaticamente dai dati. Le selezioni **[!UICONTROL Timestamp]** e **[!UICONTROL Timezone]** dell’elenco a discesa sono disabilitate in quanto derivano entrambe dalla definizione dello schema.
+Quando configuri il set di dati contenente i dati di riepilogo in Customer Journey Analytics, noti che la granularità viene derivata automaticamente dai dati. Le selezioni per il menu a discesa **[!UICONTROL Timestamp]** e **[!UICONTROL Timezone]** sono disabilitate in quanto derivano entrambe dalla definizione dello schema.
 
 #### Granularità
 

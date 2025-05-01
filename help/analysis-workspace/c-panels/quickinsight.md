@@ -4,10 +4,10 @@ title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 87%
+source-wordcount: '1081'
+ht-degree: 84%
 
 ---
 
@@ -40,7 +40,7 @@ Quando inizi a utilizzare [!UICONTROL Analysis Workspace], potresti chiederti:
 * dove creare un segmento,
 * e altro ancora.
 
-Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Vedrai infatti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR] nell&#39;elenco a discesa, come mostrato di seguito:
+Per risolvere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Nel menu a discesa sono infatti presenti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR], come illustrato di seguito:
 
 ![Pannello Quick Insights.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ Puoi specificare i blocchi in tre modi:
 
 * Trascina i componenti dal pannello a sinistra.
 * Inizia a digitare in uno dei campi del blocco. Quando viene trovato un input, il campo del blocco viene compilato automaticamente con i valori possibili.
-* Specifica un elenco a discesa del blocco (ad esempio `Country` in **[!UICONTROL Analyze]**) e cerca nell’elenco dei valori possibili (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore da utilizzare (ad esempio **[!UICONTROL Country code]**).
+* Specificare un menu a discesa del blocco predefinito (ad esempio `Country` in **[!UICONTROL Analyze]**) e cercare nell&#39;elenco dei possibili valori (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore che si desidera utilizzare (ad esempio **[!UICONTROL Country code]**).
 
 Seleziona **[!UICONTROL Clear]** per cancellare tutti i campi di input.
 

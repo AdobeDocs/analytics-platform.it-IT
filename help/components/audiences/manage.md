@@ -4,10 +4,10 @@ description: Scopri come gestire i tipi di pubblico in Customer Journey Analytic
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 65dcbf63d9e155cb7e04bf9a550151a37b8457e6
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -56,7 +56,7 @@ Per visualizzare l’elenco del pubblico:
    | **[!UICONTROL Last refreshed]** | La marca temporale dell’ultimo aggiornamento effettuato al tipo di pubblico. |
    | **[!UICONTROL Last modified]** | La marca temporale dell’ultima modifica apportata al tipo pubblico. |
 
-## Modifica tipi di pubblico
+## Modifica i tipi di pubblico
 
 Puoi modificare le impostazioni di un pubblico in qualsiasi momento. Quando modifichi un pubblico (pubblico una tantum o ricorrente), è necessaria una ripubblicazione.
 
@@ -80,7 +80,7 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome tipo di pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i tipi di pubblico selezionati. |
 | ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**per salvare. |
 

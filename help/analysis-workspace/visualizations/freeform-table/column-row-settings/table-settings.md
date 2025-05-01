@@ -4,10 +4,10 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -36,9 +36,9 @@ Per modificare il numero di righe visualizzate:
 
 1. Fare clic sul numero accanto a **[!UICONTROL Rows]** nella parte superiore della prima colonna della tabella.
 
-   ![Tabella a forma libera che mostra l&#39;elenco a discesa di per il numero di righe visualizzate. 400 righe selezionate.](assets/change-row-count.gif)
+   ![Tabella a forma libera che mostra il menu a discesa di per il numero di righe visualizzate. 400 righe selezionate.](assets/change-row-count.gif)
 
-1. Dall’elenco a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.
+1. Dal menu a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.
 
 
 ## Menu di scelta rapida

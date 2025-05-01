@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
@@ -101,7 +101,7 @@ Dettagli sulle impostazioni di scadenza disponibili.
 
 ## [!UICONTROL Binding Dimension]
 
-Un elenco a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni presenti nella visualizzazione dati.
+Menu a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni presenti nella visualizzazione dati.
 
 Per esempi su come utilizzare in modo efficace le dimensioni di binding, consulta [Utilizzo di dimensioni e metriche di binding in Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md).
 
@@ -115,7 +115,7 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 
 ## [!UICONTROL Binding Metric]
 
-Un elenco a discesa che consente di scegliere una metrica che agisce come un trigger di binding. Le opzioni valide includono le metriche presenti nella visualizzazione dati.
+Menu a discesa che consente di scegliere una metrica che funge da trigger di binding. Le opzioni valide includono le metriche presenti nella visualizzazione dati.
 
 Questa impostazione viene visualizzata solo quando la dimensione di binding è inferiore nell’array dell’oggetto rispetto al componente. Quando la metrica di binding è presente in un evento, i valori di dimensione vengono copiati dalla dimensione a livello di evento fino al livello di schema inferiore della dimensione di binding.
 

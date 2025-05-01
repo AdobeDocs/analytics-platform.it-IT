@@ -2,9 +2,9 @@
 title: Editor di componenti condivisi
 description: Creare o modificare dimensioni e metriche condivise.
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
-source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ L’interfaccia include tre colonne/sezioni principali:
 
 * **Selettore campo schema**: individua i campi schema desiderati e trascinali nell&#39;area dei componenti inclusi.
    * **Connessione**: la connessione attiva. Cambia la connessione attiva in [Gestione metriche e dimensioni condivise](smd-overview.md).
-   * **Elenco componenti**: è possibile scegliere tra la selezione di [!UICONTROL Schema fields] (nuove dimensioni e metriche condivise) o [!UICONTROL Metrics & Dimensions] (componenti condivisi esistenti).
+   * **Elenco componenti**: è possibile scegliere se selezionare [!UICONTROL Schema fields] (nuove dimensioni e metriche condivise) o [!UICONTROL Metrics & Dimensions] (componenti condivisi esistenti) dal menu a discesa.
    * **Ricerca**: utilizza la ricerca di testo ![icona di ricerca](/help/assets/icons/Search.svg) per individuare il campo dello schema desiderato o il componente condiviso per nome. È inoltre possibile utilizzare i filtri ![icona filtro](/help/assets/icons/Filter.svg) per limitare l&#39;elenco dei componenti. Il filtro `Is not deprecated` è attivo per impostazione predefinita.
    * **Crea campo derivato**: consente di [creare un campo derivato](/help/data-views/derived-fields/derived-fields.md).
 * **Componenti inclusi**: i componenti configurati per essere condivisi. Durante la creazione di componenti condivisi, puoi trascinare più di un campo schema in quest’area per creare più componenti contemporaneamente. Quando modifichi i componenti condivisi, puoi selezionare più componenti da modificare, in cui sono elencati tutti i componenti selezionati in quest’area.

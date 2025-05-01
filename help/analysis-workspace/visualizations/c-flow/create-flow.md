@@ -4,10 +4,10 @@ title: Come configurare una visualizzazione di flusso
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 35%
+ht-degree: 33%
 
 ---
 
@@ -39,7 +39,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
 
    * Utilizza il menu a discesa per selezionare metriche o dimensioni.
    * Trascina dimensioni o metriche dal pannello a sinistra.
-   * Inizia a digitare il nome di una dimensione o metrica, quindi selezionala quando viene visualizzata nell’elenco a discesa.
+   * Inizia a digitare il nome di una dimensione o metrica, quindi selezionala quando viene visualizzato nel menu a discesa.
 
    >[!IMPORTANT]
    >

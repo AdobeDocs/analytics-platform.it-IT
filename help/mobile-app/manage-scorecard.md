@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1782'
-ht-degree: 65%
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,7 @@ I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche
 
 ![Vista_Raggruppamento](assets/break_view.png)
 
-Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
+Ogni dimensione aggiunta alla tessera viene visualizzata in un menu a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nel menu a discesa.
 
 ## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 
@@ -42,7 +42,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -71,7 +71,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che compare quando passi il cursore sul componente, come mostrato di seguito per le **prime visite**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi rimuovilo facendo clic sulla **x** che compare quando passi il cursore sul componente, come mostrato di seguito per **Nuovi visitatori**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -79,7 +79,7 @@ Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard
 
 Una presentazione di dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
 
-Ad esempio, se ti concentri sul traffico web, la metrica più importante può essere costituita dalle visite, ma potresti anche essere interessato a nuove persone e a persone univoche, e potresti voler visualizzare i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
+Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
 Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
@@ -91,7 +91,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di d
 >[!ENDSHADEBOX]
 
 
-**Per creare una storia di dati** {#data-story-create}
+**Creazione di una presentazione di dati** {#data-story-create}
 
 Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una sezione.
 
@@ -142,9 +142,9 @@ Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
 
 Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 
-## Anteprima scorecard {#preview}
+## Anteprima delle scorecard {#preview}
 
-Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
+Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
 
 1. Fai clic su **[!UICONTROL Preview]** in alto a destra.
 
@@ -179,13 +179,13 @@ Per condividere la scorecard con un utente direzionale:
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno quindi le modifiche dopo aver aggiornato la scorecard nella loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
 
 ### Condividere le scorecard mediante un collegamento condivisibile
 
-L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o SMS. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili consentono di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento delle parti interessate.
+L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’e-mail, in un documento o in un’app di messaggistica testuale. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app per dispositivi mobili delle dashboard. Il deep linking condivisibile consente di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento degli stakeholder.
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
@@ -197,9 +197,9 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    Quando un destinatario utilizza un’app desktop o un browser per aprire il collegamento, il progetto della scorecard per dispositivi mobili si aprirà in Workspace.
 
-   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Adobe Analytics.
+   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si aprirà direttamente nell’app delle dashboard di Adobe Analytics.
 
-   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
+   Se un destinatario non ha scaricato l’app per dispositivi mobili, verrà indirizzato all’elenco delle app nell’App Store o in Google Play Store dove può scaricarla.
 
 
 ## Rimuovere l’elemento di dimensione [!UICONTROL Unspecified] {#remove-dims}

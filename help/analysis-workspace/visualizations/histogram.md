@@ -4,10 +4,10 @@ title: Istogramma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 82%
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Una visualizzazione a **[!UICONTROL Histogram]** ![istogramma](/help/assets/icon
 Per creare un istogramma:
 
 1. Aggiungi una visualizzazione a **[!UICONTROL Histogram]** ![istogramma](/help/assets/icons/Histogram.svg). Consulta [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Trascina una metrica dall’elenco dei componenti **[!UICONTROL Metrics]** oppure seleziona una metrica dal menu a discesa [!UICONTROL *Aggiungi una metrica*].
+1. Trascinare una metrica dall&#39;elenco dei componenti **[!UICONTROL Metrics]** oppure selezionare una metrica dal menu a discesa [!UICONTROL *Aggiungi una metrica*].
 1. (facoltativo) Seleziona **[!UICONTROL Show advanced settings]**. Consulta [Impostazioni avanzate](#advanced-settings).
 1. Seleziona **[!UICONTROL Build]**.
 

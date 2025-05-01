@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 30%
@@ -109,7 +109,7 @@ Puoi filtrare gli elementi dimensione che soddisfano o meno tutti i criteri o qu
 
 Per impostare i criteri di filtro:
 
-1. Seleziona un operatore dall’elenco a discesa operatore. Per impostazione predefinita **[!UICONTROL Contains the phrase]** è selezionato
+1. Seleziona un operatore dal menu a discesa operatore. Per impostazione predefinita **[!UICONTROL Contains the phrase]** è selezionato
 
    ![Elenco degli operatori.](./assets/image31.png){zoomable="yes"}
 

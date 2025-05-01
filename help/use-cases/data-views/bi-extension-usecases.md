@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 5%
@@ -1261,7 +1261,7 @@ Un esempio di pannello **[!UICONTROL Multiple Dimension Ranked]** per il caso d&
    1. Trascinare **[!UICONTROL Product Category]** e rilasciare accanto a **[!UICONTROL Columns]**.
    1. Trascinare **[!UICONTROL Purchase Revenue]** e rilasciare accanto a **[!UICONTROL Rows]**. Il valore diventa **[!UICONTROL SUM(Purchase Revenue)]**.
    1. Trascinare Purchases e rilasciare accanto a **[!UICONTROL Rows]**. Il valore diventa **[!UICONTROL SUM(Purchases)]**.
-   1. Seleziona **[!UICONTROL SUM(Purchases)]** e dal menu a discesa seleziona **[!UICONTROL Dual Axis]**.
+   1. Selezionare **[!UICONTROL SUM(Purchases)]** e dal menu a discesa selezionare **[!UICONTROL Dual Axis]**.
    1. Selezionare **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Marks]** e selezionare **[!UICONTROL Line]** dal menu a discesa.
    1. Selezionare **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Marks]** e selezionare **[!UICONTROL Bar]** dal menu a discesa.
    1. Seleziona **[!UICONTROL Entire View]** dal menu **[!UICONTROL Fit]**.
@@ -1484,7 +1484,7 @@ In alternativa, puoi utilizzare la funzionalità di conteggio dei valori univoci
    1. Nella finestra di dialogo **[!UICONTROL Filter Field \[Daterange\]]**, seleziona **[!UICONTROL Range of Dates]** e **[!UICONTROL Next >]**.
    1. Nella finestra di dialogo **[!UICONTROL Filter \[Daterange]]**, selezionare **[!UICONTROL Range of dates]**, quindi selezionare `01/01/2023` - `31/1/2023`. Selezionare **[!UICONTROL Apply]** e **[!UICONTROL OK]**.
    1. Trascina **[!UICONTROL Cm Product Name Count Distinct]** in **[!UICONTROL Rows]**. Il valore diventa **[!UICONTROL SUM(Cm Product Name Count Distinct)]**. Questo campo è la metrica calcolata definita in Customer Journey Analytics.
-   1. Trascinare **[!UICONTROL Daterangeday]** e rilasciare accanto a **[!UICONTROL Columns]**. Seleziona **[!UICONTROL Daterangeday]** e dal menu a discesa seleziona **[!UICONTROL Day]**.
+   1. Trascinare **[!UICONTROL Daterangeday]** e rilasciare accanto a **[!UICONTROL Columns]**. Selezionare **[!UICONTROL Daterangeday]** e dal menu a discesa selezionare **[!UICONTROL Day]**.
    1. Per modificare la visualizzazione delle linee in una tabella, selezionare **[!UICONTROL Text Table]** da **[!UICONTROL Show Me]**.
    1. Selezionare **[!UICONTROL Swap Rows and Columns]** dalla barra degli strumenti.
    1. Selezionare **[!UICONTROL Fit Width]** dal menu a discesa **[!UICONTROL Fit]**.
@@ -1498,7 +1498,7 @@ In alternativa, puoi utilizzare la funzionalità di conteggio dei valori univoci
 1. Selezionare **[!UICONTROL Rename]** dal menu di scelta rapida della scheda **[!UICONTROL Sheet 1 (2)]** per rinominare il foglio in `Card`.
 
 1. Verificare di aver selezionato la visualizzazione **[!UICONTROL Card]**.
-1. Seleziona **[!UICONTROL DAY(Daterangeday)]** e dal menu a discesa seleziona **[!UICONTROL Month]**. Il valore diventa **[!UICONTROL MONTH(Daterangeday)]**.
+1. Selezionare **[!UICONTROL DAY(Daterangeday)]** e dal menu a discesa selezionare **[!UICONTROL Month]**. Il valore diventa **[!UICONTROL MONTH(Daterangeday)]**.
 1. Selezionare **[!UICONTROL SUM(Cm Product Name Count Distinct)]** in **[!UICONTROL Marks]** e dal menu a discesa selezionare **[!UICONTROL Format]**.
 1. Per modificare la dimensione del carattere, nel riquadro **[!UICONTROL Format SUM(CM Product Name Count Distinct)]** selezionare **[!UICONTROL Font]** in **[!UICONTROL Default]** e **[!UICONTROL 72]** per la dimensione del carattere.
 1. Per allineare il numero, selezionare **[!UICONTROL Automatic]** accanto a **[!UICONTROL Alignment]** e impostare **[!UICONTROL Horizontal]** su Centrato.
@@ -2720,7 +2720,7 @@ Gli oggetti Customer Journey Analytics sono disponibili nella barra laterale **[
 
 **Dimensioni**
 Le dimensioni di Customer Journey Analytics sono identificate da [!UICONTROL Component name]. [!UICONTROL Component name] è definito nella visualizzazione dati di Customer Journey Analytics. La dimensione **[!UICONTROL Product Name]** in Customer Journey Analytics, ad esempio, ha [!UICONTROL Component name] **[!UICONTROL Product Name]**, che è il nome della dimensione in Tableau. Tutte le dimensioni sono identificate da **[!UICONTROL Abc]**.
-Le dimensioni dell&#39;intervallo di date da Customer Journey Analytics, come **[!UICONTROL Day]**, **[!UICONTROL Week]**, **[!UICONTROL Month]** e altre sono disponibili come **[!UICONTROL Daterangeday]**, **[!UICONTROL Daterangeweek]**, **[!UICONTROL Daterangemonth]** e altre. Quando utilizzi una dimensione intervallo di date, devi selezionare una definizione appropriata di data o ora da applicare alla dimensione intervallo di date dal menu a discesa. Ad esempio, **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Day]**.
+Le dimensioni dell&#39;intervallo di date da Customer Journey Analytics, come **[!UICONTROL Day]**, **[!UICONTROL Week]**, **[!UICONTROL Month]** e altre sono disponibili come **[!UICONTROL Daterangeday]**, **[!UICONTROL Daterangeweek]**, **[!UICONTROL Daterangemonth]** e altre. Quando utilizzi una dimensione intervallo di date, devi selezionare una definizione appropriata di data o ora da applicare a tale dimensione intervallo di date dal menu a discesa. Ad esempio, **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Day]**.
 
 **Metriche**
 Le metriche di Customer Journey Analytics sono identificate da [!UICONTROL Component Name]. [!UICONTROL Component Name] è definito nella visualizzazione dati di Customer Journey Analytics. Ad esempio, la metrica **[!UICONTROL Purchase Revenue]** in Customer Journey Analytics ha un [!UICONTROL Component Name] **[!UICONTROL Purchase Revenue]**, che è il nome della metrica in Tableau. Tutte le metriche sono identificate da **[!UICONTROL #]**. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata **[!UICONTROL Sum(*metrica *)]**.
@@ -3110,7 +3110,7 @@ Ciascuno degli strumenti BI supportati ha alcune avvertenze sull’utilizzo dell
 >[!TAB Desktop Tableau]
 
 * L’intervallo di date del desktop Tableau è esclusivo. Per la data di fine, devi selezionarne una oltre il giorno per il quale desideri generare il rapporto.
-* Per impostazione predefinita, quando si aggiunge una dimensione data o data-ora come **[!UICONTROL Daterangemonth]** alle righe di un foglio, Tableau Desktop racchiude il campo in una funzione **[!UICONTROL YEAR()]**.  Per ottenere ciò che desideri, devi selezionare tale dimensione e dal menu a discesa seleziona la funzione data che desideri utilizzare.  Modificare ad esempio **[!UICONTROL Year]** in **[!UICONTROL Month]** quando si tenta di utilizzare **[!UICONTROL Daterangemonth]**.
+* Per impostazione predefinita, quando si aggiunge una dimensione data o data-ora come **[!UICONTROL Daterangemonth]** alle righe di un foglio, Tableau Desktop racchiude il campo in una funzione **[!UICONTROL YEAR()]**.  Per ottenere ciò che desideri, devi selezionare tale dimensione e dal menu a discesa selezionare la funzione data che desideri utilizzare.  Modificare ad esempio **[!UICONTROL Year]** in **[!UICONTROL Month]** quando si tenta di utilizzare **[!UICONTROL Daterangemonth]**.
 * Limitare i risultati al primo *X* non è ovvio in Tableau Desktop. È possibile limitare i risultati in modo esplicito o utilizzando un campo calcolato e la funzione **[!UICONTROL INDEX()]**.  L&#39;aggiunta di un filtro *X* principale a una dimensione genera istruzioni SQL complesse utilizzando un inner join non supportato.
 
 >[!TAB Ricerca]

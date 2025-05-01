@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '8489'
-ht-degree: 99%
+source-wordcount: '8502'
+ht-degree: 98%
 
 ---
 
@@ -1948,7 +1948,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 
 - Puoi utilizzare un massimo di dieci campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
    - Da questo massimo di dieci campi schema diversi, sono consentiti solo un massimo di tre campi schema di ricerca o campi schema di profilo.
-- Puoi avere un massimo di 100 campi derivati per connessione a Customer Journey Analytics.
+- Puoi avere un numero massimo di campi derivati per connessione Customer Journey Analytics a seconda del pacchetto di cui hai la licenza. Per ulteriori informazioni, vedere [Descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}.
 
 
 ### Riepilogo delle limitazioni delle funzioni

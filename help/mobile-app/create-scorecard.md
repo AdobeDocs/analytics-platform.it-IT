@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -203,7 +203,7 @@ I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche
 
 ![Vista_Raggruppamento](assets/break_view.png)
 
-Ogni dimensione aggiunta alla sezione viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
+Ogni dimensione aggiunta alla tessera viene visualizzata in un menu a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nel menu a discesa.
 
 ## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 

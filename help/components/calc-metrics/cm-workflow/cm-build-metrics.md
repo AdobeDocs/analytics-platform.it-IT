@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
