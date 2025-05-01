@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Se un set di dati record utilizza una corrispondenza per campo, nell’interfacc
 ## Rapporto sui dati basati su persone e account
 
 Se desideri creare rapporti sui contenitori basati su persone (e sulle identità di persona) e sui contenitori basati su account (e sulle identità di account), imposta due connessioni separate in Customer Journey Analytics. Una connessione in cui si seleziona Persona come ID primario e una connessione in cui si seleziona Account come ID primario. Customer Journey Analytics non supporta la generazione di rapporti basati su persone e account da una singola gerarchia di contenitori.
+
