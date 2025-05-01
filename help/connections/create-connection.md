@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '6347'
+source-wordcount: '6351'
 ht-degree: 57%
 
 ---
@@ -331,8 +331,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="Chiave corrispondente"
->abstract="Seleziona la modalità di unione: in base a una chiave o a un contenitore corrispondente.<br/><br/>**[!UICONTROL Matching key]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Matching container]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
+>title="Tipo di chiave corrispondente"
+>abstract="Seleziona la modalità di unione: in base a una corrispondenza per campo o a una corrispondenza per contenitore.<br/><br/>**[!UICONTROL Match by field]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Match by container]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -446,8 +446,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
->title="Chiave corrispondente"
->abstract="Seleziona la modalità di unione: in base a una chiave o a un contenitore corrispondente.<br/><br/>**[!UICONTROL Matching key]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Matching container]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
+>title="Tipo di chiave corrispondente"
+>abstract="Seleziona la modalità di unione: in base a una corrispondenza per campo o a una corrispondenza per contenitore.<br/><br/>**[!UICONTROL Match by field]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Match by container]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai configurato uno o più contenitori."
 
 <!-- markdownlint-enable MD034 -->
 
