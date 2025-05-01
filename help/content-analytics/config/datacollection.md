@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: d695fcb8dbd98675914c687f3dfaf8c5f0017073
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Un evento Content Analytics è costituito da:
 Gli eventi Content Analytics vengono raccolti come sequenza di:
 
 1. [Visualizzazione registrata o clic](#recorded-view-or-click).
-1. [Un evento regolare o specifico (comportamentale)](#regular-or-specific-behaviorial-event).
+1. [Un trigger per inviare un evento Content Analytics](#trigger-to-send-a-content-analytics-event).
 
 Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere una visualizzazione o fare clic separatamente dalla raccolta dell’evento immediatamente successivo alla visualizzazione o fare clic su. Questo modo di raccogliere i dati di analisi dei contenuti riduce anche la quantità di dati raccolti.
 
@@ -84,11 +84,11 @@ Un clic sull&#39;esperienza viene registrato quando:
 * Qualsiasi clic si verifica su un collegamento nella pagina per il quale sono abilitate le esperienze.
 
 
-### Evento regolare o specifico (comportamentale)
+### Attivare per inviare un evento Content Analytics
 
-Gli attivatori per attivare un evento regolare o specifico (comportamentale) nel contesto di Content Analytics sono:
+Per ridurre il numero di chiamate che lasciano la pagina, Content Analytics raccoglie le informazioni ma non le invia immediatamente. Le informazioni sull’interazione del contenuto vengono raccolte e un evento contenente tali informazioni viene inviato solo quando si verifica uno dei seguenti trigger:
 
-* Web SDK o AppMeasurement invia un evento.
+* Web SDK o AppMeasurement invia un evento. Il timestamp di questo evento è
 * La visibilità diventa nascosta, ad esempio:
    * Download delle pagine
    * Cambia scheda
