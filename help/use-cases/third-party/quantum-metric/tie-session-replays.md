@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d48a6fc306a84eeeb189e1b272bfded7ed26ed70
+source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Questi passaggi presuppongono l’utilizzo di tag in Raccolta dati di Adobe Expe
 
 Per ulteriori informazioni, consulta la documentazione dell&#39;estensione tag [Quantum Metric](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric).
 
-## Passaggio 1: creare un campo schema per inserire i dati della metrica quantistica
+## Passaggio 1: creare un campo schema per l’ID sessione della metrica quantistica
 
 Questo caso d’uso richiede un campo schema dedicato a cui inviare i dati. Puoi creare questo campo in qualsiasi posizione desiderata nello schema e denominarlo come preferisci. I valori di esempio vengono forniti se l’organizzazione non ha una preferenza sul nome o sulla posizione.
 
