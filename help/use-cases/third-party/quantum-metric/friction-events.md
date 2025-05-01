@@ -7,10 +7,10 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,20 @@ Questo caso d’uso ha due requisiti:
 * Devi avere diritto al pacchetto **Dev Ops** della metrica Quantum.
 * È necessario utilizzare i tag in Raccolta dati di Adobe Experience Platform.
 
-## Passaggio 1: acquisire eventi di attrito utilizzando l’estensione tag Quantum Metric
+## Passaggio 1: creare un campo schema per accogliere gli eventi di attrito della metrica quantistica
+
+Questo caso d’uso richiede un campo schema dedicato a cui inviare i dati. Puoi creare questo campo in qualsiasi posizione desiderata nello schema e denominarlo come preferisci. I valori di esempio vengono forniti se l’organizzazione non ha una preferenza sul nome o sulla posizione.
+
+1. Accedi a [experience.adobe.com](https://experience.adobe.com).
+1. Passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Schemas]**.
+1. Seleziona lo schema desiderato dall’elenco.
+1. Seleziona l&#39;icona ![Aggiungi campo](/help/assets/icons/AddCircle.svg) accanto all&#39;oggetto desiderato. Ad esempio, accanto a `Implementation Details`.
+1. A destra, immetti il [!UICONTROL Name] desiderato. Ad esempio: `qmErrorName`.
+1. Immettere il [!UICONTROL Display name] desiderato. Ad esempio: `Quantum Metric error name`.
+1. Selezionare [!UICONTROL Type] come **[!UICONTROL String]**.
+1. Seleziona **[!UICONTROL Save]**.
+
+## Passaggio 2: acquisire eventi di attrito utilizzando l’estensione tag Quantum Metric
 
 Consulta [Estensione della metrica quantistica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) nella guida Destinazioni di Adobe Experience Platform per istruzioni su come impostare i tag per includere i dati della metrica quantistica. L’utilizzo di questa estensione passa più righe in un set di dati esistente.
 
@@ -40,7 +53,7 @@ Quindi, aggiungi l’elemento dati impostato dinamicamente all’oggetto XDM:
 
 ![Schermata del nome dell&#39;errore della metrica quantistica](assets/error-name.png)
 
-## Passaggio 2: aggiungi una o più dimensioni e metriche alla visualizzazione dati in Customer Journey Analytics
+## Passaggio 3: aggiungere una o più dimensioni e metriche alla visualizzazione dati in Customer Journey Analytics
 
 Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come dimensione disponibile in Customer Journey Analytics.
 
@@ -52,7 +65,7 @@ Modifica la visualizzazione dati esistente per aggiungere l’ID sessione come d
 1. Dopo aver creato tutte le dimensioni e le metriche desiderate, fare clic su **[!UICONTROL Save]**.
 1. Per un elenco completo degli eventi di errore, consulta la documentazione sulle metriche quantitative. Se hai altre domande, contatta il rappresentante dell&#39;Assistenza clienti per la metrica quantistica o invia una richiesta tramite il [portale delle richieste dei clienti per la metrica quantistica](https://community.quantummetric.com/s/public-support-page).
 
-## Passaggio 3: utilizzare la dimensione e le metriche con il resto dei dati in Analysis Workspace
+## Passaggio 4: utilizzare la dimensione e le metriche con il resto dei dati in Analysis Workspace
 
 Con i dati evento di attrito della metrica quantistica raccolti insieme al resto dei dati del visitatore, puoi utilizzarli esattamente come faresti con qualsiasi altra dimensione o metrica in Customer Journey Analytics.
 
@@ -62,7 +75,7 @@ Con i dati evento di attrito della metrica quantistica raccolti insieme al resto
 1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Trascina le dimensioni e le metriche desiderate nell’area di lavoro di Workspace per l’analisi.
 
-Le possibili idee di analisi sono:
+Le possibili idee di analisi includono:
 
 * Dati dell’evento di attrito di tendenza nel tempo
 * In una visualizzazione di abbandono o funnel, aggiungi eventi Customer Journey Analytics come alcuni passaggi ed eventi di attrito della metrica quantistica come altri. Questo rapporto consente di vedere dove i visitatori si trovano più comunemente nei guai.
