@@ -4,14 +4,34 @@ title: Come configurare una visualizzazione di flusso
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
+source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 33%
+source-wordcount: '1566'
+ht-degree: 31%
 
 ---
 
 # Configurare una visualizzazione del flusso {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Inizia con"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Contiene"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Termina con"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensione percorso"
+>abstract="Seleziona una dimensione da utilizzare come percorso per passare dal componente selezionato a quello precedente."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -25,8 +45,23 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
->title="Includi ripetizioni "
+>title="Includi ripetizioni"
 >abstract="Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione consente di includere o escludere istanze ripetute, ad esempio: ricaricamenti della pagina."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Limita alla prima/ultima occorrenza"
+>abstract="I risultati sono limitati ai percorsi quando il primo/ultimo punto di contatto è un punto di ingresso/uscita."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Numero di colonne"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Elementi espansi per colonna"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
 
 
 
