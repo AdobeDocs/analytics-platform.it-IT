@@ -5,10 +5,10 @@ title: Gestione delle origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 96%
+source-wordcount: '422'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,15 @@ ht-degree: 96%
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Mostra tabella"
 >abstract="Selezionando **[!UICONTROL Show table]** verrà generata una nuova origine dati per la visualizzazione corrente, separata dall’origine dati originale."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_showtable"
+>title="Mostra tabella"
+>abstract="Seleziona **[!UICONTROL Show table]** per generare una nuova origine dati per la visualizzazione corrente, separata dall&#39;origine dati originale."
 
 <!-- markdownlint-enable MD034 -->
 
