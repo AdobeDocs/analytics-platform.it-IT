@@ -17,7 +17,7 @@ ht-degree: 10%
 
 In questa tabella sono elencate tutte le icone di Spectrum disponibili tramite la configurazione di snippet di icone di Spectrum. Utilizza il nome per aggiungere lo snippet al markdown e visualizzare l’icona Spettro.
 
-Guarda la [pagina Wiki](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) per eventuali aggiornamenti.
+Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) per eventuali aggiornamenti.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 

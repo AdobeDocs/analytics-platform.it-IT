@@ -32,7 +32,7 @@ Per rinominare le cartelle in Workspace:
 
    1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
+   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**&#x200B;immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
 
 ## Spostare le cartelle

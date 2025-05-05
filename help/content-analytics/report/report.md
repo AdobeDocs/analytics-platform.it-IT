@@ -51,7 +51,7 @@ Per aprire l&#39;anteprima con i dettagli seguenti:
   | **[!UICONTROL Impressions (all time)]**: numero di impression per l&#39;esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
   | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per controllare le risorse. |
   | **[!UICONTROL First impression]**: data della prima impressione dell&#39;esperienza. | **[!UICONTROL First impression]**: data della prima impression della risorsa. |
-  | **[!UICONTROL  Most recent impression]**: data dell&#39;impression più recente dell&#39;esperienza. | **[!UICONTROL Most recent impression]**: data dell&#39;impression più recente della risorsa. |
+  | **[!UICONTROL &#x200B; Most recent impression]**: data dell&#39;impression più recente dell&#39;esperienza. | **[!UICONTROL Most recent impression]**: data dell&#39;impression più recente della risorsa. |
   | **[!UICONTROL Experience attributes]**: [attributi](/help/content-analytics/report/components.md#experience-attributes) dell&#39;esperienza. | **[!UICONTROL Asset attributes]**: [attributi](/help/content-analytics/report/components.md#asset-attributes) della risorsa. |
 
 
@@ -65,7 +65,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Accertati di aver selezionato una visualizzazione dati configurata per Content Analytics.
-1. Cercare o utilizzare i segmenti (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**s) per trovare e selezionare il modello **[!UICONTROL Content analytics]**.
+1. Cercare o utilizzare i segmenti (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content analytics]**.
 1. Seleziona **[!UICONTROL Use template]**.
 1. Nella finestra di dialogo **[!UICONTROL Set up your template]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Select a conversion metric]**. Ad esempio: **[!UICONTROL Asset CTR]**.
 1. Seleziona **[!UICONTROL Continue]**.

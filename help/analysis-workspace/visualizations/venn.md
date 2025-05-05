@@ -25,7 +25,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
