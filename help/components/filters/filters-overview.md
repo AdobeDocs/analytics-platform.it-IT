@@ -165,7 +165,7 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ### contenitori B2B
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Se hai accesso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), sono disponibili altri contenitori da utilizzare nei segmenti. Ulteriori dettagli sull&#39;utilizzo di questi contenitori aggiuntivi sono disponibili in [Concetti e funzionalità B2B](/help/getting-started/cja-b2b-concepts-features.md).
 

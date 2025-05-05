@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Puoi utilizzare la funzione Tags (Tag) in Adobe Experience Platform per implementare sul tuo sito il codice necessario per raccogliere i dati. Questa soluzione per la gestione dei tag consente di implementare il codice e altri requisiti di assegnazione dei tag. I tag offrono un’integrazione diretta con Adobe Experience Platform tramite l’estensione dell’SDK per Web di Adobe Experience Platform.
 
-Le informazioni seguenti descrivono come aggiungere l’estensione Web SDK al tag. Per ulteriori informazioni, consulta [Configurare l’estensione per tag Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) nella documentazione di Experience Platform. Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo e, pertanto, non è necessario aggiungere al tag l’estensione del servizio ID.
+Le informazioni seguenti descrivono come aggiungere l’estensione Web SDK al tag. Per ulteriori informazioni, consulta [Configurare l’estensione per tag Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) nella documentazione di Experience Platform. Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo e, pertanto, non è necessario aggiungere al tag l’estensione del servizio ID.
 
 Dopo aver [creato un tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), è necessario configurarlo con l’estensione Adobe Experience Platform Web SDK. In questo modo potrai inviare dati ad Adobe Experience Platform (tramite lo stream di dati).
 

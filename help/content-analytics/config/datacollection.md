@@ -36,7 +36,7 @@ Content Analytics richiede Experience Platform Edge Network Web SDK per raccogli
 La libreria Content Analytics raccoglie dati quando:
 
 * Content Analytics è incluso nella libreria Tag caricata sulla pagina.
-* L&#39;URL della pagina è configurato nell&#39;estensione [Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, che fa parte della libreria Tag inclusa.
+* L&#39;URL della pagina è configurato nell&#39;estensione [Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, che fa parte della libreria Tag inclusa.
 
 
 ## Evento Content Analytics

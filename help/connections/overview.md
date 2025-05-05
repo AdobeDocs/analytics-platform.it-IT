@@ -43,7 +43,7 @@ Ad alto livello, il flusso di lavoro Connessioni consente di:
 | ➋  | [Controllare i dettagli di una connessione](manage-connections.md#connection-details), ad esempio i record di set di dati acquisiti, saltati o eliminati. |
 | ➌  | [Crea o modifica la configurazione di una connessione](create-connection.md#create-or-edit-a-connection), come una finestra continua di dati, la sandbox da utilizzare, quali set di dati fanno parte della connessione e altro ancora. |
 | ➍  | [Aggiungere set di dati a una connessione](create-connection.md#add-datasets). La connessione deve avere almeno un set di dati evento o di riepilogo, ma può contenere diversi set di dati evento, profilo, ricerca e riepilogo. |
-| ➎  | [Configurare le impostazioni](create-connection.md#dataset-settings) per i set di dati aggiunti. Puoi determinare come collegare diversi set di dati in base a un comune identificatore basato su persona o su account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}. |
+| ➎  | [Configurare le impostazioni](create-connection.md#dataset-settings) per i set di dati aggiunti. Puoi determinare come collegare diversi set di dati in base a un comune identificatore basato su persona o su account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}. |
 | ➏  | [Modifica le impostazioni per un set di dati esistente](create-connection.md#edit-a-dataset). Puoi sempre rivedere le impostazioni del set di dati in una fase successiva. |
 
 

@@ -28,7 +28,7 @@ CJA consente di controllare in fase di report i dati QM, l’analisi sequenziale
 1. Passa a [!UICONTROL Experience Platform] > [!UICONTROL Connections] > [!UICONTROL Sources].
 1. Aggiungi il connettore di origine della metrica quantistica e segui le istruzioni per il completamento.
 
-Per ulteriori informazioni, vedere [Connettori di origine Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home).
+Per ulteriori informazioni, vedere [Connettori di origine Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home).
 
 ## Passaggio 2: creare una connessione in Customer Journey Analytics
 
@@ -40,7 +40,7 @@ La creazione di un connettore di origine per i dati della metrica quantistica cr
 1. Fai clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
->Anche se è possibile aggiungere dati della metrica quantistica alla stessa connessione degli altri dati di Customer Journey Analytics, tali dati non possono essere uniti senza un ID persona comune tra i due set di dati. Per ottenere questo comportamento, Adobe consiglia di utilizzare l&#39;estensione [Tag](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) invece del connettore di origine.
+>Anche se è possibile aggiungere dati della metrica quantistica alla stessa connessione degli altri dati di Customer Journey Analytics, tali dati non possono essere uniti senza un ID persona comune tra i due set di dati. Per ottenere questo comportamento, Adobe consiglia di utilizzare l&#39;estensione [Tag](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/analytics/quantum-metric) invece del connettore di origine.
 
 ## Passaggio 3: creare una visualizzazione dati in Customer Journey Analytics
 

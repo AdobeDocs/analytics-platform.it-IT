@@ -36,7 +36,7 @@ ht-degree: 70%
 
 Puoi installare manualmente Platform Web SDK aggiungendo il codice di base direttamente a ogni pagina nell’implementazione.
 
-1. Segui i passaggi descritti nella sezione [Opzione 2: Installazione della versione standalone predefinita](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) in [Installazione di Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk) nella Guida di Web SDK.
+1. Segui i passaggi descritti nella sezione [Opzione 2: Installazione della versione standalone predefinita](https://experienceleague.adobe.com/it/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) in [Installazione di Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/edge/fundamentals/installing-the-sdk) nella Guida di Web SDK.
 
 {{upgrade-final-step}}
 

@@ -22,17 +22,17 @@ Sono disponibili le seguenti configurazioni manuali:
 
 Per avviare la raccolta dati per una configurazione di Content Analytics implementata:
 
-1. Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata.
+1. Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata.
 
-1. [Installa](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, gestione temporanea o pubblicazione, soggetto a Content Analytics.
+1. [Installa](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, gestione temporanea o pubblicazione, soggetto a Content Analytics.
 
 
 ## Interrompi raccolta dati
 
 Per interrompere la raccolta dati per una configurazione di Content Analytics implementata:
 
-1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, soggetto a Content Analytics.
-1. [Elimina](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) la proprietà Tag associata per la configurazione di Content Analytics.
+1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, soggetto a Content Analytics.
+1. [Elimina](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) la proprietà Tag associata per la configurazione di Content Analytics.
 
 
 
@@ -40,32 +40,32 @@ Per interrompere la raccolta dati per una configurazione di Content Analytics im
 
 È possibile apportare alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modifica la visualizzazione dati oppure abilita o disabilita le esperienze.
 
-Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata alla configurazione Content Analytics per apportare modifiche ai seguenti artefatti:
+Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata alla configurazione Content Analytics per apportare modifiche ai seguenti artefatti:
 
-* [Sandbox e flusso di dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
+* [Sandbox e flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
 
   >[!CAUTION]
   >
   >Verificare che la sandbox e lo stream di dati configurati nell&#39;estensione Adobe Content Analytics siano già configurati per Content Analytics utilizzando la [configurazione guidata](guided.md) in una fase precedente. Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>Verificare inoltre che gli aggiornamenti per sandbox o flussi di dati non interferiscano con un&#39;altra configurazione di Content Analytics configurata per utilizzare la stessa sandbox o gli stessi flussi di dati.
   >
 
-* [Acquisizione e definizione dell&#39;esperienza](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
+* [Acquisizione e definizione dell&#39;esperienza](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
   Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come viene eseguito il rendering del contenuto sul sito web.
 
-* [Segmentazione eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentazione eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
   Puoi modificare le espressioni regolari per modificare il modo in cui segmentate pagine e risorse.
 
 
-Dopo aver apportato modifiche all&#39;estensione Adobe Content Analytics, assicurati di utilizzare [flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta di dati in base alle modifiche apportate.
+Dopo aver apportato modifiche all&#39;estensione Adobe Content Analytics, assicurati di utilizzare [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta di dati in base alle modifiche apportate.
 
 
 
 >[!MORELIKETHIS]
 >
 >[Configurazione guidata](guided.md)
->[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
+>[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview)
 >
 
 

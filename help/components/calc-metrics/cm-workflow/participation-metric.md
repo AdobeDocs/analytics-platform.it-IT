@@ -16,7 +16,7 @@ Le metriche di partecipazione vengono utilizzate per quantificare il modo in cui
 
 >[!NOTE]
 >
->Gli amministratori possono creare metriche con modelli di attribuzione non predefiniti, ad esempio Partecipazione, come parte di una [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views). Per ulteriori dettagli, consulta [Impostazioni del componente di attribuzione](../../../data-views/component-settings/attribution.md).
+>Gli amministratori possono creare metriche con modelli di attribuzione non predefiniti, ad esempio Partecipazione, come parte di una [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views). Per ulteriori dettagli, consulta [Impostazioni del componente di attribuzione](../../../data-views/component-settings/attribution.md).
 
 I passaggi seguenti mostrano come qualsiasi utente con l&#39;autorizzazione [Crea metrica calcolata](/help/technotes//access-control.md#user-level-access) può creare una metrica di partecipazione.
 

@@ -66,7 +66,7 @@ Tutte le dimensioni e le metriche condivise sono visualizzate sotto le quattro s
    * **[!UICONTROL Description]**: [descrizione](/help/data-views/component-settings/overview.md) del componente.
    * **[!UICONTROL Context labels]**: [etichette di contesto](/help/data-views/component-settings/overview.md) per il componente.
    * **[!UICONTROL Include/Exclude values]**: elenca il numero di regole specificato in [Includi/escludi valori](/help/data-views/component-settings/include-exclude-values.md).
-   * **[!UICONTROL Data usage labels]**: [etichette di utilizzo dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) per il campo schema.
+   * **[!UICONTROL Data usage labels]**: [etichette di utilizzo dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview) per il campo schema.
    * **[!UICONTROL Deprecated]**: indica se è impostato il flag obsoleto.
    * **[!UICONTROL Format]**: formato in cui vengono visualizzati i valori. I booleani vengono in genere visualizzati come `True | False`, le metriche come `Decimal` e così via.
    * **[!UICONTROL Metric deduplication]**: impostazioni di [deduplicazione delle metriche](/help/data-views/component-settings/metric-deduplication.md) del componente.

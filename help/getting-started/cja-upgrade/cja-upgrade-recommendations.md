@@ -133,7 +133,7 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 1. [Verifica che i dati vengano trasmessi alla visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
 
-1. Nel tuo ambiente Adobe Analytics, [utilizza l&#39;inventario di Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) per visualizzare una panoramica completa del tuo ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora.
+1. Nel tuo ambiente Adobe Analytics, [utilizza l&#39;inventario di Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/analytics-inventory) per visualizzare una panoramica completa del tuo ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora.
 
 1. [Migra progetti e componenti](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 

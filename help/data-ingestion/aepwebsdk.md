@@ -278,7 +278,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
 
 Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo e, pertanto, non è necessario aggiungere al tag l’estensione del servizio ID.
 
