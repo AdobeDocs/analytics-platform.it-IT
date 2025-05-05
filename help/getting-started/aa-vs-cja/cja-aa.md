@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8972a195554971006eb4315bdd216947d6cf79f3
+source-git-commit: 0ad3cd8ae88cc5fc5297a63067900b2f741778b1
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2474'
 ht-degree: 93%
 
 ---
@@ -109,7 +109,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Regole di elaborazione, regole VISTA, regole di elaborazione del canale di marketing** | Supportate utilizzando la funzionalità Preparazione dati di Adobe Experience Platform e i [campi derivati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html?lang=it) per i set di dati basati su Web SDK e per i dati provenienti dal connettore di origine di Analytics. |
 | **Variabile dei prodotti** | In Experience Platform, per soddisfare questo caso d’uso, gli utenti possono utilizzare un array di oggetti all’interno di uno schema di set di dati. In Customer Journey Analytics gli utenti possono utilizzare un qualsiasi numero di variabili di prodotto, senza essere vincolati a una singola variabile come accade invece in Adobe Analytics. |
 | **Condivisione dei progetti** | La condivisione dei progetti è supportata solo tra gli utenti di Customer Journey Analytics, non esiste tra Customer Journey Analytics e la versione tradizionale di Analysis Workspace. |
-| **Report Builder** | Supportato con un nuovo plug-in di Office 365 per Excel. |
+| **Report Builder** | Supportato con un nuovo plug-in di Office 365 per Microsoft Excel. |
 | **Autorizzazioni utente/Controlli dell’accesso ai dati** | Customer Journey Analytics distingue tra amministratori di prodotto, amministratori di prodotto di [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e amministratori e utenti dei profili di prodotto. Solo gli amministratori di prodotto possono creare/aggiornare/eliminare connessioni, progetti, segmenti o metriche calcolate create da altri utenti, mentre gli amministratori di prodotto e gli amministratori dei profili di prodotto possono modificare le visualizzazioni dati. Sono disponibili autorizzazioni aggiuntive per gli utenti, ad esempio per creare metriche calcolate, segmenti o annotazioni. |
 | **Visualizzazioni** | Sono supportate tutte le visualizzazioni Workspace, tranne la visualizzazione Mappa. |
 | **Unione cross-device/cross-channel** | Supportata per i set di dati evento contenenti informazioni di identità. Consulta [Unione](../../stitching/overview.md). |
