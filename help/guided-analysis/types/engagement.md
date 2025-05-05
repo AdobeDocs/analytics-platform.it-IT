@@ -33,7 +33,7 @@ Le funzioni che si posizionano nella parte superiore di questa visualizzazione i
 * Le funzioni in basso a sinistra della matrice sono le funzioni a **basso impatto**; non sono ampiamente adottate, né utilizzate di frequente.
 * Le funzioni nella parte inferiore destra della matrice sono le funzioni **una tantum**; sono ampiamente adottate, ma non utilizzate di frequente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447475?captions=ita)
 
 
 ## Casi d’uso

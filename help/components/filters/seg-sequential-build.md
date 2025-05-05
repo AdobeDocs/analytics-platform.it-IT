@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/41653/?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 {{videoaa}}
 

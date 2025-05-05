@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare il sommario di un progetto, per spostart
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/328248/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

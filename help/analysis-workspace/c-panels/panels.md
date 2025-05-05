@@ -155,7 +155,7 @@ Per ulteriori informazioni, consultare [Segmenti rapidi](/help/components/filter
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
 
 {{videoaa}}
 

@@ -27,7 +27,7 @@ ht-degree: 100%
 L’analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione con le tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423488/?quality=12&learn=on&captions=ita)
 
 
 ## Casi d’uso
