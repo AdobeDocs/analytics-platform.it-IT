@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 97%
 
 ---
 
@@ -67,13 +67,13 @@ Di seguito è riportato un esempio di schema XDM che Customer Journey Analytics 
 
 ![Schema IA per l’analisi dei clienti](assets/cai-schema.png)
 
-(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati evento di Experience che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come la data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e altri dati a lui associati.
+(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati evento di Experience che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e così via. a lui associati.
 
 ## Passaggio 3: creare visualizzazioni dati in base a queste connessioni
 
 In Customer Journey Analytics, ora puoi [creare visualizzazioni dati](/help/data-views/create-dataview.md) con le dimensioni (come punteggio, data del punteggio, probabilità e così via) e le metriche inserite come parte della connessione stabilita.
 
-![Finestra Crea visualizzazione dati](assets/create-dataview.png)
+![Crea finestra visualizzazione dati](assets/create-dataview.png)
 
 ## Passaggio 4: rapporto sui punteggi di IA per l’analisi dei clienti in Workspace
 

@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: c78bb901b40eb31fe5a08f4bd8b5ee797e43d18f
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 81%
@@ -386,7 +386,7 @@ ht-degree: 81%
       + [Monitorare l’integrità del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
-   + [Panoramica](../report-builder/report-buider-overview.md)
+   + [Panoramica](../report-builder/rb-overview.md)
    + [Configurazione Report Builder](../report-builder/report-builder-setup.md)
    + [Creare un blocco di dati](../report-builder/create-a-data-block.md)
    + [Hub Report Builder](../report-builder/report-builder-hub.md)
