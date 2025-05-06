@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
+source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 86%
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,6 @@ Impostazioni generali per la visualizzazione dati.
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
 
 
-
 Fornisce le impostazioni applicabili quando si utilizza AJO oltre a Customer Journey Analytics.
 
 Questa sezione è visibile solo per gli amministratori che dispongono del provisioning di AJO.
@@ -101,10 +100,10 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Global Account container name]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Global Account] include ogni sessione ed evento per gli account globali entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Account container name]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento per gli account entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunity] include ogni sessione ed evento per le opportunità entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Buying group container name]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Buying group] include ogni sessione ed evento per l&#39;acquisto di gruppi entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Global Account container name]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Global Account] include ogni sessione ed evento per gli account globali entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Account container name]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento per gli account entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunity] include ogni sessione ed evento per le opportunità entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Buying group container name]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Buying group] include ogni sessione ed evento per l&#39;acquisto di gruppi entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
 | **[!UICONTROL Person container name]** | `Person` (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
 | **[!UICONTROL Session container name]** | `Session` (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
 | **[!UICONTROL Event container name]** | `Event` (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
