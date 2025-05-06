@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 86%
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -56,14 +56,12 @@ Per configurare una visualizzazione dati nuova o esistente:
 
 ### Impostazioni {#settings}
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
 >title="ID esterno"
 >abstract="La modifica di ID esterno può influire sul modo in cui il nome della visualizzazione dati viene visualizzato nelle origini esterne, ad esempio in strumenti di business intelligence."
 
-<!-- markdownlint-enable MD034 -->
 
 Impostazioni generali per la visualizzazione dati.
 
@@ -78,7 +76,6 @@ Impostazioni generali per la visualizzazione dati.
 
 ### Compatibilità {#compatibility}
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
@@ -86,7 +83,6 @@ Impostazioni generali per la visualizzazione dati.
 >abstract="Customer Journey Analytics deve utilizzare una connessione e una visualizzazione dati compatibili con Adobe Journey Optimizer. Per impostazione predefinita, a questo scopo vengono create automaticamente una connessione e una visualizzazione dati.<br/>In alternativa, puoi abilitare questa opzione per rendere predefinita questa visualizzazione dati, utilizzata nella generazione di rapporti di Adobe Journey Optimizer. Quando questa opzione è abilitata, tutti i componenti necessari richiesti per Journey Optimizer vengono aggiunti a questa visualizzazione dati e tutti i set di dati Journey Optimizer necessari vengono aggiunti alla connessione associata a questa visualizzazione dati."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
 
-<!-- markdownlint-enable MD034 -->
 
 
 Fornisce le impostazioni applicabili quando si utilizza AJO oltre a Customer Journey Analytics.
@@ -105,10 +101,10 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Global Account container name]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Global Account] include ogni sessione ed evento per gli account globali entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Account container name]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento per gli account entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunity] include ogni sessione ed evento per le opportunità entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Buying group container name]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Buying group] include ogni sessione ed evento per l&#39;acquisto di gruppi entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Global Account container name]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Global Account] include ogni sessione ed evento per gli account globali entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Account container name]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento per gli account entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunity] include ogni sessione ed evento per le opportunità entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL Buying group container name]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Buying group] include ogni sessione ed evento per l&#39;acquisto di gruppi entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
 | **[!UICONTROL Person container name]** | `Person` (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
 | **[!UICONTROL Session container name]** | `Session` (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
 | **[!UICONTROL Event container name]** | `Event` (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |

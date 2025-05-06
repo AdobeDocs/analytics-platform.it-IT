@@ -1,13 +1,12 @@
 ---
-title: Customer Journey Analytics edizione B2B
-description: Scopri sull'edizione B2B di Customer Journey Analytics.
+title: Customer Journey Analytics B2B edition
+description: Scopri il B2B edition di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
-source-git-commit: 0e4e52cfd42db321c4a7a18a9b1473a67f87e785
+exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
+source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -20,32 +19,32 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-Adobe Analytics è stato avviato come strumento di analisi web e digitale per gli esperti di marketing, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende Aziende a Consumer (B2C) ad analizzare e ottimizzare i loro sforzi di marketing e le esperienze dei clienti.
+Adobe Analytics è stato avviato come strumento di analisi web e digitale per gli esperti di marketing, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende B2C (Business to Consumer) ad analizzare e ottimizzare le loro attività di marketing e le esperienze dei clienti.
 
-Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto online e offline e fasi chiave prima della chiusura di un affare. B2B aziende devono tenere traccia di tutte queste interazioni in una vista di percorso unificata per analizzare e ottimizzare efficacemente i loro sforzi di marketing e le account esperienze.
+Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto online e offline e fasi chiave prima della chiusura di un&#39;operazione. Le aziende B2B devono tenere traccia di tutte queste interazioni in un percorso unificato per analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
 
-Le caratteristiche tipiche B2B vendita sono:
+Le caratteristiche tipiche di vendita B2B sono:
 
-* Grandi importi delle transazioni
-* lunghi cicli di vendita
-* Più decisori e influencer, di solito formando un &quot;gruppo di acquisto&quot;
-* Acquirenti più istruiti
-* Maggiore importanza per conservazione dei clienti e vendere in upselling
+* importi elevati delle transazioni
+* cicli di vendita lunghi
+* responsabili decisionali e influencer multipli, che di solito costituiscono un &quot;gruppo di acquisto&quot;
+* acquirenti più istruiti
+* maggiore importanza per la fidelizzazione dei clienti e la loro vendita
 * I millenari acquirenti B2B si aspettano un &quot;consumatore digitale&quot; più fluido come l&#39;esperienza di acquisto
 
-Il marketing B2B si concentra sull’ottimizzazione dei punti di contatto e sulla riduzione del ciclo di acquisto e considerazione. Poiché i cicli di vendita B2B si basano molto su riunioni di persona, interazioni offline come eventi live e lavorare con gruppi di acquisto, i dati digitali basati su persona da soli non sono sufficienti. Le organizzazioni B2B completano questo processo con i dati provenienti dai sistemi CRM e dalle soluzioni specializzate. Tuttavia, le B2C tradizionali marketing componenti, likeread, campagne, canali e visitatori del sito svolgono ancora un ruolo cruciale nella B2B marketing.
+Il marketing B2B si concentra sull’ottimizzazione dei punti di contatto e sulla riduzione del ciclo di acquisto e considerazione. Poiché i cicli di vendita B2B si basano molto su riunioni di persona, interazioni offline come eventi live e lavorare con gruppi di acquisto, i dati digitali basati su persona da soli non sono sufficienti. Le organizzazioni B2B completano questo processo con i dati provenienti dai sistemi CRM e dalle soluzioni specializzate. Tuttavia, i componenti di marketing B2C tradizionali, i collegamenti, le campagne, i canali e i visitatori del sito svolgono ancora un ruolo cruciale nel marketing B2B.
 
-B2B vendite e marketing si sono evolute oltre i tradizionali funnel di generazione di lead per concentrarsi sui cicli di vita dei clienti e sui gruppi di acquisto. Questo cambiamento riflette la natura mutevole degli acquisti B2B, in cui le decisioni coinvolgono più parti interessate in vari punti di contatto. Gli acquirenti B2B di oggi seguire un processo decisionale complesso e non lineare. Come B2C clienti, preferiscono ricercare in modo indipendente prima di interagire con i team di vendita. Il passaparola e social media ora svolgono un ruolo chiave nel plasmare le loro decisioni di acquisto.
+Le attività di vendita e marketing B2B si sono evolute oltre i tradizionali funnel di generazione dei lead, focalizzandosi sui cicli di vita dei clienti e sui gruppi di acquisto. Questo cambiamento riflette la natura mutevole degli acquisti B2B, dove le decisioni coinvolgono più parti interessate attraverso vari punti di contatto. Gli attuali acquirenti B2B seguono un processo decisionale complesso e non lineare. Come i clienti B2C, preferiscono svolgere ricerche in modo indipendente prima di collaborare con i team di vendita. Il passaparola e i social media giocano ora un ruolo chiave nel determinare le loro decisioni di acquisto.
 
-B2B i marketer affrontano una crescente pressione per dimostrare come le loro attività contribuiscano alla generazione di entrate.  Sebbene sia fondamentale allineare marketing sforzi con gli obiettivi aziendali e misurare l&#39;impatto sui ricavi, molti strumenti di misurazione sono progettati per scenari B2C. Di conseguenza, B2B gli esperti di marketing sono alla ricerca di strumenti dedicati che forniscano approfondimenti accurati e si allineino con i loro obiettivi specifici.
+Gli esperti di marketing B2B devono affrontare una pressione crescente per dimostrare in che modo le loro attività contribuiscono alla generazione di ricavi.  Anche se è fondamentale allineare le attività di marketing agli obiettivi aziendali e misurare l’impatto sui ricavi, molti strumenti di misurazione sono progettati per scenari B2C. Di conseguenza, gli esperti di marketing B2B stanno cercando strumenti dedicati che forniscano informazioni accurate e siano in linea con i loro obiettivi specifici.
 
-Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i loro team di marketing, vendite e prodotti fornendo informazioni utili account che dare impulso a la crescita dei ricavi. Con la account posta al centro del modello di dati, tutte le analisi si concentrano sul account percorso. L&#39;aggiunta di un nuovo livello di entità (account, opportunità e gruppi di acquisto) in aggiunta agli eventi basati su persona e tempo, crea un quadro completo del B2B marketing e del ciclo di vita dei ricavi.
+Customer Journey Analytics B2B edition aiuta le aziende B2B ad allineare i team di marketing, vendita e prodotto fornendo informazioni fruibili sull’account che guidano la crescita dei ricavi. Con l’account posizionato al centro del modello dati, tutte le analisi si concentrano sul percorso dell’account. L’aggiunta di un nuovo livello di entità (account, opportunità e gruppi di acquisto) oltre a eventi basati su persona e tempo crea un quadro completo del ciclo di vita di marketing e ricavi B2B.
 
 
 >[!MORELIKETHIS]
 >
->[B2B concetti e funzionalità](cja-b2b-concepts-features.md)
+>[Concetti e funzionalità B2B](cja-b2b-concepts-features.md)
 >[Guida rapida B2B](cja-b2b-quick-start-guide.md)
 >Guardrail B2B (documento tb.d.)
->B2C alla migrazione B2B (documento T.B.D.)
+>Migrazione da B2C a B2B (documento tb.d.)
 >
