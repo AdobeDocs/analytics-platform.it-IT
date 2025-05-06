@@ -4,12 +4,10 @@ description: Aggiungi gli eventi di attrito raccolti da Quantum Metric ai dati c
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -40,7 +38,7 @@ Questo caso d’uso richiede un campo schema dedicato a cui inviare i dati. Puoi
 
 ## Passaggio 2: acquisire eventi di attrito utilizzando l’estensione tag Quantum Metric
 
-Consulta [Estensione della metrica quantistica](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/analytics/quantum-metric) nella guida Destinazioni di Adobe Experience Platform per istruzioni su come impostare i tag per includere i dati della metrica quantistica. L’utilizzo di questa estensione passa più righe in un set di dati esistente.
+Consulta [Estensione della metrica quantistica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) nella guida Destinazioni di Adobe Experience Platform per istruzioni su come impostare i tag per includere i dati della metrica quantistica. L’utilizzo di questa estensione passa più righe in un set di dati esistente.
 
 Utilizza i tag nella raccolta dati di Adobe Experience Platform per impostare manualmente il nome dell’evento di attrito in modo che possa essere incluso nell’oggetto XDM e analizzato. Un modo per farlo è nel codice personalizzato della regola:
 
@@ -74,6 +72,8 @@ Con i dati evento di attrito della metrica quantistica raccolti insieme al resto
 1. Seleziona un progetto esistente o crea un progetto.
 1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Trascina le dimensioni e le metriche desiderate nell’area di lavoro di Workspace per l’analisi.
+
+![Grafico di attrito](assets/friction-graph.png)
 
 Le possibili idee di analisi includono:
 
