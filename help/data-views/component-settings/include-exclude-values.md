@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="Includere valori di esclusione"
->abstract="Restringi una dimensione per includere solo i valori che corrispondono a criteri specifici. Le inclusioni e le esclusioni si verificano prima dell’allocazione e della segmentazione nei rapporti. Determina se la logica del segmento specificato distingue tra maiuscole e minuscole."
+>abstract="Restringi una dimensione per includere solo i valori che corrispondono a criteri specifici. Le inclusioni e le esclusioni si verificano prima dell’allocazione e della segmentazione nei report. Determina se la logica del segmento specificata fa la distinzione tra maiuscole e minuscole."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi della dimensione o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699){target="_blank"} per un video demo.
 
 {{videoaa}}
 

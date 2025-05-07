@@ -6,8 +6,8 @@ exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 100%
+source-wordcount: '1811'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Il [Generatore di metriche calcolate](cm-workflow/cm-build-metrics.md) consente 
 
 Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
 
-Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"}[!BADGE Riga]{type="Neutral"}
+Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"} o [!BADGE Riga]{type="Neutral"}
 
 ## Che cosa significa il parametro include-zeros?
 
@@ -52,7 +52,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il valore assoluto di un numero. Il valore assoluto di un numero è il numero con un valore positivo.
 
 | Argomento | Descrizione |
 |---|---|
@@ -137,7 +137,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce il numero, o conteggio, di valori diversi da zero per una metrica all&#39;interno di una colonna (il numero di elementi univoci riportati all&#39;interno di una dimensione).
 
 | Argomento | Descrizione |
 |---|---|
@@ -157,7 +157,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. ESPONENTE è l’inverso di LN, il logaritmo naturale di un numero.
 
 | Argomento | Descrizione |
 |---|---|
@@ -178,7 +178,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce la media aritmetica di una metrica in una colonna.
 
 | Argomento | Descrizione |
 |---|---|
@@ -200,7 +200,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri è costituita da valori maggiori o uguali alla mediana e l’altra metà da quelli minori o uguali alla mediana.
 
 | Argomento | Descrizione |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce l&#39;ennesimo percentile, che è un valore compreso tra 0 e 100. Quando n &lt; 0, la funzione utilizza zero. Quando n > 100, la funzione restituisce 100.
 
 | Argomento | Descrizione |
 |---|---|
@@ -304,7 +304,7 @@ Restituisce x elevato alla potenza y.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}[COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) e [COLUMN MAXIMUM](#column-maximum) restituiscono lo stesso valore di [QUARTILE](#quartile) quando quartile è uguale rispettivamente a `0` (zero), `2` e `4`.
+[!BADGE Tabella]{type="Neutral"} Restituisce il quartile dei valori per una metrica. Ad esempio, i quartili possono essere utilizzati per trovare il 25% dei prodotti che generano maggiori ricavi. [COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) e [COLUMN MAXIMUM](#column-maximum) restituiscono lo stesso valore di [QUARTILE](#quartile) quando quartile è uguale rispettivamente a `0` (zero), `2` e `4`.
 
 | Argomento | Descrizione |
 |---|---|
@@ -435,7 +435,7 @@ Somma delle colonne di ogni riga.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce la radice quadrata positiva di un numero. La radice quadrata di un numero è il valore di quel numero elevato alla potenza di 1/2.
 
 | Argomento | Descrizione |
 |---|---|
@@ -455,7 +455,7 @@ Somma delle colonne di ogni riga.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce la deviazione standard, o radice quadrata della varianza, in base a una popolazione di dati campione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -476,7 +476,7 @@ Somma delle colonne di ogni riga.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Restituisce la varianza in base a una popolazione di dati campione.
 
 | Argomento | Descrizione |
 |---|---|

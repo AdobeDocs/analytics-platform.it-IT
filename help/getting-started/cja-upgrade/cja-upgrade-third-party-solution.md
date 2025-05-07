@@ -18,8 +18,8 @@ ht-degree: 54%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="Prodotto di analisi non Adobe"
->abstract="Un’ implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione nella guida aggiornata verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto di analisi non Adobe."
+>title="Prodotto diverso da Adobe Analytics"
+>abstract="Un’ implementazione che raccoglie dati per un prodotto diverso da Adobe Analytics, ad esempio Google Analytics. Selezionando questa opzione nella guida aggiornata verranno disattivate diverse opzioni che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto diverso da Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ Utilizza il seguente procedimento per passare a Customer Journey Analytics da un
 
    * Non è possibile eseguire la migrazione di progetti e componenti da una soluzione non Adobe Analytics.
 
-   * A seconda della soluzione di analisi in uso, è possibile che sia disponibile un connettore di origine per l’acquisizione dei dati storici. Per ulteriori informazioni, consulta [Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#analytics) in [Panoramica dei connettori Source](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home) nella documentazione di Experience Platform.
+   * A seconda della soluzione di analisi in uso, è possibile che sia disponibile un connettore di origine per l’acquisizione dei dati storici. Per ulteriori informazioni, consulta [Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics) in [Panoramica dei connettori Source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) nella documentazione di Experience Platform.
 
 
 Se hai bisogno di consigli, indicazioni o supporto più specifici, contatta il rappresentante Adobe.

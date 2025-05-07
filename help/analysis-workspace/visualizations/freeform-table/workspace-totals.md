@@ -18,7 +18,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="Totale complessivo"
->abstract="Il totale complessivo non è supportato per tabelle o raggruppamenti con righe statiche."
+>abstract="Il totale complessivo non è supportato per tabelle o raggruppamenti con righe statiche"
 
 <!-- markdownlint-enable MD034 -->
 

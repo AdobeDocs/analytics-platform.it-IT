@@ -7,7 +7,7 @@ exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1688'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Gli utenti dell’azienda da cui accedi possono utilizzare questi modelli aziend
 
 >[!CONTEXTUALHELP]
 >id="use-case-ajo-template"
->title="Usa modello in Journey Optimizer"
+>title="Utilizzare i modelli in Journey Optimizer"
 >abstract="Quando utilizzi questo modello in Journey Optimizer, viene utilizzata la visualizzazione dati impostata come predefinita in Adobe Journey Optimizer, indipendentemente dalla visualizzazione dati selezionata con questo modello in Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->

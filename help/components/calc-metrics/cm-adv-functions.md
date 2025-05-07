@@ -109,7 +109,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="Arcoseno"
->abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( )."
+>abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( )"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -759,7 +759,7 @@ L’incremento del rapporto rispetto al valore di controllo.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Regressione lineare: coefficiente di correlazione"
->abstract="Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione."
+>abstract="Regressione lineare: Y = a X + b.  Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 

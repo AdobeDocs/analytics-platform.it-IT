@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 48%
+ht-degree: 53%
 
 ---
 
@@ -101,13 +101,13 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
->title="Pulisci visualizzazione dati selezionata"
->abstract="Hai selezionato una visualizzazione dati per la quale è già stato eseguito il provisioning per Content Analytics. La configurazione di Content Analytics esistente viene rimossa e la visualizzazione dati viene fornita con la nuova configurazione."
+>title="Pulizia della visualizzazione dati selezionata"
+>abstract="Hai selezionato una visualizzazione dati di cui è già stato eseguito il provisioning per Content Analytics. La configurazione di Content Analytics esistente viene rimossa e la nuova configurazione viene applicata alla visualizzazione dati."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
->title="Pulizia visualizzazione dati precedente"
->abstract="Hai selezionato una nuova visualizzazione dati. La configurazione Content Analytics per la visualizzazione dati selezionata in precedenza viene rimossa."
+>title="Pulizia della visualizzazione dati precedente"
+>abstract="Hai selezionato una nuova visualizzazione dati. La configurazione di Content Analytics per la visualizzazione dati selezionata in precedenza è viene rimossa."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,39 +145,39 @@ La configurazione richiede la selezione di una [Visualizzazione dati](/help/data
 In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-views.md) è associata a una [connessione](/help/connections/overview.md) di Customer Journey Analytics. Una connessione si basa su una sandbox all’interno della tua organizzazione. Dopo aver salvato la configurazione, nel campo **[!UICONTROL Sandbox]** viene inserito automaticamente il nome della sandbox, in base alla visualizzazione dati selezionata.
 
 
-### Acquisizione e definizione delle esperienze {#onboarding-experiences}
+### Acquisizione e definizione dell’esperienza {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
->title="Acquisizione e definizione delle esperienze"
+>title="Acquisizione e definizione dell’esperienza"
 >abstract="Puoi scegliere di includere le esperienze nei dati raccolti con Content Analytics. Quando questa opzione è selezionata, devi definire una o più combinazioni di un regex e parametri di query per definire gli URL per i quali desideri includere le esperienze."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
->title="Acquisizione e definizione delle esperienze"
->abstract="Raccogli esperienze in Content Analytics"
+>title="Acquisizione e definizione dell’esperienza"
+>abstract="Raccogliere esperienze in Content Analytics"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
->title="Acquisizione e definizione delle esperienze"
+>title="Acquisizione e definizione dell’esperienza"
 >abstract="Specifica i parametri che determinano come viene eseguito il rendering del contenuto sul sito web."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_new_include_experiences"
->title="Acquisizione e definizione delle esperienze"
->abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e è disponibile il reporting sulle esperienze."
+>title="Acquisizione e definizione dell’esperienza"
+>abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza ed è disponibile il reporting sull’esperienza."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
->title="Acquisizione e definizione delle esperienze"
->abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e è disponibile il reporting sulle esperienze. <br><br/>Utilizza ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** per modificare la configurazione della raccolta dati per le esperienze nella proprietà Tags associata alla configurazione corrente."
+>title="Acquisizione e definizione dell’esperienza"
+>abstract="Quando questa opzione è attivata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza ed è disponibile il reporting sull’esperienza. <br><br/>Utilizza ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** per modificare la configurazione della raccolta dati per le esperienze nella proprietà Tags associata alla configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
->title="Acquisizione e definizione delle esperienze"
->abstract="È necessario modificare le impostazioni per la raccolta dati sull’esperienza nell’estensione Adobe Content Analytics."
+>title="Acquisizione e definizione dell’esperienza"
+>abstract="Devi modificare le impostazioni per la raccolta dati sull’esperienza nell’estensione Adobe Content Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -226,7 +226,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
    * Processo che genera attributi esperienza dai dati evento di Content Analytics
    * Il modello di reporting in Customer Journey Analytics.
 
-* Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare ulteriormente la configurazione della raccolta dati per le esperienze in Content Analytics. Sei stato reindirizzato all&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) nella proprietà Tags associata alla configurazione corrente.
+* Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare ulteriormente la configurazione della raccolta dati per le esperienze in Content Analytics. Sei stato reindirizzato all&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) nella proprietà Tags associata alla configurazione corrente.
 
 
 ### Raccolta dati {#onboarding-data-collection}
@@ -312,7 +312,7 @@ In una nuova configurazione, devi definire se desideri utilizzare una proprietà
 
 >[!IMPORTANT]
 >
->Rimuovere manualmente l&#39;estensione automatica di Web SDK inclusa dalla nuova proprietà Tags nel caso in cui sia presente un&#39;implementazione di Web SDK che utilizza la [libreria JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/install/library) anziché l&#39;estensione [Tags](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration).
+>Rimuovere manualmente l&#39;estensione automatica di Web SDK inclusa dalla nuova proprietà Tags nel caso in cui sia presente un&#39;implementazione di Web SDK che utilizza la [libreria JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/install/library) anziché l&#39;estensione [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration).
 >
 
 
@@ -321,9 +321,9 @@ In una nuova configurazione, devi definire se desideri utilizzare una proprietà
 
 Per una configurazione esistente, non è possibile modificare la proprietà Tags. Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 
-* Per modificare le pagine da includere o escludere durante la raccolta dei dati per Content Analytics, selezionare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Experience]**. Sei stato reindirizzato all&#39;[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà Tags per la configurazione di Content Analytics corrente. Puoi modificare l’espressione regolare per includere o escludere pagine. Assicurati di [pubblicare](#publish) le modifiche.
+* Per modificare le pagine da includere o escludere durante la raccolta dei dati per Content Analytics, selezionare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Experience]**. Sei stato reindirizzato all&#39;[estensione Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà Tags per la configurazione di Content Analytics corrente. Puoi modificare l’espressione regolare per includere o escludere pagine. Assicurati di [pubblicare](#publish) le modifiche.
 
-* Per modificare le risorse da includere o escludere durante la raccolta dei dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Asset]**. Sei stato reindirizzato all&#39;[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà Tags per la configurazione di Content Analytics corrente. Puoi modificare l’espressione regolare per includere o escludere le risorse. Assicurati di [pubblicare](#publish) le modifiche.
+* Per modificare le risorse da includere o escludere durante la raccolta dei dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Asset]**. Sei stato reindirizzato all&#39;[estensione Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà Tags per la configurazione di Content Analytics corrente. Puoi modificare l’espressione regolare per includere o escludere le risorse. Assicurati di [pubblicare](#publish) le modifiche.
 
 ### Riepilogo {#summary}
 
