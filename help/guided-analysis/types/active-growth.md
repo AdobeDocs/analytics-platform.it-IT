@@ -23,9 +23,9 @@ ht-degree: 93%
 
 L’analisi della ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** fornisce informazioni sulla crescita e l’acquisizione degli utenti in un determinato periodo. L’asse orizzontale mostra un intervallo di tempo, mentre l’asse verticale indica la misura degli utenti. Gli utenti sono suddivisi in quattro categorie:
 
-* **[!UICONTROL New]**: l’utente è stato attivo nel periodo corrente, ma non in precedenza. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL New users]_nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
+* **[!UICONTROL New]**: l’utente è stato attivo nel periodo corrente, ma non in precedenza. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL New users]_&#x200B;nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
 * **[!UICONTROL Repeat]**: l’utente è stato attivo nel periodo corrente e in quello immediatamente precedente.
-* **[!UICONTROL Return]**: l’utente è stato attivo nel periodo corrente, non è stato attivo nel periodo immediatamente precedente, ma è stato attivo ancora prima. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL Return users]_nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
+* **[!UICONTROL Return]**: l’utente è stato attivo nel periodo corrente, non è stato attivo nel periodo immediatamente precedente, ma è stato attivo ancora prima. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL Return users]_&#x200B;nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
 * **[!UICONTROL Dormant]**: l’utente è stato attivo nel periodo immediatamente precedente, ma non è stato attivo nel periodo corrente. Gli utenti inattivi non concorrono al numero totale degli utenti attivi.
 
 Tutti gli utenti attivi (nuovi + ripetuti + di ritorno) vengono visualizzati in una tonalità di verde sopra l’asse orizzontale, mentre tutti gli utenti inattivi vengono visualizzati in arancione sotto l’asse orizzontale.
