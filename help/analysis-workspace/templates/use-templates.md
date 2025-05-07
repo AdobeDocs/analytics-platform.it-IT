@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e37ac6f67da441e2e9491307dc44e31506383a0d
+source-git-commit: d618300480cdc3b4454e5c91e5e5adacc01d0c77
 workflow-type: tm+mt
-source-wordcount: '19796'
+source-wordcount: '19785'
 ht-degree: 95%
 
 ---
@@ -128,27 +128,27 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
    Le sezioni seguenti corrispondono alle categorie disponibili e forniscono informazioni su ciascun modello.
 
-   * &lbrack;[](#most-popular)
+   * **[[!UICONTROL Most popular]](#most-popular)**
 
-   * &lbrack;[](#engagement)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Engagement]](#engagement)**
 
-   * &lbrack;[](#web-conversion)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Conversion]](#web-conversion)**
 
-   * &lbrack;[](#web-audience)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Audience]](#web-audience)**
 
-   * &lbrack;[](#web-acquisition)
+   * **[[!UICONTROL Web]** > **[!UICONTROL Acquisition]](#web-acquisition)**
 
-   * &lbrack;[](#mobile-mobile-app)
+   * **[[!UICONTROL Mobile]** > **[!UICONTROL Mobile App]](#mobile-mobile-app)**
 
-   * &lbrack;[](#mobile-mobile-device-information)
+   * **[[!UICONTROL Mobile]** > **[!UICONTROL Mobile Device Information]](#mobile-mobile-device-information)**
 
-   * &lbrack;[](#time-parting)
+   * **[[!UICONTROL Time Parting]](#time-parting)**
 
-   * &lbrack;[](#cross-channel)
+   * **[[!UICONTROL Cross-Channel]](#cross-channel)**
 
-   * &lbrack;[](#other-channels)
+   * **[[!UICONTROL Other Channels]](#other-channels)**
 
-   * &lbrack;[](#ajo)
+   * **[[!UICONTROL AJO]](#ajo)**
 
 ### Most popular (Più popolari) {#most-popular}
 
