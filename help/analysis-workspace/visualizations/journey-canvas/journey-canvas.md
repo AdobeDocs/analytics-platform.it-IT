@@ -51,7 +51,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
+_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
