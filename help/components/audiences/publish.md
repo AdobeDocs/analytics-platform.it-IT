@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 77%
+source-wordcount: '2277'
+ht-degree: 74%
 
 ---
 
@@ -122,9 +122,13 @@ Il pannello Anteprima dati fornisce le seguenti informazioni.
 
 ## Cosa succede dopo la creazione e la pubblicazione di un pubblico? {#after-audience-created}
 
-Il pubblico creato e pubblicato in Customer Journey Analytics è disponibile in Experience Platform. Un segmentodi Adobe Experience Platform in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
+Dopo aver creato e pubblicato un pubblico in Customer Journey Analytics, il pubblico è disponibile in Experience Platform e può essere visualizzato nel [portale del pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal). Con il pubblico disponibile in Experience Platform, può essere utilizzato in altre applicazioni Experience Platform, come Adobe Journey Optimizer.
 
-* Il pubblico in Platform condivide lo stesso nome e la stessa descrizione del pubblico in Customer Journey Analytics. Al nome viene aggiunto l’ID del pubblico di Customer Journey Analytics per garantire che il pubblico sia univoco.
+Un segmentodi Adobe Experience Platform in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
+
+Quando si lavora con tipi di pubblico pubblicati da Customer Journey Analytics ad Experience Platform, considera quanto segue:
+
+* Il pubblico di Experience Platform condivide lo stesso nome e la stessa descrizione del pubblico di Customer Journey Analytics. Al nome viene aggiunto l’ID del pubblico di Customer Journey Analytics per garantire che il pubblico sia univoco.
 * Eventuali modifiche apportate al nome o alla descrizione del pubblico in Customer Journey Analytics vengono riportate in Experience Platform.
 * Un pubblico che viene eliminato in Customer Journey Analytics continua a essere disponibile in Experience Platform fino alla scadenza dell’iscrizione al profilo del pubblico. L’iscrizione al profilo scade dopo 420 giorni per i tipi di pubblico una tantum e dopo 16 giorni per i tipi di pubblico ricorrenti.
 
