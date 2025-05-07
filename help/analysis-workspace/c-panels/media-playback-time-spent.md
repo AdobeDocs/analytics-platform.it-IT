@@ -60,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?captions=ita){target="_blank"} per un video demo.
 
 {{videoaa}}
 
