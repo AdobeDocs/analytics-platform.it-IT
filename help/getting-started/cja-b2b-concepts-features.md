@@ -6,10 +6,10 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 0%
+source-wordcount: '1246'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ In Customer Journey Analytics B2B edition è possibile scegliere tra una conness
 
 ## Contenitori
 
-In Customer Journey Analytics i contenitori vengono generati come parte della configurazione di una connessione e di una visualizzazione dati. Nei contenitori vengono memorizzati solo gli identificatori per facilitare l’esecuzione rapida ed efficiente di funzionalità quali segmentazione, raggruppamenti e altro ancora.
+In Customer Journey Analytics i contenitori vengono generati come parte della configurazione di una connessione e di una visualizzazione dati. Nei contenitori vengono memorizzati gruppi di identificatori per facilitare l’esecuzione rapida ed efficiente di funzionalità quali segmentazione, raggruppamenti e altro ancora.
 
 ### Contenitori standard
 
@@ -67,6 +67,24 @@ La gerarchia e le relazioni tra i contenitori sono predeterminate. Opportunità,
 
 ## Set di dati
 
+Il B2B di Customer Journey Analytics distingue tra i seguenti tipi di dati e set di dati.
+
+| Tipo di dati | Serie temporali | Record contenitore | Record di campo |
+|---|---|---|---|
+| **Set di dati** | **Set di dati evento**<br/> Ad esempio:<ul><li>Analisi digitale</li><li>Eventi CRM</li><li>Eventi di persona</li><li>Dati del call center</li></ul> | **Set di dati profilo**<br/> Ad esempio:<ul><li>Record CRM</li><li>Record B2B di AJO</li><li>Record CDP</li><ul> | **Classificazioni**<br/> Ad esempio:<ul><li>Record campagna</li><li>Record elenco marketing</li><li>Metadati del contenuto</li><li>Record di prodotto</li></ul> |
+| Requisiti | **Timestamp**<br> Per ogni record è necessario:<ul><li>ID account</li><li>ID account globale</li><li>ID persona</li></ul> | **I record ID account**<br> richiedono un ID contenitore, ad esempio:<ul><li>Account</li><li>Persona</li><li>Opportunità</li><li>Gruppo acquisti</li></ul> | **La chiave corrispondente**<br> I record richiedono un ID contenuto in un contenitore o in un set di dati evento, ad esempio:<ul><li>ID campagna</li><li>ID contenuto</li><li>ID prodotto</li></ul> |
+
+{style="table-layout:fixed"}
+
+Esempio di connessione basata su account in Customer Journey Analytics B2B edition:
+
+![Esempio di connessione basata sull&#39;account](assets/b2b-datasets.svg)
+
+Customer Journey Analytics B2B edition offre l&#39;interfaccia [Connection Map](/help/connections/create-connection.md#connection-map) per fornire una panoramica delle relazioni tra i set di dati presenti nella connessione.
+
+
+Analogamente a Customer Journey Analytics, i dati delle serie temporali basate su eventi sono alla base di Customer Journey Analytics B2B edition. La differenza principale per una connessione basata sull’account è che è necessario un ID account su ogni record nel set di dati dell’evento invece di un ID persona.
+
 Quando configuri [impostazioni set di dati](/help/connections/create-connection.md#dataset-settings) per la connessione basata sull&#39;account in Customer Journey Analytics B2B edition, le opzioni disponibili per alcune impostazioni dipendono dal [tipo di set di dati](/help/connections/create-connection.md#dataset-types). Ad esempio, devi:
 
 * Specifica gli identificatori per ciascuno dei contenitori configurati per i set di dati evento.
@@ -79,11 +97,11 @@ Puoi definire per ogni set di dati di ricerca, sia che tu corrisponda al set di 
 
 ### Corrispondenza per contenitore
 
-Se un set di dati record utilizza una corrispondenza per contenitore, il set di dati record viene considerato come un tipo di set di dati profilo e come un set di dati profilo nell’interfaccia utente. Utilizza corrispondenza per contenitore nei set di dati che supportano i contenitori configurati. Ad esempio, un set di dati Gruppo acquisti.
+Se un set di dati record utilizza una corrispondenza per contenitore, il set di dati record viene considerato come un tipo di set di dati profilo e come un set di dati profilo nell’interfaccia utente. Utilizza corrispondenza per contenitore nei set di dati che contengono record contenitore e che supportano i contenitori configurati. Ad esempio, un set di dati Gruppo acquisti.
 
 ### Corrispondenza per campo
 
-Se un set di dati record utilizza una corrispondenza per campo, nell’interfaccia utente il set di dati record viene considerato come un tipo di set di dati di ricerca e come un set di dati di ricerca. Utilizza il campo corrispondenza per nei set di dati che supportano ulteriori dettagli tramite la ricerca. Ad esempio, un set di dati Membro di un elenco di marketing o un set di dati Dettagli prodotto.
+Se un set di dati record utilizza una corrispondenza per campo, nell’interfaccia utente il set di dati record viene considerato come un tipo di set di dati di ricerca e come un set di dati di ricerca. Utilizza corrispondenza per campo nei set di dati che contengono dettagli di classificazione aggiuntivi tramite la ricerca. Ad esempio, un set di dati Membro di elenco di marketing o un set di dati Dettagli prodotto.
 
 
 ## Rapporto sui dati basati su persone e account

@@ -5,36 +5,33 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 98%
+source-wordcount: '621'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL Active growth] analisi {#active-growth}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_activegrowth_button"
 >title="Crescita attiva"
 >abstract="Identifica gli utenti nuovi, mantenuti, che ritornano o inattivi."
 
-<!-- markdownlint-enable MD034 -->
 
 
 L’analisi della ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** fornisce informazioni sulla crescita e l’acquisizione degli utenti in un determinato periodo. L’asse orizzontale mostra un intervallo di tempo, mentre l’asse verticale indica la misura degli utenti. Gli utenti sono suddivisi in quattro categorie:
 
-* **[!UICONTROL New]**: l’utente è stato attivo nel periodo corrente, ma non in precedenza. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL New users]_&#x200B;nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
+* **[!UICONTROL New]**: l’utente è stato attivo nel periodo corrente, ma non in precedenza. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL New users]_nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
 * **[!UICONTROL Repeat]**: l’utente è stato attivo nel periodo corrente e in quello immediatamente precedente.
-* **[!UICONTROL Return]**: l’utente è stato attivo nel periodo corrente, non è stato attivo nel periodo immediatamente precedente, ma è stato attivo ancora prima. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL Return users]_&#x200B;nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
+* **[!UICONTROL Return]**: l’utente è stato attivo nel periodo corrente, non è stato attivo nel periodo immediatamente precedente, ma è stato attivo ancora prima. Scopri quanto risale indietro l’analisi passando il puntatore su _[!UICONTROL Return users]_nella legenda del grafico. L’intervallo di lookback viene determinato dinamicamente in base all’intervallo di date selezionato.
 * **[!UICONTROL Dormant]**: l’utente è stato attivo nel periodo immediatamente precedente, ma non è stato attivo nel periodo corrente. Gli utenti inattivi non concorrono al numero totale degli utenti attivi.
 
 Tutti gli utenti attivi (nuovi + ripetuti + di ritorno) vengono visualizzati in una tonalità di verde sopra l’asse orizzontale, mentre tutti gli utenti inattivi vengono visualizzati in arancione sotto l’asse orizzontale.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423395/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -54,7 +51,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: consente di passare da questa analisi a [Crescita netta](net-growth.md).
 * **[!UICONTROL Events]**: l’evento che desideri misurare. Poiché questa analisi è basata sull’utente, vengono conteggiati come utenti attivi anche coloro che interagiscono con l’evento una volta nell’arco del periodo. Puoi includere un evento in una query.
-* **[!UICONTROL Counted as]**: il metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Number of users] e [!UICONTROL Percentage of users].
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] e [!UICONTROL Percentage of users].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Ulteriori **[!UICONTROL B2B options]** sono disponibili per Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups] e [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: segmento in base al quale si desidera segmentare i dati. Puoi includere un segmento in una query.
 
 ### Impostazioni del grafico

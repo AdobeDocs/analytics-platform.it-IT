@@ -5,10 +5,10 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 L’analisi delle ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423441/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -39,7 +39,7 @@ I casi d’uso per questa analisi includono:
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
@@ -47,13 +47,13 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questa analisi a [Frequenza](frequency.md).
 * **[!UICONTROL Events & Metrics]**: gli eventi o le metriche che desideri misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni delle query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
-* **[!UICONTROL Counted as]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono Eventi, Sessioni, Utenti, Percentuale di utenti, Eventi per sessione ed Eventi per utente. Conteggiati come opzioni, sono applicabili solo alle query evento e vengono rimossi per le query metriche.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Users], [!UICONTROL Events], [!UICONTROL Sessions], [!UICONTROL Percentage of users], [!UICONTROL Events per session] e [!UICONTROL Events per user].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Ulteriori **[!UICONTROL B2B options]** sono disponibili per Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], [!UICONTROL Percentage of opportunities], [!UICONTROL Events per global account], [!UICONTROL Events per account], [!UICONTROL Events per buying group] e [!UICONTROL Events per opportunity].</li></ul>Conteggiati come opzioni, sono applicabili solo alle query evento e vengono rimossi per le query metriche.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie di grafici e delle righe di tabella. Puoi includere fino a cinque segmenti.
 * **[!UICONTROL Breakdown property]**: suddivide le serie dei grafici e le righe di tabella per i valori della proprietà selezionata. È supportata una singola proprietà di raggruppamento. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. Puoi nascondere o esporre una riga nel grafico attivando l’icona ![Show hide icon](../assets/hide-in-chart.png).
 
 ### Impostazioni del grafico
 
-L’analisi [!UICONTROL Trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L’analisi della[!UICONTROL Trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: tipo di visualizzazione da usare. Le opzioni includono: linea, barre, barre sovrapposte e superfici sovrapposte.
 
