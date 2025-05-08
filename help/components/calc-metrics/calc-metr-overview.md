@@ -4,10 +4,10 @@ description: Scopri le metriche segmentate derivate in fase di esecuzione dei ra
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ Le metriche calcolate sono metriche personalizzate che puoi creare dalle metrich
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/35866/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ Un flusso di lavoro tipico per le metriche calcolate è costituito da queste att
 | Pianificazione | In particolare, per le metriche che verranno approvate ufficialmente ![Checkmark](/help/assets/icons/Checkmark.svg), pianifica e struttura con attenzione le metriche calcolate che prevedi di utilizzare spesso. |
 | [Genera](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | Crea, modifica e salva le metriche calcolate. |
 | [Applica](/help/components/use-components-in-workspace.md) | Applica le metriche calcolate direttamente all’interno dei progetti Workspace. |
-| [Gestisci](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Gestisci le metriche calcolate. Puoi [assegnare un tag](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [approvare](/help/components/calc-metrics/cm-workflow/cm-approving.md), [non approvare](/help/components/calc-metrics/cm-workflow/cm-approving.md), [segmento](/help/components/calc-metrics/cm-workflow/cm-filter.md), [favore](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [sfavore](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [condividere](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiare](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o più metriche calcolate. |
+| [Gestisci](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Gestisci le metriche calcolate. Puoi [assegnare un tag](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [approvare](/help/components/calc-metrics/cm-workflow/cm-approving.md), [non approvare](/help/components/calc-metrics/cm-workflow/cm-approving.md), [filtrare](/help/components/calc-metrics/cm-workflow/cm-filter.md), [contrassegnare come preferita](/help/components/calc-metrics/cm-workflow/cm-favorite.md) o [contrassegnare come non preferita](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [condividere](/help/components/calc-metrics/cm-workflow/cm-sharing.md) o [copiare](/help/components/calc-metrics/cm-workflow/cm-copy.md) una o più metriche calcolate. |
 
 Consulta [Creare metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-workflow.md) per le varie opzioni disponibili per creare metriche calcolate. Genera, modifica e salva la definizione delle metriche calcolate nel [Generatore di metriche calcolate](cm-workflow/cm-build-metrics.md).
 
