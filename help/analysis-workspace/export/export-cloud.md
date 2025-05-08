@@ -5,7 +5,7 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
+source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 98%
@@ -123,7 +123,7 @@ Un file manifesto con il nome di file `cja-export-{reportInstanceId}-{idx}.json.
 
 <!-- add in  what the file name, structure, and file format will be -->
 
-## Vantaggi dell’esportazione nel cloud
+## Vantaggi dell’esportazione nel cloud {#advantages}
 
 L’esportazione di dati di Customer Journey Analytics nel cloud consente di:
 
@@ -217,7 +217,7 @@ Se in un rapporto viene utilizzato un modello di attribuzione non predefinito, i
   >
   >I rapporti multidimensionali sono supportati solo quando si esportano dati nel cloud, come descritto in questo articolo.
 
-## Confronto tra l’esportazione di tabelle complete (in Customer Journey Analytics) e Data Warehouse (in Adobe Analytics)
+## Confronto tra l’esportazione di tabelle complete (in Customer Journey Analytics) e Data Warehouse (in Adobe Analytics) {#comparison}
 
 Se in precedenza si utilizzava Data Warehouse per esportare dati di Adobe Analytics, la tabella seguente consente di comprendere le differenze tra l’esportazione di tabelle complete in Customer Journey Analytics e l’esportazione di dati con Data Warehouse in Adobe Analytics.
 
