@@ -4,7 +4,7 @@ title: Condividere segmenti
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: cc1e5737b481a231e139562ca4a79fbdfd61d8a3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 12%
@@ -38,6 +38,6 @@ Di seguito sono riportate alcune best practice per la condivisione di segmenti e
 
 * In qualità di amministratore, condividi un segmento con tutti solo se sei convinto che chiunque nella tua organizzazione abbia familiarità con l’utilizzo dei segmenti. Puoi anche valutare la possibilità di favorire questi segmenti. Per ulteriori informazioni, consulta [Contrassegnare un segmento come preferito](filters-favorite.md).
 
-* In qualità di amministratore, condividi un segmento con un gruppo specifico se quel segmento fornisce valore aziendale per la parte degli utenti di quel gruppo
+* In qualità di amministratore, condividi un segmento con un gruppo specifico se tale segmento fornisce valore aziendale per la parte degli utenti di tale gruppo.
 
 * In qualità di amministratore o di singolo utente, condividi un segmento con uno o più singoli utenti per convalidarlo. Se i segmenti non si rivelano utili, puoi eliminarli.
