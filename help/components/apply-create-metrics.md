@@ -4,9 +4,9 @@ title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '879'
 ht-degree: 4%
 
 ---
@@ -35,11 +35,19 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
    * **Sessioni**: la metrica Sessioni in Customer Journey Analytics è ciò che si definisce come parte della configurazione delle Impostazioni sessioni nella visualizzazione dati. Vedere [Impostazioni sessione](/help/data-views/session-settings.md).
    * **Eventi**: la metrica Eventi in Customer Journey Analytics è costituita dagli eventi che fanno parte di qualsiasi set di dati evento configurato come parte della connessione.
 
+  Per l&#39;elenco completo delle metriche standard, vedere [Metriche standard](#standard-metrics).
+
 * **Metriche calcolate** ![Calcolatore](/help/assets/icons/Calculator.svg): metriche definite dall&#39;utente basate su metriche standard, numeri statici o funzioni algoritmiche.
 
 * **Modelli di metriche calcolate** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): metriche definite da Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzare la logica. Vedi [Metriche calcolate predefinite](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 Puoi vedere se una metrica è approvata ![Icona Approvata](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o meno. Per ulteriori dettagli su una metrica, passa il cursore del mouse sulla metrica e seleziona ![Icona informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Per ulteriori informazioni, vedere [Informazioni sul componente](use-components-in-workspace.md#component-info).
+
+
+## Metriche standard
+
+L’elenco completo delle metriche standard in Customer Journey Analytics:
+{{standard-metrics}}
 
 ## Confrontare metriche con diversi modelli di attribuzione
 

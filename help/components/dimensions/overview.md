@@ -3,10 +3,10 @@ title: Panoramica delle dimensioni
 description: Scopri che cosa sono le dimensioni e come vengono utilizzate in Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 30%
+source-wordcount: '225'
+ht-degree: 25%
 
 ---
 
@@ -35,28 +35,12 @@ Ogni dimensione rappresenta una parte o un facet diversi del sito. Puoi combinar
 
 Gli amministratori di Customer Journey Analytics possono [creare dimensioni in una visualizzazione dati](/help/data-views/create-dataview.md#components).
 
-## Dimensioni predefinite
+## Dimensioni standard
 
-Quando crei una visualizzazione dati, i seguenti componenti basati sul tempo vengono aggiunti per impostazione predefinita come dimensioni alla visualizzazione dati:
+Quando crei una visualizzazione dati, i seguenti componenti vengono aggiunti per impostazione predefinita come dimensioni alla visualizzazione dati:
 
-- 15 minuti
-- 30 minuti
-- 5 minuti
-- Giorno
-- Giorno del mese
-- Giorno della settimana
-- Giorno dell’anno
-- Ora
-- Ora del giorno
-- Minuto
-- Minuto dell’Ora
-- Mese
-- Mese dell’anno
-- Trimestre
-- Trimestre dell’anno
-- Secondi
-- Settimana dell’anno
-- Anno
+{{standard-dimensions}}
+
 
 ## Aggiungere descrizioni delle dimensioni
 

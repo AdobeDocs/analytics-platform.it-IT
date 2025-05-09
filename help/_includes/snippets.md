@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '3995'
-ht-degree: 33%
+source-wordcount: '5072'
+ht-degree: 34%
 
 ---
 # Snippet
@@ -255,3 +255,44 @@ Utilizza le seguenti informazioni per scegliere la visualizzazione che meglio so
 | **[!UICONTROL Dataset]** | Nome del set di dati. |
 | **[!UICONTROL Preview: *nome del set di dati *]** | Visualizza in anteprima il set di dati per le prime 10 righe e le prime 10 colonne. |
 | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]** | È possibile [eliminare un set di dati](/help/connections/create-connection.md#delete-a-dataset) senza eliminare l&#39;intera connessione. L’eliminazione di un set di dati da una connessione riduce i costi associati all’acquisizione dei dati e il complicato processo di ricreazione dell’intera connessione e delle visualizzazioni dati associate. |
+
+## Dimensioni standard {#standard-dimensions}
+
+| Nome componente | Note |
+|---|---|
+| 15 minuti | Ogni 15 minuti si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è i primi 15 minuti nell’intervallo di date e l’ultimo elemento dimensione è gli ultimi 15 minuti nell’intervallo di date. |
+| 30 minuti | Ogni 30 minuti in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è i primi 30 minuti nell’intervallo di date e l’ultimo elemento dimensione è gli ultimi 30 minuti nell’intervallo di date. |
+| 5 minuti | Ogni 5 minuti in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è i primi 15 minuti nell’intervallo di date e l’ultimo elemento dimensione è gli ultimi 5 minuti nell’intervallo di date. |
+| [!UICONTROL Day] | Il giorno in cui è accaduto un dato evento. Il primo elemento dimensione è il primo giorno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno dell’intervallo di date. |
+| [!UICONTROL Day of Month] | Il giorno del mese in cui si è verificato un dato evento. Il primo elemento dimensione è il primo giorno del mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno del mese nell’intervallo di date. |
+| [!UICONTROL Day of Week] | Il giorno della settimana in cui si è verificato un dato evento. Il primo elemento dimensione è il primo giorno della settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno della settimana nell’intervallo di date. |
+| [!UICONTROL Day of Month] | Il giorno del mese in cui si è verificato un dato evento. Il primo elemento dimensione è il primo giorno del mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno del mese nell’intervallo di date. |
+| Profondità evento | Assegna valori numerici sequenziali (1, 2, 3, ecc.) a ogni interazione dell’evento all’interno di una sessione. Con questa dimensione puoi abilitare il tracciamento e l’analisi dettagliata di dove si verificano eventi specifici nel flusso sequenziale di interazioni dell’utente all’interno di una sessione. Puoi tenere traccia della progressione degli eventi dall’inizio alla fine all’interno di una sessione limitata. Ad esempio: un visitatore arriva alla tua pagina principale (evento 1, inizio sessione), utilizza la funzione di ricerca (evento 2), visualizza una pagina di dettagli del prodotto (evento 3), aggiunge al carrello (evento 4), procede al pagamento (evento 5) e completa un acquisto (evento 6, fine sessione). È ora possibile utilizzare [!UICONTROL Event depth] in una definizione di segmento per segmentare i dati in base alla profondità dell&#39;interazione. |
+| [!UICONTROL Hour] | L&#39;ora in cui si è verificato un dato evento (arrotondata per difetto). Il primo elemento dimensione è la prima ora nell’intervallo di date e l’ultimo elemento dimensione è l’ultima ora nell’intervallo di date. |
+| [!UICONTROL Hour of Day] | L’ora del giorno in cui si è verificato un dato evento (arrotondata per difetto). Il primo elemento dimensione è la prima ora del giorno nell’intervallo di date e l’ultimo elemento dimensione è l’ultima ora del giorno nell’intervallo di date. |
+| [!UICONTROL Minute] | Il minuto in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto nell’intervallo di date. |
+| [!UICONTROL Minute of Hour] | Il minuto dell’ora in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto dell’ora nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto dell’ora nell’intervallo di date. |
+| [!UICONTROL Month] | Il mese in cui si è verificato un determinato evento. Il primo elemento dimensione è il primo mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese nell’intervallo di date. |
+| [!UICONTROL Month of Year] | Il mese dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo mese dell’anno nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese dell’anno nell’intervallo di date. |
+| [!UICONTROL Quarter] | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
+| [!UICONTROL Quarter of Year] | Il trimestre dell&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre dell’anno nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre dell’anno nell’intervallo di date. |
+| [!UICONTROL Second] | Il secondo in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
+| [!UICONTROL Week] | La settimana in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana nell’intervallo di date. |
+| [!UICONTROL Week of year] | La settimana dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana dell’anno nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana dell’anno nell’intervallo di date. |
+| [!UICONTROL Year] | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
+
+
+## Metriche standard {#standard-metrics}
+
+| Nome componente | Note |
+| --- | --- |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Accounts] | In base all&#39;ID account specificato in un [!UICONTROL Connection]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Buying Group] | I gruppi di acquisto, in base all&#39;ID gruppo di acquisto specificato in [!UICONTROL Connection]. |
+| [!UICONTROL Events] | Il numero di righe da tutti i set di dati evento in un [!UICONTROL Connection]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Global Accounts] | In base all&#39;ID account globale specificato in [!UICONTROL Connection]. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL Opportunities] | Le opportunità, in base all&#39;ID opportunità specificato in [!UICONTROL Connection]. |
+| [!UICONTROL People] | In base all’ID persona specificato in un [!UICONTROL Connection]. |
+| [!UICONTROL Session Ends] | Il numero di eventi che sono stati l&#39;ultimo evento di una sessione. Simile a [!UICONTROL Session Starts], può essere utilizzato anche in una definizione di segmento per segmentare elementi fino all&#39;ultimo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di fine sessione</li></p> |
+| [!UICONTROL Session Starts] | Il numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di segmento, ad esempio &#39;[!UICONTROL Session Starts] exists&#39;, si segmenta fino al primo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di avvio sessione</li></p> |
+| [!UICONTROL Sessions] | In base alle impostazioni di sessione della visualizzazione dati. |
+| [!UICONTROL Time Spent (seconds)] | Somma il tempo tra due valori diversi per una dimensione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che le seguenti [metriche calcolate](/help/components/calc-metrics/default-calcmetrics.md) siano disponibili in Workspace: <ul><li>Time Spent Per Person (Tempo trascorso per persona)</li><li>Tempo trascorso per sessione</li></p> |
