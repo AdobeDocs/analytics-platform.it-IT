@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
+source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 98%
+source-wordcount: '2312'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,16 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 
 ![Processo di esportazione della tabella completa descritto nei passaggi da 1 a 4.](assets/export-full-table-process.png)
 
-## Esportare tabelle complete da Analysis Workspace
+## Esportare tabelle complete da Analysis Workspace {#export-from-workspace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="File manifesto"
+>abstract="Se questa opzione è abilitata, un file manifesto viene incluso in tutte le consegne di esportazione riuscite. Il file manifesto consente di verificare che tutti i file siano stati consegnati correttamente."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
