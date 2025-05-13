@@ -4,10 +4,10 @@ title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 75d45cd6a2149bb44949ec6e0f3808ea4a6995f5
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 87%
 
 ---
 
@@ -58,6 +58,10 @@ Per aggiungere un collegamento ipertestuale, evidenzia il testo e seleziona ![Li
 
 ## Aggiungere immagini {#images}
 
-Per aggiungere un’immagine al progetto, seleziona ![Image](/help/assets/icons/Image.svg) nel menu e inserisci l’URL pubblico dell’immagine. L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
+Per aggiungere un&#39;immagine al progetto, seleziona ![Immagine](/help/assets/icons/Image.svg) nel menu e specifica un URL immagine in **[!UICONTROL Image URL]** (ad esempio `https://www.adobe.com/uploads/2018/06/Adobe.png`), quindi seleziona **[!UICONTROL Save]**.
+
+L’URL dell’immagine deve essere accessibile al pubblico, deve iniziare con `https` e deve essere in formato `.png`, `.jpeg`, `.jpg` o `.gif`. Sono supportate le immagini statiche e animate.
+
+L&#39;inserimento tramite trascinamento di un&#39;immagine non è supportato.
 
 ![Opzioni di testo con l’icona dell’immagine selezionata.](assets/image.png)
