@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-Adobe Analytics è stato avviato come strumento di analisi web e digitale per gli esperti di marketing, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende B2C (Business to Consumer) ad analizzare e ottimizzare le loro attività di marketing e le esperienze dei clienti.
+Adobe Analytics è stato avviato come strumento di analisi web e digitale per gli esperti di marketing, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende B2C (Business to Consumer) ad analizzare e ottimizzare le loro attività di marketing e le esperienze dei clienti. E concentrati su **reporting e analisi basati su persona**: comprendi il percorso del cliente, in cui il cliente è una persona che interagisce con il tuo marchio su più canali.
 
-Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto online e offline e fasi chiave prima della chiusura di un&#39;operazione. Le aziende B2B devono tenere traccia di tutte queste interazioni in un percorso unificato per analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
+Customer Journey Analytics B2B edition aggiunge **analisi e reporting basati sull&#39;account**. Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto online e offline e fasi chiave prima della chiusura di un&#39;operazione. Le aziende B2B devono tenere traccia di tutte queste interazioni in un percorso unificato per analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
 
 Le caratteristiche tipiche di vendita B2B sono:
 
