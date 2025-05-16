@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 81%
+source-wordcount: '1225'
+ht-degree: 80%
 
 ---
 
@@ -411,6 +411,7 @@ ht-degree: 81%
    + [Unione basata su grafico](/help/stitching/gbs.md)
    + [Utilizzare l’unione](/help/stitching/use-stitching.md)
    + [Creare e gestire i set di dati uniti](/help/stitching/stitching-ui.md)
+   + [Convalidare l’unione](/help/stitching/validate.md)
    + [Domande frequenti](/help/stitching/faq.md)
 
 + Integrazioni Adobe {#integrations}
