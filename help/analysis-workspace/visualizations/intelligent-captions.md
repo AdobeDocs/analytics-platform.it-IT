@@ -4,9 +4,9 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 4d566411778774d21be04c4f3d6cf2ffabed6db2
-workflow-type: ht
-source-wordcount: '827'
+source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+workflow-type: tm+mt
+source-wordcount: '705'
 ht-degree: 100%
 
 ---
@@ -16,65 +16,10 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_area"
->title="Didascalie intelligenti: area"
+>id="workspace_intelligentcaptions"
+>title="Didascalie intelligenti"
 >abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_bar"
->title="Didascalie intelligenti: barre"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_donut"
->title="Didascalie intelligenti: anello"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_horizontalbar"
->title="Didascalie intelligenti: barre orizzontali"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_line"
->title="Didascalie intelligenti: linee"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_fallout"
->title="Didascalie intelligenti: fallout"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_flow"
->title="Didascalie intelligenti: flusso"
->abstract="Genera informazioni approfondite sotto forma di linguaggio naturale per aiutarti a comprendere e interpretare più facilmente i dati per questa visualizzazione."
-
-<!-- markdownlint-enable MD034 -->
 
 La funzionalità Didascalie intelligenti utilizza la funzione di intelligenza artificiale generativa avanzata per fornire informazioni chiave aprofondite per le visualizzazioni di Workspace più utilizzate nel linguaggio naturale.
 
@@ -85,7 +30,7 @@ Le didascalie intelligenti sono destinate a:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3443146/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
