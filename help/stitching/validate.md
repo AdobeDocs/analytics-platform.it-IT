@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 3b402e367d2385b336c84ef52897ab34387a948d
+source-git-commit: a37542e4df80048c0750964bb979d77625813ebe
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori 
 
 1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisce se è impostato un ID persona. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID persona non è contenuto nel set di dati, la linea di base è 0%.
 
-   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL &#x200B; _Email set]**.
+   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL  _Email set]**.
    ![Metrica set e-mail](assets/emailset-metric.png)
 
 1. Usa il campo `stitchedID.namespae.code` per creare una dimensione **[!UICONTROL Email stitched namespace]**. Accertati di specificare [Includi impostazioni del componente Valori di esclusione](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
@@ -117,3 +117,4 @@ L’aspetto chiave di questo articolo è che questo tipo di convalida e analisi 
 * Consente decisioni basate sui dati sulla strategia di autenticazione e l’ottimizzazione.
 
 Queste metriche insieme forniscono alle parti interessate un quadro completo del modo in cui l’unione di Customer Journey Analytics influisce sui tassi di successo dell’autenticazione e sulle prestazioni complessive di identificazione della persona.
+
