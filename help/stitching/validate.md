@@ -46,7 +46,7 @@ Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori 
 
 1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisce se è impostato un ID persona. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID persona non è contenuto nel set di dati, la linea di base è 0%.
 
-   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL  _Email set]**.
+   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL &#x200B; _Email set]**.
    ![Metrica set e-mail](assets/emailset-metric.png)
 
 1. Usa il campo `stitchedID.namespae.code` per creare una dimensione **[!UICONTROL Email stitched namespace]**. Accertati di specificare [Includi impostazioni del componente Valori di esclusione](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
