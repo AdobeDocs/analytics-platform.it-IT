@@ -4,11 +4,10 @@ description: Come convalidare l’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
+source-git-commit: 3b402e367d2385b336c84ef52897ab34387a948d
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Anche se questi metodi di analisi possono essere utilizzati sia per l’unione b
 
 >[!NOTE]
 >
->Questo articolo non tratta il valore complessivo di una configurazione Customer Journey Analytics con tutti i set di dati in Experience Platform allineati allo stesso spazio dei nomi dell’identità. E che tutti questi set di dati sono ben uniti tra loro per eseguire analisi su un intero percorso di clienti.
+>L’unione (o la convalida di) di uno o più set di dati contribuisce in ultima analisi a migliorare le informazioni. Tuttavia, questo articolo non descrive il valore complessivo di una configurazione Customer Journey Analytics in cui tutti i set di dati in Experience Platform sono allineati allo stesso spazio dei nomi dell’identità. E che tutti questi set di dati sono ben uniti tra loro per eseguire analisi su un intero percorso di clienti.
 
 
 ## Prerequisiti per la visualizzazione dati
@@ -47,7 +46,7 @@ Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori 
 
 1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisce se è impostato un ID persona. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID persona non è contenuto nel set di dati, la linea di base è 0%.
 
-   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL &#x200B; _Email set]**.
+   Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL  _Email set]**.
    ![Metrica set e-mail](assets/emailset-metric.png)
 
 1. Usa il campo `stitchedID.namespae.code` per creare una dimensione **[!UICONTROL Email stitched namespace]**. Accertati di specificare [Includi impostazioni del componente Valori di esclusione](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
@@ -70,7 +69,7 @@ Per la tabella **[!UICONTROL Stitched ID dimension**] vengono visualizzati i val
 
 ## Reporting incentrato su dispositivo o su persona
 
-Quando crei una Connessione, devi definire quale campo o identità viene utilizzato per l’ID persona. Ad esempio, in un set di dati web, se scegli un ID dispositivo come ID persona, puoi creare rapporti incentrati sul dispositivo e perdere la possibilità di unire questi dati con altri canali offline. Se selezioni un campo o un’identità cross-channel, ad esempio e-mail, si perdono tutti gli eventi non autenticati. Per comprendere questo impatto, devi capire quanto traffico non è autenticato e quanto traffico è autenticato.
+Quando crei una connessione, devi definire quale campo o identità viene utilizzato per l’ID persona. Ad esempio, in un set di dati web, se scegli un ID dispositivo come ID persona, puoi creare rapporti incentrati sul dispositivo e perdere la possibilità di unire questi dati con altri canali offline. Se selezioni un campo o un’identità cross-channel, ad esempio e-mail, si perdono tutti gli eventi non autenticati. Per comprendere questo impatto, devi capire quanto traffico non è autenticato e quanto traffico è autenticato.
 
 1. Creare una metrica calcolata **[!UICONTROL Unauthenticated events over total]**. Definisci la regola nel generatore di regole come segue:
    ![Eventi non autenticati sul totale](assets/calcmetric-unauthenticatedeventsovertotal.png)

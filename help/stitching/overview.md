@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: c27d5f44243e2cda252ac6a484a70964f0999dfc
+source-git-commit: 1a697ce0372d1cb544940778850714a198a000ec
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ Prima di utilizzare le unioni, assicurati che l’organizzazione sia preparata c
 - Importa i dati desiderati in Adobe Experience Platform:
 
    - Per i dati di Adobe Analytics, vedi [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Per altri tipi di dati, consulta la sezione [Creare uno schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui) e [Inserire i dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home) nella documentazione di Adobe Experience Platform.
+   - Per altri tipi di dati, consulta la sezione [Creare uno schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) e [Inserire i dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home) nella documentazione di Adobe Experience Platform.
 
 Puoi trarre vantaggio dall’analisi cross-channel se combini uno o più set di dati uniti con altri set di dati, come i dati del call center, nell’ambito della definizione della connessione Customer Journey Analytics. Questa configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona su ogni riga, simile all’ID unito.
 
@@ -55,7 +55,7 @@ Puoi trarre vantaggio dall’analisi cross-channel se combini uno o più set di 
 >
 >- Se rimuovi il set di dati di origine, il set di dati uniti non elabora più i dati e viene rimosso dal sistema.
 >
->- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati uniti. Se hai applicato le etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente allo schema del set di dati uniti. Per ulteriori informazioni, vedere [Gestione delle etichette di utilizzo dei dati in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview).
+>- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati uniti. Se hai applicato le etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente allo schema del set di dati uniti. Per ulteriori informazioni, vedere [Gestione delle etichette di utilizzo dei dati in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview).
 
 L’unione è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
@@ -74,5 +74,6 @@ Assicurati di non confondere l’unione con:
 >[Unione basata sui campi](fbs.md)
 >[Unione basata su grafico](gbs.md)
 >[Usa unione](use-stitching.md)
+>[Convalida unione](validate.md)
 >[Domande frequenti sull&#39;unione](faq.md)
 
