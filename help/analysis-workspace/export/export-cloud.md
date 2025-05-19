@@ -8,7 +8,7 @@ role: User
 source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
 source-wordcount: '2312'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="export-manifest"
 >title="File manifesto"
->abstract="Se questa opzione è abilitata, un file manifesto viene incluso in tutte le consegne di esportazione riuscite. Il file manifesto consente di verificare che tutti i file siano stati consegnati correttamente."
+>abstract="Se è abilitato, un file manifesto viene incluso in tutte le consegne esportate riuscite. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
 
 <!-- markdownlint-enable MD034 -->
 
