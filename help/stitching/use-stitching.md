@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
+source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Utilizzare l’unione
 
-Quando l&#39;organizzazione soddisfa tutti i [prerequisiti](#prerequisites) e comprende le [limitazioni](#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](#limitations-1) e [basate sui grafi](#limitations-2)), puoi seguire questi passaggi per iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
+Quando l&#39;organizzazione soddisfa tutti i [prerequisiti](overview.md#prerequisites) e comprende le [limitazioni](overview.md#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](fbs.md#limitations) e [basate sui grafi](gbs.md#limitations)), puoi seguire questi passaggi per iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
 
 ## Seleziona opzioni
 
