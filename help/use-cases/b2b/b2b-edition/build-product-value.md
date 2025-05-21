@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # Creare valore di prodotto
+
+{{draft-b2b}}
 
 Desideri fornire informazioni sul valore dei prodotti B2B a responsabili di prodotto, CMO o CEO. Ad esempio, attraverso un’analisi o previsioni di abbandono basate su dati. E rendi queste informazioni digeribili attraverso le dashboard dei dispositivi mobili.
 
@@ -61,5 +65,3 @@ Desideri creare una scorecard mobile che combini i dettagli su account, opportun
 1. Utilizza **[!UICONTROL Preview]** per visualizzare l&#39;anteprima del dashboard. Il dashboard è ora disponibile nell&#39;app del dashboard di Adobe Analytics, disponibile in [App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) o [Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards).
 
    ![Caso di utilizzo B2B - Creare valore del prodotto - Democratizzare gli approfondimenti - Anteprima scorecard per dispositivi mobili](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)
-
-

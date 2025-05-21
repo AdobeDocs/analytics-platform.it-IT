@@ -6,14 +6,18 @@ feature: Use Cases
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # Panoramica sui casi di utilizzo di B2B edition
+
+{{draft-b2b}}
 
 Questa sezione della documentazione descrive alcuni casi d’uso B2B specifici che hanno lo scopo di fornire informazioni approfondite sul percorso di acquisto B2B, spesso più complesso. Un acquisto B2B tipico comporta l’acquisto di gruppi, punti di contatto cross-channel da parte di diversi soggetti interessati, opportunità in varie fasi del ciclo di vendita e altro ancora.
 

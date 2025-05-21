@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
 
 # Crescita account chiave
+
+{{draft-b2b}}
 
 La crescita e la conservazione dei key account sono una priorità importante per le aziende B2B. Per garantire che i negoziati progrediscano, è necessario comunicare al momento giusto con le principali parti interessate nei tuoi account di destinazione.
 
@@ -51,4 +55,3 @@ Puoi utilizzare le seguenti funzioni di Customer Journey Analytics B2B edition:
 1. [Avvisi intelligenti](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 1. [Condividi con gli utenti di Workspace o con altri utenti](/help/analysis-workspace/curate-share/share-projects.md)
 1. [Commenti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
-
