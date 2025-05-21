@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+source-git-commit: d56605b1ae7fd6d83853ad54ce823464090e0192
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 80%
+source-wordcount: '1241'
+ht-degree: 79%
 
 ---
 
@@ -433,7 +433,13 @@ ht-degree: 80%
       + [Utilizzare le dimensioni del canale di marketing](../use-cases/aa-data/marketing-channels.md)
       + [Combinare suite di rapporti con schemi diversi](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [Un esempio di progetto B2B](../use-cases/b2b/example.md)
+      + [Un esempio di progetto B2B basato su persona](../use-cases/b2b/example.md)
+      + B2B edition {#b2b-edition}
+         + [Panoramica dei casi d’uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+         + [Configurazione](/help/use-cases/b2b/b2b-edition/setup.md)
+         + [Ottimizzare il marketing dell’account](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [Crescita account chiave](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [Creare valore di prodotto](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + Dati complessi {#complex-data}
       + [Utilizzare gli array di oggetti](../use-cases/object-arrays.md)
    + Dati cross-channel {#cross-channel}

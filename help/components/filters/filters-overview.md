@@ -4,7 +4,7 @@ description: Scopri i segmenti utilizzati e come creare un segmento semplice.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 5%
@@ -37,7 +37,7 @@ In particolare, in qualità di amministratore, la corretta pianificazione dei se
 
    - Quando dovrei usare questo segmento?
 
-- **Ambito**: quale [Contenitore di segmenti](#filter-containers) rappresenta meglio i dati che stai cercando? Utilizza il contenitore più piccolo possibile.
+- **Ambito**: quale [Contenitore di segmenti](#segment-containers) rappresenta meglio i dati che stai cercando? Utilizza il contenitore più piccolo possibile.
 
 - **Componenti**: decide quali componenti includere nella definizione del segmento e in base a quali valori le condizioni devono essere convalidate.
 
@@ -109,7 +109,7 @@ I segmenti si basano su una gerarchia a livello di persona, sessione ed evento c
 
 Un segmento imposta le condizioni per segmentare persone, sessioni o eventi in base alle condizioni. Ad esempio, le condizioni per segmentare le persone si basano sulle caratteristiche delle persone e sulle caratteristiche di navigazione. Per suddividere ulteriormente i dati, puoi segmentare su sessioni specifiche, eventi di visualizzazione della pagina, tocchi a schermo, scelte di menu su un set-top box e altro ancora. Puoi anche segmentare gli attributi che hai acquisito da un sistema CRM o fedeltà. [Generatore di segmenti](/help/components/filters/filter-builder.md) fornisce una semplice interfaccia per generare questi sottoinsiemi e applicare condizioni in contenitori Persona, Sessione o Evento nidificati e gerarchici.
 
-L&#39;architettura del contenitore utilizzata nel generatore di segmenti [&#128279;](/help/components/filters/filter-builder.md) definisce Persona come il contenitore più esterno. Questo contenitore contiene dati generali specifici della persona in più sessioni ed eventi come visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni. Un contenitore Evento nidificato consente di suddividere le informazioni sulla persona in base alle singole interazioni. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
+L&#39;architettura del contenitore utilizzata nel generatore di segmenti [](/help/components/filters/filter-builder.md) definisce Persona come il contenitore più esterno. Questo contenitore contiene dati generali specifici della persona in più sessioni ed eventi come visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni. Un contenitore Evento nidificato consente di suddividere le informazioni sulla persona in base alle singole interazioni. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
 
 ### Contenitore Persona
 
@@ -165,7 +165,7 @@ I contenitori Evento includono raggruppamenti di singole pagine basati su valori
 
 ### contenitori B2B
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Se hai accesso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md), sono disponibili altri contenitori da utilizzare nei segmenti. Ulteriori dettagli sull&#39;utilizzo di questi contenitori aggiuntivi sono disponibili in [Concetti e funzionalità B2B](/help/getting-started/cja-b2b-concepts-features.md).
 

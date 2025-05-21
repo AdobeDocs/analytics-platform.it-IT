@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+source-git-commit: 6bfd54148736d4b3434eac3ee3aa6fc8a838d57a
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1470'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ In Customer Journey Analytics B2B edition è possibile scegliere tra una conness
 
 ## Contenitori
 
-In Customer Journey Analytics i contenitori vengono generati come parte della configurazione di una connessione e di una visualizzazione dati. Nei contenitori vengono memorizzati gruppi di identificatori per facilitare l’esecuzione rapida ed efficiente di funzionalità quali segmentazione, raggruppamenti e altro ancora.
+In Customer Journey Analytics i contenitori vengono generati come parte della configurazione di una connessione e di una visualizzazione dati e forniscono struttura e ambito dei dati. I contenitori memorizzano gruppi di identificatori per sequenziare tutte le marche temporali degli eventi per identificatori univoci. Questo tipo di archiviazione consente di eseguire in modo rapido ed efficiente funzionalità quali segmentazione, attribuzione e visualizzazioni.
 
 ### Contenitori standard
 
@@ -64,6 +64,23 @@ La gerarchia e le relazioni tra i contenitori sono predeterminate. Opportunità,
 >
 >* Se hai **abilitato** il contenitore Account globale in una connessione basata sull&#39;account, ogni record nei set di dati dell&#39;evento deve contenere un ID account e un ID account globale. In caso contrario, il record verrà ignorato.
 >* Se **non è abilitato** il contenitore Account globale in una connessione basata sull&#39;account, ogni record nei set di dati evento deve contenere un ID account. In caso contrario, il record verrà ignorato.
+
+Puoi utilizzare i contenitori B2B per specifiche funzionalità B2B in Analysis Workspace:
+
+* **Segmentazione**: [Contenitori di segmenti B2B](/help/components/filters/filters-overview.md#b2b-containers) ti consentono di creare segmenti con un ambito contenitore oltre a persona, sessione o evento. Ad esempio: un segmento Conti con registrazione eventi o un segmento Conti USA con gruppi di acquisto e opportunità di fase 5.
+
+  >[!NOTE]
+  >
+  >I dati dell’evento B2B in una configurazione basata sull’account in Customer Journey Analytics B2B edition possono contenere righe di dati senza una persona o una sessione. Ad esempio: una riga che descrive la progressione della fase dell’opportunità. Quando valuti il segmento, tieni presente che le persone e le sessioni potrebbero non essere più i criteri giusti.
+  >
+
+* **Attribuzione**: è possibile utilizzare i nuovi contenitori B2B in [pannello attribuzione](/help/analysis-workspace/c-panels/attribution.md), in [impostazioni componente attribuzione](/help/data-views/component-settings/attribution.md), in [metriche calcolate](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) o in [colonne in una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). I lookback degli account vengono estesi a 13 mesi.
+
+* **Visualizzazioni**: [Abbandono](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md), [Area di lavoro Percorsi](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) e [La tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) supporta i nuovi contenitori B2B. Ad esempio: puoi utilizzare i nuovi contenitori per comprendere in che modo i gruppi di acquisto consumano i contenuti o come le coorti di opportunità si spostano verso la chiusura di una vendita.
+Puoi anche impostare il contenitore predefinito per queste visualizzazioni nelle [preferenze utente](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
+
+Segmenti, attribuzione e visualizzazioni insieme ai contenitori B2B ti supportano nelle analisi e nelle informazioni B2B approfondite.
+
 
 ## Set di dati
 
