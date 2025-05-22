@@ -80,9 +80,9 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**&#x200B;per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i tipi di pubblico selezionati. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**per salvare. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**&#x200B;per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**&#x200B;per salvare. |
 
 Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni sono disponibili le azioni seguenti.
 
