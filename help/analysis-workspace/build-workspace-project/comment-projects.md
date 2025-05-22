@@ -108,9 +108,9 @@ La funzione di commento in Analysis Workspace semplifica la collaborazione con a
 
 Quando si utilizza il simbolo @ per includere le persone in un commento, tenere presente quanto segue:
 
-* Le persone incluse ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.png) in Customer Journey Analytics.
+* Le persone incluse ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.png) in Customer Journey Analytics.
 
-  Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+  Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
 
 * Puoi includere in un commento chiunque nell’organizzazione, ma così facendo non concede automaticamente l’accesso al progetto. Solo le persone che hanno già accesso al progetto possono accedervi.
 
