@@ -55,7 +55,7 @@ Esempi di cosa è possibile fare con una [!UICONTROL Cohort table]:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/3430074/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 {{videoaa}}
 

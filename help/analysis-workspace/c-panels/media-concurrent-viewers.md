@@ -55,7 +55,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/328248/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 {{videoaa}}
 
