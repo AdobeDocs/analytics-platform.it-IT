@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.
 
 Le visualizzazioni Abbandono consentono di:
 
-* Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto
+* Eseguire confronti affiancati di due diversi segmenti nello stesso rapporto.
 * Trascinare (e riorganizzare) i passaggi funnel (punti di contatto).
 * Combinare valori da varie dimensioni e metriche.
 * Creare un rapporto di abbandono multidimensionale.
@@ -75,7 +75,7 @@ Le visualizzazioni Abbandono sono più adatte per:
 
 * Analisi dell’abbandono che coinvolge percorsi con una sequenza di pagine predefinita e un singolo punto di ingresso e percorso. Utilizza Area di lavoro percorso per percorsi con più punti di ingresso e percorsi.
 
-* Percorsi in cui è necessario eseguire confronti affiancati di due segmenti diversi nello stesso rapporto.
+* Percorsi in cui hai necessità di eseguire confronti affiancati di due diversi segmenti nello stesso rapporto.
 
 Utilizza [la tabella precedente](#understand-the-differences) per comprendere le differenze tra le visualizzazioni Area di lavoro percorso, Abbandono e Flusso.
 

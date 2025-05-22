@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Comportamento"
->abstract="Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati. Specifica se i valori stringa nel campo devono essere minuscoli."
+>abstract="Determina il modo in cui vengono aggregati gli elementi di riga in questa dimensione. Specifica se i valori stringa nel campo devono essere minuscoli."
 
 <!-- markdownlint-enable MD034 -->
 

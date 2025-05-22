@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-delete"
 >title="Eliminare il connettore di origine di Analytics esistente"
->abstract="Il connettore di origine di Analytics di cui attualmente disponi non è compatibile con lo schema personalizzato della tua organizzazione. Tuttavia, i dati esistono ancora nella suite di rapporti di Analytics. Questo passaggio rimuove il connettore di origine di Analytics corrente in modo da poterlo ricreare utilizzando lo schema corretto in un passaggio successivo.<br><br>Prima di eliminare il connettore di origine, puoi coordinarti con altri utenti della tua organizzazione per assicurarti che la rimozione del connettore di origine non influisca sulla creazione di rapporti all’interno dell’organizzazione. Questa attività di coordinamento potrebbe richiedere diverse settimane."
+>abstract="Il connettore di origine di Analytics di cui disponi attualmente non è compatibile con lo schema personalizzato della tua organizzazione. Tuttavia, i dati esistono ancora nella suite di rapporti di Analytics. Questo passaggio rimuove il connettore di origine di Analytics corrente in modo da poterlo ricreare utilizzando lo schema corretto in un passaggio successivo.<br><br>Prima di eliminare il connettore di origine, puoi coordinarti con altri utenti dell’organizzazione per assicurarti che tale rimozione non influisca sul reporting all’interno della tua organizzazione. Questo coordinamento potrebbe richiedere diverse settimane per essere completato."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-L’utilizzo del connettore di origine di Analytics come unica implementazione per Customer Journey Analytics presenta alcuni svantaggi intrinseci.
+L’utilizzo del connettore di origine di Analytics come unica implementazione per Customer Journey Analytics presenta alcuni svantaggi impliciti.
 
-Se la tua organizzazione ha già effettuato l’aggiornamento a Customer Journey Analytics utilizzando solo l’implementazione del connettore di origine di Analytics, Adobe consiglia di passare a una nuova implementazione del SDK web per la raccolta dati continua e di utilizzare il connettore di origine di Analytics solo per i dati storici.
+Se la tua organizzazione ha già effettuato l’aggiornamento a Customer Journey Analytics utilizzando solo l’implementazione del connettore di origine di Analytics, Adobe consiglia di passare a una nuova implementazione di Web SDK per la raccolta dati continua e di utilizzare il connettore di origine di Analytics solo per i dati storici.
 
 ## Comprendere vantaggi e svantaggi dell’utilizzo esclusivo del connettore di origine di Analytics
 
@@ -54,7 +54,7 @@ Di seguito è riportato il processo di alto livello per la transizione dall’ut
 
 1. Mappa ogni dimensione di Adobe Analytics dal connettore di origine di Analytics alla dimensione nello schema di Web SDK.
 
-   1. &#x200B;
+   1. 
       <!-- how do you get here -->
 
    1. Nella sezione **[!UICONTROL Map standard fields]**, seleziona la scheda **[!UICONTROL Custom]**.

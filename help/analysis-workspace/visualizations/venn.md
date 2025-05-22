@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/en/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**
 
 ![Visualizzazione Venn che include tre segmenti.](assets/venn.png)
 
-Puoi passare il cursore del mouse sui segmenti per ottenere più insight in percentuali e altro ancora.
+Puoi passare il puntatore sui segmenti per ottenere più informazioni approfondite sulle percentuali e altro ancora.
 
 Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], seleziona lo ![StatusOrange](/help/assets/icons/StatusOrange.svg) colorato accanto all’intestazione **[!UICONTROL Venn]**, quindi seleziona **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera di **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
 
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.adobe.com/v/3416883/?quality=12&learn=on&captions=ita){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 >[!ENDSHADEBOX]
 

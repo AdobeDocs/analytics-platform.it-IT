@@ -1,18 +1,18 @@
 ---
-title: Comprendere le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
+title: Informazioni sulle opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
 description: Scopri le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
-# Comprendere le opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics {#web-sdk-implementation-options}
+# Informazioni sulle opzioni di implementazione di Web SDK durante l’aggiornamento a Customer Journey Analytics {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
 >title="Aggiungere la libreria Web SDK al sistema di gestione dei tag di terze parti"
->abstract="Per aggiungere la libreria Web SDK al sito, collabora con l’amministratore sulla gestione dei tag.<br><br>Il tempo di completamento di questa attività dipende in larga misura dalla capacità di risposta del singolo responsabile del sistema di gestione dei tag. L’aggiunta della libreria Web SDK potrebbe essere inclusa nella logica di implementazione associata e distribuita durante i cicli di rilascio standard dell’organizzazione."
+>abstract="Per aggiungere la libreria Web SDK al sito, collabora con l’amministratore del sistema sulla gestione dei tag.<br><br>Il tempo di completamento di questa attività dipende in larga misura dalla capacità di risposta del singolo responsabile del sistema di gestione dei tag. L’aggiunta della libreria Web SDK potrebbe essere inclusa nella logica di implementazione associata e distribuita durante i cicli di rilascio standard dell’organizzazione."
 
 <!-- markdownlint-enable MD034 -->
 

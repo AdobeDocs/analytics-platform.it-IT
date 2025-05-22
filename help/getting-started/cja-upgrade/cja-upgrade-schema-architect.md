@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ L’architettura di base di Customer Journey Analytics offre molta più flessibi
 
 >[!NOTE]
 >
->Le seguenti informazioni non sono ancora complete. Sarà completato nel prossimo futuro.
+>Le seguenti informazioni non sono ancora complete. Saranno completate prossimamente.
 
 | Architettura dati di Adobe Analytics | Architettura dello schema XDM |
 |---------|----------|
@@ -50,10 +50,10 @@ L’architettura di base di Customer Journey Analytics offre molta più flessibi
 
 >[!NOTE]
 >
->Queste informazioni non sono ancora disponibili. Sarà disponibile a breve.
+>Queste informazioni non sono ancora disponibili. Questa funzionalità sarà disponibile a breve.
 
 ## Valutare le altre applicazioni Adobe Experience Platform utilizzate nell’organizzazione
 
 >[!NOTE]
 >
->Queste informazioni non sono ancora disponibili. Sarà disponibile a breve.
+>Queste informazioni non sono ancora disponibili. Questa funzionalità sarà disponibile a breve.

@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -63,8 +63,8 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 * Puoi rapidamente [creare una nuova visualizzazione](../freeform-analysis-visualizations.md#visualize) da una o più righe utilizzando ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg).
 * È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) del progetto.
 * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Seleziona il numero accanto a **[!UICONTROL Rows]** nell’intestazione della prima colonna per visualizzare più righe in una pagina. Passa a una pagina diversa utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg) nell’intestazione della prima colonna.
-* Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e quindi trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](/help/components/dimensions/t-breakdown-fa.md).
-* Le righe possono essere [segmentate](/help/components/filters/filters-overview.md) per mostrare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
+* Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e quindi trascina il componente successivo sopra le righe selezionate. Scopri di più sui [raggruppamenti](/help/components/dimensions/t-breakdown-fa.md).
+* Le righe possono essere [segmentate](/help/components/filters/filters-overview.md) per visualizzare un set ridotto di elementi. Impostazioni aggiuntive sono disponibili in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Colonne
 
@@ -97,7 +97,7 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Insert copied visualization]**&#x200B;n | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
+| **[!UICONTROL Insert copied visualization]**n | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
 | **[!UICONTROL Copy data to clipboard]** | Copia i dati dalla visualizzazione negli appunti. |
 | **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
 | **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |

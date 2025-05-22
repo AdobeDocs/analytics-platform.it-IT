@@ -5,9 +5,9 @@ feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
 source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2129'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Sperimentazione"
->abstract="Confronta diverse varianti di esperienze utente, marketing o messaggistica per determinare quale sia la migliore per determinare un risultato specifico. Specifica l’esperimento, la variante di controllo da confrontare, la metrica di successo e la metrica di normalizzazione. Facoltativamente, imposta il limite superiore e inferiore per l’affidabilità."
+>abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare la variante migliore per raggiungere un risultato specifico. Specifica l’esperimento, la variante di controllo per il confronto, la metrica di successo e la metrica di normalizzazione. Facoltativamente, imposta i limiti superiore e inferiore per l’affidabilità."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Questo articolo descrive il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -105,7 +105,7 @@ Per utilizzare il pannello Sperimentazione:
    | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 3 mesi. |
    | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success metrics]** ➊ | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing metric]** ➋ | Base (**[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]** o **[!UICONTROL Events]**) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come Visualizzazione pagina. |
+   | **[!UICONTROL Normalizing metric]** ➋ | La base (**[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]** o **[!UICONTROL Events]**) sulla quale viene eseguito un test. Ad esempio, un test può mettere a confronto i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come visualizzazione di pagina. |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Abilita questa opzione per mostrare i limiti superiori e inferiori per i livelli di affidabilità. |
 
 

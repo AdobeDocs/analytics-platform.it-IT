@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo. Specifica un componente (metrica, dimensione o elemento) con cui iniziare e con cui terminare. Se necessario, puoi definire impostazioni avanzate per configurare ulteriormente la visualizzazione."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo. Specifica un componente (metrica, dimensione o elemento) per iniziare e terminare. Facoltativamente, puoi definire impostazioni avanzate per configurare ulteriormente la visualizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Con la visualizzazione puoi:
 
 * Visualizzare il percorso del cliente nel sito web o nell’applicazione.
 * Analizzare dove vanno i clienti prima e dopo specifici punti di controllo, ad esempio entrata, una specifica dimensione oppure uscita.
-* Crea segmenti designando un punto specifico nel percorso scelto.
+* Creare segmenti designando un punto specifico nel percorso scelto.
 
 
 >[!BEGINSHADEBOX]

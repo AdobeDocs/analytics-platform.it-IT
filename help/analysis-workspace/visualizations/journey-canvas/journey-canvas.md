@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1988'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="Area di lavoro del percorso"
->abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi o per analizzare percorsi creati in Journey Optimizer."
+>abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Utilizza per percorsi con più punti di ingresso e percorsi effettivi o per analizzare percorsi creati in Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="Area di lavoro del percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi della dimensione e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi di Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti realizzando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="Area di lavoro del percorso"
->abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi o per analizzare percorsi creati in Journey Optimizer."
+>abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Utilizza per percorsi con più punti di ingresso e percorsi effettivi o per analizzare percorsi creati in Journey Optimizer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,19 +45,19 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="Area di lavoro del percorso"
->abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti creando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi della dimensione e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi di Journey Optimizer esistenti."
+>abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti realizzando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza. <br/><br/>La clientela con accesso ad Adobe Journey Optimizer può analizzare i percorsi Journey Optimizer esistenti."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
+_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
 La visualizzazione dell’area di lavoro del percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti agli utenti e alla clientela. Consente di definire un percorso da zero o di visualizzarne uno da Journey Optimizer, quindi di vedere in che modo le persone hanno lasciato (abbandonato) o continuato (proseguito) il percorso.
 
-Puoi [generare analisi di percorsi di utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, segmenti e intervalli di date per creare nodi di percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti di decisione. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti le modifiche.
+Puoi [creare analisi dei percorsi degli utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, segmenti e intervalli di date per creare i nodi del percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti di decisione. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti le modifiche.
 
 [I nodi sono connessi](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come un “percorso finale”, il che significa che i visitatori vengono conteggiati finché si spostano da un nodo all’altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dalle impostazioni del contenitore.
 
@@ -170,7 +170,7 @@ L’Area di lavoro del percorso fornisce un’analisi approfondita e completa ch
 
 L’utilizzo dell’Area di lavoro del percorso per analizzare i percorsi creati in Journey Optimizer offre diversi vantaggi:
 
-* Crea eventi utilizzando qualsiasi dimensione, metrica, segmento o intervallo di date di Customer Journey Analytics.
+* Creare eventi utilizzando qualsiasi dimensione, metrica, segmento o intervallo di date di Customer Journey Analytics.
 
   In Journey Optimizer, un utente tecnico deve creare un evento prima di poterlo aggiungere a un percorso.
 
@@ -192,21 +192,21 @@ L’utilizzo dell’Area di lavoro del percorso per analizzare i percorsi creati
 
 ### Sincronizzazione tra Journey Optimizer e Area di lavoro del percorso
 
-Per comprendere la sincronizzazione tra Journey Optimizer e l’area di lavoro del Percorso, considera i seguenti comportamenti:
+Per comprendere la sincronizzazione tra Journey Optimizer e l’area di lavoro del percorso, considera i seguenti comportamenti:
 
 * **La sincronizzazione dei dati è unidirezionale**
 
   Dopo aver creato un’analisi di un percorso Journey Optimizer nell’Area di lavoro del percorso, i dati vengono sincronizzati in una sola direzione, da Journey Optimizer all’Area di lavoro del percorso. Ciò significa che le modifiche apportate a un percorso nell’Area di lavoro del percorso non vengono mai riflesse in Journey Optimizer.
 
-* **La modifica di un percorso nell&#39;area di lavoro del Percorso interrompe la sincronizzazione**
+* **La modifica di un percorso nell’area di lavoro del percorso interrompe la sincronizzazione**
 
-  Le modifiche apportate a un percorso in Journey Optimizer vengono sincronizzate con l&#39;area di lavoro del Percorso [solo se il percorso non è stato modificato in modo significativo nell&#39;area di lavoro del Percorso](#differences-after-modifying-a-journey-in-journey-canvas). Dopo aver modificato un percorso nell’Area di lavoro del percorso, tutte le modifiche apportate al percorso in Journey Optimizer non vengono riportate nell’Area di lavoro del percorso. Per visualizzare le modifiche riflesse nell’Area di lavoro del percorso, puoi eliminare e [ricreare il percorso nell’Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+  Le modifiche apportate a un percorso in Journey Optimizer vengono sincronizzate con l’area di lavoro del percorso [solo se il percorso non è stato modificato in modo significativo nell’area di lavoro del percorso](#differences-after-modifying-a-journey-in-journey-canvas). Dopo aver modificato un percorso nell’Area di lavoro del percorso, tutte le modifiche apportate al percorso in Journey Optimizer non vengono riportate nell’Area di lavoro del percorso. Per visualizzare le modifiche riflesse nell’Area di lavoro del percorso, puoi eliminare e [ricreare il percorso nell’Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-* **L&#39;utilizzo di un collegamento &quot;Condividi con chiunque&quot; richiede che il progetto venga salvato in Customer Journey Analytics dopo le modifiche apportate in Journey Optimizer**
+* **Per poter utilizzare un collegamento “Condividi con chiunque”, dopo che si apportano modifiche in Journey Optimizer il progetto deve essere salvato in Customer Journey Analytics.**
 
-  Quando si utilizza un collegamento &quot;Condividi con qualcuno&quot;, le modifiche apportate in Journey Optimizer non vengono riportate nell’area di lavoro del Percorso fino a quando il progetto non viene salvato in Customer Journey Analytics.
+  Quando si utilizza un collegamento “Condividi con chiunque”, le modifiche apportate in Journey Optimizer non vengono riportate nell’area di lavoro del percorso fino a quando il progetto non viene salvato in Customer Journey Analytics.
 
-  Per ulteriori informazioni sui collegamenti &quot;Condividi con chiunque&quot;, vedi [Condividi un progetto con qualcuno (non è più necessario)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md).
+  Per ulteriori informazioni sui collegamenti “Condividi con chiunque”, consulta [Condividi un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ### Differenze dopo la modifica di un percorso nell’Area di lavoro del percorso {#differences-after-modifying}
 
@@ -234,7 +234,7 @@ Questo perché, a differenza di Journey Optimizer, l’Area di lavoro del percor
 
 #### Differenze nelle funzioni
 
-Dopo aver modificato un percorso Journey Optimizer nell&#39;area di lavoro del Percorso, le opzioni disponibili nel campo a discesa [!UICONTROL **Impostazioni freccia**] variano a seconda delle modifiche apportate. Per ulteriori informazioni, consulta [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Dopo aver modificato un percorso Journey Optimizer nell’area di lavoro del percorso, le opzioni disponibili nel campo a discesa [!UICONTROL **Impostazioni freccia**] variano a seconda delle modifiche che hai apportato. Per ulteriori informazioni, consulta [Configurare le impostazioni](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 Il campo [!UICONTROL **Tipo di nodo**] è disponibile solo in Journey Optimizer. Non è disponibile quando visualizzi un percorso Journey Optimizer nell’Area di lavoro del percorso, indipendentemente dal fatto che tu apporti modifiche al percorso nell’Area di lavoro del percorso.
 
@@ -263,5 +263,5 @@ Puoi generare analisi nell’Area di lavoro del percorso basate su qualsiasi dim
 
 >[!MORELIKETHIS]
 >
-> * [Guida alla visualizzazione Area di lavoro Percorsi in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

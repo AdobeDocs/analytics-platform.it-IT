@@ -6,9 +6,9 @@ feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
 source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Le annotazioni possono essere applicate a:
 
 * Una singola data o un intervallo di date.
 
-* L’intero set di dati o metriche, dimensioni o segmenti specifici.
+* L’intero set di dati o metriche, dimensioni o segmenti specifici personali.
 
 * Il progetto in cui vengono create le annotazioni (impostazione predefinita) o tutti i progetti.
 

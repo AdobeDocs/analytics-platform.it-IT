@@ -6,9 +6,9 @@ title: Come utilizzare i tasti di scelta rapida di Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la 
 
 Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
-- **⌘** per **[!UICONTROL **&#x200B; Cmd &#x200B;**]** (comando).
-- **⌃** per **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (controllo).
-- **⌥** per **[!UICONTROL **&#x200B; Opt &#x200B;**]** (opzione).
-- **⎇** per **[!UICONTROL **&#x200B; Alt &#x200B;**]** (alternativo).
+- **⇧** per **[!UICONTROL ** Maiusc **]**.
+- **⌘** per **[!UICONTROL ** Cmd **]** (comando).
+- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** Opt **]** (opzione).
+- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 
@@ -46,7 +46,7 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 | Crea un avviso | **[!UICONTROL *Comando+Maiusc+a *]** | **[!UICONTROL *Ctrl+Maiusc+a *]** |
 | Crea una metrica calcolata | **[!UICONTROL *Comando+Maiusc+c *]** | **[!UICONTROL *Ctrl+Maiusc+c *]** |
 | Crea un intervallo di date | **[!UICONTROL *Comando+Maiusc+d *]** | **[!UICONTROL *Ctrl+Maiusc+d *]** |
-| Creare un segmento | **[!UICONTROL *Comando+Maiusc+e *]** | **[!UICONTROL *Ctrl+Maiusc+e *]** |
+| Crea un segmento | **[!UICONTROL *Comando+Maiusc+e *]** | **[!UICONTROL *Ctrl+Maiusc+e *]** |
 | Cancella tutto | **[!UICONTROL *Alt+w *]** | **[!UICONTROL *Opzione+w *]** |
 | Copia | **[!UICONTROL *Comando+c *]** | **[!UICONTROL *Ctrl+c *]** |
 | Ripristina | **[!UICONTROL *Comando+Maiusc+z *]** | **[!UICONTROL *Ctrl+Maiusc+z *]** |

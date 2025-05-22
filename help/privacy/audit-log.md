@@ -5,9 +5,9 @@ exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
 source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Vengono visualizzati i seguenti elementi:
    * CREATE: è stata eseguita un’azione “crea”.
    * DELETE: è stata eseguita un’azione “elimina”.
    * EDIT: è stata eseguita un’azione di “modifica”.
-   * EMBARGO: quando si limita una richiesta in [Reporting Activity Manager](https://experienceleague.adobe.com/it/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), l&#39;azione viene registrata nel Registro di controllo in EMBARGO.
+   * EMBARGO: quando viene limitata una richiesta in [Reporting Activity Manager](https://experienceleague.adobe.com/it/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), l’azione viene registrata nel Registro di controllo in EMBARGO.
    * EXPORT: è stata eseguita un’azione di “esportazione”.
    * ORG_CHANGE: è stata eseguita un’azione di modifica dell’organizzazione.
    * REFRESH: è stata eseguita un’azione di “aggiornamento”.
