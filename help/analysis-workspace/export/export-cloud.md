@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
+source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
 workflow-type: tm+mt
-source-wordcount: '2284'
-ht-degree: 98%
+source-wordcount: '2340'
+ht-degree: 95%
 
 ---
 
@@ -156,9 +156,9 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 * Righe statiche
 * Allineamento data
 * Metriche da set di dati di riepilogo
-* Dimensioni dinamiche
+* Elementi dimensionali dinamici
 
-  Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+  Gli elementi dimensionali dinamici vengono creati quando rilasci una dimensione su un’intestazione di colonna in una tabella a forma libera, in modo che la colonna venga filtrata dinamicamente in base ai primi 5 elementi dimensionali. In Analysis Workspace, questi primi 5 elementi dimensionali vengono aggiornati ogni volta che carichi il progetto. In un’esportazione di tabelle complete, questi elementi dimensionali diventano statici. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 * Le dimensioni nel primo raggruppamento sono convertite e aggiunte come dimensione secondaria nella riga della tabella esportata; eventuali altri raggruppamenti non sono inclusi nella tabella
 * L’ordinamento non è supportato per la maggior parte dei set di dati; i dati potrebbero essere ordinati per set di dati di piccole dimensioni
 
