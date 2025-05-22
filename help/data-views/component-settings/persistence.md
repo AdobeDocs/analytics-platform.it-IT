@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 74%
+ht-degree: 95%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 74%
 
 
 
-[!UICONTROL Persistence] è la capacità di un dato valore di dimensione di attribuire a una metrica oltre l&#39;evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
+[!UICONTROL Persistence] è la capacità di un dato valore di dimensione di essere attribuito a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 
 ![Finestra Visualizzazioni dati che evidenzia le opzioni di persistenza](../assets/persistence.png)
 
-* **Allocazione** consente di determinare quale valore mantenere quando più elementi dimensionali possono persistere alla volta in una singola colonna.
+* L’**allocazione** consente di determinare quale valore viene mantenuto quando più elementi dimensionali possono persistere alla volta in una singola colonna.
 
   >[!NOTE]
   >
@@ -45,8 +45,8 @@ ht-degree: 74%
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Set persistence] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
-| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Most recent]**: i valori nella dimensione persistono finché non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Original]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL All]**: tutti i valori per questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL First known]**: viene utilizzato il primo valore per questa dimensione che verrà applicato a tutti gli eventi prima e dopo.</li><li>**[!UICONTROL Last known]**: viene utilizzato l&#39;ultimo valore per questa dimensione, che verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
-| [!UICONTROL Expiration] | Consente di specificare la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Session]** (predefinito)</li><li>**[!UICONTROL Person]**</li><li>**[!UICONTROL Custom Time]**</li><li>**[!UICONTROL Metric]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
+| [!UICONTROL Allocation] | Consente di specificare il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Most recent]**: i valori nella dimensione persistono finché non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Original]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL All]**: tutti i valori per questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL First known]**: viene utilizzato il primo valore per questa dimensione e verrà applicato a tutti gli eventi precedenti e successivi.</li><li>**[!UICONTROL Last known]**: viene utilizzato l’ultimo valore per questa dimensione e verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
+| [!UICONTROL Expiration] | Consente di specificare l’intervallo di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Session]** (predefinito)</li><li>**[!UICONTROL Person]**</li><li>**[!UICONTROL Custom Time]**</li><li>**[!UICONTROL Metric]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo massimo di scadenza che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
 
 {style="table-layout:auto"}
 
@@ -90,11 +90,11 @@ Dettagli sulle impostazioni di allocazione disponibili.
 Dettagli sulle impostazioni di scadenza disponibili.
 
 * **Sessione**: scade dopo una determinata sessione. Finestra di scadenza predefinita.
-* **Finestra di reporting per persona**: scade alla fine dell&#39;intervallo di reporting.
-* **Finestra di reporting account globale** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
-* **Finestra di reporting account** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
-* **Finestra di reporting opportunità** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
-* **Finestra di reporting per gruppi di acquisto** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: scade alla fine dell&#39;intervallo di reporting.
+* **Intervallo di reporting Persona**: scade alla fine dell’intervallo di reporting.
+* **Intervallo di reporting Account globale** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: scade alla fine dell’intervallo di reporting.
+* **Intervallo di reporting Account** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: scade alla fine dell’intervallo di reporting.
+* **Intervallo di reporting Opportunità** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: scade alla fine dell’intervallo di reporting.
+* **Intervallo di reporting Gruppo acquisti** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}: scade alla fine dell’intervallo di reporting.
 * **Orario personalizzato**: scade dopo un determinato periodo di tempo (fino a 90 giorni). Questa opzione di scadenza è disponibile solo per i modelli di allocazione Originale e Più recente. Quando si utilizza una scadenza basata sul tempo, vengono considerati i valori precedenti all’inizio dell’intervallo di reporting (fino a 90 giorni).
 * **Metrica**: quando questa metrica viene visualizzata in un evento, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
 
@@ -108,7 +108,7 @@ Per esempi su come utilizzare in modo efficace le dimensioni di binding, consult
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/3409293/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

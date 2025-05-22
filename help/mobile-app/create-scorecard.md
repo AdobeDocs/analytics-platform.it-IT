@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3409730?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ In qualità di curatore di questa scorecard, puoi usare il generatore di scoreca
 
 Per creare la scorecard, dovrai effettuare le seguenti operazioni:
 
-1. Accedere al modello [!UICONTROL Blank mobile scorecard] in Workspace.
+1. Accedi al modello [!UICONTROL Blank mobile scorecard] in Workspace.
 2. Configura la scorecard con i dati e salvala.
 
 ## Accedi al modello [!UICONTROL Blank Mobile Scorecard] {#template}
@@ -58,7 +58,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 ### Creare un nuovo progetto {#create}
 
 1. Apri Customer Journey Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
-1. Nella barra a sinistra, fai clic su **[!UICONTROL Projects]**.
+1. Nella barra a sinistra fai clic su **[!UICONTROL Projects]**.
 1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -96,9 +96,9 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare segmenti alle singole sezioni, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla sezione.
 
-Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. In alternativa, puoi anche applicare i segmenti selezionandoli nel menu dei segmenti sotto gli intervalli di date. [configura e applica segmenti per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si configura in Customer Journey Analytics Workspace.
+Se vuoi applicare il segmento a tutte le sezioni della scorecard, rilascia la sezione sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu dei segmenti sotto gli intervalli di date. Puoi [configurare e applicare i segmenti per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui lo faresti in Customer Journey Analytics Workspace.
 
-![Selettore a discesa dei segmenti che evidenzia i segmenti di build](assets/segment_ui.png)
+![Selettore a discesa dei segmenti che evidenzia la creazione di segmenti](assets/segment_ui.png)
 
 ## Aggiungere intervalli di date {#dates}
 
@@ -212,7 +212,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3413788?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -242,7 +242,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi rimuovilo facendo clic sulla **x** che compare quando passi il cursore sul componente, come mostrato di seguito per **Nuovi visitatori**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi fai clic sulla **x** che compare quando passi il puntatore sul componente, come mostrato di seguito per **Nuovi visitatori**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3420561/?quality=12&learn=on&captions=ita){target="_blank"} .
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} .
 
 {{videoaa}}
 
@@ -273,7 +273,7 @@ Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una se
    ![Creare una presentazione di dati](assets/data-story1.png)
    ![Creare icone della presentazione di dati](assets/create-data-story.png){width=".50%"}
 1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
-Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
+Per aggiungere nuove diapositive, passa il puntatore oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
    * Tocca il segno + per creare una nuova diapositiva.
    * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
@@ -282,7 +282,7 @@ Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. È possibile personalizzare sezioni e singole diapositive per aggiungere segmenti, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere segmenti, mostrare raggruppamenti, modificare il layout e cambiare le visualizzazioni.
 
 **Personalizzazione delle sezioni**
 

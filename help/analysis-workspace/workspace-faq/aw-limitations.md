@@ -7,7 +7,7 @@ role: User
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -24,14 +24,14 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Visualizzazioni
 
-* Le visualizzazioni che sfruttano segmenti quali [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram] non possono accettare metriche calcolate come input.
+* Le visualizzazioni che sfruttano i segmenti, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare le metriche calcolate come input.
 * [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
 * [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Segmenti
 
-* Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Events], [!UICONTROL Persons] e così via.
-* I segmenti ad hoc creati nella zona di rilascio [pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di segmento rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o nel Gestore segmenti, a meno che non vengano resi pubblici. Per ulteriori informazioni, consultare [Segmenti rapidi](/help/components/filters/quick-filters.md).
+* Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Events], [!UICONTROL Persons], ecc.
+* I segmenti ad hoc creati nella [zona di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di segmento rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o nel Gestore segmenti, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/filters/quick-filters.md).
 
 ## Metriche calcolate 
 

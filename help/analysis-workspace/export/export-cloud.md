@@ -8,7 +8,7 @@ role: User
 source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
 workflow-type: tm+mt
 source-wordcount: '2284'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 * Filtro di ricerca
 * Righe statiche
 * Allineamento data
-* Metriche dai set di dati di riepilogo
+* Metriche da set di dati di riepilogo
 * Dimensioni dinamiche
 
   Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).

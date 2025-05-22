@@ -1,13 +1,13 @@
 ---
 title: Panoramica delle metriche calcolate
-description: Scopri le metriche segmentate derivate in fase di esecuzione dei rapporti.
+description: Scopri le metriche segmentate che vengono derivate al momento dell’esecuzione dei rapporti.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
 source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Le metriche calcolate sono metriche personalizzate che puoi creare dalle metrich
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/35866/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

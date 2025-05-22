@@ -8,17 +8,17 @@ exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '854'
-ht-degree: 44%
+ht-degree: 91%
 
 ---
 
 # Panoramica di Content Analytics
 
-Content Analytics aiuta i marketer a comprendere in che modo i contenuti influiscono sugli indicatori di prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie dati sul modo in cui i contenuti vengono utilizzati e sul loro impatto sulle varie unità. Ad esempio, i clienti rispondono meglio a un tono di voce specifico, a una palette di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso della clientela in Customer Journey Analytics.
+Content Analytics aiuta i marketer a comprendere in che modo i contenuti influiscono sugli indicatori di prestazioni chiave definiti da un’azienda. Oltre ai dati comportamentali, Content Analytics raccoglie i dati sul modo in cui il contenuto viene utilizzato e su come genera un impatto. Ad esempio, la clientela reagisce meglio a un tono di voce specifico, a una paletta di colori specifica o a temi specifici? Queste informazioni, insieme a flussi di lavoro e modelli di reporting appositamente progettati, possono aiutarti a eseguire analisi ancora migliori e ottenere informazioni più approfondite sui dati del percorso della clientela in Customer Journey Analytics.
 
 Content Analytics utilizza un **servizio di funzionalità** basato sull’IA e sul Machine learning per suddividere il contenuto in componenti e attributi. Creando un profilo di metadati strutturati su tutti i contenuti, puoi analizzare quali contenuti e quali attributi di tali contenuti determinano i risultati aziendali.
 
-Oltre alla creazione di questo profilo di metadati strutturati, Content Analytics fornisce un **servizio Identity** che identifica risorse ed esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando esattamente la stessa risorsa viene visualizzata in più posizioni. In questo caso, le istanze di questa risorsa vengono trattate come la stessa risorsa, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
+Oltre alla creazione di questo profilo di metadati strutturati, Content Analytics fornisce un **servizio Identity** che identifica risorse ed esperienze utilizzando un singolo identificatore. Il servizio Identity è in grado di riconoscere quando esattamente la stessa risorsa viene visualizzata in più posizioni. In questo caso, le due istanze di questa risorsa vengono trattate come se fossero la stessa risorsa, consentendo una visualizzazione più olistica dell’utilizzo e del consumo dei contenuti.
 
 ## Valore
 
@@ -35,8 +35,8 @@ Content Analytics utilizza i seguenti termini chiave:
 
 ![Risorse ed esperienze](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **Esperienza**: un&#39;esperienza è tutto il testo in una pagina Web riproducibile utilizzando l&#39;URL utilizzato dall&#39;utente iniziale che ha visitato la pagina Web. A ogni esperienza viene assegnato un identificatore univoco. Le modifiche apportate alla pagina, che comportano modifiche al HTML della pagina, generano una nuova esperienza.
-* **Risorsa**: una risorsa è un contenuto singolo e univoco, come un’immagine. A ogni risorsa viene inoltre assegnato un identificatore univoco e un ID percettivo. Un ID percettivo è un identificatore condiviso con risorse visivamente identiche. Gli ID percettivi aiutano a deduplicare le risorse che possono avere un URL risorsa diverso e quindi un ID risorsa diverso, ma che sono percepitamente identici.
+* **Esperienza**: un’esperienza è tutto il testo di una pagina web riproducibile con l’URL utilizzato dall’utente iniziale che visita quella pagina web. A ogni esperienza viene assegnato un identificatore univoco. Le modifiche apportate alla pagina, che comportano modifiche al codice HTML della pagina, generano una nuova esperienza.
+* **Risorsa**: una risorsa è un contenuto singolo e univoco, come ad esempio un’immagine. A ogni risorsa viene inoltre assegnato un identificatore univoco e un ID percettivo. Un ID percettivo è un identificatore condiviso con risorse visivamente identiche. Gli ID percettivi aiutano a deduplicare le risorse che possono avere un URL della risorsa diverso e quindi un diverso ID risorsa, ma che sono percettivamente identici.
 * **Attributo**: un attributo è un elemento di metadati descrittivo associato a un’esperienza o a una risorsa. Gli esempi di un attributo sono: stile della fotografia, leggibilità, strategia di persuasione, colore dell’oggetto, colore di sfondo.
 
 ## Come funziona
@@ -46,21 +46,21 @@ Content Analytics utilizza i dati di visualizzazione dell&#39;immagine Web nei s
 ![Content Analytics: come funziona](assets/aca-overview.gif)
 
 1. Quando un utente visita un sito, [configurato per Content Analytics](config/configuration.md), Experience Platform Web SDK registra le impression e le interazioni con il contenuto.
-1. Il servizio Identity e Feature elabora queste interazioni. Tale processo consiste in un servizio di recupero che rivede le versioni pubbliche degli URL configurati che definiscono le interazioni. Per tutti questi URL recuperati, il servizio Identity identifica in modo univoco le esperienze e le risorse. Inoltre, il servizio di funzionalità applica i servizi AI/ML per individuare esperienze, risorse, metadati e attributi.
-1. I risultati di questi servizi ([componenti, attributi e identità](/help/content-analytics/report/components.md)) vengono utilizzati per aggiornare i set di dati di analisi del contenuto pertinenti in Experience Platform.
-1. I dati di analisi dei contenuti, insieme ai dati comportamentali e ad altri dati di ricerca, possono essere utilizzati in una configurazione di Customer Journey Analytics ([Connessione](/help/connections/overview.md), [Visualizzazione dati](/help/data-views/data-views.md) e [Workspace](/help/analysis-workspace/home.md)). Tale configurazione fornisce le basi per ottenere informazioni esclusive a livello di macro sul contenuto. <br/>Puoi avviare i tuoi report e l&#39;analisi di Content Analytics utilizzando [il modello Content Analytics](/help/content-analytics/report/report.md#template).
+1. Il servizio di identità e funzionalità elabora queste interazioni. Tale processo consiste in un servizio di recupero che rivede le versioni pubbliche degli URL configurati che definiscono le interazioni. Per tutti questi URL recuperati, il servizio di identità identifica in modo univoco le esperienze e le risorse. Inoltre, il servizio di funzionalità applica i servizi IA/ML per individuare i metadati e gli attributi delle esperienze e delle risorse.
+1. I risultati di questi servizi ([componenti, attributi e identità](/help/content-analytics/report/components.md)) vengono utilizzati per aggiornare i set di dati di analisi dei contenuti specifici e pertinenti in Experience Platform.
+1. I dati di analisi dei contenuti, insieme ai dati comportamentali e ad altri dati di ricerca, possono quindi essere utilizzati in una configurazione Customer Journey Analytics ([Connessione](/help/connections/overview.md), [Visualizzazione dati](/help/data-views/data-views.md) e [Workspace](/help/analysis-workspace/home.md)). Tale configurazione fornisce le basi per ottenere informazioni uniche a un livello macro sul contenuto. <br/>Puoi avviare i rapporti e l’analisi di Content Analytics utilizzando il [modello Content Analytics](/help/content-analytics/report/report.md#template).
 
 
 >[!NOTE]
 >
->Content Analytics sfrutta i servizi AI/ML che possono produrre risultati imprecisi o fuorvianti. Di conseguenza, utilizza il tuo giudizio per rivedere e convalidare gli output generati da IA/ML.
+>Content Analytics sfrutta i servizi IA/ML che possono produrre risultati imprecisi o fuorvianti. Di conseguenza, utilizza il tuo giudizio per rivedere e convalidare gli output generati da IA/ML.
 >
->Puoi utilizzare la scheda **[!UICONTROL Feedback]**, disponibile in ![InfoOutline](/help/assets/icons/InfoOutline.svg) nell&#39;interfaccia principale, per fornire feedback sugli output generati da IA/ML.
+>Puoi utilizzare la scheda **[!UICONTROL Feedback]**, disponibile in ![InfoOutline](/help/assets/icons/InfoOutline.svg) nell’interfaccia principale, per fornire feedback sugli output generati da IA/ML.
 >
 
 >[!NOTE]
 >
->Se hai concesso la licenza per il componente aggiuntivo Privacy and Security Shield, tieni presente che (tutti i dati generati da) esperienze e risorse, soggette a Content Analytics, non sono coperti dall’etichettatura DULE o dalle chiavi gestite dal cliente.
+>Se disponi di una licenza per il componente aggiuntivo Privacy and Security Shield, tieni presente che (tutti i dati generati da) esperienze e risorse, soggette a Content Analytics, non sono rientrano nell’etichettatura DULE, né nelle chiavi gestite dal cliente.
 >
 
 >[!NOTE]

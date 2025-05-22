@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ I tipi di pubblico creati in Customer Journey Analytics non devono necessariamen
 
 **Pubblico**: un insieme o un elenco di identità con uno spazio dei nomi e un ID specifico correlati a tale spazio dei nomi. I tipi di pubblico sono trasportabili da Adobe Experience Platform e dalle applicazioni che lo compongono (come Customer Journey Analytics). I tipi di pubblico possono contenere spazi dei nomi misti.
 
-**Segmento**: un insieme di regole che, se valutate in un insieme di dati per un periodo di tempo, produce un sottoinsieme di dati. Un segmento può essere utilizzato nel processo di creazione di un pubblico quando è associato ad altri servizi di supporto. I segmenti vengono definiti e mantenuti in Customer Journey Analytics.
+**Segmento**: un set di regole che, se valutate su un insieme di dati per un periodo di tempo, crea un sottoinsieme di dati. Un segmento può essere utilizzato nel processo di creazione di un pubblico quando è unito ad altri servizi di supporto. I filtri sono definiti e mantenuti in Customer Journey Analytics.
 
 ## Autorizzazioni
 

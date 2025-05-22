@@ -7,7 +7,7 @@ role: User
 source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Sono disponibili vari metodi per filtrare le righe da una tabella a forma libera
 
 - Escludere righe specifiche da una tabella
 - Applicare filtri a una tabella
-- Utilizzare i segmenti di pubblico
+- Utilizzare segmenti di pubblico
 
 Assicurati di leggere in che misura ogni metodo influisce sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -45,7 +45,7 @@ Puoi escludere rapidamente righe specifiche dalla tabella senza dover utilizzare
 
 Per escludere righe specifiche da una tabella a forma libera:
 
-1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona ![Chiudi](/help/assets/icons/Close.svg).
+1. Passa il puntatore sulla riga da escludere, quindi seleziona ![Chiudi](/help/assets/icons/Close.svg).
 
    Tieni premuto il tasto ***Maiusc*** per selezionare un intervallo di righe oppure il tasto ***Cmd*** (in Mac) o il tasto ***Ctrl*** (in Windows) per selezionare più righe.
 
@@ -94,7 +94,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. Seleziona **[!UICONTROL Apply]** per filtrare i dati. Seleziona **[!UICONTROL Clear]** per cancellare l’intero input. Seleziona **[!UICONTROL Cancel]** per annullare e chiudere la finestra di dialogo. <br/>Un’icona ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** colorata indica e visualizza i dettagli quando viene applicato un filtro alla tabella.
 
-### Utilizzare i segmenti di pubblico
+### Utilizzare segmenti di pubblico
 
 Per ulteriori dettagli, consulta [Panoramica sulla segmentazione](/help/components/filters/filters-overview.md).
 

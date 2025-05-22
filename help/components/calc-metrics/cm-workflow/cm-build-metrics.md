@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 63%
+source-wordcount: '1534'
+ht-degree: 95%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 63%
 
 <!-- markdownlint-enable MD034 -->
 
-Customer Journey Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o complesse.
+Customer Journey Analytics fornisce un’area di lavoro in cui trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate basate su logica gerarchica, regole e operatori del contenitore. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o complesse.
 
-## Inizio della creazione di una metrica calcolata
+## Iniziare a generare una metrica calcolata
 
-Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, è possibile creare rapidamente una metrica calcolata disponibile solo per il progetto in cui è stata creata, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/components/apply-create-metrics.md).
+Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, è possibile creare rapidamente una metrica calcolata disponibile solo per il progetto in cui è stata creata, nel modo descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/components/apply-create-metrics.md).
 
-Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata disponibile nell’elenco dei componenti.
+Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata che sarà disponibile nell’elenco dei componenti.
 
 1. Accedi al generatore di metriche calcolate in uno dei seguenti modi:
 
    * In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
-   * In Analysis Workspace, apri un progetto, quindi seleziona l&#39;icona **Plus** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
-   * In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
+   * In Analysis Workspace, apri un progetto, quindi seleziona l’icona **Più** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
+   * In [!DNL Customer Journey Analytics], passa a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
 
 1. Continua con [Aree del generatore di metriche calcolate](#areas-of-the-calculated-metrics-builder).
 
@@ -68,13 +68,13 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
    | Elemento | Descrizione |
    | --- | --- |
    | **[!UICONTROL Data view]** | Puoi selezionare la visualizzazione dati per la metrica calcolata.  La metrica calcolata definita è disponibile nei progetti Workspace in base alla visualizzazione dati selezionata. |
-   | **[!UICONTROL Project-only metric]** | Nella parte superiore di questa finestra di dialogo viene visualizzata una casella di informazioni quando si modifica una metrica calcolata creata per un singolo progetto, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Se si desidera rendere disponibile questa metrica calcolata per tutti i progetti, selezionare l&#39;opzione **[!UICONTROL Make this metric available to all your projects and add it to your component list]**.</p> |
+   | **[!UICONTROL Project-only metric]** | Nella parte superiore di questa finestra di dialogo, quando modifichi una metrica calcolata per un singolo progetto, viene visualizzata una casella di informazioni, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Se desideri rendere disponibile questa metrica calcolata per tutti i progetti, seleziona l’opzione **[!UICONTROL Make this metric available to all your projects and add it to your component list]**.</p> |
    | **[!UICONTROL Title]** ![Obbligatorio](/help/assets/icons/Required.svg) | Assegna un nome alla metrica calcolata, ad esempio `Conversion Rate`. |
    | **[!UICONTROL External ID]** ![Obbligatorio](/help/assets/icons/Required.svg) | Il nome della metrica calcolata quando si utilizza uno strumento BI esterno e l’estensione BI. Il valore viene automaticamente definito come `undefined_xxx` a meno che non venga ignorato. |
-   | **[!UICONTROL Description]** | Fornire una descrizione per il segmento, ad esempio `Calculated metric to define the conversion rate.` Non è necessario descrivere la formula per la metrica calcolata in quanto la formula è già disponibile automaticamente in [!UICONTROL Summary]. |
+   | **[!UICONTROL Description]** | Fornisci una descrizione per il segmento, ad esempio `Calculated metric to define the conversion rate.` Non è necessario descrivere la formula per la metrica calcolata in quanto la formula è già disponibile automaticamente in [!UICONTROL Summary]. |
    | **[!UICONTROL Format]** | Seleziona un formato per la metrica calcolata: puoi selezionare tra **[!UICONTROL Decimal]**, **[!UICONTROL Time]**, **[!UICONTROL Percent]** e **[!UICONTROL Currency]**. |
    | **[!UICONTROL Decimal places]** | Specifica il numero di posizioni decimali per il formato selezionato. La scelta è possibile solo se il formato selezionato è Decimale, Valuta e Percentuale. |
-   | **[!UICONTROL Show upward trend as]** | Specifica se una tendenza verso l’alto della metrica calcolata viene visualizzata come ▲ **[!UICONTROL Good (Green)]** o come ▼ **[!UICONTROL Bad (Red)]**. |
+   | **[!UICONTROL Show upward trend as]** | Specificare se una tendenza verso l&#39;alto della metrica calcolata viene visualizzata come ▲ **[!UICONTROL Good (Green)]** o come ▼ **[!UICONTROL Bad (Red)]**. |
    | **[!UICONTROL Currency]** | Specifica la valuta della metrica calcolata. La scelta è possibile solo se il formato selezionato è Valuta. |
    | **[!UICONTROL Tags]** | Organizza la metrica calcolata creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
    | **[!UICONTROL Preview]** | L’anteprima copre gli ultimi 90 giorni ed è un modo per verificare se la metrica è stata definita correttamente. |
@@ -95,7 +95,7 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
 
 ## Generatore di definizioni
 
-Utilizza il Generatore di definizioni per trascinare e rilasciare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica gerarchica dei contenitori, alle regole e agli operatori. In questa costruzione puoi utilizzare metriche standard, metriche definite da Adobe, metriche calcolate, segmenti, dimensioni e funzioni. Tutti questi componenti sono disponibili accedendo al pannello dei componenti del generatore di metriche calcolate. Puoi inoltre inserire operatori e contenitori nella definizione.
+Il Generatore di definizioni consente di trascinare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate basate su logica gerarchica, regole e operatori del contenitore. In tale struttura, puoi utilizzare metriche standard, metriche definite da Adobe, metriche calcolate, segmenti, dimensioni e funzioni. Tutti questi componenti sono disponibili accedendo al pannello dei componenti del generatore di metriche calcolate. Puoi inoltre inserire operatori e contenitori nella definizione.
 
 ![Creare una metrica calcolata](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
@@ -151,34 +151,34 @@ Puoi aggiungere dimensioni, segmenti e funzioni come contenitori a una definizio
 
 #### Contenitore di segmenti
 
-Utilizza il concetto di contenitore di segmenti per creare una [metrica segmentata](metrics-with-segments.md). Puoi creare un contenitore di segmenti utilizzando un segmento o un segmento creato da una dimensione.
+Utilizza il concetto di un contenitore di segmenti per creare una [metrica segmentata](metrics-with-segments.md). Puoi creare un contenitore di segmenti utilizzando un segmento o un segmento creato da una dimensione.
 
 * Per aggiungere un contenitore di segmenti da una dimensione:
 
    1. Trascina un componente ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
    1. Nel popup **[!UICONTROL Create Segment from Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Seleziona **[!UICONTROL Done]**. Contenitore di segmenti aggiunto a **[!UICONTROL Definition]**.
+   1. Seleziona **[!UICONTROL Done]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
 
 
-* Per aggiungere un contenitore di segmenti da un segmento, puoi utilizzare:
+* Per aggiungere un contenitore di segmenti da un segmento, puoi:
 
-   * Trascina e rilascia un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Cerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
-Automaticamente un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**, utilizzando il nome del segmento.
+   * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
+Un contenitore di segmenti viene aggiunto automaticamente a **[!UICONTROL Definition]**, utilizzando il nome del segmento.
 
-   * Trascina un componente ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
+   * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
 
    * Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dall’interno di un contenitore:
 
-      1. Seleziona **[!UICONTROL Segment]**. Contenitore di segmenti aggiunto a **[!UICONTROL Definition]**.
+      1. Seleziona **[!UICONTROL Segment]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
       1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
 
   >[!TIP]
   >
-  >Puoi aggiungere più segmenti a un contenitore.
+  >Puoi aggiungere più di un segmento a un contenitore.
 
-  I segmenti nel contenitore sono denominati in base al componente del segmento. Ad esempio: ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Web sessions]**. Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un popup con i dettagli sul segmento. Nel popup, seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare la definizione del segmento.
+  I segmenti nel contenitore prendono il nome dal componente del segmento. Ad esempio: ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Web sessions]**. Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un popup con i dettagli sul segmento. Nel popup, seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare la definizione del segmento.
 
-Per rimuovere un segmento da un contenitore:
+Per rimuovere un filtro da un contenitore:
 
 * Seleziona ![Chiudi](/help/assets/icons/Close.svg) accanto al nome del segmento.
 

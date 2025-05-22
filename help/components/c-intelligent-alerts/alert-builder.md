@@ -7,7 +7,7 @@ exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
 source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Per creare un avviso:
 
 ## Generatore di avvisi
 
-L’interfaccia del Generatore di avvisi è familiare a coloro che hanno creato segmenti o metriche calcolate in Customer Journey Analytics:
+Se hai già avuto modo di creare segmenti o metriche calcolate in Costumer Journey Analytics, l’interfaccia del Generatore di avvisi ti risulterà familiare:
 
 ![Interfaccia generatore di avvisi](assets/alert-builder.png)
 

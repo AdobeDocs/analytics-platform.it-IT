@@ -6,8 +6,8 @@ feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 76%
+source-wordcount: '719'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 I tipi di pubblico possono essere gestiti in Customer Journey Analytics utilizzando **[!UICONTROL Components]** > **[!UICONTROL Audiences]**.
 
-## Comprendere le attività di gestione dell’audience
+## Comprendere le attività di gestione del pubblico
 
 La gestione dei tipi di pubblico creati in precedenza consente di:
 
@@ -25,21 +25,21 @@ La gestione dei tipi di pubblico creati in precedenza consente di:
 * Ottienere informazioni approfondite sul **tempo impiegato per produrre un tipo di pubblico** da Customer Journey Analytics. E sul tempo necessario perché il tipo di pubblico venga visualizzato nella Real-time Customer Platform a scopo di attivazione.
 * Verificare che i tipi di pubblico in Customer Journey Analytics vengano **utilizzati attivamente da Real-time Customer Platform**. Oppure (idealmente) da qualsiasi applicazione Experience Platform che abbia accesso ai tipi di pubblico creati da Customer Journey Analytics.
 
-Se disponi dei diritti di accesso [Visualizzazione pubblico](/help/technotes/access-control.md#user-level-access), puoi visualizzare i tipi di pubblico. Se disponi dell&#39;accesso [Creazione pubblico](/help/technotes/access-control.md#user-level-access), puoi modificare ed eliminare i tipi di pubblico.
+Se disponi dei diritti di accesso [Visualizzazione pubblico](/help/technotes/access-control.md#user-level-access), puoi visualizzare i tipi di pubblico. Se invece disponi dei diritti di accesso [Creazione pubblico](/help/technotes/access-control.md#user-level-access), puoi modificare ed eliminare i tipi di pubblico.
 
-## Visualizzare i tipi di pubblico nell’elenco Tipi di pubblico
+## Visualizzare tipi di pubblico nellʼelenco Tipi di pubblico
 
-Nell&#39;elenco Tipi di pubblico vengono visualizzati i tipi di pubblico esistenti.
+L&#39;elenco dei tipi di pubblico ➊ mostra i tipi di pubblico esistenti.
 
-![Audiences manager](assets/audiences-manager.png)
+![Gestione dei tipi di pubblico](assets/audiences-manager.png)
 
 Per visualizzare l’elenco del pubblico:
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Audiences]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Audiences]**.
 
-1. (Facoltativo) Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per configurare le colonne da visualizzare.
+1. Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per configurare le colonne da visualizzare (facoltativo).
 
-1. (Facoltativo) Cerca un pubblico utilizzando ![Ricerca](/help/assets/icons/Search.svg).
+1. Cerca un pubblico utilizzando ![Ricerca](/help/assets/icons/Search.svg) (facoltativo).
 
    Sono disponibili le seguenti colonne con informazioni su ciascun pubblico:
 
@@ -56,13 +56,13 @@ Per visualizzare l’elenco del pubblico:
    | **[!UICONTROL Last refreshed]** | La marca temporale dell’ultimo aggiornamento effettuato al tipo di pubblico. |
    | **[!UICONTROL Last modified]** | La marca temporale dell’ultima modifica apportata al tipo pubblico. |
 
-## Modifica i tipi di pubblico
+## Modificare i tipi di pubblico
 
 Puoi modificare le impostazioni di un pubblico in qualsiasi momento. Quando modifichi un pubblico (pubblico una tantum o ricorrente), è necessaria una ripubblicazione.
 
 Per modificare un tipo di pubblico:
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Audiences]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Audiences]**.
 
    Viene visualizzata la pagina Tipi di pubblico.
 
@@ -70,7 +70,7 @@ Per modificare un tipo di pubblico:
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Edit audience]**.
 
-1. Puoi aggiornare uno qualsiasi dei campi disponibili per il pubblico. Per informazioni sui campi che puoi aggiornare, vedi [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) nell&#39;articolo [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
+1. Puoi aggiornare uno qualsiasi dei campi disponibili per il pubblico. Per informazioni sui campi che puoi aggiornare, consulta [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) nell’articolo [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
 
 1. Seleziona **[!UICONTROL Republish]**.
 
@@ -80,9 +80,9 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**&#x200B;per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i tipi di pubblico selezionati. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**&#x200B;per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**&#x200B;per salvare. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**per salvare. |
 
 Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni sono disponibili le azioni seguenti.
 
@@ -96,7 +96,7 @@ Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni s
 
 Puoi filtrare l&#39;[elenco Tipi di pubblico](#audiences-list) utilizzando il pannello dei filtri ➋. Per mostrare o nascondere il pannello dei filtri, utilizza l’icona ![Filtro](/help/assets/icons/Filter.svg).
 
-![Audiences manager](assets/audiences-manager.png)
+![Gestione dei tipi di pubblico](assets/audiences-manager.png)
 
 Il pannello dei filtri è costituito dalle sezioni seguenti.
 

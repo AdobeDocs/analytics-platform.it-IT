@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="Impostazioni dei componenti"
->abstract="Visualizza e configura il nome, la descrizione e altre impostazioni relative a un componente. Seleziona questa casella per nascondere il componente agli utenti non amministratori nel reporting. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
+>abstract="Visualizza e configura nome, descrizione e altre impostazioni relative a un componente. Seleziona questa casella affinché il componente non sia visibile nei rapporti per utenti non amministratori. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +59,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://video.tv.adobe.com/v/3412936/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

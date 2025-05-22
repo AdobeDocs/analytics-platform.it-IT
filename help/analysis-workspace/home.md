@@ -8,8 +8,8 @@ solution: Customer Journey Analytics
 role: User
 source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -59,10 +59,10 @@ La funzionalità è anche disponibile tramite il menu di Workspace e i tasti di 
 Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 
 - **⇧** per **[!UICONTROL *Maiusc *]**.
-- **⌘** per **[!UICONTROL *Cmd *]**(comando).
-- **⌃** per **[!UICONTROL *Ctrl *]**(controllo).
-- **⌥** per **[!UICONTROL *Opt *]**(opzione).
-- **⎇** per **[!UICONTROL *Alt *]**(alternativo).
+- **⌘** per **[!UICONTROL *cmd *]**(comando).
+- **⌃** per **[!UICONTROL *ctrl *]**(controllo).
+- **⌥** per **[!UICONTROL *opt *]**(opzione).
+- **⎇** per **[!UICONTROL *alt *]**(alternativa).
 
 Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 

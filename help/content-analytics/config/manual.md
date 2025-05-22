@@ -8,13 +8,13 @@ exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 5%
+ht-degree: 96%
 
 ---
 
 # Configurazione manuale di Content Analytics
 
-Questo articolo descrive le azioni manuali necessarie per avviare o arrestare la raccolta di dati di una configurazione di Content Analytics o per modificare l’implementazione di Content Analytics.
+Questo articolo descrive le azioni manuali necessarie per avviare o interrompere la raccolta dati di una configurazione di Content Analytics o per modificare l’implementazione di Content Analytics.
 
 Sono disponibili le seguenti configurazioni manuali:
 
@@ -22,43 +22,43 @@ Sono disponibili le seguenti configurazioni manuali:
 
 Per avviare la raccolta dati per una configurazione di Content Analytics implementata:
 
-1. Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblicazione della libreria per la proprietà Tags contenente la configurazione Content Analytics completata.
+1. Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"}. Pubblica correttamente la libreria per la proprietà Tag contenente la configurazione di Content Analytics.
 
-1. [Installa](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, gestione temporanea o pubblicazione, soggetto a Content Analytics.
+1. [Installa](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments#installation) il codice incorporato nell’elemento `<head>` delle pagine dell’ambiente di sviluppo, di staging o di pubblicazione, soggetto a Content Analytics.
 
 
-## Interrompi raccolta dati
+## Interrompere la raccolta dati
 
 Per interrompere la raccolta dati per una configurazione di Content Analytics implementata:
 
-1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments) nell&#39;elemento `<head>` delle pagine nell&#39;ambiente di sviluppo, staging o produzione, soggetto a Content Analytics.
+1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments) dell’elemento `<head>` delle pagine dell’ambiente di sviluppo, di staging o di produzione, soggetto a Content Analytics.
 1. [Elimina](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) la proprietà Tag associata per la configurazione di Content Analytics.
 
 
 
 ## Modificare la raccolta dati
 
-È possibile apportare alcune modifiche minori a una configurazione implementata utilizzando la [configurazione guidata](guided.md). Ad esempio, modifica la visualizzazione dati oppure abilita o disabilita le esperienze.
+La [configurazione guidata](guided.md) consente di apportare alcune modifiche minori a una configurazione implementata. Ad esempio, puoi cambiare la visualizzazione dati oppure abilitare o disabilitare alcune esperienze.
 
-Utilizza l&#39;estensione [Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tags associata alla configurazione Content Analytics per apportare modifiche ai seguenti artefatti:
+Utilizza l’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview) nella proprietà Tag associata alla configurazione di Content Analytics per apportare modifiche ai seguenti artefatti:
 
-* [Sandbox e flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
+* [Sandbox e stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}.
 
   >[!CAUTION]
   >
-  >Verificare che la sandbox e lo stream di dati configurati nell&#39;estensione Adobe Content Analytics siano già configurati per Content Analytics utilizzando la [configurazione guidata](guided.md) in una fase precedente. Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>Verificare inoltre che gli aggiornamenti per sandbox o flussi di dati non interferiscano con un&#39;altra configurazione di Content Analytics configurata per utilizzare la stessa sandbox o gli stessi flussi di dati.
+  >Verifica che la sandbox e lo stream di dati configurati nell’estensione Adobe Content Analytics siano già stati configurati per Content Analytics in precedenza seguendo la [configurazione guidata](guided.md). Questa configurazione assicura la disponibilità di tutti gli artefatti richiesti.<br/><br/>Inoltre, verifica che eventuali aggiornamenti per sandbox o stream di dati non interferiscano con un’altra configurazione di Content Analytics impostata per la stessa sandbox o gli stessi stream di dati.
   >
 
-* [Acquisizione e definizione dell&#39;esperienza](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
+* [Acquisizione e definizione delle esperienze](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=it#configure-experience-capture-and-definition)
 
-  Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come viene eseguito il rendering del contenuto sul sito web.
+  Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come riprodurre i contenuti sul tuo sito web.
 
-* [Segmentazione eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentazione eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
   Puoi modificare le espressioni regolari per modificare il modo in cui segmentate pagine e risorse.
 
 
-Dopo aver apportato modifiche all&#39;estensione Adobe Content Analytics, assicurati di utilizzare [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta di dati in base alle modifiche apportate.
+Dopo aver apportato modifiche all’estensione Adobe Content Analytics, assicurati di utilizzare il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta dati in base alle modifiche apportate.
 
 
 
@@ -71,13 +71,13 @@ Dopo aver apportato modifiche all&#39;estensione Adobe Content Analytics, assicu
 
 ## Controllo delle versioni
 
-Se desideri raccogliere esperienze Content Analytics, prendi in considerazione l’implementazione del controllo delle versioni per garantire che le nuove esperienze (modifiche alla pagina web) vengano raccolte correttamente.
+Se desideri raccogliere esperienze Content Analytics, con l’implementazione del controllo delle versioni puoi assicurarti che le nuove esperienze (modifiche alla pagina web) vengano raccolte correttamente.
 
-Per implementare il controllo delle versioni, aggiungere una funzione `adobe.getContentExperienceVersion` globale nelle pagine che si considerano esperienze da analizzare.
+Per implementare il controllo delle versioni, aggiungi una funzione `adobe.getContentExperienceVersion` globale alle pagine che consideri esperienze da analizzare.
 
-La funzione `adobe.getContentExperienceVersion` deve restituire una stringa come valore, che può essere qualsiasi cosa scelta, per identificare la versione. La versione viene aggiunta all&#39;[URL Experience ID](/help/content-analytics/report/components.md#experience-metadata).
+La funzione `adobe.getContentExperienceVersion` deve restituire un valore di tipo stringa, a tua scelta, che consenta di identificare la versione. La versione viene aggiunta all’[URL dell’ID esperienza](/help/content-analytics/report/components.md#experience-metadata).
 
-Se la funzione non è presente o non viene restituito alcun valore dalla funzione, il valore `NoVersion` viene utilizzato come predefinito.
+Se la funzione non è presente o non restituisce alcun valore, viene utilizzato il valore predefinito `NoVersion`.
 
 ### Esempio
 

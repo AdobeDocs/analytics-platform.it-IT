@@ -8,7 +8,7 @@ role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1529'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analysis-workspace/visualizations/bullet-graph.md) | La visualizzazione di un grafico bullet, che mostra come un valore desiderato si confronta o misura con altre gamme di prestazioni (obiettivi). |
 | ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una visualizzazione coorte è un gruppo di persone che condividono caratteristiche comuni per un determinato periodo. Una tabella coorte è utile per le analisi di fidelizzazione, abbandono o latenza. |
 | ![Combinato](/help/assets/icons/ComboChart.svg) | [Combinato](combo-charts.md) | Un grafico combinato consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. |
-| ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | Simile a un grafico a torta, una visualizzazione ad anello mostra i dati come parti o segmenti di un insieme. |
+| ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analysis-workspace/visualizations/donut.md) | Simile a un grafico a torta, questa visualizzazione ad anello mostra i dati come parti o segmenti di un insieme. |
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | La visualizzazione Abbandono mostra dove l’utenza ha lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Una visualizzazione del flusso mostra i percorsi seguiti dal cliente nei tuoi siti Web e nelle tue app. |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una visualizzazione tabella a forma libera è una visualizzazione interattiva. La visualizzazione tabella a forma libera è la base per l’analisi dei dati in Workspace. |
@@ -44,7 +44,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione a numero di riepilogo mostra la cella selezionata come un numero grande. |
 | ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analysis-workspace/visualizations/text.md) | Una visualizzazione a testo consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md)<p> | Una visualizzazione mappa ad albero visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
-| ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | Una visualizzazione di Venn utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
+| ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | Una visualizzazione Venn utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -158,6 +158,6 @@ Alcune visualizzazioni (come a tabella coorte, abbandono, flusso e altri) dispon
 
 ## Visualizza
 
-Se non sai quale visualizzazione scegliere, seleziona ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) che **[!UICONTROL Visualize]** una qualsiasi riga della tabella a forma libera (disponibile sul puntatore). Questa selezione è il modo più veloce per aggiungere una visualizzazione. Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea per i tuoi dati. Ad esempio, se hai selezionato una riga, si crea un [grafico a linee](line.md) con tendenze. Se hai selezionato tre righe di segmenti, crea un diagramma [venn](venn.md).
+Se non sai quale visualizzazione scegliere, seleziona ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) che **[!UICONTROL Visualize]** una qualsiasi riga della tabella a forma libera (disponibile sul puntatore). Questa selezione è il modo più veloce per aggiungere una visualizzazione. Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea per i tuoi dati. Ad esempio, se hai selezionato una riga, si crea un [grafico a linee](line.md) con tendenze. Se sono state selezionate tre righe di segmenti, viene creato un diagramma di [Venn](venn.md).
 
 ![Visualizzazione rapida](assets/quick-viz.png)

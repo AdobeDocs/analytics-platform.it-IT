@@ -7,7 +7,7 @@ role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
@@ -18,12 +18,12 @@ Chiunque può creare un intervallo di date personalizzato. Puoi creare un interv
 
 ![Creare un’annotazione](assets/create-date-range.png)
 
-* **A** - Nell&#39;interfaccia principale, selezionare **[!UICONTROL Components]** e **[!UICONTROL Date range]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dal gestore [[!UICONTROL Date range]](/help/components/date-ranges/manage.md).
-* **B** - In un progetto Workspace, dal menu di scelta rapida di una visualizzazione, seleziona **[!UICONTROL Custom date range to this date range]**.
-* **C** - In un progetto Workspace, seleziona **[!UICONTROL Components]** dal menu, quindi seleziona **[!UICONTROL Create date range]**
-* **D** - In un progetto Workspace, utilizzare il collegamento **[!UICONTROL ctrl+shift+d]** (Windows) o **[!UICONTROL shift+command+d]** (macOS).
-* **E** - In un progetto Workspace, dal pannello a sinistra Componenti, seleziona ![Aggiungi](/help/assets/icons/Add.svg) in ![Calendario](/help/assets/icons/Calendar.svg) **Intervalli di date**.
-* **F** - In una visualizzazione supportata, come una visualizzazione a linee, dal menu di scelta rapida di un punto dati, selezionare **[!UICONTROL Annotate Selection]**.
+* **A**: nell’interfaccia principale, seleziona **[!UICONTROL Components]** e quindi **[!UICONTROL Date range]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dal gestore [[!UICONTROL Date range]](/help/components/date-ranges/manage.md).
+* **B**: in un progetto Workspace, dal menu di scelta rapida di una visualizzazione seleziona **[!UICONTROL Custom date range to this date range]**.
+* **C**: in un progetto Workspace, seleziona **[!UICONTROL Components]** dal menu e quindi **[!UICONTROL Create date range]**.
+* **D**: in un progetto Workspace, utilizza la scelta rapida da tastiera **[!UICONTROL ctrl+shift+d]** (Windows) o **[!UICONTROL shift+command+d]** (macOS).
+* **E**: in un progetto Workspace, dal pannello Componenti a sinistra, seleziona ![Aggiungi](/help/assets/icons/Add.svg) in ![Calendario](/help/assets/icons/Calendar.svg) **Intervalli di date**.
+* **F**: in una visualizzazione supportata, come ad esempio una visualizzazione a linee, dal menu di scelta rapida di un punto dati, seleziona **[!UICONTROL Annotate Selection]**.
 
 Per definire l’annotazione, utilizza [[!UICONTROL Date range builder]](#annotation-builder):
 
