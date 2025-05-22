@@ -4,9 +4,9 @@ title: Aggiungere e visualizzare commenti nei progetti
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
+source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Tutti i commenti aggiunti in un progetto Analysis Workspace sono visibili nell�
 
    ![Area commenti chiusa](assets/comments-area-closed.png)
 
-   Ogni commento mostra un timestamp del giorno in cui è stato pubblicato. Se il commento è stato pubblicato nel giorno corrente, viene visualizzata l’ora del giorno. Passa il puntatore del mouse sul giorno o sull&#39;ora per visualizzare la data e l&#39;ora complete di pubblicazione del commento.
+   Ogni commento mostra una marca temporale del giorno in cui è stato pubblicato. Se il commento è stato pubblicato nel giorno corrente, viene visualizzata l’ora del giorno. Passa il puntatore del mouse sul giorno o sull&#39;ora per visualizzare la data e l&#39;ora complete di pubblicazione del commento.
 
 1. (Facoltativo) Per cercare nell&#39;area commenti, selezionare l&#39;icona di ricerca ![icona di ricerca](assets/comments-search-icon.png), quindi digitare una parola o una frase. L’area dei commenti viene filtrata in modo da contenere solo i commenti che includono quella parola o frase.
 
@@ -66,7 +66,7 @@ Per aggiungere un commento a un’area specifica del progetto (ad esempio un val
 
 1. Con il progetto aperto in Analysis Workspace, fai clic con il pulsante destro del mouse sull’area del progetto in cui desideri inserire il commento.
 
-   Tutte le visualizzazioni supportano i badge di commento nell’intestazione della visualizzazione, ma solo le visualizzazioni seguenti supportano i badge di commento su punti di dati specifici all’interno della visualizzazione:
+   Tutte le visualizzazioni supportano i badge di commento nell’intestazione della visualizzazione, ma solo le seguenti visualizzazioni supportano i badge di commento su punti di dati specifici all’interno della visualizzazione:
 
    * Tabella a forma libera
    * Tabella coorte
@@ -104,19 +104,23 @@ Per aggiungere commenti a un progetto in Analysis Workspace:
 
 ## Includi altri in un commento
 
-La funzione di commento in Analysis Workspace semplifica la collaborazione con altri utenti. Per includere un&#39;altra persona nel commento:
+La funzione di commento in Analysis Workspace semplifica la collaborazione con altri utenti.
+
+Quando si utilizza il simbolo @ per includere le persone in un commento, tenere presente quanto segue:
+
+* Le persone incluse ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una [notifica Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications).
+
+  Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+
+* Puoi includere in un commento chiunque nell’organizzazione, ma così facendo non concede automaticamente l’accesso al progetto. Solo le persone che hanno già accesso al progetto possono accedervi.
+
+Per includere un&#39;altra persona nel commento:
 
 1. Digita il simbolo @, quindi inizia a digitare il nome, il cognome o l’indirizzo e-mail della persona che desideri includere.
 
    ![utente tag](assets/comments-tag-user.png)
 
 1. Seleziona il nome della persona quando viene visualizzato nel menu a discesa.
-
-Quando si utilizza il simbolo @ per includere le persone in un commento, tenere presente quanto segue:
-
-* Le persone incluse ricevono una notifica e-mail e una notifica Pulse.
-
-* Puoi includere in un commento chiunque nell’organizzazione, ma questo non concede automaticamente l’accesso al progetto. Solo le persone che hanno già accesso al progetto possono accedervi.
 
 ## Rispondi a un commento
 
@@ -126,7 +130,7 @@ Quando si utilizza il simbolo @ per includere le persone in un commento, tenere 
 
    Oppure
 
-   Se si desidera che la risposta includa il testo del commento a cui si sta rispondendo, con il testo originale racchiuso tra virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Quote reply]**. Una risposta al preventivo è un buon modo per indicare chiaramente il commento o la risposta a cui si riferisce il commento.
+   Per includere il testo del commento a cui si risponde, con il testo originale racchiuso in un tag di virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Quote reply]**. Una risposta a un preventivo è un buon modo per indicare a quale commento o risposta si riferisce il commento.
 
 1. Nel campo **[!UICONTROL New comment]**, specifica il commento.
 
@@ -146,7 +150,7 @@ Se un commento è disponibile nell’area commenti nella barra a destra, ma non 
 
 1. Seleziona l’area del progetto in cui desideri inserire il badge per il commento esistente.
 
-   Nell&#39;area del progetto Workspace selezionata è stato inserito un **badge di commento** ![badge di commento](assets/comment-indicator.png). Il commento viene visualizzato anche nella parte superiore dell’area commenti nella barra a destra.
+   Nell&#39;area del progetto Workspace selezionata viene inserito un **badge di commento** ![badge di commento](assets/comment-indicator.png). Il commento viene visualizzato anche nella parte superiore dell’area commenti nella barra a destra.
 
    Per ulteriori informazioni, vedi [Visualizzare i badge di commento in un progetto](#view-comment-badges-in-a-project).
 
@@ -196,7 +200,7 @@ Per copiare il corpo del testo di un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](assets/comments-area-icon.png) nella barra a destra di Analysis Workspace.
 
-1. Seleziona **[!UICONTROL Like]** sotto il commento da approvare.
+1. Selezionare **[!UICONTROL Like]** sotto il commento che si desidera avallare.
 
 ## Eliminare un commento
 
