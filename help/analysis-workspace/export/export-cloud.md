@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
+source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 98%
+source-wordcount: '2284'
+ht-degree: 97%
 
 ---
 
@@ -91,8 +91,9 @@ Per esportare tabelle complete da Analysis Workspace:
    | Data di inizio | Giorno e ora in cui dovrebbe iniziare l’esportazione pianificata. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Data di fine | Giorno e ora di scadenza dell’esportazione pianificata. L’esportazione pianificata non viene più eseguita dopo la data e l’ora impostate. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Formato file | Scegli se i dati esportati devono essere in formato .csv o .json. |
+   | Includi file manifesto | Se è abilitato, un file manifesto viene incluso in tutte le consegne esportate riuscite. Il file manifesto consente di confermare che tutti i file sono stati consegnati correttamente. Include le seguenti informazioni:<ul><li>Un elenco di tutti i file consegnati</li><li>Il checksum MD5 di ciascun file</li></ul><p>I dati esportati sono disponibili come file compresso nella destinazione cloud configurata, come descritto in [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [Configurare le posizioni di esportazione cloud](/help/components/exports/cloud-export-locations.md).</p><p>A seconda che sia stato scelto CSV o JSON come formato di file, il nome del file compresso può essere:</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>È possibile scegliere il formato di file nel campo [!UICONTROL **Formato file**] sopra.</p> |
    | Account | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:<ul><li>[!UICONTROL **Nome account di posizione**]: specifica un nome per l’account di posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>[!UICONTROL **Descrizione account di posizione**]: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>[!UICONTROL **Tipo di account**]: seleziona il tipo di account cloud in cui desideri esportare i dati. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.</li></ul><li>Per completare la configurazione dell’account, continua con il collegamento seguente corrispondente al [!UICONTROL **tipo di account**] selezionato:<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | Nome posizione | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>Oppure, se non hai già configurato la posizione da utilizzare sull’account selezionato, puoi configurarne una nuova:<ol><li>Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: <ul><li>[!UICONTROL **Nome**]: il nome della posizione.</li><li>[!UICONTROL **Descrizione**]: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>[!UICONTROL **Account di posizione**]: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo [!UICONTROL **Account di posizione**]:<ul><li>[Data Landing Zone di AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 con ruolo ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | Posizione | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>Oppure, se non hai già configurato la posizione da utilizzare sull’account selezionato, puoi configurarne una nuova:<ol><li>Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: <ul><li>[!UICONTROL **Nome**]: il nome della posizione.</li><li>[!UICONTROL **Descrizione**]: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>[!UICONTROL **Account di posizione**]: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo [!UICONTROL **Account di posizione**]:<ul><li>[Data Landing Zone di AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 con ruolo ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -105,32 +106,6 @@ Per esportare tabelle complete da Analysis Workspace:
 ## Gestire le esportazioni
 
 Dopo l’esportazione dei dati da Analysis Workspace, puoi modificare, riesportare, duplicare, assegnare tag o eliminare le esportazioni esistenti, come descritto in [Gestire le esportazioni](/help/components/exports/manage-exports.md).
-
-## Visualizzare i dati esportati e il file manifesto
-
-### Dati esportati
-
-I dati esportati sono disponibili come file compresso nella destinazione cloud configurata, come descritto in [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md) e [Configurare le posizioni di esportazione cloud](/help/components/exports/cloud-export-locations.md).
-
-A seconda che sia stato scelto CSV o JSON come formato di file, il nome del file compresso può essere:
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->Scegli il formato di file nel campo [!UICONTROL **Formato file**] durante l’esportazione della tabella, come descritto in [Esportare tabelle complete da Analysis Workspace](#export-full-tables-from-analysis-workspace).
-
-### File manifesto
-
-Un file manifesto con il nome di file `cja-export-{reportInstanceId}-{idx}.json.gz` è incluso in ogni consegna di esportazione riuscita che contiene almeno un file. Il file manifesto consente di confermare che tutti i file sono stati consegnati correttamente. Include le seguenti informazioni:
-
-* Un elenco di tutti i file consegnati
-
-* Il checksum MD5 di ciascun file
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## Vantaggi dell’esportazione nel cloud {#advantages}
 
