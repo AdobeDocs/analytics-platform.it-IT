@@ -53,7 +53,7 @@ Utilizza l’[estensione Adobe Content Analytics](https://experienceleague.adobe
 
   Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come riprodurre i contenuti sul tuo sito web.
 
-* [Segmentazione eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentazione eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
   Puoi modificare le espressioni regolari per modificare il modo in cui segmentate pagine e risorse.
 
