@@ -3,9 +3,9 @@ description: Scopri il tipo di metrica e l’attribuzione
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '907'
+source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+workflow-type: tm+mt
+source-wordcount: '967'
 ht-degree: 100%
 
 ---
@@ -45,122 +45,92 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 
 ## Attribution {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Usa modello di attribuzione non predefinito"
 >abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modello"
 >abstract="Seleziona un modello di attribuzione per la metrica."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Ultimo contatto"
 >abstract="Il 100% del credito va all’ultimo valore di dimensione visualizzato da un visitatore."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Primo contatto"
 >abstract="Il 100% del credito va al primo valore di dimensione visualizzato da un visitatore."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Lineare"
 >abstract="Il credito è distribuito in modo uniforme tra tutti i valori di dimensione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Partecipazione"
 >abstract="Il 100% del credito va a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrastimati."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Stesso contatto"
 >abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Stesso contatto"
+>abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="A forma di U"
 >abstract="Il 40% del credito va al primo valore di dimensione, il 40% all’ultimo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
 >abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="Curva J"
+>abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
 >abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="J inversa"
+>abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Decadimento nel tempo"
 >abstract="Il merito maggiore viene attribuito ai valori di dimensione più vicini nel tempo a una conversione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Personalizzato"
 >abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Personalizzato"
+>abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algoritmico"
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
-<!-- markdownlint-enable MD034 -->
 
 
 {{attribution-models-details}}
@@ -190,25 +160,25 @@ Prendi in considerazione l’esempio seguente:
 
 A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi:
 
-* Utilizzando il modello **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
+* Utilizzando il **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
 
-* Utilizzando il modello **primo contatto** e un **intervallo di lookback per visitatore**, l’attribuzione considera tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
+* Utilizzando il **primo contatto** e un **intervallo di lookback per persona**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
 
-* Utilizzando il modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-Utilizzando il modello **lineare** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
+* Utilizzando un modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
+Utilizzando un modello **lineare** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
 
-* Utilizzando il modello **a forma di J** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
+* Utilizzando un modello **a forma di J** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
 
    * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
    * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
    * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
 
-* Utilizzando il modello **Decadimento nel tempo** e un **intervallo di lookback per visitatore**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
+* Utilizzando **Decadimento nel tempo** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
 
-   * Intervallo di 0 giorni tra punto di contatto visualizzazione e conversione. `2^(-0/7) = 1`
-   * Intervallo di 0 giorni tra punto di contatto e-mail e conversione. `2^(-0/7) = 1`
-   * Intervallo di 6 giorni tra punto di contatto social e conversione. `2^(-6/7) = 0.552`
-   * Intervallo di 9 giorni tra punto di contatto ricerca a pagamento e conversione. `2^(-9/7) = 0.41`
+   * Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
+   * Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
+   * Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
+   * Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
    * La normalizzazione di questi valori determina quanto segue:
 
       * Visualizzazione: 33,8%, ovvero 16,88 $
