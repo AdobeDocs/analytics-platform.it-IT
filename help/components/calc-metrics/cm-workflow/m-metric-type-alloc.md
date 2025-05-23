@@ -3,10 +3,10 @@ description: Scopri il tipo di metrica e l’attribuzione
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -132,11 +132,14 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
 
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Contenitore"
+>abstract="Seleziona un contenitore per impostare l’ambito desiderato per l’attribuzione."
+
 
 {{attribution-models-details}}
 
-
-### Intervallo di lookback {#lookback-window}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -145,7 +148,6 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >title="Intervallo di lookback"
 >abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 
-<!-- markdownlint-enable MD034 -->
 
 {{attribution-lookback-window}}
 
