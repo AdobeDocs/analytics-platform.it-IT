@@ -54,7 +54,7 @@ Di seguito è riportato il processo di alto livello per la transizione dall’ut
 
 1. Mappa ogni dimensione di Adobe Analytics dal connettore di origine di Analytics alla dimensione nello schema di Web SDK.
 
-   1. 
+   1. &#x200B;
       <!-- how do you get here -->
 
    1. Nella sezione **[!UICONTROL Map standard fields]**, seleziona la scheda **[!UICONTROL Custom]**.
