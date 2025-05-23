@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e82179f3436dc6b66ebe3f2f9b11986cadd135d9
+source-git-commit: bef00aa251831cdb809a6243b5d5a8e2c0dda9bb
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1803'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent è disponibile per i clienti idonei di Customer Journey Analytics fino al 30 novembre 2025. Dopo tale data, è necessaria una licenza se si desidera continuare a utilizzare Data Insights Agent. Contatta il team del tuo account Adobe per assistenza sulla procedura di gestione delle licenze.
+>Data Insights Agent è disponibile per i clienti idonei per un periodo limitato. L’accesso a Data Insights Agent terminerà il 30 novembre 2025. Per continuare a utilizzare Data Insights Agent senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze di Data Insights Agent.
 
 Data Insights Agent, accessibile dall’assistente di intelligenza artificiale in Customer Journey Analytics, è un agente di conversazione di intelligenza artificiale generativo che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni rilevanti in Analysis Workspace utilizzando i componenti della visualizzazione dati e utilizzando i dati effettivi.
 
@@ -41,7 +41,7 @@ L’utilizzo di Data Insights Agent per rispondere a domande incentrate sui dati
 
 I seguenti parametri regolano l’accesso a Data Insights Agent in Customer Journey Analytics:
 
-* **Accesso alla soluzione**: Data Insights Agent è disponibile per i clienti Customer Journey Analytics Prime e Ultimate. Non è disponibile in Adobe Analytics.
+* **Accesso alla soluzione**: Data Insights Agent è disponibile per tutti i clienti Customer Journey Analytics come parte di un programma di accesso limitato fino al 30 novembre 2025. Non è disponibile in Adobe Analytics.
 
 * **Accesso contrattuale**: se non sei in grado di utilizzare Data Insights Agent nell&#39;Assistente AI, contatta l&#39;amministratore della tua organizzazione o il team dell&#39;account Adobe. Prima che la tua organizzazione possa utilizzare Data Insights Agent, devi accettare alcuni termini legali relativi all’intelligenza artificiale generativa.
 
