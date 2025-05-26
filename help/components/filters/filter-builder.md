@@ -4,10 +4,10 @@ title: Generare segmenti
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c383681cb5c454b79d33a89e25b0d54bd239da66
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 53%
+source-wordcount: '1465'
+ht-degree: 52%
 
 ---
 
@@ -157,7 +157,7 @@ Oppure potresti definire 52 segmenti: 50 segmenti per gli Stati Uniti, uno per i
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Istanza"
->abstract="Include le istanze e i valori persistenti per la dimensione."
+>abstract="Include le varianti per la quota."
 
 
 >[!CONTEXTUALHELP]
