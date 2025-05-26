@@ -4,30 +4,26 @@ title: Totali in Workspace
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 92%
 
 ---
 
 # Totali in Workspace {#workspace-totals}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="Totale complessivo"
 >abstract="Il totale complessivo non è supportato per tabelle o raggruppamenti con righe statiche."
 
-<!-- markdownlint-enable MD034 -->
-
 
 Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livello di raggruppamento, la quale può mostrare due totali:
 
 ![Tabella a forma libera che evidenzia il totale complessivo e il totale della tabella.](assets/total-row.png)
 
-* **[!UICONTROL Table total]** ➊ - Questo totale è in genere uguale o un sottoinsieme del [!UICONTROL Grand total]. Il totale riflette eventuali segmenti di tabella applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None].
+* **[!UICONTROL Table total]** ➊ - Questo totale è in genere uguale o un sottoinsieme di [!UICONTROL Grand total]. Il totale riflette eventuali segmenti di tabella applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None].
 * **[!UICONTROL Grand total]** (**[!UICONTROL out of]** *numero*) ➋ - Questo totale rappresenta tutti gli eventi raccolti. Quando un segmento viene applicato a livello di pannello o nella tabella a forma libera, il totale viene regolato in modo da riflettere tutti gli eventi che corrispondono ai criteri del segmento.
 
 

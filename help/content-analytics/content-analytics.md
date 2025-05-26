@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 91%
+source-wordcount: '835'
+ht-degree: 89%
 
 ---
 
@@ -60,13 +60,9 @@ Content Analytics utilizza i dati di visualizzazione dell&#39;immagine Web nei s
 
 >[!NOTE]
 >
->Se disponi di una licenza per il componente aggiuntivo Privacy and Security Shield, tieni presente che (tutti i dati generati da) esperienze e risorse, soggette a Content Analytics, non sono rientrano nell’etichettatura DULE, né nelle chiavi gestite dal cliente.
+>Se hai concesso la licenza per il componente aggiuntivo Privacy and Security Shield, tieni presente che (tutti i dati generati da) esperienze e risorse, soggette a Content Analytics, non sono coperti dall’etichettatura DULE o dalle chiavi gestite dal cliente. Inoltre, Content Analytics non è un servizio compatibile con HIPAA.
 >
 
->[!NOTE]
->
->Content Analytics [invia eventi aggiuntivi](config/datacollection.md#content-analytics-event) che probabilmente influiscono su qualsiasi definizione di percentuale di mancato recapito basata sul numero di eventi in una sessione o in una pagina.
->
 
 >[!MORELIKETHIS]
 >
