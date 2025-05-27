@@ -5,10 +5,10 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: 6fdb6cbd6f12a0417f513565b02e3ad60c8df6cb
+workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 <!-- markdownlint-enable MD034 -->
 
 
-Il formato consente di determinare il modo in cui una determinata metrica viene visualizzata quando è utilizzata nei report.
+Il formato consente di determinare come viene visualizzato un determinato componente quando viene utilizzato nei rapporti.
 
-## Configurare le impostazioni di formato per una metrica
+## Configurare le impostazioni di formato per un componente
 
-È possibile determinare il modo in cui viene visualizzata una determinata metrica regolandone le impostazioni di formato.
+È possibile determinare la modalità di visualizzazione di un determinato componente regolandone le impostazioni di formato.
 
 1. In Customer Journey Analytics, seleziona la scheda [!UICONTROL **Visualizzazioni dati**].
 
@@ -44,13 +44,13 @@ Il formato consente di determinare il modo in cui una determinata metrica viene 
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Format]** | Consente di specificare la formattazione di una metrica come Decimale, Tempo, Percentuale o Valuta. |
-   | **[!UICONTROL Decimal]** | Non visibile sui tipi di dati dello schema a numero intero. Consente di specificare il numero di posizioni decimali visualizzate da una metrica. |
+   | **[!UICONTROL Format]** | Consente di specificare la formattazione di un componente come Decimale, Ora, Percentuale o Valuta. |
+   | **[!UICONTROL Decimal]** | Non visibile sui tipi di dati di schema Intero. Consente di specificare il numero di posizioni decimali visualizzate da un componente. |
    | **[!UICONTROL Date]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL Date-Time]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Currency]** | Consente di determinare in quale valuta visualizzare la metrica. <p>Se analizzi i dati globali in cui le transazioni si verificano in valute diverse, consulta [Usa conversione valuta](#use-currency-conversion).</p> |
-   | **[!UICONTROL Show upward trend as]** | Consente di specificare se la tendenza verso l’alto per questa metrica è positiva (verde) o negativa (rossa). |
-   | **[!UICONTROL True value]** e **[!UICONTROL False value]** | Visibile solo sui tipi di dati dello schema booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
+   | **[!UICONTROL Currency]** | Consente di determinare la valuta in cui visualizzare il componente. <p>Se analizzi i dati globali in cui le transazioni si verificano in valute diverse, consulta [Usa conversione valuta](#use-currency-conversion).</p> |
+   | **[!UICONTROL Show upward trend as]** | Consente di specificare se la tendenza verso l’alto per questo componente è positiva (verde) o negativa (rossa). |
+   | **[!UICONTROL True value]** e **[!UICONTROL False value]** | Visibile solo sui tipi di dati di schema Booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
 
    {style="table-layout:auto"}
 
