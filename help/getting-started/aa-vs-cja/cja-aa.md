@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 0ad3cd8ae88cc5fc5297a63067900b2f741778b1
+source-git-commit: f45e56b59b80552edc3b2662697e01dcc1b62ea5
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2477'
 ht-degree: 94%
 
 ---
@@ -118,13 +118,12 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 
 | Funzione | Note |
 | --- | --- |
-| **Pannelli** | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
+| **Pannelli di Workspace** | Il pannello vuoto, il pannello di attribuzione, il pannello a forma libera e Quick Insights sono completamente supportati. I pannelli confronto segmenti e Analytics for Target (A4T) non sono supportati. |
 
 ## Nessun supporto, ma è pianificato {#planned}
 
 | Funzione | Note |
 | --- | --- |
-| **Analisi dei contributi** | Il supporto è pianificato. |
 | **Reporting in tempo reale** | Il supporto è pianificato. |
 | **Segment IQ** | Il supporto è pianificato. |
 | **Origini dati ID transazione** | Il supporto è pianificato. |
@@ -134,6 +133,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | Funzione | Note |
 | --- | --- |
 | **Activity Map** | Il supporto non è ancora stato pianificato. |
+| **Analisi dei contributi** | Il supporto non è ancora stato pianificato. |
 
 ## Funzioni che non saranno mai supportate {#never}
 
