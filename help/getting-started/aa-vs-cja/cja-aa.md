@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: f45e56b59b80552edc3b2662697e01dcc1b62ea5
+source-git-commit: c526531206887acf7c750c8759d4eec5dd24935f
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2478'
 ht-degree: 94%
 
 ---
@@ -138,3 +138,4 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 ## Funzioni che non saranno mai supportate {#never}
 
 * Metrica Persone con Cross-Device Coop
+* Trigger

@@ -5,10 +5,10 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: c526531206887acf7c750c8759d4eec5dd24935f
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 96%
+source-wordcount: '282'
+ht-degree: 91%
 
 ---
 
@@ -48,5 +48,6 @@ Quando utilizzi un valore numerico come dimensione, puoi
 
 >[!MORELIKETHIS]
 >
->Ecco un post di blog correlato sulla [gestione di “nessun valore” in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+>[Playbook completo per la gestione di &quot;Nessun valore&quot; in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
+
 
