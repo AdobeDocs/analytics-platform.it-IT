@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
+source-git-commit: f578b8e381f59abb1f22e00718531f216fefaef8
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 95%
+source-wordcount: '2293'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -140,9 +140,9 @@ Successivamente, puoi impostare i componenti di una visualizzazione dati e quind
 
 1. Cerca un campo schema tramite l’![icona Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** oppure trova un campo spostandoti in una qualsiasi delle raccolte di set di dati, come ![icona Cartella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]**.<br/>In alternativa, puoi creare un campo derivato utilizzando l’![icona Dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato**. Per ulteriori informazioni, consulta [Campi derivati](./derived-fields/derived-fields.md).
 
-1. Una volta trovato il campo schema specifico o definito il campo derivato, trascinalo, ad esempio ![icona Gestisci](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, dalla barra a sinistra alla sezione Metriche o Dimensioni.
-Puoi trascinare più volte lo stesso campo schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName, puoi creare una dimensione denominata “Pagine prodotto” e un’altra denominata “Pagine errore”, applicando a ciascuna diverse [impostazioni componente](component-settings/overview.md) a destra.
-Se trascini una cartella di campi schema dalla barra a sinistra, vengono disposti automaticamente nelle sezioni appropriate. I campi stringa vanno nella sezione [!UICONTROL Dimensions], mentre i campi schema di tipo numerico vanno nella sezione [!UICONTROL Metrics]. Se fai clic su **[!UICONTROL Add all]**, tutti i campi schema vengono aggiunti alle rispettive posizioni.
+1. Quando hai trovato il campo dello schema specifico o hai definito il campo derivato, trascina quel campo, ad esempio ![Icona handle](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, dalla barra a sinistra alla sezione **[!UICONTROL Metrics]** o **[!UICONTROL Dimensions]** sotto **[!UICONTROL Included components]**.
+Puoi trascinare più volte lo stesso campo schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName è possibile creare una dimensione con titolo `Product Pages` e un&#39;altra con titolo `Error pages` utilizzando diverse [impostazioni dei componenti](component-settings/overview.md) a destra.
+Se trascini una cartella di campi schema dalla barra a sinistra, i campi nella cartella vengono ordinati automaticamente nella sezione appropriata. I campi stringa vanno nella sezione [!UICONTROL Dimensions], mentre i campi schema di tipo numerico vanno nella sezione [!UICONTROL Metrics]. È inoltre possibile fare clic su **[!UICONTROL Add all]** e tutti i campi schema vengono aggiunti alla rispettiva sezione.
 
 1. Quando selezioni il componente, a destra vengono visualizzate le impostazioni.
 
@@ -161,11 +161,11 @@ Se trascini una cartella di campi schema dalla barra a sinistra, vengono dispost
 
 1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
 
-**Duplicare metriche o dimensioni**
+### Duplicare metriche o dimensioni
 
 È possibile duplicare metriche o dimensioni e quindi modificarne le impostazioni specifiche per creare facilmente più metriche o dimensioni da un singolo campo schema. Seleziona l’impostazione [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni, in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome descrittivo.
 
-**Filtrare i campi o set di dati dello schema**
+### Filtrare i campi o set di dati dello schema
 
 Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) nella barra a sinistra per i criteri [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
 
@@ -174,6 +174,71 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 >[!TIP]
 >
 >Se i componenti non vengono caricati correttamente nella visualizzazione dati e viene invece visualizzato un messaggio di errore, consulta [Mancanza di autorizzazioni](../troubleshooting/lack-of-permissions.md) per ottenere una soluzione.
+
+
+### Componenti inclusi {#included-components}
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_custom"
+>title="Etichette personalizzate"
+>abstract="Oltre alle etichette fornite da Adobe, puoi anche definire etichette personalizzate per la tua organizzazione."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_contract"
+>title="Etichette di contratto"
+>abstract="Le etichette del contratto (C) vengono utilizzate per categorizzare i dati che hanno obblighi contrattuali o sono relativi ai criteri di governance dei dati della tua organizzazione."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_identity"
+>title="Etichette di identità"
+>abstract="Le etichette di identità (I) vengono utilizzate per categorizzare i dati che possono identificare o contattare una persona specifica."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_sensitive"
+>title="Etichette sensibili"
+>abstract="Le etichette sensibili (S) vengono utilizzate per categorizzare i dati considerati sensibili dall’utente e dall’organizzazione."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_partner_ecosystem"
+>title="Ecosistema partner"
+>abstract="Le etichette dell’ecosistema partner (P) vengono utilizzate per categorizzare i dati condivisi con partner di terze parti."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_policies"
+>title="Criteri"
+>abstract="Affinché le etichette di utilizzo dei dati supportino efficacemente la conformità dati, è necessario implementare criteri di utilizzo dei dati. I criteri di utilizzo dei dati sono regole che descrivono i tipi di azioni di marketing consentiti o limitati nell’esecuzione dei dati all’interno di Experience Platform. I filtri Criteri applicano il criterio abilitato alla visualizzazione dati."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_responsible_engagement"
+>title="Etichette di coinvolgimento responsabile"
+>abstract="Le etichette di coinvolgimento responsabile vengono utilizzate per supportare il coinvolgimento responsabile."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
+
+
+**[!UICONTROL Included components]** contiene l&#39;elenco di **[!UICONTROL Metrics]** e **[!UICONTROL Dimensions]** configurati per la visualizzazione dati.
+
+* Per cercare componenti, utilizzare ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Cerca componenti_]**.
+* Per filtrare i componenti inclusi elencati, selezionare ![Filtro](/help/assets/icons/Filter.svg).
+
+  ![Finestra di dialogo del filtro dei componenti inclusi](assets/dataview_includedcomponents_filter.png)
+
+  Nella finestra di dialogo **[!UICONTROL Filter field by]** è possibile filtrare in base alle seguenti categorie:
+
+   * **[!UICONTROL Data type]** - È possibile selezionare uno o più dei seguenti tipi di dati: [!UICONTROL String], [!UICONTROL Integer], [!UICONTROL Short], [!UICONTROL Boolean], [!UICONTROL Double], [!UICONTROL Byte], [!UICONTROL Long], [!UICONTROL Date] o [!UICONTROL Date-time].
+   * **[!UICONTROL Datasets]** - Selezionare uno o più set di dati.
+   * **[!UICONTROL Data governance]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Custom labels], [!UICONTROL Contract labels], [!UICONTROL Identity labels], [!UICONTROL Sensitivity labels], P[!UICONTROL artner ecosystem] o [!UICONTROL Policies].
+   * **[!UICONTROL Other]** - Selezionare una o più opzioni [!UICONTROL Contains data], [!UICONTROL Is identity] o [!UICONTROL Is not deprecated].
+
+  Selezionare **[!UICONTROL Apply]** per applicare i filtri.
 
 
 
