@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
+source-git-commit: 7a25cd101ecd4ba88ee906e48f80219379c7374e
 workflow-type: tm+mt
-source-wordcount: '2531'
-ht-degree: 98%
+source-wordcount: '2534'
+ht-degree: 97%
 
 ---
 
@@ -231,7 +231,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
    * Processo che genera attributi esperienza dai dati evento di Content Analytics
    * Modello di reporting in Customer Journey Analytics.
 
-* Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare ulteriormente la configurazione della raccolta dati per le esperienze in Content Analytics. Viene effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) nella proprietà Tag associata alla configurazione corrente.
+* Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare ulteriormente la configurazione della raccolta dati per le esperienze in Content Analytics. Viene effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) nella proprietà Tag associata alla configurazione corrente.
 
 
 ### Raccolta dati {#onboarding-data-collection}
@@ -326,9 +326,9 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
 
 In una configurazione esistente non puoi modificare la proprietà dei tag. Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 
-* Per modificare le pagine da includere o escludere durante la raccolta dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Experience]**. Verrà effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà dei tag per la configurazione corrente di Content Analytics. Puoi modificare l’espressione regolare per includere o escludere le pagine. Assicurati di [pubblicare](#publish) le modifiche.
+* Per modificare le pagine da includere o escludere durante la raccolta dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Experience]**. Verrà effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà dei tag per la configurazione corrente di Content Analytics. Puoi modificare l’espressione regolare per includere o escludere le pagine. Assicurati di [pubblicare](#publish) le modifiche.
 
-* Per modificare le risorse da includere o escludere durante la raccolta dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Asset]**. Verrà effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà dei tag per la configurazione corrente di Content Analytics. Puoi modificare l’espressione regolare per includere o escludere le risorse. Assicurati di [pubblicare](#publish) le modifiche.
+* Per modificare le risorse da includere o escludere durante la raccolta dati per Content Analytics, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** sotto **[!UICONTROL Asset]**. Verrà effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) associata alla proprietà dei tag per la configurazione corrente di Content Analytics. Puoi modificare l’espressione regolare per includere o escludere le risorse. Assicurati di [pubblicare](#publish) le modifiche.
 
 ### Riepilogo {#summary}
 
@@ -347,7 +347,7 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo raccoglie i dettagli 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="Conferma dell’implementazione"
->abstract="Se si seleziona **[!UICONTROL Implement]**, l’analisi dei contenuti verrà configurata in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma (in qualità di titolare del trattamento dei dati) devi rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>L’URL acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
+>abstract="Se si seleziona **[!UICONTROL Implement]**, l’analisi dei contenuti verrà configurata in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma (in qualità di titolare del trattamento dei dati) devi rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>L’URL della pagina, acquisito al momento della visita del sito dell’utente, in base alle impostazioni di raccolta dati configurate e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
