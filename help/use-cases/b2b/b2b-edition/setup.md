@@ -4,11 +4,9 @@ description: Scopri come impostare Customer Journey Analytics B2B edition per i 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 11%
@@ -288,9 +286,9 @@ Definisci una connessione basata su account in Customer Journey Analytics per ac
    ![Connessione B2B - aggiunta set di dati](assets/b2b-connection-add-datasets.png)
 
 1. Selezionare **[!UICONTROL Next]** per configurare le impostazioni per ciascuno dei set di dati selezionati.
-1. Per il set di dati dell&#39;evento, assicurati di selezionare le eVar appropriate che corrispondono alle identità per **[!UICONTROL Account ID]**, **[!UICONTROL Global Account ID]**, **[!UICONTROL Opportunity ID]**, **[!UICONTROL Buying Group ID]** e **[!UICONTROL Person ID]**.
+1. Per il set di dati dell&#39;evento, assicurarsi di selezionare i campi appropriati che corrispondono alle identità per **[!UICONTROL Account ID]**, **[!UICONTROL Global Account ID]**, **[!UICONTROL Opportunity ID]**, **[!UICONTROL Buying Group ID]** e **[!UICONTROL Person ID]**.
 
-   ![Connessione B2B - Aggiungi set di dati evento](assets/b2b-connection-add-datasets-event-data.png).
+   ![Connessione B2B - Aggiungi set di dati evento](assets/b2b-connection-add-datasets-event-data.png)
 
 1. Scorri verso il basso per configurare il set di dati dei record account. Accertarsi di selezionare l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) in modo che corrisponda all&#39;account dal contenitore **[!UICONTROL Global Account]**. Selezionare l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) come **[!UICONTROL Global Account field]**.
 
