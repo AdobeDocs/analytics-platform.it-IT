@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
-workflow-type: ht
+source-git-commit: 105b235c1a4791fd59cf65ae7f543a5fc08fc55d
+workflow-type: tm+mt
 source-wordcount: '3268'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,27 +69,27 @@ I passaggi seguenti descrivono il processo consigliato per l’aggiornamento da 
 
 Ogni passaggio fornisce una spiegazione di alto livello di un processo più dettagliato. Segui il collegamento di ogni passaggio e completa le attività associate, quindi torna a questa pagina e continua con il passaggio successivo del processo.
 
-1. [Pianifica l’architettura dello schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+1. [Pianifica l’architettura dello schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md){target="_blank"}.
 
-1. [Crea lo schema personalizzato che desideri in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. [Crea lo schema personalizzato che desideri in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}.
 
    Quando crei lo schema, considera le seguenti opzioni:
 
-   * Per integrare Customer Journey Analytics con RTCDP, devi abilitare l’opzione **[!UICONTROL Profile]** nello schema, come descritto in [Creare uno schema XDM da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md). Con questa opzione abilitata, i dati inseriti in set di dati basati su questo schema vengono uniti sul profilo cliente in tempo reale.
+   * Per integrare Customer Journey Analytics con RTCDP, devi abilitare l’opzione **[!UICONTROL Profile]** nello schema, come descritto in [Creare uno schema XDM da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}. Con questa opzione abilitata, i dati inseriti in set di dati basati su questo schema vengono uniti sul profilo cliente in tempo reale.
 
-   * Se desideri includere dati multimediali in streaming, devi [configurare lo schema per acquisire e utilizzare dati in streaming](/help/data-ingestion/streaming.md).
+   * Se desideri includere dati multimediali in streaming, devi [configurare lo schema per acquisire e utilizzare dati in streaming](/help/data-ingestion/streaming.md){target="_blank"}.
 
-1. [Crea un set di dati in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md).
+1. [Crea un set di dati in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md){target="_blank"}.
 
 1. (Facoltativo) Se utilizzi i dati di classificazione in Adobe Analytics, puoi aggiungerli al set di dati in Customer Journey Analytics.
 
-   Per farlo, [crea un set di dati di ricerca per ogni dimensione contenente dati di classificazione](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+   Per farlo, [crea un set di dati di ricerca per ogni dimensione contenente dati di classificazione](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md){target="_blank"}.
 
-1. Per le implementazioni Adobe Analytics che utilizzano AppMeasurement o l’estensione Analytics (tag), [crea uno stream di dati in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
+1. Per le implementazioni Adobe Analytics che utilizzano AppMeasurement o l’estensione Analytics (tag), [crea uno stream di dati in Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md){target="_blank"}. <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
-   Per le implementazioni Adobe Analytics che utilizzano il Web SDK, esiste già uno stream di dati. Per ulteriori informazioni, consulta [Configurare l’implementazione di Adobe Analytics Web SDK esistente per inviare i dati a Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md).
+   Per le implementazioni Adobe Analytics che utilizzano il Web SDK, esiste già uno stream di dati. Per ulteriori informazioni, consulta [Configurare l’implementazione di Adobe Analytics Web SDK esistente per inviare i dati a Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md){target="_blank"}.
 
-1. [Aggiungi Adobe Experience Platform come servizio allo stream di dati](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md).
+1. [Aggiungi Adobe Experience Platform come servizio allo stream di dati](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md){target="_blank"}.
 
 1. (Facoltativo) Se desideri integrare Customer Journey Analytics con Adobe Journey Optimizer, utilizza l’oggetto di personalizzazione nella tua implementazione per l’utilizzo in Adobe Journey Optimizer.
 
@@ -97,7 +97,7 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    +++Implementazione manuale (file JS)
 
-   1. [Aggiungi alloy.js al tuo sito](https://experienceleague.adobe.com/it/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22).
+   1. [Aggiungi alloy.js al tuo sito](https://experienceleague.adobe.com/it/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"}.
 
    1. Popola un oggetto XDM e invialo allo stream di dati.
 
@@ -105,13 +105,13 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    +++Tag
 
-   1. [Crea una proprietà tag e aggiungi l’estensione Adobe Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
+   1. [Crea una proprietà tag e aggiungi l’estensione Adobe Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md){target="_blank"}.
 
-   1. [Aggiungere l’estensione Adobe Experience Platform Web SDK alla proprietà tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+   1. [Aggiungere l&#39;estensione Adobe Experience Platform Web SDK alla proprietà tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md){target="_blank"}.
 
    1. [Implementa il tag loader sul sito](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
-   1. [Aggiungi la logica di raccolta dati XDM al tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
+   1. [Aggiungi la logica di raccolta dati XDM al tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md){target="_blank"}.
 
 +++
 
@@ -121,31 +121,31 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 +++
 
-1. [Verifica che l’implementazione di Web SDK stia inviando dati a un set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md).
+1. [Verifica che l’implementazione di Web SDK stia inviando dati a un set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}.
 
-1. [Crea una connessione in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. [Crea una connessione in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
 1. (Facoltativo) Collega i dati web con dati provenienti da altri canali, ad esempio i dati del call center.
 
-   A tale scopo, aggiungi set di dati aggiuntivi alla tua connessione Customer Journey Analytics, come descritto in [Importare dati da web e call center](/help/use-cases/cross-channel/call-center.md).
+   A tale scopo, aggiungi set di dati aggiuntivi alla tua connessione Customer Journey Analytics, come descritto in [Importare dati da web e call center](/help/use-cases/cross-channel/call-center.md){target="_blank"}.
 
-1. [Crea una visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
+1. [Crea una visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}.
 
-1. [Verifica che i dati vengano trasmessi alla visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+1. [Verifica che i dati vengano trasmessi alla visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}.
 
-1. Nell’ambiente Adobe Analytics, [utilizza l’inventario di Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/analytics-inventory) per visualizzare una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora.
+1. Nell’ambiente Adobe Analytics, [utilizza l’inventario di Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"} per visualizzare una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora.
 
-1. [Migra progetti e componenti](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
+1. [Migra progetti e componenti](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}.
 
    <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
-1. (Facoltativo) Se utilizzi i canali di marketing in Adobe Analytics, puoi [creare un campo derivato dal canale di marketing in Customer Journey Analytics](/help/data-views/derived-fields/derived-fields.md#marketing-channels).
+1. (Facoltativo) Se utilizzi i canali di marketing in Adobe Analytics, puoi [creare un campo derivato dal canale di marketing in Customer Journey Analytics](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}.
 
    I campi derivati sono un aspetto importante del reporting in tempo reale in Customer Journey Analytics. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile.
 
    Un utilizzo per i campi derivati consiste nel definire un campo Canale di marketing derivato che determina il canale di marketing corretto in base a una o più condizioni (ad esempio, parametro URL, URL pagina o nome pagina).
 
-   Utilizza [il modello di funzione canali di marketing](/help/data-views/derived-fields/derived-fields.md#marketing-channels) nei campi derivati per creare rapidamente un campo derivato per i canali di marketing.
+   Utilizza [il modello di funzione canali di marketing](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"} nei campi derivati per creare rapidamente un campo derivato per i canali di marketing.
 
 1. Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics dalla nuova implementazione e assicurati di comprendere eventuali differenze e perché esistono. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
@@ -155,17 +155,17 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
    >
    >Se non hai creato in precedenza un connettore di origine Analytics, procedi come segue.
    >
-   >Se utilizzi già il connettore di origine Analytics con Customer Journey Analytics, segui i passaggi descritti in [Passaggio dal connettore di origine Analytics al Web SDK per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   >Se utilizzi già il connettore di origine Analytics con Customer Journey Analytics, segui i passaggi descritti in [Passaggio dal connettore di origine Analytics al Web SDK per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}.
 
-   1. [Creare uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+   1. [Crea uno schema XDM per il connettore di origine di Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md){target="_blank"}.
 
-   1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+   1. Se non disponi già di un connettore di origine Analytics, [crea il connettore di origine Analytics e mappa i campi allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md){target="_blank"}.
 
       Oppure
 
-      Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+      Se disponi già di un connettore di origine Analytics, [mappa i campi dal connettore di origine allo schema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}.
 
-   1. [Aggiungi il set di dati del connettore di origine Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
+   1. [Aggiungi il set di dati del connettore di origine Analytics alla connessione](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md){target="_blank"}.
 
 1. Pianifica l’onboarding degli utenti.
 
@@ -173,15 +173,15 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    Dovresti lasciare agli utenti il tempo necessario (3 - 6 mesi) per familiarizzare con le differenze chiave dell’utilizzo di Analysis Workspace in Customer Journey Analytics.
 
-   Per informazioni su alcune delle differenze principali tra Adobe Analytics e Customer Journey Analytics, consulta [Guida per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md).
+   Per informazioni su alcune delle differenze principali tra Adobe Analytics e Customer Journey Analytics, consulta [Guida per gli utenti di Adobe Analytics](/help/getting-started/aa-to-cja-user.md){target="_blank"}.
 
-1. Scopri [il supporto delle funzionalità in Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md). In Customer Journey Analytics è supportata la maggior parte delle funzioni di Adobe Analytics, molte funzionalità aggiuntive sono disponibili in Customer Journey Analytics.
+1. Scopri [il supporto delle funzionalità in Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md){target="_blank"}. In Customer Journey Analytics è supportata la maggior parte delle funzioni di Adobe Analytics, molte funzionalità aggiuntive sono disponibili in Customer Journey Analytics.
 
 1. Disabilita Adobe Analytics quando l’implementazione di Customer Journey Analytics Web SDK è completa e hai familiarità con i dati che stai raccogliendo.
 
    Adobe consiglia di mantenere l’ambiente Adobe Analytics in esecuzione per un periodo di tempo dopo l’implementazione di Customer Journey Analytics.
 
-   Per ulteriori informazioni sugli usi di Adobe Analytics durante e dopo un aggiornamento, nonché sulla tempistica consigliata per la disabilitazione di Adobe Analytics, consulta [Valutare per quanto tempo mantenere Adobe Analytics dopo l’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md).
+   Per ulteriori informazioni sugli usi di Adobe Analytics durante e dopo un aggiornamento, nonché sulla tempistica consigliata per la disabilitazione di Adobe Analytics, consulta [Valutare per quanto tempo mantenere Adobe Analytics dopo l’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md){target="_blank"}.
 
 ## Generare in modo dinamico i passaggi di aggiornamento per la tua organizzazione
 
