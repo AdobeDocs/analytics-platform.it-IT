@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: c383681cb5c454b79d33a89e25b0d54bd239da66
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -157,7 +157,7 @@ Oppure potresti definire 52 segmenti: 50 segmenti per gli Stati Uniti, uno per i
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Istanza"
->abstract="Include le varianti per la quota."
+>abstract="Include le istanze per la dimensione."
 
 
 >[!CONTEXTUALHELP]
