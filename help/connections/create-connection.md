@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
+source-git-commit: 578674b3d62a8c31f1ca13e9edbb7e8c14974dc6
 workflow-type: tm+mt
-source-wordcount: '6796'
-ht-degree: 65%
+source-wordcount: '6958'
+ht-degree: 63%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 65%
 >abstract="Una modifica dell’ID gruppo acquisti elimina tutti i dati esistenti nella connessione e riacquisisce tutti i dati dal set di dati in base al nuovo ID gruppo acquisti. Questa azione può avere implicazioni in termini di costi. <br/><br/>Quando si seleziona **[!UICONTROL Continue]**, è possibile che il reporting venga posticipato fino al completamento del processo."
 
 
-L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. Consente inoltre di specificare informazioni critiche come tipo di set di dati [1&rbrace;, dimensioni, schema, ID set di dati, stato batch, stato backfill, identità e molto altro, per ridurre il rischio di configurazione errata della connessione. ](#dataset-types) Di seguito una panoramica delle nuove funzionalità:
+L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. Consente inoltre di specificare informazioni critiche come tipo di set di dati [1}, dimensioni, schema, ID set di dati, stato batch, stato backfill, identità e molto altro, per ridurre il rischio di configurazione errata della connessione. ](#dataset-types) Di seguito una panoramica delle nuove funzionalità:
 
 * Quando si crea la connessione è possibile abilitare una finestra continua di conservazione dei dati.
 * È possibile aggiungere e rimuovere i set di dati da una connessione. Quando si rimuove un set di dati, questo viene rimosso dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
@@ -111,7 +111,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/3409300/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -178,8 +178,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Person ID]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Key]** | Chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Matching Key]** | Chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo ![Ricerca](/help/assets/icons/Search.svg).
 
@@ -224,8 +224,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Person ID]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Key]** | Chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Matching Key]** | Chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo ![Ricerca](/help/assets/icons/Search.svg).
 
@@ -243,8 +243,6 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 >id="cja_connection_optionalcontainers"
 >title="Contenitori opzionali"
 >abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Global account]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunity]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Buying group]**: abilita la configurazione dei gruppi di acquisto in una connessione."
-
-
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -365,6 +363,43 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
 >id="connection_connectionmap"
 >title="Mappa della connessione"
 >abstract="La Mappa di connessione visualizza le relazioni tra evento, persona, account e set di dati di ricerca rilevanti (come opportunità, membri della campagna e altro)."
+
+>[!CONTEXTUALHELP]
+>id="connection_stitching_enable"
+>title="Abilita unione identità"
+>abstract="Abilita l’unione di identità per elevare questo set di dati evento per l’analisi cross-channel."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitching_dialog"
+>title="Abilita unione identità"
+>abstract="L’abilitazione dell’unione di identità deriva un ID unito da un singolo o da più set di dati. Questo processo può includere l’unione di dati utente provenienti da sessioni autenticate e non autenticate.<br/><br/>L&#39;utente è responsabile del rispetto delle leggi e delle normative applicabili. Questa conformità include l’ottenimento delle autorizzazioni necessarie per l’utente finale prima di unire i set di dati."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
+>[!CONTEXTUALHELP]
+>id="connection_persistent"
+>title="ID persona"
+>abstract="Seleziona un ID persistente dalle identità disponibili. Un ID persistente è un identificatore disponibile su tutti gli eventi nel set di dati evento."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
+>[!CONTEXTUALHELP]
+>id="connection_lookbackwindow"
+>title="Intervallo di lookback"
+>abstract="Seleziona il periodo di tempo appropriato per l’intervallo di lookback da utilizzare nell’unione di ripetizione."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_map"
+>title="Mappa di identità dello spazio dei nomi"
+>abstract="Seleziona lo spazio dei nomi da utilizzare per scegliere l’identificatore dalla mappa di identità."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_graph"
+>title="Grafico delle identità dello spazio dei nomi"
+>abstract="Seleziona lo spazio dei nomi da utilizzare per aggiornare l’identificatore nel grafico delle identità."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione"
+
 
 ### Aggiungere set di dati
 
