@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 33124dca4709a945400be9cab3a614436d8642c8
 workflow-type: tm+mt
 source-wordcount: '2293'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -187,8 +187,8 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
->title="Etichette di contratto"
->abstract="Le etichette del contratto (C) vengono utilizzate per categorizzare i dati che hanno obblighi contrattuali o sono relativi ai criteri di governance dei dati della tua organizzazione."
+>title="Etichette per contratti"
+>abstract="Le etichette per contratti (C) vengono utilizzate per categorizzare i dati con obblighi contrattuali o relativi ai criteri di governance dei dati della tua organizzazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 >[!CONTEXTUALHELP]
@@ -199,21 +199,21 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
->title="Etichette sensibili"
->abstract="Le etichette sensibili (S) vengono utilizzate per categorizzare i dati considerati sensibili dall’utente e dall’organizzazione."
+>title="Etichette per dati sensibili"
+>abstract="Le etichette per dati sensibili (S) vengono utilizzate per categorizzare i dati considerati sensibili dall’utente e dall’organizzazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="Ecosistema partner"
->abstract="Le etichette dell’ecosistema partner (P) vengono utilizzate per categorizzare i dati condivisi con partner di terze parti."
+>abstract="Le etichette per l’ecosistema partner (P) vengono utilizzate per categorizzare i dati condivisi con partner di terze parti."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="Criteri"
->abstract="Affinché le etichette di utilizzo dei dati supportino efficacemente la conformità dati, è necessario implementare criteri di utilizzo dei dati. I criteri di utilizzo dei dati sono regole che descrivono i tipi di azioni di marketing consentiti o limitati nell’esecuzione dei dati all’interno di Experience Platform. I filtri Criteri applicano il criterio abilitato alla visualizzazione dati."
+>abstract="Affinché le etichette di utilizzo dei dati supportino in modo efficace la conformità, è necessario implementare i criteri di utilizzo dei dati. I criteri di utilizzo dei dati sono regole che descrivono i tipi di azioni di marketing che possono essere eseguite o meno sui dati in Experience Platform. I filtri Criteri applicano il criterio abilitato alla visualizzazione dati."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 
