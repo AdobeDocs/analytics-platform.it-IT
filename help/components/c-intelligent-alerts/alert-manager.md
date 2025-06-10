@@ -4,9 +4,9 @@ title: Gestisci avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '562'
 ht-degree: 18%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 * Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Alerts]**.
 
-La gestione avvisi è strutturata come la [gestione segmenti](/help/components/filters/manage-filters.md) e la [gestione metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+La gestione avvisi è strutturata come la [gestione segmenti](/help/components/segments/seg-manage.md) e la [gestione metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 
 ## Gestione avvisi
@@ -29,7 +29,7 @@ Gestione avvisi dispone dei seguenti elementi dell’interfaccia:
 
 ### Elenco avvisi
 
-Nell&#39;elenco avvisi vengono visualizzati tutti gli avvisi di cui sei proprietario, quelli che hanno un ambito per tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
+Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui sei proprietario, quelli con ambito di tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
 
 | Colonna | Descrizione |
 |---|---|
@@ -49,7 +49,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 ### Barra delle azioni
 
-È possibile eseguire azioni sugli avvisi utilizzando la barra delle azioni di. La barra delle azioni contiene le azioni seguenti:
+È possibile eseguire azioni sugli avvisi utilizzando la barra delle azioni ➋. La barra delle azioni contiene le azioni seguenti:
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
@@ -66,12 +66,12 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 ### Barra dei filtri attivi
 
-La barra dei filtri mostra i filtri attivi applicati dal pannello dei filtri all’elenco degli avvisi (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
+La barra dei filtri ➌ mostra i filtri attivi applicati dal pannello dei filtri all&#39;elenco degli avvisi (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
 
 
 ### Pannello dei filtri
 
-È possibile filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro di controllo. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
+Puoi filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
 
 
 1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l&#39;elenco Avvisi, puoi selezionare ancora ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.

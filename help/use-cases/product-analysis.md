@@ -2,7 +2,7 @@
 title: Analisi del prodotto in Customer Journey Analytics
 description: Scopri le funzioni utilizzabili all’interno di Customer Journey Analytics per eseguire l’analisi dei prodotti in modo efficace.
 exl-id: b185a2ed-18c8-4fb3-8c69-693d5fee0e67
-source-git-commit: 3d8ebd90156f0e44e4c45913a524ed91360dd39e
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 1%
@@ -31,13 +31,13 @@ L&#39;accuratezza dei dati sui prodotti è il fondamento di un&#39;analisi effic
 Le seguenti funzionalità di Adobe Experience Platform e Customer Journey Analytics consentono di acquisire e gestire i dati di prodotto su larga scala:
 
 * Adobe Experience Platform
-   * [Set di dati&#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)
+   * [Set di dati&#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
    * [Preparazione dati&#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/data-prep/home)
-   * [Distiller dati&#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/overview)
+   * [Distiller dati&#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [connessioni&#x200B;](/help/connections/overview.md)
    * [Visualizzazioni dati](/help/data-views/data-views.md), inclusi [campi derivati&#x200B;](/help/data-views/derived-fields/derived-fields.md)
-   * [Segmenti&#x200B;](/help/components/filters/filters-overview.md)
+   * [Segmenti&#x200B;](/help/components/segments/seg-overview.md)
    * [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md)
    * [Analisi guidata&#x200B;: Timeline&#x200B;](/help/guided-analysis/types/timeline.md)
 
@@ -99,8 +99,8 @@ Le seguenti funzionalità di Experience Cloud consentono di agire in modo effica
 * [Crea e pubblica tipi di pubblico](/help/components/audiences/publish.md)&#x200B; per l&#39;attivazione da Customer Journey Analytics
 * Attiva i tipi di pubblico tramite i prodotti Experience Cloud:
    * [Esegui esperimenti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO e Adobe Target e misura l&#39;impatto delle varianti in Customer Journey Analytics utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md)
-   * [Distribuisci impegni in-app](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/in-app/get-started-in-app) agli utenti in AJO
-* [Attiva tipi di pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview) in destinazioni esterne con Adobe Real-time CDP&#x200B;
+   * [Distribuisci impegni in-app](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app) agli utenti in AJO
+* [Attiva tipi di pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview) in destinazioni esterne con Adobe Real-time CDP&#x200B;
 
 ## Condividi informazioni relative all’organizzazione&#x200B;
 

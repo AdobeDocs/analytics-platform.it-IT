@@ -3,10 +3,10 @@ description: Il gestore delle metriche calcolate consente di condividere, filtra
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 32%
+source-wordcount: '851'
+ht-degree: 31%
 
 ---
 
@@ -27,14 +27,14 @@ Il gestore delle metriche calcolate dispone dei seguenti elementi dell’interfa
 
 ### Elenco filtri
 
-Nell’elenco dei filtri vengono visualizzate tutte le metriche calcolate di tua proprietà o che sono state condivise con te. L’elenco dispone delle seguenti colonne:
+Nell&#39;elenco filtri ➊ vengono visualizzate tutte le metriche calcolate di tua proprietà o che sono state condivise con te. L’elenco dispone delle seguenti colonne:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | Colonna | Descrizione |
 | --- | --- | 
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o sfavorire ![StarOutline](/help/assets/icons/StarOutline.svg) una metrica calcolata. Vedi [Segna la metrica calcolata come preferita](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o sfavorire ![StarOutline](/help/assets/icons/StarOutline.svg) una metrica calcolata. Vedi [Segna la metrica calcolata come preferita](/help/components/segments/seg-favorite.md) |
+| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | Le visualizzazioni dati a cui si applica questa metrica calcolata. |
 | **[!UICONTROL Owner]** | Proprietario della metrica calcolata. In quanto utente, puoi visualizzare solo le annotazioni che possiedi o quelle che sono state condivise con te. |
 | **[!UICONTROL Tags]** | Elenca i tag per questa metrica calcolata. |
@@ -49,11 +49,11 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 ### Barra delle azioni
 
-Puoi eseguire azioni sui filtri utilizzando la barra delle azioni ➋. La barra delle azioni contiene le azioni seguenti:
+È possibile eseguire azioni sui filtri utilizzando la barra delle azioni ➋. La barra delle azioni contiene le azioni seguenti:
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
 | ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Tag Calculated metric]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi effettuare una ![Ricerca](/help/assets/icons/Search.svg) *Ricerca di singoli utenti o gruppi* oppure puoi selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
@@ -65,11 +65,11 @@ Puoi eseguire azioni sui filtri utilizzando la barra delle azioni ➋. La barra 
 
 ### Barra dei filtri attivi
 
-La barra dei filtri mostra i filtri attivi applicati dal pannello dei filtri all’elenco delle metriche calcolate (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
+La barra dei filtri ➌ mostra i filtri attivi applicati dal pannello dei filtri all&#39;elenco delle metriche calcolate (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
 
 ### Pannello dei filtri
 
-È possibile filtrare l&#39;elenco delle metriche calcolate utilizzando il pannello sinistro ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** di Windows Live. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di metriche calcolate che rispettano il filtro specifico. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei filtri.
+Puoi filtrare l&#39;elenco delle metriche calcolate utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di metriche calcolate che rispettano il filtro specifico. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei filtri.
 
 Per ulteriori informazioni, vedere [Filtrare l&#39;elenco delle metriche calcolate](cm-filter.md).
 

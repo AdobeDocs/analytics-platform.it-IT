@@ -3,7 +3,7 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Generare metriche calcolate
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 95%
@@ -218,6 +218,6 @@ Per eliminare un contenitore, seleziona ![Close](/help/assets/icons/Close.svg) a
 >[!MORELIKETHIS]
 >
 >[Usare le funzioni](cm-using-functions.md)
->[Segmenti](/help/components/filters/filters-overview.md)
+>>[Segmenti](/help/components/segments/seg-overview.md)
 >
 

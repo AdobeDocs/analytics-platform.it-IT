@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 51%
@@ -18,11 +18,11 @@ Puoi sfruttare i nuovi set di dati di Marketo Engage in Adobe Experience Platfor
 
 ## Passaggio 1: mappare i campi dati di origine Marketo sui relativi campi di destinazione XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=it#persons) (Persone) e [Activities](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=it#activities) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#persons) (Persone) e [Activities](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#activities) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 ## Passaggio 2: inserire i dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=it) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
 
 ## Passaggio 3: configurare una connessione al set di dati in Customer Journey Analytics
 
@@ -39,7 +39,7 @@ Un caso d’uso interessante è, ad esempio, la capacità di rispondere a quesit
 1. Apri [Analytics Workspace](/help/analysis-workspace/home.md) e crea un nuovo progetto.
 I clienti con CDP B2B/B2P possono eseguire analisi in stile B2C in Customer Journey Analytics. Gli oggetti B2B non sono ancora disponibili.
 
-1. Crea un [segmento](/help/components/filters/create-filters.md) per le visualizzazioni di pagine Web come segue - Tipo evento = web.webpagedetails.pageViews :
+1. Crea un [segmento](/help/components/segments/seg-create.md) per le visualizzazioni di pagine Web come segue - Tipo evento = web.webpagedetails.pageViews :
 
    ![Finestra di definizione che mostra il tipo di evento ed evento](../assets/marketo-filter.png)
 

@@ -4,7 +4,7 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 95%
@@ -77,7 +77,7 @@ Puoi:
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -144,10 +144,10 @@ Per iniziare a segmentare il pannello, trascina un segmento dal pannello a sinis
 
 #### Segmenti rapidi
 
-Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi in modo più rapido e senza dover passare al [Generatore di segmenti](/help/components/filters/filter-builder.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
+Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi in modo più rapido e senza dover passare al [Generatore di segmenti](/help/components/segments/seg-builder.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
 
 
-Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/filters/quick-filters.md).
+Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments/seg-quick.md).
 
 ![Segmenti ad hoc resi pubblici e rilasciati nella zona di rilascio](assets/adhoc-segment-filter.png)
 
@@ -155,7 +155,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/filters/
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

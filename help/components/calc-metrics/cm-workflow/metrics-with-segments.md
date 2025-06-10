@@ -3,7 +3,7 @@ description: La segmentazione di singole metriche consente di effettuare confron
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 1%
@@ -16,7 +16,7 @@ Nel [Generatore di metriche calcolate](cm-build-metrics.md#definition-builder), 
 
 >[!NOTE]
 >
->Le definizioni dei segmenti vengono aggiornate tramite il [Generatore di segmenti](/help/components/filters/filter-builder.md). Se apporti una modifica a un segmento, questo viene aggiornato automaticamente ovunque venga utilizzato, incluso se il segmento fa parte di una definizione di metrica calcolata.
+>Le definizioni dei segmenti vengono aggiornate tramite il [Generatore di segmenti](/help/components/segments/seg-builder.md). Se apporti una modifica a un segmento, questo viene aggiornato automaticamente ovunque venga utilizzato, incluso se il segmento fa parte di una definizione di metrica calcolata.
 >
 
 Vuoi confrontare le metriche per i tedeschi che interagiscono con il tuo marchio con quelle di persone al di fuori della Germania. Quindi puoi rispondere a domande come:
@@ -30,7 +30,7 @@ Consulta le sezioni seguenti per illustrare come le metriche segmentate possono 
 ## Pagine popolari
 
 1. [Creare una metrica calcolata](cm-workflow.md) da un progetto Workspace, denominato `German people`.
-1. Dall&#39;interno del [Generatore di metriche calcolate](cm-build-metrics.md), [crea un segmento](/help/components/filters/filter-builder.md), denominato `Germany`, che utilizza il campo Paese CRM dai dati del tuo sistema di gestione delle relazioni con i clienti per determinare la provenienza di una persona.
+1. Dall&#39;interno del [Generatore di metriche calcolate](cm-build-metrics.md), [crea un segmento](/help/components/segments/seg-builder.md), denominato `Germany`, che utilizza il campo Paese CRM dai dati del tuo sistema di gestione delle relazioni con i clienti per determinare la provenienza di una persona.
 
    >[!TIP]
    >
@@ -90,7 +90,7 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/41662?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 

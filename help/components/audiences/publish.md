@@ -4,7 +4,7 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2277'
 ht-degree: 96%
@@ -73,7 +73,7 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
    | --- | --- |
    | Dall’interfaccia **[!UICONTROL Audiences]**. | Seleziona **[!UICONTROL Components]** > **[!UICONTROL Audiences]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Create audience]** per aprire [!UICONTROL Audience builder]. |
    | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. Ad esempio, puoi selezionare **[!UICONTROL Create audience]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell’[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
-   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella con la dicitura **[!UICONTROL Create an audience from this segment]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare segmenti](/help/components/filters/create-filters.md). |
+   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella con la dicitura **[!UICONTROL Create an audience from this segment]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare segmenti](/help/components/segments/seg-create.md). |
 
    {style="table-layout:auto"}
 

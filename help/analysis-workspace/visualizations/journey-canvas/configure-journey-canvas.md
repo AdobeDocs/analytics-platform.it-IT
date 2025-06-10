@@ -4,7 +4,7 @@ title: Area di lavoro del percorso
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '6207'
 ht-degree: 1%
@@ -297,7 +297,7 @@ I nodi sono collegati da una freccia. Sia la direzione della freccia che la larg
 
 #### Logica durante la connessione dei nodi
 
-Quando si connettono nodi nell&#39;area di lavoro del Percorso, questi vengono connessi utilizzando l&#39;operatore THEN. Questa operazione è nota anche come [segmentazione sequenziale](/help/components/filters/seg-sequential-build.md).
+Quando si connettono nodi nell&#39;area di lavoro del Percorso, questi vengono connessi utilizzando l&#39;operatore THEN. Questa operazione è nota anche come [segmentazione sequenziale](/help/components/segments/seg-sequential-build.md).
 
 I nodi sono connessi come un &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati purché alla fine si spostino da un nodo all’altro, indipendentemente da eventuali eventi che si verificano tra i 2 nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dall’impostazione del contenitore. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
@@ -546,7 +546,7 @@ Per visualizzare i dati di tendenza:
 
 Puoi creare un nuovo segmento basato su un nodo o una freccia all’interno di un percorso. Dopo la creazione del segmento, puoi utilizzarlo ovunque in Analysis Workspace.
 
-I segmenti creati dall&#39;area di lavoro del Percorso utilizzano [la segmentazione sequenziale](/help/components/filters/seg-sequential-build.md). Questo significa che il segmento utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) che le persone hanno attraversato, fino al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel segmento.
+I segmenti creati dall&#39;area di lavoro del Percorso utilizzano [la segmentazione sequenziale](/help/components/segments/seg-sequential-build.md). Questo significa che il segmento utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) che le persone hanno attraversato, fino al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionati sono inclusi nel segmento.
 
 Se crei un segmento basato su un nodo che include più percorsi, tutti i percorsi vengono inclusi nel segmento. I percorsi separati vengono uniti con l&#39;operatore OR.
 
@@ -558,7 +558,7 @@ Per creare un segmento:
 
    Viene visualizzato il Generatore di segmenti. Nella sezione [!UICONTROL **Definition**], la definizione del segmento viene creata in base al nodo o alla freccia selezionati e al relativo contesto all&#39;interno del percorso.
 
-1. Specifica un titolo per il segmento e apporta eventuali altre modifiche. Per ulteriori informazioni sulla creazione di un segmento, vedere [Generatore di segmenti](/help/components/filters/filter-builder.md).
+1. Specifica un titolo per il segmento e apporta eventuali altre modifiche. Per ulteriori informazioni sulla creazione di un segmento, vedere [Generatore di segmenti](/help/components/segments/seg-builder.md).
 
 1. Seleziona [!UICONTROL **Salva**] per salvare il segmento.
 

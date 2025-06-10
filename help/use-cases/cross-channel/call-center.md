@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 88%
@@ -69,7 +69,7 @@ Le seguenti visualizzazioni possono essere utilizzate per ottenere informazioni 
 
 Questa visualizzazione ti aiuta a capire come CCA unisce i dati.
 
-1. Crea due segmenti. La variabile utilizzata in questi due segmenti è la stessa variabile di cui sopra che riflette la fonte dei dati di ciascun evento. Per ulteriori informazioni, consulta [Creare un segmento](/help/components/filters/create-filters.md).
+1. Crea due segmenti. La variabile utilizzata in questi due segmenti è la stessa variabile di cui sopra che riflette la fonte dei dati di ciascun evento. Per ulteriori informazioni, consulta [Creare un segmento](/help/components/segments/seg-create.md).
    * Contenitore Persona in cui l’ID del set di dati è uguale ai dati Web
    * Contenitore Persone in cui l’ID del set di dati è uguale ai dati del call center
 2. In Analysis Workspace, trascina una visualizzazione [Venn](/help/analysis-workspace/visualizations/venn.md) nell’area di lavoro di Workspace.

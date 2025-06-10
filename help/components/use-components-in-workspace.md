@@ -4,7 +4,7 @@ title: Utilizzare i componenti in Analysis Workspace
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 3%
@@ -91,7 +91,7 @@ Per ulteriori informazioni sulle metriche, vedere [Metriche](/help/components/ap
 
 ### Aggiungere segmenti a un progetto
 
-[I segmenti](/help/components/filters/filters-overview.md) ti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni specifiche.
+[I segmenti](/help/components/segments/seg-overview.md) ti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni specifiche.
 
 Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
@@ -103,7 +103,7 @@ Per informazioni su come utilizzare la zona di rilascio dei segmenti in un panne
 Quando aggiungi segmenti a una colonna di una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna della tabella. Puoi anche aggiungere segmenti come parte di una visualizzazione di abbandono.
 
 * Utilizzare i segmenti nei componenti
-Quando definisci componenti come [metriche calcolate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/filters/filter-builder.md) puoi utilizzare i segmenti come parte della definizione.
+Quando definisci componenti come [metriche calcolate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/segments/seg-builder.md) puoi utilizzare i segmenti come parte della definizione.
 
 
 ### Aggiungere intervalli di date a un progetto

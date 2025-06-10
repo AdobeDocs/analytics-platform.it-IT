@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 98%
@@ -19,7 +19,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Le funzioni chiave di Analysis Workspace sono disponibili tramite il pannello pu
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | I [pannelli](/help/analysis-workspace/c-panels/panels.md) servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano un intero set di analisi basate su alcuni input dell’utente. |
 | ![Analisi guidata](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Guided Analysis]** | L’[Analisi guidata](../guided-analysis/overview.md) ti consente di gestire autonomamente dati e informazioni di alta qualità sul percorso cliente tramite flussi di lavoro guidati. Puoi creare un’analisi da includere nel progetto Workspace o includere un’analisi esistente salvata in precedenza. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [Visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), ad esempio un grafico a barre o a linee che può essere utilizzato per mettere visivamente in risalto i dati. Nel pannello all’estrema sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco completo delle visualizzazioni disponibili. |
-| ![Cura](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | I [Componenti](/help/components/overview.md) includono i seguenti elementi:<ul><li>![Dimensioni](/help/assets/icons/Dimensions.svg) [Dimensioni](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Metriche](/help/components/apply-create-metrics.md)</li><li>![Segmentazione](/help/assets/icons/Segmentation.svg) [Segmenti](/help/components/filters/filters-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalli di date](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Cura](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | I [Componenti](/help/components/overview.md) includono i seguenti elementi:<ul><li>![Dimensioni](/help/assets/icons/Dimensions.svg) [Dimensioni](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [Metriche](/help/components/apply-create-metrics.md)</li><li>![Segmentazione](/help/assets/icons/Segmentation.svg) [Segmenti](/help/components/segments/seg-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalli di date](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | Il sommario organizza tutti i pannelli e le visualizzazioni inclusi nel progetto in un elenco comprimibile, che consente di accedere rapidamente a un pannello specifico o a una visualizzazione specifica. |
 | ![Segnalibro](/help/assets/icons/Bookmark.svg) | **Dizionario dati** | Il [Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md) aiuta sia agli utenti che agli amministratori a tenere traccia e comprendere meglio i componenti nell’ambiente Analytics. |
 
@@ -106,7 +106,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 
 | **[!UICONTROL Components]** | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows | Descrizione |
 |---|---|---|---|
-| **[!UICONTROL Create segment...]** | **[!UICONTROL *Maiusc+Comando+e *]** | **[!UICONTROL *Maiusc+Ctrl+e *]** | Crea un nuovo [segmento](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Create segment...]** | **[!UICONTROL *Maiusc+Comando+e *]** | **[!UICONTROL *Maiusc+Ctrl+e *]** | Crea un nuovo [segmento](/help/components/segments/seg-create.md). |
 | **[!UICONTROL Create metric...]** | **[!UICONTROL *Maiusc+Comando+c *]** | **[!UICONTROL *Maiusc+Ctrl+c *]** | Crea una nuova [metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *Maiusc+Comando+d *]** | **[!UICONTROL *Maiusc+Ctrl+d *]** | Crea un nuovo [intervallo di date](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *Maiusc+Comando+o *]** | **[!UICONTROL *Maiusc+Ctrl+o *]** | Crea una nuova [annotazione](/help/components/annotations/overview.md). |

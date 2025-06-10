@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 8%
@@ -34,7 +34,7 @@ Anche se alcuni singoli elementi dimensionali potrebbero mancare nei rapporti co
 
 Il modo migliore per adattarsi a dimensioni ad alta cardinalità consiste nel limitare il numero di elementi dimensionali elaborati da un rapporto. Poiché tutti i rapporti vengono elaborati al momento della richiesta, è possibile modificare i parametri per i risultati immediati. Adobe consiglia una delle seguenti ottimizzazioni per le dimensioni ad alta cardinalità:
 
-* Utilizza un [segmento](/help/components/filters/create-filters.md). I segmenti si applicano nel momento in cui ogni server elabora un sottoinsieme di dati.
+* Utilizza un [segmento](/help/components/segments/seg-create.md). I segmenti si applicano nel momento in cui ogni server elabora un sottoinsieme di dati.
 * Utilizza una ricerca. Gli elementi Dimension esclusi dal termine di ricerca vengono rimossi dai risultati del rapporto, rendendo più probabile la visualizzazione degli elementi dimensionali desiderati.
 * Utilizza una dimensione del set di dati di ricerca. Le dimensioni del set di dati di ricerca combinano elementi dimensionali del set di dati evento, che limitano il numero di valori univoci restituiti.
 * Utilizza l&#39;impostazione del componente [Inclusione/Esclusione](/help/data-views/component-settings/include-exclude-values.md) nel gestore delle visualizzazioni dati.

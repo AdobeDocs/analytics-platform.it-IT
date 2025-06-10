@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 96%
@@ -78,7 +78,7 @@ Per rendere la transizione il più semplice possibile per gli utenti che passano
 
 2. Documenta le loro definizioni.
 
-3. Identifica i campi necessari nei dati per replicarli in Customer Journey Analytics come [Segmenti](/help/components/filters/filters-overview.md) e [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
+3. Identifica i campi necessari nei dati per replicarli in Customer Journey Analytics come [Segmenti](/help/components/segments/seg-overview.md) e [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
 
 Ecco un paio di video per guidarti:
 
