@@ -109,7 +109,7 @@ I segmenti si basano su una gerarchia a livello di persona, sessione ed evento c
 
 Un segmento imposta le condizioni per segmentare persone, sessioni o eventi in base alle condizioni. Ad esempio, le condizioni per segmentare le persone si basano sulle caratteristiche delle persone e sulle caratteristiche di navigazione. Per suddividere ulteriormente i dati, puoi segmentare su sessioni specifiche, eventi di visualizzazione della pagina, tocchi a schermo, scelte di menu su un set-top box e altro ancora. Puoi anche segmentare gli attributi che hai acquisito da un sistema CRM o fedeltà. [Generatore di segmenti](/help/components/segments/seg-builder.md) fornisce una semplice interfaccia per generare questi sottoinsiemi e applicare condizioni in contenitori Persona, Sessione o Evento nidificati e gerarchici.
 
-L&#39;architettura del contenitore utilizzata nel generatore di segmenti [](/help/components/segments/seg-builder.md) definisce Persona come il contenitore più esterno. Questo contenitore contiene dati generali specifici della persona in più sessioni ed eventi come visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni. Un contenitore Evento nidificato consente di suddividere le informazioni sulla persona in base alle singole interazioni. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
+L&#39;architettura del contenitore utilizzata nel generatore di segmenti [&#128279;](/help/components/segments/seg-builder.md) definisce Persona come il contenitore più esterno. Questo contenitore contiene dati generali specifici della persona in più sessioni ed eventi come visualizzazioni di pagina, schermate di app mobili o schermate di menu su un set-top box. Un contenitore Sessione nidificato consente di impostare regole per suddividere i dati della persona in base alle sessioni. Un contenitore Evento nidificato consente di suddividere le informazioni sulla persona in base alle singole interazioni. Ogni contenitore consente di generare rapporti sulla cronologia di una persona e sulle sue interazioni suddivise per sessioni o di suddividere singoli eventi.
 
 ### Contenitore Persona
 
@@ -207,7 +207,7 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 >[!MORELIKETHIS]
 >
 >[Creare un segmento](seg-create.md)
->>[Generatore di segmenti](seg-builder.md)
->>[Segmenti rapidi](seg-quick.md)
->>[Segmenti sequenziali](seg-sequential-build.md)
->>[Gestisci segmenti](seg-manage.md)
+>&#x200B;>[Generatore di segmenti](seg-builder.md)
+>&#x200B;>[Segmenti rapidi](seg-quick.md)
+>&#x200B;>[Segmenti sequenziali](seg-sequential-build.md)
+>&#x200B;>[Gestisci segmenti](seg-manage.md)

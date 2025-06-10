@@ -77,7 +77,7 @@ Puoi:
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 

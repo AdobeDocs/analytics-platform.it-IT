@@ -218,6 +218,6 @@ Per eliminare un contenitore, seleziona ![Close](/help/assets/icons/Close.svg) a
 >[!MORELIKETHIS]
 >
 >[Usare le funzioni](cm-using-functions.md)
->>[Segmenti](/help/components/segments/seg-overview.md)
+>&#x200B;>[Segmenti](/help/components/segments/seg-overview.md)
 >
 
