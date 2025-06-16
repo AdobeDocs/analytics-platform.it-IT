@@ -18,11 +18,11 @@ I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la 
 
 Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL ** Maiusc **]**.
-- **⌘** per **[!UICONTROL ** cmd **]** (comando).
-- **⌃** per **[!UICONTROL ** ctrl **]** (controllo).
-- **⌥** per **[!UICONTROL ** opt **]** (opzione).
-- **⎇** per **[!UICONTROL ** alt **]** (alternativa).
+- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
+- **⌘** per **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
+- **⌃** per **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (controllo).
+- **⌥** per **[!UICONTROL **&#x200B; opt &#x200B;**]** (opzione).
+- **⎇** per **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativa).
 
 ## Azioni di navigazione
 
