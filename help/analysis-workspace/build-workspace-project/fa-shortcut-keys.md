@@ -5,10 +5,10 @@ feature: Workspace Basics
 title: Come utilizzare i tasti di scelta rapida di Workspace
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 90%
 
 ---
 
@@ -19,10 +19,10 @@ I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la 
 Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 
 - **⇧** per **[!UICONTROL ** Maiusc **]**.
-- **⌘** per **[!UICONTROL ** Cmd **]** (comando).
-- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
-- **⌥** per **[!UICONTROL ** Opt **]** (opzione).
-- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
+- **⌘** per **[!UICONTROL ** cmd **]** (comando).
+- **⌃** per **[!UICONTROL ** ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** opt **]** (opzione).
+- **⎇** per **[!UICONTROL ** alt **]** (alternativa).
 
 ## Azioni di navigazione
 
@@ -35,8 +35,8 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 | Passa al riquadro Componenti | **[!UICONTROL *Opzione+Maiusc+3 *]** | **[!UICONTROL *Alt+Maiusc+3 *]** |
 | Comprimi/espandi tutti i pannelli | **[!UICONTROL *Opzione+m *]** | **[!UICONTROL *Alt+m *]** |
 | Comprimi/espandi pannello attivo | **[!UICONTROL *Opzione+Comando+m *]** | **[!UICONTROL *Alt+Ctrl+m *]** |
-| Passa al pannello successivo | **[!UICONTROL *Opzione *+ ▶︎]** | **[!UICONTROL *Alt *+ ▶︎]** |
-| Passa al pannello precedente | **[!UICONTROL *Opzione *+ ◀︎]** | **[!UICONTROL *Alt *+ ◀︎]** |
+| Passa al pannello successivo | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| Passa al pannello precedente | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## Azioni di analisi
 
@@ -67,6 +67,13 @@ Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 | Nuovo grafico a linee | **[!UICONTROL *Opzione+2 *]** | **[!UICONTROL *Alt+2 *]** |
 | Nuovo grafico a barre | **[!UICONTROL *Opzione+3 *]** | **[!UICONTROL *Alt+3 *]** |
 | Nuovo grafico combinato | **[!UICONTROL *Opzione+4 *]** | **[!UICONTROL *Alt+4 *]** |
+
+## Spostare le azioni del pannello
+
+| Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
+| --- | --- | --- | 
+| Sposta pannello in alto | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Su *]** |
+| Sposta pannello in basso | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt + Ctrl + Giù&#x200B;*]** |
 
 ## Azioni di democratizzazione
 
