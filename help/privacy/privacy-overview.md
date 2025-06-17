@@ -4,16 +4,16 @@ description: Descrive il funzionamento della governance dei dati nel Customer Jo
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 90%
 
 ---
 
 # Adobe Customer Journey Analytics e governance dei dati
 
-In generale, Customer Journey Analytics eredita tutte le impostazioni relative alla privacy da Adobe Experience Platform.
+In generale, Customer Journey Analytics eredita tutte le impostazioni relative alla governance dei dati da Adobe Experience Platform.
 
 ## Governance dei dati
 
@@ -27,9 +27,15 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 [Ulteriori informazioni](/help/data-views/data-governance.md)
 
-## RGPD
+## Richieste di accesso a dati personali
 
-Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (RGPD) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Customer Journey Analytics dipende dal data lake di Platform per l’applicazione delle richieste di eliminazione GDPR e per la notifica a Customer Journey Analytics quando le richieste sono completate. Tutte le modifiche ai batch interessati in Customer Journey Analytics per i set di dati evento sono sincronizzate con i dati di Platform. I set di dati di profilo e di ricerca interessati da richieste di eliminazione GDPR sono completamente riacquisiti dopo ogni richiesta di eliminazione. Le richieste di eliminazione vengono generalmente completate entro 7 giorni da un evento di eliminazione nel data lake.
+Adobe gestisce le richieste di accesso ai dati personali in conformità alle leggi locali e internazionali applicabili.
+
+Poiché Customer Journey Analytics utilizza i dati disponibili in Adobe Experience Platform, Adobe offre a [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) di inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+
+## GDPR
+
+Customer Journey Analytics non aderirà direttamente al servizio centrale del regolamento generale sulla protezione dei dati (GDPR) ed erediterà invece tutte le modifiche ai dataset effettuate in Experience Platform. Customer Journey Analytics dipende dal data lake di Platform per l’applicazione delle richieste di eliminazione GDPR e per la notifica a Customer Journey Analytics quando le richieste sono completate. Tutte le modifiche ai batch interessati in Customer Journey Analytics per i set di dati evento sono sincronizzate con i dati di Platform. I set di dati di profilo e di ricerca interessati da richieste di eliminazione GDPR sono completamente riacquisiti dopo ogni richiesta di eliminazione. Le richieste di eliminazione vengono generalmente completate entro 7 giorni da un evento di eliminazione nel data lake.
 
 ## CCPA
 
