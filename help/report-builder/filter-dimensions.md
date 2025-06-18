@@ -1,15 +1,15 @@
 ---
-title: Come filtrare le dimensioni in Report Builder
+title: Filtrare le dimensioni in Report Builder
 description: Descrive come utilizzare le dimensioni filtro in Report Builder for Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 97c3b05d4d9661aabcb1b06db7fdf44671a29394
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 30%
+source-wordcount: '938'
+ht-degree: 31%
 
 ---
 
@@ -42,7 +42,7 @@ Per modificare gli elementi dimensionali restituiti per ogni dimensione:
 
 1. In Report Builder viene visualizzata la conferma del filtro aggiunto.
 
-Per visualizzare i filtri applicati, passa il cursore su una dimensione. Le dimensioni con filtri applicati visualizzano un&#39;icona di filtro ![Filtro](/help/assets/icons/Filter.svg) accanto al nome della dimensione.
+Per visualizzare i filtri applicati, passa il puntatore su una dimensione. Le dimensioni con filtri applicati visualizzano un&#39;icona di filtro ![Filtro](/help/assets/icons/Filter.svg) accanto al nome della dimensione.
 
 ## Modificare il filtro e l’ordinamento
 
@@ -121,7 +121,7 @@ Per impostare i criteri di filtro:
 
 Puoi includere fino a 10 elementi di criteri.
 
-### **[!UICONTROL &#x200B; Specific]**
+### **[!UICONTROL  Specific]**
 
 L&#39;opzione **[!UICONTROL Specific]** consente di creare un elenco fisso di elementi dimensionali per ogni dimensione. Utilizza il tipo di filtro **[!UICONTROL Specific]** per specificare gli elementi dimensionali esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 
