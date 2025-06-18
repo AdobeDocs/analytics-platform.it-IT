@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Creare valore di prodotto
-
-{{draft-b2b}}
 
 Desideri fornire informazioni sul valore dei prodotti B2B a responsabili di prodotto, CMO o CEO. Ad esempio, attraverso un’analisi o previsioni di abbandono basate su dati. E rendi queste informazioni digeribili attraverso le dashboard dei dispositivi mobili.
 

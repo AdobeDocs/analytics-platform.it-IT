@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: ff8d419e-5cc6-4e1b-8cf8-9dbaa8054179
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 22%
@@ -15,8 +15,6 @@ ht-degree: 22%
 
 
 # Guida rapida di B2B edition
-
-{{draft-b2b}}
 
 Per implementare Customer Journey Analytics B2B edition, assicurati innanzitutto di comprendere i concetti e le funzionalità specifici di B2B. Inoltre, dovresti avere familiarità con il flusso di lavoro tradizionale per implementare Customer Journey Analytics.
 
@@ -34,7 +32,7 @@ Per implementare Customer Journey Analytics B2B edition, si applicano i seguenti
 
 | Attività | Dettagli |
 | --- | --- |
-| **Passaggio 1: inserire dati B2B in Experience Platform** | Questo passaggio, eseguito in Experience Platform, prevede diversi passaggi secondari:<ul><li>**Passaggio 1a: preparare lo schema dati**. Utilizza [Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home.html?lang=it) per standardizzare i dati B2B e [definire schemi](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/schemas/b2b) per i dati B2B.</li><li>**Passaggio 1b: creare un set di dati basato sullo schema**: i dati in Platform sono costituiti da set di dati, ad esempio dati dell&#39;account, dati dell&#39;opportunità, dati del gruppo di acquisto, dati della campagna, dati dell&#39;elenco di marketing, set di dati e-mail, set di dati CRM, set di dati POS e altro ancora. Ciascun set di dati è costituito da uno schema e da batch di dati. Puoi [creare un set di dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=it).</li><li>**Passaggio 1c: inserire dati in Experience Platform**: sono disponibili [diverse opzioni](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).</li></ul> |
+| **Passaggio 1: inserire dati B2B in Experience Platform** | Questo passaggio, eseguito in Experience Platform, prevede diversi passaggi secondari:<ul><li>**Passaggio 1a: preparare lo schema dati**. Utilizza [Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home.html?lang=it) per standardizzare i dati B2B e [definire schemi](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) per i dati B2B.</li><li>**Passaggio 1b: creare un set di dati basato sullo schema**: i dati in Platform sono costituiti da set di dati, ad esempio dati dell&#39;account, dati dell&#39;opportunità, dati del gruppo di acquisto, dati della campagna, dati dell&#39;elenco di marketing, set di dati e-mail, set di dati CRM, set di dati POS e altro ancora. Ciascun set di dati è costituito da uno schema e da batch di dati. Puoi [creare un set di dati in Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=it).</li><li>**Passaggio 1c: inserire dati in Experience Platform**: sono disponibili [diverse opzioni](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).</li></ul> |
 | **Passaggio 2: creare connessioni tra set di dati di Platform e Customer Journey Analytics** | Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti sui set di dati di Experience Platform devi prima stabilire una connessione tra i set di dati in Experience Platform e Workspace. Sono disponibili opzioni aggiuntive quando si configura una connessione con B2B edition. <br>Consulta [Creare o modificare una connessione](/help/connections/create-connection.md). |
 | **Passaggio 3: creare visualizzazioni dati** | Una visualizzazione dati è *filtrata* dei dati. Puoi creare diverse visualizzazioni dati per la stessa connessione, con impostazioni diverse per timeout visita, attribuzione e altro ancora. Puoi creare più viste dati per un singolo set di dati. Quando si configura una visualizzazione dati con B2B edition, sono disponibili opzioni aggiuntive.<br>Consulta [Creare una visualizzazione dati](/help/data-views/create-dataview.md). |
 | **Passaggio 4: creare rapporti sui dati multicanale in Workspace** | Dopo aver creato connessioni e visualizzazioni dati, analizza i dati B2B inseriti utilizzando la potenza e la flessibilità di Analysis Workspace.<br>Consulta [Eseguire analisi di base](/help/analysis-workspace/perform-basic-analysis.md) ed [Eseguire analisi avanzate](/help/analysis-workspace/perform-adv-analysis.md). |

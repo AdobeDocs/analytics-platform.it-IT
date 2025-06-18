@@ -1,7 +1,7 @@
 ---
-source-git-commit: fe705aade87a2c5ea8d47db3dcd727d239eafc76
+source-git-commit: 256b1a3901a13ff2873a5cb5782baf26c93b8e8d
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '4824'
 ht-degree: 37%
 
 ---
@@ -124,21 +124,26 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 {style="table-layout:auto"}
 
+## Contenitore di attribuzione {#attribution-container}
+
+Un contenitore di attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
+
+* **Sessione**: considera fino l&#39;inizio della sessione in cui si è verificata una conversione. Gli intervalli di lookback della sessione rispettano il [Timeout sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
+* **Persona**: esamina le conversioni dall&#39;ambito del contenitore persona.
+* **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore degli account globali.
+* **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore persona.
+* **Opportunità** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore opportunità.
+* **Gruppo di acquisto** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore del gruppo di acquisto.
+
 ## Intervallo di lookback dell’attribuzione {#attribution-lookback-window}
 
-Per intervallo di lookback si intende la quantità di tempo che una conversione deve recuperare nel passato per includere i punti di contatto. Se un elemento dimensione è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
+Un intervallo di lookback di attribuzione è la quantità di tempo che una conversione deve recuperare per includere i punti di contatto. Se un elemento dimensione è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 
 * **14 giorni**: cerca fino a 14 giorni dal momento in cui si è verificata la conversione.
 * **30 giorni**: cerca fino a 30 giorni da quando si è verificata la conversione.
 * **60 giorni**: cerca fino a 60 giorni da quando si è verificata la conversione.
 * **90 giorni**: cerca fino a 90 giorni dal momento in cui si è verificata la conversione.
 * **13 mesi** [!BADGE B2B edition]{type=Informative}: cerca fino a 13 mesi da quando si è verificata la conversione.
-* **Sessione**: considera fino l&#39;inizio della sessione in cui si è verificata una conversione. Gli intervalli di lookback della sessione rispettano il [Timeout sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
-* **Persona (intervallo di reporting)**: esamina tutte le visite fino al primo del mese dell&#39;intervallo date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback a persona sarà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Account globale (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account globali fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback globale dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Account (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti gli account fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’account includerà il periodo dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Opportunità (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutte le opportunità fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback dell’opportunità includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
-* **Gruppo di acquisto (intervallo di reporting)** [!BADGE B2B edition]{type=Informative}: esamina tutti i gruppi di acquisto fino al primo del mese dell&#39;intervallo di date corrente. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su gruppo di acquisto includerà dal 1° al 30 settembre. Se utilizzi questo intervallo di lookback, puoi notare occasionalmente che gli elementi dimensionali sono attribuiti a date al di fuori dell’intervallo di reporting.
 * **Ora personalizzata:** consente di impostare un intervallo di lookback personalizzato da quando si è verificata una conversione. È possibile specificare il numero di minuti, ore, giorni, settimane, mesi o trimestri. Ad esempio, se si verificasse una conversione il 20 febbraio, un intervallo di lookback di cinque giorni valuterebbe tutti i punti di contatto delle dimensioni dal 15 febbraio al 20 febbraio nel modello di attribuzione.
 
 ## Esempio di attribuzione {#attribution-example}
@@ -149,35 +154,20 @@ Prendi in considerazione l’esempio seguente:
 1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
 1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
-A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi:
+A seconda del modello di attribuzione, a contenitore e canali viene assegnato un credito diverso. Per esempi, consulta la tabella seguente:
 
-* Utilizzando il **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
-
-* Utilizzando il **primo contatto** e un **intervallo di lookback per persona**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
-
-* Utilizzando un modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-Utilizzando un modello **lineare** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
-
-* Utilizzando un modello **a forma di J** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
-
-   * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
-   * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
-   * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
-
-* Utilizzando **Decadimento nel tempo** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
-
-   * Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
-   * Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
-   * Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
-   * Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
-   * La normalizzazione di questi valori determina quanto segue:
-
-      * Visualizzazione: 33,8%, ovvero 16,88 $
-      * E-mail: 33,8% ovvero 16,88 $
-      * Social: 18,6%, ovvero 9,32 $
-      * Ricerca a pagamento: 13,8%, ovvero 6,92 $
+| Modello | Contenitore | Intervallo di lookback | Spiegazione |
+|---|---|---|---|
+| Primo contatto | Sessione | 30 giorni | Attribution considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €. |
+| Primo contatto | Persona | 30 giorni | Attribution esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $. |
+| Lineare | Sessione | 30 giorni | Il credito è diviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
+| Lineare | Persona | 30 giorni | Il credito è diviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto. |
+| A forma di J | Persona | 30 giorni | Il credito è diviso tra ricerca a pagamento, social, e-mail e visualizzazione.<ul><li>Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.</li><li>Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.</li><li>Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.</li></ul> |
+| Decadimento nel tempo | Persona | 30 giorni | <ul><li>Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`</li><li>Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`</li>La normalizzazione di questi valori determina quanto segue:<ul><li>Visualizzazione: 33,8%, ovvero 16,88 $</li><li>E-mail: 33,8% ovvero 16,88 $</li><li>Social: 18,6%, ovvero 9,32 $</li><li>Ricerca a pagamento: 13,8%, ovvero 6,92 $</li></ul></li></ul> |
 
 Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono lo 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Utilizza contenitori B2B specifici, come Account o Opportunità, e intervalli di lookback più appropriati (fino a 13 mesi) per applicare modelli di attribuzione superiori in scenari B2B tipici.
 
 ## Confronti nella visualizzazione percorso {#journey-visualization-comparisons}
 

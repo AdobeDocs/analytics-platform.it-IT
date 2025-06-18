@@ -4,10 +4,10 @@ title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '827'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ Le [!UICONTROL Column settings] consentono di configurare la formattazione delle
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -90,13 +90,13 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 >
 >Quando aggiorni l’attribuzione di un componente a un modello di attribuzione non predefinito, tieni presente quanto segue:
 >
->* **Quando si utilizza il componente in un report con *una singola dimensione*:** L&#39;attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando utilizzi il componente in un report con *una singola dimensione*:** l’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->* **Quando si utilizza il componente in un report con *più dimensioni*:** L&#39;attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando utilizzi il componente in un report con *più dimensioni*:** l’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->   Più dimensioni sono disponibili solo quando [esporta dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
+>   Più dimensioni sono disponibili solo durante l’[esportazione di dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
 >
-> Per ulteriori informazioni sull&#39;allocazione, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
+> Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
 Per utilizzare un modello di attribuzione non predefinito per una metrica in un Analysis Workspace:
 
@@ -113,11 +113,17 @@ Per utilizzare un modello di attribuzione non predefinito per una metrica in un 
 
 {{attribution-models-details}}
 
+### Contenitore
+
+{{attribution-container}}
+
 ### Intervallo di lookback
 
 {{attribution-lookback-window}}
 
+### Esempio
 
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

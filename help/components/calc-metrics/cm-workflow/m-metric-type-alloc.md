@@ -3,10 +3,10 @@ description: Scopri il tipo di metrica e l’attribuzione
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
+source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 92%
 
 ---
 
@@ -33,23 +33,23 @@ Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-
          * Disabilitare **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
          * Abilitare **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
 
-            * Seleziona un **[!UICONTROL Model]** dai modelli di attribuzione.
-            * Seleziona una **[!UICONTROL Lookback window]**. Se selezioni **[!UICONTROL Custom Time]**, puoi definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**. Per ulteriori informazioni, consulta [Intervallo di lookback](#lookback-window).
+            * Seleziona **[!UICONTROL Model]** dai [modelli di attribuzione](#attribution-models).
+            * Seleziona **[!UICONTROL Container]** dalle opzioni [container](#container).
+            * Seleziona **[!UICONTROL Lookback window]** dalle opzioni dell&#39;[intervallo di lookback](#lookback-window). Se si seleziona **[!UICONTROL Custom Time]**, è possibile definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**.
 
       1. Seleziona **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
 
      Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Edit]** per modificare la selezione.
 
-Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribuzione e di un intervallo di lookback.
+Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribuzione, un contenitore e un intervallo di lookback.
 
 
-## Attribution {#attribution}
+## Modelli di attribuzione {#attribution-models}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Usa modello di attribuzione non predefinito"
 >abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
-
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -131,69 +131,38 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >title="Algoritmico"
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
+{{attribution-models-details}}
+
+
+## Contenitore {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Contenitore"
 >abstract="Seleziona un contenitore per impostare l’ambito desiderato per l’attribuzione."
 
+{{attribution-container}}
 
-{{attribution-models-details}}
 
-
-<!-- markdownlint-disable MD034 -->
+## Intervallo di lookback {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervallo di lookback"
 >abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
 
-
 {{attribution-lookback-window}}
 
 
-### Esempio di attribuzione {#attribution-example}
 
-Prendi in considerazione l’esempio seguente:
 
-1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
-1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
-1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
+## Esempio
 
-A seconda dell’intervallo di lookback e del modello di attribuzione definiti, ai canali saranno assegnati crediti diversi. Di seguito sono riportati alcuni esempi:
-
-* Utilizzando il **primo contatto** e un **intervallo di lookback per sessione**, l’attribuzione considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €.
-
-* Utilizzando il **primo contatto** e un **intervallo di lookback per persona**, l’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $.
-
-* Utilizzando un modello **lineare** e un **intervallo di lookback per sessione**, il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $.
-Utilizzando un modello **lineare** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto.
-
-* Utilizzando un modello **a forma di J** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.
-
-   * Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.
-   * Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.
-   * Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.
-
-* Utilizzando **Decadimento nel tempo** e un **intervallo di lookback per persona**, il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Utilizzando la mezza durata predefinita di 7 giorni:
-
-   * Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`
-   * Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`
-   * Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`
-   * Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`
-   * La normalizzazione di questi valori determina quanto segue:
-
-      * Visualizzazione: 33,8%, ovvero 16,88 $
-      * E-mail: 33,8% ovvero 16,88 $
-      * Social: 18,6%, ovvero 9,32 $
-      * Ricerca a pagamento: 13,8%, ovvero 6,92 $
-
-Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono lo 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
-
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti di attribuzione](/help/data-views/component-settings/attribution.md)
->[Metrica di partecipazione](participation-metric.md)
+>>[Metrica di partecipazione](participation-metric.md)
 >
 

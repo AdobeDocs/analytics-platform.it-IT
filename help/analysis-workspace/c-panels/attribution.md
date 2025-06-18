@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '649'
+source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -92,9 +92,17 @@ La visualizzazione seguente fa parte dell’output del pannello.
 
 {{attribution-models-details}}
 
+## Contenitore
+
+{{attribution-container}}
+
 ## Intervallo di lookback
 
 {{attribution-lookback-window}}
+
+## Esempio
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

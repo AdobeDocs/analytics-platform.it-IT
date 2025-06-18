@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2296'
 ht-degree: 88%
 
 ---
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -245,13 +245,17 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 ## Impostazioni {#dataview-settings}
 
 1. Seleziona la scheda **[!UICONTROL Settings]**.
+
+   ![Impostazioni della visualizzazione dati](assets/dataview-settings.png)
+
 1. Configura i segmenti da applicare all’intera visualizzazione dati. Consulta [Impostazioni (segmenti)](#settings-filters) di seguito.
 1. Configura il timeout e le metriche della sessione. Consulta [Impostazioni sessione](#session-settings) di seguito.
+
 1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
 
 ### Impostazioni (segmenti) {#segment-settings}
 
-Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dall&#39;elenco nella barra a sinistra e rilascialo sul campo **[!UICONTROL Add segments]**.
+Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dai componenti nella barra a sinistra al campo **[!UICONTROL Add segments]**.
 
 ### Impostazioni di sessione
 
