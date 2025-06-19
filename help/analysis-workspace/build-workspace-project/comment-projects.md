@@ -4,9 +4,9 @@ title: Aggiungere e visualizzare commenti nei progetti
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puoi visualizzare i commenti dall’area commenti nella barra a destra o dal bad
 
 ### Visualizza commenti nell&#39;area commenti
 
-Tutti i commenti aggiunti in un progetto Analysis Workspace sono visibili nell’area commenti nella barra a destra.
+Tutti i commenti aggiunti in un progetto Analysis Workspace sono visibili nell’area commenti nella barra a destra. Il numero totale di commenti esistenti viene visualizzato sull&#39;icona dei commenti.
 
 1. Per impostazione predefinita, la prima volta che apri un progetto, l’area dei commenti viene espansa per ogni progetto in Analysis Workspace.
 
@@ -131,13 +131,15 @@ Per includere un&#39;altra persona nel commento:
 
 ## Rispondi a un commento
 
-1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
+1. In Analysis Workspace, apri il progetto in cui desideri aggiungere un commento.
 
-1. Seleziona **[!UICONTROL Reply]** accanto al commento a cui desideri rispondere.
+1. Seleziona l&#39;icona dell&#39;area commenti ![Icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace, quindi seleziona **[!UICONTROL Reply]** accanto al commento a cui desideri rispondere.
+
+   Per includere il testo del commento a cui si risponde, con il testo originale racchiuso in un tag di virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Quote reply]**. Una risposta a un preventivo è un buon modo per indicare a quale commento o risposta si riferisce il commento.
 
    Oppure
 
-   Per includere il testo del commento a cui si risponde, con il testo originale racchiuso in un tag di virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Quote reply]**. Una risposta a un preventivo è un buon modo per indicare a quale commento o risposta si riferisce il commento.
+   Selezionare l&#39;icona del commento nel pannello o nella visualizzazione in cui è stato creato, quindi selezionare **[!UICONTROL Reply]**.
 
 1. Nel campo **[!UICONTROL New comment]**, specifica il commento.
 
@@ -149,9 +151,9 @@ Per includere un&#39;altra persona nel commento:
 
 ## Ricevi notifiche sui commenti
 
-I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
+Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Inserisci un badge per un commento esistente
 
